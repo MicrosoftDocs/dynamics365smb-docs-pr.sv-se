@@ -3,19 +3,19 @@ title: Ställa in Financialsprocesser | Microsoft Docs
 description: Få mer information om uppgifterna för att ställa in Finance i ditt företag som passar alla behov av redovisning, granskning eller bokföring.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b18d4406f77594486104e2348487a3380cca0af4
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: a659fd4edfcbeccf65204f30685ce5b3cf527399
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024468"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381937"
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
 Innan du kan börja driva ditt företag måste du ange regler och standardvärden för hur du vill hantera finansprocesser för det företaget. Du börjar med att skapa det viktigaste för företagets redovisningsposter – kontoplanen. Därefter skapar du bokföringsmallar, som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.
@@ -32,7 +32,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | --- | --- |
 | Ange hur du vill att kunderna ska betala och hur du vill betala leverantörerna. |[Konfigurera betalsätt](finance-payment-methods.md) |
 | Ange betalningsvillkor för att hantera förfallodatum och beräkna eventuella kassarabatter.|[Ställa in betalningsvillkor](finance-payment-terms.md) |
-| Ange bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. |[Ställa in bokföringsmallar](finance-posting-groups.md)|
+| Ange bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. |[Ställa in bokföringsmallar](finance-posting-groups.md)|
 |Skapa kontouppställningar och definiera kategorier för att definiera innehållet i ekonomiska tabeller och rapporter som rapporterna balansräkning och resultaträkning.|[Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)|
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Ställa in räkenskapsperioder. |[Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md) |

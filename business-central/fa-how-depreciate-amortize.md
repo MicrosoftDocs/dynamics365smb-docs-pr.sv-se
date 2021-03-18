@@ -3,19 +3,19 @@ title: Skriva av eller amortera anläggningstillgångar | Microsoft Docs
 description: Du måste definiera hur du ska skriva ner, skriva av eller amortera var och en av anläggningstillgångarna.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3eb4cffd4e67c4cd375619ec8b36e17e6ee527b4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 46a138d7168c48e47f9db823108abc6d6af280ab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749449"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380587"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Så här skriver du av eller amorterar anläggningstillgångar
 Avskrivning används för att fördela kostnaden för anläggningstillgångar, som exempelvis maskiner och inventarier, över den avskrivningsbara livslängden. För varje anläggningstillgång måste du ange hur den ska avskrivas.  
@@ -63,7 +63,7 @@ I fältet **utgående bokföringsvärde** på sidan **Anl. avskrivningsregler** 
 
 > [!NOTE]
 > Om den senaste avskrivningen innebär att fältet **Bokföringsvärde** på sidan **Anläggningstillgångskort** är noll, den senaste avskrivningen minskar automatiskt med detta belopp.<br /><br />
-> Är **bokföringsvärdet** större än noll efter den senaste avskrivningen, t.ex. på grund av avrundningsproblem eller att det finns ett befintligt återanskaffningsvärde, ignoreras fältet utgående **bokföringsvärde** på sidan **Anl. avskrivningsregler**. Mer information finns i [så här bokför du återanskaffningsvärdet tillsammans med anskaffningskostnaden](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
+> Är **bokföringsvärdet** större än noll efter den senaste avskrivningen, t. ex. på grund av avrundningsproblem eller att det finns ett befintligt återanskaffningsvärde, ignoreras fältet utgående **bokföringsvärde** på sidan **Anl. avskrivningsregler**. Mer information finns i [så här bokför du återanskaffningsvärdet tillsammans med anskaffningskostnaden](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Så här beräknar du fördelningar i redovisningsjournaler för anläggningstillgångar
 Om en anläggningstillgång används av flera avdelningar kan periodisk avskrivning automatiskt fördelas på avdelningarna utifrån en användardefinierad fördelningstabell.  

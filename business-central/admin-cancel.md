@@ -3,19 +3,19 @@ title: Avbryta prenumerationen eller ta bort Business Central
 description: Lär dig ta bort eller radera din Business Central-upplevelse om du har en provprenumeration eller om du har en betald prenumeration.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee1acd4f7e3d036ec091392b637519f45d8a8af6
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: a34e79b1cc77844ce712a6a6df294b2f3218f363
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068293"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378754"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Avbryta prenumerationen eller ta bort [!INCLUDE[prod_short](includes/prod_short.md)]
 

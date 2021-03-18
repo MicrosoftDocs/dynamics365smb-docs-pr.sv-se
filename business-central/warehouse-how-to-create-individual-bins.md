@@ -3,19 +3,19 @@ title: Så här skapar du Lagerställen | Microsoft Docs
 description: Det effektivaste sättet att skapa lagerställena i distributionslagret på är att generera grupper med liknande lagerställen i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget genom att följa anvisningarna nedan.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 11113ceaa153ea7e3c9a4ea36b8eddba8235f28f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ea28885b7f7ff41b7ef1250e692895543ca46042
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759873"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385680"
 ---
 # <a name="create-bins"></a>Skapa lagerställen
 Det effektivaste sättet att skapa lagerställena i distributionslagret på är att generera grupper med liknande lagerställen i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion på sidan **Lagerplatsuppläggningskalkylark** för att skapa lagerställena automatiskt.  
@@ -56,11 +56,11 @@ Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du stäl
 5.  Om du vill skapa lagerställeskoderna, fyller du i **från nr** och **Till nr.** I de tre kategorierna som visas på sidan: **ställning**, **sektion**, och **nivå.** Lagerställeskoden kan bestå av högst 20 tecken.  
 
     > [!NOTE]  
-    >  Det antal tecken som du har angett i de tre kategorierna för något av fälten (t.ex. de tecken som du har angett i de tre fälten **Från nr**) plus eventuella fältavgränsare, får högst vara 20.  
+    >  Det antal tecken som du har angett i de tre kategorierna för något av fälten (t. ex. de tecken som du har angett i de tre fälten **Från nr**) plus eventuella fältavgränsare, får högst vara 20.  
 
      Du kan använda bokstäver i koden som en kombination för identifiering, men den bokstav som du använder måste vara samma i fältet **Från nr.** och **Till nr.** . Till exempel kanske du anger ställningsdelen av koden som **Från nr. A01** och **Till nr. A10**. Programmet genererar inte koder i bokstavsordning, till exempel från A01 till F05.  
 
-6.  Om du vill att ett tecken, t.ex. ett bindestreck, ska avgränsa de kategorifält som du har definierat som en del av lagerställeskoden, fyller du i fältet **Fältseparator** med det tecknet.  
+6.  Om du vill att ett tecken, t. ex. ett bindestreck, ska avgränsa de kategorifält som du har definierat som en del av lagerställeskoden, fyller du i fältet **Fältseparator** med det tecknet.  
 7.  Om du inte vill att en rad ska skapas för en lagerplats om den redan finns, markerar du fältet **Kontrollera existerande lagerplats**.  
 8. När du är klar med att fylla i fälten klickar du på knappen **OK**.
 

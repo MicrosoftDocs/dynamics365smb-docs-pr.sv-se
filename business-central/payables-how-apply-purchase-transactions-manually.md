@@ -3,19 +3,19 @@ title: Stäm av kvitton för leverantörsbetalningar eller återbetalningar i ut
 description: Om du vill bearbeta, matcha eller stämma av leverantörsbetalningar eller återbetalningar manuellt, kopplar du beloppet till en eller flera öppna leverantörsreskontratransaktioner.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f88f7df150f988b0d365b383a89a778a0dc9a15
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: e0fab7592bd8316c2a8f90f2cf21d6874f6396f6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013673"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383881"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner
 När du skickar ett betalningskvitto till, eller tar emot en återbetalning från, en leverantör måste du bestämma om du ska koppla betalningen eller återbetalningen till en eller flera öppna debet- eller kreditposter. Du kan ange det exakta beloppet som ska kopplas till betalningsinleveransen eller återbetalningen och därmed endast delvis koppla leverantörsreskontratransaktioner. Du måste koppla alla leverantörsreskontratransaktioner för att leverantörsstatistik och rapporter över kontoutdrag och ränteintäkter ska bli korrekta.
@@ -101,10 +101,10 @@ Om du kopplar en post (post 1) i en valuta till en post (post 2) i en annan valu
 6. Bokför utbetalningsjournalen.
 
 > [!IMPORTANT]  
->   När du kopplar poster i olika valutor till varandra omvandlas posterna till USD. Även om valutakurserna är fasta för de två aktuella valutorna, t.ex. mellan USD och EUR, kan det uppstå ett litet restbelopp när beloppen i utländsk valuta omvandlas till USD. Dessa små restbelopp bokförs som vinster och förluster på kontot som har angetts i fältet **Kursvinster konstaterade** eller i fältet **Kursförluster konstaterade** på sidan **Valutor**. Fältet **Belopp (USD)** justeras också i de aktuella leverantörsreskontratransaktionerna.
+>   När du kopplar poster i olika valutor till varandra omvandlas posterna till USD. Även om valutakurserna är fasta för de två aktuella valutorna, t. ex. mellan USD och EUR, kan det uppstå ett litet restbelopp när beloppen i utländsk valuta omvandlas till USD. Dessa små restbelopp bokförs som vinster och förluster på kontot som har angetts i fältet **Kursvinster konstaterade** eller i fältet **Kursförluster konstaterade** på sidan **Valutor**. Fältet **Belopp (USD)** justeras också i de aktuella leverantörsreskontratransaktionerna.
 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Så här tar du bort en koppling av leverantörstransaktioner
-När du tar bort en felaktig koppling skapas och bokförs korrigeringstransaktioner som är identiska med den ursprungliga transaktionen, men med motsatt tecken i beloppsfältet för alla transaktioner, inklusive all redovisningsbokföring som gjorts i redovisningen till följd av kopplingen, t.ex. kassarabatter och valutakursvinster/-förluster. Alla transaktioner som stängdes av kopplingen öppnas på nytt.
+När du tar bort en felaktig koppling skapas och bokförs korrigeringstransaktioner som är identiska med den ursprungliga transaktionen, men med motsatt tecken i beloppsfältet för alla transaktioner, inklusive all redovisningsbokföring som gjorts i redovisningen till följd av kopplingen, t. ex. kassarabatter och valutakursvinster/-förluster. Alla transaktioner som stängdes av kopplingen öppnas på nytt.
 
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Öppna relevant leverantörskort.

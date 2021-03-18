@@ -3,24 +3,24 @@ title: Översikt över uppgifter för hantering av försäljning | Microsoft Doc
 description: Beskriver hur du hanterar försäljningsaktiviteter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed0ce67b1093fae2e0a20d2a2b871681ddff214d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4044749d7f2fac83bbd02137b00d7c2814252885
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758048"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386055"
 ---
 # <a name="sales"></a>FÖRS
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.
 
-Du måste använda försäljningsorder om din försäljningsprocess kräver att du t.ex. kan leverera delar av en orderkvantitet eftersom hela kvantiteten inte är tillgängliga på en gång. Om du säljer artiklar genom att leverera direkt från din leverantör till kunden, som en direktleverans, måste du även använda försäljningsorder. I alla andra aspekter fungerar försäljningsorder på samma sätt som försäljningsfakturor. Med försäljningsorder kan du också använda funktionen orderlöfte för att kommunicera vissa leveransdatum till dina kunder.  
+Du måste använda försäljningsorder om din försäljningsprocess kräver att du t. ex. kan leverera delar av en orderkvantitet eftersom hela kvantiteten inte är tillgängliga på en gång. Om du säljer artiklar genom att leverera direkt från din leverantör till kunden, som en direktleverans, måste du även använda försäljningsorder. I alla andra aspekter fungerar försäljningsorder på samma sätt som försäljningsfakturor. Med försäljningsorder kan du också använda funktionen orderlöfte för att kommunicera vissa leveransdatum till dina kunder.  
 
 Du kan förhandla med kunden genom att först skapa förs.offerter, som du kan omvandla till en försäljningsfaktura eller försäljningsorder när du instämmer om försäljningen. När kunden har bekräftat avtalet skickar du en orderbekräftelse för att registrera dina åtagande att leverera produkterna enligt överenskomment.
 
@@ -34,7 +34,7 @@ I affärsmiljöer där kunden måste betala för produkter i förväg måste du 
 
 Försäljningsdokument kan skickas som PDF-filer kopplade till e-postmeddelande. Brödtexten för e-post ska innehålla ett utdrag av försäljningsdokumentet, till exempel produkter, totalt belopp och en länk till webbplatsen för PayPal. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
-För alla försäljningsprocesser kan du t.ex. inkludera ett arbetsflöde för godkännande för att kräva att stora försäljningar till vissa kunder godkänns av redovisningschefen. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).
+För alla försäljningsprocesser kan du t. ex. inkludera ett arbetsflöde för godkännande för att kräva att stora försäljningar till vissa kunder godkänns av redovisningschefen. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 

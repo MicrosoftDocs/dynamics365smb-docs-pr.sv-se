@@ -3,19 +3,19 @@ title: Så här skapar du anpassade konfigurationspaket för företag | Microsof
 description: När verksamheten växer, kommer du antagligen att behöva förlita dig på en uppsättning företagstyper som du använder med de flesta av dina kunder. Du kan rationalisera implementeringsprocessen genom att omvandla dessa typer till företagskonfigurationspaket som är tillgängliga för återanvändning.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9e1cf9d530c8af95373cfbdef8a3f6822cbba938
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a1b1bfd5dd685eb57e291842d7b6d2e3691482fc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915787"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378304"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Så här skapar du anpassade konfigurationspaket för företag
 När verksamheten växer, kommer du antagligen att behöva förlita dig på en uppsättning företagstyper som du använder med de flesta av dina kunder. Du kan rationalisera implementeringsprocessen genom att omvandla dessa typer till företagskonfigurationspaket som är tillgängliga för återanvändning.  
@@ -40,9 +40,9 @@ En annan metod är att skapa ett paket som innehåller tabellerna för definitio
 För att se en komplett lista över inställningstabeller, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Manuell inställning** och välj sedan relaterad länk.  
 
 > [!IMPORTANT]
-> Var försiktig om du väljer tabeller eller fält med samma tidsdefinierade namn men som skiljer sig åt med specialtecken, till exempel %, &, <, >, (, och ). Tabellen "XYZ" kan t.ex. innehålla fälten "Fält 1" och "Fält 1 %".
+> Var försiktig om du väljer tabeller eller fält med samma tidsdefinierade namn men som skiljer sig åt med specialtecken, till exempel %, &, <, >, (, och ). Tabellen "XYZ" kan t. ex. innehålla fälten "Fält 1" och "Fält 1 %".
 >
-> XML-processorn accepterar endast vissa specialtecken och tar bort de som inte accepteras. Om du tar bort ett specialtecken, t.ex. %-symbolen i "Fält 1 %", resulterar det i två eller flera tabeller eller fält med samma namn och ett fel uppstår när du exporterar eller importerar ett konfigurationspaket.
+> XML-processorn accepterar endast vissa specialtecken och tar bort de som inte accepteras. Om du tar bort ett specialtecken, t. ex. %-symbolen i "Fält 1 %", resulterar det i två eller flera tabeller eller fält med samma namn och ett fel uppstår när du exporterar eller importerar ett konfigurationspaket.
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Så här skapar du ett anpassat konfigurationspaket för företag  
 1.  Skapa ett nytt företag. Mer information finns i [Skapa nya företag i Business Central](about-new-company.md).  

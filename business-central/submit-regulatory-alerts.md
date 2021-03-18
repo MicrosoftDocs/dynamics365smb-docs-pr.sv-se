@@ -3,17 +3,17 @@ title: Skicka regelnotifieringar | Microsoft Docs
 description: Du kan följa den här guiden om du vill skicka en andra varning till produktteamet om du vet om nya bestämmelser som kräver stöd för funktionen i Business Central.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817262"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380362"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Skicka notifieringar om lands-/regionspecifika regleringsfunktioner
 
@@ -52,7 +52,7 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
         |Description  | Ange en kort översikt över lagstiftningen. Beskrivningen bör fokusera på frågor som är relevanta för resursplanering inom företag (ERP), så att användare kan förstå kraven på en hög nivå utan att behöva läsa lagstiftningen först.|
         |Land  | Ange landet/regionen som lagstiftningen gäller för.|
         |Bransch| Ange vilken bransch om kravet bara gäller för specifika branscher. Välj till exempel **Offentliga sektorn**, **Butik** eller **Produktion**.|
-        |Funktionsreferens  | Detta gäller inte för Dynamics 365 Business Central, men du kan ange en referens till en funktion om du känner till den. Listan med funktioner för ett visst land finns i [lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) på webbplatsen CustomerSource. |
+        |Funktionsreferens  | Detta gäller inte för Dynamics 365 Business Central, men du kan ange en referens till en funktion om du känner till den. Listan med funktioner för ett visst land finns i [lokaliseringsportal](https://docs.microsoft.com/dynamics/s-e/) på webbplatsen CustomerSource. |
         |Datum för tillämpning av lagen  | Ange det datum då berörda kunder måste börja följa lagen.|
         |Datum när myndigheten tillkännagav meddelandet  | Ange det datum då myndigheten meddelade ändringen.|
         |Senaste arkiveringsdatum  | Välj deadline för den första överföringen av nya eller ändrade rapporten.|

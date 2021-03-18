@@ -3,19 +3,19 @@ title: Så här konfigurerar du måttenheter för artiklar | Microsoft Docs
 description: Du kan ange flera enheter för en artikel, så att du kan tilldela måttenheter till artikeln.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e9e2ac277b486e8a4f9a5ad6621b68abda980ac1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746272"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388005"
 ---
 # <a name="set-up-units-of-measure"></a>Ställa in måttenheter
 
@@ -52,7 +52,7 @@ När du registrerar en ny artikel kan du välja basenheten från listan över en
 7. I fältet **Antal per måttenhet** anger du hur många enheter av basmåttenheten som den nya måttenheten innehåller.
 8. Du kan även i fälten **Höjd**, **Bredd**, **Längd** och **Vikt** anger du exakt information om storleken på en enhet så att antalet enheter så att [!INCLUDE [prod_short](includes/prod_short.md)] antalet enheter som ryms per lagerplats kan beräknas. Fältet **Kubik** beräknas automatiskt utifrån **Höjd**, **Bredd** och **Längd**.
 
-    Om något av fälten innehåller ett annat värde än 0, används den här åtgärden vid alla processer som inbegriper placering av artiklar på lagerställen: artikelinförsel, transporter, inleveranser, utleveranser, plockningar och justeringar. [!INCLUDE [prod_short](includes/prod_short.md)] kontrollerar summan av varje fysiskt mått på föremål som tas bort och objekten som redan finns i papperskorgen mot den maximala volym som lagerstället kan inrymma, enligt de kapacitetsregler som du har angett på lagerställekortet. Med andra ord måste du använda samma enhetsmått för varje dimension över alla måttenheter, användningspriser eller pund för vikt, t.ex.
+    Om något av fälten innehåller ett annat värde än 0, används den här åtgärden vid alla processer som inbegriper placering av artiklar på lagerställen: artikelinförsel, transporter, inleveranser, utleveranser, plockningar och justeringar. [!INCLUDE [prod_short](includes/prod_short.md)] kontrollerar summan av varje fysiskt mått på föremål som tas bort och objekten som redan finns i papperskorgen mot den maximala volym som lagerstället kan inrymma, enligt de kapacitetsregler som du har angett på lagerställekortet. Med andra ord måste du använda samma enhetsmått för varje dimension över alla måttenheter, användningspriser eller pund för vikt, t. ex.
 9. Upprepa steg 5 till 7 för att lägga upp alla alternativa enheter som du vill använda i olika processer för artikeln.
 
     I fältet **basenhet** längst ned i fönstret, kan du visa eller ändra artikelns basenhet. Du kan också ändra basenhet i fältet **basenhet** på artikelkortet. På sidan **måttenheter för artikel** måste basenheten ha värdet **1** i fältet **Antal per måttenhet**.

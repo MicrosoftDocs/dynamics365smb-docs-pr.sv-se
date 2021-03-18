@@ -5,24 +5,24 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f73178cc55840ffa1756c45a83f01f1bdf8bc359
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cdc39d9b7d6fa22783c5885363fccb0b8a29dd76
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747700"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387105"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
 [!INCLUDE[prod_short](includes/prod_short.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
 
-För att stödja dessa områdesspecifika affärsuppgifter kan du använda olika allmänna affärsfunktioner som t.ex. att definiera extratext för dokumentrader och organisera kopplade affärsuppgifter i arbetsflöden.
+För att stödja dessa områdesspecifika affärsuppgifter kan du använda olika allmänna affärsfunktioner som t. ex. att definiera extratext för dokumentrader och organisera kopplade affärsuppgifter i arbetsflöden.
 
 > [!NOTE]
 > Förutom de allmänna affärsrelaterade funktionerna som beskrivs i det här avsnittet kan du använda allmänna gränssnittsfunktioner varje dag för att interagera med systemet. Mer information finns i [Arbeta med Business Central](ui-work-product.md).

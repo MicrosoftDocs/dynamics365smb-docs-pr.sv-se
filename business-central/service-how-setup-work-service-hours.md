@@ -3,19 +3,19 @@ title: Ställa in arbetstimmar och servicetider | Microsoft Docs
 description: Du kan ange servicearbetstider i företaget. Programmet använder dessa servicetider för att beräkna ett svarsdatum med tid för serviceorder och offerter och då svarstidsvarningar skickas ut.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 043d745b0676a6fe939a6d236fefe4dad01ca742
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 559c4f2617241fb30f90639387f9df9e80739a22
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748024"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380794"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Ställa in arbetstimmar och tjänstetider
 Ett tjänstehanteringssystem spårar vanligtvis resurstid och serviceorderstatus för prognostisering av arbetsbelastning och servicebehov. [!INCLUDE[prod_short](includes/prod_short.md)] har inbyggda verktyg som du kan anpassa om du vill registrera den här typen av information.  
@@ -34,7 +34,7 @@ Du kan använda sidan **Standard servicetider** för att definiera vilka service
 >  Om du inte fyller i raderna på sidan **Standard servicetider** används 24 timmar som standardvärde, som gäller bara för kalenderns arbetsdagar.  
   
 ## <a name="to-set-up-work-hour-templates"></a>Så här skapar du arbetstidsmallar
-Du kan använda sidan **Arbetstidsmallar** för att skapa mallar som innehåller företagets vanligaste arbetstider. Du kan t.ex. skapa mallar för heltidstekniker och deltidstekniker. Använd arbetstidsmallar när du lägger till kapacitet i resurser.  
+Du kan använda sidan **Arbetstidsmallar** för att skapa mallar som innehåller företagets vanligaste arbetstider. Du kan t. ex. skapa mallar för heltidstekniker och deltidstekniker. Använd arbetstidsmallar när du lägger till kapacitet i resurser.  
   
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetstidsmallar** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  

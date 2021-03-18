@@ -3,23 +3,23 @@ title: Använda företagsnavet
 description: Tillhandahåller information om tillägget för företagsnav som du kan använda för att hantera ditt arbete över flera företag i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec59a17d9a3a32e1c17cf6670f69bcc4077993aa
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: cfd44c40b36c83c8a48b6691bfb50134e7295e56
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014131"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377379"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Tillägget Företagsnav för Business Central
 
-Det här programmet förser en instrumentpanel med sammanfattningsdata för varje företag som användaren har tillgång till via alla [!INCLUDE [prod_short](includes/prod_short.md)] online, t.ex. många klienter för en revisor. På hemsidan visas ekonomiska KPI:er samt en direkt länk till de enskilda miljöerna och företagen så att användarna kan.
+Det här programmet förser en instrumentpanel med sammanfattningsdata för varje företag som användaren har tillgång till via alla [!INCLUDE [prod_short](includes/prod_short.md)] online, t. ex. många klienter för en revisor. På hemsidan visas ekonomiska KPI:er samt en direkt länk till de enskilda miljöerna och företagen så att användarna kan.
 
 Instrumentpanelen innehåller ett mycket specialiserat rollcenter för en bättre överblick över ditt arbete.
 

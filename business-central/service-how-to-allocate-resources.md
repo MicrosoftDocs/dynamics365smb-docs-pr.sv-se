@@ -3,19 +3,19 @@ title: Så här fördelar du resurser | Microsoft Docs
 description: Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1b790743feb2c32bec1cdb45f69ac30c529e02ac
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ba566597b9dcf8d34b677df759c8c31d200b8584
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757972"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380387"
 ---
 # <a name="allocate-resources"></a>Så här tilldelar du resurser
 Nyckelelementen i tjänstehantering är de personer som tillhandahåller servicen. Du kan ställa in [!INCLUDE[prod_short](includes/prod_short.md)] till att tilldela rätt personer till rätt uppgifter. Fördelningarna kan baseras på servicezoner där personerna finns eller där servicen ska utföras. Dessutom kan du gruppera resurser tillsammans när du tar hand om en serviceförfrågan. Mer information finns i [Så här skapar du resursfördelning](service-how-setup-resource-allocation.md).
@@ -56,7 +56,7 @@ Du kan ofta behöva titta på listan över serviceorder och/eller serviceofferte
 >  För serviceartiklar på en serviceorder kan det bara finnas **aktiva** fördelningstransaktioner med en resurs eller resursgrupp i taget.  
 
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Så här fördelar du resurser med hjälp av en serviceorder  
-När du har skapat och fyllt i en serviceorder eller serviceoffert kan du fördela resurser, t.ex. tekniker som ska utföra serviceuppgifter som registrerats som serviceartikelrader i dokumentet.  
+När du har skapat och fyllt i en serviceorder eller serviceoffert kan du fördela resurser, t. ex. tekniker som ska utföra serviceuppgifter som registrerats som serviceartikelrader i dokumentet.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstorder** och välj sedan relaterad länk.  
 2. Välj serviceorder, och sedan **Redigera**.  
@@ -115,7 +115,7 @@ Om samma resurs arbetar med alla serviceartiklar på serviceordern kan du regist
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Så här fördelar du resurser till alla serviceartiklar på en serviceorder:
-Om samma resurs (t.ex. en tekniker) arbetar med en serviceorders alla serviceartiklar kan du registrera det totala antalet resurstimmar på en enda serviceartikel och sedan dela resursraderna för att fördela resurstimmarna på de andra serviceartiklarnas resursrader.  
+Om samma resurs (t. ex. en tekniker) arbetar med en serviceorders alla serviceartiklar kan du registrera det totala antalet resurstimmar på en enda serviceartikel och sedan dela resursraderna för att fördela resurstimmarna på de andra serviceartiklarnas resursrader.  
 
 Följande visar hur man delar resursrader på sidan **Servicefakturarader**.  
 

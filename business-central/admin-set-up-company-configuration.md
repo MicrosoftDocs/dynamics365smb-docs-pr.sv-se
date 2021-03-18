@@ -3,24 +3,24 @@ title: Ställa in företagskonfiguration | Microsoft Docs
 description: Implementeringsprocessen börjar med det Business Central-lösningen kräver. Samla sedan ihop all denna information i konfigurationspaket.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e9b54a28c960ccdaa41c16cce237266e8cb43a88
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 402595c34d69db0a14fce6eac8f3bb9e0896d06b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745948"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385280"
 ---
 # <a name="set-up-company-configuration"></a>Ställa in företagskonfiguration
 Implementeringsprocessen börjar med Microsoft-partnern. Partnern är ansvarig för att tänka igenom konfigurationdetaljerna och för att skapa ett paket som en kund enkelt kan använda. Innan du skapar ett nytt företag bör du planera hur det ska konfigureras. Du måste beakta grundläggande inställningsdata och vilka slags data din [!INCLUDE[prod_short](includes/prod_short.md)]-lösning kräver. Samla sedan ihop all denna information i konfigurationspaket.
 
-RapidStart Services ger dig också de verktyg som du använder för att migrera bakåtkompatibla data, t.ex. kunder och leverantörer.  
+RapidStart Services ger dig också de verktyg som du använder för att migrera bakåtkompatibla data, t. ex. kunder och leverantörer.  
 
 Vi rekommenderar att du skapar konfigurationspaket där de flesta inställningstabellerna redan är ifyllda så att kunder bara behöver ändra några få inställningar när paketet används. När du till exempel skapar ett nytt företag kommer tabellerna **Nr-serier** och **Nr-serierad** att fyllas i med en uppsättning nummerserier och startnummer. Motsvarande **Nr-serie** i inställningstabellerna fylls också i automatiskt. Du måste inte att göra arbetet med att specificera nummerserier och andra grundläggande inställningsdata. Du kan också ändra alla standarddata manuellt för RapidStart Services genom att använda konfigurationsförslaget.  
 

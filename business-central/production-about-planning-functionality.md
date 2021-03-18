@@ -3,19 +3,19 @@ title: Om planeringsfunktioner | Microsoft Docs
 description: I planeringssystemet beaktas alla efterfråge- och tillgångsdata, resultaten nettoberäknas och förslag på balansering av tillgång för att uppfylla efterfrågan skapas.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12ab5bbc374e40d029acaec27c7eb3596fe19d1a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 35b67b7f77571b570245ebdb26c49458d3f83e39
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759473"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386880"
 ---
 # <a name="about-planning-functionality"></a>Om planeringsfunktioner
 
@@ -30,8 +30,8 @@ Mer information finns i [Designdetaljer: Leveransplanering](design-details-suppl
 
 Planering innehåller två element: tillgång och efterfrågan. Dessa två element måste balanseras för att se till att efterfrågan uppfylls i tid och så kostnadseffektivt som möjligt.  
 
-- Efterfrågan är den term som vanligtvis används för alla typer av bruttobehov, t.ex. försäljningsorder, serviceorder, komponentbehov från montering eller produktionsorder, utgående överföringar, avropsorder eller prognoser. Utöver dessa, tillåts även en del andra typer av efterfrågan – t.ex. negativa produktions- eller inköpsorder, negativt lager och inköpsreturer.  
-- Tillgång är det ord som vanligtvis används för alla typer av återanskaffning, t.ex. lager, inköpsorder, monteringsorder, produktionsorder eller inkommande överföring. På motsvarande sätt kan det finnas negativa försäljnings- eller serviceorder, negativt komponentbehov eller försäljningsretur – vilka alla på ett sätt också representerar tillgång.  
+- Efterfrågan är den term som vanligtvis används för alla typer av bruttobehov, t. ex. försäljningsorder, serviceorder, komponentbehov från montering eller produktionsorder, utgående överföringar, avropsorder eller prognoser. Utöver dessa, tillåts även en del andra typer av efterfrågan – t. ex. negativa produktions- eller inköpsorder, negativt lager och inköpsreturer.  
+- Tillgång är det ord som vanligtvis används för alla typer av återanskaffning, t. ex. lager, inköpsorder, monteringsorder, produktionsorder eller inkommande överföring. På motsvarande sätt kan det finnas negativa försäljnings- eller serviceorder, negativt komponentbehov eller försäljningsretur – vilka alla på ett sätt också representerar tillgång.  
 
 Ett annat mål med planeringssystemet är att se till att lagret inte blir onödigt stort. Om det uppstår en minskad efterfrågan, får du i planeringssystemet ett förslag om att skjuta upp, minska antalet eller annullera befintliga återanskaffningsorder.  
 

@@ -3,19 +3,19 @@ title: Behandla försäljningsreturer eller annulleringar | Microsoft Docs
 description: Beskriver hur du skapar en kreditnota direkt eller genom en försäljningsreturorder om du vill bearbeta en retur, annullering eller ersättning för artiklar eller tjänster som du har blivit mottagen betalning för.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 701743c385d3afe7e0d514fede60185ecdc7a558
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6a65f67a7ac07196f5b4738c59fa5180e512f89c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748398"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385580"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Du kan skapa försäljningskreditnotan direkt från den bokförda försäljningsfakturan med rätt fakturainformation, eller skapa en ny försäljningskreditnota med kopierad fakturainformation.
@@ -112,7 +112,7 @@ De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återf
 
     -   För bokförda dokumentrader av typen **Artikel** skapas en ny dokumentrad som är en kopia av den bokförda dokumentraden, med det antal som ännu inte har återförts. Fältet **Koppla från artikellöpnr** fylls i efter behov med numret på artikeltransaktionen för den bokförda dokumentraden.  
 
-    -   För bokförda dokumentrader som inte är av typen **Artikel**, t.ex. artikelomkostnader, skapas en ny dokumentrad som är en kopia av den ursprungliga bokförda dokumentraden.  
+    -   För bokförda dokumentrader som inte är av typen **Artikel**, t. ex. artikelomkostnader, skapas en ny dokumentrad som är en kopia av den ursprungliga bokförda dokumentraden.  
 
     -   Fältet **Styckkostnad (BVA)** på den nya raden beräknas utifrån kostnaderna på motsvarande artikeltransaktioner.  
 
@@ -127,7 +127,7 @@ De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återf
      > [!NOTE]  
      >  Om en del av antalet på den bokförda dokumentraden redan har återförts, sålts eller förbrukats skapas en rad bara för det antal som finns kvar i lager eller som inte har returnerats. Om hela antalet på den bokförda dokumentraden har återförts skapas ingen ny dokumentrad.  
      >   
-     >  Om varuflödet i det bokförda dokumentet är detsamma som i det nya dokumentet skapas en kopia av den ursprungliga bokförda dokumentraden i det nya dokumentet. Fältet **koppla-från artikellöpnr** fylls inte i eftersom exakt kostnadsåterföring inte är möjligt i det här fallet. T.ex. om du använder funktionen **Hämta bokförda dokumentrader som ska återföras** för att hämta en bokförd försäljningskreditnotarad för en ny försäljningskreditnota kopieras endast den ursprungliga bokförda kreditnotaraden till den nya kreditnotan.  
+     >  Om varuflödet i det bokförda dokumentet är detsamma som i det nya dokumentet skapas en kopia av den ursprungliga bokförda dokumentraden i det nya dokumentet. Fältet **koppla-från artikellöpnr** fylls inte i eftersom exakt kostnadsåterföring inte är möjligt i det här fallet. t. ex. om du använder funktionen **Hämta bokförda dokumentrader som ska återföras** för att hämta en bokförd försäljningskreditnotarad för en ny försäljningskreditnota kopieras endast den ursprungliga bokförda kreditnotaraden till den nya kreditnotan.  
 
 10. På sidan **Förs.returorder** i fältet **Returorsakskod** för varje rad väljer du orsaken till returen.
 11. Välj åtgärden **Bokföra**.

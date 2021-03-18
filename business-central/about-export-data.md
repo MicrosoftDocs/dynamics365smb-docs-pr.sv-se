@@ -3,19 +3,19 @@ title: Exportera dina Business Central-data till Excel | Microsoft Docs
 description: Du kan exportera dina finansiella rapporter och affärsinformationsdata från Business Central till Excel, eller också öppna dina data i Excel.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0058fd8aa684fd12392e641dda3bbb0ee6862134
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a65087c484e9e26cead2c6fb879e31184ed1a8cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385155"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Exportera affärsdata till Excel
 Om du vill arbeta med data från [!INCLUDE[prod_short](includes/prod_short.md)] i Excel kan du öppna alla listor i Excel och arbeta med den där. Om du vill avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.

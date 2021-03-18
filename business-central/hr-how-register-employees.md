@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca86db44d578fab16af1d9a07e3d62db8dfe581c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 58cab20ad27285e733cbfe56ba82b546617bf5c3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750236"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381423"
 ---
 # <a name="register-employees"></a>Registrera personal
 För att använda personalfunktionen måste du först registrera varje enskild anställd genom att skapa ett kort för all grundläggande, arbetsrelaterad information.
@@ -48,7 +48,7 @@ Bilden infogas i faktaboxen **Personalbild**.
 ## <a name="to-register-various-information-about-an-employee"></a>Så här registrerar du information om en anställd
 Du kan ställa in information, till exempel medlem i fackföreningen, anhöriga och anställningsavtal på personalkortet. Nedan beskrivs hur du ställer in en alternativ adress. Stegen är liknande för alla andra uppgifter som du kan ställa in på ett personalkort.
 
-Du kan använda alternativa adresser för att hålla reda på var de anställda befinner sig, om de t.ex. är stationerade utomlands, befinner sig på en längre affärsresa eller vistas i sommarstuga.
+Du kan använda alternativa adresser för att hålla reda på var de anställda befinner sig, om de t. ex. är stationerade utomlands, befinner sig på en längre affärsresa eller vistas i sommarstuga.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Personal** och välj sedan tillhörande länk.
 2. Öppna kortet för relevant anställd.

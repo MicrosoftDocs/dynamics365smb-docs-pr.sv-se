@@ -3,18 +3,18 @@ title: Konfigurera föreslagna fältvärden | Microsoft Docs
 description: Om du vill undvika manuella beräkningar och genomföra uppgifter snabbt och effektivt ställer du in automatisk datainmatning så att Business Central fyller i fälten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e2cb1569fb375566b323958437a710264de20538
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6b667e9621f8ea8ff1f5146add9c4686aba22ab7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760448"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385530"
 ---
 # <a name="letting-prod_short-suggest-values"></a>Låta [!INCLUDE[prod_short](includes/prod_short.md)] föreslå värden
 [!INCLUDE[prod_short](includes/prod_short.md)] kan hjälpa dig att avsluta uppgifter som är snabbare och korrektare genom att fylla i fält eller färdigställa rader med data som du annars måste annars beräkna och ange själv. Även om sådana automatiska datainmatningar inte alltid är korrekta kan du ändra den efteråt om du vill.
@@ -29,7 +29,7 @@ Om du till exempel vill ange redovisningsjournalrader för åtskilliga kostnader
 2. På raden för din föredragna redovisningsjournal väljer kryssrutan **Föreslå saldobelopp**.
 3. Öppna redovisningsjournalen och fortsätt att registrera och bokföra transaktioner med den beskrivna funktionen för automatisk bokföring av ett fältvärde.       
 
-Mer information om hur du konfigurerar en personlig redovisningsjournal för t.ex. kostnadsbearbetning finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
+Mer information om hur du konfigurerar en personlig redovisningsjournal för t. ex. kostnadsbearbetning finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
 
 ## <a name="the-automatically-fill-date-received-field-on-the-payment-registration-page"></a>Fältet **Fyll i Tillbaka datum automatiskt** på sidan **Betalningregistrering**
 Sidan **Betalningsregistrering** visar utestående inkommande betalningar som rader som representerar de försäljningsdokument, där ett belopp har förfallit till betalning. Mer information om att koppla kundbetalningar finns i [Så här stämmer du av kundutbetalningar från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)

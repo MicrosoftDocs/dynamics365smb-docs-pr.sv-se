@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 01/18/2021
 ms.author: edupont
-ms.openlocfilehash: d30baa44894658c03c3deffdf24a7923293b88fd
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 9d282ea35f7b4bdf317e818504f061d4145404bd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024643"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379004"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportval i Business Central
 
@@ -56,7 +56,7 @@ På sidorna **Rapporturval - Försäljning** och **Rapporturval - Inköp** hjäl
 
 |Fältnamn |Beskrivning  |
 |-----------|-------------|
-|**Använd till brödtext i e-post**| Anger att sammanfattad information, t.ex. fakturanummer, förfallodatum och betalningstjänstlänken, kommer att infogas i brödtexten i det e-postmeddelande du skickar.        |
+|**Använd till brödtext i e-post**| Anger att sammanfattad information, t. ex. fakturanummer, förfallodatum och betalningstjänstlänken, kommer att infogas i brödtexten i det e-postmeddelande du skickar.        |
 |**Använd till e-postbilaga**| Anger att det relaterade dokumentet kommer att bifogas i e-postmeddelandet.|
 |**Beskrivning av layouten på brödtext i e-post**|Anger den layout för e-postbrödtext som används, vanligtvis en anpassad rapportlayout. |
 

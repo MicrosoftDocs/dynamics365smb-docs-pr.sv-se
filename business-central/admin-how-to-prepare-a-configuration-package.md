@@ -3,19 +3,19 @@ title: Förbereda ett konfigurationspaket | Microsoft Docs
 description: Lär dig nu att konfigurera ett RapidStart konfigurationspaket som kan hjälpa dig att skapa nya företag baserat på befintliga data.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6b8e0a46375bce9ffd22b160766925bf803025f0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752731"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378204"
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
 
@@ -33,9 +33,9 @@ Du kan inte importera data till register som innehåller bokförda transaktioner
 
 ### <a name="table-names-that-contain-special-characters"></a>Tabellnamn som innehåller specialtecken
 
-Var försiktig om du har tabeller eller fält med samma tidsdefinierade namn men som skiljer sig åt med specialtecken, till exempel %, &, <, >, (, och ). Tabellen "XYZ" kan t.ex. innehålla fälten "Fält 1" och "Fält 1 %".
+Var försiktig om du har tabeller eller fält med samma tidsdefinierade namn men som skiljer sig åt med specialtecken, till exempel %, &, <, >, (, och ). Tabellen "XYZ" kan t. ex. innehålla fälten "Fält 1" och "Fält 1 %".
 
-XML-processorn accepterar endast vissa specialtecken och tar bort de som inte accepteras. Om du tar bort ett specialtecken, t.ex. %-symbolen i "Fält 1 %", resulterar det i två eller flera tabeller eller fält med samma namn och ett fel uppstår när du exporterar eller importerar ett konfigurationspaket. 
+XML-processorn accepterar endast vissa specialtecken och tar bort de som inte accepteras. Om du tar bort ett specialtecken, t. ex. %-symbolen i "Fält 1 %", resulterar det i två eller flera tabeller eller fält med samma namn och ett fel uppstår när du exporterar eller importerar ett konfigurationspaket. 
 
 ### <a name="licensing"></a>Licensiering
 
@@ -52,7 +52,7 @@ Processen för att skapa och importera ett konfigurationspaket innebär följand
 
 När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  
 
-Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte. Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000, Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000, Kundbankkonto** som har primärnyckeln **Code20 + Code 20**, så importeras inga data.  
+Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte. Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t. ex. konfigurationspaketet innehåller tabellen **50000, Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000, Kundbankkonto** som har primärnyckeln **Code20 + Code 20**, så importeras inga data.  
 
 ## <a name="to-create-a-configuration-package"></a>Så här skapar du ett konfigurationspaket
 

@@ -5,22 +5,22 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16226b3c8cc7661ee44bcac0e6934d175ea460b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377429"
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla servicekontrakt 
-Ett sätt att lägga upp en tjänstehanteringsverksamhet är att ha standardavtal mellan dig och kunderna som beskriver servicenivån och förväntningarna på servicen. Du kan skapa kontraktsmallar som omfattar viktig information, t.ex. kund, kontraktets startdatum samt fakturaperiod.  
+Ett sätt att lägga upp en tjänstehanteringsverksamhet är att ha standardavtal mellan dig och kunderna som beskriver servicenivån och förväntningarna på servicen. Du kan skapa kontraktsmallar som omfattar viktig information, t. ex. kund, kontraktets startdatum samt fakturaperiod.  
   
 När du har skapat mallen kan du anpassa kontraktet om du vill spåra servicetid eller andra artiklar som kan variera mellan olika kunder. Du kan också skapa ett kontrakt manuellt utifrån en servicekontraktsoffert. Du kan slutligen justera servicepriserna om du vill hålla ordning på rabatter som en viss kund är berättigad till, genom att ange rabattbeloppet på sidan **Servicekontrakt**.  
 

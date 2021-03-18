@@ -3,19 +3,19 @@ title: Söka efter Funktioner och information | Microsoft Docs
 description: Det här avsnittet beskriver hur du använder sökning för att hitta åtgärder, sidor, rapporter, dokumentation och data, samt andra program och rådgivning.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa0bfb351cf1777ec7a8c1bde4d495e7455b9531
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6de3033333e997fa335f085499b81e1caa4146d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760273"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381685"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -35,7 +35,7 @@ Längst ned på fönstret **Berätta** är en åtgärd kallad **utforska**, som 
 >   Om du föredrar att använda tangentbordet använder du Tabb-tangenten och piltangenterna för att välja ett objekt i resultaten. När du trycker på Retur på tangentbordet utan att välja resultat öppnar [!INCLUDE[prod_short](includes/prod_short.md)] det resultat som visas först.
 
 ### <a name="finding-an-action-on-the-current-page"></a>Söka efter en åtgärd på den aktuella sidan
-Avsnittet **På den aktuella sidan** låter dig söka efter och utföra åtgärder på sidan som är öppen. Om t.ex. sidan **Försäljningsoffert** är öppen och du skriver ”kund”, inkluderar avsnittet en åtgärd som öppnar kundkortet för den kund som har valts på försäljningsofferten.
+Avsnittet **På den aktuella sidan** låter dig söka efter och utföra åtgärder på sidan som är öppen. Om t. ex. sidan **Försäljningsoffert** är öppen och du skriver ”kund”, inkluderar avsnittet en åtgärd som öppnar kundkortet för den kund som har valts på försäljningsofferten.
 
 > [!NOTE]  
 >   Listan innehåller endast de åtgärder som är tillgängliga i navigeringsfältet längst upp på sidan. Åtgärder på snabbflikarna inkluderas inte.  

@@ -3,19 +3,19 @@ title: Definiera koder för granskningshistorik | Microsoft Docs
 description: Lära dig mer om aktiviteterna för att ställa in ursprungskoder och orsakskoder som du kan använda för att spåra granskningshistorik.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9dab74a6a8debd20de781890c3b391457c6034e3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750361"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386905"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Ställa in ursprungskoder och orsakskoder för granskningshistorik
 
@@ -25,11 +25,11 @@ För både ursprungskoder och orsakskoder bör du använda koder som är lätta 
 
 ## <a name="define-source-codes"></a>Definiera ursprungskoder
 
-Ibland behöver du se hur en viss transaktion uppstod, t.ex. om den har sitt ursprung i en redovisningsjournal eller en inköpsfaktura. En ursprungskod anger var en transaktion har skapats. Transaktioner skapas när journaler och fakturor bokförs och när vissa batch-jobb körs. Varje bokföringstyp har en specifik ursprungskod som tilldelas när enskilda transaktioner skapas.  
+Ibland behöver du se hur en viss transaktion uppstod, t. ex. om den har sitt ursprung i en redovisningsjournal eller en inköpsfaktura. En ursprungskod anger var en transaktion har skapats. Transaktioner skapas när journaler och fakturor bokförs och när vissa batch-jobb körs. Varje bokföringstyp har en specifik ursprungskod som tilldelas när enskilda transaktioner skapas.  
 
 Bokföring av journaler, order, fakturor eller kreditnotor, och körningar av olika batch-jobb, skapar transaktioner i räkenskaperna. Fönstret **Ursprungskodinställningar** innehåller flera snabbflikar, en för varje modul. Varje snabbflik innehåller ursprungskoder som gäller för den modulen.
 
-När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt transaktionen med rätt ursprungskod. När du t.ex. bokför en redovisningsjournal, kodar programmet transaktionen som *REDOVJNL*. Du kan sedan filtrera sidan **redovisningstransaktioner** för att visa vilka transaktioner som bokförts från redovisningsjournalen eller från försäljningsdokument, t.ex.
+När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt transaktionen med rätt ursprungskod. När du t. ex. bokför en redovisningsjournal, kodar programmet transaktionen som *REDOVJNL*. Du kan sedan filtrera sidan **redovisningstransaktioner** för att visa vilka transaktioner som bokförts från redovisningsjournalen eller från försäljningsdokument, t. ex.
 
 ### <a name="to-define-source-codes"></a>Så här definierar du ursprungskoder
 
@@ -41,7 +41,7 @@ Du kan ändra innehållet i ett fält senare, så att ändringen påverkar framt
 
 ## <a name="change-source-codes"></a>Ändra ursprungskoder
 
-Det kan hända att du vill ändra en ursprungskod. Du kanske t.ex. vill ändra ursprungskoden *GENJNL* till *GNJ*.
+Det kan hända att du vill ändra en ursprungskod. Du kanske t. ex. vill ändra ursprungskoden *GENJNL* till *GNJ*.
 
 ### <a name="to-change-source-codes"></a>Så här ändrar du ursprungskoder
 

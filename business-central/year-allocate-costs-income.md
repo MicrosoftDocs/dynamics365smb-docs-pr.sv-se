@@ -5,18 +5,18 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 61d6aab8435297d2e41c777df38d9656dc426fbf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c455d0ba2fb6bc06b5815331ca028c43f03b2ebf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755697"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376893"
 ---
 # <a name="allocate-costs-and-income"></a>Fördela kostnader och intäkter
 Du kan fördela en transaktion i en redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras enligt tre olika metoder:
@@ -37,7 +37,7 @@ Du kan fördela en transaktion i en återkommande redovisningsjournal på flera 
 3. Du kan antingen ändra fördelningar på en befintlig journal i listan eller skapa en ny journal med fördelningar.
    * För att skapa en y journal väljer du åtgärden **Ny** och går vidare till nästa steg för att skapa en ny journal.
    * Välj journalen och gå till steg 7 för att ändra fördelningar av en befintlig journal.    
-4. I fältet **Namn** anger du ett namn för journalens som t.ex. RENSNING. I fältet **beskrivning** anger du en beskrivning som t.ex. Rensning av utläggsjournal.
+4. I fältet **Namn** anger du ett namn för journalens som t. ex. RENSNING. I fältet **beskrivning** anger du en beskrivning som t. ex. Rensning av utläggsjournal.
 5. Stäng sidan när du är klar. En ny, tom återkommande journal öppnas.
 6. Fyll i fälten på raden.
 7. Välj åtgärden **Fördelningar**.

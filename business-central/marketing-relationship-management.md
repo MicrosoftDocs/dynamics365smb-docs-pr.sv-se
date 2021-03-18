@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6c1539b19274c4e31fa66b31af17be5429c719f5
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d53ab4833332ad488c7b1b9c6031515377e5f58c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745972"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377504"
 ---
 # <a name="managing-relationships"></a>Hantera relationer
 Kundhanteringsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att hantera och stödja din försäljning. Med de här funktionerna får du tillgång till fullständig och riktig information så att du kan fokusera på ditt arbete med de viktiga kund-/kontaktsegmenten.
@@ -30,7 +30,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | --- | --- |
 |Definiera standardinställningar för kontakter och interaktioner och ange nummerserier.|[Ställa in Kundhantering](marketing-setup-marketing.md)|
 |Definiera externa enheter som du har affärsrelationer med till exempel kunder, potentiella kunder, leverantörer, advokater och konsulter bör antingen registreras som Persontyp eller Företagstyp.|[Hantera kontakter](marketing-contacts.md)|
-|Hantera all slags kommunikation mellan ditt företag och kontakterna, t.ex. genom e-post, brev, telefon, möten.|[Hantera interaktioner](marketing-interactions.md)|
+|Hantera all slags kommunikation mellan ditt företag och kontakterna, t. ex. genom e-post, brev, telefon, möten.|[Hantera interaktioner](marketing-interactions.md)|
 |Definiera segment om du vill markera en grupp med kontakter enligt ett visst kriterium, till exempel en bransch som kontakterna tillhör.|[Hantera segment](marketing-segments.md)|
 |Bearbeta inkommande leads genom att skapa affärsmöjligheter och koppla dem till säljare så att du kan följa upp presumtiv försäljning.|[Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)|
 |Skapa marknadsföringsplaner för att identifiera, attrahera och bibehålla kunderna.|[Hantera marknadsföringskampanjer](marketing-campaigns.md)|

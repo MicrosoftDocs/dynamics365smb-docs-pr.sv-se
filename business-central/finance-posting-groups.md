@@ -5,22 +5,22 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c36b365b0828a19fa82ef28f8d901915937995c2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b94b3ed97c0bd4d76c2ee5072bfda5de6ba86604
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746672"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379975"
 ---
 # <a name="setting-up-posting-groups"></a>Ställa in bokföringsmallar
-Bokföringsmallar mappar enheter som t.ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. De sparar tid och undviker fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
+Bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. De sparar tid och undviker fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
 
 Bokföringsmallar omfattas av tre paraplyer:  
 
@@ -42,11 +42,11 @@ I följande tabeller beskrivs bokföringsmallarna under varje paraply.
 | Leverantörsbokföringsmallar |Definiera var transaktioner för leverantörsreskontrakonton, serviceavgiftskonton och kassarabattskonton ska bokföras. Detta liknar kundbokföringsmallar. Ställ in dessa på sidan **Leverantörsbokföringsmallar**. |
 | Lagerbokföringsmallar |Definiera lagerbokföringsmallar som du sedan tilldelar motsvarande artikelkonton på sidan **Lagerbokföringsinställning**. På så sätt bokför systemet till det redovisningskonto som har angetts för den kombination av lagerbokföringsmall och lagerställe som har kopplats till artikeln, när du bokför transaktioner avseende artikeln. Med lagerbokföringsmallar kan du även på ett utmärkt sätt organisera ditt lager. När du genererar rapporter kan du separera artiklar efter deras bokföringsmallar. Ställ in dessa på sidan **Lagerbokföringsmallar**. |
 | Bokföringsmallar för bankkonto |Definiera konton för bankkonton. Detta kan till exempel förenkla processer för att spåra transaktioner och stämma av bankkonton. Ställ in dessa på sidan **Bokföringsmallar för bankkonto**. |
-| Bokföringsmallar för anläggningstillgångar |Definiera konton för olika typer av utgifter och kostnader som t.ex. förvärvskostnader, ackumulerade avskrivningsbelopp, förvärvskostnader vid avyttring, ackumulerad avskrivning vid avyttring, vinster vid avyttring, förluster vid avyttring, underhållskostnader och avskrivningsutlägg. Ställ in dessa på sidan **Anl. bokföringsmallar**. |
+| Bokföringsmallar för anläggningstillgångar |Definiera konton för olika typer av utgifter och kostnader som t. ex. förvärvskostnader, ackumulerade avskrivningsbelopp, förvärvskostnader vid avyttring, ackumulerad avskrivning vid avyttring, vinster vid avyttring, förluster vid avyttring, underhållskostnader och avskrivningsutlägg. Ställ in dessa på sidan **Anl. bokföringsmallar**. |
 
 | Momsbokföringsmall | Description |
 | --- | --- |
-| Momsbokföringsmallar |Se hur du kan beräkna och bokföra moms för kunder och leverantörer. Ställ in dessa på sidan **Moms rörelsebokföringsmallar**. När du gör det ska du tänka på hur många mallar du behöver. Detta beror t.ex. på ett antal faktorer som t.ex. lokal lagstiftning och om du gör affärer både inrikes och utrikes. |
+| Momsbokföringsmallar |Se hur du kan beräkna och bokföra moms för kunder och leverantörer. Ställ in dessa på sidan **Moms rörelsebokföringsmallar**. När du gör det ska du tänka på hur många mallar du behöver. Detta beror t. ex. på ett antal faktorer som t. ex. lokal lagstiftning och om du gör affärer både inrikes och utrikes. |
 | Momsbokföringsmallar |Ange de momsberäkningar som behövs för typerna av artiklar eller resurser som du köper eller säljer. |
 | Momsbokföringsinställningar |Kombinera momskombinationer av momsbokföringsmallar. När du fyller i en allmän journalrad, inköpsrad eller försäljningsrad ska vi titta på kombinationen för att identifiera kontona som ska användas. |
 

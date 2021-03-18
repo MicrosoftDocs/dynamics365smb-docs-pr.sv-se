@@ -3,19 +3,19 @@ title: Definiera hur data överförs elektroniskt | Microsoft Docs
 description: Använd en extern leverantör för OCR-tjänster för att omvandla PDF- eller bildfiler till elektroniska dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca9f3dc4cbc21cad8a2369ed4c29ab6682723cc1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384330"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegreringsdefinitioner
 Du kan konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
@@ -53,7 +53,7 @@ Beskrivs i följande procedurer.
     |---------------------------------|---------------------------------------|  
     |**Kod**|Registrera en kod som identifierar definitionen för datautbyte.|  
     |**Namn**|Ange ett namn på definitionen för datautbyte.|  
-    |**Filtyp**|Ange vilken typ av fil definitionen för datautbytet används för. Du kan välja mellan fyra filtyper:<br /><br /> -   **XML**: Överlappande strängar med innehåll och pålägg omgivna av taggar som anger funktionen.<br />-   **Variabel text**: Transaktioner har variabel längd och avskiljs av ett tecken, t.ex. komma eller semikolon\-. Kallas även *avgränsad fil*.<br />-   **Fast text**: Transaktioner har samma längd, med hjälp av utfyllnadstecken, och varje transaktion uttrycks på en egen rad. Kallas även *fil med fast bredd*.<br />- **Json**: överlappande innehållsträngar i JavaScript.|  
+    |**Filtyp**|Ange vilken typ av fil definitionen för datautbytet används för. Du kan välja mellan fyra filtyper:<br /><br /> -   **XML**: Överlappande strängar med innehåll och pålägg omgivna av taggar som anger funktionen.<br />-   **Variabel text**: Transaktioner har variabel längd och avskiljs av ett tecken, t. ex. komma eller semikolon\-. Kallas även *avgränsad fil*.<br />-   **Fast text**: Transaktioner har samma längd, med hjälp av utfyllnadstecken, och varje transaktion uttrycks på en egen rad. Kallas även *fil med fast bredd*.<br />- **Json**: överlappande innehållsträngar i JavaScript.|  
     |**Radtyp**|Ange vilken typ av affärsaktivitet definitionen för datautbyte används till, till exempel **Betalningsexport**.|  
     |**Kodenhet för datahantering**|Ange den kodenhet som överför data till och från tabeller i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Kodenhet för validering**|Ange den kodenhet som används för att verifiera data mot fördefinierade affärsregler.|  

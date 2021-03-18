@@ -3,19 +3,19 @@ title: Konfiguration serviceartiklar och serviceartikelkomponenter | Microsoft D
 description: Mer information om saker som du måste ställa in innan du kan använda serviceartiklar, inklusive standardvärden, till exempel svarstid, kontraktrabatt i procent och serviceprisgrupp.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32b2bdd94a9848e990c59284963d34c64cb2af8e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 973edb068ee23cb4584aa9f1d76a85fd3cd95809
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910261"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376718"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Ställa in tjänsteartiklar och tjänsteartikelkomponenter
 Om du vill arbeta med serviceartiklar måste du ställa in följande
@@ -24,7 +24,7 @@ Om du vill arbeta med serviceartiklar måste du ställa in följande
 * Valfritt
 
 ## <a name="to-set-up-service-item-groups"></a>Så här skapar du serviceartikelgrupper:
-Du anger grupper med artiklar som hör ihop med avseende på reparation och underhåll. Du kan ange standardvärden för serviceartiklar i serviceartikelgruppen, t.ex. svarstid, kontraktrabatt i procent och serviceprisgrupp. För artiklar i en serviceartikelgrupp kan du välja om du vill att de ska registreras automatiskt som serviceartiklar då de säljs..  
+Du anger grupper med artiklar som hör ihop med avseende på reparation och underhåll. Du kan ange standardvärden för serviceartiklar i serviceartikelgruppen, t. ex. svarstid, kontraktrabatt i procent och serviceprisgrupp. För artiklar i en serviceartikelgrupp kan du välja om du vill att de ska registreras automatiskt som serviceartiklar då de säljs..  
 
 Du tilldelar serviceartikelgrupper till artiklar på **Artikelkortet** och till serviceartiklar på **serviceartikelkortet**.  
 

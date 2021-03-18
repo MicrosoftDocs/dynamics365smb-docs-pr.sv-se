@@ -3,19 +3,19 @@ title: 'Genomgång: Sälja, sammanställa och leverera satser | Microsoft Docs'
 description: För att stödja just-i-tid-lager och kapaciteten för att anpassa produkter till kundförfrågan, kan monteringsorder automatiskt skapas och kopplas så snart försäljningsorderraden skapas. Kopplingen mellan försäljningsbehov och monteringsleverans hjälper försäljningsorderhandläggare att anpassa monteringsartikeln och lova leveransdatum utifrån komponentens tillgänglighet. Monteringsförbrukning och monteringsutflöde bokförs dessutom automatiskt tillsammans med utleveransen av den kopplade försäljningsordern.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: a3cfba18f15cf64576fca2cf8a86f7f55652e44f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035512"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385755"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
 

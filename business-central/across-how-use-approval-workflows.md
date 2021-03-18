@@ -4,19 +4,19 @@ description: Begära, avvisa eller delegera godkännande av, till exempel ett in
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 044b09cb2dced1100665a6d5705f6e43672b5f12
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: db43728efb4c57a60f23a62c03246f1059373a54
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754598"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379379"
 ---
 # <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
 När en post som till exempel ett inköpsdokument eller ett kundkort måste godkännas av någon i organisationen, skickar du en godkännandebegäran som en del av ett arbetsflöde. Beroende på hur arbetsflödet konfigureras meddelas sedan den lämpliga godkännaren om att posten kräver godkännande.
@@ -33,7 +33,7 @@ Efterföljande aktivitet utförs av en godkännaranvändare.
 1. på sidan som visar posten väljer du åtgärden **Skicka godkännandebegäran**.
 2. För att se alla dina godkännandebegäranden, välj ikonen ![Glödlampa som öppnar funktionen Berättav](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Transaktioner för godkännandebegäranden** och välj tillhörande länk.  
 
-Statusen på godkännandetransaktionen uppdateras från **Skapad** till **Öppen**. Statusen på posten, t.ex. en inköpsfaktura, uppdateras från **Öppen** till **Väntar på godkännande** och är låst för bearbetning tills alla godkännare har godkänt transaktionen.
+Statusen på godkännandetransaktionen uppdateras från **Skapad** till **Öppen**. Statusen på posten, t. ex. en inköpsfaktura, uppdateras från **Öppen** till **Väntar på godkännande** och är låst för bearbetning tills alla godkännare har godkänt transaktionen.
 
 När godkännaren har godkänt transaktionen, ändras statusen till **Släppt**. Därefter kan du fortsätta med dina uppgifter för posten.
 

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60080b0a8982420ff2f3a6654d496395733bc425
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b9077224f4a0b0344b565c55dcfb14db1e90722c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749224"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380158"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Skapa underhåll för anläggningstillgångar
 Om du vill hantera underhåll av anläggningstillgångar måste du först ange viss allmän underhållsinformation, ett bokföringskonto för underhållskostnader och underhållskoder för olika typer av arbete, till exempel rutintjänst eller reparation.
@@ -30,7 +30,7 @@ Om du skapar fält för underhåll kan du bokföra underhållskostnader från an
 3. Fyll i så många fält som behövs på snabbfliken **Underhåll**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Så här skapar du underhållskoder
-När du bokför underhållskostnader (från en redovisningsjournal eller en inköpsfaktura) fyller du i fältet **Underhållskod** för att ange vilken typ av underhåll som har utförts, t.ex. rutinservice eller reparation.
+När du bokför underhållskostnader (från en redovisningsjournal eller en inköpsfaktura) fyller du i fältet **Underhållskod** för att ange vilken typ av underhåll som har utförts, t. ex. rutinservice eller reparation.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Underhåll** och välj sedan tillhörande länk.
 2. Lägg upp koder för andra typer av underhållsarbete på sidan **Underhåll**.

@@ -3,19 +3,19 @@ title: Så här reserverar du artiklar | Microsoft Docs
 description: Du kan reservera artiklar för försäljningsorder, inköpsorder och produktionsorder. Du kan reservera artiklar i lager eller inkommande på öppna dokumentrader.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: caa9a0445a001620d403d5298921bf9a25b35a94
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f0d6ea525a690504b013c7d416ce32887d306003
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750036"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387980"
 ---
 # <a name="reserve-items"></a>Reservera artiklar
 Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller inkommande på öppna dokument eller journalrader. Du utför arbetet på sidan **Reservation**.
@@ -79,7 +79,7 @@ Någon gång kan du behöva avbeställa en artikelreservation.
 4.  Bekräfta meddelandet som visas, genom att välja **OK**-knappen.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Om du vill reservera ett visst serie- eller partinummer  
-Från utgående dokument för spårade artiklar t.ex. försäljningsorder eller produktionskomponentlistor kan du reservera specifika serie- eller partinummer. Detta kan vara användbart till exempel om du behöver produktionskomponenter från ett visst parti för att kontrollera överensstämmelse med tidigare produktionsbatcher eller därför att en kund har begärt ett specifikt serienummer. Mer information finns i [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md).
+Från utgående dokument för spårade artiklar t. ex. försäljningsorder eller produktionskomponentlistor kan du reservera specifika serie- eller partinummer. Detta kan vara användbart till exempel om du behöver produktionskomponenter från ett visst parti för att kontrollera överensstämmelse med tidigare produktionsbatcher eller därför att en kund har begärt ett specifikt serienummer. Mer information finns i [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md).
 
 Detta kallas för en specifik reservation, eftersom du reserverar från antalet av artikeln X som tillhör parti X. Om du enbart reserverar från antal av artikeln X, är det en helt vanlig, icke-specifik reservation. Mer information finns i  [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md).
 

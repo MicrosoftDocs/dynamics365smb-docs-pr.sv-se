@@ -3,19 +3,19 @@ title: Mappa registren och fälten som ska synkroniseras | Microsoft docs
 description: Läs om hur du kartlägger tabeller och fält för synkronisering av data mellan Business Central och Microsoft Dataverse.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a1324a9774c655d5353039d1645135adc87320e2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cdaaa805ec25529c0675a00a647830019926f216
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753948"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378229"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappa register och fält som ska synkroniseras
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -34,7 +34,7 @@ När du skapar anslutningen mellan programmen ställer [!INCLUDE[prod_short](inc
 En mappning av integreringsregister innehåller också regler som styr hur synkroniseringsjobb för integrering synkroniserar poster i ett [!INCLUDE[prod_short](includes/prod_short.md)]-register och ett register i [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
 
 ### <a name="strategies-for-auto-resolving-conflicts"></a>Strategier för att lösa konflikter automatiskt
-Datakonflikter kan lätt uppstå när affärsprogram utbyter data kontinuerligt. Någon kan t.ex. ta bort eller ändra en rad i ett av programmen, eller i båda. Om du vill minska antalet konflikter som ska lösas manuellt, kan du ange lösningsstrategier så löser [!INCLUDE[prod_short](includes/prod_short.md)] konflikter automatiskt enligt reglerna i strategierna.
+Datakonflikter kan lätt uppstå när affärsprogram utbyter data kontinuerligt. Någon kan t. ex. ta bort eller ändra en rad i ett av programmen, eller i båda. Om du vill minska antalet konflikter som ska lösas manuellt, kan du ange lösningsstrategier så löser [!INCLUDE[prod_short](includes/prod_short.md)] konflikter automatiskt enligt reglerna i strategierna.
 
 Registermappningar för integrering innehåller regler som styr hur synkroniseringsjobb synkroniserar poster. På sidan **Registermappningar för integrering** i kolumnerna **Lös borttagningskonflikter** och **Lös uppdateringskonflikter** kan du ange hur [!INCLUDE[prod_short](includes/prod_short.md)] ska lösa konflikter som uppstår på grund av att poster togs bort i tabeller i det ena eller andra affärsprogrammet, eller uppdaterades i båda. 
 
@@ -54,7 +54,7 @@ Att mappa register är bara det första steget. Du måste också mappa fälten i
 Ibland är värdena i de fält som du vill mappa olika. I [!INCLUDE[crm_md](includes/crm_md.md)] är exempelvis språkkoden för USA "U.S.", men i [!INCLUDE[prod_short](includes/prod_short.md)] är den "US." Detta innebär att du måste omvandla värdet när du synkroniserar data. Detta sker genom omvandlingsregler som du definierar för fälten. Du definierar omvandlingsregler på sidan **Registermappningar för integrering** genom att välja **Mappning** och sedan **Fält**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. Mer information finns i [Omvandlingsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
 ### <a name="handling-missing-option-values-in-mapping"></a>Hantera alternativvärden som saknas i mappningen
-[!INCLUDE[prod_short](includes/cds_long_md.md)] innehåller kolumner för alternativuppsättningar som tillhandahåller värden som du kan mappa till [!INCLUDE[prod_short](includes/prod_short.md)]-fält av typen **Alternativ** för automatisk synkronisering. Under synkroniseringen ignoreras icke-mappade alternativ, saknade alternativ läggs till i relaterad [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen och läggs till i systemtabellen **CDS-alternativmappning** för att hanteras manuellt senare. Du kan t.ex. lägga till saknade alternativ i någon av produkterna och sedan uppdatera mappningen. Mer information finns i [Hantera saknade alternativvärden](admin-cds-missing-option-values.md).
+[!INCLUDE[prod_short](includes/cds_long_md.md)] innehåller kolumner för alternativuppsättningar som tillhandahåller värden som du kan mappa till [!INCLUDE[prod_short](includes/prod_short.md)]-fält av typen **Alternativ** för automatisk synkronisering. Under synkroniseringen ignoreras icke-mappade alternativ, saknade alternativ läggs till i relaterad [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen och läggs till i systemtabellen **CDS-alternativmappning** för att hanteras manuellt senare. Du kan t. ex. lägga till saknade alternativ i någon av produkterna och sedan uppdatera mappningen. Mer information finns i [Hantera saknade alternativvärden](admin-cds-missing-option-values.md).
 
 ## <a name="coupling-records"></a>Kopplingsposter
 Kopplingen länkar rader i [!INCLUDE[prod_short](includes/cds_long_md.md)] med poster i [!INCLUDE[prod_short](includes/prod_short.md)]. Till exempel är konton i [!INCLUDE[prod_short](includes/cds_long_md.md)] vanligtvis kopplade till kunder i [!INCLUDE[prod_short](includes/prod_short.md)]. Kopplingsposter ger följande fördelar:

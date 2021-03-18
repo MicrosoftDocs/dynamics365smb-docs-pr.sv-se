@@ -3,22 +3,22 @@ title: Rensa data med bevarandeprinciper | Microsoft Docs
 description: Du kan ange hur ofta du vill ta bort vissa typer av data.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 52f99b262dbfa5568650b72356ec43442fc75284
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754048"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378530"
 ---
 # <a name="define-retention-policies"></a>Definiera bevarandeprinciper
-Administratörer kan definiera bevarandeprinciper för att ange hur ofta de vill att [!INCLUDE[prod_short](includes/prod_short.md)] tar bort gamla data i tabeller som innehåller loggposter och arkiverade poster. Att rensa loggposter kan t.ex. göra det enklare för dig att arbeta med data som faktiskt är relevanta. Principer kan omfatta alla data i tabellerna som har passerat utgångsdatumet, eller så kan du lägga till filterkriterier som endast tar med vissa utgångna data i principen. 
+Administratörer kan definiera bevarandeprinciper för att ange hur ofta de vill att [!INCLUDE[prod_short](includes/prod_short.md)] tar bort gamla data i tabeller som innehåller loggposter och arkiverade poster. Att rensa loggposter kan t. ex. göra det enklare för dig att arbeta med data som faktiskt är relevanta. Principer kan omfatta alla data i tabellerna som har passerat utgångsdatumet, eller så kan du lägga till filterkriterier som endast tar med vissa utgångna data i principen. 
 
 ## <a name="required-setups-and-permissions"></a>Nödvändiga konfigurationer och behörigheter
 Innan du kan skapa bevarandeprinciper måste du ställa in följande.
@@ -28,7 +28,7 @@ Innan du kan skapa bevarandeprinciper måste du ställa in följande.
 |**Tillåtna tabeller**     |Vi tillhandahåller en lista över de tabeller som kan ingå i bevarandeprinciper. Om du däremot vill lägga till tabeller från ett tillägg till en bevarandeprincip, måste utvecklaren lägga till tabellerna i listan. Mer information finns i [Inkludera tillägget i en bevarandeprincip](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy-requires-help-from-a-developer).          |
 |**Kvarhållningsperioder**     |Ange tidsperioder för vilka data ska behållas i tabellerna i en princip. Perioderna bestämmer hur ofta data ska tas bort.         |
 
-Dessutom måste du ha behörigheten SUPER-användare eller behörighetsuppsättningen för bevarandeprincip. Användare som har tilldelats behörighetsuppsättningen Konfigurera bevarandeprincip kan definiera bevarandeprinciper för tabeller, även om de inte har behörighet att läsa och ta bort för dessa tabeller. Jobbköposten måste köras som en användare med behörighet att läsa och ta bort data. Vi rekommenderar att du inte beviljar behörighetsuppsättningen Konfigurera bevarandeprincip till användare som inte bör tillåtas ta bort data.
+Dessutom måste du ha behörigheten SUPER-användare eller behörighetsuppsättningen för bevarandeprincip. Användare som har tilldelats behörighetsuppsättningen Konfigurera bevarandeprincip kan definiera bevarandeprinciper för tabeller, även om de inte har behörighet att läsa och ta bort för dessa tabeller. Projektköposten måste köras som en användare med behörighet att läsa och ta bort data. Vi rekommenderar att du inte beviljar behörighetsuppsättningen Konfigurera bevarandeprincip till användare som inte bör tillåtas ta bort data.
 
 > [!NOTE]
 > Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt och vill prova att använda bevarandeprinciper i demonstrationsdatabasen Cronus, finns det några saker du måste göra. Demonstrationsföretaget innehåller inga tabeller som du kan använda med bevarandeprinciper, så du måste lägga till dem. Det gör du genom att skapa ett nytt, tomt företag i demonstrationsdatabasen. I det nya företaget importerar du konfigurationspaketet RapidStart för ditt land som motsvarar standardpaketet NAV17.0.W1.ENU.STANDARD.rapidstart. Konfigurationsdata för bevarandeprinciper kommer att vara tillgängliga i det nya företaget.
@@ -53,10 +53,10 @@ Du kan använda en jobbköpost för att tillämpa bevarandeprinciper för att au
 
 Om du vill tillämpa en bevarandeprincip automatiskt skapar och aktiverar du bara en princip. När du aktiverar en princip skapar vi en jobbköpost som tillämpar bevarandeprinciper enligt den lagringsperiod som du anger. Alla bevarandeprinciper kommer att använda samma jobbköpost. Som standard tillämpar jobbköposten principen varje dag vid 0200. Du kan ändra standardvärdet, men om du gör det rekommenderar vi att det körs utanför kontorstid. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md). 
 
-Du kan tillämpa en princip manuellt med hjälp av åtgärden **Tillämpa manuellt** på sidan **Bevarandeprinciper**. Om du alltid vill tillämpa en princip manuellt aktiverar du reglaget **Manuellt**. Jobbköposten ignorerar principen när den körs.
+Du kan tillämpa en princip manuellt med hjälp av åtgärden **Tillämpa manuellt** på sidan **Bevarandeprinciper**. Om du alltid vill tillämpa en princip manuellt aktiverar du reglaget **Manuellt**. Projektköposten ignorerar principen när den körs.
 
 ## <a name="viewing-retention-policy-log-entries"></a>Visa loggposter för bevarandeprincip
-Du kan visa aktiviteter som är relaterade till bevarandeprinciper på sidan **Logg för bevarandeprincip**. Poster skapas t.ex. när en princip tillämpas, eller om fel uppstod när det skedde. 
+Du kan visa aktiviteter som är relaterade till bevarandeprinciper på sidan **Logg för bevarandeprincip**. Poster skapas t. ex. när en princip tillämpas, eller om fel uppstod när det skedde. 
 
 ## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Inkludera tillägget i en bevarandeprincip (kräver hjälp från en utvecklare)
 Som standard täcker bevarandeprinciper endast tabeller som ingår i listan över [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller som vi tillhandahåller. Du kan ta bort standardtabeller från listan och du kan lägga till tabeller som du äger. Det innebär att du inte kan lägga till en tabell som du inte har skapat själv. Du kan till exempel inte lägga till andra tabeller från [!INCLUDE[prod_short](includes/prod_short.md)] eller från ett tillägg som du har köpt.

@@ -3,19 +3,19 @@ title: Integrera med Dynamics 365 Sales | Microsoft Docs
 description: Lär dig hur du hämtar Dynamics 365 Business Central redo att integreras med Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 692c3d10ba8bc72b3993d4f05cc9dcaee7dabc8c
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 02633c21025fe13b3cb781d8750d7c839640289c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035687"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385380"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrering med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -128,7 +128,7 @@ Följande tabell anger regler som kontrollerar synkroniseringen mellan [!INCLUDE
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Synkroniseringsjobb för Sales-integrering
 
-Jobben körs i följande ordning i syfte att undvika kopplingsberoenden mellan tabeller. Det finns ytterligare jobb tillgängliga från Dataverse. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+Projekten körs i följande ordning i syfte att undvika kopplingsberoenden mellan tabeller. Det finns ytterligare jobb tillgängliga från Dataverse. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
 1. MÅTTENHET – Dynamics 365 Sales synkroniseringsjobb  
 2. RESURS-PRODUKTER – Dynamics 365 Sales synkroniseringsjobb  
@@ -141,7 +141,7 @@ Jobben körs i följande ordning i syfte att undvika kopplingsberoenden mellan t
 
 I följande tabell beskrivs standardsynkroniseringjobben för Sales.  
 
-|Jobbkötransaktion|Beskrivning|Riktning|Registermappning för integrering|Standardfrekvens för synkronisering (minuter)|Standardväntetid för inaktivitet (minuter)|  
+|Projektkötransaktion|Beskrivning|Riktning|Registermappning för integrering|Standardfrekvens för synkronisering (minuter)|Standardväntetid för inaktivitet (minuter)|  
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
 |MÅTTENHET – Dynamics 365 Sales synkroniseringsjobb|Synkroniserar [!INCLUDE[crm_md](includes/crm_md.md)]-enhetsgrupper med [!INCLUDE[prod_short](includes/prod_short.md)]-måttenheter.|Från [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]|MÅTTENHET|30|720<br> (12 tim)|
 |RESURS-PRODUKTER – Dynamics 365 Sales synkroniseringsjobb|Synkroniserar [!INCLUDE[crm_md](includes/crm_md.md)]-produkter med [!INCLUDE[prod_short](includes/prod_short.md)]-resurser.|Från [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]|RESURS-PRODUKT|30|720<br> (12 tim)|

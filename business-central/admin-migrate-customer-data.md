@@ -3,19 +3,19 @@ title: Migrera kunddata
 description: Du kan migrera befintliga kunddata från ett befintligt system till Business Central med hjälp av RapidStart Services – eller bara registrera datan direkt i företaget.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3da4b0f6be7c8b4a8844ee479f1cc3e35006e9c1
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: fe667f86bbd70bbe3cf3e7560cc8de2bd6315f0d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068298"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378004"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 
@@ -39,7 +39,7 @@ Innan du börjar måste du kontrollera att du har behörighet att köra RapidSta
 >
 >  Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte.
 >
-> Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000 Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000 Kundbankkonto** som har primärnyckeln **Code20 + Code 20** importeras inte data.  
+> Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t. ex. konfigurationspaketet innehåller tabellen **50000 Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000 Kundbankkonto** som har primärnyckeln **Code20 + Code 20** importeras inte data.  
 
 1. Öppna det nya företaget.  
 2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  

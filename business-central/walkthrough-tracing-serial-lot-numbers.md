@@ -3,19 +3,19 @@ title: 'Genomgång: Spåra serienummer/partinummer | Microsoft Docs'
 description: I det här avsnittet beskrivs åtgärder som ska vidtas för att stoppa försäljning av en defekt artikel.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756373"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385730"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Genomgång: Spåra serienummer/partinummer
 
@@ -25,7 +25,7 @@ När produktfel inträffar måste felen identifieras och de artiklar som påverk
 
 Den första uppgiften vid felhantering är att ta reda på var de defekta artiklarna kommer ifrån och var de har använts. Den här undersökningen baseras på historiska data och underlättas av en sökning bland artikelspårningsposterna på sidan **Artikelspårning**.  
 
-Nästa uppgift vid felhantering är att fastställa om de spårade artiklarna har planerats i öppna dokument, t.ex. icke-bokförda försäljningsorder eller förbrukningsjournaler. Detta arbete utförs på sidan ****. Du kan använda funktionen Hitta transaktioner för att söka igenom alla typer av databasposter.  
+Nästa uppgift vid felhantering är att fastställa om de spårade artiklarna har planerats i öppna dokument, t. ex. icke-bokförda försäljningsorder eller förbrukningsjournaler. Detta arbete utförs på sidan **Hitta transaktioner**. Du kan använda funktionen Hitta transaktioner för att söka igenom alla typer av databasposter.  
 
 ## <a name="about-this-walkthrough"></a>Om den här genomgången
 
@@ -282,9 +282,9 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
     Nu är du klar med den andra defekthanteringsuppgiften med hjälp av sidan **Artikelspårning** för defekthantering. Eftersom sidan **Artikelspårning** endast bygger på bokförda poster måste kvalitetskontrollanten fortsätta till sidan **Hitta transaktioner** för att säkerställa att PARTI1 inte förekommer i icke-bokförda dokument.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Hitta alla poster som innehåller ett serienummer/partinummer  
- Med sidan **Artikelspårning** fick kvalitetskontrollanten veta att de defekta racercykelramarna kom från PARTI1, vilken leverantör som levererat dem samt i vilka bokförda transaktioner de förekommit. Nu måste kvalitetskontrollanten fastställa om PARTI1 förekommer i något öppet dokument genom att integrera från spårningsresultatet till sidan **Hitta transaktioner** där han kan utföra en sökning i alla databasposter.  
+ Med sidan **Artikelspårning** fick kvalitetskontrollanten veta att de defekta racercykelramarna kom från PARTI1, vilken leverantör som levererat dem samt i vilka bokförda transaktioner de förekommit. Kvalitetskontrollanten måste nu fastställa om PARTI1 förekommer i något öppet dokument genom att integrera från spårningsresultatet till sidan **Hitta transaktioner**, där han/hon kan utföra en sökning i alla databasposter.  
 
-### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Så här hittar du alla förekomster av PARTI1 i icke-bokförda poster, t.ex. öppna order  
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Så här hittar du alla förekomster av PARTI1 i icke-bokförda poster, t. ex. öppna order  
 
 1.  På sidan **Artikelspårning** markerar du pekaren på den första spårningsraden, som är inleveransen för PARTI1.  
 2.  Välj åtgärden **Hitta transaktioner**.  

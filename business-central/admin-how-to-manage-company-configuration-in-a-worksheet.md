@@ -3,19 +3,19 @@ title: Så här hanterar du företagskonfigurationen i ett kalkylark | Microsoft
 description: Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e90d17b2892744c768cd0383f91962fe51d2a0de
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3b4be28dda5e01656f8e91fe813c01969115100
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752656"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378254"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Så här hanterar du företagskonfigurationen i ett kalkylark
 Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag.  
@@ -56,7 +56,7 @@ I följande procedurer ser du hur du lägger till och anpassar tabellinformation
 
     |Alternativ|Description|  
     |----------------------------------|---------------------------------------|  
-    |**Inkludera enbart med data**|Markera kryssrutan om du vill att bara de tabeller som innehåller data ska ingå. Du kan t.ex. lägga till en tabell som redan definierar de vanligaste betalningsvillkoren som stöds i din lösning.|  
+    |**Inkludera enbart med data**|Markera kryssrutan om du vill att bara de tabeller som innehåller data ska ingå. Du kan t. ex. lägga till en tabell som redan definierar de vanligaste betalningsvillkoren som stöds i din lösning.|  
     |**Ta med motsvarande tabeller**|Markera kryssrutan om du vill ta med alla relaterade tabeller. I steg 3 i den här proceduren ser du hur du lägger till en underuppsättning av relaterade tabeller.|  
     |**Ta med måtttabeller**|Markera kryssrutan om du vill ta med alla relaterade måttabeller.|  
     |**Ta bara med licensierade tabeller**|Markera kryssrutan om du bara vill ta med tabeller som du har åtkomst till, med licensen som du använde när du skapade kalkylarket.|
@@ -86,7 +86,7 @@ Använd nästa procedur för att ange vilka tabellfält du vill inkludera. När 
 5. Välj **OK**.  
 6. För att filtrera en viss uppsättning poster som ska inkluderas i konfigurationskalkylarket väljer du åtgärden **Filter** och anger sedan lämpliga filtervärden.
 
-Du kan skapa områden med funktioner och grupper av tabeller i kalkylarket så att liknande funktioner kan grupperas. Om du t.ex. ställer in kontoplanen för din konfiguration kan du välja att skapa en grupp bokföringstabeller. Områden används typiskt för att gruppera en uppsättning tabeller som motsvarar ett funktionellt område. Varje område kan innehålla grupper. En grupp kan användas för att gruppera tabeller som har en gemensam betydelse.  
+Du kan skapa områden med funktioner och grupper av tabeller i kalkylarket så att liknande funktioner kan grupperas. Om du t. ex. ställer in kontoplanen för din konfiguration kan du välja att skapa en grupp bokföringstabeller. Områden används typiskt för att gruppera en uppsättning tabeller som motsvarar ett funktionellt område. Varje område kan innehålla grupper. En grupp kan användas för att gruppera tabeller som har en gemensam betydelse.  
 
 Följande procedurer beskriver hur du lägger till områdes- och gruppbeteckningar när du har skapat den ursprungliga listan över tabeller. När du har lagt till dessa kategorier kan du fortsätta lägga till och ändra listan över tabeller.  
 

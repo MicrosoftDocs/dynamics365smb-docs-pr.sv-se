@@ -4,19 +4,19 @@ description: Tillägget Vitala företagsinsikter roterar ett antal företagsinsi
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2be073fbb2216e9a87c54b7c4d9fd3fa86e02aee
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5fe9f0907611843951b682a9bf07c0c153486700
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757223"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377329"
 ---
 # <a name="the-essential-business-insights-extension"></a>Tillägget Vitala företagsinsikter
 Tillägget Vitala företagsinsikter hittar intressanta affärsfakta i dina företagsdata och visar dessa som tidningsaktiga rubriker i rollcenter. Beroende på vad tillägget hittar i datan kommer insikterna från förra veckan, förra månaden eller tre månader från dagens datum. Denna kunskap uppdateras var 10:e minut.  

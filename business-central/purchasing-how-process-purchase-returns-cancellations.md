@@ -3,19 +3,19 @@ title: Behandla returer eller annulleringar | Microsoft Docs
 description: Förklarar hur du skapar och bokför en inköpskreditnota när du returnerar artiklar till en leverantör eller avbryter köpta tjänster.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0f8cc23b4108b460f4a9c6d890dcfd962b23f9e1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 674d178fca457e7b8b1f73d526245d64fbd6d35a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748749"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383131"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandla inköpsreturer eller annulleringar
 
@@ -111,7 +111,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 
     - För bokförda dokumentrader av typen **Artikel** skapas en ny dokumentrad som är en kopia av den bokförda dokumentraden, med det antal som ännu inte har återförts. Fältet **Koppla till artikellöpnr** fylls i efter behov med numret på artikeltransaktionen för den bokförda dokumentraden.  
 
-    - För bokförda dokumentrader som inte är av typen **Artikel**, t.ex. artikelomkostnader, skapas en ny dokumentrad som är en kopia av den ursprungliga bokförda dokumentraden.  
+    - För bokförda dokumentrader som inte är av typen **Artikel**, t. ex. artikelomkostnader, skapas en ny dokumentrad som är en kopia av den ursprungliga bokförda dokumentraden.  
 
     - Fältet **Styckkostnad (BVA)** på den nya raden beräknas utifrån kostnaderna på motsvarande artikeltransaktioner.  
 
@@ -126,7 +126,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
     > [!NOTE]  
     >  Om en del av antalet på den bokförda dokumentraden redan har återförts, sålts eller förbrukats skapas en rad bara för det antal som finns kvar i lager eller som inte har returnerats. Om hela antalet på den bokförda dokumentraden har återförts skapas ingen ny dokumentrad.  
     >
-    >  Om varuflödet i det bokförda dokumentet är detsamma som i det nya dokumentet skapas en kopia av den ursprungliga bokförda dokumentraden i det nya dokumentet. Fältet **koppla-från artikellöpnr** fylls inte i eftersom exakt kostnadsåterföring inte är möjligt i det här fallet. T.ex. om du använder funktionen **Hämta bokförda dokumentrader som ska återföras** för att hämta en bokförd inköpskreditnotarad för en ny inköpskreditnota kopieras endast den ursprungliga bokförda kreditnotaraden till den nya kreditnotan.  
+    >  Om varuflödet i det bokförda dokumentet är detsamma som i det nya dokumentet skapas en kopia av den ursprungliga bokförda dokumentraden i det nya dokumentet. Fältet **koppla-från artikellöpnr** fylls inte i eftersom exakt kostnadsåterföring inte är möjligt i det här fallet. t. ex. om du använder funktionen **Hämta bokförda dokumentrader som ska återföras** för att hämta en bokförd inköpskreditnotarad för en ny inköpskreditnota kopieras endast den ursprungliga bokförda kreditnotaraden till den nya kreditnotan.  
 
 10. På sidan **Inköpsreturorder** i fältet **Returorsakskod** för varje rad väljer du orsaken till returen.
 11. Välj åtgärden **Bokföra**.
@@ -142,7 +142,7 @@ Du kan komma överens med leverantören om att de ska kompensera dig för en ink
 
 ## <a name="to-create-a-purchase-allowance"></a>Så här skapar du ett prisavdrag vid inköp:
 
-Om en leverantör skickar artiklar som på något sätt inte motsvarar din beställning, t.ex. om varorna är skadade eller har fel färg eller storlek, erbjuds du förmodligen någon form av ersättning eller avdrag på priset.  
+Om en leverantör skickar artiklar som på något sätt inte motsvarar din beställning, t. ex. om varorna är skadade eller har fel färg eller storlek, erbjuds du förmodligen någon form av ersättning eller avdrag på priset.  
 
 Du kan bokföra den reducerade inköpskostnaden som en artikelomkostnad på en kreditnota eller returorder och koppla den till den bokförda inleveransen. Följande tabell beskriver en inköpsreturorder, men samma steg gäller för en inköpskreditnota.
 

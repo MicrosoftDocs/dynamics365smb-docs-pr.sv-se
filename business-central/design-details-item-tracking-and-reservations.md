@@ -3,19 +3,19 @@ title: Designdetaljer - Artikelspårning och reservationer | Microsoft Docs
 description: Det här avsnittet handlar om artikelspårning och reservationer och beskriver koncepten bakom de två.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2883ed1176f20cca289cb68d4f3839f8099c874f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380258"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
 
@@ -32,8 +32,8 @@ Reservation av artikelspårningsnummer är uppdelad i två kategorier, som visas
   
 |Reservation|Description|  
 |-----------------|---------------------------------------|  
-|Specifik|Du väljer ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t.ex. en försäljningsorder.<br /><br /> Detta är en reguljär reservation. Det är en fast länk mellan tillgång och efterfrågan som båda har serie- eller partinummer. **Obs:**  Efterfrågan har serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från parti A eftersom kunden begär det. En burk med blå färg från ett Parti A levereras till kunden.|  
-|Icke-specifik|Du väljer inte ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t.ex. en försäljningsorder.<br /><br /> Detta är läge som läggs på en reservationstransaktion för serie- eller partinummer som inte har har valts specifikt. **Obs:** Efterfrågan har inte serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från ett valfritt parti för din försäljningsorder. En burk med blå färg från ett slumpmässigt serie- eller partinumret levereras till kunden.|  
+|Specifik|Du väljer ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t. ex. en försäljningsorder.<br /><br /> Detta är en reguljär reservation. Det är en fast länk mellan tillgång och efterfrågan som båda har serie- eller partinummer. **Obs:**  Efterfrågan har serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från parti A eftersom kunden begär det. En burk med blå färg från ett Parti A levereras till kunden.|  
+|Icke-specifik|Du väljer inte ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t. ex. en försäljningsorder.<br /><br /> Detta är läge som läggs på en reservationstransaktion för serie- eller partinummer som inte har har valts specifikt. **Obs:** Efterfrågan har inte serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från ett valfritt parti för din försäljningsorder. En burk med blå färg från ett slumpmässigt serie- eller partinumret levereras till kunden.|  
   
 Den huvudsakliga skillnaden mellan specifika och icke-specifika reservationer definieras av förekomsten av serie- eller partinummer på efterfråganssidan, så som visas i följande tabell.  
 
@@ -54,7 +54,7 @@ Om du väljer **Nr** i dialogrutan som visas öppnas sidan **Reservation** och d
   
 På grund av strukturen i reservationsystemet måste systemet välja specifika artikeltransaktioner att reservera mot när du gör en icke-specifik reservation för en artikelspårad artikel. Eftersom artikeltransaktionerna har artikelspårningsnumren, reserverar reservationen indirekt specifika serie- eller partinummer, även om du inte avsåg att göra det. För att hantera den här situationen försöker reservationssystemet ombilda icke-specifika reservationstransaktioner före bokföring.  
   
-Systemet reserverar faktiskt fortfarande mot specifika transaktioner, men det använder sedan en ombildningsmekanism när som helst det finns en viss efterfrågan för parti- eller serienumret i den icke-specifika reservationen. Det kan vara fallet när du bokför en efterfråganstransaktion, t.ex. en försäljningsorder, förbrukningsjournal eller överföringsorder för serie- eller partinumret, eller när du försöker att reservera ett specifikt serie- eller partinummer. Systemet ombildar reservationerna för att göra parti- eller serienumret tillgängliga för efterfrågan eller den specifika reservationen och därmed ange ett annat parti- eller serienummer i den icke-specifika reservationen. Om det finns otillräckliga antal i lager stuvar systemet om så mycket som möjligt och du får ett dispositionsfel om det fortfarande finns otillräckliga antal vid bokföringstidpunkten.  
+Systemet reserverar faktiskt fortfarande mot specifika transaktioner, men det använder sedan en ombildningsmekanism när som helst det finns en viss efterfrågan för parti- eller serienumret i den icke-specifika reservationen. Det kan vara fallet när du bokför en efterfråganstransaktion, t. ex. en försäljningsorder, förbrukningsjournal eller överföringsorder för serie- eller partinumret, eller när du försöker att reservera ett specifikt serie- eller partinummer. Systemet ombildar reservationerna för att göra parti- eller serienumret tillgängliga för efterfrågan eller den specifika reservationen och därmed ange ett annat parti- eller serienummer i den icke-specifika reservationen. Om det finns otillräckliga antal i lager stuvar systemet om så mycket som möjligt och du får ett dispositionsfel om det fortfarande finns otillräckliga antal vid bokföringstidpunkten.  
   
 > [!NOTE]  
 >  På en icke-specifik reservation är partinummer- eller serienummerfältet tomt i reservationstransaktionen som pekar på efterfrågan, till exempel försäljningen.  

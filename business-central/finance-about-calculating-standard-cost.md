@@ -3,22 +3,22 @@ title: Om att beräkna standardkostnad | Microsoft Docs
 description: I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917214"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376642"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beräkning av standardkostnad
-Många produktionsföretag använder värderingsbasen för standardkostnad. Detta gäller också företag som utför lätt produktion, t.ex. montering och paketering. I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks. Innan ett beslut fattas om att ändra de här kostnaderna förblir de frysta. Den faktiska kostnaden för att tillverka en produkt kan skilja sig från den beräknade standardkostnaden. Den faktiska kostnaden jämförs sedan med standardkostnaden för en särskild artikel och skillnaderna eller *avvikelserna* identifieras och analyseras för den ekonomiska styrningen.  
+Många produktionsföretag använder värderingsbasen för standardkostnad. Detta gäller också företag som utför lätt produktion, t. ex. montering och paketering. I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks. Innan ett beslut fattas om att ändra de här kostnaderna förblir de frysta. Den faktiska kostnaden för att tillverka en produkt kan skilja sig från den beräknade standardkostnaden. Den faktiska kostnaden jämförs sedan med standardkostnaden för en särskild artikel och skillnaderna eller *avvikelserna* identifieras och analyseras för den ekonomiska styrningen.  
 
 Standardkostnader kan bibehållas för artiklar som fylls i via inköp, montering och produktion. För varje återanskaffning kan standardkostnader bestå av följande delar.  
 
@@ -48,7 +48,7 @@ Följande viktiga kostnadselement utgör den totala inköpskostnaden för en fä
  Materialkostnaderna är kostnader som är kopplade till detaljmontage och inköpt råmaterial. Materialkostnaden kan bestå av kostnadsslag för både inköpskostnad och indirekt kostnad.  
 
 -   Inköpskostnaden för materialet utgörs av ett fakturerat belopp för inköpt råmaterial eller av produktionskostnaden för ett detaljmontage.  
--   Den indirekta kostnaden för materialet eller *overheadkostnaden* kan t.ex. utgöras av lagerhållningskostnaden för den färdiga artikeln när den har tillverkats.  
+-   Den indirekta kostnaden för materialet eller *overheadkostnaden* kan t. ex. utgöras av lagerhållningskostnaden för den färdiga artikeln när den har tillverkats.  
 
 Inställningen av materialkostnaden för inköpta artiklar, som påverkar inköpskostnad och indirekt kostnad, beror på den värderingsprincip du har valt för den aktuella artikeln. Du kan skapa kostnadsinformation för varje värderingsprincip på artikelkortet. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
@@ -62,7 +62,7 @@ Materialkostnaden för en tillverkad artikel kan visas på två sätt som motsva
 |En nivå eller flera nivåer|Producerad artikel är summan av materialkostnaden för alla delmontage i den artikelns struktur och kostnaden för alla inköpta artiklar i den artikelns produktionsstruktur.|  
 
 ### <a name="capacity-costs"></a>Kapacitetskostnader  
-Kapacitetskostnaderna är kostnader som är kopplade till interna kostnader för arbetskraft och maskiner. Du måste lägga upp dessa kostnader för varje resurs (i monteringshanteringen) och arbete eller maskingrupp i verksamhetsföljden (i produktion). På samma sätt som med materialkostnaderna kan du identifiera kostnadsslag för kapacitetskostnaden, vad beträffar både inköpskostnaden och den indirekta kostnaden. Inköpskostnaden för en produktionsgrupp kan t.ex. vara "verkstadskostnaden" som har skapats för en särskild uppgift. Den indirekta kostnaden för en produktionsgrupp kan utgöras av allmänna kostnader för fabriken, t.ex. belysning, uppvärmning o.s.v. På liknande sätt som med materialkostnaderna kan kapacitetsoverhead uttryckas i form av en procentsats för den indirekta kostnaden eller en fast overheadkostnad.  
+Kapacitetskostnaderna är kostnader som är kopplade till interna kostnader för arbetskraft och maskiner. Du måste lägga upp dessa kostnader för varje resurs (i monteringshanteringen) och arbete eller maskingrupp i verksamhetsföljden (i produktion). På samma sätt som med materialkostnaderna kan du identifiera kostnadsslag för kapacitetskostnaden, vad beträffar både inköpskostnaden och den indirekta kostnaden. Inköpskostnaden för en produktionsgrupp kan t. ex. vara "verkstadskostnaden" som har skapats för en särskild uppgift. Den indirekta kostnaden för en produktionsgrupp kan utgöras av allmänna kostnader för fabriken, t. ex. belysning, uppvärmning o.s.v. På liknande sätt som med materialkostnaderna kan kapacitetsoverhead uttryckas i form av en procentsats för den indirekta kostnaden eller en fast overheadkostnad.  
 
 Inställningen av kapacitetskostnaderna för monterade artiklar består av följande delar:  
 
@@ -86,7 +86,7 @@ För att ange omställningstid i verksamhetsföljden i planeringssyfte, men inte
 På En-nivå-basis är detta den arbetskostnad som krävs för att producera den färdiga produktionsartikeln och anges på produktionsartikelns verksamhetsföljd. På en fler-nivå-basis är den kapacitet som har angetts för varje enskild tillverkad artikel som ingår i den överordnade artikelns struktur.  
 
 ### <a name="subcontractor-costs"></a>Underleverantörskostnader  
-Underleverantörskostnaderna är kostnader som är kopplade till tjänster från företagets fristående leverantörer eller underleverantörer. På liknande sätt som med material- och kapacitetskostnaderna kan underleverantörskostnaderna bestå av både inköpskostnad och overheadkostnad. Inköpskostnaden för legotillverkningen utgörs av den faktiska avgiften per enhet för de erhållna tjänsterna. Overheadkostnaden för legotillverkningen kan t.ex. vara frakt- och hanteringskostnader som företaget ådrog sig vid en legotillverkningsorder.  
+Underleverantörskostnaderna är kostnader som är kopplade till tjänster från företagets fristående leverantörer eller underleverantörer. På liknande sätt som med material- och kapacitetskostnaderna kan underleverantörskostnaderna bestå av både inköpskostnad och overheadkostnad. Inköpskostnaden för legotillverkningen utgörs av den faktiska avgiften per enhet för de erhållna tjänsterna. Overheadkostnaden för legotillverkningen kan t. ex. vara frakt- och hanteringskostnader som företaget ådrog sig vid en legotillverkningsorder.  
 
 Eftersom legotillverkning är en utlagd kapacitet ställs kostnaden för legotillverkningstjänsterna (inköpskostnad och indirekt kostnad) in för produktionsgruppkortet som motsvarar legotillverkningsoperationen.  
 

@@ -3,19 +3,19 @@ title: Använda AMC Banking 365 Fundamentals-tillägget | Microsoft Docs
 description: Utbyt data enkelt med bankerna genom att omvandla data till det format de kräver.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a2147240aac15b805a6f64473b5eb2febb38deac
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 19331b3897c6ca0ec848298a105729ecda1d3a87
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757573"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377018"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Använda tillägget AMC Banking 365 Fundamentals
 Med tillägget AMC Banking 365 Fundamentals blir det enklare och mer exakt att skicka data till dina banker. Tillägget ansluter [!INCLUDE[prod_short](includes/prod_short.md)] till AMC Banking 365 Fundamentals för Microsoft Dynamics 365 Business Central-tjänsten, som kan omvandla bankdata från [!INCLUDE[prod_short](includes/prod_short.md)] till de format som krävs av över 600 banker runt om i världen. Det gör det till exempel enklare att överföra betalningar och krediter till leverantörer genom att registrera betalningarna i [!INCLUDE[prod_short](includes/prod_short.md)] och sedan överföra dem till din bank. Formaten kan också göra bankavstämningsprocesser smidigare. Mer information finns i [AMC Banking för Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help)
@@ -29,7 +29,7 @@ Med tillägget AMC Banking 365 Fundamentals blir det enklare och mer exakt att s
 Vi tillhandahåller inställningarna, men om du vill testa tillägget måste du köra guiden för assisterad konfiguration för att använda dem. Om du vill köra guiden väljer du på sidan **Konfiguration av AMC Banking** åtgärden **Assisterad konfiguration**.
 
 > [!Note]
-> Det finns vissa begränsningar för demokontot. När du t.ex. konverterar betalningar kommer inte beloppet i den konverterade filen att matcha det faktiska beloppet. I stället är beloppet alltid fem enheter av den valuta som du använder för betalningar.  
+> Det finns vissa begränsningar för demokontot. När du t. ex. konverterar betalningar kommer inte beloppet i den konverterade filen att matcha det faktiska beloppet. I stället är beloppet alltid fem enheter av den valuta som du använder för betalningar.  
 
 ## <a name="setting-up-the-extension"></a>Konfigurera tillägget
 Att komma igång med tillägget består bara av några enkla steg, och en guide för assisterad konfiguration kommer att upprätta anslutningen och slå på tillägget. Guiden kommer att göra sådant som att installera datautbytesdefinitioner för bankutdrag, inställningar för export/import och initiera den nummerserie som används för kreditöverföringsmeddelanden.  

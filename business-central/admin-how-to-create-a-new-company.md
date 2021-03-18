@@ -3,19 +3,19 @@ title: Så här skapar du ett nytt företag | Microsoft Docs
 description: Tabeller och sidor skapas i syfte att kunna använda RapidStart Services, men de innehåller inga data.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7583837e515a4fd5fb415fe1b482512e7edf6b5a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 703b70a608bd6b25b9a3218eb59e8666fcd6a0ab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754010"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378329"
 ---
 # <a name="create-a-new-company"></a>Skapa ett nytt företag
 Innan du kan använda RapidStart Services för [!INCLUDE[prod_short](includes/prod_short.md)] måste du först skapa ett nytt företag för vilket du vill genomföra en kundimplementering. När du skapar ett nytt företag skapas standardtabeller och sidor för [!INCLUDE[prod_short](includes/prod_short.md)] men det inte finns några data i dem.

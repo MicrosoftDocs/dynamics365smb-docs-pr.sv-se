@@ -3,19 +3,19 @@ title: SEPA-autogiro i Business Central | Microsoft Docs
 description: Du kan samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 08b28c30ba6ef1bf80d4562f198eeeb4aa07394c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 31614ffce745213f8af7b3440e886d96a02d39a6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747122"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380537"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Samla in betalningar med SEPA-autogiro
 Med kundens samtycke kan du samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet.  
@@ -153,7 +153,7 @@ En autogiroinsamling läggs till på sidan **Autogiroinsamlingar** och en eller 
      |Fält|Description|  
      |---------------------------------|---------------------------------------|  
      |**Autogirosamlingsnr.**|Ange autogiroinsamlingen som du vill bokföra betalningskvittot för.|  
-     |**Redovisningsjournalmall**|Ange vilken redovisningsjournalmallen som ska användas för att bokföra betalningskvitto, t.ex. mall för inbetalningar.|  
+     |**Redovisningsjournalmall**|Ange vilken redovisningsjournalmallen som ska användas för att bokföra betalningskvitto, t. ex. mall för inbetalningar.|  
      |**Redovisningsjournalnamn**|Ange vilka redovisningsjournalbatch som ska användas för att bokföra ett betalningskvitto.|  
      |**Skapa enbart journal**|Markera den här kryssrutan om du inte vill bokföra betalningskvittot när du väljer **OK** knappen. Betalningskvittot skall förberedas i den angivna journalen och bokförs inte förrän någon bokför journalraderna i fråga.|  
 

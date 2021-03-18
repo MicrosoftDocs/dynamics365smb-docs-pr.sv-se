@@ -3,17 +3,17 @@ title: Utvärderingsversioner och prenumerationer
 description: Lär dig mer om hur du skaffar en utvärderingsversion av Business Central, hur du arbetar med miljöer med begränsat läge och hur du registrerar dig för prenumerationer.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a30129ba0d3d1b2fd77590c96056c4475debe7ce
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817185"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379104"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer
 
@@ -54,7 +54,7 @@ För att hjälpa dig att upprätta ditt företag visar sidan **Assisterad konfig
 | Konfigurera arbetsflöde för godkännande av utbetalningsjournal |Konfigurerar förmågan att skicka ett meddelande till en godkännare när en användare skickar utbetalningsjournalrader för godkännande. |
 | Konfigurera en anslutning till Dynamics 365 Sales |Ställer in en anslutning till Dynamics 365 Sales som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
 | Konfigurera kassaflödesprognos |Ställer in kassaflödesprognosdiagrammet så att du kan visa beräknad föflyttning av likvida medel somgår in och ut ur företag. Diagrammet är tillgänglig på **Rollcentret Revisor**. |
-| Konfigurera rapporteringsinformation|Konfigurerar datauppsättningar som du kan använda för att bygga kraftfulla rapporter med hjälp av Excel eller Power BI, t.ex. |
+| Konfigurera rapporteringsinformation|Konfigurerar datauppsättningar som du kan använda för att bygga kraftfulla rapporter med hjälp av Excel eller Power BI, t. ex. |
 | Bjud in extern revisor |Om du använder en extern revisor för att hantera böcker och redovisning kan du bjuda in dem till dina [!INCLUDE[prod_short](includes/prod_short.md)] så att de kan arbeta med dig med räkenskapsårets informationen. |
 
 Sidan **Assisterad konfiguration** kan innehålla andra poster. När du går igenom en inställning markeras inställningen som **Slutförd**. Du kan lägga upp ytterligare områden i företaget genom att använda manuell inställning. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  

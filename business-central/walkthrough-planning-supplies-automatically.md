@@ -3,19 +3,19 @@ title: Genomgång – Planera leveranser automatiskt | Microsoft Docs
 description: Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av den primära produktionsplanen (MPS) och materialbehovsplanen (MRP), baserat på faktiska behov och behovsprognoser.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 04483a81793f21a6011c142433b830f678adf85d
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 29d3b8f906034885cd92a241bf6f1859dac8ee2a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035712"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385480"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
 
@@ -207,7 +207,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 ## <a name="creating-a-net-change-plan"></a>Skapa en nettoförändringsplanering  
  Nästa dag, innan någon leveransorder har påbörjats eller bokförts, anländer en ny försäljningsorder från Libros AB för tio touringcyklar med leveransdatum 2021-02-12. Eduardo blir underrättad om det här nya behovet och fortsätter genom att planera om för att justera den aktuella leveransplaneringen. Eduardo använder funktionen Nettoförändringsplanering för att beräkna endast de förändringar som görs i behovet eller leveransen sedan den senaste planeringskörningen. Dessutom utökar han planeringsperioden till 2021-02-14 så att den även omfattar den nya försäljningsefterfrågan den 2014-02-12.  
 
- I planeringssystemet beräknas det bästa sättet att täcka behovet för de här två identiska produkterna, t.ex. att slå samman vissa inköps- och produktionsorder, omplanera andra order och skapa nya order vid behov.  
+ I planeringssystemet beräknas det bästa sättet att täcka behovet för de här två identiska produkterna, t. ex. att slå samman vissa inköps- och produktionsorder, omplanera andra order och skapa nya order vid behov.  
 
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Så här skapar du nytt försäljningsbehov och planerar om därefter  
 

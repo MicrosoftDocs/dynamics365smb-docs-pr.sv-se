@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a5aa40d2f202019a238f76c0fe2ff2480d97c9bf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2d6cbf9327e0b1d5b4d61b6ac14d949b8700b833
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750786"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380994"
 ---
 # <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
 Alla företag i Europeiska unionen måste rapportera sin handel med andra länder/regioner inom EU. I Sverige måste du rapportera transport av varor till de statistiska myndigheterna varje månad. I programmet kallas detta för intrastatrapportering. Du använder sidan **Intrastatjournal** när du vill fylla i periodiska intrastatrapporter.  
@@ -29,7 +29,7 @@ Innan du kan använda intrastatjournalen för att rapportera Intrastat-informati
 * **Intrastatjournalmallar**: du måste ställa in de intrastatjournalmallar och intrastatjournaler som du kommer att använda. Eftersom intrastat rapporteras månadsvis måste skapa 12 intrastatjournaler baserade på samma mall.  
 * **Artikelkoder**: Tull- och skattemyndigheterna har fastställt numeriska koder som klassificera artiklar och tjänster. Du kan ange koder för artiklar.
 * **Koder för transaktionstyp**: länder och regioner har olika koder för olika typer av Intrastat-transaktioner, till exempel ordinär inköp och försäljning, byte av returnerade varor och byte av inte returnerade varor. Ställ in alla koder som gäller för ditt land/din region. Använd koderna på försäljnings- och inköpsdokument och när du bearbetar returer.  
-* **Transportsätt**: det finns sju, ensiffrig kod för Intrastat transportsätt. **1** för sjötransport, **2** för järnvägstransport, **3** för vägtransport, **4** flygtransport, **5** för brev, **7** för fasta installationer och **9** för egen framdrivning (t.ex. transport av en bil genom att köra den). [!INCLUDE[prod_short](includes/prod_short.md)] kräver inte dessa koder, men vi rekommenderar att beskrivningarna ger liknande betydelse.  
+* **Transportsätt**: det finns sju, ensiffrig kod för Intrastat transportsätt. **1** för sjötransport, **2** för järnvägstransport, **3** för vägtransport, **4** flygtransport, **5** för brev, **7** för fasta installationer och **9** för egen framdrivning (t. ex. transport av en bil genom att köra den). [!INCLUDE[prod_short](includes/prod_short.md)] kräver inte dessa koder, men vi rekommenderar att beskrivningarna ger liknande betydelse.  
 
 Du kan även ställa in:
 

@@ -4,19 +4,19 @@ description: Lär dig mer om att lägga till funktioner och att anpassa Business
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec80608757a8865cdea62af54ceda855e673942a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 38022164846c9463a91179a6d71b9ebb8e4bd2a2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747649"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385930"
 ---
 # <a name="customize-business-central"></a>Anpassa Business Central
 Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.

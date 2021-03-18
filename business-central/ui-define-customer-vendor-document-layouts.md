@@ -5,22 +5,22 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed8b60c5b49502251f6ab6e61d22fd860af0915f
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 493a801b381ef21a2f8265e3a59615fa21618fc1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024544"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385905"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definiera dokumentlayout för kunder och leverantörer
-När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort i syfte att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t.ex. **påminnelse**, **utleverans** och **bekräftelse**.
+När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort i syfte att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t. ex. **påminnelse**, **utleverans** och **bekräftelse**.
 
 Förutom att definiera vilka layouter som ska användas för vilket dokument, kan du spara tid när du skickar dokument till olika kund- eller leverantörskontakter genom att skapa specifika kontakters e-postadresser för särskilda dokument. Kundutdrag skickas till exempel till revisorkontakter, försäljningsorder till kundernas inköpare och inköpsorder till leverantörernas säljare eller kontoansvariga.
 
@@ -52,7 +52,7 @@ Du kan spara tid när du skickar dokument till olika kund- eller leverantörskon
 1. På sidan **dokumentlayouter** på raden för en rapportlayout som du vill skicka till en viss kontakt för kunden väljer du åtgärden **Välj e-post från kontakter**.
 2. På sidan **Kontakter** väljer du rad för relevant kontakt och väljer sedan knappen **OK**.
 
-E-postadressen till kontakten infogas nu på dokumentets layouttabell så att försäljningsdokumentet, t.ex. påminnelser, alltid skickas till den kontakten hos kundens företag.
+E-postadressen till kontakten infogas nu på dokumentets layouttabell så att försäljningsdokumentet, t. ex. påminnelser, alltid skickas till den kontakten hos kundens företag.
 
 ## <a name="see-also"></a>Se även  
 [Uppdatera anpassade rapportlayouter](ui-update-report-layouts.md)  

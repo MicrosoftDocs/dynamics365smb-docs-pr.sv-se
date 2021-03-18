@@ -1,25 +1,25 @@
 ---
 title: Så här bokför du flera dokument på samma gång | Microsoft Docs
-description: I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för batch-bokföring, antingen för direkt bokföring eller som t.ex. i slutet av dagen.
+description: I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för batch-bokföring, antingen för direkt bokföring eller som t. ex. i slutet av dagen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bc969cac89f414552ec45b357010bdcfc7164a8d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e493aa1a965d4d3cb5a546e8671915ed19fce918
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757698"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387080"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bokföra flera dokument på samma gång
 
-I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för direkt bokföring eller för batch-bokföring enligt ett schema, t.ex. i slutet av dagen. Detta kan vara användbart om endast en ansvarig kan bokföra dokument som skapats av andra användare eller undvika problem med system prestanda vid bokföring under arbetstid.
+I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för direkt bokföring eller för batch-bokföring enligt ett schema, t. ex. i slutet av dagen. Detta kan vara användbart om endast en ansvarig kan bokföra dokument som skapats av andra användare eller undvika problem med system prestanda vid bokföring under arbetstid.
 
 ## <a name="to-post-multiple-purchase-orders-immediately"></a>Så här bokför du flera inköpsorder direkt
 
@@ -49,7 +49,7 @@ I proceduren nedan beskrivs hur du bokför flera inköpsorder. Stegen är liknan
 > Det kan ta en stund att bokföra flera dokument och samtidigt blockera andra användare. Överväg att aktivera bakgrundsbokföring. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-set-up-background-posting-with-job-queues"></a>Att ställa in bakgrundsbokföring med jobbköer
-Jobbköer är ett effektivt verktyg som schemalägger körning av affärsprocesser i bakgrunden, till exempel när flera användare försöker bokföra försäljningsorder men endast en order i taget kan bearbetas.  
+Projektköer är ett effektivt verktyg som schemalägger körning av affärsprocesser i bakgrunden, till exempel när flera användare försöker bokföra försäljningsorder men endast en order i taget kan bearbetas.  
 
 Nedan beskrivs hur du ställer in bakgrundsbokföring av försäljningsorder. Stegen är liknande för inköp.  
 
@@ -58,7 +58,7 @@ Nedan beskrivs hur du ställer in bakgrundsbokföring av försäljningsorder. St
 3. Välj fältet **Kategorikod för jobbkod** och ange sedan koden för **SÄLJSPOST**.
 
     > [!NOTE]
-    > Vissa jobb ändrar samma data och bör inte köras samtidigt på grund av att det kan orsaka konflikter. Bakgrundsjobb för försäljningsdokument kommer till exempel att försöka ändra samma data på samma gång. Jobbkökategorier förhindrar dessa typer av konflikter genom att säkerställa att ett annat jobb som tillhör samma jobbkö inte körs förrän det är klart. Till exempel väntar ett jobb som tillhör en försäljningsjobbkökategori tills alla andra relaterade försäljningsjobb är klara. Du anger en kategori för jobbkö på snabbfliken **Bakgrundsbokföring** på sidan **Försäljningsinställningar**.
+    > Vissa jobb ändrar samma data och bör inte köras samtidigt på grund av att det kan orsaka konflikter. Bakgrundsjobb för försäljningsdokument kommer till exempel att försöka ändra samma data på samma gång. Projektkökategorier förhindrar dessa typer av konflikter genom att säkerställa att ett annat jobb som tillhör samma jobbkö inte körs förrän det är klart. Till exempel väntar ett jobb som tillhör en försäljningsjobbkökategori tills alla andra relaterade försäljningsjobb är klara. Du anger en kategori för jobbkö på snabbfliken **Bakgrundsbokföring** på sidan **Försäljningsinställningar**.
     >
     > I [!INCLUDE[prod_short](includes/prod_short.md)] finns jobbkökategorier för försäljnings-, inköps- och redovisningsbokföring. Du bör alltid ange en av dessa, eller en som du själv skapar. Om du upplever fel på grund av konflikter kan du lägga upp en kategori för all bakgrundsbokföring av försäljning, inköp och redovisning.
 

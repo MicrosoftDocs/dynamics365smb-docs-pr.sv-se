@@ -3,17 +3,17 @@ title: Skapa ett projektkort för ett projekt och ange aktiviteter | Microsoft D
 description: För ett nytt projekt kan du skapa ett projektkort med projektaktiviteterna och planeringsrader för att hantera hur och budgetar.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c109e9dca32e83ace97b773be97da8e463af5f0e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 82099964471634bad5d89095ec3f2a3806882faa
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758773"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376543"
 ---
 # <a name="create-jobs"></a>Skapa projekt
 När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
@@ -58,7 +58,7 @@ En projektplaneringsrad kan ha en av följande typer.
 | **Fakturerbart** |Anger uppskattad fakturering till kunden, vanligtvis som ett fastprisprojekt. |
 | **Både Budget och Fakturerbart** |Anger budgeterad förbrukning som motsvarar vad du vill fakturera. |
 
-**Obs**. När du anger information på projektplaneringsrader fylls kostnadsinformationen i automatiskt. T.ex. baseras kostnaden, priset och rabatten för resurser och artiklar inledningsvis på informationen som definieras på resurs- och artikelkort.
+**Obs**. När du anger information på projektplaneringsrader fylls kostnadsinformationen i automatiskt. t. ex. baseras kostnaden, priset och rabatten för resurser och artiklar inledningsvis på informationen som definieras på resurs- och artikelkort.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.
 2. Öppna ett relevant projektkort.

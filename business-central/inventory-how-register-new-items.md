@@ -3,19 +3,19 @@ title: Skapa artikelkort för varor eller tjänster | Microsoft Docs
 description: Du skapar artikelkort för tjänster som du säljer som timmar och för fysiska produkter, till exempel monteringsartiklar, färdiga produkter, komponenter eller råmaterial som säljs från lagret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e4bf13885ccd7888e1750f4351741150df7b7df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: badba79d8097db74ca843f37ded1b76ada5c3739
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746222"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377704"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 
@@ -51,9 +51,9 @@ I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan 
 > [!NOTE]
 > I fältet **värderingsprincip** anger du hur artikelns styckkostnad beräknas genom att anta hur flödet av fysiska artiklar sker i företaget. Fem metoder är tillgängliga, beroende på typen av objekt. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).
 >
-> Om du använder **Genomsnitt** beräknas en artikels enhetskostnad som den genomsnittliga styckkostnaden vid respektive tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att på sidan **Översikt: Beräkning av genomsnittskostnad** visa tidigare transaktioner som genomsnittskostnaden beräknas från.
+> Om du använder **Genomsnitt** beräknas en artikels styckkostnad som den genomsnittliga styckkostnaden vid respektive tidpunkt efter ett inköp. Lager värderas med förutsättningen att alla lagerartiklar säljs samtidigt. Med den här inställningen kan du välja fältet **Styckkostnad** för att på sidan **Översikt: Beräkning av genomsnittskostnad** visa tidigare transaktioner som genomsnittskostnaden beräknas från.
 
-Du kan visa eller redigera specialpriser eller rabatter som du beviljar eller som säljaren ger dig för artikeln om vissa kriterier uppfylls, till exempel kund, lägsta partistorlek eller slutdatum Det gör du genom att välja åtgärderna **ange särskilda priser** eller **ange särskilda rabatter**. Varje rad på, t.ex. sidan **försäljningspriser**, representerar ett specialpris. Varje kolumn representerar ett kriterium som måste användas för att ge kunden det särskilda pris som du anger i fältet **enhetspris** på sidan **försäljningspriser**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrera särskilda inköpspriser och rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Du kan visa eller redigera specialpriser eller rabatter som du beviljar eller som säljaren ger dig för artikeln om vissa kriterier uppfylls, till exempel kund, lägsta partistorlek eller slutdatum Det gör du genom att välja åtgärderna **ange särskilda priser** eller **ange särskilda rabatter**. Varje rad på, t. ex. sidan **försäljningspriser**, representerar ett specialpris. Varje kolumn representerar ett kriterium som måste användas för att ge kunden det särskilda pris som du anger i fältet **enhetspris** på sidan **försäljningspriser**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrera särskilda inköpspriser och rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
 Artikeln är nu registrerad, och artikelkortet är klart att användas i försäljningsdokument.
 
@@ -75,7 +75,7 @@ Om du vill registrera artiklar som sedan används i produktionsorder anger du å
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Så här lägger du upp flera leverantörer för artiklar
 
-Om du köper samma artikel från flera olika leverantörer måste du ange information om varje leverantör, t.ex. priser, ledtid och rabatter.  
+Om du köper samma artikel från flera olika leverantörer måste du ange information om varje leverantör, t. ex. priser, ledtid och rabatter.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
 2. Välj relevant artikel och välj sedan åtgärden **Artikel**.  

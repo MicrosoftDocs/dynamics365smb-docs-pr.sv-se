@@ -3,19 +3,19 @@ title: Så här beräknar du ett orderlöftesdatum | Microsoft Docs
 description: Orderlöftesfunktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpsrader för de datum som du accepterar.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 150c5c552e314d17af15968ebcbe57d8e8bc3fc1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ad3b5b283e8a9a07c3590ee3d3a7afb132c6d26c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758123"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383106"
 ---
 # <a name="calculate-order-promising-dates"></a>Beräkna orderlöftesdatum
 Ett företag måste kunna informera sina kunder om orderleveransdatum. Sidan **Orderlöftesrader** ger dig möjlighet att göra detta från en försäljningsorderrad.  
@@ -87,7 +87,7 @@ Förutom ett externt orderlöfte som du kan utföra på sidan **Orderlöftesrade
     |**q**|Kvartal|  
     |**y**|År|  
 
-    "3v" anger till exempel att offset-tiden är tre veckor. Använd "c" som ett prefix för alla de här koderna när du ska ange aktuell period. Om du t.ex. vill att offset-tiden ska vara den aktuella månaden skriver du **cm**.  
+    "3v" anger till exempel att offset-tiden är tre veckor. Använd "c" som ett prefix för alla de här koderna när du ska ange aktuell period. Om du t. ex. vill att offset-tiden ska vara den aktuella månaden skriver du **cm**.  
 3. Ange en nummerserie i fältet **Orderlöfte nr-serie** genom att markera en rad från listan på sidan **Nr-serier**.  
 4. Ange en orderlöftesmall i fältet **Orderlöftesmall** genom att välja en rad från listan på sidan **Inköpskalkylarksmallista**.  
 5. Ange ett inköpskalkylark i fältet **Orderlöfteskalkylark** genom att markera en rad från listan på sidan **Inköpskalkylarksnamn**.

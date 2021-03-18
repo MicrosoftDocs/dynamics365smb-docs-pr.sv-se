@@ -3,19 +3,19 @@ title: Designdetaljer – artikelkoppling | Microsoft Docs
 description: Det här avsnittet beskriver var lagerkvantitet och värdet registreras när du bokför en lagertransaktion.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: b0b73731584ee844706180d2127c65369fe74e82
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035488"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380637"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
 
@@ -137,7 +137,7 @@ I följande tabell visas resultatet av scenariot för artikelns värdetransaktio
 |01-01-20|Inköp|1|100,00||Nej|4|4|  
 |01-01-20|Försäljning|-2|-300.00||Ja|5|5|  
 
-Om användaren inte har gjort den fasta kopplingen mellan inköpskreditnotan och inköpet med den felaktiga direkta enhetskostnaden (moment 2 i föregående scenario), så skulle kostnaden ha justerats på ett annat sätt.  
+Om användaren inte har gjort den fasta kopplingen mellan inköpskreditnotan och inköpet med den felaktiga direkta styckkostnaden (moment 2 i föregående scenario), så skulle kostnaden ha justerats på ett annat sätt.  
 
 Följande tabell visar resultatet på artikelns värdetransaktioner om moment 2 i föregående scenario utförs utan en fast koppling.  
 

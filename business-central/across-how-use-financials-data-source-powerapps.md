@@ -3,19 +3,19 @@ title: Använda din adata för att skapa en app | Microsoft Docs
 description: Du kan göra dina Business Central-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa en företagsapp med Power Apps.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5d2e6b75978d9aced7636b41623365f3d98ed3aa
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0bfa7a36a7655b4b26dfbfd11688fe42eeb19cfe
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754498"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379329"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps
 
@@ -34,7 +34,7 @@ Du kan göra din [!INCLUDE[prod_short](includes/prod_short.md)]-data tillgängli
 
     Power Apps kommer att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av autentiseringsuppgifterna som du har loggat in med. Om du inte är administratör för ditt [!INCLUDE[prod_short](includes/prod_short.md)] måste du kanske logga in med ett annat konto.  
 
-4. Power Apps visar en lista över *Miljöer och företag* som finns på [!INCLUDE[prod_short](includes/prod_short.md)]. Välj den miljö och det företag som innehåller de data som du vill ansluta till t.ex. *PRODUKTION – Mitt företag*.  
+4. Power Apps visar en lista över *Miljöer och företag* som finns på [!INCLUDE[prod_short](includes/prod_short.md)]. Välj den miljö och det företag som innehåller de data som du vill ansluta till t. ex. *PRODUKTION – Mitt företag*.  
 
 5. Sedan visas en lista över tabeller som visas som en del av API för din miljö. Markera den tabell som du vill ansluta till och välj sedan **Anslut**.
 

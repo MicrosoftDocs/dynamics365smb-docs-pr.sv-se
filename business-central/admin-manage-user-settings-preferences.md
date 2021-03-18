@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 25b3c8a795c1a3f9d08ae0971da88b78e4d29b25
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2ad6c564d20a13d5a8b47c53db62f939a3207337
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752581"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378054"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Hantera användarinställningar och inställningar
 
@@ -23,7 +23,7 @@ Som administratör kan du ange användarinställningar i [!INCLUDE[prod_short](i
 
 ## <a name="types-of-user-settings"></a>Typer av användarinställningar
 
-*Användarinställningar* är inte samma sak som *Användarinställningar*, som är om användaren som en enhet och användarens behörighet i systemet. Dessutom har användarinställningarna ingenting med användarens anpassning att göra, t.ex. lätta ändringar i användargränssnittet. Användarinställningarna bestämmer användarens inställningar i olika delar av hur programmet visar sig för användaren. I följande stycke visas de fem olika typerna av användarinställningar och inställningar som kan anges av administratören:
+*Användarinställningar* är inte samma sak som *Användarinställningar*, som är om användaren som en enhet och användarens behörighet i systemet. Dessutom har användarinställningarna ingenting med användarens anpassning att göra, t. ex. lätta ändringar i användargränssnittet. Användarinställningarna bestämmer användarens inställningar i olika delar av hur programmet visar sig för användaren. I följande stycke visas de fem olika typerna av användarinställningar och inställningar som kan anges av administratören:
 
 - **Företag**  
 
@@ -35,7 +35,7 @@ Som administratör kan du ange användarinställningar i [!INCLUDE[prod_short](i
 
 - **Språk-ID (nationella inställningar)**  
 
-  Definierar hur datum och nummer visas på [!INCLUDE[prod_short](includes/prod_short.md)] klienten, t.ex. om du vill använda europeiska eller amerikanska datumformat, eller hur du vill visa decimaltecknet och tusenavgränsare i belopp. Om [!INCLUDE[prod_short](includes/prod_short.md)]-användarna synkroniseras från Microsoft 365 används de nationella inställningarna från Microsoft 365, förutsatt att användaren vill använda samma inställningar i Office-produkter och [!INCLUDE[prod_short](includes/prod_short.md)]. En administratör eller användare kan ändra inställningarna manuellt i [!INCLUDE[prod_short](includes/prod_short.md)], men de återställs till ett värde från Microsoft 365 när nästa synkronisering utförs.
+  Definierar hur datum och nummer visas på [!INCLUDE[prod_short](includes/prod_short.md)] klienten, t. ex. om du vill använda europeiska eller amerikanska datumformat, eller hur du vill visa decimaltecknet och tusenavgränsare i belopp. Om [!INCLUDE[prod_short](includes/prod_short.md)]-användarna synkroniseras från Microsoft 365 används de nationella inställningarna från Microsoft 365, förutsatt att användaren vill använda samma inställningar i Office-produkter och [!INCLUDE[prod_short](includes/prod_short.md)]. En administratör eller användare kan ändra inställningarna manuellt i [!INCLUDE[prod_short](includes/prod_short.md)], men de återställs till ett värde från Microsoft 365 när nästa synkronisering utförs.
 
 - **Språk**  
 

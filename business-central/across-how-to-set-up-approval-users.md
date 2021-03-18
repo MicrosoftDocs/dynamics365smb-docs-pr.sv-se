@@ -3,19 +3,19 @@ title: Konfigurera användare för godkännande
 description: Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. På sidan Användarinställningar för godkännande anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/14/2020
 ms.author: edupont
-ms.openlocfilehash: d06d9762eccfd4fc10b56587ef816f5053453475
-ms.sourcegitcommit: 0ac6d539401c70a3b6b8520907f7ccba3c006468
+ms.openlocfilehash: 6069eb321a5924023234ef1e07839bb71b4847ef
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012042"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384355"
 ---
 # <a name="set-up-approval-users"></a>Konfigurera användare för godkännande
 

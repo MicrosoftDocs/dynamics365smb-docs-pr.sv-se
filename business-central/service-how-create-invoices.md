@@ -3,19 +3,19 @@ title: Skapa fakturor eller kreditnotor för tjänster | Microsoft Docs
 description: Lära dig att skapa fakturor, så att du kan betala för tjänsten.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 399f020f1b7a792a4c2db453aa94cb144a8f64dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748086"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385980"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Skapa tjänstefakturor eller kreditnotor
 Enkel fakturering av serviceorder är en nyckelfunktion i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] så att en servicetekniker på fältet kan skapa en faktura för en tjänst som inte är kopplad till ett kontrakt eller en order. Du kan också ställa in [!INCLUDE[prod_short](includes/prod_short.md)] så att du regelbundet fakturerar servicekontrakt. Faktureringsperioden för respektive kontrakt anger hur ofta du skickar ut den.

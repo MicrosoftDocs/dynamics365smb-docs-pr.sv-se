@@ -3,19 +3,19 @@ title: Varningar och felmeddelanden | Microsoft Docs
 description: Lär dig hur du felsöker och hittar lösningar på felmeddelanden när du arbetar i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 13d5a8228c02a4655d49060d4b398bcacd4bb503
-ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
+ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4840209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387179"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Varningar och felmeddelanden i Dynamics 365 Business Central
 
-Under din arbetsdag kan du se meddelanden i [!INCLUDE [prod_short](includes/prod_short.md)] om att något gick fel eller att det inte var möjligt att bokföra någonting t.ex. I många fall gör meddelandet det enkelt att lösa ärendet eller att återställa de ändringar som du har gjort. I andra fall kanske du inte har den information som du behöver för att få en avblockering. I den här artikeln finns tips om hur du gör framsteg.  
+Under din arbetsdag kan du se meddelanden i [!INCLUDE [prod_short](includes/prod_short.md)] om att något gick fel eller att det inte var möjligt att bokföra någonting t. ex. I många fall gör meddelandet det enkelt att lösa ärendet eller att återställa de ändringar som du har gjort. I andra fall kanske du inte har den information som du behöver för att få en avblockering. I den här artikeln finns tips om hur du gör framsteg.  
 
 ## <a name="in-product-user-assistance"></a>Användarhjälp i produkten
 

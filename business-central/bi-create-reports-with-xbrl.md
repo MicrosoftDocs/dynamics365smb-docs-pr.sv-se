@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 98dd55a41ccd987d810e4fb747b5cb7355a380dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752286"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382635"
 ---
 # <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
 XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data. Bakom XBRL-projektet för global ekonomisk rapportering står ett stort antal ERP-programvaruföretag och internationella revisionsbyråer. Målet med projektet är att tillhandahålla en standard för enhetlig rapportering av ekonomisk information för banker, investerare och statliga myndigheter. Sådan affärsrapportering kan inkludera följande:  
@@ -27,28 +27,33 @@ XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat
  • icke-ekonomisk information  
  • lagreglerat uppgiftslämnande, till exempel årsredovisningar och kvartalsredovisningar  
 
- [!INCLUDE[prod_short](includes/prod_short.md)] låter företag implementera data i XBRL och utnyttja den flexibilitet och automatisering som XBRL tillhandahåller både för att samla in och dela ut data.  
+> [!NOTE]
+> Du kan importera redovisningsrelaterade scheman och skapa XBRL-instansdokument genom att mappa redovisningsdata från kontoplanen till element i taxonomier som har utformats för finansiella rapporter, till exempel balansräkningar, resultaträkningar och så vidare.
+> 
+> XBRL-funktionerna i Business Central stöder taxonomier för specifikation 2.1, men taxonomier kan även innehålla element som inte stöds - till exempel Formellänkbaser, iXBRL - eller ha andra strukturella skillnader. Vi rekommenderar att du validerar XBRL-funktionen innan du använder den för rapportering.
+> 
+> Fullt stöd för taxonomier kan kräva XBRL-taggning och verktyg från tredje part. XBRL International-organisationen har en lista över verktyg och tjänster som du kan använda för XBRL-rapportering. Beroende på XBRL-rapporteringskraven för en viss taxonomi kanske du vill utforska dessa resurser. Mer information finns i [Komma igång för företag](https://go.microsoft.com/fwlink/?linkid=2153466) och [Verktyg och tjänster](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
-XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) är ett XML-baserat språk för ekonomisk rapportering. XBRL utgör en standard för enhetlig rapportering för alla användare i den ekonomiska informationskedjan, t.ex. offentliga och privata företag, revisorer, justerare, analytiker, investeringsbolag, kapitalmarknader och långivare, samt viktiga tredje parter såsom programvaruutvecklare och dataadministratörer.  
+XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) är ett XML-baserat språk för ekonomisk rapportering. XBRL utgör en standard för enhetlig rapportering för alla användare i den ekonomiska informationskedjan, t. ex. offentliga och privata företag, revisorer, justerare, analytiker, investeringsbolag, kapitalmarknader och långivare, samt viktiga tredje parter såsom programvaruutvecklare och dataadministratörer.  
 
 Taxonomier definieras och underhålls av www.xbrl.org. Du kan hämta taxonomier eller läsa mer på XBRL:s webbplats.  
 
-Någon som behöver ekonomisk information skickar en taxonomi (ett XML-dokument) med ett eller flera scheman, vardera med en eller flera rader för ifyllning. Raderna motsvarar de individuella ekonomiska data som begärs av avsändaren. Du importerar taxonomin och fyller sedan i schemat (eller scheman) genom att ange vilket eller vilka konton som anknyter till respektive rad, samt vilken typ av tidsram som ska användas, t.ex. nettoförändring eller saldo t.o.m. datum. Ibland kan du i stället ange en konstant, t.ex. antal anställda. Därefter kan du skicka instansdokumentet (ett XML-dokument) till begäranden. Förmodligen utgör detta en återkommande händelse och, om inga ändringar gjorts i taxonomin, exporterar du bara nya instansdokument för nya perioder vid begäran.  
+Någon som behöver ekonomisk information skickar en taxonomi (ett XML-dokument) med ett eller flera scheman, vardera med en eller flera rader för ifyllning. Raderna motsvarar de individuella ekonomiska data som begärs av avsändaren. Du importerar taxonomin och fyller sedan i schemat (eller scheman) genom att ange vilket eller vilka konton som anknyter till respektive rad, samt vilken typ av tidsram som ska användas, t. ex. nettoförändring eller saldo t.o.m. datum. Ibland kan du i stället ange en konstant, t. ex. antal anställda. Därefter kan du skicka instansdokumentet (ett XML-dokument) till begäranden. Förmodligen utgör detta en återkommande händelse och, om inga ändringar gjorts i taxonomin, exporterar du bara nya instansdokument för nya perioder vid begäran.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL består av följande komponenter:  
 XBRL-**specifikationen** förklarar vad XBRL är, samt hur du skapar XBRL-instansdokument och XBRL-taxonomier. XBRL-specifikationen beskrivs XBRL i mer tekniska termer och är avsett för avancerade användare.  
 
 XBRL- **schemat**, som motsvarar de grundläggande huvudkomponenterna i XBRL. Schemat utgör den fysiska XSD-fil som anger hur instansdokument och taxonomier ska byggas.  
 
-XBRL-**länkbaserna** utgör de fysiska XML-filer som innehåller information om elementen som definieras i XBRL-schemat, t.ex. rubriker på ett eller flera språk, hur dessa är kopplade till varandra, hur element ska summeras o.s.v.  
+XBRL-**länkbaserna** utgör de fysiska XML-filer som innehåller information om elementen som definieras i XBRL-schemat, t. ex. rubriker på ett eller flera språk, hur dessa är kopplade till varandra, hur element ska summeras o.s.v.  
 
 En XBRL- **taxonomi** är en "terminologi" eller "ordlista" som skapats av en grupp för utbyte av affärsinformation. Taxonomin är kompatibel med XBRL-specifikationen.  
 
-Ett XBRL- **instansdokument** är en affärsrapport, t.ex. en ekonomisk rapport, som förberetts för XBRL-specifikationen. Innebörden av värdena i instansdokumentet beskrivs av taxonomin. Ett instansdokument är praktiskt taget oanvändbart om du inte vet för vilken taxonomi det har förberetts.  
+Ett XBRL- **instansdokument** är en affärsrapport, t. ex. en ekonomisk rapport, som förberetts för XBRL-specifikationen. Innebörden av värdena i instansdokumentet beskrivs av taxonomin. Ett instansdokument är praktiskt taget oanvändbart om du inte vet för vilken taxonomi det har förberetts.  
 
 ## <a name="layered-taxonomies"></a>Överlappande taxonomier  
-En taxonomi kan bestå av en bastaxonomi, t.ex. US GAAP eller IAS, och sedan ha en eller flera anknytningar. För att återspegla detta refererar en taxonomi till ett eller flera scheman som alla utgör separata taxonomier. När ytterligare taxonomier laddas in i databasen, läggs de nya elementen till i slutet av de redan befintliga.  
+En taxonomi kan bestå av en bastaxonomi, t. ex. US GAAP eller IAS, och sedan ha en eller flera anknytningar. För att återspegla detta refererar en taxonomi till ett eller flera scheman som alla utgör separata taxonomier. När ytterligare taxonomier laddas in i databasen, läggs de nya elementen till i slutet av de redan befintliga.  
 
 ## <a name="linkbases"></a>Länkbaser  
  I XBRL-specifikation 2 beskrivs taxonomin i flera XML-filer. Den primära XML-filen är själva taxonomischemafilen (XSD-fil), som endast innehåller en oordnad lista med element eller information som ska rapporteras. Utöver detta finns ofta associerade länkbasfiler (XML-filer). Länkbasfilerna innehåller data som kompletterar taxonomin (XSD-fil). Det finns sex olika typer av länkbasfiler, och fyra av dessa är relevanta för Produktnamn XBRL. Dessa är:  

@@ -3,19 +3,19 @@ title: Skapa bankkonton | Microsoft Docs
 description: Du kan stämma av bankkonton med utdrag från banken.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1684f12858a33234f51d7847b50ea15aa1d7b230
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6d61b235369a25fe04157b7af280f8756900d3f8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755298"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376668"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
 Du använder bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också använda funktionen för utskrift av checkar.<br><br>  

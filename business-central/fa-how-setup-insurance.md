@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5c9af3a076647380e2f6bed8ef7d0a55c3d8efe
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 10527690d19d019f8a5d94d8c4817f6a3bcd8479
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749299"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380183"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Skapa försäkring för anläggningstillgångar
 Om du vill hantera täckning av försäkring för anläggningstillgångar måste du först ange en viss allmän försäkringsinformation och ett försäkringskort per brev.
@@ -29,7 +29,7 @@ Om du vill använda den här funktionen i [!INCLUDE[prod_short](includes/prod_sh
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Så här skapar du försäkringstyper
-Du kan gruppera dina försäkringsbrev i kategorier, t.ex. stöldförsäkring och brandförsäkring. Försäkringstyperna används på försäkringskortet.
+Du kan gruppera dina försäkringsbrev i kategorier, t. ex. stöldförsäkring och brandförsäkring. Försäkringstyperna används på försäkringskortet.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkringstyper** och välj sedan tillhörande länk.  
 2. Fyll i fälten om det behövs.

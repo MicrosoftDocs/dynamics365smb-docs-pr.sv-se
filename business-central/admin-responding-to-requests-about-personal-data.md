@@ -7,13 +7,13 @@ ms.author: bholtorf
 ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
-ms.topic: article
-ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.topic: conceptual
+ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817160"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385355"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svara på begäranden om personuppgifter  
 Uppgiftssubjekt kan begära olika typer av åtgärder avseende deras personuppgifter. Exempelvis under de Allmänna dataskyddsbestämmelserna (GDPR), har bosatta inom EU rätt att begära export, borttagning och ändring av deras personuppgifter. Detta kallas *registrerades begäran*. Om du har klassificerat känsligheten i dina data och är säker på att de är korrekta, kan en administratör svara på begäranden med hjälp av alternativen under fliken **Datasekretess** u rollcentret **IT-chef**. Läs mer om klassificering av data och klassificering av datakänslighet i [!INCLUDE[prod_long](includes/prod_long.md)], se [Klassificering av data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) och [Klassificering av datakänslighet](admin-classifying-data-sensitivity.md).  

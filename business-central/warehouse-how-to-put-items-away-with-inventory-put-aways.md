@@ -3,19 +3,19 @@ title: 'Så här: Införa artiklar med lagerartikelinförsel | Microsoft Docs'
 description: När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Det inkommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en inkommande överföringsorder eller en produktionsorder vars utflöde är klart för artikelinförsel.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2831471be76e776966a533c428a5698307826b1c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 996e3fb7e5420b3240eb6bffd6468b9990ffda29
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756098"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383677"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
 När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Det inkommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en inkommande överföringsorder, montering eller en produktionsorder vars utflöde är klart för artikelinförsel.  
@@ -66,7 +66,7 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel ba
 2. I fältet **Lagerställeskod** per artikelns standardlagerplats föreslår på artikelinförsel raderna den lagerplats där artiklarna ska placeras. Du kan ändra lagerstället på den här sidan om det behövs.  
 3. Utför artikelinförseln och ange information för den faktiska kvantiteten som förts in i fältet **Ant. att hantera**.
 
-    Om det är nödvändigt att placera artiklar för en rad på flera lagerställen, t.ex. om den utsedda lagerstället är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Mer information om hur du delar upp rader finns i [Dela dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md).  
+    Om det är nödvändigt att placera artiklar för en rad på flera lagerställen, t. ex. om den utsedda lagerstället är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Mer information om hur du delar upp rader finns i [Dela dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. När du har utfört lagerinförsel, väljer du åtgärden **Bokföra**.  
 
 Vid bokföringen bokförs inleveransen, eller för produktionsorder utflödet, för de källdokumentrader som har förts in. Om lagerstället använder lagerställen skapas distributionslagertransaktioner som bokför kvantitetsändringarna på lagerstället.

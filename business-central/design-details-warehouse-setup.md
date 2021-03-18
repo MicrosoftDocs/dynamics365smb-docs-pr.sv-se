@@ -3,19 +3,19 @@ title: Designdetaljer – Lagerstyrningsinställning | Microsoft Docs
 description: Distributionslagerfunktion i Business Central innehåller olika nivåer av komplexitet enligt definitionen av licensbehörigheter i de erbjudna partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerstället definieras av licensen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: b668c21313f09323ec3b367eef59bcc5353320c5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035437"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380612"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lagerstyrningsinställningar
 

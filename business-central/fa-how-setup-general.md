@@ -3,18 +3,18 @@ title: Skapa redovisningen för anläggningstillgångar | Microsoft Docs
 description: Innan du kan använda anläggningstillgångar måste du skapa standardredovisningskonton, bokföringsmallar, allokeringsnycklar, journalmallar och batcher och klasskoder.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 62eeab6d03f0fde0b1f55f414d48c2d3cd3f573c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749250"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380208"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Skapa allmän information om anläggningstillgångar
 Innan du kan hantera anläggningstillgångar, måste du skapa standardinställningredovisningskonton, fördelningsnycklar, journalmallar och journaler för bokföring och gruppering av anläggningstillgångar i klasser, som till exempel Materiella och Immateriella.
@@ -36,7 +36,7 @@ Du kan använda bokföringsmallar om du vill definiera anläggningstillgångsgru
     >   För att se till att motkonton för olika anläggningstillgångar infogas bokföringar automatiskt när du väljer åtgärden **Infoga anl. motkonto** på journalrader, följer nästa steget som baseras på bokföring av uppskrivning.
 4. På snabbfliken **Motkonto** i fältet **Uppskrivning motkonto** anger du vilket redovisningskonto som du vill bokföra mottransaktioner för uppskrivning.
 
-Mer information om hur du använder åtgärden **Infoga anl. motkonto** på journalrader för redovisningskonto för anläggningstillgångar, se t.ex. [Omvärdera anläggningstillgångar](fa-how-revalue.md).
+Mer information om hur du använder åtgärden **Infoga anl. motkonto** på journalrader för redovisningskonto för anläggningstillgångar, se t. ex. [Omvärdera anläggningstillgångar](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Så här ställer du in fördelningsnycklar för anläggningstillgångar
 Du kan fördela transaktioner på olika avdelningar eller projekt utifrån användardefinierade fördelningsnycklar. Du kan till exempel skapa en fördelningsnyckel om du vill fördela avskrivningskostnader för bilar med 35 % på administrationsavdelningen och 65 % på försäljningsavdelningen. Mer information finns i [Fördela kostnader och intäkter](year-allocate-costs-income.md).
@@ -77,7 +77,7 @@ Du kan skapa flera journaler, d.v.s. enskilda journaler för varje grupperingsjo
 3. På sidan **Anl. grupper.journaler** fyller du i fälten efter behov.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Så här skapar du indelningskoder för anläggningstillgångar:
-Indelningskoder för anläggningstillgångar kan användas för att gruppera anläggningstillgångar, t.ex. materiella och immateriella tillgångar.
+Indelningskoder för anläggningstillgångar kan användas för att gruppera anläggningstillgångar, t. ex. materiella och immateriella tillgångar.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anl. indelningar** och välj sedan relaterad länk.
 2. Ange koder och namn för de indelningar som du vill skapa.
@@ -112,7 +112,7 @@ Om det är första gången som du använder anläggningstillgångarna i [!INCLUD
    * En rad med den ackumulerade avskrivningen till slutet på föregående räkenskapsår.
    * En rad med den ackumulerade avskrivningen från början av det innevarande räkenskapsåret till det datum då [!INCLUDE[prod_short](includes/prod_short.md)] anges för att starta beräkningen av avskrivningen.
 
-    Om du har andra ingående saldon kan du även ange dessa nu, t.ex. nedskrivning, uppskrivning o.s.v.  
+    Om du har andra ingående saldon kan du även ange dessa nu, t. ex. nedskrivning, uppskrivning o.s.v.  
 8. När du har angett och bokfört journalraderna för respektive anläggningstillgång aktiverar du redovisningsintegreringen i avskrivningsreglerna.
 
 Om anläggningstillgångarna inte har integrerats med redovisningen hoppar du över steg 6 och 8.

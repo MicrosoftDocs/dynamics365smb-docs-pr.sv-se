@@ -3,22 +3,22 @@ title: Arbeta med smarta meddelanden och ange när du ser den | Microsoft Docs
 description: Du kan få meddelanden som informerar dig om statusändringar eller händelser, till exempel en skuld eller låg lagernivå.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a297fd8381cf0af9de825cdaced658521e0335c8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8e44303df31030be4dca341a38455710467eedd8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756648"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383706"
 ---
 # <a name="manage-notifications"></a>Hantera meddelanden
 
-[!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att arbeta mer smart genom att meddela dig om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Dessa meddelanden visas som diskreta tips i kontexten för uppgiften som du gör, och du kan välja att ignorera meddelandet eller visa detaljer om utskick.  
+[!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att arbeta mer smart genom att meddela dig om vissa evenemang eller stausändringar som t. ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Dessa meddelanden visas som diskreta tips i kontexten för uppgiften som du gör, och du kan välja att ignorera meddelandet eller visa detaljer om utskick.  
 
 Om du väljer att visa detaljer för ett meddelande, kan du vidta vill att lösa problemet, som till exempel kontakta kunden, köpa mer lager och så vidare. Det är du som väljer vad som ska göras och [!INCLUDE[prod_short](includes/prod_short.md)] ger dig råd och rekommendationer.  
 

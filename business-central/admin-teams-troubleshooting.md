@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385205"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ Mer information om hur du ändrar dessa inställningar finns i [Min kamera funge
 
 Vissa webbläsare, t. ex nya Microsoft Edge, gör att du kan välja vilken kamera som ska användas när enheten har stöd för flera kameror. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams visar blandade språk för mina kort och kortuppgifter 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams visar blandade språk för mina kort och kortuppgifter
 
 För att kort och kortinformation ska kunna visas konsekvent på samma språk i Teams måste språket i din Teams-klient stämma överens med det språk som du använder i [!INCLUDE [prod_short](includes/prod_short.md)]-webbklienten.
 
@@ -116,6 +116,21 @@ Mer information om hur språk fungerar mellan Teams och [!INCLUDE [prod_short](i
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Jag har redigerat ett fält i informationsfönstret, men ändringen sparades inte
 
 Ändringar som du gör i ett fält i informationsfönstret sparas automatiskt när du lämnar fältet. Innan du stänger fönstret när du har ändrat ett fält måste du se till att trycka på tabbtangenten eller klicka/trycka utanför fältet.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>En ny panel dök upp i startprogrammet. Hur tar jag bort den?
+
+När du visar dina appar på startsidan för Office 365 (https://home.office.com) eller i startprogrammet, visas en ny panel kallad "Tjänsteanslutning för Business Central Teams-integrering" när du har installerat appen [!INCLUDE [prod_short](includes/prod_short.md)] för Teams. Denna panel har inget värde i sig och kan döljas utan risk.
+
+Som administratör med Azure Active Directory-administratörsbehörighet kan du dölja panelen genom att utföra följande steg:
+
+1. Logga in på administrationscentret för [Azure Active Directory](https://aad.portal.azure.com/).
+2. Välj **Företagsappar** och välj sedan **Tjänsteanslutning för Business Central Teams-integrering**.
+3. Välj **Egenskaper** och ställ sedan in växeln **Synlig för användare** som **Nej**.
+4. Välj **Spara**.
+
+> [!NOTE]
+> Det kommer att ta ett tag innan denna förändring träder i kraft.
+
 
 ## <a name="see-also"></a>Se även
 

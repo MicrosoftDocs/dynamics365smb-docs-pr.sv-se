@@ -3,19 +3,19 @@ title: Så här skriver du ut rapporterna Balansräkning och Resultaträkning
 description: Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9aed3999290ab69df211f56d6837c9f239a822f1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7138392d98767a57755108fa71941466818513c5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925228"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384031"
 ---
 # <a name="print-balance-sheet-and-income-statement-reports"></a>Skriv ut rapporterna Balansräkning och Resultaträkning
 Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter. I rapporten **Balansräkning** visas tillgångar, skulder och eget kapital. I rapporten **Resultaträkning** visas intäkter och kostnader.  

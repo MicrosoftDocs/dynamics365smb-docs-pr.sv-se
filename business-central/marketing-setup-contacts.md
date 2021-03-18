@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 868b8afe7fb9b36b9fc55930fa702bd181e395f2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1049bef967620571be20d9dc97864c66ee8e4074
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746022"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381762"
 ---
 # <a name="set-up-contacts"></a>Ställa in kontakter
 När du skapar kontakter kan du ange särskild information, till exempel vilken bransch kontakten tillhör och vilken affärsrelation du har med kontakten.
@@ -76,7 +76,7 @@ Du kan lägga till information om arbetsansvar för kontaktpersoner för att ang
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **Person**.
 
-Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du sidan **Arbetsansvar**.
+Arbetsansvarkoden definierar typen eller kategorin för projektet, som t. ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du sidan **Arbetsansvar**.
 
 1. Öppna relevant kontaktkort.
 2. Välj åtgärden **Person** och sedan **Arbetsansvar**. Sidan **Kontakt arbetsansvar** öppnas.
@@ -89,12 +89,12 @@ Antalet arbetsansvar som du har tilldelat kontakter anges automatiskt i fältet 
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="to-assign-organizational-levels-to-a-contact"></a>För att tilldela befattningsnivåer till en kontakt
-Du kan använda befattningsnivåer på kontakterna om du vill ange vilken befattningsnivå de har i företaget, t.ex. företagsledning. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
+Du kan använda befattningsnivåer på kontakterna om du vill ange vilken befattningsnivå de har i företaget, t. ex. företagsledning. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
 
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **Person**.
 
-Befattningsnivåkoden anger typen eller kategorin av befattningsnivån, som t.ex. VD eller CFO. Du kan ha flera befattningsnivåkoder. För att definiera befattningsnivån använder du sidan **Befattningsnivåer**.
+Befattningsnivåkoden anger typen eller kategorin av befattningsnivån, som t. ex. VD eller CFO. Du kan ha flera befattningsnivåkoder. För att definiera befattningsnivån använder du sidan **Befattningsnivåer**.
 
 1. Öppna relevant kontaktkort.
 2. I fältet **Befattningsnivåer** väljer du den kod som du vill tilldela.
@@ -104,7 +104,7 @@ När du har fördelat befattningsnivåer till kontakterna kan du använda inform
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="to-assign-web-sources-to-a-contact"></a>För att tilldela webbadresser till en kontakt
-Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
+Du kan använda webbadresser med dina kontaktföretag för att t. ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
 
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **företag**.

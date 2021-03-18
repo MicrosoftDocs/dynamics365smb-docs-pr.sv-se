@@ -3,19 +3,19 @@ title: Använda tillägg för betalningar och avstämning (DK) | Microsoft Docs
 description: Det här tillägget gör det enkelt att exportera filer som är förformaterade för att uppfylla bankkraven för elektroniska inlagor.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 13ef7eb6cdda472d68758e7e6ef5cb7d73d9fba4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757498"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384080"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Tillägg för betalningar och avstämning (DK).
 
@@ -49,7 +49,7 @@ Det finns några steg för att komma igång.
 * Tillåt betalningsdataexport. För att skydda dina data, är detta inte är tillgänglig.  
 * Skapa inköpsorder och leverantörsreskontra så att du inte behöver externa verifikationsnummer på fakturor. Om det behövs kan använda du referensnumret för att referera till en viss faktura.  
 * Ange betalningssätt för varje leverantör. Betalningssätt definierar hur du vill betala fakturor från leverantören. Till exempel bank, kontanter, check eller konto.  
-* Ange vilket format som ska användas för var och en av dina bankkonton. Det kan t.ex. vara NORDEA, DANSKEBANK, SDC.  
+* Ange vilket format som ska användas för var och en av dina bankkonton. Det kan t. ex. vara NORDEA, DANSKEBANK, SDC.  
 
 Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokföringsmall** och en **Leverantörsbokföringsmall**. Inställningen av Land/Region måste för leverantören vara Danmark (DK). Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
 

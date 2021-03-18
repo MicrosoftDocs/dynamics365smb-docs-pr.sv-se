@@ -3,19 +3,19 @@ title: Manuell synkronisering av registermappningar | Microsoft Docs
 description: Synkroniseringen kopierar data mellan Microsoft Dataverse-register och Business Central så att båda systemen hålls uppdaterade.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 90ac5cc262112d55458eacbd8e6596cf9b697135
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cac0b3f254f2282b4cd1db386db16de2e6324fdd
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753848"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378029"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkronisera manuellt registermappning
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

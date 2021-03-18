@@ -3,19 +3,19 @@ title: Så här kombinerar du inleveranser | Microsoft Docs
 description: Om du vill fakturera mer än en inleverans i taget kan du använda funktionen Kombinera inleveranser.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c3158874dc83d634ea09cac986820c615c3924d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 991c244d9e9233067903cfe21fbabcb732293490
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758448"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387705"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Kombinera inleveranser på en enda faktura
 

@@ -3,19 +3,19 @@ title: Dela kontakter mellan Business Central och Outlook | Microsoft Docs
 description: Denna tjänst har djupgående integrering med Microsoft 365 så att du kan dela kontakter mellan Outlook och Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d350ccce3ed24c9daac7e64fcd34203aceb21543
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7c9d267df2fb58da3b4a7aa1505030c9510bdf4f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755073"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386105"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisera kontakter i Business Central med kontakter i Microsoft Outlook
 Du kan visa samma kontakter i [!INCLUDE[prod_short](includes/prod_short.md)] som visas i Outlook om du ställer in synkronisering av kontakter. Till exempel om du är en säljare kan du göra vissa av ändringar i Outlook och en del av arbetet i [!INCLUDE[prod_short](includes/prod_short.md)]. Om kontakterna är desamma på båda platser, är ditt arbete enklare.  

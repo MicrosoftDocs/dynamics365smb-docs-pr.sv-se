@@ -3,19 +3,19 @@ title: Skapa nya företag med en assisterad konfiguration | Microsoft Docs
 description: Det är enkelt att skapa ett nytt, tomt företag i Business Central. En assisterad konfiguration hjälper dig genom stegen och du kan importera dina befintliga affärsdata.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7724afe2cbc8872fe71f881e436f175668d09a9e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fc318d3de70cb56e722bd02c868fc570fb62692b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753598"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385055"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -44,7 +44,7 @@ Du kan skapa valfritt antal nya företag under en utvärderingsversion på 30 d
 
 ## <a name="copying-a-company"></a>Kopiera ett företag
 
-På sidan **Företag** kan du använda åtgärden **Kopiera** för att skapa ett andra företag baserat på innehållet i ett befintligt företag. Detta är användbart om du t.ex. vill testa ett företag utan att störa produktionsdata.
+På sidan **Företag** kan du använda åtgärden **Kopiera** för att skapa ett andra företag baserat på innehållet i ett befintligt företag. Detta är användbart om du t. ex. vill testa ett företag utan att störa produktionsdata.
 
 > [!Important]
 > Den här funktionen kan inte användas för att göra en säkerhetskopia av ett företag. När du gör en säkerhetskopia av ett företag börjar du genom att exportera databasen som en .bacpac-fil. Mer information finns i [Exportera databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjälpen för utvecklare och administration.
@@ -55,7 +55,7 @@ När du loggar in på ett nytt företag körs guiden **företagsinställningar**
 
 Till exempel din företagsadress ingår i fakturor och andra dokument, din bankinformation används i betalningar och värderingsprincipen används för att beräkna priser och även lagervärdering.  
 
-När du har grundläggande inställningar på plats kan du ställa in återstående huvudområden. Sedan är du redo att lägga till affärsdata som t.ex. kunder och leverantörer. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+När du har grundläggande inställningar på plats kan du ställa in återstående huvudområden. Sedan är du redo att lägga till affärsdata som t. ex. kunder och leverantörer. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Företag och miljöer
 

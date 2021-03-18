@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 356ca50a1814756d0ef2ad9c3e478d94af5fd461
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748061"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377454"
 ---
 # <a name="delivering-service"></a>Leverera service
 I [!INCLUDE[prod_short](includes/prod_short.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
@@ -35,7 +35,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
 |Skapa offerter som är utkast för serviceorder och sedan omvandla offerterna till serviceorder.|[Skapa tjänsteofferter](service-how-to-create-service-quotes.md)|
-|Skapa dokument som innehåller information om en service, som t.ex. reparationer och underhåll, på serviceartiklar.|[Skapa tjänsteorder](service-how-to-create-service-orders.md)|
+|Skapa dokument som innehåller information om en service, som t. ex. reparationer och underhåll, på serviceartiklar.|[Skapa tjänsteorder](service-how-to-create-service-orders.md)|
 |Planera serviceleverans med hjälp av **Beordringstavlan**. Du kan också använda projekthanteringsverktygen i avdelningen Projekt för att underlätta planeringen.|[Så här tilldelar du resurser](service-how-to-allocate-resources.md)|  
 |Leverera service till kunder genom att utföra serviceuppgifter.|[Arbeta med tjänsteuppgifter](service-how-to-work-on-service-tasks.md)|  
 |Bokföra serviceorder för service så att bokföringen är aktuell.|[Bokföra tjänsteorder och kreditnotor](service-how-to-post-service-orders.md)|  

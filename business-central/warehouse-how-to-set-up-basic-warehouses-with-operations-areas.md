@@ -3,19 +3,19 @@ title: 'Så här: Ställa in grundläggande dist.lager med verksamhetsområden |
 description: Om ett internt verksamhetsområde – till exempel produktion eller montering – finns i grundläggande distributionslagerkonfigurationer där lagerställen använder inställningsfältet **Lagerplats obligatorik** samt eventuellt fälten **Begär plockning** och **Begär artikelinförsel** kan du använda tre grundläggande lagerdokument för att registrera lageraktiviteter för interna verksamhetsområden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9d74bdc6d2c712742374993141cdd4d557caf80d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9e409ef5e08749bb9cc49cbe39d4f6e50badf643
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759672"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376918"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Ställa in grundläggande dist.lager med verksamhetsområden
 Om internt verksamhetsområde till exempel produktion eller tillverkning finns i grundläggande distributionslagerkonfiguration, där lagerställen använder **Lagerplats ska finnas** inställningar, och eventuellt fälten **Begär plockning** och **Begär artikelinförsel**, kan du använda följande grundläggande dokument för att registrera lageraktiviteter för internt verksamhetsområde:  

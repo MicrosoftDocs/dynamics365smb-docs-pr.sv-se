@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d312045c8ac5f7e349880123cb4d3fecdb345a3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cddfc8c8bb053c314c6c6dddf98b2cfd86c9878f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752311"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386255"
 ---
 # <a name="setting-up-banking"></a>Ställa in bank
 Med hjälp av bankkontokort kan du hålla reda på alla dina bankkonton, oavsett valuta. När du har skapat bankkontona kan du även använda funktionen för utskrift av checkar.

@@ -4,22 +4,22 @@ description: Lär dig vad användarupplevelsernivåerna Essential och Premium be
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 354791b9a1bafb07bc1e16530dc1d07c16d1e49d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9e53ef4e33d489de7ff92e537b01b8563e62ba77
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747624"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379639"
 ---
 # <a name="change-which-features-are-displayed"></a>Ändra vilka funktioner som visas
-[!INCLUDE[prod_short](includes/prod_short.md)] är utformat för att hjälpa dig att driva företaget oavsett storlek och komplexitet. I produktens kärna finns viktiga funktioner, till exempel ekonomisk rapportering, försäljning, inköp och lagerhantering. När affärs komplexiteten ökar kan du t.ex. aktivera funktioner för produktion och tjänsthantering.
+[!INCLUDE[prod_short](includes/prod_short.md)] är utformat för att hjälpa dig att driva företaget oavsett storlek och komplexitet. I produktens kärna finns viktiga funktioner, till exempel ekonomisk rapportering, försäljning, inköp och lagerhantering. När affärs komplexiteten ökar kan du t. ex. aktivera funktioner för produktion och tjänsthantering.
 
 Du kan ange produktens komplexitets nivå och därmed vilka funktioner företagets användare får till gång till, genom att ändra inställningen **Upplevelse** på sidan **Företagsinformation**. Observera att upplevelseinställningen också kan ändras genom att lägga till vissa tillägg från AppSource. Mer information finns i [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md).
 

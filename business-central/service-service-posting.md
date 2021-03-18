@@ -3,19 +3,19 @@ title: Servicebokföring | Microsoft Docs
 description: Funktionen för servicebokföring gör att du kan behandla dokumenten mer effektivt och upprätthålla en bra service till kunderna. Du kan skapa och uppdatera bokförda dokument och skapa transaktioner i modulen Service och i andra moduler så att informationen alltid är korrekt uppdaterad.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 158a117202054524aa8014787c813f1cea70681a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: fb95895588211d35122b94cf3888179c570945e3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757798"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388230"
 ---
 # <a name="service-posting"></a>Servicebokföring
 Funktionen för servicebokföring gör att du kan behandla dokumenten mer effektivt och upprätthålla en bra service till kunderna. Du kan skapa och uppdatera bokförda dokument och skapa transaktioner i modulen Service och i andra moduler så att informationen alltid är korrekt uppdaterad.  
@@ -42,7 +42,7 @@ Med det här leverans- och förbrukningsalternativet kan du registrera och bokf�
 > [!NOTE]  
 >  Med funktionen för servicebokföring kan du välja att utföra bokföringen delvis. Du kan skapa en delleverans eller en delfaktura genom att fylla i fältet **Ant. att utleverera** och **Ant. att fakturera** på var och en av  serviceraderna på dina serviceorder innan du bokför. Observera att det inte går att skapa en faktura för något som inte har levererats. Innan du fakturerar måste du alltså ha registrerat en leverans, eller så måste du leverera och fakturera samtidigt.  
 
-När bokföringen har slutförts kan du visa de bokförda servicedokumenten från motsvarande sidor **Bokförd serviceleverans** och **Bokförd servicefaktura**. De bokförda transaktionerna som har skapats visas på de sidor som innehåller bokförda transaktioner, t.ex. **Redovisningstransaktioner**, **Artikeltransaktioner**, **Dist.lager transaktioner**, **Servicetransaktioner**, **Projekttransaktioner** och **Garantitransaktioner**.  
+När bokföringen har slutförts kan du visa de bokförda servicedokumenten från motsvarande sidor **Bokförd serviceleverans** och **Bokförd servicefaktura**. De bokförda transaktionerna som har skapats visas på de sidor som innehåller bokförda transaktioner, t. ex. **Redovisningstransaktioner**, **Artikeltransaktioner**, **Dist.lager transaktioner**, **Servicetransaktioner**, **Projekttransaktioner** och **Garantitransaktioner**.  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>Så här visar du information om bokförda servicedokument  
 När du bokför en servicefaktura, en serviceleverans eller en servicekreditnota överförs informationen i dokumentet till sidan **Bokförd servicefaktura**, **Bokförd serviceleverans** eller **Bokförd servicekreditnota**. Det går inte att ange, ändra eller ta bort något på de här sidorna. Du kan skriva ut en leverans, faktura eller kreditnota från sidorna.  

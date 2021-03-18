@@ -3,19 +3,19 @@ title: Använda Excel för att importera data till Business Central
 description: Använd standardkonfigurationspaketet för att lägga till kundinformation i Excel och återimportera data till Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 413e9b2f6ec872a03ca2e7e95df240fc3308cab2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3885d9e07a6ea417bf2dc7de5881e6d3278ca10
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754448"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379254"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importera verksamhetsdata från andra finanssystem
 
@@ -36,7 +36,7 @@ Du kan importera huvuddata och vissa transaktionsdata från andra finansiella sy
 Om du vill importera artikelbilder kan du använda en särskild funktion på sidan **Lagerinställningar**. Mer information finns i [importera flera artikelbilder](inventory-how-import-item-pictures.md).
 
 ## <a name="importing-data-from-configuration-packages"></a>Importera data från ett konfigurationspaket
-[!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett konfigurationspaket som du kan exportera till Excel och ange dina data där. Sedan kan du importera datan från Excel igen. Paketet består av 27 register, inklusive huvuddata som t.ex. kunder, leverantörer, artiklar och konton, andra grundläggande inställningstabeller, som till exempel leveransmetoder och transaktionstabeller som t.ex. rubrik och rader.  
+[!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett konfigurationspaket som du kan exportera till Excel och ange dina data där. Sedan kan du importera datan från Excel igen. Paketet består av 27 register, inklusive huvuddata som t. ex. kunder, leverantörer, artiklar och konton, andra grundläggande inställningstabeller, som till exempel leveransmetoder och transaktionstabeller som t. ex. rubrik och rader.  
 
 > [!NOTE]  
 >   Att arbeta med konfigurationspaket innebär avancerade funktioner och vi rekommenderar att du kontaktar din administratör. Mer information finns i [Importera data från äldre redovisningsprogram med ett konfigurationspaket](across-import-data-configuration-packages.md).

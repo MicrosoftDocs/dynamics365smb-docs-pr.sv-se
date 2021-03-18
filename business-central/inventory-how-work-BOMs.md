@@ -3,18 +3,18 @@ title: Så här arbetar du med strukturlistor för att hantera komponenter
 description: Du kan skapa en monteringsstruktur eller produktionsstruktur för att ange vilka komponenter eller resurser som krävs för att sätta ihop artiklarna som strukturen representerar.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
-ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
+ms.openlocfilehash: 2ada3cea6a7c7e5fddc122b9405a6e608f35a804
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "4838463"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377604"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeta med strukturer
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras eller tillverkas av resurser eller maskin resurserna från komponenter. En monteringsstruktur kan också användas för att sälja en överordnad artikel som byggsatser bestående av dess komponenter.

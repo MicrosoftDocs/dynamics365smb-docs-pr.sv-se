@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 0f7c1e8016a1bc1915d7d6a54a183aa0e8cea2ea
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: cbb505865e061bfa8017699a2127206bb25f91b4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046460"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381987"
 ---
 # <a name="working-with-business-central-data-in-microsoft-teams"></a>Arbeta med Business Central-data i Microsoft Teams
 
@@ -45,7 +45,7 @@ I [!INCLUDE [prod_short](includes/prod_short.md)]-appen kan du:
 1. Logga in på [!INCLUDE [prod_short](includes/prod_short.md)] genom webbläsaren.
 2. Öppna posten som du vill dela.
 
-    Appen är utformad för att visa sidor med korttypen från [!INCLUDE [prod_short](includes/prod_short.md)]. Öppna en sida som visar en enskild post, t.ex. en artikel, kund eller försäljningsorder. Du kan inte använda den för rollcenter eller sidor som visar flera poster i en lista.
+    Appen är utformad för att visa sidor med korttypen från [!INCLUDE [prod_short](includes/prod_short.md)]. Öppna en sida som visar en enskild post, t. ex. en artikel, kund eller försäljningsorder. Du kan inte använda den för rollcenter eller sidor som visar flera poster i en lista.
 
 3. Kopiera hela URL-adressen från webbläsarens adressfält.
 
