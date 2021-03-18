@@ -3,19 +3,19 @@ title: Så här plockar du artiklar med Lagerplockning | Microsoft Docs
 description: Om det lagerställe som du vill plocka från har konfigurerats så att plockbehandling krävs men inte leveransbearbetning, använder du lagerplockningsdokument för att registrera och bokföra plocknings- och leveransinformation för dina källdokument.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7b3dafdf2341567d2bf294065cf7508295e60aa3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: df60c429276c0da354b34c9355be37b97a93c67b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759773"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386355"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plocka artiklar med lagerplockning
 
@@ -79,7 +79,7 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny lagerplockning base
 2. I fältet **Lagerställeskod** på plockningsraderna, är lagerstället som artiklarna måste plockas från antyder per artiklarna standardlagerplats. Du kan ändra lagerstället på den här sidan om det behövs.  
 3. Utför plockningen och ange information för den faktiska kvantiteten som förts in i fältet **Ant. att hantera**.
 
-    Om det är nödvändigt att plocka artiklar för en rad på flera lagerställen, t.ex. eftersom de inte finns på den utsedda lagerstället, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Mer information om hur du delar upp rader finns i [Dela dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md).  
+    Om det är nödvändigt att plocka artiklar för en rad på flera lagerställen, t. ex. eftersom de inte finns på den utsedda lagerstället, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Mer information om hur du delar upp rader finns i [Dela dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. När du har utfört plockningen, väljer du åtgärden **Bokföra**.  
 
 Vid bokföringsprocessen bokförs leverans av de källdokumentrader som har plockats, eller om det gäller produktionsorder bokförs förbrukningen vid bokföringsprocessen. Om lagerstället använder lagerställen kommer bokföringen även att skapa distributionslagertransaktioner för att bokföra ändringar i antalet lagerställen.  

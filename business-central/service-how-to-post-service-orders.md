@@ -3,19 +3,19 @@ title: Så här bokför du Tjänsteorder | Microsoft Docs
 description: När du har skapat en serviceorder, fyllt i all nödvändig information och gjort eventuella ändringar kan du bokföra serviceordern. Ordern måste innehålla åtminstone en serviceartikelrad och en servicerad innan du kan bokföra den. Om ordern innehåller mer än en servicerad bokförs alla rader samtidigt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8021015e9a1284aac815b93418a0b51e0064d8f5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757873"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389705"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokföra tjänsteorder och kreditnotor
 När du har skapat en serviceorder, fyllt i all nödvändig information och gjort eventuella ändringar kan du bokföra serviceordern. Ordern måste innehålla åtminstone en serviceartikelrad och en servicerad innan du kan bokföra den. Om ordern innehåller mer än en servicerad bokförs alla rader samtidigt.  
@@ -120,7 +120,7 @@ Du kan ångra förbrukning på en serviceorder. Till exempel om den bokförs av 
 >    * Den har bokförts i modulen projekt, så att det finns projekttransaktioner som är kopplade till artikeln.  
 
 ## <a name="to-post-service-lines"></a>Så här bokför du servicerader  
-Om du behöver arbeta med en serviceorder under en längre period utan att bokföra den kanske du behöver bokföra några av de servicerader som är kopplade till ordern för att t.ex. hålla lagret uppdaterat. Du kan då bokföra genom att ange de relevanta antalen på den/de rad(-er) som ska bokföras. Du kan välja att bokföra raderna var för sig eller välja att bokföra flera rader åt gången.  
+Om du behöver arbeta med en serviceorder under en längre period utan att bokföra den kanske du behöver bokföra några av de servicerader som är kopplade till ordern för att t. ex. hålla lagret uppdaterat. Du kan då bokföra genom att ange de relevanta antalen på den/de rad(-er) som ska bokföras. Du kan välja att bokföra raderna var för sig eller välja att bokföra flera rader åt gången.  
 
 Nedan beskrivs hur du bokför leveransen direkt från en serviceorder i lagerställen utan lagerhantering. Om lagerstället är inställt på lagerhantering görs leveransbokföringen i ett annat distributionslagerdokument, beroende på inställningen av lagerställe.
 

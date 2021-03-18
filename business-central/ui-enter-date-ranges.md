@@ -4,23 +4,23 @@ description: Lära dig att ange datum och tider, inklusive olika tips för produ
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757373"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381221"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
-[!INCLUDE[prod_short](includes/prod_long.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t.ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
+[!INCLUDE[prod_short](includes/prod_long.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t. ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollera inställningarna för region och språk
 Sidan **Mina inställningar** anger **Region** och **Språk** du använder i programmet. Dessa inställningar påverkar hur du anger datum och tid.
@@ -194,7 +194,7 @@ Följande exempel visar hur du använder ett minustecken för att ange ett datum
 |-1Å|1 år sedan från idag|
 
 > [!IMPORTANT]
->  Om lagerstället använder en baskalender, tolkas datumformeln som du anger i t.ex. fältet **Leveranstid** enligt kalenderarbetsdagar. Till exempel betyder 1V sju arbetsdagar.
+>  Om lagerstället använder en baskalender, tolkas datumformeln som du anger i t. ex. fältet **Leveranstid** enligt kalenderarbetsdagar. Till exempel betyder 1V sju arbetsdagar.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:

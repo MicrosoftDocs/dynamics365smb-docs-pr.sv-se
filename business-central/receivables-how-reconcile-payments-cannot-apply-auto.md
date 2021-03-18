@@ -3,29 +3,34 @@ title: Använda funktionen Överför differens till konto för att stämma av be
 description: Beskriver hur du kan bearbeta betalningar som inte kan kopplas till ett dokument, till exempel när en valutakurs orsakar att belopp skiljer sig åt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa43e57adc60f7ec01bd7bf4c3bcdd20cdd476fd
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: b37ee7ebf29503da0b205ac7eac11d9233375321
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013823"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376768"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Så här stämmer du av betalningar som inte kan kopplas automatiskt
 Du måste ibland hantera betalningar till ditt bankkonto som inte kan kopplas till en relaterad öppen kund, leverantör eller bankkontotransaktion. Anledningar kan vara att det inte finns något dokument i [!INCLUDE[prod_short](includes/prod_short.md)] som betalningen kan kopplas till, eller det relaterade dokumentet i [!INCLUDE[prod_short](includes/prod_short.md)] har ett annat belopp än transaktionbeloppet, tex på grund av valutakursen. På sidan **Betalningavstämningjournal** visas inte alla transaktionsbelopp för betalningar som inte kopplats ännu i fältet **Skillnad** inklusive belopp, som inte kan användas på grund av anledningarna ovan.
+
+Metoderna för att lösa dessa typer av ej kopplade betalningar:
+* Koppla manuellt
+* Använd mappning text-till-konto
+* Överför ett överskjutande belopp till en journalrad för att skapa och bokföra den erforderliga transaktionen, till exempel en återbetalning av en överskottsbetalning.
 
 Betalningar som inte kan kopplas kan visas på betalningavstämningjournalrader på följande sätt:
 
 * Värdet i fältet **skillnad** är lika med värdet i fältet **transaktionbelopp** vilket betyder att ingen del av betalningen kan kopplas till en relaterad öppen kund, leverantör eller bankkontotransaktion.
 * Värdet i fältet **skillnad** är lägre än värdet i fältet **transaktionbelopp** vilket betyder att ingen del av betalningen kan kopplas till en relaterad öppen kund, leverantör eller bankkontotransaktion. Återstående del av betalningen kan inte kopplas och måste avstämmas manuellt eller genom att bokföra den direkt till ett konto.
 
-Om du vill avstämma sådana betalningar kan du välja knappen **Överför differens till konto** och sedan ange på vilket konto som beloppet i fältet **Skillnad** ska bokföras på när du bokför.
+Om du vill avstämma sådana betalningar kan du välja åtgärden **Överför differens till konto** och sedan ange på vilket konto som beloppet i fältet **Differens** ska bokföras när du bokför betalningsavstämningsjournalen. Du kan göra detta antingen från sidsn **Betalningsavstämningsjournal** eller från sidan **Granskning av betalningskoppling**, som du öppnar genom att välja värdet i fältet **Matchningssäkerhet** eller genom att välja fältet **Differens**.
 
 > [!TIP]  
 >   Liknande funktioner finns för att definiera automatisk avstämning återkommande betalningar som inte kan användas till relaterade öppna kund-, leverantörs- eller bankkontotransaktioner. Mer information finns i [Mappa text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
