@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b6c10cc9a31dcf41d843d2bebc19ef81433cb4ee
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: eb248a2fb7ab7234d574a6b6c8b1cbe4b146abac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748899"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388442"
 ---
 # <a name="set-up-resources"></a>Konfigurera resurser
 Du måste lägga upp resurser och relaterade kostnader och priser för att hantera resursaktiviteter på rätt sätt. Projektrelaterade priser, rabatter och kostnadsfaktorregler är definierade på projektkortet. Du kan specificera kostnader och priser för enskilda resurser, resursgrupper eller alla tillgängliga resurser i företaget.
@@ -57,7 +57,7 @@ För att beräkna hur lång tid en resurs kan läggas på projekt, måste deras 
 8. Stäng sidan.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Så här skapar du alternativa resurskostnader
-Förutom kostnaden som anges på resurskortet, kan du registrera alternativa kostnader för varje resurs. Om t.ex. en anställd har en annan timpenning för övertidsarbete kan du registrera en resurskostnad för denna övertidskostnad. Den alternativa kostnad som du skapar för resursen har företräde framför kostnaden på resurskortet när du använder resursen i resursjournalen.
+Förutom kostnaden som anges på resurskortet, kan du registrera alternativa kostnader för varje resurs. Om t. ex. en anställd har en annan timpenning för övertidsarbete kan du registrera en resurskostnad för denna övertidskostnad. Den alternativa kostnad som du skapar för resursen har företräde framför kostnaden på resurskortet när du använder resursen i resursjournalen.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Resurser** och välj sedan relaterad länk.  
 2. Välj den resurs för det som du vill skapa en eller flera alternativa kostnader för och välj sedan åtgärden **Kostnader**.  

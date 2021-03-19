@@ -110,6 +110,7 @@
 #### [Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)
 #### [Konfigurera räntevillkor](finance-setup-finance-charges.md)
 #### [Ställa in moms](finance-setup-vat.md)
+#### [Konfigurera beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)
 #### [Ställa in orealiserad moms för kontantbaserad redovisning](finance-setup-unrealized-vat.md)
 #### [Validera momsregistreringsnummer](finance-how-validate-vat-registration-number.md)
 #### [Ställa in ursprungskoder och orsakskoder för granskningshistorik](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [Fältmappning för AMC Banking 365 Fundamentals-tillägget](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finans
 ### [Finansöversikt](finance.md)
+### [Ekonomisk rapportering](finance-reports.md)
 ### Hantera kundreskontra
 #### [Översikt över kundreskontra](receivables-manage-receivables.md)
 #### Koppla utbetalningar automatiskt och stämma av bankkonton
@@ -560,8 +562,9 @@
 ### [Överföra banktillgångar](bank-how-transfer-bank-funds.md)
 ### [Revisorlösningar i Business Central](finance-accounting.md)
 
-## Affärsstöd
-### [BI-översikt](bi.md)
+## Business Intelligence och Financial Reporting
+### [Business Intelligence och Financial Reporting (översikt)](bi.md)
+### [Ekonomisk rapportering](finance-reports.md)
 ### [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)
 ### [Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)
 ### [Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1533,7 +1536,7 @@
 
 # Säkerhet, sekretess, regelefterlevnad
 ## Säkerhet och skydd
-### [Översikt över säkerhet och skydd](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Översikt över säkerhet och skydd (endast på engelska)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Sekretess
 ### [Sekretess (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Regelefterlevnad
@@ -1541,6 +1544,7 @@
 ### [Programmets regelefterlevnad](compliance/compliance-application-compliance.md)
 ### [Tjänstens regelefterlevnad](compliance/compliance-service-compliance.md)
 ### [Intyg](compliance/compliance-certifications.md)
+## [Översikt över tjänsten (endast på engelska)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Utveckling och administration
 ## [Komma igång med dokumentation för utveckling och administration](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
