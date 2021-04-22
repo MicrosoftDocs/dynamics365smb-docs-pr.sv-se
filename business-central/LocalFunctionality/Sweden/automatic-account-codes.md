@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb8761c1ab08b5670802a7db17d5e9f943749567
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef41ae784eb669d4021be5df9ac7fa5110a4e301
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382033"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777620"
 ---
-# <a name="automatic-account-codes-in-the-swedish-version"></a><span data-ttu-id="b0f2e-103">Automatiska kontokoder i den svenska versionen</span><span class="sxs-lookup"><span data-stu-id="b0f2e-103">Automatic Account Codes in the Swedish Version</span></span>
+# <a name="automatic-account-codes-in-the-swedish-version"></a><span data-ttu-id="1d240-103">Automatiska kontokoder i den svenska versionen</span><span class="sxs-lookup"><span data-stu-id="1d240-103">Automatic Account Codes in the Swedish Version</span></span>
 
 [!INCLUDE [automatic-account-codes](../includes/FISE/automatic-account-codes.md)]
 
-## <a name="see-also"></a><span data-ttu-id="b0f2e-104">Se även</span><span class="sxs-lookup"><span data-stu-id="b0f2e-104">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1d240-104">Se även</span><span class="sxs-lookup"><span data-stu-id="1d240-104">See Also</span></span>
 
-[<span data-ttu-id="b0f2e-105">Ställ in automatiska kontobokföringsmallar</span><span class="sxs-lookup"><span data-stu-id="b0f2e-105">Set Up Automatic Account Posting Groups</span></span>](how-to-set-up-automatic-account-posting-groups.md)  
-[<span data-ttu-id="b0f2e-106">Ställa in bokföringsmallar</span><span class="sxs-lookup"><span data-stu-id="b0f2e-106">Setting Up Posting Groups</span></span>](../../finance-posting-groups.md)  
-[<span data-ttu-id="b0f2e-107">Arbeta med redovisningsjournaler</span><span class="sxs-lookup"><span data-stu-id="b0f2e-107">Working with General Journals</span></span>](../../ui-work-general-journals.md)  
+[<span data-ttu-id="1d240-105">Ställ in automatiska kontobokföringsmallar</span><span class="sxs-lookup"><span data-stu-id="1d240-105">Set Up Automatic Account Posting Groups</span></span>](how-to-set-up-automatic-account-posting-groups.md)  
+[<span data-ttu-id="1d240-106">Ställa in bokföringsmallar</span><span class="sxs-lookup"><span data-stu-id="1d240-106">Setting Up Posting Groups</span></span>](../../finance-posting-groups.md)  
+[<span data-ttu-id="1d240-107">Arbeta med redovisningsjournaler</span><span class="sxs-lookup"><span data-stu-id="1d240-107">Working with General Journals</span></span>](../../ui-work-general-journals.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

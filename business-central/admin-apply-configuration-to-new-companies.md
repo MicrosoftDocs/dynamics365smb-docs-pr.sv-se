@@ -8,31 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc93e248b0691a23b9937579cd16213d1d6c2ae5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378779"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773367"
 ---
-# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="70309-104">Koppla konfigurationen till nya företag</span><span class="sxs-lookup"><span data-stu-id="70309-104">Apply Configurations to New Companies</span></span>
-<span data-ttu-id="70309-105">När du har skapat ett konfigurationspaket är nästa steg att distribuera paketet till kunden för implementering.</span><span class="sxs-lookup"><span data-stu-id="70309-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="70309-106">Du använder konfigurationspaketet med ett nytt tomt företag.</span><span class="sxs-lookup"><span data-stu-id="70309-106">You work with the configuration package within a new empty company.</span></span>  
+# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="46038-104">Koppla konfigurationen till nya företag</span><span class="sxs-lookup"><span data-stu-id="46038-104">Apply Configurations to New Companies</span></span>
+<span data-ttu-id="46038-105">När du har skapat ett konfigurationspaket är nästa steg att distribuera paketet till kunden för implementering.</span><span class="sxs-lookup"><span data-stu-id="46038-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="46038-106">Du använder konfigurationspaketet med ett nytt tomt företag.</span><span class="sxs-lookup"><span data-stu-id="46038-106">You work with the configuration package within a new empty company.</span></span>  
 
- <span data-ttu-id="70309-107">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="70309-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
+ <span data-ttu-id="46038-107">I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.</span><span class="sxs-lookup"><span data-stu-id="46038-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
 
-|<span data-ttu-id="70309-108">**För att**</span><span class="sxs-lookup"><span data-stu-id="70309-108">**To**</span></span>|<span data-ttu-id="70309-109">**Gå till**</span><span class="sxs-lookup"><span data-stu-id="70309-109">**See**</span></span>|  
+|<span data-ttu-id="46038-108">**För att**</span><span class="sxs-lookup"><span data-stu-id="46038-108">**To**</span></span>|<span data-ttu-id="46038-109">**Gå till**</span><span class="sxs-lookup"><span data-stu-id="46038-109">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="70309-110">Skapa ett nytt företag som ska utföra en kundimplementering.</span><span class="sxs-lookup"><span data-stu-id="70309-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="70309-111">Skapa ett nytt företag</span><span class="sxs-lookup"><span data-stu-id="70309-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
-|<span data-ttu-id="70309-112">Importera och koppla ett konfigurationspaket till ett nytt företag.</span><span class="sxs-lookup"><span data-stu-id="70309-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="70309-113">Konfigurera nya företag</span><span class="sxs-lookup"><span data-stu-id="70309-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
-|<span data-ttu-id="70309-114">Använd en assisterad konfiguration för att enkelt genomföra en företagskonfiguration.</span><span class="sxs-lookup"><span data-stu-id="70309-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="70309-115">Så här konfigurerar du ett företag med RapidStart-guiden</span><span class="sxs-lookup"><span data-stu-id="70309-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|<span data-ttu-id="70309-116">Kopiera vanliga värden från ett befintligt företag till ett nytt inom samma databas.</span><span class="sxs-lookup"><span data-stu-id="70309-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="70309-117">Kopiera data till nya företag</span><span class="sxs-lookup"><span data-stu-id="70309-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
-|<span data-ttu-id="70309-118">Använd ett batch-jobb för att överföra gamla kontosaldon till ett nykonfigurerat företag och välj de resulterande journaltransaktionerna.</span><span class="sxs-lookup"><span data-stu-id="70309-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="70309-119">Skapa ingående saldon för journalen</span><span class="sxs-lookup"><span data-stu-id="70309-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
+|<span data-ttu-id="46038-110">Skapa ett nytt företag som ska utföra en kundimplementering.</span><span class="sxs-lookup"><span data-stu-id="46038-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="46038-111">Skapa ett nytt företag</span><span class="sxs-lookup"><span data-stu-id="46038-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
+|<span data-ttu-id="46038-112">Importera och koppla ett konfigurationspaket till ett nytt företag.</span><span class="sxs-lookup"><span data-stu-id="46038-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="46038-113">Konfigurera nya företag</span><span class="sxs-lookup"><span data-stu-id="46038-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
+|<span data-ttu-id="46038-114">Använd en assisterad konfiguration för att enkelt genomföra en företagskonfiguration.</span><span class="sxs-lookup"><span data-stu-id="46038-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="46038-115">Så här konfigurerar du ett företag med RapidStart-guiden</span><span class="sxs-lookup"><span data-stu-id="46038-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|<span data-ttu-id="46038-116">Kopiera vanliga värden från ett befintligt företag till ett nytt inom samma databas.</span><span class="sxs-lookup"><span data-stu-id="46038-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="46038-117">Kopiera data till nya företag</span><span class="sxs-lookup"><span data-stu-id="46038-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
+|<span data-ttu-id="46038-118">Använd ett batch-jobb för att överföra gamla kontosaldon till ett nykonfigurerat företag och välj de resulterande journaltransaktionerna.</span><span class="sxs-lookup"><span data-stu-id="46038-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="46038-119">Skapa ingående saldon för journalen</span><span class="sxs-lookup"><span data-stu-id="46038-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
 
-## <a name="see-also"></a><span data-ttu-id="70309-120">Se även</span><span class="sxs-lookup"><span data-stu-id="70309-120">See Also</span></span>  
-[<span data-ttu-id="70309-121">Konfigurera ett företag med RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="70309-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="70309-122">Administration</span><span class="sxs-lookup"><span data-stu-id="70309-122">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="46038-120">Se även</span><span class="sxs-lookup"><span data-stu-id="46038-120">See Also</span></span>  
+[<span data-ttu-id="46038-121">Konfigurera ett företag med RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="46038-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="46038-122">Administration</span><span class="sxs-lookup"><span data-stu-id="46038-122">Administration</span></span>](admin-setup-and-administration.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
