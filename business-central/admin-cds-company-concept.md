@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378729"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773342"
 ---
 # <a name="data-ownership-models"></a>Modeller för dataägarskap
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] kräver att du anger en ägare till de data du lagrar. Mer information finns i [Enhetsägarskap](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) i Power Apps-dokumentationen. När du ställer in integreringen mellan [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] måste du välja en av två ägarskapsmodeller för transaktioner som synkroniseras:
-
-* Team 
-* Person (användare)
-
-Åtgärder som kan utföras på dessa transaktioner kan styras på användarnivå. Mer information finns i [Tabeller för användare och grupper](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Vi rekommenderar gruppägandemodellen eftersom den gör det enklare att hantera ägarskap för flera personer.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] kräver att du anger en ägare till de data du lagrar. Mer information finns i [Typer av tabeller](/powerapps/maker/data-platform/types-of-entities) i Power Apps-dokumentationen. När du ställer in integreringen mellan [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] måste du välja ägarskap **Användare eller team** för transaktioner som synkroniseras. Åtgärder som kan utföras på dessa transaktioner kan styras på användarnivå. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Gruppägarskap
 I [!INCLUDE[prod_short](includes/prod_short.md)] är ett företag en juridisk person och en affärstabell som erbjuder metoder att säkra och visualisera affärsdata. Användarna fungerar alltid inom ramen för ett företag. Det närmaste [!INCLUDE[prod_short](includes/cds_long_md.md)] kommer detta koncept är affärsenhetens tabell, som inte har några rättsliga eller affärsmässiga följder.

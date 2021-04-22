@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3d073a17f900b3f1691c6b108af021aec6b93fd3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384955"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776278"
 ---
 # <a name="business-functionality"></a>Affärsfunktion
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist- och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas.
@@ -47,7 +47,7 @@ ms.locfileid: "5384955"
 [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Administration](admin-setup-and-administration.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

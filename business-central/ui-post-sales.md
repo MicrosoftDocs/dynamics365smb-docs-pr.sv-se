@@ -1,5 +1,5 @@
 ---
-title: Bokföra försäljningsdokument | Microsoft Docs
+title: Bokföra försäljningsdokument
 description: Lära dig olika bokföringsfunktioner för att bokföra försäljningsdokument och hur du kan uppdatera bokförda dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 12/03/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e0d1bd7770eb3bb44a2e9b3203ffa158a246cfa9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e59c48c31e897d235c7920f4231313a2332fdf06
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392055"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783265"
 ---
 # <a name="posting-sales"></a>Bokföra försäljning
 
@@ -28,7 +28,8 @@ Under menyn **Bokföring** i ett försäljningsdokument kan du välja mellan fö
 * **Bokför batch-jobb**
 * **Testa rapport**
 
-> [!OBS] För försäljningsorder kan du även visa alternativ som är relaterade till funktionen för förskottsbetalning. Mer information finns i [Fakturera förskottsbetalningar](finance-invoice-prepayments.md). 
+> [!NOTE]
+> För försäljningsorder kan du även visa alternativ som är relaterade till funktionen för förskottsbetalning. Mer information finns i [Fakturera förskottsbetalningar](finance-invoice-prepayments.md).
 
 När du har fyllt i alla raderna och skrivit in all information på försäljningsordern kan du bokföra den. Här skapas en leverans och en faktura.
 
@@ -65,5 +66,4 @@ Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

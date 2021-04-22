@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a2d6e2a115c39045f0a0d6221df0f74d8b3c7ace
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c17aec818a65aef9e298b40301142cbb40715306
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381094"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782336"
 ---
 # <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
 Omvärdering av anläggningstillgångar kan bestå av uppskrivning, nedskrivning, eller allmänna värdejusteringar.
@@ -28,7 +28,7 @@ När värdet av en anläggningstillgång har minskat, bokför du en journalrad m
 Indexering används för att anpassa flera värden för anläggningstillgångar, t. ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Att bokföra uppskrivning från en redovisningsjournal.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
 3. I fältet **Anskaffningskostnad** väljer du **Omvärdering**.
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av uppskrivning.
@@ -38,7 +38,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
 3. Välj **Anskaffningskostnad** i fältet **nedskrivning**.
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av nedskrivning.
@@ -120,7 +120,7 @@ Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar til
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

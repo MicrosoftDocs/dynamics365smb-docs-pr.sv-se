@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
-ms.date: 02/18/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a69c0b35c87b6da4d8910fb71255767e6d363597
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476825"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787238"
 ---
 # <a name="set-up-prices-and-discounts"></a>Ställa in priser och rabatter
 > [!NOTE]
@@ -49,7 +49,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Välj kund och välj sedan åtgärden **Priser**.
-3. Fyll i fälten på den första raden. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja ett speciellt försäljningspris till kunden.
+3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja ett speciellt försäljningspris till kunden.
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)  
 Du kan lägga till artiklar och tjänster manuellt för respektive rad, eller också använda åtgärden **Föreslå rader** för att skapa nya priser för valda artiklar, artikelrabattgrupper, resurser och andra produkttyper. Om du väljer **Föreslå rader** kan du på sidan **Prisrader - Skapa Nytt** använda filter för att välja de artiklar eller tjänster som ska inkluderas i prislistan. Du kan också ange om du vill överväga en minsta kvantitet vid beräkning av priser, justeringsfaktorn som ska tillämpas för nya prislistrader, samt avrundningsmetoden som ska tillämpas för priser. 
@@ -76,13 +76,13 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
-2. Öppna det relevanta kundkortet och välj sedan åtgärden **Radrabatter.**.
+2. Öppna det relevanta kundkortet och välj sedan åtgärden **Radrabatter**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja en speciell försäljningsradrabatt till kunden.
 
 > [!Note]
 > När du öppnar sidorna **Försäljningspriser** och **Försäljningsradrabatter** för en specifik kund ställs fälten **Försäljningstypfilter** och **Försäljningskodfilter** in för kunden och kan inte ändras eller tas bort.
 >
-> Om du vill ställa in priser eller radrabatter för alla kunder, en kundprisgrupp eller en kampanj måste du öppna sidorna från ett artikelkort. Du kan också använda sidan **Försäljningsprisförslag** för försäljningspriser. Mer information finns i [Så här uppdaterar du flera artikelpriser samtidigt](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices)priser.  
+> Om du vill ställa in priser eller radrabatter för alla kunder, en kundprisgrupp eller en kampanj måste du öppna sidorna från ett artikelkort. Du kan också använda sidan **Försäljningsprisförslag** för försäljningspriser. Mer information finns i [Så här uppdaterar du flera artikelpriser samtidigt](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
 
@@ -140,17 +140,17 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)  
 
-Om du vill kopiera försäljningspriser, till exempel kopiera en viss kunds försäljningspriser och använda dem till en kundprisgrupp, måste du köra **Föreslå förs.pris i kalkylarket**. batch-jobbet på sidan **Försäljningsprisförslag**.  
+Om du vill kopiera försäljningspriser - till exempel en viss kunds försäljningspriser - och använda dem för en kundprisgrupp, måste du köra **Föreslå förs.pris i förslag**. batch-jobbet på sidan **Försäljningsprisförslag**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningspriskalkylark** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsprisförslag** och välj sedan relaterad länk.  
 2. Välj **Föreslå förs.pris i ändringsformulär** .  
 3. På snabbfliken **Förs.priser** fyller du i fälten **Förs.typ** och **Förs.kod** för de försäljningspriser som du vill kopiera.  
 4. I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.  
 5. Om du vill skapa nya priser med batch-jobbet markerar du kryssrutan **Skapa nya priser**.  
-6. Klicka på knappen **OK** för att fylla i raderna på sidan **Försäljningspriskalkylark** med de föreslagna nya priserna och ange att de nu gäller för den valda försäljningstypen.  
+6. Klicka på knappen **OK** för att fylla i raderna på sidan **Försäljningsprisförslag** med de föreslagna nya priserna och ange att de nu gäller för den valda försäljningstypen.  
 
    > [!NOTE]  
-   > Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dem, d.v.s. infoga dem i **Förs.priser** väljer du åtgärden **Implementera prisändring** på sidan **Försäljningsprisförslag**.
+   > Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dem, d.v.s. infoga dem på sidan **Försäljningspriser**, väljer du åtgärden **Implementera prisändringar** på sidan **Försäljningsprisförslag**.
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
 
@@ -170,18 +170,18 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)
 
-Om du vill uppdatera priser i bulk, till exempel ökar alla priser med vissa procentsats måste du köra **Föreslå artikelpris i förslag.**  batch-jobb. Du hittar en länk till batch-jobbet på sidan **Försäljningsprisförslag**.  
+Om du vill uppdatera flera artikelpriser samtidigt - till exempel höja alla priser med en viss procentsats - måste du köra **Föreslå artikelpris i förslag.**  batch-jobb. Du hittar en länk till batch-jobbet på sidan **Försäljningsprisförslag**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningspriskalkylark** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsprisförslag** och välj sedan relaterad länk.  
 2. Välj **Föreslå artikelpris i förslag** .  
 3. På snabbfliken **Artikel** fyller du i fältet **Artikelnr.** eller **Lagerbokföringsmall** eller andra fält med de ursprungliga artikelpriser som du vill uppdatera.  
 4. I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.
 5. Om du vill att batch-jobbet ska föreslå artikelpriset automatiskt anger du justeringen i fältet **justeringsfaktor**. Du kan till exempel ange 1,15 i **justeringsfaktor** för 15 % ökning av artikelpris.  
 6. Om du vill skapa nya priser med batch-jobbet markerar du fältet **Skapa nya priser**.  
-7. Klicka på **OK** för att fylla i raderna på sidan **Försäljningspriskalkylark** med de föreslagna nya priserna och ange att de nu gäller för den valda **artikel**.  
+7. Klicka på **OK** för att fylla i raderna på sidan **Försäljningsprisförslag** med de föreslagna nya priserna och ange att de nu gäller för den valda **artikel**.  
 
 > [!NOTE]
-> Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dig av dem, d.v.s. infoga dem i tabellen **Förs.priser**, kan du använda batch-jobbet **Implementera prisändring** som du hittar under fliken **Åtgärder** i gruppen **Funktioner** på sidan **Försäljningspris ändringsformulär**.
+> Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dig av dem, d.v.s. infoga dem i tabellen **Försäljningspriser**, kan du använda batch-jobbet **Implementera prisändringar** som du hittar under fliken **Åtgärder** i gruppen **Funktioner** på sidan **Förslag för försäljningspris**.
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)
 

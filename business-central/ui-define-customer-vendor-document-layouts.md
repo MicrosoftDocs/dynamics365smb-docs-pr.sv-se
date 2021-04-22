@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 493a801b381ef21a2f8265e3a59615fa21618fc1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 086491f30ef0a223e5bf8a559af26b848e54d344
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385905"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773561"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definiera dokumentlayout för kunder och leverantörer
 När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort i syfte att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t. ex. **påminnelse**, **utleverans** och **bekräftelse**.

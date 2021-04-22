@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376693"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787483"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Förse en sida eller rapport med ett bokmärke på ditt rollcenter
 Med hjälp av bokmärkesikonen kan du lägga till en åtgärd som öppnar en sida eller rapport från navigeringsmenyn i rollcentret. På så sätt kan du snabbt nå ditt favoritinnehåll eller dina affärsuppgifter. Du lägger till bokmärket från målsidan eller rapport vilket innebär skärmen som du vill att länken i rollcentret ska öppnas på.
@@ -60,7 +60,7 @@ Möjligheten att förse en sida eller rapport med är en av många anpassningsfu
 - **Varför kan jag inte använda sidmärke för vissa sidor eller rapporter?**  
 Alla sidor och rapporter kan inte förses med bokmärken. När en sida eller rapport körs i en viss särskild kontext som styrs av affärs programmet, visas inte bokmärksikonen. Sidor som inte kan hittas i fönstret **berätta** startas från någon annan stans visar inte en bokmärkesikon. På samma sätt visas inte en bokmärkesikon i rapportbegäransidor som endast används för att hämta filter utan att köra rapporten.
 
-Se teknisk information om [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) och [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Se teknisk information om [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) och [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **När jag avmarkerar min anpassning tas även mina bokmärken bort?**  
 Ja. Bokmärkena finns på navigeringsmenyn. Om du rensar ändringar i navigeringsmenyn från en sida, eller avmarkerar all anpassning i rollcentret, kommer alla nya åtgärder att tas bort permanent.

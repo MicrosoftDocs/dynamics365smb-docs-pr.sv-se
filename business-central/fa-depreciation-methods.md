@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493334"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774161"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder för anläggningstillgångar
 
@@ -154,16 +154,16 @@ Beräkningsmetod:
 
 Beräkningsformeln för avskrivningsbelopp är:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D<sup> 
+*DA* = *BV* x (1 – (1 –P)<sup>D</sup>)
 
 Avskrivningsvärdena är:  
 
 | Datum | Beräkning |
 | --- | --- |
-| 20-06-30 |DA = 100 000,00 x (1 – (1 – 0,25)<sup> 0,5<sup>) = 13 397,46 |
-| 20-12-31 |DA = 86 602,54 x (1 – (1 – 0,25)<sup> 0,5<sup>) = 11 602,54 |
-| 21-06-30 |DA = 75 000,00 x (1 – (1 – 0,25)<sup> 0,5<sup>) = 10 048,09 |
-| 21-12-31 |DA = 64 951,91 x (1 – (1 – 0,25)<sup> 0,5<sup>) = 8 701,91 |
+| 20-06-30 |DA = 100 000,00 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 13 397,46 |
+| 20-12-31 |DA = 86 602,54 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 11 602,54 |
+| 21-06-30 |DA = 75 000,00 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 10 048,09 |
+| 21-12-31 |DA = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
 
 ## <a name="db1sl-depreciation"></a>DB1/SL Avskrivning
 
@@ -205,7 +205,7 @@ Så här ser anläggningstillgångstransaktionerna ut:
 
 Beräkningsmetod:  
 
-* År 1:  
+* År 1 (2020):  
 
     *Degressivt belopp: 25 % av 100 000 = 25 000 = 12 500 + 12 500*  
 
@@ -239,7 +239,7 @@ Den här användardefinierade metoden kan även användas för avskrivning baser
 
 På sidan **Avskrivning tabellkort** kan du skapa användardefinierad avskrivningsmetod. Du kan till exempel lägga upp avskrivning baserad på antalet enheter.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Avskrivningstabeller** och välj sedan tillhörande länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Avskrivningstabeller** och välj sedan tillhörande länk.  
 2. På sidan **Avskrivning tabellista** väljer du åtgärden **Ny**.  
 3. På sidan **Avskrivning tabellkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -373,7 +373,7 @@ När du registrerar en transaktion i B1 i redovisningsjournalen för anläggning
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

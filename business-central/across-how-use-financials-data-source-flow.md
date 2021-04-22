@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1608330b5d2b2955a144498e5c44d40072b22a8b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d179275dd5bd225ace1555bb312b81a9553db0c3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384205"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781342"
 ---
 # <a name="using-prod_short-in-an-automated-workflow"></a>Använda [!INCLUDE[prod_short](includes/prod_short.md)] i ett automatiskt arbetsflöde
 
@@ -80,9 +80,9 @@ Mer information finns i [Power Automate dokumentation](/power-automate/getting-s
 
 ## <a name="see-also"></a>Se även
 
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbetsflöde](across-workflow.md)  
-[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
 [Hantera [!INCLUDE[prod_long](includes/prod_long.md)]-arbetsflöden](across-use-workflows.md)  
 [Användarinställningar för godkännande](across-how-to-set-up-approval-users.md)  

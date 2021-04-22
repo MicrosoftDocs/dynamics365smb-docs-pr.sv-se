@@ -1,6 +1,6 @@
 ---
-title: Spåra artiklar med artikelspårningar | Microsoft Docs
-description: Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna för artikelspårning och analys.
+title: Spåra artiklar med artikelspårning
+description: Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och Hitta transaktioner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 50de593aa3ff2416461aa4468f8c063c22f7b085
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a425b974bf37b440de27f2b469694f9e8eac07de
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377679"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785706"
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
 Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och [Hitta transaktioner](ui-find-entries.md).  
@@ -64,12 +64,14 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 3. I fälten **Serienr** och **Partinr** anger du artikelspårningsnumren som du vill spåra.  
 4. Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
 
-## <a name="see-also"></a>Se även  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Detaljer: Artikelspårning](design-details-item-tracking.md)
-[Designdetaljer – artikelspårning och reservationer](design-details-item-tracking-and-reservations.md)  
+## <a name="see-also"></a>Se även
+
+[Lager](inventory-manage-inventory.md)  
+[Arbeta med serienummer, partinummer och paketnummer](inventory-how-work-item-tracking.md)  
+[Designdetaljer: Artikelkoppling](design-details-item-tracking.md)  
+[Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)  
 [Hitta transaktioner](ui-find-entries.md)  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 17e41dd44dd4f7f99eabd4904d5ebd7c48d9964d
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 88b6448587b4888ff33674d5118476ad284f73d0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492987"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777350"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Aktivera Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -49,6 +49,10 @@ I detta avsnitt beskrivs kraven för en lokal [!INCLUDE[prod_short](includes/pro
 3. Ge [!INCLUDE[prod_short](includes/prod_short.md)]-användarkonton en åtkomstnyckel till webbtjänster.
 
     En åtkomstnyckel för webbtjänst krävs endast för att visa [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI. Du kan tilldela en åtkomstnyckel för webbtjänst till respektive användarkonto. Alternativt kan du skapa ett specifikt konto med en åtkomstnyckel för webbtjänst som samtliga användare kan använda. Mer information finns i [Autentisering för webbtjänster](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+
+    <!--
+    > [!IMPORTANT]
+    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](../upgrade/deprecated-features-w1.md#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Using OAuth to Authorize Business Central Web Services](../webservices/authenticate-web-services-using-oauth.md).-->
 
 4. Skapa en kopplingsregistrering för [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure.
 
@@ -84,8 +88,8 @@ Mer information om publicering av webbtjänster finns i [Publicera en webbtjäns
 [Snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Dokumentation om Power BI](/power-bi/)  
 [Affärsstöd](bi.md)  
-[Komma igång](product-get-started.md)  
-[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  

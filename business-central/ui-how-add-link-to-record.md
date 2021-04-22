@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6aa7018a43db8c663c209894e118518c3de2f7cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393895"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771141"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
@@ -27,6 +27,8 @@ Bilagor, länkar och anteckningar förblir kopplade till ett kort eller dokument
 
 > [!NOTE]
 > När du delvis levererar och fakturerar en försäljningsorder eller en inköpsorder, kopplas den bifogade filen endast till den slutgiltiga fakturan för ordern. På samma sätt, när du fakturerar med hjälp av funktionen för uppskov, kopplas den bifogade filen endast till redovisningstransaktionerna för dokumentet, men inte till periodiseringsposter.
+>
+> Om du tar bort en order innan den faktureras tas även den bifogade filen bort. När du fakturerar inköpsorder med åtgärden Hämta inleveransrader från en inköpsfaktura läggs inte bilagan på inköpsordern till i inköpsfakturan.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Så här bifogar du en fil till en inköpsfaktura
 Du kan bifoga alla typer av filer, som innehåller text, bilder och video, till ett kort eller dokument. Detta är användbart om du t. ex. vill lagra en leverantörs faktura som en PDF-fil på den relaterade inköpsfakturan i [!INCLUDE[prod_short](includes/prod_short.md)]i.

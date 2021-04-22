@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493284"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771345"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Anpassa Business Central Online med hjälp av tillägg
 
@@ -31,7 +31,7 @@ När du först startar först [!INCLUDE[prod_short](includes/prod_short.md)], ha
 Till exempel ger Microsoft ett tillägg som ger integrering med PayPal Payments Standard. Detta tillägg instalelras dessutom som standard.
 Men om ett annat tillägg är tillgängligt som erbjuder integrering med en annan utbetalningtjänst, kan du installera det nya tillägget och sedan välja vilka av de två tjänsterna som ska användas.  
 
-Du hanterar tilläggen på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Du kan också välja ikonen **Sök efter sidan eller rapporten** ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") i övre högra hörnet och ange **tillägg** och välj sedan den relaterade länken. Mer information finns i [Installera och avinstallera tillägg](ui-extensions-install-uninstall.md).
+Du hanterar tilläggen på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Du kan också välja ikonen **Sök efter sidan eller rapporten** ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") i övre högra hörnet och ange **tillägg** och välj sedan den relaterade länken. Mer information finns i [Installera och avinstallera tillägg](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
 > Om du tror att du borde ha åtkomst till ett tillägg, men dess funktioner inte går att hitta kontrollerar du sidan **tilläggshantering** om tillägget inte finns, kan du installera det enligt vad som beskrivs i följande avsnitt.  
@@ -79,6 +79,27 @@ Microsoft ger även följande tillägg:
 > [!NOTE]  
 > Du kan hålla utkik efter nya tillägg från Microsoft och andra leverantörer på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Tillägg och dataöverföring
+
+Eftersom följande tillägg kommunicerar med andra tjänster kan de överföra data ur geografi för [!INCLUDE[prod_short](includes/prod_short.md)]-miljö:
+
+* AMC Banking 365 Fundamentals-tillägg
+* Image Analyzer
+* Prediktion om sen betalning
+* PayPal Payments Standard
+* Försäljnings- och lagerprognos
+* WorldPay Payments Standard
+
+Detta gäller även vissa funktioner i basprogrammet, till exempel följande funktioner:
+
+* Kassaflödesprognos
+* Dokumentväxlingstjänst
+* Dataverse-anslutningar
+* OCR-tjänst
+* Online Map
+* EU:s momsregistreringsnummer Service
+
 ## <a name="see-also"></a>Se även
 
 [Anpassa Business Central](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft ger även följande tillägg:
 [Migrera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Konfigurera tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-tillägg från andra leverantörer](ui-extensions-other.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

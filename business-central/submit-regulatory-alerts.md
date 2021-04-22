@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380362"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784846"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Skicka notifieringar om lands-/regionspecifika regleringsfunktioner
 
@@ -52,7 +52,7 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
         |Description  | Ange en kort översikt över lagstiftningen. Beskrivningen bör fokusera på frågor som är relevanta för resursplanering inom företag (ERP), så att användare kan förstå kraven på en hög nivå utan att behöva läsa lagstiftningen först.|
         |Land  | Ange landet/regionen som lagstiftningen gäller för.|
         |Bransch| Ange vilken bransch om kravet bara gäller för specifika branscher. Välj till exempel **Offentliga sektorn**, **Butik** eller **Produktion**.|
-        |Funktionsreferens  | Detta gäller inte för Dynamics 365 Business Central, men du kan ange en referens till en funktion om du känner till den. Listan med funktioner för ett visst land finns i [lokaliseringsportal](https://docs.microsoft.com/dynamics/s-e/) på webbplatsen CustomerSource. |
+        |Funktionsreferens  | Detta gäller inte för Dynamics 365 Business Central, men du kan ange en referens till en funktion om du känner till den. Listan med funktioner för ett visst land finns i [lokaliseringsportal](/dynamics/s-e/) på webbplatsen CustomerSource. |
         |Datum för tillämpning av lagen  | Ange det datum då berörda kunder måste börja följa lagen.|
         |Datum när myndigheten tillkännagav meddelandet  | Ange det datum då myndigheten meddelade ändringen.|
         |Senaste arkiveringsdatum  | Välj deadline för den första överföringen av nya eller ändrade rapporten.|
@@ -76,7 +76,7 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
 
 [Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Byta språk och plats](about-locale-language.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Välkommen till Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

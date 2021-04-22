@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc318d3de70cb56e722bd02c868fc570fb62692b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: cb1639a57dcfed21b71d9c9cd57cd6090e5e81d7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385055"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776378"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -76,7 +76,7 @@ När ett företag har skapats kan du inte ändra namnet. Du kan emellertid ändr
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

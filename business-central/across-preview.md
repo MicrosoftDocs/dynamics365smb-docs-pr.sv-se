@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379104"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777497"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer
 
@@ -27,7 +27,7 @@ Du kan registrera dig för en kostnadsfri utvärderingsversion [här](https://go
 
 Beroende på ditt land eller din region innehåller utvärderingsversionen de språk och den funktionalitet som krävs för ditt land eller din region. Mer information finns i avsnittet [ändra språk och nationella inställningar](about-locale-language.md).  
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] kommer du att känna igen vissa saker, och andra inte. När du först loggar in på demonstrationsföretaget får du tillgång till en Komma igång-sida med länkar till videoklipp som hjälper dig att komma igång. Mer information finns i [Komma igång med [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kommer du att känna igen vissa saker, och andra inte. När du först loggar in på demonstrationsföretaget får du tillgång till en Komma igång-sida med länkar till installationsguider som hjälper dig att komma igång. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
 
 Om det uppstår problem kan sidan [Vanliga frågor](across-faq.md) hjälpa dig att besvara vissa av dina frågor. Om du inte kan registrera dig för utvärderingsversionen kan sidan [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md) hjälpa dig. Du kan också kontakta en [partner](across-faq.md#findpartner) och be denne att skapa en kostnadsfriutvärderings version eller annan typ av förhandsgranskning av [!INCLUDE[prod_short](includes/prod_short.md)] åt dig.  
 
@@ -89,7 +89,7 @@ Administratören för din [!INCLUDE[prod_short](includes/prod_short.md)] och din
 
 ## <a name="see-also"></a>Se även
 
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Utöka din utvärderingsversion](admin-extend-trial.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.md)  

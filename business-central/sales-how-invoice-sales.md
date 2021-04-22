@@ -1,5 +1,5 @@
 ---
-title: Skapa en försäljningsfaktura eller försäljningsorder
+title: Fakturaförsäljning
 description: Beskriver hur du skapar en pantförskrivning eller försäljningsfaktura eller försäljningsorder för att registrera ditt avtal med en kund om att sälja eller handla med produkter som omfattas av särskilda villkor.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 625259457528ed79b863604e65a55ff63a879ec3
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: c43d72e3e87c5a9a9c8512c687a480f3bcd37a43
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470418"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778803"
 ---
 # <a name="invoice-sales"></a>Fakturaförsäljning
 
@@ -31,23 +31,20 @@ I alla andra aspekter fungerar försäljningsorder och försäljningsfakturor p�
 
 Du kan förhandla med kunden genom att först skapa förs.offerter, som du kan omvandla till en försäljningsfaktura när du instämmer om försäljningen. Mer information finns i [Gör försäljningsoffert](sales-how-make-offers.md).
 
+## <a name="create-sales-invoices"></a>Skapa försäljningsfakturor
+
 Om kunden bestämmer sig att köpa kan du bokföra fakturan för att skapa relaterade kvantitet- och värdetransaktioner. När du bokför försäljningsfakturan, kan du också e-posta dokument som en PDF-bilaga. Du kan använda ifylld e-postbrödtext med en sammanfattning av fakturan och betalningsinformationen, till exempel en länk till PayPal. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md). När kunden sedan betalar fakturan, kan du registrera den betalningen på olika sätt, beroende på storlek och önskade arbetsflöden för din organisation. Mer information finns i avsnittet [registrera betalningar](#registering-payments).  
-
-
-Det är enkelt att korrigera eller annullera en bokförd försäljningsfaktura, innan den betalas. Det är användbart om du vill rätta till ett skrivfel eller om du kunden göra en ändring tidigt i orderprocessen. Mer information finns i [Så här kan du korrigera eller annullera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md). Om den bokförda försäljningsfakturan betalas, måste du skapa en försäljningskreditnota för att återföra försäljningen. Mer information finns i [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md).
 
 Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** för att ange om artikeln är en fysisk inventeringsenhet, en arbetstidsenhet eller en fysisk enhet som inte hålls i inventeringen. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md). Försäljningsfakturaprocessen är samma för alla tre artikeltyper.
 
 Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende på om kunden redan har registrerats. Se steg 2 i följande procedur.
 
-## <a name="to-create-a-sales-invoice"></a>Så här skapar du en försäljningsfaktura
+### <a name="to-create-a-sales-invoice"></a>Så här skapar du en försäljningsfaktura
 
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
-    Andra fält på sidan **Försäljningsfaktura** innehåller standardinformation om den valda kunden.  
-
-    Om kunden inte är registrerad, gör så här:
+   Andra fält på sidan **Försäljningsfaktura** innehåller standardinformation om den valda kunden. Om kunden inte är registrerad, gör så här:
 
     1. Ange namnet på en ny kund i fältet **Kund**.
     2. Välj knappen **ja** i dialogrutan om registrering av den nya kunden.
@@ -80,18 +77,16 @@ Du kan fylla i kundfälten på försäljningsfakturan på två sätt, beroende p
     Värdet i fältet **Radbelopp** beräknas som *enhetspris* x *antal*.  
 
     Pris- och radbeloppen visas med eller utan omsättningsskatt beroende på vad du valde i fältet **Priser inkl. moms** på kundkortet.  
-7. Om du vill ge en rabatt på försäljningsraden anger du ett procenttal i fältet **Radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.  
+7. Om du vill ge en rabatt kan du ange ett procenttal i fältet **radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.  
 
-    Om du har ställt in särskilda artikelpriser på kund- eller artikelkortet uppdateras priset och beloppet på försäljningsraden automatiskt om prisvillkoren uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
+    Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på försäljningsraden automatiskt om de överenskomna prisvillkorna uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
 8. Upprepa moment 9 till 12 för varje produkt som du vill fakturera kunden för.  
 
     Fälten för summor under raderna uppdateras automatiskt när du skapar eller ändrar rader för att visa de belopp som ska bokföras i redovisningen.
 
     > [!NOTE]
-    > I sällsynta fall kan de bokförda beloppen avvika från vad som visas i fälten för summor. Det beror vanligtvis på att du avrundar beräkningar när det gäller moms.
-    >
-    > Om du vill kontrollera vilka belopp som faktiskt bokförs, kan du använda sidan **Statistik** sidan som tar hänsyn till de avrundade beräkningarna. Om du väljer åtgärden **Släpp** kommer fälten för summor dessutom att uppdateras så att de omfattar de avrundade beräkningarna.
-9. I fältet **Fakturarabatt** anger du (valfritt) ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms**.
+    > I sällsynta fall kan de bokförda beloppen avvika från vad som visas i fälten för summor. Det beror vanligtvis på att du avrundar beräkningar när det gäller moms.<br /><br />Om du vill kontrollera vilka belopp som faktiskt bokförs, kan du använda sidan **Statistik** sidan som tar hänsyn till de avrundade beräkningarna. Om du väljer åtgärden **Släpp** kommer fälten för summor dessutom att uppdateras så att de omfattar de avrundade beräkningarna.
+9. I fältet **Fakturarabatt** anger du ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms**.
 
     Om du har ställt in fakturarabatter för kunden, då infogas det angivna procentsatsvärdet automatiskt i fältet **Fakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Inv. Rabattbelopp exkl. moms**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
 10. När försäljningsfakturaraderna slutförda väljer du åtgärden **Bokföra och skicka**.  
@@ -103,6 +98,14 @@ Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljn
 ### <a name="calculating-invoice-discounts-on-sales"></a>Beräkna fakturarabatter på försäljning
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
+## <a name="posted-invoices"></a>Bokförda fakturor
+
+[!INCLUDE [posted-invoices](includes/posted-invoices.md)]
+
+Det är enkelt att korrigera eller annullera en bokförd försäljningsfaktura, innan den betalas. Det är användbart om du vill rätta till ett skrivfel eller om du kunden göra en ändring tidigt i orderprocessen. Mer information finns i [Så här kan du korrigera eller annullera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md). Om den bokförda försäljningsfakturan betalas, måste du skapa en försäljningskreditnota för att återföra försäljningen. Mer information finns i [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md).  
+
+[Öppna listan **bokförda försäljningsfakturor**](https://businesscentral.dynamics.com/?page=143) i [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="registering-payments"></a>Registrera betalningar
 

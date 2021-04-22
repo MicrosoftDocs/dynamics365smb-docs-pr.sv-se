@@ -1,31 +1,32 @@
 ---
-title: Beräkna lager med dokumentbaserad funktion
-description: Beskriver hur du utför en cyklisk inventering av lagret med sidorna Inventeringsorder och Inventeringsregistrering.
+title: Inventera och justera lager
+description: Beskriver hur du utför fysisk lagerinventering med sidorna Fysisk lagerorder och Fysisk lagerregistrering och gör negativa eller positiva justeringar med lagerdokument.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393180"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785954"
 ---
-# <a name="count-inventory-using-documents"></a>Beräkna lager med hjälp av dokument
+# <a name="count-and-adjust-inventory-using-documents"></a>Beräkna och justera lager med hjälp av dokument
 
 Du kan göra en fysisk inventering av artiklar med hjälp av inventeringsorder och inventeringsregistreringsdokument. Sidan **inventeringsorder** används för att ordna de fullständiga inventeringar, till exempel en per lagerställe. Sidan **registrering av fysiskt lager** används för att kommunicera och samla in faktiska inventeringen av artiklar. Du kan skapa flera inspelningar av en order, till exempel för att fördela grupper av artiklar till olika medarbetare.
 
 Rapporten **registrering av fysiskt lager** kan skrivas ut från varje inspelning och innehåller tomma antalsfält för att ange det inventerade faktiska lagersaldot. När en användare har slutfört sin inventering och kvantiteterna anges på sidan **Inventering** väljer du åtgärden **Slutför**. Detta överför kvantiteterna till dessa rader på sidan **inventeringsorder**. Funktionen garanterar att inget artikelantalet kan registreras två gånger.  
 
 > [!NOTE]
-> Den här artikeln beskriver hur du utför en inventering med hjälp av dokument, en metod som ger mer kontroll och stöder distribution av inventeringen till flera medarbetare. Du kan också utföra aktiviteten med hjälp av journaler, till exempel **Inventeringsjournaler** och **Dist.lager inventeringsjournaler**. Mer information finns i [Inventera, justera och gruppera om lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Observera att om du använder funktionen för zoner så får du inte använda inventeringsorder. Använd istället sidan **Dist.lag. inventeringsjournal** för att räkna distributionslagertransaktionerna innan du synkroniserar dem med artikeltransaktionerna.
+> Med dokumenten för att utföra en inventering som ger mer kontroll och stöder distribution av inventeringen till flera medarbetare. Du kan också utföra aktiviteten med hjälp av journaler, till exempel **Inventeringsjournaler** och **Dist.lager inventeringsjournaler**. Mer information finns i [Inventera, justera och gruppera om lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md). I den här artikeln beskrivs hur du utför en inventering med hjälp av dokument.
+>
+> Om du använder zoner kan du inte använda inventeringsorder. Använd istället sidan **Dist.lag. inventeringsjournal** för att räkna distributionslagertransaktionerna innan du synkroniserar dem med artikeltransaktionerna.
 
 Inventering med dokument består av följande övergripande åtgärder:
 
@@ -77,7 +78,6 @@ Vid manuell beräkning, kan du skriva ut en lista, rapporten **Inventeringsregis
 9. Välj åtgärden **Skriv ut** för att förbereda fysiska dokumentet som anställda ska använda för att anteckna inventerade kvantiteter.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Slutför en inventeringsregistrering
-
 När medarbetare har inventerat lagerkvantiteter, måste du förbereda att registrera dem i systemet.
 
 1. Från sidan **Inventeringsregistreringslista** markera inventeringsregistrering som du vill slutföra och klicka på åtgärden **redigera**.
@@ -185,8 +185,52 @@ En partispårad artikel lagras i lagret med ”PARTI”-nummerserien.
 
 På sidan **inventeringsorder** innehåller fältet **Neg. antal (bas)** *8*. För den aktuella raden innehåller sidan **Artikelspårningslista för inventering** positiva eller negativa kvantiteter för det enskilda partinummer.
 
-## <a name="see-also"></a>Se även
+## <a name="inventory-documents"></a>Inventariedokument
+Följande typer av dokument är användbara för att hantera distributionslagret:
 
+- Använd **lagerinleveranser** för att registrera positiva justeringar av artiklar baserat på kvalitet, kvantitet och kostnad.
+- Använd **lagerutleveranser** för att skriva av saknade eller skadade varor.
+
+Du kan skriva ut dessa dokument när som helst, släppa och öppna dem igen och tilldela gemensamma värden, inklusive dimensioner, i sidhuvudet. Om du vill skriva ut dokumenten igen efter att de har bokförts kan du göra det på sidorna **Bokförd lagerinleverans** och **Bokförd lagerutleverans**.
+
+> [!NOTE]
+> Innan du kan använda dessa dokument måste du ange en nummerserie för att skapa deras identifierare. Mer information finns i nästa avsnitt.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Så här ställer du in numrering för lagerdokument
+I följande procedur beskrivs hur du ställer in numrering för inventeringsdokument.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinställningar** och välj sedan relaterad länk.
+2. På snabbfliken **Numrering** ange följande fält nummerserien för dokument:
+   - **Lagerinleveransnr-serie**  
+   - **Bokförda lagerinleveransnr-serie**  
+   - **Lagerutleveransnr-serie**  
+   - **Bokförd lagerutleveransnr-serie**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Så här skapar och bokför du ett lagerdokument
+Följande procedur visar hur du skapar, skriver ut och bokför en lagerinleverans. Momenten är liknande för bokförda lagerutleveranser.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinleveranser** och välj sedan relaterad länk.  
+2. I rubriken på sidan **Lagerinleverans** väljer du platsen i fältet **Lagerställekod** och fyll i de återstående fälten efter behov.
+3. På snabbfliken **Rader** i fältet **Artikel** välj inventeringsartikel. Skriv det antal artiklar som ska läggas till i fältet **Kvantitet**. 
+4. Om du vill skriva ut en rapporten **Lagerinleverans** från sidan **Lagerinleverans** väljer du åtgärden **Skriv ut**.
+
+Följande funktioner finns på sidan **Lagerinleverans**:
+
+- Välj åtgärderna **Frisläpp** eller **Öppna igen** för att ange status för nästa bearbetningssteg  
+- Välj åtgärden **Bokför** för att bokföra lagerinleveransen, eller välj **Bokför och skriv ut** för att bokföra inleveransen och skriva ut test rapporten  
+
+## <a name="printing-inventory-documents"></a>Skriva ut lagerdokument
+Du kan ange vilka rapporter som ska skrivas ut i olika etapper genom att välja något av följande alternativ i fältet **Användning** på sidan **Rapportval - lager**:
+
+- Lagerinleverans
+- Lagerutleverans
+- Bokförd lagerinleverans
+- Bokförd lagerutleverans
+
+> [!NOTE]
+> Vilka rapporter som finns kan variera beroende på landets lokalisering. Basprogrammet innehåller inga layouter.
+
+## <a name="see-also"></a>Se även
 [Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md)  
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Lager](inventory-manage-inventory.md)  

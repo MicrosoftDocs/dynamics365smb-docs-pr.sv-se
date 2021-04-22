@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393888"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771116"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
@@ -31,7 +31,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
   
 2.  Visa fliken **Utvecklare** på menyfliken i Microsoft Word.  
   
-     Som standard visas fliken **Utvecklare** inte på menyfliken. Mer information finns i [Visa fliken Utvecklare på menyfliken](https://go.microsoft.com/fwlink/?LinkID=389631).  
+     Som standard visas fliken **Utvecklare** inte på menyfliken. Mer information finns i [Visa fliken Utvecklare på menyfliken](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
 3.  På fliken **Utvecklare** väljer du **XML-mappningsruta**.  
   
@@ -105,7 +105,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Bokslutselement.|  
   
 ### <a name="custom-xml-part-in-word"></a>Anpassad XML-del i Word  
- I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Visa fliken Utvecklare på menyfliken](https://go.microsoft.com/fwlink/?LinkID=389631)).  
+ I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Visa fliken Utvecklare på menyfliken](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
  Elementen i rutan **XML-mappning** visas i en struktur som liknar XML-källan. Rubrikfält grupperas under ett gemensamt **Rubriker**-element, och dataobjekt och kolumner ordnas i en hierarkisk struktur som motsvarar XML-källan, med kolumner som anges i alfabetisk ordning. Element identifieras efter deras namn som har definierats av egenskapen Namn i datauppsättnings-designern för rapporten i LÄGG TILL INKLUDERA .<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384330"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774692"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegreringsdefinitioner
 Du kan konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
@@ -95,8 +95,8 @@ Beskrivs i följande procedurer.
     |**Kolumnnr**|Ange numret som återspeglar kolumnens position på raden i filen.<br /><br /> För XML-filer anger du numret som återspeglar typen av element i filen som innehåller data.|  
     |**Namn**|Ange namnet på kolumnen.<br /><br /> För XML-filer anger du de pålägg som markerar att data ska utbytas.|  
     |**Datatyp**|Ange om data som ska utbytas är av typen **Text**, **Datum** eller **Decimal**.|  
-    |**Dataformat**|Ange formatet för data, om det finns något. Till exempel **MM-dd-åååå** om datatypen är **Datum**. **Obs:**  Ange dataformatet enligt [!INCLUDE[prod_short](includes/prod_short.md)] för export. Ange dataformatet enligt .NET Framework för import. Mer information finns i [Standarddatum och tidsformatsträngar](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Dataformateringskultur**|Ange kulturen för dataformatet, om det finns någon. Exempelvis **en-US** om datatypen är **Decimal** för att säkerställa att komma används som tusentalsseparator enligt USA-formatet. Mer information finns i [Standarddatum och tidsformatsträngar](https://go.microsoft.com/fwlink/?LinkID=323466). **Obs:**  Fältet är endast relevant för import.|  
+    |**Dataformat**|Ange formatet för data, om det finns något. Till exempel **MM-dd-åååå** om datatypen är **Datum**. **Obs:**  Ange dataformatet enligt [!INCLUDE[prod_short](includes/prod_short.md)] för export. Ange dataformatet enligt .NET Framework för import. Mer information finns i [Standarddatum och tidsformatsträngar](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Dataformateringskultur**|Ange kulturen för dataformatet, om det finns någon. Exempelvis **en-US** om datatypen är **Decimal** för att säkerställa att komma används som tusentalsseparator enligt USA-formatet. Mer information finns i [Standarddatum och tidsformatsträngar](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Obs:**  Fältet är endast relevant för import.|  
     |**Längd**|Ange längden på raden med fast bredd som innehåller kolumnen om datafilen är av typen **Fast Text**.|  
     |**Beskrivning**|Ange en beskrivning av kolumnen, för information.|  
     |**Sökväg**|Ange positionen för elementen i det relaterade XML-schemat.|  

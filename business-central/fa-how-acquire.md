@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a8aa71492c307ba017b7ec3e2914e5f63e1dbefc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ff6f0efce35a894f2a2200d2c8a89b35ad26bb53
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377778"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774136"
 ---
 # <a name="acquire-fixed-assets"></a>Skaffa anläggningstillgångar
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. En avskrivningsregel måste ställas in och tilldelas till varje anläggningstillgång, innan du kan anskaffa den.
@@ -31,7 +31,7 @@ Indexering används för att anpassa värden till den allmänna prisnivån. Du k
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Så här skapar du en anläggningstillgång och anskaffar den automatiskt
 Följande procedur beskriver hur du skapar en fast anläggningstillgång och sedan anskaffar den, genom att använda sidan **Assisterad anskaffning av anläggningstillgång** för att skapa och bokföra anl.tillg. redovisningsjournal. Du kan också skapa och bokföra journalrader manuellt. För mer information, se [Att bokföra en anskaffning av anläggningstillgång manuellt med redovisningsjournalen för anläggningstillgångar](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten på snabbfliken **Allmän** efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I snabbfliken **Avskrivningsregelkort** fyller du i fälten efter behov. Dessa steg tilldelar en avskrivningsregel till anläggningstillgången.  
 4. Om du vill använda mer än en avskrivningsregel till anläggningstillgången väljer du åtgärden **Lägg till flera avskrivningsregler**. Mer information finns i [Att tilldela en avskrivningsregel till en anläggningstillgång](fa-how-setup-depreciation.md#to-assign-a-depreciation-book-to-a-fixed-asset).
@@ -50,7 +50,7 @@ Du kan gruppera anläggningstillgångarna i huvudtillgångar och tillhörande ko
 
 Både huvudtillgången och dess komponenter måste skapas som enskilda anläggningstillgångskort. När du har skapat en komponentlista fyller [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt i fälten **Huvudtillgång/Komp.** och **Komp. till huvudtillg.** på anläggningstillgångskortet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Markera den anläggningstillgång som är huvudtillgången och välj sedan åtgärden **Huvudtillgångskomponenter**.
 3. På sidan **Huvudtillgångskomponenter** väljer du fältet **Anl.nr** och väljer den anläggningstillgång som du vill lägga till som en komponent i huvudtillgången.
 4. Stäng sidan.
@@ -102,7 +102,7 @@ Du kan bokföra återanskaffningsvärden tillsammans med anskaffningskostnaden f
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

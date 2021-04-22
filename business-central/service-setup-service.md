@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdb540fa5fbbf91da2b59f71b3523fd5c702c3bd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391380"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778104"
 ---
 # <a name="setting-up-service-management"></a>Ställa in tjänstehantering
 Innan du börjar använda tjänstehanteringsfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)], finns det saker som du kan ställa in. t. ex. kan du upprätta standardtjänstkoder, symptom och felkoder samt ställa in serviceartiklar och serviceartikeltyper som företagets kundservice kanske behöver.  
@@ -43,7 +43,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 ## <a name="see-also"></a>Se även
 [Servicehantering](service-service.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

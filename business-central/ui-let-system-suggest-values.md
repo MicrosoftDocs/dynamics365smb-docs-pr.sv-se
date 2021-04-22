@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b667e9621f8ea8ff1f5146add9c4686aba22ab7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5198c9d3e9c5d14c2155f7a4728ee501755909d4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385530"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783401"
 ---
 # <a name="letting-prod_short-suggest-values"></a>Låta [!INCLUDE[prod_short](includes/prod_short.md)] föreslå värden
 [!INCLUDE[prod_short](includes/prod_short.md)] kan hjälpa dig att avsluta uppgifter som är snabbare och korrektare genom att fylla i fält eller färdigställa rader med data som du annars måste annars beräkna och ange själv. Även om sådana automatiska datainmatningar inte alltid är korrekta kan du ändra den efteråt om du vill.

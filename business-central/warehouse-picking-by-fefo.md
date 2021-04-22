@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae07bc4f1d9f348f08f591e5e4341938ec4b5f16
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3a47c9daeeab036055a0644e1b389735f7440106
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382210"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784073"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivera plockning av artiklar med FEFO
 FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklarna – de med tidigast utgångsdatum – plockas först.  
@@ -25,9 +25,7 @@ FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer
 -   Artikel måste ha en serie-/partinummer.  
 -   På artikelns artikelspårningskod har angetts, fältet **SN dist.lager spårning** , eller **Parti dist.lager spårning** måste väljas.  
 -   Artikeln måste bokföras till lagret med ett utgångsdatum.  
--   På lagerställekortet måste kryssrutan **Begär plockning** vara markerad.  
--   Kryssrutan **Plocka enligt FEFO** på lagerställekortet måste vara markerat.  
--   På lagerställekortet måste kryssrutan **Lagerplats ska finnas** vara markerad.  
+-   På platsen måste växlingsknappar **Begär plockning**, **Plocka enligt FEFO** och **Lagerplats ska finnas** aktiveras.  
 
  När alla villkor uppfylls, sorteras serie-/partinumrerade artiklar som ska plockas med de äldsta första alla plockningar och transporter, utom artiklar som använder SN-närmare visst eller partispecifik spårning.  
 
@@ -38,9 +36,9 @@ Om två serie-/partinumrerade artiklar har samma utgångsdatum, väljs artikeln 
 <br /><br />
 När du plockar serie-/partinumrerade artiklar på lagerställen som har ställs in för dirigerad artikelinförsel och plockning, plockas bara kvantiteter på lagerställen av typen *Plock* enligt FEFO.  
 <br /><br />
-Om du vill aktivera transporter enligt FEFO antingen på sidan **Lagerförflyttning** eller på sidan **Transportförslag**, måste du lämna fältet **Från lagerplats** tomt.  
+Om du vill aktivera transporter enligt FEFO, lämna fältet **Från lagerplats** tomt på sidan **Lagerförflyttning** på sidan **Transportkalkylark**.  
 <br /><br />
-Om fältet **Endast utgångsbokföring** är markerat kommer endast artiklar som inte har förfallit att tas med i plockningen. Detta gäller även om du inte använder plockning enligt FEFO.
+Om fältet **Endast utgångsbokföring** markeras på **Artikelspårning kodkort**, endast föremål som inte har löpt ut ingår i valet och raderna sorteras enligt FEFO-principen.
 
 ## <a name="see-also"></a>Se även  
 [Plocka artiklar](warehouse-pick-items.md)   

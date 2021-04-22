@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386855"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787358"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning  
 Det är viktigt för den övergripande ekonomiska situationen i ett företag att effektivt hantera kundfordringar. Tillägget för prediktion om sen betalning hjälper dig att minska utestående kundfordringar och finjustera din insamlingsstrategi genom att förutsäga om försäljningsfakturor kommer att betalas i tid eller inte. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod.
@@ -108,7 +108,7 @@ Du kan också skapa din egen förebyggande webbtjänst som bygger på en allmän
 8. På snabbfliken **mina autentiseringsuppgifter för modell**, ange API-URL och API-nyckel för din modell.  .  
 
 ## <a name="see-also"></a>Se även  
-[Azure Machine Learning Studio-dokumentation](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Azure Machine Learning Studio-dokumentation](/azure/machine-learning/classic/)  
 [Anpassa Business Central med tillägg](ui-extensions.md)  
 [Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 52f99b262dbfa5568650b72356ec43442fc75284
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378530"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780063"
 ---
 # <a name="define-retention-policies"></a>Definiera bevarandeprinciper
 Administratörer kan definiera bevarandeprinciper för att ange hur ofta de vill att [!INCLUDE[prod_short](includes/prod_short.md)] tar bort gamla data i tabeller som innehåller loggposter och arkiverade poster. Att rensa loggposter kan t. ex. göra det enklare för dig att arbeta med data som faktiskt är relevanta. Principer kan omfatta alla data i tabellerna som har passerat utgångsdatumet, eller så kan du lägga till filterkriterier som endast tar med vissa utgångna data i principen. 

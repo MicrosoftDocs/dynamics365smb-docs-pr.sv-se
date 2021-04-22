@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db43728efb4c57a60f23a62c03246f1059373a54
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379379"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774517"
 ---
 # <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
 När en post som till exempel ett inköpsdokument eller ett kundkort måste godkännas av någon i organisationen, skickar du en godkännandebegäran som en del av ett arbetsflöde. Beroende på hur arbetsflödet konfigureras meddelas sedan den lämpliga godkännaren om att posten kräver godkännande.
@@ -25,7 +25,7 @@ Du kan ställa in godkännandearbetsflöden på sidan **Arbetsflöde**. Mer info
 
 Förutom arbetsflöden för godkännande som beskrivs i det här avsnittet, kan du utföra olika andra arbetsflödesuppgifter. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).
 
-Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdokument, utbetalningsjournaler, kundkort och artikelkort är klara att starta som guider. Mer information finns i [Komma igång](product-get-started.md).
+Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdokument, utbetalningsjournaler, kundkort och artikelkort är klara att starta som guider. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Så här begära du godkännande av en post
 Efterföljande aktivitet utförs av en godkännaranvändare.

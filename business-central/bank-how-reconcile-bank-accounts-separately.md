@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388705"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786813"
 ---
 # <a name="reconcile-bank-accounts"></a>Stämma av bankkonton
 
@@ -40,11 +40,11 @@ När värdet i fältet **Totalt saldo** i rutan **Kontoutdragsrader** är lika m
 
 Alla rader som inte kan matchas, vilket anges med ett värde i fältet **Skillnad**, finns kvar på sidan **Bankkontoavstämning** efter bokföring. De representerar någon form av avvikelse som du måste lösa innan du kan slutföra bankkontoavstämningen. Typiska affärssituationer som kan orsaka skillnader:
 
-|Skillnad|Orsak:|Upplösning|
-|-|-|
-|En transaktion i det interna bankkontot finns inte med på kontoutdraget.|Banktransaktionen har inte skett trots att en bokföring gjordes i [!INCLUDE[prod_short](includes/prod_short.md)].|Utför den saknade penningtransaktionen (eller be en gäldenär att utföra den), och återimportera sedan bankutdragsfilen igen eller ange transaktionen manuellt.|
-|En transaktion på kontoutdraget finns inte som ett dokument eller en journalrad i [!INCLUDE[prod_short](includes/prod_short.md)].|En banktransaktion gjordes utan motsvarande bokföring i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel en journalradsbokföring för en utgift.|Skapa och bokför den saknade transaktionen. Information om ett snabbt sätt att initiera detta finns i [Så här skapar du saknade transaktioner för att matcha banktransaktioner med](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
-|En transaktion i det interna bankkontot motsvarar en banktransaktion, men viss information är för annorlunda för att ge en matchning.|Information, till exempel belopp eller kundnamn, angavs på olika sätt i samband med banktransaktionen eller den interna bokföringen.|Granska informationen och matcha sedan de två manuellt. Du kan också korrigera informationsmatchningsfelet.||
+| Skillnad | Orsak: | Upplösning |
+|------------|--------|------------|
+| En transaktion i det interna bankkontot finns inte med på kontoutdraget. | Banktransaktionen har inte skett trots att en bokföring gjordes i [!INCLUDE[prod_short](includes/prod_short.md)]. | Utför den saknade penningtransaktionen (eller be en gäldenär att utföra den), och återimportera sedan bankutdragsfilen igen eller ange transaktionen manuellt. |
+| En transaktion på kontoutdraget finns inte som ett dokument eller en journalrad i [!INCLUDE[prod_short](includes/prod_short.md)]. | En banktransaktion gjordes utan motsvarande bokföring i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel en journalradsbokföring för en utgift. | Skapa och bokför den saknade transaktionen. Information om ett snabbt sätt att initiera detta finns i [Så här skapar du saknade transaktioner för att matcha banktransaktioner med](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
+| En transaktion i det interna bankkontot motsvarar en banktransaktion, men viss information är för annorlunda för att ge en matchning. | Information, till exempel belopp eller kundnamn, angavs på olika sätt i samband med banktransaktionen eller den interna bokföringen. | Granska informationen och matcha sedan de två manuellt. Du kan också korrigera informationsmatchningsfelet. |
 
 Du måste lösa skillnaderna, till exempel genom att skapa saknade poster och korrigera icke-matchande information, eller genom att utföra saknade penningtransaktioner, tills bankkontoavstämningen är slutförd och bokförd.
 
@@ -57,7 +57,10 @@ Du kan fylla i rutan **Kontoutdragrader** på sidan **Bankkontoavstämning** på
 
 Fönstret **Kontoutdragsrader** fylls med banktransaktioner enligt en importerad fil eller ström som tillhandahålls av banken.
 
-Om du vill aktivera import av bankutdrag som en bankfeed måste du först skapa och aktivera Envestnet Yodlee Bank Feeds-tjänsten och sedan länka dina bankkonton till relaterade onlinebankkonton. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
+Om du vill aktivera import av bankutdrag som en bankfeed måste du först skapa och aktivera Envestnet Yodlee Bank Feeds-tjänsten och sedan länka dina bankkonton till relaterade onlinebankkonton. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> Du kan också importera bankutdragsfiler i komma- eller semikolonavgränsat format (.CSV). Använd **Konfigurera importformat för en kontoutdragsfil** assisterad installation för att definiera importformat för kontoutdrag och bifoga formatet till ett bankkonto. Du kan sedan använda dessa format när du importerar bankutdrag på sidan **Bankkontoavstämning**.
 
 1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkontoavstämning** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.

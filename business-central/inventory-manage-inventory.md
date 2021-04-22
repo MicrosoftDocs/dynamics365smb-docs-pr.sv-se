@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce17373d3355c795c8a3c8d4c70aea904432b80e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389355"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780763"
 ---
 # <a name="inventory"></a>Lagersaldo
 För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som katalogartiklar, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
@@ -51,7 +51,6 @@ I följande tabell beskrivs relaterade uppgifter.
 |Visa tillgängligheten av artiklar per lagerställe, per period, per försäljning eller per inköpshändelse eller per deras användning av monterings- eller produktionsstrukturer.|[Visa artikeldisposition](inventory-how-availability-overview.md)|
 |Överför lagerartiklar mellan lagerställen med överföringsorder, för att hantera lageraktiviteter, eller med artikelgrupperingsjournalen.|[Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)|
 |Reservera lager eller inkommande artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder.|[Reservera artiklar](inventory-how-to-reserve-items.md)|
-|Ställa in en leverantörs eller kundens egen beskrivning för ett objekt så att du enkelt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)|
 |Tilldela serienummer/partinummer till några inkommande eller utgående dokument- eller journalrader, till exempel för att spåra objekt vid återkallning.|[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)|
 |Ställa in en leverantörs eller kundens egen artikelbeskrivning för ditt artikelkort så att du snabbt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)|
 |Sök var serie- eller partinummer har använts i dess försörjningskedja, till exempel i återkallningssituationer.|[Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)|

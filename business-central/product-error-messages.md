@@ -1,17 +1,17 @@
 ---
-title: Varningar och felmeddelanden | Microsoft Docs
+title: Varningar och felmeddelanden
 description: Lär dig hur du felsöker och hittar lösningar på felmeddelanden när du arbetar i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387179"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779488"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Varningar och felmeddelanden i Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ Under din arbetsdag kan du se meddelanden i [!INCLUDE [prod_short](includes/prod
 
 ## <a name="in-product-user-assistance"></a>Användarhjälp i produkten
 
-Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller beskrivningar av de flesta fält, kolumner och åtgärder som du kan komma åt när du väljer namnet. I kombination med beskrivande rubriker och instruktionstext är dessa beskrivningar eller bildtexter vår aktuella implementering av *inbäddat användarstöd*, som är en viktig princip i dagens programvarudesign.  
+Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller beskrivningar av de flesta fält, kolumner och åtgärder som du kan komma åt när du väljer namnet. I kombination med undervisningstips för viktiga sidor, beskrivande rubriker och instruktionstext är dessa beskrivningar eller bildtexter vår aktuella implementering av *inbäddat användarstöd*, som är en viktig princip i dagens programvarudesign.  
 
 Om du har en fråga om ett fält eller något annat element i användargränssnittet, väljer du namnet och en kort beskrivning visas. Välj länken *Mer information* om det inte räcker.  
 
@@ -41,7 +41,7 @@ Om du är administratör eller superanvändare kan du hjälpa andra genom att s�
 [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
 [Vanliga frågor om Kopiera och klistra in](faq-copy-paste.yml)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

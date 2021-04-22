@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393305"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784821"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -242,34 +242,9 @@ I följande tabell visas de olika sätt som du kan ange tider på, samt hur de t
 
  Du måste ange två siffror för varje tidsenhet om du inte använder någon avgränsare.  
 
-## <a name="entering-datetimes"></a>Ange datum och tid
+## <a name="entering-combined-datetimes"></a>Ange kombinerade datum och tider
 
-När du anger datum och tid måste du ange ett blanksteg mellan datumet och tiden.  
-
-Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en förklaring av hur de ska tolkas.  
-
-|Transaktion|Tolkning|  
-|---------------|------------------------|  
-|`131202` 132455|02-12-13 13:24:55|  
-|1-12-02 10|02-12-01 10:00:00|  
-|1.12.02 5|02-12-01 05:00:00|  
-|1.12.02|02-12-01 00:00:00|  
-|11 12|innevarande år-innevarande månad-11 12:00:00|  
-|1112 12|innevarande år-12-11 12:00:00|  
-|d eller dagens datum|dagens datum 00:00:00|  
-|d tid|dagens datum aktuell tid|  
-|d 10:30|dagens datum 10:30:00|  
-|d 03:03:03|dagens datum 03:03:03|  
-|a eller arbetsdagens datum|arbetsdagens datum 00:00:00|  
-|m eller måndag|måndag i innevarande vecka 00:00:00|  
-|ti eller tisdag|tisdag i innevarande vecka 00:00:00|  
-|on eller onsdag|onsdag i innevarande vecka 00:00:00|  
-|to eller torsdag|torsdag i innevarande vecka 00:00:00|  
-|fr eller fredag|fredag i innevarande vecka 00:00:00|  
-|lö eller lördag|lördag i innevarande vecka 00:00:00|  
-|sö eller söndag|söndag i innevarande vecka 00:00:00|  
-|ti 10:30|tisdag i innevarande vecka 10:30:00|  
-|ti 03:03:03|tisdag i innevarande vecka 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Ange varaktighet
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a09aa00b23abab7849c4a5099132c9729d7592e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f669944766894e57a772e229a436953953f3892c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389479"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785195"
 ---
 # <a name="design-details"></a>Designdetaljer
 Innehållet består av detaljerad teknisk information om komplexa programfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -30,16 +30,14 @@ Innehållet består av detaljerad teknisk information om komplexa programfunktio
 |Lära dig mer om centrala principer bakom avancerade och grundläggande lagerfunktioner och hur de integreras med andra funktioner i försörjningskedjan.|[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)|  
 |Lär dig mer om historisk och aktuella utformning av artikelspårningfunktionen och hur den integreras med reservationssystemet för ta med serie-/partinummer i dispositionsberäkningarna.|[Designdetaljer: Objektspårning](design-details-item-tracking.md)|  
 |Lär dig mer om funktionen för radbokföring i redovisningsjournalen, inklusive nya förenklingar i utformningen av kodmodul 12.|[Designdetaljer: Bokföring av rad i redovisningsjournalen](design-details-general-journal-post-line.md)|
-|Lär dig mer om designen för att lagra och bokföra dimensioner, inklusive kodexempel på hur du migrerar och uppgraderar dimensionskod.|[Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md)| 
+|Lär dig mer om designen för att lagra och bokföra dimensioner, inklusive kodexempel på hur du migrerar och uppgraderar dimensionskod.|[Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)|
 
-## <a name="see-also"></a>Se även  
- [Planerad](production-planning.md)   
- [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
- [Lagerstyrning](warehouse-manage-warehouse.md)   
- [Ställa in komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Se även
 
- ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+[Planerad](production-planning.md)  
+[Hantera lagerkostnader](finance-manage-inventory-costs.md)  
+[Lagerstyrning](warehouse-manage-warehouse.md)  
+[Ställa in komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

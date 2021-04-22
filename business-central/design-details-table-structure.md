@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0423314fa123c931e98db37bcc6939b6fbbddf25
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e118b27d1bafc4de1ffc8d2db4597317942b6f65
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381523"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777704"
 ---
 # <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
 För att förstå hur dimensionstransaktioner lagras och bokförs är det viktigt att förstå tabellstrukturen.  
@@ -181,11 +181,7 @@ Fältet 480 finns i följande bufferttabeller.
 |5637|**Anl. redov. bokf.buffer**|  
 |7136|**Buffert för artikelbudget**|  
 
-## <a name="see-also"></a>Se även  
- [Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md)   
- [Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)   
- [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Se även
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)  
+[Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   

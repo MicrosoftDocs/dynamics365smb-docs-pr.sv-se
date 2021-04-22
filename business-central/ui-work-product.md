@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393580"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772135"
 ---
 # <a name="working-with-prod_short"></a>Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
@@ -61,18 +61,18 @@ Här följer en kort video om hur du navigerar i [!INCLUDE[prod_short](includes/
 
 ## <a name="choosing-a-desktop-browser"></a>Välja en webbläsare för skrivbordet
 
-[!INCLUDE[prod_short](includes/prod_short.md)] stöder flera webbläsare som vardera erbjuder en mängd olika funktioner och möjligheter. Webbläsaren spelar en betydande roll i användargränssnittets svarstider och prestanda. Se listan över vilka webbläsare som stöds och rekommenderas för [Business Central online](https://go.microsoft.com/fwlink/?linkid=2110804) och webbläsare för [Business Central lokalt](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] stöder flera webbläsare som vardera erbjuder en mängd olika funktioner och möjligheter. Webbläsaren spelar en betydande roll i användargränssnittets svarstider och prestanda. Se listan över vilka webbläsare som stöds och rekommenderas för [Business Central online](./product-requirements.md) och webbläsare för [Business Central lokalt](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
 - Undvik äldre webbläsare som exempelvis Internet Explorer och byt istället till en av våra rekommenderade moderna webbläsare, till exempel [nya Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer stöds fortfarande, men eftersom den nya webbläsaren Edge nu är tillgänglig för Windows Server ser vi en alltmer krympande användning för Internet Explorer. Du kan också få [en pilotversion av Edge i IE-läge](https://www.microsoft.com/edge/business). Mer information finns i [Microsoft Edge-dokumentationen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer stöds inte längre. Mer information finns i [Microsoft Edge-dokumentationen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Se till att din webbläsare alltid har uppdaterats till den senaste versionen.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Ställa in Business Central](setup.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Prestandatips för företagsanvändare](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

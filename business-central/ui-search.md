@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6de3033333e997fa335f085499b81e1caa4146d7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381685"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783190"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[prod_short](includes/prod_short.md)].  

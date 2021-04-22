@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381044"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786254"
 ---
 # <a name="set-up-company-consolidation"></a>Ställa in företagskonsolidering
 
@@ -30,6 +30,7 @@ Det finns två sätt att ställa in konsolideringen beroende på hur komplicerat
 
 ## <a name="simple-consolidation-setup"></a>Enkel konsolidering
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Om din konsolidering är enkel, till exempel eftersom du äger de koncernföretag som ska konsolideras helt, kommer den assisterade konfigurationen **Företagskonsolidering** att hjälpa dig med följande steg:
 
 * Välj om du vill skapa ett nytt konsoliderat företag eller om du vill konsolidera data i ett företag som du har skapat för konsolideringen. Företaget bör inte innehålla transaktioner.

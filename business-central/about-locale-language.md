@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385080"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776453"
 ---
 # <a name="changing-language-and-region"></a>Byta språk och region
 
@@ -36,10 +36,10 @@ Det ingår inte i funktionen Multilanguage att ändra språk för de texter som 
 ## <a name="changing-the-region"></a>Ändra regionen
 Region skiljer sig från både språk och juridiska krav på lokala marknader. Region bestämmer hur data visas när det gäller kommateckenavgränsare, justering till vänster eller till höger och vissa andra inställningar. Region avgör vissa systemelement i webbläsaren, till exempel åtgärden att skapa ett nytt objekt i en lista.  
 
-Du kan ändra region i fliken som du använder för att arbeta i [!INCLUDE[prod_short](includes/prod_short.md)]. ändringen gäller bara för dig och inte för de andra användarna i företaget.  Observera att valet av region återställs till din inställning i din Microsoft 365-profil om din administratör synkroniserar användare från Microsoft 365 i [!INCLUDE[prod_short](includes/prod_short.md)].
+Du kan ändra region i fliken som du använder för att arbeta i [!INCLUDE[prod_short](includes/prod_short.md)]. Ändringen gäller bara för dig och inte för de andra användarna i företaget.  Valet av region återställs till din inställning i din Microsoft 365-profil om din administratör synkroniserar användare från Microsoft 365 i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
->  När du ändrar region visas en lång lista över språk och region. Språk påverkas dock inte av val av region.  
+> När du ändrar region visas en lång lista över språk och region. Språk påverkas dock inte av val av region.  
 
 Om du vill ändra region går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
@@ -48,19 +48,21 @@ Om du vill ändra region går du till sidan **Mina inställningar**. Mer informa
 På sidan **Hjälp och support** kan du se den version av [!INCLUDE[prod_short](includes/prod_short.md)] som ditt företag är baserat på. Om du vill basera ett företag på en annan version kan administratören skapa en ny produktionsmiljö. Mer information finns i [Skapa en ny produktionsmiljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i innehållet för utvecklare och IT-proffs.  
 
 ## <a name="languages-of-the-prod_short-help"></a>Språk för [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen
+
 Innehållet i hjälpen för grundläggande funktioner i [!INCLUDE[prod_short](includes/prod_short.md)] publicerar på webbplatsen Microsoft Docs och finns på flera olika språk. Om du har tillgång till dokument inifrån [!INCLUDE[prod_short](includes/prod_short.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska.
 
-### <a name="how-do-i-change-the-language"></a>Hur ändrar jag språket?
+### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hur ändrar jag språk på webbplatsen Microsoft-dokument?
+
 Det är enkelt – bläddra längst ned på sidan och välj symbolen med en jordglob längst ned till vänster.
 
 > [!NOTE]  
-> Listan visar alla språk som stöds av webbplatsen Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] finns i ett begränsat antal länder/regioner, men hjälpinnehållet är tillgänglig på flera språk. Hjälpinnehållet är inte tillgängligt för alla språk som stöds av webbplatsen Microsoft Docs.
+> Listan visar alla språk som stöds av webbplatsen Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] är tillgängligt i ett begränsat antal länder/regioner och [!INCLUDE [prod_short](includes/prod_short.md)] Hjälp-innehållet är inte tillgängligt på alla språk som Microsoft-dokumenten stöder.
 
 ## <a name="see-also"></a>Se även
 
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

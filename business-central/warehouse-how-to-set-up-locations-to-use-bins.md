@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 26f6898cbcb63f19ea3b89d5cd1e5df254bc33af
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e04ec3be3385b86cfdfb42bffadcdd9730244efc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382383"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771632"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Registrera lagerställen för att använda lagerställen
 Lagerställen representerar den grundläggande lagerstrukturen och används för att lägga förslag om artiklarnas specifika placering av artiklar. När du har skapat lagerställena kan du definiera det innehåll som du vill placera på respektive lagerplats, eller så kan lagerstället fungera som en flytande lagerplats utan att något särskilt innehåll har angetts.  

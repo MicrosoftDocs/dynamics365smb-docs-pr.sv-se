@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e7fb77ab485489158798cdd03660325c678390e1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 841ad4ff4963d8cfc6a284859affb60336e805a5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377279"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771318"
 ---
 # <a name="the-image-analyzer-extension"></a>Tillägget Image Analyzer
 
@@ -49,7 +49,7 @@ Tillägget Image Analyzer är inbyggt i [!INCLUDE[prod_short](includes/prod_shor
 1. Om du vill aktivera tillägget Image Analyzer, gör du något av följande:
 
 * Öppna en artikel eller kontaktkort. I meddelandefältet, välj **analysera bilder**, och följ sedan stegen i assisterade inställningsguide.  
-* Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceanslutningar** och välj sedan **Inställningar för bildanalys**. Markera kryssrutan **Aktivera analysera bilder**, och följ sedan stegen i assisterade inställningsguide.  
+* Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Serviceanslutningar** och välj sedan **Inställningar för bildanalys**. Markera kryssrutan **Aktivera analysera bilder**, och följ sedan stegen i assisterade inställningsguide.  
 
     > [!TIP]  
     > Sidan **inställningar för analys av bilden** låter dig också öppna där du kan ändra graden av säkerhet för attributförslag. Om du till exempel kräver en högre grad av säkerhet anger du en högre procentandel.
@@ -58,7 +58,7 @@ Tillägget Image Analyzer är inbyggt i [!INCLUDE[prod_short](includes/prod_shor
 
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
 2. Välj artikel och välj sedan åtgärden **analysera bild**.  
 3. Sidan **Image Analyzer-attribut** visar identifierade attribut, konfidensintervall och annan information om attributet. Använd alternativet **åtgärd att utföra** för att ange vad som ska ske med attributet.  
 
@@ -69,7 +69,7 @@ Följande steg beskriver hur du analyserar en bild som har hämtats innan du val
 
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk.  
 2. Välj kontaktperson och välj sedan åtgärden **analysera bild**.  
 3. På snabbfliken **profilfrågeformulär** granska förslagen och gör ändringar om det behövs.  
 
@@ -103,7 +103,7 @@ Du kan visa antalet analyser som du har gjort och hur många du ändå kan göra
 
 [Arbeta med artikelattribut](inventory-how-work-item-attributes.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7226a8b8c1acd624890cd668cd9a8437e7bd08b7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384180"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780088"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -50,7 +50,7 @@ I den här artikeln beskrivs hur du kommer gång med att använda Power BI Deskt
 
     Mer information finns i [Använda [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat](#theme) i denna artikel.
 
-## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a>Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som n datakälla i Power BI Desktop
+## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop
 
 Den första uppgiften i samband med att skapa rapporter är att lägga till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop. När du väl är ansluten kan du börja skapa rapporten.
 
@@ -133,8 +133,8 @@ Det finns ett antal olika sätt att skicka rapporter till dina medarbetare och a
 
 [Aktivera dina affärsdata för Power BI](admin-powerbi.md)  
 [Affärsstöd](bi.md)  
-[Komma igång](product-get-started.md)  
-[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Ekonomi](finance.md)  
 [Snabbstart: Ansluta till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  

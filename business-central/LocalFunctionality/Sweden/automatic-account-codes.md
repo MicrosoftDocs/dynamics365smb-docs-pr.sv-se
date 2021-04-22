@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb8761c1ab08b5670802a7db17d5e9f943749567
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef41ae784eb669d4021be5df9ac7fa5110a4e301
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382033"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777620"
 ---
 # <a name="automatic-account-codes-in-the-swedish-version"></a>Automatiska kontokoder i den svenska versionen
 

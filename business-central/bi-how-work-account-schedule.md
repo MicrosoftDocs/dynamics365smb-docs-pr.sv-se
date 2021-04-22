@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 584a3aa295ab3ec59a6f6a1e34017d0f9a67bc5c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389230"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786593"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
 
@@ -127,7 +127,7 @@ En bokföringsperiod måste inte matcha kalendern, men varje räkenskapsår mås
 | ------------ | ------------------------------------------------------------------------------------- |
 | P            | Period                                                                                |
 | SP           | Sista perioden i ett räkenskapsår, halvår eller kvartal.                                   |
-| CP           | Aktuell period under räkenskapsåret, halvåret eller kvartalet. Använd CP i formler för att ange den period som formeln ska börja eller sluta med. Till exempel anger RÅ\[1..CP\] tiden från början av det aktuella räkenskapsåret till den aktuella perioden.|
+| CP           | Aktuell period under räkenskapsåret, halvåret eller kvartalet. Använd CP i formler för att ange den period som formeln ska börja eller sluta med. Till exempel anger RÅ\[1..cp\] tiden från början av det aktuella räkenskapsåret till den aktuella perioden.|
 | RÅ           | Räkenskapsåret. Till exempel anger RÅ\[1..3\] det första kvartalet av det aktuella räkenskapsåret. |
 
 Exempel på formler:
@@ -139,7 +139,7 @@ Exempel på formler:
 | \-1RÅ\[1..LP\]  | Hela föregående räkenskapsåret                                                                     |
 | \-1RÅ           | Aktuell period i föregående räkenskapsår                                                          |
 | \-1RÅ\[1..3\]   | Första kvartalet i föregående räkenskapsår                                                           |
-| \-1RÅ\[1..CP\]  | Från början av föregående räkenskapsår till och med aktuell period i föregående räkenskapsår, inklusive båda perioderna |
+| \-1RÅ\[1..cp\]  | Från början av föregående räkenskapsår till och med aktuell period i föregående räkenskapsår, inklusive båda perioderna |
 | \-1RÅ\[CP..LP\] | Från aktuell period i föregående räkenskapsår till och med sista perioden i föregående räkenskapsår, inklusive båda perioderna   |
 
 Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel i fältet **Jämförelse datumformel**. Om fältet till exempel har värdet -1å, jämförs [!INCLUDE [prod_short](includes/prod_short.md)] med samma period 1 år tidigare.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 201ca497e393811cb17c518828699914c3530d50
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4917beb1a7986f94da6d45b0990208a9f192851a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384025"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787310"
 ---
 # <a name="sweden-local-functionality"></a>Lokal funktionalitet för Sverige
 

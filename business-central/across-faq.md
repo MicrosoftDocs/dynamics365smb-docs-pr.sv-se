@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498568"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776153"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Vanliga frågor om att använda Business Central
 
@@ -44,8 +44,9 @@ Detta gäller både [!INCLUDE [prod_short](includes/prod_short.md)] online och l
 
 Om kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource. Detta gäller [!INCLUDE [prod_short](includes/prod_short.md)] endast online.  
 
-## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Finns det skillnader mellan en lokal distribution och molnversionen av Business Central?
-Ja. Vissa molnbaserade funktioner kan köras i vissa fall och andra stöds inte alls. Mer information finns [funktioner som inte implementerats i lokala distributioner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-business-central-online"></a>Finns det skillnader mellan en lokal distribution och Business Central Online?
+
+Ja. [!INCLUDE [prod_short](includes/prod_short.md)] är optimerad för onlinedistribution, och vissa funktioner kan endast köras lokalt under vissa omständigheter, medan andra inte stöds alls. Mer information finns [funktioner som inte implementerats i lokala distributioner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (finns endast på engelska).
 
 ## <a name="can-i-get-training-in-prod_short"></a>Kan jag få utbildning i [!INCLUDE[prod_short](includes/prod_short.md)]?
 Ja det kan du. Du kan hitta kostnadsfritt eLearning-innehåll på [Microsoft Learn-webbplatsen](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Du kan också be din återförsäljare om ytterligare utbildningar. Om du inte vet vem det är, se avsnittet [Hur jag hittar en återförsäljningspartner?](#findpartner).  
@@ -60,12 +61,23 @@ Ytterligare innehåll tillhandahålls av [!INCLUDE[prod_short](includes/prod_sho
 
 Mer information finns i avsnittet [Hjälp och support](product-help-and-support.md) och [Hur hittar jag en återförsäljningspartner?](#findpartner).  
 
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Varför beskriver Hjälp funktioner som det går inte att komma åt?
-Om upplevelseinställningen på sidan **företagsinformation** anges till **viktig**, kommer gränssnittselement för Produktion och Servicehantering inte att synas eftersom de kräver upplevelsen **Premium**. En textanteckning infogas i inledande hjälpavsnitt för olika områden. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
-
 ## <a name="where-is-the-save-button"></a>Där är knappen Spara?
 
-Det finns ingen *Spara*-knapp på sidor som i andra program som du kanske är bekant med. I [!INCLUDE[prod_short](includes/prod_short.md)] sparas ändringar du gör i ett fält automatiskt när du flyttar till nästa fält eller stänger sidan, förutsatt att det inte finns några fel. När du ändrar i ett fält och flyttar till ett annat fält, visas texten **Sparar** i övre högra hörnet på sidan, som snabbt ändras till **Sparad** om inga fel uppstår. Om det uppstår ett fel, ändras texten till **Inte sparad**.
+Det finns ingen *Spara*-knapp på sidor som i andra program som du kanske är bekant med. I [!INCLUDE[prod_short](includes/prod_short.md)] sparas ändringar du gör i ett fält automatiskt när du flyttar till nästa fält eller stänger sidan, förutsatt att det inte finns några fel. När du ändrar i ett fält och flyttar till ett annat fält, visas texten **Sparar** i övre högra hörnet på sidan, som snabbt ändras till **Sparad** om inga fel uppstår. Om det uppstår ett fel, ändras texten till **Inte sparad**.  
+
+## <a name="where-do-i-find-that-line-number"></a>Var hittar jag radnumret?
+
+Dokument som försäljningsorder och inköpsfakturor består av huvud och rader. Varje rad har ett nummer som [!INCLUDE [prod_short](includes/prod_short.md)] använder för att identifiera den aktuella raden. På grund av detta kan du se en varning eller ett felmeddelande om att något är fel i radnummer 1000. I standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] är radnumren dolda. Om du vill se radnumren måste du anpassa den aktuella sidan och lägga till **Radnr** . Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Varför beskriver Hjälp funktioner som det går inte att komma åt?
+Om upplevelseinställningen på sidan **företagsinformation** anges till **viktig**, kommer gränssnittselement för Produktion och Servicehantering inte att synas eftersom de kräver upplevelsen **Premium**. En textanteckning infogas i inledande hjälpavsnitt för olika områden. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Varför är ny information inte tillgänglig på mitt språk?
+
+På webbplatsen docs.microsoft.com publiceras information om affärsfunktioner på ett antal språk. Innehållet redigeras på engelska och publiceras på URL:er med *en-US* som språkkod. När ny information publiceras på engelska skickas den ut för översättning till de språk som stöds. Det innebär att du inte kommer att kunna läsa det nya innehållet på ditt eget språk förrän om upp till fyra veckor.  
+
+Vi förstår problemen som det kan orsaka, och uppmanar användarna att söka efter vad de söker på engelska om de inte kan hitta dem på eget språk.  
 
 ## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Vilken e-postadress kan jag använda med [!INCLUDE[prod_short](includes/prod_short.md)] online?
 
@@ -80,7 +92,7 @@ Nr Men om du vill uppleva [!INCLUDE[prod_short](includes/prod_short.md)] som hel
 
 Om du loggar in med ett konto som inte är ett Microsoft 365-arbetskonto (exempelvis joe@mysolution.com) och du har en Microsoft 365-prenumeration, kan du sedan koppla din domän (*mysolution.com*) till Microsoft 365-prenumerationen. Mer information finns i [Vad är en domän?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) i Microsoft 365-innehållet.  
 
-Om du inte har någon Microsoft 365-prenumeration och inte hell vill köpa en sådan kommer vi senare – i samband med att du registrerar dig – att tillhandahålla dig en ny Azure Active Directory-klientorganisation automatiskt så att du kan komma åt Azure-portalen där du har tillgång till avancerade administratörsverktyg.  
+Om du inte har en Microsoft 365-prenumeration och inte vill köpa en, så tillhandahåller vi en ny Azure Active Directory-klientorganisation för dig så att du har tillgång till de avancerade administrationsverktygen i Azure-portalen.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>Vad handlar integrationen med Microsoft 365 om?
 [!INCLUDE[prod_short](includes/prod_short.md)] online är helt integrerad med Microsoft 365, så att du kan navigera fritt mellan Microsoft 365-programmen och [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av programmarstartbilden. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du t. ex. öppna data i Excel, skriva ut rapporter med hjälp av Word och du arbeta med dina [!INCLUDE[prod_short](includes/prod_short.md)]-data i Outlook. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som din företagsinkorg i Outlook](admin-outlook.md).  
@@ -104,7 +116,7 @@ Detta är lite komplicerat, men det verkar som om administratören inte ändrade
 Ja men, beroende på hur du registrerade dig på [!INCLUDE[prod_short](includes/prod_short.md)], kan dina data tas bort eller bevaras. Mer information finns i [Avbryter [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kan jag använda autentisering på flera plan?
-Visst. Om du gör det, kanske du måste ha ett applösenord för att kunna skicka e-postmeddelanden. Applösenord ger en app eller en enhet åtkomst till ditt e-postkonto. Stegen för att få ett applösenord varierar beroende på din e-postleverantör. Mer information finns i hjälpen från leverantören. Om du använder Outlook, se exempelvis [Multifaktorsautentisering för Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Visst. Om du gör det, kanske du måste ha ett applösenord för att kunna skicka e-postmeddelanden. Applösenord ger en app eller en enhet åtkomst till ditt e-postkonto. Stegen för att få ett applösenord varierar beroende på din e-postleverantör. Mer information finns i hjälpen från leverantören. Om du använder Outlook, se exempelvis [Multifaktorsautentisering för Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hur hittar jag en återförsäljningspartner?
 
@@ -116,23 +128,13 @@ Om du vill ha vägledning från Microsoft kontaktar du [Microsofts säljteam](ht
 
 Din återförsäljningspartner hanterar också teknisk support åt dig. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
 
-## <a name="where-do-i-find-that-line-number"></a>Var hittar jag radnumret?
-
-Dokument som försäljningsorder och inköpsfakturor består av huvud och rader. Varje rad har ett nummer som [!INCLUDE [prod_short](includes/prod_short.md)] använder för att identifiera den aktuella raden. På grund av detta kan du se en varning eller ett felmeddelande om att något är fel i radnummer 1000. I standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] är radnumren dolda. Om du vill se radnumren måste du anpassa den aktuella sidan och lägga till **Radnr** . Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
-
-## <a name="why-is-new-information-not-available-in-my-language"></a>Varför är ny information inte tillgänglig på mitt språk?
-
-På webbplatsen docs.microsoft.com publiceras information om affärsfunktioner på ett antal språk. Innehållet redigeras på engelska och publiceras på URL:er med *en-US* som språkkod. När ny information publiceras på engelska skickas den ut för översättning till de språk som stöds. Det innebär att du inte kommer att kunna läsa det nya innehållet på ditt eget språk förrän om upp till fyra veckor.  
-
-Vi förstår problemen som det kan orsaka, och uppmanar användarna att söka efter vad de söker på engelska om de inte kan hitta dem på eget språk.  
-
 ## <a name="is-the-windows-client-supported"></a>Stöds Windows-klienten?
 
 I de första versionerna av [!INCLUDE[prod_short](includes/prod_short.md)] lokalt inkluderades en installerad klient som härletts från Microsoft Dynamics NAV. Från och med 2019 utgivningsplan 2 kommer den äldre komponenten, som "Windows-klienten", inte längre att vara tillgänglig för [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Vanliga frågor och svar om Windows Client och Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Se även
 
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Vanliga frågor om Berätta](ui-search-faq.md)  
 [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
 [Vanliga frågor om listvyer](ui-views-faq.md)  

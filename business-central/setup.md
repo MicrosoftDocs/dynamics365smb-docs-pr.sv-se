@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385555"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781462"
 ---
-# <a name="setting-up-prod_short"></a>Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov.
+[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov.  
 
 Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är klara för användning. Du kan naturligtvis ändra kontoplanen så att dessa stämmer överens med dina behov. Mer information finns i [Ekonomi](finance.md).
 
-Via menyn ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) kan du komma åt assisterade konfigurationsguider som hjälper dig att konfigurera specifika och lägga till funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).
+Via menyn ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) kan du komma åt assisterade konfigurationsguider som hjälper dig att konfigurera specifika och lägga till funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Vissa funktioner, såväl allmänna som för specifika verksamhetsprocesser, kan ställas in manuellt utöver den assisterade inställningsguiden. Nedan anges några av de funktioner som du kan ställa in manuellt.
 
@@ -73,7 +76,7 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[prod_short](inc
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

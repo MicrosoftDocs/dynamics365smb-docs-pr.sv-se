@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 362f5ca0ac71d226c29bff3f03aaa4d9f30fb171
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fcc05bd73f3912a04e01ced0982c334203bb58cf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376568"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776947"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Skapa tjänsten Envestnet Yodlee Bank Feeds
 
@@ -45,7 +45,7 @@ När du har aktiverat bankfeedtjänsten måste du länka det involverade bankkon
 När bankfeedtjänsten är aktiverad, kan du konfigurera ett bankkonto att automatiskt importera nya kontoutdrag till sidan **Betalningsavstämningsjournal** varannan timme. Transaktioner för utbetalningar som redan har bokförts som kopplade och/eller avstämda på sidan **Betalningsavstämningsjournal** kommer inte att importeras. Mer information finns i avsnittet “Att aktivera automatisk import av kontoutdrag”.
 
 > [!NOTE]  
-> Om du använder den assisterad inställningsguide för att ställa in företagskonfiguration följer du några av stegen i följande procedurer att utföras automatiskt när du kommer till inställningen av företagets bankkonto. Mer information finns i [Komma igång](product-get-started.md).
+> Om du använder den assisterad inställningsguide för att ställa in företagskonfiguration följer du några av stegen i följande procedurer att utföras automatiskt när du kommer till inställningen av företagets bankkonto. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Så här aktiverar du bankfeedtjänsten
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.

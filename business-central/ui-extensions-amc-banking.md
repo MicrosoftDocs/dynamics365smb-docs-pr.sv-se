@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 19331b3897c6ca0ec848298a105729ecda1d3a87
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9c7e20f73b154eeb4c9f47d9100222e0723c42f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377018"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773511"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Använda tillägget AMC Banking 365 Fundamentals
-Med tillägget AMC Banking 365 Fundamentals blir det enklare och mer exakt att skicka data till dina banker. Tillägget ansluter [!INCLUDE[prod_short](includes/prod_short.md)] till AMC Banking 365 Fundamentals för Microsoft Dynamics 365 Business Central-tjänsten, som kan omvandla bankdata från [!INCLUDE[prod_short](includes/prod_short.md)] till de format som krävs av över 600 banker runt om i världen. Det gör det till exempel enklare att överföra betalningar och krediter till leverantörer genom att registrera betalningarna i [!INCLUDE[prod_short](includes/prod_short.md)] och sedan överföra dem till din bank. Formaten kan också göra bankavstämningsprocesser smidigare. Mer information finns i [AMC Banking för Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help)
+Med tillägget AMC Banking 365 Fundamentals blir det enklare och mer exakt att skicka data till dina banker. Tillägget ansluter [!INCLUDE[prod_short](includes/prod_short.md)] till AMC Banking 365 Fundamentals för Microsoft Dynamics 365 Business Central-tjänsten, som kan omvandla bankdata från [!INCLUDE[prod_short](includes/prod_short.md)] till de format som krävs av över 600 banker runt om i världen. Det gör det till exempel enklare att överföra betalningar och krediter till leverantörer genom att registrera betalningarna i [!INCLUDE[prod_short](includes/prod_short.md)] och sedan överföra dem till din bank. Formaten kan också göra bankavstämningsprocesser smidigare. Mer information finns i [AMC Banking för Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/)
 
 > [!Note]
 > AMC Banking har skapat ytterligare tillägg som fungerar med [!INCLUDE[prod_short](includes/prod_short.md)]. I det här avsnittet beskrivs endast Fundamental-tillägget.
@@ -48,12 +48,12 @@ För varje ny behörighetsuppsättningar beviljar du bara **Läs**-behörighet f
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Ansluta tillägget till AMC Banking
 1. Hämta en modul och en tjänstplan för AMC Banking. Om du vill göra det går du till sidan [AMC-licens](https://license.amcbanking.com/register).
-2. I [!INCLUDE[prod_short](includes/prod_short.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Konfiguration av AMC Banking** och väljer sedan relaterad länk.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), anger **Konfiguration av AMC Banking** och väljer sedan relaterad länk.  
 3. På sidan **Konfiguration av AMC Banking** väljer du åtgärden **Assisterad konfiguration**.
 4. Följ instruktionerna i assisterad konfiguration.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>Koppla bankkonton till tillägget
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.
 2. Öppna kortet för det bankkonto som du vill koppla till tjänsten.
 3. I fältet **Banknamn** väljer du det format som din bank kräver.  
 
@@ -71,7 +71,7 @@ När du använder det här tillägget kan du bara exportera data på **Utbetalni
 > [!CAUTION]  
 >  När du exporterar data med hjälp av tillägget AMC Banking 365 Fundamentals kommer vissa av dina affärsdata att bli exponerade för tjänstleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
 2. Skapa de journalrader som du vill exportera.  
 
    > [!Note]
@@ -86,7 +86,7 @@ När du använder det här tillägget kan du bara exportera data på **Utbetalni
 
 ## <a name="see-also"></a>Se även
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
-[Komma igång](product-get-started.md)
+[Gör dig redo att göra affärer](ui-get-ready-business.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

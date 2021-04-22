@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b64fc6117ce1b241152a94e0c0006c1dbe66c542
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 654c95586dfc36f4228a93f664da6124e6eac42e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390732"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781135"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokföring av produktionsorder
 Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts. Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md) Däremot är kostnadsflödet för monteringsorder mindre komplicerat, särskilt eftersom bokföring av monteringskostnad endast uppstår en gång och därför inte genererar lager för produkter i arbete.

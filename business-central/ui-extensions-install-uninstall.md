@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: e0bb0f88fd9b8dd4c4bcf853447009e0b898fd7a
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 98bb45f10b228077114d7387e9bc30a30cf7e3c6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493309"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774259"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installera och avinstallera tillägg i Business Central
 
@@ -29,7 +29,7 @@ Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installer
 
 ## <a name="installing-an-extension"></a>Installerar tillägg
 
-Du hanterar tillägg på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Du kan också välja ikonen **Sök efter sidan eller rapporten** ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") i övre högra hörnet och ange **tillägg** och välj sedan den relaterade länken.  
+Du hanterar tillägg på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Du kan också välja ikonen **Sök efter sidan eller rapporten** ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") i övre högra hörnet och ange **tillägg** och välj sedan den relaterade länken.  
 
 Du kan skapa nya tillägg från marknadsplatsen på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Här kan du se alla tillgängliga tillägg för [!INCLUDE[prod_short](includes/prod_short.md)], och du kan få program, tillägg och innehållspaket för andra Microsoft-produkter. Ange relevanta filter, ta en titt på varje tilläggs uppgifter och få tillägg för ditt [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -90,7 +90,7 @@ Vissa tillägg är obligatoriska. Du kan inte avinstallera dem från sidan för 
 [Migrera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Konfigurera tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-tillägg från andra leverantörer](ui-extensions-other.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

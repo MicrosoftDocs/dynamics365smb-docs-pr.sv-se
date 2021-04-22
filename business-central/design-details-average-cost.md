@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70b0f4c5a858b73cb0f872bb1bfb92ebc56ded42
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 917aab6c4062233ff5cedb32f8aa75b84687849b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380712"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779663"
 ---
 # <a name="design-details-average-cost"></a>Designdetaljer: Genomsnittskostnad
 Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat genomsnitt baserat på den genomsnittskostnadsperiod som ställs in i [!INCLUDE[prod_short](includes/prod_short.md)].  

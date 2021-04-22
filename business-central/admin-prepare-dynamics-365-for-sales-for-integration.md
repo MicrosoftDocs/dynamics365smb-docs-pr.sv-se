@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 02633c21025fe13b3cb781d8750d7c839640289c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385380"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777344"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrering med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -75,7 +75,7 @@ Ange följande information om anslutningen från [!INCLUDE[crm_md](includes/crm_
 |**Dynamics 365 Business Central OData webbtjänst-URL**|Om du aktiverar webbtjänsten för artikeldisposition anges URL för OData webbadressen för dig. Ange detta fält till url-adressen för den [!INCLUDE[prod_short](includes/prod_short.md)]-instans att använda.<br /><br /> Om du vill återställa fältet till standard-URL för [!INCLUDE[prod_short](includes/prod_short.md)], på Åtgärd-fliken, välj **Återställ webbklient-URL**.<br /><br /> Detta fält gäller endast om integreringslösningen för [!INCLUDE[prod_short](includes/prod_short.md)] har installerats i [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365 Business Central Användarnamn för OData-webbtjänsten**|Namnet på det användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition i [!INCLUDE[prod_short](includes/prod_short.md)] via webbtjänsten för OData.|
 |**Dynamics 365 Business Central Åtkomstnyckel för OData-webbtjänsten**|Åtkomstnyckeln för det användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition från [!INCLUDE[prod_short](includes/prod_short.md)] via webbtjänsten för OData. Nyckeln tilldelas användaren i fältet **Dynamics 365 Business Central Användarnamn för OData-webbtjänsten**. Om du vill hämta nyckeln väljer du knappen **sök efter värdet** bredvid användarnamnet, väljer användaren, väljer **hantera** och sedan **redigera**. På användarkortet väljer du **åtgärder**, **autentisering** och väljer sedan **ändra webbtjänstnyckeln**.|
-|**SDK-version för Dynamics 365**|Om du integrerar med en lokal version av [!INCLUDE[crm_md](includes/crm_md.md)] är det denna SDK-versionen för Dynamics 365 (även kallad Xrm) som du använder för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]. Den version som du väljer måste vara kompatibel med SDK-versionen som används av [!INCLUDE[crm_md](includes/crm_md.md)]. Den här versionen motsvarar eller är senare än den version som används av [!INCLUDE[crm_md](includes/crm_md.md)].|-->
+|**SDK-version för Dynamics 365**|Om du integrerar med en lokal version av [!INCLUDE[crm_md](includes/crm_md.md)] är det denna SDK-versionen för Dynamics 365 (även kallad Xrm) som du använder för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]. Den version som du väljer måste vara kompatibel med SDK-versionen som används av [!INCLUDE[crm_md](includes/crm_md.md)]. Den här versionen motsvarar eller är senare än den version som används av [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 Förutom inställningarna ovan anger du följande inställningar för [!INCLUDE[crm_md](includes/crm_md.md)].
 
@@ -110,7 +110,7 @@ I följande tabell visas standardmappningen mellan tabeller i [!INCLUDE[prod_sho
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 
-Följande tabell anger regler som kontrollerar synkroniseringen mellan [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)]. Dessa gäller utöver de regler som angetts för Dataverse, vilka också gäller. För mer information, se [Standardenhetsmappningar](/dynamics365/business-central/admin-synchronizing-business-central-and-sales?branch=master-cds-crm#standard-table-mapping-for-synchronization).
+Följande tabell anger regler som kontrollerar synkroniseringen mellan [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)]. Dessa gäller utöver de regler som angetts för Dataverse, vilka också gäller. För mer information, se [Standardenhetsmappningar](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 > [!NOTE]  
 > Ändrar data i  som genomfördes av användarkontot för integrering synkroniseras inte. Därför rekommenderar vi att du inte ändrar data när du använder kontot. Mer information finns i [Ställa in konton för att integrera med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
@@ -128,7 +128,7 @@ Följande tabell anger regler som kontrollerar synkroniseringen mellan [!INCLUDE
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Synkroniseringsjobb för Sales-integrering
 
-Projekten körs i följande ordning i syfte att undvika kopplingsberoenden mellan tabeller. Det finns ytterligare jobb tillgängliga från Dataverse. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+Projekten körs i följande ordning i syfte att undvika kopplingsberoenden mellan tabeller. Det finns ytterligare jobb tillgängliga från Dataverse. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](./admin-job-queues-schedule-tasks.md).
 
 1. MÅTTENHET – Dynamics 365 Sales synkroniseringsjobb  
 2. RESURS-PRODUKTER – Dynamics 365 Sales synkroniseringsjobb  
@@ -154,12 +154,22 @@ I följande tabell beskrivs standardsynkroniseringjobben för Sales.
 ## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Ansluta lokala versioner av Business Central som är äldre än version 16
 Microsoft Power Platform-teamet har [meddelat](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) att man kommer att fasa ut autentiseringstypen Office365. Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt som är äldre än version 16 måste du använda OAuth-autentiseringstypen för att ansluta till [!INCLUDE[crm_md](includes/crm_md.md)] online. Instruktionerna i det här avsnittet beskriver hur du skapar anslutningen.
 
-### <a name="requirements"></a>Krav
-Du måste ha en Microsoft Azure-prenumeration. Ett provkonto kommer att fungera för programregistrering.
+### <a name="prerequisites"></a>Förutsättningar
+
+- Du måste ha en Microsoft Azure-prenumeration. Ett provkonto kommer att fungera för programregistrering.
+- [!INCLUDE[crm_md](includes/crm_md.md)] är konfigurerad för att använda någon av följande autentiseringstyper:
+
+   - Office 365 (äldre)
+
+     > [!IMPORTANT]
+     > Från och med april 2022 kommer Office 365 (äldre) inte längre att stödjas. Mer information finns i [Viktiga ändringar (utfasningar) som kommer i Power Apps, Power Automate och kundengagemangsappar](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+
+   - OAuth
 
 ### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>För att ansluta en version av Business Central som är äldre än version 16
+
 1. Importera integreringslösningen Microsoft Dynamics 365 Business Central i din [!INCLUDE[crm_md](includes/crm_md.md)]-miljö. Integreringslösningen finns i mappen CrmCustomization på DVD-skivan för Business Central-installationen. Det finns flera versioner av lösningen, till exempel DynamicsNAVIntegrationSolution_v8, DynamicsNAVIntegrationSolution_v9 eller DynamicsNAVIntegrationSolution_v91. Vilken lösning du bör importera beror på vilken version av [!INCLUDE[crm_md](includes/crm_md.md)] du ansluter till. [!INCLUDE[crm_md](includes/crm_md.md)] online kräver integreringslösningen DynamicsNAVIntegrationSolution_v91.
-2. Skapa en icke-interaktiv integrationsanvändare i din [!INCLUDE[crm_md](includes/crm_md.md)]-miljö och tilldela användaren följande säkerhetsroller. Mer information finns i [skapa ett icke-interaktivt användarkonto](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+2. Skapa en icke-interaktiv integrationsanvändare i din [!INCLUDE[crm_md](includes/crm_md.md)]-miljö och tilldela användaren följande säkerhetsroller. Mer information finns i [skapa ett icke-interaktivt användarkonto](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Dynamics 365 Business Central-integreringsadministratör
    * Dynamics 365 Business Central-integreringsanvändare
@@ -167,7 +177,7 @@ Du måste ha en Microsoft Azure-prenumeration. Ett provkonto kommer att fungera 
    > [!Important]
    > Den här användaren får inte ha säkerhetsrollen Systemadministratör. Du kan heller inte använda systemadministratörskontot som integrationsanvändare.
 
-3.  Skapa en programregistrering för [!INCLUDE[prod_short](includes/prod_short.md)] i Azure-portalen. För information om hur du gör, se [Registrera ett program i Azure Active Directory](/business-central/dev-itpro/administration/register-app-azure?branch=live#register-an-application-in-azure-active-directory). De inställningar som är specifika för att ansluta till [!INCLUDE[crm_md](includes/crm_md.md)] är de delegerade behörigheterna. I följande tabell visas och beskrivs behörigheterna.
+3.  Skapa en programregistrering för [!INCLUDE[prod_short](includes/prod_short.md)] i Azure-portalen. För information om hur du gör, se [Registrera ett program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De inställningar som är specifika för att ansluta till [!INCLUDE[crm_md](includes/crm_md.md)] är de delegerade behörigheterna. I följande tabell visas och beskrivs behörigheterna.
 
    |API/behörighetsnamn |Typ  |Beskrivning  |
    |---------|---------|---------|
@@ -193,7 +203,7 @@ Du måste ha en Microsoft Azure-prenumeration. Ett provkonto kommer att fungera 
 9. Aktivera anslutningen.
 
 > [!Note]
-> Om du vill konfigurera en anslutning till en [!INCLUDE[crm_md](includes/crm_md.md)]-instans med en specifik autentiseringstyp fyller du i fälten i snabbfliken **Information om autentiseringstyp**. Mer information finns i [använd anslutningssträngar i XRM verktygsuppsättning för att ansluta till Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). Detta steg är inte nödvändigt när du ansluter en onlineversion av [!INCLUDE[prod_short](includes/prod_short.md)].
+> Om du vill konfigurera en anslutning till en [!INCLUDE[crm_md](includes/crm_md.md)]-instans med en specifik autentiseringstyp fyller du i fälten i snabbfliken **Information om autentiseringstyp**. Mer information finns i [Autentisering med Microsoft Dataverse webbtjänster](/powerapps/developer/data-platform/authentication). Detta steg är inte nödvändigt när du ansluter en onlineversion av [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Se även
 

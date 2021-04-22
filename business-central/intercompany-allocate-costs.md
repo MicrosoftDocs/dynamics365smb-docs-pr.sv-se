@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0ebed6a95212fdcf00b54af823684ae139e29638
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388480"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786329"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Fördela kostnader till koncerninterna partner
 När du använder koncerninterna bokföringar för att överföra dokument mellan partnerföretag, kontrollerar de momsrelaterade inställningarna (främst rörelsebokföringsmallen för mots) som tilldelats kund- eller leverantörskonton (som är kopplade till den koncerninterna partnern) om, och hur, moms beräknas och registreras. Du kan också göra kostnadsfördelningar direkt från en inköpsorder till partnerföretag. Om du till exempel registrerar en inköpsfaktura från en extern leverantör och vill distribuera vissa eller samtliga kostnader till en eller flera koncerninterna partner.

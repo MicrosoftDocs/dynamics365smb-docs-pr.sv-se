@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b354b26e6d948e0afe9bad8bf01e6239034f207e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1cc239f02dc0b278afd11c8e9ecdf48af1170a91
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384730"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776078"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Skapa inkommande dokumentposter direkt från dokument och transaktioner
 Du kan lagra externa affärsdokument i [!INCLUDE[prod_short](includes/prod_short.md)] genom att koppla dokumentfilerna till de relaterade inkommande dokumentposterna. Om dokumentet, t. ex. en inköpsfaktura, inte ursprungligen skapades som en inkommande dokumentpost kan du fortfarande skapa och koppla en inkommande dokumentpost till den senare. Du kan även bifoga inkommande dokumentfiler till bokförda inköps- och försäljningsdokument och till leverantörs-, kund – och redovisningsposter genom att använda till exempel faktaboxen **Inkommande dokumentfiler** t. ex. på sidorna **Bokförda inköpsfakturor** och **Lev.reskontratransaktioner**.

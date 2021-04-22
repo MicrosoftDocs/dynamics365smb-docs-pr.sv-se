@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1131d4517f71a2ad43d0ec1830fc2a486124e3
-ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
+ms.openlocfilehash: 212f0d228cd2a95990d8144abd8bc8f2e4894a80
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3959668"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776567"
 ---
 Om du vill använda automatiska kontokoder måste du skapa en automatisk kontobokföringsmall.  
 

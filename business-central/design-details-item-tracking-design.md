@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Design av artikelspårning | Microsoft Docs
-description: Detta avsnit beskriver designen bakom artikelspårningen i Business Central.
+title: Designdetaljer - Artikelkopplingsdesign
+description: I det här avsnittet beskrivs designen bakom artikelspårning i Business Central när den mognar genom produktversioner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c41b131c538337db81b30956a7871040d11f9ce3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391004"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780963"
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetaljer: Artikelkopplingsdesign
-I den första versionen av artikelspårning i [!INCLUDE[prod_short](includes/prod_short.md)] 2.60 registrerades serienummer eller partinummer direkt i artikeltransaktioner. Designen gav fullständig tillgänglighetsinformation och enkel spårning av historiska transaktioner, men den saknade flexibilitet och funktioner.  
 
-Från [!INCLUDE[prod_short](includes/prod_short.md)] 3.00 där artikelspårningsfunktion fanns i en separat objektstruktur med invecklade länkar till bokförda dokument och artikeltransaktioner. Design var flexibel och rik på funktioner, men artikelspårningstransaktioner var ingick inte helt i dispositionsberäkningarna.  
+Artikelspårning i [!INCLUDE[prod_short](includes/prod_short.md)] startar med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Artikelspårningsfunktionen finns i en separat objektstruktur med invecklade länkar till bokförda dokument och artikeltransaktioner och den är integrerad med bokningssystemet, som hanterar reservation, orderspårning och åtgärdsmeddelanden. Mer information finns i [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljer för leveransplanering.  
 
-Sedan [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 är artikelspårningsfunktionen integrerade med reservationssystemet, som hanterar reservation, orderspårning och åtgärdsmeddelanden. Mer information finns i "Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden" i "Designdetaljer: Leveransplanering".  
+Designen innehåller artikelspårningstransaktioner i beräkningar av den totala tillgängligheten i hela systemet, inklusive planering, produktion och lagerstyrning. Serie- och partinummer används på artikeltransaktionerna för att säkerställa enkel tillgång till historiska data i artikelspårningssyfte. Med 2021 utgivningscykel 1 innehåller artikelspårning i [!INCLUDE [prod_short](includes/prod_short.md)] paketnummer.  
 
-Den senaste designen innehåller artikelspårningstransaktioner i beräkningar av den totala tillgängligheten i hela systemet, inklusive planering, produktion och lagerstyrning. Det gamla konceptet att ha serie- och partinummer på artikeltransaktionerna återinförs för att säkerställa enkel tillgång till historiska data i artikelspårningssyfte. I samband med artikelspårningförbättringar i [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 utvidgades reservationssystemet till nätverksenheter för icke-order, till exempel journaler, fakturor och kreditnotor.  
-
-Med tillägg av serie- eller partinummer hanterar reservationssystemet permanenta artikelattribut, samtidigt som det även hanterar intermittenta länkar mellan tillgång och efterfrågan i form av orderspårningposter och reservationstransaktioner. En annan egenskap som skiljer sig åt för serie- och partinummer jämfört med konventionella reservationdata är att de kan bokföras, antingen delvis eller helt. Därför fungerar tabellen **Reservationstransaktion** (T337) nu med en relaterad tabell, tabellen **Spårningsspecifikation** (T336), som hanterar och visar summan av aktiva och bokförda artikelspårningsantal. Mer information finns i [Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner](design-details-active-versus-historic-item-tracking-entries.md)  
+Med tillägg av serie- parti- eller paketnummer hanterar reservationssystemet permanenta artikelattribut, samtidigt som det även hanterar intermittenta länkar mellan tillgång och efterfrågan i form av orderspårningposter och reservationstransaktioner. En annan egenskap som skiljer sig åt för serie- och partinummer jämfört med konventionella reservationdata är att de kan bokföras, antingen delvis eller helt. Därför fungerar tabellen **Reservationstransaktion** (T337) nu med en relaterad tabell, tabellen **Spårningsspecifikation** (T336), som hanterar och visar summan av aktiva och bokförda artikelspårningsantal. Mer information finns i [Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner](design-details-active-versus-historic-item-tracking-entries.md)  
 
 Följande diagram skisserar utformningen av artikelspårningsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -43,8 +40,8 @@ Kodenhet 22, **Artikeljournal – bokför rad**, delar nu bokföringen enligt de
 
 Mer information finns i [Designdetaljer: Bokföringsstruktur för artikelspårning](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Designdetaljer: Artikelkoppling](design-details-item-tracking.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

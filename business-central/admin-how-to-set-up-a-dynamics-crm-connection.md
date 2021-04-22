@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/20/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 47a042f1825eca548ecbf08c6901e5af26cbeb43
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 96ba755a1a32a23197b2bb839e50ebe6a0a1e63b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573407"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779788"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -110,7 +110,18 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 Om du vill ansluta [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] måste du ange viss information på **Dataverse anslutningsinställningar**.
 
-Om du vill ansluta med ett Azure Active Directory (Azure AD)-konto måste du registrera ett program i Azure AD och ange program-ID, nyckelvalvhemlighet och URL för omdirigering som ska användas. URL-adressen för omdirigering fylls i förväg och bör användas för de flesta installationer. Du måste ställa in installationen för att använda HTTPS. Mer information finns i [Konfigurera SSL för att skydda anslutningen till Business Central webbklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Om du konfigurerar servern så att den har en annan startsida kan du alltid ändra URL-adressen. Klientens hemlighet kommer att sparas som en krypterad sträng i databasen.  
+Om du vill ansluta med ett Azure Active Directory (Azure AD)-konto måste du registrera ett program i Azure AD och ange program-ID, nyckelvalvhemlighet och URL för omdirigering som ska användas. URL-adressen för omdirigering fylls i förväg och bör användas för de flesta installationer. Du måste ställa in installationen för att använda HTTPS. Mer information finns i [Konfigurera SSL för att skydda anslutningen till Business Central webbklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Om du konfigurerar servern så att den har en annan startsida kan du alltid ändra URL-adressen. Klientens hemlighet kommer att sparas som en krypterad sträng i databasen. 
+
+### <a name="prerequisites"></a>Förutsättningar
+
+Dataverse måste använda någon av följande autentiseringstyper:
+
+- Office 365 (äldre)
+
+  > [!IMPORTANT]
+  > Från och med april 2022 kommer Office 365 (äldre) inte längre att stödjas. Mer information finns i [Viktiga ändringar (utfasningar) som kommer i Power Apps, Power Automate och kundengagemangsappar](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+- Office365 (modern, OAuth2-klienthemlighetsbaserad)
+- OAuth
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Dataverse
 

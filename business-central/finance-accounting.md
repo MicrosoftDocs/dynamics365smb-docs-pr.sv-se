@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391255"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780941"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Revisorupplevelse i Financials [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -92,7 +92,7 @@ Revisorn får ett e-postmeddelande som meddelar dem att de har fått åtkomst ti
 
 1. Öppna det [!INCLUDE[prod_short](includes/prod_short.md)]-företag som du vill ge revisorn åtkomst till på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Användare** och välj sedan relaterad länk.  
-3. Välj åtgärden **Skaffa nya användare från Office 365**.
+3. Välj åtgärden **Skaffa nya användare från Microsoft 365**.
 
 Detta importerar användarkontot som du skapade i Azure-portalen till företaget. Mer information finns i [S¨här lägger du till en användare i Business Central](ui-how-users-permissions.md#adduser).  
 

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: eb7e0d0d082d8a86ce61b6dffab46ce6248a29d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493234"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782285"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Skapa avskrivning för anläggningstillgång
 
@@ -26,7 +26,7 @@ Efter att du har skapat de avskrivningsregler som behövs måste du koppla en el
 
 I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgång ska skrivas av. Om du vill använda olika avskrivningsmetoder kan du skapa flera avskrivningsregler.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avskrivningsregler** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **avskrivningsregler** och välj sedan relaterad länk.
 2. På sidan **Lista över avskrivningsregler** väljer du åtgärden **Ny**.
 3. På sidan **Avskrivningsregelkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgå
 Om du till exempel avyttrar en anläggningstillgång där avskrivningsregeln inte anger avrundning men företagets redovisningsinställningar kräver avrundning, visas ett felmeddelande om att ett belopp måste avrundas på en redovisningstransaktion när du avyttrar anläggningstillgången.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Att tilldela en avskrivningsregel till en anläggningstillgång.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Välj anläggningstillgången som du vill skapa avskrivningsregeln för anläggningstillgångar för.
 3. I snabbfliken **Avskrivningsregelkort** fyller du i fälten efter behov.
 4. Om du vill använda mer än en avskrivningsregel till anläggningstillgången väljer du åtgärden **Lägg till flera avskrivningsregler**.
@@ -87,7 +87,7 @@ För varje avskrivningsregel anger du en standardinställning för mallar och jo
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

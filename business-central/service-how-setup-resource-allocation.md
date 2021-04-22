@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6cd246809d6b05f87c131c584267551938f74810
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6799f3c92bb41404b4510b03a26601419e2dbb4c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392530"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772385"
 ---
 # <a name="set-up-resource-allocation"></a>Så här skapar du resursfördelningar
 För att säkerställa att en serviceuppgift utförs är det viktigt att hitta en resurs som är kvalificerad att göra arbetet. Du kan ställa in [!INCLUDE[prod_short](includes/prod_short.md)] så att det är enkelt att allokera någon som har rätt kunskaper för projektet. I [!INCLUDE[prod_short](includes/prod_short.md)] kallas detta _resursfördelning_. Du kan fördela resurser utifrån deras kunskaper, tillgänglighet, eller om de finns i samma servicezon som kunden. 

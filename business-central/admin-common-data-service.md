@@ -7,18 +7,18 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 1cc9f712994c1b612b7e390a0281b823889a8bf9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.date: 04/01/2021
+ms.openlocfilehash: 8ddf4413b6ecb35bcca9873ef4bb99db75642563
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378654"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773135"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrera med Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-I företagsappar används ofta data från mer än en källa. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombinerar data till en enda logikuppsättning som gör det enklare att ansluta andra Dynamics 365-program, t. ex. [!INCLUDE[crm_md](includes/crm_md.md)] eller ett eget program som bygger på [!INCLUDE[prod_short](includes/cds_long_md.md)], till [!INCLUDE[prod_short_md](includes/prod_short.md)]. Mer information om [!INCLUDE[prod_short](includes/cds_long_md.md)] finns i [Vad är Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+I företagsappar används ofta data från mer än en källa. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombinerar data till en enda logikuppsättning som gör det enklare att ansluta andra Dynamics 365-program, t. ex. [!INCLUDE[crm_md](includes/crm_md.md)] eller ett eget program som bygger på [!INCLUDE[prod_short](includes/cds_long_md.md)], till [!INCLUDE[prod_short_md](includes/prod_short.md)]. Mer information om [!INCLUDE[prod_short](includes/cds_long_md.md)] finns i [Vad är Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 Följande steg ger en översikt över hur du integrerar [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -32,7 +32,7 @@ Följande steg ger en översikt över hur du integrerar [!INCLUDE[prod_short](in
 3. Synkronisera data mellan apparna. Mer information finns i [Synkronisera Business Central och Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-prod_short"></a>Komma igång med [!INCLUDE[prod_short](includes/cds_long_md.md)]
-För att komma igång med [!INCLUDE[prod_short](includes/cds_long_md.md)] behöver du ett Microsoft Power Apps-konto. Om du inte redan har ett Power Apps-konto kan du få ett gratis genom att besöka [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) och välja länken **Kom igång gratis**. För mer information om hur du kommer igång med [!INCLUDE[prod_short](includes/cds_long_md.md)], se modulen [Komma igång med Dataverse](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) från Microsoft Learn.
+För att komma igång med [!INCLUDE[prod_short](includes/cds_long_md.md)] behöver du ett Microsoft Power Apps-konto. Om du inte redan har ett Power Apps-konto kan du få ett gratis genom att besöka [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) och välja länken **Kom igång gratis**. För mer information om hur du kommer igång med [!INCLUDE[prod_short](includes/cds_long_md.md)], se modulen [Komma igång med Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) från Microsoft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Dubbelriktad eller enkelriktad datasynkronisering
 Beroende på ditt företags behov kan du ställa in integreringen för att synkronisera data antingen till eller från en Dynamics 365-affärsapp till en annan, eller i båda riktningarna i närapå realtid via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Om du t. ex. integrerar [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] med hjälp av [!INCLUDE[prod_short](includes/cds_long_md.md)] kan en säljare skapa en försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] och ordern synkroniseras till [!INCLUDE[prod_short](includes/prod_short.md)]. Från [!INCLUDE[crm_md](includes/crm_md.md)] kan säljaren å andra sidan se information från [!INCLUDE[prod_short](includes/prod_short.md)] som berör tillgängligheten för artikeln på ordern. 

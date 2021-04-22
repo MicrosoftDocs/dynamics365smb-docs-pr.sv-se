@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381221"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773536"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
@@ -76,7 +76,7 @@ Ange ordet for idag på det språk som anges i inställningen **språk** som ska
 
 ### <a name="period"></a>Period
 
-Om du vill filtrera efter en viss redovisningsperiod i ett datumfält skriver du in p eller ordet period, följt av ett nummer som identifierar bokföringsperioden som p2 eller period4. Bokföringsperioden är i förhållande till räkenskapsåret för det aktuella arbetsdatumet som angetts i ditt rollcenter. Om arbetsdatumet är till exempel **20-03-21**, då är p1, eller bara p filter på den första perioden på räkenskapsåret 2020 (såsom 20-01-01..20-01-31). p15 filter för femtonde bokföringsperioden från början av år 2020 (såsom 21-03-01..21-03-31).
+Om du vill filtrera efter en viss redovisningsperiod i ett datumfält skriver du in p eller ordet period, följt av ett nummer som identifierar bokföringsperioden som p2 eller period4. Bokföringsperioden är i förhållande till räkenskapsåret för det aktuella arbetsdatumet som angetts i ditt rollcenter. Om arbetsdatumet är till exempel **22-03-21**, då är p1, eller bara p filter på den första perioden på räkenskapsåret 2022 (såsom 22-01-01..20-01-31). p15 filter för femtonde bokföringsperioden från början av år 2022 (såsom 23-03-01..21-03-31).
 
 Bokföringsperioder definieras på sidan **Bokföringsperioder**. Om du vill visa eller ändra bokföringsperioderna, öppna sidan [här](https://businesscentral.dynamics.com/?page=100).
 
@@ -102,12 +102,12 @@ Följande tabell innehåller exempel på datum med alla format. Det förutsätte
 
 |**Format**      |**Tolkning**      |
 |---------------|------------------------|
-|2018.12.31.|2018-12-31.|
-|181231|2018-12-31.|
-|18.12.31.|2018-12-31.|
-|18.12.31.|2018-12-31.|
-|20181231|2018-12-31.|
-|18/12,31|2018-12-31.|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|arbetsdatum år-arbetsdatum månad-11.|
 |1112|arbetsdatum år-11-12.|
 |d eller dagens datum|dagens datum|
@@ -194,7 +194,7 @@ Följande exempel visar hur du använder ett minustecken för att ange ett datum
 |-1Å|1 år sedan från idag|
 
 > [!IMPORTANT]
->  Om lagerstället använder en baskalender, tolkas datumformeln som du anger i t. ex. fältet **Leveranstid** enligt kalenderarbetsdagar. Till exempel betyder 1V sju arbetsdagar.
+> Om lagerstället använder en baskalender, tolkas datumformeln som du anger i t. ex. fältet **Leveranstid** enligt kalenderarbetsdagar. Till exempel betyder 1V sju arbetsdagar.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -315,35 +315,8 @@ Du kan inte använda 24:00 som midnatt eller välja ett värde som är större �
 Ordet för ”tid” på det språk som används av [!INCLUDE[prod_short](includes/prod_long.md)] utvärderas till aktuell tid på din dator eller mobil enhet. Du kan skriva in alla ord, från början, såsomt eller TIM.
 
 ## <a name="entering-combined-dates-and-times"></a>Ange kombinerade datum och tider
-När du anger datum och tid som datum och tid som kombineras till ett enda fält, måste du ange ett blanksteg mellan datumet och tiden. Datumdelen kan bara innehålla blanksteg i form av officiella datumavgränsare för din regionsinställning. Tiden kan innehålla blanksteg runt AM/PM-indikatorn.
 
-Det är också möjligt att endast ange ett datum i ett fält för datum och tid, men det går inte att ange endast en gång.
-
-I följande tabell visas några exempel på kombinationer av datum/tid. Regioninställningarna i exemplen visar datum i dags\-månads\-årsformat med AM/PM-beteckningar, engelska språket och söndag som veckans början.
-
-|**Format**      |**Tolkning**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08\-01\-2016 17:48:12|
-|131202 132455|13\-12\-2002 13:24:55|
-|1-12-02 10|01\-12\-2002 10:00:00|
-|1.12.02 5|01\-12\-2002 05:00:00|
-|1.12.02|01\-12\-2002 00:00:00|
-|11 12|11\-arbetsdatum månad\-arbetsdatum år 12:00:00|
-|1112 12|11\-12\-arbetsdatum år 12:00:00|
-|d eller dagens datum|dagens datum 00:00:00|
-|d 10:30|dagens datum 10:30:00|
-|d 03:03:03|dagens datum 03:03:03|
-|a eller arbetsdagens datum|arbetsdagens datum 00:00:00|
-|m eller måndag|Måndag av arbetsdatumets vecka 00:00:00|
-|ti eller tisdag|Tisdag av arbetsdatumets vecka 00:00:00|
-|lö eller lördag|Lördag av arbetsdatumets vecka 00:00:00|
-|s eller söndag|Söndag av arbetsdatumets vecka 00:00:00|
-|ti 10:30|Tisdag av arbetsdatumets vecka 10:30:00|
-|ti 03:03:03|Tisdag av arbetsdatumets vecka 03:03:03|
-|t23 t|Tisdag i en vecka 23 av arbetsdatumets år, aktuell tid på dagen|
-|t23|Tisdag av vecka 23 arbetsdatumets år|
-|t 23|Idag 23:00:00|
-|t-1|Tisdag av vecka 1 arbetsdatumets år|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Ange varaktighet
 Vissa fält i programmet representerar en varaktighet eller mängden förfluten tid, i stället för ett visst datum eller tid. Du anger varaktigheten som en siffra följd av en enhet.

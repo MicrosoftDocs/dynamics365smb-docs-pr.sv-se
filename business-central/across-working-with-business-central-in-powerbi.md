@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384155"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786913"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
-I denna artikel lär du dig det grundläggande inom att arbeta med rapporter och instrumentpaneler i Power BI som använder [!INCLUDE [prod_short](includes/prod_short.md)] som datakälla. Artikeln beskriver vissa aspekter som hjälper dig komma igång som [!INCLUDE[prod_short](includes/prod_short.md)]-användare. För allmänna instruktioner och riktlinjer för hur du använder Power BI, se [Power BI-dokumentation för konsumenter](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+I denna artikel lär du dig det grundläggande inom att arbeta med rapporter och instrumentpaneler i Power BI som använder [!INCLUDE [prod_short](includes/prod_short.md)] som datakälla. Artikeln beskriver vissa aspekter som hjälper dig komma igång som [!INCLUDE[prod_short](includes/prod_short.md)]-användare. För allmänna instruktioner och riktlinjer för hur du använder Power BI, se [Power BI-dokumentation för konsumenter](/power-bi/consumer).
 
 ## <a name="get-ready"></a>Gör dig redo
 
@@ -86,11 +86,11 @@ Om du vill dela en rapport väljer du **Dela** i en listrapport eller en öppen 
 [Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
 [Power BI för konsumenter](/power-bi/consumer/end-user-consumer)  
 [Det "nya utseendet" på Power BI-tjänsten](/power-bi/service-new-look)  
-[Snabbstart: Ansluta till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Dokumentation om Power BI](/power-bi/)  
 [Affärsstöd](bi.md)  
-[Komma igång](product-get-started.md)  
-[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acdff4ac5879ee3b9c4237d4bcf6e2d30af72dff
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3b435d1e9edae7a13514786f2de51e32237aaf94
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380512"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783565"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Hantera budgetar för anläggningstillgångar
 Du kan skapa budgeterade anläggningstillgångar. På så sätt kan du t. ex. inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.  
@@ -29,7 +29,7 @@ När du förbereder en budget måste du skapa anläggningstillgångskort för de
 
 När du bokför anskaffningskostnaden, anger du numret på den budgeterade fasta anläggningstillgången i fältet **Budgeterat anl.nr.** På så sätt bokförs en anskaffningskostnad med ett motsatt tecken för den budgeterade tillgången. Detta innebär att den totala anskaffningskostnaden för den budgeterade tillgången är mellanskillnaden mellan den budgeterade och den verkliga anskaffningskostnaden.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan tillhörande länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Anläggningstillgångar** och välj sedan tillhörande länk.
 2. Välj åtgärden **Ny** för att skapa ett nytt anläggningstillgångskort för den budgeterade anläggningstillgången.
 3. Markera kryssrutan **Budgeterad anläggningstillgång** så förhindras bokföring i redovisningen.
 4. Fyll i de återstående fälten, tilldela en avskrivningsregel och bokför sedan den första anskaffningskostnaden med budgeterade anläggningstillgången som anges i fältet **Budgeterat anl.nr.** på journalraden. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).
@@ -37,7 +37,7 @@ När du bokför anskaffningskostnaden, anger du numret på den budgeterade fasta
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>För att budgetera avyttringen av en anläggningstillgång:
 Om du planerar att sälja tillgångar under budgetperioden kan du föra in uppgifter om försäljningspris och försäljningsdatum.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
 2. Markera den anläggningstillgång som du vill avyttra och välj sedan åtgärden **Avskrivningsregler**.
 3. På sidan **Avskrivningsregler för anl.tillg.**, fyll i fälten **Planerat avyttringsdatum** och **Planerad avyttringsintäkt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -61,7 +61,7 @@ Du kan använda rapporten **Anl.tillg. – planerat värde** för att beräkna f
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
