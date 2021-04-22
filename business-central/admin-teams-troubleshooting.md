@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385205"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882180"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 I den här artikeln finns information om hur du identifierar och åtgärdar problem som kan uppstå när du använder Microsoft Teams med [!INCLUDE [prod_short](includes/prod_short.md)] som en typisk användare eller administratör.
+
+## <a name="the-sign-in-link-doesnt-work"></a>Inloggningslänken fungerar inte
+
+Om du försöker logga in på [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen för Teams direkt efter att du installerat appen och inloggningslänken inte reagerar, kan det bero på att appen inte har slutfört installationen helt. Du kan försöka åtgärda problemet genom att logga ut från Teams-klienten och sedan logga in igen.
+
+## <a name="the-settings-page-is-empty"></a>Sidan Inställningar är tom.
+
+Du måste först logga in för att komma åt dina inställningar. Om du vill logga in på appen kan du antingen klistra in en länk till en [!INCLUDE [prod_short.md](includes/prod_short.md)]-post eller söka efter kontakter. Båda dessa åtgärder kommer att leda dig genom en inloggningsupplevelse, där du kan använda sidan **Inställningar**.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Jag ändrade företaget, men det verkar inte fungera
+
+När du har ändrat företaget på sidan **Inställningar** kanske du märker att du fortfarande söker i det föregående företaget. Problemet uppstår när du öppnar sidan **Inställningar** direkt från kommandorutan. I det här fallet har företaget ändrats och du kommer i praktiken att söka i det företag som du har växlat till. Problemet är att den nedrullningsbara kommando rutan inte har uppdaterats ännu. För att den nedrullningsbara listen ska motsvara det företag som du ska söka i, stänga eller ta bort [!INCLUDE [prod_short.md](includes/prod_short.md)] från kommandorutan och sedan öppna appen igen.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>"Något gick fel" visas vid sökning efter kontakter
+
+Det här felet kan uppstå när du söker i ett företag som inte har initierats eller inte svarar. Du kan till exempel inte söka i ett nytt testföretag som ännu inte accepterat användningsvillkoren. Lös problemet genom att logga in på [!INCLUDE [prod_short.md](includes/prod_short.md)] webbklienten och arbeta på eller stänga alla dialogrutor som visas.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>"Det gick inte att hitta kontakter-API vid sökning efter kontakter
+
+Det här problemet kan bero på anpassningar eller bransch lösningar som påverkar, ändrar eller inte anger något kontakt-API i [!INCLUDE [prod_short.md](includes/prod_short.md)]. Kontakta administratören eller supportpartnern om problemet kvarstår.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Ingen av länkarna expanderas till ett kort 
 
@@ -36,7 +59,7 @@ Om du har drabbats av det här problemet kan du göra följande:
 
 2. Kontrollera sedan att du har loggat in med rätt identitet.
 
-    Gå till valfri chatt i Teams och välj sedan ikonen [!INCLUDE [prod_short](includes/prod_short.md)] under meddelanderutan. När fönstret visas kontrollerar du om användaren det står att du är ansluten som matchar vad du använder för att ansluta till [!INCLUDE [prod_short](includes/prod_short.md)].
+    Gå till valfri chatt i Teams och under meddelanderutan högerklickar du på ikonen [!INCLUDE [prod_short](includes/prod_short.md)] och väljer sedan **Inställningar**. När fönstret visas kontrollerar du om användaren det står att du är ansluten som matchar vad du använder för att ansluta till [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Se till att codeunit 2718 **Leverantör av sidsammanfattning** publiceras som en webbtjänst.
 
@@ -48,9 +71,8 @@ Om du har drabbats av det här problemet kan du göra följande:
 
 En länk utökas inte till ett kort i följande situationer:
 
-- Länken riktar sig till en sidtyp som inte representerar någon post. Det kan till exempel vara en länk till rollcentret för [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan kontrollera sidtypen med hjälp av sid granskningsfönstret i webbklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information om sidgranskning finns i [Inspektera sidor](across-inspect-page.md).
-- Länken riktar sig till en sida som (på teknisk nivå) inte är kopplad till en källtabell i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan kontrollera om sidtypen har en källtabell med hjälp av sidgranskningsfönstret i webbklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information om sidgranskning finns i [Inspektera sidor](across-inspect-page.md). 
-- Teams stöder inte förhandsgranskning av länkar i vissa funktioner. När du t. ex. visar en chatt, är på ett möte eller är gäst till en annan organisation.
+- Länken riktar sig till en sida som (på teknisk nivå) inte är kopplad till en källtabell i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan kontrollera om sidtypen har en källtabell med hjälp av sidgranskningsfönstret i webbklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information om sidgranskning finns i [Inspektera sidor](across-inspect-page.md).
+- Teams stöder inte förhandsgranskning av länkar i vissa funktioner. När du t. ex. visar en chatt eller är gäst till en annan organisation.
 - Teams överger tyst sina försök att visa kortet efter 15 sekunder, till exempel på grund av nätverksproblem.
 - Teams expanderar eventuellt inte länken om du redan har klistrat in en länk i samma meddelanderuta och tagit bort kortet.
 
@@ -66,10 +88,6 @@ Som exempel:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 För teknisk information om [!INCLUDE [prod_short](includes/prod_short.md)]-URL-adresser, se [Webbklientens URL-adress](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) i [!INCLUDE [prod_short](includes/prod_short.md)]-hjälpen för utvecklare och IT-proffs.
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>Kortet visas i meddelanderutan, men om du markerar knappen Detaljer händer ingenting 
-
-När en länk expanderas till ett kort i meddelanderutan måste du skicka meddelandet till chatten innan du kan använda knappen **Dtaljer**.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Informationsfönstret öppnas, men visar ett fel innan informationen visas
 
@@ -89,7 +107,7 @@ Detta problem kan orsakas av ett antal olika saker: brist på behörighet i [!IN
 
     Mer information om minimikraven för webbläsare finns i [Minimikrav för användning av [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Jag har problem med kameran eller platsen i Teams 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Jag har problem med kameran eller platsen i Teams
 
 När du använder [!INCLUDE [prod_short](includes/prod_short.md)]-funktioner i informationsfönstret som kräver åtkomst till din plats eller din enhets kamera, måste du först ge Teams åtkomst till dessa enhetsfunktioner.  
 

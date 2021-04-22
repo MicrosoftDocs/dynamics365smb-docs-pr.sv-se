@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 34d8ae185ba705e42c700a0c2089dea77351cee6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379179"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882136"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams
 
@@ -24,6 +24,10 @@ ms.locfileid: "5379179"
 I den här artikeln lär du dig hur du installerar [!INCLUDE [prod_short](includes/prod_short.md)]-appen för [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Appen är tillgänglig på Team-marknaden, och du kan använda den med appen Team för webben, stationära enheter eller mobila enheter.
 
 ## <a name="prerequisites"></a>Förutsättningar
+
+- Ett [!INCLUDE [prod_short](includes/prod_short.md)] online användarkonto krävs för [!INCLUDE [prod_short](includes/prod_short.md)]-app för Teams.
+
+    Om du inte är säker på om du har ett konto eller om du inte känner till dina autentiseringsuppgifter för att logga in, kontaktar du företagsadministratören för att få hjälp med att komma i gång.
 
 - Åtkomst till den stationära Teams-appen eller Teams i webbläsaren. Du kan inte installera [!INCLUDE [prod_short](includes/prod_short.md)] med hjälp av Teams-mobilappen.
 
@@ -43,7 +47,7 @@ Det här alternativet är det snabbaste sättet att installera appen.
 
     ![Installera Business Central-appen i Team](media/teams-install-app.png)
 
-3. Välj **Lägg till för mig**.
+3. Välj **Lägg till**.
 
 **Alternativ 2**
 
@@ -51,7 +55,10 @@ Det här alternativet är det snabbaste sättet att installera appen.
 2. På vänster sida väljer du **Appar**.
 3. Sök efter **Business Central**.
 4. Välj appen när du hittar den.
-5. Välj **Lägg till för mig**.
+5. Välj **Lägg till**.
+
+> [!NOTE]
+> Med båda alternativen kan du uppmanas att logga in på [!INCLUDE [prod_short](includes/prod_short.md)]. Markera länken **logga in** och följ instruktionerna för att ange inloggningsnamn och lösenord för [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Nästa steg
 

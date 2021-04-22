@@ -1,5 +1,5 @@
 ---
-title: Business Central Intelligent moln-tillägg för molnmigrering | Microsoft Docs
+title: Tillägget Molnmigrering
 description: Använd tilläggen för molnmigrering för att migrera lokala data till Business Central online. Dessa tillägg flyttar dina lokala data till molnet så att du kan använda Business Central online med befintliga data.
 author: jenolson
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377354"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889130"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligenta molntillägg för migrering av moln
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Tillägg för molnflyttning för migrering till Business Central Online
 
 Beroende på din lokala lösning måste du använda olika tillägg för att ansluta dina data till [!INCLUDE[prod_short](includes/prod_short.md)] online för att migrera din lösning till molnet.  
 
@@ -43,8 +43,7 @@ Om du använder Dynamics SL, skaffa tillägget **Intelligent moln-bas**, tilläg
 
 ## <a name="see-also"></a>Se även
 
-[Intelligenta insikter](about-intelligent-cloud.md)  
-[Tillägget intelligent moln-bas](ui-extensions-intelligent-cloud.md)  
-
+[Tillägget Bas för molnmigrering](ui-extensions-intelligent-cloud.md)  
+[Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

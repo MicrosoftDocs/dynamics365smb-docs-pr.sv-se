@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385955"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5870004"
 ---
 # <a name="create-number-series"></a>Skapa nummerserier
 För varje företag som du lägger upp måste du tilldela unika ID-koder till exempelvis redovisningskonton, kund- och leverantörskonton, fakturor och dokument. Numrering är viktigt inte enbart för identifiering. Ett adekvat numreringssystem gör också företaget mer hanterbart och enkelt att analysera, och kan minska antalet fel som uppstår vid datainmatning.
@@ -29,6 +29,9 @@ Om du vill tillåta luckor i vissa nummerserier ska du först samråda med revis
 >   Vi rekommenderar att du använder samma nummerserie som du ser på sidan **Nr-serielista** i demonstrationsföretaget CRONUS. Koder som *P-INV+* kanske inte passar direkt, men [!INCLUDE[prod_short](includes/prod_short.md)] har flera standardinställningar som hör ihop med dessa nummerseriekoder.
 
 Du skapar ett numreringssystem genom att skapa en eller flera koder för varje typ av huvuddata eller dokument. Du kan till exempel skapa en kod för numrering av kunder, en annan för numrering av försäljningsfakturor och en annan för numrering av dokument i redovisningsjournaler. När du har skapat en kod måste du ställa in minst en nummerserierad. Nummerserieraden innehåller information som första och sista nummer i serien och startdatum. Du kan registrera flera nummerserierader per nummerseriekod, med olika startdatum på varje rad. Nummerserierna används löpande, med början på respektive startdatum.
+
+> [!NOTE]
+> Den maximala längden för ett tal i nummerserien är 20 tecken. I vissa situationer där [!INCLUDE[prod_short](includes/prod_short.md)] läggs ett nummer till med ett systemgenererat ID. När exempelvis dokument som t.ex. fakturor används för att koppla transaktioner, t.ex. betalningar, [!INCLUDE[prod_short](includes/prod_short.md)] genereras identifierare för de transaktioner som tillämpas. Identifieraren består av ett nummer från en nummerserie och ett sex tecken som tilldelats systemet, t.ex. -12345. Om du förväntar dig att hantera fler än 9999 dokument i bank- eller GIRO-journaler, eller inbetalningsjournaler, anger du nummerserier för dessa dokument typer så att de innehåller färre än 14 tecken.
 
 Du ställer normalt in nummerserier till att automatiskt infoga nästa nummer på nya kort eller dokument som du skapar. Men kan du också skapa en nummerserie för att manuellt ange det nya numret. Du anger detta med kryssrytan **Manuell numrering.**
 

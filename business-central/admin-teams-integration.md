@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386305"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882211"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,9 +35,10 @@ I det här avsnittet beskrivs minimikraven för att [!INCLUDE [prod_short](inclu
 
     |Vad|Team-licens|[!INCLUDE [prod_short](includes/prod_short.md)]-licens|
     |----|---|---|
+    |Söka efter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
     |Klistra in en länk till en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation och skicka den som ett kort.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
     |Visa ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bock](media/check.png "kontroll")||
-    |Visa mer information för ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
+    |Visa mer information för ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bockmarkering](media/check.png "kontroll")|![bockmarkering](media/check.png "kontroll")|
 
 - Tillåt förhandsgranskning av URL
 
@@ -49,8 +50,8 @@ Som Team-administratör kan du hantera alla appar för organisationen, inklusive
 
 Mer information finns i följande artiklar i Microsoft Teams-dokumentationen:
 
-- [Hantera dina appar i Microsoft Teams administratörscenter](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Hantera principer för appkonfiguration i Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Hantera dina appar i Microsoft Teams administratörscenter](/MicrosoftTeams/manage-apps)
+- [Hantera principer för appkonfiguration i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -58,7 +59,7 @@ Mer information finns i följande artiklar i Microsoft Teams-dokumentationen:
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-version:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] utgivningscykel 2 år 2020, uppdatering 17.3 eller senare. Team-integration stöds endast för [!INCLUDE [prod_short](includes/prod_short.md)] online, inte lokalt.
+    [!INCLUDE [prod_short](includes/prod_short.md)] utgivningscykel 1 år 2021 eller senare. Team-integration stöds endast för [!INCLUDE [prod_short](includes/prod_short.md)] online, inte lokalt.
 
 - Codeunit **2718 sidan sammanfattning leverantör** är publicerad som en webbtjänst:
 
@@ -66,8 +67,9 @@ Mer information finns i följande artiklar i Microsoft Teams-dokumentationen:
 
 - <a name="permissions"></a>Användarbehörigheter:
 
-    De sidor och data som användare kan visa och redigera i en Team-konversation styrs oftast av deras behörighet i [!INCLUDE [prod_short](includes/prod_short.md)].
+    Kontaktsökning, sidor och data som användare kan visa och redigera i en Team-konversation styrs oftast av deras behörighet i [!INCLUDE [prod_short](includes/prod_short.md)].
     
+    - Om användaren vill söka efter kontakter måste de ha minst läsbehörighet i tabellen **kontakter** . 
     - Om du vill klistra in en [!INCLUDE [prod_short](includes/prod_short.md)]-länk i en Team-konversation och låta den utökas till ett kort måste användarna åtminstone ha läsbehörighet på sidan och dess data.
     - När ett kort har skickats till en konversation kan alla användare i konversationen se det kortet utan behörighet till [!INCLUDE [prod_short](includes/prod_short.md)].
     - Om du vill visa mer information om ett kort eller öppna posten i [!INCLUDE [prod_short](includes/prod_short.md)] måste användarna ha läsbehörighet på sidan och dess data.
@@ -92,13 +94,13 @@ Du hindrar vissa användare eller grupper från att skicka kort till chattar ell
 
 Du kan också använda informationshinder för att förhindra att användare eller grupper kommunicerar med varandra. Mer information finns i [Informationshinder i Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Funktionerna för dataförlustskydd i säkerhets- och efterlevnadscentret för Microsoft 365r kan inte användas specifikt för kort. De kan emellertid tillämpas på de chattmeddelanden som innehåller korten. Information om hur du spårar kommande avancerade funktioner som innefattar att aktivera DLP för kort finns i [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Funktionerna för dataförlustskydd i säkerhets- och efterlevnadscentret för Microsoft 365r kan inte användas specifikt för kort. De kan emellertid tillämpas på de chattmeddelanden som innehåller korten. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Svara på dataförfrågningar
 
 Du tillåter gruppmedlemmar och gruppägare att ta bort meddelanden som innehåller känsliga kort genom att ställa in meddelandepolicye, t. ex. **Ägare kan ta bort skickade meddelanden** och **Användare kan ta bort skickade meddelanden**. Mer information finns i [Hantera meddelandepolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
 
-Funktionerna för innehållssökning och eDiscovery-efterlevnad i säkerhets- och efterlevnadscentret för Microsoft 365r kan inte tillämpas specifikt på kort. De kan emellertid tillämpas på de chattmeddelanden som innehåller korten. Information om hur du spårar de kommande funktionerna för regelefterlevnad för kort finns i [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Funktionerna för innehållssökning och eDiscovery-efterlevnad i säkerhets- och efterlevnadscentret för Microsoft 365 kan också tillämpas på kort.
 
 Eftersom kortdata i Teams är en kopia av data i [!INCLUDE [prod_short](includes/prod_short.md)] kan du också använda [!INCLUDE [prod_short](includes/prod_short.md)]-funktioner för att exportera en kunds data vid behov. Mer information om sekretess i [!INCLUDE [prod_short](includes/prod_short.md)] finns i avsnittet [Vanliga frågor och svar om sekretess för Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

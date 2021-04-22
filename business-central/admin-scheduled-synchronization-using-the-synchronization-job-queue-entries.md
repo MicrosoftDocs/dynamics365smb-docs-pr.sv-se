@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385330"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889211"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Schemalägga en synkronisering mellan Business Central och Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -72,7 +72,7 @@ Vissa jobbkötransaktioner, till exempel sådana som schemalägger synkroniserin
 
 När värdet i det här fältet inte är noll och jobbkön inte hittade några ändringar under den senaste körningen placerar [!INCLUDE[prod_short](includes/prod_short.md)] jobbkötransaktionen i jobbkön. När det inträffar visar fältet **Status för jobbkö** **Stoppad på grund av inaktivitet** och [!INCLUDE[prod_short](includes/prod_short.md)] kommer att vänta på den tidsperiod som angetts i **timeout för inaktivitet** innan jobbkötransaktionen körs igen.  
 
-Till exempel letar jobbkötransaktionen VALUTA som standard synkroniserar valutor i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med valutakurser i [!INCLUDE[prod_short](includes/prod_short.md)] efter förändringar i valutakurser var 30:e minut. Om inga ändringar hittas [!INCLUDE[prod_short](includes/prod_short.md)] spärras jobbkötransaktionen VALUTA i 720 minuter (sex timmar). Om en valutakurs ändras i [!INCLUDE[prod_short](includes/prod_short.md)] medan jobbkötransaktionen är spärrad kommer [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt att återaktivera jobbkötransaktionen och starta om jobbkön. 
+Till exempel letar jobbkötransaktionen VALUTA som standard synkroniserar valutor i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med valutakurser i [!INCLUDE[prod_short](includes/prod_short.md)] efter förändringar i valutakurser var 30:e minut. Om inga ändringar hittas [!INCLUDE[prod_short](includes/prod_short.md)] spärras jobbkötransaktionen VALUTA i 720 minuter (tolv timmar). Om en valutakurs ändras i [!INCLUDE[prod_short](includes/prod_short.md)] medan jobbkötransaktionen är spärrad kommer [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt att återaktivera jobbkötransaktionen och starta om jobbkön. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] aktiverar automatiskt jobbkötransaktioner som är spärrade när ändringar sker i [!INCLUDE[prod_short](includes/prod_short.md)]. Ändringar i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] kommer inte att aktivera jobbkötransaktioner.
