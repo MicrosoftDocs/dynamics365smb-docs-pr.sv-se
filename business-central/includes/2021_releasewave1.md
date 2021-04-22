@@ -1,0 +1,1 @@
+<span data-ttu-id="0b839-101"><Token> **GÄLLER:** Business Central 2021 utgivningscykel 1 år 2021 och senare</Token></span><span class="sxs-lookup"><span data-stu-id="0b839-101"><Token> **APPLIES TO:** Business Central 2021 release wave 1 and later</Token></span></span>
