@@ -1,0 +1,122 @@
+### YamlMime:FAQ
+metadata:
+  title: Vanliga frågor om listvyer
+  description: Detaljerad information om hur du sparar filter som listvyer.
+  author: mikebcMSFT
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
+  ms.devlang: na
+  ms.tgt_pltfrm: na
+  ms.workload: na
+  ms.search.keywords: list, filter, pane, views
+  ms.date: 04/01/2021
+  ms.author: mikebc
+  ms.openlocfilehash: 4406c6a87826dcbc4626bc48db86d1f9d3635ccf
+  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.translationtype: HT
+  ms.contentlocale: sv-SE
+  ms.lasthandoff: 05/11/2021
+  ms.locfileid: "6017318"
+title: Vanliga frågor om listvyer
+summary: I den här artikeln besvaras frågor som våra erfarna användare ofta ställer om att arbeta med listvyer och spara filter.
+sections:
+- name: Har ignorerats
+  questions:
+  - question: >
+      Hur hanterar vyer uttryck?
+    answer: >
+      När du sparar en vy som innehåller filter med uttryck (t. ex. datumintervall, operatorer, nyckelord eller filterspecifikationer) sparas endast uttrycket &mdash; inte resultatvärdena. Om du till exempel sparar en vy som filtrerar efter fältet **Skapat datum** med uttrycket `-1W..today` kommer detta alltid att leda till att poster relaterade till aktuellt datum hittas, även när vyn öppnas först nästa månad.
+  - question: >
+      Var sparas listvyer?
+    answer: >
+      På samma sätt som du döljer ett fält eller sorterar om navigeringsmenyn är listvyn en del av användaranpassningen och lagras i databasen. Om du avmarkerar all anpassning i en lista kommer dina personliga vyer och ytterligare anpassningar också att tas bort permanent , till exempel omordning av vyer. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
+  - question: >
+      Varför har jag inte någon Spara-ikon?
+    answer: >
+      Det finns ett flertal anledningar till varför du kanske inte ser ikonen Spara och alternativmenyn bredvid vyerna i filterrutan.
+
+
+      En orsak kan vara att anpassningar inte är aktiverade för din användarroll. I det här fallet har du fortfarande tillgång till systemvyer som utgör en standarddel av sidorna. Du kan ändra dessa vyer, t. ex. ändra eller lägga till filter. Du kan bara spara ändringarna. En annan orsak kan vara att sidan du tittar på är av sidtypen *kalkylblad* &mdash; ingen lista.
+  - question: >
+      På vilka sidtyper kan jag använda listvyer?
+    answer: >
+      Vyer är bara tillgängliga på listsidor.
+  - question: >
+      Hur vet jag om jag befinner mig på en listsida?
+    answer: >
+      Använd sidinspektion. Om du vill öppna sidinspektionen trycker du på Ctrl + Alt + F1. I fältet **Sida** söker du sedan efter ordet **Lista** i parentesen i slutet.
+  - question: >
+      Finns det även vyer för andra formulärfaktorer?
+    answer: >
+      Ja. Alla vyer som du sparar i din webbläsare eller på en stationär dator kommer också att vara tillgängliga på din surfplatta eller smartphone. Du kan inte ändra eller anpassa vyer på mobila enheter.
+  - question: >
+      Är mina personliga vyer alltid tillgängliga?
+    answer: >
+      Dina vyer är tillgängliga på en listsida oavsett om du öppnar den från navigeringsmenyn, via fönstret **Berätta** eller via en URL-länk. Vyer är inte tillgängliga i listdelar, sökningar eller när en listsida visas som en dialog.
+  - question: >
+      Hur återställer jag de ursprungliga filtren i en vy när jag har ändrat dem?
+    answer: >
+      Längst ned i filterrutan väljer du åtgärden **återställ filter** för att ta bort filterändringar som du har gjort i vyn och återgår till de ursprungliga filtrerade fälten och filtervillkoren.
+  - question: >
+      Vad är skillnaden mellan att dölja och ta bort vyer?
+    answer: >
+      Om du tar bort en vy tas vyn bort permanent. Om du döljer en vy kan du tillfälligt dölja den i filterrutan, men du kan dölja den igen senare genom att välja åtgärden **Visa**.
+  - question: >
+      Hur gör jag för att dela mina vyer med andra?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller inget sätt att dela den exakta listvyn. Du kan emellertid dela med dig av de aktuella filtren så att andra användare kan se en liknande lista över poster. Kopiera helt enkelt URL-adressen till din stationära webbläsare och dela den med dina kollegor. Det går inte att garantera att delade filter ger mottagaren en identisk uppsättning filter som du ser i webbläsaren.
+  - question: >
+      Kan jag söka efter vyer i fönstret Berätta?
+    answer: >
+      Nr Fönstret **Berätta** visar endast sökresultat för sidan, men du är bara ett steg borta från att nå din favoritvy när du navigerar till sidan.
+  - question: >
+      Vad är delad layout?
+    answer: >
+      Alla vyer på en listsida delar en gemensam kolumnlayout. Layouten innehåller de kolumner som visas, dessas inställningar för sekvens, bredd, låst ruta och snabbinmatning. Om du anpassar en kolumnlayout påverkas även andra vyer som delar samma layout på listsidan.
+
+
+      Vissa systemvyer kan ha unika layouter för kolumnerna i listan. De kan t. ex. arrangera om kolumner så att endast de kolumner som är mest relevanta för den vyn visas. Du kan identifiera vilka vyer som har unik layout genom att välja ikonen ![Visa fler alternativ](media/show-more-options-icon.png "Visa fler alternativ") och observera att kryssrutan **Delad layout** inte är markerad. Som användare kan du anpassa kolumnlayouten för en vy med unik layout utan att påverka andra vyer på listsidan. Endast utvecklare kan definiera en unik kolumnlayout för en vy som ursprungligen har en delad layout.
+  - question: >
+      Vad gör länken Visa systemfilter?
+    answer: >
+      På vissa listsidor visar filterrutan **Visa systemfilter** längst ned, särskilt när sidan innehåller filter som anges av systemet. Dessa speciella filter används vanligtvis för att visa poster som baseras på det aktuella sammanhanget. Ett exempel på detta är när en orderlista måste filtreras för en specifik kund.
+
+
+      Systemfilter anges av app-utvecklare med hjälp av filtergrupp 0. Mer information om systemfilter finns i [Filtergruppmetod](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method).
+  - question: >
+      Det finns flera vyer på min sida, men jag har inte skapat dem. Varifrån kom de?
+    answer: >
+      De vyer som visas i en lista är en kombination av dina personliga vyer tillsammans med systemvyer. Systemvyer kan komma från affärsprogrammet, från tillägg eller kan vara rollspecifika om listan har anpassats för din roll.
+  - question: >
+      Varför ger vissa vyer färre alternativ?
+    answer: >
+      Vissa vyer ger bara möjlighet att spara en kopia av vyn, medan andra inte tillåter att ändringar sparas i vyn. Hur vyn skapades avgör vilka alternativ som är tillgängliga för vyn. Vyer kan skapas på flera sätt:
+
+
+      - Personliga vyer som du har sparat
+
+      - Systemvyer som är en standarddel av affärsprogrammet, eller läggs till via tillägg eller rollspecifika vyer. Till skillnad från personliga vyer kan du inte spara tillbaka ändringar av filter till den systemvyn.
+
+      - Äldre systemvyer som utgör en standarddel av affärsprogrammet men som har skapats med äldre versioner av [!INCLUDE[prod_short](includes/prod_short.md)]. Dessa vyer ger färre alternativ. Du kan bara spara dem som en ny vy – du kan inte dölja dem eller ändra ordningen på dem. Stödet för äldre systemvyer kommer att upphöra i en kommande uppdatering av [!INCLUDE[prod_short](includes/prod_short.md)].
+  - question: >
+      Hur konverterar jag äldre systemvyer?
+    answer: >
+      Äldre systemvyer är listvyer som har skapats av utvecklare i äldre versioner av [!INCLUDE[prod_short](includes/prod_short.md)] genom att placera dem på sidan rollcenter. Dessa vyer visas nu direkt på listsidan, men ger en försämrad upplevelse och färre alternativ. Du kan konvertera en äldre systemvy till en personlig vy som är helt anpassningsbar, genom att spara den äldre vyn som en ny vy. På samma sätt kan administratörer välja att konvertera rollspecifika äldre systemvyer genom att anpassa användar rollen och spara den äldre vyn som en ny rollbaserad vy.
+
+
+      Stödet för äldre systemvyer kommer att upphöra i en kommande uppdatering av [!INCLUDE[prod_short](includes/prod_short.md)].
+  - question: >
+      Andra i min organisation behöver liknande listvyer som standard. Vad kan jag göra?
+    answer: >
+      Det går snabbt och effektivt att arbeta med personliga vyer, men [!INCLUDE[prod_short](includes/prod_short.md)] ger även andra verktyg för att definiera de listvyer som behövs för specifika användarroller eller för alla användare i organisationen.
+       - Utvecklare kan anpassa miljön och skapa listvyer i tillägg för alla användare i organisationen.
+       - Icke-kodare som administratörer eller avdelningschefer kan skapa rollspecifika listvyer när de anpassar en roll från sidan **Profiler (roller)**.
+  - question: >
+      Du arbetar med flera språk: Hur gör jag för att översätta vyns namn?
+    answer: >
+      När du sparar en ny vy eller byter namn på en befintlig vy måste du ange ett igenkännligt och meningsfullt namn för vyn. Namnet sparas på det aktuella språket och visas också när du eller andra användare arbetar med [!INCLUDE[prod_short](includes/prod_short.md)] på olika språk. Om du vill översatta visningsnamn byter du språk med hjälp av sidan **Mina inställningar**. Byt sedan namn på vyn så att det översatta namnet lagras på det nya språket.
+  - question: >
+      Fungerar vyer med uttryck på alla språk?
+    answer: >
+      Uttryck som bara använder symboler, t. ex. `|` eller `..` betraktas som säkra för användare att komma åt på alla språk. Alla vyer med uttryck som innehåller bokstäver, nyckelord eller filter-token fungerar bara för det språk de har skapats på.
+additionalContent: "\n## <a name=\"see-also\"></a>Se även\n   [Spara och anpassa listvyer](ui-views.md)  \n   [Söka efter Funktioner och information](ui-search.md)  \n   [Sortera, söka och filtrera](ui-enter-criteria-filters.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"
