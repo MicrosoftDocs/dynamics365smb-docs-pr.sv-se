@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783778"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935292"
 ---
 # <a name="financial-reports-in-business-central"></a>Finansiella rapporter i Business Central
 
@@ -24,7 +24,6 @@ I följande tabell beskrivs några av de viktigaste rapporterna inom finansiell 
 
 |Rapportera |Beskrivning  |
 |---------|---------|
-|**Justera kostn. – artikeltrans.** | Justerar lagervärden i värdetransaktioner så att rätt justerad kostnad används när redovisningen uppdateras, samt att försäljnings- och vinststatistik är uppdaterad. Kostnadsjusteringen används för att flytta fram alla kostnadsändringar från ankommande transaktioner, t. ex. de för inköp eller produktionsutflöde, till relaterade avgående transaktioner, t. ex. försäljningar eller överföringar.  |
 |**Råbalans**| Visar kontoplanen med saldon och nettoförändringar. Du kan till exempel välja att visa råbalansen för markerade dimensioner. Du kan använda rapporten i samband med att du avslutar en bokföringsperiod eller ett räkenskapsår. |
 |**Råbalans per period**  | Visar det ingående saldot efter redovisningskonto, transporterna under den valda perioden (månad, kvartal och år) och den resulterande utgående balansen.         |
 |**Råbalans/Budget** | Visar en råbalans i jämförelse mot en budget. Du kan till exempel välja att visa råbalansen för markerade dimensioner. Du kan använda rapporten i samband med att du avslutar en bokföringsperiod eller ett räkenskapsår.        |

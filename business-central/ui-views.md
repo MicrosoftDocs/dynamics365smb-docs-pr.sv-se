@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772178"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017080"
 ---
 # <a name="save-and-personalize-list-views"></a>Spara och anpassa listvyer
 När du har angett ett filter för en lista och du vill behålla filtret för senare kan du spara det som en vy. Mer information om filtrerings listor finns i [ange filter för listor](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Om det finns vyer visas gruppen **vyer** högst upp i filterrutan. Vyer är vari
 Om du inte ger den ett namn får den namnet **Alla (kopia)**.
 
 > [!TIP]
-> Ser du inte ikonen ![Spara vy](media/save_view_icon.png "Spara vy")? Mer information finns i [Varför har jag inte någon Spara-ikon?](ui-views-faq.md#save).
+> Ser du inte ikonen ![Spara vy](media/save_view_icon.png "Spara vy")? Mer information finns i [Varför har jag inte någon Spara-ikon?](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Så här byter du namn på eller tar bort en vy
 1. För vyn som för närvarande visar listan väljer du ikonen ![Visa fler alternativ](media/show-more-options-icon.png "Visa fler alternativ") om du vil se tillgängliga alternativ.
@@ -45,7 +45,7 @@ Om du inte ger den ett namn får den namnet **Alla (kopia)**.
 När antalet vyer på en sida växer kan du behöva ytterligare kontroll över hur vyer visas i filterrutan. Med banderollen **Anpassa** kan du dölja oönskade vyer eller ändra ordning på vyerna så att du får den perfekta ordningen. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Se även
-[Vanliga frågor om listvyer](ui-views-faq.md)  
+[Vanliga frågor om listvyer](ui-views-faq.yml)  
 [Anpassa din arbetsyta](ui-personalization-user.md)    
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Ändra grundinställningar](ui-change-basic-settings.md)  

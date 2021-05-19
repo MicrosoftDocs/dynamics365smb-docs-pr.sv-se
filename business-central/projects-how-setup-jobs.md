@@ -1,5 +1,5 @@
 ---
-title: Ställa in projektpris projektbokföringsmallar | Microsoft Docs
+title: Ställ in projekt, priser och projektbokföringsmallar
 description: Beskriver hur du ställer in jobb för allmän information och ställer in priser för projektartiklar, resurser och redovisningskonton och projektbokföringsmallar.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,53 +8,54 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780463"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938077"
 ---
-# <a name="set-up-jobs"></a>Konfigurera projekt
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Ställ in projekt, priser och projektbokföringsmallar
 
 Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar i [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Projektinställningar** måste du ange hur du vill använda vissa projektfunktioner.
 
 För varje jobb, anger du de individuella de projektkorten med information om priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
 ## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektinställningar** och välj sedan tillhörande länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Projektinställningar** och välj sedan tillhörande länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Effekten för fältet **Använd förbrukningslänk som standard** är ganska komplex och förklaras därför i följande avsnitt.
+> Fältet **Tillämpa användningslänk som standard** indikerar om projekttransaktioner är länkade till projektplaneringsrader som standard. Välj fältet om du vill använda den här inställningen för alla nya projekt som du skapar. Du kan aktivera eller inaktivera spårning av projektförbrukning för ett visst projekt genom att ändra värdet i fältet **Använd förbrukningslänk** på det enskilda projektkortet. Konsekvenserna beskrivs i följande avsnitt.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Så här anger du projektförbrukningsspårning
 
-När du vill köra ett jobb, kan det hända att du vill veta hur förbrukningen spåras mot ditt plan. Det gör du enkelt genom att skapa en koppling mellan dina projektplaneringsrader och den faktiska förbrukningen. Detta gör att du kan spåra dina kostnader och enkelt visa hur mycket som återstår att göra. Som standard är projektplaneringsradtypen **Budget**, men radtypen **Både Budget och Fakturerbart** har liknande effekter.
+När du arbetar på ett projekt kan det hända att du vill veta hur förbrukningen spåras mot din plan. Det gör du enkelt genom att skapa en koppling mellan dina projektplaneringsrader och den faktiska förbrukningen. Detta gör att du kan spåra dina kostnader och enkelt visa hur mycket som återstår att göra. Som standard är projektplaneringsradtypen *Budget*, men radtypen **Både Budget och Fakturerbart** har liknande effekter.
 
-Om du väljer fältet **Använd förbrukningslänk som standard** kan du granska informationen på projektplaneringsraden. Du kan ange antal av resursen, artikeln eller redovisningskontot och sedan ange vilket antal som du vill överföra i projektjournalen. Fältet **Återstående antal** på projektplaneringsraden talar om vad som återstår att överföra och bokföra till projektjournalen.
+När du har ställt in användningsspårning genom att välja fältet **Använd förbrukningslänk** kan du granska informationen på projektplaneringsraden. Du kan ange antal av resursen, artikeln eller redovisningskontot och sedan ange vilket antal som du vill överföra till projektjournalen. Fältet **Återstående antal** på projektplaneringsraden talar om vad som återstår att överföra och bokföra till projektjournalen.
 
-> [!TIP]  
-> Du kan aktivera eller inaktivera projektförbrukningsspårning för ett visst projekt. Värdet på fältet **Använd förbrukningslänk** för de enskilda projekten åsidosätter inställningen på sidan **Projektinställningar**.  
-
-Om kryssrutan **Använd förbrukningslänk som standard** är markerad och projektplaneringsraden är av typen **Fakturerbart** skapas en projektplaneringsrad av typen **Budget** när du har bokfört projektjournalraden.
+>[!NOTE]
+> Om **Använd förbrukningslänk** har valts för det enskilda projektet och fältet **Radtyp** på projektjournalraden eller inköpsraden är *Fakturerbar*, skapas nya projektplaneringsrader av radtypen *Budget* när du bokför projektjournal eller inköpsdokument.  
+> Mer information finns i [Registrera förbrukning för projekt](projects-how-record-job-usage.md) och [Hantera projektleveranser](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Om projektförbrukningsspårning är aktiverad, antingen på sidan **Projektinställningar** eller på det individuella projektet och fältet **Radtyp** på projektjournalraden är tomt, skapas nya projektplaneringsrader av radtypen **Budget** när du bokför projektjournalrader.  
->  
-> Om projektförbrukningsspårning *inte* är aktiverad, antingen på sidan **Projektinställningar** eller på det individuella projektet och fältet **Radtyp** på projektjournalraden är tomt, skapas inga projektplaneringsrader när du bokför projektjournalrader. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
+> Om fältet **Radtyp** på projektjournalraden eller inköpsraden är tomt skapas inga projektplaneringsrader när du bokför projekt journalen eller inköpsdokumentet.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Projektinställningar** och välj sedan tillhörande länk.
-2. Markera kryssrutan **Använd förbrukningslänk som standard**.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>För att skapa priser för resurser, artiklar och redovisningskonton för jobb
 > [!NOTE]
-> I 2020 års utgivningscykel 2 släppte vi nya och effektiviserade processer för att ställa in och hantera priser och rabatter. Om du är en ny kund använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> I 2020 års utgivningscykel 2 släppte vi nya processer för att ställa in och hantera priser och rabatter. Om du är en ny kund använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Du kan skap priser för resurser, artiklar och redovisningskonton relaterade till ett jobb. 
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj jobbet och sedan åtgärden **Resurs**, **Artikel** eller **Redovisningskonto**.
 3. På sidorna fyller du i **Priser för jobbresurser**, **Priser för jobbartiklar** eller **Priser för jobbredovisningskonto** efter behov.
 
@@ -68,7 +69,7 @@ I följande tabell visas hur informationen i de valfria fälten används på pro
 
 ---
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och sedan åtgärden **Försäljningsprislistor**.
 
 ---
@@ -79,7 +80,7 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 > [!NOTE]  
 >   Nödvändiga konton i kontoplanen måste registreras innan du registrerar bokföringsmallar. Mer information finns i [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md).  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektbokföringsmallar** och välj sedan tillhörande länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), gå till **Projektbokföringsmallar** och välj sedan tillhörande länk.  
 2. Välj åtgärden **Ny** och fyll sedan i kontofälten enligt instruktionerna i följande tabell.  
 
 | Kontofält | Beskrivning |

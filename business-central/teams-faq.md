@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882236"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935217"
 ---
 # <a name="teams-faq"></a>Vanliga frågor och Svar om Teams
 
@@ -230,7 +230,7 @@ Ja. Sökning efter kontakter från Teams baseras på [!INCLUDE [prod_short.md](i
 
 När du har loggat in på [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen för Teams för första gången kommer appen att försöka bestämma ditt prioriterade företag i [!INCLUDE [prod_short.md](includes/prod_short.md)]. Om appen inte kan bestämma företaget måste du kanske gå till **Inställningarna** och välja det företag som du vill söka i. Denna situation inträffar exempelvis om du har tillgång till flera företag i olika miljöer i organisationen. I så fall måste du välja företag innan du kan börja söka.  
 
-Appen kan också be dig att besöka **Inställningarna** om du inte verkar ha någon [!INCLUDE [prod_short.md](includes/prod_short.md)]-prenumeration, inga [!INCLUDE [prod_short.md](includes/prod_short.md)]-miljöer eller på att ditt konto saknar [!INCLUDE [prod_short.md](includes/prod_short.md)]-licens.
+Appen kan också be dig att besöka **Inställningarna** om du inte har någon [!INCLUDE [prod_short.md](includes/prod_short.md)]-prenumeration, inga [!INCLUDE [prod_short.md](includes/prod_short.md)]-miljöer eller om ditt konto saknar [!INCLUDE [prod_short.md](includes/prod_short.md)]-licens.
 
 ### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Jag vill söka efter objekt eller poster från andra tabeller. Kan jag göra detta från Teams?
 

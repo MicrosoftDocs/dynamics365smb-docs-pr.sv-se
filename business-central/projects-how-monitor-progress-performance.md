@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d88424e055d42b829da769c12382d76e0b40014d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fac1c041108cacfcabf18b04d128949d05e1d283
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780538"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938127"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Övervaka projektframsteg och -resultat
 Allt eftersom ett projekt fortlöper används material och resurser och de, och andra kostnader, måste bokföras i projektet. Produkter i arbete (PIA) är en funktion som gör att du kan uppskatta värdet i projektet i redovisningen medan projekten pågår. I många fall kan du bokföra kostnader för ett projekt innan du fakturerar projektet. Om endast kostnader bokförts blir er finansiella rapport oriktig. Mer information finns i [Förstå PIA-metoder](projects-understanding-wip.md).
@@ -67,21 +67,23 @@ När du har beräknat PIA kan du bokföra det på balansräkningskonton för rap
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt – Bokför PIA i redovisning** och välj sedan tillhörande länk.  
 2. På sidan **Projekt – Bokför PIA i redovisning** fyller du i fälten efter behov.  
-3. Välj knappen **OK**.
+3. Välj **OK**.
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Så här visar du projektförbrukning och uppskattningar och bokföruppdateringar
-Du kan visa projektförbrukningen fram till projektet avslutas i ett steg. Det gör du genom att använda batch-jobbet **Projekt – Beräkna återstående förbrukning** för alla aktiviteter fram till och med projektets slut.  
+## <a name="to-calculate-and-post-job-completion-entries"></a>Beräkna och bokföra slutförda projekt
+När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen och faktureringen av förbrukning, måste du uppdatera projektet så att projektet får **Statusen** **Slutförd**. Sedan måste du återföra alla PIA som har bokförs i redovisningen.
 
-Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt resultat och göra ändringar eller nya transaktioner efter behov. Du kanske till exempel har uppskattat att ett projekt kräver tio timmar, och fram till dagens datum har det tagit 15 timmar. Du kan lägga till dessa extra fem timmar på den befintliga journalraden eller skapa en ny journalrad om du vill rapportera dessa fem timmar som övertid, som är en annan arbetstyp. Rätt kostnad och pris beräknas, och du kan sedan bokföra detta i journalen.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+2. Välj ett öppet projekt och välj sedan åtgärden **Redigera**.
+3. Markera **Slutförd** i fältet **Status** .
+4. Följ hjälpstegen steg för att beräkna och bokföra PIA. Följ alternativt steg 5 och 6 för att göra det manuellt.  
+5. Välj åtgärden **Beräkna PIA**.
+6. På sidan **Projekt – Beräkna PIA** fyller du i fälten efter behov.  
 
-> [!NOTE]  
->   Artikeltransaktioner skapar artikeltransaktioner och minskar lagerkvantiteten. Batch-jobbet **Bokför lagerkostnad i redov.** överför kostnaden från lagret till redovisningen. Resurstransaktioner skapar resurstransaktioner.  
+     De PIA-transaktioner för jobbet som skapas när du kör batch-jobbet kommer nu att ha fältet **Slutfört projekt** markerat för att visa att de är slutförda.  
+7. Välj åtgärden **Projekt – Bokför PIA i redovisning**.
+8. På sidan **Projekt – Bokför PIA i redovisning** fyller du i fälten efter behov.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
-2. Välj en relevant projektjournal och välj sedan åtgärden **Ber. återstående förbrukning**.  
-3. På sidan **Ber. återstående förbrukning** anger du dokumentnumret och bokföringsdatumet som ska infogas i journalen och väljer sedan knappen **OK**.  
-4. Uppdatera journalen med eventuella ändringar som kan behövas.  
-5. Välj **Bokföra**.
+     De PIA-transaktioner för jobbet som skapas när du kör batch-jobbet kommer nu att ha fältet **Slutfört projekt** markerat för att visa att de är slutförda.
 
 ## <a name="to-view-job-ledger-entries"></a>Så här visar du projekttransaktioner
 Alla projektrelaterade transaktioner registreras i bokförda projektjournaler och numreras i ordningsföljd med start från nummer ett. I den bokförda projektjournalen kan du få en överblick över alla projekttransaktioner.    

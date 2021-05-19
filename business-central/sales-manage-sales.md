@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a7d013ab7a630703b38163252359ba803140da9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773861"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935017"
 ---
 # <a name="sales"></a>FÖRS
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.
@@ -55,7 +55,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Du kan sälja monteringsartiklar som inte är tillgängliga genom att skapa en länkad monteringsorder för att tillhandahålla hela eller delvisa försäljningsorderantal.|[Sälja en artikel som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md)|
 |Fakturera kunder en gång för flera utleveranser genom att kombinera leveranser på en faktura.|[Kombinera leveranser på en enda faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Informera dina kunder om orderleveransdatum genom att beräkna antingen kapabel att lova-datum eller dispositionsdatum.|[Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)|
-|Registrera dina uppskattningar av framtida försäljning, som anges efter artikel och period, för att i huvudsak fungera som indata för produktionsplanering.|[Skapa en prognos](production-how-to-create-a-forecast.md)|
 |Lösa problem när det finns två eller flera poster för samma kund.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)

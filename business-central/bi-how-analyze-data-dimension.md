@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 418da0f0e30fb36345508f36e943b68c930e1ca7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770919"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947394"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysera data efter dimensioner
 Inom ekonomisk analys är en dimension data som du kan lägga till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Dimensioner kan användas på transaktioner i journaler, dokument och budgetar. Termen dimension används för att beskriva hur analyser utförs. Ett exempel på en tvådimensionell analys är försäljning per område. Om du använder fler än två dimensioner när du skapar en transaktion kan du utföra mer komplexa analyser, exempelvis försäljning per försäljningskampanj per kundgrupp per område. Mer information finns i [Arbeta med](finance-dimensions.md).
@@ -26,6 +26,9 @@ Att analyera data efter dimensioner ger dig bättre inblick i din verksamhet, s�
 
 > [!TIP]
 > Som ett snabbt sätt att analysera transaktionsdata med dimensioner kan du filtrera summorna i kontoplanen och posterna på alla sidor för **Transaktioner** per dimension. Sök efter åtgärden **Ange dimensionsfilter**.
+
+> [!NOTE]
+> Om du upptäcker att en felaktig dimension har använts på bokförda redovisningstransaktioner kan du korrigera dimensionsvärdena och uppdatera analysvyerna. Mer information finns i [Felsöka och korrigera dimensioner](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
 
 ## <a name="to-set-up-an-analysis-view"></a>Så här definierar du en analysvy  
 En analys per dimension visar en vald kombination av dimensioner. Du kan lagra och hämta alla analyser som har definierats. Informationen som används för att skapa en analys lagras på **analysvykortet** för att underlätta framtida analyser.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770644"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017180"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortera, söka och filtrera
 
@@ -259,7 +259,7 @@ Det kan finnas fall där fältvärden innehåller någon av följande symboler:
 - =
 - &#124;
 
-Om du vill filtrera efter någon av dessa symboler måste du placera filteruttrycket inom citattecken (' '). Om du exempelvis vill filtrera poster som börjar med texten *J & V* blir filteruttrycket `'J & V*'`.
+Om du vill filtrera efter någon av dessa symboler måste du placera filteruttrycket inom citattecken (`'<expression with symbol>'`). Om du exempelvis vill filtrera poster som börjar med texten *J & V* blir filteruttrycket `'J & V*'`.
 
 Detta krav är inte nödvändigt för andra symboler.
 
@@ -304,7 +304,7 @@ Använd `%myvendors` i fältet leverantörs **nr** om du vill visa alla poster f
 
 ## <a name="see-also"></a>Se även
 
-[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
+[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)  
 [Spara och anpassa listvyer](ui-views.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

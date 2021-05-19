@@ -1,5 +1,5 @@
 ---
-title: Ställa in bokföring av koncerninterna transaktioner | Microsoft Docs
+title: Ställa in bokföring av koncerninterna transaktioner
 description: Skapa dina koncerninterna leverantörer och kunder som så kallade koncerninterna partners och konfigurera en koncernintern kontoplan.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c323aee8139912e103b09066f2f6a7a25e2832c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 79c204a6c8a173985a5d3558d5ce1af5a2d8fc39
+ms.sourcegitcommit: 6add995f289c56e5497409308825c73eeaa4f62f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786204"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941523"
 ---
-# <a name="set-up-intercompany"></a>Koncerninterna inställningar
+# <a name="set-up-intercompany-transaction-posting"></a>Ställa in bokföring av koncerninterna transaktioner
 
 Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) från ett företag och att motsvarande transaktion (till exempel en inköpsjournalrad) skapas automatiskt i partnerföretaget, måste de berörda företagen komma överens om en gemensam kontoplan och ange vilka dimensioner som ska användas för koncerninterna transaktioner. Den koncerninterna kontoplanen kan till exempel vara en förenklad version av moderbolagets kontoplan. Varje företag kopplar sin fullständiga kontoplan till den gemensamma kontoplanen, och varje företag kopplar sina dimensioner till de företagsinterna dimensionerna.  
 
@@ -34,7 +34,7 @@ Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår 
 ## <a name="to-set-intercompany-partners"></a>För att konfigurera koncerninterna partners
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Koncerninterna partner** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
-3. På sidan **Koncerninterna partners** fyller du i fälten efter behov.
+3. På sidan **Koncerninterna partners** fyller du i fälten efter behov.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du inte använda filplats för att överföra transaktioner till dina partners eftersom [!INCLUDE[prod_short](includes/prod_short.md)] inte har åtkomst till ditt lokala nätverk. Om du väljer **Filplats** i fältet **Överföringstyp** kommer fältet **Mappsökväg** inte att vara tillgängligt. Filen kommer istället att laddas ned till mappen Hämtningar på din dator. Du kan sedan skicka filen till någon i partnerföretaget, exempelvis via e-post. För en mer direkt process rekommenderar vi att du väljer **E-postmeddelande** istället.

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb3c0684d476fbba2a23a73dd821384d32afbbab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91c64ecbd32ec8fe6a528c87d2e102e1a1322816
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777047"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017230"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Felsöka synkroniseringsfel
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -27,7 +27,7 @@ Det finns många rörliga delar som används för att integrera [!INCLUDE[prod_s
 Fel inträffar ofta antingen på grund av något som en användare har gjort i fråga om kopplade poster, eller också är något fel med hur integreringen har upprättats. För fel som rör kopplade poster kan användare matcha dem själva. Dessa fel orsakas av åtgärder som att ta bort data i en - men inte båda - affärsappar och sedan synkronisera. För mer information, se [Visa status för en synkronisering](admin-how-to-view-synchronization-status.md).
 
 ## <a name="example"></a>Exempel
-I det här videoklippet visas ett exempel på hur du felsöker fel som har uppstått vid synkronisering med Sales. Samma procedur kommer att användas för alla integreringar. 
+I det här videoklippet visas ett exempel på hur du felsöker fel som har uppstått vid synkronisering med [!INCLUDE[prod_short](includes/cds_long_md.md)]. Samma procedur kommer att användas för alla integreringar. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
@@ -45,7 +45,7 @@ Du måste lösa felen manuellt, men det finns ett par sätt på vilka sidan kan 
 
 Ibland kan tidsstämplar för poster orsaka konflikter. Tabellen "CDS-integreringspost" behåller tidsstämplarna "Senaste synkronisering ändrad den" och "Senaste synkronisering CDS ändrad den" för den senaste integreringen som gjordes i båda riktningarna för en rad. Dessa tidsstämplar jämförs med tidsstämplar på Business Central- och Sales-poster. I Business Central finns tidstämpeln i tabellen Integreringspost.
 
-Du kan filtrera efter transaktioner som ska synkroniseras genom att jämföra radtidsstämplar för fälten "Synk. ändrad i filter" och "Synk. int. tabell" i tabellen "Registermappning för integrering". ändrad i filter".
+Du kan filtrera efter poster som ska synkroniseras genom att jämföra radtidsstämplar för fälten "Synk. ändrad i filter" och "Synk. int. tabell" i tabellen "Registermappning för integrering". ändrad i filter".
 
 Konfliktfelmeddelandet "Det går inte att uppdatera kundposten eftersom den har ett senare ändringsdatum än kontoposten" eller "Det går inte att uppdatera kontoposten eftersom den har ett senare ändringsdatum än kundposten" kan inträffa om en rad har en tidstämpel som större än IntegreringTableMapping."Synk. ändrad i filter" men inte är senare än tidsstämpeln på försäljningsintegreringsposten. Det innebär att källraden har synkroniserats manuellt, inte av jobbkötransaktionen. 
 
@@ -55,6 +55,8 @@ De här posterna flyttas nu till sidan "Hoppade över Synkronisera poster" som d
 
 ## <a name="remove-couplings-between-records"></a>Ta bort kopplingar mellan poster
 När något går fel i integrationen och du behöver ta bort kopplingen mellan poster för att sluta synkronisera dem, kan du göra det för en eller flera poster i taget. Du kan koppla bort en eller flera poster från listsidor eller sidan **Kopplade datasynkroniseringsfel** genom att välja en eller flera rader och välja **Radera koppling**. Du kan också ta bort alla kopplingar för en eller flera registermappningar på sidan **Mappningar för integrationstabeller**. 
+
+Om en entitet med enkelriktad koppling tas bort i [!INCLUDE[prod_short](includes/prod_short.md)] måste du ta bort den brutna kopplingen manuellt. Det gör du genom att gå till sidan **Synkroniseringsfel av kopplade data** och välja åtgärden **Sök efter borttagna** och sedan at bort kopplingarna.
 
 ## <a name="see-also"></a>Se även
 [Integrera med Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

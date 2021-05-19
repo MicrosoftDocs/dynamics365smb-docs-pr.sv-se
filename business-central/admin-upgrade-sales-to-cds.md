@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e3b79d6245a0f1b8277c94faa58c24edc66662e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
+ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777022"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025814"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Uppgradera en integrering med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] integreras också med [!INCLUDE[prod_short](includes/cds_long_md.md)], vilket gör det enkelt att ansluta och synkronisera data med andra Dynamics 365-program, till exempel [!INCLUDE[crm_md](includes/crm_md.md)] eller till och med appar som du själv skapar. Om du integrerar för första gången rekommenderar vi att du gör det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Mer information finns i [Integrera med Dataverse](admin-common-data-service.md).
@@ -38,6 +38,9 @@ Om du redan har integrerat [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[
    > När du har aktiverat anslutningen distribueras integreringslösningen till Business Central till [!INCLUDE[prod_short](includes/prod_short.md)]. Detta möjliggör integrering med tabeller som är specifika för [!INCLUDE[crm_md](includes/crm_md.md)], t. ex. försäljningsorder, offerter och fakturor.
 5. Välj **Omdistribuera integreringslösning** för att ominstallera integreringslösningen för Business Central.
 6. På sidan **Anslutningsinställningar för Sales** väljer du **Använd standardinställningar för synkronisering** om du vill initiera registermappningarna för [!INCLUDE[crm_md](includes/crm_md.md)].
+
+   > [!IMPORTANT]
+   > När du använder åtgärden **Använd standardsynkronisering** tillämpas standardmappningar för integreringstabell. Alla anpassade mappningar skrivs över. Om du har anpassade mappningar som du vill behålla rekommenderar vi att du exporterar dem till Excel eller pratar med din Microsoft-partner om andra sätt att behålla dina egna mappningar.    
 
 ## <a name="see-also"></a>Se även
 [Integrering med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

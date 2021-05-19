@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784448"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017255"
 ---
 # <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.
@@ -44,7 +44,8 @@ Du kan avsluta affärsmöjligheter när en förhandling är över. När du avslu
    I fältet **Avslutskod affärsmöjlighet** kan du välja från en av de befintliga avslutskoder affärsmöjligheter eller lägga till en ny kod. Om du vill lägga till en ny kod väljer du **Välj från fullständig lista** i listrutan och väljer sedan **ny**. På den nya tomma raden fyller du i fälten **Kod**, **Typ** och **Beskrivning** och väljer sedan knappen **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Skapa offerter för affärsmöjligheter
-Du kan skapa försäljningsofferter för kontakter som inte är registrerade som kunder.
+> [!NOTE]
+> Du kan bara skapa försäljningsofferter från affärsmöjligheter där kontakttypen är Företag.
 
 1. På sidan **Affärsmöjlighetslista** väljer du affärsmöjlighet och väljer sedan åtgärden **Skapa försäljningsoffert**. Sidan **Försäljningsoffert** visas.
 2. Fyll i relevanta fält.

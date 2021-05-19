@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776153"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017155"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Vanliga frågor om att använda Business Central
 
@@ -136,8 +136,8 @@ I de första versionerna av [!INCLUDE[prod_short](includes/prod_short.md)] lokal
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Vanliga frågor om Berätta](ui-search-faq.md)  
-[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
-[Vanliga frågor om listvyer](ui-views-faq.md)  
+[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)  
+[Vanliga frågor om listvyer](ui-views-faq.yml)  
 [Byta språk och plats](about-locale-language.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som din företagsinkorg i Outlook](admin-outlook.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] utan Outlook](admin-no-outlook.md)  

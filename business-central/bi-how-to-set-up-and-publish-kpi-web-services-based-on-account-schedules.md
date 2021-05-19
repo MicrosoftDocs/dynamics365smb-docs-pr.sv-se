@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d2ccc59cad099883e764241cc37add26675435b6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 72687930e20f00c8a6d244cac0e8f682de2d34a4
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786618"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961533"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar
 På sidan **Installation av webbtjänst för KPI för kontouppställning** kan du konfigurera hur du visar kontouppställnings-kpi-data och vilka specifika kontouppställningar som du vill basera KPI-erna på. När du väljer knappen **Publicera webbtjänst** läggs det angivna kontouppställning-kpi-data till listan över publicerade webbtjänster på sidan **Webbtjänster**.  
+
+> [!NOTE]
+> När du använder den här webbtjänsten inkluderas inte avslutsdatum i datauppsättningen. På så sätt kan du använda filter i Power BI för att analysera olika tidsperioder.
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Så här: Skapar och publicerar du en KPI-webbtjänst som är baserad på kontouppställningar  
 1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **KPI Web Service kontouppställningsinställning** och välj sedan relaterad länk.  

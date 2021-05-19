@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9bbc7b27426befcea6d5e9c0f8b797c4652e03f6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780663"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985368"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Använda Dynamics 365 Sales från Business Central
 Om du använder Dynamics 365 Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[prod_short](includes/prod_short.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
@@ -95,7 +95,46 @@ När du väljer **Process** i [!INCLUDE[prod_short](includes/prod_short.md)] fö
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Hantera bokförda försäljningsfakturor, kundbetalningar och statistik
 När försäljningsordern har uppfyllts skapas fakturor för den. När du fakturerar försäljningsorder kan du överföra bokförda försäljningsfakturor till [!INCLUDE[crm_md](includes/crm_md.md)] om du väljer kryssrutan **Skapa faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på sidan **bokförd försäljningsfaktura**. Bokförda fakturor överförs till [!INCLUDE[crm_md](includes/crm_md.md)] med statusen **fakturerade**.
 
-När kundbetalning har inlevererats förförsäljnngsfakturan i [!INCLUDE[prod_short](includes/prod_short.md)], kommer status för försäljningsfakturor ändras till **Betald** ed fältet **Statusorsak** inställt på **Delvis**, om den är delvis eller **fullständig** om den är helt betald, när du kör åtgärden **Uppdatera kontostatistik** på kundsidan i [!INCLUDE[prod_short](includes/prod_short.md)]. Funktionen **Uppdatera kontostatistiken** uppdaterar också värden som saldo och total försäljning i fälten **Saldo** och **Total försäljning** på faktaboxen **[!INCLUDE[prod_short](includes/prod_short.md)] Kontostatistik** i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan också låta schemalagda projekt (kundstatistik och POSTEDSALESINV-INV) köra båda dessa processer automatiskt i bakgrunden.
+När kundbetalning har inlevererats förförsäljnngsfakturan i [!INCLUDE[prod_short](includes/prod_short.md)], kommer status för försäljningsfakturor ändras till **Betald** ed fältet **Statusorsak** inställt på **Delvis**, om den är delvis eller **fullständig** om den är helt betald, när du kör åtgärden **Uppdatera kontostatistik** på kundsidan i [!INCLUDE[prod_short](includes/prod_short.md)]. Funktionen **Uppdatera kontostatistiken** uppdaterar också värden som saldo och total försäljning i fälten **Saldo** och **Total försäljning** på faktaboxen **[!INCLUDE[prod_short](includes/prod_short.md)] Kontostatistik** i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan också låta schemalagda projekt (kundstatistik och POSTEDSALESINV-INV) köra båda dessa processer automatiskt i bakgrunden. 
+
+## <a name="handling-sales-prices"></a>Hantera försäljningspriser
+> [!NOTE]
+> I 2020 års utgivningscykel 2 släppte vi effektiviserade processer för att ställa in och hantera priser och rabatter. Om du är en ny kund som använder den versionen använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+Stegen för att slutföra processen skiljer sig åt beroende på om administratören har aktiverat den nya prissättningsupplevelsen. 
+
+> [!NOTE]
+> Om synkroniseringen av standardpriserna inte fungerar för dig rekommenderar vi att du använder integreringens anpassningsfunktioner. Mer information finns i [Anpassa en integrering med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
+
+#### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)
+I den aktuella prissättningen synkroniserar [!INCLUDE[prod_short](includes/prod_short.md)] försäljningspriser som: 
+
+* Använd på alla kunder. Standardlistor för försäljningspris skapas utifrån priset i fältet **A-pris** på sidan **Artikelkort** för artiklarna.
+* Tillämpa på en specifik kundprisgrupp. Till exempel försäljningspriser för detaljhandels- eller grossistkunder. Så här synkroniserar du priser baserat på en kundprisgrupp:
+
+    1. Koppla artiklarna för vilka priser anges av kundprisgruppen.
+    2. På sidan **Kundprisgrupper** kopplar du kundprisgruppen genom att välja **Relaterad**, sedan **Dynamics 365 Sales**, **Koppling** och sedan **Ange koppling**. Kopplingarna skapar en aktiv prislista i [!INCLUDE[prod_short](includes/prod_short.md)] med samma namn som kundprisgruppen i [!INCLUDE[crm_md](includes/crm_md.md)] och synkroniserar alla artiklar som kundprisgruppen anger priset för automatiskt.
+
+:::image type="content" source="media/customer-price-group.png" alt-text="Sidan Kundprisgrupp":::
+
+#### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
+
+Den nya prissättningen synkroniserar prislistor som uppfyller följande kriterier:
+
+* **Tillåt uppdatering av standardvärden** är inaktiverat.
+* Pristypen är Försäljning.
+* Belopptypen är Pris.
+* Produkttypen på raderna måste vara Artikel eller Resurs. 
+* Ingen minimikvantitet har angetts.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] synkroniserar försäljningspriser som gäller för alla kunder. Standardlistor för försäljningspris skapas utifrån priset i fältet **A-pris** på sidan **Artikelkort** för artiklarna.
+
+Om du vill synkronisera prislistor går du till sidan **Försäljningsprislista**, väljer **Relaterad**, **Dynamics 365 Sales**, **Koppling** och sedan **Ange koppling**. 
+
+:::image type="content" source="media/sales-price-list.png" alt-text="Sidan Försäljningsprislista":::
+
+---
+
 
 ## <a name="see-also"></a>Se även
 [Integrering med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

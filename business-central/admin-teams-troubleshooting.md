@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882180"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017130"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -42,9 +42,9 @@ När du har ändrat företaget på sidan **Inställningar** kanske du märker at
 
 Det här felet kan uppstå när du söker i ett företag som inte har initierats eller inte svarar. Du kan till exempel inte söka i ett nytt testföretag som ännu inte accepterat användningsvillkoren. Lös problemet genom att logga in på [!INCLUDE [prod_short.md](includes/prod_short.md)] webbklienten och arbeta på eller stänga alla dialogrutor som visas.
 
-## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>"Det gick inte att hitta kontakter-API vid sökning efter kontakter
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Felmeddelandet "Det gick inte att hitta kontakt-/kontaktsammanfattnings-API" visas vid sökning efter kontakter
 
-Det här problemet kan bero på anpassningar eller bransch lösningar som påverkar, ändrar eller inte anger något kontakt-API i [!INCLUDE [prod_short.md](includes/prod_short.md)]. Kontakta administratören eller supportpartnern om problemet kvarstår.
+Det här problemet kan orsakas av anpassningar eller branschlösningar som påverkar eller ändrar [!INCLUDE [prod_short.md](includes/prod_short.md)] eller inte tillhandahåller en kontakt- eller kontaktsammanfattnings-API. Kontakta administratören eller supportpartnern om problemet kvarstår.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Ingen av länkarna expanderas till ett kort 
 

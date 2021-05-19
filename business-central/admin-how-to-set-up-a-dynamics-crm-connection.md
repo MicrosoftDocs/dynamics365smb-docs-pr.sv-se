@@ -1,6 +1,6 @@
 ---
-title: Ansluta till Microsoft Dataverse | Microsoft Docs
-description: Du kan integrera andra appar med Business Central via Microsoft Dataverse.
+title: Anslut till Microsoft Dataverse
+description: Du kan integrera andra appar med Business Central via Microsoft Dataverse. Den här artikeln innehåller tips och trick för hur du konfigurerar anslutningarna.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 96ba755a1a32a23197b2bb839e50ebe6a0a1e63b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779788"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941669"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
+
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
 I det här avsnittet beskrivs hur du upprättar en anslutning mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Vanligtvis skapar företag anslutningen för att integrera och synkronisera data med en annan Dynamics 365-affärsapp, till exempel [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -29,6 +30,7 @@ Det finns lite information du bör ha tillhanda innan du skapar anslutningen:
 * Webbadressen (URL) till den [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljö du vill ansluta till. Om du använder den **assisterade konfigurationsguiden för Dataverse** för att skapa anslutningen kommer vi att upptäcka dina miljöer, men du kan också ange URL:en till en annan miljö i din klientorganisation.  
 * Användarnamn och lösenord för ett konto som har administratörsbehörigheter i [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Om du har en lokal [!INCLUDE[prod_short](includes/prod_short.md)], 2020 års utgivningscykel 1, version 16.5, läs då artikeln [Vissa kända problem](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Du måste slutföra den beskrivna lösningen innan du kan skapa anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+* Företagets lokala valuta i [!INCLUDE[prod_short](includes/prod_short.md)] måste vara samma som bastransaktionsvalutan i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. När en bastransaktion har angetts i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] kan den inte ändras. Mer information finns i [entiteten Transaktionsvaluta (valuta)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Detta innebär att alla [!INCLUDE[prod_short](includes/prod_short.md)]-företag som du ansluter till en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisation måste använda samma valuta.
 
 > [!IMPORTANT]
 > Din [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljö får inte vara i administrationsläge. Administrationsläget gör att anslutningen misslyckas eftersom integreringsanvändarkontot för anslutningen inte har administratörsbehörighet. Mer information finns i [Administrationsläge](/power-platform/admin/admin-mode).
@@ -86,17 +88,16 @@ I följande procedur beskrivs hur du konfigurerar anslutningen manuellt på sida
     <!--Need to verify the details in this table, are these specific to Sales maybe?  IK: No they are not and no longer relevant 
     Enter the following advanced settings.-->
 
-   <!-- |Field|Description|
+    <!-- |Field|Description|
     |-----|-----|
     |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field-->|
-
 4. Kontrollera anslutningsinställningarna genom att välja **Anslutning** och sedan **Testa anslutning**.  
 
     > [!NOTE]  
     > Om datakrypteringen inte har aktiverats i [!INCLUDE[prod_short](includes/prod_short.md)] kommer du att tillfrågas om du vill aktivera den. Välj **Ja** och ange den obligatoriska informationen om du vill aktivera datakryptering. Annars väljer du **Nej**. Du kan aktivera datakryptering senare. Mer information finns i [kryptering av data i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) i Hjälp för utvecklare och administration.  
-
 5. Om [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-synkroniseringen inte redan har ställts in får en fråga om du vill använda standardsynkroniseringskonfigurationen. Beroende på om du vill bokföra poster justerade i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)], välj **Ja** eller **Nej**.
+
 <!--
 ## Show Me the Process
 
@@ -116,12 +117,12 @@ Om du vill ansluta med ett Azure Active Directory (Azure AD)-konto måste du reg
 
 Dataverse måste använda någon av följande autentiseringstyper:
 
-- Office 365 (äldre)
+* Office 365 (äldre)
 
   > [!IMPORTANT]
   > Från och med april 2022 kommer Office 365 (äldre) inte längre att stödjas. Mer information finns i [Viktiga ändringar (utfasningar) som kommer i Power Apps, Power Automate och kundengagemangsappar](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-- Office365 (modern, OAuth2-klienthemlighetsbaserad)
-- OAuth
+* Office365 (modern, OAuth2-klienthemlighetsbaserad)
+* OAuth
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Dataverse
 
@@ -148,7 +149,7 @@ Följande åtgärder förutsätter att du använder Azure AD för att hantera id
 
 #### <a name="using-another-identity-and-access-management-service"></a>Använda en annan identitets- och åtkomsthanteringstjänst
 
-Om du inte använder Azure Active Directory för att hantera identiteter och åtkomst behöver du en viss hjälp från en utvecklare. Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten vid körning genom att prenumerera på händelserna OnGetCDSConnectionClientId och OnGetCDSConnectionClientSecret i codeunit 7201 "CD-integrering impl."
+Om du inte använder Azure Active Directory för att hantera identiteter och åtkomst behöver du en viss hjälp från en utvecklare. Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten vid körning genom att prenumerera på `OnGetCDSConnectionClientId`- och `OnGetCDSConnectionClientSecret`-händelserna i codeunit 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Koppla bort från [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
@@ -158,6 +159,5 @@ Om du inte använder Azure Active Directory för att hantera identiteter och åt
 ## <a name="see-also"></a>Se även
 
 [Visa status för en synkronisering](admin-how-to-view-synchronization-status.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -273,6 +273,7 @@
 ###### [Arbeta med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
 ###### [Arbeta med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Använda Business Central-appar i Power BI](across-powerbi-business-central-apps.md)
+##### [Vanliga frågor och svar](power-bi-faq.md)
 #### ANvända Power Automate med Business Central
 ##### [Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)
 #### ANvända Power Apps med Business Central
@@ -288,8 +289,8 @@
 ## Vanliga frågor och svar
 ### [Vanliga frågor och svar](across-faq.md)
 ### [Vanliga frågor om Berätta](ui-search-faq.md)
-### [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)
-### [Vanliga frågor om listvyer](ui-views-faq.md)
+### [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)
+### [Vanliga frågor om listvyer](ui-views-faq.yml)
 ### [Vanliga frågor om Kopiera och klistra in](faq-copy-paste.yml)
 ### [Vanliga frågor och svar om mobilappar](ui-mobile-faq.md)
 ### [Vanliga frågor och Svar om Teams](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Söka efter sidor med rollutforskaren](ui-role-explorer.md)
 ## [Vanliga frågor om Berätta](ui-search-faq.md)
 ## [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
-## [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)
+## [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)
 ## [Ange data](ui-enter-data.md)
 ## [Vanliga frågor om Kopiera och klistra in](faq-copy-paste.yml)
 ## [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md)
@@ -356,10 +357,11 @@
 ### [Definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md)
 ### [Lägga till fält i en Word-rapportlayout](ui-how-add-fields-word-report-layout.md)
 ### [Tillgängliga teckensnitt](ui-fonts.md)
-## Använda kortkommandon
-### [Hjälpmedel och kortkommandon](ui-accessibility.md)
+## Tillgänglighet, kortkommandon och tryckgester
+### [Tillgänglighet](ui-accessibility.md)
 ### [Kortkommandon](keyboard-shortcuts.md)
 ### [Snabbguide för kortkommandon – endast dator](keyboard-shortcuts-cheatsheet.md)
+### [Gester för touch och penna](touch-gestures.md)
 ## [Felsökning: komma åt kamera och plats](ui-troubleshooting-camera-location.md)
 ## [Intelligenta insikter med (endast online)](about-intelligent-cloud.md)
 # Affärsfunktion
@@ -429,9 +431,10 @@
 ##### [Ställa in bankutdragstjänsten](bank-how-setup-bank-statement-service.md)
 ##### [Skapa bankkonton](bank-how-setup-bank-accounts.md)
 ##### [Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Utbyta data
 ##### [Dataintegration](across-exchange-data.md)
+##### [Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Skicka elektroniska dokument](sales-how-to-send-electronic-documents.md)
 ##### [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md)
 ##### [Ta emot och omvandla elektroniska dokument](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -550,6 +553,7 @@
 #### [Ställa in företagskonsolidering](finance-consolidated-company-reporting-setup.md)
 ### [Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md)
 ### [Arbeta med dimensioner](finance-dimensions.md)
+### [Felsökning och korrigering av dimensioner](finance-troubleshooting-correcting-dimensions.md)
 ### [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 ### [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)
 ### [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Analysera finansiella rapporter i Excel](finance-analyze-excel.md)
 ### [Överföra banktillgångar](bank-how-transfer-bank-funds.md)
 ### [Revisorlösningar i Business Central](finance-accounting.md)
+### [Flera platser och internationella organisationer](finance-multi-site-organizations.md)
 
 ## Business Intelligence och Financial Reporting
 ### [Business Intelligence och Financial Reporting (översikt)](bi.md)
@@ -705,6 +710,8 @@
 ### [Kör du komplett planering, nettobehov och produktionsplan](production-how-to-run-mps-and-mrp.md)
 ### [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)
 ### [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md)
+### [Genomgång: Planera leveranser manuellt](walkthrough-planning-supplies-manually.md)
+### [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Monteringshantering
@@ -745,8 +752,6 @@
 #### [Föra in produktions- eller monteringsutflöde](warehouse-how-to-put-away-production-output.md)
 #### [Planera artikelinförsel i kalkylark](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Plocka och lagra utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Flytta artiklar
 #### [Flytta artiklar](warehouse-move-items.md)
 #### [Flytta artiklar ad hoc i grundläggande lagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [Använda ADCS (Automatiskt datainsamlingssystems)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Genomgång: Planera leveranser manuellt](walkthrough-planning-supplies-manually.md)
-### [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
 
 ## Servicehantering
 ### [Servicehantering](service-service.md)

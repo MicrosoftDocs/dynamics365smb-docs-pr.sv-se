@@ -1,8 +1,6 @@
 ---
-title: Köpa artiklar eller tjänster för ett projekt och hantera leveranser | Microsoft Docs
+title: Hantera projektleveranser
 description: Beskriver hur du hanterar försörjning och inköp av material och tjänster för projekt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12068b06bfa725c44232c1dd91a157ef8559f6e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7e1f6f52a8ef5f7d4620a70c4611ba259dc00c20
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785379"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938177"
 ---
 # <a name="manage-job-supplies"></a>Hantera projektleveranser
 Att hantera projektleveranser av artiklar, tjänster och utgifter är en viktig del och aspekt av allt projektgenomförande. Du kan använda lagerantal eller göra projektspecifika inköp med hjälp av inköpsorder eller inköpsfakturor. Ett servicejobb för en dator kan till exempel kräva en ny hårddisk. Du skapar då en inköpsfaktura för att köpa en ny hårddisk och registrerar det i projektet.
 
-Om inköpsprocessen inte kräver att den fysiska transaktionen registreras separat kan ett inköp registreras endast i en inköpsfaktura eller på sidan **Projektredovisningsjournal**. Mer information finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
+Om inköpsprocessen inte kräver att den fysiska transaktionen registreras separat kan ett inköp registreras endast i en inköpsfaktura eller på sidan **Projektredovisningsjournal**. Mer information finns i [Så här bokför du en projektrelaterad utgift](projects-how-manage-project-supplies.md#to-post-a-job-related-expense).
 
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Köpa artiklar eller tjänster till ett projekt
 Efterföljande procedur visar hur du använder en inköpsfaktura för att köpa produkter till ett projekt. Samma steg gäller när du använder en inköpsorder.  

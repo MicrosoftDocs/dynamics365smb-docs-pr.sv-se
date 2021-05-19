@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36c4d1498048b1bc510455afe11069387cb5c507
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10483de41b1106914a1fa477309e5b39a3f41e6b
+ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774820"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947419"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Spåra artiklar med serie-, parti-och paketnummer
 
@@ -288,8 +288,8 @@ Att gruppera artikelspårningen för en artikel innebär att ett parti- eller se
 
 ## <a name="see-also"></a>Se även
 
-[Spåra objektspårade objekt](inventory-how-to-trace-item-tracked-items.md)  
-[Lager](inventory-manage-inventory.md)  
+[Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)  
+[Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-tracking.md)  
 [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780063"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935342"
 ---
 # <a name="define-retention-policies"></a>Definiera bevarandeprinciper
 Administratörer kan definiera bevarandeprinciper för att ange hur ofta de vill att [!INCLUDE[prod_short](includes/prod_short.md)] tar bort gamla data i tabeller som innehåller loggposter och arkiverade poster. Att rensa loggposter kan t. ex. göra det enklare för dig att arbeta med data som faktiskt är relevanta. Principer kan omfatta alla data i tabellerna som har passerat utgångsdatumet, eller så kan du lägga till filterkriterier som endast tar med vissa utgångna data i principen. 
@@ -67,7 +67,7 @@ När en utvecklare lägger till en tabell kan de ange obligatoriska filter och s
 
 Nedan följer exempel på hur du lägger till en tabell i listan över tillåtna tabeller med, och utan, obligatoriska filter eller standardfilter. Ett mer komplext exempel finns i codeunit 3999 "reten. Pol. Installera – BaseApp". 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Nedan följer exempel på hur du lägger till en tabell i listan över tillåtna
 
 I följande exempel finns ett obligatoriskt filter.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ I följande exempel finns ett obligatoriskt filter.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 När en utvecklare har lagt till tabeller i listan kan en administratör inkludera dem i en bevarandeprincip. 
 
 ## <a name="see-also"></a>Se även
+
+[Analysera telemetri för spårning av bevarandeprincip](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Revision av ändringar i Business Central](across-log-changes.md)  
 [Filtrering](ui-enter-criteria-filters.md#filtering)  
 [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)  

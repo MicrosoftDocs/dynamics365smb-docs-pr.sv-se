@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: d568b9b40f2ed8db264db9736cf8e87f4165ea2c
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870029"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935092"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkroniserar data i Business Central med Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -55,6 +55,8 @@ I följande tabell visas standardmappningen mellan register i [!INCLUDE[prod_sho
 | Kontakt | Kontakt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-kontaktfilter: **Typen** är **Person** och kontakten har tilldelats till ett företag. [!INCLUDE[prod_short](includes/cds_long_md.md)] kontaktfilter: Kontakten har tilldelats till ett företag och överordnad kundtyp är **Konto** |
 | Valuta | Transaktionsvaluta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
+> [!NOTE]
+> **Dataverse**-åtgärderna kommer inte att vara tillgängliga på sidor, till exempel kundkortsidan, för poster som inte respekterar tabellfiltret för mappningen av integrationstabellen.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Tips för administratörer: Visa registermappningar
 Du kan visa mappningen mellan register i [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] på sidan **Tabellmappningar för integrering**, där du även kan tillämpa filter. Du definierar mappningen mellan fälten i [!INCLUDE[prod_short](includes/prod_short.md)]-register och kolumnerna i [!INCLUDE[prod_short](includes/cds_long_md.md)]-register på sidan **Mappning av integreringsfält**, där du kan lägga till ytterligare mappningslogik. Det kan exempelvis vara praktiskt om du behöver felsöka synkronisering.
