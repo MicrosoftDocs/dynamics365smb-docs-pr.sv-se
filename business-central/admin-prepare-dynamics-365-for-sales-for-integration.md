@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777344"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184505"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrering med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -44,7 +44,6 @@ När du installerar integreringslösningen konfigureras behörigheter för anvä
 * Dynamics 365 Business Central-produktartikelanvändare
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Anslutningsinställningar i installationsguiden
-
 Du kan använda en assisterad konfigurationsguide för att snabbt ställa in anslutningen och ange avancerade funktioner, till exempel att koppla mellan transaktioner.
 
 1. Välj **inställningar och tillägg**, och välj **assisterad konfiguration**.
@@ -56,11 +55,10 @@ Du kan använda en assisterad konfigurationsguide för att snabbt ställa in ans
 |--|--|
 | **Importera Dynamics 365 Sales-lösning** | Aktivera det här alternativet om du vill installera och konfigurera lösningen för integrering i [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 | **Publicera webbtjänsten för artikeldisposition** | Aktivera människor som använder [!INCLUDE[crm_md](includes/crm_md.md)] för att visa disponibla artiklar (produkter) i lagret i [!INCLUDE[prod_short](includes/prod_short.md)]. Detta kräver att ett [!INCLUDE[prod_short](includes/prod_short.md)]-användarkonto med en åtkomstnyckel för webbtjänsterna. Tilldela nyckeln är en tvåstegsprocess. För användarkontot i [!INCLUDE[prod_short](includes/prod_short.md)] måste du välja åtgärden **ändra webbtjänstnyckeln**. I guiden för assisterad konfiguration Dynamics 365 Sales-anslutning anger du Dynamics 365 Business Central OData webbtjänst-URL och ger [!INCLUDE[prod_short](includes/prod_short.md)] användarens autentiseringsuppgifter för att komma åt tjänsten. Mer information finns i [OData webbtjänst](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **URL för OData-webbtjänsten för Business Central** | Om du aktiverar webbtjänsten för att se artikeldispositionen anges webbadressen (URL) för webbtjänsten OData för dig. |
-| **Användarnamn för OData-webbtjänsten för Business Central** | Namnet på det [!INCLUDE[prod_short](includes/prod_short.md)]-användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition i [!INCLUDE[prod_short](includes/prod_short.md)] via OData-webbtjänsten. |
+|**Användarnamn för OData-webbtjänsten för Business Central** | Namnet på det [!INCLUDE[prod_short](includes/prod_short.md)]-användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition i [!INCLUDE[prod_short](includes/prod_short.md)] via OData-webbtjänsten. |
 | **Åtkomstnyckel för OData-webbtjänsten för Business Central** | Åtkomstnyckeln för det användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition från [!INCLUDE[prod_short](includes/prod_short.md)] via OData-webbtjänsten. Nyckeln tilldelas den användare som valts i fältet **Användarnamn för OData-webbtjänsten för Business Central**. Om du vill hämta nyckeln väljer du knappen **sök efter värdet** bredvid användarnamnet, väljer användaren, väljer **hantera** och sedan **redigera**. På användarkortet väljer du **åtgärder**, **autentisering** och väljer sedan **ändra webbtjänstnyckeln**. |
 | **Aktivera försäljningsorderintegrering** | När en användare skapar försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] och uppfyller order i [!INCLUDE[prod_short](includes/prod_short.md)] integreras processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Detta innebär att du anger autentiseringsuppgifter för en administratörs användarkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i avsnittet [Hantera speciella försäljningsorderdata](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
-| **Aktivera CDS-anslutning** | Aktivera anslutning till [!INCLUDE[prod_short](includes/cds_long_md.md)]. |
+|**Aktivera anslutning för Dynamics 365 Sales** | Aktivera anslutning till [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **SDK-version för Dynamics 365** | Detta gäller endast om du integrerar med en lokal version av [!INCLUDE[crm_md](includes/crm_md.md)]. Det här är den SDK-version för Dynamics 365 (även kallat Xrm) för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen måste vara kompatibel med SDK-versionen som används av [!INCLUDE[crm_md](includes/crm_md.md)] och motsvarande eller senare än den version som används av [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 ### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Anslutningsinställningar på inställningssidan för Microsoft Dynamics 365-anslutningar

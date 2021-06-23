@@ -2,12 +2,12 @@
 metadata:
   title: Vanliga frågor och svar och att kopiera och klistra in data
   description: Få svar på vanliga frågor om att kopiera och klistra in data från fält och rader från Business Central-sidor.
-  ms.openlocfilehash: 41f92191cf00ff7cbf0a3be2d0902bb9386efc56
-  ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
+  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
   ms.translationtype: HT
   ms.contentlocale: sv-SE
-  ms.lasthandoff: 03/31/2021
-  ms.locfileid: "5775581"
+  ms.lasthandoff: 05/28/2021
+  ms.locfileid: "6115749"
 title: Vanliga frågor om Kopiera och klistra in
 summary: "Du kan kopiera en eller flera rader (poster) i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post).  \n\nKortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL + V (cmd + V i macOS). Det finns flera andra kortkommandon för kopiera och klistra in som hjälper dig att spara tid när du anger data. Mer information om detta finns i [Kortkommandon](keyboard-shortcuts.md#CopyRows). Den här artikeln besvarar vanliga frågor som du kanske har om att kopiera och klistra in.  \n"
 sections:
@@ -72,4 +72,4 @@ sections:
   - question: Varför visas fel när du klistrar in rader?
     answer: >
       När du klistrar in i [!INCLUDE[prod_short](includes/prod_short.md)], kontrolleras varje rad för att se till att värdena i varje kolumn är giltiga. Om en kolumn innehåller ett värde som inte är giltigt stoppas klistra in och ett felmeddelande visas. Du undviker detta genom att se till att kolumnerna har värdet innan du klistrar in dem.
-additionalContent: "## <a name=\"next-steps\"></a>Gå vidare\nHitta relaterad information här: \n  - [Hjälpmedelsfunktioner](ui-accessibility.md)  \n  - [Gör dig redo att göra affärer](ui-get-ready-business.md)  \n  - [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Vanliga frågor och svar](across-faq.md)"
+additionalContent: "## <a name=\"next-steps\"></a>Gå vidare\nHitta relaterad information här: \n  - [Hjälpmedelsfunktioner](ui-accessibility.md)  \n  - [Gör dig redo att göra affärer](ui-get-ready-business.md)  \n  - [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Vanliga frågor och svar](across-faq.yml)"

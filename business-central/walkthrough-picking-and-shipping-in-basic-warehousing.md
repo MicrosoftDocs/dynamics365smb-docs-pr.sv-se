@@ -1,25 +1,25 @@
 ---
-title: Plockning och leverans i grundläggande lagerkonfiguration | Microsoft Docs
+title: Plockning och leverans i grundläggande distributionslagerkonfiguration
 description: I Business Central kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå.
-author: SorenGP
+author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 68b35b6c007dd22c964bd616b1d59df2841db411
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772085"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214659"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.  
 
@@ -34,23 +34,17 @@ Mer information finns i [Designdetaljer: utgående distributionslagerflöde](des
 
 Efterföljande genomgången visar metod B i föregående tabellen.  
 
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
-
 ## <a name="about-this-walkthrough"></a>Om den här genomgången
 
 För grundläggande lagerkonfigurationer där lagerstället har konfigurerats att kräva plockningsbearbetning men inte leveransbearbetning, använder du sidan **Lagerplockning** för att registrera och bokföra plocknings- och leveransinformation för dina utgående källdokument. Det utgående källdokumentet kan vara en försäljningsorder, inköpsreturorder, utgående överföringsorder eller produktionsorder med komponentbehov.  
 
 I den här genomgången tas följande aktiviteter upp:  
 
-- Lägger upp lagerstället SILVER för lagerplockning.  
-- Skapa en försäljningsorder för kund 10000 på 30 högtalare.  
+- Lägger upp lagerstället SYD för lagerplockning.  
+- Skapa en försäljningsorder för kund 10000 på 30 Amsterdam-lampor.  
 - Släppa försäljningsordern för lagerhantering.  
 - Skapa en lagerplockning som baseras på ett släppt källdokument.  
 - Registrering av lagerrörelsen från lagret och samtidigt bokföra försäljningsutleveransen för källförsäljningsorder.  
-
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="roles"></a>Roller
 
@@ -60,43 +54,54 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 - Orderhandläggare  
 - Lagerarbetare  
 
-## <a name="prerequisites"></a>Förutsättningar
+<!-- ## Prerequisites
 
-För att kunna utföra den här genomgången behöver du:  
+To complete this walkthrough, you will need:  
 
-- För [!INCLUDE[prod_short](includes/prod_short.md)] online är detta ett företag som bygger på den **Avancerade utvärderingen av utvärdering – fullständiga exempeldata** i en begränsad miljö. För [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, CRONUS International Ltd. installerat.  
-- Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
+- For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
+ -->
 
-  1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan tillhörande länk.  
-  2. Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
-  3. Ange SILVER i fältet **Lagerställekod**.  
-  4. Välj fältet **Standard**.  
+## <a name="story"></a>Situation
 
-- Gör artikeln LS-81 tillgänglig på platsen SILVER, genom att följa nedanstående steg:  
+Ellen, lagerchefen i CRONUS, ställer in lagret SYD för grundläggande plockning där lagerarbetare behandlar utgående beställningar var för sig. Susan, orderhandläggaren, skapar en försäljningsorder för 30 enheter av artikeln 1928-S att levereras till kund 10000 från distributionslagret SYD. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade på sidan **Lagerplockning** som automatiskt pekar på lagerställena där 1928-S lagras.
 
-  1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
+[!INCLUDE[set_up_location.md](includes/set_up_location.md)]
+
+### <a name="setting-up-the-bin-codes"></a>Ställer in lagerplatskoder
+När du har skapat ett lagerställe måste du lägga till två lagerplatser.
+
+#### <a name="to-setup-the-bin-codes"></a>Ställa in lagerplatskoder
+
+1. Välj åtgärden **Lagerplatser**.
+2. Skapa två lagerplatser med koderna *S-01-0001* och *S-01-0002*.
+
+### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Skapa en distributionslagerarbetare på lagerstället SYD
+
+För att kunna använda den här funktionen måste du lägga till dig själv till lagerstället som distributionslagerarbetare. 
+
+#### <a name="to-make-yourself-a-warehouse-employee"></a>Så här skapar du en distributionslagerarbetare
+
+  1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta först](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan tillhörande länk.  
+  2. Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Distributionslagerarbetare**.
+  3. I fältet **Lagerställekod** väljer du SYD.  
+  4. Välj fältet **Standard** och sedan knappen **Ja**.  
+
+### <a name="making-item-1928-s-available"></a>Göra punkt 1928-S tillgänglig
+
+Gör artikeln 1928-S tillgänglig på lagerstället SYD, genom att följa nedanstående steg:  
+
+  1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta andra](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikeljournaler** och välj sedan tillhörande länk.  
   2. Öppna standardjournalen och skapa sedan två artikeljournalrader med följande information om arbetsdatumet (23 januari).  
 
         |Transaktionstyp|Artikelnummer|Lagerställekod|Lagerställeskod|Antal|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Positiv antalsjust.|LS-81|SILVER|S-01-0001|20|  
-        |Positiv antalsjust.|LS-81|SILVER|S-01-0002|20|  
+        |Positiv antalsjust.|1928-S|SYD|S-01-0001|20|  
+        |Positiv antalsjust.|1928-S|SYD|S-01-0002|20|  
 
-  3. Välj åtgärden **Bokföra** och sedan knappen **Ja**.  
+        Som standard är fältet **Lagerplatskod** på försäljningsraderna dolt, så du måste visa det. För att göra detta måste du anpassa sidan. Mer information finns i [Så här börjar du anpassa en sida genom den anpassningsbanderollen](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-## <a name="story"></a>Situation
-
-Ellen, lagerchefen i CRONUS, ställer in lagret SILVER för grundläggande plockning där lagerarbetare behandlar utgående beställningar var för sig. Susan, orderhandläggaren, skapar en försäljningsorder för 30 enheter av artikeln LS-81 att levereras till kund 10000 från SILVERLAGRET. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade på sidan **Lagerplockning** som automatiskt pekar på lagerställena där LS-81 lagras.  
-
-## <a name="setting-up-the-location"></a>Lägger upp lagerstället
-
-Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden.  
-
-### <a name="to-set-up-the-location"></a>Så här lägger du upp lagerställen
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan tillhörande länk.  
-2. Öppna lagerställekortet SILVER.  
-3. Markera fältet **Kräver plockning** på kryssrutan **Dist.lager**.  
+  3. Välj **Åtgärder**, sedan **Bokföring** och sedan väljer du **Bokför**.  
+  4. Tryck på knappen **Ja**.  
 
 ## <a name="creating-the-sales-order"></a>Skapar försäljningsreturordern
 
@@ -104,13 +109,13 @@ Försäljningsorder är den vanligaste typen för utgående källdokumentet.
 
 ### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan tillhörande länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta tredje](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Skapa en försäljningsorder för kund 10000 på arbetsdatumet (23 januari) med följande försäljningsorderrad.  
 
     |Artikel|Lagerställekod|Antal|  
     |----|-------------|--------|  
-    |LS_81|SILVER|30|  
+    |1928-S|SYD|30|  
 
      Fortsätt med att meddela lagret att försäljningsordern är klar för lagerhantering.  
 
@@ -124,7 +129,7 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
 
 ### <a name="to-pick-and-ship-items"></a>Plocka och utleverera artiklar så här
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerplockning** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta fjärde](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerplockning** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 
     Kontrollera att fältet **Nr.** fälten på snabbfliken **Allmänt** fylls i.
@@ -137,7 +142,7 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
     Alternativt, ange 10 respektive 20 i fältet **Ant. att hantera** på de två lagerplockningsraderna.  
 6. Välj åtgärden **bokför**, välj **leverera**, och välj sedan **OK**-knappen.  
 
-    De 30 högtalarna har nu registrerats som plockade från lagerställen S-01-0001 och S-01-0002, och en negativ artikeltransaktion skapas som återspeglar den bokförda leveransen.  
+    De 30 Amsterdam-lamporna har nu registrerats som plockade från lagerställen S-01-0001 och S-01-0002, och en negativ artikeltransaktion skapas som återspeglar den bokförda leveransen.  
 
 ## <a name="see-also"></a>Se även
 

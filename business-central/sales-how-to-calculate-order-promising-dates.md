@@ -1,5 +1,5 @@
 ---
-title: Så här beräknar du ett orderlöftesdatum | Microsoft Docs
+title: Beräkna orderlöftesdatum
 description: Orderlöftesfunktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpsrader för de datum som du accepterar.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778478"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115596"
 ---
 # <a name="calculate-order-promising-dates"></a>Beräkna orderlöftesdatum
-Ett företag måste kunna informera sina kunder om orderleveransdatum. Sidan **Orderlöftesrader** ger dig möjlighet att göra detta från en försäljningsorderrad.  
+Ett företag måste kunna informera sina kunder om orderleveransdatum. Sidan **Orderlöftesrader** ger dig möjlighet att göra detta från en försäljningsorder.  
 
 Baserat på en artikels kända och förväntade dispositionsdatum beräknas utleverans- och leveransdatum omedelbart i [!INCLUDE[prod_short](includes/prod_short.md)]. Datum kan sedan utlovas till kund.  
 
@@ -35,7 +35,7 @@ Om du inte har angett ett begärt leveransdatum på försäljningsorderraden, el
 - planerat utleveransdatum +- leveranstid = planerat leveransdatum  
 
 ## <a name="about-order-promising"></a>Om Orderlöfte
-Med funktionen Orderlöfte kan du lova att en order ska levereras på ett visst datum. Det datum då en artikel är disponibel eller kapabel att lova beräknas och orderrader skapas för de datum som du accepterar. Funktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpsrader, om artiklar måste först vara inköp för de datum som du accepterar.
+Med funktionen Orderlöfte kan du lova att en order ska levereras på ett visst datum. Det datum då en artikel är disponibel eller kapabel att lova beräknas och orderrader skapas för de datum som du accepterar. Funktionen är ett verktyg för att beräkna det första möjliga datum då en artikel är disponibel för leverans. Funktionen skapar också inköpsrader, om artiklar måste först vara inköpta eller producerade för de datum som du accepterar.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] använder två grundläggande begrepp:  
 

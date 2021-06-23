@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 868915ebe6a41153d59550f74a955a3ce00b4b15
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 2ccecd22db33e3ce734dd5a5d280f45d22bb2751
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882136"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074568"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams
 
@@ -62,7 +62,7 @@ Det här alternativet är det snabbaste sättet att installera appen.
 
 ## <a name="next-step"></a>Nästa steg
 
-Du är nu redo att använda appen i Team för att dela Business Central-data. Mer information finns i [Arbeta med Business Central-data i Microsoft Teams](across-working-with-teams.md).
+Du är nu redo att använda appen i Team för att söka efter kontakter eller dela Business Central-poster. Mer information finns i [Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams](across-search-contacts-teams.md) eller [Dela poster i Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Se även
 

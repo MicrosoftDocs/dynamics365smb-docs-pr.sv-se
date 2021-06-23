@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual
+ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783040"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087725"
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
@@ -71,7 +71,7 @@ Om du vill tillåta att journaler kopieras till bokförda redovisningsjournaler 
 Om du har skapat standardmotkonton för journalerna på sidan **Redovisningsjournaler** fylls motkontot i automatiskt när du fyller i fältet **Kontonr**. Annars fyller du i både fältet **Kontonr** och fältet **Motkonto** manuellt. Ett positivt belopp i fältet **Belopp** debiteras på huvudkontot och krediteras på motkontot. Ett negativt belopp krediteras på huvudkontot och debiteras på motkontot.
 
 > [!NOTE]  
->   Moms beräknas separat för huvudkontot och motkontot, så att olika momssatser kan användas för dem.
+> Moms beräknas separat för huvudkontot och motkontot, så att olika momssatser kan användas för dem.
 
 ## <a name="working-with-recurring-journals"></a>Arbeta med återkommande journaler
 En återkommande journal är en redovisningsjournal med specifika fält för hantering av transaktioner som du ofta bokför med få eller inga ändringar, till exempel hyra, prenumerationer, el och värme. Med fälten för återkommande transaktioner kan du bokföra både fasta och rörliga belopp. Du kan även ange automatiska återföringstransaktioner för dagen efter bokföringsdatum. Du kan även använda fördelningsnycklar för att dela upp återkommande transaktioner mellan olika konton. Mer information finns i avsnittet [Tilldela återkommande journalbelopp till flera olika konton](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -167,6 +167,7 @@ När du har skapat journalrader som du vet att du förmodligen kommer att skapa 
 När du har sparat standardartikeljournalen visas sidan Artikeljournal så att du kan fortsätta att bokföra den, samtidigt som du vet att den lätt kan återskapas nästa gång du bokför samma eller likartade rader.
 
 ### <a name="to-reuse-a-standard-journal"></a>Så här återanvänder du standardjournaler
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.
 2. Välj åtgärden **Få standardjournal**.
 
@@ -181,23 +182,26 @@ När du har sparat standardartikeljournalen visas sidan Artikeljournal så att d
     Om du inte markerade fältet **Spara enhetsbelopp** när du använde funktionsjobbet **Spara som standardartikeljournal**, innebär detta att fältet **Enhetsbelopp** på rader som infogas från standardjournalen automatiskt kommer att fyllas med artikelns aktuella värde (kopieras från fältet **Styckkostnad** på artikelkortet).
 
     > [!NOTE]  
-    >   Om du har markerat fältet **Spara a-pris** eller **Spara antal** ska du nu kontrollera att de infogade värdena är korrekta för den här speciella lagerjusteringen innan du bokför artikeljournalen.
+    > Om du har markerat fältet **Spara a-pris** eller **Spara antal** ska du nu kontrollera att de infogade värdena är korrekta för den här speciella lagerjusteringen innan du bokför artikeljournalen.
 
     Om de infogade artikeljournalraderna innehåller sparade a-priser som du inte vill bokföra, kan du snabbt justera dem till artikelns aktuella värde:
 
-6. Välj de artikeljournalrader som du vill justera lagret för och välj sedan åtgärden **Omberäkna a-pris**. Då uppdateras fältet A-pris med artikelns aktuella styckkostnad.
-7. Välj åtgärden **Bokföra**.
+5. Välj de artikeljournalrader som du vill justera lagret för och välj sedan åtgärden **Omberäkna a-pris**. Då uppdateras fältet A-pris med artikelns aktuella styckkostnad.
+6. Välj åtgärden **Bokföra**.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Numrera om verifikationsnummer i journaler
+
 Du kan använda funktionen **Numrera om nummer** innan du bokför en journal, för att kontrollera att du inte får bokföringsfel p.g.a. dokumentets nummerordning.
 
 I alla journaler som är baserade på redovisningsjournalen är fältet **Dokumentnr** redigerbart så att du kan ange olika nummer för olika journalrader eller samma verifikationsnummer för relaterade journalrader.
 
-Om fältet **Nr-serie** på journalen fylls, kräver bokföringsfunktionen i redovisningsjournaler att verifikationsnumret på enstaka eller grupperade journalrader är i ordningsföljd. Du kan använda funktionen **Numrera om nummer** innan du bokför journalen, för att kontrollera att du inte får bokföringsfel p.g.a. dokumentets nummerordning. Om relaterade rader grupperades efter verifikationsnummer innan du använde funktionen, förblir de grupperade men kan tilldelas ett annat verifikationsnummer.
+Om fältet **Nr-serie** på journalen fylls, kräver bokföringsfunktionen i redovisningsjournaler att verifikationsnumret på enstaka eller grupperade journalrader är i ordningsföljd. Välj bara åtgärden **Numrera om dokumentnummer** så uppdateras relevanta **Dokumentnr**-fält. Om relaterade rader grupperades efter verifikationsnummer innan du använde funktionen, förblir de grupperade men kan tilldelas ett annat verifikationsnummer.  
 
 Den här funktionen fungerar även på filtrerade vyer.
 
 Alla omnumreringen av verifikationsnummer skall respektera relaterade tillämpningar, som en ansökan om betalningstillämpning som har gjorts från dokumentet på journalraden till ett leverantörskonto. I enlighet med detta kan fälten **Koppla till ID** och **Koppla till ver.nr.** i de berörda transaktionerna uppdateras.
+
+### <a name="to-renumber-documents-in-journals"></a>Numrera om dokument i journaler
 
 Följande procedur är baserad på sidan **Redovisningsjournal**, men gäller för alla andra journaler som baseras på den redovisningsjournalen, t. ex. sidan **Utbetalningsjournal**.
 

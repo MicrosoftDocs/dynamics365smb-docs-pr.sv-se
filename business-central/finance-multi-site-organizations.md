@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935429"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087675"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central för flera platser och internationella organisationer
 Organisationer som har flera platser använder ofta en företagsmodell med nav och ekrar, där ett moderbolag, eller ett huvudkontor, hanterar verksamhetens övergripande verksamhet medan varje plats fungerar som en enda fristående enhet. Platser är ofta geografiskt spridda och har olika behov av att dela information med moderbolaget. Dessutom behöver inte platserna samma komplexitetsnivå, och de saknar ofta de resurser som behövs för att upprätthålla ett stort system.
@@ -38,8 +38,8 @@ På platser varierar ofta olika företags behov, baserat på bransch, affärsmet
 
 För flera multinationella organisationer stöder [!INCLUDE[prod_short](includes/prod_short.md)] lokala rättsliga krav och affärspraxis.
 
-* För online-versioner finns det fler än [40 lokaliserade landsversioner](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) som du kan installera som tillägg från Microsoft AppSource.  
-* I lokala versioner är [landsversioner](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) antingen tillgängliga som Microsoft-lokaliserade versioner eller partnerledda tilläggsprogram.
+* För online-versioner finns det fler än [40 lokaliserade landsversioner](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) som du kan installera som tillägg från Microsoft AppSource.  
+* I lokala versioner är [landsversioner](/azure/architecture/solution-ideas/articles/business-central) antingen tillgängliga som Microsoft-lokaliserade versioner eller partnerledda tilläggsprogram.
 
 Ett nätverk av över 4 000 Microsoft-partner världen över ger lokal expertis.
 
@@ -80,12 +80,12 @@ API:er och XMLportar förenklar processen för att ansluta instanser av [!INCLUD
 | **Affärsbehov** | **Så här stöder Business Central det** | **Läs mer** |
 |-------------------------|-------------------------|-------------------------|
 | Anslut anpassade versioner mellan platser och moderbolaget. | API-sidor kan exponera alla representationer av en entitet, inklusive dess anpassningar. | [Aktivera API:er för Business Central](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Versionshantering och säkerhet. | API: er använder ODataV4, som tillhandahåller versionshantering, webhookar och ändringsspårning. | [Säkerhet och skydd](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Bokför och importera XML-dokument. | Kodmoduler kan visas som obundna åtgärder för att stödja bokföring och insugning av XML-dokument. För bearbetning av XML-dokument kan XMLportar användas. Obundna åtgärder kan också användas för att generera ett XML- eller JSON-dokument. | [XMLport Objekt](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Versionshantering och säkerhet. | API: er använder ODataV4, som tillhandahåller versionshantering, webhookar och ändringsspårning. | [Säkerhet och skydd](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Bokför och importera XML-dokument. | Kodmoduler kan visas som obundna åtgärder för att stödja bokföring och insugning av XML-dokument. För bearbetning av XML-dokument kan XMLportar användas. Obundna åtgärder kan också användas för att generera ett XML- eller JSON-dokument. | [XMLport-objekt](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Gör underhållet enklare via elektronisk dataintegration. | En elektronisk dataintegrationslösning kan läggas till för att fungera som integrationsskikt mellan moderbolaget och platserna. | [Ramverk för dataintegration](across-about-the-data-exchange-framework.md) |
-| Utbyta data mellan olika system. | Använd XMLportar för att skapa XML-dokument, som sedan kan utbytas mellan ett moderbolag som använder ett system och platser som använder Business Central. | [XMLport Översikt](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Utbyta data mellan olika system. | Använd XMLportar för att skapa XML-dokument, som sedan kan utbytas mellan ett moderbolag som använder ett system och platser som använder Business Central. | [XMLport-översikt](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Leda komplexa dataintegrationer. | Använd en kombination av XMLportar med Business Central och Microsoft BizTalk Server för att tillgodose unika behov på dina platser.</br>För komplicerade behov bör du använda en lösning för elektronisk dataintegration baserad på BizTalk Server och Commerce Gateway i Business Central i kombination med XMLportarna. | [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md) |
-| Anslut till <sup></sup>tredjepartslösningar och -tjänster. | Med API:er etableras en punkt-till-punkt-anslutning mellan Business Central och <sup></sup>tredjepartslösningar och -tjänster. | [API v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
+| Anslut till <sup></sup>tredjepartslösningar och -tjänster. | Med API:er etableras en punkt-till-punkt-anslutning mellan Business Central och <sup></sup>tredjepartslösningar och -tjänster. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Främja en effektiv koncernintern försörjningskedja

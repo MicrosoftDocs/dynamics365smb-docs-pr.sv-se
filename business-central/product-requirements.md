@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1dafd874523be75e00e224fd5b1d3f3d33a7e712
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779463"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063508"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimikrav för att använda Business Central
 
@@ -47,7 +47,10 @@ Innan du öppnar [!INCLUDE[prod_short](includes/prod_short.md)] online, bör du 
 ## <a name="outlook"></a>Outlook
 
 **Outlook-program:** För att använda [!INCLUDE[prod_short](includes/prod_short.md)] online som din företagsinkorg i Outlook behöver du Outlook 2019 eller senare, Outlook på webben, Outlook för iOS eller Outlook för Android. Organisationen måste också använda Microsoft 365. Du kan inte använda [!INCLUDE[prod_short](includes/prod_short.md)] online som företagsinkorg i Outlook om din organisation använder Exchange Server lokalt. 
- 
+
+> [!IMPORTANT]
+> Från och med Business Central 2021 utgivningscykel 2 kommer du inte längre att kunna logga in till Business Central-tillägget från Outlook-versioner tidigare än 2012.
+  
 **Webbläsare:** När du använder [!INCLUDE[prod_short](includes/prod_short.md)] som din företagsinkorg i Outlook i en webbläsare, kräver tilläggsprogrammet att datorn kör någon av de angivna webbläsarna i listan över webbläsare som stöds tidigare i artikeln. 
  
 **Plattformar:** När du använder [!INCLUDE[prod_short](includes/prod_short.md)] Outlook tillägg i Outlook för iOS eller Outlook för Android, kräver tilläggsprogrammet att den mobila enheten kör någon av de angivna mobila enheter som stöds för [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -63,6 +66,9 @@ Innan du öppnar [!INCLUDE[prod_short](includes/prod_short.md)] online, bör du 
 ## <a name="excel"></a>Excel
 
 **Redigera i Excel:** För att använda Excel-tillägget för att göra ändringar i Excel och sätta tillbaka ändringarna i [!INCLUDE[prod_short](includes/prod_short.md)], behöver du Excel 2019 eller senare. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
+
+> [!IMPORTANT]
+> Från och med Business Central 2021 utgivningscykel 2 stöder Excel-tillägget funktionen endast Excel-version 2012 eller senare.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Genom att använda administrationscenter för Business Central
 

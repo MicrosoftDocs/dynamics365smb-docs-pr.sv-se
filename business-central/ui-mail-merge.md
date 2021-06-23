@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 118d8db1266bb7150965ec4d1ce44ece77638764
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788596"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110960"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Använda Word-mallar för masskommunikation
 Microsoft Word-mallar kan göra det enklare att kommunicera med enheter som kunder och leverantörer. Du kan till exempel skapa broschyrer för att avisera kunder om en försäljningskampanj, brev för att informera leverantörer om nya inköpsprinciper eller inbjudningar till att locka kontakter till ett kommande evenemang.
+
+> [!NOTE]
+> Du kan bara använda Word-mallar på enheter med Microsoft Word 2019 och Windows operativsystem installerat.
 
 Du kan använda entiteter i [!INCLUDE[prod_short](includes/prod_short.md)] som datakälla för mallen och lägga till kopplings instruktioner i anpassa dokument för varje entitet. Sammankopplingsfälten hämtas från entiteten i [!INCLUDE[prod_short](includes/prod_short.md)]. När du använder en Word-mall på en entitet infogas data från sammankopplingsfälten i dokumentet.
 

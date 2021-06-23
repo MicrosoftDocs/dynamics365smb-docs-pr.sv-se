@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941669"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063483"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
 
@@ -126,7 +126,7 @@ Dataverse måste använda någon av följande autentiseringstyper:
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Dataverse
 
-Följande åtgärder förutsätter att du använder Azure AD för att hantera identiteter och åtkomst. Mer information om hur du registrerar ett program i Azure AD finns i [snabbstart: registrera ett program med Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). Om du inte använder Azure AD, se [använda en annan identitets- och åtkomsthanteringstjänst](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
+Följande åtgärder förutsätter att du använder Azure AD för att hantera identiteter och åtkomst. Mer information om hur du registrerar ett program i Azure AD finns i [snabbstart: registrera ett program med Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). 
 
 1. I Azure Portal, under **Hantera** i navigeringsrutan välj **autentisering**.  
 2. Under **omdirigerings-URL**, lägger du till den omdirigerings-URL som föreslås på sidan **Inställningar för Dataverse-anslutning** i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -146,10 +146,6 @@ Följande åtgärder förutsätter att du använder Azure AD för att hantera id
 
    > [!NOTE]
    > Om du inte uppmanas att logga in med ditt administratörskonto beror det förmodligen på att popup-fönster blockeras. Du kan logga in med popup-fönster från `https://login.microsoftonline.com`.
-
-#### <a name="using-another-identity-and-access-management-service"></a>Använda en annan identitets- och åtkomsthanteringstjänst
-
-Om du inte använder Azure Active Directory för att hantera identiteter och åtkomst behöver du en viss hjälp från en utvecklare. Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten vid körning genom att prenumerera på `OnGetCDSConnectionClientId`- och `OnGetCDSConnectionClientSecret`-händelserna i codeunit 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Koppla bort från [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

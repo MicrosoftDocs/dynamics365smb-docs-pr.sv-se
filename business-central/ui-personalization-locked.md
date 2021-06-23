@@ -1,6 +1,6 @@
 ---
-title: Varför kan jag inte anpassa en sida? | Microsoft Docs
-description: Förklarar varför du inte kan anpassa en sida, och vad du kan göra om du vill låsa upp den för att anpassa den.
+title: Varför kan jag inte anpassa en sida?
+description: Förklarar varför du inte kan anpassa en sida och vad du kan göra om du vill låsa upp den så att du kan anpassa den.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 24f5dba76e5a3921c0e4c4c621192f7d95c017bf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8fd90f7bf90209496f67d52ab32a93cfdbaf803f
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774745"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087650"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Varför är en sida låst för anpassning?
 

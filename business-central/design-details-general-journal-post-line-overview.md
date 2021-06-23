@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777854"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215259"
 ---
 # <a name="general-journal-post-line-overview"></a>Översikt över bokföring av rad i redovisningsjournalen
+
 Kodmodul 12, **Redovisningsjnl – bokför rad**, är det större programobjektet för redovisningsbokföring och är den enda plats där redovisning, moms, kund- och leverantörsreskontraposter kan infogas. Den här kodmodulen används även för alla operationer av typen Verkställ, Ta bort och Återför.  
   
-Kodmodulen har förbättrats i varje utgåva under de senaste tio åren, men dess grundläggande arkitektur har förblivit nästan oförändrad. Kodmodulen blev mycket stor, med ungefär 7 600 kodrader. I den här versionen av [!INCLUDE[prod_short](includes/prod_short.md)] har arkitekturen ändrats och kodmodulen har gjorts enklare och mer stabil. Denna dokumentation introducerar ändringarna och tillhandahåller information som du kanske behöver för en uppgradering.  
+I Microsoft Dynamics NAV 2013 R2 har kodmodulen skapats på grund av att den hade blivit mycket stor, med cirka 7 600 kodrader. Arkitekturen ändrades och kodmodulen har gjorts enklare och mer stabil. Denna dokumentation beskriver ändringarna och tillhandahåller information som du kanske behöver för en uppgradering.  
   
 ## <a name="old-architecture"></a>Gammal arkitektur  
 Den gamla arkitekturen hade följande funktioner:  
@@ -43,9 +44,11 @@ Kodmodul 12 i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller följan
 * Många hjälpfunktioner har överförts till motsvarande transaktionstabeller för kund- och leverantörsreskontra.  
 * Användningen av globala variabler har minimerats så att varje procedur använder parametrar och kapslar in sin programlogik.  
   
-## <a name="see-also"></a>Se även  
-[Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)   
-[Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Se även
+
+[Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)  
+[Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)  
+[Designdetaljer: redovisningsjournalrad (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

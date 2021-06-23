@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771216"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074668"
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
 
 Grattis, du har precis har initialiserat ditt första företag i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-För att hjälpa dig att göra dig redo för affärer, kan du besöka sidan **Assisterad konfiguration** där du kan starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. För att få åtkomst till sidan väljer du helt enkelt ikonen ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Assisterad konfiguration**.
+För att hjälpa dig att göra dig redo för affärer, kan du besöka sidan **Assisterad konfiguration** där du kan starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. Om du vill öppna sidan väljer du bara [den här länken](https://businesscentral.dynamics.com/?page=1801).  
 
-Öppna alternativt listan över assisterade konfigurationsguider för alla roller, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Assisterad konfiguration** och välj sedan relaterad länk.  
+Du kan också välja ikonen ![för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Assisterad konfiguration**.
+
+Du hittar även listan över assisterade konfigurationsguider om du väljer ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), anger **Assisterad konfiguration** och sedan väljer relaterad länk.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

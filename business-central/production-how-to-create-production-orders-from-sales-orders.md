@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du produktionsorder från försäljningsorder | Microsoft Docsr
-description: Du kan skapa produktionsorder från försäljningsorder i avdelningen Försäljning och marknadsföring.
+title: Så här skapar du produktionsorder från försäljningsorder
+description: Du kan skapa produktionsorder från försäljningsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: 8765bf3af62444712e8de8c40408a30c95f2374e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779284"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115242"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Så här skapar du produktionsorder från försäljningsorder
 Du kan skapa produktionsorder för producerade artiklar direkt från försäljningsorder.  
@@ -27,14 +27,27 @@ Du kan skapa produktionsorder för producerade artiklar direkt från försäljni
 3.  Välj åtgärden **Planerad**. På sidan **Förs.orderplanering** kan du visa dispositionen för artikeln på i ordern.  
 4.  Välj åtgärden **Skapa prod.order**.  
 5.  Välj status och ordertyp.  
-6.  Välj **Ja** för att skapa produktionsordern.
+6.  Tryck på knappen **Ja** för att skapa en eller flera produktionsorder för raderna som har **Prod.order** i fältet **Återanskaffningssystem**.
 
-Du kan även välja att skapa en projektproduktionsorder. Mer information finns i [Så här kan du planera projektorder](production-how-to-plan-project-orders.md).   
+
+> [!NOTE]  
+> Behovsrader i den skapade produktionsordern, som har **Prod.order** i sitt **Återanskaffningssystem**-fält, motsvarar underliggande produktionsorder. När du har genererat dessa produktionsorder får du inte glömma att att identifiera ouppfyllda komponentbehov för dem med sidan **Orderplanering** eller funktionen **Omplanering** från skapade order. 
+
+## <a name="order-type"></a>Ordertyp  
+Du kan välja mellan två olika sätt att skapa produktionsorder enligt vad som beskrivs i följande tabell.
+
+|Alternativ|Beskrivning|
+|------|-----------|
+|Artikelorder|En produktionsorder skapas för varje nödvändig produktionsorder som representeras av en rad i fönstret **Försäljningsorderplanering**.|
+|Projektorder|En produktionsorder skapas för varje nödvändig produktionsorder som representeras av en rad i fönstret **Försäljningsorderplanering**. |
+
+När du använder projektorder innehåller fältet **Ursprungstyp** för produktionsordern **Försäljningshuvud**, och ordern innehåller flera rader (en för varje försäljningsradartikel som måste skapas).  
+
 
 ## <a name="see-also"></a>Se även  
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  

@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017105"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115267"
 ---
 # <a name="welcome-to-prod_long"></a>Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -36,7 +36,7 @@ Om du redan har [!INCLUDE[prod_short](includes/prod_short.md)] loggar du in på 
 Du kan också [besöka vårt videobibliotek](across-videos.md) eller börja med utbildningsvägen [Kom igång med Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Om inget annat anges visar innehållet på den Docs.microsoft.com webbplatsen den senaste versionen av [!INCLUDE[prod_short](includes/prod_short.md)] online. Om din organisation använder en annan version av [!INCLUDE[prod_short](includes/prod_short.md)] online är kanske vissa funktioner inte tillgängliga ännu. Om organisationen använder sig [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kanske du använder en tidigare version. Mer information finns i [vanliga frågor och svar](across-faq.md).
+> Om inget annat anges visar innehållet på den Docs.microsoft.com webbplatsen den senaste versionen av [!INCLUDE[prod_short](includes/prod_short.md)] online. Om din organisation använder en annan version av [!INCLUDE[prod_short](includes/prod_short.md)] online är kanske vissa funktioner inte tillgängliga ännu. Om organisationen använder sig [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kanske du använder en tidigare version. Mer information finns i [Vanliga frågor och svar](across-faq.yml).
 
 Följande avsnitt innehåller viktig information som du kan använda för att komma igång med [!INCLUDE [prod_short](includes/prod_short.md)].  
 

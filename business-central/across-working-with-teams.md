@@ -1,5 +1,5 @@
 ---
-title: Arbeta med Business Central-data i Microsoft Teams| Microsoft Docs
+title: Dela Business Central-poster i Microsoft Teams
 description: Lär dig att använda Business Central-appen för Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,21 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/01/2021
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: e20208d50eb65f1a92e6661396bf53007ab88eb8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786888"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074593"
 ---
-# <a name="working-with-business-central-data-in-microsoft-teams"></a>Arbeta med Business Central-data i Microsoft Teams
+# <a name="sharing-business-central-records-in-microsoft-teams"></a>Dela Business Central-poster i Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prod_short](includes/prod_short.md)] erbjuder en app som ansluter Microsoft Teams till dina affärsdata i [!INCLUDE [prod_short](includes/prod_short.md)], så att du snabbt kan dela information mellan teammedlemmar och reagera snabbare på frågor. I den här artikeln lär du dig hur du använder appen för att dela [!INCLUDE [prod_short](includes/prod_short.md)]-data med kollegor i en Team-konversation.
+[!INCLUDE [prod_short](includes/prod_short.md)] erbjuder en app som ansluter Microsoft Teams till dina affärsdata i [!INCLUDE [prod_short](includes/prod_short.md)], så att du snabbt kan dela information mellan teammedlemmar och reagera snabbare på frågor. I den här artikeln får du lära dig att använda appen för att dela [!INCLUDE [prod_short](includes/prod_short.md)]-poster, som en kund, försäljningsorder eller faktura, med kollegor i en Team-konversation.
 
 ## <a name="overview"></a>Översikt
 

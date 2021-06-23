@@ -1,8 +1,6 @@
 ---
-title: Transaktioner mellan företag inom samma organisation | Microsoft Docs
+title: Hantera koncerninterna transaktioner
 description: Med de koncerninterna funktionerna förenklar du affärsprocesser och transaktioner mellan företag inom samma organisation.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2021
+ms.date: 06/02/2021
 ms.author: edupont
-ms.openlocfilehash: fbe84deebc00b07536cda6cb36a3a0784450d62f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786154"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184430"
 ---
 # <a name="managing-intercompany-transactions"></a>Hantera koncerninterna transaktioner
+
 Organisationen kan bestå av flera företag, men kanske inte har motsvarande antal team inom redovisning och administration. När du använder koncerninterna funktioner kan du göra affärer med dina dotterbolag och interna partnerorganisationer på samma sätt som att arbeta med externa leverantörer och kunder. Du anger bara koncernintern information en gång i tillämpliga dokument. Du kan använda funktioner som du redan känner till, t. ex. hantering av leverantörsreskontra och kundreskontra. Genom att koppla funktioner för kontoplanen och dimensioner kan du försäkra dig om att informationen visas på rätt plats.  
 
 Det finns fyra huvudsakliga fördelar med koncerninterna funktioner:  
@@ -33,11 +32,14 @@ Du har full kontroll över alla transaktionsdokument. Du kan t. ex. avvisa ett d
 
 När du skapar en transaktion behöver du inte ange konton för en enskild räkenskapsbok, utan helt enkelt ange moderbolaget. De koncerninterna funktionerna skapar rader i redovisningsjournaler resulterar i att räkenskaperna balanseras för de båda företag som är involverade i en transaktion. I Kundreskontra och Leverantörsreskontra tilldelar du en koncernintern partnerkod till kunder och leverantörer. Alla order och fakturor som sedan genereras och som gäller transaktioner med dessa företag resulterar i att motsvarande dokument skapas i partnerföretaget och att konton balanseras korrekt.  
 
- När du har ställt in affärspartner som kunder och leverantörer i systemet och tilldelat dem koncerninterna partnerkoder, är det möjligt att utbyta koncerninterna inköps – och försäljningsdokument, inklusive artiklar och artikelomkostnader. Koncerninterna funktioner tillåter koncerninterna transaktioner mellan flera databaser, t. ex. i olika länder/regioner samt flera valutor, olika kontoplaner, olika dimensioner och olika artikelnumrering.  
+När du har ställt in affärspartner som kunder och leverantörer i systemet och tilldelat dem koncerninterna partnerkoder, är det möjligt att utbyta koncerninterna inköps – och försäljningsdokument, inklusive artiklar och artikelomkostnader. [!INCLUDE [prod_short](includes/prod_short.md)] har stöd för koncerninterna transaktioner mellan flera databaser, t.ex. i olika länder/regioner samt flera valutor, olika kontoplaner, olika dimensioner och olika artikelnumrering.  
 
-Att konsolidera ekonomiska data kan vara särskilt användbart i samband med koncerninterna processer. Mer information finns i [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md).
+> [!NOTE]
+> Det går inte att byta ut alla typer av data mellan företag på det här sättet. Inköpsfakturor skickas inte till affärspartner via koncerninterna processer. Men försäljningsfakturor som skickas via koncerninterna processer kommer att skapas som inköpsfakturor i det mottagande företaget.
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
+Att konsolidera ekonomiska data kan vara särskilt användbart för koncerninterna processer. Mer information finns i [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md).
+
+I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.
 
 |Till |Gå till|
 |---|---|
@@ -47,6 +49,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Använd koncerninterna bokföringar för att fördela kostnader mellan partnerföretag.|[Fördela kostnader till koncerninterna partner](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Se även
+
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  

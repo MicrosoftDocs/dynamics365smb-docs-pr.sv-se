@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81bbb013cba1039bfe6bb76e8489d5b8ed7c9831
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d0058c707862144592278d08a494175adf67a2a
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772510"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115442"
 ---
 # <a name="setting-up-purchasing"></a>Ställa in inköp
 Innan du kan hantera inköpsprocesser måste du konfigurera reglerna och värdena som definierar företagets inköpspolicyer.
@@ -36,6 +36,10 @@ Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i av
 
 > [!TIP]
 > Beroende på ditt geografiska läge kan vissa sidor innehålla fält som inte beskrivs i artiklarna som anges här, detta eftersom de gäller lokala funktioner eller anpassningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+## <a name="external-document-number"></a>Externt dokumentnummer
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

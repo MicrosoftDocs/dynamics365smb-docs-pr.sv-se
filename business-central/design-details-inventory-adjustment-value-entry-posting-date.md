@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3685a2145186d3e26da7ba0ad6ace0af0b8c0dd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786788"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215109"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen
 Den här artikeln innehåller riktlinjer för kostnadsberäkningsfunktioner för lager [!INCLUDE[prod_short](includes/prod_short.md)]. Den specifika artikeln vägleder dig i hur batchjobbet **Justera kostnad – Artikeltransaktioner** identifierar och tilldelar ett bokföringsdatum till de värdeposter som batchjobbet håller på att skapa.  
 
-Först granskas processens koncept, hur batch-jobbet identifierar och tilldelar bokföringsdatum till värdetransaktionen som ska skapas. Därefter delas vissa situationer som vi i supportteamet stöter på då, och slutligen kommer en sammanfattning av de begrepp som använd s i version 3.0.  
+Först granskas processens koncept, hur batch-jobbet identifierar och tilldelar bokföringsdatum till värdetransaktionen som ska skapas. Därefter delas vissa situationer som vi i supportteamet stöter på då, och slutligen kommer en sammanfattning av de begrepp som används.  
 
 ## <a name="the-concept"></a>Konceptet  
-Från och med version 5.0 tilldelar batchjobbet **Justera kost.-artikeltrans** ett bokföringsdatum för den värdetransaktion den håller på att skapa genom följande steg:  
+Batchjobbet **Justera kost.-artikeltrans** tilldelar ett bokföringsdatum för den värdetransaktion den håller på att skapa genom följande steg:  
 
 1.  Bokföringsdatum för den transaktion som skapas är från början samma datum som för den transaktion den justerar.  
 
@@ -61,7 +61,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
 ![Inställningar för redovisning i scenariot](media/helene/TechArticleAdjustcost4.png "Inställningar för redovisning i scenariot")
 
- Första tillåtna bokföringsdatum är det datum som anges i fältet Tillåt bokföring från: 10 September 2013.  
+ Första tillåtna bokföringsdatum är det datum som anges i fältet Tillåt bokföring från: 10 september 2013.  
 
  Om såväl lagerperioder som tillåtna bokföringsdatum i Redovisningsinställningar har angetts, kommer det senare av de två att bestämma det tillåtna datumspannet för bokföring.  
 
@@ -117,7 +117,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
  Användarinställningar:  
 
--   Tillåt bokföring från = 1 januari 2013.  
+-   Tillåt bokföring från = 1 december 2013.  
 
 -   Tillåt bokföring t.o.m. = tom  
 
@@ -133,7 +133,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
 2.  Öppna artikeljournalen, skapa och bokför en rad så här:  
 
-     Bokföringsdatum = 15 December 2013  
+     Bokföringsdatum = 15 december 2013  
 
      Artikel = TEST  
 
@@ -155,7 +155,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
 4.  Öppna artikeljournalen, skapa och bokför en rad så här:  
 
-     Datum = 15 januari 2014  
+     Datum = 15 januari, 2014  
 
      Artikel = TEST  
 
@@ -191,7 +191,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
  **Sammanfattning:**  
 
- Med erfarenheterna från detta scenario i ryggen och i beaktande av de lämpligaste inställningarna för tillåtet datumintervall för bokföring för ett företag, kan följande komma till nytta: Så länge ändringar i lagervärde får bokföras inom en period (i detta fall december) bör de inställningar som företaget använder för tillåtna bokföringsintervall justeras i enlighet med detta beslut. Fältet Tillåt bokföring fr.o.m i Redovisningsinställningarna, som anger att den 1 december skulle låta omvärderingen utförd i december vidarebefordras till att påverka utgående transaktioner under samma period.  
+ Med erfarenheterna från detta scenario i ryggen och i beaktande av de lämpligaste inställningarna för tillåtet datumintervall för bokföring för ett företag, kanske du bör överväga följande information: Så länge du låter ändringar i lagervärde bokföras inom en period (i detta fall december) bör de inställningar som företaget använder för tillåtna bokföringsintervall justeras i enlighet med detta beslut. Fältet Tillåt bokföring fr.o.m i Redovisningsinställningarna, som anger att den 1 december skulle låta omvärderingen utförd i december vidarebefordras till att påverka utgående transaktioner under samma period.  
 
  Användargrupper är inte behöriga att bokföra i december utan i januari, vilket troligen var avsett att begränsas av Redovisningsinställningarna i detta scenario, bör i stället tas upp via användarinställningarna.  
 
@@ -210,13 +210,13 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
  Redovisningsinställningar:  
 
--   Tillåt bokföring från = 1 januari 2013.  
+-   Tillåt bokföring från = 1 december 2013.  
 
 -   Tillåt bokföring t.o.m. = tom  
 
  Användarinställningar:  
 
--   Tillåt bokföring från = 1 januari 2013.  
+-   Tillåt bokföring från = 1 december 2013.  
 
 -   Tillåt bokföring t.o.m. = tom  
 
@@ -234,7 +234,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
      Inköpsleverantörsnr: 10000  
 
-     Bokföringsdatum = 15 December 2013  
+     Bokföringsdatum = 15 december 2013  
 
      Leverantörens fakturanr: 1234  
 
@@ -333,37 +333,23 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
  I detta scenario kunde ett alternativ vara att låta Redovisningsinställningarna, fältet Tillåt bokföring fr.o.m att ange ett datum i december några dagar längre fram, samt att flytta fram bokföringen av den första artikelomkostnaden, detta i syfte att låta alla kostnader för föregående period/räkenskapsår först registreras för den period som de tillhör, köra batch-jobbet Justera kostn. – artikeltrans. och därefter flytta tillåtet bokföringsdatum till den nya perioden\/det nya räkenskapsåret. Därefter kan den artikelomkostnaden med bokföringsdatum 2 januari bokföras.  
 
 ## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Historik för batch-jobbet Justera kost. – artikeltrans  
- Nedan visas en sammanfattning av begreppet Bokföra datum för justeringsvärdetransaktioner utförda av batch-jobbet Justera kost. – artikeltrans. sedan version 3.0.  
+ Nedan visas en sammanfattning av begreppet Bokföra datum för justeringsvärdetransaktioner utförda av batch-jobbet Justera kost. – artikeltrans.  
 
-### <a name="from-version-30370a"></a>Från version 3.0..3.70.A  
- I begäranformuläret i batch-jobbet Justera kost. – artikeltrans är finns ett bokföringsdatum som ska anges av användaren. Batch-jobbet körs genom alla nödvändiga förändringar och skapar värdetransaktioner med det bokföringsdatum som har angetts i formuläret. Föreslaget bokföringsdatum som ska användas är dagens datum.  
-
-### <a name="version-370b40"></a>Version 3.70.B..4.0  
- I begäranformuläret i batch-jobbet Justera kost. – artikeltrans finns ett bokföringsdatum för stängd periodtransaktion som ska anges av användaren. Batch-jobbet körs genom alla nödvändiga ändringar och skapar värdetransaktioner med bokföringsdatumet för den överordnade artikeltransaktionen (leveransdatumet för den försäljning som justeringen adresserar). Om bokföringsdatumet för den överordnade artikeltransaktionen inte faller inom det tillåtna bokföringsintervallet, kommer det bokföringsdatum som angetts som bokföringsdatum för stängd periodtransaktion att tilldelas justeringsvärdetransaktionen. Ett datum anses ligga i en stängd period då det infaller före datumet i fältet Tillåt bokföring fr.o.m i Redovisningsinställningarna.  
-
-### <a name="from-version-50"></a>Från version 5.0:  
+### <a name="about-the-request-form-posting-date"></a>Om bokföringsdatum för formulär för begäran:  
  I batch-jobbet Justera kost. – artikeltrans finns inte längre något bokföringsdatum som måste anges av användaren. Batch-jobbet körs igenom alla nödvändiga förändringar och skapar värdetransaktioner med samma bokföringsdatum som den värdetransaktion jobbet korrigerar. Om bokföringsdatumet inte ligger inom tillåtet intervall används bokföringsdatumet i fältet Tillåt bokföring fr.o.m. i Redovisningsinställningarna ELLER, om lagerperioder används, så används det senare datumet av de båda. Se begreppsbeskrivningen ovan.  
 
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Historik för Bokför lagerkostnad i redov.  
  Batch-jobbet Bokför lagerkostnad i redovisning är nära knutet till batch-jobbet Justera kost.-artikeltrans, varför historiken för batch-jobbet även summeras och delas här.  
-
-### <a name="from-version-30370a"></a>Från version 3.0..3.70.A  
- I begäranformuläret i Bokför lagerkostnad i redov. finns ett bokföringsdatum som ska anges av användaren. Batch-jobbet körs genom alla värdetransaktioner i filtret (om sådana finns) och skapar redovisningstransaktioner med det bokföringsdatum som har angetts i formuläret.  
-
-### <a name="version-370b40"></a>Version 3.70.B..4.0  
- I begäranformuläret i Bokför lagerkostnad i redov. är finns fältet Bokföringsdatum för stängd periodtransaktion tillgängligt. Programmet använder det datum som du anger i detta fält som bokföringsdatum för de redovisningstransaktioner som skapas för värdetransaktioner vars bokföringsdatum finns i avslutade bokföringsperioder. I annat fall kommer redovisningstransaktionerna att ha samma bokföringsdatum som de ursprungliga värdetransaktionerna. Ett datum anses ligga i en stängd period då det infaller före datumet i fältet Tillåt bokföring fr.o.m i Redovisningsinställningarna. Om du bokför G\/L per bokföringsmall kommer redovisningstransaktionerna att få det bokföringsdatum som har angetts i fältet Bokföringsdatum i formuläret.  
-
- I version 3 och 4 söker batch-jobbet igenom alla värdetransaktioner i syfte att undersöka om det finns några värdetransaktioner där kost.belopp (faktiskt) skiljer sig från den kostnad som bokförts i redov. Om det finns skillnader kommer skillnaden att bokföras i en redovisningstransaktion. Om förväntad kostnadsbokföring används kommer motsvarande fält att bearbetas på samma sätt.  
-
+ 
 ![Faktisk kostnad jämfört med förväntad kostnad](media/helene/TechArticleAdjustcost14.png "Faktisk kostnad jämfört med förväntad kostnad")
 
-### <a name="from-version-50"></a>Från version 5.0:  
+### <a name="about-the-posting-date"></a>Om bokföringsdatum
  I batch-jobbet Bokför lagerkostnad i redov. finns inte längre något bokföringsdatum som måste anges i begäranformuläret. Bokföringstransaktionen skapas med samma bokföringsdatum som den relaterade värdetransaktionen. Datumintervall för tillåten bokföring måste tillåta bokföringsdatumet för redovisningstransaktionen som skapats för att avsluta batch-jobbet. I annat fall måste datumintervallet för tillåten bokföring tillfälligt öppnas igen genom att ändra eller ta bort datumen i fältet Tillåt bokföring fr.o.m och Till i Redovisningsinställningarna. För att undvika avstämningsproblem krävs att okföringsdatum för redovisningstransaktionen motsvarar bokföringsdatumet för värdetransaktionen.  
 
  Batch-jobbet söker igenom tabellen 5811 – Bokför värdetransaktion i redovisning i syfte att identifiera värdetransaktionerna i omfånget för bokföring i redovisningen. Tabellen töms efter slutförd körning.
 
 ## <a name="see-also"></a>Se även  
-[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
+[Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
 
 

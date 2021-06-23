@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7d15b47124248e27698136fab362e867e81ba47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782890"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214709"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av den primära produktionsplanen (MPS) och materialbehovsplanen (MRP), baserat på faktiska behov och behovsprognoser.  
 
@@ -74,7 +74,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 ### <a name="to-change-selected-planning-parameters"></a>Så hör kan du ändra de valda planeringsparametrarna  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerställeenheter** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **lagerställeenheter** och välj sedan relaterad länk.  
 2.  Öppna det enhetskortet för lagerställe ÖST för artikel 1100, framhjul.  
 3.  Fyll i fälten på snabbfliken **Planering** enligt beskrivningen i följande tabell.  
 
@@ -91,7 +91,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 ### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  På sidan **Försäljningsorder** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
@@ -265,7 +265,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 ## <a name="see-also"></a>Se även  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
- [Genomgång: Planera leveranser manuellt](walkthrough-planning-supplies-manually.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
 
 

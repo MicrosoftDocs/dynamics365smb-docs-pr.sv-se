@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 04/09/2021
-ms.openlocfilehash: 0487bd06f6a28313e90d6353aecf123a7fc3a708
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882261"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115417"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
@@ -78,7 +78,7 @@ Som intern administratör har du tillgång till administrationscentret där du k
 Din [!INCLUDE[prod_short](includes/prod_short.md)] återförsäljningspartner kommer att hjälpa dig med teknisk support. Det här avsnittet kan du kontakta din återförsäljningspartner om de har lämnat sina kontaktuppgifter för support. Om din [!INCLUDE[prod_short](includes/prod_short.md)] partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft. Mer information finns i [Eskalera supportproblem till Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) i administrationsinnehållet.  
 
 > [!NOTE]
-> Det här avsnittet är bara tillgängligt om du har betalat för en [!INCLUDE[prod_short](includes/prod_short.md)]-prenumeration. Om du har registrerat dig för en utvärderingsperiod och ännu inte har köpt [!INCLUDE[prod_short](includes/prod_short.md)] har du inte någon återförsäljare och kan inte kontakta Microsoft supportteam. Du hittar en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
+> Det här avsnittet är bara tillgängligt om du har betalat för en [!INCLUDE[prod_short](includes/prod_short.md)]-prenumeration. Om du har registrerat dig för en utvärderingsperiod och ännu inte har köpt [!INCLUDE[prod_short](includes/prod_short.md)] har du inte någon återförsäljare och kan inte kontakta Microsoft supportteam. Du hittar en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ### <a name="support-contacts"></a>Supportkontrakt
 
@@ -163,7 +163,7 @@ Detsamma gäller om du använder [!INCLUDE [prod_short](includes/prod_short.md)]
 ## <a name="see-also"></a>Se även
 
 [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)  
-[Hur hittar jag en återförsäljningspartner?](across-faq.md#findpartner)  
+[Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner)  
 [Hjälpsystem (endast tillgängligt på engelska)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blogginlägg: hitta rätt resurser och ge feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central utvecklare och administration](/dynamics365/business-central/dev-itpro/)  

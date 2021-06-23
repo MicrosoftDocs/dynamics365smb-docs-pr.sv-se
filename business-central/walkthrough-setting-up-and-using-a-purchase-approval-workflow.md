@@ -1,5 +1,5 @@
 ---
-title: Konfigurera och använda ett arbetsflöde för godkännande av inköp | Microsoft Docs
+title: Konfigurera och använda ett arbetsflöde för godkännande av inköp
 description: Du kan automatisera processen för att godkänna nya eller ändrade transaktioner, t.ex dokument, journalrader och kundkort, genom att skapa arbetsflöden med stegen för godkännandena i fråga. Innan du skapar godkännandearbetsflöden, måste du skapa en godkännare och ersättningsgodkännare för varje godkännandeanvändare. Du kan också ange godkännares beloppsgränser för att definiera vilka försäljnings- och inköpsposter de är behöriga att godkänna. Godkännandebegäranden och andra kan meddelanden skickas som e-post eller intern anteckning. För varje inställning av godkännandeanvändare kan du också ställa in när de tar emot meddelanden.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782815"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110985"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
 
@@ -30,11 +30,11 @@ Du kan automatisera processen för att godkänna nya eller ändrade transaktione
 
 I den här genomgången tas följande aktiviteter upp:  
 
-- Ställa in godkännandeanvändare.  
-- Ställa in meddelanden för godkännandeanvändare.  
-- Ändra och aktivera ett godkännandearbetsflöde.  
-- Begära godkännande av en inköpsorder, som Alicia.  
-- Ta emot ett meddelande och sedan godkänna begäran, som Sean.  
+- Ställa in godkännandeanvändare  
+- Ställa in meddelanden för godkännandeanvändare  
+- Ändra och aktivera ett godkännandearbetsflöde  
+- Begära godkännande av en inköpsorder, som Alicia  
+- Ta emot ett meddelande och sedan godkänna begäran, som Sean  
 
 ## <a name="story"></a>Situation
 
@@ -87,8 +87,8 @@ Skapa arbetsflödet för godkännande av inköpsorder genom att kopiera stegen f
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Så här skapar och aktiverar du ett arbetsflöde för inköpsordergodkännade
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflöden** och välj sedan relaterad länk.  
-2. På sidan **Arbetsflöden** väljer du åtgärden **Nytt arbetsflöde från mall**.  
-3. På sidan **Arbetsflödesmallar** väljer du arbetsflödesmallen kallad **Arbetsflöde för godkännande av inköps order** och väljer sedan knappen **OK**.  
+2. På sidan **Arbetsflöden** väljer du **Åtgärder**, sedan **Ny** och sedan åtgärden **Nytt arbetsflöde från mall**.  
+3. På sidan **Arbetsflödesmallar** väljer du arbetsflödesmallen kallad **Arbetsflöde för godkännande av inköpsorder**.  
 
     Sidan **Arbetsflöde** öppnas för ett nytt arbetsflöde som innehåller all information för den valda mallen. Värdet i fältet **Kod** utökas med *-01* i syfte att ange att detta är det första arbetsflöde som skapats från arbetsflödesmallen **Arbetsflöde för godkännande av inköpsorder**.  
 4. I huvudet på fönstret **Arbetsflöde** markerar du kryssrutan **Aktiverad**.  
@@ -100,9 +100,9 @@ Använd det nya arbetsflödet Arbetsflöde för godkännande av inköpsfaktura g
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Så här begär du godkännande av en inköpsorder, som Alicia.
 
 1. Logga in som Alicia.
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.  
-3. Markera raden för öppen inköpsorder 106001 och välj åtgärden **redigera**.  
-4. På sidan **inköpsorder** väljer du åtgärden **Skicka godkännandebegäran**.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan tillhörande länk.  
+3. Markera raden om du vill öppna inköpsorder 106001.  
+4. På sidan **Inköpsorder** väljer du **Åtgärder**, sedan **Begär godkännande** och sedan åtgärden **Skicka godkännandebegäran**.  
 
 Observera att värdet i fältet **Status** har ändrats till **Väntar på godkännande**.  
 

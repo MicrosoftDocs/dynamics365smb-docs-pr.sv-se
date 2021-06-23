@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: 5a9b99b367ca732f5b6347462a07b0d0c3f5c522
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961558"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115896"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Hjälpmedel och kortkommandon
 
@@ -85,6 +85,6 @@ Du hittar mer information om åtkomst via Microsofts produkter och hjälpmedel p
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Vanliga frågor och svar](across-faq.md)  
+[Vanliga frågor och svar](across-faq.yml)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
