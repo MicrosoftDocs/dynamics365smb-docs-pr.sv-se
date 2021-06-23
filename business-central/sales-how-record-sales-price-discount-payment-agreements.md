@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778678"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216159"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
 > [!NOTE]
@@ -127,7 +127,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
     > Fakturarabattkoder representeras av befintliga kundkort. Detta aktiverar dig att snabbt tilldela fakturarabattvillkor till kunder, genom att välja namnet på en andra kunder som ska ha dessa villkor. Ställ in kundspecifika villkor för fakturarabatt genom att ange fältet **Fakturarabattkod** som kundens kundkod, och fortsätt sedan till nästa steg.
 
 8. På sidan **Kundkort** väljer du åtgärden **Fakturarabatter**. Sidan **Kundfakturarabatter** öppnas.
-9. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i SEK.
+9. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i din lokala valuta.
 10. I fältet **Minimibelopp** kan du om du vill ange det minimibelopp som en faktura måste vara på för att komma på fråga för rabatt.
 11. Fakturarabatten beräknas som en procentandel av fakturabeloppet i fältet **Rabatt %**.
 12. Upprepa steg 5 till och med 7 för varje valuta som kunden ska ta emot en annan fakturarabatt för.
@@ -149,7 +149,7 @@ När du har bestämt vilka kunder som är aktuella för fakturarabatter, skriver
 Så här definierar du fakturarabattvillkor för försäljning:
 
 1. På sidan **Kunder** väljer du åtgärden **Fakturarabatter**. Sidan **Kundfakturarabatter** öppnas.
-2. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i SEK.
+2. Ange valutakoden som du vill definiera fakturarabattvillkor för i fältet **Valutakod**. Lämna det här fältet tomt om du vill ange fakturarabattvillkor i din lokala valuta.
 3. Ange i fältet **Minimibelopp** det minsta belopp som en faktura måste vara på för att komma i fråga för rabatt.
 4. Fakturarabatten beräknas som en procentandel av fakturabeloppet i fältet **Rabatt %**.
 5. Upprepa steg 5 till och med 7 för varje valuta som kunden ska ta emot en annan fakturarabatt för.

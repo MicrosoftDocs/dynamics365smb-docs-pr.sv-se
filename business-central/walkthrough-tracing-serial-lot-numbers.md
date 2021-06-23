@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5bf9da1a8e561f49ae02e8178c0eb2b8232e93ba
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771960"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216286"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Genomgång: Spåra serienummer/partinummer
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 När produktfel inträffar måste felen identifieras och de artiklar som påverkas måste hindras från att lämna företaget. Ifall defekta produkter redan har skickats måste du spåra vem som tagit emot dem och, vid behov, att återkalla dessa artiklar.  
 
@@ -51,7 +51,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 För att kunna utföra den här genomgången behöver du:  
 
 - Företaget [!INCLUDE[prod_short](includes/prod_short.md)].  
-- Du kan skapa nya artiklar och ett antal affärstransaktioner genom att följa stegen i [Förbereda exempeldata](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Situation
 

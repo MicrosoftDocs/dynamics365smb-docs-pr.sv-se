@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771167"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216134"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Hitta relaterade transaktioner för bokförda dokument 
 
@@ -67,7 +67,7 @@ Du kan söka efter transaktioner som bygger på information om antingen dokument
 När du har gjort ett val anger du relevant sökningsinformation i fälten längst upp. Använd knappbeskrivningarna i fälten för att få hjälp. När du är klar väljer du **Sök** för att starta sökningen. Om du ändrar något av filtren, måste du välja **Sök** igen.
 
 > [!TIP]
-> Ett par exempel på hur du använder **Hitta transaktioner** finns i [Spåra artikel-spårade artiklar](inventory-how-to-trace-item-tracked-items.md) och [Genomgång: spåra serie-/partinummer](walkthrough-tracing-serial-lot-numbers.md).
+> Ett par exempel på hur du använder **Sök poster** finns i [Spåra objekt-spårade artiklar](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

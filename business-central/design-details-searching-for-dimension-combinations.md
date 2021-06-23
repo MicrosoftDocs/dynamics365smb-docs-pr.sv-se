@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: db971af61719bfa84566c78cc91b4c805c14ab9b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783853"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215759"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Söka efter dimensionskombinationer
 När du stänger en sida när du har redigerat en uppsättning med dimensioner utvärderar [!INCLUDE[prod_short](includes/prod_short.md)] om den redigerade uppsättningen med dimensioner finns. Om uppsättningen inte finns skapas en ny uppsättning och dimensionskombinationens ID returneras.  
@@ -73,8 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Se även
-
- [HÄMTA funktionen (post)](/dynamics-nav/GET-Function--Record-)    
+    
  [Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md)   
  [Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)   
  [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   

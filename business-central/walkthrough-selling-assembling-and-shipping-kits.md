@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab6625213bdca813bb2ace08b0b07c828ef99678
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782865"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216311"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 För att stödja just-i-tid-lager och kapaciteten för att anpassa produkter till kundförfrågan, kan monteringsorder automatiskt skapas och kopplas så snart försäljningsorderraden skapas. Kopplingen mellan försäljningsbehov och monteringsleverans hjälper försäljningsorderhandläggare att anpassa monteringsartikeln och lova leveransdatum utifrån komponentens tillgänglighet. Monteringsförbrukning och monteringsutflöde bokförs dessutom automatiskt tillsammans med utleveransen av den kopplade försäljningsordern.  
 
@@ -82,7 +82,7 @@ Innan du kan utföra aktiviteterna i den här genomgången måste du göra följ
 -   Installera [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Ange dig själv som distributionslageranvändare på lagerstället WHITE i följande steg:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan relaterad länk.  
 2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj fältet **Standard**.  
@@ -92,7 +92,7 @@ Innan du kan utföra aktiviteterna i den här genomgången måste du göra följ
 
 Förbered lagerstället WHITE för bearbetning av monteringen i följande steg:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
 2.  Öppna lagerställekortet för lagerstället WHITE.  
 3.  På snabbfliken **lagerställen** anger du **V-10-0001** i fältet **Till monteringsplats – kod**.  
 
@@ -104,10 +104,10 @@ Förbered lagerstället WHITE för bearbetning av monteringen i följande steg:
 
 Ta bort standardledtiden för interna processer genom att följa dessa steg:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Produktionsinställningar** och välj sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Produktionsinställningar** och välj sedan relaterad länk.  
 2.  På sidan **Produktionsinställningar** klickar du på snabbfliken **planering**, tar bort värdet i fältet **Standard säkerhetsledtid**.  
 
-Skapa lagret för monteringskomponenter genom att följa [förbereda exempeldata](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
+<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Situation  
 Den 23 januari tar försäljningsorderhandläggaren Susan en beställning från The Device Shop på tre enheter av sats B, som är ett ATO-objekt. Alla tre enheterna anpassas och måste innehålla det kraftiga grafikkortet och ett extra RAM-block. Skivenheterna uppgraderas till DWD, eftersom CD-enheterna är inte är tillgängliga. Susan vet att enheterna kan monteras omedelbart, så hon lämnar föreslag på leveransdatum den 23 januari.  
@@ -443,7 +443,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
  [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)   
  [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md)   
  [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)   
- [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

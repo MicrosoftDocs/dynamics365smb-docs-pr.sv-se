@@ -1,6 +1,6 @@
 ---
-title: Skapa miljö för begränsat läge | Microsoft Docs
-description: Skapa en miljö där du kan utforska, utbilda demo, utveckla och prova.
+title: Skapa miljö för begränsat läge
+description: Skapa en miljö där du kan utforska, utbilda, demonstrera, utveckla och prova inifrån Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: 3419272afd092d2ddb1374940e556d42709c1534
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776028"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215634"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Skapa en miljö för begränsat läge i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du enkelt skapa en säker miljö där du kan testa, träna eller felsöka utan att störa företagets arbetsprocesser eller företagsdata. En sådan icke-produktionsmiljö kallas för *begränsat läge*. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.  
 
-Administratören kan skapa miljö för begränsat läge i [administrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), men om du snabbt vill testa något kan du skapa en miljö för begränsat läge från insidan [!INCLUDE[prod_short](includes/prod_short.md)].  
+Administratören hanterar miljö för begränsat läge i [administrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), men om du snabbt vill testa något kan du skapa en miljö för begränsat läge från insidan [!INCLUDE[prod_short](includes/prod_short.md)]. När du är klar kan du ta bort det begränsade läget med hjälp av administrationscentret.  
 
 > [!NOTE]
-> Tekniskt sett skiljer sig miljöer i begränsat läge mycket från produktionsmiljöer, även om administratören skapar ett begränsat läge som omfattar produktionsdata. Du kan inte använda begränsat läge för benchmarking och du kan exempelvis inte begära en databasexport. Om du vill skapa ett begränsat läge för benchmark-hantering kan administratören skapa en dedikerad produktionsmiljö i administrationscentret. Mer information finns i [Typer av miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
+> Tekniskt sett skiljer sig miljöer i begränsat läge mycket från produktionsmiljöer, även om administratören skapar ett begränsat läge som omfattar produktionsdata. Du kan inte använda begränsat läge för benchmarking och du kan exempelvis inte begära en databasexport. Om du vill skapa ett begränsat läge för benchmark-hantering kan administratören skapa en dedikerad miljö i administrationscentret. Mer information finns i [Produktionsmiljöer and miljöer för begränsat läge](/dynamics365/business-central/dev-itpro/administration/environment-types).
 
 ## <a name="to-create-a-sandbox-environment-in-your-prod_short"></a>Skapa miljö för begränsat läge i din [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,8 +48,9 @@ Högst upp i Rollcentret visas ett meddelande att informera dig om att det är b
     <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
-> En miljö för begränsat läge som skapas på det här sättet innehåller endast standarddemonstrationsdata för CRONUS-företaget. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.<br /><br />
-> Du kan också skapa en miljö för begränsat läge som innehåller produktionsdata. Du måste göra detta i administrationscentret. Mer information finns i [Hantera miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i hjälpen för utvecklare och IT-proffs.  
+> En miljö för begränsat läge som skapas på det här sättet innehåller endast standarddemonstrationsdata för CRONUS-företaget. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.
+>
+> Du kan också skapa en begränsad miljö baserad på produktionsdata. Du måste göra detta i administrationscentret. Mer information finns i [Hantera miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i utvecklar- och administrationsinnehållet.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
     ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
@@ -60,17 +61,22 @@ En administratör kan begränsa eller även spärra åtkomsten för vissa använ
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Avancerade funktioner i begränsat läge
 
-Miljön i begränsat läge är inte minst användbar eftersom den innehåller ett par praktiska funktioner.
+Miljön i begränsat läge är inte minst användbar eftersom den innehåller ett par praktiska funktioner:
 
-### <a name="to-enable-the-advanced-user-experience"></a>Aktivera avancerade användare
+* [Avancerad användarupplevelse](#advanced-user-experience)  
+* [Fullständiga exempeldata](#complete-sample-data)  
+* [Designer](#designer)  
+
+### <a name="advanced-user-experience"></a>Avancerad användarupplevelse
 
 Det går att aktivera och prova alla funktioner i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)]  i ett begränsat läge för klientorganisation genom att ställa in fältet **Erfarenhet** på sidan **Företagsinformation** till *Premium*. Leta upp sidan **företagsinformation** i menyn :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="ikonen Inställningar"::: menu.  
 
-När du har aktiverat användarupplevelsen *Premium* får du tillgång till alla standardprofiler (roller) och Rollcenter i standardversionen. Du kan också skapa ett utvärderingsföretag som helt har ställts in, inklusive demonstrationsdata och tillgång till avancerade delar av produkten. Alternativt kan du kontakta en återförsäljare för en demonstration av funktionerna. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.md#findpartner).  
+När du har aktiverat användarupplevelsen *Premium* får du tillgång till alla standardprofiler (roller) och Rollcenter i standardversionen. Du kan också skapa ett utvärderingsföretag som helt har ställts in, inklusive demonstrationsdata och tillgång till avancerade delar av produkten. Alternativt kan du kontakta en återförsäljare för en demonstration av funktionerna. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq.yml#findpartner).  
 
-### <a name="to-enable-complete-sample-data"></a>Så här aktiverar du fullständiga exempeldata
+### <a name="complete-sample-data"></a>Fullständiga exempeldata
 
-I miljön med begränsat läge kan du också skapa ett nytt företag med alternativet **Avancerad utvärdering – fullständig exempeldata** så att du kan ta utbildning eller steg genom att göra en genomgång som kräver ytterligare exempeldata, till exempel [genomgång: ta emot och föra in i grundläggande konfiguration av distributionslager](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+Om du behöver ytterligare exempeldata kan du prata med återförsäljningspartnern.
+<!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Så här skapar du ett företag med fullständiga exempeldata i ett begränsat läge
 
@@ -84,7 +90,9 @@ När assisterad konfiguration är klar kan du börja utforska det nya företaget
 
 ### <a name="designer"></a>Designer
 
-I en miljö för begränsat läge kan du se att **designer** är aktiverat. Du kan aktivera designer genom att välja ikonen ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) på en sida eller genom att välja menyalternativet **design** på inställningsmenyn ![inställningar](media/ui-experience/settings_icon_small.png).
+I en miljö för begränsat läge kan du se att **designer** är aktiverat. Du kan aktivera designer genom att välja ikonen ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) på en sida eller genom att välja menyalternativet **design** på inställningsmenyn ![inställningar](media/ui-experience/settings_icon_small.png).  
+
+Mer information finns i [Använda designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) i utvecklar- och administrationsinnehållet (enbart på engelska).  
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
