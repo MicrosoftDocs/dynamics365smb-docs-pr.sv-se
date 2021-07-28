@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11b90a7aa48927d68d4e32845343dddc56ba77c1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786643"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437057"
 ---
 #  <a name="create-analysis-reports"></a>Skapa analysrapporter
 Försäljningschefer behöver regelbundet analysera omsättning, bruttovinst och andra viktiga indikatorer på försäljningen. Inköpare är mer intresserade av dynamiken i inköpsvolymer, leverantörens kapacitet och inköpspriser. Logistik- och lagerchefer behöver i sin tur information om lageromsättning, analyser av lagerrörelser och statistik över lagervärdet.  
@@ -61,7 +61,7 @@ I en analysrapport visas analysparametrarna som kolumner. Du kan definiera vilka
 
 En mall innehåller en uppsättning rader där var och en representerar de analyskolumner som finns i analysrapporten. När du definierar en kolumn måste du tilldela en analystypkod till en rad. Denna analystypkod bestämmer typen av källdata i artikeltransaktioner som analysen ska baseras på. Källdata inkluderar kostnad, försäljningsbelopp eller antal och deras tillhörande värdeposter. Du kan lägga upp ett valfritt antal kolumnmallar och sedan skapa nya analysrapporter utifrån dem.    
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kolumnmallar för försäljning** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kolumnmallar för försäljning** och väljer sedan relaterad länk.  
 2. Välj den första tomma raden och fyll sedan i fälten efter behov.
 3. Välj åtgärden **Kolumner**.  
 4. På sidan **Analyskolumner** fyller du sedan i fälten för att ange vilka kolumner som ska ingå i analysrapporten.  
@@ -78,7 +78,7 @@ I en analysrapport visas analysobjekten på raderna. Du kan definiera vilka rade
 
 En mall innehåller en uppsättning rader som representerar de analysrader som finns i analysrapporten. En rad kan ange en eller ett intervall med artiklar, kunder, leverantörer eller grupper. Du kan också skapa en formel i en rad om du vill summera andra rader. Du kan lägga upp ett valfritt antal radmallar och sedan skapa nya analysrapporter utifrån dem.    
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Radmallar för försäljning** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Radmallar för försäljning** och väljer sedan relaterad länk.  
 2. Välj den första tomma raden och fyll sedan i fälten efter behov.
 3. Välj åtgärden **Rader**.  
 4. På sidan **Analysrader** skapar du rader för artiklar, kunder, leverantörer eller säljare som du vill visa siffror för i analysrapporten. Du måste fylla i fälten **Typ**, **Intervall** och **Beskrivning**.  
@@ -91,7 +91,7 @@ Följande procedur är baserad på en analysrapport för försäljning. Momentet
 
 Du använder analysrapporter för att analysera försäljningsdynamiken efter nyckeltal för försäljning som du själv väljer, till exempel omsättning i både belopp och kvantitet, vinstmarginal eller utfall jämfört med budget. Du kan också använda rapporten för att analysera genomsnittliga försäljningspriser och utvärdera säljarnas resultat.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsanalysrapporter** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsanalysrapporter** och väljer sedan relaterad länk.  
 2. På sidan **Analysrapportförsäljning** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärden **Redigera analysrapport**.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 73d50160e95717df3056200bda01874ef2f82fd5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778153"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438238"
 ---
 # <a name="configure-service-processes"></a>Konfigurera serviceprocesser
 Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:  
@@ -27,7 +27,7 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 * Nummerserierna som ska användas för servicerelaterade dokument och artiklar.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Så här anger du allmänna och obligatoriska inställningar
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurera servicehantering** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurera servicehantering** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se även  

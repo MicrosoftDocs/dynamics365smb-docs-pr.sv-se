@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2e2e64cd3845f20e9c3e0fea5c114ebcd08491d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc930c319a1d1c6ae7ff0615bb6bf20cf125cf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780238"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436104"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Korrigera eller annullera obetalda inköpsfakturor
 
@@ -28,7 +28,7 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Korrigera en bokförd inköpsfaktura
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda inköpsfakturor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
 2. Markera den bokförda inköpsfakturan som du vill korrigera.  
 
     > [!NOTE]  
@@ -41,7 +41,7 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 4. Välj **Visa korrigerande kreditnota** för att visa de bokförda inköpskreditnotorna som annullerar den ursprungliga bokförda inköpsfakturan.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Avbryta en bokförd inköpsfaktura
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda inköpsfakturor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
 2. Markera den bokförda inköpsfakturan som du vill annullera.
 
     > [!NOTE]  

@@ -1,20 +1,20 @@
 ---
-title: Hantera momssatsändringar | Microsoft Docs
-description: Lära dig hur du kan utfärda ändringsverktyget för momssats i Dynamics 365 Business Central.
+title: Hantera momssatsändringar
+description: Lär dig använda ändringsverktyget för momssats för Dynamics 365 Business Central för att ändra momssatser enligt lokal lagstiftning.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 2f9bef0d4a2aace08d5f8fb09eae6186213a9563
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770447"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437397"
 ---
 # <a name="managing-vat-rate-changes"></a>Hantera momssatsändringar
 
@@ -71,13 +71,13 @@ Innan du skapar ändringsverktyget för momssats, måste du göra följande för
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Så här ställer du in ändringsverktyget för momssats
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för ändring av momssats** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för ändring av momssats** och väljer sedan relaterad länk.  
 2. På snabbflikarna **Huvuddata**, **Journaler** och **Dokument**, välj en bokföringsmall i alternativlistan för nödvändiga fält. För varje grupp kan du välja om du vill konvertera produktbokföringsmallar för moms eller generella produktbokföringsmallar, eller konvertera båda värdena om de är tillgängliga i huvuddataartikeln. För vissa områden kan du också definiera ett filter för att endast konvertera en delmängd av värden, till exempel redovisningskonton. 
 3. På snabbfliken **priser inklusive moms** väljer du vilka radtyper på order som du vill uppdatera a-priser för. A-priserna på rader av typen artikel och resurs kommer alltid att uppdateras.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Så här skapar du konvertering av produktbokföringsmallar
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för ändring av momssats** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för ändring av momssats** och väljer sedan relaterad länk.  
 2. På sidan **Inställningar för ändring av momssats** väljer du åtgärden **Moms prod.bokf.mall, konv.** eller **Produktbokföringsmall, konv**.  
 3. I fältet  **Från kod**, ange den aktuella bokföringsmallen.  
 4. I fältet **Till kod** anger du den nya bokföringsgruppen.  
@@ -92,7 +92,7 @@ Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen 
 > [!IMPORTANT]  
 > Innan du utför konverteringen av momssats, kan du testa konverteringen. Följ instruktionerna nedan för att göra det, men du måste avmarkera **utför konvertering** och **Ändringsverktyget för momssats har slutförts**. Under testkonverteringen avmarkerades fältet **konverterad** i tabellen **Ändringsloggtransaktion för momssats** och fältet **konverteras datum** i tabellen **Ändringsloggtransaktion för momssats** är tom. Välj **Ändringsloggtransaktion för momssats** för att visa resultatet av testkonverteringen. Kontrollera varje transaktion, innan du utför konverteringen. Kontrollera särskilt transaktioner som använder en gammal momssats.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ändring av momssats** och väljer sedan länken **Inställningar för ändring av momssats**.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **ändring för momssats** och väljer sedan länken **Inställningar för ändring av momssats**.  
 2. Kontrollera att du har ställt in konverteringen för momsproduktbokföringsmall eller produktbokföringsmall.  
 3. Markera kryssrutan **utför konvertering**.  
 

@@ -10,18 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52632b540c2795b0e46cbae12037aa2e1ee8c743
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776128"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437758"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
 När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om AMC Banking 365 Fundamentals-tillägget finns i [Använd AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer vissa av dina affärsdata att visas för tjänsteleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
+
+> [!NOTE]
+> I den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)], ställs en global tjänstleverantör in och ansluts för att konvertera bankdata till valfritt filformat som din bank kräver. I Nordamerikanska versioner kan samma service användas för att skicka betalningsfiler som EFT (Elektronisk överföring), t.ex. det ACH-nätverk som ofta används, men med en något annorlunda metod.
 
 I följande tabell visas de fält i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan exportera data från.  
 

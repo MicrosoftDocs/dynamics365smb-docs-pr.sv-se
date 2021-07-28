@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6d358afec4689a3543245295427d5fae992dd680
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216159"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436782"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
 > [!NOTE]
@@ -53,13 +53,13 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj kund och välj sedan åtgärden **Priser**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja ett speciellt försäljningspris till kunden.
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj kunden och sedan åtgärden **Försäljningsprislistor**. 
 3. Välj **Ny** för att skapa en ny försäljningsprislista.
 4. På snabbflikarna **Allmänt** och **Moms** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -101,7 +101,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Radrabatter**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja en speciell försäljningsradrabatt till kunden.
 
@@ -112,7 +112,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj kunden och sedan åtgärden **Försäljningsprislistor**.
 3. Öppna prislistan för vilken radrabatten ska anges.
 4. Aktivera växlingsknappen **Tillåt radrabatt**.
@@ -139,7 +139,7 @@ Fakturarabatten skapas nu och tilldelas kunden. När du väljer kundkoden i fäl
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Så här definierar du radrabatt för en kund
 När du har bestämt vilka kunder som är aktuella för fakturarabatter, skriver du fakturarabattkoderna på kundkorten och lägger upp villkoren för respektive kod.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kundsidan för en kund som är aktuell för fakturarabatter.
 3. Välj i fältet  **Fakturarabattkod** koden för den fakturarabatt som ska användas vid beräkning av fakturarabatter för kunden. <!--Looks like I can only choose customers in this list-->
 
@@ -161,7 +161,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 Om du vill kopiera försäljningspriser - till exempel en viss kunds försäljningspriser - och använda dem för en kundprisgrupp, måste du köra **Föreslå förs.pris i förslag**. batch-jobbet på sidan **Försäljningsprisförslag**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsprisförslag** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsprisförslag** och väljer sedan relaterad länk.  
 2. Välj **Föreslå förs.pris i ändringsformulär** .  
 3. På snabbfliken **Förs.priser** fyller du i fälten **Förs.typ** och **Förs.kod** för de försäljningspriser som du vill kopiera.  
 4. I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.  
@@ -175,7 +175,7 @@ Om du vill kopiera försäljningspriser - till exempel en viss kunds försäljni
 
 Statusen för prislistan måste vara **Utkast**. 
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsprislistor** och välj sedan relaterad länk. 
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsprislistor** och väljer sedan relaterad länk. 
 2. Välj den prislista som ska kopieras och välj sedan **Kopiera rader**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -191,7 +191,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 Om du vill uppdatera flera artikelpriser samtidigt - till exempel höja alla priser med en viss procentsats - måste du köra **Föreslå artikelpris i förslag.**  batch-jobb. Du hittar en länk till batch-jobbet på sidan **Försäljningsprisförslag**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsprisförslag** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsprisförslag** och väljer sedan relaterad länk.  
 2. Välj **Föreslå artikelpris i förslag** .  
 3. På snabbfliken **Artikel** fyller du i fältet **Artikelnr.** eller **Lagerbokföringsmall** eller andra fält med de ursprungliga artikelpriser som du vill uppdatera.  
 4. I den övre delen av sidan fyller du i fälten **Förs.typ** och **Förs.kod** med de uppgifter som du vill kopiera försäljningspriserna till.

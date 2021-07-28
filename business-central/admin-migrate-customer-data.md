@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781192"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437472"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 
@@ -42,7 +42,7 @@ Innan du börjar måste du kontrollera att du har behörighet att köra RapidSta
 > Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t. ex. konfigurationspaketet innehåller tabellen **50000 Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000 Kundbankkonto** som har primärnyckeln **Code20 + Code 20** importeras inte data.  
 
 1. Öppna det nya företaget.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 3. Välj åtgärden **Importera paket**. Navigera till det .rapidstart-paket som du vill importera och klicka på åtgärden **Öppna**. Under importen expanderas paketinnehållen, och paketposten skapas.  
 
     När importen är klar kan du visa antalet konfigurationstabeller som har importerats i fältet **Antal tabeller**.  
@@ -63,7 +63,7 @@ Du kan skapa nya datamigreringsfiler och anpassa dem för att stödja din verksa
 > [!TIP]
 > En fil kan dock endast användas för att migrera ett fält som har egenskapsuppsättningen **FieldClass** inställd på **Normal**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 2. Markera och öppna paketet som du vill använda för att flytta data och välj sedan åtgärden **Hämta tabeller**. Sidan **Hämta pakettabell** öppnas.  
 3. I fältet **TableID** anger du ett tabellnummer eller väljer ett tabell-id i listan, till exempel, tabell **Kund**. Fälten **Tabellnamn** fylls i automatiskt.  
 4. Välj den nya flyttningstabellen, klicka på fliken **tabeller** och välj åtgärden **Fält**. Sidan **Flyttningsfält** öppnas.  
@@ -79,7 +79,7 @@ En ny flyttningstabell skapas.
 ## <a name="to-export-data-migration-files"></a>Så här exporterar du datamigreringsfiler
 När du har bestämt vilka tabeller du vill överföra kunddata till, exporterar du filerna.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 2. Markera och öppna paketet som du vill använda för export.
 3. Markera den eller de tabell(er) som du vill exportera och klicka sedan på åtgärden **Exportera till Excel**.
 4. Spara den exporterade Excel-filen.  
@@ -100,7 +100,7 @@ När du använder data som har importerats från Excel eller från ett RapidStar
 
 I följande procedurer ska du granska i förväg vilka värden som du vill bibehålla under flyttningsprocessen. För att utföra följande procedurer kommer du att behöva datamigreringsfiler (.xlsx) som du har exporterat från [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [så här: exportera flyttningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.
 2. Öppna paketet för det aktuella företaget.  
 3. Välj tabellen som du vill mappa värden för, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 4. För varje fält som du vill koppla väljer du åtgärden **Mappa**.  
@@ -118,7 +118,7 @@ Följande exempel visar hur [!INCLUDE[prod_short](includes/prod_short.md)] imple
 3. När du kopplar data beaktas även den mappning du angav för fältet **Kod** i tabellen **Säljare/köpare** vid bearbetningen av fälten **Säljarkod** och **Köparkod**.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Så här lägger du till ytterligare värden i [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 2. Välj tabellen som du vill lägga till ytterligare värden i, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 3. Välj kryssrutan som du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska tillåta ytterligare värden för vid migrering **Skapa saknade koder**.  
 4. Importera kunddata. Mer information finns också i [Så här importerar du kunddata](admin-migrate-customer-data.md#to-import-customer-data).

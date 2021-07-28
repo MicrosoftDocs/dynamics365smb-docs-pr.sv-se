@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1e836b43392cd915a77c5ee85d5a322753dcd5df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de37cfd8719615dbc736ff6e7b03ee75d97c87ce
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773961"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437347"
 ---
 # <a name="set-up-payment-methods"></a>Ange betalsätt
 
@@ -33,14 +33,14 @@ Kreditnotor för returer är emellertid undantag eftersom pengar flödar i motsa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller några betalningssätt som företag använder ofta. Du kan emellertid lägga till hur många rader du vill.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **betalningssätt** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsmetoder** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan också lägga till betalningsvillkor i betalsättet. Mer information finns i [Ange betalningsvillkor](finance-payment-terms.md).  
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Så här kopplar du betalningssätt till en kund eller leverantör
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kund** eller **Leverantör** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** eller **Leverantör** och väljer sedan relaterad länk.
 2. I fältet **betalningssättkod**, välj metoden som ska användas som standard för kunden eller leverantören.
 
 ## <a name="see-also"></a>Se även

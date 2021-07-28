@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 434f730b7b7f541ed7387b278672cdd032afb093
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e779bb1d2916c031dea66a52ed7b3b9ccc006aee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782542"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438163"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planera lagertransporter i kalkylark
 Planera transporter i kalkylarket med hjälp av Återanskaffningsfunktionen eller manuellt planera de rader som du vill skapa som transportinstruktioner.  
@@ -23,7 +23,7 @@ Planera transporter i kalkylarket med hjälp av Återanskaffningsfunktionen elle
 ## <a name="to-calculate-a-replenishment-movement"></a>Så här beräknar du återanskaffningstransporter:  
 Allt eftersom artiklarna i distributionslagret levereras till kunderna innehåller lagerställen med högst lagerplatsordning allt färre artiklar. Om du vill fylla på plocklagerställena med högst lagerplatsordning med artiklar från andra lagerställen kan du köra funktionen **Beräkna lagerplatsåteranskaffning** på sidan **Transportkalkylark**
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Transportkalkylark** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transportkalkylark** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna lagerplatsåteranskaffning**.  
 
     [!INCLUDE[prod_short](includes/prod_short.md)] skapar rader som anger exakt hur du ska flytta artiklar från lagerställen med låg lagerplatsordning till lagerställen med högre lagerplatsordning.  
@@ -44,7 +44,7 @@ Allt eftersom artiklarna i distributionslagret levereras till kunderna innehåll
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Du kan flytta hela innehållet i en eller flera lagerställen med funktionen Hämta lagerställesinnehåll:  
 Du kan även använda Transportkalkylark för att planera andra lagertransporter inom distributionslagret. När du till exempel vill placera artiklar på en lagerplats för kvalitetskontroll kan du använda transportförslaget för att planera den åtgärden och sedan skapa en transportinstruktion för en anställd.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Transportkalkylark** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transportkalkylark** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Hämta lagerställesinnehåll**. Använd sidan för begäran för att filtrera vilka lagerställen och artiklar som ska visas på transportförslagets rader.  
 3.  Fyll i de relevanta fälten på sidan för begäran av batch-jobb. Om du till exempel vill visa lagerställesinnehållet för alla lagerställen i en viss zon på lagerstället fyller du i fältet **Zonkod**. Om du vill hämta rader för alla lagerställen som innehåller en viss artikel fyller du i fältet **Artikelnr**.  
 

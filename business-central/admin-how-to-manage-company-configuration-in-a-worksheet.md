@@ -1,6 +1,6 @@
 ---
-title: Så här hanterar du företagskonfigurationen i ett kalkylark | Microsoft Docs
-description: Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag.
+title: Så här hanterar du företagskonfigurationen i ett förslag
+description: Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fb50a620f4fc978778a7b6f26581d8768802d0a7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779838"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437968"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Så här hanterar du företagskonfigurationen i ett kalkylark
 Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag.  
@@ -28,7 +28,7 @@ I följande procedurer ser du hur du lägger till och anpassar tabellinformation
 
 ## <a name="to-open-the-configuration-worksheet"></a>Så här öppnar du konfigurationskalkylarket  
 1.  I [!INCLUDE[prod_short](includes/prod_short.md)] öppnar du företaget som är grunden för konfigurationen och öppnar sedan dess implementerings-rollcenter för RapidStart Services.  
-2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
+2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Så här lägger du till en tabell i kalkylarket  
 1.  På sidan **Konfig. kalkylark** väljer du åtgärden **Redigera lista**.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: e9a285db48593828fbb01b281459df6c1e3111d0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985393"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437157"
 ---
 # <a name="transfer-bank-funds"></a>Överföra banktillgångar
 
@@ -23,7 +23,7 @@ Du kan ibland komma att behöva överföra ett belopp från ett bankkonto i [!IN
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Så här bokför du en överföring mellan bankkonton med samma valutakod
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournal** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournal** och väljer sedan relaterad länk.
 2. Fyll i fälten **Bokföringsdatum** och **Verifikationsnr** på en .
 3. Ange **Bankkonto** i fältet **Kontotyp**.
 4. I fältet **Kontonr** väljer du det bankkonto som du vill överföra pengarna från.
@@ -38,7 +38,7 @@ Du kan ibland komma att behöva överföra ett belopp från ett bankkonto i [!IN
 
 För att överföra pengar mellan bankkonton som använder olika valutor måste du bokföra två redovisningsjournalrader.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournal** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournal** och väljer sedan relaterad länk.
 2. Skapa två journalrader och fyll i fälten **Bokföringsdatum** och **Verifikationsnr**.
 3. På den första journalraden anger du **Bankkonto** i fältet **Typ**.
 4. I fältet **Kontonr** väljer du det bankkonto som du vill överföra pengarna från.

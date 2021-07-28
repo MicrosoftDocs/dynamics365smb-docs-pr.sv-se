@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du rapporter med XBRL | Microsoft Docs
-description: XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data.
+title: Så här skapar du rapporter med XBRL
+description: XBRL, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9c806874d1bfea91224f0c458efea8a1da2d87f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776847"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437132"
 ---
 # <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
 XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data. Bakom XBRL-projektet för global ekonomisk rapportering står ett stort antal ERP-programvaruföretag och internationella revisionsbyråer. Målet med projektet är att tillhandahålla en standard för enhetlig rapportering av ekonomisk information för banker, investerare och statliga myndigheter. Sådan affärsrapportering kan inkludera följande:  
@@ -71,7 +71,7 @@ När du har importerat eller uppdaterat taxonomin måste schemaraderna förses m
 
 Du lägger upp XBRL-rader genom att koppla data i taxonomin till data i redovisningen.  
 
-1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **XBRL-taxonomier** och väljer sedan relaterad länk.  
 2.  Välj en taxonomi i listan på sidan **XBRL-taxonomier**.  
 3.  Välj åtgärden **Rader**.  
 4.  Markera en rad och fyll i fälten.   
@@ -91,7 +91,7 @@ Du lägger upp XBRL-rader genom att koppla data i taxonomin till data i redovisn
  ## <a name="to-import-an-xbrl-taxonomy"></a>Så här importerar du XBRL-taxonomier  
 Det första du måste göra när du arbetar med XBRL-funktionerna är att importera taxonomin till företagets databas. En taxonomi består av ett eller flera scheman och länkbaser. När du har importerat ett eller flera scheman och länkbaser och kopplat länkbaserna till schemat, kan du lägga upp raderna och koppla redovisningskontona i kontoplanen till lämpliga taxonomirader.  
 
-1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **XBRL-taxonomier** och väljer sedan relaterad länk.  
 2.  På sidan **XBRL-taxonomier** skapa en ny rad och ange namnet och en beskrivning av taxonomin.  
 3.  Välj åtgärden **Scheman** och infoga beskrivningen av schemat.  
 4.  Importera schemat, på sidan **XBRL-scheman** väljer du åtgärden **Importera** och väljer sedan en mapp och XSD-fil. Välj **OK**.  
@@ -105,7 +105,7 @@ Det första du måste göra när du arbetar med XBRL-funktionerna är att import
 ## <a name="to-update-an-xbrl-taxonomy"></a>Så här uppdaterar du en XBRL-taxonomi  
 När en taxonomi ändras måste du uppdatera den aktuella taxonomin i enlighet därmed. Orsaken till uppdateringen kan vara ett ändrat schema, en ändrad länkbas eller en ny länkbas. När du har uppdaterat taxonomin behöver du bara koppla ihop raderna för de ändrade eller nya raderna.  
 
-1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XBRL-taxonomier** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **XBRL-taxonomier** och väljer sedan relaterad länk.  
 2.  På sidan **XBRL-taxonomier** väljer du åtgärden **Scheman**.  
 3.  Om du vill uppdatera ett schema väljer du schemat och väljer sedan åtgärden **Importera**.  
 4.  Välj åtgärden **Länkbaser** när du vill uppdatera eller lägga till en ny länkbas.  

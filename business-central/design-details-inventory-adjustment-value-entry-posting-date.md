@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31cfe9390e3f31253d60ba55a95f5507cdcac622
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215109"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436957"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen
 Den här artikeln innehåller riktlinjer för kostnadsberäkningsfunktioner för lager [!INCLUDE[prod_short](includes/prod_short.md)]. Den specifika artikeln vägleder dig i hur batchjobbet **Justera kostnad – Artikeltransaktioner** identifierar och tilldelar ett bokföringsdatum till de värdeposter som batchjobbet håller på att skapa.  
@@ -33,7 +33,7 @@ Batchjobbet **Justera kost.-artikeltrans** tilldelar ett bokföringsdatum för d
 
  Vi ska nu granska denna process i praktiken. Anta att vi har en försäljningspost för en artikeltransaktion. Artikeln skeppades iväg den 5 september 2013 och fakturerades dagen efter.  
 
-![Statusen för artikeltransaktioner i scenariot](media/helene/TechArticleAdjustcost1.png "Statusen för artikeltransaktioner i scenariot")  
+![Statusen för artikeltransaktioner i scenariot.](media/helene/TechArticleAdjustcost1.png "Statusen för artikeltransaktioner i scenariot")  
 
 Nedan representerar den första värdetransaktionen (379) själva leveransen och bär samma bokföringsdatum som den överordnade artikeltransaktionen.  
 
@@ -41,7 +41,7 @@ Den andra värdetransaktionen (381) motsvarar fakturan.
 
  Den tredje värdetransaktionen (391) är en justering av värdetransaktionen för fakturering (381)  
 
- ![Statusen för värdetransaktioner i scenariot](media/helene/TechArticleAdjustcost2.png "Statusen för värdetransaktioner i scenariot")  
+ ![Statusen för värdetransaktioner i scenariot.](media/helene/TechArticleAdjustcost2.png "Statusen för värdetransaktioner i scenariot")  
 
  Steg 1: Justeringsvärdetransaktionen som ska skapas tilldelas samma bokföringsdatum som den transaktion den justerar, vilket illustreras ovan genom värdetransaktion 391.  
 
@@ -53,13 +53,13 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
  Lagerperioder:  
 
-![Lagerperioder i scenariot](media/helene/TechArticleAdjustcost3.png "Lagerperioder i scenariot")
+![Lagerperioder i scenariot.](media/helene/TechArticleAdjustcost3.png "Lagerperioder i scenariot")
 
  Första tillåtna bokföringsdatum är den första dagen i den första öppna perioden. 1 september 2013.  
 
  Redovisningsinställningar:  
 
-![Inställningar för redovisning i scenariot](media/helene/TechArticleAdjustcost4.png "Inställningar för redovisning i scenariot")
+![Inställningar för redovisning i scenariot.](media/helene/TechArticleAdjustcost4.png "Inställningar för redovisning i scenariot")
 
  Första tillåtna bokföringsdatum är det datum som anges i fältet Tillåt bokföring från: 10 september 2013.  
 
@@ -69,7 +69,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
  Det ursprungliga tilldelade bokföringsdatumet var den 6 september, vilket visas i steg 1. I det andra steget identifierar emellertid batchjobbet Justera kostn. – Artikeltrans att det tidigast tillåtna bokföringsdatumet är den 10 september och tilldelar därmed den 10 september till justeringsvärdetransaktionen nedan.  
 
- ![Statusen för värdetransaktioner i scenario 2](media/helene/TechArticleAdjustcost5.png "Statusen för värdetransaktioner i scenario 2")
+ ![Statusen för värdetransaktioner i scenario 2.](media/helene/TechArticleAdjustcost5.png "Statusen för värdetransaktioner i scenario 2")
 
  Vi har nu gått igenom hur man tilldelar bokföringsdatum för värdetransaktioner som skapats genom batchjobbet Justera kost. – artikeltrans.  
 
@@ -82,15 +82,15 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
  I föregående avsnitt, som beskrev begreppet att tilldela bokföringsdatum, var syftet med batch-jobbet Justera kost. – artikeltrans att skapa en Värdetransaktion med bokföringsdatum 10 september.  
 
-![Felmeddelande om bokföringsdatum](media/helene/TechArticleAdjustcost6.png "Felmeddelande om bokföringsdatum")
+![Felmeddelande om bokföringsdatum.](media/helene/TechArticleAdjustcost6.png "Felmeddelande om bokföringsdatum")
 
  Vi följer upp användarinställningarna:  
 
-![Tillåtna inställningar för användarens bokföringsdatum](media/helene/TechArticleAdjustcost7.png "Tillåtna inställningar för användarens bokföringsdatum")
+![Tillåtna inställningar för användarens bokföringsdatum.](media/helene/TechArticleAdjustcost7.png "Tillåtna inställningar för användarens bokföringsdatum")
 
  Användaren i detta exempel har ett tillåtet datumintervall för bokföring från den 11 september till den 30 september, och får därmed inte bokföra justeringsvärdetransaktionen med bokföringsdatum 10 september.  
 
-![Översikt över berörda inställningar för bokföringsdatum](media/helene/TechArticleAdjustcost8.png "Översikt över berörda inställningar för bokföringsdatum")
+![Översikt över berörda inställningar för bokföringsdatum.](media/helene/TechArticleAdjustcost8.png "Översikt över berörda inställningar för bokföringsdatum")
 
  Kunskapsbasartikel [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) beskriver ytterligare scenarion relaterade till nämnda felmeddelande.  
 
@@ -173,9 +173,9 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
  Följande artikeltransaktioner och värdetransaktioner har bokförts:  
 
-![Översikt över resulterande artikeltransaktioner och värdetransaktioner 1](media/helene/TechArticleAdjustcost9.png "Översikt över resulterande artikeltransaktioner och värdetransaktioner 1")
+![Översikt över resulterande artikeltransaktioner och värdetransaktioner 1.](media/helene/TechArticleAdjustcost9.png "Översikt över resulterande artikeltransaktioner och värdetransaktioner 1")
 
- ![Översikt över resulterande artikeltransaktioner och värdetransaktioner 2](media/helene/TechArticleAdjustcost10.png "Översikt över resulterande artikeltransaktioner och värdetransaktioner 2")
+ ![Översikt över resulterande artikeltransaktioner och värdetransaktioner 2.](media/helene/TechArticleAdjustcost10.png "Översikt över resulterande artikeltransaktioner och värdetransaktioner 2")
 
  Batchjobbet Justera kost. – artikeltrans har identifierat en ändring i kostnad och justerat de negativa justeringarna.  
 
@@ -290,7 +290,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
      Bokför inleverans och faktura.  
 
-     ![Översikt över resulterande artikeltransaktioner och värdetransaktioner 3](media/helene/TechArticleAdjustcost11.png "Översikt över resulterande artikeltransaktioner och värdetransaktioner 3")
+     ![Översikt över resulterande artikeltransaktioner och värdetransaktioner 3.](media/helene/TechArticleAdjustcost11.png "Översikt över resulterande artikeltransaktioner och värdetransaktioner 3")
 
 6.  Arbetsdagen 3 januari anländer en inköpsfaktura med ytterligare artikelomkostnader till inköpet i steg 2. Fakturan har den dokumentdatumet den 30 december och bokförs därför med bokföringsdatum 30 december 2013.  
 
@@ -314,11 +314,11 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 
      Bokför inleverans och faktura.  
 
-   ![Översikt över resulterande artikeltransaktioner och värdetransaktioner 4](media/helene/TechArticleAdjustcost12.png "Översikt över resulterande artikeltransaktioner och värdetransaktioner 4")
+   ![Översikt över resulterande artikeltransaktioner och värdetransaktioner 4.](media/helene/TechArticleAdjustcost12.png "Översikt över resulterande artikeltransaktioner och värdetransaktioner 4")
 
  Rapporten Lagervärdering skrivs ut per den 31 december 2013  
 
-![Innehåll i rapporten Lagervärdering](media/helene/TechArticleAdjustcost13.png "Innehåll i rapporten Lagervärdering")
+![Innehåll i rapporten Lagervärdering.](media/helene/TechArticleAdjustcost13.png "Innehåll i rapporten Lagervärdering")
 
  **Summering av scenario:**  
 
@@ -341,7 +341,7 @@ Batchjobbet **Justera kost.-artikeltrans** avgör om justeringsvärdetransaktion
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Historik för Bokför lagerkostnad i redov.  
  Batch-jobbet Bokför lagerkostnad i redovisning är nära knutet till batch-jobbet Justera kost.-artikeltrans, varför historiken för batch-jobbet även summeras och delas här.  
  
-![Faktisk kostnad jämfört med förväntad kostnad](media/helene/TechArticleAdjustcost14.png "Faktisk kostnad jämfört med förväntad kostnad")
+![Faktisk kostnad jämfört med förväntad kostnad.](media/helene/TechArticleAdjustcost14.png "Faktisk kostnad jämfört med förväntad kostnad")
 
 ### <a name="about-the-posting-date"></a>Om bokföringsdatum
  I batch-jobbet Bokför lagerkostnad i redov. finns inte längre något bokföringsdatum som måste anges i begäranformuläret. Bokföringstransaktionen skapas med samma bokföringsdatum som den relaterade värdetransaktionen. Datumintervall för tillåten bokföring måste tillåta bokföringsdatumet för redovisningstransaktionen som skapats för att avsluta batch-jobbet. I annat fall måste datumintervallet för tillåten bokföring tillfälligt öppnas igen genom att ändra eller ta bort datumen i fältet Tillåt bokföring fr.o.m och Till i Redovisningsinställningarna. För att undvika avstämningsproblem krävs att okföringsdatum för redovisningstransaktionen motsvarar bokföringsdatumet för värdetransaktionen.  

@@ -1,6 +1,6 @@
 ---
-title: Servicestatistik | Microsoft Docs
-description: Få en snabb översikt över innehållet i ett helt servicedokument (order, offert, faktura eller kreditnota), den detaljerade informationen på varje servicerad samt serviceartiklarna.
+title: Servicestatistik
+description: Få en snabb översikt över innehållet och statistik i servicedokument (order, offert, faktura eller kreditnota), den detaljerade informationen på varje servicerad etc.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9b3c9199e018b9bb4607cbb5919195aa526aa56
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776747"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438263"
 ---
 # <a name="viewing-service-statistics"></a>Visa servicestatistik
 Du kan använda statistik för att analysera servicedokument och ta reda på hur bra du hanterar dina serviceprocesser. Du kan analysera servicekontrakt, artiklar, offerter, order, fakturor och kreditnotor genom att välja åtgärd **statistik**. För serviceartiklar och kontrakt kan du också använda **Serviceartikel Trendscape** eller **Kontrakt Trendscape** för att visa en översikt över servicetransaktioner för en viss serviceartikel.   
@@ -84,7 +84,7 @@ En transaktion för kontraktets vinst eller förlust skapas automatiskt då kont
 |**Kontrakt vinst/förlust (uppfölj.)**|Så här visar du kontrakt vinst/förlust per uppföljningskod.|  
 |**Kontrakt vinst/förlust (ansenh.)**|Så här visar du kontrakt vinst/förlust per ansvarsenhet.|  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") gå till namnet på sidan för att visa och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") Anger du namnet på sidan som ska visas och väljer sedan relaterad länk.  
 2. Fyll i de filtervillkor som du vill koppla. Välj något värde för **Uppföljningskod filter**, till exempel på sidan **Kontrakt vinst/förlust (uppfölj)**.  
 3. Välj åtgärden **Visa matris**.
 

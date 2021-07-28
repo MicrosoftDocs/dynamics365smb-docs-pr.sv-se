@@ -1,6 +1,6 @@
 ---
-title: Om kostnadsredovisning | Microsoft Docs
-description: Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet.
+title: Om kostnadsredovisning
+description: Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet. Information om kostnadsredovisning har utformats för att analysera olika problem.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba956c883c567e7acc2cd625d8d5e51d94ee753
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 461bdff64d785291923fe5f954887eb052805124
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784921"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436279"
 ---
 # <a name="about-cost-accounting"></a>Om kostnadsredovisning
 Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet. Information om kostnadsredovisning har utformats för att analysera:  
@@ -37,7 +37,7 @@ Kostnadsredovisning har följande huvudkomponenter:
 
 Diagrammet beskriver arbetsflödet för kostnadsredovisning.  
 
-![Kostnadsredovisning – översikt](media/costaccountingoverview.png "CostAccountingOverview")  
+![Kostnadsredovisning – översikt.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostnadstyper, kostnadsställen och kostnadsbärare  
 Du definierar kostnadstyper, kostnadsställen och kostnadsbärare för att analysera vad kostnaderna är, var kostnader kommer ifrån och vem som ska bära kostnaderna.  

@@ -1,6 +1,6 @@
 ---
-title: Så här konfigurerar du en dokumentväxlingstjänst | Microsoft Docs
-description: Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med dina handelspartner.
+title: Så här konfigurerar du en dokumentväxlingstjänst
+description: Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med dina handelspartner genom att använda Inställningar för dokumentöverföring.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a89cf3988e7576070a58a798e0f88693e598ef92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 357c48c6b7ed8e2d44316805bba04ff9236f0e9b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787288"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436304"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurera en tjänst för dokumentutbyte
 Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med dina handelspartner. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Konfigurera en dokumentväxlingstjänst  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för dokumentöverföring** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för dokumentöverföring** och väljer sedan relaterad länk.  
 2. Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  

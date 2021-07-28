@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 120db7bf4336444f6cf726d0f784a86841dc3e11
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d97b0fe65a610c4b0a9dab694678afdf4631a514
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215959"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436932"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokföring
 
@@ -32,7 +32,7 @@ Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför t
 
  Med regelbundna intervall bokförs värdetransaktioner som skapas i inventeringen i redovisningen för att stämma av de två redovisningarna för ekonomisk kontroll. Mer information finns i [detaljer: avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Transaktionsflöde vid avstämning av lager med redovisning](media/design_details_inventory_costing_1_entry_flow.png "Transaktionsflöde vid avstämning av lager med redovisning")  
+ ![Transaktionsflöde vid avstämning av lager med redovisning.](media/design_details_inventory_costing_1_entry_flow.png "Transaktionsflöde vid avstämning av lager med redovisning")  
 
 ## <a name="example"></a>Exempel
 

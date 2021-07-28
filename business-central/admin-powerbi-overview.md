@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935242"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437447"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI-integreringskomponent och arkitekturöversikt för [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,19 +42,19 @@ Följande tabell beskriver tillgängliga funktioner.
 |Inbäddad upplevelse för att visa en specifik rapport inuti en FactBox i [!INCLUDE[prod_short](includes/prod_short.md)]|Båda. Kräver konfigurering för att visa rapporter för lokala versioner.|
 |Hantering av Power BI-rapporter från [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Power BI-standardrapporter om rollcentran som distribuerats till Power BI|Online|
-|Power BI-appar i Microsoft AppSource|Online.|
+|Power BI-appar i Microsoft AppSource|Online|
 
 ## <a name="architecture"></a>Arkitektur
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integreras med Power BI via ett anslutningsprogram som använder OData. Datakällan för Power BI-rapporter anges som OData-webbtjänster.
+[!INCLUDE[prod_short](includes/prod_short.md)] integreras med Power BI via ett anslutningsprogram som använder OData. Datakällan för Power BI-rapporter anges som API-sidor och OData-webbtjänster.
 
-![Power BI-arkitektur för integrering med Business Central](./media/power-bi-architecture.png)
+![Power BI-arkitektur för integrering med Business Central.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Allmänt flöde
 
 Följande diagram illustrerar det grundläggande arbetsflödet för användare när [!INCLUDE[prod_short](includes/prod_short.md)] ansluts till Power BI.
 
-![Power BI-arbetsflöde för integrering med Business Central](./media/power-bi-flow.png)
+![Power BI-arbetsflöde för integrering med Business Central.](./media/power-bi-flow.png)
 
 1. Användare registrerar sig för ett Power BI-konto.
 2. Användare ansluter till Power BI från [!INCLUDE[prod_short](includes/prod_short.md)].

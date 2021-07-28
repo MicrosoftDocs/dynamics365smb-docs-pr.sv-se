@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8390c95083eb02c208e97f0309a725e8ec4d7730
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778578"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436707"
 ---
 # <a name="set-up-shipment-methods"></a>Så här definierar du leveransmetoder
 
@@ -25,7 +25,7 @@ Du upprättar en beskrivning och en kod för varje leveransvillkor på sidan **L
 
 ## <a name="to-set-up-a-shipment-method"></a>Så här definierar du utleveransvillkor
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **leveransmetoder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **leveransmetoder** och väljer sedan relaterad länk.
 2. På sidan **Leveransmetoder** väljer du åtgärden **Ny**.
 3. På den nya raden anger du en kod och en beskrivning för leveransmetoden.
 

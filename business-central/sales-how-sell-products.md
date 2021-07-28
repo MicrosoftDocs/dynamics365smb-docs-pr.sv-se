@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19b32e8faa6b9e56505379d1f06fd5ad79466614
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 67d7ad0d10ddc5c6065df482c7ceb4b98058d504
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115521"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436732"
 ---
 # <a name="sell-products"></a>Sälja produkter
 
@@ -44,7 +44,7 @@ Du kan fylla i kundfälten på försäljningsorder på två sätt, beroende på 
 
 ## <a name="to-create-a-sales-order"></a>Så här skapar du försäljningsorder
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Ange namnet på en befintlig kund i fältet **Kund**.
 
     Andra fält på sidan **Försäljningsorder** fylls nu i med standardinformation om den valda kunden.  

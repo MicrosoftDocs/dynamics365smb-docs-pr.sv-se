@@ -1,6 +1,6 @@
 ---
-title: Redigera bokförda försäljnings- och inköpsdokument | Microsoft Docs
-description: Lära dig olika bokföringsfunktioner för att bokföra inköpsdokument och hur du kan uppdatera bokförda dokument.
+title: Redigera bokförda försäljnings- och inköpsdokument
+description: I det här avsnittet beskrivs hur du uppdaterar information i ett bokfört dokument, t.ex. en utleverans eller en inköpsfaktura när relevant information har ändrats.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ef23d98aaeeb63c17e836fd25b547703787264da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776203"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437808"
 ---
 # <a name="edit-posted-documents"></a>Redigera bokförda dokument
 
@@ -41,7 +42,7 @@ Följande ytterligare dokument kan redigeras i de angivna länderna eller region
 
 Här följer en beskrivning av hur du redigerar en bokförd försäljningsutleverans. Stegen är liknande för de övriga dokument som stöds.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsutleveranser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.
 2. Markera dokumentet som du vill redigera och välj åtgärden **Uppdatera dokument**. Du kan också öppna dokumentet och välja åtgärden.
 3. På sidan **Bokförd försäljningsutleverans – Uppdatera** redigerar du fältet för **Godsupplysningsnr** till exempel.
 4. Välj **OK**.

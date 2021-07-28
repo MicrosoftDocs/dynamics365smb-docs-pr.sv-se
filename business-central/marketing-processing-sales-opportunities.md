@@ -1,6 +1,6 @@
 ---
-title: Bearbeta affärsmöjligheter i försäljningscykler | Microsoft Docs
-description: Visa, stänga eller ta bort affärsmöjligheter och du kan skapa offerter och försäljningsorder för affärsmöjligheter och flytta en affärsmöjlighet genom försäljningscykelns olika faser.
+title: Bearbeta affärsmöjligheter i försäljningscykler
+description: I det här avsnittet beskrivs olika sätt att hantera affärsmöjligheter i försäljningscykler och för att flytta en affärsmöjlighet till faserna i en försäljningscykel.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017255"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437608"
 ---
 # <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.
@@ -27,9 +27,9 @@ De befintliga försäljningsmöjligheterna finns på sidan **Affärsmöjlighetsl
 
 | Visa affärsmöjligheter för | Då |
 | --- | --- |
-| Alla säljare och kontakter |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Affärsmöjlighetslista** och välj sedan relaterad länk. |
-| En viss säljare |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Säljare** och välj sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
-| En viss kontakt |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
+| Alla säljare och kontakter |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Affärsmöjlighetslista** och väljer sedan relaterad länk. |
+| En viss säljare |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
+| En viss kontakt |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
 
 Var och en av dessa uppgifter öppnar sidan **Affärsmöjlighetslista**.
 
@@ -66,7 +66,7 @@ Om du vill ta bort avslutade affärsmöjligheter från sidan **Affärsmöjlighet
 
 Gör följande steg om du vill ta bort avslutade affärsmöjligheter med batch-jobbet **Ta bort avslutade affärsmöjligheter**:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort affärsmöjligheter** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ta bort affärsmöjligheter** och väljer sedan relaterad länk.
 2. I avsnittet **Affärsmöjlighet** ställer du in de filter som anger den avslutade affärsmöjligheten som ska tas bort.
 3. Välj **OK**.
 

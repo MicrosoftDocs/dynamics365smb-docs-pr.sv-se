@@ -1,6 +1,6 @@
 ---
-title: Definiera koder för standardtjänster | Microsoft Docs
-description: Lär dig mer om att lägga upp koder för serviceaktiviteter som du utför ofta.
+title: Skapa koder för standardtjänster
+description: Lära dig hur du lägger upp koder för vanliga serviceaktiviteter med en fördefinierad uppsättning servicerader.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, service order, repairs, maintenance
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 494a3dd93906a8a9d663455f7410d27c9fc34eb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5f5e6dbe647fc8957c42a78163f6871d7a7b382
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778228"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436607"
 ---
 # <a name="set-up-standard-service-codes"></a>Skapa standardtjänstekoder
 
@@ -26,13 +26,13 @@ När du utför en vanlig typ av service behöver du ofta skapa servicedokument s
   
 ## <a name="to-set-up-a-standard-service-code"></a>Så här skapar du standardtjänstkoder
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **standardservicekoder** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **standardservicekoder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Fyll i serviceraderna som är kopplade till den här servicekoden.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Så här tilldelar du en standardtjänstkod till en serviceartikelgrupp
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceartikelgrupper** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceartikelgrupper** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fyll i serviceraderna som är kopplade till den här servicekoden.  
 

@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938077"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436154"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Ställ in projekt, priser och projektbokföringsmallar
 
@@ -22,7 +22,7 @@ Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar 
 För varje jobb, anger du de individuella de projektkorten med information om priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
 ## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Projektinställningar** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projektinställningar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -55,7 +55,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 Du kan skap priser för resurser, artiklar och redovisningskonton relaterade till ett jobb. 
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Välj jobbet och sedan åtgärden **Resurs**, **Artikel** eller **Redovisningskonto**.
 3. På sidorna fyller du i **Priser för jobbresurser**, **Priser för jobbartiklar** eller **Priser för jobbredovisningskonto** efter behov.
 
@@ -69,7 +69,7 @@ I följande tabell visas hur informationen i de valfria fälten används på pro
 
 ---
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Välj relevant projekt och sedan åtgärden **Försäljningsprislistor**.
 
 ---
@@ -80,7 +80,7 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 > [!NOTE]  
 >   Nödvändiga konton i kontoplanen måste registreras innan du registrerar bokföringsmallar. Mer information finns i [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md).  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), gå till **Projektbokföringsmallar** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **projektbokföringsmallar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i kontofälten enligt instruktionerna i följande tabell.  
 
 | Kontofält | Beskrivning |

@@ -1,18 +1,18 @@
 ---
 title: Skapa avskrivning för anläggningstillgångar
-description: Du kan ange i en avskrivningsregel hur anläggningstillgångar ska skrivas av eller skrivas ned.
+description: Det finns flera avskrivningsmetoder. I Business Central definierar du avskrivningsmetoden för en anläggningstillgång sidan **Anläggningstillgångskort**.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: eb7e0d0d082d8a86ce61b6dffab46ce6248a29d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 166e0a534632b0bf67dc14a860088e6a846d6957
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782285"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437868"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Skapa avskrivning för anläggningstillgång
 
@@ -26,7 +26,7 @@ Efter att du har skapat de avskrivningsregler som behövs måste du koppla en el
 
 I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgång ska skrivas av. Om du vill använda olika avskrivningsmetoder kan du skapa flera avskrivningsregler.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **avskrivningsregler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **avskrivningsregler** och väljer sedan relaterad länk.
 2. På sidan **Lista över avskrivningsregler** väljer du åtgärden **Ny**.
 3. På sidan **Avskrivningsregelkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgå
 Om du till exempel avyttrar en anläggningstillgång där avskrivningsregeln inte anger avrundning men företagets redovisningsinställningar kräver avrundning, visas ett felmeddelande om att ett belopp måste avrundas på en redovisningstransaktion när du avyttrar anläggningstillgången.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Att tilldela en avskrivningsregel till en anläggningstillgång.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
 2. Välj anläggningstillgången som du vill skapa avskrivningsregeln för anläggningstillgångar för.
 3. I snabbfliken **Avskrivningsregelkort** fyller du i fälten efter behov.
 4. Om du vill använda mer än en avskrivningsregel till anläggningstillgången väljer du åtgärden **Lägg till flera avskrivningsregler**.
@@ -50,10 +50,13 @@ Om du till exempel avyttrar en anläggningstillgång där avskrivningsregeln int
     > [!NOTE]  
     >   När du använder den manuella avskrivningsmetoden måste du föra in avskrivningen manuellt i redovisningsjournalen för anläggningstillgångar. Funktionen **Beräkna avskrivning** utesluter anläggningstillgångar där den manuella avskrivningsmetoden används. Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark.
 
+    > [!NOTE]  
+    > När du använder den användardefinierade avskrivningsmetoden måste du tilldela avskrivningsregeln på ett annat sätt. Mer information finns i [Skapa användardefinierad avskrivningsmetod](fa-how-setup-user-defined-depreciation-method.md).
+
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Att tilldela en avskrivningsregel till åtskilliga anläggningstillgångar med hjälp av ett batch-jobb
 Om du vill tilldela en avskrivningsregel till flera anläggningstillgångar kan du använda batch-jobbet **Skapa anl. avskrivningsregler** för att skapa avskrivningsregler för anläggningstillgångar.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
 2. Markera den anläggningstillgång som du vill tilldela en avskrivningsregel till och välj sedan åtgärden **Redigera**.
 3. På sidan **Avskrivningsregelkort** väljer du åtgärden **Skapa avskrivningsregler för anl.tillg.**.
 4. På sidan **Välj Avskrivningsregler för anl.tillg.** fyller du i fältet **Avskrivningsregler**.
@@ -66,7 +69,7 @@ Om du vill tilldela en avskrivningsregel till flera anläggningstillgångar kan 
 ## <a name="to-set-up-depreciation-posting-types"></a>Så här skapar du bokföringstyper för avskrivning
 För varje avskrivningsregel måste du ange hur du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska hantera olika bokföringstyper. Till exempel om bokföringen ska vara debet eller kredit och om bokföringstypen ska inkluderas i avskrivningsbasen.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avskrivningsregler** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **avskrivningsregler** och väljer sedan relaterad länk.  
 2. Markera den avskrivningsregel som du vill ställa in och välj sedan åtgärden **Anl. inställningar bokföring**.
 3. På sidan **Anl. inställningar bokföring** fyller du i fälten efter behov.
 
@@ -78,10 +81,17 @@ Du bör inte ändra inställningen för avskrivningsregler som transaktioner red
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Så här ställer du in standardmallar och journaler för avskrivningsregler för anläggningstillgångar.
 För varje avskrivningsregel anger du en standardinställning för mallar och journaler. Du kan använda dessa standardinställningar för att duplicera rader från en journal till en annan, skapa journalrader med hjälp av batchjobben **Beräkna avskrivning** eller **Indexera anläggningstillgångar**, duplicera anskaffningskostnader i försäkringsjournalen.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avskrivningsregler** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **avskrivningsregler** och väljer sedan relaterad länk.  
 2. Markera den avskrivningsregel som du vill skapa standardjournaler för och välj sedan åtgärden **Anl. journalinställningar**.  
 3. Om du vill ha en standardinställning för varje användare väljer du fältet **Användar-ID** så visas sidan **Användare**.  
 4. Välj journalmallen eller journalen som ska användas som standard i de andra fälten.  
+
+## <a name="fiscal-year-365-days-field-depreciation"></a>Räkenskapsår på 365 dagar, fältavskrivning
+
+När batchjobbet Beräkna avskrivning körs används normalt ett standardår med 360 dagar där varje månad har 30 dagar.
+
+Om du väljer det här fältet använder batchjobbet Beräkna avskrivning kalenderåret med 365 dagar i stället och varje månad har då samma antal dagar som i kalendern. Det enda undantaget är februari månad under ett skottår, då batchjobbet räknar med 28 dagar och inte 29. Det betyder att alla år, även skottår, anses ha 365 dagar.
+
 
 ## <a name="see-also"></a>Se även
 [Ställa in anläggningstillgångar](fa-setup.md)  

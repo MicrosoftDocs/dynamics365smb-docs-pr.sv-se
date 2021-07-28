@@ -1,6 +1,6 @@
 ---
-title: Konsolidera data från flera företag | Microsoft Docs
-description: Få en översikt av den ekonomiska situationen i alla dina affärsenheter.
+title: Konsolidera data från flera företag
+description: Detta ämne förklarar hur du kan konsolidera redovisningstransaktionerna för två eller flera separata företag (dotterbolag) till ett konsoliderat företag.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2be133009314b714d7b86e6257f642f13720b5e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774335"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436254"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidera ekonomiska data från flera företag
 
@@ -55,7 +55,7 @@ Rapporten kombinerar redovisningstransaktioner från var och ett av företagen i
 Du kan testa data innan du överför den till det konsoliderade företaget. [!INCLUDE[prod_short](includes/prod_short.md)] tittar efter skillnader i information som finns i affärsenheterna och det konsoliderade företaget. Till exempel om kontonummer eller dimensionskoder är olika. Du måste åtgärda felen innan du kan köra rapporten. Du kan testa en databas, eller om du importerar data från en XML-fil kan du testa filen.  
 
 1. Öppna det konsoliderade företaget.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Affärsenheter** och välj sedan tillhörande länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
 3. Gör något av följande:  
 
     * Testa en fil genom att välja åtgärden **testa fil**, ange namnet på filen och välj sedan **Skriv ut**.  

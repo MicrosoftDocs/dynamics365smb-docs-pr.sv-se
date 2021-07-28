@@ -1,6 +1,6 @@
 ---
-title: Planera artikelinförsel i kalkylarket | Microsoft Docs
-description: Du kan använda artikelinförselkalkylarket om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser.
+title: 'Så här: Planera artikelinförsel i förslaget'
+description: Skapa distributionslagret så att inleveransrader visas i artikelinförselkalkylarket när du vill planera artikelinförselinstruktioner för inleveranser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d22ba919883fd45ff0b04410a0a19ee77aa3326
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771685"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438188"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planera artikelinförsel i kalkylark
 Du kan använda artikelinförselkalkylarket om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser.  
@@ -31,7 +31,7 @@ Om du inte markerar fältet skapas automatiskt artikelinförselinstruktioner fö
 > 2.  Fortsätt med det i så många artikelinförslar som du vill, tills du har tagit bort de rader om du vill arbeta med i kalkylarket. Välj nu **Artikelinförselkalkylark** och fortsätt planeringen.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Så här planerar du instruktioner i artikelinförselkalkylarket  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **artikelinförselkalkylark** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelinförsel kalkylark** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Hämta dist.lager dokument**. Sidan **Artikelinförselval** öppnas.  
 
     Alla bokförda inleveranser och registrerade interna artikelinförslar som har vidarebefordrats till artikelinförselfunktionen visas, däribland de som artikelinförselinstruktioner redan har skapats för. Dokument med artikelinförselrader som är klara och registrerade visas inte i den här listan.  

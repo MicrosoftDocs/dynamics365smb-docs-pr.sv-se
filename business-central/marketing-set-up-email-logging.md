@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c46fc5107413c4b00b7283e29a75d835de5434e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777679"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437583"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
 
@@ -105,7 +105,7 @@ Följande åtgärder förutsätter att du använder Azure Active Directory för 
 Om du inte använder Azure Active Directory för att hantera identiteter och åtkomst behöver du en viss hjälp från en utvecklare. Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten i samband med körning genom att prenumerera på händelserna OnGetEmailLoggingClientId och OnGetEmailLoggingClientSecret i codeunit 1641, "Konfigurera e-postloggning".
 
 ### <a name="to-stop-logging-email"></a>Så här slutar du logga e-post
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Marknadsföringsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Marknadsföringsinställning** och väljer sedan relaterad länk.
 2. Stäng av brytaren **Aktiverad**.
 
 ## <a name="see-also"></a>Se även

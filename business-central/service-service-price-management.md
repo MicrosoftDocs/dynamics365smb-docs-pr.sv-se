@@ -1,6 +1,6 @@
 ---
-title: Serviceprishantering | Microsoft Docs
-description: Det här ämnet beskriver hur du tillämparbästa pris på serviceorder, lägga upp egna serviceprisavtal för kunder, förbättra de anställdas effektivitet och effektivisera faktureringen.
+title: Serviceprishantering
+description: Med serviceprishantering kan du ställa in serviceprisgrupper, serviceprissättning, serviceprissättning med mera.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776772"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438288"
 ---
 # <a name="service-price-management"></a>Serviceprishantering
 Med funktionen för serviceprishantering kan du tillämpa bästa pris på serviceorder, lägga upp egna serviceprisavtal för kunder, förbättra de anställdas effektivitet och effektivisera faktureringen.  
@@ -52,7 +52,7 @@ Du anger faktiska prissättningstyper (prisjusteringstyp och pris) för en kombi
 Du kan t. ex. ange typer av serviceprissättning för prissättningsgruppen radio. För kunder utan prisgrupp kan du välja att ha serviceprissättning med maximalt pris för arbete, vilket är prisjusteringsgruppen för arbete. För kunder med en särskild prisgrupp kan du välja serviceprissättning med ett fast pris för arbete, vilket är samma prisjusteringsgrupp för arbete.  
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **serviceartiklar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **serviceartiklar** och väljer sedan relaterad länk.  
 2. Välj serviceartikeln, expandera snabbfliken **Priser och försäljning** och välj sedan åtgärden **Resurs**, **Artikel** eller **Redovisningskonto**.
 3. På sidorna fyller du i **Priser för jobbresurser**, **Priser för jobbartiklar** eller **Priser för jobbredovisningskonto** efter behov.
 

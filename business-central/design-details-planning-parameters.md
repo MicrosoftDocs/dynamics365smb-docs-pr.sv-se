@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Planeringsparametrar | Microsoft Docs
-description: I det här avsnittet beskrivs de olika planeringsparametrar som du kan använda i Business Central.
+title: Designdetaljer - Planeringsparametrar
+description: I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda och hur de påverkar planeringssystemet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a572b9cee77a6fb89c0d44a48150dbba4742cc6e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215859"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437893"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
 I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -82,25 +82,25 @@ För att få en rationell tillförselplan finjusterar en planerare planeringspar
 
 Tidsplaneringen av omplaneringsperioden, utjämningsperiod och partiackumuleringsperioden baseras på ett leveransdatum. Tidsenheten baseras på planeringsstartdatumet, som visas i följande illustration.  
 
-![Tidsenhetselement](media/supply_planning_5_time_bucket_elements.png "Tidsenhetselement")  
+![Tidsenhetselement.](media/supply_planning_5_time_bucket_elements.png "Tidsenhetselement")  
 
 I följande exempel representerar de svarta pilarna befintlig tillgång (upp) och efterfrågan (ned). Röda, gröna och orange pilar är planeringsförslag.  
 
 **Exempel 1**: Det ändrade datumet ligger utanför omplaneringsperioden, vilket innebär att den befintliga leveransen annulleras. En ny tillgång föreslås för att täcka behovet i partiackumuleringsperioden.  
 
-![Omplaneringsperiod och partiackumuleringsperiod](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Omplaneringsperiod och partiackumuleringsperiod")  
+![Omplaneringsperiod och partiackumuleringsperiod.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Omplaneringsperiod och partiackumuleringsperiod")  
 
 **Exempel 2**: Det ändrade datumet ligger i omplaneringsperioden, vilket innebär att den befintliga leveransen planeras om. En ny tillgång föreslås för att täcka behovet utanför partiackumuleringsperioden.  
 
-![Omplaneringsperiod, partiackumuleringsperiod och omplanering](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Omplaneringsperiod, partiackumuleringsperiod och omplanering")  
+![Omplaneringsperiod, partiackumuleringsperiod och omplanering.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Omplaneringsperiod, partiackumuleringsperiod och omplanering")  
 
 **Exempel 3**: Det finns en efterfrågan i utjämningsperioden och tillgångsantalet i partiackumuleringsperioden matchar tillgångsantalet. Nästa behov har inte täckts och en ny tillgång föreslås.  
 
-![Utjämningsperiod och partiackumuleringsperiod](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Utjämningsperiod och partiackumuleringsperiod")  
+![Utjämningsperiod och partiackumuleringsperiod.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Utjämningsperiod och partiackumuleringsperiod")  
 
 **Exempel 4**: Det finns en efterfrågan i utjämningsperioden och tillgången förblir på samma datum. Dock är antalet för aktuell tillgång inte tillräckligt för att täcka efterfrågan i partiackumuleringsperioden, så en antalsändringsåtgärd för den befintliga leveransordern föreslås.  
 
-![Utjämningsperiod, partiackumuleringsperiod och ändra antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Utjämningsperiod, partiackumuleringsperiod och ändra antal")  
+![Utjämningsperiod, partiackumuleringsperiod och ändra antal.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Utjämningsperiod, partiackumuleringsperiod och ändra antal")  
 
 **Standardvärden:** Standardvärdet i fältet **Tidsenhet** och de tre fälten för beställningsperiod är tomma. För alla fält utom fältet **Utjämningsperiod** betyder det 0D (noll dagar). Om fältet **Utjämningsperiod** är tomt, används det globala värdet i **Standard för utjämningsperiod** på sidan **Produktionsinställningar**.  
 

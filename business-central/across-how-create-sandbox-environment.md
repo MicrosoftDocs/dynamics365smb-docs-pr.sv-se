@@ -1,6 +1,6 @@
 ---
 title: Skapa miljö för begränsat läge
-description: Skapa en miljö där du kan utforska, utbilda, demonstrera, utveckla och prova inifrån Business Central.
+description: Skapa en begränsad miljö för säkerhet där du kan utforska, utbilda, demonstrera, utveckla, felsöka och prova inifrån Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2f4ca6a98aac49fa5fea7d8658ef51a9510c97d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215634"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437683"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Skapa en miljö för begränsat läge i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -30,8 +30,8 @@ Administratören hanterar miljö för begränsat läge i [administrationscenter]
 
 1. Logga in i din instans för produktionsmiljö i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **miljö för begränsat läge** och välj sedan relaterad länk.
-    <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **miljö för begränsat läge** och väljer sedan relaterad länk.
+    <!-- ![Sandbox Environment Setup.](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Klicka på knappen **Skapa**.  
 
     En annan flik med [!INCLUDE[prod_short](includes/prod_short.md)] öppnas där du kan slutföra inställningarna i miljön för begränsat läge.
@@ -40,12 +40,12 @@ Administratören hanterar miljö för begränsat läge i [administrationscenter]
     >  Om du har ett popup-fönster aktiverat i din webbläsare, kan du ändra koden så att URL-adresser tillåts från adressen *.businesscentral.dynamics.com.
 
 När begränsat läge är klart, omdirigeras till välkomstguiden för begränsat läge.
-<!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
+<!-- ![Sandbox Welcome Wizard.](./media/across-sandbox/sandbox-wizard.png) -->
 
 Du kan välja **lär dig mer** om du vill läsa om utvecklarscenarier som du kan prova i en miljö för begränsat läge eller välja knappen **Stäng** för att fortsätta till rollcenter för din [!INCLUDE[prod_short](includes/prod_short.md)]-miljö för begränsat läge.
 
 Högst upp i Rollcentret visas ett meddelande att informera dig om att det är begränsat läge. Du kan också se miljötypen i namnlisten på klienten.
-    <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
+    <!-- ![Sandbox RoleCenter Notification.](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
 > En miljö för begränsat läge som skapas på det här sättet innehåller endast standarddemonstrationsdata för CRONUS-företaget. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.
@@ -53,11 +53,11 @@ Högst upp i Rollcentret visas ett meddelande att informera dig om att det är b
 > Du kan också skapa en begränsad miljö baserad på produktionsdata. Du måste göra detta i administrationscentret. Mer information finns i [Hantera miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i utvecklar- och administrationsinnehållet.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
-    ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
+    ![Sandbox Dynamics365 Menu.](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
 En administratör kan begränsa eller även spärra åtkomsten för vissa användare till begränsat läge. Detta kan göras med hjälp av produktens standardsäkerhetsfunktioner som användarkort, användargrupper och behörighetsgrupper. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
 
-<!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
+<!-- ![Sandbox Permission Sets.](./media/across-sandbox/sandbox-permission-sets.png) -->
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Avancerade funktioner i begränsat läge
 
@@ -69,9 +69,9 @@ Miljön i begränsat läge är inte minst användbar eftersom den innehåller et
 
 ### <a name="advanced-user-experience"></a>Avancerad användarupplevelse
 
-Det går att aktivera och prova alla funktioner i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)]  i ett begränsat läge för klientorganisation genom att ställa in fältet **Erfarenhet** på sidan **Företagsinformation** till *Premium*. Leta upp sidan **företagsinformation** i menyn :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="ikonen Inställningar"::: menu.  
+Det går att aktivera och prova alla funktioner i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)]  i ett begränsat läge för klientorganisation genom att ställa in fältet **Erfarenhet** på sidan **Företagsinformation** till *Premium*. Leta upp sidan **företagsinformation** i menyn :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="ikonen Inställningar":::. meny.  
 
-När du har aktiverat användarupplevelsen *Premium* får du tillgång till alla standardprofiler (roller) och Rollcenter i standardversionen. Du kan också skapa ett utvärderingsföretag som helt har ställts in, inklusive demonstrationsdata och tillgång till avancerade delar av produkten. Alternativt kan du kontakta en återförsäljare för en demonstration av funktionerna. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq.yml#findpartner).  
+När du har aktiverat användarupplevelsen *Premium* får du tillgång till alla standardprofiler (roller) och Rollcenter i standardversionen. Du kan också skapa ett utvärderingsföretag som helt har ställts in, inklusive demonstrationsdata och tillgång till avancerade delar av produkten. Alternativt kan du kontakta en återförsäljare för en demonstration av funktionerna. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
 ### <a name="complete-sample-data"></a>Fullständiga exempeldata
 
@@ -80,7 +80,7 @@ Om du behöver ytterligare exempeldata kan du prata med återförsäljningspartn
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Så här skapar du ett företag med fullständiga exempeldata i ett begränsat läge
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företag** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företag** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny** och välj sedan **Skapa nytt företag**.  
 3. På sidan **Assisterad konfiguration för att skapa ett företag** välj **Nästa**.  
 4. Ange ett namn på det nya företaget och sedan i fältet **Välj data och konfiguration för att komma igång** välj **Avancerad utvärdering – fullständig exempeldata**.  
@@ -90,11 +90,11 @@ När assisterad konfiguration är klar kan du börja utforska det nya företaget
 
 ### <a name="designer"></a>Designer
 
-I en miljö för begränsat läge kan du se att **designer** är aktiverat. Du kan aktivera designer genom att välja ikonen ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) på en sida eller genom att välja menyalternativet **design** på inställningsmenyn ![inställningar](media/ui-experience/settings_icon_small.png).  
+I en miljö för begränsat läge kan du se att **designer** är aktiverat. Du kan aktivera Designer genom att välja designikonen ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) på en sida eller genom att välja menyalternativet **Design** på menyn ![Inställningar](media/ui-experience/settings_icon_small.png).  
 
 Mer information finns i [Använda designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) i utvecklar- och administrationsinnehållet (enbart på engelska).  
 
-<!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
+<!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ## <a name="see-also"></a>Se även
 

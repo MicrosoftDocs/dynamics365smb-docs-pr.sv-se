@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783803"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437322"
 ---
 # <a name="set-up-payment-terms"></a>Ställa in betalningsvillkor
 
@@ -28,7 +28,7 @@ Om du vill skicka påminnelser om förfallna betalningar måste du ange nivåer 
 
 ## <a name="to-set-up-payment-terms"></a>Så här definierar du betalningsvillkor
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Betalningsvillkor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsvillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 När du har ställt in betalningsvillkoren tilldelar du dem till kunder och leverantörer. Du kan också tilldela betalningsvillkor till dina betalsätt.  

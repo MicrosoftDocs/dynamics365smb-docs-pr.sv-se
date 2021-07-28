@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778603"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436757"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 
@@ -34,7 +34,7 @@ För att registrera en ny kund måste du fylla i ett kundkort. Du kan upprätta 
 
 ### <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2. På sidan **Kunder** väljer du åtgärden **Ny**.
 
     Om endast en kundmall finns, då öppnas ett nytt kundkort med fält ifyllda med information från mallen.
@@ -76,7 +76,7 @@ Du kan välja att inte ha varningar som talar om för dig att kundens kreditlimi
 
 ### <a name="to-specify-credit-limit-warnings"></a>Så här anger du varningar om kreditlimit
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
 
 2. På snabbfliken **Allmänt**, i fältet **Kreditvarningar**, väljer du relevant alternativ enligt beskrivet i följande tabell:
 

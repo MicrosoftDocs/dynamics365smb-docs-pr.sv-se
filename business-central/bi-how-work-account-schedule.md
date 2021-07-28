@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786593"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437032"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
 
@@ -54,7 +54,7 @@ Kontouppställningar i standardversionen av [!INCLUDE[prod_short](includes/prod_
 
 Sidan **Kontouppställning översikt** är där du kan förhandsgranska den finansiella rapport som definieras i kontouppställningen. I det följande är det viktigt att förstå att det du ställer in som kontouppställningsrader och kolumner bara kan visas och godkännas på sidan **Kontouppställning översikt** som du öppnar från en kontouppställning genom att välja åtgärden **översikt**. Själva sidan **kontouppställning** är endast inställningsområde.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.  
 2. På sidan **Kontouppställningar** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn.
 3. Alternativt väljer du åtgärden **Kopiera kontouppställning** fyller du i de två fälten och väljer sedan knappen **OK**.
 4. Fyll i fälten om det behövs. I fältet **Standardkolumnlayout** väljer du en befintlig layout. Du kan redigera den senare om du vill.
@@ -88,7 +88,7 @@ För att ange vilka kolumner som ska tas med i den resulterande rapporten använ
 
 Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t. ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.
 2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
 3. Välj åtgärden **Redigera kontouppställning** för att skapa en kontouppställningsrad för att beräkna den summa som procentsatserna ska baseras på .  
 4. Infoga en rad direkt ovanför den första raden för vilken du vill visa en procentsats.  
@@ -101,7 +101,7 @@ Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsa
 
 Du kan använda en kontouppställning för att skapa en rapport där redovisningssiffror jämförs med redovisningsbudgetsiffror.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.
 2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
 3. Välj åtgärden **Redigera kontouppställning**.  
 4. På sidan **Kontouppställning** väljer du önskat kontouppställningsnamn i fältet **Namn**.

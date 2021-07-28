@@ -1,6 +1,6 @@
 ---
-title: Definiera prissättning och kostnader för service | Microsoft Docs
-description: 'Så här: registrera prissättning och alternativa kostnader för service'
+title: Definiera prissättning och kostnader för service
+description: Lär dig hur du använder prissättningsfunktionerna för att göra inställningar i och anpassa programmet så att du tillämpar och justerar priser för serviceartiklar, reparationer och order.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 44f6064d33d132f4a7d80bc8adc9dbff55d3a516
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 595f25f872cf669d4b79f1cc10542b46e2da22d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773711"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436557"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Registrera prissättning och alternativa kostnader för tjänster
 Med prissättningsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)] kan du göra inställningar i och anpassa programmet så att du tillämpar och justerar priser för serviceartiklar, reparationer och order. Dessa beslut om prissättning överförs sedan till faktureringsprocessen.  
@@ -25,7 +25,7 @@ Om det behövs kan du skapa prisgrupper och mappa dem till specifika tidsperiode
 ## <a name="to-set-up-a-service-price-group"></a>Så här skapar du en serviceprisgrupp
 Du kan lägga upp grupper med serviceartiklar om du vill ha samma speciella serviceprissättning. Du tilldelar serviceprisgrupper till serviceartiklar på serviceartikelrader. Du kan även tilldela serviceprisgrupper till serviceartikelgrupper.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **serviceprisgrupper** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceprisgrupper** och väljer sedan relaterad länk.  
 2. Skapa en ny serviceprisgrupp.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. Välj åtgärden **Installation**.  
@@ -37,7 +37,7 @@ Du kan lägga upp grupper med serviceartiklar om du vill ha samma speciella serv
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Så här skapar du serviceprisjusteringsgrupper  
 Du kan ställa in prisjusteringsgrupper för att justera servicepriset för serviceartiklar. skapa en prisjusteringsgrupp som justerar priset för frakt eller reservdelar.  
   
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceprisjusteringsgrupper** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceprisjusteringsgrupper** och väljer sedan relaterad länk.  
 2. Skapa en ny serviceprisjusteringsgrupp.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. I fältet **Typ** anger du den transaktionstyp som du vill justera.  
@@ -55,11 +55,11 @@ Du kan ställa in prisjusteringsgrupper för att justera servicepriset för serv
 När du arbetar med serviceartiklar och serviceorder kanske du behöver registrera ytterligare kostnader, till exempel resekostnader för vissa service zoner eller uppstartskostnader. När du skapar en serviceorder kan du infoga kostnaderna och en rad med typen **kostnad** läggs till i ordern. Om du vill koppla kostnader till alla serviceorder kan du ställa in standardkostnaden. Till exempel om du alltid vill använda en uppstartskostnad.
   
 ### <a name="to-set-up-service-costs"></a>Så här skapar du servicekostnader:
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **servicekostnader** och välj sedan relaterad länk. 
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Servicekostnader** och väljer sedan relaterad länk. 
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Ange standardkostnaden för serviceorder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstinställningar** och välj sedan relaterad länk. 
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceinställningar** och väljer sedan relaterad länk. 
 2. I fältet **Tjänsteorder uppstartskostnad**, välj lämplig servicekostnad.
 
 ## <a name="see-also"></a>Se även

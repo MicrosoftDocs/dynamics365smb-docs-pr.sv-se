@@ -1,6 +1,6 @@
 ---
-title: Analysera data efter dimensioner | Microsoft Docs
-description: Beskriver hur du kan analysera olika affärsdata per dimension.
+title: Analysera data efter dimensioner
+description: Detta ämne beskriver hur du kan analysera olika affärsdata per dimension. Med dimensioner får du bättre insikt i företaget så att du kan utvärdera informationen.
 services: project-madeira
 documentationcenter: ''
 author: edupont
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 9637aabd44f0714983a5d0ce129bf5bc9f1eaee4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947394"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437082"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysera data efter dimensioner
 Inom ekonomisk analys är en dimension data som du kan lägga till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Dimensioner kan användas på transaktioner i journaler, dokument och budgetar. Termen dimension används för att beskriva hur analyser utförs. Ett exempel på en tvådimensionell analys är försäljning per område. Om du använder fler än två dimensioner när du skapar en transaktion kan du utföra mer komplexa analyser, exempelvis försäljning per försäljningskampanj per kundgrupp per område. Mer information finns i [Arbeta med](finance-dimensions.md).
@@ -33,7 +33,7 @@ Att analyera data efter dimensioner ger dig bättre inblick i din verksamhet, s�
 ## <a name="to-set-up-an-analysis-view"></a>Så här definierar du en analysvy  
 En analys per dimension visar en vald kombination av dimensioner. Du kan lagra och hämta alla analyser som har definierats. Informationen som används för att skapa en analys lagras på **analysvykortet** för att underlätta framtida analyser.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Analysvy** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **analysvyer** och väljer sedan relaterad länk.  
 2. På sidan **Analysvylista** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Om du vill lägga till ytterligare dimensionskoder förutom de fyra koderna väljer du på snabbfliken **Dimensioner**, åtgärden **Filter**, fyller i fälten och klickar på **OK**.  
@@ -42,7 +42,7 @@ En analys per dimension visar en vald kombination av dimensioner. Du kan lagra o
 ## <a name="to-analyze-by-dimensions"></a>Analysera efter dimensioner
 Du kan använda matrisen **Analys per dimension** för att visa beloppen i redovisningen med hjälp av de analysvyer som du har definierat. Du fyller i sidan **Analys per dimension** för att definiera vad som ska visas i matrisen och klickar sedan på **Visa matris** för att visa matrisen.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Analysvy** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **analysvyer** och väljer sedan relaterad länk.  
 2. Välj lämplig analysvy och klicka på **Analys per dimension**.
 3. Högst upp på sidan **Analys efter dimensioner** fyller du i fälten för att definiera vilka data som ska visas och hur.
 4. Välj åtgärden **Visa matris** för att öppna respektive matrissida för den definierade analysvyn.
@@ -65,7 +65,7 @@ Beloppen som visas på sidan **Analys per dimension** ger dig en bild av företa
 
 Nedanstående procedur beskriver hur du uppdaterar en analysvy från sidan **Analys per dimension**. Momentet är liknande från sidorna **Analysvykort** och **Analysvylista**.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Analysvy** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **analysvyer** och väljer sedan relaterad länk.
 2. Välj lämplig analysvy och klicka på **Analys per dimension**.
 2. På sidan **analys per dimension** väljer du fältet **Analysvykod** för att visa alternativen.  
 3. Välj raden med önskad analysvy.  

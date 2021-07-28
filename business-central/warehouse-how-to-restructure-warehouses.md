@@ -1,6 +1,6 @@
 ---
-title: Så här omstrukturerar du distributionslager | Microsoft Docs
-description: Du kanske vill omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper.
+title: 'Så här: Omstrukturera distributionslager'
+description: Lär dig hur du omstrukturerar distributionslagret med nya lagerplatskoder och nya lagerplatsegenskaper för att uppnå eller upprätthålla en effektivare operation.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ad541c54f696b19e9c37fba88134522cc5b7bb90
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4fb323253d9eb27216ae1d340ace6978a05afe65
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771660"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438063"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturera lager
 Du kanske vill omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper. Den typen av aktivitet utförs inte särskilt ofta, men det kan uppstå situationer när en omgruppering är nödvändig för att åstadkomma en effektivare drift. Som exempel:  
@@ -27,11 +27,11 @@ Du kanske vill omstrukturera distributionslagret med nya lagerställeskoder och 
 Om distributionslagret är inställt på lagerställen, men inte dirigerad artikelinförsel och plockning, strukturera om distributionslagret genom att skapa nya lagerställen du vill använda.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Om du vill omstrukturera en vanlig dist.lager som använder lagerställen bara  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  På snabbfliken **lager** anger du fältet **Standardlagerplatsval** till **Senaste lagerplats**.  
 3.  Flytta allt innehåll på de nuvarande lagerställena till de nya lagerställena som du precis har skapat.  
 
-    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelgrupperingsjournal** och välj sedan relaterad länk.  
+    1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelgrupperingsjournal** och väljer sedan relaterad länk.  
     2.  Markera en rad och välj sedan åtgärden **Hämta lagerställesinnehåll**.  
     3.  På Snabbfliken **Lagerställesinnehåll** , ställer du in filter i **Lagerställekod**, **Lagerställeskod**, och **Artikelnr** fältet för att ange innehållet som du vill flytta.  
     4.  Välj den **OK** på för att fylla i en journalrad.  
@@ -46,13 +46,13 @@ Du har nu tömt lagerställen där artiklarna användes. Standardlagerställena 
 1.  Ska de nya lagerställena som du vill använda i framtiden. Mer information finns i [Skapa lagerställen](warehouse-how-to-create-individual-bins.md).  
 2.  Flytta allt innehåll på de nuvarande lagerställena till de nya lagerställena som du precis har skapat.  
 
-    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager grupperingsjnl** och välj sedan relaterad länk.  
+    1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager grupperingsjnl** och väljer sedan relaterad länk.  
     2.  För de lagerställen där det inte sker någon transport av artiklar skapar du en rad för varje aktuell lagerplats i **Dist.lager omgrupperingsjnl** med den gamla lagerställeskoden, **Från lagerställeskod** och den nya lagerställeskoden, **Till lagerställeskod**.  
     3.  Om vissa transporter innefattar fysiska transporter som du vill att lagerpersonalen ska utföra använder du **Transportkalkylark** för att förbereda transportinstruktioner i stället för att använda lagergrupperingsjournalen. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  När de gamla lagerställena är tomma gruppera om dem som **KS** typ av lagerstället, för att se till att de inte inkluderas i artikelflöden.  
 
-    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
+    1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
     2.  Markera raden med lagerstället, och välj sedan åtgärden **Lagerställen**.  
     3.  På sidan **Lagerställen** i fältet **Lagerplatstyp kod**, ange **KS** för var och en av de gamla lagerställena som du tömde i steg 3 i föregående process.  
 
@@ -60,7 +60,7 @@ Du har nu tagit bort lagerställena från lagerflödet och har omklassificerat d
 
 ## <a name="to-delete-a-bin"></a>Så här tar du bort en lagerplats  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Markera lagerstället där du vill ta bort lagerställen väljer du åtgärden **Lagerställen**.  
 3.  Markera raderna för de lagerställen som du vill ta bort.  
 4.  Välj åtgärden **Radera**.  
@@ -71,7 +71,7 @@ Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerst�
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Så här byter du namn på en lagerplats och ändrar lagerställeskoden i alla poster  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Välj lagerstället där du vill byta namn på en lagerplats eller ändra lagerställeskoden och klicka på åtgärden **Lagerställen**.  
 3.  I **Kod** fältet, ange lagerstället du vill ändra och ange en ny lagerställeskod.  
 4.  Välj **Ja**.  

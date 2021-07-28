@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 38d7cc9bf45c3bef239a68cd0e4865ef2833776e
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3c8ad52667ad8ff0a2cb399ac6354012d7ef9275
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935142"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437918"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] och Power BI
 
 Att få insikter i dina [!INCLUDE[prod_short](includes/prod_short.md)]-data är enkelt med [Power BI](https://powerbi.microsoft.com) – ett system för datavisualisering från Microsoft. Power BI hämtar [!INCLUDE[prod_short](includes/prod_short.md)]-data som gör det möjligt för dig att skapa instrumentpaneler och rapporter baserade på denna data. Power BIutgör ett flexibelt alternativ till rapporter som skapas med [!INCLUDE[prod_short](includes/prod_short.md)] genom att göra det möjligt för dig att öka detaljnivån i och anpassa visualiseringen, samt till och med att sammanslå data från olika företag i [!INCLUDE[prod_short](includes/prod_short.md)]. Vissa Power BI-rapporter kan också bäddas in i Business Central och visas utan att du behöver lämna systemet. Upplevelsen av mer komplexa instrumentpaneler blir bättre från Power BI-webbplatsen.
 
-![Power BI och Business Central](media/power-bi-intro.png)
+![Power BI och Business Central.](media/power-bi-intro.png)
 
 ## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Vad kan du göra med Power BI och [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -30,32 +30,50 @@ Det finns olika funktioner för att arbeta med [!INCLUDE[prod_short](includes/pr
 
 |Funktion|Beskrivning|Online|Lokalt|Mer information|
 |-------|-----------|--------------|-----------|----------------|
-|Visa [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI|Du kan visa dina [!INCLUDE[prod_short](includes/prod_short.md)]-data i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online omfattar vissa fördefinierade Power BI-rapporter. Det kan också vara så att din organisation har gjort vissa anpassade rapporter tillgängliga för dig.|![Arbetar online](media/check.png)|![Arbetar på plats](media/check.png)|[Se...](across-working-with-business-central-in-powerbi.md)|
-|Visa Power BI-rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.| Power BI-rapporter som visar [!INCLUDE[prod_short](includes/prod_short.md)]-data kan bäddas in direkt i delar på [!INCLUDE[prod_short](includes/prod_short.md)]-sidor. Du kan låta delen visa valfri rapport som gjorts tillgänglig för dig. |![arbetar online](media/check.png)|![Arbetar på plats](media/check.png)<sup>[*](#onprem)</sup>|[Se...](across-working-with-powerbi.md)|
-|Skapa rapporter och instrumentpaneler i Power BI som visar [!INCLUDE[prod_short](includes/prod_short.md)]-data.|Använd Power BI Desktop för att skapa dina egna rapporter och instrumentpaneler. Du kan publicera rapporterna i din egen Power BI-tjänst eller dela dem med andra inom din organisation.|![Arbetar online](media/check.png)|![arbetar på plats](media/check.png)|[Se...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prod_short](includes/prod_short.md)]-appar i Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publicerar tre appar för Power BI i Microsoft AppSource. Dessa appar framställer detaljerade rapporter och instrumentpaneler i din Power BI-tjänst som låter dig visa [!INCLUDE[prod_short](includes/prod_short.md)]-data. Tillgängliga appar inkluderar bland annat: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Arbetar online](media/check.png)||[Se...](across-powerbi-business-central-apps.md)
+|Visa [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI|Du kan visa dina [!INCLUDE[prod_short](includes/prod_short.md)]-data i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online omfattar vissa fördefinierade Power BI-rapporter. Det kan också vara så att din organisation har gjort vissa anpassade rapporter tillgängliga för dig.|![Arbetar online.](media/check.png)|![Arbetar på plats](media/check.png)|[Se...](across-working-with-business-central-in-powerbi.md)|
+|Visa Power BI-rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.| Power BI-rapporter som visar [!INCLUDE[prod_short](includes/prod_short.md)]-data kan bäddas in direkt i delar på [!INCLUDE[prod_short](includes/prod_short.md)]-sidor. Du kan låta delen visa valfri rapport som gjorts tillgänglig för dig. |![arbetar online.](media/check.png)|![Arbetar på plats](media/check.png)<sup>[*](#onprem)</sup>|[Se...](across-working-with-powerbi.md)|
+|Skapa rapporter och instrumentpaneler i Power BI som visar [!INCLUDE[prod_short](includes/prod_short.md)]-data.|Använd Power BI Desktop för att skapa dina egna rapporter och instrumentpaneler. Du kan publicera rapporterna i din egen Power BI-tjänst eller dela dem med andra inom din organisation.|![Arbetar online.](media/check.png)|![arbetar på plats](media/check.png)|[Se...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prod_short](includes/prod_short.md)]-appar i Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publicerar tre appar för Power BI i Microsoft AppSource. Dessa appar framställer detaljerade rapporter och instrumentpaneler i din Power BI-tjänst som låter dig visa [!INCLUDE[prod_short](includes/prod_short.md)]-data. Tillgängliga appar inkluderar bland annat: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Arbetar online.](media/check.png)||[Se...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> Denna funktion kräver ett registrerat program för Business Central i Microsoft Azure. Mer information finns i [Registrera Business Central lokalt i Azure AD för integrering med andra tjänster](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
 ## <a name="getting-ready-to-use-power-bi"></a>Komma igång med Power BI
 
-Det finns några uppgifter som måste utföras innan du kan börja använda Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. Vissa uppgifter utförs som regel endast av administratörer eller så kallade "super users".
+Det finns några uppgifter som måste utföras innan du kan börja använda Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Uppgifterna beror på din roll i organisationen och vad du vill göra med Power BI:
 
-1. Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt bör du se till att din distribution uppfyler de krav som anges i [Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt för Power BI-integrering](admin-powerbi-setup.md#setup). Denna uppgift utförs vanligtvis av en administratör.
+- Som *företagsanvändare* vill du visa Power BI-rapporter, antingen i Power BI-tjänsten eller Business Central
+- Som *administratör* ansvarar du för hanteringen av de organisationsomfattande inställningarna som styr hur Business Central och Power BI fungerar.
+- Som *rapportskapare* vill du skapa anpassade Power BI-rapporter som du kan dela med andra användare.
 
-2. Publicera data som webbtjänster.
+|Uppgift|Affärsanvändare|Administratör|Skapare av rapporter|Mer information|
+|----|-------------|-------------|-----------------------|----------------|
+|Skaffa ett Power BI-konto.|![ytterligare en bock.](media/check.png)|![det är en bock](media/check.png)|![återigen en bock](media/check.png)|Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Se till att använda din e-postadress för arbetet samt ditt lösenord när du registrerar dig för ett konto. <br /><br/>En registrering kräver en licens, men i de flesta fall för du redan ha en gratislicens. För mer information, se [Power BI-licensiering](admin-powerbi-setup.md#license).|
+|Hämta Power BI Desktop|||![återigen en bock.](media/check.png)|Om du vill ladda ned går du till [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Mer information finns i [Hämta Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
+|Exponera Business Central-data för Power BI||![det är en bock.](media/check.png)|![återigen en bock](media/check.png)|[Visa data via API-sidor eller OData-webbtjänster](admin-powerbi-setup.md#exposedata)
+|Aktivera integrering med Power BI<br />(endast lokalt)||![det är en bock.](media/check.png)||[Konfigurera Business Central lokalt för Power BI-integration](admin-powerbi-setup.md#setup)|
 
-    Kodenheter, sidor och frågor som du vill använda som datakälla i Power BI-rapporter måste publiceras som webbtjänster. Många webbtjänster publiceras som standard. Ett enkelt sätt att hitta webbtjänsten är att söka efter *webbtjänster* i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    Mer information om publicering av webbtjänster finns i [Publicera en webbtjänst](across-how-publish-web-service.md).
+<!--
 
-3. Skaffa ett Power BI-konto.
 
-    För att kunna använda Power BI och [!INCLUDE[prod_short](includes/prod_short.md)] på något som helst sätt krävs ett Power BI-tjänstekonto – detta gäller oavsett om du är administratör eller endast konsument. Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) för att skaffa ett konto. Se till att använda din e-postadress för arbetet samt ditt lösenord när du registrerar dig för ett konto. En registrering kräver en licens, men i de flesta fall för du redan ha en gratislicens. Mer information finns i [Power BI-licensiering](admin-powerbi-setup.md#license).
 
-4. Om du vill skapa egna Power BI-rapporter skaffar du Power BI Desktop.
+1. If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, make sure your deployment meets the requirements outlined in [Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration](admin-powerbi-setup.md#setup). This task is typically an administrative task.
 
-    Du kan ladda ned [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Mer information finns i [Hämta Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
+2. Expose Business Central data through API pages or published web services.
+
+    Business Central online automatically included several pages as APIs. For more information, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Application developers for Business Central online can create custom API pages that you can then consume in reports. For more information, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+   Codeunit, page, and query objects can be published as OData web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
+
+3. Get a Power BI account.
+
+   To do anything with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)], whether you're an administrator or just a consumer, you'll need Power BI service account. To get an account, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. Sign-up requires that you have a license, but in most cases you should already have a free license. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
+
+4. If you want to create your own Power BI reports, get Power BI Desktop.
+
+   You can download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Get Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
+
+-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

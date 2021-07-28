@@ -1,6 +1,6 @@
 ---
-title: Analysera faktiska kontra budget | Microsoft Docs
-description: Beskriver hur du analyserar faktiska belopp kontra budgeterade belopp
+title: Analysera faktiska kontra budget
+description: I det här avsnittet beskrivs hur du analyserar faktiska belopp mot budgeterade belopp som ett sätt att samla in, analysera och dela ut dina företagsdata.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9c601dc3507b0777f3aeecb063e6cebe8866768c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781128"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437107"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysera faktiska belopp kontra budgeterade belopp
 Som en del av att samla in, analysera och dela dina företagsdata, kan du visa faktiska belopp och budgeterade belopp för alla konton och för flera perioder.
@@ -27,7 +27,7 @@ Om du vill analysera budgeterade belopp måste du först skapa redovisningsbudge
 ## <a name="to-view-a-gl-budget"></a>Så här visar du en redovisningsbudget
 Om du vill kan du filtrera transaktionerna i en budget med dimensioner och på så sätt visa vissa bestämda budgetar.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsbudgetar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Redovisningsbudgetar** och väljer sedan relaterad länk.
 2. På sidan **Redovisningsbudgetar** öppnar du budgeten du vill visa.  
 3. Högst upp på sidan fyller du i fälten för att definiera vad som ska visas. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ Om du vill kan du filtrera transaktionerna i en budget med dimensioner och på s
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Så här visar du faktiska och budgeterade belopp för alla konton  
 Du kan visa redovisningsbudgetar och jämföra dem med faktiska belopp i flera olika moduler i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontolista**, och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **kontoplan** kan du välja åtgärden **Redovisningssaldo/Budget**.
 3. Högst upp på sidan fyller du i fälten för att definiera vad som ska visas.  
 4. Välj fältet om du vill visa en specifikation av ett visat belopp.  
@@ -59,7 +59,7 @@ Kolumnerna till vänster innehåller kontoplanen. Av de fem kolumnerna till hög
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Så här visar du faktiska och budgeterade belopp för flera perioder  
 I stället för att visa de faktiska och budgeterade beloppen för alla konton under en enstaka period kan du visa ett antal perioder för ett enskilt konto.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **kontoplan** markerar du relevant redovisningskonto, och välj sedan åtgärden **konto saldo/budget**.  
 3. Högst upp på sidan fyller du i fälten för att definiera vad som ska visas.   
 4. Välj fältet om du vill visa en specifikation av ett visat belopp.  

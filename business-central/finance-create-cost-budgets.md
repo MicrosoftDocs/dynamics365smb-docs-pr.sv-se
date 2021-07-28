@@ -1,6 +1,6 @@
 ---
-title: Skapa kostnadsbudgetar | Microsoft Docs
-description: Det här avsnittet innehåller en översikt över var du skapar och analyserar kostnadsbudgetar.
+title: Skapa kostnadsbudgetar
+description: Det här avsnittet innehåller en översikt över var du skapar och analyserar kostnadsbudgetar. Budgetering för kostnadsredovisning liknar budgetering i redovisningen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: da976e1e8ac2988aa2842925c2b10f4f8515ea47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785250"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436179"
 ---
 # <a name="creating-cost-budgets"></a>Skapa kostnadsbudgetar
 Budgetering för kostnadsredovisning liknar budgetering i redovisningen. En kostnadsbudget skapas baserat på kostnadstyper, precis som en budget för redovisningen skapas baserat på redovisningskonton.  
 
 En kostnadsbudget skapas för en viss tidsperiod, till exempel ett räkenskapsår. Du kan skapa kostnadsbudgetar efter behov. Du kan skapa en ny kostnadsbudget manuellt eller genom att importera en kostnadsbudget eller genom att kopiera en befintlig kostnadsbudget som budgetbas. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 
-Du kan använda följande sidor för att skapa och analysera kostnadsbudgetar. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") för att hitta en sida och läs sedan knappbeskrivningen för varje länk.
+Du kan använda följande sidor för att skapa och analysera kostnadsbudgetar. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ikon för att söka efter en sida och läs sedan verktygstipset för var och en.
 
 |Till|Gå till|  
 |--------|---------|  

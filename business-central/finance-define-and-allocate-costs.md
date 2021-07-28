@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770869"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436204"
 ---
 # <a name="defining-and-allocating-costs"></a>Definiera och fördela kostnader
 Kostnadsfördelning flyttar kostnader och intäkter mellan kostnadstyper, kostnadsställen och kostnadsbärare. Du kan definiera valfritt antal fördelningar. Varje fördelning består av:  
@@ -38,7 +38,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Fördelningskällan bestämmer vilka kostnader som ska fördelas. Fördelningsmålen bestämmer vart kostnaderna ska fördelas.  
 
 ### <a name="to-set-up-cost-allocations"></a>Så här lägger du upp kostnadsfördelningar  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kostnadsfördelning** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelning** och väljer sedan relaterad länk.  
 2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Redigera**.  
 3.  Ange ett ID för fördelningskällan i fältet **ID**.  
 4.  Definiera en nivå som ett tal mellan 1 och 99 i fältet **Nivå**. Fördelningsbokföringen följer ordningen på nivåerna.  
@@ -82,7 +82,7 @@ I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är 
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Så här definierar du fördelningskällan PROD-kostnadsstället på snabbfliken Allmänt  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kostnadsfördelning** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelning** och väljer sedan relaterad länk.  
 2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
 3.  I fältet **ID**, tryck på Retur eller ange ett id.  
 4.  Ange **1** i fältet **Nivå**.  
@@ -119,7 +119,7 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Så här definierar du dynamisk fördelning beräknad på sålda artiklar under föregående år  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kostnadsfördelning** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelningar** och väljer sedan relaterad länk.  
 2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
 3.  I fältet **ID**, tryck på Retur eller ange ett id.  
 4.  Ange **1** i fältet **Nivå**.  

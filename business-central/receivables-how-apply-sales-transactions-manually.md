@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipt
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a0e2c67b3fd6cdd24074a0a59a012ce325692f16
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef50dd0119922e7a67bdb10d0a3d3765bc54395f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781719"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436079"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner
 När du får en inbetalning av en kund eller när du gör en kontant återbetalning måste du bestämma om inbetalningen eller återbetalningen ska kopplas till en eller flera öppna debet- eller kredittransaktioner. Du kan ange det belopp som du vill koppla. Du kan till exempel använda delbetalningar till kundreskontratransaktioner. Att avsluta kundreskontratransaktioner ser till att informationen som t. ex. kundstatistik och kontoutdrag och dröjsmålsräntor är korrekta.
@@ -37,7 +37,7 @@ Du kan koppla kundreskontratransaktioner på olika sätt:
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Så här fyller du i och bokför en inbetalningsjournal:
 En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den för att bokföra transaktioner på redovisningskonton, bankkonton, kundkonton, leverantörskonton och anläggningstillgångskonton. Du kan koppla betalningen till en eller flera debettransaktioner när du bokför betalningen, eller så kan du koppla från de bokförda transaktionerna senare.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inbetalningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inbetalningsjournal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Redigera journal**.
 3. Välj önskat namn i fältet **Journalnamn**.
 4. Fyll i fältet **Bokföringsdatum**.  
@@ -53,7 +53,7 @@ En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den
 12. Bokför journalen.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Så här kopplar du en betalning till en enskild kundreskontratransaktion
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inbetalningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inbetalningsjournal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Redigera journal**.
 3. Ange information om den transaktion som ska kopplas på den första journalraden.
 4. I fältet **Dokumenttyp** anger du **Betalning**.
@@ -68,7 +68,7 @@ En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den
 11. Bokför inbetalningsjournalen.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Så här kopplar du en betalning till flera kundreskontratransaktioner
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inbetalningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inbetalningsjournal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Redigera journal**.
 3. Ange information om den transaktion som ska kopplas på den första journalraden.
 4. I fältet **Dokumenttyp** anger du **Betalning**.
@@ -84,7 +84,7 @@ En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den
 12. Bokför inbetalningsjournalen.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Så här kopplar du en kreditnota till en enskild kundreskontratransaktion
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningskreditnotor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningskreditnotor** och väljer sedan relaterad länk.
 2. Öppna relevant försäljningskreditnota.
 3. Om du vill koppla kreditnotan till en enskild kundreskontratransaktion vid bokföring klickar du på snabbfliken **Kopplas till ver.nr** och väljer den transaktion som du vill koppla betalningen till.
 4. På raden i fältet **Belopp att koppla** anger du det belopp som du vill koppla till posten.  
@@ -94,7 +94,7 @@ En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den
 6. Bokför kreditnotan.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Så här kopplar du en kreditnota till flera kundreskontratransaktioner
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningskreditnota** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningskreditnotor** och väljer sedan relaterad länk.
 2. Öppna relevant försäljningskreditnota.
 3. Om du vill koppla kreditnotan till flera kundreskontratransaktioner vid bokföringen väljer du åtgärden **Koppla transaktioner**.
 4. Markera raderna med de poster som du vill koppla transaktionen till och väljer sedan åtgärden **Koppla till ID**.
@@ -105,7 +105,7 @@ En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den
 7. Bokför kreditnotan.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Så här kopplar du bokförda kundreskontratransaktioner
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kundkortet för kunden med transaktionerna som du vill koppla.
 3. Välj åtgärden **Transaktioner** och välj sedan raden med transaktionen som ska vara kopplingstransaktionen.
 4. Välj åtgärden **Koppla transaktioner**. Sidan **Koppla kundtransaktioner** öppnas där du kan se de öppna transaktionerna för kunden.
@@ -117,7 +117,7 @@ En inbetalningsjournal är en sorts redovisningsjournal, så du kan använda den
 8. Klicka på **OK** för att bokföra kopplingen.
 
     Om den bokförda kopplingen har medfört avslutade kundreskontratransaktioner finns det inte längre någon sådan markering i fältet **Öppen**.    
-9. Om du vill se transaktioner väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Kunder** och väljer sedan tillhörande länk. Bläddra till kortet för att den relevanta kunden ska se de redovisningstransaktioner.  
+9. För att se transaktioner, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk. Bläddra till kortet för att den relevanta kunden ska se de redovisningstransaktioner.  
 
 I transaktionslistan på raden som innehåller transaktionen som helt kopplades till kan du se att kryssrutan **Öppen** inte är markerad.  
 
@@ -131,7 +131,7 @@ Om du kopplar en post (post 1) i en valuta till en post (post 2) i en annan valu
 
 Koppla kundreskontratransaktioner i olika valutor till varandra måste vara aktiverad. Mer information finns i [Aktivera koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inbetalningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inbetalningsjournal** och väljer sedan relaterad länk.
 2. Öppna den journal som du vill ha och fyll i första tomma journalrad med en valutakod.
 3. Välj åtgärden **Koppla transaktioner**.
 4. Välj raden med den post som du vill koppla till posten i inbetalningsjournalen. Klicka sedan på åtgärden **Koppla till ID** och välj den post som du vill koppla till.
@@ -144,7 +144,7 @@ Koppla kundreskontratransaktioner i olika valutor till varandra måste vara akti
 ## <a name="to-correct-an-application-of-customer-entries"></a>Så här rättar du en koppling av kundtransaktioner
 När du rättar en koppling skapas och bokförs korrigeringstransaktioner som är identiska med den ursprungliga transaktionen, men med motsatt tecken i beloppsfältet för alla transaktioner, inklusive all redovisningsbokföring som gjorts i redovisningen till följd av kopplingen, t. ex. kassarabatter och valutakursvinster/-förluster. Alla transaktioner som stängdes av kopplingen öppnas på nytt.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna relevant kundkort.
 3. Välj åtgärden **Transaktioner**.
 4. Välj aktuell transaktion och klicka på åtgärden **Ta bort koppling på trans.**.

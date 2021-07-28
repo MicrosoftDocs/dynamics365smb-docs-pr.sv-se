@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087675"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437372"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central för flera platser och internationella organisationer
 Organisationer som har flera platser använder ofta en företagsmodell med nav och ekrar, där ett moderbolag, eller ett huvudkontor, hanterar verksamhetens övergripande verksamhet medan varje plats fungerar som en enda fristående enhet. Platser är ofta geografiskt spridda och har olika behov av att dela information med moderbolaget. Dessutom behöver inte platserna samma komplexitetsnivå, och de saknar ofta de resurser som behövs för att upprätthålla ett stort system.
@@ -30,7 +30,7 @@ I den här artikeln beskrivs några sätt som [!INCLUDE[prod_short](includes/pro
 
 Följande diagram är ett exempel på olika platser som är integrerade med ett moderbolag.
 
-![Diagrambeskrivning som genereras automatiskt](media/multisite-headquarter-sites.png)
+![Diagrambeskrivning som genereras automatiskt.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Uppfylla behoven hos inhemska och internationella platser
 
@@ -101,7 +101,7 @@ Platser behöver ofta ha till gång till försörjningskedjan och möjlighet att
 
 Moderbolaget måste kunna reagera snabbt på företagsförändringar vid varje plats. I kombination med Power Automate kan [!INCLUDE[prod_short](includes/prod_short.md)] fungera som en tidig varningsfunktion.
 
-![En skärm bild av ett inlägg på sociala medier Beskrivning som genererats automatiskt](media/multisite-apps.png)
+![En skärm bild av ett inlägg på sociala medier Beskrivning som genererats automatiskt.](media/multisite-apps.png)
 
 | **Affärsbehov** | **Så här stöder Business Central det** | **Läs mer** |
 |-------------------------|-------------------------|-------------------------|

@@ -1,6 +1,6 @@
 ---
 title: Ställa in skrivare
-description: Mer information om hur du konfigurerar skrivare som du kan använda för rapporter och dokument.
+description: Lär dig mer om hur du konfigurerar skrivare som du kan använda för rapporter och dokument samt vilken utskriftsfunktion som är tillgänglig för dig i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 05/17/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063458"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437222"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 
@@ -25,8 +25,8 @@ För att stödja dina utskriftsbehov [!INCLUDE[prod_short](includes/prod_short.m
 
 |Funktion|Beskrivning|Webbklient| Mobilapp|App för Teams|
 |-------|-----------|----------|-----------|--------------|
-|Universell utskrift|Universell utskrift är en lösning för skrivarhantering som finns tillgänglig som en molntjänst från Microsoft. Med den här funktionen kan du ställa in skrivarna i Universell utskrift och sedan registrera dem för användning i [!INCLUDE[prod_short](includes/prod_short.md)]. För den här funktionen krävs en Universell utskrift-prenumeration och tillägget **Universell utskrift-integrering**|![arbetar online](media/check.png)|![arbetar online](media/check.png)|![arbetar online](media/check.png)|
-|E-postutskrift|Med den här funktionen kan du konfigurera skrivare som har stöd för e-post. [!INCLUDE[prod_short](includes/prod_short.md)] skickar sedan utskriftsjobben till en skrivare med hjälp av skrivarens e-postadress. För den här funktionen krävs e-postaktive rad skrivare och tillägget **Skicka till e-postskrivare**.|![arbetar online](media/check.png)|![arbetar online](media/check.png)|![arbetar online](media/check.png)|
+|Universell utskrift|Universell utskrift är en lösning för skrivarhantering som finns tillgänglig som en molntjänst från Microsoft. Med den här funktionen kan du ställa in skrivarna i Universell utskrift och sedan registrera dem för användning i [!INCLUDE[prod_short](includes/prod_short.md)]. För den här funktionen krävs en Universell utskrift-prenumeration och tillägget **Universell utskrift-integrering**|![arbetar online.](media/check.png)|![arbetar online.](media/check.png)|![arbetar online](media/check.png)|
+|E-postutskrift|Med den här funktionen kan du konfigurera skrivare som har stöd för e-post. [!INCLUDE[prod_short](includes/prod_short.md)] skickar sedan utskriftsjobben till en skrivare med hjälp av skrivarens e-postadress. För den här funktionen krävs e-postaktive rad skrivare och tillägget **Skicka till e-postskrivare**.|![arbetar online.](media/check.png)|![arbetar online](media/check.png)|![arbetar online](media/check.png)|
 |Webbläsarutskrift|Utskriftsjobb hanteras av utskriftsfunktionen i användarens webbläsare. Om en molnskrivare inte har installerats eller konfigurerats, eller om en installerad skrivare havererar, kommer utskriften att ske via webbläsarens standardalternativ för utskrift. Fältet **Skrivare** på sida för rapportförfrågan visas *(hanteras av webbläsaren)*.|![arbetar online](media/check.png)|||
 
 > [!NOTE]
@@ -36,7 +36,7 @@ För att stödja dina utskriftsbehov [!INCLUDE[prod_short](includes/prod_short.m
 
 Universell utskrift är en Microsoft 365-prenumerationstjänst som körs helt på Microsoft Azure. Med den här funktionen får du centraliserad utskriftshantering via Universell utskrift-portalen. [!INCLUDE[prod_short](includes/prod_short.md)] gör skrivarinställningar i Universell utskrift tillgängliga för klientanvändare via tillägget **Universell utskrift-integrering**.
 
-![Ställ in Universell utskrift](media/Universal-Print-arch.png)
+![Inställning av Universell utskrift.](media/Universal-Print-arch.png)
 
 Den fullständiga installationen kräver att du arbetar både i Microsoft Azure med [Azure-portal](https://portal.azure.com) och i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -146,7 +146,7 @@ Lägga till skrivare individuellt vill du installera samma Universell skrivare i
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Skrivarhantering** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Utskriftshantering** och väljer sedan relaterad länk.
 2. Välj **Universell utskrift** och välj sedan något av följande alternativ:
 
     - **Lägg till alla skrivare för Universell utskrift** som inte redan har lagts till. Du kan använda det här alternativet även om det redan finns skrivare som har lagts till. 
@@ -206,7 +206,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 På sidan **Utskriftshantering** kan du se vilka skrivare som är inställda. Sidan ger dig också åtkomst till sidan **Inställningar** för varje skrivare att redigera en befintlig installation eller ställa in en ny skrivare.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Skrivarhantering** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Utskriftshantering** och väljer sedan relaterad länk.
 2. Välj **E-posta utskrift** och välj sedan **Lägg till en e-postskrivare**.
 3. På sidan **Inställningar av e-postskrivare** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -230,7 +230,7 @@ Det finns ett par sätt att installera skrivare som ska användas som standard f
 
 På sidan **Skrivarhantering** kan du ställa in en skrivare som standardskrivare för alla utskriftsjobb. Du kan ange skrivaren som standard för dig eller för alla användare.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Skrivarhantering** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Utskriftshantering** och väljer sedan relaterad länk.
 
     > [!TIP]
     > Du kan också öppna sidan **Utskriftshantering** från sidan **Skrivarval** genom att välja **Utskriftshantering**.  
@@ -246,7 +246,7 @@ På sidan **Skrivarval** låt oss ange skrivaren som en rapport ska använda som
 > [!IMPORTANT]
 > För [!INCLUDE[prod_short](includes/prod_short.md)] lokal, kan sidan **Val av skrivare** kan endast användas för molnskrivare definierade av skrivartillägg, som e-postutskrift och skrivare för Universell utskrift. Det kan inte användas för lokala skrivare.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skrivarhantering** och välj sedan relaterad länk. Du kan också välja sidan **Skrivarhantering** och sedan välja åtgärden **Skrivarhantering**.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Utskriftsval** och väljer sedan relaterad länk. Du kan också välja sidan **Skrivarhantering** och sedan välja åtgärden **Skrivarhantering**.
 2. Välj åtgärden **Ny** om du vill lägga till ett Skrivarhantering för en specifik rapport.
 3. Fyll i fälten om det behövs.
 

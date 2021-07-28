@@ -1,6 +1,6 @@
 ---
 title: Införa utflöde från produktion
-description: Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe.
+description: 'Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe. Lager, artikelinförsel kan utföras på följande sätt:'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2b04e07a6660ebeb32cc93594c77b8ff8e782766
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784223"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438138"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Föra in produktions- eller monteringsutflöde
 
@@ -33,14 +33,14 @@ I avancerade lagerkonfigurationer där ditt lagerställe kräver både artikelin
 Det första steget när du skapar ett utflöde är att skapa det inkommande distributionslagerkravet. Förfrågan informerar distributionslagret att produktions- eller monteringsordern utflöde är klart för artikelinförsel.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>Så här skapar du det inkommande distributionslagerkravet  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Släppt produktionsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
 2.  På produktionsordern som är klar för artikelinförsel väljer du åtgärden **Skapa inkommande dist.lagerbegäran**.  
 
 > [!NOTE]  
 > Du kan också skapa inkommande distributionslagerkrav genom att välja fältet **Skapa inkommande begärande** när du uppdaterar produktionsordern. Mer information finns i [Uppdatera eller omplanera produktionsorder](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>Så här för du in utflöde med Lagerartikelinförsel:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinförsel** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
 2.  Skapa en ny lagerinförsel. Mer information finns i [Införa artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Om du vill komma åt produktionsorderns utflöde väljer du åtgärden **Hämta källdokument** och väljer den släppta produktionsordern.  
 4.  Fyll i artikelinförselraderna efter behov.

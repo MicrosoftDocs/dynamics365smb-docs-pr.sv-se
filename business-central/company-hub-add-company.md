@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4954287f93ed012709a51f6fbb19d00494c63d54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786543"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436982"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Lägg till företag till företagsnavet
 
@@ -29,7 +29,7 @@ En miljölänk är ett kort där du anger [!INCLUDE [prod_short](includes/prod_s
 
 Länken används när du väljer företag i företagsnavet.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Åtgärder för ett företag som anges i företagsnavet":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Åtgärder för ett företag som anges i företagsnavet.":::
 
 > [!TIP]
 > Om du arbetar i en kostnadsfri testversion av [!INCLUDE [prod_short](includes/prod_short.md)] är det enkelt att lägga till företagen i din klientorganisation. Du hittar miljölänken genom att kopiera ID för Azure Active Directory från avsnittet **Felsökning** på sidan Hjälp och support. Miljönamnet är troligen standardvärdet, PRODUKTION. Lägg till den här informationen i fältet **Miljölänk**, till exempel ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, och välj sedan **Testa anslutningen**. Utvärderingsföretaget läggs till i listan.
