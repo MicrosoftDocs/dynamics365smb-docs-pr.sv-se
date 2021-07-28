@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7cf4c0f1241155f464fde5196125b0a1bed2aeee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4095cfd39ad37037f7fad2a5bded7c5c71241f6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784548"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438883"
 ---
 # <a name="add-contacts-to-segments"></a>Lägga till kontakter i segment
 När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna på sidan **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Så här lägger du till kontakter i ett segment
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Segment** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Segment** och väljer sedan relaterad länk.  
 2. Markera segmentet och välj sedan åtgärden **Lägg till kontakter**. Sidan för batch-jobbet **Lägg till kontakter** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas när du väljer särskilda kontakter.
 

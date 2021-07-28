@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 815a4a6d66fad42a5d1467b87eaef7d6a1688ee1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780013"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439666"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Så här konfigurerar du ett företag med RapidStart-guiden
 Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
@@ -39,7 +39,7 @@ I följande procedur har du gett kunden ett konfigurationspaket, som sedan har i
     >  Ändra bara ditt rollcenter när du har fyllt i konfigurationen av företaget. Om du har registrerat fler detaljer som du överväger att ändra, använder du först konfigurationskalkylarket och fortsätter med arbetet. Gå sedan tillbaka till guiden för att uppdatera din rollcenterprofil, eller välj åtgärden **Slutför inställningar**.
 
 7. Välj knappen **OK**.  
-8. Om du vill kontrollera att konfigurationsinformationen har kopplats till det nya företaget väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Företagsinformation** och väljer sedan relaterad länk.
+8. Om du vill kontrollera att konfigurations informationen har tillämpats på det nya företaget väljer du den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.
 
 Sidan **Företagsinformation** innehåller information som du har angett.   
 

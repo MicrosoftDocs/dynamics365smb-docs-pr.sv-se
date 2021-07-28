@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b437f7508537ec438bf90c3a1239e2620e9db196
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 515774bca47a7e9877f2ac10a3a4536f29b59834
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775556"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440630"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Skapa underhåll för anläggningstillgångar
 Om du vill hantera underhåll av anläggningstillgångar måste du först ange viss allmän underhållsinformation, ett bokföringskonto för underhållskostnader och underhållskoder för olika typer av arbete, till exempel rutintjänst eller reparation.
@@ -25,20 +25,20 @@ Om du vill hantera underhåll av anläggningstillgångar måste du först ange v
 ## <a name="to-set-up-general-maintenance-information"></a>Så här ställer du in allmän underhållsinformation
 Om du skapar fält för underhåll kan du bokföra underhållskostnader från anläggningstillgångsjournalen.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Anläggningstillgångar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
 2. Markera den fasta anläggningstillgång som du definierar täckning av försäkring för välj sedan åtgärden **Redigera**.
 3. Fyll i så många fält som behövs på snabbfliken **Underhåll**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Så här skapar du underhållskoder
 När du bokför underhållskostnader (från en redovisningsjournal eller en inköpsfaktura) fyller du i fältet **Underhållskod** för att ange vilken typ av underhåll som har utförts, t. ex. rutinservice eller reparation.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Underhåll** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **underhåll** och väljer sedan relaterad länk.
 2. Lägg upp koder för andra typer av underhållsarbete på sidan **Underhåll**.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Så här skapar du underhållskostnader
 Om du vill bokföra underhållskostnader måste du först ange ett kontonummer på sidan **Anl. bokföringsmallar**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anl.bokföringsmallar** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. bokföringsmallar** och väljer sedan relaterad länk.
 2. Fyll i fältet **Underhållskostnader** för varje bokföringsmall.
 
 > [!NOTE]  

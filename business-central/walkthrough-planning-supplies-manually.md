@@ -1,6 +1,6 @@
 ---
-title: Genomgång – Planera leveranser manuellt | Microsoft Docs
-description: Den här genomgången demonstrerar processen för att planera leveransorder som uppfyller efterfrågan. Du kan inleda leveransplaneringen vid fasta tidpunkter, exempelvis varje morgon eller varje måndag, eller när du får ett meddelande från försäljningsavdelningen eller produktionen, beroende på typen av efterfrågan.
+title: Genomgång - Planera leveranser manuellt
+description: Den här genomgången visar hur du planerar leveransorder för att uppfylla nya behov, inklusive planering av inköp, överföring och produktionsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c1ab3c48ae09b75ab9e54e0c9fe9afd49b833f09
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214684"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438999"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
 
@@ -67,7 +67,7 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 
 ### <a name="to-use-the-order-planning-page"></a>Så här använder du sidan Orderplanering  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Orderplanering** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Orderplanering** och väljer sedan relaterad länk.  
 
      När sidan **Orderplanering** har öppnats måste en plan beräknas för att visa den nya efterfrågan sedan den senaste beräkningen.  
 
@@ -225,7 +225,7 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 
      Meddelandet tyder på att alla artiklar som behövs nu är levererade. Kontrollera de fast planerade produktionsorder som skapas.  
 
-13. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
+13. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
 
      Stäng sidan **Fasta planerade prod.order** för att se hur starttider och sluttider för enskilda order har planerats enligt produktstrukturen. Komponenterna på den lägsta nivån tillverkas först. Därför måste du planera order i flera nivåer, vilket framgår av den här planeringsprocessen.  
 

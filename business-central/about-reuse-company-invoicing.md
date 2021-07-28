@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 763b4ae19bc83a1fd4a3abc9d6dfd5ee0c386eb1
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115696"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439153"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Använda samma Microsoft 365-konto i [!INCLUDE[prod_short](includes/prod_long.md)] och Microsoft Invoicing
 När du registrerar dig för en testversion av [!INCLUDE[prod_short](includes/prod_short.md)] kan du byta till en 30 dagar lång utvärderingsfas, starta en prenumeration eller sluta använda [!INCLUDE[prod_short](includes/prod_short.md)]. Ibland kan det hända att du har sett något som kallas **Microsoft Invoicing** och klickat på den. Det här var en app som ingick i Microsoft 365 Business Standard och tidigare kallades för Microsoft 365 Business Premium-prenumeration, så det är inte alla som har sett den panelen i sin Microsoft 365-upplevelse.  
@@ -31,9 +31,9 @@ Du måste därför logga in på [!INCLUDE[prod_short](includes/prod_short.md)] o
 
 ### <a name="to-rename-your-company"></a>Byta namn på ditt företag
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)].
-2. I det övre högra hörnet väljer du ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan **Mina inställningar**.
+2. I det övre högra hörnet väljer du ikonen **Inställningar** ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan **Mina inställningar**.
 3. I fältet **företag** väljer du ett annat företag.
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företag** och välj sedan tillhörande länk.  
+4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företag** och väljer sedan relaterad länk.  
 5. På sidan **Företag** väljer du knappen **Redigera lista**.  
 6. Byt namn på posten *Mitt företag* till något annat.  
 

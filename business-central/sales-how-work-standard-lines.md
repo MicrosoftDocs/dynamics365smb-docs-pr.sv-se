@@ -1,6 +1,6 @@
 ---
-title: Konfigurerar standardrader för återkommande försäljning och inköp | Microsoft Docs
-description: Du kan definiera försäljningsrader och inköpsrader som du gör ofta och infoga dem på försäljnings- och inköpsdokument för att snabbt fylla i raderna med standardinformationen.
+title: Standard återkommande försäljnings- och inköpsrader
+description: Ställ in ofta använda försäljningsrader och inköpsrader för att infoga dem på försäljnings- och inköpsdokument och snabbt fylla i raderna med standardinformationen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 32a42f9d420ccab90a733d031c69d0fb6aa1182a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770794"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440184"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Skapa återkommande försäljnings- och inköpsrader
 Om du ofta behöver skapa försäljnings- och inköpsrader med liknande information, kan du ställa in standardraderna så att du sedan kan infoga på återkommande försäljning och inköpsdokument, till exempel för återkommande påfyllningsorder.  
@@ -24,7 +24,7 @@ I följande procedur visas hur du arbetar med in standardförsäljningsrader på
 
 ## <a name="to-set-up-recurring-sales-lines"></a>Så här skapar du återkommande försäljningsrader
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Återkommande försäljningsrader** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **återkommande försäljningsrader** och väljer sedan relaterad länk.  
 2. På sidan **Återkommande försäljningsrader** väljer du åtgärden **Ny**.  
 3. I snabbfliken **Allmänt** fyller du i nödvändiga fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I snabbfliken **Rader** ange information i fälten för att förbereda försäljningsrader som återspeglar de standardrader som du förväntar dig att använda som återkommande rader på försäljningsdokument.  
@@ -38,7 +38,7 @@ I följande procedur visas hur du arbetar med in standardförsäljningsrader på
 
 Tilldela en eller flera återkommande försäljningsrader till en kund så att dessa kan läggas in i försäljningsdokument för kunden.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kortet för ett relevant kund.
 3. Välj åtgärden **Få återkommande förs.rader**.
 4. På sidan **Återkommande försäljningsrader**, välj koderna för återkommande försäljningsrader som du vill infoga i ett försäljningsdokument för kunden.
@@ -60,7 +60,7 @@ Tilldela en eller flera återkommande försäljningsrader till en kund så att d
 
 Om det finns återkommande försäljningsrader för kunden kan du infoga dem (eller få dem infogade) i alla typer av försäljningsdokument, t. ex. en försäljningsfaktura. Om du har aktiverat alternativen **Fråga alltid** får du information om återkommande försäljningsrader finns.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fakturor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **fakturor** och väljer sedan relaterad länk.
 2. Öppna den försäljningsfaktura du vill infoga en eller flera standardförsäljningsrader på.
 3. Välj åtgärden **få återkommande förs.rader**.
 4. På sidan **återkommande försäljningsrader** välj sökknappen i fältet **kod** och välj sedan en uppsättning standardförsäljningsrader.
@@ -69,7 +69,7 @@ Om det finns återkommande försäljningsrader för kunden kan du infoga dem (el
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Skapa flera försäljningsfakturor utifrån återkommande försäljningsrader
 Du kan använda batch-jobbet **Skapa återkommande försäljningsfakt.** för att skapa försäljningsfakturor enligt standardförsäljningsrader som tilldelats till kunderna och med bokföringsdatum som infaller inom de giltighetsdatum som du anger på standardförsäljningsraden.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skapa återkommande försäljningsfakturor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Skapa återkommande försäljningsfakturor** och väljer sedan relaterad länk.
 2. På sidan **Skapa återkommande försäljningsfakt.** fyller du i de fälten efter behov.
 3. I fältet **kod** filter anger du koden för standardförsäljningsrader som tilldelats kunden som du vill skapa fakturor för.
 4. Välj **OK**.

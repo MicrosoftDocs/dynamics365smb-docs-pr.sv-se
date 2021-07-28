@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Lagerhantering översikt | Microsoft Docs
-description: För att stödja den fysiska hanteringen av artiklar i zonen och på lagerplatsnivån måste all information spåras för varje transaktion eller transport i distributionslagret. Det hanteras i tabellen **Dist.lager transaktion**. Varje transaktion lagras i ett distributionslagerregister.
+title: Designdetaljer - Översikt över distributionslager
+description: För att stödja den fysiska hanteringen av artiklar i zonen och på lagerplatsnivån måste all information spåras för varje transaktion eller transport i distributionslagret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: f1ecd1324df2433d31ff1480316a9e281ad5c5df
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 586fdc74b174ae24dea6354953899370f076a2da
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215684"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439541"
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetaljer: Översikt över distributionslager
 För att stödja den fysiska hanteringen av artiklar i zonen och på lagerplatsnivån måste all information spåras för varje transaktion eller transport i distributionslagret. Det hanteras i tabellen **Dist.lager transaktion**. Varje transaktion lagras i ett distributionslagerregister.  
@@ -28,7 +28,7 @@ När artikeltransaktioner uppstår utanför distributionslagerenheten används e
 
 Följande illustration ger en översikt över typiska distributionslagerflöden.  
 
-![Översikt över lagerprocesser](media/design_details_warehouse_management_overview.png "Översikt över lagerprocesser")  
+![Översikt över lagerprocesser.](media/design_details_warehouse_management_overview.png "Översikt över lagerprocesser")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grundläggande eller avancerad lagerstyrning  
 Distributionslagerfunktion i [!INCLUDE[prod_short](includes/prod_short.md)] kan implementeras i olika komplexitetsnivåer, beroende på ett företag processer och ordervolym. Den huvudsakliga skillnaden är att aktiviteter utförs order-för-order i grundläggande lagerstyrning, när de konsolideras för flera order i avancerad lagerstyrning.  

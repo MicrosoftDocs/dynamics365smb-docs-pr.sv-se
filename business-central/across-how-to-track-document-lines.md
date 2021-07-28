@@ -1,6 +1,6 @@
 ---
-title: Hur du spårar orderrader till relaterade dokument | Microsoft Docs
-description: Du kan visa dokument som är kopplade till försäljningsorderrader och inköpsorderrader, inklusive arkiverade orderrader. Relaterade dokument som du kan följa upp inkluderar offerter, transporter, inleveranser och avropsorder. Detta hjälper dig att identifiera dokument som används för att bearbeta order.
+title: Spåra orderrader och relaterade dokument
+description: Visa dokument som är relaterade till försäljnings- och inköpsorderrader, som offerter, leveranser, inleveranser och avropsorder, för att identifiera dokument som används för att hantera order.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8f795c5c6d33e6b2609ff91bdf196ad82ba71f9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4c469d3f521e526f3c121da5bf8265fc92f01289
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774592"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439901"
 ---
 # <a name="track-document-lines"></a>Spåra dokumentrader
 Du kan visa dokument som är kopplade till försäljningsorderrader och inköpsorderrader, inklusive arkiverade orderrader. Relaterade dokument som du kan följa upp inkluderar offerter, transporter, inleveranser och avropsorder. Detta hjälper dig att identifiera dokument som används för att bearbeta order.  
@@ -23,7 +23,7 @@ Du kan visa dokument som är kopplade till försäljningsorderrader och inköpso
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Spåra dokument som är kopplade till en försäljningsorderrad
 Följande förfarande beskriver hur du spårar via en försäljningsorderrad. Stegen liknar dem för inköpsorder- och avropsorderrader.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Öppna en försäljningsorder som du vill spåra ifrån.  
 3.  Markera en rad och välj sedan åtgärden **Spårning av dokumentrad**.
 4. På sidan **Spårning av dokumentrader** markerar du det dokument som du vill visa och väljer sedan åtgärden **Visa** för att visa relaterad rad.

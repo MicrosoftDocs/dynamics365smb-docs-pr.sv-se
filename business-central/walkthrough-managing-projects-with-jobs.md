@@ -1,6 +1,6 @@
 ---
-title: 'Genomgång: Hantera projekt med Projekt | Microsoft Docs'
-description: Den här genomgången introducerar dig för projekthanteringsfunktionerna i projektet. Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.
+title: Genomgång - Hantera projekt med Projekt
+description: I den här genomgången får du en introduktion till projekthanteringsfunktionerna i projekt som gör det möjligt att schemalägga användningen av ditt företagsresurser med mera.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4b4be8dfa382424258100973af0d0e647b21b0f6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214734"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439049"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
 
@@ -77,7 +77,7 @@ Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar 
 
 ### <a name="to-prepare-the-sample-data"></a>Så här förbereder du exempeldata  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Resurser** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt resurskort.  
 3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
 
@@ -100,7 +100,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ### <a name="to-create-a-job-journal-batch"></a>Skapa en ny journal  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
 2.  På sidan **Journalnamn** i fönstret **Projektjournal**. Sidan **Projektjournaler** öppnas.  
 3.  Välj åtgärden **Ny** för att skapa en rad med följande information:  
 
@@ -115,7 +115,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ### <a name="to-set-up-a-job"></a>Så här lägger du upp ett projekt:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt kort.  
 3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
 
@@ -208,7 +208,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ### <a name="to-calculate-remaining-usage"></a>Så här beräknar du återstående förbrukning  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
 2.  På sidan **Projektjournal**, i fältet **Journalnamn**, öppnar du listan **Projektjournaler**. Välj projektjournalen **Tricia**.  
 3.  Välj åtgärden **Ber. återstående förbrukning**.  
 4.  Välj fältet **Projektnr** och välj relevant projektnummer, vanligtvis projekt J00010, på sidan **Projekt – Beräkna återstående förbrukning** på snabbfliken **Projektaktivitet**.  
@@ -225,7 +225,7 @@ Raderna är nu bokförda.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Så här skapar du en projektförsäljningsfaktura  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2.  Välj det projekt som du skapade tidigare och klicka på åtgärd **Skapa försäljningsfaktura för projekt**.  
 3.  På snabbfliken **Projektaktivitet** rensar du alla filter för **Projektaktivitetsnr** för att kunna fakturera projektet. I fältet **Nr** väljer du önskat projekt.  
 4.  På snabbfliken **Alternativ** fyller du i bokföringsdatumet och anger om du vill skapa en faktura per aktivitet eller en enda faktura för samtliga aktiviteter.  
@@ -235,7 +235,7 @@ Raderna är nu bokförda.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Så här bokför du en ny försäljningsfaktura  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 2.  Öppna fakturan för kund nr. 01445544. Du kan se den information som registrerades från planeringsraderna.  
 3.  Välj åtgärden **Bokföra**. Klicka på knappen **Ja** för att bokföra.  
 
@@ -249,7 +249,7 @@ Raderna är nu bokförda.
 
 ### <a name="to-open-the-statistics-page"></a>Så här öppnar du sidan Statistik  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Statistik**. Du kan granska detaljerad information om projektets priser, kostnader och vinster i både lokala och utländska valutor.  
 3.  Välj **Stäng** för att stänga sidan **Projektstatistik**.  
 
@@ -258,7 +258,7 @@ Raderna är nu bokförda.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Så här hanterar du fast prissättning i projekt  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Markera projektnummer **Nyström** och välj sedan åtgärd **Projektaktivitetsrader**.  
 3. Markera rad 1120 och i fältet **Budget (totalkostnad)** högerklickar du på beloppet och väljer **Specificera**.  
 
@@ -278,7 +278,7 @@ När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 2
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Så här registrerar du timmar i projektjournalen  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projektjournaler** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
 2. På den nya raden anger du följande information:  
 
     - **Typ av rad**: **(tom)**  
@@ -339,7 +339,7 @@ Markera de projekt- och aktivitetsrader som du vill kopiera på sidan **Kopiera 
 
 ### <a name="to-copy-a-job"></a>Så här kopierar du ett projekt  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Välj **Ny** för att skapa ett nytt projekt. Ange följande information:  
 
     - **Beskrivning**: **Inreda tio konferensrum**  
@@ -365,7 +365,7 @@ CRONUS har precis fått ett stort projekt som kommer att pågå under ett år. E
 
 ### <a name="to-set-up-a-new-account"></a>Så här lägger du upp ett nytt konto  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **Kontoplan** på fliken **Ny** för att skapa ett nytt kort.  
 3. På det nya **redovisningskontokortet** anger du följande information:  
 

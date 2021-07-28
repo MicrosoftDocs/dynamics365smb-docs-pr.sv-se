@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5c822685ae5723bc6b13f9fedad45dbddefdb956
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6dfba7323eeaad538cf45525d11212a6e5d7438e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776598"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438533"
 ---
-# <a name="post-the-year-end-closing-entry"></a>Bokför årsslutstransaktionen
+# <a name="posting-the-year-end-closing-entry"></a>Bokför du årsslutstransaktionen
 
 När du har använt batch-jobbet **Avslut av resultatkonton** för att generera transaktioner eller bokslutsposter för årsslut, måste du öppna den journal du har angett i batch-jobbet och sedan granska och bokföra transaktionerna.  
 
@@ -23,7 +23,7 @@ När du har använt batch-jobbet **Avslut av resultatkonton** för att generera 
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Så här bokför du årsslutstransaktionen
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournal** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournal** och väljer sedan relaterad länk.
 2. På sidan **Redovisningsjournal** i fältet **Batch-namn** väljer du den batch som innehåller årsavslutstransaktionerna.
 3. Granska transaktionerna.
 4. Om du vill bokföra journalen väljer du åtgärden **Bokför**.

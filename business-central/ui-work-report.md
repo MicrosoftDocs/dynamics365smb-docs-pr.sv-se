@@ -1,5 +1,5 @@
 ---
-title: Schemalägga en rapport att köras vid ett visst datum och tider | Microsoft Docs
+title: Arbeta med rapporter och batch-jobb och XML-portar
 description: Lär dig mer om att skriva en rapport i en jobbkö och schemalägga den att behandlas vid en viss tidpunkt.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,28 +7,28 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: task, process, report
-ms.date: 04/01/2021
+ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
+ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 81df1625531b3b4c5bf1a55a9e09d37af8b6f7fe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782990"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439956"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeta med rapporter och batch-jobb och XML-portar
 
-En rapport samlar in information som baseras på en viss uppsättning villkor och ordnar och visar informationen i ett format som är lätt att läsa och kan skrivas ut och sparas som en fil. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
+En rapport samlar in information baserat på en angiven uppsättning kriterier. Den ordnar och presenterar informationen i ett lättläst format som du kan skriva ut eller spara som en fil. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
 
-Batchjobb och XMLports gör mer eller mindre detsamma som rapporter, men i syfte att utföra en process eller exportera data. Till exempel batch-jobbet **skapa betalningspåminnelser** skapar påminnelsedokument för kunder med förfallna betalningar.  
+Batchjobb och XMLports gör mer eller mindre detsamma som rapporter, men används mer för att bearbeta eller exportera data. Till exempel batch-jobbet **skapa betalningspåminnelser** skapar påminnelsedokument för kunder med förfallna betalningar.  
 
 > [!NOTE]
 > Det här avsnittet avser huvudsakligen ”rapport”, men liknande information gäller för batch-jobb och XMLports.
 
-## <a name="getting-started"></a>Kom i gång
+## <a name="getting-started"></a>Komma igång
 
-Rapporter finns i liken **Rapporter** på valda sidor. Du kan också använda sökfunktionen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") för att hitta rapporter efter namn.
+Rapporter finns i liken **Rapporter** på valda sidor. Du kan också använda sökfunktionen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") för att hitta rapporter efter namn.
 
 När du öppnar en rapport visas vanligtvis en sidan för förfrågan om batch-jobb, eller XMLport där du kan ange olika alternativ och filter som avgör vad som inkluderas i rapporten. I följande avsnitt förklaras hur du använder sidan för begäran för att bygga, förhandsgranska och skriva ut en rapport.
 
@@ -72,7 +72,7 @@ I förhandsgranskningen använder du menyraden i förhandsgranskningen av rappor
 - Ändra storlek så att den passar sidan
 - Välj text
 
-    Du kan kopiera text från en rapport och sedan klistra in den någon annanstans, som en sida i [!INCLUDE[prod_short](includes/prod_short.md)] eller Microsoft Word.  Med hjälp av musen kan du till exempel trycka och hålla där du vill börja och flyttar sedan musen för att markera ett eller flera ord, meningar eller stycken. Tryck på höger musknapp och välj **Kopiera**. Klistra sedan in den markerade texten där du vill.
+    Du kan kopiera text från en rapport och sedan klistra in den någon annanstans, som en sida i [!INCLUDE[prod_short](includes/prod_short.md)] eller Microsoft Word.  Med hjälp av en mus håller du till exempel ned där du vill börja. Flytta sedan musen för att markera ett eller flera ord, meningar eller stycken. Tryck på höger musknapp och välj **Kopiera**. Klistra sedan in den markerade texten där du vill.
 - Panorera dokumentet
 
     Du kan flytta den synliga delen av rapporten i någon riktning så att du kan se andra områden eller rapporten. Panorering är användbart när du har zoomat in för att visa detaljerad information.  Med hjälp av musen kan du till exempel trycka och hålla musknappen var som helst i rapportens förhandsgranskning och sedan flytta musen.
@@ -80,9 +80,65 @@ I förhandsgranskningen använder du menyraden i förhandsgranskningen av rappor
 - Hämta till en PDF-fil på datorn eller i nätverket.
 - Skriv ut
 
-## <a name="saving-a-report"></a>Spara rapporten
+## <a name="saving-a-report-to-a-file"></a>Spara en rapport i en fil
 
-Du kan spara en rapport i ett PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument genom att välja knappen **skicka till**, och sedan göra ditt val.
+Du kan spara en rapport i ett PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-arbetsblad genom att välja knappen **skicka till**, och sedan göra ditt val.
+
+### <a name="send-to-excel"></a>Skicka till Excel
+
+<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+
+|Option  |Description  |
+|---------|---------|
+|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
+|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
+
+Det finns två alternativ för att spara rapportresultaten som ett kalkylblad i en Excel-arbetsbok: **Microsoft Excel-dokument (data och layout)** och **Microsoft Excel-dokument (endast data)**
+
+#### <a name="microsoft-excel-document-data-and-layout"></a>[Microsoft Excel-dokument (data och layout)](#tab/data-and-layout)
+
+Det här alternativet är bara tillgängligt för rapporter som använder en RDLC-layout. Den exporterar rapportresultaten med den RDLC-layout som tillämpas. Använd det här alternativet om du vill exportera data en gång och bara vill göra mindre ändringar i dess utseende, till exempel teckensnitt och färgschema.
+
+#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Microsoft Excel-dokument (endast data)](#tab/data-only)
+
+Alternativet **Microsoft Excel-dokument (endast data)** exporterar rapportresultaten och de kriterier som användes för att generera dem&mdash;men det innehåller inte rapportlayouten. Excel-filen innehåller den fullständiga datauppsättningen, som rådata, ordnade i rader och kolumner. Alla datakolumner i rapportens datauppsättning ingår, oavsett om de används i rapportlayouten eller inte.  Använd det här alternativet när du vill:
+
+- Gör ad hoc-analys av data. Du kan t.ex. filtrera data och använda Power Pivot för att visa dem.
+
+  Varje gång du exporterar resultat skapas ett nytt kalkylblad. Med alternativet **Microsoft Excel-dokument (endast data)** kan du köra samma rapport och återanvända formateringsändringar. Till exempel för Power Pivot kan du köra rapporten igen för en annan tidsperiod, kopiera resultatet till kalkylbladet och sedan uppdatera kalkylbladet. Du kan också söka efter en rapporteringsapp på [AppSource](https://appsource.microsoft.com/).
+- Kontrollera rapport datauppsättningen när du skapar egna rapportens layouter.
+
+  Mer information om hur du skapar anpassade rapportlayouter finns i [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)
+- Diagnostisera data frågor i rapporter.
+
+##### <a name="for-administrators"></a>För administratörer
+
+- **Microsoft Excel-dokument (endast data)** introducerades som en valfri funktion i 2021 utgivningscykel 1, uppdatering 18,3. Om du vill ge användarna åtkomst till den här funktionen måste du aktivera funktionen **Spara rapportdatauppsättning till Microsoft Excel-dokument** uppdatering i **funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management). I 2021 utgivningscykel 2 blir den här funktionen permanent, så du behöver inte aktivera den.
+
+- Användarkonton måste ha behörigheten **<!--Export Report Dataset To Excel-->Tillåt åtgärden Exportera rapportdatauppsättning till Excel** som du kan använda med behörighetsuppsättning **Felsökningsverktyg** eller **Exportera rapport Excel**.  
+
+- Du kan inte exportera en rapport som har fler än 1 048 576 rader eller 16 384 kolumner.
+
+    > [!NOTE]
+    > Med Business Central lokal kan maximalt antal exporterade rader vara ännu mindre. Business Central Server innehåller en konfigurationsinställning, som kallas **maximalt antal data rader som kan skickas till Excel** för att minska gränsen från det maximala värdet. Mer information finns i [Konfigurera Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) eller kontakta administratören.
+
+##### <a name="for-developers-and-advanced-users"></a>För utvecklare och erfarna användare
+
+Alternativet **Microsoft Excel-dokument (endast data)** exporterar alla kolumner, inklusive kolumner som innehåller filter och formateringsregler för andra värden. Här följer några intressanta punkter:
+
+- Binära data i ett fält exporteras inte som en bild.
+
+  I kolumner som innehåller binära data kommer fälten att inkludera **binära data ({0} byte)**, där **{0}** anger antalet byte.
+- Från och med Business Central 2021 utgivningscykel 2 innehåller Excel-filen också kalkylarket **rapport med metadata**.
+
+  I det här kalkylarket visas de filter som används i rapporten och de allmänna rapport egenskaperna, som namn, ID och tilläggsinformation. Filtren visas i kolumnen **Filter (DataItem::Table::FilterGroupNo::FieldName)**. Filtren i den här kolumnen inkluderar filter som är inställda på rapportens sida med begäran. Den innehåller även filter som definierats i AL-kod, till exempel av [egenskapen DataItemLink](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) och [egenskapen DataItemTableView](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
+
+Mer information om rapportdesign finns i [rapport översikt](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
+
+---
+
+> [!NOTE]
+> Vissa rapporter exporterar nummer som text, vilket gör att du inte kan göra beräkningar eller använda dem Power Pivot i cellerna i Excel-kalkylbladet. Efter exporten bör du kontrollera numren i förslaget. Om du vill göra analyser och diagram på siffrorna, ändrar du formatet för relevanta celler från **text** till **tal**. Mer information om formatering av tal i celler finns i denna [formateringsnummer i celler i Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Schemalägga en rapportkörning
 
@@ -90,7 +146,7 @@ Du kan schemalägga eller köra batch-jobb för rapport att köras vid ett visst
 
 När du schemalägger en rapport som ska köras kan du ange att den måste köras varje torsdag genom att ställa in fältet **Datumformel för nästa körning** till *D4*. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#using-date-formulas).  
 
-Du kan välja att spara rapporten till en fil, t.ex en Excel-, Word- eller PDF-fil, skriva ut den till en viss skrivare eller bara skapa rapporten. Om du väljer att spara rapporten som en fil skickas den bearbetade rapporten till området **Rapportinkorg** i ditt Rollcenter, där du kan visa den.  
+Du kan välja att spara rapporten till en fil, (t.ex en Excel-, Word- eller PDF-fil), skriva ut den eller bara skapa rapporten. Om du väljer att spara rapporten som en fil skickas den bearbetade rapporten till området **Rapportinkorg** i ditt Rollcenter, där du kan visa den.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Skriva ut en rapport
 

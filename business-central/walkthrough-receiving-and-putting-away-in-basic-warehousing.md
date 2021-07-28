@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1adcfbd38d95c8a79bc247fea0f2c292e8d02d9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214584"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439316"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
 
@@ -68,7 +68,7 @@ För att kunna utföra den här genomgången behöver du:
 -   CRONUS Sverige Ab installerad.  
 -   Gör dig själv till distributionslageranvändare på lagerstället SILVER med följande steg:  
 
-    1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan tillhörande länk.  
+    1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
     2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
     3.  Ange SILVER i fältet **Lagerställekod**.  
     4.  Välj fältet **Standard**.  
@@ -81,7 +81,7 @@ Alicia, inköpsagenten i CRONUS, skapar en inköpsorder för 10 enheter av artik
 
 ### <a name="to-set-up-the-location"></a>Så här lägger du upp lagerställen  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan tillhörande länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Öppna lagerställekortet SILVER.  
 3.  Markera kryssrutan **Begär artikelinförsel**.  
 
@@ -101,7 +101,7 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
 
 ### <a name="to-create-the-purchase-order"></a>Skapa inköpsordern  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa en inköpsorder för leverantör 10000 på arbetsdatumet (23 januari) med följande inköpsorderrader.  
 
@@ -124,7 +124,7 @@ På sidan **Lagerinförsel** kan du hantera alla ingående distributionslagerakt
 
 ### <a name="to-receive-and-put-the-items-away"></a>Så här tar du emot och för in artiklar  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lager, artikelinförsel** och välj sedan tillhörande länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lager, artikelinförsel** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Välj fältet **Källdokument** och sedan **Inköpsorder**.  
 4.  Välj fältet **Källnr.** markera raden för köpet från leverantör 10000 och välj sedan knappen **OK**.  

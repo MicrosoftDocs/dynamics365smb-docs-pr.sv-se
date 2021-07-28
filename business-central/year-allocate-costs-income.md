@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fec3a7c079058e73cda2b6f8940e3778b405bac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775046"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439776"
 ---
 # <a name="allocate-costs-and-income"></a>Fördela kostnader och intäkter
 Du kan fördela en transaktion i en redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras enligt tre olika metoder:
@@ -32,7 +32,7 @@ I följande procedurer beskrivs hur du förbereder att fördela kostnader i en �
 
 ## <a name="to-set-up-allocation-keys"></a>Så här skapar du fördelningsnycklar
 Du kan fördela en transaktion i en återkommande redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras efter kvantitet, procentuellt eller med ett belopp.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Återkommande redovisningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
 2. Välj fältet **Journalnamn** för att öppna sidan **redovisningsjournaler**.
 3. Du kan antingen ändra fördelningar på en befintlig journal i listan eller skapa en ny journal med fördelningar.
    * För att skapa en y journal väljer du åtgärden **Ny** och går vidare till nästa steg för att skapa en ny journal.
@@ -47,7 +47,7 @@ Du kan fördela en transaktion i en återkommande redovisningsjournal på flera 
 11. Bokför journalen.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>För att ändra en fördelningsnyckel som redan har ställts in
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Återkommande redovisningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
 2. Välj journalen med fördelningen på sidan **Återkommande redov.journal**.
 3. Välj raden med fördelningen och välj sedan åtgärden **fördelningar**.
 4. Fyll i de relevanta fälten och välj sedan knappen **OK**.

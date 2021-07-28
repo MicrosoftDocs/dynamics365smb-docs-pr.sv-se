@@ -4,12 +4,12 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0f8f2bcbdc6ac267c2c1c9a919f6879414e64016
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 0f1dd1591aa05b450a90e36b35ad99e44e59bd52
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116007"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439024"
 ---
 ## <a name="setting-up-the-location"></a>Lägger upp lagerstället
 
@@ -17,7 +17,7 @@ Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden
 
 ### <a name="to-set-up-the-location-south"></a>Så här lägger du upp lagerstället SYD
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Platser** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2. Skapa ett lagerställekort med namnet *SYD*.  
 3. På snabbfliken **Distributionslager** väljer du både fältet **Kräv plockning** och **Lagerplats obligatorisk**.
 4. Sedan måste du lägga till bokföringsinställning på sidan **Lagerbokföringsinställning** för lagerstället *SYD* med **Lagerbokföringsinställningskoden** *ÅTERFÖRS*. Mer information finns i [Ange platser](../inventory-how-setup-locations.md).

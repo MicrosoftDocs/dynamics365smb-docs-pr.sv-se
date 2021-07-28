@@ -1,6 +1,6 @@
 ---
 title: Så här skapar du produktionsorder från försäljningsorder
-description: Du kan skapa produktionsorder från försäljningsorder.
+description: Lär dig de olika sätten att skapa produktionsorder för producerade artiklar direkt från försäljningsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/28/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a432b8f00a24771578716a1b51678904d2e29ec5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115242"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438633"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Så här skapar du produktionsorder från försäljningsorder
 Du kan skapa produktionsorder för producerade artiklar direkt från försäljningsorder.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Så här skapar du produktionsorder från försäljningsorder  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Markera den försäljningsorder som du vill skapa en produktionsorder för.  
 3.  Välj åtgärden **Planerad**. På sidan **Förs.orderplanering** kan du visa dispositionen för artikeln på i ordern.  
 4.  Välj åtgärden **Skapa prod.order**.  

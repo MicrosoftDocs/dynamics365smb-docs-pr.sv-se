@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781969"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438608"
 ---
 # <a name="create-production-order-headers"></a>Så här skapar du produktionsorderhuvud
 Du kan skapa en produktionsorder manuellt och första steget är då att skapa ett produktionsorderhuvud.
@@ -25,7 +25,7 @@ Produktionsorder skapas vanligtvis automatiskt av en planeringsfunktion för att
 I det följande procedur skapas en fast planerad produktionsorder. Du kan också skapa produktionsorder med annan status.  
 
 ## <a name="to-create-a-production-order-header"></a>Så här skapar du ett produktionsorderhuvud  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  I fältet **Nr.** skriver du numret på den artikel som har beställts.  
 4.  Välj produktionsorderns ursprung i fältet **Ursprungstyp**.

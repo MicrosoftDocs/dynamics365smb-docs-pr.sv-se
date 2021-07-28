@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d7962031aa7dda7dafa96ade8e11339c06ebb305
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 76dff6fb1977ea4333e326f8a3456aeb5530cfd8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784598"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439491"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Betala inköpsfakturor snabbt
 
@@ -23,7 +23,7 @@ Om du vill betala leverantören kontant eller med check kan du bokföra betalnin
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Så här gör du för att snabbt betala inköpsfakturor:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Ange numret på redovisningskassakontot eller bankkontot i fältet **Motkonto** om du vill betala kontant eller via banköverföring .  
 

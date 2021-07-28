@@ -1,6 +1,6 @@
 ---
-title: Inventera, justera och gruppera lager | Microsoft Docs
-description: Beskriver hur du utför en fysisk inventering, göra negativa eller positiva justeringar och ändra information, till exempel plats eller partinumret i artikeltransaktionerna och distributionslagertransaktionerna.
+title: Inventera, justera och gruppera lager
+description: Utför en fysisk inventering, göra negativa eller positiva justeringar och ändra information, till exempel plats eller partinumret i distributionslagerposter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d2052d2d6cc5d06eb001d2b29eb6d5fc79d8b00c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3c975a6d851693cef2b139d2493f825299770fac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785979"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440461"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Inventera, justera och gruppera lager med hjälp av journaler
 Minst en gång per räkenskapsår måste du utföra en inventering (d.v.s. räkna alla artiklar i lagret) för att se om det antal som är registrerat i databasen är samma som det antal som verkligen finns i lagret. När det faktiska antalet är känt, måste det bokföras i redovisningen som en del av lagervärderingen för periodslutet.
@@ -48,7 +48,7 @@ Du kan utföra inventeringsjournalen på något av följande sätt beroende på 
 -   Om lagerstället är inställt på dirigerad artikelinförsel och plockning (avancerad distributionslagerkonfiguration) använder du först sidan **Dist.lager inventeringsjournal** fönstret, och sedan använder du sidan **Artikeljournal** för att köra **Beräkna dist.lager justering**-funktionen.
 
 ### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>Beräkna förväntat lager i grundläggande distributionslagerkonfiguration.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inventeringsjournaler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager inventeringsjournaler** och väljer sedan relaterad länk.
 2. Välj åtgärden **Beräkna lager**.
 3. På sidan **Beräkna lagersaldo** anger du de villkor som ska användas för att skapa journalraderna, till exempel om du ska inkludera artiklar som har noll registrerade lagersaldon.
 4. Ange filter om du endast vill beräkna lagret till vissa artiklar, lagerställen eller dimensioner.
@@ -80,13 +80,13 @@ Lagerpersonalen kan nu fortsätta med att beräkna lager och registrera eventuel
 
     Både artikeltransaktioner och inventeringstransaktioner skapas. Öppna artikelkortet för att visa de resulterande inventeringstransaktionerna.
 
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 4. Om du vill verifiera inventeringen öppnar du artikelkortet i fråga och väljer sedan åtgärden **Fysiska inventeringstransaktioner**.
 
 ### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Beräkna förväntat lager i avancerad distributionslagerkonfiguration.
 Synkronisera artikeltransaktioner och distributionslager innan du utför lagerinventeringen, annars kommer de resultat du bokför i inventeringsjournalen och i artikeltransaktionerna under processens sista del att utgöra inventeringsresultaten kombinerade med andra distributionslagerjusteringar för de artiklar som räknats. Mer information finns i [Synkronisera antal i artikeltransaktioner och distributionslager](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lagerinventeringsjournal** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lagerinventeringsjournal** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Beräkna lager**. Beställningssidan för batch-jobbet **Dist.lager beräkna lager** öppnas.  
 3. Ställ in filtren för att begränsa de artiklar som ska räknas i journalen och klicka sedan på knappen **OK**.
 
@@ -96,7 +96,7 @@ Synkronisera artikeltransaktioner och distributionslager innan du utför lagerin
 
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Skriv ut rapporten som ska användas i samband med räkning
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inventeringslista för distributionslager** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inventeringslista för distributionslager** och väljer sedan relaterad länk.  
 2. Öppna sidan för rapportbegäran och skriv ut de listor som du vill att de anställda ska registrera de artikelantal på som de räknar på respektive lagerplats.  
 
 Lagerpersonalen kan nu fortsätta med att beräkna lager och registrera eventuella avvikelser på den utskrivna rapporten.
@@ -130,24 +130,24 @@ En inventering utförs vanligtvis regelbundet, t. ex. varje månad, kvartal elle
 
 Du ställer in de cykliska inventeringsperioder som du vill använda och därefter fördelar du en till varje artikel. När du utför en inventering och använder **Beräkna cyklisk inventeringsperiod** i inventeringsjournalen, skapas rader för artiklarna automatiskt.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inventering cykliska inv.perioder** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inventering cykliska inv.perioder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Så här tilldelar du en cyklisk inventeringsperiod till en artikel  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Markera artikeln som du vill tilldela en cyklisk inventeringsperiod.  
 3. I fältet **Inventering cyklisk inv.period kod** väljer du lämplig cyklisk inventeringsperiod.  
 4. Välj **ja** för att ändra koden och för att beräkna den första cykliska inventeringsperioden för artikeln. Nästa gång som du väljer att beräkna cyklisk inventeringsperiod i inventeringsjournalen visas artikeln som en rad på sidan **Inventering artikelval**. Du kan nu börja räkna artikeln med regelbundna intervall.
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Så här initialiserar du en inventering baserat på den cykliska inventeringsperioder i grundläggande konfigurationer
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inventeringsjournal** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager inventeringsjournal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Beräkna cyklisk inventeringsperiod**.
 
     Sidan **Inventering artikelval** öppnas. Det visar de artiklar som du har fastställt cykliska inventeringsperioder för som ska inventeras enligt motsvarande cykliska inventeringsperioder.
 3. Utför inventeringen. Mer information finns i [Så här utför du en inventering av lagret](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Så här initialiserar du en inventering baserat på den cykliska inventeringsperioder i avancerade konfigurationer
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lagerinventeringsjournal** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lagerinventeringsjournal** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Beräkna cyklisk inventeringsperiod**.
 
     Sidan **Inventering artikelval** öppnas. Det visar de artiklar som du har fastställt cykliska inventeringsperioder för som ska inventeras enligt motsvarande cykliska inventeringsperioder.
@@ -159,7 +159,7 @@ Du ställer in de cykliska inventeringsperioder som du vill använda och däreft
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Justera lagret för en artikel
 När du har skapat en fysisk inventering av en artikel i ditt lagerområde kan du använda funktionen **Justera lager** för att registrera den faktiska lagerkvantiteten.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Välj den artikel som du vill justera lagret för och välj sedan åtgärden **Justera lager**.
 3. Ange lagerkvantiteten som du vill registrera för artikeln i fältet **Nytt lager**.
 4. Välj **OK**.
@@ -176,7 +176,7 @@ På sidan **Artikeljournal** kan du bokföra artikeltransaktionen direkt för at
 
 Om du ofta använder artikeljournalen för att bokföra samma eller likartade journalrader, kan du till exempel i anslutning med materialförbrukning använda sidan **Standardartikeljournal** om du vill göra detta återkommande arbete enklare. Mer information finns i [Arbeta med standardjournaler](ui-work-general-journals.md#working-with-standard-journals).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikeljournaler** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Välj åtgärden **Bokför** för att justera lagret.
 
@@ -185,7 +185,7 @@ Om ditt lagerställe använder dirigerad artikelinförsel och plockning använde
 
 När du använder artikeljournalen för distributionslagret får du ytterligare en justeringsnivå, som bidrar till att göra kvantitetsposterna ännu mer exakta, till skillnad från när du bokför justeringar i lagerartikeljournalen Distributionslagret därmed har alltid en fullständig post för hur många artiklar som finns och var de lagras, men alla justeringsregistreringar bokförs inte automatiskt som artikeltransaktioner. I registrering processen, debet eller kredit sker på den verkliga lagerstället med kvantitetsjusteringen och en mottransaktion skapas i en justeringslagerplats, en virtuell lagerplats med inga verkliga artiklar. Den här lagerstället definieras i **Justering lagerställeskod** på lagerställekortet.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournal** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager artikeljournal** och väljer sedan relaterad länk.  
 2.  Fyll i informationen i huvudet.  
 3.  Fyll i fältet **Artikelnr** på raden.  
 4.  Ange den lagerplats där du placerar extra artiklar eller där du har upptäckt att artiklar har försvunnit.  
@@ -195,7 +195,7 @@ När du använder artikeljournalen för distributionslagret får du ytterligare 
 ## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Så här synkroniserar du justerade lagertransaktioner med tillhörande artikeltransaktioner
 Enligt de intervall som har angetts i företagets principer måste du bokföra distributionslagrets justeringslagerplatsposter som artikeltransaktioner. Vissa företag bokför justeringar varje dag som artikeltransaktioner, medan andra anser att det räcker med att göra avstämningar mer sällan.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikeljournal** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikeljournal** och väljer sedan relaterad länk.  
 2.  Fyll i fälten för varje journalrad.  
 3.  Välj sidan **Beräkna dist.lager justering** och fyll i de filter som är lämpliga i fönstret för begäran om batch-jobb. Justeringar beräknas endast för de transaktioner på justeringslagerstället som uppfyller filterkraven.  
 4.  På snabbfliken **Alternativ** fyller du fältet **Verifikationsnr** med ett nummer som du anger manuellt. Eftersom ingen nummerserie har lagts upp för batch-jobbet använder du det nummersystem som har lagts upp för distributionslagret, eller anger datumet följt av dina initialer.  
@@ -209,7 +209,7 @@ Särskilda åtgärder gäller när du vill omgruppera serie- eller partinummer o
 
 Följande exempel baseras på en lagerställekod. Åtgärderna är liknande för andra typer av artikelattribut.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelgrupperingsjournaler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelgrupperingsjournaler** och väljer sedan relaterad länk.
 2. På sidan **Artikelgrupp.journal** fyller du i fälten efter behov.
 3. I fältet **Lagerställekod** anger du artikelns aktuella lagerställekod.
 4. I fältet **Ny lagerställekod** anger du artikelns nya lagerställekod.

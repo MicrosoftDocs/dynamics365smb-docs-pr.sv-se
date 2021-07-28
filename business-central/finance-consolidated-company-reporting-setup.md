@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 861893c2784bc5eed837c26d070fb98c2826772b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786254"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439466"
 ---
 # <a name="set-up-company-consolidation"></a>Ställa in företagskonsolidering
 
@@ -74,7 +74,7 @@ I följande lista visas de viktigaste aspekterna av det konsoliderade företaget
 [!INCLUDE[prod_short](includes/prod_short.md)] låter dig lägga upp en lista över affärsenheter som ska konsolideras, verifiera redovisningsinformation innan du konsoliderar dem, importera filer och generera konsolideringsrapporter.  
 
 1. Logga in på det konsoliderade företaget.
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Affärsenheter** och välj sedan tillhörande länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
 3. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -89,7 +89,7 @@ Kontoplanen för ett företag som ska konsolideras måste innehålla konton för
 
 Om kontoplanen i affärsenheten skiljer sig från det konsoliderade företaget måste du förbereda redovisningskonton för konsolidering. Du kan ange vilka konton som ska bokföra debet- och kreditbelopp och metoden du använder för att översätta valutor i det konsoliderade företaget. Detta är till exempel användbart om du kör rapporten ofta.
 
-1. I varje affärsenhets [!INCLUDE [prod_short](includes/prod_short.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), öppnar **Kontoplan** och väljer sedan den relevanta länken.  
+1. I varje affärsenhet [!INCLUDE [prod_short](includes/prod_short.md)], välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. Öppna kortet för kontot och fyll sedan i fälten på snabbfliken **konsolidering**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Ange valutakurs för konsolidering
@@ -109,7 +109,7 @@ Följande tabell beskriver valutakursmetoderna som du kan använda för konton.
 
 Om du vill ange valutakurs för affärsenheter gör du följande:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Affärsenheter** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
 2. På sidan **Affärsenhetslista** väljer du affärsenhet och sedan åtgärden **Genomsnittskurs (manuell)**.  
 3. På sidan **Ändra valutakurser** har innehållet i fältet **Relationsvalutakurs** kopierats från tabellen **Valutakurs**, men det går att ändra värdet. Stäng sidan.  
 4. Välj åtgärden **Slutkurs**.  

@@ -1,6 +1,6 @@
 ---
 title: Bokföra komponenter utifrån verksamhetens utflöde
-description: För artiklar, som har upprättats med bokföringsmetoden Bakåt, är standarden att beräkna och bokföra komponentförbrukning när du ändrar produktionsorderstatusen från släppt till Färdig.
+description: I det här avsnittet beskrivs hur man spolar komponenter enligt verksamhetens utflöde samt andra involverade bokföringsmetoder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115871"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439099"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Bokföra komponenter utifrån verksamhetens utflöde
 Du kan definiera olika bokföringsstrategier för att automatisera registrering av förbrukning av komponenter. 
@@ -91,18 +91,18 @@ Om t. ex. en produktionsorder för att kunna producera 800 meter kräver 8 kg av
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Bokföra komponenter utifrån operationens utflöde
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Redigera**.  
 3.  På snabbfliken **Återanskaffning**, i fältet **Bokföringsmetod**, markera **Bakåt**.  
 
     > [!NOTE]  
     >  Välj **Plocka + bakåt** om komponenten ska användas på ett lagerställe som har skapats för dirigerad artikelinförsel och plockning.  
 
-4.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **verksamhetsföljder** och välj sedan relaterad länk.  
+4.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.  
 5.  Definiera verksamhetsföljdslänkkoder för varje operation som förbrukar komponenten. Mer information finns i [Skapa verksamhetsföljder ](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Använd inte samma routningslänk för olika operationer i operationsföljden, eftersom det leder till registrering av förbrukning av komponent för varje länkad operation.  
-6.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Prod.struktur** och välj sedan relaterad länk.  
+6.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Prod.struktur** och väljer sedan relaterad länk.  
 7.  Definiera verksamhetsföljdslänkkoder från varje instans av komponenten till operationen där den förbrukas.
 
 Förbrukningen bokförs automatiskt när du registrerar utdata. Mer information finns i [Batch-bokför utflöde och körtider](production-how-to-post-output-quantity.md)

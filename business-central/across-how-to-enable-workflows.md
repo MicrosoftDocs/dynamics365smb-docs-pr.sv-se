@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0726cdc74474669aaf4cadc94e88dc79e790411d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34f4582eabfcace038c54cb0b6a60d0e7217496b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775778"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438363"
 ---
 # <a name="enable-workflows"></a>Så här aktiverar du arbetsflöden
 När du har skapat ett arbetsflöde och du vet att det är redo att startas måste du aktivera arbetsflödet.  
@@ -23,7 +23,7 @@ När du har skapat ett arbetsflöde och du vet att det är redo att startas mås
  På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Så här aktiverar du ett arbetsflöde  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflöden** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2.  Öppna arbetsflödet du vill aktivera.  
 3.  På sidan **Arbetsflöde**, välj kryssrutan **Aktiv**.  
 

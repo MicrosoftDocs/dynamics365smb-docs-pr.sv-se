@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du speditörer | Microsoft Docs
-description: Du kan lägga upp en kod för och ange information om var och en av dina speditörer.
+title: Så här lägger du upp speditörer
+description: Lär dig hur du lägger upp en kod för var och en av dina speditörer och anger beskrivande information om var och en av dem och de tjänster de tillhandahåller.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 221578a174c6bd0dd87377340e97cd54a98d177b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778403"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440234"
 ---
 # <a name="set-up-shipping-agents"></a>Så här konfigurerar du speditörer
 Du kan lägga upp en kod för och ange information om var och en av dina speditörer.  
@@ -28,7 +28,7 @@ Du kan ange obegränsat antal tjänster för varje speditör, samt ange leverans
 När en speditörsservice har kopplats till en försäljningsorderrad inkluderas leveranstiden för tjänsten i orderlöftesberäkningen för den raden. Mer information finns i [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Så här lägger du upp en speditör  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **speditör** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **speditörer** och väljer sedan relaterad länk.  
 2.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Välj åtgärden **Speditörsservice**.
 4. I **Speditörsservice** fyller du i fälten efter behov.

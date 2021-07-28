@@ -1,6 +1,6 @@
 ---
 title: Plockning och leverans i grundläggande distributionslagerkonfiguration
-description: I Business Central kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå.
+description: I Business Central kan de utgående processerna för plockning och utleverans utföras på följande fyra sätt beroende på lagerkomplexitetsnivå.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214659"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439074"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
 
@@ -81,7 +81,7 @@ För att kunna använda den här funktionen måste du lägga till dig själv til
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Så här skapar du en distributionslagerarbetare
 
-  1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta först](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan tillhörande länk.  
+  1. Välj den ![Glödlampa som öppnar funktionen Berätta först.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
   2. Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Distributionslagerarbetare**.
   3. I fältet **Lagerställekod** väljer du SYD.  
   4. Välj fältet **Standard** och sedan knappen **Ja**.  
@@ -90,7 +90,7 @@ För att kunna använda den här funktionen måste du lägga till dig själv til
 
 Gör artikeln 1928-S tillgänglig på lagerstället SYD, genom att följa nedanstående steg:  
 
-  1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta andra](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikeljournaler** och välj sedan tillhörande länk.  
+  1. Välj den ![Glödlampa som öppnar funktionen Berätta andra.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikeljournaler** och väljer sedan relaterad länk.  
   2. Öppna standardjournalen och skapa sedan två artikeljournalrader med följande information om arbetsdatumet (23 januari).  
 
         |Transaktionstyp|Artikelnummer|Lagerställekod|Lagerställeskod|Antal|  
@@ -109,7 +109,7 @@ Försäljningsorder är den vanligaste typen för utgående källdokumentet.
 
 ### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta tredje](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta tredje.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Skapa en försäljningsorder för kund 10000 på arbetsdatumet (23 januari) med följande försäljningsorderrad.  
 
@@ -129,7 +129,7 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
 
 ### <a name="to-pick-and-ship-items"></a>Plocka och utleverera artiklar så här
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta fjärde](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerplockning** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta fjärde.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerplockning** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 
     Kontrollera att fältet **Nr.** fälten på snabbfliken **Allmänt** fylls i.

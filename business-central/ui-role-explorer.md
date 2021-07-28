@@ -1,6 +1,6 @@
 ---
-title: Utforska och bläddra i sidor per roll | Microsoft Docs
-description: ''
+title: Utforska och bläddra i sidor per roll
+description: Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller med Rollutforskare.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783240"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440033"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Söka efter sidor med rollutforskaren
 Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller om du går ett steg längre. I följande dokumentation kallas denna funktionsöversikt *rollutforskaren.*
@@ -24,7 +24,7 @@ Varje element i rullutforskaren är en åtgärd som öppnar en sida. Därför ka
 
 Du kan öppna rullutforskaren från rollcentret och alla listsidor och från fönstret **Berätta**.
 
-- I ditt rollcenter eller valfri listsida, välj knappen ![Menyknapp](media/ui_menu_button.png "Menyknapp") till höger om navigeringsfältet, eller tryck på Skift+F12.
+- I Rollcenter eller någon listsida, välj ![menyknappen.](media/ui_menu_button.png "Menyknapp") Knappen till höger om navigeringsfältet eller trycker på Shift + F12.
 - I fönstret **Berätta**, välj åtgärden **utforska** längst ned.
 
 Välj åtgärden **Sök** högst upp i rollutforskaren för att snabbt hitta funktionsnamn som innehåller en viss term.

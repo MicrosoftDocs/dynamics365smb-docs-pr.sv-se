@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778253"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440109"
 ---
 # <a name="set-up-a-loaner-program"></a>Lägga upp program för låneartiklar
 Ibland måste du förse en kund med en låneartikel medan reparationen pågår. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du skapa ett låneartikelprogram, låna ut artiklar till dina kunder och spåra inleverans när kunderna lämnar tillbaka artiklarna. Du kan dessutom lägga till kommentarer om låneartiklar på två sätt:  
@@ -24,7 +24,7 @@ Ibland måste du förse en kund med en låneartikel medan reparationen pågår. 
 * Skriva en notering för en serviceartikel om behovet av en låneartikel.  
 
 ## <a name="to-set-up-a-loaner"></a>Så här skapar du en låneartikel  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **låneartiklar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **låneartiklar** och väljer sedan relaterad länk.  
 2. Skapa ett nytt låneartikelkort. 
 3. I fältet **Nr.** anger du ett nummer för låneartikel. Om du har skapat en nummerserie för låneartiklar på sidan **Serviceinställningar** kan du trycka på Retur om du vill ange nästa lediga låneartikelsnummer.  
 4. Fyll i fälten **Beskrivning**, **Beskrivning 2** och **Serienr**.  

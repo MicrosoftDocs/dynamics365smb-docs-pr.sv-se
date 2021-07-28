@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115646"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438933"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -25,7 +25,7 @@ En översikt över de vanligaste kortkommandona finns i [Kortkommandon (endast d
 
 > [!TIP]
 > Om du vill visa en grafisk vy över de mest använda kortkommandona väljer du följande bild och hämtar PDF-filen.  
-> [ ![Ikon för PDF-filen](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som öppnar en PDF-fil")
+> [ ![Ikon för PDF-filen.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som öppnar en PDF-fil")
 
 ## <a name="overview"></a>Översikt
 
@@ -55,7 +55,7 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |Alt+N |Öppna en sida om du vill skapa en ny post. (Påminner om att välja **Ny** och **+** åtgärder.)|
 |Alt+Shift+N |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post. På samma sätt bokför Alt + F9 ett dokument och skapar ett nytt.|
 |Alt+T|Öppna sidan **Mina inställningar**.|
-|Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "Knappen AssistEdit") button. Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
+|Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "Knappen AssistEdit"). knappen. Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
 |Ctrl+Alt+Shift+C|Visa information på företagsbrickan.|
 |Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t. ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
 |Ctrl+C |Kopiera värdet i fältet. Om fältet är i fokus och du inte har valt någon text i fältet, kommer hela värdet att kopieras. Om du har markerat en text i fältet, kopieras endast den markerade texten.|

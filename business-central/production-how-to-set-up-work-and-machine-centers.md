@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3bffbe40d4deb17f335d8894692ce5852e781957
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787733"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440309"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Ställa in produktionsgrupper och maskingrupper
 
@@ -36,7 +36,7 @@ Dispositionen lagras i kalendertransaktioner.
 
 Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in maskingruppkalender är liknande förutom snabbfliken **verksamhetsföljdinställningar**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **produktionsgrupper** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. I fältet **Produktionsavdelning** väljer du den resursgrupp på högre nivå som produktionsgruppen är underordnad. Välj åtgärden **Ny** i listrutan.  
@@ -97,7 +97,7 @@ På sidan **kapacitetsbegränsade resurser** kan du göra inställningar som und
 
 När du ska planera med kapacitetsbegränsade resurser ser systemet till att ingen resurs beläggs över sin definierade kapacitet (kritisk beläggning). Det ske genom att tilldela varje operation till den närmaste tillgängliga tidsluckan. Om tidsluckan inte är tillräckligt stor för att slutföra hela åtgärden kommer åtgärden att uppdelas i två eller flera delar som placeras i de närmaste tidsluckorna.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kap.begränsning för resurs** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kap.begränsning för resurs** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs.
 

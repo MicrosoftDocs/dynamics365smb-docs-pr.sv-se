@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du Lagerställen | Microsoft Docs
-description: Det effektivaste sättet att skapa lagerställena i distributionslagret på är att generera grupper med liknande lagerställen i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget genom att följa anvisningarna nedan.
+title: 'Så här: Skapa lagerplatser'
+description: Generera grupper med liknande lagerplatser i lagerplatsuppläggningskalkylarket, skapa lagerplatser individuellt på lagerställekortet eller automatiskt i lagerplatsuppläggningskalkylarket.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0c426fa5a617a8457a562333d96cc7924ddc6669
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782715"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440084"
 ---
 # <a name="create-bins"></a>Skapa lagerställen
 Det effektivaste sättet att skapa lagerställena i distributionslagret på är att generera grupper med liknande lagerställen i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion på sidan **Lagerplatsuppläggningskalkylark** för att skapa lagerställena automatiskt.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Så här skapar du en lagerplats från lagerställekortet:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **placeringar** och väljer sedan relaterad länk.  
 2.  Markera lagerstället som du vill skapa en lagerplats från och välj åtgärden **Lagerställen**  
 3. Välj åtgärden **Ny**.
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +37,7 @@ Att dedikera en lagerplats resulterar i en liknande funktion i grundläggande la
 > Artiklar på dedikerade lagerställen skyddas inte när de plockas och förbrukas som produktions- eller monteringskomponenter med sidan **Lagerplockning**. Mer information finns i [Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Så här skapar du enstaka lagerställen i lagerplatsuppläggningskalkylark:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerplatsuppläggningskalkylark** och väljer sedan relaterad länk.  
 2.  På varje rad fyller du i de fält som är nödvändiga för att namnge och ange egenskaper för de lagerställen som du skapar.  
 3.  Välj åtgärden **Skapa lagerställen**.  
 
@@ -49,7 +49,7 @@ Innan du börjar skapa lagerställen automatiskt i kalkylarket bör du bestämma
 
 Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du ställas in som en lageranställd på det lagerställe där lagerställena finns. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerplatsuppläggning förslag** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerplatsuppläggningskalkylark** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna lagerställen**.
 3. Klicka på **Beräkna lagerställen** i fältet **Lagerplatsmall kod** och välj den lagerplatsmall som du vill använda som modell när du skapar lagerställen.
 4.  Fyll i en beskrivning av de lagerställen som du håller på att skapa.  

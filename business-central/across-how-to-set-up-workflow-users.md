@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du arbetsflödesanvändare | Microsoft Docs
-description: Innan du kan skapa arbetsflöden måste du ställa in de användare som ska ingå i arbetsflödena. Det behövs för att ange till exempel vem som ska ta emot en notering för att agera på ett arbetsflödessteg.
+title: Så här konfigurerar du arbetsflödesanvändare
+description: Innan du kan skapa arbetsflöden måste du ställa in de användare som ska ingå på sidan Arbetsflödesanvändargrupp.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9c0b7d79f59d2d59d2d382e3dc602769f41ac1f0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774642"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439926"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurera arbetsflödesanvändare
 
@@ -32,7 +32,7 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
 
 ## <a name="to-set-up-a-workflow-user"></a>Så här konfigurerar du en arbetsflödesanvändare
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflödesanvändargrupper** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflödesanvändargrupper** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflödesanvändargrupp** öppnas.  
 3. Ange högst 20 tecken för att identifiera arbetsflödet i fältet **Kod**.  
 4. Beskriv arbetsflödet i fältet **Beskrivning**.  

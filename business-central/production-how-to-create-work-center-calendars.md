@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du Fabrikskalendrar | Microsoft Docs
-description: I en produktionsgruppkalender anger du de arbetsdagar och arbetstimmar, skift, helgdagar och frånvaro som avgör den tillgängliga bruttokapaciteten för produktionsgruppen (mätt i tidsenheter) utifrån de effektivitets- och kapacitetsvärden som har definierats för gruppen. Om du vill skapa och aktivera en produktionsgruppkalender måste du först utföra flera förberedande åtgärder.
+title: Så här lägger du upp fabrikskalendrar
+description: Att skapa och aktivera en produktionsgruppkalender omfattar flera olika uppgifter, till exempel att ställa in fabrikskalendrar och att skapa arbetsskift.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e542d67f3cd0516cf435b0a7110e50431aab1a1f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781955"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440409"
 ---
 # <a name="set-up-shop-calendars"></a>Så här lägger du upp fabrikskalendrar
 I en produktionsgrupp- eller maskingruppkalender anger du de arbetsdagar/arbetstimmar, skift, helgdagar och frånvaro som avgör den tillgängliga bruttokapaciteten för produktionsgruppen (mätt i tidsenheter) utifrån de effektivitets- och kapacitetsvärden som har definierats för gruppen.
@@ -25,7 +25,7 @@ Om du vill beräkna en specifik produktionsgrupp- eller maskingruppkalender mås
 Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är liknande när du ställer in maksingruppkalender.  
 
 ## <a name="to-create-work-shifts"></a>Så här skapar du arbetsskift  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsskift** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **arbetsskift** och väljer sedan relaterad länk.  
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera arbetsskiftet (till exempel **1**).  
 3.  Beskriv arbetsskiftet i fältet **Beskrivning**, till exempel **1:a skift**.  
 4.  Fyll i raderna för ett andra eller tredje skift, om du vill.  
@@ -33,7 +33,7 @@ Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är likna
 Även om dina produktionsgrupper inte arbetar i olika skift måste du ange minst en arbetsskiftkod.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Så här skapar du en fabrikskalender  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **fabrikskalendrar** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **fabrikskalendrar** och väljer sedan relaterad länk.  
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera fabrikskalendern.  
 3.  Beskriv fabrikskalendern i fältet **Beskrivning**.  
 4.  Välj åtgärden **arbetsdagar**.
@@ -68,7 +68,7 @@ Fabrikskalendern kan nu tilldelas en produktionsgrupp så att den produktionsgru
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Så här beräknar du en produktionsgruppkalender  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **produktionsgrupper** och välj sedan relaterad länk.
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.
 2. Öppna produktionsgruppen som du vill uppdatera.  
 3. I fältet **Fabrikskalenderkod** väljer du vilken fabrikskalender som ska användas som grund för en produktionsgruppkalender.  
 4. Välj åtgärden **Kalender**.  

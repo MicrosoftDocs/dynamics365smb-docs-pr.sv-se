@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3fbf2905f20f1f19fc3bd6fb315e63f9944528b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783165"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439983"
 ---
 # <a name="manage-notifications"></a>Hantera meddelanden
 
@@ -32,7 +32,7 @@ Dessutom låter dig vissa meddelanden ange de villkor enligt vilka de ska skicka
 
 Aktivera meddelanden och inaktivera dem och ange villkor som bara gäller för dig.  
 
-1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och välj åtgärden **Mina inställningar**.  
+1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och välj åtgärden **Mina inställningar**.  
 2. På sidan **Mina inställningar** i fältet **meddelanden**, välj *Ändra när jag får meddelanden.* länk.  
 3. Aktivera eller inaktivera ett meddelande på sidan som visas genom att markera eller avmarkera kryssrutan **aktiverad**.  
 4. Ange villkor som ska utlösa meddelanden genom att välja länken **Visa filterdetaljer** och fyll sedan i fälten.  

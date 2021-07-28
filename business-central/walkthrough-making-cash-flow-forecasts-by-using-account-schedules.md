@@ -1,6 +1,6 @@
 ---
-title: 'Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar'
-description: Lär dig använda kontouppställningar för att skapa kassaflödesprognoser.
+title: Kassaflödesprognoser genom att använda kontouppställningar
+description: Den här genomgången beskriver hur du kan använda kontouppställningar för att göra kassaflödesprognoser i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 48a176c4c363c4a33ae336d754be71c9f7dd0aeb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0da9a5cab5c36bd5403bca3731ce46bb67316c3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772110"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438508"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar
 
@@ -54,7 +54,7 @@ En kontouppställning består av ett kontouppställningsnamn för kassaflöde me
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Så här skapar du ett nytt kontouppställningsnamn  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kontoscheman** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.  
 2. På sidan **Kontouppställningsnamn** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn för kassaflöde.  
 3. I fältet **Namn** anger du **Prognos**.  
 4. I fältet **Beskrivning**, ange **Kassaflödesprognos**.  

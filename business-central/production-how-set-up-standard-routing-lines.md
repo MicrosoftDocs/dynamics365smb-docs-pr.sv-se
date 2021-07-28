@@ -1,6 +1,6 @@
 ---
-title: Så här konfigurerar du standarduppgifter för operationer | Microsoft Docs
-description: Du kan skriva in beskrivningar av standarduppgifter.
+title: Så här konfigurerar du standarduppgifter för operationer
+description: Lära dig mer om hur du ställer in standarduppgifter och lägger till standard uppgifter i operationer som gör det enklare att underhålla operationsföljder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 1aba83ed50e0b60710ae3d007b395dc9ebad34d3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e25eca9c3ff6b057b24249368d00dd5118b98ca3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779363"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438659"
 ---
 # <a name="set-up-standard-routing-lines"></a>Skapa standardverksamhetsföljdrader
 
@@ -23,14 +23,14 @@ Genom att använda standarduppgifter är det lättare att skapa och underhålla 
 
 ## <a name="to-set-up-a-standard-task"></a>Så här ställer du in standarduppgift
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Standarduppgifter** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **standarduppgifter** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärder **verktyg**, **personal**, **beskrivning** eller **verktyg** och lägg till önskad post på sidan som öppnas.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Lägga till en standarduppgift till en operation
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **verksamhetsföljder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.
 2. Öppna relevant verksamhetsföljd.
 3. Välj en relevant verksamhetsföljdsrad, välj åtgärden **operationer** och välj sedan åtgärden **verktyg**, **personal**, **beskrivning**, eller **verktyg**.
 

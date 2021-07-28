@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40dcb4a758f2ac98903e61df27863b9fee854922
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74013be6664db6ea62c2da66fb38b076c08ffea2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770322"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440580"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Överföra, dela eller kombinera anläggningstillgångar
 
@@ -26,12 +26,12 @@ Du kan behöva överföra en anläggningstillgång till en annan avdelning, du t
 
 1. Skapa en ny anläggningstillgång. Ange den nya avdelningen som en dimension.  
 2. Tilldela en avskrivningsregel för anläggningstillgång till den nya anläggningstillgången. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Omklassificeringsjournaler för anläggningstillgång** och välj sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Omklassificeringsjournaler för anläggningstillgång** och väljer sedan relaterad länk.
 4. Skapa en journalrad där fältet **Anl.nr.** innehåller den ursprungliga anläggningstillgången och fältet **Nytt anl.nr** innehåller den nya anläggningstillgången som ska flyttas. Fyll i resterande fält om det behövs.  
 5. Välj åtgärden **Gruppera**.
 
     Två rader skapas nu i redovisningsjournalen för anläggningstillgångar med mallen och journalen som du har angett på sidan **Anl. journalinställningar** för den angivna avskrivningsregeln. Mer information finns i [Ställa in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan tillhörande länk.    
+6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.    
 7. På sidan **Anl.tillg. redovisningsjournal** väljer du åtgärden **Bokför** för att bokföra grupperingen som du utförde i steg 4 och 5.
 
 Om du har bokfört en anskaffningskostnad för en tillgång kan du använda grupperingsjournalen för anläggningstillgångar när du vill dela upp anskaffningskostnaden på flera tillgångar.  
@@ -41,7 +41,7 @@ Du kan dela upp en anläggningstillgång till åtskilliga anläggningstillgånga
 
 1. Skapa två nya anläggningstillgången. Ange relevanta avdelningar som dimensioner.  
 2. Tilldela en avskrivningsregel för anläggningstillgång till den nya anläggningstillgången. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Omklassificeringsjournaler för anläggningstillgång** och välj sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Omklassificeringsjournaler för anläggningstillgång** och väljer sedan relaterad länk.
 4. Skapa två grupperingsjournalrader, en för varje ny anläggningstillgång.
 5. På den första raden anger du den andra anläggningstillgången i fältet **Nytt anl.nr** och 25 i fältet **Gruppera anskaff.kost. %**.
 6. På den andra raden anger du den tredje anläggningstillgången i fältet **Nytt anl.nr** och 40 i fältet **Gruppera anskaff.kost. %**.
@@ -49,26 +49,26 @@ Du kan dela upp en anläggningstillgång till åtskilliga anläggningstillgånga
 8. Välj åtgärden **Gruppera**.  
 
     Två rader skapas nu i redovisningsjournalen för anläggningstillgångar med mallen och journalen som du har angett på sidan **Anl. journalinställningar** för den angivna avskrivningsregeln. Mer information finns i [Ställa in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).    
-9. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan tillhörande länk.
+9. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.
 10. På sidan **Anl.tillg. redovisningsjournal** väljer du åtgärden **Bokför** för att bokföra grupperingen som du utförde i steg 4 och 8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Om du vill kombinera flera anläggningstillgångar till en
 
 Du kan kombinera flera anläggningstillgångar till en anläggningstillgång, till exempel när du vill flytta distribuerade anläggningstillgångar till en avdelning. Om du har bokfört anskaffningskostnader och avskrivning anläggningstillgång som ska flyttas, kombineras dessa värden i en enda anläggningstillgång.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Omklassificeringsjournaler för anläggningstillgång** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Omklassificeringsjournaler för anläggningstillgång** och väljer sedan relaterad länk.
 2. Skapa en grupperingsjournal där fältet **Anl.nr.** innehåller den anläggningstillgången som ska flyttas/kombineras och fältet **Nytt anl.nr** innehåller den nya anläggningstillgången som ska kombineras med.
 3. Lämna fältet **Gruppera anskaff.kost. %** tomt om du vill flytta/kombinera den totala anskaffningskostnaden.  
 4. Välj kryssrutorna **Gruppera anskaff.kost.** och **Gruppera avskrivning**.
 5. Välj åtgärden **Gruppera**.
 
     Två rader skapas nu i redovisningsjournalen för anläggningstillgångar med mallen och batchen som du har angett på sidan **Journalinställningar för anläggningstillgångar** för den angivna avskrivningsregeln. Mer information finns i [Ställa in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).   
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anläggningstillgång** och välj sedan relaterad länk.
+6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.tillg. redovisningsjournaler** och väljer sedan relaterad länk.
 7. På sidan **Anl.tillg. redovisningsjournal** väljer du åtgärden **Bokför** för att bokföra grupperingen som du utförde i steg 2 och 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Så här visar du ändrade avskrivningsregelvärden som beror på gruppering av anläggningstillgångar
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsvärde 02 för anläggningstillgång** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsvärde 02 för anläggningstillgång** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.  
 

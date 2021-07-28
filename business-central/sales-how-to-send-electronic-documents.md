@@ -1,6 +1,6 @@
 ---
 title: Skicka elektroniska dokument
-description: Så här skickar du fakturor elektroniskt.
+description: Lär dig använda Business Central för att skicka elektriska fakturor och kredit notor i PEPPOL-format.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8056aa66531740634fb155e0b3b4419a7f014ffc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778378"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440284"
 ---
 # <a name="send-electronic-documents"></a>Skicka elektroniska dokument
 
@@ -27,7 +27,7 @@ Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöde
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Så här kan du skicka en elektronisk försäljningsfaktura
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 
 2. Skapa en ny försäljningsfaktura.  
 

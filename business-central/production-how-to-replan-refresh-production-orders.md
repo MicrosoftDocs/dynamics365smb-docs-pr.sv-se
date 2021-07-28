@@ -1,6 +1,6 @@
 ---
-title: Omplanera eller uppdatera produktionsorder direkt | Microsoft Docs
-description: Produktionsorderraderna innehåller de artiklar som ska produceras i produktionsordern.
+title: Omplanera eller uppdatera produktionsorder direkt
+description: I det här avsnittet beskrivs procedurerna för omplanering av produktionsorder och uppdatering av tillverkningsorder direkt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e3e1fa5535637f204c942aa8d3589dfff0392333
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787808"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440384"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Omplanera eller uppdatera produktionsorder direkt
 Funktionen **Omplanera** på produktionsorder används vanligtvis när du har lagt till eller ändrat komponenter som utgör underliggande produktionsorder. Funktionen beräknar de ändringar som gjorts på komponent- och verksamhetsföljdsrader, och artiklar på lägre produktionsstrukturnivåer beaktas. Detta innebär att nya produktionsorder kan skapas för dessa artiklar.  
@@ -35,7 +35,7 @@ Du kan antingen infoga produktionsorderraderna manuellt eller använda en funkti
 > Om du använder funktionen Uppdatera för att omberäkna produktionsorderraderna kommer de gamla produktionsorderraderna tas bort och nya beräknas.  
 
 ## <a name="to-replan-a-production-order"></a>Så här planerar du om en produktionsorder  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
 2.  Öppna den produktionsorder som du vill omplanera.  
 3.  På snabbfliken **Rader** väljer du åtgärden **Rader** och väljer sedan åtgärden **Komponenter**.  
 4.  Lägg till en komponent som är en producerad artikel eller halvfabrikat.  
@@ -65,12 +65,12 @@ Du kan antingen infoga produktionsorderraderna manuellt eller använda en funkti
 ## <a name="to-refresh-a-production-order"></a>Så här uppdaterar du en produktionsorder  
 Om du har ändrat produktionsorderrader, komponenter eller verksamhetsföljdrader måste du också uppdatera informationen i produktionsordern. I följande procedur beräknas komponenterna för en fast planerad produktionsorder. Momenten är liknande för verksamhetsföljdsrader.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fast planerad prod.order** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**. För mer information, se [Skapa produktionsorder](production-how-to-create-production-orders.md).  
 3.  Välj åtgärden **Uppdatera**.
 4. Du kan välja en av följande alternativ på sidan **Uppdatera produktionsorder**:
 
-    |Alternativ|Description|  
+    |Alternativ||Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Planeringsriktning**|**Framåt**|Planeringen börjar vid startdatumet och fortsätter framåt till slutdatumet. Du måste fylla i startdatumet om du vill använda det här alternativet.|  
     ||**Bakåt**|Planeringen börjar vid slutdatumet och fortsätter bakåt till startdatumet.|  

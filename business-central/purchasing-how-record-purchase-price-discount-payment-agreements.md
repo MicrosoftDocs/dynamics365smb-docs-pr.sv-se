@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 36fcb415c6d6dbe125570be932f223d4300d518a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 580a2b248b43ccac272b95656207439a8e02cc85
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772710"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438558"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrera speciella inköpspriser och rabatter
 > [!NOTE]
@@ -40,13 +40,13 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Öppna det relevanta leverantörskortet och välj sedan åtgärden **Priser.**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fyll i en rad för varje kombination för vilken leverantören beviljar dig en inköpsradrabatt.
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Välj leverantör och sedan åtgärden **Försäljningsprislistor**. 
 3. Välj **Ny** för att skapa en ny inköpsprislista.
 4. På snabbflikarna **Allmänt** och **Moms** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,7 +59,7 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 ---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Om du vill definiera en radrabatt för en leverantör
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Öppna det relevanta leverantörskortet och välj sedan åtgärden **Radrabatter.**.
 
     Fältet **Inköpstyp** är förifyllt med **leverantör** och fältet **inköpskod** är förifyllt med leverantörsnumret.
@@ -69,7 +69,7 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Så här definierar du radrabatt för en leverantör
 När dina leverantörer har informerat dig om vilka fakturarabatter som de beviljar, skriver du fakturarabattkoderna på leverantörskorten och lägger upp villkoren för respektive kod.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Öppna leverantörskortet för en leverantör som är aktuell för fakturarabatter.
 3. Välj i fältet  **Fakturarabattkod** koden för den fakturarabatt som ska användas vid beräkning av fakturarabatter för leverantören.
 
@@ -90,7 +90,7 @@ När du bokför en inköpsfaktura som innehåller en eller flera rabatter kan du
 
 Innan du kan göra detta måste du redan ha definierat de nödvändiga kontona för bokföring av rabattbelopp i kontoplanen. Du måste också kontrollera att du har angett rätt kontonummer i bokföringsinställningarna i fälten **Inköpsradrabatt** och **Inköpsfakturarabatt**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inköpsinställningar** och väljer sedan relaterad länk.
 2. I fältet **Rabattbokföring** väljer du en av följande principer för bokföring av rabatter.
 
 |**Princip för rabattbokföring**|**Fakturarabatt**|**Radrabatt**|  

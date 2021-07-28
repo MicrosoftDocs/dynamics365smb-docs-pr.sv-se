@@ -1,6 +1,6 @@
 ---
-title: Ställ in medarbetare och ändra Information | Microsoft Docs
-description: Beskriver hur du registrerar ny personal eller redigerar information för nuvarande anställda.
+title: Ställ in medarbetare och ändra Information
+description: Beskriver hur du använder funktionen personal för att registrera ny personal eller redigera personalinformation för en befintlig personal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 30196087931f522be57cc920cd1f41d96d795399
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773820"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440555"
 ---
 # <a name="register-employees"></a>Registrera personal
 För att använda personalfunktionen måste du först registrera varje enskild anställd genom att skapa ett kort för all grundläggande, arbetsrelaterad information.
@@ -30,14 +30,14 @@ Nedan beskrivs hur du skapar ett grundläggande personalkort samt hur du förser
 > Du kan återbetala en medarbetare för deras utgifter under affärsaktiviteter. Av den anledningen måste du fylla i fälten på snabbfliken **Betalningar** på sidan **Personalkort**. Mer information finns i [Så här registrerar du och återbetalar personalens utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Så här registrerar du personal
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Personal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **personal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Personalkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Infoga en bild av den anställde
 Om du har en bild av en anställd i .bmp-format kan du infoga den på personalkortet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Personal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **personal** och väljer sedan relaterad länk.
 2. Öppna kortet för relevant anställd.
 3. I faktaboxen **Personalbild** väljer du listruteknappen och väljer sedan **Importera**.
 4. På sidan **Välj en bild att ladda upp** kan välja knappen **Välj**.
@@ -50,7 +50,7 @@ Du kan ställa in information, till exempel medlem i fackföreningen, anhöriga 
 
 Du kan använda alternativa adresser för att hålla reda på var de anställda befinner sig, om de t. ex. är stationerade utomlands, befinner sig på en längre affärsresa eller vistas i sommarstuga.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Personal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **personal** och väljer sedan relaterad länk.
 2. Öppna kortet för relevant anställd.
 3. Välj åtgärden **alternativa adresser**.
 4. På sidan **Alternativ adresslista** fyller du i fälten efter behov.

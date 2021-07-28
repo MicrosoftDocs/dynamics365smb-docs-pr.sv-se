@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 36850a2d0d8f85a0436b5d268c3cd2653b2f785f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779763"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438958"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Hantera användarinställningar och inställningar
 
@@ -74,7 +74,7 @@ Som administratör kan du få en översikt över enskilda ändringar till [!INCL
 
 ## <a name="to-review-or-delete-user-personalizations"></a>Så här granskar eller tar du bort användaranpassningar
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Anpassade sidor** och välj sedan relaterad länk.
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Personanpassade sidor** och väljer sedan relaterad länk.
 2. Visar en lista över användare och deras anpassade sidor. Om du vill ta bort en användares anpassning klickar du på relevant rad eller väljer **Hantera** och väljer sedan **Ta bort**.
 
 Detta tar bort anpassningen och användarens upplevelse av den relevanta sidan återgår till standardtillståndet.

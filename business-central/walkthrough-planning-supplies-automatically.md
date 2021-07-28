@@ -1,6 +1,6 @@
 ---
-title: Genomgång – Planera leveranser automatiskt | Microsoft Docs
-description: Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av den primära produktionsplanen (MPS) och materialbehovsplanen (MRP), baserat på faktiska behov och behovsprognoser.
+title: Genomgång - Planera leveranser automatiskt
+description: I den här genomgången visar vi hur du använder leveransplaneringssystemet för att automatiskt planera alla inköps- och produktionsorder för olika försäljningsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214709"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439366"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
 
@@ -74,7 +74,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 ### <a name="to-change-selected-planning-parameters"></a>Så hör kan du ändra de valda planeringsparametrarna  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **lagerställeenheter** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerställeenheter** och väljer sedan relaterad länk.  
 2.  Öppna det enhetskortet för lagerställe ÖST för artikel 1100, framhjul.  
 3.  Fyll i fälten på snabbfliken **Planering** enligt beskrivningen i följande tabell.  
 
@@ -91,7 +91,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 ### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  På sidan **Försäljningsorder** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
@@ -103,7 +103,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Så här skapar du en fullständig plan för att tillfredsställa behovet vid lagerställe ÖST  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Planeringsförslag** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
 3.  På sidan **Skapa inköpsförslag – planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell.  
 
@@ -126,7 +126,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Beräkna nettobehov för att ta med underliggande komponentbehov  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Planeringsförslag** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
 3.  På sidan **Skapa inköpsförslag – planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell.  
 
@@ -220,7 +220,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 3.  Acceptera tillgänglighetsvarningen och klicka på **Ja** för att registrera det efterfrågade antalet.  
 4.  Fortsätter genom att planera om genom att justera den nuvarande leveransplaneringen.  
-5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Planeringsförslag** och välj sedan relaterad länk.  
+5.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 6.  Välj åtgärden **Beräkna nettoförändringsplan**.  
 7.  På sidan **Skapa inköpsförslag – planeringsförslag** fyll i fälten enligt beskrivningen i följande tabell.  
 

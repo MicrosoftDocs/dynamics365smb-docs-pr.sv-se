@@ -1,6 +1,6 @@
 ---
 title: Importerar många artikelbilder från en ZIP-fil | Microsoft Docs
-description: Du kan importera flera artikelbilder samtidigt. Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan Importera artikelbilder för att hantera vilka artikelbilder som ska importeras.
+description: Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan Importera artikelbilder för att importera flera artikelbilder.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4d4221ca3af412cc2548634cc6920f58171233ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785929"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440530"
 ---
 # <a name="import-multiple-item-pictures"></a>Importera flera artikelbilder
-Du kan importera flera artikelbilder samtidigt. Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan **Importera artikelbilder** för att hantera vilka artikelbilder som ska importeras.
+ Du kan importera flera artikelbilder samtidigt. Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan Importera artikelbilder för att hantera vilka artikelbilder som ska importeras.
 
 Alla vanliga filformat stöds.
 
@@ -35,7 +35,7 @@ Alla vanliga filformat stöds.
 2. Samla alla filer i ZIP-filen. Till exempel i Windows Explorer, markerar du filerna och väljer **skicka till**, **komprimerad mapp**.     
 
 ## <a name="to-import-item-pictures"></a>För att importera artikelbilder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
 2. Välj åtgärden **Importera artikelbilder**.
 3. I fältet **Välj en ZIP-fil** markerar du relevant ZIP-mapp och väljer sedan knappen **öppna**.
 

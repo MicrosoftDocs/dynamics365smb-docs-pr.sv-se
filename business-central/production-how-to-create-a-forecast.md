@@ -1,6 +1,6 @@
 ---
 title: Så här skapar du en efterfrågeprognos
-description: Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.
+description: Lära dig mer om prognosfunktionen i Business Central, och hur du kan skapa försäljnings- och produktionsprognoser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779334"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438693"
 ---
 # <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
 Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.  
@@ -62,7 +62,7 @@ Om du väljer fältet **Använd prognos efter lagerställe** kommer [!INCLUDE[pr
 Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe VÄST. Planeringssystemet föreslår att du gör följande:
 
 - Återanskaffning av 10 enheter för lagerställe ÖST, baserat på data från prognosen.  
-- Återanskaffning av 12 enheter för lager ställe VÄST, baserat på försäljningsorder. De fyra delar som angavs i prognosen förbrukas helt med det faktiska behov som anges i försäljningsordern. Mer information finns i [Prognostiserad efterfrågan minskas av försäljningsorder](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Återanskaffning av 12 enheter för lagerställe VÄST, baserat på försäljningsordern. De fyra delar som angavs i prognosen förbrukas helt med det faktiska behov som anges i försäljningsordern. Mer information finns i [Prognostiserad efterfrågan minskas av försäljningsorder](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Om platsbaserade prognoser visas separat kanske den övergripande prognosen inte är representativ.
@@ -85,7 +85,7 @@ Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe V
 
 ## <a name="to-create-a-demand-forecast"></a>Att skapa en efterfrågeprognos
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **efterfrågeprognos** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **efterfrågeprognos** och väljer sedan relaterad länk.  
 2. På snabbfliken **Allmänt**, välj en prognos i fältet **efterfrågeprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
 3. Gå till fältet **Lagerställefilter** och markera den plats som den här prognosen ska gälla för.
 4. I fältet **Visa efter** för att ändra perioden som visas i varje kolumn. Du kan välja mellan följande intervall: **Dag**, **Vecka**, **Månad**, **Kvartal**, **År** eller **Bokföringsperiod** som ställs in i ditt ekonomiområde.    

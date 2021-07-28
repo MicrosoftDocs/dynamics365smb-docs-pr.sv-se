@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2d956b7e22e4fe079c47ca8693d717a2b451f146
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 157be841019a9b1a44f45f19fc0708ce7645d716
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772735"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440505"
 ---
 # <a name="purchase-items-for-a-sale"></a>Köpa artiklar för en försäljning
 Du kan använda funktioner snabbt skapa inköpsdokument för saknade artikelkvantiteter som krävs av försäljningen från försäljningsorder och fakturor. Du kan använda två olika funktioner beroende på dokumenttypen.
@@ -31,7 +31,7 @@ Du kan använda funktioner snabbt skapa inköpsdokument för saknade artikelkvan
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Så här skapar du inköpsorder för en eller flera serviceorder från en försäljningsorder
 Om du vill skapa en inköpsorder för varje artikelkvantitet som inte är tillgängliga på försäljningsordern, använd funktion **skapa inköpsorder**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Öppna en försäljningsorder som du vill köpa in artiklar för.
 3. Välj åtgärden **Skapa inköpsorder**.
 
@@ -54,7 +54,7 @@ Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljn
 > [!NOTE]  
 >   Den här funktionen skapar en inköpsfaktura för antalet exakt i det valda försäljningsdokumentet. Om du vill ändra antalet inköp, måste du redigera journalen skapas.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Öppna en försäljningfaktura som du vill köpa in artiklar för.
 3. Markera en eller flera försäljningsfakturarader som du vill använda i inköpsfakturan. För att använda alla försäljningsfakturarader väljer du antingen all rader eller inga rader alls.
 4. Välj åtgärden **Skapa inköpsfaktura**.

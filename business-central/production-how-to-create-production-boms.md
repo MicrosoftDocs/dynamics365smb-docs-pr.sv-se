@@ -1,6 +1,6 @@
 ---
 title: Så här skapar du nya produktionsstrukturer
-description: En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
+description: Lära dig hur du skapar en produktionsstruktur, nya versioner av en produktionsstruktur och hur du använder beräkningsformeln för antal.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781994"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438708"
 ---
 # <a name="create-production-boms"></a>Skapa produktionsstrukturer
 
@@ -29,7 +29,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 - Produktionsresurser har ställts in. Mer information finns i [Skapa produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Skapa en ny produktionsstruktur.  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Prod.struktur** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Prod.struktur** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Ställ in värdet i fältet **Status** till **Ny** eller **Under utveckling** om du vill redigera strukturen. Aktivera den genom att ställa in fältet **Status** till **Godkänd**.  
@@ -56,7 +56,7 @@ Nya versioner av produktionsstrukturer används till exempel när en artikel ers
 
 Startdatum anger början av en versions giltighetsperiod. I alla andra fall är startdatumet ett filtreringskriterium för beräkningar och utvärderingar. Prod.strukturversionen gäller tills nästa versions giltighetsstartdatum infaller.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Prod.struktur** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Prod.struktur** och väljer sedan relaterad länk.  
 2.  Markera produktionsstrukturen som ska kopieras och klicka på åtgärden **versioner**.  
 3.  Välj åtgärden **Ny**.  
 4. Fyll i fälten om det behövs.

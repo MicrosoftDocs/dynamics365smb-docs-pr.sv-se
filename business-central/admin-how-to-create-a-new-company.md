@@ -1,6 +1,6 @@
 ---
 title: Så här skapar du ett nytt företag | Microsoft Docs
-description: Tabeller och sidor skapas i syfte att kunna använda RapidStart Services, men de innehåller inga data.
+description: Använd RapidStart Services tabeller och sidor för att skapa ett nytt företag som du vill genomföra en kundimplementering för.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779888"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439641"
 ---
 # <a name="create-a-new-company"></a>Skapa ett nytt företag
 Innan du kan använda RapidStart Services för [!INCLUDE[prod_short](includes/prod_short.md)] måste du först skapa ett nytt företag för vilket du vill genomföra en kundimplementering. När du skapar ett nytt företag skapas standardtabeller och sidor för [!INCLUDE[prod_short](includes/prod_short.md)] men det inte finns några data i dem.
@@ -26,7 +26,7 @@ Exempelkonfigurationspaket, inklusive lands-/regionspecifika filer, ingår i dem
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Om du vill använda exempelkonfigurationspaket BASICCONFIG  
 1. Öppna företaget CRONUS Sverige AB. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 3. Välj paketet BASICCONFIG i listan och välj sedan åtgärden **Exportera paket**.  
 
 Använd följande procedur för att skapa ett nytt företag och använd BASICCONFIG-paketet som en del av processen.  

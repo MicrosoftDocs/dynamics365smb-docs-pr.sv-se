@@ -1,6 +1,6 @@
 ---
-title: Så här flyttar du artiklar i avancerad distributionslagerkonfiguration | Microsoft Docs
-description: I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerställen av en ansvarig anställd som förbereder Dist.lager transporterna i transportkalkylarket och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem.
+title: Flytta artiklar i avancerade distributionslagerkonfiguration
+description: I det här avsnittet beskrivs hur en erfaren anställd kan ordna flyttning av artiklar i avancerade distributionslager konfigurationer som gäller för lagerställen med dirigerad artikelinförsel och plockning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e843b048c117539d077dc4a8ecba33f265a2e826
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cba0ff7da725d4113ed17f9121caabd2e6b54ce5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782640"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439291"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytta artiklar i avancerade distributionslagerkonfigurationer
 I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.inf. och plockning , utförs transporter mellan lagerställen av en ansvarig anställd som förbereder Dist.lager transporterna i transportkalkylarket och sedan skapar dist.lager transporterna så att lagerpersonalen kan utföra dem.  
@@ -23,12 +23,12 @@ I avancerad lagerkonfiguration, dvs lagerställen som använder Dirigerad art.in
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Så här flyttar du artiklar med dist.lager transport kalkylarket
 Sidan **Transportkalkylark** innehåller två funktioner som du kan använda för att fylla i raderna automatiskt. Den första är funktionen **Beräkna lagerplatsåteranskaffning** Den här funktionen använder lagerplatsrang för att föreslå påfyllning för med lagerställen med högre lagerplatsordning från lagerställen med lägre rang. Den andra funktionen är **Hämta lagerställesinnehåll** som fyller i kalkylarksraderna med hela lagerställesinnehållen, för de lagerställen du anger.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Transportkalkylark** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transportkalkylark** och väljer sedan relaterad länk.  
 2.  Fyll i tillämplig distributionslagertransportinformation på kalkylarksraderna.  
 3. Välj åtgärden **Skapa transport** om du vill skapa ett dokument för distributionslagertransport som kan registreras när distributionslagertransporten är slutförd.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Så här registrerar du distributionslagertransporten:  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Förflyttningar** och välj sedan tillhörande länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **transport** och väljer sedan relaterad länk.  
 2.  Öppna Dist.lager transport som du vill arbeta med.  
 3.  Ange var och när artikeln i fråga ska flytta genom att redigera **Zonkod**, **Lagerställeskod**, **Ant. att hantera** eller **Förfallodatum** på rader med åtgärdstypen **Plats**.  
 
@@ -43,7 +43,7 @@ Sidan **Transportkalkylark** innehåller två funktioner som du kan använda fö
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Så här registrerar du transporten av en artikel som redan har skett  
 Om lagerstället är inställt på dirigerad artikelinförsel och plockning, och du måste flytta artiklar till andra lagerställen utan en befintlig distributionslagerartikelinförsel, plockning eller transport, kan du registrera korrekt placering av artiklarna i distributionslagret med **Dist.lager omgrupperingsjnl**.
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lagergrupperingsjnl** och välj sedan tillhörande länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lagergrupperingsjnl** och väljer sedan relaterad länk.  
 2.  Fyll i fälten **Artikelnr**, **Från zonkod**, **Från lagerställeskod**, **Till zonkod** och **Till lagerställeskod**.  
 3.  Välj **Registrera**.  
 

@@ -1,6 +1,6 @@
 ---
 title: Konfigurera användare för godkännande
-description: Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. På sidan Användarinställningar för godkännande anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande.
+description: Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i användarinställningar för godkännande.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5eaa2daf8321adf65275bf4e0cd21ee1f4cb29fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fcf106941c59cd4cb510a9443eac1d50612e15b7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787263"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439207"
 ---
 # <a name="set-up-approval-users"></a>Konfigurera användare för godkännande
 
@@ -31,7 +31,7 @@ Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du ska
 
 ## <a name="to-set-up-an-approval-user"></a>Så här konfigurerar du en godkännandeanvändare
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2. Skapa en ny rad på sidan **Användarinställningar för godkännande** och fyll i fälten enligt instruktionerna i följande tabell.  
 
     |Fält|Description|  

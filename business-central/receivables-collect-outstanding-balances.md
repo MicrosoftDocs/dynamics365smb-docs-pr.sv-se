@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c59ce4576f4c7916ef6b587d4bc6b21cb1047acb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781769"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439416"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 
@@ -29,7 +29,7 @@ Från kundkortet kan du skapa en rapport med den kundens transaktioner med dig. 
 
 ### <a name="to-send-the-customer-statement-report"></a>Om du vill skicka kundkontoutdragsrapporten.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kundutlåtande** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kundkontoutdrag** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I **Utdataalternativ** väljer du hur rapporten ska skickas till kunden.
 
@@ -52,7 +52,7 @@ När du har skapat betalningspåminnelser och gjort nödvändiga ändringar kan 
 
 En betalningspåminnelse liknar en faktura. När du skapar en betalningspåminnelse måste ett betalningspåminnelsehuvud och en eller flera betalningspåminnelserader fyllas i. Du kan använda en funktion för att automatiskt skapa betalningspåminnelser för alla kunder.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Påminnelser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Påminnelser** och väljer sedan relaterad länk.
 2. På sidan **Betalningspåminnelse** väljer du åtgärden **Skapa betalningspåminnelse**.
 3. På sidan **skapa betalningspåminnelser** fyller du i fälten för att definiera hur och till vem som betalningspåminnelserna skapas.
 4. Välj knappen **OK**.
@@ -61,7 +61,7 @@ En betalningspåminnelse liknar en faktura. När du skapar en betalningspåminne
 
 På sidan **påminnelse** kan du fylla i snabbfliken **allmännt** manuellt och sedan låta raderna fyllas i automatiskt.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Påminnelser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Påminnelser** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. I snabbfliken **Allmänt** fyller du i nödvändiga fält.
 4. Välj åtgärden **Föreslå betalningspåminnelserader**.
@@ -78,7 +78,7 @@ På sidan **påminnelse** kan du fylla i snabbfliken **allmännt** manuellt och 
 
 Du kan bestämma vilken text som ska visas på betalningspåminnelsen på flera olika sätt. I vissa fall kan det hända att du vill ersätta de inledande och avslutande texterna som definierats för den aktuella nivån med texter från en annan nivå.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Påminnelser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Påminnelser** och väljer sedan relaterad länk.
 2. Öppna relevant påminnelse, och välj sedan åtgärden **Uppdatera bet.påminnelsetext**.
 3. På sidan **Uppdatera bet.påminnelsetext** anger du önskad nicå i fältet **Betalningspåminnelsenivå**.
 4. Klicka på **OK** om du vill uppdatera de inledande och avslutande texterna.
@@ -101,7 +101,7 @@ Om kryssrutorna **Bokför ränta** eller **Bokför avgift** är markerade på si
 
 Dessutom kan utskickandet av räntefakturor resultera i momstransaktioner.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Påminnelser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Påminnelser** och väljer sedan relaterad länk.
 2. Välj relevant betalningspåminnelse och välj sedan åtgärden **Utskick**.
 3. På sidan **Utskick betalningspåminnelser** fyller du i fälten efter behov.
 4. Välj **OK**.
@@ -134,7 +134,7 @@ När du har skapat räntefakturor och gjort eventuella ändringar kan du antinge
 
 En räntefaktura påminner om en vanlig faktura. Du kan fylla i ett huvud manuellt och ange att raderna ska fyllas i automatiskt, eller så kan du välja att automatiskt skapa räntefakturor för alla kunder.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Räntefakturor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Räntefakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov.  
 3. Välj åtgärden **Föreslå räntefakturarader**.
 4. På sidan **Föreslå räntefakturaraderna** anger du ett filter på snabbfliken **Kundreskontratransaktion** om du bara vill skapa räntefakturor för särskilda transaktioner.
@@ -146,7 +146,7 @@ En räntefaktura påminner om en vanlig faktura. Du kan fylla i ett huvud manuel
 ### <a name="to-update-finance-charge-memo-texts"></a>Så här uppdaterar du räntefakturatexter  
 I vissa fall kan det hända att du behöver ändra den inledande och avslutande text som angetts för räntevillkoren. Om du gör detta när du har skapat, men ännu inte skickat ut, räntefakturor kan du uppdatera fakturorna med den ändrade texten.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Räntefaktura** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Räntefaktura** och väljer sedan relaterad länk.  
 2. Öppna den räntefaktura som du vill ändra texten och välj sedan åtgärden **Uppdatera räntefakturatext**.
 3. På sidan **Uppdatera räntefakturatext** kan du definiera ett filter om du vill uppdatera flera fakturor.
 4. Klicka på **OK** om du vill uppdatera de inledande och avslutande texterna.  
@@ -166,7 +166,7 @@ Om kryssrutorna **Bokför ränta** eller **Bokför avgift** är markerade på si
 
 Dessutom kan utskickandet av räntefaktura resultera i momstransaktioner.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Räntefakturor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Räntefakturor** och väljer sedan relaterad länk.
 2. Välj relevant faktura och välj sedan åtgärden **Utskick**.
 3. På sidan **Utskick räntefakturor** fyller du i fälten efter behov.
 4. Välj **OK**.
@@ -180,7 +180,7 @@ Om räntefakturor utfärdades felaktigt kan du avbryta dem innan de skickas ut. 
 
 ### <a name="to-view-reminder-and-finance-charge-entries"></a>Så här visar du betalningspåminnelse- och räntetransaktioner  
 När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetransaktion på sidan **Bet.påminnelse/räntetrans.** för alla betalningspåminnelserader som innehåller en kundreskontratransaktion. Om du vill kan du visa en översikt över de betalningspåminnelsetransaktioner som skapats för en viss kund.    
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Transaktioner**.
 3. På sidan **Kundreskontratransaktioner** markerar du raden med den transaktion som du vill visa betalningspåminnelsetransaktionerna för och väljer sedan åtgärden **Bet.påminnelse-/räntetrans.**.
 

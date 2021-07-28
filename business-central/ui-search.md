@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783190"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440008"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till sa
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-När du behöver hjälp med att hitta någonting, kan du använda ikonen ![Berätta vad du vill göra](media/ui-search/search.png "Sök efter sida eller rapport") **Berätta vad du vill göra** för att söka efter det. Du kan också använda ALT+Q för att börja använda Berätta.
+När du behöver hjälp med att hitta något, använd ![Berätta för mig vad du vill göra.](media/ui-search/search.png "Sök efter sida eller rapport") **Berätta vad du vill göra** ikonen för att söka efter det. Du kan också använda ALT+Q för att börja använda Berätta.
 
 När du börjar skriva tecken visar [!INCLUDE[prod_short](includes/prod_short.md)] omedelbart matchningar. Resultatet i listan ändras när du skriver fler tecken. Om du märker att när du skriver ordet "produkt" och resultaten inkluderar **Artiklar** beror det på att Berätta använder synonymer och alternativa sökord för att göra det enklare att hitta åtgärder, sidor och rapporter.
 
