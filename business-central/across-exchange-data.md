@@ -1,21 +1,21 @@
 ---
-title: Utbyt data | Microsoft Docs
-description: Du kan utbyta data mellan Business Central och externa filer eller strömmar i gemensamma affärsuppgifter, till exempel för att skicka och ta emot elektroniska dokument och importera och exportera bankfiler.
+title: Utbyta data
+description: Utbyta elektroniska affärsdokument, t.ex. bankfiler, mellan Business Central och externa parter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 1b0d690254378de23655c73aaedccd03535ba586
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 85f8a69d05366585bd11d651a6c093a4388433d9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776178"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319646"
 ---
 # <a name="exchanging-data"></a>Utbyta data
 Du kan utbyta data mellan [!INCLUDE[prod_short](includes/prod_short.md)] och externa filer eller strömmar i gemensamma affärsuppgifter, till exempel för att skicka och ta emot elektroniska dokument och importera och exportera bankfiler.  

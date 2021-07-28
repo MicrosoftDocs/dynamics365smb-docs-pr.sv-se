@@ -1,8 +1,6 @@
 ---
-title: Ställa in bank | Microsoft Docs
+title: Konfigurera bank
 description: Du använder bankkontokort för att hålla reda på dina bankkonton och ställa in bankfeeder, som till exempel Yodlee, för utbyte av data.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,14 +10,15 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a8e10161f2ad137cf26e1e28d8ccf89049b51ad8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 43a9291fb346596b46d3871a1da7eb84fae3a758
+ms.sourcegitcommit: cde0d97840c8b83cae45afc4a6c65725ffdad56a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779688"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248895"
 ---
 # <a name="setting-up-banking"></a>Ställa in bank
+
 Med hjälp av bankkontokort kan du hålla reda på alla dina bankkonton, oavsett valuta. När du har skapat bankkontona kan du även använda funktionen för utskrift av checkar.
 
 Om du vill använda elektroniska banktjänster för att importera kontoutdrag och exportera betalningar måste du skapa och aktivera de relevanta tjänsterna.
@@ -30,7 +29,10 @@ Om du vill använda elektroniska banktjänster för att importera kontoutdrag oc
 | Konfigurera en extern tjänst som låter dig importera kontoutdrag som bankfeeds för betalningskoppling och bankkontoavstämning. |[Skapa tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
 | Konfigurera en extern tjänst som låter dig exportera dina betalningar till banken för bearbetning och importera kontoutdrag som bankfiler för betalningskoppling och bankkontoavstämning. |[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
+[!INCLUDE [local-functionality](includes/local-functionality.md)]
+
 ## <a name="see-also"></a>Se även
+
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

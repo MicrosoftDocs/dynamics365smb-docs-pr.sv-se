@@ -1,6 +1,6 @@
 ---
-title: Med hjälp av tillägget PayPal Payments Standard | Microsoft Docs
-description: Beskriver hur du kan använda tillägget får att låta kunderna betala med PayPal.
+title: Använda tillägget för PayPal Payments Standard
+description: Detta ämne beskriver hur du kan använda standardtillägget får att låta kunderna betala med PayPal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd7a1faf7b80547fe5b26d43495b4713a27d4a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cc7db26df0cfd554b083ac606c14965eecc991eb
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785074"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322883"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Tillägget PayPal Payments Standard
 Kunder kräver kontinuerligt högre kundservice både när det gäller produktkvalitet och även leveransdatum och betalningsalternativ. Tjänsten för PayPal Payments Standard hjälper dig att öka din kundservice.

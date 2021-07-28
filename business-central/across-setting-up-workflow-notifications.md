@@ -1,19 +1,19 @@
 ---
-title: Aviseringar för arbetsflöde
-description: Många arbetsflödessvar handlar om att meddela en användare om att en händelse har skett som de måste agera på. Till exempel i en arbetsflödessteg kan händelsen vara att användare 1 begär godkännande av en ny post och åtgärden är att ett meddelande skickas till användare 2, godkännaren. I nästa arbetsflödessteg kan händelsen vara att användare 2 godkänner posten och åtgärden är att ett meddelande skickas till användare 3, som ska starta en relaterad bearbetning av den godkända posten. För arbetsflödessteg som gäller godkännande kopplas varje meddelande till en godkännandepost.
+title: Konfigurera meddelanden för arbetsflödet
+description: I det här avsnittet beskrivs hur du konfigurerar arbetsflödesmeddelanden för att varna en användare om att en händelse har inträffat som de måste reagera på ett arbetsflödessvar krävs.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d72c3ba220c98d0c77806466f467ab233b3db65c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787052"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320620"
 ---
 # <a name="workflow-notifications"></a>Aviseringar för arbetsflöde
 

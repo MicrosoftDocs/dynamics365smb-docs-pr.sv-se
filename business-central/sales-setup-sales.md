@@ -1,6 +1,6 @@
 ---
-title: Översikt över proceduren för att konfigurera försäljningsprocesser | Microsoft Docs
-description: Innehåller information om hur du definierar regler och värden för att definiera dina försäljningspolicyer och -processer.
+title: Översikt över uppgifter för konfigurering av försäljningprocesser
+description: Översikt över uppgifter som krävs för att ställa in regler och värden som definierar dina försäljningsprinciper och processer, inklusive allmänna inställningar och ekonomirelaterade försäljningsinställningar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f344fb03f1447681676d5e1e13294bc7cefccb96
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775406"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318590"
 ---
 # <a name="setting-up-sales"></a>Konfigurera försäljning
 Innan du kan hantera försäljningsprocesser måste du konfigurera reglerna och värdena som definierar företagets försäljningspolicies.

@@ -1,6 +1,6 @@
 ---
-title: Fakturera förskottsbetalningar | Microsoft Docs
-description: Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan till exempel kräva en deposition innan du tillverkar artiklar mot order eller också kan du kräva betalning innan du levererar artiklar till en kund. Med hjälp av funktionen för förskottsbetalning kan du fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.
+title: Fakturera förskottsbetalningar
+description: Lär dig använda förskottsbetalningar till för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 511b506d75ad735d5b3b713cd24c802c7cb6d274
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770347"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322535"
 ---
 # <a name="invoicing-prepayments"></a>Fakturera förskottsbetalningar
 

@@ -1,6 +1,6 @@
 ---
-title: Så kan du se videor med Business Central | Microsoft Docs
-description: Du får tillgång till komma igång-videor som visar hur du utför vanliga uppgifter.
+title: Besök vårt videobibliotek
+description: Gå till vårt videobibliotek för att få hjälp med att komma igång-videor som illustrerar vanliga "hur"-aktiviteter för produktvideor.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: f2e9c0da0ebc32862f80e881b4540350fcb2fdfe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cbbd4ec47a3a6b6d8ed1ed3ab3db2982d21966aa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786963"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324692"
 ---
 # <a name="visit-our-video-library"></a>Besök vårt videobibliotek
 

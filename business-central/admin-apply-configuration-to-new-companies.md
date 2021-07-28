@@ -1,6 +1,6 @@
 ---
-title: Koppla konfiguration till nya företag | Microsoft Docs
-description: När du har skapat ett konfigurationspaket är nästa steg att distribuera paketet till kunden för implementering. Du använder konfigurationen med ett nytt tomt företag.
+title: Koppla konfigurationen till nya företag
+description: När du har skapat ett konfigurationspaket distribuera paketet till kunden för implementering. Du använder konfigurationen med ett nytt tomt företag.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773367"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324106"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Koppla konfigurationen till nya företag
 När du har skapat ett konfigurationspaket är nästa steg att distribuera paketet till kunden för implementering. Du använder konfigurationspaketet med ett nytt tomt företag.  

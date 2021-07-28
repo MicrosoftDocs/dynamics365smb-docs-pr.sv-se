@@ -1,5 +1,5 @@
 ---
-title: Utföra produktion | Microsoft Docs
+title: Utföra produktion
 description: När behov har planerats och material har tagits utt enligt produktionsstrukturerna kan de faktiska produktionsoperationerna inledas och sedan genomföras i den ordning som definieras av verksamhetsföljden för produktionsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 76c9cd884563cbfc991388050e777d8cdb474c1a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cc8eb04682492b3e3cd7906c12cf73d3974cf79a
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787583"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321197"
 ---
 # <a name="manufacturing"></a>Produktion
 > [!NOTE]

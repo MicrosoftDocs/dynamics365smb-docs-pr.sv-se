@@ -1,5 +1,5 @@
 ---
-title: Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
+title: Ställ in automatiska kontobokföringsmallar [SE]
 description: För att använda automatiska kontokoder måste du skapa en automatisk publiceringsgrupp för kontot i den svenska versionen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e5ddb93ef2b602011085eee13835471e61ea00f7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a5a7ac62086185dc50e9d5912d9b7ba667e86647
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776571"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323445"
 ---
 # <a name="set-up-automatic-account-posting-groups-in-the-swedish-version"></a>Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
 

@@ -1,6 +1,6 @@
 ---
-title: Ställa in bästa praxis – leveransplanering | Microsoft Docs
-description: Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att undvika att varor tar slut i lager, och att reducera order- och lagerkostnader, när den har konfigurerats korrekt.
+title: Skapa metodtips - leveransplanering
+description: Leveransplaneringen hjälper dig att undvika att varor tar slut i lager, och att reducera order- och lagerkostnader, när den har konfigurerats korrekt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c583598038a1c79c0bba32aec24363a56b2830e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778053"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320037"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Skapa metodtips: leveransplanering
 Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att undvika att varor tar slut i lager, och att reducera order- och lagerkostnader, när den har konfigurerats korrekt.  

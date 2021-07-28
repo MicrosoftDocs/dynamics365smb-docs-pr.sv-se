@@ -1,6 +1,6 @@
 ---
-title: Lägga upp bästa praxis – Planeringsparametrar | Microsoft Docs
-description: Snabbfliken Planering på artikelkortet är mitten av ett företags försörjningskedja. Det är mycket viktigt att ställa in rätt planeringsparametrar för kostnadseffektiv lagerkontroll och hög kundservicenivå.
+title: Skapa metodtips - planeringsparametrar
+description: I det här avsnittet beskrivs regelverk för hur du skapar valda planeringsparameter fält med snabbfliken Planering på artikelkortet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: cba27162e4bbc702eb6451e73b809a59c2d3ec1d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784373"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320062"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Skapa metodtips: planeringsparametrar
 Snabbfliken **Planering** på artikelkortet är mitten av ett företags försörjningskedja. Det är mycket viktigt att ställa in rätt planeringsparametrar för kostnadseffektiv lagerkontroll och hög kundservicenivå.  

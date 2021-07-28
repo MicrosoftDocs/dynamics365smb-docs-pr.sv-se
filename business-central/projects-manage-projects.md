@@ -1,19 +1,19 @@
 ---
-title: Projektaktiviteter som använder resurser och tidrapporter | Microsoft Docs
-description: Beskriver hur du använder resurser och tidrapporter och projekt för att hantera projekt.
+title: Projektaktiviteter som använder resurser och tidrapporter
+description: I det här avsnittet beskrivs hur du ställer in resurser, tidrapporter och jobb för att hantera projekt och deras budgetar.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780338"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321095"
 ---
 # <a name="project-management"></a>Projekthantering
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utföra vanliga projekthanteringsuppgifter som t. ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.

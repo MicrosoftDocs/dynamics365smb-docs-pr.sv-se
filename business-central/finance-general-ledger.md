@@ -1,6 +1,6 @@
 ---
-title: Mer information om redovisning och kontoplanen | Microsoft Docs
-description: Beskriver redovisningen, kontoplanen och kontokategorierna.
+title: Så här fungerar i redovisningen och kontoplanen
+description: Beskriver redovisningen, kontoplanen och kontokategorierna. På sidan Redovisningsinställningar anger du hur du vill hantera vissa bokföringsfrågor i företaget som t. ex.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f242bce26f55fe446ac8dc96335a8da835dd259c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774011"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321120"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Så här fungerar i redovisningen och kontoplanen
 
@@ -58,19 +58,29 @@ Du skapar en kategorigrupp, genom att dra in andra delkategorier under en rad p�
 
 För varje delkategori kan du ange om konton för den kategorin måste tas med i vissa typer av ekonomiska rapporter. Du kan använda kontokategorier för att ändra layout på din redovisning.  
 
-Till exempel har det standardinställda saldo vid kontoavstämning en enkelt transaktion för kontanter under tillgångar. Om du vill att saldot överväger handkassa och check, kan du:  
+### <a name="example"></a>Exempel
 
-1. Lägga till två nya underkategorierna. En för handkassa och ett för ditt checkkonto.  
+Till exempel har det standardinställda saldo vid kontoavstämning en enkelt transaktion för *kontanter* under *tillgångar*. Om du vill att saldot överväger handkassa och check, kan du göra följa steg:  
+
+1. Lägga till två nya underkategorierna:
+
+    * Ett för handkassa  
+    * En för ditt checkkonto  
 2. Ange ytterligare rapportdefinitionen **kassakonton** för dessa underkategorier.  
 3. Dra in dem under underkategorin **kontant**.  
 
 Nästa gång du har genererat kontouppställningar kommer saldot visa ett totalt saldo för kontanter och två rader med saldon för handkassa och checkräkningskontot.  
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Åtkomst för att skapa och redigera konton och kontokategorier
+
+I en liten organisation, t.ex. CRONUS demonstrationsföretaget, kan de flesta användare redigera kontoplanen, utom användare med en licens från en gruppmedlem. I större organisationer begränsas till gång till redigering av kontoplanen av roller och behörigheter. Om du är administratör eller har rollen *företagschef* eller *revisor* kan du kontrollera att alla användare har till gång till de aktuella tabellerna med behörighet. Mer information finns i avsnittet [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md)  
 [Affärsstöd](bi.md)  
+[Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

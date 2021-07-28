@@ -1,6 +1,6 @@
 ---
-title: Hantera segment och välj kontakter att inkludera | Microsoft Docs
-description: Definierar uppgifter för att skapa ett segment om du vill välja en grupp med kontakter enligt ett visst kriterium, till exempel kontakter i en viss bransch som du vill använda.
+title: Hantera segment och välj kontakter
+description: I det här avsnittet beskrivs hur du skapar ett segment genom att välja en grupp kontakter enligt specifika kriterier för att senare rikta in sig på segmentet med en kampanj.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 04034f51379874f9d8755b229ef4b251af0be37e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784423"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323599"
 ---
 # <a name="managing-segments"></a>Hantera segment
 Du kan skapa segment om du vill välja ut en grupp med kontakter enligt ett visst kriterium. Ett segment kan t. ex. vara en bransch som kontakterna tillhör eller dina affärsrelationer med kontakterna. Du kan också skapa ett segment om du vill vilja ut vilka kontakter som är målgruppen för en kampanj.

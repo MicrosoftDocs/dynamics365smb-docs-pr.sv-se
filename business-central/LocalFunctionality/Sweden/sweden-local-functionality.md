@@ -1,6 +1,6 @@
 ---
-title: Lokal funktionalitet för Sverige
-description: I följande avsnitt beskrivs den lokala funktionaliteten i den svenska versionen av Business Central.
+title: Lokal funktionalitet för Sverige [SE]
+description: I följande avsnitt beskrivs den olika lokala funktionaliteten i den svenska versionen av Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 4917beb1a7986f94da6d45b0990208a9f192851a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 64f1cbaafe51376f0e65aa33d3a3dbc0b6688a54
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787310"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321740"
 ---
-# <a name="sweden-local-functionality"></a>Lokal funktionalitet för Sverige
+# <a name="sweden-local-functionality-in-the-swedish-version"></a>Sverige lokala funktioner i den svenska versionen
 
 I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 

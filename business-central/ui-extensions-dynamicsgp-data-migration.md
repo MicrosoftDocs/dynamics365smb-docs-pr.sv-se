@@ -1,6 +1,6 @@
 ---
-title: Migrera data från Dynamics GP före 15.3 | Microsoft Docs
-description: Innan uppdateringen 15.3 kan du använda tillägget Dynamics GP-datamigrering för att flytta över kunder, leverantörer, lagerartiklar, redovisningskonton, öppna leverantörs- och kundreskontratransaktioner från Dynamics GP till Business Central.
+title: Migrera data från Dynamics GP före 15.3
+description: Innan uppdateringen 15.3 kan du använda filnamnstillägget Dynamics GP-datamigrering för att flytta över kunder, leverantörer, etc Dynamics GP till Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
 ROBOTS: NOINDEX
-ms.openlocfilehash: a9ed5fb4e02ee3f78d7d7d53d7bb4b81339e2aad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 06235c35947bf502a19711409560f863d79beb35
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784248"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323083"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Tillägget Dynamics GP datamigrering
 

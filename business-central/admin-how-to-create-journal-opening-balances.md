@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du ingående saldon för journalen | Microsoft Docs
-description: Business Central innehåller flera batch-jobb som tillhandahålls som hjälp vid överföringen av bakåtkompatibla kontosaldon till ett nykonfigurerat företag. Du kan enkelt överföra data med bokföring i journaler.
+title: Så här skapar du ingående saldon för journalen
+description: Batch-jobb som tillhandahålls som hjälp vid överföringen av bakåtkompatibla kontosaldon till ett nytt konfigurerat företag. Du kan enkelt överföra data med bokföring i journaler.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5e1bb8e34e70d1d906850c157107b9b9701c6c50
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779863"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319544"
 ---
 # <a name="create-journal-opening-balances"></a>Skapa ingående saldon för journalen
 

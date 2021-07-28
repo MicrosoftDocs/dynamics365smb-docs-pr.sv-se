@@ -1,6 +1,6 @@
 ---
-title: Affärsstöd | Microsoft Docs
-description: Fånga och analysera affärsdata, som t. ex. försäljningssiffror, inköp, driftskostnader, löner och budgetar, kan bli värdefull information, eller business intelligence, för beslutsfattare.
+title: Affärsstöd
+description: Business Central innehåller ett antal funktioner som hjälper dig att samla in, analysera och dela värdefulla företagsdata för Business Intelligence och beslutsfattande.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 6a3d3e9aec61b3dab7673c7b99b482f80501a919
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786568"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323749"
 ---
 # <a name="business-intelligence"></a>Affärsstöd
 Företag skapar och hanterar oerhörda mängder data under sin dagliga verksamhet. Dessa data, som återspeglar till exempel organisationens försäljningssiffror, inköp, driftskostnader, löner och budgetar, kan bli värdefull information, eller business intelligence, för beslutsfattare. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett antal funktioner som hjälper dig att samla, analysera och dela med dig av dina företagsdata.

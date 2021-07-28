@@ -1,6 +1,6 @@
 ---
 title: Tillägget Molnmigrering
-description: Använd tilläggen för molnmigrering för att migrera lokala data till Business Central online. Dessa tillägg flyttar dina lokala data till molnet så att du kan använda Business Central online med befintliga data.
+description: Använd tilläggen för molnmigrering för att migrera lokala data till Business Central online. Dessa tillägg flyttar dina lokala data till molnet.
 author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: f76241497eea8a53dfc054c895bf4a788e2226a4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889130"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322303"
 ---
 # <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Tillägg för molnflyttning för migrering till Business Central Online
 

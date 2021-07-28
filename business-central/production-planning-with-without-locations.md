@@ -1,6 +1,6 @@
 ---
-title: Planera med och utan lagerställen | Microsoft Docs
-description: Det är viktigt att förstå att planera med eller utan lagerställekoder på behovsrader.
+title: Planera med och utan lagerställen.
+description: I det här avsnittet lär du dig om produktion och tillverkning, inklusive leveransplanering, i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b182a66984ea0345e7f33e1292839d1ecfad4bfd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4f67eab27c95e4786b8f1d5949d678105ea21999
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787558"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319155"
 ---
 # <a name="planning-with-or-without-locations"></a>Planera med och utan lagerställen.
 Vid planering med eller utan lagerställekod på behovsrader, fungerar planeringssystemet på ett okomplicerat sätt när:  

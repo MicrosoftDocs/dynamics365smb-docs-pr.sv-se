@@ -1,18 +1,18 @@
 ---
-title: Om kostnader för färdiga produktionsorder | Microsoft Docs
-description: Att färdigställa produktionsordern är en viktig uppgift när det gäller att slutföra livscykeln för kostnadsberäkning för artikeln som tillverkas. Slutkostnader (inklusive avvikelser i standardkostnad, faktiska värden i en FIFO, genomsnittskostnader eller LIFO-kostnader) beräknas med hjälp av batch-jobbet Justera kostnad – Artikeltrans.
+title: Om kostnader för färdiga produktionsorder
+description: Att slutföra produktionsordern är nyckeln till att slutföra kostnadslivscykeln för en produktionsartikel. Slutliga kostnader beräknas i batch-jobbet Justera kostnadsartikeltransaktioner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b250a495504272b93565752043c23e1988ca1dab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9168ea7644390446f4e7a2cd8950d483d43e1013
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781067"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324055"
 ---
 # <a name="about-finished-production-order-costs"></a>Om kostnader för färdiga produktionsorder
 Att färdigställa produktionsordern är en viktig uppgift när det gäller att slutföra livscykeln för kostnadsberäkning för artikeln som tillverkas. Slutkostnader, inklusive avvikelser i standardkostnad, faktiska värden i en FIFO, genomsnittlig eller LIFO-kostnad, beräknas med hjälp av batch-jobbet **Justera kostnad – artikeltransaktioner** som används för avstämning av kostnaderna för produktionsartiklar. Om kostnadsjustering ska genomföras för en produktionsorder måste statusen vara **Färdig**. Det är därför viktigt att vid slutförande ändra statusen för en produktionsorder till **Färdig**.  

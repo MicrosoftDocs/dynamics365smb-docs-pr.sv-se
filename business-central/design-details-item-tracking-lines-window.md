@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer - Sida för artikelspårningsrader | Microsoft Docs
-description: Mer information om hur du hanterar flödet av serie- och partinummer i lagret.
+title: Designdetaljer - Sida för artikelspårningsrader
+description: Mer information om hur du hanterar flödet av serie- och partinummer i lagret med sidan artikelspårningsrader.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 24454de31ff2424481c574f79098472719c84c82
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 50888b8d00696645841f37aa24b5cb3bc031fed2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214940"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320320"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Designdetaljer - Sida för artikelspårningsrader
 Artikelspårningposter och reservationposter skapas i reservationssystemet, och deras disposition beräknas dynamiskt. Data som har angetts på sidan **Artikelspårningsrader** hanteras i en tillfällig version av tabellen **Spårningsspecifikation**. När sidan har stängts sparas aktiva data i tabellen **Reservationstransaktion** och historiska data sparas i tabellen **Spårningsspecifikation**. Mer information finns i [Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner](design-details-active-versus-historic-item-tracking-entries.md)  

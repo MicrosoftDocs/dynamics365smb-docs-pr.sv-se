@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: Vanliga frågor om listvyer
-  description: Detaljerad information om hur du sparar filter som listvyer.
+  description: I den här artikeln får du svar på frågor om listvyer och innehåller detaljerad information om hur du sparar och arbetar med filter som listvyer.
   author: mikebcMSFT
   ms.service: dynamics365-business-central
   ms.topic: conceptual
@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 04/01/2021
+  ms.date: 06/24/2021
   ms.author: mikebc
-  ms.openlocfilehash: 4406c6a87826dcbc4626bc48db86d1f9d3635ccf
-  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.openlocfilehash: 8c046697ce13b6079c54fa6d569cb4a40e1a4cc0
+  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
   ms.translationtype: HT
   ms.contentlocale: sv-SE
-  ms.lasthandoff: 05/11/2021
-  ms.locfileid: "6017318"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "6322228"
 title: Vanliga frågor om listvyer
 summary: I den här artikeln besvaras frågor som våra erfarna användare ofta ställer om att arbeta med listvyer och spara filter.
 sections:
