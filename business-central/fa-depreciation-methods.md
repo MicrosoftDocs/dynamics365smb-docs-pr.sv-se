@@ -1,6 +1,6 @@
 ---
 title: Avskrivningsmetoder för anläggningstillgångar
-description: Lär dig mer om de olika inbyggda metoderna för att skriva av eller skriva ned anläggningstillgångar i standardversionen av Business Central.
+description: Lär dig mer om de olika inbyggda metoderna för att skriva av eller skriva ned anläggningstillgångar i standardversionen av Business Central som inkluderar åtta metoder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774161"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343380"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder för anläggningstillgångar
 
@@ -29,7 +29,7 @@ Det finns åtta avskrivningsmetoder tillgängliga i standardversionen av [!INCLU
 * Användardefinierad  
 
   > [!NOTE]  
-  > Ange din egen avskrivningsmetod genom att definiera avskrivningstabeller.
+  > Ange din egen avskrivningsmetod genom att definiera avskrivningstabeller. Information om hur du tillämpar en användardefinierad avskrivningsmetod finns i [Konfigurera användardefinierad avskrivningsmetod](fa-how-setup-user-defined-depreciation-method.md).
 * Manuell  
 
   > [!NOTE]  
@@ -220,74 +220,6 @@ Beräkningsmetod:
     *Linjärt värde = 23 730,46/3 = 7 910,15 = 3 995,07 + 3 995,08*  
 
     Det linjära beloppet används eftersom det är det större beloppet.  
-
-## <a name="user-defined-depreciation"></a>Användardefinierad avskrivning
-
-I det här programmet finns en funktion som gör att du kan skapa användardefinierade avskrivningsmetoder.  
-
-Med en användardefinierad metod använder du sidan **Avskrivningstabeller** där du måste ange en avskrivningsprocent för varje period (månad, kvartal, år eller bokföringsperiod). När du sedan tilldelar en avskrivningsregel med en användardefinierad metod till en anläggningstillgång måste du ange fälten **Första användardefinierade avskrivningsdatum** och **Startdatum för avskrivning** på sidan **Avskrivningsregler för anläggningstillgångar** för den specifika anläggningstillgången.  
-
-Beräkningsformeln för avskrivningsbelopp är:  
-
-*Avskrivningsbelopp = (Avskrivning % × Antal avskr.dagar × Avskrivningsbas) / (100 × 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Avskrivning baserad på antal enheter
-
-Den här användardefinierade metoden kan även användas för avskrivning baserad på enheter, till exempel när det gäller produktionsmaskiner med en fastställd livslängdskapacitet. På sidan **Avskrivningstabeller** kan du ange det antal enheter som kan produceras under varje period (månad, kvartal, år eller bokföringsperiod).  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Så här skapar du användardefinierade avskrivningsmetoder
-
-På sidan **Avskrivning tabellkort** kan du skapa användardefinierad avskrivningsmetod. Du kan till exempel lägga upp avskrivning baserad på antalet enheter.  
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Avskrivningstabeller** och välj sedan tillhörande länk.  
-2. På sidan **Avskrivning tabellista** väljer du åtgärden **Ny**.  
-3. På sidan **Avskrivning tabellkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Använd funktionen **Skapa siffersummeringstabell** för att definiera en avskrivningstabell baserad på metoden *Siffersumma*.
-
-Om en anläggningstillgång skrivs av över 4 år kommer, med metoden *Siffersumma*, avskrivningen per år att beräknas på följande sätt:
-
-Siffersumma = 1 + 2 + 3 + 4 = 10 Avskrivning:
-
-* År 1 = 4/10  
-* År 2 = 3/10  
-* År 3 = 2/10  
-* År 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Exempel – Användardefinierad avskrivning
-
-Du kan använda en avskrivningsmetod som gör det möjligt att av skatteskäl skriva av tillgångar snabbare.  
-
-Du ska av skatteskäl använda följande avskrivningsgrad för en anläggningstillgång med en livslängd på tre år:  
-
-* År 1: 25 %  
-* År 2: 38 %  
-* År 3: 37 %  
-
-Anskaffningskostnaden är 100 000 BVA och livslängden är fem år. Avskrivningen beräknas en gång om året.  
-
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
-| --- | --- | --- | --- | --- |
-| 20-01-01 |Anskaffningskostnad |(startdatum för avskrivning) |100,000.00 |100,000.00 |
-| 20-12-31 |Avskrivning |360 |-25 000,00 |75,000.00 |
-| 21-12-31 |Avskrivning |360 |-38 000,00 |37,000.00 |
-| 22-12-31 |Avskrivning |360 |-37 000,00 |0 |
-| 23-12-31 |Avskrivning |Ingen |Ingen |0 |
-| 24-12-31 |Avskrivning |Ingen |Ingen |0 |
-
-Om du använder en användardefinierad metod, måste fälten **Fösta användardefinierade avskrivningsdatum** och **Startdatum för avskrivning** fyllas i på sidan **Avskrivningsregler för anläggningstillgångar** för den specifika anläggningstillgången. Fältet **Startdatum använd.def. avskrv.** och innehåller i fältet **Period** på sidan **Avskrivningstabeller** används för att bestämma vilket tidsintervall som ska användas för beräkning av avskrivning. Detta garanterar att programmet ska påbörjas genom att använda den angivna procentsatsen på samma dag för alla tillgångar. Fältet **Avskrivning startdatum** används för att beräkna antalet avskrivningsdagar.  
-
-I föregående exempel skulle både fältet **Första användardefinierade avskrivningsdatum** och fältet **Startdatum för avskrivning** ställas in på 20/01/01 på sidan **Avskrivningsregler för anläggningstillgångar** för den specifika anläggningstillgången. Om däremot **Startdatum använd.def. avskrv.** innehåller 20-01-01 och **Avskrivning startdatum** innehåller 20-01-04 blir resultatet:  
-
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
-| --- | --- | --- | --- | --- |
-| 20-01-01 |Anskaffningskostnad |(startdatum för avskrivning) |100,000.00 |100,000.00 |
-| 20-12-31 |Avskrivning |270 |-18 750,00 |81,250.00 |
-| 21-12-31 |Avskrivning |360 |-38 000,00 |42,250.00 |
-| 22-12-31 |Avskrivning |360 |-37 000,00 |6,250.00 |
-| 23-12-31 |Avskrivning |90 |-6 250,00 |0 |
-| 24-12-31 |Avskrivning |Ingen |Ingen |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Avskrivning med halvårspraxis
 

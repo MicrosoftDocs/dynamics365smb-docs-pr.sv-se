@@ -1,6 +1,6 @@
 ---
-title: Så här använder du fördelningsnycklar i redovisningsjournaler | Microsoft Docs
-description: Lär dig hur du kan använda fördelningsnycklar i journaler.
+title: Så här använder du fördelningsnycklar i redovisningsjournaler
+description: Du kan fördela en transaktion i en redovisningsjournal på flera olika konton när du bokför journalen.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2760b53bfa1e277d4c4763810d580f5b66a223dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98316cbaf22546a9a2d01329fa1e242e219a1460
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772260"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435223"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Så här använder du fördelningsnycklar i redovisningsjournaler
 Du kan fördela en transaktion i en redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras efter kvantitet, procentuellt eller med ett belopp.
 
 ## <a name="to-set-up-allocation-keys"></a>Så här skapar du fördelningsnycklar
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Återkommande redovisningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
 2. Välj fältet **Journalnamn** för att öppna sidan **redovisningsjournaler**.
 3. Du kan antingen ändra fördelningar på en befintlig journal i listan eller skapa en ny journal med fördelningar.
    * För att skapa en y journal väljer du åtgärden **Ny** och går vidare till nästa steg för att skapa en ny journal.
@@ -38,7 +38,7 @@ Du kan fördela en transaktion i en redovisningsjournal på flera olika konton n
 11. Bokför journalen.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>För att ändra en fördelningsnyckel som redan har ställts in
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Återkommande redovisningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
 2. Välj journalen med fördelningen på sidan **Återkommande redov.journal**.
 3. Välj raden med fördelningen och välj sedan åtgärden **fördelningar**.
 4. Fyll i de relevanta fälten och välj sedan knappen **OK**.

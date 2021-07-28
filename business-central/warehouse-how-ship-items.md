@@ -1,6 +1,6 @@
 ---
-title: Så här utlevereras artiklar | Microsoft Docs
-description: Beroende på konfigurationen av lagret, kan du antingen registrera utleverans på relaterade utgående affärsdokumentet, till exempel försäljningsorder, direkt eller använda distributionslagerutleveransdokument som följer ett arbetsflöde och integreras i olika lageraktiviteter.
+title: Så här utlevererar du artiklar
+description: I det här avsnittet beskrivs hur du levererar artiklar från distributionslagret, beroende på distributionslager konfigurationen för utleveransbearbetning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 22404e97c578f6bcaaa5f74ec40408beca7fe3c8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782765"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435940"
 ---
 # <a name="ship-items"></a>Leverera artiklar
 
@@ -30,7 +30,7 @@ När du utlevererar artiklar från ett distributionslagret som har ställt in ut
 
 Nedan beskrivs hur du levererar artiklar från en försäljningsorder. Stegen är liknande för inköpsreturorder, serviceorder och utgående överföringsorder.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Öppna en befintlig försäljningsorder eller skapa en ny. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3. Ange hur många enheter som har levererats i fältet **Ant. att utleverera**.
 
@@ -48,7 +48,7 @@ Först kan du skapa ett utleveransdokument från ett källdokument för företag
 
 Medarbetare som är ansvarig för utleveransen skapar en distributionslagerutleverans. I följande procedur beskrivs hur du skapar utleverans manuellt i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)], men organisationen kanske har automatiserat en del av processen, till exempel med hjälp av handburna eller monterade skannrar som stöds av externa leverantörer.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerutleveranser** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 
     Fyll i fälten på snabbfliken **Allmänt**. När du hämtar källdokumentrader, kopieras delar av informationen i huvudet till varje rad.  
@@ -83,12 +83,12 @@ När du har alla rader som ska utlevereras kan du skicka raderna som lagerperson
 
 Vanligtvis skapar en lagerarbetare ansvarig för plockning ett plockningsdokument eller öppnar ett redan skapat plockningsdokument.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerutleveranser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.
 2. Välj dist.lager utleverans som du vill plocka för och välj sedan åtgärden **Skapa plockning**.
 3. Fyll i fälten på sidan och sedan välj **OK** knappen. De angivna dokumenten för distributionslagertransport har skapats.
 
     Du kan också öppna en befintlig dist.lager plockning.
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Plockningar** och välj sedan relaterad länk. Välj Dist.lager plockning som du vill arbeta med.
+4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk. Välj Dist.lager plockning som du vill arbeta med.
 
     Om distributionslagret är konfigurerat att använda lagerställen har plockningsraderna omvandlats till åtgärdsrader för Ta och Placera.
 

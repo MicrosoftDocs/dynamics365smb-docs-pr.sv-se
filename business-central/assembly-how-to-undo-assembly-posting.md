@@ -1,6 +1,6 @@
 ---
-title: Så här ångrar du monteringbokning | Microsoft Docs
-description: Ibland kan du behöva ångra en bokförd monteringsorder, t.ex då ordern har bokförts med ett misstag som måste rättas, eller eftersom det inte bör både ha bokförts i första omgången och måste återställas.
+title: 'Så här: Ångra monteringbokning'
+description: Ibland måste du ångra en bokförd monteringsorder, till exempel för att ordern har bokförts med misstag som måste rättas.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 4526ad4284cd3970e1573a1a8ea914cbd6253c83
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 48c454084e850b5dedf58c499263258c0ae8294c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772885"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435350"
 ---
 # <a name="undo-assembly-posting"></a>Ångra monteringsboking
-Ibland kan du behöva ångra en bokförd monteringsorder, t.ex då ordern har bokförts med ett misstag som måste rättas till, eller eftersom den inte borde både ha bokförts allts och därför måste återställas.
+Ibland kan du behöva ångra en bokförd monteringsorder, t.ex då ordern har bokförts med ett misstag som måste rättas, eller eftersom det inte bör både ha bokförts i första omgången och måste återställas.
 
 När du återställer en bokförd monteringsorder, skapas en uppsättning korrigerande artikeltransaktioner för att återföra de ursprungliga transaktionerna. Varje positivt utflödestransaktion för monteringsartikeln återförs av en negativ utflödestransaktion. Varje negativ förbrukningstransaktion för en monteringskomponent återförs av en positiv förbrukningstransaktion. Fast kostnad-koppling skapas automatiskt mellan korrigerande och ursprungliga transaktionerna som visas för att garantera exakt kostnadsåterställning.  
 
@@ -40,7 +40,7 @@ Dessutom kan befintliga monteringsorder endast återställs, om antalet rader oc
 Nedan beskrivs hur du återställ bokförda monteringsorder där artiklar monteras mot lager. Om du vill ångra bokförda monteringsorder där artiklar monteras till en försäljningsorder, måste du använda **Återställ utleverans** funktionen på en bokförd utleverans som avser bokförda monteringsorder. Mer information finns i [återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md). Ångra av den bokförda monteringsordern sker sedan automatiskt på samma sätt som beskrivs i det här avsnittet.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Om du vill ångra bokföring av en monteringsorder  
-1.  Om du vill ångra en helt eller delvis bokförd monteringsorder, väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **bokförda monteringsorder** och väljer sedan relaterad länk.  
+1.  Om du vill ångra en helt eller delvis bokförd monteringsorder väljer du ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda monteringsorder** och väljer sedan relaterad länk.  
 
     Sidan **Bokförda monteringsorder** öppnas med en eller flera bokförda monteringsorder som bokförts från monteringsorder i fråga. Varje delbokföringstyp skapar en separat bokförda monteringsorder.  
 2.  Öppna den bokförda monteringsordern som du vill ångra och välj sedan åtgärden **Ångra montering**.  

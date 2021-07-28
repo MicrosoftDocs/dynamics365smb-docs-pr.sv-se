@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e6f6769ec8aefebaf1cabd6c2ec764c454780426
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773761"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326894"
 ---
-# <a name="finance"></a>Finans
+# <a name="financial-management"></a>Ekonomihantering
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
 
@@ -44,7 +44,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Tilldela extra kostnader, till exempel frakt- och fysisk hantering som förekommer vid handel med artiklar så att kostnaderna återspeglas i lagervärderingen. |[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md) |
 |Bokföra anställdas privata utgifter för affärsrelaterade aktiviteter och återbetala anställda genom att göra betalningen till dennes bankkonto.|[Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|
 | Känner igen intäkter och kostnader i andra perioder än när transaktionerna bokfördes. |[Periodisera intäkter och kostnader](finance-how-defer-revenue-expenses.md)|
-| Lär dig mer om tillgängliga alternativ för att automatiskt skicka prenumerationsfakturor till dina kunder och registrera återkommande intäkter. |[Återkommande (prenumeration) intäkter](finance-recurring-invoicing.md)|
+| Lär dig mer om tillgängliga alternativ för att automatiskt skicka prenumerationsfakturor till dina kunder och registrera återkommande intäkter. |[Arbeta med återkommande intäkter](finance-recurring-invoicing.md)|
 |Lär dig använda ytterligare valutor och uppdatera valutakurser automatiskt. |[Uppdatera valutakurser](finance-how-update-currencies.md)|
 | Importera löntransaktioner från ditt lönesystem till redovisningen. |[Importera lönetransaktioner](finance-how-import-payroll-transactions.md)|
 |Använda funktioner för att beräkna moms (VAT) för försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till skattemyndigheterna.|[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)|

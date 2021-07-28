@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1430123f433cfc101e0ae94ce0598d9c0cdd58b2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785829"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435628"
 ---
 # <a name="set-up-general-inventory-information"></a>Ställa in allmän lagerinformation
 
@@ -23,7 +23,7 @@ Du ställer in dina allmänna lagerinställningar på sidan **Lagerinställninga
 
 ## <a name="to-set-up-general-inventory-information"></a>Så här ställer du in allmän lagerinformation
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
 2. På sidan **Lagerinställningar** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Detaljerad information om kostnadsfälten, **Automatisk kostnadsbokföring**, **Förväntad kost.bokf. i redov.** och **Standarvärderingsprincip** finns i [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md) och [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md). Mer information om kostnadsredovisning i allmänhet finns i [Hantera lagerkostnad](finance-manage-inventory-costs.md).  

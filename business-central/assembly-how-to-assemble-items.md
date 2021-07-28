@@ -1,6 +1,6 @@
 ---
-title: Så här monteras artiklar | Microsoft Docs
-description: Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering**, när standard metoden för att tillhandahålla artikeln är att sammanställa från definierade komponenter och eventuellt med en viss resurs.
+title: 'Så här: Artiklar monteras'
+description: Om fältet Återanskaffningssystem på artikelkortet innehåller Montering, när standard metoden för att tillhandahålla artikeln är att sammanställa från definierade komponenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d84241bf78b1e6f8ae6cfc053a80e030cb960814
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6fd6e5e90c8307c76868570642a216387d86641d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773010"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435500"
 ---
 # <a name="assemble-items"></a>Montera Artiklar
-Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering** så är standard metoden för att tillhandahålla artikeln att sammanställa den av definierade komponenter, eventuellt med en angiven resurs.  
+Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering**, när standard metoden för att tillhandahålla artikeln är att sammanställa från definierade komponenter och eventuellt med en viss resurs.  
 
 Komponenterna och resurser, som ingår i den här typen av en monteringsartikel, måste definieras i en monteringsstruktur. Mer information finns i [Arbeta med strukturer](inventory-how-work-BOMs.md).  
 
@@ -41,7 +41,7 @@ Dessa inställningsalternativ är standardinställningar som hantera hur försä
 I den här proceduren skapar och behandlar du och en monteringsorder för artiklar som monteras mot lager, som innebär utan ett kopplat försäljningsorder. Steget innehåller initialisera monteringsorder, hantera potentiella komponenttillgänglighetsproblem och delvis att bokföra monteringsartikel utflöde.
 
 ## <a name="to-assemble-an-item"></a>Om du vill att sammanställa en artikel  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **monteringsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **monteringsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**. Sidan **Ny monteringsorder** öppnas.  
 3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  I fältet **Artikelnr** anger du monteringsartikeln du vill beställa. Fältet visar artiklar som har upprättats för montering, vilket innebär att de har monteringsstrukturer tilldelade.  

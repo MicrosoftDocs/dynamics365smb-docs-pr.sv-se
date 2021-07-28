@@ -1,21 +1,21 @@
 ---
-title: Elektroniska dokument i Business Central   | Microsoft Docs
-description: Introduktion till att skicka och ta emot elektroniska dokument i Business Central.
+title: Elektroniska dokument i Business Central
+description: Detta är en översikt över använda ramverket för dataintegrering för att hantera utbytet av data i affärsdokument som bankfiler och valutakurser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: d3eaa3ba03b661675a659fb78a3f6ec9dec08e52
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776253"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325819"
 ---
 # <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
 Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.

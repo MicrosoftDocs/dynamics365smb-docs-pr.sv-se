@@ -1,6 +1,6 @@
 ---
-title: Konfigurera ett företag med RapidStart Services| Microsoft Docs
-description: Du kan skapa ett nytt företag i Business Central med RapidStart Services, som är ett verktyg som har utformats för att förkorta distributionstider, förbättra kvaliteten på implementeringen, införa en upprepningsbar metod vid implementeringar, samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter.
+title: Konfigurera ett företag med RapidStart Services
+description: Du kan skapa ett nytt företag i Business Central med RapidStart Services för att öka produktiviteten genom att automatisera och förenkla återkommande uppgifter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1f471bcebf634eeac92e10a816e65460f03a1de5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777272"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325428"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Konfigurera ett företag med RapidStart Services
 Du kan skapa ett nytt företag i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services som är ett verktyg som har utformats för att förkorta distributiontider, förbättra kvalitet på implementeringen, införa en metod med upprepning vid implementeringar och öka produktiviteten genom att automatisera och underlätta återkommande uppgifter.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f55bad5c26e1f1fbb336090ff862e0e931ff9c39
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 86ff1e678882e4bfb7e95c253f55558c5b57defd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784746"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434840"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Tillägget Försäljning och lagerprognos
 Lagerhantering är en kompromiss mellan kundservice och hantering av din kostnad. Å ena sidan kräver ett lågt lager mindre rörelsekapital, men å andra sidan leder eventuellt slut i lager till missade försäljningar. Tilläggen för Försäljning och Lagerprognos förutsäger potentiella försäljningar med hjälp av historiska data och ger en tydlig översikt av förväntade slut i lager. Baserat på prognosen hjälper tilläggen till att skapa påfyllningförfrågningar till dina leverantörer, vilket sparar tid.  
@@ -56,7 +56,7 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för försäljnings- och lagerprognoser** och välj sedan relaterad länk.  
+6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för försäljnings- och lagerprognoser** och väljer sedan relaterad länk.  
 7. Expandera snabbfliken **Allmänt** och fyll sedan i fälten för API-URL och API-nyckel.  
 
 

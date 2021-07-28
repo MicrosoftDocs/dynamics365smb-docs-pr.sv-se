@@ -1,5 +1,5 @@
 ---
-title: Använda tillägg för betalningar och avstämning (DK) | Microsoft Docs
+title: Tillägg för betalningar och avstämning (DK)
 description: Det här tillägget gör det enkelt att exportera filer som är förformaterade för att uppfylla bankkraven för elektroniska inlagor.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: fdd8fced06d8efd5ab6959267bfc0171c4decdd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785091"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434931"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Tillägg för betalningar och avstämning (DK).
 
@@ -55,7 +55,7 @@ Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokför
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>För att tillåta betalningsdataexport från [!INCLUDE[prod_short](includes/prod_short.md)]
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournal** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournal** och väljer sedan relaterad länk.  
 2. På sidan **Redigera betalningsjournal**, välj journalen **Bank**.  
 3. Markera kryssrutan **Tillåt betalningsexport**.  
 
@@ -69,19 +69,19 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 |Tillåta meddelande till mottagare? | Ja |Nej |Nej | Ja |
 |Innehåller betalningsreferensnummer? | Nr | Ja, 16 siffror. | Ja, 15 siffror. | Nej|
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.  
 2. Öppna kortet, expandera fliken **betalningar** i fältet **betalningssätt** och välj betalningssätt.  
 3. I vissa fall måste du fylla i andra fält. Se tabellen ovan för mer information om kombinationer.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Ange formaten som ska användas för ett bankkonto
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.  
 2. Öppna kortet för bankkontokort.  
 3. I fältet **Format för betalningsexport**, välj format för exportfilen.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Välja FIK eller Giro betalningsinformation för leverantörsfakturor
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
 2. Välj Leverantören. Kom ihåg att detta måste en dansk leverantör med adress i Danmark.
 3. Skapa en faktura. Fälten **betalningssätt** och **leverantörsnummer** fylls i baserat på inställningarna på leverantörskortet. Du kan ändra dem om du vill.
 4. I fältet **betalningsreferens** anger du det 15-siffriga numret på leverantörens faktura.  
@@ -93,7 +93,7 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Du använder tillägget för att exportera betalningsdata
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Föreslå betalningsjournaler för leverantör**.  
 
     > [!Tip]

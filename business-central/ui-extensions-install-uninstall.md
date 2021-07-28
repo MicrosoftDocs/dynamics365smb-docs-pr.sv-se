@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216211"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435042"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installera och avinstallera tillägg i Business Central
 
@@ -32,7 +32,7 @@ Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installer
 
 ## <a name="installing-an-extension"></a>Installerar tillägg
 
-Du hanterar tillägg på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Du kan också välja ikonen **Sök efter sidan eller rapporten** ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") i övre högra hörnet och ange **tillägg** och välj sedan den relaterade länken.  
+Du hanterar tillägg på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Välj ikonen **Sök efter sida eller rapport** ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") i det övre högra hörnet ange **Tillägget** och välj sedan relaterad länk.  
 
 Du kan skapa nya tillägg från marknadsplatsen på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Här kan du se alla tillgängliga tillägg för [!INCLUDE[prod_short](includes/prod_short.md)], och du kan få program, tillägg och innehållspaket för andra Microsoft-produkter. Ange relevanta filter, ta en titt på varje tilläggs uppgifter och få tillägg för ditt [!INCLUDE[prod_short](includes/prod_short.md)].  
 

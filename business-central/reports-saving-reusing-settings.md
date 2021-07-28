@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4437d723834a8189a7155d59812c8e2e1f16b933
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d83597057975757354da06668a7e71e94e5273f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778928"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435769"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Hantera sparade inställningar för rapporter och batch-jobb
 När användaren kör en rapport visas vanligtvis en sida där han eller hon kan välja alternativ och ange filter för att ändra den data som inkluderas i den genererade rapporten. Denna sida kallas sidan för förfrågan. En rapport kan omfatta en eller flera *sparade(e) inställning(ar)* som användarna kan tillämpa på rapporten från sidan för förfrågan. *Sparade inställningar* är i grunden fördefinierade alternativ och filter. Att använda sparade inställningar är ett snabbt och säkert sätt att på ett konsekvent sätt generera rapporter som innehåller korrekta data. Mer information finns i [Använda sparade inställningar](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Om du har rätt behörigheter kan du visa, ändra och skapa sparade inställning
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>För att skapa och ändra inställningarna för alla användare
 Du hanterar sparade inställningar från sidan **Rapportinställningar**. Det finns två sätt att öppna denna sida:
--   Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportinställningar** och välj sedan relaterad länk.
+-   Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Rapportinställningar** och väljer sedan relaterad länk.
 -   Öppna en rapport, välj söktexten bredvid fältet **Använda standardvärden från** och sedan välja åtgärden **Välj från komplett lista**.
 
 Denna sida visar samtliga befintliga poster för sparade inställningar för samtliga användare. Om det finns ett användarnamn i fältet **Tilldelad till** kan endast denna användare använda de sparade inställningarna för associerad rapport. Om det finns en bock i fältet **Dela med samtliga användare** kan samtliga användare använda de sparade inställningarna för rapporten.

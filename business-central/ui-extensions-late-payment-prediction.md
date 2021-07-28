@@ -1,6 +1,6 @@
 ---
-title: Förutsäga sen betalning för försäljningsdokument | Microsoft Docs
-description: Använda vår prediktiva modell för att förutsäga om en faktura kommer att betalas i tid eller inte.
+title: Förutsäga sen betalning för försäljningsdokument
+description: Detta ämne förklarar hur du använder vår prediktiva modell för att förutsäga om en faktura kommer att betalas i tid eller inte.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787358"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434914"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning  
 Det är viktigt för den övergripande ekonomiska situationen i ett företag att effektivt hantera kundfordringar. Tillägget för prediktion om sen betalning hjälper dig att minska utestående kundfordringar och finjustera din insamlingsstrategi genom att förutsäga om försäljningsfakturor kommer att betalas i tid eller inte. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod.
@@ -26,7 +26,7 @@ När du öppnar ett bokfört försäljningsdokument, visas ett meddelande längs
 
 Om du vill aktivera tillägget manuellt följer du dessa steg:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för prediktion om sen betalning** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 
 > [!Note]
@@ -91,7 +91,7 @@ Om det verkar som om dina processer inte matchar standardmodellen kan du ändå 
 [!INCLUDE[prod_short](includes/prod_short.md)] kör utbildning och utvärdering automatiskt när det finns tillräckligt med betalda och sena fakturor, men du kan också köra det manuellt när du vill.
 
 #### <a name="to-train-and-use-your-model"></a>Att träna och använda din modell
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för prediktion om sen betalning** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
 2. I fältet **Vald modell**, välj **Min modell**.
 3. Välj åtgärden **Skapa min modell** för att träna modellen på dina data.  
 
@@ -103,7 +103,7 @@ Du kan också skapa din egen förebyggande webbtjänst som bygger på en allmän
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för prediktion om sen betalning** och välj sedan tillhörande länk.  
+6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
 7. Markera kryssrutan **Använd Min Azure prenumeration**.
 8. På snabbfliken **mina autentiseringsuppgifter för modell**, ange API-URL och API-nyckel för din modell.  .  
 

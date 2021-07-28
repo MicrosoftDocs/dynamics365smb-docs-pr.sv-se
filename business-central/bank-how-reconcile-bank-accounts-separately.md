@@ -1,6 +1,6 @@
 ---
-title: Stämma av bankkonton | Microsoft Docs
-description: Beskriver hur ditt lagervärde stäms av med redovisningen.
+title: Stämma av bankkonton
+description: Detta beskriver hur man gör bankavstämning med sidan **Bankkontoavstämning** hur ditt lagervärde förenas med huvudboken.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786813"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435426"
 ---
 # <a name="reconcile-bank-accounts"></a>Stämma av bankkonton
 
@@ -62,7 +62,7 @@ Om du vill aktivera import av bankutdrag som en bankfeed måste du först skapa 
 > [!TIP]
 > Du kan också importera bankutdragsfiler i komma- eller semikolonavgränsat format (.CSV). Använd **Konfigurera importformat för en kontoutdragsfil** assisterad installation för att definiera importformat för kontoutdrag och bifoga formatet till ett bankkonto. Du kan sedan använda dessa format när du importerar bankutdrag på sidan **Bankkontoavstämning**.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkontoavstämning** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **bankkontoavstämning** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Välj ett bankkonto i fältet **Bankkontonr**. Bankkontotransaktionerna som finns på bankkonto, visas i rutan **Bankkontotransaktioner**.
 4. Ange datumet på kontoutdraget från banken i fältet **Kontoutdragets datum**.

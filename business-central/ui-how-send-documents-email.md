@@ -1,5 +1,5 @@
 ---
-title: Konfigurera dokumentspecifikt e-postinnehåll | Microsoft Docs
+title: Skicka dokument och e-post
 description: Du kan definiera innehåll som ska infogas i brödtexten i ett e-postmeddelande, till exempel en PayPal-länk. Du kan också koppla dokument till e-postmeddelanden.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,15 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063408"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435250"
 ---
 # <a name="send-documents-and-emails"></a>Skicka dokument och e-post
-Du kan enkelt dela information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post direkt från [!INCLUDE[prod_short](includes/prod_short.md)]] utan att behöva öppna en e-postapp. 
+
+Du kan enkelt dela information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post direkt från [!INCLUDE[prod_short](includes/prod_short.md)]] utan att behöva öppna en e-postapp.  
 
 Du kan skicka nästan alla typer av dokument som bifogade PDF-filer. Du kan också skapa en rapportlayout som innehåller information från dokumentet i e-postmeddelandets brödtext, tillsammans med text som gör e-postmeddelandet mer användarvänligt, till exempel en standardhälsning. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -25,12 +26,13 @@ När du skickar fakturor kan du göra det enklare för kunder att göra betalnin
 Om du vill aktivera e-post i [!INCLUDE[prod_short](includes/prod_short.md)] startar du den assisterade inställningsguiden för **Konfigurera e-post**. Mer information finns i [Konfigurera e-post](admin-how-setup-email.md).
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)]] stöder endast utgående e-postkommunikation. Du kan inte heller ta emot svar inom appen.
+> [!INCLUDE[prod_short](includes/prod_short.md)] stöder endast utgående e-postkommunikation. Du kan inte heller ta emot svar inom appen.
 
 ## <a name="to-send-documents-by-email"></a>Så här skickar du dokument som e-post
+
 Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura till ett e-postmeddelande som en PDF-fil, samt med och med dokumentspecifik e-posttext. <!--update this-->
 
-1. Välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.
 2. Markera fakturan och välj sedan åtgärden **Skriv ut/Skicka**.
 3. I fältet **E-post** väljer du **Ja (fråga efter inställningar)**. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
     
@@ -49,21 +51,27 @@ Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura t
 > Om du inte vill ange e-postinställningar varje gång du e-postar ett dokument, kan du välja alternativet **Ja (använd standardinställningar)** i fältet **E-post** på sidan **Skicka dokument till**. I så fall kommer inte sidan **Skicka e-post** att öppnas. Se steg 4. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Skriva och skicka ett e-postmeddelande
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **E-postkonton** och välj sedan tillhörande länk.
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **E-postkonton** och väljer sedan relaterad länk.
 2. Välj det konto som du vill skicka e-postmeddelandet från och välj sedan åtgärden **Skriv e-post**.
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokument markerade som utskrivna ut när de skickas
+
 Vissa dokument i [!INCLUDE[prod_short](includes/prod_short.md)] har ett fält som anger hur många gånger dokumentet har skrivits ut. Numret i fältet <!--"that field?" need a name...--> uppdateras också om du skickar dokumentet med e-post, detta eftersom en PDF-fil genereras för det. Numret uppdateras även om du inte skickar e-postmeddelandet. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Skickade e-postmeddelanden och din utkorg för e-post
+
 [!INCLUDE[prod_short](includes/prod_short.md)] lagrar e-postmeddelanden som du skickar på sidan **Skickade objekt**. Det gör att du kan skicka e-post på nytt eller vidarebefordra dem till någon annan. Om du inte hittar något e-postmeddelande bland dina skickade objekt kan du söka efter det på sidan **Utkorg för e-post**. 
 
 > [!NOTE]
 > Beroende på vilket tillägg företaget använder för e-post kan administratörer se en lista över alla meddelanden som har skickats, men inte innehållet i meddelandena
 
-I **Utkorgen för e-post** finns de e-postmeddelanden som du har sparat som utkast samt e-postmeddelanden som inte skickades, till exempel om e-postadressen var ogiltig. För meddelanden som inte gick att skicka kan du välja **Visa fel** eller **Undersök fel** för att felsöka problemet.
+I **Utkorgen för e-post** finns de e-postmeddelanden som du har sparat som utkast samt e-postmeddelanden som inte skickades, till exempel om e-postadressen var ogiltig. För meddelanden som inte gick att skicka kan du välja **Visa fel** eller **Undersök fel** för att felsöka problemet.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/set-up-email/)
 
 ## <a name="see-also"></a>Se även
+
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Konfigurera e-post](admin-how-setup-email.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  

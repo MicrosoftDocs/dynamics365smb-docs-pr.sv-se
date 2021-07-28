@@ -1,5 +1,5 @@
 ---
-title: Avlsuta resultatkonton | Microsoft Docs
+title: Avsluta resultatkonton
 description: Vid årsslut måste du köra batch-jobbet Avslut av resultatkonton för att avsluta bokföringsperioder som utgör räkenskapsåret.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 843d5b766d9b840e27f4423854caaae66efb0805
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775021"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435753"
 ---
-# <a name="close-income-statement-accounts"></a>Avsluta resultatkonton
+# <a name="closing-income-statement-accounts"></a>Avsluta resultatkonton
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar. Använd batch-jobbet **Avslut av resultatkonton** för detta ändamål. Detta jobb överför årets resultat till ett konto i balansräkningen och avslutar resultatkonton. Du gör detta genom att skapa rader i en journal, som du sedan kan bokföra.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>För att använda batch-jobbet Avslut av resultatkonton
 1. Avsluta räkenskapsår. Räkenskapsåret måste vara avslutat innan batch-jobbet kan köras. Mer information finns i [Så här avslutar du bokföringsperioder](year-close-account-periods.md).
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Stäng resultaträkning** och välj sedan tillhörande länk.
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Avsluta resultaträkning** och väljer sedan relaterad länk.
 3. Klicka på **OK** för att köra batchjobbet.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Om batch-jobbet Avslut av resultatkonton

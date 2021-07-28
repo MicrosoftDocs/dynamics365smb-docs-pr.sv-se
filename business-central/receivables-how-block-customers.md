@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1caf2fb0586cf704e5fc1354b3b4a0be096dc709
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a5ac7b1cd9d58c91584c2777442094bace0673fd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781744"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436029"
 ---
 # <a name="block-customers"></a>Spärra kunder
 Du kan spärra en kund, till exempel på grund av ett insolvensförfarande, så att kunden inte kan läggas till försäljningsdokument, eller så att inga transaktioner kan bokföras för kunden.
@@ -32,7 +32,7 @@ Följande tabell anger alternativen för att spärra kunder.
 |**Alla**|Ingen transaktion tillåts för den här kunden, inklusive betalningar.|  
 
 ## <a name="to-block-a-customer"></a>Om du vill spärra en kund  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj en kund och välj sedan åtgärden **Redigera**.
 3. I fältet **Spärrad** anger du vad som ska blockeras i enlighet med beskrivningen i tabellen ovan.
 

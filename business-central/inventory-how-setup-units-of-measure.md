@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7f30b26c05be77fd8c601635c58399198e2f595
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785754"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435553"
 ---
 # <a name="set-up-units-of-measure"></a>Ställa in måttenheter
 
@@ -30,7 +30,7 @@ Om en artikel lagerförs med en enhet men tillverkas med en annan, kan du skapa 
 
 ## <a name="to-set-up-units-of-measure"></a>Ställa in måttenheter
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Måttenheter** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **måttenhet** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. En ny tom rad infogas.  
 3. Fyll i fälten. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Om du vet att organisationen kommer att sälja artiklar med den här enheten till kunder i andra länder kan du lägga till översättningar.  
@@ -43,7 +43,7 @@ När du registrerar en ny artikel kan du välja basenheten från listan över en
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>För att ställa in flera måttenheter
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för artikeln som du vill ange alternativa enheter för.
 3. Välj åtgärden **Enheter**. Sidan **Artikelenheter** visas.
 4. Om fältet **Basmåttenhet** är ifyllt på artikelkortet har denna måttenhet redan ställts in.
@@ -63,7 +63,7 @@ Du kan nu använda de alternativa enheterna i inköps-, produktions- och försä
 
 När du säljer varor till utländska kunder, kan det hända att du vill ange enheten på kundens eget språk. Det kan du göra om du har skapat de enhetsöversättningar som behövs.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Måttenheter** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **måttenhet** och väljer sedan relaterad länk.
 2. Välj den kod som du vill skapa översättningar för och välj sedan åtgärden **Översättningar**.
 3. I fältet **Språkkod** klickar du på listpilen om du vill visa en lista över tillgängliga språkkoder. Markera den språkkod som du vill ange en översättning för och klicka sedan på OK så kopieras koden till fältet.
 4. Skriv den aktuella texten i fältet **Beskrivning**.
@@ -73,7 +73,7 @@ När du säljer varor till utländska kunder, kan det hända att du vill ange en
 
 Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du ange särskilda enheter för inköp och försäljning. För att du ska kunna göra det, måste du ha skapat sidan **Artikelenheter**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Bläddra fram till det artikelkort där du vill ange en standardenhetskod för försäljning eller inköp.
 3. För försäljning: På Snabbfliken **Fakturering**, i fältet **Måttenhet för försäljning**, öppna sidan **Måttenheter för artikel**.
 4. För inköp: På snabbfliken **Återanskaffning** i fältet **Måttenhet för inköp** öppnar du sidan **Måttenheter för artikel**.

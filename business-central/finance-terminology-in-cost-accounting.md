@@ -1,6 +1,6 @@
 ---
-title: Terminologi i kostnadsredovisning | Microsoft Docs
-description: I det här avsnittet definieras de viktigaste begreppen som används i kostnadskalkylering.
+title: Terminologi i kostnadsredovisning
+description: I det här avsnittet definieras de nyckeltermer som används i kostnadsredovisningen, t.ex. fördelningsnyckel och fördelningskälla.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: aa84beb26e76ab911aca1ddbd7fc8a9461d1a491
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 02afd4709ef950a621043ed6955c79bf71dac6fd
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783653"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326969"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologi i kostnadsredovisning
 I det här avsnittet definieras de viktigaste begreppen som används i kostnadskalkylering.  

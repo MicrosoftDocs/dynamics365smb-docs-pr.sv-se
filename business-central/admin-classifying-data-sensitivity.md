@@ -7,15 +7,15 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 9c015d60d0f34b35b12e0a39ca8d2b99c6e09848
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773185"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326544"
 ---
-# <a name="classifying-data-sensitivity"></a>Klassificera datakänslighet
+# <a name="classifying-data-sensitivity-fields"></a>Fältet Klassificera datakänslighet
 Om du vill klassificera de fält som innehåller känsliga eller personliga data kan en Microsoft-partner ange egenskapen ```DataClassification``` för fält. Detta kräver åtkomst till databastabeller, antingen via utvecklingsmiljön eller genom att köra ett skript för Windows PowerShell. Mer information finns i [Klassificera data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Som kund kan du lägga till en andra klassificeringsnivå genom att ange känslighetsnivåer för de data som du lagrar i standard- respektive anpassade fält. Klassificering av datakänslighet gör att du vet var i ditt system du förvarar personuppgifter och gör det enklare att svara på förfrågningar från datasubjekt. Om exempelvis en kontakt eller en kund ber dig att exportera deras personuppgifter. Mer information finns i [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md).

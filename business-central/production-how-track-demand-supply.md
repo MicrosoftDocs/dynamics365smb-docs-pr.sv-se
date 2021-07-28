@@ -1,6 +1,6 @@
 ---
-title: Hur du spårar relationer mellan tillgång och efterfrågan | Microsoft Docs
-description: Du kan spåra det orderbehov (spårat antal), den prognos, den försäljningsavropsorder eller den planeringsparameter (ej spårat antal) som gett upphov till den aktuella planeringsraden från alla försörjnings- eller behovsdokument i det så kallade ordernätverker.
+title: Spåra relationer mellan tillgång och efterfrågan
+description: I det här avsnittet beskrivs olika sätt att följa upp samband mellan efter frågan och till gång, t.ex. spårning av länkade objekt och hantering av schemaelement som inte har spårats.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff7653ec28e70c13842f9b66bff91b7d8b48f98
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787633"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435300"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Spåra relationer mellan tillgång och efterfrågan
 Du kan spåra det orderbehov (spårat antal), den prognos, den försäljningsavropsorder eller den planeringsparameter (ej spårat antal) som gett upphov till den aktuella planeringsraden från alla försörjnings- eller behovsdokument i det så kallade ordernätverker.
@@ -27,7 +27,7 @@ Orderspårningen visar hur försäljningsorder, produktionsorder och inköpsorde
 
 Nedan beskrivs hur du spårar länkade artiklar på en fast planerad produktionsorder. Momentet är liknande för alla andra ordertyper och från planeringsförslagsraderna.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fast planerad prod.order** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.
 2. Öppna relevant fast planerad produktionsorder i listan.
 3. På snabbfliken **Rader** väljer du åtgärden **Funktioner** och sedan åtgärden **Orderspårning**.
 

@@ -1,6 +1,6 @@
 ---
-title: Kundhantering | Microsoft Docs
-description: Relationshanteringsfunktionerna i Business Central ger stöd till din försäljning och låter dig komma åt information om kontakter och potentiella kunder så att du effektivt kan betjäna kunder.
+title: Kundhantering
+description: Relationshanteringsfunktionerna ger stöd till din försäljning och låter dig komma åt information om kontakter och potentiella kunder så att du effektivt kan betjäna kunder.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3f3a6e729adcb5057b52aebd996778e74c83e01d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f37fa1be83c422062af1aafa7c19a36ee0455a2e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780613"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325692"
 ---
 # <a name="managing-relationships"></a>Hantera relationer
 Kundhanteringsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att hantera och stödja din försäljning. Med de här funktionerna får du tillgång till fullständig och riktig information så att du kan fokusera på ditt arbete med de viktiga kund-/kontaktsegmenten.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785954"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435678"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Beräkna och justera lager med hjälp av dokument
 
@@ -40,7 +40,7 @@ En inventeringsorder är ett fullständigt dokument som består av en inventerin
 
 Om du vill skapa inventeringsorderrader kan du använda funktionen **beräkna rader** för att återspegla det aktuella lagret som rader på ordern. Alternativt kan du använda funktionen **Kopiera från dokument** för att fylla i raderna med innehållet i en annan öppen eller bokförd inventeringsorder. Nedan beskrivs endast hur du använder funktionen **beräkna rader**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inventeringsorder** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i de fält som krävs på snabbfliken **Allmänt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärden **Beräkna rader**.
@@ -100,7 +100,7 @@ Du kan även välja differensen för **Differens för inventeringsorder** åtgä
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Hitta dubbla inventeringsorderrader
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inventeringsorder** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
 2. Öppna den inventeringsorder som du vill visa dubbla rader för.
 3. Välj åtgärd **visa dubblettrader**.
 
@@ -113,7 +113,7 @@ När du har slutfört en inventeringsorder och ändrar dess status till **avslut
 - Varje inventeringsorderrad har inventerats av minst en inventeringsregistreringsrad.
 - Kryssrutan **På registrerade rader** och **Beräknat förväntat antal** har markerats för alla inventeringsorderrader.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inventeringsorder** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
 2. Markera den inventeringsorder som du vill slutföra och välj sedan åtgärden **Redigera**.
 
     På sidan **inventeringsorder** visar du den kvantitet som finns i fältet **Ant. registrerade (bas)**.
@@ -127,7 +127,7 @@ De involverade artikeltransaktionerna uppdateras tillsammans med alla relaterade
 ### <a name="to-view-posted-physical-inventory-orders"></a>För att visa bokförda inventeringsorder
 När du har bokfört inventeringsordern kommer den att tas bort och du kan visa och utvärdera dokumentet som en bokförd inventeringsorder inklusive dess inventeringsregistreringar och eventuella kommentarer som har skapats.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda inventeringsorder** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda inventeringsorder** och väljer sedan relaterad länk.
 2. På sidan **Bokförda inventeringsorder** markera bokförda ordern som du vill visa och välj sedan åtgärden **visa**.
 3. För att visa en lista över relaterade inventeringsregistreringar väljer du åtgärden **registreringar**.
 
@@ -199,7 +199,7 @@ Du kan skriva ut dessa dokument när som helst, släppa och öppna dem igen och 
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Så här ställer du in numrering för lagerdokument
 I följande procedur beskrivs hur du ställer in numrering för inventeringsdokument.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
 2. På snabbfliken **Numrering** ange följande fält nummerserien för dokument:
    - **Lagerinleveransnr-serie**  
    - **Bokförda lagerinleveransnr-serie**  
@@ -209,7 +209,7 @@ I följande procedur beskrivs hur du ställer in numrering för inventeringsdoku
 ### <a name="to-create-and-post-an-inventory-document"></a>Så här skapar och bokför du ett lagerdokument
 Följande procedur visar hur du skapar, skriver ut och bokför en lagerinleverans. Momenten är liknande för bokförda lagerutleveranser.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinleveranser** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerinleveranser** och väljer sedan relaterad länk.  
 2. I rubriken på sidan **Lagerinleverans** väljer du platsen i fältet **Lagerställekod** och fyll i de återstående fälten efter behov.
 3. På snabbfliken **Rader** i fältet **Artikel** välj inventeringsartikel. Skriv det antal artiklar som ska läggas till i fältet **Kvantitet**. 
 4. Om du vill skriva ut en rapporten **Lagerinleverans** från sidan **Lagerinleverans** väljer du åtgärden **Skriv ut**.

@@ -1,6 +1,6 @@
 ---
-title: Avsluta bokföringsperioder för räkenskapsåret | Microsoft Docs
-description: Beskriver hur du avslutar bokföringsperioder som utgör räkenskapsåret.
+title: Avsluta bokföringsperioder för räkenskapsåret
+description: Den här artikeln beskriver hur du stänger räkenskapsperioderna som utgör räkenskapsåret för slutet av året.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: a26baaf947fdac133e3bfcd50489d680231d9971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786688"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436004"
 ---
 # <a name="close-accounting-periods"></a>Avsluta bokföringsperioder
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.
 
 ## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsperiod** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsperioder** och väljer sedan relaterad länk.
 2. På sidan **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
 
     Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt. Visar ett meddelande för vilket år som ska stängas och konsekvenserna av att stänga året.

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770422"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343555"
 ---
 # <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
@@ -40,6 +40,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Aktivera försäkringsskydd för anläggningstillgångar, ange allmän försäkringsinformation, ett försäkringskort per brev och förbered journaler för att bokföra försäkringkostnader. |[Skapa försäkring för anläggningstillgångar](fa-how-setup-insurance.md) |
 | Aktivera underhåll av anläggningstillgångar, ange allmän underhållsinformation, skapa konton för bokföring av underhåll och definiera typer av underhållsarbete. |[Skapa underhåll för anläggningstillgångar](fa-how-setup-maintenance.md) |
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
+| Så här använder du användardefinierade avskrivningsmetoder. |[Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Se även
 [Anläggningstillgångar](fa-manage.md)  

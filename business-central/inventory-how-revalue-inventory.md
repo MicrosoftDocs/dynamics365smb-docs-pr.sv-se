@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe164e6e71756ee56990610bc6c6cb0557ad2c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785854"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435603"
 ---
 # <a name="revalue-inventory"></a>Omvärdera lager
 Om du vill öka eller minska värdet för en artikel eller en viss artikeltransaktion, använder du omvärderingsjournalen.
 
 ## <a name="to-revalue-inventory"></a>Omvärdera lager
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Omvärderingsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **omvärderingsjournalen** och väljer sedan relaterad länk.
 2. Välj åtgärden **Beräkna lagervärde**.
 3. På sidan **Beräkna lagervärde** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj knappen **OK**.

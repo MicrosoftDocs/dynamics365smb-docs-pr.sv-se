@@ -1,6 +1,6 @@
 ---
 title: Skapa ett lagerställekort och definiera överföringsflöden
-description: Du kan skapa ett lagerställekort för varje plats som du vill lagra lagerartiklar, till exempel lager eller distributionscenter, och ange flöden för överföring av artiklar mellan olika lagerställen.
+description: Om du köper, lagrar eller säljer artiklar på mer än en plats eller ett lager, måste du ställa in varje plats med ett lagerställeskort och definiera överföringsflöden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0319f0c64dd46610aa82705257091bd9478ac14f
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: d22bbea911bed7e1ea3c756e0861111a26b5df0a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184330"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435578"
 ---
 # <a name="set-up-locations"></a>Konfigurera platser
 
@@ -38,7 +38,7 @@ Välj åtgärden **Zoner** eller **Lagerplatser** om du vill visa information om
 
 ### <a name="to-create-a-location-card"></a>Skapa ett nytt lagerställeskort
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Lagerställekort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.
@@ -52,7 +52,7 @@ Sedan kan du definiera överföringsflöden mellan lagerställen, om du har fler
 
 ### <a name="to-create-a-transfer-route"></a>Så här skapar du ett överföringsflöde
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Överföringsflöden** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **överföringsflöden** och väljer sedan relaterad länk.
 2. Alternativt kan du på sidan **Lagerställekort** välja åtgärden **Överföringsflöden**.
 3. Välj åtgärden **Ny**.
 4. På sidan **Lagerställekort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

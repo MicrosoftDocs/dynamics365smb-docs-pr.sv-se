@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: e84f9df3d688ccd6e6355f90e3bf76069b371d83
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115267"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341364"
 ---
 # <a name="welcome-to-prod_long"></a>Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -88,6 +88,15 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 - [Microsoft Dynamics 365 Business Central-översikt](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partner Network \(kräver Microsoft Partner Network-medlemskonto\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Få ett meddelande om ändringar via en RSS-feed
+
+Om du vill prenumerera på en RSS-feed (Really Simple Syndication) av alla uppdateringar som finns i innehållet på docs.microsoft.com i hela affärsfunktionsinnehållet för [!INCLUDE [prod_short](includes/prod_short.md)] använder du följande länk:
+
+[RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
+
+> [!NOTE]
+> RSS-feed returnerar en lista över de 100 artiklarna som senast uppdaterades. Listan sorteras inte efter datum.  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Se även
@@ -109,7 +118,5 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 [Introduktion till docs.microsoft.com (det ursprungliga blogginlägget)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Hantera lager | Microsoft Docs
-description: Beskriver hur du hanterar fysiska varor som du handlar med, till exempel hantering av lager i distributionslagret.
+title: Hantera lager
+description: I det här avsnittet beskrivs hur du hanterar de fysiska produkter som du handlar med genom att skapa ett lagerartikelkort.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780763"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325324"
 ---
-# <a name="inventory"></a>Lagersaldo
+# <a name="how-to-manage-inventory"></a>Så här hanterar du lager
 För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som katalogartiklar, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
 
 Lagerökningar och lagerminskningar registreras även naturligtvis när du bokför inköps- och försäljningsdokument. Mer information finns i [Bokföra inköp](purchasing-how-record-purchases.md), [Sälja produkter](sales-how-sell-products.md) och [Fakturera försäljning](sales-how-invoice-sales.md). Överföringar mellan lagerställen ändrar lagrets kvantiteter över företagets distributionslager.   

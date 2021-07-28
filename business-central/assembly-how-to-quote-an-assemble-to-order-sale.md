@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 817699281ce0f3b7d057bb2e9ce4d85f97d67b48
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cd85a880bada8cc9e3ee2ce924919f06f0c5109c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772960"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435450"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Skapa en försäljning för montering mot kundorder
 Du kan använda monteringshantering för att anpassa en monteringsartikel till ett kundkrav under försäljningsprocessen. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ När du säljer någon annan typ av artikel kan du också skapa en försäljning
 >  Precis som på alla typer av offerter används inte antalet på monteringsoffertar för tillgänglighet, planering eller reservationer.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Så här skapar du en försäljningsoffert för en artikel för montering mot kundorder  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **försäljningsoffert** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsoffert** och väljer sedan relaterad länk.  
 2.  Skapa en försäljningsoffertrad med en rad för en monteringsartikel. Mer information finns i [Gör försäljningsoffert](sales-how-make-offers.md).  
 3.  I fältet **Antal att montera mot kundorder** anger du hela antalet.
 

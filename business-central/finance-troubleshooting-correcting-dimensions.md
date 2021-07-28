@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947495"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373244"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Felsökning och korrigering av dimensioner
 Ekonomiska rapporter och analysvyer bygger ofta på data från dimensioner. Trots de säkerhetsåtgärder som finns tillgängliga inträffar ibland ett misstag som kan medföra felaktigheter. I det här avsnittet beskrivs några typiska fel och hur du korrigerar dimensionstilldelningar för bokförda transaktioner så att ekonomiska rapporter är korrekta.
@@ -109,3 +109,17 @@ Om en korrigering inte slutförs visas en varning på korrigeringskortet. Om det
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Använda Kostnadsredovisning med korrigerade redovisningstransaktioner
 När du har korrigerat dimensioner kommer dina data för kostnadsredovisning inte att vara synkroniserade. Kostnadsredovisning använder dimensioner för att aggregera belopp för kostnadsställen och kostnadsbärare och för att köra kostnadsallokeringar. Om du ändrar dimensioner för redovisningstransaktioner innebär det förmodligen att du kör dina kostnadsredovisningsmodeller igen. Om du bara behöver ta bort några kostnadsregister och köra allokeringar igen, eller om du behöver ta bort allt och köra alla dina modeller igen beror på vilka data som har uppdaterats och hur dina kostnadsredovisningsfunktioner har konfigurerats. Att identifiera var dimensionskorrigeringar kommer att påverka kostnadsredovisningen och var uppdateringar behövs är en manuell process. [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller för närvarande inte ett automatiserat sätt att göra det.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Rätta antal tilldelningar för globala dimensioner
+I tabellen dimensions uppsättnings transaktion tilldelas globala dimensioner **0** i fältet Genvägsdimension nr. fält och genvägsdimensioner tilldelas deras genvägsdimensionsnummer, som kan vara 1 till 8. I vissa rapporter används dessa nummer tilldelningar för att bestämma vilka värden som ska användas i beräkningarna.
+
+När dimensionsvärden importeras med hjälp av konfigurationspaket som har skapats utan att köra valideringsutlösare, eller genom att använda anpassad kod för att anropa metoderna Infoga eller Ändra utan att köra valideringsutlösare för OnInsert eller OnModify, tilldelas ibland genvägsdimensioner ett tal som inte är 0. När detta inträffar kommer beräkningarna att vara felaktiga för dimensioner i återkommande redovisningsjournaler som använder återkommande BD-saldo efter konto eller BD-saldo med återkommande metoder. 
+
+Om ett felaktigt nummer tilldelas, när du försöker lägga upp eller förhandsgranska tidskrifter på sidan **Återkommande redovisningsjournaler**, sidan **Felmeddelanden** visas. På sidan Felmeddelanden kan du välja länken i fältet **Källa** för att köra en rapport som korrigerar tilldelningar av genvägsdimensionsnummer i tabellen Dimensionsuppsättningspost. Du kan också söka efter **Uppdatera globalt dimensionsnummer för dimensionsuppsättningstransaktioner** för köra rapporten.
+
+När du har kört rapporten kan du på sidan **Ändra loggposter** granska de ändringar som gjorts i numret i det globala dimensionsnr. . [!INCLUDE[prod_short](includes/prod_short.md)] alltid registrerar tidigare och nya värden. 
+
+## <a name="see-also"></a>Se även
+[Översikt över dimensionsuppsättningsposter](design-details-dimension-set-entries-overview.md)
+[Arbetar med dimensioner](finance-dimensions.md)
+[Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)

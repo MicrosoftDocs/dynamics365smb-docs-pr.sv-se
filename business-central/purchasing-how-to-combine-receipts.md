@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86617934ecdb0ac2f14f6cf717f8091ba96caf95
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772585"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435115"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Kombinera inleveranser på en enda faktura
 
@@ -30,7 +30,7 @@ När inleveranser kombineras på en faktura och bokförs, skapas en bokförd ink
 
 ## <a name="to-combine-receipts"></a>Så här kombinerar du inleveranser:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).  
 3. På snabbfliken **Rader** klickar du på åtgärden **Hämta inleveransrader**.  
 4. Välj flera inleveransrader som du vill inkludera på fakturan.  
@@ -40,7 +40,7 @@ När inleveranser kombineras på en faktura och bokförs, skapas en bokförd ink
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Så här tar du bort öppna inköpsorder efter kombinerad inleveransbokföring
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort fakturerade inköpsordrar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ta bort fakturerade inköpsorder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Välj knappen **OK**.  
 

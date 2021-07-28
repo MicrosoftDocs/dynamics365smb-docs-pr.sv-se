@@ -1,5 +1,5 @@
 ---
-title: Tillägg för QuickBooks Online-migrering | Microsoft Docs
+title: Tillägget QuickBooks Online datamigrering
 description: Beskriver hur du använder tillägget för att migrera kunder, leverantörer, artiklar och konton från QuickBooks Online till Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6481eeb46116d02240c6f6a0201cb633f572822a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da9317d338c095f20ab18fb157bec0270d4a9c8f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785016"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434898"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Tillägget QuickBooks Online datamigrering
 
@@ -54,7 +54,7 @@ Transaktioner i QuickBooks Online måste ha skattebelopp, du ställer in ett ska
 
 Komma igång enkelt. Allt du behöver göra är att köra den assisterade guiden **datamigrering**. Så här gör du:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Assisterad konfiguration** och sedan **Migrera affärsdata**.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **assisterad konfiguration** och sedan **Migrera affärsdata**.
 2. Följ instruktionerna i varje steg i guiden assisterad konfiguration.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Vad gör jag efter att jag har migrerat data?

@@ -1,5 +1,5 @@
 ---
-title: Tillägg för QuickBooks-migrering | Microsoft Docs
+title: Tillägget QuickBooks datamigrering
 description: Beskriver hur du använder tillägget för att importera kunder, leverantörer, artiklar och konton från QuickBooks Desktop till Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d6b44ccfc11438930450dd86cab53736f00995c5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a7f6a3ac5fdbaf34cf4280be3b8520dde55c7c71
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785041"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434967"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Tillägget QuickBooks datamigrering
 
@@ -57,7 +57,7 @@ För att hämta data från QuickBooks desktop-programmet måste du hämta Micros
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Hitta tillägget QuickBooks datamigrering
 
-Tillägget QuickBooks datamigrering är installerat och klart som en integrerad del av guiden för assisterad konfiguration av datamigrering. If youOm du är redo att börja nu och har exporterat dina data från QuickBooks väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Assisterad konfiguration** och väljer sedan tillhörande länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.  
+Tillägget QuickBooks datamigrering är installerat och klart som en integrerad del av guiden för assisterad konfiguration av datamigrering. Om du är redo att sätta igång och har exporterat data från QuickBooks, väljer du den ![Lightbulb som öppnar funktionen berätta för mig.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Assisterad konfiguration** och väljer sedan relaterad länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Vad gör jag efter att jag har migrerat data?
 

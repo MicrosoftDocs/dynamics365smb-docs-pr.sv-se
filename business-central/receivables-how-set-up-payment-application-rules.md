@@ -1,6 +1,6 @@
 ---
-title: Definiera regler för automatisk koppling av betalningar
-description: På regelsidan för Betalningskoppling anger du regler som styr hur betalningar/banktransaktioner automatiskt ska kopplas till sina relaterade öppna transaktioner när du använder funktionen Koppla automatiskt på sidan Betalningsavstämningsjournal.
+title: Regler för automatisk koppling av betalningar
+description: Läsa om hur du ställer in regler för automatisk koppling av betalningar på sidan betalningskopplingsregler.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 57f9fa038c8631db87d03d9054dcf8a17a874345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778978"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435065"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
 
@@ -40,7 +40,7 @@ Utöver matchningsvillkoret gäller följande för tecknet för betalningsbelopp
 - För positiva belopp görs först en matchning mot öppna transaktioner som representerar leverantörsfakturor, och sedan mot kreditnotor för kunden.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Så här definierar du en regel för betalningskoppling
-1. Välj ![glödlampeikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Regler för betalningskoppling** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningskopplingsregler** och väljer sedan relaterad länk.
 2. Definiera en ny eller redigerad betalningskopplingsregel genom att fylla i fälten på en rad enligt beskrivningen i följande register.
 
 |Fält|Beskrivning|

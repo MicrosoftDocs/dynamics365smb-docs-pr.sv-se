@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961508"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341339"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -27,28 +27,28 @@ I den här artikeln beskrivs hur du kommer gång med att använda Power BI Deskt
 
 - Registrera dig frö Power BI-tjänsten.
 
-    Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) om du inte redan har registrerat dig. När du registrerar dig använder du din e-postadress för arbetet samt ditt lösenord.
+  Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) om du inte redan har registrerat dig. När du registrerar dig använder du din e-postadress för arbetet samt ditt lösenord.
 
 - Hämta [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-   Power BI Desktop är ett kostnadsfritt program som du installerar lokalt på din dator. Mer information finns i [snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop är ett kostnadsfritt program som du installerar lokalt på din dator. Mer information finns i [snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Se till att den data du vill inkludera i rapporten publiceras som en webbtjänst.
-    
-    Många webbtjänster publiceras som standard. Ett enkelt sätt att hitta webbtjänsten är att söka efter *webbtjänster* i [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Webbtjänster** ser du till att fältet **Publicera** har valts. Denna uppgift utförs vanligtvis av en administratör.
-    
-    Mer information om publicering av webbtjänster finns i [Publicera en webbtjänst](across-how-publish-web-service.md).
+- Se till att den data du vill inkludera i rapporten är tillgänglig som en API-sida eller publicerad som en webbtjänst.
+
+  Mer information finns i [Visa data via API-sidor eller OData-webbtjänster](admin-powerbi-setup.md#exposedata).
 
 - För [!INCLUDE[prod_short](includes/prod_short.md)] lokalt hämtar du följande information:
 
-    - OData-URL för [!INCLUDE[prod_short](includes/prod_short.md)]. Denna URL har vanligtvis formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, till exempel `https://localhost:7048/BC160/ODataV4`. Om du har en distribution med flera klientorganisationer bör du inkludera klientorganisationen i URL:en, till exempel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - Att användarnamn och en åtkomstnyckel till en webbtjänst tillhörande ett [!INCLUDE[prod_short](includes/prod_short.md)]-konto.
+  - OData-URL för [!INCLUDE[prod_short](includes/prod_short.md)].
+  
+    Denna URL har vanligtvis formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, till exempel `https://localhost:7048/BC160/ODataV4`. Om du har en distribution med flera klientorganisationer bör du inkludera klientorganisationen i URL:en, till exempel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+  - Att användarnamn och en åtkomstnyckel till en webbtjänst tillhörande ett [!INCLUDE[prod_short](includes/prod_short.md)]-konto.
 
-      I syfte att hämta data från [!INCLUDE[prod_short](includes/prod_short.md)] använder Power BI grundläggande autentisering. Du behöver därför ett användarnamn och en åtkomstnyckel till en webbtjänst för att ansluta. Kontot kan vara ditt eget användarkonto, eller också kanske din organisation har ett specifikt konto i detta syfte.
+    I syfte att hämta data från [!INCLUDE[prod_short](includes/prod_short.md)] använder Power BI grundläggande autentisering. Du behöver därför ett användarnamn och en åtkomstnyckel till en webbtjänst för att ansluta. Kontot kan vara ditt eget användarkonto, eller också kanske din organisation har ett specifikt konto i detta syfte.
 
 - Ladda ned [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat (valfritt).
 
-    Mer information finns i [Använda [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat](#theme) i denna artikel.
+  Mer information finns i [Använda [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat](#theme) i denna artikel.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop
 
@@ -58,26 +58,46 @@ Den första uppgiften i samband med att skapa rapporter är att lägga till [!IN
 2. Välj **Hämta data**.
 
     Om du inte ser **Hämta data** väljer du menyn **Arkiv** och sedan **Hämta data**.
-2. På sidan **Hämta data** väljer du **Onlinetjänster**.
-3. I fönstret **Onlinetjänster** utför du ett av följande steg:
+3. På sidan **Hämta data** väljer du **Onlinetjänster**.
+4. I fönstret **Onlinetjänster** utför du ett av följande steg:
 
-    1. Om du vill ansluta till [!INCLUDE [prod_short](includes/prod_short.md)] online väljer du **Dynamics 365 Business Central** och sedan **Anslut**.
-    2. Om du ansluter till [!INCLUDE [prod_short](includes/prod_short.md)] lokalt väljer du **Dynamics 365 Business Central (lokalt)** och sedan **Anslut**.
+    - För att ansluta till [!INCLUDE [prod_short](includes/prod_short.md)] online, välj **Dynamics 365 Business Central**, sedan **Anslut**.
+    - Om du vill ansluta till [!INCLUDE [prod_short](includes/prod_short.md)] lokalt markerar du **Dynamics 365 Business Central (lokalt)** och **ansluter** sedan.
 
-4. Power BI isar en guide som vägleder dig genom anslutningsprocessen, inklusive hur du loggar in på [!INCLUDE [prod_short](includes/prod_short.md)].
+5. Logga in till [!INCLUDE [prod_short](includes/prod_short.md)] (endast en gång).
 
-    För online väljer du **Logga in** och sedan tillhörande konto. Använd samma konto som du använder för att logga in på [!INCLUDE [prod_short](includes/prod_short.md)].
-    
-    För lokala varianter anger du OData-URL:en för [!INCLUDE[prod_short](includes/prod_short.md)] och företagsnamnet (valfritt). Därefter anger du (på uppmaning) användarnamn och lösenord för det konto som ska användas för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]. I rutan **Lösenord** anger du åtkomstnyckeln för webbtjänsten.
+    Om du inte har loggat in på [!INCLUDE [prod_short](includes/prod_short.md)] från Power BI desktop förut ombeds du att logga in.
+
+    - För [!INCLUDE [prod_short](includes/prod_short.md)] online, välj **Logga in** och sedan tillhörande konto. Använd samma konto som du använder för att logga in på [!INCLUDE [prod_short](includes/prod_short.md)]. När du är klar, välj **Anslut**.
+
+    - För [!INCLUDE [prod_short](includes/prod_short.md)] lokalt, ange först OData URL för [!INCLUDE[prod_short](includes/prod_short.md)], och välj sedan **OK**. Därefter anger du (på uppmaning) användarnamn och lösenord för det konto som ska användas för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]. I rutan **Lösenord** anger du åtkomstnyckeln för webbtjänsten. När du är klar, välj **Anslut**.
 
     > [!NOTE]  
-    > När du väl har anslutit till [!INCLUDE[prod_short](includes/prod_short.md)] kommer du inte uppmanas att logga in en gång till.
-    
-5. Välj **Anslut** för att fortsätta.
+    > När du väl har anslutit till [!INCLUDE[prod_short](includes/prod_short.md)] kommer du inte uppmanas att logga in en gång till. [Hur ändrar jag eller avmarkerar jag det konto som jag använder för att ansluta till Business Central från Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-    Power BI-guiden visar en lista över Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]-miljöer, -företag och -datakällor. Dessa datakällor representerar samtliga de webbtjänster som du har publicerat från [!INCLUDE [prod_short](includes/prod_short.md)].
-6. Ange de data som du vill lägga till i din datamodell och välj knappen **Läs in**.
-7. Upprepa stegen för att lägga till ytterligare [!INCLUDE [prod_short](includes/prod_short.md)]-data eller andra data till Power BI-datamodellen.
+6. När ansluten Power BI kontakten är till Business Central-tjänsten. **Navigator** fönstren visas och visar tillgängliga data källor för att skapa rapporter. Markera en mapp för att expandera den och se tillgängliga datakällor. 
+
+   Dessa datakällor representerar samtliga de webbtjänster och AP-sidor som har publicerats för [!INCLUDE [prod_short](includes/prod_short.md)]. Datakällorna grupperas enligt de Business Central-miljöerna och företagen. Med Business Central online har **Navigator** följande struktur:
+
+    - **Miljönamn**
+      - **Företagsnamn**
+        - **Avancerade API:er**
+
+          I den här mappen visas avancerade API-sidor som publicerats av Microsoft, till exempel [API-automatisering för Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) och [anpassade API-sidor för Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Anpassade API-sidor grupperas ytterligare i mappar av [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) egenskaper för API-sidans källkod.
+
+        - **Standard APIs v2.0**
+
+          I den här mappen listas de API-sidor som visas av [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+
+        - **Webbtjänster \(äldre)**
+
+          I den här mappen visas sidor, kodenheter och frågor som publiceras som webbtjänster inom Business Central.
+
+    > [!NOTE]
+    > Strukturen för Business Central lokalt skiljer sig åt eftersom den inte stöder API-sidor.
+
+7. Välj datakälla eller källor som du vill lägga till i din datamodell och välj knappen **Läs in**.
+8. Om du senare vill lägga till fler Business Central-data kan du upprepa föregående steg.
 
 När datan har lästs in kan du se den i den högra navigeringen på sidan. Vid denna tidpunkt har du anslutit till dina [!INCLUDE[prod_short](includes/prod_short.md)]-data och kan börja skapa din Power BI-rapport.  
 

@@ -1,6 +1,6 @@
 ---
-title: Översikt över bokföring av dokument och journaler | Microsoft Docs
-description: Beskriver bokföringsåtgärder och hur bokför du dokument och journaler.
+title: Översikt över bokföring av dokument och journaler
+description: I det här avsnittet beskrivs bokföringsåtgärder och hur du kan bokföra dokument och journaler i de olika företagsredovisningarna.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5d34178523d0020d35c4f24985871a05fed33e49
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2dda99dcab416465b6abc68af32b6bf99e83f56a
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783340"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325944"
 ---
 # <a name="posting-documents-and-journals"></a>Bokför dokument och journaler
 Bokföring representerar redovisningsåtgärden att bokföra affärstransaktioner i de olika företaghuvudböckerna.

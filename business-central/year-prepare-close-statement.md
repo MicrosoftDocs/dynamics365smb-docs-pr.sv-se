@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776647"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435915"
 ---
 # <a name="preparing-closing-statements"></a>Förbereda årsbokslutsrapporter
 Det finns ett antal standardrapporter du kan använda för att samla den information du behöver för att förbereda ditt företags bokslutsrapporter.
@@ -32,7 +32,7 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 | skriva ut en kontouppställning för att analysera siffror för redovisningskonton eller jämföra faktiska redovisningstransaktioner med redovisningsbudgettransaktioner. |**Kontouppställning** |
 | kontrollera om kund- och leverantörsreskontratransaktioner stämmer överens med motsvarande redovisningstransaktioner. |**Stäm av kund- och lev.konton** |
 
-Om du vill se en rapport väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger namnet som visas i tabellen och väljer sedan tillhörande länk.
+För att se en rapport, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange namnet som det visas i tabellen och väljer sedan relaterad länk.
 
 ## <a name="see-also"></a>Se även
 [Avsluta år och perioder](year-close-years-periods.md)  

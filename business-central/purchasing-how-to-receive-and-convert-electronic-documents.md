@@ -1,6 +1,6 @@
 ---
-title: Ta emot och omvandla elektroniska dokument | Microsoft Docs
-description: Du kan ta emot elektroniska dokument direkt från handelspartner eller en OCR-tjänst.
+title: Ta emot och omvandla elektroniska dokument
+description: Detta ämne beskriver hur du kan ta emot elektroniska dokument direkt från handelspartner eller en OCR-tjänst.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772560"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435090"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Ta emot och omvandla elektroniska dokument
 Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöder mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. Om du vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet på sidan Inkommande dokument för att konvertera det till en inköpsfaktura eller redovisningsjournalsrad i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,7 +41,7 @@ Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöde
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Så här tar du emot och omvandlar en elektronisk faktura till en inköpsfaktura  
 
-1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inkommande dokument** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.  
 
 2.  Välj raden för den inkommande dokumentposten som representerar en ny inkommande elektronisk faktura och välj åtgärden **Redigera**.  
 

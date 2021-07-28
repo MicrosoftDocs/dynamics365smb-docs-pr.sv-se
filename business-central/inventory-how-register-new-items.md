@@ -1,6 +1,6 @@
 ---
-title: Skapa artikelkort för varor eller tjänster | Microsoft Docs
-description: Du skapar artikelkort för tjänster som du säljer som timmar och för fysiska produkter, till exempel monteringsartiklar, färdiga produkter, komponenter eller råmaterial som säljs från lagret.
+title: Skapa artikelkort för varor eller tjänster
+description: Du skapar artikelkort för tjänster som du säljer som timmar och för fysiska produkter, till exempel monteringsartiklar, färdiga produkter eller råmaterial som säljs från lagret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785879"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435649"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 
@@ -40,7 +40,7 @@ I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan 
 
 ## <a name="to-create-a-new-item-card"></a>Skapa ett nytt artikelkort
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. På sidan **Artiklar** väljer du åtgärden **Ny**.
 
     Om endast en artikelmall finns, då öppnas ett nytt artikelkort med fält ifyllda med information från mallen.
@@ -77,7 +77,7 @@ Om du vill registrera artiklar som sedan används i produktionsorder anger du å
 
 Om du köper samma artikel från flera olika leverantörer måste du ange information om varje leverantör, t. ex. priser, ledtid och rabatter.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Välj relevant artikel och välj sedan åtgärden **Artikel**.  
 3. Välj åtgärden **Leverantörer**.  
 4. Välj fältet **Leverantörsnr** och välj sedan leverantör som du vill lägga upp för artikeln.  
@@ -100,6 +100,12 @@ När du registrerar en ny artikel visas fält som är kopplade till hanteringen 
 
 Om företaget senare konfigurerar hantering av distributionslager, måste du i de flesta fall gå tillbaka till varje befintlig artikel för att försäkra dig om att de har rätt information i de olika fälten så att lagerprocesserna kan köras som förväntat. Informationen kan omfatta fält som **Indelningskod för distributionslager** eller **Mallkod för artikelinförsel**. Mer information finns i [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md).  
 
+## <a name="planning"></a>Planering
+
+När ditt företag använder leveransplaneringsprocesserna i [!INCLUDE [prod_short](includes/prod_short.md)], måste du fylla i relevanta fält på snabbfliken **Planering**. En introduktion till planeringsområdet finns i [Designdetaljer: Centrala begrepp i planeringssystemet](design-details-central-concepts-of-the-planning-system.md).  
+
+Exempel på hur du kan använda fälten på snabbfliken **Planering** finns i [Metodtips för installation: Planeringsparametrar](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>Se även
 
 [Lager](inventory-manage-inventory.md)  
@@ -110,6 +116,12 @@ Om företaget senare konfigurerar hantering av distributionslager, måste du i d
 [Ställa in bokföringsmallar](finance-posting-groups.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
+[Om planeringsfunktioner](production-about-planning-functionality.md)  
+[Skapa metodtips: planeringsparametrar](setup-best-practices-planning-parameters.md)  
+[Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
+[Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)  
+[Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
+[Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

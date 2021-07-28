@@ -1,6 +1,6 @@
 ---
-title: Konfigurera datautbyte | Microsoft Docs
-description: Ställa in ramverket för datautbyte i Business Central.
+title: Konfigurera datautbyte för att skicka och ta emot filer
+description: Ställ in ramverket för datautbyte för att utbyta data med externa filer; att skicka och ta emot elektroniska dokument eller importera och exportera bankfiler.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70672fcab8c2614de58bd152288ba3543fe6955a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b94d258a07ba65c81f329144d12a8b4e10093a9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787088"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325099"
 ---
 # <a name="setting-up-data-exchange"></a>Konfigurera datautbyte
 Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta relevanta filerna. Du måste dessutom konfigurera relaterade områden, exempelvis de kunder som du skickar elektroniska fakturor till, eller också AMC Banking 365 Fundamentals-tillägget om du använder den externa tjänsteleverantören för att konvertera dina bankfiler. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  

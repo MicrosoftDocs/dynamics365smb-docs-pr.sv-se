@@ -1,6 +1,6 @@
 ---
-title: Överföra och bokföra kostnadstransaktioner | Microsoft Docs
-description: Innan du definierar kostnadsfördelningar, måste du förstå var kostnadstransaktioner kommer från.
+title: Överföra och bokföra kostnadstransaktioner
+description: Innan du definierar kostnadsfördelningar, måste du förstå hur kostnadstransaktioner kommer från olika källor.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 44e4cd72043d2079a969292cfd71f16c393da582
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770944"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435828"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Överföra och bokföra kostnadstransaktioner
 Innan du definierar kostnadsfördelningar, måste du förstå hur kostnadstransaktioner kommer från följande källor:  
@@ -52,16 +52,16 @@ Innan du kör processen för att överföra redovisningstransaktioner till kostn
 
 ### <a name="to-prepare-the-transfer"></a>Så här förbereder du överföringen  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för kostnadsredovisning** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Inställningar för kostnadsredovisning** och välj sedan relaterad länk.  
 2.  På sidan **Inställningar för kostnadsredovisning** kontrollerar du att fältet **startdatum för överföring till redovisning** anges till rätt värde.  
-3.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lista över kostnadstyper** och välj sedan relaterad länk.  
+3.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadstyper** och väljer sedan relaterad länk.  
 4.  På sidan **Kostnadstypkort** kontrollerar du att fältet **Redovisningskontointervall** är korrekt länkat för alla kostnadstyper som tar transaktioner från redovisningen.  
-5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
+5.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 6.  För varje relevant redovisningskonto på sidan **Redovisningskontokort** kontrollerar du att fältet **Kostnadstypsnr.** är korrekt länkat till en kostnadstyp. Mer information finns i [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md).  
 7.  Kontrollera att alla relevanta redovisningstransaktioner har dimensionsvärden som motsvarar ett kostnadsställe och en kostnadsbärare.  
 
 ### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Så här överför du redovisningstransaktioner till kostnadstransaktioner  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Överför redovisningstransaktioner till kostnadsredovisning** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Överför redovisningstransaktioner till kostnadsredovisning** och välj sedan relaterad länk.  
 2.  Välj **Ja** för att starta överföringen. Processen överför alla redovisningstransaktioner som inte redan har överförts.  
 
     Under överföringen skapar processen anslutningar i transaktionerna i tabellerna **Kostnadstransaktion** och **Bokförd journal för kostnad**. Det gör det möjligt att spåra ursprunget till kostnadstransaktionerna.
