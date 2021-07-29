@@ -1,6 +1,6 @@
 ---
-title: Så här inlevererar du artiklar | Microsoft Docs
-description: När artiklar tas emot i ett distributionslager som använder inleveransbearbetning måste du hämta raderna för det släppta källdokument som utlöste inleveransen.
+title: Så här inlevererar du artiklar
+description: Det här avsnittet är en översikt över olika sätt att inleverera artiklar på ett lagerställe, t.ex. artiklar med en inköpsorder eller artiklar med en distributionslagerinleverans.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771910"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445132"
 ---
 # <a name="receive-items"></a>Ta emot artiklar
 
@@ -27,7 +27,7 @@ När artiklar tas emot i ett distributionslager som använder inleveransbearbetn
 
 Nedan beskrivs hur du inlevererar artiklar med en inköpsorder. Stegen är liknande för försäljningsreturorder och överföringsorder.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
 2. Öppna en befintlig inköpsorder eller skapa en ny. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 3. Ange hur många enheter som har inlevererats i fältet **Inlevereras antal**.
 
@@ -43,7 +43,7 @@ Nedan beskrivs hur du inlevererar artiklar med en inköpsorder. Stegen är likna
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>För att inleverera artiklar med en lagerinleverans.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager inleveranser** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 
     Fyll i fälten på snabbfliken **Allmänt**. När du hämtar källdokumentrader, kopieras delar av informationen i huvudet till varje rad.  
@@ -96,7 +96,7 @@ Du måste definiera en procentsats som tillåter att den beställda kvantiteten 
 
 Nedan beskrivs hur du lägger upp och tilldelar en kod för överinleverans till en artikel. Momenten är liknande för en leverantör.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för en artikel som du misstänker ibland kan levereras i större mängd än vad som har beställts.
 3. Välj sökknappen i fältet **Kod för överinleverans**.
 4. Välj åtgärden **Ny**.

@@ -1,6 +1,6 @@
 ---
-title: Registrera och ersätta anställdas affärsrelaterade utgifter
-description: Bokför anställdas utgifter med redovisningsjournalen för den anställdas konto och bokför senare en betalning till den anställdes bankkonto för att ersätta för affärsrelaterade utgifter.
+title: Skapa och återbetala de anställdas utgifter
+description: Bokför anställdas utgifter med redovisningsjournalen för den anställdas konto och bokför en betalning till deras bankkonto för att ersätta för affärsrelaterade utgifter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: dd4ce755e3414f19ae501c1d437f3e1d78d565a1
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 649f179f52a9c18572f1e702e62000bfdb1b30ff
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184405"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444518"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Skapa och återbetala de anställdas utgifter
 
@@ -35,7 +35,7 @@ Om medarbetare lägger ut sina egna pengar under affärsaktiviteter, kan du bokf
 
 Du bokför anställdas utgifter på sidan **redovisningsjournal**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.  
 2. Öppna relevant buntnamn för redovisningsjournalen. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
 3. Fyll i fälten på en ny journalrad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -51,7 +51,7 @@ Du bokför anställdas utgifter på sidan **redovisningsjournal**.
 
 Du återbetalar en medarbetare genom att bokföra betalningar till dennes bankkonto på sidan **betalningsjournal**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.
 2. Öppna relevant buntnamn för utbetalningsjournal. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
 3. Fyll i fälten om det behövs. Mer information finns i [Gör betalningar](payables-make-payments.md).
 4. Du kan också välja **föreslå betalning för medarbetare** för att automatiskt infoga journalrader för väntande medarbetare återbetalningar.

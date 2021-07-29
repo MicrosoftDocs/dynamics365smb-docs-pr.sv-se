@@ -1,6 +1,6 @@
 ---
 title: Använd artikeltvärreferenser
-description: Skapa referenser mellan de beskrivningar som du och din leverantör använder för en artikel så att du kan infoga leverantörens artikelbeskrivning på inköpsdokument.
+description: Skapa korsreferenser mellan de beskrivningar som du och din leverantör använder för en artikel så att du kan infoga leverantörens artikelbeskrivning på inköpsdokument.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a9f84522598344435ad9c1263fe8cdea2e2a1e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 853c574f5b262f7b826bc92dd8e35484e902c1f4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785654"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444951"
 ---
 # <a name="use-item-cross-references"></a>Använd artikeltvärreferenser
 Om du har skapat en tvärreferens mellan den artikelbeskrivning som du använder för en artikel och den beskrivning som används för leverantören som levererar den artikeln och leverantörens artikelbeskrivning infogas automatiskt på inköpsdokument för en leverantör när du fyller i fältet **Tvärreferensnr** . Samma sak gäller för kundens artikelnummer i försäljningsdokument.
@@ -27,7 +27,7 @@ I följande procedurer beskrivs hur du använder artikelns tvärreferens på ink
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Så här skapar du en artikeltvärreferens för en leverantörs artikelbeskrivning
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill skapa en korsreferens till för den artikelbeskrivning som leverantören använder för artikeln.
 3. Välj åtgärd **tvärreferenser**.
 
@@ -37,7 +37,7 @@ I följande procedurer beskrivs hur du använder artikelns tvärreferens på ink
 
 ## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Ange leverantörens artikelbeskrivning på en inköpsorder
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
 2. Skapa en inköpsorder för leverantören som du ställer in en artikeltvärreferens för ovan.
 3. Skapa en inköpsorderrad för artikeln som du ställer in en artikeltvärreferens för ovan.
 4. I **Tvärreferensnummer** välj artikeln artikelkorsreferens som du har skapat och välj sedan knappen **OK**.

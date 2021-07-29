@@ -1,5 +1,5 @@
 ---
-title: Lägg till bifogade filer, länkar och anteckningar på poster | Microsoft Docs
+title: Lägg till bifogade filer, länkar och anteckningar på poster
 description: Koppla en hyperlänk till ett dokument eller en webbplats till en viss post, till exempel en kund eller ett dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771141"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444774"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
@@ -38,7 +38,7 @@ Du kan bifoga alla typer av filer, som innehåller text, bilder och video, till 
 
 Följande procedur är baserad på en inköpsfaktura. Stegen är liknande för alla andra dokument och kort som stöds.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
 2. Öppna försäljningsorder som du vill bifoga en fil till.
 3. Öppna fliken **bifogade filer** i faktaboxen.
 4. Välj värdet bakom fältet **dokument**, till exempel "0".
@@ -58,7 +58,7 @@ När du behöver spara ett dokument som en fil kan du använda åtgärden **Bifo
 
 Följande procedur är baserad på en försäljningsorder. Stegen är liknande för samtliga dokument som stöds.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Markera en försäljningsorder och välj åtgärden **Bifoga som PDF**.
 
 En PDF-fil med det aktuella innehållet på försäljningsordern läggs till på fliken **Bilagor** i faktaboxen.
@@ -68,7 +68,7 @@ Du kan lägga till en länk från ett kort eller dokument till en URL eller sök
 
 Följande procedur baseras på ett artikelkort. Stegen är liknande för alla andra kort och dokument.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Välj den artikel som du vill lägga till en länk från och välj sedan fliken **bifogade filer** i faktaboxen.
 3. Välj ikonen **länkar**, välj ikonen **+**.
 4. I fältet **länkadresser** anger du länken.
@@ -88,7 +88,7 @@ Du kan skriva en notering på ett dokument eller kort, t. ex. om du vill skicka 
 
 Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla andra dokument och kort som stöds.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Välj den försäljningsorder som du vill skriva en anteckning på och välj sedan fliken **bifogade filer** i faktaboxen.
 3. Välj avsnittet **anteckningar**, välj ikonen **+**.
 4. I fältet **Anteckning** skriv någon text, t. ex. "detta är en brådskande order.".

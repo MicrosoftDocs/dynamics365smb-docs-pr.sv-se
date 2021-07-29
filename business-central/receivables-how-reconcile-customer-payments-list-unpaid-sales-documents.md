@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4291c9864c3b3ec66d818ca834ece14b57c50df6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9a2880437f802cb07617690361558745e06540eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779078"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445407"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar från en lista med obetalda försäljningsdokument
 När kunderna har gjort betalningar till ditt elektroniska bankkonto, måste du koppla varje betalt belopp till det relaterade försäljningsdokumentet och sedan bokföra betalningen för att uppdatera kund-, redovisnings- och banktransaktioner. Beroende på ditt företagsbehov kan du få betalt och registrera den betalningen på olika sätt: manuellt, automatiskt eller via betalningstjänster.  
@@ -30,14 +30,14 @@ Betalningar för olika kunder som har olika betalningsdatum, ska bokföras som i
 ## <a name="to-set-up-the-payment-registration-journal"></a>Så här lägger du upp betalningsregistreringjournal
 Eftersom du kan bokföra olika betalningstyper till olika motkonton måste du välja ett motkonto på sidan **Inställning av betalningsregistrering** innan du börjar att behandla kundbetalningar. Om du alltid bokför samma motkonto, kan du ange det konto som standard och undvika detta steg varje gång som du öppnar sidan **Registrera kundbetalningar**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för betalningsregistrering** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställning av betalningsregistrering** och väljer sedan relaterad länk.
 
     Alternativt kan du på sidan **Registrera kundbetalningar** välja åtgärden **Inställning**.    
 2. Fyll i fälten på sidan **Inställning av betalningsregistrering**. Välj ett fält om du vill få en kort beskrivning av fältet eller länken till relaterad information.  
 
 ## <a name="to-register-customer-payments-individually"></a>Registrera kundbetalningar individuellt.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Registrera kundbetalningar** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Registrera kundbetalningar** och väljer sedan relaterad länk.  
 
     Sidan **registrera kundbetalningar** visar alla bokförda dokument som en betalning kan registreras för. Sidan kan även öppnas från sidorna **Kunder** och **Kundkort** där den filtreras automatiskt för den angivna kunden.  
 2. Markera kryssrutan **Utförd betalning** på raden som representerar bokfört dokument som en betalning har gjorts för.
@@ -55,7 +55,7 @@ Den angivna betalningsinformationen bokförs för de dokument som representeras 
 Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkonton. Varje betalning kopplas till det relaterade bokförda försäljningsdokumentet.  
 
 ## <a name="to-reconcile-lump-sum-payments"></a>Stämma av betalning av klumpsumma
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsregistrering** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.
 2. Markera kryssrutan **Utförd betalning** på raderna som representerar bokförda dokument för samma kund som en klumpbetalning har gjorts för.  
 
     > [!NOTE]  
@@ -90,7 +90,7 @@ Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalnin
 * Betalningsbeloppet är högre än återstående rabatterade beloppet. Du bokför betalningar som är. Endast det återstående beloppet bokförs. Det extra belopp krediteras till kunden.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Processa ett betalningsbelopp som är lika med det rabatterade beloppet, och där betalningsdatumet infaller före kassarabattsdatum.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsregistrering** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.  
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är lika med beloppet i fältet **Återstående belopp efter rabatt**.
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.    
@@ -99,7 +99,7 @@ Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalnin
 5. Välj åtgärden **Bokför betalningar** för att bokföra den fullständiga betalningen på redovisningskonto bankkontot eller kundkontot.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Processa ett betalningsbelopp som är lika med det rabatterade beloppet, men där betalningsdatumet infaller efter kassarabattsdatumet
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsregistrering** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.  
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är lika med beloppet i fältet **Återstående belopp efter rabatt**.
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.
@@ -117,7 +117,7 @@ Följande procedur förklarar fyra olika sätt att bokföra rabatterade betalnin
 Det relaterade dokument förblir öppen.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Processa en betalning som är lägre än återstående rabatterade beloppet
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsregistrering** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.  
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är lägre än beloppet i fältet **Återstående belopp efter rabatt**.
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.  
@@ -128,7 +128,7 @@ Det relaterade dokument förblir öppen.
 Det relaterade dokument förblir öppen.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Processa en betalning som är högre än återstående rabatterade beloppet
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsregistrering** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.  
 2. Ange betalningsbeloppet i fältet **Inlevererat belopp**. Beloppet är högre än beloppet i fältet **Återstående belopp efter rabatt**.  
 
     Kryssrutan **Utförd betalning** markeras automatiskt, och fältet **Tillbaka datum** fylls i med arbetsdatumet.    
@@ -150,7 +150,7 @@ På sidan **Dokumentsökning** kan du söka bland dokument som inte har fakturer
 
 Följande procedurer beskriver hur du hittar ett visst dokument, genom att använda både sökvillkor.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsregistrering** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.
 2. Välj avsnittet **Sök dokument** med pekaren på någon av raderna.
 3. På sidan **Dokumentsökning** anger du ett sökvärde i fältet **Dokumentnr.**  
 
@@ -171,7 +171,7 @@ Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[prod_sho
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Så här registrerar eller bokför du en betalning utan ett relaterat dokument
 Om en betalning i banken inte representeras av ett dokument i [!INCLUDE[prod_short](includes/prod_short.md)], kan du öppna en förifylld redovisningsjournalsrad från sidan **Betalningsregistrering** för att bokföra betalningen direkt till motkontot, utan att koppla betalningen till ett dokument. Du kan också vilja registrera betalning i journalen tills ursprunget för betalningen har klargjorts.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsregistrering** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.  
 
     Fortsätt med att registrera en odokumenterad betalning.  
 2. Välj åtgärden **Redovisningsjournal**.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e3bc7abb3908afc1819ac88c910dff85010c735
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947444"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444693"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis försäljningsorder. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -57,7 +57,7 @@ När dimensioner och värden har konfigurerats kan du definiera globala och genv
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Konfigurera standarddimensioner för kunder, leverantörer och andra konton
 Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopieras till journal eller dokument när du ange numret på en rad, men du kan ta bort eller ändra koden på raden om det behövs. Du kan också göra en dimension obligatorisk för att bokföra en transaktion med en viss typ av konto.  
 
-1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dimensioner** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **dimensioner** och väljer sedan relaterad länk.  
 2.  På sidan **Dimensioner** väljer du relevant dimension och sedan åtgärden **Standarddim. för kontotyp**.  
 4.  Fyll i en rad för varje ny standarddimension du vill ange. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -73,7 +73,7 @@ Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopiera
 ### <a name="to-set-up-default-dimension-priorities"></a>Så här anger du standarddimensionsprioritet  
 Olika kontotyper, t. ex. ett kundkonto och ett artikelkonto, kan ha olika definierade standarddimensioner. Detta kan resultera i att flera standarddimensioner för en dimension föreslås för en transaktion. Du kan undvika att den här typen av konflikter uppstår genom att använda prioritetsregler för de olika källorna.  
 
-1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Förvalda dimensionsprioriteter** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Standard dimensionsprioritet** och välj sedan relaterad länk.  
 2.  På sidan **Standard dimensionsprioritet** i fältet **Källkod** anger du ursprungskoden för den transaktionstabell som standarddimensionsprioriteten.  
 3.  Fyll i en rad för varje standarddimensionsprioritet du vill ha för den valda ursprungskoden.
 4.  Upprepa proceduren för varje ursprungskod du vill ange standarddimensionsprioritet för.  
@@ -84,7 +84,7 @@ Olika kontotyper, t. ex. ett kundkonto och ett artikelkonto, kan ha olika defini
 ### <a name="to-set-up-dimension-combinations"></a>Så här definierar du dimensionskombinationer  
 Du kan förhindra att transaktioner bokförs med oförenliga eller irrelevanta dimensioner genom att spärra eller begränsa vissa kombinationer av två dimensioner. En spärrad dimensionskombination innebär att du inte kan bokföra båda dimensionerna i samma transaktion, oberoende av dimensionsvärdena. En begränsad dimensionskombination innebär att du kan bokföra båda dimensionerna i samma transaktion, men endast för vissa kombinationer av dimensionsvärden.
 
-1.  Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dimensionskombinationer** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **dimensionskombinationer** och väljer sedan relaterad länk.  
 2.  På sidan **Dimensionskombinationer** och välj något av följande alternativ i fönstret  
 
     |Fält|Description|
@@ -113,13 +113,13 @@ Globala och genvägsdimensioner kan användas som filter i [!INCLUDE[prod_short]
 > [!Note]
 > När du lägger till eller ändrar en global eller genvägsdimension loggas du automatiskt ut och in igen, så att det nya värdet förbereds för användning.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.
 2. Fyll i fälten på snabbfliken **Dimensioner**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Ändra globala dimensioner
 När du ändrar en global eller genvägsdimension uppdateras alla aktuella transaktioner som har bokförts med dimensionen. Eftersom den här metoden kan vara tids krävande och påverka prestanda kan två olika lägen anpassas till databasens storlek.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.
 2. Välj åtgärden **Ändra globala dimensioner**.
 3. Längst upp på sidan väljer du ett av följande alternativ för att definiera i vilket läge batch-jobbet ska köras.
 
@@ -200,7 +200,7 @@ Globala dimensioner är alltid \-definierade och namngivna utifrån företaget. 
 
 Du kan se om det finns globala dimensioner för transaktionerna på en transaktionssida. De två globala dimensionerna skiljer sig från övriga dimensioner eftersom de kan användas som filter var som helst i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2.  På sidan **Kontoplan** väljer du åtgärden **Redovisningstransaktioner**.  
 3.  Om du bara vill visa relevanta transaktioner definierar du ett eller flera filter på sidan.  
 4.  Om du vill visa alla dimensioner för en transaktion markerar du transaktionen väljer sedan åtgärden **Dimensioner**.  

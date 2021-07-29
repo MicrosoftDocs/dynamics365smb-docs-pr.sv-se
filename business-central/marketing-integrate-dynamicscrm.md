@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985368"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444876"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Använda Dynamics 365 Sales från Business Central
 Om du använder Dynamics 365 Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[prod_short](includes/prod_short.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
@@ -115,7 +115,7 @@ I den aktuella prissättningen synkroniserar [!INCLUDE[prod_short](includes/prod
     1. Koppla artiklarna för vilka priser anges av kundprisgruppen.
     2. På sidan **Kundprisgrupper** kopplar du kundprisgruppen genom att välja **Relaterad**, sedan **Dynamics 365 Sales**, **Koppling** och sedan **Ange koppling**. Kopplingarna skapar en aktiv prislista i [!INCLUDE[prod_short](includes/prod_short.md)] med samma namn som kundprisgruppen i [!INCLUDE[crm_md](includes/crm_md.md)] och synkroniserar alla artiklar som kundprisgruppen anger priset för automatiskt.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Sidan Kundprisgrupp":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Sidan Kundprisgrupp.":::
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ Den nya prissättningen synkroniserar prislistor som uppfyller följande kriteri
 
 Om du vill synkronisera prislistor går du till sidan **Försäljningsprislista**, väljer **Relaterad**, **Dynamics 365 Sales**, **Koppling** och sedan **Ange koppling**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Sidan Försäljningsprislista":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Sidan Försäljningsprislista.":::
 
 ---
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10483de41b1106914a1fa477309e5b39a3f41e6b
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 54e5985f9399d3b07a86165c720899a5a29f360e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947419"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444851"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Spåra artiklar med serie-, parti-och paketnummer
 
@@ -70,7 +70,7 @@ Om du arbetar på sidan **Artikelspårningsrader** under en lång tidsperiod ell
 
 Artikelspårningskoden reflekterar ett företags olika regler i samband med användningen av serie- och partinummer för artiklar som flyttas i lagret.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelspårningskoder** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelspårningskoder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. På **serienr.**, **partinr.** och **paketnr.** definieras principer för artikelspårning efter serie-, parti- och paketnummer.  
@@ -97,7 +97,7 @@ För vissa artiklar kanske du vill definiera särskilda förfallodatum och -regl
 
 För vissa artiklar kanske du vill definiera specifika garantier i artikelspårningskoden. På så sätt kan du hålla reda på när garantierna för särskilda serie- eller partinummer i lagret går ut.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelspårningskoder** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelspårningskoder** och väljer sedan relaterad länk.  
 
 2. Välj en befintlig artikelspårningskod och välj sedan åtgärden **redigera**.  
 3. Fyll i fältet **Garanti datumformel** och markera kryssrutorna på snabbfliken **Diverse** .  
@@ -115,7 +115,7 @@ De exakta reglerna för hantering av artikelspårningsnummer i företaget avgör
 > [!NOTE]  
 >  För att kunna använda artikelspårningsnummer i distributionslageraktiviteter måste inställningsfälten **Parti dist.lager spårning** och **SN dist.lager spårning** väljas eftersom de definierar vilka regler som ska gälla för serienummer eller partinummer för distributionslageraktiviteterna.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 2. Markera önskad dokumentrad och klicka på snabbfliken **Rader**, välj åtgärden **Rad** och sedan åtgärden **Artikelspårningsrader**.  
 
     Du kan tilldela serie- eller partinummer på följande sätt:  
@@ -197,7 +197,7 @@ Rutinerna för hantering av serie- och partinummer som överförs mellan olika l
 Överföringsordern är emellertid unik eftersom både utleveransen och inleveransen utförs från samma överföringsrad, vilket innebär att samma instans på sidan **Artikelspårningsrader** används. Detta innebär också att artikelspårningsnummer som levereras från ett lagerställe måste inlevereras oförändrade till det andra lagerstället.  
 
  De exakta reglerna för hantering av artikelspårningsnummer i företaget avgörs av inställningarna för tabellen  **Artikelspårningskod**.    
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Överföringsorder** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **överföringsorder** och väljer sedan relaterad länk.  
 2. Öppna den order som du vill bearbeta. På snabbfliken **Rader** välj åtgärden **Rad**, **Artikelspårningsrader** och sedan **Utleverans**.  
 3. På sidan **Artikelspårningsrader** tilldelar eller väljer du serie-/partinummer för eventuella övriga utgående artikeltransaktioner.  
 
@@ -220,7 +220,7 @@ Funktionen stöder följande processer för utgående:
 
 I de här situationerna kopieras befintliga artikelspårningsrader automatiskt till fakturan eller kreditnotan, men på sidan **Artikelspårningsrader** tillåts inga ändringar av serienummer eller partinummer. Endast kvantiteter kan ändras.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Öppna en inköpsfaktura för artiklar som är inköp med serie- eller partinummer.  
 3. Från en inköpsfaktura på snabbfliken **Rader** väljer du **Hämta inleveransrader**.  
 4. Välj inleveransrader, som har artikelspårningsrader, och välj sedan **OK** på sidan **Hämta inleveransrader**.  
@@ -251,7 +251,7 @@ Alternatively, you can create an information card when you post journals or docu
 Du kan ändra skapade serie- eller partiinformationskort senare.
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Så här ändras befintlig information om serie-/partinummer  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Markera en artikel som har en artikelspårningskod och serienr eller partinr information.
 3. Från sidan **artikelkort** väljer du åtgärden **transaktioner** och väljer **transaktioner**.
 4. Välj fältet **Partinr** , eller **Serienr**. Om information för artikelspårningsnumret finns öppnas sidan **Lista med partinr.information** eller **Lista med serienr.information**.  
@@ -263,7 +263,7 @@ Du kan inte ändra serie- eller partinummer eller antal. För att kunna göra de
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Gruppera parti- eller serienummer  
 Att gruppera artikelspårningen för en artikel innebär att ett parti- eller serienummer ändras till ett nytt parti- eller serienummer eller att utgångsdatumet ändras till ett nytt utgångsdatum. Vid arbete med partier går det även att koppla flera partier till ett enda. De här aktiviteterna utförs med hjälp av artikelgrupperingsjournalen.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelgrupperingsjnl** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelgrupperingsjournal** och väljer sedan relaterad länk.  
 2. Fyll i raden med relevant information. Mer information finns i [Beräkna lager med hjälp av dokument](inventory-how-count-inventory-with-documents.md) eller [Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md).
 3. Välj åtgärden **artikelspårningsrader**.  
 4. I fälten **Serienr** eller **Partinr** väljer du aktuellt serie- eller partinummer.  

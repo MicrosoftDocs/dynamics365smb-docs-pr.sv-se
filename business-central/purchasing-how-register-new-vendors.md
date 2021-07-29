@@ -1,6 +1,6 @@
 ---
-title: Skapa ett leverantörskort för att registrera en ny leverantör | Microsoft Docs
-description: Lär dig skapa ett leverantörskort för att registrera en ny leverantör.
+title: Skapa ett leverantörskort för att registrera en ny leverantör
+description: I det här avsnittet lär du dig hur du skapar ett leverantörskort för registrering av en ny leverantör eller leverantör och hur du sparar leverantörskort som en mall.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f1028b91101f8faa38d4d4d5d2695ee498ff6d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772660"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445382"
 ---
 # <a name="register-new-vendors"></a>Registrera nya leverantörer
 
@@ -40,7 +40,7 @@ För att registrera en ny leverantör måste du fylla i ett leverantörskort. Du
 
 ### <a name="to-create-a-new-vendor-card"></a>Skapa ett nytt leverantörskort.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.  
 2. På sidan **Leverantörer** väljer du **Ny**.
 
     Om fler än en leverantörsmall finns, öppnas en sida där du kan välja leverantörsmall. I detta fall, följ nästa två steg.

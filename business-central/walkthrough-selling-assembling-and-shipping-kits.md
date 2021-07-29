@@ -1,6 +1,6 @@
 ---
-title: 'Genomgång: Sälja, sammanställa och leverera satser | Microsoft Docs'
-description: För att stödja just-i-tid-lager och kapaciteten för att anpassa produkter till kundförfrågan, kan monteringsorder automatiskt skapas och kopplas så snart försäljningsorderraden skapas. Kopplingen mellan försäljningsbehov och monteringsleverans hjälper försäljningsorderhandläggare att anpassa monteringsartikeln och lova leveransdatum utifrån komponentens tillgänglighet. Monteringsförbrukning och monteringsutflöde bokförs dessutom automatiskt tillsammans med utleveransen av den kopplade försäljningsordern.
+title: Sälja, sammanställa och leverera satser
+description: För att stödja just-i-tid-lager kan monteringsorder automatiskt skapas och kopplas så snart försäljningsorderraden skapas.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f14defdd15acd82df76d1446b56d86ecda6e3cb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216311"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445207"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
 
@@ -82,7 +82,7 @@ Innan du kan utföra aktiviteterna i den här genomgången måste du göra följ
 -   Installera [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Ange dig själv som distributionslageranvändare på lagerstället WHITE i följande steg:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Distributionslagerpersonal** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
 2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj fältet **Standard**.  
@@ -92,7 +92,7 @@ Innan du kan utföra aktiviteterna i den här genomgången måste du göra följ
 
 Förbered lagerstället WHITE för bearbetning av monteringen i följande steg:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Öppna lagerställekortet för lagerstället WHITE.  
 3.  På snabbfliken **lagerställen** anger du **V-10-0001** i fältet **Till monteringsplats – kod**.  
 
@@ -104,7 +104,7 @@ Förbered lagerstället WHITE för bearbetning av monteringen i följande steg:
 
 Ta bort standardledtiden för interna processer genom att följa dessa steg:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Produktionsinställningar** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Produktionsinställningar** och väljer sedan relaterad länk.  
 2.  På sidan **Produktionsinställningar** klickar du på snabbfliken **planering**, tar bort värdet i fältet **Standard säkerhetsledtid**.  
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
@@ -138,7 +138,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ## <a name="prepare-sample-data"></a>Förbereda exempeldata  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager artikeljournaler** och väljer sedan relaterad länk.  
 2.  Välj fältet **Journalnamn** och välj sedan standardjournalen.  
 3.  Skapa positiva lagerjusteringar på lagerstället WHITE på arbetsdatumet, den 23 januari, genom att ange följande information.  
 
@@ -155,14 +155,14 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Sedan synkroniserar du de nya distributionslagertransaktionerna med lagret.  
 
-5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk. Sidan **Artikeljournal** öppnas.  
+5.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikeljournaler** och väljer sedan relaterad länk. Sidan **Artikeljournal** öppnas.  
 6.  Välj åtgärden **Beräkna dist.lagerjustering**.  
 7.  På sidan **Beräkna dist.lager justering** för att köra funktionen **OK**.  
 8.  På sidan **Artikeljournal** väljer du åtgärden **Bokför** och väljer sedan knappen **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Skapa monteringsartiklarna  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa den första monteringsartikeln utifrån följande information.  
 
@@ -213,7 +213,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="selling-the-assembly-items"></a>Sälja monteringsartiklarna  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa två försäljningsorderrader för kund 62000, The Device Shop, på arbetsdatumet med följande information.  
 
@@ -266,7 +266,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planering för de ATS-artiklar som inte är tillgängliga  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Planeringsförslag** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
 3.  Ange följande filter på sidan **Skapa inköpsförslag**.  
 
@@ -284,7 +284,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Sammanställa och leverera det första ATO-antalet  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerutleverans** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
 
     > [!NOTE]  
     >  I detta avsnitt ska personen som ansvarar för leveransen registrera det avslutade ATO-monteringsarbetet på utleveransraden. Detta arbetsflöde kan uppstå i miljöer där monteringsarbetet ska utföras av personen som ansvarar för leverans, eller av monteringsarbetare i utleveransområdet.  
@@ -303,7 +303,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Utför sedan plockarens uppgift.  
 
-4.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Plockningar** och välj sedan relaterad länk.  
+4.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
 5.  Öppna plockningsdokumentet som du skapade i steg 3 i det här avsnittet.  
 
     Observera värdet i fältet **Källdokument** och att alla plockningsrader avser monteringkomponenter.  
@@ -344,7 +344,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Sammanställa och registrera det andra ATO-antalet  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **monteringsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **monteringsorder** och väljer sedan relaterad länk.  
 
     Observera att ATO-ordern för levererade enheter av sats B fortfarande finns i listan, även om **Återstående antal** är tomt. Det beror på att den kopplade försäljningsordern fortfarande inte har fakturerats helt.  
 
@@ -368,7 +368,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="assembling-the-ats-quantity"></a>Montering av ATS-antalet  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **monteringsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **monteringsorder** och väljer sedan relaterad länk.  
 2.  Öppna monteringsordern för tio enheter av sats A.  
 
     Observera att fältet **Antal att montera** fylls i med det förväntade antalet.  
@@ -380,7 +380,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Utför sedan plockarens uppgift.  
 
-5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Plockningar** och välj sedan relaterad länk.  
+5.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
 6.  Öppna plockningsdokumentet som du skapade i steg 4 i det här avsnittet.  
 
      Fortsätt med att registrera plockningen, utan att ändra standardinformationen.  
@@ -396,7 +396,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Leverera de återstående artiklarna, delvis från materiel och delvis från montering mot kundorder  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Distributionslagerutleverans** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
 2.  Öppna den senaste distributionslagerutleveransen som har skapats på lagerstället WHITE.  
 
     Observera att på raden för de tio enheterna för sats A är fälten **Ant. att utleverera** och **Plockat antal** är tomma.  
@@ -407,7 +407,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Utför sedan plockarens senaste uppgift för den här utleveransen från lager.  
 
-4.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Plockningar** och välj sedan relaterad länk.  
+4.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
 5.  Öppna plockningsdokumentet som du skapade i steg 3 i det här avsnittet.  
 
     Observera att detta plockningsdokument avser monteringsartikeln och inte monteringkomponenterna.  
@@ -427,7 +427,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Distributionslagerutleveransdokumentet tas bort, vilket anger att de berörda lageraktiviteterna är slutförda. I nästa steg verifierar du att försäljningsordern har behandlats.  
 
-10. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.  
+10. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk  
 11. Öppna försäljningsordern för The Device Shop.  
 
     Observera att fältet **Utlevererat antal** innehåller hela kvantiteten på båda raderna.  

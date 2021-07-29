@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du artikelinförselmallar | Microsoft Docs
-description: Med dirigerad artikelinförsel och plockning går det alltid att hitta den lämpligaste lagerstället för artiklarna enligt den artikelinförselmall som du har skapat för distributionslagret, de lagerplatsordningar som du har angett för lagerställena samt de lägsta och högsta antal som du har definierat för de fasta lagerställena.
+title: Så här skapar du artikelinförselmallar
+description: Använd mallar för artikelinförsel när du vill ha de lämpligaste lagerplatserna för de artiklar som du har föreslagit.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784198"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445082"
 ---
 # <a name="set-up-put-away-templates"></a>Skapa artikelinförselmallar
 
@@ -25,7 +25,7 @@ Du kan skapa flera artikelinförselmallar och välja en av dem för att styra al
 
 ## <a name="to-set-up-put-away-templates"></a>Så här skapar du artikelinförselmallar:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **artikelinförselmallar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **artikelinförselmallar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Ange en kod som är unik för den mall som du ska skapa.  
 4. Ange vid behov en kort beskrivning.  

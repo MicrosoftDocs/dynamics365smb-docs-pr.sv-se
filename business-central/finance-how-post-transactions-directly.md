@@ -1,6 +1,6 @@
 ---
-title: Registrera kostnader eller intäkter direkt i redovisningen | Microsoft Docs
-description: Du kan skapa relaterade transaktioner genom att bokföra journalrader på sidan redovisningsjournal för verksamhet som inte representeras av ett dokument, till exempel mindre utgifter eller inbetalningar.
+title: Registrera kostnader eller intäkter direkt i redovisningen
+description: Du kan skapa relaterade transaktioner genom att bokföra journalrader på sidan redovisningsjournal för verksamhet som inte representeras av ett dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e0beff15352fb8e57f57c9d0ffdcd76bc28afbb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b27406f2020b95bc5dd9bc8771b9d632aa6c740f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782386"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444543"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Så här bokför du transaktioner direkt i redovisningen
 
@@ -29,7 +29,7 @@ Till skillnad från transaktioner som har bokförts med dokument som kräver en 
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Bokföra transaktioner direkt i redovisningen
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.
 2. Öppna relevant buntnamn för redovisningsjournalen. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
 3. Fyll i fälten på en ny journalrad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 

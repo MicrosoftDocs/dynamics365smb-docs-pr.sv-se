@@ -1,6 +1,6 @@
 ---
-title: Så här lägger du till fält i en Word-rapportlayout | Microsoft Docs
-description: Beskriver hur du lägger till fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport.
+title: Så här lägger du till fält i en Word-rapportlayout
+description: Detta ämne beskriver hur du lägger till fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771116"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444801"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
@@ -111,7 +111,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
   
  Efterföljande diagram visar den enkla anpassade XML-del från föregående avsnitt i panelen **XML-mappning** i ett Word-dokument.  
   
- ![Klipp av fönstret XML-mappning i Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Klipp av fönstret XML-mappning i Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Om du vill lägga till en rubrik eller ett fält i layouten infogar du en innehållskontroll som mappar till elementet i panelen **XML-mappning**.  
   

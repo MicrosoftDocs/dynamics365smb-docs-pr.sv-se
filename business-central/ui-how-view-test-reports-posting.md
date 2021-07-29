@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 9c2d32fd87112b839e6f60362fbd929870d47138
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774467"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445431"
 ---
 # <a name="view-test-reports-before-posting"></a>Visa testrapporter före bokföring
 När du vill bokföra ett dokument, t. ex. en beställning, faktura eller kreditnota, kan du testa dokumentet för att försäkra dig om att inga valutauppgifter finns som kan spärra bokföringen.
@@ -25,7 +25,7 @@ När du vill bokföra ett dokument, t. ex. en beställning, faktura eller kredit
 >   Följande procedur handlar om testning innan du bokför ett inköpsdokument. Funktionen fungerar på samma sätt för försäljningsdokument.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Så här skriver du ut testrapporter före bokföringen av inköpsfakturor:
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
 2. Öppna den inköpsfaktura som du vill testa.
 3. Välj åtgärden **Testrapport**.  
 

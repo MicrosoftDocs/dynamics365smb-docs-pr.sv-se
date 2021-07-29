@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074668"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444826"
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
 
@@ -23,9 +23,9 @@ Grattis, du har precis har initialiserat ditt första företag i [!INCLUDE[prod_
 
 För att hjälpa dig att göra dig redo för affärer, kan du besöka sidan **Assisterad konfiguration** där du kan starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. Om du vill öppna sidan väljer du bara [den här länken](https://businesscentral.dynamics.com/?page=1801).  
 
-Du kan också välja ikonen ![för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Assisterad konfiguration**.
+Du kan också välja ![Kugghjulsikon för att öppna menyn Inställningar.](media/ui-experience/settings_icon_small.png) och sedan åtgärden **assisterad konfiguration**.
 
-Du hittar även listan över assisterade konfigurationsguider om du väljer ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), anger **Assisterad konfiguration** och sedan väljer relaterad länk.  
+Du kan också hitta listan med guider för assisterad konfiguration om du väljer ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Assisterad konfiguration** och väljer sedan relaterad länk.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ Från och med 2021 års utgivningscykel 1, när du loggar in för första gånge
 
 När du har migrerat data som till exempel kunder, leverantörer och artiklar från ditt befintliga ekonomiska system, är du klar att starta. Men beroende på dina behov kan du ta hjälp av andra assisterade konfigurationsguide på listan.
 
-Om ett område inte omfattas av en assisterad konfiguration väljer du ikonen ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Avancerade inställningar**. I **Avancerade inställningar** ger avsnittet **Manuell inställning** åtkomst till inställningar för sidor där du kan fylla i inställningsfält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+Om ett område inte omfattas av en assisterad konfiguration väljer du ikonen ![Kugghjulsikon för att öppna menyn Inställningar.](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Avancerade inställningar**. I **Avancerade inställningar** ger avsnittet **Manuell inställning** åtkomst till inställningar för sidor där du kan fylla i inställningsfält för alla områden manuellt. Mer information finns i [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > Listan över assisterade konfigurationsguider, tillägg och tjänster som är tillgängliga beror på den användarupplevelse som du väljer för ditt företag. **Essential**-upplevelsen ger åtkomst till färre än vad **Premium**-upplevelsen gör.

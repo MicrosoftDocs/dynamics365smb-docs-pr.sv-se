@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3489ef57da691e408553b1703c4deab17622167f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785629"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444926"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeta med strukturer
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras eller tillverkas av resurser eller maskin resurserna från komponenter. En monteringsstruktur kan också användas för att sälja en överordnad artikel som byggsatser bestående av dess komponenter.
@@ -56,14 +56,14 @@ Det finns två delar för att skapa en monteringsstruktur:
 ## <a name="to-edit-assembly-boms"></a>Så här redigerar du monteringsstrukturer
 Du kan när som helst redigera raderna i en monteringsstruktur. Men tänk på att strukturen kanske används på pågående försäljningar eller sammansättningar av den överordnade, som kan påverkas av ändringen. Välj åtgärden **Används i** för att se i vilka artiklar den används och sedan om försäljnings- eller monteringsorder kan påverkas.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Välj värdet **Ja** i kolumnen **Monteringsstruktur**.
 3. På sidan **Monteringsstruktur**, välj åtgärden **Redigera lista** och ändra sedan fältet efter behov.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Visa komponenter och resurser indragna enligt strukturen
 Från sidan **Monteringsstruktur** kan du öppna en separat sida som visar komponenterna och resurserna med indrag enligt deras strukturplats under monteringsartikeln.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för monteringsartikeln. (Sidan **Monteringsstruktur** på sidan **artiklar** innehåller **Ja**.)
 3. På sidan **artikelkort** väljer du åtgärden **montering** och väljer sedan åtgärden **Monteringsstruktur**.
 4. På sidan **Monteringsstruktur** väljer du åtgärden **visa struktur**.
@@ -78,7 +78,7 @@ Funktionen Expandera struktur finns också på sidan **monteringsstruktur** som 
 
 Följande procedur är baserad på en försäljningsfaktura. Samma steg gäller för andra försäljningsdokument och alla inköpsdokument.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.
 2. Öppna en försäljningsfaktura som innehåller en rad för en monteringsartikel.
 3. Välj rad för en monteringsartikel och radåtgärden **Expandera struktur**.
 

@@ -1,6 +1,6 @@
 ---
-title: 'Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning'
-description: Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan kräva en deposition innan du tillverkar artiklar mot order eller så kan du kräva betalning innan du levererar artiklar till en kund. Använd funktionen i för förskottsbetalning i Business Central för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.
+title: Ställa in och fakturera Förskottsbetaln., försäljning
+description: Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: dacf9e5492f583513e69f2316a0440fce2597269
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6671db4d40b8c57d5144ca23f01bb8c5c176ac42
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216186"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445182"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
 
@@ -72,7 +72,7 @@ I följande procedurer beskrivs hur Phyllis uppgifter ska utföras:
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Så här lägger du upp nummerserier för förskottsbetalningar
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.  
 2.  På sidan **Försäljningsinställningar** expanderar du snabbfliken **Nummerserier**.  
 3.  Kontrollera att nummerserien för bokförda förskottsfakturor i fältet **Försk.fakt.nr.serie (bokförd)** är samma som för bokförda försäljningsfakturor (**Fakturanr-serie (bokförd)**) och att nummerserien för bokförda förskottskreditnotor (**Försk.kredit.nr.serie (bokförd)**) är samma som för bokförda kreditnotor (**Kreditnotenr-serie (bokförd)**).  
 
@@ -88,7 +88,7 @@ Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 189
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Så här tilldelar du kunder och artiklar procentuella standardvärden för förskottsbetalningar
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2.  Öppna kortet för kund 20000 (Trey Research).
 3.  I fältet **Förskottsbetalning %** anger du **30**.  
 4.  Välj **Relaterad**, sedan **Försäljning**, sedan **Förskottsbetalningsprocent**
@@ -106,7 +106,7 @@ Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 189
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Så här kan du skriva in ett konto för utgående förskottsbetalningar i bokföringsinställningarna
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 2.  Markera raden där fältet **Gen. rörelsebokföringsmall** anges till **INRIKES** och fältet **Produktbokföringsmall** anges till **ÅTERFÖRSÄLJNING**.  
 3.  I fältet **Förskottsbet.konto, försäljning** anges relevant konto. Ditt val sparas automatiskt.  
 
@@ -120,7 +120,7 @@ Susan skapar en förskottsfaktura och skickar den till kunden.
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Så här skapar du en försäljningsorder med förskottsbetalning
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan tillhörande länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  För **Kundnr.** välj **20000**.  
 4.  Stäng varningen för förfallet saldo som visas.  
@@ -184,7 +184,7 @@ Kunden betalar förskottsfakturan och Arnie, som arbetar på bokföringsavdelnin
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Så här bokför du betalningar mot förskottsfakturor
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inbetalningsjournaler** och välj sedan tillhörande länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inbetalningsjournaler** och väljer sedan relaterad länk.  
 2.  Fyll i journalraden med följande information.  
 
     |Fältnamn|Skriv in|  
@@ -218,7 +218,7 @@ Nu har Arnie blivit informerad om att artiklarna på ordern har levererats och a
 
 Arnie kan visa historiken för att kontrollera att försäljningfakturan har skapats som avsett.
 
-1.  Välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.  
 
 ## <a name="next-steps"></a>Gå vidare
 

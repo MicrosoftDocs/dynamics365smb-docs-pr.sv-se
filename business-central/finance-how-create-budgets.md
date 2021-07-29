@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a3adebe30e63ea295aed6aa7beffbf581ba1be3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 525cc099b2a9b2630395a092761e0526f4760356
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784896"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444668"
 ---
 # <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
 Om du vill kan du använda flera olika budgetar för samma tidsperioder genom att skapa budgetar med separata namn. Först definierar du budgetnamnet och matar in budgetsiffrorna. Budgetnamnet infogas sedan i alla budgettransaktioner du skapar.  
@@ -29,7 +29,7 @@ Budgetar spelar en viktig roll i business intelligence, exempelvis i bokslut som
 I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. Mer information finns i [Skapa kostnadsbudgetar](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>Så här skapar du en ny redovisningsbudget  
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsbudgetar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Redovisningsbudgetar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Redigera lista** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Välj åtgärden **Redigera budget**.
 4. Högst upp på sidan **Budget** fyller du i fälten för att definiera vad som ska visas.  

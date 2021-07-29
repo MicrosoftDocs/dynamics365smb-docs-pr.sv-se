@@ -1,6 +1,6 @@
 ---
-title: Ange layouten för en kontroll | Microsoft Docs
-description: Du kan skapa och skriva ut dina checkar i flera olika format i överensstämmelse med standarder.
+title: Ange layouten för en kontroll
+description: Du kan skapa och skriva ut dina checkar i flera olika format i överensstämmelse med standarder som anges av dina lokala myndigheter.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24d046d9284797e371a9cca98ad68618bf248be7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781612"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444643"
 ---
 # <a name="select-a-check-layout"></a>Välj en checklayout
 Du kan designa dina checkar så att de uppfyller de normer som fastställts av de lokala myndigheterna. Checkbilder kan vara skrivna ut på engelska, franska, eller spanska.
@@ -23,7 +23,7 @@ Du kan designa dina checkar så att de uppfyller de normer som fastställts av d
 Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska checkbildformat i antingen check-checktalong-check-format eller checktalong-checktalong-check-format.
 
 ## <a name="to-select-a-check-layout"></a>Välj en checklayout genom att
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval – bankkonto** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Rapportval, bankkonto** och väljer sedan relaterad länk.
 2. På sidan **Rapportval – bankkonto** i fältet **Användning** väljer du **Check**.
 3. Välj något av följande rapport-ID:
 
@@ -52,10 +52,10 @@ I uppdatering 15.3 och nyare installeras magnetiskt bläcktecken igenkänningste
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B specifikationer
 I följande avsnitt sammanfattas specifikationerna för de MICR-E-13B teckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
-![MICR E-13B specifikationer](media/font_MICR_E-13B_Specifications.png "MICR E-13B specifikationer")
+![MICR E-13B specifikationer.](media/font_MICR_E-13B_Specifications.png "MICR E-13B specifikationer")
 
 ### <a name="delimiter-characters"></a>Avgränsningstecken
-![Avgränsningstecken](media/font-micr-letters.png "Avgränsningstecken")
+![Avgränsningstecken.](media/font-micr-letters.png "Avgränsningstecken")
 
 Den fullständiga specifikationen av MICR E-13B teckensnitt finns i leverantörens dokumentation här: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -69,17 +69,17 @@ Följande CMC-7 teckensnitt finns tillgängliga [!INCLUDE[prod_short](includes/p
 
 I följande avsnitt sammanfattas specifikationerna för de MICR CMC-7 teckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
-![MICR CMC-7 specifikationer](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 specifikationer")
+![MICR CMC-7 specifikationer.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 specifikationer")
 
 ### <a name="delimiter-characters"></a>Avgränsningstecken
-![Avgränsningstecken](media/font-cmc7-letters.png "Avgränsningstecken")
+![Avgränsningstecken för CMC-7.](media/font-cmc7-letters.png "Avgränsningstecken för CMC-7")
 
 Den fullständiga specifikationen av MICR CMC-7 teckensnitt finns i leverantörens dokumentation här: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Specifikationer för säkra teckensnitt
 I följande avsnitt sammanfattas specifikationerna för kontrollera säkerhetsteckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
-![Kontrollera specifikationer för säkerhetsteckensnitt](media/font_check-security-font_Specifications.png "Kontrollera specifikationer för säkerhetsteckensnitt")
+![Kontrollera specifikationer för säkerhetsteckensnitt.](media/font_check-security-font_Specifications.png "Kontrollera specifikationer för säkerhetsteckensnitt")
 
 Den fullständiga specifikationen av kontrollera säkerhetsteckensnitt finns i leverantörens dokumentation här: (https://www.idautomation.com/security-fonts/).
 

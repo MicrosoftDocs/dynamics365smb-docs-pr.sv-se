@@ -1,6 +1,6 @@
 ---
 title: Konfigurera och använda ett arbetsflöde för godkännande av inköp
-description: Du kan automatisera processen för att godkänna nya eller ändrade transaktioner, t.ex dokument, journalrader och kundkort, genom att skapa arbetsflöden med stegen för godkännandena i fråga. Innan du skapar godkännandearbetsflöden, måste du skapa en godkännare och ersättningsgodkännare för varje godkännandeanvändare. Du kan också ange godkännares beloppsgränser för att definiera vilka försäljnings- och inköpsposter de är behöriga att godkänna. Godkännandebegäranden och andra kan meddelanden skickas som e-post eller intern anteckning. För varje inställning av godkännandeanvändare kan du också ställa in när de tar emot meddelanden.
+description: Den här genom gången tar dig igenom alla de etapper som ingår när du ställer in och använder ett godkännande arbetsflöde för inköp i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/26/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 5c7575f0b3a35536e412757fe90993b764fc3ba5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110985"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445157"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
 
@@ -52,7 +52,7 @@ När du har loggat in som dig själv ställer du in Alicia som en godkännandean
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Så här ställer du in dig själv och Alicia som godkännandeanvändare
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2. Å¨sidan **Användarinställningar för godkännande** väljer du åtgärden **Ny**.  
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Skapa arbetsflödet för godkännande av inköpsorder genom att kopiera stegen f
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Så här skapar och aktiverar du ett arbetsflöde för inköpsordergodkännade
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflöden** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. På sidan **Arbetsflöden** väljer du **Åtgärder**, sedan **Ny** och sedan åtgärden **Nytt arbetsflöde från mall**.  
 3. På sidan **Arbetsflödesmallar** väljer du arbetsflödesmallen kallad **Arbetsflöde för godkännande av inköpsorder**.  
 
@@ -100,7 +100,7 @@ Använd det nya arbetsflödet Arbetsflöde för godkännande av inköpsfaktura g
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Så här begär du godkännande av en inköpsorder, som Alicia.
 
 1. Logga in som Alicia.
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan tillhörande länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 3. Markera raden om du vill öppna inköpsorder 106001.  
 4. På sidan **Inköpsorder** väljer du **Åtgärder**, sedan **Begär godkännande** och sedan åtgärden **Skicka godkännandebegäran**.  
 

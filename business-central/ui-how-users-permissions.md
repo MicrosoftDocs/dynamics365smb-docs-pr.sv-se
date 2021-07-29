@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 852eb61a479f03b61c648904e2179168a5c18001
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba584f11b1ac52146a7539b8ac08cb9ed67bcdba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774492"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445307"
 ---
 # <a name="create-users-according-to-licenses"></a>Skapa användare enligt licenser
 
@@ -43,7 +43,7 @@ Mer information finns i [Administration av Business Central Online](/dynamics365
 När du har lagt till användare eller ändrat användarinformation i administrationscentret för Microsoft 365 kan du snabbt importera användarinformationen till [!INCLUDE[prod_short](includes/prod_short.md)]. Här ingår även licenstilldelning. 
 
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med ett administratörskonto.
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Användare** och välj sedan relaterad länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.  
 3. Välj **Uppdatera användare från Microsoft 365**.
 
 Om du lägger till nya användare är nästa steg att tilldela användargrupper och behörigheter. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md). Om du uppdaterar användarinformation och uppdateringen innehåller en licensförändring, kommer användarna att tilldelas rätt användargrupp och deras behörighetsuppsättningar uppdateras. Mer information finns i [Hantera behörigheter via användargrupper](ui-define-granular-permissions.md).  
@@ -60,7 +60,7 @@ Mer information om hur du synkroniserar användarinformation med Microsoft 365 f
 
 I online-distributioner kan du ta bort en användares åtkomst till [!INCLUDE[prod_short](includes/prod_short.md)]. Alla referenser till användaren behålls, men användaren kan inte logga in och aktiva sessioner för användaren stoppas.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Användare** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. Öppna sidan **Användarekor** för den aktuella användaren och välj **Status** i fältet **Tillstånd**.
 3. Om du vill ge användaren åtkomst igen, ställ in fältet **Status** till **Aktiveras**.
 
@@ -137,7 +137,7 @@ Vid lokala distributioner kan administratören skapa, redigera och ta bort anvä
 
 ### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Redigera eller ta bort en användare i en lokal distribution
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Användare** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. Markera användaren som du vill redigera och välj åtgärden **Redigera**.
 3. På sidan **användarkort** ändrar du informationen efter behov.  
 4. Om du vill radera en användare väljer du användaren du vill radera och väljer sedan åtgärden **Radera**.

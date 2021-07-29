@@ -1,6 +1,6 @@
 ---
-title: Så här anger du när och hur användare ska meddelas | Microsoft Docs
-description: När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg på sidan Konfigurera meddelanden och Meddelandeschema. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen Ändra meddelandeinställningar i något meddelande.
+title: Ange när och hur meddelanden ska tas emot
+description: När du ställer in användare i godkännandearbetsflöden anger du på sidan Meddelandeinställning och Aviseringsschema hur och när varje användare får aviseringar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d96d094547b71fc722c06facb80a131786df0e58
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774617"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445051"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Ange när och hur meddelanden ska tas emot
 När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg på sidan **Konfigurera meddelanden** och **Meddelandeschema**. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen **Ändra meddelandeinställningar** i något meddelande.  
@@ -31,7 +31,7 @@ När du konfigurerar användare i godkännandearbetsflöden måste du ange hur o
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Ange när och hur användare ska meddelas  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användarinställningar för godkännande** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2.  Markera raden för användaren som du vill konfigurera meddelandeinställningar för och välj sedan åtgärden **Konfigurera meddelanden**.  
 3.  På sidan **Konfigurera meddelanden** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
