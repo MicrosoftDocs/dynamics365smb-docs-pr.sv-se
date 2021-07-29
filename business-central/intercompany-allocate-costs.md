@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786329"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444261"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Fördela kostnader till koncerninterna partner
 När du använder koncerninterna bokföringar för att överföra dokument mellan partnerföretag, kontrollerar de momsrelaterade inställningarna (främst rörelsebokföringsmallen för mots) som tilldelats kund- eller leverantörskonton (som är kopplade till den koncerninterna partnern) om, och hur, moms beräknas och registreras. Du kan också göra kostnadsfördelningar direkt från en inköpsorder till partnerföretag. Om du till exempel registrerar en inköpsfaktura från en extern leverantör och vill distribuera vissa eller samtliga kostnader till en eller flera koncerninterna partner.
@@ -30,7 +30,7 @@ Du kan fördela kostnader till en eller flera koncerninterna partner med hjälp 
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Så här fördelar du kostnader med hjälp av en koncernintern redovisningsjournal
 Gör så här om du vill ange en rad i en koncernintern redovisningsjournal. 
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Koncernintern redovisningsjournal** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Koncernintern redovisningsjournal** och väljer sedan relaterad länk.
 2. Vid behov anger du det dokumentnummer som finns på fakturan från leverantören i fältet **Externt dokumentnr**.
 3. I fältet **Dokumenttyp** väljer du **Faktura**.
 4. I fältet **Kontotyp** väljer du **Leverantör**.
@@ -57,7 +57,7 @@ I följande procedur beskrivs hur du fördelar kostnader med hjälp av en inköp
 > [!NOTE]
 > För att slutföra dessa steg måste du anpassa sidan **Inköpsfaktura** genom att lägga till fälten **Intern partnerkod**, **Ref.typ för intern partner** samt **Intern partner**. Mer information finns i [Så här börjar du anpassa en sida genom den anpassningsbanderollen](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Inköpsfakturor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
 2. I fältet **Typ** väljer du **Redovisningskonto**.
    
    Redovisningskonto är det enda alternativ som du kan använda för att fördela kostnader.  
@@ -70,7 +70,7 @@ I följande procedur beskrivs hur du fördelar kostnader med hjälp av en inköp
 1. Om du vill bokföra inköpsordern väljer du **Bokför**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Så här skickar du fördelade kostnader till koncerninterna partner
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Transaktioner för int. utkorg** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transaktioner för int. utkorg** och väljer sedan relaterad länk.
 2. Klicka på raderna som ska skickas och välj sedan åtgärden **Skicka till intern partner**. 
 3. Om du vill fördela kostnaderna väljer du åtgärden **Slutför radåtgärder**.
 

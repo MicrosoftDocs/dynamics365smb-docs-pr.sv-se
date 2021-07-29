@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: caacf8eb62dd9539f050dbf55543dee862a6d7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779128"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444493"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
 Det här avsnittet beskrivs rapporterna i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region. 
@@ -25,7 +25,7 @@ Du kan använda följande rapporter:
 * **EU förs.lista** Europeiska gemenskapens (EG) rapport med försäljningslista visar momsbeloppen (VAT) som du har samlat in för försäljning till momsregistrerade kunder i EU-länderna.  
 * Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder och från leverantörer i alla länder som använder moms.
 
-Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Momstransaktioner** och välj sedan relaterad länk för att visa momstransaktioner.
+Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. För att se momstransaktioner, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **momstransaktioner** och väljer sedan relaterad länk.
 
 > [!NOTE]
 > Varje [!INCLUDE[prod_short](includes/prod_short.md)] miljö är avsedd att hantera lagstadgad rapportering i ett enda land. Den nederländska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] hanterar momsrapportering i Nederländerna men inte i andra länder. På samma sätt hanterar USA-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] 1099 rapportering i USA och saknar stöd för att åberopa momsrapportering i andra länder, såvida det inte har gjorts av ett tillägg som levererats av vårt partner ekosystem eller en kundspecifik kodändring.
@@ -58,19 +58,19 @@ För momsreturen kan du ange transaktionerna som ska inkluderas:
 
 Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till den skattemyndighetens webbplats. Detta kräver att du upprättar ett konto med skattemyndigheten. Om du har ett konto kan du aktivera en service-anslutning som finns i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceanslutningar** och välj sedan korrekt länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceanslutningar** och väljer sedan lämplig länk.
 2. Fyll i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > Det är en bra idé att testa anslutningen. Genom att välja **testläge** och sedan skapa och skicka en momsrapport som beskrivs i avsnittet _att förbereda och skicka en momsrapport_. I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Så här ställer du in momsrapporter i [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för momsrapport** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för momsrapport** och väljer sedan relaterad länk.  
 2. Om du vill låta användarna ändra och skicka om rapporten, väljer du kryssrutan **ändra skickade rapporter**.  
 3. Välj nummerserien som ska användas för varje rapport.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Förbereda och skicka en momsrapport
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **EU-försäljningslista** eller **Momsretur** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **EU-försäljningslista** eller **momsretur** och väljer sedan relaterad länk.  
 2. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Om du vill generera innehållet i rapporten, väljer du åtgärden **Föreslå rader**.  
 

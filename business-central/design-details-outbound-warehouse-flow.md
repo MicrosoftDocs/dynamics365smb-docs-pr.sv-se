@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – utgående distributionslagerflöde | Microsoft Docs
-description: Det utgående artikelflödet i distributionslagret inleds med en förfrågan från utsläppta källdokument att ta artiklarna ut från distributionslagerstället, antingen för att levereras till en extern part eller till en annan företagplats. Från lagringsområdet utförs lageraktiviteter på olika komplexitetsnivåer för att få ut artiklarna till utleveransställena.
+title: Designdetaljer - utgående distributionslagerflöde
+description: I det här avsnittet beskrivs hur det avgående lagerflödet är från släppta källdokument till artiklar som är klara för utleverans.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777779"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442391"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: utgående distributionslagerflöde
 
@@ -54,7 +54,7 @@ Dessutom finns följande interna källdokument som fungerar som utgående källo
 
  Följande diagram visar de utgående distibutionslagerflödena efter dokumenttyp i grundläggande lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
- ![utgående flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_outbound_basic_flow.png "utgående flöde i grundläggande lagerkonfigurationer")  
+ ![utgående flöde i grundläggande lagerkonfigurationer.](media/design_details_warehouse_management_outbound_basic_flow.png "utgående flöde i grundläggande lagerkonfigurationer")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Släpp källdokumentet/skapa lagerplockning eller transport
 
@@ -81,7 +81,7 @@ Dessutom finns följande interna källdokument som fungerar som utgående källo
 
  Följande diagram visar de utgående distibutionslagerflödet efter dokumenttyp i avancerade lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
- ![utgående flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_outbound_advanced_flow.png "utgående flöde i avancerade lagerkonfigurationer")  
+ ![utgående flöde i avancerade lagerkonfigurationer.](media/design_details_warehouse_management_outbound_advanced_flow.png "utgående flöde i avancerade lagerkonfigurationer")  
 
 ### <a name="1-release-source-document"></a>1: Släpp källdokument
 

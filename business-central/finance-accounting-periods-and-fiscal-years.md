@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4daacd73987e4e747f97d288ecfb51b564de7e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781042"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442831"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbeta med bokföringsperioder och räkenskapsår
 
@@ -35,7 +35,7 @@ Du kan skapa redovisningsperioder i bulk genom att använda batchjobbet **Skapa 
 
 Använd batch-jobbet **skapa räkenskapsår** om du vill dela upp ett räkenskapsår i lika långa perioder.  
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Bokföringsperioder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Skapa år**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. I fältet **Startdatum** anger du det datum när räkenskapsåret börjar.  
 4. I fältet **Antal perioder** ange antalet bokföringsperioder som räkenskapsåret ska innehålla. Det kan finnas upp till 365 perioder per år.  
@@ -46,7 +46,7 @@ Använd batch-jobbet **skapa räkenskapsår** om du vill dela upp ett räkenskap
 
 Om redovisningsperioder för räkenskapsåret har olika varaktighet såsom 4-4-5-kalendern som används i detaljhandeln kan du manuellt ställa in den.  
   
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Bokföringsperioder** och väljer sedan relaterad länk.  
 2. I fältet **Startdatum** anger du det datum när räkenskapsåret börjar. Fältet **Namn** visar namnet på månaden.  
 3. Markera kryssrutan **Nytt räkenskapsår** för att indikera att detta är den första perioden under året. [!INCLUDE[prod_short](includes/prod_short.md)] kommer att använda denna period för att bestämma vilka perioder som avslutas vid årets slut.
 4. Upprepa steg 2 och 3 för varje återstående period.  
@@ -58,7 +58,7 @@ Avsluta räkenskapsåret är en av åtgärderna för att avsluta böckerna. Efte
 > [!NOTE]  
 > Du måste alltid ha minst ett oavslutat räkenskapsår. När du avslutar ett år, försäkra dig om att ett nytt år har skapats. Notera även att efter att du avslutat ett år kan du inte ändra startdatumet för det följande året.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **bokföringsperioder** och välj sedan relaterad länk.  
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Bokföringsperioder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Avsluta år**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bokför transaktioner till ett avslutat räkenskapsår.

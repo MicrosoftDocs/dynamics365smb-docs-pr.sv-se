@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b146e2a515ffd2a200574c4ce059c8a0205b602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787408"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443574"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering 
 
@@ -107,7 +107,7 @@ Den största filstorleken som du kan överföra till [!INCLUDE[prod_short](inclu
 Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. I C5 använd funktionen **exportera databas** för att exportera data. Skicka sedan exportmappen till en komprimerad mapp.  
-2. I [!INCLUDE[prod_short](includes/prod_short.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), anger **Datamigrering** och väljer sedan **Datamigrering**.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **datamigrering** och välj **datamigrering**.  
 3. Följ instruktionerna i assisterad konfiguration. Se till att använda **Importera från Microsoft Dynamcis C5 2012** som datakälla.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visa status för migreringen.

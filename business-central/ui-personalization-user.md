@@ -1,6 +1,6 @@
 ---
-title: Anpassa sidor | Microsoft Docs
-description: Lär dig mer om att anpassa användargränssnittet så att det passar ditt sätt att arbeta i Business Central.
+title: Anpassa sidor
+description: Lär dig mer om att anpassa användargränssnittet och din arbetsyta så att det passar ditt sätt att arbeta och personliga inställningar i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783317"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442681"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 Du kan anpassa arbetsytan för att passa ditt arbete och dina inställningar genom att ändra sidor så att de endast visar den information som du behöver när du behöver den. De anpassningar som du gör kommer bara att påverka bara vad som visas, inte vad andra användare ser.
@@ -42,7 +42,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>För at börja anpassa en sida via banderollen **Anpassa**
 1. Öppna sidan du vill anpassa.
-2. I det övre högra hörnet väljer du ikonen ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **Anpassa**.
+2. Längst upp till höger, välj ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **anpassa**.
 
     Banderollen **Anpassa** visas längst upp och anger därmed att du kan börja göra ändringar.
 

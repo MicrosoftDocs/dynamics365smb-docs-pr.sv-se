@@ -1,20 +1,20 @@
 ---
 title: Visa databaslås
-description: Lär dig mer om hur du kan visa information om databaslås direkt från klientgränssnittet i Business Central.
+description: Lär dig mer om hur du kan visa information om kunddatabaslås direkt från klientgränssnittet i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: b53677ab57d6c48b015bb0dd47ea6e315f8e80c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb42b07832d33c995299d5033b8c548a37a86f56
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776922"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443110"
 ---
 # <a name="viewing-database-locks"></a>Visa databaslås
 
@@ -24,7 +24,7 @@ Användare kan hindras från att slutföra transaktioner på den låsta datan. O
 
 ## <a name="to-view-database-locks"></a>För att visa databaslås
 
-Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Databaslås** och välj sedan relaterad länk.
+Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Databaslås** och väljer sedan relaterad länk.
 
 Sidan **Databaslås** ger en översiktsbild av alla aktuella databaslås.
 

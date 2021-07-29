@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Omvärdering | Microsoft Docs
-description: Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.
+title: Designdetaljer - Omvärdering
+description: Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215784"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444311"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Omvärdering
 Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.  
@@ -39,7 +39,7 @@ Eftersom omvärderingen kan göras vilket datum som helst, måste du ha regler f
 ### <a name="example"></a>Exempel  
 Följande exempel visar när en PIA-artikel övergår till att bli en del av lagret. Följande exempel baseras på produktionen av en kedja med 150 länkar.  
 
-![PIA – omvärdering av lager](media/design_details_inventory_costing_10_revaluation_wip.png "PIA – omvärdering av lager")  
+![PIA – omvärdering av lager.](media/design_details_inventory_costing_10_revaluation_wip.png "PIA – omvärdering av lager")  
 
 **1Q**: Användaren bokför de inköpta länkarna som inlevererade. Följande tabell visar den resulterande artikeltransaktionen.  
 

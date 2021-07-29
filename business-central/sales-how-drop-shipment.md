@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: beb78a3526b95af228ab313b67174633902e7bd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5ca9eb1dc14a75d84072f28e7f72fc8b5e89373
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778828"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443413"
 ---
 # <a name="make-drop-shipments"></a>Skapa direktleveranser
 
@@ -52,7 +52,7 @@ Du kan nu instruera leverantören att leverera artiklarna till kunden, till exem
 
 Du kan också använda inköpskalkylarket för att skapa inköpsordern för leverantören. Fördelen med att använda inköpskalkylarket är att du kan skapa inköpsorder för alla utestående direktleveranser, så att du inte behöver skapa var och en enskilt.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpskalkylark** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inköpskalkylark** och väljer sedan relaterad länk.
 2. Välj åtgärden **Direktleverans** och välj sedan åtgärden **Hämta förs.order**.
 3. Välj **OK**.
 4. Granska inköpsorderraderna och i fältet **Leverantörsnr** väljer du leverantör som levererar erforderliga varor. 
@@ -66,7 +66,7 @@ Du kan också använda inköpskalkylarket för att skapa inköpsordern för leve
 
 När leverantören har levererat artiklarna kan du bokföra försäljningsordern som levererad. Du kan också bokföra inköpsordern, men endast med alternativet **Ta emot** tills försäljningsordern har fakturerats.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Öppna den säljorder som du skapade i [För att skapa en säljorder för dropshipment](#to-create-a-sales-order-for-drop-shipment).
 3. I fältet **Levereras antal** anger du hur många av orderkvantiteten som ska levereras, hela eller delvis orderkvantitet.
 4. Välj åtgärden **Bokför** eller **Bokför och skicka**.

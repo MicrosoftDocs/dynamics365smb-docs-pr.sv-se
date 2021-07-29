@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fe04fc290f10324105d4d9ca01e13166bf2ad8f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a85a8acda1789997639c78c5d6028a14dbb75af
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773085"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443949"
 ---
 # <a name="managing-database-access-intent"></a>Hantera åtkomstmetod för databas 
 
@@ -33,7 +33,7 @@ Inom databasterminologin kallas denna funktion vanligen för *läsningsskalning*
 
 ## <a name="to-change-the-database-access-intent"></a>Så här ändrar du åtkomstmetod för databaser
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Metodlista för databasåtkomst** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Metodlista för databasåtkomst** och väljer sedan relaterad länk.
 
     På sidan visas alla rapporter, sidor och frågor. I kolumnen **Åtkomstmetod** finns ett av följande värden:
 

@@ -1,6 +1,6 @@
 ---
-title: Förbereda migrering av kunddata med mallar | Microsoft Docs
-description: Lär dig använda konfigurationsfiler för att strukturera befintliga kunddata innan du migrerar data till det nya företaget i Business Central.
+title: Förbereda migrering av kunddata med mallar
+description: Lär dig använda konfigurationsfiler för att strukturera befintliga kunddata innan du migrerar huvuddata till det nya företaget i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776997"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443160"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Förbereda migrering av kunddata med mallar
 
@@ -47,7 +47,7 @@ När du väljer en befintlig datamall måste du utvärderar om de mallar som du 
 > [!TIP]  
 > Med dessa datamallar kan du också snabbt skapa nya poster. Använd dem för snabbare och mer korrekt dataskapande. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsmallar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsmallar** och väljer sedan relaterad länk.  
 2. På sidan **Konfigurationsmallar** väljer du en datamall i listan och sedan åtgärden **Redigera**.  
 
 Om standardmallarna inte uppfyller behoven kan du skapa nya mallar eller lägga till fält i en befintlig mall. Om standardmallarna är tillräckliga, kan du använda dem för att skapa transaktioner som baseras på huvuddatamallar.
@@ -100,7 +100,7 @@ Tabell-ID, tabellnamn och rader på den befintliga datamallen infogas i den nya 
 
 Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.
 2. Lägg till en tabell i listan eller välj en befintlig tabell. Mer information finns i [Administrera företagskonfigurationer i ett kalkylark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Välj åtgärden **Visa fält** för att definiera de fält i tabellen som du vill ta med i mallen.
 4. Välj åtgärden **Exportera till mall**.
@@ -130,11 +130,11 @@ Du kan använda strukturen av data som finns i datamallarna för att konvertera 
 
 Nedan visas hur du skapar ett artikelkort från en artikeldatamall. Du kan skapa en post från en datamall med samma procedur.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsmallar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsmallar** och väljer sedan relaterad länk.  
 2. Välj mallen **Artikel** och sedan åtgärden **Redigera**. För mer information, se [Att skapa en datamall](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Välj åtgärden **Skapa instans**. Ett artikelkort skapas.  
 4. Välj knappen **OK**.  
-5. Om du vill granska det nya artikelkortet väljer du ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+5. För att granska det nya artikelkortet, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 6. Öppna det nya artikelkortet.  
 7. Expandera olika snabbflikar och verifiera att informationen skapas rätt på dem.  
 

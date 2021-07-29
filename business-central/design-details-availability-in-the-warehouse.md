@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215509"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442541"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Disposition i distributionslagret
 Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributionslagret, så att avgående beställningar kan flöda effektivt och ge bästa möjliga leveranser.  
@@ -47,7 +47,7 @@ Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusi
 
  Följande diagram visar de olika elementen i beräkningen.  
 
- ![Tillgänglig för plockning med reservationsöverlappning](media/design_details_warehouse_management_availability_2.png "Tillgänglig för plockning med reservationsöverlappning")  
+ ![Tillgänglig för plockning med reservationsöverlappning.](media/design_details_warehouse_management_availability_2.png "Tillgänglig för plockning med reservationsöverlappning")  
 
 ## <a name="quantity-available-to-reserve"></a>Disponibelt antal att reservera  
  Eftersom begreppen för lagerplatsinnehåll och reservation finns till samtidigt, måste antalet artiklar som är disponibla att reservera justeras mot fördelningar till utgående distributionslagerdokument.  
@@ -72,7 +72,7 @@ Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusi
 
  Följande diagram visar de olika elementen i beräkningen.  
 
- ![Tillgänglig för reservering per lagerställefördelning](media/design_details_warehouse_management_availability_3.png "Tillgänglig för reservering per lagerställefördelning")  
+ ![Tillgänglig för reservering per lagerställefördelning.](media/design_details_warehouse_management_availability_3.png "Tillgänglig för reservering per lagerställefördelning")  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  

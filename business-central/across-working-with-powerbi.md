@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7f2e2fe9719d25e13a33cf1943e7a054a70edffd
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935367"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444049"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -27,7 +27,7 @@ Power BI-rapporter ger dig insikter i [!INCLUDE[prod_short](includes/prod_short.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] fungerar tillsammans med Power BI-tjänsten. Rapporter som ska visas i [!INCLUDE [prod_short](includes/prod_short.md)] lagras i en Power BI-tjänst. I [!INCLUDE [prod_short](includes/prod_short.md)] kan du växla mellan den rapport som visas i Power BI-delen till valfri Power BI-rapport som finns i din Power BI-tjänst. Första gången du loggar in på [!INCLUDE [prod_short](includes/prod_short.md)] och ända fram tills du ansluter till en Power BI-tjänst kommer delarna att vara tomma enligt följande:
 
-![Power BI-del i Business Central](./media/power-bi-part.png)
+![Power BI-del i Business Central.](./media/power-bi-part.png)
 
 ## <a name="get-started"></a>Kom igång
 

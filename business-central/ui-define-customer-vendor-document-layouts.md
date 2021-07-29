@@ -1,6 +1,6 @@
 ---
-title: Tilldela särskild dokumentlayout till kunder eller leverantörer | Microsoft Docs
-description: När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att ange att valda layouter ska användas för de dokument som du skapar för kunden eller leverantören i fråga.
+title: Tilldela dokumentets layouter för kunder eller leverantörer
+description: När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att de används för de dokument som du skapar för kunden eller leverantören i fråga.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 086491f30ef0a223e5bf8a559af26b848e54d344
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773561"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443749"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definiera dokumentlayout för kunder och leverantörer
 När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort i syfte att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t. ex. **påminnelse**, **utleverans** och **bekräftelse**.
@@ -31,7 +31,7 @@ Innan du kan definiera vilken dokumentlayout som ska användas för vilka proces
 Nedan beskrivs hur du definierar olika layouter för försäljningsdokument från ett kundkort. Stegen är desamma för layouter för inköpsdokument från ett leverantörskort.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Så här aktiverar du alla tillgängliga försäljningsdokument för en kund
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kortet för den kund för vilken du vill definiera dokumentlayout per affärsprocedur.
 3. På sidan **Kundkort** väljer du sidan **Dokumentlayouter**.
 4. På sidan **Dokumentlayouter**, välj åtgärden **Kopiera från rapporturval**.

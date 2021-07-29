@@ -1,6 +1,6 @@
 ---
-title: Så här anger du data i Business Central | Microsoft Docs
-description: Lär dig mer om allmänna funktioner som hjälper dig att ange data i fälten.
+title: Hur du anger du data i Business Central
+description: Det finns många allmänna funktioner som hjälper dig att ange data lättare, snabbare och mer exakt. De grundläggande principerna och de avancerade funktionerna beskrivs här.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784821"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443674"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -93,7 +93,7 @@ Listan nedan ger användbar information om hur du använder snabbinmatning.
 
 Om du vill ställa in snabbinmatning för fält använder du anpassning.
 
-1. Starta anpassning genom att välja ikonen ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **Anpassa**.
+1. Starta anpassningen genom att välja ![inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **anpassa**.
 2. Markera ett fält som du vill ändra. Markera motsvarande kolumnrubrik i listor. Välj sedan antingen **Inkludera i snabbinmatning** eller **Exkludera från snabbinmatning**.
 
 Mer information om anpassning finns i [Anpassa arbetsyta](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Du får särskilt fördelar när du arbetar med stora radartikellistor och du vi
 
 ### <a name="switching-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
 
-För att fokusera på radartiklar väljer du var som helst i radartikeldelen och välj ![ikonen Fokusläge](media/focus-mode.png "Ikonen Fokusläge") i övre högra hörnet eller tryck på Ctrl+Shift+F12.
+Om du vill fokusera på rad artiklar markerar du var som helst i delen för rad objekt och väljer ![ikonen fokusläge.](media/focus-mode.png "Ikonen Fokusläge") i det övre högra hörnet eller på Ctrl + Skift + F12.
 
-Om du vill växla tillbaka till normal vy, välj ![ikonen Fokusläge](media/focus-mode.png "Ikonen Fokusläge") eller tryck på Ctrl+Shift+F12 igen.
+Om du vill växla tillbaka till normal läget väljer du ![ikonen fokusläge.](media/focus-mode.png "Ikonen Fokusläge") eller tryck på Ctrl + Skift + F12 igen.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multikörning över flera sidor
 
@@ -148,15 +148,15 @@ Du kan öppna ett kort eller en dokument sida i ett nytt fönster. När du öppn
 - Hantera avbrott för den aktuella uppgiften, t. ex. inkommande samtal.
 - Håll ett fönster öppet för en pågående uppgift medan du startar eller slutför en annan uppgift i fönster.
 
-Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
+Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster.](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller på Alt + Skift + W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
+Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster.](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller på Alt + Skift + W.
 
 > [!NOTE]
-> När du öppnar andra sidor från ett kort eller dokument som öppnas i ett nytt fönster öppnas sidorna i ett nytt fönster även om du inte väljer ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster").
+> När du öppnar andra sidor från ett kort eller dokument som öppnas i ett nytt fönster öppnas sidorna i ett nytt fönster även om du inte väljer ![Öppna nytt fönster.](media/open-new-window-icon.png "Ikonen Öppna nytt fönster").
 
 > [!NOTE]
 > Om du arbetar i Safari kan det hända att det nya fönstret inte öppnas i popup-blockeraren. I så fall anger du produktens URL som en tillåten webbplats. För information, se [Ändra inställningar i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

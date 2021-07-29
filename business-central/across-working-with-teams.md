@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074593"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444024"
 ---
 # <a name="sharing-business-central-records-in-microsoft-teams"></a>Dela Business Central-poster i Microsoft Teams
 
@@ -30,7 +30,7 @@ I [!INCLUDE [prod_short](includes/prod_short.md)]-appen kan du:
 - Kopiera en länk till en Business Central-post och klistra in den i en Teams-konversation så att den kan delas med dina medarbetare. Appen kommer sedan att utöka länken till ett kompakt, interaktivt kort som visar information om posten.
 - När ni väl befinner er i konversationen kan du och dina medarbetare visa mer information om posten, redigera data och vidta åtgärder &mdash; utan att lämna Teams.
 
-[![Team-integrering med Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Team-integrering med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Förutsättningar
 
@@ -49,13 +49,13 @@ I [!INCLUDE [prod_short](includes/prod_short.md)]-appen kan du:
 
 3. Kopiera hela URL-adressen från webbläsarens adressfält.
 
-   ![Kopiera URL-adress för Business Central från webbläsare](media/teams-url-v2.png)
+   ![Kopiera URL-adress för Business Central från webbläsare.](media/teams-url-v2.png)
 4. Gå till Team och starta en konversation, som kan vara chatt med en person, en grupp personer eller en teamkanal.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Klistra in URL-adressen i meddelanderutan där du skriver ett meddelande.
 
-   ![Klistra in Business Central-URL i Team](media/teams-paste-url-v2.png)
+   ![Klistra in Business Central-URL i Team.](media/teams-paste-url-v2.png)
 6. Första gången du klistrar in en länk i en konversation ombeds du logga in på [!INCLUDE [prod_short](includes/prod_short.md)] och ge appen tillstånd att hämta data. Följ bara instruktionerna på skärmen.
 
     > [!NOTE]
@@ -90,6 +90,8 @@ Mer information om hur du arbetar med kort och kortinformation finns i [Vanliga 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  
 [Vanliga frågor och Svar om Teams](teams-faq.md)  
+[Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams](across-search-contacts-teams.md)  
+[Ändra företag och andra inställningar i Teams](across-teams-settings.md)  
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

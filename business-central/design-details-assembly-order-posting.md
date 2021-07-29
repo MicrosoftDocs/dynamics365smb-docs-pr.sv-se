@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Bokföring av monteringsorder | Microsoft Docs
-description: Monteringsorderbokföring baserad på samma principer som när du bokför de liknande aktiviteterna försäljningsorder och produktionförbrukning/utflöde. Principerna kombineras genom att monteringsorder har sitt eget användargränssnitt för bokföring, liknande det för försäljningsorder, medan den faktiska transaktionsbokföringen sker i bakgrunden som direkta artikel- och resursjournalbokföringar, som det för produktionsförbrukning, utflöde och kapacitet.
+title: Designdetaljer - Bokföring av monteringsorder
+description: Monteringsorderbokföring baserad på samma principer som när du bokför de liknande aktiviteterna försäljningsorder och produktionförbrukning/utflöde.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216009"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442566"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokföring av monteringsorder
 Monteringsorderbokföring baserad på samma principer som när du bokför de liknande aktiviteterna försäljningsorder och produktionförbrukning/utflöde. Principerna kombineras genom att monteringsorder har sitt eget användargränssnitt för bokföring, liknande det för försäljningsorder, medan den faktiska transaktionsbokföringen sker i bakgrunden som direkta artikel- och resursjournalbokföringar, som det för produktionsförbrukning, utflöde och kapacitet.  
@@ -31,14 +31,14 @@ Följande journalbokföringar uppstår under monteringsorderbokföring:
 
 Följande diagram visar strukturen på artikel- och resurstransaktioner som kommer från monteringsorderbokföring.  
 
-![Artikel-, resurs- och kapacitetstransaktioner som skapas vid monteringsorderbokföring](media/design_details_assembly_posting_1.png "Artikel-, resurs- och kapacitetstransaktioner som skapas vid monteringsorderbokföring")  
+![Artikel-, resurs- och kapacitetstransaktioner som skapas vid monteringsorderbokföring.](media/design_details_assembly_posting_1.png "Artikel-, resurs- och kapacitetstransaktioner som skapas vid monteringsorderbokföring")  
 
 > [!NOTE]  
 >  Maskinen och produktionsgrupper inkluderas för att visa att kapacitetstransaktioner skapas från både produktion och montering.  
 
 Följande diagram visar hur monteringsdata flödar till transaktioner under bokföringen:  
 
-![Monteringsrelaterat transaktionsflöde vid bokföring](media/design_details_assembly_posting_2.png "Monteringsrelaterat transaktionsflöde vid bokföring")  
+![Monteringsrelaterat transaktionsflöde vid bokföring.](media/design_details_assembly_posting_2.png "Monteringsrelaterat transaktionsflöde vid bokföring")  
 
 ## <a name="posting-sequence"></a>Bokföringssekvens  
 Bokföring av en monteringsorder uppstår i följande ordning:  
@@ -69,7 +69,7 @@ Funktionen för ordernivåidentifiering används i konverteringscenarion, produk
 
 Följande grafik visar strukturen för justeringstransaktionen och hur monteringskostnader justeras.  
 
-![Monteringsrelaterat transaktionsflöde vid kostnadsjustering](media/design_details_assembly_posting_3.png "Monteringsrelaterat transaktionsflöde vid bokföring")  
+![Monteringsrelaterat transaktionsflöde vid kostnadsjustering.](media/design_details_assembly_posting_3.png "Monteringsrelaterat transaktionsflöde vid bokföring")  
 
 ### <a name="performing-the-adjustment"></a>Utföra justeringen  
 Distribution av identifierade justeringar från material- och resurskostnader till monteringsutflödetransaktionerna utförs av batchjobbet **Justera kost. – artikeltrans.**. Den innehåller funktionen Gör justeringar på flera nivåer som består av följande två element:  
@@ -77,7 +77,7 @@ Distribution av identifierade justeringar från material- och resurskostnader ti
 -   Gör monteringsorderjustering – som flyttar fram kostnad från material och resursförbrukning till monteringsutflödestransaktionen. Rad 5 och 6 i algoritmen nedan ansvarar för det.  
 -   Gör justeringar på en nivå – som flyttar fram kostnader för enskilda artiklar med deras värderingsprincip. Rad 9 och 10 i algoritmen nedan ansvarar för det.  
 
-![Sammanfattning av algoritmen för kostnadsjustering för monteringsbokföring](media/design_details_assembly_posting_4.jpg "Sammanfattning av algoritmen för kostnadsjustering för monteringsbokföring")  
+![Sammanfattning av algoritmen för kostnadsjustering för monteringsbokföring.](media/design_details_assembly_posting_4.jpg "Sammanfattning av algoritmen för kostnadsjustering för monteringsbokföring")  
 
 > [!NOTE]  
 >  Elementet Gör PIA-justeringar, på rad 7 och 8, är ansvarigt för att flytta fram produktionsmaterial och kapacitetsanvändning till utflödet av oavslutade produktionsorder. Det används inte när du justerar monteringsorderkostnader eftersom PIA-konceptet inte gäller för montering.  

@@ -1,6 +1,6 @@
 ---
-title: Ange bokföringsperioder | Microsoft Docs
-description: Du anger bokföringens start- och slutdatum för att definiera när användare kan bokföra i redovisningen.
+title: Så här anger du bokföringsperioder
+description: Du anger bokföringsperiod (start- och slutdatum) för att definiera när användare kan bokföra i redovisningen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e4fb495fc29f28dffd34e492cb33d162d671fbd3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775480"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444368"
 ---
-# <a name="specify-posting-periods"></a>Så här anger du bokföringsperioder
+# <a name="how-to-specify-posting-periods"></a>Så här anger du bokföringsperioder
 Använd bokföringsperioder för att ange om användare kan bokföra i redovisningen.  
 
 ## <a name="to-specify-posting-periods"></a>Så här anger du bokföringsperioder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** anger du perioden genom att ange datum i fälten **Tillåt bokföring fr.o.m** och **Tillåt bokföring t.o.m.**.  
 
 > [!NOTE]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017180"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443699"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortera, söka och filtrera
 
@@ -24,7 +24,7 @@ Det finns några saker som du kan göra som hjälper dig att söka, hitta och be
 För rapporter och XMLportar kan du, som i listor, ange filter för att begränsa vilka data som ska tas med i rapporten eller din XMLport, men du kan inte sortera eller söka.
 
 > [!TIP]
-> När du visar data sida vid sida kan du söka och använda filtrering. Om du vill använda alla kraftfulla funktioner för sortering, sökning och filtrering, väljer du ikonen ![Visa som lista](media/ui_show_as_list_icon.png "Visa som vänster listpil") om du vill visa posterna som en lista.
+> När du visar data sida vid sida kan du söka och använda filtrering. Om du vill använda alla kraftfulla funktioner för sortering, sökning och filtrering, väljer du ikonen ![Visa som lista](media/ui_show_as_list_icon.png "Visa som vänster listpil"). om du vill visa posterna som en lista.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Om du vill sortera en lista kan du antingen:
 ## <a name="searching"></a>Sökning
 
 <!--## Searching by using the Quick Filter -->
-Högst upp på varje listsida finns åtgärden ![Sök lista](media/ui-search/search-list.png "Ikon för Söklista") **Sök** som ger ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
+Högst upp på listsidan finns en ![Sök lista.](media/ui-search/search-list.png "Ikon för Söklista") Åtgärden **Sök** som ger ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
 
 Sök genom att helt enkelt markera åtgärden **Sök** och ange sedan den text som du vill söka efter i rutan. Du kan ange bokstäver, siffror och andra symboler.
 
@@ -144,7 +144,7 @@ Både i filterrutan och på sidan för förfrågan anger du filterkriterier i ru
 
 Typen av filterfält som du vill filtrera avgör vilka kriterier du kan ange. Till exempel kommer filtrering av ett fält som har fasta värden bara låta dig välja mellan dessa värden. Mer information om särskilda filtersymboler finns i [Filterkriterier](#FilterCriteria) och [Filtertoken](#FilterTokens).
 
-Kolumner som redan har filter som indikeras av ikonen ![filterikon](media/ui-search/filter-icon.png "Filterikon") i kolumnrubriken. Om du vill ta bort ett filter på en sida klickar du på listpilen i sidrubriken och klickar sedan på åtgärden **Rensa filter**.
+Kolumner som redan har filter som indikeras av ikonen ![filterikon.](media/ui-search/filter-icon.png "Filterikon") i kolumnrubriken. Om du vill ta bort ett filter på en sida klickar du på listpilen i sidrubriken och klickar sedan på åtgärden **Rensa filter**.
 
 > [!TIP]
 > Sök och analysera dina data snabbare genom att använda kombinationer av kortkommandon. Exempelvis markerar du ett fält, använder **Skift + Alt + F3** om du vill lägga till fältet i filterrutan, använder **Ctrl + Retur** om du vill återgå till raderna, markerar ett annat fält och använder **Alt + F3** för att filtrera det värdet. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).

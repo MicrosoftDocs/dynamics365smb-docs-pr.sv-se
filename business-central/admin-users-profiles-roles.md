@@ -1,20 +1,20 @@
 ---
-title: Hantera användare och roller | Microsoft Docs
-description: Lär dig hantera användare och rollcenter i Business Central.
+title: Hantera användare och roller
+description: Lär dig hantera användarprofiler och rollcenter i Business Central. Med profiler kan administratörer centralt definiera och hantera vad användare kan se och göra.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776972"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443135"
 ---
-# <a name="manage-profiles"></a>Hantera profiler
+# <a name="manage-user-profiles"></a>Hantera användarprofiler
 
 Alla användare av [!INCLUDE[prod_short](includes/prod_short.md)] tilldelas en profil som motsvarar affärsrollen, den avdelning de arbetar i eller någon annan kategorisering. Med hjälp av profiler kan administratörer definiera och hantera centralt olika typer av användare som kan se och arbeta i användargränssnittet så att de kan utföra affärsuppgifter på ett effektivt sätt.
 
@@ -31,7 +31,7 @@ Du kan anpassa sidlayouter för en profil så att alla användare som tilldelats
 ## <a name="to-create-a-profile"></a>Så här skapar du en profil:
 Om du inte kan kopiera en befintlig profil kan du skapa en ny manuellt.
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Profiler (roller)** och välj sedan relaterad länk.  
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Profiler (roller)** och väljer sedan relaterad länk.  
 2. På sidan **Profiler (roller)** väljer du åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ På sidan **Mina inställningar** kan användare definiera grundläggande funkti
 
 Som administratör kan du definiera dessa inställningar för en profil och på så sätt tillämpa inställningarna för alla användare av den relaterade rollen.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Profiler (roller)** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Profiler (roller)** och väljer sedan relaterad länk.
 2. Markera raden för den profil som du vill ändra användarinställningar för och välj åtgärden **Lista över användaranpassningar**.
 3. På sidan **användaranpassningar** öppnar du kortet för den användare vars inställningar du vill ändra.
 4. På sidan **användaranpassningskort** redigerar du fälten efter behov.
@@ -108,7 +108,7 @@ Du kan ta bort en profil genom att klicka på åtgärden **Ta bort** på sidan *
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Ta bort alla anpassningar som användaren har gjort
 Du kan ta bort alla ändringar som användaren gjort på sidor som utgör arbetsytan. Detta kan t. ex. vara användbart om en anställd har ändrat roll och inte längre behöver anpassningarna. Ta bort användares anpassningar ändrar tillbaka sidlayouten till det som definieras av profilen.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användaranpassningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användaranpassning** och väljer sedan relaterad länk.
 
     Sidan **Användaranpassningar** visar alla användare som har gjort anpassningar.
 
@@ -122,7 +122,7 @@ Du kan också ta bort alla sidanpassningar för en profil. Mer information finns
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Så här tar du bort anpassningar för specifika sidor
 Du kan ta bort anpassningar som en eller flera användare har gjort på vissa sidor som utgör arbetsytan. Detta kan t. ex. vara användbart om en ändrad affärsprocedur innebär att en anpassning inte längre får användas av användarna. Ta bort användares anpassningar ändrar tillbaka sidlayouten till det som definieras av profilen.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anpassningar av användarsidan** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anpassningar av användarsidan** och väljer sedan relaterad länk.
 
     Sidan **Anpassningar av användarsidan** visar alla sidor som har anpassats och användaren som de tillhör.
 

@@ -1,6 +1,6 @@
 ---
 title: Ändra grundläggande inställningar för den aktuella användaren
-description: Lär dig hur du ändrar några av de grundläggande inställningarna, till exempel, rollcenter, företag eller arbetsdatumet.
+description: Lär dig mer om hur du ändrar vissa grundläggande inställningar i Business Central, t.ex. roll och rollcenter, företag, arbetsdatum och tidszoner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787458"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443774"
 ---
 # <a name="change-basic-settings"></a>Ändra grundinställningar
 
@@ -33,7 +33,7 @@ Rollcentret bestämmer startsidan, en startskärm som har utformats för den spe
 
 Standardrollen är **Chef**, men du kan välja en annan roll för att använda ett rollcenter som passar bättre till dina önskemål.  
 
-1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och välj åtgärden **Mina inställningar**.
+1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och välj åtgärden **Mina inställningar**.
 2. På sidan **Mina inställningar** i fältet **Roll** väljer du den roll du vill använda som standard. Välj till exempel **Revisor**.
 3. Välj **OK**.
 
@@ -47,7 +47,7 @@ Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata. Du k
 
 Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en åtgärd som du kan välja att gå tillbaka till rollcentret. Du kan ändra det här namnet på sidan **företagsinformation**.
 
-1. Välj ikonen ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Företagsinformation**.
+1. Välja ![Kugghjulsikon för att öppna menyn Inställningar.](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Företagsinformation**.
 2. Ange det nya företagsnamnet i fältet **Namn**.
 3. Lämna sidan. Systemet startas om och det nya företaget visas i det övre vänstra hörnet.
 
@@ -55,7 +55,7 @@ Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en å
 
 Du kan lägga till en anpassad bricka i det övre högra hörnet, som du kan välja för att snabbt visa företagsnamn och klientorganisationens information i en popup-ruta. Företagsbrickan är också användbart när [!INCLUDE[prod_short](includes/prod_short.md)] finns inbäddat i ett annat program, exempelvis Microsoft Teams eller i något annat webbprogram. Eftersom [!INCLUDE[web_client](includes/web_client.md)] visar mindre omgivande kontextuell information i dessa fall, utgör företagsbrickan det enda sättet att avgöra vilket företag eller vilken miljö en post tillhör.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företagsinformation** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.
 2. I snabbfliken **Företagsbricka** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882211"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443212"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,7 +35,7 @@ I det här avsnittet beskrivs minimikraven för att [!INCLUDE [prod_short](inclu
 
     |Vad|Team-licens|[!INCLUDE [prod_short](includes/prod_short.md)]-licens|
     |----|---|---|
-    |Söka efter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
+    |Söka efter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter|![bock.](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
     |Klistra in en länk till en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation och skicka den som ett kort.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
     |Visa ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bock](media/check.png "kontroll")||
     |Visa mer information för ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bockmarkering](media/check.png "kontroll")|![bockmarkering](media/check.png "kontroll")|

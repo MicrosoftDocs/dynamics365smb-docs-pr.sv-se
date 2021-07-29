@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c72d5beafde357c22fac396eb3ab76849a9df775
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775506"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444418"
 ---
 # <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
 Alla företag i Europeiska unionen måste rapportera sin handel med andra länder/regioner inom EU. I Sverige måste du rapportera transport av varor till de statistiska myndigheterna varje månad. I programmet kallas detta för intrastatrapportering. Du använder sidan **Intrastatjournal** när du vill fylla i periodiska intrastatrapporter.  
@@ -45,7 +45,7 @@ Du kan exportera transaktionerna till en fil som du kan skicka till de intrastat
 > [!Note]
 > Vi rekommenderar att du skapar en intrastatjournal varje månad.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Mallar för intrastatjournal** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Intrastatjournalmallar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Skapa en mall för varje Intrastatformulär som du använder.  
 3. För att skapa mallar, välj åtgärden **Journaler**.  
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Skapa en mall för varje Intrastatformulär som du använder. 
@@ -56,25 +56,25 @@ Du kan exportera transaktionerna till en fil som du kan skicka till de intrastat
 ### <a name="to-set-up-commodity-codes"></a>Så här skapar du artikelkoder
 Alla artiklar som du köper eller säljer måste ha en artikelkod.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelkoder** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelkoder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Om du vill tilldela en artikel en artikelkod, går du till sidan **artikelkort**, expanderar snabbfliken **kostnader och bokföring** och anger koden i fältet **Artikelkod**.   
 
 ### <a name="to-set-up-transaction-nature-codes"></a>Så här skapar du koder av transaktionstyp
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Koder för transaktionstyp** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Koder för transaktionstyp** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
 > Om du ofta använder en kod av transaktionstyp kan göra du den till standard. Gör detta genom att gå till sidan **Intrastatinställningar** och välja koden.
 
 ### <a name="to-set-up-transport-methods"></a>Så här ställer du in transportsätt
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Transportsätt** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transportmetoder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Om du vill ställa in vilka Intrastatrapportfält som är obligatoriska
 I vissa länder, exempelvis Spanien och Storbritannien, kräver myndigheterna att Intrastatrapporter omfattar, exempelvis leveransmetod för inköp eller andra värden när försäljningen är över ett visst gränsvärde. På sidan **Intrastat-inställningarna** kan du ange att **Kontrollisteinställningar för Intrastat** ange obligatoriska fält på sidan **Intrastatjournal**.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Intrastatinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatinställningar** och väljer sedan relaterad länk.
 2. Välj åtgärden **Kontrollisteinställningar för Intrastat**.
 3. På sidan **Kontrollisteinställningar för Intrastat** klickar du på **fältnamnet** för att välja det Intrastatrapportfält som du vill ska vara obligatorisk.
 
@@ -82,7 +82,7 @@ I vissa länder, exempelvis Spanien och Storbritannien, kräver myndigheterna at
 När du har fyllt i Intrastatjournalen kan du köra åtgärden **checklisterapport** när du vill kontrollera att all information i journalen är korrekt. Obligatoriska fält som du har angett på sidan **Kontrollisteinställningar för Intrastat** som saknar värden visas i faktaboxen Fel och varning på sidan **Intrastatjournal**. Därefter kan du skriva ut en intrastatrapport som ett formulär eller skapa en fil som ska skickas till skattemyndigheten i Sverige.  
 
 ### <a name="to-fill-in-intrastat-journals"></a>Så här fyller du i intrastatjournaler  
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Intrastatjournal** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatjournal** och väljer sedan relaterad länk.  
 2. På sidan **Intrastatjournal** i fältet **Journalnamn** väljer du relevant journal och sedan knappen **OK**.  
 3. Välj åtgärden **Föreslå rader**. Fälten **Startdatum** och **Slutdatum** innehåller redan de datum som angavs för statistikperioden i journalen.  
 4. I fältet **Omkostnad reglering %** kan du ange ett värde i procent som täcker transport och försäkring. Om du gör detta är innehållet i fältet **Statistiskt värde** i journalen proportionellt sett högre.  
@@ -96,7 +96,7 @@ När du kör batch-jobbet hämtas alla artikeltransaktioner inom statistikperiod
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportera intrastat på ett formulär eller en fil
 Du måste skriva ut rapporten **Intrastat – formulär** för att erhålla den information som behövs i INTRASTAT-formuläret från de statistiska myndigheterna. Innan du kan göra detta måste du lägga upp intrastatjournalen och fylla i den. Om du både har försäljnings- och inköpstransaktioner måste du fylla i ett separat formulär för varje typ, vilket innebär att du måste skriva ut rapporten två gånger.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Intrastatjournaler** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatjournaler** och väljer sedan relaterad länk.  
 2. På sidan **Intrastatjournal** väljer du den relevanta journalen i fältet **Journalnamn**.  
 3. Om du inte redan har fyllt i journalen gör du det nu, antingen manuellt eller genom att välja åtgärden **Föreslå rader**.  
 4. Välj åtgärden **skriver ut intrastatjournal**.  
@@ -106,7 +106,7 @@ Du måste skriva ut rapporten **Intrastat – formulär** för att erhålla den 
 ### <a name="report-intrastat-in-a-file"></a>Rapportera intrastat i en fil
 Du kan skicka Intrastat-rapporten som en fil. Innan du skapar filen kan du skriva ut en kontrollrapport som innehåller samma information som filen.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Intrastatjournal** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatjournal** och väljer sedan relaterad länk.  
 2. På sidan **Intrastatjournal** väljer du den relevanta journalen i fältet **Journalnamn**.  
 3. Om du inte redan har fyllt i journalen gör du det nu, antingen manuellt eller genom att välja åtgärden **Föreslå rader**.  
 4. Välj åtgärden **Skapa fil**.  
@@ -117,7 +117,7 @@ Du kan skicka Intrastat-rapporten som en fil. Innan du skapar filen kan du skriv
 ## <a name="reorganize-intrastat-journals"></a>Omorganisera intrastatjournaler
 Eftersom du måste skicka en INTRASTAT-rapport varje månad och skapa en ny journal för varje rapport kommer det sannolikt att finnas många journaler. Journalraderna tas inte bort automatiskt. Om du vill kan du ordna om journalnamnen med jämna mellanrum. Du gör detta genom att ta bort de journaler som inte längre behövs. Även journalraderna i de här journalerna tas bort.  
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Intrastatjournaler** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatjournaler** och väljer sedan relaterad länk.  
 2. Om du vill visa alternativen väljer du fältet **Journalnamn**.  
 3. Välj journalerna som tas bort, och välj sedan knappen **Ta bort**.  
 

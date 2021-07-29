@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d53d813871b154a705676483559f7464bf8469fd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214909"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442316"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden
 Reservationsystemet är omfattande och innehåller de korrelativa och parallella funktionerna i orderspårning och åtgärdsmeddelanden.  
@@ -138,7 +138,7 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  Följande orderspårningstransaktioner finns i tabellen **Reservationstransaktion** baserat på data i tabellen.  
 
- ![Första exempel på orderspårningstransaktioner i registret Reservationstransaktion](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Första exempel på orderspårningstransaktioner i registret Reservationstransaktion.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Löpnummer 8 och 9  
  För komponentbehovet för PARTIA och PARTIB skapas orderspårningslänkar från efterfrågan i tabell 5407, **Prod.orderkomponent** till tillgången i tabell 32, **Artikeltransaktion**. Fältet **Reservationsstatus** innehåller **Spårning** för att ange att dessa transaktioner är dynamiska orderspårninglänkar mellan tillgång och efterfrågan.  
@@ -156,7 +156,7 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  Nu finns följande orderspårningsposter i tabellen **Reservationstransaktion**.  
 
- ![Andra exempel på orderspårningstransaktioner i registret Reservationstransaktion](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Andra exempel på orderspårningstransaktioner i registret Reservationstransaktion.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Löpnummer 8 och 9  
  Orderspårningstransaktioner för de två partierna av komponenten visar att efterfrågan i tabell 5407 ändras från reservationsstatusen **Spårning** till **Överskott**. Anledningen är att tillgång som de var kopplade till tidigare, i tabell 32, har använts av utleveransen på överföringsordern.  
@@ -170,7 +170,7 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  Nu finns följande orderspårningsposter i registret **Reservationstransaktion**.  
 
- ![Tredje exempel på orderspårningstransaktioner i registret Reservationstransaktion](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Tredje exempel på orderspårningstransaktioner i registret Reservationstransaktion.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  Orderspårningsposterna är nu liknande till den första punkten i scenariet, före överföringsordern har bokförts som endast utlevererad, förutom att transaktioner för komponenten nu har reservationstatus **Överskott**. Detta beror på att komponentbehovet fortfarande finns vid lagerställe VÄST och visar att fältet **Lagerställekod** på produktionsorderkomponentraden innehåller **VÄST** enligt inställt i konfigurationsfältet **Komponenter vid lagerställe**. Leveransen som har tilldelats detta behov har överförts till lagerställe ÖST och kan nu inte spåras fullständigt om inte komponentbehovet på produktionsorderraden ändras till lagerställe ÖST.  
 
@@ -178,7 +178,7 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  Nu finns följande orderspårningsposter i registret **Reservationstransaktion**.  
 
- ![Fjärde exempel på orderspårningstransaktioner i registret Reservationstransaktion](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Fjärde exempel på orderspårningstransaktioner i registret Reservationstransaktion.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Löpnummer 21 och 22  
  Eftersom komponentbehovet har ändrats till lagerställe ÖST och tillgången finns tillgänglig som artikeltransaktioner vid lagerställe ÖST, är alla orderspårningsposter för de två partinumren nu fullständigt spårade, vilket anges av reservationsstatusen **Spårning**.  

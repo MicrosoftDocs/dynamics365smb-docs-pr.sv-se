@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935342"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443924"
 ---
 # <a name="define-retention-policies"></a>Definiera bevarandeprinciper
 Administratörer kan definiera bevarandeprinciper för att ange hur ofta de vill att [!INCLUDE[prod_short](includes/prod_short.md)] tar bort gamla data i tabeller som innehåller loggposter och arkiverade poster. Att rensa loggposter kan t. ex. göra det enklare för dig att arbeta med data som faktiskt är relevanta. Principer kan omfatta alla data i tabellerna som har passerat utgångsdatumet, eller så kan du lägga till filterkriterier som endast tar med vissa utgångna data i principen. 
@@ -40,7 +40,7 @@ Du kan begränsa lagringsperioderna så länge du vill. Om du vill skapa lagring
 > Vi har definierat en minsta lagringsperiod för vissa tabeller på grund av regelefterlevnad. Om du anger en lagringsperiod som är kortare än minimikravet visas ett meddelande om den obligatoriska perioden.
 
 ### <a name="set-up-a-retention-policy"></a>Konfigurera en bevarandeprincip
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Bevarandeprinciper** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **bevarandeprinciper** och väljer sedan relaterad länk.
 2. Välj tabellen som du vill ta med i principen i fältet **Tabell-ID**.
 3. I fältet **Lagringsperiod** anger du hur länge informationen i tabellen ska bevaras.
 4. Valfritt: Om du vill använda principen för specifika data i en tabell inaktiverar du reglaget Tillämpa på alla poster. Snabbfliken Policy för postbevarande visas, där du kan ange filter för att skapa delmängder av data för varje rad. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#filtering).

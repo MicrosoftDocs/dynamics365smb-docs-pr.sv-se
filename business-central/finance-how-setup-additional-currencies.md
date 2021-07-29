@@ -1,9 +1,7 @@
 ---
-title: Ställa in alternativa valutor | Microsoft Docs
+title: Ställ in alternativa valutor
 description: Din redovisning ställs in för att använda den lokala valutan (BVA) och en annan valuta ställs in som en alternativ valuta, med en tilldelad aktuell valutakurs.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -12,20 +10,23 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775531"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444443"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Ställa in en alternativ rapporteringsvaluta.
+
 Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt att de kan granska och rapportera ekonomiska data i fler än en valuta.
 
 Din redovisning ställs in för att använda den lokala valutan (BVA) men du kan ställa in en annan valuta med en tilldelad aktuell valutakurs. Genom att ange en andra valuta som en så kallad alternativ rapporteringsvaluta kommer [!INCLUDE[prod_short](includes/prod_short.md)] registrera belopp automatiskt i både BVA och den alternativa rapporteringsvalutan för varje redovisningstransaktion och för andra transaktioner, t. ex. momstransaktioner.
 
 > [!Warning]
-> Funktionen Alt. rapporteringsvaluta bör inte användas som underlag vid omräkning av ekonomirapporter. Verktyget kan inte användas för att utföra omräkningar av ekonomirapporter för utländska dotterbolag som en del i en företagskonsolidering. Den alternativa rapporteringsvalutan kan endast användas för att förbereda rapporter i en annan valuta på ett sådant sätt som om den valutan var företagets lokala valuta.
+> Funktionen Alt. rapporteringsvaluta bör inte användas som underlag vid omräkning av ekonomirapporter om du inte förstår begränsningarna. Verktyget kan inte användas för att utföra omräkningar av ekonomirapporter för utländska dotterbolag som en del i en företagskonsolidering. Den alternativa rapporteringsvalutan kan endast användas för att förbereda rapporter i en annan valuta på ett sådant sätt som om den valutan var företagets lokala valuta.
+>
+> Du har till exempel en stor mängd kundreskontra i brittiska pund (GBP) och du har ställt in den alternativa rapporteringsvalutan (ACY) som GBP. I det här scenariot kommer belopp i de kundreskontra som använder GBP inte att justeras för valutakurs vinster/-förluster i ACY, utan endast belopp i kundreskontra som tillhör andra valutor. Det innebär att om du använder ACY för att rapportera de ekonomiska rapporterna, kan det leda till att utestående saldon för kundreskontra blir undertryckta eller överskattade.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Visa rapporter och belopp i den alternativa rapporteringsvalutan
 Med hjälp av en alternativ rapporteringsvaluta kan rapporteringsprocessen för ett företag förenklas i följande fall:
@@ -48,7 +49,7 @@ Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Så här anger du redovisningskonton för bokföring av valutakursjusteringar  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Valutor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.  
 2. På sidan **Valutor** fyller du i följande fält för alternativ rapporteringsvaluta.  
 
 |Fält|Description|  
@@ -64,7 +65,7 @@ Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 För varje redovisningskonto måste du ange hur redovisningsbelopp för det kontot ska justeras för valutakursfluktuationer mellan BVA och den alternativa rapporteringsvalutan.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Ange kursjusteringsmetod för alla redovisningskonton  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontoplan** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **Kontoplan** väljer du relevant konto och sedan åtgärden **Redigera**.  
 3. På sidan **Redovisningskontokort** väljer du relevant metod i fältet **Valutakursjustering**.  
 
@@ -81,7 +82,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
 4.  Stäng sidan **Redovisningskontokort**.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Så här anger du kursjusteringsmetod för momstransaktioner  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du relevant metod i fältet **Moms valutakursjustering**.  
 3. Om du bokför i en alternativ rapporteringsvaluta kan du ange i fältet **Moms valutakursjustering** hur de konton som ställts in för momsbokföring på sidan **Moms bokföringsinställning** ska justeras för kursfluktuationer mellan BVA och den alternativa rapporteringsvalutan.  
 
@@ -96,7 +97,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
     |**Justera belopp alt. valuta**|Alternativ rapporteringsvaluta justeras för alla kursvinster eller kursförluster. Alla kursvinster eller kursförluster bokförs på redovisningskontot i fältet **Alt. valuta belopp** och på de konton du har angett för vinster eller förluster i fälten **Kursvinst konstaterad redov** och **Kursförlust konstaterad redov** på sidan **Valutor**.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Så här aktiverar du den alternativa rapporteringsvalutan.  
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsinställning** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du fältet **Alternativ rapporteringsvaluta** och välj den alternativa valuta du vill rapportera i.  
 3. När du lämnar fältet visar [!INCLUDE[prod_short](includes/prod_short.md)] ett bekräftelsemeddelande som beskriver effekterna när du väljer (och aktiverar) den alternativa rapporteringsvalutan.  
 4. Välj **ja** för att bekräfta att du vill aktivera valutan.  

@@ -1,6 +1,6 @@
 ---
-title: Ställa in en momsrapport | Microsoft Docs
-description: Ställa in en momsrapport
+title: Ställa in en momsrapport
+description: I det här avsnittet beskrivs hur du lägger upp en momsrapportmall och momsrapportnamn för att uppfylla ändrade skattemyndighetskrav.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775456"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444393"
 ---
 # <a name="set-up-a-vat-statement"></a>Ställa in en momsrapport
 
@@ -25,7 +25,7 @@ Skattemyndigheterna kan och ändrar sina krav för bokföring av moms. Momsrappo
 ## <a name="to-define-a-vat-statements"></a>Definiera momsrapporter
 Momsrapporter låter dig beräkna momsavräkningsbeloppen för en bestämd period (t. ex. ett kvartal).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Momsrapporter** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsrapporter** och väljer sedan relaterad länk.  
 2. Välj fältet **namn** och välj sedan **nytt** på sidan **Momsrapportnamn**.
 3. Fyll i relevanta fält. Vanligtvis vill du ha en inställning för varje kombination av Moms rörelsebokföringsmall/Moms produktbokföringsmall. För radnummer är det klokt att använda likvärdiga nummer eller koder som i den officiella momsrapporten [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

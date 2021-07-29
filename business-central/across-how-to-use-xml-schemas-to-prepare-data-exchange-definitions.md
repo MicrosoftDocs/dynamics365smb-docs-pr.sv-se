@@ -1,6 +1,6 @@
 ---
-title: Använda XML-scheman för att förbereda dataintegreringsdefinitioner
-description: Använd XML-scheman för att konfigurera ramverket för dokumentbyten.
+title: XML-scheman för att förbereda definitioner för databyten
+description: Använd XML-scheman för att ställa in ramverk för datautbyte för att definiera vilka data element som du vill skicka med.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70e80403175c6a77d120a3b405b1b5758410c227
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42afc2d2de9d705d90a92166084b492c3a328674
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781368"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444074"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använd XML-scheman för att förbereda definitioner för databyten
 
@@ -35,7 +35,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 1. Se till att den relevanta XML-schemafilen är tillgänglig. Filnamnstillägget är .xsd.  
 
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-scheman** och välj sedan relaterad länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **XML-scheman** och väljer sedan relaterad länk.  
 
 3. Välj åtgärden **Ny**.  
 
@@ -57,7 +57,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Så här markerar eller avmarkerar du noder i ett XML-schema  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **XML-schemavisare** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Visningsprogram för XML-schema** och väljer sedan relaterad länk.  
 
 2. Fyll i fälten i huvudet enligt beskrivningen i följande tabell.  
 
@@ -95,7 +95,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Så här skapar du en definition för datautbyte baserat på ett XML-schema  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **XML-scheman** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **XML-scheman** och väljer sedan relaterad länk.  
 
 2. Välj relevant XML-schema och välj sedan åtgärden **Öppna XML-schemavisare**.  
 

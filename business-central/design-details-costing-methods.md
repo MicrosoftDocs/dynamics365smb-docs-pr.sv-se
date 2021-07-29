@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer – Värderingsprinciper | Microsoft Docs
+title: Designdetaljer - Värderingsprinciper
 description: Det här ämnet beskriver hur värderingsprincipen påverkar hur faktiska eller budgeterade värden aktiveras och används i kostnadsberäkningen.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9f42e2ba8bf5f281be509bd58c5f88fa53ef7ba1
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215384"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442441"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
 
@@ -36,7 +36,7 @@ Följande metoder stöds i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
  Följande bild visar hur kostnader flödar via lagret för varje värderingsprincip.  
 
- ![Värderingsprinciper](media/design_details_inventory_costing_7_costing_methods.png "Värderingsprinciper")  
+ ![Värderingsprinciper.](media/design_details_inventory_costing_7_costing_methods.png "Värderingsprinciper")  
 
  Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskningar, och om de använder de faktiska kostnaderna eller standardkostnader som värderingsbas. Följande tabell förklarar de olika egenskaperna. (LIFO-metoden används inte eftersom den påminner om FIFO-metoden).  
 

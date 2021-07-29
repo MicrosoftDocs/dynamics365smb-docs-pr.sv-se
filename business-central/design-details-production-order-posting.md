@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214884"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442366"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokföring av produktionsorder
 Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts. Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md) Däremot är kostnadsflödet för monteringsorder mindre komplicerat, särskilt eftersom bokföring av monteringskostnad endast uppstår en gång och därför inte genererar lager för produkter i arbete.
@@ -58,11 +58,11 @@ När du bokför produktionsorder till PIA-lagret avser utflöde, förbrukning oc
 
 Följande diagram visar de berörda bokföringsrutinerna i kodenhet 22.  
 
-![Bokföringsrutiner för produktionsorder](media/design_details_inventory_costing_14_production_posting_1.png "Bokföringsrutiner för produktionsorder")  
+![Bokföringsrutiner för produktionsorder.](media/design_details_inventory_costing_14_production_posting_1.png "Bokföringsrutiner för produktionsorder")  
 
 Följande diagram visar anslutningarna mellan de resulterande transaktionerna och kostnadsbärarna.  
 
-![Produktionstransaktionsflöde](media/design_details_inventory_costing_14_production_posting_2.png "Produktionstransaktionsflöde")  
+![Produktionstransaktionsflöde.](media/design_details_inventory_costing_14_production_posting_2.png "Produktionstransaktionsflöde")  
 
 Kapacitetstransaktioner beskriver kapacitetsförbrukningen i termer av tidsenheter, medan den relaterade värdetransaktionen beskriver värdet för den aktuella kapacitetsförbrukningen.  
 

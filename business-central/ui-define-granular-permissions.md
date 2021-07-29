@@ -1,6 +1,6 @@
 ---
-title: Definiera detaljerade behörigheter | Microsoft Docs
-description: Beskriver hur du ger användare åtkomst till objekt genom att tilldela dem behörighetsuppsättningar.
+title: Definiera detaljerade behörigheter
+description: I det här avsnittet beskrivs hur du definierar detaljerade behörigheter genom att ge vissa användare åtkomst till objekt och tilldela behörighetsgrupper till dem.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776723"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443723"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 
@@ -53,7 +53,7 @@ Du kan tilldela behörighetsuppsättningar till användare på två sätt:
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Så här tilldelar du en behörighetsuppsättning till ett användarkort
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användare** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. Markera den användare som du vill tilldela behörighet till.
 Eventuella behörighetsuppsättningar som redan har tilldelats till användaren visas i faktaboxen **Behörighetsuppsättningar**.
 3. I fönstret **Inkommande dokument** väljer du sidan **Användarkort**.
@@ -61,14 +61,14 @@ Eventuella behörighetsuppsättningar som redan har tilldelats till användaren 
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Så här tilldelar du en behörighetsuppsättning till sidan Behörighetsuppsättning efter användare
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användare** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. På sidan **användare** markerar du den relevanta användaren och väljer sedan åtgärden **Behörighetsuppsättning efter användare**.
 3. På sidan **Behörighetsuppsättning efter användare** markerar du kryssrutan **[användarnamn]** på en rad för den aktuella behörighetsuppsättningen för att tilldela uppsättningen till användaren.
 4. Markera kryssrutan **alla användare** om du vill tilldela behörighetsuppsättningen till alla användare.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Så här får du en översikt en användares behörigheter
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användare** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. Öppna kortet för relevant användare.
 3. Välj åtgärden **Gällande behörigheter**.
 
@@ -103,7 +103,7 @@ Behörighetsuppsättningar fungerar som behållare med behörigheter så att du 
 
 ### <a name="to-create-new-permission-set-from-scratch"></a>Så här skapar du en ny behörighetsuppsättning från början
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Behörighetsuppsättningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Behörighetsuppsättning** och väljer sedan relaterad länk.
 2. För att skapa en ny behörighetsuppsättning, välj åtgärden **Ny**.
 3. Fyll i fälten på en ny rad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] När du har skapat en behörighetsuppsättning måste du lägga till de faktiska behörigheterna. Mer information finns i avsnittet [Skapa eller ändra behörigheter manuellt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
@@ -168,7 +168,7 @@ Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Skapa eller ändra behörigheter genom att registrera dina åtgärder
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Behörighetsuppsättningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Behörighetsuppsättning** och väljer sedan relaterad länk.
 2. Alternativt kan du i sidan **Användare** välja åtgärden **Behörighetsuppsättningar**.
 3. På sida **Behörighetsuppsättningar** väljer du åtgärden **Ny**.
 4. Fyll i fälten på en ny rad efter behov.
@@ -197,7 +197,7 @@ Behörighetsuppsättningar som tilldelats till en användare via en användargru
 
 I proceduren nedan beskrivs hur du skapar användargrupper manuellt. Information om hur du skapar användargrupper automatiskt finns i [Kopiera en användargrupp och dess behörighetsuppsättningar](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användargrupper** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användargrupper** och väljer sedan relaterad länk.
 2. Alternativt kan du i sidan **Användare** välja åtgärden **Användargrupper**.
 3. På sidan **Användargrupp** väljer du åtgärden **Medlemmar i användargrupp**.
 4. På sidan **Användargrupp** väljer du åtgärden **Lägg användare**.
@@ -209,7 +209,7 @@ Du kan kopiera alla behörighetsuppsättningar från en befintlig användargrupp
 > [!NOTE]
 > Medlemmarna i användargruppen kopieras inte till den nya användargruppen. Du måste lägga till dem manuellt i efterhand. Mer information finns i avsnittet [För gruppanvändare i användargrupper](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användargrupper** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användargrupper** och väljer sedan relaterad länk.
 2. Välj de användargrupper som du vill kopiera och välj sedan åtgärden **Kopiera användargrupp**.
 3. I fältet **Ny användargruppkod** anger du ett namn på den nya gruppen och väljer sedan knappen **OK**.
 
@@ -217,7 +217,7 @@ Användargruppen läggs till i sidan **Användargrupper**. Fortsätt med att lä
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Tilldela behörighetsuppsättningar till användargrupper
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användargrupper** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användargrupper** och väljer sedan relaterad länk.
 2. Markera den användargrupp som du vill tilldela behörighet till.
 Eventuella behörighetsuppsättningar som redan har tilldelats till användaren visas i faktaboxen **Behörighetsuppsättningar**.
 3. Välj åtgärden **Användarbehörighetsuppsättning** för att öppna sidan **Användarbehörighetsuppsättning**.
@@ -227,7 +227,7 @@ Eventuella behörighetsuppsättningar som redan har tilldelats till användaren 
 
 I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en användargrupp på sidan **Behörighetsuppsättning efter användargrupp**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användare** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. På sidan **Användare** väljer du den relevanta användaren och väljer sedan åtgärden **Behörighetsuppsättning efter användargrupp**.
 3. På sidan **Behörighetsuppsättning efter användargrupp** markerar du kryssrutan **[användarnamn]** på en rad för den relevanta behörighetsuppsättningen för att tilldela uppsättningen till användargruppen.
 4. Markera kryssrutan **Alla användargrupper** om du vill tilldela behörighetsuppsättningen till alla användargrupper.
@@ -240,7 +240,7 @@ I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en 
 
 Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare. För mer information, se [Arbeta med ansvarsenheter](inventory-responsibility-centers.md).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användarinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställning** och väljer sedan relaterad länk.
 2. I sidan **Användarinställningar** väljer du åtgärden **Ny**.
 3. I den **Användar-ID** anger du ID för en användare, och väljer fältet för att se alla aktuella Windows-användare i systemet.
 4. Fyll i fälten om det behövs.

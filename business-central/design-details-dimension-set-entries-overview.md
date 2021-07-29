@@ -1,6 +1,6 @@
 ---
-title: Översikt över dimensionsuppsättningstransaktioner | Microsoft Docs
-description: I det här avsnittet beskrivs hur dimensionsuppsättningstransaktioner lagras och bokförs i Dynamics 365.
+title: Översikt över dimensionsuppsättningstransaktioner
+description: I den här artikeln får du en översikt över hur dimensions uppsättningstransaktioner lagras som dimensions uppsättnings transaktioner och hur de bokförs.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215309"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442416"
 ---
 # <a name="dimension-set-entries-overview"></a>Översikt över dimensionsuppsättningstransaktioner
 I det här avsnittet beskrivs hur dimensionsuppsättningstransaktioner lagras och bokförs i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ Följande exempel visar när en dimensionsuppsättning som har tre dimensionsupp
 ## <a name="dimension-set-entries"></a>Dimensionsuppsättningstrans.  
 Dimensionsuppsättningar lagras i tabellen **Dimensionsuppsättnings transaktion** som dimensionsuppsättningstransaktioner med samma dimensionsuppsättnings-ID.  
 
-![Flöde för dimensionsuppsättningstransaktioner](media/dimensionentrynav7.png "Flöde för dimensionsuppsättningstransaktioner")  
+![Flöde för dimensionsuppsättningstransaktioner.](media/dimensionentrynav7.png "Flöde för dimensionsuppsättningstransaktioner")  
 
 När du skapar en ny journalrad, dokumenthuvud eller dokumentrad kan du ange en kombination av dimensionsvärden. I stället för att uttryckligen lagra varje dimensionsvärde i databasen tilldelas ett dimensionsuppsättnings-ID till journalraden, dokumenthuvudet eller dokumentraden för att specificera dimensionsuppsättningen.  
 

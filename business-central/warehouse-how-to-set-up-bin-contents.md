@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: abe79973022927c899aaa69a7ac28f76e8c8de39
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 575b2fdd00b7761fa615b9265fa5f21d402e096d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771735"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443010"
 ---
 # <a name="create-bin-contents"></a>Skapa lagerställesinnehåll
 
@@ -23,7 +23,7 @@ När du har skapat lagerställena kan du skapa deras innehåll. Du kan ange de a
 
 ## <a name="to-create-bin-content-manually"></a>Så här skapar du lagerställesinnehåll manuellt
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2. Markera platsen där du vill skapa lagerställesinnehållet och väljer åtgärden **Lagerställen**.  
 3. Markera lagerstället där du vill skapa lagerställesinnehållet och väljer åtgärden **Innehåll**.  
 4. För varje artikel som du vill lagra på lagerstället fyller du i en rad på sidan **Lagerställesinnehåll** med tillämplig information. Vissa av fälten har redan fyllts i med information om lagerstället.  
@@ -42,7 +42,7 @@ Om du markerar fältet **Fast** kopplar du artikeln till lagerstället. Det bety
 
 När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du vill ha på varje lagerplats i lagerplatsuppläggningskalkylarket.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Lagerställesinnehålluppl förslag** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerställesinnehålluppl kalkylark** och väljer sedan relaterad länk.  
 2. I fältet **Namn** i kalkylarkshuvudet väljer du kalkylarket för det lagerställe där du vill skapa lagerställesinnehåll.  
 3. I fältet **Lagerställeskod** väljer du den lagerställeskod som du vill definiera lagerställesinnehåll för.  
 

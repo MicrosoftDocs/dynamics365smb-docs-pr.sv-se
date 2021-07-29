@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer - Balansera tillgång med efterfrågan | Microsoft Docs
-description: För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att alla behov ska uppfyllas av tillräcklig försörjning och leverans har en funktion för att förstå hur planeringssystemet fungerar.
+title: Designdetaljer - Balansera efterfrågan och tillgång
+description: För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet som uppnås av att balansera tillgång med efterfrågan.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 05e812ab11a831ac1c2d96d506489527f06142a2
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215534"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442516"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansera efterfrågan och tillgång
 För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att:  
@@ -43,7 +43,7 @@ För att förstå hur planeringssystemet fungerar är det nödvändigt att förs
 
    Syftet med planläggningsmekanismen är att balansera efterfrågan och tillgång för en artikel för att se till att tillgång matchar efterfrågan på ett genomförbart sätt som definieras av planläggningsparametrar och regler.  
 
-   ![Översikt över balansering av tillgång och efterfrågan](media/nav_app_supply_planning_2_balancing.png "Översikt över balansering av tillgång och efterfrågan")
+   ![Översikt över balansering av tillgång och efterfrågan.](media/nav_app_supply_planning_2_balancing.png "Översikt över balansering av tillgång och efterfrågan")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Hantera order före planeringsstartdatumet
 För att förhindra att en tillförselplan visar omöjliga och därför oanvändbara förslag, betraktar planeringssystemet perioden fram till planeringsstartdatumet som en fryst zon som inget planeras för. Följande regel gäller för den frysta zonen:  
