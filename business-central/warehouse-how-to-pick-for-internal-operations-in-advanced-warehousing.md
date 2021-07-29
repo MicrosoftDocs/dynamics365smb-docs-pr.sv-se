@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea056bf4255cf557c711113854821f9dece17cad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771041"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445778"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Plocka för produktion eller montering i avancerad distributionslagerkonfiguration
 I avancerad distributionslagerkonfiguration, där det har angetts att lagerstället ska använda plockning samt leverans, kan du välja plockkomponenter för produktion- och monteringsaktiviteter med sidan **Dist.lager plockning**.  
@@ -40,7 +40,7 @@ För att skapa plockning för både pull- och pushscenarier, måste källdokumen
 |Monteringsorder|Ändra status till släppt.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Så här plockar du komponenter med hjälp av plockningskalkylarket  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Hämta kalkylark** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Hämta dist.lager dokument** och välj sedan de komponentrader från den släppta produktionsordern.  
 3.  Analysera raderna, sortera dem för att garantera en effektiv plockningsrunda och kombinera dem med andra kalkylarksrader, om så behövs, för att minimera plockningstiden för den anställda.  
 4.  Välj åtgärden **Skapa plockning**.  
@@ -52,7 +52,7 @@ Om internt verksamhetsområde, till exempel ett produktionslagerplats, har uppr�
 ## <a name="filling-the-consumption-bin"></a>Fylla förbrukningslagerstället
 Diagrammet visar hur **Lagerställeskod** på produktionsorderkomponentraderna fylls enligt platsinställningen.
 
-![Flödesschema för lagerplats](media/binflow.png "BinFlow")  
+![Flödesschema för lagerplats.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Se även
 [Lagerstyrning](warehouse-manage-warehouse.md)  

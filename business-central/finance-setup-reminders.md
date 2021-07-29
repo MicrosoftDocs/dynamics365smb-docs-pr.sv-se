@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 06853911f5b2858fbde4ff5371971c86f2960543
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba76f1f48249de12af6dc99057a92ef6aaeef13a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783490"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446246"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Konfigurera påminnelsevillkor och nivåer
 
@@ -30,7 +30,7 @@ Om en betalning förfaller måste du bestämma när och hur betalningspåminnels
 
 ### <a name="to-set-up-reminder-terms"></a>Så här ställer du in betalningspåminnelsevillkor
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Betalningspåminnelsevillkor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **påminnelsevillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Om du vill använda fler än en uppsättning villkor, anger du en kod för varje kombination.
 
@@ -42,7 +42,7 @@ Om du skapar fler betalningspåminnelser än du har definierat nivåer för, anv
 
 ### <a name="to-set-up-reminder-levels"></a>Så här ställer du in nivåer för betalningspåminnelser
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Betalningspåminnelsevillkor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **påminnelsevillkor** och väljer sedan relaterad länk.  
 2. På sidan **betalningspåminnelsevillkor** och välj raden med de villkor som du vill ange nivåer för och klicka sedan på åtgärden **Nivåer**.  
 3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 

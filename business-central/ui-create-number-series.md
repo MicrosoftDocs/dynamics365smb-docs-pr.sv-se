@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870004"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446003"
 ---
 # <a name="create-number-series"></a>Skapa nummerserier
 För varje företag som du lägger upp måste du tilldela unika ID-koder till exempelvis redovisningskonton, kund- och leverantörskonton, fakturor och dokument. Numrering är viktigt inte enbart för identifiering. Ett adekvat numreringssystem gör också företaget mer hanterbart och enkelt att analysera, och kan minska antalet fel som uppstår vid datainmatning.
@@ -60,7 +60,7 @@ När du öppnar ett nytt dokument eller kort som det finns en nummerserie för, 
 > Om du behöver aktivera manuell numrering för till exempel nya artikelkort som har skapats med en datamigreringsprocess som döljer fältet **Nr.** som standard, gå då till sidan **Lagerinställningar** och välj sedan fältet **Artikelnr.** om du vill öppna och ange relaterade nummerserier som **Manuell numrering**.
 
 ## <a name="to-create-a-new-number-series"></a>Så här skapar du nummerserier
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Nummerserie** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Nummerserier** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten på en ny rad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärden **Rader**.
@@ -69,7 +69,7 @@ När du öppnar ett nytt dokument eller kort som det finns en nummerserie för, 
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Om du vill konfigurera var en nummerserie används
 I följande procedur beskrivs hur du ställer in nummerserier för området Försäljning. Stegen är liknande för andra områden.
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
 2. På sidan **försäljning** klickar du på snabbfliken **nr-serier** och väljer önskade nummerserier för varje försäljningskort och dokument.
 
 Det markerade numret kommer nu att användas för att fylla i fältet **nr.** på kortet eller dokumentet i fråga enligt de inställningar du har gjort på nummerserieraden.
@@ -77,7 +77,7 @@ Det markerade numret kommer nu att användas för att fylla i fältet **nr.** p�
 ## <a name="to-create-relationships-between-number-series"></a>Så här skapar du samband mellan nummerserier
 Om du har definierat mer än en nummerseriekod för samma typ av allmän information eller transaktioner kan du skapa samband mellan koderna. Den här funktionen gör det enklare för dig att välja bland koderna när du använder ett nummer.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Nummerserie** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Nummerserier** och väljer sedan relaterad länk.
 2. Markera raden med de nummerserier som du vill skapa relationer för och välj sedan **Relationer**.
 3. I fältet **Seriekod** anger du koden för nummerserien som du vill koppla till serien du valde i steg 2.
 4. Lägg till en rad för varje kod som du vill koppla till den valda nummerserien.

@@ -1,21 +1,21 @@
 ---
-title: Koppla betalningar till relaterade dokument och bokför dem | Microsoft Docs
-description: Beskriver hur du kan registrera betalningar du gör till leverantörer och återbetalningar som du gör till kunder.
+title: Registrera betalningar och återbetalningar i betalningsjournalen
+description: Läs om hur du registrerar betalningar som du gör till leverantörer och återbetalningar som du gör till kunder på sidan Betalningsjournal.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782069"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543203"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrera betalningar och återbetalningar i betalningsjournalen
 
@@ -37,16 +37,31 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Göra betalningar i betalningsjournal
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.
 2. Öppna den journal som ska användas för betalningar.
-3. Om du vet vem som ska betala eller återbetalas, fyll i fälten manuellt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Om du vet vem som ska betala, fyll i fälten manuellt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Du kan också koppla betalningen till den relaterade fakturan eller kreditnotan, välj fältet **gäller för ver.nr** på sidan **Koppla leverantörstrans**, välj relevant faktura eller kreditnota och tryck på knappen **OK**.
 
     Många fält såsom **dokumentbelopp** och **förfallodatum** fylls nu i automatiskt med information från det markerade dokumentet.
 5. Alternativt kan du använda funktionen **Betalningsförslag för lev.**. Alla som kopplas till information och belopp kommer sedan också anges på journalraderna. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
 
     Meddelanden som hjälper dig att fylla i de obligatoriska fälten på rätt sätt.
-6.  När alla betalningsjournalrader är ifyllda, välj åtgärden **Bokför**.
+6. När alla betalningsjournalrader är ifyllda, välj åtgärden **Bokför**.
+
+
+## <a name="to-issue-a-refund-check"></a>Så här skickar du en återbetalningscheck
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
+2. I fältet **Dokumenttyp** väljer du **Återbetalning**.  
+3. I fälet **Externt dokumentnr.** använd den här som referens för återbetalningsckecken (till exempel returordernummer).  
+4. I fältet **Kontotyp** väljer du **Kund**.  
+5. I fältet **Kontonr** väljer du kundens konto nummer som återbetalningschecken utfärdas till.  
+6. Ange det belopp som ska återbetalas i fältet **Belopp**.  
+7. I fältet **Motkontotyp** väljer du **Bankkonto**.  
+8. I fältet **Motkontonr.** välj bankkontot som checken kommer från.  
+9. I fältet **Kopplas till ver.nr.** väljer du de dokument som kräver en återbetalning.  
+10. När alla utbetalningsjournalrader är slutförda, välj åtgärden **Bokför/skriv ut** och välj åtgärden **Bokför och skriv ut** och välj **Ja**.  
+  
 
 ## <a name="see-also"></a>Se även
 [Gör checkbetalning](payables-how-work-checks.md)  

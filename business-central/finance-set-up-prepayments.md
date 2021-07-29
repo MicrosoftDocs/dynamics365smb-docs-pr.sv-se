@@ -1,21 +1,21 @@
 ---
-title: Ställa in förskottsbetalningar | Microsoft Docs
-description: Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan till exempel kräva en deposition innan du tillverkar artiklar mot order eller också kan du kräva betalning innan du levererar artiklar till en kund. Med hjälp av funktionen för förskottsbetalning kan du fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.
+title: Konfigurera förskottsbetalningar
+description: Lär dig hur du konfigurerar Business Central så att du kan använda förskottsbetalningar till för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: prepayment
-ms.date: 04/01/2021
+ms.search.keyword: prepayment
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 22afcee500b852395627cc28cb66f8863f8a198b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a8b647e52457fc4bc2c7377ad6d4fb4f40d6dc58
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773911"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446321"
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
-Om du vill att din kund ska betala innan ni levererar till dem eller om er leverentör kräver att ni betalar innan dem levererar till er kan du använda Förskottsbetalningsfunktionen Funktionen låter dig fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer och för att säkerställa att alla delbetalningar bokförs mot en faktura. För mer information, se [Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).
+Om du vill att din kund ska betala innan ni levererar till dem eller om er leverentör kräver att ni betalar innan dem levererar till er kan du använda Förskottsbetalningsfunktionen Förskottsbetalningar låter dig fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer och för att säkerställa att alla delbetalningar bokförs mot en faktura. För mer information, se [Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).
 
 Innan du kan bokföra förskottsfakturor måste du skapa bokföringskonton i redovisningen och ange nummerserier för förskottsbetalningsdokument. Du måste ange ett konto för förskottsbetalningar som relaterar till försäljning och ett konto för förskottsbetalningar som rör inköp. Du kan ange samma bokföringskonton som ska användas för alla förskottsbetalningar som är kopplade till alla rörelsebokföringsmallar eller produktbokföringsmallar, eller så kan du ange specifika konton för särskilda bokföringsmallar för försäljning respektive inköp. Detta beror på ditt företags behov av att följa upp förskottsbetalningar.  
 
@@ -32,7 +32,7 @@ Eftersom det förutbetalda beloppet hör till köparen ända tills han/hon har m
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Så här lägger du till konton för förutbetalda poster i bokföringsinställningarna  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokföringsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.
 2. På sidan **Bokföringsinställningar** fyller du i följande fält:  
 
     - **Förskottsbet.konto, försäljning**  
@@ -45,13 +45,13 @@ Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarn
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Så här skapar du nummerserier för dokument för förskottsbetalning  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
 2. På sidan **Försäljningsinställningar** fyller du i följande fält:  
 
    - **Försk.fakt.nr.serie (bokförd)**
    - **Försk.kredit.nr.serie (bokförd)**
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inköpsinställningar** och väljer sedan relaterad länk.
 2. På sidan **Inköpsinställningar** fyller du i följande fält:
 
     - **Försk.fakt.nr.serie (bokförd)**
@@ -63,13 +63,13 @@ Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarn
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Ställa in Procentandelar, förskottsbetalning för artiklar, kunder och leverantörer  
 Du kan ställa in en artikels standardprocentandel för alla kunder, en specifik kund eller en kundprisgrupp.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Välj en artikel och välj sedan åtgärden **Procentandel för förskottsbet**.  
 3. På sidan **Procentandelar, förskottsbetalning för försäljning** fyller du i följande fält: [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan ställa in en kunds eller leverantörs standardprocentandel för förskottsbet. för alla artiklar och alla typer av försäljningsrader. Ange detta på kundkortet eller leverantörskortet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kort för en kund.
 3. Fyll i fältet **Förskottsbetalning %**.
 4. Upprepa stegen för andra kunder eller för leverantörer.  

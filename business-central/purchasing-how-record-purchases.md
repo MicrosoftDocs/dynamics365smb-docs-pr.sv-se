@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115846"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445507"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrera inköp med inköpsfakturor
 
@@ -49,7 +49,7 @@ Du kan fylla i leverantörsfälten på inköpsfakturan på två sätt, beroende 
 
 Nedan beskrivs hur du skapar en inköpsfaktura. Momenten är liknande för en inköpsorder. Den största skillnaden är att inköpsorder har ytterligare fält och åtgärder för fysisk hantering av artiklar.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsfakturor** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Ange namnet på en befintlig leverantör i fältet **Leverantör**.
 
     Andra fält på sidan **Inköpsfaktura** fylls nu i med standardinformation om den valda leverantören. Om leverantören inte är registrerad, gör så här:

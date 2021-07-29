@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 98a8f91aa3c6b8c9b2c9348441ca369f34f73b88
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 195d94af6e34206c6107690b0fef499ccc8b2490
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882502"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446446"
 ---
 # <a name="changing-company-and-other-settings-in-teams"></a>Ändra företag och andra inställningar i Teams
 
@@ -27,16 +27,18 @@ Det finns två sätt att öppna sidan **inställningar**: 1) från meddelanderut
 
 1. Högerklicka på programikonen under meddelanderutan [!INCLUDE [prod_short](includes/prod_short.md)] och välj sedan **inställningar**.
 
-    ![Inställningar för kommandorutan Business Central](media/teams-settings-message-box.png)
+    ![Inställningar för kommandorutan Business Central.](media/teams-settings-message-box.png)
 
 2. Från kommando rutan högst upp söker du efter **@Business Central**, välj **... (Fler alternativ)** och välj sedan **Inställningar**.
 
-   ![Inställningar för meddelanderutan Business Central](media/teams-settings-command-box.png)
+   ![Inställningar för meddelanderutan Business Central.](media/teams-settings-command-box.png)
 
 ## <a name="see-also"></a>Se även
 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  
+[Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams](across-search-contacts-teams.md)  
+[Dela poster i Microsoft Teams](across-working-with-teams.md)  
 [Vanliga frågor och Svar om Teams](teams-faq.md)  
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

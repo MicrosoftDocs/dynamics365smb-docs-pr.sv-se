@@ -1,6 +1,6 @@
 ---
-title: Skapa ett försäljningserbjudande till en kund
-description: Beskriver hur du skapar ett försäljningserbjudande eller begäran om förslag (Offertförfrågan) för att registrera ditt erbjudande till kunden att sälja produkter under vissa villkor.
+title: Gör försäljningsofferter
+description: Läs om hur du skapar ett försäljningserbjudande eller begäran om förslag (Offertförfrågan) för att registrera ditt erbjudande till kunden eller potentiell kund att sälja produkter under vissa villkor.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,36 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a538b7099521b10227bf5aeaefad0a9c60971068
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115546"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543126"
 ---
 # <a name="make-sales-quotes"></a>Gör försäljningsofferter
 
-Du kan skapa en försäljningsoffert för att erbjuda en kund att sälja vissa produkter till vissa leverans- och betalningsvillkor. Du kan skicka försäljningsofferten till kunden för att meddela erbjudandet. Du kan e-posta dokument som en PDF-bilaga. Du kan också välja e-postbrödtexten förifylld med en sammanfattning av offerten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
+Du kan skapa en försäljningsoffert för att erbjuda en kund eller potentiell kund att sälja vissa produkter till vissa leverans- och betalningsvillkor. Du kan skicka försäljningsofferten till kunden för att meddela erbjudandet. Du kan e-posta dokument som en PDF-bilaga. Du kan också välja e-postbrödtexten förifylld med en sammanfattning av offerten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
-Medan du förhandlar med kunden kan du ändra och skicka försäljningsofferten så mycket som behövs. När kunden accepterar offerten omvandlar du försäljningsofferten till en försäljningsfaktura eller försäljningsorder som du bearbetar försäljningen. Mer information finns i [Fakturera försäljning](sales-how-invoice-sales.md) eller [Sälja produkter](sales-how-sell-products.md).
+Medan du förhandlar med kunden eller potentiell kund kan du ändra och skicka försäljningsofferten så mycket som behövs. När kunden accepterar offerten omvandlar du försäljningsofferten till en försäljningsfaktura eller försäljningsorder som du bearbetar försäljningen. Mer information finns i [Fakturera försäljning](sales-how-invoice-sales.md) eller [Sälja produkter](sales-how-sell-products.md).
 
-Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende på om kunden redan har registrerats. Se steg 2 och 3 i följande procedur.
+I de flesta fall skickar du försäljningsoffert till potentiella kunder. Du har ofta en kontaktperson som du har förhandlat med. Om de accepterar erbjudandet slår du in försäljningsofferten i en order och registrerar den potentiella kunden som en kund i [!INCLUDE [prod_short](includes/prod_short.md)]. I följande procedur fokuserar vi på kontakter, men du kan också skicka offerter till befintliga kunder.  
 
 ## <a name="to-create-a-sales-quote"></a>Så här skapar du en försäljningsoffert
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **försäljningsofferter** och välj sedan tillhörande länk.
-2. Ange namnet på en befintlig kund i fältet **Kund**.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsofferter** och väljer sedan relaterad länk.
+2. Ange den kontakt eller kund som du vill skicka försäljningsofferten till.
 
-   Andra fält på sidan **Försäljningsoffert** innehåller standardinformation om den valda kunden.  
+    - Om försäljningsofferten gäller en befintlig kontakt anger du namnet i fältet **Kontaktnr.** .  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]
+        Om försäljningsofferten gäller en befintlig kund anger du kunden i fältet **kund**.
+    - Om kontakten inte är registrerad, gör så här:
 
-    Flera fält i Försäljningsofferten är nu ifyllda med information som du har angett på det nya kundkortet.  
+        1. I fältet **Kontaktnr.** välj sedan knappen Redigera :::image type="icon" source="media/assist-edit-icon.png" border="false":::.
+        2. I dialogrutan där du väljer kontakten väljer du den **nya** åtgärden och fyller sedan i relevanta fält. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Mer information finns i [Skapa kontakter](marketing-create-contact-companies.md).  
+        3. När du är klar med kontaktkortet markerar du den nyskapade kontakten i listan över kontakter och klickar sedan på OK för att gå tillbaka till förs. offerten.
+
+        Flera fält i Försäljningsofferten är nu ifyllda med information som du har angett på det nya kontaktkortet.
+
+        > [!NOTE]
+        > Om du vill beräkna skatter och priser för en offert korrekt måste du välja den relevanta kundmallen i fältet **Kod för kundmall**. Mallen kommer att användas för att konvertera kontakten till en kund när offerten har konverterats till en försäljningsorder eller faktura.
+    -  Om offerten är för en ny kund måste du lägga till kunden. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
+
 3. På sidan **Förs.offert** fyller du i de återstående fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Du är nu klar att fylla i försäljningsorderraderna för produkter som du säljer till kunden eller för en transaktion med den kund som du vill registrera en post i ett redovisningskonto.  
+    Du är nu klar att fylla i försäljningsraderna för produkter som du säljer för en transaktion med den kund eller den potentiella kund som du vill registrera en post i ett redovisningskonto.  
 
     Om du har ställt in återkommande försäljningsrader för kunden, till exempel en månatlig återanskaffningsorder, kan du infoga de här raderna på ordern, genom att välja åtgärden **Hämta återkommande försäljningsrader**.  
 
@@ -59,7 +69,7 @@ Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende p
 7. Om du vill ge en rabatt kan du ange ett procenttal i fältet **radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.  
 
     Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på försäljningsraden automatiskt om de överenskomna prisvillkorna uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).  
-8. Upprepa moment 4 till 7 för varje produkt som du vill att erbjuda kunden.
+8. Upprepa moment 4 till 7 för varje produkt som du vill att erbjuda kontakten.
 
     Summorna under raderna beräknas automatiskt när du skapar eller ändrar rader.  
 9. I fältet **Fakturarabatt** anger du ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms**.
@@ -71,9 +81,18 @@ Du kan fylla i kundfälten på försäljningsofferten på två sätt, beroende p
 
 10. När försäljningsoffertraderna slutförda väljer du åtgärden **Skicka med e-post**.
 11. På sidan **Skicka e-post** fyller du i återstående fält och granskar den inbäddade försäljningsofferten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
-12. Om kunden accepterar offerten väljer du åtgärden **Gör faktura** eller **Gör order**.
+12. Om kontakten accepterar offerten väljer du åtgärden **skapa order**.  
 
-Försäljningsofferten tas bort från databasen. En försäljningsfaktura eller försäljningsorder har skapats baserat på informationen i försäljningsofferten där du kan bearbeta försäljningen. I fältet **Offertnr** på försäljningsfakturan eller försäljningsordern kan du ange numret på försäljningsofferten som den har skapats från. Mer information finns i [Fakturera försäljning](sales-how-invoice-sales.md) eller [Sälja produkter](sales-how-sell-products.md).  
+    Alternativt kan du välja åtgärden **Gör faktura** om din organisation föredrar den processen.  
+    > [!NOTE]
+    > Om du har lagt till en kund i steg 2 ombeds du bekräfta konverteringen av offerten till en order.  
+    >
+    > Om du har lagt till en kontakt från en potentiell kund i steg 2 ombeds du utföra följande steg:
+    >
+    >  - Konvertera kontakten eller det potentiella kunden till en kund genom att välja någon av konverteringsmall för kontakt. Mer information finns i [Att skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Bekräfta konverteringen av offerten till en order.
+
+Konverteringen tar bort försäljningsofferten från databasen. En försäljningsfaktura eller försäljningsorder har skapats baserat på informationen i försäljningsofferten där du kan bearbeta försäljningen. I fältet **Offertnr** på försäljningsfakturan eller försäljningsordern kan du ange numret på försäljningsofferten som den har skapats från. Mer information finns i [Fakturera försäljning](sales-how-invoice-sales.md) eller [Sälja produkter](sales-how-sell-products.md).  
 
 ## <a name="external-document-number"></a>Externt dokumentnummer
 
@@ -84,6 +103,7 @@ Försäljningsofferten tas bort från databasen. En försäljningsfaktura eller 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Skicka dokument via e-post](ui-how-send-documents-email.md)  
+[Arkivera dokument](across-how-to-archive-documents.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

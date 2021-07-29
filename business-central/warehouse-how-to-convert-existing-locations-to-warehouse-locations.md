@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0732e373c95896ba3a242564b1bc5bac6ff825a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d5b7d3bc1f83543fa5b7b3c06acae2ddbe9fa8b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771860"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445853"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertera befintliga lagerställen till distributionslagerställen
 Du kan definiera att ett befintligt lagerställe ska använda zoner och lagerställen och fungera som ett distributionslager.  
@@ -28,7 +28,7 @@ Du kan skapa zoner och lagerställen före eller efter konverteringen. Den enda 
 >  Du rensar alla negativa lagersaldon och eventuella öppna distributionslagerdokument innan du konverterar platsen för dist.lagerhantering, genom att köra en rapport för att hitta artiklar med negativt lagersaldo och öppna distributionslagerdokument för lagerstället. Mer information finns i Kontrollera negativt lagersaldo.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Så här aktiverar du ett befintligt lagerställe att fungera som ett distributionslager  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skapa dist.lagerplats** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Skapa dist.lagerplats** och väljer sedan relaterad länk.  
 2.  I **Lagerställekod** fältet, ange det lagerställe som du vill aktivera för distributionslagerbearbetning.  
 3.  I **Justering lagerställeskod** fältet, ange lagerstället på platsen dit ej synkroniserade dist.lager transaktioner lagras. Mer information finns i [Så här synkroniserar du justerade lagertransaktioner med tillhörande artikeltransaktioner](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 

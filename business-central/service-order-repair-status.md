@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776822"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446078"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Ställ in status för serviceorder och reparationer
 
@@ -29,7 +29,7 @@ Innan du kan ställa in en reparationsstatus måste du ställa in statuspriorite
 
 ## <a name="to-set-up-service-status-priorities"></a>Så här skapar du servicestatusprioriteter
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänstorderstatus** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceorderstatus** och väljer sedan relaterad länk.  
 2. Välj den serviceorderstatus som du vill ange prioritet för.  
 3. I fältet **Prioritet** väljer du önskad prioritet för aktuell serviceorderstatus.  
 
@@ -37,7 +37,7 @@ Upprepa steg 2 och 3 tills du har angett en prioritet för vart och ett av de fy
 
 ## <a name="to-set-up-a-repair-status"></a>Så här skapar du en reparationsstatus
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **reparationsstatus** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **reparationsstatus** och väljer sedan relaterad länk.
 2. Skapa en ny reparationsstatus.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. I fältet **serviceorderstatus** väljer du orderstatus att länka reparationsstatusen till. Fältet **Prioritet** visar prioriteten för den serviceorderstatus som du har valt.  

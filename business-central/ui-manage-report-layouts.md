@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8c62a19a9dda2f9af72f03130c7b3cc5e00c1d41
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2b3dcc5c40346f6bd63d431b3024d64bc5a0d434
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776672"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445953"
 ---
 # <a name="managing-report-and-document-layouts"></a>Hantera rapport- och dokumentlayouter
 En rapportlayout kontrollerar rapportens format och innehåll, som vilka datafält i en rapportdatauppsättning som visas i rapporten och hur de ordnas, textstil, bilder och mycket annat. Från [!INCLUDE[prod_short](includes/prod_short.md)] kan du ändra vilken layout som används på en rapport, skapa en ny layout eller ändra befintliga layouter.
@@ -39,7 +39,7 @@ Det finns två typer av rapportlayouter som du kan använda i rapporter, Word oc
 ## <a name="word-report-layout-overview"></a>Översikt över Word-rapportlayout
 En Word-rapportlayout är baserad på Word-dokument (filtypen .docx). Word-rapportlayouter aktiverar du för att utforma rapportlayouter, med hjälp av Microsoft Word 2013 eller senare. En Word-rapportlayout bestämmer rapportens innehåll – styr hur innehållselement organiseras och hur de ser ut. Ett Word-dokument med rapportlayout använder vanligtvis tabeller för att ordna innehållet, där cellerna kan innehålla datafält, text eller bilder.
 
- ![Exempel på ett rapportlayoutdokument för Word för NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+ ![Exempel på ett rapportlayoutdokument för NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>Översikt över RDLC-layout
 RDLC-layouter baseras på layouter för klientrapportdefinition (.rdlc- eller .rdl-filtyper). Dessa layouter skapas och ändras genom att använda SQL Server Report Builder. Designbegreppet för RDLC-layouter liknar Word-layouter, där layouten definierar det allmänna formatet på rapporten och bestämmer vilka fält från datauppsättningen som ska inkluderas. Att utforma RDLC-layouter är mer avancerat än Word-layouter. Mer information finns i [Designa RDLC rapportlayouter](/dynamics-nav/Designing-RDLC-Report-Layouts).

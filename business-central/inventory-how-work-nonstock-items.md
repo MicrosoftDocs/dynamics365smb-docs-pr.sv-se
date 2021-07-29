@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9bc47c18f723b55baffd56d5d89bfb5afb5c457b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784498"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445582"
 ---
 # <a name="work-with-catalog-items"></a>Arbeta med katalogartiklar
 Du kan erbjuda vissa artiklar till dina kunder för deras bekvämlighet, som du inte vill hantera i ditt system, tills du börjar sälja dem. När du vill börja hantera sådana artiklar i ditt system, kan du konvertera dem till vanliga artikelkort på två sätt.
@@ -36,25 +36,25 @@ En katalogartikel har vanligtvis artikelnumret från den leverantör som leverer
 ## <a name="to-create-a-catalog-item"></a>Så här skapar du en katalogartikel
 Kort för katalogartiklar har mycket mindre information än normala artikelkort, eftersom du bara använder dem för att erbjuda på offerter och på andra sätt. Därför måste de konverteras till normala artikelkort, innan du kan bokföra försäljningstransaktioner för dem.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Katalogartiklar** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **katalogartiklar** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Så här ställer du in katalogartikelnummer konverteras till ditt eget nummer
 Om du vill aktivera konvertering av ett kort för katalogartikel till ett vanligt artikelkort måste du först ställa in hur leverantörens artikelnumrering konverteras till dit eget nummerformat.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställningar för katalogartikel** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inställning av katalogartiklar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Om du vill omvandla en katalogartikel till en normal artikel
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Katalogartiklar** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **katalogartiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för den katalogartikel som du vill konvertera till en normalt artikel.
 3. På sidan **Katalogartikelkort** väljer du åtgärden **Skapa artikel**.
 
 Ett nytt artikelkort förifyllt med information från katalogartikeln och en relevant artikelmall skapas. Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Om du vill sälja en katalogartikel och konvertera den till en normal artikel
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**. Fyll i övriga fält på snabbfliken **Allmänt** som för alla andra försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3. På en ny försäljningsrad i fältet **Typ** väljer du **Artikel**, men lämnar **Nr.** tomt.
 4. Välj åtgärden **Rad** och välj sedan åtgärden **Välj katalogartiklar**.

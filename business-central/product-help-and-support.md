@@ -1,18 +1,18 @@
 ---
-title: Hjälp och support
+title: Resurser för hjälp och support
 description: Hitta produkthjälpen, råd, felsökningstips och hjälp och lär dig få teknisk support för Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/09/2021
-ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.date: 07/09/2021
+ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115417"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543076"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
@@ -71,11 +71,20 @@ Se till att du söker igenom listan över rapporterade förslag. Risken är att 
 
 Avsnittet **felsökning** visar teknisk information visas som administratören eller [!INCLUDE[prod_short](includes/prod_short.md)]-partnern kan använda för att avblockera användare. Detta omfattar information om det senaste felmeddelandet, den aktuella versionen av [!INCLUDE[prod_short](includes/prod_short.md)] och en länk till sidan **Sidgranskning**. Mer information finns i [Kontrollera sidor i Business Central](across-inspect-page.md).  
 
-Som intern administratör har du tillgång till administrationscentret där du kan fortsätta felsökningen. Du kan visa telemetri, hantera miljöer och hantera användarsessioner. Mer information finns i avsnittet [Söka efter teknisk information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) och [Hantera miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i administrationsinnehåll.  
+Om du vill ha hjälp med att felsöka från en supportpartner kan du aktivera ytterligare loggning i avsnittet **Rapportera ett problem**. Du kan sedan analysera den ytterligare telemetri i administrationscentret Application Insights, eller t.ex.  
+
+Som intern administratör har du tillgång till administrationscentret där du kan fortsätta felsökningen. Du kan visa telemetri, hantera miljöer och hantera användarsessioner. Följande artiklar i administrationsinnehållet ger mer information:
+
+- [Söka efter teknisk information](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
+- [Hantera miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+- [Övervakning och analys av telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
+- [Aktivera skicka telemetri till Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
 ## <a name="report-a-problem"></a>Rapportera ett problem
 
-Din [!INCLUDE[prod_short](includes/prod_short.md)] återförsäljningspartner kommer att hjälpa dig med teknisk support. Det här avsnittet kan du kontakta din återförsäljningspartner om de har lämnat sina kontaktuppgifter för support. Om din [!INCLUDE[prod_short](includes/prod_short.md)] partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft. Mer information finns i [Eskalera supportproblem till Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) i administrationsinnehållet.  
+Din [!INCLUDE[prod_short](includes/prod_short.md)] återförsäljningspartner kommer att hjälpa dig med teknisk support. Det här avsnittet kan du kontakta din återförsäljningspartner om de har lämnat sina kontaktuppgifter för support. Om din [!INCLUDE[prod_short](includes/prod_short.md)] partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft.  
+
+Mer information finns i [Eskalera supportproblem till Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) i administrationsinnehållet.  
 
 > [!NOTE]
 > Det här avsnittet är bara tillgängligt om du har betalat för en [!INCLUDE[prod_short](includes/prod_short.md)]-prenumeration. Om du har registrerat dig för en utvärderingsperiod och ännu inte har köpt [!INCLUDE[prod_short](includes/prod_short.md)] har du inte någon återförsäljare och kan inte kontakta Microsoft supportteam. Du hittar en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner).  

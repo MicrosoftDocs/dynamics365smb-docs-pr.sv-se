@@ -1,6 +1,6 @@
 ---
 title: Uppgradera en integrering med Dynamics 365 Sales
-description: Lär dig hur du flyttar Dynamics 365 Business Central-integrationen med Dynamics 365 Sales till den senaste versionen.
+description: Detta ämne lär dig hur du flyttar Dynamics 365 Business Central-integrationen med Dynamics 365 Sales till den senaste versionen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: c6405326890b8f33b399f880e54d0fcf14db1650
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025814"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543026"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Uppgradera en integrering med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] integreras också med [!INCLUDE[prod_short](includes/cds_long_md.md)], vilket gör det enkelt att ansluta och synkronisera data med andra Dynamics 365-program, till exempel [!INCLUDE[crm_md](includes/crm_md.md)] eller till och med appar som du själv skapar. Om du integrerar för första gången rekommenderar vi att du gör det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Mer information finns i [Integrera med Dataverse](admin-common-data-service.md).
@@ -26,17 +26,16 @@ Om du redan har integrerat [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[
 > När du återansluter via [!INCLUDE[prod_short](includes/cds_long_md.md)] används standardinställningarna för synkroniseringen, och eventuella konfigurationsinställningar skrivs över. Till exempel tillämpas standardmappningarna för tabeller.
 
 ## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Så här uppgraderar du anslutningen till att använda Dataverse
-1. Öppna sidan **Anslutningskonfiguration för Microsoft Dynamics 365** och stäng av brytaren **Aktiverad** för att koppla ifrån [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Öppna sidan **Anslutningskonfiguration för Dataverse** och välj brytaren **Aktiverad** för att aktivera anslutningen till [!INCLUDE[prod_short](includes/cds_long_md.md)].
+1. Öppna sidan **Konfiguration av anslutning till Microsoft Dynamics 365** stänger du av reglaget **Aktiverad**. Stäng sedan sidan att koppla från [!INCLUDE[crm_md](includes/crm_md.md)].
+2. Öppna sidan **Dataverse anslutningsinställningar** och välj **Ägarskapsmodlel**, välj **Person**. Välj sedan växlingen **Aktivera** för att aktivera anslutningen till [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
    > [!NOTE]
    > När du har aktiverat anslutningen distribueras integreringslösningen till Business Central till Dataverse.
-3. Välj **Omdistribuera integreringslösning** för att ominstallera integreringslösningen för Business Central.
-4. På sidan **Anslutningskonfiguration för Microsoft Dynamics 365** aktiverar du reglaget **Aktiverad** för att återansluta till [!INCLUDE[crm_md](includes/crm_md.md)].
+4. På sidan **Konfiguration av anslutning till Microsoft Dynamics 365**, välj **Omdistribuera integreringslösning** för att installera om integreringslösningen för Business Central.
+5. Aktivera växlingen **Aktiverad** för att ansluta igen till [!INCLUDE[crm_md](includes/crm_md.md)].
   
    > [!NOTE]
    > När du har aktiverat anslutningen distribueras integreringslösningen till Business Central till [!INCLUDE[prod_short](includes/prod_short.md)]. Detta möjliggör integrering med tabeller som är specifika för [!INCLUDE[crm_md](includes/crm_md.md)], t. ex. försäljningsorder, offerter och fakturor.
-5. Välj **Omdistribuera integreringslösning** för att ominstallera integreringslösningen för Business Central.
 6. På sidan **Anslutningsinställningar för Sales** väljer du **Använd standardinställningar för synkronisering** om du vill initiera registermappningarna för [!INCLUDE[crm_md](includes/crm_md.md)].
 
    > [!IMPORTANT]

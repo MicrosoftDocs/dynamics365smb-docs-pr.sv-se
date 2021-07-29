@@ -1,6 +1,6 @@
 ---
-title: Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration
-description: När distributionslagrets lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du sidan **Lagerplockning** för att ordna och registrera plockning av komponenter.
+title: Plocka produktion eller montering i en grundläggande lager
+description: När distributionslagrets lagerställe kräver plockningsbearbetning, men inte utleveransbearbetning, använder du sidan Lagerplockning för att ordna och registrera plockning av komponenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 005532799378248f67ff21b8e50955342ff1c24a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3827bb8ab272b38972c17d79933ce0aa187e32d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782615"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445803"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration
 Hur du för in plockningskomponenter för produktions- eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
@@ -43,7 +43,7 @@ En systemvillkor för plockning eller flyttning av komponenter för källdokumen
 ## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Så här plockar du produktionskomponenter i grundläggande distributionslagerkonfiguration med lagerplockning
 I grundläggande distributionslagerkonfiguration, där det har angetts att lagerstället ska endast använda plockning samt leverans, kan du välja plockkomponenter på sidan **Lagerplockning**. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerplockning** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerplockning** och väljer sedan relaterad länk.  
 2.  Om du vill komma åt produktionsorderns komponenter väljer du åtgärden **Hämta källdokument** och väljer den släppta produktionsordern.  
 3.  Utför plockningen och registrera den verkliga plockningsinformationen i fältet **Ant. att hantera**.  
 4.  När raderna är färdiga att bokföras klickar du på **Bokför**. Bokföringen skapar de nödvändiga distributionslagertransaktionerna och bokför förbrukningen av artiklarna.  
@@ -81,7 +81,7 @@ I alla scenarier där en del av antalet måste först vara församlad och ett an
 ## <a name="filling-the-consumption-bin"></a>Fylla förbrukningslagerstället
 Diagrammet visar hur **Lagerställeskod** på produktionsorderkomponentraderna fylls enligt platsinställningen.
 
-![Flödesschema för lagerplats](media/binflow.png "BinFlow")
+![Flödesschema för lagerplats.](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Se även
 [Lagerstyrning](warehouse-manage-warehouse.md)  

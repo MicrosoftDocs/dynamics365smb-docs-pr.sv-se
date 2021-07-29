@@ -1,17 +1,17 @@
 ---
 title: Hantera lagring genom att ta bort dokument eller komprimera data
-description: Lär dig hur du kan behålla historiska data genom att komprimera bokföringsposter eller hur du tar bort den.
+description: Lär dig att hantera historiska dokument (och minska mängden data som lagras i en databas) genom att ta bort eller komprimera dem.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c41e4d871740efde811a6bfc6190605aa4e3f573
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781217"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543051"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hantera lagring genom att ta bort dokument eller komprimera data
 
@@ -34,67 +34,46 @@ Tjänsteordern tas inte bort automatiskt, men om det totala antalet i ordern int
 
 ## <a name="compress-data-with-date-compression"></a>Komprimera data med datumkomprimering
 
-Du kan komprimera data i [!INCLUDE [prod_short](includes/prod_short.md)] så att du sparar utrymme i databasen, som i [!INCLUDE [prod_short](includes/prod_short.md)] online kan spara pengar. Komprimeringen baseras på datum och fungerar genom att flera gamla transaktioner kombineras till en ny. Du kan bara komprimera transaktioner som tillhör avslutade räkenskapsår och leverantörsreskontratransaktioner där fältet **Öppen** är inställt på *Nej*.  
+Du kan komprimera data i [!INCLUDE [prod_short](includes/prod_short.md)] så att du sparar utrymme i databasen, som i [!INCLUDE [prod_short](includes/prod_short.md)] online kan spara pengar. Komprimeringen baseras på datum och fungerar genom att flera gamla transaktioner kombineras till en ny. Du kan bara komprimera transaktioner som tillhör avslutade räkenskapsår och transaktioner där fältet **Öppen** är inställt på **Nej**.  
 
 Leverantörsreskontratransaktioner från föregående räkenskapsår kan exempelvis komprimeras så att endast en kredittransaktion och en debettransaktion skapas per konto och månad. Den nya transaktionens belopp är summan av alla komprimerade transaktioner. Det datum som tilldelas är det första datumet i perioden som komprimerats, t. ex. den första dagen i månaden (om transaktionerna är komprimerade per månad). När komprimeringen är utförd kan du fortfarande se nettoförändringen för respektive konto under föregående räkenskapsår.
 
 Antalet transaktioner som skapas från en datumkomprimering beror på hur många filter du definierar, vilka fält som kombineras och hur lång period du väljer. Det kommer alltid att skapas åtminstone en transaktion. När batch-jobbet har slutförts visas resultatet på sidan **Datumkomprimeringsjournaler**.
 
-Du kan komprimera följande typer av data i [!INCLUDE [prod_short](includes/prod_short.md)] med hjälp av batch-jobb:
+Du kan komprimera följande typer av data med hjälp av batch-jobb. Det finns ett batchjobb för varje typ av data.
 
-* Bankkontotransaktioner
+* Banktransaktioner - redovisningstransaktioner, momstransaktioner, bankkontotransaktioner, redovisningsbudgettransaktioner, kundreskontratransaktioner, leverantörsreskontratransaktioner.
+* Dist.lagertransaktioner 
+* Resurstransaktioner
+* Artikelbudgettransaktioner
+* Anläggningstillgång - Anl. transaktioner, Anl. underhållstransaktioner, Anl. försäkringstransaktioner.
 
-  Efter komprimeringen med funktionen **Bibehåll fältinnehåll** kan du behålla innehållet i fälten **Dokumentnr, vår kontakt**, **Global dimension 1 kod** och **Global dimension 2 kod**.
-* Lev.reskontratransaktioner
+När du definierar kriterier för komprimeringen kan du använda alternativen under **Behåll fältinnehåll** för att behålla innehållet i vissa fält. Vilka fält som är tillgängliga beror på vilka data du komprimerar.
 
 > [!NOTE]
-> Komprimerade transaktioner för kunder, leverantörer, bank och underredovisning för anläggningstillgångar bokförs något annorlunda än vid standardbokföring. Detta är att minska antalet nya redovisningstransaktioner som skapas av datumkomprimering och är särskilt viktigt när du behåller information som dimensioner och dokumentnummer. Datumkomprimering skapar nya poster enligt följande:
+> Innan du kan köra datumkomprimeringen måste analysvyer vara aktuella. Mer information finns i [så här uppdaterar du en analysvy](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+
+Efter komprimeringen behålls alltid innehållet i följande fält: **Bokföringsdatum**, **Leverantörsnr**, **Dokumenttyp**, **Valutakod**, **Bokföringsmall**, **Belopp**, **Återstående belopp**, **Originalbelopp (BVA)**, **Återstående belopp (BVA)**, **Belopp (BVA)**, **Inköp (BVA)**, **Fakturarabatt (BVA)**, **Givet kassarabattbelopp (BVA)** och **Möjlig kassarabatt**.
+
+> [!NOTE]
+> Komprimerade transaktioner bokförs något annorlunda än standardbokföring. Detta är att minska antalet nya redovisningstransaktioner som skapas av datumkomprimering och är särskilt viktigt när du behåller information som dimensioner och dokumentnummer. Datumkomprimering skapar nya poster enligt följande:
 >* På sidan **Redovisningstransaktioner** skapas nya transaktioner med nya transaktionsnummer för de komprimerade transaktionerna. Fältet **Beskrivning** innehåller **Komprimeringsdatum** så att de komprimerade transaktionerna är lätta att identifiera. 
 >* På redovisningssidor, till exempel **Kundreskontratransaktioner**, skapas en eller flera transaktioner med nya transaktionsnummer. 
 > Bokföringsprocessen skapar luckor i nummerserien för transaktioner på sidan **Redovisningstransaktioner**. Dessa nummer tilldelas endast transaktionerna på redovisningssidorna. Det nummerintervall som har tilldelats transaktionerna finns på sidan **Bokförd redovisningsjournal** i fälten **Från transaktion nr.** och **Till transaktrionsnr.**. 
 
-Efter komprimeringen behålls alltid innehållet i följande fält: **Bokföringsdatum**, **Leverantörsnr**, **Dokumenttyp**, **Valutakod**, **Bokföringsmall**, **Belopp**, **Återstående belopp**, **Originalbelopp (BVA)**, **Återstående belopp (BVA)**, **Belopp (BVA)**, **Inköp (BVA)**, **Fakturarabatt (BVA)**, **Givet kassarabattbelopp (BVA)** och **Möjlig kassarabatt**.
-
-  Med funktionen **Bibehåll fältinnehåll** kan du också bibehålla innehållet i följande fält: **Dokumentnr**, **Inköpsleverantörsnr**, **Inköparkod**, **Global dimension 1 kod** och **Global dimension 2 kod**.
-
 > [!NOTE]
 > När du har kört datumkomprimeringen är alla konton i redovisningen låsta. Du kan till exempel inte koppla leverantörs- eller bankredovisningstransaktioner för några konton under den period för vilken datumen komprimeras.
-
-<!--* General ledger entries
-* Customer ledger entries-->
-<!--* Fixed asset ledger entries
-* G/L budget entries
-* VAT entries
-
-  After the compression the contents of the following fields are always retained: **Posting Date**, **Type**, **Closed**, **Gen. Bus. Posting Group**, **Gen. Prod. Posting Group**, **VAT Calculation Type**, **Base**, and **Amount**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Bill-to/Pay-to No.**, **EU 3-Party Trade**, **Country/Region Code**, and **Internal Ref. No.**.
-* Insurance ledger entries
-* Maintenance ledger entries
-* Resource ledger entries
-
-  After the compression, the contents of the following fields are retained: **Posting Date**, **Resource No.**, **Resource Group No.**, **Entry Type**, **Quantity**, **Total Cost**, **Total Price**, and **Chargeable**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Work Type Code**, **Job No.**, **Unit of Measure Code**, **Source Type**, **Source No.**. **Chargeable**, **
-* Warehouse entries
-
-  After the compression the contents of the following fields are always retained: **Registering Date**, **Location Code**, **Zone Code**, **Bin Code**, **Item No.**, **Quantity**, **Qty. (Base)**, **Bin Type Code**, **Entry Type**, **Variant Code**, **Qty. per Unit of Measure**, **Unit of Measure Code**, **Warranty Date**, **Expiration Date**, **Cubage**, and **Weight**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the **Serial No.** and **Lot No.** fields. -->
 
 Antalet transaktioner som skapas från ett batch-jobb för datumkomprimering beror på hur många filter du definierar, vilka fält som kombineras och hur lång period du väljer. Det kommer alltid att skapas åtminstone en transaktion. 
 
 > [!WARNING]
 > Datumkomprimeringen tar bort transaktioner. Därför ska du alltid ta en säkerhetskopia av databasen innan du kör batch-jobbet.
 
-I följande tabell visas de fält på snabbfliken **Alternativ** som är tillgängliga för alla batch-jobb. Avsnittet **Bibehåll fältinnehåll** innehåller ytterligare fält som beskrivs ovan.
-
-|Fält  |Beskrivning  |
-|-------|-------------|
-|Startdatum     |Ange det första datum som ska ingå i datumkomprimeringen. Komprimeringen kommer att påverka alla transaktioner fr.o.m. det här datumet t.o.m. datumet i fältet Slutdatum.|
-|Slutdatum     |Skriv in det sista datumet som ska tas med i datumkomprimeringen. Komprimeringen kommer att påverka alla transaktioner fr.o.m. datumet i fältet Startdatum t.o.m. datumet som du anger här.|
-|Period |Välj längden på perioden vars transaktioner ska kombineras. Välj fältet för att se alternativen. Om du har valt perioden *Kvartal*, *Månad* eller *Vecka*, komprimeras bara transaktioner med samma bokföringsperiod.|
-|Bibehåll fältinnehåll     |Markera kryssrutorna om du vill bibehålla innehållet i vissa fält trots att transaktionerna komprimeras. Desto fler fält du väljer, desto mer detaljerade kommer de komprimerade transaktionerna att bli. Om du inte markerar några av dessa fält kommer batchjobbet att skapa en transaktion per dag, vecka eller annan period enligt perioden som du valde i fältet **Period**. |
+### <a name="to-run-a-date-compression"></a>För att köra en datakomprimering
+1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Dataadministration** och välj sedan relaterad länk.
+2. Gör något av följande:
+    1. Om du vill använda en assisterad installationshandbok för att ställa in datum komprimering för en eller flera typer av data väljer du **Guide för dataadministration**.
+    1. Om du vill ställa in komprimering för en enskild typ av data väljer du **datumkomprimering** , **komprimeringstransaktioner** och väljer sedan de data som ska komprimeras.
 
 ## <a name="see-also"></a>Se även
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783403"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445928"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Byta till ett annat företag eller annan miljö
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783403"
 
 ## <a name="switch-to-another-environment"></a>Växla till en annan miljö
 
-När du har loggat in på [!INCLUDE[prod_short](includes/prod_short.md)] visas de miljöer som du har åtkomst till på startsidan för Dynamics 365. Du kan öppna sidan genom att välja ikonen **programmarstartbild** ikon ![programmarstartbild](media/app-launcher-icon.png "Programmarstartbild ger till gång till fler funktioner") och välja **Dynamics 365**. Välj panelen för att gå till standardföretaget i den aktuella miljön. Det kommer att finnas en panel för varje typ av miljö. Om du har mer än en miljö av en viss typ kan du välja miljön när du väljer den panel du vill använda.
+När du har loggat in på [!INCLUDE[prod_short](includes/prod_short.md)] visas de miljöer som du har åtkomst till på startsidan för Dynamics 365. Du kan öppna sidan genom att välja ikonen **programmarstartbild** ![programmarstartbild.](media/app-launcher-icon.png "Programmarstartbild ger till gång till fler funktioner") och välja **Dynamics 365**. Välj panelen för att gå till standardföretaget i den aktuella miljön. Det kommer att finnas en panel för varje typ av miljö. Om du har mer än en miljö av en viss typ kan du välja miljön när du väljer den panel du vill använda.
 
 I följande bild visas paneler för åtkomst till produktionsmiljöer och miljöer med begränsat läge på startsidan Dynamics 365.
 
@@ -33,7 +33,7 @@ I följande bild visas paneler för åtkomst till produktionsmiljöer och miljö
 
 När du är inloggad i [!INCLUDE[prod_short](includes/prod_short.md)] kan du snabbt byta till ett annat företag. När du har gjort växeln blir det företag du väljer som standardföretag och visas nästa gång du loggar in.
 
-1. I det övre högra hörnet väljer du ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **Mina inställningar**.
+1. I det övre högra hörnet väljer du ikonen **inställningar** ![inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och välj åtgärden **Mina inställningar**.
 
     > [!TIP]
     > Du kan också använda kortkommandot Alt + T för att snabbt öppna sidan mina inställningar.

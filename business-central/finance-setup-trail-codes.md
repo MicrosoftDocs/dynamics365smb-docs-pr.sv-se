@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773845"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446221"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Ställa in ursprungskoder och orsakskoder för granskningshistorik
 
@@ -33,7 +33,7 @@ När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt 
 
 ### <a name="to-define-source-codes"></a>Så här definierar du ursprungskoder
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Ursprungskodinställningar** och välj sedan relaterad länk.  
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Ursprungskodinställningar** och väljer sedan relaterad länk.  
 
 2. I fönstret **Ursprungskodinställningar** för varje bokföringstyp och batch-jobb, ange relevant källkod.  
 
@@ -45,7 +45,7 @@ Det kan hända att du vill ändra en ursprungskod. Du kanske t. ex. vill ändra 
 
 ### <a name="to-change-source-codes"></a>Så här ändrar du ursprungskoder
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Ursprungskoder** och välj sedan relaterad länk.
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **ursprungskoder** och väljer sedan relaterad länk.
 
 2. På raden med den kod som ska ändras markerar du koden i fältet **Kod**.
 
@@ -59,7 +59,7 @@ Uppföljningskoderna kompletterar ursprungskoderna och används för att ange va
 
 ### <a name="to-set-up-reason-codes"></a>Så här lägger du upp uppföljningskoder
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **uppföljningskoder** och välj sedan relaterad länk.
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport")  anger du **orsakskoder** och väljer sedan relaterad länk.
 
 2. I fönstret **uppföljningskoder** anger du den första koden i fältet **kod**. Skriv in en beskrivning i fältet **Beskrivning**.
 
@@ -69,7 +69,7 @@ I följande procedur beskrivs hur du lägger till en uppföljningskod i en journ
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Så här tilldelar du uppföljningskoder till journalmallar
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Redovisningsjournalmallar** och välj sedan relaterad länk.
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport")  anger du **Redovisningsjournalmallar** och väljer sedan relaterad länk.
 
 2. Ange relevant kod i fältet **Uppföljningskod** på raden med journalmallen.
 

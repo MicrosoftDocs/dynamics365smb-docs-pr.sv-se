@@ -1,6 +1,6 @@
 ---
-title: Ställa in kostnadsredovisning | Microsoft Docs
-description: Innan du börjar arbeta med kostnadsredovisning, måste du utföra inställningsuppgifter.
+title: Ställa in kostnadsredovisning
+description: Innan du börjar arbeta med kostnadsredovisning, måste du ställa in. Varje kostnadstransaktion måste ha en tilldelad kostnadstyp och en kod för kostnadsställe eller kostnadsbärare.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 808efe140a0330d9892c01839090b28ef2c0d50c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0ed9b58b9ceec962d7f55ef5687ac36e11fbd681
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783753"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446371"
 ---
 # <a name="setting-up-cost-accounting"></a>Ställa in kostnadsredovisning
 Innan du börjar arbeta med kostnadsredovisning, måste du utföra inställningsuppgifter.
@@ -36,7 +36,7 @@ Listan över kostnadstyper liknar kontoplanen i redovisningen. Du kan definiera 
 -   Skapa ny plan över kostnadstyper eller lägg till nya kostnadstyper till befintlig plan över kostnadstyper. Du måste skapa varje ny kostnadstyp för sig.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Överföra kontoplanen i redovisningen till redovisningsplanen över kostnadstyper  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lista över kostnadstyper** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadstyper** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Hämta kostnadstyper från kontoplan** action. Välj **ja** i dialogrutan för att bekräfta överföringen. Funktionen använder kontoplanen i redovisningen för att skapa en plan över kostnadstyper.  
 
     Planen över kostnadstyper innehåller nu alla resultaträkningskonton i redovisningen inklusive rubriker och delsummor. Du kan ändra planen över kostnadstyper efter behov. Du kan till exempel ta bort dubbletter av befintliga kostnadstyper.  
@@ -98,7 +98,7 @@ Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Plan
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Överföra dimensionsvärden i redovisningen till planen för kostnadsställen  
 1.  Skapa en dimension som ska vara kostnadsställesdimensionen på sidan **Uppdatera kostnadsredovisningsdimensioner**. Endast värdena från dimensionen överförs.  
-2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lista över kostnadsställe** och välj sedan relaterad länk.  
+2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadsställe** och väljer sedan relaterad länk.  
 3.  Välj **Hämta kostnadsställen från dimension** för att överföra dimensionsvärden till planen för kostnadsställen på fliken **Åtgärder** i gruppen **Funktioner**. Funktionen överför de dimensionsvärden som du har definierat i steg 1.  
 
     > [!NOTE]  
@@ -131,7 +131,7 @@ Kostnadsbärare är projekt, produkter eller tjänster i ett företag. Planen f�
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Så här överför du dimensionsvärden från redovisningen till kontoplanen för kostnadsbärare  
 1.  Skapa en dimension som ska vara kostnadsbärardimensionen på sidan **Uppdatera CA-dimensioner**. Endast värdena från dimensionen överförs.  
-2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lista över kostnadsbärare** och välj sedan relaterad länk.  
+2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadsbärare** och väljer sedan relaterad länk.  
 3.  Välj åtgärden **Hämta kostnadsbärare från dimension** för att överföra dimensionsvärden till planen för kostnadsbärare. Funktionen överför de dimensionsvärden som du har definierat i steg 1.  
 
     > [!NOTE]  

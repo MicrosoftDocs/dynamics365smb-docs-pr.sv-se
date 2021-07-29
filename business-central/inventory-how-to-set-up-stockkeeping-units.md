@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 18923708fdad1b88714d2dcb2c61bfd2e4259f4b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a59bf05139f4b073470092aa136018d9f3d988e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785726"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445657"
 ---
 # <a name="set-up-stockkeeping-units"></a>Ställa in lagerställeenheter
 Du kan använda lagerställeenheter för att registrera artikelinformation som rör ett visst lagerställe eller en viss variantkod.  
@@ -24,7 +24,7 @@ Du kan använda lagerställeenheter för att registrera artikelinformation som r
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Så här skapar du lagerställeenheter  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerställeenheter** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerställeenheter** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fälten på kortet. Följande fält är obligatoriska: **Artikelnr**, **Lagerställekod** och/eller **Variantkod**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

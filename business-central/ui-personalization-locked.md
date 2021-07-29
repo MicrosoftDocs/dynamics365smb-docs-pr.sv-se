@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd90f7bf90209496f67d52ab32a93cfdbaf803f
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 74fbbefaaf9ef62c1241032b09cdf1f40b1b4bd1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087650"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445903"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Varför är en sida låst för anpassning?
 
-Det finns två villkor som hindrar dig från att anpassa en sida. Antingen är sidan låst (vilket indikeras av ikonen ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås")) eller spärrad (vilket indikeras av ikonen ![Anpassning spärrad](media/personalization-blocked-icon.png "Anpassning spärrad")).
+Det finns två villkor som hindrar dig från att anpassa en sida. Antingen är sidan låst (vilket indikeras av ikonen ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås")) eller spärrad (vilket indikeras av ikonen ![Anpassning spärrad.](media/personalization-blocked-icon.png "Anpassning spärrad") ).
 
 ## <a name="locked-from-personalizing"></a>Låst för att anpassa
 
-Om det finns en ikon ![Anpassa lås](media/personalization-lock-icon.png "Anpassa lås") i banderollen **Anpassa** när du öppnar en sida, betyder det att du för tillfället inte kan göra några fler anpassningsändringar på sidan.
+Om det finns ett ![Anpassa lås.](media/personalization-lock-icon.png "Anpassa lås") i banderollen **Anpassa** när du öppnar en sida, betyder det att du för tillfället inte kan göra några fler anpassningsändringar på sidan.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -50,7 +50,7 @@ Innan du låser upp sidan, ska du tänka på följande:
 
 Om det finns en ikon för ![Anpassning spärrad](media/personalization-blocked-icon.png "Anpassning spärrad") i banderollen **Anpassning** innebär detta att du spärras från att utgöra några anpassningar på sidan.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
 
 Orsaken till detta är att det rollcenter eller den roll som för närvarande är associerad med ditt användarkonto ändrar sidan specifikt för din roll. Kontakta administratören om du behöver hjälp. Du kan också försöka växla till ett rollcenter som innehåller rollspecifika roller för den här sidan. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 

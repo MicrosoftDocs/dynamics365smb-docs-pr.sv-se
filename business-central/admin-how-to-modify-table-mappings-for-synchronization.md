@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779813"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446396"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappa register och fält som ska synkroniseras
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -68,7 +68,7 @@ Kopplingar kan ställas in automatiskt genom att använda synkroniseringsjobb, e
 Om du inte vill synkronisera alla rader för ett specifikt register i [!INCLUDE[prod_short](includes/cds_long_md.md)] eller ett register i [!INCLUDE[prod_short](includes/prod_short.md)] kan du ställa in filter för att begränsa datan som synkroniseras. Du ställer in filtren på sidan **Registermappningar för integrering**.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>Om du vill filtrera poster eller rader för synkronisering  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Registermappningar för integrering** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Registermappning för integrationen** och välj sedan relaterad länk.
 
 2.  För att filtrera [!INCLUDE[prod_short](includes/prod_short.md)]-poster anger du fältet **Tabellfilter**.  
 
@@ -80,7 +80,7 @@ Som standard är det bara de poster i [!INCLUDE[prod_short](includes/prod_short.
 Till exempel använder synkroniseringsjobbet SÄLJARE – Dynamics 365 Sales registermappningen SÄLJARE. Synkroniseringsjobbet kopierar information från användare i [!INCLUDE[prod_short](includes/cds_long_md.md)] till säljare i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du skapar registermappningen för att skapa nya poster kommer, för varje användare i [!INCLUDE[prod_short](includes/cds_long_md.md)] som inte redan är kopplad till en säljare i [!INCLUDE[prod_short](includes/prod_short.md)], en ny säljarrad att skapas i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Så här skapar du nya poster under synkroniseringen  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Registermappningar för integrering** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Registermappning för integrationen** och välj sedan relaterad länk.
 
 2.  Rensa fältet i registermappningposten i fältet **Synka endast kopplade poster**.  
 
@@ -96,7 +96,7 @@ Om du installerar standardsynkroniseringsinstallationen kommer för det mesta tv
 -   **CDSACCOUNT** skapar och synkroniserar nya konton i [!INCLUDE[prod_short](includes/cds_long_md.md)] baserat på ett konto i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Ange konfigurationsmallar på en registermappning  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Registermappningar för integrering** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Registermappning för integrationen** och välj sedan relaterad länk.
 
 2.  I registermappningposten i listan anger du fältet **Mallkod för tabellkonfig.** till konfigurationsmallen som ska användas för nya poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
 

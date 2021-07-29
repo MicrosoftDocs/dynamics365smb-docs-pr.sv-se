@@ -1,6 +1,6 @@
 ---
-title: Så här bokför du flera dokument på samma gång | Microsoft Docs
-description: I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för batch-bokföring, antingen för direkt bokföring eller som t. ex. i slutet av dagen.
+title: Bokföra flera dokument på samma gång
+description: I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för omedelbar eller schemalagd batch-bokföring.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773636"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446053"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bokföra flera dokument på samma gång
 
@@ -25,7 +25,7 @@ I stället för att bokföra enskilda dokument var för sig kan du välja flera 
 
 I proceduren nedan beskrivs hur du bokför flera inköpsorder direkt. Stegen är liknande för alla ingående och utgående dokument.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
 2. På sidan **inköpsorder** går du vidare för att välja alla order som ska bokföras:
 3. I fältet **Nr.** väljer du de tre lodräta punkterna för att öppna snabbmenyn och sedan väljer du åtgärden **Välj fler**.
 4. Markera kryssrutan för alla rader som motsvarar order som du vill bokföra samtidigt.
@@ -36,7 +36,7 @@ I proceduren nedan beskrivs hur du bokför flera inköpsorder direkt. Stegen är
 
 I proceduren nedan beskrivs hur du bokför flera inköpsorder. Stegen är liknande för alla inköps- och försäljningsdokument där åtgärden **batch-bokföring** är tillgänglig.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Inköpsorder** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 2. På sidan **inköpsorder** går du vidare för att välja alla order som ska bokföras:
 3. I fältet **Nr.** väljer du de tre lodräta punkterna för att öppna snabbmenyn och sedan väljer du åtgärden **Välj fler**.
 4. Markera kryssrutan för alla rader som motsvarar order som du vill bokföra samtidigt.
@@ -53,7 +53,7 @@ Projektköer är ett effektivt verktyg som schemalägger körning av affärsproc
 
 Nedan beskrivs hur du ställer in bakgrundsbokföring av försäljningsorder. Stegen är liknande för inköp.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
 2. På sidan **Försäljningsinställningar** markerar du kryssrutan **Bokför med jobbkö**.
 3. Välj fältet **Kategorikod för jobbkod** och ange sedan koden för **SÄLJSPOST**.
 
@@ -86,7 +86,7 @@ Alternativt kan du även skjuta upp publiceringar till när tillfället passar d
 
 Följande förfarande visar hur du konfigurerar rapporten **Masspublicera säljordrar** så att denna automatiskt publicerar säljordrar klockan 16.00 på veckodagar.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **jobbkötransaktioner** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **jobbkötransaktioner** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I fältet **objekttyp som ska köras** väljer du **Rapport**.  
 4. I fältet **Objekt-ID som ska köras** väljer du 296, **Batch-bokför förs.order**.

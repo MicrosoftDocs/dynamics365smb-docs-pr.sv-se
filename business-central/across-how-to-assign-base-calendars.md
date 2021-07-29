@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du Baskalender | Microsoft Docs
-description: Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder.
+title: Så här lägger du upp baskalendrar
+description: Du kan tilldela företaget och dess affärspartners en baskalender för att beräkna leveransdatum och inleveransdatum enligt de angivna arbetsdagarna.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 87b68711db42ec5240382cc4c9d052fb80fc2a31
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775878"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446496"
 ---
 # <a name="set-up-base-calendars"></a>Skapa baskalendrar
 Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder. Huvuduppgiften när du lägger upp en ny baskalender är att ange och definiera de lediga dagar som du vill ska gälla.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Så här lägger du upp en baskalender  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Baskalender** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Baskalender** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fältet **Kod**.  
 4. Välj åtgärden **Bibehåll baskalenderändringar**.
@@ -64,7 +64,7 @@ I en baskalender visas exempelvis alla lördagar normalt som lediga dagar, medan
 
 I proceduren nedan används fallet med lagerstället som exempel: Lägg märke till att du i det här skedet redan har fördelat en baskalender till lagerstället.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
 2. Öppna den plats som du vill uppdatera och välj sedan fältet **anpassad kalender**. Observera att en kalender måste markeras i fältet **Baskalenderkod**.
 3. På sidan **Anpassa kalendertransaktioner** väljer du åtgärden **Underhåll ändringar i kalender**.
 4. I **Anpassa kalenderändringar** lägger du till rader för anpassade kalendertransaktioner.
@@ -100,7 +100,7 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 -   På kortet **Lagerställe** tilldelas baskalendern på snabbfliken **Lager**.  
 -   På sidan **Speditörer** fördelats baskalendern på sidan **Speditörsservice**.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2.  Öppna det **Kundkort** som du vill tilldela en anpassad kalender för.  
 3.  På Snabbfliken **Leverans**, i fältet **Baskalenderkod**, markera den baskalender som du vill tilldela.  
 

@@ -1,6 +1,6 @@
 ---
-title: Ställa in analysvy för kassaflöde | Microsoft Docs
-description: Skapa diagram i rollcentret konton för att analysera flödet av pengar i företaget, inklusive utgifter och inkomster, likviditet och inbetalningar minus utbetalningar.
+title: Ställa in analysvy för kassaflöde
+description: Använd diagram för rollcentret konton för att analysera flödet av pengar i företaget, inklusive utgifter och inkomster, likviditet och inbetalningar minus utbetalningar.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: e197155f272d4435f838fbc67fb336f339c1a290
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783678"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446296"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
 Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du titta på diagrammen i rollcentret Revisor:  
@@ -70,14 +70,14 @@ Så här använder du guiden för assisterad konfiguration:
 
 1. I rollcentret Revisor, under diagrammet **kassaflödesprognos** väljer du åtgärden **Öppna assisterad konfiguration**.  
 2. Fyll i fälten som behövs i varje steg i guiden.  
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kassaflödesprognos** och välj sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kassaflödesprognos** och väljer sedan relaterad länk.
 4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 Så här använder du en manuell process:  
 
 1. I rollcentret revisor söker du **Kassaflödesinställningar**, och väljer sedan relaterad länk.  
 2. Expandera snabbfliken **Azure AI** och markera sedan kryssrutan **Azure AI aktiverad**.  
-3. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kassaflödesprognos** och välj sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kassaflödesprognos** och väljer sedan relaterad länk.
 4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 > [!TIP]  
@@ -123,7 +123,7 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
-6. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kassaflödesinställningar** och välj sedan relaterad länk.  
+6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kassaflödesinställningar** och väljer sedan relaterad länk.  
 7. Expandera snabbfliken **Azure AI** och fyll i fälten.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

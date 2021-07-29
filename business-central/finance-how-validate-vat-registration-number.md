@@ -1,19 +1,19 @@
 ---
 title: Validera momsregistreringsnummer
-description: Låt Business Central validera momsregistreringsnummer och annan företagsinformation för dina kontakter, kunder och leverantörer, baserat på EU:s VIES-valideringstjänst för momsnummer.
+description: Låt Business Central validera momsregistreringsnummer för dina kontakter, kunder och leverantörer, baserat på EU:s VIES-valideringstjänst för momsnummer.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770297"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543228"
 ---
 # <a name="validate-vat-registration-numbers"></a>Validera momsregistreringsnummer
 
@@ -43,8 +43,6 @@ Det finns ett par saker att komma ihåg om tjänsten VIES momsnummervalidering:
 > Det är ditt ansvar att kontrollera att alla data är giltiga. Ibland returneras data med fel av tjänsten VIES momsnummervalidering. Om valideringen misslyckas validerar du momsregistreringsnumren på [webbplatsen](https://ec.europa.eu/taxation_customs/vies/), skriver ut resultatet eller sparar det på en delad plats och lägger sedan till länken till posten för kunden, leverantören eller kontakten. För mer information, se [Hantera bifogade filer, länkar och anteckningar på kort och dokument](ui-how-add-link-to-record.md).
 
 ## <a name="validation-templates"></a>Valideringsmallar
-
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 Du kan använda VIES-tjänsten för att även kontrollera annan företagsinformation, till exempel adressen, samt momsregistreringsnumret. På sidan **Valideringsmallar för momsregistreringsnr.** skapar du en post för varje land som du vill få ytterligare validering för, och anger sedan den information som du vill få validerad automatiskt.  
 

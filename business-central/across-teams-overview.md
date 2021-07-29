@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074693"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446471"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central- och Microsoft Teams-integrering
 
@@ -33,11 +33,11 @@ I [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Teams finns följan
 
 Oavsett var du arbetar i Teams kan du söka efter information om kunder, leverantörer och andra [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter. Med den här funktionen kan du inte visa allmän information om kontakter, utan även åtkomst till interaktionshistorik, relaterade dokument med mera.
 
- [![Sök Business Central-kontakter från Teams-kommandorutan](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Sök Business Central-kontakter från Teams-kommandorutan.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 Du kan också dela kontaktinformation i en konversation. Därifrån har deltagarna åtkomst till ännu fler detaljer om kontakten.
 
- [![Sök Business Central-kontakter från Teams-meddelanderutan](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Sök Business Central-kontakter från Teams-meddelanderutan.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Mer information finns i [Söka efter kontakter från Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ Mer information finns i [Söka efter kontakter från Microsoft Teams](across-sea
 
 Kopiera en länk till en Business Central-post och klistra in den i en Teams-konversation så att den kan delas med dina medarbetare. Appen kommer sedan att utöka länken till ett kompakt, interaktivt kort som visar information om posten.
 
-[![Team-integrering med Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Team-integrering med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 När du har gått igenom konversationen kan du och dina medarbetare visa mer information om posten, redigera data och vidta åtgärder – utan att lämna Teams.
 
@@ -68,6 +68,7 @@ Mer information finns i [Dela poster i Microsoft Teams](across-working-with-team
 
 [Vanliga frågor och Svar om Teams](teams-faq.md)  
 [Felsöka Teams](admin-teams-troubleshooting.md)  
+[Ändra företag och andra inställningar i Teams](across-teams-settings.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

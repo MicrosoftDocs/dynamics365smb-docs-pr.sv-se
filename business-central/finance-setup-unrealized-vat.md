@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7e47e33c0a3e8907cc68243d1688fc0c48d67c07
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783465"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446196"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ställa in orealiserad moms för kontantbaserad redovisning
 Om du använder kontantbaserade redovisningsmetoder kan du skapa [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera orealiserad moms.
@@ -24,9 +24,9 @@ Om du använder kontantbaserade redovisningsmetoder kan du skapa [!INCLUDE[prod_
 Du kan ange att momsbelopp ska beräknas och bokföras på ett temporärt redovisningskonto när en faktura bokförs, för att sedan bokföras på rätt redovisningskonto och inkluderas i momsrapporter när den faktiska betalningen av fakturan bokförs. Innan du kan göra detta måste du komplettera momsbokföringsinställningarna.
 
 Om du vill använda konton för orealiserad moms, gör du så här:
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Inställningar för redovisning**.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **inställningar för redovisning**.
 2. På sidan **Redovisningsinställningar**, välj kryssrutan **Orealiserad moms**.
-3. Välj ikonen **Sök efter sida eller rapport** ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Bokföringsinställning för moms**.
+3. Välj ikonen **Sök efter sida eller rapport** ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Bokföringsinställning för moms**.
 4. På sidan **Bokföringsinställningar för moms** väljer du moms och väljer sedan åtgärden **redigera**.
 5. I fältet **Orealiserad momstyp** väljer du ett alternativ för att ange hur du ska fördela betalningar till fakturabeloppet (exklusive moms) och själva momsbeloppet, samt hur momsbeloppen överförs från kontot för orealiserad moms till konto för (realiserad) moms. Alternativen beskrivs i tabellen nedan.
 

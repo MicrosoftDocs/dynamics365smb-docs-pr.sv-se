@@ -165,6 +165,7 @@
 #### [Skapa allmän information om anläggningstillgångar](fa-how-setup-general.md)
 #### [Skapa avskrivning för anläggningstillgång](fa-how-setup-depreciation.md)
 #### [Definiera avskrivningsmetoder](fa-depreciation-methods.md)
+#### [Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md)
 #### [Skapa försäkring för anläggningstillgångar](fa-how-setup-insurance.md)
 #### [Skapa underhåll för anläggningstillgångar](fa-how-setup-maintenance.md)
 ### Ställa in lagerstyrning
@@ -265,10 +266,10 @@
 ##### Administratör
 ###### [Integreringsöversikt](admin-powerbi-overview.md)
 ###### [Aktivera Power BI-integrering](admin-powerbi-setup.md)
-##### Designer
+##### Skapare av rapporter
 ###### [Komma igång med att skapa rapporter](across-how-use-financials-data-source-powerbi.md)
 ###### [Skapa rapporter för att visa listdata](across-how-use-powerbi-reports-factbox.md)
-##### Konsument
+##### Affärsanvändare
 ###### [Arbeta med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
 ###### [Arbeta med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Använda Business Central-appar i Power BI](across-powerbi-business-central-apps.md)
@@ -449,6 +450,7 @@
 ### [Ekonomisk rapportering](finance-reports.md)
 ### Hantera kundreskontra
 #### [Översikt över kundreskontra](receivables-manage-receivables.md)
+#### [Kundreskontra, rapporter och analyser](receivables-reports.md)
 #### Koppla utbetalningar automatiskt och stämma av bankkonton
 ##### [Översikt över betalningskoppling](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)
@@ -466,6 +468,7 @@
 
 ### Hantera Leverantörsreskontra
 #### [Översikt över leverantörsreskontra](payables-manage-payables.md)
+#### [Leverantörsskulder, rapporter och analyser](payables-reports.md)
 #### Göra betalningar
 ##### [Göra betalningar](payables-make-payments.md)
 ##### [Arbeta med redovisningsjournaler](ui-work-general-journals.md)
@@ -664,6 +667,7 @@
 
 ## Anläggningstillgångar
 ### [Anläggningstillgångar – översikt](fa-manage.md)
+### [Rapporter och analyser för anläggningstillgångar](fa-reports.md)
 ### [Skaffa anläggningstillgångar](fa-how-acquire.md)
 ### [Underhålla anläggningstillgångar](fa-how-maintain.md)
 ### [Försäkra anläggningstillgångar](fa-how-insure.md)
@@ -893,15 +897,8 @@
 ##### [Ställ in leverantörer för automatiskt betalningsförslag](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Skapa betalningsjournalmallar och journaler](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Testa elektroniska betalningar](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Skriva ut betalningsfiler](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Aktivera SEPA-betalningar](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [Arkivera icke euro SEPA-betalningar](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Exportera betalningsfiler](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Autogiro med autogirering](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Ställ in autogireringar](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Redigera och ta bort autogireringsrader](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Testa autogireringar](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Exportera och bokföa autogireringar](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Generera autogireringsförslag](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ##### [CODA bankutdrag](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [Använda CODA-utdrag](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [Automatiskt överföra och bokföra CODA-utdrag](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
@@ -1002,16 +999,14 @@
 ##### [Exportera redovisningstransaktioner till en XML-fil](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Krav för rapportering av deklaration av handel med varor](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Bankverksamhet och betalningar
+##### [Betalningshantering](LocalFunctionality/France/payment-management.md)
 ##### [Ställ in betalningsadresser](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Ställ in betalningsstatusar](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Ställ in betalningssteg](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Ställ in betalningsklasser](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Arkivera betalningsdokument](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Skapa betalningsdokument](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Exportera betalningar](LocalFunctionality/France/how-to-export-payments.md)
-##### [Exportera och importera parametrar för inställning av betalningshantering](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Betalningshantering](LocalFunctionality/France/payment-management.md)
 ##### [Bokför betalningsdokument](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Arkivera betalningsdokument](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Exportera och importera parametrar för inställning av betalningshantering](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Grundläggande ekonomi
 ##### [Redovisning](LocalFunctionality/France/general-ledger.md)
 ##### [Använd redovisningstransaktioner](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1554,6 +1549,7 @@
 #### Allmänt
 ##### [Ställa in varning om bokföringsdatum](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Ange lagstadgad information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Skicka bedrägeriskyddsdata](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [Tillägget GetAddress.io för postnummer i Storbritannien ](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Ställ in tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
@@ -1577,7 +1573,7 @@
 ## Säkerhet och skydd
 ### [Översikt över säkerhet och skydd (endast på engelska)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Sekretess
-### [Sekretess (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Sekretess (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Regelefterlevnad
 ### [Regelefterlevnad – översikt](compliance/compliance-overview.md)
 ### [Programmets regelefterlevnad](compliance/compliance-application-compliance.md)

@@ -1,6 +1,6 @@
 ---
 title: Profiler för klassificering av kontakter
-description: Konfigurera profilfrågeformulär för att klassificera dina affärskontakter
+description: Läs om hur du ställer in profil frågeformulär för att hjälpa till att klassificera affärskontakternas profiler.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2021
-ms.openlocfilehash: 31321ce4cafd17efc8a7732c81e874df1a1d763a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/22/2021
+ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785504"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445532"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Använda profilfrågeformulär för att klassificera affärskontakter
 Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter om kontakternas profiler. I varje frågeformulär kan du skapa frågor som du vill ställa till kontakterna.  
@@ -23,7 +23,7 @@ Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter 
 Du kan också köra frågeformuläret när du automatiskt vill besvara några av frågorna på grundval av kontakt, kund eller leverantör.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Lägga till profilfrågeformulär så här
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Enkätsinställningar** och välj sedan tillhörande länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Profil frågeformulär inst.** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

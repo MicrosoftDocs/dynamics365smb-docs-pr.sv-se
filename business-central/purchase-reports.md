@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216406"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543176"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Inköpsrapporter och analys i Business Central
 
@@ -24,8 +24,7 @@ I följande tabell beskrivs några av de viktigaste rapporterna inom inköpsrapp
 
 |Rapportera |Objekt-ID|Beskrivning  |
 |---------|---------|---------|
-|**Inköpsstatistik**|312|Visar inköpsstatistik för varje leverantör. Detta omfattar information om fem perioder, med början på det datum du anger.<br>
-Rapporten innehåller information om summan av inköp, betalningar, räntor och rabatt, inklusive de kassarabatter som har gjorts och förlorats. Statistik beräknas för inköp före det datum som anges, med tre enmånadsintervall från det datum som anges och för en period, inklusive alla inköp som gjorts efter det tredje månadsintervallet.|
+|**Inköpsstatistik**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**10 i topp-leverantörer**|311|Visar information om inköp från leverantörer under en vald period. Du kan välja antalet leverantörer som ska tas med i rapporten.<br>Leverantörerna sorteras efter belopp och du kan välja om de ska sorteras per inköpsbelopp eller saldo. Rapporten ger en snabb överblick över leverantörerna som du har köpt mest av, eller som du är skyldig mest.|
 |**Leverantörs artikelkatalog** eller **artikel-/leverantörskatalog**|320 eller 720|Visar en lista över leverantörerna för valda artiklar eller artiklar för valda leverantörer. För varje kombination av artikel och leverantör visar rapporten a-pris vid senaste inköp, leveranstidsberäkning och leverantörens artikelnummer.<br>I USA, Kanada och Mexiko är inte den här rapporten tillgänglig. Använd i stället tabellen **artikel-/leverantörskatalog** (10164).|
 |**Lev./artikelinköp**|313|Visar en lista över artikeltransaktioner per leverantör under en vald period. Rapporten innehåller information om fakturerat antal, belopp och möjlig rabatt. Rapporten kan t.ex. användas för att analysera ett företags artikelinköp och för att visa om det finns ett samband mellan rabatter och artikelinköp.|

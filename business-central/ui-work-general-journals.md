@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087725"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445482"
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
@@ -152,7 +152,7 @@ När du har skapat journalrader som du vet att du förmodligen kommer att skapa 
 >   Följande procedur gäller för artikeljournalen, men informationen kan också tillämpas på redovisningsjournalen.
 
 ### <a name="to-save-a-standard-journal"></a>Så här sparar du som en standardjournal
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikeljournaler** och väljer sedan relaterad länk.
 2. Mata på en eller flera journalrader.
 3. Markera de journalrader som du vill återanvända.
 4. Välj åtgärden **Spara som standardjournal**.
@@ -168,7 +168,7 @@ När du har sparat standardartikeljournalen visas sidan Artikeljournal så att d
 
 ### <a name="to-reuse-a-standard-journal"></a>Så här återanvänder du standardjournaler
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager artikeljournaler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikeljournaler** och väljer sedan relaterad länk.
 2. Välj åtgärden **Få standardjournal**.
 
     Sidan Standardartikeljournaler visas med koder och beskrivningar för alla befintliga standardartikeljournaler.
@@ -205,7 +205,7 @@ Alla omnumreringen av verifikationsnummer skall respektera relaterade tillämpni
 
 Följande procedur är baserad på sidan **Redovisningsjournal**, men gäller för alla andra journaler som baseras på den redovisningsjournalen, t. ex. sidan **Utbetalningsjournal**.
 
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.
 2. När du är klar att bokföra journalraderna väljer du **Numrera om dokumentnummer**.
 
 Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnumret på enstaka eller grupperade journalrader är i ordningsföljd. När dokument numreras kan du fortsätta att bokföra journalen.

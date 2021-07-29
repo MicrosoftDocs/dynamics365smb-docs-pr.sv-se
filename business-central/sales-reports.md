@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: a8ada1c8488e8c5dec581db98dccf02d89da21c3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216402"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543253"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Försäljningsrapporter och analys i Business Central
 
@@ -31,7 +31,7 @@ I följande tabell beskrivs några av de viktigaste rapporterna inom försäljni
 |**Kund - försäljningslista**|119|Visar kundförsäljningen för en period. Den används vid rapporter till tull- och skattemyndigheter. Du kan välja att endast ta med kunder med en total försäljning som överstiger ett minimibelopp. Du kan också ange om du vill att rapporten ska innehålla adressuppgifter för alla kunder.<br>Rapporten baseras på registrerad försäljning (BVA) från kundreskontratransaktioner. Längst ned i rapporten visas den totala rapporterade försäljningen i BVA. Totalsumman baseras på de kunder du har tagit med i rapporten, det vill säga de kunder som finns inom filtren på snabbfliken Kund som har en större totalförsäljning än det belopp som angetts i fältet **Belopp (BVA) större än**, på snabbfliken **Alternativ**.|
 |**Kundreskontralista**|121|Visar detaljerade saldon för valda kunder. Använd rapporten i samband med att du avslutar en bokföringsperiod eller ett räkenskapsår.|
 |**Kund – råbalans**|129|Visar detaljerade saldon för valda kunder. Du kan använda rapporten för att kontrollera att saldot för en kundbokföringsmall är lika med saldot på motsvarande redovisningskonto för ett visst datum. Använd rapporten i samband med att du avslutar en bokföringsperiod eller ett räkenskapsår. Om du behöver en mer detaljerad version av den här typen av rapport använder du rapporten **Kund detaljerad råbalans** (104).|
-|**Försäljningsstatistik**|112|Visar belopp för försäljning, vinst, fakturarabatt och kassarabatt i BVA samt vinstprocentsatsen för varje kund. Både de ursprungliga och de justerade kostnaderna och vinsterna anges. De ursprungliga kostnaderna och vinsterna beräknades vid tidpunkten för bokföringen, och de justerade kostnaderna och vinsterna har justerats utifrån ändringar i de ursprungliga kostnaderna för artiklarna i försäljningen. Det kostnadsjusteringsbelopp som visas i rapporten är skillnaden mellan den ursprungliga och den justerade kostnaden.<br>Siffrorna delas in i tre perioder. Du kan välja längden på perioden, med start från ett datum som du väljer. Det visas även kolumner för belopp före och efter de tre perioderna. Använd rapporten för att analysera intäkter från individuella kunder samt intäktstrender. |
+|**Försäljningsstatistik**|112|[!INCLUDE [reports-sales-statistics](includes/reports-sales-statistics.md)] |
 |**Förs.reservation disp.**|209|Visar artiklar i försäljningsdokument som är disponibla för leverans. Du bestämmer om rapporten ska visa status för varje dokument eller för varje försäljningsrad. När du skriver ut rapporten kan du också uppdatera disponibelt antal för leverans i fältet **Skickas antal** på försäljningsraderna. Sedan kan du med rapportens hjälp bestämma vilka dokument som ska bokföras.<br>Det finns också en funktion som du kan använda för att ställa in mängden varor som ska levereras. **OBS!** Den här rapporten är inte tillgänglig för avancerade distributionslagerfunktioner.|
 |**Status för distributionslagerutleverans**|7313|Den här rapporten kan användas för alla platser där fältet **Kräver utleverans** har valts. I rapporten **Status för distributionslagerutleverans** visas alla ej bokförda dokument för en distributionslagerutleverans, inklusive lagerställen, lagerplatskoder, dokumentstatus osv. Den här rapporten är perfekt för att få en översikt.|
 |**Lagerplockningslista**|813|Innehåller en lista över de försäljningsorder som innehåller en viss artikel. Följande information visas för respektive artikel: försäljningsorderrad med kundens namn, variantkod, lagerställekod, lagerplatskod, leveransdatum, antal att leverera och enhet. Antalet som ska levereras är summerat per artikel. Rapporten kan användas när artiklarna ska plockas från lagret.<br>**OBS!** Den här rapporten är inte tillgänglig för avancerade distributionslagerfunktioner.|

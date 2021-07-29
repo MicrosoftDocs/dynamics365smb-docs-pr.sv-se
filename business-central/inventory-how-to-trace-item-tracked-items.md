@@ -1,6 +1,6 @@
 ---
 title: Spåra artiklar med artikelspårning
-description: Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och Hitta transaktioner.
+description: Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot, producerades eller returnerades med funktionerna Artikelspårning och Hitta poster.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: bbfe0237beb58f22d3be7bc388d7b2726f05d4ba
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214759"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445632"
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
 Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och [Hitta transaktioner](ui-find-entries.md).  
@@ -30,7 +30,7 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 
 ## <a name="to-trace-item-tracked-items"></a>Se spårade artiklar  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Artikelspårning** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **artikelspårning** och väljer sedan relaterad länk.  
 2.  I filterfälten längst upp på sidan ska de specifika artikelnumren anges eller ett filter för artikelnumren som ska spåras.  
 3.  I fältet **Visa komponenter** väljer om ursprunget för artiklarnas komponenter dessutom ska visas. Dina alternativ i det här fältet är följande.  
 
@@ -59,7 +59,7 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Så här hittar du spårade artiklar med Hitta transaktioner  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Hitta transaktioner** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **hitta transaktioner** och väljer sedan relaterad länk.  
 2. Välj **Åtgärder** > **Sök efter** > **Sök efter artikelreferens**.
 3. I fälten **Serienr** och **Partinr** anger du artikelspårningsnumren som du vill spåra.  
 4. Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  

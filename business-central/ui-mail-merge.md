@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110960"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445978"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Använda Word-mallar för masskommunikation
 Microsoft Word-mallar kan göra det enklare att kommunicera med enheter som kunder och leverantörer. Du kan till exempel skapa broschyrer för att avisera kunder om en försäljningskampanj, brev för att informera leverantörer om nya inköpsprinciper eller inbjudningar till att locka kontakter till ett kommande evenemang.
@@ -38,7 +38,7 @@ När du lägger upp mallen i Word på fliken **Utskick** kan du lägga till samm
 När Word-mallen är klar kan du på sidan **Word-mallar** välja **Använd** för att skapa dokumenten. Du kan antingen skapa ett dokument som innehåller avsnitt för varje entitet, eller dela operationen för att skapa ett nytt dokument för varje entitet.
 
 ## <a name="to-create-a-word-template"></a>Skapa en Word-mall
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Word-mallar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Word-mallar** och väljer sedan relaterad länk.
 2. Följ instruktionerna i assisterad konfiguration. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se även
