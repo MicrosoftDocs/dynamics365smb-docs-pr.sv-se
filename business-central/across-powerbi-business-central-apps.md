@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935317"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440880"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Använda [!INCLUDE [prod_short](includes/prod_short.md)]-apparna i Power BI
 
@@ -63,7 +63,7 @@ Registrera dig frö Power BI-tjänsten. Gå till [https://powerbi.microsoft.com]
 1. Öppna din webbläsare, gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) och logga in på ditt konto.
 2. Välj **Hämta Data** längst ned i den vänstra navigeringsrutan.  
 
-    ![Navigera för att hämta data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigera för att hämta data.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     Du kan också komma igång från [!INCLUDE [prod_short](includes/prod_short.md)]. Från startsidan går du till **rapportval** i avsnittet Power BI. Välj antingen **Service** eller **Min organisation** i menyfliken. Organisationsgalleriet i antingen Power BI eller Microsoft AppSource öppnas, filtrerat att endast visa appar relaterade till [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,7 +89,7 @@ Registrera dig frö Power BI-tjänsten. Gå till [https://powerbi.microsoft.com]
 5. När du uppmanas till det anger du användarnamn och lösenord för att logga in i [!INCLUDE[prod_short](includes/prod_short.md)].
 6. När du är ansluten läggs en instrumentpanel och rapporter till i din Power BI-arbetsyta. När den är slutförd visas information från ditt [!INCLUDE[prod_short](includes/prod_short.md)]-företag.
 
-    ![Välj Dynamics 365 Business Central och välj Hämta nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Välj Dynamics 365 Business Central och välj Hämta nu.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Åtgärda problem
 

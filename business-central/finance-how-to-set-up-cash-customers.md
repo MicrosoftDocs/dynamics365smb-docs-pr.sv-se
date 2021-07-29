@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du kontantkunder | Microsoft Docs
-description: Det här avsnittet beskriver hur du skapar en kund som betalar kontant.
+title: Så här skapar du kontantkunder
+description: I det här avsnittet beskrivs de steg som krävs för att ställa in en faktura med ett kundnummer för kunder som betalar kontant.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f047876678d26e7e53bf304433f38a410ba7d7fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9462b7bb887b5c4d2dcc0f602d5cd0fe57ccc1fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770397"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442091"
 ---
 # <a name="set-up-cash-customers"></a>Så här skapar du Kontantkunder
 Det går inte att skapa fakturor utan kundnummer. Det gäller även vid kontantförsäljning då det inte finns något att registrera på kundkonton.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Så här skapar du en kontantkund  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kund** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kund** och väljer sedan relaterad länk.  
 2.  Skapa ett nytt kort för **Kund**. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
 3.  I fältet **Nr.** ange t. ex. **Kassa**.  
 4.  Skriv till exempel **Kontanförsäljning** i fältet **Namn**.  

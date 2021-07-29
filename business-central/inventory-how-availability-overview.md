@@ -1,6 +1,6 @@
 ---
-title: Skapa en tillgänglighetsöversikt | Microsoft Docs
-description: Du kan få information om dispositionen av artiklar eller lager mellan lagerställen per försäljning eller inköphändelser efter en viss tidsperiod eller efter artikelns placering på en monterings- eller produktionsstruktur.
+title: Få en dispositionsöversikt
+description: Du kan få information om dispositionen av artiklar eller lager mellan lagerställen per försäljning eller inköphändelser efter en viss tidsperiod, etc.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e5be238c74496ca92c0f26ef0c2a1377a6c93466
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786074"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441199"
 ---
 # <a name="view-the-availability-of-items"></a>Visa artikeldisposition
 Utifrån en verksamhetsuppgift kan du få avancerad information om när och var en artikel är disponibel, exempelvis när du talar med en kund om ett leveransdatum.
 
-Du kan visa dispositionen för alla artiklar per lagerställe, och du kan visa varje artikels disposition per händelse, tid eller lagerställe. En händelse är alla planerade artikeltransaktioner, till exempel en utleverans eller en inleverans av inkommande överföring.
+Du kan visa dispositionen för alla artiklar per lagerställe, och du kan visa varje artikels disposition per händelse eller tid. En händelse är alla planerade artikeltransaktioner, till exempel en utleverans eller en inleverans av inkommande överföring.
 
 > [!NOTE]  
 >   Tillgänglighetsvyer per lagerställe kräver att du för lager på flera lägerställen. Mer information finns i [Ange platser](inventory-how-setup-locations.md).
@@ -42,7 +42,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)], visas dispositionssiffror i tv
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Visa tillgängligheten för en artikel efter in- eller utlevereranstidpunkt
 Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktioner på sidan **Artikeldisposition per händelse**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per**, och välj sedan åtgärden **Händelse**.
 
@@ -52,7 +52,7 @@ Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Visa dispositionen för en artikel under olika perioder
 Du visar en artikels disposition över tid för angivna tidsperioder på sidan **Artikeldisp. per perioder**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Period**.
 
@@ -62,7 +62,7 @@ Du visar en artikels disposition över tid för angivna tidsperioder på sidan *
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Visa tillgängligheten för en artikel på de lägerställen där den lagras
 Du kan visa dispositionen av en artikel på de olika lägerställen där den lagras på sidan **Artikeldisp. per lagerställe**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Lagerställe**.
 
@@ -73,7 +73,7 @@ Du kan visa dispositionen av en artikel på de olika lägerställen där den lag
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Visa tillgängligheten för alla artiklar per det lagerställe där de lagras
 Du kan visa disposition för alla artiklar på alla lägerställen på sidan **Artiklar per lagerställe**.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Välj åtgärden **Artiklar per lagerställe**.
 
     Sidan **Artiklar per lagerställe** visar, för alla artiklar, hur många som är tillgängliga på respektive lagerställe.

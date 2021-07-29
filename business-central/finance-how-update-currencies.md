@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184455"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441628"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
 
@@ -23,7 +23,10 @@ Sedan måste du registrera valutakoder för varje valuta du använder om du köp
 > [!Important]
 > Skapa inte den lokala valutakoden både i **Redovisningsinställning** och på sidan **Valutor**. Detta skapar förvirring mellan den tomma valutan och BVA-koden i valutatabellen, och bankkonton, kunder eller leverantörer kan av misstag skapas, en del med den tomma valutan och en del med BVA-koden.
 
-Din redovisning ställs in för att använda den lokala valutan (BVA), men du kan ställa in den så att den använder en annan valuta med en tilldelad valutakurs. Genom att ange en andra valuta som en så kallad alternativ rapporteringsvaluta kommer [!INCLUDE[prod_short](includes/prod_short.md)] registrera belopp automatiskt i både BVA och den alternativa rapporteringsvalutan för varje redovisningstransaktion och för andra transaktioner, t. ex. momstransaktioner. Mer information finns i [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md). Den alternativa rapporteringsvalutan används oftast för att underlätta ekonomisk rapportering till ägare som finns i länder/regioner som använder andra valutor än den lokala valutan (BVA).
+Din redovisning ställs in för att använda den lokala valutan (BVA), men du kan ställa in den så att den använder en annan valuta med en tilldelad valutakurs. Genom att ange en andra valuta som en så kallad alternativ rapporteringsvaluta kommer [!INCLUDE[prod_short](includes/prod_short.md)] registrera belopp automatiskt i både BVA och den alternativa rapporteringsvalutan för varje redovisningstransaktion och för andra transaktioner, t. ex. momstransaktioner. Mer information finns i [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md). Den alternativa rapporteringsvalutan används oftast för att underlätta ekonomisk rapportering till ägare som finns i länder/regioner som använder andra valutor än den lokala valutan (BVA).  
+
+> [!IMPORTANT]
+> Om du vill använda en alternativ rapporteringsvaluta för ekonomisk rapportering måste du känna till begränsningarna. Mer information finns i [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valutor
 
@@ -66,6 +69,8 @@ Du anger valutakoder i **valutorna**, inklusive extra information och inställni
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Exempel på en transaktion med ingående valuta
 
+När du tar emot en faktura från ett företag i en utländsk valuta är det ganska enkelt att beräkna det lokala valutavärdet (BVA) på fakturan baserat på dagens valutakursbelopp. Fakturan levereras emellertid ofta med betalningsvillkor så att du kan försena betalningen till ett senare datum, vilket innebär en potentiellt annorlunda valutakurs. Det här problemet är i kombination med det faktum att bankens valutakurser alltid skiljer sig från de officiella valuta kurserna, vilket gör det omöjligt att förutsäga det exakta belopp i lokal valuta (BVA) som krävs för att täcka fakturan. Om fakturans förfallo datum gäller till nästa månad måste du kanske också revaluate beloppet i den lokala valutan (BVA) i slutet av månaden. Valuta justeringen är nödvändig eftersom det nya BVA-värdet som krävs för att täcka faktura beloppet kan vara ett annat, och företagets skuld till leverantören kan ha ändrats. Det nya beloppet i BVA kan vara högre eller lägre än det föregående beloppet och kommer därför att utgöra en vinst eller en förlust. Men eftersom fakturan ännu inte har betalats betraktas vinsten eller förlusten som *Orealiserad*. Senare betalas fakturan och banken har returnerat den faktiska valutakursen för betalningen. Det är inte förrän nu den *realiserade* vinsten eller förlusten beräknas. Den här orealiserade vinsten eller förlusten återförs sedan och den realiserade vinsten eller förlusten bokförs i stället.
+
 I följande exempel inlevereras en faktura den 1 januari med valutabeloppet 1 000. När valutakursen är 1,123.
 
 |Datum|Åtgärd|Valutabelopp|Dokumentkurs|BVA-belopp på dokument|Justeringskurs|Okonstaterat vinstbelopp|Betalningskurs|Konstaterat förlustbelopp|  
@@ -85,7 +90,7 @@ Slutligen registreras betalningen och den faktiska förlusten bokförs i kontot 
 
 ## <a name="available-currency-functions"></a>Tillgängliga valutafunktioner
 
-I följande tabell anges viktiga åtgärder på sidan ***Valutor**. En del av åtgärderna förklaras i nästa avsnitt.  
+I följande tabell anges viktiga åtgärder på sidan **Valutor**. En del av åtgärderna förklaras i nästa avsnitt.  
 
 |Meny|Åtgärd|Beskrivning|
 |-------------|--------------|------------------------------|
@@ -117,14 +122,14 @@ I allmänhet används värdena för fälten **Valutakursbelopp** och **Relatione
 
 > [!Note]
 > Den faktiska valutakursen kommer att beräknas med hjälp av följande formel:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
 Det justerade valutakursbeloppet eller det relationella justeringsvalutakursbeloppet kommer att användas för att uppdatera alla öppna bank-, kundreskontra- eller leverantörsreskontratransaktioner.  
 
 > [!Note]
 > Den faktiska valutakursen kommer att beräknas med hjälp av följande formel:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Justera valutakurser
@@ -143,12 +148,15 @@ För kund- och leverantörskonton justeras valutan med hjälp av valutakursen fr
 Batch-jobbet behandlar alla öppna kundredovisningstransaktioner och leverantörstransaktioner. Om det finns valutakursdifferens i någon transaktion skapas i batch-jobbet en ny detaljerad kund- eller leverantörstransaktion som återger det justerade beloppet på kund- eller leverantörstransaktionen.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensioner på kund-/leverantörstransaktioner
+
 Justeringstransaktionerna tilldelas dimensioner från kund-/leverantörsreskontratransaktionerna, och justeringarna bokförs per kombination av dimensionsvärden.
 
 ### <a name="effect-on-bank-accounts"></a>Påverkan på bankkonton
+
 För bankkonton justerar batchjobbet valutan efter valutakursen på det bokföringsdatum som angetts i batchjobbet. I batch-jobbet beräknas skillnaderna för varje bankkonto med valutakod och beloppen bokförs på det redovisningskonto som angetts i fältet **Kursvinster konstaterade** eller **Kursförluster konstaterade** på sidan **Valutor**. Mottransaktioner bokförs automatiskt på de redovisningsbankkonton som angetts i bankkontobokföringsmallarna. Batch-jobbet beräknar en transaktion per valuta per bokföringsmall.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensioner för bankkontotransaktioner
+
 Justeringstransaktionerna för bankkontots redovisningskonto och för vinst-/förlustkontot tilldelas bankkontots standarddimensioner.
 
 ### <a name="effect-on-gl-accounts"></a>Påverkan på redovisningskonton
@@ -165,20 +173,20 @@ Justeringstransaktionerna tilldelas dimensioner från de redovisningskonton de b
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Så här konfigurerar du en valutakurstjänst
 Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig uppdatering av aktuella valutakurser.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Valutakurstjänster** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Valutakurstjänster** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Valutakurstjänster** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Aktivera **Aktiverad** för att aktivera tjänsten.
 
 > [!NOTE]
-> Följande video visar ett exempel på hur du ansluter till en valutakursservice med hjälp av Europeiska centralbanken som exempel. I det segment som beskriver hur man konfigurerar fältmappningar returnerar inställningen i kolumnen **Källa** för **den överordnade noden för valutakod** endast den valuta som hittas först. Inställningen ska vara **/gesmes:Envelope/Code/Code/Code**.
+> Följande video visar ett exempel på hur du ansluter till en valutakursservice med hjälp av Europeiska centralbanken som exempel. I det segment som beskriver hur man konfigurerar fältmappningar returnerar inställningen i kolumnen **Källa** för **den överordnade noden för valutakod** endast den valuta som hittas först. Inställningen bör vara `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Så här uppdaterar du valutakurser från en tjänst
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Valutor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.
 2. Välj åtgärden **uppdatera valutakurser**.
 
 Värdet i fältet **valutakurs** på sidan **valutor** uppdateras med den senaste valutakursen.

@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – inkommande distributionslagerflöde | Microsoft Docs
-description: Det inkommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.
+title: Designdetaljer - inkommande distributionslagerflöde
+description: Inkommande distributionslagerflöde startar när artiklar anländer till lagerstället för företaget. Artiklar registreras och till sist matchas mot ankommande källdokument.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215184"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441779"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: inkommande distributionslagerflöde
 Det inkommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.  
@@ -51,7 +51,7 @@ I metoderna A, B och C kombineras inleverans och artikelinförsel i ett steg nä
 ## <a name="basic-warehouse-configurations"></a>Grundläggande distributionslagerkonfiguration  
 Följande diagram visar de inkommande distibutionslagerflödena efter dokumenttyp i grundläggande lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
-![Ingående flöde i grundläggande lagerkonfigurationer](media/design_details_warehouse_management_inbound_basic_flow.png "Ingående flöde i grundläggande lagerkonfigurationer")  
+![Ingående flöde i grundläggande lagerkonfigurationer.](media/design_details_warehouse_management_inbound_basic_flow.png "Ingående flöde i grundläggande lagerkonfigurationer")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Släpp källdokument / skapa lagerartikelinförsel  
 När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t. ex. en inköpsorder eller en inkommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret. Användaren kan också skapa lagerinförseldokument för enskilda orderrader, med en pushmetod, baserat på angivna lagerställen och antal som ska hanteras.  
@@ -70,7 +70,7 @@ Positiva artikeltransaktioner skapas, distributionslagertransaktioner skapas och
 ## <a name="advanced-warehouse-configurations"></a>Avancerad distributionslagerkonfiguration  
 Följande diagram visar de inkommande distibutionslagerflödet efter dokumenttyp i avancerade lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
-![Ingående flöde i avancerade lagerkonfigurationer](media/design_details_warehouse_management_inbound_advanced_flow.png "Ingående flöde i avancerade lagerkonfigurationer")  
+![Ingående flöde i avancerade lagerkonfigurationer.](media/design_details_warehouse_management_inbound_advanced_flow.png "Ingående flöde i avancerade lagerkonfigurationer")  
 
 ### <a name="1-release-source-document"></a>1: Släpp källdokument  
 När artiklarna tas emot i distributionslagret släpper användaren som är ansvarig inleverans källdokument, t. ex. en inköpsorder eller en inkommande överföringsorder, för att signalera till lagerarbetare att de inlevererade artiklarna kan föras in i lagret.  

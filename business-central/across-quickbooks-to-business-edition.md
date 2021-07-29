@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9cf2d377476eed7dd8b38dc824bd6e23f2902818
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12ac21b237188b391dac943dd1f0352cddb82602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787138"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440780"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Om du byter från en QuickBooks-app till Dynamics 365 Business Central
 Allt fler företag ändrar från ekonomiappar som t. ex. QuickBooks Desktop och QuickBooks Online som är utformade för startups och andra mindre företag till [!INCLUDE[prod_short](includes/prod_short.md)], som också stöder större, komplexare organisationer. 
@@ -32,7 +32,7 @@ Mer information finns i avsnittet om tillägg som passar din QuickBooks-app:
 * [Tillägget QuickBooks Online datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Redo?
-Om du är redo att börja nu, välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Assisterad konfiguration** och väljer sedan tillhörande länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.
+Om du är redo att komma igång nu väljer du ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Assisterad konfiguration** och väljer sedan relaterad länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.
 
 ## <a name="see-also"></a>Se även
 [Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  

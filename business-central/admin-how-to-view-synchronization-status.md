@@ -1,6 +1,6 @@
 ---
-title: Visa status för en synkroniseringsjobb | Microsoft Docs
-description: Lär dig mer om hur du visar statusen efter att ha synkroniserat kopplade poster.
+title: Visa status för en synkroniseringsjobb
+description: Använd sidan Kopplade datasynkroniseringsfel för att visa statusen för synkroniseringsjobb som har körts för kopplade poster i en -integration.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b87bd1061adbcaae3a5497fa1af020cfaa412593
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781267"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441324"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visa status för en synkroniseringsjobb
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -35,7 +35,7 @@ Anvönd sidan **Kopplade datasynkroniseringsfel** för att visa statusen för sy
 -->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Så här visar och löser du synkroniseringsfel för kopplade poster
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Synkroniseringsfel för kopplade data** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") Välj ikonen, ange **Kopplade synkroniseringsfel** och välj sedan relaterad länk.
 2. På sidan **sammankopplade datasynkroniseringar** visas problem som uppstod när du synkroniserade kopplade poster. Följande tabell innehåller åtgärder som du kan använda för att lösa ärenden en i taget:
 
 |Åtgärd|Beskrivning|

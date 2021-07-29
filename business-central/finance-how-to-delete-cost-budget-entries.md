@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2f05388149e9e6587f916db79b652e64ad5d02e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d506a6f1a5aa40a7dcc77bab66d5a13085d364c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774845"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442166"
 ---
 # <a name="delete-cost-budget-entries"></a>Ta bort kostnadsbudgettransaktioner
 Du använder batch-jobbet **Ta bort kostnadsbudgettransaktioner** för att rätta kostnadsbudgettransaktioner i kostnadsbudgetjournalen.  
@@ -24,7 +24,7 @@ För att förhindra luckor i kostnadsbudgettransaktionerna och kostnadsjournalst
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Ta bort kostnadsbudgettransaktioner  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort kostnadsbudgettransaktioner** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ta bort användaranpassning** och väljer sedan relaterad länk.  
 
     **Till journalnr** -fältet innehåller det sista registerpostnumret och kan inte ändras.  
 

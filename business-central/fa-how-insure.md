@@ -1,6 +1,6 @@
 ---
-title: Försäkra anläggningstillgångar | Microsoft Docs
-Description: Du kan tilldela försäkringsbrev för en anläggningstillgång som representeras av ett försäkringskort.
+title: Försäkra anläggningstillgångar
+description: Du tilldelar en eller flera anläggningstillgångar till en försäkringspolicy genom att bokföra försäkringstransaktionerna från sidan **Försäkringsjournal**.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 134342fac90d133bc0891b72310f73aa807ab7ed
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89db12527ae6e2656f29277d9bb63c3dd258fb1f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777729"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441703"
 ---
 # <a name="insure-fixed-assets"></a>Försäkra anläggningstillgångar
 En försäkringsbrev för en anläggningstillgång representeras av ett försäkringskort. Du kan koppla en anläggningstillgång till en försäkringspolicy eller flera anläggningstillgångar till en försäkringspolicy.
@@ -38,7 +38,7 @@ En försäkringpolicy för en anläggningstillgång måste representeras av ett 
 
 När du får information om ändringar av försäkringsbeloppet måste du ange den nya informationen på sidan **försäkringskort** så att försäkringsbrevet analyseras korrekt.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkring** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkring** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny** för att skapa ett nytt kort för en försäkringspolicy. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternativt markerar du försäkringspolicym som du vill ändra och väljer sedan åtgärden **Redigera**.
 
@@ -47,7 +47,7 @@ Du tilldelar en anläggningstillgång till ett försäkringsbrev genom att bokf�
 
 Efterföljande procedur beskriver hur du skapar en försäkringsjournalrad manuellt. Om kryssrutan **Automatisk försäkringsbokf.** är markerad på sidan **Anl.inställningar** skapas försäkringsjournalrader automatiskt, när du bokför anskaffningskostnaden. I så fall är allt du måste göra att bokföra journalen.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkringsjournaler** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkringsjournaler** och väljer sedan relaterad länk.  
 2. Öppna den relevanta journalen och fyll i journalraderna som behövs.  
 3. För att skapa flera anläggningstillgångar till ett försäkringsbrev skapar du journalrader med samma värdet i fältet **Försäkringsnr.** och olika värden i fältet **Anl.nr**.  
 4. Välj åtgärden **Bokföra**.  
@@ -58,7 +58,7 @@ Efterföljande procedur beskriver hur du skapar en försäkringsjournalrad manue
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Om du vill uppdatera försäkringvärdet för en anläggningstillgång
 Du kan använda batch-jobbet **Indexera försäkring** när du vill uppdatera värdet för den anläggningstillgång som är försäkrad.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Indexera försäkring** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Indexera försäkring** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ Du kan använda batch-jobbet **Indexera försäkring** när du vill uppdatera v�
 3. Välj **OK**.  
 
    Batch-jobbet beräknar det nya beloppet som en procentsats av det totala försäkringsvärdet på sidan **Försäkringsstatistik** och en rad i försäkringsjournalen skapas.  
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkringsjournaler** och välj sedan tillhörande länk.  
+4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkringsjournaler** och väljer sedan relaterad länk.  
 5. Öppna relevant försäkringsjournal, granska de skapade värdena och bokför dem i försäkringstransaktionerna.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Att bevaka försäkringsskydd
@@ -92,13 +92,13 @@ Om du vill kontrollera att du inte har glömt att koppla en anläggningstillgån
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>Så här visar du försäkringstransaktioner
 Du kan visa de transaktioner som du har skapat i försäkringstransaktionerna.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkring** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkring** och väljer sedan relaterad länk.  
 2. Välj aktuellt försäkringsbrev och klicka på åtgärden **Försäkringstransaktioner.**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Så här visar du det försäkrade totalvärdet för en anläggningstillgång:
 En dedikerad matrissida visar försäkringsbeloppet som registreras för varje försäkringsbrev för varje anläggningstillgång som ett resultat av försäkringsrelaterade belopp som du har bokfört.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkring** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkring** och väljer sedan relaterad länk.  
 2. Välj aktuellt försäkringsbrev och klicka på åtgärden **Försäkrat totalvärde per anl.**.  
 3. Fyll i fälten om det behövs.  
 4. Välj åtgärden **Visa matris**.  
@@ -107,7 +107,7 @@ En dedikerad matrissida visar försäkringsbeloppet som registreras för varje f
 ## <a name="to-correct-insurance-coverage-entries"></a>Så här rättar du försäkringstransaktioner
 Om en anläggningstillgång har kopplats till fel försäkringsbrev, kan du rätta detta genom att skapa två omklassificeringsposter från försäkringsjournalen.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäkringsjournaler** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkringsjournaler** och väljer sedan relaterad länk.  
 2. Skapa en journalrad för anläggningstillgången och det korrekta försäkringsbrevet där värdet i fältet **Belopp** är positivt.  
 3. Skapa en annan journalrad för anläggningstillgången och det felaktiga försäkringsbrevet där värdet i fältet **Belopp** är negativt.  
 4. Välj åtgärden **Bokföra**.  

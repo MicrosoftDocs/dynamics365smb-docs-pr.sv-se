@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6d7a5882829bb12620337c5985c31f85d69c5c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787213"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440980"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Lägga till kommentarer i kort och dokument
 Du kan lägga till ytterligare information till redovisningskonton, kundkort eller försäljningsorder för att kommunicera undantag eller särskilda avtal till andra användare.
@@ -31,7 +31,7 @@ Du kan också ange om du vill att kommentarer ska överföras från en viss typ 
 Nedan beskrivs hur du lägger till en kommentar för ett artikelkort. Momentet är liknande för andra kort och dokument, men inte för dokumentrader, åtgärden **kommentarer** placeras på en rader åtgärdsmenyn.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Att lägga till kommentarer till ett artikelkort
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna relevant artikelkort.
 3. Välj åtgärden **Kommentarer**.
 4. På sidan **Kommentarsark** anger du valfri text och väljer knappen **OK**.

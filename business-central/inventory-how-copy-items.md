@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786004"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441124"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopiera befintliga artiklar till Skapa nya artiklar
 
@@ -23,7 +23,7 @@ När du lägger till ett nytt objekt, för att spara tid, kan du använda funkti
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Kopiera ett befintligt objekt till ett nytt objekt.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Välj objektet som du vill kopiera och välj sedan åtgärden **Kopiera objekt**.  
 
     Om du inte hittar åtgärden **Kopiera objekt** väljer du om du vill visa fler alternativ och sedan söka efter den under **åtgärder**, **funktioner**.  

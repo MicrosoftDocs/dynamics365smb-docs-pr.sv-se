@@ -1,6 +1,6 @@
 ---
-title: Så här skapar du förskottsfakturor | Microsoft Docs
-description: Mer information om hur du hanterar situationer där du eller leverantören kräver förskottsbetalning.
+title: Så här skapar du förskottsfakturor
+description: Hantera situationer där du eller din leverantör behöver förskottsbetalning. Använd standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 72a073fcde9ddf20df7c138ab544afb6719b93ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782169"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442191"
 ---
 # <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 
@@ -29,7 +29,7 @@ I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en f
 
 ## <a name="to-create-a-prepayment-invoice"></a>Så här skapar du en förskottsfaktura
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsorder** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Skapa en ny försäljningsorder för relevant kund. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 
     På snabbfliken **Förskottsbetalning** i fältet **Förskottsbetalning %** anges den procentandel som ska användas för att beräkna förskottsbeloppet. Om det finns en standardprocentandel på kundkortet fylls fältet i automatiskt. Du kan ändra procentandelen. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

@@ -1,6 +1,6 @@
 ---
 title: Anslut till Microsoft Dataverse
-description: Du kan integrera andra appar med Business Central via Microsoft Dataverse. Den här artikeln innehåller tips och trick för hur du konfigurerar anslutningarna.
+description: Skapa en anslutning mellan Business Central och Dataverse. Företag skapar vanligtvis anslutningen för att integrera data med en annan Dynamics 365-affärsapp.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063483"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441349"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
 
@@ -64,7 +64,7 @@ Guiden Konfiguration av anslutning till Dataverse kan göra det enklare att ansl
 > [!IMPORTANT]
 > Vanligtvis använder du bara fullständig synkronisering när du integrerar programmen för första gången, och endast ett program innehåller data. Fullständig synkronisering kan vara användbar i en demonstrationsmiljö eftersom den automatiskt skapar och kopplar poster i respektive program, vilket gör det möjligt att snabbare börja arbeta med synkroniserade data. Du bör dock bara köra fullständig synkronisering om du vill ha en rad i [!INCLUDE[prod_short](includes/prod_short.md)] för respektive rad i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] för registermappningarna. Annars kan resultatet bli dubblettposter.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Assisterad konfiguration** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Assisterad konfiguration** och väljer sedan relaterad länk.
 2. Välj **Skapa en anslutning till Microsoft Dataverse** för att starta den assisterade konfigurationsguiden.
 3. Fyll i fälten om det behövs.
 
@@ -75,7 +75,7 @@ Guiden Konfiguration av anslutning till Dataverse kan göra det enklare att ansl
 
 I följande procedur beskrivs hur du konfigurerar anslutningen manuellt på sidan **Konfiguration av anslutning till Dataverse**. Detta är sidan där du hanterar inställningar för integrering.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anslutningsinställningar för Dataverse** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfiguration av inställningen av Dataverse** och väljer sedan relaterad länk.
 2. Ange följande information om anslutningen från [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Fält|Beskrivning|
@@ -106,6 +106,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Uppgradera anslutningar från Business Central Online till använda certifikatbaserad autentisering
+> [!NOTE]
+> Det här avsnittet är endast relevant för innehavaradministration i Business Central online som Microsoft har. Online innehavaradministratörer som körs av ISV och lokala installationer påverkas inte.
+
+I april, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] är den Office365 autentiseringstypen (användarnamn/lösenord). Mer information finns i avsnittet [Avskrivning autentiseringstyp av Office 365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Dessutom i mars 2022 avskriver [!INCLUDE[prod_short](includes/prod_short.md)] användning av klienthemlighetsbaserad tjänst-till-tjänst-autentisering för online-innehavare, och kräver att certifikatbaserad tjänst-till-tjänst-autentisering används för anslutningar till [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Online-innehavare som är värd för ISV, och lokala installationer, kan fortsätta att använda den Office365-autentisering som har konfigurerats av deras Microsoft-partner.
+
+För att undvika störningar i integrationen _måste du uppgradera_ anslutningen så att den använder certifikatbaserad autentisering. Ãven om ändringen är schemalagd för mars 2022 rekommenderar vi starkt att du uppgraderar så snart som möjligt. Följande steg beskriver hur du uppgraderar till certifikatbaserad autentisering. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>För att uppgradera din Business Central online-anslutning för att använda certifikatbaserad autentisering
+> [!NOTE]
+> Certifikatbaserad autentisering finns i Business Central 2021 utgivningscykel 1 och senare. Om du använder en tidigare version måste du schemalägga en uppdatering till Business Central 2021 utgivningscykel 1 före mars, 2022. Mer information finns i [Schemalägg uppdateringar](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Kontakta partnern eller supporten om du får problem.
+
+1. I [Business Central administrationscenter]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifiera att du använder Business Central 2021 utgivningscykel 1 eller senare (version 18 eller senare).
+2. Gör något av följande beroende på om du har integrerat med Dynamics 365 Sales:
+   * Om du vill kan du öppna sidan **Microsoft Dynamics 365 anslutningsinställning**.
+   * Om du vill kan du öppna sidan **Dataverse anslutningsinställning**.
+3. Välj **anslutning** och sedan **Använd certifikatautentisering** för att uppgradera anslutningen till att använda certifikatbaserad autentisering.
+4. Logga in med administratörsautentiseringsuppgifter för Dataverse. Inloggningen tar mindre än en minut.
+
+> [!NOTE]
+> Du måste upprepa dessa steg i varje [!INCLUDE[prod_short](includes/prod_short.md)]-miljö, inklusive både produktions- och miljöer i begränsat läge och i varje företag där du är ansluten till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ## <a name="connecting-on-premises-versions"></a>Ansluta lokala versioner
 
@@ -149,7 +171,7 @@ Följande åtgärder förutsätter att du använder Azure AD för att hantera id
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Koppla bort från [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Anslutningsinställningar för Dataverse** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfiguration av inställningen av Dataverse** och väljer sedan relaterad länk.
 2. På sidan **Konfiguration av anslutning till Dataverse** stänger du av reglaget **Aktiverad**.  
 
 ## <a name="see-also"></a>Se även

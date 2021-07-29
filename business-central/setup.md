@@ -1,6 +1,6 @@
 ---
 title: Översikt över uppgifter för inställning av Business Central
-description: Innehåller information om att konfigurera, initialisera och konfigurera Business Central för att passa just dina behov.
+description: Läs en översikt av uppgifterna om att konfigurera, initialisera och konfigurera Business Central för att passa just dina behov.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781462"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441428"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781462"
 
 Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är klara för användning. Du kan naturligtvis ändra kontoplanen så att dessa stämmer överens med dina behov. Mer information finns i [Ekonomi](finance.md).
 
-Via menyn ![Kugghjulsikon för att öppna menyn Inställningar](media/ui-experience/settings_icon_small.png) kan du komma åt assisterade konfigurationsguider som hjälper dig att konfigurera specifika och lägga till funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).  
+Från ![Kugghjulsikon för att öppna menyn Inställningar.](media/ui-experience/settings_icon_small.png) kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]. Information om hur du får åtkomst till samtliga assisterade och manuella inställningsfönster finns på sidan [Gör dig redo att göra affärer](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

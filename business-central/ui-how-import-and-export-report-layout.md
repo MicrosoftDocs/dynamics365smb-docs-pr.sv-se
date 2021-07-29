@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784671"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441074"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Så här importerar och exporterar du en anpassad rapportlayout
 Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket. Du kan till exempel exportera en rapportlayout och sedan skicka filen till en annan person för att ändra. Den personen kan sedan göra ändringar i layouten och returnera filen till dig så att du kan importera tillbaka den till.  
@@ -25,7 +25,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Så här exporterar du en rapportlayout till en fil  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
 
 2.  Markera raden för rapporten som innehåller den anpassade rapportlayouten som du vill exportera och välj sedan åtgärden **Anpassa layouter**.  
 
@@ -39,7 +39,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
      En Word-rapportlayoutfil måste ha filtypstillägget .docx. En RDLC-rapportlayoutfil måste ha filtypstillägget .rdlc eller .rdl.  
 
-2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Val av rapportlayout** och välj sedan relaterad länk.  
+2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
 
 3.  Markera raden för rapporten som du vill importera rapportlayouten till och välj sedan åtgärden **Anpassa layouter**.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935167"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440755"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams
 
@@ -42,13 +42,13 @@ Kommandorutan visas högst upp på varje skärm i Teams. Du kan söka, ta snabb 
 
 1. I kommandorutan, skriv **@Business Central** och välj sedan Business Central-appen från resultatet.
 
-    ![Öppna Business Central-app för att söka efter kontakter från kommandorutan](media/teams-contacts-command-1.png)
+    ![Öppna Business Central-app för att söka efter kontakter från kommandorutan.](media/teams-contacts-command-1.png)
 
 2. I rutan **Business Central**, börja skriva söktext, som ett namn, adress eller telefonnummer.
 
     När du skriver visas matchande resultat.
 
-    ![Sök Business Central-kontakter från Teams-kommandorutan](media/teams-contacts-command-2.png)
+    ![Sök Business Central-kontakter från Teams-kommandorutan.](media/teams-contacts-command-2.png)
 3. Välj en kontakt från resultatet.
 
     Kontaktkortet visas under kommandorutan.
@@ -65,13 +65,13 @@ Fördelen med att använda meddelanderutan är att du kan lägga till ett kontak
 
     Om du inte ser ikonen **Business Central**, välj **... (Meddelandenstillägg)**.
 
-    ![Öppna Business Central-app för att söka efter kontakter från meddelanderutan](media/teams-contacts-message-box.png)
+    ![Öppna Business Central-app för att söka efter kontakter från meddelanderutan.](media/teams-contacts-message-box.png)
 
 2. I rutan **Business Central**, börja skriva söktext, som ett namn, adress eller telefonnummer.
 
     När du skriver visas matchande resultat.
 
-    ![Sök Business Central-kontakter från meddelanderutan](media/teams-contacts-5.png)
+    ![Sök Business Central-kontakter från meddelanderutan.](media/teams-contacts-5.png)
 3. Välj en kontakt från resultatet.
 
     Kontaktkortet visas i meddelanderutan.
@@ -101,6 +101,8 @@ Kontaktkortet fungerar precis som kort för poster, t.ex. artiklar, kunder eller
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  
 [Vanliga frågor och Svar om Teams](teams-faq.md)  
+[Ändra företag och andra inställningar i Teams](across-teams-settings.md)  
+[Dela poster i Microsoft Teams](across-working-with-teams.md)  
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

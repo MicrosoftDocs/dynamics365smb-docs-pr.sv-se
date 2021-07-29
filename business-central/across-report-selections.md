@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 848b2ddc00f5006f31a0b2cff0a07d51ec305921
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787113"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440805"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportval i Business Central
 
@@ -32,7 +32,7 @@ Sidorna för **rapporturval** anger vilken rapport som ska skrivas ut i olika si
 |Definiera rapporter för momsrapportering (Tyskland)|[Ställ in rapporter för moms och Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Ditt [!INCLUDE [prod_short](includes/prod_short.md)] kan lägga till ytterligare sidor för **Rapporturval**, beroende exempelvis på plats och bransch. Du kan alltid kontrollera inställningarna genom att välja ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Rapportera val** och sedan välja önskad länk.
+> Ditt [!INCLUDE [prod_short](includes/prod_short.md)] kan lägga till ytterligare sidor för **Rapporturval**, beroende exempelvis på plats och bransch. Du kan alltid kontrollera inställningarna genom att välja den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Rapportval** och väljer sedan relaterad länk.
 
 Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller följande sidor om **Rapportavsnitt**:
 
