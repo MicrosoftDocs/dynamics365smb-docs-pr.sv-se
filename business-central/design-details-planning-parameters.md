@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/15/2021
+ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437893"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649818"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
 I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -114,7 +114,27 @@ Alternativet **Produktionsprincip** definierar vilka extra order nettobehovsber�
 
 Om alternativet **Tillverka-Mot-Lager** används rör beställningarna endast artikeln i fråga.  
 
-Om alternativet **Tillverka-mot-Order** används kommer planeringssystemet att analysera produktionsstrukturen för artikeln och skapa ytterligare länkade som orderförslag för de artiklar på lägre nivå som också definieras som tillverka-mot-order. Detta fortsätter så länge det finns tillverka-mot-order-artiklar i de fallande strukturerna.  
+Om alternativet **Tillverka-mot-Order** används kommer planeringssystemet att analysera produktionsstrukturen för artikeln och skapa ytterligare länkade som orderförslag för de artiklar på lägre nivå som också definieras som tillverka-mot-order. Detta fortsätter så länge det finns tillverka-mot-order-artiklar i de fallande strukturerna.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Använd lågnivåkoder för att hantera härledd efterfrågan
+
+Använd lågnivåkoder för att skapa härledd efterfrågan för komponenter till de lägre nivåerna i strukturen. Om du vill ha en mer grundlig förklaring av detta, se [Artikelprioritet / Lågnivåkod](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Du kan koppla en lågnivåkod till respektive komponent i produktionsstrukturen eller den indragen struktur. Slutmonteringsnivån betecknas som nivå 0, d.v.s. slutartikeln. Ju högre värde en lågnivåkod har, desto längre ned i hierarkin finns artikeln. Exempelvis har alla slutartiklar lågnivåkod 0, artiklar som ingår i monteringen av slutartikeln har lågnivåkod 1, 2, 3 o.s.v. Resultatet blir att planeringen av komponenter samordnas med behovet för alla artiklar och komponenter med komponentnummer på högre nivå. När du beräknar en plan expanderas strukturen i planeringsförslaget, och bruttobehoven för nivå 0 skickas nedåt i planeringsnivåerna som bruttobehov för nästa planeringsnivå.
+
+Välj fältet **Dynamisk lågnivåkod** för att ange om du direkt vill tilldela och beräkna lågnivåkoder för respektive komponent i produktstrukturen. Vid stora mängder data kan funktionen ha negativa effekter på programmets kapacitet, till exempel i samband med automatisk kostnadsjustering. Observera att detta inte är en retroaktiv funktion, varför det är en god idé att överväga användning av funktionen i förväg.
+
+Istället för den automatiska beräkning som sker dynamiskt om fältet väljs kan du också köra batchjobbet **Beräkna lågnivåkod** från menyn **Tillverkning** genom att klicka på **Produktdesign**, **Beräkna lågnivåkod**.
+
+> [!IMPORTANT]
+> Om du inte väljer fältet **Dynamisk lågnivåkod** måste du köra batchjobbet **Beräkna lågnivåkod** innan du beräknar en försörjningsplan (batchjobbet **Berökna plan**).  
+
+> [!NOTE]
+> Även om fältet **Dynamisk lågnivåkod** markeras ändras inte lägstanivåkoderna för komponentartiklar dynamiskt om en överordnad struktur tas bort eller anges som ocertifierad. Det kan då bli svårt att lägga till nya artiklar i slutet av produktionsstrukturen eftersom detta kan överskrida det maximala antalet lägstanivåkoder. För större produktionsstrukturer som uppnår gränsen för lägstanivåkod är det därför bättre att köra batch-jobbet **Beräkna lägstanivåkod** ofta i syfte att bibehålla strukturen.  
+
+### <a name="optimize-low-level-code-calculation"></a>Optimera beräkning av lägstanivåkod
+
+Markera fältet **Optimera beräkning för lägstanivåkod** för att ange att du vill använda den nya, snabbare metoden för beräkning av lägstanivåkod. Observera att den nya beräkningen görs på ett annat sätt, och att användningen av denna kan komma att bryta tillägg som bygger på den befintliga metoden. Den nya beräkningsmetoden ersätter den aktuella metoden i en framtida version.
 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   

@@ -1,5 +1,5 @@
 ---
-title: Så här förbereder du ett konfigurationspaket
+title: Förbereda ett konfigurationspaket
 description: Lär dig förbereda ett RapidStart konfigurationspaket som kan hjälpa dig att skapa nya företag baserat på befintliga data.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440730"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660237"
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
 
@@ -74,8 +74,20 @@ Ange vilka fält som ingår i paketet. Som standard inkluderas alla fält.
     - För att välja endast de fält som du vill inkludera, välj åtgärden **Rensa inkluderade**. Om du vill lägga till alla fält väljer du åtgärden **Ange inkluderade**.  
     - Om du vill ange att fältdata inte ska valideras avmarkerar du kryssrutan **Validera fält** för fältet.  
 
-10. Bestäm huruvida du har introducerat potentiella fel genom att välja åtgärden **Validera paket**. Detta kan hända när tabeller som konfigurationen beror på inte ingår.  
-11. Välj knappen **OK**.  
+10. Om du vill använda bearbetningsfilter på registerdata eller lägga till en codeunit med valfri kod som du vill inkludera i paketet, väljer du raden för relevant register och sedan åtgärden **Bearbetningsregler**.
+
+    1. Fyll i fälten på sidan **Konfig. bearbetningsregler för register**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Om du vill använda filter på data anger du relevant åtgärd i fältet **Åtgärd**, väljer ågärden **Bearbetningsfilter** och fyller sedan i fälten.  
+
+            Microsofts konfigurationspaket för utvärderingsföretag anger till exempel bearbetningsfilter i registren **Försäljningshuvud** och **Inköpshuvud**.
+        - Om du vill lägga till en codeunit för bearbetning anger du denna i fältet **ID för anpassad codeunit för bearbetning**.
+
+          > [!NOTE]
+          > Denna codeunit måste ha register 8614 *Konfig. pakettransaktion* som en parameter för metoden `OnRun`.
+    2. Stäng sidan.
+11. Bestäm huruvida du har introducerat potentiella fel genom att välja åtgärden **Validera paket**. Detta kan hända när tabeller som konfigurationen beror på inte ingår.  
+12. Välj knappen **OK**.  
 
 När du har förfinat listan över fält som ska ingå från en tabell, kan du se resultatet i Excel.  
 

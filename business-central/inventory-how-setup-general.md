@@ -1,5 +1,5 @@
 ---
-title: Definiera allmänna lagerinställningar
+title: Ställa in allmän lagerinformation
 description: Beskriver hur du definierar den allmänna lagerinställningen så att du kan hantera distributionslagret och lagret.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cc52935e743b0e8af4f934c040898e64665843fc
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435628"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688257"
 ---
 # <a name="set-up-general-inventory-information"></a>Ställa in allmän lagerinformation
 
@@ -31,15 +31,20 @@ Detaljerad information om kostnadsfälten, **Automatisk kostnadsbokföring**, **
 Om du vill ange en inkommande lagerhanteringstid som ska tas med i orderlöftesberäkningen på inköpsraden, kan du ange tiden som standard för lagret på sidan **Lagerinställning** och för lagerstället. Mer information finns i [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> Reglaget **Automatisk kostnadsjustering** är aktiverat som standard för att säkerställa att lagervärden alltid är korrekta i redovisningen, vilket i sin tur innebär att försäljnings- och vinststatistik är aktuell. Kostnadsändringar från inkommande transaktioner, t. ex. de för inköp eller produktionsutflöde tilldelas relaterade utgående transaktioner, t. ex. försäljningar eller överföringar. Detta är användbart för nya [!INCLUDE[prod_short](includes/prod_short.md)]-kunder och mindre företag med relativt låga lagertransaktionsnivåer. När företaget växer och lagernivåerna ökar kan detta emellertid sakta ner systemets prestanda. Om du vill förhindra att prestandan vid bokföringen försämras väljer du ett tidsalternativ för att definiera hur långt tillbaka i tiden från arbetsdatumet som en inkommande transaktion kan inträffa för att eventuellt utlösa justeringar av relaterade utgående värdetransaktioner. Du kan också justera kostnader manuellt med jämna mellanrum med batch-jobbet Justera kost.-artikeltrans.
+> Fältet **Automatisk kostnadsjustering** är inställt på *Alltid* som standard i syfte att säkerställa att lagervärden alltid är korrekta i redovisningen, vilket i sin tur innebär att försäljnings- och vinststatistik är aktuell. Kostnadsändringar från inkommande transaktioner, t. ex. de för inköp eller produktionsutflöde tilldelas relaterade utgående transaktioner, t. ex. försäljningar eller överföringar. Detta är användbart för nya [!INCLUDE[prod_short](includes/prod_short.md)]-kunder och mindre företag med relativt låga lagertransaktionsnivåer.
+>
+> När företaget växer och lagernivåerna ökar kan detta emellertid sakta ner systemets prestanda. Om du vill förhindra att prestandan vid bokföringen försämras väljer du ett tidsalternativ för att definiera hur långt tillbaka i tiden från arbetsdatumet som en inkommande transaktion kan inträffa för att eventuellt utlösa justeringar av relaterade utgående värdetransaktioner.
+>
+> Du kan också justera kostnader manuellt med jämna mellanrum med batch-jobbet Justera kost.-artikeltrans. Du kan också inaktivera automatisk kostnadsbokföring eller ange fältet **Automatisk kostnadsjustering** som *Aldrig*. I båda fallen visas ett meddelande där du kan starta en assisterad konfigurationsguide som hjälper dig att schemalägga aktiviteter för jobbkön. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se även
+
 [Lagerinställning](inventory-setup-inventory.md)  
-[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)    
+[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Hantera lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
-[Allmänna affärsfunktioner](ui-across-business-areas.md)
+[Allmänna affärsfunktioner](ui-across-business-areas.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

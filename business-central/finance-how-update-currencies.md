@@ -1,18 +1,18 @@
 ---
 title: Uppdatera valutakurser
-description: Spåra belopp i olika valutor med hjälp av valutakoder och låt Business Central hjälpa dig att justera valutakurser för bokförda transaktioner till en extern tjänst.
+description: Spåra belopp i olika valutor med hjälp av valutakoder och låt Business Central hjälpa dig att justera valutakurser för bokförda transaktioner med en extern tjänst.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441628"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660187"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
 
@@ -29,6 +29,9 @@ Din redovisning ställs in för att använda den lokala valutan (BVA), men du ka
 > Om du vill använda en alternativ rapporteringsvaluta för ekonomisk rapportering måste du känna till begränsningarna. Mer information finns i [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valutor
+
+> [!NOTE]  
+> Om du söker efter realtidsinformation om valutakurser i utländsk valuta (FX) eller historiska kurser i [!INCLUDE[prod_short](includes/prod_short.md)] hittar du den som valuta. Förutom denna artikel, se [Konfigurera en Alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 Du anger valutakoder i **valutorna**, inklusive extra information och inställningar som behövs för varje valutakod.
 

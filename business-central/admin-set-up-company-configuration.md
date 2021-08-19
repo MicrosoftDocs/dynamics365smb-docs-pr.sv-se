@@ -1,6 +1,6 @@
 ---
-title: Ställa in företagskonfiguration | Microsoft Docs
-description: Implementeringsprocessen börjar med det Business Central-lösningen kräver. Samla sedan ihop all denna information i konfigurationspaket.
+title: Ställa in företagskonfiguration
+description: Som partner kan du konfigurera Business Central för din kund med standardinställningar eller kundspecifika konfigurationer som du sammanställer till konfigurationspaket.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3eefa0fcb40b4e925ca653f223f2d97ed10f370e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777247"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649718"
 ---
 # <a name="set-up-company-configuration"></a>Ställa in företagskonfiguration
-Implementeringsprocessen börjar med Microsoft-partnern. Partnern är ansvarig för att tänka igenom konfigurationdetaljerna och för att skapa ett paket som en kund enkelt kan använda. Innan du skapar ett nytt företag bör du planera hur det ska konfigureras. Du måste beakta grundläggande inställningsdata och vilka slags data din [!INCLUDE[prod_short](includes/prod_short.md)]-lösning kräver. Samla sedan ihop all denna information i konfigurationspaket.
+Implementeringsprocessen börjar med Microsoft-partnern. Som partner ansvarar du för att tänka igenom konfigurationdetaljerna och för att skapa ett paket som en kund enkelt kan använda. Innan du skapar ett nytt företag i [!INCLUDE [prod_short](includes/prod_short.md)] online eller lokalt bör du planera hur det ska konfigureras. Du måste beakta grundläggande inställningsdata och vilka slags data din [!INCLUDE[prod_short](includes/prod_short.md)]-lösning kräver. Samla sedan ihop all denna information i konfigurationspaket.
 
 RapidStart Services ger dig också de verktyg som du använder för att migrera bakåtkompatibla data, t. ex. kunder och leverantörer.  
 
@@ -33,11 +33,14 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |**För att**|**Gå till**|  
 |------------|-------------|  
 |Planera en företagskonfiguration genom att fylla i konfigurationskalkylarket.|[Så här hanterar du företagskonfigurationen i ett kalkylark](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Skapa ett konfigurationspaket, anpassa ett paket, tilldela tabeller till ett paket, granska eller ändra kunddata, skapa det nya företaget och flytta testdata till produktionsmiljön.|[Förbered ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md)| 
+|Skapa ett konfigurationspaket, anpassa ett paket, tilldela tabeller till ett paket, granska eller ändra kunddata, skapa det nya företaget och flytta testdata till produktionsmiljön.|[Förbered ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md)|
 
-## <a name="see-also"></a>Se även  
+Du kan också skapa konfigurationspaket med standardkonfigurationer som du kan använda om och om igen. Mer information finns i [Konfigurera standardkonfigurationspaket för företag](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) i utvecklings-och administrationsinnehållet.  
+
+## <a name="see-also"></a>Se även
+
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Administration](admin-setup-and-administration.md)
+[Administration](admin-setup-and-administration.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

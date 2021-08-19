@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321893"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688349"
 ---
 # <a name="managing-inventory-costs"></a>Hantera lagerkostnader
 Kostnadshantering används vid registrering och rapportering av rörelsens driftskostnader. Den omfattar rapportering av tillverkningskostnader och lagerkostnader, det vill säga varornas värdet.   
@@ -37,7 +37,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Använda särskild kostnadsberäkning för dagligen återkommande artikeltransaktioner i artikeloperationer.|[Hantera lager- och produktionskostnader](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Du måste regelbundet uppdatera standardkostnader för komponenter i monterings- eller produktionsstrukturer och överföra de nya kostnaderna till den överordnade artikeln.|[Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)|
 |Visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.|[Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)|
-|utföra kontroll- och rapporteringsuppgifter vid periodslut, till exempel beräkna lagervärdet och bokföra kostnader i redovisningen.|[Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
+|utföra kontroll- och rapporteringsuppgifter vid periodslut, till exempel beräkna lagervärdet och bokföra kostnader i redovisningen.|[Rapportera kostnader och stämma av med redovisningen](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|lära dig hur du kan använda jobbkön för att flytta aktiviteterna för att justera lagerkostnaden eller stämma av den med redovisningen till bakgrunden.|[justera och stämma av lagerkostnad med redovisning med jobbkö](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Se även  
  [Ekonomi](finance.md)  

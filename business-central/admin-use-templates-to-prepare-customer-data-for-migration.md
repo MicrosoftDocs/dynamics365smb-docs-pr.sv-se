@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443160"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649893"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Förbereda migrering av kunddata med mallar
 
@@ -100,7 +100,7 @@ Tabell-ID, tabellnamn och rader på den befintliga datamallen infogas i den nya 
 
 Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.
 2. Lägg till en tabell i listan eller välj en befintlig tabell. Mer information finns i [Administrera företagskonfigurationer i ett kalkylark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Välj åtgärden **Visa fält** för att definiera de fält i tabellen som du vill ta med i mallen.
 4. Välj åtgärden **Exportera till mall**.
@@ -124,19 +124,29 @@ En transaktion med data som kopplas på det här sättet är fullständig efters
 > [!NOTE]
 > Om data i tabellerna i konfigurations paketet innehåller datum, till exempel bokföringsdatum på fakturor, tas datumen med i den tidszon som anges i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Så här skapar du en post från en konfigurationsmall
 
 Du kan använda strukturen av data som finns i datamallarna för att konvertera din information till poster i databasen, en efter en. För att kunna göra det använder du funktionen **Skapa instans**. Detta är en miniatyrversion av datamigreringsprocessen och kan vara användbar för att skapa prototyper eller hantera mindre dataskapningsuppgifter.  
 
 Nedan visas hur du skapar ett artikelkort från en artikeldatamall. Du kan skapa en post från en datamall med samma procedur.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsmallar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurationsmallar** och väljer sedan relaterad länk.  
 2. Välj mallen **Artikel** och sedan åtgärden **Redigera**. För mer information, se [Att skapa en datamall](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Välj åtgärden **Skapa instans**. Ett artikelkort skapas.  
 4. Välj knappen **OK**.  
 5. För att granska det nya artikelkortet, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 6. Öppna det nya artikelkortet.  
 7. Expandera olika snabbflikar och verifiera att informationen skapas rätt på dem.  
+
+## <a name="to-use-conversion-templates"></a>Använda konverteringsmallar
+
+Du kan konvertera kontakter till kunder, leverantörer och anställda. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Så här konverterar du en kontakt till en kund, leverantör eller anställd
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") , ange **Kontakter** och välj sedan rätt kontaktperson. 
+2. På kontaktkortet väljer du **Åtgärder**, därefter **Funktioner** och sedan **Skapa som kund, leverantör, bank eller anställd**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Så här använder du en konfigurationsdatamall på en post
 
@@ -152,6 +162,9 @@ Följande procedur baseras på ett nytt kundkort.
 3. På sidan **Kundmallar** markerar du en av mallarna och väljer sedan knappen **OK**.  
 
 Standardvärdena från den valda kundmallen förs in på kundkortet.
+
+> [!NOTE]
+> Du kan inte använda Använd mall för att tömma fält på kunder, leverantörer och liknande. Du måste istället använda funktionen **Redigera i Excel**. Mer information finns i [Redigera i Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Se även
 

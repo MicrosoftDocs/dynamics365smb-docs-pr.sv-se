@@ -236,7 +236,6 @@
 #### [Samla in kundinställningsdata](admin-gather-customer-setup-values.md)
 #### [Förbereda migrering av kunddata med mallar](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Migrera kunddata](admin-migrate-customer-data.md)
-#### [Så här skapar du anpassade konfigurationspaket för företag](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tips och råd: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Ställa in e-post
 #### [Konfigurera e-post](admin-how-setup-email.md)
@@ -534,7 +533,11 @@
 #### [Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)
 #### [Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Rapportera kostnader och stämma av med redovisningen
+##### [Rapportering av kostnader](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Övervaka projektframsteg och -resultat](projects-how-monitor-progress-performance.md)
+#### [Justera och stämma av lagerkostnad med redovisning med jobbkö](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Hantera kassaflöde
 #### [Kassaflöde, översikt](finance-cash-flow-overview.md)
@@ -722,6 +725,8 @@
 ### [Kör du komplett planering, nettobehov och produktionsplan](production-how-to-run-mps-and-mrp.md)
 ### [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)
 ### [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md)
+### [Inköpskalkylark](production-about-planning-functionality.md#requisition-worksheet)
+### [Åtgärdsmeddelanden](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1604,9 +1609,9 @@
 ### [Kontrollera sidor](across-inspect-page.md)
 ### [Visa databaslås](admin-view-database-locks.md)
 ### [Visa tabellinformation](admin-view-table-information.md)
-### [Skapa en miljö för begränsat läge](across-how-create-sandbox-environment.md)
 ### [Aktivera nya funktioner i förväg](admin-feature-management.md)
 ### [Integrera användare med checklistor](admin-checklist.md)
+### [Begränsade miljöer](across-how-create-sandbox-environment.md)
 ## Anpassa Business Central
 ### [Anpassningsöversikt](ui-customizing-overview.md)
 ### [Anpassa sidor för profiler](ui-personalization-manage.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325428"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649793"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Konfigurera ett företag med RapidStart Services
 Du kan skapa ett nytt företag i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services som är ett verktyg som har utformats för att förkorta distributiontider, förbättra kvalitet på implementeringen, införa en metod med upprepning vid implementeringar och öka produktiviteten genom att automatisera och underlätta återkommande uppgifter.  
@@ -39,10 +39,10 @@ Du kan använda följande komponenter för att snabba på inställningen av ditt
 |------------|-------------|  
 |Skapa ett nytt företag och importera grundläggande inställningsdata och mallar.|[Ställa in företagskonfiguration](admin-set-up-company-configuration.md)|  
 |Distribuera det konfigurerade paketet till kunden för implementering.|[Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)|
-|Definiera och validera kundens installationsvärden för alla viktiga områden, till exempel företagsinformation, redovisning, lager, försäljning och produktion.|[Samla in kundinställningsvärden](admin-gather-customer-setup-values.md)|  
+|Definiera och validera kundens konfigurationssvärden för alla viktiga områden, till exempel företagsinformation, redovisning, lager, försäljning och produktion.|[Samla in kundinställningsvärden](admin-gather-customer-setup-values.md)|  
 |Konfigurera huvuddataposter med mallar för att förbereda migrering av befintliga kunddata.|[Förbereda migrering av kunddata](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definiera tabeller och fält, kontrollera befintliga kunddata och migrerar data i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.|[Migrera kunddata](admin-migrate-customer-data.md)|
-|Förbered för att återanvända konfigurationer för företag i andra företag.|[Så här skapar du anpassade konfigurationspaket för företag](admin-how-to-create-custom-company-configuration-packages.md)|
+|Förbered återanvändning av företagskonfigurationer i andra företag (i utvecklings- och administrationsinnehåll).|[Skapa anpassade konfigurationspaket för företag](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Hitta lösningar till kända problem i RapidStart Services-verktyget.|[Tips och råd: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Se även  

@@ -1,6 +1,6 @@
 ---
 title: Bokföra flera dokument på samma gång
-description: I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för omedelbar eller schemalagd batch-bokföring.
+description: Så här väljer du flera icke-bokförda dokument i en lista för direkt eller tidsplanerad batch-bokföring i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446053"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649693"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bokföra flera dokument på samma gång
 
@@ -78,13 +78,13 @@ Om jobbkön inte kan bokföra försäljningsorder, ändras status till **Fel**, 
 1. I dokumentet som du har försökt publicera med bakgrundspublicering väljer du fältet **Status för jobbkö**, som innehåller **Fel**.
 2. Granska felmeddelandet och lös problemet.
 
-Alternativt kan du också granska sidan **Loggtransaktioner för jobbkö** om försäljningsordern har bokförts. Mer information finns i [Visa status eller fel i jobbkön](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Alternativt kan du också granska sidan **Loggtransaktioner för jobbkö** om försäljningsordern har bokförts. Mer information finns i avsnittet [Övervaka jobbkön](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Skapa en jobbkötransaktion för batchbokföring av försäljningsorder
 
 Alternativt kan du även skjuta upp publiceringar till när tillfället passar din organisation bättre. Inom ditt företag kanske det exempelvis passar bättre att köra vissa rutiner när merparten av datainmatningen har slutförts för dagen. Du gör detta genom att konfigurera jobbkön så att denna kör diverse masspubliceringsrapporter, exempelvis **Masspublicera säljorder**, **Masspublicera säljfakturor** och liknande rapporter. [!INCLUDE[prod_short](includes/prod_short.md)] stöder bokföring i bakgrunden för alla försäljnings-, inköps- och servicedokument.
 
-Följande förfarande visar hur du konfigurerar rapporten **Masspublicera säljordrar** så att denna automatiskt publicerar säljordrar klockan 16.00 på veckodagar.  
+Följande förfarande visar hur du konfigurerar rapporten **Massbokför försäljningsorder** så att denna automatiskt bokför försäljningsorder klockan 16.00 på vardagar.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **jobbkötransaktioner** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -115,8 +115,13 @@ Följande förfarande visar hur du konfigurerar rapporten **Masspublicera säljo
 8. I fältet **starttid** anger du kl. 16:00.
 9. Välj åtgärden **Ställ in status till klar**.
 
-Säljordrar som befinner sig inom ramarna för definierade filter kommer nu att publiceras varje veckodag kl. 16.00.
+Försäljningsorder som befinner sig inom ramarna för definierade filter kommer nu att bokföras varje vardag kl. 16.00.
 
+## <a name="monitor-the-job-queue"></a>Övervaka jobbkön
+
+Om du konfigurerar bakgrundsbokföring med jobbköer gör du det till en vanlig uppgift för att övervaka jobbkön och uppmärksamma eventuella problem. Du kan spåra statusen på sidan **Jobbkötransaktioner**. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
+
+Som administratör kan du använda [Application Insights](/azure/azure-monitor/app/app-insights-overview) för att samla in och analysera telemetri som du kan använda för att identifiera problem. Mer information finns i [Övervaka och analysera telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i innehållet för utvecklare och administration.  
 
 ## <a name="see-also"></a>Se även
 
