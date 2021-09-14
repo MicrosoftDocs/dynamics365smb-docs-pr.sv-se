@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688320"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440744"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen  
 
@@ -94,7 +94,7 @@ Första tillåtna bokföringsdatum är den första dagen i den första öppna pe
 |Tidsregistrering:       |         |
 |Lokalt adressformat:|   Postnr      |  
 
- Första tillåtna bokföringsdatum är det datum som anges i fältet Tillåt bokföring från: 1 september 2020.  
+ Första tillåtna bokföringsdatum är det datum som anges i fältet Tillåt bokföring från: 10 september 2020.  
  Om såväl lagerperioder som tillåtna bokföringsdatum i Redovisningsinställningar har angetts, kommer det senare av de två att bestämma det tillåtna datumspannet för bokföring.  
 
  Steg 3: Fördelning av ett tillåtet bokföringsdatum.  
@@ -164,7 +164,7 @@ Sortering: användar-ID
 
 |Användar-ID  |Tillåt bokföring fr.o.m.  | Tillåt bokföring t.o.m.  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|ANVÄNDARNAMN |  2020-09-10      |2020-09-30      |
 
  Tilldela användaren ett bredare (eller samma) tillåtna intervall för bokföringsdatum som i lagerperioden eller redovisningskonfigurationen (omnämnd konflikt kommer att undvikas). Justeringsvärdestransaktionen med bokföringsdatum 10 september kommer att bokföras med denna inställning.
 

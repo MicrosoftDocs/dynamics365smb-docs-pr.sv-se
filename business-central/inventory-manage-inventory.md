@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325324"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482278"
 ---
 # <a name="how-to-manage-inventory"></a>Så här hanterar du lager
 För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som katalogartiklar, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
@@ -28,7 +28,7 @@ För att öka en översikt av artiklar och för att söka efter dem kan du kateg
 > [!NOTE]
 > Den fysiska hanteringen av artiklar kallas lageraktiviteter. Mer information finns i [Lagerhantering](warehouse-manage-warehouse.md).
 
-Planeringen av artiklars uppfyllande av efterfrågan omfattas av funktionen för materielplanering. Mer information finns i [Planering](production-planning.md).  
+Planeringen av artiklar för att motsvara efterfrågan omfattas av funktionen för leveransplanering. Mer information finns i [Planering](production-planning.md).  
 
 ## <a name="inventory-reconciliation"></a>Lageravstämning
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen. Mer information finns i [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
@@ -51,9 +51,10 @@ I följande tabell beskrivs relaterade uppgifter.
 |Visa tillgängligheten av artiklar per lagerställe, per period, per försäljning eller per inköpshändelse eller per deras användning av monterings- eller produktionsstrukturer.|[Visa artikeldisposition](inventory-how-availability-overview.md)|
 |Överför lagerartiklar mellan lagerställen med överföringsorder, för att hantera lageraktiviteter, eller med artikelgrupperingsjournalen.|[Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)|
 |Reservera lager eller inkommande artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder.|[Reservera artiklar](inventory-how-to-reserve-items.md)|
-|Tilldela serienummer/partinummer till några inkommande eller utgående dokument- eller journalrader, till exempel för att spåra objekt vid återkallning.|[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)|
-|Ställa in en leverantörs eller kundens egen artikelbeskrivning för ditt artikelkort så att du snabbt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)|
+|Ställ in artikelspårning så att du kan spåra artiklars serienummer, till exempel för att spåra artiklar vid återkallelser.|[Ställa in artikelspårning med serie-, parti- eller paketnummer](inventory-how-setup-item-tracking.md)|
+|Tilldela serienummer eller partinummer till alla utgående eller inkommande dokument- eller journalrader.|[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)|
 |Sök var serie- eller partinummer har använts i dess försörjningskedja, till exempel i återkallningssituationer.|[Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)|
+|Ställa in en leverantörs eller kundens egen artikelbeskrivning för ditt artikelkort så att du snabbt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)|
 |Spärra en artikel så att den inte kan registreras på försäljnings- eller inköpsrader eller bokföras i en transaktion.|[Spärra artiklar](inventory-how-block-items.md)|
 |Hantera affärsverksamheten på försäljningskontor, inköpsavdelningar eller planeringskontor på flera platser.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
 |Använd resurser med särskilda kompetenser för olika tjänster och serviceartiklar.|[Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)|

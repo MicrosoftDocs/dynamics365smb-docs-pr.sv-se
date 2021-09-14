@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773342"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482201"
 ---
 # <a name="data-ownership-models"></a>Modeller för dataägarskap
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ I följande bild visas ett exempel på dessa datainställningar i [!INCLUDE[prod
 
 ![Huvudaffärsenheten ligger högst upp, teamen visas i mitten och sedan företagen längst ned.](media/cds_bu_team_company.png)
 
-I den här konfigurationen ägs transaktioner som är relaterade till företaget Cronus USA av ett team som är länkat till affärsenheten Cronus US <ID> i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Användare som har åtkomst till den affärsenheten via en säkerhetsroll som anges till synlighet på affärsenhetsnivå i [!INCLUDE[prod_short](includes/cds_long_md.md)] kan nu se dessa transaktioner. Följande exempel visar hur du kan använda team för att ge åtkomst till dessa transaktioner.
+I konfigurationen ägs poster som är relaterade till företaget Cronus USA av ett team som är länkat till affärsenheten Cronus USA i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Användare som har åtkomst till den affärsenheten via en säkerhetsroll som anges till synlighet på affärsenhetsnivå i [!INCLUDE[prod_short](includes/cds_long_md.md)] kan nu se dessa transaktioner. Följande exempel visar hur du kan använda team för att ge åtkomst till dessa transaktioner.
 
 * Rollen försäljningschef tilldelas till medlemmar av försäljningsteamet för CRONUS USA.
 * Användare som har rollen Försäljningschef kan komma åt kontotransaktioner för medlemmar i samma affärsenhet.
-* Försäljningsteamet för CRONUS USA är länkat till affärsenheten CRONUS USA som omnämndes tidigare. Medlemmar av försäljningsteamet CRONUS USA kan se alla konton som ägs av användaren CRONUS USA <ID>, som kommer från företagstabellen Cronus USA i [!INCLUDE[prod_short](includes/prod_short.md)].
+* Försäljningsteamet för CRONUS USA är länkat till affärsenheten CRONUS USA som omnämndes tidigare. Medlemmar av försäljningsteamet Cronus USA kan se alla konton som ägs av användaren Cronus USA, som kommer från företagstabellen för Cronus USA i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1:1-mappningen mellan affärsenhet, företag och team är emellertid bara en utgångspunkt, precis som visas i följande bild.
 
@@ -51,7 +51,7 @@ I den här konfigurationen ägs transaktioner som är relaterade till företaget
 
 I det här exemplet skapas en ny europeisk (EUR) rotaffärsenhet i [!INCLUDE[prod_short](includes/cds_long_md.md)] som överordnad för både Cronus DE (Tyskland) och Cronus ES (Spanien). Affärsenheten EUR är inte kopplad till synkronisering. Den kan emellertid ge medlemmarna i försäljningsteamet EUR åtkomst till kontodata i såväl Cronus DE som Cronus ES genom att ange datasynligheten för **Överordnad/underordnad AE** i associerad säkerhetsroll i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Synkroniseringen bestämmer vilka team som ska äga transaktioner. Detta styrs av fältet **Fördefinierat ägarteam** i raden BCI – <ID>. När en BCI – <ID>-transaktion är aktiverad för synkronisering skapas automatiskt associerad affärsenhet och associerat ägarteamet (om dessa inte redan finns), och fältet **Förvalt ägarteam**. När synkroniseringen är aktiverad för en tabell kan administratören ändra det ägande teamet, men ett team måste alltid tilldelas.
+Synkroniseringen bestämmer vilka team som ska äga transaktioner. Detta styrs av fältet **Fördefinierat ägarteam** på raden BCI. När en BCI-post aktiveras för synkronisering skapas automatiskt associerad affärsenhet och associerat ägarteam (om dessa inte redan finns) samt fältet **Förvalt ägarteam**. När synkroniseringen är aktiverad för en tabell kan administratören ändra det ägande teamet, men ett team måste alltid tilldelas.
 
 > [!NOTE]
 > Posterna blir skrivskyddade när ett företag har lagts till och sparats, så se till att välja rätt företag.

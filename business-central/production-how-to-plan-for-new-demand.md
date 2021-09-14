@@ -1,21 +1,20 @@
 ---
-title: Hur du planerar order för order
-description: Den här planeringsuppgiften kan utföras på sidan Orderplanering där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans.
+title: Planera ny behovsorder efter order
+description: Den här planeringsuppgiften kan utföras på sidan Orderplanering där du kan se all ny efterfrågan samt tillgänglighetsinformation och förslag om leverans, inklusive artikelersättning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444236"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440723"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planera ny behovsorder efter order
 Den här planeringsuppgiften kan utföras på sidan **Orderplanering** där du kan se alla nya behov samt tillgänglighetsinformation och förslag om leverans. Du ser allt du behöver veta och har tillgång till alla verktyg du behöver för att effektivt kunna planera hur du ska möta behov från försäljningsrader och komponentrader och direkt skapa olika typer av leveransorder.  
@@ -24,14 +23,14 @@ Du kan gå till sidan **Orderplanering** på två sätt beroende på vad ditt fo
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Så här planerar du för ett nytt produktionsorderbehov  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Planerade produktionsorder** och väljer sedan relaterad länk. (Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder).
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Planerade produktionsorder** och väljer sedan relaterad länk. (Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder).
 2.  Öppna produktionsordern som du vill planera för och välj sedan åtgärden **Planering**.  
 3.  På sidan **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.  
 
 Sidan visar planeringsrader enligt visningsfiltret **Produktionsbehov**, dvs komponentrader med ouppfyllda behov från alla befintliga produktionsorder. Behov för endast en produktionsorder visas inte eftersom det är nödvändigt att planera för en produktionsorder med en översikt över behoven för möjliga tidigare komponentrader. Planeringsraderna för produktionsorder som du öppnade fönstret från expanderas.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Så här planerar du för valfritt nytt behov  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Orderplanering** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Orderplanering** och väljer sedan relaterad länk.  
 2.  På sidan **Orderplanering** väljer du åtgärden **Skapa inköpsförslag**.
 3.  Välj knappen **Expandera (+)** framför datumet i fältet **Behövd datum** om du vill se de underliggande planeringsraderna som motsvarar behovsrader med otillräcklig tillgänglighet.  
 4.  Du kan se värden för varje expanderad planeringsrad (behovsrad) i informationsfält längst ned på sidan.  
@@ -67,6 +66,9 @@ Sidan visar planeringsrader enligt visningsfiltret **Produktionsbehov**, dvs kom
 
     Om det finns en ersättningsartikel för artikeln som behövs visas värdet **Ja** i fältet **Ersättningar finns**, och du kan då söka på sidan **Artikelersättningstrans.** och markera ersättningsartikeln.  
 
+    > [!NOTE]  
+    > Kom ihåg att artikelersättningar inte automatiskt gör att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig för dig.
+
 7.  Markera kryssrutan **Reservera** om du vill skapa en reservation mellan leveransordern som du skapar och den behovsrad som den skapas för. Som standard är fältet tomt.  
 
     > [!NOTE]  
@@ -83,7 +85,7 @@ Sidan visar planeringsrader enligt visningsfiltret **Produktionsbehov**, dvs kom
 >   Om du anger ett senare datum än behovsdatumet får du ett varningsmeddelande.  
 
 ## <a name="to-make-supply-orders"></a>Så här skapar du leveransorder  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Planerade produktionsorder** och väljer sedan relaterad länk. Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Planerade produktionsorder** och väljer sedan relaterad länk. Du kan utföra dessa steg för en planerad, fast planerad eller släppt produktionsorder.  
 2.  Öppna produktionsordern som du vill planera för och välj sedan åtgärden **Planering**.  
 3.  Placera markören på en planeringsrad och klicka på åtgärder **Skapa order**.  
 4.  På sidan **Skapa leveransorder** på snabbfliken **Orderplanering** , i fältet **Skapa order för**, markera ett av följande alternativ.  
@@ -117,7 +119,7 @@ När du är klar med planeringen på sidan **Orderplanering**, och du till exemp
 [Inköp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Registrera nya artiklar](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435649"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440447"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 
@@ -85,6 +85,23 @@ Om du köper samma artikel från flera olika leverantörer måste du ange inform
 6. Upprepa moment 2 till 5 för varje leverantör som du vill köpa artikeln från.
 
 Leverantörer visas nu på sidan **Artikelleverantörskatalog** som du kan öppna från artikelkortet så att du enkelt kan välja en annan leverantör.
+
+## <a name="set-up-item-substitutions"></a>Ställa in artikelersättningar
+
+Du kan ställa in artiklar så att de har ersättningar, som andra artiklar som kan användas i stället för den ursprungliga artikeln.
+
+### <a name="to-make-an-item-substitution"></a>Så här gör du en artikelersättning
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
+2. Hitta den aktuella artikeln och klicka sedan på **Artikelnr** för att öppna artikelkortet.  
+3. Välj åtgärden **Relaterat**, välj sedan **Artikel** och sedan **Ersättningar** för att öppna sidan Artikelersättningspost.  
+4. Välj **Ersättningsnr**. fältet och välj sedan ersättningsartikel i listan.
+5. Fortsätt att fylla i eller ändra andra fält på sidan vid behov.
+
+När antal artiklar som har begärts, exempelvis på en försäljningsrad, överstiger det tillgängliga antalet i lager visas ett meddelande som anger att ersättningsartiklar finns.
+
+> [!NOTE]  
+> Kom ihåg att artikelersättningar inte automatiskt gör att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig för dig.
 
 ## <a name="categories-attributes-and-variants"></a>Kategorier, attribut och varianter
 

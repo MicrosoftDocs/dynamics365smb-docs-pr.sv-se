@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441274"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440472"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Ställa in bokföring av koncerninterna transaktioner
 
 Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) från ett företag och att motsvarande transaktion (till exempel en inköpsjournalrad) skapas automatiskt i partnerföretaget, måste de berörda företagen komma överens om en gemensam kontoplan och ange vilka dimensioner som ska användas för koncerninterna transaktioner. Den koncerninterna kontoplanen kan till exempel vara en förenklad version av moderbolagets kontoplan. Varje företag kopplar sin fullständiga kontoplan till den gemensamma kontoplanen, och varje företag kopplar sina dimensioner till de företagsinterna dimensionerna.  
 
-Du måste också ställa in en koncernintern partnerkod för varje partnerföretag som godtas av alla företag, och sedan tilldela dem till kundkort respektive leverantörskort genom att fylla i fältet **koncernintern partnerkod**.  
+Du måste också ställa in en koncernintern partnerkod för varje partnerföretag som godtas av alla företag, och sedan tilldela den till kundkort respektive leverantörskort genom att fylla i fältet **Koncernintern partnerkod**.  
 
 Om du vill skapa eller ta emot koncerninterna rader med artiklar kan du använda egna artikelnummer eller lägga upp partnerns artikelnummer för artikeln. Det gör du antingen i fältet **Leverantörens artikelnr** eller i fältet **Gemensamt artikelnr** som är kopplat till artikelkortet. Du kan också använda funktionen **Korsreferens för objekt** för att mappa dina objektsnummer med dina koncerninterna partnerbeskrivningar för objekten, öppna kortet för respektive objekt och sedan välja åtgärden **Korsreferenser** för att konfigurera korsreferenser mellan dina artikelbeskrivningar och den koncerninterna partnerns. Mer information finns i [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md). 
 
@@ -34,7 +34,7 @@ Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår 
 ## <a name="to-set-intercompany-partners"></a>För att konfigurera koncerninterna partners
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **koncernintern partner** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
-3. På sidan **Koncerninterna partners** fyller du i fälten efter behov.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På sidan **Koncerninterna partners** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du inte använda filplats för att överföra transaktioner till dina partners eftersom [!INCLUDE[prod_short](includes/prod_short.md)] inte har åtkomst till ditt lokala nätverk. Om du väljer **Filplats** i fältet **Överföringstyp** kommer fältet **Mappsökväg** inte att vara tillgängligt. Filen kommer istället att laddas ned till mappen Hämtningar på din dator. Du kan sedan skicka filen till någon i partnerföretaget, exempelvis via e-post. För en mer direkt process rekommenderar vi att du väljer **E-postmeddelande** istället.
@@ -65,7 +65,7 @@ För att din koncerninterna partner ska kunna importera den definierande kontopl
 3. Ange filnamnet och sökvägen där du vill spara XML-filen och välj sedan knappen **Spara**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Så här importerar du den koncerninterna kontoplanen  
-När det finns en fil för den definierande koncerninterna kontoplanen, kan koncerninterna partnerföretag importera den för att säkerställa att de har samma konton.  
+När det finns en fil för den definierande koncerninterna kontoplanen, kan koncerninterna partnerföretag importera den för att säkerställa att de använder samma konton.  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **koncernintern kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **Konc.int. kontoplan** kan du välja åtgärden **Importera**.  
 3. Välj filnamnet och sökvägen till XML-filen och välj sedan knappen **Öppna**.  
@@ -82,7 +82,7 @@ Om kontona i den koncerninterna kontoplanen har samma nummer som motsvarande kon
 3. För varje koncerninternt redovisningskonto som inte har kopplats automatiskt fyller du i fältet **Koppla till redovisningskontonr**.  
 
 ## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Så här ställer du in standardredovisningskonton för koncernintern partner  
-När du skapar en koncernintern försäljnings- eller inköpsrad som du ska skicka som en utgående transaktion anger du ett konto från den koncerninterna kontoplanen som standard för det konto i partnerns företag som beloppet ska bokföras på. På sidan **Kontoplan**, för konton som du använder ofta utgående koncerninterna försäljnings- eller inköpsrader, kan du ange ett standardredovisningskonto för koncerninterna partner. För kundreskontrakonton kan du till exempel ange motsvarande leverantörsreskontrakonton från den koncerninterna kontoplanen.  
+När du skapar en koncernintern försäljnings- eller inköpsrad som du ska skicka som en utgående transaktion anger du ett konto från den koncerninterna kontoplanen som standard för det konto i partnerns företag som beloppet ska bokföras på. På sidan **Kontoplan**, för konton som du använder regelbundet för utgående koncerninterna försäljnings- eller inköpsrader, kan du ange ett standardredovisningskonto för koncernintern partner. För kundreskontrakonton kan du till exempel ange motsvarande leverantörsreskontrakonton från den koncerninterna kontoplanen.  
 
 När du anger ett redovisningskonto i fältet **Balanskontonr** på en koncernintern rad med **Koncernintern partner** i fältet **Kontotyp** fylls fältet **Redov. konto för konc.int. partner**.  
 

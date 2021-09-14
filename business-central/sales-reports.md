@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543253"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440397"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Försäljningsrapporter och analys i Business Central
 
@@ -36,6 +36,7 @@ I följande tabell beskrivs några av de viktigaste rapporterna inom försäljni
 |**Status för distributionslagerutleverans**|7313|Den här rapporten kan användas för alla platser där fältet **Kräver utleverans** har valts. I rapporten **Status för distributionslagerutleverans** visas alla ej bokförda dokument för en distributionslagerutleverans, inklusive lagerställen, lagerplatskoder, dokumentstatus osv. Den här rapporten är perfekt för att få en översikt.|
 |**Lagerplockningslista**|813|Innehåller en lista över de försäljningsorder som innehåller en viss artikel. Följande information visas för respektive artikel: försäljningsorderrad med kundens namn, variantkod, lagerställekod, lagerplatskod, leveransdatum, antal att leverera och enhet. Antalet som ska levereras är summerat per artikel. Rapporten kan användas när artiklarna ska plockas från lagret.<br>**OBS!** Den här rapporten är inte tillgänglig för avancerade distributionslagerfunktioner.|
 |**Lager - restorder**|718|Innehåller en lista med de orderrader vars leveransdatum har överskridits. Följande information visas om respektive order per artikel: nummer, kundnamn, kundens telefonnummer, leveransdatum, beställningskvantitet och antal på restorder. Rapporten kan även visa om kunden har andra restnoterade artiklar.|
+|**Lagerorderinformation**|708|Visar en lista över order som ännu inte har utlevererats samt orderartiklarna. Rapporten visar ordernummer, kundnamn, leveransdatum, beställningskvantitet, försenad kvantitet, restnoterad kvantitet, enhetspris samt eventuell procentuell rabatt och belopp. Kvantitet på restorder och restnoterad kvantitet samt belopp summeras för respektive artikel. Använd rapporten för att se om det finns, eller kan förväntas, leveransproblem.|
 
 
 

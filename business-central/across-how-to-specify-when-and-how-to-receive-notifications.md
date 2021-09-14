@@ -10,24 +10,27 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 52fbabb8e8d2fbb9217bbcd1f9971f8f11037893
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445051"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482484"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Ange när och hur meddelanden ska tas emot
 När du konfigurerar användare i godkännandearbetsflöden måste du ange hur och när varje användare meddelas om godkännandearbetsflödessteg på sidan **Konfigurera meddelanden** och **Meddelandeschema**. Individuella användare kan också ändra sina meddelandeinställningar genom att välja knappen **Ändra meddelandeinställningar** i något meddelande.  
 
 > [!NOTE]
-> Meddelandena levereras enligt meddelandeinställningarna för mottagaren, inte avsändaren. Det är en viktig skillnad eftersom det innebär att när någon begär ett godkännande som en del av ett arbetsflöde kommer deras förfrågan inte nödvändigtvis att skickas direkt. Den levereras i stället enligt aviseringsinställningarna för godkännare. 
+> Meddelandena levereras enligt meddelandeinställningarna för mottagaren, inte avsändaren. Det är en viktig skillnad eftersom det innebär att när någon begär ett godkännande som en del av ett arbetsflöde kommer deras förfrågan inte nödvändigtvis att skickas direkt. I stället levereras den enligt meddelandeschemat som anges i godkännarens meddelandeinställningar. 
 
  Innan du kan konfigurera meddelandeinställningar för en godkännandeanvändare måste du konfigurera användaren som en godkännandeanvändare. Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md).  
 
  Du kan definiera layouten för e-postmeddelanden genom att anpassa rapporten 1320, e-postmeddelanden. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).  
 
  Många arbetsflödessvar för godkännande handlar om att meddela användare om att en händelse har skett som de måste agera på. Till exempel ett arbetsflödessteg kan vara att en händelse där användare 1 begär godkännande av en ny post. Det relaterade svaret är att ett meddelande skickas till användare 2, godkännaren. I nästa arbetsflödessteg kan händelsen vara att användare 2 godkänner posten. Det relaterade svaret är att ett meddelande skickas till användare 3 om att starta en process med den godkända posten. För arbetsflödessteg som gäller godkännande kopplas varje meddelande till en godkännandepost. Mer information finns i [Arbetsflöden](across-workflow.md).  
+
+> [!NOTE]
+> Om du vill använda e-post som aviseringsmetod måste du konfigurera e-post för både avsändaren och mottagaren i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Konfigurera e-post](admin-how-setup-email.md).
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Ange när och hur användare ska meddelas  
 

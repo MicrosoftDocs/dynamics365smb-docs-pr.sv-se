@@ -1,21 +1,21 @@
 ---
 title: Så här säljer du en artikel som monterats mot kundorder
-description: Om artikeln är inställd på  montering mot kundorder förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder.
+description: Om artikeln är inställd på montering mot kundorder förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
+ms.search.keywords: kit, kitting, substitute items
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 34e869166ed3b556a91ba6c0793c60455cebfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435376"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440622"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sälja en artikel som monterats mot kundorder
 Om det i fältet **Monteringsmetod** på en monteringsartikels artikelkort står **Montering mot kundorder** förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder. När du anger en artikel på en försäljningsorderrad skapas en monteringsorder automatiskt och länkas till försäljningsordern.  
@@ -29,7 +29,7 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 >  I följande procedur ingår inte standardstegen för försäljningsorder före det steg där du anger artikeln för montering mot kundorder på försäljningsorderraden.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Så här säljer du en artikel som monterats mot kundorder  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Skapa en försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 3.  I fältet **Nr.** anger du en artikel som lagts upp för montering mot kundorder.  
 4.  I fältet **Lagerställekod** anger du från vilket lagerställe som artikeln ska säljas. Monteringsprocessen genomförs där.  
@@ -57,12 +57,15 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 10. I försäljningsordern väljer du åtgärden **Släpp** om du vill meddela monteringsavdelningen att monteringsprocessen kan börja.  
 11. I monteringsavdelningen ska du utföra de steg av montering av de artiklar som säljs i den här proceduren. Mer information finns i [Montera artiklar](assembly-how-to-assemble-items.md).  
 
+> [!NOTE]  
+> Kom ihåg att artikelersättningar inte automatiskt gör att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig för dig.
+
 ## <a name="see-also"></a>Se även  
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Registrera nya artiklar](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

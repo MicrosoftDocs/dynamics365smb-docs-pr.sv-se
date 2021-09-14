@@ -91,6 +91,7 @@
 ### [Utöka din utvärderingsversion](admin-extend-trial.md)
 ### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
 ## Köp
+### [Komma igång med en prenumeration](across-preview.md#getting-started-with-a-subscription)
 ### [Gör dig redo att göra affärer](ui-get-ready-business.md)
 
 <!--setup-->
@@ -649,9 +650,10 @@
 ### [Visa artikeldisposition](inventory-how-availability-overview.md)
 ### [Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)
 ### [Reservera artiklar](inventory-how-to-reserve-items.md)
+### [Ställa in artikelspårning med serie-, parti- eller paketnummer](inventory-how-setup-item-tracking.md)
 ### [Spåra artiklar med serie-, parti-och paketnummer](inventory-how-work-item-tracking.md)
-### [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)
 ### [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)
+### [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)
 ### [Spärra artiklar](inventory-how-block-items.md)
 ### [Arbeta med ansvarsenheter](inventory-responsibility-centers.md)
 

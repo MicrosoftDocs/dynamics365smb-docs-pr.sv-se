@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: sv-SE
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124009"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440697"
 title: Vanliga frågor om att använda Business Central
 summary: "Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och använda utvärderingsversion, köpa en prenumeration och använda [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också lära dig hur du får teknisk support.  \n"
 sections:
@@ -67,6 +67,10 @@ sections:
       Vilka servicenivåavtal finns för molnet?
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
+  - question: >
+      Hur ofta uppdateras Business Central online?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] online är en tjänst som består av en Microsoft-hanterad plattform och affärsfunktionalitet. Många Microsoft-partner tillhandahåller extra affärsfunktioner, som att tillgodose specifika bransch- eller lokaliseringsbehov. Både affärsfunktioner och servicekomponenter övervakas kontinuerligt och uppdateras vid behov. Du kan alltid hänvisa till [viktig information](/dynamics365/release-plans/) om du vill ha en översikt över nya och kommande funktioner. Mer information finns i [Serviceöversikt för Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (endast på engelska) och [Nytt och planerat](product-news.md).
   - question: >
       Vår administratör har flyttat mig till ett annat plan för att ge mig en annan roll, men jag ser fortfarande samma startsida i Business Central?
     answer: "Detta är lite komplicerat, men det verkar som om administratören inte ändrade din tilldelade roll och tilldelade användargrupper som matchar den nya licensen. I princip bestäms din åtkomst till [!INCLUDE[prod_short](includes/prod_short.md)] av vilken typ av plan (licens) du har – detta bestämmer dina behörigheter och din tilldelade roll och din standardstartsida. Du kan ändra din nuvarande roll manuellt i Mina inställningar men om du har ändrat till ett annat plan som exempelvis från affärsplanen till teammedlemsplanen, kanske du ser den gamla startsidan eftersom behörigheterna inte ändrades.  \n"

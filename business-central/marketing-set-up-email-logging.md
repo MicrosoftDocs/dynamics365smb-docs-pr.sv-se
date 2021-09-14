@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437583"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482351"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
 
@@ -31,31 +31,36 @@ Därefter ansluter du [!INCLUDE[prod_short](includes/prod_short.md)] med Exchang
 
 Kom igång med e-postloggning i två enkla steg:
 
-1. Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till Exchange Online för din Microsoft 365-prenumeration. Exchange Online hanterar dina e-postmeddelanden. Detta steg är enkelt att utföra med hjälp av en guide för assisterad konfiguration. Du behöver bara ha administratörsbehörigheter för ditt administratörskonto i Microsoft 365. Du startar guiden genom att gå till **Assisterad konfiguration** och sedan välja **Konfigurera e-postloggning**.  
+1. Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till Exchange Online för din Microsoft 365-prenumeration. Exchange Online hanterar dina e-postmeddelanden. Detta steg är enkelt att utföra med hjälp av en guide för assisterad konfiguration. Du behöver bara ha administratörsbehörigheter för ditt administratörskonto i Microsoft 365. Du startar guiden genom att gå till sidan **Assisterad konfiguration** och sedan väljer guiden **Konfigurera e-postloggning**.  
 
 2. Kontrollera att du har angett giltiga e-postadresser i [!INCLUDE[prod_short](includes/prod_short.md)] för dina säljare och kontakter, beroende på om de är potentiella eller befintliga kunder. Det gör du genom att för varje kund eller säljare öppna kortet **Kontakt** eller **Säljare/Inköpare** och titta i fältet **E-post**.
 
 > [!Tip]
-> När du har slutfört stegen i guiden kan du kontrollera om kopplingen har lyckats. Sök efter **Marknadsföringsinställningar**, välj **Process**, sedan **Funktioner** och därefter **Validera konfiguration för e-postloggning**.
+> När du har slutfört stegen i guiden kan du kontrollera om kopplingen har lyckats. Sök efter **Marknadsföringsinställningar**, välj **Åtkomst**, sedan **Funktioner** och därefter **Validera konfiguration för e-postloggning**.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Visa e-postutbyten i interaktionsloggen
-[!INCLUDE[prod_short](includes/prod_short.md)] skapar en transaktion på sidan **Interaktionslogg** varje gång en säljare och en kontakt utbyter e-postmeddelanden. Om du vill visa interaktionsloggen öppnar du kortet **Kontakt** eller **Säljare/Inköpare** för den personen och väljer sedan **Historik** och därefter **Interaktionslogg**. Det finns några saker som du kan göra med posterna i loggen, till exempel:
 
-- Visa innehållet i e-postmeddelandet som utbytts genom att klicka på åtgärden **Visa bilagor**.
-- Omvandla ett e-postutbyte till en affärsmöjlighet – Om en transaktion verkar lovande kan du omvandla den till en affärsmöjlighet och sedan hantera förloppet fram till en försäljning. Välj posten och välj sedan åtgärden **Skapa affärsmöjlighet**. Mer information finns i [Hantera försäljningsmöjligheter](marketing-manage-sales-opportunities.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] skapar en transaktion på sidan **Interaktionslogg** varje gång en säljare och en kontakt utbyter e-postmeddelanden. Om du vill visa interaktionsloggen öppnar du kortet **Kontakt**, väljer **Relaterat**, väljer sedan **Historik** och därefter **Interaktionslogg**. Det finns några saker som du kan göra med posterna i loggen, till exempel:
+
+- Visa innehållet i e-postmeddelandet som utbytts genom att välja **Bearbeta** och sedan **Visa bilagor**.
+- Omvandla ett e-postutbyte till en affärsmöjlighet – Om en transaktion verkar lovande kan du omvandla den till en affärsmöjlighet och sedan hantera förloppet fram till en försäljning. Det gör du genom att markera posten, välja **Bearbeta** och sedan **Skapa affärsmöjlighet**. Mer information finns i [Hantera försäljningsmöjligheter](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Ansluta lokala versioner till Microsoft Exchange
-Du kan ansluta [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt eller Exchange Online för e-postloggning. För båda versioner av Exchange finns inställningar för anslutningen tillgängliga på sidan **Marknadsföringsinställning**. För Exchange Online kan du också använda en assisterad konfigurationsguide. 
+
+Du kan ansluta [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt eller Exchange Online för e-postloggning. För båda versioner av Exchange finns inställningar för anslutningen tillgängliga på sidan **Marknadsföringsinställning**. För Exchange Online kan du också använda en assisterad konfigurationsguide.
 
 ### <a name="connecting-to-exchange-on-premises"></a>Ansluta till Exchange lokalt
-För att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt kan du på sidan **Marknadsföringsinställning** använda **Basic** som **Autentiseringstyp** och sedan ange autentiseringsuppgifter för användarkontot för Exchange lokalt. Slå sedan på brytaren **Aktiverad** för att starta loggningen av e-post. 
+
+För att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt kan du på sidan **Marknadsföringsinställning** använda **Basic** som **Autentiseringstyp** och sedan ange autentiseringsuppgifter för användarkontot för Exchange lokalt. Slå sedan på brytaren **Aktiverad** för att starta loggningen av e-post.
 
 ### <a name="connecting-to-exchange-online"></a>Ansluta till Exchange Online
-Om du vill ansluta till Exchange Online måste du använda **OAuth2** som **Autentiseringstyp**. Du måste även registrera ett program i Azure Active Directory och tillhandahålla programmets ID, nyckelvalvshemlighet samt vilken omdirigerings-URL som ska användas. URL-adressen för omdirigering fylls i förväg och bör användas för de flesta installationer. Mer information finns i [Så här registrerar du ett program Azure AD för anslutning från Business Central till Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+
+Om du vill ansluta till Exchange Online måste du använda **OAuth2** som **Autentiseringstyp**. Du måste även registrera ett program i Azure Active Directory och tillhandahålla programmets ID, nyckelvalvshemlighet samt vilken omdirigerings-URL som ska användas. URL-adressen för omdirigering fylls i förväg och bör användas för de flesta installationer. Mer information finns i Så här registrerar du ett program i Azure AD för anslutning från Business Central till Exchange Online nedan.
 
 Du måste ställa in installationen för att använda HTTPS. Mer information finns i [Konfigurera SSL för att skydda anslutningen till Business Central webbklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Om du konfigurerar servern så att den får en annan startsida kan du alltid ändra URL-adressen. Klientens hemlighet kommer att sparas som en krypterad sträng i databasen.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Exchange Online
+
 Följande åtgärder förutsätter att du använder Azure Active Directory för att hantera identiteter och åtkomst. Mer information finns i [Snabbstart: registrera ett program med Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). Om du inte använder Azure Active Directory, se [använda en annan identitets- och åtkomsthanteringstjänst](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. I Azure Portal, under **Hantera**, väljer du **Autentisering**.

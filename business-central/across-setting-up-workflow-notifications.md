@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f0db9d63257d37fe6be5d31fc58541caf968907a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320620"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482438"
 ---
 # <a name="workflow-notifications"></a>Aviseringar för arbetsflöde
 
@@ -40,6 +40,10 @@ Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:
 * Anpassa e-postaviseringarna
 
     Om du vill kan anpassa du innehållet i e-postmeddelanden genom att ändra rapporten 1320, e-postmeddelanden. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).  
+
+    > [!NOTE]
+    > Om du vill använda e-post som aviseringsmetod måste du konfigurera e-post för både avsändaren och mottagaren i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Konfigurera e-post](admin-how-setup-email.md).
+
 * Svarsalternativ
 
     Du konfigurerar specifikt innehåll och regler för ett arbetsflödemeddelande när du skapar arbetsflödet i fråga. Du gör detta genom att välja alternativ på sidan **Alternativ för arbetsflödessvar** för de arbetsflödessvar som representerar meddelandet. Mer information finns i steg 9 i [Skapa arbetsflöden](across-how-to-create-workflows.md).  

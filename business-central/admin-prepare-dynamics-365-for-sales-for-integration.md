@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325474"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482329"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrering med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -57,7 +57,7 @@ Du kan använda en assisterad konfigurationsguide för att snabbt ställa in ans
 | **Publicera webbtjänsten för artikeldisposition** | Aktivera människor som använder [!INCLUDE[crm_md](includes/crm_md.md)] för att visa disponibla artiklar (produkter) i lagret i [!INCLUDE[prod_short](includes/prod_short.md)]. Detta kräver att ett [!INCLUDE[prod_short](includes/prod_short.md)]-användarkonto med en åtkomstnyckel för webbtjänsterna. Tilldela nyckeln är en tvåstegsprocess. För användarkontot i [!INCLUDE[prod_short](includes/prod_short.md)] måste du välja åtgärden **ändra webbtjänstnyckeln**. I guiden för assisterad konfiguration Dynamics 365 Sales-anslutning anger du Dynamics 365 Business Central OData webbtjänst-URL och ger [!INCLUDE[prod_short](includes/prod_short.md)] användarens autentiseringsuppgifter för att komma åt tjänsten. Mer information finns i [OData webbtjänst](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
 |**Användarnamn för OData-webbtjänsten för Business Central** | Namnet på det [!INCLUDE[prod_short](includes/prod_short.md)]-användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition i [!INCLUDE[prod_short](includes/prod_short.md)] via OData-webbtjänsten. |
 | **Åtkomstnyckel för OData-webbtjänsten för Business Central** | Åtkomstnyckeln för det användarkonto som [!INCLUDE[crm_md](includes/crm_md.md)] använder för att hämta information om artikeldisposition från [!INCLUDE[prod_short](includes/prod_short.md)] via OData-webbtjänsten. Nyckeln tilldelas den användare som valts i fältet **Användarnamn för OData-webbtjänsten för Business Central**. Om du vill hämta nyckeln väljer du knappen **sök efter värdet** bredvid användarnamnet, väljer användaren, väljer **hantera** och sedan **redigera**. På användarkortet väljer du **åtgärder**, **autentisering** och väljer sedan **ändra webbtjänstnyckeln**. |
-| **Aktivera försäljningsorderintegrering** | När en användare skapar försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] och uppfyller order i [!INCLUDE[prod_short](includes/prod_short.md)] integreras processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Detta innebär att du anger autentiseringsuppgifter för en administratörs användarkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i avsnittet [Hantera speciella försäljningsorderdata](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
+| **Aktivera försäljningsorderintegrering** | När en användare skapar försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] och expedierar order i [!INCLUDE[prod_short](includes/prod_short.md)] integreras processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Detta innebär att du anger autentiseringsuppgifter för en administratörs användarkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i avsnittet [Hantera speciella försäljningsorderdata](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
 |**Aktivera anslutning för Dynamics 365 Sales** | Aktivera anslutning till [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **SDK-version för Dynamics 365** | Detta gäller endast om du integrerar med en lokal version av [!INCLUDE[crm_md](includes/crm_md.md)]. Det här är den SDK-version för Dynamics 365 (även kallat Xrm) för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen måste vara kompatibel med SDK-versionen som används av [!INCLUDE[crm_md](includes/crm_md.md)] och motsvarande eller senare än den version som används av [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
@@ -80,7 +80,7 @@ Förutom inställningarna ovan anger du följande inställningar för [!INCLUDE[
 |--|--|
 | **Försäljningsorderintegrering är aktiverad** | Användaren ska kunna skicka försäljningsorder och aktiverade offerter i [!INCLUDE[crm_md](includes/crm_md.md)] och sedan granska och bearbeta dem i [!INCLUDE[prod_short](includes/prod_short.md)]. Det här integrerar den här processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Skapa försäljningsorder automatiskt** | Skapa en försäljningsorder i [!INCLUDE[prod_short](includes/prod_short.md)] när en användare skapar och skickar en i [!INCLUDE[crm_md](includes/crm_md.md)]. |
-| **Bearbeta försäljningsofferter automatiskt** | Bearbeta en försäljningsoffert i [!INCLUDE[prod_short](includes/prod_short.md)] när en användare skapar och aktiverar en i [!INCLUDE[crm_md](includes/crm_md.md)]. |
+| **Bearbeta försäljningsofferter automatiskt** | Bearbeta en försäljningsoffert i [!INCLUDE[prod_short](includes/prod_short.md)] när en användare skapar och aktiverar en i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Hantering av försäljningsoffertdata](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
 
 <!--
 ### User Account Settings
@@ -110,7 +110,7 @@ I följande tabell visas standardmappningen mellan tabeller i [!INCLUDE[prod_sho
 Följande tabell anger regler som kontrollerar synkroniseringen mellan [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)]. Dessa gäller utöver de regler som angetts för Dataverse, vilka också gäller. För mer information, se [Standardenhetsmappningar](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
 > [!NOTE]  
-> Ändrar data i  som genomfördes av användarkontot för integrering synkroniseras inte. Därför rekommenderar vi att du inte ändrar data när du använder kontot. Mer information finns i [Ställa in konton för att integrera med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Ändrar data som genomfördes av användarkontot för integrering synkroniseras inte. Därför rekommenderar vi att du inte ändrar data när du använder kontot. Mer information finns i [Ställa in konton för att integrera med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Bord|Regel|
 |-----|----|

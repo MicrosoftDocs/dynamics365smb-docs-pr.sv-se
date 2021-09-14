@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 791033d9b4077ad6e3bf37ab04956113183b5f2b
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439716"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440504"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
 Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan göra detta enklare genom att ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare, och bifoga filer på upp till 100 MB. Administratörer kan också skapa rapportlayout som endast innehåller nyckelinformation från dokument. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
@@ -45,6 +45,8 @@ I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard
 
 > [!NOTE]
 > Tilläggen **Microsoft 365** och **Aktuell användare** använder de konton som du har angett för användare i administrationscentret för Microsoft 365 för din -prenumeration. Användarna måste ha en giltig licens för Exchange Online för att kunna skicka e-post med hjälp av tilläggen. 
+>
+> Dessutom kan externa användare, som utsedda administratörer och externa revisorer, inte använda dessa tillägg för att skicka e-postmeddelanden från [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436757"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440372"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 
@@ -44,7 +44,7 @@ För att registrera en ny kund måste du fylla i ett kundkort. Du kan upprätta 
 4. Välj **OK**. Ett nytt kundkort öppnas med ifyllda fält med information från mallen.  
 5. Fortsätt att fylla i eller ändra fält på kundkortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-På snabbfliken **Försäljningspriser** ser du specialpriser eller rabatter som du beviljar för kunden om vissa villkor uppfylls, till exempel artikel, lägsta partistorlek eller slutdatum. Varje rad representerar ett speciellt pris eller radrabatt. Varje kolumn representerar ett kriterium som måste gälla för att garantera specialpriset som du anger i fältet **Enhetspris** eller radrabatten som du anger i fältet **Radrabatt %**. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
+Åtgärden **Priser och rabatter** har alternativ för att hantera specialpriser eller rabatter för kunden när en order uppfyller vissa kriterier. Kriterier kan vara när de köper en viss artikel, beställer en minsta kvantitet eller köper före ett visst datum, till exempel när en kampanj avslutas. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Kunden är nu registrerad, och kundkortet är klart att användas i försäljningsdokument.
 

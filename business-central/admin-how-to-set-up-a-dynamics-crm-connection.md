@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0afad844bc58089548885b8e7dcce8c4b947cea9
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636048"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440547"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
 
@@ -111,15 +111,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!NOTE]
 > Det här avsnittet är endast relevant för innehavaradministration i Business Central online som Microsoft har. Online innehavaradministratörer som körs av ISV och lokala installationer påverkas inte.
 
-I april, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] är den Office365 autentiseringstypen (användarnamn/lösenord). Mer information finns i avsnittet [Avskrivning autentiseringstyp av Office 365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Dessutom i mars 2022 avskriver [!INCLUDE[prod_short](includes/prod_short.md)] användning av klienthemlighetsbaserad tjänst-till-tjänst-autentisering för online-innehavare, och kräver att certifikatbaserad tjänst-till-tjänst-autentisering används för anslutningar till [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Online-innehavare som är värd för ISV, och lokala installationer, kan fortsätta att använda den Office365-autentisering som har konfigurerats av deras Microsoft-partner.
+I april, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] är den Office365 autentiseringstypen (användarnamn/lösenord). Mer information finns i avsnittet [Avskrivning autentiseringstyp av Office 365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Dessutom i mars 2022 avskriver [!INCLUDE[prod_short](includes/prod_short.md)] användning av klienthemlighetsbaserad tjänst-till-tjänst-autentisering för online-innehavare, och kräver att certifikatbaserad tjänst-till-tjänst-autentisering används för anslutningar till [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] onlineklienter som är värdbaserade hos internetföretag och lokala installationer kan fortsätta att använda klienthemlighet för autentisering vid anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 För att undvika störningar i integrationen _måste du uppgradera_ anslutningen så att den använder certifikatbaserad autentisering. Ãven om ändringen är schemalagd för mars 2022 rekommenderar vi starkt att du uppgraderar så snart som möjligt. Följande steg beskriver hur du uppgraderar till certifikatbaserad autentisering. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>För att uppgradera din Business Central online-anslutning för att använda certifikatbaserad autentisering
+
 > [!NOTE]
 > Certifikatbaserad autentisering finns i Business Central 2021 utgivningscykel 1 och senare. Om du använder en tidigare version måste du schemalägga en uppdatering till Business Central 2021 utgivningscykel 1 före mars, 2022. Mer information finns i [Schemalägg uppdateringar](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Kontakta partnern eller supporten om du får problem.
 
-1. I [Business Central administrationscenter]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), verifiera att du använder Business Central 2021 utgivningscykel 1 eller senare (version 18 eller senare).
+1. I [Business Central administrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) kontrollerar du att du använder Business Central utgivningscykel 1 för 2021 eller senare (version 18 eller senare).
 2. Gör något av följande beroende på om du har integrerat med Dynamics 365 Sales:
    * Om du vill kan du öppna sidan **Microsoft Dynamics 365 anslutningsinställning**.
    * Om du vill kan du öppna sidan **Dataverse anslutningsinställning**.

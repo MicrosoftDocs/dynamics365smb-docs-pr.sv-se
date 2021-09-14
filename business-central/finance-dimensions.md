@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444693"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482228"
 ---
 # <a name="working-with-dimensions"></a>Arbeta med dimensioner
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis försäljningsorder. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
@@ -53,6 +53,9 @@ När dimensioner och värden har konfigurerats kan du definiera globala och genv
 
 * **Globala dimensioner** används som filter, till exempel i rapporter, batch-jobb och XMLports. Du kan använda två globala dimensioner, så välj dimensionerna som du ofta använder.
 * **Genvägsdimensioner** finns tillgängliga som fält i journaler samt i journal- och redovisningstransaktioner. Du kan skapa upp till åtta av dessa.  
+
+> [!NOTE]
+> När du har använt en ny dimension i någon post, till exempel en rad eller en ny post, kan du inte radera dimensionen, även om du inte bokför posten. Detta beror på att [!INCLUDE[prod_short](includes/prod_short.md)] omedelbart skapar en dimensionsuppsättning för raden eller posten omedelbart. Mer information finns i [Dimensionsuppsättningar](finance-dimensions.md#dimension-sets).
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Konfigurera standarddimensioner för kunder, leverantörer och andra konton
 Du kan tilldela en standarddimension för ett enskilt konto. Dimensionen kopieras till journal eller dokument när du ange numret på en rad, men du kan ta bort eller ändra koden på raden om det behövs. Du kan också göra en dimension obligatorisk för att bokföra en transaktion med en viss typ av konto.  

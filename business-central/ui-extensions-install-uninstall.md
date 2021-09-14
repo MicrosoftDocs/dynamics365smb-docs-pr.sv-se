@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf0dd21100fe9ec1fcc92320f04393c5385d2514
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435042"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440672"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installera och avinstallera tillägg i Business Central
 
 Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installera tillägg som exempelvis lägger till funktioner, ändrar beteenden eller ger dig tillgång till nya onlinetjänster. Mer information finns i [Anpassa Business Central med hjälp av tillägg](ui-extensions.md).
 
 > [!NOTE]
-> Om du vill installera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i EXTEND. MGT. - ADMIN-användargruppen, eller så måste du ha EXTEND. MGT. - ADMIN-behörighetsuppsättningen. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.
+> Om du vill installera eller avinstallera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i EXTEND. MGT. - ADMIN-användargruppen, eller så måste du ha EXTEND. MGT. - ADMIN-behörighetsuppsättningen. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.
 >
 > Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
 
