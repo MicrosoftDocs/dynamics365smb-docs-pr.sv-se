@@ -1,21 +1,21 @@
 ---
 title: Hur du anger du data i Business Central
 description: Det finns många allmänna funktioner som hjälper dig att ange data lättare, snabbare och mer exakt. De grundläggande principerna och de avancerade funktionerna beskrivs här.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443674"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588963"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -35,7 +35,6 @@ Vissa redigerbara fält innehåller en väljare som du kan använda för att ang
 |Listruta          |Listrutor ger dig möjlighet att välja fasta värden eller referera till poster från en annan tabell|
 |Växel eller kryssruta|Vissa fält ger ett enkelt alternativ med värdena *Ja* eller *Nej*. Växeln används för att ange det här värdet och visas alltid som en kryssrutor i listor|
 |Assist redigera       |Vissa fält tillhandahåller anpassade väljare som passar för att söka efter och välja det bästa värdet för fältet, till exempel popup-fönster.|
-
 
 ### <a name="modifying-a-field-value"></a>Ändra ett fältvärde
 
@@ -58,7 +57,6 @@ När markören visas i slutet av fältvärdet:
 
 > [!NOTE]
 > När du har angett ett värde kommer Business Central endast att kontrollera att den är giltig när du har klickat utanför fältet eller ange ett annat element, t. ex. nästa fält.  
-
 
 ## <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -267,9 +265,16 @@ Här följer några exempel.
 
  Numret 5 konverteras till 5 timmar om enheten är timmar.  
 
-## <a name="see-also"></a>Se även  
- [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
- [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Ange decimalavgränsare som används av numeriska tangentbord
+
+När du anger data med hjälp av decimal tecken för numeriska tangenter, bestäms den verkliga decimalavgränsare som anges i fältet av regionsinställningarna för Business Central. Du anger region i Business Central på sidan **Mina inställningar**.
+
+Anta exempelvis att du använder ett numeriskt tangentbord som använder en punkt (.) som tangent för decimalavgränsare. Du måste dock ange data för ett regionalt språk som använder komma (**,**) för decimaltecknet, som danska (Danmark) eller franska (Frankrike). Det innebär att du vill att decimaler som "1,23" ska anges som "1,23". I så fall kan du gå till sidan **mina inställningar** och ange **regionen** till det regionala språket, som **danska (Danmark)** eller **franska (Frankrike)**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Se även
+
+[Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

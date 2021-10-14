@@ -1,7 +1,6 @@
 ---
 title: Hantera lager
 description: I det här avsnittet beskrivs hur du hanterar de fysiska produkter som du handlar med genom att skapa ett lagerartikelkort.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,14 +10,15 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9290d61245eec3331be315adf00e3e71a7fb5e97
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482278"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587896"
 ---
-# <a name="how-to-manage-inventory"></a>Så här hanterar du lager
+# <a name="manage-inventory"></a>Hantera lager
+
 För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som katalogartiklar, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
 
 Lagerökningar och lagerminskningar registreras även naturligtvis när du bokför inköps- och försäljningsdokument. Mer information finns i [Bokföra inköp](purchasing-how-record-purchases.md), [Sälja produkter](sales-how-sell-products.md) och [Fakturera försäljning](sales-how-invoice-sales.md). Överföringar mellan lagerställen ändrar lagrets kvantiteter över företagets distributionslager.   
@@ -54,7 +54,7 @@ I följande tabell beskrivs relaterade uppgifter.
 |Ställ in artikelspårning så att du kan spåra artiklars serienummer, till exempel för att spåra artiklar vid återkallelser.|[Ställa in artikelspårning med serie-, parti- eller paketnummer](inventory-how-setup-item-tracking.md)|
 |Tilldela serienummer eller partinummer till alla utgående eller inkommande dokument- eller journalrader.|[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)|
 |Sök var serie- eller partinummer har använts i dess försörjningskedja, till exempel i återkallningssituationer.|[Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)|
-|Ställa in en leverantörs eller kundens egen artikelbeskrivning för ditt artikelkort så att du snabbt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)|
+|Ställa in en leverantörs eller kundens egen artikelbeskrivning för ditt artikelkort så att du snabbt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikelreferenser](inventory-how-use-item-cross-refs.md)|
 |Spärra en artikel så att den inte kan registreras på försäljnings- eller inköpsrader eller bokföras i en transaktion.|[Spärra artiklar](inventory-how-block-items.md)|
 |Hantera affärsverksamheten på försäljningskontor, inköpsavdelningar eller planeringskontor på flera platser.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
 |Använd resurser med särskilda kompetenser för olika tjänster och serviceartiklar.|[Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)|

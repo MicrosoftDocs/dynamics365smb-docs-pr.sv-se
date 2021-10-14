@@ -41,7 +41,10 @@
 ##### [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
 ##### [Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  
-##### [Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen
+###### [Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Felmeddelanden "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)  
 ##### [Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)  
 ##### [Designdetaljer: Varians](design-details-variance.md)  
@@ -94,6 +97,12 @@
 ### [Komma igång med en prenumeration](across-preview.md#getting-started-with-a-subscription)
 ### [Gör dig redo att göra affärer](ui-get-ready-business.md)
 
+## Snabbstart
+### [Snabbstart för Business Central](quick-start-business-central.md)
+### [Ställa in företagsinformation](quick-start-company-information.md)
+### [Sälja produkter och tjänster](quick-start-sell-products-and-services.md)
+### [Köpa produkter och tjänster](quick-start-procurement.md)
+
 <!--setup-->
 ## Ställa in Business Central
 ### [Översikt över aktiviteter](setup.md)
@@ -133,9 +142,10 @@
 #### [Registrera nya kunder](sales-how-register-new-customers.md)
 #### [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md)
 #### [Registrera speciella försäljningspriser och rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Ställ in kundprisgrupper](sales-how-to-set-up-customer-price-groups.md)
 #### [Skapa säljare](sales-how-setup-salespeople.md)
 #### [Skapa dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md)
-#### [Skicka dokument som e-post](ui-how-send-documents-email.md)
+#### [Skicka dokument via e-post](ui-how-send-documents-email.md)
 #### [Så här definierar du leveransmetoder](sales-how-set-up-shipment-methods.md)
 #### [Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)
 ### Ställa in inköp
@@ -240,14 +250,16 @@
 #### [Tips och råd: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Ställa in e-post
 #### [Konfigurera e-post](admin-how-setup-email.md)
-#### Konfigurera företagsinkorgen i Microsoft Outlook 
-##### [Använda Business Central som din företagsinkorg i Outlook](admin-outlook.md)
+#### Konfigurera företagsinkorgen i Microsoft Outlook
+##### [Hämta Business Central-tillägget för Outlook](admin-outlook.md)
+##### [Använda Business Central som din företagsinkorg i Outlook](work-outlook-addin.md)
 ##### [Synkronisera med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimera Outlook](admin-outlook-optimize.md)
 ##### [Använda Business Central utan Outlook](admin-no-outlook.md)
 ### Ställa in rapporter
 #### [Rapporturval](across-report-selections.md)
 ### Ställer in anslutningar
+#### [Hämta Business Central-tillägget för Excel](admin-deploy-excel-addin.md)
 #### Använda Business Central som din företagsinkorg i Outlook 
 ##### [Översikt](admin-outlook.md)
 ##### [Synkronisera med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -257,10 +269,15 @@
 ##### [Hantera teamintegrering](admin-teams-integration.md)
 ##### [Installera Business Central-appen för Team](across-install-app-for-teams.md)
 ##### [Söka efter kunder, leverantörer och kontakter](across-search-contacts-teams.md)
-##### [Dela poster i Team](across-working-with-teams.md)
+##### [Dela poster och sidlänkar i Teams](across-working-with-teams.md)
 ##### [Ändra företag och andra inställningar](across-teams-settings.md)
 ##### [Vanliga frågor och Svar om Teams](teams-faq.md)
 ##### [Felsökning](admin-teams-troubleshooting.md)
+#### Använda OneDrive för företag med Business Central
+##### [Översikt](across-onedrive-overview.md)
+##### [Hantera OneDrive för företagsintegrering](admin-onedrive-integration.md)
+##### [Öppna Business Central-filer i OneDrive](across-share-onedrive.md)
+##### [OneDrive Vanliga frågor och svar](admin-onedrive-faq.md)
 #### ANvända Power BI med Business Central
 ##### [Introduktion](admin-powerbi.md)
 ##### Administratör
@@ -285,6 +302,8 @@
 ### [Skapa baskalendrar](across-how-to-assign-base-calendars.md)
 ### [Ställa in skrivare](ui-specify-printer-selection-reports.md)
 ### [Skaffa Business Central på din mobila enhet](install-mobile-app.md)
+### [Skaffa Business Central på din stationära dator](install-desktop-app.md)
+
 
 ## Vanliga frågor och svar
 ### [Vanliga frågor och svar](across-faq.yml)
@@ -329,7 +348,9 @@
 ## [Identifiera obligatoriska fält](ui-mandatory-fields.md)
 ## [Byta språk och region](about-locale-language.md)
 ## [Visa och redigera i Excel](across-work-with-excel.md)
+## [Lagra och dela filer i OneDrive](across-share-onedrive.md)
 ## [Hantera bifogade filer, länkar och anteckningar på kort och dokument](ui-how-add-link-to-record.md)
+## [Använda Word-mallar för masskommunikation](ui-mail-merge.md)
 ## [Ändra grundinställningar](ui-change-basic-settings.md)
 ## [Byta till ett annat företag eller annan miljö](ui-organization-switch.md)
 ## [Hantera meddelanden](ui-smart-notifications.md)
@@ -608,6 +629,7 @@
 ### [Skapa direktleveranser](sales-how-drop-shipment.md)
 ### [Skapa specialorder](sales-how-to-create-special-orders.md)
 ### [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)
+### [Behandlar säljreturordrar](sales-how-process-sales-returns-orders.md)
 ### [Korrigera eller makulera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md)
 ### [Arbeta med försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)
 ### [Kombinera leveranser på en enda faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -653,7 +675,7 @@
 ### [Ställa in artikelspårning med serie-, parti- eller paketnummer](inventory-how-setup-item-tracking.md)
 ### [Spåra artiklar med serie-, parti-och paketnummer](inventory-how-work-item-tracking.md)
 ### [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)
-### [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)
+### [Använd artikelreferenser](inventory-how-use-item-cross-refs.md)
 ### [Spärra artiklar](inventory-how-block-items.md)
 ### [Arbeta med ansvarsenheter](inventory-responsibility-centers.md)
 
@@ -951,10 +973,12 @@
 ##### [Lokalisering av anläggningstillgångar för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankverksamhet och betalningar
 ##### [Bankfunktion](LocalFunctionality/Czech/bank-feature.md)
+##### [Lokalisering av bankdokument för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Kassahantering](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Lokalisering av kassahantering för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registrering av försäljning (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Förskott](LocalFunctionality/Czech/advances.md)
+##### [Lokalisering av förskottsbetalning för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Leverantörsreskontra och kundreskontra
 ##### [Leverantörsreskontra och kundreskontra](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
@@ -1085,6 +1109,7 @@
 
 ### Indien
 #### [Översikt](LocalFunctionality/India/india-local-functionality.md)
+#### [Skapa bokföringsnummerserier](LocalFunctionality/India/posting-no-series-setup.md)
 #### Skattemotor
 ##### [Översikt](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Konfiguration för import/export av skattemotor](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1161,6 +1186,8 @@
 ##### [TDS – preliminär transaktion](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS – justeringstransaktion](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS-betalning till utfärdare](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [Översikt över TDS-194Q-avsnitt](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q-transaktioner](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS för kund
 ##### [TDS för kundöversikt](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS-beräkning för kund](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1188,6 +1215,7 @@
 ##### [Legotillverkning -transaktioner](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Skapa ansvarighet för GST](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Legotillverkningsrapport](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Postdaterad check](LocalFunctionality/India/Stale-Check.md)
 
 ### Italien
 #### [Lokala funktioner i den italienska versionen](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1603,6 +1631,7 @@
 ### [Logga ändringar](across-log-changes.md)
 ### [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)
 ### [Hantera lagring genom att komprimera data eller ta bort dokument](admin-manage-documents.md)
+### [Arkivera data](admin-archive-data.md)
 ### [Definiera principer för datalagring](admin-data-retention-policies.md)
 ### [Publicera en webbtjänst](across-how-publish-web-service.md)
 ### [Konfigurera API-mallar](admin-configuring-api-template.md)
@@ -1613,7 +1642,7 @@
 ### [Visa tabellinformation](admin-view-table-information.md)
 ### [Aktivera nya funktioner i förväg](admin-feature-management.md)
 ### [Integrera användare med checklistor](admin-checklist.md)
-### [Begränsade miljöer](across-how-create-sandbox-environment.md)
+### [Begränsade miljöer](admin-sandbox-environments.md)
 ## Anpassa Business Central
 ### [Anpassningsöversikt](ui-customizing-overview.md)
 ### [Anpassa sidor för profiler](ui-personalization-manage.md)

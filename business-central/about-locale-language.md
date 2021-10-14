@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776453"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588407"
 ---
 # <a name="changing-language-and-region"></a>Byta språk och region
 
@@ -33,7 +33,7 @@ Det ingår inte i funktionen Multilanguage att ändra språk för de texter som 
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] har bara stöd för en enda teckenuppsättning. Därför kanske en del tecken inte stöds i din miljö och det uppstår problem med att hämta data som har registrerats med en annan teckenuppsättning. Din miljö kanske stöder enbart engelska och ryska tecken, och om du registrerar data på ett annat språk kanske de inte lagras på rätt sätt. Kontakta systemadministratören om du vill ha information om vilka språk som stöds i din [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-the-region"></a>Ändra regionen
+## <a name="changing-your-region-setting"></a>Ändra nationella inställningar
 Region skiljer sig från både språk och juridiska krav på lokala marknader. Region bestämmer hur data visas när det gäller kommateckenavgränsare, justering till vänster eller till höger och vissa andra inställningar. Region avgör vissa systemelement i webbläsaren, till exempel åtgärden att skapa ett nytt objekt i en lista.  
 
 Du kan ändra region i fliken som du använder för att arbeta i [!INCLUDE[prod_short](includes/prod_short.md)]. Ändringen gäller bara för dig och inte för de andra användarna i företaget.  Valet av region återställs till din inställning i din Microsoft 365-profil om din administratör synkroniserar användare från Microsoft 365 i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,6 +42,11 @@ Du kan ändra region i fliken som du använder för att arbeta i [!INCLUDE[prod_
 > När du ändrar region visas en lång lista över språk och region. Språk påverkas dock inte av val av region.  
 
 Om du vill ändra region går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
+
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Ändra nationella inställningar för kunder, kontakter och leverantörer
+Vissa företag använder en extern tjänst som validerar adressuppgifter i landet eller regionen. Men när du behöver uppdatera adressinformation kanske det struktureras som de här tjänsterna använder inte alltid är det som passar för vissa situationer. Business Central ger dig ett mer flexibelt sätt att ange adressuppgifter.
+
+På sidan **Redovisningsinställningar** , om du aktiverar växlingsknappen **Kräv lands-/regionkod för adress** ändrar till fältet **Lands-/regionkod** på adresser för kunder, kontakter eller leverantörer kommer att återställa värdena i andra adressfält.
 
 ## <a name="application-version"></a>Programversion
 

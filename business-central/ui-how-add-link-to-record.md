@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 76829c832bfde71d46b2fa2a942aa68db9f5701a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444774"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588786"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
@@ -64,7 +64,7 @@ Följande procedur är baserad på en försäljningsorder. Stegen är liknande f
 En PDF-fil med det aktuella innehållet på försäljningsordern läggs till på fliken **Bilagor** i faktaboxen.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Att lägga till länk från ett artikelkort
-Du kan lägga till en länk från ett kort eller dokument till en URL eller sökväg. Detta är användbart om du t. ex. vill koppla ett artikelkort till leverantörens artikelkatalog.
+Du kan lägga till en länk från ett kort eller dokument till en URL. Detta är användbart om du t. ex. vill koppla ett artikelkort till leverantörens artikelkatalog.
 
 Följande procedur baseras på ett artikelkort. Stegen är liknande för alla andra kort och dokument.
 

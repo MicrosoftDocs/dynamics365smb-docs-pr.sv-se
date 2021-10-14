@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438933"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588257"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -89,22 +89,22 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 
 Det finns stödraster som innehåller rader och kolumner på många olika sidtyper i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel listsidor och **Rad**-delar i dokument. Att flytta från en cell till en annan i ett rutnät kan ske helt och hållet via tangentbordet.
 
-|Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Home<br />(Fn+Ctrl+vänsterpil)|Markera den första raden i listan. Fokus är kvar i samma kolumn.|Flytta till första panelen i den första raden. |
-|Ctrl+End<br />(Fn+Ctrl+högerpil)|Markera den sista raden i listan. Fokus är kvar i samma kolumn.|Flytta till den sista panelen i den sista raden.|
-|Hem<br />(Fn+vänsterpil)|Flytta till första fältet i raden.|Flytta till första panelen i raden.|
-|End<br />(Fn+högerpil)|Flytta till det sista fältet i raden.|Flytta till den sista panelen i raden.|
-|Skriv in|Öppna posten som är associerad med fältet.<br /><br />Endast relevant om en sida med kort associerad med posten.|Posten öppnas.<br /><br />Endast relevant om en sida med kort associerad med posten.|
-|Ctrl+Enter|Flytta fokus till nästa element utanför listan.|Flytta fokus till nästa element utanför listan.|
-|Page Up<br />(Fn+uppåtpil)|Rulla för att visa uppsättningen med rader ovanför den aktuella raden i vyn. |Rullar för att visa uppsättningen med paneler ovanför den aktuella panelen i vyn. |
-|Page Down<br />(Fn+Nedpil)|Rulla för att visa uppsättningen med rader nedanför den aktuella raden i vyn.|Rulla för att visa uppsättningen med paneler nedanför den aktuella panelen i vyn.|
-|Nedpil|Flytta till fältet i raden nedanför i samma kolumn. |I samma kolumn, flytta till panelen i raden nedanför. |
-|Uppil|Flytta till fältet i raden ovanför i samma kolumn| I samma kolumn, flytta till panelen i raden ovanför  |
-|Högerpil|I en skrivskyddad lista, flytta till samma rad till höger i samma fält.<br /><br />Flytta till höger i det aktuella fältet i en redigeringsbar lista.| Flytta till nästa ändringsbara panel till höger i samma rad. |
-|Vänsterpil|I en skrivskyddad lista, flytta till samma rad till vänster i föregående fält. <br /><br />Flytta till vänster i det aktuella fältet i en redigeringsbar lista.| Flytta till föregående panel till vänster i samma rad. |
-|Tabb|I en redigerbar lista, flytta till samma rad till höger i samma fält.|Ej tillämpbart.||
-|Skift+Tabb|I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. |
+| Tryck på dessa tangenter<br />(i macOS) | För att göra detta som en lista | För att göra detta som en panelvisning |
+|--|--|--|
+| Ctrl+Home<br />(Fn+Ctrl+vänsterpil) | Markera den första raden i listan. Fokus är kvar i samma kolumn. | Flytta till första panelen i den första raden. |
+| Ctrl+End<br />(Fn+Ctrl+högerpil) | Markera den sista raden i listan. Fokus är kvar i samma kolumn. | Flytta till den sista panelen i den sista raden. |
+| Hem<br />(Fn+vänsterpil) | Flytta till första fältet i raden. | Flytta till första panelen i raden. |
+| End<br />(Fn+högerpil) | Flytta till det sista fältet i raden. | Flytta till den sista panelen i raden. |
+| Skriv in | Öppna posten som är associerad med fältet.<br /><br />Endast relevant om en sida med kort associerad med posten. | Posten öppnas.<br /><br />Endast relevant om en sida med kort associerad med posten. |
+| Ctrl+Enter | Flytta fokus till nästa element utanför listan. | Flytta fokus till nästa element utanför listan. |
+| Page Up<br />(Fn+uppåtpil) | Rulla för att visa uppsättningen med rader ovanför den aktuella raden i vyn. | Rullar för att visa uppsättningen med paneler ovanför den aktuella panelen i vyn. |
+| Page Down<br />(Fn+Nedpil) | Rulla för att visa uppsättningen med rader nedanför den aktuella raden i vyn. | Rulla för att visa uppsättningen med paneler nedanför den aktuella panelen i vyn. |
+| Nedpil | Flytta till fältet i raden nedanför i samma kolumn. | I samma kolumn, flytta till panelen i raden nedanför. |
+| Uppil | Flytta till fältet i raden ovanför i samma kolumn | I samma kolumn, flytta till panelen i raden ovanför |
+| Högerpil | I en skrivskyddad lista, flytta till samma rad till höger i samma fält.<br /><br />Flytta till höger i det aktuella fältet i en redigeringsbar lista. | Flytta till nästa ändringsbara panel till höger i samma rad. |
+| Vänsterpil | I en skrivskyddad lista, flytta till samma rad till vänster i föregående fält. <br /><br />Flytta till vänster i det aktuella fältet i en redigeringsbar lista. | Flytta till föregående panel till vänster i samma rad. |
+| Tabb | I en redigerbar lista, flytta till samma rad till höger i samma fält. | Ej tillämpbart. |  |
+| Skift+Tabb | I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Välja kopiera och klistra in
 

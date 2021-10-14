@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0ed9b58b9ceec962d7f55ef5687ac36e11fbd681
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7f6f79ba1f8005363204f48c5ea9b91073b517f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446371"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588682"
 ---
 # <a name="setting-up-cost-accounting"></a>Ställa in kostnadsredovisning
 Innan du börjar arbeta med kostnadsredovisning, måste du utföra inställningsuppgifter.
@@ -36,7 +36,7 @@ Listan över kostnadstyper liknar kontoplanen i redovisningen. Du kan definiera 
 -   Skapa ny plan över kostnadstyper eller lägg till nya kostnadstyper till befintlig plan över kostnadstyper. Du måste skapa varje ny kostnadstyp för sig.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Överföra kontoplanen i redovisningen till redovisningsplanen över kostnadstyper  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadstyper** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadstyper** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Hämta kostnadstyper från kontoplan** action. Välj **ja** i dialogrutan för att bekräfta överföringen. Funktionen använder kontoplanen i redovisningen för att skapa en plan över kostnadstyper.  
 
     Planen över kostnadstyper innehåller nu alla resultaträkningskonton i redovisningen inklusive rubriker och delsummor. Du kan ändra planen över kostnadstyper efter behov. Du kan till exempel ta bort dubbletter av befintliga kostnadstyper.  
@@ -80,8 +80,8 @@ Det finns en många till en-relation mellan kostnadstyper och redovisningskonton
 |------------------|------------------------------------------------|-------------------------------------------|  
 |Ett redovisningskonto för varje kostnadstyp|Ett redovisningskonton|En kostnadstyp|  
 |Flera redovisningskonton för en kostnadstyp|Redovisningskontointervall, exempelvis 7110..7193 för varje redovisningskonto|För varje redovisningskonto i intervallet finns det bara en kostnadstyp|  
-|Kostnadstyper utan motsvarande redovisningskonton|<Empty>||  
-|Redovisningskonton vars transaktioner inte kommer att överföras||<Empty>|  
+|Kostnadstyper utan motsvarande redovisningskonton|\<Empty\>||  
+|Redovisningskonton vars transaktioner inte kommer att överföras||\<Empty\>|  
 
 ### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Kostnadstyper utan en relation till redovisningen  
 En kostnadstyp kan inte ha en koppling till redovisningskonton, om ett av följande villkor gäller:  
@@ -98,7 +98,7 @@ Kostnadsställen är avdelningar som ansvarar för kostnader och intäkter. Plan
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Överföra dimensionsvärden i redovisningen till planen för kostnadsställen  
 1.  Skapa en dimension som ska vara kostnadsställesdimensionen på sidan **Uppdatera kostnadsredovisningsdimensioner**. Endast värdena från dimensionen överförs.  
-2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadsställe** och väljer sedan relaterad länk.  
+2.  Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadsställe** och väljer sedan relaterad länk.  
 3.  Välj **Hämta kostnadsställen från dimension** för att överföra dimensionsvärden till planen för kostnadsställen på fliken **Åtgärder** i gruppen **Funktioner**. Funktionen överför de dimensionsvärden som du har definierat i steg 1.  
 
     > [!NOTE]  
@@ -131,7 +131,7 @@ Kostnadsbärare är projekt, produkter eller tjänster i ett företag. Planen f�
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Så här överför du dimensionsvärden från redovisningen till kontoplanen för kostnadsbärare  
 1.  Skapa en dimension som ska vara kostnadsbärardimensionen på sidan **Uppdatera CA-dimensioner**. Endast värdena från dimensionen överförs.  
-2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadsbärare** och väljer sedan relaterad länk.  
+2.  Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lista över kostnadsbärare** och väljer sedan relaterad länk.  
 3.  Välj åtgärden **Hämta kostnadsbärare från dimension** för att överföra dimensionsvärden till planen för kostnadsbärare. Funktionen överför de dimensionsvärden som du har definierat i steg 1.  
 
     > [!NOTE]  

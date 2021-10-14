@@ -7,12 +7,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7d487bdb24284583b2ea11f5f18ae3b9d8b7ab04
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 67767e95743d10b0f0b49ec2c034984187ffc5ff
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438733"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587611"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Nytt och planerat för Dynamics 365 Business Central
 
@@ -22,9 +22,9 @@ Du kan alltid hänvisa till viktig information om du vill ha en översikt över 
 
 Följande lista innehåller information om de senaste versionerna av [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [Utgivningscykel 2 för 2021](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
 * [Utgivningscykel 1 för 2021](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 * [Utgivningscykel 2 för 2020](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
-* [Utgivningscykel 1 för 2020](/dynamics365-release-plan/2020wave1/dynamics365-business-central/planned-features)  
 
 Du kan också utforska webbplatsen [Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/) och webbplatsen [Dynamics 365 Business Central-översikt](https://dynamics.microsoft.com/roadmap/business-central/).  
 
@@ -35,6 +35,7 @@ Du kan också utforska webbplatsen [Dynamics 365 Business Central-funktioner](ht
 [Besök vårt videobibliotek](across-videos.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Dynamics 365 Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Snabbstart för Business Central](quick-start-business-central.md)  
 [Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Dynamics 365 Business Central-översikt](https://dynamics.microsoft.com/roadmap/business-central/)  
 [Dynamics 365-blogg](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  

@@ -10,17 +10,18 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776278"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588357"
 ---
 # <a name="business-functionality"></a>Affärsfunktion
+
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist- och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar dina verksamhetsbehov. Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]. Flera olika moduler i funktionshjälp måste ställas in manuellt. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar dina verksamhetsbehov. Från ditt Rollcenter kan du få åtkomst till assisterade konfigurationsguider som gör det enklare att ställa in vissa scenarier och lägga till funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]. Flera olika moduler i funktionshjälp måste ställas in manuellt. Med hjälp av artiklarna [Business Central snabbstart](quick-start-business-central.md) artiklarna kan du ta de första stegen att göra [!INCLUDE [prod_short](includes/prod_short.md)] till din egen. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | Till | Gå till |
 | --- | --- |

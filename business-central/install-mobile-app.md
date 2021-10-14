@@ -1,21 +1,21 @@
 ---
 title: Skaffa Business Central på din mobila enhet
 description: I det här avsnittet beskrivs de olika sätt som du kan visa och redigera Business Central-data, skicka till Excel med mera på din telefon eller surfplatta.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7f2d86ab1ba8f3ee0ae77aad16b64feb0fa1fe4f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1097689e7fc06e7d1f2f3dede95c978a3316e975
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324006"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588282"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobila enhet
 
@@ -23,11 +23,12 @@ Komma åt [!INCLUDE[prod_short](includes/prod_short.md)] från en mobil enhet. D
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
+> [!TIP]
+> Vill du ha en app på datorns skrivbord i Windows eller macOS? Se [Hämta appen för Business Central Desktop](install-desktop-app.md).
+
 ## <a name="get-the-app-on-my-mobile-device"></a>Skaffa appen på min mobila enhet
 
-1. Installera appen [!INCLUDE[prod_short](includes/prod_short.md)] på den mobila enheten genom att hämta programmet från Windows Store, App Store, eller Google Play.  
-
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (endast PC)
+1. Installera appen [!INCLUDE[prod_short](includes/prod_short.md)] på den mobila enheten genom att hämta programmet från App Store, eller Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Starta programmet från din mobila enhet.
@@ -44,9 +45,8 @@ Du bör nu ha tillgång till [!INCLUDE[prod_short](includes/prod_short.md)] och 
 
 Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du också njuta av fördelarna med mobilappen. Installationen sker på liknande sätt, men med några undantag.
 
-1. Installera appen [!INCLUDE[prod_short](includes/prod_short.md)] på den mobila enheten genom att hämta programmet från Windows Store, App Store, eller Google Play.  
+1. Installera appen [!INCLUDE[prod_short](includes/prod_short.md)] på den mobila enheten genom att hämta programmet från App Store, eller Google Play.  
 
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (endast PC)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Starta programmet från din mobila enhet.

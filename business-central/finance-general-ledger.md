@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321120"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588632"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Så här fungerar i redovisningen och kontoplanen
 
@@ -70,6 +70,9 @@ Till exempel har det standardinställda saldo vid kontoavstämning en enkelt tra
 3. Dra in dem under underkategorin **kontant**.  
 
 Nästa gång du har genererat kontouppställningar kommer saldot visa ett totalt saldo för kontanter och två rader med saldon för handkassa och checkräkningskontot.  
+
+## <a name="getting-a-quick-overview"></a>Få en snabb översikt
+På sidan kontoplan visas de konton i en hierarkisk lista som ger snabb åtkomst till nyckelinformation för varje konto. Listan är dock statisk och om du har många konton måste du kanske göra en del av en bläddring för att kunna visa information för olika konton. Om du bara vill ha en snabb överblick över grunderna, till exempel nettoförändringar och saldon, är sidan **Kontoplansöversikt** ett användbart alternativ. Kolumnlayouten på sidan är nu densamma som på sidan kontoplan (det finns bara färre), så du behöver inte omorientera dig själv, och du kan expandera eller dölja de hierarkiska nivåerna för att kondensera vyn. För att det ska bli lättare att växla mellan sidorna är sidan **Kontoplansöversikt** tillgänglig på sidan kontoplan.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Åtkomst för att skapa och redigera konton och kontokategorier
 

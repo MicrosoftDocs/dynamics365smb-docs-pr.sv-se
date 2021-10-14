@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440955"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587536"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument
 Från PDF eller bildfiler som du får från dina handelspartner kan du låta en extern OCR-tjänst (Optical Character Recognition) skapa elektroniska dokument som du kan konvertera till dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du skicka den till OCR-tjänsten från sidan **Inkommande dokument**. Detta beskrivs i den första proceduren.
@@ -69,11 +69,11 @@ Du kan nu fortsätta med att skapa dokumentposter för de inlevererade elektroni
 Efterföljande procedur beskriver hur du skapar en inköpsfakturatransaktion från en leverantörsfaktura som tas emot som ett elektroniskt dokument från OCR-servicen. Proceduren är samma när du skapar, till exempel, en redovisningsjournalrad från ett kostnadskvitto eller från en försäljningsreturorder.
 
 > [!NOTE]  
->   Fälten **Beskrivning** och **Nr.** på de nya dokumentraderna kommer endast att fyllas i om du först har mappat text som finns på OCR-dokumentet till de två fälten i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan göra den här mappningen som korsreferenser till artikel, för dokumentrader av typartikel. Mer information finns i [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md). Du kan också använda mappningsfunktionen Text-till-konto. Mer information finns i avsnittet [Mappa ett inkommande dokument till en viss leverantör, redovisning eller adress](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Fälten **Beskrivning** och **Nr.** på de nya dokumentraderna kommer endast att fyllas i om du först har mappat text som finns på OCR-dokumentet till de två fälten i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan göra den här mappningen som referenser till artikel, för dokumentrader av typartikel. Mer information finns i [Använd artikelreferenser](inventory-how-use-item-cross-refs.md). Du kan också använda mappningsfunktionen Text-till-konto. Mer information finns i avsnittet [Mappa ett inkommande dokument till en viss leverantör, redovisning eller adress](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Markera raden för inkommande dokument och välj sedan åtgärden **skapa dokument**.
 
-En inköpsfaktura kommer att skapas av [!INCLUDE[prod_short](includes/prod_short.md)] utifrån informationen i det elektroniska leverantördokumentet som du fick av OCR-servicen. Informationen infogas i den nya inköpsfakturan, baserat på mappningen som du har definierat som en tvärreferens eller mappningen text-till-konto.
+En inköpsfaktura kommer att skapas av [!INCLUDE[prod_short](includes/prod_short.md)] utifrån informationen i det elektroniska leverantördokumentet som du fick av OCR-servicen. Informationen infogas i den nya inköpsfakturan, baserat på mappningen som du har definierat som en referens eller mappningen text-till-konto.
 
 Eventuella valideringsfel som vanligtvis beror på fel eller saknade huvuddata [!INCLUDE[prod_short](includes/prod_short.md)], visas på snabbfliken **Fel och varningar**. För mer information, se avsnittet [Så här hanterar du fel vid mottagning av elektroniska dokument](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 

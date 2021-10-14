@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441428"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588482"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov. Med hjälp av artiklarna [Business Central snabbstart](quick-start-business-central.md) artiklarna kan du ta de första stegen att göra [!INCLUDE [prod_short](includes/prod_short.md)] till din egen. Den här artikeln innehåller en översikt över hur du kan konfigurera [!INCLUDE [prod_short](includes/prod_short.md)] för organisationen.  
 
 Till exempel din kontoplan är ifylld med ett antal bokföringskonton som är klara för användning. Du kan naturligtvis ändra kontoplanen så att dessa stämmer överens med dina behov. Mer information finns i [Ekonomi](finance.md).
 
@@ -77,6 +77,7 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[prod_short](inc
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Snabbstart för Business Central](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

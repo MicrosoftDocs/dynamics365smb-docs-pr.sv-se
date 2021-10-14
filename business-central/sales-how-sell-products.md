@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
-ms.date: 08/17/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2ecf6884e37467504bc2f4573ef60c870993b799
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440422"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588507"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Sälja produkter med en kundförsäljningsreturorder  
 
@@ -67,8 +67,8 @@ Du kan även skapa direktbetalade order för icke-registrerade kunder genom att 
 8. Ange ett värde i procent, om du vill bevilja kunden en rabatt på produkten i fältet **Radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.
 
     Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på offertraden automatiskt om de överenskomna prisvillkorna uppfylls. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Gör en kommentar i fältet **Beskrivning** på en tom rad för att lägga till en kommentar om offertraden som kunden kan se på den utskrivna offerten.  
-10. Upprepa moment 4 till 8 för varje artikel som du vill att sälja till kunden.
+9. Gör en kommentar i fältet **Beskrivning** på en orderrad för att lägga till en kommentar om försäljningsorder som kunden kan se på den utskrivna offerten.  
+10. Upprepa moment 5 till 9 för varje artikel som du vill att sälja till kunden.
 
     Fälten för summor under raderna uppdateras automatiskt när du skapar eller ändrar rader för att visa de belopp som ska bokföras i redovisningen.
 

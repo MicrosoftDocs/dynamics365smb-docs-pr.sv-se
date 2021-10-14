@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 08/24/2021
+  ms.date: 09/29/2021
   ms.author: edupont
-  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
-  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+  ms.openlocfilehash: 53f4a87fea747b59bed7942885b1374377381029
+  ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
   ms.translationtype: HT
   ms.contentlocale: sv-SE
-  ms.lasthandoff: 08/27/2021
-  ms.locfileid: "7440697"
+  ms.lasthandoff: 10/01/2021
+  ms.locfileid: "7588116"
 title: Vanliga frågor om att använda Business Central
 summary: "Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och använda utvärderingsversion, köpa en prenumeration och använda [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också lära dig hur du får teknisk support.  \n"
 sections:
@@ -27,7 +27,7 @@ sections:
     answer: "Du kan registrera dig för en kostnadsfri utvärderingsversion för att utforska [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Om du vill ha mer tid för att utforska, [kan du utöka utvärderingsperioden](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nFör att hjälpa dig att göra dig redo för affärer, kan du i [!INCLUDE[prod_short](includes/prod_short.md)] starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  \n\nNär du är redo att köpa [!INCLUDE[prod_short](includes/prod_short.md)], hittar du en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Vart vänder jag mig om jag har frågor?
-    answer: "Om du har frågor om [!INCLUDE[prod_short](includes/prod_short.md)] som du inte hittar svar på i denna dokumentation, kan du fråga communityn för Business Central. Mer information finns i [Dynamics 365 Business Central-gruppen](https://community.dynamics.com/business).  \n\nPå startsidan för gruppen hittar du även länkar till vår bloggar där det finns också tips och råd. Mer information finns i [Microsoft Dynamics 365 Business Central på Dynamics 365-blogg](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) och den äldre [Dynamics 365 Business Central bloggen](https://community.dynamics.com/business/b/financials).  \n\nSlutligen kan du kontakta din [!INCLUDE[prod_short](includes/prod_short.md)] återförsäljare. Mer information finns i avsnittet [Hur får jag teknisk support?](/dynamics365/business-central/across-faq#hdigetsupport) och [Hur hittar jag en återförsäljningspartner?](#how-do-i-find-a-reselling-partner).  \n"
+    answer: "Om du har frågor om [!INCLUDE[prod_short](includes/prod_short.md)] som du inte hittar svar på i denna dokumentation, kan du fråga communityn för Business Central. Mer information finns i [Dynamics 365 Business Central-gruppen](https://community.dynamics.com/business).  \n\nPå startsidan för gruppen hittar du även länkar till vår bloggar där det finns också tips och råd. Mer information finns i [Microsoft Dynamics 365 Business Central på Dynamics 365-blogg](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) och den äldre [Dynamics 365 Business Central bloggen](https://community.dynamics.com/business/b/financials).  \n\nSlutligen kan du kontakta din [!INCLUDE[prod_short](includes/prod_short.md)] återförsäljare. Mer information finns i avsnittet [Hur får jag teknisk support?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) och [Hur hittar jag en återförsäljningspartner?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Varför hittar jag inte den här funktionen i min Business Central?
     answer: "Har du läst om en ny funktion i viktig information eller på vårt blogginlägg nyligen? I så fall kanske inte [!INCLUDE[prod_short](includes/prod_short.md)] har uppgraderats till den senaste versionen ännu. Du kan kontrollera vilken version din [!INCLUDE[prod_short](includes/prod_short.md)] baseras på, på sidan [Hjälp och support](product-help-and-support.md).  \n\nDetta gäller både [!INCLUDE [prod_short](includes/prod_short.md)] online och lokalt.  \n\nOm kapaciteten har publicerats som ett tillägg i AppSource, är det en fördröjning mellan att tillägget publicerades och att det finns tillgängligt i AppSource. Detta gäller [!INCLUDE [prod_short](includes/prod_short.md)] endast online.  \n"

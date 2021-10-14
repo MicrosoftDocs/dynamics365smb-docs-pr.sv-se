@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649868"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588888"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
 
@@ -60,6 +60,15 @@ I följande tabell beskrivs värdena i fältet **Status**.
 
 > [!TIP]
 > Du kan också visa statusen för jobbkötransaktioner genom att använda Application Insights i Microsoft Azure för mer djupgående analys baserad på telemetri. Mer information finns i [Övervaka och analysera telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) och [Analysera spårningstelemetri för jobbkölivscykel](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i utvecklar- och administrationsinnehållet för [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="view-scheduled-tasks"></a>Visa schemalagda uppgifter
+
+På sidan **schemalagda uppgifter** i [!INCLUDE [prod_short](includes/prod_short.md)] visas vilka uppgifter som är klara att köras i jobbkön. På sidan visas också information om det företag som varje aktivitet har konfigurerats för att köras i. Endast aktiviteter som är markerade som tillhör den aktuella miljön kan dock köras.  
+
+Om det aktuella företaget exempelvis finns i en miljö som är en kopia av en annan miljö stoppas alla schemalagda aktiviteter automatiskt. Använd sidan **Schemalagda uppgifter** för att visa vilka uppgifter som är klara att köras i jobbkön.  
+
+> [!NOTE]
+> Interna administratörer och användare kan schemalägga aktiviteter så att de körs. Delegerade administratörer kan inte.
 
 ## <a name="the-my-job-queue-part"></a>Min jobbködel
 I **Min jobbködel** i ditt rollcenter visas de jobbköer som du har inlett men som ännu inte slutfört. Som standard visas inte delen, så du behöver lägga till den i ditt rollcenter. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442266"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588307"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Så här skriver du av eller amorterar anläggningstillgångar
 Avskrivning används för att fördela kostnaden för anläggningstillgångar, som exempelvis maskiner och inventarier, över den avskrivningsbara livslängden. För varje anläggningstillgång måste du ange hur den ska avskrivas.  
@@ -48,7 +48,10 @@ En gång i månaden, eller när du vill, kan du köra batch-jobbet **Beräkna av
 5. Välj åtgärden **Bokföra**.  
 
 > [!NOTE]
-> Om du väljer fältet **Använd antal dagar** och **Antal dagar** är inställt på ett värde som resulterar i bokningsdatum minus värdet på **Antal dagar** är ett datum i föregående kalender år kan du inte bokföra avskrivningen. Lösningen är att minska värdet på **Antal dagar** till högst de beräknade dagarna fram till bokningsdatum med 30 dagar/månad ELLER välj **Räkenskapsår på 365 dagar** i avskrivningsregeln. Vi rekommenderar det första alternativet eftersom du kanske inte vill ändra användning av 30 dagar/månader för avskrivning. Mer information finns i [räkenskapsår 365 dagar fältavskrivning](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Känd begränsning: Om du anger fältet **Använd antal dagar** till Ja **Antal dagar** är inställt på ett värde där **Bokföringsdatum** minus **Antal dagar** resulterar i ett datum i föregående kalenderår låter systemet dig inte bokföra avskrivningen.
+> Lösningen är att minska värdet i fältet **Antal dagar** till högst de beräknade dagarna fram till bokningsdatum med 30 dagar/månad ELLER ange flaggan **Räkenskapsår på 365 dagar** i avskrivningsregeln.
+> Vi rekommenderar det första alternativet eftersom du kanske inte vill ändra användning av 30 dagar/månader för avskrivning. Mer information finns i [räkenskapsår 365 dagar fältavskrivning](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Att bokföra en avskrivning manuellt från en redovisningsjournalen för anläggningstillgångar.
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.tillg. redovisningsjournal** och väljer sedan relaterad länk.  

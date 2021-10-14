@@ -1,21 +1,21 @@
 ---
 title: Ändra grundläggande inställningar för den aktuella användaren
 description: Lär dig mer om hur du ändrar vissa grundläggande inställningar i Business Central, t.ex. roll och rollcenter, företag, arbetsdatum och tidszoner.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 6197adc163d781f2d7588e7109b37649e1611551
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443774"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589188"
 ---
 # <a name="change-basic-settings"></a>Ändra grundinställningar
 
@@ -82,7 +82,7 @@ Om arbetsdatumet inte anges för den aktuella dagen (idag) kommer arbetsdatumet 
 
 ## <a name="region"></a><a name="region"></a> Region
 
-Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras.
+Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras. Det avgör också vilket tecken som används som decimalavgränsare när du använder ett numeriskt tangentbord för att ange data. Mer information finns i [Ange data](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Språk
 

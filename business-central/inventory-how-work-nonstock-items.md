@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445582"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588557"
 ---
 # <a name="work-with-catalog-items"></a>Arbeta med katalogartiklar
 Du kan erbjuda vissa artiklar till dina kunder för deras bekvämlighet, som du inte vill hantera i ditt system, tills du börjar sälja dem. När du vill börja hantera sådana artiklar i ditt system, kan du konvertera dem till vanliga artikelkort på två sätt.
@@ -66,7 +66,7 @@ Ett nytt artikelkort förifyllt med information från katalogartikeln och en rel
 Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   En korsreferenspost för artikel skapas automatiskt för den leverantör som levererar artikeln mellan leverantörens artikelnummer och det nya artikelnumret. Mer information finns i [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md).
+>   En artikelreferens skapas mellan leverantörens artikelnummer och det nya artikelnumret. Mer information finns i [Använd artikelreferenser](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Se även
 [Registrera nya artiklar](inventory-how-register-new-items.md)  

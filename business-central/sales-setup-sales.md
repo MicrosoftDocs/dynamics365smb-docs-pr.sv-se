@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318590"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588657"
 ---
 # <a name="setting-up-sales"></a>Konfigurera försäljning
 Innan du kan hantera försäljningsprocesser måste du konfigurera reglerna och värdena som definierar företagets försäljningspolicies.
 
-Först måste du definiera allmänna inställningar, till exempel vilka försäljningsdokument som krävs och hur deras värden bokförs. Dessa allmänna inställningar görs vanligtvis bara en gång, under den initiala implementeringen.
+Du måste definiera de allmänna inställningarna på sidan **Försäljningsinställningar**, till exempel vilka försäljningsdokument som krävs, hur deras värden ska bokföras och vilken typ av rader som ska skapas som standard. Dessa allmänna inställningar görs vanligtvis bara en gång, under den initiala implementeringen.
 
-En separat serie uppgifter relaterade till att registrera nya kunder är att registrera alla specialpriser eller rabattavtal som du har med varje kund.
+En separat serie uppgifter relaterade till att registrera nya kunder är att registrera alla specialpriser eller rabattavtal som du har med varje kund. Mer information finns i [Registrera speciella försäljningspriser och rabatter](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Finansrelaterade försäljningar, till exempel betalningssätt och valutor, beskrivs i avsnittet Finans. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
 

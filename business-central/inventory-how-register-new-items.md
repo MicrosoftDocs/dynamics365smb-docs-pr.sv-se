@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.date: 07/29/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 34a7c73cd82d63a2ca5b549e7d1cedf582a32465
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440447"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587715"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 
@@ -40,13 +40,7 @@ I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan 
 
 ## <a name="to-create-a-new-item-card"></a>Skapa ett nytt artikelkort
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
-2. På sidan **Artiklar** väljer du åtgärden **Ny**.
-
-    Om endast en artikelmall finns, då öppnas ett nytt artikelkort med fält ifyllda med information från mallen.
-3. Välj den mall som du vill använda för den nya artikelkortet på sidan **Välj en mall för en ny artikel**.
-4. Välj **OK**. Ett nytt artikelkort öppnas med ifyllda fält med information från mallen.
-5. Fortsätt att fylla i eller ändra fält på artikelkortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
 > I fältet **värderingsprincip** anger du hur artikelns styckkostnad beräknas genom att anta hur flödet av fysiska artiklar sker i företaget. Fem metoder är tillgängliga, beroende på typen av objekt. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).
@@ -92,7 +86,7 @@ Du kan ställa in artiklar så att de har ersättningar, som andra artiklar som 
 
 ### <a name="to-make-an-item-substitution"></a>Så här gör du en artikelersättning
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Hitta den aktuella artikeln och klicka sedan på **Artikelnr** för att öppna artikelkortet.  
 3. Välj åtgärden **Relaterat**, välj sedan **Artikel** och sedan **Ersättningar** för att öppna sidan Artikelersättningspost.  
 4. Välj **Ersättningsnr**. fältet och välj sedan ersättningsartikel i listan.

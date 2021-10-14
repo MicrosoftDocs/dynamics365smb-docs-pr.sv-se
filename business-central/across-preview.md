@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 09/07/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482450"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589313"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer
 
@@ -27,7 +27,7 @@ Du kan registrera dig för en kostnadsfri utvärderingsversion [här](https://go
 
 Beroende på ditt land eller din region innehåller utvärderingsversionen de språk och den funktionalitet som krävs för ditt land eller din region. Mer information finns i avsnittet [ändra språk och nationella inställningar](about-locale-language.md).  
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] kommer du att känna igen vissa saker, och andra inte. När du först loggar in på demonstrationsföretaget får du tillgång till en Komma igång-sida med länkar till installationsguider som hjälper dig att komma igång. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kommer du att känna igen vissa saker, och andra inte. När du först loggar in på demonstrationsföretaget får du tillgång till en Komma igång-sida med länkar till installationsguider som hjälper dig att komma igång. Mer information finns i [Gör dig redo att göra affärer](ui-get-ready-business.md) och [snabbtstarter](quick-start-business-central.md).  
 
 Om det uppstår problem kan sidan [Vanliga frågor](across-faq.yml) hjälpa dig att besvara vissa av dina frågor. Om du inte kan registrera dig för utvärderingsversionen kan sidan [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md) hjälpa dig. Du kan också kontakta en [partner](/dynamics365/business-central/across-faq#findpartner) och be denne att skapa en kostnadsfri utvärderingsversion eller annan typ av förhandsversion av [!INCLUDE[prod_short](includes/prod_short.md)] åt dig.  
 
@@ -35,7 +35,7 @@ Om du väljer att inte använda [!INCLUDE [prod_short](includes/prod_short.md)] 
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### <a name="try-out-your-own-company"></a>Prova ditt eget företag
+### <a name="add-your-own-data-to-an-empty-trial-company"></a>Lägga till egna data till ett tomt testföretag
 
 Om du vill testa [!INCLUDE[prod_short](includes/prod_short.md)] med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag. Den assisterade konfigurationen **Konfigurera mitt företag** kan hjälpa dig att ange specifik grundläggande information om ditt företag. Du kan också importera data från din befintliga verksamhetslösning så att du kan utvärdera [!INCLUDE[prod_short](includes/prod_short.md)] med dina egna data. Vi rekommenderar emellertid att du inte använder en gratis testversion för att hjälpa dig att driva ditt företag. Kontakta [en återförsäljarpartner](/dynamics365/business-central/across-faq#findpartner) för att lära dig mer om hur du kommer igång med [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -43,7 +43,7 @@ Om 30 dagar inte räcker för att du ska kunna bestämma dig, kan du förlänga
 
 ### <a name="setting-up-your-company-in-prod_short"></a>Ställa in företaget i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-För att hjälpa dig att upprätta ditt företag visar sidan **Assisterad konfiguration** de assisterade konfigurationsguider som hjälper dig. Beroende på din roll och ditt land eller din region innehåller sidan olika assisterade konfigurationsguider enligt illustrerat i följande tabell:
+Med hjälp av artiklarna [snabbstart](quick-start-business-central.md) artiklarna kan du ta de första stegen i installationen av [!INCLUDE [prod_short](includes/prod_short.md)] i organisationen. Inne i [!INCLUDE [prod_short](includes/prod_short.md)], sidan **assisterad konfiguration** visas en lista med assisterade konfigurationsguider som hjälper dig att göra det. Beroende på din roll och ditt land eller din region innehåller sidan olika assisterade konfigurationsguider enligt illustrerat i följande tabell:
 
 | Assisterad konfiguration | Beskrivning |
 | -------------- | ----------- |
@@ -72,7 +72,7 @@ Om du har lagt till data till [!INCLUDE[prod_short](includes/prod_short.md)]-tes
 
 ## <a name="getting-started-with-a-subscription"></a>Komma igång med en prenumeration
 
-Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner). Med hjälp av partnern för återförsäljning kan du konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för att passa ditt företag, inklusive att importera data från ditt tidigare system. Du kan också anpassa [!INCLUDE[prod_short](includes/prod_short.md)] genom att lägga till program från [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner). Med hjälp av partnern för återförsäljning kan du konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för att passa ditt företag, inklusive att importera data från ditt tidigare system. Du kan också anpassa [!INCLUDE[prod_short](includes/prod_short.md)] genom att lägga till appar från [Microsofts kommersiella marknadsplats](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online använder Microsoft 365. Om ditt företag använder en annan typ av e-postinstallation, kan partnern hjälpa dig att bestämma hur du ska migrera eller om du bör använda [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
 
@@ -85,21 +85,20 @@ Mer information om vad du kan göra med [!INCLUDE [prod_short](includes/prod_sho
 
 ## <a name="getting-started-with-sandboxes"></a>Komma igång med begränsat läge
 
-Miljöer i begränsat läge kan vara ett sätt för dig att öva med [!INCLUDE[prod_short](includes/prod_short.md)]. Betrakta ett begränsat läge som en produktionsfri miljö som du kan använda utöver din [!INCLUDE[prod_short](includes/prod_short.md)]-produktionsinstans. Om du till exempel vill genomgå den kostnadsfria onlineutbildningen från [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) kan din administratör [skapa en miljö med begränsat läge](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment) så att du och dina kollegor kan öva där snarare än i produktionsmiljön.  
+Miljöer i begränsat läge kan vara ett sätt för dig att öva med [!INCLUDE[prod_short](includes/prod_short.md)]. Betrakta ett begränsat läge som en produktionsfri miljö som du kan använda utöver din [!INCLUDE[prod_short](includes/prod_short.md)]-produktionsinstans. Om du till exempel vill ta en kostnadsfri onlineutbildning från [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) kan administratören [ skapa en miljö med begränsat läge](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). På så sätt kan du och dina kollegor öva på ett säkert ställe i stället för i produktionsmiljön.  
 
 Om du är utvecklare låter ett begränsat läge dig skapa och testa tillägg och utveckla nya funktioner i syfte att anpassa tjänsten utan att påverka data och inställningar för din produktionsmiljö.  
 
-Just nu kan alla kunder använda en miljö med begränsat läge, inklusive organisationer som har anmält sig till en utvärderingsversion. Läs mer om hur du kommer igång med ett begränsat läge i, [Skapa miljö med begränsat läge](across-how-create-sandbox-environment.md).  
+Just nu kan alla kunder använda en miljö med begränsat läge, inklusive organisationer som har anmält sig till en utvärderingsversion. Läs mer om hur du kommer igång med ett begränsat läge i, [miljöer med begränsat läge](admin-sandbox-environments.md).  
 
 > [!NOTE]
 > Begränsat läge som skapats så här innehåller demonstrationsdata för det fiktiva företaget CRONUS. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.   
 
 Administratören för din [!INCLUDE[prod_short](includes/prod_short.md)] och din återförsäljningspartner kan skapa ytterligare miljöer i administrationscentret. Mer information finns i [Administrationscenter för Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
-
-
 ## <a name="see-also"></a>Se även
 
+[Snabbstart för Business Central](quick-start-business-central.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Utöka din utvärderingsversion](admin-extend-trial.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

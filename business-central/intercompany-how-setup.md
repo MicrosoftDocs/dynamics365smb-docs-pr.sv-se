@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 1d822b61c9ed64d970d2d17939a359d898513e2d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440472"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587586"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Ställa in bokföring av koncerninterna transaktioner
 
@@ -23,7 +23,7 @@ Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) frå
 
 Du måste också ställa in en koncernintern partnerkod för varje partnerföretag som godtas av alla företag, och sedan tilldela den till kundkort respektive leverantörskort genom att fylla i fältet **Koncernintern partnerkod**.  
 
-Om du vill skapa eller ta emot koncerninterna rader med artiklar kan du använda egna artikelnummer eller lägga upp partnerns artikelnummer för artikeln. Det gör du antingen i fältet **Leverantörens artikelnr** eller i fältet **Gemensamt artikelnr** som är kopplat till artikelkortet. Du kan också använda funktionen **Korsreferens för objekt** för att mappa dina objektsnummer med dina koncerninterna partnerbeskrivningar för objekten, öppna kortet för respektive objekt och sedan välja åtgärden **Korsreferenser** för att konfigurera korsreferenser mellan dina artikelbeskrivningar och den koncerninterna partnerns. Mer information finns i [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md). 
+Om du vill skapa eller ta emot koncerninterna rader med artiklar kan du använda egna artikelnummer eller lägga upp partnerns artikelnummer för artikeln. Det gör du antingen i fältet **Leverantörens artikelnr** eller i fältet **Gemensamt artikelnr** som är kopplat till artikelkortet. Du kan också använda funktionen **Referens för objekt** för att mappa dina objektsnummer med dina koncerninterna partnerbeskrivningar för objekten, öppna kortet för respektive objekt och sedan välja åtgärden **Artikelreferenser** för att konfigurera referenser mellan dina artikelbeskrivningar och den koncerninterna partnerns. Mer information finns i [Använd artikelreferenser](inventory-how-use-item-cross-refs.md). 
 
 Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår måste du fylla i fältet **Ink.red.ktonr konc.int partner** på den aktuella resursens resurskort. Det här är numret på det koncerninterna redovisningskontot i partnerföretaget som beloppet för resursen ska bokföras på. Mer information finns i [Ange resurser](projects-how-setup-resources.md).
 

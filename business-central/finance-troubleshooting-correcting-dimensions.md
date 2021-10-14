@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
-ms.date: 04/01/2021
+ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
-ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
+ms.openlocfilehash: 111e9b3dae70cc984ecc495a815de3d41ef42133
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373244"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589013"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Felsökning och korrigering av dimensioner
+
 Ekonomiska rapporter och analysvyer bygger ofta på data från dimensioner. Trots de säkerhetsåtgärder som finns tillgängliga inträffar ibland ett misstag som kan medföra felaktigheter. I det här avsnittet beskrivs några typiska fel och hur du korrigerar dimensionstilldelningar för bokförda transaktioner så att ekonomiska rapporter är korrekta.
 
 ## <a name="troubleshooting-dimensions-errors"></a>Felsökning av dimensionsfel
+
 När du bokför dokument eller journalrader som innehåller dimensioner kan olika fel uppstå, som dock vanligtvis hör till en felaktig dimensionsinställning eller tilldelning.
 
 > [!NOTE]
@@ -42,30 +44,33 @@ När du bokför dokument eller journalrader som innehåller dimensioner kan olik
 |En dimensionskorrigering slutförs inte korrekt.||-Välj **Återställ** om du vill återställa korrigeringen till ett utkasttillstånd. Detta återställer ändringarna och du kan köra korrigeringen igen.|
 
 ## <a name="changing-dimension-assignments-after-posting"></a>Ändra dimensionstilldelningar efter bokföring
+
 Om du upptäcker att en felaktig dimension har använts på bokförda redovisningstransaktioner kan du korrigera dimensionsvärdena och uppdatera analysvyerna. Det hjälper till att hålla dina finansiella rapporter och analyser korrekta.
 
 > [!IMPORTANT]
 > Funktionerna för att korrigera dimensioner är endast avsedda att hjälpa till att göra den ekonomiska rapporten korrekt. Dimensionskorrigeringar gäller bara för redovisningstransaktionerna. De ändrar inte de dimensioner som tilldelats poster i andra redovisningar för samma transaktion. De dimensioner som tilldelats i redovisningen och underredovisningarna visas som en avvikelse.
 
 ### <a name="setting-up-dimension-corrections"></a>Ställa in dimensionskorrigeringar
+
 Det finns två saker att tänka på när du ställer in dimensionskorrigeringar:
 
 * Finns det dimensioner som du inte vill tillåta att människor ändrar? På sidan **Inställningar för dimensionskorrigering** ange de dimensioner som du vill blockera för ändringar.
 * Vem vill du tillåta att ändra dimensioner? Om du vill tillåta personer att göra ändringar tilldelar du behörigheten **D365 DIM CORRECTION** till användarna. Behörigheterna gör det möjligt för dem att skapa dimensionskorrigeringar, köra dem och ångra dem om det behövs. De kan också ange blockerade dimensioner. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md). 
 
 ### <a name="correcting-a-dimension"></a>Korrigera en dimension
+
 Du kan manuellt välja en eller flera redovisningstransaktioner eller använda filter för att välja uppsättningar med transaktioner. Om det behövs kan du också lägga till eller ta bort dimensioner. 
 
 1. Om du vill starta en dimensionskorrigering använder du en av följande sidor:
 
-* På sidan **GL/Register** genom att välja ett register och sedan välja åtgärden **Korrigera dimensioner**. Då startas en korrigering av transaktionerna i den valda registret.
-* På sidan **Redovisningstransaktioner** genom att välja åtgärden **Dimensionskorrigering**. 
+    * På sidan **GL/Register** genom att välja ett register och sedan välja åtgärden **Korrigera dimensioner**. Då startas en korrigering av transaktionerna i den valda registret.
+    * På sidan **Redovisningstransaktioner** genom att välja åtgärden **Dimensionskorrigering**. 
 
 2. I fältet **Beskrivning**, ange information om ändringen. Andra personer kan använda den här informationen senare för att förstå vad som gjordes.
 3. Välj snabbfliken **Valda transaktioner**, välj relevanta transaktioner.
 
-> [!IMPORTANT]
-> När du ändrar en markering återställs värdena på snabbfliken **Ändringar av dimensionskorrigering**. Markera därför alltid transaktionerna innan du anger ändringar av dimensionsvärde.
+    > [!IMPORTANT]
+    > När du ändrar en markering återställs värdena på snabbfliken **Ändringar av dimensionskorrigering**. Markera därför alltid transaktionerna innan du anger ändringar av dimensionsvärde.
 
    Alternativen beskrivs i tabellen nedan.
 
@@ -83,43 +88,41 @@ Du kan manuellt välja en eller flera redovisningstransaktioner eller använda f
 6. Välj **Kör**.
 
 ### <a name="validating-dimension-corrections"></a>Validera dimensionskorrigeringar
+
 Innan du kör en korrigering är det en bra idé att validera den först. Valideringen söker efter begränsningar för värdebokföring för redovisningskontona, begränsningar för dimensioner och om dimensionsvärdena är blockerade. Under valideringen anges statusen för korrigeringen till **Validering i process**. När du har validerat en korrigering visas resultatet i fältet **Valideringsstatus**. Om fel hittades kan du använda åtgärden **Visa fel** för att undersöka dem. När du har korrigerat ett fel måste du använda åtgärden **Öppna igen** för att köra korrigeringen eller en ny validering.
 
 Du kan antingen köra en korrigering omedelbart eller schemalägga den så att den körs en senare gång. Om du kör korrigeringar på en stor datauppsättning rekommenderar vi att du schemalägger den så att den körs utanför arbetstid. Mer information finns i [Dimensionskorrigeringar på stora datauppsättningar](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
 ### <a name="undoing-a-correction"></a>Ångra en korrigering
+
 När du har korrigerat en dimension kan du använda åtgärden **Ångra** om du inte gillar det du ser för att återställa föregående värde. Du kan dock bara ångra den senaste korrigeringen. Innan du ångrar en korrigering kan du validera de ändringar som ångra kommer att göra. Detta är till exempel användbart om dimensionsbegränsningarna har ändrats efter korrigeringen.
 
 Om Ångra-åtgärden inte är tillgänglig, till exempel för att du har gjort många korrigeringar, kan du använda åtgärden **Kopiera till utkast** för att starta en ny korrigering för samma poster.
 
 ### <a name="dimension-corrections-on-large-data-sets"></a>Dimensionskorrigeringar på stora datauppsättningar
+
 Var försiktig när du korrigerar stora uppsättningar poster, till exempel uppsättningar som innehåller mer än 10 000 poster. Om du kan rekommenderar vi att du använder filtren för att köra korrigeringarna på mindre datauppsättningar. Det är också en bra idé att köra korrigeringar utanför de normala öppettiderna. 
 
 ### <a name="using-analysis-views-with-dimension-corrections"></a>Använda analysvyer med dimensionskorrigeringar
+
 Om **Uppdatera vid bokföring** är aktiverat för en analysvy, [!INCLUDE[prod_short](includes/prod_short.md)] kan visa när dokument och tidskrifter publiceras. Du kan också uppdatera vyer med den här inställningen aktiverad med resultat av dimensionskorrigeringar. Det gör du genom att aktivera växlingsknappen **Uppdatera analysvyer**. Uppdatering av analysvyer kan påverka prestanda, särskilt för stora datauppsättningar, så vi rekommenderar att du uppdaterar analysvyer endast för små datauppsättningar.  
 
 ### <a name="viewing-historical-dimension-corrections"></a>Visa historiska dimensionskorrigeringar
+
 Om en redovisningstransaktion har korrigerats kan du undersöka ändringen med hjälp av åtgärden **Historik för dimensionskorrigeringar**.
 
 ### <a name="handling-incomplete-corrections"></a>Hantera ofullständiga korrigeringar
+
 Om en korrigering inte slutförs visas en varning på korrigeringskortet. Om detta inträffar kan du använda åtgärden **Återställning** för att återställa korrigeringen till ett utkast till status och ångra ändringarna. Du kan sedan köra korrigeringen igen.
 
 > [!NOTE]
 > Återställning av en ofullständig korrigering påverkar inte uppdateringar av analysvyer eftersom de sker i slutet av korrigeringsprocessen.
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Använda Kostnadsredovisning med korrigerade redovisningstransaktioner
-När du har korrigerat dimensioner kommer dina data för kostnadsredovisning inte att vara synkroniserade. Kostnadsredovisning använder dimensioner för att aggregera belopp för kostnadsställen och kostnadsbärare och för att köra kostnadsallokeringar. Om du ändrar dimensioner för redovisningstransaktioner innebär det förmodligen att du kör dina kostnadsredovisningsmodeller igen. Om du bara behöver ta bort några kostnadsregister och köra allokeringar igen, eller om du behöver ta bort allt och köra alla dina modeller igen beror på vilka data som har uppdaterats och hur dina kostnadsredovisningsfunktioner har konfigurerats. Att identifiera var dimensionskorrigeringar kommer att påverka kostnadsredovisningen och var uppdateringar behövs är en manuell process. [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller för närvarande inte ett automatiserat sätt att göra det.
 
-## <a name="correcting-number-assignments-for-global-dimensions"></a>Rätta antal tilldelningar för globala dimensioner
-I tabellen dimensions uppsättnings transaktion tilldelas globala dimensioner **0** i fältet Genvägsdimension nr. fält och genvägsdimensioner tilldelas deras genvägsdimensionsnummer, som kan vara 1 till 8. I vissa rapporter används dessa nummer tilldelningar för att bestämma vilka värden som ska användas i beräkningarna.
-
-När dimensionsvärden importeras med hjälp av konfigurationspaket som har skapats utan att köra valideringsutlösare, eller genom att använda anpassad kod för att anropa metoderna Infoga eller Ändra utan att köra valideringsutlösare för OnInsert eller OnModify, tilldelas ibland genvägsdimensioner ett tal som inte är 0. När detta inträffar kommer beräkningarna att vara felaktiga för dimensioner i återkommande redovisningsjournaler som använder återkommande BD-saldo efter konto eller BD-saldo med återkommande metoder. 
-
-Om ett felaktigt nummer tilldelas, när du försöker lägga upp eller förhandsgranska tidskrifter på sidan **Återkommande redovisningsjournaler**, sidan **Felmeddelanden** visas. På sidan Felmeddelanden kan du välja länken i fältet **Källa** för att köra en rapport som korrigerar tilldelningar av genvägsdimensionsnummer i tabellen Dimensionsuppsättningspost. Du kan också söka efter **Uppdatera globalt dimensionsnummer för dimensionsuppsättningstransaktioner** för köra rapporten.
-
-När du har kört rapporten kan du på sidan **Ändra loggposter** granska de ändringar som gjorts i numret i det globala dimensionsnr. . [!INCLUDE[prod_short](includes/prod_short.md)] alltid registrerar tidigare och nya värden. 
+När du har korrigerat dimensioner kommer dina data för kostnadsredovisning inte att vara synkroniserade. Kostnadsredovisning använder dimensioner för att aggregera belopp för kostnadsställen och kostnadsbärare och för att köra kostnadsallokeringar. Om du ändrar dimensioner för redovisningstransaktioner innebär det förmodligen att du kör dina kostnadsredovisningsmodeller igen. Om du bara behöver ta bort några kostnadsregister och köra allokeringar igen, eller om du behöver ta bort allt och köra alla dina modeller igen beror på vilka data som har uppdaterats och hur dina kostnadsredovisningsfunktioner har konfigurerats. Du miste manuellt identifiera var dimensionskorrigeringar kommer att påverka kostnadsredovisningen och var uppdateringar behövs. [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller för närvarande inte ett automatiserat sätt att göra det.
 
 ## <a name="see-also"></a>Se även
-[Översikt över dimensionsuppsättningsposter](design-details-dimension-set-entries-overview.md)
-[Arbetar med dimensioner](finance-dimensions.md)
-[Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)
+
+[Arbeta med dimensioner](finance-dimensions.md)
+[analysera data per dimension](bi-how-analyze-data-dimension.md)  

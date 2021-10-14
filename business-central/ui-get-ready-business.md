@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444826"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589138"
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
 
@@ -32,7 +32,7 @@ Du kan också hitta listan med guider för assisterad konfiguration om du välje
 
 ## <a name="get-started"></a>Kom igång
 
-Från och med 2021 års utgivningscykel 1, när du loggar in för första gången eller startar ett nytt företag tar checklistan **Kom igång** dig igenom stegen för att göra dig redo för affärer. Stegen varierar beroende på ditt land och alla branschspecifika funktioner som du har lagt till i din [!INCLUDE [prod_short](includes/prod_short.md)].  
+När du loggar in för första gången eller startar ett nytt företag tar checklistan **Kom igång** dig igenom stegen för att göra dig redo för affärer. Stegen varierar beroende på ditt land och alla branschspecifika funktioner som du har lagt till i din [!INCLUDE [prod_short](includes/prod_short.md)]. Från och med 2021 utgivningscykel 2 är startsidan för första gången optimerad när du loggar in på CRONUS demonstrationsföretaget. Om du vill visa fler länkar till fler sidor måste du bara växla till chefsrollen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
 När du har migrerat data som till exempel kunder, leverantörer och artiklar från ditt befintliga ekonomiska system, är du klar att starta. Men beroende på dina behov kan du ta hjälp av andra assisterade konfigurationsguide på listan.
 
@@ -43,7 +43,7 @@ Om ett område inte omfattas av en assisterad konfiguration väljer du ikonen ![
 >
 > Första gången du loggar in, använder du **Essential**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
-När du har kört en assisterade konfigurationsguider, väljs den som **slutfört**. <!--VERIFY-->  
+När du har kört en assisterade konfigurationsguider, väljs den som **slutfört**.  
 
 ## <a name="teaching-tips-and-tours"></a>Undervisningstips och turer
 
@@ -80,13 +80,18 @@ När användare skapas i Microsoft 365 kan de importeras till sidan **Användare
 
 ## <a name="next-steps"></a>Gå vidare
 
-Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäljningar eller inköpsdokument. Använd avsnittet **Åtgärder** på ditt startsida för att snabbt skapa en ny förs.offert, försäljningsfaktura, försäljningsorder, inköpsfaktura eller utbetalningregistrering.
+Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäljningar eller inköpsdokument. Använd avsnittet **Åtgärder** på ditt startsida för att snabbt skapa en ny förs.offert, försäljningsfaktura, försäljningsorder, inköpsfaktura eller utbetalningregistrering. Ta en titt på artiklarna i [snabbstart](quick-start-business-central.md) så att du kan gå igenom de första stegen.  
 
 ## <a name="see-also"></a>Se även
 
+[Snabbstart för Business Central](quick-start-business-central.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Ändra grundinställningar](ui-change-basic-settings.md)  
+[Hjälpmedel och kortkommandon](ui-accessibility.md)  
+[Utvärderingsversioner och prenumerationer](across-preview.md)  
+[Affärsfunktion](across-business-functionality.md)  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer](across-preview.md)  
+[Sök i Hjälp-fönstret](product-help-and-support.md#search-in-the-help-pane)  
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Microsoft Learn webbplats](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

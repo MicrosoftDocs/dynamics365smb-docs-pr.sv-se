@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446471"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587511"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central- och Microsoft Teams-integrering
 
@@ -51,6 +51,14 @@ När du har gått igenom konversationen kan du och dina medarbetare visa mer inf
 
 Mer information finns i [Dela poster i Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Dela länkar från sidor i Business Central till Teams
+
+Direkt från de flesta samlings-och informations sidor i Business Central kan du använda åtgärden **dela till Teams** från ![Ikonen Dela meny på sidorna](media/share-icon.png "Menyn Dela visas på ett kort."). Ikon för att skriva ett meddelande, välja mottagare, till exempel gruppmedlemmar, grupper eller kanaler, och skicka meddelandet med en länk till Business Central-sidan.
+
+![Menyn Dela visas på ett kort.](media/teams-share-link.png "Menyn Dela visas på ett kort.")
+
+Mer information finns i [Dela poster och sidlänkar i Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Kom igång
 
 1. Ett [!INCLUDE [prod_short](includes/prod_short.md)] online användarkonto krävs för [!INCLUDE [prod_short](includes/prod_short.md)]-app för Teams.
@@ -62,7 +70,7 @@ Mer information finns i [Dela poster i Microsoft Teams](across-working-with-team
 
 2. Som administratör, se [Hantera Microsoft Teams-integrering med Business Central](admin-teams-integration.md) för att få information om hur du gör det möjligt för användare att arbeta med [!INCLUDE [prod_short](includes/prod_short.md)] och Teams.
 3. Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen in Team. Se [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md).
-4. När du har installerat appen är du klar att sätta igång. Se [Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams](across-search-contacts-teams.md) och [Dela poster i Microsoft Teams](across-working-with-teams.md). 
+4. När du har installerat appen är du klar att sätta igång. Se [Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams](across-search-contacts-teams.md) och [Dela poster i Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Se även
 

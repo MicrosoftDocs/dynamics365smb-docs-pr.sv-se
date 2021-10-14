@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 921eb4cc054ee61ffac543b68f19097927c511e1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4ec0aba869d2a171e12c42822ecf1726ed4ac81e
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442116"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587921"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
@@ -40,8 +40,9 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
     - Det går att ta bort kopplingar från mer än en transaktion åt gången i kopplingsformuläret. Det går däremot inte att skapa en koppling för mer än en transaktion åt gången, eftersom kopplingen påverkar uppsättningen transaktioner som kan kopplas.
     - I följande fall kan ingen koppling utföras i kopplingsformuläret: Om det inte finns tillräckligt med antal i lager för kopplingen, utförs ingen koppling i kopplingsformuläret när användaren försöker att koppla en transaktion för en lagerminskning utan artikelspårningsinformation till en transaktion för en lagerökning med artikelspårningsinformation.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Ta bort en artikelkoppling med hjälp av kopplingsformulär  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Ta bort en artikelkoppling med hjälp av kopplingsformulär
+
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Ange filter på Snabbfliken **Allmänt** för att göra det enklare att hitta den artikeltransaktion för vilken kopplingen ska ändras.  
 4.  Välj aktuell artikeltransaktion och klicka på åtgärden **Kopplade transaktioner**. Sidan **Visa kopplade transaktioner – Kopplade transaktioner** öppnas och visar de artikeltransaktioner som för närvarande är kopplade till den valda transaktionen.  
@@ -54,10 +55,11 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 > [!IMPORTANT]  
 >  Du bör inte lämna bortkopplade kopplingstransaktioner för längre perioder, eftersom andra användare inte kan behandla de aktuella artiklarna förrän du kopplar om kopplingstransaktionerna eller stänger sidan **Kopplingsformulär**. Följande felmeddelande visas om du försöker att utföra åtgärder som omfattar en manuellt bortkopplad transaktion:  
 >   
->  **Det går inte att utföra åtgärden eftersom kopplingar för transaktionerna för artikel <item> har tagits bort i Kopplingsformuläret av användaren <user>.**  
+>  **Det går inte att utföra åtgärden eftersom kopplingar för transaktionerna för artikel \<item\> har tagits bort i Kopplingsformuläret av användaren \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret
+
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Om du vill koppla om transaktioner som togs bort sedan förslaget öppnades markerar du den artikeltransaktionspost som du vill koppla om, och väljer sedan åtgärden **Omkoppla**.  
 
@@ -72,7 +74,8 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
     >  Om du valt att göra en koppling utan att veta om att kopplingen medför att en oändlig loop skapas i kostnadsjusteringsprocessen utförs inte kopplingen du föreslagit. Det här kan ske när de ursprungliga transaktionerna har genererat ett negativt lager. Kopplingen utförs inte. Därför måste du välja en annan transaktion för kopplingen.  
 6.  Om fältet **Automatisk kostnadsjustering** har värdet **Alltid** i **Lagerinställningar**, körs batch-jobbet för kostnadsjustering automatiskt i programmet när en omkoppling har gjorts. Kör annars batch-jobbet **Justera kost. – artikeltrans** för att säkerställa att samtliga kostnader är aktuella.  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Behandla inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   

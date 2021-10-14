@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 05/19/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341514"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587871"
 ---
 # <a name="teams-faq"></a>Vanliga frågor och Svar om Teams
 
@@ -146,7 +146,11 @@ På Microsoft lyssnar vi ständigt på feedback från våra olika användargrupp
 
 Om du vill delta i att förbättra appen för Teams, eller har en idé som skulle förenkla arbetet eller samarbetsupplevelsen i Teams, kan du lägga till en idé eller rösta på befintliga idéer på [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## <a name="searching-for-contacts"></a>[Söka efter kontakter](#tab/contacts)
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Var kan jag hitta Teams-integrering i Business Central-webbklienten? 
+
+För funktionalitet i webbklienten som länkar till Teams, se [Dela poster och sidlänkar i Microsoft Teams](across-working-with-teams.md#share-link).
+
+## <a name="search-for-contacts"></a>[Söka efter kontakter](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Vilka tabeller söker programmet?
 
@@ -240,7 +244,7 @@ Det går inte att söka i andra tabeller just nu. [!INCLUDE [prod_short.md](incl
 
 Om du vill se sökfunktionerna för att ta med andra tabeller, uppmuntrar vi communityn att lägga till en idé eller rösta på befintliga idéer på https://aka.ms/BusinessCentralIdeas.
 
-## <a name="working-with-cards"></a>[Arbeta med kort](#tab/cards)
+## <a name="work-with-cards"></a>[Arbeta med kort](#tab/cards)
 
 ### <a name="which-types-of-links-does-the-app-support"></a>Vilka typer av länkar har appen stöd för?
 
@@ -273,7 +277,7 @@ När du skriver och skickar ett meddelande till chatten som innehåller ett kort
 
 Om du arbetar i olika [!INCLUDE [prod_short.md](includes/prod_short.md)]-företag kan du prata med administratören om hur du aktiverar en företagsbricka för respektive företag. När den här iögonfallande ledtråden är aktiverad visas den i alla informationsfönster i Teams, och visar det företag och den miljö som posten tillhör. Mer information om hur du konfigurerar företagsbrickor finns i [Så här visar du en företagsbricka för snabb åtkomst till företagsinformation](ui-change-basic-settings.md#badge).
 
-## <a name="working-with-card-details"></a>[Arbeta med kortinformation](#tab/carddetails)
+## <a name="work-with-card-details"></a>[Arbeta med kortinformation](#tab/carddetails)
 
 ### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Var finns knappen Spara i informationsfönstret Teams?
 
@@ -303,7 +307,7 @@ Ja. Alla [!INCLUDE [prod_short.md](includes/prod_short.md)]-funktioner i informa
 
 Om du använder funktioner i [!INCLUDE [prod_short.md](includes/prod_short.md)] som har tillgång till dina aktuella platskoordinater, till exempel kartor, måste du använda Teams i webbläsaren eller mobilappen för Teams. Platsen är inte tillgänglig när du använder den stationära Teams-appen. 
 
-## <a name="collaborating-with-guests"></a>[Samarbeta med gäster ](#tab/collaborating)
+## <a name="collaborate-with-guests"></a>[Samarbeta med gäster](#tab/collaborating)
 
 ### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Kan jag dela kort med användare utanför organisationen?
 
@@ -319,8 +323,37 @@ Information om andra likheter och skillnader mellan gäster och gruppmedlemmar f
 
 Gäster har inte åtkomst till app-marknaden för egen installation av appar. Appen kan emellertid installeras automatiskt för dem enligt organisationens policyer. Ett annat sätt för en gästanvändare att installera [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen är när de tar emot ett chattmeddelande som innehåller ett [!INCLUDE [prod_short.md](includes/prod_short.md)]-kort. I det här fallet väljer användaren knappen **Detaljer** eller menyn på kortet och installerar sedan [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen så att den kan användas i din organisation. När du har installerat appen får användaren ingen automatisk behörighet att hämta data från din [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
+## <a name="share-to-teams"></a>[Dela till Teams](#tab/share)
 
+### <a name="does-share-to-teams-send-a-compact-card"></a>Skickar delning till Teams ett kompakt kort? 
+
+Just då delas endast en djup länk till sidan. En hyperlänk visas i meddelandet som du kan välja att ta med dem [!INCLUDE [prod_short.md](includes/prod_short.md)] i ett separat webbläsarfönster. 
+
+### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Kan mottagarna ta emot meddelandet från mig eller från ett konto för Business Central-tjänsten? 
+
+När du använder dela till Teams skickas meddelandet till en person, grupp eller kanal, på samma sätt som när du själv har skickat meddelandet Microsoft Teams. Mottagarna ser meddelandet från dig på deras prioriterade arbets grupps klient och kan reagera och reagera på samma sätt som om de normalt sett är ett meddelande från dig. 
+
+### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Är delar till Teams som finns tillgängliga i Business Central lokal? 
+
+Nr På samma sätt som i [!INCLUDE [prod_short.md](includes/prod_short.md)] appen för Teams kan den här funktionen bara användas för webbklienten i [!INCLUDE [prod_short.md](includes/prod_short.md)] onlineläge. Det finns inga planer på att stödja [!INCLUDE [prod_short.md](includes/prod_short.md)]-distributionstyper &mdash;t. ex. lokalt, hybridmoln eller privatmoln&mdash;som inte Microsoft är värd för eller hanterar direkt.
+
+### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Tilldelar Teams arbetsgrupper behörigheter till mottagare? 
+
+Nr När du delar med en person, grupp eller kanal påverkas inte behörigheterna. Användare som redan har behörighet att visa sidan och data som är riktade av länken kan göra det. Användare som inte har behörighet att visa sidor och data, eller inte har någon [!INCLUDE [prod_short.md](includes/prod_short.md)] licens, visas ett felmeddelande. 
+ 
+### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Måste jag ha Teams skrivbordsapp installerad för att kunna använda Dela till Teams? 
+
+Nr Allt du behöver är ett giltigt konto som har åtkomst till Microsoft Teams. 
+
+### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Är delar till Teams som finns tillgängliga i alla Business Central-klienter? 
+
+I det här läget är Dela till Teams tillgängligt enbart på skrivbord webbklienten och i informationsfönstret i Teams.  
+
+### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Var hittar jag dela till Teams i Business Central? 
+
+**Dela till Teams åtgärd** finns i **Dela** på alla sidor, till exempel kort- och dokumentsidor, list- eller kalkylbladssidor, inklusive anpassade sidor. Åtgärden är inte tillgänglig i dialogrutor eller sidor som visas som dialogrutor, till exempel uppslagssidor eller guider.
+
+---
 ## <a name="see-also"></a>Se även
 
 [Integreringsöversikt för [!INCLUDE [prod_short](includes/prod_short.md)] och Microsoft Teams](across-teams-overview.md)  

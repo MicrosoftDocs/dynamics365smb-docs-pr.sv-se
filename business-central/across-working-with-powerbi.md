@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444049"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588332"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -78,7 +78,7 @@ Mer information om hur du skapar rapporter för listasidor finns i [Skapa Power 
 
 En Power BI-del på en sida kan visa valfri Power BI-rapport som gjort tillgänglig för dig. Om du vill växla till en annan rapport väljer du åtgärden **Välj rapport** i kommandolistrutan högst upp i delen.  
 
-Sidan **Power BI-rapporturval** visar en lista över samtliga Power BI-rapporter som du har åtkomst till. Den här listan hämtas från Power BI arbetsytan. Markera rutan **Aktivera** för samtliga rapporter som du vill visa på sidan, och välj sedan **OK**. Du återgår då till sidan och den senast aktiverade rapporten visas. I kommandolistrutan använder du kommandona **Föregående** och **Nästa** för att navigera mellan olika rapporter.  
+Sidan **Power BI-rapporturval** visar en lista över samtliga Power BI-rapporter som du har åtkomst till. Listan hämtas från alla egna arbetsytor eller arbetsytor som har delats med dig i Power BI-tjänsten. Markera rutan **Aktivera** för samtliga rapporter som du vill visa på sidan, och välj sedan **OK**. Du återgår då till sidan och den senast aktiverade rapporten visas. I kommandolistrutan använder du kommandona **Föregående** och **Nästa** för att navigera mellan olika rapporter.  
 
 ### <a name="get-more-reports"></a>Få fler rapporter
 

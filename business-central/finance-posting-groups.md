@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783515"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588813"
 ---
 # <a name="setting-up-posting-groups"></a>Ställa in bokföringsmallar
 Bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. De sparar tid och undviker fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
@@ -75,8 +75,16 @@ Inställningen avgör när bokföring sker. När är exempelvis timing påverkas
 ## <a name="copying-posting-setup-lines"></a>Kopiera bokföringsinställningsrader
 Ju fler produkt- och rörelsebokföringsmallar du har desto fler rader ser du på sidan Bokföringsinställningar. Detta kan innebära att många inmatningar måste göras för att lägga upp bokföringsinställningar för företaget. Det kan finnas många olika kombinationer av rörelse- och produktbokföringsmallar, men olika kombinationer kan fortfarande bokföras till samma redovisningskonton. Om du vill begränsa andelen manuell inmatning kopierar du redovisningskontona från en befintlig rad på sidan **Generella bokföringsinställningar**.
 
+## <a name="troubleshooting-posting-group-errors"></a>Felsökning av bokföringsgruppfel
+Bokföringsmallar är ett av de mer avancerade koncepten som du ställer in i [!INCLUDE[prod_short](includes/prod_short.md)]. Om de inte är korrekt konfigurerade kan fel uppstå vid bokföring av dokument eller journalrader. Dessa fel orsakas exempelvis vanligen av ett misstag i hur redovisningskonton tilldelas eller hur bokföringsmallar kombineras.
+
+Om något är fel visar [!INCLUDE[prod_short](includes/prod_short.md)] sidan **felmeddelanden**. På sidan **felmeddelanden** kan det bli enklare att identifiera och lösa problemet. Sidan ger en beskrivning av felet som pekar ut bokföringsgruppinställningarna som behöver åtgärdas. Meddelandet kan t.ex. "förskottsbet. konto för försäljning saknar en bokföringsinställning". Det finns också en länk för att öppna sidan som är orsaken till problemet, så att du snabbt kan lösa det.  
+
+> [!NOTE]
+> Fel hanteringen som beskrivs ovan är inte tillgänglig för artikel-, resurs-, personal- och anläggningstillgångsjournaler eller för redovisningskonton som lagts till i lokala versioner av bokföringsmallar.
+
 ## <a name="see-also"></a>Se även
-[Redovisningen och kontoplanen](finance-general-ledger.md)  
+[Huvudbok och kontolista](finance-general-ledger.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

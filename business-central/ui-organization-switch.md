@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445928"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606391"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Byta till ett annat företag eller annan miljö
 
@@ -23,12 +23,17 @@ ms.locfileid: "6445928"
 
 ## <a name="switch-to-another-environment"></a>Växla till en annan miljö
 
-När du har loggat in på [!INCLUDE[prod_short](includes/prod_short.md)] visas de miljöer som du har åtkomst till på startsidan för Dynamics 365. Du kan öppna sidan genom att välja ikonen **programmarstartbild** ![programmarstartbild.](media/app-launcher-icon.png "Programmarstartbild ger till gång till fler funktioner") och välja **Dynamics 365**. Välj panelen för att gå till standardföretaget i den aktuella miljön. Det kommer att finnas en panel för varje typ av miljö. Om du har mer än en miljö av en viss typ kan du välja miljön när du väljer den panel du vill använda.
+När du har loggat in på [!INCLUDE[prod_short](includes/prod_short.md)] visas de miljöer som du har åtkomst till på startsidan för Office.com. 
 
-I följande bild visas paneler för åtkomst till produktionsmiljöer och miljöer med begränsat läge på startsidan Dynamics 365.
+1. Välj ikonen **startprogram** ![startprogram.](media/app-launcher-icon.png "Programmarstartbild ger till gång till fler funktioner").
+2. Om en app inte visas för [!INCLUDE[prod_short](includes/prod_short.md)] i rutan som öppnas väljer du **Office 365**. Ange sedan **Business Central** i rutan **Sök** eller välj **Alla appar** > **Affärsappar**.   
+3. En [!INCLUDE[prod_short](includes/prod_short.md)] app anges för varje typ av miljö, som produktion och sandbox. Om du vill växla till en annan miljö väljer du [!INCLUDE[prod_short](includes/prod_short.md)] appen för miljötypen. Om du har mer än en miljö av en viss typ kan du välja miljön när du väljer den panel du vill använda.
 
-:::image type="content" source="media/app-picker-environments.png" alt-text="Startsidan för Dynamics 365 visar produktionsmiljöer och miljöer med begränsat läge.":::
+<!--
+The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
+:::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
+-->
 ## <a name="switch-to-another-company"></a>Växla till ett annat företag
 
 När du är inloggad i [!INCLUDE[prod_short](includes/prod_short.md)] kan du snabbt byta till ett annat företag. När du har gjort växeln blir det företag du väljer som standardföretag och visas nästa gång du loggar in.

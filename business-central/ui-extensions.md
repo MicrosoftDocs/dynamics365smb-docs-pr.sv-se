@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440509"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587790"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Anpassa Business Central Online med hjälp av tillägg
 
@@ -53,32 +53,6 @@ Om du avinstallerar tillägget och du sedan ändrar dig kan du installera det p�
 
 Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företag](ui-extensions-other.md). Alla tillägg testas innan de görs tillgängliga för dig, men vi rekommenderar att du öppnar länkarna som tillhandahålls med varje tillägg om du vill veta mer om tillägget innan du väljer att installera det.  
 
-Microsoft ger även följande tillägg:  
-
-* [AMC Banking 365 Fundamentals-tillägg](ui-extensions-amc-banking.md)
-* [Ceridian löner](ui-extensions-ceridian-payroll.md)
-* [Företagsnav](ui-extensions-company-hub.md)  
-* [Dynamics GP Datamigrering](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)
-* [Image Analyzer](ui-extensions-image-analyzer.md)
-* [Intelligent moln](ui-extensions-data-replication.md)
-* [Intelligent molnbas](ui-extensions-intelligent-cloud.md)  
-* [Prediktioner om sen betalning](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)
-* [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md)
-* [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)
-* [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)
-* [Momsgrupp](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK – C5 datamigrering](ui-extensions-c5-data-migration.md)
-* [DK – Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK – momsfilformat](ui-extensions-tax-file-formats-dk.md)
-* [Tillägget GetAddress.io för postnummer i Storbritannien ](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > Du kan hålla utkik efter nya tillägg från Microsoft och andra leverantörer på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
@@ -102,6 +76,12 @@ Detta gäller även vissa funktioner i basprogrammet, till exempel följande fun
 * OCR-tjänst
 * Online Map
 * EU:s momsregistreringsnummer Service
+
+## <a name="recommended-apps"></a>Rekommenderade appar
+Microsofts partner och återförsäljare kan skapa ett tillägg som de kan använda för att sammanställa listor över appar som de ofta rekommenderar till sina kunder. Om de gör det och har distribuerat tillägget till din klientorganisation kommer programmen att vara tillgängliga på sidan **rekommenderade appar**. Där kan du läsa om varje app och bestämma om du ska installera dem.
+
+> [!NOTE]
+> Om du är Microsoft-partner eller återförsäljare och vill tillhandahålla en lista över rekommenderade appar, se [rekommendationer för appar från AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## <a name="see-also"></a>Se även
 

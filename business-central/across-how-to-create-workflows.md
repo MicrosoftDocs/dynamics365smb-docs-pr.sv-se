@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438413"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588232"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Skapa arbetsflöden för att koppla affärsprocessuppgifter
 
@@ -133,7 +133,7 @@ I följande exempel görs ett nytt arbetsflöde för att godkänna ändringar av
     2. I fältet **på villkor** väljer du ordet **alltid** och på sidan **Händelsevillkor** lägg till **Lägg till ett villkor för när ett fältvärde ändras** och markerar sedan fältet *namn*.  
 
       Resultatet av det här steget är att villkoret läses som *namn ändras*.  
-    3. I fältet **Sedan svar**, välj länken **Välj svar** och sedan på sidan **Arbetsflödessvar** i fältet **Välj svar**, välj *Återställ värdet för fältet <Field> på posten och spara ändringar* och sedan i avsnittet **Alternativ för valda svar** anger du fältet *Namn*.  
+    3. I fältet **Sedan svar**, välj länken **Välj svar** och sedan på sidan **Arbetsflödessvar** i fältet **Välj svar**, välj *Återställ värdet för fältet \<Field\> på posten och spara ändringar* och sedan i avsnittet **Alternativ för valda svar** anger du fältet *Namn*.  
     4. Välj länken **Lägg till fler svar** och lägg till en post för *skapa en godkännandebegäran för posten med hjälp av typen god kännare <%1> och <%2>.* svar.  
     5. I avsnittet **alternativ för det valda svar** för det nya svaret ändrar du fältet **godkännartyp** till *Arbetsflödesanvändargrupp* och anger sedan relevant användargrupp i fältet **Arbetsflödesanvändargrupp**.  
 

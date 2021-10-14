@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440372"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588988"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 
@@ -26,23 +26,16 @@ Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskod
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Lägga till nya kunder
+Du kan lägga till nya kunder manuellt, genom att fylla i fälten på sidan för **kundkort** eller använda mallar som innehåller fördefinierad information. Du kan t.ex. skapa mallar för olika typer av kundprofiler. När du använder mallar sparar du tid när du lägger till nya kunder och ser till att informationen är korrekt varje gång. Om du skapar mallar för fler än en typ av kund kan du välja vilken mall du vill använda när du lägger till en kund . Om du bara skapar en mall kommer den att användas för alla nya kunder. När du har skapat en mall kan du använda åtgärden **tillämpa mall** för att tillämpa den på en eller flera valda kunden. Om du vill skapa en mall fyller du i den information som du vill använda på kundkortsidan och sparar den som en mall. Mer information finns i [För att spara sidan kundkort som en mall](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-För att registrera en ny kund måste du fylla i ett kundkort. Du kan upprätta mallar för olika kundprofiler eller lägga till kunder utan mallar. Du kan också skapa en kund från en kontakt. Mer information finns i [Att skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Det kan vara användbart att anpassa sidan för **kundmall** när du skapar en mall. Du kanske till exempel vill lägga till fältet **Kreditgräns** i en mall. Mer information finns i [Anpassa din arbetsyta](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Om kundmallar finns för olika kundtyper, visas en sida när du skapar ett nytt kundkort där du kan välja en lämplig mall. Om endast en kundmall finns, då använder nya kundkort alltid den mallen.  
+Du kan också skapa en kund från en kontakt. Mer information finns i [Att skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>SÅ här skapar du ett nytt kundkort
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
-2. På sidan **Kunder** väljer du åtgärden **Ny**.
-
-    Om endast en kundmall finns, då öppnas ett nytt kundkort med fält ifyllda med information från mallen.
-
-    Om fler än en kundmall finns, öppnas en sida där du kan välja kundmall. I detta fall, följ nästa två steg.
-3. Välj den mall som du vill använda för det nya kundkortet på sidan **Välj en mall för en ny kund**.
-4. Välj **OK**. Ett nytt kundkort öppnas med ifyllda fält med information från mallen.  
-5. Fortsätt att fylla i eller ändra fält på kundkortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Åtgärden **Priser och rabatter** har alternativ för att hantera specialpriser eller rabatter för kunden när en order uppfyller vissa kriterier. Kriterier kan vara när de köper en viss artikel, beställer en minsta kvantitet eller köper före ett visst datum, till exempel när en kampanj avslutas. Mer information finns i [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -76,7 +69,7 @@ Du kan välja att inte ha varningar som talar om för dig att kundens kreditlimi
 
 ### <a name="to-specify-credit-limit-warnings"></a>Så här anger du varningar om kreditlimit
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
 
 2. På snabbfliken **Allmänt**, i fältet **Kreditvarningar**, väljer du relevant alternativ enligt beskrivet i följande tabell:
 

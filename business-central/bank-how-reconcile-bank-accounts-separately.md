@@ -1,7 +1,7 @@
 ---
 title: Stämma av bankkonton
-description: Detta beskriver hur man gör bankavstämning med sidan **Bankkontoavstämning** hur ditt lagervärde förenas med huvudboken.
-author: SorenGP
+description: Det här ämnet beskriver hur du förenar transaktionerna på dina interna bankkonton med transaktionerna i kontoutdrag från din bank.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.author: bholtorf
+ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435426"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587815"
 ---
 # <a name="reconcile-bank-accounts"></a>Stämma av bankkonton
 
@@ -77,31 +77,44 @@ Rutan **Kontoutdragsrader** fylls i enligt fakturorna i [!INCLUDE[prod_short](in
 1. På sidan **Bankkontoavstämning** väljer du åtgärden **Föreslå rader**.
 2. Ange det tidigaste bokföringsdatumet för transaktionsavstämningen i fältet **Startdatum**.
 3. Ange det senaste bokföringsdatumet för transaktionsavstämningen i fältet **Slutdatum**.
-4. Om du vill att föreslå checktransaktion istället för bankkontotransaktioner markerar du kryssrutan **Ta med checkar**.
-5. Välj **OK**.
+
+> [!NOTE]
+> Normalt motsvarar slutdatum det datum som har angetts i fältet **Kontoutdragets datum**. Om du däremot vill stämma av transaktionerna för endast en del av en period kan du ange ett annat slutdatum. 
+
+1. Om du vill att föreslå checktransaktion istället för bankkontotransaktioner markerar du kryssrutan **Ta med checkar**.
+1. Välj **OK**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Så här matchar du automatiskt kontoutdragrader med bankkontotransaktioner
 
 Sidan **Bankkontoavstämning** erbjuder automatiskt matchande funktioner baserade på en textmatchning på en kontoutdragsrad (vänster ruta) med text på en eller flera redovisningstransaktioner för bankkontot (höger ruta). Observera att du kan skriva över de föreslagna automatiska matchningarna, och du kan också välja att inte använda automatisk matchning alls. För mer information, se [Så här matchar du kontoutdragrader med bankkontotransaktioner manuellt](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
+Automatisk matchning matchar poster baserat på en uppsättning betalningsprogramregler. Mer information finns i [Konfigurera regler för automatiska betalningskopplingar](receivables-how-set-up-payment-application-rules.md). Du kan undersöka basen för matchningar med hjälp av åtgärden **matcha detaljer**. Informationen innehåller t.ex. namnen på de fält som innehöll matchande värden.  
+
 1. På sidan **Bankkontoavstämning** väljer du åtgärden **Matcha automatiskt**. Sidan **Matcha banktransaktioner** öppnas.
 2. Ange antalet dagar före och efter bankkontotransaktionbokföringsdatumet som funktionen ska söka i för att matcha bokföringsdatum i bankkontoutdraget i fältet **Bokföringsdatumtolerans (dagar)**.
 
-    Om du anger 0 eller lämnar fältet tomt kommer funktionen **Matcha automatiskt** endast söka efter matchande bokföringsdatum på bankkontotransaktionbokföringsdatumet.
+    Om du anger 0 eller lämnar fältet tomt kommer åtgärden **Matcha automatiskt** endast söka efter matchande bokföringsdatum på bankkontotransaktionbokföringsdatumet.
 3. Välj **OK**.
 
     Alla kontoutdragrader och bankkontotransaktioner som kan matchas ändrar till grönt teckensnitt och **Kopplat** kryssrutan markeras.
 4. Markera kontoutdragraden och välj sedan åtgärden **Ta bort matchning**.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Så här matchar du manuellt bankutdragsrader med bankkontotransaktioner
+> [!TIP]
+> Du kan använda en blandning av manuell och automatisk matchning. Om du har manuellt matchade transaktioner skrivs inte dina val över med automatisk matchning. 
 
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Så här matchar du manuellt bankutdragsrader med bankkontotransaktioner
 1. På sidan **Bankkontoavstämning** markerar du en okopplad rad i rutan **Kontoutdragrader**.
 2. I rutan **Bankkontotransaktioner** markerar du en eller flera bankkontotransaktioner som kan matchas med den valda kontoutdragraden. Om du vill välja flera rader, tryck och håll ned CTRL-tangenten.
+
+   > [!TIP]
+   > Du kan också matcha flera bankutdragsrader manuellt med en bankkontotransaktion. Det kan till exempel vara användbart om bankinsättningen innehöll flera betalningsmetoder, t.ex. kreditkort från olika utfärdare och din bank visar dem som separata rader. 
 3. Välj åtgärden **Matcha manuellt**.
 
     Den valda kontoutdragraden och de valda bankkontotransaktionerna ändrar till grönt teckensnitt och **Kopplat** kryssrutan i det högra fönstret markeras.
 4. Upprepa moment 1 till och med 3 för alla kontoutdragrader som inte matchas.
-5. Markera kontoutdragraden och välj sedan åtgärden **Ta bort matchning**.
+
+> [!TIP]
+> Markera kontoutdragraden och välj sedan åtgärden **Ta bort matchning**. Om du har matchat flera bankutdragsrader till en transaktion och behöver ta bort en eller flera av de matchade raderna, tas alla manuella matchningar bort för transaktionen när du väljer **ta bort matchning**. 
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Så här skapar du saknade transaktioner att matcha med banktransaktioner
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443723"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547029"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 
@@ -158,6 +158,9 @@ I alla fält av typen de fem åtkomst **läsbehörighet**, **infoga behörighet*
 |**Ja**|Användaren kan utföra åtgärden på det aktuella objektet.|Högsta|
 |**Indirekt**|Användaren kan utföra åtgärden på det aktuella objektet, men endast via ett annat relaterat objekt som användaren har fullständig åtkomst till. Mer information om indirekta behörigheter finns i [Behörighetsegenskap](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i Hjälp för utvecklare och IT-proffs|Andra högsta|
 |**Tomt**|Användaren kan inte utföra åtgärden på det aktuella objektet.|Lägsta|
+
+> [!IMPORTANT]
+> Var försiktig när du tilldelar **infoga behörighet** eller **ändra behörighet** till **9001 användargruppmedlem** eller **9003 behörighetsuppsättning för användargrupp**. Alla användare som tilldelats behörighetsgruppen kan eventuellt tilldela sig själva till andra användargrupper, som i sin tur kan ge dem oavsiktliga behörigheter.
 
 ### <a name="example---indirect-permission"></a>Exempel – Indirekt behörighet
 

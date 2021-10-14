@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446396"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588707"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappa register och fält som ska synkroniseras
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -49,6 +49,8 @@ Att mappa register är bara det första steget. Du måste också mappa fälten i
 
 > [!Note]
 > Om du använder en lokal version av [!INCLUDE[prod_short](includes/prod_short.md)] definieras mappningar av integreringsfält i register 5336 Mappning av integreringsfält.
+
+Du kan mappa fälten manuellt, eller så kan du automatisera den genom att mappa flera fält på samma gång baserat på villkor som matchar deras värden. Mer information finns i [så här tar du flera poster baserat på fältvärdematchning](admin-how-to-couple-and-synchronize-records-manually.md).
 
 ### <a name="handling-differences-in-field-values"></a>Hantera skillnader i fältvärden
 Ibland är värdena i de fält som du vill mappa olika. I [!INCLUDE[crm_md](includes/crm_md.md)] är exempelvis språkkoden för USA "U.S.", men i [!INCLUDE[prod_short](includes/prod_short.md)] är den "US." Detta innebär att du måste omvandla värdet när du synkroniserar data. Detta sker genom omvandlingsregler som du definierar för fälten. Du definierar omvandlingsregler på sidan **Registermappningar för integrering** genom att välja **Mappning** och sedan **Fält**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. Mer information finns i [Omvandlingsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

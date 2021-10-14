@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325819"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588382"
 ---
 # <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
 Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
 
-I standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] används ramverket för dataintegrering i funktioner, till exempel elektroniska dokument, import/export av bankfiler och valutakursuppdateringar. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
+I standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)], används ramverket för dataintegrering i processer som utbyte av elektroniska dokument, import och export av bankfiler och uppdatering av valutakurser för valutor. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
 
-Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ställa in vilka data som ska utbytas och hur. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
+Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ange vilka data som ska utbytas och hur. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 

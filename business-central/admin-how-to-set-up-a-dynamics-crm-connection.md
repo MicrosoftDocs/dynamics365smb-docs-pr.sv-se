@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440547"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587765"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Anpassa matchningsbaserad koppling
+
+Från och med 2021 utgivningscykel 2 kan du skriva poster i [!INCLUDE [prod_short](includes/prod_short.md)] och [!INCLUDE [cds_long_md](includes/cds_long_md.md)] baserat på matchande kriterier som definierats av administratören.  
+
+Algoritmen för matchande poster kan startas från följande platser i [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* Lista sidor som visar poster som är synkroniserade med [!INCLUDE [cds_long_md](includes/cds_long_md.md)], till exempel sidorna kunder och artiklar.  
+
+    Markera flera poster och välj sedan åtgärden **relaterad**, välj **Dataverse**, välj **koppling** och sedan **Matchbaserad koppling**.
+
+    När den matchande kopplingsmetoden startas från en huvuddatalista schemaläggs ett kopplingsjobb direkt efter att du har valt kopplingskriteriet.  
+* Sidan **Dataverse Fullständig synk.granskning**.  
+
+    När hela synkroniseringsprocessen upptäcker att du har frikopplade poster båda i [!INCLUDE [prod_short](includes/prod_short.md)] och i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], en länk **Välj kopplingskriterier** visas för relevant integrationstabell.  
+
+    Du kan starta processen **Kör fullständig synkronisering** från sidorna **Dataverse Anslutningsinställningar** och **Dynamics 365 anslutningsinställning** och det kan initieras som ett steg i **Upprätta en anslutning till Dataverse** assisterad konfigurationsguide när du väljer att slutföra installationen och köra full synkronisering i slutet.   
+
+    När den matchande kopplingsmetoden startas från sidan **Dataverse Fullständig synk.granskning** schemaläggs ett kopplingsjobb direkt efter att du har slutfört konfigurationen.  
+* Listan **integreringstabellens mappningslista** list.  
+
+    Välj en mappning, välj åtgärden **koppling** och välj sedan **Matchningsbaserad koppling**.
+
+    När metoden matchningskoppling startas från en mappning för integrationstabellen, kommer ett kopplingsjobb att köras för alla icke-raderade poster i mappningen. Om den kördes för en uppsättning med valda poster från listan, körs den bara för de transaktioner som har valts.
+
+I alla tre fallen öppnas sidan **Välj kopplingsvillkor** så att du kan definiera relevanta kopplingskriterier. Anpassa kopplingarna med följande uppgifter på den här sidan:
+
+* Välj vilka fält som ska matcha [!INCLUDE [prod_short](includes/prod_short.md)] poster och [!INCLUDE [cds_long_md](includes/cds_long_md.md)] entiteter efter, och ange även om matchningen i fältet ska vara skiftlägeskänsliga eller inte.  
+
+* Ange om du vill köra en synkronisering efter kopplingsposter och, om posten använder dubbelriktad mappning, även välja vad som ska hända om konflikter visas på sidan **Lös uppdateringskonflikter**.  
+
+* Prioritera ordningen som posterna genomsöks i genom att ange en *matchningsprioritet* för relevanta mappningsfält. Matchningsprioriteterna gör att algoritmen söker efter en matchning i ett antal iterationer som definieras av värdena i fältet **Matcha prioritet** i stigande ordning. Ett tomt värde i fältet **Matcha prioritet** som prioritet 0, så fält med denna värdefyllning behandlas först.  
+
+* Ange om du vill skapa en ny entitetsinstansen i [!INCLUDE [cds_long_md](includes/cds_long_md.md)] om det inte går att hitta någon icke unik ej kopplad matchning med hjälp av matchningsvillkoret. Om du vill aktivera funktionen väljer du åtgärden **Skapa ny om det inte går att hitta någon matchning**.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Visa resultatet av kopplingsjobbet
+
+Om du vill visa resultatet av kopplings jobbet öppnar du sidan **Registermappningar för integrering**, väljer lämplig mappning, väljer **kopplingsåtgärd** och väljer sedan åtgärden **Logg över integrationskopplingsjobb**.  
+
+Om det finns några poster som inte är kopplade till varandra kan du gå ned i värdet i kolumnen misslyckad, så öppnas en lista över fel som specificerar varför posterna inte kan kopplas.  
+
+Misslyckad koppling inträffar ofta i följande fall:
+
+* Inga matchningsvillkor har definierats
+
+    Kör i så fall matchningsbaserad kopplingen igen, men tänk på att definiera kopplingskriterier.
+
+* Ingen matchning hittades för ett antal poster, baserat på valda matchande fält
+
+    Upprepa i så fall kopplingarna med andra matchande fält.
+
+* Flera matchningar hittades för ett antal poster, baserat på valda matchande fält  
+
+    Upprepa i så fall kopplingarna med andra matchande fält.
+
+* En enskild matchning hittades, men motsvarande post är redan kopplad till en annan post i [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    Upprepa i så fall kopplingarna med andra matchande fält eller undersök varför [!INCLUDE [cds_long_md](includes/cds_long_md.md)] entiteten är kopplad till den andra posten i [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> För att hjälpa dig att få en överblick över kopplingens framsteg, **Kopplad till Dataverse** visar om en specifik post är kopplad till en [!INCLUDE [cds_long_md](includes/cds_long_md.md)] entitet eller inte. Du kan filtrera listan över poster som synkroniseras med [!INCLUDE [cds_long_md](includes/cds_long_md.md)] det här fältet.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Uppgradera anslutningar från Business Central Online till använda certifikatbaserad autentisering
 > [!NOTE]
-> Det här avsnittet är endast relevant för innehavaradministration i Business Central online som Microsoft har. Online innehavaradministratörer som körs av ISV och lokala installationer påverkas inte.
+> Det här avsnittet är endast relevant för innehavaradministration i [!INCLUDE[prod_short](includes/prod_short.md)] online som Microsoft har. Online innehavaradministratörer som körs av ISV och lokala installationer påverkas inte.
 
 I april, 2022, [!INCLUDE[cds_long_md](includes/cds_long_md.md)] är den Office365 autentiseringstypen (användarnamn/lösenord). Mer information finns i avsnittet [Avskrivning autentiseringstyp av Office 365](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Dessutom i mars 2022 avskriver [!INCLUDE[prod_short](includes/prod_short.md)] användning av klienthemlighetsbaserad tjänst-till-tjänst-autentisering för online-innehavare, och kräver att certifikatbaserad tjänst-till-tjänst-autentisering används för anslutningar till [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] onlineklienter som är värdbaserade hos internetföretag och lokala installationer kan fortsätta att använda klienthemlighet för autentisering vid anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

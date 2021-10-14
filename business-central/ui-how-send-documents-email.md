@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435250"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588457"
 ---
 # <a name="send-documents-and-emails"></a>Skicka dokument och e-post
 
-Du kan enkelt dela information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post direkt från [!INCLUDE[prod_short](includes/prod_short.md)]] utan att behöva öppna en e-postapp.  
+Du kan enkelt dela information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post direkt från [!INCLUDE[prod_short](includes/prod_short.md)] utan att behöva öppna en e-postapp.  
 
 Du kan skicka nästan alla typer av dokument som bifogade PDF-filer. Du kan också skapa en rapportlayout som innehåller information från dokumentet i e-postmeddelandets brödtext, tillsammans med text som gör e-postmeddelandet mer användarvänligt, till exempel en standardhälsning. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -32,8 +32,8 @@ Om du vill aktivera e-post i [!INCLUDE[prod_short](includes/prod_short.md)] star
 
 Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura till ett e-postmeddelande som en PDF-fil, samt med och med dokumentspecifik e-posttext. <!--update this-->
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.
-2. Markera fakturan och välj sedan åtgärden **Skriv ut/Skicka**.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.
+2. Markera fakturan och välj åtgärden **Skriv ut/Skicka** och välj **Skicka**.
 3. I fältet **E-post** väljer du **Ja (fråga efter inställningar)**. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
     
     Om fältet **E-post** på sidan **Skicka dokument till** anges som **Ja (fråga efter inställningar)**, öppnas sidan **Skicka e-post** med kontaktpersonen förifylld i fältet **Till:** och dokumentet bifogat som en PDF-fil. I fältet **brödtext** kan du antingen skriva in en text manuellt, eller också kan du fylla i fältet med en dokumentspecifik e-postbrödtext som du har ställt in.
@@ -51,9 +51,10 @@ Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura t
 > Om du inte vill ange e-postinställningar varje gång du e-postar ett dokument, kan du välja alternativet **Ja (använd standardinställningar)** i fältet **E-post** på sidan **Skicka dokument till**. I så fall kommer inte sidan **Skicka e-post** att öppnas. Se steg 4. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Skriva och skicka ett e-postmeddelande
+Du kan snabbt skapa e-postmeddelanden för kontakter, kunder, leverantörer, säljare/inköpare och bankkonton direkt från sidorna i dessa entiteter. Välj bara **processer** och skicka sedan **e-post** för att öppna e-postredigeraren. För bankkonton finns åtgärden **skicka e-post** under **åtgärder**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **E-postkonton** och väljer sedan relaterad länk.
-2. Välj det konto som du vill skicka e-postmeddelandet från och välj sedan åtgärden **Skriv e-post**.
+> [!TIP]
+> Om du ofta skickar e-postmeddelanden som är snarlika eller vill skicka en masskommunikation, t.ex. att annonsera en försäljningskampanj, kan du använda Word-mallar med e-post för att påskynda arbetet. Du kan skapa en mall för en entitet, till exempel kunder, leverantörer och kontakter, som ska generera innehållet i ett e-postmeddelande åt dig och till och med anpassa innehållet för mottagaren baserat på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [använda Word-mallar för masskommunikation](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokument markerade som utskrivna ut när de skickas
 

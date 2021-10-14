@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445382"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587690"
 ---
 # <a name="register-new-vendors"></a>Registrera nya leverantörer
 
@@ -32,32 +32,31 @@ Leverantörskort innehåller den information som behövs för att köpa produkte
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Lägga till nya leverantörer
+Du kan lägga till nya leverantörer manuellt, genom att fylla i fälten på sidan för **leverantörskortet** eller använda mallar som innehåller fördefinierad information. Du kan t.ex. skapa mallar för olika typer av leverantörsprofiler. När du använder mallar sparar du tid när du lägger till nya leverantörer och ser till att informationen är korrekt varje gång. Om du skapar mallar för fler än en typ av leverantör kan du välja vilken mall du vill använda när du lägger till en leverantör. Om du bara skapar en mall kommer den att användas för alla nya leverantörer. När du har skapat en mall kan du använda åtgärden **tillämpa mall** för att tillämpa den på en eller flera valda leverantörer. Om du vill skapa en mall fyller du i den information som du vill använda på leverantörskortsidan och sparar den som en mall. Mer information finns i [För att spara sidan Leverantörskort som en mall](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-För att registrera en ny leverantör måste du fylla i ett leverantörskort. Du kan upprätta mallar för olika leverantörsprofiler eller lägga till leverantör utan mallar. Du kan också skapa en leverantör från en kontakt. Mer information finns i [Att skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Det kan vara användbart att anpassa sidan för **leverantörsmall** när du skapar en mall. Du kanske till exempel vill lägga till ett fält som inte redan visas på sidan. Mer information finns i [Anpassa din arbetsyta](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Om leverantörsmallar finns för olika leverantörstyper, visas en sida när du skapar ett nytt leverantörskort där du kan välja en lämplig mall. Om endast en leverantörsmall finns, då använder nya leverantörskort alltid den mallen.  
+Du kan också skapa en leverantör från en kontakt. Mer information finns i [Att skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### <a name="to-create-a-new-vendor-card"></a>Skapa ett nytt leverantörskort.
+### <a name="to-create-a-new-vendor"></a>Skapa en ny leverantör
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.  
-2. På sidan **Leverantörer** väljer du **Ny**.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    Om fler än en leverantörsmall finns, öppnas en sida där du kan välja leverantörsmall. I detta fall, följ nästa två steg.
-    1. Välj den mall som du vill använda för den nya leverantörskortet på sidan **Välj en mall för en ny leverantör**.
-    2. Välj **OK**. Ett nytt leverantörskort öppnas med några ifyllda fält med information från mallen.
-3. Fortsätt att fylla i eller ändra fält på leverantörskortet vid behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > Om du inte vet vilken faktureringsadress som ska användas för respektive faktura från en leverantör fyller du inte i fältet **Leverantörsnr.**. Välj i stället betalningsleverantörens nummer när du har skapat en inköpsoffert, order eller ett inköpshuvud.
+> [!TIP]  
+> Om du inte vet vilken faktureringsadress som ska användas för respektive faktura från en leverantör fyller du inte i fältet **Leverantörsnr.**. Välj i stället betalningsleverantörens nummer när du har skapat en inköpsoffert, order eller ett inköpshuvud.
 
 Leverantören är nu registrerad, och leverantörskortet är klart att användas i inköpsdokument.
 
 Om du vill använda detta leverantörskort som en mall när du skapar nya leverantörskort, så fortsätt med att spara den som en leverantörsmall. Mer information finns i avsnittet [Så här sparar du leverantörskortet som en mall](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-vendor-cards"></a>Ta bort leverantörskort
+### <a name="deleting-and-editing-vendor-information"></a>Ta bort och redigera leverantörsinformation
 
-Om du har bokfört en transaktion för en leverantör kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort leverantörskort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.
+Du kan när som helst redigera informationen på leverantörskort. Om du har bokfört en transaktion för en leverantör kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort leverantörskort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.
+
+> [!TIP]
+> Du kan ändra IBAN på ett leverantörsbankkonto utan den ändring som påverkar de historiska kreditöverföring journalposterna. Kreditöverföringsjournaler lagrar mottagarens IBAN, Mottagarens bankkontonummer som har angetts i fälten leverantörsbankkonto och mottagarnamn på leverantörskortsidan när transaktionerna skapades.
+
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Om du vill spara leverantörskortet som en mall
 

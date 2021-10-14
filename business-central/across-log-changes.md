@@ -10,20 +10,21 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770969"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606445"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revision av ändringar i Business Central
 En vanlig utmaning i många affärshanteringsprogram är att undvika oönskade ändringar i data. Det kan vara allt från ett felaktigt kundtelefonnummer till en felaktig bokföring i redovisningen. I det här avsnittet beskrivs möjligheterna att ta reda på vad som har förändrats, vem som ändrat det och när ändringen gjordes.
 
 ## <a name="about-the-change-log"></a>Om ändringsloggen 
-Med ändringsloggen kan du spåra alla direkta ändringar som användare gör av data i databasen. Du måste ange vad du vill att systemet ska logga för varje tabell och fält och därefter måste du aktivera ändringsloggen.  
+Med ändringsloggen kan du spåra alla direkta ändringar som användare gör av data i databasen. Du anger vad du vill att systemet ska logga för varje tabell och fält och därefter måste du aktivera ändringsloggen.  
 
-Spårningsändringarna kan påverka prestanda, vilket kan ta tid och öka databasens storlek, vilket kostar pengar. För att minska dessa kostnader bör du tänka på följande:
+Spårningsändringarna kan påverka prestanda, vilket kan ta tid och öka databasens storlek, vilket kostar pengar. För att minska dessa kostnader ha följande i åtanke:
+
 - Var noggrann när du väljer tabeller och åtgärder.
 - Lägg inte till transaktioner och bokförda dokument. Prioritera i stället systemfält som Skapades av och Skapades den.
 - Använd inte spårningstypen Alla fält. Välj i stället Vissa fält och spåra bara de viktigaste fälten.
@@ -32,15 +33,15 @@ Spårningsändringarna kan påverka prestanda, vilket kan ta tid och öka databa
 
 > [!Important]
 > Ändringar visas endast i **Poster i ändringslogg** när användarens session har startats om, vilket inträffar på följande sätt:
-<br />
+>
 > * Sessionen har upphört att gälla och har uppdaterats.
 > * Användaren valde ett annat företag eller rollcenter.
-> * Den användaren har loggat ut och in igen.
+> * Användaren loggade ut och loggade in igen.
 
 ### <a name="working-with-the-change-log"></a>Arbeta med ändringsloggen
 Du aktiverar och avaktiverar ändringsloggen på sidan **Ändringslogg inställning**. När en användare aktiverar eller inaktiverar ändringsloggen, loggas denna aktivitet så du kan alltid se vilken användare som har inaktiverat respektive återaktiverat ändringsloggen.
 
-På sidan **Ändringslogginställningar** om du väljer åtgärden **Tabeller** kan du ange vilka tabeller som du vill spåra ändringar för och vilka ändringar som ska spåras. [!INCLUDE[prod_short](includes/prod_short.md)] spårar även nummer av systemtabeller.
+På sidan **Ändringslogginställningar** om du väljer åtgärden **Tabeller** kan du ange vilka tabeller som du vill spåra ändringar för och vilka ändringar som ska spåras. [!INCLUDE[prod_short](includes/prod_short.md)] spårar också flera systemtabeller.
 
 > [!NOTE]
 > Du kan övervaka specifika fält för ändringar, till exempel fält som innehåller känslig information, genom att skapa fältövervakning. Om du gör undviks redundans genom att tabellen som innehåller fältet inte är tillgänglig för konfigurationen av ändringslogg. Mer information finns i [Övervaka känsliga fält](across-log-changes.md#monitoring-sensitive-fields).
@@ -62,6 +63,9 @@ Att hålla känslig information säker och privat är en grundläggande angeläg
 ### <a name="setting-up-field-monitoring"></a>Konfigurera fältövervakning
 Du kan använda guiden **Konfigurera övervakning av fältändringar** för assisterad konfiguration för att ange vilka fält du vill övervaka baserat på filterkriterier, till exempel klassificering av datakänslighet för fälten. Mer information finns i [Klassificera datakänslighet](admin-classifying-data-sensitivity.md). Med guiden kan du också ange vilken person som ska få ett e-postmeddelande när en ändring sker och vilket e-postkonto som ska användas för att skicka e-postmeddelandet. Du måste ange både användarmeddelandet och kontot som meddelandet ska skickas från. När du har slutfört guiden kan du hantera inställningarna för fältövervakning på sidan **Konfigurera fältövervakning**. 
 
+> [!NOTE]
+> När du anger vilket e-postkonto du vill skicka meddelanden från måste du lägga till antingen **Microsoft 365** eller **SMTP** kontotyper. Meddelanden ska skickas från ett konto som inte är associerat med en faktisk användare. Därför kan du inte välja **aktuell användare** kontotyp. Om du gör det kommer meddelandena inte att skickas. 
+
 Med tiden kommer listan över poster på sidan **Poster i loggen med övervakade fält** att växa. Om du vill minska antalet poster kan du skapa en bevarandeprincip som tar bort poster efter en viss tidsperiod. Mer information finns i [Definiera bevarandeprinciper](admin-data-retention-policies.md).
 
 När du ställer in fältövervakning, eller ändrar någonting i inställningarna, skapas poster för dina ändringar. Du kan ange om du vill visa poster som är relaterade till övervakningsinställningarna genom att visa eller dölja dem. 
@@ -73,7 +77,13 @@ Du kan hantera inställningar för fältövervakning, t. ex. om ett e-postmeddel
 
 ### <a name="working-with-field-monitoring"></a>Arbeta med fältövervakning
 
-Poster för alla ändrade värden för övervakade fält är tillgängliga på sidan **Poster i loggen med övervakade fält**. Exempelvis innehåller poster som t. ex. fältet som värdet ändrades för, det ursprungliga och det nya värdet och vem som gjorde ändringen och när de gjorde det. Om du vill granska en ändring ytterligare kan du välja ett värde för att öppna sidan där den gjordes. Om du vill se en lista över alla poster väljer du **Poster för fältändringar**.
+Poster för alla ändrade värden för övervakade fält är tillgängliga på sidan **Poster i loggen med övervakade fält**. Ange till exempel följande information:
+
+* Det fält som värdet ändrades för.
+* De ursprungliga och nya värdena.
+* Som gjorde ändringen och när de gjorde det. 
+
+Om du vill granska en ändring ytterligare kan du välja ett värde för att öppna sidan där den gjordes. Om du vill se en lista över alla poster väljer du **Poster för fältändringar**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Visa telemetri för fältövervakning 
 

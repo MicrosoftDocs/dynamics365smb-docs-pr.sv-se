@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fda901d7737d7818b7ebc965d9babf1f0868f1de
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322178"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587486"
 ---
 # <a name="business-process-walkthroughs"></a>Genomgång av affärsprocesser
 
@@ -24,7 +24,7 @@ Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utför
  Genomgångarna beskriver fullständiga scenarier som ska utföras från början till slut för att ge så stor nytta som möjligt. Många bygger på demonstrationer i [!INCLUDE[prod_short](includes/prod_short.md)] och där kan du prova på procedurerna själv, i din egen takt.  
 
 > [!NOTE]
-> Några av genomgångarna kräver exempeldata som inte är tillgänglig i det standarddemonstrationsföretaget i [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Några av genomgångarna kräver exempeldata som inte är tillgänglig i det standarddemonstrationsföretaget i [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
 
 |Till|Gå till|  
 |--------|---------|  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445532"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588532"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Använda profilfrågeformulär för att klassificera affärskontakter
 Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter om kontakternas profiler. I varje frågeformulär kan du skapa frågor som du vill ställa till kontakterna.  
@@ -49,114 +49,35 @@ Du kan klassificeras dina kontakter automatiskt efter kunder, leverantörer och 
 Om du tilldelar kontakter profilfrågeformulär, som innehåller de automatiskt besvarade profilfrågor som du har skapat, tilldelar [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt de rätta svaren för kontakterna.  
 
 ## <a name="example"></a>Exempel
+
 Du kan klassificera kontakterna efter hur mycket de har köpt från dig:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Svar</strong></th>
-<th><strong>Kopplas till</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>kontakter som har köpt för 500 000 SEK eller mer</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>kontakter som har köpt för 100 000 upp till 499 999 SEK</p></td>
-</tr>
-<tr class="odd">
-<td><p>S</p></td>
-<td><p>kontakter som har köpt för 99 999 SEK eller mindre</p></td>
-</tr>
-</tbody>
-</table>
+|Svar|Kopplas till|
+|--- |--- |
+|A|kontakter som har köpt för 500 000 SEK eller mer|
+|B|kontakter som har köpt för 100 000 upp till 499 999 SEK|
+|S|kontakter som har köpt för 99 999 SEK eller mindre|
 
 Det gör du genom att fylla i sidan **Profil frågeformulär inst.** så här:
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Radtyp</strong></th>
-<th><strong>Beskrivning</strong></th>
-<th><strong>Automatisk klassificering</strong></th>
-<th><strong>Från värde</strong></th>
-<th><strong>Till värde</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Fråga</p></td>
-<td><p>ABC-klassificering</p></td>
-<td><p>Klicka för att markera</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Svar</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500,000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Svar</p></td>
-<td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Svar</p></td>
-<td><p>S</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99.999</p></td>
-</tr>
-</tbody>
-</table>
+| Typ     | Beskrivning        | Automatisk klassificering     | Från värde | Till värde |
+|----------|--------------------|------------------------------|------------|----------|
+| Fråga | ABC-klassificering | Klicka för att markera |            |          |
+| Svar   | A                  |                              | 500,000    |          |
+| Svar   | B                  |                              | 100,000    | 499,999  |
+| Svar   | S                  |                              |            | 99.999   |
 
 Fyll sedan i sidan **Profilfrågedetaljer** så här:
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Fält</strong></th>
-<th><strong>Värde</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Kundklassificeringsfält</strong></td>
-<td><emphasis>Försäljning (BVA)</emphasis></td>
-</tr>
-<tr>
-<td><strong>Klassificeringsmetod</strong></td>
-<td><emphasis>Definierat värde</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Fält                         | Värde         |
+|-------------------------------|---------------|
+| Kundklassificeringsfält | Försäljning (BVA)   |
+| Klassificeringsmetod         | Definierat värde |
 
 När du tilldelar en kontakt profilfrågeformulär som innehåller denna fråga anges automatiskt relevant svar för kontakten på profilraderna på kontaktkortet.
 
 ## <a name="see-also"></a>Se även
+
 [Skapar kontakter](marketing-create-contact-companies.md)  
 
 

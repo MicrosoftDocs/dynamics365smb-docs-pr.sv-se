@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437222"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547054"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 
@@ -132,9 +132,6 @@ För detaljerade instruktioner om hur du installerar, se [Komma igång: Ställ i
     Med Universell utskrift återges innehåll som ska skrivas ut i XPS-format. Vissa äldre skrivare på marknaden stöder inte rendering av XPS-innehåll&mdash;i många fall endast PDF-format. Utskrift till dessa skrivare misslyckas om inte Universell utskrift är inställt för att konvertera dokument till det skrivarstödda formatet.
 
     Mer information finns i [Översikt över dokumentkonvertering](/universal-print/portal/document-conversion).
-
-    > [!TIP]
-    > Om ingen av dina skrivare behöver formatet PDF-innehåll rekommenderar vi att du inte aktiverar dokumentkonverteringen, eftersom det kan påverka utskriftskvaliteten.
 
 Nu kan du lägga till skrivarna till [!INCLUDE[prod_short](includes/prod_short.md)], konfigurerar standardskrivare för rapporter och skriva ut.  
 

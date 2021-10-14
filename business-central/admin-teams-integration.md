@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443212"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589088"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -37,8 +37,10 @@ I det här avsnittet beskrivs minimikraven för att [!INCLUDE [prod_short](inclu
     |----|---|---|
     |Söka efter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter|![bock.](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
     |Klistra in en länk till en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation och skicka den som ett kort.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
-    |Visa ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bock](media/check.png "kontroll")||
-    |Visa mer information för ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bockmarkering](media/check.png "kontroll")|![bockmarkering](media/check.png "kontroll")|
+    |Dela en länk från en sida i [!INCLUDE [prod_short](includes/prod_short.md)] till en Teams-konversation.|![bock](media/check.png "kontroll")|![bockmarkering](media/check.png "kontroll")|
+    |Visa ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bockmarkering](media/check.png "kontroll")||
+    |Visa mer information för ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
+    |Öppna en sid länk i [!INCLUDE [prod_short](includes/prod_short.md)] från en konversation.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
 
 - Tillåt förhandsgranskning av URL
 
@@ -68,7 +70,7 @@ Mer information finns i följande artiklar i Microsoft Teams-dokumentationen:
 - <a name="permissions"></a>Användarbehörigheter:
 
     Kontaktsökning, sidor och data som användare kan visa och redigera i en Team-konversation styrs oftast av deras behörighet i [!INCLUDE [prod_short](includes/prod_short.md)].
-    
+
     - Om användaren vill söka efter kontakter måste de ha minst läsbehörighet i tabellen **kontakter** . 
     - Om du vill klistra in en [!INCLUDE [prod_short](includes/prod_short.md)]-länk i en Team-konversation och låta den utökas till ett kort måste användarna åtminstone ha läsbehörighet på sidan och dess data.
     - När ett kort har skickats till en konversation kan alla användare i konversationen se det kortet utan behörighet till [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -77,11 +79,35 @@ Mer information finns i följande artiklar i Microsoft Teams-dokumentationen:
     
     Mer information om behörigheter finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
 
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installera Business Central-appen med hjälp av centraliserad distribution
+
+Microsoft Teams administratörscentret konfigurerar Teams principer för programinställningar för organisationen. I administrations centret för team kan du använda funktionen centraliserad distribution för att automatiskt installera Business Central-appen i Teams för alla användare i organisationen, specifika grupper eller enskilda användare.
+
+> [!NOTE]
+> För att kunna konfigurera centraliserad distribution måste ditt Teams-konto ha rollen **Teams-tjänstadministratör** eller rollen **global administratör**.
+
+1. I Business Central, välj ![Förstoringsglas som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"). ikonen, ange **Teams-app centraliserad distribution** och sedan väljer du relaterad länk. Du kan även klicka [här](https://businesscentral.dynamics.com/?page=1833) om du vill öppna sidan direkt.
+2. Läs informationen i **ställa in Business Central-appen för Teams** och välj sedan **Nästa** när du är klar.
+3. Öppna [administrationscentret Teams](https://go.microsoft.com/fwlink/?linkid=2163970) och utför följande steg.
+    1. Gå till **Teams-appar** > **inställningsprinciper**.
+    2. Skapa en ny princip eller välj den princip som du vill använda för att installera Business Central-appen och välj sedan **Lägg till program**.
+    3. På sidan **Lägg till installera** de appar söker du efter och väljer **Business Central**.
+    4. Välj **Lägg till**.
+
+       Business Central ska nu visas under **installerade appar** för principen.
+    5. Konfigurera ytterligare inställningar och välj **Spara**.
+
+    Mer information om inställningsprinciper i Teams finns i [Hantera principer för programkonfiguration i Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) i Teams-dokumentationen.
+4. Gå tillbaka till **Teams-app centraliserad distribution** i Business Central och välj **klar**.
+
+> [!IMPORTANT]
+> Det kan ta upp till 24 timmar innan appinställningsprincipen tillämpas och appen distribueras till användarna.
+
 ## <a name="managing-privacy-and-compliance"></a>Hantera sekretess och kompatibilitet 
 
 Microsoft Teams innehåller omfattande kontroller för kompatibilitet och hantering av känsliga eller personligt identifierbara data  &mdash; inklusive data som lagts till i chattar och kanaler av [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Förstå var [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagras 
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Förstå var [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagras
 
 När ett kort har skickats till en chatt kopieras kortet och de fält som visas på kortet till Teams. Denna information är underkastad Teams policyer för organisationen, till exempel policyer för bevarande av data. När kortinformation visas lagras ingen information i informationsfönstret i Teams. Informationen förblir lagrad i [!INCLUDE [prod_short](includes/prod_short.md)] och kommer bara att hämtas av Teams när användaren väljer att visa informationen. 
 

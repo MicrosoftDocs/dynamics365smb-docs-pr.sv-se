@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d94ecf2314e28dafbcf73a816446d6e3b929aedc
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947369"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588030"
 ---
 # <a name="available-fonts"></a>Tillgängliga teckensnitt
 
@@ -65,6 +65,6 @@ Mer information finns i avsnittet [Streckkodsteckensnitt med Business Central On
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Välj en kontrollayout](finance-how-define-check-layouts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Streckkodsteckensnitt med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+[Streckkodsteckensnitt med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

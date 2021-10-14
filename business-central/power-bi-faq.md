@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438758"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588005"
 ---
 # <a name="power-bi--faq"></a>Power BI Vanliga frågor och svar
 
@@ -129,12 +129,6 @@ Det här är andra sidor som innehåller den större, icke-filtrerade delen **Po
 Om du vill filtrera större datauppsättningar är det enklaste sättet att ange ett filter i Power BI-rapporten genom att direkt redigera Power Query-formeln. De flesta filter som du anger på det här sättet överförs till Business Central via frågevikning. Se [stegvis uppdatering för datauppsättningar](/power-bi/admin/service-premium-incremental-refresh).
 
 Det finns för närvarande inget sätt att ställa in ett filter för webbtjänstdata från Business Central. Om programmet måste definiera ett filter inom Business Central måste du skapa en anpassad Business Central-app för det här ändamålet.
-
-<!-- 8 and 9 -->
-
-### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>När du bäddar in rapporter på Business Central-sidor går det bara att hämta rapporter från *Min arbetsyta* i Power BI. Finns det några planer på att göra det möjligt att få dem från anpassade arbetsytor?
-
-Ja. Vi har planer på att lägga till stöd för delade arbetsytor, men det finns ännu ingen tidslinje tillgänglig.  
 
 <!-- 10 -->
 ### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Från Power BI, förutom att använda en fråga, finns det något annat sätt att hämta data från Business Central-tabeller som inte har en kopplad sida? Det kan till exempel vara tabellen *Mappning av värde på artikelattribut*.

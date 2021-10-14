@@ -1,5 +1,5 @@
 ---
-title: Arbeta med tidrapporter för projekt
+title: Använda tidrapporter för projekt
 description: Beskriver hur du skapar en tidrapport för ett projekt, kopierar rader till ordern, definierar arbetstyper, fyller i tidrapporten och skickar den för godkännande.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440647"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588838"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Använda tidrapporter för projekt
+# <a name="use-time-sheets-for-projects"></a>Använda tidrapporter för projekt
 
 Du använder batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal perioder eller veckor. Du måste ha behörighet för att kunna skapa tidrapporter.
 
@@ -25,9 +25,12 @@ Du kan kopiera och använda dina projektplaneringsrader i en tidrapport. På så
 
 När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i den aktuella projektjournalen eller resursjournalen.
 
-Innan du kan använda tidrapporter måste du ställa in allmän information och ange en administratör och en eller flera godkännare av tidrapporter. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
+Innan du kan använda tidrapporter måste du ställa in allmän information och ange en administratör och en eller flera godkännare av tidrapporter. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>Så här skapar du en tidrapport
+> [!TIP]
+> Från och med 2021 utgivningscykel 2 kan du hantera tilldelade tidsrapporter på en mobil enhet. Administratören måste emellertid kanske aktivera **funktionsuppdateringen: ny tidrapport** på sidan [funktionshantering](https://businesscentral.dynamics.com/?page=2610) om du vill använda den här funktionen. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>Så här skapar du tidrapporter
 
 Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal perioder eller veckor. Sedan kan tidrapportsägaren öppna den och registrera tid som har spenderats på en aktivitet.
 
