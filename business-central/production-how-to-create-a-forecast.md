@@ -1,6 +1,6 @@
 ---
 title: Så här skapar du en efterfrågeprognos
-description: Lära dig mer om prognosfunktionen i Business Central, och hur du kan skapa försäljnings- och produktionsprognoser.
+description: Lära dig mer om funktionen för efterfrågeprognos och hur du kan skapa försäljnings- och produktionsprognoser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438693"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643973"
 ---
 # <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
 Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.  
@@ -41,18 +41,17 @@ Du måste ange en prognos av typen *Försäljningsartikel*, *Komponent* eller *B
 ## <a name="component-forecast"></a>Komponentprognos  
 Komponentprognosen kan ses som en alternativ prognos med hänsyn till en överordnad artikel. Detta kan t. ex. vara användbart om planeraren kan uppskatta behovet av en komponent.  
 
-Komponentprognosen ska vara lika med eller mindre än det prognostiserade antalet försäljningsartiklar eftersom komponentprognosen är utformad för att definiera alternativ för en överordnad artikel. Om komponentprognosen är större än prognosen för försäljningsartikeln behandlas skillnaden mellan dessa två typer av prognoser som oberoende behov.  
+Eftersom komponentprognosen är utformad för att definiera alternativ för en överordnad artikel, bör komponentprognosen vara mindre än eller lika med försäljningsartikelns prognoskvantitet. Om komponentprognosen är större än prognosen för försäljningsartikeln behandlas skillnaden mellan dessa två typer av prognoser som oberoende behov.  
 
 ## <a name="forecasting-periods"></a>Prognosperioder  
- Prognosperioden är giltig från startdatumet fram till det datum då nästa prognos börjar. Det här tidsintervallet ger dig flera alternativ för att infoga behov på ett särskilt datum i en period. Du rekommenderas därför att inte ändra prognosperiodens omfattning om du inte vill flytta alla prognostransaktioner till startdatumet för den här perioden.  
+Prognosperioden är giltig från startdatumet fram till det datum då nästa prognos börjar. Det här tidsintervallet ger dig flera alternativ för att infoga behov på ett särskilt datum i en period. Du rekommenderas därför att inte ändra prognosperiodens omfattning om du inte vill flytta alla prognostransaktioner till startdatumet för den här perioden.  
 
 ## <a name="forecast-by-locations"></a>Prognos efter lagerställen  
-
-På sidan **Produktionsinställningar** kan anges hur du bör hantera de lagerställen som definieras i prognoser när du beräknar en plan. 
+På sidan **Produktionsinställningar** kan du ange om du vill beakta de platser som definieras i prognoser när du beräknar planer. 
 
 ### <a name="use-forecast-by-locations"></a>Använd prognos efter lagerställen
 
-Om du väljer fältet **Använd prognos efter lagerställe** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att följa de lagerställekoder som anges för respektive post för efterfrågeprognos och beräkna den återstående prognosen för respektive lagerställe.  
+Om du aktiverar växlingen **Använd prognos efter lagerställe** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att följa de lagerställekoder som anges för respektive post för efterfrågeprognos och beräkna den återstående prognosen för respektive lagerställe.  
 
 Överväg följande exempel: Ditt företag köper och säljer artiklar på två lagerställen: ÖST och VÄST. För båda lagerställen har du konfigurerat en omorganisationspolicy för parti-till-parti. Du skapar en prognos för de två lagerställena:
 
@@ -68,7 +67,7 @@ Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe V
 >  Om platsbaserade prognoser visas separat kanske den övergripande prognosen inte är representativ.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Använd inte prognos efter lagerställen
-Om du avaktiverar **Använd prognos efter plats** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att ignorera platskoder som anges för respektive behovsprognospost och samla prognoserna till en prognos för tomma platser.  
+Om du avaktiverar växlingen **Använd prognos efter plats** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att ignorera platskoder som anges för respektive behovsprognospost och samla prognoserna till en prognos för tomma platser.  
 
 Överväg följande exempel: Ditt företag köper och säljer artiklar på två lagerställen: ÖST och VÄST. För båda lagerställen har du konfigurerat en omorganisationspolicy för parti-till-parti. Du skapar en prognos för de två lagerställena:
 

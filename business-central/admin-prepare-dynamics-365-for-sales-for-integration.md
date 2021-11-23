@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482329"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651493"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrering med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -97,6 +97,9 @@ I följande tabell visas standardmappningen mellan tabeller i [!INCLUDE[prod_sho
 | Enhet | Enhetsgrupp | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Artikel | Produkt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales-kontaktfilter: **produkttyp** är **Sales-lager** |
 | Resurs | Produkt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales-kontaktfilter: **produkttyp** är **Tjänster** |
+| Artikelenhet | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Resursenhet | CRM UOM |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Enhetsgrupp | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Kund prisgrupp | Prislista | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Förs.pris | Produktprislista | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] kontaktfilter: **försäljningskod** är inte tom, **förs.typ** är **kundprisgrupp** |
 | Affärsmöjlighet | Affärsmöjlighet | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ I följande tabell visas standardmappningen mellan tabeller i [!INCLUDE[prod_sho
 | Försäljningsfakturarad | Fakturaprodukt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Rubrik för försäljningsorder | Reservationstransaktion | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Försäljningsrubrikfilter: **Dokumenttyp** är Order, **Status** är Frisläppt |
 | Försäljningsordermeddelanden | Försäljningsordermeddelanden | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> Mappningarna för tabellerna Objektmåttenhet, Resursmåttenhet och enhetsgrupp är endast tillgängliga om din administratör har aktiverat funktionsväxlingen **Funktionsuppdatering: Flera enheter av måttsynkronisering med Dynamics 365 Sales** på sidan **Funktionshantering**. Mer information finns i [Synkronisera artiklar och resurser med produkter i andra måttenheter](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synkronisera artiklar och resurser med produkter i andra måttenheter
+Företag producerar eller köper ofta artiklarna i en enhet och säljer dem sedan i en annan enhet. För att synkronisera objekt som använder flera måttenheter måste du aktivera funktionsväxlingen **Funktionsuppdatering: Flera enheter för måttsynkronisering med Dynamics 365 Sales** på sidan **funktionshantering**. 
+
+När du gör det skapas en ny enhetsgrupptabell som tilldelas varje artikel och resurs i [!INCLUDE[prod_short](includes/prod_short.md)]. Detta gör att du kan kartlägga tabellerna enhetsgrupp, artikelmåttenhet och resursmåttenhet i [!INCLUDE[prod_short](includes/prod_short.md)] till Dynamics 365 Sales enhetsgrupp <!--Need to verify this name--> I [!INCLUDE[crm_md](includes/crm_md.md)], som visas i följande bild.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Register mappningar för enhetsgrupper":::
+
+Du kan skapa flera måttenheter för varje enhetsgrupp och tilldela grupperna till produkter i [!INCLUDE[crm_md](includes/crm_md.md)]. Därefter kan du synkronisera produkterna med artiklar och resurser i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan manuellt koppla artikelenheter eller resursenheter med en enhetsgrupp. När du gör det och enhetsgruppen för artikeln eller resursen inte är kopplad till en enhetsgrupp i [!INCLUDE[crm_md](includes/crm_md.md)], till exempel eftersom enhets gruppen inte finns, [!INCLUDE[prod_short](includes/prod_short.md)] skapas enhetsgruppen automatiskt i [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Mappa artiklar och resurser till produkter
+När du aktiverar funktionsväxlingen **Funktionsuppdatering: Flera enheter för synkronisering med Dynamics 365 Sales** sker följande:
+
+* Nya mappningar skapas för artiklar och resurser.
+* Befintliga mappningar tas bort. <!--which mappings?-->
+* Vid en datauppgradering skapas enhetsgrupper för artiklar och resurser.
+
+Om du vill använda de nya mappningarna måste du synkronisera enhetsgrupper, artikelenheter och måttenheter. Du måste också synkronisera om artiklar och resurser. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] tillåter inte att du ändrar en enhetsgrupp mot en produkt. Därför måste du dra av produkterna och koppla loss artiklarna och resurserna och sedan synkronisera genom att skapa nya produkter i [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+Följande steg beskriver hur du börjar mappa enhetsgrupper:
+
+1. Kontrollera att produkter i [!INCLUDE[crm_md](includes/crm_md.md)] inte är kopplade till artiklar eller resurser i [!INCLUDE[prod_short](includes/prod_short.md)]. Om de är det går du till sidorna **Objekt** och/eller **Resurser**, använd filteralternativen för att välja de kopplade posterna och välj sedan åtgärden **Dynamics 365 Sales** och sedan **Koppla loss**. Detta schemalägger ett bakgrundsjobb för att koppla loss posterna. När jobbet körs kan du kontrollera dess status med hjälp av åtgärden för **synkroniseringsloggen**. Mer information finns i [Koppla och synkronisera](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Eftersom nya produkter kommer att skapas i [!INCLUDE[crm_md](includes/crm_md.md)] med nya enhetsgrupper gör du något av följande för att undvika dubblettnamn:
+    
+    * Byt namn på produkterna och ställ sedan av dem i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Ställa av produkter (Försäljningsnav)](/dynamics365/sales-enterprise/retire-product). Om du vill massredigera dina produkter i Microsoft Excel, logga in på Power Apps, välj din miljö, gå till tabellen **Produkt** och välj fliken **Data**. Rensa alla filter som tillämpas. I gruppen **Data**, välj åtgärden **Redigera data i Excel**. Lägg till ett prefix eller suffix för de tillkopplade produkterna och ställ sedan av dem.
+    * Ställ av produkterna och ta bort dem. 
+
+3. Utför följande steg för att synkronisera **enhetsgrupper**, **måttenheter**, **artiklar** och **resurser**:
+    1. I [!INCLUDE[prod_short](includes/prod_short.md)], öppna sidan **Dynamics 365 Sales anslutningsinställningar**
+    2. Använd åtgärden **kör fullständig synkronisering** för att öppna sidan **Dataverse Fullständig synk.granskning**.
+    3. För mappningarna **ARTIKELENHET**, **RESURSENHET** och **ENHETSGRUPP** väljer du åtgärden **Rekommendera fullständig synkronisering**.
+    4. Välj åtgärden **Synkronisera alla**.
+
+    > [!NOTE]
+    > För mappningar som ännu inte har synkroniserats helt synkroniseras dessa åtgärder helt och hållet. Ta bort mappningarna från sidan för att förhindra att mappningar synkroniseras. Detta innebär att de endast tas bort från den aktuella fullständiga synkroniseringen och att mappningarna inte tas bort.
+    
+5. Välj mappningen **ARTIKEL-PRODUKT** och sedan åtgärden **Starta om**. Detta skapar nya produkter från artiklarna i [!INCLUDE[crm_md](includes/crm_md.md)] och tilldelar en ny enhetsgrupp som är specifik för artikeln.
+6. Välj mappningen **RESURS-PRODUKT** och sedan åtgärden **Starta om**. Detta skapar nya produkter från resurserna i [!INCLUDE[crm_md](includes/crm_md.md)] och tilldelar en ny enhetsgrupp som är specifik för resurser.
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 

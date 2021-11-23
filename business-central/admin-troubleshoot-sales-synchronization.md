@@ -1,8 +1,6 @@
 ---
-title: Fel sökning av synkroniseringsfel | Microsoft Docs
+title: Felsöka synkroniseringsfel
 description: Det här avsnittet ger lite vägledning för att identifiera, felsöka och lösa synkroniseringsfel.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3ed35bc7d0d9db1cd609078372d98535703f6583
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b5e7b9c6cc6d7ac39b0067b723a5325ee9972c2e
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326519"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749017"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Felsöka synkroniseringsfel
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,37 +24,20 @@ Det finns många rörliga delar som används för att integrera [!INCLUDE[prod_s
 
 Fel inträffar ofta antingen på grund av något som en användare har gjort i fråga om kopplade poster, eller också är något fel med hur integreringen har upprättats. För fel som rör kopplade poster kan användare matcha dem själva. Dessa fel orsakas av åtgärder som att ta bort data i en - men inte båda - affärsappar och sedan synkronisera. För mer information, se [Visa status för en synkronisering](admin-how-to-view-synchronization-status.md).
 
-## <a name="example"></a>Exempel
-I det här videoklippet visas ett exempel på hur du felsöker fel som har uppstått vid synkronisering med [!INCLUDE[prod_short](includes/cds_long_md.md)]. Samma procedur kommer att användas för alla integreringar. 
+Fel som rör hur integreringen ställs in kräver vanligt vis en administratörs uppmärksamhet. Du kan visa dessa fel på sidan **Integreringssynkroniseringsfel**. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+Följande tabell innehåller exempel på vanliga problem:  
 
-Fel som rör hur integreringen ställs in kräver vanligt vis en administratörs uppmärksamhet. Du kan visa dessa fel på sidan **Integreringssynkroniseringsfel**. Exempel på typiska problem är:  
-  
-* De behörigheter och roller som tilldelats till användare är felaktiga.  
-* Administratörskontot har angetts som integreringsanvändare.  
-* Lösenordet för integreringsanvändaren ställs in att kräva en ändring när användaren loggar in.  
-* Valutakurserna för valutor har inte angetts i den ena eller den andra appen.  
-  
-Du måste lösa felen manuellt, men det finns ett par sätt på vilka sidan kan hjälpa dig. Som exempel:  
+|Problem  |Upplösning  |
+|---------|---------|
+|Behörigheterna och rollerna som tilldelats integrationsanvändaren är inte korrekta. | Felet kommer från [!INCLUDE[prod_short](includes/cds_long_md.md)] och innehåller ofta följande text: huvudanvändare (Id=\<user id>, typ=8) saknar \<privilegeName> privilegium. Det här felet inträffar på grund av att integrationsanvändaren saknar ett privilegium som tillåter åtkomst till en entitet. Vanligtvis inträffar det här felet om du synkroniserar anpassade entiteter, eller om du har installerat en app [!INCLUDE[prod_short](includes/cds_long_md.md)] som kräver åtkomst till andra [!INCLUDE[prod_short](includes/cds_long_md.md)] entiteter. Lös problemet genom att tilldela behörigheten till integrationsanvändaren i [!INCLUDE[prod_short](includes/cds_long_md.md)].<br><br> Integrationsanvändarens namn finns på sidan **Dataverse anslutningsinställningar**. I felmeddelandet finns namnet på behörigheten, som kan hjälpa dig identifiera den entitet som du behöver behörighet till. Om du vill lägga till saknad behörighet loggar du in på [!INCLUDE[prod_short](includes/cds_long_md.md)] med ett administratörskonto och redigerar den säkerhetsroll som har tilldelats integrationsanvändaren. Mer information finns i avsnittet [Skapa eller redigera en säkerhetsroll för att hantera åtkomst](/power-platform/admin/create-edit-security-role). |
+|Du kopplar en post som använder en annan post som inte är kopplad. Det kan till exempel vara en kund vars valuta inte är kopplad eller en artikel för vilken måttenheten inte är kopplad. | Du måste först koppla den beroende posten, t.ex. en valuta eller en måttenhet och sedan försöka göra om kopplingen. |
+
+Nedan finns några verktyg på sidan för att integrera synkroniseringsfel som kan hjälpa dig att lösa problemen manuellt.  
 
 * Fälten **Källa** och **Mål** kan innehålla länkar till den rad där felet hittades. Klicka på länken för att undersöka felet.  
 * Åtgärderna **Ta bort transaktioner som är äldre än 7 dagar** och **Ta alla transaktioner** rensar listan. Vanligtvis använder du dessa åtgärder när du har löst orsaken till ett fel som påverkar många poster. Var försiktig. De här åtgärderna kan ta bort fel som fortfarande är relevanta.
-
-Ibland kan tidsstämplar för poster orsaka konflikter. Tabellen "CDS-integreringspost" behåller tidsstämplarna "Senaste synkronisering ändrad den" och "Senaste synkronisering CDS ändrad den" för den senaste integreringen som gjordes i båda riktningarna för en rad. Dessa tidsstämplar jämförs med tidsstämplar på Business Central- och Sales-poster. I Business Central finns tidstämpeln i tabellen Integreringspost.
-
-Du kan filtrera efter poster som ska synkroniseras genom att jämföra radtidsstämplar för fälten "Synk. ändrad i filter" och "Synk. int. tabell" i tabellen "Registermappning för integrering". ändrad i filter".
-
-Konfliktfelmeddelandet "Det går inte att uppdatera kundposten eftersom den har ett senare ändringsdatum än kontoposten" eller "Det går inte att uppdatera kontoposten eftersom den har ett senare ändringsdatum än kundposten" kan inträffa om en rad har en tidstämpel som större än IntegreringTableMapping."Synk. ändrad i filter" men inte är senare än tidsstämpeln på försäljningsintegreringsposten. Det innebär att källraden har synkroniserats manuellt, inte av jobbkötransaktionen. 
-
-Konflikten beror på att målraden också har ändrats – radens tidsstämpel är senare än tidsstämpeln för försäljningsintegreringsposten. Målkontrollen sker bara för dubbelriktade tabeller. 
-
-De här posterna flyttas nu till sidan "Hoppade över Synkronisera poster" som du öppnar från sidan för Microsoft Dynamics-anslutningsinställningar i Business Central. Där kan du ange vilka ändringar som ska behållas och sedan synkronisera posterna igen.
-
-## <a name="remove-couplings-between-records"></a>Ta bort kopplingar mellan poster
-När något går fel i integrationen och du behöver ta bort kopplingen mellan poster för att sluta synkronisera dem, kan du göra det för en eller flera poster i taget. Du kan koppla bort en eller flera poster från listsidor eller sidan **Kopplade datasynkroniseringsfel** genom att välja en eller flera rader och välja **Radera koppling**. Du kan också ta bort alla kopplingar för en eller flera registermappningar på sidan **Mappningar för integrationstabeller**. 
-
-Om en entitet med enkelriktad koppling tas bort i [!INCLUDE[prod_short](includes/prod_short.md)] måste du ta bort den brutna kopplingen manuellt. Det gör du genom att gå till sidan **Synkroniseringsfel av kopplade data** och välja åtgärden **Sök efter borttagna** och sedan at bort kopplingarna.
+* Åtgärden **Visa anropsstack för fel** visar information som kan hjälpa till att identifiera orsaken till felet. Om du inte själv kan lösa problemet själv och du bestämmer dig för att skicka in ett supportärende, ska du ta med informationen i supportärendet.
 
 ## <a name="see-also"></a>Se även
 [Integrera med Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

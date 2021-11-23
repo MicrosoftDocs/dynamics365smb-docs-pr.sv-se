@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 91faf4a1adeb6b53ffd8dbca81d8ef72df90b97e
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588207"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724843"
 ---
 # <a name="welcome-to-prod_long"></a>Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -90,12 +90,7 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Få ett meddelande om ändringar via en RSS-feed
 
-Om du vill prenumerera på en RSS-feed (Really Simple Syndication) av alla uppdateringar som finns i innehållet på docs.microsoft.com i hela affärsfunktionsinnehållet för [!INCLUDE [prod_short](includes/prod_short.md)] använder du följande länk:
-
-[RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
-
-> [!NOTE]
-> RSS-feed returnerar en lista över de 100 artiklarna som senast uppdaterades. Listan sorteras inte efter datum.  
+[!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 

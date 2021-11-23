@@ -1,5 +1,5 @@
 ---
-title: Så här skapar du förskottsfakturor
+title: Skapa förskottsfakturor
 description: Hantera situationer där du eller din leverantör behöver förskottsbetalning. Använd standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442191"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701571"
 ---
 # <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 
 Om du kräver att dina kunder betalar innan du levererar en order till dem kan du använda funktionen för förskottsbetalning. Detsamma gäller om leverantören kräver att du betalar innan han/hon levererar en order till dig.  
 
-När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Om du har en standardprocentandel för förskottsbetalning för kunden eller leverantören tas den automatiskt med i den resulterande förskottsfakturan. Du kan också ange en procentandel för förskottsbetalning för hela dokumentet.
+När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Om du har en standard förskottsbetalningsprocent för en given artikel på beställningen, eller för kunden eller leverantören tas den automatiskt med i den resulterande förskottsfakturan. Du kan också ange en procentandel för förskottsbetalning för hela dokumentet.
 
 När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Du kan använda standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs. Till exempel, en totalsumma för hela ordern.  
 

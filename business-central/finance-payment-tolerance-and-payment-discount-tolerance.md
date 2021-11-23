@@ -1,5 +1,5 @@
 ---
-title: Betalningstolerans och kassarabattstolerans | Microsoft Docs
+title: Betalningstolerans och kassarabattstolerans
 description: Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: dce64c634fb0ca7ba4358f5cc47cb8b49596b6ed
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: eac371e873cc5b1d4a1927bccb8cee8d7e2f6e9f
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436229"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724743"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
 Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Betalningstoleranser används t. ex. vanligtvis för små belopp som skulle kosta mer för att korrigeras än att bara acceptera. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
@@ -96,23 +96,23 @@ Scenarier med alternativ A och B motsvarar dessa följande:
 - **A** I det här fallet har varningen för betalningstolerans (rabatt) kopplats från, eller så har användaren kopplat på varningen och valt att tillåta sen kassarabatt (Bokför saldo som betalningstolerans).  
 - **B** I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt (Lämna saldo som återstående belopp).  
 
-|—|Fakturering|Kassarabatt|Max bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet.|Toleranstyp|Alla poster stängda|Betal.tol.rabatt GL/CL|Bet. tol. Redovisning|  
+|—|Fakturering|Kassarabatt|Max. betalningstolerans|Kassarabattdatum|Datum för kassarabattstolerans|Betalningsdatum|Betalning|Toleranstyp|Alla poster stängda|Kassarabattstolerans GL/CL|Betalningstolerans GL/CL|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
-|1|1 000|20|5|03-01-15|03-01-20|<=03-01-15|985|Bet.tol.|Ja|0|-5|  
+|1|1 000|20|5|03-01-15|03-01-20|<=03-01-15|985|PaymentTolerance|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**03-01-15**|**03-01-20**|**<=03-01-15**|**980**|**Ingen**|**Ja**|**0**|**0**|  
-|3|1 000|20|5|03-01-15|c|<=03-01-15|975|Bet.tol.|Ja|0|5|  
-|4A|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|1005|Betal.tol.rabatt|Nej, 25 på Bet.|20/-20|0|  
-|5A|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|1000|Betal.tol.rabatt|Nej, 20 på Bet.|20/-20|0|  
-|6A|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|995|Betal.tol.rabatt|Nej, 15 på Bet.|20/-20|0|  
-|4B|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|1005|Bet.tol.|Ja|0|-5|  
+|3|1 000|20|5|03-01-15|a|<=03-01-15|975|PaymentTolerance|Ja|0|5|  
+|4A|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|1005|PaymentDiscountTolerance|Nej, 25 på betalningen|20/-20|0|  
+|5A|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|1000|PaymentDiscountTolerance|Nej, 20 på betalningen|20/-20|0|  
+|6A|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|995|PaymentDiscountTolerance|Nej, 15 på betalningen|20/-20|0|  
+|4B|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|1005|PaymentTolerance|Ja|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**03-01-15**|**03-01-20**|**03-01-16 03-01-20**|**1000**|**Ingen**|**Ja**|**0**|**0**|  
-|6B|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|995|Bet.tol.|Ja|0|5|  
-|7|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|985|Betal.tol.rabatt och Bet. tol.|Ja|20/-20|-5|  
-|8|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|980|Betal.tol.rabatt|Ja|20/-20|0|  
-|9|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|975|Betal.tol.rabatt och Bet. tol.|Ja|20/-20|5|  
-|10|1 000|20|5|03-01-15|03-01-20|>03-01-20|1005|Bet.tol.|Ja|0|-5|  
+|6B|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|995|PaymentTolerance|Ja|0|5|  
+|7|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|985|PaymentDiscountTolerance och PaymentTolerance|Ja|20/-20|-5|  
+|8|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|980|PaymentDiscountTolerance|Ja|20/-20|0|  
+|9|1 000|20|5|03-01-15|03-01-20|03-01-16 03-01-20|975|PaymentDiscountTolerance och PaymentTolerance|Ja|20/-20|5|  
+|10|1 000|20|5|03-01-15|03-01-20|>03-01-20|1005|PaymentTolerance|Ja|0|-5|  
 |**11**|**1,000**|**20**|**5**|**03-01-15**|**03-01-20**|**>03-01-20**|**1000**|**Ingen**|**Ja**|**0**|**0**|  
-|12|1 000|20|5|03-01-15|03-01-20|>03-01-20|995|Bet.tol.|Ja|0|5|  
+|12|1 000|20|5|03-01-15|03-01-20|>03-01-20|995|PaymentTolerance|Ja|0|5|  
 |13|1 000|20|5|03-01-15|03-01-20|>03-01-20|985|Ingen|Nej, 15 på fakturan|0|0|  
 |14|1 000|20|5|03-01-15|03-01-20|>03-01-20|980|Ingen|Nej, 20 på fakturan|0|0|  
 |15|1 000|20|5|03-01-15|03-01-20|>03-01-20|975|Ingen|Nej, 25 på fakturan|0|0|  
@@ -125,7 +125,7 @@ I relation till scenariot ovan kan betalningsintervallen illustreras på följan
 
 normala kopplingsregler  
 
-![Toleransregler för enkel betalning 1.](media/singlePmtTolRules(Pre1503).gif "Toleransregler för enkel betalning 1")  
+![Toleransregler för enkel betalning 1.](media/singlePmtTolRules_Pre1503.gif "Toleransregler för enkel betalning 1")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -136,7 +136,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för enkel betalning 2.](media/singlePmtTolRules(GracePeriod).gif "Toleransregler för enkel betalning 2")  
+![Toleransregler för enkel betalning 2.](media/singlePmtTolRules_GracePeriod.gif "Toleransregler för enkel betalning 2")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -147,7 +147,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-![Toleransregler för enkel betalning 3.](media/singlePmtTolRules(Post0120).gif "Toleransregler för enkel betalning 3")  
+![Toleransregler för enkel betalning 3.](media/singlePmtTolRules_Post0120.gif "Toleransregler för enkel betalning 3")  
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -167,38 +167,38 @@ Scenarier med alternativ A, B, C, eller D motsvarar dessa följande:
 - **C** – I det här fallet har användaren kopplat på varningen och valt att tillåta sen kassarabatt på den första fakturan men inte på den andra.  
 - **D** – I det här fallet har användaren kopplat på varningen och valt att inte tillåta sen kassarabatt på den första fakturan men däremot på den andra.  
 
-|—|Fakturering|Kassarabatt|Max bet. tol.|Kassarabattsdatum|Betal.tol.rabatt Datum|Betalningsdatum|Bet|Toleranstyp|Alla poster stängda|Betal.tol.rabatt GL/CL|Bet. tol. Redovisning|  
+|—|Fakturering|Kassarabatt|Max. betalningstolerans|Kassarabattdatum|Datum för kassarabattstolerans|Betalningsdatum|Betalning|Toleranstyp|Alla poster stängda|Kassarabattstolerans GL/CL|Betalningstolerans GL/CL|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
-|1|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|<=03-01-15|1920|Bet.tol.|Ja|0<br /><br /> 0|-5 <br />-5|  
+|1|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|<=03-01-15|1920|PaymentTolerance|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**03-01-15** <br />**03-01-17**|**03-01-20** <br />**03-01-22**|**<=03-01-15**|**1910**|**Ingen**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  
-|3|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|<=03-01-15|1900|Bet.tol.|Ja|0<br /><br /> 0|5 <br />5|  
-|4B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1980|Bet.tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|3|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|<=03-01-15|1900|PaymentTolerance|Ja|0<br /><br /> 0|5 <br />5|  
+|4B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1980|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**5B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**03-01-15** <br />**03-01-17**|**03-01-20** <br />**03-01-22**|**03-01-16 03-01-17**|**1970**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|6B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1960|Bet.tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|7A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1920|Betal.tol.rabatt och Bet. tol.|Ja|60/60<br /><br /> 0/0|-5 <br />-5|  
-|8A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1910|Betal.tol.rabatt|Ja|60/60<br /><br /> 0/0|0 <br />0|  
-|9A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1900|Betal.tol.rabatt och Bet. tol.|Ja|60/60|5 <br />5|  
-|10B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|2010|Bet.tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|6B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1960|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|7A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1920|PaymentDiscountTolerance och PaymentTolerance|Ja|60/60<br /><br /> 0/0|-5 <br />-5|  
+|8A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1910|PaymentDiscountTolerance|Ja|60/60<br /><br /> 0/0|0 <br />0|  
+|9A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-16 03-01-17|1900|PaymentDiscountTolerance och PaymentTolerance|Ja|60/60|5 <br />5|  
+|10B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|2010|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**11B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**03-01-15** <br />**03-01-17**|**03-01-20** <br />**03-01-22**|**03-01-18 03-01-20**|**2000**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|12B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1990|Bet.tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|13D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1980|Betal.tol.rabatt och Bet. tol.|Ja|0/0<br /><br /> 30/-30|-5 <br />-5|  
-|14D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1970|Betal.tol.rabatt|Ja|0/0<br /><br /> 30/-30|0 <br />0|  
-|15D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1960|Betal.tol.rabatt och Bet. tol.|Ja|0/0<br /><br /> 30/-30|5 <br />5|  
-|16D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1950|Betal.tol.rabatt och Bet. tol.|Ja|60/-60<br /><br /> 0/0|-5 <br />-5|  
-|17D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1940|Betal.tol.rabatt|Ja|60/-60<br /><br /> 0/0|0 <br />0|  
-|18D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1930|Betal.tol.rabatt och Bet. tol.|Ja|60/-60<br /><br /> 0/0|5 <br />5|  
-|19A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1920|Betal.tol.rabatt och Bet. tol.|Ja|60/-60<br /><br /> 30/-30|-5 <br />-5|  
-|20A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1910|Betal.tol.rabatt|Ja|60/-60<br /><br /> 30/-30|0 <br />0|  
-|21A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1900|Betal.tol.rabatt och Bet. tol.|Ja|60/-60<br /><br /> 30/-30|5 <br />5|  
-|22B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|2010|Bet.tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|12B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1990|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|13D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1980|PaymentDiscountTolerance och PaymentTolerance|Ja|0/0<br /><br /> 30/-30|-5 <br />-5|  
+|14D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1970|PaymentDiscountTolerance|Ja|0/0<br /><br /> 30/-30|0 <br />0|  
+|15D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1960|PaymentDiscountTolerance och PaymentTolerance|Ja|0/0<br /><br /> 30/-30|5 <br />5|  
+|16D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1950|PaymentDiscountTolerance och PaymentTolerance|Ja|60/-60<br /><br /> 0/0|-5 <br />-5|  
+|17D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1940|PaymentDiscountTolerance|Ja|60/-60<br /><br /> 0/0|0 <br />0|  
+|18D|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1930|PaymentDiscountTolerance och PaymentTolerance|Ja|60/-60<br /><br /> 0/0|5 <br />5|  
+|19A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1920|PaymentDiscountTolerance och PaymentTolerance|Ja|60/-60<br /><br /> 30/-30|-5 <br />-5|  
+|20A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1910|PaymentDiscountTolerance|Ja|60/-60<br /><br /> 30/-30|0 <br />0|  
+|21A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-18 03-01-20|1900|PaymentDiscountTolerance och PaymentTolerance|Ja|60/-60<br /><br /> 30/-30|5 <br />5|  
+|22B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|2010|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**23B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**03-01-15** <br />**03-01-17**|**03-01-20** <br />**03-01-22**|**03-01-21 03-01-22**|**2000**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|24B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|1990|Bet.tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|25A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|1980|Betal.tol.rabatt och Bet. tol.|Ja|0/0<br /><br /> 30/30|-5 <br />-5|  
-|26A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|1970|Betal.tol.rabatt|Ja|0/0<br /><br /> 30/30|0 <br />0|  
-|27A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|1960|Betal.tol.rabatt och Bet. tol.|Ja|0/0<br /><br /> 30/30|5 <br />5|  
-|28|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|>03-01-22|2010|Bet.tol.|Ja|0|-5|  
+|24B|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|1990|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|25A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|1980|PaymentDiscountTolerance och PaymentTolerance|Ja|0/0<br /><br /> 30/30|-5 <br />-5|  
+|26A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|1970|PaymentDiscountTolerance|Ja|0/0<br /><br /> 30/30|0 <br />0|  
+|27A|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|03-01-21 03-01-22|1960|PaymentDiscountTolerance och PaymentTolerance|Ja|0/0<br /><br /> 30/30|5 <br />5|  
+|28|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|>03-01-22|2010|PaymentTolerance|Ja|0|-5|  
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**03-01-15** <br />**03-01-17**|**03-01-20** <br />**03-01-22**|**>03-01-22**|**2000**|**Ingen**|**Ja**|**0**|**0**|  
-|30|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|>03-01-22|1990|Bet.tol.|Ja|0|5|  
+|30|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|>03-01-22|1990|PaymentTolerance|Ja|0|5|  
 
 ### <a name="payment-range-diagrams"></a>Betalningsintervalldiagram  
 I relation till scenariot ovan kan betalningsintervallen illustreras på följande sätt:  
@@ -208,7 +208,7 @@ I relation till scenariot ovan kan betalningsintervallen illustreras på följan
 
 normala kopplingsregler  
 
-:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Multipla regler för betalningstolerans 1a":::
+:::image type="content" source="media/multiplePmtTolRules_Pre1503.gif" alt-text="Multipla regler för betalningstolerans 1a":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -219,7 +219,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Toleransregler för flera betalningar 2":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1-2.gif" alt-text="Toleransregler för flera betalningar 2":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -230,7 +230,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Toleransregler för flera betalningar 3":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1.gif" alt-text="Toleransregler för flera betalningar 3":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -241,7 +241,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Toleransregler för flera betalningar 4":::
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv2.gif" alt-text="Toleransregler för flera betalningar 4":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 
@@ -252,7 +252,7 @@ normala kopplingsregler
 
 normala kopplingsregler  
 
-:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Toleransregler för flera betalningar 5":::
+:::image type="content" source="media/multiplePmtTolRules_Post0122.gif" alt-text="Toleransregler för flera betalningar 5":::
 
 (1) Om betalningen återfinns inom dessa intervall kan alla kopplingsposter avslutas med eller utan tolerans.  
 

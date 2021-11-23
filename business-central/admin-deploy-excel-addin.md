@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589526"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724618"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Hämta Business Central-tillägget för Excel
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589526"
 
 ### <a name="about-the-add-in"></a>Om tillägget
 
-Tillägget kallas **Microsoft Dynamics Office-tillägg** och det kan installeras från [Office Store (AppSource)](https://appsource.microsoft.com/). När tillägget är installerat finns åtgärden **redigera i Excel** tillgänglig på de flesta list-och list dels sidor från ikonen **dela** ![Dela en sida i en annan app](media/share-icon.png). Mer information om hur du använder tillägg finns i [Visa och redigera i Excel från Business Central](across-work-with-excel.md)
+Tillägget kallas **Microsoft Dynamics Office-tillägg** och det kan installeras från [Office Store (AppSource)](https://appsource.microsoft.com/). När tillägget är installerat finns åtgärden **redigera i Excel** tillgänglig på de flesta list-och list dels sidor från ikonen **dela** ![Dela en sida i en annan app](media/share-icon.png). Mer information om hur du använder tillägg finns i [Visa och redigera i Excel från Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Tillägget fungerar endast i Windows, inte macOS.
@@ -118,7 +118,7 @@ Tillägget är nu kopplat till [!INCLUDE [prod_short](includes/prod_short.md)]\,
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Förbereda enheter och nätverk för Excel-tillägget
 
-Nätverkstjänster som proxyservrar och brandväggar måste tillåta operationsföljd mellan varje klientenhet som tillägget är installerat på och många serviceslutpunkter. En lista över slutpunkter finns i [förbereda nätverket för Excel-tillägget](/dev-itpro/administration/configuring-network-for-addins).
+Nätverkstjänster som proxyservrar och brandväggar måste tillåta operationsföljd mellan varje klientenhet som tillägget är installerat på och många serviceslutpunkter. En lista över slutpunkter finns i [förbereda nätverket för Excel-tillägget](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Felsökning
 

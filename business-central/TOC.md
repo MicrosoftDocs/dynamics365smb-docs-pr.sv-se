@@ -1229,6 +1229,8 @@
 ##### [Förbereda för momstransaktioner](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Skriva ut och återutskriva redovisningsböcker och momsjournaler](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Skriva ut Intrastat-rapporter för Italien](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### Visa källskatt
+##### [Ställ in källskatt i italiensk version](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Skriva ut källskattrapporter](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Bankverksamhet och betalningar
 ##### [Ställa in betalningsvillkor](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1258,11 +1260,7 @@
 #### [Lokala funktioner i den mexikanska versionen](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Moms
 ##### [Ställa in och generera DIOT-rapporter](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Mexikansk omsättningsskatt](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Ställa in importavgift och ingående moms](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Ställa in orealiserad omsättningsskatt och försäljningskassarabatter](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [RapporteraStälla inngsskatt i Mexiko](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Skapa depositioner](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Konfigurera beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  
 ##### [Skatte-ID-typer för Mexiko](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Omberäkning av moms](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronisk fakturering
@@ -1274,12 +1272,13 @@
 #### Allmänt
 ##### [Ställa in PAC-webbtjänster](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Skriva ut felsökningsrapporter](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Skapa depositioner](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Nederländerna
 #### [Lokala funktioner i den nederländska versionen](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### Moms
 ##### [Skapa en ljudfil för skattemyndigheten](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Ställa in momskategorier](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [Ställa in momskategorier](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Elektroniska moms- och ICP-deklarationer](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Ställa in elektroniska moms- och ICP-deklarationer](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Skicka elektroniska moms- och ICP-deklarationer](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1290,7 +1289,7 @@
 ##### [Betalningsscenario 1 – lokala betalningar (BVA till BVA)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Betalningsscenario 2: utländsk betalning (FVA till FVA)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Betalningsscenario 3 – utländsk betalning (FVA till FVA)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Skapa förslag](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Skapa förslag](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Docket-rapporter](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Skriva in och bokföra kassa och bank eller journaler för giro](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Skriva ut testrapporter för kassa och bank eller journaler för giro](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1298,7 +1297,7 @@
 ##### [Aktivera SEPA-betalningar](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Skicka leverantörsbetalningar elektroniskt i SEPA ISO 20022 betalningsformat](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Skapa och exportera betalningshistorik](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Importera och stämma av bankutdrag](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Importera och stämma av bankutdrag](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Grundläggande ekonomi
 ##### [Använda och ta bort redovisningstransaktioner](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Nödvändiga beskrivningar i redovisningstransaktioner](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)

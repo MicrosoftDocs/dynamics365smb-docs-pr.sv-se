@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442706"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752586"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeta med avropsorder, försäljning eller inköpsavropsorder
 
@@ -67,7 +67,7 @@ Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik f�
 - På snabbfliken **Fakturering** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att fakturera** på försäljningsavropsorderraderna.  
 - På snabbfliken **Leverans** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att inlevereras** på försäljningsavropsorderraderna.  
 - På snabbfliken **Förskottsbetalning** visas översiktsinformation om eventuella förskottsbetalda belopp.  
-- På snabbfliken **Leverantör** visas viss grundläggande information om leverantören.    
+- På snabbfliken **Leverantör** visas viss grundläggande information om leverantören.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader   
 Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljningsordern och eventuella övriga försäljningsdokument, bibehålls när du har bokfört som en lista över bokförda och ej bokförda fakturarader för försäljningsorder.  
@@ -76,21 +76,21 @@ Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljning
 2. Öppna den avropsorder för försäljning som du vill visa.
 3. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** ocgh sedan **Ej bokförda rader**. Välj något av följande alternativ:  
 
-    |Alternativ|Description|
-    |--|--|
-    |**Order**|Anger öppna order som är associerade till den markerade raden.|
-    |**Fakturor**|Anger öppna fakturor som är associerade till den markerade raden. Öppna fakturor kan associeras manuellt till en avropsorder genom att avropsordernumret anges på försäljningsfakturaraden.|
-    |**Returorder**|Anger öppna returorder som är associerade till den markerade raden.|
-    |**Kreditnota**|Anger öppna kreditnotor som är associerade till den markerade raden.|
+|Alternativ|Description|
+|--|--|
+|**Order**|Anger öppna order som är associerade till den markerade raden.|
+|**Fakturor**|Anger öppna fakturor som är associerade till den markerade raden. Öppna fakturor kan associeras manuellt till en avropsorder genom att avropsordernumret anges på försäljningsfakturaraden.|
+|**Returorder**|Anger öppna returorder som är associerade till den markerade raden.|
+|**Kreditnota**|Anger öppna kreditnotor som är associerade till den markerade raden.|
 
 4. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** och sedan åtgärden **Bokförda rader**. Välj något av följande alternativ:  
 
-    |Alternativ|Description|
-    |---|----|
-    |**Utleveranser**|Bokförda leveranser som är associerade till den markerade raden.|
-    |**Fakturor**|Bokförda fakturor som är associerade till den markerade raden.|
-    |**Returinleveranser**:|Bokförda returinleveranser som är associerade till den markerade raden.|
-    |**Kreditnota**|Bokförda kreditnotor som är associerade till den markerade raden.|
+|Alternativ|Description|
+|---|----|
+|**Utleveranser**|Bokförda leveranser som är associerade till den markerade raden.|
+|**Fakturor**|Bokförda fakturor som är associerade till den markerade raden.|
+|**Returinleveranser**:|Bokförda returinleveranser som är associerade till den markerade raden.|
+|**Kreditnota**|Bokförda kreditnotor som är associerade till den markerade raden.|
 
 5. På sidan **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
 

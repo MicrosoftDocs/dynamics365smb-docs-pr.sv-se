@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443187"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748967"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Felsökning: anslutning för Business Central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443187"
 
 ## <a name="start-the-connectivity-check"></a>Starta anslutningskontrollen 
 
-1. Välj [den här länken](https://businesscentral.dynamics.com/connectivity) eller öppna webbläsaren och ange följande URL-adress i adressen:
+1. Öppna en webbläsare.
+2. I adressen anger du webbadressen som du använder för att öppna Business Central och lägg till `/connectivity` på slutet. 
+
+    Om du till exempel använder `https://businesscentral.dynamics.com` skriver du:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. På sidan **Felsöka anslutning** väljer du **Starta kontroll**.
+    Om URL: en innehåller klientorganisations-ID, `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB` skriver du t.ex.:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. På sidan **Felsöka anslutning** väljer du **Starta kontroll**.
 
     En serie kontroller körs och resultatet av varje kontroll visas:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443187"
     - ![Anslutningskontrollen misslyckades.](media/connectivity-failed.png) visar att kontrollen misslyckades. Granska meddelandet nedanför kontrollen om du vill ha mer information.
     - ![Anslutningskontrollen kördes inte.](media/connectivity-blocked.png) anger att kontrollen inte har utförts, oftast på grund av ett fel i en tidigare kontroll. Granska meddelandet nedanför kontrollen om du vill ha mer information.
 
-3. Om du vill köra kontrollen igen, välj **Starta om kontroll**.
+4. Om du vill köra kontrollen igen, välj **Starta om kontroll**.
 
 De kontroller som körs beskrivs i följande avsnitt, och några tips på hur du kan åtgärda problemen.
 
