@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588257"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865448"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -37,7 +37,7 @@ Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer 
 De flesta kortkommandona är desamma oavsett om operativ systemet är Windows eller macOS. Vissa kortkommandon är emellertid olika för macOS. Dessa genvägar anges med hakparenteser i följande avsnitt.
 
 > [!NOTE]
-> Förutom de globala kortkommandon som beskrivs i det här avsnittet finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] bokför F9 exempelvis ett dokument och CTRL + F7 visar redovisningstransaktionerna för en post när du öppnar posten i ett kort. (Dessa kan vara annorlunda i lösningen.) Kortkommandot visas i knappbeskrivningen för den aktuella åtgärden.
+> Förutom de globala kortkommandon som beskrivs i denna artikel finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] bokför F9 exempelvis ett dokument och CTRL + F7 visar redovisningstransaktionerna för en post när du öppnar posten i ett kort. I denna artikel beskrivs några av de vanligaste företagsspecifika kortkommandona, som visas med kursiv stil. Tänk på att de faktiska kortkommandona kan variera i just din lösning. I användargränssnittet visas kortkommandot i knappbeskrivningen för den aktuella åtgärden.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allmänna kortkommandon
 
@@ -83,7 +83,15 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sortera markerad kolumn i stigande eller fallande ordning.|Ej tillämpbart.|
 |Alt+N|Infoga en ny rad i en redigerbar lista, till exempel sidan **redovisningsbudgetar**.|Samma.|
+|Shift+F9|Bokför och skriv ut ett dokument.|Samma.|
 |Shift+F10 |Öppna en meny med alternativ som är tillgängliga för den markerade raden.|Samma.|
+|Alt+D|Öppna posterna för dimensionsuppsättning.|Samma.|
+|Ctrl+F7|Öppna redovisningstransaktioner, loggtransaktioner, kostnadstransaktioner o.s.v.|
+|Ctrl+F9|Frisläpp dokument.|Samma.|
+|*F7*|Öppna statistik.|Samma.|
+|*F9*|Bokföra, utfärda, registrera eller återföra dokument.|Samma.|
+|*Shift+Ctrl+F*|Skicka förslag på rader på sidan för kalkylark för kassaflöde.|Ej tillämpbart.|
+|*Shift+Ctrl+I*|Visa serie- och partinummer som har tilldelats till radartikeln för dokument eller journal.|Ej tillämpbart.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
 
@@ -103,7 +111,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 | Uppil | Flytta till fältet i raden ovanför i samma kolumn | I samma kolumn, flytta till panelen i raden ovanför |
 | Högerpil | I en skrivskyddad lista, flytta till samma rad till höger i samma fält.<br /><br />Flytta till höger i det aktuella fältet i en redigeringsbar lista. | Flytta till nästa ändringsbara panel till höger i samma rad. |
 | Vänsterpil | I en skrivskyddad lista, flytta till samma rad till vänster i föregående fält. <br /><br />Flytta till vänster i det aktuella fältet i en redigeringsbar lista. | Flytta till föregående panel till vänster i samma rad. |
-| Tabb | I en redigerbar lista, flytta till samma rad till höger i samma fält. | Ej tillämpbart. |  |
+| Tabb | I en redigerbar lista, flytta till samma rad till höger i samma fält. | Ej tillämpbart. | 
 | Skift+Tabb | I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Välja kopiera och klistra in
@@ -142,7 +150,9 @@ Följande kortkommandon kan användas för kortsidorna t. ex. **kundkort** och d
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
+|Alt+D|Öppna posterna för dimensionsuppsättning.|
 |Alt+F6|Växla dölj/expandera för den aktuella snabbfliken eller delen (underordnad sida).|
+|Alt+F9|Skapa ett nytt dokument och bokföra det.|
 |Alt+G|Öppna sidan **Hitta transaktioner** för att söka efter transaktioner som hör till det bokförda dokumentet. Fungerar även på listor.|
 |Alt+N |Öppna en sida för att skapa en ny post. På samma sätt som om du markerar åtgärden **nytt**. |
 |Alt+Shift+N |Stäng en sida och öppna en ny för att skapa en ny post. På samma sätt som om du markerar åtgärden **OK och Nytt**. |
@@ -152,9 +162,15 @@ Följande kortkommandon kan användas för kortsidorna t. ex. **kundkort** och d
 |Ctrl+Uppil |Öppna föregående post för en enhet.|
 |Ctrl+Ins |Infoga en ny rad i ett dokument|
 |Ctrl+radera |Ta bort raden i ett dokument, en journal eller ett förslag.|
+|Ctrl+F7|Öppna redovisningstransaktioner, loggtransaktioner, kostnadstransaktioner o.s.v.|
+|Ctrl+F9|Frisläpp dokument.|
 |Ctrl+Shift+F12 |Maximera radartikeldelen på en dokumentsida Tryck på knapparna igen för att återgå till normal visning. Mer information finns i [Fokusera på radartiklar](ui-enter-data.md#Focus).|
 |F6|Flytta till nästa snabbflik eller del (underordnad sida).|
+|*F7*|Öppna statistik.|
+|*F9*|Bokföra, utfärda, registrera eller återföra dokument.|
+|*Shift+Ctrl+F9*|Bokföra, skriva ut och föra in lagerinleverans.|
 |Shift+F6|Flytta till föregående snabbflik eller del (underordnad sida).|
+|*Shift+F9*|Bokför och skriv ut ett dokument.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Kortkommandon för snabbinmatning för fält
 

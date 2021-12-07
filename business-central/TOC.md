@@ -24,27 +24,13 @@
 
 ### Designdetaljer
 #### [Översikt över designdetaljer för applikation](design-details-application-design.md)
-#### Designdetaljer: Leveransplanering
-##### [Översikt över leveransplanering](design-details-supply-planning.md)
-##### [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)  
-##### [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
-##### [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
-##### [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
-##### [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
-##### [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
-##### [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)
 #### Designdetaljer: Lagerkalkylering
-##### [Kostnadsöversikt](design-details-inventory-costing.md)
+##### [Designdetaljer för lagerkostnader](design-details-inventory-costing.md)
 ##### [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 ##### [Designinformation: ändra värderingsprinciper för artiklar](design-details-changing-costing-methods.md)
 ##### [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
 ##### [Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  
-##### Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen
-###### [Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Felmeddelanden "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)  
 ##### [Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)  
 ##### [Designdetaljer: Varians](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)
 ##### [Designdetaljer: Lagervärdering](design-details-inventory-valuation.md)  
 ##### [Designdetaljer: Omvärdering](design-details-revaluation.md)
+#### Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen
+##### [Bokföringsdatum i översikt för justeringsvärdetransaktion](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Felmeddelanden "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Designdetaljer: Dimensionsuppsättningstransaktioner
+##### [Designdetaljer: Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)
+##### [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)
+##### [Designdetaljer: Tabellstruktur](design-details-table-structure.md)
+#### Designdetaljer: Leveransplanering
+##### [Designdetaljer för leveransplanering](design-details-supply-planning.md)
+##### [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)  
+##### [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
+##### [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
+##### [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
+##### [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
+##### [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
+##### [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)
 #### Designdetaljer: Lagerstyrning
-##### [Hantering av distributionslager – översikt](design-details-warehouse-management.md)
+##### [Designdetaljer för Warehouse Management](design-details-warehouse-management.md)
 ##### [Designdetaljer: Översikt över distributionslager](design-details-warehouse-overview.md)  
 ##### [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md)  
 ##### [Designdetaljer: inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
 ##### [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)
 #### Designdetaljer: Objektspårning
-##### [Översikt över artikelspårning](design-details-item-tracking.md)
+##### [Designdetaljer: Artikelspårning](design-details-item-tracking.md)
 ##### [Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)  
 ##### [Designdetaljer: Bokföringsstruktur för artikelspårning](design-details-item-tracking-posting-structure.md)  
 ##### [Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 ##### [Designdetaljer: Artikelkoppling i distributionslagret](design-details-item-tracking-in-the-warehouse.md)
 #### Designdetaljer: Bokföring av rad i redovisningsjournalen
-##### [Bokföringsrad i redovisningsjournal](design-details-general-journal-post-line.md)
+##### [Designdetaljer för Bokföringsrad i redovisningsjournal](design-details-general-journal-post-line.md)
 ##### [Översikt över bokföring av rad i redovisningsjournalen](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)  
 ##### [Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)  
-#### Designdetaljer: Dimensionsuppsättningstransaktioner
-##### [Designdetaljer: Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)  
-##### [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
-##### [Designdetaljer: Tabellstruktur](design-details-table-structure.md)  
 
 ## Testa
 ### [Utvärderingsversioner och prenumerationer](across-preview.md)
@@ -703,6 +703,7 @@
 ### [Så här skriver du av eller amorterar anläggningstillgångar](fa-how-depreciate-amortize.md)
 ### [Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md)
 ### [Hantera budgetar för anläggningstillgångar](fa-how-manage-budgets.md)
+### [Felsöka poster i redovisning för anläggningstillgångar](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Kundhantering
 ### [Översikt över kundhantering](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Skatte-ID-typer för Mexiko](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Omberäkning av moms](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronisk fakturering
-##### [Elektronisk fakturering](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Ställa in elektronisk fakturering](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generera elektroniska fakturor](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Elektronisk fakturering (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Ställa in PAC-webbtjänster](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Konfigurera elektronisk fakturering (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generera elektroniska fakturor (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte-följesedlar och överföringsorder (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Allmänt
 ##### [Regler för elektronisk redovisning i Mexiko](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Gör elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Allmänt
-##### [Ställa in PAC-webbtjänster](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Skriva ut felsökningsrapporter](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Skapa depositioner](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 

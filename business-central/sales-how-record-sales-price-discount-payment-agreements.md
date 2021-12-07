@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b7943caba8482e39217307be904f368f0ec31c0
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752436"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865552"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Registrera försäljningspriser och rabatter
 > [!NOTE]
@@ -52,15 +52,13 @@ När det gäller försäljningsrabatter kan du ställa in och använda följande
 
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **Ny upplevelse för försäljningspris**. Om funktionsuppdateringen inte är aktiverad följer du anvisningarna på fliken Aktuell upplevelse. 
 
-#### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)
+## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj kund och välj sedan åtgärden **Priser**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja ett speciellt försäljningspris till kunden.
 
----
-
-#### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
+## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)  
 Som standard är statusen för nya prislistor Utkast. Utkast av prislistor ingår inte i prisberäkningar. När du är klar med att lägga till rader och vill börja använda priserna ändrar du statusen till Aktiv.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
@@ -100,7 +98,7 @@ När du aktiverar funktionsuppdateringen **Ny upplevelse för försäljningspris
 
 Om du redan har aktiverat den nya prissättningen kan du skapa standardprislistor manuellt eller ange en befintlig prislista som standard. Om du vill ange en befintlig pris lista som standard aktiverar du alternativet för att **aktivera uppdateringsstandarder** på prislistan. Sidorna **Försäljningsinställningar**, **Inköpsinställningar** och **Projektinställningar** anger du prislistan som standard.
 
-### <a name="editing-active-price-lists"></a>Redigering av aktivt prislistor
+## <a name="editing-active-price-lists"></a>Redigering av aktivt prislistor
 För att tillåta personer att redigera priser på aktiva prislistor för varor, resurser, kunder, leverantörer eller andra enheter som använder prissättning, aktivera växling **Tillåt redigering av aktivt pris** på sidan **Försäljningsinställningar** och **Inköpsinställningar**. 
 
 När växlingen **Tillåt redigering av aktivt pris** är inaktiverad måste du för att uppdatera priser i en prislista ändra status för prislistan till **Utkast**, göra ändringen och sedan återaktivera prislistan.
@@ -121,7 +119,7 @@ Efteråt kan du använda åtgärden **implementera prisändring** för att jämf
 ## <a name="to-copy-sales-prices"></a>Så här kopierar du försäljningspriser
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **Ny upplevelse för försäljningspris**. Om funktionsuppdateringen inte är aktiverad följer du anvisningarna på fliken Aktuell upplevelse.
 
-#### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)  
+## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)  
 
 Om du vill kopiera försäljningspriser - till exempel en viss kunds försäljningspriser - och använda dem för en kundprisgrupp, måste du köra **Föreslå förs.pris i förslag**. batch-jobbet på sidan **Försäljningsprisförslag**.  
 
@@ -135,9 +133,7 @@ Om du vill kopiera försäljningspriser - till exempel en viss kunds försäljni
    > [!NOTE]  
    > Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dem, d.v.s. infoga dem på sidan **Försäljningspriser**, väljer du åtgärden **Implementera prisändringar** på sidan **Försäljningsprisförslag**.
 
----
-
-#### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
+## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsprislistor** och väljer sedan relaterad länk. 
 2. Välj den prislista som ska kopieras och välj sedan **Kopiera rader**.
@@ -151,7 +147,7 @@ Om du vill kopiera försäljningspriser - till exempel en viss kunds försäljni
 ## <a name="to-bulk-update-item-prices"></a>Så här uppdaterar du flera artikelpriser samtidigt
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **Ny upplevelse för försäljningspris**. Om funktionsuppdateringen inte är aktiverad följer du anvisningarna på fliken Aktuell upplevelse.
 
-#### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)
+### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
 
 Om du vill uppdatera flera artikelpriser samtidigt – till exempel höja alla priser med en viss procentsats kan du fylla i **Försäljningsprisförslag** genom att använda följande batchjobb:
 
@@ -167,14 +163,14 @@ Om du vill uppdatera flera artikelpriser samtidigt – till exempel höja alla p
 7. Välj **OK** för att fylla i raderna på sidan **försäljningsprisförslag** med de föreslagna nya priserna.
 8. Använd åtgärden **implementera prisändringar** för att genomföra förslagen . Batch-jobbet skapar förslag men verkställer inte dem.
 
----
-
-#### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)
+## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
 
 Om du vill uppdatera priserna för flera artiklar måste du skapa en ny prislista och sedan kopiera raderna från en befintlig prislista. När du kopierar raderna kan du använda filter för att ange vad som ska kopieras, och du kan ange ett heltal eller decimaltal i fältet **Justeringsfaktor** för att höja eller sänka priserna. Statusen för prislistan måste vara **Utkast**. Om det behövs kan du sedan inaktivera den gamla prislistan.
 
 > [!NOTE]
 > Du kan inte ha två rader som har samma inställningar men olika priser. Om detta händer visas ett meddelande när du aktiverar en prislista. Du kan välja det pris som ska användas genom att öppna listan och ta bort fel pris.  
+
+---
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Försäljningsfakturarabatter och faktureringsavgifter
 När du använder fakturarabatter, avgör fakturans totala belopp storleken på rabatten. På sidan **Kundfakturarabatter** kan du även lägga till en faktureringsavgift i fakturor som överstiger ett visst belopp.  
@@ -189,8 +185,6 @@ Förutom (eller i stället för) en procentuell rabatt kan du koppla en fakturer
 
 För utbildning inom försäljningsrabatter, se [Ställa in rabatter för dina kunder](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
 
----
-
 ### <a name="calculating-invoice-discounts-on-sales"></a>Beräkna fakturarabatter på försäljning
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
@@ -198,7 +192,7 @@ För utbildning inom försäljningsrabatter, se [Ställa in rabatter för dina k
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Så här skapar du försäljningsradrabatter för en kund
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **Ny upplevelse för försäljningspris**. Om funktionsuppdateringen inte är aktiverad följer du anvisningarna på fliken Aktuell upplevelse.
 
-#### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)  
+## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Radrabatter**.
@@ -209,9 +203,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 >
 > Om du vill ställa in priser eller radrabatter för alla kunder, en kundprisgrupp eller en kampanj måste du öppna sidorna från ett artikelkort. Du kan också använda sidan **Försäljningsprisförslag** för försäljningspriser. Mer information finns i [Så här uppdaterar du flera artikelpriser samtidigt](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
----
-
-#### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
+## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Välj kunden och sedan åtgärden **Försäljningsprislistor**.
@@ -220,10 +212,12 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 5. I fältet **Definitioner** väljer du antingen **Pris och rabatt** eller bara **Rabatt**. 
 6. I fältet **Radrabatt %** anger du rabattprocenten.
 
-    > [!TIP]
-    > Du kan filtrera raderna genom att välja lämpligt alternativ i fältet **Visa kolumner för**.
-    > [!NOTE]  
-    > Fakturarabattkoder representeras av befintliga kundkort. Genom att använda kundnamn som koder aktiveras du att snabbt tilldela fakturarabattvillkor till kunder, genom att välja namnet på en andra kunder som ska ha dessa villkor. Ställ in kundspecifika villkor för fakturarabatt genom att ange fältet **Fakturarabattkod** som kundens kundkod, och fortsätt sedan till nästa steg.
+   > [!TIP]
+   > Du kan filtrera raderna genom att välja lämpligt alternativ i fältet **Visa kolumner för**.   
+  
+   > [!NOTE]
+   > Fakturarabattkoder representeras av befintliga kundkort. Genom att använda kundnamn som koder aktiveras du att snabbt tilldela fakturarabattvillkor till kunder, genom att välja namnet på en andra kunder som ska ha dessa villkor. Ställ in kundspecifika villkor för fakturarabatt genom att ange fältet **Fakturarabattkod** som kundens kundkod, och fortsätt sedan till nästa steg.
+
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Så här definierar du radrabatt för en kund
@@ -243,8 +237,6 @@ Ställ in fakturarabattvillkor för försäljning:
 3. Ange i fältet **Minimibelopp** det minsta belopp som en faktura måste vara på för att komma i fråga för rabatt.
 4. Fakturarabatten beräknas som en procentandel av fakturabeloppet i fältet **Rabatt %**.
 5. Upprepa steg 5 till och med 7 för varje valuta som kunden ska ta emot en annan fakturarabatt för.
-
----
 
 ## <a name="best-price-calculation"></a>Bästa prisberäkning
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader.

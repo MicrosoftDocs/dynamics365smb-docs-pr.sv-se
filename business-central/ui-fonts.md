@@ -1,6 +1,6 @@
 ---
 title: Tillgängliga teckensnitt
-description: Online-versionen av Business Central innehåller förinstallerade teckensnitt på de servrar som kan användas för att genererar rapporter.
+description: Lär dig mer om de förinstallerade teckensnitt som du kan använda för externa rapporter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588030"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868307"
 ---
 # <a name="available-fonts"></a>Tillgängliga teckensnitt
 
@@ -48,15 +48,22 @@ Förutom MICR-teckensnitt finns speciella säkerhetsteckensnitt som du kan anvä
 Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Teckensnitt för streckkoder
-Teckensnitt för att generera endimensionella streckkoder finns installerade och tillgängliga att använda i både Word- och RDLC-rapportlayouter.
+Teckensnitt för att generera streckkoder finns installerade och tillgängliga att använda i både Word- och RDLC-rapportlayouter.
 
-Följande streckkodssymboler stöds:
+Följande endimensionella streckkodssymboler stöds:
 * Kod 3 av 9 (kod 39)
 * Kod 128
 * Kod 93
 * Codabar
 * MSI
 * Interfolierade 2 av 5
+
+Följande tvådimensionella streckkodssymboler stöds:
+* Aztec
+* Datamatris
+* Maxicode
+* PDF417
+* QR
 
 Mer information finns i avsnittet [Streckkodsteckensnitt med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

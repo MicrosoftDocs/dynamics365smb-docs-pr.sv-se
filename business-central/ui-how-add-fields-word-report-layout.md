@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444801"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865344"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
@@ -35,7 +35,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
   
 3.  På fliken **Utvecklare** väljer du **XML-mappningsruta**.  
   
-4.  I rutan **XML-mappning** i listrutan **Anpassad XML-del** väljer du den anpassade XML-delen för LÄGG TILL INKLUDERA<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> rapporten som vanligen är sist i listan. Namnet på den anpassade XML-delen har följande format:  
+4.  I rutan **XML-mappning**, i listrutan **Anpassad XML-del**, väljer du den anpassade XML-delen för [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten, som vanligtvis är sist i listan. Namnet på den anpassade XML-delen har följande format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
  Bilder justeras i det övre vänstra hörnet av innehållskontrollen och storleksändras automatiskt i förhållande för att passa gränsen för innehållskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word, kommer du att få ett fel när du kör rapporten från LÄGG TILL INKLUDERA<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> klient  
+>  Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word visas ett felmeddelande när du kör rapporten från [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.  
   
 #### <a name="to-add-an-image"></a>Så här lägger du till en bild  
   
@@ -107,7 +107,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 ### <a name="custom-xml-part-in-word"></a>Anpassad XML-del i Word  
  I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Visa fliken Utvecklare på menyfliken](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- Elementen i rutan **XML-mappning** visas i en struktur som liknar XML-källan. Rubrikfält grupperas under ett gemensamt **Rubriker**-element, och dataobjekt och kolumner ordnas i en hierarkisk struktur som motsvarar XML-källan, med kolumner som anges i alfabetisk ordning. Element identifieras efter deras namn som har definierats av egenskapen Namn i datauppsättnings-designern för rapporten i LÄGG TILL INKLUDERA .<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Elementen i rutan **XML-mappning** visas i en struktur som liknar XML-källan. Rubrikfält grupperas under ett gemensamt **Rubriker**-element, och dataobjekt och kolumner ordnas i en hierarkisk struktur som motsvarar XML-källan, med kolumner som anges i alfabetisk ordning. Element identifieras efter sitt kolumnnamn enligt definierat i rapportens datauppsättning i AL-kod. Mer information finns i [Definiera en datauppsättning för rapport](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  Efterföljande diagram visar den enkla anpassade XML-del från föregående avsnitt i panelen **XML-mappning** i ett Word-dokument.  
   

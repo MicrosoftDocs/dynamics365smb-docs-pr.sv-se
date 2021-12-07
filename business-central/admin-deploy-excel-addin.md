@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724618"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865498"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Hämta Business Central-tillägget för Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett tillägg för Excel som låter användare välja en **redigering i Excel** på vissa sidor för att öppna data i ett Excel-kalkylblad. Den här åtgärden skiljer sig från åtgärden **öppna i Excel** eftersom den gör det möjligt för användare att göra ändringar i Excel och sedan publicera ändringarna till [!INCLUDE[prod_short](includes/prod_short.md)]\
+[!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett tillägg för Excel som låter användare välja en **redigering i Excel** på vissa sidor för att öppna data i ett Excel-kalkylblad. Denna åtgärd är en annan än åtgräden **Öppna i Excel** eftersom den låter användare utföra ändringar i Excel och sedan återpublicera ändringarna i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="overview"></a>Översikt
 
@@ -38,9 +38,9 @@ För slutanvändaren skiljer sig installations upplevelsen från de två distrib
 
 - Med individuellt förvärv, första gången användare väljer åtgärden **Redigera i Excel** öppnas fönstret **Nytt Office-tillägg** i Excel. För att du ska kunna installera tillägget väljer användaren att **lita på det här tillägget**, som i sin tur installerar tillägget direkt från Office Store. Användarna loggas sedan in för att [!INCLUDE[prod_short](includes/prod_short.md)] använda sitt användarnamn och lösenord.
 
-- Med centraliserad distribution är det första gången användare väljer åtgärden **redigera i Excel**, tillägget installeras automatiskt i Excel från centraliserad distribution, inte till Office Store. Det enda som användarna behöver göra är att logga in på [!INCLUDE[prod_short](includes/prod_short.md)]\
+- Med centraliserad distribution är det första gången användare väljer åtgärden **redigera i Excel**, tillägget installeras automatiskt i Excel från centraliserad distribution, inte till Office Store. Det enda som användarna behöver göra är att logga in på [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Med båda dessa distributions alternativ är tillägget automatiskt konfigurerat för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]\. ett tredje distributionsalternativ som är en manuell installation av tillägget direkt från Excel. Med det här alternativet måste användarna konfigurera tillägget för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]\
+Med båda dessa distributionsalternativ är tillägget automatiskt konfigurerat för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]. Ett tredje distributionsalternativ är en manuell installation av tillägget direkt från Excel. Med det här alternativet måste användarna konfigurera tillägget för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Växling från enskilda förvärv till centraliserad distribution eller på annat sätt
 
@@ -63,13 +63,13 @@ Centraliserad distribution är en funktion i Microsoft 365 administratörscenter
 - Om du övergår från enskild anskaffning läser du [Växla från enskild anskaffning till centraliserad distribution](#switch)
 
 > [!NOTE]
-> Om du aktiverar centraliserad distribution påverkas funktioner som använder Excel-tillägget, till exempel åtgärden **redigera i Excel**. Det påverkar inte andra Excel-relaterade funktioner och behörigheter som har tilldelats användare i [!INCLUDE[prod_short](includes/prod_short.md)]\
+> Om du aktiverar centraliserad distribution påverkas funktioner som använder Excel-tillägget, till exempel åtgärden **redigera i Excel**. Detta påverkar inte andra Excel-relaterade funktioner och behörigheter som har tilldelats användare i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Konfigurera centraliserad distribution för tillägg
 
 Du arbetar i både [!INCLUDE[prod_short](includes/prod_short.md)] administrationscenter för Microsoft 365.
 
-1. I [!INCLUDE[prod_short](includes/prod_short.md)]\, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **Excel-tillägget centraliserad distribution** och sedan väljer du relaterad länk.
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **Excel-tillägget centraliserad distribution** och sedan väljer du relaterad länk.
 2. Läs informationen på sidan **konfiguration av Business Central Excel-tillägg** och välj **Nästa**.
 3. Logga in på [Microsoft 365 administrationscenter](https://go.microsoft.com/fwlink/?linkid=2163967) och gå till **integrerade appar**<!--**Add-ins**-->.
 
@@ -81,7 +81,7 @@ Du arbetar i både [!INCLUDE[prod_short](includes/prod_short.md)] administration
     5. Vänta tills den gröna bockmarkeringen bredvid **distribuerad** visas för tillägget och välj sedan **klar**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
        Tillägget visas på sidan **tillägg**. Mer information om distribution av tillägg i administrationscenter för Microsoft 365 finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-4. Gå tillbaka till **centraliserad distribution för Excel-tillägg** i [!INCLUDE[prod_short](includes/prod_short.md)]\, och välj **Nästa** .
+4. Gå tillbaka till den assisterade konfigurationen för **Centraliserad distribution för Excel-tillägg** i [!INCLUDE[prod_short](includes/prod_short.md)] och välj **Nästa**.
 5. Aktivera **Använd centraliserad distribution** och klicka på **Slutför** .
 
     Om du inte aktiverar denna växel [!INCLUDE[prod_short](includes/prod_short.md)] hämtas tillägget direkt från Office Store.
@@ -114,7 +114,7 @@ Om en användare inte kan ansluta automatiskt kan du häva blockeringen av dem g
 4. När du uppmanas, logga in med ditt Business Central användarnamn och lösenord.
 5. Välj alternativt den miljö och det företag du vill ansluta till.
 
-Tillägget är nu kopplat till [!INCLUDE [prod_short](includes/prod_short.md)]\, och du kan redigera data och publicera ändringarna i [!INCLUDE [prod_short](includes/prod_short.md)]\. 
+Tilläggen är nu anslutna till [!INCLUDE [prod_short](includes/prod_short.md)], och du kan redigera data samt publicera ändringarna i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Förbereda enheter och nätverk för Excel-tillägget
 
@@ -127,9 +127,9 @@ Ibland kan användare köra ett problem med Excel-tillägget. Det här avsnittet
 |Problem  |Lösning eller problemlösning  |Kommentarer  |
 |---------|---------|---------|
 |Tillägget startar inte|Kontrollera om tillägget distribueras centralt. Du kan även kontrollera om användaren har blockerats för att installeras lokalt. | Administratören kan konfigurera Office så att användarna inte kan hämta tillägg. I dessa fall måste administratören distribuera tillägget centralt. Mer information finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Data läses inte in i Excel|Testa anslutningen genom att öppna en annan lista i Excel från [!INCLUDE [prod_short](includes/prod_short.md)]\. Du kan dessutom öppna arbetsboken i Excel i en webbläsare.|Om användaren har angett ett företagsnamn som innehåller specialtecken kan tillägget inte ansluta. |
-|Data kan inte publiceras tillbaka till [!INCLUDE [prod_short](includes/prod_short.md)]\.|Testa anslutningen genom att öppna arbetsboken i Excel i en webbläsare. |Ibland kan ett tillägg blockera publiceringsjobbet. Om sidan har utökats eller anpassats tar du bort tilläggen och försöker igen.|
-|Datumen är felaktiga  |Datum och tid kan visas i Excel i ett annat format än [!INCLUDE [prod_short](includes/prod_short.md)]\. Det här tillståndet gör inte det fel och informationen i [!INCLUDE [prod_short](includes/prod_short.md)]\ blir inte rörigt.|         |
+|Data läses inte in i Excel|Desta anslutningen genom att öppna ytterligare en lista i Excel från [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan dessutom öppna arbetsboken i Excel i en webbläsare.|Om användaren har angett ett företagsnamn som innehåller specialtecken kan tillägget inte ansluta. |
+|Data kan inte publiceras tillbaka till [!INCLUDE [prod_short](includes/prod_short.md)].|Testa anslutningen genom att öppna arbetsboken i Excel i en webbläsare. |Ibland kan ett tillägg blockera publiceringsjobbet. Om sidan har utökats eller anpassats tar du bort tilläggen och försöker igen.|
+|Datumen är felaktiga  |Datum och tid kan visas i Excel i ett annat format än [!INCLUDE [prod_short](includes/prod_short.md)]. Detta tillstånd innebär inte att informationen är inkorrekt, och datan i [!INCLUDE [prod_short](includes/prod_short.md)] blir inte rörig.|         |
 |För vissa listsidor orsakar fel vid redigering av flera rader i Excel. Det här problemet kan uppstå om OData-anrop innehåller FlowFields och fält utanför repeater-kontrollen.|På sidan **webbtjänster** markerar du kryssrutorna **Uteslut icke-redigerbara FlowFields** och **Uteslut fält utanför repeater** för den publicerade sidan. Om du markerar dessa kryssrutor utesluter du icke-redigerbara FlowFields och fält från eTag-beräkningen. |Dessa kryssrutor är som standard dolda. Om du vill visa dem på sidan **webbtjänster** använder du [anpassning](/dynamics365/business-central/ui-personalization-user). |
 
 
@@ -162,7 +162,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 When the add-in is installed, it shows up as a panel in Excel. Next, you must configure the connection.
 
 > [!TIP]
-> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)]\.When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
+> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
