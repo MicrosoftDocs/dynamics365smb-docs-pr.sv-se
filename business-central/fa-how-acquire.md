@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643936"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920961"
 ---
 # <a name="acquire-fixed-assets"></a>Skaffa anläggningstillgångar
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. En avskrivningsregel måste ställas in och tilldelas till varje anläggningstillgång, innan du kan anskaffa den.
@@ -78,14 +78,14 @@ Om du gör ett fel när du bokför en anskaffningskostnad kan du flytta transakt
 Om du till exempel bokför en anskaffning med fel datum måste du rätta det så snart som möjligt eftersom anl. bokföringsdatum används i många beräkningar.
 
 > [!IMPORTANT]  
->   Du kan inte använda funktionen **Återför transaktion** för anläggningstillgångstransaktioner.
+> Du kan inte använda funktionen **Återför transaktion** för anläggningstillgångstransaktioner.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Rätta anl.trans.** och välj sedan relaterad länk.
-2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Klicka på **OK** för att köra batchjobbet.
-4. Fortsätt med att bokföra rätt anskaffningskostnad när den felaktiga transaktionen, eller transaktionerna har rättats.
-
-Använd batch-jobbet **Rätta anl.transaktioner** för att rätta transkationer för flera anläggningstillgångar åt gången.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ikonen, ange **Anl.transaktioner** och välj sedan relaterad länk.  
+2. På sidan **Anl.transaktioner** markerar du den eller de transaktioner som du vill makulera.  
+3. Välj menyn **Åtgärder** och välj sedan åtgärden **Avbryt transaktioner**.
+4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Klicka på **OK** för att köra batchjobbet.
+6. Fortsätt med att bokföra rätt anskaffningskostnad när den felaktiga transaktionen, eller transaktionerna har rättats.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Att bokföra återanskaffningsvärdet tillsammans med anskaffningskostnaden
 Du kan bokföra återanskaffningsvärden tillsammans med anskaffningskostnaden från en journal för anläggningstillgångar.

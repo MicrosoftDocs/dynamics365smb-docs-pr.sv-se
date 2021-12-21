@@ -1,6 +1,6 @@
 ---
 title: Konfigurera tidrapporter och deras godkännande
-description: Du lägger upp tidrapporter för att spåra den tid som använts för projekt och använder resurser kan hjälpa dig med projekthantering, personal och kapacitet
+description: Du lägger upp tidrapporter för att spåra den tid som använts för uppgifter och projekt, vilket hjälper dig med projekthantering, personal och kapacitet
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589213"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920986"
 ---
 # <a name="set-up-time-sheets"></a>Så här skapar du tidrapporter
 
-Tidrapporter i [!INCLUDE[prod_short](includes/prod_short.md)] hanterar tidregistrering veckovis, med sju dagars steg i taget. Du kan använda dem för att spåra den tid som används för projektet och du kan använda dem för att registrera enkel resurstimregistrering. Innan du kan använda tidrapporter måste du ange hur du vill att de ska registreras och konfigureras.
+Tidrapporter i [!INCLUDE[prod_short](includes/prod_short.md)] hanterar tidregistrering veckovis, med sju dagars steg i taget. Du kan använda dem för att spåra den tid som används för projekt samt för att registrera enkel timregistrering för resurser. Innan du kan använda tidrapporter måste du ange vilka användare som ska skicka in tidrapporter och hur du vill konfigurera tidrapporterna.  
 
-När du har ställt in hur organisationen ska använda tidrapporter, kan du ange om och hur tidrapporter godkänns. Beroende på organisationens behov kan du ange:
+> [!TIP]
+> I [!INCLUDE [prod_short](includes/prod_short.md)] kallas användare av tidrapporter för *resurser*. På så sätt kan du till exempel använda tidrapporter för att spåra arbete för icke-anställda. För att kunna spåra den egna personalens arbete samt för att kunna använda tidrapporter för att spåra frånvaro bland personalen måste du associera *personal* med *resurser* i konfigurationsguiden.  
+
+Du kan också ange om och hur tidrapporter ska godkännas. Beroende på organisationens behov kan du ange:
 
 * En eller flera användare som tidrapportsadministratör och godkännare för alla tidrapporter.
 * En tidrapportsgodkännare för varje resurs.
 
-När du har konfigurerat tidrapporter, kan du skapa tidrapporter för resurser, tilldela dem till projektplaneringsrader och bokföra tidrapportrader. Mer information finns i [Så här använder du tidrapporter](projects-how-use-time-sheets.md).  
+När du har konfigurerat tidrapporter kan du skapa dem för resurser, som i sin tur kan bokföra tidrapportrader. Alternativt kan du även tilldela tidrapporter till projektplaneringsrader. Mer information finns i [Så här använder du tidrapporter](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Skapa tidrapporter med hjälp av guiden för assisterad konfiguration
 
@@ -42,6 +45,8 @@ Från och med 2021 utgivningscykel 2 kan du använda en assisterad installations
 Guiden assisterad konfiguration går igenom följande steg:
 
 1. Konfigurera deltagarna i tidrapportsprocesser.
+
+    På den första sidan i guiden visas antalet användare i din [!INCLUDE [prod_short](includes/prod_short.md)]. Här visas också annan obligatorisk och valfri information.  
 2. Ange den första dagen i en arbetsvecka i den här organisationen
 
     Den första dagen i en arbetsvecka är den första dagen för alla tidrapporter.
@@ -50,10 +55,7 @@ Guiden assisterad konfiguration går igenom följande steg:
     Den här personen kan redigera och ta bort alla tidrapporter. Du kan också lägga till samma roll för andra personer på sidan **användarinställningar**.
 4. Ställ in de resurser som ska använda tidrapporter och de personer som ska godkänna tidrapporter
 
-    > [!NOTE]
-    > För projekt och projekt är användarna av tidrapporter *resurser*, inte anställda. För att kunna spåra medarbetarnas måste du koppla resurser till medarbetare i inställningsguiden.
-
-I slutet av installationshandboken kan du välja att [!INCLUDE [prod_short](includes/prod_short.md)] skapa tidrapporter baserat på din konfiguration. Du kan också köra guiden assisterad konfiguration igen eller slutföra installationen manuellt.  
+I slutet av installationshandboken kan du välja att [!INCLUDE [prod_short](includes/prod_short.md)] skapa tidrapporter baserat på din konfiguration. Visa de nya tidrapporterna på sidan **Tidrapporter**, som du kan öppna [här](https://businesscentral.dynamics.com/?page=951). Du kan också köra guiden assisterad konfiguration igen eller slutföra installationen manuellt.  
 
 ## <a name="set-up-time-sheets-manually"></a>Ställ in tidrapporter manuellt
 

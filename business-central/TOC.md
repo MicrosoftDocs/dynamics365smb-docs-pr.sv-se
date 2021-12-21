@@ -684,7 +684,7 @@
 ### [Projektrapporter](project-reports.md)
 ### [Skapa projekt](projects-how-create-jobs.md)
 ### [Använda resurser för projekt](projects-how-use-resources.md)
-### [Använda tidrapporter för projekt](projects-how-use-time-sheets.md)
+### [Använda tidrapporter](projects-how-use-time-sheets.md)
 ### [Hantera projektbudgetar](projects-how-manage-budgets.md)
 ### [Registrera förbrukning för projekt](projects-how-record-job-usage.md)
 ### [Hantera projektleveranser](projects-how-manage-project-supplies.md)

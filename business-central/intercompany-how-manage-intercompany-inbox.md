@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445707"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921018"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Hantera koncerninterna in- och utkorgar
 Alla koncerninterna transaktioner som du tar emot elektroniskt från dina koncerninterna partner visas i den koncerninterna inkorgen.  
@@ -51,7 +51,7 @@ Du kan använda fältet **Visa transaktionskälla** om du vill filtrera sidan **
 
  > [!NOTE]  
  > Om den koncerninterna partnern finns i samma databas, överför transaktionerna utan behov av fil eller e-post. Visa fältet **Överföringstyp** på sidan **koncerninterna partner**. <br /><br />
-I så fall kan du konfigurera systemet till att åsidosätta Inkorgen och Utkorgen genom att markera kryssrutan **automatiskt acceptera transaktioner** på sidan **koncerninterna partner** och markera kryssrutan **automatiskt skicka transaktioner** på sidan **koncerninterna inställningar**.
+I så fall kan du konfigurera systemet till att åsidosätta Inkorgen och Utkorgen genom att markera kryssrutan **automatiskt acceptera transaktioner** på sidan **koncerninterna partner** och markera kryssrutan **automatiskt skicka transaktioner** på sidan **koncerninterna inställningar**. Inkommande koncerninterna transaktioner kan endast accepteras automatiskt om Schemaläggaren är aktiverad. Mer information finns i [Konfigurera Business Central Server – Inställningar för Schemaläggaren](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Så här importerar du koncerninterna transaktioner från en fil:  
 Om du har en koncernintern partner som inte finns i samma databas som ditt företag kan du ta emot koncerninterna transaktioner från den partnern i en XML-fil. Därefter måste du importera transaktionerna till inkorgen.  

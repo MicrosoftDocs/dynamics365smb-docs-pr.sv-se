@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588632"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889800"
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Så här fungerar i redovisningen och kontoplanen
+# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Förstå redovisningen och kontoplanen
 
 Redovisningen lagrar dina ekonomiska data, och kontoplanen visar de konton som alla redovisningstransaktioner bokförs på. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
 
@@ -31,10 +31,13 @@ På sidan **Redovisningsinställningar** anger du hur du vill hantera vissa bokf
 * Adresslayout  
 * Ekonomisk rapportering  
 
-På liknande sätt p sidan **Bokföringsinställningar** anger du hur du vill ange kombinationer av allmän bokföringsmallar och allmäna produktbokföringsmallar. Bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. Du fyller i en rad för varje kombination av rörelse- och produktbokföringsmall. Mer information finns i [Inställning av bokföringsmall](finance-posting-groups.md).  
-
 > [!TIP]
 > Sidan **redovisningsinställning** innehåller allmänna fält och fält som är specifika för ditt land eller din region. Om du är osäker på innebörden av ett fält föreslår vi att du arbetar med revisorn för att avgöra om det är relevant för organisationen.  
+
+På liknande sätt p sidan **Bokföringsinställningar** anger du hur du vill ange kombinationer av allmän bokföringsmallar och allmäna produktbokföringsmallar. Bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. Du fyller i en rad för varje kombination av rörelse- och produktbokföringsmall. Du kan emellertid också öppna varje enskild rad i dess kort för bokföringsinställning. Mer information finns i [Inställning av bokföringsmall](finance-posting-groups.md).  
+
+> [!TIP]
+> Om fälten du söker inte visas på sidan **Bokföringsinställningar** kan du använda den vågräta rullningslisten längst ned på sidan för att rulla åt höger.  
 
 ## <a name="the-chart-of-accounts"></a>Kontoplanen
 

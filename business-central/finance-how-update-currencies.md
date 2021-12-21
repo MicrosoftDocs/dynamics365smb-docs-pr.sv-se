@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660187"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921064"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
 
@@ -174,7 +174,10 @@ Justeringstransaktionerna tilldelas dimensioner från de redovisningskonton de b
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Så här konfigurerar du en valutakurstjänst
-Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig uppdatering av aktuella valutakurser.
+Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig uppdatering av aktuella valutakurser. 
+
+> [!NOTE]
+> De flesta valutakurstjänster tillhandahåller data som är kompatibla med importförfarandet i [!INCLUDE[prod_short](includes/prod_short.md)]. Ibland har datan emellertid formaterats annorlunda, och du måste då anpassa importen. Du kan använda ramverket för dataintegrering för att göra detta genom att lägga till din egen codeunit. Du behöver troligen lite hjälp från en utvecklare för att göra detta. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Valutakurstjänster** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.

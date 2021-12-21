@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701521"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889826"
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
+
 Om du vill att din kund ska betala innan ni levererar till dem eller om er leverentör kräver att ni betalar innan dem levererar till er kan du använda Förskottsbetalningsfunktionen Förskottsbetalningar låter dig fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer och för att säkerställa att alla delbetalningar bokförs mot en faktura. För mer information, se [Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).
 
 Innan du kan bokföra förskottsfakturor måste du skapa bokföringskonton i redovisningen och ange nummerserier för förskottsbetalningsdokument. Du måste ange ett konto för förskottsbetalningar som relaterar till försäljning och ett konto för förskottsbetalningar som rör inköp. Du kan ange samma bokföringskonton som ska användas för alla förskottsbetalningar som är kopplade till alla rörelsebokföringsmallar eller produktbokföringsmallar, eller så kan du ange specifika konton för särskilda bokföringsmallar för försäljning respektive inköp. Detta beror på ditt företags behov av att följa upp förskottsbetalningar.  
@@ -23,6 +24,7 @@ Du kan ange procentandelen av radbeloppet som ska faktureras som förskottsbetal
 
 > [!NOTE]
 > Vi rekommenderar att du inte använder en procentandel för förskottsbetalning på 100 % i följande fall:
+>
 > * Om du befinner dig i Nordamerika: På grund av sättet att beräkna skatter kan en procentandel för förskottsbetalning på 100 % förorsaka problem med förskottsinbetalningsfakturor.
 > * Om du drar av en rabatt från fakturan manuellt (gäller samtliga regioner): En procentandel för förskottsbetalning på 100 % kommer inte automatiskt att lämna kvar ett belopp från vilket rabatten kan dras. 
 
@@ -33,10 +35,10 @@ Eftersom det förutbetalda beloppet hör till köparen ända tills han/hon har m
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Så här lägger du till konton för förutbetalda poster i bokföringsinställningarna  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.
-2. På sidan **Bokföringsinställningar** fyller du i följande fält:  
+2. På sidan **Allmänna bokföringsinställningar** fyller du i följande fält för relevanta rader:  
 
-    - **Förskottsbet.konto, försäljning**  
-    - **Förskottsbet.konto, inköp**  
+    * **Förskottsbet.konto, försäljning**  
+    * **Förskottsbet.konto, inköp**  
 
 > [!TIP]
 > Om fälten inte visas på sidan **Bokföringsinställningar** kan du använda den vågräta rullningslisten längst ned på sidan för att rulla åt höger.  
@@ -46,16 +48,16 @@ Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarn
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Så här skapar du nummerserier för dokument för förskottsbetalning  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
-2. På sidan **Försäljningsinställningar** fyller du i följande fält:  
+2. På sidan **Försäljningsinställningar** fyller du i följande fält på snabbfliken **Nummerserier**:  
 
-   - **Försk.fakt.nr.serie (bokförd)**
-   - **Försk.kredit.nr.serie (bokförd)**
+   * **Försk.fakt.nr.serie (bokförd)**
+   * **Försk.kredit.nr.serie (bokförd)**
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inköpsinställningar** och väljer sedan relaterad länk.
-2. På sidan **Inköpsinställningar** fyller du i följande fält:
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inköpsinställningar** och väljer sedan relaterad länk.
+4. På sidan **Inköpsinställningar** fyller du i följande fält på snabbfliken **Nummerserier**:
 
-    - **Försk.fakt.nr.serie (bokförd)**
-    - **Försk.kredit.nr.serie (bokförd)**
+    * **Försk.fakt.nr.serie (bokförd)**
+    * **Försk.kredit.nr.serie (bokförd)**
 
 > [!NOTE]  
 > Du kan använda samma nummerserier för förskottsfakturor och vanliga fakturor eller använda olika nummerserier. Om du använder olika serier får dessa inte överlappa, d.v.s. det får inte finnas några nummer som finns med i båda serierna.  
@@ -74,6 +76,9 @@ Du kan ställa in en kunds eller leverantörs standardprocentandel för förskot
 2. Öppna kort för en kund.
 3. Fyll i fältet **Förskottsbetalning %**.
 4. Upprepa stegen för andra kunder eller för leverantörer.  
+
+> [!TIP]
+> Du kan också komma åt sidan **Procentandelar, förskottsbetalning för försäljning** via kund- eller leverantörskortet.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Så här fastställer du vilken förskottsbetalda procentandel som har första prioritet  
 

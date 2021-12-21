@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701571"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889842"
 ---
 # <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 
@@ -29,7 +29,7 @@ I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en f
 
 ## <a name="to-create-a-prepayment-invoice"></a>Så här skapar du en förskottsfaktura
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Skapa en ny försäljningsorder för relevant kund. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 
     På snabbfliken **Förskottsbetalning** i fältet **Förskottsbetalning %** anges den procentandel som ska användas för att beräkna förskottsbeloppet. Om det finns en standardprocentandel på kundkortet fylls fältet i automatiskt. Du kan ändra procentandelen. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -46,6 +46,9 @@ I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en f
 3. Fyll i försäljningsraderna.  
 
     Om du har angett en standard procentandel för förskottsbetalning för kunden eller på snabbfliken **förskottsbetalning** i det här dokumentet kopieras det här värdet till varje rad. Du kan ändra innehållet i fältet **Förskottsbetalning %** på raden.  
+
+    > [!TIP]
+    > Om du inte ser fältet **Förskottsbetalning %** kan du lägga till det med hjälp av anpassning.  Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 4. Visa det totala förskottsbeloppet genom att välja åtgärden **statistik**.
 
@@ -72,7 +75,8 @@ Du kan skicka ut ytterligare förskottsfakturor för ordern. Om du vill göra de
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  
 [Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Anpassa din arbetsyta](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

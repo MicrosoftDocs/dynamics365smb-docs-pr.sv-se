@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e62a4709b493d44487d189dfd9ec5b76bc6987b8
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446171"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921026"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurera beräknings- och bokföringsmetoder för moms
 
@@ -31,7 +31,10 @@ Du kan ställa in momsberäkningar manuellt, men det kan vara svårt och tidsöd
 > [!NOTE]  
 > Du kan endast använda guiden om du har skapat ett Mitt företag och inte har bokfört transaktioner som inkluderar moms. Annars skulle vara mycket emkelt att använda olika momssatser av misstag, och göra felaktiga momsrapporter.  
 
-Om du vill ställa in momsberäkningar själv eller bara vill ha information om varje steg innehåller i det här avsnittet beskrivningar av varje steg.
+Om du vill ställa in momsberäkningar själv eller bara vill ha information om varje steg innehåller i det här avsnittet beskrivningar av varje steg.  
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] är tillgängligt i länder som inte använder moms. Information om hur du ställer in och rapporterar moms i ett visst land finns i artiklarna i avsnittet [Lokal funktionalitet i Business Central](about-localization.md).  
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Använd den assisterade konfigurationsguiden för att ställa in momsen (rekommenderat).
 
@@ -155,9 +158,9 @@ Du använder funktionen för importmoms när du bokför ett dokument där hela b
 
 Så här anger du koder för importmoms:  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Moms produktbokföringsmallar** och väljer sedan relaterad länk.  
-2. På sidan Moms produktbokföringsmallar anger du en ny produktbokföringsmall för importmoms.  
+2. På sidan Bokföringsmallar för momsprodukter anger du en ny produktbokföringsmall för importmoms.  
 3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.  
-4. På sidan Moms bokföringsinställningar skapar du en ny rad eller använder valfri befintlig rörelsebokföringsmall för moms i kombination med den nya produktbokföringsmallen för moms för importmoms.  
+4. På sidan Bokföringsmallar för momsprodukter skapar du en ny rad eller använder valfri befintlig rörelsebokföringsmall för moms i kombination med den nya produktbokföringsmallen för moms för importmoms.  
 5. I fältet **Momsberäkningstyp** väljer du **enbart moms**.  
 6. Ange det redovisningskonto som ska användas för att bokföra importmoms i fältet **Ingående moms**. Alla andra konton är valfria.  
 
@@ -176,7 +179,7 @@ Ingen moms beräknas på försäljning till momspliktiga företag i andra lände
 
 För att korrekt beräkna moms på försäljning till länder/regioner inom EU bör du:  
 
-* Lägg upp en rad för försäljning med samma information för inköp. Om du redan har lagt upp rader på sidan Moms bokföringsinställning för inköp från andra länder/regioner inom EU kan du även använda dessa rader för försäljning.  
+* Lägg upp en rad för försäljning med samma information för inköp. Om du redan har lagt upp rader på sidan Bokföringsinställning för moms för inköp från andra länder/regioner inom EU kan du även använda dessa rader för försäljning.  
 * Tilldela rörelsebokföringsmallar för moms i fältet **Moms rörelsebokföringsmall** på snabbfliken **Fakturering** på leverantörskortet för varje EU-leverantör. Du bör också ange kunden momsregistreringsnummer i fältet **Momsregistreringsnr** på Snabbfliken **Utlandshandel**.  
 
 När du bokför en försäljning till en kund i ett annat land eller en annan region inom EU beräknas momsbeloppet och en momstransaktion skapas med informationen om omvänd moms och nettobeloppet (det belopp som används för att beräkna momsbeloppet). Inga poster bokförs på momskontona i redovisningen.
