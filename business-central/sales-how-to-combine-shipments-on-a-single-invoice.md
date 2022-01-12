@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442731"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7929586"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinera leveranser på en enda faktura
 Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.  
@@ -34,6 +34,9 @@ Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma 
 
     Om du har markerat fel leveransrad eller om du vill börja om kan du ta bort raderna på fakturan och köra funktionen **Hämta leveransrader** på nytt.  
 7. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
+
+> [!TIP]  
+> Om du har levererat order där du fyller i fältet **Försäljningskundnr.** Skiljer sig från **Faktureringskundnr.**, visas inte raderna i rapporten **Hämta leveransrader**. Använd anpassning för att lägga till fältet **Försäljningskund** och ta bort filtret. Nu kan du lägga till leverans rader på fakturan oavsett värdet i fältet **Försäljningskundnr.** Om du vill använda fältet **Faktureringskundnr.** Fältet på leverans raderna matchar värdet på försäljningsfakturan.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura  
 [!INCLUDE[prod_short](includes/prod_short.md)] väljer endast de försäljningsorder där **Kombinera leveranser** har valts. 

@@ -1,5 +1,5 @@
 ---
-title: Ange betalsätt
+title: Ställa in betalningssätt (innehåller video)
 description: Du kan använda betalningsmetoder, till exempel, kontrollera, banköverföring, kontant eller PayPal, för att ange hur försäljnings- och inköpsfakturor ska betalas.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: de37cfd8719615dbc736ff6e7b03ee75d97c87ce
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: bf15f815b844661de90954c805b0b4481076504e
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437347"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940782"
 ---
 # <a name="set-up-payment-methods"></a>Ange betalsätt
 

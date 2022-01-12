@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587815"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949029"
 ---
 # <a name="reconcile-bank-accounts"></a>Stämma av bankkonton
 
@@ -36,7 +36,7 @@ Att avstämma banktransaktioner med interna banktransaktioner kallas *matchning*
 > [!NOTE]  
 > Om kontoutdragsrader berör checktransaktioner kan du inte använda matchningsfunktionerna. I stället måste du välja åtgärden **Koppla trans.** och sedan välja den relevanta checktransaktionen att matcha kontoutdragraden med.
 
-När värdet i fältet **Totalt saldo** i rutan **Kontoutdragsrader** är lika med värdet i fältet **Saldo att stämma av** i rutan **Bankkontotransaktioner** kan du välja åtgärden **Bokför**. Alla icke-matchade bankkontotransaktioner kommer att finnas kvar på sidan, vilket indikerar en viss avvikelse som du bör lösa för att stämma av bankkontot.
+När värdet i fältet **Total saldo** i **Kontoutdragrader** är lika med det totala värdet av **Bankkontotransaktioner** plus fältet **Saldo för senaste kontoavstämning** i **Bankkontotransaktioner** kan du välja **Bok**. Omatchat bankkontotransaktioner kommer att finnas kvar på sidan, vilket indikerar en viss avvikelse som du bör lösa för att stämma av bankkontot.
 
 Alla rader som inte kan matchas, vilket anges med ett värde i fältet **Skillnad**, finns kvar på sidan **Bankkontoavstämning** efter bokföring. De representerar någon form av avvikelse som du måste lösa innan du kan slutföra bankkontoavstämningen. Typiska affärssituationer som kan orsaka skillnader:
 

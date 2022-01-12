@@ -1,5 +1,5 @@
 ---
-title: Skapa inköpare och koppla inköpare till leverantörer | Microsoft Docs
+title: Skapa inköpare och koppla inköpare till leverantörer (innehåller video) | Microsoft Docs
 description: Om flera inköpare eller inköpsagenter arbetar i företaget kan du sortera dem för statistiska analyser.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 452a5fab73d60bea127d19a42c1730fcbd24b06c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435141"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940182"
 ---
 # <a name="set-up-purchasers"></a>Konfigurera inköpare
 Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och tilldela en kod till var och en. Du kan sedan använda koderna för att utarbeta statistiska redogörelser och filtrera information i rapporter.<br><br>  

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724818"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940207"
 ---
 # <a name="cash-flow-overview"></a>Kassaflöde, översikt
 
@@ -26,7 +26,7 @@ Att förstå kassainflöde och kassautflöde är nyckeln till att driva en framg
 
 Termen *kassaflöde* används för att visa inbetalningar minus utbetalningar under en vald period. Det är en uppskattning av den mängd pengar du kan förvänta dig in i och ut ur din verksamhet, och innefattar alla förväntade intäkter och kostnader.
 
-## <a name="cash-flow-overview"></a>Kassaflöde, översikt
+## <a name="work-with-cash-flow"></a>Arbeta med kassaflöde
 
 Illustrationen visar en översikt över hur du kan arbeta med kassaflöde.
 
@@ -74,7 +74,10 @@ Nettokassaflöde eller kontanter i handen beräknas som totala inbetalningar min
 Prognosen kan sedan användas som ett internt beslutsverktyg som hjälper dig att planera framåt och göra viktiga strategiska beslut i verksamheten.
 
 ## <a name="see-also"></a>Se även
+
 [Ställa in analys för kassaflöde](finance-setup-cash-flow-analyses.md)  
-[Analysera kassaflöde](finance-analyze-cash-flow.md)
+[Analysera kassaflöde](finance-analyze-cash-flow.md)  
+[Prognostisera ditt kassaflöde i Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Ställ in kassaflödesprognoser med Azure AI i Dynamics 365 Business Central ( Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

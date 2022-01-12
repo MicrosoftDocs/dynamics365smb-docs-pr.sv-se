@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7d7493f0bada0796ee910ca8df01465c3086cd2
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442756"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940507"
 ---
 # <a name="calculate-order-promising-dates"></a>Beräkna orderlöftesdatum
 Ett företag måste kunna informera sina kunder om orderleveransdatum. Sidan **Orderlöftesrader** ger dig möjlighet att göra detta från en försäljningsorder.  
 
-Baserat på en artikels kända och förväntade dispositionsdatum beräknas utleverans- och leveransdatum omedelbart i [!INCLUDE[prod_short](includes/prod_short.md)]. Datum kan sedan utlovas till kund.  
+[!INCLUDE[prod_short](includes/prod_short.md)] beräknar leverans- och leveransdatum baserat på en varas kända och förväntade tillgänglighetsdatum, som du kan lova kunderna.  
 
 Om du anger ett begärt leveransdatum på försäljningsorderraden används detta datum som utgångspunkt för följande beräkningar.  
 
@@ -43,7 +43,7 @@ Med funktionen Orderlöfte kan du lova att en order ska levereras på ett visst 
 - Kapabel att lova (CTP)  
 
 ### <a name="available-to-promise"></a>Disponibelt att lova  
-Disponibelt att lova (ATP) beräknar datum baserat på reservationssystemet. Det utför en tillgänglighetskontroll av det icke reserverade antalet i lager med hänsyn till planerad produktion, inköp, överföringar och returer. Baserat på de här uppgifterna beräknas automatiskt kundbeställningens leveransdatum i [!INCLUDE[prod_short](includes/prod_short.md)] eftersom artiklarna är disponibla, antingen i lagret eller i planerade inleveranser.  
+Disponibelt att lova (ATP) beräknar datum baserat på reservationssystemet. Det utför en tillgänglighetskontroll av det icke reserverade antalet i lager med hänsyn till planerad produktion, inköp, överföringar och returer. Baserat på de här uppgifterna beräknas kundbeställningens leveransdatum i [!INCLUDE[prod_short](includes/prod_short.md)] eftersom artiklarna är disponibla, antingen i lagret eller i planerade inleveranser.  
 
 ### <a name="capable-to-promise"></a>Kapabel att lova  
 Kapabel att lova (CTP) utgår från ett ”vad händer om”-scenario som endast gäller artikelantal som inte finns i lager eller i planerade ordrar. Med hjälp av det här scenariot beräknas i [!INCLUDE[prod_short](includes/prod_short.md)] det tidigaste datum då artikeln kan vara tillgänglig, om det ska produceras, köpas in eller överföras.
@@ -92,38 +92,20 @@ Förutom ett externt orderlöfte som du kan utföra på sidan **Orderlöftesrade
 4. Ange en orderlöftesmall i fältet **Orderlöftesmall** genom att välja en rad från listan på sidan **Inköpskalkylarksmallista**.  
 5. Ange ett inköpskalkylark i fältet **Orderlöfteskalkylark** genom att markera en rad från listan på sidan **Inköpskalkylarksnamn**.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Så här anger du inkommande lagerhanteringstid på sidan för lagerinställningarna  
-Om du vill ange en inkommande lagerhanteringstid som ska tas med i orderlöftesberäkningen på inköpsraden, kan du ange tiden som standard för lagret och för lagerstället.    
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Ankommande och avgående lagerhanteringstider i order löftet  
+Om du vill inkludera lagerhanteringstid i beräkningen för beställning som lovar på inköpsraden, på sida **Lagerinställningar** kan du ange en standardhanteringstid att använda på försäljnings- och inköpsdokument. Du kan också ange särskilda tider för var och en av dina lager ställen på sidan **lagerställekort**. 
+
+#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Så här anger du standard- och avgående lagerhanteringstid för försäljnings- och inköpsdokument
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.  
-2. I fältet **inkommande lagerhanteringstid** på snabbfliken **Allmänt** anger du det antal dagar som ska tas med i orderlöftesberäkningen.  
+2. På snabbfliken **Allmänt** i fältet **inkommande lagerhanteringstid** och **utgående lagerhanteringstid**, ange det antal dagar som du vill inkludera i beräkningen med löfte om beställning.  
 
-> [!NOTE]  
->  Om du har fyllt i fältet **inkommande lagerhanteringstid** på **lagerställekortet** för lagerstället, används värdet i detta fält som standard för inkommande lagerhanteringstid.  
-
-### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Så här anger du inkommande lagerhanteringstid på lagerställekort  
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Att ange inkommande och utgående lagerhanteringstider på platser  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plats** och väljer sedan relaterad länk.  
 2.  Öppna önskat lagerställekort.  
-3.  I fältet **inkommande lagerhanteringstid** på snabbfliken **Lager** anger du det antal dagar som ska tas med i orderlöftesberäkningen.  
+3.  På snabbfliken **Distributionslager** i fältet **inkommande lagerhanteringstid** och **utgående lagerhanteringstid**, ange det antal dagar som du vill inkludera i beräkningen med löfte om beställning.  
 
 > [!NOTE]  
->  Om du lämnar fältet **inkommande Lagerhanteringstid. Lagerhanteringstid** tomt använder beräkningen värdet på sidan **Lagerinställningar**.
-
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Så här anger du utgående lagerhanteringstid på sidan för lagerinställningarna  
-Om du vill ange en utgående lagerhanteringstid som ska tas med i orderlöftesberäkningen på försäljningsraden, kan du ange tiden som standard för lagret.
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.  
-2. I fältet **utgående lagerhanteringstid** på snabbfliken **Allmänt** anger du det antal dagar som ska tas med i orderlöftesberäkningen.  
-
-> [!NOTE]  
->  Om du har fyllt i fältet **utgående lagerhanteringstid** på lagerställekortet för lagerstället, används värdet i detta fält som standard för utgående lagerhanteringstid.  
-
-### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Så här anger du utgående lagerhanteringstid på lagerställekort  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
-2.  Öppna önskat lagerställekort.  
-3.  I fältet **utgående lagerhanteringstid** på snabbfliken **Lager** anger du det antal dagar som ska tas med i orderlöftesberäkningen.  
-
-> [!NOTE]  
->  Om du lämnar fältet **utgående lagerhanteringstid** tomt använder beräkningen värdet på sidan **Lagerinställningar**.
+>  När du skapar en inköps order, väljer du **Plats** i fältet **Leverans** på snabbfliken **Leverans och betalning** och välj sedan en plats i fältet **Platskod** kommer fälten **utgående lagerhanteringstid** och **inkommande Lagerhanteringstid** att använda den hanteringstid som har angetts för lagerstället. För försäljningsorder är samma sant om du väljer en plats i fältet **platskod**. Om ingen hanterings tid har angetts för platsen är fälten **utgående lagerhanteringstid** och **inkommande lagerhanteringstid** tomma. Om du lämnar fältet **Platskod** tomt på försäljnings- och inköpshandlingar använder beräkningen den hanteringstid som anges på sidan **Lagerinställningar**.
 
 ## <a name="to-make-an-item-critical"></a>Så här gör du en artikel kritisk  
 Innan ett objekt kan tas med i orderlöftesberäkningen, måste den markeras som kritisk. Den här inställningen ser till att icke-kritiska objekt inte orsakar orderlöftesberäkningar.   
@@ -132,7 +114,7 @@ Innan ett objekt kan tas med i orderlöftesberäkningen, måste den markeras som
 3.  Välj **Kritiskt** på snabbfliken **Planering**.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Så här beräknar du ett orderlöftesdatum  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Öppna relevant försäljningsorder och markera de försäljningsorderrader som ska beräknas.  
 3.  Välj åtgärden **Orderlöfte** och klicka på åtgärden **Orderlöftesrader**.  
 4.  Välj en ny rad och välj sedan ett av följande alternativ.  

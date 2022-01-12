@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442316"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949056"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden
 Reservationsystemet är omfattande och innehåller de korrelativa och parallella funktionerna i orderspårning och åtgärdsmeddelanden.  

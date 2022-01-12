@@ -1,5 +1,5 @@
 ---
-title: Koppling och synkronisering
+title: Koppling och synkronisering (innehåller video)
 description: Genom att synkronisera en mappning av integreringstabellen möjliggörs datasynkronisering i alla poster i en tabell i Business Central eller Dynamics 365 Sales som är kopplade.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 88f83f8e4cc1c99f5696daf0486a30652c890c97
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865396"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940357"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Koppla och synkronisera poster mellan Dataverse och Business Central
 

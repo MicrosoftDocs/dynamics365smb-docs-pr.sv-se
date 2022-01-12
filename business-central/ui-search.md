@@ -1,5 +1,5 @@
 ---
-title: Söka efter Funktioner och information | Microsoft Docs
+title: Söka efter Funktioner och information (innehåller video) | Microsoft Docs
 description: Det här avsnittet beskriver hur du använder sökning för att hitta åtgärder, sidor, rapporter, dokumentation och data, samt andra program och rådgivning.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1e44edeee82214c1d19489da351b3001bfa4fc3e
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440008"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940132"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[prod_short](includes/prod_short.md)].  

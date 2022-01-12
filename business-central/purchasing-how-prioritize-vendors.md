@@ -1,5 +1,5 @@
 ---
-title: Tilldela en leverantör till en prioritetsnivå | Microsoft Docs
+title: Tilldela en leverantör till en prioritetsnivå (innehåller video) | Microsoft Docs
 description: Du kan tilldela nummer till dina leverantörer för att prioritera dessa och underlätta betalningsförslag i Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d83fe736298e4cae3b6b86a495e0567057df2cc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7e68c56422f4f3de33006297ec396fdd34169e8d
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443300"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940057"
 ---
 # <a name="prioritize-vendors"></a>Prioritera leverantörer
 [!INCLUDE[prod_short](includes/prod_short.md)] används för att ta fram olika betalningsförslag, t. ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).

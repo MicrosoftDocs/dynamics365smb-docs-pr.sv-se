@@ -1,8 +1,6 @@
 ---
 title: Inställning av bokföringsmall | Microsoft Docs
 description: Översikt av bokföringsmallar som du kan använda för att spara tid och för att undvika misstag när du bokför transaktioner.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588813"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940757"
 ---
 # <a name="setting-up-posting-groups"></a>Ställa in bokföringsmallar
 Bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. De sparar tid och undviker fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Inställningen avgör när bokföring sker. När är exempelvis timing påverkas
 
 ## <a name="copying-posting-setup-lines"></a>Kopiera bokföringsinställningsrader
 Ju fler produkt- och rörelsebokföringsmallar du har desto fler rader ser du på sidan Bokföringsinställningar. Detta kan innebära att många inmatningar måste göras för att lägga upp bokföringsinställningar för företaget. Det kan finnas många olika kombinationer av rörelse- och produktbokföringsmallar, men olika kombinationer kan fortfarande bokföras till samma redovisningskonton. Om du vill begränsa andelen manuell inmatning kopierar du redovisningskontona från en befintlig rad på sidan **Generella bokföringsinställningar**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Skapa inläggsgrupper när du är på språng
+
+Om du vill att användarna ska startas snabbare kan du få hjälp av [!INCLUDE[prod_short](includes/prod_short.md)] via meddelanden om redovisningskonton som saknas i olika bokföringsgrupper i dokument. För att få dessa meddelanden, se till att meddelandet **Redovisningskonto saknas i bokföringsmall eller inställningar** väljs på sidan **Mina meddelanden**, som du kan komma åt från fältet **Ändra när jag får meddelanden** på sidan **Mina inställningar**.  
+
+På så sätt får du ett meddelande när du arbetar med ett dokument som använder en bokföringsmall eller en inställning som saknar ett nödvändigt redovisningskonto. Välj länken i meddelandet för att öppna en sida där du kan utföra relevanta ändringar, förutsatt att du har behörighet att göra det.  
+
+> [!NOTE]
+> För att du ska kunna ta dig direkt till bokförings mal len eller för den inställning som saknar ett redovisningskonto, [!INCLUDE[prod_short](includes/prod_short.md)] skapas en platshållare för bokföringsmall eller inställningar. Bokföringsmallar och -inställningar är ett sätt för revisorn att kontrollera hur transaktioner bokförs i redovisningen så att bokföringsmallar och inställningar inte kan skapas i organisationen just nu.  
+> 
+> I så fall kan du inaktivera meddelandet **Redovisningskonto saknas i bokföringsmall eller inställningar** och arbeta sedan med din revisor för att göra relevanta ändringar i bokföringsgruppen, inställningarna eller ditt dokument. Det här är ett viktigt steg, eftersom när dokumenten har bokförts går det inte att ta bort alla felaktigt använda bokföringsmallar eller inställningar eftersom redovisningstransaktioner skapas för dem. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Felsökning av bokföringsgruppfel
 Bokföringsmallar är ett av de mer avancerade koncepten som du ställer in i [!INCLUDE[prod_short](includes/prod_short.md)]. Om de inte är korrekt konfigurerade kan fel uppstå vid bokföring av dokument eller journalrader. Dessa fel orsakas exempelvis vanligen av ett misstag i hur redovisningskonton tilldelas eller hur bokföringsmallar kombineras.

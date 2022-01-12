@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 06/23/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434914"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940832"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning  
+# <a name="the-late-payment-prediction-extension"></a>Tillägget för prediktion om sen betalning
+
 Det är viktigt för den övergripande ekonomiska situationen i ett företag att effektivt hantera kundfordringar. Tillägget för prediktion om sen betalning hjälper dig att minska utestående kundfordringar och finjustera din insamlingsstrategi genom att förutsäga om försäljningsfakturor kommer att betalas i tid eller inte. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod.
 
 ## <a name="getting-started"></a>Komma igång
@@ -26,7 +27,7 @@ När du öppnar ett bokfört försäljningsdokument, visas ett meddelande längs
 
 Om du vill aktivera tillägget manuellt följer du dessa steg:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 
 > [!Note]
@@ -91,7 +92,7 @@ Om det verkar som om dina processer inte matchar standardmodellen kan du ändå 
 [!INCLUDE[prod_short](includes/prod_short.md)] kör utbildning och utvärdering automatiskt när det finns tillräckligt med betalda och sena fakturor, men du kan också köra det manuellt när du vill.
 
 #### <a name="to-train-and-use-your-model"></a>Att träna och använda din modell
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
 2. I fältet **Vald modell**, välj **Min modell**.
 3. Välj åtgärden **Skapa min modell** för att träna modellen på dina data.  
 
@@ -103,14 +104,17 @@ Du kan också skapa din egen förebyggande webbtjänst som bygger på en allmän
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
-6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
+6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inställningar för prediktion om sen betalning** och väljer sedan relaterad länk.  
 7. Markera kryssrutan **Använd Min Azure prenumeration**.
 8. På snabbfliken **mina autentiseringsuppgifter för modell**, ange API-URL och API-nyckel för din modell.  .  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>Se även
+
 [Azure Machine Learning Studio-dokumentation](/azure/machine-learning/classic/)  
 [Anpassa Business Central med tillägg](ui-extensions.md)  
 [Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-
+[Använd artificiell intelligens i Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

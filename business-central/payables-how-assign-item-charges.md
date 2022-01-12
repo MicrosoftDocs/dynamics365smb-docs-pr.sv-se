@@ -1,5 +1,5 @@
 ---
-title: Tilldela artikelomkostnader till försäljning och inköp
+title: Tilldela artikelomkostnader till försäljning och inköp (innehåller video)
 description: Tilldela artikelavgifter när du behöver lagervaror för att bära extra kostnader, till exempel frakt och fysisk hantering som du ådrar dig när du köper eller säljer föremål.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f44b2133aca930f0009f7cb6efa25b89a89764ec
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436907"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940382"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
 Om du vill säkerställa korrekt värderingmåste dina lagerartiklar läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar. För inköp kommer lossningsavgiften för en inköpt artikel bestå av leverantörens inköpspris och samtliga artikelomkostnader som kan kopplas till enskilda inleveranser eller returutleveranser. För försäljning kan det vara lika betydelsefullt för företaget att känna till leveranskostnader för sålda artiklar som att veta inköpskostnader inklusive hemtagningskostnader för inköpta artiklar.

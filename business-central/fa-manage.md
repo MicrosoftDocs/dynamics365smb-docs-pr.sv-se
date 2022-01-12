@@ -1,5 +1,5 @@
 ---
-title: Hantera anläggningstillgångar
+title: Hantera anläggningstillgångar (innehåller video)
 description: Lär dig mer om funktionen för anläggningstillgångar och få en översikt över hur du arbetar med och hanterar anläggningstillgångar.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 6d6cf9a0efeca2c484d0fd2e1ce06db63f2ac91f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323233"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940582"
 ---
 # <a name="managing-fixed-assets"></a>Hantera anläggningstillgångar
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.

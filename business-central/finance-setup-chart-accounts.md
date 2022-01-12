@@ -1,5 +1,5 @@
 ---
-title: Skapa kontoplanen
+title: Ställa in kontoplan (innehåller video)
 description: Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. Du kan dock ändra standardkontona i kontoplanen och du kan lägga till nya konton.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 506aae83d19c8b04102760017302e83d523f77e8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0ef1a35805413619c6da19654a8f501525997d35
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6327044"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940557"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Ställa in eller ändra kontoplanen
 

@@ -1,5 +1,5 @@
 ---
-title: Konfigurera föredragna metoder för att skicka försäljningsdokument | Microsoft Docs
+title: Konfigurera föredragna metoder för att skicka försäljningsdokument (innehåller video) | Microsoft Docs
 description: Beskriver hur du ställer in respektive kunds standardmetod för att skicka dokument, till exempel e-transaktion, PDF, elektroniska dokument och så vidare.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b91a1c0566b6fb4736093ca9617a5a1566bf2bf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436682"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939883"
 ---
 # <a name="set-up-document-sending-profiles"></a>Skapa dokumentutskicksprofiler
 Du kan skapa varje kund med en föredragen metod för att skicka försäljningsdokument så att du inte behöver välja alternativ varje gång som du väljer åtgärden **Bokför och skicka**.

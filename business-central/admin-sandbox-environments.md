@@ -9,18 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/27/2021
+ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589525"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940632"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Begränsade miljöer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online kan du enkelt få en säker miljö där du kan testa, träna eller felsöka utan att störa företagets arbetsprocesser eller affärsdata. En sådan icke-produktionsmiljö kallas för *begränsat läge*. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.  
+
+> [!TIP]
+> Landade du på den här artikeln när du valde namnet på din [!INCLUDE [prod_short](includes/prod_short.md)] miljö i den översta raden? För närvarande går det inte att ändra namnet eller miljön på det sättet. I stället måste du be administratören att ändra namnet eller be dem dela länken till en annan miljö.
 
 Administratören hanterar begränsade miljöer i [administrationscentret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

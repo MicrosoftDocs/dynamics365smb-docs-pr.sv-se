@@ -1,5 +1,5 @@
 ---
-title: Hantera kunder som använder Dynamics 365 Sales | Microsoft Docs
+title: Hantera kunder som använder Dynamics 365 Sales (innehåller video) | Microsoft Docs
 description: Du kan använda Dynamics 365 Sales uniti Business Central för att mappa data och ha sömlös integrering och synkronisering i processen från kundämne till betalning.
 documentationcenter: ''
 author: bholtorf
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 67d9915e4f60b20d0e871810dfc3d66450103a5a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444876"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940457"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Använda Dynamics 365 Sales från Business Central
 Om du använder Dynamics 365 Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[prod_short](includes/prod_short.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.

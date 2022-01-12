@@ -1,8 +1,6 @@
 ---
-title: Analysera kassaflöden | Microsoft Docs
+title: Analysera kassaflöden
 description: Beskriver hur du använder kontantcykel, intäkter och kostnader, kassaflöde och kassaflödesprognosdiagrammet för att analysera tidigare flöden av likvida medel från och till ditt företag.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: aed1ce045e4dceb2467a901278300e404cd3e32b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d4cdac7b68e0ec59edfaf88d74cdfb4dde9e3a1
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780913"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940107"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysera kassaflödet i företaget
 Diagrammen i rollcentret Revisor ger en inblick som hjälper dig att ta beslut om vad du ska göra med dina kontanter.  
@@ -45,6 +43,7 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 * Hoppar över dubbla försäljningsorder och inköpsorder.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Att visa ett kassaflödeskalkylblad
+
 1. Sök efter **Kassaflödesprognoser** och välj sedan relaterad länk.  
 2. Välj en kassaflödesprognos och välj sedan åtgärden **kassaflödeskalkylblad**.  
 3. På sidan **kassaflödekalkylblad** väljer du åtgärden **Föreslå kalkylarksrader**.  
@@ -52,9 +51,11 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
+
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ställa in analys för kassaflöde](finance-setup-cash-flow-analyses.md)  
-
+[Prognostisera ditt kassaflöde i Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Ställ in kassaflödesprognoser med Azure AI i Dynamics 365 Business Central ( Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

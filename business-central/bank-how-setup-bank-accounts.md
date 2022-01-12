@@ -1,5 +1,5 @@
 ---
-title: Skapa bankkonton
+title: Skapa bankkonton (innehåller video)
 description: Läs om hur bankkonton används i Business Central och hur du kan stämma av belopp med din bank.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 00e83bbf8c98a10e5a86f0341794bc125e8609c9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442881"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940607"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
 
@@ -84,9 +84,9 @@ Den bättre mappningsinformation som du gör i betalningsavstämningsjournal, de
 > [!WARNING]
 > Vissa fält kan innehålla känslig information, till exempel fälten **Bankfilialsnr.**, **Bankkontonr.**, **SWIFT-kod** och **IBAN-kod**. Mer information finns i [Övervaka känsliga fält](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts&quot;></a>Så här skapar du bankkonton
+## <a name="to-set-up-bank-accounts"></a>Så här skapar du bankkonton
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png &quot;Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. På sidan **Bankkonton** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Skapa artikelkort för varor eller tjänster
+title: Skapa artikelkort för varor eller tjänster (innehåller video)
 description: Du skapar artikelkort för tjänster som du säljer som timmar och för fysiska produkter, till exempel monteringsartiklar, färdiga produkter eller råmaterial som säljs från lagret.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 34a7c73cd82d63a2ca5b549e7d1cedf582a32465
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8768b1fc213b423b627dcbcc995be4bbcaf09d00
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587715"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940332"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 
