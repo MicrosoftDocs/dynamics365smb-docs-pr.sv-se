@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 30, 42, 43
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 78c69d4849dc7e7687f6bb0cdeb0229baeec1b0c
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442441"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974998"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Värderingsprinciper
 
@@ -34,11 +34,11 @@ Följande metoder stöds i [!INCLUDE[prod_short](includes/prod_short.md)]:
 | Specifik | En artikels styckkostnad är den exakta kostnaden för mottagandet av den aktuella enheten. | I produktionen eller handel med enkelt härledas artiklar med i höga kostnadspris.<br /><br /> För artiklar som lyder under regler.<br /><br /> För artiklar med serienummer. |
 | Standard | En artikels styckkostnad är förinställd baserad på uppskattning.<br /><br /> När den verkliga kostnaden senare realiseras, måste standardkostnaden justeras med den verkliga kostnaden via skillnadsvärden. | När kostnadskontroll är kritisk.<br /><br /> I upprepande produktion för att värdera kostnaderna för direkt material, direkt arbete och produktionsoverheadkostnad.<br /><br /> När det finns funktion och personal som underhåller standarder. |
 
- Följande bild visar hur kostnader flödar via lagret för varje värderingsprincip.  
+Följande bild visar hur kostnader flödar via lagret för varje värderingsprincip.  
 
  ![Värderingsprinciper.](media/design_details_inventory_costing_7_costing_methods.png "Värderingsprinciper")  
 
- Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskningar, och om de använder de faktiska kostnaderna eller standardkostnader som värderingsbas. Följande tabell förklarar de olika egenskaperna. (LIFO-metoden används inte eftersom den påminner om FIFO-metoden).  
+Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskningar, och om de använder de faktiska kostnaderna eller standardkostnader som värderingsbas. Följande tabell förklarar de olika egenskaperna. (LIFO-metoden används inte eftersom den påminner om FIFO-metoden).  
 
 |Kategori|FIFO|Genomsnitt|Standard|Specifik|  
 |-|----------|-------------|--------------|--------------|  
@@ -47,10 +47,11 @@ Följande metoder stöds i [!INCLUDE[prod_short](includes/prod_short.md)]:
 |Omvärdering|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar endast fakturerat antal.<br /><br /> Kan endast utföras per artikel.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar fakturerade och icke-fakturerade antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|  
 |Diverse|Om du bakåtdaterar en lagerminskning kopplas befintliga transaktioner INTE om för att ge ett korrekt FIFO-kostnadsflöde.|Om du bakåtdaterar en lagerökning eller lagerminskning beräknas genomsnittskostnaden om och alla transaktioner som påverkas justeras.<br /><br /> Om du ändrar perioden eller beräkningstypen måste alla påverkade transaktioner justeras.|Använd sidan **Standardformulär** för att regelbundet uppdatera och summera standardkostnader.<br /><br /> Stöds INTE per lagerställeenhet.<br /><br /> Inga historiska transaktioner finns för standardkostnader.|Du kan använda specifik artikelspårning utan att använda värderingsprincipen Specifik. Sedan följer kostnaden INTE partinumret, utan kostnadsantagandet för den valda värderingsprincipen.|  
 
-## <a name="example"></a>Exempel  
- Det här avsnittet ger exempel på hur olika värderingsprinciper påverkar lagervärdet.  
+## <a name="example"></a>Exempel
 
- Följande tabell visar lagerökningarna och lagerminskningarna som exemplen baseras på.  
+Det här avsnittet ger exempel på hur olika värderingsprinciper påverkar lagervärdet.  
+
+Följande tabell visar lagerökningarna och lagerminskningarna som exemplen baseras på.  
 
 |Bokföringsdatum|Antal|Löpnr|  
 |------------------|--------------|---------------|  
@@ -62,108 +63,111 @@ Följande metoder stöds i [!INCLUDE[prod_short](includes/prod_short.md)]:
 |04-01-20|-1|6|  
 
 > [!NOTE]  
->  De resulterande antalet i lagret är noll. Därför måste lagervärdet också vara noll, oavsett vilken värderingsprincip som används.  
+> De resulterande antalet i lagret är noll. Därför måste lagervärdet också vara noll, oavsett vilken värderingsprincip som används.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effekt av värderingsprinciper på att värdering av lagerökningar  
- **FIFO**/**LIFO**/**Genomsnitt**/**Specifik**  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Effekt av värderingsprinciper på att värdering av lagerökningar
 
- För artiklar med värderingsprinciper som använder faktiska kostnader som värderingsbas (**FIFO**, **LIFO**, **Genomsnitt** eller **Specifik**) värderas lagerökningar på artikelns anskaffningskostnad.  
+- **FIFO**/**LIFO**/**Genomsnitt**/**Specifik**  
 
- Följande tabell visar hur lagerökningar värderas för alla värderingsprinciper förutom **Standard**.  
+    För artiklar med värderingsprinciper som använder faktiska kostnader som värderingsbas (**FIFO**, **LIFO**, **Genomsnitt** eller **Specifik**) värderas lagerökningar på artikelns anskaffningskostnad.  
 
-|Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|10,00|1|  
-|01-01-20|1|20,00|2|  
-|01-01-20|1|30,00|3|  
+    Följande tabell visar hur lagerökningar värderas för alla värderingsprinciper förutom **Standard**.  
 
- **Standard**  
+    |Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|10,00|1|  
+    |01-01-20|1|20,00|2|  
+    |01-01-20|1|30,00|3|  
 
- För artiklar som använder värderingsprincipen **Standard** värderas lagerökningar enligt artikelns aktuella standardkostnad.  
+- **Standard**  
 
- Följande tabell visar hur lagerökningar värderas för värderingsprincipen **Standard**.  
+    För artiklar som använder värderingsprincipen **Standard** värderas lagerökningar enligt artikelns aktuella standardkostnad.  
 
-|Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|15,00|1|  
-|01-01-20|1|15,00|2|  
-|01-01-20|1|15,00|3|  
+    Följande tabell visar hur lagerökningar värderas för värderingsprincipen **Standard**.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effekt av värderingsprinciper på att värdering av lagerminskningar  
- **FIFO**  
+    |Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|15,00|1|  
+    |01-01-20|1|15,00|2|  
+    |01-01-20|1|15,00|3|  
 
- För artiklar med värderingsprincipen **FIFO** säljs artiklar som köptes först alltid först (löpnummer 3, 2 och 1 i det här exemplet). Lagerminskningar värderas enligt värdet av de första lagerökningarna.  
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Effekt av värderingsprinciper på att värdering av lagerminskningar
 
- KSV beräknas med hjälp av värdet på de första lageranskaffningarna.  
+- **FIFO**  
 
- Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **FIFO**.  
+    För artiklar med värderingsprincipen **FIFO** säljs artiklar som köptes först alltid först (löpnummer 3, 2 och 1 i det här exemplet). Lagerminskningar värderas enligt värdet av de första lagerökningarna.  
 
-|Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-10.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-30.00|6|  
+    KSV beräknas med hjälp av värdet på de första lageranskaffningarna.  
 
- **LIFO**  
+    Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **FIFO**.  
 
- För artiklar med värderingsprincipen **LIFO** säljs artiklar som köptes senast alltid först (löpnummer 3, 2 och 1 i det här exemplet). Lagerminskningar värderas enligt värdet av den senaste lagerökningen.  
+    |Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-10.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-30.00|6|  
 
- KSV beräknas med hjälp av värdet på de senaste lageranskaffningarna.  
+- **LIFO**  
 
- Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **LIFO**.  
+    För artiklar med värderingsprincipen **LIFO** säljs artiklar som köptes senast alltid först (löpnummer 3, 2 och 1 i det här exemplet). Lagerminskningar värderas enligt värdet av den senaste lagerökningen.  
 
-|Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-30.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-10.00|6|  
+    KSV beräknas med hjälp av värdet på de senaste lageranskaffningarna.  
 
- **Genomsnitt**  
+    Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **LIFO**.  
 
- För artiklar som använder värderingsprincipen **Genomsnitt** värderas lagerminskningar enligt ett vägt medeltal av återstående lager på det sista datumet i perioden för genomsnittskostnad som lagerminskningen bokfördes i. Mer information finns i [Designdetaljer: genomsnittskostnad](design-details-average-cost.md).  
+    |Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-30.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-10.00|6|  
 
- Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **Genomsnitt**.  
+- **Genomsnitt**  
 
-|Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-20.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-20.00|6|  
+    För artiklar som använder värderingsprincipen **Genomsnitt** värderas lagerminskningar enligt ett vägt medeltal av återstående lager på det sista datumet i perioden för genomsnittskostnad som lagerminskningen bokfördes i. Mer information finns i [Designdetaljer: genomsnittskostnad](design-details-average-cost.md).  
 
- **Standard**  
+    Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **Genomsnitt**.  
 
- För artiklar med värderingsprincipen **Normal** värderas lagerminskningar på liknande sätt som värderingsprincipen **FIFO**, förutom att värderingen baseras på en standardkostnad och inte på den faktiska kostnaden.  
+    |Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-20.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-20.00|6|  
 
- Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **Standard**.  
+- **Standard**  
 
-|Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-15.00|4|  
-|03-01-20|-1|-15.00|5|  
-|04-01-20|-1|-15.00|6|  
+    För artiklar med värderingsprincipen **Normal** värderas lagerminskningar på liknande sätt som värderingsprincipen **FIFO**, förutom att värderingen baseras på en standardkostnad och inte på den faktiska kostnaden.  
 
- **Specifik**  
+    Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **Standard**.  
 
- Värderingsprinciperna bygger på ett antagande om hur kostnadsflöden går från en lagerökning till en lagerminskning. Men om det finns mer exakt information om kostnadsflödet kan du åsidosätta detta antagande genom att skapa en fast koppling mellan transaktioner. En fast koppling skapar en länk mellan en lagerminskning och en viss lagerökning och leder kostnadflödet därefter.  
+    |Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Löpnr|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-15.00|4|  
+    |03-01-20|-1|-15.00|5|  
+    |04-01-20|-1|-15.00|6|  
 
- För artiklar med värderingsprincipen **Specifik** värderas lagerminskningar enligt lagerökningen som de är kopplade till via den fasta kopplingen.  
+- **Specifik**  
 
- Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **Specifik**.  
+    Värderingsprinciperna bygger på ett antagande om hur kostnadsflöden går från en lagerökning till en lagerminskning. Men om det finns mer exakt information om kostnadsflödet kan du åsidosätta detta antagande genom att skapa en fast koppling mellan transaktioner. En fast koppling skapar en länk mellan en lagerminskning och en viss lagerökning och leder kostnadflödet därefter.  
 
-|Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Kopplas till löpnr|Löpnr|  
-|------------------|--------------|----------------------------|-----------------------|---------------|  
-|02-01-20|-1|-20.00|**2**|4|  
-|03-01-20|-1|-10.00|**1**|5|  
-|04-01-20|-1|-30.00|**3**|6|  
+    För artiklar med värderingsprincipen **Specifik** värderas lagerminskningar enligt lagerökningen som de är kopplade till via den fasta kopplingen.  
 
-## <a name="see-also"></a>Se även  
- [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
- [Designdetaljer: Varians](design-details-variance.md)   
- [Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)   
- [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
- [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
- [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+    Följande tabell visar hur lagerminskningar värderas för värderingsprincipen **Specifik**.  
+
+    |Bokföringsdatum|Antal|Kost.belopp (aktuellt)|Kopplas till löpnr|Löpnr|
+    |------------|--------|--------------------|----------------|---------|  
+    |02-01-20|-1|-20.00|**2**|4|  
+    |03-01-20|-1|-10.00|**1**|5|  
+    |04-01-20|-1|-30.00|**3**|6|  
+
+## <a name="see-also"></a>Se även
+
+[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
+[Designdetaljer: Varians](design-details-variance.md)   
+[Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)   
+[Designdetaljer: Artikelkoppling](design-details-item-application.md)  
+[Hantera lagerkostnader](finance-manage-inventory-costs.md)  
+[Ekonomi](finance.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

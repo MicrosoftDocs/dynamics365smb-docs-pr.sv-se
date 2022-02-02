@@ -1,7 +1,6 @@
 ---
 title: Periodisera intäkter och kostnader
 description: För att känna igen en intäkt eller kostnad i en period som transaktionen inte bokfördes i, kan du använda funktioner för att automatiskt periodisera eller skjuta upp dem över ett angivet schema.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
+ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7df3f75a106503f63d4306bd05345c2fc6af9393
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a99b8e5e14d7224fb23da3f59a5fe5274b2eef33
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442781"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971151"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisera intäkter och kostnader
+
 För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera intäkter och kostnader över ett angivet schema.
 
 Om du vill fördela kostnader eller intäkter i berörda bokföringsperioder kan du skapa en periodiseringsmall för resursen, artikeln eller redovisningskontot som kostnaden eller intäkten kommer att bokföras för. När du bokför relaterade försäljnings- eller inköpsdokument, periodiseras kostnaden eller intäkten till de relevanta bokföringsperioderna, enligt en periodiseringsschema som styrs av inställningarna i periodiseringsmallen och bokföringsdatumet.
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Så här anger du ett redovisningskonto för periodisering
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten som behövs för att skapa ett redovisningskonto för periodiserade intäkter. Mer information finns i [Redovisning och kontoplan](finance-general-ledger.md).
@@ -32,6 +34,7 @@ Om du vill fördela kostnader eller intäkter i berörda bokföringsperioder kan
 För båda typerna av periodisering väljer du **balansräkningen** i fältet **Typ** och namnger kontona på lämpligt sätt, till exempel ”förutbetald inkomst” för periodiserade intäkter och "obetalda kostnader" för periodiserade kostnader.
 
 ## <a name="to-set-up-a-deferral-template"></a>Så här skapar du en periodiseringsmall
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **periodiseringsmallar** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs.
@@ -53,15 +56,18 @@ För båda typerna av periodisering väljer du **balansräkningen** i fältet **
 Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodiserade för %4%6" kommer beskrivningen som visas vara ”kostnader som periodiseras för februari 2016”.
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Så här tilldelar du en periodiseringsmall till en artikel
+
 > [!NOTE]  
->   Stegen i den här proceduren är desamma som när du tilldelar en periodiseringsmall till ett redovisningskonto eller en resurs.
+> Stegen i den här proceduren är desamma som när du tilldelar en periodiseringsmall till ett redovisningskonto eller en resurs.
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikel** och väljer sedan relaterad länk.
 2. Öppna kortet för den artikel som intäkter och kostnader måste periodiseras för till de bokföringsperioder när artikeln såldes eller köptes.
 3. I fältet **Standardmall för periodisering** väljer du relevant periodiseringsmall.
 
 ## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Så här ändrar du en periodiseringsmall från en försäljningsfaktura
+
 > [!NOTE]  
->   Stegen i den här proceduren är samma som när du ändrar ett periodiseringsschema för kostnader från en inköpsfaktura.
+> Stegen i den här proceduren är samma som när du ändrar ett periodiseringsschema för kostnader från en inköpsfaktura.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.
 2. Skapa en försäljningsfaktura för en artikel som har tilldelats en periodiseringsmall. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md).
@@ -73,8 +79,9 @@ Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodisera
 6. Välj **OK**. Periodiseringsschemat uppdateras för försäljningsfakturan. Den relaterade periodiseringsmallen är oförändrad.
 
 ## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Om du vill förhandsgranska hur periodiserade intäkter eller kostnader ska bokföras i redovisningen
+
 > [!NOTE]  
->   Stegen i den proceduren är samma som när du granskar hur kostnadsperiodiseringar bokförs.
+> Stegen i den proceduren är samma som när du granskar hur kostnadsperiodiseringar bokförs.
 
 1. På sidan **Försäljningsfaktura** väljer du åtgärden **Förhandsgranska bokföring**.
 2. På sidan **Förhandsgranska bokföring** väljer du åtgärden **Redovisningstransaktion** och sedan **Visa relaterade transaktioner**.
@@ -82,14 +89,16 @@ Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodisera
 Redovisningstransaktioner som kommer att bokföras på det angivna periodiseringskontot, till exempel förutbetald inkomst, anges med beskrivningen som du angav i fältet **Periodbesk.** i periodiseringsmallen till exempel "kostnader som periodiseras för februari 2016 ".
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Om du vill förhandsgranska bokförda periodiseringar i rapporten Periodiseringssammanfattning för försäljning
+
 > [!NOTE]  
->   Stegen i den proceduren är samma som när du granskar Periodiseringssammanfattning för försäljning.
+> Stegen i den proceduren är samma som när du granskar Periodiseringssammanfattning för försäljning.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Periodiseringssammanfattning** och väljer sedan relaterad länk.
 2. På sidan **Periodiseringssammanfattning för försäljning** i fältet **Saldo fr.o.m.:** anger du datum fram till vilket du vill se periodiserade intäkter.
 3. Klicka på **Förhandsgranska**.
 
 ## <a name="see-also"></a>Se även
+
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  

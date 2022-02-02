@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
+ms.search.form: 1660, 1661, 36601
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 059dcc5e92d20288bbcb0af260d528322c66ab48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4cd05e5059b57add08b71e6850e347d15e2e4fa6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444593"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973047"
 ---
 # <a name="importing-payroll-transactions"></a>Importera lönetransaktioner
+
 För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste du importera och bokföra finansiella transaktioner som gjorts av ditt lönesystem i redovisningen. För att göra detta måste du först importera en fil som du får från lönelistleverantören till sidan **Redovisningsjournal**. Sedan mappar du de externa kontona i lönefilen till det relevanta redovisningskontot. Slutligen bokför du lönetransaktioner enligt kontomappningen.
 
 > [!NOTE]  
->   Om du vill använda denna funktion måste ett tillägg för lönelisteimport ha installerats och aktiverats. Tilläggen Ceridian lön och importera Quickbooks lön är förinstallerade i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md).
+> Om du vill använda denna funktion måste ett tillägg för lönelisteimport ha installerats och aktiverats. Tilläggen Ceridian lön och importera Quickbooks lön är förinstallerade i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md).
 
 ## <a name="to-import-a-payroll-file"></a>Att importera en lönefil
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.
 2. I relevant redovisningsjournal väljer du åtgärden **Importera lönetransaktioner**. En assisterad inställningsguide öppnas.
 3. Följ anvisningarna på sidan **Importera lönetransaktioner**.
@@ -35,6 +38,7 @@ För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste d
 4. Ändra eller bokför journalrader som för alla andra redovisningtransaktioner. Mer information finns i [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md).   
 
 ## <a name="see-also"></a>Se även
+
 [Ekonomi](finance.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  

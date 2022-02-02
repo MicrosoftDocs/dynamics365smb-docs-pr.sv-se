@@ -5,14 +5,15 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
+ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443135"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012503"
 ---
 # <a name="manage-user-profiles"></a>Hantera användarprofiler
 
@@ -23,17 +24,21 @@ Alla användare av [!INCLUDE[prod_short](includes/prod_short.md)] tilldelas en p
 
 Som administratör skapar och hanterar du profiler på sidan **profiler (roller)**. Varje profil har ett kort där du hanterar olika inställningar för den relaterade rollen, till exempel rollnamn, användarinställningar och vilket rollcenter profilen använder. Mer information om användarinställningar och rollcenter finns i [ändra grundläggande inställningar](ui-change-basic-settings.md).
 
-Innan du kan administrera användarprofiler måste användarna skapas och läggas till via Microsoft 365 administrationscenter. Sedan kan du tilldela behörigheter till varje användare eller användargrupp för att definiera vilka funktioner de får visa och/eller redigera. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
+Innan du kan administrera användarprofiler måste användarna skapas och läggas till via administrationscentret för Microsoft 365. Sedan kan du tilldela behörigheter till varje användare eller användargrupp för att definiera vilka funktioner de får visa och/eller redigera. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Sidanpassning
 Du kan anpassa sidlayouter för en profil så att alla användare som tilldelats profilen kan se de anpassade sidorna. Som administratör anpassar du sidorna med samma funktion som användarna gör när de anpassar. Mer information finns i [Anpassa sidor för profiler](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Så här skapar du en profil:
+
 Om du inte kan kopiera en befintlig profil kan du skapa en ny manuellt.
 
 1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Profiler (roller)** och väljer sedan relaterad länk.  
 2. På sidan **Profiler (roller)** väljer du åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Om du vill att en viss profil bara ska vara tillgänglig för mycket specifika användare kan du ställa in fältet **Beskrivning** till `Navigation menu only.`. På så sätt undantas profilen från listan över tillgängliga roller i **Mina inställningar**.
 
 ## <a name="to-copy-a-profile"></a>Så här kopierar du en profil
 Du kan spara tid genom att skapa en ny profil genom att kopiera en befintlig. Kopiera en som innehåller liknande inställningar som du vill skapa.

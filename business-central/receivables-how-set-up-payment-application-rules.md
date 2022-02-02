@@ -10,20 +10,16 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435065"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971281"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
 
-På sidan **Regler för betalningskoppling** ställer du in regler som styr hur betalningstext (på en banktransaktion) automatiskt matchas med text på öppna transaktioner i följande två processer:
-
-- Koppla automatiskt betalningar till deras relaterade öppna (obetalda) fakturor, kreditnotor eller andra transaktioner när du använder funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
-
-- Matcha automatiskt banktransaktioner med deras relaterade, interna bankkontotransaktioner när du väljer åtgärden **Matcha automatiskt** på sidan **Kontoavstämning**. Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).
+På sidan **Regler för betalningskoppling** anger du regler som styr hur betalningstext (på en banktransaktion) automatiskt kopplas till text på relaterade öppna (obetalda) fakturor, kreditnotor eller andra poster när du använder funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
 Du ställer in nya betalningskopplingsregler genom att välja vilka slags data på en rad i en betalningsavstämningsjournal som måste överensstämma med data på en eller flera öppna transaktioner innan den relaterade betalningen automatiskt kopplas till de öppna transaktionerna. Kvaliteten på respektive automatisk koppling visas som värdet **Låg** till **Hög** i fältet **Matchningssäkerhet** på sidan **Betalningsavstämningsjournal** i enlighet med använd regel för betalningskoppling.
 

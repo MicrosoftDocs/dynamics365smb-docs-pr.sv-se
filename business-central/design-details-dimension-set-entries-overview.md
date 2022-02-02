@@ -3,19 +3,19 @@ title: Översikt över dimensionsuppsättningstransaktioner
 description: I den här artikeln får du en översikt över hur dimensions uppsättningstransaktioner lagras som dimensions uppsättnings transaktioner och hur de bokförs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8196cf08b5e4bf410d9682a30e714cb8c4522e17
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442416"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011686"
 ---
 # <a name="dimension-set-entries-overview"></a>Översikt över dimensionsuppsättningstransaktioner
 I det här avsnittet beskrivs hur dimensionsuppsättningstransaktioner lagras och bokförs i [!INCLUDE[prod_short](includes/prod_short.md)].  

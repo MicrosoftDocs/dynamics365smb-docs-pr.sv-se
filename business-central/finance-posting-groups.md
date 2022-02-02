@@ -1,5 +1,5 @@
 ---
-title: Inställning av bokföringsmall | Microsoft Docs
+title: Konfiguration av bokföringsmall
 description: Översikt av bokföringsmallar som du kan använda för att spara tid och för att undvika misstag när du bokför transaktioner.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 12/17/2021
+ms.search.form: 312, 313
+ms.date: 01/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: c67b5cf378b959228edb52d4f5331cde5a063b89
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940757"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029200"
 ---
-# <a name="setting-up-posting-groups"></a>Ställa in bokföringsmallar
+# <a name="set-up-posting-groups"></a>Konfigurera bokföringsmallar
+
 Bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. De sparar tid och undviker fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
 
 Bokföringsmallar omfattas av tre paraplyer:  
@@ -26,29 +28,42 @@ Bokföringsmallar omfattas av tre paraplyer:
 * Specifik – Använda försäljningsdokument istället för att bokföra direkt till redovisningen. När du skapar transaktioner i kundreskontra används motsvarande transaktioner i redovisningen.  
 * Skatt – definiera skatteprocentsatser och beräkningstyper som gäller för vem du säljer till och köper från, och vad du säljer och vad du köper.
 
-I följande tabeller beskrivs bokföringsmallarna under varje paraply.  
+I följande avsnitt beskrivs bokföringsmallarna under varje paraply.  
 
-| Generella bokföringsmallar | Beskrivning |
+## <a name="general-posting-groups"></a>Generella bokföringsmallar
+
+I följande tabell beskrivs de allmänna bokföringsmallarna.
+
+| Typ | Beskrivning |
 | --- | --- |
 | Generella rörelsebokföringsmallar |Tilldela denna mall till kunder och leverantörer för att ange vem du säljer till och som du vill köpa från. Ställ in dessa på sidan **Rörelsebokföringsmallar**. När du gör det ska du tänka på hur många mallar som du måste bryta ned försäljning och inköp. mallara till exempel kunder och leverantörer efter geografiskt område eller efter typ av verksamhet. |
 | Generella produktbokföringsmallar |Tilldela den här mallen till artiklar och resurser för att ange vad du säljer och vad du köper. Ställ in dessa på sidan **Produktbokföringsmallar**. När du gör det måste du tänka över hur många mallar du måste bryta ner försäljning per produkt (artiklar och resurser) och inköp per artikel. Dela exempelvis upp mallarna efter råmaterial, detaljhandel, resurser, kapacitet och så vidare. |
 | Bokföringsinställningar |Kombinera rörelse- och produktbokföringsmallar och välj sedan konton att bokföra till. För varje kombination av rörelse- och produktbokföringsmallar kan du tilldela en specifik uppsättning redovisningskonton. Detta betyder att du till exempel kan bokföra försäljningen av samma artikel på olika försäljningskonton i redovisningen eftersom kunder tilldelas olika rörelsebokföringsmallar. Ställ in dessa på sidan **Generella bokföringsinställningar**. |
 
-| Specifika bokföringsmallar | Description |
+## <a name="specific-posting-groups"></a>Specifika bokföringsmallar
+
+I tabellen nedan beskrivs de bokföringsmallar som är specifika för datatyper.
+
+|Typ | Beskrivning |
 | --- | --- |
-| Kundbokföringsmallar |Ange kontona som ska användas när du bokför transaktioner i kundreskontra. Om du använder lagret tillsammans med kundreskontra bestämmer den generella rörelsebokföringsmallen som har tilldelats till kunden och den generella produktbokföringsmallen som har tilldelats till lagerartikeln vilka konton som försäljningsorderraden ska bokföras till. Se "Generella rörelsebokföringsmallar" och "Generella produktbokföringsmallar" under **Generella bokföringsmallar** ovan. Ställ in dessa på sidan **Kundbokföringsmallar**. |
+| Kundbokföringsmallar |Ange kontona som ska användas när du bokför transaktioner i kundreskontra. Om du använder lagret tillsammans med kundreskontra bestämmer den generella rörelsebokföringsmallen som har tilldelats till kunden och den generella produktbokföringsmallen som har tilldelats till lagerartikeln vilka konton som försäljningsorderraden ska bokföras till. Se *Generella rörelsebokföringsmallar* och *Generella produktbokföringsmallar* i avsnittet [Generella bokföringsmallar](#general-posting-groups). Ställ in dessa på sidan **Kundbokföringsmallar**. |
 | Leverantörsbokföringsmallar |Definiera var transaktioner för leverantörsreskontrakonton, serviceavgiftskonton och kassarabattskonton ska bokföras. Detta liknar kundbokföringsmallar. Ställ in dessa på sidan **Leverantörsbokföringsmallar**. |
 | Lagerbokföringsmallar |Definiera lagerbokföringsmallar som du sedan tilldelar motsvarande artikelkonton på sidan **Lagerbokföringsinställning**. På så sätt bokför systemet till det redovisningskonto som har angetts för den kombination av lagerbokföringsmall och lagerställe som har kopplats till artikeln, när du bokför transaktioner avseende artikeln. Med lagerbokföringsmallar kan du även på ett utmärkt sätt organisera ditt lager. När du genererar rapporter kan du separera artiklar efter deras bokföringsmallar. Ställ in dessa på sidan **Lagerbokföringsmallar**. |
-| Bokföringsmallar för bankkonto |Definiera konton för bankkonton. Detta kan till exempel förenkla processer för att spåra transaktioner och stämma av bankkonton. Ställ in dessa på sidan **Bokföringsmallar för bankkonto**. |
+| Bokföringsmallar för bankkonto |Definiera redovisningskonton som bank-kontotransaktioner bokförs på. Detta kan till exempel förenkla processer för att spåra transaktioner och stämma av bankkonton. Ställ in dessa på sidan **Bokföringsmallar för bankkonto**. Vi rekommenderar att redovisningskontona har fältet **Direkt bokföring** inställt på *Nej*. |
 | Bokföringsmallar för anläggningstillgångar |Definiera konton för olika typer av utgifter och kostnader som t. ex. förvärvskostnader, ackumulerade avskrivningsbelopp, förvärvskostnader vid avyttring, ackumulerad avskrivning vid avyttring, vinster vid avyttring, förluster vid avyttring, underhållskostnader och avskrivningsutlägg. Ställ in dessa på sidan **Anl. bokföringsmallar**. |
 
-| Momsbokföringsmall | Description |
+## <a name="tax-posting-groups"></a>Momsbokföringsmallar
+
+I följande tabell beskrivs de momsrelaterade bokföringsmallarna.
+
+| Typ | Beskrivning |
 | --- | --- |
 | Momsbokföringsmallar |Se hur du kan beräkna och bokföra moms för kunder och leverantörer. Ställ in dessa på sidan **Moms rörelsebokföringsmallar**. När du gör det ska du tänka på hur många mallar du behöver. Detta beror t. ex. på ett antal faktorer som t. ex. lokal lagstiftning och om du gör affärer både inrikes och utrikes. |
 | Momsbokföringsmallar |Ange de momsberäkningar som behövs för typerna av artiklar eller resurser som du köper eller säljer. |
 | Momsbokföringsinställningar |Kombinera momskombinationer av momsbokföringsmallar. När du fyller i en allmän journalrad, inköpsrad eller försäljningsrad ska vi titta på kombinationen för att identifiera kontona som ska användas. |
 
 ## <a name="example-of-linking-posting-groups"></a>Exempel på koppling av bokföringsmallar
+
 Här är ett scenario.  
 
 Dessa bokföringsmallar väljs på kundkortet:  
@@ -71,6 +86,7 @@ När du skapar ett försäljningsdokument använder försäljningshuvud kundkort
 Inställningen avgör när bokföring sker. När är exempelvis timing påverkas av periodiska aktiviteter, som till exempel bokföra lagerkostnad eller justera kost. – artikeltrans.
 
 ## <a name="copying-posting-setup-lines"></a>Kopiera bokföringsinställningsrader
+
 Ju fler produkt- och rörelsebokföringsmallar du har desto fler rader ser du på sidan Bokföringsinställningar. Detta kan innebära att många inmatningar måste göras för att lägga upp bokföringsinställningar för företaget. Det kan finnas många olika kombinationer av rörelse- och produktbokföringsmallar, men olika kombinationer kan fortfarande bokföras till samma redovisningskonton. Om du vill begränsa andelen manuell inmatning kopierar du redovisningskontona från en befintlig rad på sidan **Generella bokföringsinställningar**.
 
 ## <a name="set-up-posting-groups-on-the-go"></a>Skapa inläggsgrupper när du är på språng
@@ -85,6 +101,7 @@ På så sätt får du ett meddelande när du arbetar med ett dokument som använ
 > I så fall kan du inaktivera meddelandet **Redovisningskonto saknas i bokföringsmall eller inställningar** och arbeta sedan med din revisor för att göra relevanta ändringar i bokföringsgruppen, inställningarna eller ditt dokument. Det här är ett viktigt steg, eftersom när dokumenten har bokförts går det inte att ta bort alla felaktigt använda bokföringsmallar eller inställningar eftersom redovisningstransaktioner skapas för dem. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Felsökning av bokföringsgruppfel
+
 Bokföringsmallar är ett av de mer avancerade koncepten som du ställer in i [!INCLUDE[prod_short](includes/prod_short.md)]. Om de inte är korrekt konfigurerade kan fel uppstå vid bokföring av dokument eller journalrader. Dessa fel orsakas exempelvis vanligen av ett misstag i hur redovisningskonton tilldelas eller hur bokföringsmallar kombineras.
 
 Om något är fel visar [!INCLUDE[prod_short](includes/prod_short.md)] sidan **felmeddelanden**. På sidan **felmeddelanden** kan det bli enklare att identifiera och lösa problemet. Sidan ger en beskrivning av felet som pekar ut bokföringsgruppinställningarna som behöver åtgärdas. Meddelandet kan t.ex. "förskottsbet. konto för försäljning saknar en bokföringsinställning". Det finns också en länk för att öppna sidan som är orsaken till problemet, så att du snabbt kan lösa det.  

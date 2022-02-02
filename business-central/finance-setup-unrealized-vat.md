@@ -1,5 +1,5 @@
 ---
-title: Ställa in orealiserad moms | Microsoft Docs
+title: Ställa in orealiserad mervärdesskatt
 description: Om du använder kontantbaserad redovisning kan ange du hur du vill hantera orealiserad moms för försäljning och inköp.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
+ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02ad408b55340bca218859d6742b0d74fbb1a294
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446196"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971894"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ställa in orealiserad moms för kontantbaserad redovisning
+
 Om du använder kontantbaserade redovisningsmetoder kan du skapa [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera orealiserad moms.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Använda redovisningskonton för orealiserad moms
+
 Du kan ange att momsbelopp ska beräknas och bokföras på ett temporärt redovisningskonto när en faktura bokförs, för att sedan bokföras på rätt redovisningskonto och inkluderas i momsrapporter när den faktiska betalningen av fakturan bokförs. Innan du kan göra detta måste du komplettera momsbokföringsinställningarna.
 
 Om du vill använda konton för orealiserad moms, gör du så här:
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **inställningar för redovisning**.
 2. På sidan **Redovisningsinställningar**, välj kryssrutan **Orealiserad moms**.
 3. Välj ikonen **Sök efter sida eller rapport** ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Bokföringsinställning för moms**.

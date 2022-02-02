@@ -1,24 +1,24 @@
 ---
-title: Översikt över arbetsuppgifter för att fördela kostnader och intäkter | Microsoft Docs
+title: Översikt över arbetsuppgifter för att fördela kostnader och intäkter
 description: Beskriver uppgiften att fördela en transaktion i en redovisningsjournal på flera olika konton när du bokför journalen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439776"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012715"
 ---
 # <a name="allocate-costs-and-income"></a>Fördela kostnader och intäkter
+
 Du kan fördela en transaktion i en redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras enligt tre olika metoder:
 
 * Antal
@@ -31,7 +31,9 @@ Fördelningsfunktionerna kan användas med återkommande redovisningsjournaler o
 I följande procedurer beskrivs hur du förbereder att fördela kostnader i en återkommande redovisningsjournal genom att definiera fördelningsnycklar. När fördelningsnycklar definieras slutför du och bokför journalen som alla andra återkommande redovisningsjournaler. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Så här skapar du fördelningsnycklar
-Du kan fördela en transaktion i en återkommande redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras efter kvantitet, procentuellt eller med ett belopp.
+
+Du kan fördela en transaktion i en återkommande redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras efter kvantitet, procentuellt eller med ett belopp.  
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
 2. Välj fältet **Journalnamn** för att öppna sidan **redovisningsjournaler**.
 3. Du kan antingen ändra fördelningar på en befintlig journal i listan eller skapa en ny journal med fördelningar.

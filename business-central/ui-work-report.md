@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439956"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972206"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeta med rapporter och batch-jobb och XML-portar
 
@@ -56,7 +56,7 @@ Använd fälten under **Alternativ** och **Filter** om du vill ändra begränsni
 
 ## <a name="previewing-a-report"></a>Förhandsgranska en rapport
 
-När du förhandsgranskar en rapport kan du se hur rapporten kommer att se ut innan du skriver ut den. Förhandsgranskningen baseras inte på det valda fältet **Skrivare** fält på begäransidan. Det kontrolleras av webbläsaren. När du har förhandsgranskat kan du gå tillbaka till förfrågningssidan och ändra alternativ och filter efter behov.
+När du förhandsgranskar en rapport kan du se hur rapporten kommer att se ut innan du skriver ut den. Förhandsgranskningen baseras inte på den skrivare som har valts i fältet **Skrivare** på begärandesidan. Det kontrolleras av webbläsaren. När du har förhandsgranskat kan du gå tillbaka till förfrågningssidan och ändra alternativ och filter efter behov.
 
 Om du vill förhandsgranska en rapport väljer du knappen **Förhandsgranska** eller **Förhandsgranska & stäng** på sidan för rapportförfrågan. Vilken knapp som visas beror på rapporten, så vissa rapporter har knappen **Förhandsgranska**, medan andra har knappen **Förhandsgranska & stäng**. Båda knapparna öppnar en förhandsgranskning av rapporten. Skillnaden är att **Förhandsgranska** håller förfrågningssidan öppen, så att du kan gå tillbaka till den, göra ändringar, förhandsgranska igen eller skriva ut den. Med **Förhandsgranska & stäng** stängs förfrågningssidan, så du måste öppna rapporten igen för att göra ändringar eller skriva ut.
 
@@ -139,6 +139,12 @@ Mer information om rapportdesign finns i [rapport översikt](/dynamics365/busine
 
 > [!NOTE]
 > Vissa rapporter exporterar nummer som text, vilket gör att du inte kan göra beräkningar eller använda dem Power Pivot i cellerna i Excel-kalkylbladet. Efter exporten bör du kontrollera numren i förslaget. Om du vill göra analyser och diagram på siffrorna, ändrar du formatet för relevanta celler från **text** till **tal**. Mer information om formatering av tal i celler finns i denna [formateringsnummer i celler i Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word-dokument
+Använd alternativet **Microsoft Word-dokument** om du vill generera en rapport som ett Word-dokument.  
+
+> [!NOTE]
+> Du kan ange vilken layout som ska användas för varje rapport på sidan **Rapportval** i fältet **Vald layout**. Standardinställningen för rapporter är **RDLC (inbyggt)** som ger rapporter i samma eller liknande layout som layouten i **Microsoft Word-dokument**. Skillnaden är huruvida du vill generera ett enstaka eller flera rapportdokument. För enstaka dokument kan du använda alternativet RDLC (inbyggt). För flera dokument anger du **Microsoft Word-dokument** som standardlayout för rapporten. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Schemalägga en rapportkörning
 

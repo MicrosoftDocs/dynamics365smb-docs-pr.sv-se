@@ -1,5 +1,5 @@
 ---
-title: Konfigurera produktionsprocesser | Microsoft Docs
+title: Konfigurera produktionsprocesser
 description: För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05e9585db60478bdf872f5e3132ceff1c34220b5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779413"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972362"
 ---
 # <a name="setting-up-manufacturing"></a>Ställa in Produktion
+
 För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
 
 I systemet representeras operatörer och maskiner som maskingrupper, vilka i sin tur kan organiseras i produktionsgrupper. När dessa resurser upprättats kan de laddas med operationer enligt den material- (struktur) och processtruktur (verksamhetsföljd) som definierats för artikeln samt utifrån maskin- eller produktionsgruppens kapacitet. Du kan även ställa in produktionskapaciteten för varje resurs. Kapaciteten definieras av den arbetstid som finns tillgänglig i maskin- och produktionsgrupperna, och den styrs av kalendrar på alla nivåer. I en produktionsgruppkalender anges de arbetsdagar/arbetstimmar, skift, helgdagar och frånvaro som avgör den tillgängliga bruttokapaciteten (och som vanligtvis mäts i minuter). Allt detta avgörs utifrån de effektivitets- och kapacitetsvärden som har definierats.  
@@ -42,8 +43,8 @@ När du har lagt upp produktion kan du planera och utföra produktionsorder. Mer
 |Förbered produktionsgrupper och verksamhetsföljder för att representera legotillverkning.|[Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Se även
-[Produktion](production-manage-manufacturing.md)    
-[Planerad](production-planning.md)   
+[Produktion](production-manage-manufacturing.md)
+[Planering](production-planning.md)   
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

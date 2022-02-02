@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326344"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011184"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
 Monteringsartiklar kan levereras i följande två processerna:  
@@ -70,20 +70,29 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 
  Ett exempel på varför du vill ändra kvantiteten så att montera, är att du ska delvis bokföra utleveransen av lagersaldot, innan monteringsutflöde kan levereras.  
 
- Följande tabell förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i en kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
+ Följande tabeller förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i ett kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
 
-|-|Försäljningsorderrad|Monteringsorderhuvud|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**Antal**|**Ant. att utleverera**|**Antal att montera mot kundorder**|**Utlevererat antal**|**Antal**|**Antal att montera**|**Monterad kvantitet**|**Återstående antal**|  
-|Initial|10|7|7|0|7|7|0|7|  
-|Ändra||4||||4 (infoga som standard)|||  
+- Försäljningsorderrad
 
- Utifrån det ovan, kan du endast ändra **Antal att montera** enligt nedan:  
+    |                | **Antal** | **Ant. att utleverera** | **Antal att montera mot kundorder** | **Utlevererat antal** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initialt värde**| 10          | 7                | 7                             | 0                    |
+    |**Förändring**      |              | 4                |                               |                      |
 
--   Den lägsta kvantitet som du kan ange är 1. Det är eftersom du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
--   Den höga kvantitet som du kan ange är 4. Detta görs för att se till att du inte monterar flera av denna monteringmotkundorderartikel än vad som behövs på försäljningen.  
+- Monteringsorderhuvud
 
-## <a name="see-also"></a>Se även  
+    |                | **Antal** | **Ant. att utleverera** | **Antal att montera mot kundorder** | **Utlevererat antal** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initialt värde**| 7           | 7                | 0                             | 7                    |
+    |**Förändring**      |              | 4 (infoga som standard)|                         |                      |
+
+Utifrån detta exempel kan du endast ändra fältet **Antal att montera** enligt nedan:  
+
+- Den lägsta kvantitet som du kan ange är 1. Det är eftersom du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
+- Den höga kvantitet som du kan ange är 4. Detta görs för att se till att du inte monterar flera av denna monteringmotkundorderartikel än vad som behövs på försäljningen.  
+
+## <a name="see-also"></a>Se även
+
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lagersaldo](inventory-manage-inventory.md)  

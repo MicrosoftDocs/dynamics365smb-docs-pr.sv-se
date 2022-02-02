@@ -9,14 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
+ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b4c857f006970fa3973a1203a7ddd8cffc2298
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438958"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011763"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Hantera användarinställningar och inställningar
 
@@ -52,7 +53,7 @@ Sidan **Kort för användarinställningar** liknar sidan **Mina inställningar**
   
 - **Region**  
 
-  Definierar hur datum och nummer visas på [!INCLUDE[prod_short](includes/prod_short.md)] klienten, t. ex. om du vill använda europeiska eller amerikanska datumformat, eller hur du vill visa decimaltecknet och tusenavgränsare i belopp. Om [!INCLUDE[prod_short](includes/prod_short.md)]-användarna synkroniseras från Microsoft 365 används de nationella inställningarna från Microsoft 365, förutsatt att användaren vill använda samma inställningar i Office-produkter och [!INCLUDE[prod_short](includes/prod_short.md)]. En administratör eller användare kan ändra inställningarna manuellt i [!INCLUDE[prod_short](includes/prod_short.md)], men de återställs till ett värde från Microsoft 365 när nästa synkronisering utförs.
+  Definierar hur datum och nummer visas på [!INCLUDE[prod_short](includes/prod_short.md)] klienten, t. ex. om du vill använda europeiska eller amerikanska datumformat, eller hur du vill visa decimaltecknet och tusenavgränsare i belopp. Om [!INCLUDE[prod_short](includes/prod_short.md)]-användarna synkroniseras från Microsoft 365 används de regionala inställningarna från Microsoft 365, förutsatt att användaren vill använda samma inställningar i Office-produkter och [!INCLUDE[prod_short](includes/prod_short.md)]. En administratör eller användare kan ändra inställningarna manuellt i [!INCLUDE[prod_short](includes/prod_short.md)], men de återställs till ett värde från Microsoft 365 när nästa synkronisering utförs.
 
 - **Tidszon**  
 
@@ -63,7 +64,7 @@ Sidan **Kort för användarinställningar** liknar sidan **Mina inställningar**
   [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]Som administratör kan du stänga av undervisningstips för alla användare, till exempel om du håller på att registrera användare som redan är bekanta med [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Om en Microsoft 365-användarsynkronisering görs medan användarna är inloggade på [!INCLUDE[prod_short](includes/prod_short.md)] måste dessa användare uppdatera webbläsaren eller logga ut och sedan in igen på [!INCLUDE[prod_short](includes/prod_short.md)] för att kunna se ett annat språk som anges av synkroniseringsåtgärden.
+> Om en Microsoft 365-användarsynkronisering görs medan användarna är inloggade på [!INCLUDE[prod_short](includes/prod_short.md)], måste dessa användare uppdatera webbläsaren eller logga ut och sedan in igen på [!INCLUDE[prod_short](includes/prod_short.md)] för att kunna se ett annat språk som anges av synkroniseringsåtgärden.
 
 ## <a name="overview-of-all-user-specific-changes"></a>Översikt över alla användarspecifika ändringar
 

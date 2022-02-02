@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7c81a363fa76de82b79ea6afc589c7984d87ef6b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 5712722f58523d372feb10710013fdbf53a464b2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324795"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971255"
 ---
 # <a name="moving-items"></a>Flytta artiklar
+
 Lageraktiviteten att flytta artiklar inom distributionslagret utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats. Hur komplex det är kan sträcka sig från inga lagerkonfigurationer, till grundläggande lagerstyrning med hantering av order för order i en eller flera aktiviteter samt avancerade konfigurationer där alla lageraktiviteter måste utförs i ett dirigerat arbetsflöde. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
 
 När artiklarna finns i lagerstället kanske de måste flyttas enligt de lageraktiviteter som håller igång artikelflödet genom lagret. Alla transporter sker direkt i samband med intern operationer, till exempel en produktionsorder som behöver slutartiklar eller artikelinförsel av färdiga varor. Andra transporter sker pga platsbrist i distributionslagret eller som ad hoc-transporter till och från funktion.
@@ -39,12 +40,13 @@ Lagerrelaterade uppgifter för inventering, justering och gruppering av artiklar
 |Uppdatera vilken frekvens lagerställen, till exempel plockningslagerställen, måste återfyllas med på grund av fluktuation i efterfrågan.|[Beräkna lagerplatsåteranskaffning](warehouse-how-to-calculate-bin-replenishment.md)|
 |Omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper och flytta dem eventuellt runt.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
-[Monteringshantering](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md)
+[Monteringshantering](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 468c3a9e526d5d512419242a9fbcd0271d6e2a6d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321070"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973764"
 ---
 # <a name="setting-up-project-management"></a>Ställa in projekthantering
+
 Innan du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
 
 Sedan kan du skapa projekt och schemaresurser för projekt samt hantera budgetar och spåra maskintimmar och anställdas arbetstimmar med tidrapporter. Mer information finns i [Hantera projekt](projects-manage-projects.md).  

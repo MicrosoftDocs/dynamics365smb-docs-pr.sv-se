@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.form: 610
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d6b2c7e9d60745c5344a4f0e6edf3f03eef8b778
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 903a0b1770bb29cb744f2aa8dc9510541ca7539c
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441249"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029410"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeta med koncerninterna dokument och journaler
 Du använder koncerninterna dokument eller journaler för att bokföra transaktioner med koncerninterna partner. När du bokför ett koncerninternt dokument eller journalrad i företaget skapas, skapas ett motsvarande dokument eller journalrad i din koncerninterna utkorg som du kan överföra till partnern. Partnern kan sedan bokföra den koncerninterna transaktionen i sitt företag utan att behöva registrera samma data på nytt.

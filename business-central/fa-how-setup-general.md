@@ -1,5 +1,5 @@
 ---
-title: Skapa redovisningen för anläggningstillgångar | Microsoft Docs
+title: Ställa in allmän anläggningsinformation
 description: Innan du kan använda anläggningstillgångar måste du skapa standardredovisningskonton, bokföringsmallar, allokeringsnycklar, journalmallar och batcher och klasskoder.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5623, 5615, 5661, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608. 5635, 9277, 5662, 5627, 5616, 5620
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fed97e698cf5613700b53db3aa5a4292d12f554
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f4303fef538bd41d43d44aa4f79ae84384e22f8f
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440680"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029016"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Skapa allmän information om anläggningstillgångar
 Innan du kan hantera anläggningstillgångar, måste du skapa standardinställningredovisningskonton, fördelningsnycklar, journalmallar och journaler för bokföring och gruppering av anläggningstillgångar i klasser, som till exempel Materiella och Immateriella.

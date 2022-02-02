@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9b69af67128492122bb6d8ceada51572a5ab6e33
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436179"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970680"
 ---
 # <a name="creating-cost-budgets"></a>Skapa kostnadsbudgetar
+
 Budgetering för kostnadsredovisning liknar budgetering i redovisningen. En kostnadsbudget skapas baserat på kostnadstyper, precis som en budget för redovisningen skapas baserat på redovisningskonton.  
 
 En kostnadsbudget skapas för en viss tidsperiod, till exempel ett räkenskapsår. Du kan skapa kostnadsbudgetar efter behov. Du kan skapa en ny kostnadsbudget manuellt eller genom att importera en kostnadsbudget eller genom att kopiera en befintlig kostnadsbudget som budgetbas. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
@@ -32,7 +33,8 @@ Du kan använda följande sidor för att skapa och analysera kostnadsbudgetar. V
 |Visa kostnadsbudgetjournaler och kostnadsbudgettransaktioner.|Sidan **Kostnadsbudgetregister**|  
 |Skriv ut kostnadsbudgetjämförelser med hjälp av olika rapporter.|Rapporten **Saldo/budget för kostnadsredovisning**<br /><br /> Rapporten **Kostnadsredovisning, resultaträkning/budget**<br /><br /> Rapporten **Kostnadsbudget per kostnadsställe**<br /><br /> Rapporten **Kostnadsbudget per kostnadsbärare**|  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Redovisa kostnader](finance-manage-cost-accounting.md)  
 [Skapa redovisningsbudgetar](finance-how-create-budgets.md)  
 [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)   

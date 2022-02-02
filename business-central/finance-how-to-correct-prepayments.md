@@ -1,5 +1,5 @@
 ---
-title: Så här korrigerar du förskottsbetalningar
+title: Korrigera förskottsbetalningar
 description: Du kan korrigera en order efter att du har bokfört en förskottsfaktura för ordern och lägger till nya rader i en order efter att ha utfärdat en förskottsbetalning.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c5163602f3a311598e992b24a55b7a5542bcaad2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ceaebd28d083c1dbebe69a5a02abff0952bf3311
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442240"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972899"
 ---
 # <a name="correct-prepayments"></a>Korrigera förskottsbetalningar
 

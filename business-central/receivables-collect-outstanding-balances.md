@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439416"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971658"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 
@@ -186,7 +186,7 @@ När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetrans
 
 ## <a name="multiple-interest-rates"></a>Flera räntesatser
 
-När du skapar villkor och betalningspåminnelsevillkor för räntefakturor, så kan du för avgiften för försenad betalning ange flera räntesatser så att avgiften beräknas utifrån olika räntesatser under olika perioder. Om det inte finns mer än en räntesats kommer räntesatsen och perioden som anges på sidorna **Räntevillkor** och **Betalningspåminnelsevillkor** för hela beräkningsperioden att användas. Mer information finns i [Så här ställer du in flera räntesatser](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Mer information finns i [Ställa in flera räntesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

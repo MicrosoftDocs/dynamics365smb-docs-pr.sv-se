@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
+ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920986"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972232"
 ---
 # <a name="set-up-time-sheets"></a>Så här skapar du tidrapporter
 
@@ -41,6 +42,8 @@ Från och med 2021 utgivningscykel 2 kan du använda en assisterad installations
 > Du måste aktivera **funktionsuppdateringen: ny tidrapport** på sidan [funktionshantering](https://businesscentral.dynamics.com/?page=2610) om du vill använda den här funktionen.
 >
 > Samma funktion gör det också enklare att hantera tidsrapporter på en mobil enhet.
+
+Öppna guiden för assisterad konfiguration **Konfigurera tidrapporter** från sidan [Assisterad konfiguration](https://businesscentral.dynamics.com/?page=1801).
 
 Guiden assisterad konfiguration går igenom följande steg:
 

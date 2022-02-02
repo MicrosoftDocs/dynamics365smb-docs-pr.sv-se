@@ -1,5 +1,5 @@
 ---
-title: Så här arbetar du med Lagerperioder | Microsoft Docs
+title: Arbeta med lagerperioder
 description: Du kan styra den tidsperiod som användare kan bokföra ändringar i lagret genom att definiera lagerperioder.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
+ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d946020bb6f9a1eabf5ab68d3dd64a9af344993
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d41936ece0911f726a72476716b148bede71a25b
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442066"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970628"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeta med lagerperioder
+
 Under en lagerperiod går det att bokföra ändringar i lagret. Lagerperioden definieras utifrån slutdatumet. När en lagerperiod stängs kan inga ändringar bokföras i lagret, oavsett om de är förväntade eller rör faktureringen, före det här slutdatumet. Det går inte heller att bokföra nya värden i lagret före slutdatumet. Om det finns öppna artikeltransaktioner i den stängda perioden, d.v.s. positiva antal som ännu inte har kopplats till avgående transaktioner, går det fortfarande att koppla avgående antal till de här transaktionerna även om perioden är stängd.  
 
 I följande avsnitt finns beskrivningar om att:
@@ -26,13 +28,15 @@ I följande avsnitt finns beskrivningar om att:
 * Stänga lagerperioder.  
 * Öppna lagerperioder igen.  
 
-## <a name="to-create-an-inventory-period"></a>Skapa en lagerperiod  
+## <a name="to-create-an-inventory-period"></a>Skapa en lagerperiod
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerperioder** och väljer sedan relaterad länk.  
 2. Skapa en ny rad.  
 3. Ange det sista datumet för lagerperioden som definieras i fältet **Slutdatum**. När perioden har stängts går det inte längre att bokföra lagerändringar före det här datumet.  
 4. Ange ett beskrivande namn i fältet **Namn**. Välj **OK**.  
 
-## <a name="closing-inventory-periods"></a>Stänga lagerperioder  
+## <a name="closing-inventory-periods"></a>Stänga lagerperioder
+
 I fältet **Stängd** anges om lagerperioden är stängd för lagervärdeändringar. Fältet kan inte redigeras.  
 
 Det går att stänga vilken lagerperiod som helst, förutsatt att följande villkor är uppfyllda:  
@@ -43,12 +47,13 @@ Det går att stänga vilken lagerperiod som helst, förutsatt att följande vill
 Detta innebär att alla avgående transaktionsantal (till exempel antalen från försäljningsorder, avgående överföringar, fakturor, inköpsreturer eller inköpskreditnotor) måste kopplas till ett befintligt antal i lagret.  
 
 ### <a name="to-close-an-inventory-period"></a>Stänga en lagerperiod  
+
 1. Välj åtgärden **Justera kost. - artikeltrans.** innan en lagerperiod stängs för att säkerställa att alla kostnadsjusteringar har bokförts.
 
-     Kör rapporten **Stäng lagerperiod - test** för att avgöra om det finns öppna externa artikeltransaktioner i lagerperioden eller om det finns artiklar som saknar justerad kostnad.  
+    Kör rapporten **Stäng lagerperiod - test** för att avgöra om det finns öppna externa artikeltransaktioner i lagerperioden eller om det finns artiklar som saknar justerad kostnad.  
 2. Välj åtgärden **Stäng lagerperiod - Test**.  
 
-     Kör batch-jobbet **Bokför lagerkostnad i redov.** för att säkerställa att alla kostnader har bokförts i redovisningen.  
+    Kör batch-jobbet **Bokför lagerkostnad i redov.** för att säkerställa att alla kostnader har bokförts i redovisningen.  
 3. Välj åtgärden **Bokför lager i redov.**.  
 4. På sidan **Lagerperioder** väljer du den lagerperiod du vill stänga.  
 5. Välj åtgärden **Stäng period**. När lagerperioden har stängts kan inga lagerändringar bokföras före slutdatumet. Kostnaden för alla artiklar måste justeras med batch-jobbet **Justera kost. - artikeltrans.** innan lagerperioden kan stängas.  

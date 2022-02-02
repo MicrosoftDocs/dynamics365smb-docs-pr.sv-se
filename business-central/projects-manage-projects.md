@@ -1,21 +1,23 @@
 ---
-title: Projektaktiviteter som använder resurser och tidrapporter
+title: Projekthantering
 description: I det här avsnittet beskrivs hur du ställer in resurser, tidrapporter och jobb för att hantera projekt och deras budgetar.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 89, 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8f08b42af793772c98c0671cdf44934638fb8db7
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321095"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972154"
 ---
 # <a name="project-management"></a>Projekthantering
+
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utföra vanliga projekthanteringsuppgifter som t. ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.
 
 Innan du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt. Mer information finns i [Ställa in Projekthantering](projects-setup-projects.md).  

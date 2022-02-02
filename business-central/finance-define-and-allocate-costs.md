@@ -1,5 +1,5 @@
 ---
-title: Definiera och fördela kostnader | Microsoft Docs
+title: Definiera och fördela kostnader
 description: Kostnadsfördelning flyttar kostnader och intäkter mellan kostnadstyper, kostnadsställen och kostnadsbärare. Du kan definiera valfritt antal fördelningar.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,21 +7,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 28edcb687c8c2ec2219b9d4f8b21e5fce02e9910
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436204"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972518"
 ---
 # <a name="defining-and-allocating-costs"></a>Definiera och fördela kostnader
+
 Kostnadsfördelning flyttar kostnader och intäkter mellan kostnadstyper, kostnadsställen och kostnadsbärare. Du kan definiera valfritt antal fördelningar. Varje fördelning består av:  
 
--   En fördelningskälla.  
--   Ett eller flera fördelningsmål.  
+- En fördelningskälla.  
+- Ett eller flera fördelningsmål.  
 
 Fördelningskällan bestämmer vilka kostnader som måste fördelas, och fördelningsmålen bestämmer var kostnader måste fördelas. Till exempel kan en fördelningskälla vara kostnaderna för kostnadstypen Uppvärmning. Du tilldelar alla uppvärmningskostnader till tre kostnadsställen: Seminarium, Produktion och Försäljning. Dessa kostnadsställen är dina fördelningsmål.  
 
@@ -29,36 +30,40 @@ För varje fördelningskälla definierar du en fördelningsnivå, en giltighetsp
 
 För varje fördelningsmål definierar du en fördelningsbas. Fördelningsbasen kan antingen vara statisk eller dynamisk.  
 
--   Statisk fördelning är baserad på ett visst värde, till exempel kvadratmetrar eller en fastställd fördelningskvot, till exempel 5:2:4.  
--   Dynamiska fördelningsbaser beror på värden som kan ändras, t.ex hur många anställda i ett kostnadsställe eller försäljningsintäkten för en kostnadsbärare under en viss tidsperiod.  
+- Statisk fördelning är baserad på ett visst värde, till exempel kvadratmetrar eller en fastställd fördelningskvot, till exempel 5:2:4.  
+- Dynamiska fördelningsbaser beror på värden som kan ändras, t.ex hur många anställda i ett kostnadsställe eller försäljningsintäkten för en kostnadsbärare under en viss tidsperiod.  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
 ## <a name="setting-up-allocation-source-and-targets"></a>Ställa in fördelningskälla och mål
+
 Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Fördelningskällan bestämmer vilka kostnader som ska fördelas. Fördelningsmålen bestämmer vart kostnaderna ska fördelas.  
 
-### <a name="to-set-up-cost-allocations"></a>Så här lägger du upp kostnadsfördelningar  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelning** och väljer sedan relaterad länk.  
-2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Redigera**.  
-3.  Ange ett ID för fördelningskällan i fältet **ID**.  
-4.  Definiera en nivå som ett tal mellan 1 och 99 i fältet **Nivå**. Fördelningsbokföringen följer ordningen på nivåerna.  
-5.  Ange en kostnadstyp för att definiera vilka kostnadstyper som fördelas i fältet **Kostnadstypsintervall**. Om samtliga kostnader för en kostnadstyp har fördelats definieras inget intervall.  
-6.  Ange ett kostnadsställe tillsammans med kostnader som ska fördelas i fältet **Kod för kostnadsställe**.  
-7.  Ange en kostnadsbärar tillsammans med kostnader som ska fördelas i fältet **Kod för kostnadsbärare**. Oftast är detta fält tomt eftersom kostnadsbärare sällan fördelas till andra kostnadsbärare.  
-8.  Ange en kostnadstyp i fältet **Kreditera till kostnadstyp**. Kostnaderna som fördelas krediteras till ursprungskostnadstypen. Kredittransaktionen ska bokföras med kostnadstypen som anges här.  
+### <a name="to-set-up-cost-allocations"></a>Så här lägger du upp kostnadsfördelningar
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelning** och väljer sedan relaterad länk.  
+2. På sidan **Kostnadsfördelning** väljer du åtgärden **Redigera**.  
+3. Ange ett ID för fördelningskällan i fältet **ID**.  
+4. Definiera en nivå som ett tal mellan 1 och 99 i fältet **Nivå**. Fördelningsbokföringen följer ordningen på nivåerna.  
+5. Ange en kostnadstyp för att definiera vilka kostnadstyper som fördelas i fältet **Kostnadstypsintervall**. Om samtliga kostnader för en kostnadstyp har fördelats definieras inget intervall.  
+6. Ange ett kostnadsställe tillsammans med kostnader som ska fördelas i fältet **Kod för kostnadsställe**.  
+7. Ange en kostnadsbärar tillsammans med kostnader som ska fördelas i fältet **Kod för kostnadsbärare**. Oftast är detta fält tomt eftersom kostnadsbärare sällan fördelas till andra kostnadsbärare.  
+8. Ange en kostnadstyp i fältet **Kreditera till kostnadstyp**. Kostnaderna som fördelas krediteras till ursprungskostnadstypen. Kredittransaktionen ska bokföras med kostnadstypen som anges här.  
 9. Du definierar fördelningsmål på snabbfliken **Rader**. Ange en kostnadstyp på första raden i fältet **Målkostnadstyp**. Det definierar vilken kostnadstyp som fördelningen debiteras på.  
 10. Ange den första raden, ange det första fördelningsmålet i fälten **Målkostnadsställe** eller **Målkostnadsobjekt**. De två fälten definierar vilket kostnadsställe eller vilken kostnadsbärare fördelningen debiteras på. Du kan endast fylla i ett av dessa fält, inte båda.  
 11. Upprepa samma steg på den andra raden för att skapa ytterligare fördelningsmål.  
 12. När du har angett fördelningsmålet och källorna väljer du åtgärden **Beräkna fördelningsnyckel** om du vill beräkna de totala andelsvärdena.  
 
 > [!NOTE]  
->  Markera kryssrutan **Spärrad** om du vill inaktivera fördelningskonfigurationen.
+> Markera kryssrutan **Spärrad** om du vill inaktivera fördelningskonfigurationen.
 
 ## <a name="setting-filters-for-dynamic-allocation-bases"></a>Skapa filter för dynamiska fördelningsbaser
+
 Den dynamiska fördelningsmetoden bygger på värden som kan ändras. Till exempel antalet anställda i ett kostnadsställe eller artiklar som säljs på en kostnadsbärare för en viss tidsperiod. Det finns nio fördefinierade fördelningsbaser och tolv dynamiska datumintervall. Du kan ange olika filter baserade på fördelningsbasen.  
 
-### <a name="setting-filters-for-dynamic-allocation-bases"></a>Skapa filter för dynamiska fördelningsbaser  
- Följande tabell visar vilka filter är möjliga för olika fördelningsbaser och vilka värden som gäller i fälten **Nummerfilter** och **Gruppfilter**. Tryck på F1 i fälten **Kod för datumfilter** om du vill läsa detaljerad beskrivningar.  
+### <a name="setting-filters"></a>Ställa in filter
+
+Följande tabell visar vilka filter är möjliga för olika fördelningsbaser och vilka värden som gäller i fälten **Nummerfilter** och **Gruppfilter**. Tryck på F1 i fälten **Kod för datumfilter** om du vill läsa detaljerad beskrivningar.  
 
 |**Bas**|**Nummerfilter**|**Kod för datumfilter**|**Filter för kostnadsställe**|**Filter för kostnadsbärare**|**Gruppfilter**|  
 |--------------|----------------------------------------|----------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------|  
@@ -73,33 +78,34 @@ Den dynamiska fördelningsmetoden bygger på värden som kan ändras. Till exemp
 |Inköpta artiklar (belopp)|Artikelnummer|Ja|Ja|Ja|Lagerbokföringsmall|
 
 ## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: Definiera fast distribution beräknad på fördelningskvot
+
 Statisk fördelning är baserad på ett visst värde, till exempel kvadratmeter eller en fastställd fördelningskvot, till exempel 5:2:4.  
 
 I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är fördelningsmål för fördelningskällan PROD-kostnadsstället med hjälp av den etablerade fördelningskvoten 5:2:4. De tre målkostnadsbärarna är ACCESSO, PAINT och FITTINGS.  
 
 > [!NOTE]  
->  Exemplet använder demonstrationsdata i [!INCLUDE[prod_short](includes/prod_short.md)].  
+> Exemplet använder demonstrationsdata i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Så här definierar du fördelningskällan PROD-kostnadsstället på snabbfliken Allmänt  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelning** och väljer sedan relaterad länk.  
-2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
-3.  I fältet **ID**, tryck på Retur eller ange ett id.  
-4.  Ange **1** i fältet **Nivå**.  
-5.  I fälten **Giltig från** och **Giltig till** anger du datum.  
-6.  Ange **PROD** i fältet **Kod för kostnadsställe**.  
-7.  I fältet **Kreditera till kostnadstyp** anger du kostnadstyp **9903**.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelning** och väljer sedan relaterad länk.  
+2. På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
+3. I fältet **ID**, tryck på Retur eller ange ett id.  
+4. Ange **1** i fältet **Nivå**.  
+5. I fälten **Giltig från** och **Giltig till** anger du datum.  
+6. Ange **PROD** i fältet **Kod för kostnadsställe**.  
+7. I fältet **Kreditera till kostnadstyp** anger du kostnadstyp **9903**.  
 
 ### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Då här definierar du kostnadsbärarna som är fördelningsmål på snabbfliken Rader  
 
-1.  Ange **9903** i fältet **Målkostnadstyp** på den första raden.  
-2.  Välj **ACCESSO** i fältet **Målkostnadsobjekt** på den första raden.  
-3.  På den första raden, i fältet **Typ av fördelningsmål**, välj **Alla kostnader** för att definiera hur upplupna kostnader ska fördelas.  
-4.  På den första raden, i fältet **Bas**, markera **Fast** för att använda fast fördelning.  
-5.  På den första raden, i fältet **Del**, ange fördelningssatsen **5**.  
-6.  Ange **9903** i fältet **Målkostnadstyp** på den andra raden.  
-7.  Välj **PAINT** i fältet **Målkostnadsobjekt** på den andra raden.  
-8.  På den andra raden, i fältet **Typ av fördelningsmål**, välj **Alla kostnader** för att definiera hur upplupna kostnader ska fördelas.  
+1. Ange **9903** i fältet **Målkostnadstyp** på den första raden.  
+2. Välj **ACCESSO** i fältet **Målkostnadsobjekt** på den första raden.  
+3. På den första raden, i fältet **Typ av fördelningsmål**, välj **Alla kostnader** för att definiera hur upplupna kostnader ska fördelas.  
+4. På den första raden, i fältet **Bas**, markera **Fast** för att använda fast fördelning.  
+5. På den första raden, i fältet **Del**, ange fördelningssatsen **5**.  
+6. Ange **9903** i fältet **Målkostnadstyp** på den andra raden.  
+7. Välj **PAINT** i fältet **Målkostnadsobjekt** på den andra raden.  
+8. På den andra raden, i fältet **Typ av fördelningsmål**, välj **Alla kostnader** för att definiera hur upplupna kostnader ska fördelas.  
 9. På den andra raden, i fältet **Bas**, markera **Fast** för att använda fast fördelning.  
 10. På den andra raden, i fältet **Del**, ange fördelningssatsen **2**.  
 11. Ange **9903** i fältet **Målkostnadstyp** på den andra raden.  
@@ -109,24 +115,25 @@ I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är 
 15. På tredje raden, i fältet **Del**, ange fördelningssatsen **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[prod_short](includes/prod_short.md)] beräknar automatiskt fältet **Procent** med hjälp av ett procenttal som är beroende av alla tre fördelningskvoterna, som anges i fältet **Del** för alla tre rader.
+> [!INCLUDE[prod_short](includes/prod_short.md)] beräknar automatiskt fältet **Procent** med hjälp av ett procenttal som är beroende av alla tre fördelningskvoterna, som anges i fältet **Del** för alla tre rader.
 
 ## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2 – Definiera dynamisk distribution beräknad på sålda artiklar
+
 I det här avsnittet innehåller exempel på hur du definierar fördelningar med dynamisk fördelning. I exemplet ändrar du dynamisk fördelning av kostnaderna för de SALES-kostnadsstället för att det ska fungera med den nya kostnadsbäraren IT EQUIPMENT. IT EQUIPMENT-paketet har artikelnummer i intervallet 8904-W till 8924-W. Du kan använda föregående års försäljningssiffror för att beräkna antalet andelen. Fördelningen bokförs på hjälpkostnadstypen 9903.  
 
 > [!NOTE]  
->  Exemplet använder demonstrationsdata i [!INCLUDE[prod_short](includes/prod_short.md)].  
+> Exemplet använder demonstrationsdata i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Så här definierar du dynamisk fördelning beräknad på sålda artiklar under föregående år  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelningar** och väljer sedan relaterad länk.  
-2.  På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
-3.  I fältet **ID**, tryck på Retur eller ange ett id.  
-4.  Ange **1** i fältet **Nivå**.  
-5.  I fälten **Giltig från** och **Giltig till** anger du datum.  
-6.  Ange **FÖRS** i fältet **Kod för kostnadsställe**.  
-7.  I fältet **Kreditera till kostnadstyp** anger du kostnadstyp **9903**.  
-8.  I fältet **Målkostnadstyp** anger du kostnadstyp **9903**.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelningar** och väljer sedan relaterad länk.  
+2. På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
+3. I fältet **ID**, tryck på Retur eller ange ett id.  
+4. Ange **1** i fältet **Nivå**.  
+5. I fälten **Giltig från** och **Giltig till** anger du datum.  
+6. Ange **FÖRS** i fältet **Kod för kostnadsställe**.  
+7. I fältet **Kreditera till kostnadstyp** anger du kostnadstyp **9903**.  
+8. I fältet **Målkostnadstyp** anger du kostnadstyp **9903**.  
 9. I fältet **Målkostnadsobjekt** välj **Ny** för att skapa den nya kostnadsbäraren IT EQUIPMENT och fyll i fälten efter behov. Välj **IT EQUIPMENT**. Låt fältet **Målkostnadsställe** vara tomt.  
 10. I fältet **Typ av fördelningsmål**, välj **Alla kostnader** för att definiera hur upplupna kostnader ska fördelas.  
 11. I fältet **Bas** välj fördelningsbasen **Sålda artikler (belopp)**.  
@@ -135,9 +142,10 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 14. Välj åtgärden **Beräkna fördelningsnyckel** för att beräkna andelen.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[prod_short](includes/prod_short.md)] använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.
+> [!INCLUDE[prod_short](includes/prod_short.md)] använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
  [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)   
  [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)   
  [Redovisa kostnader](finance-manage-cost-accounting.md)   

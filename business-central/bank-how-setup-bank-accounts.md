@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940607"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029280"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
 
@@ -90,6 +91,8 @@ Den bättre mappningsinformation som du gör i betalningsavstämningsjournal, de
 2. På sidan **Bankkonton** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Till exempel kopplar fältet **Bokföringsmall för bank-konto** bank-kontot till det underliggande redovisningskontot i balansräkningen. Mer information finns i [Konfigurera bokföringsmallar](finance-posting-groups.md).
+
 > [!TIP]
 > Vissa fält är dolda tills du väljer **Visa fler** åtgärder, vanligen på grund av att de används sällan. Andra måste läggas till genom anpassning. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md). Alternativt kan du implementera den ingående balansen som en del av skapande av allmänna data i nya företag med hjälp av den assisterad inställningsguide **Migrera affärsdata**. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md). Information om hur du skapar ingående saldon för journalen i [!INCLUDE[prod_short](includes/prod_short.md)] finns i [så här skapar du ingående saldon för journalen](admin-how-to-create-journal-opening-balances.md).
+> Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> Alternativt kan du implementera den ingående balansen som en del av skapande av allmänna data i nya företag med hjälp av den assisterad inställningsguide **Migrera affärsdata**. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> Det är viktigt att du inte bokför det ingående saldot direkt i redovisningen. Om du har transaktioner på redovisningskontot som bokförs direkt till redovisningskontot kommer du normalt inte att kunna stämma av bank-kontot eller, om det rör sig om bank-konton i utländsk valuta, leda till att differenser ackumuleras när du bokför fler bankavstämningar. Ofta bokförs det ingående banksaldot direkt på bank-kontot och beloppet fylls sedan i på redovisningskontot. Du kan också ångra det senare mot ett visst redovisningskonto som du har använt för att balansera det öppna redovisningssaldot. I båda fallen måste du balansera eventuell direkt bokföring till redovisningskontot innan du börjar med den första bank-kontoavstämningen, framför allt om bank-kontot är i en utländsk valuta.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Så här skapar du ett bankkonto för import eller export av bankfilerna
 

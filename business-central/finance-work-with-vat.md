@@ -7,15 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: effeb489bbffbc3647f30b371bc0c0a8f7f2e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439441"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970969"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[prod_short](includes/prod_short.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
@@ -87,8 +88,8 @@ Du måste utföra följande steg innan du kan ange moms manuellt i en försäljn
 2. Upprepa steg 1 för sidan **Försäljningsinställningar**.
 3. När du har slutfört den inställning som beskrivs ovan kan du justera fältet **Momsbelopp** i redovisningsjournalraden eller fältet **Momsbelopp bal.** i försäljnings- eller inköpsjournalen så att det motsvarar momsbeloppet på fakturan. [!INCLUDE[prod_short](includes/prod_short.md)] kommer att kontrollera att differensen inte är större än det angivna maxbeloppet.  
 
-    > [!NOTE]  
-    > Om differensen är större visas en varning som anger den maximala tillåtna differensen. Innan du fortsätter måste du justera beloppet. Klicka på **OK** och ange ett annat belopp som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen visar [!INCLUDE[prod_short](includes/prod_short.md)] differensen i fältet **Momsdifferens**.  
+> [!NOTE]  
+> Om differensen är större visas en varning som anger den maximala tillåtna differensen. Innan du fortsätter måste du justera beloppet. Klicka på **OK** och ange ett annat belopp som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen visar [!INCLUDE[prod_short](includes/prod_short.md)] differensen i fältet **Momsdifferens**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Bokföra du importmoms med inköpsfakturor
 I stället för att använda journaler för att bokföra en importmomsfaktura, kan du använda en inköpsfaktura.  
@@ -120,34 +121,34 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 3. Välj **Information om leveransintyg**.  
 4. Som standard, om den momsbokföringsmall som har ställts in för kunden har kryssrutan **Leveransintyg krävs** markerad, så är fältet **Status** angett till **Obligatoriskt**. Du kan uppdatera fältet för att visa om intyget har tagits emot från kunden.  
 
-    > [!Note]  
-    >  Om inställningen av momsbokföringsmallen inte har kryssrutan **Leveransintyg krävs** markerad skapas en post, och fältet **Status** får värdet **Ej tillämpbart**. Du kan uppdatera fältet för att visa rätt information om status. Du kan manuellt ändra statusen från **Ej tillämpbart** till **Obligatoriskt** och från **Obligatoriskt** till **Ej tillämpbart** efter behov.  
+> [!Note]  
+>  Om inställningen av momsbokföringsmallen inte har kryssrutan **Leveransintyg krävs** markerad skapas en post, och fältet **Status** får värdet **Ej tillämpbart**. Du kan uppdatera fältet för att visa rätt information om status. Du kan manuellt ändra statusen från **Ej tillämpbart** till **Obligatoriskt** och från **Obligatoriskt** till **Ej tillämpbart** efter behov.  
 
    När du uppdaterar fältet **Status** till **Obligatoriskt**, **Inlevererat** eller **Ej inlevererat**, skapas ett certifikat.  
 
-    > [!TIP]  
-    >  Du kan använda sidan **Leveransintyg** för att få en vy över alla bokförda utleveranser som ett leveransintyg har skapats för.  
+> [!TIP]  
+>  Du kan använda sidan **Leveransintyg** för att få en vy över alla bokförda utleveranser som ett leveransintyg har skapats för.  
 
 5. Välj **Skriv ut leveransintyg**.  
 
-    > [!Note]  
-    >  Du kan granska och skriva ut dokumentet. När du väljer **Skriv ut leveransintyg** och skriver ut dokumentet, väljs kryssrutan **Utskrivet** automatiskt. Dessutom, om den inte redan har angetts, uppdateras statusen för intyget till **Obligatoriskt**. Du inkluderar det utskrivna intyget med utleveransen.  
+> [!Note]  
+>  Du kan granska och skriva ut dokumentet. När du väljer **Skriv ut leveransintyg** och skriver ut dokumentet, väljs kryssrutan **Utskrivet** automatiskt. Dessutom, om den inte redan har angetts, uppdateras statusen för intyget till **Obligatoriskt**. Du inkluderar det utskrivna intyget med utleveransen.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Så här skriver du ut ett leveransintyg  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
 3. Välj **Skriv ut leveransintyg**.  
 
-    > [!NOTE]  
-    >  Alternativt kan du skriva ut ett intyg från fönstret **Leveransintyg**.  
+> [!NOTE]  
+>  Alternativt kan du skriva ut ett intyg från fönstret **Leveransintyg**.  
 
 4. Välj kryssrutan **Utskriftsradinformation** om du vill inkludera information från raderna i utleveransdokumentet på leveransintyget.  
 5. Välj kryssrutan **Skapa leveransintyg om de inte redan skapats** om du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska skapa intyg för bokförda leveranser som inte har något vid utförandet. När du markerar kryssrutan upprättas nya certifikat för alla bokförda utleveranser som inte har intyg i det valda intervallet  
 6. Som standard gäller filterinställningarna för utleveransdokumentet som du har valt. Fyll i information om filter för att välja ett visst leveransintyg som du vill skriva ut.  
 7. På sidan **Leveransintyg** väljer du åtgärden **Skriv utPrint** för att skriva ut rapporten eller välja åtgärden **Förhandsgranska** för att visa den på skärmen.  
 
-    > [!Note]  
-    > Fältet **leveransintygstatus** och **Utskrivet** är uppdaterade för leveransen på sidan **leveransintyg**.  
+> [!Note]  
+> Fältet **leveransintygstatus** och **Utskrivet** är uppdaterade för leveransen på sidan **leveransintyg**.  
 
 8. Du måste skicka det utskrivna leveransintyget till kunden för signatur.  
 
@@ -174,11 +175,11 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 
    Du kan ändra datumet för att visa datumet då du fick det signerade leveransintyget. Du kan också lägga till en länk till det undertecknade intyget med hjälp av standarddokumentkoppling för [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-    > [!NOTE]  
-    >  Du kan inte skapa ett nytt leveransintyg på sidan **Leveransintyg** när du navigerar till den med den här proceduren. Om du vill skapa ett intyg för en leverans som inte var inställd för att kräva en öppnar du den bokförda försäljningsutleveransen och använder någon av de två procedurer som beskrivs ovan:  
-    >
-    > * Så här skapar du manuellt ett leveransintyg  
-    > * Så här skriver du ut ett leveransintyg.
+> [!NOTE]
+> Du kan inte skapa ett nytt leveransintyg på sidan **Leveransintyg** när du navigerar till den med den här proceduren. Om du vill skapa ett intyg för en leverans som inte var inställd för att kräva en öppnar du den bokförda försäljningsutleveransen och använder någon av de två procedurer som beskrivs ovan:  
+>
+> * Så här skapar du manuellt ett leveransintyg  
+> * Så här skriver du ut ett leveransintyg.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

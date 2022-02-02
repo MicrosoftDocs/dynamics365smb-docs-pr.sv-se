@@ -1,7 +1,6 @@
 ---
-title: Importerar många artikelbilder från en ZIP-fil | Microsoft Docs
+title: Importerar många artikelbilder från en ZIP-fil
 description: Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan Importera artikelbilder för att importera flera artikelbilder.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
+ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 81e628a80fe170789bb174cd393842bdf2db9af5
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440530"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7975024"
 ---
 # <a name="import-multiple-item-pictures"></a>Importera flera artikelbilder
  Du kan importera flera artikelbilder samtidigt. Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan Importera artikelbilder för att hantera vilka artikelbilder som ska importeras.

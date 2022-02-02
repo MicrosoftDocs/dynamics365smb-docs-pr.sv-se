@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: f54abce68049db1a6ff9330eb5569f2c26cf12ed
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f26e06487925891e01544d107ee80a6c36426ce7
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437422"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953090"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring
 
@@ -67,7 +68,7 @@ Innan du kan bearbeta betalning på elektronisk väg genom att exportera betalni
 3. På snabbfliken **Betalning** i fältet **Betalningsmetodkod** väljer du **BANK**.  
 4. I fältet **Föredraget bankkonto** väljer du banken som pengarna ska överföras till när de har behandlat av din elektroniska bank.  
 
-     Om du inte redan har skapat en bank för leverantören kan du göra det nu. Mer information finns i [Så här skapar du leverantörs bankkonton för export av bankfiler](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Värdet i fältet **Föredraget bankkonto** kopieras till fältet **mottagarens bankkonto** på sidan **betalningsjournal**.  
+    Om du inte redan har skapat en bank för leverantören kan du göra det nu. Mer information finns i [Så här skapar du leverantörs bankkonton för export av bankfiler](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Värdet i fältet **Föredraget bankkonto** kopieras till fältet **mottagarens bankkonto** på sidan **betalningsjournal**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Så här anger du utbetalningsjournalen för att exportera betalningsfiler
 

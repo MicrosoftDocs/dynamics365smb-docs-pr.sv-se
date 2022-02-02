@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589532"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012083"
 ---
 # <a name="the-data-archive-extension"></a>Tillägget Dataarkiv
 Med tiden kommer ditt företag att samla en stor mängd data och som administratör är det förmodligen en god idé att ha en strategi för att arkivera data. Att få mycket data kan sakta ner sig, t.ex. ta något längre tid att generera rapporter eller till och med låsa poster. Dessutom kan stora mängder data leda till ökade lagringskostnader.
@@ -39,19 +39,19 @@ Dataarkiv tilläggen används av följande batch-jobb för datumkomprimering.
 
 |Batchjobb  |
 |---------|
-|Datumkomp. Artikelbudgettransaktioner     |
-|Datumkompr. bankkontotrans.     |
-|Datumkompr. kundreskontra     |
-|Datumkompr. anl. trans.     |
-|Datumkompr. redov.trans.     |
-|Datumkompr. försäkringstrans.     |
-|Datumkompr. underhållstrans     |
-|Datumkompr. underhållstrans     |
-|Datumkompr. resurstrans.     |
-|Datumkompr. momstrans.     |
-|Datumkompr. lev.reskontra     |
-|Datumkompr. dist.lager. Transaktioner     |
-|Datumkomp. Redov.budgettransaktioner     |
+|Datumkomp. Artikelbudgettransaktioner |
+|Datumkompr. bankkontotrans. |
+|Datumkompr. kundreskontra |
+|Datumkompr. anl. trans. |
+|Datumkompr. redov.trans. |
+|Datumkompr. försäkringstrans. |
+|Datumkompr. underhållstrans |
+|Datumkompr. underhållstrans |
+|Datumkompr. resurstrans. |
+|Datumkompr. momstrans. |
+|Datumkompr. lev.reskontra |
+|Datumkompr. dist.lager. Transaktioner |
+|Datumkomp. Redov.budgettransaktioner |
 
 Aktivera arkivering av data när du kör något av batch-jobben genom att aktivera växlingsknappen **arkivera borttagna transaktioner**.
 

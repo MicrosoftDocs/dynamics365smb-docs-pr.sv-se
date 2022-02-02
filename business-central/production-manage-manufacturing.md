@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc8eb04682492b3e3cd7906c12cf73d3974cf79a
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 42e4b06ab258c99225aedc59a0854d7c9cbf7eaa
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321197"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972651"
 ---
 # <a name="manufacturing"></a>Produktion
+
 > [!NOTE]
 > Funktionen som beskrivs i det här avsnittet och underavsnitt visas endast i användargränssnittet om du har **Premium**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
@@ -29,7 +30,7 @@ I stället för att använda batch-journalen för utflödesbokföring för flera
 
 Innan du kan skapa artiklar måste du göra olika inställningar, till exempel för produktionsgrupper, verksamhetsföljder och produktionsstrukturer. Mer information finns i [Konfigurera tillverkning](production-configure-production-processes.md).
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
@@ -41,13 +42,14 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Bokför kvantiteten för färdiga artiklar och tiden som spenderats per operation i en journal som kan behandla flera släppta produktionsorder.|[Batch-bokför utflöde och körtider](production-how-to-post-output-quantity.md)|
 |Ångra utdata, till exempel på grund av ett datafel inträffade och felaktiga belopp.  |[Återföra bokföring av utflöde](production-how-to-reverse-output-posting.md)|  
 |Bokföra det antal artiklar som producerats i varje slutförd operation, men som inte räknas som färdigt utflöde utan som kasserat material.|[Bokför kassation](production-how-to-post-scrap.md)|
-|Visa beläggningen på fabriken till följd av planerade och släppta produktionsorder.|[Visa beläggning på produktions- och maskingrupper](production-how-to-view-the-load-on-work-centers.md)|      
+|Visa beläggningen på fabriken till följd av planerade och släppta produktionsorder.|[Visa beläggning på produktions- och maskingrupper](production-how-to-view-the-load-on-work-centers.md)|  
 |Använda sidan **Kapacitetsjournal** för att bokföra förbrukade kapaciteter som inte tilldelats en produktionsorder, till exempel underhållsarbete.|[Bokför kapaciteter](production-how-to-post-capacities.md)|  
 |Beräkna och justera kostnaden för färdiga produktionsartiklar och förbrukade komponenter för avstämning.|[Om kostnader för färdiga produktionsorder](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Ställa in Produktion](production-configure-production-processes.md)  
-[Planerad](production-planning.md)      
+[Planerad](production-planning.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

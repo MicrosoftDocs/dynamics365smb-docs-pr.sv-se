@@ -4,23 +4,26 @@ description: Att slutföra produktionsordern är nyckeln till att slutföra kost
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9168ea7644390446f4e7a2cd8950d483d43e1013
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f8e4c6b4a0db47c56650ea91410670d81bae4cef
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324055"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973654"
 ---
 # <a name="about-finished-production-order-costs"></a>Om kostnader för färdiga produktionsorder
+
 Att färdigställa produktionsordern är en viktig uppgift när det gäller att slutföra livscykeln för kostnadsberäkning för artikeln som tillverkas. Slutkostnader, inklusive avvikelser i standardkostnad, faktiska värden i en FIFO, genomsnittlig eller LIFO-kostnad, beräknas med hjälp av batch-jobbet **Justera kostnad – artikeltransaktioner** som används för avstämning av kostnaderna för produktionsartiklar. Om kostnadsjustering ska genomföras för en produktionsorder måste statusen vara **Färdig**. Det är därför viktigt att vid slutförande ändra statusen för en produktionsorder till **Färdig**.  
 
-## <a name="example"></a>Exempel  
- Vid standardkostnad, när du t. ex. förbrukar material för att producera en artikel, överförs förenklat kostnaden för artikeln plus arbets- och overheadkostnader till PIA. När artikeln tillverkas minskar PIA med beloppet för standardkostnaden för artikeln. De här kostnaderna får vanligtvis inte nollnetto. För att dessa kostnader inte ska få nollnetto måste du köra batchjobbet **Justera kostnad – artikeltransaktiner** och notera att endast produktionsorder med statusen **Färdig** ska beaktas för justering.  
+## <a name="example"></a>Exempel
 
-## <a name="see-also"></a>Se även  
+Vid standardkostnad, när du t. ex. förbrukar material för att producera en artikel, överförs förenklat kostnaden för artikeln plus arbets- och overheadkostnader till PIA. När artikeln tillverkas minskar PIA med beloppet för standardkostnaden för artikeln. De här kostnaderna får vanligtvis inte nollnetto. För att dessa kostnader inte ska få nollnetto måste du köra batchjobbet **Justera kostnad – artikeltransaktiner** och notera att endast produktionsorder med statusen **Färdig** ska beaktas för justering.  
+
+## <a name="see-also"></a>Se även
+
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

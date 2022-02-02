@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
+ms.search.form: 98, 1020
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b2c2bfa376290439394debcf9b57da5bedaca8bd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 54158c8d10dd85b9ac8243059e1dfdbfd299e882
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443849"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971842"
 ---
 # <a name="manage-job-supplies"></a>Hantera projektleveranser
 Att hantera projektleveranser av artiklar, tjänster och utgifter är en viktig del och aspekt av allt projektgenomförande. Du kan använda lagerantal eller göra projektspecifika inköp med hjälp av inköpsorder eller inköpsfakturor. Ett servicejobb för en dator kan till exempel kräva en ny hårddisk. Du skapar då en inköpsfaktura för att köpa en ny hårddisk och registrerar det i projektet.

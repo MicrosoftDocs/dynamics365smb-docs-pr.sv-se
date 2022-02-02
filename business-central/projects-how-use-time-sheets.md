@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920909"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973131"
 ---
 # <a name="use-time-sheets"></a>Använd tidrapporter
 
@@ -36,7 +36,7 @@ Innan du kan använda tidrapporter måste du ställa in allmän information och 
 Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal perioder eller veckor. Sedan kan tidrapportsägaren öppna den och registrera tid som har spenderats på en aktivitet.  
 
 > [!IMPORTANT]
-> Du måste ha behörighet för att kunna skapa tidrapporter.
+> Du måste ha behörighet för att kunna skapa tidrapporter. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **tidrapporter** och väljer sedan relaterad länk.
 2. På sidan **Tidrapporter** väljer du åtgärden **Skapa tidrapporter**.

@@ -1,23 +1,22 @@
 ---
-title: Anskaffa anläggningstillgångar | Microsoft Docs
+title: Skaffa anläggningstillgångar
 description: Du kan ställa in en anläggningstillgång, tilldela en avskrivningsregel och registrera anläggningstillgångens anskaffningskostnad.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
+ms.search.form: 5605, 5551, 5600, 5628, 5629
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: a7c74ef8e5dc7e40f6ea63962734074f35ac57a8
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920961"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029254"
 ---
 # <a name="acquire-fixed-assets"></a>Skaffa anläggningstillgångar
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. En avskrivningsregel måste ställas in och tilldelas till varje anläggningstillgång, innan du kan anskaffa den.

@@ -1,5 +1,5 @@
 ---
-title: Tillägget Momsgruppshantering | Microsoft Docs
+title: Tillägget Momsgruppshantering
 description: Du kan samarbeta med andra företag för att skapa en momsgrupp och agera som antingen en medlem av eller representant för gruppen vid rapportering av moms.
 author: bholtorf
 manager: annbe
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771293"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029146"
 ---
 # <a name="the-vat-group-management-extension"></a>Tillägget Momsgruppshantering
 
@@ -116,8 +116,12 @@ När momsgruppsrepresentantens momsretur har skickats till myndigheterna för he
 > Funktionen momsgrupp stöds endast på de marknader där [!INCLUDE[prod_short](includes/prod_short.md)] använder en momsram som består av momsreturer och perioder för momsreturer. Du kan inte använda momsgrupper på andra marknader som har andra implementeringar av lokal momsrapportering, till exempel Österrike, Tyskland, Italien, Spanien och Schweiz. 
 
 ## <a name="see-also"></a>Se även
+
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
-[Ställa in moms](finance-setup-vat.md)
+[Ställa in moms](finance-setup-vat.md)  
+[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
+[Göra skatt digitalt i Storbritannien](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Norsk momsrapportering i norska versionen](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

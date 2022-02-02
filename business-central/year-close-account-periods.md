@@ -8,19 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44f7b577855f1df9967fd59bee5148d9ec06d087
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436004"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973738"
 ---
 # <a name="close-accounting-periods"></a>Avsluta bokföringsperioder
+
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.
 
 ## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsperioder** och väljer sedan relaterad länk.
 2. På sidan **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
 
@@ -30,7 +33,7 @@ När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar
 Räkenskapsåret stängs och fälten **Avslutat** och **Låst datum** markeras för samtliga perioder i året. Räkenskapsåret kan inte öppnas igen och du kan inte heller ta bort markeringen i fälten **Avslutat** eller **Låst datum**.
 
 > [!NOTE]  
->   Du kan inte avsluta ett räkenskapsår förrän du har upprättat ett nytt. Notera att du inte kan ändra startdatumet för det följande räkenskapsåret när räkenskapsåret är avslutat.
+> Du kan inte avsluta ett räkenskapsår förrän du har upprättat ett nytt. Notera att du inte kan ändra startdatumet för det följande räkenskapsåret när räkenskapsåret är avslutat.
 
 Även om ett räkenskapsår har avslutats kan du fortfarande bokföra redovisningstransaktioner på året. När du gör det markeras transaktionerna som bokförda på ett avslutat räkenskapsår och fältet **Föregående års transaktion** markeras.
 

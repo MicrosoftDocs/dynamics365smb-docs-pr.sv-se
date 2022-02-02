@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: bbc68f5ed274328a9ea1fe7229a79bfba5a8bdf5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587946"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012373"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Hämta Business Central-tillägget för Outlook
 
@@ -23,7 +24,7 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du hantera affärsinterak
 
 Det finns två sätt att få fram Business Central-tillägget för Outlook installerat, beroende på din roll i organisationen:
 
-- Som Microsoft 365-administratör använder du *centraliserad distribution* för att installera tillägget automatiskt för hela organisationen, grupperna eller specifika användare.
+- Som Microsoft 365-administratör använder du *Centraliserad distribution* för att installera tillägget automatiskt för hela organisationen, grupperna eller specifika användare.
 
 - För varje användare installerar du tillägget för egen användning, om din administratör inte redan har distribuerat det åt dig.
 
@@ -45,7 +46,7 @@ Varje tillägg tillhandahålls som en XML-fil, som kallas *manifest*, som måste
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuera tillägget med hjälp av centraliserad distribution som en administratör
 
-Centraliserad distribution är en funktion i Microsoft 365 administratörscenter som du använder för att automatiskt installera tillägg i användarnas Office-appar, som Outlook. Det är det rekommenderade sättet för administratörer att distribuera Office-tillägg till användare och grupper inom organisationen.
+Centraliserad distribution är en funktion i administratörscentret för Microsoft 365 som du använder för att automatiskt installera tillägg i användarnas Office-appar, som Outlook. Det är det rekommenderade sättet för administratörer att distribuera Office-tillägg till användare och grupper inom organisationen.
 
 > [!NOTE]
 > För Business Central lokal, se [Konfigurera tillägget för Outlook-integration med Business Central lokal](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) i administrationsinnehållet (endast engelska).
@@ -54,7 +55,7 @@ Centraliserad distribution är en funktion i Microsoft 365 administratörscenter
 
 - En Microsoft 365-prenumeration  
 - Användare tilldelas en Microsoft 365-licens  
-- Ditt Microsoft 365-konto har rollen som *global administratör* eller *Exchange-administratör*
+- Ditt Microsoft 365-konto har rollen *Global administratör* eller *Exchange-administratör*
 
 ### <a name="deploy-the-add-in"></a>Distribuera tillägget
 
@@ -68,12 +69,12 @@ Centraliserad distribution är en funktion i Microsoft 365 administratörscenter
 5. I det här skedet är du klar med det arbete som du behöver för att göra i Business Central, så du kan välja **klart**.
 
    >[!TIP]
-   > Innan du väljer **Nästa** väljer du länken **Gå till Microsoft 365 (öppnar ett nytt fönster)** för att öppna och logga in på administrationscentret för Microsoft 365 i ett nytt webbläsarfönster. Du kommer att behöva gå till administrationscentret för Microsoft 365 i det senare steget.
+   > Innan du väljer **Nästa** väljer du länken **Gå till Microsoft 365 (öppnar ett nytt fönster)** för att öppna och logga in på administrationscentret för Microsoft 365 i ett nytt webbläsarfönster. Du kommer att behöva gå till administrationscentret för Microsoft 365 i ett senare steg i alla fall.
 
 6. Gå till mappen där OutlookAddins.zip har hämtats och extrahera filerna **Contact Insights.xml** och **Document View.xml** från zip-mappen till en valfri mapp.
 
     Mer information finns i [komprimera och packa upp filer och mappar](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Logga in på Microsoft 365 administrationscenter och gå till [integrerade appar](https://go.microsoft.com/fwlink/?linkid=2163967).
+7. Logga in på administrationscentret för Microsoft 365 och gå sedan till [Integrerade appar](https://go.microsoft.com/fwlink/?linkid=2163967).
 
 8. Välj **överför egna appar**.
 9. På sidan **Ladda upp appar att distribuera**, välj **Ladda upp manifest-fil (.xml) Ladda upp** > **Välj fil**.
@@ -84,7 +85,7 @@ Centraliserad distribution är en funktion i Microsoft 365 administratörscenter
 > [!IMPORTANT]
 > En grön bockmarkering visas när tillägget distribueras till administrationscentret. Det kan ta upp till 24 timmar innan användaren ser tillägget i automatiskt-appen. Användare kan behöva starta om Outlook även.
 
-När du är klar kan du alltid ändra distributionen i Microsoft 365 administrationscenter, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscenter finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscenter finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installera tillägget för egen användning
 

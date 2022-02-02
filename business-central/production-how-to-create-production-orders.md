@@ -1,5 +1,5 @@
 ---
-title: Så här skapar du ett produktionsorderhuvud | Microsoft Docs
+title: Så här skapar du produktionsorderhuvud
 description: Du kan skapa en produktionsorder manuellt och första steget är då att skapa ett produktionsorderhuvud.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,39 +7,42 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8964bd76b34d4d7599971fbff32a481968442f9c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438608"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973342"
 ---
 # <a name="create-production-order-headers"></a>Så här skapar du produktionsorderhuvud
+
 Du kan skapa en produktionsorder manuellt och första steget är då att skapa ett produktionsorderhuvud.
 
-Produktionsorder skapas vanligtvis automatiskt av en planeringsfunktion för att uppfylla ett behov som är känt. Mer information finns i [Planering](production-planning.md).   
+Produktionsorder skapas vanligtvis automatiskt av en planeringsfunktion för att uppfylla ett behov som är känt. Mer information finns i [Planering](production-planning.md).  
 
 I det följande procedur skapas en fast planerad produktionsorder. Du kan också skapa produktionsorder med annan status.  
 
-## <a name="to-create-a-production-order-header"></a>Så här skapar du ett produktionsorderhuvud  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
-2.  Välj åtgärden **Ny**.  
-3.  I fältet **Nr.** skriver du numret på den artikel som har beställts.  
-4.  Välj produktionsorderns ursprung i fältet **Ursprungstyp**.
+## <a name="to-create-a-production-order-header"></a>Så här skapar du ett produktionsorderhuvud
 
-    Här kan du välja att skapa en familj av artiklar. Mer information finns i [Så här arbetar du med produktionsfamiljer](production-how-work-family.md).
-5.  Välj artikelnummer, familj eller försäljningshuvud som produktionsordern ska skapas för i fältet **Ursprungsnr** .  
-6.  Fyll i fälten **Antal** och **Förfallodatum** enligt aktuella specifikationer.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
+2. Välj åtgärden **Ny**.  
+3. I fältet **Nr.** skriver du numret på den artikel som har beställts.  
+4. Välj produktionsorderns ursprung i fältet **Ursprungstyp**.
 
-När produktionsbehov ändras, till exempel komponenter och operationer, kan du snabbt omplanera produktionsordern. Mer information finns i [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md). 
+Här kan du välja att skapa en familj av artiklar. Mer information finns i [Så här arbetar du med produktionsfamiljer](production-how-work-family.md).
+5. Välj artikelnummer, familj eller försäljningshuvud som produktionsordern ska skapas för i fältet **Ursprungsnr** .  
+6. Fyll i fälten **Antal** och **Förfallodatum** enligt aktuella specifikationer.  
 
-## <a name="see-also"></a>Se även  
-[Produktion](production-manage-manufacturing.md)    
-[Ställa in Produktion](production-configure-production-processes.md)  
-[Planerad](production-planning.md)      
+När produktionsbehov ändras, till exempel komponenter och operationer, kan du snabbt omplanera produktionsordern. Mer information finns i [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md).  
+
+## <a name="see-also"></a>Se även
+
+[Produktion](production-manage-manufacturing.md)
+[Konfigurera produktion](production-configure-production-processes.md)  
+[Planerad](production-planning.md)  
 [Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

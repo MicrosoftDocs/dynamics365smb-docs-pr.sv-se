@@ -1,32 +1,33 @@
 ---
-title: Så här skapar du nummerserier | Microsoft Docs
+title: Skapa nummerserier
 description: Lära dig hur du anger nummerserier som tilldelar unika ID-koder till konton och dokument i Business Central.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
+ms.search.form: 456
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446003"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029646"
 ---
 # <a name="create-number-series"></a>Skapa nummerserier
+
 För varje företag som du lägger upp måste du tilldela unika ID-koder till exempelvis redovisningskonton, kund- och leverantörskonton, fakturor och dokument. Numrering är viktigt inte enbart för identifiering. Ett adekvat numreringssystem gör också företaget mer hanterbart och enkelt att analysera, och kan minska antalet fel som uppstår vid datainmatning.
 
 > [!Important]
 > Som standard är luckor inte tillåtna i nummerserier eftersom den exakta historiken över de ekonomiska transaktionerna måste vara tillgänglig för granskning, enligt lag, och därför måste följa en obruten sekvens utan borttagna nummer.<br /><br />
-Om du vill tillåta luckor i vissa nummerserier ska du först samråda med revisorn eller redovisningschefen och se till att du följer de juridiska kraven i ditt land/din region. Mer information finns i [Luckor i nummerserier](ui-create-number-series.md#gaps-in-number-series).
+> Om du vill tillåta luckor i vissa nummerserier ska du först samråda med revisorn eller redovisningschefen och se till att du följer de juridiska kraven i ditt land/din region. Mer information finns i avsnittet [Luckor i nummerserier](#gaps-in-number-series).
 
 > [!NOTE]  
->   Vi rekommenderar att du använder samma nummerserie som du ser på sidan **Nr-serielista** i demonstrationsföretaget CRONUS. Koder som *P-INV+* kanske inte passar direkt, men [!INCLUDE[prod_short](includes/prod_short.md)] har flera standardinställningar som hör ihop med dessa nummerseriekoder.
+> Vi rekommenderar att du använder samma nummerserie som du ser på sidan **Nr-serielista** i demonstrationsföretaget CRONUS. Koder som *P-INV+* kanske inte passar direkt, men [!INCLUDE[prod_short](includes/prod_short.md)] har flera standardinställningar som hör ihop med dessa nummerseriekoder.
 
 Du skapar ett numreringssystem genom att skapa en eller flera koder för varje typ av huvuddata eller dokument. Du kan till exempel skapa en kod för numrering av kunder, en annan för numrering av försäljningsfakturor och en annan för numrering av dokument i redovisningsjournaler. När du har skapat en kod måste du ställa in minst en nummerserierad. Nummerserieraden innehåller information som första och sista nummer i serien och startdatum. Du kan registrera flera nummerserierader per nummerseriekod, med olika startdatum på varje rad. Nummerserierna används löpande, med början på respektive startdatum.
 

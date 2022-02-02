@@ -5,14 +5,15 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1f7620f2f78971649cb8af5ef9dd0e7389c0c06a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445732"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8028990"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Hantera arbete i flera företag med företagsnavet
 
@@ -86,7 +87,7 @@ Men om du vill lägga till ett företag måste du ha åtkomst till en eller fler
 
 Om du till exempel är en revisor kan klienterna bjuda in dig till deras [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Bjud in din externa revisor till din Business Central](finance-accounting.md#inviteaccountant).  
 
-Administratörer kan använda samma guide för assisterad konfiguration för att lägga till dig till [!INCLUDE [prod_short](includes/prod_short.md)], eller så kan de lägga till dig på det aktuella Azure AD-kontot i Microsoft 365-administratörscentret. Mer information finns i [Hantera användare och grupper](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Administratörer kan använda samma guide för assisterad konfiguration för att lägga till dig till deras [!INCLUDE [prod_short](includes/prod_short.md)], eller så kan de lägga till dig på det aktuella Azure AD-kontot i administratörscentret för Microsoft 365. Mer information finns i [Hantera användare och grupper](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Se även
 

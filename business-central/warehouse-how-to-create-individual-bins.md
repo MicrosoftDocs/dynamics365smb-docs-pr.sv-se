@@ -1,5 +1,5 @@
 ---
-title: 'Så här: Skapa lagerplatser'
+title: Skapa lagerställen
 description: Generera grupper med liknande lagerplatser i lagerplatsuppläggningskalkylarket, skapa lagerplatser individuellt på lagerställekortet eller automatiskt i lagerplatsuppläggningskalkylarket.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,45 +7,52 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b76c6aee2e986580d1c131688d87716e08d338f8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440084"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972599"
 ---
 # <a name="create-bins"></a>Skapa lagerställen
+
 Det effektivaste sättet att skapa lagerställena i distributionslagret på är att generera grupper med liknande lagerställen i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion på sidan **Lagerplatsuppläggningskalkylark** för att skapa lagerställena automatiskt.  
 
-## <a name="to-create-a-bin-from-the-location-card"></a>Så här skapar du en lagerplats från lagerställekortet:  
+## <a name="to-create-a-bin-from-the-location-card"></a>Så här skapar du en lagerplats från lagerställekortet:
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **placeringar** och väljer sedan relaterad länk.  
 2.  Markera lagerstället som du vill skapa en lagerplats från och välj åtgärden **Lagerställen**  
 3. Välj åtgärden **Ny**.
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="the-dedicated-field"></a>Fältet Dedikerad
-Fältet **Dedikerad** på sidan **Lagerställen** anger att kvantiteterna på lagerstället är skyddade från att plockas för andra behov. Men kvantiteterna i lagerställena kan fortfarande reserveras. Därmed ingår antalet i dedikerade lagerställen i fältet **Totalt disponibelt antal** på sidan **Reservation**.
+
+Fältet **Dedikerad** på sidan **Lagerplatser** anger att kvantiteterna på lagerplatsen är skyddade från att plockas för andra behov. Men kvantiteterna i lagerställena kan fortfarande reserveras. Därmed ingår antalet i dedikerade lagerställen i fältet **Totalt disponibelt antal** på sidan **Reservation**.
 
 Att dedikera en lagerplats resulterar i en liknande funktion i grundläggande lagerstyrning att använda lagerplatstyper, som endast finns i avancerade distributionslager. Mer information finns i [Skapa lagerställen](warehouse-how-to-set-up-bin-types.md).
 
-**Exempel:** En produktionsgrupp med en lagerställeskod i fältet **Till prod.-lagerplats – kod**. Produktionsorderkomponentrader med den här lagerställeskoden kräver att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerstället eftersom de är fortfarande tillgängligt lagerställesinnehåll. Se till att lagerställesinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja fältet **Dedikerad** på raden för den lagerställeskoden.
+### <a name="example"></a>Exempel
+
+En produktionsgrupp med en lagerplatskod i fältet **Till produktion-lagerplats-kod**. Produktionsorderkomponentrader med den här lagerställeskoden kräver att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerstället eftersom de är fortfarande tillgängligt lagerställesinnehåll. Se till att lagerställesinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja fältet **Dedikerad** på raden för den lagerställeskoden.
 
 > [!Caution]
 > Artiklar på dedikerade lagerställen skyddas inte när de plockas och förbrukas som produktions- eller monteringskomponenter med sidan **Lagerplockning**. Mer information finns i [Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration](warehouse-how-to-pick-for-production.md).
 
-## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Så här skapar du enstaka lagerställen i lagerplatsuppläggningskalkylark:  
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Så här skapar du enstaka lagerställen i lagerplatsuppläggningskalkylark:
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerplatsuppläggningskalkylark** och väljer sedan relaterad länk.  
 2.  På varje rad fyller du i de fält som är nödvändiga för att namnge och ange egenskaper för de lagerställen som du skapar.  
 3.  Välj åtgärden **Skapa lagerställen**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Så här skapar du lagerställen automatiskt i lagerplatsuppläggningskalkylarket:  
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Så här skapar du lagerställen automatiskt i lagerplatsuppläggningskalkylarket:
+
 Innan du börjar skapa lagerställen automatiskt i kalkylarket bör du bestämma vilken typ av lagerställen som är viktiga för driften samt vilket artikelflöde som är mest praktiskt i den fysiska strukturen i distributionslagret.  
 
 > [!NOTE]  
->  När du använder en lagerplats inte kan du ta bort den om den inte är tom. Om du vill använda ett annat namngivningssystem för lagerställen kan du dock använda grupperingsjournalen för att flytta artiklarna till ett nytt lagerplatssystem. Det här måste göras manuellt och är tidskrävande, så det är bättre att skapa lagerställena rätt från början.  
+> När du använder en lagerplats inte kan du ta bort den om den inte är tom. Om du vill använda ett annat namngivningssystem för lagerställen kan du dock använda grupperingsjournalen för att flytta artiklarna till ett nytt lagerplatssystem. Det här måste göras manuellt och är tidskrävande, så det är bättre att skapa lagerställena rätt från början.  
 
 Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du ställas in som en lageranställd på det lagerställe där lagerställena finns. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).    
 
@@ -70,7 +77,8 @@ Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du stäl
 
 Upprepa processen för ytterligare en uppsättning lagerställen tills du har skapat alla de lagerställen som du ska ha i distributionslagret.  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     

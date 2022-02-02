@@ -3,19 +3,19 @@ title: Översikt över uppgifter för hantering av försäljning
 description: Läs allt om hur du använder Business Central-tjänster för att hantera försäljningsaktiviteter med kunder med försäljningsfakturor, order, offerter med mera.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 376e2af791a8e9e37b72b27d7f4fcfbe8d9a654b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9517c0ff254922dfa3a36e3de348e5a24abb38cd
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321997"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011367"
 ---
 # <a name="sales"></a>FÖRS
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.

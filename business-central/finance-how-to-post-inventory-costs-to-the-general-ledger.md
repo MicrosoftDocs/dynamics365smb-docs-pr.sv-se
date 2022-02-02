@@ -1,7 +1,6 @@
 ---
-title: Så här kan du bokföra lagerkostnader i redovisningen
+title: Stämma av lagerkostnader med redovisningen
 description: I slutet av bokföringsperioden måste en serie uppgifter för kostnadskontroll och revision utföras så att ett korrekt och balanserat lagervärde rapporteras.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
+ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 74a2e257df3306a76d777559a5a157aa2b9ddec9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e59328df68eb4d936ea472c55a160be5fe13ecd6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442141"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971636"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Stämma av lagerkostnader med redovisningen
+
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen.
 
 Automatisk kostnadsbokföring definieras av fältet **Automatisk kostnadsbokföring** på sidan **Lagerinställningar**.
@@ -26,6 +27,7 @@ Automatisk kostnadsbokföring definieras av fältet **Automatisk kostnadsbokför
 Även om lagerkostnaderna automatiskt bokförs i redovisningen måste du fortsatt säkerställa att varukostnader skickas vidare till relaterade utgående försäljningstransaktioner, i synnerhet när varorna säljs innan du har fakturerat inköpet av varorna. I programmet kallas detta för Kostnadsjustering. Artikelkostnader justeras automatiskt när du bokför artikeltransaktioner, men du kan också justera projektartikelkostnader manuellt. Mer information finns i [Justera artikelkostnader](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Bokföra lagerkostnader manuellt
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför lagerkostnad i redov.** och väljer sedan relaterad länk.
 2. Bokför lagerkostnader i redovisningen manuellt genom att köra batch-jobbet. När det här batch-jobbet körs skapas redovisningstransaktioner utifrån värdetransaktioner. Det går att bokföra transaktionerna så att de sammanfattas per bokföringsmall.
 

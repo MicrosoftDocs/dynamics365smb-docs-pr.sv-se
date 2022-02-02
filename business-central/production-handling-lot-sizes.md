@@ -1,5 +1,5 @@
 ---
-title: Hantera partistorlekar | Microsoft-dokument
+title: Hantera partistorlekar
 description: Det här avsnittet beskriver olika sätt att hantera partistorlekar.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779388"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973920"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Hantera partistorlekar i produktion
 När det gäller kvantitet kanske antalet artiklar som du producerar i en produktionsåtgärd inte korrelerar med hur du säljer dem. Du kan till exempel producera hundratals artiklar i ett enda parti, men sälja varje artikel för sig. När du konfigurerar dina produktionsflöden och strukturlistor (BOMs) finns det ett antal nyanser du bör tänka på när det gäller partistorlekar. Detta avsnitt beskriver hur partistorlekar påverkar kostnadsberäkningar och resursplanering.

@@ -1,29 +1,29 @@
 ---
 title: 'Lägga upp bästa metoder: Värderingsprincip'
 description: Värderingsprincipen på artikelkortet anger hur artikelns kostnadsflöde registreras och om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 30, 42, 43
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87c3616a4d680f94a0997d503aa1569fd871bc9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d6b2c19ae98c50854c35a0bff412689d8e2bc38f
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778078"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974927"
 ---
 # <a name="setup-best-practices-costing-method"></a>Lägga upp bästa praxis: Värderingsprincip
 
 **Värderingsprincipen** på artikelkortet anger hur artikelns kostnadsflöde registreras och om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen.  
 
- Det är viktigt att ange rätt värderingsprincip enligt artikeltyp och affärsmiljö för att garantera ekonomiska lager.  
+Det är viktigt att ange rätt värderingsprincip enligt artikeltyp och affärsmiljö för att garantera ekonomiska lager.  
 
- I tabellen nedan finns bästa metod för hur du lägger upp fältet **Värderingsprincip**. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).  
+I tabellen nedan finns bästa metod för hur du lägger upp fältet **Värderingsprincip**. Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).  
 
 |Inställningsalternativ|Best practice|Kommentar|  
 |------------------|-------------------|-------------|  
@@ -33,11 +33,12 @@ ms.locfileid: "5778078"
 |Specifik|Använd i produktionen eller handel med enkelt härledas artiklar med i höga kostnadspris.<br /><br /> Använda för artiklar, som lyder under regler.<br /><br /> Använd för artiklar med serienummer.|En artikels styckkostnad är den exakta kostnaden för mottagandet av den aktuella enheten.|
 |Standard|Använd där kostnadskontroll är kritisk.<br /><br /> Använd i upprepande produktion för att värdera kostnaderna för direkt material, direkt arbete och produktionsoverheadkostnad.<br /><br /> Använd när det finns funktion och personal som underhåller standarder.|En artikels styckkostnad är förinställd baserad på uppskattning.<br /><br /> När den verkliga kostnaden senare realiseras, måste standardkostnaden justeras med den verkliga kostnaden via skillnadsvärden.|  
 
-## <a name="see-also"></a>Se även  
- [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)   
- [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
- [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Se även
+
+[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
+[Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  
+[Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

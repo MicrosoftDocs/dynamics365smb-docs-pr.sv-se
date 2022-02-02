@@ -1,25 +1,25 @@
 ---
 title: Hantera anläggningstillgångar (innehåller video)
 description: Lär dig mer om funktionen för anläggningstillgångar och få en översikt över hur du arbetar med och hanterar anläggningstillgångar.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
+ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: e7b40c1d4809193a22367157fd69cacbd9b27105
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940582"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029384"
 ---
 # <a name="managing-fixed-assets"></a>Hantera anläggningstillgångar
+
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
 
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. Sedan kan du börja anskaffa, underhålla och sälja anläggningstillgångarna. Du kan även skapa budgeterade tillgångar. På så sätt kan du inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.

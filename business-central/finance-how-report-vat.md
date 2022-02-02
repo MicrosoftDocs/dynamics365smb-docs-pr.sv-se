@@ -1,5 +1,5 @@
 ---
-title: Skicka momsrapporter till skattemyndigheten | Microsoft Docs
+title: Skicka momsrapporter till skattemyndigheterna
 description: Lär dig hur du förbereder en rapport över moms från försäljning under en period eller från försäljning och inköp och skickar rapporten till en skattemyndighet.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
+ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4a7452043a2626228fa066e5043c435e920f194c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444493"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970654"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
+
 Det här avsnittet beskrivs rapporterna i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region. 
 
 Du kan använda följande rapporter:

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.form: 1805
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ce8856f250e4098256e9ac2b9959ec6900aaaadc
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: de40994a555fbc657eacc18e8b2e8b33ce430fcb
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940432"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011132"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
 Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan göra detta enklare genom att ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare, och bifoga filer på upp till 100 MB. Administratörer kan också skapa rapportlayout som endast innehåller nyckelinformation från dokument. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
@@ -39,12 +40,12 @@ I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard
 
 |Tillägg  |Beskrivning  |Exempel på när du kan använda  |
 |---------|---------|---------|
-|**Microsoft 365**|Alla skickar e-post från en delad postlåda i Exchange Online.|När alla meddelanden kommer från samma avdelning, t. ex. genom att din försäljningsorganisation skickar meddelanden från ett sales@cronus.com-konto. Detta innebär att du måste skapa en delad postlåda i Microsoft 365 administrationscenter. Mer information finns i [Delade postlådor](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Alla skickar e-post från en delad postlåda i Exchange Online.|När alla meddelanden kommer från samma avdelning, t. ex. genom att din försäljningsorganisation skickar meddelanden från ett sales@cronus.com-konto. Detta innebär att du måste skapa en delad postlåda i administrationscentret för Microsoft 365. Mer information finns i [Delade postlådor](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Aktuell användare**|Alla skickar e-post från det konto som de använde för att logga in på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillåt kommunikation från enskilda konton.|
 |**Annat (SMTP)**|Använd SMTP-protokoll för att skicka e-post.|Tillåt kommunikation via din SMTP-e-postserver. |
 
 > [!NOTE]
-> Tilläggen **Microsoft 365** och **Aktuell användare** använder de konton som du har angett för användare i administrationscentret för Microsoft 365 för din -prenumeration. Användarna måste ha en giltig licens för Exchange Online för att kunna skicka e-post med hjälp av tilläggen. 
+> Tilläggen **Microsoft 365** och **Aktuell användare** använder de konton som du har angett för användare i administrationscentret för Microsoft 365 för din Microsoft 365-prenumeration. Användarna måste ha en giltig licens för Exchange Online för att kunna skicka e-post med hjälp av tilläggen. 
 >
 > Dessutom kan externa användare, som utsedda administratörer och externa revisorer, inte använda dessa tillägg för att skicka e-postmeddelanden från [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -118,7 +119,7 @@ Nedan följer exempel på hur Skicka som och Skicka åt används i [!INCLUDE[pro
 > Du kan bara använda ett konto för att ersätta avsändaradresser. Det innebär att du inte kan ha en ersättningsadress för att inköpsprocesser, och en annan för försäljningsprocesser.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Att ange ersättningsavsändaradress för alla utgående e-postmeddelanden
-1. I **administrationscenter för Exchange** för ditt Microsoft 365-konto hittar du den postlåda som ska användas som ersättningsadress, kopiera sedan eller gör en notering av adressen. Om du behöver en ny adress går du till administrationscentret för Microsoft 365 för att skapa en ny användare och ställa in postlådan.
+1. I **administrationscentret för Exchange** för ditt Microsoft 365-konto hittar du den postlåda som ska användas som ersättningsadress, kopiera sedan eller gör en notering av adressen. Om du behöver en ny adress går du till administrationscentret för Microsoft 365 för att skapa en ny användare och ställa in postlådan.
 2. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **SMTP-postinställningar** och väljer sedan relaterad länk.
 3. I fältet **Skicka som** anger du ersättningsadressen.
 4. Kopiera eller anteckna adressen i fältet **användar-ID**.
@@ -177,7 +178,7 @@ Notera följande information när du skapar din appregistrering. Du kommer att b
 Allmänna riktlinjer om hur du registrerar en app finns i [Snabbstart: Registrera en app med Microsofts identitetsplattform](/azure/active-directory/develop/quickstart-register-app). 
 
 > [!NOTE]
-Om du har problem med att använda den gamla SMTP-installationen för att skicka e-post efter att du har anslutit [!INCLUDE[prod_short](includes/prod_short.md)] till din programregistrering kan det bero på att SMTP-autentisering inte har aktiverats för innehavaren. Vi rekommenderar att du använder e-postkopplingarna från Microsoft 365 och aktuell användare i stället, eftersom de använder Microsoft Graph Mail API:er. Om du måste använda SMTP-installationen kan du emellertid aktivera SMTP AUTH. Mer information finns i [Aktivera eller inaktivera autentiserad klient-SMTP-sändning (SMTP-autentisering) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
+Om du har problem med att använda den gamla SMTP-installationen för att skicka e-post efter att du har anslutit [!INCLUDE[prod_short](includes/prod_short.md)] till din programregistrering kan det bero på att SMTP-autentisering inte har aktiverats för innehavaren. Vi rekommenderar att du använder e-postkopplingarna från Microsoft 365 och Aktuell användare i stället, eftersom de använder Microsoft Graph Mail API:er. Om du måste använda SMTP-installationen kan du emellertid aktivera SMTP AUTH. Mer information finns i [Aktivera eller inaktivera autentiserad klient-SMTP-sändning (SMTP-autentisering) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till dina app-registrering
 När du har registrerat ditt program i Azure Portal använder du den assisterade konfigurationen **AAD-registrering för e-postprogram** i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till det.

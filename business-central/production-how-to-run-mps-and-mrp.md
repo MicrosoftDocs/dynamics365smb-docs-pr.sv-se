@@ -1,5 +1,5 @@
 ---
-title: Så här kör du en fullständig planering, nettobehov och produktionsplan
+title: Kör komplett planering, nettobehov eller produktionsplan
 description: I planeringssystemet beräknas antingen produktionsprogrammet eller nettobehovet, eller så beräknas båda på samma gång.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c3994dfa33e75379b2dcbc19c0f40e0262e032b2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440334"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971307"
 ---
-# <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov och produktionsplan
+# <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov eller produktionsplan
+
 Begreppen "Skapa inköpsförslageringsförslag" eller "beräkna nettobehov" syftar på beräkningen av produktionsprogram och materialbehov baserat på faktiskt och prognostiserat behov. I planeringssystemet beräknas antingen produktionsprogrammet eller nettobehovet, eller så beräknas båda på samma gång.  
 
 -   Nettobehov är beräkningen av en produktionsplan baserat på faktiskt behov och efterfrågeprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  

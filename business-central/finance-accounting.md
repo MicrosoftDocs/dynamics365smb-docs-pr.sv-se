@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2c92e72f20c26fe1505834e70d58981093c24b8
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940232"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029462"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Revisorupplevelse i Financials [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -49,9 +50,9 @@ Vi har gjort det lätt för dig att bjuda in en extern revisor. Öppna bara sida
 > [!IMPORTANT]  
 > Revisorns e-postadress måste vara en arbetsadress som baseras på ett Azure Active Directory. Om revisorn har en annan typ av e-post kan inte inbjudan skickas.
 >
-> För den här uppgiften krävs åtkomst till hantering av användare och licenser i Azure Active Directory. Användaren som skickar den här inbjudan måste tilldelas rollen **Global administratör** eller **Användaradministratör** i administratörscentret för Microsoft 365. Mer information finns i [Om administratörsroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365 administratörsinnehållet.  
+> För den här uppgiften krävs åtkomst till hantering av användare och licenser i Azure Active Directory. Användaren som skickar den här inbjudan måste tilldelas rollen **Global administratör** eller **Användaradministratör** i administratörscentret för Microsoft 365. Mer information finns i [Om administratörsroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratörsinnehållet.  
 
-### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Lägga till din revisor i Microsoft 365 via Azure Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Lägga till din revisor i Microsoft 365 i Azure Portal
 
 Om din administratör eller återförsäljarpartner inte vill använda guiden **Bjud in extern revisor** kan de lägga till en extern användare i Azure-portalen och tilldela denna användare licensen *Extern revisor*. Mer information finns i [Snabbstart: Lägg till gästanvändare i din katalog i Azure Portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
@@ -92,7 +93,7 @@ Revisorn får ett e-postmeddelande som meddelar dem att de har fått åtkomst ti
 
 1. Öppna det [!INCLUDE[prod_short](includes/prod_short.md)]-företag som du vill ge revisorn åtkomst till på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.  
-3. Välj åtgärden **Skaffa nya användare från Microsoft 365**.
+3. Välj åtgärden **Hämta nya användare från Microsoft 365**.
 
 Detta importerar användarkontot som du skapade i Azure-portalen till företaget. Mer information finns i [S¨här lägger du till en användare i Business Central](ui-how-users-permissions.md#adduser).  
 

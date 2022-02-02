@@ -1,8 +1,6 @@
 ---
-title: PIA-metoder för att beräkna och registrera projektets framsteg | Microsoft Docs
+title: PIA-metoder för att beräkna och registrera projektets framsteg
 description: Beskriver de olika PIA-metoder som kan användas för att bokföra och övervaka ekonomisk information för pågående projekt som är produkter i arbete.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
+ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f27d0629c475d52cb8f99bb13dd4021d96f3df68
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780288"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970891"
 ---
-# <a name="understanding-wip-methods"></a>Förstå PIA-metoder
+# <a name="understanding-wip-methods-in-project-management"></a>Förstå PIA-metoder i projekthantering
+
 Allt eftersom ett projekt fortlöper används material och resurser och de, och andra kostnader, måste bokföras i projektet. Produkter i arbete (PIA) är en funktion som gör att du kan uppskatta värdet i projektet i redovisningen medan projekten pågår. I många fall kan du bokföra kostnader för ett projekt innan du fakturerar projektet. Om endast kostnader bokförts blir er finansiella rapport oriktig.
 
 Om du vill hålla reda på värdet i redovisningen kan du beräkna PIA (Produkter i arbete) och bokföra värdet i redovisningen. Mer information finns i [Övervaka projektframsteg och -resultat](projects-how-monitor-progress-performance.md).
@@ -35,10 +35,11 @@ Om du vill hålla reda på värdet i redovisningen kan du beräkna PIA (Produkte
 | Slutfört kontrakt |PIA-belopp = PIA-kostnadsbelopp = Förbrukning (totalkostnad)<br /><br /> PIA-försäljningsbelopp = Fakturerbart (Fakturerat pris) |Slutfört kontrakt bokför inte intäkter och kostnader förrän projektet är slutfört. Du kan vilja göra detta när det finns en stor osäkerhet kring uppskattningen av kostnader och intäkter för projektet.<br /><br /> All förbrukning bokförs på kontot för PIA-kostnader (tillgång) och all fakturerad försäljning bokförs på kontot för fakturerad PIA-försäljning (skuld) tills projektet är slutfört. |
 
 ## <a name="see-also"></a>Se även
+
 [Projekthantering](projects-manage-projects.md)  
 [Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)      
+[Inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

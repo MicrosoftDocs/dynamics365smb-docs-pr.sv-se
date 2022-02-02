@@ -1,8 +1,6 @@
 ---
-title: Behandla inkommande och utgående koncerninterna transaktioner | Microsoft Docs
+title: Hantera koncerninterna in- och utkorgar
 description: Koncerninterna transaktioner som du tar emot från dina koncerninterna partner visas i den koncerninterna inkorgen där du behandlar dem manuellt eller automatiskt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
+ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 2678d6b31a630d088a747464444fed76ee98a277
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921018"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029436"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Hantera koncerninterna in- och utkorgar
 Alla koncerninterna transaktioner som du tar emot elektroniskt från dina koncerninterna partner visas i den koncerninterna inkorgen.  

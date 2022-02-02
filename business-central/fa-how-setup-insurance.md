@@ -1,23 +1,22 @@
 ---
-title: Skapa försäkring för anläggningstillgångar | Microsoft Docs
+title: Skapa försäkring för anläggningstillgångar
 description: Om du vill hantera täckning av försäkring för anläggningstillgångar måste du ange ett försäkringskort och allmän försäkringsinformation.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
+ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9eab4b00e0729f13adb4cd38b7b4992a160539
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b981504f6a223e2558df8d67b4b8bb94859909a1
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440655"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029332"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Skapa försäkring för anläggningstillgångar
 Om du vill hantera täckning av försäkring för anläggningstillgångar måste du först ange en viss allmän försäkringsinformation och ett försäkringskort per brev.

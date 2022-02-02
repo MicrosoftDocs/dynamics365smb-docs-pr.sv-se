@@ -1,5 +1,5 @@
 ---
-title: Lägga till kommentarer i kort och dokument | Microsoft Docs
+title: Lägga till kommentarer i kort och dokument
 description: Lägga till ytterligare information till konton, kundkort eller försäljningsorder för att kommunicera avtal, till exempel en särskild pris- eller leveransmetod för andra användare.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
+ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 345faa9f872d924e91572303ce71d87ff3b77160
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440980"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011942"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Lägga till kommentarer i kort och dokument
+
 Du kan lägga till ytterligare information till redovisningskonton, kundkort eller försäljningsorder för att kommunicera undantag eller särskilda avtal till andra användare.
 Praktiskt taget alla kort och dokumentet har åtgärden **kommentarer** som öppnar sidan **Kommentarsark** där du kan skriva eller läsa kommentarer. På dokument kan du även lägga till kommentarer på enskilda rader.
 
@@ -31,12 +33,14 @@ Du kan också ange om du vill att kommentarer ska överföras från en viss typ 
 Nedan beskrivs hur du lägger till en kommentar för ett artikelkort. Momentet är liknande för andra kort och dokument, men inte för dokumentrader, åtgärden **kommentarer** placeras på en rader åtgärdsmenyn.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Att lägga till kommentarer till ett artikelkort
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna relevant artikelkort.
 3. Välj åtgärden **Kommentarer**.
 4. På sidan **Kommentarsark** anger du valfri text och väljer knappen **OK**.
 
 ## <a name="see-also"></a>Se även
+
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 

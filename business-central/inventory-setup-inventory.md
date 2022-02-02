@@ -1,8 +1,6 @@
 ---
-title: Ställa in lager | Microsoft Docs
+title: Ställa in lager
 description: Beskriver hur du ställer in dina lagerprocesser, inklusive överföringsflöden och lagerställen som t. ex. distributionslager.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
+ms.search.form: 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2798031fcb9796d14daa94d6614bd5da1081d32e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61e8eab802c95e212e3ba871be87074130be2637
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785579"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974972"
 ---
 # <a name="setting-up-inventory"></a>Ställa in lager
 Innan du kan administrera aktiviteter för lager och lagerkostnader måste du först ställa in de regler och värden som definierar företagets lagerpolicyer.

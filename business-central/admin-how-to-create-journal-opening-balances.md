@@ -1,5 +1,5 @@
 ---
-title: Så här skapar du ingående saldon för journalen
+title: Skapa ingående saldon för journalen
 description: Batch-jobb som tillhandahålls som hjälp vid överföringen av bakåtkompatibla kontosaldon till ett nytt konfigurerat företag. Du kan enkelt överföra data med bokföring i journaler.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319544"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029094"
 ---
 # <a name="create-journal-opening-balances"></a>Skapa ingående saldon för journalen
 
@@ -45,6 +45,9 @@ Innan du börjar rekommenderar vi att du använder administreringssidan för Rol
 
 > [!TIP]
 > Du kan använda samma batch-jobb för att lägga till ingående saldo när du registrerar en ny kund eller leverantör som du har gjort affärer med tidigare men inte registrerat i [!INCLUDE [prod_short](includes/prod_short.md)]. Sök bara efter den relevanta uppgiften och välj sedan önskad länk.
+
+> [!IMPORTANT]
+> För ingående saldo på bank-konton ska du inte följa instruktionerna i denna artikel för att bokföra direkt på de redovisningskonton som är kopplade till relevanta bank-konton. Mer information finns i [Skapa bankkonton](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Se även
 

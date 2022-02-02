@@ -7,43 +7,44 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1100, 1103, 1104, 1113
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435828"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970811"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Överföra och bokföra kostnadstransaktioner
+
 Innan du definierar kostnadsfördelningar, måste du förstå hur kostnadstransaktioner kommer från följande källor:  
 
--   Automatisk överföring av redovisningstransaktioner.  
--   Manuell kostnadsbokföring för rena kostnadstransaktioner, interna avgifter och manuella fördelningar.  
--   Automatiska fördelningsbokföringar för faktiska kostnader.  
--   Överföring av budgettransaktioner till faktisk.
+- Automatisk överföring av redovisningstransaktioner.  
+- Manuell kostnadsbokföring för rena kostnadstransaktioner, interna avgifter och manuella fördelningar.  
+- Automatiska fördelningsbokföringar för faktiska kostnader.  
+- Överföring av budgettransaktioner till faktisk.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Villkor för överföring av redovisningstransaktioner till kostnadstransaktioner
 Det är viktigt att förstå villkor för överföring av redovisningstransaktioner mot kostnadstransaktioner. Under överföringen använder batchjobbet **Överför redovisningstransaktioner till kostnadsredovisning** följande villkor för att bestämma om och hur redovisningstransaktionerna överförs.  
 
 Redovisningstransaktioner överförs om:  
 
--   Transaktionerna har dimensionsvärden som motsvarar antingen ett kostnadsställe eller en kostnadsbärare.  
--   Transaktionerna har dimensionsvärden som motsvarar ett kostnadsställe och en kostnadsbärare. För dessa verifikationer har kostnadsstället prioritet. Det gör att det går att undvika en situation där en kostnadstyp visas både i en kostnadsbärare och ett kostnadsställe och därigenom räknas två gånger i statistiken.  
--   Verifikationsnumret i transaktionerna är tomt, så att visas med verifikationsnumret 0000 i kostnadstransaktionerna.  
--   Transaktionerna överförs till en kostnadstyp som används för kombinerade transaktioner, och dessa transaktioner överförs som en kombinerad transaktionen antingen månatligt eller dagligen.  
+- Transaktionerna har dimensionsvärden som motsvarar antingen ett kostnadsställe eller en kostnadsbärare.  
+- Transaktionerna har dimensionsvärden som motsvarar ett kostnadsställe och en kostnadsbärare. För dessa verifikationer har kostnadsstället prioritet. Det gör att det går att undvika en situation där en kostnadstyp visas både i en kostnadsbärare och ett kostnadsställe och därigenom räknas två gånger i statistiken.  
+- Verifikationsnumret i transaktionerna är tomt, så att visas med verifikationsnumret 0000 i kostnadstransaktionerna.  
+- Transaktionerna överförs till en kostnadstyp som används för kombinerade transaktioner, och dessa transaktioner överförs som en kombinerad transaktionen antingen månatligt eller dagligen.  
 
 Redovisningstransaktioner överförs inte om:  
 
--   Transaktionerna har dimensionsvärden som inte motsvarar ett kostnadsställe eller en kostnadsbärare.  
--   Transaktionerna har ett belopp på noll.  
--   Transaktionerna har ett redovisningskonto som har tagits bort.  
--   Transaktionerna har ett redovisningskonto som inte är av typen **Resultaträkning**.  
--   Transaktionerna har ett redovisningskonto som inte har kopplats till en kostnadstyp.  
--   Transaktionerna har ett bokföringsdatum före startdatum för **Startdatum för överföring till redovisning**.  
--   Transaktionerna har bokförts med ett stängningsdatum. Dessa är vanliga transaktioner som nollställer saldot i resultaträkningen i slutet av året.
+- Transaktionerna har dimensionsvärden som inte motsvarar ett kostnadsställe eller en kostnadsbärare.  
+- Transaktionerna har ett belopp på noll.  
+- Transaktionerna har ett redovisningskonto som har tagits bort.  
+- Transaktionerna har ett redovisningskonto som inte är av typen **Resultaträkning**.  
+- Transaktionerna har ett redovisningskonto som inte har kopplats till en kostnadstyp.  
+- Transaktionerna har ett bokföringsdatum före startdatum för **Startdatum för överföring till redovisning**.  
+- Transaktionerna har bokförts med ett stängningsdatum. Dessa är vanliga transaktioner som nollställer saldot i resultaträkningen i slutet av året.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Överföring av redovisningstransaktioner till kostnadstransaktioner
 Du kan överföra redovisningstransaktioner till kostnadstransaktioner.  
@@ -64,7 +65,7 @@ Innan du kör processen för att överföra redovisningstransaktioner till kostn
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Överför redovisningstransaktioner till kostnadsredovisning** och välj sedan relaterad länk.  
 2.  Välj **Ja** för att starta överföringen. Processen överför alla redovisningstransaktioner som inte redan har överförts.  
 
-    Under överföringen skapar processen anslutningar i transaktionerna i tabellerna **Kostnadstransaktion** och **Bokförd journal för kostnad**. Det gör det möjligt att spåra ursprunget till kostnadstransaktionerna.
+Under överföringen skapar processen anslutningar i transaktionerna i tabellerna **Kostnadstransaktion** och **Bokförd journal för kostnad**. Det gör det möjligt att spåra ursprunget till kostnadstransaktionerna.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Automatisk överföring och kombinerade transaktioner
 I kostnadsredovisningen kan du överföra redovisningstransaktioner till en kostnadstyp, genom att använda en kombinerad bokföring. Du kan ange om en kostnadstyp tar emot kombinerade transaktioner i fältet **Kombinera transaktioner** i kostnadstypsdefinitionen. Alternativen beskrivs i tabellen nedan.  

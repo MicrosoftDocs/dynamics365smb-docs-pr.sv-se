@@ -1,8 +1,6 @@
 ---
-title: Ställ in och hantera en budget för ett projekt | Microsoft Docs
+title: Ställ in och hantera en budget för ett projekt
 description: Beskriver hur du planerar resurser och prognos och styr kostnader för ett projekt genom att skapa en budget för varje projekt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
+ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ceb57fb6425b988920957c3066aa19659d08ae89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 901a925e1ce8019cd2f347ac5b3e4c59735b444f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443464"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972284"
 ---
 # <a name="manage-job-budgets"></a>Hantera projektbudgetar
 Du kan lägga upp en budget för varje projekt. Budgeten används för att planera de resurser du tilldelar ett projekt. Budgeten kan antingen vara allmän med få poster eller innehålla fler poster som är indelade i aktivitetsnivåer. Du kan sedan jämföra budgeterade belopp med den faktiska förbrukningen enligt registreringen i projektjournalen. Genom att övervaka skillnader mellan faktisk förbrukning och budgeterad användning kan du kontrollera pågående projekt och förbättra kvaliteten hos framtida projekt genom att minska risken för att kostnader underskattas.

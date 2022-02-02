@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
-ms.date: 09/24/2021
+ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 543a334e087db85b15b5237a37702d410254f266
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: ee32f74c82360c6f001c5a7b40def4bcb459cb28
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752347"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011932"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Sälja produkter med en kundförsäljningsreturorder  
 
@@ -84,6 +84,8 @@ Du kan även skapa direktbetalade order för icke-registrerade kunder genom att 
 12. Att enbart leverera en del av orderkvantiteten , anger denna kvantitet i **Ant. att utleverera**. Värdet kopieras till **Ant. att fakturera**.
 13. För att enbart fakturera en del av den levererade kvantiteten , anger du denna kvantitet i **Ant. att fakturera**. Antalet kan inte vara högre än värdet i fältet **Ant. att utleverera**.  
 14. När försäljningsorderraderna slutförda väljer du åtgärden **Bokföra och skicka**.
+
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
 Dialogrutan **Bokför och skicka bekräftelse** visar kundens standardmetod för mottagning av dokument. Du kan ändra utskicksmetoden genom att välja sökknappen för fältet **Skicka dokument till**. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
 

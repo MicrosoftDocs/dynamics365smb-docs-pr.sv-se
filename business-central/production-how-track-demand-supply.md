@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5830, 9101, 99000822, 99000855
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ed1dbf03838b478cc8ff9c5f2e357c5873e30703
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435300"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972703"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Spåra relationer mellan tillgång och efterfrågan
+
 Du kan spåra det orderbehov (spårat antal), den prognos, den försäljningsavropsorder eller den planeringsparameter (ej spårat antal) som gett upphov till den aktuella planeringsraden från alla försörjnings- eller behovsdokument i det så kallade ordernätverker.
 
 Planeringsförslaget omfattar också stödinformation för planeringen, till exempel enheter som inte finns på order som hjälper planeraren att ta fram en optimal leveransplan. Mer information finns i [Planeringselement, inte spårat](production-how-track-demand-supply.md#untracked-planning-elements).

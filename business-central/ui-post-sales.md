@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f3078a866d6d0a8197b4f44081d566a0bca08ad
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: ad339f8efb14cd3c4649a4cde46d882c8e69aed5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752561"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012688"
 ---
 # <a name="posting-sales"></a>Bokföra försäljning
 
@@ -40,8 +40,7 @@ För varje försäljningsorder skapas en försäljningstransaktion i tabellen **
 
 För varje orderrad skapas en artikeltransaktion i tabellen **Artikeltransaktion** (om försäljningsraden innehåller artikelnummer) eller en redovisningstransaktion i tabellen **Redovisningstransaktion** (om försäljningsraden innehåller ett redovisningskonto). Därutöver registreras order alltid i tabellerna **Utleveranshuvud** och **Försäljningsfakturahuvud**.
 
-> [!IMPORTANT]  
-> När du bokför en order kan du skapa både en utleverans och en faktura. Detta kan göras samtidigt eller oberoende av varandra. Du kan också skapa en delutleverans och en delfaktura genom att fylla i fältet **Ant. att utleverera** och **Ant. att fakturera** på de enskilda försäljningsorderraderna innan du bokför. Observera att du inte kan skapa en faktura för något som inte har utlevererats. D.v.s. innan du kan fakturera måste du ha registrerat en leverans alternativt välja att leverera och fakturera samtidigt.
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
 Du kan antingen bokföra eller bokföra och skicka. Om du väljer att bokföra och skicka, skapas en PDF-fil som du sedan kan skicka. Du kan även välja funktionen **Bokför batch-jobb** som ger dig möjlighet att bokföra fler fakturor samtidigt. Mer information finns i [Bokföra flera dokument på samma gång](ui-batch-posting.md).
 

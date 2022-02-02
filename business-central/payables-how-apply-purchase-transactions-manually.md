@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
+ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 017f88741ee0ccc2977f2173fbd984e5ebf6b36f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2be99ab30035a96d7c7d631caa84276d50a42b3e
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437247"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953290"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner
 När du skickar ett betalningskvitto till, eller tar emot en återbetalning från, en leverantör måste du bestämma om du ska koppla betalningen eller återbetalningen till en eller flera öppna debet- eller kreditposter. Du kan ange det exakta beloppet som ska kopplas till betalningsinleveransen eller återbetalningen och därmed endast delvis koppla leverantörsreskontratransaktioner. Du måste koppla alla leverantörsreskontratransaktioner för att leverantörsstatistik och rapporter över kontoutdrag och ränteintäkter ska bli korrekta.
@@ -79,7 +80,7 @@ Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetaln
 5. Markera raden med den transaktion som ska kopplas.
 6. Välj åtgärden **Koppla till ID**.
 
-    I fältet **Koppla till ID** visas tre asterisker (***) om du arbetar i ett enanvändarsystem, eller ditt användar-id om du arbetar i ett fleranvändarsystem.  
+    I fältet **Koppla till ID** visas tre asterisker om du arbetar i ett enanvändarsystem, eller ditt användar-id om du arbetar i ett fleranvändarsystem.  
 7. På varje rad i fältet **Belopp att koppla** anger du det belopp som du vill koppla till posten.
 
     Om du inte anger något belopp kopplas automatiskt det maximala beloppet. Längs ned på sidan **Koppla leverantörstrans.** kan du se beloppet i fältet **Kopplat belopp**.

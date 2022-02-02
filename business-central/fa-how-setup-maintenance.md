@@ -1,23 +1,22 @@
 ---
-title: Skapa underhållnning för anläggningstillgångar | Microsoft Docs
+title: Ställa in underhåll för anläggningstillgångar
 description: Om du vill hantera anläggningstillgångars reparationer och service, kan du ange allmän underhållsinformation, koder för typen av arbete och ett bokföringskonto för kostnader.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
+ms.search.form: 5600, 5642
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 515774bca47a7e9877f2ac10a3a4536f29b59834
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1aefc5d0e1453b2f43b9e72f587c0d9f90d07b4e
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440630"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029488"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Skapa underhåll för anläggningstillgångar
 Om du vill hantera underhåll av anläggningstillgångar måste du först ange viss allmän underhållsinformation, ett bokföringskonto för underhållskostnader och underhållskoder för olika typer av arbete, till exempel rutintjänst eller reparation.

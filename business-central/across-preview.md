@@ -6,14 +6,15 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
+ms.search.form: 1803, 1801
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589313"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011552"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer
 

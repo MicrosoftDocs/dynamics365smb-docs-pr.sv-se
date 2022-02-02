@@ -1,5 +1,5 @@
 ---
-title: 'Så här: Skapa Lagerplatstyper'
+title: Skapa lagerplatstyper
 description: Tilldela typer och grundläggande flödesaktiviteter till lagerplatser och definiera på vilket sätt lagerplatserna ska användas för särskilda lageraktiviteter.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 987db7dda73bb527cfa025b7641c445b08cced2a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b867079eb08790f2cfa091d0128a876499fb2045
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442985"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971582"
 ---
 # <a name="set-up-bin-types"></a>Skapa lagerplatstyper
 Du kan dirigera flödet av artiklar via lagerställen som du har definierat för särskilda distributionslageraktiviteter. Du ger varje lagerplats dess grundläggande flödesaktiviteter, genom att tilldela lagerstället en lagerplatstyp, och definierar därmed det sätt som lagerstället ska användas på.  
