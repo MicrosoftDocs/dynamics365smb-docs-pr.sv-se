@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 34e274b32fbf8cf04a40cf4db884c156e2115416
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9555ce9f7a072376b38a0be460b74c46f2b3f3f9
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320969"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049483"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrera med Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 I företagsappar används ofta data från mer än en källa. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombinerar data till en enda logikuppsättning som gör det enklare att ansluta andra Dynamics 365-program, t. ex. [!INCLUDE[crm_md](includes/crm_md.md)] eller ett eget program som bygger på [!INCLUDE[prod_short](includes/cds_long_md.md)], till [!INCLUDE[prod_short_md](includes/prod_short.md)]. Mer information om [!INCLUDE[prod_short](includes/cds_long_md.md)] finns i [Vad är Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 

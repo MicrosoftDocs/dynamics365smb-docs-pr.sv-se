@@ -11,12 +11,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012373"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049601"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Hämta Business Central-tillägget för Outlook
 
@@ -78,7 +78,7 @@ Centraliserad distribution är en funktion i administratörscentret för Microso
 
 8. Välj **överför egna appar**.
 9. På sidan **Ladda upp appar att distribuera**, välj **Ladda upp manifest-fil (.xml) Ladda upp** > **Välj fil**.
-10. Markera en av de filer som du har extraherat tidigare t.ex. **Content Insights.xml**.
+10. Markera en av de filer som du har extraherat tidigare t.ex. **Contact Insights.xml**.
 11. Följ instruktionerna för att tilldela användare och distribuera tillägget.
 12. Upprepa steg 9 till 11 för den andra tilläggsfilen om du vill.
 

@@ -1,5 +1,5 @@
 ---
-title: Så här exporterar och importerar du data i SIEE [SE]
+title: Importera och exportera data i SIEE [SE]
 description: Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export) som förklaras i detta ämne.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11212
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3588cbb32b065e62df17cb5ea5b0897f6bfa89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3e821f1925e7cafe48c755e5d813b919afd887fe
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444732"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115304"
 ---
 # <a name="import-and-export-data-in-standard-import-export-format-in-the-swedish-version"></a>Importera och exportera data i SIE-format (Standard Import Export) i svenska versionen
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  

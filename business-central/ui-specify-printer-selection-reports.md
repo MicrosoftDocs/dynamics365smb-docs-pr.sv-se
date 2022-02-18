@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547054"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102453"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 
@@ -84,7 +84,7 @@ För detaljerade instruktioner om hur du installerar, se [Komma igång: Ställ i
 
     Hur du tilldelar licensen beror på om du integrerar med Business Central online eller lokal.
 
-    - Med [!INCLUDE[prod_short](includes/prod_short.md)] online tilldelar du licenser genom att använda Microsoft 365 administrationscenter.
+    - Med [!INCLUDE[prod_short](includes/prod_short.md)] online tilldelar du licenser genom att använda Microsoft 365-administrationscentret.
 
       Mer information finns i [Hjälp för Microsoft administrationscenter - tilldela licenser till användare](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -267,6 +267,9 @@ Du eller administratören kan också använda sidan **Skrivarhantering** för at
 
 > [!NOTE]
 > Mer specifika skrivarval har företräde framför mer allmänna skrivarval. Ett skrivarval som exempelvis har värden i fälten **Användar-ID**, **Rapport-ID** och **Skrivarnamn** har företräde framför ett skrivarval som innehåller tomma poster i fälten **Användar-ID** och **Rapport-ID**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Välja skrivare när en rapport körs
+I stället för att använda standardskrivaren när du kör en rapport kan du åsidosätta inställningen från begärandesidan. Välj helt enkelt den skrivare som du vill använda för detta anrop i rapporten i listrutan **Skrivare**.
 
 ### <a name="sizing-print-jobs"></a>Ändra storlek på utskriftsjobb
 

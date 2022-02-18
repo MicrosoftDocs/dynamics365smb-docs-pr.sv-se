@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11207, 11208, 11206
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: a5a7ac62086185dc50e9d5912d9b7ba667e86647
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 788014cf39109fd2e55b3aa650642ece5ecb0014
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323445"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115442"
 ---
 # <a name="set-up-automatic-account-posting-groups-in-the-swedish-version"></a>Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
 

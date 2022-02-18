@@ -8,12 +8,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9fd6f09e428b067b240efd150166c32577ca92
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970393"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100909"
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
 
@@ -24,10 +24,12 @@ Innan du kan bokföra förskottsfakturor måste du skapa bokföringskonton i red
 Du kan ange procentandelen av radbeloppet som ska faktureras som förskottsbetalning, för en kund eller leverantör, för alla artiklar eller valda artiklar. När du har gjort de nödvändiga inställningarna kan du skapa förskottsfakturor från försäljnings- och inköpsorder. Du kan använda standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs. Du kan till exempel ange ett totalt belopp för hela ordern.  
 
 > [!NOTE]
-> Vi rekommenderar att du inte använder en procentandel för förskottsbetalning på 100 % i följande fall:
+> Vi rekommenderar att du inte använder en procentandel för förskottsbetalning på 100 i följande fall:
 >
-> * Om du befinner dig i Nordamerika: På grund av sättet att beräkna skatter kan en procentandel för förskottsbetalning på 100 % förorsaka problem med förskottsinbetalningsfakturor.
-> * Om du drar av en rabatt från fakturan manuellt (gäller samtliga regioner): En procentandel för förskottsbetalning på 100 % kommer inte automatiskt att lämna kvar ett belopp från vilket rabatten kan dras. 
+> * Om du befinner dig i Nordamerika: På grund av sättet att beräkna skatter kan en procentandel för förskottsbetalning på 100 förorsaka problem med förskottsinbetalningsfakturor.
+> * Om du drar av en rabatt från fakturan manuellt (gäller samtliga regioner): En procentandel för förskottsbetalning på 100 kommer inte automatiskt att lämna kvar ett belopp från vilket rabatten kan dras.
+>
+> När du använder en procentandel för förskottsbetalning på 100 kan det hända att [!INCLUDE[prod_short](includes/prod_short.md)] dessutom behöver skapa avrundningstransaktioner. När det händer måste du välja ett redovisningskonto i fältet **Öresutjämning** på sidan **Kundbokföringsmallar**. Detta gäller även om du inte har aktiverat alternativet **Fakturaavrundning** på sidan **Försäljningsinställningar**. Om du inte anger något konto kommer du inte att kunna bokföra förskottsfakturor. 
 
 Eftersom det förutbetalda beloppet hör till köparen ända tills han/hon har mottagit varan eller tjänsten måste du lägga upp redovisningskonton för förskottsbetalningarna tills slutfakturan är bokförd. Förskottsbet. för försäljning måste registreras på ett skuldkonto tills artiklarna är levererade. Förskottsbet. för inköp måste registreras på ett tillgångskonto tills artiklarna är levererade. Du måste dessutom skapa ett separat redovisningskonto för varje moms-ID.  
 

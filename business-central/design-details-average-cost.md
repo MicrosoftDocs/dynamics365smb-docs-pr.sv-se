@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer – Genomsnittskostnad | Microsoft Docs
+title: Designdetaljer - Genomsnittskostnad
 description: Genomsnittskostnaden för en artikel beräknas med ett återkommande viktat genomsnitt baserat på den genomsnittskostnadsperiod som ställs in i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 87bbd5d77bc677220b82789e343af1bda2300cbd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d670fb96b0f29c8a34f7076429d6a56f834d2e5d
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215484"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115098"
 ---
 # <a name="design-details-average-cost"></a>Designdetaljer: Genomsnittskostnad
 Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat genomsnitt baserat på den genomsnittskostnadsperiod som ställs in i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -28,7 +29,7 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 |Fält|Beskrivning|  
 |---------------------------------|---------------------------------------|  
 |**Period för genomsnittskostnad**|Anger vilken period genomsnittskostnaden beräknas i. Följande alternativ finns:<br /><br /> -   **Dag**<br />-   **Vecka**<br />-   **Månad**<br />-   **Bokföringsperiod**<br /><br /> Genomsnittskostnaden beräknas för aktuell period för alla lagerminskningar som bokfördes inom den angivna genomsnittskostnadsperioden.|  
-|**Genoms. kost.ber.typ**|Anger hur genomsnittskostnaden beräknas. Följande alternativ finns:<br /><br /> -   **Artikel**<br />-   **Artikel, Variant och Lagerställe**<br />     Med det här alternativet beräknas genomsnittskostnaden för varje artikel, för varje lagerställe och för varje variant av artikeln. Det innebär att genomsnittskostnaden för den här artikeln styrs av var den lagras och vilken variant av artikeln du har valt, som färg.|  
+|**Genoms. kost.ber.typ**|Anger hur genomsnittskostnaden beräknas. Följande alternativ finns:<br /><br /> -   **Artikel**<br />-   **Artikel, Variant och Lagerställe**<br /> Med det här alternativet beräknas genomsnittskostnaden för varje artikel, för varje lagerställe och för varje variant av artikeln. Det innebär att genomsnittskostnaden för den här artikeln styrs av var den lagras och vilken variant av artikeln du har valt, som färg.|  
 
 > [!NOTE]  
 >  Du kan endast använda en genomsnittskostnadsperiod och beräkningstyp för genomsnittskostnad under ett räkenskapsår.  
@@ -55,37 +56,37 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
  Följande tabell visar artikeltransaktionerna för exempelgenomsnittskostnadsartikeln, ARTIKEL1, innan batch-jobbet **Justera kostnad – Artikeltransaktioner** är färdigt.  
 
-|**Bokföringsdatum**|**Artikeltransaktionstyp**|**Antal**|**Kost.belopp (aktuellt)**|**Löpnr**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inköp|1|20.00|1|  
-|01-01-20|Inköp|1|40.00|2|  
-|01-01-20|Försäljning|-1|-20.00|3|  
-|02-01-20|Försäljning|-1|-40.00|4|  
-|02-02-20|Inköp|1|100,00|5|  
-|02-03-20|Försäljning|-1|-100.00|6|  
+| **Bokföringsdatum** | **Artikeltransaktionstyp** | **Antal** | **Kost.belopp (aktuellt)** | **Löpnr** |
+|--|--|--|--|--|
+| 01-01-20 | Inköp | 1 | 20.00 | 1 |
+| 01-01-20 | Inköp | 1 | 40.00 | 2 |
+| 01-01-20 | Försäljning | -1 | -20.00 | 3 |
+| 02-01-20 | Försäljning | -1 | -40.00 | 4 |
+| 02-02-20 | Inköp | 1 | 100,00 | 5 |
+| 02-03-20 | Försäljning | -1 | -100.00 | 6 |
 
 > [!NOTE]  
 >  Eftersom kostnadsjustering inte ännu har skett, motsvarar värdena i fältet **Kostnadsbelopp (Aktuellt)** för lagerminskningarna de lagerökningar som de är kopplade till.  
 
  Följande tabell visar de transaktioner i tabellen **Ingångspunkt för genomsn.kostn.justering** som gäller för värdetransaktionenerna som härrör från artikeltransaktionerna i föregående tabell.  
 
-|**Artikelnr**|**Variantkod**|**Platskod**|**Värderingsdatum**|**Kostnaden är justerad**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ARTIKEL1||BLÅ|01-01-20|Nej|  
-|ARTIKEL1||BLÅ|02-01-20|Nej|  
-|ARTIKEL1||BLÅ|02-02-20|Nej|  
-|ARTIKEL1||BLÅ|02-03-20|Nej|  
+| **Artikelnr** | **Variantkod** | **Platskod** | **Värderingsdatum** | **Kostnaden är justerad** |
+|--|--|--|--|--|
+| ARTIKEL1 |  | BLÅ | 01-01-20 | Nej |
+| ARTIKEL1 |  | BLÅ | 02-01-20 | Nej |
+| ARTIKEL1 |  | BLÅ | 02-02-20 | Nej |
+| ARTIKEL1 |  | BLÅ | 02-03-20 | Nej |
 
  Följande tabell visar samma artikeltransaktioner efter att batch-jobbet **Justera kostnader – Artikeltransaktioner** är färdigt. Genomsnittskostnaden per dag beräknas och den används till lagerminskningarna.  
 
-|**Bokföringsdatum**|**Artikeltransaktionstyp**|**Antal**|**Kost.belopp (aktuellt)**|**Löpnr**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inköp|1|20.00|1|  
-|01-01-20|Inköp|1|40.00|2|  
-|01-01-20|Försäljning|-1|-30.00|3|  
-|02-01-20|Försäljning|-1|-30.00|4|  
-|02-02-20|Inköp|1|100,00|5|  
-|02-03-20|Försäljning|-1|-100.00|6|  
+| **Bokföringsdatum** | **Artikeltransaktionstyp** | **Antal** | **Kost.belopp (aktuellt)** | **Löpnr** |
+|--|--|--|--|--|--|
+| 01-01-20 | Inköp | 1 | 20.00 | 1 |
+| 01-01-20 | Inköp | 1 | 40.00 | 2 |
+| 01-01-20 | Försäljning | -1 | -30.00 | 3 |
+| 02-01-20 | Försäljning | -1 | -30.00 | 4 |
+| 02-02-20 | Inköp | 1 | 100,00 | 5 |
+| 02-03-20 | Försäljning | -1 | -100.00 | 6 |
 
 ### <a name="example-average-cost-period--month"></a>Exempel: Period för genomsnittskostnad = Månad  
  Följande exempel visar hur resultatet blir när genomsnittskostnaden beräknas baserat på genomsnittskostnadsperioden en månad. Fältet **Genoms. kost.ber.typ** på sidan **Lagerinställning** är inställd på **Artikel**.  
@@ -94,24 +95,24 @@ Genomsnittskostnaden beräknas för en artikel med ett återkommande viktat geno
 
  Följande tabell visar artikeltransaktionerna för exempelgenomsnittskostnadsartikeln, ARTIKEL1, innan batch-jobbet **Justera kostnad – Artikeltransaktioner** är färdigt.  
 
-|**Bokföringsdatum**|**Artikeltransaktionstyp**|**Antal**|**Kost.belopp (aktuellt)**|**Löpnr**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Inköp|1|20.00|1|  
-|01-01-20|Inköp|1|40.00|2|  
-|01-01-20|Försäljning|-1|-20.00|3|  
-|02-01-20|Försäljning|-1|-40.00|4|  
-|02-02-20|Inköp|1|100,00|5|  
-|02-03-20|Försäljning|-1|-100.00|6|  
+| **Bokföringsdatum** | **Artikeltransaktionstyp** | **Antal** | **Kost.belopp (aktuellt)** | **Löpnr** |
+|--|--|--|--|--|
+| 01-01-20 | Inköp | 1 | 20.00 | 1 |
+| 01-01-20 | Inköp | 1 | 40.00 | 2 |
+| 01-01-20 | Försäljning | -1 | -20.00 | 3 |
+| 02-01-20 | Försäljning | -1 | -40.00 | 4 |
+| 02-02-20 | Inköp | 1 | 100,00 | 5 |
+| 02-03-20 | Försäljning | -1 | -100.00 | 6 |
 
 > [!NOTE]  
 >  Eftersom kostnadsjustering inte ännu har skett, motsvarar värdena i fältet **Kostnadsbelopp (Aktuellt)** för lagerminskningarna de lagerökningar som de är kopplade till.  
 
  Följande tabell visar de transaktioner i tabellen **Ingångspunkt för genomsn.kostn.justering** som gäller för värdetransaktionenerna som härrör från artikeltransaktionerna i föregående tabell.  
 
-|**Artikelnr**|**Variantkod**|**Platskod**|**Värderingsdatum**|**Kostnaden är justerad**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|ARTIKEL1||BLÅ|01-31-20|Nej|  
-|ARTIKEL1||BLÅ|02-28-20|Nej|  
+| **Artikelnr** | **Variantkod** | **Platskod** | **Värderingsdatum** | **Kostnaden är justerad** |
+|--|--|--|--|--|
+| ARTIKEL1 |  | BLÅ | 01-31-20 | Nej |
+| ARTIKEL1 |  | BLÅ | 02-28-20 | Nej |
 
 > [!NOTE]  
 >  Värderingsdatum anges till den sista dagen i genomsnittskostnadsperioden, som i det här fallet är den sista dagen i månaden.  

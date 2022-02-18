@@ -1,5 +1,5 @@
 ---
-title: Uppdatera en rapportlayout kontinuerligt
+title: Uppdatera anpassade rapportlayouter
 description: Lär dig uppdatera en anpassad rapportlayout som används i en rapport när det finns designändringar i rapportens datauppsättning.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445282"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101483"
 ---
 # <a name="update-custom-report-layouts"></a>Uppdatera anpassade rapportlayouter
+
 Ibland kan du behöva uppdatera en anpassad rapportlayout som används i en rapport. Det krävs när en designändring har skett för rapportens datauppsättning, till exempel att ett fält som används i layouten har tagits bort från rapportdatauppsättningen. Om en rapportlayout kräver att uppdatering kommer du att få ett felmeddelande när du försöker att förhandsgranska, skriva ut eller spara rapporten.  
 
 Du kan automatiskt uppdatera rapportlayouten från felmeddelandet som visas när du kör en rapport genom att välja knappen **Ja** på felmeddelandet. Eller, innan du kör rapporter, kan du uppdatera specifika rapportlayouter eller alla anpassade rapportlayouter som kan påverkas av datauppsättningsändringar.  

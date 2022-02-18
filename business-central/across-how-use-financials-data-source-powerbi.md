@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: db872c8049550a497e2ee56a4a62bb69fa6a1854
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341339"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049854"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -150,6 +150,39 @@ Det finns ett antal olika sätt att skicka rapporter till dina medarbetare och a
 - Dela rapport från din Power BI-tjänst
 
     Om du har en Power BI Pro-licens kan du dela rapporten med andra direkt från din Power BI-tjänst. Mer information finns i [Power BI – Dela en instrumentpanel eller rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+
+## <a name="fixing-problems"></a>Åtgärda problem
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad." fel vid anslutning till anpassad API-sida
+
+> **GÄLLER:** Business Central online
+
+Från och med februari 2022 kommer nya rapporter som använder Business Central-data att anslutas till en skrivskyddad kopia av Business Central-databasen som standard. I sällsynta fall visas ett felmeddelande, beroende på siddesignen, när du försöker ansluta till och hämtar data från sidan.
+
+1. Starta Power BI Desktop.
+2. I menyfliksområdet väljer du **Hämta data** > **Onlinetjänster**.
+3. I fönstret **Onlinetjänster** väljer du **Dynamics 365 Business Central** och sedan **Anslut**.
+4. I fönstret **Navigator** väljer du den API-ändpunkt som du vill läsa in data från.
+5. I förhandsgranskningen till höger visas följande felmeddelande:
+
+   *Dynamics365BusinessCentral: Begäran misslyckades: Fjärrservern returnerade ett fel: (400) Felaktig begäran. (Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad. CorrelationId: [...])".*
+
+6. Välj **Omvandla data** istället för **Läs in** som du kanske brukar göra.
+7. I **Power Query-redigeraren** väljer du **Avancerad redigerare** i menyfliksområdet.
+8. På raden som börjar med **Källa =** ersätter du följande text:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   med:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Välj **Utfört**.
+10. Välj **Stäng och tillämpa** i menyfliksområdet för att spara ändringarna och stäng Power Query-redigeraren.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

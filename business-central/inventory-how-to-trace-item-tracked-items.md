@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cd9ca9b1b3aac2f1c531090342d5c43bfa64943e
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445632"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059888"
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
 Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och [Hitta transaktioner](ui-find-entries.md).  
@@ -32,25 +33,25 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **artikelspårning** och väljer sedan relaterad länk.  
 2.  I filterfälten längst upp på sidan ska de specifika artikelnumren anges eller ett filter för artikelnumren som ska spåras.  
-3.  I fältet **Visa komponenter** väljer om ursprunget för artiklarnas komponenter dessutom ska visas. Dina alternativ i det här fältet är följande.  
+3.  I fältet **Visa komponenter** väljer du om ursprunget för artiklarnas komponenter dessutom ska visas. Alternativen beskrivs i tabellen nedan.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |----------------------------------|---------------------------------------|  
-    |**Nej**|Genom att välja detta alternativ visas inga komponenter.|  
-    |**Endast artikelspårade**|Genom att välja detta alternativ visas endast komponenterna med parti- eller serienummer.|  
-    |**Allt**|Genom att välja detta alternativ visas alla komponenter.|  
+    |**Nej**|Visa inte komponenter.|  
+    |**Endast artikelspårade**|Visa endast komponenter som har parti- eller serienummer.|  
+    |**Alla**|Visa alla komponenter.|  
 
-4.  I fältet **Spårningsmetod** väljer du den metod som ska användas för att spåra artikeln. Alternativen är följande  
+4.  I fältet **Spårningsmetod** väljer du den metod som ska användas för att spåra artikeln. Alternativen beskrivs i tabellen nedan.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |----------------------------------|---------------------------------------|  
-    |**Förbrukning-> Ursprung**|Med den här metoden börjar artikelspårningen från platsen där artikeln användes till platsen som den kom ifrån. Till exempel om en tillverkad artikel har sålts till en kund, visar sidan **Artikelspårning** detta med utleveransraden först, som du kan därefter kan expandera för att visa från vilken produktionsorder artikeln har sitt ursprung.|  
-    |**Förbrukning-> Ursprung**|Med den här metoden börjar artikelspårningen från platsen där artikeln lagerfördes till platsen där den användes. Till exempel om en tillverkad artikel har sålts till en kund, visar sidan **Artikelspårning** detta med den färdiga produktionsordern först, som du kan därefter kan expandera för att visa på vilken utleveransrad artikeln användes.|  
+    |**Förbrukning-> Ursprung**|Spåra artikeln från platsen där artikeln användes till platsen som den kom ifrån. Till exempel om en tillverkad artikel har sålts till en kund, visar sidan **Artikelspårning** detta med utleveransraden först, som du kan därefter kan expandera för att visa från vilken produktionsorder artikeln har sitt ursprung.|  
+    |**Förbrukning-> Ursprung**|Spåra artikeln från platsen där den kom in i lagret till platsen där den användes. Till exempel om en tillverkad artikel har sålts till en kund, visar sidan **Artikelspårning** detta med den färdiga produktionsordern först, som du kan därefter kan expandera för att visa på vilken utleveransrad artikeln användes.|  
 
 5.  Välj åtgärden **Spåra** för att utföra spårningen.  
 
 > [!NOTE]  
->  Om du har tagit emot samma parti i flera transaktioner, kanske sidan **Artikelspårning** inte visar alla transaktioner. Endast kopplade transaktioner visas.  
+>  Endast kopplade transaktioner visas. Om du har tagit emot samma parti i flera transaktioner, kanske sidan **Artikelspårning** inte visar alla transaktioner.   
 
 > [!NOTE]  
 >  Om ytterligare transaktionshistorik under en artikelspåringsrad redan har spårats av en annan rad ovanför denna, är kryssrutan **Redan spårad** markerad. För att förenkla vyn och göra den tydligare visas inte sådana underliggande rader.  

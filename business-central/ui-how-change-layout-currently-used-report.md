@@ -1,8 +1,6 @@
 ---
-title: Ändra hur rapporten ska se ut genom att välja en annan layout | Microsoft Docs
+title: Ändra hur rapporten ska se ut genom att välja en annan layout
 description: Du kan använda olika layouter för en rapport och växla mellan layouter för att ändra utseendet på en rapport.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5115407dd7cfbb8760a5749432ca6fc37f9f933
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444760"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101087"
 ---
 # <a name="change-the-current-report-layout"></a>Ändra aktuell rapportlayout
+
 En rapport kan ställas in med fler än en rapportlayout som du kan växla mellan.
 
 Beroende på layouterna som finns tillgängliga för en rapport kan du välja att använda en inbyggd RDLC-rapportlayout, en inbyggd Word-rapportlayout eller en anpassad layout. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).
@@ -30,6 +30,7 @@ När anpassade layouter för rapporter definieras kan du välja dem från kund- 
 > Dokumentrapporter (inte listor) som använder en Word-rapportlayout är vanligtvis snabbare än de med en RDLC-rapportlayout. Om du har möjlighet att välja mellan ett ord eller en RDLC-rapportlayout för en dokumentrapport kan du alltså använda Word-rapportlayouten för bästa prestanda.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Ändra vilken rapportlayout som ska användas för en rapport eller ett dokument
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
    Sidan **Val av rapportlayout** visar alla rapporter som är tillgängliga i företaget som har angetts i fältet **Företag** högst upp på sidan. Fältet **Vald layout** anger den layout som används i rapporten för närvarande.
 2. Ange fältet **Företag** fältet högst upp på sidan till företaget som inkluderar rapporten.

@@ -8,20 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2021
+ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: babf20be3c22a3d4b7dd710e2486c59bc11351fe
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596653"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8050911"
 ---
 # <a name="get-business-central-desktop-app"></a>Hämta appen för Business Central Desktop
 
-Om du har en Windows- eller macOS-dator kan du installera en Business Central-app på stationära datorn. 
-> [!NOTE]
-> Om du använder Business Central 2021 utgivningscykel 1 eller tidigare hämtar du appen från [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848).
+Om du har en Windows- eller macOS-dator kan du installera en Business Central-app på stationära datorn. Appen fungerar med Business Central Online och lokalt.
 
 ## <a name="why-use-the-app"></a>Varför ska du använda appen?
 
@@ -30,11 +28,23 @@ Business Central-appen liknar webbklienten, men har följande fördelar:
 - Appen är lätt tillgänglig på **Start**-menyn, du kan enkelt fästa den i uppgiftsfältet eller låta den startas som standard när du startar datorn.
 - I allmänhet är appen också en snabbare och smidigare att rendera på skärmen, utan prestanda skillnader, jämfört med att köras [!INCLUDE[prod_short](includes/prod_short.md)] i webbläsaren.
 - Appen öppnas i ett eget fönster oberoende av alla webbläsarfönster. Den här funktionen gör det enklare att hitta när du kör ett stort antal appar eller webbläsare.
-- Om du har mer än en Business Central-miljö (endast online), kan du installera appen separat för varje miljö.
+- Om det finns mer än en Business Central-miljö (endast online), kan du installera appen separat för varje miljö.
 
      När du öppnar appen för en specifik miljö ingår miljönamnet i fönster rubriken. När du arbetar i flera [!INCLUDE[prod_short](includes/prod_short.md)] miljöer visas varje appfönster separat. Namnet gör det enklare att se vilket fönster som är kopplat till varje miljö.
 
-## <a name="install-the-app"></a>Installera appen
+## <a name="install-the-app-for-business-central-online"></a>Installera appen Business Central Online
+
+Det finns två sätt att installera appen för Business Central Online. Du kan installera den direkt från webbläsaren eller från Microsoft Store. Oavsett vilken metod du använder är det samma app. Skillnaden är att när du installerar från webbläsaren kan du installera appen för varje miljö när det finns fler än en.
+
+### <a name="from-microsoft-store"></a>Från Microsoft Store
+
+1. Gå till [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
+2. Välj **Hämta** > **Installera**. 
+3. När appen har installerats väljer du **Öppna** och loggar sedan in på Business Central.
+
+Nästa gång du vill öppna appen söker du efter den i **Start**-menyn.
+
+### <a name="from-the-browser"></a>Från webbläsaren
 
 1. Öppna [!INCLUDE[prod_short](includes/prod_short.md)] webbklienten i antingen Microsoft Edge eller Google Chrome.
 
@@ -54,16 +64,14 @@ Business Central-appen liknar webbklienten, men har följande fördelar:
 
 När programmet installerats visas det på **Start**-menyn. Om du har valt en specifik miljö för appen läggs miljönamnet till i programnamnet på **Start**-menyn.
 
-### <a name="for-business-central-on-premises"></a>För Business Central lokalt
+## <a name="install-the-app-for-business-central-on-premises"></a>Installera appen för Business Central lokalt
 
-Att installera appen när du använder Business Central på plats är i princip detsamma som beskrivs ovan. Om du bara har en innehavare öppnar du först Business Central i webbläsaren och väljer sedan någon av ![ ikonerna för att installera en app i Edge.](media/ui-edge-install-app-icon.png) **App tillgänglig. Installera Business Central** eller ![ ikon för att installera en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installera Business Central** enligt anvisningarna ovan. 
+Installationen av skrivbordsappen när du använder Business Central lokalt görs direkt från webbläsaren enligt [anvisningarna ovan](#from-the-browser). Om du bara har en innehavare öppnar du först Business Central i webbläsaren och väljer sedan någon av ![ ikonerna för att installera en app i Edge.](media/ui-edge-install-app-icon.png) **App tillgänglig. Installera Business Central** eller ![ ikon för att installera en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installera Business Central** enligt anvisningarna ovan.
 
-Skillnaden är när du har flera innehavare. Till skillnad från [!INCLUDE[prod_short](includes/prod_short.md)] online, där du kan installera appen separat för olika miljöer, med lokalt kan du bara installera appen för en innehavare. Innan du installerar appen när du har flera innehavare måste du därför växla till rätt innehavare. När du öppnar appen när du har installerat den öppnas innehavaren direkt.
+Skillnaden är när du har flera innehavare. Till skillnad från [!INCLUDE[prod_short](includes/prod_short.md)] online, där du kan installera appen för olika miljöer, kan du bara installera appen för en klientorganisation. Innan du installerar appen när du har flera klientorganisationer måste du därför växla till rätt klientorganisation. När du öppnar appen när du har installerat den öppnas innehavaren direkt.
 
-<!-- for FAQ or troubleshooting
-> [!NOTE]
-> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
--->
+> [!IMPORTANT]
+> Om du använder Business Central 2021 utgivningscykel 1 (version 18) eller tidigare kan du inte installera appen på det sätt som beskrivs i den här artikeln. Installera i stället appen från [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Mer information och hjälp om hur du installerar den här äldre appen finns i [Förbereda och installera Business Central-appen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

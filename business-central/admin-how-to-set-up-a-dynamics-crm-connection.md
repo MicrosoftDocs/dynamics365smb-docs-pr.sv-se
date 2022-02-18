@@ -4,22 +4,21 @@ description: Skapa en anslutning mellan Business Central och Dataverse. Företag
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3ee8bb3bee08c131447233de7b691d2bb2e46bd
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940482"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059550"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
 
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 I det här avsnittet beskrivs hur du upprättar en anslutning mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Vanligtvis skapar företag anslutningen för att integrera och synkronisera data med en annan Dynamics 365-affärsapp, till exempel [!INCLUDE[crm_md](includes/crm_md.md)].  
 
@@ -41,7 +40,7 @@ Det finns lite information du bör ha tillhanda innan du skapar anslutningen:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Ställ in en anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-För alla andra autentiseringstyper än Microsoft 365-autentisering konfigurerar du din anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på sidan **Konfiguration av anslutning till Dataverse**. För Microsoft 365-autentisering rekommenderar vi att du använder den assisterade konfigurationsguiden **Konfiguration av anslutning till Dataverse**. Guiden gör det enklare att konfigurera anslutningen och specificera avancerade funktioner, till exempel ägarskapsmodell och initial synkronisering.  
+För alla autentiseringstyper förutom Microsoft 365-autentisering kan du ställa in anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på sidan **Dataverse-anslutningsinställningar**. För Microsoft 365-autentisering rekommenderar vi att du använder guiden för assisterad konfiguration **Dataverse-anslutningsinställningar**. Guiden gör det enklare att konfigurera anslutningen och specificera avancerade funktioner, till exempel ägarskapsmodell och initial synkronisering.  
 
 > [!IMPORTANT]
 > Under installationen av anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ombeds administratören att ge följande behörigheter till en registrerad Azure-tillämpning kallad [!INCLUDE[prod_short](includes/prod_short.md)]-integration för [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:

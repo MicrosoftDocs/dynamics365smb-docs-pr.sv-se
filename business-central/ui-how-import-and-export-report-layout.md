@@ -1,5 +1,5 @@
 ---
-title: Importera och exportera en rapport och dokumentlayout för | Microsoft Docs
+title: Importera och exportera en rapport- och dokumentlayout
 description: Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441074"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101353"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Så här importerar och exporterar du en anpassad rapportlayout
 Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket. Du kan till exempel exportera en rapportlayout och sedan skicka filen till en annan person för att ändra. Den personen kan sedan göra ändringar i layouten och returnera filen till dig så att du kan importera tillbaka den till.  
@@ -51,10 +51,11 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även  
- [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
- [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
- [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)    
+## <a name="see-also"></a>Se även
+
+[Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
+[Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
+[Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

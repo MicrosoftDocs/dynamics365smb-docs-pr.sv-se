@@ -1,5 +1,5 @@
 ---
-title: Så här konfigurerar du lagerställeenheter | Microsoft Docs
+title: Så här skapar du lagerställeenheter
 description: Du kan använda lagerställeenheter för att registrera artikelinformation som rör ett visst lagerställe eller en viss variantkod.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a59bf05139f4b073470092aa136018d9f3d988e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1a7314d228eef2ff45c7aaf4e3784290f9b17113
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445657"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059418"
 ---
 # <a name="set-up-stockkeeping-units"></a>Ställa in lagerställeenheter
 Du kan använda lagerställeenheter för att registrera artikelinformation som rör ett visst lagerställe eller en viss variantkod.  
 
- lagerställetheter fungerar som komplement till artikelkort. De ersätter dem inte även om de är relaterade till dem. Med lagerställeenheter kan du ha olika information om en artikel på ett visst lagerställe (t. ex. ett distributionslager eller ett distributionscenter) eller om en särskild variant, (t. ex. olika hyllnummer och olika återanskaffningsinformation) av samma artikel.  
+lagerställetheter fungerar som komplement till artikelkort. De ersätter dem inte även om de är relaterade till dem. Med lagerställeenheter kan du ha olika information om en artikel på ett visst lagerställe (t. ex. ett distributionslager eller ett distributionscenter) eller om en särskild variant, (t. ex. olika hyllnummer och olika återanskaffningsinformation) av samma artikel.  
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Så här skapar du lagerställeenheter  
 

@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9ce0b5232a0629bb6248eaaaade69b7c7ebceb02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012347"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049517"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Power BI-integreringskomponent och arkitekturöversikt för [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,7 +48,9 @@ Följande tabell beskriver tillgängliga funktioner.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreras med Power BI via ett anslutningsprogram som använder OData. Datakällan för Power BI-rapporter anges som API-sidor och OData-webbtjänster.
 
-![Power BI-arkitektur för integrering med Business Central.](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Alternativtext för bild" lightbox="./media/power-bi-architecture.png":::
+
+Från och med februari 2022 hämtas Power BI-rapporter för [!INCLUDE[prod_short](includes/prod_short.md)] online från en sekundär, skrivskyddad databaskopia. Databaskopian är en del av möjligheten till [läsningsskalning](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prod_short](includes/prod_short.md)] online. Den här konfigurationen frigör huvuddatabasen för transaktioner, vilket förbättrar systemets prestanda. Anslutning till den skrivskyddade databaskopian är en viktig del av Business Central Online-anslutningsprogrammet och kräver ingen extra installation från din sida. Alla nya rapporter kopplas till den skrivskyddade databaskopian som standard. I gamla rapporter används fortfarande huvuddatabasen. Mer information finns i [Plan för Business Central 2021 utgivningscykel 2](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Allmänt flöde
 

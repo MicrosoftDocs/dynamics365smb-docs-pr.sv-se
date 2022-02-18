@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
-ms.date: 04/01/2021
+ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4a7452043a2626228fa066e5043c435e920f194c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 0c041f2af2e59a8ed8be77a8d2eb029e48cb8258
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970654"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059941"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
 
@@ -25,15 +25,18 @@ Det här avsnittet beskrivs rapporterna i [!INCLUDE[prod_short](includes/prod_sh
 Du kan använda följande rapporter:
 
 * **EU förs.lista** Europeiska gemenskapens (EG) rapport med försäljningslista visar momsbeloppen (VAT) som du har samlat in för försäljning till momsregistrerade kunder i EU-länderna.  
-* Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder och från leverantörer i alla länder som använder moms.
+* Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder och från leverantörer i alla länder som använder moms.  
 
-Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. För att se momstransaktioner, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **momstransaktioner** och väljer sedan relaterad länk.
+I båda fallen beräknas moms utifrån tabellen Moms-bokföringsinställningar och de momsbokföringsmallar du har skapat.
+
+Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. För att se momstransaktioner, välj ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **momstransaktioner** och väljer sedan relaterad länk.
 
 > [!NOTE]
 > Varje [!INCLUDE[prod_short](includes/prod_short.md)] miljö är avsedd att hantera lagstadgad rapportering i ett enda land. Den nederländska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] hanterar momsrapportering i Nederländerna men inte i andra länder. På samma sätt hanterar USA-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] 1099 rapportering i USA och saknar stöd för att åberopa momsrapportering i andra länder, såvida det inte har gjorts av ett tillägg som levererats av vårt partner ekosystem eller en kundspecifik kodändring.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten med EU-försäljningslista
-I Storbritannien måste alla företag som säljer varor och tjänster till momsregistrerade kunder, bland annat kunder i inom Europeiska unionen (EU) lämna in en elektronisk version av rapporten i XML-format via webbplatserna Her Majesty's Revenue och Customs. EG-försäljningslisterapporten fungerar bara för länder inom EU.
+
+I Europeiska Unionen (EU) och i Storbritannien måste alla företag som säljer varor och tjänster till momsregistrerade kunder, bland annat kunder inom Europeiska unionen (EU), lämna in en elektronisk version av rapporten i XML-format till sina tull- och skattemyndigheter. **EU-försäljningslisterapporten** fungerar bara för länder inom EU.
 
 Rapporten innehåller en rad för varje typ av transaktion med kunden och visar det totala beloppet för alla typer av transaktioner. Det finns tre olika typer av transaktioner som kan tas med i rapporten:  
 
@@ -41,14 +44,13 @@ Rapporten innehåller en rad för varje typ av transaktion med kunden och visar 
 * B2B-tjänster  
 * B2B triangulerade varor  
 
-B2B varor och tjänster som anger om du köpt en vara eller tjänst, och är kontrollerade av inställningen **EU-tjänst** i momsbokföringen. B2B triangulerade varor anger om du bedriver handel med en 3:e part och är kontrollerad av inställningen **EU trepartshandel** för försäljningsdokument, till exempel försäljningsorder, fakturor, kreditnotor och så vidare.  
+*B2B*-varor och -tjänster anger om du köpt en vara eller tjänst, och är kontrollerade av inställningen **EU-tjänst** i momsbokföringen. *B2B triangulerade varor* anger om du bedriver handel med en 3:e part och är kontrollerad av inställningen **EU trepartshandel** för försäljningsdokument, till exempel försäljningsorder, fakturor, kreditnotor och så vidare.  
 
-När skattemyndigheten granskar rapporten, skickar de ett e-postmeddelande till kontaktpersonen för ditt företag. I [!INCLUDE[prod_short](includes/prod_short.md)] anges kontaktpersonen på sidan **företagsinformation**. Kontrollera att du väljer en kontaktperson i tabellen innan du skickar rapporten.
+När skattemyndigheten granskar rapporten, skickar de ett e-postmeddelande till kontaktpersonen för ditt företag. I [!INCLUDE[prod_short](includes/prod_short.md)] anges kontaktpersonen på sidan **företagsinformation**. Kontrollera att du väljer en kontaktperson i tabellen innan du skickar rapporten.  
 
 ## <a name="about-the-vat-return-report"></a>Om rapporten momsretur
-Använd den här rapporten om du vill skicka in moms för försäljnings- och inköpsdokument, till exempel inköpsorder och försäljningsorder, fakturor och kreditnotor. Informationen i rapporten är uppställd på samma sätt som i deklarationen från skattemyndigheten.  
 
-Moms beräknas utifrån tabellen Moms bokföringsinställningar och de momsbokföringsmallar du har skapat.
+Använd den här rapporten om du vill skicka in moms för försäljnings- och inköpsdokument, till exempel inköpsorder och försäljningsorder, fakturor och kreditnotor. Informationen i rapporten är uppställd på samma sätt som i deklarationen från skattemyndigheten.  
 
 För momsreturen kan du ange transaktionerna som ska inkluderas:
 
@@ -60,24 +62,35 @@ För momsreturen kan du ange transaktionerna som ska inkluderas:
 
 Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till den skattemyndighetens webbplats. Detta kräver att du upprättar ett konto med skattemyndigheten. Om du har ett konto kan du aktivera en service-anslutning som finns i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceanslutningar** och väljer sedan lämplig länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Serviceanslutningar** och väljer sedan lämplig länk.
 2. Fyll i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    > Det är en bra idé att testa anslutningen. Genom att välja **testläge** och sedan skapa och skicka en momsrapport som beskrivs i avsnittet _att förbereda och skicka en momsrapport_. I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
+    > Det är en bra idé att testa anslutningen. Detta gör du genom att markera kryssrutan **Testläge** och sedan förbereda och skicka in din momsrapport enligt anvisningarna i avsnittet [Förbereda och skicka in en momsrapport](#to-prepare-and-submit-a-vat-report). I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Så här ställer du in momsrapporter i [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för momsrapport** och väljer sedan relaterad länk.  
-2. Om du vill låta användarna ändra och skicka om rapporten, väljer du kryssrutan **ändra skickade rapporter**.  
-3. Välj nummerserien som ska användas för varje rapport.  
+
+[!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
+
+### <a name="to-set-up-vat-return-periods"></a>Så här ställer du in momsreturperioder
+
+Om företaget inte finns i Storbritannien kan du använda sidan **Momsreturperioder** för att ställa in planerade momsreturer. Om företaget finns i Storbritannien, se [Göra skatt digital i Storbritannien](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsreturperioder** och väljer sedan relaterad länk.  
+2. På sidan **Momsreturperioder** fyller du i fälten för att ställa in den första perioden. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)].  
+3. Upprepa steg 2 för de ytterligare perioder som du vill lägga till.  
+
+Nu när det är dags att skicka in en momsrapport för en momsreturperiod väljer du perioden på sidan **Momsreturperioder** och väljer sedan åtgärden **Skapa momsretur**. På kortet **Momsretur** väljer du sedan åtgärden **Föreslå rader** enligt anvisningarna i steg 3 i följande procedur.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Förbereda och skicka en momsrapport
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **EU-försäljningslista** eller **momsretur** och väljer sedan relaterad länk.  
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **EU-försäljningslista** eller **momsretur** och väljer sedan relaterad länk.  
 2. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Om du vill generera innehållet i rapporten, väljer du åtgärden **Föreslå rader**.  
 
     > [!NOTE]  
-    >   Du kan granska transaktionerna i rapportraderna innan du skickar rapporten med EU-försäljningslista. Välj raden och välj sedan åtgärden **Visa momstransaktioner**.  
+    >  Du kan granska transaktionerna i rapportraderna innan du skickar rapporten med EU-försäljningslista. Välj raden och välj sedan åtgärden **Visa momstransaktioner**.  
+
 4. När du validerar och förbereder rapporten för att skicka den, välj åtgärden **Frisläpp**.  
 
     > [!NOTE]  
@@ -101,27 +114,29 @@ När ett momsbelopp överförs till avräkningskontot krediteras kontot för ing
 > När du använder batch-jobbet **Beräkna/bokför momsavräkning** om du inte anger en **Moms rörelsebokf.mall** och **Moms prod.bokf.mall** inkluderas transaktioner med alla rörelse- och produktbokföringsmallar.
 
 ## <a name="configuring-your-own-vat-reports"></a>Skapa egna momsrapporter.
-Du kan använda den EG-försäljningslisterapport men du kan också skapa egna rapporter. Detta innebär att du skapar några kodmoduler. Kontakta en Microsoft Partner om du behöver hjälp med.  
 
-I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
+Rapporten **EU-försäljningslista** är redo att använda från början. Du kan emellertid också skapa egna rapporter om du har en utvecklingslicens som du kan använda för att skapa kodmoduler. Kontakta en Microsoft Partner om du behöver hjälp.  
+
+I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.  
 
 | Kodmodul | Vad du måste göra |
 |----|-----|
-|Föreslå rader| Hämta information från tabellen momstransaktioner och visa dem i rader i momsrapporten.|
+|Föreslå rader| Hämta information från tabellen **Momstransaktioner** och visa dem i rader i momsrapporten.|
 |Innehåll | Kontrollera formatet för rapporten. Till exempel om det är XML- eller JSON. Formaten som ska användas beror på kraven i din skattemyndighets webbtjänsten. |
 |Överföring | Styra hur och när du skickar rapporten utifrån hänsyn till skattemyndigheterna. |
 |Svarshanterare | Hantera returen från skattemyndigheten. Det kan till exempel skicka ett e-postmeddelande till företagets kontaktperson. |
 |Annullera | Skicka en annullering av en momsrapport som har skickats tidigare till skattemyndigheterna. |  
 
 > [!Note]
-> När du skapar kodmoduler för rapporten måste du ta hänsyn till värdet i fältet **momsrapportversion**. Det här fältet måste motsvara versionen av rapporten som är, eller var, krävd av skattemyndigheten. Du kan till exempel ange **2017** i kryssrutan för att ange att rapporten överensstämmer med de krav som gällde det året. Kontakta skattemyndigheterna för att få den senaste versionen.
+> När du skapar kodmoduler för rapporten måste du ta hänsyn till värdet i fältet **Momsrapportversion**. Det här fältet måste motsvara versionen av rapporten som är, eller var, krävd av skattemyndigheten. Du kan till exempel ange **2021** i kryssrutan för att ange att rapporten överensstämmer med de krav som gällde det året. Kontakta skattemyndigheterna för att få den senaste versionen.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
-[Förbereda för beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  
+
+[Konfigurera beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
-[Konfigurera försäljning](sales-setup-sales.md)  
+[Ställa in försäljning](sales-setup-sales.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 
 

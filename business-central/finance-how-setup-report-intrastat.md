@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971099"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049672"
 ---
 # <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
 
@@ -28,7 +28,11 @@ Innan du kan använda intrastatjournalen för att rapportera Intrastat-informati
 * **Intrastat-inställning**: Sidan Intrastat-inställningar används för att aktivera Intrastat-rapportering och ange standardvärden för rapporten. Du kan ange om du behöver rapportera Intrastat från leveranser (utskick), inleveranser (ankomst) eller båda beroende på tröskelvärden som anges i de lokala bestämmelserna. Du kan också ange standardtransaktionstyper för vanliga och returnerade dokument, som används för transaktionsrapportering.
 * **Intrastatjournalmallar**: du måste ställa in de intrastatjournalmallar och intrastatjournaler som du kommer att använda. Eftersom intrastat rapporteras månadsvis måste skapa 12 intrastatjournaler baserade på samma mall.  
 * **Artikelkoder**: Tull- och skattemyndigheterna har fastställt numeriska koder som klassificera artiklar och tjänster. Du kan ange koder för artiklar.
-* **Koder för transaktionstyp**: länder och regioner har olika koder för olika typer av Intrastat-transaktioner, till exempel ordinär inköp och försäljning, byte av returnerade varor och byte av inte returnerade varor. Ställ in alla koder som gäller för ditt land/din region. Använd koderna på försäljnings- och inköpsdokument och när du bearbetar returer.  
+* **Koder för transaktionstyp**: länder och regioner har olika koder för olika typer av Intrastat-transaktioner, till exempel ordinär inköp och försäljning, byte av returnerade varor och byte av inte returnerade varor. Ställ in alla koder som gäller för ditt land/din region. Använd koderna på försäljnings- och inköpsdokument och när du bearbetar returer. 
+
+    > [!NOTE]
+    > Från och med januari 2022 kräver Intrastat olika transaktionskoder för utskick till privatpersoner eller icke momsregistrerade företag och momsregistrerade företag. För att uppfylla detta krav rekommenderar vi att du granskar och/eller lägger till nya transaktionskoder på sidan **Transaktionstyper** enligt kraven i ditt land. Du bör också granska och uppdatera fältet **Partnertyp** till *Person* för privatpersoner eller icke momsregistrerade företag på relevant **Kund**-sida. Om du är osäker på vilken partnertyp eller transaktionstyp du ska använda rekommenderar vi att du frågar en expert i ditt land eller din region. 
+ 
 * **Transportsätt**: det finns sju, ensiffrig kod för Intrastat transportsätt. **1** för sjötransport, **2** för järnvägstransport, **3** för vägtransport, **4** flygtransport, **5** för brev, **7** för fasta installationer och **9** för egen framdrivning (t. ex. transport av en bil genom att köra den). [!INCLUDE[prod_short](includes/prod_short.md)] kräver inte dessa koder, men vi rekommenderar att beskrivningarna ger liknande betydelse.  
 * **Transaktionsspecifikationer**: Använd dessa för att komplettera beskrivningar från transaktionstyperna.  
 * **Ursprungsland**: Använd ISO alpha-koderna med två bokstäver för det land där varan erhölls eller producerades. Om varan har producerats i mer än ett land, är ursprungslandet det sista land där den bearbetades. 
@@ -110,7 +114,19 @@ När du har fyllt i Intrastatjournalen kan du köra åtgärden **checklisterappo
 När du kör batch-jobbet hämtas alla artikeltransaktioner inom statistikperioden och infogas som rader i intrastatjournalen. Du kan redigera raderna efter behov.  
 
 > [!IMPORTANT]  
-> Med batch-jobbet hämtas endast de transaktioner som innehåller en lands-/regionkod som en intrastatkod har angetts för på sidan **Länder/regioner**. Därför måste du ange intrastatkoder för de lands-/regionkoder som du vill köra batch-jobbet för.  
+> Med batch-jobbet hämtas endast de transaktioner som innehåller en lands-/regionkod som en intrastatkod har angetts för på sidan **Länder/regioner**. Därför måste du ange intrastatkoder för de lands-/regionkoder som du vill köra batch-jobbet för. Batchjobbet ställer in fältet **Partners moms-ID** till *QV999999999999* för privatpersoner eller icke momsregistrerade företag (kunder med fältet **Partnertyp** inställt på *Person*), och det använder värdet för fältet **Transaktionstyp** på den bokförda artikeltransaktionen eller projekttransaktionen. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>Så här ändrar du Intrastatjournalens rader
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatjournal** och väljer sedan relaterad länk.  
+2. På sidan **Intrastatjournal** i fältet **Journalnamn** väljer du relevant journal och sedan knappen **OK**.  
+3. Fönstret med användarfilter för att filtrera Intrastatjournalens rader utifrån kriterier. Filtrera till exempel efter **Partners moms-ID-** fält med värdet *QV 999999999999*.
+4. Välj ikonen **Dela** ![Dela en sida i en annan app.](media/share-icon.png) och välj **Redigera i Excel**
+5. I Excel ändrar du Intrastatjournalens rader som du har filtrerat bort. Till exempel kan du ändra värdena i fältet **Transaktionstyp**.  
+6. Publicera de ändringar som du har gjort i Excel tillbaka till [!INCLUDE[prod_short](includes/prod_short.md)]
+
+> [!Note]
+> I [!INCLUDE[prod_short](includes/prod_short.md)]-versioner som inte stöder [**Redigera i Excel**](across-work-with-excel.md#edit-in-excel) för journaler kan du [skapa konfigurationspaket](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) för att exportera och importera Intrastatjournalens rader till Excel. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportera intrastat på ett formulär eller en fil
 

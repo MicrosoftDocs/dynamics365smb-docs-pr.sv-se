@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b5e7b9c6cc6d7ac39b0067b723a5325ee9972c2e
-ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
+ms.openlocfilehash: a643ec77f960114941bcef44ed3b37cb24d4410f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749017"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049646"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Felsöka synkroniseringsfel
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Det finns många rörliga delar som används för att integrera [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)] och ibland kan det bli fel. I det här avsnittet beskrivs några vanliga fel som uppstår och du får tips om hur du åtgärdar dem.
 

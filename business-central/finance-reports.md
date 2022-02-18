@@ -7,34 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543151"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102349"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Ekonomisk rapportering och analys i Business Central
 
 Financial reporting i [!INCLUDE [prod_short](includes/prod_short.md)] gör det möjligt för finans- och affärspersoner att skapa, underhålla, distribuera och visa finansiella rapporter. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter. [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera olika rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen. Financial reporting inkluderar stöd för dimensioner, varför kontosegment eller dimensioner blir omedelbart tillgängliga. Inga ytterligare verktyg eller konfigurationssteg krävs.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Rapporter
-
-I följande tabell beskrivs några av de viktigaste rapporterna inom finansiell rapportering.
-
-| Rapportera | Objekt-ID | Beskrivning |
-|--|--|--|
-| **Råbalans** | 6 | Visar kontoplanen med saldon och nettoförändringar. Du kan till exempel välja att visa råbalansen för markerade dimensioner. Du kan använda rapporten i samband med att du avslutar en bokföringsperiod eller ett räkenskapsår. |
-| **Råbalans per period** | 38 | Visar det ingående saldot efter redovisningskonto, transporterna under den valda perioden (månad, kvartal och år) och den resulterande utgående balansen. |
-| **Råbalans/Budget** | 9 | Visar en råbalans i jämförelse mot en budget. Du kan till exempel välja att visa råbalansen för markerade dimensioner. Du kan använda rapporten i samband med att du avslutar en bokföringsperiod eller ett räkenskapsår. |
-| **Huvudbok** | 4 | Visar en huvudbok för valda redovisningskonton. Du kan använda rapporten i samband med att du avslutar en bokföringsperiod eller ett räkenskapsår. Genom att definiera filter kan du bestämma vilka konton som ska tas med i rapporten. |
-| **Råbalans/Föregående år** | 7 | Visar råbalansen i jämförelse med föregående års siffror. Du kan till exempel välja att visa råbalansen för markerade dimensioner. Du kan använda rapporten i samband med att du avslutar en bokföringsperiod eller ett räkenskapsår. *Föregående år* innebär samma period ett kalenderår tidigare. |
-| **Kontouppställning** | 25 | Kontouppställningar kan användas för att visa redovisningskonton på ett annat sätt än i kontoplanen. Exempelvis kan kontouppställningar användas till rapporter om nyckeltal. |
-<!-- | **Balansräkning** (kontouppställn. eller Excel) eller **Råbalans** |  |  |
-| **Kassaflödesutdrag** (kontouppställning) |  |  |
-| **Sammanfattning/detaljer för råbalans** |  |  |
-| **Resultaträkning** (kontouppställn. eller Excel) |  |  |
-| **Budget** |  |  | -->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Uppgifter
 

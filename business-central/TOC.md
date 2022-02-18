@@ -483,6 +483,7 @@
 #### [Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md)
 #### [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)
 #### [Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Skicka påminnelser om utestående saldon](receivables-send-reminders.md)
 #### [Spärra kunder](receivables-how-block-customers.md)
 #### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md)
@@ -1605,6 +1606,120 @@
 ##### [Skriva ut felsökningsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Skicka regelnotifieringar](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Business Intelligence och rapportering 
+
+## [Översikt](reports-bi-reporting.md)
+
+## Använd rapporter i det dagliga arbetet
+### [Översikt](reports-use-reports.md)
+### [Kör rapporter](ui-work-report.md)
+### [Bokmärka en rapport](ui-bookmarks.md)
+### [Analysera rapportdata med Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Skriva ut rapporter](ui-specify-printer-selection-reports.md#default)
+### [Schemalägga rapporter](ui-work-report.md#ScheduleReport)
+### [Hantering av sparade rapportinställningar](reports-saving-reusing-settings.md)
+### [Ändra standardrapportlayout](ui-how-change-layout-currently-used-report.md)
+
+## Inbyggda rapporter
+### [Rapportöversikt](reports-available-reports.md)
+### Finans
+#### [Ekonomisk analys](bi.md)
+#### [Analysera finansiella rapporter med Excel](finance-analyze-excel.md)
+#### [Viktiga ekonomiska rapporter](finance-reports.md)
+#### [Kundfordringsrapporter](receivables-reports.md)
+#### [Leverantörsreskontrarapporter](payables-reports.md)
+#### [Kassaflödesanalys](finance-setup-cash-flow-analyses.md)
+#### [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)
+
+### FÖRS
+#### [Försäljningsrapporter](sales-reports.md)
+#### [Status för avropsorder för försäljning](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Paketspårning](sales-how-track-packages.md)
+#### [Visa ej bokförda och bokförda försäljningsavropsorderrader](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Inköp
+#### [Inköpsrapporter](purchase-reports.md)
+#### [Visa inköpstransaktioner](ui-post-purchases.md#viewing-ledger-entries)
+
+### Lager och distributionslager
+#### [Lager och distributionslagerrapporter](inventory-wms-reports.md)
+#### [Artikeldisposition](inventory-how-availability-overview.md)
+#### [Spåra artiklar med serie-, parti-och paketnummer](inventory-how-work-item-tracking.md)
+#### [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)
+#### [Granska och avstäm mellan inventeringen och redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Visa direktutlevererade artiklar i utleveranser eller plockningskalkylark](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Objekt
+#### [Projektrapporter](project-reports.md)
+#### [Visa projektförbrukning och uppskattningar](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Övervaka projektframsteg och -resultat](projects-how-monitor-progress-performance.md)
+
+### Anläggningstillgångar
+#### [Anläggningstillgångsrapporter](fa-reports.md)
+#### [Övervaka underhållskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Övervaka försäkringsskydd](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Visa ändrade värden för avskrivningsregler](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Monteringshantering
+#### [Monteringshanteringsrapporter](assembly-reports.md)
+#### [Visa strukturen för strukturlistan](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Produktion
+#### [Produktionsrapporter](production-reports.md)
+#### [Visa beläggning på produktions- och maskingrupper](production-how-to-view-the-load-on-work-centers.md)
+#### [Visa produktionsgruppstransaktioner](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Servicehantering
+#### [Visa servicestatistik](service-service-statistics.md)
+#### [Översikt över serviceorder](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Översikt över serviceoffert](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Översikt över bokfört servicedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Ad hoc-dataanalys
+### [Översikt](reports-adhoc-analysis.md)
+### [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
+### [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)
+### [Analysera siddata i Excel](across-work-with-excel.md)
+### [Analysera rapportdata med Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Ekonomisk analys](bi.md)
+
+## Inbyggda analyser 
+### [Översikt](reports-built-in-analytics.md)
+### [Intelligenta insikter](about-intelligent-cloud.md)
+### [Arbeta med Power BI-rapporter](across-working-with-powerbi.md)
+### [Ekonomisk analys](bi.md)
+### [Analysera finansiella rapporter med Excel](finance-analyze-excel.md)
+### [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)
+### [Telemetri för rapportanvändning](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Analysera data i Business Intelligence-verktyg
+### [Översikt](reports-external-analysis.md)
+### [Använda Power BI med Business Central](admin-powerbi.md)
+### [Analysera finansiella rapporter med Excel](finance-analyze-excel.md)
+### [Hämta data till ett datadistributionslager eller en datasjö.](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Läsa data med Business Central-API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Utveckla rapporter
+### [Översikt](reports-develop-reports.md)
+### Utveckla rapportlayouter
+#### [Layouttyper (Word och RDLC)](ui-manage-report-layouts.md)
+#### [Skapa en ny layout](ui-how-create-custom-report-layout.md)
+#### [Använda teckensnitt i layouter](ui-fonts.md)  
+#### [Arbeta med Word-layouter](ui-how-add-fields-word-report-layout.md)
+#### [Importera/exportera en layout](ui-how-import-and-export-report-layout.md)
+#### [Uppdatera en layout](ui-update-report-layouts.md)
+#### [Ändra standardlayout](ui-how-change-layout-currently-used-report.md)
+### Utveckla rapportdatauppsättningar
+#### [Rapportutvecklingsguide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Rapportprestandaguide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Säkerhet, sekretess, regelefterlevnad
 ## Säkerhet och skydd
 ### [Översikt över säkerhet och skydd (endast på engelska)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

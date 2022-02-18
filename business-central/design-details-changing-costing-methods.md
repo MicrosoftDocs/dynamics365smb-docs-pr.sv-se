@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215434"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115482"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designinformation: ändra värderingsprinciper för artiklar
 
@@ -78,18 +79,18 @@ Om du vill göra de nya objekten fullt användbara måste du manuellt kopiera vi
 
 |Område  |Vad som ska kopieras  |Hur du kopierar det  |
 |---------|---------|---------|
-|Lager     |Lagerhållningsenheter (SKU)         |Kontrollera om en lagerställeenhet har angetts för den ursprungliga artikeln. Om du har angett planeringsparametrar för varje lagerställeenhetskort måste du manuellt skapa lagerställeenhet för den nya artikeln. Om parametrarna inte anges kan du använda batchjobb **Skapa lagerställeenhet** från sidan **Artikelkort** för att skapa data.        |
-|     |Artikelersättningar         |Kontrollera om eventuella artikelersättningar har definierats för den ursprungliga artikeln. Om det finns överför du dessa data till det nya objektet. Om du vill visa ersättningsartiklar använder du åtgärden **ersättning** på sidan **artikelkort**.         |
-|     |Analysrapporter         |Granska artikel analys-, försäljningsanalys- och inköpsanalysrapporter. För de artiklar som refererar till de ursprungliga artiklarna kan du antingen skapa en ny analysrapport med en referens till den nya artikeln (där den ursprungliga analysrapporten ska användas som historik) eller justera rapporterna så att de refererar till den nya artikeln.         |
-|     |Standardjournaler         |Kontrollera om standardjournalerna refererar till den ursprungliga artikeln och överför dessa data till den nya artikeln vid behov. Informationen finns i standardjournalerna, som är tillgängliga i artikeljournalen.          |
-|FÖRS     |Procentandelar, förskottsbetalning för försäljning         | Kontrollera om några procentandelar, förskottsbetalning för försäljning har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa förskottsbetalningsprocent väljer du **Artikelkort** väljer du **Försäljning** och **Procentandelar, förskottsbetalning**.        |
-|Inköp     |Procentandelar, förskottsbetalning för inköp         |Kontrollera om några procentandelar, förskottsbetalning för inköp har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa förskottsbetalningsprocent väljer du **Artikelkort** väljer du **Inköps** och **Procentandelar, förskottsbetalning**.                 |
-|Dist.lager     |Lagerställesinnehåll         |Granska det lagerställesinnehåll som har definierats för den ursprungliga artikeln. Om kolumner så som min. Antal max. Antal, standard och dedikerade har registrerats individuellt måste du skapa lagerställesinnehåll manuellt för den nya artikeln. Om så inte är fallet krävs ingen åtgärd. [!INCLUDE[prod_short](includes/prod_short.md)] underhåller posterna när du registrerar distributionslagerdokument och journaler.|
-|Projekt     |Projektpriser         |Kontrollera om projektpriser har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Informationen finns på sidan **Projektkort** i delen **Projektinformation – Projektdetaljer – antal priser** i **rutan Faktabox**.         |
-|Service     |Serviceresurskvalifikation         |Kontrollera om serviceresurskvalifikation har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa resurs kvalifikationer använder du åtgärden **Resurskvalifikation** på sidan **Artikelkort**.          |
-|     |Serviceartikelkomponenter         |Kontrollera om komponenter har definierats för den ursprungliga serviceartikeln och överför dessa data till den nya artikeln. Om du vill visa serviceartikel komponenter på **Artikelkort** använder åtgärden **Serviceartikel** för att öppna listan över relaterade service artiklar och sedan välja **Komponent**.          |
-|Produktion     |Artikelstrukturer         |Kontrollera om det finns några produktionsstrukturer som innehåller den ursprungliga artikeln och ersätt det med den nya artikeln. Om du vill ersätta det ursprungliga artikel **Produktionsstruktur** väljer åtgärden **Byt ut artikel i prod.struktur**.         |
-|Montering     |Monteringsstrukturer         |Kontrollera om några monteringsdelar innehåller originalobjektet och ersätt det manuellt med det nya artikeln.         |
+|Lager |Lagerhållningsenheter (SKU) |Kontrollera om en lagerställeenhet har angetts för den ursprungliga artikeln. Om du har angett planeringsparametrar för varje lagerställeenhetskort måste du manuellt skapa lagerställeenhet för den nya artikeln. Om parametrarna inte anges kan du använda batchjobb **Skapa lagerställeenhet** från sidan **Artikelkort** för att skapa data.|
+| |Artikelersättningar |Kontrollera om eventuella artikelersättningar har definierats för den ursprungliga artikeln. Om det finns överför du dessa data till det nya objektet. Om du vill visa ersättningsartiklar använder du åtgärden **ersättning** på sidan **artikelkort**. |
+| |Analysrapporter |Granska artikel analys-, försäljningsanalys- och inköpsanalysrapporter. För de artiklar som refererar till de ursprungliga artiklarna kan du antingen skapa en ny analysrapport med en referens till den nya artikeln (där den ursprungliga analysrapporten ska användas som historik) eller justera rapporterna så att de refererar till den nya artikeln. |
+| |Standardjournaler |Kontrollera om standardjournalerna refererar till den ursprungliga artikeln och överför dessa data till den nya artikeln vid behov. Informationen finns i standardjournalerna, som är tillgängliga i artikeljournalen.  |
+|FÖRS |Procentandelar, förskottsbetalning för försäljning | Kontrollera om några procentandelar, förskottsbetalning för försäljning har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa förskottsbetalningsprocent väljer du **Artikelkort** väljer du **Försäljning** och **Procentandelar, förskottsbetalning**.|
+|Inköp |Procentandelar, förskottsbetalning för inköp |Kontrollera om några procentandelar, förskottsbetalning för inköp har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa förskottsbetalningsprocent väljer du **Artikelkort** väljer du **Inköps** och **Procentandelar, förskottsbetalning**. |
+|Dist.lager |Lagerställesinnehåll |Granska det lagerställesinnehåll som har definierats för den ursprungliga artikeln. Om kolumner så som min. Antal max. Antal, standard och dedikerade har registrerats individuellt måste du skapa lagerställesinnehåll manuellt för den nya artikeln. Om så inte är fallet krävs ingen åtgärd. [!INCLUDE[prod_short](includes/prod_short.md)] underhåller posterna när du registrerar distributionslagerdokument och journaler.|
+|Projekt |Projektpriser |Kontrollera om projektpriser har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Informationen finns på sidan **Projektkort** i delen **Projektinformation – Projektdetaljer – antal priser** i **rutan Faktabox**. |
+|Service |Serviceresurskvalifikation |Kontrollera om serviceresurskvalifikation har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa resurs kvalifikationer använder du åtgärden **Resurskvalifikation** på sidan **Artikelkort**.  |
+| |Serviceartikelkomponenter |Kontrollera om komponenter har definierats för den ursprungliga serviceartikeln och överför dessa data till den nya artikeln. Om du vill visa serviceartikel komponenter på **Artikelkort** använder åtgärden **Serviceartikel** för att öppna listan över relaterade service artiklar och sedan välja **Komponent**.  |
+|Produktion |Artikelstrukturer |Kontrollera om det finns några produktionsstrukturer som innehåller den ursprungliga artikeln och ersätt det med den nya artikeln. Om du vill ersätta det ursprungliga artikel **Produktionsstruktur** väljer åtgärden **Byt ut artikel i prod.struktur**. |
+|Montering |Monteringsstrukturer |Kontrollera om några monteringsdelar innehåller originalobjektet och ersätt det manuellt med det nya artikeln. |
 
 > [!IMPORTANT]
 > Om den nya värderingsprincipen är standard ska du ange ett värde i fältet **Standardkostnad** på **Artikelkort**. Du kan använda sidan **Standardkostnadsformulär** för att ange kostnadsandelarna på samma sätt. För mer information, se [Uppdateras standardkostnader](finance-how-to-update-standard-costs.md).
@@ -116,23 +117,23 @@ När du skapar monteringsorder använder du informationen från fältet inventer
 
 |Fält  |Värde att skriva  |
 |---------|---------|
-|Artikelnr     |Numret för den nya artikeln         |
-|Antal     |Kvantiteten i inventeringsjournalen.<br> **OBS!** De kvantiteter som beräknas av inventeringsjournalerna innehåller inte de antal som finns på order som ännu inte har levererats.          |
-|Variantkod     |Samma som i inventeringsjournalen.          |
-|Lagerställekod     |Samma som i inventeringsjournalen.         |
-|Enhetskod     |Samma som i inventeringsjournalen.         |
-|Lagerställeskod     |Samma som i inventeringsjournalen.         |
+|Artikelnr |Numret för den nya artikeln |
+|Antal |Kvantiteten i inventeringsjournalen.<br> **OBS!** De kvantiteter som beräknas av inventeringsjournalerna innehåller inte de antal som finns på order som ännu inte har levererats.  |
+|Variantkod |Samma som i inventeringsjournalen.  |
+|Lagerställekod |Samma som i inventeringsjournalen. |
+|Enhetskod |Samma som i inventeringsjournalen. |
+|Lagerställeskod |Samma som i inventeringsjournalen. |
 
 #### <a name="lines"></a>Rader
 
 |Fält  |Värde att skriva  |
 |---------|---------|
-|Typ     |Artikel         |
-|Nr     |Numret för den ursprungliga artikeln         |
-|Antal per     |1         |
-|Variantkod     |Samma som i inventeringsjournalen.         |
-|Lagerställekod     |Samma som i inventeringsjournalen.         |
-|Enhetskod     |Samma som i inventeringsjournalen.         |
+|Typ |Artikel |
+|Nr |Numret för den ursprungliga artikeln |
+|Antal per |1 |
+|Variantkod |Samma som i inventeringsjournalen. |
+|Lagerställekod |Samma som i inventeringsjournalen. |
+|Enhetskod |Samma som i inventeringsjournalen. |
 
 > [!NOTE]
 > En monteringsorder kan endast hantera en lagerställeenhet för en artikel i taget. Du måste skapa en monteringsorder för varje kombination av lagerställeenheten som har ett antal i lagret.
@@ -153,15 +154,15 @@ I följande tabell visas funktionsområden där det kan finnas utestående antal
 
 |Område  |Var du ska söka efter utestående kvantiteter  |
 |---------|---------|
-|FÖRS     |Försäljningsdokument, inklusive order, returorder, fakturor, offerter, avropsorder och kreditnotor         |
-|Lager     |Artikeljournaler, reservationer, artikelspårning och standardkostnadsformulär         |
-|Inköp     |Inköpsdokument, inklusive order, returorder, fakturor, offerter, avropsorder och kreditnotor         |
-|Planering     |Inköpsförslag, planeringsförslag och orderplanering         |
-|Dist.lager     |Överföringsorder, utleveranser, distributionslagerjournaler och lagerplockningar, artikelinförsel och transporter, interna plockningar och införsel och lagerplatsuppläggningsförslag         |
-|Montering     |Monteringsdokument, inklusive order, returorder och avropsorder         |
-|Projekt     |Projektplaneringsrader och projektjournalrader         |
-|Service     |Servicedokument och servicekontrakt         |
-|Produktion     |Produktionsorder (planerad, fast planerad och släppt)         |
+|FÖRS |Försäljningsdokument, inklusive order, returorder, fakturor, offerter, avropsorder och kreditnotor |
+|Lager |Artikeljournaler, reservationer, artikelspårning och standardkostnadsformulär |
+|Inköp |Inköpsdokument, inklusive order, returorder, fakturor, offerter, avropsorder och kreditnotor |
+|Planering |Inköpsförslag, planeringsförslag och orderplanering |
+|Dist.lager |Överföringsorder, utleveranser, distributionslagerjournaler och lagerplockningar, artikelinförsel och transporter, interna plockningar och införsel och lagerplatsuppläggningsförslag |
+|Montering |Monteringsdokument, inklusive order, returorder och avropsorder |
+|Projekt |Projektplaneringsrader och projektjournalrader |
+|Service |Servicedokument och servicekontrakt |
+|Produktion |Produktionsorder (planerad, fast planerad och släppt) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Blockera det ursprungliga artikel från att användas
 
