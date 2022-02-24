@@ -1,38 +1,37 @@
 ---
-title: Få en dispositionsöversikt
-description: Du kan få information om dispositionen av artiklar eller lager mellan lagerställen per försäljning eller inköphändelser efter en viss tidsperiod, etc.
+title: Skapa en tillgänglighetsöversikt | Microsoft Docs
+description: Du kan få information om dispositionen av artiklar eller lager mellan lagerställen per försäljning eller inköphändelser efter en viss tidsperiod eller efter artikelns placering på en monterings- eller produktionsstruktur.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 01efc9191cad10414c344b4fe3a28ae2cef63ef9
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060122"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324252"
 ---
 # <a name="view-the-availability-of-items"></a>Visa artikeldisposition
 Utifrån en verksamhetsuppgift kan du få avancerad information om när och var en artikel är disponibel, exempelvis när du talar med en kund om ett leveransdatum.
 
-Du kan visa dispositionen för alla artiklar per lagerställe, och du kan visa varje artikels disposition per händelse eller tid. En händelse är alla planerade artikeltransaktioner, till exempel en utleverans eller en inleverans av inkommande överföring.
+Du kan visa dispositionen för alla artiklar per lagerställe, och du kan visa varje artikels disposition per händelse, tid eller lagerställe. En händelse är alla planerade artikeltransaktioner, till exempel en utleverans eller en inleverans av ankommande överföring.
 
 > [!NOTE]  
 >   Tillgänglighetsvyer per lagerställe kräver att du för lager på flera lägerställen. Mer information finns i [Ange platser](inventory-how-setup-locations.md).
 
 Om du nvänder lagerfunktionerna varierar tillgängligheten beroende på fördelningar på lagerplatsnivån när distributionslageraktiviteter, till exempel plockning och transport, inträffar och när lagerreservationssystemet har begränsningar som ska uppfyllas. En ganska komplex algoritm kontrollerar att alla villkor är uppfyllda innan antal tilldelas till plockningar för utgående flöden. Mer information finns i [Designdetaljer: disposition i distributionslagret](design-details-availability-in-the-warehouse.md).
 
-I [!INCLUDE[prod_short](includes/prod_short.md)], visas dispositionssiffror i två olika fält, var och en med en annan definition:
+I [!INCLUDE[d365fin](includes/d365fin_md.md)], visas dispositionssiffror i två olika fält, var och en med en annan definition:
 
 * Fältet **Lagersaldo**, på vissa platser med namnet **Lager**, visar den faktiska kvantiteten enligt bokförda artikeltransaktioner.
-* Fältet **Lagerutveckling över tid** beräknas och visar antalet i lager samt planenliga inleveranser minus bruttobehov. (I [!INCLUDE[prod_short](includes/prod_short.md)], kan planenliga inleveranser inkludera antal på inköpsorder och inkommande överföringsorder. Bruttobehov omfattar kvantiteter i försäljningsorder och utgående överföringsorder.)
+* Fältet **Lagerutveckling över tid** beräknas och visar antalet i lager samt planenliga inleveranser minus bruttobehov. (I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan planenliga inleveranser inkludera antal på inköpsorder och inkommande överföringsorder. Bruttobehov omfattar kvantiteter i försäljningsorder och avgående överföringsorder.)
 
 > [!TIP]  
 >   Lagerutvecklingen över tid är särskilt relevant att visa på sidorna **Artikeldisp. per perioder** och **Artikeldisposition per händelse** eftersom dessa innehåller datumdimensionen.  
@@ -43,7 +42,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)], visas dispositionssiffror i tv
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Visa tillgängligheten för en artikel efter in- eller utlevereranstidpunkt
 Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktioner på sidan **Artikeldisposition per händelse**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per**, och välj sedan åtgärden **Händelse**.
 
@@ -53,7 +52,7 @@ Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktio
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Visa dispositionen för en artikel under olika perioder
 Du visar en artikels disposition över tid för angivna tidsperioder på sidan **Artikeldisp. per perioder**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Period**.
 
@@ -63,7 +62,7 @@ Du visar en artikels disposition över tid för angivna tidsperioder på sidan *
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Visa tillgängligheten för en artikel på de lägerställen där den lagras
 Du kan visa dispositionen av en artikel på de olika lägerställen där den lagras på sidan **Artikeldisp. per lagerställe**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill visa dispositionen för.
 3. Välj åtgärden **Artikeldisposition per** och välj sedan åtgärden **Lagerställe**.
 
@@ -74,7 +73,7 @@ Du kan visa dispositionen av en artikel på de olika lägerställen där den lag
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Visa tillgängligheten för alla artiklar per det lagerställe där de lagras
 Du kan visa disposition för alla artiklar på alla lägerställen på sidan **Artiklar per lagerställe**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
 2. Välj åtgärden **Artiklar per lagerställe**.
 
     Sidan **Artiklar per lagerställe** visar, för alla artiklar, hur många som är tillgängliga på respektive lagerställe.
@@ -104,7 +103,7 @@ Fältet **Flaskhals** anger vilken artikel i strukturen som begränsar dig från
 På sidan **Visa artikelns disposition per enhet** visar tillgängligheten för ett objekt i de måttenheter som det lagras i.
 
 > [!NOTE]  
-> Om du vill hålla informationen korrekt måste du konvertera artikelenheter. Om du t. ex. köper en artikel i en enhet, till exempel rutor, och du säljer artiklar i en annan enhet, t. ex. stycken, måste du använda en artikeljournal för att konvertera enheterna eller "uppackade" artiklar. Du kan använda en negativ journalrad för justeringsartikel för att minska lagret i enheten för inköp, t. ex. rutor och en positiv justering för att öka lagret i enheten för försäljning, till exempel styck. 
+> Om du vill hålla informationen korrekt måste du konvertera artikelenheter. Om du t.ex. köper en artikel i en enhet, till exempel rutor, och du säljer artiklar i en annan enhet, t.ex. stycken, måste du använda en artikeljournal för att konvertera enheterna eller "uppackade" artiklar. Du kan använda en negativ journalrad för justeringsartikel för att minska lagret i enheten för inköp, t.ex. rutor och en positiv justering för att öka lagret i enheten för försäljning, till exempel styck. 
 
 ## <a name="assembly-availability-page"></a>Sidan Monteringsdisposition
 Fönstret **Monteringsdisposition** visar detaljerade dispositionsinformation för monteringsartikeln. Den öppnar:
@@ -130,6 +129,3 @@ Om en eller flera monteringskomponenter inte är tillgänglig, visas det i **Mö
 [Sälja produkter](sales-how-sell-products.md)      
 [Arbeta med Business Central](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
-title: Planera serviceprocesser
-description: Detta ämne innehåller information om hur du definierar regler och värden för att definiera dina servicepolicyer och -processer.
+title: Planera serviceprocesser | Microsoft Docs
+description: Innehåller information om hur du definierar regler och värden för att definiera dina servicepolicyer och -processer.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 06/23/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4e3e879a2f768e8260693d160c419b006159ed46
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323008"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192489"
 ---
 # <a name="planning-services"></a>Planera service
-Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du ställa in de standarduppgifter som behövs för att kundens krav på service uppfylls. För att göra detta måste du bestämma vilka serviceartiklar och erbjudanden som din serviceorganisation stödjer och till vilket pris.   
+Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ställa in de standarduppgifter som behövs för att kundens krav på service uppfylls. För att göra detta måste du bestämma vilka serviceartiklar och erbjudanden som din serviceorganisation stödjer och till vilket pris.   
 
-[!INCLUDE[prod_short](includes/prod_short.md)] erbjuder även vissa statistikverktyg som kan användas för att ta reda på hur bra det går och identifiera områden som du kan förbättra.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder även vissa statistikverktyg som kan användas för att ta reda på hur bra det går och identifiera områden som du kan förbättra.
   
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
   
@@ -41,6 +41,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md)  
 [Ställ in status för serviceorder och reparationer](service-order-repair-status.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

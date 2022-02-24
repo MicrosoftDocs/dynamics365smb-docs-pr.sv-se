@@ -1,31 +1,28 @@
 ---
-title: Designdetaljer - Lagerkostnad
+title: Designdetaljer - Lager och kostnadskalkylering | Microsoft Docs
 description: Dokumentationen ger en detaljerad teknisk inblick i de begrepp och principer som används i lagervärderingsfunktionerna i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.search.form: 8645
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8dc7f7ac1e9f1d6b9919ecf7401d5cadf69a56c0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115125"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185306"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Lagerkalkylering
-
-Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Lagervärdering, kallas även kostnadshantering, används vid registrering och rapportering av rörelsens driftskostnader.  
 
-## <a name="in-this-section"></a>I det här avsnittet
-
+## <a name="in-this-section"></a>I det här avsnittet  
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
 [Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -44,6 +41,3 @@ Lagervärdering, kallas även kostnadshantering, används vid registrering och r
 [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)  
 [Designdetaljer: Lagervärdering](design-details-inventory-valuation.md)  
 [Designdetaljer: Omvärdering](design-details-revaluation.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

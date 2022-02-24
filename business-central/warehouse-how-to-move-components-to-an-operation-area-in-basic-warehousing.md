@@ -1,29 +1,29 @@
 ---
-title: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfigurationer
-description: Om åtgärderna för artikelbearbetning utförs på din distributionslagerplats kan du behöva flytta artiklar mellan lagerställen så att det hela stämmer överens med interna källdokument.
+title: 'Så här: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfiguration | Microsoft Docs'
+description: Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 117ae04d89d801eff79ecc7d2908eeb49d53f9e2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444161"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193113"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfigurationer
-Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerställen så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället.  
+Om artikeln som behandlar operationer utförs i din distributionslagerplats, kan du behöva flytta artiklar mellan lagerplatser så att det stämmer överens med interna källdokument, till exempel produktion, monterings eller serviceorder på lagerstället.  
 
 > [!NOTE]  
->  Visa Interntransport för information om att flytta artiklar mellan lagerställen utan källdokument.  
+>  Visa Interntransport för information om att flytta artiklar mellan lagerplatser utan källdokument.  
 
-I avancerade distributionslagerkonfigurationer, som är lagerställen som använder inställningsfältet **Dirigerad art.inf. och plock**, kan du använda sidan **Transportkalkylark** och flytta artiklar mellan lagerställena. Mer information finns i [Så här flyttar du artiklar i avancerad distributionslagerkonfiguration](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+I avancerade distributionslagerkonfigurationer, som är lagerställen som använder inställningsfältet **Dirigerad art.inf. och plock**, kan du använda sidan **Transportkalkylark** och flytta artiklar mellan lagerplatserna. Mer information finns i [Så här flyttar du artiklar i avancerad distributionslagerkonfiguration](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 I grundläggande distributionslagerkonfiguration, dvs lagerställen som använder **Lagerplats ska finnas** inställningsfältet, och **Begär plockning** inställningsfältet, kan du registrera transport av artiklar till interna verksamhetsområden baserade på interna källdokument på följande sätt:  
 
@@ -35,7 +35,7 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
 
 För detaljerad information om lagerförflyttningar se sidan lagerförflyttningar.  
 
-Två olika roller kan skapa den ursprungliga lagerförflyttningen. En monteringsarbetare kan till exempel skapa den från en släppt monteringsorder så att den visas i lagerarbetarens lista över arbetsuppgifter. Att skapa en lagerförflyttning för monteringsorderrader, som är klar att ha komponenter transporterade till den angivna lagerställen, monteringsarbetaren använder **Skapa lagerförflyttning** funktionen.  
+Två olika roller kan skapa den ursprungliga lagerförflyttningen. En monteringsarbetar, till exempel, kan skapa den från en släppt monteringsorder, så att den visar upp i lagerarbetare lista över arbete för att göra. Att skapa en lagerförflyttning för monteringsorderrader, som är klar att ha komponenter transporterade till den angivna lagerplatser, monteringsarbetaren använder **Skapa lagerförflyttning** funktionen.  
 
 En lagerarbetare kan också skapa den, genom att peka på den släppta monteringsorder, i fråga. Beskriv i följande procedur.  
 
@@ -47,7 +47,7 @@ En lagerarbetare kan också skapa den, genom att peka på den släppta montering
 Nedan beskrivs proceduren för att skapa en lagerförflyttning från sidan **Lagertransport** genom att referera en släppt monteringsorder som ett källdokument. Proceduren är samma när du vill flytta komponenter för produktionsorder och serviceordern.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Så här: Flytta komponenter till ett verksamhetsområde i grundläggande lagerkonfiguration  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerförflyttning** och väljer sedan relevant länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **lagerförflyttning** och välj sedan relevant länk.  
 2.  Fyll i fältet **Nr** på snabbfliken **Allmänt** . . Du kan trycka på RETUR för att välja mellan nummerserier.  
 3.  I **Lagerställekod** fältet, ange det lagerställe där transporten utförs.  
 4.  Välj åtgärden **Hämta källdokument**. Eller Fyll **Källdokument** fältet och välj sedan **AssistEdit** sökknappen i **Ursprungsnr** fältet.  
@@ -55,9 +55,9 @@ Nedan beskrivs proceduren för att skapa en lagerförflyttning från sidan **Lag
 
     För varje nödvändig komponent, som kan flyttas, skapas en rad Ta och en Placera rad på sidan **lagerförflyttning** fönstret. Alla fält utom **Ant. att hantera** fältet är förfyllda enligt källdokumentrader. **Ant. att hantera** fältet är nollställt, tills du anger det antal du faktiskt har flyttats.  
 
-    Du kan ändra lagerställeskoden på en Ta rad men endast utifrån tillgänglighet. Om du väljer den **AssistEdit** knappen i **Lagerställeskod** fältet på en Ta rad, sidan **Lagerställesinnehåll** öppnas och endast visar den lagerplats där komponenten är tillgänglig.  
+    Du kan ändra lagerplatskoden på en Ta rad men endast utifrån tillgänglighet. Om du väljer den **AssistEdit** knappen i **Lagerplatskod** fältet på en Ta rad, sidan **Lagerplatsinnehåll** öppnas och endast visar den lagerplats där komponenten är tillgänglig.  
 
-    Du kan inte ändra lagerställeskoden på ett ställe rad. Endast lagerställeskod som definieras på komponentraden i källdokumentet accepteras. Det principer som stöder rollen som begär en komponent, som är en monteringsarbetare i den här proceduren, vet var en komponent måste placeras. Om du vill placera komponenter i en annan lagerplats, måste du först ändra lagerställeskoden på komponentraden och sedan skapa lagerförflyttning raderna på nytt.  
+    Du kan inte ändra lagerplatskoden på ett ställe rad. Endast lagerplatskod som definieras på komponentraden i källdokumentet accepteras. Det principer som stöder rollen som begär en komponent, som är en monteringsarbetare i den här proceduren, vet var en komponent måste placeras. Om du vill placera komponenter i en annan lagerplats, måste du först ändra lagerplatskoden på komponentraden och sedan skapa lagerförflyttning raderna på nytt.  
 6.  I **Ant. att hantera** fältet ange hela eller delkvantiteten du faktiskt har flyttats. Värdet för Ta och Placera raderna måste vara samma. Annars kan du inte registrera transporten.  
 
     > [!NOTE]  
@@ -65,7 +65,7 @@ Nedan beskrivs proceduren för att skapa en lagerförflyttning från sidan **Lag
 
 7.  När du är Klar att registrera omplaceringar, som du har utfört, välj åtgärden **Registrera lagertransport**.  
 
-    Dist.lager transaktioner är skapat att visa att komponenterna finns nu på lagerställen som har angetts på monteringsorderrader.  
+    Dist.lager transaktioner är skapat att visa att komponenterna finns nu på lagerplatser som har angetts på monteringsorderrader.  
 
     > [!NOTE]  
     >  Till skillnad från när du vill flytta komponenter med en lagerplockning, förbrukning inte bokförs när du registrerar en lagerförflyttning. Det steg, måste utföras separat genom att bokföra monteringsorderns utflödet och förbrukning. För mer information, se montera order.  
@@ -76,7 +76,4 @@ Nedan beskrivs proceduren för att skapa en lagerförflyttning från sidan **Lag
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

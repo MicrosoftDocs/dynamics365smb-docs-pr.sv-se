@@ -1,69 +1,50 @@
 ---
-title: Ställa in kontoplan (innehåller video)
-description: Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. Du kan dock ändra standardkontona i kontoplanen och du kan lägga till nya konton.
+title: Skapa kontoplanen
+description: Du kan ändra standardkontona i kontoplanen och du kan lägga till nya konton.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.search.form: 16, 17, 18, 118, 386, 391
-ms.date: 06/22/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: aad8d76b248aa2cabd84598c4a97a6989c7ee170
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 1241ff479019d0aa0223dbb374b3ad568a7157d0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970943"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182762"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Ställa in eller ändra kontoplanen
-
-Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
+Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
 Du kan dock ändra standardkontona och du kan lägga till nya konton.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
+
 ## <a name="adding-or-changing-accounts"></a>Lägga till eller ändra konton
+Från Kontoplan kan du öppna varje Redovisningskonto och lägga till eller ändra inställningar.
 
-Från Kontoplan kan du öppna varje Redovisningskonto och lägga till eller ändra inställningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+> [!NOTE]  
+>   Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande förutsättningar gälla:  
+>  
+>   * Saldot på kontot måste vara noll.  
+>   * Fältet **Tillåt borttag. av redov.konto** måste anges på sidan **Redovisningsinställningar** och kontot får inte ha några redovisningstransaktioner på eller efter det datumet.  
+>   * Om fältet **Kontr. redov.kontoanv.** på sidan **Redovisningsinställningar** markeras får kontot inte användas i någon av följande bokföringsgrupper eller bokföringsinställningar.  
 
-Om det behövs kan du använda flera rader för namnet på ett redovisningskonto. På sidan **Redovisningskontokort**, i gruppen **Konto**, väljer du **Extratexter** och fyller sedan i en eller flera rader med texten som ska kopieras och konto namnet.  
-
-För konton av typen **Summa** måste fältet **Summeringsintervall** fyllas i. För konton av typen **Till-summa** fylls det här fältet i automatiskt med hjälp av funktionen Indrag. När du har skapat alla konton väljer du åtgärden **Bearbeta** och väljer sedan **Indrag av kontoplan**.  
-
-> [!IMPORTANT]
-> Om du har angett definitioner i fälten **Summeringsintervall** för konton av typen **Till-summa** innan indragsfunktionen används, måste du ange dessa igen eftersom värdena i alla **Till-summa**-fält skrivs över med funktionen.
-
-## <a name="deleting-accounts"></a>Ta bort konton
-
-Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande förutsättningar gälla:  
-
-* Saldot på kontot måste vara noll.  
-* Fältet **Tillåt borttag. av redov.konto** måste anges på sidan **Redovisningsinställningar** och kontot får inte ha några redovisningstransaktioner på eller efter det datumet.  
-* Om fältet **Kontr. redov.kontoanv.** på sidan **Redovisningsinställningar** markeras får kontot inte användas i någon av följande bokföringsgrupper eller bokföringsinställningar.  
-
-[!INCLUDE[prod_short](includes/prod_short.md)] kommer att förhindra att du tar bort ett redovisningskonto som lagrar data som behövs i kontoplanen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kommer att förhindra att du tar bort ett redovisningskonto som lagrar data som behövs i kontoplanen.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
-
 [Huvudbok och kontolista](finance-general-ledger.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Importera data från andra finanssystem](across-import-data-configuration-packages.md)  
 [Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Avsluta resultatkonton i den franska versionen](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
-[Skriv ut resultaträkningar i den australiska versionen](LocalFunctionality/Australia/how-to-print-income-statements.md)  
-[Skriv ut resultaträkningar i den nyzeeländska versionen](LocalFunctionality/NewZealand/how-to-print-income-statements.md)  
-[Ställ in och stäng resultaträkningssaldon i spanska versionen](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
-[Indrag och validera kontoplanen i den spanska versionen](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

@@ -1,26 +1,26 @@
 ---
-title: Tilldela dokumentets layouter för kunder eller leverantörer
-description: När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att de används för de dokument som du skapar för kunden eller leverantören i fråga.
+title: Tilldela särskild dokumentlayout till kunder eller leverantörer | Microsoft Docs
+description: När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att ange att valda layouter ska användas för de dokument som du skapar för kunden eller leverantören i fråga.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 23c4573c3121a660b8263c3bc9bb2c6ac8b1d331
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443749"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809405"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definiera dokumentlayout för kunder och leverantörer
-När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort i syfte att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t. ex. **påminnelse**, **utleverans** och **bekräftelse**.
+När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t.ex. **påminnelse**, **utleverans** och **bekräftelse**.
 
 Förutom att definiera vilka layouter som ska användas för vilket dokument, kan du spara tid när du skickar dokument till olika kund- eller leverantörskontakter genom att skapa specifika kontakters e-postadresser för särskilda dokument. Kundutdrag skickas till exempel till revisorkontakter, försäljningsorder till kundernas inköpare och inköpsorder till leverantörernas säljare eller kontoansvariga.
 
@@ -31,7 +31,7 @@ Innan du kan definiera vilken dokumentlayout som ska användas för vilka proces
 Nedan beskrivs hur du definierar olika layouter för försäljningsdokument från ett kundkort. Stegen är desamma för layouter för inköpsdokument från ett leverantörskort.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Så här aktiverar du alla tillgängliga försäljningsdokument för en kund
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Öppna kortet för den kund för vilken du vill definiera dokumentlayout per affärsprocedur.
 3. På sidan **Kundkort** väljer du sidan **Dokumentlayouter**.
 4. På sidan **Dokumentlayouter**, välj åtgärden **Kopiera från rapporturval**.
@@ -52,7 +52,7 @@ Du kan spara tid när du skickar dokument till olika kund- eller leverantörskon
 1. På sidan **dokumentlayouter** på raden för en rapportlayout som du vill skicka till en viss kontakt för kunden väljer du åtgärden **Välj e-post från kontakter**.
 2. På sidan **Kontakter** väljer du rad för relevant kontakt och väljer sedan knappen **OK**.
 
-E-postadressen till kontakten infogas nu på dokumentets layouttabell så att försäljningsdokumentet, t. ex. påminnelser, alltid skickas till den kontakten hos kundens företag.
+E-postadressen till kontakten infogas nu på dokumentets layouttabell så att försäljningsdokumentet, t.ex. påminnelser, alltid skickas till den kontakten hos kundens företag.
 
 ## <a name="see-also"></a>Se även  
 [Uppdatera anpassade rapportlayouter](ui-update-report-layouts.md)  
@@ -62,6 +62,3 @@ E-postadressen till kontakten infogas nu på dokumentets layouttabell så att f�
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
 [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

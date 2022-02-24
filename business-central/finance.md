@@ -1,26 +1,26 @@
 ---
-title: Ekonomihantering (innehåller video)
-description: Läs om hur Business Central stöder dina behov av ekonomisk förvaltning, redovisning, revision samt bokföring.
+title: Ekonomihantering | Microsoft Docs
+description: Få mer information om uppgifterna för att ställa in Finance i ditt företag som passar alla behov av redovisning, granskning eller bokföring.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2582e96b8113abe91fe10a087833d4fbeb5b7da5
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970917"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410753"
 ---
-# <a name="financial-management"></a>Ekonomihantering
-
-[!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
+# <a name="finance"></a>Finans
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderar standardkonfigurationen av de flesta finansiella processer, men du kan ändra konfigurationen så att dessa passar din verksamhet. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
 
 Standardinställningkonfigurationen innehåller en kontoplan och standardbokföringsmallar som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.  
 
@@ -45,7 +45,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Tilldela extra kostnader, till exempel frakt- och fysisk hantering som förekommer vid handel med artiklar så att kostnaderna återspeglas i lagervärderingen. |[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md) |
 |Bokföra anställdas privata utgifter för affärsrelaterade aktiviteter och återbetala anställda genom att göra betalningen till dennes bankkonto.|[Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|
 | Känner igen intäkter och kostnader i andra perioder än när transaktionerna bokfördes. |[Periodisera intäkter och kostnader](finance-how-defer-revenue-expenses.md)|
-| Lär dig mer om tillgängliga alternativ för att automatiskt skicka prenumerationsfakturor till dina kunder och registrera återkommande intäkter. |[Arbeta med återkommande intäkter](finance-recurring-invoicing.md)|
+| Lär dig mer om tillgängliga alternativ för att automatiskt skicka prenumerationsfakturor till dina kunder och registrera återkommande intäkter. |[Återkommande (prenumeration) intäkter](finance-recurring-invoicing.md)|
 |Lär dig använda ytterligare valutor och uppdatera valutakurser automatiskt. |[Uppdatera valutakurser](finance-how-update-currencies.md)|
 | Importera löntransaktioner från ditt lönesystem till redovisningen. |[Importera lönetransaktioner](finance-how-import-payroll-transactions.md)|
 |Använda funktioner för att beräkna moms (VAT) för försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till skattemyndigheterna.|[Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)|
@@ -54,26 +54,16 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Övervaka kassaflödet till och från ditt företag. |[Analysera transaktioner i företaget](finance-analyze-cash-flow.md) |
 |Uppföljning och procedur från slutpunkt till slutpunkt om hur du använder kontouppställningar för att göra kassaflödesprognoser.|[Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbeta med finansiella rapporter och översikter i Excel. |[Analysera finansiella rapporter i Excel](finance-analyze-excel.md) |
-|För mer information om hur du använder rollcentret Revisor, bjud in en extern revisor och använd företagsnavet för att hantera konton för flera klienter.|[Revisorlösningar i Business Central](finance-accounting.md)|  
-
-## <a name="take-a-video-tour"></a>Ta en videorundtur
-
-I följande videoklipp beskrivs några av huvudfunktionerna för att hantera finanser. <br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+|För mer information om hur du använder rollcentret Revisor, bjud in en extern revisor och använd Accountant Hub för att hantera konton för flera klienter.|[Revisorlösningar i Business Central](finance-accounting.md)|  
 
 ## <a name="see-also"></a>Se även
-
 [Ställa in Finance](finance-setup-finance.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Stänga räkenskapsperioder](year-close-years-periods.md)  
-[Hantera projekt](projects-manage-projects.md)  
+[Hantera projekt](projects-manage-projects.md)    
 [Importera data från andra finanssystem](across-import-data-configuration-packages.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,73 +1,60 @@
 ---
-title: Flera språk och lokala inställningar
-description: Lär dig mer om hur språk och regionsinställningar påverkar din upplevelse i Business Central. Ändra språket för användargränssnittet under Mina inställningar.
+title: Flera språk och lokalisering | Microsoft Docs
+description: Lär dig mer om hur språk och nationella inställningar påverkar din upplevelse i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 04/01/2021
+ms.search.keywords: language, locale, localization, culture
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588407"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692710"
 ---
-# <a name="changing-language-and-region"></a>Byta språk och region
+# <a name="changing-language-and-locale"></a>Byta språk och plats
 
-[!INCLUDE[prod_short](includes/prod_short.md)] finns på flera marknader och på olika språk runtom i världen. På de marknader där det finns [!INCLUDE[prod_short](includes/prod_short.md)] en uppsättning regleringsfunktioner finns det möjligheter att hjälpa företag med regleringar. [!INCLUDE[prod_short](includes/prod_short.md)] kan presentera sig på olika språk och du kan ändra det språk som används för att visa texter och ändringen sker direkt, när du automatiskt har loggats ut och in igen. Inställningen gäller för dig och inte de övriga i företaget.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] fungerar på flera olika marknader och på de språk som dessa marknader kräver. Detta är ett resultat av stöd för flera språk vid körning i kombination med stöd för juridiska krav på marknaderna som stöds. Detta innebär att en [!INCLUDE[d365fin](includes/d365fin_md.md)] kan användas på flera olika språk. Du kan ändra det språk som används för att visa texter och ändringen sker direkt, när du automatiskt har loggats ut och in igen. Inställningen gäller för dig och inte de övriga i företaget.  
 
-Om du till exempel använder en kanadensisk version av [!INCLUDE[prod_short](includes/prod_short.md)], visas användargränssnittet på engelska, tyska, franska eller andra språk, men det är fortfarande den kanadensiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] i alla andra avseenden. Det är inte detsamma som [!INCLUDE[prod_short](includes/prod_short.md)] i Storbritannien, om en funktion har anpassats till marknadens krav.  
+Om du till exempel använder en kanadensisk version av [!INCLUDE[d365fin](includes/d365fin_md.md)], visas användargränssnittet på engelska och franska, men det är fortfarande den kanadensiska versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] i alla andra avseenden. Den är inte likadan som exempelvis [!INCLUDE[d365fin](includes/d365fin_md.md)] i Storbritannien.  
 
-Om du vill ändra språket för användargränssnittet, går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#language). 
-
-> [!NOTE]  
-> Valet av språk kommer att återställas till inställningen i din Microsoft 365-profil om administratören synkroniserar användare från Microsoft 365 med [!INCLUDE[prod_short](includes/prod_short.md)].
+Om du vill ändra språket för användargränssnittet, går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#language).  
 
 Det ingår inte i funktionen Multilanguage att ändra språk för de texter som lagras som programdata. Detta är i stället ett fråga om utformning. Exempel på den här typen av text är artikelnamnen i lagret och kundkommentarerna. Kort sagt är det här texttyper som inte har översatts.  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] har bara stöd för en enda teckenuppsättning. Därför kanske en del tecken inte stöds i din miljö och det uppstår problem med att hämta data som har registrerats med en annan teckenuppsättning. Din miljö kanske stöder enbart engelska och ryska tecken, och om du registrerar data på ett annat språk kanske de inte lagras på rätt sätt. Kontakta systemadministratören om du vill ha information om vilka språk som stöds i din [!INCLUDE[prod_short](includes/prod_short.md)].  
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] har bara stöd för en enda teckenuppsättning. Därför kanske en del tecken inte stöds i din klientorganisation och det uppstår problem med att hämta data som har registrerats med en annan teckenuppsättning. Din klientorganisation kanske enbart stöder engelska och ryska tecken, och om du registrerar data på ett annat språk kanske de inte lagras på rätt sätt. Kontakta systemadministratören om du vill ha information om vilka språk som stöds i din [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="changing-your-region-setting"></a>Ändra nationella inställningar
-Region skiljer sig från både språk och juridiska krav på lokala marknader. Region bestämmer hur data visas när det gäller kommateckenavgränsare, justering till vänster eller till höger och vissa andra inställningar. Region avgör vissa systemelement i webbläsaren, till exempel åtgärden att skapa ett nytt objekt i en lista.  
+## <a name="changing-the-locale"></a>Ändra språkvariant
+Språkvarianter skiljer sig från både språk och juridiska krav på lokala marknader. Språkvarianter bestämmer hur data visas när det gäller kommateckenavgränsare, justering till vänster eller till höger och vissa andra inställningar. Dessa inställningar avgör vissa systemelement i webbläsaren, till exempel åtgärden att skapa ett nytt objekt i en lista.  
 
-Du kan ändra region i fliken som du använder för att arbeta i [!INCLUDE[prod_short](includes/prod_short.md)]. Ändringen gäller bara för dig och inte för de andra användarna i företaget.  Valet av region återställs till din inställning i din Microsoft 365-profil om din administratör synkroniserar användare från Microsoft 365 i [!INCLUDE[prod_short](includes/prod_short.md)].
+Du kan ändra språkvariant i fliken som du använder för att arbeta i [!INCLUDE[d365fin](includes/d365fin_md.md)]. ändringen gäller bara för dig och inte för de andra användarna i företaget.  
 
 > [!IMPORTANT]  
-> När du ändrar region visas en lång lista över språk och region. Språk påverkas dock inte av val av region.  
+>  När du ändrar språkvariant visas en lång lista över språk och språkvarianter. Däremot används bara språkvarianterna i den aktuella versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Om du vill ändra region går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
-
-## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Ändra nationella inställningar för kunder, kontakter och leverantörer
-Vissa företag använder en extern tjänst som validerar adressuppgifter i landet eller regionen. Men när du behöver uppdatera adressinformation kanske det struktureras som de här tjänsterna använder inte alltid är det som passar för vissa situationer. Business Central ger dig ett mer flexibelt sätt att ange adressuppgifter.
-
-På sidan **Redovisningsinställningar** , om du aktiverar växlingsknappen **Kräv lands-/regionkod för adress** ändrar till fältet **Lands-/regionkod** på adresser för kunder, kontakter eller leverantörer kommer att återställa värdena i andra adressfält.
+Om du vill ändra språkvariant går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
 ## <a name="application-version"></a>Programversion
 
-På sidan **Hjälp och support** kan du se den version av [!INCLUDE[prod_short](includes/prod_short.md)] som ditt företag är baserat på. Om du vill basera ett företag på en annan version kan administratören skapa en ny produktionsmiljö. Mer information finns i [Skapa en ny produktionsmiljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i innehållet för utvecklare och IT-proffs.  
+På sidan **Hjälp och support** kan du se den version av [!INCLUDE [prodshort](includes/prodshort.md)] som ditt företag är baserat på. Om du vill basera ett företag på en annan version kan administratören skapa en ny produktionsmiljö. Mer information finns i [Skapa en ny produktionsmiljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i innehållet för utvecklare och IT-proffs.  
 
-## <a name="languages-of-the-prod_short-help"></a>Språk för [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen
+## <a name="languages-of-the-d365fin-help"></a>Språk för [!INCLUDE[d365fin](includes/d365fin_md.md)]-hjälpen
+Innehållet i hjälpen för grundläggande funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] publicerar på webbplatsen Microsoft Docs och finns på flera olika språk. Om du har tillgång till dokument inifrån [!INCLUDE[d365fin](includes/d365fin_md.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska.
 
-Innehållet i hjälpen för grundläggande funktioner i [!INCLUDE[prod_short](includes/prod_short.md)] publicerar på webbplatsen Microsoft Docs och finns på flera olika språk. Om du har tillgång till dokument inifrån [!INCLUDE[prod_short](includes/prod_short.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska.
-
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hur ändrar jag språk på webbplatsen Microsoft-dokument?
-
-Det är enkelt – bläddra längst ned på sidan och välj symbolen med en jordglob längst ned till vänster.
+### <a name="how-do-i-change-the-language"></a>Hur ändrar jag språket?
+Det är enkelt - bläddra längst ned på sidan och välj symbolen med en jordglob längst ned till vänster.
 
 > [!NOTE]  
-> Listan visar alla språk som stöds av webbplatsen Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] är tillgängligt i ett begränsat antal länder/regioner och [!INCLUDE [prod_short](includes/prod_short.md)] Hjälp-innehållet är inte tillgängligt på alla språk som Microsoft-dokumenten stöder.
+> Listan visar alla språk som stöds av webbplatsen Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] finns i ett begränsat antal länder/regioner, men hjälpinnehållet är tillgänglig på flera språk. Hjälpinnehållet är inte tillgängligt för alla språk som stöds av webbplatsen Microsoft Docs.
 
 ## <a name="see-also"></a>Se även
 
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
-[Gör dig redo att göra affärer](ui-get-ready-business.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Komma igång](product-get-started.md)  

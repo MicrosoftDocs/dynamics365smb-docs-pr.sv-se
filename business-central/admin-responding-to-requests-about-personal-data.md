@@ -1,22 +1,22 @@
 ---
 title: Svara på begäranden om personuppgifter
-description: I det här avsnittet beskrivs hur du svarar på förfrågningar om personuppgifter. Detta kallas registrerades begäran.
+description: Du måste svara på begäranden från uppgiftssubjekt.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.reviewer: na
-ms.topic: conceptual
-ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.topic: article
+ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321968"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186770"
 ---
-# <a name="responding-to-requests-about-users-personal-data"></a>Svara på begäranden om användarens personuppgifter  
-Uppgiftssubjekt kan begära olika typer av åtgärder avseende deras personuppgifter. Exempelvis under de Allmänna dataskyddsbestämmelserna (GDPR), har bosatta inom EU rätt att begära export, borttagning och ändring av deras personuppgifter. Detta kallas *registrerades begäran*. Om du har klassificerat känsligheten i dina data och är säker på att de är korrekta, kan en administratör svara på begäranden med hjälp av alternativen under fliken **Datasekretess** u rollcentret **IT-chef**. Läs mer om klassificering av data och klassificering av datakänslighet i [!INCLUDE[prod_long](includes/prod_long.md)], se [Klassificering av data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) och [Klassificering av datakänslighet](admin-classifying-data-sensitivity.md).  
+# <a name="responding-to-requests-about-personal-data"></a>Svara på begäranden om personuppgifter  
+Uppgiftssubjekt kan begära olika typer av åtgärder avseende deras personuppgifter. Exempelvis under de Allmänna dataskyddsbestämmelserna (GDPR), har bosatta inom EU rätt att begära export, borttagning och ändring av deras personuppgifter. Detta kallas *registrerades begäran*. Om du har klassificerat känsligheten i dina data och är säker på att de är korrekta, kan en administratör svara på begäranden med hjälp av alternativen under fliken **Datasekretess** u rollcentret **IT-chef**. Läs mer om klassificering av data och klassificering av datakänslighet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], se [Klassificering av data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) och [Klassificering av datakänslighet](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer av begäranden
 
@@ -25,7 +25,7 @@ Följande tabell innehåller exempel på olika typer av förfrågningar som du k
 > [!Note]
 > Även om vi tillhandahåller funktioner för att svara på den här typen av begäran och därmed erbjuder tillgång till personuppgifter, så är det ditt ansvar att se till att personliga och känsliga data finns och klassificeras på rätt sätt.
 
-|Förfrågan – typ|Beskrivning och föreslagna svar|
+|Förfrågan - typ|Beskrivning och föreslagna svar|
 |-----|-----|
 |Begäranden för portabilitet|Ett datasubjekt kan göra en begäran om dataportabilitet, vilket bland annat betyder att man måste exportera datasubjektets personuppgifter från ditt system och tillhandahålla dem i ett strukturerat format som ofta används. Om du vill svara på förfrågningarna använder du **Verktyg för datasekretess** för att exportera personuppgifter till en Excel-fil eller ett RapidStart-konfigurationspaket. Med Excel kan du redigera personuppgifterna och spara dem i ett format som används ofta och som är maskinläsbart, som CSV- eller XML. För RapidStart-konfigurationspaket kan du konfigurera huvuddatatabeller och relaterade tabeller som innehåller personuppgifter. <br><br> **Obs!** när du exporterar data anger du en lägsta känslighetsnivå. Exporten omfattar minsta och alla känslighetsnivåer ovanför. Till exempel om du vill exportera data som klassificeras som personliga omfattar även exporten data som klassificeras som känsliga data. <br><br>När du exporterar data för den registrerade, letar **Verktyg för datasekretess** efter direkta relationer mellan den registrerade och data som är relaterad till den berörda personen. Indirekta samband mellan data som är relaterade till den berörda personen och övriga data exporteras inte automatiskt av **Verktyg för datasekretess**. Exempelvis tabellen Kontakt innehåller en direkt relaterad Kontaktprofilsvarsdata och tabellen Kontaktprofilsvar är information som rör data från profilfrågor. Om du vill exportera profilfrågor måste du också lägga till den här tabellen manuellt som en rad med lämpliga filter i konfigurationspaketet som **Verktyg för datasekretess** skapar.|
 |Begäranden om borttagning|En person kan begära att du tar bort deras personuppgifter. Det finns flera sätt att ta bort personlig information med hjälp av anpassningsfunktionerna, men du bär ansvaret för beslut och genomförande. I vissa fall kan du välja att redigera data direkt, till exempel ta bort en kontakt och sedan köra batch-jobbet Ta bort avbruten för att ta bort interaktioner för kontakten. <br><br> **Obs:** Om du har angett ett datum i fältet **Dokumentet kan tas bort före** på sidan **Försäljningsinställningar** eller **Inköpsinställningar** sidor kan du behöva ändra datumet så att du kan ta bort bokförda försäljnings- och inköpsdokument som du har skrivit ut och som har bokföringsdatum som infaller på eller före detta datum.|
@@ -35,13 +35,13 @@ Följande tabell innehåller exempel på olika typer av förfrågningar som du k
 Ett datasubjekt kan begära att du tillfälligt slutar bearbeta deras personuppgifter. Om du vill tillgodose en sådan begära, kan du markera posten som blockerad av sekretesskäl i syfte att sluta bearbeta deras data. När en post har markerats som spärrad kan du inte skapa nya transaktioner som använder posten. Du kan till exempel inte skapa en ny faktura för en kund när antingen kunden eller säljaren är spärrad. För att markera ett datasubjekt som blockerat. öppna datasubjektets kort, till exempel kund-, leverantörs- eller kontaktkort, och välj kryssrutan **Sekretessblockerad**. Du kan behöva välja **Visa fler** för att visa fältet.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Hantera begäranden av registrerade i test
-Vissa typer av personuppgifter som ingår i ditt Microsoft 365-konto och kräver administrativ behörighet för att exportera, om du får en begäran av registrerad person om data från en användare för den här typen av personuppgifter enligt allmänna dataskyddsförordningen (GNPR). Processen för att hantera begäranden från registrerade är olika beroende på vilken typ av [!INCLUDE[prod_short](includes/prod_short.md)]-innehavare.  
+Vissa typer av personuppgifter som ingår i ditt Office 365-konto och kräver administrativ behörighet för att exportera, om du får en begäran av registrerad person om data från en användare för den här typen av personuppgifter enligt allmänna dataskyddsförordningen (GNPR). Processen för att hantera begäranden från registrerade är olika beroende på vilken typ av [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehavare.  
 
-Om du har en betald prenumeration för [!INCLUDE[prod_short](includes/prod_short.md)], måste du kontakta företagets innehavaradministratör om du vill göra en registrerades begäran. Administratören har administratörsrättigheter och verktygen för att uppfylla begäran.  
+Om du har en betald prenumeration för [!INCLUDE[d365fin](includes/d365fin_md.md)], måste du kontakta företagets innehavaradministratör om du vill göra en registrerades begäran. Administratören har administratörsrättigheter och verktygen för att uppfylla begäran.  
 
-Om du har registrerat dig för [!INCLUDE[prod_short](includes/prod_short.md)] från de [test](https://trials.dynamics.com/), och du inte har flyttat från denna testversion till en betald prenumeration av administratörsinnehavare och du kan uppfylla en registrerades begäran i [Arbets- och skolsekretess i Azure -portalen](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Här kan du exportera och hämta dina personuppgifter.
+Om du har registrerat dig för [!INCLUDE[d365fin](includes/d365fin_md.md)] från de [test](https://trials.dynamics.com/), och du inte har flyttat från denna testversion till en betald prenumeration av administratörsinnehavare och du kan uppfylla en registrerades begäran i [Arbets- och skolsekretess i Azure -portalen](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Här kan du exportera och hämta dina personuppgifter.
 
-Du kan avsluta ditt konto på sidan Arbete- och skolsekretess och du kan även avsluta ditt konto. Vi rekommenderar emellertid att du ser till att du har exporterat och tagit bort alla data först eftersom om du tar bort ditt konto förlorar du åtkomst till [!INCLUDE[prod_short](includes/prod_short.md)].  
+Du kan avsluta ditt konto på sidan Arbete- och skolsekretess och du kan även avsluta ditt konto. Vi rekommenderar emellertid att du ser till att du har exporterat och tagit bort alla data först eftersom om du tar bort ditt konto förlorar du åtkomst till [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Du kan fortfarande markera personer som blockerats på grund av sekretess- och export, redigera eller ta bort transaktioner enligt beskrivningen på annat ställe i den här artikeln.  
 
@@ -62,6 +62,3 @@ Om en kontaktperson ålder understiger åldern för juridiskt godkännande enlig
 [Exportera dina affärsdata till Excel](about-export-data.md)  
 [Logga ändringar](across-log-changes.md)  
 [Registrerades begäran för GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
-title: Tjänstens regelefterlevnad och SLA
-description: Ur ett serviceperspektiv lever Business Central upp till de strikta kraven och SLA-efterlevnaden i flera ISO- och branschspecifika certifieringar.
+title: Tjänstens regelefterlevnad | Microsoft Docs
+description: Det här innehållet anger information om tjänstens regelefterlevnad i relation till Business Central.
 author: sorenfriisalexandersen
+documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: e1ecec00458dbe2872eda7654fab0ff555408868
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323674"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185914"
 ---
 # <a name="service-compliance"></a>Tjänstens regelefterlevnad
+Det här innehållet anger information om tjänstens regelefterlevnad i relation till [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Det här innehållet anger information om tjänstens regelefterlevnad i relation till [!INCLUDE[prod_short](../includes/prod_short.md)] online  
-
-Business Central är en molntjänst med global räckvidd och skala som körs på ett av världens största storskaliga infrastrukturer, Microsoft Azure, med datacenter i regioner världen över. Att köra en molntjänst innebär även att följa vissa riktlinjer när det gäller säkerhet och regelefterlevnad, så ur ett tjänstperspektiv lever Business Central upp till behovet av strikta krav i flera ISO- och branschspecifika certifikat.
+Business Central är en molntjänst med en global räckvidd och skala som körs på ett av världens största storskaliga infrastrukturer, Microsoft Azure, med datacenter i regioner i världen. Att köra en molntjänst innebär även att följa vissa riktlinjer när det gäller säkerhet och regelefterlevnad, så ur ett tjänstperspektiv lever Business Central upp till behovet av strikta krav i flera ISO- och branschspecifika certifikat.
 
 Du hittar en detaljerad lista över [molnets regelefterlevnad i Business Central här](https://aka.ms/d365-compliance-list).
 
@@ -30,7 +30,9 @@ Om du är intresserad av vilka erbjudanden för regelefterlevnad som Microsoft h
 
 ## <a name="service-terms"></a>Tjänstvillkor
 
-[!INCLUDE [service-terms](../includes/service-terms.md)]
+[!INCLUDE [prodshort](../includes/prodshort.md)] Online regleras i [modern livscykelpolicy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Villkoren för servicenivåavtalet beskrivs i dokumentet som du kan hämta från avsnittet **servicenivåavtal för Microsoft Online Services** på sidan [licensvillkor](https://www.microsoft.com/licensing/product-licensing/products).  
+
+Du kan dessutom övervaka innehavarens hälsa och ange uppgraderingsfönster i [administrationscenter för klientorganisation](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Se även
 
@@ -38,7 +40,4 @@ Om du är intresserad av vilka erbjudanden för regelefterlevnad som Microsoft h
 [Programmets regelefterlevnad](compliance-application-compliance.md)  
 [Intyg](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

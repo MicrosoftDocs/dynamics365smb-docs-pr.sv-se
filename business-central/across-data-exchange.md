@@ -1,35 +1,35 @@
 ---
-title: Elektroniska dokument i Business Central
-description: Detta är en översikt över använda ramverket för dataintegrering för att hantera utbytet av data i affärsdokument som bankfiler och valutakurser.
+title: Elektroniska dokument i Business Central   | Microsoft Docs
+description: Introduktion till att skicka och ta emot elektroniska dokument i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
-ms.date: 06/10/2021
-ms.author: edupont
-ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.search.keywords: ''
+ms.date: 01/30/2020
+ms.author: sgroespe
+ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588382"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999837"
 ---
 # <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
-Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
+Du kan använda ramverket för dataintegration för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
 
-I standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)], används ramverket för dataintegrering i processer som utbyte av elektroniska dokument, import och export av bankfiler och uppdatering av valutakurser för valutor. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
+I standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] används ramverket för dataintegration i funktioner, till exempel elektroniska dokument, import/export av bankfiler och valutakursuppdateringar. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
 
-Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ange vilka data som ska utbytas och hur. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
+Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ställa in vilka data som ska utbytas och hur. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
 |Om du vill|Gå till|  
 |--------|---------|  
 |Lär dig hur den ramverket för datautbyte fungerar.|[Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)|  
-|Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Skapa dataintegreringsdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  
+|Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Skapa dataintegrationsdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  
 |Använd definitioner för datautbyte och skicka PEPPOL-fakturor, ta emot PEPPOL-fakturor, importera bankkontoutdrag och exportera bankbetalningfiler.|[Utbyta data](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Se även  
@@ -39,6 +39,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Utbyta data](across-exchange-data.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

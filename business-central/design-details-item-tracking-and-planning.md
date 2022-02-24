@@ -3,19 +3,19 @@ title: Designdetaljer - Artikelspårning och planering | Microsoft Docs
 description: Eftersom de lagras i reservationssystemet koordineras artikelspårningsnummer helt med orderspårningsposter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: a01ddb4ac423df3f4ada16740550edf46949886a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f43523794af06ed5709ec2738cda8bad68fd1b7d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215909"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185138"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designdetaljer: Artikelkoppling och planering
 Eftersom de lagras i reservationssystemet koordineras artikelspårningsnummer helt med orderspårningsposter. Det betyder att artiklar med orderspårningsposter kan tilldelas artikelspårningsnummer. Artiklar som har artikelspårningsnummer kan bli orderspårningsposter. Mer information finns i [Designdetaljer: Design av artikelspårning](design-details-item-tracking-design.md).
@@ -36,7 +36,7 @@ Till exempel när orderspårning finns för en viss artikel tyder det på att tr
 
 Förutom konsekvenserna för dynamisk orderspårning har artikelspårningskopplingarnas begränsningar ingen större påverkan på planeringssystemet.
 
-På tillförselsidan anges ett serie- eller partinummer vanligtvis inte förrän ordern har bokförts, t. ex. en inköpsinleverans till distributionslagret. När du registrerar ett serie- eller partinummer på efterfråganssidan, t. ex. för en försäljningsorder, finns det serie- eller partinumret redan i lagret. Artikelspårningsnummer är vanligtvis inga problem vid leveransplanering.
+På tillförselsidan anges ett serie- eller partinummer vanligtvis inte förrän ordern har bokförts, t.ex. en inköpsinleverans till distributionslagret. När du registrerar ett serie- eller partinummer på efterfråganssidan, t.ex. för en försäljningsorder, finns det serie- eller partinumret redan i lagret. Artikelspårningsnummer är vanligtvis inga problem vid leveransplanering.
 
 För artiklar som använder specifik artikelspårning måste alla serie- eller partinummer med efterfrågan matchas av motsvarande tillgång. I de flesta fall är det ingen mening att beställa ett visst serie- eller partinummer, så planeringen av inköps- eller produktionstillförsel påverkas förmodligen inte. När du överför artiklar från ett lagerställe till ett annat, är det dock troligt att överföringen gäller för ett visst parti, så planeringen av överföringstillgångar kan påverkas av den specifika kopplingsbegränsningen.
 
@@ -56,6 +56,3 @@ Mer information finns i [Designdetaljer: Balansera efterfrågan och tillgång](d
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

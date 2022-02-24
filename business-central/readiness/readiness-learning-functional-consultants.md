@@ -2,15 +2,15 @@
 title: Utbildningskatalog för funktionskonsulter
 description: Hitta alla tillgänglig utbildning för Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
-ms.topic: conceptual
-ms.author: margoc
-ms.openlocfilehash: c7e235f878287a061dfaff25d7a9f2e2e8f40c16
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/20/2020
+ms.topic: article
+ms.author: v-lshann
+ms.openlocfilehash: eba4c2c1badc0b686d50b23c8e47600f1cdbed3f
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781894"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372646"
 ---
 # <a name="functional-consultant-learning-catalog"></a>Utbildningskatalog för funktionskonsulter
 
@@ -25,7 +25,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Översikt över Dynamics 365 Business Central-funktionerna                                                                                                                                                                                                                                           | Webbplats                               |                    |
 | [Business Central-spellista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                        | Business Central-spellista                                                                                                                                                                                                                                                                        | Spellista med YouTube-videor            |                    |
 | [Komma igång med projekt Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Använder du intresserad av Business Central? I så fall ger den här utbildningsvägen en bra introduktion. Den beskriver hur du skapar en utvärderingsversion, ger grundläggande information om vad som finns tillgängligt och vilka anpassningar du kan göra för att anpassa Business Central för användning. | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 4 minuter  |
-| [Arbeta med Microsoft Dynamics 365 Business Central -användargränssnittet](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Vill du lära dig mer om Business Central-användargränssnittet? I den här utbildningsvägen visas användargränssnittet och hur du kan anpassa det. Den beskriver även alternativa gränssnitt som t. ex. en smartphone.                                                                               | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
+| [Arbeta med Microsoft Dynamics 365 Business Central -användargränssnittet](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Vill du lära dig mer om Business Central-användargränssnittet? I den här utbildningsvägen visas användargränssnittet och hur du kan anpassa det. Den beskriver även alternativa gränssnitt som t.ex. en smartphone.                                                                               | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
 | [Arbeta som ett proffs med data i Business Central](/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet.                                                                                                  | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
 
 ## <a name="deploy"></a>Distribuera<a name="deploy"></a>
@@ -68,6 +68,3 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------|
 | [Framtiden finns i det betrodda molnet](https://www.microsoft.com/trust-center)                                                                                                                                                              | Om det betrodda molnet                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Webbplats                                                                        |                    |
 | [Dataskyddsresurser](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5fa41da9-69b2-47ea-8413-4a91345b299b&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) | Information om hur Microsofts molntjänster skyddar dina data och hur du kan hantera molndatasäkerhet och efterlevnad för organisationen.                                                                                                                                                                                                                                                                                                                                                | Ladda ned whitepaper                                                           |                    |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

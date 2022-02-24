@@ -1,24 +1,24 @@
 ---
-title: Designdetaljer - Planeringsparametrar
-description: I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda och hur de påverkar planeringssystemet.
+title: Designdetaljer - Planeringsparametrar | Microsoft Docs
+description: I det här avsnittet beskrivs de olika planeringsparametrar som du kan använda i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/21/2021
-ms.author: edupont
-ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 04/20/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649818"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272044"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
-I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[prod_short](includes/prod_short.md)].  
+I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Det sätt som planeringssystemet styr artikeltillgång bestäms av olika inställningar på artikelkortet eller lagerställeenheten, och inställningar i produktionskonfigurationen. Följande tabell visar hur parametrarna används för planering.  
 
@@ -82,25 +82,25 @@ För att få en rationell tillförselplan finjusterar en planerare planeringspar
 
 Tidsplaneringen av omplaneringsperioden, utjämningsperiod och partiackumuleringsperioden baseras på ett leveransdatum. Tidsenheten baseras på planeringsstartdatumet, som visas i följande illustration.  
 
-![Tidsenhetselement.](media/supply_planning_5_time_bucket_elements.png "Tidsenhetselement")  
+![Tidsenhetselement](media/supply_planning_5_time_bucket_elements.png "Tidsenhetselement")  
 
 I följande exempel representerar de svarta pilarna befintlig tillgång (upp) och efterfrågan (ned). Röda, gröna och orange pilar är planeringsförslag.  
 
 **Exempel 1**: Det ändrade datumet ligger utanför omplaneringsperioden, vilket innebär att den befintliga leveransen annulleras. En ny tillgång föreslås för att täcka behovet i partiackumuleringsperioden.  
 
-![Omplaneringsperiod och partiackumuleringsperiod.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Omplaneringsperiod och partiackumuleringsperiod")  
+![Omplaneringsperiod och partiackumuleringsperiod](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Omplaneringsperiod och partiackumuleringsperiod")  
 
 **Exempel 2**: Det ändrade datumet ligger i omplaneringsperioden, vilket innebär att den befintliga leveransen planeras om. En ny tillgång föreslås för att täcka behovet utanför partiackumuleringsperioden.  
 
-![Omplaneringsperiod, partiackumuleringsperiod och omplanering.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Omplaneringsperiod, partiackumuleringsperiod och omplanering")  
+![Omplaneringsperiod, partiackumuleringsperiod och omplanering](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Omplaneringsperiod, partiackumuleringsperiod och omplanering")  
 
 **Exempel 3**: Det finns en efterfrågan i utjämningsperioden och tillgångsantalet i partiackumuleringsperioden matchar tillgångsantalet. Nästa behov har inte täckts och en ny tillgång föreslås.  
 
-![Utjämningsperiod och partiackumuleringsperiod.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Utjämningsperiod och partiackumuleringsperiod")  
+![Utjämningsperiod och partiackumuleringsperiod](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Utjämningsperiod och partiackumuleringsperiod")  
 
 **Exempel 4**: Det finns en efterfrågan i utjämningsperioden och tillgången förblir på samma datum. Dock är antalet för aktuell tillgång inte tillräckligt för att täcka efterfrågan i partiackumuleringsperioden, så en antalsändringsåtgärd för den befintliga leveransordern föreslås.  
 
-![Utjämningsperiod, partiackumuleringsperiod och ändra antal.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Utjämningsperiod, partiackumuleringsperiod och ändra antal")  
+![Utjämningsperiod, partiackumuleringsperiod och ändra antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Utjämningsperiod, partiackumuleringsperiod och ändra antal")  
 
 **Standardvärden:** Standardvärdet i fältet **Tidsenhet** och de tre fälten för beställningsperiod är tomma. För alla fält utom fältet **Utjämningsperiod** betyder det 0D (noll dagar). Om fältet **Utjämningsperiod** är tomt, används det globala värdet i **Standard för utjämningsperiod** på sidan **Produktionsinställningar**.  
 
@@ -114,32 +114,9 @@ Alternativet **Produktionsprincip** definierar vilka extra order nettobehovsber�
 
 Om alternativet **Tillverka-Mot-Lager** används rör beställningarna endast artikeln i fråga.  
 
-Om alternativet **Tillverka-mot-Order** används kommer planeringssystemet att analysera produktionsstrukturen för artikeln och skapa ytterligare länkade som orderförslag för de artiklar på lägre nivå som också definieras som tillverka-mot-order. Detta fortsätter så länge det finns tillverka-mot-order-artiklar i de fallande strukturerna.
-
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Använd lågnivåkoder för att hantera härledd efterfrågan
-
-Använd lågnivåkoder för att skapa härledd efterfrågan för komponenter till de lägre nivåerna i strukturen. Om du vill ha en mer grundlig förklaring av detta, se [Artikelprioritet / Lågnivåkod](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
-
-Du kan koppla en lågnivåkod till respektive komponent i produktionsstrukturen eller den indragen struktur. Slutmonteringsnivån betecknas som nivå 0, d.v.s. slutartikeln. Ju högre värde en lågnivåkod har, desto längre ned i hierarkin finns artikeln. Exempelvis har alla slutartiklar lågnivåkod 0, artiklar som ingår i monteringen av slutartikeln har lågnivåkod 1, 2, 3 o.s.v. Resultatet blir att planeringen av komponenter samordnas med behovet för alla artiklar och komponenter med komponentnummer på högre nivå. När du beräknar en plan expanderas strukturen i planeringsförslaget, och bruttobehoven för nivå 0 skickas nedåt i planeringsnivåerna som bruttobehov för nästa planeringsnivå.
-
-Välj fältet **Dynamisk lågnivåkod** för att ange om du direkt vill tilldela och beräkna lågnivåkoder för respektive komponent i produktstrukturen. Vid stora mängder data kan funktionen ha negativa effekter på programmets kapacitet, till exempel i samband med automatisk kostnadsjustering. Observera att detta inte är en retroaktiv funktion, varför det är en god idé att överväga användning av funktionen i förväg.
-
-Istället för den automatiska beräkning som sker dynamiskt om fältet väljs kan du också köra batchjobbet **Beräkna lågnivåkod** från menyn **Tillverkning** genom att klicka på **Produktdesign**, **Beräkna lågnivåkod**.
-
-> [!IMPORTANT]
-> Om du inte väljer fältet **Dynamisk lågnivåkod** måste du köra batchjobbet **Beräkna lågnivåkod** innan du beräknar en försörjningsplan (batchjobbet **Berökna plan**).  
-
-> [!NOTE]
-> Även om fältet **Dynamisk lågnivåkod** markeras ändras inte lägstanivåkoderna för komponentartiklar dynamiskt om en överordnad struktur tas bort eller anges som ocertifierad. Det kan då bli svårt att lägga till nya artiklar i slutet av produktionsstrukturen eftersom detta kan överskrida det maximala antalet lägstanivåkoder. För större produktionsstrukturer som uppnår gränsen för lägstanivåkod är det därför bättre att köra batch-jobbet **Beräkna lägstanivåkod** ofta i syfte att bibehålla strukturen.  
-
-### <a name="optimize-low-level-code-calculation"></a>Optimera beräkning av lägstanivåkod
-
-Markera fältet **Optimera beräkning för lägstanivåkod** för att ange att du vill använda den nya, snabbare metoden för beräkning av lägstanivåkod. Observera att den nya beräkningen görs på ett annat sätt, och att användningen av denna kan komma att bryta tillägg som bygger på den befintliga metoden. Den nya beräkningsmetoden ersätter den aktuella metoden i en framtida version.
+Om alternativet **Tillverka-mot-Order** används kommer planeringssystemet att analysera produktionsstrukturen för artikeln och skapa ytterligare länkade som orderförslag för de artiklar på lägre nivå som också definieras som tillverka-mot-order. Detta fortsätter så länge det finns tillverka-mot-order-artiklar i de fallande strukturerna.  
 
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,101 +1,45 @@
 ---
-title: Utforska och bläddra i sidor per roll
-description: Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller med Rollutforskare.
-author: jswymer
+title: Utforska och bläddra i sidor per roll | Microsoft Docs
+description: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: role explorer, find features, navigate
-ms.date: 08/01/2021
-ms.author: jswymer
-ms.openlocfilehash: ba09bdcb19e65b317737412fa97403bef417e2c6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.search.keywords: ''
+ms.date: 11/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588938"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774801"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Söka efter sidor med rollutforskaren
-
 Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller om du går ett steg längre. I följande dokumentation kallas denna funktionsöversikt *rollutforskaren.*
 
-Varje element i rullutforskaren är en åtgärd som öppnar en sida. Därför kan du också använda rollutforskaren som ett sätt att navigera i [!INCLUDE[prod_short](includes/prod_short.md)].
-
-## <a name="open-the-role-explorer"></a>Öppna rollutforskaren
+Varje element i rullutforskaren är en åtgärd som öppnar en sida. Därför kan du också använda rollutforskaren som ett sätt att navigera i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Du kan öppna rullutforskaren från rollcentret och alla listsidor och från fönstret **Berätta**.
 
-- I Rollcenter eller någon listsida, välj ![menyknappen.](media/ui_menu_button.png "Menyknapp") Knappen till höger om navigeringsfältet eller trycker på Shift + F12.
-- I fönstret **Berätta**, välj åtgärden **utforska** längst ned.
+- I ditt rollcenter eller valfri listsida, välj knappen ![Menyknapp](media/ui_menu_button.png "Menyknapp") till höger om navigeringsfältet, eller tryck på Skift+F12.
+- I fönstret **Berätta för mig**, välj åtgärden **utforska** längst ned.
 
-När du först öppnar rollcentret visas länkar till de flesta funktioner som är tillgängliga för din roll.
-
-## <a name="navigate-features"></a>Navigera i funktioner
-
-De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionerna eller modulerna. Varje nod kan komprimeras eller expanderas individuellt och du kan komprimera/expandera alla noder tillsammans.
-
-- Om du vill expandera eller komprimera en enskild nod väljer du noden. Detta gäller noder på den översta nivån och undernoder.
-- Om du vill visa/dölja alla noder på översta nivån på sidan, men låt undernoderna vara de du vill ha, väljer du **...** längst upp och välj sedan **Visa** eller **Dölj**.
-- Om du vill expandera/komprimera alla toppnivåer och alla undernoder under den väljer du **...** längst upp, välj sedan **Expandera alla** eller **Visa alla**.
-
-## <a name="search-for-features"></a>Söka efter funktioner
-
-Du kan snabbt hitta funktioner genom att välja **Sök** och sedan ange ett ord eller en fras för funktionen som du söker efter. I rollcentret markeras all matchande text. Om en funktion är dold från att visas i en komprimerad nod, markeras den komprimerade noden med en punkt. 
-
-## <a name="explore-other-roles"></a>Utforska andra roller
-
-Om du vill utforska andra roller än dina egna markerar du **utforska fler roller**. Rollcentret visar varje roll under sin egen rubrik, med länkar till dess funktioner. Du kan sedan navigera och söka efter funktioner på samma sätt som när du utforskar din roll.
+Om du vill få en översikt över de affärsfunktioner som är tillgängliga för alla andra roller, utöver din egen, väljer du åtgärden **Utforska alla** på sedan som presenterar rollutforskaren.
 
 > [!NOTE]
-> Du kan bara se roller som är inställda för att visas i roll Utforskaren. Om det inte finns någon roll som du förväntar dig, är den antagligen inte konfigurerad för den. Mer information finns i [Hantera profiler](admin-users-profiles-roles.md). 
+> Endast rollcenteråtgärder för profiler där kryssrutan **Visa i rollutforskaren** är markerad visas i den utökade versionen av rollutforskaren (visas med åtgärden **Utforska alla**). Mer information finns i [Hantera profiler](admin-users-profiles-roles.md).
 
-När du utforskar andra roller kan du också begränsa prospekteringen genom att använda **rapporten och analys** och **administration** åtgärder överst i rollcentret.
-
-- **Rapport och analys** visar endast funktioner som är kategoriserade som rapporter och analysfunktioner.
-- **Administration** visar bara de funktioner som kategoriseras som administrationsfunktioner.
-
-> [!TIP]
-> För utvecklare klassificerar du sidor och rapporter genom att ange [egenskapen UsageCategory](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) i objektets Al-kod.
-<!--
- 
-## Role explorer actions
-
-There a several actions along the top of the role explorer to help you locate features of your role and other roles.
-
-|Action|Description|
-|------|------|
-|**All**|Shows all features that are related to the role.|
-|**Find**|Lets you enter a word or phrase to quickly locate feature names that match.|
-|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You will only see roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
-|**Report & Analysis**|This action Shows only those features that are categorized as reports and analysis features.|
-|**Administration**|Shows only those features that are categorized as administration features.|
-
-
-
-<!--
-Choose the **Find** action at the top of the role explorer to quickly locate feature names that contain a certain term.
-
-Choose the **Explore more roles** action at the top of the role explorer to get an overview of all business features that are available for all roles including your own.
-
-> [!NOTE]
-> Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
--->
-
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Expandera och komprimera noder i rollutforskaren
-
+## <a name="to-expandcollapse-nodes-on-the-role-explorer"></a>Expandera/komprimera noder i rollutforskaren
 De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionerna eller modulerna. Varje nod kan komprimeras eller expanderas individuellt och du kan komprimera/expandera alla noder tillsammans.
 
 - Om du vill expandera eller komprimera en nod väljer du noden. Detta gäller noder på den översta nivån och undernoder.
 - Om du vill expandera/komprimera alla noder på översta nivån på sidan väljer du åtgärden **Expandera** eller **Komprimera** i det övre högra hörnet.
-- Så här expanderar/komprimerar du alla noder på översta nivån och alla undernoder under denna:
-  - Tryck på Ctrl+Skift medan du väljer åtgärden **Expandera** eller **Dölj** i det övre högra hörnet.
-  - Välj **...** i det övre högra hörnet och sedan åtgärden **Expandera alla** eller **Dölj alla**.
+- Om du vill expandera en nod på den översta nivån och alla underordnade noder, trycker du på tangenterna Ctrl + Skift samtidigt som du väljer åtgärden **Expandera** eller **Komprimera** i det övre högra hörnet.
 
 ## <a name="see-also"></a>Se även
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

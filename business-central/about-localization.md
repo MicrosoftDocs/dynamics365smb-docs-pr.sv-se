@@ -1,6 +1,6 @@
 ---
-title: Lokal funktionalitet och lokaliseringsstrategi
-description: Lär dig om lokal tillgänglighet och efterlevnad för Business Central för de länder där Microsoft tillhandahåller den lokala funktionaliteten.
+title: Lokal funktionalitet i Business Central | Microsoft Docs
+description: Mer information om lokala tillgänglighet och efterlevnad av Dynamics 365 Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 06/11/2021
+ms.date: 01/10/2020
 ms.author: edupont
-ms.openlocfilehash: 6967e54999c1bb2a0a9e7fe095e8c3cca9543ec8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321701"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952896"
 ---
-# <a name="local-functionality-in-prod_long"></a>Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-prodlong"></a>Lokal funktionalitet i [!INCLUDE[prodlong](includes/prodlong.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] har en kombinerad lokaliseringsstrategi för modeller från både Microsoft och partners. I det här avsnittet finns beskrivningar av funktionerna som gäller för de länder där Microsoft tillhandahåller funktioner för regelefterlevnad och andra lokala funktioner.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombinerad lokaliseringsstrategi för modeller från både Microsoft och partners. I det här avsnittet finns beskrivningar av funktionerna som gäller för de länder där Microsoft tillhandahåller funktioner för regelefterlevnad och andra lokala funktioner.  
 
 En fullständig lista över de marknader som stöds för närvarande finns i [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## <a name="local-functionality"></a>Lokal funktionalitet
 
-Välj lämplig länk om du vill ha information om den lokala funktionaliteten för varje land/region:
+Välj lämplig länk om du vill ha information om den lokala funktionaliteten för varje land:
 
 | Region | Land | Mer information |
 | --- | --- |--- |
@@ -51,20 +51,14 @@ Välj lämplig länk om du vill ha information om den lokala funktionaliteten f�
 |        | USA|[Förenta staterna: lokal funktion](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asien-Stillahavsområdet |       |  |
 |        | Australien | [Lokal funktionalitet för Australien](localfunctionality/australia/australia-local-functionality.md) |
-|        | Indien | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nya Zeeland | [Lokal funktionalitet för Nya Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Övriga länder
-
-[!INCLUDE[prod_short](includes/prod_short.md)] är tillgänglig även på andra marknader via lokaliseringsappar. Om en Microsoft-partner har skapat en lokaliseringsapp för ditt land/din region hittar du den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] är tillgänglig även på andra marknader via lokaliseringsappar. Om en Microsoft-partner har skapat en lokaliseringsapp för ditt land hittar du den i [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se även
-
-[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Komma igång](product-get-started.md)  
 [Regelefterlevnad](compliance/compliance-overview.md)  
 [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Internationella tillgängligheten för Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Utveckling av en lokaliseringslösning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

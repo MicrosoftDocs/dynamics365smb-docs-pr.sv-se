@@ -1,21 +1,21 @@
 ---
-title: Förbereda migrering av kunddata med mallar
-description: Lär dig använda konfigurationsfiler för att strukturera befintliga kunddata innan du migrerar huvuddata till det nya företaget i Business Central.
+title: Förbereda migrering av kunddata med mallar | Microsoft Docs
+description: Lär dig använda konfigurationsfiler för att strukturera befintliga kunddata innan du migrerar data till det nya företaget i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: 273d7a0b15684f7cd97874d4dba818b9a289e2a7
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649893"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535928"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Förbereda migrering av kunddata med mallar
 
@@ -28,7 +28,7 @@ Vanligtvis skapar du datamallar för följande huvuddatatabeller:
 - **Artikel**  
 - **Leverantör**  
 
-Du kan dock skapa en mall struktur för, och koppla dem till valfri tabell i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Du kan dock skapa en mall struktur för, och koppla dem till valfri tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!TIP]  
 > Du kan också använda datamallar för dagliga operationer för att skapa nya poster som baseras på mallar. Dessa datamallar fungerar bara för de huvuddata tabellerna som stöds. Mer information finns i exempelvis [Registrera nya artiklar](inventory-how-register-new-items.md).  
@@ -47,7 +47,7 @@ När du väljer en befintlig datamall måste du utvärderar om de mallar som du 
 > [!TIP]  
 > Med dessa datamallar kan du också snabbt skapa nya poster. Använd dem för snabbare och mer korrekt dataskapande. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsmallar** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsmallar** och välj sedan relaterad länk.  
 2. På sidan **Konfigurationsmallar** väljer du en datamall i listan och sedan åtgärden **Redigera**.  
 
 Om standardmallarna inte uppfyller behoven kan du skapa nya mallar eller lägga till fält i en befintlig mall. Om standardmallarna är tillräckliga, kan du använda dem för att skapa transaktioner som baseras på huvuddatamallar.
@@ -87,7 +87,7 @@ Tabell-ID, tabellnamn och rader på den befintliga datamallen infogas i den nya 
 3. I fältet **Standardvärde** anger du ett lämpligt värde. I vissa fall kan du behöva använda ett värde som inte finns tillgängligt i databasen. I så fall kan du markera kryssrutan **Hoppa över relationskontroll** för att göra det möjligt att applicera data utan fel.
 
     > [!TIP]  
-    > Eftersom fältet **Standardvärde** inte har ett uppslag till motsvarande [!INCLUDE[prod_short](includes/prod_short.md)]-fältalternativ kopierar och klistrar du in det värde som du vill ha från den relaterade sidan till mallen.
+    > Eftersom fältet **Standardvärde** inte har ett uppslag till motsvarande [!INCLUDE[d365fin](includes/d365fin_md.md)]-fältalternativ kopierar och klistrar du in det värde som du vill ha från den relaterade sidan till mallen.
 
 4. Markera kryssrutan **obligatorisk** om användare måste fylla i det aktuella området.
 
@@ -98,9 +98,9 @@ Tabell-ID, tabellnamn och rader på den befintliga datamallen infogas i den nya 
 
 ## <a name="to-export-to-a-template-in-excel"></a>För att exportera till en mall i Excel
 
-Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[prod_short](includes/prod_short.md)].
+Du kan skapa en Excel-arbetsbok att använda som mall baserat på strukturen i en tabell för en befintlig databas, snabbt och effektivt. Du kan sedan använda mallen för att samla ihop kunddata i ett konsekvent format för senare import till [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
 2. Lägg till en tabell i listan eller välj en befintlig tabell. Mer information finns i [Administrera företagskonfigurationer i ett kalkylark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Välj åtgärden **Visa fält** för att definiera de fält i tabellen som du vill ta med i mallen.
 4. Välj åtgärden **Exportera till mall**.
@@ -122,8 +122,7 @@ När du kopplar data från en mall i Excel till en undertabell som även har en 
 En transaktion med data som kopplas på det här sättet är fullständig eftersom den består av data som har angetts av användaren i Excel plus standardvärden som anges i konfigurationsmallen.
 
 > [!NOTE]
-> Om data i tabellerna i konfigurations paketet innehåller datum, till exempel bokföringsdatum på fakturor, tas datumen med i den tidszon som anges i [!INCLUDE[prod_short](includes/prod_short.md)]. 
-
+> Om data i tabellerna i konfigurations paketet innehåller datum, till exempel bokföringsdatum på fakturor, tas datumen med i den tidszon som anges i [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Så här skapar du en post från en konfigurationsmall
 
@@ -131,26 +130,17 @@ Du kan använda strukturen av data som finns i datamallarna för att konvertera 
 
 Nedan visas hur du skapar ett artikelkort från en artikeldatamall. Du kan skapa en post från en datamall med samma procedur.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurationsmallar** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsmallar** och välj sedan relaterad länk.  
 2. Välj mallen **Artikel** och sedan åtgärden **Redigera**. För mer information, se [Att skapa en datamall](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Välj åtgärden **Skapa instans**. Ett artikelkort skapas.  
 4. Välj knappen **OK**.  
-5. För att granska det nya artikelkortet, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
+5. Om du vill granska det nya artikelkortet väljer du ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.  
 6. Öppna det nya artikelkortet.  
 7. Expandera olika snabbflikar och verifiera att informationen skapas rätt på dem.  
 
-## <a name="to-use-conversion-templates"></a>Använda konverteringsmallar
-
-Du kan konvertera kontakter till kunder, leverantörer och anställda. 
-
-### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Så här konverterar du en kontakt till en kund, leverantör eller anställd
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") , ange **Kontakter** och välj sedan rätt kontaktperson. 
-2. På kontaktkortet väljer du **Åtgärder**, därefter **Funktioner** och sedan **Skapa som kund, leverantör, bank eller anställd**.
-
-
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Så här använder du en konfigurationsdatamall på en post
 
-Du kan koppla en datamall till valfri post, som finns i [!INCLUDE[prod_short](includes/prod_short.md)] och använda den här metoden för att ändra en transaktion. Men när du gör det, skriver du över befintliga värden i transaktionen med de i mallen. Därför bör du vara försiktig när du kopplar en mall till befintliga poster.
+Du kan koppla en datamall till valfri post, som finns i [!INCLUDE[d365fin](includes/d365fin_md.md)] och använda den här metoden för att ändra en transaktion. Men när du gör det, skriver du över befintliga värden i transaktionen med de i mallen. Därför bör du vara försiktig när du kopplar en mall till befintliga poster.
 
 > [!WARNING]  
 > Funktionen **Koppla mall** skriver över befintliga data i en post. Om den här funktionen används i huvuddataflytt, kommer den att skriva över importerade data när du skapar poster.
@@ -163,14 +153,8 @@ Följande procedur baseras på ett nytt kundkort.
 
 Standardvärdena från den valda kundmallen förs in på kundkortet.
 
-> [!NOTE]
-> Du kan inte använda Använd mall för att tömma fält på kunder, leverantörer och liknande. Du måste istället använda funktionen **Redigera i Excel**. Mer information finns i [Redigera i Excel](across-work-with-excel.md#edit-in-excel).
-
 ## <a name="see-also"></a>Se även
 
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

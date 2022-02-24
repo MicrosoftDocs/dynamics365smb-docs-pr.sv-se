@@ -1,26 +1,24 @@
 ---
-title: Ställa in resurser, tidrapporter och jobb
-description: I det här avsnittet beskrivs hur du ställer in resurser, tidrapporter och jobb för att hantera projekt och deras budgetar.
+title: Ställa in resurser, tidrapporter och jobb | Microsoft Docs
+description: Beskriver hur du ställer in resurser och tidrapporter och projekt för att hantera projekt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f2c02cdcad7c0b33ad172df0b8a4d821f7fcd2df
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973764"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312634"
 ---
 # <a name="setting-up-project-management"></a>Ställa in projekthantering
-
-Innan du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
+Innan du kan använda [!INCLUDE[d365fin](includes/d365fin_md.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
 
 Sedan kan du skapa projekt och schemaresurser för projekt samt hantera budgetar och spåra maskintimmar och anställdas arbetstimmar med tidrapporter. Mer information finns i [Hantera projekt](projects-manage-projects.md).  
 
@@ -40,7 +38,4 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

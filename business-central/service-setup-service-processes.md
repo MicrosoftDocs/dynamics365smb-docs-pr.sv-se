@@ -3,19 +3,19 @@ title: Ställa in Servicehanteringsprocesser | Microsoft Docs
 description: Lär dig hur du ställer in processer som hjälper dig att se till att kunden är nöjd med din kundservice.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 80f56b9572e8ff20c29174e738aff135243530b7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438238"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192307"
 ---
 # <a name="configure-service-processes"></a>Konfigurera serviceprocesser
 Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:  
@@ -27,7 +27,7 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 * Nummerserierna som ska användas för servicerelaterade dokument och artiklar.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Så här anger du allmänna och obligatoriska inställningar
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurera servicehantering** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurera servicehantering** och välj sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se även  
@@ -37,6 +37,3 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 [Registrera alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
 [Ställa in felsökning](service-how-setup-troubleshooting.md)  
 [Servicehantering](service-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

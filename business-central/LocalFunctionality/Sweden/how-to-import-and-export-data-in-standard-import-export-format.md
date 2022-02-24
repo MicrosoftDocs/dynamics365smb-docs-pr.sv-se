@@ -1,29 +1,28 @@
 ---
-title: Importera och exportera data i SIEE [SE]
-description: Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export) som förklaras i detta ämne.
+title: Så här importerar och exporterar du data i SIE-format (Standard Import Export)
+description: Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export).
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 11212
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 3e821f1925e7cafe48c755e5d813b919afd887fe
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 016d3d10a9e5d4e6224f4e7df145db5c971bea9d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115304"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878819"
 ---
-# <a name="import-and-export-data-in-standard-import-export-format-in-the-swedish-version"></a>Importera och exportera data i SIE-format (Standard Import Export) i svenska versionen
+# <a name="import-and-export-data-in-standard-import-export-format"></a>Importera och exportera data i SIE-format (Standard Import Export)
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
 ## <a name="to-import-data-in-sie-format"></a>Så här importerar du data i SIE-format  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SIE-import** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **SIE-import** och välj sedan relaterad länk.  
 2.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  
@@ -39,7 +38,7 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 
 ## <a name="to-export-data-in-sie-format"></a>Så här exporterar du data i SIE-format  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SIE-export** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Söka efter sida eller rapport](../../media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **SIE-export** och välj sedan relaterad länk.  
 2.  Välj lämpliga filter på snabbfliken **Redovisningskonto**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 
@@ -57,6 +56,3 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 ## <a name="see-also"></a>Se även  
  [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

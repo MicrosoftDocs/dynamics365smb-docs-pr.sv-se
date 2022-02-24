@@ -1,77 +1,34 @@
 ---
-title: Tillgängliga teckensnitt
-description: Lär dig mer om de förinstallerade teckensnitt som du kan använda för externa rapporter.
+title: Tillgängliga teckensnitt | Microsoft Docs
+description: Online-versionen av Business Central innehåller förinstallerade teckensnitt på de servrar som kan användas för att genererar rapporter.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/30/2021
-ms.author: edupont
-ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
-ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
+ms.date: 02/20/2020
+ms.author: sgroespe
+ms.openlocfilehash: ef1d5d9743842d9d5aba28d3bb4ad62d7359f301
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "7868307"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3077370"
 ---
 # <a name="available-fonts"></a>Tillgängliga teckensnitt
-
-Online-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att genererar rapporter. I följande avsnitt visas en disposition över vilka teckensnitt som är tillgängliga.
+Online-versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att genererar rapporter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.
 
 > [!NOTE]
-> Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[prod_short](includes/prod_short.md)]-miljön.
+> Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljön.
 
-## <a name="document-fonts"></a>Dokumentteckensnitt
-
-Följande teckensnitt är installerade och tillgängliga att använda i rapportlayouter för såväl Word som RDLC:
-
-* Arial
-* Consolas
-* Courier New
-* Lucida Console
-* Segoe Print
-* Segoe Script
-* Segoe UI
-* Segoe UI Light
-* Segoe UI Semilight
-* Times New Roman
-
-## <a name="fonts-for-checks"></a>Teckensnitt för kontroller
-
-Magnetiskt bläcktecken igenkänningsteckensnitt (MICR) och de kan användas. Både E-13B och CMC-7 standarden stöds.  
-
-Förutom MICR-teckensnitt finns speciella säkerhetsteckensnitt som du kan använda för att skapa text, namn, belopp och valutasymboler, euro, pund och yen som du kan manipulera med när en kontroll har skrivits ut.  
-
-Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.md).  
-
-## <a name="fonts-for-barcodes"></a>Teckensnitt för streckkoder
-Teckensnitt för att generera streckkoder finns installerade och tillgängliga att använda i både Word- och RDLC-rapportlayouter.
-
-Följande endimensionella streckkodssymboler stöds:
-* Kod 3 av 9 (kod 39)
-* Kod 128
-* Kod 93
-* Codabar
-* MSI
-* Interfolierade 2 av 5
-
-Följande tvådimensionella streckkodssymboler stöds:
-* Aztec
-* Datamatris
-* Maxicode
-* PDF417
-* QR
-
-Mer information finns i avsnittet [Streckkodsteckensnitt med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
+## <a name="check-micr-and-security-fonts"></a>Kontrollera (MICR och säkerhets) teckensnitt  
+Magnetiskt bläcktecken igenkänningsteckensnitt (MICR) och de kan användas. Både E-13B och CMC-7 standarden stöds. Förutom MICR-teckensnitt finns speciella säkerhetsteckensnitt som du kan använda för att skapa text, namn, belopp och valutasymboler, euro, pund och yen som du kan manipulera med när en kontroll har skrivits ut. Mer information finns i [Välj en checklayout](finance-how-define-check-layouts.md).
 
 ## <a name="see-also"></a>Se även
-
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
-[Välj en kontrollayout](finance-how-define-check-layouts.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Streckkodsteckensnitt med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Välj en checklayout](finance-how-define-check-layouts.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

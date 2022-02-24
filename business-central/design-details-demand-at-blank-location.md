@@ -3,19 +3,19 @@ title: Designdetaljer - Balansera efterfrågan och tillgång | Microsoft Docs
 description: Detta ämne introducerar begreppet etfterfrågan, som är den gemensamma termen som vanligtvis används för alla typer av bruttobehov, t.ex försäljningsorder och komponentbehov från en produktionsorder.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 62abcd0e37a9871efd6158a898538b7c18b6b47f
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f808865bd4fc2113dd5c04071f7ba2e8793fe3af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215334"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185570"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Designdetaljer: Efterfrågan vid tomt lagerställe
 När en användare skapar en begärandehändelse, till exempel en försäljningsorderrad, låter programmet användaren ibland ange en lagerställekod och andra gånger inte, det vill säga ett tomt lagerställe.
@@ -132,6 +132,3 @@ Som visas i det sista scenariet är det enda sättet att få ett korrekt resulta
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

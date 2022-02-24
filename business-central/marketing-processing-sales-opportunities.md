@@ -1,23 +1,23 @@
 ---
-title: Bearbeta affärsmöjligheter i försäljningscykler
-description: I det här avsnittet beskrivs olika sätt att hantera affärsmöjligheter i försäljningscykler och för att flytta en affärsmöjlighet till faserna i en försäljningscykel.
+title: Bearbeta affärsmöjligheter i försäljningscykler | Microsoft Docs
+description: Visa, stänga eller ta bort affärsmöjligheter och du kan skapa offerter och försäljningsorder för affärsmöjligheter och flytta en affärsmöjlighet genom försäljningscykelns olika faser.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/22/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e4e56b2594820cc1af4861d0117b9e7d6af891ec
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437608"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181343"
 ---
 # <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.
@@ -27,9 +27,9 @@ De befintliga försäljningsmöjligheterna finns på sidan **Affärsmöjlighetsl
 
 | Visa affärsmöjligheter för | Då |
 | --- | --- |
-| Alla säljare och kontakter |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Affärsmöjlighetslista** och väljer sedan relaterad länk. |
-| En viss säljare |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
-| En viss kontakt |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
+| Alla säljare och kontakter |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Affärsmöjlighetslista** och välj sedan relaterad länk. |
+| En viss säljare |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Säljare** och välj sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
+| En viss kontakt |Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
 
 Var och en av dessa uppgifter öppnar sidan **Affärsmöjlighetslista**.
 
@@ -44,8 +44,7 @@ Du kan avsluta affärsmöjligheter när en förhandling är över. När du avslu
    I fältet **Avslutskod affärsmöjlighet** kan du välja från en av de befintliga avslutskoder affärsmöjligheter eller lägga till en ny kod. Om du vill lägga till en ny kod väljer du **Välj från fullständig lista** i listrutan och väljer sedan **ny**. På den nya tomma raden fyller du i fälten **Kod**, **Typ** och **Beskrivning** och väljer sedan knappen **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Skapa offerter för affärsmöjligheter
-> [!NOTE]
-> Du kan bara skapa försäljningsofferter från affärsmöjligheter där kontakttypen är Företag.
+Du kan skapa försäljningsofferter för kontakter som inte är registrerade som kunder.
 
 1. På sidan **Affärsmöjlighetslista** väljer du affärsmöjlighet och väljer sedan åtgärden **Skapa försäljningsoffert**. Sidan **Försäljningsoffert** visas.
 2. Fyll i relevanta fält.
@@ -66,7 +65,7 @@ Om du vill ta bort avslutade affärsmöjligheter från sidan **Affärsmöjlighet
 
 Gör följande steg om du vill ta bort avslutade affärsmöjligheter med batch-jobbet **Ta bort avslutade affärsmöjligheter**:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ta bort affärsmöjligheter** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort affärsmöjligheter** och välj sedan relaterad länk.
 2. I avsnittet **Affärsmöjlighet** ställer du in de filter som anger den avslutade affärsmöjligheten som ska tas bort.
 3. Välj **OK**.
 
@@ -81,13 +80,10 @@ Om en affärsmöjlighet följer en försäljningscykel, kan du flytta den framå
    * **Hoppa över** flyttar affärsmöjligheten eftersänder en eller flera etapper i försäljningscykeln, som du anger i fältet **Presentation**. Du kan endast hoppa över etapper som har ställts in att tillåta fältet om du vill tillåta överhoppning.
    * **Föregående** flyttar affärsmöjligheten tillbaka en etapp.
    * **Hoppa** flyttar affärsmöjligheten tillbaka en eller flera etapper i försäljningscykeln, som du anger i fältet **Presentation**.
-   * **Uppdatera** låter dig ändra information (t. ex. ändra utvärderingen av deras chanser att lyckas och uppskattade värden) utan att flytta till en annan etapp.
+   * **Uppdatera** låter dig ändra information (t.ex. ändra utvärderingen av deras chanser att lyckas och uppskattade värden) utan att flytta till en annan etapp.
 3. Fyll i de andra fälten efter behov och välj sedan knappen **OK**.
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

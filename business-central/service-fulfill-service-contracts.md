@@ -1,26 +1,26 @@
 ---
-title: Översikt över uppgifter för att uppfylla servicekontrakt
-description: En disposition som består av aktiviteter som ingår i uppfyllandet av servicekontrakt med kunder som att upprätta standardavtal med anpassningsbara mallar med mera.
+title: Översikt över uppgifter för att uppfylla servicekontrakt | Microsoft Docs
+description: Innehåller uppgifter för att hantera servicekontrakt med kunder.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 06/23/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 56fe45da5979f6f06fc17d68b676350a70288261
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 50214fcf1e1f13c8e4fa69e1b14ba4adc537bf86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011704"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316218"
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla servicekontrakt 
-Ett sätt att lägga upp en tjänstehanteringsverksamhet är att ha standardavtal mellan dig och kunderna som beskriver servicenivån och förväntningarna på servicen. Du kan skapa kontraktsmallar som omfattar viktig information, t. ex. kund, kontraktets startdatum samt fakturaperiod.  
+Ett sätt att lägga upp en tjänstehanteringsverksamhet är att ha standardavtal mellan dig och kunderna som beskriver servicenivån och förväntningarna på servicen. Du kan skapa kontraktsmallar som omfattar viktig information, t.ex. kund, kontraktets startdatum samt fakturaperiod.  
   
 När du har skapat mallen kan du anpassa kontraktet om du vill spåra servicetid eller andra artiklar som kan variera mellan olika kunder. Du kan också skapa ett kontrakt manuellt utifrån en servicekontraktsoffert. Du kan slutligen justera servicepriserna om du vill hålla ordning på rabatter som en viss kund är berättigad till, genom att ange rabattbeloppet på sidan **Servicekontrakt**.  
 
@@ -37,6 +37,3 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Leverera service](service-deliver-service.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Så här konfigurerar du arbetsflödesanvändare
-description: Innan du kan skapa arbetsflöden måste du ställa in de användare som ska ingå på sidan Arbetsflödesanvändargrupp.
+title: Så här skapar du arbetsflödesanvändare | Microsoft Docs
+description: Innan du kan skapa arbetsflöden måste du ställa in de användare som ska ingå i arbetsflödena. Det behövs för att ange till exempel vem som ska ta emot en notering för att agera på ett arbetsflödessteg.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 06/08/2020
+ms.author: sgroespe
+ms.openlocfilehash: ba6508c9679923836092ba4df9d3453a39f7fd9b
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439926"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454277"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurera arbetsflödesanvändare
 
@@ -32,7 +32,7 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
 
 ## <a name="to-set-up-a-workflow-user"></a>Så här konfigurerar du en arbetsflödesanvändare
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflödesanvändargrupper** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Arbetsflödesanvändargrupper** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflödesanvändargrupp** öppnas.  
 3. Ange högst 20 tecken för att identifiera arbetsflödet i fältet **Kod**.  
 4. Beskriv arbetsflödet i fältet **Beskrivning**.  
@@ -52,6 +52,3 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
 [Använda arbetsflöden](across-use-workflows.md)  
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbetsflöde](across-workflow.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

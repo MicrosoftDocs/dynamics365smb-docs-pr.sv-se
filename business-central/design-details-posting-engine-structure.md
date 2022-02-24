@@ -1,26 +1,26 @@
 ---
-title: Designdetaljer - Bokföringsmotorstruktur
-description: Bokföringsgränssnittet använder funktioner för bokföringsmotorn i kodmodul 12 använder funktioner i bokföringsmotorn för att förbereda och infoga redovisningstransaktioner och momstransaktionsposter.
+title: Designdetaljer - Bokföringsmotorstruktur | Microsoft Docs
+description: Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funktioner i bokföringsmotorn för att förbereda och infoga redovisningstransaktioner och momstransaktionsposter. Bokföringsmotorn är också ansvarig för att skapa en registrering av redovisningen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3e49d9c521ebfb73caeae6987472c5123ab54eba
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318415"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185474"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetaljer: Bokföringsmotorstruktur
 Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funktioner i bokföringsmotorn för att förbereda och infoga redovisningstransaktioner och momstransaktionsposter. Bokföringsmotorn är också ansvarig för att skapa en registrering av redovisningen.  
   
- Funktionerna i följande tabell tillhandahåller ett standardramverk för att utforma bokföringsprocedurer (t. ex. Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry och Reverse) samt exklusiv åtkomst till tabell 17, redovisningstransaktion.  
+ Funktionerna i följande tabell tillhandahåller ett standardramverk för att utforma bokföringsprocedurer (t.ex. Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry och Reverse) samt exklusiv åtkomst till tabell 17, redovisningstransaktion.  
   
 |Routine|Description|  
 |-------------|---------------------------------------|  
@@ -39,5 +39,3 @@ Bokföringsgränssnittet och vissa andra funktioner i kodmodul 12 använder funk
   
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

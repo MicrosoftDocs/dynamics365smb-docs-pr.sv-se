@@ -1,46 +1,40 @@
 ---
-title: Införa utflöde från produktion
-description: 'Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe. Lager, artikelinförsel kan utföras på följande sätt:'
+title: Så här för du in Produktionsutflöde | Microsoft Docs
+description: Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e0acb1a8c1710b0b096c461f14f817957e4ee3af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438138"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192873"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Föra in produktions- eller monteringsutflöde
-
 Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
 
-I grundläggande lagerkonfigurationer där ditt lagerställe kräver bearbetning av artikelinförsel använder du dokumentet **Lager, artikelinförsel** för att bokföra produktionsutflöde och bokföra artikelinförsel för utflöde.  
-
-> [!NOTE]  
-> Lagerartikelinförsel stöds inte för monteringsprocesser. Du bokför en monteringsorder för att registrera utdata. Om du använder lagerplatser kan du flytta artiklar mellan olika lagerplatser senare. Mer information finns i [Flytta artiklar ad hoc i grundläggande distributionslagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
+I grundläggande lagerkonfiguration där ditt lagerställe kräver artikelinförselbearbetning, men inte inleveransbearbetning, använder du dokumentet **Lagerartikelinförsel** för att ordna och registrera artikelinförsel av utflöde.  
 
 I avancerade lagerkonfigurationer där ditt lagerställe kräver både artikelinförsel- och inleveransbearbetning skapar du antingen ett internt artikelinförseldokument eller ett transportdokument för att föra in utflödet.  
 
-## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Så här för du in produktionsutflöde med lagerartikelinförsel
+Det första steget när du skapar ett utflöde är att skapa det ankommande distributionslagerkravet. Förfrågan informerar distributionslagret att produktions- eller monteringsordern utflöde är klart för artikelinförsel.
 
-Det första steget när du skapar ett utflöde är att skapa det inkommande distributionslagerkravet. Förfrågan informerar distributionslagret att produktions- eller monteringsordern utflöde är klart för artikelinförsel.
-
-### <a name="to-create-the-inbound-warehouse-request"></a>Så här skapar du det inkommande distributionslagerkravet  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
-2.  På produktionsordern som är klar för artikelinförsel väljer du åtgärden **Skapa inkommande dist.lagerbegäran**.  
+## <a name="to-create-the-inbound-warehouse-request"></a>Så här skapar du det ankommande distributionslagerkravet  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Släppt produktionsorder** och välj sedan relaterad länk.  
+2.  På produktionsordern som är klar för artikelinförsel väljer du åtgärden **Skapa ankommande dist.lagerbegäran**.  
 
 > [!NOTE]  
-> Du kan också skapa inkommande distributionslagerkrav genom att välja fältet **Skapa inkommande begärande** när du uppdaterar produktionsordern. Mer information finns i [Uppdatera eller omplanera produktionsorder](production-how-to-replan-refresh-production-orders.md).  
+>  Du kan också skapa ankommande distributionslagerkrav genom att markera kryssrutan **Skapa ankommande rekvisition** när du uppdaterar produktionsordern. Mer information finns i [Uppdatera eller omplanera produktionsorder](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Så här för du in utflöde med Lagerartikelinförsel:  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
+## <a name="to-put-output-away-with-an-inventory-put-away"></a>Så här för du in utflöde med Lagerartikelinförsel:  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinförsel** och välj sedan relaterad länk.  
 2.  Skapa en ny lagerinförsel. Mer information finns i [Införa artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Om du vill komma åt produktionsorderns utflöde väljer du åtgärden **Hämta källdokument** och väljer den släppta produktionsordern.  
 4.  Fyll i artikelinförselraderna efter behov.
@@ -52,18 +46,30 @@ När du bokför en lagerinförsel antas det att alla åtgärder bokförs enligt 
 
 Om “Omställning, bearbetningstid” för den sista åtgärden måste bokföras, anger du utflödesantalet för den sista åtgärden till 0. Du kan också välja att inte bokföra den sista raden alls genom att ta bort den  
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>För att föra in monterings- eller produktionsutflöde i avancerade distributionslagerkonfigurationer
-När du bokför utflöde från produktion eller monteringsorder på det lagerställe som har ställts in för att använda dirigerad artikelinförsel och plockning, placeras utflödet på den lagerplats som definierats i produktions- eller monteringsordern. 
+## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Så här för du in utflöde med en intern artikelinförsel
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager intern art.införsel** och välj sedan relaterad länk.  
+2. Välj åtgärden **Ny**.
+3. Fyll i huvudet på en ny intern artikelinförsel med åtminstone **Lagerställekod**.  
+4. Fyll i en rad för varje artikel som du vill flytta till distributionslagerplatsen. Du behöver endast fylla i fälten **Artikelnr** och **Antal**.  
 
-I följande tabell beskrivs olika sätt att flytta artiklar i distributionslagret med avancerade konfigurationer, där alla lageraktiviteter måste utföras i ett riktat arbetsflöde. 
+    > [!NOTE]  
+    >  När du väljer fältet **Artikelnr.** öppnas **Lagerplatsinnehåll lista** i stället för **Artikellista**. Det beror på att du vill föra in en artikel som finns på en viss lagerplats, ett lagerplatsinnehåll, och inte bara en artikel, och du vet redan vilken lagerplats som artikeln ska tas från.  
 
-|**Om du vill**|**Se**|  
-|------------|-------------|  
-|Flytta artiklar med förslag för distributionslagertransport.|[Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet)|  
-|Skapa en intern artikelinförsel för att föra in producerade eller monterade artiklar i en avancerad lagerkonfiguration.|[Skapa en intern artikelinförsel](warehouse-how-to-create-put-aways-from-internal-put-aways.md#to-create-an-internal-put-away)|
+4.  Om du vill fylla kalkylarksraderna med hela lagerinnehållet eller det filtrerade lagerinnehållet från lager på platsen väljer du åtgärden **Hämta lagerplatsinnehåll**.  
+5.  Välj åtgärden **Skapa artikelinförsel** så att de artiklar som du vill plocka ut från produktionen hamnar på en artikelinförselinstruktion där de väntar på att lagras i distributionslagret.  
 
 > [!NOTE]  
-> Du kan inte ange källdokumentnumret, t. ex. produktionsordernumret, i dokument för intern artikelinförsel, artikelinförsel eller transport, för någon av de här procedurerna.  
+>  När du har angett att ett distributionslager ska använda riktad artikelinförsel och plockning länkas lagret till tillverkningsstället via standardproduktionslagerplatser: de ankommande och avgående produktionslagerplatserna och den öppna fabrikslagerplatsen, som alla definieras på snabbfliken **Lagerplatser** på lagerställekortet. När du bokför utflödet för en produktionsorder placeras utflödet automatiskt i **Avgående produktionslagerplats**. Du följer samma procedur som ovan för att föra in produktionsutflödet, med det undantaget att i stället för att använda artikelns standardlagerplats flyttar eller för du in artiklarna från **Avgående produktionslagerplats** till deras respektive standardlagerplats.  
+
+## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Om du vill manuellt ange en lagerplats för att lagra artiklar från produktionsutflödet:  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Transportkalkylark** och välj sedan relaterad länk.  
+2.  Fyll i huvudet och skapa en rad för varje artikel som du vill flytta till distributionslagret.  
+3.  Fyll i fälten **Från lagerplatskod** och **Till lagerplatskod** och ange kvantiteten i fältet **Antal**.  
+4.  Om du vill fylla kalkylarksraderna med hela lagerinnehållet eller det filtrerade lagerinnehållet från lager på platsen väljer du åtgärden **Hämta lagerplatsinnehåll**.  
+5. Välj åtgärden **Skapa transport**. Transportinstruktionerna för distributionslagret skapas med Ta- och Placera-rader som lagerpersonalen ska utföra.  
+
+> [!NOTE]  
+>  Du kan inte ange källdokumentnumret, t.ex. produktionsordernumret, i dokument för intern artikelinförsel, artikelinförsel eller transport, för någon av de här procedurerna.  
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
@@ -71,7 +77,4 @@ I följande tabell beskrivs olika sätt att flytta artiklar i distributionslagre
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,51 +1,39 @@
 ---
-title: Ställa in allmän lagerinformation
-description: Beskriver hur du definierar den allmänna lagerinställningen så att du kan hantera distributionslagret och lagret.
-author: bholtorf
+title: Definiera allmänna lagerinställningarna | Microsoft Docs
+description: Beskriver hur du definierar den allmänna lagerinställningen, såsom nummerserier och platser så att du kan hantera lagerställe och lager.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
-ms.date: 07/28/2021
-ms.author: edupont
-ms.openlocfilehash: a4912baa7dc9bfd69c5306b95b63312bc1d29f10
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: 6b9c0fb0952a30e99d4537407d7abce284df3bae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115037"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182114"
 ---
 # <a name="set-up-general-inventory-information"></a>Ställa in allmän lagerinformation
-
 Du ställer in dina allmänna lagerinställningar på sidan **Lagerinställningar**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Så här ställer du in allmän lagerinformation
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Lagerinställningar** och välj sedan relaterad länk.
 2. På sidan **Lagerinställningar** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Detaljerad information om kostnadsfälten, **Automatisk kostnadsbokföring**, **Förväntad kost.bokf. i redov.** och **Standarvärderingsprincip** finns i [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md) och [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md). Mer information om kostnadsredovisning i allmänhet finns i [Hantera lagerkostnad](finance-manage-inventory-costs.md).  
+Detaljerad information om kostnadsfälten, **Automatisk kostnadsbokföring** och **Förväntad kost.bokf. i redov.**, finns i [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md) och [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md).
 
-Om du vill ange en inkommande lagerhanteringstid som ska tas med i orderlöftesberäkningen på inköpsraden, kan du ange tiden som standard för lagret på sidan **Lagerinställning** och för lagerstället. Mer information finns i [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).  
-
-> [!NOTE]
-> Fältet **Automatisk kostnadsjustering** är inställt på *Alltid* som standard i syfte att säkerställa att lagervärden alltid är korrekta i redovisningen, vilket i sin tur innebär att försäljnings- och vinststatistik är aktuell. Kostnadsändringar från inkommande transaktioner, t. ex. de för inköp eller produktionsutflöde tilldelas relaterade utgående transaktioner, t. ex. försäljningar eller överföringar. Detta är användbart för nya [!INCLUDE[prod_short](includes/prod_short.md)]-kunder och mindre företag med relativt låga lagertransaktionsnivåer.
->
-> När företaget växer och lagernivåerna ökar kan detta emellertid sakta ner systemets prestanda. Om du vill förhindra att prestandan vid bokföringen försämras väljer du ett tidsalternativ för att definiera hur långt tillbaka i tiden från arbetsdatumet som en inkommande transaktion kan inträffa för att eventuellt utlösa justeringar av relaterade utgående värdetransaktioner.
->
-> Du kan också justera kostnader manuellt med jämna mellanrum med batch-jobbet Justera kost.-artikeltrans. Du kan också inaktivera automatisk kostnadsbokföring eller ange fältet **Automatisk kostnadsjustering** som *Aldrig*. I båda fallen visas ett meddelande där du kan starta en assisterad konfigurationsguide som hjälper dig att schemalägga aktiviteter för jobbkön. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+Om du vill ange en ankommande lagerhanteringstid som ska tas med i orderlöftesberäkningen på inköpsraden, kan du ange tiden som standard för lagret på sidan **Lagerinställning** och för lagerstället. Mer information finns i [Så här beräknar du ett orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md).  
 
 ## <a name="see-also"></a>Se även
-
 [Lagerinställning](inventory-setup-inventory.md)  
-[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
+[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)    
 [Hantera lager](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
-[Allmänna affärsfunktioner](ui-across-business-areas.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Allmänna affärsfunktioner](ui-across-business-areas.md)

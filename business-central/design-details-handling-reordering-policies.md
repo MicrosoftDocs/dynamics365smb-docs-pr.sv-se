@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer - Hantera partiformningsmetoder
-description: Den här artikeln ger en översikt över uppgifter som är involverade i att hantera ombeställningspolicyer och definiera ombeställningspolicy i leveransplanering.
+title: Designdetaljer - Hantera partiformningsmetoder | Microsoft Docs
+description: Översikt över aktiviteter för att definiera en ombeställningsmetod inom leveransplanering.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f7d207d0f6e4730d900ce4214d7faa8c809ae8bd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441802"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185402"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Hantera partiformningsmetoder
 För att en artikel ska ingå i leveransplanering måste en ombeställningsmetod definieras. Följande fyra partiformningsmetoder finns:  
@@ -60,14 +60,14 @@ Som angavs tidigare beräknas den planerade lagernivån i början av planeringsp
 ### <a name="determining-the-projected-inventory-level"></a>Fastställa den planerade lagernivån  
 Följande sekvens beskriver hur den planerade lagernivån fastställs:  
 
-* När en tillförselhändelse, t. ex. en inköpsorder har planerats fullständigt kommer det att öka det planerade lagret på förfallodatumet.  
+* När en tillförselhändelse, t.ex. en inköpsorder har planerats fullständigt kommer det att öka det planerade lagret på förfallodatumet.  
 * När en begäranhändelse har blivit fullständigt uppfylld kommer den inte att minska det planerade lagret direkt. I stället bokförs en minska-påminnelse, vilket är en intern post som innehåller datumet och antalet som läggs till i det planerade lagret.  
 * När en efterföljande tillförselhändelse planeras och placeras på tidslinjen, utforskas de bokförda minska-påminnelserna en och en fram tills det planerade datumet för leveransen, medan det planerade lagret uppdateras. Under processen kan beställningspunktsnivån för den interna ökningspåminnelsen ha nåtts eller passerats.  
 * Om en ny leveransorder introduceras kontrollerar systemet om den har angetts före den aktuella tillgången. Om det är det, blir den nya tillgången aktuell tillgång och balanseringsproceduren börjar om.  
 
 Följande visar en grafisk illustration av den här principen:  
 
-![Fastställa den planerade lagernivån.](media/nav_app_supply_planning_2_projected_inventory.png "Fastställa den planerade lagernivån")  
+![Fastställa den planerade lagernivån](media/nav_app_supply_planning_2_projected_inventory.png "Fastställa den planerade lagernivån")  
 
 1. Tillgång **Sa** of 4 (fast) stänger Efterfrågan **Da** of -3.  
 2. CloseDemand: Skapa en minska-påminnelse på -3 (visas inte).  
@@ -94,7 +94,7 @@ För partiformningsmetoder som använder en beställningspunkt kan du ange en ti
 
 Konceptet med tidsenhet återspeglar den manuella processen för att kontrollera lagernivån ofta istället för vid varje transaktion. Användaren måste definiera frekvens (tidsenheten). Till exempel samlar användaren alla artikelbehov från en leverantör att göra en veckobeställning.  
 
-![Exempel på tidsenhet för planering.](media/nav_app_supply_planning_2_reorder_cycle.png "Exempel på tidsenhet för planering")  
+![Exempel på tidsenhet för planering](media/nav_app_supply_planning_2_reorder_cycle.png "Exempel på tidsenhet för planering")  
 
 Tidsenhet används allmänt för att undvika en kaskadeffekt. Till exempel skapas en balanserad rad med efterfrågan och tillgång där en tidig efterfrågan annulleras, eller ny skapas. Resultatet skulle vara att varje leveransorder (utom den sista) omplaneras.
 
@@ -103,7 +103,7 @@ När du använder policyer för Maximalt antal och Fast orderkvantitet fokuserar
 
 *Observera! Det planerade lagret [xx] är större än överflödesnivån [xx] på förfallodatumet [xx].*  
 
-![Lagrets överflödesnivå.](media/supplyplanning_2_overflow1_new.png "Lagrets överflödesnivå")  
+![Lagrets överflödesnivå](media/supplyplanning_2_overflow1_new.png "Lagrets överflödesnivå")  
 
 ###  <a name="calculating-the-overflow-level"></a>Beräknar överflödesnivån  
 Överflödesnivån beräknas på olika sätt beroende på planeringsinställningen.  
@@ -179,7 +179,7 @@ I det här scenariot ändrar en kund en försäljningsorder från 70 till 40 sty
 #### <a name="resulting-planning-lines"></a>Uppdaterar planeringsrader  
  En planeringsrad (varning) skapas för att minska inköpet med 30 från 90 till 60 för att hålla det planerade lagret på 100 enligt överflödesnivån.  
 
-![Planera enligt överflödesnivå.](media/nav_app_supply_planning_2_overflow2.png "Planera enligt överflödesnivå")  
+![Planera enligt överflödesnivå](media/nav_app_supply_planning_2_overflow2.png "Planera enligt överflödesnivå")  
 
 > [!NOTE]  
 >  Utan funktionen Överflöde skapas ingen varning om den planerade lagernivån är högre än beställningsgränsen. Det kan orsaka en överflödig leverans av 30.
@@ -193,7 +193,7 @@ Beställningspunkten uttrycker den förutsedda efterfrågan under ledtiden för 
 
  I följande illustration representerar D en nödleveransorder för att justera för ett negativt lagersaldo.  
 
- ![Förslag på nödplanering för att undvika negativt lagersaldo.](media/nav_app_supply_planning_2_negative_inventory.png "Förslag på nödplanering för att undvika negativt lagersaldo")  
+ ![Förslag på nödplanering för att undvika negativt lagersaldo](media/nav_app_supply_planning_2_negative_inventory.png "Förslag på nödplanering för att undvika negativt lagersaldo")  
 
 1.  Tillgång **A**, initialt planerat lager, är nedanför beställningspunkt.  
 2.  En ny framåtplanerad tillgång skapas (**C**).  
@@ -296,6 +296,3 @@ Eftersom leveranspartistorleken baseras på faktiskt behov, kan det vara praktis
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

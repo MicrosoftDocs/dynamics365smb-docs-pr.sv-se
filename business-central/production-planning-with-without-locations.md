@@ -1,21 +1,21 @@
 ---
-title: Planera med och utan lagerställen.
-description: I det här avsnittet lär du dig om produktion och tillverkning, inklusive leveransplanering, i Business Central.
+title: Planera med och utan lagerställen | Microsoft Docs
+description: Det är viktigt att förstå att planera med eller utan lagerställekoder på behovsrader.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: fa1b63bb94152c130077907dbe2d4e0d08281f40
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: b5c5c12dedfe3f35737888017ed02e0f7d464443
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6635997"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877693"
 ---
 # <a name="planning-with-or-without-locations"></a>Planera med och utan lagerställen.
 Vid planering med eller utan lagerställekod på behovsrader, fungerar planeringssystemet på ett okomplicerat sätt när:  
@@ -25,20 +25,16 @@ Vid planering med eller utan lagerställekod på behovsrader, fungerar planering
 
 Om behovsraderna ibland har lagerställekoder och ibland inte, kommer planeringssystemet att följa vissa regler beroende på konfigurationen.  
 
-> [!TIP]
-> Om du ofta planerar för behov på olika lagerställen rekommenderar vi att du använder funktionen Lagerställeenheter.
-
 ## <a name="demand-at-location"></a>Behov vid lagerställe  
-
 När planeringssystemet identifierar behov vid ett lagerställe (en rad med en lagerställekod) reagerar det på olika sätt beroende på tre viktiga konfigurationsvärden.  
 
 När planeringen körs kontrolleras de tre konfigurationsvärdena i tur och ordning och planeringen sker därefter:  
 
-1. Finns det en bock i fältet **Lagerställ obligatoriskt** på sidan **Lagerinställningar**?  
+1.  Är fältet **Lagerställe ska finnas** markerat?  
 
     Om ja, då:  
 
-2. Finns det en lagerställeenhet för artikeln?  
+2.  Finns det en lagerställeenhet för artikeln?  
 
     Om ja, då:  
 
@@ -46,7 +42,7 @@ När planeringen körs kontrolleras de tre konfigurationsvärdena i tur och ordn
 
     Om nej, då:  
 
-3. Innehåller fältet **Komponenter på lagerställe** på sidan **Produktionskonfiguration** begärd lagerställeskod?  
+3.  Innehåller fältet **Komp. vid lagerställe** den efterfrågade lagerställekoden?  
 
     Om ja, då:  
 
@@ -57,18 +53,9 @@ När planeringen körs kontrolleras de tre konfigurationsvärdena i tur och ordn
     Artikeln planeras så här: Partiformningsmetod =  *Parti-för-parti*, Ta med lager =  *Ja*, alla andra planeringsparametrar = Tom. (De artiklar som använder partiformningsmetoden  *Order* fortsätter att använda  *Order* samt andra inställningar.)  
 
 > [!NOTE]  
-> Detta minimialternativ täcker bara det exakta behovet. Alla planeringsparametrar som har definierats ignoreras.  
+>  Detta minimialternativ täcker bara det exakta behovet. Alla planeringsparametrar som har definierats ignoreras.  
 
 Se variationerna i scenarierna nedan.  
-
-> [!TIP]
-> Fältet **Lagerställen obligatoriska** på sidan **Lagerinställningar** samt fältet **Komponenter på lagerställe** på sidan Produktionskonfiguration är mycket viktiga för att styra hur planeringssystemet hanterar behovsrader med/utan lagerställekoder.
->
-> För inköpta produktionsbehov (när planeringsmotorn enbart används för inköpsplanering och inte för produktionsplanering), använder [!INCLUDE [prod_short](includes/prod_short.md)] samma lagerställe till komponenter som du har angett på produktionsordern. Om du fyller i det här fältet kan du emellertid dirigera om komponenterna till ett annat lagerställe.
->
-> Du kan också definiera detta för en viss lagerställeenhet genom att välja en annan lagerställekod i fältet **Komponenter på lagerställe** på lagerställeenhetskortet. Observera dock att detta sällan har någon betydelse eftersom planeringslogiken kan komma att förvridas när du planerar för komponenten Lagerställeenhet.
-
-Ett annat viktigt fält är fältet **Max. orderantal** på **artikelkortet**. Detta anger en högsta tillåten kvantitet för ett artikelorderförslag och används om artikeln levereras i en fast transportenhet - t. ex. en container - som du vill utnyttja fullt ut. När behovet av återanskaffning har identifierats och partistorleken har justerats efter den angivna policyn för beställning, minskas antalet så att det högst uppgår till den största orderstorlek som anges för artikeln. Om ytterligare behov kvarstår beräknas nya order automatiskt för att uppfylla dem. Du använder vanligen detta fält med produktionsprincipen Tillverka-Mot-Lager.  
 
 ## <a name="demand-at-blank-location"></a>Behov vid tomt lagerställe  
 Även om kryssrutan **Lagerställe** är markerat, tillåter systemet att rader skapas utan lagerställekod – vilka också kallas för *TOM*. Detta är en avvikelse för systemet eftersom det har olika konfigurationsvärden som har justerats till att hantera lagerställen (se ovan) och därför kommer planeringsmotorn inte att skapa någon planeringsrad för en behovsrad. Om fältet **Lagerställe ska finnas** inte är markerat men om något av de andra konfigurationsvärdena för lagerstället har angetts, betraktas även detta som en avvikelse och planeringssystemet reagerar genom att skicka ut "minimialternativet":   
@@ -146,19 +133,14 @@ Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
 Som du ser i det sista scenariet, går det bara att korrigera resultat från en behovsrad utan lagerställekod genom att inaktivera alla konfigurationsvärden för lagerställena. Det enda sättet att få stabila planeringsresultat för behov vid lagerställen är att använda lagerställeenheter.  
 
-Om du ofta planerar för behov på olika lagerställen rekommenderar vi därför att du använder funktionen Lagerställeenheter.  
+Om du ofta planerar för behov vid lagerställen rekommenderas det starkt att du använder funktionen Lagerställeenheter.  
 
 ## <a name="see-also"></a>Se även
-
-[Planerad](production-planning.md)  
+[Planerad](production-planning.md)    
 [Ställa in Produktion](production-configure-production-processes.md)  
-[Produktion](production-manage-manufacturing.md)  
-[Lager](inventory-manage-inventory.md)  
-[Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)  
+[Produktion](production-manage-manufacturing.md)    
+[Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
+[Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

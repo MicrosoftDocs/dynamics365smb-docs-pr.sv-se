@@ -4,22 +4,22 @@ description: Beskriver hur du kan använda en OCR-tjänst för att omvandla inko
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: c9acd338493ca101d8b8061fb95b9a4faba8eabb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587536"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187874"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument
-Från PDF eller bildfiler som du får från dina handelspartner kan du låta en extern OCR-tjänst (Optical Character Recognition) skapa elektroniska dokument som du kan konvertera till dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du skicka den till OCR-tjänsten från sidan **Inkommande dokument**. Detta beskrivs i den första proceduren.
+Från PDF eller bildfiler som du får från dina handelspartner kan du låta en extern OCR-tjänst (Optical Character Recognition) skapa elektroniska dokument som du kan konvertera till dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du skicka den till OCR-tjänsten från sidan **Inkommande dokument**. Detta beskrivs i den första proceduren.
 
 Ett alternativ till att skicka filen från sidan **Inkommande dokument** är att skicka filen till OCR-tjänsten med e-post. När du sedan får tillbaka det elektroniska dokumentet skapas en relaterad inkommande dokumentpost automatiskt. Detta beskrivs i den andra proceduren.
 
@@ -30,7 +30,7 @@ Eftersom OCR baseras på optisk läsning är det troligt att OCR-tjänsten tolka
 Trafiken av filer till och från OCR-tjänsten behandlas av en dedikerad jobbköpost, som skapas automatiskt när du aktiverar den relaterade tjänstkopplingen. Mer information finns i [Skapa inkommande dokument](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Så här skickar du en PDF- eller bildfil till OCR-tjänsten från sidan **Inkommande dokument**
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inkommande dokument** och välj sedan relaterad länk.
 2. Skapa en ny inkommande dokumentpost och bifoga filen. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).  
 3. Markera sedan en eller flera rader på sidan **Inkommande dokument** och välj sedan åtgärden **Skicka till jobbkö**.
 
@@ -60,22 +60,22 @@ Om du inte använder en jobbkö, eller om du vill ta emot ett färdigt OCR-dokum
 
     Information för OCR-dokumentet visas med både källinnehållet av PDF- eller bildfilen och de resulterande OCR-fältvärdena.
 3. Granska de olika fältvärdena och redigera dem manuellt eller ange värden i fält som OCR-servicen har taggat som osäkra.
-4. Välj **OK**. OCR-processen är klar och det resulterande elektroniska dokumentet skickas till inkommande dokument på sidan **inkommande dokument** i [!INCLUDE[prod_short](includes/prod_short.md)], enligt jobbköschemat.
+4. Välj **OK**. OCR-processen är klar och det resulterande elektroniska dokumentet skickas till inkommande dokument på sidan **inkommande dokument** i [!INCLUDE[d365fin](includes/d365fin_md.md)], enligt jobbköschemat.
 5. Upprepa steg 4 för alla andra OCR-dokument som ska valideras.
 
-Du kan nu fortsätta med att skapa dokumentposter för de inlevererade elektroniska dokumenten i [!INCLUDE[prod_short](includes/prod_short.md)], manuellt eller automatiskt. Mer information finns i nästa procedur: Du kan också koppla den nya inkommande dokumentposten till det bokförda eller icke bokförda befintliga dokumentet så att källfilen är lättillgänglig i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Bearbeta inkommande dokument](across-process-income-documents.md).
+Du kan nu fortsätta med att skapa dokumentposter för de inlevererade elektroniska dokumenten i [!INCLUDE[d365fin](includes/d365fin_md.md)], manuellt eller automatiskt. Mer information finns i nästa procedur: Du kan också koppla den nya inkommande dokumentposten till det bokförda eller icke bokförda befintliga dokumentet så att källfilen är lättillgänglig i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Bearbeta inkommande dokument](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Så här skapar du en inköpsfaktura från ett elektroniskt dokument som har tagits emot från OCR-servicen
 Efterföljande procedur beskriver hur du skapar en inköpsfakturatransaktion från en leverantörsfaktura som tas emot som ett elektroniskt dokument från OCR-servicen. Proceduren är samma när du skapar, till exempel, en redovisningsjournalrad från ett kostnadskvitto eller från en försäljningsreturorder.
 
 > [!NOTE]  
->   Fälten **Beskrivning** och **Nr.** på de nya dokumentraderna kommer endast att fyllas i om du först har mappat text som finns på OCR-dokumentet till de två fälten i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan göra den här mappningen som referenser till artikel, för dokumentrader av typartikel. Mer information finns i [Använd artikelreferenser](inventory-how-use-item-cross-refs.md). Du kan också använda mappningsfunktionen Text-till-konto. Mer information finns i avsnittet [Mappa ett inkommande dokument till en viss leverantör, redovisning eller adress](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Fälten **Beskrivning** och **Nr.** på de nya dokumentraderna kommer endast att fyllas i om du först har mappat text som finns på OCR-dokumentet till de två fälten i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan göra den här mappningen som korsreferenser till artikel, för dokumentrader av typartikel. Mer information finns i [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md). Du kan också använda mappningsfunktionen Text-till-konto. Mer information finns i avsnittet [Mappa ett inkommande dokument till en viss leverantör, redovisning eller adress](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Markera raden för inkommande dokument och välj sedan åtgärden **skapa dokument**.
 
-En inköpsfaktura kommer att skapas av [!INCLUDE[prod_short](includes/prod_short.md)] utifrån informationen i det elektroniska leverantördokumentet som du fick av OCR-servicen. Informationen infogas i den nya inköpsfakturan, baserat på mappningen som du har definierat som en referens eller mappningen text-till-konto.
+En inköpsfaktura kommer att skapas av [!INCLUDE[d365fin](includes/d365fin_md.md)] utifrån informationen i det elektroniska leverantördokumentet som du fick av OCR-servicen. Informationen infogas i den nya inköpsfakturan, baserat på mappningen som du har definierat som en tvärreferens eller mappningen text-till-konto.
 
-Eventuella valideringsfel som vanligtvis beror på fel eller saknade huvuddata [!INCLUDE[prod_short](includes/prod_short.md)], visas på snabbfliken **Fel och varningar**. För mer information, se avsnittet [Så här hanterar du fel vid mottagning av elektroniska dokument](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
+Eventuella valideringsfel som vanligtvis beror på fel eller saknade huvuddata [!INCLUDE[d365fin](includes/d365fin_md.md)], visas på snabbfliken **Fel och varningar**. För mer information, se avsnittet [Så här hanterar du fel vid mottagning av elektroniska dokument](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Du mappar ett inkommande dokument till ett särskilt leverantörskonto
 För inkommande dokument använder du vanligtvis åtgärden **Mappa text till konto** för att definiera att en viss text på en leverantörsfaktura som har tagits emot från OCR-servicen mappas till en viss leverantörskonto. Framöver kommer alla delar av det inkommande dokumentets beskrivning som existerar som en mappningstext innebära att fältet **Nr.** på resulterande dokument- eller journalrader av typen redovisningskonto fylls i med leverantören i fråga.
@@ -107,7 +107,7 @@ Eftersom OCR baseras på optisk läsning är det troligt att OCR-tjänsten tolka
 
 Sidan **OCR-datakorrigering** som öppnas från sidan **Inkommande dokument** visar fälten från snabbfliken **Ekonomisk information** i två kolumner, en med ändringsbara OCR-uppgifter och en med skrivskyddade OCR-uppgifter. När du väljer knappen **Skicka OCR-feedback** skickas innehållet på sidan **OCR-datakorrigering** till OCR-tjänsten. Nästa gång tjänsten behandlar PDF- eller bildfiler som innehåller samma uppgifter tas dina korrigeringar med för att samma fel ska kunna undvikas.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inkommande dokument** och välj sedan relaterad länk.
 2. Öppna en inkommande dokumentpost som innehåller data som har tagits emot från OCR-servicen och som du vill rätta till.
 3. På sidan **Inkommande dokument** väljer du åtgärden **Korrigera OCR-data**.
 4. Skriv över data i den redigerbara kolumnen för varje fält som har ett inkorrekt värde på sidan **OCR-datakorrigering**.
@@ -121,7 +121,4 @@ Fälten på snabbfliken **Ekonomisk information** på sidan **Inkommande dokumen
 [Bearbeta inkommande dokument](across-process-income-documents.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

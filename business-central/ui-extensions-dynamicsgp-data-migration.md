@@ -1,34 +1,65 @@
 ---
-title: Migrera data från Dynamics GP före 15.3
-description: Innan uppdateringen 15.3 kan du använda filnamnstillägget Dynamics GP-datamigrering för att flytta över kunder, leverantörer, etc Dynamics GP till Business Central.
+title: Migrera Data från Dynamics GP med tillägget Data Migration | Microsoft Docs
+description: Använd tillägget Dynamics GP-datamigrering för att flytta över kunder, leverantörer, lagerartiklar, redovisningskonton, öppna leverantörs- och kundreskontratransaktioner från Dynamics GP till Business Central.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 06/23/2021
+ms.date: 01/16/2020
 ms.author: edupont
-ROBOTS: NOINDEX
-ms.openlocfilehash: 06235c35947bf502a19711409560f863d79beb35
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323083"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992151"
 ---
-# <a name="the-dynamics-gp-data-migration-extension"></a>Tillägget Dynamics GP datamigrering
+# <a name="the-dynamics-gp-data-migration-extension"></a>Tillägget Dynamics GP datamigrering 
+Detta tillägg gör det enkelt att flytta över kunder, leverantörer, lagerartiklar, redovisningskonton, öppna leverantörs- och kundreskontratransaktioner från Dynamics GP [!INCLUDE[prodshort](includes/prodshort.md)]. Om ditt företag använder Dynamics GP i dag, kan du exportera nödvändiga poster och sedan öppna guiden för assisterad konfiguration för att överföra data till [!INCLUDE[prodshort](includes/prodshort.md)]. Tillägget Migrering fungerar för alla versioner av Microsoft Dynamics GP. Mer information finns i [Importera företagsdata från ett annat finanssystem](across-import-data-configuration-packages.md).
 
 > [!NOTE]
-> Det här tillägget kommer att vara inaktuellt i 15.3-uppdateringen. Vi rekommenderar användare som vill migrera från Dynamics GP att börja använda guiden **molnmigrering** i stället. Tillägget **Molnmigrerin** har stabilare funktionalitet och tar mer data till Business Central från Dynamics GP. Mer information finns i [migrera till Business Central Online från Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) i administrationsinnehållet för [!INCLUDE[prod_short](includes/prod_short.md)].
+>  Det här tillägget kommer att vara inaktuellt i 15.3-uppdateringen. Vi rekommenderar användare som vill migrera från Dynamics GP att börja använda guiden **molnmigrering** i stället. Tillägget **Molnmigrerin** har stabilare funktionalitet och tar mer data till Business Central från Dynamics GP.
+
+## <a name="exporting-data-from-dynamics-gp"></a>Exportera data från Dynamics GP
+Du måste ha exporterat några av dina befintliga kunder, leverantörer, lagerartiklar och redovisningskonton med hjälp av funktionen dataexport i Dynamics GP. Du kan välja följande typer när du väljer data som ska exporteras:
+
+* Konto  
+* Kund  
+* Artikel  
+* Leverantör  
+
+När exportfilen har skapats har du en zip-fil som innehåller flera txt-filer som bestäms av vad du har valt under exporten av data.  Dessutom visas ytterligare txt-filer som skapats med extra information som behövs för att inställningarna i ditt nya [!INCLUDE[prodshort](includes/prodshort.md)]-företag.
+
+Tillägget Datamigrering för Dynamics GP mappas automatiskt den exporterade informationen så att dina data är snabbt tillgängliga i ditt nya [!INCLUDE[prodshort](includes/prodshort.md)]-företag.
+
+## <a name="whats-new-in-the-october-2018-release"></a>Vad är nytt i oktober 2018 versionen
+
+I den här versionen har vi utökat mängden data som vi tillföra [!INCLUDE[prodshort](includes/prodshort.md)] från Dynamics GP.
+
+I migreringsguiden kan du nu välja hur du vill överföra kontoplanen i Dynamics GP. Du kan flytta över den befintliga kontoplanen eller skapa en ny kontoplan utifrån den befintliga kontoplanen.  
+
+Om du vill använda den befintliga kontoplanen kontona ska ställas in som ett segment för huvudkontot från Dynamics GP och ytterligare segment ska fungera som dimensioner i [!INCLUDE[prodshort](includes/prodshort.md)].  
+
+Om du väljer att skapa en ny kontoplan får du en ytterligare kontoinformationssida i guiden så att du kan hämta arbetsboken, göra vissa ändringar och sedan importera arbetsboken igen om du vill ändra dina konton.  
+
+Du måste hämta Excel-arbetsboken och kartlägga ett nytt kontonummer till varje kontonummer i Excel-kalkylbladet. Varje konto måste ha sitt eget nummer eller migreringen kommer att bli fel. När du har slutfört mappningen kan du fortsätta du med migreringsguiden genom att importera Excel-arbetsboken som du just har uppdaterat. Guiden verifierar att varje rad har en unik kontonummer och att inga rader har ett nytt tomt kontonummer i dem.  
+
+Med ändringen i mappningen för kontoplansalternativ ser du även en ändring av typen av data kommer in i redovisningsjournalen för kontonumren.  
+
+- Om du vill använda de befintliga kontonumren för vi över ingående saldo på huvudsegmentet (nytt kontonumret) som en summering av huvudkontonumret vid tidpunkten för migreringen.  
+- Om du väljer att skapa nya kontonummer medför vi översiktsinformation för motsvarande två räkenskapsår baserat på de räkenskapsperioder som du har ställt in i Dynamics GP.
+
+I tidigare versioner av [!INCLUDE[prodshort](includes/prodshort.md)], migrerade guiden en samlingstransaktion för kunden/leverantöresn saldo i Dynamics GP. Nu hämtar vi de detaljerade öppna transaktionerna för kunder och leverantörer vid tidpunkten för migreringen. Vad innebär detta? Om din kund har 3 utestående transaktioner registrerade i modulen Kundreskontra för guiden in dessa transaktioner i [!INCLUDE[prodshort](includes/prodshort.md)] med utestående belopp som dokumentbelopp. Detta är samma för Leverantörsreskontramodulen för leverantörer.  
+
+Lagerartiklar importeras med den kostnadsvärderingsmetod som valdes när företagets installationsguide kördes. Serviceartiklar kan automatiskt tilldelas FIFO-värderingsmetoden. För närvarande tar vi in Lagersaldo för artiklarna vid tidpunkten för migrationen.  Denna kvantitet hämtas till tomt lagerställe.  
+
+Det sista alternativet som visas i datamigreringsguiden för Dynamics GP är möjligheten att ange bokföringsalternativ. Den här inställningen anger om du vill bokföra alla transaktioner automatiskt i redovisningsjournaler när migreringen flyttar data i [!INCLUDE[prodshort](includes/prodshort.md)], eller om du vill bokföra manuellt så att alla transaktioner kommer att bli journaler inne på sidan Redovisningsjournal så att du kan kontrollera informationen innan du bokför. Detta alternativ visas på sidan Alternativ för kontoplan.
+
 
 ## <a name="see-also"></a>Se även
-
-[Intelligenta molntillägg för migrering av moln](ui-extensions-data-replication.md)  
-[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
-[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
-[Migrera till Business Central Online från Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Anpassa [!INCLUDE[prodshort](includes/prodshort.md)] med tillägg](ui-extensions.md)  

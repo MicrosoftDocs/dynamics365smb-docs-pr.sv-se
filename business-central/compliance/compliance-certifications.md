@@ -1,50 +1,42 @@
 ---
-title: Certifieringar av tjänsten
-description: Det här innehållet innehåller information om certifieringar i relation till Business Central, till exempel regionspecifika certifieringar och ackrediteringar.
+title: Certifieringar | Microsoft Docs
+description: Det här innehållet anger information om certifieringar i relation till Business Central.
 author: sorenfriisalexandersen
+documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: c34c3843751fda22365479060fc979b2f14ea8f1
-ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
+ms.openlocfilehash: 1dde92217278ad8f4b5f8805afe052b06d6fc64b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373193"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185954"
 ---
-# <a name="certifications"></a>Intyg
+# <a name="certifications"></a>Intyg  
+Det här innehållet anger information om certifieringar i relation till [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Det här innehållet anger information om certifieringar i relation till [!INCLUDE[prod_short](../includes/prod_short.md)].  
-
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Lands-/regionspecifika certifieringar och ackrediteringar
-
-I vissa länder eller regioner måste redovisningsprogram godkännas i enlighet med lokala skatteregler och ekonomiska krav. Vissa länder använder detta som ett årligt återkommande krav och andra som ett direkt krav att följa. Nedan visas en lista över de aktuella länderna/regionerna där Business Central har uppnått certifieringar.
-
-> [!NOTE]
-> Endast vissa länder har detta krav.
-
-- Frankrike (skatterevisionscertifiering) [(sök efter produktnamnet på https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
-- Tyskland (omfattar även Österrike och Schweiz) [(länk till certifiering på tyska)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
+## <a name="country-certifications-and-accreditations"></a>Landsspecifika certifieringar och ackrediteringar
+I vissa länder måste redovisningsprogram godkännas i enlighet med lokala skatteregler och ekonomiska krav. Vissa länder använder detta som ett årligt återkommande krav och andra som ett direkt krav att följa. Nedan visas en lista över de aktuella länderna där Business Central har uppnått certifieringar. Observera att detta endast vissa länder har detta krav.  
+- Frankrike (intyg för momsrevision) [(länk till intyg på franska)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
+- Tyskland (omfattar även Österrike och Schweiz) [(länk till certifiering på tyska)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
 
 > [!NOTE]  
-> I länder/regioner där Microsoft inte använder en lokal version är det vanligen upp till partnern att få certifieringen av Business Central grundläggande produkt, inklusive dess lokalisering och andra funktioner överst.
+>  **Certifieringar i länder där Microsoft inte släpper lokaliserade versioner**  
+> I länder där Microsoft inte använder en lokal version, är det vanligen upp till partnern att få certifieringen av Business Central grundläggande produkt inklusive dess lokalisering och andra funktioner överst.
 
-## <a name="other-certifications"></a>Andra certifieringar
-
+## <a name="other-certifications"></a>Andra certifieringar  
 Business Central som molntjänst har uppnått certifieringar som ISO 27001 med mera. En fullständig lista över dessa certifieringar finns i [denna sidan (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Se även
-
+## <a name="see-also"></a>Se även  
 [Regelefterlevnad](compliance-overview.md)  
 [Programmets regelefterlevnad](compliance-application-compliance.md)  
 [Tjänstens regelefterlevnad](compliance-service-compliance.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ 

@@ -1,21 +1,21 @@
 ---
-title: Förbereda ett konfigurationspaket
-description: Lär dig förbereda ett RapidStart konfigurationspaket som kan hjälpa dig att skapa nya företag baserat på befintliga data.
-author: bholtorf
+title: Förbereda ett konfigurationspaket | Microsoft Docs
+description: Lär dig nu att konfigurera ett RapidStart konfigurationspaket som kan hjälpa dig att skapa nya företag baserat på befintliga data.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: bholtorf
-ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660237"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535978"
 ---
 # <a name="prepare-a-configuration-package"></a>Förbereda ett konfigurationspaket
 
@@ -30,12 +30,6 @@ Det finns några saker att tänka på innan du skapar ett konfigurationspaket, d
 ### <a name="tables-that-contain-posted-entries"></a>Register som innehåller bokförda transaktioner
 
 Du kan inte importera data till register som innehåller bokförda transaktioner, till exempel registren för kund-, leverantörs- och artikeltransaktioner, så du bör inte inkludera dessa data i konfigurationspaketet. Du kan lägga till poster i dessa register när du har importerat konfigurationspaketet med hjälp av journaler för att bokföra transaktionerna. Mer information finns i [Bokföra dokument och journaler](ui-post-documents-journals.md).
-
-### <a name="table-names-that-contain-special-characters"></a>Tabellnamn som innehåller specialtecken
-
-Var försiktig om du har tabeller eller fält med samma tidsdefinierade namn men som skiljer sig åt med specialtecken, till exempel %, &, <, >, (, och ). Tabellen "XYZ" kan t. ex. innehålla fälten "Fält 1" och "Fält 1 %".
-
-XML-processorn accepterar endast vissa specialtecken och tar bort de som inte accepteras. Om du tar bort ett specialtecken, t. ex. %-symbolen i "Fält 1 %", resulterar det i två eller flera tabeller eller fält med samma namn och ett fel uppstår när du exporterar eller importerar ett konfigurationspaket. 
 
 ### <a name="licensing"></a>Licensiering
 
@@ -52,18 +46,18 @@ Processen för att skapa och importera ett konfigurationspaket innebär följand
 
 När du exporterar och importerar konfigurationspaket mellan två företagsdatabaser ska databaserna ha samma schema för att alla data säkert ska överföras korrekt. Det betyder att databaserna ska ha samma tabell- och fältstruktur, där tabellerna har samma primärnycklar och fälten har samma ID och datatyper.  
 
-Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte. Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t. ex. konfigurationspaketet innehåller tabellen **50000, Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000, Kundbankkonto** som har primärnyckeln **Code20 + Code 20**, så importeras inga data.  
+Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte. Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000, Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000, Kundbankkonto** som har primärnyckeln **Code20 + Code 20**, så importeras inga data.  
 
 ## <a name="to-create-a-configuration-package"></a>Så här skapar du ett konfigurationspaket
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i övriga fält på snabbfliken **Allmänt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Om du vill utesluta konfigurationsfrågeformulären, konfigurationsmallarna och konfigurationskalkylarkstabellerna från paketet markerar du kryssrutan **Uteslut konfigurationstabeller**. Annars kommer de här tabellerna att läggas till listan över pakettabeller automatiskt när du exporterar paketet.  
 5. Välj åtgärden **Hämta tabeller**. Sidan **Hämta pakettabell** öppnas.  
 6. Välj fältet **Markera tabeller**. Sidan **Konfigurationsurval** öppnas.  
 7. Välj åtgärden **Markera allt** för att lägga till alla tabeller i paketet, eller markera kryssrutan **Vald** för varje tabell i listan som du vill lägga till.
-8. Välj **OK**. Antalet tabeller som du har valt visas i fältet **Markera tabeller**. Ange ytterligare alternativ och välj sedan knappen **OK**. [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller som läggs till på raderna på sidan **konfiguration. Paket**.  
+8. Välj **OK**. Antalet tabeller som du har valt visas i fältet **Markera tabeller**. Ange ytterligare alternativ och välj sedan knappen **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller som läggs till på raderna på sidan **konfiguration. Paket**.  
 
     > [!NOTE]  
     >  Du kan också göra detta i konfigurationskalkylarket. Markera tabellerna som du vill ta med i paketet och välj sedan åtgärden **Tilldela paket**.
@@ -74,20 +68,8 @@ Ange vilka fält som ingår i paketet. Som standard inkluderas alla fält.
     - För att välja endast de fält som du vill inkludera, välj åtgärden **Rensa inkluderade**. Om du vill lägga till alla fält väljer du åtgärden **Ange inkluderade**.  
     - Om du vill ange att fältdata inte ska valideras avmarkerar du kryssrutan **Validera fält** för fältet.  
 
-10. Om du vill använda bearbetningsfilter på registerdata eller lägga till en codeunit med valfri kod som du vill inkludera i paketet, väljer du raden för relevant register och sedan åtgärden **Bearbetningsregler**.
-
-    1. Fyll i fälten på sidan **Konfig. bearbetningsregler för register**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-        - Om du vill använda filter på data anger du relevant åtgärd i fältet **Åtgärd**, väljer ågärden **Bearbetningsfilter** och fyller sedan i fälten.  
-
-            Microsofts konfigurationspaket för utvärderingsföretag anger till exempel bearbetningsfilter i registren **Försäljningshuvud** och **Inköpshuvud**.
-        - Om du vill lägga till en codeunit för bearbetning anger du denna i fältet **ID för anpassad codeunit för bearbetning**.
-
-          > [!NOTE]
-          > Denna codeunit måste ha register 8614 *Konfig. pakettransaktion* som en parameter för metoden `OnRun`.
-    2. Stäng sidan.
-11. Bestäm huruvida du har introducerat potentiella fel genom att välja åtgärden **Validera paket**. Detta kan hända när tabeller som konfigurationen beror på inte ingår.  
-12. Välj knappen **OK**.  
+10. Bestäm huruvida du har introducerat potentiella fel genom att välja åtgärden **Validera paket**. Detta kan hända när tabeller som konfigurationen beror på inte ingår.  
+11. Välj knappen **OK**.  
 
 När du har förfinat listan över fält som ska ingå från en tabell, kan du se resultatet i Excel.  
 
@@ -119,7 +101,7 @@ Du kan spara filen med ett namn som är meningsfullt för dig, men du kan inte �
 
 När du har skapat ett paket som uppfyller de flesta av behoven kan du använda det som en grund för att skapa liknande paket. Det kan påskynda implementeringstiden och gör det lättare att upprepa RapidStart Services.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
 2. Välj ett paket i listan och välj sedan åtgärden **Kopiera paket**.  
 3. I fältet **Kod för nytt paket** anger du en kod för det nya paketet.  
 4. Markera kryssrutan **Kopiera data** om du också vill kopiera databasdata från det befintliga paketet.  
@@ -129,7 +111,7 @@ När du har skapat ett paket som uppfyller de flesta av behoven kan du använda 
 
 Använd konfigurationskalkylarket för att samla ihop och kategorisera information som du vill använda för att konfigurera ett nytt företag, och ordna tabellerna på ett logiskt sätt. Formateringen i kalkylarket baseras på en enkel hierarki: områden innehåller grupper, som i sin tur innehåller tabeller. Områden och grupper är valfria, men nödvändiga om du vill kunna se en översikt över konfigurationsprocessen i rollcentret för RapidStart Services.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
 2. Välj **Område** i fältet **Radtyp**. Ange ett beskrivande namn i fältet **Namn**.  
 3. Välj **Grupp** i fältet **Radtyp**. Ange ett beskrivande namn i fältet **Namn**.  
 4. Välj **Tabell** i fältet **Radtyp**. Välj tabellen som du vill ta med i kalkylarket i fältet **Tabell-ID**.  
@@ -148,7 +130,7 @@ När du har definierat tabeller som du vill hantera som en del av konfiguratione
 > [!NOTE]  
 > Du kan också skapa ett paket direkt och lägga till tabeller i det. För mer information, se [Så här skapar du ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
 2. Markera en rad eller en grupp med rader som du vill tilldela till ett konfigurationspaket i konfigurationskalkylarket, och välj sedan åtgärden **Tilldela paket**.  
 3. Välj ett paket i listan eller välj åtgärden **Nytt** för att skapa ett nytt paket, och välj sedan knappen **OK**.  
 
@@ -159,11 +141,11 @@ När du har definierat tabeller som du vill hantera som en del av konfiguratione
 
 När du skapar ett konfigurationspaket för en lösning kan du visa och anpassa tillgängliga databasdata så att dessa stämmer överens med dina kundbehov. Databastabellen måste vara kopplad till en sida.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.
 2. Identifiera tabellerna med data som du vill visa eller anpassa i konfigurationskalkylarket.  
 
     > [!NOTE]  
-    >  Se till att varje tabell tilldelats ett sid-ID. Som standarden [!INCLUDE[prod_short](includes/prod_short.md)]-tabell fylls detta värdet i automatiskt. För anpassade tabeller måste du ange ID.
+    >  Se till att varje tabell tilldelats ett sid-ID. Som standarden [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell fylls detta värdet i automatiskt. För anpassade tabeller måste du ange ID.
 
 3. Välj åtgärden **Databasdata**. Sidan för den relaterade sidan öppnas.
 4. Granska den tillgängliga informationen. Ändra den efter behov genom att ta bort transaktioner som inte är relevanta eller lägga till nya.  
@@ -173,7 +155,7 @@ När du skapar ett konfigurationspaket för en lösning kan du visa och anpassa 
 När du har kontrollerat och testat alla inställningar kan du fortsätta med att kopiera informationen till din produktionsmiljö. Du skapar ett nytt företag i samma databas.
 
 1. Öppna och initialisera det nya företaget.  
-2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.  
+2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
 3. Välj åtgärden **Kopiera data från företag**.  
 4. På sidan **Kopiera från** i fönstret **Kopiera företagsdata**. Sidan **Företag** visas.  
 5. Välj det företag som du vill kopiera data ifrån och välj sedan knappen **OK**. En lista över tabeller som har valts i konfigurationskalkylarket öppnas. Endast tabeller som innehåller poster tas med i listan.
@@ -186,7 +168,3 @@ När du har kontrollerat och testat alla inställningar kan du fortsätta med at
 [Ställa in företagskonfiguration](admin-set-up-company-configuration.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)  
-[Analysera telemetri för spårning av konfigurationspaket](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
