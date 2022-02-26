@@ -1,34 +1,37 @@
 ---
-title: Koppla och synkronisera poster manuellt | Microsoft Docs
-description: Synkronisera en mappning för integrationstabellen tillåter datasynkronisering data i alla poster i en tabell i Business Central och den Dynamics 365 Sales-enhet som används.
-services: project-madeira
-documentationcenter: ''
+title: Koppling och synkronisering (innehåller video)
+description: Genom att synkronisera en mappning av integreringstabellen möjliggörs datasynkronisering i alla poster i en tabell i Business Central eller Dynamics 365 Sales som är kopplade.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 10/01/2019
+ms.search.form: 6250
+ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0c70b1ba34af32b7cf542149c8f15cb191761358
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7d62f1122aee1930dd98ed008b7820e88fe9b14
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308122"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115426"
 ---
-# <a name="couple-and-synchronize-records-manually"></a>Koppla och synkronisera poster manuellt
-I det här avsnittet beskrivs hur du kopplar en eller flera poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] med poster i [!INCLUDE[crm_md](includes/crm_md.md)]. Koppling av poster låter dig visa [!INCLUDE[crm_md](includes/crm_md.md)] information från [!INCLUDE[d365fin](includes/d365fin_md.md)] och vice versa. Kopplingen låter dig också synkronisera data mellan posterna. Du kan koppla befintliga poster eller skapa och koppla nya poster.
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Koppla och synkronisera poster mellan Dataverse och Business Central
+
+I det här avsnittet beskrivs hur du kopplar en eller flera transaktioner i [!INCLUDE[prod_short](includes/prod_short.md)] med transaktioner i Dataverse eller [!INCLUDE[crm_md](includes/crm_md.md)]. Koppling av poster låter dig visa Dataverse information från [!INCLUDE[prod_short](includes/prod_short.md)] och vice versa. Kopplingen låter dig också synkronisera data mellan posterna. Du kan koppla befintliga poster eller skapa och koppla nya poster.
 
 > [!Note]
-> Koppla och synkronisera data med [!INCLUDE[crm_md](includes/crm_md.md)] är endast tillgängligt om administratören har skapat en anslutning mellan [!INCLUDE[d365fin](includes/d365fin_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)]. Ett snabbt sätt att kontrollera är att öppna kortet **kund** och leta efter åtgärden **konfigurera koppling**. Om åtgärden är tillgänglig är apparna sammankopplade.   
+> Du kan bara koppla och synkronisera data om din systemadministratör har skapat en anslutning mellan [!INCLUDE[prod_short](includes/prod_short.md)] och Dataverse eller [!INCLUDE[crm_md](includes/crm_md.md)]. Ett snabbt sätt att kontrollera är att öppna kortet **kund** och leta efter åtgärden **konfigurera koppling**. Om åtgärden är tillgänglig är apparna sammankopplade.   
+
+## <a name="video-example"></a>Videoexempel
+Det här videoklippet visar kopplings-och synkroniseringsdata vid integrering med [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
 ## <a name="to-couple-a-record"></a>Om du vill koppla en post  
-1.  I [!INCLUDE[d365fin](includes/d365fin_md.md)] öppnar du kortet för den post du vill koppla. Till exempel kund- eller kontaktkort.  
+1.  I [!INCLUDE[prod_short](includes/prod_short.md)] öppnar du kortet för den post du vill koppla. Till exempel kund- eller kontaktkort.  
 
     Du kan också bara öppna listsidan och välja den post som du vill koppla.  
 
@@ -36,14 +39,35 @@ I det här avsnittet beskrivs hur du kopplar en eller flera poster i [!INCLUDE[d
 3.  Fyll i fälten och välj sedan **OK**.  
 
 ## <a name="to-synchronize-a-single-record"></a>Om du vill synkronisera en enda post  
-1.  I [!INCLUDE[d365fin](includes/d365fin_md.md)] öppnar du kortet för den post du vill koppla. Till exempel kund- eller kontaktkort.  
+1.  I [!INCLUDE[prod_short](includes/prod_short.md)] öppnar du kortet för den post du vill koppla. Till exempel kund- eller kontaktkort.  
 2.  Välj åtgärden **synkronisera nu**.  
-3.  Om en post kan synkroniseras antingen från [!INCLUDE[d365fin](includes/d365fin_md.md)] till [!INCLUDE[crm_md](includes/crm_md.md)] eller från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)] välj det alternativ som anger riktningen för datauppdateringen, och välj sedan **OK**.  
+3.  Om en transaktion kan synkroniseras åt endast ett håll, välj då det alternativ som anger riktningen för datauppdateringen, och välj sedan **OK**.  
+
+## <a name="to-synchronize-a-single-record-from-crm_md"></a>Om du vill synkronisera en enda transaktion från [!INCLUDE[crm_md](includes/crm_md.md)]  
+1.  I [!INCLUDE[crm_md](includes/crm_md.md)] öppnar du formuläret för den transaktion du vill koppla. Till exempel formuläret Kontokort eller Kontaktkort.  
+2.  Välj åtgärden **[!INCLUDE[prod_short](includes/prod_short.md)]** i menyfliksområdet för att öppna och koppla transaktioner automatiskt.
+
+> [!Note]
+> Du kan endast synkronisera en enskild transaktion automatiskt från [!INCLUDE[crm_md](includes/crm_md.md)] när **Synka endast kopplade transaktioner** är inaktiverat och synkroniseringen har angetts som dubbelriktad eller Från integreringstabell på sidan **Registermappning för integrering** för transaktionen. Mer information finns i [Mappa de tabeller och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+
+## <a name="to-couple-multiple-records-using-match-based-coupling"></a>För at koppla flera poster med matchningsbaserad koppling
+
+Du kan ange vilka data som ska synkroniseras för en entitet, t.ex. en kund eller kontakt, genom kopplingsposter som baseras på matchningar. Du kan förfina matchningarna genom att göra sökningen skifteslägeskänslig och tilldela varje matchning en prioritet. Om ingen matchning hittas kan du även ange att du vill skapa entiteten i Dataverse. Mer information finns i [Anpassa matchningsbaserad koppling](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] öppna listsidan för posten, till exempel listsidan kunder eller kontakter.
+2. Välj åtgärden **matchningsbaserad koppling**.
+3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-synchronize-multiple-records"></a>Om du vill synkronisera flera poster  
-1.  I [!INCLUDE[d365fin](includes/d365fin_md.md)] öppna listsidan för posten, till exempel listsidan kunder eller kontakter.  
+1.  I [!INCLUDE[prod_short](includes/prod_short.md)] öppna listsidan för posten, till exempel listsidan kunder eller kontakter.  
 2.  Markera den post du vill synkronisera och välj sedan åtgärden **Synkronisera nu**.  
-3.  Om poster kan synkroniseras antingen från [!INCLUDE[d365fin](includes/d365fin_md.md)] till [!INCLUDE[crm_md](includes/crm_md.md)] eller från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[d365fin](includes/d365fin_md.md)] välj det alternativ som anger riktningen för datauppdateringen, och välj sedan **OK**.  
+3.  Om transaktioner kan synkroniseras åt endast ett håll, välj då det alternativ som anger riktningen för datauppdateringen, och välj sedan **OK**.  
+
+## <a name="uncoupling-records"></a>Frånkopplingsposter
+Du kan koppla bort en eller flera poster från listsidor eller sidan **Kopplade datasynkroniseringsfel** genom att välja en eller flera rader och välja **Radera koppling**. Du kan också ta bort alla kopplingar för en eller flera registermappningar på sidan **Mappningar för integrationstabeller**.
 
 ## <a name="see-also"></a>Se även  
 [Använda Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

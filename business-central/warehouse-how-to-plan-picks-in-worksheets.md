@@ -1,62 +1,66 @@
 ---
-title: Planera plockningar i kalkylarket | Microsoft Docs
-description: Om distributionslagret kräver både plocknings- och utleveransbearbetning kan du välja att raderna i utleveransdokument inte automatiskt ska omvandlas till plockningsinstruktioner, utan i stället göras tillgängliga i plockningskalkylarket.
+title: Så här planerar du plockningar i förslaget
+description: Lär dig hur rader på leveransdokument kan göras tillgängliga på plockförslag för lagerarbetare.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a340c06dab26f0f1426efea95ec5bfc614417825
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/13/2021
+ms.author: edupont
+ms.openlocfilehash: 92dd486b5b9ebb4fd67d3a28aa8f1eaab137513c
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192945"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643924"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planera plockningar i kalkylark
-Om distributionslagret kräver både plocknings- och utleveransbearbetning kan du välja att raderna i utleveransdokument inte automatiskt ska omvandlas till plockningsinstruktioner, utan i stället göras tillgängliga i plockningskalkylarket.  
+
+Om distributionslagret kräver både plocknings- och utleveransbearbetning kan du välja att skapa rader i leveransdokument som är tillgängliga på plockningsförslag i stället för plockningsinstruktioner.  
 
 > [!NOTE]  
->  Om plockningsinstruktioner för lagret redan har skapats och du vill kombinera dessa för att skapa en enda effektiv plockningsinstruktion, måste du ta bort de enskilda lagerplockningarna. Raderna som ska plockas kan nu visas i listan i kalkylarket.  
+> Om plockningsinstruktioner för lagret redan har skapats och du vill kombinera dessa för att skapa en enda effektiv plockningsinstruktion, måste du ta bort de enskilda lagerplockningarna. Raderna som ska plockas kan nu visas i listan i plockförslaget.  
 
-I plockningskalkylarket kan du lägga upp plockningslistor för de anställda, vilket minimerar den tid det tar för de anställda att plocka artiklar i lagret. Det finns fält som innehåller information om antalet artiklar som är tillgängliga i lagerplatser för direktutleverans. Det är användbart i situationer med lagerplatser för direktutleverans, för planering av dina arbetsuppgifter, eftersom programmet ska alltid plocka från en annan lagerplats oavsett enhet. Raderna i kalkylarket kan komma från flera källdokument och kan sorteras efter artikel, hyllnummer, källdokument, förfallodatum eller leveransadress.  
-
-Om du sorterar efter förfallodatum kan du välja att ta bort alla rader i kalkylarket utom de allra mest kritiska. Egentligen raderas inte de mindre kritiska raderna, utan skickas bara tillbaka till kalkylarket **Plockningsval**. När du skapar plockningen har raderna redan sorterats efter förfallodatum och du kan välja att tilldela en viss anställd plockningen.  
+På sidan **plockningsförslag** kan du skapa plocklistor som hjälper anställda att samla artiklar i distributionslagret. På sidan visas de tillgängliga kvantiteterna för lagerplatser för direktutleverans, vilket är användbart när du planerar arbetstilldelningar i direktutleveranser. [!INCLUDE[prod_short](includes/prod_short.md)] föreslår alltid en plockning från en lagerplats för direktutleverans först. Raderna i förslaget kan komma från flera källdokument. De kan till exempel komma från fler än en försäljningsorder. 
 
 > [!NOTE]  
->  Plockning för distributionslagerutleverans av artiklar som är monterade till försäljningsorder som har levererats, följer samma steg för distributionslager som vanliga plockning för utleverans, enligt beskrivningen i det här avsnittet. Numret på plockningsrader per antal som ska levereras kan vara många-till-en, eftersom plockning för distributionslager är för monteringskomponenter och inte för monteringsartikeln.  
->   
->  Distributionslagerplockningsrader skapas för värdet i fältet **Återstående antal** på raderna i monteringsorder som är kopplad till försäljningsorderraden som levereras. Det gör att alla komponenter kan plockas i en åtgärd.  
->   
->  Mer information finns i ”Hantera artiklar för montering mot kundorder i distributionslagerutleveranser” i Dist.lager utleverans.  
->   
->  Information om hur du plockar komponenter för monteringsorder i allmänhet, inklusive situationer där monteringsartikeln inte ska betalas på en utleverans, se [Plocka för montering eller produktion i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+> Plockningsartiklar som är monterade för försäljningsorder som levereras, följer samma steg för distributionslager för utleverans. Numret på plockningsrader per antal som ska levereras kan vara många-till-en, eftersom plockning för distributionslager är för monteringskomponenter och inte för monteringsartikeln.  
+>
+> Distributionslagerplockningsrader skapas för värdet i fältet **Återstående antal** på raderna i monteringsorder som är kopplad till försäljningsorderraden som levereras. Det gör att alla komponenter kan plockas i en åtgärd. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+>
+> Information om hur du plockar komponenter för monteringsorder i allmänhet, inklusive situationer där monteringsartikeln inte ska betalas på en utleverans, se [Plocka för montering eller produktion i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="to-plan-picks-in-the-worksheet"></a>Så här planerar du plockningar i kalkylarket  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Hämta kalkylark** och välj sedan relaterad länk.  
-2.  Välj åtgärden **Hämta dist.lager dokument**.  
-3.  Välj de utleveranser som du vill förbereda en plockning för. Du kan nu sortera raderna i viss mån, men den sortering som du gör här överförs inte till plockningsinstruktionen. Du kan också ta bort en del rader för att skapa en effektivare plockning. Om det till exempel finns rader med artiklar på lagerplatser för direktutleveranser kanske du vill skapa en plockning för alla rader som är kopplade till dessa. Artiklarna för direktutleverans utlevereras, tillsammans med övriga artiklar i utleveransen, och lagerplatserna för direktutleveranser får därmed plats för fler inkommande artiklar.  
-4.  Välj åtgärden **Skapa plockning** och fyll i sidan för begäran om **Skapa plockning**. De plockningsrader som du skapar ordnas enligt den sortering som du väljer här. Du kan till exempel skapa en plockning för varje zon och sortera raderna efter lagerplatsordning i varje plockning.  
-5.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Plockningar** och välj sedan relaterad länk. Sidan **Plockningar** öppnas.  
-6.  Nu kan du visa den plockningsfördelning som du just skapade genom att välja plockningen med det högsta numret.  
-7.  I plockningen kan du fortfarande modifiera det tilldelade användar-ID:t och hur raderna sorteras om det behövs.  
-8.  Välj åtgärden **Skriv ut** när du vill skriva ut instruktioner.  
+## <a name="sorting-lines-on-a-pick-worksheet"></a>Sortera rader på ett plockningsförslag
+Du kan sortera rader efter artikel, hyllnummer, källdokument, förfallodatum eller destination. Här följer några exempel på hur sortering kan användas.
+
+* Om du sorterar efter förfallodatum kan du välja att ta bort alla rader utom de allra mest kritiska. Egentligen raderas inte de mindre kritiska raderna, utan skickas bara tillbaka till kalkylarket **Plockningsval**. När du skapar plockningen har raderna redan sorterats efter förfallodatum och du kan välja att tilldela en anställd plockningen.
+* Om lagerplatserna är numrerade så att de överensstämmer med distributionslagrets fysiska struktur kan det vara enklare att plocka flera olika leveranser samtidigt när du sorterar rader per lagerplatsnummer. 
+* Om du använder lagerplatsordning kan sortering efter rangordning spara tid. 
+* Du kan sortera efter mål, så att du kan sätta samman och leverera order per kund.
+
+## <a name="to-plan-picks-in-the-worksheet"></a>Så här planerar du plockningar i kalkylarket
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
+2. Välj åtgärden **Hämta dist.lager dokument**.  
+3. Välj de utleveranser som du vill förbereda en plockning för. Du kan sortera raderna, men sorteringen tillämpas inte på plockningsinstruktionen. Du kan också ta bort en del rader för att skapa en effektivare plockning. Om det till exempel finns rader med artiklar på lagerställen för direktutleveranser kanske du vill skapa en plockning för alla rader. Artiklarna för direktutleverans utlevereras, tillsammans med övriga artiklar i utleveransen, och lagerställena för direktutleveranser får därmed plats för fler inkommande artiklar.  
+4. Välj åtgärden **Skapa plockning** och fyll i sidan för **Skapa plockning**. De plockningsrader som du skapar ordnas enligt den sortering som du väljer här. Du kan till exempel skapa en plockning för varje zon och sortera raderna efter lagerplatsordning i varje plockning.  
+5. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerplockningar** och väljer sedan relaterad länk. Fönstret **Distributionslagerplockningar** öppnas.  
+6. Nu kan du visa den plockningsfördelning genom att välja plockningen med det högsta numret.  
+7. Om det behövs kan du tilldela en annan användare eller sortera raderna på olika sätt.  
+8. Välj åtgärden **Skriv ut** när du vill skriva ut instruktioner.  
 9. När du har utfört plockningen, väljer du åtgärden **Registrera**.  
 
-Om lagerplatserna har numrerats på ett sätt som återspeglar lagrets fysiska struktur kan den lageranställda, för rader som sorterats efter lagerplatskod, enkelt plocka artiklar för flera olika utleveranser på en gång. Den anställda hämtar begärt antal artiklar för respektive utleveransrad från varje lagerplats och placerar dem tillsammans med övriga artiklar för aktuell utleverans. Den lageranställda kan spara mycket tid på att plocka artiklar på samma lagerplats för flera utleveranser samtidigt.  
-
-En annan effektiv sorteringsmetod är lagerplatsordning, som lämpar sig då lagrets fysiska struktur bättre återspeglar lagerplatsernas ordning än lagerplatsernas koder.  
-
-I plockningskalkylarket kan du även sortera efter leveransadress, vilket ger dig möjlighet att sammanställa och leverera beställningar till avlägsna kunder först.  
-
 ## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
-[Monteringshantering](assembly-assemble-items.md)    
+[Lager](inventory-manage-inventory.md)  
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Monteringshantering](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

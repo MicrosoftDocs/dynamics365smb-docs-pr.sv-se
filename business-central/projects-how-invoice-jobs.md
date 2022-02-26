@@ -1,21 +1,22 @@
 ---
-title: Skapa en försäljningsfaktura för att fakturera ett projekt | Microsoft Docs
-description: Beskriver hur du kan fakturera kunder för projektutgifter allt eftersom projektet fortskrider.
+title: Skapa en försäljningsfaktura för att fakturera ett projekt
+description: Beskriver hur du kan fakturera kunder för projektutgifter allt eftersom projektet fortskrider och kostnader ackumuleras.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 05/25/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.search.form: 1002, 1007,
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402492"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973790"
 ---
 # <a name="invoice-jobs"></a>Fakturera projekt
 Under projektet kan projektkostnade från resursförbrukning, material och projektrelaterade inköp uppstå. Dessa transaktioner bokförs i projektjournalen. Det är viktigt att alla kostnader registreras i projektjournalen innan kunden faktureras.
@@ -33,7 +34,7 @@ Du kan skapa en faktura för ett projekt för en eller flera projektaktiviteter 
 
 Efterföljande procedur visar hur du kan använda ett batch-jobb för att fakturera flera projekt.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Skapa försäljningsfaktura för jobb** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt – Skapa förs.faktura** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Ange filter om du vill begränsa de projekt som ska bearbetas av batch-jobbet.
 4. Klicka på **OK** för att skapa fakturorna.  
@@ -46,12 +47,12 @@ Du kan granska och bokföra skapade fakturor i fönstret **Försäljningsfakturo
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Så här skapar och publicerar du en försäljningsfaktura för projekt från projektplaneringsrader
 Du kan skapa en faktura från projektplaneringsrader och då ange antal av artikeln, resursen eller redovisningskontot som du vill fakturera.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.
 2. Öppna ett relevant projekt.
 3. Markera ett projekt där fältet **Typ av projektaktivitet** innehåller **Bokföring** och klicka sedan på åtgärden **Projektplaneringsrader**.  
 4. Gå till fältet **Antal att överföra till faktura** på en projektplaneringsrad och ange antal av artikeln, resursen, typen av redovisningskonto som du vill fakturera.  
 5. Välj åtgärden **Skapa försäljningsfaktura**.
-6. På sidan **Projekt - Skapa förs.faktura** anger du bokföringsdatum och om du vill skapa en ny faktura eller koppla denna faktura till en befintlig.
+6. På sidan **Projekt – Skapa förs.faktura** anger du bokföringsdatum och om du vill skapa en ny faktura eller koppla denna faktura till en befintlig.
 7. Välj **OK**.  
 8. På sidan **Projektplaneringsrader** väljer du åtgärden **Försäljningsfakturor/kreditnotor**.
 
@@ -61,25 +62,13 @@ Du kan skapa en faktura från projektplaneringsrader och då ange antal av artik
 > [!NOTE]  
 >   Ovanstående process är liknande för att skapa, granska och publicera en projektrelaterad försäljningskreditnota.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Beräkna och bokföra slutförda projekt
-När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen och faktureringen av förbrukning, måste du uppdatera projektet så att projektet får **Statusen** **Slutförd**. Sedan måste du återföra alla PIA som har bokförs i redovisningen.
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Projekt** och välj sedan tillhörande länk.  
-2. Välj ett öppet projekt och välj sedan åtgärden **Redigera**.
-3. Markera **Slutförd** i fältet **Status** .
-4. Följ hjälpstegen steg för att beräkna och bokföra PIA. Följ alternativt steg 5 och 6 för att göra det manuellt.  
-5. Välj åtgärden **Beräkna PIA**.
-6. På sidan **Projekt - Beräkna PIA** fyller du i fälten efter behov.  
-
-     De PIA-transaktioner för jobbet som skapas när du kör batch-jobbet kommer nu att ha fältet **Slutfört projekt** markerat för att visa att de är slutförda.  
-7. Välj åtgärden **Projekt - Bokför PIA i redovisning**.
-8. På sidan **Projekt - Bokför PIA i redovisning** fyller du i fälten efter behov.  
-
-     De PIA-transaktioner för jobbet som skapas när du kör batch-jobbet kommer nu att ha fältet **Slutfört projekt** markerat för att visa att de är slutförda.
 
 ## <a name="see-also"></a>Se även
 [Hantera projekt](projects-manage-projects.md)  
 [Ekonomi](finance.md)  
 [Inköp](purchasing-manage-purchasing.md)         
 [Försäljning](sales-manage-sales.md)      
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

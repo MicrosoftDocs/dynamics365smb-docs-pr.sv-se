@@ -1,21 +1,21 @@
 ---
-title: Lägga upp bästa praxis - Planeringsparametrar | Microsoft Docs
-description: Snabbfliken Planering på artikelkortet är mitten av ett företags försörjningskedja. Det är mycket viktigt att ställa in rätt planeringsparametrar för kostnadseffektiv lagerkontroll och hög kundservicenivå.
+title: Skapa metodtips - planeringsparametrar
+description: I det här avsnittet beskrivs regelverk för hur du skapar valda planeringsparameter fält med snabbfliken Planering på artikelkortet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8ff874a076aa1a0bba09e1277cb19ee6553eaa8b
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271924"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320062"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Skapa metodtips: planeringsparametrar
 Snabbfliken **Planering** på artikelkortet är mitten av ett företags försörjningskedja. Det är mycket viktigt att ställa in rätt planeringsparametrar för kostnadseffektiv lagerkontroll och hög kundservicenivå.  
@@ -25,7 +25,7 @@ Snabbfliken **Planering** på artikelkortet är mitten av ett företags försör
 |Inställningsfält|Best practice|Kommentar|  
 |-----------------|-------------------|-------------|  
 |Partiformningsmetod||Mer information finns i [Skapa metodtips: partiformningsmetoder](setup-best-practices-reordering-policies.md).|  
-|Reservera|Välj **aldrig**, när artikeln planeras med hjälp av en beställningspunkt.<br /><br /> I tillverkning, välj **aldrig** för att låta planeringssystemet omfatta alla kunderna.<br /><br /> Välj **Valfri** för de artiklar som du kan vilja reservera för kunder som har högsta priorit.<br /><br /> Välj **alltid** för icke-unika artiklar, till exempel artiklar av typen diverse som är ankommande för specifika behov.|Reservationer motverkar i allmänhet syftet med planering, som är att balansera tillgång och efterfrågan. Därför bör artiklar som har upprättats för planering, generellt sett inte reservers.<br /><br /> Om användaren reserverar en lagerkvantitet för framtida behov, störs fönstret planeringsgrund, och beställningspunkten kan inte användas på rätt sätt. Även om den planerade distributionslagernivån är accepterad av ordermottagaren med hänsyn till beställningspunkten, kan det hända att antalet inte är tillgängligt på grund av reservation.|  
+|Reservera|Välj **aldrig**, när artikeln planeras med hjälp av en beställningspunkt.<br /><br /> I tillverkning, välj **aldrig** för att låta planeringssystemet omfatta alla kunderna.<br /><br /> Välj **Valfri** för de artiklar som du kan vilja reservera för kunder som har högsta priorit.<br /><br /> Välj **alltid** för icke-unika artiklar, till exempel artiklar av typen diverse som är inkommande för specifika behov.|Reservationer motverkar i allmänhet syftet med planering, som är att balansera tillgång och efterfrågan. Därför bör artiklar som har upprättats för planering, generellt sett inte reservers.<br /><br /> Om användaren reserverar en lagerkvantitet för framtida behov, störs fönstret planeringsgrund, och beställningspunkten kan inte användas på rätt sätt. Även om den planerade distributionslagernivån är accepterad av ordermottagaren med hänsyn till beställningspunkten, kan det hända att antalet inte är tillgängligt på grund av reservation.|  
 |Max. utjämningsperiod|Ange med hänsyn till leverantörens flexibilitet.<br /><br /> En kortare period gör det möjligt att minska rörelsekapitalet genom att undvika alltför mycket lager, utan även fler åtgärder vid omplanering.|Om leverantören accepterar sista minuten-ändringar i order, använd en kortare period men var beredd att göra flera åtgärder för omplanering. Om leverantören kräver fast planering, utöka din period så mycket som möjligt.<br /><br /> Information om globala inställningar finns i fältet **Max. utjämningsperiod** se [Detaljer: planeringsparametrar](design-details-planning-parameters.md).|  
 |Ta med lager|Välj alltid när du använder partiformningsmetoden parti-för-parti.|Välj inte endast i vissa situationer, t.ex, när lagerartiklar inte är säljbara.|  
 |Säkerhetsledtid|Ställ in mellan 1D och 6D.<br /><br /> Ange en säkerhetsledtid på minst en dag för att se till att leveransen är tillgänglig dagen innan de behövs.<br /><br /> Definiera en längre tid, till dess att deras leveransprestanda är känd, om du använder en ny leverantör.<br /><br /> Definiera längre säkerhetsledtider för kritiska komponenter i produktionen.|Leverans som planeras i systemet för att undvika att varan tar slut i lager kommer på samma dag som varan tar slut. Det kan vara flera timmar för sent, om till exempel, leveransen behövs på morgonen, och den tas emot på eftermiddagen. **Obs!** Fältet **Säkerhetsledtid** använder baskalendern. Därför är 14D inte nödvändigtvis två veckor.|  
@@ -45,4 +45,7 @@ Snabbfliken **Planering** på artikelkortet är mitten av ett företags försör
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

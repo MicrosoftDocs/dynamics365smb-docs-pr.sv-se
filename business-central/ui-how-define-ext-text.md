@@ -1,27 +1,30 @@
 ---
-title: Lägg till ytterligare rader när du definierar utökade artikelbeskrivningar | Microsoft Docs
-description: Du kan lägga till ytterligare rader om du vill utöka standardtexten som beskriver en artikel.
-services: project-madeira
-documentationcenter: ''
+title: Lägg till extratext
+description: Du kan lägga till ytterligare rader om du vill utöka standardtexten som beskriver en artikel, ett redovisningskonto och andra data.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c50e37b450718c749ef04add823d7012899a7d81
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 391, 30
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 0a9a56e44ecf9e832da99f60a6256aa93240e524
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311002"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101197"
 ---
-# <a name="add-extended-item-text"></a>Lägg till utökad artikeltext
-Du kan utöka en standardtext för artiklar genom att lägga till extrarader och du kan ange villkor för användningen av extraraderna. Detta kan du göra från artikelkort.
+# <a name="add-extended-text"></a>Lägg till extratext
 
-## <a name="to-define-extended-text-for-an-item-description"></a>Om du vill definiera extratexten för en objektbeskrivning
+Du kan utöka beskrivningen av artiklar, lagerhållningsenheter, redovisningskonton och resurser genom att lägga till extra rader som extratext. Du kan också ange villkor för hur de extra raderna ska användas.  
+
+I följande avsnitt beskrivs hur du lägger till extratext i en beskrivning av en artikel. Men samma steg gäller för lager enheter, redovisningskonton och resurser.  
+
+## <a name="to-define-extended-text-for-an-description"></a>Om du vill definiera extratexten för en beskrivning
+
 1. Öppna kortet för en artikel som du vill lägga till extratext på, och välj sedan åtgärden **Extratext**.
 2. Fyll i fälten **Kod** och **Beskrivning**.
 3. Välj **Ny**.
@@ -31,10 +34,17 @@ Du kan utöka en standardtext för artiklar genom att lägga till extrarader och
 7. Markera relevanta kryssrutor för dokumenttyperna där du vill att extratexten ska skrivas ut.
 8. Stäng sidan.
 
+Nu kan du lägga till den utökade texten i dokument. I proceduren nedan beskrivs hur du lägger till extratext på en försäljningsorder, men samma steg gäller för andra dokument som du har angett för den extratext.  
+
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>För att lägga till en utökad artikeltext på en försäljningsorderrad.
+
 1. Öppna en försäljningsorder med en försäljningsrad för en artikel som har förlängd text som har definierats. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 2. Markera den aktuella raden och välj sedan åtgärden **Infoga förl. text**.
 
 ## <a name="see-also"></a>Se även
+
 [Ställa in lager](inventory-setup-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

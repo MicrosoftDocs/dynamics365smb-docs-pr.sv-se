@@ -1,25 +1,25 @@
 ---
-title: Lokal funktionalitet för Sverige
-description: I följande avsnitt beskrivs den lokala funktionaliteten i den svenska versionen av Business Central.
+title: Lokal funktionalitet för Sverige [SE]
+description: I följande avsnitt beskrivs den olika lokala funktionaliteten i den svenska versionen av Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
-ms.author: sgroespe
-ms.openlocfilehash: c3c8c9d86430e6ecb3ffcde790c48882b01a06c5
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: 64f1cbaafe51376f0e65aa33d3a3dbc0b6688a54
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454264"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321740"
 ---
-# <a name="sweden-local-functionality"></a>Lokal funktionalitet för Sverige
+# <a name="sweden-local-functionality-in-the-swedish-version"></a>Sverige lokala funktioner i den svenska versionen
 
-I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den svenska versionen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Tillgänglighet för funktioner  
 
@@ -34,7 +34,10 @@ I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den s
 
 ## <a name="see-also"></a>Se även
 
-[Arbeta med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Tillgänglighet för land/region och språk som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

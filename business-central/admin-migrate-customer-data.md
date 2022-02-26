@@ -1,24 +1,25 @@
 ---
-title: Migrera kunddata | Microsoft Docs
-description: Du kan migrera befintliga kunddata från ett befintligt ERP-system till Business Central med hjälp av RapidStart Services. Du kan använda Excel-filer (.xlsx) som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
+title: Migrera kunddata
+description: Du kan migrera befintliga kunddata från ett befintligt system till Business Central med hjälp av RapidStart Services – eller bara registrera datan direkt i företaget.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 48ce8c293b5af411763a8730c9f7d16113062d9a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186866"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437472"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
-Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
+
+Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
 
 > [!NOTE]
 > Fält av BLOB-typen kan inte exporteras/importeras med Excel.
@@ -38,10 +39,10 @@ Innan du börjar måste du kontrollera att du har behörighet att köra RapidSta
 >
 >  Du kan importera ett konfigurationspaket som har exporterats från en databas och har ett annat schema än i måldatabasen. Men alla tabeller och fält i konfigurationspaketet som saknas i måldatabasen importeras inte.
 >
-> Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t.ex. konfigurationspaketet innehåller tabellen **50000 Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000 Kundbankkonto** som har primärnyckeln **Code20 + Code 20** importeras inte data.  
+> Tabeller med olika primärnycklar och fält med olika datatyper importeras inte heller korrekt. Om t. ex. konfigurationspaketet innehåller tabellen **50000 Kund** som har primärnyckeln **Code20** och databasen som du importerar paketet till innehåller tabellen **50000 Kundbankkonto** som har primärnyckeln **Code20 + Code 20** importeras inte data.  
 
 1. Öppna det nya företaget.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 3. Välj åtgärden **Importera paket**. Navigera till det .rapidstart-paket som du vill importera och klicka på åtgärden **Öppna**. Under importen expanderas paketinnehållen, och paketposten skapas.  
 
     När importen är klar kan du visa antalet konfigurationstabeller som har importerats i fältet **Antal tabeller**.  
@@ -62,7 +63,7 @@ Du kan skapa nya datamigreringsfiler och anpassa dem för att stödja din verksa
 > [!TIP]
 > En fil kan dock endast användas för att migrera ett fält som har egenskapsuppsättningen **FieldClass** inställd på **Normal**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 2. Markera och öppna paketet som du vill använda för att flytta data och välj sedan åtgärden **Hämta tabeller**. Sidan **Hämta pakettabell** öppnas.  
 3. I fältet **TableID** anger du ett tabellnummer eller väljer ett tabell-id i listan, till exempel, tabell **Kund**. Fälten **Tabellnamn** fylls i automatiskt.  
 4. Välj den nya flyttningstabellen, klicka på fliken **tabeller** och välj åtgärden **Fält**. Sidan **Flyttningsfält** öppnas.  
@@ -78,7 +79,7 @@ En ny flyttningstabell skapas.
 ## <a name="to-export-data-migration-files"></a>Så här exporterar du datamigreringsfiler
 När du har bestämt vilka tabeller du vill överföra kunddata till, exporterar du filerna.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 2. Markera och öppna paketet som du vill använda för export.
 3. Markera den eller de tabell(er) som du vill exportera och klicka sedan på åtgärden **Exportera till Excel**.
 4. Spara den exporterade Excel-filen.  
@@ -87,19 +88,19 @@ När du har bestämt vilka tabeller du vill överföra kunddata till, exporterar
 Om tabellen är tom innehåller datamigreringsfilen tomma celler för fält som du valde när du väljer eller skapar flyttningstabeller för ditt nya företag. Om den markerade datamigreringstabellen innehåller data ska den exporteras.  
 
 ## <a name="to-map-values-to-be-used-during-import"></a>Så här mappar du värden som ska användas vid import
-När du använder data som har importerats från Excel eller från ett RapidStart-paket behandlar och hanterar [!INCLUDE[d365fin](includes/d365fin_md.md)] mappningen utifrån tabellrelationer:  
+När du använder data som har importerats från Excel eller från ett RapidStart-paket behandlar och hanterar [!INCLUDE[prod_short](includes/prod_short.md)] mappningen utifrån tabellrelationer:  
 
-- Om du definierar en mappning direkt för ett fält i en tabell använder [!INCLUDE[d365fin](includes/d365fin_md.md)] den.  
+- Om du definierar en mappning direkt för ett fält i en tabell använder [!INCLUDE[prod_short](includes/prod_short.md)] den.  
 
-- Om fältet har en relation till en annan tabell söker [!INCLUDE[d365fin](includes/d365fin_md.md)] efter den mappning som definierats för primärnyckelfältet i den relaterade tabellen. Den relaterade tabellen måste dock ingå i konfigurationspaketet.  
+- Om fältet har en relation till en annan tabell söker [!INCLUDE[prod_short](includes/prod_short.md)] efter den mappning som definierats för primärnyckelfältet i den relaterade tabellen. Den relaterade tabellen måste dock ingå i konfigurationspaketet.  
 
-- Om mappningen av information har definierats på båda platserna, direkt för fältet och för primärnyckeln i den relaterade tabellen, kommer [!INCLUDE[d365fin](includes/d365fin_md.md)] att söka efter mappningen på båda platserna.  
+- Om mappningen av information har definierats på båda platserna, direkt för fältet och för primärnyckeln i den relaterade tabellen, kommer [!INCLUDE[prod_short](includes/prod_short.md)] att söka efter mappningen på båda platserna.  
 
 - Om samma mappningar definieras direkt för ett fält och i den relaterade tabellen, men har olika nya värden, får den mappning som definieras direkt för fältet prioritet över den mappning som definieras för tabellen som fältet refererar till.  
 
-I följande procedurer ska du granska i förväg vilka värden som du vill bibehålla under flyttningsprocessen. För att utföra följande procedurer kommer du att behöva datamigreringsfiler (.xlsx) som du har exporterat från [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [så här: exportera flyttningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
+I följande procedurer ska du granska i förväg vilka värden som du vill bibehålla under flyttningsprocessen. För att utföra följande procedurer kommer du att behöva datamigreringsfiler (.xlsx) som du har exporterat från [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [så här: exportera flyttningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.
 2. Öppna paketet för det aktuella företaget.  
 3. Välj tabellen som du vill mappa värden för, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
 4. För varje fält som du vill koppla väljer du åtgärden **Mappa**.  
@@ -110,20 +111,20 @@ I följande procedurer ska du granska i förväg vilka värden som du vill bibeh
 9. Använd den mappning som du har ställt in genom att välja åtgärden **Koppla Data**.  
 
 ### <a name="mapping-example"></a>Mappningsexempel  
-Följande exempel visar hur [!INCLUDE[d365fin](includes/d365fin_md.md)] implementerar mappning av definitioner.  
+Följande exempel visar hur [!INCLUDE[prod_short](includes/prod_short.md)] implementerar mappning av definitioner.  
 
 1. Skapa en konfigurationstabell som har en **säljare/köpare**-tabell Definiera en mappning för fältet **Kod**.  
 2. Lägg till ytterligare tabeller i paketet, till exempel **Kund** och **Leveratör**. Dessa båda tabeller refererar till tabell **Säljare/köpare** via fälten **Säljarkod** och **Köparkod**.  
 3. När du kopplar data beaktas även den mappning du angav för fältet **Kod** i tabellen **Säljare/köpare** vid bearbetningen av fälten **Säljarkod** och **Köparkod**.
 
-## <a name="to-add-additional-values-to-d365fin"></a>Så här lägger du till ytterligare värden i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+## <a name="to-add-additional-values-to-prod_short"></a>Så här lägger du till ytterligare värden i [!INCLUDE[prod_short](includes/prod_short.md)]  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 2. Välj tabellen som du vill lägga till ytterligare värden i, och på fliken **Tabeller** väljer du sedan åtgärden **Fält**.  
-3. Välj kryssrutan som du vill att [!INCLUDE[d365fin](includes/d365fin_md.md)] ska tillåta ytterligare värden för vid migrering **Skapa saknade koder**.  
+3. Välj kryssrutan som du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska tillåta ytterligare värden för vid migrering **Skapa saknade koder**.  
 4. Importera kunddata. Mer information finns också i [Så här importerar du kunddata](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Så här rensar du upp och bearbetar data innan du kopplar data
-I vissa fall kan det hända att du vill rensa upp kunddata och bearbeta dem, innan du kopplar dem till databasen. Om du vill göra det, använd batch-jobbet **Konfig.paket - behandla** för att åtgärda fel som exempelvis:  
+I vissa fall kan det hända att du vill rensa upp kunddata och bearbeta dem, innan du kopplar dem till databasen. Om du vill göra det, använd batch-jobbet **Konfig.paket – behandla** för att åtgärda fel som exempelvis:  
 
 - Konvertera data och decimaler till det format som krävs av de regionala inställningarna på en användares dator.  
 - Ta bort inledande/efterföljande blanksteg eller specialtecken.  
@@ -142,7 +143,7 @@ Om du behöver hjälp med XML så aktiverar du fliken **Utvecklare** i Excel-bal
 Följande procedur baseras på en Excel-blad som du har skapat för datamigrering. Mer information finns i [så här: exportera flyttningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
-> Ändra inte kolumnerna i Excel-kalkylarken. Om de flyttats, ändras eller tas bort, kan kalkylarket inte importeras till [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Ändra inte kolumnerna i Excel-kalkylarken. Om de flyttats, ändras eller tas bort, kan kalkylarket inte importeras till [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Öppna den exporterade datafilen i Excel. Det finns ett kalkylark med namnet på tabellen.
 2. Byt namn på Blad1 för att ange att detta kalkylark ska användas för att omformar data. Kopiera huvudraden utan formatering från den exporterade tabellen till den nya kalkylarket.
@@ -151,10 +152,10 @@ Följande procedur baseras på en Excel-blad som du har skapat för datamigrerin
 5. När du har mappat alla data kopierar du dataintervallet till tabellkalkylarket.
 6. Spara filen och se till att du inte ändrar filtypen.
 
-Nu är du redo att importera datamigreringsfilerna som innehåller bakåtkompatibla data för kunder till [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Nu är du redo att importera datamigreringsfilerna som innehåller bakåtkompatibla data för kunder till [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-import-customer-data"></a>Så här importerar du kunddata
-När kunddatan har registrerats i datamigreringsfilerna i Excel importerar du filerna till [!INCLUDE[d365fin](includes/d365fin_md.md)].
+När kunddatan har registrerats i datamigreringsfilerna i Excel importerar du filerna till [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Öppna sidan **Konfig. paketkort**.
 2. Välj tabellen som du vill importera data för, och på fliken **Tabeller** väljer du sedan åtgärden **Importera från Excel**.
@@ -167,7 +168,7 @@ När kunddatan har registrerats i datamigreringsfilerna i Excel importerar du fi
 Data från filen importeras till tabellerna i konfigurationspaketet. I fältet **Antal paketposter** kan du visa antalet poster som har importerats. Dessutom kan du visa antalet flyttningsfel.
 
 ## <a name="to-validate-customer-data"></a>Så här validerar du kunddata
-Kunddata måste valideras innan du kan kopplar transaktioner till [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
+Kunddata måste valideras innan du kan kopplar transaktioner till [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 
 > [!NOTE]  
 >  Oftast skapas inte inte felaktiga data i databasen. Programmet kan dock blockeras tillfälligt, om en importerad flyttningstabell innehåller fel.  
@@ -184,7 +185,7 @@ När du har gjort en korrigering, tas posten bort från listan över poster på 
 Nu är du redo för att koppla kundens data till databasen.  
 
 ## <a name="to-apply-customer-data"></a>Så här tillämpar du kunddata
-När du har importerat alla datamigreringsposter med giltiga, felfria data kan du tillämpa posterna i databasen [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+När du har importerat alla datamigreringsposter med giltiga, felfria data kan du tillämpa posterna i databasen [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 1. Öppna sidan **Konfigurationspaket**.  
 2. Välj tabellen för den datamigreringsfil som du vill koppla och välj sedan åtgärden **Koppla data**.
@@ -196,3 +197,6 @@ Kundföretagets databas är nu skapad, och grunddata har importerats. Ditt näst
 ## <a name="see-also"></a>Se även  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

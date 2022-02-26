@@ -1,21 +1,21 @@
 ---
-title: Koppla konfiguration till nya företag | Microsoft Docs
-description: När du har skapat ett konfigurationspaket är nästa steg att distribuera paketet till kunden för implementering. Du använder konfigurationen med ett nytt tomt företag.
+title: Koppla konfigurationen till nya företag
+description: När du har skapat ett konfigurationspaket distribuera paketet till kunden för implementering. Du använder konfigurationen med ett nytt tomt företag.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 56190be2caf1c31cf7c78d1a452d03ba7deea58e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187490"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324106"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Koppla konfigurationen till nya företag
 När du har skapat ett konfigurationspaket är nästa steg att distribuera paketet till kunden för implementering. Du använder konfigurationspaketet med ett nytt tomt företag.  
@@ -33,3 +33,6 @@ När du har skapat ett konfigurationspaket är nästa steg att distribuera paket
 ## <a name="see-also"></a>Se även  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

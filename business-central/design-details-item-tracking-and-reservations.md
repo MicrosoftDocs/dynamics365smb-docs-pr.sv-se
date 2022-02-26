@@ -1,23 +1,24 @@
 ---
-title: Designdetaljer - Artikelspårning och reservationer | Microsoft Docs
-description: Det här avsnittet handlar om artikelspårning och reservationer och beskriver koncepten bakom de två.
+title: Designdetaljer - Artikelspårning och reservationer
+description: Det här avsnittet handlar om artikelspårning och reservationer och beskriver koncepten bakom de två alternativen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: d2c5032983bd20fc1e8fa902bd6ed522506fc5b3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185114"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320894"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
+
 Samtidigt användning av reservation och specifik artikelspårning är ovanlig, eftersom de båda skapar en koppling mellan tillgång och efterfrågan. Förutom i situationer där en kund eller en produktionsplanerare begär ett visst parti, är det sällan meningsfullt att reservera lagerartiklar som har redan artikelspårningsnummer för viss koppling. Även om det är möjligt att reservera artiklar som kräver särskild artikelspårning, krävs särskilda funktioner för att undvika konflikter mellan orderhandläggare som begär samma spårade artiklar.  
   
 Begreppet Sen bindning säkerställer att en icke-specifik reservation av serienummer eller partinummer förblir löst kopplad till bokföringen. Vid bokföringstiden kan reservationsystemet blanda om icke-specifika reservationer för att se till att fasta kopplingar är möjliga för det serie- eller partinummer som faktiskt plockas. Under tiden görs serie- eller partinumret tillgängligt för specifik reservation i andra dokument som begär just det serie- eller partinumret.  
@@ -25,22 +26,21 @@ Begreppet Sen bindning säkerställer att en icke-specifik reservation av serien
 En icke-specifik reservation är en där användaren inte att bry sig om vilken specifik artikel som plockas, och en specifik reservation är en där användaren att bryr sig.  
   
 > [!NOTE]  
->  Funktionen Sen bindning gäller endast för artiklar som ställs in med specifik artikelspårning och den gäller endast för reservationer mot lager, inte mot den ankommande leveransorder.  
+> Funktionen Sen bindning gäller endast för artiklar som ställs in med specifik artikelspårning och den gäller endast för reservationer mot lager, inte mot den ankommande leveransorder.  
   
 Reservation av artikelspårningsnummer är uppdelad i två kategorier, som visas i följande tabell.  
   
 |Reservation|Description|  
 |-----------------|---------------------------------------|  
-|Specifik|Du väljer ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t.ex. en försäljningsorder.<br /><br /> Detta är en reguljär reservation. Det är en fast länk mellan tillgång och efterfrågan som båda har serie- eller partinummer. **Obs:**  Efterfrågan har serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från parti A eftersom kunden begär det. En burk med blå färg från ett Parti A levereras till kunden.|  
-|Icke-specifik|Du väljer inte ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t.ex. en försäljningsorder.<br /><br /> Detta är läge som läggs på en reservationstransaktion för serie- eller partinummer som inte har har valts specifikt. **Obs:** Efterfrågan har inte serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från ett valfritt parti för din försäljningsorder. En burk med blå färg från ett slumpmässigt serie- eller partinumret levereras till kunden.|  
+|Specifik|Du väljer ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t. ex. en försäljningsorder.<br /><br /> Detta är en reguljär reservation. Det är en fast länk mellan tillgång och efterfrågan som båda har serie- eller partinummer. **Obs:**  Efterfrågan har serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från parti A eftersom kunden begär det. En burk med blå färg från ett Parti A levereras till kunden.|  
+|Icke-specifik|Du väljer inte ett visst serie- eller partinummer när du reserverar lagerartikeln från ett behov, t. ex. en försäljningsorder.<br /><br /> Detta är läge som läggs på en reservationstransaktion för serie- eller partinummer som inte har har valts specifikt. **Obs:** Efterfrågan har inte serie- eller partinummer. <br /><br /> Till exempel, du vill reservera en burk med blå färg från ett valfritt parti för din försäljningsorder. En burk med blå färg från ett slumpmässigt serie- eller partinumret levereras till kunden.|  
   
 Den huvudsakliga skillnaden mellan specifika och icke-specifika reservationer definieras av förekomsten av serie- eller partinummer på efterfråganssidan, så som visas i följande tabell.  
-  
-||||  
-|-|-|-|  
-||**Tillgång**|**Efterfrågan**|  
-|**Specifik**|Serie- eller partinummer.|Serie- eller partinummer.|  
-|**Icke-specifik**|Serie- eller partinummer.|Inget serie- eller partinummer|  
+
+| Typ            | Tillgång                | Behov                   |
+|-----------------|-----------------------|--------------------------|
+| **Specifik**    | Serie- eller partinummer. | Serie- eller partinummer.    |
+| **Icke-specifik** | Serie- eller partinummer. | Inget serie- eller partinummer |
   
 När du reserverar lagerkvantiteter från en avgående dokumentrad för en artikel som har artikelspårningsnummer tilldelade och är inställd för särskild artikelspårning, leder sidan **Reservation** dig via olika arbetsflöden beroende på vad du behöver för serie- eller partinumren.  
   
@@ -54,7 +54,7 @@ Om du väljer **Nr** i dialogrutan som visas öppnas sidan **Reservation** och d
   
 På grund av strukturen i reservationsystemet måste systemet välja specifika artikeltransaktioner att reservera mot när du gör en icke-specifik reservation för en artikelspårad artikel. Eftersom artikeltransaktionerna har artikelspårningsnumren, reserverar reservationen indirekt specifika serie- eller partinummer, även om du inte avsåg att göra det. För att hantera den här situationen försöker reservationssystemet ombilda icke-specifika reservationstransaktioner före bokföring.  
   
-Systemet reserverar faktiskt fortfarande mot specifika transaktioner, men det använder sedan en ombildningsmekanism när som helst det finns en viss efterfrågan för parti- eller serienumret i den icke-specifika reservationen. Det kan vara fallet när du bokför en efterfråganstransaktion, t.ex. en försäljningsorder, förbrukningsjournal eller överföringsorder för serie- eller partinumret, eller när du försöker att reservera ett specifikt serie- eller partinummer. Systemet ombildar reservationerna för att göra parti- eller serienumret tillgängliga för efterfrågan eller den specifika reservationen och därmed ange ett annat parti- eller serienummer i den icke-specifika reservationen. Om det finns otillräckliga antal i lager stuvar systemet om så mycket som möjligt och du får ett dispositionsfel om det fortfarande finns otillräckliga antal vid bokföringstidpunkten.  
+Systemet reserverar faktiskt fortfarande mot specifika transaktioner, men det använder sedan en ombildningsmekanism när som helst det finns en viss efterfrågan för parti- eller serienumret i den icke-specifika reservationen. Det kan vara fallet när du bokför en efterfråganstransaktion, t. ex. en försäljningsorder, förbrukningsjournal eller överföringsorder för serie- eller partinumret, eller när du försöker att reservera ett specifikt serie- eller partinummer. Systemet ombildar reservationerna för att göra parti- eller serienumret tillgängliga för efterfrågan eller den specifika reservationen och därmed ange ett annat parti- eller serienummer i den icke-specifika reservationen. Om det finns otillräckliga antal i lager stuvar systemet om så mycket som möjligt och du får ett dispositionsfel om det fortfarande finns otillräckliga antal vid bokföringstidpunkten.  
   
 > [!NOTE]  
 >  På en icke-specifik reservation är partinummer- eller serienummerfältet tomt i reservationstransaktionen som pekar på efterfrågan, till exempel försäljningen.  
@@ -92,3 +92,5 @@ Affärsscenariot stöds med funktionen Sen bindning som möjliggör fast kopplin
   
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

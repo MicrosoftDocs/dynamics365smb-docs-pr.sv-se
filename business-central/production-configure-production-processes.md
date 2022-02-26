@@ -1,24 +1,25 @@
 ---
-title: Konfigurera produktionsprocesser | Microsoft Docs
-description: För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t.ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
+title: Konfigurera produktionsprocesser
+description: För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/22/2020
-ms.author: sgroespe
-ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324348"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972362"
 ---
 # <a name="setting-up-manufacturing"></a>Ställa in Produktion
-För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t.ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
+
+För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
 
 I systemet representeras operatörer och maskiner som maskingrupper, vilka i sin tur kan organiseras i produktionsgrupper. När dessa resurser upprättats kan de laddas med operationer enligt den material- (struktur) och processtruktur (verksamhetsföljd) som definierats för artikeln samt utifrån maskin- eller produktionsgruppens kapacitet. Du kan även ställa in produktionskapaciteten för varje resurs. Kapaciteten definieras av den arbetstid som finns tillgänglig i maskin- och produktionsgrupperna, och den styrs av kalendrar på alla nivåer. I en produktionsgruppkalender anges de arbetsdagar/arbetstimmar, skift, helgdagar och frånvaro som avgör den tillgängliga bruttokapaciteten (och som vanligtvis mäts i minuter). Allt detta avgörs utifrån de effektivitets- och kapacitetsvärden som har definierats.  
 
@@ -33,7 +34,7 @@ När du har lagt upp produktion kan du planera och utföra produktionsorder. Mer
 |Konfigurera produktionsfunktionerna, till exempel definiera arbetstimmar för en fabrik eller välja planeringsparametrar.|Sidan **Produktionsinställningar**.|
 |PÅ fliken **planering** på sidan **produktionsinställningar** kan du ange globala planeringsparametrar som åsidosätter parametrar som är inställda på enskilda artikelkort.|[Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)|
 |Definiera en standardarbetsvecka i modulen Produktion med start- och sluttider för varje arbetsdag samt tillhörande arbetsskiften.|[Skapa fabrikskalendrar](production-how-to-create-work-center-calendars.md)|  
-|Organisera fasta värden och krav för produktionsresurser som t.ex. produktionsgrupper eller maskingrupper till att styra deras tillverkningsutflöde i maskingruppen.|[Ställa in produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md)|
+|Organisera fasta värden och krav för produktionsresurser som t. ex. produktionsgrupper eller maskingrupper till att styra deras tillverkningsutflöde i maskingruppen.|[Ställa in produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md)|
 |Ordna produktionsoperationer i krävd ordningen och tilldela dem till produktions- eller maskingrupper med nödvändiga arbetstider.|[Skapa verksamhetsföljder](production-how-to-create-routings.md)|
 |Ordna produktionskomponenter eller underenheter under en producerad artikel och godkänn strukturlistan utförs vid produktionsgrupper.|[Skapa produktionsstrukturer](production-how-to-create-production-boms.md)|
 |Kontrollera att rätt komponentkvantitet är tillgänglig när tillverkade artiklar lagerförs med en enhet men tillverkas med en annan.|[Arbeta med måttenheter för produktionsbatch](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
@@ -42,8 +43,11 @@ När du har lagt upp produktion kan du planera och utföra produktionsorder. Mer
 |Förbered produktionsgrupper och verksamhetsföljder för att representera legotillverkning.|[Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Se även
-[Produktion](production-manage-manufacturing.md)    
-[Planerad](production-planning.md)   
+[Produktion](production-manage-manufacturing.md)
+[Planering](production-planning.md)   
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,28 +1,34 @@
 ---
-title: Fakturera förskottsbetalningar | Microsoft Docs
-description: Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan till exempel kräva en deposition innan du tillverkar artiklar mot order eller också kan du kräva betalning innan du levererar artiklar till en kund. Med hjälp av funktionen för förskottsbetalning kan du fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.
-author: SorenGP
+title: Fakturera förskottsbetalningar
+description: Lär dig använda förskottsbetalningar till för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer i Business Central.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d19a45caabbd4eecf4a0d37cb1c7d964683f4698
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
+ms.date: 12/03/2021
+ms.author: edupont
+ms.openlocfilehash: 1a74a04f38669ab00e800b563ebd77796d08ef8f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183114"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970441"
 ---
 # <a name="invoicing-prepayments"></a>Fakturera förskottsbetalningar
-Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen. Du kan till exempel kräva en deposition innan du tillverkar artiklar mot order eller också kan du kräva betalning innan du levererar artiklar till en kund. Med hjälp av funktionen för förskottsbetalning kan du fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer. På så sätt kan du se till att alla betalningar bokförs mot en faktura.  
 
- Förskottsbetalningskrav kan definieras för en kund eller leverantör för alla artiklar eller valda artiklar. När du har gjort de nödvändiga inställningarna kan du generera förskottsfakturor från försäljnings- och inköpsorder för det beräknade förskottsbeloppet. Du ändra beloppet på fakturan om det behövs. Du kan till exempel ange ett totalt belopp för hela ordern. Du kan även skicka ytterligare förskottsfakturor om, till exempel, ytterligare artiklar läggs till i ordern. Du kan öka antal eller lägga till nya rader på en order efter att du har skickat ut en förskottsbetalning, och du kan bokföra en ny förskottsfaktura. Om du vill ta bort en rad som en förskottsbetalning redan har fakturerats för, måste du skicka ut en kreditnota för förskottsbetalningen innan du kan ta bort raden.  
+[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
- I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
+
+Du kan till exempel ange ett totalbelopp för hela ordern eller fördela förskottsbetalningen på varje enskild rad i ordern. Du kan även skicka ytterligare förskottsfakturor om, till exempel, ytterligare artiklar läggs till i ordern. Du kan öka antal eller lägga till nya rader på en order efter att du har skickat ut en förskottsbetalning, och du kan bokföra en ny förskottsfaktura.  
+
+> [!NOTE]
+> Om du vill ta bort en rad som en förskottsbetalning redan har fakturerats för, måste du skicka ut en kreditnota för förskottsbetalningen innan du kan ta bort raden.
+
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
@@ -32,7 +38,11 @@ Förskottsbetalningar är betalningar som faktureras och bokförs för en förs�
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

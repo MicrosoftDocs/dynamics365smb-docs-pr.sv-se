@@ -1,28 +1,28 @@
 ---
-title: Så här ändrar du det årliga beloppet på servicekontrakt eller kontraktsofferter | Microsoft Docs
+title: Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 description: Du kan ändra beloppet som ska faktureras per år för servicekontraktet eller kontraktsofferten.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402568"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436457"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Så här ändrar du det årliga beloppet på ett servicekontrakt eller en kontraktsoffert  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") gå till **Servicekontrakt** eller **Servicekontraktofferter** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Servicekontrakt** eller **Servicekontraktsofferter** och sedan väljer du relaterad länk.  
 2. Välj kontraktet eller kontraktsofferten.  
 3. Välj åtgärden **Öppna kontrakt** om du vill öppna och redigera kontraktet eller skontraktsofferten.  
 4. Välj **Tillåt ej balanserade belopp** om du vill ändra det årliga beloppet och distribuera differensen för det årliga beloppet manuellt på kontraktsraderna. Annars kommer differensen för det årliga beloppet automatiskt att distribueras på kontraktsraderna när du har ändrat det årliga beloppet.  
@@ -42,7 +42,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
 1. Differensen mellan de nya värdena i fälten **Årligt belopp** och **Beräknat årligt belopp** divideras med antalet kontraktsrader på servicekontraktet eller på kontraktsofferten.  
 2. Värdet i fältet **Radbelopp** uppdateras med värdet från den föregående operationen.  
 3. Innehållet i fälten **Radrabattbelopp**, **Radrabatt %** och **Vinst** uppdateras med det nya värdet i fältet **Radrabatt** på följande sätt:   
-    * Radrabatt = Radvärde - Radbelopp.  
+    * Radrabatt = Radvärde – Radbelopp.  
     * Radrabatt % = Radrabatt / Radvärde × 100.  
     * TB = Radbelopp – Radkostnad  
 
@@ -59,7 +59,7 @@ Det finns ingen markering i fältet **Tillåt ej balanserade belopp** i servicek
 
 Fältvärdet för **Årligt belopp** är lika med innehållet i fältet **Beräknat årligt belopp** som alltid har angetts till summan av radbeloppen. I det här fallet är det lika med följande: 40 + 45 + 63 = 148.  
 
-Om du ändrar **Årligt belopp** till 139, beräknas det belopp som ska läggas till i varje **Radbelopp**-fält. Detta belopp beräknas genom att subtrahera **Beräknat årligt belopp** från det nya värdet i fältet **Årligt belopp** dividerat med antalet kontraktsrader i servicekontraktet. I det här fallet är det lika med följande: (139 - 148) / 3 = -3. Sedan läggs den senast beräknade siffran till i värdet för varje **Radbelopp**-fält och värdena i fälten **Radrabatt %**, **Radrabatt** och **Vinst** uppdateras med hjälp av formlerna i de steg som beskrivs ovan.  
+Om du ändrar **Årligt belopp** till 139, beräknas det belopp som ska läggas till i varje **Radbelopp**-fält. Detta belopp beräknas genom att subtrahera **Beräknat årligt belopp** från det nya värdet i fältet **Årligt belopp** dividerat med antalet kontraktsrader i servicekontraktet. I det här fallet är det lika med följande: (139 – 148) / 3 = -3. Sedan läggs den senast beräknade siffran till i värdet för varje **Radbelopp**-fält och värdena i fälten **Radrabatt %**, **Radrabatt** och **Vinst** uppdateras med hjälp av formlerna i de steg som beskrivs ovan.  
 
 Slutligen innehåller kontraktsraderna följande information.  
 
@@ -76,7 +76,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
 2. Värdet i fältet **Radbelopp** uppdateras genom ett tillägg av differensen mellan nytt och beräknat årligt belopp, som multipliceras med den procentuella radbeloppsandelen.  
 3. Innehållet i fälten **Radrabattbelopp**, **Radrabatt %** och **Vinst** uppdateras utifrån det nya värdet i fältet **Radrabattbelopp** på följande sätt:  
 
-    * Radrabatt = Radvärde - Radbelopp.  
+    * Radrabatt = Radvärde – Radbelopp.  
     * Radrabatt % = Radrabatt / Radvärde × 100  
     * TB = Radbelopp – Radkostnad  
 
@@ -116,7 +116,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
 2. Värdet i fältet **Radbelopp** uppdateras genom ett tillägg av differensen mellan nytt och beräknat årligt belopp, som multipliceras med den procentuella TB-andelen.  
 3. Innehållet i fälten Radrabattbelopp, Radrabatt % och Vinst uppdateras med det nya värdet i fältet **Radbelopp** på följande sätt:  
 
-    * Radrabatt = Radvärde - Radbelopp.  
+    * Radrabatt = Radvärde – Radbelopp.  
     * Radrabatt % = Radrabatt / Radvärde × 100  
     * TB = Radbelopp – Radkostnad  
 
@@ -150,3 +150,6 @@ Slutligen innehåller kontraktsraderna följande information.
 ## <a name="see-also"></a>Se även  
 [Så här skapar du servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

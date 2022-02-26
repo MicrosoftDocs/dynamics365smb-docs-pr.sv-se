@@ -1,35 +1,36 @@
 ---
-title: Skapa redovisningsbudgetar| Microsoft Docs
+title: Skapa redovisningsbudgetar
 description: Beskriver hur du skapar redovisningsbudgetar för att förutse olika ekonomiska aktiviteter och koppla dimensioner för affärssystemet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 37be635e57090e6e661a76ac3c0d7ea8473796a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183722"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971712"
 ---
 # <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
+
 Om du vill kan du använda flera olika budgetar för samma tidsperioder genom att skapa budgetar med separata namn. Först definierar du budgetnamnet och matar in budgetsiffrorna. Budgetnamnet infogas sedan i alla budgettransaktioner du skapar.  
 
 När du skapar en budget kan du definiera fyra dimensioner för varje budget. De här budgetspecifika dimensionerna kallas för budgetdimensioner. Du kan välja budgetdimensionerna bland de dimensioner som redan finns upplagda. Budgetdimensioner kan användas för att skapa filter för en budget och lägga till dimensionsinformation till budgettransaktioner. Mer information finns i [Arbeta med](finance-dimensions.md).
 
 Budgetar spelar en viktig roll i business intelligence, exempelvis i bokslut som baseras på kontoscheman som innehåller budgettransaktioner eller när du analyserar budgeterade och faktiska belopp i diagrammet över konton. Mer information finns i [Affärsstöd](bi.md).
 
-I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. (Mer information finns i [Skapa kostnadsbudgetar](finance-create-cost-budgets.md).)    
+I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. Mer information finns i [Skapa kostnadsbudgetar](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>Så här skapar du en ny redovisningsbudget  
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsbudgetar** och välj sedan relaterad länk.  
+## <a name="to-create-a-new-gl-budget"></a>Så här skapar du en ny redovisningsbudget
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Redovisningsbudgetar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Redigera lista** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Välj åtgärden **Redigera budget**.
 4. Högst upp på sidan **Budget** fyller du i fälten för att definiera vad som ska visas.  
@@ -40,9 +41,10 @@ I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. (Mer i
 7. Upprepa steg 5–6 tills du har angett alla budgetbeloppen.  
 
 > [!NOTE]  
->  På snabbfliken **Filter** kan du filtrera budgetinformationen beroende på hur många budgetdimensioner som definierats under budgetnamnet.
+> På snabbfliken **Filter** kan du filtrera budgetinformationen beroende på hur många budgetdimensioner som definierats under budgetnamnet.
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Exportera och importera redovisningsbudgetar i Excel
+
 För praktiskt taget alla andra sidor kan du exportera data på sidor i budgeten till Excel för vidare bearbetning och analys. Mer information finns i [Exportera dina affärsdata till Excel](about-export-data.md).
 
 > [!NOTE]
@@ -51,9 +53,13 @@ För praktiskt taget alla andra sidor kan du exportera data på sidor i budgeten
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
+
 [Exportera affärsdata till Excel](about-export-data.md)  
 [Ekonomi](finance.md)  
 [Affärsstöd](bi.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Huvudbok och kontolista](finance-general-ledger.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

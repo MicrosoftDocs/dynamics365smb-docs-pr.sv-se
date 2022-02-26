@@ -5,28 +5,28 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 08989bb6903aa9f236b89d55d4b54af4db51cf1a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311914"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011977"
 ---
 # <a name="delivering-service"></a>Leverera service
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
   
 Ett annat sätt att granska väntande serviceorder är att använda sidan **Serviceuppgifter**. I den här vyn över dina serviceåtaganden kan du se var någonstans i arbetsflödet som en order befinner sig och ändra status så att den återspeglar kontakterna med kunden.  
   
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 
-Ett tjänstehanteringsprogram måste kunna hantera kunders serviceförfrågningar. Denna förfrågan omvandlas vanligtvis till en serviceorder. [!INCLUDE[d365fin](includes/d365fin_md.md)] ger verktyg för att skapa en order både som ett direkt svar på en kundfråga eller som en del i kontraktsprocess, om programmet har ställts in på det sättet.  
+Ett tjänstehanteringsprogram måste kunna hantera kunders serviceförfrågningar. Denna förfrågan omvandlas vanligtvis till en serviceorder. [!INCLUDE[prod_short](includes/prod_short.md)] ger verktyg för att skapa en order både som ett direkt svar på en kundfråga eller som en del i kontraktsprocess, om programmet har ställts in på det sättet.  
   
 Om det behövs kan du hantera ett låneartikelprogram för kunderna. Du kan också bestämma en prisstruktur, placera servicepriserbjudanden i logiska grupper och skapa prisjusteringar.  
   
@@ -35,7 +35,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
 |Skapa offerter som är utkast för serviceorder och sedan omvandla offerterna till serviceorder.|[Skapa tjänsteofferter](service-how-to-create-service-quotes.md)|
-|Skapa dokument som innehåller information om en service, som t.ex. reparationer och underhåll, på serviceartiklar.|[Skapa tjänsteorder](service-how-to-create-service-orders.md)|
+|Skapa dokument som innehåller information om en service, som t. ex. reparationer och underhåll, på serviceartiklar.|[Skapa tjänsteorder](service-how-to-create-service-orders.md)|
 |Planera serviceleverans med hjälp av **Beordringstavlan**. Du kan också använda projekthanteringsverktygen i avdelningen Projekt för att underlätta planeringen.|[Så här tilldelar du resurser](service-how-to-allocate-resources.md)|  
 |Leverera service till kunder genom att utföra serviceuppgifter.|[Arbeta med tjänsteuppgifter](service-how-to-work-on-service-tasks.md)|  
 |Bokföra serviceorder för service så att bokföringen är aktuell.|[Bokföra tjänsteorder och kreditnotor](service-how-to-post-service-orders.md)|  
@@ -46,3 +46,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Planera service](service-plan-service.md)  
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Hantera projekt](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

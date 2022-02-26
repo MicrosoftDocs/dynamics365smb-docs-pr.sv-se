@@ -1,24 +1,24 @@
 ---
-title: Designdetaljer - Leveransplanering | Microsoft Docs
+title: Designdetaljer – Leveransplanering | Microsoft Docs
 description: Det här avsnittet innehåller en översikt över de begrepp och metoder som används inom leveransplaneringsfunktionerna i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8b364aef69ab7b9e036caebe2f60387982cd9221
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 78b5700646d95d9cdc38a7a67663473fafddaa2c
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184672"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214834"
 ---
 # <a name="design-details-supply-planning"></a>Designdetaljer: Leveransplanering
-Dokumentationen innehåller detaljerad teknisk insikt i begreppen och principerna som används i leveransplaneringen i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dokumentationen innehåller detaljerad teknisk insikt i begreppen och principerna som används i leveransplaneringen i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Den förklarar hur planeringssystemet fungerar och hur du justerar algoritmerna för att uppfylla planeringskrav i olika miljöer. Den introducerar först centrala lösningsbegrepp och beskriver sedan logiken för den centrala mekanismen, tillgångsbalansering, innan den fortsätter att förklara hur lagerplanering utförs med partiformningsmetoder.  
 
@@ -31,3 +31,6 @@ Den förklarar hur planeringssystemet fungerar och hur du justerar algoritmerna 
 [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
 [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
 [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

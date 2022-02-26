@@ -3,44 +3,42 @@ title: 'Så här: Aktivera plockning med FEFO | Microsoft Docs'
 description: FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklar, de med de tidigaste utgångsdatumen, plockas först.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 466736905815efb0b013a66fd05854769da24be5
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 3a47c9daeeab036055a0644e1b389735f7440106
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324012"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784073"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivera plockning av artiklar med FEFO
-FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklarna - de med tidigast utgångsdatum - plockas först.  
+FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklarna – de med tidigast utgångsdatum – plockas först.  
 
  Den här funktionen fungerar bara, när dessa villkor är uppfyllt:  
 
 -   Artikel måste ha en serie-/partinummer.  
 -   På artikelns artikelspårningskod har angetts, fältet **SN dist.lager spårning** , eller **Parti dist.lager spårning** måste väljas.  
 -   Artikeln måste bokföras till lagret med ett utgångsdatum.  
--   På lagerställekortet måste kryssrutan **Begär plockning** vara markerad.  
--   Kryssrutan **Plocka enligt FEFO** på lagerställekortet måste vara markerat.  
--   På lagerställekortet måste kryssrutan **Lagerplats ska finnas** vara markerad.  
+-   På platsen måste växlingsknappar **Begär plockning**, **Plocka enligt FEFO** och **Lagerplats ska finnas** aktiveras.  
 
  När alla villkor uppfylls, sorteras serie-/partinumrerade artiklar som ska plockas med de äldsta första alla plockningar och transporter, utom artiklar som använder SN-närmare visst eller partispecifik spårning.  
 
 > [!NOTE]  
 > Om någon serie-/partinumrerade artiklar använder specifik spårning, är de respekterade först och under dem, listas de återstående, icke-specifika serie-/partinummer enligt FEFO.
 <br /><br />
-Om två serie-/partinumrerade artiklar har samma utgångsdatum, väljs artikeln med det lägsta serie - eller partinummer.
+Om två serie-/partinumrerade artiklar har samma utgångsdatum, väljs artikeln med det lägsta serie – eller partinummer.
 <br /><br />
-När du plockar serie-/partinumrerade artiklar på lagerplatser som har ställs in för dirigerad artikelinförsel och plockning, plockas bara kvantiteter på lagerplatser av typen *Plock* enligt FEFO.  
+När du plockar serie-/partinumrerade artiklar på lagerställen som har ställs in för dirigerad artikelinförsel och plockning, plockas bara kvantiteter på lagerställen av typen *Plock* enligt FEFO.  
 <br /><br />
-Om du vill aktivera transporter enligt FEFO antingen på sidan **Lagerförflyttning** eller på sidan **Transportförslag**, måste du lämna fältet **Från lagerplats** tomt.  
+Om du vill aktivera transporter enligt FEFO, lämna fältet **Från lagerplats** tomt på sidan **Lagerförflyttning** på sidan **Transportkalkylark**.  
 <br /><br />
-Om fältet **Endast utgångsbokföring** är markerat kommer endast artiklar som inte har förfallit att tas med i plockningen. Detta gäller även om du inte använder plockning enligt FEFO.
+Om fältet **Endast utgångsbokföring** markeras på **Artikelspårning kodkort**, endast föremål som inte har löpt ut ingår i valet och raderna sorteras enligt FEFO-principen.
 
 ## <a name="see-also"></a>Se även  
 [Plocka artiklar](warehouse-pick-items.md)   
@@ -48,4 +46,7 @@ Om fältet **Endast utgångsbokföring** är markerat kommer endast artiklar som
 [Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

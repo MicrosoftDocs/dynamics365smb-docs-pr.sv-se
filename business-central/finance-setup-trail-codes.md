@@ -1,21 +1,22 @@
 ---
-title: Definiera koder för granskningshistorik | Microsoft Docs
+title: Skapa koder för granskningshistorik
 description: Lära dig mer om aktiviteterna för att ställa in ursprungskoder och orsakskoder som du kan använda för att spåra granskningshistorik.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.search.form: 257, 259, 279
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: c6327be4cdcd1e51096a8e19601556305b772011
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372693"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971946"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Ställa in ursprungskoder och orsakskoder för granskningshistorik
 
@@ -25,15 +26,15 @@ För både ursprungskoder och orsakskoder bör du använda koder som är lätta 
 
 ## <a name="define-source-codes"></a>Definiera ursprungskoder
 
-Ibland behöver du se hur en viss transaktion uppstod, t.ex. om den har sitt ursprung i en redovisningsjournal eller en inköpsfaktura. En ursprungskod anger var en transaktion har skapats. Transaktioner skapas när journaler och fakturor bokförs och när vissa batch-jobb körs. Varje bokföringstyp har en specifik ursprungskod som tilldelas när enskilda transaktioner skapas.  
+Ibland behöver du se hur en viss transaktion uppstod, t. ex. om den har sitt ursprung i en redovisningsjournal eller en inköpsfaktura. En ursprungskod anger var en transaktion har skapats. Transaktioner skapas när journaler och fakturor bokförs och när vissa batch-jobb körs. Varje bokföringstyp har en specifik ursprungskod som tilldelas när enskilda transaktioner skapas.  
 
 Bokföring av journaler, order, fakturor eller kreditnotor, och körningar av olika batch-jobb, skapar transaktioner i räkenskaperna. Fönstret **Ursprungskodinställningar** innehåller flera snabbflikar, en för varje modul. Varje snabbflik innehåller ursprungskoder som gäller för den modulen.
 
-När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt transaktionen med rätt ursprungskod. När du t.ex. bokför en redovisningsjournal, kodar programmet transaktionen som *REDOVJNL*. Du kan sedan filtrera sidan **redovisningstransaktioner** för att visa vilka transaktioner som bokförts från redovisningsjournalen eller från försäljningsdokument, t.ex.
+När du bokför, eller kör ett batch-jobb, kompletterar programmet automatiskt transaktionen med rätt ursprungskod. När du t. ex. bokför en redovisningsjournal, kodar programmet transaktionen som *REDOVJNL*. Du kan sedan filtrera sidan **redovisningstransaktioner** för att visa vilka transaktioner som bokförts från redovisningsjournalen eller från försäljningsdokument, t. ex.
 
 ### <a name="to-define-source-codes"></a>Så här definierar du ursprungskoder
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Ursprungskodinställningar** och välj sedan relaterad länk.  
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Ursprungskodinställningar** och väljer sedan relaterad länk.  
 
 2. I fönstret **Ursprungskodinställningar** för varje bokföringstyp och batch-jobb, ange relevant källkod.  
 
@@ -41,11 +42,11 @@ Du kan ändra innehållet i ett fält senare, så att ändringen påverkar framt
 
 ## <a name="change-source-codes"></a>Ändra ursprungskoder
 
-Det kan hända att du vill ändra en ursprungskod. Du kanske t.ex. vill ändra ursprungskoden *GENJNL* till *GNJ*.
+Det kan hända att du vill ändra en ursprungskod. Du kanske t. ex. vill ändra ursprungskoden *GENJNL* till *GNJ*.
 
 ### <a name="to-change-source-codes"></a>Så här ändrar du ursprungskoder
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Ursprungskoder** och välj sedan relaterad länk.
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **ursprungskoder** och väljer sedan relaterad länk.
 
 2. På raden med den kod som ska ändras markerar du koden i fältet **Kod**.
 
@@ -59,7 +60,7 @@ Uppföljningskoderna kompletterar ursprungskoderna och används för att ange va
 
 ### <a name="to-set-up-reason-codes"></a>Så här lägger du upp uppföljningskoder
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **uppföljningskoder** och välj sedan relaterad länk.
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport")  anger du **orsakskoder** och väljer sedan relaterad länk.
 
 2. I fönstret **uppföljningskoder** anger du den första koden i fältet **kod**. Skriv in en beskrivning i fältet **Beskrivning**.
 
@@ -69,7 +70,7 @@ I följande procedur beskrivs hur du lägger till en uppföljningskod i en journ
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Så här tilldelar du uppföljningskoder till journalmallar
 
-1. Välj ikonen ![Söka efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **Redovisningsjournalmallar** och välj sedan relaterad länk.
+1. Välj ![Sök efter sida eller rapport.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport")  anger du **Redovisningsjournalmallar** och väljer sedan relaterad länk.
 
 2. Ange relevant kod i fältet **Uppföljningskod** på raden med journalmallen.
 
@@ -94,6 +95,9 @@ När fakturan bokförs kopieras uppföljningskoden till alla redovisnings-, kund
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
-[Arbeta med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

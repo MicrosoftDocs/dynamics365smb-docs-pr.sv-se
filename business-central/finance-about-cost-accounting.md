@@ -1,21 +1,21 @@
 ---
-title: Om kostnadsredovisning | Microsoft Docs
-description: Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet.
+title: Om kostnadsredovisning
+description: Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet. Information om kostnadsredovisning har utformats för att analysera olika problem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6c61a23499735d694b2769730c5e3ce22ac835b1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 0d349f186757a38b9473b98fc74bfb490b81892e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184154"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973680"
 ---
 # <a name="about-cost-accounting"></a>Om kostnadsredovisning
 Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet. Information om kostnadsredovisning har utformats för att analysera:  
@@ -37,7 +37,7 @@ Kostnadsredovisning har följande huvudkomponenter:
 
 Diagrammet beskriver arbetsflödet för kostnadsredovisning.  
 
-![Kostnadsredovisning - översikt](media/costaccountingoverview.png "CostAccountingOverview")  
+![Kostnadsredovisning – översikt.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostnadstyper, kostnadsställen och kostnadsbärare  
 Du definierar kostnadstyper, kostnadsställen och kostnadsbärare för att analysera vad kostnaderna är, var kostnader kommer ifrån och vem som ska bära kostnaderna.  
@@ -72,4 +72,7 @@ De flesta rapporter och statistik baseras på de bokförda kostnadstransaktioner
  [Redovisa kostnader](finance-manage-cost-accounting.md)  
  [Ekonomi](finance.md)   
  [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

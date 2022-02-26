@@ -1,23 +1,24 @@
 ---
-title: Registrera förbrukning och utflöde för en produktionsorderrad | Microsoft Docs
-description: Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt.
+title: Registrera förbrukningsutflöde för produktionsorder
+description: I det här avsnittet beskrivs hur du registrerar förbrukning och utflöde för en släppt produktions orderrad som visas på produktionsjournal sidan.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 747a38ae8390c45995091c377c5c05d3140949dc
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5510
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 43f49adcc182f279126fbb8d2d6652153a626b4d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877909"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973819"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
+
 Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt. Värdena bokförs i transaktioner under den släppta produktionsordern. förbrukningskvantiteter bokförs som negativa artikeltransaktioner, utdatakvantiteter bokförs som positiva transaktion och åtgången tid bokförs som kapacitetstransaktioner. Dessa bokförda värden visas också längst ned i journalen som faktiska kvantiteter.  
 
 > [!NOTE]  
@@ -27,7 +28,7 @@ Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombin
 >  Komponenter som saknar operationsföljdslänkkoder visas först i listan i journalen.  
 
 ## <a name="to-register-consumption-and-output"></a>Så här registrerar du förbrukning och utdata  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Släppta prod.order** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
 2.  Öppna en släppt produktionsorderrad som är klar för registrering. På snabbfliken **Rader** klickar du på **Rader** och väljer sedan åtgärden **Produktionsjournal**.  
 
     Sidan **Produktionsjournal** öppnas med journalrader för produktionsorderraden enligt sidorna **Prod.orderkomponent** och **Prod.orderverksamhetsföljd**. Dessa rader kommer från den produktionsstruktur och verksamhetsföljd som tilldelats artikeln som produceras. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-routings.md).  
@@ -37,15 +38,15 @@ Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombin
     > [!NOTE]  
     >  Om bokföringsdatum anges på en enskild rad så åsidosätter det värdet i det här fältet för den raden.  
 
-4.  I fältet **Filter för rensningsmetod** längst upp i journalen kan du välja om du också vill visa förbrukning och utdata som bokförs automatiskt enligt de bokföringsmetoder som har angetts för artikeln respektive resursen.  
+4.  I fältet **Filter för rensningsmetod** längst upp i journalen kan du välja om du också vill visa förbrukning och utdata som bokförs automatiskt enligt de bokföringsmetoder som har angetts för artikeln respektive resursen. Mer information finns i [Tillåta bokföring av komponenter enligt operationens utflöde](production-how-to-flush-components-according-to-operation-output.md).   
 
+5.  Fortsätt med att ange relevanta kvantiteter för förbrukning och utflöde i de fält som kan redigeras.  
+  
     För varje typ av rad i journalen visas endast de relevanta fälten. Resten är tomma och skrivskyddade.  
 
     När journalen öppnas visas förinställda kvantiteter som ska bokföras. Om ingenting har bokförts ännu visas de förväntade kvantiteter som har överförts från produktionsordern som standard. Om en del bokföring har utförts visas de återstående kvantiteterna i kvantitetsfälten. De kvantiteter och tidsvärden som redan har bokförts för ordern visas längst ned i journalen som faktiska transaktioner.  
 
     Vad gäller kvantiteterna i fältet **Utflöde antal** kan du välja att ange vilka värden som ska vara förinställda när du öppnar journalen första gången. Detta gör du i fältet **Förinställd utleveranskvantitet** på snabbfliken **Allmänt** på sidan **Produktionsinställningar**.
-
-5.  Fortsätt med att ange relevanta kvantiteter för förbrukning och utflöde i de fält som kan redigeras.  
 
     > [!NOTE]  
     >  Bara utflödesantalet på den sista journalraden av transaktionstypen **Utflöde** kommer att justera lagernivån när journalen bokförs. Du bör därför inte bokföra journalen (med den förväntade utdatakvantiteten förinställd på den sista utflödesraden) förrän alla slutartiklar faktiskt har producerats.  
@@ -70,4 +71,7 @@ Om värdena som återstår ska bokföras kommer journalen att innehåller dessa 
 [Planerad](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

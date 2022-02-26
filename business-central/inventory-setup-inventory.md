@@ -1,23 +1,22 @@
 ---
-title: Ställa in lager | Microsoft Docs
-description: Beskriver hur du ställer in dina lagerprocesser, inklusive överföringsflöden och lagerställen som t.ex. distributionslager.
-services: project-madeira
-documentationcenter: ''
+title: Ställa in lager
+description: Beskriver hur du ställer in dina lagerprocesser, inklusive överföringsflöden och lagerställen som t. ex. distributionslager.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: 14d98f971bcb075a94396ed59b560e5420100413
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 30, 461
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 870bcf2e7980ccf5717cbb93ada44087afe95c4d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181778"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059463"
 ---
 # <a name="setting-up-inventory"></a>Ställa in lager
 Innan du kan administrera aktiviteter för lager och lagerkostnader måste du först ställa in de regler och värden som definierar företagets lagerpolicyer.
@@ -38,12 +37,17 @@ När du har skapat ett lager kan du administrera olika lagerprocesser relaterade
 |Som ett tillägg till artikelkort kan du registrera artikelinformation i ett visst lagerställe eller en viss variant.|[Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)|
 | Tilldela objekt till kategorier och ge dem attribut som hjälper dig och kunderna att hitta objekt. |[Kategorisera artiklar](inventory-how-categorize-items.md) |
 |Importera flera artikelbilder samtidigt från en zip-fil där filer namnges enligt artikelnummer.|[Importera flera artikelbilder](inventory-how-import-item-pictures.md)|
+|Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
+
 [Hantera lager](inventory-manage-inventory.md)  
 [Hantera inköp](purchasing-manage-purchasing.md)  
 [Hantera försäljning](sales-manage-sales.md)    
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

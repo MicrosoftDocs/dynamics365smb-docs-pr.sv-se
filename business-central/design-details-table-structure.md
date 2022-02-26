@@ -3,19 +3,19 @@ title: Designdetaljer - Tabellstruktur | Microsoft Docs
 description: För att förstå hur lagringen och bokföringen av dimensionstransaktioner har omdesignats är det viktigt att förstå tabellstrukturen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 04e9fda4d784f8e1fa049455ddcab989691e821c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 6d418633eb884f0b8cfca2f46fc69103a8fabdb2
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184633"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215734"
 ---
 # <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
 För att förstå hur dimensionstransaktioner lagras och bokförs är det viktigt att förstå tabellstrukturen.  
@@ -181,8 +181,7 @@ Fältet 480 finns i följande bufferttabeller.
 |5637|**Anl. redov. bokf.buffer**|  
 |7136|**Buffert för artikelbudget**|  
 
-## <a name="see-also"></a>Se även  
- [Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md)   
- [Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)   
- [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Se även
+
+[Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)  
+[Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   

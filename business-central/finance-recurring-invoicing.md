@@ -1,27 +1,28 @@
 ---
-title: Arbeta med återkommande intäkter | Microsoft Docs
+title: Arbeta med återkommande intäkter
 description: Lär dig mer om tillgängliga alternativ för att automatiskt skicka prenumerationsfakturor till dina kunder och registrera återkommande intäkter.
 author: AndreiPanko
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 05/27/2020
+ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410793"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970995"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Arbeta med återkommande intäkter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeta med återkommande intäkter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Många företag flyttar från en affärsintäktsmodell där intäkter görs från en kunds engångsinköp till en abonnemangsmodell, där intäkter görs på återkommande basis i utbyte mot löpande tillgång till leverans av en vara eller tjänst.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder följande alternativ för att automatisera det sätt på vilket du skickar prenumerationsfakturor till dina kunder och registrerar återkommande intäkter. 
+[!INCLUDE[prod_short](includes/prod_short.md)] erbjuder följande alternativ för att automatisera det sätt på vilket du skickar prenumerationsfakturor till dina kunder och registrerar återkommande intäkter. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrera intäkter med en återkommande redovisningsjournal
 
@@ -31,7 +32,7 @@ En återkommande journal är en redovisningsjournal med specifika fält för han
 
 Med detta alternativ definierar du flexibla faktureringsperioder med [datumformler](ui-enter-date-ranges.md#using-date-formulas).
 
-Med det här alternativet kan du emellertid inte skriva ut och skicka fakturor i standardversionen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Med det här alternativet kan du emellertid inte skriva ut och skicka fakturor i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Mer information finns i [Arbeta med återkommande journaler](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +58,7 @@ Om du ofta behöver skapa försäljnings- och inköpsrader med liknande informat
 
 Med det här alternativet kan du tilldela samma återkommande rader till flera kunder. Du kan ange giltighetsperioden för de återkommandeförsäljningsraderna för en specifik kund. Du kan tilldela flera återkommande rader till samma kund, och alla tas med i fakturan.
 
-Det finns emellertid inget sätt att ställa in fasta priser för artiklar, detta eftersom [!INCLUDE[d365fin](includes/d365fin_md.md)] använder de faktiska priser och den rabatt som gäller på utfärdat dokumentdatum i syfte att hitta den bästa kombinationen som ger det lägsta priset.  
+Det finns emellertid inget sätt att ställa in fasta priser för artiklar, detta eftersom [!INCLUDE[prod_short](includes/prod_short.md)] använder de faktiska priser och den rabatt som gäller på utfärdat dokumentdatum i syfte att hitta den bästa kombinationen som ger det lägsta priset.  
 
 Mer information finns i [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md).
 
@@ -77,12 +78,12 @@ Detta alternativ kräver dock en Premium-licens. Att ställa in servicehantering
 Mer information finns i [Arbeta med servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md) och [Fakturera flera servicekontrakt](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Relaterade funktioner
-Det finns flera relaterade funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Det finns flera relaterade funktioner i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Avropsorder, försäljning
 
 En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund.
-En avropsorder skapas vanligtvis om en kund har lovat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Avropsorder gäller vanligtvis bara en artikel med förbestämda leveransdatum. Huvudanledningen till att en avropsorder används i stället för en försäljningsorder är att det antal som anges på en avropsorder inte påverkar artikeldispositionen - det kan emellertid användas i planeringssyfte.
+En avropsorder skapas vanligtvis om en kund har lovat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Avropsorder gäller vanligtvis bara en artikel med förbestämda leveransdatum. Huvudanledningen till att en avropsorder används i stället för en försäljningsorder är att det antal som anges på en avropsorder inte påverkar artikeldispositionen – det kan emellertid användas i planeringssyfte.
 
 #### <a name="why-use-this-option"></a>Varför använda detta alternativ?
 
@@ -103,11 +104,11 @@ Med det här alternativet kan du välja mellan fasta och bästa priser.
 
 Detta är emellertid bara tillgängligt i Norge. Du kan definiera en giltighets period på den återkommande gruppnivån.
 
-Mer information finns i [Återkommande order (Norge)](/localfunctionality/norway/recurring-orders.md).
+Mer information finns i [Återkommande order](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Återkommande intäkter och abonnemangsfakturering från andra leverantörer
 
-På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du hämta tillägg för Business Central. Några tillägg ges ut av Microsoft, och andra tillägg ges ut av andra företag. Listan över tillägg från andra företag växer varje månad. Se därför till att hålla utkik efter [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) och skaffa appar som hjälper dig med ditt arbete i Business Central.  
+På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du hämta tillägg för Business Central. Några tillägg ges ut av Microsoft, och andra tillägg ges ut av andra företag. Listan över tillägg från andra företag växer varje månad. Se därför till att hålla utkik efter [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) och skaffa appar som hjälper dig med ditt arbete i Business Central.  
 
 ## <a name="see-also"></a>Se även
 
@@ -120,4 +121,7 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du hämta ti
 [Fakturera flera servicekontrakt](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Efterfrågeprognoser och avropsorder](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeta med försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)  
-[Återkommande order (Norge)](/localfunctionality/norway/recurring-orders.md)  
+[Återkommande order (Norge)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

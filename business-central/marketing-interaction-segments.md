@@ -1,23 +1,23 @@
 ---
-title: Följa upp segment och relaterade interaktioner | Microsoft Docs
+title: Hålla koll på segment och relaterade interaktioner
 description: Lär dig mer om att skapa segment för att definiera kontaktgrupper och ange interaktioner för segment.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.search.forms: 5139,
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: faab1c6273d3e7c09c44f42104da55296859139e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0da5f065b1a455ae9829c4ac6d10b90c3f326c04
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181442"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059654"
 ---
 # <a name="manage-interactions-for-segments"></a>Hantera interaktioner för segment
 Sidan **Segment** är en typ av formulär där du kan:
@@ -52,3 +52,6 @@ På sidan **Segmentlogg** kan du skapa ett nytt segment som innehåller ett uppf
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
 [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

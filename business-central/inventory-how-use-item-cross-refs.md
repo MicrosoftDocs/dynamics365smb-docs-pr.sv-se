@@ -1,44 +1,67 @@
 ---
-title: Använd korsreferenser för objektet | Microsoft Docs
-description: Om du har skapat en tvärreferens mellan den artikelbeskrivning som du använder för en artikel och den beskrivning som används för leverantören som levererar den artikeln och leverantörens artikelbeskrivning infogas automatiskt på inköpsdokument för en leverantör när du fyller i fältet **Tvärreferensnr** .
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Använd artikelreferenser
+description: Skapa referenser mellan beskrivningar, måttenheter och varianter som du och leverantören eller kunden använder för en artikel.
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 89a99080723ee57270583ee2f277250d767b8dde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: item reference, cross reference, inventory
+ms.search.forms: 5737, 5735, 5736
+ms.date: 10/27/2021
+ms.author: edupont
+ms.openlocfilehash: c649b444b0ebec908aa115261569a693f1ef0ce4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181946"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060254"
 ---
-# <a name="use-item-cross-references"></a>Använd artikeltvärreferenser
-Om du har skapat en tvärreferens mellan den artikelbeskrivning som du använder för en artikel och den beskrivning som används för leverantören som levererar den artikeln och leverantörens artikelbeskrivning infogas automatiskt på inköpsdokument för en leverantör när du fyller i fältet **Tvärreferensnr** . Samma sak gäller för kundens artikelnummer i försäljningsdokument.
+# <a name="use-item-references"></a>Använd artikelreferenser
 
-I följande procedurer beskrivs hur du använder artikelns tvärreferens på inköpssidan. Momenten är liknande för försäljningssidan.
+Om du köper eller säljer artiklar som du och leverantören eller kunden använder olika villkor för kan du ställa in en referens mellan villkoren för artiklarna och villkoren som kunden eller leverantören för artikeln använder. På så sätt infogas leverantörens eller kundens artikelbeskrivning, enhet eller variantkod automatiskt på de relevanta dokumenten när du fyller i fältet **Artikelreferensnummer.** .  
 
-## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Så här skapar du en artikeltvärreferens för en leverantörs artikelbeskrivning
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artiklar** och välj sedan relaterad länk.
-2. Öppna kortet för en artikel som du vill skapa en korsreferens till för den artikelbeskrivning som leverantören använder för artikeln.
-3. Välj åtgärd **tvärreferenser**.
-4. På en ny rad på sidan **Artikel tvärreferenstrans**, fyll i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+> [!NOTE]
+> [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+>
+> Alla företag använder inte artikelreferenser. För att minimera sammanhängande sidor vi har dolt de relaterade fälten och åtgärderna som standard. Om du bestämmer dig för att använda väljer du fältet **Använd artikelreferenser** på sidan **Lagerinställning**. När du har aktiverat artikelreferenser finns fälten och åtgärderna på artikel-, leverantörs- och kundkortsidor och från försäljnings- och inköpsdokument.
+>
+> I versioner tidigare än utgivningscykel 2, 2021 kan administratören aktivera funktionen *Skriv längre artikelreferenser* på sidan [Funktionshantering](https://businesscentral.dynamics.com/?page=2610) (länken kräver att du har en [!INCLUDE [prod_short](includes/prod_short.md)]-klientorganisation). Hur du använder referenser ändras inte, men namn på sådant som sidor och knappar gör det. Exempelvis kommer sidan **Transaktioner för korsreferens av artikel** att bli sidan **Transaktioner för artikelreferens**.
 
-## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Ange leverantörens artikelbeskrivning på en inköpsorder
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inköpsorder** och välj sedan relaterad länk.
-2. Skapa en inköpsorder för leverantören som du ställer in en artikeltvärreferens för ovan.
-3. Skapa en inköpsorderrad för artikeln som du ställer in en artikeltvärreferens för ovan.
-4. I **Tvärreferensnummer** välj artikeln artikelkorsreferens som du har skapat och välj sedan knappen **OK**.
+## <a name="to-start-using-item-references"></a>Börja använda artikelreferenser
 
-Fältet **beskrivning** på raden skrivs över med leverantörens artikelbeskrivning som ställs in på korsreferensartikelns transaktion.
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+
+1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **lagerinställning** och välj sedan relaterad länk.
+2. Välj fältet **Använd artikelreferenser**.
+
+## <a name="to-set-up-an-item-reference"></a>Så här ställer du in en artikelreferens
+
+1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **Artiklar** och välj sedan relaterad länk.
+2. Öppna kortet för en artikel som du vill skapa en referens för.
+3. Välj åtgärden **Artikelreferens**.
+
+     Om du inte hittar åtgärden **Artikelreferenser** väljer du om du vill visa fler alternativ och sedan söker du under **Relaterat** > **Artikel**.
+  
+4. På en ny rad på sidan **Artikel referenstrans.**, fyll i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+
+Följande procedur beskriver hur du anger artikelreferensen på en inköpsorder. Liknande steg gäller för försäljningsdokument och andra inköpsdokument.  
+
+## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Ange leverantörens artikelbeskrivning på ett dokument
+
+1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **inköpsorder** och välj sedan relaterad länk.
+2. Skapa en inköpsorder för leverantören som du ställer in en artikelreferens för ovan.
+3. Skapa en inköpsorderrad för artikeln som du ställer in en artikelreferens för ovan.
+4. I **Artikelreferensnummer.** välj relevant artikelreferens och välj sedan knappen **OK**.
+
+Fältet **beskrivning** på raden skrivs över med leverantörens artikelbeskrivning som ställs in på referensartikelns transaktion. Om artikelreferensen innehåller en variantkod eller en måttenhet kopieras dessa värden också till dokumentet.  
 
 ## <a name="see-also"></a>Se även
+
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

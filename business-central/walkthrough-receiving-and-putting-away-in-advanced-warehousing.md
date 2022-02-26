@@ -1,29 +1,29 @@
 ---
-title: Inleverera och införa utflöde i avancerad lagerstyrning | Microsoft Docs
-description: I Business Central kan de inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktioner beroende på lagerkomplexitetsnivå.
+title: Inleverera och införa i avancerad lagerstyrning
+description: De inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: beac112feb685b0e3804ac5a243ce9dac5160857
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553898"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543101"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer
 
-**Obs**! i den här genomgången måste utföras på ett demonstrationsföretag, med alternativet **Fullständig utvärdering - fullständig exempeldata** som är tillgängliga i begränsat läge. Mer information finns i [Skapa en miljö för begränsat lägel](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)], kan de inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.  
+I [!INCLUDE[prod_short](includes/prod_short.md)], kan de inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.  
 
-|Metod|Ankommande behandling|Lagerplatser|Inleveranser|Artikelinförslar|Nivå av komplexitet (Se [Designdetaljer: Lagerstyrningsinställning](design-details-warehouse-setup.md))|  
+|Metod|inkommande behandling|Lagerställen|Inleveranser|Artikelinförslar|Nivå av komplexitet (Se [Designdetaljer: Lagerstyrningsinställning](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
 |A|Bokföra inleverans och lagerinförsel från orderraden|INTER|||2|  
 |B|Bokföra inleverans och lagerinförsel från ett lagerinförseldokument|||X|3|  
@@ -34,17 +34,19 @@ Mer information finns i [Designdetaljer: Ingående distributionslagerflöde](des
 
 Efterföljande genomgången visar metod D i föregående tabellen.  
 
-## <a name="about-this-walkthrough"></a>Om den här genomgången  
-För avancerad lagerkonfigurationer där lagerstället har konfigurerats att kräva mottagningsbehandling, förutom artikelinförselbehandling, använder du sidan **Dist.lager inleverans** för att registrera och bokföra kvittot med artiklar för flera ankommande order. När lagerinleveransen bokförs, skapas en eller flera av artikelinförseldokument för att instruera lagerarbetare att ta det mottagna artikeln och placera dem på avsedda ställen enligt lagerplatsinställning eller i andra lagerplatser. Den specifika placering av artiklarna registreras, när lagerartikelinförseln är registrerade. Det ankommande källdokumentet kan vara en inköpsorder, försäljningsreturorder, ankommande överföringsorder eller montering eller produktionsorder vars utflöde är klart för artikelinförsel. Om kvittot skapas från en ankommande beställning, kan mer än en ankommande källdokument hämtas för kvittot. Genom att använda den här metoden, kan du registrera många artiklar som inlevereras från olika inkommande beställningar med ett kvitto.  
+## <a name="about-this-walkthrough"></a>Om den här genomgången
 
-I den här genomgången tas följande uppgifter upp.  
+För avancerad lagerkonfigurationer där lagerstället har konfigurerats att kräva mottagningsbehandling, förutom artikelinförselbehandling, använder du sidan **Dist.lager inleverans** för att registrera och bokföra kvittot med artiklar för flera inkommande order. När lagerinleveransen bokförs, skapas en eller flera av artikelinförseldokument för att instruera lagerarbetare att ta det mottagna artikeln och placera dem på avsedda ställen enligt lagerplatsinställning eller i andra lagerställen. Den specifika placering av artiklarna registreras, när lagerartikelinförseln är registrerade. Det inkommande källdokumentet kan vara en inköpsorder, försäljningsreturorder, inkommande överföringsorder eller montering eller produktionsorder vars utflöde är klart för artikelinförsel. Om kvittot skapas från en inkommande beställning, kan mer än en inkommande källdokument hämtas för kvittot. Genom att använda den här metoden, kan du registrera många artiklar som inlevereras från olika inkommande beställningar med ett kvitto.  
+
+I den här genomgången tas följande aktiviteter upp:  
 
 -   Ställa in VIT lagerställe för mottagning och införsel.  
 -   Skapa och släppa två inköpsorder för fullständig lagerhantering.  
 -   Skapa och bokför ett distributionslagerinleveransdokument för åtskilliga inköpsorderrader från vissa leverantörer.  
 -   Registrering av en lagerartikelinförsel för de inlevererade artiklarna.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
 Den här genomgången innehåller arbetsuppgifter som utförs av följande användarroller:  
 
 -   Dist.lagerchef  
@@ -52,41 +54,45 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 -   Mottagande personal  
 -   Lagerarbetare  
 
-## <a name="prerequisites"></a>Förutsättningar  
+## <a name="prerequisites"></a>Förutsättningar
+
 För att kunna utföra den här genomgången behöver du:  
 
--   CRONUS Sverige Ab installerad.  
+-   CRONUS installerad.  
 -   Om du vill Ange dig själv som distributionslagerpersonal på lagerstället VIT följer du de här stegen:  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager personal** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
 2.  Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
 4.  Välj fältet **Standard**.  
 
-## <a name="story"></a>Situation  
-Ellen, lagerchef på CRONUS skapar två inköpsorder för tillbehörsartiklar från leverantörerna 10000 och 20000 som ska levereras till distributionslagret VIT. När leveranserna inlevereras till lagret använder Sammy, som är ansvarig för att ta emot artiklar från leverantörer 10000 och 20000, ett filter för att skapa inleveransrader för inköpsorder som inlevereras från de två leverantörerna. Sammy bokför artiklar som inlevererade till lagret i en lagerinleverans och artiklarna blir tillgängliga till försäljning eller andra behov. Anders lagerarbetaren, tar artiklarna från mottagande lagerplatsen och för in dem. Han flyttar alla enheter i sina standardlagerplatser, utom 40 av 100 inlevererade gångjärn, som han flyttar till monteringsavdelningen genom att dela, artikelinförselraden. När Anders registrerar artikelinförsel, uppdateras lagerplatsinnehållen, och artiklarna blir tillgängliga för plockning från lagret.  
+## <a name="story"></a>Situation
 
-## <a name="reviewing-the-white-location-setup"></a>Granska konfigurationen av VITA platsen  
+Ellen, lagerchef på CRONUS skapar två inköpsorder för tillbehörsartiklar från leverantörerna 10000 och 20000 som ska levereras till distributionslagret VIT. När leveranserna inlevereras till lagret använder Sammy, som är ansvarig för att ta emot artiklar från leverantörer 10000 och 20000, ett filter för att skapa inleveransrader för inköpsorder som inlevereras från de två leverantörerna. Sammy bokför artiklar som inlevererade till lagret i en lagerinleverans och artiklarna blir tillgängliga till försäljning eller andra behov. Anders lagerarbetaren, tar artiklarna från mottagande lagerstället och för in dem. Han flyttar alla enheter i sina standardlagerställen, utom 40 av 100 inlevererade gångjärn, som han flyttar till monteringsavdelningen genom att dela, artikelinförselraden. När Anders registrerar artikelinförsel, uppdateras lagerställesinnehållen, och artiklarna blir tillgängliga för plockning från lagret.  
+
+## <a name="reviewing-the-white-location-setup"></a>Granska konfigurationen av VITA platsen
+
 Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden.  
 
 ### <a name="to-review-the-location-setup"></a>Om du vill granska lagerställekonfigurationen  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Platser** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Öppna lagerställekortet VIT.  
 3.  Observera på snabbfliken **Dist.lager** att kryssrutan **dirigerad artikelinförsel och plockning** är markerad.  
 
     Det betyder att lagerstället ställts in för den högsta komplexitetsnivån, reflekterat av faktumet att alla kryssrutor för lagerhantering på snabbfliken är markerade.  
 
-4.  Observera att på snabbfliken **Lagerplatser** att lagerplatser anges i fälten **Inlevns lagerplatskod** och **Utlevns lagerplatskod**.  
+4.  Observera att på snabbfliken **Lagerställen** att lagerställen anges i fälten **Inlevns lagerställeskod** och **Utlevns lagerställeskod**.  
 
-Det betyder att, när du skapar en distributionslagerinleverans, den här lagerplatskoden kopieras till huvudet på den distributionslagerinleveransdokument som standard, och till raderna i de resulterande distributionslagerartikelinförslar.  
+Det betyder att, när du skapar en distributionslagerinleverans, den här lagerställeskoden kopieras till huvudet på den distributionslagerinleveransdokument som standard, och till raderna i de resulterande distributionslagerartikelinförslar.  
 
-## <a name="creating-the-purchase-orders"></a>Skapa inköpsorder  
+## <a name="creating-the-purchase-orders"></a>Skapa inköpsorder
+
 Inköpsorder är den vanligaste typen för inkommande källdokumentet.  
 
 ### <a name="to-create-the-purchase-orders"></a>Så här Skapa inköpsorder  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Inköpsorder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Skapa en inköpsorder för leverantör 10000 på arbetsdatumet (23 januari) med följande inköpsorderrader.  
 
@@ -97,65 +103,73 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
 
     Fortsätt med att meddela lagret att inköpsordern är klar för lagerhantering när leverans anländer.  
 
-4.  Välj åtgärden **Släppa**.  
+4.  Välj åtgärden **Frisläpp**. Statusen ändras från öppen till släppt.
 
     Fortsätt att skapa den andra inköpsordern.  
 
 5.  Välj åtgärden **Ny**.  
-6.  Skapa en inköpsorder för leverantör 20000 på arbetsdatumet med följande inköpsorderrader.  
+6.  Skapa en inköpsorder för leverantör 20000 på arbetsdatumet (23 januari) med följande inköpsorderrader.  
 
     |Artikel|Lagerställekod|Antal|  
     |----------|-------------------|--------------|  
     |70100|VIT|10 CAN|  
     |70101|VIT|12 CAN|  
 
-    Välj åtgärden **Släppa**.  
+    Välj åtgärden **Frisläpp**. Statusen ändras från öppen till släppt.
 
     Leveranserna av artiklar från leverantörer 10000 och 20000 har anlänt till det VITA lagret, och Sammy börjar behandla inköpsleveranserna.  
 
-## <a name="receiving-the-items"></a>Ta emot artiklarna  
+## <a name="receiving-the-items"></a>Ta emot artiklarna
+
 På sidan **Dist.lager inleverans** kan du hantera flera inkommande order för källdokument, t.ex en inköpsorder.  
 
 ### <a name="to-receive-the-items"></a>Så här inlevererar du artiklarna  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Dist.lager inleveranser** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Ange WHITE i fältet **Lagerställekod**.  
-4.  Välj åtgärden **Filter för att hämta urspr.dok.**.  
+4.  Välj **Åtgärder** i gruppen **Funktioner** och välj åtgärden **Filter för att hämta urspr.dok**.  
 5.  Ange **ACCESSORY** i fältet **Kod**.  
 6.  I fältet **Beskrivning** anger du **Leverantörer 10000 och 20000**.  
 7.  Välj åtgärden **Ändra**.  
 8.  På snabbfliken **inköp** i fältet **Inköpsleverantörsnrfilter** anger du **10000&#124;20000**.  
 9. Välj åtgärden **Kör**. lagerinleveransen är fylld med fyra rader som representerar inköpsorderrader för de angivna leverantörerna. Fältet **Ant. att inlevereras** är fyllt, eftersom du inte valde kryssrutan **Fyll inte i ant. att hantera** på sidan **Filter att hämta ursprungsdok.**.  
 10. Alternativt om du vill använda ett filter på det sätt som beskrivs tidigare i det avsnitt, välj åtgärden **Hämta källdokument** och välj sedan inköpsorder från leverantörerna i fråga.  
-11. Välj åtgärden **Bokföra inleverans** och sedan knappen **Ja**.  
+11. Välj **Bokföra** och sedan **Bokföra inleverans** och sedan knappen **Ja**.  
 
-    Positiva artikeltransaktioner skapas som återspeglar de bokförda inköpsleveranserna av utrustning från leverantörerna 10000 och 20000, och artiklar är klara att föras in i distributionslagret från den mottagande lagerplatsen.  
+    Positiva artikeltransaktioner skapas som återspeglar de bokförda inköpsleveranserna av utrustning från leverantörerna 10000 och 20000, och artiklar är klara att föras in i distributionslagret från den mottagande lagerstället.  
 
-## <a name="putting-the-items-away"></a>Föra in artiklar i lagret  
-På sidan **Dist.lager artikelinförsel** kan du hantera artikelinförslar för ett specifikt distributionslagerinleveransdokument som täcker flera källdokument. Som alla dist.lageraktivitetdokument representeras varje artikel på dist.lager artikelinförsel av en taganderad och en platsrad. I följande procedur är lagerplatskoden på hämtningsraderna standardlagerplatsen för inleveranser vid lagerställe VIT, W-08-0001.  
+## <a name="putting-the-items-away"></a>Föra in artiklar i lagret
+
+På sidan **Dist.lager artikelinförsel** kan du hantera artikelinförslar för ett specifikt distributionslagerinleveransdokument som täcker flera källdokument. Som alla dist.lageraktivitetdokument representeras varje artikel på dist.lager artikelinförsel av en taganderad och en platsrad. I följande procedur är lagerställeskoden på hämtningsraderna standardlagerstället för inleveranser vid lagerställe VIT, W-08-0001.  
+
 
 ### <a name="to-put-the-items-away"></a>Så här för du in artiklarna  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikelinförslar** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **artikelinförsel** och väljer sedan relaterad länk.  
 2.  Välj det enda distributionslagerinförseldokumentet i listan, och välj sedan åtgärden **Redigera**.  
 
     Distributionslagerinförseldokumentet öppnas med totalt åtta Ta- eller Placerarader för de fyra inköpsorderrader.
 
-    Lagerarbetaren har fått informationen att 40 gångjärn behövs i monteringavdelningen, och han fortsätter att dela upp den enda placeraraden för lagerplatsen W-02-0001 i monteringavdelningen där han placerar den delen av de inlevererade gångjärnen.  
+    Lagerarbetaren har fått informationen att 40 gångjärn behövs i monteringavdelningen, och han fortsätter att dela upp den enda placeraraden för lagerstället W-02-0001 i monteringavdelningen där distributionslagerarbetaren placerar den delen av de inlevererade gångjärnen.  
 
 3.  Välj den andra raden på sidan **Dist.lager artikelinförsel** fönstret, raden Plats för artikel 70200.  
 4.  I fältet **Antal att hantera** ändra värdet från 100 till 60.  
 5.  På snabbfliken **Rader** väljer du **Funktioner** och sedan **dela rad**. En ny rad infogas för artikel 70200 med 40 i fältet **Ant. att hantera**.  
-6.  Ange W-02-0001 i fältet **lagerplatskod**. Fältet **Zonkod** fylls i automatiskt.  
+6.  Ange W-02-0001 i fältet **lagerställeskod**. Fältet **Zonkod** fylls i automatiskt.  
+
+    Som standard är fältet **Zonplatskod** på försäljningsraderna dolt, så du måste visa det. För att göra detta måste du anpassa sidan. Mer information finns i [Så här börjar du anpassa en sida genom den anpassningsbanderollen](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
     Fortsätt med att registrera artikelinförseln.  
 
 7.  Välj åtgärden **Registrera artikelinförsel** och sedan knappen **Ja**.  
 
-    Mottagna tillbehör är nu införda i artikelns standardlagerplatser, och 40 gångjärn placeras i monteringavdelningen. De inlevererade artiklarna är nu tillgängliga för plockning till intern efterfrågan, till exempel monteringsorder eller till extern efterfrågan, till exempel försäljningsutleveranser.  
+    Mottagna tillbehör utgör nu artikelinförsel i artikelns standardlagerställen, och 40 gångjärn placeras i monteringavdelningen. De inlevererade artiklarna är nu tillgängliga för plockning till intern efterfrågan, till exempel monteringsorder eller till extern efterfrågan, till exempel försäljningsutleveranser.  
 
 ## <a name="see-also"></a>Se även  
  [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md)   
- [Designdetaljer: Ankommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)   
- [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
+ [Designdetaljer: inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)   
+ <!-- [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)    -->
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

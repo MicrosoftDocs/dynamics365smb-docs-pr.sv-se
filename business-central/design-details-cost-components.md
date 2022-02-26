@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer - Kostnadskomponenter | Microsoft Docs
+title: Designdetaljer – Kostnadskomponenter | Microsoft Docs
 description: Kostnadkomponenter är olika typer av kostnader som utgör värdet på en lagerökning eller lagerminskning.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7bcc5eaafdde8412c5e6bebfa3d24d7f033ef193
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 1c1dd2eafb648a7c6053406ea3c931d6e7cecb76
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185618"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215364"
 ---
 # <a name="design-details-cost-components"></a>Designdetaljer: Kostnadskomponenter
 Kostnadkomponenter är olika typer av kostnader som utgör värdet på en lagerökning eller lagerminskning.  
@@ -38,10 +38,13 @@ Kostnadkomponenter är olika typer av kostnader som utgör värdet på en lager�
 |Avrundning||Rester som orsakas av sättet som värderingen av lager minskar beräknas.|  
 
 > [!NOTE]  
->  Frakt- och försäkringskostnader är artikelomkostnader som kan läggas till i en artikels kostnad när som helst. När du kör batchjobbet **Justera kost. - artikeltrans** uppdateras värdet på alla relaterade lagerminskningar därefter.  
+>  Frakt- och försäkringskostnader är artikelomkostnader som kan läggas till i en artikels kostnad när som helst. När du kör batchjobbet **Justera kost. – artikeltrans** uppdateras värdet på alla relaterade lagerminskningar därefter.  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Varians](design-details-variance.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,22 +1,22 @@
 ---
-title: Anpassa Business Central | Microsoft Docs
-description: Lär dig mer om att lägga till funktioner och att anpassa Business Central.
+title: Anpassa Business Central
+description: Läs om de olika sätten att anpassa Business Central för att förbättra åtkomsten till den funktion och de funktioner som du behöver bäst som passar ditt dagliga arbete.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3c70df2d36316337505a0fee3b0872d3ee5d213a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 7294eeb0c03dc1c494ce88e6d4e366b491070acf
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315642"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012767"
 ---
 # <a name="customize-business-central"></a>Anpassa Business Central
 Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.
@@ -31,9 +31,12 @@ Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater 
 |Aktivera färger i rollcenter för att markera betydelse.|Konfigurera stack-ikoner som visas i användarens rollcenter för att inkludera en indikator som ändrar färg baserat på värdena i stack-ikonerna.|Alla användare i ett visst företag.|[Skapa en färglagd indikator på stack-ikoner](admin-how-set-up-colored-indicator-on-cues.md)|
 |Installera ett tillägg|Tillägg är som små program som lägger till funktioner, ändrar beteende, ger tillgång till nya onlinetjänster med mera. Till exempel ger Microsoft ett tillägg som ger integrering med PayPal Payments Standard.|Alla användare i alla företag.|[Anpassa med tillägg](ui-extensions.md)|
 > [!NOTE]
-> Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[d365fin](includes/d365fin_md.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. Därför kan användare med **grundläggande** upplevelsen i vissa avsnitt läsa om funktionerna och delar av användargränssnittet som inte visas i deras användargränssnitt. Mer information finns i
+> Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[prod_short](includes/prod_short.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. Därför kan användare med **grundläggande** upplevelsen i vissa avsnitt läsa om funktionerna och delar av användargränssnittet som inte visas i deras användargränssnitt. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
 ## <a name="see-also"></a>Se även
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,37 +1,37 @@
 ---
-title: Designdetaljer - Lagerhantering översikt | Microsoft Docs
-description: För att stödja den fysiska hanteringen av artiklar i zonen och på lagerplatsnivån måste all information spåras för varje transaktion eller transport i distributionslagret. Det hanteras i tabellen **Dist.lager transaktion**. Varje transaktion lagras i ett distributionslagerregister.
+title: Designdetaljer - Översikt över distributionslager
+description: För att stödja den fysiska hanteringen av artiklar i zonen och på lagerplatsnivån måste all information spåras för varje transaktion eller transport i distributionslagret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 41f18acde6140ca67050391273e9ace61f48fbb5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 49c25082d8f43210011cc7f482c4f4af330c1a19
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184586"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011604"
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetaljer: Översikt över distributionslager
 För att stödja den fysiska hanteringen av artiklar i zonen och på lagerplatsnivån måste all information spåras för varje transaktion eller transport i distributionslagret. Det hanteras i tabellen **Dist.lager transaktion**. Varje transaktion lagras i ett distributionslagerregister.  
 
 Distributionslagerdokument och en distributionslagerjournal används för att registrera artikeltransporter i distributionslagret. Varje gång en artikel i distributionslagret flyttas, tas emot, förs in, plockas, utlevereras eller justeras, registreras distributionslagertransaktioner för att lagra den fysiska informationen om zon, lagerplats och antal.
 
-Tabellen **Lagerplatsinnehåll** används för att hantera alla olika dimensioner av innehållet i en lagerplats per artikel, t.ex enhet, maximal antal och lägsta antal. Tabellen **Lagerplatsinnehåll** innehåller även flödesfält till distributionslagertransaktionerna, distributionslagerinstruktionerna och distributionslagerjournalraderna, som säkerställer att tillgängligheten för en artikel per lagerplats och en lagerplats för en artikel kan beräknas snabbt. Mer information finns i [Designdetaljer: disposition i distributionslagret](design-details-availability-in-the-warehouse.md).  
+Tabellen **Lagerställesinnehåll** används för att hantera alla olika dimensioner av innehållet i en lagerplats per artikel, t.ex enhet, maximal antal och lägsta antal. Tabellen **Lagerställesinnehåll** innehåller även flödesfält till distributionslagertransaktionerna, distributionslagerinstruktionerna och distributionslagerjournalraderna, som säkerställer att tillgängligheten för en artikel per lagerplats och en lagerplats för en artikel kan beräknas snabbt. Mer information finns i [Designdetaljer: disposition i distributionslagret](design-details-availability-in-the-warehouse.md).  
 
-När artikeltransaktioner uppstår utanför distributionslagerenheten används en standardjusteringlagerplats per lagerställe för att synkronisera distributionslagerposter med lagerposter. Under inventeringen av distributionslagret registreras alla avvikelser mellan de beräknade och inventerade kvantiteterna på justeringslagerplatsen och sedan bokförs de som korrigerande artikeltransaktioner. Mer information finns i [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)  
+När artikeltransaktioner uppstår utanför distributionslagerenheten används en standardjusteringlagerplats per lagerställe för att synkronisera distributionslagerposter med lagerposter. Under inventeringen av distributionslagret registreras alla avvikelser mellan de beräknade och inventerade kvantiteterna på justeringslagerstället och sedan bokförs de som korrigerande artikeltransaktioner. Mer information finns i [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)  
 
 Följande illustration ger en översikt över typiska distributionslagerflöden.  
 
-![Översikt över lagerprocesser](media/design_details_warehouse_management_overview.png "Översikt över lagerprocesser")  
+![Översikt över lagerprocesser.](media/design_details_warehouse_management_overview.png "Översikt över lagerprocesser")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grundläggande eller avancerad lagerstyrning  
-Distributionslagerfunktion i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implementeras i olika komplexitetsnivåer, beroende på ett företag processer och ordervolym. Den huvudsakliga skillnaden är att aktiviteter utförs order-för-order i grundläggande lagerstyrning, när de konsolideras för flera order i avancerad lagerstyrning.  
+Distributionslagerfunktion i [!INCLUDE[prod_short](includes/prod_short.md)] kan implementeras i olika komplexitetsnivåer, beroende på ett företag processer och ordervolym. Den huvudsakliga skillnaden är att aktiviteter utförs order-för-order i grundläggande lagerstyrning, när de konsolideras för flera order i avancerad lagerstyrning.  
 
  För att skilja mellan de olika komplexitetsnivåerna refererar denna dokumentation till två allmänna benämningar, grundläggande och avancerad lagerstyrning. Den här enkla differentieringen täcker flera olika komplexitetsnivåer som definieras av produktpartiklar och lagerplatsinställningar, där var och en stöds av olika användargränssnittsdokument . Mer information finns i [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md).  
 
@@ -61,7 +61,7 @@ Distributionslagerfunktion i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan imp
 -   **Intern dist.lager plockning**  
 -   **Intern dist.lager art.införsel<**  
 -   **lagerplatsuppläggningskalkylark**  
--   **Lagerplatsinnehålluppl kalkylark**  
+-   **Lagerställesinnehålluppl kalkylark**  
 -   **Dist.lager artikeljournal**  
 -   **Dist.lager Artikelgrupperingsjnl**  
 -   (Olika rapporter)  
@@ -69,13 +69,16 @@ Distributionslagerfunktion i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan imp
 Se respektive sidavsnitt för mer information om varje dokument.  
 
 ### <a name="terminology"></a>Terminologi  
-För att anpassas till de ekonomiska begreppen för inköp och försäljningar refererar lagerdokumentationen för [!INCLUDE[d365fin](includes/d365fin_md.md)] till följande villkor för objektflöde i distributionslagret.  
+För att anpassas till de ekonomiska begreppen för inköp och försäljningar refererar lagerdokumentationen för [!INCLUDE[prod_short](includes/prod_short.md)] till följande villkor för objektflöde i distributionslagret.  
 
 |Term|Description|  
 |----------|---------------------------------------|  
-|Ankommande flöde|Artiklar som transporteras in till distributionslagerplatsen, till exempel inköp och ankommande överföringar.|  
-|Internt flöde|Artiklar som transporteras inom distributionslagerplatsen, till exempel produktionskomponenter och utflöde.|  
-|Avgående flöde|Artiklar som transporteras ut ur distributionslagerplatsen, till exempel försäljningar och avgående överföringar.|  
+|inkommande flöde|Artiklar som transporteras in till distributionslagerstället, till exempel inköp och inkommande överföringar.|  
+|Internt flöde|Artiklar som transporteras inom distributionslagerstället, till exempel produktionskomponenter och utflöde.|  
+|utgående flöde|Artiklar som transporteras ut ur distributionslagerstället, till exempel försäljningar och utgående överföringar.|  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

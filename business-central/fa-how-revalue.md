@@ -1,22 +1,21 @@
 ---
-title: Omvärdera anläggningstillgångar | Microsoft Docs
+title: Omvärdera anläggningstillgångar
 description: Lär dig att justera värdet för anläggningstillgångar, registrera nya belopp eller uppskrivning, nedskrivning och bokföra ytterligare anskaffningskostnader.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ec162eca522184807554fb9f46d71606ad9c8870
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5628
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: c79cbff9d6f16ad3c93b126f01f5c28794df4127
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184346"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029514"
 ---
 # <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
 Omvärdering av anläggningstillgångar kan bestå av uppskrivning, nedskrivning, eller allmänna värdejusteringar.
@@ -25,10 +24,10 @@ När värdet av en anläggningstillgång har ökat, bokför du en journalrad med
 
 När värdet av en anläggningstillgång har minskat, bokför du en journalrad med ett lägre belopp, en nedskrivning, till avskrivningsregeln. Det nya beloppet registreras som en nedskrivning enligt bokföringsinställningarna för anläggningstillgångar.
 
-Indexering används för att anpassa flera värden för anläggningstillgångar, t.ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp.
+Indexering används för att anpassa flera värden för anläggningstillgångar, t. ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Att bokföra uppskrivning från en redovisningsjournal.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
 3. I fältet **Anskaffningskostnad** väljer du **Omvärdering**.
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av uppskrivning.
@@ -38,7 +37,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
 3. Välj **Anskaffningskostnad** i fältet **nedskrivning**.
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av nedskrivning.
@@ -48,14 +47,14 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Om du vill utföra allmän omvärdering av anläggningstillgångar
-Indexering används för att anpassa flera värden för anläggningstillgångar, t.ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp. Kryssrutan **Tillåt indexering** p sidan **Avskrivningsregel** måste väljas.
+Indexering används för att anpassa flera värden för anläggningstillgångar, t. ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp. Kryssrutan **Tillåt indexering** p sidan **Avskrivningsregel** måste väljas.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Indexera anläggningstillgångar** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Indexera anläggningstillgångar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 3. Välj **OK**.
 
     Omvärderingrader skapas per dina inställningar i steg 2. Raderna skapas antingen i anläggningstillgångsjournalen eller i redovisningsjournalen för anläggningstillgångar beroende på dina mallar och batch-inställning på sidan **Anl. journalinställningar**. Mer information finns i [Ställa in allmän information för anläggningstillgångar](fa-how-setup-general.md).
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Redovisningsjournaler för anl.tillg.** och välj sedan relaterad länk.  
+4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.  
 5. Markera journalen med de anläggningstillgångar som du vill omvärdera och välj sedan åtgärden **Transaktioner**.  
 6. Kontrollera skapade poster och välj sedan åtgärden **Bokför** för att bokföra journalen.
 
@@ -71,7 +70,7 @@ Avskrivningsprocentsatsen beräknas som:
 
 *P = (total avskrivning × 100) / avskrivningsbas*
 
-*Avskrivningsbelopp = (P/100) × (extra anskaffningskostnad - återanskaffningsvärde)*  
+*Avskrivningsbelopp = (P/100) × (extra anskaffningskostnad – återanskaffningsvärde)*  
 
 Kom ihåg att markera kryssrutan **Avskr. till anl. bokf.datum** på fakturan, redovisningsjournalen för anläggningstillgångar eller anläggningstillgångsjournalraderna så att avskrivningen beräknas från det senaste bokföringsdatumet för anläggningstillgången till bokföringsdatumet för den tillkommande anskaffningskostnaden.
 
@@ -88,7 +87,7 @@ Om du har markerat kryssrutan **Avskr. till anl. bokf.datum** med ett "x" på fa
 
 15 avskrivningsdagar (från 00-09-01 till 00-09-15) beräknas så här:
 
-*bokföringsvärde x antal avskrivningsdagar/återstående antal avskrivningsdagar = (4800 - 100) x 15 / 1410 = 50*
+*bokföringsvärde x antal avskrivningsdagar/återstående antal avskrivningsdagar = (4800 – 100) x 15 / 1410 = 50*
 
 Om du har markerat kryssrutan **Avskr. anskaffningskostnad** med ett "x" på fakturan innan du bokför transaktionen utförs följande beräkning:  
 
@@ -110,7 +109,7 @@ Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar til
 
 *Återstående livslängd är 3 år, 10 månader och 15 dagar = 1395 dagar*  
 
-*Bokföringsvärdet är (4800 + 480 - 100 - 15) = 5165*
+*Bokföringsvärdet är (4800 + 480 – 100 – 15) = 5165*
 
 *Avskrivningsbeloppet för september 2000: 5165 x 15 / 1395 = 55,54*  
 
@@ -120,5 +119,8 @@ Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar til
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  
-[Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

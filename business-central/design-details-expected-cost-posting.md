@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer - Bokföring av förväntad kostnad | Microsoft Docs
+title: Designdetaljer - Bokföring av förväntad kostnad
 description: Förväntade kostnader representerar uppskattningen av exempelvis en inköpt artikels kostnad som du registrerar innan fakturan för artikeln erhålls.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 024d80039c2293924a53db31ea998a7b565c333b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 07/20/2021
+ms.author: edupont
+ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185498"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649843"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetaljer: Bokföring av förväntad kostnad
 Förväntade kostnader representerar uppskattningen av exempelvis en inköpt artikels kostnad som du registrerar innan fakturan för artikeln erhålls.  
@@ -29,10 +29,22 @@ Förväntade kostnader representerar uppskattningen av exempelvis en inköpt art
 
  För att stödja avstämning och spårbarhet visar den fakturerade värdetransaktionen det förväntade kostnadsbeloppet som har bokförts för att motkontera interimskontona.  
 
-## <a name="example"></a>Exempel  
- Följande exempel visar förväntade kostnaden om kryssrutan **Automatisk kostnadsbokföring** och kryssrutan **Förväntad kost.bokf. i redov.** är markerad på sidan **Lagerinställningar**.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Förutsättningar för bokföring av förväntade kostnader
 
- Du bokför en inköpsorder som mottagen. Förväntad kostnad är 95,00 BVA.  
+För att du ska kunna bokföra förväntade kostnader måste du göra följande:
+1. På sidan **Lagerinställningar** markerar du kryssrutan **Automatisk bokföring av kostnader** och kryssrutan **Förväntad kostnadsbokföring till redovisning**.
+2. Ställ in vilka interimskonton som ska användas under den förväntade kostnadsbokföringsbehandlingen.  
+
+  På sidan **Bokföringsinställning för lager** bekräftar du fälten **Lagerkonto** **Lagerkonto (interim)** för **Lagerställekod och Bokföringsinställningskod för lager** för den artikel du tänker köpa. Mer information om dessa konton finns i [Designinformation – konton i redovisningen](design-details-accounts-in-the-general-ledger.md).
+3. På sidan **Allmänna bokföringsinställningar** bekräftar du fältet **Lagerbokf. (interim)** för den **Allm. rörelsebokföringsmall** och den **Allm. produktbokföringsmall** som du ska använda.
+4. När du skapar en inköpsorder krävs som standard fältet **Leverantörens fakturanummer**. Du måste stänga av detta på sidan **Konfiguration för inköp och leverantörsreskontra** genom att avmarkera fältet **Ext. Dok.nr obligatoriskt**.
+
+## <a name="example"></a>Exempel  
+
+> [!NOTE]  
+> De kontonummer som används i detta exempel gäller endast som referens och kommer att variera i systemet. Ställ in dem enligt anvisningarna ovan.
+
+Du bokför en inköpsorder som mottagen. Förväntad kostnad är 95,00 BVA.  
 
  **Värdetransaktioner**  
 
@@ -73,11 +85,11 @@ Förväntade kostnader representerar uppskattningen av exempelvis en inköpt art
 
  **Redovisningstransaktioner**  
 
-|Bokföringsdatum|Redovisningskonto|Kontonr. (En-US-demo)|Belopp|Löpnr|  
+|Bokföringsdatum|Redovisningskonto|Kontonummer (endast exempel!)|Belopp|Löpnr|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Lagerkontoredovisning (interim)|5530|95.00|4|  
 |01-15-20|Lager (interim)|2131|-95.00|3|  
-|01-15-20|Direkt kostnad kopplad - konto|7291|-100|6|  
+|01-15-20|Direkt kostnad kopplad – konto|7291|-100|6|  
 |01-15-20|Lagerkonto|2130|100|5|  
 
 ## <a name="see-also"></a>Se även
@@ -88,4 +100,7 @@ Förväntade kostnader representerar uppskattningen av exempelvis en inköpt art
  [Designdetaljer: Varians](design-details-variance.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

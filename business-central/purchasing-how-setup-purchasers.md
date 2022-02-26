@@ -1,40 +1,42 @@
 ---
-title: Skapa inköpare och koppla inköpare till leverantörer | Microsoft Docs
+title: Skapa inköpare och koppla inköpare till leverantörer (innehåller video)
 description: Om flera inköpare eller inköpsagenter arbetar i företaget kan du sortera dem för statistiska analyser.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchasing agent
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: af9673eb790b6e1e89607214b23476e5b415aca3
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.search.form: 14, 5116
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 83956e1e134e00c33f35b260e682bd2d467bfb9f
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577189"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953315"
 ---
 # <a name="set-up-purchasers"></a>Konfigurera inköpare
-Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och tilldela en kod till var och en. Du kan sedan använda koderna för att utarbeta statistiska redogörelser och filtrera information i rapporter.
+Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och tilldela en kod till var och en. Du kan sedan använda koderna för att utarbeta statistiska redogörelser och filtrera information i rapporter.<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Så här skapar du inköpare:
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Säljare/inköpare** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Säljare/inköpare** och väljer sedan relaterad länk.
 2. På sidan **Säljare/inköpare** väljer du åtgärden **Ny**.
 3. På sidan **säljare/inköpare** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Så här kopplar du inköpare till leverantörer:
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Leverantörer** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Öppna leverantörskortet för den leverantör som du vill koppla en inköpare till.
 3. På sidan **Inköparkod** markera lämplig inköparkod och stäng sedan fönstret.
 
 ## <a name="see-also"></a>Se även
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

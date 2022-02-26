@@ -1,21 +1,21 @@
 ---
-title: Vanliga frågor och svar om Berätta | Microsoft Docs
+title: Vanliga frågor om Berätta
 description: Den här artikeln innehåller svar på frågor från våra partners och kunder som ofta frågar om Berätta.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 02/12/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071916"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325869"
 ---
 # <a name="tell-me-faq"></a>Vanliga frågor om Berätta
 I det här avsnittet besvaras frågor som våra erfarna användare ofta frågar om funktionen berätta för mig.
@@ -32,7 +32,7 @@ Om användaren inte har AccessByPermissions visas inte åtgärder. Sidor och rap
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Vad gör att detta skiljer sig från vad som tidigare var känt som Sidsökning?
 Sidsökning har utvecklats till Berätta för att hjälpa dig att få jobbet gjort fortare. Sidsökning kan bara hjälpa dig att navigera till sidor och rapporter. På teknisk nivå baseras Berätta inte längre på äldre MenuSuite-begrepp.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Du kan använda lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Omfattar detta Berätta?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Du kan använda lokal [!INCLUDE[prod_short](includes/prod_short.md)]. Omfattar detta Berätta?
 Du kan använda Berätta i den lokala webbklienten för att hitta åtgärder, sidor och rapporter, men inte dokumentation eller appar och konsulttjänster i AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Är Berätta tillgänglig för alla formfaktorer?
@@ -50,3 +50,6 @@ Ikonen för bokmärket visas inte i fönstret berätta för mig när anpassninga
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Söka efter sidor med rollutforskaren](ui-role-explorer.md)  
 [Förse en sida eller rapport med ett bokmärke på ditt rollcenter](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer - Artikelspårning i distributionslagret | Microsoft Docs
-description: Hantering av serienummer- eller partinummerbruk är främst en distributionslageruppgift, och därför har alla ankommande och avgående distributionslagerdokument standardfunktioner för att tilldela och välja artikelspårningsnummer. Men eftersom reserveringssystemet baseras på artikeltransaktioner stöds inte lageraktivitetsdokument som bara registrerar distributionslagertransaktioner helt.
+title: Designdetaljer - Artikelspårning i distributionslagret
+description: Ankommande och avgående distributions lagerdokument har standardfunktioner för tilldelning och val av artikelspårningsnummer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 02a87bc61fbadae4392800f84adbc176bfb87b23
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 3bf30b7739e488eeb3610d191cfb4f3b20e0e79e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185018"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320370"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Designdetaljer: Artikelspårning i distributionslagret
 Hantering av serienummer- eller partinummerbruk är främst en distributionslageruppgift, och därför har alla ankommande och avgående distributionslagerdokument standardfunktioner för att tilldela och välja artikelspårningsnummer.  
@@ -31,3 +31,6 @@ Däremot beaktar reservationssystemet distributionslageraktiviteter när det ber
 [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)  
 [Designdetaljer - Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
 [Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,19 +1,21 @@
 ---
 title: Visa tabellinformation
+description: Lär dig mer om hur du kan visa information om databaslås direkt från klientgränssnittet i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/20/2020
+ms.search.form: 8700
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: de93063a60e6b64405b1491a67489c8bfa4657ad
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 70aff9cf0aa2af7096c8c4c047e249585e34c777
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275324"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8010970"
 ---
 # <a name="viewing-table-information"></a>Visa tabellinformation
 
@@ -23,7 +25,7 @@ Den här informationen är användbar för att felsöka prestandaproblem, efters
 
 ## <a name="viewing-table-information"></a>Visa tabellinformation
 
-Du öppnar den här sidan genom att välja ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **tabellinformation** och sedan välja relaterad länk.
+Om du vill öppna sidan markerar du ![Sök på sidan eller rapporten.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Tabellinformation** och väljer sedan relaterad länk.
 
 I följande tabell beskrivs de olika tabellerna som anges:
 
@@ -33,9 +35,12 @@ I följande tabell beskrivs de olika tabellerna som anges:
 |Tabellnamn|Tabellens namn.|
 |Tabellnr|ID:t för tabellen.|
 |Nr av poster|Det totala antalet poster som lagras i tabellen.|
-|Poststorlek|Den genomsnittliga poststorleken i KB/post. Värdet beräknas med hjälp av följande formel: 1024 (storlek)/(antal poster). |
+|Poststorlek|Den genomsnittliga poststorleken i KB/post. Värdet beräknas med hjälp av följande formel: 1024 (storlek)/(No. av poster). |
 
 ## <a name="see-also"></a>Se även
 
 [Kontrollera sidor](across-inspect-page.md)  
 [Prestandaartiklar för utvecklare](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

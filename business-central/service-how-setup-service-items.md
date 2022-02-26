@@ -1,21 +1,21 @@
 ---
-title: Konfiguration serviceartiklar och serviceartikelkomponenter | Microsoft Docs
-description: Mer information om saker som du måste ställa in innan du kan använda serviceartiklar, inklusive standardvärden, till exempel svarstid, kontraktrabatt i procent och serviceprisgrupp.
+title: Tjänsteartiklar och tjänsteartikelkomponenter
+description: Mer information om saker som du måste ställa in innan du kan använda serviceartiklar, inklusive standardvärden, till exempel svarstid och serviceprisgrupp.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 196f3d73827f03ce03e4990039779d8f814295ff
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 9ebdb2ec8d76537887a7aa597eb9eabe298ec530
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877405"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436532"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Ställa in tjänsteartiklar och tjänsteartikelkomponenter
 Om du vill arbeta med serviceartiklar måste du ställa in följande
@@ -24,11 +24,11 @@ Om du vill arbeta med serviceartiklar måste du ställa in följande
 * Valfritt
 
 ## <a name="to-set-up-service-item-groups"></a>Så här skapar du serviceartikelgrupper:
-Du anger grupper med artiklar som hör ihop med avseende på reparation och underhåll. Du kan ange standardvärden för serviceartiklar i serviceartikelgruppen, t.ex. svarstid, kontraktrabatt i procent och serviceprisgrupp. För artiklar i en serviceartikelgrupp kan du välja om du vill att de ska registreras automatiskt som serviceartiklar då de säljs..  
+Du anger grupper med artiklar som hör ihop med avseende på reparation och underhåll. Du kan ange standardvärden för serviceartiklar i serviceartikelgruppen, t. ex. svarstid, kontraktrabatt i procent och serviceprisgrupp. För artiklar i en serviceartikelgrupp kan du välja om du vill att de ska registreras automatiskt som serviceartiklar då de säljs..  
 
 Du tilldelar serviceartikelgrupper till artiklar på **Artikelkortet** och till serviceartiklar på **serviceartikelkortet**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Serviceartikelgrupper** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceartikelgrupper** och väljer sedan relaterad länk.  
 2. Skapa en ny serviceartikelgrupp.  
 3. Fyll i fälten **Kod** och **Beskrivning**.  
 4. I fältet **Standard kontraktsrabatt %** anger du standardrabatten i procent för kontrakt som du vill att serviceartiklarna i gruppen ska ha.  
@@ -39,7 +39,7 @@ Du tilldelar serviceartikelgrupper till artiklar på **Artikelkortet** och till 
 ## <a name="to-set-up-service-item-components"></a>Så här ställer du in serviceartikelkomponenter
 En serviceartikel kan bestå av flera komponenter, som kan ersättas med reservdelar då artikeln är servad. Komponenterna läggs upp på sidan **Serviceartikelkomponent lista**. Om du vill skapa komponenter för serviceartiklar som är strukturer kan du låta kopiera strukturartiklarna automatiskt och skapa dem som serviceartikelkomponenter.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **serviceartiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **serviceartiklar** och väljer sedan relaterad länk.
 2. Öppna serviceartikeln som du vill skapa komponenter för.  
 3. Välj åtgärden **Komponenter**. Sidan **Serviceartikelkomponent lista** öppnas.  
 4. Lägg till en ny komponent.  
@@ -47,7 +47,7 @@ En serviceartikel kan bestå av flera komponenter, som kan ersättas med reservd
 6. I fältet **Nr.** väljer du den artikel eller serviceartikel som utgör en serviceartikelkomponent.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Så här ställer du in serviceartikelkomponenter från en struktur
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **serviceartiklar** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **serviceartiklar** och väljer sedan relaterad länk.  
 2. Öppna den serviceartikel som du vill skapa komponenter från en struktur för.  
 3. Välj åtgärden **Komponenter**. Sidan **Serviceartikelkomponent lista** öppnas.  
 4. Välj fältet **Kopiera från struktur**  
@@ -57,9 +57,12 @@ En serviceartikel kan bestå av flera komponenter, som kan ersättas med reservd
 ## <a name="to-set-up-a-service-shelf"></a>Så här skapar du en servicehylla
 Du kan lägga upp servicehyllor som hjälper till att identifiera där du lagrar dina serviceartiklar. Du tilldelar servicehyllor till serviceartiklar på sidan **Tjänsteorder** och i fönstret **Serviceartikel arbetsblad**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Servicehyllor** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Servicehyllor** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 
 ## <a name="see-also"></a>Se även
 [Skapa koder för standardtjänst](service-how-setup-service-coding.md)   
 [Ställa in felsökning](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
 title: Så här skapar du ett nytt företag | Microsoft Docs
-description: Tabeller och sidor skapas i syfte att kunna använda RapidStart Services, men de innehåller inga data.
+description: Använd RapidStart Services tabeller och sidor för att skapa ett nytt företag som du vill genomföra en kundimplementering för.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c7042e783ec004cb2de637e6544c590bc8b9b81c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187202"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439641"
 ---
 # <a name="create-a-new-company"></a>Skapa ett nytt företag
-Innan du kan använda RapidStart Services för [!INCLUDE[d365fin](includes/d365fin_md.md)] måste du först skapa ett nytt företag för vilket du vill genomföra en kundimplementering. När du skapar ett nytt företag skapas standardtabeller och sidor för [!INCLUDE[d365fin](includes/d365fin_md.md)] men det inte finns några data i dem.
+Innan du kan använda RapidStart Services för [!INCLUDE[prod_short](includes/prod_short.md)] måste du först skapa ett nytt företag för vilket du vill genomföra en kundimplementering. När du skapar ett nytt företag skapas standardtabeller och sidor för [!INCLUDE[prod_short](includes/prod_short.md)] men det inte finns några data i dem.
 
 Du kan dessutom tillämpa specifika inställningsdata till företaget, när du har initialiserat det. Information finns i ett konfigurationspaket, en .rapidstart-fil, med innehållet i ett komprimerat format.  
 
@@ -26,19 +26,19 @@ Exempelkonfigurationspaket, inklusive lands-/regionspecifika filer, ingår i dem
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Om du vill använda exempelkonfigurationspaket BASICCONFIG  
 1. Öppna företaget CRONUS Sverige AB. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 3. Välj paketet BASICCONFIG i listan och välj sedan åtgärden **Exportera paket**.  
 
 Använd följande procedur för att skapa ett nytt företag och använd BASICCONFIG-paketet som en del av processen.  
 
 ## <a name="to-create-a-new-company"></a>Så här skapar du ett nytt företag:  
-1. Skapa ett nytt företag. Mer information finns i [Skapa nya företag i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
+1. Skapa ett nytt företag. Mer information finns i [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).
 2. Du kan nu importera implementerings-rollcentret för RapidStart Services och importera det konfigurationspaket som du har exporterat från företaget CRONUS Sverige AB.
 
-När du har skapat ett nytt företag, fylls vissa tabeller i automatiskt, även om ingen företagsmall kopplas. Du kan till exempel granska standardkoderna för att bokföra och gruppera transaktioner på sidan **Källkod**. Om du anger en lokal version av [!INCLUDE[d365fin](includes/d365fin_md.md)], ska du granska den här tabellen och överväga alla lokala språkproblem.
+När du har skapat ett nytt företag, fylls vissa tabeller i automatiskt, även om ingen företagsmall kopplas. Du kan till exempel granska standardkoderna för att bokföra och gruppera transaktioner på sidan **Källkod**. Om du anger en lokal version av [!INCLUDE[prod_short](includes/prod_short.md)], ska du granska den här tabellen och överväga alla lokala språkproblem.
 
 ## <a name="about-data-tables"></a>Om datatabeller
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-datatabeller finns i två grundläggande typer: Huvud och Inställningar. När du vill lägga upp en företagskonfiguration kan du använda dessa typer för att fokusera din konfigurationstrategi.  
+[!INCLUDE[prod_short](includes/prod_short.md)]-datatabeller finns i två grundläggande typer: Huvud och Inställningar. När du vill lägga upp en företagskonfiguration kan du använda dessa typer för att fokusera din konfigurationstrategi.  
 
 ### <a name="master-data-tables"></a>Huvuddatatabeller  
 I följande tabell visas exempel på huvuddatatabeller. När du initialiserar ett nytt företag är de här tabellerna tomma.  
@@ -61,7 +61,7 @@ I följande tabell visas exempel på inställningsdatatabeller där du registrer
 |312|Inköpsinställningar|  
 |313|Lagerinställningar|  
 
-Förutom inställningsdatatabeller har [!INCLUDE[d365fin](includes/d365fin_md.md)] också inställningsdatatabeller som anger grundläggande information om företaget och dess affärsprocesser. I följande tabell visas några av dessa.  
+Förutom inställningsdatatabeller har [!INCLUDE[prod_short](includes/prod_short.md)] också inställningsdatatabeller som anger grundläggande information om företaget och dess affärsprocesser. I följande tabell visas några av dessa.  
 
 |Tabellnr.|Tabellnamn|  
 |-------------------|--------------------|  
@@ -76,3 +76,6 @@ Förutom inställningsdatatabeller har [!INCLUDE[d365fin](includes/d365fin_md.md
 [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

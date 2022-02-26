@@ -1,24 +1,24 @@
 ---
-title: Översikt över dimensionsuppsättningstransaktioner | Microsoft Docs
-description: I det här avsnittet beskrivs hur dimensionsuppsättningstransaktioner lagras och bokförs i Dynamics 365.
+title: Översikt över dimensionsuppsättningstransaktioner
+description: I den här artikeln får du en översikt över hur dimensions uppsättningstransaktioner lagras som dimensions uppsättnings transaktioner och hur de bokförs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 8196cf08b5e4bf410d9682a30e714cb8c4522e17
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185522"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011686"
 ---
 # <a name="dimension-set-entries-overview"></a>Översikt över dimensionsuppsättningstransaktioner
-I det här avsnittet beskrivs hur dimensionsuppsättningstransaktioner lagras och bokförs i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I det här avsnittet beskrivs hur dimensionsuppsättningstransaktioner lagras och bokförs i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="dimension-sets"></a>Dimensionsuppsättningar  
 En dimensionsuppsättning en är en unik kombination av dimensionsvärden. Den lagras som dimensionsuppsättningstransaktioner i databasen. Varje dimensionsuppsättningstransaktion representerar ett enstaka dimensionsvärde. Dimensionsuppsättningen identifieras av ett gemensamt dimensionsuppsättnings-ID som tilldelats varje dimensionsuppsättningstransaktion som tillhör dimensionsuppsättningen.  
@@ -34,7 +34,7 @@ Följande exempel visar när en dimensionsuppsättning som har tre dimensionsupp
 ## <a name="dimension-set-entries"></a>Dimensionsuppsättningstrans.  
 Dimensionsuppsättningar lagras i tabellen **Dimensionsuppsättnings transaktion** som dimensionsuppsättningstransaktioner med samma dimensionsuppsättnings-ID.  
 
-![Flöde för dimensionsuppsättningstransaktioner](media/dimensionentrynav7.png "Flöde för dimensionsuppsättningstransaktioner")  
+![Flöde för dimensionsuppsättningstransaktioner.](media/dimensionentrynav7.png "Flöde för dimensionsuppsättningstransaktioner")  
 
 När du skapar en ny journalrad, dokumenthuvud eller dokumentrad kan du ange en kombination av dimensionsvärden. I stället för att uttryckligen lagra varje dimensionsvärde i databasen tilldelas ett dimensionsuppsättnings-ID till journalraden, dokumenthuvudet eller dokumentraden för att specificera dimensionsuppsättningen.  
 
@@ -46,7 +46,10 @@ Codeunit 408, Dimensionshantering, är ett funktionsbibliotek som hanterar gemen
 ## <a name="performance-improvement"></a>Prestandaförbättring  
 Genom att lagra dimensionsuppsättningar en gång i databasen bevaras databasplats och allmänna prestanda förbättras.  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
 [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
 [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
 [Designdetaljer: Dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,25 +5,25 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7383fe5e716fbd63012e8ab5ffa236af9e7a979e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4095cfd39ad37037f7fad2a5bded7c5c71241f6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181706"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438883"
 ---
 # <a name="add-contacts-to-segments"></a>Lägga till kontakter i segment
 När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna på sidan **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Så här lägger du till kontakter i ett segment
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Segment** och välj sedan tillhörande länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Segment** och väljer sedan relaterad länk.  
 2. Markera segmentet och välj sedan åtgärden **Lägg till kontakter**. Sidan för batch-jobbet **Lägg till kontakter** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas när du väljer särskilda kontakter.
 
@@ -35,7 +35,7 @@ Om du har lagt till kontakter av misstag och vill gå tillbaka ett steg väljer 
 När du har valt kontakter i ett segment kanske du bestämmer dig för att ta bort några av dem, men behålla andra. Du kan ta bort kontakter manuellt från raderna på sidan **Segment**, men det är enklare och går snabbare att använda åtgärden **Förfina kontakter**.
 
 1. Öppna segmentet.
-2. Välj **kontakter**, och välj sedan åtgärden **förfina kontakter**. Sidan **Ta bort kontakter - förfina** öppnas.
+2. Välj **kontakter**, och välj sedan åtgärden **förfina kontakter**. Sidan **Ta bort kontakter – förfina** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas för att välja de kontakter som ska tas bort från segmentet.
 4. Lägg till ytterligare filter vid behov och välj sedan knappen **OK**.
 
@@ -47,7 +47,7 @@ Du kan visa en lista över de segmentvillkor som har använts genom att klicka p
 När du har valt kontakter i ett segment kanske du vill ta bort några av dem. Du kan göra detta genom att manuellt ta bort dem från raderna på sidan Segment, men det går enklare och snabbare att ange vilka kontakter som ska tas bort med funktionen Reducera kontakter och vilka som ska behållas med funktionen Förfina urval.
 
 1. Öppna segmentet.
-2. Välj kontakter, och välj sedan åtgärden **Minska kontakter**. Sidan **Ta bort kontakter - minska** öppnas.
+2. Välj kontakter, och välj sedan åtgärden **Minska kontakter**. Sidan **Ta bort kontakter – minska** öppnas.
 3. I avsnittet **Kontakt** anger du filter för att ange den information som ska användas för att välja de kontakter som ska tas bort från segmentet.
 4. Lägg till ytterligare filter vid behov och välj sedan knappen **OK**.
 
@@ -57,4 +57,7 @@ Du kan reducera ett segment så många gånger som du vill. Klicka på åtgärde
 [Skapa ett segment](marketing-how-create-segment.md)   
 [Hantera segment](marketing-segments.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

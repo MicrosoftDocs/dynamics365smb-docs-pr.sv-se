@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 69e5cbb897527a903594af893c0af44a48dbee27
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181252"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788083"
 ---
 # <a name="set-up-contacts"></a>Ställa in kontakter
 När du skapar kontakter kan du ange särskild information, till exempel vilken bransch kontakten tillhör och vilken affärsrelation du har med kontakten.
@@ -76,7 +76,7 @@ Du kan lägga till information om arbetsansvar för kontaktpersoner för att ang
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **Person**.
 
-Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du sidan **Arbetsansvar**.
+Arbetsansvarkoden definierar typen eller kategorin för projektet, som t. ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du sidan **Arbetsansvar**.
 
 1. Öppna relevant kontaktkort.
 2. Välj åtgärden **Person** och sedan **Arbetsansvar**. Sidan **Kontakt arbetsansvar** öppnas.
@@ -89,12 +89,12 @@ Antalet arbetsansvar som du har tilldelat kontakter anges automatiskt i fältet 
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="to-assign-organizational-levels-to-a-contact"></a>För att tilldela befattningsnivåer till en kontakt
-Du kan använda befattningsnivåer på kontakterna om du vill ange vilken befattningsnivå de har i företaget, t.ex. företagsledning. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
+Du kan använda befattningsnivåer på kontakterna om du vill ange vilken befattningsnivå de har i företaget, t. ex. företagsledning. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
 
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **Person**.
 
-Befattningsnivåkoden anger typen eller kategorin av befattningsnivån, som t.ex. VD eller CFO. Du kan ha flera befattningsnivåkoder. För att definiera befattningsnivån använder du sidan **Befattningsnivåer**.
+Befattningsnivåkoden anger typen eller kategorin av befattningsnivån, som t. ex. VD eller CFO. Du kan ha flera befattningsnivåkoder. För att definiera befattningsnivån använder du sidan **Befattningsnivåer**.
 
 1. Öppna relevant kontaktkort.
 2. I fältet **Befattningsnivåer** väljer du den kod som du vill tilldela.
@@ -104,7 +104,7 @@ När du har fördelat befattningsnivåer till kontakterna kan du använda inform
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="to-assign-web-sources-to-a-contact"></a>För att tilldela webbadresser till en kontakt
-Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
+Du kan använda webbadresser med dina kontaktföretag för att t. ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
 
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **företag**.
@@ -149,7 +149,7 @@ Värden i övertagna fält ersätter de standardvärden som du har angett. Om du
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisera kontakter med kunder, leverantörer och bankkonton
 För att synkronisera kontaktkort med länkade kund-, leverantörs- eller bankkontokort måste du fylla i motsvarande fält i avsnittet **Affärsrelationskod för** på snabbfliken **interaktioner** på sidan **Marknadsföringsinställning**.  
 
-Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Söka efter dubbelkontakter
 Du kan välja automatisk sökning efter kopior varje gång du skapar en kontakt eller söka manuellt när du har skapat kontakter. Du kan också välja automatisk uppdatering av söksträngar varje gång du ändrar uppgifter om kontakter eller skapar kontakter. Du kan bestämma procentuell överensstämmelse för sökningar, det vill säga hur många procents överensstämmelse det måste vara mellan två kontakter för att de ska anses vara kopior. Du ställer in detta på snabbfliken **Dubbletter** på sidan **Marknadsföringsinställning**
@@ -160,4 +160,7 @@ När du har hittat dubbelkontakter kan du använda sidan **Koppla dubblett** fö
 [Hantera kontakter](marketing-contacts.md)  
 [Skapa kontakter](marketing-create-contact-companies.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

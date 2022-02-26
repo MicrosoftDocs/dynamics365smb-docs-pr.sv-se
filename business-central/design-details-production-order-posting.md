@@ -3,19 +3,19 @@ title: Designdetaljer - Bokföring av produktionsorder | Microsoft Docs
 description: Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d69007dfba9fe7aa95365f7bd2c7f5b6b2c756d0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184826"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442366"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokföring av produktionsorder
 Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts. Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md) Däremot är kostnadsflödet för monteringsorder mindre komplicerat, särskilt eftersom bokföring av monteringskostnad endast uppstår en gång och därför inte genererar lager för produkter i arbete.
@@ -58,11 +58,11 @@ När du bokför produktionsorder till PIA-lagret avser utflöde, förbrukning oc
 
 Följande diagram visar de berörda bokföringsrutinerna i kodenhet 22.  
 
-![Bokföringsrutiner för produktionsorder](media/design_details_inventory_costing_14_production_posting_1.png "Bokföringsrutiner för produktionsorder")  
+![Bokföringsrutiner för produktionsorder.](media/design_details_inventory_costing_14_production_posting_1.png "Bokföringsrutiner för produktionsorder")  
 
 Följande diagram visar anslutningarna mellan de resulterande transaktionerna och kostnadsbärarna.  
 
-![Produktionstransaktionsflöde](media/design_details_inventory_costing_14_production_posting_2.png "Produktionstransaktionsflöde")  
+![Produktionstransaktionsflöde.](media/design_details_inventory_costing_14_production_posting_2.png "Produktionstransaktionsflöde")  
 
 Kapacitetstransaktioner beskriver kapacitetsförbrukningen i termer av tidsenheter, medan den relaterade värdetransaktionen beskriver värdet för den aktuella kapacitetsförbrukningen.  
 
@@ -110,3 +110,6 @@ I standardkostnadmiljöer baseras värderingen av en produktionsorder på följa
  [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

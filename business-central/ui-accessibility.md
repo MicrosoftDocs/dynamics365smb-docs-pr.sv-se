@@ -1,71 +1,90 @@
 ---
 title: Hjälpmedelsfunktioner
-description: Kortkommandon och andra hjälpmedelsfunktioner.
-author: edupont04
+description: Den här artikeln innehåller information om kortkommandon och andra hjälpfunktioner i Business Central för personer med funktionshinder.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.date: 06/23/2021
+ms.author: jswymer
+ms.openlocfilehash: 80e48acc1ded96c9958c1dd7a2a706e22dc3e82b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192129"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319962"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Hjälpmedel och kortkommandon
-Det här avsnittet innehåller information om de funktioner som gör [!INCLUDE[d365fin](includes/d365fin_md.md)] tillgängligt för användare med funktionshinder. [!INCLUDE[d365fin](includes/d365fin_md.md)] stöder följande hjälpmedelsfunktioner:  
 
--   Kortkommandon
+Den här artikeln innehåller information om de funktioner som gör [!INCLUDE[prod_short](includes/prod_short.md)] tillgängligt för användare med funktionshinder. [!INCLUDE[prod_short](includes/prod_short.md)] stöder följande hjälpmedelsfunktioner:  
 
-    Mer information finns i [Kortkommandon](keyboard-shortcuts.md).
+- Kortkommandon. Se [Kortkommandon](keyboard-shortcuts.md).
+- Gester för touch och penna för surfplatta och telefoner. Se [Gester för touch och penna](touch-gestures.md).
+- Navigering  
+- Rubriker  
+- Alternativ text för bilder och länkar  
+- Stöd för vanliga hjälpmedel 
+- Zooma in eller ut på valfri sida
+- Funktionsbeskrivningar för element i användargränssnittet
 
--   Navigering  
+## <a name="navigation"></a><a name="Navigation"></a> Navigering
+  
+Du kan använda olika kombinationer av TAB, SKIFT och piltangenter för att flytta mellan element på en sida. Element kan vara åtgärder, fält och kolumner, delar och andra kontroller. I allmänhet trycker du på TAB eller SKIFT + TAB för att gå till nästa eller föregående element.
 
--   Rubriker  
+När du fokuserar på ett område som innehåller åtgärder, som navigeringsfältet överst i rollcentret eller åtgärdsfältet på andra sidor, använder du piltangenterna för att förflytta dig mellan olika åtgärder och grupper. Tryck på RETUR på en grupp för att öppna dess underliggande åtgärder och fortsätt sedan med piltangenterna. Tryck på TAB eller SKIFT + TAB om du vill flytta ut från åtgärdsområdet.
 
--   Alternativ text för bilder och länkar  
+Med tabbordningen kan du också växla mellan den primära webbläsarsidan och dialogrutor som begär exempelvis bekräftelse eller inloggningssidan.  
 
--   Stöd för vanliga hjälpmedel  
+## <a name="headings-in-content"></a><a name="Headings"></a> Rubriker i innehåll
 
-<!-- moved to separate article
-##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
+HTML-källan för [!INCLUDE[prod_short](includes/prod_short.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll. På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen. Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).  
 
-|To do this|Press|  
-|----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
-|To enable or access the element or control that is in focus.|Enter|  
-|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
-|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
-|To move focus to the next element outside the list.|Ctrl + Enter|  
-|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+## <a name="image-and-links"></a><a name="Images"></a> Bilder och länkar
+
+En beskrivande text för bilder anges med attributet ALT i IMG-taggen. En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.  
+
+## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Hjälpmedel
+
+[!INCLUDE[prod_short](includes/prod_short.md)] stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[prod_short](includes/prod_short.md)]-sidor.  
+
+## <a name="zoom"></a><a name="zoom"></a> Zooma
+
+I de flesta webbläsare används vanliga kortkommandon för att zooma in och ut på den aktuella sidan. Dessa kortkommandon är inte specifika för [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerar när du använder [!INCLUDE [prod_short](includes/prod_short.md)] i en webbläsare. En lista över vilka kortkommandon som stöds finns i [Kortkommandon för att zooma in och ut](keyboard-shortcuts.md#zoomshortcuts).
+
+## <a name="tooltips"></a>Knappbeskrivningar
+
+Beskrivningar är tillgängliga för de flesta element i användargränssnittet, t. ex. sidfält och kolumner, åtgärder, skärmtips och diagram. En knappbeskrivning innehåller extra text som förklarar ett element som gör det enklare att förstå dess syfte. 
+
+Du kan använda funktionsbeskrivningar på olika sätt beroende på klienten (webb eller mobil) och den enhet som du arbetar med. Använd följande tabell som en guide. Vissa beskrivningar kan läsas av skärmläsare. I det här fallet kommer du åt knappbeskrivningarna som beskrivs i tabellen och använder sedan skärmläsaren för att navigera till knappbeskrivningen på samma sätt som med andra element.
+
+#### <a name="accessing-tooltips"></a>Komma åt knappbeskrivningar
+
+|Element|Musåtgärd för webbklient|Kortkommando för webbklient|Tryckgester på surfplatta/telefon för mobilapp|Stöd för skärmläsare|
+|-------|-----------------|------------|--------------------------|---------------------|
+|Sidfält och kolumnrubriker|Hovra över eller klicka på fältrubriken eller kolumnrubriken|Flytta fokus till fältet eller kolumnrubriken och tryck på Alt + piltangenten uppåt|Tryck på fältrubriken |ja|
+|Diagramelement, som en stapel, linje, cirkelsegment|Hovra över elementet|Flytta fokus till element med hjälp av piltangenterna|Tryck och håll ned elementet|ja|
+|Åtgärder|Hovra över åtgärden|ingen|ingen |nej|
+|Stack-ikoner|Hovra över panelen |ingen|ingen|nej|
+
+
+<!--
+- With a mouse, hover over the element.
+- With keyboard, press the Alt+Up Arrow keys.
+- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
 
 -->
 
-##  <a name="navigation"></a><a name="Navigation"></a> Navigering  
- Du kan bläddra mellan flikar och åtgärder i menyfliksområdet, element i navigeringsbalken och andra kontroller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor och -rapporter med hjälp av tangentbordet. Om du vill flytta fokus från en flik, åtgärd eller kontroll till en annan, trycker du på Tabb-tangenten för att gå vidare. Tryck på Shift+Tabb för att flytta bakåt.  
+## <a name="for-more-accessibility-information"></a>Mer information om hjälpmedel
 
- Med tabbordningen kan du också växla mellan den primära webbläsarsidan och dialogrutor som begär exempelvis bekräftelse eller inloggningssidan.  
-
-##  <a name="headings"></a><a name="Headings"></a> Rubriker  
- HTML-källan för [!INCLUDE[d365fin](includes/d365fin_md.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll. På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen. Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).  
-
-##  <a name="image-and-links"></a><a name="Images"></a> Bilder och länkar  
- En beskrivande text för bilder anges med attributet ALT i IMG-taggen. En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.  
-
-##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Hjälpmedel  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sidor.  
-
-## <a name="for-more-accessibility-information"></a>Mer information om hjälpmedel  
 Du hittar mer information om åtkomst via Microsofts produkter och hjälpmedel på webbplatsen för [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Se även
-[Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Vanliga frågor och svar](across-faq.md)  
+
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vanliga frågor och svar](across-faq.yml)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,34 +1,32 @@
 ---
-title: Intelligenta insikter och migrering av moln | Microsoft Docs
-description: Anslut dig till intelligenta insikter med Business Central, till och med från din lokala lösning. Lär dig hur du migrerar till molnet.
+title: Intelligenta insikter och migrering av moln
+description: I Business Central Online har du tillgång till andra online-tjänster och du kan till exempel få smarta insikter som baseras på Azure AI. Läs vidare om du tänker migrera från lokal plats till molnet.
 author: bmeier94
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms. search.keywords: cloud, edge
-ms.date: 02/27/2020
-ms.author: bmeier
-ms.openlocfilehash: 8db6696fb7baf1b591d0129bc2b6f149ca2e4e31
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms. search.keywords: cloud, migrate, insights
+ms.date: 04/12/2021
+ms.author: edupont
+ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097653"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442616"
 ---
-# <a name="intelligent-insights-with-prodshort-online"></a>Intelligenta insikter med [!INCLUDE[prodshort](includes/prodshort.md)] Online
+# <a name="intelligent-insights-in-prod_short-online"></a>Intelligenta insikter i [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-Som användare av [!INCLUDE[prodshort](includes/prodshort.md)] online har du fullständig behörighet för scenarier som baseras på intelligent moln, till exempel KPI:er baserade på maskininlärning när du visar data i Power BI. Men även om [!INCLUDE[prodshort](includes/prodshort.md)] framför allt är en molntjänst, kan även kunder som behöver köra sin arbetsbelastning helt lokalt eller på intelligent gränsenhet ansluten till molnet kan göra detta.  
+Som användare av [!INCLUDE[prod_short](includes/prod_short.md)] online har du fullständig behörighet för scenarier som baseras på intelligent moln, till exempel KPI:er baserade på maskininlärning när du visar data i Power BI.  
 
-Om du är intresserad av [!INCLUDE[prodshort](includes/prodshort.md)] kan du registrera dig online, eller så kan du arbeta med en partner för att distribuera [!INCLUDE[prodshort](includes/prodshort.md)] lokalt med maskinvara av eget val. Du kan sedan bestämma dig för att få intelligenta insikter genom att ansluta till en klientorganisation i molnet. Som ett resultat kommer data från din lokalt distribuerade [!INCLUDE[prodshort](includes/prodshort.md)] att replikeras till molnet för scenarier med intelligent moln.  
+Men om du använder [!INCLUDE [prod_short](includes/prod_short.md)] lokal kan du inte använda samma insikter. Om du vill dra nytta av scenarier med onlinekurser måste du migrera till [!INCLUDE [prod_short](includes/prod_short.md)] online. Mer information finns i [migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet för [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Anslutning till intelligent moln från en lokal lösning kräver att administratören anger information om databasen. De verktyg som används för att ansluta lokal distribution till [!INCLUDE [prodshort](includes/prodshort.md)] online är desamma som också används för migrering från lokala platser till online. Mer information finns i [migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet för [!INCLUDE[prodshort](includes/prodshort.md)].  
+## <a name="viewing-insights-in-prod_short-online"></a>Visa insikter i [!INCLUDE[prod_short](includes/prod_short.md)] online
 
-## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Visa insikter för intelligent moln i [!INCLUDE[prodshort](includes/prodshort.md)] Online
-
-I ditt [!INCLUDE[prodshort](includes/prodshort.md)] onlineföretag visar sidan **Insikter för intelligent moln** fyra viktiga punkter av intresse för de flesta företag:
+I [!INCLUDE[prod_short](includes/prod_short.md)] online visar sidan **Insikter för intelligent moln** fyra viktiga punkter av intresse för de flesta företag:
 
 - Kassatillgänglighet
 - Lönsamhet för försäljning
@@ -38,17 +36,14 @@ I ditt [!INCLUDE[prodshort](includes/prodshort.md)] onlineföretag visar sidan *
 Bredvid ett KPI-diagram kan du få insyn i potentiella viktiga områden, inklusive förfallna betalningar. Välj varje insikt för att se informationen.  
 
 > [!div class="mx-imgBorder"]
-> ![Insikter för intelligent moln](media/across-intelligent-cloud/intelligentcloudApril19.png "Insikter för intelligent moln i Business Central")
+> ![Insikter för intelligent moln.](media/across-intelligent-cloud/intelligentcloudApril19.png "Insikter för intelligent moln i Business Central Online")
 
-Sidan ansluter också till Power BI för ytterligare insikter.
-
-## <a name="viewing-intelligent-insights-on-premises"></a>Visa intelligenta insikter lokalt
-
-När din Dynamics 365 återförsäljare har fått rätt licens för den lokala lösningen för att ansluta till molnet genom [!INCLUDE[prodshort](includes/prodshort.md)], kan din IT-administratör konfigurera anslutningen. När detta är klart kan visa du samma insikter från molnet i din lokala applikation. Beroende på den lokala lösningen kan sidan **Insikter för intelligent moln** vara inbäddad på startsidan eller på en separat sida i [!INCLUDE[prodshort](includes/prodshort.md)] online och lokalt.  
+Sidan ansluter också till Power BI för ytterligare insikter. Du kan också ansluta till Azure AI för ännu mer intelligenta insikter. Mer information finns i [Tillägget Försäljning och lagerprognos](ui-extensions-sales-forecast.md).  
 
 ## <a name="see-also"></a>Se även
 
 [Välkommen till Business Central](index.md)  
-[Business Central Intelligent moln-tillägg](ui-extensions-intelligent-cloud.md)  
-[Tillägget Datareplikering](ui-extensions-data-replication.md)  
+[Tillägget Molnmigrering](ui-extensions-data-replication.md)  
 [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,30 +1,29 @@
 ---
-title: Översikt över proceduren för att konfigurera försäljningsprocesser | Microsoft Docs
-description: Innehåller information om hur du definierar regler och värden för att definiera dina försäljningspolicyer och -processer.
-services: project-madeira
-documentationcenter: ''
+title: Översikt över uppgifter för konfigurering av försäljningprocesser
+description: Översikt över uppgifter som krävs för att ställa in regler och värden som definierar dina försäljningsprinciper och processer, inklusive allmänna inställningar och ekonomirelaterade försäljningsinställningar.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 63d9357d29fbfdc3c230c69602fd370c5d73f21b
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953401"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115456"
 ---
 # <a name="setting-up-sales"></a>Konfigurera försäljning
 Innan du kan hantera försäljningsprocesser måste du konfigurera reglerna och värdena som definierar företagets försäljningspolicies.
 
-Först måste du definiera allmänna inställningar, till exempel vilka försäljningsdokument som krävs och hur deras värden bokförs. Dessa allmänna inställningar görs vanligtvis bara en gång, under den initiala implementeringen.
+Du måste definiera de allmänna inställningarna på sidan **Försäljningsinställningar**, till exempel vilka försäljningsdokument som krävs, hur deras värden ska bokföras och vilken typ av rader som ska skapas som standard. Dessa allmänna inställningar görs vanligtvis bara en gång, under den initiala implementeringen.
 
-En separat serie uppgifter relaterade till att registrera nya kunder är att registrera alla specialpriser eller rabattavtal som du har med varje kund.
+En separat serie uppgifter relaterade till att registrera nya kunder är att registrera alla specialpriser eller rabattavtal som du har med varje kund. Mer information finns i [Registrera speciella försäljningspriser och rabatter](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Finansrelaterade försäljningar, till exempel betalningssätt och valutor, beskrivs i avsnittet Finans. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md).
 
@@ -39,9 +38,13 @@ Finansrelaterade försäljningar, till exempel betalningssätt och valutor, besk
 |Du kan använda en EU-webbtjänst för att kontrollera kundens momsregistreringsnummer.|[Kontrollera momsregistreringsnummer](finance-setup-vat.md)|
 |Definiera de olika Incoterms som du erbjuder till kunder eller som leverantören erbjuder dig.|[Så här definierar du leveransmetoder](sales-how-set-up-shipment-methods.md)|
 |Ange information om de olika transportleverantörerna som du använder, bland annat en länk till deras godsupplysningstjänst.|[Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)|
+|Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

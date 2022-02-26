@@ -1,27 +1,29 @@
 ---
-title: Så här skapar du Baskalender | Microsoft Docs
-description: Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder.
+title: Skapa baskalendrar
+description: Du kan tilldela företaget och dess affärspartners en baskalender för att beräkna leveransdatum och inleveransdatum enligt de angivna arbetsdagarna.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 52bbf5f1092ad449be003021642c30651f38e780
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 7600, 7601, 7602, 5703
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188426"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011867"
 ---
 # <a name="set-up-base-calendars"></a>Skapa baskalendrar
+
 Du kan tilldela företaget och dess affärspartner, till exempel kunder, leverantörer och lagerställen, en baskalender. De angivna arbetsdagarna i kalendern används för att beräkna leveransdatum och inleveransdatum på rader på försäljningsorder, inköpsorder, överföringsorder och produktionsorder. Huvuduppgiften när du lägger upp en ny baskalender är att ange och definiera de lediga dagar som du vill ska gälla.  
 
-## <a name="to-set-up-a-base-calendar"></a>Så här lägger du upp en baskalender  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Baskalender** och välj sedan relaterad länk.  
+## <a name="to-set-up-a-base-calendar"></a>Så här lägger du upp en baskalender
+
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Baskalender** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fältet **Kod**.  
 4. Välj åtgärden **Bibehåll baskalenderändringar**.
@@ -42,15 +44,16 @@ När du gör en transaktion är fältet **Ej arbetsdag** markerat. Du kan välja
 Anger en datumformel för den tid det tar att fylla på artikeln. Den används för att beräkna fältet **Planerat inleveransdatum** om beräkningen är framåt och fältet **Orderdatum** om beräkningen är bakåt. Se [Ledtidsberäkning](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Ledtidsberäkning
+
 En baskalender som definierats för leverantörer eller lagerställe inverkar på hur datumen beräknas och avrundas till arbetsdagar. De viktigaste två datumfält på inköpsorderrader beräknas därför på följande sätt under olika omständigheter.
 
 |Beräkningsriktning|Leverantörskalender har definierats|Leverantörskalender har inte definierats|
 |---------------------|-----------------------|---------------------------|
 |Framåt|planerat inleveransdatum = orderdatum + leverantörsledtid (per leverantörskalendern och avrundat till nästa arbetsdag först i leverantörskalendern och sedan i lagerställekalendern)|planerat inleveransdatum = orderdatum + ( leverantörsledtid per lagerställekalendern)|
-|Bakåt|orderdatum = + planerat inleveransdatum - leverantörsledtid (per leverantörskalendern och avrundat till föregående arbetsdag först i leverantörskalendern och sedan i lagerställekalendern)|orderdatum = planerat inleveransdatum - leverantörsledtid (per lagerställekalendern)|
+|Bakåt|orderdatum = + planerat inleveransdatum – leverantörsledtid (per leverantörskalendern och avrundat till föregående arbetsdag först i leverantörskalendern och sedan i lagerställekalendern)|orderdatum = planerat inleveransdatum – leverantörsledtid (per lagerställekalendern)|
 
 > [!NOTE]
-> Förutom Ledtidsberäkningen som påverkar det planerade inleveransdatumet och Orderdatum, vilket visas i tabellen ovan distributionslagerhanteringstid och säkerhetsledtid läggas till i formlerna till värdet i fältet **förväntat inleveransdatum** följande: planerat inleveransdatum + Säkerhetsledtid + Ankommande lagerhanteringstid = Förväntat inleveransdatum.
+> Förutom Ledtidsberäkningen som påverkar det planerade inleveransdatumet och Orderdatum, vilket visas i tabellen ovan distributionslagerhanteringstid och säkerhetsledtid läggas till i formlerna till värdet i fältet **förväntat inleveransdatum** följande: planerat inleveransdatum + Säkerhetsledtid + inkommande lagerhanteringstid = Förväntat inleveransdatum.
 
 > [!Important]
 > Om ditt lagerställe använder en helt annan kalender än den leverantörerna använder är det viktigt att du lägger upp specifika kalendrar för leverantörerna för att beräkna bästa möjliga leverantörsledtider. Om du vill veta hur du ställer in leverantörskalendrar, se avsnittet [Så här tilldelar du en baskalender](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
@@ -64,7 +67,7 @@ I en baskalender visas exempelvis alla lördagar normalt som lediga dagar, medan
 
 I proceduren nedan används fallet med lagerstället som exempel: Lägg märke till att du i det här skedet redan har fördelat en baskalender till lagerstället.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Platser** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
 2. Öppna den plats som du vill uppdatera och välj sedan fältet **anpassad kalender**. Observera att en kalender måste markeras i fältet **Baskalenderkod**.
 3. På sidan **Anpassa kalendertransaktioner** väljer du åtgärden **Underhåll ändringar i kalender**.
 4. I **Anpassa kalenderändringar** lägger du till rader för anpassade kalendertransaktioner.
@@ -100,7 +103,7 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 -   På kortet **Lagerställe** tilldelas baskalendern på snabbfliken **Lager**.  
 -   På sidan **Speditörer** fördelats baskalendern på sidan **Speditörsservice**.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2.  Öppna det **Kundkort** som du vill tilldela en anpassad kalender för.  
 3.  På Snabbfliken **Leverans**, i fältet **Baskalenderkod**, markera den baskalender som du vill tilldela.  
 
@@ -116,4 +119,7 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 [Inköp](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

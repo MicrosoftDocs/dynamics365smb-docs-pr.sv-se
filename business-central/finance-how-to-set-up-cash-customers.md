@@ -1,41 +1,47 @@
 ---
-title: Så här skapar du kontantkunder | Microsoft Docs
-description: Det här avsnittet beskriver hur du skapar en kund som betalar kontant.
+title: Så här skapar du Kontantkunder
+description: I det här avsnittet beskrivs de steg som krävs för att ställa in en faktura med ett kundnummer för kunder som betalar kontant.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ebef3cd903472a22a9e2676d0856107da3be9c0a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 21, 22
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 7b021b957d2984d2b2ea239c1e8f737d90071215
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183314"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973446"
 ---
 # <a name="set-up-cash-customers"></a>Så här skapar du Kontantkunder
+
 Det går inte att skapa fakturor utan kundnummer. Det gäller även vid kontantförsäljning då det inte finns något att registrera på kundkonton.  
 
-## <a name="to-set-up-a-cash-customer"></a>Så här skapar du en kontantkund  
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kund** och välj sedan relaterad länk.  
-2.  Skapa ett nytt kort för **Kund**. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
-3.  I fältet **Nr.** ange t.ex. **Kassa**.  
-4.  Skriv till exempel **Kontanförsäljning** i fältet **Namn**.  
-5.  I snabbfliken **Fakturering** fyller du i fälten **Kundbokföringsmall** och **Gen. rörelsebokföringsmall**.  
+## <a name="to-set-up-a-cash-customer"></a>Så här skapar du en kontantkund
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kund** och väljer sedan relaterad länk.  
+2. Skapa ett nytt kort för **Kund**. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
+3. I fältet **Nr.** ange t. ex. **Kassa**.  
+4. Skriv till exempel **Kontanförsäljning** i fältet **Namn**.  
+5. I snabbfliken **Fakturering** fyller du i fälten **Kundbokföringsmall** och **Gen. rörelsebokföringsmall**.  
 
  Nu har du skapat en kund som innehåller tillräckliga uppgifter för fakturering.  
 
 > [!NOTE]  
->  Du har kanske valt en bokföringsmall som också används vid inhemsk kreditförsäljning. Om du vill underhålla särskilda data om kontantförsäljning, t.ex. genom särskilda konton för försäljning eller kundkrediter, kan du skapa en extra bokföringsmall för detta ändamål.  
->   
->  Du måste ange ett nummer i bokföringsmallen för kundkreditkontot, även om saldot på detta alltid kommer att vara 0 när du har bokfört fakturor.  
+> Du har kanske valt en bokföringsmall som också används vid inhemsk kreditförsäljning. Om du vill underhålla särskilda data om kontantförsäljning, t. ex. genom särskilda konton för försäljning eller kundkrediter, kan du skapa en extra bokföringsmall för detta ändamål.  
+>
+> Du måste ange ett nummer i bokföringsmallen för kundkreditkontot, även om saldot på detta alltid kommer att vara 0 när du har bokfört fakturor.  
 
 ## <a name="see-also"></a>Se även
-[Hantera kundreskontra](receivables-manage-receivables.md)  
-[Registrera nya kunder](sales-how-register-new-customers.md)    
-[Ekonomi](finance.md)  
 
+[Hantera kundreskontra](receivables-manage-receivables.md)  
+[Registrera nya kunder](sales-how-register-new-customers.md)
+[Finans](finance.md)  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

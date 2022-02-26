@@ -1,21 +1,21 @@
 ---
-title: Förstå montering mot kundorder och montering mot lager | Microsoft Docs
+title: Förstå montering mot kundorder och montering mot lager
 description: Monteringsartiklar kan anges genom att sammanföra dem när de beställs eller genom att montering att finnas i lagret tills de behov från en försäljningsorder.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: bholtorf
+ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186818"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011184"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
 Monteringsartiklar kan levereras i följande två processerna:  
@@ -36,7 +36,7 @@ Du använder vanligtvis *montering mot kundorder* för de artiklar som du inte v
 
 I montering mot kundorderprocessen är artikel satt samman som svar på en försäljningsorder och med ett ett-till-ett-länk mellan monteringsorder och försäljningsorder.  
 
-När du anger en artikel för montering mot kundorder på en försäljningsrad, skapas en monteringsorder automatiskt med ett huvud baserat på försäljningsraden och med rader, som baseras på artikelns monteringsstruktur multiplicerat med partistorlek. Du kan använda sidan **Montering mot kundorderrader** för att visa kopplad monteringsorderraderna för att stödja anpassning av monteringsartikeln och i ett leveransdatum som baseras på tillgänglighetsinformation för komponent. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
+När du anger en artikel för montering mot kundorder på en försäljningsrad, skapas en monteringsorder automatiskt med ett huvud baserat på försäljningsraden och med rader som baseras på artikelns monteringsstruktur multiplicerat med partistorlek. Du kan använda sidan **Montering mot kundorderrader** för att visa kopplad monteringsorderraderna för att stödja anpassning av monteringsartikeln och i ett leveransdatum som baseras på tillgänglighetsinformation för komponent. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Även om detta inte är en del av standard processen, kan du sälja lagerkvantiteten med antalet för montering mot kundorder. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
@@ -70,22 +70,34 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 
  Ett exempel på varför du vill ändra kvantiteten så att montera, är att du ska delvis bokföra utleveransen av lagersaldot, innan monteringsutflöde kan levereras.  
 
- Följande förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i en kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
+ Följande tabeller förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i ett kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
 
-||Försäljningsorderrad|Monteringsorderhuvud|  
-|-|----------------------|---------------------------|  
-||**Antal**|**Ant. att utleverera**|**Antal att montera mot kundorder**|**Utlevererat antal**|**Antal**|**Antal att montera**|**Monterad kvantitet**|**Återstående antal**|  
-|Initial|10|7|7|0|7|7|0|7|  
-|Ändra||4||||4 (infoga som standard)|||  
+- Försäljningsorderrad
 
- Utifrån det ovan, kan du endast ändra **Antal att montera** enligt nedan:  
+    |                | **Antal** | **Ant. att utleverera** | **Antal att montera mot kundorder** | **Utlevererat antal** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initialt värde**| 10          | 7                | 7                             | 0                    |
+    |**Förändring**      |              | 4                |                               |                      |
 
--   Den lägsta kvantitet som du kan ange är 1. Det är eftersom du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
--   Den höga kvantitet som du kan ange är 4. Detta görs för att se till att du inte monterar flera av denna monteringmotkundorderartikel än vad som behövs på försäljningen.  
+- Monteringsorderhuvud
 
-## <a name="see-also"></a>Se även  
+    |                | **Antal** | **Ant. att utleverera** | **Antal att montera mot kundorder** | **Utlevererat antal** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initialt värde**| 7           | 7                | 0                             | 7                    |
+    |**Förändring**      |              | 4 (infoga som standard)|                         |                      |
+
+Utifrån detta exempel kan du endast ändra fältet **Antal att montera** enligt nedan:  
+
+- Den lägsta kvantitet som du kan ange är 1. Det är eftersom du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
+- Den höga kvantitet som du kan ange är 4. Detta görs för att se till att du inte monterar flera av denna monteringmotkundorderartikel än vad som behövs på försäljningen.  
+
+## <a name="see-also"></a>Se även
+
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

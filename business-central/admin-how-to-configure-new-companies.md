@@ -3,19 +3,19 @@ title: Så här konfigurerar du nya företag | Microsoft Docs
 description: Du kan konfigurera och anpassa ett nytt företag som du har skapat. Om du vill finjustera implementeringen fortsätter du i tre faser för att slutföra konfigurationen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 15275c25745b8c8b3e332efc9addf441140bc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: b7a71e6611d78555d4be266e2b972152e5c43857
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187250"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439691"
 ---
 # <a name="configure-new-companies"></a>Konfigurera nya företag
 Om du vill konfigurera ett nytt företag i din lösningsimplementering följer du vanligtvis tre faser. I den första fasen importerar du ett konfigurationspaket som är en .rapidstart-fil med konfigurationsinformation. I den andra fasen ändrar du konfigurationsinformationen och tillämpar den sedan i det nya företaget. I slutfasen granskar du och rättar eventuella fel.  
@@ -31,16 +31,16 @@ Innan du importerar ett konfigurationspaket är det en bra idé att kontrollera 
 * Den användare som importerar konfigurationspaketet har gällande behörigheter för Infoga och Ändra för alla register som paketet kommer att uppdatera. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Så importerar du ett konfigurationspaket  
-1. Öppna det nya företaget i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Öppna det nya företaget i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 3. Välj åtgärden **Importera paket**.  
 4. Navigera till den plats där du har sparat .rapidstart-konfigurationspaketet och välj sedan knappen **Öppna**.  
-5. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företagsinformation** och välj sedan relaterad länk. Ange information om företaget på företagsinformationskortet. Ta med information som till exempel bankdetaljer. Du kan även ange en logotyp för företaget.  
+5. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk. Ange information om företaget på företagsinformationskortet. Ta med information som till exempel bankdetaljer. Du kan även ange en logotyp för företaget.  
 
 Alla tabeller som du har tilldelat för att ta med i det nya företaget importeras. I det här läget kan du koppla paketdata till databasen eller justera och ändra tabelldata för att uppfylla kundens specifikationer.  
 
 ## <a name="to-apply-package-data"></a>Så här kopplar du paketdata  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.  
 2. Välj en tabell som du vill modifiera data för, och välj sedan åtgärden **Koppla data**. Välj knappen **Ja** för att bekräfta kopplingen.
 3. Återgå till sidan **Konfig. kalkylblad** och välj åtgärden **Databasdata** för att bekräfta att datan nu finns i databasen och att kopplingen har lyckats.  
 
@@ -48,7 +48,7 @@ Alla tabeller som du har tilldelat för att ta med i det nya företaget importer
 >  När du har kopplat data kan du endast se dem i databasen. De finns inte längre i paketet.  
 
 ## <a name="to-modify-and-apply-package-data"></a>så här kan du ändra och koppla paketdata  
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.  
 2. Välj en tabell som du vill modifiera data för, och välj sedan åtgärden **Paketera data**.  
 3. På sidan **Konfig. paketposter** gör du dina ändringar. Du kan till exempel ta bort alternativ som inte används.  
 4. Välj åtgärden **Koppla data** och sedan knappen **OK**.  
@@ -57,7 +57,7 @@ Alla tabeller som du har tilldelat för att ta med i det nya företaget importer
 ## <a name="to-locate-and-identify-a-configuration-error"></a>så här kan du hitta och identifiera ett konfigurationsfel  
 Det finns vissa typer av fel som kan uppstå när du kopplar data till en databas. Det vanligaste felet är inte att ta med alla relaterade tabeller som behövs. Du kan åtgärda felen i konfigurationskalkylbladet.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationspaket** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationspaket** och väljer sedan relaterad länk.  
 2. Markera det paket som du vill granska och välj åtgärden **Redigera**.  
 
     Tabeller som innehåller fel markeras. Antalet paketfel visas i fältet **Antal paketfel**.  
@@ -66,7 +66,7 @@ Det finns vissa typer av fel som kan uppstå när du kopplar data till en databa
 
 ### <a name="to-fix-an-error"></a>Så här kan du lösa ett fel  
 1. Öppna företaget som baseras på ditt konfigurationspaket.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationskalkylark** och välj sedan relaterad länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.  
 3. Korrigera fel genom att exempelvis lägga till saknade relaterade tabeller i kalkylbladet.  
 4. Lägg till tabellerna i ett befintligt konfigurationspaket eller skapa ett nytt paket som innehåller endast de nya tabellerna. För mer information, se [Förbereda ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md).  
 5. Öppna det nya företaget som du använder konfigurationen för igen.  
@@ -81,3 +81,6 @@ Det finns vissa typer av fel som kan uppstå när du kopplar data till en databa
 [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)  
 [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administration](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

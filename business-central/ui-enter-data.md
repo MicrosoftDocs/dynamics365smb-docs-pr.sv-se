@@ -1,21 +1,21 @@
 ---
-title: Så här anger du data i Business Central | Microsoft Docs
-description: Lär dig mer om allmänna funktioner som hjälper dig att ange data i fälten.
-author: SorenGP
+title: Hur du anger du data i Business Central
+description: Det finns många allmänna funktioner som hjälper dig att ange data lättare, snabbare och mer exakt. De grundläggande principerna och de avancerade funktionerna beskrivs här.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262148"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588963"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -24,7 +24,7 @@ Det finns många allmänna funktioner som hjälper dig att ange data lättare, s
 I exemplen nedan används demonstrationsdata.
 
 ## <a name="working-with-editable-fields"></a>Arbeta med redigerbara fält
-Fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan innehålla olika redigerbara data, t.ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
+Fält i [!INCLUDE[prod_short](includes/prod_short.md)] kan innehålla olika redigerbara data, t. ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
 
 Vissa redigerbara fält innehåller en väljare som du kan använda för att ange ett värde.  
 
@@ -36,7 +36,6 @@ Vissa redigerbara fält innehåller en väljare som du kan använda för att ang
 |Växel eller kryssruta|Vissa fält ger ett enkelt alternativ med värdena *Ja* eller *Nej*. Växeln används för att ange det här värdet och visas alltid som en kryssrutor i listor|
 |Assist redigera       |Vissa fält tillhandahåller anpassade väljare som passar för att söka efter och välja det bästa värdet för fältet, till exempel popup-fönster.|
 
-
 ### <a name="modifying-a-field-value"></a>Ändra ett fältvärde
 
 Om du vill ändra värdet i ett fält måste du först ställa in fokus på det fältet. Du ställer in fokus genom att göra följande:
@@ -44,7 +43,7 @@ Om du vill ändra värdet i ett fält måste du först ställa in fokus på det 
 - Använd **Tabb**-nyckel. Åtgärden markerar hela värdet.
 - Vänsterklicka på musen eller på en liknande indataenhet. Med den här instruktionen kan du bara markera hela fältvärdet om fältet finns i en lista.  
 
-När du interagerar med fält i användargränssnittet prioriterar [!INCLUDE[d365fin](includes/d365fin_md.md)] normalt hela fältvärdet så att det blir enklare att ersätta värdet.
+När du interagerar med fält i användargränssnittet prioriterar [!INCLUDE[prod_short](includes/prod_short.md)] normalt hela fältvärdet så att det blir enklare att ersätta värdet.
 
 När hela fältvärdet är markerat:
 - Ersätt värdet genom att bara ange ett nytt värde. Om fältet innehåller en väljare kan du aktivera det med hjälp av kortkommandot **Alt + nedpil**.
@@ -57,8 +56,7 @@ När markören visas i slutet av fältvärdet:
 - Använd nyckel **Start**, **Slut**, **Vänsterpil** och **Högerpil** för att flytta markören i värdet. Om du redigerar ett fält i en lista, trycker du på **vänsterpilen** igen när markören är i början av värdet så aktiveras föregående fält. På samma sätt kan du trycka på **högerpilen** igen när markören är i slutet av värdet för att ge fokus till nästa fält.
 
 > [!NOTE]
-> När du har angett ett värde kommer Business Central endast att kontrollera att den är giltig när du har klickat utanför fältet eller ange ett annat element, t.ex. nästa fält.  
-
+> När du har angett ett värde kommer Business Central endast att kontrollera att den är giltig när du har klickat utanför fältet eller ange ett annat element, t. ex. nästa fält.  
 
 ## <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -68,7 +66,7 @@ Mer information om genvägar finns i [Kortkommandon](keyboard-shortcuts.md). I d
 
 ## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
 
-Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t.ex. på kortsidorna) och i listor (rader och kolumner). Det är praktiskt när du utför återkommande uppgifter som kräver att flera poster skapas i sekvens. Exempel omfattar en grupp försäljningsorder eller registrering av nya artiklar.
+Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t. ex. på kortsidorna) och i listor (rader och kolumner). Det är praktiskt när du utför återkommande uppgifter som kräver att flera poster skapas i sekvens. Exempel omfattar en grupp försäljningsorder eller registrering av nya artiklar.
 
 Du kan använda Tabb-tangenten för att gå från ett fält på en sida till nästa redigerbara fält. Nackdelen med att använda Tabb-tangenten är att det alltid går sekventiellt till nästa fält. <!-- even if the field is non-editable or seldom filled it in.-->Snabbinmatning låter dig ändra den här sökvägen. Med snabbinmatning gör att du kan använda returtangenten för att navigera genom enbart de fält som du är intresserad av. Snabbinmatning hoppar över icke redigerbara fält och fält som du vanligtvis inte fyller i. Du kanske redan har upptäckt denna funktion på vissa sidor. Detta beteende beror på att fälten som ska inkluderas när du trycker på retur och vilka som ska hoppas över har fördefinierats. Du kan anpassa snabbinmatning genom att anpassa arbetsytan och optimera hur du anger data på varje sida.
 
@@ -85,7 +83,7 @@ Listan nedan ger användbar information om hur du använder snabbinmatning.
 - Den är tillgänglig för alla fält som kan redigeras.
 - Den fungerar även i kolumner och rader.
 - Den hindrar inte från att komma åt andra element på en sida, till exempel åtgärder. Dessa element är tillgängliga genom att använda Tabb och Shift + Tabb.  
-- Det är inte nödvändigt att snabbflikar expanderas för att snabbinmatning ska fungera. Om nästa snabbinmatningsfält finns i en komprimerad snabbflik kommer den snabbfliken automatiskt expandera och fokusera på det valda fältet. [!INCLUDE[d365fin](includes/d365fin_md.md)] kommer ihåg att snabbfliken ska expanderas nästa gång du besöker sidan.  
+- Det är inte nödvändigt att snabbflikar expanderas för att snabbinmatning ska fungera. Om nästa snabbinmatningsfält finns i en komprimerad snabbflik kommer den snabbfliken automatiskt expandera och fokusera på det valda fältet. [!INCLUDE[prod_short](includes/prod_short.md)] kommer ihåg att snabbfliken ska expanderas nästa gång du besöker sidan.  
 - Snabbinmatning fungerar oavsett om fälten är obligatoriska. Så det är en bra idé att kontrollera att obligatoriska fält är inkluderade i snabbinmatning.
 - Som standard inkluderas de flesta fält i snabbinmatning. Så i början kommer uppgiften troligen att utesluta fält från snabbinmatning.
 
@@ -93,7 +91,7 @@ Listan nedan ger användbar information om hur du använder snabbinmatning.
 
 Om du vill ställa in snabbinmatning för fält använder du anpassning.
 
-1. Starta anpassning genom att välja ikonen ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **Anpassa**.
+1. Starta anpassningen genom att välja ![inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **anpassa**.
 2. Markera ett fält som du vill ändra. Markera motsvarande kolumnrubrik i listor. Välj sedan antingen **Inkludera i snabbinmatning** eller **Exkludera från snabbinmatning**.
 
 Mer information om anpassning finns i [Anpassa arbetsyta](ui-personalization-user.md).
@@ -116,11 +114,11 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kopiera och klistra in fält och rader för vanliga frågor
 
-Du kan kopiera en eller flera rader från en lista eller ett enstaka fält på en sida. Klistra sedan in det du kopierade på samma sida, en annan sida eller ett externt dokument. Du kan t.ex. klistra in Microsoft Excel eller Outlook-e-post. Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL+V eller cmd+V i macOS.
+Du kan kopiera en eller flera rader från en lista eller ett enstaka fält på en sida. Klistra sedan in det du kopierade på samma sida, en annan sida eller ett externt dokument. Du kan t. ex. klistra in Microsoft Excel eller Outlook-e-post. Kortfattat, för att kopiera trycker du på CTRL + C (cmd + C i macOS) på tangentbordet. Klistra in genom att trycka på CTRL+V eller cmd+V i macOS.
 
 I en lista kopierar du fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden, tryck bara på F8.
 
-Mer information finns i avsnittet [kopiera och klistra in vanliga frågor](ui-copy-paste.md).
+Mer information finns i avsnittet [kopiera och klistra in vanliga frågor](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrera radposter
 
@@ -136,33 +134,33 @@ Du får särskilt fördelar när du arbetar med stora radartikellistor och du vi
 
 ### <a name="switching-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
 
-För att fokusera på radartiklar väljer du var som helst i radartikeldelen och välj ![ikonen Fokusläge](media/focus-mode.png "Ikonen Fokusläge") i övre högra hörnet eller tryck på Ctrl+Shift+F12.
+Om du vill fokusera på rad artiklar markerar du var som helst i delen för rad objekt och väljer ![ikonen fokusläge.](media/focus-mode.png "Ikonen Fokusläge") i det övre högra hörnet eller på Ctrl + Skift + F12.
 
-Om du vill växla tillbaka till normal vy, välj ![ikonen Fokusläge](media/focus-mode.png "Ikonen Fokusläge") eller tryck på Ctrl+Shift+F12 igen.
+Om du vill växla tillbaka till normal läget väljer du ![ikonen fokusläge.](media/focus-mode.png "Ikonen Fokusläge") eller tryck på Ctrl + Skift + F12 igen.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multikörning över flera sidor
 
 Du kan öppna ett kort eller en dokument sida i ett nytt fönster. När du öppnar ett nytt fönster kan du:
 
 - Arbeta med flera uppgifter samtidigt
-- Hantera avbrott för den aktuella uppgiften, t.ex. inkommande samtal.
+- Hantera avbrott för den aktuella uppgiften, t. ex. inkommande samtal.
 - Håll ett fönster öppet för en pågående uppgift medan du startar eller slutför en annan uppgift i fönster.
 
-Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
+Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster.](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller på Alt + Skift + W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller trycker på Alt+Shift+W.
+Om du vill öppna det aktuella kortet eller dokumentet i ett nytt fönster väljer du ![Öppna nytt fönster.](media/open-new-window-icon.png "Ikonen Öppna nytt fönster") i det övre högra hörnet eller på Alt + Skift + W.
 
 > [!NOTE]
-> När du öppnar andra sidor från ett kort eller dokument som öppnas i ett nytt fönster öppnas sidorna i ett nytt fönster även om du inte väljer ![Öppna nytt fönster](media/open-new-window-icon.png "Ikonen Öppna nytt fönster").
+> När du öppnar andra sidor från ett kort eller dokument som öppnas i ett nytt fönster öppnas sidorna i ett nytt fönster även om du inte väljer ![Öppna nytt fönster.](media/open-new-window-icon.png "Ikonen Öppna nytt fönster").
 
 > [!NOTE]
 > Om du arbetar i Safari kan det hända att det nya fönstret inte öppnas i popup-blockeraren. I så fall anger du produktens URL som en tillåten webbplats. För information, se [Ändra inställningar i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Samma sak kan hända i andra webbläsare, till exempel Firefox. Mer information finns i [Inställningar för blockering av popup-fönster i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Ett ytterligare sätt att multitaska är att öppna [!INCLUDE[d365fin](includes/d365fin_md.md)] i två eller flera webbläsarflikar. När du gör detta bör du skapa en ny flik och sedan kopiera/klistra in URL-adressen för den ursprungliga fliken på den nya fliken. Då skapas en ny session.   
+Ett ytterligare sätt att multitaska är att öppna [!INCLUDE[prod_short](includes/prod_short.md)] i två eller flera webbläsarflikar. När du gör detta bör du skapa en ny flik och sedan kopiera/klistra in URL-adressen för den ursprungliga fliken på den nya fliken. Då skapas en ny session.   
 
 > [!NOTE]
 > Använd inte funktionen **Kopiera** i webbläsaren för att skapa den nya fliken eftersom detta kan medföra att åtgärder på en flik blockerar åtgärder på andra flikar då dessa ingår i samma session.
@@ -203,7 +201,7 @@ Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller uta
 
 ### <a name="entering-dates"></a>Ange datum
 
-Du kan antingen använda datumväljaren för att välja ett datum från en kalender, eller också kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
+Du kan antingen använda dataväljaren för att välja ett datum från en kalender, eller också kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
 
 För manuell datainmatning kan du skriva in två, fyra, sex eller åtta siffror.  
 
@@ -242,34 +240,9 @@ I följande tabell visas de olika sätt som du kan ange tider på, samt hur de t
 
  Du måste ange två siffror för varje tidsenhet om du inte använder någon avgränsare.  
 
-## <a name="entering-datetimes"></a>Ange datum och tid
+## <a name="entering-combined-datetimes"></a>Ange kombinerade datum och tider
 
-När du anger datum och tid måste du ange ett blanksteg mellan datumet och tiden.  
-
-Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en förklaring av hur de ska tolkas.  
-
-|Transaktion|Tolkning|  
-|---------------|------------------------|  
-|`131202` 132455|02-12-13 13:24:55|  
-|1-12-02 10|02-12-01 10:00:00|  
-|1.12.02 5|02-12-01 05:00:00|  
-|1.12.02|02-12-01 00:00:00|  
-|11 12|innevarande år-innevarande månad-11 12:00:00|  
-|1112 12|innevarande år-12-11 12:00:00|  
-|d eller dagens datum|dagens datum 00:00:00|  
-|d tid|dagens datum aktuell tid|  
-|d 10:30|dagens datum 10:30:00|  
-|d 03:03:03|dagens datum 03:03:03|  
-|a eller arbetsdagens datum|arbetsdagens datum 00:00:00|  
-|m eller måndag|måndag i innevarande vecka 00:00:00|  
-|ti eller tisdag|tisdag i innevarande vecka 00:00:00|  
-|on eller onsdag|onsdag i innevarande vecka 00:00:00|  
-|to eller torsdag|torsdag i innevarande vecka 00:00:00|  
-|fr eller fredag|fredag i innevarande vecka 00:00:00|  
-|lö eller lördag|lördag i innevarande vecka 00:00:00|  
-|sö eller söndag|söndag i innevarande vecka 00:00:00|  
-|ti 10:30|tisdag i innevarande vecka 10:30:00|  
-|ti 03:03:03|tisdag i innevarande vecka 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Ange varaktighet
 
@@ -292,6 +265,16 @@ Här följer några exempel.
 
  Numret 5 konverteras till 5 timmar om enheten är timmar.  
 
-## <a name="see-also"></a>Se även  
- [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Ange decimalavgränsare som används av numeriska tangentbord
+
+När du anger data med hjälp av decimal tecken för numeriska tangenter, bestäms den verkliga decimalavgränsare som anges i fältet av regionsinställningarna för Business Central. Du anger region i Business Central på sidan **Mina inställningar**.
+
+Anta exempelvis att du använder ett numeriskt tangentbord som använder en punkt (.) som tangent för decimalavgränsare. Du måste dock ange data för ett regionalt språk som använder komma (**,**) för decimaltecknet, som danska (Danmark) eller franska (Frankrike). Det innebär att du vill att decimaler som "1,23" ska anges som "1,23". I så fall kan du gå till sidan **mina inställningar** och ange **regionen** till det regionala språket, som **danska (Danmark)** eller **franska (Frankrike)**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Se även
+
+[Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

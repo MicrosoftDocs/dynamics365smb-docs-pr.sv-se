@@ -1,77 +1,82 @@
 ---
-title: Konfigurera dokumentspecifikt e-postinnehåll | Microsoft Docs
+title: Skicka dokument och e-post
 description: Du kan definiera innehåll som ska infogas i brödtexten i ett e-postmeddelande, till exempel en PayPal-länk. Du kan också koppla dokument till e-postmeddelanden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 05/13/2020
+ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402512"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588457"
 ---
-# <a name="send-documents-by-email"></a>Skicka dokument som e-post
+# <a name="send-documents-and-emails"></a>Skicka dokument och e-post
 
-För att meddela innehållet i affärsdokument snabbt till dina affärspartners, till exempel betalningsinformationen på försäljningsdokument till kunder, kan du använda funktionen Rapportlayout för att definiera dokumentspecifikt innehåll som infogas i e-postbrödtexter automatiskt. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).
+Du kan enkelt dela information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post direkt från [!INCLUDE[prod_short](includes/prod_short.md)] utan att behöva öppna en e-postapp.  
 
-Om du vill aktivera e-post i [!INCLUDE[d365fin](includes/d365fin_md.md)] startar du den assisterade inställningsguiden för **Konfigurera e-post** i ditt rollcenter.
+Du kan skicka nästan alla typer av dokument som bifogade PDF-filer. Du kan också skapa en rapportlayout som innehåller information från dokumentet i e-postmeddelandets brödtext, tillsammans med text som gör e-postmeddelandet mer användarvänligt, till exempel en standardhälsning. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
-Du kan e-posta praktiskt taget alla dokumenttyper som bilagor till e-postmeddelanden direkt från sidan som visar dokumentet. Förutom bilagan kan du skapa dokumentspecifika e-postbrödtexter med viktig information från dokumentet föregås av standardtext som hälsar e-postmottagaren och introducerar själva dokumentet. Om du vill erbjuda dina kunder att betala elektroniskt för försäljningar med en utbetalningtjänst, till exempel PayPal, kan du också ha PayPal-information och hyperlänk infogade i e-postbrödtexten.
+När du skickar fakturor kan du göra det enklare för kunder att göra betalningar via en betaltjänst, till exempel PayPal, genom att automatiskt lägga till information och en länk till tjänsten i e-postmeddelandet. Mer information finns i [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
-Från alla dokument som stöds börjar du att e-posta genom att välja åtgärden **Skicka** på bokförda dokument, eller åtgärden **Bokför och skicka** på ej bokförda dokument.
+Om du vill aktivera e-post i [!INCLUDE[prod_short](includes/prod_short.md)] startar du den assisterade inställningsguiden för **Konfigurera e-post**. Mer information finns i [Konfigurera e-post](admin-how-setup-email.md).
 
-Om fältet **E-posta** på sidan **Skicka dokument till** anges till **Ja (fråga efter inställningar)** och sedan öppnas sidan **Skicka e-post** med kontaktperson ifylld i fältet **Till:** och dokument som är bifogat som en PDF-fil. I fältet **brödtext** kan du antingen skriva in en text manuellt, eller också kan du fylla i fältet med en dokumentspecifik e-postbrödtext som du har ställt in.
-
-Efterföljande procedur beskriver hur du ställer in rapporten **Försäljning - faktura** att användas för dokumentspecifika e-postbrödtexter, när du e-postar bokförda försäljningsfakturor.
-
-## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Så här skapar du en dokumentspecifik e-postbrödtext för försäljningsfakturor
-
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval, försäljning** och välj sedan tillhörande länk.
-2. På sidan **Rapportval, försäljning** i fältet **Användning** väljer du **Faktura**.
-3. På en ny rad i fältet **Rappport-ID** väljer du t.ex. standardrapport 1306.
-4. Markera kryssrutan **Använd för e-postbrödtex**.
-5. Välj fältet **Layoutkod för brödtext i e-post** och välj sedan en layout från den nedrullningsbara listan.
-
-    Rapportlayouter definierar både formatet och innehållet i e-postbrödtexten, inklusive standardtexten som föregår den centrala dokumentinformationen i e-postbrödtexten. Alla tillgängliga rapportlayouter visas om du väljer knappen **Välj från fullständig lista** i den nedrullningsbara listan.
-6. Om du vill visa eller redigera den layout som e-postbrödtexten baseras på väljer du layout på sidan **Redigera layouter** och väljer sedan **Redigera layout**.
-7. Om du vill erbjuda dina kunder att betala elektroniskt för försäljningar kan du konfigurera relaterad utbetalningtjänst, till exempel PayPal, och sedan ha PayPal-information och hyperlänk infogade i e-postbrödtexten. Mer information finns i [Så här aktiverar du kundbetalningar via PayPal](sales-how-enable-payment-service-extensions.md).
-8. Välj knappen **OK**.
-
-Nu när du till exempel väljer åtgärden **Skicka** på sidan **Bokförd försäljningsfaktura** kommer e-postbrödtexten att innehålla information om dokumentet i rapport 1306 som föregås av utformad standardtext enligt den rapportlayout du valde i steg 5.
-
-Efterföljande procedur beskriver hur du skickar en bokförd försäljningsfaktura som ett e-postmeddelande med dokumentet bifogat som en PDF-fil och med dokumentspecifik e-postbrödtext.
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/prod_short.md)] stöder endast utgående e-postkommunikation. Du kan inte heller ta emot svar inom appen.
 
 ## <a name="to-send-documents-by-email"></a>Så här skickar du dokument som e-post
 
-1. Välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bokförda försäljningsfakturor** och välj sedan relaterad länk.
-2. Markera den relevanta bokförda försäljningsfakturan och välj åtgärden **Skicka**. Sidan **Skicka dokument till** öppnas.
+Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura till ett e-postmeddelande som en PDF-fil, samt med och med dokumentspecifik e-posttext. <!--update this-->
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.
+2. Markera fakturan och välj åtgärden **Skriv ut/Skicka** och välj **Skicka**.
 3. I fältet **E-post** väljer du **Ja (fråga efter inställningar)**. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
-4. Välj knappen **OK**. Sidan **Skicka e-post** öppnas.
+    
+    Om fältet **E-post** på sidan **Skicka dokument till** anges som **Ja (fråga efter inställningar)**, öppnas sidan **Skicka e-post** med kontaktpersonen förifylld i fältet **Till:** och dokumentet bifogat som en PDF-fil. I fältet **brödtext** kan du antingen skriva in en text manuellt, eller också kan du fylla i fältet med en dokumentspecifik e-postbrödtext som du har ställt in.
+
+4. Välj **OK**.
 5. I fältet **Till:** anger du en giltig e-postadress. Standardvärdet är kundens e-postadress.
 6. Ange ett beskrivande ämnestext i fältet **Ämne**. Standardvärdet är kundnamnet och fakturanumret.
 7. I fältet **Bilaga** är den genererade fakturan bifogad som standard som en PDF-fil.
 8. Ange ett kort meddelande till mottagaren i fältet **Text**.
 
-    Om en dokumentspecifik e-postbrödtext anges på sidan **Rapportval - försäljning** kommer fältet **Brödtext** att fyllas i automatiskt. Mer information finns i avsnittet [Så här skapar du en dokumentspecifik e-postbrödtext för försäljningsfakturor](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
+    Om en dokumentspecifik e-postbrödtext anges på sidan **Rapportval - Försäljning** kommer fältet **Brödtext** att fyllas i automatiskt. Mer information finns i [Konfigurera återanvändbara e-posttexter och -layouter för försäljnings- och inköpsdokument](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
 9. Välj knappen **OK** för att skicka e-postmeddelandet.
 
 > [!NOTE]  
 > Om du inte vill ange e-postinställningar varje gång du e-postar ett dokument, kan du välja alternativet **Ja (använd standardinställningar)** i fältet **E-post** på sidan **Skicka dokument till**. I så fall kommer inte sidan **Skicka e-post** att öppnas. Se steg 4. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).  
 
+## <a name="to-compose-and-send-an-email"></a>Skriva och skicka ett e-postmeddelande
+Du kan snabbt skapa e-postmeddelanden för kontakter, kunder, leverantörer, säljare/inköpare och bankkonton direkt från sidorna i dessa entiteter. Välj bara **processer** och skicka sedan **e-post** för att öppna e-postredigeraren. För bankkonton finns åtgärden **skicka e-post** under **åtgärder**.
+
+> [!TIP]
+> Om du ofta skickar e-postmeddelanden som är snarlika eller vill skicka en masskommunikation, t.ex. att annonsera en försäljningskampanj, kan du använda Word-mallar med e-post för att påskynda arbetet. Du kan skapa en mall för en entitet, till exempel kunder, leverantörer och kontakter, som ska generera innehållet i ett e-postmeddelande åt dig och till och med anpassa innehållet för mottagaren baserat på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [använda Word-mallar för masskommunikation](ui-mail-merge.md).  
+
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokument markerade som utskrivna ut när de skickas
 
-Vissa dokument i [!INCLUDE [prodshort](includes/prodshort.md)] har ett fält som anger hur många gånger dokumentet har skrivits ut. Fältet uppdateras också om du inte skriver ut dokumentet utan istället skickar det via e-post. Fältet uppdateras även om du inte skickar dokumentet, till exempel när organisationen inte har konfigurerat e-post eller när den kontakt som du vill skicka dokumentet till inte har någon angiven e-postadress. Vad [!INCLUDE [prodshort](includes/prodshort.md)] anbelangar skrivs dokumentet ut i samtliga scenarier, detta eftersom en PDF-fil genereras.  
+Vissa dokument i [!INCLUDE[prod_short](includes/prod_short.md)] har ett fält som anger hur många gånger dokumentet har skrivits ut. Numret i fältet <!--"that field?" need a name...--> uppdateras också om du skickar dokumentet med e-post, detta eftersom en PDF-fil genereras för det. Numret uppdateras även om du inte skickar e-postmeddelandet. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-Användaren kanske inte ser den genererade filen, men det är därför som fältet uppdateras.
+## <a name="sent-emails-and-your-email-outbox"></a>Skickade e-postmeddelanden och din utkorg för e-post
+
+[!INCLUDE[prod_short](includes/prod_short.md)] lagrar e-postmeddelanden som du skickar på sidan **Skickade objekt**. Det gör att du kan skicka e-post på nytt eller vidarebefordra dem till någon annan. Om du inte hittar något e-postmeddelande bland dina skickade objekt kan du söka efter det på sidan **Utkorg för e-post**. 
+
+> [!NOTE]
+> Beroende på vilket tillägg företaget använder för e-post kan administratörer se en lista över alla meddelanden som har skickats, men inte innehållet i meddelandena
+
+I **Utkorgen för e-post** finns de e-postmeddelanden som du har sparat som utkast samt e-postmeddelanden som inte skickades, till exempel om e-postadressen var ogiltig. För meddelanden som inte gick att skicka kan du välja **Visa fel** eller **Undersök fel** för att felsöka problemet.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/set-up-email/)
 
 ## <a name="see-also"></a>Se även
 
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Konfigurera e-post](admin-how-setup-email.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

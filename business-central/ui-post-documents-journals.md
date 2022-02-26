@@ -1,27 +1,27 @@
 ---
-title: Översikt över bokföring av dokument och journaler | Microsoft Docs
-description: Beskriver bokföringsåtgärder och hur bokför du dokument och journaler.
+title: Översikt över bokföring av dokument och journaler
+description: I det här avsnittet beskrivs bokföringsåtgärder och hur du kan bokföra dokument och journaler i de olika företagsredovisningarna.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 52a9330273dc82f349144e2d4392824f7c2ee33e
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310706"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012741"
 ---
 # <a name="posting-documents-and-journals"></a>Bokför dokument och journaler
 Bokföring representerar redovisningsåtgärden att bokföra affärstransaktioner i de olika företaghuvudböckerna.
 
-Praktiskt taget alla dokument och journaler i [!INCLUDE[d365fin](includes/d365fin_md.md)] erbjuder en **Bokföringsmall** där du kan välja mellan olika bokföringsåtgärder, till exempel **Bokföra**, **Förhandsgranska bokföring**, **Bokför och skicka**, **Bokför och e-posta**.
+Praktiskt taget alla dokument och journaler i [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder en **Bokföringsmall** där du kan välja mellan olika bokföringsåtgärder, till exempel **Bokföra**, **Förhandsgranska bokföring**, **Bokför och skicka**, **Bokför och e-posta**.
 
 I tabellen nedan beskrivs relaterade uppgifter med länkar till avsnitten där de beskrivs.
 
@@ -37,4 +37,7 @@ I tabellen nedan beskrivs relaterade uppgifter med länkar till avsnitten där d
 ## <a name="see-also"></a>Se även
 [Redigera bokförda dokument](across-edit-posted-document.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Serviceprishantering | Microsoft Docs
-description: Det här ämnet beskriver hur du tillämparbästa pris på serviceorder, lägga upp egna serviceprisavtal för kunder, förbättra de anställdas effektivitet och effektivisera faktureringen.
+title: Serviceprishantering
+description: Med serviceprishantering kan du ställa in serviceprisgrupper, serviceprissättning, serviceprissättning med mera.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: cc5593c1ff9f0de1cfabe5deaa903f6b99dc0e64
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192417"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438288"
 ---
 # <a name="service-price-management"></a>Serviceprishantering
 Med funktionen för serviceprishantering kan du tillämpa bästa pris på serviceorder, lägga upp egna serviceprisavtal för kunder, förbättra de anställdas effektivitet och effektivisera faktureringen.  
@@ -29,11 +29,13 @@ Innan priset på en serviceartikel justeras på en serviceorder får du en över
 Slutligen kan du med hjälp av statistik och standardrapporter följa upp lönsamheten för varje serviceprisgrupp.  
   
 ## <a name="service-price-adjustment-groups"></a>Serviceprisjusteringsgrupper  
-Du använder serviceprisjusteringsgrupper när du vill lägga upp olika typer av prisjusteringar. Du kan till exempel lägga upp en serviceprisjusteringsgrupp som justerar priset för reservdelar, en som justerar priset för arbetstid och en som justerar priset för kostnader och så vidare. Du kan också ange om serviceprisjusteringen ska gälla för bara en viss artikel eller resurs, eller för alla artiklar eller resurser.  
+Du använder tjänsteprisjusteringsgrupper när du vill lägga upp olika typer av prisjusteringar för tjänsterader. Du kan till exempel lägga upp en serviceprisjusteringsgrupp som justerar priset för reservdelar, en som justerar priset för arbetstid och en som justerar priset för kostnader, och så vidare. Du kan också ange om serviceprisjusteringen ska gälla för bara en viss artikel eller resurs, eller för alla artiklar eller resurser.  
   
-Varje serviceprisjusteringsgrupp innehåller information om de justeringar som du vill göra av serviceraderna.  
-  
-Serviceprisjusteringsfunktionen används inte för serviceartiklar som hör till servicekontrakt. Du kan bara justera servicepriserna för artiklar som finns på serviceordern. Du kan inte justera priset för en serviceartikel med garanti. Det går inte att justera priset för en serviceartikel i en serviceorder om serviceraden som är kopplad till artikeln har bokförts som faktura, antingen helt eller delvis.  
+Serviceprisjusteringsfunktionen används inte för serviceartiklar som lyder under följande villkor:
+
+* Artikeln tillhör servicekontrakt. Du kan bara justera servicepriserna för artiklar som finns på serviceordern. 
+* Om service artikeln har en garanti. 
+* Om serviceraden har bokförts som faktura, antingen helt eller delvis.  
   
 När du kör serviceprisjusteringsfunktionen ersätts alla rabatter i ordern av värdena för serviceprisjusteringen.  
   
@@ -47,7 +49,13 @@ När du tilldelar en serviceprisgrupp till en serviceartikel, kommer all specifi
 ## <a name="service-pricing"></a>Serviceprissättning  
 Du anger faktiska prissättningstyper (prisjusteringstyp och pris) för en kombination av serviceprisgrupper och kundprisgrupper. För varje typ av serviceprissättning väljer du en serviceprisjusteringsgrupp. Du anger även serviceprisjusteringstypen – fast, maximum eller minimum – och det faktiska priset.  
   
-Du kan t.ex. ange typer av serviceprissättning för prissättningsgruppen radio. För kunder utan prisgrupp kan du välja att ha serviceprissättning med maximalt pris för arbete, vilket är prisjusteringsgruppen för arbete. För kunder med en särskild prisgrupp kan du välja serviceprissättning med ett fast pris för arbete, vilket är samma prisjusteringsgrupp för arbete.  
+Du kan t. ex. ange typer av serviceprissättning för prissättningsgruppen radio. För kunder utan prisgrupp kan du välja att ha serviceprissättning med maximalt pris för arbete, vilket är prisjusteringsgruppen för arbete. För kunder med en särskild prisgrupp kan du välja serviceprissättning med ett fast pris för arbete, vilket är samma prisjusteringsgrupp för arbete.  
+
+#### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **serviceartiklar** och väljer sedan relaterad länk.  
+2. Välj serviceartikeln, expandera snabbfliken **Priser och försäljning** och välj sedan åtgärden **Resurs**, **Artikel** eller **Redovisningskonto**.
+3. På sidorna fyller du i **Priser för jobbresurser**, **Priser för jobbartiklar** eller **Priser för jobbredovisningskonto** efter behov.
+
   
 ## <a name="service-price-adjustment"></a>Serviceprisjustering  
 Med serviceprisjustering kan du justera priset för en artikel, resurs, ett redovisningskonto eller en kostnad på en serviceorder.  
@@ -67,3 +75,6 @@ Beräkningarna beskrivs i tabellen nedan.
 ## <a name="see-also"></a>Se även  
 [Registrera prissättning och alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

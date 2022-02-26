@@ -1,23 +1,21 @@
 ---
 title: Fördelningsstatus och reparationsstatus | Microsoft Docs
 description: Lär dig mer om sambandet mellan reparationsstatus för serviceartiklar och fördelningsstatus för fördelningsposterna för dessa.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cffd91900c5644ab31764290c0a3ff78a4685171
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9cf3349d654a4e007079075c64e9e56654619810
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316242"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772410"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Fördelningsstatus och reparationsstatus för serviceartiklar
 Det finns ett visst samband mellan serviceartiklarnas reparationsstatus och fördelningsstatus för fördelningsposterna till serviceartiklarna i modulen Service. Fördelningsstatusen ändras när du ändrar serviceartikelns reparationsstatus till **Avslutad** eller **Delvis servad** och när du omvandlar en serviceoffert till en serviceorder. En serviceartikels reparationsstatus ändras när du avbryter fördelningen av serviceartiklar eller flyttar serviceartikeln till en annan resurs. Du kan visa serviceartiklarnas reparationsstatus på sidan **Serviceuppgifter** och uppdatera reparationsstatus i fältet **Reparationsstatuskod** på sidan **Serviceartikeldokument**. Du kan visa fördelningsstatus på sidan **Status** på sidan **Resursfördelningar**.  
@@ -40,7 +38,7 @@ När du omvandlar en serviceoffert till en serviceorder uppdateras serviceordern
 * En sökning görs efter fördelningstransaktioner för alla serviceartiklar i serviceordern som har statusen **Aktiv**. Om sådana fördelningsposter hittas ändras deras fördelningsstatus från **Aktiv** till **Omfördelning nödvändig**.  
   
 ## <a name="canceling-allocations"></a>Rätta fördelningar  
-När du avbryter fördelningen av en serviceartikel uppdaterar [!INCLUDE[d365fin](includes/d365fin_md.md)] fördelningsstatusen för motsvarande fördelningspost från **Aktiv** till **Omfördelning nödvändig**.
+När du avbryter fördelningen av en serviceartikel uppdaterar [!INCLUDE[prod_short](includes/prod_short.md)] fördelningsstatusen för motsvarande fördelningspost från **Aktiv** till **Omfördelning nödvändig**.
 
 Reparationsstatus uppdateras för serviceartikeln i fördelningsposten så här:  
   
@@ -72,3 +70,6 @@ En ny fördelningspost skapas som innehåller den nya resursen med statusen **Ak
 [Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
 [Så här tilldelar du resurser](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
