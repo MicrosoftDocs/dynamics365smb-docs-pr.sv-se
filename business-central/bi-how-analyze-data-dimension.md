@@ -1,23 +1,21 @@
 ---
 title: Analysera data efter dimensioner
 description: Detta ämne beskriver hur du kan analysera olika affärsdata per dimension. Med dimensioner får du bättre insikt i företaget så att du kan utvärdera informationen.
-services: project-madeira
-documentationcenter: ''
 author: edupont
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9637aabd44f0714983a5d0ce129bf5bc9f1eaee4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ca377898f9dd49a55ec9113fc020054288c33910
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437082"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335064"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysera data efter dimensioner
 Inom ekonomisk analys är en dimension data som du kan lägga till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Dimensioner kan användas på transaktioner i journaler, dokument och budgetar. Termen dimension används för att beskriva hur analyser utförs. Ett exempel på en tvådimensionell analys är försäljning per område. Om du använder fler än två dimensioner när du skapar en transaktion kan du utföra mer komplexa analyser, exempelvis försäljning per försäljningskampanj per kundgrupp per område. Mer information finns i [Arbeta med](finance-dimensions.md).

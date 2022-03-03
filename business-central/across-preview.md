@@ -2,19 +2,18 @@
 title: Utvärderingsversioner och prenumerationer
 description: Lär dig mer om hur du skaffar en utvärderingsversion av Business Central, hur du arbetar med miljöer med begränsat läge och hur du registrerar dig för prenumerationer.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 09/29/2021
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011552"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335532"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer
 
@@ -38,7 +37,7 @@ Om du väljer att inte använda [!INCLUDE [prod_short](includes/prod_short.md)] 
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Lägga till egna data till ett tomt testföretag
 
-Om du vill testa [!INCLUDE[prod_short](includes/prod_short.md)] med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag. Den assisterade konfigurationen **Konfigurera mitt företag** kan hjälpa dig att ange specifik grundläggande information om ditt företag. Du kan också importera data från din befintliga verksamhetslösning så att du kan utvärdera [!INCLUDE[prod_short](includes/prod_short.md)] med dina egna data. Vi rekommenderar emellertid att du inte använder en gratis testversion för att hjälpa dig att driva ditt företag. Kontakta [en återförsäljarpartner](/dynamics365/business-central/across-faq#findpartner) för att lära dig mer om hur du kommer igång med [!INCLUDE[prod_short](includes/prod_short.md)].  
+Om du vill testa [!INCLUDE[prod_short](includes/prod_short.md)] med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag. Den assisterade konfigurationen **Konfigurera mitt företag** kan hjälpa dig att ange specifik grundläggande information om ditt företag. Du kan också importera data från din befintliga verksamhetslösning så att du kan utvärdera [!INCLUDE[prod_short](includes/prod_short.md)] med dina egna data. Vi rekommenderar emellertid att du inte använder en gratis testversion för att hjälpa dig att driva ditt företag. Kontakta [en återförsäljarpartner](/dynamics365/business-central/across-faq#findpartner) för att lära dig mer om hur du kommer igång med [!INCLUDE[prod_short](includes/prod_short.md)]. Partnern kan också hjälpa dig att migrera dina data till [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 Om 30 dagar inte räcker för att du ska kunna bestämma dig, kan du förlänga utvärderingsperioden. Mer information finns i [Behöver du mer tid för att bestämma om du ska prenumerera?](admin-extend-trial.md).  
 
@@ -105,6 +104,7 @@ Administratören för din [!INCLUDE[prod_short](includes/prod_short.md)] och din
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanliga frågor och svar](across-faq.yml)  
 [Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner)  
+[Migrera data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Välj Dynamics 365 Business Central utveckling av miljö för begränsat läge](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Förlänga testversioner (som administratör)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

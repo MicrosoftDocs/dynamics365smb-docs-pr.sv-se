@@ -2,20 +2,20 @@
 title: Ställa in skrivare
 description: Lär dig mer om hur du konfigurerar skrivare som du kan använda för rapporter och dokument samt vilken utskriftsfunktion som är tillgänglig för dig i Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
+ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102453"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335165"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 
@@ -86,11 +86,11 @@ För detaljerade instruktioner om hur du installerar, se [Komma igång: Ställ i
 
     - Med [!INCLUDE[prod_short](includes/prod_short.md)] online tilldelar du licenser genom att använda Microsoft 365-administrationscentret.
 
-      Mer information finns i [Hjälp för Microsoft administrationscenter - tilldela licenser till användare](/microsoft-365/admin/manage/assign-licenses-to-users).
+      Mer information finns i [Hjälp för Microsoft administrationscenter – tilldela licenser till användare](/microsoft-365/admin/manage/assign-licenses-to-users).
 
     - Med [!INCLUDE[prod_short](includes/prod_short.md)] lokala fördelar tilldelar du licenser i din Azure-klient med hjälp av Azure-portalen.
 
-      Mer information finns i [Azure Directory - Tilldela eller ta bort licenser i Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
+      Mer information finns i [Azure Directory – Tilldela eller ta bort licenser i Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Installera anslutningsprogrammet för Universell utskrift för att registrera skrivare som inte kan kommunicera direkt med Universell utskrift.
 

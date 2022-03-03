@@ -2,7 +2,6 @@
 title: Konfigurera finansiella processer
 description: Få mer information om uppgifterna för att ställa in Finance i ditt företag som passar alla behov av redovisning, granskning eller bokföring.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d2763e42ae6c31a4f631457ea16b6a5bdcad40db
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7c6f7574a227d2901c8989db50d6f4c75528429f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6327019"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147602"
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
 Innan du kan börja driva ditt företag måste du ange regler och standardvärden för hur du vill hantera finansprocesser för det företaget. Du börjar med att skapa det viktigaste för företagets redovisningsposter – kontoplanen. Därefter skapar du bokföringsmallar, som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.

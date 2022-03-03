@@ -2,17 +2,16 @@
 title: Installera tillägg för att anpassa Business Central
 description: Lär dig mer om att lägga till funktioner och att anpassa Business Central genom att installera tillägg.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587790"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132426"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Anpassa Business Central Online med hjälp av tillägg
 
@@ -24,7 +23,7 @@ Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] online genom att in
 > Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
 
 > [!NOTE]  
-> Behörighetsuppsättningen **EXTEND. MGT. - ADMIN** infördes i Business Central 2021 utgivningscykel 1 som ersättning av behörighetsuppsättningen **D365 EXTENSION MGT** i tidigare versioner.
+> Behörighetsuppsättningen **EXTEND. MGT. – ADMIN** infördes i Business Central 2021 utgivningscykel 1 som ersättning av behörighetsuppsättningen **D365 EXTENSION MGT** i tidigare versioner.
 
 > [!IMPORTANT]  
 > Överföring av tillägg per innehavare och installation av AppSource-tillägg stöds inte via sidan **Tilläggshantering** för lokala installationer. Du kan inte installera AppSource-tillägg lokalt, inklusive i Docker-baserade distributioner.

@@ -2,21 +2,20 @@
 title: Använda redovisningsjournaler för att bokföra direkt i redovisningen
 description: Lär hur du använder journaler för att bokföra ekonomiska transaktioner på redovisningskonton och andra konton, till exempel bank- och leverantörskonton. Använd återkommande journaler för att bokföra periodiseringar och fördela saldon efter dimensionsvärden.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
-ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
+ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92535c17570f8204214018377b738cd15f05d9c8
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 1d042d2a399f6bf0fb329aa9287e4ced37e43fef
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100870"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323090"
 ---
 # <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
 
@@ -126,7 +125,7 @@ Om den *återkommande metoden* i den återkommande journalen har angetts som **S
 
 Om du vill fördela återkommande journalbelopp baserat på dimensioner anger du fältet **Återkommande metod** som **Saldo efter dimension** eller **Återföra saldo efter dimension** istället. Om den återkommande metoden i den återkommande journalen har angetts som **Saldo efter dimension** eller **Återföra saldo efter dimension** beaktas alla dimensionsvärdekoder i den återkommande journalen när kontot är nollställt. Om du allokerar en återkommande rad till olika dimensionsvärden på sidan **Allokeringar** skapas därför ett antal återföringstransaktioner som matchar antalet dimensionsvärdekombinationer som saldot består av. Om du allokerar kontosaldo via den återkommande journalen som innehåller en dimensionsvärdekod, kom då ihåg att använda **Saldo efter dimension** eller **Återföra saldo efter dimension** för att se till att dimensionsvärdena är korrekt balanserade eller återförda från källkontot.  
 
-Ditt företag har till exempel ett par affärsenheter och en handfull avdelningar som dina controllers har ställt in som dimensioner. Om du vill påskynda transaktionsprocessen för inköpsfakturor bestämmer du dig för att kräva att leverantörsreskontramedarbetarna endast anger affärsenhetsdimensioner. Eftersom varje affärsenhet har specifika fördelningsnycklar för avdelningsdimensionen - till exempel baserat på antalet medarbetare - kan du använda de återkommande metoderna för **BD-saldo efter dimension** eller **RBD-återföringssaldo efter dimension** för att omfördela utgifter för respektive affärsenhet till rätt avdelningar baserat på fördelningsnycklarna.  
+Ditt företag har till exempel ett par affärsenheter och en handfull avdelningar som dina controllers har ställt in som dimensioner. Om du vill påskynda transaktionsprocessen för inköpsfakturor bestämmer du dig för att kräva att leverantörsreskontramedarbetarna endast anger affärsenhetsdimensioner. Eftersom varje affärsenhet har specifika fördelningsnycklar för avdelningsdimensionen – till exempel baserat på antalet medarbetare – kan du använda de återkommande metoderna för **BD-saldo efter dimension** eller **RBD-återföringssaldo efter dimension** för att omfördela utgifter för respektive affärsenhet till rätt avdelningar baserat på fördelningsnycklarna.  
 
 > [!NOTE]
 > Dimensioner som du anger på allokeringsrader beräknas inte automatiskt, utan du måste ange vilka dimensionsvärden som måste anges på fördelningskontona. Om du vill bevara kopplingen mellan källkontodimensionen och fördelningskontodimensionen rekommenderar vi att du använder funktionen för [Kostnadsfördelning](finance-about-cost-accounting.md) istället.

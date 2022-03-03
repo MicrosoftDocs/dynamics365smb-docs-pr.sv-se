@@ -2,7 +2,6 @@
 title: Ställa in underhåll för anläggningstillgångar
 description: Om du vill hantera anläggningstillgångars reparationer och service, kan du ange allmän underhållsinformation, koder för typen av arbete och ett bokföringskonto för kostnader.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5600, 5642
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1aefc5d0e1453b2f43b9e72f587c0d9f90d07b4e
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: e55b85397ca50995870ab86ed40421bbb0b4cb6d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029488"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147862"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Skapa underhåll för anläggningstillgångar
 Om du vill hantera underhåll av anläggningstillgångar måste du först ange viss allmän underhållsinformation, ett bokföringskonto för underhållskostnader och underhållskoder för olika typer av arbete, till exempel rutintjänst eller reparation.
@@ -35,9 +34,9 @@ När du bokför underhållskostnader (från en redovisningsjournal eller en ink�
 2. Lägg upp koder för andra typer av underhållsarbete på sidan **Underhåll**.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Så här skapar du underhållskostnader
-Om du vill bokföra underhållskostnader måste du först ange ett kontonummer på sidan **Anl. bokföringsmallar**.
+Om du vill bokföra underhållskostnader måste du först ange ett kontonummer på sidan **Anl.bokföringsmallar**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. bokföringsmallar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.
 2. Fyll i fältet **Underhållskostnader** för varje bokföringsmall.
 
 > [!NOTE]  

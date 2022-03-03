@@ -2,18 +2,17 @@
 title: Svara på begäranden om personuppgifter
 description: I det här avsnittet beskrivs hur du svarar på förfrågningar om personuppgifter. Detta kallas registrerades begäran.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321968"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148856"
 ---
 # <a name="responding-to-requests-about-users-personal-data"></a>Svara på begäranden om användarens personuppgifter  
 Uppgiftssubjekt kan begära olika typer av åtgärder avseende deras personuppgifter. Exempelvis under de Allmänna dataskyddsbestämmelserna (GDPR), har bosatta inom EU rätt att begära export, borttagning och ändring av deras personuppgifter. Detta kallas *registrerades begäran*. Om du har klassificerat känsligheten i dina data och är säker på att de är korrekta, kan en administratör svara på begäranden med hjälp av alternativen under fliken **Datasekretess** u rollcentret **IT-chef**. Läs mer om klassificering av data och klassificering av datakänslighet i [!INCLUDE[prod_long](includes/prod_long.md)], se [Klassificering av data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) och [Klassificering av datakänslighet](admin-classifying-data-sensitivity.md).  
@@ -35,7 +34,7 @@ Följande tabell innehåller exempel på olika typer av förfrågningar som du k
 Ett datasubjekt kan begära att du tillfälligt slutar bearbeta deras personuppgifter. Om du vill tillgodose en sådan begära, kan du markera posten som blockerad av sekretesskäl i syfte att sluta bearbeta deras data. När en post har markerats som spärrad kan du inte skapa nya transaktioner som använder posten. Du kan till exempel inte skapa en ny faktura för en kund när antingen kunden eller säljaren är spärrad. För att markera ett datasubjekt som blockerat. öppna datasubjektets kort, till exempel kund-, leverantörs- eller kontaktkort, och välj kryssrutan **Sekretessblockerad**. Du kan behöva välja **Visa fler** för att visa fältet.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Hantera begäranden av registrerade i test
-Vissa typer av personuppgifter som ingår i ditt Microsoft 365-konto och kräver administrativ behörighet för att exportera, om du får en begäran av registrerad person om data från en användare för den här typen av personuppgifter enligt allmänna dataskyddsförordningen (GNPR). Processen för att hantera begäranden från registrerade är olika beroende på vilken typ av [!INCLUDE[prod_short](includes/prod_short.md)]-innehavare.  
+Vissa typer av personuppgifter ingår i ditt Microsoft 365-konto och kräver administrativ behörighet för att exportera om du får en begäran om persondata från en användare för den här typen av personuppgifter enligt allmänna dataskyddsförordningen (GDPR). Processen för att hantera begäranden från registrerade är olika beroende på vilken typ av [!INCLUDE[prod_short](includes/prod_short.md)]-innehavare.  
 
 Om du har en betald prenumeration för [!INCLUDE[prod_short](includes/prod_short.md)], måste du kontakta företagets innehavaradministratör om du vill göra en registrerades begäran. Administratören har administratörsrättigheter och verktygen för att uppfylla begäran.  
 

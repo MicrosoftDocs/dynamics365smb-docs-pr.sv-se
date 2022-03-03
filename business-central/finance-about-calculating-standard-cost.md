@@ -2,19 +2,18 @@
 title: Om beräkning av standardkostnad
 description: I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973706"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149159"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beräkning av standardkostnad
 Många produktionsföretag använder värderingsbasen för standardkostnad. Detta gäller också företag som utför lätt produktion, t. ex. montering och paketering. I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks. Innan ett beslut fattas om att ändra de här kostnaderna förblir de frysta. Den faktiska kostnaden för att tillverka en produkt kan skilja sig från den beräknade standardkostnaden. Den faktiska kostnaden jämförs sedan med standardkostnaden för en särskild artikel och skillnaderna eller *avvikelserna* identifieras och analyseras för den ekonomiska styrningen.  

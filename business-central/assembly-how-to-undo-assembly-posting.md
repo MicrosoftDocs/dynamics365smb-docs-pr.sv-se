@@ -2,7 +2,6 @@
 title: 'Så här: Ångra monteringbokning'
 description: Ibland måste du ångra en bokförd monteringsorder, till exempel för att ordern har bokförts med misstag som måste rättas.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 48c454084e850b5dedf58c499263258c0ae8294c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 245eaede4bce79fa3626d5a8a8d102b9c190ccaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435350"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143770"
 ---
 # <a name="undo-assembly-posting"></a>Ångra monteringsboking
 Ibland kan du behöva ångra en bokförd monteringsorder, t.ex då ordern har bokförts med ett misstag som måste rättas, eller eftersom det inte bör både ha bokförts i första omgången och måste återställas.

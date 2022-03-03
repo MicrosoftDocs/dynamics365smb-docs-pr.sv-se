@@ -2,7 +2,6 @@
 title: SEPA-autogiro i Business Central
 description: Med kundens samtycke kan du samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 681775b78a6d3461a9cd5d6fa1cade1519579903
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a1de8defa88e9a2d744f5b8d25ebebda33c22649
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970784"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147810"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Samla in betalningar med SEPA-autogiro
 

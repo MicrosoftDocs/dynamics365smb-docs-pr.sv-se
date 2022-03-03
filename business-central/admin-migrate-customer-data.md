@@ -2,24 +2,23 @@
 title: Migrera kunddata
 description: Du kan migrera befintliga kunddata från ett befintligt system till Business Central med hjälp av RapidStart Services – eller bara registrera datan direkt i företaget.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437472"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335376"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 
-Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget.
+Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget. Du kan också använda hjälpguiden för **molnmigrering** för att flytta data. Mer information finns i [Migrera Data](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administratörsinnehållet.
 
 > [!NOTE]
 > Fält av BLOB-typen kan inte exporteras/importeras med Excel.

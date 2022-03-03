@@ -2,7 +2,6 @@
 title: Så här reserverar du artiklar
 description: Du kan reservera artiklar för försäljningsorder, inköpsorder och produktionsorder. Du kan reservera artiklar i lager eller inkommande på öppna dokumentrader.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d53de74aa14001598177fcbf7d83d519fad9e0fd
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 6dcd912dfae36e31bd2642b5f1427483f3095c19
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060070"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148570"
 ---
 # <a name="reserve-items"></a>Reservera artiklar
 Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller inkommande på öppna dokument eller journalrader. Du utför arbetet på sidan **Reservation**.

@@ -2,7 +2,6 @@
 title: Ångra en bokföring genom att bokföra en mottransaktion
 description: Om du har bokfört en felaktig bokföring i den allmänna journalen, kan du använda funktionen Återför transaktion för att ångra bokföringen med ett korrekt redovisningsspårning.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 2a9689db234280c2bcca5e32ade2a82488c15de5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972544"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147732"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Återföra journalbokningar och ångra inleveranser/utleveranser
 

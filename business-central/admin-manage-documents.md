@@ -2,17 +2,16 @@
 title: Hantera lagring genom att ta bort dokument eller komprimera data
 description: Lär dig att hantera historiska dokument (och minska mängden data som lagras i en databas) genom att ta bort eller komprimera dem.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 107, 9040
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: edd23c8dcb7e129446a8f3d0180fcd107d08fa02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: a5c79da88ec49f6d9ff763b6712b0777158d2805
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011471"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147917"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hantera lagring genom att ta bort dokument eller komprimera data
 
@@ -49,11 +48,11 @@ Antalet transaktioner som skapas från en datumkomprimering beror på hur många
 
 Du kan komprimera följande typer av data med hjälp av batch-jobb. Det finns ett batchjobb för varje typ av data.
 
-* Banktransaktioner - redovisningstransaktioner, momstransaktioner, bankkontotransaktioner, redovisningsbudgettransaktioner, kundreskontratransaktioner, leverantörsreskontratransaktioner.
+* Banktransaktioner – redovisningstransaktioner, momstransaktioner, bankkontotransaktioner, redovisningsbudgettransaktioner, kundreskontratransaktioner, leverantörsreskontratransaktioner.
 * Dist.lagertransaktioner 
 * Resurstransaktioner
 * Artikelbudgettransaktioner
-* Anläggningstillgång - Anl. transaktioner, Anl. underhållstransaktioner, Anl. försäkringstransaktioner.
+* Anläggningstillgång – Anl. transaktioner, Anl. underhållstransaktioner, Anl. försäkringstransaktioner.
 
 När du definierar kriterier för komprimeringen kan du använda alternativen under **Behåll fältinnehåll** för att behålla innehållet i vissa fält. Vilka fält som är tillgängliga beror på vilka data du komprimerar.
 

@@ -2,18 +2,17 @@
 title: Uppdatera valutakurser (innehåller video)
 description: Spåra belopp i olika valutor med hjälp av valutakoder och låt Business Central hjälpa dig att justera valutakurser för bokförda transaktioner med en extern tjänst.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 07/23/2021
+ms.date: 02/17/2022
 ms.author: edupont
-ms.openlocfilehash: 93a5059be3810af4d0351c6508c5d6119eaa4015
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972893"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323272"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
 
@@ -28,6 +27,9 @@ Din redovisning ställs in för att använda den lokala valutan (BVA), men du ka
 
 > [!IMPORTANT]
 > Om du vill använda en alternativ rapporteringsvaluta för ekonomisk rapportering måste du känna till begränsningarna. Mer information finns i [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md).
+
+> [!NOTE]  
+> När du bokför i redovisning med hjälp av en valutakod, till exempel för att bokföra en utgift i en redovisningsjournal med en valutakod, konverteras transaktionen till BVA med hjälp av valutakursen för bokföringsdatumet. Redovisningstransaktionen kommer inte att innehålla information om vilken valuta som har använts, bara dess värde i BVA. Om du vill kunna spåra originalvalutan, till exempel för en faktura, måste du använda både försäljnings-och inköpsdokument samt bankkonton som lagrar information om valutakod för transaktionerna.
 
 ## <a name="currencies"></a>Valutor
 

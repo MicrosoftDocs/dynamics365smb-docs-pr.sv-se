@@ -1,19 +1,18 @@
 ---
-title: Så här spårar du godspaket
+title: Spåra paket
 description: Använd spårningstjänsten för speditör på Internet för att spåra skiftena och följa leveransens förlopp.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752372"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334492"
 ---
 # <a name="track-packages"></a>Spåra paket
 De flesta speditörer tillhandahåller en webbtjänst som gör att du kan spåra statusen för dina paket medan de är på väg. Denna information kan vara användbar i många affärsprocesser, till exempel när du tillhandahåller kundservice. Om du använder en eller flera speditörer kan du ange en del grundläggande information om dem och sedan använda deras paketspårningstjänst direkt från sidorna Bokförda försäljningsutleveranser, Bokförda försäljningsfakturor, Bokförda försäljningskreditnotor och Bokförd returinleverans. För mer information, se [Ställa in speditörer](sales-how-to-set-up-shipping-agents.md). 

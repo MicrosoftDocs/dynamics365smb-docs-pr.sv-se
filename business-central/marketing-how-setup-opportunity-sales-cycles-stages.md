@@ -2,7 +2,6 @@
 title: Så här skapar du cykler för affärsmöjligheter och cykeletapper | Microsoft Docs
 description: Beskriver hur du definierar säljetapper från första kontakt till avslut om du vill skapa en försäljningscykel och tilldela affärsmöjligheter i Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 16c72d0c0b2b14e73b390b585b505f00956ac4d4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 5eb180d1190e56dc7a43354b5aef2637500a38be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059758"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148440"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Skapa cykler för affärsmöjligheter och cykeletapper
 Innan du börjar använda affärsmöjligheter måste du skapa försäljningscykler och försäljningscykeletapper. En försäljningscykel består av en serie etapper från den första kontakten till en genomförd försäljning. Varje etapp kan ha vissa krav som måste uppfyllas, till exempel att kräva en förs.offert innan en affärsmöjlighet kan gå till nästa etapp. Du kan också ange om en etapp kan hoppas över. Du kan skapa ett valfritt antal försäljningscykler och så många etapper som behövs inom en försäljningscykel.

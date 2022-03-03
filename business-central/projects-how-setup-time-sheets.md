@@ -2,7 +2,6 @@
 title: Konfigurera tidrapporter och deras godkännande
 description: Du lägger upp tidrapporter för att spåra den tid som använts för uppgifter och projekt, vilket hjälper dig med projekthantering, personal och kapacitet
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 3eca8e42a6b57e4a78ffd3f2dace885ba66c3ddf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972232"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147550"
 ---
 # <a name="set-up-time-sheets"></a>Så här skapar du tidrapporter
 

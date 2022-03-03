@@ -2,7 +2,6 @@
 title: Skapa och ändra anpassade layouter för rapporter och dokument
 description: Lär dig hur du kan skapa anpassade layouter för att personligt anpassa utseendet på rapporten när den visas, skrivs ut eller sparas.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3e16ff82492c3331be901c5be5d30de6d302787
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101061"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134723"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Skapa och ändra anpassade rapportlayouter
 
@@ -56,7 +55,7 @@ När anpassade layouter för rapporter definieras kan du välja dem från kund- 
 Den anpassade layouten har skapats. Du kan nu ändra den anpassade layouten efter behov.
 
 > [!TIP]
-> Tja, du kan exportera rapportresultaten till en Excel-fil för att visa hela datauppsättningen, inklusive alla kolumner, men utan layouten. Excel-filen kan hjälpa dig att verifiera att rapporten returnerar förväntade data eller diagnosproblem. Mer information finns i [Arbeta med rapporter - Skicka till Excel](ui-work-report.md#send-to-excel).
+> Tja, du kan exportera rapportresultaten till en Excel-fil för att visa hela datauppsättningen, inklusive alla kolumner, men utan layouten. Excel-filen kan hjälpa dig att verifiera att rapporten returnerar förväntade data eller diagnosproblem. Mer information finns i [Analysera rapportdata med Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Ändra en anpassad layout
 

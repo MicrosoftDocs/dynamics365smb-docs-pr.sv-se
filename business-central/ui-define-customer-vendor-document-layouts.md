@@ -4,7 +4,6 @@ description: När anpassade layouter för rapporter definieras kan du välja dem
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443749"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147472"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definiera dokumentlayout för kunder och leverantörer
 När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort i syfte att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t. ex. **påminnelse**, **utleverans** och **bekräftelse**.

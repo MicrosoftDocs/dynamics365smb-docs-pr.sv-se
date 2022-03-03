@@ -2,20 +2,20 @@
 title: Flera språk och lokala inställningar
 description: Lär dig mer om hur språk och regionsinställningar påverkar din upplevelse i Business Central. Ändra språket för användargränssnittet under Mina inställningar.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588407"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323143"
 ---
 # <a name="changing-language-and-region"></a>Byta språk och region
 
@@ -26,7 +26,7 @@ Om du till exempel använder en kanadensisk version av [!INCLUDE[prod_short](inc
 Om du vill ändra språket för användargränssnittet, går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Valet av språk kommer att återställas till inställningen i din Microsoft 365-profil om administratören synkroniserar användare från Microsoft 365 med [!INCLUDE[prod_short](includes/prod_short.md)].
+> Valet av språk kommer att återställas till din Microsoft 365-profilinställning om administratören synkroniserar användare från Microsoft 365 till [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Det ingår inte i funktionen Multilanguage att ändra språk för de texter som lagras som programdata. Detta är i stället ett fråga om utformning. Exempel på den här typen av text är artikelnamnen i lagret och kundkommentarerna. Kort sagt är det här texttyper som inte har översatts.  
 
@@ -36,7 +36,7 @@ Det ingår inte i funktionen Multilanguage att ändra språk för de texter som 
 ## <a name="changing-your-region-setting"></a>Ändra nationella inställningar
 Region skiljer sig från både språk och juridiska krav på lokala marknader. Region bestämmer hur data visas när det gäller kommateckenavgränsare, justering till vänster eller till höger och vissa andra inställningar. Region avgör vissa systemelement i webbläsaren, till exempel åtgärden att skapa ett nytt objekt i en lista.  
 
-Du kan ändra region i fliken som du använder för att arbeta i [!INCLUDE[prod_short](includes/prod_short.md)]. Ändringen gäller bara för dig och inte för de andra användarna i företaget.  Valet av region återställs till din inställning i din Microsoft 365-profil om din administratör synkroniserar användare från Microsoft 365 i [!INCLUDE[prod_short](includes/prod_short.md)].
+Du kan ändra region i fliken som du använder för att arbeta i [!INCLUDE[prod_short](includes/prod_short.md)]. Ändringen gäller bara för dig och inte för de andra användarna i företaget.  Valet av region kommer att återställas till din Microsoft 365-profil om administratören synkroniserar användare från Microsoft 365 till [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
 > När du ändrar region visas en lång lista över språk och region. Språk påverkas dock inte av val av region.  

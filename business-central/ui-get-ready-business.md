@@ -2,7 +2,6 @@
 title: Gör dig redo för affärer
 description: Ger en översikt över assisterade konfigurationsguider, videor, hjälpavsnitt och sidor du kan använda för att bli redo att göra affärer i Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589138"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335038"
 ---
 # <a name="getting-ready-for-doing-business"></a>Gör dig redo för affärer
 
@@ -70,9 +69,9 @@ Under **företaginställningar** kan du visa och redigera in inställningsinform
 
 ## <a name="adding-users-and-permissions"></a>Lägga till användare och behörigheter
 
-Om du behöver lägga till fler användare kan du göra detta du i Microsoft 365 administrationscenter. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
+Om du behöver lägga till fler användare kan du göra detta i administrationscentret för Microsoft 365. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
 
-När användare skapas i Microsoft 365 kan de importeras till sidan **Användare** genom att använda åtgärden **Hämta uppdateringar från Office 365**. Sedan kan du fortsätta med att tilldela behörigheter till användare och för att ordna dem i användargrupper. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
+När användare skapas i Microsoft 365 kan de importeras till sidan **Användare** genom att använda åtgärden **Hämta uppdateringar Office 365**. Sedan kan du fortsätta med att tilldela behörigheter till användare och för att ordna dem i användargrupper. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
 
 ## <a name="product-help"></a>Produkthjälpen
 
@@ -94,6 +93,7 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 [Sök i Hjälp-fönstret](product-help-and-support.md#search-in-the-help-pane)  
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Microsoft Learn webbplats](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Migrera data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

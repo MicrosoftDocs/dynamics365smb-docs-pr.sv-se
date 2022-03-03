@@ -2,7 +2,6 @@
 title: Bryta ned volym med dirigerad artikelinförsel och plockning
 description: Lär dig hur du aktiverar automatisk uppdelning av bulk med dirigerad artikelinförsel och plockning, samt enhetsbrytning vid i plockningar, artikelinförsel, transporter med mera.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: a3e992b86b2c53393ee385fd4abde05bd2b915f2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 82b0625cf36b0c304a28c1196aa76289d5711c15
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324845"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144469"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Aktivera automatisk volymnedbrytning med dirigerad artikelinförsel och plockning
 För lagerställen, som använder artikelinförsel och plockning, kan [!INCLUDE[prod_short](includes/prod_short.md)] i olika situationer, automatiskt använda brytenhet, d.v.s. dela upp en större enhet till mindre enheter, när du skapar lagerinstruktioner som uppfyller behoven hos källdokument, produktionsorder eller intern plockning och artikelinförsel. Med brytenhet menas ibland också samling av mindre måttenheter, om det behövs, för att uppfylla utgående förfrågningar, genom att analysera den större måttenheten i ursprungsdokumentet eller produktionsorder till de mindre enheter som är tillgängliga i distributionslagret.   

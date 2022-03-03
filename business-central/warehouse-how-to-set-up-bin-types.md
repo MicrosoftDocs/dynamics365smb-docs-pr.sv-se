@@ -2,7 +2,6 @@
 title: Skapa lagerplatstyper
 description: Tilldela typer och grundläggande flödesaktiviteter till lagerplatser och definiera på vilket sätt lagerplatserna ska användas för särskilda lageraktiviteter.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b867079eb08790f2cfa091d0128a876499fb2045
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971582"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334596"
 ---
 # <a name="set-up-bin-types"></a>Skapa lagerplatstyper
-Du kan dirigera flödet av artiklar via lagerställen som du har definierat för särskilda distributionslageraktiviteter. Du ger varje lagerplats dess grundläggande flödesaktiviteter, genom att tilldela lagerstället en lagerplatstyp, och definierar därmed det sätt som lagerstället ska användas på.  
+Du kan dirigera flödet av artiklar via lagerställen som du har definierat för särskilda distributionslageraktiviteter. Du ger varje lagerplats dess grundläggande flödesaktiviteter och definierar det sätt som lagerstället ska användas på genom att tilldela lagerstället en lagerplatstyp.  
 
 Det finns sex typer: Du kan använda alla sex olika lagerplatstyperna i distributionslagret, eller välja att endast använda lagerplatstyperna INLEVERERA, ARTINFPLOC, LEVERERA och KS. De här fyra lagerplatstyperna aktiverar förslag på hur artikelflödet ska se ut och du kan även registrera lageravvikelser.  
 

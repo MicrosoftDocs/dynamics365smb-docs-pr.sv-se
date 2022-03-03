@@ -2,20 +2,20 @@
 title: Analysera faktiska belopp kontra budgeterade belopp
 description: I det här avsnittet beskrivs hur du analyserar faktiska belopp mot budgeterade belopp som ett sätt att samla in, analysera och dela ut dina företagsdata.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 120, 121, 422
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2bbdce7c34160ffc1eefc7e398574db8b642b657
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: df267dab7bc0d292bcd90a3e8b1063a5e87e7e61
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688284"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335090"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysera faktiska belopp kontra budgeterade belopp
 Som en del av att samla in, analysera och dela dina företagsdata, kan du visa faktiska belopp och budgeterade belopp för alla konton och för flera perioder.

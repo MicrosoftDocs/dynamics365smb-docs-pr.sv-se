@@ -2,7 +2,6 @@
 title: Vanliga frågor och Svar om Teams
 description: Få svar på några vanliga frågor om att arbeta med Teams och Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587871"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147498"
 ---
 # <a name="teams-faq"></a>Vanliga frågor och Svar om Teams
 
@@ -188,7 +187,7 @@ I detaljfönstret för en kontakt, hitta åtgärden **Skapa interaktion** och v�
 
 ### <a name="can-i-call-a-contact-from-the-prod_shortmd-app-for-teams"></a>Kan jag ringa en kontakt från [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen för Teams?
 
-[!INCLUDE [prod_short.md](includes/prod_short.md)] har begränsad integration med Teams som anropar funktioner. Det går inte att snabbt starta ett VOIP-samtal från fönstret kontaktkort eller kontaktinformation. När du visar kontakt uppgifterna i den stationära Teams-appen kan du emellertid välja fältet telefonnummer för att ringa det numret om Teams är inställd som standard uppringningsprogram på enheten. För att du ska kunna ringa upp fasta telefon- eller mobiltelefonnummer med PSTN, i det traditionella telefonsystemet, måste du ha Microsoft 365 Business Voice-appen. Mer information finns i [Vad är Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
+[!INCLUDE [prod_short.md](includes/prod_short.md)] har begränsad integration med Teams som anropar funktioner. Det går inte att snabbt starta ett VOIP-samtal från fönstret kontaktkort eller kontaktinformation. När du visar kontakt uppgifterna i den stationära Teams-appen kan du emellertid välja fältet telefonnummer för att ringa det numret om Teams är inställd som standard uppringningsprogram på enheten. För att du ska kunna ringa upp fasta telefon- eller mobiltelefonnummer med PSTN (det traditionella telefonsystemet) kräver Teams att du har Microsoft 365 Business Voice-appen. Mer information finns i [Vad är Microsoft 365 Business Voice?](/MicrosoftTeams/business-voice/whats-business-voice).
 
 ### <a name="how-do-i-view-recent-documents-for-a-customer-or-vendor"></a>Hur visar jag nyligen använda dokument för en kund eller leverantör?
 

@@ -2,7 +2,6 @@
 title: Ställa in e-postloggning | Microsoft Docs
 description: Lär dig hur du kan omvandla e-postinteraktioner mellan säljare och kunder till verkliga affärsmöjligheter.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 2abc0406fa8e86646d2382a4c7bbb1e228439728
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482351"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148414"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
 

@@ -1,23 +1,21 @@
 ---
-title: Använda allmänna funktioner över affärsområden | Microsoft Docs
+title: Använda allmänna funktioner över affärsområden
 description: Lär dig om de funktioner som används över flera olika affärsområden i Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
+ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b6c64e9a86c462749eb24eb6e57118efd35fd47c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787508"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322856"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
 [!INCLUDE[prod_short](includes/prod_short.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).

@@ -1,22 +1,20 @@
 ---
-title: Fält som krävs för att slutföra processer | Microsoft Docs
+title: Fält som krävs för att slutföra processer
 description: Få mer information om de fält som är markerade med en röd asterisk som anger att de är obligatoriska och måste fyllas i för att slutföra en process.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 386025d90301f780f8bf5927de495658a100825f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2694b4489878d7d953d4075eaa5cc740b817d727
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775281"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335221"
 ---
 # <a name="detecting-mandatory-fields"></a>Identifiera obligatoriska fält
 När du anger data på sidor i [!INCLUDE[prod_short](includes/prod_short.md)], markeras vissa fält med en röd asterisk. Den röda asterisken betyder att fältet måste fyllas för att slutföra en viss process som använder fältet, till exempel bokföra en transaktion som använder värdet i fältet.
