@@ -2,7 +2,6 @@
 title: Ställa in allmän anläggningsinformation
 description: Innan du kan använda anläggningstillgångar måste du skapa standardredovisningskonton, bokföringsmallar, allokeringsnycklar, journalmallar och batcher och klasskoder.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277, 5662, 5627, 5616, 5620
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2bbd315e89de5164db47c4615388f02d06d88153
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: bf837a298d5b9602e1d520dda85c0fb5ab78b8eb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101142"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133842"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Skapa allmän information om anläggningstillgångar
 Innan du kan hantera anläggningstillgångar, måste du skapa standardinställningredovisningskonton, fördelningsnycklar, journalmallar och journaler för bokföring och gruppering av anläggningstillgångar i klasser, som till exempel Materiella och Immateriella.
@@ -29,9 +28,9 @@ Du definierar det allmänna beteendet eller funktionen för anläggningstillgån
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Så här skapar du bokföringsmallar för anläggningstillgångar
 Du kan använda bokföringsmallar om du vill definiera anläggningstillgångsgrupper. Transaktionerna för de här bokföringsmallarna bokförs på samma redovisningskonton.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl. bokföringsmallar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
-3. På sidan **Anl. bokföringsmallkort** fyller du i fälten efter behov.
+3. På sidan **Anl.bokföringsmallkort** fyller du i fälten efter behov.
 
     > [!NOTE]  
     >   För att se till att motkonton för olika anläggningstillgångar infogas bokföringar automatiskt när du väljer åtgärden **Infoga anl. motkonto** på journalrader, följer nästa steget som baseras på bokföring av uppskrivning.
@@ -44,8 +43,8 @@ Du kan fördela transaktioner på olika avdelningar eller projekt utifrån anvä
 
 Fördelningsnycklar används för fördelningar av anläggningstillgångar, inte för individuella tillgångar.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. bokföringsmallar** och väljer sedan relaterad länk.  
-2. På sidan **Anl. bokföringsmallar** väljer du åtgärden **Fördelningar** och sedan en bokföringstyp.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.  
+2. På sidan **Anl.bokföringsmallar** väljer du åtgärden **Fördelningar** och sedan en bokföringstyp.
 3. På sidan **Anl. fördelningar** fyller du i fälten efter behov.
 4. Upprepa steg 2 och 3 för varje bokföringstyp som du vill ange fördelningsnycklar för.
 

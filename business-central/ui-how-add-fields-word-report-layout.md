@@ -2,7 +2,6 @@
 title: Så här lägger du till fält i en Word-rapportlayout
 description: Detta ämne beskriver hur du lägger till fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 036b6964b8a0e468bdfc4d2f3e44824b3daac9ee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865344"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144729"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Lägga till fält i en Word-rapportlayout
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  

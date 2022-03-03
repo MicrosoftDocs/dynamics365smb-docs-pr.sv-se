@@ -2,7 +2,6 @@
 title: Ställa in felrapportering i servicehantering
 description: Felrapportering låter dig upprätta standarder för att registrera felinformation för serviceartiklar med felkoder etc.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3563d840976b6a3c586e5a75a2f76379e8c5526
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0a9ed0fc94b2f4e6c509abcf1143b6eab5921de6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440134"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139371"
 ---
 # <a name="set-up-fault-reporting"></a>Konfigurera felrapportering
 Felrapportering låter dig upprätta standarder för att registrera felinformation för serviceartiklar. Exempelvis kan du ange problemet, vilka problem som uppstår, orsaken till problemet och hur du löser det.  
@@ -37,7 +36,7 @@ När du gör inställningar för felhantering kan du också ange vilka reparatio
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Så här skapar du fel- och åtgärdskodssamband
 <!--this needs to go in a working with topic-->
- Du måste bygga upp information om fel- och åtgärdskodssamband för att kunna se de vanligaste reparationsmetoderna för vissa artikelfel när du utför på artiklarna. Använd batch-jobbet **Infoga fel-/åtgärdssambandskoder** för sökning efter alla kombinationer av fel- och åtgärdskoder i bokförda serviceorder och registrera dem på sidan **Fel-/åtgärdssambandskoder**.
+Du måste bygga upp information om fel- och åtgärdskodssamband för att kunna se de vanligaste reparationsmetoderna för vissa artikelfel när du utför på artiklarna. Använd batch-jobbet **Infoga fel-/åtgärdssambandskoder** för sökning efter alla kombinationer av fel- och åtgärdskoder i bokförda serviceorder och registrera dem på sidan **Fel-/åtgärdssambandskoder**.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du infoga **fel-åtgärdssambandskoder**, och välj sedan relaterad länk.  
 2. Ange datum för att definiera den period som du vill inkludera i batch-jobbet.  

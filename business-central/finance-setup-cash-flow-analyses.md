@@ -2,7 +2,6 @@
 title: Ställa in analysvy för kassaflöde (innehåller video)
 description: Använd diagram för rollcentret konton för att analysera flödet av pengar i företaget, inklusive utgifter och inkomster, likviditet och inbetalningar minus utbetalningar.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9f73cca7a4b88d051567d2f9f86806dac32f4ffa
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: ca4f088156313ec9cf3796abab642b7d319327bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973394"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143510"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
 Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du titta på diagrammen i rollcentret Revisor:  

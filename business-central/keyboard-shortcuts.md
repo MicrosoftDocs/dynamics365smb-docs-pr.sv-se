@@ -2,7 +2,6 @@
 title: Kortkommandon
 description: En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865448"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135269"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -239,7 +238,7 @@ Rollutforskaren ger dig en översikt över och snabb åtkomst till alla affärsf
 |F3|Öppna rutan **Sök** i rollutforskaren om du vill hitta funktioner baserade på ett visst sökord eller en viss term.|
 |F3 eller Ctrl + Nedåtpil|Flyttar fokus till nästa funna funktion i rollutforskaren. F3 flyttar fokus till rutan **Sök** efter den senast funna funktionen.|
 |Shift F3 eller Ctrl + Uppåtpil|Flytta fokus till föregående funna funktion i rollutforskaren.|
-|Ctrl+Shift|Visa eller dölj alla undernoder - utöver noder på översta nivån - när du väljer åtgärden **Visa** eller **Dölj**.|
+|Ctrl+Shift|Visa eller dölj alla undernoder – utöver noder på översta nivån – när du väljer åtgärden **Visa** eller **Dölj**.|
 
 ## <a name="see-also"></a>Se även
 

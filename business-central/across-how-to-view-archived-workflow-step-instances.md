@@ -2,7 +2,6 @@
 title: Så här visar du arkiverade instanser för arbetsflödessteg
 description: Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**. Varje steg består av ett arbetsflödeshändelse och arbetsflödessvar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: e264e5fe8399721398a2edc06faad2b1136e486c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f1266ada40085e1999b9ea49281e8c5ec73f8394
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439876"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134180"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visa arkiverade instanser för arbetsflödessteg
 Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**.  

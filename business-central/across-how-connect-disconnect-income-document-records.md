@@ -4,7 +4,6 @@ description: Du kan lagra externa affärsdokument genom att koppla dokumentfiler
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 65b0d704708232d0999cfc0e72a6380a00a4a273
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 609a57cd1d87a8a3518d6eaf7bc3fe8fc142953a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437733"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134362"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Skapa inkommande dokumentposter direkt från dokument och transaktioner
 Du kan lagra externa affärsdokument i [!INCLUDE[prod_short](includes/prod_short.md)] genom att koppla dokumentfilerna till de relaterade inkommande dokumentposterna. Om dokumentet, t. ex. en inköpsfaktura, inte ursprungligen skapades som en inkommande dokumentpost kan du fortfarande skapa och koppla en inkommande dokumentpost till den senare. Du kan även bifoga inkommande dokumentfiler till bokförda inköps- och försäljningsdokument och till leverantörs-, kund – och redovisningsposter genom att använda till exempel faktaboxen **Inkommande dokumentfiler** t. ex. på sidorna **Bokförda inköpsfakturor** och **Lev.reskontratransaktioner**.

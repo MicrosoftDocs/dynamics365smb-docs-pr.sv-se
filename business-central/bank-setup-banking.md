@@ -2,7 +2,6 @@
 title: Konfigurera bank
 description: Du använder bankkontokort för att hålla reda på dina bankkonton och ställa in bankfeeder, som till exempel Yodlee, för utbyte av data.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 04db99fe79ad29357c399b64e6e12fb89654fabb
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971437"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139936"
 ---
 # <a name="setting-up-banking"></a>Ställa in bank
 

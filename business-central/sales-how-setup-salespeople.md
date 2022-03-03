@@ -2,7 +2,6 @@
 title: Definiera en säljare (innehåller video) | Microsoft Docs
 description: Du kan ställa in en identifierare för respektive säljare så att du kan övervaka individuell prestanda och tilldela säljare till en kontakt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2771eff803209b7f4295f6ac8a2e2af0d937f5fe
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 8c4cca41beb49c05568d6e0c1c21946bb493e30b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940032"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145400"
 ---
 # <a name="set-up-salespeople"></a>Skapa säljare
 Många företag har behov av att följa en individuell anställds prestationer som en grund för att beräkna provision eller bonus. Visa till exempel **säljareprovisionsrapporten**. Ett företag kan också vilja knyta en säljare till var och en av sina kontakter.

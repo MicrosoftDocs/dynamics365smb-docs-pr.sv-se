@@ -4,7 +4,6 @@ description: Beskriver hur du ställer in respektive kunds standardmetod för at
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 676ac7ac1fb9f267221acc50e5b5f812b8460250
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 4af7cc5a8ad3bd322edfdcb6e3a482e8b38ca6cc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7939883"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145426"
 ---
 # <a name="set-up-document-sending-profiles"></a>Skapa dokumentutskicksprofiler
 Du kan skapa varje kund med en föredragen metod för att skicka försäljningsdokument så att du inte behöver välja alternativ varje gång som du väljer åtgärden **Bokför och skicka**.

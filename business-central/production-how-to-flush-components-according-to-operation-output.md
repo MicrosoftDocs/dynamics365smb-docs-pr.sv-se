@@ -2,7 +2,6 @@
 title: Bokföra komponenter utifrån verksamhetens utflöde
 description: I det här avsnittet beskrivs hur man spolar komponenter enligt verksamhetens utflöde samt andra involverade bokföringsmetoder.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 375c333bf6fc56d4dac5a59be0dbf905c8339ec5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439099"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137581"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Bokföra komponenter utifrån verksamhetens utflöde
 Du kan definiera olika bokföringsstrategier för att automatisera registrering av förbrukning av komponenter. 
@@ -116,8 +115,8 @@ I följande tabell beskrivs de tillgängliga bokföringsmetodalternativen som du
 |Manuell|Kräver att du anger och bokför förbrukningen manuellt i förbrukningsjournalen.|
 |Framåt|Bokför förbrukningen automatiskt enligt produktionsorderkomponentraderna. <br><br>Som standard sker bokföringen av komponentförbrukning när du ändrar statusen för en produktionsorder till **Släppt**. Om du använder kodfälten **Operationsföljdslänk** på produktionsorderkomponentrader, kommer bokföringen ske per operation när operationen startas. För mer information, se [Så här skapar du en operationsföljdslänk](production-how-to-create-routings.md#to-create-routing-links). <br><br> **Obs**<br>För bokföring framåt baseras operation-specifik bokföring som du erhåller med operationsföljdslänkkoder på förväntade kvantiteter som har definierats på komponentraden. Visa beskrivning av **Bakåt** i det här avsnittet för information om operation-specifik bokföring som baseras på faktiskt utflöde.<br><br>Om lagerstället eller resurserna där den här komponenten förbrukas har upprättats med en standardlagerplatsstruktur, förbrukas **Öppen prod.lagerplats kod**. Mer information finns i [så här: ställa in grundläggande dist.lager med operationsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md). <br><br> **Viktigt!** <br>Bokföring framåt uppstår också när du klickar på **Uppdatera** på en släppt nyskapad produktionsorder. I dessa direkt skapade utsläppta produktionsorder, kan du inte ändra informationen om lagerplats, eftersom produktionsorderkomponentraderna skapas när du uppdaterar ordern och komponenterna samtidigt bokförs framåt. Därför, om du vill ändra information om lagerplatsen i produktionsorderkomponentrader före bokföring framåt uppstår, måste order skapas med *planerade* eller *fast planerad* status.|
 |Bakåt|Beräknar och bokför förbrukningen automatiskt enligt produktionsorderkomponentraderna.<br><br> Som standard sker beräkningen och bokföringen av komponentförbrukning när du ändrar statusen för en utsläppt produktionsorder till **Släppt**. Om du använder **Operationsföljdslänkkod** på produktionsorderkomponentrader, kommer beräkningen och bokföringen ske när operationen startas.<br><br> **Obs** <br>Kopplingskoder för bokföring bakåt och rörelsekostnad kan kombineras så att antalet som bokföras per operation, är proportionell till det faktiska utflödet av operationen. Mer information finns i [så här: bokföra komponenter enligt operationens utflöde](#to-flush-components-according-to-operation-output).<br><br> Om platsen och maskingrupp där den här komponenten förbrukas har upprättats med en standardlagerplatsstruktur, förbrukas **Öppen prod.lagerplats kod**.|
-|Plocka + framåt|Samma som för bokföringsmetoden Framåt, fast den fungerar bara för lagerställen som använder dirigerad artikelinförsel och plockning.<br><br> Förbrukning beräknas och bokförs från lagerplatsen som definieras i **Till prod.-lagerplats - kod** på lagerstället eller maskingruppen, när komponenten har plockats från distributionslagret.<br><br> **Obs** <br>Om en komponent har upprättats med plocka + metoden bokföringsmetoden Framåt, kan den inte ha en operationsföljdkopplingskod till en operation som har upprättats med förrensning leveransvillkor. Komponenten skulle då bokföras automatiskt framåt när operationen startas, vilket gör det omöjligt att begära aktiviteten plocka.|
-|Plocka + bakåt|Samma som för bokföringsmetoden Bakåt, fast den fungerar bara för lagerställen som använder dirigerad artikelinförsel och plockning.<br><br> Förbrukning beräknas och bokförs från lagerplatsen som definieras i **Till prod.-lagerplats - kod** på lagerstället eller maskingruppen, när komponenten har plockats från distributionslagret.|
+|Plocka + framåt|Samma som för bokföringsmetoden Framåt, fast den fungerar bara för lagerställen som använder dirigerad artikelinförsel och plockning.<br><br> Förbrukning beräknas och bokförs från lagerplatsen som definieras i **Till prod.-lagerplats – kod** på lagerstället eller maskingruppen, när komponenten har plockats från distributionslagret.<br><br> **Obs** <br>Om en komponent har upprättats med plocka + metoden bokföringsmetoden Framåt, kan den inte ha en operationsföljdkopplingskod till en operation som har upprättats med förrensning leveransvillkor. Komponenten skulle då bokföras automatiskt framåt när operationen startas, vilket gör det omöjligt att begära aktiviteten plocka.|
+|Plocka + bakåt|Samma som för bokföringsmetoden Bakåt, fast den fungerar bara för lagerställen som använder dirigerad artikelinförsel och plockning.<br><br> Förbrukning beräknas och bokförs från lagerplatsen som definieras i **Till prod.-lagerplats – kod** på lagerstället eller maskingruppen, när komponenten har plockats från distributionslagret.|
 
 ## <a name="see-also"></a>Se även
 

@@ -1,8 +1,7 @@
 ---
-title: Designdetaljer - Bokföring av produktionsorder | Microsoft Docs
+title: Designdetaljer – Bokföring av produktionsorder | Microsoft Docs
 description: Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442366"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146572"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokföring av produktionsorder
 Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts. Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md) Däremot är kostnadsflödet för monteringsorder mindre komplicerat, särskilt eftersom bokföring av monteringskostnad endast uppstår en gång och därför inte genererar lager för produkter i arbete.
@@ -34,11 +33,11 @@ Förutom vanliga lagerkonton måste därför produktionsföretaget fastställa t
 |-----------------------|---------------------------------------|  
 |**Råmaterialkonto**|Innehåller kostnaden för råmaterial som köps men ännu inte har överförts till produktionen. Saldot i kontot Råmaterial anger kostnaden för råmaterial som finns i lager.<br /><br /> När råmaterial flyttas till produktionsavdelningen överförs kostnaden för råmaterial från råmaterialkontot till PIA-kontot.|  
 |**PIA-konto Produkter i arbete**|Ackumuleras kostnaderna som uppstått under produktionen i bokföringsperioden. PIA-kontot debiteras för kostnaden för råmaterial som har överförts från råmateriallagret, kostnaden för utfört direkt arbete och produktionsomkostnaderna som uppstått.<br /><br /> PIA-kontot krediteras för den totala produktionskostnaden för enheter som slutförs i fabriken och överförs till distributionslagret för färdiga varor.|  
-|**Färdigvaror - konto**|Det här kontot innehåller den totala tillverkningskostnaden för enheter som är färdiga men ännu inte har sålts. Vid tidpunkten för försäljningen överförs kostnaden för sålda enheter från kontot för färdiga varor till kontot för kostnaden för sålda varor.|  
+|**Färdigvaror – konto**|Det här kontot innehåller den totala tillverkningskostnaden för enheter som är färdiga men ännu inte har sålts. Vid tidpunkten för försäljningen överförs kostnaden för sålda enheter från kontot för färdiga varor till kontot för kostnaden för sålda varor.|  
 
 Lagervärdet beräknas genom att spåra kostnaderna för alla ökningar och minskningar, uttryckt av följande ekvation.  
 
-* lagervärde = startsaldo för lager + värde på alla ökningar - värde på alla minskningar  
+* lagervärde = startsaldo för lager + värde på alla ökningar – värde på alla minskningar  
 
 Beroende på typen av lager representeras ökningar och minskningar av olika transaktioner.  
 
@@ -70,7 +69,7 @@ Artikeltransaktionen beskriver materialförbrukningen eller utflödet i termer a
 
 En värdetransaktion som beskriver PIA-lagervärdet kan kopplas till en av följande kombinationer av kostnadsbärare:  
 
--   En produktionsorderrad, en produktions - eller maskingrupp och en kapacitetstransaktion.  
+-   En produktionsorderrad, en produktions – eller maskingrupp och en kapacitetstransaktion.  
 -   En produktionsorderrad, en artikel och en artikeltransaktion.  
 -   Endast en en produktionsorderrad  
 
@@ -103,7 +102,7 @@ I standardkostnadmiljöer baseras värderingen av en produktionsorder på följa
 
     > [!NOTE]  
     >  Det skiljer sig från monteringsorderbokföring, som alltid bokför faktiska kostnader. Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
-2.  När produktionsorder ställs in till **Färdig**, d.v.s ordern faktureras genom att köra batchjobbet **Justera kost. - artikeltrans.**. Det medför att den totala kostnaden för ordern beräknas baserat på standardkostnaden för de förbrukade materialen och kapaciteten. Skillnaden mellan det beräknade standardkostnaderna och de faktiska produktionskostnaderna beräknas och bokförs.  
+2.  När produktionsorder ställs in till **Färdig**, d.v.s ordern faktureras genom att köra batchjobbet **Justera kost. – artikeltrans.**. Det medför att den totala kostnaden för ordern beräknas baserat på standardkostnaden för de förbrukade materialen och kapaciteten. Skillnaden mellan det beräknade standardkostnaderna och de faktiska produktionskostnaderna beräknas och bokförs.  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   

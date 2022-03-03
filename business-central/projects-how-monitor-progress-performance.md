@@ -2,7 +2,6 @@
 title: Övervaka projektframsteg och -resultat
 description: Beskriver hur du skapar en PIA-metod och beräknar PIA för att uppskatta det ekonomiska värdet i lika jobb medan de pågår.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c816ea6d4fa8f1653000f94e15b74f9b78db8c6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: f79829b3f227b6a5dcc94c95aa1aaf9826b3d7ce
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971816"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131291"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Övervaka projektframsteg och -resultat
 Allt eftersom ett projekt fortlöper används material och resurser och de, och andra kostnader, måste bokföras i projektet. Produkter i arbete (PIA) är en funktion som gör att du kan uppskatta värdet i projektet i redovisningen medan projekten pågår. I många fall kan du bokföra kostnader för ett projekt innan du fakturerar projektet. Om endast kostnader bokförts blir er finansiella rapport oriktig. Mer information finns i [Förstå PIA-metoder](projects-understanding-wip.md).

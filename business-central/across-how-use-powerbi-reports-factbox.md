@@ -2,7 +2,6 @@
 title: Visa egna Power BI-rapporter
 description: Du kan använda Power BI Faktabox för att visa Power BI-rapporter och få extra inblick i postdata i nyckellistor.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3db84a185c47976f5d7f3aa5f166c81e4a035a89
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440930"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133336"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Skapa Power BI-rapporter för att visa listdata i [!INCLUDE[prod_short](includes/prod_short.md)]
 

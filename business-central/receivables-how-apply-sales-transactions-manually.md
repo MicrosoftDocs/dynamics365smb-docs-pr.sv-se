@@ -2,7 +2,6 @@
 title: Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner
 description: Beskriver hur du använder inbetalningar eller återbetalningar för kunder till en eller flera öppna kundreskontratransaktioner och stämma av kundbetalningar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,19 +10,19 @@ ms.search.keywords: payment process, cash receipt
 ms.search.form: 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05b4d5074f77101e7158738b78126a562aabcc1e
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 913b0465cbce81a39edf472c821fe4d4b14a92fc
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100957"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135652"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner
 
 När du får en inbetalning av en kund eller när du gör en kontant återbetalning måste du bestämma om inbetalningen eller återbetalningen ska kopplas till en eller flera öppna debet- eller kredittransaktioner. Du kan ange det belopp som du vill koppla. Du kan till exempel använda delbetalningar till kundreskontratransaktioner. Att avsluta kundreskontratransaktioner ser till att informationen som t. ex. kundstatistik och kontoutdrag och dröjsmålsräntor är korrekta.
 
 > [!TIP]  
->   På sidan **kundreskontratransaktioner** betyder rött teckensnittet att den relaterade betalningen kommer efter dess förfallodatum. Om en förfallen betalning blir ett problem, hjälper vi dig att minska frekvensen. Du kan aktivera tillägget **prediktioner för sena betalningar** som använder en prediktiv modell som vi har byggt in i Azure Machine Learning  för att förutse tidpunkt för betalningar. Dessa prediktioner hjälper dig att minska utestående kundfordringar och finjustera en strategi för samlingar. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod. För mer information, se [prediktioner för sena betalningar](ui-extensions-late-payment-prediction.md).  
+>   På sidan **kundreskontratransaktioner** betyder rött teckensnittet att den relaterade betalningen kommer efter dess förfallodatum. Om en förfallen betalning blir ett problem, hjälper vi dig att minska frekvensen. Du kan aktivera tillägget **prediktioner för sena betalningar** som använder en prediktiv modell som vi har byggt in i Azure Machine Learning för att förutse tidpunkt för betalningar. Dessa prediktioner hjälper dig att minska utestående kundfordringar och finjustera en strategi för samlingar. Om till exempel om en betalning förutsägs att bli försenad kanske du bestämmer dig för att ändra villkoren för kundens betalningsmetod. För mer information, se [prediktioner för sena betalningar](ui-extensions-late-payment-prediction.md).  
 
 Du kan koppla kundreskontratransaktioner på olika sätt:
 

@@ -1,8 +1,7 @@
 ---
-title: Designdetaljer - Översikt över distributionslager
+title: Designdetaljer – Översikt över distributionslager
 description: För att stödja den fysiska hanteringen av artiklar i zonen och på lagerplatsnivån måste all information spåras för varje transaktion eller transport i distributionslagret.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 49c25082d8f43210011cc7f482c4f4af330c1a19
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 95e6e88f1f448546a7c1b0e4e49d33e54c642932
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011604"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141261"
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetaljer: Översikt över distributionslager
 För att stödja den fysiska hanteringen av artiklar i zonen och på lagerplatsnivån måste all information spåras för varje transaktion eller transport i distributionslagret. Det hanteras i tabellen **Dist.lager transaktion**. Varje transaktion lagras i ett distributionslagerregister.  

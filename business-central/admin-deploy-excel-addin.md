@@ -2,7 +2,6 @@
 title: Hämtar Business Central-tillägget för Excel
 description: Lär dig mer om hur du skaffar användarna Business Central-tilläggsprogram för Excel.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865498"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141417"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Hämta Business Central-tillägget för Excel
 
@@ -32,7 +31,7 @@ Tillägget kallas **Microsoft Dynamics Office-tillägg** och det kan installeras
 
 ### <a name="about-deployment-as-an-admin"></a>Om distribution som administratör
 
-Med [!INCLUDE[prod_short](includes/prod_short.md)] online finns det några distributionsalternativ som du kan använda för att hämta tillägget till användarna. Ett alternativ är *individuell anskaffning*, där du kan låta användarna installera själva tillägget. Med det här alternativet måste användarna ha behörighet att hämta filer från Office Store. Ett annat alternativ är att konfigurera *centraliserad distribution* i Microsoft 365 administratörscenter så att tillägget automatiskt distribueras till hela organisationen, grupperna eller specifika användare. Centraliserad distribution gör det möjligt att få tillägget till användarna om organisationen inte ger användare åtkomst till Office Store.
+Med [!INCLUDE[prod_short](includes/prod_short.md)] online finns det några distributionsalternativ som du kan använda för att hämta tillägget till användarna. Ett alternativ är *individuell anskaffning*, där du kan låta användarna installera själva tillägget. Med det här alternativet måste användarna ha behörighet att hämta filer från Office Store. Ett annat alternativ är att konfigurera *centraliserad distribution* i administrationscentret för Microsoft 365 så att tillägget automatiskt distribueras till hela organisationen, grupperna eller specifika användare. Centraliserad distribution gör det möjligt att få tillägget till användarna om organisationen inte ger användare åtkomst till Office Store.
 
 För slutanvändaren skiljer sig installations upplevelsen från de två distributions scenarierna:
 
@@ -54,7 +53,7 @@ Det här tillståndet orsakas av att varje Excel-fil tilldelas en tilläggsident
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Distribuera tillägget med hjälp av centraliserad distribution
 
-Centraliserad distribution är en funktion i Microsoft 365 administratörscenter som du använder för att automatiskt installera tillägg i användarnas Office-appar, som Excel. För att hjälpa dig med centraliserad distribution [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar assisterad konfiguration **Excel-tillägget centraliserad installation**.
+Centraliserad distribution är en funktion i administratörscentret för Microsoft 365 som du använder för att automatiskt installera tillägg i användarnas Office-appar, som Excel. För att hjälpa dig med centraliserad distribution [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar assisterad konfiguration **Excel-tillägget centraliserad installation**.
 
 ### <a name="before-you-begin"></a>Innan du börjar
 
@@ -67,11 +66,11 @@ Centraliserad distribution är en funktion i Microsoft 365 administratörscenter
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Konfigurera centraliserad distribution för tillägg
 
-Du arbetar i både [!INCLUDE[prod_short](includes/prod_short.md)] administrationscenter för Microsoft 365.
+Du arbetar i både [!INCLUDE[prod_short](includes/prod_short.md)] och administrationscentret för Microsoft 365.
 
 1. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **Excel-tillägget centraliserad distribution** och sedan väljer du relaterad länk.
 2. Läs informationen på sidan **konfiguration av Business Central Excel-tillägg** och välj **Nästa**.
-3. Logga in på [Microsoft 365 administrationscenter](https://go.microsoft.com/fwlink/?linkid=2163967) och gå till **integrerade appar**<!--**Add-ins**-->.
+3. Logga in på [administrationscentret för Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2163967) och gå sedan till **Integrerade appar**<!--**Add-ins**-->.
 
     Gör på följande sätt för att konfigurera tillägget för distribution från Office Store: 
     1. Välj **Hämta appar** för att öppna Office Store (AppSource). <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->
@@ -80,16 +79,16 @@ Du arbetar i både [!INCLUDE[prod_short](includes/prod_short.md)] administration
     4. Granska **Godkänn begäran om behörigheter**, välj **Nästa** > **Slutför distribution**.
     5. Vänta tills den gröna bockmarkeringen bredvid **distribuerad** visas för tillägget och välj sedan **klar**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Tillägget visas på sidan **tillägg**. Mer information om distribution av tillägg i administrationscenter för Microsoft 365 finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       Tillägget visas på sidan **tillägg**. Mer information om distribution av tillägg i administrationscentret för Microsoft 365 finns i [Distribuera tillägg i aministrationscentret](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 4. Gå tillbaka till den assisterade konfigurationen för **Centraliserad distribution för Excel-tillägg** i [!INCLUDE[prod_short](includes/prod_short.md)] och välj **Nästa**.
 5. Aktivera **Använd centraliserad distribution** och klicka på **Slutför** .
 
     Om du inte aktiverar denna växel [!INCLUDE[prod_short](includes/prod_short.md)] hämtas tillägget direkt från Office Store.
 
-När du är klar kan du alltid ändra distributionen i Microsoft 365 administrationscenter, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscenter finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscenter finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
 > [!IMPORTANT]
-> Om du har mer än en miljö måste du köra assisterad konfiguration för **centraliserad distribution av Excel-tillägg** för varje miljö som du vill använda centraliserad distribution för. Du behöver emellertid inte konfigurera den centraliserade distributionen i Microsoft 365 igen. Det enda du behöver göra är att aktivera växeln **Använd centraliserad distribution** i guiden assisterad konfiguration. 
+> Om du har mer än en miljö måste du köra assisterad konfiguration för **centraliserad distribution av Excel-tillägg** för varje miljö som du vill använda centraliserad distribution för. Du behöver emellertid inte konfigurera den centraliserade distributionen i Microsoft 365 på nytt. Det enda du behöver göra är att aktivera växeln **Använd centraliserad distribution** i guiden assisterad konfiguration. 
 
 > [!NOTE]
 > Det kan ta upp till 24 timmar innan användaren distribuerar tillägget automatiskt i Excel för användare.

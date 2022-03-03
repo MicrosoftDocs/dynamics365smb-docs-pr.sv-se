@@ -1,20 +1,19 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 09/02/2021
+ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482303"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142503"
 ---
 > [!NOTE]
 > I följande avsnitt antas du att du har administratörsbehörighet för Exchange Online.
 
-Innan du kan konfigurera e-postloggning måste du förbereda Office 365 [offentliga mappar](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true). Det kan du göra i [administrationscenter för Exchange](/exchange/exchange-admin-center?preserve-view=true) eller använda [Exchange Online Shell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+Innan du kan konfigurera e-postloggning måste du förbereda Office 365 [offentliga mappar](/exchange/collaboration-exo/public-folders/public-folders). Det kan du göra i [administrationscenter för Exchange](/exchange/exchange-admin-center?preserve-view=true) eller använda [Exchange Online Shell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
 
 > [!TIP]
 > Om du vill använda [Exchange Online Shell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true) kan du hitta inspiration för hur du konfigurerar skriptet i ett exempelskript som vi publicerat i [BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
@@ -31,7 +30,7 @@ Skapa en administratörsrollgrupp för gemensamma mappar baserat på information
 |Valda roller  |Gemensamma mappar            |
 |Valda användare  |E-postmeddelandet för användar kontot som Business Central använder för att köra e-postloggningsjobbet|
 
-Mer information finns i [Hantera rollgrupper i Exchange Online](/exchange/permissions-exo/role-groups?preserve-view=true).
+Mer information finns i [Hantera rollgrupper i Exchange Online](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Skapa en ny gemensam mappinkorg
 
@@ -41,7 +40,7 @@ Skapa en ny postmapp för allmän mapp baserad på informationen i följande tab
 |----------------|--------------------------|
 |Name            |Offentlig postlåda            |
 
-Mer information finns i [Skapa en gemensam mappinkorg](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
+Mer information finns i [Skapa en offentlig mappinkorg](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ### <a name="create-new-public-folders"></a>Skapa nya offentliga mappar
 
@@ -51,7 +50,7 @@ Mer information finns i [Skapa en gemensam mappinkorg](/exchange/collaboration-e
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-Mer information finns i [Skapa en offentlig mapp](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
+Mer information finns i [Skapa en offentlig mapp](/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ### <a name="set-public-folder-ownership"></a>Ange ägarskap för gemensam mapp
 
@@ -61,7 +60,7 @@ Mer information finns i [Tilldela behörigheter till den offentliga mappen](/exc
 
 ### <a name="mail-enable-the-queue-public-folder"></a>Postaktivera den offentliga mappen *Kö*
 
-  Mer information finns i [postaktivera eller post-inaktivera en gemensam mapp](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true)
+  Mer information finns i [postaktivera eller post-inaktivera en offentlig mapp](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Postaktivera utskick av e-post till gemensamma mappen *Kö*
 

@@ -2,7 +2,6 @@
 title: Servicestatistik
 description: Få en snabb översikt över innehållet och statistik i servicedokument (order, offert, faktura eller kreditnota), den detaljerade informationen på varje servicerad etc.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d6d9cfd03971a7adec509babff9ad8cd90af4cb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438263"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142938"
 ---
 # <a name="viewing-service-statistics"></a>Visa servicestatistik
 Du kan använda statistik för att analysera servicedokument och ta reda på hur bra du hanterar dina serviceprocesser. Du kan analysera servicekontrakt, artiklar, offerter, order, fakturor och kreditnotor genom att välja åtgärd **statistik**. För serviceartiklar och kontrakt kan du också använda **Serviceartikel Trendscape** eller **Kontrakt Trendscape** för att visa en översikt över servicetransaktioner för en viss serviceartikel.   
@@ -61,7 +60,7 @@ På sidan **Serviceartikelstatistik** kan du visa uppdaterad information om en s
 
 För varje transaktionstyp kan du visa fakturerat belopp, förbrukning (belopp), kostnadsbelopp, fakturerat antal och förbrukat antal, TB-belopp och TB-procent. Täckningsbidraget beräknas enligt följande formel:  
 
-* (Fakturerat belopp - förbrukning (kostnaden)) x 100 / fakturerat belopp  
+* (Fakturerat belopp – förbrukning (kostnaden)) x 100 / fakturerat belopp  
 
 ## <a name="using-trendscapes"></a>Med hjälp av Trendscapes
 För serviceartiklar och servicekontrakt, ger sidorna **Serviceartikel Trendscape** eller **Servicekontrakt Trendscape** innehåller en rullningsbar översikt över servicetransaktioner som skapas i en viss tid för en viss serviceartikel eller kontrakt. Visa trendscape genom att öppna servicekontraktet eller serviceartikeln, välj åtgärden **statistik**, och välj sedan **Trendscape**.

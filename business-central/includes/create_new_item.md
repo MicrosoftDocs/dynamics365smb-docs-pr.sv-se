@@ -1,15 +1,14 @@
 ---
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9dea26c37e990eee9d25a887714873a1daf7e9fe
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 122a8fbaf741f9298c5f9c4a9971b714e1971b6c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724592"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135574"
 ---
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 22.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. På sidan **Artiklar** väljer du åtgärden **Ny**.

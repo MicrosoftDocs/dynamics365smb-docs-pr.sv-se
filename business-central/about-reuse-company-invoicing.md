@@ -2,7 +2,6 @@
 title: Använd Invoicing och Business Central | Microsoft Docs
 description: Lösning för att komma åt Microsoft Invoicing när du har registrerat dig för Dynamics 365 Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,22 +9,22 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439153"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134414"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Använda samma Microsoft 365-konto i [!INCLUDE[prod_short](includes/prod_long.md)] och Microsoft Invoicing
-När du registrerar dig för en testversion av [!INCLUDE[prod_short](includes/prod_short.md)] kan du byta till en 30 dagar lång utvärderingsfas, starta en prenumeration eller sluta använda [!INCLUDE[prod_short](includes/prod_short.md)]. Ibland kan det hända att du har sett något som kallas **Microsoft Invoicing** och klickat på den. Det här var en app som ingick i Microsoft 365 Business Standard och tidigare kallades för Microsoft 365 Business Premium-prenumeration, så det är inte alla som har sett den panelen i sin Microsoft 365-upplevelse.  
+När du registrerar dig för en testversion av [!INCLUDE[prod_short](includes/prod_short.md)] kan du byta till en 30 dagar lång utvärderingsfas, starta en prenumeration eller sluta använda [!INCLUDE[prod_short](includes/prod_short.md)]. Ibland kan det hända att du har sett något som kallas **Microsoft Invoicing** och klickat på den. Detta var en app som ingick i det som nu är Microsoft 365 Business Standard och tidigare kallades för Microsoft 365 Business Premium-prenumeration, så det är inte alla som har sett den panelen i sin Microsoft 365-upplevelse.  
 
 Microsoft Invoicing är inte längre tillgängligt, men om du behöver logga in på fakturering för att hämta data kanske du får ett meddelande om att du inte kan komma åt Microsoft Invoicing eftersom ditt konto används i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Ett liknande meddelande visas om du installerar det mobila programmet för Invoicing.  
 
 ## <a name="workaround"></a>Lösning
-Invoicing och [!INCLUDE[prod_short](includes/prod_short.md)] har en delad plattform. Det innebär att du identifieras som en befintlig användare i [!INCLUDE[prod_short](includes/prod_short.md)] när du klickar på fakturering i Microsoft 365 administratörscenter. Det beror på att Invoicing inte kan använda samma företag som [!INCLUDE[prod_short](includes/prod_short.md)].  
+Invoicing och [!INCLUDE[prod_short](includes/prod_short.md)] har en delad plattform. Det innebär att du identifieras som en befintlig användare i [!INCLUDE[prod_short](includes/prod_short.md)] när du klickar på Fakturering i administrationscentret för Microsoft 365. Det beror på att Invoicing inte kan använda samma företag som [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Du måste därför logga in på [!INCLUDE[prod_short](includes/prod_short.md)] och döpa om ditt befintliga företag och sedan skapa ett nytt företag som du kan använda i Fakturering. Inga data flyttas eller skrivs över i samband med denna lösning.
 
@@ -41,7 +40,7 @@ Du måste därför logga in på [!INCLUDE[prod_short](includes/prod_short.md)] o
 7.  När systemet är redo igen väljer du knappen **Skapa nytt företag**.  
 8.  I dialogrutan som visas anger du namnet som *Mitt företag* och väljer sedan alternativet **Produktion – endast konfigurationsdata**.  
 
-Detta tar återigen några minuter. När processen är klar kommer du att få åtkomst till Invoicing som en del av din Microsoft 365 Business Standard-upplevelse. Men endast för export av data eftersom faktureringsprogrammet är föråldrat.  
+Detta tar återigen några minuter. När processen är klar kommer du att få åtkomst till Fakturering som en del av din Microsoft 365 Business Standard-upplevelse. Men endast för export av data eftersom faktureringsprogrammet är föråldrat.  
 
 ### <a name="what-about-my-data"></a>Om mina data
 När du byter namn på det ursprungliga Mitt företag döps de databastabeller som lagrar dina befintliga [!INCLUDE[prod_short](includes/prod_short.md)]-data om, men själva informationen ändras inte.  

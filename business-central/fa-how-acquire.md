@@ -2,7 +2,6 @@
 title: Skaffa anläggningstillgångar
 description: Du kan ställa in en anläggningstillgång, tilldela en avskrivningsregel och registrera anläggningstillgångens anskaffningskostnad.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: a7c74ef8e5dc7e40f6ea63962734074f35ac57a8
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: e0a60cbb82c99e3497a6f8d1907c261b6199e7ec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029254"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141235"
 ---
 # <a name="acquire-fixed-assets"></a>Skaffa anläggningstillgångar
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. En avskrivningsregel måste ställas in och tilldelas till varje anläggningstillgång, innan du kan anskaffa den.
@@ -64,7 +63,7 @@ Efterföljande procedur beskriver hur du anskaffar en anläggningstillgång manu
 >   Du kan också bokföra anskaffningstransaktioner som krediteringar. I detta fall ska du komma ihåg att värdet i fältet **Belopp** måste vara med ett minustecken för att ange en kreditering.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.
-2. På sidan **Redovisningsjournaler för anl.tillg.** i fältet **Anl. bokföringstyp** väljer du **Anskaffningskostnad**.
+2. På sidan **Redovisningsjournaler för anl.tillg.** i fältet **Anl.bokföringstyp** väljer du **Anskaffningskostnad**.
 3. Fyll i återstående fält om det behövs.
 4. Välj åtgärden **Bokföra**.  
 
@@ -74,7 +73,7 @@ Efterföljande procedur beskriver hur du anskaffar en anläggningstillgång manu
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Att rätta en bokföring av anskaffningskostnad för en anläggningstillgång,
 Om du gör ett fel när du bokför en anskaffningskostnad kan du flytta transaktionen med batch-jobbet **Rätta anl.trans.** och sedan bokföra rätt anskaffningstransaktion. De felaktiga transaktionerna överförs till sidan **Anl. felaktiga transaktioner**.
 
-Om du till exempel bokför en anskaffning med fel datum måste du rätta det så snart som möjligt eftersom anl. bokföringsdatum används i många beräkningar.
+Om du till exempel bokför en anskaffning med fel datum måste du rätta det så snart som möjligt eftersom Anl.bokföringsdatum används i många beräkningar.
 
 > [!IMPORTANT]  
 > Du kan inte använda funktionen **Återför transaktion** för anläggningstillgångstransaktioner.

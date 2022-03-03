@@ -2,18 +2,17 @@
 title: Ställ in anl. användardefinierad avskrivningsmetod
 description: I Business Central kan du använda en användardefinierad avskrivningsmetod för att definiera tillgångens avskrivningsmetod på sidan Anläggningstillgångskort.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4c55d19f5019e8a9526396d4d253a1f9a9f40844
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 517c3cdb51762c3c0fadcf29ff1ad6dbf949f971
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724643"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144989"
 ---
 # <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Skapa anläggningstillgångar med användardefinierade avskrivningsmetoder
 
@@ -78,7 +77,7 @@ Du ska av skatteskäl använda följande avskrivningsgrad för en anläggningsti
 
 Anskaffningskostnaden är 100 000 BVA och livslängden är fem år. Avskrivningen beräknas en gång om året.  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| Datum | Anl.bokföringstyp | Dagar | Belopp | Bokföringsvärde |
 | --- | --- | --- | --- | --- |
 | 20-01-01 |Anskaffningskostnad |(startdatum för avskrivning) |100,000.00 |100,000.00 |
 | 20-12-31 |Avskrivning |360 |-25 000,00 |75,000.00 |
@@ -89,7 +88,7 @@ Anskaffningskostnaden är 100 000 BVA och livslängden är fem år. Avskrivnin
 
 I föregående exempel skulle både fältet **Första användardefinierade avskrivningsdatum** och fältet **Startdatum för avskrivning** ställas in på 20/01/01 på sidan **Avskrivningsregler för anläggningstillgångar** för den specifika anläggningstillgången. Om däremot **Startdatum använd.def. avskrv.** innehåller 20-01-01 och **Avskrivning startdatum** innehåller 20-01-04 blir resultatet:  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| Datum | Anl.bokföringstyp | Dagar | Belopp | Bokföringsvärde |
 | --- | --- | --- | --- | --- |
 | 20-01-01 |Anskaffningskostnad |(startdatum för avskrivning) |100,000.00 |100,000.00 |
 | 20-12-31 |Avskrivning |270 |-18 750,00 |81,250.00 |

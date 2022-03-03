@@ -2,7 +2,6 @@
 title: Definiera detaljerade behörigheter
 description: I det här avsnittet beskrivs hur du definierar detaljerade behörigheter genom att ge vissa användare åtkomst till objekt och tilldela behörighetsgrupper till dem.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 634e21f291d15c78e8d4415399b6877240217eff
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028934"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146130"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 
@@ -166,7 +165,7 @@ I alla fält av typen de fem åtkomst **läsbehörighet**, **infoga behörighet*
 ### <a name="example---indirect-permission"></a>Exempel – Indirekt behörighet
 
 Du kan tilldela en indirekt behörighet för att använda en objekt endast via en annan objekt.
-en användare kan till exempel har behörighet att köra Codeunit 80, försäljningspost. Kodmodulen försäljningspost utför många uppgifter, inklusive ändra tabell 37 inköpsrad. När användaren bokför ett försäljningsdokument, kontrollerar codeunit [!INCLUDE[prod_short](includes/prod_short.md)] om användaren har behörighet att ändra tabellen inköpsrad.  Om inte kan inte kodmodulen slutföra uppgiften, och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
+en användare kan till exempel har behörighet att köra Codeunit 80, försäljningspost. Kodmodulen försäljningspost utför många uppgifter, inklusive ändra tabell 37 inköpsrad. När användaren bokför ett försäljningsdokument, kontrollerar codeunit [!INCLUDE[prod_short](includes/prod_short.md)] om användaren har behörighet att ändra tabellen inköpsrad. Om inte kan inte kodmodulen slutföra uppgiften, och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
 
 Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad för att köra kodmodulen. Om användaren har indirekt behörighet till tabellen inköpsrad körs codeunit försäljningspost korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen inköpsrad genom att köra kodmodulen försäljningspost eller ett annat objekt som har behörighet att ändra tabellen inköpsrad. Användaren kan endast ändra tabellen inköpsrad när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
 

@@ -3,7 +3,6 @@ title: Förstå artikeltyper
 description: Du kan justera lagervärderingen för en artikel som använder FIFO eller genomsnittliga värderingsprinciper, när artikelkostnader ändras av andra skäl än transaktioner.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059628"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131697"
 ---
 # <a name="about-item-types"></a>Om artikeltyper
 I fältet **Typ** på sidan **artikelkort** kan du ange vilken artikel som används för din verksamhet vilket påverkar i vilken grad du kan hantera varan i lager. I tabellen nedan beskrivs de tre typer av objekt som finns tillgängliga.
@@ -33,7 +32,7 @@ I fältet **Typ** på sidan **artikelkort** kan du ange vilken artikel som anvä
 
 Följande tabell listar de funktioner som de tre objekttyperna stöder.
 
-|Artikeltyp|FÖRS|Inköp|Projektförbrukning |Serviceförbrukning|Monteringsförbrukning|Produktion Förbrukning|Monteringsutflöde|Produktionsutflöde|Platsöverföring|Fysisk räkning|Omvärdering av lager|Lagerkostnad|Artikelspårning|Reservation|Lagerstyrning|Planering|
+|Artikeltyp|FÖRS|Inköp|Projektförbrukning|Serviceförbrukning|Monteringsförbrukning|Produktion Förbrukning|Monteringsutflöde|Produktionsutflöde|Platsöverföring|Fysisk räkning|Omvärdering av lager|Lagerkostnad|Artikelspårning|Reservation|Lagerstyrning|Planering|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Lagersaldo|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
 |Inte i lager|Ja|Ja|Ja|Ja|Ja|Ja|Nr|Nr|Nr|Nr|Nr|Nr|Nej|Nej|Nej|Nej|

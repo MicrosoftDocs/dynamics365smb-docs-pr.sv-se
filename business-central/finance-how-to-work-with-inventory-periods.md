@@ -2,7 +2,6 @@
 title: Arbeta med lagerperioder
 description: Du kan styra den tidsperiod som användare kan bokföra ändringar i lagret genom att definiera lagerperioder.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: inventory, periods
 ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d41936ece0911f726a72476716b148bede71a25b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9812d6f5b58839d1374f443497553734b46865e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970628"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136042"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeta med lagerperioder
 
@@ -42,21 +41,21 @@ I fältet **Stängd** anges om lagerperioden är stängd för lagervärdeändrin
 Det går att stänga vilken lagerperiod som helst, förutsatt att följande villkor är uppfyllda:  
 
 * Det får inte finnas några öppna externa artikeltransaktioner, d.v.s. inget negativt lager, i den perioden.  
-* Kostnaden för alla artiklar har justerats med batch-jobbet **Justera kost. - artikeltrans.**.  
+* Kostnaden för alla artiklar har justerats med batch-jobbet **Justera kost. – artikeltrans.**.  
 
 Detta innebär att alla avgående transaktionsantal (till exempel antalen från försäljningsorder, avgående överföringar, fakturor, inköpsreturer eller inköpskreditnotor) måste kopplas till ett befintligt antal i lagret.  
 
 ### <a name="to-close-an-inventory-period"></a>Stänga en lagerperiod  
 
-1. Välj åtgärden **Justera kost. - artikeltrans.** innan en lagerperiod stängs för att säkerställa att alla kostnadsjusteringar har bokförts.
+1. Välj åtgärden **Justera kost. – artikeltrans.** innan en lagerperiod stängs för att säkerställa att alla kostnadsjusteringar har bokförts.
 
-    Kör rapporten **Stäng lagerperiod - test** för att avgöra om det finns öppna externa artikeltransaktioner i lagerperioden eller om det finns artiklar som saknar justerad kostnad.  
-2. Välj åtgärden **Stäng lagerperiod - Test**.  
+    Kör rapporten **Stäng lagerperiod – test** för att avgöra om det finns öppna externa artikeltransaktioner i lagerperioden eller om det finns artiklar som saknar justerad kostnad.  
+2. Välj åtgärden **Stäng lagerperiod – Test**.  
 
     Kör batch-jobbet **Bokför lagerkostnad i redov.** för att säkerställa att alla kostnader har bokförts i redovisningen.  
 3. Välj åtgärden **Bokför lager i redov.**.  
 4. På sidan **Lagerperioder** väljer du den lagerperiod du vill stänga.  
-5. Välj åtgärden **Stäng period**. När lagerperioden har stängts kan inga lagerändringar bokföras före slutdatumet. Kostnaden för alla artiklar måste justeras med batch-jobbet **Justera kost. - artikeltrans.** innan lagerperioden kan stängas.  
+5. Välj åtgärden **Stäng period**. När lagerperioden har stängts kan inga lagerändringar bokföras före slutdatumet. Kostnaden för alla artiklar måste justeras med batch-jobbet **Justera kost. – artikeltrans.** innan lagerperioden kan stängas.  
 6. Klicka på **Ja** för att bekräfta stängningen av perioden eller klicka på **Nej** för att avbryta stängningen.  
 7. Lagerperioden stängs och en bekräftelse visas när stängningen är klar.  
 

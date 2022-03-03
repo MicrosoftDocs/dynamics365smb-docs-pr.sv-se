@@ -2,7 +2,6 @@
 title: Kontrollera automatiskt tillämpade betalningar och koppla betalningar manuellt | Microsoft Docs
 description: När betalningen kopplas automatiskt, kan du granska alla poster för en betalning och manuellt återställa dem som använts felaktigt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dce6cdfdf70d968ae06c88ad4d567ad5cde803dd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2844c7fc1969e2159c67f8783481fbbc143a39a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443247"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144911"
 ---
 # <a name="review-and-apply-payments-manually-after-automatic-application"></a>Granska och koppla betalningar manuellt efter automatisk koppling
 För varje journalrad som representerar en betalning på sidan **Betalningsavstämningsjournal** kan du öppna sidan **Betalningskoppling** för att visa alla öppna kandidattransaktioner för betalningen och för att visa detaljerad information för varje transaktion om datamatchningen som en betalningskoppling baseras på. Här kan du koppla manuellt betalningar eller koppla om betalningar som kopplades automatiskt till fel transaktion. Mer information om automatisk koppling finns i [Så här stämmer du av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).

@@ -2,7 +2,6 @@
 title: Så här skapar du serviceartiklar
 description: Läsa om olika sätt att skapa serviceartiklar i Business Central, t.ex. i en serviceorder eller vid leverans av artiklar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8803883e69678ee636c26b66bd34d38cfabe0042
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 74af60caaf286b9993402228b050e3717fb847a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441966"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136911"
 ---
 # <a name="create-service-items"></a>Skapa tjänsteartiklar
 I [!INCLUDE[prod_short](includes/prod_short.md)] avser termen ”serviceartikel” den utrustning eller de artiklar som kräver service. När du skapar en serviceorder kan du ange de artiklar som behöver service. I ordern kan du länka en serviceartikel till en artikel i lagret eller en serviceartikelgrupp.    

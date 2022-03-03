@@ -2,7 +2,6 @@
 title: Hantera budget för anläggningstillgångar
 description: Du kan ställa in information om framtida investeringar, avyttringar och avskrivning av anläggningstillgångar för att förbereda budgetar och prognoser.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: de86b4f985eb95ccf51cb9a31fd6f026f74b5f55
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 2e902f423bd0729608fcf0369248a4815bb88a72
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029594"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133868"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Hantera budgetar för anläggningstillgångar
 Du kan skapa budgeterade anläggningstillgångar. På så sätt kan du t. ex. inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.  

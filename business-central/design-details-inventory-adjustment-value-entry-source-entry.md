@@ -2,7 +2,6 @@
 title: Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen
 description: Läs mer om scenariot "bokföringsdatum på justeringsvärde transaktion jämfört med bokföringsdatum vid transaktion som orsakar justeringen, som omvärdering eller artikel omkostnad" när du kör batch-jobbet Justera kostn. – artikeltrans. identifierar.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 2f3a74752faca380236a8b56c920fb5b88003073
-ms.sourcegitcommit: 772af6954539c65743d1a2f59e8a37d30bd30278
+ms.openlocfilehash: 9d77c13cbe60d9e9b5c4d12e55d75f8815a4a5ba
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557310"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138680"
 ---
 # <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen
 
 I den här artikeln jämförs bokföringsdatum på posten för justeringsvärde med bokföringsdatumet på posten som orsakar att batchjobbet Justera kostn. – artikeltrans. körs, särskilt ett omvärderingsscenario och ett artikelavgiftsscenario.
 
-Med batch-jobbet **Justera kost. - artikeltrans.** behandlas dina data beroende på ditt scenario och konfigurering av [!INCLUDE[prod_short](includes/prod_short.md)]. I det här avsnittet beskrivs två olika processer, och för var och en visar den typ av effekt som batch-jobbet Justera kost. - artikeltrans. innehåller på informationen.
+Med batch-jobbet **Justera kost. – artikeltrans.** behandlas dina data beroende på ditt scenario och konfigurering av [!INCLUDE[prod_short](includes/prod_short.md)]. I det här avsnittet beskrivs två olika processer, och för var och en visar den typ av effekt som batch-jobbet Justera kost. – artikeltrans. innehåller på informationen.
 
 ## <a name="revaluation-scenario"></a>Omvärderingsscenario
 
@@ -105,7 +104,7 @@ Testa det här scenariot genom att utföra följande steg.
 
 Följande **artikeltransaktioner** och **värdetransaktioner** har bokförts:  
 
-**Artikeltransaktion - inköp**  
+**Artikeltransaktion – inköp**  
 
 |Löpnummer  |Artikelnr  |Bokföringsdatum  |Transaktionstyp  |Dokumentnummer  |Antal  |Kost.belopp (aktuellt)  |Återstående antal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
@@ -118,7 +117,7 @@ Följande **artikeltransaktioner** och **värdetransaktioner** har bokförts:
 |376     |TEST|   2020-12-15    |317         |Inköp         |Direkt kostnad         |T00001         |100         |1 000,00          |1 000,00    |Nej         |0         |ITEMNL         |
 |379     |TEST   |**2020-12-15**    |317         |Inköp         |Omvärdering         |T04002         |0         |3 000         |3 000         |Nej         |0         |REVALINL         |
 
-**Artikeltransaktion - negativ justering, steg 3**  
+**Artikeltransaktion – negativ justering, steg 3**  
 
 |Löpnr  |Artikelnr  |Bokföringsdatum  |Transaktionstyp  |Dokumentnummer  |Antal  |Kost.belopp (aktuellt)  |Återstående antal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|
@@ -131,7 +130,7 @@ Följande **artikeltransaktioner** och **värdetransaktioner** har bokförts:
 |377     |TEST|   2020-12-20    |318         |Negativ justering         |Direkt kostnad         |T00002         |-2         |-20          |-20    |Nej         |0         |ITEMNL         |
 |380     |TEST   |**2021-01-01**    |318         |Negativ justering         |Direkt kostnad         |T04002         |0         |-60         |-60         |Ja         |377         |INVTADAMT         |
 
-**Artikeltransaktion - negativ justering, steg 4**  
+**Artikeltransaktion – negativ justering, steg 4**  
 
 |Löpnr  |Artikelnr  |Bokföringsdatum  |Transaktionstyp  |Dokumentnummer  |Antal  |Kost.belopp (aktuellt)  |Återstående antal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|

@@ -2,7 +2,6 @@
 title: Administrationsuppgifter i Business Central
 description: Vissa uppgifter i Business Central kräver central administrering och konfigurering. Se vad de är och lär dig vad du ska göra.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 959a56e4bb7fcaac57b05d30dca4939ed2f8576d
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660137"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143874"
 ---
 # <a name="administration"></a>Administration
 
@@ -34,7 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 
 |**Om du vill**|**Se**|  
 |------------|-------------|
-|Ange vem som kan logga in på [!INCLUDE[prod_short](includes/prod_short.md)] genom att skapa användare i Microsoft 365 administrationscenter enligt produktlicenserna.|[Skapa användare enligt licenser](ui-how-users-permissions.md)|
+|Ange vem som kan logga in på [!INCLUDE[prod_short](includes/prod_short.md)] genom att skapa användare i administrationscentret för Microsoft 365 enligt produktlicenserna.|[Skapa användare enligt licenser](ui-how-users-permissions.md)|
 |Tilldela behörigheter till användare, ändra behörighetsuppsättningar och gruppera användare för enkel behörighetshantering.|[Tilldela behörigheter till användare och grupper](ui-how-users-permissions.md)|
 |Lägg till användargrupper och hantera behörigheter, åtkomst till data, tilldela roller.|[Hantera profiler](admin-users-profiles-roles.md)|
 |Hantera användarinställningar, till exempel företag, roll, språk, region och tidszon.|[Användarinställningar](admin-manage-user-settings-preferences.md)|

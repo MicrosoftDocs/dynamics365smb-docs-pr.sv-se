@@ -1,8 +1,7 @@
 ---
-title: Designdetaljer - Lagerstyrningsinställningar
+title: Designdetaljer – Lagerstyrningsinställningar
 description: Lagerställefunktionen innehåller olika komplexitetsnivåer, som till stor del definieras av lagerplatsinställningarna på lagerställekort.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325166"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142347"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lagerstyrningsinställningar
 
@@ -47,7 +46,7 @@ Efterföljande tabell visar vilka partiklar som krävs för att definiera olika 
 |3 <br /><br /> **Observera**: även om inställningarna kallas **Begär plockning** och **Begär artikelinförsel** kan du fortfarande bokföra inleveranser och utleveranser direkt från affärskälldokument på platser där du markerar dessa kryssrutor.|Grundläggande distributionslageraktivitet, en order i taget.<br /><br /> Ta emot/leverera bokföring från lagerartikelinförsel/plockdokument. <br /><br /> Lagerställeskoden krävs.|Lagerartikelinförsel/lagerförflyttning/lagerplockning med lagerställeskod|(SILVER + Kräver artikelinförsel eller Kräver artikelinförsel)|Grundläggande lager/Lagerplats/Artikelinförsel/Plockning|  
 |4|Avancerad distributionslageraktivitet, för flera order.<br /><br /> Konsoliderad inleverans-/leveransbokföring baserad på artikelinförsel-/plockregistreringar för distributionslager.|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Distributionslagerutleverans/Plockningskalkylark|GRÖN|Grundläggande lager/Distributionslager inleverans/Artikelinförsel/Plockning/Distributionslager utleverans|  
 |5|Avancerad distributionslageraktivitet, för flera order.<br /><br /> Konsoliderad inleverans-/leveransbokföring baserad på artikelinförsel-/plockregistreringar för distributionslager.<br /><br /> Lagerställeskoden krävs.|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Distributionslagerutleverans/Plockningskalkylark/Artikelinförselkalkylark, men lagerställeskod|(GRÖN + Lagerplats obligatorisk)|Grundläggande lager/Lagerplats/Distributionslager inleverans/Artikelinförsel/Plockning/Distributionslager utleverans|  
-|6 <br /><br /> **Obs!** Den här nivån kallas för "WMS”,eftersom den kräver den mest avancerade underavdelningen, lagerledningsystem (Warehouse Management Systems).|Avancerad distributionslageraktivitet för flera order<br /><br /> Konsoliderad inleverans-/utleveransbokföring baserad på artikelinförsels-/plockregistreringar<br /><br /> Lagerställeskoden krävs.<br /><br /> Kod för zon/klass är valfritt.<br /><br /> Lagerarbetare som styrs av arbetsflödet<br /><br /> Återanskaffningsplan för binge<br /><br /> Lagerplatsordning<br /><br /> Konfiguration för binge efter kapacitet<br /><br /> Skapa luckor  <!-- Hand-held device integration -->|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Dist.lager transport/Plockningskalkylark/Artikelinförsel kalkylark/Intern dist.lager plockning /intern artikelinförsel, med lagerplats/klass/zonkod<br /><br /> Olika kalkylark för lagerplatshantering<br /><br /> ADCS-skärmar|VIT|Grundläggande lager/Lagerplats/Artikelinförsel/Inleverans för distr.lager/Plock/Utleverans för distr.lager/Administreringssystem för lager/Internt plock och artikelinförsel/Lagerplatsinställning<!-- Automated Data Capture System/ -->Lagerplatsinställning|  
+|6 <br /><br /> **Obs!** Den här nivån kallas för "WMS”,eftersom den kräver den mest avancerade underavdelningen, lagerledningsystem (Warehouse Management Systems).|Avancerad distributionslageraktivitet för flera order<br /><br /> Konsoliderad inleverans-/utleveransbokföring baserad på artikelinförsels-/plockregistreringar<br /><br /> Lagerställeskoden krävs.<br /><br /> Kod för zon/klass är valfritt.<br /><br /> Lagerarbetare som styrs av arbetsflödet<br /><br /> Återanskaffningsplan för binge<br /><br /> Lagerplatsordning<br /><br /> Konfiguration för binge efter kapacitet<br /><br /> Skapa luckor <!-- Hand-held device integration -->|Distributionslagerinleverans/Distributionslager artikelinförsel/Distributionslagerplockning/Dist.lager transport/Plockningskalkylark/Artikelinförsel kalkylark/Intern dist.lager plockning /intern artikelinförsel, med lagerplats/klass/zonkod<br /><br /> Olika kalkylark för lagerplatshantering<br /><br /> ADCS-skärmar|VIT|Grundläggande lager/Lagerplats/Artikelinförsel/Inleverans för distr.lager/Plock/Utleverans för distr.lager/Administreringssystem för lager/Internt plock och artikelinförsel/Lagerplatsinställning<!-- Automated Data Capture System/ -->Lagerplatsinställning|  
 
 Se [Designdetaljer: inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md) för exempel på hur användargränssnittsdokumenten används per lagerkomplexitetsnivå.  
 

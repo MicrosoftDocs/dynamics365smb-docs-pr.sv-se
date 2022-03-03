@@ -2,7 +2,6 @@
 title: 'Så här: Införa artiklar med lagerartikelinförslar'
 description: Läs om hur du använder lagerinförseldokumentet för lager för att registrera och bokföra artikelinförsel och inleveransinformation för dina källdokument.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438113"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138160"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
 När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Det inkommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en inkommande överföringsorder, montering eller en produktionsorder vars utflöde är klart för artikelinförsel.  

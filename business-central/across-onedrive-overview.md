@@ -2,18 +2,17 @@
 title: Business Central och OneDrive för företag-integration
 description: Du kan använda OneDrive för företag för att lagra, hantera och dela filer, t.ex. rapporter eller bifogade filer.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8965fe1c0f04c3b12fef984e71b7f2643f7f11c2
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: f2c8efa4a32ef18ee4db25919c7e4405649d54bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012581"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141469"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Business Central och OneDrive för företag-integration
 OneDrive för företag är en molnlagringstjänst som ingår i Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] med är det enkelt att lagra, hantera och dela filer med andra människor via OneDrive. När en fil finns i din OneDrive kan du använda de omfattande samarbetsfunktionerna från online-versioner av Microsoft-produkter, till exempel Word, Excel och PowerPoint. Du kan t.ex. dela ett Word-dokument och sedan och dina kollegor kan redigera det tillsammans i realtid. OneDrive kan du också öppna andra typer av filer, till exempel PDF-filer. 

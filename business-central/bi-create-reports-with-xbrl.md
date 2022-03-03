@@ -4,7 +4,6 @@ description: XBRL, är ett XML-baserat språk för ekonomisk rapportering som g�
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: a5e16c335730190b0db162876230c101f8319941
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101327"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135483"
 ---
 # <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
 
@@ -34,7 +33,7 @@ XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat
 > [!NOTE]
 > Du kan importera redovisningsrelaterade scheman och skapa XBRL-instansdokument genom att mappa redovisningsdata från kontoplanen till element i taxonomier som har utformats för finansiella rapporter, till exempel balansräkningar, resultaträkningar och så vidare.
 > 
-> XBRL-funktionerna i Business Central stöder taxonomier för specifikation 2.1, men taxonomier kan även innehålla element som inte stöds - till exempel Formellänkbaser, iXBRL - eller ha andra strukturella skillnader. Vi rekommenderar att du validerar XBRL-funktionen innan du använder den för rapportering.
+> XBRL-funktionerna i Business Central stöder taxonomier för specifikation 2.1, men taxonomier kan även innehålla element som inte stöds – till exempel Formellänkbaser, iXBRL – eller ha andra strukturella skillnader. Vi rekommenderar att du validerar XBRL-funktionen innan du använder den för rapportering.
 > 
 > Fullt stöd för taxonomier kan kräva XBRL-taggning och verktyg från tredje part. XBRL International-organisationen har en lista över verktyg och tjänster som du kan använda för XBRL-rapportering. Beroende på XBRL-rapporteringskraven för en viss taxonomi kanske du vill utforska dessa resurser. Mer information finns i [Komma igång för företag](https://go.microsoft.com/fwlink/?linkid=2153466) och [Verktyg och tjänster](https://go.microsoft.com/fwlink/?linkid=2153356).
 
@@ -90,7 +89,7 @@ Du lägger upp XBRL-rader genom att koppla data i taxonomin till data i redovisn
    > Du kan endast exportera data som motsvarar markeringen i fältet **Ursprungstyp**. Här ingår beskrivningar och anteckningar.  
 
    > [!NOTE]  
-   > Taxonomier kan innehålla element som [!INCLUDE[prod_short](includes/prod_short.md)] inte stöder. Om ett element inte stöds kommer fältet **Ursprungstyp** att ange **Ej tillämpbart** och fältet **Beskrivning** att visa ett felmeddelande, till exempel **Oväntad typ: "specifik typ ej känd"**. Om du måste exportera elementet väljer du en matchande ursprungstyp. Vanligtvis är detta en konstant eller en beskrivning. På så sätt kan du ange och exportera data - sådana element kan emellertid ha verifieringsregler som inte kan kontrolleras före export.
+   > Taxonomier kan innehålla element som [!INCLUDE[prod_short](includes/prod_short.md)] inte stöder. Om ett element inte stöds kommer fältet **Ursprungstyp** att ange **Ej tillämpbart** och fältet **Beskrivning** att visa ett felmeddelande, till exempel **Oväntad typ: "specifik typ ej känd"**. Om du måste exportera elementet väljer du en matchande ursprungstyp. Vanligtvis är detta en konstant eller en beskrivning. På så sätt kan du ange och exportera data – sådana element kan emellertid ha verifieringsregler som inte kan kontrolleras före export.
 
  ## <a name="to-import-an-xbrl-taxonomy"></a>Så här importerar du XBRL-taxonomier  
 Det första du måste göra när du arbetar med XBRL-funktionerna är att importera taxonomin till företagets databas. En taxonomi består av ett eller flera scheman och länkbaser. När du har importerat ett eller flera scheman och länkbaser och kopplat länkbaserna till schemat, kan du lägga upp raderna och koppla redovisningskontona i kontoplanen till lämpliga taxonomirader.  

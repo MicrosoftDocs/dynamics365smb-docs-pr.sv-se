@@ -4,7 +4,6 @@ description: Beskriver uppgifterna om du vill ange information och koder, till e
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788083"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137841"
 ---
 # <a name="set-up-contacts"></a>Ställa in kontakter
 När du skapar kontakter kan du ange särskild information, till exempel vilken bransch kontakten tillhör och vilken affärsrelation du har med kontakten.
@@ -26,7 +25,7 @@ Innan du skapar kontakter och registrerar uppgifter om affärsrelationerna, mås
 
 Om du ställer in den här information kan du skapa kontakterna på ett mer organiserat sätt och att söka efter kontakterna utifrån en viss grupp blir mer effektivt. Varje grupp på företaget kan hitta den här informationen och därför blir kommunikationen med kontakterna mer framgångsrik.
 
-## <a name="to-assign-industry-groups-to-a-contact"></a> Så här tilldelar du industrigrupper till en kontakt
+## <a name="to-assign-industry-groups-to-a-contact"></a>Så här tilldelar du industrigrupper till en kontakt
 Branschgrupper används för att visa vilken bransch kontakterna tillhör, exempelvis detaljhandel eller bilBransch.
 
 > [!NOTE]
@@ -44,7 +43,7 @@ Antalet branschgrupper som du har tilldelat kontakter anges automatiskt i fälte
 
 När du har tilldelat kontakterna branschgrupper kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
-## <a name="to-assign-mailing-groups-to-a-contact"></a> Så här tilldelar du utskicksgrupp till en kontakt
+## <a name="to-assign-mailing-groups-to-a-contact"></a>Så här tilldelar du utskicksgrupp till en kontakt
 Utskicksgrupper används för att definiera kontaktgrupper som du vill ge samma information. Du kan till exempel skapa en utskicksgrupp med de kontakter du vill skicka flyttkort till eller en annan grupp för att skicka julklappar.
 
 Utskicksgruppkoden definierar typen eller kategorin för den gruppen, till exempel FLYTTA för kontorsflyttning eller GÅVA för julklappar. Du kan ha flera branschgruppkoder. För att definiera branschgrupperna använder du sidan **Utskicksgrupper**.
@@ -118,7 +117,7 @@ När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som 
 
 Upprepa stegen för varje webbkälla du vill skapa.
 
-## <a name="to-assign-business-relations-to-a-contact"></a> Så här tilldelar du affärsrelationer till kontakter
+## <a name="to-assign-business-relations-to-a-contact"></a>Så här tilldelar du affärsrelationer till kontakter
 Affärsrelationer används för att visa vilket affärsförhållande du har till kontakterna, till exempel spekulant, bank, konsult eller serviceleverantör.
 
 > [!NOTE]

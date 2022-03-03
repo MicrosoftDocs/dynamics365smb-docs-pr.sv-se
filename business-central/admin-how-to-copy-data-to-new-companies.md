@@ -2,7 +2,6 @@
 title: Så här kopierar du data till nya företag
 description: Du kan kopiera vanliga värden från ett befintligt företag, förutsatt att båda företagen finns i samma databas.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8a91058dc1a82dc74e6ef29810c3b6d392819bd1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 96a4b18cd68edc972211ee31b99f3f01f91b3dda
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439616"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132132"
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiera data till nya företag
 Du kan kopiera vanliga värden från ett befintligt företag, förutsatt att båda företagen finns i samma databas. Om du t.ex har en standardlista över symptomkoder som är gemensamma för alla dina tjänsthanteringsimplementeringar kan du kopiera koderna enkelt från ett företag till ett annat.  

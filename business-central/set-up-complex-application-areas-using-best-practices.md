@@ -2,7 +2,6 @@
 title: Skapa komplexa moduler med hjälp av bästa praxis | Microsoft Docs
 description: Det är viktigt att ange rätt inställningsvärden från början för att en ny verksamhetsprogramvara ska fungera effektivt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc9ed598938ff0bb4782e9f01aa6d35eaa9b610e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 317e8af407722be22babde39e1ac24ce5f8a6867
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778128"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128677"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Skapa komplexa moduler med hjälp av bästa praxis
 Det är viktigt att ange rätt inställningsvärden från början för att en ny verksamhetsprogramvara ska fungera effektivt.  

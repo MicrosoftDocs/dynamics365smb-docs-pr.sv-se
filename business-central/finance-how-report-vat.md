@@ -2,7 +2,6 @@
 title: Skicka momsrapporter till skattemyndigheterna
 description: Lär dig hur du förbereder en rapport över moms från försäljning under en period eller från försäljning och inköp och skickar rapporten till en skattemyndighet.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0c041f2af2e59a8ed8be77a8d2eb029e48cb8258
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059941"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141183"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
 
@@ -106,7 +105,7 @@ I vissa länder skickar du meddelanden till skattemyndigheten när du skickar ra
 Om du använder en annan metod för att skicka rapporten, till exempel genom att exportera XML-data och överföra den till en skattemyndighetens webbplats, kan du välja **Välj som levererad** för att stänga perioden. När du markerar en momsrapport som släppt, går den inte längre att redigera. Om du måste ändra rapporten, när du har markerat den som släppt, måste du först öppna den på nytt.
 
 ## <a name="vat-settlement"></a>Momsavräkning
-Med jämna mellanrum måste du betala nettomoms till skattemyndigheterna. När du måste avräkna momsen ofta kan du köra batch-jobbet **Beräkna/bokför momsavräkning** för att stänga de öppna momstransaktionerna och  överföra inköps- och försäljningsbelopp till momsavräkningskontot.
+Med jämna mellanrum måste du betala nettomoms till skattemyndigheterna. När du måste avräkna momsen ofta kan du köra batch-jobbet **Beräkna/bokför momsavräkning** för att stänga de öppna momstransaktionerna och överföra inköps- och försäljningsbelopp till momsavräkningskontot.
 
 När ett momsbelopp överförs till avräkningskontot krediteras kontot för ingående moms och kontot för utgående moms debiteras med beloppet från momsavräkningsperioden. Kontot för momsavräkning krediteras (eller, om beloppet för ingående moms är större, debiteras) med nettobeloppet. Du kan bokföra avräkningen direkt eller välja att först skriva ut en testrapport.  
 

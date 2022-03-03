@@ -2,7 +2,6 @@
 title: 'Så här: Planera artikelinförsel i förslaget'
 description: Skapa distributionslagret så att inleveransrader visas i artikelinförselkalkylarket när du vill planera artikelinförselinstruktioner för inleveranser.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438188"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131125"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planera artikelinförsel i kalkylark
 Du kan använda artikelinförselkalkylarket om lagerstället kräver både artikelinförsel- och inleveransbearbetning, och du vill planera artikelinförselinstruktioner för flera inleveranser, i stället för att låta personalen följa de instruktioner som har skapats i programmet för separata bokförda inleveranser.  

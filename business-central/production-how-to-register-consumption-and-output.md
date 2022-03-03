@@ -2,7 +2,6 @@
 title: Registrera förbrukningsutflöde för produktionsorder
 description: I det här avsnittet beskrivs hur du registrerar förbrukning och utflöde för en släppt produktions orderrad som visas på produktionsjournal sidan.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 43f49adcc182f279126fbb8d2d6652153a626b4d
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 7fbb0d2c064df2b99fcbb58dde278ed8848f949f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973819"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137529"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
 
@@ -57,7 +56,7 @@ Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombin
 Om värdena som återstår ska bokföras kommer journalen att innehåller dessa återstående värden nästa gång den öppnas. Bokfört värde visas som faktiskt värde längst ned i journalen.  
 
 > [!NOTE]  
->   Om en artikel som förbrukas är spärrad så bokförs inte förbrukningskvantiteter för artikeln. Om en maskingrupp eller produktionsgrupp är spärrad så bokförs inte utdatakvantiteter eller processtider för den aktuella utdataraden.  
+>  Om en artikel som förbrukas är spärrad så bokförs inte förbrukningskvantiteter för artikeln. Om en maskingrupp eller produktionsgrupp är spärrad så bokförs inte utdatakvantiteter eller processtider för den aktuella utdataraden.  
 
 > [!NOTE]  
 >  Om du stänger journalen utan att bokföra så går alla ändringar förlorade.  

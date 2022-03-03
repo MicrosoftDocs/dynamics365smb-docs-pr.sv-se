@@ -2,7 +2,6 @@
 title: Ställa in en momsrapport
 description: I det här avsnittet beskrivs hur du lägger upp en momsrapportmall och momsrapportnamn för att uppfylla ändrade skattemyndighetskrav.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8243d846124a615ba6f5368967971c3b3d900919
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: c701813e596bb217cf6601091d55c528cf1ee2e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970602"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142217"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Ställa in momsrapportmallar och momsrapportnamn
 
@@ -38,7 +37,7 @@ Momsrapporter låter dig beräkna momsavräkningsbeloppen för en bestämd perio
 
 När du har definierat en momsrapport kan förhandsgranska du den och kontrollera att det uppfyller dina behov.
 > [!Tip]
-> Det är bästa praxis att ha ett avsnitt i momsrapporten som använder **Typ** **Momstrans.summering** och ett annat avsnitt nedanför som använder **Typ** **Kontosummering** för att stämma av beloppen baserat på tabellen **Momstransaktion** jämfört med beloppet på **Redovisningskonton**. Du kan också använda rapporten **Redovisning - Momsavstämning** för detta ändamål.
+> Det är bästa praxis att ha ett avsnitt i momsrapporten som använder **Typ** **Momstrans.summering** och ett annat avsnitt nedanför som använder **Typ** **Kontosummering** för att stämma av beloppen baserat på tabellen **Momstransaktion** jämfört med beloppet på **Redovisningskonton**. Du kan också använda rapporten **Redovisning – Momsavstämning** för detta ändamål.
 
 1. Välj **förhandsgranskning**.
 2. Du begränsar rapporten till en viss period genom att ange ett datumfilter. För mer information om hur du anpassar sidan så att datumfiltret visas,, se [Söka, filtrera och sortera data](ui-enter-criteria-filters.md).

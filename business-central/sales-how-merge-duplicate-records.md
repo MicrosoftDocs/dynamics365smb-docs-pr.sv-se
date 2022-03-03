@@ -2,7 +2,6 @@
 title: Slå samman dubblettposter för kund eller leverantör
 description: Beskriver hur du konsoliderar information om kunder eller leverantörer när du har transaktionsdubletter om några av dem.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436857"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130130"
 ---
 # <a name="merge-duplicate-records"></a>Slå samman dubblettposter
 När olika användare skapar nya kunder, leverantörer eller kontaktkort med tiden eller nya poster skapas automatiskt vid migrering kan kund, leverantör eller kontakt visas på system med mer än en post. I så fall kan du använda sidan **slå samman dubletter** från kortet för den post som du vill behålla. Den här sidan innehåller en översikt över dubbla fältvärden och innehåller funktioner för att välja vilka värden som ska behållas eller ignoreras när du slår samman två poster i en.

@@ -3,7 +3,6 @@ title: Hantera interaktioner med dina kontakter
 description: Du kan hantera all slags kommunikation eller interaktioner mellan ditt företag och kontakterna, till exempel för brev, telefonsamtal, sammanträden och så vidare.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059448"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131385"
 ---
 # <a name="record-interactions-with-contacts"></a>Spela in interaktioner med kontakter
 Ställ in ditt program att registrera interaktioner består av dessa uppgifter:

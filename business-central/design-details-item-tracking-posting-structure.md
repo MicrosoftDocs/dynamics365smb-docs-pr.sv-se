@@ -1,8 +1,7 @@
 ---
-title: Designdetaljer - Bokföringsstruktur för artikelspårning
+title: Designdetaljer – Bokföringsstruktur för artikelspårning
 description: Lär dig att använda artikeltransaktioner som den primära bäraren av artikelspårningsnummer i Bokföringsstruktur för artikelspårning.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 186f4d88fe7fe2b772ec579727fd62d4985c0cf9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b568e62a71b907e8d2f9cbc8eba43773be655b44
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320345"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136328"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetaljer: Bokföringsstruktur för artikelspårning
 För att anpassas till funktionen för lagervärdering och för att få en enklare och mer robust lösning används artikeltransaktioner som den primära bäraren av artikelspårningsnummer.  

@@ -2,7 +2,6 @@
 title: Inventera, justera och gruppera lager
 description: Utför en fysisk inventering, göra negativa eller positiva justeringar och ändra information, till exempel plats eller partinumret i distributionslagerposter.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5d8625434a661beb126ca234ea760038a6b75506
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: b25851a01a5687da3055a6b8e32becf8e6e9f018
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059706"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131619"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Inventera, justera och gruppera lager med hjälp av journaler
 Minst en gång per räkenskapsår måste du utföra en inventering (d.v.s. räkna alla artiklar i lagret) för att se om det antal som är registrerat i databasen är samma som det antal som verkligen finns i lagret. När det faktiska antalet är känt, måste det bokföras i redovisningen som en del av lagervärderingen för periodslutet.

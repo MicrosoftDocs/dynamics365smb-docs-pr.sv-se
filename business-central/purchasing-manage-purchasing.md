@@ -2,7 +2,6 @@
 title: Översikt över uppgifter för hantering av inköp
 description: Beskriver uppgifter för hantering av inköp eller inköpsprocesser, inklusive hur inköpsfakturor och inköpsorder fungerar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 460
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 60887ebf12795464049fb403e832e4eae7118b18
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: a2d561087755f6cac596b216d9e02fa31be61726
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012109"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137243"
 ---
 # <a name="purchasing"></a>Inköp
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.

@@ -2,7 +2,6 @@
 title: Med hjälp av tillägget försäljning och lagerprognos för att hantera lager | Microsoft Docs
 description: Det här tillägget låter dig förutse försäljning, få en tydlig översikt över förväntat slut i lager och du kan till och med skapa återanskaffningsförfrågningar till leverantörer.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 615212ee648993136aaa75c7cb1ab798615899ab
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 4341abd51fa87e36394109dd71452b38df5062e1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940157"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140377"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Tillägget Försäljning och lagerprognos
 Lagerhantering är en kompromiss mellan kundservice och hantering av din kostnad. Å ena sidan kräver ett lågt lager mindre rörelsekapital, men å andra sidan leder eventuellt slut i lager till missade försäljningar. Tilläggen för Försäljning och Lagerprognos förutsäger potentiella försäljningar med hjälp av historiska data och ger en tydlig översikt av förväntade slut i lager. Baserat på prognosen hjälper tilläggen till att skapa påfyllningförfrågningar till dina leverantörer, vilket sparar tid.  

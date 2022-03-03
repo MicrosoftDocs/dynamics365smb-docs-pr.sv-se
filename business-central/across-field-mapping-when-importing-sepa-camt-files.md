@@ -2,7 +2,6 @@
 title: Fältmappning vid import av SEPA CAMT-filer | Microsoft Docs
 description: På europeiska marknader kan du importera bankutdragsfiler i regionala SEPA-standarder (Single Euro Payments Area).
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 567b77764aeacec84ef7577ed94f74dd6b6acc64
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 829ff2a07464d1c456b6776eef542914601c0a18
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776103"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141638"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Fältmappning vid import av SEPA CAMT-filer
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder de regionala SEPA-standardena (Single Euro Payments Area) för import av SEPA-kontoutdrag (CAMT-format). Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  

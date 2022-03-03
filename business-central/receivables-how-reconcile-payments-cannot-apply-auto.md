@@ -2,7 +2,6 @@
 title: Använda funktionen Överför differens till konto för att stämma av betalningar
 description: Beskriver hur du kan bearbeta betalningar som inte kan kopplas till ett dokument, till exempel när en valutakurs orsakar att belopp skiljer sig åt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2964f1fb9a0944d87adf77e9c2127a2fde5b13dd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1f6fdc38e85944541c908c3c658f14496c619c0a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445457"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139449"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Så här stämmer du av betalningar som inte kan kopplas automatiskt
 Du måste ibland hantera betalningar till ditt bankkonto som inte kan kopplas till en relaterad öppen kund, leverantör eller bankkontotransaktion. Anledningar kan vara att det inte finns något dokument i [!INCLUDE[prod_short](includes/prod_short.md)] som betalningen kan kopplas till, eller det relaterade dokumentet i [!INCLUDE[prod_short](includes/prod_short.md)] har ett annat belopp än transaktionbeloppet, tex på grund av valutakursen. På sidan **Betalningavstämningjournal** visas inte alla transaktionsbelopp för betalningar som inte kopplats ännu i fältet **Skillnad** inklusive belopp, som inte kan användas på grund av anledningarna ovan.
@@ -41,7 +40,7 @@ Om du vill avstämma sådana betalningar kan du välja åtgärden **Överför di
 3. Välj **Överför differens till konto**. Sidan **Överför differens till konto** öppnas.
 4. I fältet **Kontotyp** anger du typen av konto som betalningsbeloppet bokförs på.
 5. I fältet **Kontotnr** anger du typen av konto som betalningsbeloppet bokförs på.
-6. I fältet **Beskrivning** anger du den text som beskriver denna direktbetalningsbokföring.  Som standard infogas texten i fältet **transaktionstext** på betalningavstämningjournalraden.
+6. I fältet **Beskrivning** anger du den text som beskriver denna direktbetalningsbokföring. Som standard infogas texten i fältet **transaktionstext** på betalningavstämningjournalraden.
 7. Välj **OK**.
 
 Om värdet i fältet **skillnad** var lika med värdet i fältet **transaktionbelopp** när du bokförde betalningavstämningjournalen, kommer hela betalningen på journalraden bokföras direkt på angivet motkonto.

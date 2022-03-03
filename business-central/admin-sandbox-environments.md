@@ -2,7 +2,6 @@
 title: Begränsade miljöer
 description: Lär dig mer om hur en dedikerad miljö kan hjälpa dig att utforska, lära dig, demonstrera, utveckla, felsöka och testa Business Central.
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940632"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142477"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Begränsade miljöer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -34,7 +33,7 @@ Du kan också använda begränsade miljöer på ett säkert sätt i utbildningss
 När du är klar kan du ta bort det begränsade läget med hjälp av administrationscentret.  
 
 > [!NOTE]
-> Tekniskt sett skiljer sig begränsade miljöer mycket från produktionsmiljöer. Administratören kan skapa en begränsade miljö som omfattar produktionsdata - men det är fortfarande en begränsade miljö, och du kan därför exempelvis inte begära en databasrapport. Mer information finns i [Begränsade miljöer](/dynamics365/business-central/dev-itpro/administration/environment-types#sandbox-environments) i utvecklar- och administrationsinnehållet.
+> Tekniskt sett skiljer sig begränsade miljöer mycket från produktionsmiljöer. Administratören kan skapa en begränsade miljö som omfattar produktionsdata – men det är fortfarande en begränsade miljö, och du kan därför exempelvis inte begära en databasrapport. Mer information finns i [Begränsade miljöer](/dynamics365/business-central/dev-itpro/administration/environment-types#sandbox-environments) i utvecklar- och administrationsinnehållet.
 
 Miljön i begränsat läge är inte minst användbar eftersom den innehåller ett par praktiska funktioner:
 

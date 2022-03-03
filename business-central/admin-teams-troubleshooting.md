@@ -2,7 +2,6 @@
 title: Felsöka Microsoft Teams-integrering
 description: Lär dig vad du kan göra som administratör för att styra Microsoft Teams-integreringen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596678"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147014"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 

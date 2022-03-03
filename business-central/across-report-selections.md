@@ -2,22 +2,21 @@
 title: Rapportval i Business Central
 description: Mer information om hur du ställer in de rapporter som du använder för att skriva ut olika typer av dokument i Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e79f1414e73b94ce9bc6bf6e3ae3402e2d29d66
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012478"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134062"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportval i Business Central
 
-Du kan konfigurera standardrapporter som ska användas för att skriva ut de olika dokumenten för försäljning och inköp, exempelvis order, offerter, fakturor och kreditnotor. Om du t. ex. har en särskild layout för försäljningsfakturor kan du ange rapporten på sidan **Rapporturval - Försäljning** så att den används för att skicka eller skriva ut försäljningsfakturor.  
+Du kan konfigurera standardrapporter som ska användas för att skriva ut de olika dokumenten för försäljning och inköp, exempelvis order, offerter, fakturor och kreditnotor. Om du t. ex. har en särskild layout för försäljningsfakturor kan du ange rapporten på sidan **Rapporturval – Försäljning** så att den används för att skicka eller skriva ut försäljningsfakturor.  
 
 Sidorna för **rapporturval** anger vilken rapport som ska skrivas ut i olika situationer. [!INCLUDE [prod_short](includes/prod_short.md)] innehåller standardkonfigurationer, men naturligtvis kan du ändra dessa standardvärden. Du kan också lägga till rapporter på sidorna för **Rapporturval** om du exempelvis vill skriva ut mer än en rapport per dokumenttyp.  
 
@@ -37,23 +36,23 @@ Sidorna för **rapporturval** anger vilken rapport som ska skrivas ut i olika si
 
 Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller följande sidor om **Rapportavsnitt**:
 
-* **Rapportval - Försäljning**  
-* **Rapportval - Inköp**  
-* **Rapportval - Lager**  
-* **Rapportval - Kassaflöde**  
-* **Rapportval - Distributionslager**  
-* **Rapportval - Bankkonto**  
-* **Rapportval - Påminnelse/ränta**  
+* **Rapportval – Försäljning**  
+* **Rapportval – Inköp**  
+* **Rapportval – Lager**  
+* **Rapportval – Kassaflöde**  
+* **Rapportval – Distributionslager**  
+* **Rapportval – Bankkonto**  
+* **Rapportval – Påminnelse/ränta**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Exempel: Rapportval för försäljningsdokument
 
-Sidan **Rapportval - Försäljning** definierar de standardrapporter som ska användas i olika scenarier för varje relaterad dokumenttyp. Välj en dokumenttyp i fältet **Användning** och lägg sedan till eller granska rapportvalet. Du kan konfigurera mer än en rapport och i vilken ordning rapporterna ska skickas eller skrivas ut.  
+Sidan **Rapportval – Försäljning** definierar de standardrapporter som ska användas i olika scenarier för varje relaterad dokumenttyp. Välj en dokumenttyp i fältet **Användning** och lägg sedan till eller granska rapportvalet. Du kan konfigurera mer än en rapport och i vilken ordning rapporterna ska skickas eller skrivas ut.  
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 Vissa typer av dokument kan skickas som e-postbilagor, andra inte. Varje sida för **Rapporturval** visar ytterligare fält om typen stöder e-post direkt.  
 
-På sidorna **Rapporturval - Försäljning** och **Rapporturval - Inköp** hjälper följande fält dig att konfigurera e-post:
+På sidorna **Rapporturval – Försäljning** och **Rapporturval – Inköp** hjälper följande fält dig att konfigurera e-post:
 
 |Fältnamn |Beskrivning  |
 |-----------|-------------|

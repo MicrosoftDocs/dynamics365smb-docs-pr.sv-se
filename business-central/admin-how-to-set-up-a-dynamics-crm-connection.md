@@ -2,19 +2,18 @@
 title: Anslut till Microsoft Dataverse (innehåller video)
 description: Skapa en anslutning mellan Business Central och Dataverse. Företag skapar vanligtvis anslutningen för att integrera data med en annan Dynamics 365-affärsapp.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 8b5a393356f4028de8278bad3177592c8d26fe40
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059550"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130754"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Anslut till Microsoft Dataverse
 
@@ -121,7 +120,7 @@ Algoritmen för matchande poster kan startas från följande platser i [!INCLUDE
 
     När hela synkroniseringsprocessen upptäcker att du har frikopplade poster båda i [!INCLUDE [prod_short](includes/prod_short.md)] och i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], en länk **Välj kopplingskriterier** visas för relevant integrationstabell.  
 
-    Du kan starta processen **Kör fullständig synkronisering** från sidorna **Dataverse Anslutningsinställningar** och **Dynamics 365 anslutningsinställning** och det kan initieras som ett steg i **Upprätta en anslutning till Dataverse** assisterad konfigurationsguide när du väljer att slutföra installationen och köra full synkronisering i slutet.   
+    Du kan starta processen **Kör fullständig synkronisering** från sidorna **Dataverse Anslutningsinställningar** och **Dynamics 365 anslutningsinställning** och det kan initieras som ett steg i **Upprätta en anslutning till Dataverse** assisterad konfigurationsguide när du väljer att slutföra installationen och köra full synkronisering i slutet.  
 
     När den matchande kopplingsmetoden startas från sidan **Dataverse Fullständig synk.granskning** schemaläggs ett kopplingsjobb direkt efter att du har slutfört konfigurationen.  
 * Listan **integreringstabellens mappningslista** list.  

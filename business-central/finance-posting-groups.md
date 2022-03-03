@@ -2,7 +2,6 @@
 title: Konfiguration av bokföringsmall
 description: Översikt av bokföringsmallar som du kan använda för att spara tid och för att undvika misstag när du bokför transaktioner.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 01/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c67b5cf378b959228edb52d4f5331cde5a063b89
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: ca9ec4e9d0e07306181e86d287e61747d34892a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029200"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128851"
 ---
 # <a name="set-up-posting-groups"></a>Konfigurera bokföringsmallar
 
@@ -50,7 +49,7 @@ I tabellen nedan beskrivs de bokföringsmallar som är specifika för datatyper.
 | Leverantörsbokföringsmallar |Definiera var transaktioner för leverantörsreskontrakonton, serviceavgiftskonton och kassarabattskonton ska bokföras. Detta liknar kundbokföringsmallar. Ställ in dessa på sidan **Leverantörsbokföringsmallar**. |
 | Lagerbokföringsmallar |Definiera lagerbokföringsmallar som du sedan tilldelar motsvarande artikelkonton på sidan **Lagerbokföringsinställning**. På så sätt bokför systemet till det redovisningskonto som har angetts för den kombination av lagerbokföringsmall och lagerställe som har kopplats till artikeln, när du bokför transaktioner avseende artikeln. Med lagerbokföringsmallar kan du även på ett utmärkt sätt organisera ditt lager. När du genererar rapporter kan du separera artiklar efter deras bokföringsmallar. Ställ in dessa på sidan **Lagerbokföringsmallar**. |
 | Bokföringsmallar för bankkonto |Definiera redovisningskonton som bank-kontotransaktioner bokförs på. Detta kan till exempel förenkla processer för att spåra transaktioner och stämma av bankkonton. Ställ in dessa på sidan **Bokföringsmallar för bankkonto**. Vi rekommenderar att redovisningskontona har fältet **Direkt bokföring** inställt på *Nej*. |
-| Bokföringsmallar för anläggningstillgångar |Definiera konton för olika typer av utgifter och kostnader som t. ex. förvärvskostnader, ackumulerade avskrivningsbelopp, förvärvskostnader vid avyttring, ackumulerad avskrivning vid avyttring, vinster vid avyttring, förluster vid avyttring, underhållskostnader och avskrivningsutlägg. Ställ in dessa på sidan **Anl. bokföringsmallar**. |
+| Bokföringsmallar för anläggningstillgångar |Definiera konton för olika typer av utgifter och kostnader som t. ex. förvärvskostnader, ackumulerade avskrivningsbelopp, förvärvskostnader vid avyttring, ackumulerad avskrivning vid avyttring, vinster vid avyttring, förluster vid avyttring, underhållskostnader och avskrivningsutlägg. Ställ in dessa på sidan **Anl.bokföringsmallar**. |
 
 ## <a name="tax-posting-groups"></a>Momsbokföringsmallar
 

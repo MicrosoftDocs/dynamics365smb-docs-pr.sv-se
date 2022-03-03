@@ -2,7 +2,6 @@
 title: Skriva ut en plockningslista från en försäljningsorder
 description: Du kan skriva ut en lagerplocklista direkt från en försäljningsorder, försäljningsfaktura och andra utgående försäljningsdokument.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e42008912079eafeaa037f7759a50a2c76393edb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436832"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130104"
 ---
 # <a name="print-the-picking-list"></a>Skriv ut plocklistan
 

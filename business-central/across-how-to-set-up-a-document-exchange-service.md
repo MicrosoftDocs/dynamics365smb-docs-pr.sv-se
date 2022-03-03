@@ -2,7 +2,6 @@
 title: Så här konfigurerar du en dokumentväxlingstjänst | Microsoft Docs
 description: Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med dina handelspartner.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: eea1b946814803c1f05d5b4985d3c5330931fbc6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588757"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133388"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurera en tjänst för dokumentutbyte
 Som en del av Ramverk för dataintegration kan du utbyta försäljnings- och inköpsdokument med dina handelspartner utan extra instruktioner, till exempel bifoga dokumenten till e-postmeddelanden som PDF-filer. När du är klar att fakturera en kund kan du t.ex. bokföra fakturan och skicka den som en fil som kan tas emot av en kund i ett företagshanteringsprogram. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).

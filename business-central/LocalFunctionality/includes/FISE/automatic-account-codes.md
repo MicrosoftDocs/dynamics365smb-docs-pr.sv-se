@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 50ce5f5bc4ca5ce0198030fd0c0b663453e09666
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a6607eb78609c740287a3935ce243d0b6d8c5ef5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774392"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129360"
 ---
 Du kan använda anpassade bokföringsmallar om du vill automatisera återkommande transaktioner i journaler, försäljningsdokument eller inköpsdokument. Dessa bokföringsmallar kan du använda i hela [!INCLUDE[prod_short](../../../includes/prod_short.md)] för att utlösa automatisk bokföring och fördelningar på olika konton eller dimensioner.  
 

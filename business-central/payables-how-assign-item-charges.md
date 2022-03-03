@@ -2,7 +2,6 @@
 title: Tilldela artikelomkostnader till försäljning och inköp (innehåller video)
 description: Tilldela artikelavgifter när du behöver lagervaror för att bära extra kostnader, till exempel frakt och fysisk hantering som du ådrar dig när du köper eller säljer föremål.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 6cfebffb12eb2cd7ffa84e12a07c01968c429069
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953240"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145608"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
 Om du vill säkerställa korrekt värderingmåste dina lagerartiklar läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar. För inköp kommer lossningsavgiften för en inköpt artikel bestå av leverantörens inköpspris och samtliga artikelomkostnader som kan kopplas till enskilda inleveranser eller returutleveranser. För försäljning kan det vara lika betydelsefullt för företaget att känna till leveranskostnader för sålda artiklar som att veta inköpskostnader inklusive hemtagningskostnader för inköpta artiklar.

@@ -2,7 +2,6 @@
 title: Så här skapar du serviceorder
 description: Ta reda på de olika uppgifter som är förknippade med att skapa serviceorder i Business Central till exempel skapa en ny serviceorder eller order utifrån ett servicekontrakt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: adac8451aadd5aa5d6c772b16baefe60dea317b1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d74aa4a4898010f4aeb3adfee37f4628dbea1f30
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441941"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140637"
 ---
 # <a name="create-service-orders"></a>Skapa tjänsteorder
 Du kan använda sidan **Tjänsteorder** för att skapa dokument där du anger information om service, som reparation och underhåll, på serviceartiklar efter kundkrav.  
@@ -52,7 +51,7 @@ Du kan automatiskt skapa serviceorder för underhåll av serviceartiklar baserat
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Så här omvandlar du serviceofferter till serviceorder
 När en kund har accepterat en serviceoffert kan du omvandla den till en serviceorder. Offerten tas bort från fönstret och en ny serviceorder skapas med samma beskrivning som serviceofferten. Svarsdatum och svarstid räknas om för serviceordern och dess status anges som **Förestående**. Reparationsstatus för serviceartiklarna i ordern ändras till **Initial**.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] En sökning görs efter  för alla serviceartiklar i serviceofferten som har statusen **Aktiv**. Om sådana fördelningstransaktioner hittas ändras deras fördelningsstatus till **Omfördelning nödvändig**. När du omfördelar serviceartiklarna på serviceordern ändras status för de fördelningstransaktioner som är registrerade för offerten till **Avslutad**.   
+[!INCLUDE[prod_short](includes/prod_short.md)] En sökning görs efter för alla serviceartiklar i serviceofferten som har statusen **Aktiv**. Om sådana fördelningstransaktioner hittas ändras deras fördelningsstatus till **Omfördelning nödvändig**. När du omfördelar serviceartiklarna på serviceordern ändras status för de fördelningstransaktioner som är registrerade för offerten till **Avslutad**.   
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Servicekontraktsofferter** och väljer sedan relaterad länk.  
 2. Välj den serviceoffert som du vill omvandla till en serviceorder.  

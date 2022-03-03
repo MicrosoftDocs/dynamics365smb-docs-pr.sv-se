@@ -2,7 +2,6 @@
 title: Planera med och utan lagerställen.
 description: I det här avsnittet lär du dig om produktion och tillverkning, inklusive leveransplanering, i Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: fa1b63bb94152c130077907dbe2d4e0d08281f40
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: 27f9b5002d96d55121272f992f58c9cf9748111f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6635997"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137477"
 ---
 # <a name="planning-with-or-without-locations"></a>Planera med och utan lagerställen.
 Vid planering med eller utan lagerställekod på behovsrader, fungerar planeringssystemet på ett okomplicerat sätt när:  
@@ -68,7 +67,7 @@ Se variationerna i scenarierna nedan.
 >
 > Du kan också definiera detta för en viss lagerställeenhet genom att välja en annan lagerställekod i fältet **Komponenter på lagerställe** på lagerställeenhetskortet. Observera dock att detta sällan har någon betydelse eftersom planeringslogiken kan komma att förvridas när du planerar för komponenten Lagerställeenhet.
 
-Ett annat viktigt fält är fältet **Max. orderantal** på **artikelkortet**. Detta anger en högsta tillåten kvantitet för ett artikelorderförslag och används om artikeln levereras i en fast transportenhet - t. ex. en container - som du vill utnyttja fullt ut. När behovet av återanskaffning har identifierats och partistorleken har justerats efter den angivna policyn för beställning, minskas antalet så att det högst uppgår till den största orderstorlek som anges för artikeln. Om ytterligare behov kvarstår beräknas nya order automatiskt för att uppfylla dem. Du använder vanligen detta fält med produktionsprincipen Tillverka-Mot-Lager.  
+Ett annat viktigt fält är fältet **Max. orderantal** på **artikelkortet**. Detta anger en högsta tillåten kvantitet för ett artikelorderförslag och används om artikeln levereras i en fast transportenhet – t. ex. en container – som du vill utnyttja fullt ut. När behovet av återanskaffning har identifierats och partistorleken har justerats efter den angivna policyn för beställning, minskas antalet så att det högst uppgår till den största orderstorlek som anges för artikeln. Om ytterligare behov kvarstår beräknas nya order automatiskt för att uppfylla dem. Du använder vanligen detta fält med produktionsprincipen Tillverka-Mot-Lager.  
 
 ## <a name="demand-at-blank-location"></a>Behov vid tomt lagerställe  
 Även om kryssrutan **Lagerställe** är markerat, tillåter systemet att rader skapas utan lagerställekod – vilka också kallas för *TOM*. Detta är en avvikelse för systemet eftersom det har olika konfigurationsvärden som har justerats till att hantera lagerställen (se ovan) och därför kommer planeringsmotorn inte att skapa någon planeringsrad för en behovsrad. Om fältet **Lagerställe ska finnas** inte är markerat men om något av de andra konfigurationsvärdena för lagerstället har angetts, betraktas även detta som en avvikelse och planeringssystemet reagerar genom att skicka ut "minimialternativet":   

@@ -4,7 +4,6 @@ description: Innehåller uppgifter för att se till att du levererar kvalitetsse
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011977"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128516"
 ---
 # <a name="delivering-service"></a>Leverera service
 I [!INCLUDE[prod_short](includes/prod_short.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  

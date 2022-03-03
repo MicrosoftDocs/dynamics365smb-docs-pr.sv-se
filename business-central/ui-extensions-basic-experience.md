@@ -2,7 +2,6 @@
 title: Basic Experience-tillägg | Microsoft Docs
 description: Detta tillägg är ett modernt alternativ till Microsoft Dynamics C5.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 19e784695c3864642dd13460e1cb93f6f58d706d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b423ce61a5bc8a7f5c580d0b4f3348792c4b02ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784796"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132478"
 ---
 # <a name="the-basic-experience-extension"></a>Basic Experience-tillägget
 Om du har använt Microsoft Dynamics C5 kan Microsoft-partner hjälpa dig ta steget över till en mer modern lösning som baseras på [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan fortsätta avnjuta samma effektiviserade möjligheter som Dynamics C5.
@@ -50,6 +49,6 @@ Det här tillägget skiljer sig från de flesta, och du behöver hjälp från en
 Ta med dina Dynamics C5-data. När din Microsoft-partner har installerat Basic Experience-tillägget får du ett tomt företag. Ett enkelt sätt att flytta data från Dynamics C5 till Basic Experience är att använda tillägget C5 för datamigrering, som ingår i [!INCLUDE[prod_short](includes/prod_short.md)]. Tillägget flyttar kunder, leverantörer, artiklar, dina redovisningskonton och transaktioner däri.
 
 ## <a name="see-also"></a>Se även
-[Tillägget C5 Datamigrering ](ui-extensions-c5-data-migration.md)
+[Tillägget C5 Datamigrering](ui-extensions-c5-data-migration.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

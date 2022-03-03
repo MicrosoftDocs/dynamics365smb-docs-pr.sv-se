@@ -2,7 +2,6 @@
 title: Monteringshantering
 description: Stödja företag som levererar produkter till kunderna genom att kombinera komponenter i enkla processer utan att ha behov av produktionsfunktioner.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d1b879eeabfb42298bb1bf8a10d3b53870da3aa7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326369"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130650"
 ---
 # <a name="assembly-management"></a>Monteringshantering
 För att hantera företag som levererar till produkter till kunder genom att slå ihop komponenter i enkla processer utan behov av produktionsfunktionen, innehåller [!INCLUDE[prod_short](includes/prod_short.md)] funktionen för att sammanställa artiklar som integreras med befintliga funktioner, till exempel försäljning, planering, reservationer och lagerhantering.  

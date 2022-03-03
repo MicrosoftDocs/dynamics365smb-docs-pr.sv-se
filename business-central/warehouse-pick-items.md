@@ -2,7 +2,6 @@
 title: Plocka artiklar
 description: Aktiviteten att plocka artiklar innan de har levererats eller förbrukats utförs på olika sätt beroende på hur lagerstyrningsfunktionerna har konfigurerats.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 10b5c682fa5237aa49152306698c17dad247e664
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9933982018e274b2ea84d568d56fee0d3aee73d3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970758"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139076"
 ---
 # <a name="pick-items"></a>Plocka artiklar
 
@@ -48,7 +47,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in Warehouse Management](warehouse-setup-warehouse.md)
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md) 
 [Monteringshantering](assembly-assemble-items.md)
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

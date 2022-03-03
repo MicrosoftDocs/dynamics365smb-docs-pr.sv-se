@@ -2,7 +2,6 @@
 title: Så här plockar du artiklar med Lagerplockning
 description: Om det lagerställe som du vill plocka från har konfigurerats så att plockbehandling krävs men inte leveransbearbetning, använder du lagerplockningsdokument för att registrera och bokföra plocknings- och leveransinformation för dina källdokument.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05bd840f0e4db2f383544b99d3edc26a443f423b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b0f0bf09670620a36ee696fdc9d1483a2c33f77b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438213"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144339"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plocka artiklar med lagerplockning
 

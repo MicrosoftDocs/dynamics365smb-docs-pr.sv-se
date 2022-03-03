@@ -2,7 +2,6 @@
 title: Skapa artikelattribut och koppla dem till artiklar
 description: Beskriver hur du ställer in artikelattributvärden, till exempel som kan användas som sökord och tilldela dem till artiklar och artikelkategorier.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: categories, search words, facets
 ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d2c8eec702840e6046eab362a867317091a9c3aa
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 73ee4d6e2c8a2630e75ff2ccb1210c46c58b4ba3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059366"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130378"
 ---
 # <a name="work-with-item-attributes"></a>Arbeta med artikelattribut
 När kunder gör förfrågningar om en artikel, antingen i motsvarande fält eller via en integrerad webbutik kan kunden fråga eller söka efter egenskaper som till exempel höjd och modellår. För att tillhandahålla denna kundservice kan du tilldela artikelattributvärden av andra typer till artiklarna, som sedan kan användas när du söker efter artiklar.

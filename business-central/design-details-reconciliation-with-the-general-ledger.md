@@ -2,7 +2,6 @@
 title: 'Designdetaljer: Avstämning med redovisningen | Microsoft Docs'
 description: Det här avsnittet beskriver avstämning med redovisningen när du bokför lagertransaktioner, till exempel försäljningsutleveranser, produktionsutflöde eller negativa justeringar.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442341"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145842"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstämning med redovisningen
 När lagertransaktioner bokförs till exempel utleveranser, produktionsutflöde eller negativa justeringar registreras antals- och värdeändringarna i lagret i artikeltransaktionerna respektive värdetransaktionerna. Nästa steg i processen går ut på att bokföra lagervärdena på redovisningens lagerkonton.  

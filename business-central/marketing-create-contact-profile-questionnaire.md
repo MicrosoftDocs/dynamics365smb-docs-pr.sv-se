@@ -2,7 +2,6 @@
 title: Profiler för klassificering av kontakter
 description: Läs om hur du ställer in profil frågeformulär för att hjälpa till att klassificera affärskontakternas profiler.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588532"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140871"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Använda profilfrågeformulär för att klassificera affärskontakter
 Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter om kontakternas profiler. I varje frågeformulär kan du skapa frågor som du vill ställa till kontakterna.  

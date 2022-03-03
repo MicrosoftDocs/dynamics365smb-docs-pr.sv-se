@@ -2,7 +2,6 @@
 title: Skaffa Business Central på din mobila enhet (innehåller video)
 description: I det här avsnittet beskrivs de olika sätt som du kan visa och redigera Business Central-data, skicka till Excel med mera på din telefon eller surfplatta.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,16 +9,16 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940082"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138472"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobila enhet
 
-Komma åt [!INCLUDE[prod_short](includes/prod_short.md)] från en mobil enhet. Du kan navigera genom dina affärsdata, använda funktioner som till exempel skicka till Excel eller Microsoft 365, visa aktuella diagram och KPI:er, e-posta försäljningsofferter och fakturor och ta och bifoga bilder med din kamera. Följ stegen nedan för att hämta programmet och komma igång.
+Komma åt [!INCLUDE[prod_short](includes/prod_short.md)] från en mobil enhet. Du kan navigera genom dina affärsdata, använda funktioner som till exempel Skicka till Excel eller Microsoft 365, visa aktuella diagram och KPI-er, e-posta försäljningsofferter och fakturor, samt ta och bifoga bilder med din kamera. Följ stegen nedan för att hämta programmet och komma igång.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 

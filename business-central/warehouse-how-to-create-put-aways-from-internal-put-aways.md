@@ -2,7 +2,6 @@
 title: Skapa artikelinförslar från intern artikelinförsel
 description: I det här avsnittet beskrivs hur du plockar och inför artikelinförsel utan källdokument, hur du skapar en intern plockning och hur du skapar en intern artikelinförsel.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 198c4fb8ead4179667e35957046b3446ce5d8065
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444186"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140091"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plocka och lagra utan källdokument
 När artiklar har förts in och innan de plockas till en produktionsorder eller utleverans, förvaras de i distributionslagret som en del av det disponibla lagersaldot.  
@@ -47,7 +46,7 @@ På samma sätt kan artiklar returneras till distributionslagret för artikelinf
 4. Fyll i en rad för varje artikel som du vill flytta till distributionslagerstället. Du behöver endast fylla i fälten **Artikelnr** och **Antal**.
 
   > [!NOTE]  
-  > När du väljer fältet **Artikelnr.** öppnas **Lista för lagerplatsinnehåll** istället för **Artikellistan**. Detta beror på att du vill föra in en artikel som finns på en viss lagerplats - ett *lagerplatsinnehåll* - och inte bara en artikel, och du vet redan vilken lagerplats som artikeln ska tas ifrån.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
+  > När du väljer fältet **Artikelnr.** öppnas **Lista för lagerplatsinnehåll** istället för **Artikellistan**. Detta beror på att du vill föra in en artikel som finns på en viss lagerplats – ett *lagerplatsinnehåll* – och inte bara en artikel, och du vet redan vilken lagerplats som artikeln ska tas ifrån.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
 5. Om du vill fylla raderna med hela lagerplatsinnehållet eller det filtrerade lagerplatsinnehållet från lagerplatser på platsen, väljer du åtgärden **Hämta lagerplatsinnehåll**.  
 6. Välj åtgärden **Skapa artikelinförsel**. En artikelinförselinstruktion är nu klar att utföras av lagerpersonalen. Alternativt kan du välja åtgärden **Frisläppning** och skapa distributionslagerinförslar med hjälp av **Artikelinförselförslag**. Mer information finns i [Planera artikelinförslar i kalkylark](warehouse-how-to-plan-put-aways-in-worksheets.md)
 

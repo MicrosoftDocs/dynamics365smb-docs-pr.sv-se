@@ -2,7 +2,6 @@
 title: Designdetaljer – Söka efter dimensionskombinationer | Microsoft Docs
 description: När du stänger en sida efter att ha redigerat en uppsättning dimensioner utvärderar Business Central huruvida den redigerade uppsättningen dimensioner finns. Om uppsättningen inte finns skapas en ny uppsättning och dimensionskombinationens ID returneras.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: c93bf82f92a5e24e023bd59033c31877ab72993b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 67aa9c5a7b56b00e49573b5232045f032db178c3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444286"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145816"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Söka efter dimensionskombinationer
 När du stänger en sida när du har redigerat en uppsättning med dimensioner utvärderar [!INCLUDE[prod_short](includes/prod_short.md)] om den redigerade uppsättningen med dimensioner finns. Om uppsättningen inte finns skapas en ny uppsättning och dimensionskombinationens ID returneras.  
@@ -48,7 +47,7 @@ När du stänger en sida när du har redigerat en uppsättning med dimensioner u
  ![Exempel på en dimensionsträdsstruktur i NAV 2013.](media/nav2013_dimension_tree_example2.png "Exempel på en dimensionsträdsstruktur i NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Hitta dimensionsuppsättnings-ID  
- På en begreppsmässig nivå kombineras **Överordnat ID**, **Dimension**, och **Dimensionsvärde**,  i sökträdet, och används som primärnyckel eftersom [!INCLUDE[prod_short](includes/prod_short.md)] korsar trädet i samma ordning som dimensionstransaktionerna. Funktionen GET (record) används för att söka efter dimensionuppsättnings-ID. Följande kodexempel visar hur du hittar dimensionsuppsättning-ID när det finns tre dimensionsvärden.  
+ På en begreppsmässig nivå kombineras **Överordnat ID**, **Dimension**, och **Dimensionsvärde**, i sökträdet, och används som primärnyckel eftersom [!INCLUDE[prod_short](includes/prod_short.md)] korsar trädet i samma ordning som dimensionstransaktionerna. Funktionen GET (record) används för att söka efter dimensionuppsättnings-ID. Följande kodexempel visar hur du hittar dimensionsuppsättning-ID när det finns tre dimensionsvärden.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  

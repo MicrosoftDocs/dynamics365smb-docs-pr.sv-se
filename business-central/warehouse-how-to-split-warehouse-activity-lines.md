@@ -2,7 +2,6 @@
 title: 'SÅ här: Dela Dist.lageraktivitetsrader'
 description: Läs om hur du delar upp lageraktivitetsrader om den tillgängliga kapaciteten på en föreslagen lagerplats inte är tillräcklig.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 46ac47dbf3b1df3f89b83c56215831100edb3827
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b7a035fd6ac2b2af6e7ceb4db63edfa66531848d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325249"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134607"
 ---
 # <a name="split-warehouse-activity-lines"></a>Dela rader för dist.lageraktivitet
 I distributionslagerartikelinförslar, -transporter och -plockningar, samt i lagerartikelinförslar och lagerplockningar, föreslås lagerställen för plockning och införsel av artiklar. det faktiska antalet på den lagerplats som föreslås kanske inte räcker, eller också finns det inte tillräckligt mycket plats på den föreslagna lagerstället för införsel av det aktuella antalet. I så fall måste du dela upp raden, så att artiklarna på en rad tas från, eller placeras på, fler än en lagerplats.  

@@ -2,7 +2,6 @@
 title: Tillägget Image Analyzer
 description: Detta tillägg låter dig analysera bilder av kontaktpersoner och artiklar för att söka efter egenskaper, så att du snabbt kan tilldela dem i Business Central.
 author: brentholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,18 +9,18 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: c2726efed6050dd4a2ada5e3056d446e16fb4e5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 65ec760458f1a30ef4810acdff01ebd9e0a699b2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435000"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140429"
 ---
 # <a name="the-image-analyzer-extension"></a>Tillägget Image Analyzer
 
 Tillägget Image Analyzer använder kraftfulla bildanalyser från Computer Vision API för Azure Cognitive Services för att identifiera attribut i bilder du importerar för artiklar och kontaktpersoner, så att du lätt kan gå igenom och tilldela dem. För artiklar, kan attribut vara om artikel är en tabell eller en bil eller om den är röd eller blå. För kontaktpersoner kan attribut vara kön och ålder.
 
-Image Analyzer föreslår attribut baserat på etiketter som  Computer Vision API hittar och konfidensnivå. Som standard föreslås attribut endast om det är minst 80 % till att attributet är korrekt. Du kan ange en annan konfidensintervall, om det behövs. Mer information om hur etiketter och konfidensnivå fastställs finns [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
+Image Analyzer föreslår attribut baserat på etiketter som Computer Vision API hittar och konfidensnivå. Som standard föreslås attribut endast om det är minst 80 % till att attributet är korrekt. Du kan ange en annan konfidensintervall, om det behövs. Mer information om hur etiketter och konfidensnivå fastställs finns [Computer Vision API](https://go.microsoft.com/fwlink/?linkid=851476).  
 
 Image Analyzer är gratis [!INCLUDE[prod_short](includes/prod_short.md)], men det finns en gräns för hur många artiklar som du kan analysera under en viss tidsperiod. Som standard kan du analysera 100 bilder per månad.
 

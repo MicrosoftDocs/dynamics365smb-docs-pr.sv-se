@@ -2,7 +2,6 @@
 title: Definiera hur data överförs elektroniskt | Microsoft Docs
 description: Använd en extern leverantör för OCR-tjänster för att omvandla PDF- eller bildfiler till elektroniska dokument.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba59e1164dbbe4cdd95cca31687b63db2af8018c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774692"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129239"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegreringsdefinitioner
 Du kan konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för utbyte av data i vissa tabeller mot data i externa filer, till exempel för att skicka och ta emot elektroniska dokument, importera och exportera bankdata eller övriga data som löneutbetalningar, valutakurser och artikelkataloger. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  

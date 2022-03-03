@@ -2,7 +2,6 @@
 title: Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 description: Du kan ändra beloppet som ska faktureras per år för servicekontraktet eller kontraktsofferten.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c131e7b93a73bbcc0a7977f11e70518961b77134
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436457"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134957"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ändra det årliga beloppet på servicekontrakt eller kontraktofferter
 Du kan ändra det årliga beloppet på ett servicekontrakt eller en kontraktsoffert om du vill korrigera det årliga faktureringsbeloppet.  
@@ -99,7 +98,7 @@ Om du ändrar **Årligt belopp** till 60, beräknas procentuella TG för varje k
 * Artikel 2 –5.1 / (5 + 5,1 +12,7) = 0,2237  
 * Artikel 3 – 12,7 / (5 + 5,1 + 12,7) = 0,557  
 
-Därefter uppdateras värdet i fältet **Radbelopp** på varje kontraktsrad med hjälp av formeln: Radbelopp = Radbelopp +  skillnaden mellan nya och beräknade årliga belopp ×  Procentuellt bidrag. Sedan uppdateras värdena i fälten **Radrabattbelopp**, **Radrabatt %** och **Vinst** med hjälp av formlerna i den process som beskrivs ovan.  
+Därefter uppdateras värdet i fältet **Radbelopp** på varje kontraktsrad med hjälp av formeln: Radbelopp = Radbelopp + skillnaden mellan nya och beräknade årliga belopp × Procentuellt bidrag. Sedan uppdateras värdena i fälten **Radrabattbelopp**, **Radrabatt %** och **Vinst** med hjälp av formlerna i den process som beskrivs ovan.  
 
 Slutligen innehåller kontraktsraderna följande information.  
 
@@ -137,7 +136,7 @@ Fältvärdet för **Årligt belopp** är lika med innehållet i fältet **Beräk
 * Artikel 2 –5.1 / (5 + 5,1 +12,7) = 0,2237  
 * Artikel 3 – 12,7 / (5 + 5,1 + 12,7) = 0,557  
 
-Därefter uppdateras värdet i fältet **Radbelopp** på varje kontraktsrad med hjälp av formeln: Radbelopp = Radbelopp +  skillnaden mellan nya och beräknade årliga belopp ×  Procentuellt bidrag. Sedan uppdateras värdena i fälten **Radrabatt**, **Radrabatt %**  och **TB** med hjälp av formlerna i steg 3 i den process som beskrivs ovan.  
+Därefter uppdateras värdet i fältet **Radbelopp** på varje kontraktsrad med hjälp av formeln: Radbelopp = Radbelopp + skillnaden mellan nya och beräknade årliga belopp × Procentuellt bidrag. Sedan uppdateras värdena i fälten **Radrabatt**, **Radrabatt %**  och **TB** med hjälp av formlerna i steg 3 i den process som beskrivs ovan.  
 
 Slutligen innehåller kontraktsraderna följande information.  
 

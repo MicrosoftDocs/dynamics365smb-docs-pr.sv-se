@@ -2,7 +2,6 @@
 title: Registrera försäljningspriser och rabatter för kunder | Microsoft Docs
 description: Beskriver hur du lägger upp och använder pris-och rabattavtal för försäljningsdokument.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: b62fd6f0c8bb7351b873ebe4a3f257406a827d79
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865552"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137035"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Registrera försäljningspriser och rabatter
 > [!NOTE]
@@ -121,7 +120,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 ## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)  
 
-Om du vill kopiera försäljningspriser - till exempel en viss kunds försäljningspriser - och använda dem för en kundprisgrupp, måste du köra **Föreslå förs.pris i förslag**. batch-jobbet på sidan **Försäljningsprisförslag**.  
+Om du vill kopiera försäljningspriser – till exempel en viss kunds försäljningspriser – och använda dem för en kundprisgrupp, måste du köra **Föreslå förs.pris i förslag**. batch-jobbet på sidan **Försäljningsprisförslag**.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsprisförslag** och väljer sedan relaterad länk.  
 2. Välj **Föreslå förs.pris i ändringsformulär** .  

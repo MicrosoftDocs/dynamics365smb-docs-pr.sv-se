@@ -2,7 +2,6 @@
 title: Ändra vilka funktioner som visas
 description: Lär dig vad användarupplevelsernivåerna Essential och Premium betyder för användargränssnitt, moduler och ditt företag.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7b27d39997e0adccc6b27ec91386741620d27b8
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029120"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130021"
 ---
 # <a name="change-which-features-are-displayed"></a>Ändra vilka funktioner som visas
 [!INCLUDE[prod_short](includes/prod_short.md)] är utformat för att hjälpa dig att driva företaget oavsett storlek och komplexitet. I produktens kärna finns viktiga funktioner, till exempel ekonomisk rapportering, försäljning, inköp och lagerhantering. När affärs komplexiteten ökar kan du t. ex. aktivera funktioner för produktion och tjänsthantering.

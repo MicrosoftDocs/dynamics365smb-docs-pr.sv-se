@@ -2,7 +2,6 @@
 title: Så här konfigurerar du nya företag | Microsoft Docs
 description: Du kan konfigurera och anpassa ett nytt företag som du har skapat. Om du vill finjustera implementeringen fortsätter du i tre faser för att slutföra konfigurationen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7a71e6611d78555d4be266e2b972152e5c43857
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0964028b7d6e711e48e1361950d1ec6b4e14425
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439691"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130806"
 ---
 # <a name="configure-new-companies"></a>Konfigurera nya företag
 Om du vill konfigurera ett nytt företag i din lösningsimplementering följer du vanligtvis tre faser. I den första fasen importerar du ett konfigurationspaket som är en .rapidstart-fil med konfigurationsinformation. I den andra fasen ändrar du konfigurationsinformationen och tillämpar den sedan i det nya företaget. I slutfasen granskar du och rättar eventuella fel.  

@@ -2,7 +2,6 @@
 title: Så här begränsar och tillåter du användning av en post
 description: Om du vill begränsa en post från att användas, kan du inkorporera två arbetsflödesvar i ett arbetsflöde som kontrollerar användningen av posten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: bd7382730a70295693a9feb70ff67d9fb6344717
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5382a05668e3dfcb02534788de607473494bafd2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438313"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134284"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Begränsa och tillåt användningen av en post
 Om du vill begränsa en post från att användas i vissa aktiviteter, till exempel tills posten har godkänts, kan du inkorporera två arbetsflödessvar i ett arbetsflöde som kontrollerar användningen av posten. Ett arbetsflödessvar ska begränsa användningen av posten enligt definitionen i arbetsflödeshändelsen och villkoren. Ett annat arbetsflödessvar ska tillåta användning av posten enligt definitionen i arbetsflödeshändelsen och villkoren. Två svar finns i den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] för detta ändamål: **Tillåt användning av en post** och **tillåt användningen av en post.**.

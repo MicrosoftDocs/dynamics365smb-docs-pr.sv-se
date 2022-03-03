@@ -2,7 +2,6 @@
 title: Flytta artiklar
 description: När artiklarna finns i lagret kanske de måste flyttas enligt de lageraktiviteter som håller igång artikelflödet genom lagret.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5712722f58523d372feb10710013fdbf53a464b2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 657e18389cb98474357124fb92053c9ba6abc7a7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971255"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129454"
 ---
 # <a name="moving-items"></a>Flytta artiklar
 
@@ -44,7 +43,7 @@ Lagerrelaterade uppgifter för inventering, justering och gruppering av artiklar
 
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in Warehouse Management](warehouse-setup-warehouse.md)
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md) 
 [Monteringshantering](assembly-assemble-items.md)
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

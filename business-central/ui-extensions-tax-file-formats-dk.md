@@ -4,7 +4,6 @@ description: Tillägget för skattefilformat gör det enkelt att exportera filer
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6a1b4794593534639109f002447f61d85ea14e8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b65d1ee627f4b6c440e1e0f1150fd0ecbdbedc43
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326594"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129870"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Tillägget för skattefilformat (DK)
 Om du handlar med företag eller interna filialer eller dotterbolag i andra EU-länder måste du rapportera information om aktiviteterna till SKAT och för Danmark statistik. Om du använder funktionerna för moms- och Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)] kan du med det här tillägget kontrollera att filen som du exporterar är kompatibel med kraven från dessa organisationer. Tillägget lägger till kodmoduler för exportfil för MS-ECSL-rapport och Intrastat-exportradöverföring till din momskonfiguration så att du kan exportera data i det nya formatet direkt.

@@ -2,7 +2,6 @@
 title: Omstrukturera lager
 description: Lär dig hur du omstrukturerar distributionslagret med nya lagerplatskoder och nya lagerplatsegenskaper för att uppnå eller upprätthålla en effektivare operation.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: fe027e43c91723c4e2a24d8afab373f2b96b07eb
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 97a8ff2971ca8cc6e34fb89cd5edbb092ac264a8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115236"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144287"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturera lager
 Du kanske vill omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper. Den typen av aktivitet utförs inte särskilt ofta, men det kan uppstå situationer när en omgruppering är nödvändig för att åstadkomma en effektivare drift. Som exempel:  

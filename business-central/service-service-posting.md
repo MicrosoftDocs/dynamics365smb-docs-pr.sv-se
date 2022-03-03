@@ -2,7 +2,6 @@
 title: Servicebokföring
 description: Funktionen för servicebokföring gör att du kan behandla dokumenten mer effektivt och upprätthålla en bra service till kunderna.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 54d1a7aec0edcedbdb69ab1c60c6d1515c9a22c7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443035"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143016"
 ---
 # <a name="service-posting"></a>Servicebokföring
 Funktionen för servicebokföring gör att du kan behandla dokumenten mer effektivt och upprätthålla en bra service till kunderna. Du kan skapa och uppdatera bokförda dokument och skapa transaktioner i modulen Service och i andra moduler så att informationen alltid är korrekt uppdaterad.  
@@ -40,7 +39,7 @@ Med alternativet leverera och fakturera kan du skapa både en serviceleverans oc
 Med det här leverans- och förbrukningsalternativet kan du registrera och bokföra artiklar, kostnader eller timmar som har använts för service men som inte kan tas med i fakturan till kunden. Ingen faktura skapas, men du kan skapa en serviceutleverans och en serviceförbrukning samtidigt om du vill visa att kunden har fått en del artiklar eller timmar utan kostnad. Motsvarande transaktioner skapas också för att registrera förbrukningen.  
 
 > [!NOTE]  
->  Med funktionen för servicebokföring kan du välja att utföra bokföringen delvis. Du kan skapa en delleverans eller en delfaktura genom att fylla i fältet **Ant. att utleverera** och **Ant. att fakturera** på var och en av  serviceraderna på dina serviceorder innan du bokför. Observera att det inte går att skapa en faktura för något som inte har levererats. Innan du fakturerar måste du alltså ha registrerat en leverans, eller så måste du leverera och fakturera samtidigt.  
+>  Med funktionen för servicebokföring kan du välja att utföra bokföringen delvis. Du kan skapa en delleverans eller en delfaktura genom att fylla i fältet **Ant. att utleverera** och **Ant. att fakturera** på var och en av serviceraderna på dina serviceorder innan du bokför. Observera att det inte går att skapa en faktura för något som inte har levererats. Innan du fakturerar måste du alltså ha registrerat en leverans, eller så måste du leverera och fakturera samtidigt.  
 
 När bokföringen har slutförts kan du visa de bokförda servicedokumenten från motsvarande sidor **Bokförd serviceleverans** och **Bokförd servicefaktura**. De bokförda transaktionerna som har skapats visas på de sidor som innehåller bokförda transaktioner, t. ex. **Redovisningstransaktioner**, **Artikeltransaktioner**, **Dist.lager transaktioner**, **Servicetransaktioner**, **Projekttransaktioner** och **Garantitransaktioner**.  
 

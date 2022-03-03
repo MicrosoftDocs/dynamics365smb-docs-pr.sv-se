@@ -1,7 +1,6 @@
 ---
 title: Ansluta dina data med Power Automate| Microsoft Docs
 description: Du kan göra dina Business Central-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa ett automatiskt arbetsflöde.
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 07/27/2021
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: fb79c3ab799c5a77ff725ce05d1469f5bec7c9f5
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 7335092e74c0f681ba14a81a7045f2688fbb1df4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688376"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133362"
 ---
 # <a name="using-prod_short-in-an-automated-workflow"></a>Använda [!INCLUDE[prod_short](includes/prod_short.md)] i ett automatiskt arbetsflöde
 

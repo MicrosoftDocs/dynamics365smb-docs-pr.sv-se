@@ -2,7 +2,6 @@
 title: Bokföra koncerninterna dokument och journaler
 description: Detta ämne förklarar hur du använder koncerninterna dokument eller journaler för att bokföra transaktioner med koncerninterna partner.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 610
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 903a0b1770bb29cb744f2aa8dc9510541ca7539c
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: ec02fa8000c9c16236430712a50dc1c0c064b24e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029410"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131795"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeta med koncerninterna dokument och journaler
 Du använder koncerninterna dokument eller journaler för att bokföra transaktioner med koncerninterna partner. När du bokför ett koncerninternt dokument eller journalrad i företaget skapas, skapas ett motsvarande dokument eller journalrad i din koncerninterna utkorg som du kan överföra till partnern. Partnern kan sedan bokföra den koncerninterna transaktionen i sitt företag utan att behöva registrera samma data på nytt.

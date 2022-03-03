@@ -2,7 +2,6 @@
 title: Söka efter kontakter från Microsoft Teams
 description: Mer information om hur du upprättar Business Central kunder, leverantörer och andra kontakter från Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5d6da7bb6f515fa7b65597c944694eba8dd7755c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440755"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138748"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams
 
@@ -55,7 +54,7 @@ Kommandorutan visas högst upp på varje skärm i Teams. Du kan söka, ta snabb 
 
 4. Om du vill lägga till kontaktkortet i en konversation går du till det övre högra hörnet på kortet, väljer **... (Fler alternativ)** > **Kopierar**. Klistra sedan in kopian i meddelanderutan i en konversation.  
 
-Mer allmän information om kommandorutan i Teams finns i [Teams - Använd kommandorutan](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
+Mer allmän information om kommandorutan i Teams finns i [Teams – Använd kommandorutan](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
 ## <a name="look-up-contacts-from-the-message-compose-box"></a>Slå upp kontakter från meddelanderutan
 

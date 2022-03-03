@@ -2,7 +2,6 @@
 title: Så här arbetar du med servicekontrakt och servicekontraktsofferter | Microsoft Docs
 description: 'Du kan skapa ett servicekontrakt manuellt eller utifrån en servicekontraktsoffert. Så här skapar du ett servicekontrakt eller en servicekontraktsoffert:'
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d011b97c81492af0ac796d08693084cf65bb7712
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0a9e90f19584e3586bac0cc80dac3b2cc0d9ce74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436382"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134905"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Så här arbetar du med servicekontrakt och servicekontraktsofferter
 Du kan skapa ett servicekontrakt manuellt eller utifrån en servicekontraktsoffert. Du kan använda en servicekontraktsoffert som förslag till ett servicekontrakt, där ditt företag lämnar en offert till kunden och får kundens godkännande innan du kan omvandla den till ett servicekontrakt. Det fungerar ungefär likadant om du vill skapa ett servicekontrakt eller en servicekontraktsoffert.  

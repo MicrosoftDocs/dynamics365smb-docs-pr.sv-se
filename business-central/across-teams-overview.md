@@ -2,7 +2,6 @@
 title: Översikt över Business Central- och Microsoft Teams-integrering | Microsoft Docs
 description: Dela Business Central-poster direkt i en Team-konversation.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011851"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138732"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central- och Microsoft Teams-integrering
 
@@ -53,9 +52,9 @@ Mer information finns i [Dela poster i Microsoft Teams](across-working-with-team
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Dela länkar från sidor i Business Central till Teams
 
-Direkt från de flesta samlings-och informationssidor i Business Central kan du använda åtgärden **Dela till Teams** från ![!ikonen Dela meny på sidor.](media/share-icon.png "Menyn Dela visas på ett kort.") Ikon för att skriva ett meddelande, välja mottagare, till exempel gruppmedlemmar, grupper eller kanaler, och skicka meddelandet med en länk till Business Central-sidan.
+Direkt från de flesta samlings-och informations sidor i Business Central kan du använda åtgärden **dela till Teams** från ![Ikonen Dela meny på sidorna](media/share-icon.png "Menyn Dela visas på ett kort."). Ikon för att skriva ett meddelande, välja mottagare, till exempel gruppmedlemmar, grupper eller kanaler, och skicka meddelandet med en länk till Business Central-sidan.
 
-![!Dela meny visas på ett kort.](media/teams-share-link.png "Menyn Dela visas på ett kort.")
+![Menyn Dela visas på ett kort.](media/teams-share-link.png "Menyn Dela visas på ett kort.")
 
 Mer information finns i [Dela poster och sidlänkar i Microsoft Teams](across-working-with-teams.md#share-link).
 

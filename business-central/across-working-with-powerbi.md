@@ -2,7 +2,6 @@
 title: Arbeta med Power BI-rapporter i Business Central| Microsoft Docs
 description: Hämta insikter, business intelligence och KPI:er från dina Business Central-data med hjälp av Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588332"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147170"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -42,7 +41,7 @@ Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste det
 
 Innan du kan använda Power BI med [!INCLUDE[prod_short](includes/prod_short.md)] måste du registrera dig för Power BI-tjänsten. Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) om du inte redan har registrerat dig. När du registrerar dig använder du din e-postadress för arbetet samt ditt lösenord.
 
-## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Anslut till Power BI - endast en gång
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Anslut till Power BI – endast en gång
 
 När du loggar in på [!INCLUDE [prod_short](includes/prod_short.md)] för första gången kan du komma att se en tom Power BI-del på olika sidor (som visas i föregående illustration). Det första du måste göra är att ansluta till ditt Power BI-konto. När du väl är ansluten kan du se rapporterna. Du behöver bara utföra detta steg en enda gång.
 

@@ -2,7 +2,6 @@
 title: Så här arbetar du med serviceuppgifter
 description: I det här avsnittet beskrivs olika sätt att arbeta med serviceuppgifter. Sidan Serviceuppgifter där du får en översikt över alla serviceartiklar som behöver åtgärdas.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4c6ee9aceb0282e417fe40aef2ae6f148df4c9d1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 2ca1e1d49c2d86219388493e32a1e97fd536ae96
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587665"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136827"
 ---
 # <a name="work-on-service-tasks"></a>Arbeta med tjänsteuppgifter
 När du har skapat en serviceorder eller serviceoffert, registrerat serviceartikelrader och fördelat resurser på orderns eller offertens serviceartiklar kan du börja reparera och underhålla serviceartiklarna.  

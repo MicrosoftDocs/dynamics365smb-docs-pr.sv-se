@@ -2,7 +2,6 @@
 title: Använda Word-mallar för masskommunikation | Microsoft Docs
 description: Med Word-mallar kan du enkelt skapa dokument som är anpassade för specifika entiteter.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c624d718d27de607aed49a82a506f81eec57247c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 9e87e86ea4f267bea0e636f16fab55ae485ee8cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588913"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145322"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Använda Word-mallar för masskommunikation
 Microsoft Word-mallar kan göra det enklare att kommunicera i skrivit eller e-post med enheter som kontakter, kunder och leverantörer. Du kan till exempel skapa broschyrer för att avisera kunder om en försäljningskampanj, brev för att informera leverantörer om nya inköpsprinciper eller inbjudningar till att locka kontakter till ett kommande evenemang.

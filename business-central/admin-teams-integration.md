@@ -2,7 +2,6 @@
 title: Hantera Microsoft Teams-integrering med Business Central| Microsoft Docs
 description: Hantera Business Central-integrering med Microsoft Teams.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589088"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147040"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -120,7 +119,7 @@ Du hindrar vissa användare eller grupper från att skicka kort till chattar ell
 
 Du kan också använda informationshinder för att förhindra att användare eller grupper kommunicerar med varandra. Mer information finns i [Informationshinder i Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Funktionerna för dataförlustskydd i säkerhets- och efterlevnadscentret för Microsoft 365r kan inte användas specifikt för kort. De kan emellertid tillämpas på de chattmeddelanden som innehåller korten. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
+Funktionerna för dataförlustskydd i säkerhets- och efterlevnadscentret för Microsoft 365 kan inte användas specifikt för kort. De kan emellertid tillämpas på de chattmeddelanden som innehåller korten. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Svara på dataförfrågningar
 

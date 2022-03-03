@@ -2,7 +2,6 @@
 title: Avskrivningsmetoder för anläggningstillgångar
 description: Lär dig mer om de olika inbyggda metoderna för att skriva av eller skriva ned anläggningstillgångar i standardversionen av Business Central som inkluderar åtta metoder.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
-ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
+ms.openlocfilehash: af6a19e55c339d7103e0e644368a30fd4a13a0a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343380"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136302"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder för anläggningstillgångar
 
@@ -76,7 +75,7 @@ Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Den beräkn
 
 För detta exempel ser anläggningstillgångstransaktionen ut så här:  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| Datum | Anl.bokföringstyp | Dagar | Belopp | Bokföringsvärde |
 | --- | --- | --- | --- | --- |
 | 20-01-01 |Anskaffningskostnad |(startdatum för avskrivning) |100,000.00 |100,000.00 |
 | 20-06-30 |Avskrivning |180 |-6 250,00 |93,750.00 |
@@ -104,7 +103,7 @@ Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i f
 
 Följande tabell visar hur anläggningstillgångstransaktionerna ser ut.  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| Datum | Anl.bokföringstyp | Dagar | Belopp | Bokföringsvärde |
 | --- | --- | --- | --- | --- |
 | 20-01-01 |Anskaffningskostnader |(startdatum för avskrivning) |100,000.00 |100,000.00 |
 | 20-06-30 |Avskrivning |180 |-12 500,00 |87,500.00 |
@@ -136,7 +135,7 @@ Med metoderna Degressiv 1 och Degressiv 2 beräknas samma totala avskrivningsb
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** är 25. Batch-jobbet **Beräkna avskrivning** körs två gånger per år. Så här ser anläggningstillgångstransaktionerna ut:  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| Datum | Anl.bokföringstyp | Dagar | Belopp | Bokföringsvärde |
 | --- | --- | --- | --- | --- |
 | 20-01-01 |Anskaffningskostnader |(startdatum för avskrivning)|100,000.00 |100,000.00 |
 | 20-06-30 |Avskrivning |180 |–13 397,46 |86,602.54 |
@@ -163,7 +162,7 @@ Avskrivningsvärdena är:
 | 20-06-30 |DA = 100 000,00 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 13 397,46 |
 | 20-12-31 |DA = 86 602,54 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 11 602,54 |
 | 21-06-30 |DA = 75 000,00 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 10 048,09 |
-| 21-12-31 |DA = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
+| 21-12-31 |DA = 64 951,91 x (1 – (1 – 0,25)<sup>0,5</sup>) = 8 701,91 |
 
 ## <a name="db1sl-depreciation"></a>DB1/SL Avskrivning
 
@@ -181,7 +180,7 @@ Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i f
 
 Så här ser anläggningstillgångstransaktionerna ut:  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| Datum | Anl.bokföringstyp | Dagar | Belopp | Bokföringsvärde |
 | --- | --- | --- | --- | --- |
 | 20-01-01 |Anskaffningskostnader |(startdatum för avskrivning) |100,000.00 |100,000.00 |
 | 20-06-30 |Avskrivning |180 |-12 500,00 |87,500.00 |
@@ -242,7 +241,7 @@ Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. **Avskrivni
 
 Så här ser anläggningstillgångstransaktionerna ut:  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| Datum | Anl.bokföringstyp | Dagar | Belopp | Bokföringsvärde |
 | --- | --- | --- | --- | --- |
 | 20-03-01 |Anskaffningskostnad |(startdatum för avskrivning) |100,000.00 |100,000.00 |
 | 20-12-31 |Avskrivning |270 |-10 000,00 |90,000.00 |
@@ -258,7 +257,7 @@ Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. **Avskrivni
 
 Så här ser anläggningstillgångstransaktionerna ut:  
 
-| Datum | Anl. bokföringstyp | Dagar | Belopp | Bokföringsvärde |
+| Datum | Anl.bokföringstyp | Dagar | Belopp | Bokföringsvärde |
 | --- | --- | --- | --- | --- |
 | 11-01-20 |Anskaffningskostnad |(startdatum för avskrivning) |100,000.00 |100,000.00 |
 | 20-12-31 |Avskrivning |60 |-20 000,00 |80,000.00 |

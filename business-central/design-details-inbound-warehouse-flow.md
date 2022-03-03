@@ -1,8 +1,7 @@
 ---
-title: Designdetaljer - inkommande distributionslagerflöde
+title: Designdetaljer – inkommande distributionslagerflöde
 description: Inkommande distributionslagerflöde startar när artiklar anländer till lagerstället för företaget. Artiklar registreras och till sist matchas mot ankommande källdokument.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441779"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132009"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: inkommande distributionslagerflöde
 Det inkommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Den anställde registrerar artiklarna, vanligtvis genom att skanna en streckkod. Från inleveransstället utförs lageraktiviteter på olika komplexitetsnivåer för att få artiklarna till lagringsområdet.  
@@ -95,7 +94,7 @@ När det inkommande källdokumentet bokförs skapas en förfrågan om lagerartik
 ### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generera rader med artikelinförselkalkylark (valfritt)  
 Användaren som är ansvarig för att koordinera artikelinförsel hämtar artikelinförselraderna för distributionslager i **Artikelinförsel kalkylark** baserat på bokförda distributionslagerinleveranser eller interna operationer med utförsel. Användaren väljer raderna som ska artikelinföras och förbereder artikelinförseln genom att ange vilka lagerställen att ta från, vilka lagerställen att placera i och hur många enheter som ska hanteras. Lagerställena kan fördefinieras av inställningarna för distributionslagerstället eller verksamhetsresursen.  
 
-När alla artikelinförslar har planerats och tilldelats till lagerarbetare genererar användaren artikelinförseldokumenten. Fullständigt tilldelade artikelinförselrader  tas bort från **Artikelinförsel kalkylark**.  
+När alla artikelinförslar har planerats och tilldelats till lagerarbetare genererar användaren artikelinförseldokumenten. Fullständigt tilldelade artikelinförselrader tas bort från **Artikelinförsel kalkylark**.  
 
 > [!NOTE]  
 >  Om fältet **Artikelinförsel kalkylark** inte har markerats på lagerställekortet skapas distributionslagerdokument för artikelinförsel direkt baserat på bokförda distributionslagerinleveranser. I så fall utelämnas moment 7.  

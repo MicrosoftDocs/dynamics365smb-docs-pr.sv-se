@@ -2,7 +2,6 @@
 title: Så här bokför du serviceorder
 description: När du har skapat en serviceorder, fyllt i all nödvändig information och gjort eventuella ändringar kan du bokföra serviceordern.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 08dba596c53186d734a9f30a760f1c69ef635f8b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a03fe49eac925022dc169746db35a51a3f522d3f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446103"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139241"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokföra tjänsteorder och kreditnotor
 När du har skapat en serviceorder, fyllt i all nödvändig information och gjort eventuella ändringar kan du bokföra serviceordern. Ordern måste innehålla åtminstone en serviceartikelrad och en servicerad innan du kan bokföra den. Om ordern innehåller mer än en servicerad bokförs alla rader samtidigt.  
