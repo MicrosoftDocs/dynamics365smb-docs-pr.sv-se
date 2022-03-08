@@ -2,19 +2,20 @@
 title: Designdetaljer – artikelkoppling | Microsoft Docs
 description: Det här avsnittet beskriver var lagerkvantitet och värdet registreras när du bokför en lagertransaktion.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 581ffdce943844d466adc6320fe32aaaa29138b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143562"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035488"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
 
@@ -136,7 +137,7 @@ I följande tabell visas resultatet av scenariot för artikelns värdetransaktio
 |01-01-20|Inköp|1|100,00||Nej|4|4|  
 |01-01-20|Försäljning|-2|-300.00||Ja|5|5|  
 
-Om användaren inte har gjort den fasta kopplingen mellan inköpskreditnotan och inköpet med den felaktiga direkta styckkostnaden (moment 2 i föregående scenario), så skulle kostnaden ha justerats på ett annat sätt.  
+Om användaren inte har gjort den fasta kopplingen mellan inköpskreditnotan och inköpet med den felaktiga direkta enhetskostnaden (moment 2 i föregående scenario), så skulle kostnaden ha justerats på ett annat sätt.  
 
 Följande tabell visar resultatet på artikelns värdetransaktioner om moment 2 i föregående scenario utförs utan en fast koppling.  
 
@@ -250,6 +251,3 @@ På grund av sättet som en artikels styckkostnad beräknas på kan en felaktig 
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

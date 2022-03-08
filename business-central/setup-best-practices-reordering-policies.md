@@ -1,20 +1,21 @@
 ---
-title: Skapa metodtips – partiformningsmetoder | Microsoft Docs
+title: Skapa metodtips - partiformningsmetoder | Microsoft Docs
 description: Partiformningsmetod-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 47c7add8c281a28c1b9beaecc18d28f5e1041a3c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142885"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912877"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Skapa metodtips: partiformningsmetoder
 **Partiformningsmetod**-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar.  
@@ -27,9 +28,9 @@ En grund för bästa metod för val av en partiformningsmetod är artikelns ABC-
 |B|20|20|
 |L|60-70|10-30|
 
-ABC-klassificeringen anger att insats och pengar kan sparas genom lösare kontroll av artiklar med låg värdevolym, än av artiklar med hög värdevolym. Illustrationen visar vilken partiformningsmetod i [!INCLUDE[prod_short](includes/prod_short.md)] som är bättre lämpade för A-, B- och C-objekt, respektive.
+ABC-klassificeringen anger att insats och pengar kan sparas genom lösare kontroll av artiklar med låg värdevolym, än av artiklar med hög värdevolym. Illustrationen visar vilken partiformningsmetod i [!INCLUDE[d365fin](includes/d365fin_md.md)] som är bättre lämpade för A-, B- och C-objekt, respektive.
 
-![ABC-klassificering.](media/abc_classification.png "abc_classification")
+![ABC-klassificering](media/abc_classification.png "abc_classification")
 
 I följande tabell visas bästa metod för att välja mellan de fyra regler.  
 
@@ -44,7 +45,4 @@ I följande tabell visas bästa metod för att välja mellan de fyra regler.
  [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)   
  [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

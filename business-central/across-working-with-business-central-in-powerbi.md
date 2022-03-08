@@ -2,6 +2,7 @@
 title: Arbeta med Business Central-data i Power BI| Microsoft Docs
 description: Använda insikter, business intelligence och KPI:er från dina Business Central-data med hjälp av Power BI.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142581"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786913"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
@@ -95,7 +96,7 @@ Om du vill dela en rapport väljer du **Dela** i en listrapport eller en öppen 
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

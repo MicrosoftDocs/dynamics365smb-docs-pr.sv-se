@@ -1,28 +1,31 @@
 ---
-title: Så här säljer du lagerartiklar i flöde för montering mot kundorder
-description: Om en artikel är inställd för montering mot kundorder måste artikeln vara monterad för försäljningsorder och en länkad monteringsorder skapas automatiskt.
+title: Så här säljer du lagerartiklar i flöde för montering mot kundorder | Microsoft Docs
+description: Om artikeln är inställd för kort med montering mot kundorder förutsätter standardprocessen för försäljningsorder att artikeln inte finns på lager och måste monteras för den specifika försäljningsordern. Därför skapas en kopplad monteringsorder automatiskt när du lägger till artikeln i en försäljningsorderrad.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 2d68bb10c6ff7d153417dbdc491dd8abd75b7adc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 98d5b9e7efb4d195512010d9c18f875c946bcef7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146988"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307666"
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Så här säljer du lagerartiklar i flöde för montering mot kundorder
+# <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Sälja lagerartiklar i flöden för montering mot kundorder
 Om fältet **Monteringsmetod** på en monteringsartikels artikelkort innehåller **Montering mot kundorder** förutsätter standardprocessen för försäljningsorder att artikeln inte finns på lager och måste monteras för den specifika försäljningsordern. Därför skapas en kopplad monteringsorder automatiskt när du lägger till artikeln i en försäljningsorderrad. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md). Men om en del av försäljningsorderantalet redan är tillgängligt i lagret kan du minska monteringsordersantalet genom att ändra i fältet **Antal att montera mot kundorder** på försäljningsorderraden.  
 
 Det här är sällsynt eftersom artiklar för montering mot kundorder alltid förväntas vara anpassade. Det är föga troligt att de finns i lagret i en konfigurering som begärts av en annan kund. Men om ett företag har antal för montering mot kundorder i lager på grund av returer eller orderannulleringar ska dessa plockas och säljas innan nya monteras.  
 
 > [!NOTE]  
->  Inga funktioner på försäljningsorder aviserar automatiskt eller hjälper till att dra av monteringsorderantal som redan är tillgängliga. Du måste i stället övervaka tillgänglighetsinformation, t. ex. som i faktaboxen **Försäljningsraddetaljer**.  
+>  Inga funktioner på försäljningsorder aviserar automatiskt eller hjälper till att dra av monteringsorderantal som redan är tillgängliga. Du måste i stället övervaka tillgänglighetsinformation, t.ex. som i faktaboxen **Försäljningsraddetaljer**.  
 
 Liknande funktioner finns tillgängliga när du säljer monteringsartiklar från lagret, och en del eller hela antalet är otillgängligt och kan levereras av en monteringsorder. Mer information finns i [Så här säljer du artiklar för montering mot kundorder och lagerartiklar ihop](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
@@ -32,7 +35,7 @@ Liknande funktioner finns tillgängliga när du säljer monteringsartiklar från
 I den här proceduren ersätter du antalet för montering mot kundorder med lagerantal på en försäljningsorderrad. I momenten ingår att undersöka tillgänglighet, dra av det aktuella antalet från kopplad monteringsorder, och sedan reservera den totala lagerkvantiteten så att den plockas och levereras för ordern.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Så här säljer du lagerartiklar i flöde för montering mot kundorder  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.  
 2.  Skapa en försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 3.  Ange det efterfrågade antalet på en försäljningsorderrad för en artikel för montering mot kundorder i fältet **Antal**.  
 4.  Fastställ om hela, eller något av, det efterfrågade antalet är tillgängligt i faktaboxen **Försäljningsraddetaljer**.  
@@ -45,15 +48,12 @@ I den här proceduren ersätter du antalet för montering mot kundorder med lage
 8.  Släpp försäljningsordern för plockning av lagerartiklarna och för montering av de artiklar som inte är tillgängliga. Mer information finns i [Montera artiklar](assembly-how-to-assemble-items.md).  
 
 > [!CAUTION]  
->  Fältet **Lagerställeskod** på försäljningsordern kan fyllas i i förväg enligt fältet **Lagerpl.kod för mont. mot lev.** eller fältet **Från monteringsplats – kod** på lagerställekortet. I så fall här kan fältet **Lagerställeskod** på försäljningsorderraden vara felaktigt i den här kombinationen av antal av montering mot kundorder och antal av montering mot lager. Det kan vara bra att titta i fältet **Lagerställeskod** och se till att placeringen fungerar för alla antal. Alternativt kan du ange de två olika antalen på separata försäljningsorderrader.  
+>  Fältet **Lagerplatskod** på försäljningsordern kan fyllas i i förväg enligt fältet **Lagerpl.kod för mont. mot lev.** eller fältet **Från monteringsplats - kod** på lagerställekortet. I så fall här kan fältet **Lagerplatskod** på försäljningsorderraden vara felaktigt i den här kombinationen av antal av montering mot kundorder och antal av montering mot lager. Det kan vara bra att titta i fältet **Lagerplatskod** och se till att placeringen fungerar för alla antal. Alternativt kan du ange de två olika antalen på separata försäljningsorderrader.  
 
 ## <a name="see-also"></a>Se även  
 [Monteringshantering](assembly-assemble-items.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
-[Lager](inventory-manage-inventory.md)  
+[Lagersaldo](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

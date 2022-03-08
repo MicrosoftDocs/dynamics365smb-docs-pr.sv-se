@@ -1,20 +1,21 @@
 ---
-title: 'Så här: Omvandla servicekontrakt'
-description: I det här avsnittet beskrivs flera alternativa metoder som du kan använda för att konvertera serviceavtal som inkluderar momsbelopp.
+title: 'Så här: Omvandla servicekontrakt | Microsoft Docs'
+description: Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 715f532745b74b0fb49e8dff10a355fda71a0271
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 82c7e19c2c493df77094bd3b6e4d2e5835a278bb
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134853"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250785"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Så här omvandlar du servicekontrakt som innehåller momsbelopp
 Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, måste dessa konverteras manuellt. I det här avsnittet beskrivs flera alternativa metoder som du kan använda för konvertering av servicekontrakt.  
@@ -28,10 +29,10 @@ Eftersom ändringsverktyget för momssats inte kan omvandla servicekontrakt, må
 >  För det här exemplet måste du ändra arbetsdatum till 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Så här korrigerar du en faktura för ett förskottsbetalt servicekontrakt  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontraktshantering** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontraktshantering** och välj sedan relaterad länk.  
 2. Välj **Servicekontrakt** under **Listor**.  
 3. Skapa ett nytt förutbetalt servicekontrakt. Ange startdatumet **01.01.2017** och fakturaperiodåret för kunden **20000**.  
-4. Om du vill signera kontraktet väljer du åtgärden **Underteckna kontrakt**.  
+4. Det kontrakt måste undertecknas. På fliken **Start** i gruppen **Process** väljer du **Signera kontrakt**.  
 5. Skapa en servicefaktura.
 6. Fakturera anges som en ej bokförda servicefaktura. Välj **Service**, välj **Kontraktshantering** och välj sedan **Servicefakturor** för att visa servicefakturan.  
 7. Bokför servicefakturan.  
@@ -58,7 +59,7 @@ Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta
 1. Kör ändringsverktyget för momssats på 1 juli 2017. Allmän produktbokföringsmall eller momsproduktbokföringsmallen ändras. För mer information, se [Så här arbetar du med moms för försäljning och inköp](finance-work-with-vat.md).  
 2. När du har kört ändringsverktyget för momssats, anger du ett utgångsdatum för servicekontraktet. Nu kan du ta bort servicekontraktsraden och skapa en ny rad som är identisk med den gamla.  
 3. Skapa en ny faktura för perioden för januari 2017 till december 2012 med den nya momssatsen.  
-4. Skapa en annan kreditnota genom att på sidan **Servicekreditnotor**, välja åtgärden **Ny** för att skapa en ny servicekreditnota.  
+4. Skapa en annan kreditnota genom att på sidan **Servicekreditnotor**, välja **Ny** för att skapa en ny servicekreditnota.  
 5. Välj åtgärden **Hämta förutbetalda kont.trans**.  
 6. Efter konverteringen rättas moms- och servicetransaktioner.  
 
@@ -67,6 +68,3 @@ Nedan beskrivs hur du skapar en ny kreditnota med hjälp av batchjobbet **Hämta
 [Ekonomi](finance.md)  
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

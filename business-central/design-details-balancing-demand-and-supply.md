@@ -1,20 +1,23 @@
 ---
-title: Designdetaljer – Balansera efterfrågan och tillgång
-description: För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet som uppnås av att balansera tillgång med efterfrågan.
+title: Designdetaljer - Balansera tillgång med efterfrågan | Microsoft Docs
+description: För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att alla behov ska uppfyllas av tillräcklig försörjning och leverans har en funktion för att förstå hur planeringssystemet fungerar.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b0ddc9e4a3fbfd4f26633f82f022aa73ba93ada8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139839"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243877"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansera efterfrågan och tillgång
 För att förstå hur planeringssystemet fungerar är det nödvändigt att förstå de prioriterade målen för planeringssystemet. Viktigast av allt är att se till att:  
@@ -27,7 +30,7 @@ För att förstå hur planeringssystemet fungerar är det nödvändigt att förs
 ## <a name="demand-and-supply"></a>Tillgång och efterfrågan
  Efterfrågan är den gemensamma termen som vanligtvis används för alla typer av bruttobehov, t.ex försäljningsorder och komponentbehov från en produktionsorder. Dessutom tillåter programmet mer tekniska typer av efterfrågan, till exempel negativt lagersaldo och inköpsreturer.  
 
-  Tillgång är den term som vanligtvis används för alla typer av positivt eller ankommande antal, t. ex. inköpsöverföringar, monteringsöverföringar, produktionsöverföringar och ankommande överföringar. Dessutom kan en försäljningsretur också representera tillgång.  
+  Tillgång är den term som vanligtvis används för alla typer av positivt eller ankommande antal, t.ex. inköpsöverföringar, monteringsöverföringar, produktionsöverföringar och ankommande överföringar. Dessutom kan en försäljningsretur också representera tillgång.  
 
   För att sortera ut de många källorna till efterfrågan och tillgång ordnar planeringssystemet dem på två tidslinjer som kallas lagerprofiler. En profil innehåller efterfråganshändelser och den andra innehåller motsvarande tillgångshändelser. Varje händelse representerar en ordernätverksenhet, till exempel en försäljningsorderrad, en artikeltransaktion eller en produktionsorderrad.  
 
@@ -42,7 +45,7 @@ För att förstå hur planeringssystemet fungerar är det nödvändigt att förs
 
    Syftet med planläggningsmekanismen är att balansera efterfrågan och tillgång för en artikel för att se till att tillgång matchar efterfrågan på ett genomförbart sätt som definieras av planläggningsparametrar och regler.  
 
-   ![Översikt över balansering av tillgång och efterfrågan.](media/nav_app_supply_planning_2_balancing.png "Översikt över balansering av tillgång och efterfrågan")
+   ![Översikt över balansering av tillgång och efterfrågan](media/nav_app_supply_planning_2_balancing.png "Översikt över balansering av tillgång och efterfrågan")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Hantera order före planeringsstartdatumet
 För att förhindra att en tillförselplan visar omöjliga och därför oanvändbara förslag, betraktar planeringssystemet perioden fram till planeringsstartdatumet som en fryst zon som inget planeras för. Följande regel gäller för den frysta zonen:  
@@ -65,7 +68,7 @@ Om det ursprungliga tillgängliga lagret är lägre än noll föreslår planerin
 ## <a name="loading-the-inventory-profiles"></a>Läsa in lagerprofiler
 För att sortera ut de många källorna till efterfrågan och tillgång ordnar planeringssystemet dem på två tidslinjer som kallas lagerprofiler.  
 
-De normala typerna av efterfrågan och tillgång med förfallodatum på eller efter planeringsstartdatumet laddas i varje lagerprofil. När de laddas sorteras de olika efterfrågan- och tillgångstyperna enligt allmänna prioriteringar, till exempel förfallodatum, lågnivåkoder, lagerställe och variant. Dessutom kopplas orderprioriteter till de olika typerna för att se till att den viktigaste efterfrågan uppfylls först. Mer information finns i [Prioritera order](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
+De normala typerna av efterfrågan och tillgång med förfallodatum på eller efter planeringsstartdatumet laddas i varje lagerprofil. När de laddas sorteras de olika efterfrågan- och tillgångstyperna enligt allmänna prioriteringar, till exempel förfallodatum, lågnivåkoder, lagerställe och variant. Dessutom kopplas orderprioriteter till de olika typerna för att se till att den viktigaste efterfrågan uppfylls först. Mer information finns i [Designdetaljer: prioritera order](design-details-prioritizing-orders.md)  
 
 Som nämndes tidigare kan efterfrågan kan även vara negativ. Det betyder att den ska hanteras som tillgång, men till skillnad från de vanliga typerna av tillgång anses negativ efterfrågan vara fast tillgång. Planeringssystemet tar hänsyn till det, men föreslår inga ändringar.  
 
@@ -98,7 +101,7 @@ Under balanseringen ser planeringssystemet tillgång med serie-/partinummer som 
 
 En annan anledning till att serie-/partinumrerad tillgång är inflexibel är att serie-/partinummer vanligtvis tilldelas så sent i processen att det skulle vara förvirrande om ändringar föreslås.  
 
-Balanseringen av serienummer/partinummer beaktar inte *fryst zon*. Om att efterfrågan och tillgång är inte är synkroniserade föreslår planeringssystemet ändringar eller förslår nya order oberoende av startdatumet för planeringen.  
+Motkonteringen av serienummer/partinummer respekterar inte [Fryst zon](design-details-dealing-with-orders-before-the-planning-starting-date.md). Om att efterfrågan och tillgång är inte är synkroniserade föreslår planeringssystemet ändringar eller förslår nya order oberoende av startdatumet för planeringen.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Order-till-order-länkar bryts aldrig  
 När du planerar en order-till-order-artikel får den länkade tillgången inte användas för någon annan efterfrågan än vad den ursprungligen ämnades för. Den länkade efterfrågan ska inte täckas av någon annan slumpmässig leverans, även om den för närvarande är tillgänglig vad gäller tid och antal. Exempelvis kan en monteringsorder som är kopplad till en försäljningsorder i ett scenario för montering mot kundorder inte användas för täcka annan efterfrågan.  
@@ -130,7 +133,7 @@ En användare måste definiera en giltig prognosperiod. Datumet på det prognost
 
 Prognosen för perioder före planeringsperioden används inte, oavsett om den förbrukades eller inte. Den första prognossiffran av intresse är antingen datumet på eller det närmaste datumet före planeringsstartdatumet.  
 
-Prognosen kan användas för icke härledd efterfrågan, t. ex. försäljningsorder, eller härledd efterfrågan, t. ex. produktionsorderkomponenter (modul-prognos). En artikel kan ha båda typerna av prognos. Under planeringen sker förbrukningen separat, först för härledd efterfrågan och sedan för icke härledd efterfrågan.  
+Prognosen kan användas för icke härledd efterfrågan, t.ex. försäljningsorder, eller härledd efterfrågan, t.ex. produktionsorderkomponenter (modul-prognos). En artikel kan ha båda typerna av prognos. Under planeringen sker förbrukningen separat, först för härledd efterfrågan och sedan för icke härledd efterfrågan.  
 
 ### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Avropsorderbegäran minskas med försäljningsorder  
 Prognostisering kompletteras av avropsorder som ett sätt att ange framtida efterfrågan från en specifik kund. Som med den (ospecificerade) prognosen bör de faktiska försäljningarna förbruka den förutsedda efterfrågan, och det återstående antalet ska ingå i lagerprofilen för efterfrågan. Förbrukningen minskar inte avropsordern.  
@@ -284,12 +287,9 @@ För att minska databasåtkomsten när du hanterar produktionsorder kan planerin
 * Inkludera verksamhetsföljd: den planerade verksamhetsföljden läggs ut inklusive beräkning av start- och slutdatum och tidpunkter. Det är fordrande i termer av databasåtkomster. För att fastställa slut- och förfallodatum kan det vara nödvändigt att beräkna detta även om tillförselhändelsen inte har stängts (om det gäller framåtplanering).  
 * Ta med strukturexpansion: det kan vänta tills precis före tillgångshändelsen är avslutad.  
 
-Detta slutför beskrivningarna av hur efterfrågan och tillgång laddas, prioriteras och balanseras av planeringssystemet. I integrering med den här tillgångsplaneringsaktiviteten måste systemet se till att önskad lagernivå för varje planerad artikel upprätthålls enligt dess partiformningsmetoder.
+Detta slutför beskrivningarna av hur efterfrågan och tillgång laddas, prioriteras och balanseras av planeringssystemet. I integration med den här tillgångsplaneringsaktiviteten måste systemet se till att önskad lagernivå för varje planerad artikel upprätthålls enligt dess partiformningsmetoder.
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

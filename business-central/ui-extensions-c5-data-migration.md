@@ -2,21 +2,22 @@
 title: Använda tillägget C5 Data-migrering | Microsoft Docs
 description: Använd det här tillägget för att flytta över kunder, leverantörer, artiklar och redovisningskonton från Microsoft Dynamics C5 2012 till Business Central.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccebff57d4189a3273c9930fc82ca665e7f807c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5d3d39cc721f5157487fbe55f799a5a462a2be10
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133634"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386180"
 ---
-# <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering
+# <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering 
 
 Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
 
@@ -106,7 +107,7 @@ Den största filstorleken som du kan överföra till [!INCLUDE[prod_short](inclu
 Det är bara några steg för att exportera data från C5 och importera den i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. I C5 använd funktionen **exportera databas** för att exportera data. Skicka sedan exportmappen till en komprimerad mapp.  
-2. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **datamigrering** och välj **datamigrering**.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Datamigrering** och väljer sedan **Datamigrering**.  
 3. Följ instruktionerna i assisterad konfiguration. Se till att använda **Importera från Microsoft Dynamcis C5 2012** som datakälla.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Visa status för migreringen.
@@ -159,7 +160,7 @@ Du kan förhindra migrering av data genom att välja **Stoppa alla migreringar**
 ## <a name="see-also"></a>Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
-[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Komma igång](product-get-started.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

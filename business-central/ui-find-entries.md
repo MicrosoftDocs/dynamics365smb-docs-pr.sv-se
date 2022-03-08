@@ -1,21 +1,21 @@
 ---
-title: Söka efter transaktioner
+title: Hitta transaktioner | Microsoft Docs
 description: I den här artikeln beskrivs dokument och transaktioner relaterar till varandra
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322987"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771167"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Hitta relaterade transaktioner för bokförda dokument 
 
@@ -41,7 +41,7 @@ På sidan **Hitta transaktioner** finns alla relaterade dokument och transaktion
 <!--
  There are two ways to open this page:
 
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
+- Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
 
     With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
     
@@ -67,7 +67,7 @@ Du kan söka efter transaktioner som bygger på information om antingen dokument
 När du har gjort ett val anger du relevant sökningsinformation i fälten längst upp. Använd knappbeskrivningarna i fälten för att få hjälp. När du är klar väljer du **Sök** för att starta sökningen. Om du ändrar något av filtren, måste du välja **Sök** igen.
 
 > [!TIP]
-> Ett par exempel på hur du använder **Sök poster** finns i [Spåra objekt-spårade artiklar](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
+> Ett par exempel på hur du använder **Hitta transaktioner** finns i [Spåra artikel-spårade artiklar](inventory-how-to-trace-item-tracked-items.md) och [Genomgång: spåra serie-/partinummer](walkthrough-tracing-serial-lot-numbers.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

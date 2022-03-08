@@ -1,24 +1,25 @@
 ---
-title: Hantera anläggningstillgångar (innehåller video)
-description: Lär dig mer om funktionen för anläggningstillgångar och få en översikt över hur du arbetar med och hanterar anläggningstillgångar.
-author: edupont04
-ms.topic: conceptual
+title: Hantera anläggningstillgångar | Microsoft Docs
+description: Lär dig mer om funktionen för anläggningstillgångar och få en översikt över hur du arbetar med anläggningstillgångar.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9159e6036da04001b28c261783c92103204907f9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145764"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747247"
 ---
-# <a name="managing-fixed-assets"></a>Hantera anläggningstillgångar
-
+# <a name="fixed-assets"></a>Anläggningstillgångar
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
 
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. Sedan kan du börja anskaffa, underhålla och sälja anläggningstillgångarna. Du kan även skapa budgeterade tillgångar. På så sätt kan du inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.
@@ -56,11 +57,8 @@ I följande video beskrivs grunderna för anläggningstillgångar.
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
 [Ekonomi](finance.md)  
-[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

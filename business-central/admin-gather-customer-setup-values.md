@@ -1,20 +1,21 @@
 ---
-title: Samla in kundinställningsvärden
-description: Konfigurations frågeformulär hjälper till att minska implementeringen genom att strömlinjeforma konfigurationen av nya företag och erbjuda kunderna en Excel-eller XML-fil.
+title: Samla in kundinställningsvärden | Microsoft Docs
+description: Du använder frågeformuläret för konfiguration för att lättare kunna minska din implementeringsarbetsbörda, detta genom att effektivisera arbetet med att konfigurera det nya företaget. Du kan skapa frågeformuläret för konfiguration i Business Central och sedan leverera den sedan till kunden som en Excel- (.xlsx) eller XML-fil.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 81f70d503f09e7dc6f2b555a21d249105060904b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145976"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378553"
 ---
 # <a name="gather-customer-setup-values"></a>Samla in kundinställningsvärden
 Du använder frågeformuläret för konfiguration för att lättare kunna minska din implementeringsarbetsbörda, detta genom att effektivisera arbetet med att konfigurera det nya företaget. Du kan skapa frågeformuläret för konfiguration i [!INCLUDE[prod_short](includes/prod_short.md)] och sedan leverera den till kunden som en .xls- eller XML-fil.  
@@ -31,7 +32,7 @@ Du kan använda ett frågeformulär för att bestämma omfattningen och behoven 
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Du kan bara skapa frågeformulär för tabeller av omställningstyp. Du kan till exempel använda verktyg för att ge information på följande sidor:  
@@ -49,9 +50,9 @@ Du kan använda ett frågeformulär för att bestämma omfattningen och behoven 
 -   Lagerstyrningsinställningar  
 
 > [!NOTE]  
->  För att se hela listan, välj ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar** och väljer sedan relaterad länk. Använd flyttningsfunktioner för att bestämma omfattningen för flyttning av transaktion data. Mer information finns i [Migrera kunddata](admin-migrate-customer-data.md).  
+>  För att se en komplett lista över inställningsregister, välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Inställning** och välj sedan relaterad länk. Använd flyttningsfunktioner för att bestämma omfattningen för flyttning av transaktion data. Mer information finns i [Migrera kunddata](admin-migrate-customer-data.md).  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsenkät** och väljer sedan relaterad länk.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsenkät** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.   
 3. På sidan **Konfigurationsenkät**, i fältet **Kod**, anger du... 
 <!--4. In the **Name** field, enter...
@@ -81,7 +82,7 @@ Du kan använda ett frågeformulär för att bestämma omfattningen och behoven 
 5. I fältet **Tabell-ID** väljer du ID på den tabell som du vill samla in information om. Fälten **Tabellnamn** fylls i automatiskt.  
 6. Välj åtgärden **Uppdatera frågor**. Varje fält i tabellen läggs till det frågeformulär med ett frågetecken efter sin rubrik.
 
-Du kan formulera om rubriken för att klargöra hur fråga ska besvaras. Om ett fält exempelvis kallas "Namn" kan du ändra det till att ange "Namn på \<data being collected\>." Du kan också ge vägledning i fältet **Referens**, inklusive en Webbadress till en sida med ytterligare information.  
+Du kan formulera om rubriken för att klargöra hur fråga ska besvaras. Om ett fält exempelvis kallas "Namn" kan du ändra det till att ange "Namn på <data being collected>." Du kan också ge vägledning i fältet **Referens**, inklusive en Webbadress till en sida med ytterligare information.  
 
 Du kan även ta bort frågor som du inte vill inkludera i frågeformuläret.  
 
@@ -97,7 +98,7 @@ Du använder frågeformuläret för konfiguration för att strukturera och dokum
 >  Du kan också skapa ett eget frågeformulär för konfiguration om så behövs.  
 
 1. Öppna det företag som du vill slutföra frågeformuläret för.
-2. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsenkät** och väljer sedan relaterad länk.  
+2. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsenkät** och välj sedan relaterad länk.  
 3. Välj frågeformuläret för företaget och välj sedan åtgärden **Exportera till Excel**, alternativt åtgärden **Exportera till XML**.
 4. Låt kunden slutföra konfigurationsfrågeformuläret genom att ange svaren i Excel-arbetsboken. Det finns formulär för varje frågeområde som har skapats för frågeformuläret.   
 5. Spara Excel-arbetsboken som *XML-data*. Välj åtgärden **Importera från XML** och välj .xml-filen med kundens svar.
@@ -130,16 +131,15 @@ När du har slutfört din validering är din data klar att kopplas till database
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Så här kopplar du svar från konfigurationsfrågeformuläret
 Efter att du har importerat och verifierat information från ett frågeformulär för konfiguration kan du överföra inställningsdatan till de motsvarande tabellerna i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsenkät** och väljer sedan relaterad länk. Sidan **Frågeformulär för inställningar** öppnas.  
+1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Konfigurationsenkät** och välj sedan relaterad länk. Sidan **Frågeformulär för inställningar** öppnas.  
 2. Markera ett konfigurationsfrågeformulär i listan och välj sedan åtgärden **Redigera lista**.  
 3. Du kan koppla svar på två sätt.  
 
 - Om du vill koppla hela frågeformuläret väljer du åtgärden **Koppla svar**.  
 - För att koppla svar enbart för ett visst **Frågeområde** väljer du åtgärden **Frågeområden**, väljer ett **Frågeområde** i listan och sedan åtgärden **Koppla svar**.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Så här kontrollerar du att svar har kopplats korrekt
-
-1. Kontrollera inställningssidorna för olika huvudområden av [!INCLUDE[prod_short](includes/prod_short.md)]. Välj ![glödlampikonen som öppnar funktionen Berätta 5](media/ui-search/search_small.png "Berätta vad du vill göra"), ange namnet på inställningssidan, och välj sedan relaterad länk.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Så här kontrollerar du att svar har kopplats korrekt  
+1. Kontrollera inställningssidorna för olika huvudområden av [!INCLUDE[prod_short](includes/prod_short.md)]. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange namnet på inställningssidan, och välj sedan relaterad länk.  
 2. Kontrollera att fältet har fyllts i med rätt data från de olika frågeområdena i frågeformuläret för konfiguration.  
 
 Du har nu konfigurerat inställningen med kundens verksamhetsinformationen och regler.

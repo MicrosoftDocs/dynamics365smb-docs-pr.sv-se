@@ -1,32 +1,30 @@
 ---
-title: WorldPay Payments Standard
-description: Tillägget WorldPay Payments Standard låter dig erbjuda kunder ett praktiskt alternativ till betalningar via banköverföringar eller kreditkort.
+title: WorldPay Payments Standard| Microsoft Docs
+description: Ger information om tillägget WorldPay Payments Standard
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/23/2021
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: dfb523d70938cd4110cca9f963de05bdf8033623
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a61fd494235a3c939822c423d4b0044ad0709e4d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132400"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249290"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Tillägget WorldPay Payments Standard
 Tillägget WorldPay Payments Standard låter dig erbjuda kunder ett praktiskt alternativ till betalningar via banköverföringar eller kreditkort. Inte bara det, betalningar via betalningstjänster hamnar vanligtvis snabbare i på ditt bankkonto.
 Om du aktiverar tillägget och skickar en försäljningsfaktura eller försäljningsorder via e-post, innehåller dokumentet en länk till tjänsten i e-postmeddelandet och det bifogade PDF-dokumentet. Kunden kan välja länken och sedan använda betalningstjänsten för att göra betalningen.
 
-Att aktivera tillägg för betalningstjänster är gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du måste du kontakta betalningstjänsten för att få ett konto. Mer information finns i [Aktivera kundbetalning via betalningstjänster](sales-how-enable-payment-service-extensions.md).
+Att aktivera tillägg för betalningstjänster är gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du måste du kontakta betalningstjänsten för att få ett konto. Mer information finns i [Aktivera kundbetalning via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se även
-[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
+[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

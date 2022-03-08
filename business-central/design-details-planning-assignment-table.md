@@ -1,20 +1,21 @@
 ---
-title: Designdetaljer – Planeringsfördelningstabell
-description: Det här avsnittet ger insikt i vad som händer när en förändring i efterfråge- eller tillgångsmönstren kräver att du beräknar hur du planerar för en artikel.
+title: Designdetaljer - Planeringsfördelningstabell | Microsoft Docs
+description: Det här avsnittet innehåller information om vad som händer när du ändrar hur du planerar för en artikel.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 878f301db5b7b887201fd2e803fd299dc3894dbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 621e747cbdf4b7ba19ad900c4c91eb3edfd8480f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146598"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770894"
 ---
 # <a name="design-details-planning-assignment-table"></a>Designdetaljer: Planeringsfördelningstabell
 Alla artiklar ska planeras för, men det finns ingen anledning att beräkna en plan för en artikel om det inte har skett någon ändring i efterfråge- eller tillgångsmönstret sedan senaste gången som en plan beräknades.  

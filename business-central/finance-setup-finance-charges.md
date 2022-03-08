@@ -2,20 +2,20 @@
 title: Konfigurera räntevillkor
 description: Läs om hur du konfigurerar Business Central så att du kan informera kunder om extra avgifter genom att skicka räntefakturor.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
-ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: de00eb7e96e2903872a3ef312d096bd91d97577d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 08a2443f94efbc9920145109b4b7499a3a4e05b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142061"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783628"
 ---
 # <a name="set-up-finance-charge-terms"></a>Konfigurera räntevillkor
 
@@ -41,7 +41,7 @@ Dessutom är varje villkor i tabellen Räntevillkor kopplad till en undertabell,
 
 ### <a name="to-set-up-finance-charge-terms"></a>Ange räntevillkoren
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **räntevillkor** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Räntevillkor** och välj sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 3. Om du vill använda fler än en uppsättning räntevillkor, anger du en kod för varje kombination.
 

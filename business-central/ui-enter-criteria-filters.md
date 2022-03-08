@@ -1,21 +1,21 @@
 ---
-title: Sortera, söka och filtrera listor
+title: Sortering, sökning och filtrering av listor | Microsoft Docs
 description: Arbeta effektivt i listor genom att söka i data, sortera kolumner och förfina resultaten med hjälp av filtersymboler och kortkommandon.
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 11/16/2020
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: eda7ab79b326f860816504014d6eefa9fb13a600
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335016"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757598"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortera, söka och filtrera
 
@@ -24,7 +24,7 @@ Det finns några saker som du kan göra som hjälper dig att söka, hitta och be
 För rapporter och XMLportar kan du, som i listor, ange filter för att begränsa vilka data som ska tas med i rapporten eller din XMLport, men du kan inte sortera eller söka.
 
 > [!TIP]
-> När du visar data sida vid sida kan du söka och använda filtrering. Om du vill använda alla kraftfulla funktioner för sortering, sökning och filtrering, väljer du ikonen ![Visa som lista](media/ui_show_as_list_icon.png "Visa som vänster listpil"). om du vill visa posterna som en lista.
+> När du visar data sida vid sida kan du söka och använda filtrering. Om du vill använda alla kraftfulla funktioner för sortering, sökning och filtrering, väljer du ikonen ![Visa som lista](media/ui_show_as_list_icon.png "Visa som vänster listpil") om du vill visa posterna som en lista.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Om du vill sortera en lista kan du antingen:
 ## <a name="searching"></a>Sökning
 
 <!--## Searching by using the Quick Filter -->
-Högst upp på listsidan finns en ![Sök lista.](media/ui-search/search-list.png "Ikon för Söklista") Åtgärden **Sök** som ger ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
+Högst upp på varje listsida finns åtgärden ![Sök lista](media/ui-search/search-list.png "Ikon för Söklista") **Sök** som ger ett snabbt och enkelt sätt att minska posterna i en lista och enbart visa de poster som innehåller de data som du är intresserad av att se.
 
 Sök genom att helt enkelt markera åtgärden **Sök** och ange sedan den text som du vill söka efter i rutan. Du kan ange bokstäver, siffror och andra symboler.
 
@@ -144,7 +144,7 @@ Både i filterrutan och på sidan för förfrågan anger du filterkriterier i ru
 
 Typen av filterfält som du vill filtrera avgör vilka kriterier du kan ange. Till exempel kommer filtrering av ett fält som har fasta värden bara låta dig välja mellan dessa värden. Mer information om särskilda filtersymboler finns i [Filterkriterier](#FilterCriteria) och [Filtertoken](#FilterTokens).
 
-Kolumner som redan har filter som indikeras av ikonen ![filterikon.](media/ui-search/filter-icon.png "Filterikon") i kolumnrubriken. Om du vill ta bort ett filter på en sida klickar du på listpilen i sidrubriken och klickar sedan på åtgärden **Rensa filter**.
+Kolumner som redan har filter som indikeras av ikonen ![filterikon](media/ui-search/filter-icon.png "Filterikon") i kolumnrubriken. Om du vill ta bort ett filter på en sida klickar du på listpilen i sidrubriken och klickar sedan på åtgärden **Rensa filter**.
 
 > [!TIP]
 > Sök och analysera dina data snabbare genom att använda kombinationer av kortkommandon. Exempelvis markerar du ett fält, använder **Skift + Alt + F3** om du vill lägga till fältet i filterrutan, använder **Ctrl + Retur** om du vill återgå till raderna, markerar ett annat fält och använder **Alt + F3** för att filtrera det värdet. Mer information finns i [Kortkommandon](keyboard-shortcuts.md#KeyboardFilter).
@@ -220,7 +220,6 @@ När du anger kriterier kan du använda alla siffror och bokstäver som du norma
 |Exempel|Poster som visas|  
 |-----------------------|-----------------------|  
 |`'man'`|Text som matchar **man** exakt och är skiftlägeskänslig.|  
-|`''`|Text som är tom.|  
 
 #### <a name="-case-insensitive"></a>(@) Okänslig för skiftläge  
 
@@ -260,7 +259,7 @@ Det kan finnas fall där fältvärden innehåller någon av följande symboler:
 - =
 - &#124;
 
-Om du vill filtrera efter någon av dessa symboler måste du placera filteruttrycket inom citattecken (`'<expression with symbol>'`). Om du exempelvis vill filtrera poster som börjar med texten *J & V* blir filteruttrycket `'J & V*'`.
+Om du vill filtrera efter någon av dessa symboler måste du placera filteruttrycket inom citattecken (' '). Om du exempelvis vill filtrera poster som börjar med texten *J & V* blir filteruttrycket `'J & V*'`.
 
 Detta krav är inte nödvändigt för andra symboler.
 
@@ -305,9 +304,6 @@ Använd `%myvendors` i fältet leverantörs **nr** om du vill visa alla poster f
 
 ## <a name="see-also"></a>Se även
 
-[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)  
+[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
 [Spara och anpassa listvyer](ui-views.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

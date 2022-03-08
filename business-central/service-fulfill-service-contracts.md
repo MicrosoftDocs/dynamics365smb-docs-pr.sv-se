@@ -1,22 +1,23 @@
 ---
-title: Översikt över uppgifter för att uppfylla servicekontrakt
-description: En disposition som består av aktiviteter som ingår i uppfyllandet av servicekontrakt med kunder som att upprätta standardavtal med anpassningsbara mallar med mera.
+title: Översikt över uppgifter för att uppfylla servicekontrakt | Microsoft Docs
+description: Innehåller uppgifter för att hantera servicekontrakt med kunder.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 06/23/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0290246fa9fa648a9d0ff4ede4c71464b3208017
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 271e9ef14937ebd1b2bb7a8932f2f561d7a6f2ff
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140611"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778303"
 ---
 # <a name="fulfilling-service-contracts"></a>Uppfylla servicekontrakt 
 Ett sätt att lägga upp en tjänstehanteringsverksamhet är att ha standardavtal mellan dig och kunderna som beskriver servicenivån och förväntningarna på servicen. Du kan skapa kontraktsmallar som omfattar viktig information, t. ex. kund, kontraktets startdatum samt fakturaperiod.  

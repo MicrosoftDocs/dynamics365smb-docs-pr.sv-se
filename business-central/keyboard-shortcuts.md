@@ -2,29 +2,30 @@
 title: Kortkommandon
 description: En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135269"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922875"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
-Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prod_short](includes/prod_short.md)].
+Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prodshort](includes/prodshort.md)].
 
 En översikt över de vanligaste kortkommandona finns i [Kortkommandon (endast dator)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
 > Om du vill visa en grafisk vy över de mest använda kortkommandona väljer du följande bild och hämtar PDF-filen.  
-> [ ![Ikon för PDF-filen.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som öppnar en PDF-fil")
+> [ ![Ikon för PDF-filen](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som öppnar en PDF-fil")
 
 ## <a name="overview"></a>Översikt
 
@@ -36,11 +37,11 @@ Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer 
 De flesta kortkommandona är desamma oavsett om operativ systemet är Windows eller macOS. Vissa kortkommandon är emellertid olika för macOS. Dessa genvägar anges med hakparenteser i följande avsnitt.
 
 > [!NOTE]
-> Förutom de globala kortkommandon som beskrivs i denna artikel finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] bokför F9 exempelvis ett dokument och CTRL + F7 visar redovisningstransaktionerna för en post när du öppnar posten i ett kort. I denna artikel beskrivs några av de vanligaste företagsspecifika kortkommandona, som visas med kursiv stil. Tänk på att de faktiska kortkommandona kan variera i just din lösning. I användargränssnittet visas kortkommandot i knappbeskrivningen för den aktuella åtgärden.
+> Förutom de globala kortkommandon som beskrivs i det här avsnittet finns ett antal företagsspecifika genvägar. I den generiska versionen av [!INCLUDE[prodshort](includes/prodshort.md)] bokför F9 ett dokument och CTRL + F7 visar de ekonomiska transaktionerna för en post. (Dessa kan vara annorlunda i lösningen.) Kortkommandot visas i knappbeskrivningen för den aktuella åtgärden.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allmänna kortkommandon
 
-I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika element på en sida. Element är t. ex. åtgärder, list rutor, uppslag m.m. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
+I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika element på en sida. Element är t.ex. åtgärder, list rutor, uppslag m.m. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
@@ -54,20 +55,21 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |Alt+N |Öppna en sida om du vill skapa en ny post. (Påminner om att välja **Ny** och **+** åtgärder.)|
 |Alt+Shift+N |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post. På samma sätt bokför Alt + F9 ett dokument och skapar ett nytt.|
 |Alt+T|Öppna sidan **Mina inställningar**.|
-|Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "Knappen AssistEdit"). knappen. Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
+|Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "Knappen AssistEdit") button. Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
+|Shift+F12|Öppna rollutforskaren, en funktionsöversikt. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).|
 |Ctrl+Alt+Shift+C|Visa information på företagsbrickan.|
-|Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t. ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
+|Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t.ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
 |Ctrl+C |Kopiera värdet i fältet. Om fältet är i fokus och du inte har valt någon text i fältet, kommer hela värdet att kopieras. Om du har markerat en text i fältet, kopieras endast den markerade texten.|
 |Ctrl+F1|Öppna Business Central-hjälpen för sidan.|
 |Ctrl+F12|Växla mellan breda och smala vyn.|
 |Ctrl + klicka|Navigera under anpassa personligt eller anpassa när åtgärden markeras med en pilspets. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).|  
-|Ctrl+F5|Läs [!INCLUDE[prod_short](includes/prod_short.md)]-programmet på nytt. (Ungefär som att markera uppdatera/läsa in på nytt i webbläsaren).|
+|Ctrl+F5|Läs [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt. (Ungefär som att markera uppdatera/läsa in på nytt i webbläsaren).|
 |F5|Uppdatera informationen på den aktuella sidan.<br /><br />Använd denna nyckel för att se till att informationen på sidan har uppdaterats med ändringarna som andra har gjort medan du arbetar.|
 |Skriv in|Aktivera eller nå elementet eller kontrollen som är i fokus.|
 |Esc|Stäng den aktuella sidan eller listrutan.|
 |Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
-|Y och N|Aktivera knapparna **Ja** och **Nej** i dialogrutor. De faktiska nycklarna kan variera beroende på vilket språk som anges i **Mina inställningar**. Du kan t. ex. trycka på J för att aktivera **Ja**-knappen när du använder tyska språket.|
+|Y och N|Aktivera knapparna **Ja** och **Nej** i dialogrutor. De faktiska nycklarna kan variera beroende på vilket språk som anges i **Mina inställningar**. Du kan t.ex. trycka på J för att aktivera **Ja**-knappen när du använder tyska språket.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Kortkommandon i listor
 
@@ -82,36 +84,28 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sortera markerad kolumn i stigande eller fallande ordning.|Ej tillämpbart.|
 |Alt+N|Infoga en ny rad i en redigerbar lista, till exempel sidan **redovisningsbudgetar**.|Samma.|
-|Shift+F9|Bokför och skriv ut ett dokument.|Samma.|
 |Shift+F10 |Öppna en meny med alternativ som är tillgängliga för den markerade raden.|Samma.|
-|Alt+D|Öppna posterna för dimensionsuppsättning.|Samma.|
-|Ctrl+F7|Öppna redovisningstransaktioner, loggtransaktioner, kostnadstransaktioner o.s.v.|
-|Ctrl+F9|Frisläpp dokument.|Samma.|
-|*F7*|Öppna statistik.|Samma.|
-|*F9*|Bokföra, utfärda, registrera eller återföra dokument.|Samma.|
-|*Shift+Ctrl+F*|Skicka förslag på rader på sidan för kalkylark för kassaflöde.|Ej tillämpbart.|
-|*Shift+Ctrl+I*|Visa serie- och partinummer som har tilldelats till radartikeln för dokument eller journal.|Ej tillämpbart.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
 
-Det finns stödraster som innehåller rader och kolumner på många olika sidtyper i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel listsidor och **Rad**-delar i dokument. Att flytta från en cell till en annan i ett rutnät kan ske helt och hållet via tangentbordet.
+Det finns stödraster som innehåller rader och kolumner på många olika sidtyper i [!INCLUDE[prodshort](includes/prodshort.md)], till exempel listsidor och **Rad**-delar i dokument. Att flytta från en cell till en annan i ett rutnät kan ske helt och hållet via tangentbordet.
 
-| Tryck på dessa tangenter<br />(i macOS) | För att göra detta som en lista | För att göra detta som en panelvisning |
-|--|--|--|
-| Ctrl+Home<br />(Fn+Ctrl+vänsterpil) | Markera den första raden i listan. Fokus är kvar i samma kolumn. | Flytta till första panelen i den första raden. |
-| Ctrl+End<br />(Fn+Ctrl+högerpil) | Markera den sista raden i listan. Fokus är kvar i samma kolumn. | Flytta till den sista panelen i den sista raden. |
-| Hem<br />(Fn+vänsterpil) | Flytta till första fältet i raden. | Flytta till första panelen i raden. |
-| End<br />(Fn+högerpil) | Flytta till det sista fältet i raden. | Flytta till den sista panelen i raden. |
-| Skriv in | Öppna posten som är associerad med fältet.<br /><br />Endast relevant om en sida med kort associerad med posten. | Posten öppnas.<br /><br />Endast relevant om en sida med kort associerad med posten. |
-| Ctrl+Enter | Flytta fokus till nästa element utanför listan. | Flytta fokus till nästa element utanför listan. |
-| Page Up<br />(Fn+uppåtpil) | Rulla för att visa uppsättningen med rader ovanför den aktuella raden i vyn. | Rullar för att visa uppsättningen med paneler ovanför den aktuella panelen i vyn. |
-| Page Down<br />(Fn+Nedpil) | Rulla för att visa uppsättningen med rader nedanför den aktuella raden i vyn. | Rulla för att visa uppsättningen med paneler nedanför den aktuella panelen i vyn. |
-| Nedpil | Flytta till fältet i raden nedanför i samma kolumn. | I samma kolumn, flytta till panelen i raden nedanför. |
-| Uppil | Flytta till fältet i raden ovanför i samma kolumn | I samma kolumn, flytta till panelen i raden ovanför |
-| Högerpil | I en skrivskyddad lista, flytta till samma rad till höger i samma fält.<br /><br />Flytta till höger i det aktuella fältet i en redigeringsbar lista. | Flytta till nästa ändringsbara panel till höger i samma rad. |
-| Vänsterpil | I en skrivskyddad lista, flytta till samma rad till vänster i föregående fält. <br /><br />Flytta till vänster i det aktuella fältet i en redigeringsbar lista. | Flytta till föregående panel till vänster i samma rad. |
-| Tabb | I en redigerbar lista, flytta till samma rad till höger i samma fält. | Ej tillämpbart. | 
-| Skift+Tabb | I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. |
+|Tryck på dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |
+|--------------------------------|--------------------------|--------------------------|
+|Ctrl+Home<br />(Fn+Ctrl+vänsterpil)|Markera den första raden i listan. Fokus är kvar i samma kolumn.|Flytta till första panelen i den första raden. |
+|Ctrl+End<br />(Fn+Ctrl+högerpil)|Markera den sista raden i listan. Fokus är kvar i samma kolumn.|Flytta till den sista panelen i den sista raden.|
+|Hem<br />(Fn+vänsterpil)|Flytta till första fältet i raden.|Flytta till första panelen i raden.|
+|End<br />(Fn+högerpil)|Flytta till det sista fältet i raden.|Flytta till den sista panelen i raden.|
+|Skriv in|Öppna posten som är associerad med fältet.<br /><br />Endast relevant om en sida med kort associerad med posten.|Posten öppnas.<br /><br />Endast relevant om en sida med kort associerad med posten.|
+|Ctrl+Enter|Flytta fokus till nästa element utanför listan.|Flytta fokus till nästa element utanför listan.|
+|Page Up<br />(Fn+uppåtpil)|Rulla för att visa uppsättningen med rader ovanför den aktuella raden i vyn. |Rullar för att visa uppsättningen med paneler ovanför den aktuella panelen i vyn. |
+|Page Down<br />(Fn+Nedpil)|Rulla för att visa uppsättningen med rader nedanför den aktuella raden i vyn.|Rulla för att visa uppsättningen med paneler nedanför den aktuella panelen i vyn.|
+|Nedpil|Flytta till fältet i raden nedanför i samma kolumn. |I samma kolumn, flytta till panelen i raden nedanför. |
+|Uppil|Flytta till fältet i raden ovanför i samma kolumn| I samma kolumn, flytta till panelen i raden ovanför  |
+|Högerpil|I en skrivskyddad lista, flytta till samma rad till höger i samma fält.<br /><br />Flytta till höger i det aktuella fältet i en redigeringsbar lista.| Flytta till nästa ändringsbara panel till höger i samma rad. |
+|Vänsterpil|I en skrivskyddad lista, flytta till samma rad till vänster i föregående fält. <br /><br />Flytta till vänster i det aktuella fältet i en redigeringsbar lista.| Flytta till föregående panel till vänster i samma rad. |
+|Tabb|I en redigerbar lista, flytta till samma rad till höger i samma fält.|Ej tillämpbart.||
+|Skift+Tabb|I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Välja kopiera och klistra in
 
@@ -145,13 +139,11 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Kortkommandon i kort och dokument
 
-Följande kortkommandon kan användas för kortsidorna t. ex. **kundkort** och dokumentsidor t. ex. **försäljningsorder** för att visa och ändra poster.
+Följande kortkommandon kan användas för kortsidorna t.ex. **kundkort** och dokumentsidor t.ex. **försäljningsorder** för att visa och ändra poster.
 
 |Tryck på dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
-|Alt+D|Öppna posterna för dimensionsuppsättning.|
 |Alt+F6|Växla dölj/expandera för den aktuella snabbfliken eller delen (underordnad sida).|
-|Alt+F9|Skapa ett nytt dokument och bokföra det.|
 |Alt+G|Öppna sidan **Hitta transaktioner** för att söka efter transaktioner som hör till det bokförda dokumentet. Fungerar även på listor.|
 |Alt+N |Öppna en sida för att skapa en ny post. På samma sätt som om du markerar åtgärden **nytt**. |
 |Alt+Shift+N |Stäng en sida och öppna en ny för att skapa en ny post. På samma sätt som om du markerar åtgärden **OK och Nytt**. |
@@ -161,15 +153,9 @@ Följande kortkommandon kan användas för kortsidorna t. ex. **kundkort** och d
 |Ctrl+Uppil |Öppna föregående post för en enhet.|
 |Ctrl+Ins |Infoga en ny rad i ett dokument|
 |Ctrl+radera |Ta bort raden i ett dokument, en journal eller ett förslag.|
-|Ctrl+F7|Öppna redovisningstransaktioner, loggtransaktioner, kostnadstransaktioner o.s.v.|
-|Ctrl+F9|Frisläpp dokument.|
 |Ctrl+Shift+F12 |Maximera radartikeldelen på en dokumentsida Tryck på knapparna igen för att återgå till normal visning. Mer information finns i [Fokusera på radartiklar](ui-enter-data.md#Focus).|
 |F6|Flytta till nästa snabbflik eller del (underordnad sida).|
-|*F7*|Öppna statistik.|
-|*F9*|Bokföra, utfärda, registrera eller återföra dokument.|
-|*Shift+Ctrl+F9*|Bokföra, skriva ut och föra in lagerinleverans.|
 |Shift+F6|Flytta till föregående snabbflik eller del (underordnad sida).|
-|*Shift+F9*|Bokför och skriv ut ett dokument.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Kortkommandon för snabbinmatning för fält
 
@@ -220,34 +206,11 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |Page Down<br />(Fn+Nedpil)|Gå till nästa sida i rapporten.|
 |Page Up<br />(Fn+uppåtpil)|Gå till föregående sida i rapporten.|
 
-## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Kortkommandon för zoomning in och ut
-
-|Tryck på dessa tangenter|Om du vill|
-|--------------------------------|----------|
-|Ctrl + plustecken (+)|Zooma in den aktuella sidan.|  
-|Ctrl + minustecken (-)|Zooma ut på den aktuella sidan.|  
-|Ctrl+0|Zooma in eller ut till 100 % på den aktuella sidan.|  
-
-## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Kortkommandon för rollutforskaren
-
-Rollutforskaren ger dig en översikt över och snabb åtkomst till alla affärsfunktioner som är tillgängliga för din roll. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).
-
-|Tryck på dessa tangenter<br />(i macOS)|Om du vill|
-|--------------------------------|----------|
-|Shift+F12|Öppna rollutforskaren.|
-|F3|Öppna rutan **Sök** i rollutforskaren om du vill hitta funktioner baserade på ett visst sökord eller en viss term.|
-|F3 eller Ctrl + Nedåtpil|Flyttar fokus till nästa funna funktion i rollutforskaren. F3 flyttar fokus till rutan **Sök** efter den senast funna funktionen.|
-|Shift F3 eller Ctrl + Uppåtpil|Flytta fokus till föregående funna funktion i rollutforskaren.|
-|Ctrl+Shift|Visa eller dölj alla undernoder – utöver noder på översta nivån – när du väljer åtgärden **Visa** eller **Dölj**.|
-
 ## <a name="see-also"></a>Se även
 
-[Snabbguide för kortkommandon – endast dator](keyboard-shortcuts-cheatsheet.md)  
+[Snabbguide för kortkommandon - endast dator](keyboard-shortcuts-cheatsheet.md)  
 [Hjälpmedelsfunktioner](ui-accessibility.md)  
-[Gör dig redo att göra affärer](ui-get-ready-business.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Vanliga frågor och svar](across-faq.yml)  
+[Komma igång](product-get-started.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Vanliga frågor och svar](across-faq.md)  
 [Hitta transaktioner](ui-find-entries.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

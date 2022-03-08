@@ -2,25 +2,26 @@
 title: Så här lånar du ut serviceartiklar som ersättningar | Microsoft Docs
 description: Du kan låna ut kundlåneartiklar för att tillfälligt ersätta serviceartiklar som du har tagit emot för service.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ddf4dd090246bd1b102a3f812db7955f48ad0afb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7e7aa8f1b29a81011d0451a98f3d7551cd4a1f6a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132582"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390305"
 ---
 # <a name="lend-and-receive-loaners"></a>Låna ut och ta emot låneartiklar
 Du kan låna ut kundlåneartiklar för att tillfälligt ersätta serviceartiklar som du har tagit emot för service.  
   
 ## <a name="to-lend-a-loaner-item"></a>Så här lånar du ut låneartiklar    
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceorder** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Öppna relevant kort för serviceorder.  
 3. Klicka på raden för den serviceartikel som du vill ersätta med en låneartikel.  
 4. I fältet **Låneartikelnr.** väljer du önskad låneartikel.  
@@ -29,7 +30,7 @@ Du kan låna ut kundlåneartiklar för att tillfälligt ersätta serviceartiklar
 ## <a name="to-receive-a-loaner"></a>Så här tar du emot låneartiklar  
 När du får en låneartikel från en kund måste du registrera inleveransen. Det gör du på sidorna **Serviceorder**, **Bokförd serviceleverans** och **Låneartikelkort**. Nedan beskrivs proceduren för att ta emot låneartiklar på sidan **Serviceorder**.  
   
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceorder** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Tjänsteorder** och välj sedan relaterad länk.  
 2. Öppna relevant serviceorder.  
 3. Välj serviceartikelraden med den låneartikel som du vill inleverera.  
 4. Välj **Åtgärder**, välj **Funktioner** och välj sedan **Inleverera låneartikel**.  
@@ -37,7 +38,7 @@ När du får en låneartikel från en kund måste du registrera inleveransen. De
 ## <a name="to-register-loaner-comments"></a>Så här registrerar du lånekommentarer  
 Du kan använda sidan **Servicekommentarsblad Allmänt** för att registrera kommentarer om låneartiklar.  
   
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **låneartiklar** och väljer sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **låneartiklar** och välj sedan relaterad länk.  
 2. Öppna kortet för relevant låneartikel.  
 3. Välj åtgärden **Kommentarer**. Sidan **Servicekommentarsblad Allmänt** öppnas.  
 4. Skriv datum i fältet **Datum**.  

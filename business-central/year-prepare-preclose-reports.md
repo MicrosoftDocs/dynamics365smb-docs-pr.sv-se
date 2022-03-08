@@ -1,23 +1,24 @@
 ---
-title: Översikt över rapporter före bokslut för att kontrollera kontots korrekthet
+title: Översikt över rapporter före bokslut för att kontrollera noggrannheten för kontot | Microsoft Docs
 description: Ger en översikt över de rapporter som du kan använda för att kontrollera att räkenskaperna stämmer innan du avslutar böckerna vid slutet av ett år eller en period.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96fe7c7c1f955d3c489429bf3ee64f9f3f925de7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139033"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439241"
 ---
 # <a name="using-pre-closing-reports"></a>Använda rapporter före bokslut
-
 Det finns flera standardrapporter som du kan använda för att kontrollera att räkenskaperna stämmer innan du avslutar böckerna vid slutet av ett år eller en period. Du kan till exempel använda rapporten **Kund – råbalans** för att kontrollera att saldot för en kundbokföringsmall är lika med saldot på motsvarande redovisningskonto för ett visst datum.
 
 I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den här processen.
@@ -37,7 +38,6 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 För att se en rapport, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange namnet som det visas i tabellen och väljer sedan relaterad länk.
 
 ## <a name="see-also"></a>Se även
-
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

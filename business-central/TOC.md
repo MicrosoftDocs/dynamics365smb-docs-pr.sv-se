@@ -5,32 +5,43 @@
 <!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
 ## Läs mer
 ### [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central i Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central i Microsoft Learn](/learn/browse/?products=dynamics-business-central&roles=business-user%2Cfunctional-consultant&resource_type=learning%20path)
 ### Genomgång av affärsprocesser
 #### [Tillgängliga genomgångar](walkthrough-business-process-walkthroughs.md)
 #### [Genomgång: Genomföra en försäljningskampanj](walkthrough-conducting-a-sales-campaign.md)
 #### [Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
-<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
-<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
-<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
-<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
+#### [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+#### [Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+#### [Genomgång: Planera leveranser manuellt](walkthrough-planning-supplies-manually.md)
+#### [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
+#### [Genomgång: Sälja, sammanställa och leverera satser](walkthrough-selling-assembling-and-shipping-kits.md)
 #### [Genomgång: Hantera projekt med Projekt](walkthrough-managing-projects-with-jobs.md)
 #### [Genomgång: Beräkna produkter i arbete för ett projekt](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Genomgång: Plockning och leverans i grundläggande lagerkonfiguration](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
+#### [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)
 #### [Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Designdetaljer
 #### [Översikt över designdetaljer för applikation](design-details-application-design.md)
+#### Designdetaljer: Leveransplanering
+##### [Översikt över leveransplanering](design-details-supply-planning.md)
+##### [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)  
+##### [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
+##### [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
+##### [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
+##### [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
+##### [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
+##### [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)
 #### Designdetaljer: Lagerkalkylering
-##### [Designdetaljer för lagerkostnader](design-details-inventory-costing.md)
+##### [Kostnadsöversikt](design-details-inventory-costing.md)
 ##### [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 ##### [Designinformation: ändra värderingsprinciper för artiklar](design-details-changing-costing-methods.md)
 ##### [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
 ##### [Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  
+##### [Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)  
 ##### [Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)  
 ##### [Designdetaljer: Varians](design-details-variance.md)  
@@ -44,82 +55,59 @@
 ##### [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)
 ##### [Designdetaljer: Lagervärdering](design-details-inventory-valuation.md)  
 ##### [Designdetaljer: Omvärdering](design-details-revaluation.md)
-#### Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen
-##### [Bokföringsdatum i översikt för justeringsvärdetransaktion](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Felmeddelanden "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-##### [Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen](design-details-inventory-adjustment-value-entry-source-entry.md)
-#### Designdetaljer: Dimensionsuppsättningstransaktioner
-##### [Designdetaljer: Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)
-##### [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)
-##### [Designdetaljer: Tabellstruktur](design-details-table-structure.md)
-#### Designdetaljer: Leveransplanering
-##### [Designdetaljer för leveransplanering](design-details-supply-planning.md)
-##### [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)  
-##### [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
-##### [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
-##### [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
-##### [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
-##### [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
-##### [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)
 #### Designdetaljer: Lagerstyrning
-##### [Designdetaljer för Warehouse Management](design-details-warehouse-management.md)
+##### [Hantering av distributionslager – översikt](design-details-warehouse-management.md)
 ##### [Designdetaljer: Översikt över distributionslager](design-details-warehouse-overview.md)  
 ##### [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md)  
-##### [Designdetaljer: inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)  
+##### [Designdetaljer: Ankommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)  
 ##### [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md)  
 ##### [Designdetaljer: Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
-##### [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
+##### [Designdetaljer: Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
 ##### [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)
 #### Designdetaljer: Objektspårning
-##### [Designdetaljer: Artikelspårning](design-details-item-tracking.md)
+##### [Översikt över artikelspårning](design-details-item-tracking.md)
 ##### [Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)  
 ##### [Designdetaljer: Bokföringsstruktur för artikelspårning](design-details-item-tracking-posting-structure.md)  
 ##### [Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner](design-details-active-versus-historic-item-tracking-entries.md)  
-##### [Designdetaljer – Sida för artikelspårningsrader](design-details-item-tracking-lines-window.md)  
+##### [Designdetaljer - Sida för artikelspårningsrader](design-details-item-tracking-lines-window.md)  
 ##### [Designdetaljer: Disposition av artikelspårning](design-details-item-tracking-availability.md)  
 ##### [Designdetaljer: Artikelkoppling och planering](design-details-item-tracking-and-planning.md)  
 ##### [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 ##### [Designdetaljer: Artikelkoppling i distributionslagret](design-details-item-tracking-in-the-warehouse.md)
 #### Designdetaljer: Bokföring av rad i redovisningsjournalen
-##### [Designdetaljer för Bokföringsrad i redovisningsjournal](design-details-general-journal-post-line.md)
+##### [Bokföringsrad i redovisningsjournal](design-details-general-journal-post-line.md)
 ##### [Översikt över bokföring av rad i redovisningsjournalen](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)  
 ##### [Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)  
+##### [Designdetaljer: Ändringar i kodmodul 12: Mappa globala variabler för bokföring av rad i redovisningsjournalen](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
+##### [Designdetaljer - Ändringar i kodmodul 12: ändringar i bokföringsprocedurer i redovisningsjournalen](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+#### Designdetaljer: Dimensionsuppsättningstransaktioner
+##### [Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries.md)
+##### [Designdetaljer: Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)  
+##### [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
+##### [Designdetaljer: Tabellstruktur](design-details-table-structure.md)  
 
 ## Testa
 ### [Utvärderingsversioner och prenumerationer](across-preview.md)
-### [Gör dig redo att göra affärer](ui-get-ready-business.md)
+### [Komma igång med Business Central](product-get-started.md)
 ### [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)
 ### [Utöka din utvärderingsversion](admin-extend-trial.md)
 ### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
 ## Köp
-### [Komma igång med en prenumeration](across-preview.md#getting-started-with-a-subscription)
 ### [Gör dig redo att göra affärer](ui-get-ready-business.md)
-
-## Snabbstart
-### [Snabbstart för Business Central](quick-start-business-central.md)
-### [Ställa in företagsinformation](quick-start-company-information.md)
-### [Sälja produkter och tjänster](quick-start-sell-products-and-services.md)
-### [Köpa produkter och tjänster](quick-start-procurement.md)
 
 <!--setup-->
 ## Ställa in Business Central
-### [Översikt över aktiviteter](setup.md)
+### [Ställa in Business Central](setup.md)
 ### Ställa in ekonomi
 #### [Ställa in Finance](finance-setup-finance.md)
-#### [Konfigurera betalsätt](finance-payment-methods.md)
-#### [Ställa in betalningsvillkor](finance-payment-terms.md)
+#### [Definiera betalningssätt](finance-payment-methods.md)
 #### [Ställa in bokföringsmallar](finance-posting-groups.md)
 #### [Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)
 #### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)
-#### [Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)
-#### [Konfigurera räntevillkor](finance-setup-finance-charges.md)
 #### [Ställa in moms](finance-setup-vat.md)
-#### [Konfigurera beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)
 #### [Ställa in orealiserad moms för kontantbaserad redovisning](finance-setup-unrealized-vat.md)
-#### [Validera momsregistreringsnummer](finance-how-validate-vat-registration-number.md)
 #### [Ställa in ursprungskoder och orsakskoder för granskningshistorik](finance-setup-trail-codes.md)
 #### [Aktivera koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md)
 #### [Ställa in en alternativ rapporteringsvaluta.](finance-how-setup-additional-currencies.md)
@@ -142,10 +130,9 @@
 #### [Registrera nya kunder](sales-how-register-new-customers.md)
 #### [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md)
 #### [Registrera speciella försäljningspriser och rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
-#### [Ställ in kundprisgrupper](sales-how-to-set-up-customer-price-groups.md)
 #### [Skapa säljare](sales-how-setup-salespeople.md)
 #### [Skapa dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md)
-#### [Skicka dokument via e-post](ui-how-send-documents-email.md)
+#### [Skicka dokument som e-post](ui-how-send-documents-email.md)
 #### [Så här definierar du leveransmetoder](sales-how-set-up-shipment-methods.md)
 #### [Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)
 ### Ställa in inköp
@@ -176,20 +163,19 @@
 #### [Skapa allmän information om anläggningstillgångar](fa-how-setup-general.md)
 #### [Skapa avskrivning för anläggningstillgång](fa-how-setup-depreciation.md)
 #### [Definiera avskrivningsmetoder](fa-depreciation-methods.md)
-#### [Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md)
 #### [Skapa försäkring för anläggningstillgångar](fa-how-setup-insurance.md)
 #### [Skapa underhåll för anläggningstillgångar](fa-how-setup-maintenance.md)
 ### Ställa in lagerstyrning
 #### [Konfigurera distributionslager](warehouse-setup-warehouse.md)
 #### [Designdetaljer: Översikt över distributionslager](design-details-warehouse-overview.md)
 #### [Skapa lagerplatstyper](warehouse-how-to-set-up-bin-types.md)
-#### [Skapa lagerställen](warehouse-how-to-create-individual-bins.md)
-#### [Skapa lagerställesinnehåll](warehouse-how-to-set-up-bin-contents.md)
-#### [Tilldela standardlagerställen till artiklar](warehouse-how-to-assign-default-bins-to-items.md)
+#### [Skapa lagerplatser](warehouse-how-to-create-individual-bins.md)
+#### [Skapa lagerplatsinnehåll](warehouse-how-to-set-up-bin-contents.md)
+#### [Tilldela standardlagerplatser till artiklar](warehouse-how-to-assign-default-bins-to-items.md)
 #### [Skapa artikelinförselmallar](warehouse-how-to-set-up-put-away-templates.md)
 #### [Registrera distributionslagerpersonal](warehouse-how-to-set-up-warehouse-employees.md)
-#### [Registrera lagerställen för att använda lagerställen](warehouse-how-to-set-up-locations-to-use-bins.md)
-#### [Konvertera befintliga lagerställen till distributionslagerställen](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
+#### [Registrera lagerställen för att använda lagerplatser](warehouse-how-to-set-up-locations-to-use-bins.md)
+#### [Konvertera befintliga lagerställen till distributionslagerplatser](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
 #### [Ställa in grundläggande dist.lager med verksamhetsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 #### [Registrera artiklar och platser för dirigerad artikelinförsel och plockning](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
 #### [Aktivera automatisk volymnedbrytning med dirigerad artikelinförsel och plockning](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
@@ -204,7 +190,6 @@
 #### [Skapa produktionsstrukturer](production-how-to-create-production-boms.md)
 #### [Så här: Aktivera bokföring av komponenter utifrån operationens utflöde](production-how-to-flush-components-according-to-operation-output.md)
 #### [Arbeta med måttenheter för produktionsbatch](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
-#### [Hantera partistorlekar i produktion](production-handling-lot-sizes.md)
 #### [Arbeta med produktionsfamiljer](production-how-work-family.md)
 #### [Skapa standardverksamhetsföljdrader](production-how-set-up-standard-routing-lines.md)
 #### [Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)
@@ -247,89 +232,65 @@
 #### [Samla in kundinställningsdata](admin-gather-customer-setup-values.md)
 #### [Förbereda migrering av kunddata med mallar](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Migrera kunddata](admin-migrate-customer-data.md)
+#### [Så här skapar du anpassade konfigurationspaket för företag](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tips och råd: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Ställa in e-post
-#### [Konfigurera e-post](admin-how-setup-email.md)
-#### Konfigurera företagsinkorgen i Microsoft Outlook
-##### [Hämta Business Central-tillägget för Outlook](admin-outlook.md)
-##### [Använda Business Central som din företagsinkorg i Outlook](work-outlook-addin.md)
-##### [Synkronisera med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
-##### [Optimera Outlook](admin-outlook-optimize.md)
-##### [Använda Business Central utan Outlook](admin-no-outlook.md)
-### Ställa in rapporter
-#### [Rapporturval](across-report-selections.md)
-### Ställer in anslutningar
-#### [Hämta Business Central-tillägget för Excel](admin-deploy-excel-addin.md)
-#### Använda Business Central som din företagsinkorg i Outlook 
-##### [Översikt](admin-outlook.md)
-##### [Synkronisera med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-##### [Använda Business Central utan Outlook](admin-no-outlook.md)
-#### ANvända Microsoft Teams med Business Central
-##### [Översikt](across-teams-overview.md)
-##### [Hantera teamintegrering](admin-teams-integration.md)
-##### [Installera Business Central-appen för Team](across-install-app-for-teams.md)
-##### [Söka efter kunder, leverantörer och kontakter](across-search-contacts-teams.md)
-##### [Dela poster och sidlänkar i Teams](across-working-with-teams.md)
-##### [Ändra företag och andra inställningar](across-teams-settings.md)
-##### [Vanliga frågor och Svar om Teams](teams-faq.md)
-##### [Felsökning](admin-teams-troubleshooting.md)
-#### Använda OneDrive för företag med Business Central
-##### [Översikt](across-onedrive-overview.md)
-##### [Hantera OneDrive för företagsintegrering](admin-onedrive-integration.md)
-##### [Öppna Business Central-filer i OneDrive](across-share-onedrive.md)
-##### [OneDrive Vanliga frågor och svar](admin-onedrive-faq.md)
-#### ANvända Power BI med Business Central
-##### [Introduktion](admin-powerbi.md)
-##### Administratör
-###### [Integreringsöversikt](admin-powerbi-overview.md)
-###### [Aktivera Power BI-integrering](admin-powerbi-setup.md)
-##### Skapare av rapporter
-###### [Komma igång med att skapa rapporter](across-how-use-financials-data-source-powerbi.md)
-###### [Skapa rapporter för att visa listdata](across-how-use-powerbi-reports-factbox.md)
-##### Affärsanvändare
-###### [Arbeta med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
-###### [Arbeta med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
-###### [Använda Business Central-appar i Power BI](across-powerbi-business-central-apps.md)
-##### [Vanliga frågor och svar](power-bi-faq.md)
-#### ANvända Power Automate med Business Central
-##### [Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)
-#### ANvända Power Apps med Business Central
-##### [Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Om du byter från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)
-#### [Bulkfakturera för Microsoft Bookings](finance-bookings.md)
-#### [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)
+### Använda Outlook med Business Central
+#### [Använda Business Central som din företagsinkorg i Outlook](admin-outlook.md)
+#### [Synkronisera med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+#### [Använda Business Central utan Outlook](admin-no-outlook.md)
+### Microsoft Teams-integration
+#### [Översikt](across-teams-overview.md)
+#### [Hantera teamintegrering](admin-teams-integration.md)
+#### [Installera Business Central-appen för Team](across-install-app-for-teams.md)
+#### [Arbeta med Business Central-data in Team](across-working-with-teams.md)
+### ANvända Power BI med Business Central
+#### [Introduktion](admin-powerbi.md)
+#### Administratör
+##### [Integreringsöversikt](admin-powerbi-overview.md)
+##### [Aktivera Power BI-integrering](admin-powerbi-setup.md)
+#### Designer
+##### [Komma igång med att skapa rapporter](across-how-use-financials-data-source-powerbi.md)
+##### [Skapa rapporter för att visa listdata](across-how-use-powerbi-reports-factbox.md)
+#### Konsument
+##### [Arbeta med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
+##### [Arbeta med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
+##### [Använda Business Central-appar i Power BI](across-powerbi-business-central-apps.md)
+### ANvända Power Automate med Business Central
+#### [Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)
+### ANvända Power Apps med Business Central
+#### [Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps](across-how-use-financials-data-source-powerapps.md)
+### [Om du byter från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)
+### [Få Business Central på din mobila enhet](install-mobile-app.md)
+### [Bulkfakturera för Microsoft Bookings](finance-bookings.md)
+### [Använda samma Microsoft 365-konto i Business Central och i Microsoft Invoicing](about-reuse-company-invoicing.md)
+### [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)
+### [Konfigurera e-post](admin-how-setup-email.md)
 ### [Skapa nummerserier](ui-create-number-series.md)
 ### [Skapa baskalendrar](across-how-to-assign-base-calendars.md)
-### [Ställa in skrivare](ui-specify-printer-selection-reports.md)
-### [Skaffa Business Central på din mobila enhet](install-mobile-app.md)
-### [Skaffa Business Central på din stationära dator](install-desktop-app.md)
-
+<!--### [Get SmartList Designer](bi-smartlist-designer-setup.md)-->
 
 ## Vanliga frågor och svar
-### [Vanliga frågor och svar](across-faq.yml)
+### [Vanliga frågor](across-faq.md)
 ### [Vanliga frågor om Berätta](ui-search-faq.md)
-### [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)
-### [Vanliga frågor om listvyer](ui-views-faq.yml)
-### [Vanliga frågor om Kopiera och klistra in](faq-copy-paste.yml)
-### [Vanliga frågor och svar om mobilappar](ui-mobile-faq.yml)
-### [Vanliga frågor och Svar om Teams](teams-faq.md)
-### [Vanliga frågor och svar om elektronisk fakturering](faq-electronic-invoicing.yml)
+### [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)
+### [Vanliga frågor om listvyer](ui-views-faq.md)
 ### [Minsta krav](product-requirements.md)
 
 ## Hjälp och support
 ### [Resurser för hjälp och support](product-help-and-support.md)
+### [Hjälpsystem](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
 ### [Besök vårt videobibliotek](across-videos.md)
 ### [Teknisk support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Dynamics 365 Business Central on Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Getting Ready for Doing Business](ui-get-ready-business.md)
+#### [Documentation](product-get-started.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Getting Ready for Doing Business](ui-get-ready-business.md)
+#### [Documentation](product-get-started.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
@@ -341,16 +302,14 @@
 ## [Söka efter sidor med rollutforskaren](ui-role-explorer.md)
 ## [Vanliga frågor om Berätta](ui-search-faq.md)
 ## [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
-## [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)
+## [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)
 ## [Ange data](ui-enter-data.md)
-## [Vanliga frågor om Kopiera och klistra in](faq-copy-paste.yml)
+## [Vanliga frågor om Kopiera och klistra in](ui-copy-paste.md)
 ## [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md)
 ## [Identifiera obligatoriska fält](ui-mandatory-fields.md)
 ## [Byta språk och region](about-locale-language.md)
 ## [Visa och redigera i Excel](across-work-with-excel.md)
-## [Lagra och dela filer i OneDrive](across-share-onedrive.md)
 ## [Hantera bifogade filer, länkar och anteckningar på kort och dokument](ui-how-add-link-to-record.md)
-## [Använda Word-mallar för masskommunikation](ui-mail-merge.md)
 ## [Ändra grundinställningar](ui-change-basic-settings.md)
 ## [Byta till ett annat företag eller annan miljö](ui-organization-switch.md)
 ## [Hantera meddelanden](ui-smart-notifications.md)
@@ -378,13 +337,13 @@
 ### [Definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md)
 ### [Lägga till fält i en Word-rapportlayout](ui-how-add-fields-word-report-layout.md)
 ### [Tillgängliga teckensnitt](ui-fonts.md)
-## Tillgänglighet, kortkommandon och tryckgester
-### [Tillgänglighet](ui-accessibility.md)
+## Använda kortkommandon
+### [Hjälpmedel och kortkommandon](ui-accessibility.md)
 ### [Kortkommandon](keyboard-shortcuts.md)
-### [Snabbguide för kortkommandon – endast dator](keyboard-shortcuts-cheatsheet.md)
-### [Gester för touch och penna](touch-gestures.md)
+### [Snabbguide för kortkommandon - endast dator](keyboard-shortcuts-cheatsheet.md)
 ## [Felsökning: komma åt kamera och plats](ui-troubleshooting-camera-location.md)
-## [Intelligenta insikter med (endast online)](about-intelligent-cloud.md)
+## [Din åtkomst till intelligent moln med Business Central](about-intelligent-cloud.md)
+## [Genomgång: Spåra serienummer/partinummer](walkthrough-tracing-serial-lot-numbers.md)
 # Affärsfunktion
 ## [Översikt över affärsfunktioner](across-business-functionality.md)
 <!--general-->
@@ -422,7 +381,7 @@
 ##### [Konfigurera arbetsflöden](across-set-up-workflows.md)
 ##### [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)
 ##### [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)
-##### [Aviseringar för arbetsflöde](across-setting-up-workflow-notifications.md)
+##### [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)
 ##### [Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md)
 ##### [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)
 ##### [Konfigurera e-post](admin-how-setup-email.md)
@@ -430,6 +389,7 @@
 ##### [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)
 ##### [Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md)
 ##### [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+##### [Genomgång: Implementera nya arbetsflödeshändelser och svar](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
 #### Använda arbetsflöden
 ##### [Använd arbetsflöden](across-use-workflows.md)
 ##### [Så här aktiverar du arbetsflöden](across-how-to-enable-workflows.md)
@@ -452,10 +412,9 @@
 ##### [Ställa in bankutdragstjänsten](bank-how-setup-bank-statement-service.md)
 ##### [Skapa bankkonton](bank-how-setup-bank-accounts.md)
 ##### [Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-
+##### [Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
 #### Utbyta data
 ##### [Dataintegration](across-exchange-data.md)
-##### [Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Skicka elektroniska dokument](sales-how-to-send-electronic-documents.md)
 ##### [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md)
 ##### [Ta emot och omvandla elektroniska dokument](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -468,10 +427,8 @@
 ##### [Fältmappning för AMC Banking 365 Fundamentals-tillägget](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finans
 ### [Finansöversikt](finance.md)
-### [Ekonomisk rapportering](finance-reports.md)
 ### Hantera kundreskontra
 #### [Översikt över kundreskontra](receivables-manage-receivables.md)
-#### [Kundreskontra, rapporter och analyser](receivables-reports.md)
 #### Koppla utbetalningar automatiskt och stämma av bankkonton
 ##### [Översikt över betalningskoppling](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)
@@ -482,17 +439,16 @@
 #### [Så här stämmer du av kundutbetalningar från en lista med obetalda försäljningsdokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md)
 #### [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)
-#### [Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Skicka påminnelser om utestående saldon](receivables-send-reminders.md)
+#### [Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Spärra kunder](receivables-how-block-customers.md)
+#### [Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)
 #### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md)
 
 ### Hantera Leverantörsreskontra
 #### [Översikt över leverantörsreskontra](payables-manage-payables.md)
-#### [Leverantörsskulder, rapporter och analyser](payables-reports.md)
 #### Göra betalningar
-##### [Göra betalningar](payables-make-payments.md)
+#### [Betalningsöversikt](payables-make-payments.md)
 ##### [Arbeta med redovisningsjournaler](ui-work-general-journals.md)
 ##### [Registrera betalningar och återbetalningar](payables-how-post-payments-refunds.md)
 ##### [Betalningsförslag för lev.](payables-how-suggest-vendor-payments.md)
@@ -530,10 +486,9 @@
 #### [Koncerninterna inställningar](intercompany-how-setup.md)
 #### [Arbeta med koncerninterna dokument och journaler](intercompany-how-work-documents-journals.md)
 #### [Hantera koncerninterna in- och utkorgar](intercompany-how-manage-intercompany-inbox.md)
-#### [Fördela kostnader till koncerninterna partner](intercompany-allocate-costs.md)
 
 ### Redovisa kostnader
-#### [Kostnadsredovisning – översikt](finance-manage-cost-accounting.md)
+#### [Kostnadsredovisning - översikt](finance-manage-cost-accounting.md)
 #### [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)
 #### [Om kostnadsredovisning](finance-about-cost-accounting.md)
 #### [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)
@@ -545,14 +500,13 @@
 ### Hantera lagerkostnader
 #### [Översikt över lagerkostnad](finance-manage-inventory-costs.md)
 #### [Om Lagerkostnad](finance-learn-about-costing.md)
-#### [Använd artikelomkostnader för att redovisa ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)
 #### [Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)
-#### [Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)
+#### [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)
 #### [Arbeta med lagerperioder](finance-how-to-work-with-inventory-periods.md)
 #### [Ställa in lagervärdering och lagerkostnad](finance-set-up-inventory-valuation-and-costing.md)
 #### [Omvärdera lager](inventory-how-revalue-inventory.md)
 #### [Justera artikelkostnader](inventory-how-adjust-item-costs.md)
-#### [Hantera lager – och produktionskostnader](finance-handle-inventory-and-manufacturing-costs.md)
+#### [Hantera lager - och produktionskostnader](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)
 #### [Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
@@ -560,11 +514,6 @@
 ##### [Rapportering av kostnader](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 ##### [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Övervaka projektframsteg och -resultat](projects-how-monitor-progress-performance.md)
-#### [Justera och stämma av lagerkostnad med redovisning med jobbkö](finance-adjust-reconcile-inventory-cost-job-queue.md)
-
-### Hantera kassaflöde
-#### [Kassaflöde, översikt](finance-cash-flow-overview.md)
-#### [Analysera transaktioner i företaget](finance-analyze-cash-flow.md)
 
 ### Avsluta år och perioder
 #### [Översikt över årsslut](year-close-years-periods.md)
@@ -585,11 +534,11 @@
 #### [Ställa in företagskonsolidering](finance-consolidated-company-reporting-setup.md)
 ### [Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md)
 ### [Arbeta med dimensioner](finance-dimensions.md)
-### [Felsökning och korrigering av dimensioner](finance-troubleshooting-correcting-dimensions.md)
 ### [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 ### [Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)
 ### [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)
 ### [Fördela kostnader och intäkter](year-allocate-costs-income.md)
+### [Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)
 ### [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)
 ### [Periodisera intäkter och kostnader](finance-how-defer-revenue-expenses.md)
 ### [Uppdatera valutakurser](finance-how-update-currencies.md)
@@ -598,15 +547,14 @@
 ### [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)
 ### [Så här omvandlar du servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)
 ### [Hantera momssatsändringar](finance-how-use-vat-rate-change-tool.md)
+### [Analysera transaktioner i företaget](finance-analyze-cash-flow.md)
 ### [Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analysera finansiella rapporter i Excel](finance-analyze-excel.md)
 ### [Överföra banktillgångar](bank-how-transfer-bank-funds.md)
 ### [Revisorlösningar i Business Central](finance-accounting.md)
-### [Flera platser och internationella organisationer](finance-multi-site-organizations.md)
 
-## Business Intelligence och Financial Reporting
-### [Business Intelligence och Financial Reporting (översikt)](bi.md)
-### [Ekonomisk rapportering](finance-reports.md)
+## Affärsstöd
+### [BI-översikt](bi.md)
 ### [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)
 ### [Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)
 ### [Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -614,10 +562,10 @@
 ### [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)
 ### [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)
 ### [Hantera åtkomstmetod för databas](admin-data-access-intent.md)
+<!--### [Create Custom Queries using SmartLists](bi-smartlists.md)-->
 
 ## FÖRS
 ### [Försäljningsöversikt](sales-manage-sales.md)
-### [Försäljningsrapporter](sales-reports.md)
 ### [Genomgång: Genomföra en försäljningskampanj](walkthrough-conducting-a-sales-campaign.md)
 ### [Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Registrera nya kunder](sales-how-register-new-customers.md)
@@ -629,21 +577,19 @@
 ### [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)
 ### [Skapa direktleveranser](sales-how-drop-shipment.md)
 ### [Skapa specialorder](sales-how-to-create-special-orders.md)
-### [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)
-### [Behandlar säljreturordrar](sales-how-process-sales-returns-orders.md)
 ### [Korrigera eller makulera obetalda försäljningsfakturor](sales-how-correct-cancel-sales-invoice.md)
+### [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)
 ### [Arbeta med försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)
 ### [Kombinera leveranser på en enda faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)
 ### [Spåra paket](sales-how-track-packages.md)
 ### [Datumberäkning för försäljning](sales-date-calculation-for-sales.md)
+### [Skapa en prognos](production-how-to-create-a-forecast.md)
 ### [Slå samman dubblettposter](sales-how-merge-duplicate-records.md)
 ### [Arbeta med återkommande intäkter](finance-recurring-invoicing.md)
-### [Ange externa dokumentnummer](across-enter-external-document-numbers.md)
 
 ## Inköp
 ### [Inköpsöversikt](purchasing-manage-purchasing.md)
-### [Inköpsrapporter](purchase-reports.md)
 ### [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Registrera inköp](purchasing-how-record-purchases.md)
 ### [Begär offerter](purchasing-how-request-quotes.md)
@@ -656,36 +602,30 @@
 ### [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)
 ### [Slå samman dubblettposter](sales-how-merge-duplicate-records.md)
 ### [Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)
-### [Externa dokumentnummer på inköpsdokument](purchasing-ext-doc-no.md)
-### [Ange externa dokumentnummer](across-enter-external-document-numbers.md)
-
 
 ## Lager
 ### [Lageröversikt](inventory-manage-inventory.md)
-### [Lager och distributionslagerrapporter](inventory-WMS-reports.md)
 ### [Registrera nya artiklar](inventory-how-register-new-items.md)
 ### [Arbeta med strukturer](inventory-how-work-BOMs.md)
 ### [Kategorisera artiklar](inventory-how-categorize-items.md)
 ### [Arbeta med artikelattribut](inventory-how-work-item-attributes.md)
 ### [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md)
-### [Beräkna och justera lager med hjälp av dokument](inventory-how-count-inventory-with-documents.md)
+### [Beräkna lager med hjälp av dokument](inventory-how-count-inventory-with-documents.md)
 ### [Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md)
 ### [Visa artikeldisposition](inventory-how-availability-overview.md)
 ### [Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)
 ### [Reservera artiklar](inventory-how-to-reserve-items.md)
-### [Ställa in artikelspårning med serie-, parti- eller paketnummer](inventory-how-setup-item-tracking.md)
-### [Spåra artiklar med serie-, parti-och paketnummer](inventory-how-work-item-tracking.md)
+### [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)
+### [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md)
 ### [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)
-### [Använd artikelreferenser](inventory-how-use-item-cross-refs.md)
 ### [Spärra artiklar](inventory-how-block-items.md)
 ### [Arbeta med ansvarsenheter](inventory-responsibility-centers.md)
 
 ## Projekthantering
 ### [Översikt över projekthantering](projects-manage-projects.md)
-### [Projektrapporter](project-reports.md)
 ### [Skapa projekt](projects-how-create-jobs.md)
-### [Använda resurser för projekt](projects-how-use-resources.md)
-### [Använda tidrapporter](projects-how-use-time-sheets.md)
+## [Använda resurser för projekt](projects-how-use-resources.md)
+### [Använda tidrapporter för projekt](projects-how-use-time-sheets.md)
 ### [Hantera projektbudgetar](projects-how-manage-budgets.md)
 ### [Registrera förbrukning för projekt](projects-how-record-job-usage.md)
 ### [Hantera projektleveranser](projects-how-manage-project-supplies.md)
@@ -695,7 +635,6 @@
 
 ## Anläggningstillgångar
 ### [Anläggningstillgångar – översikt](fa-manage.md)
-### [Rapporter och analyser för anläggningstillgångar](fa-reports.md)
 ### [Skaffa anläggningstillgångar](fa-how-acquire.md)
 ### [Underhålla anläggningstillgångar](fa-how-maintain.md)
 ### [Försäkra anläggningstillgångar](fa-how-insure.md)
@@ -704,7 +643,6 @@
 ### [Så här skriver du av eller amorterar anläggningstillgångar](fa-how-depreciate-amortize.md)
 ### [Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md)
 ### [Hantera budgetar för anläggningstillgångar](fa-how-manage-budgets.md)
-### [Felsöka poster i redovisning för anläggningstillgångar](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Kundhantering
 ### [Översikt över kundhantering](marketing-relationship-management.md)
@@ -744,22 +682,19 @@
 ## Planering
 ### [Produktionsplanering](production-planning.md)
 ### [Om planeringsfunktioner](production-about-planning-functionality.md)
+### [Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)
 ### [Planera med och utan lagerställen.](production-planning-with-without-locations.md)
 ### [Skapa en prognos](production-how-to-create-a-forecast.md)
 ### [Så här skapar du produktionsorder från försäljningsorder](production-how-to-create-production-orders-from-sales-orders.md)
+### [Planera projektorder](production-how-to-plan-project-orders.md)
 ### [Planera ny behovsorder efter order](production-how-to-plan-for-new-demand.md)
 ### [Kör du komplett planering, nettobehov och produktionsplan](production-how-to-run-mps-and-mrp.md)
 ### [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md)
 ### [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md)
-### [Inköpskalkylark](production-about-planning-functionality.md#requisition-worksheet)
-### [Åtgärdsmeddelanden](production-how-to-run-mps-and-mrp.md#action-messages)
-<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
-<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Monteringshantering
 ### [Montera Artiklar](assembly-assemble-items.md)
-### [Monteringsrapporter](assembly-reports.md)
 ### [Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Skapa en försäljning för montering mot kundorder](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Montera Artiklar](assembly-how-to-assemble-items.md)
@@ -773,7 +708,6 @@
 
 ## Produktion
 ### [Produktionsöversikt](production-manage-manufacturing.md)
-### [Produktionsrapporter](production-reports.md)
 ### [Om produktionsorder](production-about-production-orders.md)
 ### [Skapa produktionsorder](production-how-to-create-production-orders.md)
 ### [Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)
@@ -788,7 +722,6 @@
 
 ## Lagerstyrning
 ### [Lagerstyrning](warehouse-manage-warehouse.md)
-### [Lager och distributionslagerrapporter](inventory-WMS-reports.md)
 ### [Ta emot artiklar](warehouse-how-receive-items.md)
 ### [Beräkna direktutleverans av artiklar](warehouse-how-to-cross-dock-items.md)
 ### Införa utflöde från artiklar
@@ -798,6 +731,8 @@
 #### [Föra in produktions- eller monteringsutflöde](warehouse-how-to-put-away-production-output.md)
 #### [Planera artikelinförsel i kalkylark](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Plocka och lagra utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
+#### [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
+#### [Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Flytta artiklar
 #### [Flytta artiklar](warehouse-move-items.md)
 #### [Flytta artiklar ad hoc i grundläggande lagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -819,8 +754,10 @@
 ### [Leverera artiklar](warehouse-how-ship-items.md)
 ### [Hitta distributionslagerfördelningar](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Använda ADCS (Automatiskt datainsamlingssystems)](warehouse-use-automated-data-capture-systems-adcs.md)
-<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
-<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+### [Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](walkthrough-picking-and-shipping-in-basic-warehousing.md)
+### [Genomgång: Inleverera och införa utflöde i avancerade lagerkonfigurationer](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+### [Genomgång: Planera leveranser manuellt](walkthrough-planning-supplies-manually.md)
+### [Genomgång: Planera leveranser automatiskt](walkthrough-planning-supplies-automatically.md)
 
 ## Servicehantering
 ### [Servicehantering](service-service.md)
@@ -886,7 +823,6 @@
 ##### [Bestäm försäljningspris per kostnad plus en procentsats](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australiensiska företagsnummer och justeringsnoteringar](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Ange australiensiska företagsnummer](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
-##### [Rapportering av betalningstider](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Österrike
 #### [Lokala funktioner i den österrikiska versionen](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -921,20 +857,34 @@
 ##### [Ställ in deklarationstyper](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Exportera tredje parts deklarationer från Intrastat](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Bankverksamhet och betalningar
-##### [Elektronisk bankverksamhet (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Elektroniska betalningar (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
+##### [Ställ in bankkonton för CODA](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
+##### [Använda CODA-utdrag](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
+##### [Automatiskt överföra och bokföra CODA-utdrag](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
+##### [CODA bankutdrag](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [Belgisk elektronisk bankverksamhet](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Ställ in elektronisk bankverksamhet](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 ##### [Ställ in export av protokoll](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Sammanfattning av betalningsrader och allmänna journalrader](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
+##### [Belgiska elektroniska betalningar](LocalFunctionality/Belgium/belgian-electronic-payments.md)
+##### [Ställ in IBLC-BLWI-transaktionskoder](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
 ##### [Ställ in leverantörer för automatiskt betalningsförslag](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Skapa betalningsjournalmallar och journaler](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Testa elektroniska betalningar](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Exportera betalningsfiler](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Autogiro med autogirering](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [CODA bankutdrag](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Använda CODA-utdrag](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
-##### [Automatiskt överföra och bokföra CODA-utdrag](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
-##### [Manuellt överföra och bokföra CODA-utdrag](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [Generera betalningsförslag](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
 ##### [Importera CODA-bankutdrag](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
+##### [Hantera elektroniska betalningsrader](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
+##### [Manuellt överföra och bokföra CODA-utdrag](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [Skriva ut betalningsfiler](LocalFunctionality/Belgium/how-to-print-payment-files.md)
+##### [SEPA-betalningar](LocalFunctionality/Belgium/sepa-payments.md)
+##### [Aktivera SEPA-betalningar](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
+##### [Arkivera icke euro SEPA-betalningar](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Arkivera SEPA-betalningar](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
+##### [Autogiro med autogirering](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
+##### [Ställ in autogireringar](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
+##### [Redigera och ta bort autogireringsrader](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
+##### [Testa autogireringar](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
+##### [Exportera och bokföa autogireringar](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
+##### [Generera autogireringsförslag](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
+##### [Sammanfattning av betalningsrader och allmänna journalrader](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
 #### Grundläggande ekonomi
 ##### [Använda och ta bort redovisningstransaktioner](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Skapa bokslut](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -960,31 +910,24 @@
 
 ### Tjeckien
 #### [Lokala funktioner i den tjeckiska versionen](LocalFunctionality/Czech/czech-local-functionality.md)
-#### [Grundläggande lokaliseringspaket för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
-#### [Avancerat lokaliseringspaket för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Grundläggande ekonomi  
 ##### [Ekonomi](LocalFunctionality/Czech/finance.md)
 ##### [Bokslutsåtgärder](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Koppling av redovisningstransaktioner](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Uppdatera valutakurs](LocalFunctionality/Czech/exchange-rate-update.md)
 #### Moms
-##### [Ekonomi – moms](LocalFunctionality/Czech/finance-vat.md)
+##### [Ekonomi - moms](LocalFunctionality/Czech/finance-vat.md)
 ##### [Rapport för momskontroll](LocalFunctionality/Czech/vat-control-report.md)
 #### Anläggningstillgångar
 ##### [Anläggningstillgångar](LocalFunctionality/Czech/fixed-assets.md)
-##### [Lokalisering av anläggningstillgångar för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankverksamhet och betalningar
 ##### [Bankfunktion](LocalFunctionality/Czech/bank-feature.md)
-##### [Lokalisering av bankdokument för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Kassahantering](LocalFunctionality/Czech/cash-desk-management.md)
-##### [Lokalisering av kassahantering för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registrering av försäljning (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Förskott](LocalFunctionality/Czech/advances.md)
-##### [Lokalisering av förskottsbetalning för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Leverantörsreskontra och kundreskontra
 ##### [Leverantörsreskontra och kundreskontra](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Kompensationslokalisering för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Lager
 ##### [Lager](LocalFunctionality/Czech/inventory.md)
 #### Allmänt
@@ -1032,14 +975,16 @@
 ##### [Exportera redovisningstransaktioner till en XML-fil](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Krav för rapportering av deklaration av handel med varor](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Bankverksamhet och betalningar
-##### [Betalningshantering](LocalFunctionality/France/payment-management.md)
 ##### [Ställ in betalningsadresser](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
+##### [Ställ in betalningsstatusar](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
+##### [Ställ in betalningssteg](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Ställ in betalningsklasser](LocalFunctionality/France/how-to-set-up-payment-classes.md)
+##### [Arkivera betalningsdokument](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Skapa betalningsdokument](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Exportera betalningar](LocalFunctionality/France/how-to-export-payments.md)
-##### [Bokför betalningsdokument](LocalFunctionality/France/how-to-post-payment-slips.md)
-##### [Arkivera betalningsdokument](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Exportera och importera parametrar för inställning av betalningshantering](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
+##### [Betalningshantering](LocalFunctionality/France/payment-management.md)
+##### [Bokför betalningsdokument](LocalFunctionality/France/how-to-post-payment-slips.md)
 #### Grundläggande ekonomi
 ##### [Redovisning](LocalFunctionality/France/general-ledger.md)
 ##### [Använd redovisningstransaktioner](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1111,7 +1056,6 @@
 
 ### Indien
 #### [Översikt](LocalFunctionality/India/india-local-functionality.md)
-#### [Skapa bokföringsnummerserier](LocalFunctionality/India/posting-no-series-setup.md)
 #### Skattemotor
 ##### [Översikt](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Konfiguration för import/export av skattemotor](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1171,16 +1115,6 @@
 ###### [GST E-Way-faktura](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST – justering av Cedit på inflöde](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST-avräkning](LocalFunctionality/India/GST-Settelement.md)
-###### [GST E-faktura](LocalFunctionality/India/GST-E-Invoice.md)
-##### GST Cess
-###### [GST Cess grundläggande inställning](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
-###### [GST Cess-beräkning](LocalFunctionality/India/GST-Cess-Calculations.md)
-##### GST på servicehantering
-###### [GST på servicehantering](LocalFunctionality/India/GST-Service-Management.md)
-##### Distribution av GST-ingångstjänsten
-###### [Översikt över distribution av GST-ingångstjänsten](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
-###### [Process för Distribution av GST-ingångstjänsten](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
-###### [Transaktion av distribution av GST-ingångstjänsten](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [TDS-översikt](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS-transaktioner](LocalFunctionality/India/TDS-Transactions.md)
@@ -1188,8 +1122,6 @@
 ##### [TDS – preliminär transaktion](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS – justeringstransaktion](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS-betalning till utfärdare](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
-##### [Översikt över TDS-194Q-avsnitt](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
-##### [TDS 194Q-transaktioner](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS för kund
 ##### [TDS för kundöversikt](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS-beräkning för kund](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1200,24 +1132,9 @@
 ##### [TCS-gränsvärde](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS – justeringstransaktion](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS-betalning till utfärdare](LocalFunctionality/India/TCS-Payment-to-Authority.md)
-##### [206C-1H-översikt](LocalFunctionality/India/TCS-206C-1H-Overview.md)
-##### [206C-1H-Transaktion](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Verifikationsgränssnitt
 ##### [Översikt över verifikationsgränssnitt](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Transaktion i verifikationsgränssnitt](LocalFunctionality/India/Voucher-Interface-Transactions.md)
-#### Anläggningstillgång
-##### [Anläggningstillgångar – översikt](LocalFunctionality/India/FA_Overview.md)
-##### [Avskrivning av anläggningstillgång](LocalFunctionality/India/FA_Depreciation.md)
-#### Gate Entry
-##### [Gate Entry - översikt](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
-##### [Inre transaktion för Gate Entry](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
-##### [Yttre transaktion för Gate Entry](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
-#### Legotillverkning
-##### [Legotillverkning - översikt](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
-##### [Legotillverkning -transaktioner](LocalFunctionality/India/Subcontracting-Transactions.md)
-##### [Skapa ansvarighet för GST](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
-##### [Legotillverkningsrapport](LocalFunctionality/India/Subcontracting-Reports.md)
-#### [Postdaterad check](LocalFunctionality/India/Stale-Check.md)
 
 ### Italien
 #### [Lokala funktioner i den italienska versionen](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1231,8 +1148,6 @@
 ##### [Förbereda för momstransaktioner](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Skriva ut och återutskriva redovisningsböcker och momsjournaler](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Skriva ut Intrastat-rapporter för Italien](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
-#### Visa källskatt
-##### [Ställ in källskatt i italiensk version](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Skriva ut källskattrapporter](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Bankverksamhet och betalningar
 ##### [Ställa in betalningsvillkor](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1262,26 +1177,28 @@
 #### [Lokala funktioner i den mexikanska versionen](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Moms
 ##### [Ställa in och generera DIOT-rapporter](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Konfigurera beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  
+##### [Mexikansk omsättningsskatt](LocalFunctionality/Mexico/mexico-sales-tax.md)  
+##### [Ställa in importavgift och ingående moms](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
+##### [Ställa in orealiserad omsättningsskatt och försäljningskassarabatter](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+##### [RapporteraStälla inngsskatt i Mexiko](LocalFunctionality/Mexico/mexico-sales-tax.md)
+##### [Skapa depositioner](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 ##### [Skatte-ID-typer för Mexiko](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Omberäkning av moms](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronisk fakturering
-##### [Elektronisk fakturering (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Ställa in PAC-webbtjänster](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
-##### [Konfigurera elektronisk fakturering (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generera elektroniska fakturor (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
-##### [Carta de Porte-följesedlar och överföringsorder (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
-#### Allmänt
+##### [Elektronisk fakturering](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Ställa in elektronisk fakturering](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generera elektroniska fakturor](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
 ##### [Regler för elektronisk redovisning i Mexiko](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Gör elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### Allmänt
+##### [Ställa in PAC-webbtjänster](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Skriva ut felsökningsrapporter](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
-##### [Skapa depositioner](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Nederländerna
 #### [Lokala funktioner i den nederländska versionen](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### Moms
 ##### [Skapa en ljudfil för skattemyndigheten](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Ställa in momskategorier](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
+##### [Ställa in momskategorier](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
 ##### [Elektroniska moms- och ICP-deklarationer](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Ställa in elektroniska moms- och ICP-deklarationer](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Skicka elektroniska moms- och ICP-deklarationer](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1289,10 +1206,10 @@
 ##### [Nederländsk elektronisk bankverksamhet](LocalFunctionality/Netherlands/dutch-electronic-banking.md)
 ##### [Telebanking](LocalFunctionality/Netherlands/telebanking.md)
 ##### [Betalningsscenarier](LocalFunctionality/Netherlands/payment-scenarios.md)
-##### [Betalningsscenario 1 – lokala betalningar (BVA till BVA)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
+##### [Betalningsscenario 1 - lokala betalningar (BVA till BVA)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Betalningsscenario 2: utländsk betalning (FVA till FVA)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
-##### [Betalningsscenario 3 – utländsk betalning (FVA till FVA)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Skapa förslag](LocalFunctionality/Netherlands/how-to-create-proposals.md)
+##### [Betalningsscenario 3 - utländsk betalning (FVA till FVA)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
+##### [Skapa förslag](LocalFunctionality\Netherlands\how-to-create-proposals.md)
 ##### [Docket-rapporter](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Skriva in och bokföra kassa och bank eller journaler för giro](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Skriva ut testrapporter för kassa och bank eller journaler för giro](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1300,7 +1217,7 @@
 ##### [Aktivera SEPA-betalningar](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Skicka leverantörsbetalningar elektroniskt i SEPA ISO 20022 betalningsformat](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Skapa och exportera betalningshistorik](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Importera och stämma av bankutdrag](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
+##### [Importera och stämma av bankutdrag](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 #### Grundläggande ekonomi
 ##### [Använda och ta bort redovisningstransaktioner](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Nödvändiga beskrivningar i redovisningstransaktioner](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
@@ -1348,7 +1265,7 @@
 ### Norge
 #### [Lokala funktioner i den norska versionen](LocalFunctionality/Norway/norway-local-functionality.md)
 #### Moms
-##### [Norsk standardgranskningsfil – skattehantering (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
+##### [Norsk standardgranskningsfil - skattehantering (SAF-T)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 ##### [Norsk momsrapportering](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 ##### [Norska momskoder](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 ##### [Så här använder du en momskod i journaler](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1488,7 +1405,7 @@
 ##### [Exportera momsrapporter i textformat](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 ##### [Liknande tillägg](LocalFunctionality/Spain/equivalence-charges-ec-.md)
 #### Bankverksamhet och betalningar  
-##### [Elektroniska betalningar – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
+##### [Elektroniska betalningar - AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
 ##### [Ställ in bankkonton för elektroniska betalningar](LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)
 ##### [Betala leverantörer via elektroniska betalningar](LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md)
 ##### [Export elektroniska betalningar](LocalFunctionality/Spain/how-to-export-electronic-payments.md)
@@ -1501,7 +1418,7 @@
 ##### [Cartera-modul](LocalFunctionality/Spain/cartera-module.md)
 ##### [Cartera-modul för kundfordringar](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Betalningar Cartera-modul](LocalFunctionality/Spain/payments-cartera-module.md)
-##### [SII – Typer av faktura och kreditnota i försäljnings- och inköpsdokument](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [SII - Typer av faktura och kreditnota i försäljnings- och inköpsdokument](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
 #### Grundläggande ekonomi
 ##### [Ställ in och stäng resultaträkningssaldon](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indrag och validera kontoplan](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1573,7 +1490,7 @@
 ### Storbritannien
 #### [Lokala funktioner i den brittiska versionen](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
 #### Moms
-##### [Göra skatt digital – inlämning av momsretur](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
+##### [Göra skatt digital - inlämning av momsretur](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 ##### [Ändra momsinställningar i journaler](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 ##### [Skriva ut rapporter för momsgranskning](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
 ##### [Skriva ut momsrapporter](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
@@ -1586,9 +1503,9 @@
 #### Allmänt
 ##### [Ställa in varning om bokföringsdatum](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Ange lagstadgad information](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
-##### [Skicka bedrägeriskyddsdata](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [Tillägget GetAddress.io för postnummer i Storbritannien ](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Ställ in tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
+##### [Ange externa dokumentnummer](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### USA
 #### [Lokala funktioner i den amerikanska versionen](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1606,131 +1523,16 @@
 ##### [Skriva ut felsökningsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Skicka regelnotifieringar](submit-regulatory-alerts.md)
 
-<!--Reporting landing page-->
-# Business Intelligence och rapportering 
-
-## [Översikt](reports-bi-reporting.md)
-
-## Använd rapporter i det dagliga arbetet
-### [Översikt](reports-use-reports.md)
-### [Kör rapporter](ui-work-report.md)
-### [Bokmärka en rapport](ui-bookmarks.md)
-### [Analysera rapportdata med Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
-### [Skriva ut rapporter](ui-specify-printer-selection-reports.md#default)
-### [Schemalägga rapporter](ui-work-report.md#ScheduleReport)
-### [Hantering av sparade rapportinställningar](reports-saving-reusing-settings.md)
-### [Ändra standardrapportlayout](ui-how-change-layout-currently-used-report.md)
-
-## Inbyggda rapporter
-### [Rapportöversikt](reports-available-reports.md)
-### Finans
-#### [Ekonomisk analys](bi.md)
-#### [Analysera finansiella rapporter med Excel](finance-analyze-excel.md)
-#### [Viktiga ekonomiska rapporter](finance-reports.md)
-#### [Kundfordringsrapporter](receivables-reports.md)
-#### [Leverantörsreskontrarapporter](payables-reports.md)
-#### [Kassaflödesanalys](finance-setup-cash-flow-analyses.md)
-#### [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)
-
-### FÖRS
-#### [Försäljningsrapporter](sales-reports.md)
-#### [Status för avropsorder för försäljning](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Paketspårning](sales-how-track-packages.md)
-#### [Visa ej bokförda och bokförda försäljningsavropsorderrader](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Inköp
-#### [Inköpsrapporter](purchase-reports.md)
-#### [Visa inköpstransaktioner](ui-post-purchases.md#viewing-ledger-entries)
-
-### Lager och distributionslager
-#### [Lager och distributionslagerrapporter](inventory-wms-reports.md)
-#### [Artikeldisposition](inventory-how-availability-overview.md)
-#### [Spåra artiklar med serie-, parti-och paketnummer](inventory-how-work-item-tracking.md)
-#### [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)
-#### [Granska och avstäm mellan inventeringen och redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Visa direktutlevererade artiklar i utleveranser eller plockningskalkylark](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
-
-### Objekt
-#### [Projektrapporter](project-reports.md)
-#### [Visa projektförbrukning och uppskattningar](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Övervaka projektframsteg och -resultat](projects-how-monitor-progress-performance.md)
-
-### Anläggningstillgångar
-#### [Anläggningstillgångsrapporter](fa-reports.md)
-#### [Övervaka underhållskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Övervaka försäkringsskydd](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Visa ändrade värden för avskrivningsregler](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values)
-
-### Monteringshantering
-#### [Monteringshanteringsrapporter](assembly-reports.md)
-#### [Visa strukturen för strukturlistan](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
-
-### Produktion
-#### [Produktionsrapporter](production-reports.md)
-#### [Visa beläggning på produktions- och maskingrupper](production-how-to-view-the-load-on-work-centers.md)
-#### [Visa produktionsgruppstransaktioner](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
-
-### Servicehantering
-#### [Visa servicestatistik](service-service-statistics.md)
-#### [Översikt över serviceorder](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Översikt över serviceoffert](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Översikt över bokfört servicedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
-
-## Ad hoc-dataanalys
-### [Översikt](reports-adhoc-analysis.md)
-### [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
-### [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)
-### [Analysera siddata i Excel](across-work-with-excel.md)
-### [Analysera rapportdata med Excel](ui-work-report.md#saving-a-report-to-a-file)
-### [Ekonomisk analys](bi.md)
-
-## Inbyggda analyser 
-### [Översikt](reports-built-in-analytics.md)
-### [Intelligenta insikter](about-intelligent-cloud.md)
-### [Arbeta med Power BI-rapporter](across-working-with-powerbi.md)
-### [Ekonomisk analys](bi.md)
-### [Analysera finansiella rapporter med Excel](finance-analyze-excel.md)
-### [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)
-### [Telemetri för rapportanvändning](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analysera data i Business Intelligence-verktyg
-### [Översikt](reports-external-analysis.md)
-### [Använda Power BI med Business Central](admin-powerbi.md)
-### [Analysera finansiella rapporter med Excel](finance-analyze-excel.md)
-### [Hämta data till ett datadistributionslager eller en datasjö.](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Läsa data med Business Central-API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
-## Utveckla rapporter
-### [Översikt](reports-develop-reports.md)
-### Utveckla rapportlayouter
-#### [Layouttyper (Word och RDLC)](ui-manage-report-layouts.md)
-#### [Skapa en ny layout](ui-how-create-custom-report-layout.md)
-#### [Använda teckensnitt i layouter](ui-fonts.md)  
-#### [Arbeta med Word-layouter](ui-how-add-fields-word-report-layout.md)
-#### [Importera/exportera en layout](ui-how-import-and-export-report-layout.md)
-#### [Uppdatera en layout](ui-update-report-layouts.md)
-#### [Ändra standardlayout](ui-how-change-layout-currently-used-report.md)
-### Utveckla rapportdatauppsättningar
-#### [Rapportutvecklingsguide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
-#### [Rapportprestandaguide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
-
-
-<!--Security landing page-->
 # Säkerhet, sekretess, regelefterlevnad
 ## Säkerhet och skydd
-### [Översikt över säkerhet och skydd (endast på engelska)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Översikt över säkerhet och skydd](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Sekretess
-### [Sekretess (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
+### [Sekretess (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Regelefterlevnad
 ### [Regelefterlevnad – översikt](compliance/compliance-overview.md)
 ### [Programmets regelefterlevnad](compliance/compliance-application-compliance.md)
 ### [Tjänstens regelefterlevnad](compliance/compliance-service-compliance.md)
 ### [Intyg](compliance/compliance-certifications.md)
-## [Översikt över tjänsten (endast på engelska)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Utveckling och administration
 ## [Komma igång med dokumentation för utveckling och administration](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
@@ -1747,7 +1549,6 @@
 ### [Logga ändringar](across-log-changes.md)
 ### [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)
 ### [Hantera lagring genom att komprimera data eller ta bort dokument](admin-manage-documents.md)
-### [Arkivera data](admin-archive-data.md)
 ### [Definiera principer för datalagring](admin-data-retention-policies.md)
 ### [Publicera en webbtjänst](across-how-publish-web-service.md)
 ### [Konfigurera API-mallar](admin-configuring-api-template.md)
@@ -1756,9 +1557,8 @@
 ### [Kontrollera sidor](across-inspect-page.md)
 ### [Visa databaslås](admin-view-database-locks.md)
 ### [Visa tabellinformation](admin-view-table-information.md)
+### [Skapa en miljö för begränsat läge](across-how-create-sandbox-environment.md)
 ### [Aktivera nya funktioner i förväg](admin-feature-management.md)
-### [Integrera användare med checklistor](admin-checklist.md)
-### [Begränsade miljöer](admin-sandbox-environments.md)
 ## Anpassa Business Central
 ### [Anpassningsöversikt](ui-customizing-overview.md)
 ### [Anpassa sidor för profiler](ui-personalization-manage.md)
@@ -1773,8 +1573,8 @@
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)
 #### [Image Analyzer](ui-extensions-image-analyzer.md)
-#### [Tillägget Molnmigrering](ui-extensions-data-replication.md)
-#### [Bas för molnflyttning](ui-extensions-intelligent-cloud.md)
+#### [Intelligent moln](ui-extensions-data-replication.md)
+#### [Intelligent molnbas](ui-extensions-intelligent-cloud.md)
 #### [Prediktioner om sen betalning](ui-extensions-late-payment-prediction.md)
 #### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
@@ -1784,22 +1584,22 @@
 #### [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)
 #### [Momsgruppshantering](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [DK – C5 datamigrering](ui-extensions-c5-data-migration.md)
-#### [DK – Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
-#### [DK – momsfilformat](ui-extensions-tax-file-formats-dk.md)
-#### [UK – GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
-#### [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
+#### [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)
+#### [DK - Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
+#### [DK - momsfilformat](ui-extensions-tax-file-formats-dk.md)
+#### [UK - GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [US/CA/UK/AU/NZ/ZA - Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 #### [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
 ## Integrering med Dynamics 365 Sales
 ### [Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-## Integrera med Microsoft Dataverse
-### [Integrera med Microsoft Dataverse](admin-common-data-service.md)
+## Integrera med Common Data Service
+### [Integrera med Common Data Service](admin-common-data-service.md)
 ### [Modeller för dataägarskap](admin-cds-company-concept.md)
-### [Ställa in konton för integrering med Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
-### [Anslut till Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synkroniserar Business Central och Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
+### [Ställa in konton för integrering med Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Anslut till Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synkroniserar Business Central och Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Mappa register och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Synkronisera manuellt registermappning](admin-manual-synchronization-of-table-mappings.md)
+### [Synkronisera manuellt tabellmappning](admin-manual-synchronization-of-table-mappings.md)
 ### [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
 <!--migrate to BC online-->
@@ -1810,7 +1610,7 @@
 ### [Migrera från Business Central lokalt](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migrera från Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 ### [Migrera från Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Vanliga frågor om att migrera till molnet](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+### [Vanliga frågor om anslutning till intelligent moln](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Administration av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Utveckling](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Säkerhet och skydd](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

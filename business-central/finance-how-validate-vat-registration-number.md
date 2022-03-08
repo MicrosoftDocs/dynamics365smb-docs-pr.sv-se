@@ -1,65 +1,48 @@
 ---
-title: Validera momsregistreringsnummer
-description: Låt Business Central validera momsregistreringsnummer för dina kontakter, kunder och leverantörer, baserat på EU:s VIES-valideringstjänst för momsnummer.
+title: Validera ett momsregistrerings nummer | Microsoft Docs
+description: Validera ett momsregistreringsnummer
 author: andregu
-ms.topic: conceptual
-ms.reviewer: edupont
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 249, 575, 1279
-ms.date: 06/16/2021
+ms.date: 01/06/2020
 ms.author: andregu
-ms.openlocfilehash: fce9a7d934012f3dbd65ee323f881767aeeadd8d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f4d5023acba2e0cc5600b3f6675c3dcc325489d7
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142139"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992243"
 ---
-# <a name="validate-vat-registration-numbers"></a>Validera momsregistreringsnummer
+# <a name="validate-a-vat-registration-number"></a>Validera ett momsregistreringsnummer
 
-Det är viktigt att dina momsregistreringsnummer för kunder, leverantörer och kontakter är giltiga om du använder [!INCLUDE [prod_short](includes/prod_short.md)] i ett land som använder moms. Till exempel ändrar företag ibland sin skatteskuldstatus, och i vissa länder kan skattemyndigheterna be dig att lämna in rapporter, t. ex. rapporten **EC försäljningslista**, som anger de momsregistreringsnummer som du använder när du bedriver din verksamhet.
+## <a name="to-verify-vat-registration-numbers"></a>Kontrollera momsregistreringsnummer
+Det är viktigt att momsregistreringsnummer för kunder, leverantörer och kontakter är giltiga. Till exempel ändrar företag sin skatteskuldstatus och i vissa länder kan skattemyndigheterna be dig lämna rapporter som t.ex. EG-försäljningslisterapport som anger de momsregistreringsnummer som du använder när du gör affärer.
 
-Europeiska kommissionen har en tjänst för VIES momsnummervalidering på sin webbplats som är offentlig och kostnadsfri. [!INCLUDE [prod_short](includes/prod_short.md)] kan bespara dig det steget, och låter dig använda VIES-tjänsten för att verifiera och spåra momsregistreringsnummer och annan företagsinformation för kunder, leverantörer och kontakter. Tjänsten i [!INCLUDE [prod_short](includes/prod_short.md)] heter **Valideringstjänst för EU momsreg.nr.**. Den är tillgänglig på sidan **Anslutningar till tjänst**, och du kan börja använda den direkt. Serviceanslutningen är kostnadsfri, och ytterligare registrering behövs inte.
+Europeiska kommissionen har en tjänst för VIES momsnummervalidering på sin webbplats som är offentlig och kostnadsfri. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spara dig det steget och låter dig använda VIES-tjänsten för verifiering och spåra momsregistreringsnummer för kunder, leverantörer och kontakter direkt från kund-, leverantörs- och kontaktkort. Tjänsten i [!INCLUDE[d365fin](includes/d365fin_md.md)] heter **Valideringstjänst för EU momsreg.nr.**. Den är tillgänglig på sidan **Anslutningar till tjänst**, och du kan börja använda den direkt. Registrering behövs inte och tjänsten är gratis.
 
-## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Konfigurera tjänsten för att verifiera momsregistreringsnummer automatiskt
+För att aktivera **Valideringstjänst för EU momsreg.nr.** öppnar du posten på sidan **Anslutning till tjänst**. Fältet **Tjänstslutpunkt** ska redan vara ifyllt. Om så inte är fallet kan du använda åtgärden **Ställ in standardslutpunkt**. Ange sedan fältet **Aktiverad** och du är redo att sätta igång.
 
-För att aktivera **Valideringstjänst för EU-momsreg.nr.** öppnar du posten på sidan **Anslutning till tjänst**. Om fältet **Tjänsteslutpunkt** inte redan är ifyllt använder du åtgärden **Ange standardslutpunkt**. Ange sedan fältet **Aktiverad**, och du är redo att sätta igång.  
-
-> [!IMPORTANT]
-> Du måste ha administratörsrättigheter för att kunna aktivera valideringstjänsten.
-
-Du kan också skapa mallar för de typer av momsrelaterade data som du vill att tjänsten också ska kontrollera. Mer information finns i avsnittet [Valideringsmallar](#validation-templates).
+> [!Note]
+> Om du vill aktivera valideringstjänsten för EU momsreg.nr. måste du ha administratörsrättigheter.
 
 När du använder vår tjänst registrerar vi en historik över momsregistreringsnummer och kontroller för varje kund, leverantör eller kontakt i **momsregistreringslogga**, så att du enkelt kan spåra dem. Loggen är unik för varje kund. Loggen är användbar för att verifierat att det aktuella momsregistreringsnumret är korrekt. När du verifierar ett momsregistreringsnummer kommer kolumnen **begär ID** i loggen att visa att du har vidtagit åtgärder.
 
 Du kan se momsregistreringsloggen på kund-, leverantör- eller kontaktkorten på snabbfliken **fakturering** genom att välja sökknappen i **Momsregistreringsnr.**  
+
+Tjänsten kan också spara tid när du skapar en kund eller leverantör. Om du känner till kundens momsregistreringsnummer kan du ange det i fältet **Momsregistreringsnr** på korten för kunden eller leverantören, och vi ska fylla i kundens namn åt dig. Vissa länder har dessutom företagsadresser i ett strukturerat format. I dessa länder fyller vi även i addressen.  
 
 Det finns ett par saker att komma ihåg om tjänsten VIES momsnummervalidering:
 
 * Den här tjänsten använder http-protokoll, vilket betyder att data som har överförts via tjänsten inte har krypteras.  
 * Det kan uppstå avbrott för den här tjänsten som inte Microsoft ansvarar för. Tjänsten är en del av ett omfattande EU-nätverk av nationella register för moms.
 
-> [!IMPORTANT]
-> Det är ditt ansvar att kontrollera att alla data är giltiga. Ibland returneras data med fel av tjänsten VIES momsnummervalidering. Om valideringen misslyckas validerar du momsregistreringsnumren på [webbplatsen](https://ec.europa.eu/taxation_customs/vies/), skriver ut resultatet eller sparar det på en delad plats och lägger sedan till länken till posten för kunden, leverantören eller kontakten. För mer information, se [Hantera bifogade filer, länkar och anteckningar på kort och dokument](ui-how-add-link-to-record.md).
-
-## <a name="validation-templates"></a>Valideringsmallar
-
-Du kan använda VIES-tjänsten för att även kontrollera annan företagsinformation, till exempel adressen, samt momsregistreringsnumret. På sidan **Valideringsmallar för momsregistreringsnr.** skapar du en post för varje land som du vill få ytterligare validering för, och anger sedan den information som du vill få validerad automatiskt.  
-
-Lägg till exempel till en post för Spanien där du vill få validering för namn, gata, ort och postnummer, och sedan ytterligare en post för Tyskland, där du bara vill ha validering för exempelvis postnummer. På sidan **Konfigurering av EU:s valideringstjänst för momsregistreringsnr.** anger du sedan standardmallen.  
-
-> [!NOTE]
-> Se alltid till att standardmallen fungerar för dina behov. Du kan ändra standardvärdet så att det matchar dina behov, till exempel för att hämta validering för alla fält eller inga fält.
-
-Nästa gång du anger ett momsregistreringsnummer validerar tjänsten numret och eventuella ytterligare data som bestäms av valideringsmallarna. Om de angivna värdena skiljer sig från de värden som returneras av tjänsten visas informationen på sidan **Valideringsinformation** där du kan acceptera eller återställa värdena.  
-
-## <a name="see-also"></a>Se även
-
+## <a name="see-also"></a>Se även  
 [Ställa in moms](finance-setup-vat.md)  
-[Ställa in orealiserad mervärdesskatt](finance-setup-unrealized-vat.md)  
+[Ställa in orealiserad mervärdesskatt (moms)](finance-setup-unrealized-vat.md)      
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
-[Lokal funktionalitet i Business Central](about-localization.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Lokal funktionalitet i Business Central](about-localization.md)

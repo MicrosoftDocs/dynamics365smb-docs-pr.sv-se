@@ -1,20 +1,21 @@
 ---
-title: Hantera lager – och produktionskostnader
-description: Lär dig hur ett antal fält, sidor och rapporter riktar sig till användare som direkt eller indirekt hanterar kostnaden för artiklar eller operationer.
+title: Hantera lager- och produktionskostnader | Microsoft Docs
+description: Många av funktionerna inom kostnadskalkylering utförs i underliggande processer som användaren inte behöver bry sig om, till exempel transaktionskoppling och automatisk kostnadsjustering, men ett antal fält, sidor och rapporter riktar sig mot användare som direkt eller indirekt hanterar kostnader för artiklar eller driften.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ce9829f5eee70f9cfcae5ab62f40215f21c38a3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136101"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781662"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Hantera lager- och produktionskostnader
 Många av funktionerna inom kostnadskalkylering utförs i underliggande processer som användaren inte behöver bry sig om, till exempel transaktionskoppling och automatisk kostnadsjustering, men ett antal fält, sidor och rapporter riktar sig mot användare som direkt eller indirekt hanterar kostnader för artiklar eller driften.  

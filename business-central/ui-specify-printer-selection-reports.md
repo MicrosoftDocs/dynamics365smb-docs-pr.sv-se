@@ -2,20 +2,20 @@
 title: Ställa in skrivare
 description: Lär dig mer om hur du konfigurerar skrivare som du kan använda för rapporter och dokument samt vilken utskriftsfunktion som är tillgänglig för dig i Business Central.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335165"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547054"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 
@@ -84,13 +84,13 @@ För detaljerade instruktioner om hur du installerar, se [Komma igång: Ställ i
 
     Hur du tilldelar licensen beror på om du integrerar med Business Central online eller lokal.
 
-    - Med [!INCLUDE[prod_short](includes/prod_short.md)] online tilldelar du licenser genom att använda Microsoft 365-administrationscentret.
+    - Med [!INCLUDE[prod_short](includes/prod_short.md)] online tilldelar du licenser genom att använda Microsoft 365 administrationscenter.
 
-      Mer information finns i [Hjälp för Microsoft administrationscenter – tilldela licenser till användare](/microsoft-365/admin/manage/assign-licenses-to-users).
+      Mer information finns i [Hjälp för Microsoft administrationscenter - tilldela licenser till användare](/microsoft-365/admin/manage/assign-licenses-to-users).
 
     - Med [!INCLUDE[prod_short](includes/prod_short.md)] lokala fördelar tilldelar du licenser i din Azure-klient med hjälp av Azure-portalen.
 
-      Mer information finns i [Azure Directory – Tilldela eller ta bort licenser i Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
+      Mer information finns i [Azure Directory - Tilldela eller ta bort licenser i Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Installera anslutningsprogrammet för Universell utskrift för att registrera skrivare som inte kan kommunicera direkt med Universell utskrift.
 
@@ -267,9 +267,6 @@ Du eller administratören kan också använda sidan **Skrivarhantering** för at
 
 > [!NOTE]
 > Mer specifika skrivarval har företräde framför mer allmänna skrivarval. Ett skrivarval som exempelvis har värden i fälten **Användar-ID**, **Rapport-ID** och **Skrivarnamn** har företräde framför ett skrivarval som innehåller tomma poster i fälten **Användar-ID** och **Rapport-ID**.
-
-### <a name="choosing-the-printer-when-running-a-report"></a>Välja skrivare när en rapport körs
-I stället för att använda standardskrivaren när du kör en rapport kan du åsidosätta inställningen från begärandesidan. Välj helt enkelt den skrivare som du vill använda för detta anrop i rapporten i listrutan **Skrivare**.
 
 ### <a name="sizing-print-jobs"></a>Ändra storlek på utskriftsjobb
 

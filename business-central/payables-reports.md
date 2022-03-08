@@ -2,17 +2,18 @@
 title: Leverantörsskulder, rapporter och analyser
 description: Se vilka produktionsrapporter och analyser som är tillgängliga i standardversionen av Business Central så att du kan hålla reda på dina leverantörsreskontra.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 347
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: f55fb37ff9db8a7967cd3fbe480d88ca6fd3d75b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4d196b67e4dcf12c37a11f6d2554444e8c61e5ce
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137711"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102635"
 ---
 # <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Leverantörsreskontrarapporter och analys i Business Central
 

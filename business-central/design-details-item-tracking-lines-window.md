@@ -1,22 +1,23 @@
 ---
-title: Designdetaljer – Sida för artikelspårningsrader
-description: Mer information om hur du hanterar flödet av serie- och partinummer i lagret med sidan artikelspårningsrader.
+title: Designdetaljer - Sida för artikelspårningsrader | Microsoft Docs
+description: Mer information om hur du hanterar flödet av serie- och partinummer i lagret.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43c6c6dedbc7a1b35e5aa05d0ed42fb986c01f3f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a577d1fbb3744a7af899957af5ecb3b714bd8296
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146655"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917357"
 ---
-# <a name="design-details-item-tracking-lines-page"></a>Designdetaljer – Sida för artikelspårningsrader
+# <a name="design-details-item-tracking-lines-page"></a>Designdetaljer - Sida för artikelspårningsrader
 Artikelspårningposter och reservationposter skapas i reservationssystemet, och deras disposition beräknas dynamiskt. Data som har angetts på sidan **Artikelspårningsrader** hanteras i en tillfällig version av tabellen **Spårningsspecifikation**. När sidan har stängts sparas aktiva data i tabellen **Reservationstransaktion** och historiska data sparas i tabellen **Spårningsspecifikation**. Mer information finns i [Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner](design-details-active-versus-historic-item-tracking-entries.md)  
   
 Sökningar från fälten **Serienr** och **Partinr** visar dispositionen baserat på både tabellen **Artikeltransaktion** och tabellen **Reservationstransaktion** utan datumfilter. I matrisen med antalsfält i rubriken på sidan **Artikelspårningsrader** visas dynamisk antalen och summorna för artikelspårningsnummer som anges på raderna på sidan. Antalet måste stämma överens med antalet på dokumentraden, vilket indikeras av värdet **0** i fälten **Odefinierad** i huvudet på sidan.  
@@ -31,5 +32,3 @@ Reglerna för att registrera data på sidan **Artikelspårningsrader** stöder �
   
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

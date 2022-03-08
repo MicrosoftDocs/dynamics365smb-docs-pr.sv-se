@@ -2,6 +2,7 @@
 title: Ställa in flera räntesatser för fördröjd betalning
 description: Det här ämnet berättar hur du beräknar dröjsmålsränta med flera räntesatser för en särskild period.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 6, 431, 432, 572
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 997a6e587a94d4d4a20db5f01a79ad0fd295df61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6d90f8e042899495bfc8e171d7e69f7e5b4fdb36
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135447"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971609"
 ---
 # <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Ställa in flera räntesatser för fördröjd betalning
 

@@ -2,6 +2,7 @@
 title: Tillämpa transaktioner i olika valutor
 description: Du kan koppla transaktioner i olika valutor om du t. ex.. säljer i en valuta och får betalningen i en annan valuta.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: multiple currencies, payment, reconcile
 ms.search.form: 148, 460
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3ee04505d21455e05869b79bfad61dfa0c10dd5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9b2d1f66ff5b43832fada681320a99ef2b7c06bf
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147784"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971125"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Aktivera koppling av kundreskontratransaktioner till olika valutor
 

@@ -1,44 +1,50 @@
 ---
-title: XML-scheman för att förbereda definitioner för databyten
-description: Använd XML-scheman för att ställa in ramverk för datautbyte för att definiera vilka data element som du vill skicka med.
+title: Skapa XML-portar som baseras på XML-scheman | Microsoft Docs
+description: Använda XML-scheman för att ange ramverket för datautbyte.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: cbaa75f196f75b79e83becb80006f6b4dc2aa291
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 65392cc5f47353b9266d5198b739835fd329c204
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130954"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076689"
 ---
-# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använd XML-scheman för att förbereda definitioner för databyten
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använda XML-scheman för att förbereda dataintegrationsdefinitioner
+Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du utför det här arbetet på sidan **Visningsprogram för XML-schema** genom att läsa in XML-schemafilen, välja de relevanta dataelementen och sedan att initialisera antingen en definition för datautbyte eller en XMLport.  
 
-Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[prod_short](includes/prod_short.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[prod_short](includes/prod_short.md)]. Du utför detta arbete på sidan **XML-schemavisning** genom att ladda XML-schemafilen, välja tillhörande dataelement samt därefter initialisera en definition för databyte.  
+ När du har definierat vilka dataelement som ska ingå baserat på XML-schemat, kan du använda åtgärden **Generera XMLport** för att skapa ett XMLport-objekt.  
 
- När du har definierat vilka dataelement som sa inkluderas baserat på XML-schemat kan du använda åtgärden **Generera definition för databyte** för att initialisera en definition för databyte baserat på valda dataelement som du sedan slutför i ramverket för databyten. Det skapar en post på sidan **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Alternativt kan du använda åtgärden **Generera datautbytesdefinition** för att initialisera en definition för datautbyte som baseras på de valda dataelementen, som du sedan fyller i i ramverket för datautbyte. Det skapar en post på sidan **Definitioner för bokföringsbyte** där du fortsätter genom att ange vilka element i filen som mappas till vilka fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
  Det här avsnittet innehåller följande procedurer:  
 
-- Så här läser du in en XML-schemafil  
+-   Så här läser du in en XML-schemafil  
 
-- Så här markerar eller avmarkerar du noder i ett XML-schema  
+-   Så här markerar eller avmarkerar du noder i ett XML-schema  
 
-- Så här skapar du en definition för datautbyte baserat på ett XML-schema  
+-   Så här skapar du en definition för datautbyte baserat på ett XML-schema  
 
-## <a name="to-load-an-xml-schema-file"></a>Så här läser du in en XML-schemafil
+-   Så här skapar du en XMLport för filen som baseras på ett XML-schema  
 
-1. Se till att den relevanta XML-schemafilen är tillgänglig. Filnamnstillägget är .xsd.  
+-   Så här importerar du en XMLport till Object Designer  
 
-2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **XML-scheman** och väljer sedan relaterad länk.  
+### <a name="to-load-an-xml-schema-file"></a>Så här läser du in en XML-schemafil  
 
-3. Välj åtgärden **Ny**.  
+1.  Se till att den relevanta XML-schemafilen är tillgänglig. Filnamnstillägget är .xsd.  
 
-4. Fyll i fälten enligt beskrivningen i följande tabell.  
+2.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-scheman** och välj sedan relaterad länk.  
+
+3.  Välj åtgärden **Ny**.  
+
+4.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
@@ -47,7 +53,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
      Fältet **Målnamnrymd** anger ett namnområde i XML-schemafilen som har laddats för raden.  
 
-5. Välj **Läs in schema**-åtgärden och välj sedan XML-schemafilen.  
+5.  Välj **Läs in schema**-åtgärden och välj sedan XML-schemafilen.  
 
      När filen har fylls i fylls resten av fälten på raden i med information från filen, och kryssrutan **Schemat är inläst** markeras.  
 
@@ -56,22 +62,22 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Så här markerar eller avmarkerar du noder i ett XML-schema  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Visningsprogram för XML-schema** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-schemavisare** och välj sedan relaterad länk.  
 
-2. Fyll i fälten i huvudet enligt beskrivningen i följande tabell.  
+2.  Fyll i fälten i huvudet enligt beskrivningen i följande tabell.  
 
     |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
-    |**XML-schemakod**|Ange den XML-schemafil som du laddade i steg 5 i avsnittet "För att ladda en XML-schemafil".|  
+    |**XML-schemakod**|Ange den XML schemafil som du läste in i steg 5 i avsnittet ”Ladda XML-schemafilen”.|  
     |**Ny XMLport Nr.**|Ange numret på den XMLport som skapas från XML-schemat när du väljer åtgärden **GenereraXMLport**.|  
 
      Raderna fylls nu i med noder som representerar alla element i XML-schemat. Noder för element som är obligatoriska i överensstämmelse med XML-schemat markeras som standard.  
 
-3. På den första raden, i kolumnen **Nodnamn**, expanderar du noden **Dokument** och expandera sedan gradvis underliggande noder som du vill granska.  
+3.  På den första raden, i kolumnen **Nodnamn**, expanderar du noden **Dokument** och expandera sedan gradvis underliggande noder som du vill granska.  
 
      Högerklicka på en nod och välj sedan **Expandera alla**.  
 
-4. Välj någon av följande åtgärder för att ändra vilka noder som visas.  
+4.  Välj någon av följande åtgärder för att ändra vilka noder som visas.  
 
     |**Åtgärd**|Beskrivning|  
     |----------------|---------------------------------------|  
@@ -79,43 +85,50 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
     |**Dölj ej obligatoriska**|Endast noder som representerar element som krävs enligt XML-schemat visas. Dessa noder har anges vanligtvis med **1** i fältet **MinOccurs**.<br /><br /> Välj **Visa alla** för att återföra vyn.|  
     |**Dölj ej valda**|Endast noder där kryssrutan **Vald** är markerad visas.<br /><br /> Välj **Visa alla** för att återföra vyn.|  
 
-5. Välj åtgärden **Redigera**.  
+5.  Välj åtgärden **Redigera**.  
 
-6. I kryssrutan **Vald** anger du för varje nod om du vill att elementet ska stödjas i definitionen för datautbyte för den relaterade SEPA-bankfilen.  
+6.  I kryssrutan **Vald** anger du för varje nod om du vill att elementet ska stödjas i definitionen för datautbyte för den relaterade SEPA-bankfilen.  
 
     > [!NOTE]  
     >  När du markerar en obligatorisk underordnad nod markeras även alla överordnade noder ovanför den.  
 
-7. Välj åtgärden **Markera alla obligatoriska element** för att välja alla noder igen som representerar element som är obligatoriska enligt XML-schemat.  
+7.  Välj åtgärden **Markera alla obligatoriska element** för att välja alla noder igen som representerar element som är obligatoriska enligt XML-schemat.  
 
-8. Välj åtgärden **Avmarkera alla** för att rensa alla val.  
+8.  Välj åtgärden **Avmarkera alla** för att rensa alla val.  
 
      Fältet **Val** anger att noden har två eller fler syskonnoder som fungerar som alternativ.  
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Så här skapar du en definition för datautbyte baserat på ett XML-schema  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **XML-scheman** och väljer sedan relaterad länk.  
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-scheman** och välj sedan relaterad länk.  
 
-2. Välj relevant XML-schema och välj sedan åtgärden **Öppna XML-schemavisare**.  
+2.  Välj relevant XML-schema och välj sedan åtgärden **Öppna XML-schemavisare**.  
 
-3. Se till att de relevanta noderna har markerats. Mer information finns i avsnittet "För att välja eller rensa noder i XML-schema".  
+3.  Se till att de relevanta noderna har markerats. Mer information finns i avsnittet ”Så här markerar eller avmarkerar du noder i ett XML-schema”.  
 
-4. På sidan **Öppna XML-schemavisare** väljer du åtgärden **Generera datautbytesdefinition**.  
+4.  På sidan **Öppna XML-schemavisare** väljer du åtgärden **Generera datautbytesdefinition**.  
 
- Datautbytesdefinitionen skapas på sidan **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Datautbytesdefinitionen skapas på sidan **Definitioner för bokföringsbyte** som du kan fylla i genom att ange vilka element i filen som ska mappas till respektive fält i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Så här konfigurerar du dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
-> Du kan också använda funktionen **Hämta filstruktur** från sidan **Definitioner för bokföringsbyte** som använder funktionen på sidan **Visningsprogram för XML-schema** för att autofylla snabbfliken **Kolumndefinitioner**.  
+>  Du kan också använda funktionen **Hämta filstruktur** från sidan **Definitioner för bokföringsbyte** som använder funktionen på sidan **Visningsprogram för XML-schema** för att autofylla snabbfliken **Kolumndefinitioner**.  
 
-> [!NOTE]
-> Under 2019 års utgivningsvåg 1 kunde du generera en XMLport baserat på schemat och sedan importera denna i din lösning. Detta stöds inte längre.
+### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Så här skapar du en XMLport som baseras på ett XML-schema  
 
-## <a name="see-also"></a>Se även
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **XML-scheman** och välj sedan relaterad länk.  
 
-[Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
-[Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-[Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
-[Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)  
+2.  Välj relevant XML-schema och välj sedan åtgärden **Öppna XML-schemavisare**.  
 
+3.  I fältet **Ny XMLport Nr.** anger du numret som den nya XMLport-artikeln ska få när den skapas.  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+4.  Se till att de relevanta noderna har markerats. Mer information finns i avsnittet ”Så här markerar eller avmarkerar du noder i ett XML-schema”.  
+
+5.  Välj åtgärden **Generera XMLport** och spara objektet som en .txt-fil på lämplig plats.  
+
+6. Importera nya XMLport i [!INCLUDE[d365fin](includes/d365fin_md.md)] utvecklingsmiljö och kompilera den.
+
+## <a name="see-also"></a>Se även  
+[Skapa dataintegrationsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)   
+[Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
+[Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)   
+[Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)

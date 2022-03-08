@@ -2,40 +2,40 @@
 title: Om produktionsorder
 description: Läs produktionsorder används för att hantera omvandlingen av inköpt material till producerade artiklar.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
+ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 568b8f119cf741a16b7d20560e541d7995b7834f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135061"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321397"
 ---
 # <a name="about-production-orders"></a>Om produktionsorder
-
 Produktionsorder används för att hantera omvandlingen av inköpt material till producerade artiklar. Produktionsorder dirigerar arbete via olika produktions- eller maskingrupper i fabriken.  
 
 Före produktion utför de flesta företag inköpsplanering, vanligtvis en gång i veckan, för att beräkna hur många produktionsorder och inköpsorder som ska köras för att uppfylla veckans försäljningsbehov. Inköpsorder motsvarar komponenter som krävs enligt produktionsstrukturen för att producera slutartiklarna.
 
 Produktionsorder är centrala komponenter i programmets produktionsfunktion och de innehåller följande information:  
 
-- Produkter planerade för produktion  
-- Material som krävs för planerade produktionsorder  
-- Produkter som precis har tillverkats  
-- Material som redan har valts ut  
-- Produkter som tillverkats tidigare  
-- Material som har använts i tidigare produktionsoperationer  
+-   Produkter planerade för produktion  
+-   Material som krävs för planerade produktionsorder  
+-   Produkter som precis har tillverkats  
+-   Material som redan har valts ut  
+-   Produkter som tillverkats tidigare  
+-   Material som har använts i tidigare produktionsoperationer  
 
 Produktionsorder är startpunkter för:  
 
-- Planering av framtida produktion  
-- Kontroll av aktuell produktion  
-- Spårning av slutförd produktion  
+-   Planering av framtida produktion  
+-   Kontroll av aktuell produktion  
+-   Spårning av slutförd produktion  
 
 ## <a name="production-order-creation"></a>Skapa produktionsorder  
 Du kan skapa produktionsorder manuellt på orderbasis på sidan **Produktionsorder**. Produktionsorder kan även skapas på sidan **Förs.orderplanering** eller **Orderplanering**. Flera order skapas på sidan **Planeringsförslag**.  
@@ -51,10 +51,10 @@ Produktionsorder kan skapas med hjälp av information från:
 ## <a name="limitations-on-production-order-creation"></a>Begränsningar vid skapande av produktionsorder  
 Produktionsorder reserveras automatiskt och spåras till deras ursprung när:  
 
-- Skapas från **[planeringsförslaget](production-how-to-run-mps-and-mrp.md)**.  
-- Skapas från sidan **[Försäljningsorderplanering](production-how-to-create-production-orders-from-sales-orders.md)**  
-- Skapas från sidan **[Orderplanering](production-how-to-plan-for-new-demand.md)**  
-- Använda funktionen **[Omplanering](production-how-to-replan-refresh-production-orders.md)** på produktionsorder  
+-   Skapas från **[planeringsförslaget](production-how-to-run-mps-and-mrp.md)**.  
+-   Skapas från sidan **[Försäljningsorderplanering](production-how-to-create-production-orders-from-sales-orders.md)**  
+-   Skapas från sidan **[Orderplanering](production-how-to-plan-for-new-demand.md)**  
+-   Använda funktionen **[Omplanering](production-how-to-replan-refresh-production-orders.md)** på produktionsorder  
 
 Mer information finns i [Spåra relationer mellan tillgång och efterfrågan](production-how-track-demand-supply.md).
 
@@ -117,9 +117,9 @@ I programmet finns en mängd olika alternativ för hur ett tillverkningsföretag
 
 Förbrukningen av material kan bearbetas via [förbrukningsjournalen](production-how-to-post-consumption.md), men kan även registreras automatiskt i programmet, även kallat för automatisk rapportering (bokföring). Rapporteringsmetoderna är:  
 
-- Manuell  
-- Framåt  
-- Bakåt  
+-   Manuell  
+-   Framåt  
+-   Bakåt  
 
 Manuell rapportering av förbrukning använder förbrukningsjournalen för att specificera plockning av material.  
 
@@ -181,9 +181,9 @@ Produktionsjournalen skiljer sig från förbruknings- och utflödesjournalerna p
 I produktionsjournalen bokförs förbrukningsantal som negativa artikeltransaktioner, utflödeantal bokförs som positiva transaktioner och tidsinsats bokförs som kapacitetstransaktioner.  
 
 ## <a name="see-also"></a>Se även
-[Produktion](production-manage-manufacturing.md)
-[Konfigurera produktion](production-configure-production-processes.md)  
-[Planerad](production-planning.md)  
+[Produktion](production-manage-manufacturing.md)    
+[Ställa in Produktion](production-configure-production-processes.md)  
+[Planerad](production-planning.md)      
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

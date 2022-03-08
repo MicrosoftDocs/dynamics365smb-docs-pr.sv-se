@@ -1,33 +1,32 @@
 ---
-title: Arbeta med Business Central (innehåller video)
+title: Arbeta med allmänna funktioner i Business Centra | Microsoft Docs
 description: Beskriver de allmänna funktioner som du använder för att arbeta med data i Business Central, till exempel för att ange värden, sortera data och ändra vyer.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323064"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840184"
 ---
 # <a name="working-with-prod_short"></a>Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
-
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
 
-Du kan t. ex. justera storleken och positionen på alla sidor, utöka bredden på kolumner och öka höjden kolumnrubriker, samt ändra sorteringen av data i kolumner. Och om du vill använda den vågräta rullningslisten för att visa alla kolumner på en listsida eller dokumentrader, kommer du att se att det finns en lodrät låsning så att en del kolumner inte rullas.
+Du kan t.ex. justera storleken och positionen på alla sidor, utöka bredden på kolumner och öka höjden kolumnrubriker, samt ändra sorteringen av data i kolumner. Och om du vill använda den vågräta rullningslisten för att visa alla kolumner på en listsida eller dokumentrader, kommer du att se att det finns en lodrät låsning så att en del kolumner inte rullas.
 
 ## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips och råd
 
 > [!TIP]
 > Om du vill visa en utskriftsvänlig översikt över de mest använda funktionerna väljer du följande bild och hämtar PDF-filen.
 >
-> [ ![Ikon för PDF-filen.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som öppnar en PDF-fil")
+> [ ![Ikon för PDF-filen](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som öppnar en PDF-fil")
 
 ## <a name="links-to-learn-more"></a>Länkar till mer information
 
@@ -62,38 +61,20 @@ Här följer en kort video om hur du navigerar i [!INCLUDE[prod_short](includes/
 
 ## <a name="choosing-a-desktop-browser"></a>Välja en webbläsare för skrivbordet
 
-[!INCLUDE[prod_short](includes/prod_short.md)] stöder flera webbläsare som vardera erbjuder en mängd olika funktioner och möjligheter. Webbläsaren spelar en betydande roll i användargränssnittets svarstider och prestanda. Se listan över vilka webbläsare som stöds och rekommenderas för [Business Central online](./product-requirements.md) och webbläsare för [Business Central lokalt](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
+[!INCLUDE[prod_short](includes/prod_short.md)] stöder flera webbläsare som vardera erbjuder en mängd olika funktioner och möjligheter. Webbläsaren spelar en betydande roll i användargränssnittets svarstider och prestanda. Se listan över vilka webbläsare som stöds och rekommenderas för [Business Central online](https://go.microsoft.com/fwlink/?linkid=2110804) och webbläsare för [Business Central lokalt](https://go.microsoft.com/fwlink/?linkid=2110719).
 
 - Undvik äldre webbläsare som exempelvis Internet Explorer och byt istället till en av våra rekommenderade moderna webbläsare, till exempel [nya Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer stöds inte längre. Mer information finns i [Microsoft Edge-dokumentationen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer stöds fortfarande, men eftersom den nya webbläsaren Edge nu är tillgänglig för Windows Server ser vi en alltmer krympande användning för Internet Explorer. Du kan också få [en pilotversion av Edge i IE-läge](https://www.microsoft.com/edge/business). Mer information finns i [Microsoft Edge-dokumentationen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Se till att din webbläsare alltid har uppdaterats till den senaste versionen.
-
-## <a name="action-bars"></a>Åtgärdsfält
-
-I [!INCLUDE [prod_short](includes/prod_short.md)] kan du utföra ditt arbete i en lista, ett dokument eller ett kort. Alla tre sidtyperna har en stapel med åtgärder som är relevanta för den aktuella sidan, och åtgärderna är nästan desamma för det enskilda kortet eller dokumentet och för listan över entiteter. På så sätt kan du hantera en enskild försäljningsorder på sidan **försäljningsorder** och i listan över **försäljningsorder** , inklusive bokföring och fakturering.  
-
-Men åtgärderna kan också se annorlunda ut och inte heller förekomma beroende på hur du öppnar sidan. Specifikt för listor, listasidan som du öppnar från startsidan och sidan som återges när du söker efter den med hjälp av ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen är inte identiska.  
-
-När du söker efter en öppen listsida, till exempel listan **försäljningsorder**, är den i visningsläget. Åtgärderna för att redigera, visa eller ta bort en enskild enhet, till exempel en försäljningsorder, visas när du väljer åtgärden **hantera**.  
-
-> [!TIP]
-> Om du vet att du kommer att använda åtgärder på den andra nivån i åtgärdsfältet ofta, väljer du :::image type="icon" source="media/pin.png" border="false"::: ikonen för att fästa åtgärdsfältet och göra så att åtgärderna under de olika menyerna kan upptäckas direkt.
->
-> Välj ikon om du vill att åtgärdsfältets andra nivå ska försvinna igen :::image type="icon" source="media/unpin.png" border="false":::.
-
-Men när du öppnar samma listsida från start sidan finns inte åtgärden **hantera**. Om du vill öppna en enskild försäljningsorder i stället väljer du fältet **nummer**. I den här vyn kan du inte fästa åtgärdsfältet.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 
-[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Komma igång](product-get-started.md)  
 [Ställa in Business Central](setup.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Prestandatips för företagsanvändare](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

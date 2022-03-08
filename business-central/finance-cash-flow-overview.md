@@ -2,6 +2,7 @@
 title: Kassaflöde, översikt
 description: En översikt över kassainflöden och kassautflöden för att hjälpa till att beräkna pengar som ska tas emot och betalas ut.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash r
 ms.search.form: 841, 849, 1818
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: fef3a27cf02d48fcf08a7bb70c469ed2820d0753
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e5ce39c435c236719e6ee564217a0b1f7e338cf2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149107"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011102"
 ---
 # <a name="cash-flow-overview"></a>Kassaflöde, översikt
 

@@ -1,21 +1,21 @@
 ---
-title: Spärrade leverantörer
-description: Läs hur du kan spärra leverantörer från att inkluderas i transaktioner eller bara spärra nya betalningar till dem.
+title: Så här spärrar du inköp från leverantörer
+description: Du kan spärra leverantörer från att inkluderas i transaktioner eller bara spärra nya betalningar till dem.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 27
-ms.date: 06/22/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5b1c93c8768f65832aae41f0fe65835b426a805f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b1dcda8bed565ef37b712daa15554765a3c45846
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145582"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380487"
 ---
 # <a name="block-vendors"></a>Spärrade leverantörer
 Du kan spärra en everantör, till exempel på grund av ett insolvensförfarande, så att leverantören inte kan läggas till i inköpsdokument eller så att inga betalningar kan bokföras för leverantören.
@@ -29,7 +29,7 @@ De olika spärrningsalternativen för leverantörer beskrivs i registeren nedan.
 |**Alla**|Inga transaktioner tillåts för den här leverantören.|  
 
 ## <a name="to-block-a-vendor"></a>Om du vill spärra en leverantör  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Leverantör** och välj sedan relaterad länk.
 2. Välj den leverantör som du vill spärra.
 3. I fältet **Spärrade** väljer du ett av spärrningsalternativen.
 

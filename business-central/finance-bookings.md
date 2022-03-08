@@ -1,28 +1,26 @@
 ---
-title: Fakturera din bokningar i Business Central
-description: I det här avsnittet beskrivs hur du kan utföra massfakturering från Microsoft Bookings i Business Central.
+title: Fakturera din bokningar i Business Central | Microsoft Docs
+description: Lär dig hur du bulkfakturerar från Microsoft Bookings i Business Central.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.search.form: 1638, 6702, 6704
-ms.date: 06/16/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c0abb4d4389dd3896f1aceedb42d51aca0e61000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9b683fa14801c00904c131ada5bcce1f669c9b2a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139579"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751011"
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Bulkfakturera för Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
-
-Om företaget använder appen Bookings i Microsoft 365 kan du göra bulkfakturering för avtalade tider. SIdan **Ofakturerade bokningar** i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller en lista över företagets slutförda bokningar. Du kan snabbt markera avtalade tider som du vill fakturera och skapa fakturor för utkast för tjänsterna på den här sidan.  
+# <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Bulkfakturera för Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)] 
+Om företaget använder appen Bokningar i Microsoft 365 kan du göra bulkfakturering för avtalade tider. SIdan **Ofakturerade bokningar** i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller en lista över företagets slutförda bokningar. Du kan snabbt markera avtalade tider som du vill fakturera och skapa fakturor för utkast för tjänsterna på den här sidan.  
 
 ## <a name="connect-to-bookings"></a>Anslut till Bookings
-
 För att ansluta ditt [!INCLUDE[prod_short](includes/prod_short.md)] med Bookings, måste du ange ditt Bookings-företag, vad som ska synkroniseras med Bookings, hur ofta du vill synkronisera och vilka mallar du vill använda. Du kan ställa in informationen på sidan **Inställningar av Bookings-synkning** som du kan starta från sidan **Inställningar för Exchange-synkning** som du hittar genom [söka](ui-search.md).  
 
 Till exempel om du vill synkronisera kunder mellan Bookings och [!INCLUDE[prod_short](includes/prod_short.md)], måste du ange standardmallen för att lägga till nya kunder i [!INCLUDE[prod_short](includes/prod_short.md)] baserat på kunder i ditt Bookings-företag.  
@@ -36,17 +34,12 @@ På liknande sätt, om du till exempel vill synkronisera kunder mellan Bookings 
 > Endast objekt av typen *Service* synkroniseras mellan Bookings och [!INCLUDE[prod_short](includes/prod_short.md)]. Den mall som du har skapat på sidan **Konfigurationsmallar** så att den kan användas för artikelsynkroniseringen måste ange typen som *Service*.
 
 ## <a name="invoice-appointments"></a>Fakturera möten
-
 När det är dags att skicka fakturor för slutförda bokningar kan du gå till sidan **Ofakturerade bokningar**. Beroende på hur ofta informationen är synkroniserad, är listan lång eller kort. Du kan skapa fakturor för alla bokningar i listan eller en bokning i taget. Du kan markera en eller flera poster i listan och fakturera sådana.  
 
 Stöd för faktureringsmöten från Bookings är enklare än det fullständiga arbetsflödet för att arbeta med offerter, försäljningsorder och försäljningsfakturor. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md). Du kan välja att sälja tjänsterna med hjälp av [!INCLUDE[prod_short](includes/prod_short.md)] eller använda Bookings, beroende på dina behov.  
 
 ## <a name="see-also"></a>Se även
-
 [Ekonomi](finance.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

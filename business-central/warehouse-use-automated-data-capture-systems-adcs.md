@@ -2,6 +2,7 @@
 title: Använda ADCS (Automatiskt datainsamlingssystems)
 description: Du kan använda ADCS (automatiska datainsamlingssystem) för att registrera transport av artiklar i distributionslagret och för att registrera vissa journalaktiviteter.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: barcode
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: da293a02360dced863687fc37f87a668eed91284
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144261"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115178"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automatiskt datainsamlingssystem)
 

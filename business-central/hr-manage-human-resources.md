@@ -1,25 +1,26 @@
 ---
-title: Administrera personal
+title: Använda personalfunktionen | Microsoft Docs
 description: Du registrerar ny personal, redigerar information om befintlig personal och registrerar och analyserar frånvaro.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201, 5212, 5211
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d17575523f74ceb4cb11fb7756fff56135d50966
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135912"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182546"
 ---
 # <a name="manage-human-resources"></a>Administrera personal
-
-I [!INCLUDE[prod_short](includes/prod_short.md)] kan du hålla detaljerade register över dina anställda. Du kan registrera och underhålla personalinformation, till exempel anställningskontrakt, konfidentiell information, kompetenser och kontakter.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hålla detaljerade register över dina anställda. Du kan registrera och underhålla personalinformation, till exempel anställningskontrakt, konfidentiell information, kompetenser och kontakter.
 
 Du kan även registrera de anställdas frånvaro i syfte att analysera registrerad frånvaro vid behov.
 
@@ -33,10 +34,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Registrera anställdas frånvaro och visa frånvarostatistik genom olika filter. |[Hantera personalfrånvaro](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Se även
-
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)        
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

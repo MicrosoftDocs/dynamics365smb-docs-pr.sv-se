@@ -2,19 +2,20 @@
 title: Fältmappning för export av bankbetalningsfiler | Microsoft Docs
 description: När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 06747ec283cb4b64f23433fbb81eea4a62e1f832
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131040"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780691"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
 När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om AMC Banking 365 Fundamentals-tillägget finns i [Använd AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md).  
@@ -22,10 +23,7 @@ När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-ti
 > [!CAUTION]  
 >  När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer vissa av dina affärsdata att visas för tjänsteleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-> [!NOTE]
-> I den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)], ställs en global tjänstleverantör in och ansluts för att konvertera bankdata till valfritt filformat som din bank kräver. I Nordamerikanska versioner kan samma service användas för att skicka betalningsfiler som EFT (Elektronisk överföring), t.ex. det ACH-nätverk som ofta används, men med en något annorlunda metod.
-
-I följande tabell visas de fält i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan exportera data från.  
+I följande tabell visas de fält i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan exportera data från.  
 
 |Mappat fält|Fält i tabell|Bord|Beskrivning|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -74,6 +72,3 @@ I följande tabell visas de fält i [!INCLUDE[prod_short](includes/prod_short.md
 [Byta data elektroniskt](across-data-exchange.md)
 [med hjälp av AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   
 [Göra betalningar med AMC Banking 365 Fundamentals-tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
 title: Felsöka företagsnavet
-description: Lär dig mer om hur du kringgår eventuella problem när du kör företagsnavet i Dynamics 365 Business Central för att hantera arbete i flera olika företag.
+description: Lär dig hur du kan lösa eventuella problem i företagsnavet i Dynamics 365 Business Central.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.search.form: 1151
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 585e23a25397952ede809a76d4e001df9c60b449
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3f348de3e8116efd789f85f1b011ecc7013bf2b1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128836"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927739"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Felsöka företagsnavet
 
@@ -37,11 +37,11 @@ Det kan finnas en par olika orsaker till att du inte kan ansluta till ett föret
   I instrumentpanelen, väljer du menyposten **verktyg** och väljer **kontrollera fel**. Då öppnas en lista med teknisk information, så du kanske vill kontakta administratören om du ser fel. Felmeddelandet ”*Servern godkände inte klientens referenser*” innebär till exempel att du inte har tillgång.  
 - Du har inte tillgång till alla företag i miljön som du försöker ansluta till
 
-  I [!INCLUDE [prod_short](includes/prod_short.md)] kan en organisation ha flera affärsenheter som kallas företag, och du kanske inte har tillgång till alla företag. Arbeta med administratören eller klienten för att se till att du har tillgång till företagen som du arbetar i.  
+  I [!INCLUDE [prodshort](includes/prodshort.md)] kan en organisation ha flera affärsenheter som kallas företag, och du kanske inte har tillgång till alla företag. Arbeta med administratören eller klienten för att se till att du har tillgång till företagen som du arbetar i.  
 
 ## <a name="data-does-not-refresh"></a>Data uppdateras inte
 
-När du lägger till ett företag eller begär en uppdatering av data hämtar [!INCLUDE [prod_short](includes/prod_short.md)] data. Men du måste uppdatera sidan, till exempel om du väljer åtgärden **Läs in alla företag igen**, uppdatera webbläsarsidan, navigera från instrumentpanelen och sedan tillbaka igen, eller liknande.  
+När du lägger till ett företag eller begär en uppdatering av data hämtar [!INCLUDE [prodshort](includes/prodshort.md)] data. Men du måste uppdatera sidan, till exempel om du väljer åtgärden **Läs in alla företag igen**, uppdatera webbläsarsidan, navigera från instrumentpanelen och sedan tillbaka igen, eller liknande.  
 
 Om du har lagt till ett företag men det inte visas i listan kan du också använda åtgärden **Läs in alla företag igen** för att uppdatera listan.
 
@@ -50,6 +50,3 @@ Om du har lagt till ett företag men det inte visas i listan kan du också anvä
 [Hantera arbete i flera företag med företagsnavet](company-hub.md)  
 [Lägg till företag till företagsnavet](company-hub-add-company.md)  
 [Revisorlösningar i Business Central](finance-accounting.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

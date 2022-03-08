@@ -1,24 +1,25 @@
 ---
-title: Kör batch-jobb och XML-portar
+title: Skapa och köra ett batch-jobb | Microsoft Docs
 description: Du kör batch-jobben för att bearbeta data och uppdatera information, till exempel, att göra regelbundna redovisningsaktiviteter eller för att utföra beräkningar.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.search.form: 672, 676, 682, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7d06ebd368f42c142d7cb222ee378da79706132e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 14fd7402e1aec552de47cff07078d767d795e9a7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335402"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388180"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Kör batch-jobb och XML-portar
-
 Ett batch-jobb i är en rutin som bearbetar data i omgångar, till exempel batch-jobbet **Justera valutakurser**. Det finns batch-jobb som utför regelbundna redovisningsaktiviteter, som till exempel att stänga resultaträkningen i slutet av ett räkenskapsår. Många batch-jobb utför beräkningsarbetet, t.ex beräkning av dröjsmålsränta, valutakursjustering och beräkning av styckkostnaden.
 
 Ett batch-jobb påminner om en rapport, förutom att batch-jobbet använder resultatet från åtgärden för att uppdatera informationen direkt, i stället för att skriva ut resultatet.
@@ -26,7 +27,7 @@ Ett batch-jobb påminner om en rapport, förutom att batch-jobbet använder resu
 Du kan schemalägga när ett batchjobb körs. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>Så här kör du ett batch-jobb:
-1. Om du vill öppna sidan för begäran för det relevanta batch-jobbet väljer du ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du namnet på batch-jobbet och väljer sedan relaterad länk.
+1. För att öppna sidan för begäran tillhörande relevant batch-jobb väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger namnet på batch-jobbet och väljer sedan tillhörande länk.
 2. Om snabbfliken **Alternativ** finns för batch-jobbet fyller du i fälten för att bestämma vad batch-jobbet ska utföra.
 3. Sidan kanske innehåller en eller flera snabbflikar med filter, som du kan använda för att begränsa vilka data som ingår i batch-jobbet. Du kan ange villkor i de föreslagna filtren eller lägga till fler filter.
 4. Klicka på **OK** för att starta batchjobbet.

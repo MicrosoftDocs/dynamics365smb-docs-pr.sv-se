@@ -1,21 +1,22 @@
 ---
-title: Ställa in anläggningstillgångar
+title: Ställa in anläggningstillgångar | Microsoft Docs
 description: Få information om de åtgärder som du måste göra om du vill ställa in anläggningstillgångar, till exempel maskiner eller byggnader.
-author: edupont04
-ms.topic: conceptual
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.search.form: 5607
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3213dfabc13b9402c794589b6bced5fe3350cf5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7a5230f26b3e0db8896125d1a8dbf2d8ff322777
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136198"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751161"
 ---
 # <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
@@ -39,14 +40,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Aktivera försäkringsskydd för anläggningstillgångar, ange allmän försäkringsinformation, ett försäkringskort per brev och förbered journaler för att bokföra försäkringkostnader. |[Skapa försäkring för anläggningstillgångar](fa-how-setup-insurance.md) |
 | Aktivera underhåll av anläggningstillgångar, ange allmän underhållsinformation, skapa konton för bokföring av underhåll och definiera typer av underhållsarbete. |[Skapa underhåll för anläggningstillgångar](fa-how-setup-maintenance.md) |
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
-| Så här använder du användardefinierade avskrivningsmetoder. |[Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
-
 
 ## <a name="see-also"></a>Se även
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  
-[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Komma igång](product-get-started.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

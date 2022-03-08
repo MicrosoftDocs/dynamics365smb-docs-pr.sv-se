@@ -1,20 +1,21 @@
 ---
-title: Hantera lagerkostnader
-description: Kostnadshantering är om registrering och rapportering av rörelsens driftskostnader, inklusive rapportering av produktionskostnader och lagerkostnader.
+title: Hantera lagerkostnader | Microsoft Docs
+description: Kostnadshantering används vid registrering och rapportering av rörelsens driftskostnader. Den omfattar rapportering av tillverkningskostnader och lagerkostnader, det vill säga varornas värdet.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95ec74af47442d740806aefd00d2e7ab1482075e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138524"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380058"
 ---
 # <a name="managing-inventory-costs"></a>Hantera lagerkostnader
 Kostnadshantering används vid registrering och rapportering av rörelsens driftskostnader. Den omfattar rapportering av tillverkningskostnader och lagerkostnader, det vill säga varornas värdet.   
@@ -36,8 +37,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Använda särskild kostnadsberäkning för dagligen återkommande artikeltransaktioner i artikeloperationer.|[Hantera lager- och produktionskostnader](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Du måste regelbundet uppdatera standardkostnader för komponenter i monterings- eller produktionsstrukturer och överföra de nya kostnaderna till den överordnade artikeln.|[Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)|
 |Visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.|[Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)|
-|utföra kontroll- och rapporteringsuppgifter vid periodslut, till exempel beräkna lagervärdet och bokföra kostnader i redovisningen.|[Rapportera kostnader och stämma av med redovisningen](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|lära dig hur du kan använda jobbkön för att flytta aktiviteterna för att justera lagerkostnaden eller stämma av den med redovisningen till bakgrunden.|[justera och stämma av lagerkostnad med redovisning med jobbkö](finance-manage-inventory-costs.md)|
+|utföra kontroll- och rapporteringsuppgifter vid periodslut, till exempel beräkna lagervärdet och bokföra kostnader i redovisningen.|[Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
 
 ## <a name="see-also"></a>Se även  
  [Ekonomi](finance.md)  

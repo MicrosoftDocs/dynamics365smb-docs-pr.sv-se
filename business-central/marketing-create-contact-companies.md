@@ -1,23 +1,23 @@
 ---
 title: Skapa affärskontakter
-description: Beskriver de uppgifter som är involverade i att skapa kontakter och definiera dina affärsrelationer på kontaktkortet.
+description: I det här fältet beskrivs uppgifterna för att du ska kunna skapa kontakter och definiera affärsrelationer.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 07/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 31fa33a1842a7e825872b13f6f7a2fb65c517ffa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140897"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780804"
 ---
 # <a name="create-contacts"></a>Skapa kontakter
-
 När du utvecklar en affärsrelation till någon på ett annat företag lägger du till denne som en kontakt i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan sedan lägga till information om dem eller deras företag som kan vara användbar för framtida kommunikation. På sidan **Kontaktkort** kan du skapa följande typer av kontakter:
 
 * **Person** – Oftast är det när du har direkt kontakt med någon och har deras kontaktuppgifter.
@@ -29,13 +29,8 @@ Du kan också ändra värdet i fältet **Typ** vid ett senare tillfälle. Du kan
 
 När en kontakt omvandlas till en kund blir kontaktpersonen eller kontaktföretaget namnet på kunden. Posten för kontakten behålls och du kan koppla kontakten till kunden så att informationen synkroniseras i framtiden.
 
-> [!NOTE]
-> Om du slår på [funktionsuppdateringen för konverteringsmallar](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/use-conversion-templates-convert-contacts-vendors-employees) kan du också skapa leverantörer eller anställda från affärskontakter.
->
-> Men om du redan använder den inbyggda funktionen för att skapa kunder eller artiklar automatiskt, stöder den här funktionsuppdateringen inte anpassade fält och nyskapade kunder eller artiklar kommer inte att innehålla sådana data.
-
 ## <a name="to-create-a-contact-manually"></a>Så här skapar du en kontakt manuellt
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. I fältet **Nr.** anger du ett nummer för kontakten.
 
@@ -48,7 +43,7 @@ Om du har kunder, leverantörer och bankkonton som du vill skapa kontaktkort fö
 > [!NOTE]  
 > Innan du kan skapa kontakter baserat på befintliga data måste du ange en affärsrelationskod för kunder, leverantörer eller bankkonton på snabbfliken **Interaktioner** på sidan **Marknadsföringsinställningar**. Mer information finns i [Ställa in kontakter](marketing-setup-contacts.md).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange ett av följande, beroende på varifrån du vill skapa kontakter och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange något av följande beroende på varifrån du vill skapa kontakter välj sedan relaterad länk.
    * **Skapa kontakter från kunder**
    * **Skapa kontakter från leverantörer**
    * **Skapa kontakter från bankkonton**
@@ -66,7 +61,7 @@ Om du har en kund, leverantör, medarbetare eller ett bankkonto för företaget 
 > [!NOTE]  
 > Innan du kan skapa kunder, leverantörer, medarbetare eller bankkonton från kontakter måste du ange en affärsrelationskod på sidan **Marknadsföringsinställningar** under snabbfliken **Interaktioner**. Mer information finns i [Konfigurera kontakter](marketing-setup-contacts.md).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk.
 2. Välj kontakten du vill skapa som en kund, leverantör, medarbetare eller ett bankkonto.
 3. Välj åtgärden **Skapa som** och välj sedan antingen **Kund**, **Leverantör**, **Bank** eller **Medarbetare**.
 4. Välj **OK**.
@@ -114,7 +109,7 @@ Det finns tre sätt att aktivera datasynkronisering mellan kontakter och kunder,
 * När du länkar kontakterna till befintliga kunder, leverantörer, medarbetare eller bankkonton från kontaktkortet. Se [Länka en kontakt till en befintlig kund, leverantör eller bankkonto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Visar vilken kund, leverantör, medarbetare eller vilket bankkonto en kontakt tillhör
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kontakter** och välj sedan relaterad länk.
 2. Markera raden för en kontakt, välj åtgärden **Relaterad information** och välj sedan åtgärden **Kund/Leverantör/Bankkonto/Medarbetare**.
 
 ## <a name="see-also"></a>Se även

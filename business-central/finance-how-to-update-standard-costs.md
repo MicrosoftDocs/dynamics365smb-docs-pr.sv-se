@@ -1,34 +1,35 @@
 ---
-title: Uppdatera standardkostnader
+title: Så här kan du uppdatera standardkostnader | Microsoft Docs
 description: Du måste regelbundet uppdatera standardkostnader för komponenter och överföra de nya kostnaderna till den överordnade artikeln.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5841
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd79e723ea86f3e5631a571a26a061c84adab518
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5bbe6afc90cd89c7cd1a98b65a386404d90b5088
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141131"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780941"
 ---
 # <a name="update-standard-costs"></a>Uppdatera standardkostnader
 Du måste regelbundet uppdatera standardkostnader för komponenter och överföra de nya kostnaderna till den överordnade artikeln. Processen består typiskt av följande fyra steg:  
 
 1.  Uppdatera kostnader på komponent- och kapacitetsnivå. Mer information finns i batch-jobbet **Föreslå artikelstandardkostnad**.  
 2.  Konsolidera och summera komponent- och kapacitetskostnader för att beräkna den totala produktions- eller monteringskostnaden för artiklarna.  
-3.  Använd standardkostnaderna som angavs när du körde de föregående batch-jobben. Standardkostnaderna börjar inte gälla förrän de implementeras. Använd batch-jobbet **Implementera ändringar av standardkostnad**, som uppdaterar ändringarna av standardkostnaden för artiklar med de i tabellen Standardkostnadsformulär.  
+3.  Använd standardkostnaderna som angavs när du körde de föregående batch-jobben. Standardkostnaderna börjar inte gälla förrän de implementeras. Mer information finns i Implementera standardkostnadsändringar.  
 4.  Inför ändringarna för att uppdatera fältet **Styckkostnad** för artikelkortet och utföra lageromvärderingen. Mer information finns i [Omvärdera lager](inventory-how-revalue-inventory.md).  
 
-Mer information finns i [Om att beräkna standardkostnad](finance-about-calculating-standard-cost.md).
-  
-## <a name="to-update-standard-costs"></a>Uppdatera standardkostnader
-
-1.  Kör batch-jobbet **Justera kost. – artikeltrans.**  
+Mer information finns i [Om att beräkna standardkostnad](finance-about-calculating-standard-cost.md).  
+## <a name="to-update-standard-costs"></a>Uppdatera standardkostnader  
+1.  Kör batch-jobbet **Justera kost. - artikeltrans.**  
 2.  Kör batch-jobbet **Bokför lagerkostnad i redov.**  
 3.  Öppna **Standardkostnadsformulär** och använd en eller flera av följande funktioner:  
 
@@ -41,12 +42,8 @@ Mer information finns i [Om att beräkna standardkostnad](finance-about-calculat
     7.  Kör batch-jobbet **Implementera standardkostnadsändringar**.  
 4.  Granska och bokför sidan **Omvärderingsjournal** , vilken har fyllts på med transaktioner från föregående steg i den här processen.  
 
-## <a name="see-also"></a>Se även
-
+## <a name="see-also"></a>Se även  
  [Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)   
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md) [Finans](finance.md)  
- [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

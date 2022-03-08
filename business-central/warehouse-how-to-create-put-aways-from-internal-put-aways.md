@@ -1,20 +1,21 @@
 ---
-title: Skapa artikelinförslar från intern artikelinförsel
-description: I det här avsnittet beskrivs hur du plockar och inför artikelinförsel utan källdokument, hur du skapar en intern plockning och hur du skapar en intern artikelinförsel.
+title: Så här skapar du artikelinförslar från Intern artikelinförsel | Microsoft Docs
+description: När artiklar har förts in och innan de plockas till en produktionsorder eller utleverans, förvaras de i distributionslagret som en del av det disponibla lagersaldot.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5095b4dde92b2d6982bfc8a984f10f5b62454800
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140091"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756248"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plocka och lagra utan källdokument
 När artiklar har förts in och innan de plockas till en produktionsorder eller utleverans, förvaras de i distributionslagret som en del av det disponibla lagersaldot.  
@@ -33,30 +34,21 @@ På samma sätt kan artiklar returneras till distributionslagret för artikelinf
 >  När lagerstället använder dirigerad artikelinförsel och plockning, och därmed också lagerplatstyper, kan du inte manuellt flytta artiklar in och ut ur en lagerplats av typen INLEV. Detta beror på att artiklar som finns i en lagerplats av INLEV.-typ måste registreras som införda innan de blir en del av det tillgängliga lagret.  
 
 ## <a name="to-create-an-internal-pick"></a>Skapa en intern plockning  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager intern plockning** och väljer sedan relaterad länk.  
-2. Välj åtgärden **Ny**.
-3. Fyll i fälten **Nr.** fältet **Lagerställekod** och fältet **Till lagerplatskod** på snabbfliken **Allmänt**. Fältet **Till lagerställeskod** anger den lagerplats där du vill placera plockade artiklar. För produktion skulle den här lagerstället vara den inkommande produktionslagerstället eller den öppna fabrikslagerstället. För andra typer av aktiviteter väljer du en lagerplatskod för en lagerplatstyp som inte används för plockning, troligtvis en etapplagerplats, leveranslagerplats eller speciallagerplats.  
-4.  Välj en artikel i fältet **Artikelnr** och fyll i den kvantitet som du vill plocka.  
-5. Välj åtgärden **Skapa plockning**. En plockinstruktion är nu klar att utföras av lagerpersonalen. Alternativt kan du välja åtgärden **Frisläppning** och skapa distributionslagerplockningar med hjälp av **Plockförslaget**. Mer information finns i [Planera plockningar i förslag](warehouse-how-to-plan-picks-in-worksheets.md)
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager intern plockning** och välj sedan relaterad länk.  
+2.  Fyll i fälten **Nr.** och fältet **Till lagerställeskod** på snabbfliken **Allmänt**. Fältet **Till lagerställeskod** anger den lagerplats som du vill hämta artiklar från. För produktion skulle den här lagerstället vara den inkommande produktionslagerstället eller den öppna fabrikslagerstället. För andra typer av aktiviteter väljer du Till lagerställeskod för en lagerplatstyp som inte används för plockning, troligtvis en etapplagerplats, leveranslagerplats eller speciallagerplats.  
+3.  Välj en artikel i fältet **Artikelnr** och fyll i den kvantitet som du vill plocka.  
+4. Välj åtgärden **Skapa plockning**. En plockinstruktion är nu klar att utföras av lagerpersonalen.  
 
 ## <a name="to-create-an-internal-put-away"></a>Skapa en intern art.införsel  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager intern art.införsel** och väljer sedan relaterad länk.  
-2. Välj åtgärden **Ny**.
-3. Fyll i huvudet på en ny intern artikelinförsel med åtminstone **Nr.** och **Lagerställekod**.
-4. Fyll i en rad för varje artikel som du vill flytta till distributionslagerstället. Du behöver endast fylla i fälten **Artikelnr** och **Antal**.
-
-  > [!NOTE]  
-  > När du väljer fältet **Artikelnr.** öppnas **Lista för lagerplatsinnehåll** istället för **Artikellistan**. Detta beror på att du vill föra in en artikel som finns på en viss lagerplats – ett *lagerplatsinnehåll* – och inte bara en artikel, och du vet redan vilken lagerplats som artikeln ska tas ifrån.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
-5. Om du vill fylla raderna med hela lagerplatsinnehållet eller det filtrerade lagerplatsinnehållet från lagerplatser på platsen, väljer du åtgärden **Hämta lagerplatsinnehåll**.  
-6. Välj åtgärden **Skapa artikelinförsel**. En artikelinförselinstruktion är nu klar att utföras av lagerpersonalen. Alternativt kan du välja åtgärden **Frisläppning** och skapa distributionslagerinförslar med hjälp av **Artikelinförselförslag**. Mer information finns i [Planera artikelinförslar i kalkylark](warehouse-how-to-plan-put-aways-in-worksheets.md)
+1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Dist.lager intern art.införsel** och välj sedan relaterad länk.  
+2.  Fyll i fälten **Nr.** och fälten **Från lagerställeskod** på snabbfliken **Allmänt**. Fältet **Från lagerställeskod** anger den lagerplats där de artiklar finns som returneras till lagret, kanske från produktionen.  
+3.  Fyll i artikelnumren och kvantiteterna på raderna.  
+4.  Välj åtgärden **Skapa artikelinförsel**. En artikelinförselinstruktion är nu klar att utföras av lagerpersonalen.  
 
 ## <a name="see-also"></a>Se även  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lager](inventory-manage-inventory.md)  
+[Lagersaldo](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

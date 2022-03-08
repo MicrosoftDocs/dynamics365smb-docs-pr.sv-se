@@ -4,19 +4,20 @@ description: Beskriver uppgifterna om du vill ange information och koder, till e
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 868b8afe7fb9b36b9fc55930fa702bd181e395f2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137841"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746022"
 ---
 # <a name="set-up-contacts"></a>Ställa in kontakter
 När du skapar kontakter kan du ange särskild information, till exempel vilken bransch kontakten tillhör och vilken affärsrelation du har med kontakten.
@@ -25,7 +26,7 @@ Innan du skapar kontakter och registrerar uppgifter om affärsrelationerna, mås
 
 Om du ställer in den här information kan du skapa kontakterna på ett mer organiserat sätt och att söka efter kontakterna utifrån en viss grupp blir mer effektivt. Varje grupp på företaget kan hitta den här informationen och därför blir kommunikationen med kontakterna mer framgångsrik.
 
-## <a name="to-assign-industry-groups-to-a-contact"></a>Så här tilldelar du industrigrupper till en kontakt
+## <a name="to-assign-industry-groups-to-a-contact"></a> Så här tilldelar du industrigrupper till en kontakt
 Branschgrupper används för att visa vilken bransch kontakterna tillhör, exempelvis detaljhandel eller bilBransch.
 
 > [!NOTE]
@@ -43,7 +44,7 @@ Antalet branschgrupper som du har tilldelat kontakter anges automatiskt i fälte
 
 När du har tilldelat kontakterna branschgrupper kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
-## <a name="to-assign-mailing-groups-to-a-contact"></a>Så här tilldelar du utskicksgrupp till en kontakt
+## <a name="to-assign-mailing-groups-to-a-contact"></a> Så här tilldelar du utskicksgrupp till en kontakt
 Utskicksgrupper används för att definiera kontaktgrupper som du vill ge samma information. Du kan till exempel skapa en utskicksgrupp med de kontakter du vill skicka flyttkort till eller en annan grupp för att skicka julklappar.
 
 Utskicksgruppkoden definierar typen eller kategorin för den gruppen, till exempel FLYTTA för kontorsflyttning eller GÅVA för julklappar. Du kan ha flera branschgruppkoder. För att definiera branschgrupperna använder du sidan **Utskicksgrupper**.
@@ -75,7 +76,7 @@ Du kan lägga till information om arbetsansvar för kontaktpersoner för att ang
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **Person**.
 
-Arbetsansvarkoden definierar typen eller kategorin för projektet, som t. ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du sidan **Arbetsansvar**.
+Arbetsansvarkoden definierar typen eller kategorin för projektet, som t.ex. MARKNADSFÖRING eller KÖP. Du kan ha flera arbetsansvarkoder. Att definiera arbetsansvaret använder du sidan **Arbetsansvar**.
 
 1. Öppna relevant kontaktkort.
 2. Välj åtgärden **Person** och sedan **Arbetsansvar**. Sidan **Kontakt arbetsansvar** öppnas.
@@ -88,12 +89,12 @@ Antalet arbetsansvar som du har tilldelat kontakter anges automatiskt i fältet 
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="to-assign-organizational-levels-to-a-contact"></a>För att tilldela befattningsnivåer till en kontakt
-Du kan använda befattningsnivåer på kontakterna om du vill ange vilken befattningsnivå de har i företaget, t. ex. företagsledning. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
+Du kan använda befattningsnivåer på kontakterna om du vill ange vilken befattningsnivå de har i företaget, t.ex. företagsledning. Du kan använda den här informationen, när du anger uppgifter om kontakterna.
 
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **Person**.
 
-Befattningsnivåkoden anger typen eller kategorin av befattningsnivån, som t. ex. VD eller CFO. Du kan ha flera befattningsnivåkoder. För att definiera befattningsnivån använder du sidan **Befattningsnivåer**.
+Befattningsnivåkoden anger typen eller kategorin av befattningsnivån, som t.ex. VD eller CFO. Du kan ha flera befattningsnivåkoder. För att definiera befattningsnivån använder du sidan **Befattningsnivåer**.
 
 1. Öppna relevant kontaktkort.
 2. I fältet **Befattningsnivåer** väljer du den kod som du vill tilldela.
@@ -103,7 +104,7 @@ När du har fördelat befattningsnivåer till kontakterna kan du använda inform
 När du har tilldelat arbetsansvar till kontakterna kan du använda dessa uppgifter för urval av kontakter till segmenten. Mer information finns i [Så här lägger du till kontakter i segment](marketing-add-contact-segment.md).
 
 ## <a name="to-assign-web-sources-to-a-contact"></a>För att tilldela webbadresser till en kontakt
-Du kan använda webbadresser med dina kontaktföretag för att t. ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
+Du kan använda webbadresser med dina kontaktföretag för att t.ex. identifiera sökmotorer och webbplatser på Internet som du vill använda för att söka efter information om kontakterna. När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som ska användas för att hitta önskad information.
 
 > [!NOTE]
 > Detta är endast tillåtet för kontakter av typen **företag**.
@@ -117,7 +118,7 @@ När du tilldelar webbadresser anger du vilken sökmotor och vilket sökord som 
 
 Upprepa stegen för varje webbkälla du vill skapa.
 
-## <a name="to-assign-business-relations-to-a-contact"></a>Så här tilldelar du affärsrelationer till kontakter
+## <a name="to-assign-business-relations-to-a-contact"></a> Så här tilldelar du affärsrelationer till kontakter
 Affärsrelationer används för att visa vilket affärsförhållande du har till kontakterna, till exempel spekulant, bank, konsult eller serviceleverantör.
 
 > [!NOTE]
@@ -160,6 +161,3 @@ När du har hittat dubbelkontakter kan du använda sidan **Koppla dubblett** fö
 [Skapa kontakter](marketing-create-contact-companies.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

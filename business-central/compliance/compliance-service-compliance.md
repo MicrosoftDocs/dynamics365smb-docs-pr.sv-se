@@ -1,21 +1,22 @@
 ---
 title: Tjänstens regelefterlevnad och SLA
-description: Ur ett serviceperspektiv lever Business Central upp till de strikta kraven och SLA-efterlevnaden i flera ISO- och branschspecifika certifieringar.
+description: Detta innehåll innehåller information om tjänstens regelefterlevnad i relation till Business Central Online.
 author: sorenfriisalexandersen
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 06/14/2021
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 272fbb7b10b3852cbf8ca013ca06d8011bd53836
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8ea17f10621a152832de7862ed438681d54500f9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128878"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772845"
 ---
 # <a name="service-compliance"></a>Tjänstens regelefterlevnad
 
