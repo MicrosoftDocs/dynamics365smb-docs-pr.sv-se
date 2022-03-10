@@ -1,21 +1,21 @@
 ---
-title: Söka efter Funktioner och information | Microsoft Docs
+title: Söka efter funktioner och information (innehåller video)
 description: Det här avsnittet beskriver hur du använder sökning för att hitta åtgärder, sidor, rapporter, dokumentation och data, samt andra program och rådgivning.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2020
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6de3033333e997fa335f085499b81e1caa4146d7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c11b0b82d0c6634fc69b09b8995046bf194a3838
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381685"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323202"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till sa
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-När du behöver hjälp med att hitta någonting, kan du använda ikonen ![Berätta vad du vill göra](media/ui-search/search.png "Sök efter sida eller rapport") **Berätta vad du vill göra** för att söka efter det. Du kan också använda ALT+Q för att börja använda Berätta.
+När du behöver hjälp med att hitta något, använd ![Berätta för mig vad du vill göra.](media/ui-search/search.png "Sök efter sida eller rapport") **Berätta vad du vill göra** ikonen för att söka efter det. Du kan också använda ALT+Q för att börja använda Berätta.
 
 När du börjar skriva tecken visar [!INCLUDE[prod_short](includes/prod_short.md)] omedelbart matchningar. Resultatet i listan ändras när du skriver fler tecken. Om du märker att när du skriver ordet "produkt" och resultaten inkluderar **Artiklar** beror det på att Berätta använder synonymer och alternativa sökord för att göra det enklare att hitta åtgärder, sidor och rapporter.
 

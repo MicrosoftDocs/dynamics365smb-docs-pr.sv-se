@@ -1,23 +1,24 @@
 ---
-title: Ställa in resurser, tidrapporter och jobb | Microsoft Docs
-description: Beskriver hur du ställer in resurser och tidrapporter och projekt för att hantera projekt.
+title: Ställa in resurser, tidrapporter och jobb
+description: I det här avsnittet beskrivs hur du ställer in resurser, tidrapporter och jobb för att hantera projekt och deras budgetar.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2020
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 099698611820f791d36c659f983316dee03d9c9a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758572"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146234"
 ---
 # <a name="setting-up-project-management"></a>Ställa in projekthantering
+
 Innan du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
 
 Sedan kan du skapa projekt och schemaresurser för projekt samt hantera budgetar och spåra maskintimmar och anställdas arbetstimmar med tidrapporter. Mer information finns i [Hantera projekt](projects-manage-projects.md).  
@@ -39,3 +40,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

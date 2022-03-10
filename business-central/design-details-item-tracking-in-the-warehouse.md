@@ -1,21 +1,20 @@
 ---
-title: Designdetaljer - Artikelspårning i distributionslagret | Microsoft Docs
-description: Hantering av serienummer- eller partinummerbruk är främst en distributionslageruppgift, och därför har alla ankommande och avgående distributionslagerdokument standardfunktioner för att tilldela och välja artikelspårningsnummer. Men eftersom reserveringssystemet baseras på artikeltransaktioner stöds inte lageraktivitetsdokument som bara registrerar distributionslagertransaktioner helt.
+title: Designdetaljer – Artikelspårning i distributionslagret
+description: Ankommande och avgående distributions lagerdokument har standardfunktioner för tilldelning och val av artikelspårningsnummer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: fdd76b21254fc40d2d02332f29c2e002900fdc8b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775146"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141313"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Designdetaljer: Artikelspårning i distributionslagret
 Hantering av serienummer- eller partinummerbruk är främst en distributionslageruppgift, och därför har alla ankommande och avgående distributionslagerdokument standardfunktioner för att tilldela och välja artikelspårningsnummer.  
@@ -29,7 +28,7 @@ Däremot beaktar reservationssystemet distributionslageraktiviteter när det ber
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Artikelkoppling](design-details-item-tracking.md)  
 [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)  
-[Designdetaljer - Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
+[Designdetaljer – Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
 [Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)
 
 

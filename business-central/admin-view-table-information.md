@@ -2,19 +2,19 @@
 title: Visa tabellinformation
 description: Lär dig mer om hur du kan visa information om databaslås direkt från klientgränssnittet i Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.search.form: 8700
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a01143dd7928d5996c1620676a758ea634bdf5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776897"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133102"
 ---
 # <a name="viewing-table-information"></a>Visa tabellinformation
 
@@ -24,7 +24,7 @@ Den här informationen är användbar för att felsöka prestandaproblem, efters
 
 ## <a name="viewing-table-information"></a>Visa tabellinformation
 
-Du öppnar den här sidan genom att välja ikonen ![Sök efter sida eller rapport](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport"), ange **tabellinformation** och sedan välja relaterad länk.
+Om du vill öppna sidan markerar du ![Sök på sidan eller rapporten.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Tabellinformation** och väljer sedan relaterad länk.
 
 I följande tabell beskrivs de olika tabellerna som anges:
 

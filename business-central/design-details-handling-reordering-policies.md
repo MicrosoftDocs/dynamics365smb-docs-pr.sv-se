@@ -1,21 +1,20 @@
 ---
-title: Designdetaljer - Hantera partiformningsmetoder | Microsoft Docs
-description: Översikt över aktiviteter för att definiera en ombeställningsmetod inom leveransplanering.
+title: Designdetaljer – Hantera partiformningsmetoder
+description: Den här artikeln ger en översikt över uppgifter som är involverade i att hantera ombeställningspolicyer och definiera ombeställningspolicy i leveransplanering.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5dc916bcba012476e9365c8d5c8e97d413b4cdd5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 705948d59e5ecf724f0dcaa1546485914c16fe23
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784623"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142451"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Hantera partiformningsmetoder
 För att en artikel ska ingå i leveransplanering måste en ombeställningsmetod definieras. Följande fyra partiformningsmetoder finns:  
@@ -67,7 +66,7 @@ Följande sekvens beskriver hur den planerade lagernivån fastställs:
 
 Följande visar en grafisk illustration av den här principen:  
 
-![Fastställa den planerade lagernivån](media/nav_app_supply_planning_2_projected_inventory.png "Fastställa den planerade lagernivån")  
+![Fastställa den planerade lagernivån.](media/nav_app_supply_planning_2_projected_inventory.png "Fastställa den planerade lagernivån")  
 
 1. Tillgång **Sa** of 4 (fast) stänger Efterfrågan **Da** of -3.  
 2. CloseDemand: Skapa en minska-påminnelse på -3 (visas inte).  
@@ -94,7 +93,7 @@ För partiformningsmetoder som använder en beställningspunkt kan du ange en ti
 
 Konceptet med tidsenhet återspeglar den manuella processen för att kontrollera lagernivån ofta istället för vid varje transaktion. Användaren måste definiera frekvens (tidsenheten). Till exempel samlar användaren alla artikelbehov från en leverantör att göra en veckobeställning.  
 
-![Exempel på tidsenhet för planering](media/nav_app_supply_planning_2_reorder_cycle.png "Exempel på tidsenhet för planering")  
+![Exempel på tidsenhet för planering.](media/nav_app_supply_planning_2_reorder_cycle.png "Exempel på tidsenhet för planering")  
 
 Tidsenhet används allmänt för att undvika en kaskadeffekt. Till exempel skapas en balanserad rad med efterfrågan och tillgång där en tidig efterfrågan annulleras, eller ny skapas. Resultatet skulle vara att varje leveransorder (utom den sista) omplaneras.
 
@@ -103,7 +102,7 @@ När du använder policyer för Maximalt antal och Fast orderkvantitet fokuserar
 
 *Observera! Det planerade lagret [xx] är större än överflödesnivån [xx] på förfallodatumet [xx].*  
 
-![Lagrets överflödesnivå](media/supplyplanning_2_overflow1_new.png "Lagrets överflödesnivå")  
+![Lagrets överflödesnivå.](media/supplyplanning_2_overflow1_new.png "Lagrets överflödesnivå")  
 
 ###  <a name="calculating-the-overflow-level"></a>Beräknar överflödesnivån  
 Överflödesnivån beräknas på olika sätt beroende på planeringsinställningen.  
@@ -179,7 +178,7 @@ I det här scenariot ändrar en kund en försäljningsorder från 70 till 40 sty
 #### <a name="resulting-planning-lines"></a>Uppdaterar planeringsrader  
  En planeringsrad (varning) skapas för att minska inköpet med 30 från 90 till 60 för att hålla det planerade lagret på 100 enligt överflödesnivån.  
 
-![Planera enligt överflödesnivå](media/nav_app_supply_planning_2_overflow2.png "Planera enligt överflödesnivå")  
+![Planera enligt överflödesnivå.](media/nav_app_supply_planning_2_overflow2.png "Planera enligt överflödesnivå")  
 
 > [!NOTE]  
 >  Utan funktionen Överflöde skapas ingen varning om den planerade lagernivån är högre än beställningsgränsen. Det kan orsaka en överflödig leverans av 30.
@@ -193,7 +192,7 @@ Beställningspunkten uttrycker den förutsedda efterfrågan under ledtiden för 
 
  I följande illustration representerar D en nödleveransorder för att justera för ett negativt lagersaldo.  
 
- ![Förslag på nödplanering för att undvika negativt lagersaldo](media/nav_app_supply_planning_2_negative_inventory.png "Förslag på nödplanering för att undvika negativt lagersaldo")  
+ ![Förslag på nödplanering för att undvika negativt lagersaldo.](media/nav_app_supply_planning_2_negative_inventory.png "Förslag på nödplanering för att undvika negativt lagersaldo")  
 
 1.  Tillgång **A**, initialt planerat lager, är nedanför beställningspunkt.  
 2.  En ny framåtplanerad tillgång skapas (**C**).  

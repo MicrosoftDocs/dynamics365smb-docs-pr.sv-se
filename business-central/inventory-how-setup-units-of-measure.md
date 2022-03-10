@@ -2,7 +2,6 @@
 title: Så här konfigurerar du måttenheter för artiklar | Microsoft Docs
 description: Du kan ange flera enheter för en artikel, så att du kan tilldela måttenheter till artikeln.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 28351ac57c6c1941446d5383b384b78fbdf1f77a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435553"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131515"
 ---
 # <a name="set-up-units-of-measure"></a>Ställa in måttenheter
 
@@ -27,6 +26,8 @@ Du kan ange flera enheter för en artikel, så att du kan tilldela enheter till 
 - Tilldela alternativa måttenheter till inköps-, produktions- eller försäljningsdokument för att ange hur många enheter av basenheten du hanterar samtidigt i dessa processer. Du kan till exempel köpa artikeln på pallar och endast använda enstaka enheter i produktionen.
 
 Om en artikel lagerförs med en enhet men tillverkas med en annan, kan du skapa en produktionsorder som använder enheten för produktionsbatch för att beräkna rätt antal komponenter under batch-jobbet **Uppdatera produktionsorder**. Ett exempel på beräkning med en enhet för produktionsbatch är när tillverkade artiklar lagerförs styckvis, men tillverkas tonvis. Mer information finns i [Arbeta med måttenheter för produktionbatch](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
+
+Ett annat verktyg som gör det enklare att arbeta med flera måttenheter för olika artiklar är möjligheten att ange en avrundningsprecision för basenheter. Att ange en avrundningsprecision ger vägledning för vad någon ska ange för en viss affärsprocedur och minskar avrundningsproblemen. När du använder alternativa enheter används värdet i fältet **Antal per måttenhet** för att beräkna antalet i basenheten, vilket kan leda till avrundningsproblem. Anta t.ex. att du får en ruta som innehåller sex objekt. När rutan anländer till lagret upptäcker du att en av de sex artiklarna saknas. Du bestämmer dig för att inte bokföra inleveransen av en ruta, utan i stället ändra den mottagna kvantiteten till fem av sex delar. Som leder till en inleverans av 4,99998 st enheter snarare än fem. På sidan **måttenheter för artikel** i fältet **Avrundning för antal** låter dig ange ett värde som omvandlar kvantiteten till ett nummer som är lättare att förstå. Om du fortsätter med exemplet skriver vi in **1** i fältet för att avrunda till jämnt fem stycken.
 
 ## <a name="to-set-up-units-of-measure"></a>Ställa in måttenheter
 
@@ -57,11 +58,11 @@ När du registrerar en ny artikel kan du välja basenheten från listan över en
 
     I fältet **basenhet** längst ned i fönstret, kan du visa eller ändra artikelns basenhet. Du kan också ändra basenhet i fältet **basenhet** på artikelkortet. På sidan **måttenheter för artikel** måste basenheten ha värdet **1** i fältet **Antal per måttenhet**.
 
-Du kan nu använda de alternativa enheterna i inköps-, produktions- och försäljningsdokument enligt beskrivningen i [och ange en standardenhetskod för försäljnings-och inköpstransaktioner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
+Nu kan du använda de alternativa enheter för inköp, produktion och försäljningsdokument. För mer information, se [Så här anger du en standardenhet för en enhetskod för försäljnings- och inköpstransaktioner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Så här skapar du enhetsöversättningar
 
-När du säljer varor till utländska kunder, kan det hända att du vill ange enheten på kundens eget språk. Det kan du göra om du har skapat de enhetsöversättningar som behövs.
+När du säljer varor till utländska kunder, kan det hända att du vill ange enheten på kundens eget språk. Det kan du göra genom att ange översättningar av måttenheter.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **måttenhet** och väljer sedan relaterad länk.
 2. Välj den kod som du vill skapa översättningar för och välj sedan åtgärden **Översättningar**.

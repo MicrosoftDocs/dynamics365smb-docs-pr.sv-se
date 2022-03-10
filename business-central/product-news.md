@@ -1,37 +1,48 @@
 ---
-title: Nyheter i Business Central | Microsoft Docs
-description: Så här får du senaste nyheterna och uppdateringar för Business Central.
+title: Nytt och planerat i standard versionen
+description: Lär dig hitta de senaste nyheterna och uppdateringarna för nya och befintliga funktioner i standardversionen av Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 06/13/2019
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3b1372b5a4a567820e0a4d4d87fffa51fc5bd52b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: ef648fcd29b15494e78c4b6482edf0996c22b670
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629809"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135834"
 ---
-# <a name="whats-new-in-dynamics-365-business-central"></a>Nyheter i Dynamics 365 Business Central
+# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nytt och planerat för Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
-Den här sidan hänvisar till avsnitt som hjälper dig att lära dig om de nya funktionerna i de senaste versionerna av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Om du inte redan har gjort detta, registrera dig för en [test](https://trials.dynamics.com/), och låt oss gå igenom grunderna för vad du kan göra med [!INCLUDE[d365fin](includes/d365fin_md.md)], och försök sedan att ta reda på saker på egen hand. När du är klar kan du öppna upp ett tomt företaget och konfigurera de saker du vill ha.  
+Du kan alltid hänvisa till viktig information om du vill ha en översikt över nya och kommande funktioner. I dokumentationen kan du sedan söka efter avsnitt som du kan använda för att lära dig mer om nya och befintliga funktioner i standardversionen av [!INCLUDE[prod_long](includes/prod_long.md)].  
 
-Vi uppdaterar regelbundet [!INCLUDE[d365fin](includes/d365fin_md.md)] med ytterligare funktioner i det grundläggande programmet och med nya tillägg. Den aktuella listan över Microsoft-tillägg finns i [anpassa Business Central med hjälp av tillägg](ui-extensions.md).
+Följande lista innehåller information om de senaste versionerna av [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-Information om alla tillägg som erbjuds av [!INCLUDE[d365fin](includes/d365fin_md.md)]-partners finns i [AppSource, Business Central](http://go.microsoft.com/fwlink/?linkid=2081646).  
+* [Utgivningscykel 2 för 2021](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
+* [Utgivningscykel 1 för 2021](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
+* [Utgivningscykel 2 för 2020](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
 
-## <a name="check-the-business-central-blog"></a>Kontrollera Business Central-bloggen
-Vi talar även om nya funktioner i [Business Central-bloggen](https://community.dynamics.com/business/b/financials/), till exempel när de blir tillgängliga och om det finns några saker.  
+Du kan också utforska webbplatsen [Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/) och webbplatsen [Dynamics 365 Business Central-översikt](https://dynamics.microsoft.com/roadmap/business-central/).  
+
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Få ett meddelande om ändringar via en RSS-feed
+
+[!INCLUDE [ua-rss](includes/ua-rss.md)]
 
 ## <a name="see-also"></a>Se även
-[Komma igång](product-get-started.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Business Central-prissättning](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
+
+[Besök vårt videobibliotek](across-videos.md)  
+[Resurser för hjälp och support](product-help-and-support.md)  
+[Dynamics 365 Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Snabbstart för Business Central](quick-start-business-central.md)  
+[Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central-översikt](https://dynamics.microsoft.com/roadmap/business-central/)  
+[Dynamics 365-blogg](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+[Business Central-prissättning](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central-gruppen](https://community.dynamics.com/business/)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

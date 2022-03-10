@@ -2,38 +2,37 @@
 title: Använd Invoicing och Business Central | Microsoft Docs
 description: Lösning för att komma åt Microsoft Invoicing när du har registrerat dig för Dynamics 365 Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Invoicing, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: Invoicing, Microsoft 365
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b04da7a7fa6d831646c6af9f0606afa90dc00bd6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188858"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134414"
 ---
-# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Använda samma Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] och Microsoft Invoicing
-När du registrerar dig för en provversion av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du byta till en 30 dagar lång utvärderingsfas, starta en prenumeration eller sluta använda [!INCLUDE[d365fin](includes/d365fin_md.md)]. Om du loggar in i Office-portalen kommer du i samtliga fall att se en flik som heter **Microsoft Invoicing** och klicka på den. Detta ingår i Office 365 Business Premium-prenumerationen, så det är inte alla som får se fliken i Office-Portalen.  
+# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Använda samma Microsoft 365-konto i [!INCLUDE[prod_short](includes/prod_long.md)] och Microsoft Invoicing
+När du registrerar dig för en testversion av [!INCLUDE[prod_short](includes/prod_short.md)] kan du byta till en 30 dagar lång utvärderingsfas, starta en prenumeration eller sluta använda [!INCLUDE[prod_short](includes/prod_short.md)]. Ibland kan det hända att du har sett något som kallas **Microsoft Invoicing** och klickat på den. Detta var en app som ingick i det som nu är Microsoft 365 Business Standard och tidigare kallades för Microsoft 365 Business Premium-prenumeration, så det är inte alla som har sett den panelen i sin Microsoft 365-upplevelse.  
 
-Om du öppnar Microsoft Invoicing visas ett meddelande om att du inte har åtkomst till Microsoft Invoicing eftersom ditt konto används i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Microsoft Invoicing är inte längre tillgängligt, men om du behöver logga in på fakturering för att hämta data kanske du får ett meddelande om att du inte kan komma åt Microsoft Invoicing eftersom ditt konto används i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Ett liknande meddelande visas om du installerar det mobila programmet för Invoicing.  
 
 ## <a name="workaround"></a>Lösning
-Invoicing och [!INCLUDE[d365fin](includes/d365fin_md.md)] har en delad plattform. Det innebär att du identifieras som en befintlig användare i [!INCLUDE[d365fin](includes/d365fin_md.md)] när du klickar på Fakturering i Office-portalen. Det beror på att Invoicing inte kan använda samma företag som [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Invoicing och [!INCLUDE[prod_short](includes/prod_short.md)] har en delad plattform. Det innebär att du identifieras som en befintlig användare i [!INCLUDE[prod_short](includes/prod_short.md)] när du klickar på Fakturering i administrationscentret för Microsoft 365. Det beror på att Invoicing inte kan använda samma företag som [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Du måste därför logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] och döpa om ditt befintliga företag och sedan skapa ett nytt företag som du kan använda i Fakturering. Inga data flyttas eller skrivs över i samband med denna lösning.
+Du måste därför logga in på [!INCLUDE[prod_short](includes/prod_short.md)] och döpa om ditt befintliga företag och sedan skapa ett nytt företag som du kan använda i Fakturering. Inga data flyttas eller skrivs över i samband med denna lösning.
 
 ### <a name="to-rename-your-company"></a>Byta namn på ditt företag
-1. Logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. I det övre högra hörnet väljer du ikonen **Inställningar** ![Inställningar](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan **Mina inställningar**.
+1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)].
+2. I det övre högra hörnet väljer du ikonen **Inställningar** ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan **Mina inställningar**.
 3. I fältet **företag** väljer du ett annat företag.
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företag** och välj sedan tillhörande länk.  
+4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företag** och väljer sedan relaterad länk.  
 5. På sidan **Företag** väljer du knappen **Redigera lista**.  
 6. Byt namn på posten *Mitt företag* till något annat.  
 
@@ -41,13 +40,16 @@ Du måste därför logga in på [!INCLUDE[d365fin](includes/d365fin_md.md)] och 
 7.  När systemet är redo igen väljer du knappen **Skapa nytt företag**.  
 8.  I dialogrutan som visas anger du namnet som *Mitt företag* och väljer sedan alternativet **Produktion – endast konfigurationsdata**.  
 
-Detta tar återigen några minuter. När processen är klar kommer du att få åtkomst till Invoicing som en del av din Office 365 Business Premium-upplevelse.  
+Detta tar återigen några minuter. När processen är klar kommer du att få åtkomst till Fakturering som en del av din Microsoft 365 Business Standard-upplevelse. Men endast för export av data eftersom faktureringsprogrammet är föråldrat.  
 
 ### <a name="what-about-my-data"></a>Om mina data
-När du byter namn på det ursprungliga Mitt företag döps de databastabeller som lagrar dina befintliga [!INCLUDE[d365fin](includes/d365fin_md.md)]-data om, men själva informationen ändras inte.  
+När du byter namn på det ursprungliga Mitt företag döps de databastabeller som lagrar dina befintliga [!INCLUDE[prod_short](includes/prod_short.md)]-data om, men själva informationen ändras inte.  
 
-Om du använder såväl Invoicing som [!INCLUDE[d365fin](includes/d365fin_md.md)] lagras datan i två olika behållare (de två företagen). Inget delas, så du måste hantera kunder och artiklar i båda företagen.  
+Om du använder såväl Invoicing som [!INCLUDE[prod_short](includes/prod_short.md)] lagras datan i två olika behållare (de två företagen). Inget delas, så du måste hantera kunder och artiklar i båda företagen.  
 
 ## <a name="see-also"></a>Se även
-[Vanliga frågor och svar](across-faq.md)  
+[Vanliga frågor och svar](across-faq.yml)  
 [Administration](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
-title: Ställa in bästa praxis – leveransplanering | Microsoft Docs
-description: Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att undvika att varor tar slut i lager, och att reducera order- och lagerkostnader, när den har konfigurerats korrekt.
+title: Skapa metodtips – leveransplanering
+description: Leveransplaneringen hjälper dig att undvika att varor tar slut i lager, och att reducera order- och lagerkostnader, när den har konfigurerats korrekt.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c8b0585aa714630aefb2fa870feafbf6ebf12228
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747824"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132556"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Skapa metodtips: leveransplanering
 Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att undvika att varor tar slut i lager, och att reducera order- och lagerkostnader, när den har konfigurerats korrekt.  
@@ -35,3 +34,6 @@ Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att
  [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,21 @@
 ---
-title: Ställa in lager | Microsoft Docs
-description: Beskriver hur du ställer in dina lagerprocesser, inklusive överföringsflöden och lagerställen som t.ex. distributionslager.
-services: project-madeira
-documentationcenter: ''
+title: Ställa in lager
+description: Beskriver hur du ställer in dina lagerprocesser, inklusive överföringsflöden och lagerställen som t. ex. distributionslager.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2020
+ms.search.form: 30, 461
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5b4e07f128551e978dffb2dedeb3e0257eea1ea
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 4e5c1ef77c9053bb47ab3f800b3524bf24b6a7be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024568"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148466"
 ---
 # <a name="setting-up-inventory"></a>Ställa in lager
 Innan du kan administrera aktiviteter för lager och lagerkostnader måste du först ställa in de regler och värden som definierar företagets lagerpolicyer.
@@ -49,3 +47,6 @@ När du har skapat ett lager kan du administrera olika lagerprocesser relaterade
 [Hantera försäljning](sales-manage-sales.md)    
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,20 +2,19 @@
 title: Arbeta med avropsorder, försäljning eller inköpsorder
 description: Du kan använda avropsorder om en kund har avtalat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Detsamma gäller för inköp.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dca254fd842739db798c763087fe94217061bbcf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 29f4c7286547dcde0332fa587245da47aa2f503c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383056"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128652"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeta med avropsorder, försäljning eller inköpsavropsorder
 
@@ -32,7 +31,7 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 
 ## <a name="to-create-a-blanket-sales-order"></a>Så här skapar du en avropsorder
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avropsorder, försäljning** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Låt fältet **Orderdatum** vara tomt. När separata försäljningsorder skapas från avropsordern anges orderdatum för försäljningsordern som det aktuella arbetsdatumet.
@@ -60,37 +59,37 @@ Följande gäller försäljningsorder, när de har skapats från försäljningsa
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Så här visar du status för en avropsorder  
 Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik för försäljningsavropsorder**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån försäljningsavropsorder.  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avropsorder, försäljning** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.  
 2.  Markera en försäljningsavropsorder och välj åtgärden **statistik**.  
 3.  På sidan **Statistik för försäljningsavropsorder** på snabbfliken **Inköpsorderstatistik** visas översiktsinformation om hela ordern baserat på den totala kvantiteten i de olika **antalsfälten** på avropsorderraderna.  
 
 - På snabbfliken **Fakturering** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att fakturera** på försäljningsavropsorderraderna.  
 - På snabbfliken **Leverans** visas översiktsinformation som baseras på den totala kvantiteten i fälten för **Ant. att inlevereras** på försäljningsavropsorderraderna.  
 - På snabbfliken **Förskottsbetalning** visas översiktsinformation om eventuella förskottsbetalda belopp.  
-- På snabbfliken **Leverantör** visas viss grundläggande information om leverantören.    
+- På snabbfliken **Leverantör** visas viss grundläggande information om leverantören.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader   
 Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljningsordern och eventuella övriga försäljningsdokument, bibehålls när du har bokfört som en lista över bokförda och ej bokförda fakturarader för försäljningsorder.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **avropsorder, försäljning** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.
 2. Öppna den avropsorder för försäljning som du vill visa.
 3. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** ocgh sedan **Ej bokförda rader**. Välj något av följande alternativ:  
 
-    |Alternativ|Description|
-    |--|--|
-    |**Order**|Anger öppna order som är associerade till den markerade raden.|
-    |**Fakturor**|Anger öppna fakturor som är associerade till den markerade raden. Öppna fakturor kan associeras manuellt till en avropsorder genom att avropsordernumret anges på försäljningsfakturaraden.|
-    |**Returorder**|Anger öppna returorder som är associerade till den markerade raden.|
-    |**Kreditnota**|Anger öppna kreditnotor som är associerade till den markerade raden.|
+|Alternativ|Description|
+|--|--|
+|**Order**|Anger öppna order som är associerade till den markerade raden.|
+|**Fakturor**|Anger öppna fakturor som är associerade till den markerade raden. Öppna fakturor kan associeras manuellt till en avropsorder genom att avropsordernumret anges på försäljningsfakturaraden.|
+|**Returorder**|Anger öppna returorder som är associerade till den markerade raden.|
+|**Kreditnota**|Anger öppna kreditnotor som är associerade till den markerade raden.|
 
 4. Om du vill visa transaktioner som inte har bokförts väljer du åtgärden **Rad** och sedan åtgärden **Bokförda rader**. Välj något av följande alternativ:  
 
-    |Alternativ|Description|
-    |---|----|
-    |**Utleveranser**|Bokförda leveranser som är associerade till den markerade raden.|
-    |**Fakturor**|Bokförda fakturor som är associerade till den markerade raden.|
-    |**Returinleveranser**:|Bokförda returinleveranser som är associerade till den markerade raden.|
-    |**Kreditnota**|Bokförda kreditnotor som är associerade till den markerade raden.|
+|Alternativ|Description|
+|---|----|
+|**Utleveranser**|Bokförda leveranser som är associerade till den markerade raden.|
+|**Fakturor**|Bokförda fakturor som är associerade till den markerade raden.|
+|**Returinleveranser**:|Bokförda returinleveranser som är associerade till den markerade raden.|
+|**Kreditnota**|Bokförda kreditnotor som är associerade till den markerade raden.|
 
 5. På sidan **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
 

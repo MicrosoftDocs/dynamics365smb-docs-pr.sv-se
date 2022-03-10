@@ -2,20 +2,18 @@
 title: Om beräkning av standardkostnad
 description: I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: 3ef1aac08230477afefafee6afcaf05ac9c9cfff
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323208"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149159"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beräkning av standardkostnad
 Många produktionsföretag använder värderingsbasen för standardkostnad. Detta gäller också företag som utför lätt produktion, t. ex. montering och paketering. I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks. Innan ett beslut fattas om att ändra de här kostnaderna förblir de frysta. Den faktiska kostnaden för att tillverka en produkt kan skilja sig från den beräknade standardkostnaden. Den faktiska kostnaden jämförs sedan med standardkostnaden för en särskild artikel och skillnaderna eller *avvikelserna* identifieras och analyseras för den ekonomiska styrningen.  
@@ -33,22 +31,23 @@ Eftersom standardkostnaden för en producerad eller monterad artikel kan innehå
 
 Redovisningen i ett produktionsföretag som använder standardkostnadskalkylering består av:  
 
--   Att uppskatta en standardkostnad för en färdig artikel samt att ställa in den på artikelkortet.  
--   Att registrera och fördela den faktiska kostnaden för de viktigaste kostnadsslagen samt att redovisa avvikelser.  
+- Att uppskatta en standardkostnad för en färdig artikel samt att ställa in den på artikelkortet.  
+- Att registrera och fördela den faktiska kostnaden för de viktigaste kostnadsslagen samt att redovisa avvikelser.  
 
 Alla komponentkostnader måste räknas samman när den direkta kostnaden för en färdig artikel ska bestämmas. En monterad eller en tillverkad artikel kan bestå av halvfabrikat, som också består av flera komponenter.  
 
 Följande viktiga kostnadselement utgör den totala inköpskostnaden för en färdig och bearbetad artikel:  
 
--   Materialkostnader.  
--   Kapacitetskostnad.  
--   Underleverantörskostnader endast för den producerade artikeln.  
+- Materialkostnader.  
+- Kapacitetskostnad.  
+- Underleverantörskostnader endast för den producerade artikeln.  
 
-### <a name="material-costs"></a>materialkostnader  
- Materialkostnaderna är kostnader som är kopplade till detaljmontage och inköpt råmaterial. Materialkostnaden kan bestå av kostnadsslag för både inköpskostnad och indirekt kostnad.  
+### <a name="material-costs"></a>materialkostnader
 
--   Inköpskostnaden för materialet utgörs av ett fakturerat belopp för inköpt råmaterial eller av produktionskostnaden för ett detaljmontage.  
--   Den indirekta kostnaden för materialet eller *overheadkostnaden* kan t. ex. utgöras av lagerhållningskostnaden för den färdiga artikeln när den har tillverkats.  
+Materialkostnaderna är kostnader som är kopplade till detaljmontage och inköpt råmaterial. Materialkostnaden kan bestå av kostnadsslag för både inköpskostnad och indirekt kostnad.  
+
+- Inköpskostnaden för materialet utgörs av ett fakturerat belopp för inköpt råmaterial eller av produktionskostnaden för ett detaljmontage.  
+- Den indirekta kostnaden för materialet eller *overheadkostnaden* kan t. ex. utgöras av lagerhållningskostnaden för den färdiga artikeln när den har tillverkats.  
 
 Inställningen av materialkostnaden för inköpta artiklar, som påverkar inköpskostnad och indirekt kostnad, beror på den värderingsprincip du har valt för den aktuella artikeln. Du kan skapa kostnadsinformation för varje värderingsprincip på artikelkortet. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
@@ -66,13 +65,13 @@ Kapacitetskostnaderna är kostnader som är kopplade till interna kostnader för
 
 Inställningen av kapacitetskostnaderna för monterade artiklar består av följande delar:  
 
--   Inköpskostnad och indirekt styckkostnad för resursen.  
--   Fast eller direkt resursförbrukningstyp.  
+- Inköpskostnad och indirekt styckkostnad för resursen.  
+- Fast eller direkt resursförbrukningstyp.  
 
 Inställningen av kapacitetskostnaderna för producerade artiklar består av följande delar:  
 
--   Inköpskostnad och indirekt styckkostnad för maskin- eller produktionsgruppen.  
--   Inställning av tid och partistorlek.  
+- Inköpskostnad och indirekt styckkostnad för maskin- eller produktionsgruppen.  
+- Inställning av tid och partistorlek.  
 
 Om en standardinställd kapacitetskostnad ska kunna beräknas måste du fastställa standardinställda tidskostnader som behövs till operationerna i maskin- och produktionsgrupperna. Den totala tiden för att slutföra en operation består vanligtvis av omställningstiden, bearbetningstiden och av väntetiden och transporttiden.  
 
@@ -97,7 +96,7 @@ Processen för att uppdatera eller att beräkna standardkostnader består vanlig
 
 1.  Uppdatera kostnader på komponent- och kapacitetsnivå. Mer information finns i batch-jobben **Föreslå artikelstandardkostnad** och **föreslå kapacitet standardkostnad**.  
 2.  Konsolidera och summera komponent- och kapacitetskostnader för att beräkna den totala monterings- eller produktionskostnaden för artiklarna. Mer information finns i [Beräkna standardkostnaden för en monteringsartikel](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Använda standardkostnaderna som anges när du kör de föregående batch-jobben. Standardkostnaderna börjar inte gälla förrän de implementeras. Mer information finns i batch-jobbet **Implementera standardkostnadsändringar**.  
+3.  Använda standardkostnaderna som anges när du kör de föregående batch-jobben. Standardkostnaderna börjar inte gälla förrän de implementeras. Använd batch-jobbet **Implementera ändringar av standardkostnad**, som uppdaterar ändringarna av standardkostnaden för artiklar med de i tabellen Standardkostnadsformulär.  
 4.  Implementera ändringarna för att uppdatera fältet **Styckkostnad** för artikelkortet och utföra lagerutvärderingen. Mer information finns i [Omvärdera lager](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Se även  

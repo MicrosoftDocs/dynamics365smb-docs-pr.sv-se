@@ -2,20 +2,19 @@
 title: Ställ in kundprisgrupper
 description: Lära dig hur du lägger upp kundprisgrupper och skapar försäljningspriser för dessa grupper.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
-ms.author: a-jillk
-ms.openlocfilehash: e00af84992274fd627735624b313940874966338
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: 9b2ff8cca6abf8c1f849039deff5a441427bf112
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589536"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143146"
 ---
 # <a name="set-up-customer-price-groups"></a>Ställ in kundprisgrupper
   

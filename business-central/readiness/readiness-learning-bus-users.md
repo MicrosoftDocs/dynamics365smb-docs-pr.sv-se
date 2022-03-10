@@ -2,15 +2,15 @@
 title: Utbildningskatalog för affärsanvändare
 description: Hitta alla tillgänglig utbildning för Business Central.
 author: loreleishannonmsft
-ms.date: 04/20/2020
-ms.topic: article
+ms.date: 04/01/2021
+ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 8fabcd929ecd2ebe0ed81f16625f9ad8aca3ff1f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778853"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772435"
 ---
 # <a name="business-users-learning-catalog"></a>Utbildningskatalog för affärsanvändare
 
@@ -23,7 +23,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | Innehåll                                                                                                                               | Beskrivning                                                                                                                                                                                                                                                                                      | Format                                | Längd             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Komma igång med projekt Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Använder du intresserad av Business Central? I så fall ger den här utbildningsvägen en bra introduktion. Den beskriver hur du skapar en utvärderingsversion, ger grundläggande information om vad som finns tillgängligt och vilka anpassningar du kan göra för att anpassa Business Central för användning. | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 4 minuter  |
-| [Arbeta med Microsoft Dynamics 365 Business Central -användargränssnittet](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Vill du lära dig mer om Business Central-användargränssnittet? I den här utbildningsvägen visas användargränssnittet och hur du kan anpassa det. Den beskriver även alternativa gränssnitt som t.ex. en smartphone.                                                                               | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
+| [Arbeta med Microsoft Dynamics 365 Business Central -användargränssnittet](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Vill du lära dig mer om Business Central-användargränssnittet? I den här utbildningsvägen visas användargränssnittet och hur du kan anpassa det. Den beskriver även alternativa gränssnitt som t. ex. en smartphone.                                                                               | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
 | [Arbeta som ett proffs med data i Business Central](/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet.                                                                                                  | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
 
 ## <a name="financials"></a>Ekonomi<a name="financials"></a>
@@ -48,3 +48,6 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Returnera artiklar i Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Behöver du returnera artiklar till leverantörer och acceptera returer från kunder? Med hjälp av den här utbildningsvägen kan du lära dig mer om hur du behandlar returer.                                                                                                                                                                         | Kostnadsfri online-utbildningsväg i egen takt | 1 timme 25 minuter  |
 | [Fylla på artiklar i Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Behöver du fylla på lagerartiklar i företaget? I den här utbildningsvägen visas alternativ som du kan använda för att effektivt fylla på artiklar i Business Central.                                                                                                                                     | Kostnadsfri online-utbildningsväg i egen takt | 1 timme 46 minuter  |
 | [Montera artiklar i Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Säljer du monterade artiklar? I den här utbildningsvägen får du den information som du behöver för monteringshantering och monteringsartiklar. Det finns också steg för att producera monterade artiklar till lager eller order.                                                                                                                | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 26 minuter |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

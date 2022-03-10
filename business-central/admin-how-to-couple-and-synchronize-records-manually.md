@@ -1,31 +1,31 @@
 ---
-title: Koppling och synkronisering | Microsoft-dokument
+title: Koppling och synkronisering (innehåller video)
 description: Genom att synkronisera en mappning av integreringstabellen möjliggörs datasynkronisering i alla poster i en tabell i Business Central eller Dynamics 365 Sales som är kopplade.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2021
+ms.search.form: 6250
+ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 53b12b6ab7e53a20bb1b8fcc659b2f1454e85321
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 71e0e319162e071d880ef4d314eb54cdd5d918f0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779938"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136406"
 ---
-# <a name="coupling-and-synchronizing"></a>Koppling och synkronisering
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Koppla och synkronisera poster mellan Dataverse och Business Central
+
 I det här avsnittet beskrivs hur du kopplar en eller flera transaktioner i [!INCLUDE[prod_short](includes/prod_short.md)] med transaktioner i Dataverse eller [!INCLUDE[crm_md](includes/crm_md.md)]. Koppling av poster låter dig visa Dataverse information från [!INCLUDE[prod_short](includes/prod_short.md)] och vice versa. Kopplingen låter dig också synkronisera data mellan posterna. Du kan koppla befintliga poster eller skapa och koppla nya poster.
 
 > [!Note]
 > Du kan bara koppla och synkronisera data om din systemadministratör har skapat en anslutning mellan [!INCLUDE[prod_short](includes/prod_short.md)] och Dataverse eller [!INCLUDE[crm_md](includes/crm_md.md)]. Ett snabbt sätt att kontrollera är att öppna kortet **kund** och leta efter åtgärden **konfigurera koppling**. Om åtgärden är tillgänglig är apparna sammankopplade.   
 
 ## <a name="video-example"></a>Videoexempel
+Det här videoklippet visar kopplings-och synkroniseringsdata vid integrering med [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 
@@ -48,6 +48,14 @@ I det här avsnittet beskrivs hur du kopplar en eller flera transaktioner i [!IN
 
 > [!Note]
 > Du kan endast synkronisera en enskild transaktion automatiskt från [!INCLUDE[crm_md](includes/crm_md.md)] när **Synka endast kopplade transaktioner** är inaktiverat och synkroniseringen har angetts som dubbelriktad eller Från integreringstabell på sidan **Registermappning för integrering** för transaktionen. Mer information finns i [Mappa de tabeller och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+
+## <a name="to-couple-multiple-records-using-match-based-coupling"></a>För at koppla flera poster med matchningsbaserad koppling
+
+Du kan ange vilka data som ska synkroniseras för en entitet, t.ex. en kund eller kontakt, genom kopplingsposter som baseras på matchningar. Du kan förfina matchningarna genom att göra sökningen skifteslägeskänslig och tilldela varje matchning en prioritet. Om ingen matchning hittas kan du även ange att du vill skapa entiteten i Dataverse. Mer information finns i [Anpassa matchningsbaserad koppling](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] öppna listsidan för posten, till exempel listsidan kunder eller kontakter.
+2. Välj åtgärden **matchningsbaserad koppling**.
+3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-synchronize-multiple-records"></a>Om du vill synkronisera flera poster  
 1.  I [!INCLUDE[prod_short](includes/prod_short.md)] öppna listsidan för posten, till exempel listsidan kunder eller kontakter.  

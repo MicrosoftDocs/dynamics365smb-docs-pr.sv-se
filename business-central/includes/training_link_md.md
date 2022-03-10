@@ -1,1 +1,1 @@
-Hämta [utbildning!](/learn/browse/?products=dynamics-business-central)
+Hämta [utbildning!](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)

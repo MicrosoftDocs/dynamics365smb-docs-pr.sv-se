@@ -4,7 +4,6 @@ description: Läs om hur momsinställningar för kunder och leverantörer styr o
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444261"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137919"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Fördela kostnader till koncerninterna partner
 När du använder koncerninterna bokföringar för att överföra dokument mellan partnerföretag, kontrollerar de momsrelaterade inställningarna (främst rörelsebokföringsmallen för mots) som tilldelats kund- eller leverantörskonton (som är kopplade till den koncerninterna partnern) om, och hur, moms beräknas och registreras. Du kan också göra kostnadsfördelningar direkt från en inköpsorder till partnerföretag. Om du till exempel registrerar en inköpsfaktura från en extern leverantör och vill distribuera vissa eller samtliga kostnader till en eller flera koncerninterna partner.

@@ -5,20 +5,22 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
-ms.service: dynamics365-business-central
+ms.topic: conceptual
 author: jswymer
-ms.date: 04/01/2020
-ms.openlocfilehash: 7790548828595838e6c2f626194d59260ef4e8ab
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: jswymer
+ms.date: 04/01/2021
+ms.openlocfilehash: d30b93942292e2f6a5a52831725ec06aed32820c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187778"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136510"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektera sidor i Business Central
 
 Funktionen för sidinspektion låter dig hämta information om en sida, ge insikt i sidans design, de olika element som utgör grunden för sidan och källan för de data som visas. Sidinspektion är särskilt utformad för administratörer, privilegierade användare, supportpersonal och utvecklare. Den är perfekt för att lära sig datamodellen bakom en sida och felsökning. Om det till exempel uppstår problem med en sida, kan du använda granskning på sidan för att hämta information som vidarebefordras till systemadministratören eller supportpersonal.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Arbeta med sidinspektion
 
@@ -26,7 +28,7 @@ Du startar sidgranskning från sidan **hjälp och support**. Välj frågetecknet
 
 Rutan **sidinspektion** visas på sidan. I följande figur visas rutan **Sidinspektion** på sidan **försäljningsorder**.
 
-![Sidinspektion](media/page-inspection-example.png)
+![Sidinspektion.](media/page-inspection-example.png)
 
 När rutan **Sidinspektion** först öppnats, visas information som tillhör objektet på huvudsidan.
 
@@ -44,4 +46,7 @@ Användare som inte har beviljats behörighet för **systemobjekt 5330** kan for
 
 ## <a name="see-also"></a>Se även
 
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

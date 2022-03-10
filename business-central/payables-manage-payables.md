@@ -1,21 +1,21 @@
 ---
-title: Översikt över uppgifter för hantering av leverantörsskulder | Microsoft Docs
+title: Översikt över uppgifter för hantering av leverantörsskulder
 description: Innehåller information om hur du hanterar leverantörsreskontra, till exempel betala fordringsägare eller koppla utgående betalningar till transaktioner för att stänga fakturor eller kreditnotor.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.search.form: 161, 254, 256, 347, 574, 599, 9002
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1248a4932194de68c05ca4343836d345b5284b16
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ef7b8fafd5949d9a3595a003c4840994e2319d54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190187"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137737"
 ---
 # <a name="managing-payables"></a>Hantera Leverantörsreskontra
 
@@ -42,6 +42,9 @@ I följande tabell beskrivs en serie uppgifter inom Leverantörsskulder med län
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Använd artikelomkostnader för att redovisa ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

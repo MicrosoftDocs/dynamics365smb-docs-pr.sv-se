@@ -2,20 +2,19 @@
 title: Så här kombinerar du leveranser på en enda faktura | Microsoft Docs
 description: Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 802cb7e6d7b7bb56f994eaf2b45df9c9f9cb43d3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a55d0d32873783adf049b44d90cc12b6e66080a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383081"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144781"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinera leveranser på en enda faktura
 Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.  
@@ -23,7 +22,7 @@ Om du vill fakturera mer än en leverans åt gången kan du använda funktionen 
 Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma kund och i samma valuta ha bokförts. Med andra ord måste du ha skapat minst två försäljningsorder och bokfört dem som levererade, men inte fakturerade. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser manuellt på en enda faktura  
-1. Välj ![glödlampikonen som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsfakturor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md).
 3. I fältet **Förs.kundnr.** Ange den kund som ska få fakturan för de levererade artiklarna, i fältet.  
 4. På snabbfliken **Rader** klickar du på åtgärden **Hämta utleveransrader**.  
@@ -35,10 +34,13 @@ Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma 
     Om du har markerat fel leveransrad eller om du vill börja om kan du ta bort raderna på fakturan och köra funktionen **Hämta leveransrader** på nytt.  
 7. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
 
+> [!TIP]  
+> Om du har levererat order där du fyller i fältet **Försäljningskundnr.** Skiljer sig från **Faktureringskundnr.**, visas inte raderna i rapporten **Hämta leveransrader**. Använd anpassning för att lägga till fältet **Försäljningskund** och ta bort filtret. Nu kan du lägga till leverans rader på fakturan oavsett värdet i fältet **Försäljningskundnr.** Om du vill använda fältet **Faktureringskundnr.** Fältet på leverans raderna matchar värdet på försäljningsfakturan.  
+
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura  
 [!INCLUDE[prod_short](includes/prod_short.md)] väljer endast de försäljningsorder där **Kombinera leveranser** har valts. 
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kombinera leveranser** och välj sedan relaterad länk. Sidan för begäran om batch-jobb öppnas.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kombinera leveranser** och väljer sedan relaterad länk. Sidan för begäran om batch-jobb öppnas.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Markera kryssrutan **Bokför fakturor**.  
 4. Välj **OK**.  
@@ -51,7 +53,7 @@ När utleveranser kombineras på en faktura och bokförs, skapas en bokförd fö
 
 När du fakturerar leveranser på det här sättet finns de order som leveranserna bokfördes från kvar, även om de har levererats och fakturerats i sin helhet.   
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Ta bort fakturerade förs.order** och välj sedan länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ta bort fakturerade försäljningsorder** och väljer sedan länken.  
 2. Fälten **Serienr** . vilka försäljningsorder som ska tas bort.  
 3. Välj **OK**.  
 

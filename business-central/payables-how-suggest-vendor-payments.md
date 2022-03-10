@@ -1,26 +1,25 @@
 ---
-title: Använd batch-jobbet Betalningsförslag för lev. | Microsoft Docs
+title: Föreslå batch-jobb för leverantörsbetalningar
 description: Du kan ange leverantörsbetalningsinställningar för att få förslag till betalningar som förfaller snart eller där en rabatt kan erhållas.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.search.form: 256
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ffac3e4a7f1275cdd9975f18de0b4c7222d646c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 439db2ccacf165d27db44e4c786e71a4372171f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779991"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137789"
 ---
 # <a name="suggest-vendor-payments"></a>Betalningsförslag för lev.
-På sidan **Betalningsjournal** kan du använda batch-jobbet **Föreslå leverantörsbetalning** för att föreslå betalningsrader. Rader för saker som t.ex. betalningar som förfaller snart eller betalningar där en kassarabatt finns tillgänglig föreslås utifrån dina inställningar.
+
+På sidan **Betalningsjournal** kan du använda batch-jobbet **Föreslå leverantörsbetalning** för att föreslå betalningsrader. Rader för saker som t. ex. betalningar som förfaller snart eller betalningar där en kassarabatt finns tillgänglig föreslås utifrån dina inställningar.
 
 För att dra full nytta av betalningsförslagen, måste du prioritera leverantörerna. Mer information finns i [Så här prioriterar du leverantörer](purchasing-how-prioritize-vendors.md).  
 
@@ -34,7 +33,7 @@ För att dra full nytta av betalningsförslagen, måste du prioritera leverantö
     * Öppna leverantörstransaktioner som är berättigade till kassarabatter, ordnade efter leverantörsnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Om du vill använda funktionen Betalningsförslag för lev.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.  
 2. Öppna den relevanta journalen och välj sedan åtgärden **Betalningsförslag för lev.**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Välj **OK**.  
@@ -56,4 +55,7 @@ Du kan även skapa betalningsrader manuellt genom att använda förfallodatum f�
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Göra betalningar](payables-make-payments.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

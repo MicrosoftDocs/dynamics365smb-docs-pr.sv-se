@@ -1,22 +1,22 @@
 ---
-title: Arbeta med återkommande intäkter | Microsoft Docs
+title: Arbeta med återkommande intäkter
 description: Lär dig mer om tillgängliga alternativ för att automatiskt skicka prenumerationsfakturor till dina kunder och registrera återkommande intäkter.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 657c473301b52011c1f1cbe2767f3c0ceaeb4725
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380008"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128797"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeta med återkommande intäkter i [!INCLUDE[prod_short](includes/prod_short.md)]
 

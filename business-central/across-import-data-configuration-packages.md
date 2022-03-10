@@ -2,20 +2,19 @@
 title: Använda Excel för att importera data till Business Central
 description: Använd standardkonfigurationspaketet för att lägga till kundinformation i Excel och återimportera data till Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f3885d9e07a6ea417bf2dc7de5881e6d3278ca10
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5c6dc9d386bde8e4f8496f086141589ea4c89c73
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379254"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136458"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importera verksamhetsdata från andra finanssystem
 

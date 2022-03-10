@@ -1,22 +1,21 @@
 ---
-title: Visa åtgärdsinriktade insikter i rollcenter | Microsoft Docs
-description: Tillägget Vitala företagsinsikter roterar ett antal företagsinsikter om rollcenter.
+title: Visa åtgärdsinriktade insikter i rollcenters
+description: Lär dig hur tillägget Vitala företagsinsikter roterar ett antal företagsinsikter om rollcenter.
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: ab06a76319897b1eef00ba57d5a1c2cba5773334
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 75081547af3c98233870d0cbe68860ab52d8c38d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194241"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134775"
 ---
 # <a name="the-essential-business-insights-extension"></a>Tillägget Vitala företagsinsikter
 Tillägget Vitala företagsinsikter hittar intressanta affärsfakta i dina företagsdata och visar dessa som tidningsaktiga rubriker i rollcenter. Beroende på vad tillägget hittar i datan kommer insikterna från förra veckan, förra månaden eller tre månader från dagens datum. Denna kunskap uppdateras var 10:e minut.  
@@ -37,4 +36,7 @@ I följande tabell beskrivs den information som detta tillägg ger respektive ro
 |Administratör| Visar en hälsningsfras och en länk till produktinformation.|
 
 ## <a name="see-also"></a>Se även
-[Anpassa [!INCLUDE[d365fin](includes/d365fin_md.md)] med tillägg](ui-extensions.md)
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

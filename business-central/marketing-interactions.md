@@ -1,23 +1,22 @@
 ---
-title: Hantera interaktioner med dina kontakter | Microsoft Docs
+title: Hantera interaktioner med dina kontakter
 description: Du kan hantera all slags kommunikation eller interaktioner mellan ditt företag och kontakterna, till exempel för brev, telefonsamtal, sammanträden och så vidare.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.search.forms: 5082,
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 854970fc2d47110375cf905236df19c90db27e33
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914045"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131385"
 ---
 # <a name="record-interactions-with-contacts"></a>Spela in interaktioner med kontakter
 Ställ in ditt program att registrera interaktioner består av dessa uppgifter:
@@ -50,9 +49,12 @@ På den här sidan kan du:
 * Visa interaktionens status.
 * Markera interaktioner som makulerade.
 
-Du kan ta bort interaktionloggar som har avbrutits. För att ta bort interaktionsloggar väljer du ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), anger **Radera makulerade rader i interaktionsloggen**, välj tillhörande länk och ange sedan informationen.
+Du kan ta bort interaktionloggar som har avbrutits. För att ta bort transaktioner, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Ta bort avbrutna interaktionsloggtrans**, och välj sedan relaterad länk och fyll i information.
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Arbeta med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

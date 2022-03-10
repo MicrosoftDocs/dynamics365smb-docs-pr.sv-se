@@ -2,20 +2,19 @@
 title: Designdetaljer – Leveransplanering | Microsoft Docs
 description: Det här avsnittet innehåller en översikt över de begrepp och metoder som används inom leveransplaneringsfunktionerna i Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
-ms.date: 10/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ed874c647dd5c3526df38a3c4d6ee43293737786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7f1ba46b98d041639b2089a661b5e7b137edc6b1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751086"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131840"
 ---
 # <a name="design-details-supply-planning"></a>Designdetaljer: Leveransplanering
 Dokumentationen innehåller detaljerad teknisk insikt i begreppen och principerna som används i leveransplaneringen i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -31,3 +30,6 @@ Den förklarar hur planeringssystemet fungerar och hur du justerar algoritmerna 
 [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
 [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
 [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,29 +1,94 @@
 ---
 title: Snabbguide för kortkommandon på datorns tangentbord
 description: En utskriftsvänlig referensmall som innehåller de vanligaste kortkommandona endast för datoranvändare.
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+author: bholtorf
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 05/22/2019
-ms.author: sgroespe
-ms.openlocfilehash: f0ada187d21b5ed920fd9e969586f33ed0ffbe8b
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.date: 04/01/2021
+ms.author: bholtorf
+ms.openlocfilehash: 0e605470c312b93d7ebe7afde1c673bd57fb3615
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594224"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135243"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Snabbguide för kortkommandon - endast dator
+# <a name="keyboard-quick-reference---pc-only"></a>Snabbguide för kortkommandon – endast dator
 
-||||  
-|----------------|-----------|----------------|
-|**Allmänt**|Alt+Q<br />Alt+Upp<br />Alt+nedpil<br />Alt+Högerpil<br />Ctrl+Alt+F1<br />Ctrl+F1<br />Esc<br />F5/Ctrl+F5<br />Tabb/Shift+Tabb<br />|Öppna **Berätta**<br />Öppna knappbeskrivning eller valideringsfel<br />Öppna en listruta eller ett uppslag<br />Se transaktioner för det beräknade värdet<br />Kontrollera sidan<br />Öppna hjälpen för sidan<br />Stäng den aktuella sidan eller listan.<br />Uppdatera/läs in sidan.<br />Flytta fokus till nästa/föregående element|
-|**Navigera och<br />markera rader**| Home/End<br />Ctrl+Home/End <br />Ctrl+Upp/ned<br />Ctrl+A <br />Ctrl+Blanksteg<br />Ctrl/Shift+Klick<br />Shift+Upp/ned<br />Shift+Page Up/Down<br />Ctrl+Enter| Gå till första/sista fältet<br />Gå till första/sista raden<br />Navigera utan att förlora markeringar<br />Markera allt<br />Växla radmarkering<br /> Lägg till rad/rader i markeringen<br />Lägga till rad ovanför/nedanför markering<br />Markera synliga rader ovanför/nedanför <br />Fokusera ut från listan|
-|**Kopiera och klistra in**|Ctrl+C<br />Ctrl+V<br />F8|Kopiera rader<br />Klistra in rader<br />Kopiera fält ovan till aktuell rad|
-|**Sök, filtrera <br />och sortera**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Shift+F3|Växla sökning<br />Växla filterrutan; fokusera på fältfilter<br />Växla filterrutan; fokusera på totala filter<br />Filtrera efter markerade cellvärdet<br />Lägg till filter i markerat fält fält<br />Återställ filter|
-|**Snabbinmatning**|Ctrl+Shift+Enter<br />Enter/Shift+Enter|Gå till nästa snabbinmatningsfält utanför en lista<br />Gå till nästa/föregående snabbinmatningsfält|
-|**Förhandsgranskning av rapport**|Upp/ned<br />Höger/vänster<br />Ctrl+Home/End<br />Page Up/Down|Rulla uppåt och nedåt på sidan.<br />Rulla åt höger/vänster <br />Gå till första/sista sidan<br />Gå till föregående/nästa sida|
+#### <a name="general"></a>Allmänt
+
+|Tryck på dessa tangenter|Om du vill|  
+|-|-|
+|Alt+F2|Visa och dölj rutan Faktabox|
+|Alt+N|Skapa en ny post|
+|Alt+Shift+N|Stäng en nyligen skapad post och skapa en ny|
+|Alt+O|Lägg till en ny anteckning för den valda posten|
+|Alt+Q|Öppna **Berätta**|
+|Alt+Upp|Öppna knappbeskrivning eller valideringsfel|
+|Alt+nedpil|Öppna en listruta eller ett uppslag|
+|Alt+T|Öppna sidan **Mina inställningar**.|
+|Alt+Shift+W|Öppna aktuellt kort eller dokument i ett nytt fönster|
+|Ctrl+Ins|Infoga en ny rad i ett dokument|
+|Ctrl-radera|Ta bort raden i ett dokument, en journal eller ett förslag|
+|Ctrl+Shift+F12|Maximera radartikeldelen på en dokumentsida|
+|Ctrl+F1|Öppna hjälpen för sidan<br />Navigera vid anpassning|
+|Ctrl + klicka|Navigera vid anpassning|
+|Shift+F12|Öppna rollutforskaren, en funktionsöversikt|
+|F5/Ctrl+F5|Uppdatera/läs in sidan.|
+|Tabb/Shift+Tabb|Flytta fokus till nästa/föregående element|
+|F6/Shift+F6|Flytta till nästa snabbflik/del|
+
+#### <a name="navigate--select-rows"></a>Navigera och markera rader
+
+|Tryck på dessa tangenter|Om du vill|
+|-|-|
+|Home/End|Gå till första/sista fältet|
+|Ctrl+Home/End |Gå till första/sista raden|
+|Ctrl+Upp/ned|Navigera utan att förlora markeringar|
+|Ctrl+A |Markera allt|
+|Ctrl+Blanksteg|Växla radmarkering|
+|Ctrl/Shift+Klick|Lägg till rad/rader i markeringen|
+|Shift+Upp/ned|Lägga till rad ovanför/nedanför markering|
+|Shift+Page Up/Down|Markera synliga rader ovanför/nedanför|
+|Ctrl+Enter|Fokusera ut från listan|
+
+#### <a name="copy--paste"></a>Kopiera och klistra in
+
+|Tryck på dessa tangenter|Om du vill|
+|-|-|
+|Ctrl+C/V|Kopiera/klistra in rader|
+|F8|Kopiera fält ovan till aktuell rad|
+
+#### <a name="search-filter--sort"></a>Sök, filtrera och sortera
+
+|Tryck på dessa tangenter|Om du vill|
+|-|-|
+|Alt+F7|Sortera kolumn i stigande eller fallande ordning.|
+|F3|Växla sökning|
+|Shift+F3|Växla filterrutan; fokusera på fältfilter|
+|Alt+F3|Filtrera efter markerade cellvärdet|
+|Shift+Alt+F3|Lägg till filter i markerat fält fält|
+|Ctrl+Alt+Shift+F3|Återställ filter|
+
+#### <a name="quick-entry"></a>Snabbinmatning
+
+|Tryck på dessa tangenter|Om du vill|
+|-|-|
+|Ctrl+Shift+Enter|Gå till nästa snabbinmatningsfält utanför en lista|
+|Enter/Shift+Enter|Gå till nästa/föregående snabbinmatningsfält|
+##### <a name="report-preview"></a>Förhandsgranskning av rapport
+
+|Tryck på dessa tangenter|Om du vill|
+|-|-|
+|Ctrl+Home/End|Gå till första/sista sidan|
+
+> [!TIP]
+> Om du vill ha en grafisk utskriftsversion väljer du följande bild och hämtar PDF-filen.
+>
+> [![Ikon som öppnar en PDF-fil.](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

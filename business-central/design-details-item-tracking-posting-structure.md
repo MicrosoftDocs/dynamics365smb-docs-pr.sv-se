@@ -1,23 +1,20 @@
 ---
-title: Designdetaljer - Bokföringsstruktur för artikelspårning | Microsoft Docs
-description: Lär dig att använda artikeltransaktioner som den primära bäraren av artikelspårningsnummerartikelspårning.
-services: project-madeira
-documentationcenter: ''
+title: Designdetaljer – Bokföringsstruktur för artikelspårning
+description: Lär dig att använda artikeltransaktioner som den primära bäraren av artikelspårningsnummer i Bokföringsstruktur för artikelspårning.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 884ed0ced1c9e39104cec203bb67346bdf779aeb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: b568e62a71b907e8d2f9cbc8eba43773be655b44
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242129"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136328"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetaljer: Bokföringsstruktur för artikelspårning
 För att anpassas till funktionen för lagervärdering och för att få en enklare och mer robust lösning används artikeltransaktioner som den primära bäraren av artikelspårningsnummer.  
@@ -50,3 +47,5 @@ Kodenhet 22 går i en loop via artikelspårningsnumren och delar upp bokföringe
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)   
 [Designdetaljer: Artikelkopplingsdesign](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

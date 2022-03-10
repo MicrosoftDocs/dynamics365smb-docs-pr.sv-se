@@ -2,21 +2,20 @@
 title: Hämta Business Central-tillägget för Outlook
 description: Lär dig installera Business Central-tillägget för Outlook för ditt företag eller för egen användning.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832
+ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012373"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323208"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Hämta Business Central-tillägget för Outlook
 
@@ -78,7 +77,7 @@ Centraliserad distribution är en funktion i administratörscentret för Microso
 
 8. Välj **överför egna appar**.
 9. På sidan **Ladda upp appar att distribuera**, välj **Ladda upp manifest-fil (.xml) Ladda upp** > **Välj fil**.
-10. Markera en av de filer som du har extraherat tidigare t.ex. **Content Insights.xml**.
+10. Markera en av de filer som du har extraherat tidigare t.ex. **Contact Insights.xml**.
 11. Följ instruktionerna för att tilldela användare och distribuera tillägget.
 12. Upprepa steg 9 till 11 för den andra tilläggsfilen om du vill.
 

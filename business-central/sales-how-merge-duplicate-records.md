@@ -1,23 +1,20 @@
 ---
-title: Slå samman dubelttposter för kund eller leverantör | Microsoft Docs
-description: Beskriver hur du skapar ett kundkort för att registrera information om varje ny kund eller klienten som du säljer till.
-services: project-madeira
-documentationcenter: ''
+title: Slå samman dubblettposter för kund eller leverantör
+description: Beskriver hur du konsoliderar information om kunder eller leverantörer när du har transaktionsdubletter om några av dem.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c23e34cfe0a1684a4bd5b95b60f56f0e411608ab
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251814"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130130"
 ---
 # <a name="merge-duplicate-records"></a>Slå samman dubblettposter
 När olika användare skapar nya kunder, leverantörer eller kontaktkort med tiden eller nya poster skapas automatiskt vid migrering kan kund, leverantör eller kontakt visas på system med mer än en post. I så fall kan du använda sidan **slå samman dubletter** från kortet för den post som du vill behålla. Den här sidan innehåller en översikt över dubbla fältvärden och innehåller funktioner för att välja vilka värden som ska behållas eller ignoreras när du slår samman två poster i en.
@@ -30,7 +27,7 @@ När olika användare skapar nya kunder, leverantörer eller kontaktkort med tid
 
 Följande procedur baseras på ett kundkort. Momenten är liknande för en leverantör och kontaktkort.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kunder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj den kund som du vet eller misstänker har dubblettposter och välj sedan åtgärden **redigera**.
 3. På sidan **Kundkort** väljer du åtgärden **Slå samman med**.
 4. På sidan **Slå samman dubbletter** i fältet **slå samman med** markerar du den kund som du tror är en dubblett av den som du har öppnat som anges i fältet **aktuell**.
@@ -67,4 +64,7 @@ Följande procedur baseras på ett kundkort. Momenten är liknande för en lever
 ## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Ställa in kontakter](marketing-setup-contacts.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

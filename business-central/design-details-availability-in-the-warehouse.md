@@ -1,21 +1,20 @@
 ---
-title: Designdetaljer - Disposition i distributionslagret | Microsoft Docs
+title: Designdetaljer – Disposition i distributionslagret | Microsoft Docs
 description: Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributionslagret, så att avgående beställningar kan flöda effektivt och ge bästa möjliga leveranser.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 180ed162e8137de0331fb75aa1be84c3e79514a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775631"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132087"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Disposition i distributionslagret
 Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributionslagret, så att avgående beställningar kan flöda effektivt och ge bästa möjliga leveranser.  
@@ -43,11 +42,11 @@ Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusi
 ### <a name="calculating-the-quantity-available-to-pick"></a>Beräknar disponibelt antal att plocka  
  Antalet som är tillgängligt att plocka beräknas så här:  
 
- disponibelt antal att plocka = antal på plocklagerplatser - antal i plockning och transport – (reserverat antal på plocklagerplatser + reserverat antal i plockning och transport)  
+ disponibelt antal att plocka = antal på plocklagerplatser – antal i plockning och transport – (reserverat antal på plocklagerplatser + reserverat antal i plockning och transport)  
 
  Följande diagram visar de olika elementen i beräkningen.  
 
- ![Tillgänglig för plockning med reservationsöverlappning](media/design_details_warehouse_management_availability_2.png "Tillgänglig för plockning med reservationsöverlappning")  
+ ![Tillgänglig för plockning med reservationsöverlappning.](media/design_details_warehouse_management_availability_2.png "Tillgänglig för plockning med reservationsöverlappning")  
 
 ## <a name="quantity-available-to-reserve"></a>Disponibelt antal att reservera  
  Eftersom begreppen för lagerplatsinnehåll och reservation finns till samtidigt, måste antalet artiklar som är disponibla att reservera justeras mot fördelningar till utgående distributionslagerdokument.  
@@ -68,11 +67,11 @@ Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusi
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Beräknar disponibelt antal att reservera  
  Antalet som är tillgängligt att reservera beräknas så här:  
 
- disponibelt antal att reservera = totalt antal i lager - antal i plockning och transport för källdokument - reserverat antal - antal i avgående lagerplatser  
+ disponibelt antal att reservera = totalt antal i lager – antal i plockning och transport för källdokument – reserverat antal – antal i avgående lagerplatser  
 
  Följande diagram visar de olika elementen i beräkningen.  
 
- ![Tillgänglig för reservering per lagerställefördelning](media/design_details_warehouse_management_availability_3.png "Tillgänglig för reservering per lagerställefördelning")  
+ ![Tillgänglig för reservering per lagerställefördelning.](media/design_details_warehouse_management_availability_3.png "Tillgänglig för reservering per lagerställefördelning")  
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  

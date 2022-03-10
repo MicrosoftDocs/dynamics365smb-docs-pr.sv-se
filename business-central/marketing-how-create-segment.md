@@ -4,7 +4,6 @@ description: Beskriver hur du skapar ett segment för en grupp med kontakter i B
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,18 +11,18 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a6a8b12623f12cdc590114dd36ff10c399e38a99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a6aaabb50d3bb24036d7f94c413103348134f9a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780688"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131440"
 ---
 # <a name="create-segments"></a>Skapa segment
 Du kan skapa segment för att kunna välja en grupp av kontakter, exempelvis om du vill skapa en interaktion som involverar flera kontakter såsom direktreklam.
 
 ## <a name="to-create-a-segment"></a>Skapa segment så här
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Segment** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Segment** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. I avsnittet **Allmänt** i **Nr.** -fältet, skriv numret på den artikel som har beställts i fältet.
 

@@ -1,21 +1,21 @@
 ---
-title: Så här överför du artiklar mellan olika distributionslagerställen | Microsoft Docs
+title: Så här överför du artiklar mellan olika distributionslagerplatser
 description: Beskriver hur du flytta lager från en plats eller ett lagerställe till en annan med grupperingsjournalen eller med överföringsorder.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
+ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 008b9a50f2374b13e30114769520c7b18bba8e0e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b51bd44099c85ae16498e2f40abc86db7134cb1b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785679"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148504"
 ---
 # <a name="transfer-inventory-between-locations"></a>Överföra lager mellan olika lagerställen
 Du kan överföra lagerartiklar mellan olika lägerställen genom att skapa överföringsorder. Du kan även använda artikelgrupperingsjournalen.
@@ -30,8 +30,8 @@ Med grupperingsjournalen fyller du helt enkelt i fälten **Lagerställeskod** oc
 Om du vill överföra artiklar måste lägerställen och överföringsflöden ställas in. Mer information finns i [Ange platser](inventory-how-setup-locations.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>För att överföra artiklar med en överföringsorder.
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Överföringsorder** och välj sedan tillhörande länk.
-2. I huvudet på sidan **Överföringsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **överföringsorder** och väljer sedan relaterad länk.
+2. På sidan **Överföringsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     >   Om du har fyllt i fälten **Transitkod**, **Speditörkod** och **Speditör servicekod** på sidan **Överföringsflödespec.** när du lade upp överföringsflödet, fylls motsvarande fält i automatiskt på överföringsordern.
@@ -51,7 +51,7 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 5. Välj åtgärden **bokför**, välj alternativet **inleverera**, och välj sedan **OK**-knappen.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Så här överför du artiklar med artikelgrupperingsjournalen
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Artikelgrupperingsjournaler** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelgrupperingsjournaler** och väljer sedan relaterad länk.
 2. På sidan **Artikelgrupp.journal** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I fältet **Lagerställeskod** ställer du in det lagerställe där artiklarna lagras för tillfället.
 

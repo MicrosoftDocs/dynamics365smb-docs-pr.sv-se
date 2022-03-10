@@ -2,7 +2,6 @@
 title: Ställa in priser och rabatter
 description: Beskriver hur du definierar standard- och specialpris- och rabattavtal för försäljning och inköp.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 59678264f406fa434cded07d2f6b41aa3cbfbae0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 24768e03181599b2329d4ed532453a60516bd9f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012555"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134128"
 ---
 # <a name="set-up-prices-and-discounts"></a>Ställa in priser och rabatter
 > [!NOTE]
@@ -53,7 +52,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja ett speciellt försäljningspris till kunden.
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)  
-Du kan lägga till artiklar och tjänster manuellt för respektive rad, eller också använda åtgärden **Föreslå rader** för att skapa nya priser för valda artiklar, artikelrabattgrupper, resurser och andra produkttyper. Om du väljer **Föreslå rader** kan du på sidan **Prisrader - Skapa Nytt** använda filter för att välja de artiklar eller tjänster som ska inkluderas i prislistan. Du kan också ange om du vill överväga en minsta kvantitet vid beräkning av priser, justeringsfaktorn som ska tillämpas för nya prislistrader, samt avrundningsmetoden som ska tillämpas för priser. 
+Du kan lägga till artiklar och tjänster manuellt för respektive rad, eller också använda åtgärden **Föreslå rader** för att skapa nya priser för valda artiklar, artikelrabattgrupper, resurser och andra produkttyper. Om du väljer **Föreslå rader** kan du på sidan **Prisrader – Skapa Nytt** använda filter för att välja de artiklar eller tjänster som ska inkluderas i prislistan. Du kan också ange om du vill överväga en minsta kvantitet vid beräkning av priser, justeringsfaktorn som ska tillämpas för nya prislistrader, samt avrundningsmetoden som ska tillämpas för priser. 
 
 Som standard är statusen för nya prislistor **Utkast**. När du är redo att börja använda listan kan du ändra statusen till **Aktiv**.
 
@@ -141,7 +140,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)  
 
-Om du vill kopiera försäljningspriser - till exempel en viss kunds försäljningspriser - och använda dem för en kundprisgrupp, måste du köra **Föreslå förs.pris i förslag**. batch-jobbet på sidan **Försäljningsprisförslag**.  
+Om du vill kopiera försäljningspriser – till exempel en viss kunds försäljningspriser – och använda dem för en kundprisgrupp, måste du köra **Föreslå förs.pris i förslag**. batch-jobbet på sidan **Försäljningsprisförslag**.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsprisförslag** och väljer sedan relaterad länk.  
 2. Välj **Föreslå förs.pris i ändringsformulär** .  
@@ -171,7 +170,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)
 
-Om du vill uppdatera flera artikelpriser samtidigt - till exempel höja alla priser med en viss procentsats - måste du köra **Föreslå artikelpris i förslag.**  batch-jobb. Du hittar en länk till batch-jobbet på sidan **Försäljningsprisförslag**.  
+Om du vill uppdatera flera artikelpriser samtidigt – till exempel höja alla priser med en viss procentsats – måste du köra **Föreslå artikelpris i förslag.** batch-jobb. Du hittar en länk till batch-jobbet på sidan **Försäljningsprisförslag**.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsprisförslag** och väljer sedan relaterad länk.  
 2. Välj **Föreslå artikelpris i förslag** .  

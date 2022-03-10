@@ -1,21 +1,20 @@
 ---
-title: Tillägg för Business Central från andra leverantörer | Microsoft Docs
-description: Visar program och tillägg för att anpassa Business Central från andra företag.
+title: Business Central-tillägg från andra leverantörer
+description: Detta ämne anger program och tillägg för att anpassa Business Central från andra företag.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d2b48b910d1ef4b72ffb5c24406573316300c7a2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9cfdcf37464a032b6d999d525e67eecadb961ca4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785116"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129948"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central-tillägg från andra leverantörer
 

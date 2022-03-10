@@ -1,22 +1,20 @@
 ---
-title: Omvärdera anläggningstillgångar | Microsoft Docs
+title: Omvärdera anläggningstillgångar
 description: Lär dig att justera värdet för anläggningstillgångar, registrera nya belopp eller uppskrivning, nedskrivning och bokföra ytterligare anskaffningskostnader.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5628
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e178778e51d63c3398fd4a870bf41fa8b1a086f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9ee87cdaf52664af2037f6ee276d7898a67436da
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442216"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139657"
 ---
 # <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
 Omvärdering av anläggningstillgångar kan bestå av uppskrivning, nedskrivning, eller allmänna värdejusteringar.
@@ -34,7 +32,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av uppskrivning.
 
     > [!NOTE]  
-    >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Uppskrivningskonto** redovisningsdebitkontot och fältet **Uppskrivning motkonto** innehåller det redovisningskonto där du vill bokföra mottransaktioner för uppskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
+    >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl.bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Uppskrivningskonto** redovisningsdebitkontot och fältet **Uppskrivning motkonto** innehåller det redovisningskonto där du vill bokföra mottransaktioner för uppskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
@@ -44,7 +42,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av nedskrivning.
 
     > [!NOTE]  
-    >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl. bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Nedskrivningskonto** redovisningskreditkontot och fältet **Nedskrivningskostnadskontot** innehåller det redovisningskonto där du vill bokföra mottransaktioner för nedskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
+    >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl.bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Nedskrivningskonto** redovisningskreditkontot och fältet **Nedskrivningskostnadskontot** innehåller det redovisningskonto där du vill bokföra mottransaktioner för nedskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Om du vill utföra allmän omvärdering av anläggningstillgångar
@@ -73,7 +71,7 @@ Avskrivningsprocentsatsen beräknas som:
 
 *Avskrivningsbelopp = (P/100) × (extra anskaffningskostnad – återanskaffningsvärde)*  
 
-Kom ihåg att markera kryssrutan **Avskr. till anl. bokf.datum** på fakturan, redovisningsjournalen för anläggningstillgångar eller anläggningstillgångsjournalraderna så att avskrivningen beräknas från det senaste bokföringsdatumet för anläggningstillgången till bokföringsdatumet för den tillkommande anskaffningskostnaden.
+Kom ihåg att markera kryssrutan **Avskr. till Anl.bokf.datum** på fakturan, redovisningsjournalen för anläggningstillgångar eller anläggningstillgångsjournalraderna så att avskrivningen beräknas från det senaste bokföringsdatumet för anläggningstillgången till bokföringsdatumet för den tillkommande anskaffningskostnaden.
 
 ### <a name="example---posting-additional-acquisition-costs"></a>Exempel – bokföra ytterligare anskaffningskostnader
 En maskin införskaffas den 1 augusti, 2000. Anskaffningskostnader är 4 800. Avskrivningsmetoden är linjär över fyra år.
@@ -84,7 +82,7 @@ Den 31 augusti, 2000 körs batch-jobbet **Beräkna avskrivning**. Avskrivningen 
 
 Den 15 september, 2000 bokförs en faktura för ommålning av maskinen. Fakturabeloppet är 480.
 
-Om du har markerat kryssrutan **Avskr. till anl. bokf.datum** med ett "x" på fakturan innan du bokför transaktionen utförs följande beräkning:  
+Om du har markerat kryssrutan **Avskr. till Anl.bokf.datum** med ett "x" på fakturan innan du bokför transaktionen utförs följande beräkning:  
 
 15 avskrivningsdagar (från 00-09-01 till 00-09-15) beräknas så här:
 
@@ -106,7 +104,7 @@ När batch-jobbet **Beräkna avskrivning** körs på 09/30/00 används följande
 
 *Summan av avskrivningen = 165 + 55 = 220*  
 
-Om du inte har markerat kryssrutan **Avskr. till anl. bokf.datum** förlorar tillgången 15 avskrivningsdagar eftersom batch-jobbet **Beräkna avskrivning** som körs 00-09-30 beräknar avskrivningen från 00-09-15 till 00-09-30. Detta innebär att följande beräkning utförs när batch-jobbet **Beräkna avskrivning** körs 00-09-30:  
+Om du inte har markerat kryssrutan **Avskr. till Anl.bokf.datum** förlorar tillgången 15 avskrivningsdagar eftersom batch-jobbet **Beräkna avskrivning** som körs 00-09-30 beräknar avskrivningen från 00-09-15 till 00-09-30. Detta innebär att följande beräkning utförs när batch-jobbet **Beräkna avskrivning** körs 00-09-30:  
 
 *Återstående livslängd är 3 år, 10 månader och 15 dagar = 1395 dagar*  
 

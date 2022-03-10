@@ -1,21 +1,21 @@
 ---
-title: Ställ in Marknadsföring och Kontakthanteringsinformation | Microsoft Docs
+title: Ställ in marknadsföring och kontakthanteringsinformation
 description: Du kan ställa in marknadsföring och kontakthantering i Business Central för att optimera relationer med potentiella kunder eller kunder och förbättra kampanjer och erbjudanden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 10/01/2020
+ms.search.forms: 5172, 5173, 5170, 5094, 429
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921698"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130369"
 ---
 # <a name="setting-up-relationship-management"></a>Ställa in Kundhantering
 
@@ -23,7 +23,7 @@ Innan du sätter igång med att arbeta med kontakter och marknadsföringsräntor
 
 Att hantera kontakter och ha en strategi för att identifiera, attrahera och behålla kunder optimerar din verksamhet och ökar kundnöjdheten. Med ett bra kontakthanteringssystem blir det också enklare att skapa och upprätthålla relationer med kunderna. Kommunikation är nyckeln till dessa relationer. Att kunna skräddarsy kommunikationen med potentiella och befintliga kunder, leverantörer och affärspartners utifrån deras behov är nödvändigt för att ett företag ska lyckas. Ett första steg är att lägga upp en strategi och definiera hur företaget ska använda kontaktinformationen. Den här information används av många olika grupper i företaget, så ett ändamålsenligt system gör det enklare för alla att bli mer effektiva.
 
-Du kan skapa marknadsförings- och kontakthantering från sidan **Marknadsföringsinställningar**. För att öppna sidan **Marknadsföringsinställning** välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Marknadsföringsinställning** och välj sedan relaterad länk.
+Du kan skapa marknadsförings- och kontakthantering från sidan **Marknadsföringsinställningar**. För att öppna sidan **Marknadsföringsinställning** välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Marknadsföringsinställning** och väljer sedan relaterad länk.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatisk kopiering av särskild information från kontaktföretag till kontaktpersoner
 Vissa uppgifter om kontaktföretag är helt identiska med uppgifter om kontaktpersoner som arbetar i dessa företag, till exempel adresser. På sidan **Arv** i fönstret **Marknadsföringsinställningar** kan du ange att programmet automatiskt kopierar särskilda fält från kontaktföretagkort till kontaktpersonkort, varje gång du skapar en kontaktperson för ett kontaktföretag. Du kan t.ex välja att kopiera säljarkod, adressdetaljer (adress ,adress 2, postnr, ort och län), kommunikationsdetaljer (faxnummer, telefonsvarare och telefonnummer) mm.
@@ -40,7 +40,7 @@ Värden i övertagna fält ersätter de standardvärden som du har angett. Om du
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Automatiskt registrerade interaktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan automatiskt återges som interaktioner (till exempel order, fakturor, inleveranser och så vidare) liksom e-post, telefonsamtal och meddelanden.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan automatiskt återges som interaktioner (till exempel order, fakturor, inleveranser och så vidare) liksom e-post, telefonsamtal och meddelanden.
 
 Mer information finns i [automatiskt registrera interaktioner med kontakter](marketing-auto-record-interactions.md).
 
@@ -50,7 +50,7 @@ För att synkronisera kontaktkort med kund-, leverantörs- och bankkontokort må
 Mer information finns i [Så här synkroniserar du kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Tilldela en nummerserie för kontakter och affärsmöjligheter
-Du kan ange nummerserier för kontakter, kampanjemöjligheterer, segment och affärsmöjligheter. Om du har angett nummerserie för kontakter, kan du när du skapar en kontakt trycka på  RETUR i fältet Nr på kontaktkortet. på kontaktkortet så skriver programmet in nästa lediga kontaktnummer automatiskt.
+Du kan ange nummerserier för kontakter, kampanjemöjligheterer, segment och affärsmöjligheter. Om du har angett nummerserie för kontakter, kan du när du skapar en kontakt trycka på RETUR i fältet Nr på kontaktkortet. på kontaktkortet så skriver programmet in nästa lediga kontaktnummer automatiskt.
 
 Mer information om nummerserier finns i [Skapa nummerserier](ui-create-number-series.md).
 
@@ -59,4 +59,7 @@ Du kan välja automatisk sökning efter kopior varje gång du skapar ett kontakt
 
 ## <a name="see-also"></a>Se även
 [Hantera kontakter](marketing-contacts.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

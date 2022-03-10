@@ -3,7 +3,6 @@ title: Installera och avinstallera tillägg i Business Central | Microsoft Docs
 description: Läs mer om att installera och avinstallera tillägg i Business Central.
 documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,24 +10,24 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435042"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140403"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installera och avinstallera tillägg i Business Central
 
 Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installera tillägg som exempelvis lägger till funktioner, ändrar beteenden eller ger dig tillgång till nya onlinetjänster. Mer information finns i [Anpassa Business Central med hjälp av tillägg](ui-extensions.md).
 
 > [!NOTE]
-> Om du vill installera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i EXTEND. MGT. - ADMIN-användargruppen, eller så måste du ha EXTEND. MGT. - ADMIN-behörighetsuppsättningen. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.
+> Om du vill installera eller avinstallera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i EXTEND. MGT. - ADMIN-användargruppen, eller så måste du ha EXTEND. MGT. - ADMIN-behörighetsuppsättningen. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.
 >
 > Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
 
 > [!NOTE]  
-> Behörighetsuppsättningen **EXTEND. MGT. - ADMIN** infördes i Business Central 2021 utgivningscykel 1 som ersättning av behörighetsuppsättningen **D365 EXTENSION MGT** i tidigare versioner.
+> Behörighetsuppsättningen **EXTEND. MGT. – ADMIN** infördes i Business Central 2021 utgivningscykel 1 som ersättning av behörighetsuppsättningen **D365 EXTENSION MGT** i tidigare versioner.
 
 ## <a name="installing-an-extension"></a>Installerar tillägg
 
@@ -75,6 +74,13 @@ Microsoft ger även följande tillägg:
 * [DK – momsfilformat](ui-extensions-tax-file-formats-dk.md)
 * [Tillägget GetAddress.io för postnummer i Storbritannien ](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
+
+
+## <a name="uploading-a-per-tenant-extension-pte"></a>Ladda upp en PTE (tillägg per klientorganisation)
+
+Du överför en PTE med hjälp av sidan för **tilläggshantering**. På siden **Tilläggshantering**, gå till **Hantera**, välj sedan **Ladda upp tillägg**. Sidan **Ladda upp och distribuera tillägg** ange vilken .app-fil som ska laddas upp. Om du vill fortsätta klickar du på knappen **Acceptera** och sedan knappen **Distribuera**, detta kommer att starta processen med att distribuera PTE.
+
+Om PTE innehåller bryt schemaändringar går det att *Framtvinga* en uppladdning av den. Det gör du i läget för **Synkroniseringsläge för schema** välja alternativet **Framtvinga**. Du får en bekräftelse dialogruta som du kan ta emot innan du fortsätter. 
 
 ## <a name="uninstalling-an-extension"></a>Avinstallera ett tillägg
 

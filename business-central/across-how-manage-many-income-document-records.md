@@ -4,20 +4,19 @@ description: Ändra standardläge för inkommande dokument, till exempel e-faktu
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e75dc8824965d3bfdf3c12ba5b0787e9fb066532
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3b7251b17796994eeb74bd6ce9823b65782012eb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919644"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134336"
 ---
 # <a name="manage-many-incoming-document-records"></a>Hantera många inkommande dokumenttransaktioner
 När du skapar eller bearbetar inkommande dokumentposter, kan antalet rader på sidan **Inkommande dokument** växa till en utsträckning att du förlorar översikt. Därför kan du ange inkommande dokumentposter som Bearbetade för att ta bort dem från standardvyn. När du väljer åtgärden **Visa alla** kan du visa både behandlats och outredda transaktioner.
@@ -56,4 +55,7 @@ Alla inkommande dokumentposter visas inklusive de som inte har kryssrutan **Beha
 [Bearbeta inkommande dokument](across-process-income-documents.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

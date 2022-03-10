@@ -1,21 +1,20 @@
 ---
-title: öppna artikeltransaktioner
-description: Lär dig varför lagernivån är noll fastän öppna artikeltransaktioner finns.
+title: Lagervärdet noll öppna artikeltransaktioner
+description: Denna artikel adresserar problem där lagernivån är noll fastän öppna artikeltransaktioner finns.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 8cb3aa1df0c67af09f0353504abceb2529df9f2f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 702fab8c5bca4cd4985e2fdd87a972e57e6169f7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751411"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143588"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kända problem med artikelkopplingar
 Denna artikel adresserar problem där lagernivån är noll fastän öppna artikeltransaktioner finns i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -54,7 +53,7 @@ Artikeln börjar med att lista vanliga symptom på problemet, följt av grundern
 
  I följande diagram visas hur mängdtillämpningar skapas.  
 
-![Kostnadsjusteringsflöde från inköp till försäljning](media/helene/TechArticleInventoryZero2.png "Kostnadsjusteringsflöde från inköp till försäljning")
+![Kostnadsjusteringsflöde från inköp till försäljning.](media/helene/TechArticleInventoryZero2.png "Kostnadsjusteringsflöde från inköp till försäljning")
 
  Observera att artikeltransaktion 1 ovan (inköp) är både artikelns leverantör och kostnadskälla för den kopplade artikeltransaktionen, Artikeltransaktion 2 (försäljning).  
 
@@ -78,7 +77,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  I följande diagram illustreras kostnadsflödet.  
 
-![Kostnadsjusteringsflöde från försäljning till försäljningsretur](media/helene/TechArticleInventoryZero4.png "Kostnadsjusteringsflöde från försäljning till försäljningsretur")
+![Kostnadsjusteringsflöde från försäljning till försäljningsretur.](media/helene/TechArticleInventoryZero4.png "Kostnadsjusteringsflöde från försäljning till försäljningsretur")
 
  Observera ovan att kostnaden vidarebefordras till artikeltransaktion 2 (försäljning), därefter till artikeltransaktion 3 (försäljningsreturorder), och slutligen till artikeltransaktion 4 (försäljning 2).  
 
@@ -91,7 +90,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 
  I följande diagram illustreras hur artikeltillämpningar görs i respektive fall.  
 
-![Kostnadsjusteringsflödet skickas i båda riktningarna](media/helene/TechArticleInventoryZero6.png "Kostnadsjusteringsflödet skickas i båda riktningarna")  
+![Kostnadsjusteringsflödet skickas i båda riktningarna.](media/helene/TechArticleInventoryZero6.png "Kostnadsjusteringsflödet skickas i båda riktningarna")  
 
  Observera ovan att en kostnadsansökan görs (representerat av de blå pilarna) så att artikeltransaktion 2 (försäljningsreturorder) tilldelas samma kostnader som den artikeltransaktion som den återför, artikeltransaktion 1 (försäljning 1). En antalskoppling (som representeras av röda pilar) görs emellertid inte.  
 
@@ -133,7 +132,7 @@ I följande diagram visas hur kostnadstillämpningar skapas.
      |Löpnr|Artikeltrans.löpnr|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|Bokföringsdatum|Kost.koppling|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|2018-01-28|Ja|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Observera ovan att inkommande artikeltransaktion 334 är kostnader som har kopplats till utgående artikeltransaktion 333.  
 
@@ -151,3 +150,6 @@ I följande diagram visas hur kostnadstillämpningar skapas.
 ## <a name="see-also"></a>Se även  
 [Designdetaljer: artikelkoppling](design-details-item-application.md)   
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

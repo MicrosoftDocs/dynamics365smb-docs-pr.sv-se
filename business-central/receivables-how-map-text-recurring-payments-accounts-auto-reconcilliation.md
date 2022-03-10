@@ -2,7 +2,6 @@
 title: Ställa in mappning för text-till-konto för återkommande betalningar | Microsoft Docs
 description: Länka text på betalningar med specifika konton så att betalningar bokförs på kontona när du bokför utbetalningsjournalen för avstämning.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a441336d14315b645a4085edb4e02bac178afdca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 942f472b2ca134e98d87becc3a866e76f1138114
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784323"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144937"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
 På sidan **Mappa text till konto** som du öppnar från sidan **Betalningsavstämningsjournal** kan du skapa mappningar mellan text på betalningar och specifika debet-, kredit- och balanskonton så att sådana betalningar bokförs på de angivna kontona när du bokför betalningar i betalningsavstämningsjournalen.
@@ -30,7 +29,7 @@ Betalningar som bokförts baserat på text-till-konto-mappning kopplas inte till
 På en rad i en utbetalningsavstämningsjournal där betalningen har angetts för bokföring enligt text-till-kontomappning innehåller fältet **Matchningssäkerhet** innehåller **Hög – mappa text till konto** och fälten **Kontotyp** och **Kontonr.** innehåller de mappade kontona.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Betalningsavstämningsjournaler** och välj sedan tillhörande länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
 2. Öppna en betalningsavstämningsjournal. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 3. Välj åtgärden **Mappa text till konto**. Sidan **Mappa text till konto** öppnas.
 4. I fältet **Mappningstext** anger du text som finns på betalningar som du vill bokföra på angivna konton utan koppling till en öppen transaktion. Du kan ange upp till 50 tecken.

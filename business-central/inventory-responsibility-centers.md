@@ -1,21 +1,21 @@
 ---
-title: Så här arbetar du med ansvarsenheter | Microsoft Docs
-description: Med ansvarsenheterna kan användarna hantera administrativa enheter. En ansvarsenhet kan vara ett kostnadsställe, en vinstenhet, en investeringsenhet eller en annan typ av administrativ enhet som har definierats av företaget.
+title: 'Så här: Arbeta med ansvarsenheter'
+description: Ansvarsenhet som administrativa centraler hjälper företag att skapa användarspecifika vyer över försäljnings- och inköpsdokument som är relaterade uteslutande till varje centrum.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.forms: 5714, 5715
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e552378625325710b50989c513d303acd9c480af
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7ff1a7e75131a5a444acff796da339ec526c48c9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774795"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142035"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbeta med ansvarsenheter
 
@@ -27,12 +27,12 @@ Om funktionen för flera lagerställen används kan företagen sköta lagerhante
 
 ## <a name="to-set-up-a-responsibility-center"></a>Så här skapar du en ansvarsenhet
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **ansvarsenhet** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **ansvarsenheter** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Om du använder ansvarsenheter för att administrera ditt företag kan det vara praktiskt att ange en standardansvarsenhet för företaget.
-4. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Företagsinformation** och välj sedan relaterad länk.
+4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.
 5. I fältet **ansvarsenhet** anger du en ansvarsenhetskod.
 
 Den här koden används på alla inköps- försäljnings- och servicedokument om användaren, kunden eller leverantören inte har någon standardansvarsenhet. På ett försäljnings-, inköps- eller servicedokument, kan du ange en annan ansvarsenhet än standard.
@@ -46,7 +46,7 @@ Du kan definiera användare så att endast de dokument som är relevanta inom de
 
 Du anger dessa inställningar genom att tilldela ansvarsenheter till användare inom tre olika huvudområden: Inköp, Försäljning och Servicehantering.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Användarinställningar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställning** och väljer sedan relaterad länk.  
 2. På sidan **Användarinställning** markerar du den användare som du vill tilldela en ansvarsenhet till. Om användaren inte finns med i listan anger du ett användar-ID i fältet **Användar-ID**.  
 3. I fältet **Förs.ansvarsenhet filter** anger du den ansvarsenhet i vilken användaren ska tilldelas försäljningsrelaterade uppgifter.  
 4. I fältet **Inköpsansvarsenhet filter** anger du den ansvarsenhet i vilken användaren ska tilldelas inköpsrelaterade uppgifter.  
@@ -58,8 +58,8 @@ Du anger dessa inställningar genom att tilldela ansvarsenheter till användare 
 ## <a name="see-also"></a>Se även
 
 [Ställa in lager](inventory-setup-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)
-[lager](inventory-manage-inventory.md)[lagerstyrning](warehouse-manage-warehouse.md)  
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Lager](inventory-manage-inventory.md)  
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

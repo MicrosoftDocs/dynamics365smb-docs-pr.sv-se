@@ -2,20 +2,19 @@
 title: Leveransplanering
 description: Förbereda en detaljerad genomförbar plan och produktionsplan för slutmontering för försäljnings- och produktionsbehov.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 63e20afbfeda9450c4b636a660549c822cc0e5da
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: df1489446627b1043f348a2f1cf5e457ae757018
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115496"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146416"
 ---
 # <a name="planning"></a>Planering
 

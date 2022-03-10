@@ -1,23 +1,22 @@
 ---
-title: Skapa affärsmöjligheter | Microsoft Docs
-description: Beskriver hur du skapar försäljningsmöjligheter från en säljare eller kontakt i Business Central.
+title: Skapa affärsmöjligheter
+description: Denna artikel beskriver hur du skapar försäljningsmöjligheter från en säljare eller kontakt i Business Central.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 50b61129a6684cda7a6cb20f4bfb3cf44dcad7cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 174840f390145724181c37c60f040dce75232e91
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239192"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135860"
 ---
 # <a name="create-sales-opportunities"></a>Skapa affärsmöjligheter
 Du kan skapa möjligheter för de affärsmöjligheter som du har via dina kontakter. Alla affärsmöjligheter måste fördelas till en säljare eller inköpare och innefatta en kontakt.
@@ -27,7 +26,7 @@ Du kan skapa affärsmöjligheter från sidan **Affärsmöjlighetslista**. Men va
 Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler. För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Så här skapar du en affärsmöjlighet från en säljare
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Säljare** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk.
 2. Markera den säljare i listan som du vill skapa en affärsmöjlighet för.
 3. Välj åtgärden **Affärsmöjligheter** och välj sedan **Lista**.
 4. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +34,7 @@ Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Så här skapar du en affärsmöjlighet från en kontakt
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Kontakter** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
 2. Markera kontakten i listan som du vill skapa en affärsmöjlighet för.
 3. Gör något av följande:
    * Välj åtgärden **Skapa affärsmöjlighet**.
@@ -46,3 +45,6 @@ Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler
 [Försäljning](sales-manage-sales.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
 [Arbeta med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

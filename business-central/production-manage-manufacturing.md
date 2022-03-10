@@ -1,23 +1,23 @@
 ---
-title: Utföra produktion | Microsoft Docs
+title: Utföra produktion
 description: När behov har planerats och material har tagits utt enligt produktionsstrukturerna kan de faktiska produktionsoperationerna inledas och sedan genomföras i den ordning som definieras av verksamhetsföljden för produktionsorder.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 926f22537d54ad770e38d40a376a6c8ce2594991
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 5fe4dc0bdfe18172cc2f6709cb55d02e963ffd09
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877672"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140793"
 ---
 # <a name="manufacturing"></a>Produktion
+
 > [!NOTE]
 > Funktionen som beskrivs i det här avsnittet och underavsnitt visas endast i användargränssnittet om du har **Premium**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
@@ -29,7 +29,7 @@ I stället för att använda batch-journalen för utflödesbokföring för flera
 
 Innan du kan skapa artiklar måste du göra olika inställningar, till exempel för produktionsgrupper, verksamhetsföljder och produktionsstrukturer. Mer information finns i [Konfigurera tillverkning](production-configure-production-processes.md).
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
+I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
@@ -41,15 +41,19 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Bokför kvantiteten för färdiga artiklar och tiden som spenderats per operation i en journal som kan behandla flera släppta produktionsorder.|[Batch-bokför utflöde och körtider](production-how-to-post-output-quantity.md)|
 |Ångra utdata, till exempel på grund av ett datafel inträffade och felaktiga belopp.  |[Återföra bokföring av utflöde](production-how-to-reverse-output-posting.md)|  
 |Bokföra det antal artiklar som producerats i varje slutförd operation, men som inte räknas som färdigt utflöde utan som kasserat material.|[Bokför kassation](production-how-to-post-scrap.md)|
-|Visa beläggningen på fabriken till följd av planerade och släppta produktionsorder.|[Visa beläggning på produktions- och maskingrupper](production-how-to-view-the-load-on-work-centers.md)|      
+|Visa beläggningen på fabriken till följd av planerade och släppta produktionsorder.|[Visa beläggning på produktions- och maskingrupper](production-how-to-view-the-load-on-work-centers.md)|  
 |Använda sidan **Kapacitetsjournal** för att bokföra förbrukade kapaciteter som inte tilldelats en produktionsorder, till exempel underhållsarbete.|[Bokför kapaciteter](production-how-to-post-capacities.md)|  
 |Beräkna och justera kostnaden för färdiga produktionsartiklar och förbrukade komponenter för avstämning.|[Om kostnader för färdiga produktionsorder](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Ställa in Produktion](production-configure-production-processes.md)  
-[Planerad](production-planning.md)      
+[Planerad](production-planning.md)  
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

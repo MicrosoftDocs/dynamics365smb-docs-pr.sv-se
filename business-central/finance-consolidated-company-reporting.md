@@ -1,29 +1,29 @@
 ---
-title: Konsolidera data från flera företag | Microsoft Docs
-description: Få en översikt av den ekonomiska situationen i alla dina affärsenheter.
+title: Konsolidera data från flera företag
+description: Detta ämne förklarar hur du kan konsolidera redovisningstransaktionerna för två eller flera separata företag (dotterbolag) till ett konsoliderat företag.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.search.form: 1826, 1827
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913402"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136120"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidera ekonomiska data från flera företag
 
-Vissa organisationer använder [!INCLUDE [prodshort](includes/prodshort.md)] i flera affärsenheter eller juridiska enheter. Andra använder [!INCLUDE [prodshort](includes/prodshort.md)] i dotterbolag som ska rapportera till överordnade organisationer. I båda fallen använder revisorer inbyggda verktyg för att konsolidera ekonomiska data.  
+Vissa organisationer använder [!INCLUDE [prod_short](includes/prod_short.md)] i flera affärsenheter eller juridiska enheter. Andra använder [!INCLUDE [prod_short](includes/prod_short.md)] i dotterbolag som ska rapportera till överordnade organisationer. I båda fallen använder revisorer inbyggda verktyg för att konsolidera ekonomiska data.  
 
 Du kan konsolidera redovisningstransaktionerna för två eller flera separata företag (dotterbolag) till ett konsoliderat företag. Varje enskilt företag som är involverat i en konsolidering kallas för en affärsenhet. Det kombinerade företaget kallas för det konsoliderade företaget.  
 
-Du kan importera data till det konsoliderade företaget från andra företag i samma [!INCLUDE [prodshort](includes/prodshort.md)]-klientorganisation från klientorganisationer eller från filer.  
+Du kan importera data till det konsoliderade företaget från andra företag i samma [!INCLUDE [prod_short](includes/prod_short.md)]-klientorganisation från klientorganisationer eller från filer.  
 
 Om en affärsenhets ekonomirapporter är i en annan valuta än det konsoliderade företagets måste du ange valutakurser för konsolideringen.  
 
@@ -42,7 +42,7 @@ Du kan lägga upp det konsoliderade företaget i en databas på samma sätt som 
 
 ## <a name="trial-balance"></a>Råbalans
 
-Om du har fler än ett företag i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan rapporten **Konsoliderad råbalans** ge dig en översikt av hela verksamhetens ekonomi.  
+Om du har fler än ett företag i [!INCLUDE[prod_short](includes/prod_short.md)] kan rapporten **Konsoliderad råbalans** ge dig en översikt av hela verksamhetens ekonomi.  
 
 Rapporten kombinerar redovisningstransaktioner från var och ett av företagen i ett nytt företag som du skapar för att innehålla konsoliderade data. Detta företag kallas normalt för "det konsoliderade företaget". Det konsoliderade företaget är bara en behållare för konsoliderade data och saknar levande affärsdata. Företagen som du inkluderar i det konsoliderade företaget blir **Affärsenheter** i rapporten. Mer information finns i [Konfigurera företagskonsolidering](finance-consolidated-company-reporting-setup.md).  
 
@@ -52,10 +52,10 @@ Rapporten kombinerar redovisningstransaktioner från var och ett av företagen i
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Så här testar du data före konsolidering
 
-Du kan testa data innan du överför den till det konsoliderade företaget. [!INCLUDE[d365fin](includes/d365fin_md.md)] tittar efter skillnader i information som finns i affärsenheterna och det konsoliderade företaget. Till exempel om kontonummer eller dimensionskoder är olika. Du måste åtgärda felen innan du kan köra rapporten. Du kan testa en databas, eller om du importerar data från en XML-fil kan du testa filen.  
+Du kan testa data innan du överför den till det konsoliderade företaget. [!INCLUDE[prod_short](includes/prod_short.md)] tittar efter skillnader i information som finns i affärsenheterna och det konsoliderade företaget. Till exempel om kontonummer eller dimensionskoder är olika. Du måste åtgärda felen innan du kan köra rapporten. Du kan testa en databas, eller om du importerar data från en XML-fil kan du testa filen.  
 
 1. Öppna det konsoliderade företaget.  
-2. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Affärsenheter** och välj sedan tillhörande länk.  
+2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
 3. Gör något av följande:  
 
     * Testa en fil genom att välja åtgärden **testa fil**, ange namnet på filen och välj sedan **Skriv ut**.  
@@ -118,5 +118,8 @@ De exporterade posterna innehåller följande fält: **Kontonr**, **Bokföringsd
 
 [Ställa in företagskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Exportera affärsdata till Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

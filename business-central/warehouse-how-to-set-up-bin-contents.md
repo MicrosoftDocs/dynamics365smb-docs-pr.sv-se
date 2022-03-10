@@ -1,60 +1,59 @@
 ---
-title: Skapa lagerplatsinnehåll
-description: När du har skapat lagerplatserna kan du ange de artiklar som du vill lagra i dem och skapa regler som styr hur ofta lagerplatser fylls i automatiskt.
+title: Skapa lagerställesinnehåll
+description: När du har skapat lagerställena kan du ange de artiklar som du vill lagra i dem och skapa regler som styr hur ofta lagerställen fylls i automatiskt.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 7374
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b1332240d6c6b0e43bada158fe11e82d42e0119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923151"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144235"
 ---
-# <a name="create-bin-contents"></a>Skapa lagerplatsinnehåll
+# <a name="create-bin-contents"></a>Skapa lagerställesinnehåll
 
-När du har skapat lagerplatserna kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerplatsen ska fyllas med en viss artikel. Du kan göra detta manuellt på sidan **lagerplatsinnehåll** eller automatiskt med sidan **skapa lagerplatsinnehåll i kalkylarket**.
+När du har skapat lagerställena kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerstället ska fyllas med en viss artikel. Du kan göra detta manuellt på sidan **lagerställesinnehåll** eller automatiskt med sidan **skapa lagerställesinnehåll i kalkylarket**.
 
-## <a name="to-create-bin-content-manually"></a>Så här skapar du lagerplatsinnehåll manuellt
+## <a name="to-create-bin-content-manually"></a>Så här skapar du lagerställesinnehåll manuellt
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Platser** och välj sedan relaterad länk.  
-2. Markera platsen där du vill skapa lagerplatsinnehållet och väljer åtgärden **Lagerplatser**.  
-3. Markera lagerplatsen där du vill skapa lagerplatsinnehållet och väljer åtgärden **Innehåll**.  
-4. För varje artikel som du vill lagra på lagerplatsen fyller du i en rad på sidan **Lagerplatsinnehåll** med tillämplig information. Vissa av fälten har redan fyllts i med information om lagerplatsen.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
+2. Markera platsen där du vill skapa lagerställesinnehållet och väljer åtgärden **Lagerställen**.  
+3. Markera lagerstället där du vill skapa lagerställesinnehållet och väljer åtgärden **Innehåll**.  
+4. För varje artikel som du vill lagra på lagerstället fyller du i en rad på sidan **Lagerställesinnehåll** med tillämplig information. Vissa av fälten har redan fyllts i med information om lagerstället.  
 5. Fyll först i fältet **Artikelnr** och sedan, om du använder dirigerad artikelinförsel och plockning, fyller du i andra fält som **Enhetskod**, **Max. ant.** och **Min. ant.**.  
 
-Välj **Fast** fältet, om det behövs. Om lagerplatsen ska användas som standardlagerplats för artikeln markerar du fältet **Standardlagerplats**.  
+Välj **Fast** fältet, om det behövs. Om lagerstället ska användas som standardlagerplats för artikeln markerar du fältet **Standardlagerplats**.  
 
-Om du använder dirigerad artikelinförsel och plockning, och har angett rätt dimensionsinformation på artikelkortet om varje artikels måttenheter, kontrolleras det högsta antalet som du har angett på sidan **Lagerplatsinnehåll** mot lagerplatsens fysiska lagringskapacitet. Sedan används lägsta och högsta antal när lagerplatspåfyllning beräknas och artikelinförsel föreslås.  
+Om du använder dirigerad artikelinförsel och plockning, och har angett rätt dimensionsinformation på artikelkortet om varje artikels måttenheter, kontrolleras det högsta antalet som du har angett på sidan **Lagerställesinnehåll** mot lagerställets fysiska lagringskapacitet. Sedan används lägsta och högsta antal när lagerplatspåfyllning beräknas och artikelinförsel föreslås.  
 
-Om du markerar fältet **Fast** kopplar du artikeln till lagerplatsen. Det betyder att [!INCLUDE[d365fin](includes/d365fin_md.md)] försöker placera den här artikeln på lagerplatsen om det finns utrymme för den, och den post som kopplar artikeln till lagerplatsen sparas även om antalet på lagerplatsen är noll. Andra artiklar kan placeras på lagerplatsen, även om en viss artikel har kopplats till lagerplatsen. Andra objekt kan placeras på lagerplatsen, även om en viss artikel har kopplats till lagerplatsen.  
+Om du markerar fältet **Fast** kopplar du artikeln till lagerstället. Det betyder att [!INCLUDE[prod_short](includes/prod_short.md)] försöker placera den här artikeln på lagerstället om det finns utrymme för den, och den post som kopplar artikeln till lagerstället sparas även om antalet på lagerstället är noll. Andra artiklar kan placeras på lagerstället, även om en viss artikel har kopplats till lagerstället. Andra objekt kan placeras på lagerstället, även om en viss artikel har kopplats till lagerstället.  
 
 > [!NOTE]  
-> Du kan skapa flera lagerplatsinnehåll samtidigt på sidan **Lagerplatsinnehålluppl förslag**.  
+> Du kan skapa flera lagerställesinnehåll samtidigt på sidan **Lagerställesinnehålluppl förslag**.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Så här skapar du lagerplatsinnehåll i kalkylarket:
+## <a name="to-create-bin-content-with-a-worksheet"></a>Så här skapar du lagerställesinnehåll i kalkylarket:
 
-När du har skapat lagerplatserna kan du skapa det lagerplatsinnehåll som du vill ha på varje lagerplats i lagerplatsuppläggningskalkylarket.
+När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du vill ha på varje lagerplats i lagerplatsuppläggningskalkylarket.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Lagerplatsinnehålluppl förslag** och välj sedan relaterad länk.  
-2. I fältet **Namn** i kalkylarkshuvudet väljer du kalkylarket för det lagerställe där du vill skapa lagerplatsinnehåll.  
-3. I fältet **Lagerplatskod** väljer du den lagerplatskod som du vill definiera lagerplatsinnehåll för.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerställesinnehålluppl kalkylark** och väljer sedan relaterad länk.  
+2. I fältet **Namn** i kalkylarkshuvudet väljer du kalkylarket för det lagerställe där du vill skapa lagerställesinnehåll.  
+3. I fältet **Lagerställeskod** väljer du den lagerställeskod som du vill definiera lagerställesinnehåll för.  
 
-    Om lagerstället är inställt på dirigerad artikelinförsel och plockning fylls fälten som rör just den lagerplatsen i automatiskt, exempelvis **Lagerplatstyp**, **Dist.lager klasskod** och **Lagerplatsordning**. Detta är information som du måste ta hänsyn till när du definierar lagerplatsinnehållet.  
-4. Välj den artikel som du vill tilldela lagerplatsen och fyll i de fält som avser lagerplatsinnehållet. Om du använder dirigerad artikelinförsel och plockning, och vill använda funktionen **Beräkna lagerplatsåteranskaffning**, fyller du i **Max. ant.** och **Min. ant.**.  
+    Om lagerstället är inställt på dirigerad artikelinförsel och plockning fylls fälten som rör just den lagerstället i automatiskt, exempelvis **Lagerplatstyp**, **Dist.lager klasskod** och **Lagerplatsordning**. Detta är information som du måste ta hänsyn till när du definierar lagerställesinnehållet.  
+4. Välj den artikel som du vill tilldela lagerstället och fyll i de fält som avser lagerställesinnehållet. Om du använder dirigerad artikelinförsel och plockning, och vill använda funktionen **Beräkna lagerplatsåteranskaffning**, fyller du i **Max. ant.** och **Min. ant.**.  
 
-    Om du vill att den här lagerplatsen ska väljas automatiskt för artikeln, även om lagerplatskvantiteten är **0** och alla övriga artikelinförselvillkor är lika, markerar du fältet **Fast**.  
+    Om du vill att den här lagerstället ska väljas automatiskt för artikeln, även om lagerplatskvantiteten är **0** och alla övriga artikelinförselvillkor är lika, markerar du fältet **Fast**.  
 5. Upprepa steg tre till fyra för varje artikel som du vill tilldela till en lagerplats.  
-6. Välj åtgärden **Skriv ut** för att förhandsgranska och skriva ut det lagerplatsinnehåll som du har angett i kalkylarket. Fortsätt att revidera lagerplatsinnehållet tills du är nöjd.  
-7. När du är klar kan du välja åtgärden **skapa lagerplatsinnehåll**.  
+6. Välj åtgärden **Skriv ut** för att förhandsgranska och skriva ut det lagerställesinnehåll som du har angett i kalkylarket. Fortsätt att revidera lagerställesinnehållet tills du är nöjd.  
+7. När du är klar kan du välja åtgärden **skapa lagerställesinnehåll**.  
 
-I det här kalkylarket kan du arbeta med flera lagerplatsinnehållsrader för flera lagerplatser och på så sätt få en bra översikt över vad du placerar på olika lagerplatser i en viss zon, gång eller ställning.  
+I det här kalkylarket kan du arbeta med flera lagerställesinnehållsrader för flera lagerställen och på så sätt få en bra översikt över vad du placerar på olika lagerställen i en viss zon, gång eller ställning.  
 
 ## <a name="see-also"></a>Se även
 
@@ -65,4 +64,7 @@ I det här kalkylarket kan du arbeta med flera lagerplatsinnehållsrader för fl
 [Monteringshantering](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

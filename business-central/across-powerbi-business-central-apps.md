@@ -2,30 +2,29 @@
 title: Använda Business Central-appar i Power BI| Microsoft Docs
 description: Använda insikter, business intelligence och KPI:er från dina Business Central-data är enkelt med Business Central-apparna för Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b4430118eb8075ceded16bdc375479e61a132f96
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697794"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134154"
 ---
-# <a name="using-the-prodshort-apps-in-power-bi"></a>Använda [!INCLUDE [prodshort](includes/prodshort.md)]-apparna i Power BI
+# <a name="using-the-prod_short-apps-in-power-bi"></a>Använda [!INCLUDE [prod_short](includes/prod_short.md)]-apparna i Power BI
 
-> **GÄLLER:** [!INCLUDE [prodlong](includes/prodlong.md)] online 
+> **GÄLLER:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
-[!INCLUDE [prodlong](includes/prodlong.md)] publicerar följande Power BI-appar som tillhandahåller detaljerade instrumentpaneler för datavisning:
+[!INCLUDE [prod_long](includes/prod_long.md)] publicerar följande Power BI-appar som tillhandahåller detaljerade instrumentpaneler för datavisning:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales
+- [!INCLUDE [prod_long](includes/prod_long.md)] – CRM  
+- [!INCLUDE [prod_long](includes/prod_long.md)] – Finance  
+- [!INCLUDE [prod_long](includes/prod_long.md)] – Sales
 
 ## <a name="overview"></a>Översikt
 
@@ -36,10 +35,10 @@ Varje app innehåller ett flertal rapporter som du kan bearbeta för data, inklu
 - Fäst en anpassad vy på instrumentpanelen om du vill fortsätta spåra.  
   Du kan uppdatera data manuellt och du kan ställa in ett schema för uppdatering. Mer information finns i [konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).  
 
-Apparna har utformats för att arbeta med data från valfritt företag i [!INCLUDE[prodshort](includes/prodshort.md)]. När du installerar Power BI-appen anger du en eller flera parametrar för att ansluta till [!INCLUDE [prodshort](includes/prodshort.md)].  
+Apparna har utformats för att arbeta med data från valfritt företag i [!INCLUDE[prod_short](includes/prod_short.md)]. När du installerar Power BI-appen anger du en eller flera parametrar för att ansluta till [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Du kan också skapa egna rapporter och instrumentpaneler i Power BI utifrån dina [!INCLUDE[prodshort](includes/prodshort.md)]-data. Mer information finns i [ansluta din affärsdata till Power BI](across-how-use-financials-data-source-powerbi.md). 
+> Du kan också skapa egna rapporter och instrumentpaneler i Power BI utifrån dina [!INCLUDE[prod_short](includes/prod_short.md)]-data. Mer information finns i [ansluta din affärsdata till Power BI](across-how-use-financials-data-source-powerbi.md). 
 
 ## <a name="prerequisites"></a>Förutsättningar
 
@@ -47,25 +46,25 @@ Power BI-appar kräver behörighet till de tabeller där datan hämtas ifrån sa
     
 |App | Webbtjänster|
 |----|-------------|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – CRM| <ul><li>Försäljningsmöjligheter</li><li>Excel-mallen för Visa företagsinformation</li><li>Power BI Rapportetiketter</li></ul>|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – Ekonomi| <ul><li>Power BIFinance</li><li>Excelmallsvy, företagsinformation</li><li>Power BI Rapportetiketter</li></ul>|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – Försäljning| <ul><li>Artikelförsäljning efter kund</li><li>Instrumentbräda för försäljning</li><li>Excelmallsvy, företagsinformation</li><li>Power BI Rapportetiketter</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – CRM| <ul><li>Försäljningsmöjligheter</li><li>Excel-mallen för Visa företagsinformation</li><li>Power BI Rapportetiketter</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – Ekonomi| <ul><li>Power BIFinance</li><li>Excelmallsvy, företagsinformation</li><li>Power BI Rapportetiketter</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – Försäljning| <ul><li>Artikelförsäljning efter kund</li><li>Instrumentbräda för försäljning</li><li>Excelmallsvy, företagsinformation</li><li>Power BI Rapportetiketter</li></ul>|
 
 > [!TIP]
-> Ett enkelt sätt att hitta webbtjänsten är att söka efter *webbtjänster* i [!INCLUDE[prodshort](includes/prodshort.md)]. På sidan **webbtjänster** ser du till att fältet **publicera** är markerat för de webbtjänster som visas ovan. Mer information finns i [Publicera en webbtjänst](across-how-publish-web-service.md).
+> Ett enkelt sätt att hitta webbtjänsten är att söka efter *webbtjänster* i [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **webbtjänster** ser du till att fältet **publicera** är markerat för de webbtjänster som visas ovan. Mer information finns i [Publicera en webbtjänst](across-how-publish-web-service.md).
 
 ## <a name="get-ready"></a>Gör dig redo
 
 Registrera dig frö Power BI-tjänsten. Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) om du inte redan har registrerat dig. När du registrerar dig använder du din e-postadress för arbetet samt ditt lösenord.
 
-## <a name="install-a-prodshort-app-in-power-bi"></a>Installera en [!INCLUDE[prodshort](includes/prodshort.md)]-app i Power BI
+## <a name="install-a-prod_short-app-in-power-bi"></a>Installera en [!INCLUDE[prod_short](includes/prod_short.md)]-app i Power BI
 
 1. Öppna din webbläsare, gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) och logga in på ditt konto.
 2. Välj **Hämta Data** längst ned i den vänstra navigeringsrutan.  
 
-    ![Navigera för att hämta data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigera för att hämta data.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    Du kan också komma igång från [!INCLUDE [prodshort](includes/prodshort.md)]. Från startsidan går du till **rapportval** i avsnittet Power BI. Välj antingen **Service** eller **Min organisation** i menyfliken. Organisationsgalleriet i antingen Power BI eller Microsoft AppSource öppnas, filtrerat att endast visa appar relaterade till [!INCLUDE[prodshort](includes/prodshort.md)].
+    Du kan också komma igång från [!INCLUDE [prod_short](includes/prod_short.md)]. Från startsidan går du till **rapportval** i avsnittet Power BI. Välj antingen **Service** eller **Min organisation** i menyfliken. Organisationsgalleriet i antingen Power BI eller Microsoft AppSource öppnas, filtrerat att endast visa appar relaterade till [!INCLUDE[prod_short](includes/prod_short.md)].
 
 3. I rutan **Tjänster**, markera **Hämta**.
 
@@ -76,20 +75,20 @@ Registrera dig frö Power BI-tjänsten. Gå till [https://powerbi.microsoft.com]
 
     Efter slutförd installation finns appen tillgänglig via **Appar** i navigeringsmenyn i Power BI.
 
-## <a name="connect-the-prodshort-app-to-your-data"></a>Ansluta [!INCLUDE[prodshort](includes/prodshort.md)]-appen till dina data
+## <a name="connect-the-prod_short-app-to-your-data"></a>Ansluta [!INCLUDE[prod_short](includes/prod_short.md)]-appen till dina data
 
 1. Under **Appar** väljer du appen Business Central och sedan **Anslut**.
-2. När du uppmanas till det fyller du i **Företagets namn** och **Miljö** med information om den [!INCLUDE[prodshort](includes/prodshort.md)]-instans som du vill ansluta till.
+2. När du uppmanas till det fyller du i **Företagets namn** och **Miljö** med information om den [!INCLUDE[prod_short](includes/prod_short.md)]-instans som du vill ansluta till.
 
-    - Se till att fylla i det fullständiga namnet för **Företagsnamn** inte enbart visningsnamnet. Företagsnamnet hittar du på sidan **Företag** i [!INCLUDE[prodshort](includes/prodshort.md)]. 
+    - Se till att fylla i det fullständiga namnet för **Företagsnamn** inte enbart visningsnamnet. Företagsnamnet hittar du på sidan **Företag** i [!INCLUDE[prod_short](includes/prod_short.md)]. 
     - Ange **Produktion** för **Miljö** om du inte har skapat flera olika miljöer.
 
 3. Välj **Nästa**.
 4. Välj **Inloggning**.
-5. När du uppmanas till det anger du användarnamn och lösenord för att logga in i [!INCLUDE[prodshort](includes/prodshort.md)].
-6. När du är ansluten läggs en instrumentpanel och rapporter till i din Power BI-arbetsyta. När den är slutförd visas information från ditt [!INCLUDE[prodshort](includes/prodshort.md)]-företag.
+5. När du uppmanas till det anger du användarnamn och lösenord för att logga in i [!INCLUDE[prod_short](includes/prod_short.md)].
+6. När du är ansluten läggs en instrumentpanel och rapporter till i din Power BI-arbetsyta. När den är slutförd visas information från ditt [!INCLUDE[prod_short](includes/prod_short.md)]-företag.
 
-    ![Välj Dynamics 365 Business Central och välj Hämta nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Välj Dynamics 365 Business Central och välj Hämta nu.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Åtgärda problem
 
@@ -101,9 +100,9 @@ Inget Power BI-konto har konfigurerats. Du måste ha en licens för att få ett 
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Meddelande: det finns inga aktiverade rapporter. Visa en lista med rapporter du kan visa med Välj rapport.
 
-Detta meddelande visas om den förvalda rapporten inte lyckas distribuera din Power BI-arbetsyta. Alternativt har rapporten distribuerats men inte uppdaterats korrekt. Om detta problem uppstår går du till rapporten på din Power BI-arbetsyta, väljer **Datauppsättning**, **Inställningar** och uppdaterar sedan autentiseringsuppgifterna manuellt. När datauppsättningen har uppdaterats går du tillbaka till [!INCLUDE[prodshort](includes/prodshort.md)] och väljer rapporten manuellt på sidan **Välj rapporter**.
+Detta meddelande visas om den förvalda rapporten inte lyckas distribuera din Power BI-arbetsyta. Alternativt har rapporten distribuerats men inte uppdaterats korrekt. Om detta problem uppstår går du till rapporten på din Power BI-arbetsyta, väljer **Datauppsättning**, **Inställningar** och uppdaterar sedan autentiseringsuppgifterna manuellt. När datauppsättningen har uppdaterats går du tillbaka till [!INCLUDE[prod_short](includes/prod_short.md)] och väljer rapporten manuellt på sidan **Välj rapporter**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Du behöver en Power BI Pro-licens för att installera [!INCLUDE[prodshort](includes/prodshort.md)]-appen i Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prod_short-app-in-power-bi"></a>Du behöver en Power BI Pro-licens för att installera [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Power BI
 
 För att kunna dela ditt innehåll behöver såväl du som de personer du delar med en [Power BI Pro-licens](/power-bi/service-features-license-type). Innehållet måste ligga på en arbetsyta med [Premium-kapacitet](/power-bi/service-premium-what-is). Mer information finns i [Så här delar du ditt arbete i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -111,22 +110,22 @@ För att kunna dela ditt innehåll behöver såväl du som de personer du delar 
 
 Detta fel indikerar ett ytterligare en parameter är ogiltig.
 
-- Angiven miljöparameter matchar ingen befintlig produktions- eller sandbox-miljö i [!INCLUDE[prodshort](includes/prodshort.md)].
-- Angiven företagsparameter matchar inga befintliga [!INCLUDE[prodshort](includes/prodshort.md)]-företag. Kontrollera företagsnamnet på sidan **företag** i [!INCLUDE[prodshort](includes/prodshort.md)].
-- Om du ansluter till [!INCLUDE[prodshort](includes/prodshort.md)]-lokalt har du angett en ogiltig URL. Du kan kontrollera URL på sidan **webbtjänster** i [!INCLUDE[prodshort](includes/prodshort.md)]  
+- Angiven miljöparameter matchar ingen befintlig produktions- eller sandbox-miljö i [!INCLUDE[prod_short](includes/prod_short.md)].
+- Angiven företagsparameter matchar inga befintliga [!INCLUDE[prod_short](includes/prod_short.md)]-företag. Kontrollera företagsnamnet på sidan **företag** i [!INCLUDE[prod_short](includes/prod_short.md)].
+- Om du ansluter till [!INCLUDE[prod_short](includes/prod_short.md)]-lokalt har du angett en ogiltig URL. Du kan kontrollera URL på sidan **webbtjänster** i [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Det finns ingen öppen port som möjliggör din begäran via din brandvägg.
 
 ### <a name="cant-sign-in"></a>Det går inte att logga in
 
-Om du får felet ”Inloggningen misslyckades” när du försöker logga in med dina [!INCLUDE[prodshort](includes/prodshort.md)]-autentiseringsuppgifter har du troligtvis råkat ut för något av följande problem:
+Om du får felet ”Inloggningen misslyckades” när du försöker logga in med dina [!INCLUDE[prod_short](includes/prod_short.md)]-autentiseringsuppgifter har du troligtvis råkat ut för något av följande problem:
 
-- Det konto som du använder har inte behörighet att hämta [!INCLUDE[prodshort](includes/prodshort.md)]-data från ditt konto. Kontrollera att du har behörighet för de data som krävs i [!INCLUDE[prodshort](includes/prodshort.md)] och försök igen.
-- Om du ansluter till [!INCLUDE[prodshort](includes/prodshort.md)] lokalt har du valt en autentiseringstyp som inte är Grundläggande.
+- Det konto som du använder har inte behörighet att hämta [!INCLUDE[prod_short](includes/prod_short.md)]-data från ditt konto. Kontrollera att du har behörighet för de data som krävs i [!INCLUDE[prod_short](includes/prod_short.md)] och försök igen.
+- Om du ansluter till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt har du valt en autentiseringstyp som inte är Grundläggande.
 - Du har inte angett ett giltigt användarnamn eller lösenord.
 
 ### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Meddelande: Din datakälla kan inte uppdateras eftersom autentiseringsuppgifterna är ogiltiga. Uppdatera dina autentiseringsuppgifter och försök igen
 
-För [!INCLUDE[prodshort](includes/prodshort.md)] lokalt kan felet bestå i att OData-URL:en endast visas för det lokala nätverket.
+För [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan felet bestå i att OData-URL:en endast visas för det lokala nätverket.
 
 ### <a name="incorrect-company-name"></a>Felaktigt företagsnamn
 
@@ -142,11 +141,11 @@ När Power BI-appen installerats och dina data syns i Power BI noterar du att in
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Jag ser endast data för ett enskilt företag
 
-I Power BI-appen visas endast data från [!INCLUDE[prodshort](includes/prodshort.md)]-företaget som definierades när Power BI-appen installerades. Data från ytterligare företag kan läggas till i rapporterna genom att lägga till nya frågor som använder olika företag som datakälla.  
+I Power BI-appen visas endast data från [!INCLUDE[prod_short](includes/prod_short.md)]-företaget som definierades när Power BI-appen installerades. Data från ytterligare företag kan läggas till i rapporterna genom att lägga till nya frågor som använder olika företag som datakälla.  
 
 ### <a name="what-now"></a>Vad nu?
 
-- Försök med att [ställa en fråga i rutan Frågor och svar](/power-bi/service-q-and-a-tips) högst upp i instrumentpanelen.
+- Försök med att [ställa en fråga i rutan Vanliga frågor och svar](/power-bi/service-q-and-a-tips) högst upp i instrumentpanelen.
 - [Ändra panelerna](/power-bi/service-dashboard-edit-tile) på instrumentpanelen.  
 - [Välj en panel](/power-bi/service-dashboard-tiles) för att öppna den underliggande rapporten.  
 - Din datauppsättning har inte schemalagts att uppdateras som standard. Du kan ändra uppdateringsschemat eller försöka uppdatera den på begäran med **Uppdatera nu**. Mer information finns i [Konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).
@@ -156,19 +155,22 @@ I Power BI-appen visas endast data från [!INCLUDE[prodshort](includes/prodshort
 ## <a name="see-also"></a>Se även
 
 [Business Central och Power BI](admin-powerbi.md)  
-[Power BI-integreringskomponent och arkitekturöversikt för [!INCLUDE[prodshort](includes/prodshort.md)]](admin-powerbi-overview.md)  
-[Arbeta med [!INCLUDE [prodshort](includes/prodshort.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
-[Skapa Power BI-rapporter för att visa [!INCLUDE [prodlong](includes/prodlong.md)]-data](across-how-use-financials-data-source-powerbi.md)  
+[Power BI-integreringskomponent och arkitekturöversikt för [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
+[Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
+[Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI för konsumenter](/power-bi/consumer/end-user-consumer)  
 [Power BI-tjänstens "nya utseende"](/power-bi/service-new-look)  
 [Snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Dokumentation om Power BI](/power-bi/)  
 [Affärsstöd](bi.md)  
-[Komma igång](product-get-started.md)  
-[Importera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
-[Ställa in [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  
-[Använda [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

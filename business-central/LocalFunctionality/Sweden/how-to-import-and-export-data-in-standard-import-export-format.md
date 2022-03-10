@@ -1,28 +1,28 @@
 ---
-title: Så här importerar och exporterar du data i SIE-format (Standard Import Export)
-description: Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export).
+title: Importera och exportera data i SIEE [SE]
+description: Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export) som förklaras i detta ämne.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 11212
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2c4088b1ac5fd6e7c599bcdb8a4a897f4dc876c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f4943b47026a82ca079e0034276f67c7dd46167d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925234"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140005"
 ---
-# <a name="import-and-export-data-in-standard-import-export-format"></a>Importera och exportera data i SIE-format (Standard Import Export)
+# <a name="import-and-export-data-in-standard-import-export-format-in-the-swedish-version"></a>Importera och exportera data i SIE-format (Standard Import Export) i svenska versionen
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
 ## <a name="to-import-data-in-sie-format"></a>Så här importerar du data i SIE-format  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](../../media/ui-search/search_small.png "Berätta vad du vill göra"), ange **SIE-import** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SIE-import** och väljer sedan relaterad länk.  
 2.  Fyll i fälten enligt beskrivningen i följande tabell.  
 
     |Fält|Description|  
@@ -38,13 +38,13 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 
 ## <a name="to-export-data-in-sie-format"></a>Så här exporterar du data i SIE-format  
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](../../media/ui-search/search_small.png "Berätta vad du vill göra"), ange **SIE-export** och välj sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SIE-export** och väljer sedan relaterad länk.  
 2.  Välj lämpliga filter på snabbfliken **Redovisningskonto**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Filtyp**|Välj typen av fil du vill skapa. Välj något av följande alternativ:<br /><br /> -   **År - Slutsaldon** - Innehåller årligt utgående saldo för alla konton i kontoplanen.<br />-   **Periodiska saldon** - Innehåller årligt utgående saldo och månatliga förändringar för alla konton i kontoplanen.<br />-   **Objektsaldon** - Innehåller årligt utgående kontosaldo, månatliga förändringar och saldon på objektnivån, till exempel kostnadsenheter och projekt, för alla konton i kontoplanen.<br />-   **Transaktioner** - Innehåller alla redovisningstransaktioner för perioden.|  
+    |**Filtyp**|Välj typen av fil du vill skapa. Välj något av följande alternativ:<br /><br /> -   **År – Slutsaldon** – Innehåller årligt utgående saldo för alla konton i kontoplanen.<br />-   **Periodiska saldon** – Innehåller årligt utgående saldo och månatliga förändringar för alla konton i kontoplanen.<br />-   **Objektsaldon** – Innehåller årligt utgående kontosaldo, månatliga förändringar och saldon på objektnivån, till exempel kostnadsenheter och projekt, för alla konton i kontoplanen.<br />-   **Transaktioner** – Innehåller alla redovisningstransaktioner för perioden.|  
     |**Kontakt**|Ange kontaktperson. Fältet är ett tillval.|  
     |**Kommentarer**|Beskriv filens innehåll.|  
     |**Dimensioner**|Markera dimensionerna du vill exportera.|  
@@ -56,3 +56,6 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 ## <a name="see-also"></a>Se även  
  [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

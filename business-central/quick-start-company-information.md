@@ -2,7 +2,6 @@
 title: Företagsinformation snabbstart
 description: Lär dig hur du fyller i de första kritiska fälten för ditt företag i Business Central genom att läsa den här snabbstartsartikeln.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6d7bb056b0085ccbac153ea959c12e7f53651a0e
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724768"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133660"
 ---
 # <a name="company-information-quick-start"></a>Företagsinformation snabbstart
 

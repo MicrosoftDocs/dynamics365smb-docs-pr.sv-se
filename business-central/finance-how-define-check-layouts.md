@@ -1,30 +1,32 @@
 ---
-title: Ange layouten för en kontroll | Microsoft Docs
-description: Du kan skapa och skriva ut dina checkar i flera olika format i överensstämmelse med standarder.
+title: Ange layouten för en kontroll
+description: Du kan skapa och skriva ut dina checkar i flera olika format i överensstämmelse med standarder som anges av dina lokala myndigheter.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2020
+ms.search.form: 374, 404
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3458934"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149055"
 ---
 # <a name="select-a-check-layout"></a>Välj en checklayout
+
 Du kan designa dina checkar så att de uppfyller de normer som fastställts av de lokala myndigheterna. Checkbilder kan vara skrivna ut på engelska, franska, eller spanska.
 
 Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska checkbildformat i antingen check-checktalong-check-format eller checktalong-checktalong-check-format.
 
 ## <a name="to-select-a-check-layout"></a>Välj en checklayout genom att
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Rapportval - bankkonto** och välj sedan relaterad länk.
-2. På sidan **Rapportval - bankkonto** i fältet **Användning** väljer du **Check**.
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Rapportval, bankkonto** och väljer sedan relaterad länk.
+2. På sidan **Rapportval – bankkonto** i fältet **Användning** väljer du **Check**.
 3. Välj något av följande rapport-ID:
 
 | Rapport-ID | Rapportnamn | Beskrivning |
@@ -39,57 +41,67 @@ När du har upprättat checklayouter, kan du skriva ut checkar från sidan **utb
 Om du vill ändra en av dessa standardlayouter använder du antingen Word- eller RDLC-integrering. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Använda MICR och säkerhetsteckensnitt
-Online-versionen av [!INCLUDE[d365fin](includes/d365fin_md.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att definiera kontrollera layouter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.
+
+Online-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att definiera kontrollera layouter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.
 
 > [!Important]
-> MICR och kontrollera säkerhetsteckensnitt i Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] licensieras i ett teckensnittspaket från IDAutomation.com, Inc. Dessa produkter får endast användas som en del av och i samband med Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> MICR och kontrollera säkerhetsteckensnitt i Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] licensieras i ett teckensnittspaket från IDAutomation.com, Inc. Dessa produkter får endast användas som en del av och i samband med Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)].
 
 I uppdatering 15.3 och nyare installeras magnetiskt bläcktecken igenkänningsteckensnitt (MICR) och de kan användas. Både E-13B och CMC-7 standarden stöds. Förutom MICR-teckensnitt finns speciella säkerhetsteckensnitt som du kan använda för att skapa text, namn, belopp och valutasymboler, euro, pund och yen som du kan manipulera med när en kontroll har skrivits ut.
 
 > [!NOTE]
-> Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljön.
+> Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[prod_short](includes/prod_short.md)]-miljön.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B specifikationer
+
 I följande avsnitt sammanfattas specifikationerna för de MICR-E-13B teckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
-![MICR E-13B specifikationer](media/font_MICR_E-13B_Specifications.png "MICR E-13B specifikationer")
+![MICR E-13B specifikationer.](media/font_MICR_E-13B_Specifications.png "MICR E-13B specifikationer")
 
 ### <a name="delimiter-characters"></a>Avgränsningstecken
-![Avgränsningstecken](media/font-micr-letters.png "Avgränsningstecken")
+
+![Avgränsningstecken.](media/font-micr-letters.png "Avgränsningstecken")
 
 Den fullständiga specifikationen av MICR E-13B teckensnitt finns i leverantörens dokumentation här: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 specifikationer
-Följande CMC-7 teckensnitt finns tillgängliga [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+
+Följande CMC-7 teckensnitt finns tillgängliga [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
 - IDAutomationCMC7n25
--   IDAutomationCMC7n40
+- IDAutomationCMC7n40
 
 I följande avsnitt sammanfattas specifikationerna för de MICR CMC-7 teckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
-![MICR CMC-7 specifikationer](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 specifikationer")
+![MICR CMC-7 specifikationer.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 specifikationer")
 
 ### <a name="delimiter-characters"></a>Avgränsningstecken
-![Avgränsningstecken](media/font-cmc7-letters.png "Avgränsningstecken")
+
+![Avgränsningstecken för CMC-7.](media/font-cmc7-letters.png "Avgränsningstecken för CMC-7")
 
 Den fullständiga specifikationen av MICR CMC-7 teckensnitt finns i leverantörens dokumentation här: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Specifikationer för säkra teckensnitt
+
 I följande avsnitt sammanfattas specifikationerna för kontrollera säkerhetsteckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
-![Kontrollera specifikationer för säkerhetsteckensnitt](media/font_check-security-font_Specifications.png "Kontrollera specifikationer för säkerhetsteckensnitt")
+![Kontrollera specifikationer för säkerhetsteckensnitt.](media/font_check-security-font_Specifications.png "Kontrollera specifikationer för säkerhetsteckensnitt")
 
 Den fullständiga specifikationen av kontrollera säkerhetsteckensnitt finns i leverantörens dokumentation här: (https://www.idautomation.com/security-fonts/).
 
-Det finns också teckensnitt för andra syften i [!INCLUDE[prodshort](includes/prodshort.md)]. Mer information finns i [tillgängliga teckensnitt](ui-fonts.md)
+Det finns också teckensnitt för andra syften i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [tillgängliga teckensnitt](ui-fonts.md)
 
 ## <a name="see-also"></a>Se även
+
 [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)  
 [Teckensnitt i Business Central](ui-fonts.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Stämma av bankkonton](bank-manage-bank-accounts.md)   
 [Slutföra periodslutsprocesser](year-how-complete-period-end-processes.md)  
-[Arbeta med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

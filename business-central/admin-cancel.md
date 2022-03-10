@@ -1,53 +1,54 @@
 ---
-title: Avbryta Business Central | Microsoft Docs
-description: Beskriver hur du tar bort eller raderar din Business Central-upplevelse.
+title: Avbryta prenumerationen eller ta bort Business Central
+description: Lär dig ta bort eller radera din Business Central-upplevelse om du har en provprenumeration eller om du har en betald prenumeration.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 60c6574706aa873549f40a875eb5f4ac390ca93a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c02bc46895c211748b8200c1490b08e54f0eb94
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304690"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138101"
 ---
-# <a name="unsubscribe-remove-or-reset-d365fin"></a>Avbryta, ta bort eller återställa [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Om du vill sluta använda [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du avsluta ditt konto eller hämta licenser som tagits bort från ditt konto. Stegen du tar skiljer sig om du använder provversion, eller om du har en månadsprenumeration som en del av ett Office 365-konto.  
+# <a name="unsubscribe-or-remove-prod_short"></a>Avbryta prenumerationen eller ta bort [!INCLUDE[prod_short](includes/prod_short.md)]
 
-På liknande sätt kan du välja att återställa det företag som du har använt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. En snabb översikt finns i [[!INCLUDE[d365fin](includes/d365fin_md.md)] blogg](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+Om du vill sluta använda [!INCLUDE[prod_short](includes/prod_short.md)], kan du avsluta ditt konto eller hämta licenser som tagits bort från ditt konto. Stegen du tar skiljer sig om du använder testversionen eller har en prenumeration.  
 
-## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från ditt Office 365-miljö
-Om du har registrerat dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] med hjälp av ett befintligt Office 365-konto, måste du be din Office 365-administratör att ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen från ditt konto. Om [!INCLUDE[d365fin](includes/d365fin_md.md)] tas bort från ditt konto och andra människor från företaget fortsätter prenumerationen, kommer de fortfarande ha åtkomst till delade data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-företaget.  
+## <a name="closing-your-free-trial-of-prod_short"></a>Stänga en kostnadsfri testversion av [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Om ditt företag vill avsluta prenumerationen på [!INCLUDE[d365fin](includes/d365fin_md.md)], kommer Office 365-administratören att ta bort prenumerationen från företagets konto.  
+Om du har registrerat dig för en kostnadsfri test och inte vill fortsätta med [!INCLUDE[prod_short](includes/prod_short.md)], kan du avsluta kontot när som helst. Vi rekommenderar att du exporterar data innan du avslutar ditt konto. Du kan läsa mer om hur du exporterar data till Excel i [Exportera data till andra finanssystem](about-export-data.md#exporting-data-to-other-finance-systems). Om du hellre vill exportera alla data till en Azure-lagringsenhet kan din Microsoft 365-administratör göra det i administrationscentret. Mer information finns i [Exportera databaser i administrationscentret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-Användarkonton och licenser hanteras i [Office-portalen](https://portal.office.com). Endast administratören kan ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)]-licenser från användarkonton eller ta bort abonnemanget från ditt företag.  
+Du måste be Microsoft 365-administratören att ta bort provprenumerationen från ditt företagskonto i [Microsoft 365-administrationscentret](https://admin.microsoft.com/).  
 
-## <a name="closing-your-free-trial-of-d365fin"></a>Stänga en kostnadsfri testversion av [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Om du har registrerat dig för en kostnadsfri test och inte vill fortsätta med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du avsluta kontot när som helst. Vi rekommenderar att du exporterar data innan du avslutar ditt konto.  
+Om du registrerade dig på [!INCLUDE[prod_short](includes/prod_short.md)] utan ett Microsoft 365 -företagskonto, har du inte en Microsoft 365-administratör. Du måste i stället avbryta [!INCLUDE[prod_short](includes/prod_short.md)]-prenumerationen genom att kontakta annulleringsteamet genom att skicka ett e-postmeddelande till [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du måste inkludera med namnet på [!INCLUDE[prod_short](includes/prod_short.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Informationen finns på sidan **hjälp och support**. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
 
-För närvarande måste du kontakta annulleringsteamet för [!INCLUDE[d365fin](includes/d365fin_md.md)] genom att skicka ett e-postmeddelande till cancelbusinesscentra@microsoft.com. Du måste inkludera med namnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Det enklaste sättet att göra detta är att kopiera URL:en från din [!INCLUDE[d365fin](includes/d365fin_md.md)]-startsida.  
+## <a name="unsubscribing-by-removing-prod_short-from-your-microsoft-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[prod_short](includes/prod_short.md)] från din Microsoft 365-miljö
 
-## <a name="unsubscribing-from-d365fin-without-office-365"></a>Säga upp prenumerationen från [!INCLUDE[d365fin](includes/d365fin_md.md)] utan Office 365
-Om du registrerade dig på [!INCLUDE[d365fin](includes/d365fin_md.md)] utan ett Office 365 -företagskonto, har du inte en Office 365-administratör. Du måste i stället avbryta prenumerationen genom att kontakta [!INCLUDE[d365fin](includes/d365fin_md.md)] annulleringsteamet genom att skicka ett e-postmeddelande till cancelbusinesscentra@microsoft.com. Du måste inkludera med namnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Det enklaste sättet att göra detta är att kopiera URL:en från din [!INCLUDE[d365fin](includes/d365fin_md.md)]-startsida.  
+Om ditt företag prenumererar på [!INCLUDE[prod_short](includes/prod_short.md)] men inte längre vill ha åtkomst, måste du be administratören eller din Dynamics 365-återförsäljningspartner att ta bort [!INCLUDE[prod_short](includes/prod_short.md)]-licensen från ditt Microsoft 365-användarkonto. Om [!INCLUDE[prod_short](includes/prod_short.md)] tas bort från ditt konto och företaget fortsätter prenumerationen, kommer dina medarbetare fortfarande ha åtkomst till delade data i [!INCLUDE[prod_short](includes/prod_short.md)]-företaget.  
 
-## <a name="resetting-your-d365fin-experience"></a>Återställa din [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljö
-Om du har lagt till data till [!INCLUDE[d365fin](includes/d365fin_md.md)]-testversionen och om du vill börja om med en ny upplevelse, kan du skapa ett nytt företag och sedan återställa det första företaget. Om du öppnar sidan **företag** kan du skapa en kopia av det aktuella företaget, logga ut och sedan logga in på ditt nya företag och sedan återställa det ursprungliga företaget.  
-> [!NOTE]  
->   När du vill återställa ett företag du delar med andra personer från organisationen, bör du kontrollera att de andra personerna inte är inloggade när du återställer företaget.  
+Om ditt företag vill avsluta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)], kan Dynamics 365 återförsäljningspartner ta bort den betalda prenumerationen från företagets konto. Mer information finns i [Administration av Business Central online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i innehållet för utvecklare och IT-proffs.  
 
-## <a name="removing-d365fin-from-your-app-launcher"></a>Ta bort [!INCLUDE[d365fin](includes/d365fin_md.md)] från din programmarstartbild
-Om du vill dölja [!INCLUDE[d365fin](includes/d365fin_md.md)] från din programmarstartbild, kan du helt enkelt ta bort den. Den här åtgärden tar inte bort några data, och den avbryter inte din prenumeration.  
+Användarkonton och licenser hanteras i [Microsoft 365-administrationscentret](https://admin.microsoft.com/). Endast administratören kan ta bort [!INCLUDE[prod_short](includes/prod_short.md)]-licenser från användarkonton eller ta bort abonnemanget från ditt företag.  
+
+## <a name="removing-prod_short-from-your-app-launcher"></a>Ta bort [!INCLUDE[prod_short](includes/prod_short.md)] från din programmarstartbild
+
+Om du vill dölja [!INCLUDE[prod_short](includes/prod_short.md)] från din programmarstartbild, kan du helt enkelt ta bort den. Den här åtgärden tar inte bort några data, och den avbryter inte din prenumeration.  
 
 ## <a name="see-also"></a>Se även
-[Komma igång](product-get-started.md)  
+
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Skapa nya företag](about-new-company.md)  
 [Exportera affärsdata till Excel](about-export-data.md)  
-[Office-portal](https://portal.office.com)  
+[Microsoft 365-administrationscenter](https://admin.microsoft.com/)  
 [Hur lång tid är testperioden och hur avbryter jag?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+[Exportera affärsdata till Excel](about-export-data.md)  
+[Exportera databaser i administrationscentret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
-title: Konfigurera arbetsflöden
-description: Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Lär dig mer om de olika åtgärder du måste utföra.
+title: Ställ in arbetsflöden (innehåller video)
+description: Ställ in arbetsflöden, arbetsflödesanvändare och godkännande användare för att ansluta verksamhetsprocesser som utförs av de olika användarna.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/14/2020
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9093fdc440b84745079546f51a05c57d743115ff
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378979"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133258"
 ---
 # <a name="set-up-workflows"></a>Konfigurera arbetsflöden
 

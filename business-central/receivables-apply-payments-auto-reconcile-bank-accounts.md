@@ -1,26 +1,24 @@
 ---
-title: Stämma av bankkonton och utför betalningar | Microsoft Docs
+title: Stämma av bankkonton koppla betalningar
 description: Beskriver uppgifter för att stämma av din bank, kundreskontra och leverantörsreskontra, bokföra inbetalningar eller kostnader och tillämpa betalningar automatiskt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2020
+ms.search.form: 1290, 1291, 1293, 1294
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd26f288ee6128539c9a8dd415d98126d693c3fe
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9eb37571da51c0bab1fed0f6f62170208e7ee8c6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926628"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146182"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Koppla utbetalningar automatiskt och stämma av bankkonton
-Du måste regelbundet stämma av dina bankkonton, kundfordringskonton och konton för leverantörsreskontra genom att koppla betalningar som är registrerade i banken till dessas motsvarande öppna (obetalda) fakturor och kreditnotor eller andra öppna transaktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du måste regelbundet stämma av dina bankkonton, kundfordringskonton och konton för leverantörsreskontra genom att koppla betalningar som är registrerade i banken till dessas motsvarande öppna (obetalda) fakturor och kreditnotor eller andra öppna transaktioner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Du kan utföra denna aktivitet på sidan **Betalningsavstämningsjournal** genom att till exempel importera ett kontoutdrag eller en feed för att snabbt registrera utbetalningarna. Betalningarna används för att öppna leverantörs- eller kundreskontratransaktioner baserat på matchningar mellan betalningstexten och transaktionsinformation. Du kan granska och ändra automatiska kopplingar, innan du bokför journalen. Du kan välja att avsluta alla öppna bankkontotransaktioner som relateras till kopplade transaktioner, när du bokför journalen. Bankkontot avstäms automatiskt, när alla utbetalningar kopplas.
 
@@ -30,7 +28,10 @@ Du kan också stämma av bankkonton utan att samtidigt utföra betalningar. Du u
 
 Om du vill aktivera import av bankutdrag som en bankfeed måste du först skapa och aktivera Envestnet Yodlee Bank Feeds-tjänsten och sedan länka dina bankkonton till relaterade onlinebankkonton. Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
-Du kan alternativt använda tillägget AMC Banking 365 Fundamentals om du vill konvertera en kontoutdrags i valfritt format till en dataström som du kan importera till [!INCLUDE[d365fin](includes/d365fin_md.md)]. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+> [!TIP]
+> Du kan också importera bankutdragsfiler i komma- eller semikolonavgränsat format (.CSV). Använd **Konfigurera importformat för en kontoutdragsfil** assisterad installation för att definiera importformat för kontoutdrag och bifoga formatet till ett bankkonto. Du kan sedan använda dessa format när du importerar bankutdrag på sidan **Bankkontoavstämning**.
+
+Du kan alternativt använda tillägget AMC Banking 365 Fundamentals om du vill konvertera en kontoutdrags i valfritt format till en dataström som du kan importera till [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
@@ -48,4 +49,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

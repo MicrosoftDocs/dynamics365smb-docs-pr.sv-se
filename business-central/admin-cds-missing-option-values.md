@@ -1,24 +1,27 @@
 ---
 title: Hantera alternativvärden som saknas
-description: Lär dig mer om hur du förhindrar fullständig synkronisering från att misslyckas eftersom alternativen skiljer sig åt i mappade fält.
+description: Lär dig mer om hur du förhindrar fullständig synkronisering från att misslyckas eftersom alternativen skiljer sig åt i mappade fält. De processer som beskrivs kräver hjälp av en utvecklare.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.topic: conceptual
+ms.date: 06/14/2021
+ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693030"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133972"
 ---
 # <a name="handling-missing-option-values"></a>Hantera alternativvärden som saknas
-[!INCLUDE[d365fin](includes/cds_long_md.md)] innehåller bara tre alternativuppsättningsfält som innehåller alternati värden som du kan mappa till [!INCLUDE[d365fin](includes/d365fin_md.md)]-fält av alternativtyp<!-- Option type, not enum? @Onat can you vertify this? --> för automatisk synkronisering. Under synkroniseringen ignoreras icke-mappade alternativ, de saknade alternativen läggs till i relaterad [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen och läggs till systemtabellen **CDS-alternativmappning** för att hanteras manuellt senare. Du kan t.ex. lägga till saknade alternativ i någon av produkterna och sedan uppdatera mappningen. I det här avsnittet beskrivs hur det fungerar.
 
-Sidan **Tabellmappning för integrering** innehåller tre mappningar för fält som innehåller ett eller flera mappade alternativvärden. Efter en fullständig synkronisering innehåller sidan **CDSalternativmappning** de alternativ som inte är mappade i de tre fälten.
+
+Detta ämne är avsett för en teknisk publik. De processer som beskrivs kräver hjälp av en utvecklare.
+
+[!INCLUDE[prod_short](includes/cds_long_md.md)] innehåller tre fält för alternativuppsättningar med värden som du kan mappa till [!INCLUDE[prod_short](includes/prod_short.md)]-fält av typen Alternativ för automatisk synkronisering. Under synkroniseringen ignoreras icke-mappade alternativ, de saknade alternativen läggs till i relaterad [!INCLUDE[prod_short](includes/prod_short.md)]-tabell samt i **Alternativmappning för Dataverse**-systemtabellen för att hanteras manuellt senare. Du kan t. ex. lägga till saknade alternativ i någon av produkterna och sedan uppdatera mappningen.
+
+Sidan **Mappning av integreringstabell** innehåller tre fält som innehåller ett eller flera mappade alternativvärden. Efter en fullständig synkronisering innehåller sidan **Alternativmappning för Dataverse** de alternativ som inte är mappade i de tre fälten.
 
 |         Transaktion             | Alternativvärde | Rubrik för alternativvärde |
 |----------------------------|--------------|----------------------|
@@ -36,7 +39,7 @@ Sidan **Tabellmappning för integrering** innehåller tre mappningar för fält 
 | Speditör: FULLLOAD   | 6            | Full Load            |
 | Speditör: WILLCALL   | 7            | Hämtas hos säljaren            |
 
-Innehållet på sidan **Mappning av CDS-alternativ** baseras på uppräkningsvärden i tabellen **CDS-konto**. I [!INCLUDE[d365fin](includes/cds_long_md.md)] mappas följande fält på kontoeenheten till fält på transaktionerna för kund och leverantör:
+Innehållet på sidan **Alternativmappning för Dataverse** baseras på uppräkningsvärden i tabellen **CRM-konto**. I [!INCLUDE[prod_short](includes/cds_long_md.md)] mappas följande fält i kontotabellen till fält på transaktionerna för kund och leverantör:
 
 - **Adress 1: leveransvillkor** för datatypen Enum (uppräkning), där värden definieras enligt följande:
 
@@ -53,7 +56,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Adress 1: leveranssätt** för datatypen Enum (uppräkning), där värden definieras enligt följande:
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -82,9 +84,9 @@ enum 5334 "CDS Payment Terms Code"
 }
 ```
 
-Alla [!INCLUDE[d365fin](includes/d365fin_md.md)]-uppräkningar ovan mappas till alternativuppsättningar i [!INCLUDE[d365fin](includes/cds_long_md.md)].
+Alla [!INCLUDE[prod_short](includes/prod_short.md)]-uppräkningar ovan mappas till alternativuppsättningar i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-d365fin"></a>Utöka alternativuppsättningar i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### <a name="extending-option-sets-in-prod_short"></a>Utöka alternativuppsättningar i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Skapa ett nytt AL-tillägg.
 
 2. Lägg till ett Enum-tillägg för de alternativ som du vill utöka. Kontrollera att du använder samma värde. 
@@ -98,18 +100,18 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ```
 
 > [!IMPORTANT]  
-> Du måste använda samma alternativ-ID-värden från [!INCLUDE[d365fin](includes/cds_long_md.md)] när du utökar [!INCLUDE[d365fin](includes/d365fin_md.md)]-uppräkningen. I annat fall misslyckas synkroniseringen.
+> Du måste använda samma alternativ-ID-värden från [!INCLUDE[prod_short](includes/cds_long_md.md)] när du utökar [!INCLUDE[prod_short](includes/prod_short.md)]-uppräkningen. I annat fall misslyckas synkroniseringen.
 
 > [!IMPORTANT]  
-> Använd inte symbolen "," i Enum-värden och -texter. Detta stöds för närvarande inte av [!INCLUDE[d365fin](includes/d365fin_md.md)]-körningen.
+> Använd inte symbolen "," i Enum-värden och -texter. Detta stöds för närvarande inte av [!INCLUDE[prod_short](includes/prod_short.md)]-körningen.
 
 > [!NOTE]
 > De första tio tecknen i de nya alternativvärdenas namn och rubriker måste vara unika. Exempel: två alternativ med namnet "Överför 20 arbetsdagar" och "Överför 20 kalenderdagar" orsakar ett fel eftersom båda har samma första tio tecken, "Överföring 2". Namnge dem, till exempel "TRF20 WD" och "TRF20 CD".
 
-### <a name="update-d365fin-option-mapping"></a>Uppdatera [!INCLUDE[d365fin](includes/cds_long_md.md)]-alternativmappningen
-Du kan nu återskapa mappningen mellan [!INCLUDE[d365fin](includes/cds_long_md.md)]-alternativ och [!INCLUDE[d365fin](includes/d365fin_md.md)]-transaktioner.
+### <a name="update-prod_short-option-mapping"></a>Uppdatera alternativmappningen för [!INCLUDE[prod_short](includes/cds_long_md.md)]
+Du kan nu återskapa mappningen mellan [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ och [!INCLUDE[prod_short](includes/prod_short.md)]-transaktioner.
 
-På sidan **Mappning av integreringstabell** väljer du raden för **Betalningsvillkor** och väljer sedan åtgärden **Synkronisera ändrade transaktioner**. Sidan **Mappning för CDS-alternativ** uppdateras med ytterligare nedanstående transaktioner.
+På sidan **Mappning av integreringstabell** väljer du raden för **Betalningsvillkor** och väljer sedan åtgärden **Synkronisera ändrade transaktioner**. Sidan **Alternativmappning för Dataverse** uppdateras med ytterligare nedanstående transaktioner.
 
 |         Transaktion                 | Alternativvärde   | Rubrik för alternativvärde |
 |--------------------------------|----------------|----------------------|
@@ -120,7 +122,7 @@ På sidan **Mappning av integreringstabell** väljer du raden för **Betalningsv
 | **Betalningsvillkor: KONTANT**  | **779800001**  | **Kontant betalning**     |
 | **Betalningsvillkor: ÖVERFÖRING**    | **779800002**  | **Överföring**         |
 
-Tabellen **Betalningsvillkor** i [!INCLUDE[d365fin](includes/d365fin_md.md)] får då nya transaktioner för [!INCLUDE[d365fin](includes/cds_long_md.md)]-alternativen. I följande tabell visas nya alternativ i fetstil. Kursiva rader representerar alla alternativ som nu kan synkroniseras. Resterande rader representerar alternativ som inte används och kommer att ignoreras under synkroniseringen. Du kan ta bort dem eller utöka CDS-alternativen med samma namn.)
+Tabellen **Betalningsvillkor** i [!INCLUDE[prod_short](includes/prod_short.md)] får då nya transaktioner för [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativen. I följande tabell visas nya alternativ i fetstil. Kursiva rader representerar alla alternativ som nu kan synkroniseras. Resterande rader representerar alternativ som inte används och kommer att ignoreras under synkroniseringen. Du kan ta bort dem eller utöka Dataverse-alternativen med samma namn.)
 
 | Kod       | Formel för förfallodatum | Formel för rabattsdatum | Rabatt % | Beräkna kassarabatt i kr.nota | Beskrivning       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -143,3 +145,6 @@ Tabellen **Betalningsvillkor** i [!INCLUDE[d365fin](includes/d365fin_md.md)] få
 | ***ÖVERFÖRING*** |                      |                           | 0.         | FALSKT                         |                   |
 
 ## <a name="see-also"></a>Se även
+[Mappa register och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

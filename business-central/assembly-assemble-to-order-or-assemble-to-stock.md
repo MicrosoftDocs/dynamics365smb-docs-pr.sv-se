@@ -1,21 +1,20 @@
 ---
-title: Förstå montering mot kundorder och montering mot lager | Microsoft Docs
+title: Förstå montering mot kundorder och montering mot lager
 description: Monteringsartiklar kan anges genom att sammanföra dem när de beställs eller genom att montering att finnas i lagret tills de behov från en försäljningsorder.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 80164400380a600674061349b873e5d1159d2cb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773035"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128962"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
 Monteringsartiklar kan levereras i följande två processerna:  
@@ -70,20 +69,29 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 
  Ett exempel på varför du vill ändra kvantiteten så att montera, är att du ska delvis bokföra utleveransen av lagersaldot, innan monteringsutflöde kan levereras.  
 
- Följande tabell förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i en kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
+ Följande tabeller förklarar regler som definierar den minimala och maximala värde som du kan ange manuellt i **Antal att montera** för att avvika från standardvärdet i ett kombinationsscenario. Tabellen visar en kombinationsscenario där **Ant. att utleverera** på den kopplade försäljningsordern ändras från 7 till 4, och standard för **Antal att montera** är därför 4.  
 
-|-|Försäljningsorderrad|Monteringsorderhuvud|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**Antal**|**Ant. att utleverera**|**Antal att montera mot kundorder**|**Utlevererat antal**|**Antal**|**Antal att montera**|**Monterad kvantitet**|**Återstående antal**|  
-|Initial|10|7|7|0|7|7|0|7|  
-|Ändra||4||||4 (infoga som standard)|||  
+- Försäljningsorderrad
 
- Utifrån det ovan, kan du endast ändra **Antal att montera** enligt nedan:  
+    |                | **Antal** | **Ant. att utleverera** | **Antal att montera mot kundorder** | **Utlevererat antal** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initialt värde**| 10          | 7                | 7                             | 0                    |
+    |**Förändring**      |              | 4                |                               |                      |
 
--   Den lägsta kvantitet som du kan ange är 1. Det är eftersom du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
--   Den höga kvantitet som du kan ange är 4. Detta görs för att se till att du inte monterar flera av denna monteringmotkundorderartikel än vad som behövs på försäljningen.  
+- Monteringsorderhuvud
 
-## <a name="see-also"></a>Se även  
+    |                | **Antal** | **Ant. att utleverera** | **Antal att montera mot kundorder** | **Utlevererat antal** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Initialt värde**| 7           | 7                | 0                             | 7                    |
+    |**Förändring**      |              | 4 (infoga som standard)|                         |                      |
+
+Utifrån detta exempel kan du endast ändra fältet **Antal att montera** enligt nedan:  
+
+- Den lägsta kvantitet som du kan ange är 1. Det är eftersom du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
+- Den höga kvantitet som du kan ange är 4. Detta görs för att se till att du inte monterar flera av denna monteringmotkundorderartikel än vad som behövs på försäljningen.  
+
+## <a name="see-also"></a>Se även
+
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lagersaldo](inventory-manage-inventory.md)  

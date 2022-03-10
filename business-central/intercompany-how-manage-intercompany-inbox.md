@@ -1,23 +1,21 @@
 ---
-title: Behandla inkommande och utgående koncerninterna transaktioner | Microsoft Docs
+title: Hantera koncerninterna in- och utkorgar
 description: Koncerninterna transaktioner som du tar emot från dina koncerninterna partner visas i den koncerninterna inkorgen där du behandlar dem manuellt eller automatiskt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
+ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921018"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141079"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Hantera koncerninterna in- och utkorgar
 Alla koncerninterna transaktioner som du tar emot elektroniskt från dina koncerninterna partner visas i den koncerninterna inkorgen.  
@@ -90,7 +88,7 @@ Rader som du har behandlat med åtgärden **returnera till inkorgen** kommer att
 
 För rader som du behandlade med åtgärden **Avbryt** bokför du en korrigering av den ursprungliga transaktionen som du har bokfört i företaget.  
 
-## <a name="to-recreate-intercompany-inbox-transactions"></a>Så här  återskapar du koncerninterna inkorgstransaktioner  
+## <a name="to-recreate-intercompany-inbox-transactions"></a>Så här återskapar du koncerninterna inkorgstransaktioner  
 Ibland kan du behöva återskapa en transaktion i inkorgen eller utkorgen. Om du till exempel har accepterat en transaktion i inkorgen men sedan tagit bort dokumentet eller journalen i stället för att bokföra den, kan du återskapa posten i inkorgen och acceptera den på nytt.  
 
 Den här proceduren beskriver hur du återskapar inkorgstransaktioner, men det fungerar på samma sätt i utkorgen.

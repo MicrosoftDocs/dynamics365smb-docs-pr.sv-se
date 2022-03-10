@@ -1,27 +1,26 @@
 ---
-title: Så här skapar du förskottsfakturor
+title: Skapa förskottsfakturor
 description: Hantera situationer där du eller din leverantör behöver förskottsbetalning. Använd standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.search.form: 42, 50, 9305, 9307
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1374929790c27bd84733e506866a1e54cea9ffd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442191"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136068"
 ---
 # <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 
 Om du kräver att dina kunder betalar innan du levererar en order till dem kan du använda funktionen för förskottsbetalning. Detsamma gäller om leverantören kräver att du betalar innan han/hon levererar en order till dig.  
 
-När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Om du har en standardprocentandel för förskottsbetalning för kunden eller leverantören tas den automatiskt med i den resulterande förskottsfakturan. Du kan också ange en procentandel för förskottsbetalning för hela dokumentet.
+När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Om du har en standard förskottsbetalningsprocent för en given artikel på beställningen, eller för kunden eller leverantören tas den automatiskt med i den resulterande förskottsfakturan. Du kan också ange en procentandel för förskottsbetalning för hela dokumentet.
 
 När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Du kan använda standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs. Till exempel, en totalsumma för hela ordern.  
 
@@ -29,7 +28,7 @@ I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en f
 
 ## <a name="to-create-a-prepayment-invoice"></a>Så här skapar du en förskottsfaktura
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Skapa en ny försäljningsorder för relevant kund. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 
     På snabbfliken **Förskottsbetalning** i fältet **Förskottsbetalning %** anges den procentandel som ska användas för att beräkna förskottsbeloppet. Om det finns en standardprocentandel på kundkortet fylls fältet i automatiskt. Du kan ändra procentandelen. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
@@ -46,6 +45,9 @@ I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en f
 3. Fyll i försäljningsraderna.  
 
     Om du har angett en standard procentandel för förskottsbetalning för kunden eller på snabbfliken **förskottsbetalning** i det här dokumentet kopieras det här värdet till varje rad. Du kan ändra innehållet i fältet **Förskottsbetalning %** på raden.  
+
+    > [!TIP]
+    > Om du inte ser fältet **Förskottsbetalning %** kan du lägga till det med hjälp av anpassning.  Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 4. Visa det totala förskottsbeloppet genom att välja åtgärden **statistik**.
 
@@ -72,7 +74,8 @@ Du kan skicka ut ytterligare förskottsfakturor för ordern. Om du vill göra de
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  
 [Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Anpassa din arbetsyta](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

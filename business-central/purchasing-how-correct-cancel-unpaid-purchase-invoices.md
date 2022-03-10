@@ -1,31 +1,34 @@
 ---
-title: Korrigera eller annullera obetalda inköpsfakturor | Microsoft Docs
+title: Korrigera eller annullera obetalda inköpsfakturor (innehåller video)
 description: Förklarar hur du kan korrigera, avbryta eller ångra en bokförd inköpsfaktura eller skapa en inköpskreditnota automatiskt.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 52d2b578d4703d4df38c9431f4554855fd146d87
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 138, 140, 146
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8689425ebb2bfb20791a731aa37892faa692c233
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312562"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143448"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Korrigera eller annullera obetalda inköpsfakturor
+
 Du kan korrigera eller annullera en bokförd inköpsfaktura. Det är användbart om du vill rätta till ett skrivfel eller om du vill ändra inköpet tidigt i orderprocessen.
 
-Om du redan har betalt för produkter på den bokförda inköpsfakturan kan du inte rätta eller annullera den från själva den bokförda inköpsfakturan. I stället måste du skapa en inköpskreditnota manuellt för att återföra inköpet, alternaivt hanterat med en inköpsreturorder. Mer information finns i [Så här behandlar du inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md).
+Om du redan har betalt för produkter på den bokförda inköpsfakturan kan du inte rätta eller annullera den från själva den bokförda inköpsfakturan. I stället måste du skapa en inköpskreditnota manuellt för att återföra inköpet, alternaivt hanterat med en inköpsreturorder. Detsamma gäller om du vill ändra en bokförd inköpsfaktura som baseras på en kombinerad inleverans. Mer information finns i [Så här behandlar du inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md).
 
 På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller knappen **Avbryt**. När du uppdaterar eller avbryter en bokförd inköpsfaktura gäller den korrigerande inköpskreditnotan för alla redovisnings- och inventeringstransaktioner som skapades när den ursprungliga inköpsfakturan bokfördes. Det återför den bokförda inköpsfakturan i dina ekonomiska transaktioner och lämnar bokförd korrigering av inköpskreditnota för din verifieringskedja. I det följande beskrivs användningen av **Korrigera** och **Avbryt**.
+<br><br>
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Korrigera en bokförd inköpsfaktura
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda inköpsfakturor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
 2. Markera den bokförda inköpsfakturan som du vill korrigera.  
 
     > [!NOTE]  
@@ -38,7 +41,7 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 4. Välj **Visa korrigerande kreditnota** för att visa de bokförda inköpskreditnotorna som annullerar den ursprungliga bokförda inköpsfakturan.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Avbryta en bokförd inköpsfaktura
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Bokförda inköpsfakturor** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
 2. Markera den bokförda inköpsfakturan som du vill annullera.
 
     > [!NOTE]  
@@ -48,7 +51,13 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
     En inköpskreditnota skapas automatiskt och bokförs för att annullera den ursprungligt bokförda inköpsfakturan. Fältet **Avbruten** på den först bokförda inköpsfakturan ändras till **Ja**.
 4. Välj **Visa korrigerande kreditnota** för att visa de bokförda inköpskreditnotorna som annullerar den ursprungliga bokförda inköpsfakturan.
 
+### <a name="partial-invoice-posting-also-supported"></a>Delfakturabokföring stöds också
+Om annulleringen är knuten till en delfakturabokföring uppdateras den ursprungliga inköpsorderraden så att den återspeglar det annullerade fakturerade antalet. Fälten **Ant. att fakturera** och **Antal fakturerat** på den relaterade inköpsorderraden återställs till värdena före delbokföringen.
+
 ## <a name="see-also"></a>Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

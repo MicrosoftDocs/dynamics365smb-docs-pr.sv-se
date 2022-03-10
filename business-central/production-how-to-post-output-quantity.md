@@ -1,49 +1,58 @@
 ---
-title: Så här Batch-bokför du produktionsutflöde och körtid | Microsoft Docs
-description: Utflödesantalet representerar det pågående arbetet som det färdiga antalet.
+title: Batch-bokför produktionsutflöde och körtid
+description: Utflödesantalet representerar arbetsförloppet i form av färdig kvantitet och utnyttjad kapacitet för produktions- eller maskingrupp.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: bbd2a3bf8eae3ced2ad063b0baa3b138cac46401
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877793"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135704"
 ---
 # <a name="batch-post-output-and-run-times"></a>Batch-bokför utflöde och körtider
-Utflödesantalet representerar det pågående arbetet som det färdiga antalet.  
+Utflödesantalet representerar arbetsförloppet i form av färdig kvantitet och utnyttjad kapacitet för produktions- eller maskingrupp.
+
+Du kan välja använda utflödesjournal för att:
+
+* Justera lagret i samband med utflödet av slutartiklar från produktion.
+* Registrera kvantiteter och skrot för varje operation i produktionsoperationsföljden.
+* Registrera inställning och körtid för produktions- och maskingrupper.
 
 > [!NOTE]
-> Endast när du bokför utflödesantalet för den sista operationen uppdateras lagret automatiskt.  
+> Om produktionens operationsföljd används uppdateras inventeringen endast när du bokför utflöde antal vid den senaste operationen.
 
-## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Om du vill bokföra utflödeskvantiteter för produktion av en eller flera orderrader
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **utflödesjournal** och välj sedan relaterad länk.  
-2. Fyll i fälten med data om produktionsorden och utdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+Med fönstret **Produktionsjournal** kan du utföra samma uppgifter som i fönstret **Utflödesjournal** och samtidigt utföra de relaterade bokföringsuppgifterna för förbrukningen. För mer information, se [Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad](production-how-to-register-consumption-and-output.md).
+
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Om du vill bokföra utflödeskvantiteter och/eller registrera körtider för en eller flera produktionsorderrader
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
+2. Fyll i fälten med data om produktionsorden och utdata och/eller körtid. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+  
+    Du kan använda funktionen expandera **Expandera oper.följd** när du vill generera journalrader från produktionsorder.
+  
 3. Om operationen har slutförts, välj fältet **FÄRDIG**.  
+4. Välj åtgärden **Bokför** om du vill bokföra operationer. 
 
-    Om lagerplatser används på det lagerställe där artiklarna ska placeras, men bearbetning av artikelinförsel inte krävs,  ska journalraden tilldelas en lagerplatskod som anger var artiklarna ska placeras på distributionslagret. Mer information finns i [Föra in produktions- eller monteringsutflöde](warehouse-how-to-put-away-production-output.md).  
+Kapacitetstransaktioner uppdateras för de använda produktions- eller maskingrupperna med information om tid och kvantitet av produktion och kassation.  
 
-4. Om du vill bokföra operationerna väljer du åtgärden **Bokför**. Utflödesantalet bokförs. Artikeln är nu tillgänglig för leverans.  
+Om du har bokfört den sista operationen kommer artikeln att läggas till i lagret.  
 
-## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Om du vill bokföra körtider för produktion av en eller flera rader
-Bearbetningstiden representerar det pågående arbetet som nödvändig arbetstid.    
+## <a name="see-also"></a>Se även
 
-1.  Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **utflödesjournal** och välj sedan relaterad länk.  
-2. Fyll i fälten med data om produktionsorden och utdata.  
-3.  Om operationen har slutförts, välj fältet **FÄRDIG**.  
-4. Välj åtgärden **bokför** för att bokföra spenderad tid per operation. Kapacitetstransaktioner uppdateras för använt arbete eller maskingrupper.
-
-## <a name="see-also"></a>Se även  
-[Produktion](production-manage-manufacturing.md)    
-[Ställa in Produktion](production-configure-production-processes.md)  
-[Planerad](production-planning.md)      
+[Bokför kassation manuellt](production-how-to-post-scrap.md)
+[Återför utflödesbokföring](production-how-to-reverse-output-posting.md)
+[Tillverkning](production-manage-manufacturing.md)
+[Konfigurera tillverkning](production-configure-production-processes.md)  
+[Planerad](production-planning.md)  
 [Lager](inventory-manage-inventory.md)  
-[Inköp](purchasing-manage-purchasing.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

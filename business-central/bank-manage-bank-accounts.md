@@ -1,23 +1,23 @@
 ---
-title: Hantera bankkonton | Microsoft Docs
+title: Hantera bankkonton
 description: Du måste regelbundet stämma av banktransaktioner med relaterade banktransaktioner i dina bankkonton.
-author: SorenGP
-ms.service: dynamics365-business-central
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 10/01/2020
+ms.search.form: 377, 378, 165, 1284
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c36e906c87cb17acb85d8cde32fdc51ee501469d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a533a49e3a34d33242d556758ebe5cb68165c0bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381737"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139969"
 ---
-# <a name="reconciling-bank-accounts"></a>Stämma av bankkonton
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Hantera och stämma av dina bankkonton
 
 En bankavstämning bör slutföras med jämna mellanrum för alla dina bankkonton för att säkerställa att företagets kassaregister är korrekta. Du gör detta genom att jämföra och matcha poster i dina interna bankkonton med banktransaktioner på din bank och sedan bokföra saldona på dina interna bankkonton för att göra summorna tillgängliga för ekonomichefer. Bankavstämning är också ett praktiskt sätt att upptäcka och lösa problem med saknade betalningar och bokföringsfel.
 

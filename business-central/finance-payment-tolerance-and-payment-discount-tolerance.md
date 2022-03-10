@@ -2,7 +2,6 @@
 title: Betalningstolerans och kassarabattstolerans
 description: Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 0ec67d201d89b01b38b86edbeb6dcd3ea0148153
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972492"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147654"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
 Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Betalningstoleranser används t. ex. vanligtvis för små belopp som skulle kosta mer för att korrigeras än att bara acceptera. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  

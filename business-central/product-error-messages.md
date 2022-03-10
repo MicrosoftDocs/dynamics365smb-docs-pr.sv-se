@@ -2,16 +2,15 @@
 title: Varningar och felmeddelanden
 description: Lär dig hur du felsöker och hittar lösningar på felmeddelanden när du arbetar i Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779488"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137633"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Varningar och felmeddelanden i Dynamics 365 Business Central
 
@@ -36,9 +35,9 @@ Om du är administratör eller superanvändare kan du hjälpa andra genom att s�
 ## <a name="see-also"></a>Se även
 
 [Resurser för hjälp och support](product-help-and-support.md)  
-[Vanliga frågor och svar](across-faq.md)  
+[Vanliga frågor och svar](across-faq.yml)  
 [Vanliga frågor om Berätta](ui-search-faq.md)  
-[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.md)  
+[Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)  
 [Vanliga frågor om Kopiera och klistra in](faq-copy-paste.yml)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  

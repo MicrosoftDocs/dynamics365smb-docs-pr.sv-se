@@ -2,23 +2,22 @@
 title: Ställa in tjänstehantering | Microsoft Docs
 description: Översikt över aktiviteter om du vill ställa in tjänstehantering som passar hur ditt företag hanterar tjänster.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c26a10e7597731ccafdd88f99f8e7dd2fda644b1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192310"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140559"
 ---
 # <a name="setting-up-service-management"></a>Ställa in tjänstehantering
-Innan du börjar använda tjänstehanteringsfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)], finns det saker som du kan ställa in. T.ex. kan du upprätta standardtjänstkoder, symptom och felkoder samt ställa in serviceartiklar och serviceartikeltyper som företagets kundservice kanske behöver.  
+Innan du börjar använda tjänstehanteringsfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)], finns det saker som du kan ställa in. t. ex. kan du upprätta standardtjänstkoder, symptom och felkoder samt ställa in serviceartiklar och serviceartikeltyper som företagets kundservice kanske behöver.  
 
 När du gör inställningarna i tjänstehanteringen måste du bestämma vilken service du erbjuder kunderna och schemalägga denna service. Service är en typ av arbete som utförs av en eller flera resurser åt kunden. Service kan till exempel vara en typ av datorreparation. En serviceartikel är den utrustning eller artikel som behöver servas, till exempel datorn som måste repareras. Du kan ställa in service som en del av en grupp relaterade reparations- eller underhållsartiklar.  
   
@@ -43,4 +42,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 ## <a name="see-also"></a>Se även
 [Servicehantering](service-service.md)  
-[Komma igång](product-get-started.md)  
+[Gör dig redo att göra affärer](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

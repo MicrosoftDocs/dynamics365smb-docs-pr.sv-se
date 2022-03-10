@@ -1,28 +1,27 @@
 ---
-title: Skapa och hantera katalogartiklar | Microsoft Docs
+title: Skapa och hantera katalogartiklar
 description: Beskriver hur du byter artiklar som finns i leverantörslistan av artiklar, men inte i listan med poster.
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 4af4a4610fc42f4b413056cf85555b5c506ff8da
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.forms: 5725, 5726, 5732
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8f8d97f10904664dc68bec6ccb85823a765a58aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244038"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137893"
 ---
 # <a name="work-with-catalog-items"></a>Arbeta med katalogartiklar
 Du kan erbjuda vissa artiklar till dina kunder för deras bekvämlighet, som du inte vill hantera i ditt system, tills du börjar sälja dem. När du vill börja hantera sådana artiklar i ditt system, kan du konvertera dem till vanliga artikelkort på två sätt.
 
 * Från ett kort för katalogartikel skapar skapar du ett nytt lagerkort baserat på en mall.
-* Från en försäljningsorderrad av typen **Artikel** med ett tomt fält ***Nr** väljer du en katalogartikel. Ett artikelkort skapas sedan automatiskt för katalogartikeln.
+* Från en försäljningsorderrad av typen **Artikel** med ett tomt fält **Nr** väljer du en katalogartikel. Ett artikelkort skapas sedan automatiskt för katalogartikeln.
 
 > [!NOTE]  
 > Du kan inte välja en katalogartikel från sidan **Försäljningsfaktura**.<br /><br />
@@ -36,25 +35,25 @@ En katalogartikel har vanligtvis artikelnumret från den leverantör som leverer
 ## <a name="to-create-a-catalog-item"></a>Så här skapar du en katalogartikel
 Kort för katalogartiklar har mycket mindre information än normala artikelkort, eftersom du bara använder dem för att erbjuda på offerter och på andra sätt. Därför måste de konverteras till normala artikelkort, innan du kan bokföra försäljningstransaktioner för dem.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **katalogartiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **katalogartiklar** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Så här ställer du in katalogartikelnummer konverteras till ditt eget nummer
 Om du vill aktivera konvertering av ett kort för katalogartikel till ett vanligt artikelkort måste du först ställa in hur leverantörens artikelnumrering konverteras till dit eget nummerformat.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **katalogartikelinställning** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inställning av katalogartiklar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Om du vill omvandla en katalogartikel till en normal artikel
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **katalogartiklar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **katalogartiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för den katalogartikel som du vill konvertera till en normalt artikel.
 3. På sidan **Katalogartikelkort** väljer du åtgärden **Skapa artikel**.
 
 Ett nytt artikelkort förifyllt med information från katalogartikeln och en relevant artikelmall skapas. Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 ## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Om du vill sälja en katalogartikel och konvertera den till en normal artikel
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Glödlampa som öppnar funktionen Berätta") och ange **Försäljningsorder** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**. Fyll i övriga fält på snabbfliken **Allmänt** som för alla andra försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3. På en ny försäljningsrad i fältet **Typ** väljer du **Artikel**, men lämnar **Nr.** tomt.
 4. Välj åtgärden **Rad** och välj sedan åtgärden **Välj katalogartiklar**.
@@ -66,10 +65,13 @@ Ett nytt artikelkort förifyllt med information från katalogartikeln och en rel
 Du kan sedan ange eller redigera fält på det nya artikelkortet vid behov. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   En korsreferenspost för artikel skapas automatiskt för den leverantör som levererar artikeln mellan leverantörens artikelnummer och det nya artikelnumret. Mer information finns i [Använd artikeltvärreferenser](inventory-how-use-item-cross-refs.md).
+>   En artikelreferens skapas mellan leverantörens artikelnummer och det nya artikelnumret. Mer information finns i [Använd artikelreferenser](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Se även
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Skapa specialorder](sales-how-to-create-special-orders.md)|  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Lager](inventory-manage-inventory.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

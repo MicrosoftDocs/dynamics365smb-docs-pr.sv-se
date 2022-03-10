@@ -1,21 +1,20 @@
 ---
-title: Om planeringsfunktioner | Microsoft Docs
-description: I planeringssystemet beaktas alla efterfråge- och tillgångsdata, resultaten nettoberäknas och förslag på balansering av tillgång för att uppfylla efterfrågan skapas.
+title: Om planeringsfunktioner
+description: I planeringssystemet i Dynamics 365 Business Central beaktas alla efterfråge- och tillgångsdata, resultaten nettoberäknas och förslag på balansering av tillgång för att uppfylla efterfrågan skapas.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.search.form: 5430
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 541d3842977e7b139877d9a26fcc39b448ef9745
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 14048cfe4d18df0002f51dacac658a6c07bc0155
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786977"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135113"
 ---
 # <a name="about-planning-functionality"></a>Om planeringsfunktioner
 
@@ -30,16 +29,19 @@ Mer information finns i [Designdetaljer: Leveransplanering](design-details-suppl
 
 Planering innehåller två element: tillgång och efterfrågan. Dessa två element måste balanseras för att se till att efterfrågan uppfylls i tid och så kostnadseffektivt som möjligt.  
 
-- Efterfrågan är den term som vanligtvis används för alla typer av bruttobehov, t.ex. försäljningsorder, serviceorder, komponentbehov från montering eller produktionsorder, utgående överföringar, avropsorder eller prognoser. Utöver dessa, tillåts även en del andra typer av efterfrågan - t.ex. negativa produktions- eller inköpsorder, negativt lager och inköpsreturer.  
-- Tillgång är det ord som vanligtvis används för alla typer av återanskaffning, t.ex. lager, inköpsorder, monteringsorder, produktionsorder eller ankommande överföring. På motsvarande sätt kan det finnas negativa försäljnings- eller serviceorder, negativt komponentbehov eller försäljningsretur – vilka alla på ett sätt också representerar tillgång.  
+- Efterfrågan är den term som vanligtvis används för alla typer av bruttobehov, t. ex. försäljningsorder, serviceorder, komponentbehov från montering eller produktionsorder, utgående överföringar, avropsorder eller prognoser. Utöver dessa, tillåts även en del andra typer av efterfrågan – t. ex. negativa produktions- eller inköpsorder, negativt lager och inköpsreturer.  
+- Tillgång är det ord som vanligtvis används för alla typer av återanskaffning, t. ex. lager, inköpsorder, monteringsorder, produktionsorder eller inkommande överföring. På motsvarande sätt kan det finnas negativa försäljnings- eller serviceorder, negativt komponentbehov eller försäljningsretur – vilka alla på ett sätt också representerar tillgång.  
 
 Ett annat mål med planeringssystemet är att se till att lagret inte blir onödigt stort. Om det uppstår en minskad efterfrågan, får du i planeringssystemet ett förslag om att skjuta upp, minska antalet eller annullera befintliga återanskaffningsorder.  
 
 ## <a name="planning-calculation"></a>Planeringsberäkning
 
-Planeringssystemet drivs av förväntad och faktisk kundefterfrågan samt även parametrar för lagerbeställningar. Om du kör planeringsberäkningen får du i programmet ett förslag på särskilda åtgärder (åtgärdsmeddelanden) som du ska vidta för eventuell återanskaffning från leverantörer, överföringar mellan distributionslager eller produktion. Om det redan finns återanskaffningsorder kan de förslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
+Planeringssystemet drivs av förväntad och faktisk kundefterfrågan samt även parametrar för lagerbeställningar. Om du kör planeringsberäkningen får du i programmet ett förslag på särskilda åtgärder ([åtgärdsmeddelanden](production-how-to-run-mps-and-mrp.md#action-messages)) som du ska vidta för eventuell återanskaffning från leverantörer, överföringar mellan distributionslager eller produktion. Om det redan finns återanskaffningsorder kan de förslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
 
 Grunden för planeringsrutinen är beräkningen av brutto till netto. Nettobehoven styr släppningen av planerade order, som planeras utifrån operationsföljdsinformation (tillverkade artiklar) eller ledtid på artikelkortet (inköpta artiklar). Utsläppningsantalet för planerade order baseras på planeringsberäkningen och påverkas av parametrarna som ställs in på de enskilda artikelkorten.  
+
+> [!TIP]
+> Planeringssystemet är beroende av hur organisationen använder lagerställen. Mer information finns i [Planera med eller utan lagerställen](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planera med manuella överföringsorder
 
@@ -169,4 +171,7 @@ Information om hur du planerar lagerställen och överföringar finns i [Planera
 [Lagersaldo](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
-[Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

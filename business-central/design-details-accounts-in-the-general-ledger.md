@@ -1,21 +1,20 @@
 ---
-title: Designdetaljer - Konton i redovisningen | Microsoft Docs
+title: Designdetaljer – Konton i redovisningen | Microsoft Docs
 description: Om du vill stämma av lager- och kapacitetstransaktioner med redovisningen, bokförs de relaterade värdetransaktionerna på olika redovisningskonton.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1e20b9240f4e6a3b533dd38b4c8089b2520a6ad3
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880694"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146806"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designdetaljer: Konton i redovisningen
 Om du vill stämma av lager- och kapacitetstransaktioner med redovisningen, bokförs de relaterade värdetransaktionerna på olika redovisningskonton. Mer information finns i [detaljer: avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md).  
@@ -90,7 +89,7 @@ Följande tabell visar hur beloppen att bokföra i redovisningen beräknas för 
 
 |Kostnadstyp|Beräkning|  
 |---------------|-----------------|  
-|Faktisk kostnad|Kost.belopp (aktuellt) - kostnad bokförd i redovisningen.|  
+|Faktisk kostnad|Kost.belopp (aktuellt) – kostnad bokförd i redovisningen.|  
 |Förväntad kostnad|Kost.belopp (förväntat) – Förväntad kost. bokf. i redov.|  
 
 ## <a name="see-also"></a>Se även  
@@ -99,4 +98,7 @@ Följande tabell visar hur beloppen att bokföra i redovisningen beräknas för 
  [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

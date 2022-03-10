@@ -2,20 +2,19 @@
 title: Ställa in marknadsföringskampanjer i Business Central | Microsoft Docs
 description: Beskriver hur du kan skapa och genomföra marknadsföringskampanjer i Business Central för att identifiera och attrahera potentiella kunder och bibehålla befintliga.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2b0cd58ebb61dba8fcdcb0f686a2afe88a5e9f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f5a81bf1377c7ba477961205ccb67fc9982ac3ae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309370"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140923"
 ---
 # <a name="managing-marketing-campaigns"></a>Hantera marknadsföringskampanjer
 Med en stark marknadsföringsplan kan du identifiera, attrahera och bibehålla kunderna. En marknadsföringsplan består av olika kampanjer och andra interaktioner i samband med försäljnings- och marknadsföringsaktiviteter. När du planerar en kampanj måste du bestämma vilka kontakter som är målgruppen, typ av kampanj (till exempel mässa eller direktmarknadsföring) och vilka säljare som ska utföra respektive uppgift.
@@ -51,3 +50,6 @@ Kampanjer utförs av säljare och du måste skapa aktiviteter för att represent
 [Hantera segment](marketing-segments.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Arbeta med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,6 @@
 title: Hantera OneDrive-integrering med Business Central
 description: Lär dig mer om vad du kan göra för att hantera en integration mellan Business Central och OneDrive för företag.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,19 +9,19 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 05/12/2021
 ms.author: bholtorf
-ms.openlocfilehash: cceb05c1ad19a95494c188cd2482b45962535c94
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 20c6eb27aa3af2557ce77993b11f759f2c329100
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606416"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144030"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Hantera OneDrive-integrering med Business Central 
 Den här artikeln innehåller en översikt över vad en administratör kan göra som administratör för att styra OneDrive för företag-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online kunder online kan dra nytta av automatisk integration, med inga ytterligare inställningar som krävs för att använda dessa funktioner. 
 
 ## <a name="minimum-requirements"></a>Minsta krav
 
-* Varje användare måste ha en licens för [!INCLUDE[prod_short](includes/prod_short.md)] och OneDrive som en del av en Microsoft 365-plan.
+* Varje användare måste ha en licens för [!INCLUDE[prod_short](includes/prod_short.md)] och OneDrive  som en del av en Microsoft 365-plan.
 * OneDrive måste ställas in för varje användare.
 
 ## <a name="governance"></a>Styrelse
@@ -68,7 +67,7 @@ En administratör måste upprätta anslutningen mellan [!INCLUDE[prod_short](inc
 
    For more information, see [Authenticating Business Central Users with Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory)-->
 
-Lägg till ett registrerat program för Business Central i din Azure AD klientorganisation av Microsoft 365-abonnemang. Precis som andra Azure-tjänster som arbetar med Business Central kräver OneDrive en appregistrering för Azure Active Directory i (Azure AD). Programregistreringen tillhandahåller autentisering och autentiseringstjänster mellan Business Central och SharePoint som används av OneDrive.
+Lägg till ett registrerat program för Business Central i din Azure AD-klientorganisation för ditt Microsoft 365-abonnemang. Precis som andra Azure-tjänster som arbetar med Business Central kräver OneDrive en appregistrering för Azure Active Directory i (Azure AD). Programregistreringen tillhandahåller autentisering och autentiseringstjänster mellan Business Central och SharePoint som används av OneDrive.
 
 Konfigurera det registrerade programmet med följande delegerade behörigheter till SharePoint API:
 
