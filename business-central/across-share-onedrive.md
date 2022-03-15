@@ -1,18 +1,18 @@
 ---
 title: Öppna Business Central-filer i OneDrive
 description: Lär dig hur du kan dela Business Central-data genom OneDrive för företag.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76d845b26bf9c68b3e60947fef4d2ac78304e5ee
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147196"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383971"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Öppna Business Central-filer i OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] med är det enkelt att lagra, hantera och dela filer med andra människor via OneDrive för företag. På de flesta sidor där det finns filer, t.ex. en rapport från inkorgen eller filer som är bifogade till poster, finns det en åtgärd **öppen i OneDrive**.

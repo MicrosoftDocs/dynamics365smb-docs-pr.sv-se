@@ -1,7 +1,7 @@
 ---
 title: Synkronisering och dataintegrering | Microsoft Docs
 description: Synkroniseringen kopierar data mellan Microsoft Dataverse-register och Business Central-poster, och håller datan i båda systemen uppdaterade.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ceef56f1b951b5c9f1621d463276ec1d22c44da4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7c03e4491519a31aeaf11c4d52555ab222701c32
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148830"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383091"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkroniserar data i Business Central med Microsoft Dataverse
 

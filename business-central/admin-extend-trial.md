@@ -1,7 +1,7 @@
 ---
 title: Utöka din testversion av Business Central
 description: Du kan utöka din testversion en (1) gång om du känner att du behöver mer tid för att avgöra om du vill prenumerera på Dynamics 365 Business Central. Lär dig mer om dina alternativ.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129114"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381226"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Behöver du mer tid för att bestämma om du ska prenumerera?
 

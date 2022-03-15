@@ -1,5 +1,5 @@
 ---
-title: Koppla en försäljningsorder till en inköpsorder för direktleverans (innehåller video) | Microsoft Docs
+title: Skapa direktleveranser (innehåller video)
 description: Beskriver hur du skapar en försäljningsorder som är länkad till en inköpsorder för att tillåta leverans direkt från leverantören till kunden.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144833"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372049"
 ---
 # <a name="make-drop-shipments"></a>Skapa direktleveranser
 
@@ -40,12 +40,12 @@ När du förbereder en direktleverans anger du på inköpsordern att den måste 
 2. Välj **Kundadress** i fältet **Leverans**.
 3. I fältet **Kund** markerar du kunden som du säljer till.
 4. Välj åtgärden **Direktleverans** och välj sedan åtgärden **Hämta förs.order**.
-5. På sidan **Försäljningslista** väljer du den försäljningsorder som du förberedde i [Så här skapar du försäljningsorder för direktleveranser](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. På sidan **Försäljningslista** väljer du den försäljningsorder som du förberedde i [Så här skapar du försäljningsorder för direktleveranser](#to-create-a-sales-order-for-drop-shipment).
 6. Välj knappen **OK**.
 
 Radinformationen från försäljningsordern infogas på inköpsorderraden.
 
-Du kan nu instruera leverantören att leverera artiklarna till kunden, till exempel genom att e-posta inköpsordern som en PDF.     
+Du kan nu instruera leverantören att leverera artiklarna till kunden, till exempel genom att e-posta inköpsordern som en PDF. Om leverantören har ett spårningsnummer eller liknande information kan du välja att registrera denna information på en inköpsorderrad av typen *Kommentar*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Så här skapar du flera inköpsorder för direktleveranser
 

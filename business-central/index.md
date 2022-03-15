@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138498"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367208"
 ---
 # <a name="welcome-to-prod_long"></a>Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. [!INCLUDE[prod_short](includes/prod_short.md)] är mycket anpassningsbart erbjuder många funktioner som gör att företag kan hantera sin verksamhet, inklusive ekonomi, produktion, försäljning, leverans, projekthantering, service och mycket annat. Företagen kan enkelt lägga till funktioner som krävs för den region där de verkar och som är anpassade för att hantera även mycket specialiserade branscher.  
+
+[Lär dig mer om hur du får en kostnadsfri utvärderingsversion](trial-signup.md).  
 
 Om du redan har [!INCLUDE[prod_short](includes/prod_short.md)] loggar du in på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). I annat fall, [hämta översikten](https://dynamics.microsoft.com/business-central/overview/), [ta den guidade visningen](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) och [starta sedan en kostnadsfri utvärderingsversion](https://go.microsoft.com/fwlink/?linkid=847861). Kolla in de [snabbstartartiklar](quick-start-business-central.md) som hjälper dig att lära dig [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information om registrering till [!INCLUDE[prod_short](includes/prod_short.md)], se [Gör dig redo att göra affärer](ui-get-ready-business.md).  
 

@@ -1,7 +1,7 @@
 ---
 title: Så här konfigurerar du en dokumentväxlingstjänst | Microsoft Docs
 description: Du kan använda en tjänstleverantör för att utbyta elektroniska dokument med dina handelspartner.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133388"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382983"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurera en tjänst för dokumentutbyte
 Som en del av Ramverk för dataintegration kan du utbyta försäljnings- och inköpsdokument med dina handelspartner utan extra instruktioner, till exempel bifoga dokumenten till e-postmeddelanden som PDF-filer. När du är klar att fakturera en kund kan du t.ex. bokföra fakturan och skicka den som en fil som kan tas emot av en kund i ett företagshanteringsprogram. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).

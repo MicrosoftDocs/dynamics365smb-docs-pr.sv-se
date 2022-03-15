@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134983"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372138"
 ---
 # <a name="use-time-sheets"></a>Använd tidrapporter
 
@@ -32,7 +32,7 @@ Innan du kan använda tidrapporter måste du ställa in allmän information och 
 
 ## <a name="to-create-time-sheets"></a>Så här skapar du tidrapporter
 
-Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal perioder eller veckor. Sedan kan tidrapportsägaren öppna den och registrera tid som har spenderats på en aktivitet.  
+Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal perioder eller veckor. Sedan kan tidrapportsägaren öppna den och registrera tid som har spenderats på en aktivitet. Du kan också [schemalägga batch-jobbet så att det körs automatiskt](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Du måste ha behörighet för att kunna skapa tidrapporter. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
@@ -43,7 +43,9 @@ Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter
 
     > [!NOTE]  
     > Fälten **Andvänd tidrapport** och **Användar-ID för tidrapportens ägare** måste fyllas i på kortet för resursen på tidrapporten.
-4. Välj knappen **OK**.  
+
+    Du kan också välja åtgärden **Schemalägg** för att ange hur ofta du vill att uppgiften ska köras automatiskt. Om du t.ex. vill konfigurera uppgiften så att den körs varje vecka i fyra veckor går du till sidan **Schemalägg en rapport – skapa tidrapporter** och ställer in fältet **Formel för nästa kördatum** på *4W*. Mer information finns i [Schemalägg en rapport för körning](ui-work-report.md#ScheduleReport).  
+4. Välj **OK**.  
 
 På sidan **Tidrapporter** kan du visa tidrapporter som du har skapat. Varje tidrapport består av en eller flera rader som definierar den tid som du vill skicka för godkännande. I följande tabell beskrivs de typer av rader som du kan lägga till i tidrapporten.
 

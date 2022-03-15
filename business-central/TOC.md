@@ -88,14 +88,16 @@
 ##### [Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)  
 
 ## Testa
+### [Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central](trial-signup.md)
+### [FAQ för utvärderingsversionen av Dynamics 365 Business Central](trial-faq.md)
 ### [Utvärderingsversioner och prenumerationer](across-preview.md)
-### [Gör dig redo att göra affärer](ui-get-ready-business.md)
+### [Gör dig redo för affärer](ui-get-ready-business.md)
 ### [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)
 ### [Utöka din utvärderingsversion](admin-extend-trial.md)
 ### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
 ## Köp
-### [Komma igång med en prenumeration](across-preview.md#getting-started-with-a-subscription)
-### [Gör dig redo att göra affärer](ui-get-ready-business.md)
+### [Komma igång med en prenumeration](across-preview.md#get-started-with-a-subscription)
+### [Gör dig redo för affärer](ui-get-ready-business.md)
 
 ## Snabbstart
 ### [Snabbstart för Business Central](quick-start-business-central.md)
@@ -557,7 +559,7 @@
 #### [Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Rapportera kostnader och stämma av med redovisningen
-##### [Rapportering av kostnader](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Rapportering av kostnader](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Övervaka projektframsteg och -resultat](projects-how-monitor-progress-performance.md)
 #### [Justera och stämma av lagerkostnad med redovisning med jobbkö](finance-adjust-reconcile-inventory-cost-job-queue.md)

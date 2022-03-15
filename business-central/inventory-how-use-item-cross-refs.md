@@ -1,7 +1,7 @@
 ---
 title: Använd artikelreferenser
 description: Skapa referenser mellan beskrivningar, måttenheter och varianter som du och leverantören eller kunden använder för en artikel.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: item reference, cross reference, inventory
 ms.search.forms: 5737, 5735, 5736
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a53ce228f1edc337b8f3fb004984f80f6db5dec8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8d85acefe89d22f7ab6c86aca3af91a6f8a4d67c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135321"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384104"
 ---
 # <a name="use-item-references"></a>Använd artikelreferenser
 

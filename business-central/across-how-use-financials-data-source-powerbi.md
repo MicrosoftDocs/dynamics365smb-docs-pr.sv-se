@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141573"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366349"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -40,7 +40,7 @@ I den här artikeln beskrivs hur du kommer gång med att använda Power BI Deskt
 
   - OData-URL för [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Denna URL har vanligtvis formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, till exempel `https://localhost:7048/BC160/ODataV4`. Om du har en distribution med flera klientorganisationer bör du inkludera klientorganisationen i URL:en, till exempel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    Denna URL har vanligtvis formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, till exempel `https://localhost:7048/BC190/ODataV4`. Om du har en distribution med flera klientorganisationer bör du inkludera klientorganisationen i URL:en, till exempel `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - Att användarnamn och en åtkomstnyckel till en webbtjänst tillhörande ett [!INCLUDE[prod_short](includes/prod_short.md)]-konto.
 
     I syfte att hämta data från [!INCLUDE[prod_short](includes/prod_short.md)] använder Power BI grundläggande autentisering. Du behöver därför ett användarnamn och en åtkomstnyckel till en webbtjänst för att ansluta. Kontot kan vara ditt eget användarkonto, eller också kanske din organisation har ett specifikt konto i detta syfte.

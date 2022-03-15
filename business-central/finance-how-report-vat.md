@@ -1,7 +1,7 @@
 ---
 title: Skicka momsrapporter till skattemyndigheterna
 description: Lär dig hur du förbereder en rapport över moms från försäljning under en period eller från försäljning och inköp och skickar rapporten till en skattemyndighet.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141183"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383811"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
 
-Det här avsnittet beskrivs rapporterna i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region. 
+Det här avsnittet beskrivs rapporterna i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan använda för att skicka information om moms (VAT) för försäljning och inköp till skattemyndigheten i din region. Beroende på vilket land det gäller kan rapporterna innehålla specifik information eller så kan det finnas ytterligare rapporter som du måste skicka. Kontrollera artiklarna för ditt land i avsnittet [Lokala funktioner](about-localization.md).  
 
-Du kan använda följande rapporter:
+Du kan använda följande inbyggda rapporter:
 
-* **EU förs.lista** Europeiska gemenskapens (EG) rapport med försäljningslista visar momsbeloppen (VAT) som du har samlat in för försäljning till momsregistrerade kunder i EU-länderna.  
-* Rapporten **momsretur** inkluderar moms för försäljning och inköp till kunder och från leverantörer i alla länder som använder moms.  
+* Rapporten **EU-försäljningslista**  
+
+    Europeiska unionens (EU) rapport med försäljningslista visar momsbeloppen (VAT) som du har samlat in för försäljning till momsregistrerade kunder i EU-länderna.  
+* Rapporten **Momsretur**  
+
+    Rapporten Momsretur inkluderar moms för försäljning och inköp till kunder och från leverantörer i alla länder som använder moms.  
 
 I båda fallen beräknas moms utifrån tabellen Moms-bokföringsinställningar och de momsbokföringsmallar du har skapat.
 
@@ -33,7 +37,7 @@ Om du vill se en fullständig historik över momstransaktioner för alla bokför
 > [!NOTE]
 > Varje [!INCLUDE[prod_short](includes/prod_short.md)] miljö är avsedd att hantera lagstadgad rapportering i ett enda land. Den nederländska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] hanterar momsrapportering i Nederländerna men inte i andra länder. På samma sätt hanterar USA-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] 1099 rapportering i USA och saknar stöd för att åberopa momsrapportering i andra länder, såvida det inte har gjorts av ett tillägg som levererats av vårt partner ekosystem eller en kundspecifik kodändring.
 
-## <a name="about-the-ec-sales-list-report"></a>Om rapporten med EU-försäljningslista
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Om rapporten med EU-försäljningslista
 
 I Europeiska Unionen (EU) och i Storbritannien måste alla företag som säljer varor och tjänster till momsregistrerade kunder, bland annat kunder inom Europeiska unionen (EU), lämna in en elektronisk version av rapporten i XML-format till sina tull- och skattemyndigheter. **EU-försäljningslisterapporten** fungerar bara för länder inom EU.
 
@@ -47,7 +51,11 @@ Rapporten innehåller en rad för varje typ av transaktion med kunden och visar 
 
 När skattemyndigheten granskar rapporten, skickar de ett e-postmeddelande till kontaktpersonen för ditt företag. I [!INCLUDE[prod_short](includes/prod_short.md)] anges kontaktpersonen på sidan **företagsinformation**. Kontrollera att du väljer en kontaktperson i tabellen innan du skickar rapporten.  
 
-## <a name="about-the-vat-return-report"></a>Om rapporten momsretur
+### <a name="submit-an-ec-sales-list-report"></a>Skicka in en rapport med EU-försäljningslista
+
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Om rapporten Momsretur
 
 Använd den här rapporten om du vill skicka in moms för försäljnings- och inköpsdokument, till exempel inköpsorder och försäljningsorder, fakturor och kreditnotor. Informationen i rapporten är uppställd på samma sätt som i deklarationen från skattemyndigheten.  
 

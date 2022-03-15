@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334545"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372027"
 ---
 I följande tabell beskrivs några av de viktigaste rapporterna inom produktionsrapportering.
 
@@ -22,6 +22,7 @@ I följande tabell beskrivs några av de viktigaste rapporterna inom produktions
 | [Jämförelselista för artikelstrukturlista](https://businesscentral.dynamics.com?report=99000758)|I den här rapporten kan du jämföra liknande slutprodukter med avseende på kostnaderna. Du kan se en lista med alla komponenter och deras kostnader även efter behov. Beräkningsdatumet anges normalt av arbetsdatumet. |99000758|
 | [Produktionsorderstatistik](https://businesscentral.dynamics.com?report=99000791)|Anger de olika kostnader som har ackumulerats för den valda produktionsorder.<br>Innehållet i rapporten påminner om det på sidan **Produktionsorderstatistik**.<br>För produktionsorder som använder produktionsprincipen *Tillverka-mot-order*, visar fönstret endast material- och kapacitetskostnad av artiklar på den högsta strukturnivån.|99000791|
 | [Kapacitet för körplan](https://businesscentral.dynamics.com?report=99000780)|Visar de produktionsorder som väntar på att bearbetas av produktions- och maskingrupperna. Produktionsgruppens eller maskingruppens kapacitet skrivs ut. Rapporten innehåller information om till exempel start-/sluttid och datum per produktionsorder och inflödesantal.|99000780|
-| [Prod.gruppsbeläggning](https://businesscentral.dynamics.com?report=99000783)|Båda rapporter visar en lista över beläggningen i en produktions- eller maskingrupp. Produktions-/maskingruppens beläggning är summan av det erforderliga antal gånger som alla planerade och faktiska order måste köras i produktionsgruppen under en viss tidsperiod.|99000783|
-| [Maskingruppsbeläggning](https://businesscentral.dynamics.com?report=99000784)|Båda rapporter visar en lista över beläggningen i en produktions- eller maskingrupp. Produktions-/maskingruppens beläggning är summan av det erforderliga antal gånger som alla planerade och faktiska order måste köras i produktionsgruppen under en viss tidsperiod.|99000784|
+| [Prod.gruppsbeläggning](https://businesscentral.dynamics.com?report=99000783)|Visar en lista över beläggningen i en produktionsgrupp. Produktionsgruppens beläggning är summan av det antal gånger som krävs för att alla planerade och faktiska order ska kunna köras i produktionsgruppen under en viss tidsperiod.|99000783|
+| [Maskingruppsbeläggning](https://businesscentral.dynamics.com?report=99000784)|Visar en lista över beläggningen i en maskingrupp. Maskingruppens beläggning är summan av det antal gånger som krävs för att alla planerade och faktiska order ska kunna köras i arbetsgruppen under en viss tidsperiod.|99000784|
 | [Bristlista, produktionsorder](https://businesscentral.dynamics.com?report=99000788)|Den här rapporten kan användas för att se alla komponenter som inte är tillgängliga på grund av bristande lager. Översikten kan därför användas för att se i tid, om tidslinjen för en planerad eller släppt produktionsorder kan behållas.|99000788|
+|[Prod.order – kost.beräkning](https://businesscentral.dynamics.com?report=99000767)|Visar en lista över produktionsorder och motsvarande kostnader. Här inkluderas förväntad operationskostnad, förväntad komponentkostnad och total kostnad.|99000767|

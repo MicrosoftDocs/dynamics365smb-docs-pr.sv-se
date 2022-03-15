@@ -2,7 +2,7 @@
 title: Tillägget Felsöka poster i redovisningen för fasta anläggningstillgångar
 description: Det är enklare att arbeta med heltal. Använd det här tillägget för att avrunda belopp för anläggningstillgångar i redovisningen för fasta anläggningstillgångar.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142321"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382477"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Tillägget Felsöka poster i redovisningen för fasta anläggningstillgångar
 Använd tillägget Felsöka poster i redovisningen för fasta anläggningstillgångar för att avrunda avskrivnings- och anskaffningsbelopp i poster för anläggningstillgångar till heltal. Om du till exempel vill avrunda beloppet 30 000,44 till 30 000. Vanliga orsaker till avrundningsproblem är datamigrering, att man plötsligt börjar bokföra belopp i redovisningen, samt anpassningar i [!INCLUDE[prod_short](includes/prod_short.md)].

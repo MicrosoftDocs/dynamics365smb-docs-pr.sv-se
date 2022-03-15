@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2021
+ms.date: 02/23/2022
 ms.author: edupont
-ms.openlocfilehash: 7c02bc46895c211748b8200c1490b08e54f0eb94
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f6586423ed8fa0254c84d2cd8737d1104f1ecea4
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138101"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366968"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Avbryta prenumerationen eller ta bort [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -26,7 +26,7 @@ Om du har registrerat dig för en kostnadsfri test och inte vill fortsätta med 
 
 Du måste be Microsoft 365-administratören att ta bort provprenumerationen från ditt företagskonto i [Microsoft 365-administrationscentret](https://admin.microsoft.com/).  
 
-Om du registrerade dig på [!INCLUDE[prod_short](includes/prod_short.md)] utan ett Microsoft 365 -företagskonto, har du inte en Microsoft 365-administratör. Du måste i stället avbryta [!INCLUDE[prod_short](includes/prod_short.md)]-prenumerationen genom att kontakta annulleringsteamet genom att skicka ett e-postmeddelande till [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du måste inkludera med namnet på [!INCLUDE[prod_short](includes/prod_short.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Informationen finns på sidan **hjälp och support**. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
+Om du registrerade dig på [!INCLUDE[prod_short](includes/prod_short.md)] utan ett Microsoft 365 -företagskonto, har du inte en Microsoft 365-administratör. Du måste i stället avbryta prenumerationen genom att kontakta [!INCLUDE[prod_short](includes/prod_short.md)]-annulleringsteamet genom att skicka ett e-postmeddelande till [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du måste inkludera med namnet på [!INCLUDE[prod_short](includes/prod_short.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Informationen finns på sidan **hjälp och support**. Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
 
 ## <a name="unsubscribing-by-removing-prod_short-from-your-microsoft-365-experience"></a>Avbryta prenumeration genom att ta bort [!INCLUDE[prod_short](includes/prod_short.md)] från din Microsoft 365-miljö
 

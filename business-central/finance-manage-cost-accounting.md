@@ -1,20 +1,21 @@
 ---
-title: Redovisa kostnader | Microsoft Docs
-description: Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att driva en verksamhet. När du vill börja med kostnadsredovisning, se följande avsnitt.
+title: Översikt över redovisning av kostnader
+description: Kostnadsredovisning hjälper dig förstå kostnaderna för att driva en verksamhet. Den här artikeln innehåller länkar till andra artiklar med mer information.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5add5fb45af8e12b86dbe72e12d0e38649b31464
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148642"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366808"
 ---
 # <a name="accounting-for-costs"></a>Redovisa kostnader
 Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att driva en verksamhet. När du vill börja med kostnadsredovisning, se följande avsnitt.  
