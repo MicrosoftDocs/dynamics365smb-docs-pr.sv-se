@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: d47075da11dc70c1549cfd8018da67dee231cc4a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 538fafe7a9f2e2b12501302ba0805ce3e2b5b5be
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135521"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513221"
 ---
 # <a name="sweden-local-functionality-in-the-swedish-version"></a>Sverige lokala funktioner i den svenska versionen
 

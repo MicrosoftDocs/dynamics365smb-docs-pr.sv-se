@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 389, 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4fbc616c75172e2909cadb0d66e4efd462c80c77
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2418ca1164d0a3d67ca9ae3403733dfbd9a56660
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383729"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520818"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Stämma av betalningar genom att använda automatisk koppling
 
@@ -44,7 +44,7 @@ För varje journalrad som representerar en betalning på sidan **Betalningsavst�
 > Du kan starta banktransaktionsimporten samtidigt som du öppnar sidan **Betalningsavstämningsjournal** för en befintlig journal. Följande procedurer beskriver hur du importerar banktransaktioner till sidan **Betalningsavstämningsjournal** när du har skapat en ny journal.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Så här stämmer du av betalningar genom att använda automatisk koppling
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
 2. Om du vill arbeta i en ny betalningsavstämningsjournal väljer du åtgärden **Ny journal**.
 3. På sidan **Betalningsbankkontolista** väljer du det bankkonto som du vill stämma av betalningar för och väljer sedan knappen **OK**.
    Sidan **Betalningsavstämningsjournal** öppnas förberett för det valda bankkontot.

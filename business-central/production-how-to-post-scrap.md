@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7b79c94ab93af9565bc9291c8bae846ca79a5e6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d28439357d179e41dfacbaa8504dc0a7fa98230e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135678"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516698"
 ---
 # <a name="post-scrap-manually"></a>Bokföra kassationen manuellt
 
@@ -25,7 +25,7 @@ Om kassation produceras under bearbetningen kan detta anges i utflödesjournalen
 
 ## <a name="to-post-scrap-manually"></a>Så här bokför du kassationen manuellt
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Ange kassationsantalet i fältet **Kasserat antal**.  
 4. Ange kassationskoden i fältet **Kassationskod**.  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132556"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516542"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Skapa metodtips: leveransplanering
 Leveransplanering är ett kritiskt område. Leveransplaneringen hjälper dig att undvika att varor tar slut i lager, och att reducera order- och lagerkostnader, när den har konfigurerats korrekt.  

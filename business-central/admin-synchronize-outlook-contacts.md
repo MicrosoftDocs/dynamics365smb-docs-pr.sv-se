@@ -10,18 +10,18 @@ ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12ce99a79f465543ecc314b5042e70b6802f86ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6c4ed5dfa89fdafe6e685d6566a57cb604adacdb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142425"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513128"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisera kontakter i Business Central med kontakter i Microsoft Outlook
 
 Du kan visa samma kontakter i [!INCLUDE[prod_short](includes/prod_short.md)] som visas i Outlook om du ställer in synkronisering av kontakter. Till exempel om du är en säljare kan du göra vissa av ändringar i Outlook och en del av arbetet i [!INCLUDE[prod_short](includes/prod_short.md)]. Om kontakterna är desamma på båda platser, är ditt arbete enklare.  
 
-En dedikerad mapp i Outlook gör det enklare att hitta och du kan ange ett filter för att endast synkronisera kontakter från [!INCLUDE[prod_short](includes/prod_short.md)] som du vill se i Outlook. När kontaktsynkroniseringen har konfigurerats, kan du starta synkroniseringen manuellt eller ställa in en automatisk synkronisering som synkroniserar kontakterna enligt ett schema.  
+En dedikerad mapp i Outlook gör det enklare att hitta och du kan ange ett filter för att endast synkronisera kontakter från [!INCLUDE[prod_short](includes/prod_short.md)] som du vill se i Outlook. När kontaktsynkroniseringen har konfigurerats, kan du starta synkroniseringen manuellt eller ställa in en automatisk synkronisering som synkroniserar kontakterna enligt en uppställning.  
 
 ## <a name="set-up-synchronization"></a>Konfigurera synkronisering
 Du kan ange hur du vill synkronisera kontakter med Outlook på sidan **Konfigurering av Exchange-synkronisering** i [!INCLUDE[prod_short](includes/prod_short.md)]. En förutsättning är att din användarprofil i [!INCLUDE[prod_short](includes/prod_short.md)] måste ange ditt e-postkonto för Microsoft 365. Du kan kontrollera detta i avsnittet **Microsoft 365-autentisering** i din användarprofil i listan **Användare**.  

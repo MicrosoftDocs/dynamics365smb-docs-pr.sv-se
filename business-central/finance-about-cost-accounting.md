@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 56d12130aa8c067d0133127a629c2f0007d3ddfc
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: b8b26eb67f01ce38ebffd74f49683a583e2cce98
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366436"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514075"
 ---
 # <a name="about-cost-accounting"></a>Om kostnadsredovisning
 Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet. Information om kostnadsredovisning har utformats för att analysera:  
@@ -65,7 +65,7 @@ Varje fördelning består av en fördelningskälla och en eller flera fördelnin
 Du kan skapa kostnadsbudgetar efter behov. Du kan kopiera kostnadsbudgeten till redovisningsbudgeten och tvärtom. Du kan överföra budgeterade kostnader som faktiska kostnader.  
 
 ## <a name="cost-reporting"></a>Rapportering av kostnader  
-De flesta rapporter och statistik baseras på de bokförda kostnadstransaktionerna. Du kan ange sortering av resultat och använda filter för att definiera vilka data som måste visas. Du kan skapa rapporter för kostnadsfördelningsanalys. Dessutom kan du använda standardkontoscheman för att ange hur dina rapporter för planen över kostnadstyper visas.  
+De flesta rapporter och statistik baseras på de bokförda kostnadstransaktionerna. Du kan ange sortering av resultat och använda filter för att definiera vilka data som måste visas. Du kan skapa rapporter för kostnadsfördelningsanalys. Dessutom kan du använda standardkontouppställningar för att ange hur dina rapporter för planen över kostnadstyper visas.  
 
 ## <a name="see-also"></a>Se även  
  [Redovisa kostnader](finance-manage-cost-accounting.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000846, 99000850
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a4cc64e863c2bde02c61237e7baad7a58dfaba31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145504"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516724"
 ---
 # <a name="batch-post-production-consumption"></a>Batch-bokföra produktionsförbrukning
 
@@ -27,7 +27,7 @@ Du kan också ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Om du vill bokföra förbrukning för produktion av en eller flera rader
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **förbrukningsjournal** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **förbrukningsjournal** och väljer sedan relaterad länk.  
 2. Fyll i fälten med data om produktionsorden och om förbrukningen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Använd åtgärden **Beräkna förbrukning** för att generera journalrader från produktionsorder baserat på faktiskt utflöde (den mängd färdiga varor som du har rapporterat) eller på förväntat utflöde (den mängd färdiga varor som förväntas produceras).

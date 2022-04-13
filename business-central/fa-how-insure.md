@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 3385d0a8d7158237a1f86e8d78785c7045490886
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9b4cbceb0dec26b242a4904ea40de7b8147dc8f4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146546"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515095"
 ---
 # <a name="insure-fixed-assets"></a>Försäkra anläggningstillgångar
 En försäkringsbrev för en anläggningstillgång representeras av ett försäkringskort. Du kan koppla en anläggningstillgång till en försäkringspolicy eller flera anläggningstillgångar till en försäkringspolicy.
@@ -36,7 +36,7 @@ En försäkringpolicy för en anläggningstillgång måste representeras av ett 
 
 När du får information om ändringar av försäkringsbeloppet måste du ange den nya informationen på sidan **försäkringskort** så att försäkringsbrevet analyseras korrekt.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkring** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäkring** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny** för att skapa ett nytt kort för en försäkringspolicy. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Alternativt markerar du försäkringspolicym som du vill ändra och väljer sedan åtgärden **Redigera**.
 
@@ -45,7 +45,7 @@ Du tilldelar en anläggningstillgång till ett försäkringsbrev genom att bokf�
 
 Efterföljande procedur beskriver hur du skapar en försäkringsjournalrad manuellt. Om kryssrutan **Automatisk försäkringsbokf.** är markerad på sidan **Anl.inställningar** skapas försäkringsjournalrader automatiskt, när du bokför anskaffningskostnaden. I så fall är allt du måste göra att bokföra journalen.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkringsjournaler** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäkringsjournaler** och väljer sedan relaterad länk.  
 2. Öppna den relevanta journalen och fyll i journalraderna som behövs.  
 3. För att skapa flera anläggningstillgångar till ett försäkringsbrev skapar du journalrader med samma värdet i fältet **Försäkringsnr.** och olika värden i fältet **Anl.nr**.  
 4. Välj åtgärden **Bokföra**.  
@@ -56,7 +56,7 @@ Efterföljande procedur beskriver hur du skapar en försäkringsjournalrad manue
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Om du vill uppdatera försäkringvärdet för en anläggningstillgång
 Du kan använda batch-jobbet **Indexera försäkring** när du vill uppdatera värdet för den anläggningstillgång som är försäkrad.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Indexera försäkring** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Indexera försäkring** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 
     > [!NOTE]  

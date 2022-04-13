@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381729"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519127"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Felsökning och korrigering av dimensioner
 
@@ -103,7 +103,7 @@ Om Ångra-åtgärden inte är tillgänglig, till exempel för att du har gjort m
 
 Var försiktig när du korrigerar stora uppsättningar poster, till exempel uppsättningar som innehåller mer än 10 000 poster. Om du kan rekommenderar vi att du använder filtren för att köra korrigeringarna på mindre datauppsättningar. Det är också en bra idé att köra korrigeringar utanför de normala öppettiderna. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Använda analysvyer med dimensionskorrigeringar
+### <a name="use-analysis-views-with-dimension-corrections"></a>Använda analysvyer med dimensionskorrigeringar
 
 Om **Uppdatera vid bokföring** är aktiverat för en analysvy, [!INCLUDE[prod_short](includes/prod_short.md)] kan visa när dokument och tidskrifter publiceras. Du kan också uppdatera vyer med den här inställningen aktiverad med resultat av dimensionskorrigeringar. Det gör du genom att aktivera växlingsknappen **Uppdatera analysvyer**. Uppdatering av analysvyer kan påverka prestanda, särskilt för stora datauppsättningar, så vi rekommenderar att du uppdaterar analysvyer endast för små datauppsättningar.  
 
@@ -118,11 +118,11 @@ Om en korrigering inte slutförs visas en varning på korrigeringskortet. Om det
 > [!NOTE]
 > Återställning av en ofullständig korrigering påverkar inte uppdateringar av analysvyer eftersom de sker i slutet av korrigeringsprocessen.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Använda Kostnadsredovisning med korrigerade redovisningstransaktioner
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Använda Kostnadsredovisning med korrigerade redovisningstransaktioner
 
 När du har korrigerat dimensioner kommer dina data för kostnadsredovisning inte att vara synkroniserade. Kostnadsredovisning använder dimensioner för att aggregera belopp för kostnadsställen och kostnadsbärare och för att köra kostnadsallokeringar. Om du ändrar dimensioner för redovisningstransaktioner innebär det förmodligen att du kör dina kostnadsredovisningsmodeller igen. Om du bara behöver ta bort några kostnadsregister och köra allokeringar igen, eller om du behöver ta bort allt och köra alla dina modeller igen beror på vilka data som har uppdaterats och hur dina kostnadsredovisningsfunktioner har konfigurerats. Du miste manuellt identifiera var dimensionskorrigeringar kommer att påverka kostnadsredovisningen och var uppdateringar behövs. [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller för närvarande inte ett automatiserat sätt att göra det.
 
 ## <a name="see-also"></a>Se även
 
 [Arbeta med dimensioner](finance-dimensions.md)
-[analysera data per dimension](bi-how-analyze-data-dimension.md)  
+[Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)  

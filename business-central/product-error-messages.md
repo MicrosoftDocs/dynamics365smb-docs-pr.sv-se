@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137633"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419318"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Varningar och felmeddelanden i Dynamics 365 Business Central
 
@@ -20,7 +20,7 @@ Under din arbetsdag kan du se meddelanden i [!INCLUDE [prod_short](includes/prod
 
 Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller beskrivningar av de flesta fält, kolumner och åtgärder som du kan komma åt när du väljer namnet. I kombination med undervisningstips för viktiga sidor, beskrivande rubriker och instruktionstext är dessa beskrivningar eller bildtexter vår aktuella implementering av *inbäddat användarstöd*, som är en viktig princip i dagens programvarudesign.  
 
-Om du har en fråga om ett fält eller något annat element i användargränssnittet, väljer du namnet och en kort beskrivning visas. Välj länken *Mer information* om det inte räcker.  
+Om du har en fråga om ett fält eller något annat element i användargränssnittet, väljer du namnet och en kort beskrivning visas. Välj länken *Mer information* om det inte räcker. Du kan också använda Hjälp fönstret i produkt för att hitta svar på dina frågor.  
 
 Mer information finns i [Dynamics 365 Business Central användarhjälpsmodell](/dynamics365/business-central/dev-itpro/user-assistance) i administrationsinnehållet för [!INCLUDE [prod_short](includes/prod_short.md)].  
 

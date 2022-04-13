@@ -10,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5600, 5642
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e55b85397ca50995870ab86ed40421bbb0b4cb6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 05a9348d08a3255b3e2b438a540fc7a84de26b0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147862"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518187"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Skapa underhåll för anläggningstillgångar
 Om du vill hantera underhåll av anläggningstillgångar måste du först ange viss allmän underhållsinformation, ett bokföringskonto för underhållskostnader och underhållskoder för olika typer av arbete, till exempel rutintjänst eller reparation.
@@ -36,7 +36,7 @@ När du bokför underhållskostnader (från en redovisningsjournal eller en ink�
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Så här skapar du underhållskostnader
 Om du vill bokföra underhållskostnader måste du först ange ett kontonummer på sidan **Anl.bokföringsmallar**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.
 2. Fyll i fältet **Underhållskostnader** för varje bokföringsmall.
 
 > [!NOTE]  

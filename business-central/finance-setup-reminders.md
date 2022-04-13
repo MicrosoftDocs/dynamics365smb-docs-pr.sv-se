@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9456123c29b26c964acf974163ca31daa1e1b7c1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132842"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523377"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Konfigurera påminnelsevillkor och nivåer
 
@@ -94,7 +94,7 @@ Om du skapar fler betalningspåminnelser än du har definierat nivåer för, anv
     Om du skriver exempelvis **du är skyldig %9 %7 som förfaller %2.**, innehåller den resulterande betalningspåminnelsen följande text: **du är skyldig 1 200,50 som förfaller 2014-02-02**.
 
     > [!NOTE]
-    > Förfallodatumet beräknas enligt den formel du anger. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#using-date-formulas).
+    > Förfallodatumet beräknas enligt den formel du anger. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#use-date-formulas).
 
 När du har angett betalningspåminnelsevillkoren (med ytterligare nivåer och text) anger du någon av koderna på vart och ett av kundkorten. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
 

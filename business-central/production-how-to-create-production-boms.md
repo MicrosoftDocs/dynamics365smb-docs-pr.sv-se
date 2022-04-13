@@ -1,17 +1,17 @@
 ---
 title: Skapa produktionsstrukturer
 description: Lära dig hur du skapar en produktionsstruktur, nya versioner av en produktionsstruktur och hur du använder beräkningsformeln för antal.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130263"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516906"
 ---
 # <a name="create-production-boms"></a>Skapa produktionsstrukturer
 
@@ -26,7 +26,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 
 ## <a name="to-create-a-production-bom"></a>Skapa en ny produktionsstruktur.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Prod.struktur** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Prod.struktur** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Ställ in värdet i fältet **Status** till **Ny** eller **Under utveckling** om du vill redigera strukturen. Aktivera den genom att ställa in fältet **Status** till **Godkänd**.  
@@ -54,7 +54,7 @@ Nya versioner av produktionsstrukturer används till exempel när en artikel ers
 
 Startdatum anger början av en versions giltighetsperiod. I alla andra fall är startdatumet ett filtreringskriterium för beräkningar och utvärderingar. Prod.strukturversionen gäller tills nästa versions giltighetsstartdatum infaller.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Prod.struktur** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Prod.struktur** och väljer sedan relaterad länk.  
 2. Markera produktionsstrukturen som ska kopieras och klicka på åtgärden **versioner**.  
 3. Välj åtgärden **Ny**.  
 4. Fyll i fälten om det behövs.
@@ -85,6 +85,10 @@ Relationen i en enskild komponent definieras av en beräkningsformel. Följande 
 - **Längd x bredd** – Antal = Antal per * Längd x bredd  
 - **Längd x bredd x djup** – Antal = Antal per x Längd x bredd x djup  
 - **Vikt** – Antal = Antal per x vikt  
+- **Fast kvantitet** kvantitet = kvantitet per
+
+> [!NOTE]
+> Med beräkningsformeln för **fast kvantitet** ser du till att förbrukningen av en komponent är densamma, oavsett kassation eller utflöde. För produktions order komponenter, när fältet **beräkningsformel** är inställt på fast antal, är fältet **Fast kvantitet** och **Förväntad kvantitet** alltid lika med **kvantiteten per** fält. Den procentuella kassation som har definierats på samma rad ignoreras. Fast kvantitet respekteras av rapporten **Artikeldisposition**. I rapporten visas artikeln som flaskhals, om disponibelt antal är mindre än antalet i fältet **Antal per överordnad**. Fälten **Kan skapa överordnad** och **Kan skapa toppartikel** är alltid tomma, oavsett tillgänglig kvantitet. Fast kvantitet ingår också i beräkningar för standardkostnader. Partistorleken för den producerade artikeln påverkar kostnaden som har allokerats för en artikel.
 
 ### <a name="example"></a>Exempel
 

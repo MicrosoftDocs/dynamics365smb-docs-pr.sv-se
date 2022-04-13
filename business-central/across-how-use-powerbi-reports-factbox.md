@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: 3db84a185c47976f5d7f3aa5f166c81e4a035a89
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccdcf519d33c9b4ee23526e773ec8eccc9e0ebdd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133336"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517167"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Skapa Power BI-rapporter för att visa listdata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "8133336"
 - Power BI Desktop.
 
 <!-- 
-For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
+For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
 ## <a name="create-a-report-for-a-list-page"></a>Skapa en rapport för en listsida
 
@@ -92,7 +92,7 @@ Du kan ändra bredd och höjd på rapporten genom att välja **anpassaval** i f�
 Om du vill att rapportens bakgrund ska smälta samman med bakgrundsfärgen i Power BI FactBox-kontrollen anger du rapportens bakgrundsfärg som *#FFFFFF* (vit). 
 
 > [!TIP]
-> Använd [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen för att skapa rapporter med samma färgformatering som [!INCLUDE [prod_short](includes/prod_short.md)]-apparna. Mer information finns i [Använda tillägget [!INCLUDE [prod_short](includes/prod_short.md)] rapporttema](across-how-use-financials-data-source-powerbi.md#theme).
+> Använd [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen för att skapa rapporter med samma färgformatering som [!INCLUDE [prod_short](includes/prod_short.md)]-apparna. Mer information finns i [Använda [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat](across-how-use-financials-data-source-powerbi.md#theme).
 
 ## <a name="reports-with-multiple-pages"></a>Rapporter med flera sidor
 
@@ -127,7 +127,7 @@ Kontrollera att rapportens storlek är 325 pixlar x 310 pixlar. Spara rapporten 
 ## <a name="see-also"></a>Se även
 
 [Aktivera dina affärsdata för Power BI](admin-powerbi.md)  
-[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Ekonomi](finance.md)  

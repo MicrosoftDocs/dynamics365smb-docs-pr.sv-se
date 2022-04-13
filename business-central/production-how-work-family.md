@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000790, 99000791, 99000792, 99000793
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d786da721738c6c8907232d510954d2dcba224e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9732817de350d4fe709802b9726a3ad8d364ec5e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135009"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521916"
 ---
 # <a name="work-with-production-families"></a>Arbeta med produktionsfamiljer
 
@@ -30,12 +30,12 @@ Genom att skapa produktionsfamiljer minskas spillet eftersom materialet som vanl
 
 ## <a name="to-set-up-a-production-family"></a>Så här skapar du produktionfamilj
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **familjer** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **familjer** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-family"></a>Om du vill skapa baserat på en produktionsfamilj
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.
 2. Skapa en nu produktionsorder. För mer information, se [Skapa produktionsorder](production-how-to-create-production-orders.md).
 3. I fältet **Ursprungstyp** väljer du **Familj**.  
 4. I fältet **Ursprungsnr.** väljer du relevant produktionsfamilj.

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382051"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520366"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central för flera platser och internationella organisationer
 Organisationer som har flera platser använder ofta en företagsmodell med nav och ekrar, där ett moderbolag, eller ett huvudkontor, hanterar verksamhetens övergripande verksamhet medan varje plats fungerar som en enda fristående enhet. Platser är ofta geografiskt spridda och har olika behov av att dela information med moderbolaget. Dessutom behöver inte platserna samma komplexitetsnivå, och de saknar ofta de resurser som behövs för att upprätthålla ett stort system.
@@ -83,7 +83,7 @@ API:er och XMLportar förenklar processen för att ansluta instanser av [!INCLUD
 | Bokför och importera XML-dokument. | Kodmoduler kan visas som obundna åtgärder för att stödja bokföring och insugning av XML-dokument. För bearbetning av XML-dokument kan XMLportar användas. Obundna åtgärder kan också användas för att generera ett XML- eller JSON-dokument. | [XMLport-objekt](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Gör underhållet enklare via elektronisk dataintegration. | En elektronisk dataintegrationslösning kan läggas till för att fungera som integrationsskikt mellan moderbolaget och platserna. | [Ramverk för dataintegration](across-about-the-data-exchange-framework.md) |
 | Utbyta data mellan olika system. | Använd XMLportar för att skapa XML-dokument, som sedan kan utbytas mellan ett moderbolag som använder ett system och platser som använder Business Central. | [XMLport-översikt](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
-| Leda komplexa dataintegrationer. | Använd en kombination av XMLportar med Business Central och Microsoft BizTalk Server för att tillgodose unika behov på dina platser.</br>För komplicerade behov bör du använda en lösning för elektronisk dataintegration baserad på BizTalk Server och Commerce Gateway i Business Central i kombination med XMLportarna. | [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md) |
+| Leda komplexa dataintegrationer. | Använd en kombination av XMLportar med Business Central och Microsoft BizTalk Server för att tillgodose unika behov på dina platser.</br>För komplicerade behov bör du använda en lösning för elektronisk dataintegration baserad på BizTalk Server och Commerce Gateway i Business Central i kombination med XMLportarna. | [Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md) |
 | Anslut till <sup></sup>tredjepartslösningar och -tjänster. | Med API:er etableras en punkt-till-punkt-anslutning mellan Business Central och <sup></sup>tredjepartslösningar och -tjänster. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 

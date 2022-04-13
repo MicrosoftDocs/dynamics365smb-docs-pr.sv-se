@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1855391f5bf2c0807ac4ffcd8d42e0ea8122fd87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141863"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520028"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivera plockning av artiklar med FEFO
 FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklarna – de med tidigast utgångsdatum – plockas först.  
@@ -44,7 +44,7 @@ Om fältet **Endast utgångsbokföring** markeras på **Artikelspårning kodkort
 [Plocka artiklar för utleverans från dist.lager](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

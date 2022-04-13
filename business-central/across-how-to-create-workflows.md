@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131014"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521286"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Skapa arbetsflöden för att koppla affärsprocessuppgifter
 
@@ -104,7 +104,7 @@ För båda typerna av händelser är händelserna systemdefinierade. Nya händel
     >  Du kan endast ändra indrag för ett steg som inte har ett efterföljande steg.  
 
 12. Upprepa steg 7 till 11 för att lägga till fler arbetsflödessteg, antingen före eller efter steget som du precis har skapat.  
-13. Markera kryssrutan **Aktiverad** för att ange att arbetsflödet ska starta så snart som händelsen i det första steget av typen **Insteg** inträffar. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).  
+13. Markera kryssrutan **Aktiverad** för att ange att arbetsflödet ska starta så snart som händelsen i det första steget av typen **Insteg** inträffar. Mer information finns i [Använd arbetsflöden](across-use-workflows.md).  
 
 > [!NOTE]  
 > Aktivera inte ett arbetsflöde förrän du vet att arbetsflödet är avslutat och att relevanta arbetsflödessteg kan startas.  
@@ -188,7 +188,7 @@ Sedan måste du och testa arbetsflödet genom att öppna en befintlig leverantö
 [Ta bort arbetsflöden](across-how-to-delete-workflows.md)  
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Konfigurera arbetsflöden](across-set-up-workflows.md)  
-[Använda arbetsflöden](across-use-workflows.md)  
+[Använd arbetsflöden](across-use-workflows.md)  
 [Arbetsflöde](across-workflow.md)  
 
 

@@ -10,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9689db234280c2bcca5e32ade2a82488c15de5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8757ba52142990449d5d60273a73bdc146ffb240
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147732"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517504"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Återföra journalbokningar och ångra inleveranser/utleveranser
 
@@ -31,7 +31,7 @@ Om du har bokfört fel positivt antal, till exempel en utleverans eller en inkö
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Att återföra bokföringen av en redovisningstransaktion journal
 Du kan återföra poster från alla sidor **Transaktioner**. Följande procedur baseras sidan **redovisningstransaktioner**.
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningstransaktioner** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Redovisningstransaktioner** och välj sedan relaterad länk.
 2. Markera den transaktion som du vill återföra och välj sedan åtgärden **återföringstransaktion**. Observera att det måste komma från en journalbokföring.
 3. Välj åtgärden **Återför** på sidan **Återför transaktionsposter**.
 4. Välj knappen **Ja** på bekräftelsemeddelandet.
@@ -42,7 +42,7 @@ Du kan återföra poster från alla sidor **Transaktioner**. Följande procedur 
 ## <a name="to-post-a-negative-entry"></a>Bokföra en negativ transaktion  
 Använd fältet **Korrigering** för att bokföra en negativ debet istället för en kredit, eller för att bokföra en negativ kredit istället för en debet för ett konto. För att uppfylla juridiska krav visas detta fält som standard i alla journaler. Fälten **Debetbelopp** och **Kreditbelopp** innehåller både ursprungstransaktionen och den korrigerade transaktionen. Dessa fält påverkar inte kontosaldot.  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk  
 2.  Välj önskat batch-namn i fältet **Batch-namn**.  
 3.  Ange information i relevanta fält.  
 4.  På journalraden som du vill aktivera för negativa poster väljer du kryssrutan **Korrigering**.  
@@ -51,7 +51,7 @@ Använd fältet **Korrigering** för att bokföra en negativ debet istället fö
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Så här ångrar du ett bokfört antal i en bokförd inköspleverans  
 Nedan beskrivs hur du återställer en bokförd inleverans eller bokförda resurser. Momenten är liknande för bokförda utleveranser.
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda inköpsleveranser** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda inköpsleveranser** och väljer sedan relaterad länk.  
 2.  Öppna den bokförda inleveransen som du vill ångra.  
 3.  Markera de rader som du vill ångra.  
 4.  Välj åtgärden **Ångra inleverans**.
@@ -81,7 +81,7 @@ Nedan beskrivs hur du återställer en bokförd returutleverans av artiklar elle
 ## <a name="see-also"></a>Se även
 
 [Ångra monteringsboking](assembly-how-to-undo-assembly-posting.md)  
-[Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
+[Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

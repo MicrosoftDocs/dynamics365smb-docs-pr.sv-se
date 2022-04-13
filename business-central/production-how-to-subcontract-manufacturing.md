@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 116c19964bde7cc58a2c90be1f6b9143ceca3af6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec85406518757c9ba2b8560e88153dc5c6d899b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132738"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515361"
 ---
 # <a name="subcontract-manufacturing"></a>Lägga ut legotillverkning för produktion
 
@@ -52,7 +52,7 @@ Sidan **Legotillverkningskalkylark** fungerar som **Planeringsförslag** genom a
 >  Endast produktionsorder med statusen **Släppt** kan kommas åt och användas från ett legotillverkningskalkylark.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Beräkna legotillverkningskalkylark  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Legotillverkningsförslag** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Legotillverkningsförslag** och väljer sedan relaterad länk.  
 2.  Om du vill beräkna kalkylarket väljer du åtgärden **Beräkna kalkylark**.  
 3.  På sidan **Beräkna utlego** ställer du in filter för de operationerna eller produktionsgrupperna där de utförs för att beräkna endast relevanta produktionsorder.  
 4.  Välj knappen **OK**.  
@@ -60,7 +60,7 @@ Sidan **Legotillverkningskalkylark** fungerar som **Planeringsförslag** genom a
     Granska raderna på sidan **legotillverkningsförslag**. Informationen i det här förslaget kommer från produktionsordern och operationsföljdsraderna för produktionsordern, och skickas vidare till inköpsordern när den skapas. Du kan ta bort en rad i legotillverkningsförslaget utan att påverka den ursprungliga informationen, precis som med andra förslag. Informationen visas på nytt nästa gång du kör funktionen **Beräkna utlego**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Så här skapar du en inköpsorder för underkontrakt  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Legotillverkningsförslag** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Legotillverkningsförslag** och väljer sedan relaterad länk.  
 2.  Välj den **Verkställ åtgärdsmeddelande** åtgärd.  
 3.  Markera fältet **Skriv ut inköpsorder** om du vill skriva inköpsordern när den skapas.  
 4.  Välj knappen **OK**.  
@@ -73,7 +73,7 @@ Den kalkylarksrad som användes för att skapa en inköpsorder tas bort från ka
 När du har skapat inköpsorder för underkontrakt kan du bokföra dessa. När ordern tas emot bokförs en kapacitetstransaktion i produktionsordern och när ordern faktureras bokförs den direkta kostnaden för inköpsordern i produktionsordern.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Så här bokför du en inköpsorder för underkontrakt:  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 2.  Öppna den inköpsorder som skapades från legotillverkningskalkylarket.  
 
     På inköpsorderraderna ser du samma information som i kalkylarket. Fälten **Prod. Ordernr**, **Prod. Radnr**, **Operationsnr**, och **Prod.gruppsnr** fylls i automatiskt med information från den ursprungliga produktionsordern.  

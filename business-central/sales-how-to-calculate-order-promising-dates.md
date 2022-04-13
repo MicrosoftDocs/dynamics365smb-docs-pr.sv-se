@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: fc2d8e8df7e827d3e73a90b89ff6b14cee5c88ff
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e739536a3752671d74e9ea0d8b3a2b1b548d1d21
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144807"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511525"
 ---
 # <a name="calculate-order-promising-dates"></a>Beräkna orderlöftesdatum
 Ett företag måste kunna informera sina kunder om orderleveransdatum. Sidan **Orderlöftesrader** ger dig möjlighet att göra detta från en försäljningsorder.  
@@ -75,7 +75,7 @@ Orderhandläggaren slutför CTP-processen genom att acceptera datum. Det innebä
 Förutom ett externt orderlöfte som du kan utföra på sidan **Orderlöftesrader** kan du också utlova interna eller externa leveransdatum för strukturartiklar. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Så här skapar du orderlöfte  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Orderlöfteinställning** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Orderlöfteinställning** och välj sedan relaterad länk.  
 2. Ange ett nummer och en tidsenhetskod i fältet **Offset (tid)**. Välj en av följande koder.  
 
     |Kod|Beskrivning|  
@@ -95,11 +95,11 @@ Förutom ett externt orderlöfte som du kan utföra på sidan **Orderlöftesrade
 Om du vill inkludera lagerhanteringstid i beräkningen för beställning som lovar på inköpsraden, på sida **Lagerinställningar** kan du ange en standardhanteringstid att använda på försäljnings- och inköpsdokument. Du kan också ange särskilda tider för var och en av dina lager ställen på sidan **lagerställekort**. 
 
 #### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Så här anger du standard- och avgående lagerhanteringstid för försäljnings- och inköpsdokument
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.  
 2. På snabbfliken **Allmänt** i fältet **inkommande lagerhanteringstid** och **utgående lagerhanteringstid**, ange det antal dagar som du vill inkludera i beräkningen med löfte om beställning.  
 
 #### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Att ange inkommande och utgående lagerhanteringstider på platser  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plats** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Plats** och väljer sedan relaterad länk.  
 2.  Öppna önskat lagerställekort.  
 3.  På snabbfliken **Distributionslager** i fältet **inkommande lagerhanteringstid** och **utgående lagerhanteringstid**, ange det antal dagar som du vill inkludera i beräkningen med löfte om beställning.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91a97ab506f7536b9c468862709d1d39ed767d53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335480"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512366"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
 
@@ -54,7 +54,7 @@ Kontouppställningar i standardversionen av [!INCLUDE[prod_short](includes/prod_
 
 Sidan **Kontouppställning översikt** är där du kan förhandsgranska den finansiella rapport som definieras i kontouppställningen. I det följande är det viktigt att förstå att det du ställer in som kontouppställningsrader och kolumner bara kan visas och godkännas på sidan **Kontouppställning översikt** som du öppnar från en kontouppställning genom att välja åtgärden **översikt**. Själva sidan **kontouppställning** är endast inställningsområde.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.  
 2. På sidan **Kontouppställningar** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn.
 3. Alternativt väljer du åtgärden **Kopiera kontouppställning** fyller du i de två fälten och väljer sedan knappen **OK**.
 4. Fyll i fälten om det behövs. I fältet **Standardkolumnlayout** väljer du en befintlig layout. Du kan redigera den senare om du vill.
@@ -71,7 +71,7 @@ Du har nu definierat basen för kontouppställningen, raderna för ekonomiska da
 
 ### <a name="to-edit-a-column-layout"></a>Så här redigerar du en kolumnlayout
 
-För att ange vilka kolumner som ska tas med i den resulterande rapporten använder du kolumnlayouter. Du kan t. ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år.
+För att ange vilka kolumner som ska tas med i den resulterande rapporten använder du kolumnlayouter. Du kan t. ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år. Du kan ha upp till 15 kolumne. Detta är användbart om du t. ex. vill visa budgetar för 12 månader och inkludera en kolumn som visar summan.
 
 > [!NOTE]
 > En utskriven/granskad/sparad version av en kontouppställning kan visa maximalt fem kolumner. Om kontouppställningen endast är avsedd för analys på sidan **Kontouppställning översikt** kan du skapa så många kolumner du vill.
@@ -88,7 +88,7 @@ För att ange vilka kolumner som ska tas med i den resulterande rapporten använ
 
 Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t. ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.
 2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
 3. Välj åtgärden **Redigera kontouppställning** för att skapa en kontouppställningsrad för att beräkna den summa som procentsatserna ska baseras på .  
 4. Infoga en rad direkt ovanför den första raden för vilken du vill visa en procentsats.  
@@ -101,11 +101,11 @@ Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsa
 
 Du kan använda en kontouppställning för att skapa en rapport där redovisningssiffror jämförs med redovisningsbudgetsiffror.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.
 2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
 3. Välj åtgärden **Redigera kontouppställning**.  
 4. På sidan **Kontouppställning** väljer du önskat kontouppställningsnamn i fältet **Namn**.
-5. Välj åtgärden **Infoga konton**.  
+5. Välj åtgärden **Infoga redovisningskonton**.  
 6. Markera de konton som du vill inkludera i utdraget och välj sedan **OK**.
 
     Kontona infogas i kontouppställningen. Om du vill kan du ändra kolumnens layout.  
@@ -149,7 +149,17 @@ Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel
 
 Mer information om datumformler finns i [arbeta med datum och tider för kalender](ui-enter-date-ranges.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="import-or-export-account-schedules"></a>Importera eller exportera kontouppställningar
+Du kan importera och exportera kontouppställningar som RapidStart-konfigurationspaket. Detta kan till exempel vara användbart när du delar dem med andra företag. Paketet skapas i en .rapidstart-fil, vilket levererar paketinnehållen i ett komprimerat format.
+
+### <a name="to-import-and-export-account-schedules"></a>Så här importerar och exporterar du kontouppställningar
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.
+2. Välj kontouppställningen och sedan åtgärden **Importera kontoschema** eller **Exportera kontouppställning** beroende på vad du vill göra. 
+
+> [!NOTE]
+> När du importerar kontouppställningar kommer befintliga poster som har samma namn som de som importeras att tas bort.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

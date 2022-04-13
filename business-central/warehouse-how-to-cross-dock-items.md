@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 15, 5703, 7302, 7332, 5768
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4031260a498eb2dd147be85392e6da709e76e681
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9621393c09de1a4d6cf21789fa1141763d94efe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383621"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513321"
 ---
 # <a name="cross-dock-items"></a>Beräkna direktutleverans av artiklar
 Direktutleveransfunktionen är tillgänglig om lagerstället kräver inleverans- och artikelinförselbearbetning.  
@@ -41,14 +41,14 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
 
     Om du använder zoner, skapa en zon för dina direktutleveranslagerställen och välj **Direktutlevns lagerplatszon** fältet. Mer information finns i [Skapa lagerställen för att använda lagerställen](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plats** och väljer sedan relaterad länk.  
+2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Plats** och väljer sedan relaterad länk.  
 3.  På sidan **Lagerställe** väljer du vilket lagerställe som du vill ställa in direktutleverans för och väljer sedan åtgärden **Redigera**.  
 4.  Markera kryssrutan **Använd direktutleverans** på snabbfliken **Lager** och fyll i **Direktutlev. förfalloberäkning** med tidsperiod att söka efter direktutleveransmöjligheter.
 
     Alternativet **Använd direktutleverans** är bara tillgängligt om du har markerat fälten **Begär inleveranser**, **Begär utleverans**, **Begär plockning** och **Begär artikelinförsel**.  
 
 5.  Om du använder lagerställen fyller du i fältet **Direktutleverans lagerställeskod** på snabbfliken **Lagerställen** med koden för den lagerplats du vill använda som standardlagerplats för direktutleveranser.  
-6.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerställeenhet** och väljer sedan relaterad länk.  
+6.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerställeenhet** och väljer sedan relaterad länk.  
 7.  För varje artikel eller lagerställeenhet som du vill kunna direktutleverera till markerar du artikeln och väljer åtgärden **Redigera**.
 8. På sidan **lagerställeenhetskort** markerar du kryssrutan **Använd direktutleverans**.  
 
@@ -56,7 +56,7 @@ Inga separata poster för direktutlevererade artiklar genereras, utan artiklarna
 >  Du kan bara använda direktutleveranser om lagerstället är inställt på inleverans- och artikelinförselbearbetning för distributionslagret.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Så här direktutlevererar du artiklar utan att visa möjligheterna:  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
 2.  Skapa distributionslagerinleverans för en artikel som har anlänt och som eventuellt kan komma att direktutlevereras. Mer information finns i [Ta emot artiklar](warehouse-how-receive-items.md).  
 3.  Fyll i fältet **Ant. att inlevereras** och välj åtgärden **Beräkna direktutleverans**.  
 

@@ -10,12 +10,12 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e902f423bd0729608fcf0369248a4815bb88a72
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1244fa4e0062a5f7b9586eba125fb0fa1a050ee1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133868"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523533"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Hantera budgetar för anläggningstillgångar
 Du kan skapa budgeterade anläggningstillgångar. På så sätt kan du t. ex. inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.  
@@ -42,7 +42,7 @@ Om du planerar att sälja tillgångar under budgetperioden kan du föra in uppgi
 ## <a name="to-view-projected-disposal-values"></a>Så här visar du planerade avyttringsvärden
 Om du vill se de planerade avyttringsvärdena och beräkna vinsten och förlusten kan du använda rapporten **Anl. – planerat värde**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. – planerat värde** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl. – planerat värde** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec67d201d89b01b38b86edbeb6dcd3ea0148153
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f9cd8d837d94e9f90e48f84d4209bc3427d0b922
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147654"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523403"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
 Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan. Betalningstoleranser används t. ex. vanligtvis för små belopp som skulle kosta mer för att korrigeras än att bara acceptera. Du kan ställa in betalningstolerans (rabatt) när du ska bevilja en kassarabatt efter att kassarabattsdatumet har passerat.  
@@ -44,11 +44,11 @@ Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](
 Du kan använda toleranser för dagar och belopp så att du kan avsluta en faktura även om betalningen inte täcker hela fakturabeloppet, oavsett om det beror på att förfallodatumet för kassarabatten har passerats, att varorna har dragits av eller att ett mindre fel har begåtts. Det gäller även återbetalningar och kreditnotor.  
 
 Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokföringsmetoder för både kassarabattstolerans och betalningstolerans samt köra batch-jobbet **Ändra betalningstolerans**.  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 2. Öppna sidan **Bokföringsinställningar**. Lägg upp ett debet- och ett kreditkonto för försäljningsbetalningstolerans och ett debet- och ett kreditkonto för inköpsbetalningstolerans.  
-3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kundbokföringsmallar** och väljer sedan relaterad länk.    
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kundbokföringsmallar** och väljer sedan relaterad länk.    
 4. Öppna sidan **Kundbokföringsmallar**. Lägg upp ett debetkonto och ett kreditkonto för betalningstolerans. Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
-5. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för leverantör** och väljer sedan relaterad länk.  
+5. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokföringsinställningar för leverantör** och väljer sedan relaterad länk.  
 6. Öppna sidan **Leverantörsbokföringsmallar**. Lägg upp ett debetkonto och ett kreditkonto för betalningstolerans.  
 7. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 8. Öppna sidan **Redovisningsinställningar**.  

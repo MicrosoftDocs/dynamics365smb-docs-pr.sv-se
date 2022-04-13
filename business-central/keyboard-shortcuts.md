@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381755"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517979"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -239,6 +239,14 @@ Rollutforskaren ger dig en översikt över och snabb åtkomst till alla affärsf
 |F3 eller Ctrl + Nedåtpil|Flyttar fokus till nästa funna funktion i rollutforskaren. F3 flyttar fokus till rutan **Sök** efter den senast funna funktionen.|
 |Shift F3 eller Ctrl + Uppåtpil|Flytta fokus till föregående funna funktion i rollutforskaren.|
 |Ctrl+Shift|Visa eller dölj alla undernoder – utöver noder på översta nivån – när du väljer åtgärden **Visa** eller **Dölj**.|
+
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Kortkommandon för numeriskt tangentbord
+
+I följande tabell beskriver kortkommandon på en numerisk knappsats.
+
+|Tryck på dessa tangenter<br />(i macOS)|Om du vill|
+|--------------------------------|----------|
+|Alt+ decimalavgränsare|Ändra resultatet av decimal tecknet till antingen en punkt (.) eller det tecken som bestäms av inställningen **region** på sidan **mina inställningar**. För mer information, se [Ange decimalavgränsare som används av numeriska tangentbord](ui-enter-data.md#decimal).|
 
 ## <a name="see-also"></a>Se även
 

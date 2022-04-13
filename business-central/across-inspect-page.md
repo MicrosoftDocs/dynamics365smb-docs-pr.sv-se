@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: d30b93942292e2f6a5a52831725ec06aed32820c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136510"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517180"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektera sidor i Business Central
 
@@ -22,7 +22,7 @@ Funktionen för sidinspektion låter dig hämta information om en sida, ge insik
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="working-with-page-inspection"></a>Arbeta med sidinspektion
+## <a name="work-with-page-inspection"></a>Arbeta med sidinspektion
 
 Du startar sidgranskning från sidan **hjälp och support**. Välj frågetecknet i övre högra hörnet, välj **hjälp och support** och välj **Kontrollera sidor och data**. Du kan bara använda kortkommandot **Ctrl + Alt + F1**.
 

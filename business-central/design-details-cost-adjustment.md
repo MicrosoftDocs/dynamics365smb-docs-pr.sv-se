@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5783647c4e70debce32bbb0ca3976efea78ec065
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5dcadd2cb9712fb2cfa69dfed921c205698d524b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143718"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511161"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostnadsjustering
 
@@ -90,7 +90,7 @@ De nya justerings- och avrundningsvärdetransaktionerna har bokföringsdatumet f
 När du kör batchjobbet **Just kost. – artikeltrans** har du alternativet att köra batchjobbet för alla artiklar eller endast för vissa artiklar eller kategorier.  
 
 > [!NOTE]  
-> Vi rekommenderar att du alltid kör batchjobbet för alla artiklar och endast använder filtreringsalternativet för att minska körningstiden för batchjobbet eller för att lösa kostnaden för en viss artikel.  
+> Vi rekommenderar att du alltid kör batchjobbet för alla artiklar och endast använder filtreringsalternativet för att minska bearbetningstiden för batchjobbet eller för att lösa kostnaden för en viss artikel.  
 
 ### <a name="example"></a>Exempel
 

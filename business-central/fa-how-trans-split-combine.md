@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5638, 5636, 5640, 5637
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8bed1cc63d95d3b49bf439da0ccf949d536b9792
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 48f2735c39c3630611abcb785efc67cfd9473671
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136250"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511135"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Överföra, dela eller kombinera anläggningstillgångar
 
@@ -41,7 +41,7 @@ Du kan dela upp en anläggningstillgång till åtskilliga anläggningstillgånga
 
 1. Skapa två nya anläggningstillgången. Ange relevanta avdelningar som dimensioner.  
 2. Tilldela en avskrivningsregel för anläggningstillgång till den nya anläggningstillgången. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).
-3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Omklassificeringsjournaler för anläggningstillgång** och väljer sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Omklassificeringsjournaler för anläggningstillgång** och väljer sedan relaterad länk.
 4. Skapa två grupperingsjournalrader, en för varje ny anläggningstillgång.
 5. På den första raden anger du den andra anläggningstillgången i fältet **Nytt anl.nr** och 25 i fältet **Gruppera anskaff.kost. %**.
 6. På den andra raden anger du den tredje anläggningstillgången i fältet **Nytt anl.nr** och 40 i fältet **Gruppera anskaff.kost. %**.

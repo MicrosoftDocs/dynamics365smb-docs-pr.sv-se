@@ -1,23 +1,25 @@
 ---
 title: Ändra hur rapporten ska se ut genom att välja en annan layout
 description: Du kan använda olika layouter för en rapport och växla mellan layouter för att ändra utseendet på en rapport.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c02f1e2083ef47d5aeee5831b042128c065c411f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144651"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515309"
 ---
-# <a name="change-the-current-report-layout"></a>Ändra aktuell rapportlayout
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Äldre) Ange layout för en rapport
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 En rapport kan ställas in med fler än en rapportlayout som du kan växla mellan.
 
@@ -30,9 +32,13 @@ När anpassade layouter för rapporter definieras kan du välja dem från kund- 
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Ändra vilken rapportlayout som ska användas för en rapport eller ett dokument
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
-   Sidan **Val av rapportlayout** visar alla rapporter som är tillgängliga i företaget som har angetts i fältet **Företag** högst upp på sidan. Fältet **Vald layout** anger den layout som används i rapporten för närvarande.
-2. Ange fältet **Företag** fältet högst upp på sidan till företaget som inkluderar rapporten.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.
+  
+   Sidan **Val av rapportlayout** visar alla rapporter som är tillgängliga i företaget som har angetts i fältet **Företag** högst upp på sidan. **Layoutbeskrivning** <!-- **Selected Layout** -->anger den rapportlayout som används i rapporten för närvarande.
+2. Ange fältet **Företag** fältet högst upp till företaget som inkluderar rapporten.
+
+   I det här fältet kan du ange olika layouter för samma rapport i olika företag.
+
 3. I raden för rapporten och anger du fältet **Vald layout** till ett av följande alternativ för att ändra layouten som används för en rapport:
    * **RDLC (inbyggd)**, använder den inbyggda RDLC-rapportlayouten i rapporten.
    * **Word (inbyggd)**, använder den inbyggda Word-rapportlayouten i rapporten.
@@ -44,6 +50,7 @@ När anpassade layouter för rapporter definieras kan du välja dem från kund- 
 Om du har valt en inbyggd RDLC- eller Word-rapportlayout krävs ingen mer åtgärd och layouten används i när rapporten körs nästa gång.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Så här ändrar du den anpassade layouten som ska användas för en rapportlayout
+
 Du kanske också vill ändra den anpassade layout som används. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
 Alla layouter för anpassade rapporter som finns för rapportmallar i ett företag visas på sidan **Anpassa rapportlayouter**. På sidan **Val av rapportlayout** kan du se vilka anpassade layouter som är tillgängliga för rapporten i faktaboxen **Anpassade layouter**.

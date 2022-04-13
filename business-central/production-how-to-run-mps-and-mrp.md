@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 561b069cb3136b50a76fe6c43276edc2fb0ab5ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b8a9f648030e0a307ccd1a086c681ba8492cf357
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131359"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516672"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov eller produktionsplan
 
@@ -45,7 +45,7 @@ Med varje planeringsmetod genererar [!INCLUDE[prod_short](includes/prod_short.md
 >  Planen för funktionen Hämta åtgärdsmeddelanden kan köras mellan körningarna av nettoförändringsplanen och den fullständiga planen för att hämta en ögonblicksbild av den påverkan som planförändringarna har. Den är däremot inte tänkt som en ersättning till nettoförändringsplanen eller den fullständiga planen.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Så här beräknar du planeringsförslaget  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan** för att öppna sidan **Skapa inköpsförslag**.  
 3.  Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Alternativ**.  
 

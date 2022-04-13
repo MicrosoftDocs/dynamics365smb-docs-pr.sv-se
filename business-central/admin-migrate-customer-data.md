@@ -1,24 +1,26 @@
 ---
 title: Migrera kunddata
-description: Du kan migrera befintliga kunddata från ett befintligt system till Business Central med hjälp av RapidStart Services – eller bara registrera datan direkt i företaget.
-author: SorenGP
+description: Du kan migrera befintliga kunddata från ett befintligt system till Business Central med hjälp av en guide för assisterad konfiguration. Du kan också använda Excel och RapidStart Services.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
 ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 492ec993dfbf33f90fc601b1d6f8f27319ee39c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335376"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515725"
 ---
 # <a name="migrate-customer-data"></a>Migrera kunddata
 
-Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av dataflyttningsverktyg för RapidStart Services. Du kan använda Excel-filer som databärare. Du kan också flytta data manuellt genom att ange dem direkt i företaget. Du kan också använda hjälpguiden för **molnmigrering** för att flytta data. Mer information finns i [Migrera Data](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administratörsinnehållet.
+Du kan migrera befintliga kunddata från ett befintligt ERP-system till [!INCLUDE[prod_short](includes/prod_short.md)] online med hjälp av molnmigreringsprocessen för versioner som stöds. Du kan också migrera till [!INCLUDE [prod_short](includes/prod_short.md)] lokalt med hjälp av datamigreringsverktygen i RapidStart Services och sedan växla till molnet. Mer information finns i [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administratörsinnehållet (endast på engelska).  
+
+I den här artikeln tittar vi på de konfigurationsfiler som du kan exportera från och importera till [!INCLUDE [prod_short](includes/prod_short.md)]. Innehållet har skrivits med lokala distributioner i åtanke.  
 
 > [!NOTE]
 > Fält av BLOB-typen kan inte exporteras/importeras med Excel.
@@ -137,7 +139,7 @@ När du har kört batchjobbet, använd följande procedur för att bearbeta data
 ## <a name="to-migrate-customer-data"></a>Så här kan du flytta kunddata
 När du har exporterat en flyttningstabell blir ditt nästa steg att skriva in kundens bakåtkompatibla data. För att underlätta dina arbetsuppgifter kan du dra nytta av XML behandlingsverktygen som ingår i Excel. Du kan även använda inbyggda Excel funktioner för att hjälp med dataformatering och för att ange data i rätt cell.
 
-Om du behöver hjälp med XML så aktiverar du fliken **Utvecklare** i Excel-balken och väljer sedan åtgärden **Källa** för att visa XML-schemat för din flyttningstabell såsom den visas i Excel.
+Om du behöver hjälp med XML så aktiverar du fliken **Utvecklare** i Excel-balken och väljer sedan åtgärden **Källa** för att visa XML-uppställningen för din flyttningstabell såsom den visas i Excel.
 
 Följande procedur baseras på en Excel-blad som du har skapat för datamigrering. Mer information finns i [så här: exportera flyttningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 

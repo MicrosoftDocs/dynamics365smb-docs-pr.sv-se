@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: ae490b4694aaa852962968cb80fef9f770767a57
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141053"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511564"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Ställa in artikelspårning med serie-, parti- eller paketnummer
 
@@ -35,7 +35,7 @@ Beroende på din konfiguration använder du dessa olika nummer för att hålla r
 
 Artikelspårningskoden reflekterar ett företags olika regler i samband med användningen av serie- och partinummer för artiklar som flyttas i lagret.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelspårningskoder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikelspårningskoder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. På **serienr.**, **partinr.** och **paketnr.** definieras principer för artikelspårning efter serie-, parti- och paketnummer.  
@@ -66,7 +66,7 @@ För vissa artiklar kanske du vill definiera särskilda förfallodatum och -regl
 
 För vissa artiklar kanske du vill definiera specifika garantier i artikelspårningskoden. På så sätt kan du hålla reda på när garantierna för särskilda serie- eller partinummer i lagret går ut.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelspårningskoder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikelspårningskoder** och väljer sedan relaterad länk.  
 2. Välj en befintlig artikelspårningskod och välj sedan åtgärden **redigera**.  
 3. Fyll i fältet **Garanti datumformel** och markera fälten på snabbfliken **Div.**:  
 

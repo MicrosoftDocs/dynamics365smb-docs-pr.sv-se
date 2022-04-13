@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 506, 521, 9125
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 61998453cb7bd31608dd18e156ca52b5f3f11b71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: efe39fd4a4c800050deffc9c137274392f4b7dd0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137997"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515699"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
@@ -41,7 +41,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Ta bort en artikelkoppling med hjälp av kopplingsformulär
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Ange filter på Snabbfliken **Allmänt** för att göra det enklare att hitta den artikeltransaktion för vilken kopplingen ska ändras.  
 4.  Välj aktuell artikeltransaktion och klicka på åtgärden **Kopplade transaktioner**. Sidan **Visa kopplade transaktioner – Kopplade transaktioner** öppnas och visar de artikeltransaktioner som för närvarande är kopplade till den valda transaktionen.  
@@ -58,7 +58,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
 3.  Om du vill koppla om transaktioner som togs bort sedan förslaget öppnades markerar du den artikeltransaktionspost som du vill koppla om, och väljer sedan åtgärden **Omkoppla**.  
 

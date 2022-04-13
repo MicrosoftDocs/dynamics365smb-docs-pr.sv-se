@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 1ed54a63f3747d9ea5a1010206f4faac74fa90b0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372138"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510861"
 ---
 # <a name="use-time-sheets"></a>Använd tidrapporter
 
@@ -37,7 +37,7 @@ Du kan använda batch-jobbet **Skapa tidsrapporter** för att skapa tidrapporter
 > [!IMPORTANT]
 > Du måste ha behörighet för att kunna skapa tidrapporter. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **tidrapporter** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **tidrapporter** och väljer sedan relaterad länk.
 2. På sidan **Tidrapporter** väljer du åtgärden **Skapa tidrapporter**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -77,7 +77,7 @@ I detta hypotetiska exempel ska du registrera relevanta timmar under aktuella da
 
 Om din tidrapportsinformation är samma från tidsperiod till tidsperiod kan du spara tid genom att kopiera raderna från den föregående perioden. Sedan kan du ange bara din tidförbrukning för den nya perioden.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **tidrapporter** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **tidrapporter** och väljer sedan relaterad länk.  
 2. Öppna tidrapporten för en period senare än perioden för en befintlig tidrapport med rader.  
 3. Välj åtgärden **Kopiera rader från föregående tidrapport**.
 
@@ -86,7 +86,7 @@ Raderna kopieras med uppgifter som till exempel typ och beskrivning. Till exempe
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Så här kan du kopiera projektplaneringsrader till en tidrapport
 Nedan beskrivs hur du skapar snabbt lägger till projektplaneringsrader i en tidrapport.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ikonen, ange **Tidrapporter** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **Tidrapporter** och välj sedan relaterad länk.  
 2. På sidan **Tidrapporter** väljer du en tidrapport för relevant tidsperiod.  
 3. Välj åtgärden **Skapa rader från projektplanering**. Vissa projektplaneringsrader i tidrapporttidsperioden kopieras till tidrapporten för den personen eller maskinen i fältet **Resursnr.** på tidrapporten.
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 283, 5629
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f378289f5e6351b431a871110a778b4df8793bb
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 91741eea4d2ba780e7493e6aff256238bd542769
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367104"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511370"
 ---
 # <a name="allocate-costs-and-income"></a>Fördela kostnader och intäkter
 
@@ -27,13 +27,13 @@ Du kan fördela en transaktion i en redovisningsjournal på flera olika konton n
 Fördelningsfunktionerna kan användas med återkommande redovisningsjournaler och i anläggningstillgångsjournaler.
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
-I följande procedurer beskrivs hur du förbereder att fördela kostnader i en återkommande redovisningsjournal genom att definiera fördelningsnycklar. När fördelningsnycklar definieras slutför du och bokför journalen som alla andra återkommande redovisningsjournaler. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
+I följande procedurer beskrivs hur du förbereder att fördela kostnader i en återkommande redovisningsjournal genom att definiera fördelningsnycklar. När fördelningsnycklar definieras slutför du och bokför journalen som alla andra återkommande redovisningsjournaler. Mer information finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Så här skapar du fördelningsnycklar
 
 Du kan fördela en transaktion i en återkommande redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras efter kvantitet, procentuellt eller med ett belopp.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
 2. Välj fältet **Journalnamn** för att öppna sidan **redovisningsjournaler**.
 3. Du kan antingen ändra fördelningar på en befintlig journal i listan eller skapa en ny journal med fördelningar.
    * För att skapa en y journal väljer du åtgärden **Ny** och går vidare till nästa steg för att skapa en ny journal.
@@ -48,7 +48,7 @@ Du kan fördela en transaktion i en återkommande redovisningsjournal på flera 
 11. Bokför journalen.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>För att ändra en fördelningsnyckel som redan har ställts in
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
 2. Välj journalen med fördelningen på sidan **Återkommande redov.journal**.
 3. Välj raden med fördelningen och välj sedan åtgärden **fördelningar**.
 4. Fyll i de relevanta fälten och välj sedan knappen **OK**.

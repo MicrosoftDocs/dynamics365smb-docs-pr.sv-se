@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e601eb57aebd831e85c20449d32b0e52acb387a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea671a550dcada2573ae9b8e174a6e2e23051f9e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148765"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523182"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurera AMC Banking 365 Fundamentals-tillägget
 En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[prod_short](includes/prod_short.md)]. I [!INCLUDE[prod_short](includes/prod_short.md)] betecknas detta som tillägget AMC Banking 365 Fundamentals.
@@ -32,7 +32,7 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 > AMC Banking 365 Fundamentals-tillägget kan komma att begränsa antalet rader som kan exporteras i en och samma fil. Du får ett felmeddelande om gränsen överskrids. Bankutlåtandefiler bör inte överskrida 1 000 rader, detta eftersom bearbetningstiden i AMC Banking 365 Fundamentals-tillägget annars kan komma att förlängas avsevärt.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>För att registrera ditt företag för AMC Banking 365 Fundamentals-tillägget
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Installation av konv.tjänst för bankdata** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Installation av konv.tjänst för bankdata** och väljer sedan relaterad länk.  
 2. Sidan **Installation av konv.tjänst för bankdata** öppnas, med tre fält förifyllda med relevanta URL:er tillhörande leverantören av AMC Banking 365 Fundamentals-tillägget.
 
     > [!NOTE]  
@@ -49,7 +49,7 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 > Dina inloggningsdata krypteras automatiskt.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Så här visar eller uppdaterar du listan över bankdataformat som stöds för närvarande
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Installation av konv.tjänst för bankdata** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Installation av konv.tjänst för bankdata** och väljer sedan relaterad länk.
 2. På sidan **Serviceinställningar för bankdatakonv.** väljer du åtgärden **Banknamn – datakonverteringslista** för att öppna listan med banknamn som representerar bankdataformat som stöds av konverteringstjänsten.
 3. På sidan **Banknamn – datakonverteringslista** väljer du åtgärden **Uppdatera lista med banknamn**.
 

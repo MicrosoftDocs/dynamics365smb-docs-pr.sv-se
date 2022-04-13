@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130130"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510667"
 ---
 # <a name="merge-duplicate-records"></a>Slå samman dubblettposter
 När olika användare skapar nya kunder, leverantörer eller kontaktkort med tiden eller nya poster skapas automatiskt vid migrering kan kund, leverantör eller kontakt visas på system med mer än en post. I så fall kan du använda sidan **slå samman dubletter** från kortet för den post som du vill behålla. Den här sidan innehåller en översikt över dubbla fältvärden och innehåller funktioner för att välja vilka värden som ska behållas eller ignoreras när du slår samman två poster i en.
@@ -27,7 +27,7 @@ När olika användare skapar nya kunder, leverantörer eller kontaktkort med tid
 
 Följande procedur baseras på ett kundkort. Momenten är liknande för en leverantör och kontaktkort.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj den kund som du vet eller misstänker har dubblettposter och välj sedan åtgärden **redigera**.
 3. På sidan **Kundkort** väljer du åtgärden **Slå samman med**.
 4. På sidan **Slå samman dubbletter** i fältet **slå samman med** markerar du den kund som du tror är en dubblett av den som du har öppnat som anges i fältet **aktuell**.

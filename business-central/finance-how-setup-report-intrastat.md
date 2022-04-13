@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: bcf0e27710c66e71dd95710790af2c2ffd4ab5e0
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381466"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485009"
 ---
 # <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
 
@@ -27,7 +27,7 @@ Innan du kan använda intrastatjournalen för att rapportera Intrastat-informati
 * **Intrastat-inställning**: Sidan Intrastat-inställningar används för att aktivera Intrastat-rapportering och ange standardvärden för rapporten. Du kan ange om du behöver rapportera Intrastat från leveranser (utskick), inleveranser (ankomst) eller båda beroende på tröskelvärden som anges i de lokala bestämmelserna. Du kan också ange standardtransaktionstyper för vanliga och returnerade dokument, som används för transaktionsrapportering.
 * **Intrastatjournalmallar**: du måste ställa in de intrastatjournalmallar och intrastatjournaler som du kommer att använda. Eftersom intrastat rapporteras månadsvis måste skapa 12 intrastatjournaler baserade på samma mall.  
 * **Artikelkoder**: Tull- och skattemyndigheterna har fastställt numeriska koder som klassificera artiklar och tjänster. Du kan ange koder för artiklar.
-* **Koder för transaktionstyp**: länder och regioner har olika koder för olika typer av Intrastat-transaktioner, till exempel ordinär inköp och försäljning, byte av returnerade varor och byte av inte returnerade varor. Ställ in alla koder som gäller för ditt land/din region. Använd koderna på försäljnings- och inköpsdokument och när du bearbetar returer. 
+* **Koder för transaktionstyp**: länder och regioner har olika koder för olika typer av Intrastat-transaktioner, till exempel ordinär inköp och försäljning, byte av returnerade varor och byte av inte returnerade varor. Ställ in alla koder som gäller för ditt land/din region. Använd dessa koder på snabbfliken **Utlandshandel** på försäljnings- och inköpsdokument, samt när du bearbetar returer. 
 
     > [!NOTE]
     > Från och med januari 2022 kräver Intrastat olika transaktionskoder för utskick till privatpersoner eller icke momsregistrerade företag och momsregistrerade företag. För att uppfylla detta krav rekommenderar vi att du granskar och/eller lägger till nya transaktionskoder på sidan **Transaktionstyper** enligt kraven i ditt land. Du bör också granska och uppdatera fältet **Partnertyp** till *Person* för privatpersoner eller icke momsregistrerade företag på relevant **Kund**-sida. Om du är osäker på vilken partnertyp eller transaktionstyp du ska använda rekommenderar vi att du frågar en expert i ditt land eller din region. 

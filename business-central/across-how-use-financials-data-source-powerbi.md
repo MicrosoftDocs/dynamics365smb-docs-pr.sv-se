@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366349"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523221"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -82,7 +82,7 @@ Den första uppgiften i samband med att skapa rapporter är att lägga till [!IN
       - **Företagsnamn**
         - **Avancerade API:er**
 
-          I den här mappen visas avancerade API-sidor som publicerats av Microsoft, till exempel [API-automatisering för Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) och [anpassade API-sidor för Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Anpassade API-sidor grupperas ytterligare i mappar av [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property) egenskaper för API-sidans källkod.
+          I den här mappen visas avancerade API-sidor som publicerats av Microsoft, till exempel [API-automatisering för Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) och [anpassade API-sidor för Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Anpassade API-sidor grupperas ytterligare i mappar av [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)-/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property)-egenskaper för API-sidans källkod.
 
         - **Standard APIs v2.0**
 
@@ -127,7 +127,7 @@ Temafilen finns som json-fil i temagalleriet för Microsoft Power BI Community. 
 
 ### <a name="import-the-theme-on-a-report"></a>Importera temat i en rapport
 
-När du har laddat ned [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat kan du importera det i din rapport. Om du vill importera schemat väljer du **Visa** > **Teman** > **Bläddra efter scheman**. Mer information finns i [Power BI Desktop – Importera anpassade rapportscheman](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+När du har laddat ned [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemat kan du importera det i din rapport. Om du vill importera uppställningen väljer du **Visa** > **Teman** > **Bläddra efter uppställningar**. Mer information finns i [Power BI Desktop – Importera anpassade rapportuppställningar](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## <a name="publish-reports"></a>Publicera rapporter
 

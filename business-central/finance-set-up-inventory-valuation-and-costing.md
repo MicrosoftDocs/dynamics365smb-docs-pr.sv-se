@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142087"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520314"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Ställa in lagervärdering och lagerkostnad
 
@@ -42,7 +42,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Ställa in allmän lagerinformation](inventory-how-setup-general.md)  
 [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Lägga upp bästa praxis: Värderingsprincip](setup-best-practices-costing-method.md)  
-[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
+[Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  
 [Designinformation: ändra värderingsprinciper för artiklar](design-details-changing-costing-methods.md)  
 [Arbeta med Business Central](ui-work-product.md)  
 [Ekonomi](finance.md)  

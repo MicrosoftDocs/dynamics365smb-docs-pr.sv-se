@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b35eeb057566b9dde9141e9295b45a4dd7c5b7e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: efad73622be6b4495974a7df02dac47c71814622
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134310"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515173"
 ---
 # <a name="set-up-incoming-documents"></a>Ställa in inkommande dokument
 
@@ -28,7 +28,7 @@ När funktionen för Inkommande dokument är inställd, kan du använda olika fu
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>Så här konfigurerar du funktionen för inkommande dokument
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokumentkonfiguration** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inkommande dokumentkonfiguration** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Som en del av inställningen måste du bestämma om du vill kräva godkännande av inkommande dokument. Om du vill kräva godkännande måste du ställa in godkännare och arbetsflöde för godkännande. Om organisationen inte avser att kräva godkännande kan du hoppa över nästa avsnitt.  
@@ -43,7 +43,7 @@ Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du ska
 
 ## <a name="to-set-up-an-ocr-service"></a>Så här konfigurerar du en OCR-tjänst
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **OCR serviceinställningar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **OCR serviceinställningar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  

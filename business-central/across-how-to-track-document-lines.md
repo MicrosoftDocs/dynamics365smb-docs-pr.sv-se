@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6a71c817570dd1a784995bbc41f095f0ce799c6f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 831087c068a75d37c30533e18f345d8a4de6129a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138836"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522332"
 ---
 # <a name="track-document-lines"></a>Spåra dokumentrader
 Du kan visa dokument som är kopplade till försäljningsorderrader och inköpsorderrader, inklusive arkiverade orderrader. Relaterade dokument som du kan följa upp inkluderar offerter, transporter, inleveranser och avropsorder. Detta hjälper dig att identifiera dokument som används för att bearbeta order.  
@@ -22,7 +22,7 @@ Du kan visa dokument som är kopplade till försäljningsorderrader och inköpso
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Spåra dokument som är kopplade till en försäljningsorderrad
 Följande förfarande beskriver hur du spårar via en försäljningsorderrad. Stegen liknar dem för inköpsorder- och avropsorderrader.
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Öppna en försäljningsorder som du vill spåra ifrån.  
 3.  Markera en rad och välj sedan åtgärden **Spårning av dokumentrad**.
 4. På sidan **Spårning av dokumentrader** markerar du det dokument som du vill visa och väljer sedan åtgärden **Visa** för att visa relaterad rad.

@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 40642b524e44234cda8ef0bd468ff8eb47decb69
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4dda49e125445ab754ce63dc6b2fc530ca59fcc4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142269"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516984"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Tidsplanera jobb för att justera och stämma av lagerkostnader med redovisningen
 
@@ -39,7 +39,7 @@ Det kan vara knepigt att skapa jobbkötransaktioner, även för en erfaren konsu
 
 Du kan också skapa jobbkötransaktioner manuellt. I följande procedur beskrivs hur du ställer in batchjobbet **Justera inmatningar för kostn. artikel** så att detta automatiskt körs dagligen, men samma steg även gäller batchjobbet **Bokför lagerkostnad i redovisning**.  
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **jobbkötransaktioner** och välj sedan relaterad länk.  
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **jobbkötransaktioner** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I fältet **Objekttyp som ska köras** väljer du *Rapport*.  
 4. I fältet **Objekt-ID som ska köras** väljer du *795*, **Justera transaktioner för kostn. artikel**.  

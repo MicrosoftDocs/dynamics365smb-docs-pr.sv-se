@@ -10,12 +10,12 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d611a245797fd20382f79deb35d8d598a8fe3565
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6fa22b84284d05d77bd04919403435d99050cded
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382957"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517797"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Så här stämmer du av kundutbetalningar från en lista med obetalda försäljningsdokument
 När kunderna har gjort betalningar till ditt elektroniska bankkonto, måste du koppla varje betalt belopp till det relaterade försäljningsdokumentet och sedan bokföra betalningen för att uppdatera kund-, redovisnings- och banktransaktioner. Beroende på ditt företagsbehov kan du få betalt och registrera den betalningen på olika sätt: manuellt, automatiskt eller via betalningstjänster.  
@@ -30,14 +30,14 @@ Betalningar för olika kunder som har olika betalningsdatum, ska bokföras som i
 ## <a name="to-set-up-the-payment-registration-journal"></a>Så här lägger du upp betalningsregistreringjournal
 Eftersom du kan bokföra olika betalningstyper till olika motkonton måste du välja ett motkonto på sidan **Inställning av betalningsregistrering** innan du börjar att behandla kundbetalningar. Om du alltid bokför samma motkonto, kan du ange det konto som standard och undvika detta steg varje gång som du öppnar sidan **Registrera kundbetalningar**.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställning av betalningsregistrering** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inställning av betalningsregistrering** och väljer sedan relaterad länk.
 
     Alternativt kan du på sidan **Registrera kundbetalningar** välja åtgärden **Inställning**.    
 2. Fyll i fälten på sidan **Inställning av betalningsregistrering**. Välj ett fält om du vill få en kort beskrivning av fältet eller länken till relaterad information.  
 
 ## <a name="to-register-customer-payments-individually"></a>Registrera kundbetalningar individuellt.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Registrera kundbetalningar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Registrera kundbetalningar** och väljer sedan relaterad länk.  
 
     Sidan **registrera kundbetalningar** visar alla bokförda dokument som en betalning kan registreras för. Sidan kan även öppnas från sidorna **Kunder** och **Kundkort** där den filtreras automatiskt för den angivna kunden.  
 2. Markera kryssrutan **Utförd betalning** på raden som representerar bokfört dokument som en betalning har gjorts för.
@@ -55,7 +55,7 @@ Den angivna betalningsinformationen bokförs för de dokument som representeras 
 Betalningstransaktioner bokförs på redovisningskonton, bankkonton och kundkonton. Varje betalning kopplas till det relaterade bokförda försäljningsdokumentet.  
 
 ## <a name="to-reconcile-lump-sum-payments"></a>Stämma av betalning av klumpsumma
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsregistrering** och väljer sedan relaterad länk.
 2. Markera kryssrutan **Utförd betalning** på raderna som representerar bokförda dokument för samma kund som en klumpbetalning har gjorts för.  
 
     > [!NOTE]  

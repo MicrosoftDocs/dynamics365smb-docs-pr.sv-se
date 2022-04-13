@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 21a9fb4f38b6960389ec216e638cf06694eca07a
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381412"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515621"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Ställa in analysvy för kassaflöde
 Om du vill ha hjälp att bestämma vad som ska ske med dina likvida medel kan du titta på diagrammen i rollcentret Revisor:  
@@ -68,14 +68,14 @@ Så här använder du guiden för assisterad konfiguration:
 
 1. I rollcentret Revisor, under diagrammet **kassaflödesprognos** väljer du åtgärden **Öppna assisterad konfiguration**.  
 2. Fyll i fälten som behövs i varje steg i guiden.  
-3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kassaflödesprognos** och väljer sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kassaflödesprognos** och väljer sedan relaterad länk.
 4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 Så här använder du en manuell process:  
 
 1. I rollcentret revisor söker du **Kassaflödesinställningar**, och väljer sedan relaterad länk.  
 2. Expandera snabbfliken **Azure AI** och markera sedan kryssrutan **Azure AI aktiverad**.  
-3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kassaflödesprognos** och väljer sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kassaflödesprognos** och väljer sedan relaterad länk.
 4. På sidan **Kassaflödesprognos** kan välja åtgärden **Omberäkna prognos**.  
 
 > [!TIP]  
@@ -121,7 +121,7 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 3. Använd ditt Microsoft-konto för att registrera dig för en arbetsyta och kopiera sedan modellen.  
 4. Kör modellen och publicera den som en webbtjänst.  
 5. Gör en anteckning av API-URL och API-nyckel. Du använder denna information för en kassaflödesinställningar.  
-6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kassaflödesinställningar** och väljer sedan relaterad länk.  
+6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kassaflödesinställningar** och väljer sedan relaterad länk.  
 7. Expandera snabbfliken **Azure AI** och fyll i fälten.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

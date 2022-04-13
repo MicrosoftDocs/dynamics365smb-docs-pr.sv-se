@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: f1266ada40085e1999b9ea49281e8c5ec73f8394
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99f6507eccebc91c9f530e05ad95ae4b23d5e1e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134180"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523106"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visa arkiverade instanser för arbetsflödessteg
 Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**.  
@@ -22,12 +22,12 @@ Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade i
  På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Så här visar du arkiverade instanser för arbetsflödessteg  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2.  Öppna arbetsflödet som du vill visa alla arkiverade arbetsflödessteginstanser för.  
 3.  På sidan **Arbetsflöde** väljer du åtgärden **Arkiverade instanser för arbetsflödessteg**.  
 
     Sidan **Arkiverade instanser för arbetsflödessteg** öppnas med arkiverade instanser för arbetsflödessteg för det valda arbetsflödet.  
-4.  Stäng alternativt ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **arkiverade instanser för arbetsflödessteg** och välj sedan relaterad länk.  
+4.  Stäng alternativt ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **arkiverade instanser för arbetsflödessteg** och välj sedan relaterad länk.  
 
 Sidan **Arkiverade instanser för arbetsflödessteg** öppnas och visar alla arkiverade instanser för arbetsflödessteg. I fältet **Arbetsflödeskod** kan du se vilket arbetsflöde den arkiverade instansen för arbetsflödessteg tillhörde.  
 

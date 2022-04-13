@@ -1,6 +1,6 @@
 ---
 title: Periodisera intäkter och kostnader
-description: För att känna igen en intäkt eller kostnad i en period som transaktionen inte bokfördes i, kan du använda funktioner för att automatiskt periodisera eller skjuta upp dem över ett angivet schema.
+description: För att känna igen en intäkt eller kostnad i en period som transaktionen inte bokfördes i, kan du använda funktioner för att automatiskt periodisera eller skjuta upp dem över en angiven uppställning.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,22 +10,22 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 329a8db8dbae65f08ab4f0d12db43cde143077af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2feba527e33c2ded3275392420b3075cdab4228f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138049"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512998"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisera intäkter och kostnader
 
-För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera intäkter och kostnader över ett angivet schema.
+För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera intäkter och kostnader över en angiven uppställning.
 
 Om du vill fördela kostnader eller intäkter i berörda bokföringsperioder kan du skapa en periodiseringsmall för resursen, artikeln eller redovisningskontot som kostnaden eller intäkten kommer att bokföras för. När du bokför relaterade försäljnings- eller inköpsdokument, periodiseras kostnaden eller intäkten till de relevanta bokföringsperioderna, enligt en periodiseringsschema som styrs av inställningarna i periodiseringsmallen och bokföringsdatumet.
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Så här anger du ett redovisningskonto för periodisering
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten som behövs för att skapa ett redovisningskonto för periodiserade intäkter. Mer information finns i [Redovisning och kontoplan](finance-general-ledger.md).
 4. Upprepa steg 2 och 3 för att skapa ett nytt redovisningskonto för periodiserade kostnader.
@@ -34,7 +34,7 @@ För båda typerna av periodisering väljer du **balansräkningen** i fältet **
 
 ## <a name="to-set-up-a-deferral-template"></a>Så här skapar du en periodiseringsmall
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **periodiseringsmallar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **periodiseringsmallar** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs.
 4. I fältet **Beräkningsmetod** anger du hur fältet **Belopp** för varje period på sidan **Periodiseringsschema** beräknas. Du kan välja mellan följande typer:
@@ -59,7 +59,7 @@ Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodisera
 > [!NOTE]  
 > Stegen i den här proceduren är desamma som när du tilldelar en periodiseringsmall till ett redovisningskonto eller en resurs.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikel** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikel** och väljer sedan relaterad länk.
 2. Öppna kortet för den artikel som intäkter och kostnader måste periodiseras för till de bokföringsperioder när artikeln såldes eller köptes.
 3. I fältet **Standardmall för periodisering** väljer du relevant periodiseringsmall.
 
@@ -75,7 +75,7 @@ Exempel: bokföringsdatumet är 2016-02-06. Om du anger ”kostnader periodisera
 3. Välj åtgärden **periodiseringsmall**.
 4. På sidan **Periodiseringsschema** ändrar du inställningar i rubriken eller värden på raderna, till exempel för att periodisera beloppet till en ytterligare bokföringsperiod.
 5. Välj åtgärden **Beräkna schema**.
-6. Välj **OK**. Periodiseringsschemat uppdateras för försäljningsfakturan. Den relaterade periodiseringsmallen är oförändrad.
+6. Välj **OK**. Periodiseringsuppställningen uppdateras för försäljningsfakturan. Den relaterade periodiseringsmallen är oförändrad.
 
 ## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Om du vill förhandsgranska hur periodiserade intäkter eller kostnader ska bokföras i redovisningen
 

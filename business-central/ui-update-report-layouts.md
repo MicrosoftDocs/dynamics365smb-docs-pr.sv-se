@@ -1,7 +1,7 @@
 ---
 title: Uppdatera anpassade rapportlayouter
 description: Lär dig uppdatera en anpassad rapportlayout som används i en rapport när det finns designändringar i rapportens datauppsättning.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144625"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517218"
 ---
-# <a name="update-custom-report-layouts"></a>Uppdatera anpassade rapportlayouter
+# <a name="legacy-update-custom-report-layouts"></a>(Äldre) Uppdatera anpassade rapportlayouter
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Ibland kan du behöva uppdatera en anpassad rapportlayout som används i en rapport. Det krävs när en designändring har skett för rapportens datauppsättning, till exempel att ett fält som används i layouten har tagits bort från rapportdatauppsättningen. Om en rapportlayout kräver att uppdatering kommer du att få ett felmeddelande när du försöker att förhandsgranska, skriva ut eller spara rapporten.  
 
@@ -28,9 +30,9 @@ Alla rapportdatauppsättningsändringar kan inte uppdateras automatiskt i rappor
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Så här uppdaterar du en eller flera anpassade rapportlayouter  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Rapportlayouter** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
 
-2.  På sidan **rapportlayouter**, om du vill uppdatera in en viss layout i listan, väljer du layouten från listan och sedan åtgärden **uppdatera layouten**. Eller, om du vill uppdatera alla standardrapportlayouter för företaget, klickar du på åtgärden **uppdatera alla layouter**.  
+2.  På sidan **rapportlayoutval**, om du vill uppdatera in en viss layout i listan, väljer du layouten från listan och sedan åtgärden **uppdatera layouten**. Eller, om du vill uppdatera alla standardrapportlayouter för företaget, klickar du på åtgärden **uppdatera alla layouter**.  
 
 Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel uppstår visas ett meddelande med felen. Då måste du åtgärda felen genom att redigera den anpassade rapportlayouten manuellt. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
 
@@ -66,7 +68,7 @@ Försök att uppdatera layouten på nytt när du har ändrat layouten.
 
 ## <a name="see-also"></a>Se även  
  [Hantera rapportlayouter](ui-manage-report-layouts.md)  
- [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
+ [Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

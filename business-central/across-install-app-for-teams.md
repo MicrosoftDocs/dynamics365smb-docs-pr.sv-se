@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141521"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516453"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams
 
@@ -59,8 +59,8 @@ Det här alternativet är det snabbaste sättet att installera appen.
 4. Välj appen när du hittar den.
 5. Välj **Lägg till**.
 
-> [!NOTE]
-> Med båda alternativen kan du uppmanas att logga in på [!INCLUDE [prod_short](includes/prod_short.md)]. Markera länken **logga in** och följ instruktionerna för att ange inloggningsnamn och lösenord för [!INCLUDE [prod_short](includes/prod_short.md)].
+> [!TIP]
+> Om du klistrar in en länk på en Business Central-sida i en gruppkonversation och du inte har appen installerad, får du ett meddelande liknande detta: **Business Central vill visa en förhandsgranskning av den här länken.** Om du vill installera appen väljer du **Visa förhandsgranskning** och följer instruktionerna.
 
 **Alternativ 3: Från Business Central**
 
@@ -68,6 +68,9 @@ Det här alternativet är det snabbaste sättet att installera appen.
 2. Välj den ![Förstoringsglas som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Hämta Business Central-appen för Teams** och sedan välja relaterad länk.  
 3. Välj **Hämta appen i butiken**.
 4. Vänta tills Teams öppnas och Business Central-appen visas och välj sedan **Lägg till**.
+
+> [!NOTE]
+> Oavsett alternativ kan du komma att uppmanas att logga in på [!INCLUDE [prod_short](includes/prod_short.md)]. Markera länken **logga in** och följ instruktionerna för att ange inloggningsnamn och lösenord för [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Nästa steg
 

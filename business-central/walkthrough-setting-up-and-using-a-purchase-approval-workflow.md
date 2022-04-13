@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138186"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520080"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
 
@@ -51,7 +51,7 @@ När du har loggat in som dig själv ställer du in Alicia som en godkännandean
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Så här ställer du in dig själv och Alicia som godkännandeanvändare
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2. Å¨sidan **Användarinställningar för godkännande** väljer du åtgärden **Ny**.  
 
     > [!NOTE]  
@@ -92,7 +92,7 @@ Skapa arbetsflödet för godkännande av inköpsorder genom att kopiera stegen f
     Sidan **Arbetsflöde** öppnas för ett nytt arbetsflöde som innehåller all information för den valda mallen. Värdet i fältet **Kod** utökas med *-01* i syfte att ange att detta är det första arbetsflöde som skapats från arbetsflödesmallen **Arbetsflöde för godkännande av inköpsorder**.  
 4. I huvudet på fönstret **Arbetsflöde** markerar du kryssrutan **Aktiverad**.  
 
-## <a name="using-the-approval-workflow"></a>Använda godkännandearbetsflödet
+## <a name="use-the-approval-workflow"></a>Använda godkännandearbetsflödet
 
 Använd det nya arbetsflödet Arbetsflöde för godkännande av inköpsfaktura genom att först logga in på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia för att begära godkännande av en inköpsorder. Logga sedan in som dig själv, visa anteckningen i rollcentret, följ länken till godkännandebegäran och godkänn begäran.  
 

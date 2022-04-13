@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6039739825964ce059a4f76d1e92f32b581c60a7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe6f144b8513f651293f56e10ecf3020c1d0760
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144755"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517745"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Skapa återkommande försäljnings- och inköpsrader
 Om du ofta behöver skapa försäljnings- och inköpsrader med liknande information, kan du ställa in standardraderna så att du sedan kan infoga på återkommande försäljning och inköpsdokument, till exempel för återkommande påfyllningsorder.  
@@ -23,7 +23,7 @@ I följande procedur visas hur du arbetar med in standardförsäljningsrader på
 
 ## <a name="to-set-up-recurring-sales-lines"></a>Så här skapar du återkommande försäljningsrader
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **återkommande försäljningsrader** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **återkommande försäljningsrader** och väljer sedan relaterad länk.  
 2. På sidan **Återkommande försäljningsrader** väljer du åtgärden **Ny**.  
 3. I snabbfliken **Allmänt** fyller du i nödvändiga fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I snabbfliken **Rader** ange information i fälten för att förbereda försäljningsrader som återspeglar de standardrader som du förväntar dig att använda som återkommande rader på försäljningsdokument.  
@@ -37,7 +37,7 @@ I följande procedur visas hur du arbetar med in standardförsäljningsrader på
 
 Tilldela en eller flera återkommande försäljningsrader till en kund så att dessa kan läggas in i försäljningsdokument för kunden.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kortet för ett relevant kund.
 3. Välj åtgärden **Få återkommande förs.rader**.
 4. På sidan **Återkommande försäljningsrader**, välj koderna för återkommande försäljningsrader som du vill infoga i ett försäljningsdokument för kunden.
@@ -59,7 +59,7 @@ Tilldela en eller flera återkommande försäljningsrader till en kund så att d
 
 Om det finns återkommande försäljningsrader för kunden kan du infoga dem (eller få dem infogade) i alla typer av försäljningsdokument, t. ex. en försäljningsfaktura. Om du har aktiverat alternativen **Fråga alltid** får du information om återkommande försäljningsrader finns.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **fakturor** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **fakturor** och väljer sedan relaterad länk.
 2. Öppna den försäljningsfaktura du vill infoga en eller flera standardförsäljningsrader på.
 3. Välj åtgärden **få återkommande förs.rader**.
 4. På sidan **återkommande försäljningsrader** välj sökknappen i fältet **kod** och välj sedan en uppsättning standardförsäljningsrader.

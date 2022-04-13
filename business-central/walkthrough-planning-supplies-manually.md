@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e9bd9e44a92c952fe01636b1ef724491e479cf1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7127569153ee98aaadcbb807432d852a4f22d0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145244"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518711"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
 
@@ -55,7 +55,7 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 ## <a name="setting-up-the-sample-data"></a>Ställa in exempeldata  
  Standarddemonstrationsföretaget CRONUS har för närvarande en stor mängd oplanerad efterfrågan. Under de olika planeringsaktiviteterna i den här genomgången måste du avvika från det realistiska verksamhetsflödet genom att ignorera efterfrågan med tidiga förfallodatum och i stället använda efterfrågan med senare förfallodatum.  
 
-## <a name="using-the-order-planning-page"></a>Använda sidan Orderplanering  
+## <a name="use-the-order-planning-page"></a>Använd sidan Orderplanering  
 
 Du kommer åt sidan **Orderplanering** från flera olika platser:  
 

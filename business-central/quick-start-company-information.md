@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133660"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417619"
 ---
 # <a name="company-information-quick-start"></a>Företagsinformation snabbstart
 
@@ -25,19 +26,14 @@ Du kan ange alla relevanta data på sidan **företagsinformation** när du uppr�
 ## <a name="to-set-up-company-information"></a>Ställa in företagsinformation  
 
 1. Välja ![Kugghjulsikon för att öppna menyn Inställningar.](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Företagsinformation**.
-2. Ange informationen i snabbflikarna enligt beskrivningen i följande tabell.
+2. Ange informationen i snabbflikarna enligt beskrivningen i följande tabell. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Fält|Beskrivning|  
-    |-------------|---------------------------------------|  
-    |**Allmänt**|Ange allmän information om företaget, till exempel en logotyp, eftersom den kommer att visas på kundens dokument, till exempel fakturor som du skickar ut. |  
-    |**Kommunikation**|Ange den grundläggande kontaktinformationen för företaget, till exempel telefonnummer och e-postadress.|  
-    |**Betalningar**| Fyll i relevant bankinformation för att försäkra dig om att kunderna kommer att kunna betala dig.|  
-    |**Leverans**|Fyll i relevant leveransinformation så att du kan skicka och ta emot varor från och till företaget.|  
-    |**Moms**|Beroende på vilket land du bor i kan du komma åt den fasta fliken moms. Om det är tillgängligt fylls det i.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 När du har fyllt i informationen kan du stänga sidan.  
 
 ## <a name="see-also"></a>Se även  
 
+[Företagsinformation, översikt](admin-company-information.md)  
+[Ställa in företagsinformation i Italien](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
-[Ställa in företagsinformation](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: reimbursement
 ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a8f731dd91d69ad7fa74f5755be519d10bc58667
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f02161c813719a00cc3d6935fddc99f0a8335e6d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135425"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515147"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Skapa och återbetala de anställdas utgifter
 
@@ -35,8 +35,8 @@ Om medarbetare lägger ut sina egna pengar under affärsaktiviteter, kan du bokf
 
 Du bokför anställdas utgifter på sidan **redovisningsjournal**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.  
-2. Öppna relevant buntnamn för redovisningsjournalen. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.  
+2. Öppna relevant redovisningsjournal. Mer information finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
 3. Fyll i fälten på en ny journalrad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]
@@ -51,9 +51,9 @@ Du bokför anställdas utgifter på sidan **redovisningsjournal**.
 
 Du återbetalar en medarbetare genom att bokföra betalningar till dennes bankkonto på sidan **betalningsjournal**.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.
-2. Öppna relevant buntnamn för utbetalningsjournal. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
-3. Fyll i fälten om det behövs. Mer information finns i [Gör betalningar](payables-make-payments.md).
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.
+2. Öppna relevant buntnamn för utbetalningsjournal. Mer information finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
+3. Fyll i fälten om det behövs. Mer information finns i [Utföra betalningar](payables-make-payments.md).
 4. Du kan också välja **föreslå betalning för medarbetare** för att automatiskt infoga journalrader för väntande medarbetare återbetalningar.
 5. Om du vill registrera återbetalningen väljer du åtgärden **Bokför**.  
 
@@ -63,7 +63,7 @@ Du kopplar betalningar för medarbetare till deras relaterade öppna transaktion
 
 ## <a name="see-also"></a>Se även
 
-[Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
+[Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)  
 [Ekonomi](finance.md)  

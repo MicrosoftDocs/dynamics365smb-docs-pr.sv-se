@@ -10,12 +10,12 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.search.form: 1660, 1661, 36601
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2bd2ab34093bc3aac8ff7d470936a39da893cf82
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2f4d5d7ab215a46e89551642739470d68cec761b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147758"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515069"
 ---
 # <a name="importing-payroll-transactions"></a>Importera lönetransaktioner
 
@@ -26,7 +26,7 @@ För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste d
 
 ## <a name="to-import-a-payroll-file"></a>Att importera en lönefil
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.
 2. I relevant redovisningsjournal väljer du åtgärden **Importera lönetransaktioner**. En assisterad inställningsguide öppnas.
 3. Följ anvisningarna på sidan **Importera lönetransaktioner**.
 

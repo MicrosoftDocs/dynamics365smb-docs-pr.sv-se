@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e93c4d5abd6b6c3136e95838d10895a8fb1b2b90
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b6f6a19787f1fd2630cf3bc3a6882dc17f0d6bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134552"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514315"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Föra in produktions- eller monteringsutflöde
 
@@ -32,14 +32,14 @@ I avancerade lagerkonfigurationer där ditt lagerställe kräver både artikelin
 Det första steget när du skapar ett utflöde är att skapa det inkommande distributionslagerkravet. Förfrågan informerar distributionslagret att produktions- eller monteringsordern utflöde är klart för artikelinförsel.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>Så här skapar du det inkommande distributionslagerkravet  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
 2.  På produktionsordern som är klar för artikelinförsel väljer du åtgärden **Skapa inkommande dist.lagerbegäran**.  
 
 > [!NOTE]  
 > Du kan också skapa inkommande distributionslagerkrav genom att välja fältet **Skapa inkommande begärande** när du uppdaterar produktionsordern. Mer information finns i [Uppdatera eller omplanera produktionsorder](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>Så här för du in utflöde med Lagerartikelinförsel:  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
 2.  Skapa en ny lagerinförsel. Mer information finns i [Införa artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Om du vill komma åt produktionsorderns utflöde väljer du åtgärden **Hämta källdokument** och väljer den släppta produktionsordern.  
 4.  Fyll i artikelinförselraderna efter behov.

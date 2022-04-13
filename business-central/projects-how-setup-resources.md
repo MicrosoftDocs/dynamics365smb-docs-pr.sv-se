@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137425"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520896"
 ---
 # <a name="set-up-resources-for-projects"></a>Konfigurera resurser för projekt
 
@@ -26,27 +26,29 @@ När resurser är förbrukade eller sålda i ett projekt hämtas associerade pri
 Du kan ange standardbeloppet per timme när resursen skapas. Om du till exempel använder en viss maskin för ett projekt i 5 timmar beräknas projektet baserat på beloppet per timme.
 
 > [!NOTE]
-> Du kan också köpa externa resurser om du t. ex. vill fakturera en leverantör för levererat arbete. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).<br /><br />
-> I så fall rekommenderas du att namnge eller gruppera sådana externa resurser i syfte att ange deras syfte så att de inte förväxlas med de interna resurserna.
+> Du kan också köpa externa resurser om du t.ex. vill fakturera en leverantör för levererat arbete. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).<br /><br />
+> För externa resurser rekommenderar vi att du namnger eller grupperar dem så att de inte förväxlas med dina interna resurser.
+>  
+> Om du bokför koncerninterna transaktioner, även om du kan en resurs till en rad på en försäljningsorder, och du omvandlar försäljningsordern till en inköpsorder på den mottagande sidan, tas inte resursen med. Använd koncerninterna inköpstransaktioner om du vill använda fältet **Ink.red.ktonr konc.int partner** på resurskortet för att ange på vilket konto utgifterna ska bokföras.
 
 ## <a name="to-set-up-a-resource"></a>Så här skapar du resurser
 Skapa ett kort för varje resurs som du vill använda i projekt.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Så här skapar du en resursgrupp
 Du kan kombinera flera resurser i en resursgrupp. All kapacitet och budget i resursgrupperna samlas från de individuella resurserna. Det är också möjligt att skriva in resursgruppskapacitet, antingen oberoende av de samlade värdena eller som tillägg till dem.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Resursgrupper** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resursgrupper** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Ställa in kapaciteten för en resurs
 För att beräkna hur lång tid en resurs kan läggas på projekt, måste deras kapacitet först ställas in som tillgänglig tid per period i arbetskalendern. Denna inställning används när du fyller i projektplaneringsrader som innehåller resursen. Mer information finns i [Skapa projekt](projects-how-create-jobs.md).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.
 2. Öppna det relevanta resurskortet och välj sedan åtgärden **Resurskapacitet**.
 3. På sidan **Resurskapacitet** ställer du i fältet **Visa per** in periodlängden, exempelvis **Dag**, som visas i kolumnerna på **Matris för resurskapacitet** på snabbfliken.
 4. För varje resurs på en rad anger du för respektive period i kolumnerna hur många timmar som resursen är tillgänglig.

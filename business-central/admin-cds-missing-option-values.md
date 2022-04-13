@@ -1,21 +1,22 @@
 ---
 title: Hantera alternativvärden som saknas
-description: Lär dig mer om hur du förhindrar fullständig synkronisering från att misslyckas eftersom alternativen skiljer sig åt i mappade fält. De processer som beskrivs kräver hjälp av en utvecklare.
+description: Lär dig mer om hur du förhindrar fullständig synkronisering från att misslyckas eftersom alternativen skiljer sig åt i mappade fält. Denna process kräver hjälp av en utvecklare.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383379"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512496"
 ---
 # <a name="handling-missing-option-values"></a>Hantera alternativvärden som saknas
-
+> [!NOTE]
+> I 2022 utgivningscykel 1 kan du skapa egna alternativmappningar. Mer information finns i [Anpassa alternativmappningar med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). De nya funktionerna kräver att administratören aktiverar **funktionsuppdatering: Mappa till alternativuppsättningar i Dataverse utan kod** på sidan **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Detta ämne är avsett för en teknisk publik. De processer som beskrivs kräver hjälp av en utvecklare.
 

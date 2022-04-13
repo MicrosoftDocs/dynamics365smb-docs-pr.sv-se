@@ -7,49 +7,60 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621
-ms.date: 04/01/2021
+ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7efbc6f80eb59b9f0be1640ea2bf6cb57afea4c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f5bbbe30730057093f8550cef27a514cbc20a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131775"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515543"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Ställa in bokföring av koncerninterna transaktioner
 
-Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) från ett företag och att motsvarande transaktion (till exempel en inköpsjournalrad) skapas automatiskt i partnerföretaget, måste de berörda företagen komma överens om en gemensam kontoplan och ange vilka dimensioner som ska användas för koncerninterna transaktioner. Den koncerninterna kontoplanen kan till exempel vara en förenklad version av moderbolagets kontoplan. Varje företag kopplar sin fullständiga kontoplan till den gemensamma kontoplanen, och varje företag kopplar sina dimensioner till de företagsinterna dimensionerna.  
+Koncern intern bokföring gör redovisningen av ett eller flera företag en enklare uppgift för en centraliserad ekonomi och bokföringsansvarig i ett koncerninternt partnerföretag. Om du vill skicka en transaktion (till exempel en försäljningsjournalrad) från ett företag och att motsvarande transaktion (till exempel en inköpsjournalrad) skapas automatiskt i partnerföretaget, måste de berörda företagen komma överens om en gemensam kontoplan och ange vilka dimensioner som ska användas för koncerninterna transaktioner. Den koncerninterna kontoplanen kan till exempel vara en förenklad version av moderbolagets kontoplan. Varje företag kopplar sin fullständiga kontoplan till den gemensamma kontoplanen, och varje företag kopplar sina dimensioner till de företagsinterna dimensionerna.  
 
-Du måste också ställa in en koncernintern partnerkod för varje partnerföretag som godtas av alla företag, och sedan tilldela den till kundkort respektive leverantörskort genom att fylla i fältet **Koncernintern partnerkod**.  
+Du måste också ställa in en koncernintern partnerkod för varje [!INCLUDE [prod_short](includes/prod_short.md)] företag som godtas av alla företag, och sedan tilldela den till kundkort respektive leverantörskort.  
 
 Om du vill skapa eller ta emot koncerninterna rader med artiklar kan du använda egna artikelnummer eller lägga upp partnerns artikelnummer för artikeln. Det gör du antingen i fältet **Leverantörens artikelnr** eller i fältet **Gemensamt artikelnr** som är kopplat till artikelkortet. Du kan också använda funktionen **Referens för objekt** för att mappa dina objektsnummer med dina koncerninterna partnerbeskrivningar för objekten, öppna kortet för respektive objekt och sedan välja åtgärden **Artikelreferenser** för att konfigurera referenser mellan dina artikelbeskrivningar och den koncerninterna partnerns. Mer information finns i [Använd artikelreferenser](inventory-how-use-item-cross-refs.md). 
 
-Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår måste du fylla i fältet **Ink.red.ktonr konc.int partner** på den aktuella resursens resurskort. Det här är numret på det koncerninterna redovisningskontot i partnerföretaget som beloppet för resursen ska bokföras på. Mer information finns i [Ange resurser](projects-how-setup-resources.md).
+Om du ska skapa koncerninterna försäljningstransaktioner där resurser ingår måste du fylla i fältet **Ink.red.ktonr konc.int partner** på den aktuella resursens resurskort. Det här är numret på det koncerninterna redovisningskontot i partnerföretaget som beloppet för resursen ska bokföras på. Mer information finns i [Ange resurser](projects-how-setup-resources.md). 
 
-## <a name="to-set-up-companies-for-intercompany-transactions"></a>Så här konfigurerar du företag för koncerninterna transaktioner.
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.  
-2. På sidan **företagsinformation** fyller du i fälten **Koncernintern partnerkod**, **Typ av koncernintern inkorg**. och **Uppgifter om koncernintern inkorg**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Koncerninterna inköpstransaktioner som inkluderar resurser, anläggningstillgångar och artikelomkostnader stöds inte fullt ut. I din koncerninterna partner kommer fältet **Radtyp** att vara tomt på inköpsdokument rader där dessa enheter ingår. Du måste uppdatera fältet manuellt. 
 
-## <a name="to-set-intercompany-partners"></a>För att konfigurera koncerninterna partners
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **koncernintern partner** och väljer sedan relaterad länk.
+## <a name="to-set-up-a-company-for-intercompany-transactions"></a>Så här konfigurerar du företag för koncerninterna transaktioner
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **koncernintern inställning** och väljer sedan relaterad länk.  
+2. På sidan **Koncernintern inställning** fyller du i fälten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+  > [!NOTE]
+  > 2022 utgivningscykel 1 presenterar en ny **koncerninterna inställningar** så att du också kan ange om detta företag automatiskt måste skapa journalrader baserat på en koncernintern partners inlägg från sidan **Konc.int. redovisningsjournal**. Om organisationen har använt [!INCLUDE [prod_short](includes/prod_short.md)] måste du växla till den nya upplevelsen på sidan **funktionshantering**. Mer information finns i [Automatiskt acceptera transaktioner för koncerninterna journaler](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/intercompany-postings-have-auto-accept-transaction-enabled-intercompany-general-journals).
+
+I versioner äldre än 2022 utgivningscykel 1 måste du fylla i tre fält för koncern intern hantering på sidan **företagsinformation** i stället.  
+
+## <a name="to-set-up-intercompany-partners"></a>Konfigurera koncerninterna partner
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **koncernintern partner** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Koncerninterna partners** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Upprepa steg 2 och 3 för alla andra företag som ingår i den här koncerninterna inställningen.
 
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du inte använda filplats för att överföra transaktioner till dina partners eftersom [!INCLUDE[prod_short](includes/prod_short.md)] inte har åtkomst till ditt lokala nätverk. Om du väljer **Filplats** i fältet **Överföringstyp** kommer fältet **Mappsökväg** inte att vara tillgängligt. Filen kommer istället att laddas ned till mappen Hämtningar på din dator. Du kan sedan skicka filen till någon i partnerföretaget, exempelvis via e-post. För en mer direkt process rekommenderar vi att du väljer **E-postmeddelande** istället.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Så här ställer du in koncerninterna leverantörer och koncerninterna kunder
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Du kan också komma åt leverantören från fältet **Leverantörsnr** på sidan **Koncerninterna partners**.
 3. Öppna kortet för en leverantör som är en koncernintern partner. Mer information finns i [Registrera nya leverantörer](purchasing-how-register-new-vendors.md).
 4. I fältet **Koncernintern partnerkod** markerar du den relevanta koncernintern partnerkoden.
 5. Upprepa steg 1 till och med 4 för kunder.
 
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>Så här ställer du in koncernintern kontoplan
-Om en koncern med flera företag ska kunna göra koncerninterna transaktioner måste de komma överens om en kontoplan som de använder som gemensam referens. Du måste komma överens med partnerföretagen om de kontonummer som ska användas när ni skapar koncerninterna transaktioner. Koncernens moderbolag skapar till exempel en förenklad version av sin kontoplan och exporterar den koncerninterna kontoplanen från företagets databas till en XML-fil som distribueras till alla företag inom koncernen.  
+Om en koncern med flera företag ska kunna göra koncerninterna transaktioner måste de komma överens om en kontoplan som de använder som gemensam referens. Du måste komma överens med partnerföretagen om de kontonummer som ska användas när ni skapar koncerninterna transaktioner. Till exempel skapar gruppens moderbolag en förenklad version av sin egen kontoplan och exporterar den sedan till en XML-fil som den distribuerar till varje företag i gruppen.  
 
-Om ditt företag är moderbolaget och har den definierande koncerninterna kontoplanen som din grupp kommer att använda som en gemensam referens följer du proceduren: [Konfigurera den koncerninterna kontoplanen](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
+Om kontoplanen för ditt företag definierar koncernintern kontoplan för dina partnerföretag, följ processen som beskrivs i [Konfigurera den koncerninterna kontoplanen](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
 Om ditt företag är ett dotterbolag och du har fått en XML-fil med den gemensamma koncerninterna kontoplanen följer du proceduren: [Att importera den koncerninterna kontoplanen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
@@ -92,7 +103,7 @@ När du anger ett redovisningskonto i fältet **Balanskontonr** på en koncernin
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Så här ställer du in koncerninterna dimensioner
 
-Om du och dina koncerninterna partner vill kunna utbyta transaktioner med tillhörande dimensioner måste ni komma överrens om de dimensioner som ni alla kommer att använda. Koncernens moderbolag kan till exempel skapa en förenklad version av sin uppsättning dimensioner, exportera de som koncerninterna dimensioner till en XML-fil och distribuera den till företagen i koncernen. Varje dotterbolag importerar sedan XML-filen till sidan **Koncerninterna dimensioner** och kopplar de koncerninterna dimensionerna till dimensionerna i deras egen **Dimensions**-sida.  
+Om du och dina koncerninterna partner vill kunna utbyta transaktioner med tillhörande dimensioner måste ni komma överrens om de dimensioner som ni alla kommer att använda. Till exempel skapar gruppens moderbolag en förenklad version av sin egen uppsättning mått och exporterar den sedan till en XML-fil som den distribuerar till varje företag i gruppen. Varje dotterbolag importerar sedan XML-filen till sidan **Koncerninterna dimensioner** och kopplar de koncerninterna dimensionerna till dimensionerna i deras egen **Dimensions**-sida.  
 
 > [!NOTE]
 > Varje företag i [!INCLUDE [prod_short](includes/prod_short.md)] måste mappa dimensioner till koncerninterna dimensioner för utgående dokument, samt mappa koncerninterna dimensioner till sina egna dimensioner för inkommande dokument. Denna mappning hjälper till att säkerställa konsekvensen i de olika företagen. Mer information finns i avsnittet [Mappa koncerninterna dimensioner till företagets dimensioner](#to-map-intercompany-dimensions-to-your-companys-dimensions).

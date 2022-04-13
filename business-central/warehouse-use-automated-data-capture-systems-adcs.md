@@ -10,12 +10,12 @@ ms.search.keywords: barcode
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cf0ac9f90efe234b73d4509e50502ca37dcf458e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144261"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514705"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automatiskt datainsamlingssystem)
 
@@ -37,7 +37,7 @@ Om du vill använda det automatiska datainsamlingssystemet måste du aktivera AD
 
 ## <a name="to-enable-and-publish-the-adcs-web-service"></a>För att aktivera och publicera ADCS-webbtjänsten  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Webbtjänster** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Webbtjänster** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.  
 3. På sidan **webbtjänster** anger du följande information på en ny rad:  
 
@@ -56,14 +56,14 @@ Om du ska använda ADCS måste du ange vilka distributionslagerställen som anv�
 > [!NOTE]  
 >  Vi rekommenderar att du inte ställer in ett distributionslager som ska använda ADCS, om distributionslagret dessutom har en lagerplats kapacitetsprincip.
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **placeringar** och väljer sedan relaterad länk.
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **placeringar** och väljer sedan relaterad länk.
 2.  Välj ett lager i listan som du vill aktivera för ADCS och välj **redigera**.
 3. På sidan **lagerställekort** markerar du kryssrutan **använda ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Ange ett objekt för att använda ADCS  
 Varje distributionslagerartiklar som ska användas med ADCS, måste tilldelas en identitetskod för att koppla den till dess artikelnummer. Du kan t.ex använda artikelns Streckkod som identitetskoden. En artikel kan också använda flera identitetskoder. Det kan vara praktisk i de fall där en artikel är disponibel i olika måttenheter, t.ex stycken och pallar. Tilldela varje en identitetskod, i det här fallet.    
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2.  Markera ett objekt i listan som ingår i ADCS-lösningen och välj åtgärden **redigera**.
 3. På sidan **Artikelkort** väljer du åtgärden **Identifierare**.
 4. PÅ sidan **Artikelidentifierare** väljer du åtgärden **Ny**.

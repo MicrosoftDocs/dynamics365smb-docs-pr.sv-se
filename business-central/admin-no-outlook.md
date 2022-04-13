@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79a02ba516c1359863ac552e66fce03287519a65
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ac4d66671d7eeb78c5fead20e7a43844c5d03c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144082"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517063"
 ---
-# <a name="using-business-central-without-outlook"></a>Använda Business Central utan Outlook
+# <a name="use-business-central-without-outlook"></a>Använda Business Central utan Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] har djup integrering med Microsoft 365, och du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] som en företagsinkorg i Outlook. Men om du inte har Outlook kan du arbeta med [!INCLUDE[prod_short](includes/prod_short.md)] i webbläsaren eller på en mobil enhet.  
 
 ## <a name="sending-email"></a>Skicka e-post
@@ -25,7 +25,7 @@ Du kan skicka dokument som till exempel fakturor som e-post med ditt företags e
 
 ## <a name="see-also"></a>Se även
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
-[Använda Business Central som en företagsinkorg i Outlook](admin-outlook.md)  
+[Använda Business Central som din företagsinkorg i Outlook](admin-outlook.md)  
 [Få Business Central på min mobila enhet](install-mobile-app.md)  
 [Skicka dokument som e-post](ui-how-send-documents-email.md)
 

@@ -9,12 +9,12 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5c5693b05d8590e569e0fb1b80993e35550c5ed5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138212"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518815"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Felsökning: komma åt kamera och plats
 
@@ -46,7 +46,7 @@ Kamera- och platsfunktionerna är endast tillgängliga vid åtkomst till webbkli
 Det enda undantaget anknyter till `http://localhost` används i utvecklings- och testsyfte.
 
 
-## <a name="working-with-virtualization-technologies"></a>Arbeta med virtualiseringsteknik
+## <a name="work-with-virtualization-technologies"></a>Arbeta med virtualiseringsteknik
 
 När du ansluter till [!INCLUDE[prod_short](includes/prod_short.md)] via fjärrskrivbord eller en annan virtualisering kanske inte åtkomsten till kameran eller platsen är tillgänglig. Använd i så fall det fysiska systemet i stället.
 

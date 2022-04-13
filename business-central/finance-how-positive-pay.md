@@ -10,12 +10,12 @@ ms.search.keywords: check, clearing
 ms.search.form: 1231, 1232, 1233, 1234
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a45ac4ca08f49a3ac27d93e31086ef06c167d971
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1e3ef74e8d407f9cafb2b67131167bdbfefe4872
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130572"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517556"
 ---
 # <a name="export-a-positive-pay-file"></a>Exportera en Positive Pay-fil
 För att se till att banken bara godkänner validerade checkar och belopp kan du exportera en Positive Pay-fil med relevant leverantörsinformation, checknummer och betalningsbelopp som du sedan skickar till banken som referens när du behandlar betalningar.
@@ -23,13 +23,13 @@ För att se till att banken bara godkänner validerade checkar och belopp kan du
 [!INCLUDE[prod_short](includes/prod_short.md)] är förkonfigurerat för att stödja Positive Pay-filer för Bank of America och City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Så här skapar du ett bankkonto för Positive Pay
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Öppna kortet för den bank du vill använda Positive Pay för.
 3. I fältet **Positive Pay exportkod** anger du POSPAYBANK.
 4. Stäng sidan.
 
 ## <a name="to-export-a-positive-pay-file"></a>För att exportera en Positive Pay-fil
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Välj det bankkonto som du vill exportera en Positive Pay-fil till.
 3. Välj åtgärden **Positive Pay-export**.
 
@@ -42,7 +42,7 @@ För att se till att banken bara godkänner validerade checkar och belopp kan du
 
 Så här visar du exporterade Positive Pay-poster
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Välj det bankkonto som du vill visa Positive Pay-exportposter för.
 3. Välj åtgärden **Positive Pay-transaktioner**.
 

@@ -1,22 +1,22 @@
 ---
 title: Konfigurera förskottsbetalningar
-description: Lär dig hur du konfigurerar Business Central så att du kan använda förskottsbetalningar till för att fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer.
+description: Lär dig hur du konfigurerar Business Central så att du kan använda förskottsbetalningar till för att fakturera och inkassera insättningar från kunder eller betala insättningar till leverantörer.
 author: edupont04
 ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 39870723c78bc341ecd32b031503980740151c48
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128546"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516219"
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
 
-Om du vill att din kund ska betala innan ni levererar till dem eller om er leverentör kräver att ni betalar innan dem levererar till er kan du använda Förskottsbetalningsfunktionen Förskottsbetalningar låter dig fakturera och inkassera depositioner från kunder eller betala depositioner till leverantörer och för att säkerställa att alla delbetalningar bokförs mot en faktura. För mer information, se [Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).
+Om du vill att din kund ska betala innan ni levererar till dem eller om er leverentör kräver att ni betalar innan dem levererar till er kan du använda Förskottsbetalningsfunktionen Förskottsbetalningar låter dig fakturera och inkassera insättningar från kunder eller betala insättningar till leverantörer och för att säkerställa att alla delbetalningar bokförs mot en faktura. För mer information, se [Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md).
 
 Innan du kan bokföra förskottsfakturor måste du skapa bokföringskonton i redovisningen och ange nummerserier för förskottsbetalningsdokument. Du måste ange ett konto för förskottsbetalningar som relaterar till försäljning och ett konto för förskottsbetalningar som rör inköp. Du kan ange samma bokföringskonton som ska användas för alla förskottsbetalningar som är kopplade till alla rörelsebokföringsmallar eller produktbokföringsmallar, eller så kan du ange specifika konton för särskilda bokföringsmallar för försäljning respektive inköp. Detta beror på ditt företags behov av att följa upp förskottsbetalningar.  
 
@@ -36,7 +36,7 @@ Eftersom det förutbetalda beloppet hör till köparen ända tills han/hon har m
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Så här lägger du till konton för förutbetalda poster i bokföringsinställningarna  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.
 2. På sidan **Allmänna bokföringsinställningar** fyller du i följande fält för relevanta rader:  
 
     * **Förskottsbet.konto, försäljning**  
@@ -49,13 +49,13 @@ Om du redan inte har konfigurerat redovisningskonton för förskottsbetalningarn
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Så här skapar du nummerserier för dokument för förskottsbetalning  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
 2. På sidan **Försäljningsinställningar** fyller du i följande fält på snabbfliken **Nummerserier**:  
 
    * **Försk.fakt.nr.serie (bokförd)**
    * **Försk.kredit.nr.serie (bokförd)**
 
-3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inköpsinställningar** och väljer sedan relaterad länk.
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inköpsinställningar** och väljer sedan relaterad länk.
 4. På sidan **Inköpsinställningar** fyller du i följande fält på snabbfliken **Nummerserier**:
 
     * **Försk.fakt.nr.serie (bokförd)**

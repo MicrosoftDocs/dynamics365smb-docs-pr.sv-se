@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
-ms.date: 06/22/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 3ddb1a5612eb4a2c060357b32e8209accdda7349
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2ef4432d91d9f647a4bea58febbdfd5513a4350
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147628"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520288"
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a>Ställa in eller ändra kontoplanen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Ställa in eller ändra kontoplanen
 
 Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
 Du kan dock ändra standardkontona och du kan lägga till nya konton.
@@ -25,7 +25,7 @@ Du kan dock ändra standardkontona och du kan lägga till nya konton.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="adding-or-changing-accounts"></a>Lägga till eller ändra konton
+## <a name="add-or-change-accounts"></a>Lägga till eller ändra konton
 
 Från Kontoplan kan du öppna varje Redovisningskonto och lägga till eller ändra inställningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -36,15 +36,27 @@ För konton av typen **Summa** måste fältet **Summeringsintervall** fyllas i. 
 > [!IMPORTANT]
 > Om du har angett definitioner i fälten **Summeringsintervall** för konton av typen **Till-summa** innan indragsfunktionen används, måste du ange dessa igen eftersom värdena i alla **Till-summa**-fält skrivs över med funktionen.
 
-## <a name="deleting-accounts"></a>Ta bort konton
+## <a name="delete-accounts"></a>Ta bort konton
 
 Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande förutsättningar gälla:  
 
 * Saldot på kontot måste vara noll.  
 * Fältet **Tillåt borttag. av redov.konto** måste anges på sidan **Redovisningsinställningar** och kontot får inte ha några redovisningstransaktioner på eller efter det datumet.  
-* Om fältet **Kontr. redov.kontoanv.** på sidan **Redovisningsinställningar** markeras får kontot inte användas i någon av följande bokföringsgrupper eller bokföringsinställningar.  
+* Om fältet **Kontr. redov.kontoanv.** på sidan **Redovisningsinställningar** markeras får kontot inte användas i någon av följande bokföringsmallar eller bokföringsinställningar.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kommer att förhindra att du tar bort ett redovisningskonto som lagrar data som behövs i kontoplanen.  
+
+## <a name="block-deletion-of-gl-accounts"></a>Spärra borttagning av redovisningskonton
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+I 2022 års utgivningscykel 2 införs extra skydd mot oavsiktlig borttagning av redovisningskonton även i de fall då kriterierna uppfylls.  
+
+Ett nytt fält, **Spärra radering av redovisningskonton** läggs till på sidan **Redovisningsinställningar**. Fältet fungerar som en extra validering när en användare försöker ta bort ett konto där det finns redovisningstransaktioner efter det datum som har angetts i fältet **Kontrollera borttagning av redovisningskonto efter**.
+
+Om fältet **Spärra radering av redovisningskonton** har ställts in på *Ja* kan du inte radera redovisningskonton som har transaktioner efter datumet i fältet **Kontrollera borttagning av redovisningskonto efter**. För att ett sådant konto ska kunna tas bort måste en användare med åtkomst till sidan **Redovisningsinställningar** först ställa in detta fält på *Nej*. Därefter kan kontot tas bort.  
+
+Vi rekommenderar att du ställer in fältet **Spärra radering av redovisningskonton** som *Ja*. Vi rekommenderar också att du alltid har ett datum angivet i fältet **Kontrollera borttagning av redovisningskonto efter**, till exempel den tidpunkt då du måste lagra dina ekonomidata.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -53,7 +65,7 @@ Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande f
 [Huvudbok och kontolista](finance-general-ledger.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
-[Importera data från andra finanssystem](across-import-data-configuration-packages.md)  
+[Importera data från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Arbeta med kontouppställningar](bi-how-work-account-schedule.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Avsluta resultatkonton i den franska versionen](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  

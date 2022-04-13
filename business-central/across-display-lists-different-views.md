@@ -10,12 +10,12 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2fd979106f1ec9923eb3fed5717eb7e2c05b23
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: afa3806cd0597ffe04c516f586ea58fab83c0bc2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141703"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515855"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Visa listor på olika sätt
 I högra hörnet i en lista i [!INCLUDE[prod_short](includes/prod_short.md)] kan du hitta en ikon som gör att du kan välja hur listan med poster visas. En lista kan visas som detaljerade rader, vilket är idealiskt när du behöver arbeta med många fält eller redigera fält i listan. Du kan också växla till att visa poster som paneler, vilket är mer kompakt och visar mindre fält på den specifika posten. Denna är mycket användbar för att få en översikt över flera transaktioner och är i synnerhet användbar i mindre enheter, eftersom den är kompakt och enklare att klicka på.

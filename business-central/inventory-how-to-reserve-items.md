@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dcd912dfae36e31bd2642b5f1427483f3095c19
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148570"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519706"
 ---
 # <a name="reserve-items"></a>Reservera artiklar
 Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller inkommande på öppna dokument eller journalrader. Du utför arbetet på sidan **Reservation**.
@@ -24,7 +24,7 @@ Varje rad på sidan **Reservation** som du öppnar för att reservera artiklar v
 
 ## <a name="to-reserve-items-for-sales"></a>Så här reserverar du artiklar för försäljning
 Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet är liknande för inköp, service och monteringsorder.  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  På en föräljningsorder, på snabbfliken **Rader** väljer du åtgärden **Reservera**. Sidan **Reservation** visas.  
 3. Välj den rad som du vill reservera artiklarna från.  
 4. Välj något av följande åtgärder:  
@@ -42,7 +42,7 @@ Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
 
 I det följande procedur används en fast planerad produktionsorder.   
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
 2. Öppna den fast planerade produktionsorder som du vill reservera överordnade artiklar för.  
 3. Markera relevant produktionsorderrad.  
 4. På snabbfliken **rader** i fältet **Reservera.**
@@ -54,7 +54,7 @@ Det antal som du angett på raden för den fast planerade produktionsorden har n
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
 
 I det följande procedur används en fast planerad produktionsorder.    
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
 2. Öppna den fast planerade produktionsorder som du vill reservera komponentartiklar för.  
 3. Markera relevant produktionsorderrad.  
 4. Välj **Rad** och sedan **Koppla trans.** på snabbfliken **Komponenter**.  

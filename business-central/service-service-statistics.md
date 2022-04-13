@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382669"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512894"
 ---
 # <a name="viewing-service-statistics"></a>Visa servicestatistik
 Du kan använda statistik för att analysera servicedokument och ta reda på hur bra du hanterar dina serviceprocesser. Du kan analysera servicekontrakt, artiklar, offerter, order, fakturor och kreditnotor genom att välja åtgärd **statistik**. För serviceartiklar och kontrakt kan du också använda **Serviceartikel Trendscape** eller **Kontrakt Trendscape** för att visa en översikt över servicetransaktioner för en viss serviceartikel.   
@@ -62,7 +62,7 @@ För varje transaktionstyp kan du visa fakturerat belopp, förbrukning (belopp),
 
 * (Fakturerat belopp – förbrukning (kostnaden)) x 100 / fakturerat belopp  
 
-## <a name="using-trendscapes"></a>Med hjälp av Trendscapes
+## <a name="use-trendscapes"></a>Med hjälp av Trendscapes
 För serviceartiklar och servicekontrakt, ger sidorna **Serviceartikel Trendscape** eller **Servicekontrakt Trendscape** innehåller en rullningsbar översikt över servicetransaktioner som skapas i en viss tid för en viss serviceartikel eller kontrakt. Visa trendscape genom att öppna servicekontraktet eller serviceartikeln, välj åtgärden **statistik**, och välj sedan **Trendscape**.
 
 När du rullar i listan beräknas beloppen enligt den lokala valutan enligt det valda tidsintervallet. Alla belopp beräknas från servicetransaktioner, som är transaktioner som skapas när du bokför serviceorder eller -fakturor.

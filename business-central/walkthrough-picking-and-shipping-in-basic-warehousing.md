@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99271ea5f97bed9faca795f19a863977f8b0e6e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148102"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513399"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
 
@@ -80,7 +80,7 @@ För att kunna använda den här funktionen måste du lägga till dig själv til
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Så här skapar du en distributionslagerarbetare
 
-  1. Välj den ![Glödlampa som öppnar funktionen Berätta först.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
+  1. Välj den ![Glödlampa som öppnar funktionen Berätta först.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
   2. Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Distributionslagerarbetare**.
   3. I fältet **Lagerställekod** väljer du SYD.  
   4. Välj fältet **Standard** och sedan knappen **Ja**.  
@@ -89,7 +89,7 @@ För att kunna använda den här funktionen måste du lägga till dig själv til
 
 Gör artikeln 1928-S tillgänglig på lagerstället SYD, genom att följa nedanstående steg:  
 
-  1. Välj den ![Glödlampa som öppnar funktionen Berätta andra.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikeljournaler** och väljer sedan relaterad länk.  
+  1. Välj den ![Glödlampa som öppnar funktionen Berätta andra.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikeljournaler** och väljer sedan relaterad länk.  
   2. Öppna standardjournalen och skapa sedan två artikeljournalrader med följande information om arbetsdatumet (23 januari).  
 
         |Transaktionstyp|Artikelnummer|Lagerställekod|Lagerställeskod|Antal|  
@@ -108,7 +108,7 @@ Försäljningsorder är den vanligaste typen för utgående källdokumentet.
 
 ### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta tredje.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta tredje.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Skapa en försäljningsorder för kund 10000 på arbetsdatumet (23 januari) med följande försäljningsorderrad.  
 

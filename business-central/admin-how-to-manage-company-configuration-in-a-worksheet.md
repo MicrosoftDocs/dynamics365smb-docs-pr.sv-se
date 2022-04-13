@@ -1,22 +1,24 @@
 ---
-title: Så här hanterar du företagskonfigurationen i ett förslag
-description: Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete.
+title: Så här hanterar du företagskonfigurationen i ett kalkylark
+description: Med RapidStart Services utgör konfigurationskalkylarket den centrala plats där du kan planera, spåra och utföra ditt företags konfigurationsarbete.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141365"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514206"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>Så här hanterar du företagskonfigurationen i ett kalkylark
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Hantera företagskonfiguration i ett kalkylark med RapidStart Services
+
 Konfigurationskalkylarket är centralplatsen där du kan planera, spåra och utföra ditt konfigurationsarbete. Du kan skapa ett kalkylark för varje företag som du arbetar med, eller skapa ett standardkonfigurationskalkylark som kan användas för att konfigurera flera identiska företag.  
 
 Det första steget för att skapa ett konfigurationspaket är att välja ett företag som du redan har upprättat och ändrat så att det passar många av dina behov. Detta företag fungerar som baslinje för ditt konfigurationsarbete med nya företag. I kalkylarket anger du vilka tabeller som ska kontrolleras och hanteras i konfigurationen. Eftersom de flesta tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] har samband och beroenden med andra tabeller, bör du även inkludera de relaterade tabeller som behövs. Tillsammans ska dessa tabeller sedan fungera som struktur, som du kan skapa ett nytt företag kring. I följande steg får du hjälp att skapa paket och distribuera konfigurationen.  
@@ -25,8 +27,9 @@ Som hjälp i spårning och granskning av ditt arbete kan du använda faktaboxen 
 
 I följande procedurer ser du hur du lägger till och anpassar tabellinformation för konfigurationen.  
 
-## <a name="to-open-the-configuration-worksheet"></a>Så här öppnar du konfigurationskalkylarket  
-1.  I [!INCLUDE[prod_short](includes/prod_short.md)] öppnar du företaget som är grunden för konfigurationen och öppnar sedan dess implementerings-rollcenter för RapidStart Services.  
+## <a name="to-open-the-configuration-worksheet"></a>Så här öppnar du konfigurationskalkylarket
+
+1.  I [!INCLUDE[prod_short](includes/prod_short.md)] öppnar du det företag som utgör grunden för konfigurationen.  
 2.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurationsformulär** och väljer sedan relaterad länk.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Så här lägger du till en tabell i kalkylarket  
@@ -40,9 +43,9 @@ I följande procedurer ser du hur du lägger till och anpassar tabellinformation
     > [!NOTE]  
     > Relaterade tabeller läggs inte till med åtgärden **Hämta relaterade tabeller** om något av följande gäller:
     > - Relationen är villkorlig.  
-    > Exempel: Om du får relaterade tabeller för tabellen **Kund** kommer tabellen **Lagerställe** inte att läggas till eftersom den bara är villkorligt relaterad till tabellen **Kund**, nämligen om fältet **Lagerställekod** i tabellen **Kund** har fyllts i.  
+    >     Exempel: Om du får relaterade tabeller för tabellen **Kund** kommer tabellen **Lagerställe** inte att läggas till eftersom den bara är villkorligt relaterad till tabellen **Kund**, nämligen om fältet **Lagerställekod** i tabellen **Kund** har fyllts i.  
     > - Den relaterade tabellen filtreras.  
-    > Exempel: Ett fält i den relaterade tabellen har en WHERE-sats. Anledningen till detta är den komplicerade relationsinformationen som lagras i systemtabellen **Fält** som inte är helt tillgänglig för programmet.  
+    >     Exempel: Ett fält i den relaterade tabellen har en WHERE-sats. Anledningen till detta är den komplicerade relationsinformationen som lagras i systemtabellen **Fält** som inte är helt tillgänglig för programmet.  
     > Du måste lägga till sådana typer av tabeller manuellt genom att följa steg 4 i den här proceduren.  
 
 8.  Om du vill ändra den resulterande listan över tabeller väljer du en tabell som du vill ta bort och väljer sedan åtgärden **Ta bort**.  

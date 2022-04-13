@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383143"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515751"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappa register och fält som ska synkroniseras
 
@@ -85,7 +85,7 @@ Till exempel använder synkroniseringsjobbet SÄLJARE – Dynamics 365 Sales reg
 
 2.  Rensa fältet i registermappningposten i fältet **Synka endast kopplade poster**.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Använda konfigurationsmallar på registermappningar
+## <a name="use-configuration-templates-on-table-mappings"></a>Använda konfigurationsmallar på registermappningar
 Du kan tilldela konfigurationsmallar till registermappningar som ska användas för nya poster eller rader som skapas i [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)]. För varje registermappning kan du ange en konfigurationsmall som ska användas för nya [!INCLUDE[prod_short](includes/prod_short.md)]-poster och en annan mall för att använda nya [!INCLUDE[prod_short](includes/cds_long_md.md)]-rader.  
 
 Om du installerar standardsynkroniseringsinstallationen kommer för det mesta två konfigurationsmallar att skapas automatiskt och användas på registermappningen för [!INCLUDE[prod_short](includes/prod_short.md)]-kunder och [!INCLUDE[crm_md](includes/crm_md.md)]-konton: **CDSCUST** och **CDSACCOUNT**.  

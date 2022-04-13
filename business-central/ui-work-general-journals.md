@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381332"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518763"
 ---
-# <a name="working-with-general-journals"></a>Arbeta med redovisningsjournaler
+# <a name="work-with-general-journals"></a>Arbeta med redovisningsjournaler
 
 De flesta finansiella transaktioner bokförs i redovisningen genom särskilda dokument, till exempel inköpsfakturor och försäljningsorder. Men du kan också bearbeta affärsaktiviteter, till exempel inköp, utbetalning, användning av återkommande journaler för att bokföra periodiseringar eller återbetalning av anställdas utgifter genom att bokföra journalrader i olika journaler i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -29,12 +29,12 @@ Men i de flesta fall vill du använda journaler som är optimerade för vissa ty
 
 Du använder Redovisningsjournaler för att bokföra ekonomiska transaktioner direkt på redovisningskonton och andra konton, till exempel bank-, leverantörs- och personalkonton. När du bokför med en redovisningsjournal skapas alltid transaktioner på redovisningskonton. Så sker till exempel även när en journalrad bokförs på ett kundkonto, eftersom en transaktion bokförs på ett kundfordringskonto i redovisningen via en bokföringsmall.
 
-Den information som du anger i en journal är tillfällig och kan ändras så länge den finns i journalen. När du bokför journalen, överförs informationen till transaktioner på enskilda konton, där den inte kan ändras. Du kan emellertid ta bort kopplingar från bokförda transaktioner och bokföra återförande eller rättande transaktioner. Mer information finns i [återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md).
+Den information som du anger i en journal är tillfällig och kan ändras så länge den finns i journalen. När du bokför journalen, överförs informationen till transaktioner på enskilda konton, där den inte kan ändras. Du kan emellertid ta bort kopplingar från bokförda transaktioner och bokföra återförande eller rättande transaktioner. Mer information finns i [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md).
 
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Använda Journalmallar och journaler
+## <a name="use-journal-templates-and-batches"></a>Använd journalmallar och journaler
 
 Det finns flera redovisningsjournalmallar. Varje journalmall representeras av en dedikerad sida med särskilda funktioner och fälten som krävs för att stödja dessa funktioner, till exempel sidan **Betalningsavstämningsjournal** för att bearbeta bankbetalningar och sidan **Betalningsjournal** för att betala dina leverantörer eller återbetala dina anställda. Mer information finns i [Gör betalningar](payables-make-payments.md) och [Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner](receivables-how-apply-sales-transactions-manually.md).
 
@@ -51,7 +51,9 @@ För att förhindra fördröjningar vid bokföring kan du aktivera en bakgrundsk
 
 När du aktiverar valideringen visas faktaboxen **Journalkontroll** intill journalraderna, där ärenden visas på den aktuella raden och i hela partiet. Valideringen sker när du läser in en finansiell journal och väljer en annan journalrad. Panelen **Ärenden totalt** i faktaboxen visar det totala antalet ärenden som [!INCLUDE[prod_short](includes/prod_short.md)] hittade, och du kan välja att den öppnar en översikt över ärendena. 
 
-Du kan använda åtgärderna **Visa rader med ärenden** och **Visa alla rader** för att växla mellan journalrader som har eller inte har några ärenden. Den nya faktaboxen **Journalradsinformation** ger snabb överblick över och åtkomst till data från journalrader, till exempel redovisningskonto, kund eller leverantör, samt bokföringsinställningarna för specifika konton.     
+Du kan använda åtgärderna **Visa rader med ärenden** och **Visa alla rader** för att växla mellan journalrader som har eller inte har några ärenden. Den nya faktaboxen **Journalradsinformation** ger snabb överblick över och åtkomst till data från journalrader, till exempel redovisningskonto, kund eller leverantör, samt bokföringsinställningarna för specifika konton.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Återföra journaler för att korrigera misstag
 När du arbetar med journaler som har många rader och något går fel, är det viktigt att du har ett enkelt sätt att korrigera misstag. På sidan **Bokförd redovisningsjournal** finns några åtgärder som kan hjälpa dig.
@@ -73,7 +75,7 @@ Om du har skapat standardmotkonton för journalerna på sidan **Redovisningsjour
 > [!NOTE]  
 > Moms beräknas separat för huvudkontot och motkontot, så att olika momssatser kan användas för dem.
 
-## <a name="working-with-recurring-journals"></a>Arbeta med återkommande journaler
+## <a name="work-with-recurring-journals"></a>Arbeta med återkommande journaler
 En återkommande journal är en redovisningsjournal med specifika fält för hantering av transaktioner som du ofta bokför med få eller inga ändringar, till exempel hyra, prenumerationer, el och värme. Med fälten för återkommande transaktioner kan du bokföra både fasta och rörliga belopp. Du kan även ange automatiska återföringstransaktioner för dagen efter bokföringsdatum. Du kan även använda fördelningsnycklar för att dela upp återkommande transaktioner mellan olika konton. Mer information finns i avsnittet [Tilldela återkommande journalbelopp till flera olika konton](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Med en återkommande journal kommer transaktioner som ska bokföras regelbundet inte att behöva skrivas in mer än en gång. Det innebär att de konton, dimensioner och dimensionsvärden som du anger kommer att finnas kvar i journalen efter bokföring. Du kan göra eventuella justeringar i samband med varje bokföring.
@@ -97,7 +99,7 @@ Detta fält bestämmer hur beloppet på journalraden hanteras efter bokföring. 
 > Momsfälten kan fyllas i antingen på raden i den återkommande journalen eller på raden i fördelningsjournalen, men inte på båda raderna. Det går med andra ord bara att fylla i dem på sidan **Fördelningar** om motsvarande rader i den återkommande journalen inte är ifyllda.
 
 ### <a name="recurring-frequency-field"></a>Fält för återkommande frekvens
-Detta fält bestämmer hur ofta transaktionen i journalraden ska bokföras. Det är ett formelfält för datum och måste fyllas i för återkommande journalrader. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#using-date-formulas).
+Detta fält bestämmer hur ofta transaktionen i journalraden ska bokföras. Det är ett formelfält för datum och måste fyllas i för återkommande journalrader. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Exempel
 Om journalraden måste bokföras varje månad skriver du "1M". Varje gång du har bokfört kommer datumet i fältet **Bokföringsdatum** att uppdateras till samma datum nästa månad.
@@ -145,7 +147,7 @@ Periodiseringar bokförs vanligtvis med metoderna Fast, Variabel eller Balanseri
 > [!NOTE]
 > Som standard är fältet **Beräkning av återföringsdatum** inte tillgängligt på sidan **Återkommande redovisningsjournaler**. Om du vill använda fältet måste du lägga till det genom att anpassa sidan. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
-## <a name="working-with-standard-journals"></a>Arbeta med Standardjournaler
+## <a name="work-with-standard-journals"></a>Arbeta med Standardjournaler
 När du har skapat journalrader som du vet att du förmodligen kommer att skapa igen, kan du spara dem som en standardjournal innan du bokför journalen. Den här funktionen gäller artikeljournaler och redovisningsjournaler.
 
 > [!NOTE]  

@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 6, 25, 440, 448, 452
+ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0974cce66734c5a25d87e87052fa82ad1e2a1c53
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 271b9f032df685b5eac1c3bddca037326ea4c1d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366942"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520740"
 ---
 # <a name="collect-outstanding-balances"></a>Kräva in utestående saldon
 
@@ -59,7 +59,7 @@ När du har skapat räntefakturor och gjort eventuella ändringar kan du antinge
 
 En räntefaktura påminner om en vanlig faktura. Du kan fylla i ett huvud manuellt och ange att raderna ska fyllas i automatiskt, eller så kan du välja att automatiskt skapa räntefakturor för alla kunder.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Räntefakturor** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Räntefakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov.  
 3. Välj åtgärden **Föreslå räntefakturarader**.
 4. På sidan **Föreslå räntefakturaraderna** anger du ett filter på snabbfliken **Kundreskontratransaktion** om du bara vill skapa räntefakturor för särskilda transaktioner.
@@ -71,7 +71,7 @@ En räntefaktura påminner om en vanlig faktura. Du kan fylla i ett huvud manuel
 ### <a name="to-update-finance-charge-memo-texts"></a>Så här uppdaterar du räntefakturatexter  
 I vissa fall kan det hända att du behöver ändra den inledande och avslutande text som angetts för räntevillkoren. Om du gör detta när du har skapat, men ännu inte skickat ut, räntefakturor kan du uppdatera fakturorna med den ändrade texten.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Räntefaktura** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Räntefaktura** och väljer sedan relaterad länk.  
 2. Öppna den räntefaktura som du vill ändra texten och välj sedan åtgärden **Uppdatera räntefakturatext**.
 3. På sidan **Uppdatera räntefakturatext** kan du definiera ett filter om du vill uppdatera flera fakturor.
 4. Klicka på **OK** om du vill uppdatera de inledande och avslutande texterna.  

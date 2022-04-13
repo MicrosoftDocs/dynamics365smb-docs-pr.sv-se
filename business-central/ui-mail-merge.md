@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383433"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519524"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Använda Word-mallar för masskommunikation
+# <a name="use-word-templates-for-bulk-communication"></a>Använda Word-mallar för masskommunikation
 Microsoft Word-mallar kan göra det enklare att kommunicera i skrivit eller e-post med enheter som kontakter, kunder och leverantörer. Du kan till exempel skapa broschyrer för att avisera kunder om en försäljningskampanj, brev för att informera leverantörer om nya inköpsprinciper eller inbjudningar till att locka kontakter till ett kommande evenemang.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ När Word-mallen är klar kan du på sidan **Word-mallar** välja **Använd** f�
 
 Du kan tillämpa mallar på en eller flera av samma typ av entiteter, till exempel en kontakt, direkt i kontexten för den sidan eller på sidan Word-mallar om du vill använda mallen på alla enheter av den aktuella typen.
 
-## <a name="using-word-templates-with-email"></a>Använda Word-mallar med e-post
+## <a name="use-word-templates-with-email"></a>Använda Word-mallar med e-post
 Du kan använda Word-mallar för att lägga till innehåll i e-postmeddelanden. När du skriver ett e-postmeddelande kan du välja instruktionen **Använd Word-mall** om du vill använda innehållet i en mall i meddelandet. Detta förutsätter att du har skapat en eller flera mallar för entiteten. Du kan använda en mall i taget och när du växlar mellan mallar ändras meddelandet så att det återspeglar innehållet i den valda mallen.
 
 Dessutom kan du använda åtgärden **Lägg till fil från Word-mall** för att koppla innehållet i mallen till e-postmeddelandet som en fil. Filen kommer att använda det format som du har angett för mallens utdata.

@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 35b9753a1d21ebfbd2970699c720b0e97ed5bcb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: de9216c02f44d159f077beeba00a44952a6a92aa
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142165"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519784"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Stämma av lagerkostnader med redovisningen
 
@@ -27,7 +27,7 @@ Automatisk kostnadsbokföring definieras av fältet **Automatisk kostnadsbokför
 
 ## <a name="to-post-inventory-costs-manually"></a>Bokföra lagerkostnader manuellt
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför lagerkostnad i redov.** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokför lagerkostnad i redov.** och väljer sedan relaterad länk.
 2. Bokför lagerkostnader i redovisningen manuellt genom att köra batch-jobbet. När det här batch-jobbet körs skapas redovisningstransaktioner utifrån värdetransaktioner. Det går att bokföra transaktionerna så att de sammanfattas per bokföringsmall.
 
 > [!NOTE]  

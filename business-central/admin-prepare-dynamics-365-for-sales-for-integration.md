@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383111"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517036"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrering med Dynamics 365 Sales
 
@@ -80,6 +80,7 @@ Förutom inställningarna ovan anger du följande inställningar för [!INCLUDE[
 | **Försäljningsorderintegrering är aktiverad** | Användaren ska kunna skicka försäljningsorder och aktiverade offerter i [!INCLUDE[crm_md](includes/crm_md.md)] och sedan granska och bearbeta dem i [!INCLUDE[prod_short](includes/prod_short.md)]. Det här integrerar den här processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Skapa försäljningsorder automatiskt** | Skapa en försäljningsorder i [!INCLUDE[prod_short](includes/prod_short.md)] när en användare skapar och skickar en i [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Bearbeta försäljningsofferter automatiskt** | Bearbeta en försäljningsoffert i [!INCLUDE[prod_short](includes/prod_short.md)] när en användare skapar och aktiverar en i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Hantering av försäljningsoffertdata](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Dubbelriktad synkronisering av försäljningsorder**|Synkronisera försäljningsorder i båda riktningar. Om en kund t. ex. ändrar sig angående den produkt eller kvantitet de beställt i [!INCLUDE[crm_md](includes/crm_md.md)] kan du utföra ändringen i [!INCLUDE[prod_short](includes/prod_short.md)] genom att arkivera försäljningsdokumentet och skapa ett nytt. Detsamma gäller dokument i [!INCLUDE[prod_short](includes/prod_short.md)]. Om t. ex. priser, momsbelopp eller förväntade leveransdatum ändras, synkroniseras ändringarna automatiskt till [!INCLUDE[crm_md](includes/crm_md.md)]. På så sätt kan säljarna hållas uppdaterade med de senaste ändringarna och statusen för offerter och order.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ I följande tabell visas standardmappningen mellan tabeller i [!INCLUDE[prod_sho
 | Affärsmöjlighet | Affärsmöjlighet | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | Försäljningsfakturahuvud | Fakturera | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Försäljningsfakturarad | Fakturaprodukt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Rubrik för försäljningsorder | Reservationstransaktion | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Försäljningsrubrikfilter: **Dokumenttyp** är Order, **Status** är Frisläppt |
+| Rubrik för försäljningsorder | Reservationstransaktion | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Om du vill synkronisera i båda riktningarna måste du aktivera reglaget **Dubbelriktad synkronisering av försäljningsorder** på sidan **Anslutningsinställningar för Dynamics 365**.| [!INCLUDE[prod_short](includes/prod_short.md)] Försäljningsrubrikfilter: **Dokumenttyp** är Order, **Status** är Utsläppt |
 | Försäljningsordermeddelanden | Försäljningsordermeddelanden | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

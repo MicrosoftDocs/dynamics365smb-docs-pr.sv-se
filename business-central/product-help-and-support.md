@@ -4,29 +4,54 @@ description: Hitta produkthjälpen, råd, felsökningstips och hjälp och lär d
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
+ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
-ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/21/2022
+ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145556"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516932"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
-I [!INCLUDE[prod_long](includes/prod_long.md)] ger hjälpmenyalternativet (frågetecken i övre högra hörnet) dig tillgång till hjälpsidan som kan hjälpa dig att hitta svaren på dina frågor.  
+Tips och vägledning för hur du använder [!INCLUDE[prod_long](includes/prod_long.md)], hur du får tag på dem, var du kan lära dig och hur du söker efter teknisk information finns i inuti [!INCLUDE [prod_short](includes/prod_short.md)]. I den här artikeln beskrivs hur du söker efter.  
+
+## <a name="in-product-tips"></a>Tips i produkter
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Dessa länkar kan också komma åt innehåll som publiceras på andra webbplatser, till exempel webbplatser för leverantörer av appar som är installerade i din [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## <a name="help-pane"></a>Hjälp-fönstret
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+I [!INCLUDE [prod_short](includes/prod_short.md)] ger hjälpmenyalternativet (frågetecken i övre högra hörnet) dig tillgång till hjälpsidan som kan hjälpa dig att hitta svaren på dina frågor. Det finns ett annat innehåll i Hjälp-fönstret, beroende på hur du öppnar det. I följande lista beskrivs de kort som alltid är tillgängliga eller nästan alltid:  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+I följande lista beskrivs hur du kan öppna Hjälp-fönstret och om kort har lagts till:
+
+- Klicka på länken *lär dig mer* om ett fält i en knappbeskrivning
+
+  Följande kort läggs till i Hjälp-fönstret:
+
+  - Fältets knappbeskrivning
+- Klicka på länken *lär dig mer* om en åtgärd i en knappbeskrivning
+- Välj Hjälp-meny alternativet (frågetecknet i det övre högra hörnet)
+- Använd kortkommandot Ctrl + F1 var som helst
+
+> [!TIP]
+> När du väljer en länk öppnas målartikeln i en ny flik i webbläsaren. Du kan välja att ta bort dockningsstationen för webbläsaren så att du kan visa relevant information bredvid varandra med [!INCLUDE [prod_short](includes/prod_short.md)]. Rutan förblir öppen medan du navigerar [!INCLUDE [prod_short](includes/prod_short.md)] så att innehåll som du har sökt efter fortfarande visas.  
 
 ## <a name="search-in-the-help-pane"></a>Sök i Hjälp-fönstret
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-2021 utgivningscykel 2 innehåller ett nytt hjälp fönster med sökflikarna. Använd sökfältet för att söka efter riktlinjer för användning av produkt, inbyggda funktioner och tillgängliga moduler. Beroende på sökorden visas fem eller fler länkar med en kort beskrivning i fönstret. Välj en länk eller begränsa sökvillkoren. När du väljer en länk öppnas målartikeln i en ny flik i webbläsaren. Du kan välja att ta bort dockningsstationen för webbläsaren så att du kan visa relevant information bredvid varandra med [!INCLUDE [prod_short](includes/prod_short.md)]. Rutan förblir öppen medan du navigerar [!INCLUDE [prod_short](includes/prod_short.md)] så att innehåll som du har sökt efter fortfarande visas.  
+Använd sökfältet för att söka efter riktlinjer för användning av produkt, inbyggda funktioner och tillgängliga moduler. Beroende på sökorden visas fem eller fler länkar med en kort beskrivning i fönstret. Välj en länk eller begränsa sökvillkoren. När du väljer en länk öppnas målartikeln i en ny flik i webbläsaren. Du kan välja att ta bort dockningsstationen för webbläsaren så att du kan visa relevant information bredvid varandra med [!INCLUDE [prod_short](includes/prod_short.md)]. Rutan förblir öppen medan du navigerar [!INCLUDE [prod_short](includes/prod_short.md)] så att innehåll som du har sökt efter fortfarande visas.  
 
 > [!NOTE]
-> I den aktuella versionen av [!INCLUDE [prod_short](includes/prod_short.md)] gäller endast sökfältet i hjälpfönstret för innehåll som publiceras på den docs.microsoft.com webbplatsen.
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Dessa länkar kan också komma åt innehåll som publiceras på andra webbplatser, till exempel webbplatser för leverantörer av appar som är installerade i din [!INCLUDE [prod_short](includes/prod_short.md)].  
+> I den aktuella versionen av [!INCLUDE [prod_short](includes/prod_short.md)], gäller endast sökfältet i hjälpfönstret för innehåll som publiceras på den [Docs.microsoft.com](/dynamics365/business-central) webbplatsen.
 
 ## <a name="help--support-page"></a>Hjälp- och supportsida
 
@@ -35,7 +60,7 @@ Från hjälpfönstret kan du komma åt **Hjälp och support** i [!INCLUDE [prod_
 Det här avsnittet ger en översikt över resurserna som finns i de olika avsnitten på sidan **Hjälp och support** som visas i följande lista:
 
 - [Hitta svar](#find-answers)  
-- [Produkthjälpen](#product-help)  
+- [Hjälp](#product-help)  
 - [Grupp](#community)  
 - [Blogg](#blog)  
 - [Funktionerna kommer snart](#capabilities-coming-soon)  
@@ -59,6 +84,7 @@ Avsnittet **Hitta den** innehåller två länkar till produkthjälpen:
 - Hjälp om sidan som du precis såg i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Den här länken genereras automatiskt. Om [!INCLUDE[prod_short](includes/prod_short.md)] inte kan hitta relevant länk kommer landningssidan på [Docs.microsoft.com](index.md) för standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] att visas. Om sidan till exempel utgjorde en del av en app som inte lade till kontextkänslig hjälpmappning i [!INCLUDE[prod_short](includes/prod_short.md)] kommer *utbildningslänken* att återgå till sin standardlandningssida.  
+  
 - Hjälplandningssida för [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Funktionerna i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] beskrivs på webbplatsen [Docs.microsoft.com](/dynamics365/business-central). Mer information finns i avsnittet [Använda webbplatsen docs.microsoft.com för att läsa mer](#use-the-docsmicrosoftcom-site-to-learn-more). Du kan också utöka och anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med appar från AppSource. Alla appar innehåller länkar till relevant produkthjälp så att du alltid hittar anvisningar för olika arbetsflöden i din version av [!INCLUDE[prod_short](includes/prod_short.md)].  

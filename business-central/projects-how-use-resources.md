@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 201,206, 207, 271, 493
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 749ef6e4da9ffe8997647eae67d25362b7dbab6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143440"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517374"
 ---
 # <a name="use-resources-for-jobs"></a>Använda resurser för projekt
 
@@ -32,7 +32,7 @@ Du tilldelar resurser till projekt genom att skapa planeringsrader för projekte
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Registrera resursförbrukning för ett projekt
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.
 2. Öppna den relevanta projektjournalen och fyll sedan i fälten som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. När journalen är slutförd väljer du åtgärden **Bokföra**.
 
@@ -40,7 +40,7 @@ Du tilldelar resurser till projekt genom att skapa planeringsrader för projekte
 
 Om du vill ändra kostnader eller priser för många resurser på en gång kan du använda ett batch-jobb .  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Justera resurskostnad/pris** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Justera resurskostnad/pris** och väljer sedan relaterad länk.
 2. Fyll i fälten på en rad efter behov och välj sedan knappen **OK**.
 
 > [!NOTE]  
@@ -50,7 +50,7 @@ Om du vill ändra kostnader eller priser för många resurser på en gång kan d
 
 Om du redan har skapat alternativa priser för några resurser kan du använda batch-jobbet för att skapa flera alternativa resurspriser.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Resursprisändringar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resursprisändringar** och väljer sedan relaterad länk.
 2. Välj åtgärden **Föreslå res.prisändring (pris)** och fyll sedan i fälten efter behov.
 3. Välj knappen **OK**.  
 4. När batch-jobbet har avslutats visar sidan **Resursprisändringar** resultatet av batch-jobbet.
@@ -77,8 +77,8 @@ Om du redan har skapat alternativa priser för några resurser kan du använda b
 
 [Projekthantering](projects-manage-projects.md)  
 [Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)  
-[Försäljning](sales-manage-sales.md)  
+[Inköp](purchasing-manage-purchasing.md)         
+[Försäljning](sales-manage-sales.md)     
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

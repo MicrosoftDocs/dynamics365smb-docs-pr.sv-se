@@ -1,28 +1,29 @@
 ---
 title: Samla in kundinställningsvärden
-description: Konfigurations frågeformulär hjälper till att minska implementeringen genom att strömlinjeforma konfigurationen av nya företag och erbjuda kunderna en Excel-eller XML-fil.
+description: Om du vill använda RapidStart Services hjälper konfigurationsfrågeformulär till att minska implementeringen genom att effektivisera konfigurationen av nya företag och erbjuda kunderna en Excel- eller XML-fil.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145976"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518395"
 ---
-# <a name="gather-customer-setup-values"></a>Samla in kundinställningsvärden
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Samla in kundinställningsvärden med RapidStart Services
 Du använder frågeformuläret för konfiguration för att lättare kunna minska din implementeringsarbetsbörda, detta genom att effektivisera arbetet med att konfigurera det nya företaget. Du kan skapa frågeformuläret för konfiguration i [!INCLUDE[prod_short](includes/prod_short.md)] och sedan leverera den till kunden som en .xls- eller XML-fil.  
 
 Du kan ändra alla standardvärden i ett frågeformulär för att bättre matcha kundbehoven.  
 
 > [!TIP]  
->  Läs mer om hur du definierar värdena i fälten för leveransplanering, [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md).  
+> Läs mer om hur du definierar värdena i fälten för leveransplanering, [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md).  
 
 När kunden har slutfört frågeformuläret kan du importera filen till kundens nya [!INCLUDE[prod_short](includes/prod_short.md)]-företag. Du och din kund validerar svaren i frågeformuläret innan du kopplar dem till företaget.
 

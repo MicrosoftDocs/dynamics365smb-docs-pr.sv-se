@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, foreign exchange rates
 ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3df39a6054a73fb44c18c4893a253bfcd358f318
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 43933346f68fef474dc1f68c7eadbe295732bad8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132920"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515043"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Ställa in en alternativ rapporteringsvaluta.
 
@@ -55,7 +55,7 @@ Du måste följa dessa steg för att definiera alternativ rapporteringsvaluta:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Så här anger du redovisningskonton för bokföring av valutakursjusteringar  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.  
 2. På sidan **Valutor** fyller du i följande fält för alternativ rapporteringsvaluta.  
 
 |Fält|Description|  
@@ -72,7 +72,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Ange kursjusteringsmetod för alla redovisningskonton
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. På sidan **Kontoplan** väljer du relevant konto och sedan åtgärden **Redigera**.  
 3. På sidan **Redovisningskontokort** väljer du relevant metod i fältet **Valutakursjustering**.  
 
@@ -90,7 +90,7 @@ För varje redovisningskonto måste du ange hur redovisningsbelopp för det kont
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Så här anger du kursjusteringsmetod för momstransaktioner
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** väljer du relevant metod i fältet **Moms valutakursjustering**.  
 3. Om du bokför i en alternativ rapporteringsvaluta kan du ange i fältet **Moms valutakursjustering** hur de konton som ställts in för momsbokföring på sidan **Moms bokföringsinställning** ska justeras för kursfluktuationer mellan BVA och den alternativa rapporteringsvalutan.  
 

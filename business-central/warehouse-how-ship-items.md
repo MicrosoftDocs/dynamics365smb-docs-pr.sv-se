@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4cf357c8fac13c4f6ed714ee108020adc53686cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4a5aec398d502b7041c64a405c11ecb8de29179e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144417"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520636"
 ---
 # <a name="ship-items"></a>Leverera artiklar
 
@@ -29,7 +29,7 @@ När du utlevererar artiklar från ett distributionslagret som har ställt in ut
 
 Nedan beskrivs hur du levererar artiklar från en försäljningsorder. Stegen är liknande för inköpsreturorder, serviceorder och utgående överföringsorder.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Öppna en befintlig försäljningsorder eller skapa en ny. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3. Ange hur många enheter som har levererats i fältet **Ant. att utleverera**.
 
@@ -47,7 +47,7 @@ Först kan du skapa ett utleveransdokument från ett källdokument för företag
 
 Medarbetare som är ansvarig för utleveransen skapar en distributionslagerutleverans. I följande procedur beskrivs hur du skapar utleverans manuellt i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)], men organisationen kanske har automatiserat en del av processen, till exempel med hjälp av handburna eller monterade skannrar som stöds av externa leverantörer.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 
     Fyll i fälten på snabbfliken **Allmänt**. När du hämtar källdokumentrader, kopieras delar av informationen i huvudet till varje rad.  
@@ -82,7 +82,7 @@ När du har alla rader som ska utlevereras kan du skicka raderna som lagerperson
 
 Vanligtvis skapar en lagerarbetare ansvarig för plockning ett plockningsdokument eller öppnar ett redan skapat plockningsdokument.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.
 2. Välj dist.lager utleverans som du vill plocka för och välj sedan åtgärden **Skapa plockning**.
 3. Fyll i fälten på sidan och sedan välj **OK** knappen. De angivna dokumenten för distributionslagertransport har skapats.
 

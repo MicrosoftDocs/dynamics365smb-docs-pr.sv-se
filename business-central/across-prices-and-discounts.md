@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383301"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523611"
 ---
 # <a name="set-up-prices-and-discounts"></a>Ställa in priser och rabatter
 > [!NOTE]
@@ -24,13 +24,13 @@ ms.locfileid: "8383301"
 Pris- och rabattstrategier för inköp och försäljning av artiklar och tjänster är grundläggande verktyg för framgångsrika företag. När du har ställt in de artiklar och tjänster som ditt företag köper och säljer kan du definiera vad du betalar eller debiterar för dem, och dessa belopp läggs automatiskt till i försäljnings- och inköpsdokument. 
 
 ## <a name="setting-up-prices-and-discounts"></a>Ställa in priser och rabatter
-Innan du skapar prislistor måste du definiera dina prissättnings- och rabattstrategier på sidorna **Försäljningsinställningar** och **Inköpsinställningar**.
+Innan du skapar prislistor måste du definiera dina prissättnings- och rabattstrategier på sidorna **Inställningar för försäljning och kundreskontra** och **Inställningar för inköp och skulder**.
 
 Du kan ställa in och använda två olika typer av rabatter:
 
 | Rabattyp | Beskrivning |
 | --- | --- |
-| **Radrabatt** |Ett rabattbelopp som anges för rader i försäljnings- och inköpsdokument. Vanligtvis baseras radrabatter på en kombination av kund, artikel, minsta kvantitet, enhet eller tidsperiod som du definierar för försäljning och inköp på sidorna **Försäljningsinställningar** och **Inköpsinställningar**.|
+| **Radrabatt** |Ett rabattbelopp som anges för rader i försäljnings- och inköpsdokument. Vanligtvis baseras radrabatter på en kombination av kund, artikel, minsta kvantitet, enhet eller tidsperiod som du definierar för försäljning och inköp på sidorna **Inställningar för försäljning och kundreskontra** och **Inställningar för inköp och skulder**.|
 | **Fakturarabatt** |En procentrabatt som dras av från försäljnings- och inköpsdokumentets summa om summan av alla rader i dokumentet överstiger ett viss minimivärde. |
 
 Eftersom försäljningspriser och försäljningsradrabatter baseras på en kombination av artikel och kund, kan du också utföra den här konfigurationen från den artikelsida för artikeln där regler och värden gäller.
@@ -58,7 +58,7 @@ Som standard är statusen för nya prislistor **Utkast**. När du är redo att b
 
 Om du vill granska prislistor och priser som gäller för specifika kunder eller leverantörer går du till sidan **Kund** eller **Leverantör** och väljer antingen åtgärden **Försäljningsprislistor** eller **Inköpsprislistor**. För artiklar och resurser kan du visa prislistrader genom att välja **Försäljningspriser** eller **Inköpspriser** på sidorna **Artikel** och **Resurs**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj kunden och sedan åtgärden **Försäljningsprislistor**. 
 3. Välj **Ny** för att skapa en ny försäljningsprislista.
 4. På snabbflikarna **Allmänt** och **Moms** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Radrabatter**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja en speciell försäljningsradrabatt till kunden.
 
@@ -99,7 +99,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Arbeta med fakturarabatter och faktureringsavgifter
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Arbeta med fakturarabatter och faktureringsavgifter
 När du använder fakturarabatter, avgör det fakturerade beloppets storlek hur stor rabatt som ges. På sidan **Fakturarabatter** kan du även lägga till en faktureringsavgift i fakturor som överstiger ett visst belopp.  <!--The Invoice Discounts page is hard to find.-->
 
 Innan du kan använda fakturarabatter vid försäljning måste du ange en del information i programmet. Du måste bestämma vilka kunder som ska beviljas den här typen av rabatt och vilka rabattprocentsatser du ska använda.  
@@ -193,7 +193,7 @@ Om du vill uppdatera priserna för flera artiklar måste du skapa en ny prislist
 ---
 
 ## <a name="calculating-the-best-price"></a>Beräkna bästa pris
-När du har registrerat särskilda priser och radrabatter för försäljning och inköp ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandeln alltid är optimal, detta genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument, samt i jobb- och artikeljournalrader. Mer information finns i [bästa prisberäkning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+När du har registrerat särskilda priser och radrabatter för försäljning och inköp ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandeln alltid är optimal, detta genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument, samt i jobb- och artikeljournalrader. Mer information finns i [Bästa prisberäkning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 ## <a name="see-also"></a>Se även
 [Konfigurera försäljning](sales-setup-sales.md)  

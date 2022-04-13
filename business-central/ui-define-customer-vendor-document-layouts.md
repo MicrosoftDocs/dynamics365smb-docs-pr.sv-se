@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147472"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510745"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definiera dokumentlayout för kunder och leverantörer
 När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort i syfte att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t. ex. **påminnelse**, **utleverans** och **bekräftelse**.
@@ -30,7 +30,7 @@ Innan du kan definiera vilken dokumentlayout som ska användas för vilka proces
 Nedan beskrivs hur du definierar olika layouter för försäljningsdokument från ett kundkort. Stegen är desamma för layouter för inköpsdokument från ett leverantörskort.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Så här aktiverar du alla tillgängliga försäljningsdokument för en kund
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kortet för den kund för vilken du vill definiera dokumentlayout per affärsprocedur.
 3. På sidan **Kundkort** väljer du sidan **Dokumentlayouter**.
 4. På sidan **Dokumentlayouter**, välj åtgärden **Kopiera från rapporturval**.
@@ -57,10 +57,10 @@ E-postadressen till kontakten infogas nu på dokumentets layouttabell så att f�
 [Uppdatera anpassade rapportlayouter](ui-update-report-layouts.md)  
 [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)  
 [Så här importerar och exporterar du en anpassad rapport eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
-[Skicka dokument som e-post](ui-how-send-documents-email.md)  
+[Skicka dokument via e-post](ui-how-send-documents-email.md)  
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
-[Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
-[Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
+[Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md)  
+[Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

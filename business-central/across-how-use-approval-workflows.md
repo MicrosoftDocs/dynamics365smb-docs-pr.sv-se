@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: bc60d2e8f7e79e717b8b79a9c18e7babf88d8fbb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134206"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517660"
 ---
 # <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
 
@@ -51,7 +51,7 @@ Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten go
 
 Du kan bearbeta godkännandebegäran på sidan **Begäranden att godkänna** till exempel att godkänna flera begäran i taget. Alternativt kan du behandla varje förfrågningsdokument på relaterade post, till exempel sidan **inköpsfaktura** genom att välja länken i meddelandet som du får.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **förfrågningar att godkänna** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **förfrågningar att godkänna** och välj sedan relaterad länk.
 2. Markera en eller flera rader för posten eller posterna som du vill godkänna eller avvisa.
 3. Välj åtgärden **Godkänna**, **Avvisa**, eller **Delegera**.
 
@@ -67,7 +67,7 @@ Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten go
 
 För att förhindra att dokument staplas på hög eller blockerar arbetsflödet på något annat sätt kan godkännandeadministratören delegera en godkännandebegäran till en ersättare. Ersättaren kan vara antingen en utsedd ersättare, den direkta godkännaren eller godkännandeadministratören, i den prioritetsordningen. Du kan använda den här funktionen om en godkännare inte är tillgänglig för tillfället och inte kan godkänna begäranden före förfallodatumet.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **förfrågningar att godkänna** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **förfrågningar att godkänna** och välj sedan relaterad länk.
 2. Markera en eller flera rader för godkännandebegäran som du vill delegera till en ersättande godkännare och välj sedan åtgärden **Delegera**.
 
 Ett meddelande om att godkänna begäran skickas till den ersättande godkännaren.

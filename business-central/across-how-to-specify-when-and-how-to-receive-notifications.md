@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129173"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522358"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Ange när och hur meddelanden om arbetsflöde ska tas emot
 När du konfigurerar godkännandeanvändare i arbetsflöden där du vill att någon ska godkänna ändringar, till exempel när nya poster skapas eller när någon begär ett godkännande, måste du ange hur och när godkännandeanvändaren ska meddelas. Du kan t.ex. ange att en godkännandeanvändare direkt får ett e-postmeddelande när någon skapar en ny kund. Du kan också schemalägga att meddelanden ska levereras, t.ex. en gång per vecka eller per månad.
@@ -22,7 +22,7 @@ När du konfigurerar godkännandeanvändare i arbetsflöden där du vill att nå
 Man kan också ändra sina meddelandeinställningar genom att välja knappen **Ändra meddelandeinställningar** i något meddelande.  
 
 > [!NOTE]
-> Meddelandena levereras enligt meddelandeinställningarna för mottagaren, inte avsändaren. Det är en viktig skillnad eftersom det innebär att när någon begär ett godkännande som en del av ett arbetsflöde kommer deras förfrågan inte nödvändigtvis att skickas direkt. I stället levereras den enligt meddelandeschemat som anges i godkännarens meddelandeinställningar. 
+> Meddelandena levereras enligt meddelandeinställningarna för mottagaren, inte avsändaren. Det är en viktig skillnad eftersom det innebär att när någon begär ett godkännande som en del av ett arbetsflöde kommer deras förfrågan inte nödvändigtvis att skickas direkt. I stället levereras den enligt meddelandeuppställningen som anges i godkännarens meddelandeinställningar. 
 
 Innan du kan konfigurera meddelandeinställningar för en godkännandeanvändare måste du konfigurera användaren som en godkännandeanvändare. Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md).  
 
@@ -36,7 +36,7 @@ Många arbetsflödessvar för godkännande handlar om att meddela användare om 
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Ange när och hur användare ska meddelas  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2.  Markera raden för användaren som du vill konfigurera meddelandeinställningar för och välj sedan åtgärden **Konfigurera meddelanden**.  
 3.  På sidan **Konfigurera meddelanden** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
@@ -73,7 +73,7 @@ Många arbetsflödessvar för godkännande handlar om att meddela användare om 
  [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)   
  [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
  [Konfigurera arbetsflöden](across-set-up-workflows.md)   
- [Använda arbetsflöden](across-use-workflows.md)
+ [Använd arbetsflöden](across-use-workflows.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

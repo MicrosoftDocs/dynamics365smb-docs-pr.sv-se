@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 89c6f60e2c68866babb7efd2762766f957325a6a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c58d361a9b3d9732d4e29b4fea70e9f101c5e71f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137607"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520210"
 ---
 # <a name="set-up-standard-routing-lines"></a>Skapa standardverksamhetsföljdrader
 
@@ -22,14 +22,14 @@ Genom att använda standarduppgifter är det lättare att skapa och underhålla 
 
 ## <a name="to-set-up-a-standard-task"></a>Så här ställer du in standarduppgift
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **standarduppgifter** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **standarduppgifter** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärder **verktyg**, **personal**, **beskrivning** eller **verktyg** och lägg till önskad post på sidan som öppnas.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Lägga till en standarduppgift till en operation
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.
 2. Öppna relevant verksamhetsföljd.
 3. Välj en relevant verksamhetsföljdsrad, välj åtgärden **operationer** och välj sedan åtgärden **verktyg**, **personal**, **beskrivning**, eller **verktyg**.
 

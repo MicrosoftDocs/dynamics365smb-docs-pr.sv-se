@@ -10,12 +10,12 @@ ms.search.keywords: tasks, work
 ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 63b65f697e12090f5e4bfbc2ca11e30a6e167bab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 64c66324d97ee3dad268f6ff9dd8c18566d1e247
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129140"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512522"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Lägga till kommentarer i kort och dokument
 
@@ -33,7 +33,7 @@ Nedan beskrivs hur du lägger till en kommentar för ett artikelkort. Momentet �
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Att lägga till kommentarer till ett artikelkort
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna relevant artikelkort.
 3. Välj åtgärden **Kommentarer**.
 4. På sidan **Kommentarsark** anger du valfri text och väljer knappen **OK**.

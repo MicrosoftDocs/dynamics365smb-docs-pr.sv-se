@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.search.form: 1280, 1290
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ce0ccc00b1d2cf823e0a676f66fef1c124a4932e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af8695ca048b7fc7534f2376e8b186ac08737469
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146884"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511785"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Skapa tjänsten Envestnet Yodlee Bank Feeds
 
@@ -48,7 +48,7 @@ När bankfeedtjänsten är aktiverad, kan du konfigurera ett bankkonto att autom
 > Om du använder den assisterad inställningsguide för att ställa in företagskonfiguration följer du några av stegen i följande procedurer att utföras automatiskt när du kommer till inställningen av företagets bankkonto. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Så här aktiverar du bankfeedtjänsten
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Öppna det bankkonto som du ska använda för bankfeedtjänsten.
 3. På sidan **Bankkonto** i fältet **Format för bankutdragsimport** väljer du YODLEEBANKFEED.  
 
@@ -58,7 +58,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 > Om du använder guiden för assisterad konfiguration för **företagsinställningarna** och sedan aktiverar tjänsten genom att markera kryssrutan **Använd en tjänst för bankfeed**. Mer information finns i [Skapa nya företag i Business Central](about-new-company.md).
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Så här skapar du ett nytt länkat bankkonto
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj sedan **Skapa nytt länkat bakkonto**. Sidan **Länkning av bankkonto** öppnas efter några ögonblick.
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 10. På sidan **Bankkontolista** väljer du det bankkonto som du vill länka till och väljer sedan knappen **OK**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Så här länkar du ett bankkonto till ett onlinebankkonto
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Välj raden för ett bankkonto som inte är kopplad till ett onlinebankkonto och välj sedan åtgärden **Länka till onlinebankkonto**. Sidan **Länka till onlinebankkonto** öppnas med bankens namn ifyllt i rutan **Länka konto**.
 3. Välj bankens namn. Rutan **Inloggning** öppnas.
 4. Ange användarnamnet och lösenordet som du använder för att logga in på onlinebanken och tryck sedan på knappen **Nästa**.  

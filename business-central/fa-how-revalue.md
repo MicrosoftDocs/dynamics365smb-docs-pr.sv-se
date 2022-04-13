@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 56b2beb44811ff0effa548eb72b4cf3ba2f59e69
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 7934e272652f175360d58ea3643fa28c5551c082
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366860"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512298"
 ---
 # <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
 Omvärdering av anläggningstillgångar kan bestå av uppskrivning, nedskrivning, eller allmänna värdejusteringar.
@@ -48,7 +48,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Om du vill utföra allmän omvärdering av anläggningstillgångar
 Indexering används för att anpassa flera värden för anläggningstillgångar, t. ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp. Kryssrutan **Tillåt indexering** p sidan **Avskrivningsregel** måste väljas.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Indexera anläggningstillgångar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Indexera anläggningstillgångar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 3. Välj **OK**.
 

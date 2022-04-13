@@ -10,12 +10,12 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6112b025c08468a3e0f5bdfbb9147b2fbdaf6744
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c98cadba0a9bdf21a89a6c50dd61d805f0547685
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383511"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521260"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Visa status för en synkroniseringsjobb
 
@@ -35,7 +35,7 @@ I det här videoklippet visas ett exempel på hur du felsöker fel som har uppst
 
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Så här visar och löser du synkroniseringsfel för kopplade poster
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") Välj ikonen, ange **Kopplade synkroniseringsfel** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") Välj ikonen, ange **Kopplade synkroniseringsfel** och välj sedan relaterad länk.
 2. På sidan **sammankopplade datasynkroniseringar** visas problem som uppstod när du synkroniserade kopplade poster. Följande tabell innehåller åtgärder som du kan använda för att lösa ärenden en i taget:
 
 |Åtgärd|Beskrivning|

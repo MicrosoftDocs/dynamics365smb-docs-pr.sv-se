@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d053e800a8a873f84d30a078e1b9776ca17129f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142782"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513425"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
 
@@ -76,7 +76,7 @@ Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar 
 
 ### <a name="to-prepare-the-sample-data"></a>Så här förbereder du exempeldata  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt resurskort.  
 3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
 
@@ -99,7 +99,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ### <a name="to-create-a-job-journal-batch"></a>Skapa en ny journal  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
 2.  På sidan **Journalnamn** i fönstret **Projektjournal**. Sidan **Projektjournaler** öppnas.  
 3.  Välj åtgärden **Ny** för att skapa en rad med följande information:  
 
@@ -114,7 +114,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ### <a name="to-set-up-a-job"></a>Så här lägger du upp ett projekt:  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2.  Välj **Ny** för att skapa ett nytt kort.  
 3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
 

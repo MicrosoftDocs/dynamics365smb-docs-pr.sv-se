@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131697"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518083"
 ---
 # <a name="about-item-types"></a>Om artikeltyper
 I fältet **Typ** på sidan **artikelkort** kan du ange vilken artikel som används för din verksamhet vilket påverkar i vilken grad du kan hantera varan i lager. I tabellen nedan beskrivs de tre typer av objekt som finns tillgängliga.
@@ -54,7 +54,7 @@ Kundernas artiklar som du utför service på, till exempel en skrivare kallas f�
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Ställa in lager](inventory-setup-inventory.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

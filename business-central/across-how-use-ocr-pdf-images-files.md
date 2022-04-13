@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5464f2770ca603a67b825ff8b5908cb7ac255d9b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ea522a54f45e95c154b779c3603229d1efdef1a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141547"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522306"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument
 Från PDF eller bildfiler som du får från dina handelspartner kan du låta en extern OCR-tjänst (Optical Character Recognition) skapa elektroniska dokument som du kan konvertera till dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du skicka den till OCR-tjänsten från sidan **Inkommande dokument**. Detta beskrivs i den första proceduren.
@@ -29,11 +29,11 @@ Eftersom OCR baseras på optisk läsning är det troligt att OCR-tjänsten tolka
 Trafiken av filer till och från OCR-tjänsten behandlas av en dedikerad jobbköpost, som skapas automatiskt när du aktiverar den relaterade tjänstkopplingen. Mer information finns i [Skapa inkommande dokument](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Så här skickar du en PDF- eller bildfil till OCR-tjänsten från sidan **Inkommande dokument**
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.
 2. Skapa en ny inkommande dokumentpost och bifoga filen. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).  
 3. Markera sedan en eller flera rader på sidan **Inkommande dokument** och välj sedan åtgärden **Skicka till jobbkö**.
 
-    Värdet i fältet **OCR-status** ändras till **Klar**. Bifogad PDF eller bildfil skickas till OCR-servicen av jobbkön enligt schemat, förutsatt att inga fel finns.
+    Värdet i fältet **OCR-status** ändras till **Klar**. Bifogad PDF eller bildfil skickas till OCR-servicen av jobbkön enligt uppställningen, förutsatt att inga fel finns.
 4. Markera alternativt en eller flera rader på sidan **Inkommande dokument** och välj sedan åtgärden **Skicka till OCR-tjänst**.
 
 Värdet i OCR-status fältet ändras till **OCR-status** ändras till **Skickat**, förutsatt att inga fel finns.
@@ -49,7 +49,7 @@ Eftersom ingen inkommande dokumentpost finns för filen skapas en ny post automa
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Så här tar du emot det resulterande elektroniska dokumentet från OCR-tjänsten.
 Elektroniska dokument, som skapas med OCR-tjänsten från PDF- eller bildfilen tas emot automatiskt på sidan **Inkommande dokument** jobbkötransaktionen som konfigureras när du aktiverar OCR-tjänsten.
 
-Om du inte använder en jobbkö, eller om du vill ta emot ett färdigt OCR-dokument snabbare än per jobbköschemat, kan du välja knappen **Ta emot från OCR-tjänst**. Det kommer att få alla dokument som slutförs av OCR-tjänsten.
+Om du inte använder en jobbkö, eller om du vill ta emot ett färdigt OCR-dokument snabbare än per jobbköuppställningen, kan du välja knappen **Ta emot från OCR-tjänst**. Det kommer att få alla dokument som slutförs av OCR-tjänsten.
 
 > [!NOTE]  
 >   Om OCR-tjänsten är inställd på att kräva manuell verifiering av bearbetade dokument, när fältet **OCR-status** innehåller **Avvaktar verifiering**. I så fall utför du följande steg för att logga in på OCR-tjänstwebbplatsen manuellt för att kontrollera ett OCR-dokument.
@@ -59,7 +59,7 @@ Om du inte använder en jobbkö, eller om du vill ta emot ett färdigt OCR-dokum
 
     Information för OCR-dokumentet visas med både källinnehållet av PDF- eller bildfilen och de resulterande OCR-fältvärdena.
 3. Granska de olika fältvärdena och redigera dem manuellt eller ange värden i fält som OCR-servicen har taggat som osäkra.
-4. Välj **OK**. OCR-processen är klar och det resulterande elektroniska dokumentet skickas till inkommande dokument på sidan **inkommande dokument** i [!INCLUDE[prod_short](includes/prod_short.md)], enligt jobbköschemat.
+4. Välj **OK**. OCR-processen är klar och det resulterande elektroniska dokumentet skickas till inkommande dokument på sidan **inkommande dokument** i [!INCLUDE[prod_short](includes/prod_short.md)], enligt jobbköuppställningen.
 5. Upprepa steg 4 för alla andra OCR-dokument som ska valideras.
 
 Du kan nu fortsätta med att skapa dokumentposter för de inlevererade elektroniska dokumenten i [!INCLUDE[prod_short](includes/prod_short.md)], manuellt eller automatiskt. Mer information finns i nästa procedur: Du kan också koppla den nya inkommande dokumentposten till det bokförda eller icke bokförda befintliga dokumentet så att källfilen är lättillgänglig i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Bearbeta inkommande dokument](across-process-income-documents.md).
@@ -106,7 +106,7 @@ Eftersom OCR baseras på optisk läsning är det troligt att OCR-tjänsten tolka
 
 Sidan **OCR-datakorrigering** som öppnas från sidan **Inkommande dokument** visar fälten från snabbfliken **Ekonomisk information** i två kolumner, en med ändringsbara OCR-uppgifter och en med skrivskyddade OCR-uppgifter. När du väljer knappen **Skicka OCR-feedback** skickas innehållet på sidan **OCR-datakorrigering** till OCR-tjänsten. Nästa gång tjänsten behandlar PDF- eller bildfiler som innehåller samma uppgifter tas dina korrigeringar med för att samma fel ska kunna undvikas.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.
 2. Öppna en inkommande dokumentpost som innehåller data som har tagits emot från OCR-servicen och som du vill rätta till.
 3. På sidan **Inkommande dokument** väljer du åtgärden **Korrigera OCR-data**.
 4. Skriv över data i den redigerbara kolumnen för varje fält som har ett inkorrekt värde på sidan **OCR-datakorrigering**.

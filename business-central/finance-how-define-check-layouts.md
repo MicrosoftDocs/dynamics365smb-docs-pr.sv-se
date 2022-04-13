@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149055"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518109"
 ---
 # <a name="select-a-check-layout"></a>Välj en checklayout
 
@@ -25,7 +25,7 @@ Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska c
 
 ## <a name="to-select-a-check-layout"></a>Välj en checklayout genom att
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Rapportval, bankkonto** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Rapportval, bankkonto** och väljer sedan relaterad länk.
 2. På sidan **Rapportval – bankkonto** i fältet **Användning** väljer du **Check**.
 3. Välj något av följande rapport-ID:
 
@@ -40,8 +40,7 @@ När du har upprättat checklayouter, kan du skriva ut checkar från sidan **utb
 
 Om du vill ändra en av dessa standardlayouter använder du antingen Word- eller RDLC-integrering. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>Använda MICR och säkerhetsteckensnitt
-
+## <a name="use-micr-and-security-fonts"></a>Använda MICR och säkerhetsteckensnitt
 Online-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att definiera kontrollera layouter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.
 
 > [!Important]

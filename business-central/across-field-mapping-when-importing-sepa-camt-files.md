@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 829ff2a07464d1c456b6776eef542914601c0a18
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db90358fcca87bc7217d48efa7577e8d4a835c58
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141638"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521364"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Fältmappning vid import av SEPA CAMT-filer
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder de regionala SEPA-standardena (Single Euro Payments Area) för import av SEPA-kontoutdrag (CAMT-format). Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
@@ -62,10 +62,10 @@ ms.locfileid: "8141638"
 > Vid import av CAMT-kontoutdrag [!INCLUDE[prod_short](includes/prod_short.md)] måste varje transaktion vara unik, vilket innebär att fältet **Transaktions-ID** som kommer från taggen *Stmt/Ntry/NtryDtls/TxDtls/ReFS/EndToEndId* i CAMT-filen måste vara unikt i den öppna bankkontoavstämningen. Om informationen inte finns ignorerar [!INCLUDE[prod_short](includes/prod_short.md)] betalningen. Om en tidigare bankavstämning på samma bankkonto bokfördes med samma transaktions-ID som för den aktuella importen, kommer den aktuella transaktionen inte att stämmas av automatiskt, men den kan fortfarande importeras.
 
 ## <a name="see-also"></a>Se även  
-[Konfigurera databyte](across-set-up-data-exchange.md)  
+[Konfigurera dataintegration](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)  
-[Använda AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   
-[Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
+[Använda XML-uppställningar för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  
 
 

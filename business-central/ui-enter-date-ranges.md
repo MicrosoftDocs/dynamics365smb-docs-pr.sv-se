@@ -10,14 +10,14 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323012"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518867"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
+# <a name="work-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
 [!INCLUDE[prod_short](includes/prod_long.md)] ger flera sätt för att ange datum och tider, inklusive kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t. ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
 
@@ -63,12 +63,15 @@ Veckonummersystemet är alltid ISO-8601 där vecka 1 är veckan med 4 januari el
 
 I ett datumfält kan du skriva in två, fyra, sex eller åtta siffror.
 
--   Om du bara skriver in två siffror tolkas de som dag. Programmet lägger till månaden och året från arbetsdatumet.
+- Om du bara skriver in två siffror tolkas de som dag. Programmet lägger till månaden och året från arbetsdatumet.
 
--   Om du skriver in fyra siffror tolkas de som dagen och månaden. Programmet lägger till året från arbetsdatumet. Order för den dagen och månaden avgörs av dina regioninställningar. Även om dina regioninställningar har året före dagen och månaden, tolkas fyra siffror som dag och månad.
+- Om du skriver in fyra siffror tolkas de som dagen och månaden. Programmet lägger till året från arbetsdatumet. Order för den dagen och månaden avgörs av dina regioninställningar. Även om dina regioninställningar har året före dagen och månaden, tolkas fyra siffror som dag och månad.
 
--   Om det datum du vill ange ligger inom intervallet 1930-01-01 t.o.m. 2029-12-31 kan du ange året med två siffror, annars måste du ange det med fyra siffror.
+- Om det datum du vill ange ligger inom intervallet 1950-01-01 t.o.m. 2049-12-31 kan du ange året med två siffror, annars måste du ange det med fyra siffror.
 
+  > [!NOTE]
+  > Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda det tvåsiffriga årtalet. Administratörer kan ändra intervallet genom att ändra serverns **CalendarTwoDigitYearMax** [!INCLUDE[prod_short](includes/prod_short.md)]-inställning . Mer information finns i [Konfigurera Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### <a name="today"></a>I dag
 
 Ange ordet för _idag_, på det språk som anges på sidan **Mina inställningar**, för att ange dagens datum på en post. I stället för att ange hela ordet, kan du skriva in del av ordet, från början. På engelska kan du till exempel ange _t_ eller _tod_ förutsatt att det inte också är början på ett annat ord.
@@ -130,7 +133,7 @@ I listor, summor och rapporter kan du ange filter för datum, tid och datum och 
 
 Du kan använda giltiga format i filtret för datumintervall. Till exempel mån14 3..t 4p som tillämpas på ett datum/tidsfält resulterar i ett filter mellan 03:00 måndag vecka 14 det aktuella arbetsdatumets år, inklusive fram till i dag klockan 16:00.
 
-## <a name="using-date-formulas"></a>Använda datumformler
+## <a name="use-date-formulas"></a>Använd datumformler
 En datumformel är en kort kombination av förkortningar med bokstäver och siffror som anger hur datum ska beräknas. Du kan ange datumformler i olika fält eller filter för datumberäkning.
 
 > [!NOTE]
@@ -216,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]

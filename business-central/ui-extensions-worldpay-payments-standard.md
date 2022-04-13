@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: cdaa582e11d3d0deaabb7282da54f65c447013e1
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 55dd366b65ee831989e09ea08f80b5d656993609
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381386"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521578"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Tillägget WorldPay Payments Standard
 Tillägget WorldPay Payments Standard låter dig erbjuda kunder ett praktiskt alternativ till betalningar via banköverföringar eller kreditkort. Inte bara det, betalningar via betalningstjänster hamnar vanligtvis snabbare i på ditt bankkonto.

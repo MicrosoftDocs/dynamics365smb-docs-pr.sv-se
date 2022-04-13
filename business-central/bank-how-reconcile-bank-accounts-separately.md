@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 389, 1290, 10124
+ms.search.form: 379, 388, 389, 1290, 1692, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ebc2680aea583410a0f1bab8f4ff1d35989eb36
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: e74df84ac5119e87aecd6a15e270dfd50fb1b117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381094"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514497"
 ---
 # <a name="reconcile-bank-accounts"></a>Stämma av bankkonton
 
@@ -62,7 +62,7 @@ Om du vill aktivera import av bankutdrag som en bankfeed måste du först skapa 
 > [!TIP]
 > Du kan också importera bankutdragsfiler i komma- eller semikolonavgränsat format (.CSV). Använd **Konfigurera importformat för en kontoutdragsfil** assisterad installation för att definiera importformat för kontoutdrag och bifoga formatet till ett bankkonto. Du kan sedan använda dessa format när du importerar bankutdrag på sidan **Bankkontoavstämning**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **bankkontoavstämning** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **bankkontoavstämning** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Välj ett bankkonto i fältet **Bankkontonr**. Bankkontotransaktionerna som finns på bankkonto, visas i rutan **Bankkontotransaktioner**.
 4. Ange datumet på kontoutdraget från banken i fältet **Kontoutdragets datum**.
@@ -124,7 +124,7 @@ Ibland kan det hända att ett kontoutdrag från banken innehåller belopp som mo
 2. På sidan **Bankavst. trans. åt redov.jnl** anger du vilka redovisningsjournalen om du vill använda och klickar på knappen **OK**.
 
     Sidan **Redovisningsjournal** öppnas med nya journalrader för alla bankrapportrader med saknade transaktioner.
-3. Fyll i journalraden med information, till exempel motkonton. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
+3. Fyll i journalraden med information, till exempel motkonton. Mer information finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).  
 4. Välj åtgärden **Testrapport** – om du vill granska resultatet av bokföringen innan du bokför. Rapporten **bankkontoutdrag** öppnas och visar samma fält som rubrik på sidan **Bankkontoavstämning**.
 5. Välj åtgärden **Bokföra**.
 

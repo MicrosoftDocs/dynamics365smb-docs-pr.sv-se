@@ -7,12 +7,12 @@ ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334492"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518945"
 ---
 # <a name="track-packages"></a>Spåra paket
 De flesta speditörer tillhandahåller en webbtjänst som gör att du kan spåra statusen för dina paket medan de är på väg. Denna information kan vara användbar i många affärsprocesser, till exempel när du tillhandahåller kundservice. Om du använder en eller flera speditörer kan du ange en del grundläggande information om dem och sedan använda deras paketspårningstjänst direkt från sidorna Bokförda försäljningsutleveranser, Bokförda försäljningsfakturor, Bokförda försäljningskreditnotor och Bokförd returinleverans. För mer information, se [Ställa in speditörer](sales-how-to-set-up-shipping-agents.md). 
@@ -24,7 +24,7 @@ I följande procedur beskrivs hur du spårar ett paket från en bokförd utlever
 > [!NOTE]
 > I följande procedur används sidan bokförda leveranser som exempel. Stegen för att spåra ett paket är desamma på de bokförda fakturorna, den bokförda försäljningskreditnotan och den bokförda returinleveransraden.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.
 2. Öppna den utleverans som du vill spåra och välj åtgärden **Uppdatera dokument**.
 3. I fältet **Godsupplysningsnr.** anger du godsnumret som du har fått av speditören. 
 4. Kontrol lera att rätt speditör och att servicenivån är korrekta och stäng sedan sidan.

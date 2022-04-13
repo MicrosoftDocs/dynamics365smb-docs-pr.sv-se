@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382105"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417525"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
-Om ditt land eller din region kräver att du beräknar moms (VAT) på försäljnings- och inköpstransaktioner så att du kan rapportera beloppen till en skattemyndighet, kan du ställa in [!INCLUDE[prod_short](includes/prod_short.md)] till att automatiskt beräkna moms på försäljnings- och inköpsdokument. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
+Om landet eller regionen kräver att du beräknar och rapporterar mervärdesskatt (moms) på försäljnings- och inköpstransaktioner kan du ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att beräkna moms. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
 
 Det finns emellertid vissa momsrelaterade uppgifter som du kan göra manuellt. Du kan t. ex. behöva korrigera ett bokfört belopp om du upptäcker att en leverantör använder en annan avrundningsmetod.  
 
@@ -26,35 +26,48 @@ Det finns emellertid vissa momsrelaterade uppgifter som du kan göra manuellt. D
 > Du kan låta [!INCLUDE[prod_short](includes/prod_short.md)] validera momsregistreringsnummer och annan företagsinformation när du skapar eller uppdaterar dokument. Mer information finns i [validera momsregistreringsnummer](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Beräkna och visa momsbelopp i försäljnings- och inköpsdokument  
-Du kan beräkna och visa momsbelopp i försäljnings- och inköpsdokument på olika sätt beroende på vilken typ av kund eller leverantör som du handlar med. Du kan också åsidosätta det momsbelopp som har beräknats för att matcha det momsbelopp som har beräknats av leverantören för en given transaktion.  
+När du väljer ett artikelnummer i fältet **Nr**. i ett försäljnings-eller inköpsdokument fyller [!INCLUDE[prod_short](includes/prod_short.md)] i fälten **Enhetspris** och **Radbelopp**. Enhetspriset kommer antingen från kortet **Artikel** eller från artikelpriserna för artikeln och kunden. [!INCLUDE[prod_short](includes/prod_short.md)] beräknar radbeloppet när du anger en kvantitet för raden.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Enhetspris och radbelopp inklusive/exklusive moms på försäljningsdokument  
-När du väljer ett artikelnummer i fältet **Nr**. i ett försäljningsdokument fyller även [!INCLUDE[prod_short](includes/prod_short.md)] i fältet **Enhetspris**. Enhetspriset kommer antingen från kortet **Artikel** eller från artikelpriserna för artikeln och kunden. [!INCLUDE[prod_short](includes/prod_short.md)]beräknar **Radbelopp** när du anger en kvantitet för raden.  
+Om du vill att enhetspriser och radbelopp ska inkludera moms – till exempel om du säljer till detaljhandelskonsumenter – markerar du kryssrutan **Priser inklusive moms** i dokumentet. Mer information finns i [Inkludera eller exkludera moms på priser och radbelopp](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Om du säljer till återförsäljare kan du vilja att priserna på försäljningsdokument inkluderar moms. Gör detta genom att markera kryssrutan **Priser inkl. moms** på dokumentet.  
+Du kan beräkna och visa momsbelopp i försäljnings- och inköpsdokument på olika sätt beroende på vilken typ av kund eller leverantör som du handlar med. Du kan också ändra det momsbelopp som har beräknats manuellt, exempelvis för att detta ska matcha det momsbelopp som har beräknats av leverantören för en given transaktion.
 
-### <a name="including-or-excluding-vat-on-prices"></a>Inklusive eller exklusive moms på priser
-Om kryssrutan **Priser inklusive moms** är markerad på ett försäljningsdokument inkluderar **Enhetspris** och **Radbelopp** moms och detta visas även i fältnamnen. Som standard ingår moms inte i de här fälten.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inkludera eller exkludera moms för priser och radbelopp
+Om du väljer kryssrutan **Priser inklusive moms** på ett försäljningsdokument inkluderar fälten **Enhetspris** och **Radbelopp** moms. Som standard ingår inte moms i värdena i dessa fält. Namnen på fälten visar om priserna inkluderar moms.  
 
-Om fältet inte är markerat fylls fälten **Enhetspris** och **Radbelopp** automatiskt i exklusive moms och detta visas även i fältnamnen.  
-
-Du kan lägga upp en standarduppsättning av **Priser inklusive moms** för alla försäljningsdokument för en kund i fältet **Priser inklusive moms** på **Kund**-kortet. Du kan också lägga upp att artikelpriser ska anges inklusive eller exklusive moms. Vanligtvis anges artikelpriser på artikelkortet exklusive moms. Informationen i fältet **Pris inklusive moms** på **artikelkortet** används för att ange enhetsprisbeloppet för försäljningsdokument.  
+Du kan lägga upp en standarduppsättning av **Priser inklusive moms** för alla försäljningsdokument för en kund i fältet **Priser inklusive moms** på **Kund**-kortet. Du kan också lägga upp att artikelpriser ska anges inklusive eller exklusive moms. Normalt är priserna på artikelkortet exklusive moms. 
 
 Följande tabell innehåller en översikt över hur enhetsprisbeloppen för ett försäljningsdokument beräknas när du inte har lagt upp priser på sidan **Försäljningspriser**:  
 
-|**Fältet Försäljningspris inklusive moms på artikelkortet**|**Fältet Priser inklusive moms i försäljningshuvudet**|**Utförd åtgärd**|  
+|**Fältet Försäljningspris inklusive moms på artikelkortet**|**Fältet Priser inkl. moms**|**Utförd åtgärd**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Ingen markering|Ingen markering|**Enhetspriset** på artikelkortet kopieras till fältet **Enhetspris exkl. moms** på försäljningsraderna.|  
-|Ingen markering|Markering|Momsbeloppet beräknas per enhet och läggs till **enhetspriset** på artikelkortet. Det totala enhetspriset anges sedan i **fältet Enhetspris inkl. moms** på försäljningsraderna.|  
-|Markering|Ingen markering|Programmet beräknas momsbeloppet som inkluderas i **A-pris** på artikelkortet med hjälp av den momssats % i förhållande till moms rörelsebokföringsmall och moms produktbokföringsmall. **A-pris** på artikelkortet, minus momsbeloppet, anges sedan i **Enhetspris exl. moms** på försäljningsraderna.|  
-|Markering|Markering|**Enhetspriset** på artikelkortet kopieras till fältet **Enhetspris inkl. moms**.|
+|Inte aktivt|Inte aktivt|**Enhetspriset** på artikelkortet kopieras till fältet **Enhetspris exkl. moms** på försäljningsraderna.|  
+|Inte aktivt|Aktivt|Momsbeloppet beräknas per enhet och läggs till **enhetspriset** på artikelkortet. Detta totala enhetspris anges sedan i **fältet Enhetspris inkl. moms** på försäljningsraderna.|  
+|Aktivt|Inte aktivt|Programmet beräknas momsbeloppet som inkluderas i fältet **Enhetspris** på **artikelkortet** med hjälp av den momsprocentsats i förhållande till rörelsebokföringsmallen för moms (pris) samt produktbokföringsmallen för moms. **Enhetspris** på artikelkortet, minus momsbeloppet, anges sedan i **Enhetspris exl. moms** på försäljningsraderna. Mer information finns i [Använda rörelsebokföringsmallar för moms och kundprisgrupper](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Aktivt|Aktivt|**Enhetspriset** på artikelkortet kopieras till fältet **Enhetspris inkl. moms**.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Använda rörelsebokföringsmallar för moms och kundprisgrupper 
+Om du vill att moms ska ingå i priserna kan du använda rörelsebokföringsmallar för moms för att beräkna beloppet baserat på momsbokföringsinställningarna för gruppen. Mer information finns i [Konfigurera bokföringsmallar för moms](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+Beroende på vad du vill göra kan du tilldela en rörelsebokföringsmall för moms till kunder eller försäljningsdokument på följande sätt:
+
+* Om du vill använda samma momssats för alla kunder kan du välja en grupp i fältet **Rörelsebokföringsmall för moms (pris)** på sidan **Försäljningsinställningar**.
+* Om du vill använda en momssats för en specifik kund kan du välja en grupp i fältet **Rörelsebokföringsmall för moms (pris)** på sidan **Kundkort**. 
+* Om du vill använda en momssats för en specifik grupp kunder kan du välja en grupp i fältet **Rörelsebokföringsmall för moms (pris)** på sidan **Kundprisgrupp**. Detta kan till exempel vara användbart när du vill att ett pris ska gälla för alla kunder i en viss geografisk region eller en viss bransch.
+* På alla försäljningsdokument i fältet **Rörelsebokföringsmall för moms**. Momsbeloppet som anges för gruppen används endast för det dokument som du för tillfället arbetar med.
+
+> [!NOTE]
+> Om du inte anger någon grupp i fältet **Rörelsebokföringsmall för moms (pris)** kommer inte att inkluderas i priser.
+
+#### <a name="examples"></a>Exempel
+Faktorer såsom det land eller den region som du säljer till, eller vilken typ av branscher du säljer till, kan påverka det momsbelopp som du måste redovisa. En restaurang kan till exempel debitera 6 % moms för måltider som äts på plats, och 17 % för avhämtming. Detta gör du genom att skapa en rörelsebokföringsmall för moms (pris) för på plats och en för avhämtning.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Manuellt korrigera momsbelopp i försäljnings- och inköpsdokument  
-Det går att göra korrigeringar av bokförda momstransaktioner. Detta gör det möjligt att ändra de totala försäljnings- eller inköpsmomsbeloppen utan att ändra nettobeloppet. Detta kan vara nödvändigt om t. ex. en leverantör skickar en faktura med felberäknad moms.  
+Du kan korrigera redan bokförda momstransaktioner så att du kan ändra det totala beloppet för utgående eller ingående moms utan att ändra nettobeloppet. Om du t.ex. tar emot en faktura från en leverantör med ett felaktigt momsbelopp.  
 
-Även om du har ställt in en eller flera kombinationer för hantering av importmoms, måste du skapa minst en produktbokföringsmall för moms. Du kan till exempel ge det namnet **KORREKT** för korrigeringssyfte, om du inte kan använda samma redovisningskonto i **Ingående moms** på momsbokföringsinställningsraden. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
+Även om du har ställt in en eller flera kombinationer för hantering av importmoms, måste du skapa minst en produktbokföringsmall för moms. Du kan till exempel ge det namnet **KORREKT** för korrigeringssyfte, om du inte kan använda samma redovisningskonto i **Ingående moms** på momsbokföringsinställningsraden. Mer information finns i [Ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
 
-Om en kassarabatt har beräknats utifrån ett fakturabelopp inklusive moms kan du återställa den del av momsbeloppet som utgörs av kassarabatten när kassarabatten beviljas. Observera att du måste aktivera fältet **Justering för kassarabatt** i både redovisningsinställningarna generellt och i momsbokföringsinställningarna för särskilda kombinationer av rörelsebokföringsmallar för moms och produktbokföringsmallar för moms.  
+Om en kassarabatt har beräknats baserad på ett fakturabelopp inklusive moms kan du återställa den del av momsbeloppet som utgörs av kassarabatten när kassarabatten beviljas. Observera att du måste aktivera fältet **Justering för kassarabatt** i både redovisningsinställningarna generellt och i momsbokföringsinställningarna för särskilda kombinationer av rörelsebokföringsmallar för moms och produktbokföringsmallar för moms.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Så här ställer du in systemet för manuell momsregistrering i försäljningsdokument
 Nedan beskrivs hur du aktiverar manuella momsändringar för försäljningsdokument. Stegen är liknande på sidan **Inköpsinställningar**.

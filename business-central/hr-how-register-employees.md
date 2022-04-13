@@ -10,12 +10,12 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b76ce1b15dde904ad3257b6f849e3629f293206c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: fbf1647b23733beffc005b617beff185b183a6fe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372058"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519101"
 ---
 # <a name="register-employees"></a>Registrera personal
 
@@ -35,7 +35,7 @@ Du kan när som helst ändra informationen om en anställd. Uppdaterade medarbet
 
 ## <a name="to-set-up-an-employee"></a>Så här registrerar du personal
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **personal** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **personal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Personalkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9001, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9764e71f655abf24b28d6624ffc640dfee89fbcf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35c2f5832ac0df05678b7a003b9b0fdf30466b6b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141783"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511881"
 ---
 # <a name="print-balance-sheet-and-income-statement-reports"></a>Skriv ut rapporterna Balansräkning och Resultaträkning
 Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska skickas till banker och olika myndigheter. I rapporten **Balansräkning** visas tillgångar, skulder och eget kapital. I rapporten **Resultaträkning** visas intäkter och kostnader.  
@@ -35,7 +35,7 @@ Du kan skriva ut balansräkningsrapporter och resultaträkningsrapporter som ska
 4.  Välj åtgärden **Skriv ut** för att skriva ut rapporten eller välj åtgärden **Förhandsgranska** på för att visa den på skärmen.  
 
 ## <a name="see-also"></a>Se även  
- [Arbeta med rapporter och batch-jobb och XMLports](../../ui-work-report.md)   
+ [Arbeta med rapporter, batch-jobb och XMLports](../../ui-work-report.md)   
  [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
 
 

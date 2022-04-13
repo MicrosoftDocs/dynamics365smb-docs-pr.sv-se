@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139033"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517719"
 ---
-# <a name="using-pre-closing-reports"></a>Använda rapporter före bokslut
+# <a name="use-pre-closing-reports"></a>Använda rapporter före bokslut
 
 Det finns flera standardrapporter som du kan använda för att kontrollera att räkenskaperna stämmer innan du avslutar böckerna vid slutet av ett år eller en period. Du kan till exempel använda rapporten **Kund – råbalans** för att kontrollera att saldot för en kundbokföringsmall är lika med saldot på motsvarande redovisningskonto för ett visst datum.
 
@@ -34,7 +34,7 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 | skriva ut en råbalansrapport med saldon och nettoförändringar för redovisningskonton. |Råbalans |
 | skriva ut en råbalans för ett konsoliderat företag. |Konsoliderad råbalans |
 
-För att se en rapport, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange namnet som det visas i tabellen och väljer sedan relaterad länk.
+För att se en rapport, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange namnet som det visas i tabellen och väljer sedan relaterad länk.
 
 ## <a name="see-also"></a>Se även
 

@@ -10,12 +10,12 @@ ms.search.keywords: product, image
 ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c70bddd0e901a529035f7cd9056243d24c5710ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 44a3689c59a25b6c0aca25f69896e86beb71ea6c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131567"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522072"
 ---
 # <a name="import-multiple-item-pictures"></a>Importera flera artikelbilder
 Du kan importera flera artikelbilder samtidigt. Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan Importera artikelbilder för att hantera vilka artikelbilder som ska importeras.
@@ -34,7 +34,7 @@ Alla vanliga filformat stöds.
 2. Samla alla filer i ZIP-filen. Till exempel i Windows Explorer, markerar du filerna och väljer **skicka till**, **komprimerad mapp**.     
 
 ## <a name="to-import-item-pictures"></a>För att importera artikelbilder
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
 2. Välj åtgärden **Importera artikelbilder**.
 3. I fältet **Välj en ZIP-fil** markerar du relevant ZIP-mapp och väljer sedan knappen **öppna**.
 

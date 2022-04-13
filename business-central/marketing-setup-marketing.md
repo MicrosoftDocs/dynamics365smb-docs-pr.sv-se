@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a91592818e5e486f58857da07d5d9dc0390d5fba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130369"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517927"
 ---
 # <a name="setting-up-relationship-management"></a>Ställa in Kundhantering
 
@@ -23,7 +23,7 @@ Innan du sätter igång med att arbeta med kontakter och marknadsföringsräntor
 
 Att hantera kontakter och ha en strategi för att identifiera, attrahera och behålla kunder optimerar din verksamhet och ökar kundnöjdheten. Med ett bra kontakthanteringssystem blir det också enklare att skapa och upprätthålla relationer med kunderna. Kommunikation är nyckeln till dessa relationer. Att kunna skräddarsy kommunikationen med potentiella och befintliga kunder, leverantörer och affärspartners utifrån deras behov är nödvändigt för att ett företag ska lyckas. Ett första steg är att lägga upp en strategi och definiera hur företaget ska använda kontaktinformationen. Den här information används av många olika grupper i företaget, så ett ändamålsenligt system gör det enklare för alla att bli mer effektiva.
 
-Du kan skapa marknadsförings- och kontakthantering från sidan **Marknadsföringsinställningar**. För att öppna sidan **Marknadsföringsinställning** välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Marknadsföringsinställning** och väljer sedan relaterad länk.
+Du kan skapa marknadsförings- och kontakthantering från sidan **Marknadsföringsinställningar**. För att öppna sidan **Marknadsföringsinställning** välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Marknadsföringsinställning** och väljer sedan relaterad länk.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatisk kopiering av särskild information från kontaktföretag till kontaktpersoner
 Vissa uppgifter om kontaktföretag är helt identiska med uppgifter om kontaktpersoner som arbetar i dessa företag, till exempel adresser. På sidan **Arv** i fönstret **Marknadsföringsinställningar** kan du ange att programmet automatiskt kopierar särskilda fält från kontaktföretagkort till kontaktpersonkort, varje gång du skapar en kontaktperson för ett kontaktföretag. Du kan t.ex välja att kopiera säljarkod, adressdetaljer (adress ,adress 2, postnr, ort och län), kommunikationsdetaljer (faxnummer, telefonsvarare och telefonnummer) mm.
@@ -32,7 +32,7 @@ När du ändrar i något av dessa fält på kontaktföretagskortet ändras motsv
 
 Mer information finns i [Skapa kontakter](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Använd fördefinierade standardinställningar på nya kontakter
+## <a name="use-predefined-defaults-on-new-contacts"></a>Använd fördefinierade standardinställningar på nya kontakter
 Du kan ange att särskild språkkod, distriktskod, säljarkod och lands-/regionkod automatiskt ska tilldelas av programmet som standard på varje ny kontakt som du skapar. Du kan också ange standardförsäljningscykelkod som automatiskt ska tilldelas varje ny affärsmöjlighet som du skapar.
 
 Värden i övertagna fält ersätter de standardvärden som du har angett. Om du exempelvis har angett engelska som standardspråk men företagets språk är tyska, tilldelas tyska automatiskt som språkkod för de kontaktpersoner som är registrerade på det företaget.

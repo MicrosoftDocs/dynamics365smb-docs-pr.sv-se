@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e8c950a402c8bbf650deec10eb7be2679c5eeab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131333"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516802"
 ---
 # <a name="set-up-shop-calendars"></a>Så här lägger du upp fabrikskalendrar
 
@@ -25,7 +25,7 @@ Om du vill beräkna en specifik produktionsgrupp- eller maskingruppkalender mås
 Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är liknande när du ställer in maksingruppkalender.  
 
 ## <a name="to-create-work-shifts"></a>Så här skapar du arbetsskift  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **arbetsskift** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **arbetsskift** och väljer sedan relaterad länk.  
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera arbetsskiftet (till exempel **1**).  
 3.  Beskriv arbetsskiftet i fältet **Beskrivning**, till exempel **1:a skift**.  
 4.  Fyll i raderna för ett andra eller tredje skift, om du vill.  
@@ -33,7 +33,7 @@ Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är likna
 Även om dina produktionsgrupper inte arbetar i olika skift måste du ange minst en arbetsskiftkod.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Så här skapar du en fabrikskalender  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **fabrikskalendrar** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **fabrikskalendrar** och väljer sedan relaterad länk.  
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera fabrikskalendern.  
 3.  Beskriv fabrikskalendern i fältet **Beskrivning**.  
 4.  Välj åtgärden **arbetsdagar**.
@@ -68,7 +68,7 @@ Fabrikskalendern kan nu tilldelas en produktionsgrupp så att den produktionsgru
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Så här beräknar du en produktionsgruppkalender  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.
 2. Öppna produktionsgruppen som du vill uppdatera.  
 3. I fältet **Fabrikskalenderkod** väljer du vilken fabrikskalender som ska användas som grund för en produktionsgruppkalender.  
 4. Välj åtgärden **Kalender**.  

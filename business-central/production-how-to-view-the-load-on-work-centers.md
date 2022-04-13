@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 99000915, 99000916
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 456347d55a62864877a969ee7997463f37b1b8e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e1963bb8978e67b98ff3e85d09e6294e084034b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140819"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515335"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Så här visar du beläggning på produktions- och maskingrupper
 
@@ -22,7 +22,7 @@ På sidorna **produktionsgruppkort** och **maskingruppkort** kan du se beläggni
 
 ## <a name="to-view-the-load-on-work-centers"></a>Så här visar du produktionsgruppsbeläggningen
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.  
 2. Öppna relevant **produktionsgrupp** kort i listan och klicka på åtgärden **beläggning**.  
 
 Använd fälten **Visa efter** och **Visa som** på snabbfliken **Alternativ** för att välja lämplig period.  

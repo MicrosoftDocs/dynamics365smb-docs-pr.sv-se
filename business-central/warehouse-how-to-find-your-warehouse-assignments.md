@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5b27848474f26f92b54169e1d60e8e786a6ab95f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382159"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513295"
 ---
 # <a name="find-your-warehouse-assignments"></a>Hitta distributionslagerfördelningar
 
@@ -22,7 +22,7 @@ ms.locfileid: "8382159"
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Så här söker du efter en instruktion som har tilldelats dig
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerinförsel**, **Lagerplockningar**, eller **Dist.lager transport** och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerinförsel**, **Lagerplockningar**, eller **Dist.lager transport** och välj sedan relaterad länk.
 
     Alla tre sidor visar fördelningar för alla lagerställen.  
 

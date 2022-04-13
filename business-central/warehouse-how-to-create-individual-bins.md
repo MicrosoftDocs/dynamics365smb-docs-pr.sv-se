@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ffd6bd12a1655cc330370df2c9d2c64a2d89e0af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e41f61156dbc7248cc9cb1a99ca2b5c790ee036
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144391"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518607"
 ---
 # <a name="create-bins"></a>Skapa lagerställen
 
@@ -22,7 +22,7 @@ Det effektivaste sättet att skapa lagerställena i distributionslagret på är 
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Så här skapar du en lagerplats från lagerställekortet:
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **placeringar** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **placeringar** och väljer sedan relaterad länk.  
 2.  Markera lagerstället som du vill skapa en lagerplats från och välj åtgärden **Lagerställen**  
 3. Välj åtgärden **Ny**.
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -42,7 +42,7 @@ En produktionsgrupp med en lagerplatskod i fältet **Till produktion-lagerplats-
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Så här skapar du enstaka lagerställen i lagerplatsuppläggningskalkylark:
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerplatsuppläggningskalkylark** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerplatsuppläggningskalkylark** och väljer sedan relaterad länk.  
 2.  På varje rad fyller du i de fält som är nödvändiga för att namnge och ange egenskaper för de lagerställen som du skapar.  
 3.  Välj åtgärden **Skapa lagerställen**.  
 
@@ -55,7 +55,7 @@ Innan du börjar skapa lagerställen automatiskt i kalkylarket bör du bestämma
 
 Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du ställas in som en lageranställd på det lagerställe där lagerställena finns. Mer information finns i [Så här skapar du dist.lager personal](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerplatsuppläggningskalkylark** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerplatsuppläggningskalkylark** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna lagerställen**.
 3. Klicka på **Beräkna lagerställen** i fältet **Lagerplatsmall kod** och välj den lagerplatsmall som du vill använda som modell när du skapar lagerställen.
 4.  Fyll i en beskrivning av de lagerställen som du håller på att skapa.  

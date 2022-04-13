@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, status, negative, positive, increase, decrease, 
 ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af091b33126d4098980c19329d7160ef1789c1b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 600ddd9d927712b4b27f9b4c12e233379808ebe4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131593"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522098"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Beräkna och justera lager med hjälp av dokument
 
@@ -40,7 +40,7 @@ En inventeringsorder är ett fullständigt dokument som består av en inventerin
 
 Om du vill skapa inventeringsorderrader kan du använda funktionen **beräkna rader** för att återspegla det aktuella lagret som rader på ordern. Alternativt kan du använda funktionen **Kopiera från dokument** för att fylla i raderna med innehållet i en annan öppen eller bokförd inventeringsorder. Nedan beskrivs endast hur du använder funktionen **beräkna rader**.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i de fält som krävs på snabbfliken **Allmänt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärden **Beräkna rader**.
@@ -100,7 +100,7 @@ Du kan även välja differensen för **Differens för inventeringsorder** åtgä
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Hitta dubbla inventeringsorderrader
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
 2. Öppna den inventeringsorder som du vill visa dubbla rader för.
 3. Välj åtgärd **visa dubblettrader**.
 
@@ -113,7 +113,7 @@ När du har slutfört en inventeringsorder och ändrar dess status till **avslut
 - Varje inventeringsorderrad har inventerats av minst en inventeringsregistreringsrad.
 - Kryssrutan **På registrerade rader** och **Beräknat förväntat antal** har markerats för alla inventeringsorderrader.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
 2. Markera den inventeringsorder som du vill slutföra och välj sedan åtgärden **Redigera**.
 
     På sidan **inventeringsorder** visar du den kvantitet som finns i fältet **Ant. registrerade (bas)**.

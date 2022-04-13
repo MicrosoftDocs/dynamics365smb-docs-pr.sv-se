@@ -10,12 +10,12 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3ec4f46425a344276792f44fde29e23f695384f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 001d747391998df212bacf9dbde23ebbe240bc2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145634"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521942"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Stäm av leverantörsbetalningar med betalningsjournalen eller från bokförda leverantörsreskontratransaktioner
 När du skickar ett betalningskvitto till, eller tar emot en återbetalning från, en leverantör måste du bestämma om du ska koppla betalningen eller återbetalningen till en eller flera öppna debet- eller kreditposter. Du kan ange det exakta beloppet som ska kopplas till betalningsinleveransen eller återbetalningen och därmed endast delvis koppla leverantörsreskontratransaktioner. Du måste koppla alla leverantörsreskontratransaktioner för att leverantörsstatistik och rapporter över kontoutdrag och ränteintäkter ska bli korrekta.
@@ -37,7 +37,7 @@ Du kan koppla leverantörsbetalningar manuellt till dess relaterade inköpsdokum
 Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetalningarna visas som negativa banktransaktioner på banken. På sidan **Betalningsavstämningsjournal** kan du använda funktioner för import av kontoutdrag, automatisk koppling och bankkontoavstämning. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Så här kopplar du en betalning till en enskild eller flera leverantörsreskontratransaktioner
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournal** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournal** och väljer sedan relaterad länk.
 2. Ange information om betalningstransaktionen på den första journalraden på sidan **Utbetalningsjournal**.
 3. Så här kopplar du en enskild leverantörsreskontratransaktion:
    1. I fältet **Kopplas till ver.nr** väljer du fältet för att öppna sidan **Koppla leverantörstrans.**.
@@ -55,7 +55,7 @@ Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetaln
 6. Om du vill bokföra utbetalningsjournalen väljer du åtgärden **Bokför**.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Så här kopplar du en kreditnota till en enskild eller flera leverantörsreskontratransaktioner:
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpskreditnota** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpskreditnota** och väljer sedan relaterad länk.
 2. Öppna den kreditnota som du vill koppla.
 3. Fyll i relevant information i huvudet.
 4. För att koppla en enstaka leverantörsreskontratransaktion väljer du på snabbfliken **Koppling** i fältet **Kopplas till ver.nr** den transaktion som krediten kopplas till och sedan i fältet **Belopp att koppla** anger du beloppet som ska kopplas till transaktionen.
@@ -72,7 +72,7 @@ Du kan också koppla leverantörsbetalningar och kundutbetalningar när utbetaln
 7. Klicka på knappen **Bokför** för att bokföra inköpskreditnotan.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Så här kopplar du bokförda leverantörsreskontratransaktioner:
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Öppna relevant leverantör med poster som redan bokförts.
 3. Välj åtgärden **Transaktioner** och välj sedan åtgärden **Koppla transaktioner**.
 4. På sidan **Koppla leverantörstrans.** visas leverantörens öppna transaktioner.
@@ -115,7 +115,7 @@ När du tar bort en felaktig koppling skapas och bokförs korrigeringstransaktio
 7. Fyll i fälten i huvudet och välj sedan åtgärden **Ta bort koppling**.
 
 > [!IMPORTANT]  
->   Om en post har använts i flera kopplingar måste du ta bort den senaste kopplingen först.
+>   Om en transaktion har använts i flera kopplingar måste du ta bort den senaste kopplingen först.
 
 ## <a name="see-also"></a>Se även
 [Leverantörsreskontra](payables-manage-payables.md)  

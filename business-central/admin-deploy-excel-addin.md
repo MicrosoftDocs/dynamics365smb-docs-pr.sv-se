@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141417"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518421"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Hämta Business Central-tillägget för Excel
 
@@ -79,13 +79,13 @@ Du arbetar i både [!INCLUDE[prod_short](includes/prod_short.md)] och administra
     4. Granska **Godkänn begäran om behörigheter**, välj **Nästa** > **Slutför distribution**.
     5. Vänta tills den gröna bockmarkeringen bredvid **distribuerad** visas för tillägget och välj sedan **klar**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Tillägget visas på sidan **tillägg**. Mer information om distribution av tillägg i administrationscentret för Microsoft 365 finns i [Distribuera tillägg i aministrationscentret](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       Tillägget visas på sidan **tillägg**. Mer information om distribution av tillägg i administrationscentret för Microsoft 365 finns i [Distribuera tillägg i aministrationscentret](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Gå tillbaka till den assisterade konfigurationen för **Centraliserad distribution för Excel-tillägg** i [!INCLUDE[prod_short](includes/prod_short.md)] och välj **Nästa**.
 5. Aktivera **Använd centraliserad distribution** och klicka på **Slutför** .
 
     Om du inte aktiverar denna växel [!INCLUDE[prod_short](includes/prod_short.md)] hämtas tillägget direkt från Office Store.
 
-När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscenter finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscentret finns i [Distribuera tillägg i administrationscentret](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > Om du har mer än en miljö måste du köra assisterad konfiguration för **centraliserad distribution av Excel-tillägg** för varje miljö som du vill använda centraliserad distribution för. Du behöver emellertid inte konfigurera den centraliserade distributionen i Microsoft 365 på nytt. Det enda du behöver göra är att aktivera växeln **Använd centraliserad distribution** i guiden assisterad konfiguration. 

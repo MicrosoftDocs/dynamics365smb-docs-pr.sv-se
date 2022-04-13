@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130354"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515517"
 ---
 # <a name="set-up-locations"></a>Konfigurera platser
 
@@ -74,6 +74,9 @@ Om du vill strukturera lagerplatser under zoner kan du göra det på sidan **Zon
 [!INCLUDE [prod_short](includes/prod_short.md)] kopierar de fält som du har skapat för en viss zon till lagerplatserna i zonen. På så sätt kan du fördela en zon till en lagerplats eller en lagerplatsmall (lagerplatsuppläggningsfilter) så fylls flera andra fält i automatiskt.
 
 Du kan dock välja att bara skapa en zon och strukturera distributionslagret enbart med hjälp av lagerplatser. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
+
+## <a name="default-dimensions-for-locations"></a>Standarddimensioner för platser
+Du anger standardmått för en plats på sidan **Platskort** genom att välja **Plats** och sedan **Dimensioner**. Platsens standarddimensioner kopieras till journaler och dokument när du anger lagerstället på en rad, men du kan ta bort eller ändra dimensionen på raden om det behövs. Du kan kräva att användarna anger dimensioner för specifika lagerställen innan de kan bokföra en transaktion. Du kan också ta med dimensions värden för lagerställe i **standard dimensionsprioriteringar** och **Dimensionskombinationer** för kombinationer av prioritet och dimensionsregler.
 
 ## <a name="see-also"></a>Se även
 

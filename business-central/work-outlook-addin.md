@@ -1,5 +1,5 @@
 ---
-title: Använda Business Central med Outlook | Microsoft Docs
+title: Använda Business Central med Outlook
 description: Denna tjänst har långtgående integrering med Microsoft 365 så att du kan hantera alla dina affärskontakter och din e-post till kunder och leverantörer direkt i Outlook.
 author: jswymer
 ms.topic: conceptual
@@ -7,16 +7,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 08/13/2021
+ms.date: 03/21/2022
 ms.author: jswymer
-ms.openlocfilehash: c281ce94e518f8ef099bb3e48177b90732a65c45
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 264dec3372ed33588d0f7f77a3e3b4d4d6795e42
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145138"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528536"
 ---
-# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som en företagsinkorg i Outlook
+# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som din företagsinkorg i Outlook
 
 [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder ett tillägg som gör dig redo att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[prod_short](includes/prod_short.md)] för avsnittet kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.
 
@@ -80,13 +80,13 @@ Ibland vill du se fler fält än vad du kan se i tilläggsprogrammet, till exemp
 
 Du kan t.ex. öppna den fullständiga kontaktinformationen som visas i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du arbetar med mer än ett [!INCLUDE[prod_short](includes/prod_short.md)]-företag kan du enkelt växla mellan företag.
 
-### <a name="track-incoming-documents"></a>Spåra inkommande dokument 
+### <a name="track-incoming-documents"></a>Spåra inkommande dokument
 
 Du kanske använder listan **inkommande dokument** i [!INCLUDE[prod_short](includes/prod_short.md)] för att spåra dokument för bearbetning av leverantörer som skickar till dig, till exempel en inköpsfaktura som ska betalas. Om du gör det kan du enkelt skapa poster för inkommande dokument från Outlook-tillägget och inkludera bifogade filer i e-postmeddelandet.
 
-1. När du tar emot ett e-postmeddelande från en leverantör som har en bifogad fil, väljer du ![ikonen Business Central tillägg i Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Information om kontakt**. 
+1. När du tar emot ett e-postmeddelande från en leverantör som har en bifogad fil, väljer du ![ikonen Business Central tillägg i Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Information om kontakt**.  
 
-2. I åtgärdsfältet för tillägget, välj **Visa fler åtgärder**, välj **Skicka till inkommande dokument…**. 
+2. I åtgärdsfältet för tillägget, välj **Visa fler åtgärder**, välj **Skicka till inkommande dokument…** .  
 
 ### <a name="create-and-send-new-document-to-a-contact"></a>Skapa och skicka ett nytt dokument till en kontakt
 
@@ -94,11 +94,39 @@ Du kanske använder listan **inkommande dokument** i [!INCLUDE[prod_short](inclu
 2. Gör ändringar i dokumentet i **[!INCLUDE[prod_short](includes/prod_short.md)]** tilläggsrutan.
 3. När dokumentet är klart att skickas till kontakten kan du välja **Visa fler åtgärder** och sedan välja åtgärden **Skicka via e-post** i åtgärdsfältet.
 
+### <a name="attach-files-to-records"></a>Bifoga filer till poster
+
+Din e-postinkorg fungerar ofta som en källa för inkommande filer som initierar eller avblockerar arbetsflöden. Filer kan innehålla sådant som PDF-faktura betalningar, foton av varor eller krav i Word-dokument. När du arbetar i Outlook med Business Central poster som leverantörer, kunder, inköpsfakturor eller försäljningsorder kan du bifoga dessa filer till posterna.
+
+Du kan bifoga filer på ett par olika sätt. Ett sätt är att ladda upp filer från enheten. Det andra sättet är att överföra filer som är bifogade till ett e-postmeddelande. Du kanske till exempel får ett e-postmeddelande med filer från en kontakt. Tillägget visar automatiskt den kontaktpost som matchar e-postavsändare. Därifrån kan du gå till ett dokument för kontakten, som till exempel den senaste försäljningsordern. När du har identifierat den ordningsföljd som e-postmeddelandet är kopplat till laddar du snabbt upp filerna från e-postmeddelandet till den ordningen.
+
+![Visar hur du lägger till bilagor från ett e-postmeddelande till poster i Business Central.](media/outlook-attach-files.png)
+
+När du bifogat en fil kan kollegor snabbt hämta och visa filen från fakta boxen för **bifogade filer** i alla Business Central-klienter. Eller så kan de öppna filen i OneDrive för att dela och samarbeta med sina avdelningar.
+
+#### <a name="how-to-attach-a-file"></a>Så här bifogar du en fil
+
+1. Öppna e-post, välj ikonen för ![Business Central- tillägget i Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Information om kontakt**.
+2. Välj i åtgärdsfältet för tillägget, välj **Visa fler åtgärder** > **Bilagor**.
+
+    Sidan **bifogade dokument** öppnas och visar en lista över dokument som redan är kopplade till posten.
+3. Välj **bifogade filer...** och välj sedan ett av följande alternativ:
+
+   - Välj **bifoga från e-post** om du vill ladda upp alla eller markerade filer som är bifogade till e-postmeddelandet
+   - Välj **överför från fil** om du vill ladda upp en eller filer från enheten.
+
+> [!NOTE]
+> Du kan inte bifoga filer till alla poster. Den här funktionen är tillgänglig för poster där Faktabox för **bifogade filer** används, till exempel en leverantör, kund, inköpsfaktura eller försäljningsorder.
+
 ## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>Visa ett dokument från ett e-postmeddelande med tillägget dokumentvisning
 
 Oavsett om det är ett e-postmeddelande som du har skickat eller tagit emot kan du välja ett [!INCLUDE[prod_short](includes/prod_short.md)] dokument, till exempel försäljningsofferten, direkt i Outlook. Därifrån kan du göra ändringar och navigera till relaterad information &mdash; på samma sätt som i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Om du använder Outlook-appen väljer du bara **dokumentlänk** högst upp i e-postmeddelandet. För Outlook på webben söker du efter länken dokumentreferens i e-postmeddelandet. Referenslänktexten kommer att innehålla verifikationsnumret som baseras på nummerserien som används i [!INCLUDE[prod_short](includes/prod_short.md)]. Till exempel skulle länken för en försäljningsoffert vara ungefär **försäljningsoffert S-QUO1000**.
+Om du använder Outlook-appen väljer du bara **dokumentlänk** högst upp i e-postmeddelandet. För Outlook på webben söker du efter länken dokumentreferens i e-postmeddelandet. Referenslänktexten kommer att innehålla verifikationsnumret som baseras på nummerserien som används i [!INCLUDE[prod_short](includes/prod_short.md)]. Till exempel skulle länken för en försäljningsoffert vara ungefär **försäljningsoffert S-QUO1000**.  
+
+> [!TIP]
+> Från och med 2022 utgivningscykel 1 öppnas dokument i ett nytt webbläsarfönster med alla funktioner som du känner från [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan navigera från ett dokument till en lista och tillbaka, öppna listor i Excel, skicka dokument som ska skrivas ut och köra eller förhandsgranska relaterade rapporter. Du kan också använda alla välkända kortkommandon när du öppnar dokument från Outlook.  
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

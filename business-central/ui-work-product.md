@@ -6,17 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323064"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516516"
 ---
-# <a name="working-with-prod_short"></a>Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-prod_short"></a>Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
 
@@ -51,7 +51,7 @@ I tabellen nedan anges några av de grundläggande funktioner med länkar till a
 | Ändra grundläggande inställningar som företag, arbetsdatum eller rollcenter. |[Ändra grundinställningar](ui-change-basic-settings.md) |
 |Få meddelanden om vissa händelser eller ändringar av status, till exempel när du ska fakturera kunden har en förfallen skuld.|[Hantera meddelanden](ui-smart-notifications.md)|
 | Ändra vilken och var användargränssnittelement visas för att passa dina behov.|[Anpassa din arbetsyta](ui-personalization-user.md) |
-|Definiera, förhandsgranska, skriva ut, eller spara rapporter och definiera och kör batch-jobben.|[Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)|
+|Definiera, förhandsgranska, skriva ut, eller spara rapporter och definiera och kör batch-jobben.|[Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md)|
 | Administrera innehåll och format i rapporter och dokument, inklusive vilka datafält i en rapportdatauppsättning som visas i rapporten och hur dessa ordnas, textstil, bilder och mycket annat.|[Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md) |
 |Lär dig mer om funktioner och möjligheter som gör [!INCLUDE[prod_short](includes/prod_short.md)] lättillgängligt för användare med funktionshinder.|[Hjälpmedel och kortkommandon](ui-accessibility.md)|
 

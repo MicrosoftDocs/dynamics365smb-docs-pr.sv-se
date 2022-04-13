@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28c9d8c9f24158f119ffffaeddd92590bee906cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148232"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515933"
 ---
 # <a name="preview-posting-results"></a>Förhandsgranska resultat
 På varje dokument eller journal som kan bokföras, kan du välja knappen **Förhandsgranska bokföring** för att förhandsgranska andra typer av transaktioner som ska skapas, när du bokför dokumentet eller journalen.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Om du vill granska redovisningstransaktioner som resulterar från bokföring av inköpsfaktura
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
 2. Skapa en inköpsfaktura. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 3. Välj **Förhandsgranska bokföring**.
 4. På sidan **Förhandsgranska bokföring** väljer du **Redovisningstransaktion** och sedan **Visa relaterade transaktioner**.  

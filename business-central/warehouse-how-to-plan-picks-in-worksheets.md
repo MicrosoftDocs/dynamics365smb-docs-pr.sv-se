@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: fbb85d69cdd7844bbc63e6367ea962897ab30478
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144313"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515205"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planera plockningar i kalkylark
 
@@ -42,11 +42,11 @@ Du kan sortera rader efter artikel, hyllnummer, källdokument, förfallodatum el
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Så här planerar du plockningar i kalkylarket
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Hämta dist.lager dokument**.  
 3. Välj de utleveranser som du vill förbereda en plockning för. Du kan sortera raderna, men sorteringen tillämpas inte på plockningsinstruktionen. Du kan också ta bort en del rader för att skapa en effektivare plockning. Om det till exempel finns rader med artiklar på lagerställen för direktutleveranser kanske du vill skapa en plockning för alla rader. Artiklarna för direktutleverans utlevereras, tillsammans med övriga artiklar i utleveransen, och lagerställena för direktutleveranser får därmed plats för fler inkommande artiklar.  
 4. Välj åtgärden **Skapa plockning** och fyll i sidan för **Skapa plockning**. De plockningsrader som du skapar ordnas enligt den sortering som du väljer här. Du kan till exempel skapa en plockning för varje zon och sortera raderna efter lagerplatsordning i varje plockning.  
-5. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerplockningar** och väljer sedan relaterad länk. Fönstret **Distributionslagerplockningar** öppnas.  
+5. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Distributionslagerplockningar** och väljer sedan relaterad länk. Fönstret **Distributionslagerplockningar** öppnas.  
 6. Nu kan du visa den plockningsfördelning genom att välja plockningen med det högsta numret.  
 7. Om det behövs kan du tilldela en annan användare eller sortera raderna på olika sätt.  
 8. Välj åtgärden **Skriv ut** när du vill skriva ut instruktioner.  

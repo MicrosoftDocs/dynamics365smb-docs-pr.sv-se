@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ed45facfc64dda670d0e1e4d7dd9b396b4c11fae
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132791"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516037"
 ---
 # <a name="reverse-output-posting"></a>Återföra bokföring av utflöde
 
@@ -22,7 +22,7 @@ Det finns tillfällen när bokföring av utflöde måste återföras. Ett exempe
 
 ## <a name="to-reverse-an-output-posting"></a>Så här återför du en utflödesbokföring
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk. Välj din batch.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk. Välj din batch.  
 2. Fyll i fälten om det behövs. Mer information finns i [Batch-bokför utflöde och körtider](production-how-to-post-output-quantity.md).
 3. I fältet **Kopplas till löpnr** väljer du den tillhörande artikeltransaktionen. Kapaciteten och artikeltransaktionerna återförs.  
 4. Bokför återföringen genom att bokföra journalen.  

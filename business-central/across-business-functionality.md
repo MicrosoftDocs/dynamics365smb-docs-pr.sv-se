@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b88082cb1cf211f8ce6ab4e377c166a62372d530
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: e494307c5301549f2adaa15737e1f944d284bbf6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367046"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514232"
 ---
 # <a name="business-functionality"></a>Affärsfunktion
 
@@ -30,7 +30,7 @@ ms.locfileid: "8367046"
 |Hantera försäljningsprocesser och all information, till exempel offerter, order, returer och kundkonton och skapar direktleveranser.|[Försäljning](sales-manage-sales.md)|
 |Hantera inköp processer och vanlig information, till exempel fakturor, order, returer och leverantörskonton och köper artiklar från försäljningsdokument. |[Inköp](purchasing-manage-purchasing.md)|
 |Registrera nya lager eller serviceartiklar, kategorisera artiklar lokalt nätverk, justera lagernivåer och utföra vanliga lagerkostnadsuppgifter.|[Lagersaldo](inventory-manage-inventory.md)|
-|Skapa projekt och schemaresurser för projekt, hantera projektbudgetar, övervaka framsteg och spåra maskintimmar och anställdas arbetstimmar.|[Projekthantering](projects-manage-projects.md)|
+|Skapa projekt och uppställningsresurser för projekt, hantera projektbudgetar, övervaka framsteg och spåra maskintimmar och anställdas arbetstimmar.|[Projekthantering](projects-manage-projects.md)|
 |Organisera anläggningstillgångarna, säkerställ korrekt periodisk avskrivning och följ upp underhållskostnader.|[Anläggningstillgångar](fa-manage.md)|
 |Hantera och arbeta med försäljning och fokusera på ditt arbete med prioriterade kunder och kontaktpersoner.|[Kundhantering](marketing-relationship-management.md)|
 |Skapa detaljerade register över dina anställda och registrera frånvaro för analys. |[Personal](hr-manage-human-resources.md)|

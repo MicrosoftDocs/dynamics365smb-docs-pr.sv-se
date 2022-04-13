@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147170"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510928"
 ---
-# <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
 I den här artikeln får du lära dig det grundläggande inom att visa Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -65,7 +65,7 @@ Ansluta till Power BI från [!INCLUDE [prod_short](includes/prod_short.md)] likn
 
 När du väl är ansluten kan du välja en rapport i Power BI-delen på olika sidor.
 
-## <a name="working-with-power-bi-reports"></a>Arbeta med Power BI-rapporter
+## <a name="work-with-power-bi-reports"></a>Arbeta med Power BI-rapporter
 
 ### <a name="show-reports-on-list-pages"></a>Visa rapporter på listsidor
 
@@ -141,10 +141,10 @@ Detta beror troligen på att rapportens namn inte innehåller listsidans namn. R
 [Dokumentation om Power BI](/power-bi/)  
 [Affärsstöd](bi.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
-[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakälla](across-how-use-financials-data-source-powerapps.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 

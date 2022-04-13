@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 29d879552f4879c856f3481fde7cfabbffabec95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9aca8b6308fc5a45e008bc5aba529f51e764c79d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135730"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516880"
 ---
 # <a name="create-routings"></a>Skapa verksamhetsföljder
 
@@ -31,7 +31,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 
 ## <a name="to-create-a-routing"></a>Så här skapar du en verksamhetsföljd
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. I fältet **Typ**, markera **Seriell** för att beräkna produktionsverksamhetsföljden efter det värde som anges i fältet **Operationsnr**. .  
@@ -63,7 +63,7 @@ Du kan skapa verksamhetsföljdslänkar för att koppla ihop komponenter med spec
 
 En annan viktig fördel är att länkade komponenter och operationer visas i en logisk processtruktur när du använder sidan **Produktionsjournal** för bokföring av utdata och förbrukning.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.  
 2. Öppna verksamhetsföljden som innehåller operationen du vill länka.  
 
     Se till att verksamhetsföljden har statusen är **Under utveckling**.  
@@ -95,7 +95,7 @@ De markerade komponenterna länkas till de markerade operationerna när du skapa
 
 Om du behöver personal med kvalifikationer, specialkunskaper eller särskild behörighet för en operation kan du tilldela sådan personal till operationen. Dessutom kan du tilldela åtgärden med verktyg och kvalitet. Nedan beskrivs hur du tilldelar personal: Momentet är liknande för andra typer av åtgärdsinformation.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.  
 2. Öppna relevant verksamhetsföljd.  
 3. På snabbfliken **rader** markerar du raden som du vill behandla och klickar på åtgärden **verksamhet** och välj sedan åtgärden **Personal**.  
 4. Fyll i fälten på sidan **Operationsföljd personal**.  

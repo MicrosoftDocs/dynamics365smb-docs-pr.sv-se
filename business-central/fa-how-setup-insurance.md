@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97b9a8d0ba436ff43db764ad10b64a4ce151180
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1378a3090db4bfaa958a371c31416c98f887e73e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147888"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511033"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Skapa försäkring för anläggningstillgångar
 Om du vill hantera täckning av försäkring för anläggningstillgångar måste du först ange en viss allmän försäkringsinformation och ett försäkringskort per brev.
@@ -35,12 +35,12 @@ Du kan gruppera dina försäkringsbrev i kategorier, t. ex. stöldförsäkring o
 ## <a name="to-set-up-insurance-cards"></a>Så här skapar du försäkringskort
 Du kan lagra information om varje försäkringsbrev på försäkringskortet.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkring** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäkring** och väljer sedan relaterad länk.  
 2. På sidan **Försäkring** väljer du åtgärden **Ny** åtgärder för att skapa ett nytt försäkringskort.  
 3. Fyll i fälten om det behövs.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Så här skapar du journalmallar för försäkringar
-[!INCLUDE[prod_short](includes/prod_short.md)] skapar automatiskt en försäkringsjournalmall första gången du öppnar sidan **Försäkringsjournal**. Du kan dessutom skapa ytterligare mallar. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] skapar automatiskt en försäkringsjournalmall första gången du öppnar sidan **Försäkringsjournal**. Du kan dessutom skapa ytterligare mallar. Mer information finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäkringsjournalmallar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.

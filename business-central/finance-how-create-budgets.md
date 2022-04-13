@@ -10,26 +10,26 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 66bd2ae0b30c8c13a6fb8285afd36f4a3495b609
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138602"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514049"
 ---
 # <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
 
 Om du vill kan du använda flera olika budgetar för samma tidsperioder genom att skapa budgetar med separata namn. Först definierar du budgetnamnet och matar in budgetsiffrorna. Budgetnamnet infogas sedan i alla budgettransaktioner du skapar.  
 
-När du skapar en budget kan du definiera fyra dimensioner för varje budget. De här budgetspecifika dimensionerna kallas för budgetdimensioner. Du kan välja budgetdimensionerna bland de dimensioner som redan finns upplagda. Budgetdimensioner kan användas för att skapa filter för en budget och lägga till dimensionsinformation till budgettransaktioner. Mer information finns i [Arbeta med](finance-dimensions.md).
+När du skapar en budget kan du definiera fyra dimensioner för varje budget. De här budgetspecifika dimensionerna kallas för budgetdimensioner. Du kan välja budgetdimensionerna bland de dimensioner som redan finns upplagda. Budgetdimensioner kan användas för att skapa filter för en budget och lägga till dimensionsinformation till budgettransaktioner. Mer information finns i [Arbeta med dimensioner](finance-dimensions.md).
 
-Budgetar spelar en viktig roll i business intelligence, exempelvis i bokslut som baseras på kontoscheman som innehåller budgettransaktioner eller när du analyserar budgeterade och faktiska belopp i diagrammet över konton. Mer information finns i [Affärsstöd](bi.md).
+Budgetar spelar en viktig roll i business intelligence, exempelvis i bokslut som baseras på kontouppställningar som innehåller budgettransaktioner eller när du analyserar budgeterade och faktiska belopp i diagrammet över konton. Mer information finns i [Affärsstöd](bi.md).
 
 I kostnadsredovisning arbetar du med kostnadsbudgetar på liknande sätt. Mer information finns i [Skapa kostnadsbudgetar](finance-create-cost-budgets.md).  
 
 ## <a name="to-create-a-new-gl-budget"></a>Så här skapar du en ny redovisningsbudget
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Redovisningsbudgetar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsbudgetar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Redigera lista** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Välj åtgärden **Redigera budget**.
 4. Högst upp på sidan **Budget** fyller du i fälten för att definiera vad som ska visas.  

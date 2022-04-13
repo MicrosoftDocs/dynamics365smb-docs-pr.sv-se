@@ -1,5 +1,5 @@
 ---
-title: Arbeta med rapporter och batch-jobb och XML-portar
+title: Köra och skriva ut rapporter
 description: Lär dig mer om att skriva en rapport i en jobbkö och schemalägga den att behandlas vid en viss tidpunkt.
 author: jswymer
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/09/2022
+ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: 9a5866db05b4ef78e751996f59ea56d9f4b75d27
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: fade19b2ecb4d2c17b5d5775074f2f715496a908
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322961"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512686"
 ---
-# <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeta med rapporter och batch-jobb och XML-portar
+# <a name="run-and-print-reports"></a>Köra och skriva ut rapporter
 
 En rapport samlar in information baserat på en angiven uppsättning kriterier. Den ordnar och presenterar informationen i ett lättläst format som du kan skriva ut eller spara som en fil. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
 
@@ -26,9 +26,9 @@ Batchjobb och XMLports gör mer eller mindre detsamma som rapporter, men använd
 > [!NOTE]
 > Det här avsnittet avser huvudsakligen ”rapport”, men liknande information gäller för batch-jobb och XMLports.
 
-## <a name="getting-started"></a>Komma igång
+## <a name="get-started"></a>Kom igång
 
-Rapporter finns i liken **Rapporter** på valda sidor. Du kan också använda sökfunktionen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") för att hitta rapporter efter namn.
+Rapporter finns i liken **Rapporter** på valda sidor. Du kan också använda sökfunktionen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") för att hitta rapporter efter namn.
 
 När du öppnar en rapport visas vanligtvis en sidan för förfrågan om batch-jobb, eller XMLport där du kan ange olika alternativ och filter som avgör vad som inkluderas i rapporten. I följande avsnitt förklaras hur du använder sidan för begäran för att bygga, förhandsgranska och skriva ut en rapport.
 
@@ -43,7 +43,7 @@ Fältet **Använd standardvärden från** är ett snabbt och tillförlitligt sä
 >[!NOTE]
 > De fördefinierade inställningarna ställs in och hanteras vanligtvis av en administratör. Mer information finns i [Hantera sparade inställningar i rapporter och batch-jobb](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-reports"></a>Ange data att inkludera i rapporter
+## <a name="specifying-the-data-to-include-in-a-report"></a>Ange data att inkludera i rapporter
 
 Använd fälten under **Alternativ** och **Filter** om du vill ändra begränsningen av den information som du vill ha i rapporten. Du kan ange att filter ska vara mer eller mindre på samma sätt som du anger filter för listor. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
@@ -63,7 +63,7 @@ Om du vill förhandsgranska en rapport väljer du knappen **Förhandsgranska** e
 > [!NOTE]
 > Om du använder Business Central från utgivningscykel 1 år 2020 eller tidigare visas endast knappen **Förhandsgranska**, som stänger förfrågningssidan vid förhandsgranskning, som beskrivs för **Förhandsgranska & stäng**.
 
-### <a name="working-with-the-preview"></a>Arbeta med förhandsgranskning
+### <a name="work-with-the-preview"></a>Arbeta med förhandsgranskning
 
 I förhandsgranskningen använder du menyraden i förhandsgranskningen av rapporten när du vill:
 
@@ -82,11 +82,13 @@ I förhandsgranskningen använder du menyraden i förhandsgranskningen av rappor
 
 ## <a name="saving-a-report-to-a-file"></a>Spara en rapport i en fil
 
-Du kan spara en rapport i ett PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-arbetsblad genom att välja knappen **skicka till**, och sedan göra ditt val.
+Du kan spara en rapport i ett PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-arbetsblad eller XML-dokument genom att välja knappen **skicka till**, och sedan göra ditt val.
 
-### <a name="about-sending-to-excel"></a>Om att skicka till Excel
-
-Du kan arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Excel för vidare analys. Mer information finns i [Analysera rapportdata med Excel](report-analyze-excel.md).  
+> [!TIP]
+> Alternativen **Microsoft Excel dokument (endast data)** och **XML-dokument** är oftast avsedda för avancerade ändamål. Du använder vanligt vis dessa alternativ när du gör detaljerade dataanalyser. Mer information finns i [Analysera rapportdata med Excel och XML](report-analyze-excel.md).
+>
+> Du kan också använda **Microsoft Excel dokumentet (endast data)** om du vill skapa nya Excel-layouter för en viss rapport. Mer information finns i [Arbeta med Excel-layout](ui-excel-report-layouts.md).  
+  
 <!--
 ### About sending to Word
 
@@ -97,17 +99,19 @@ Use the **Microsoft Word Document** option to generate a report as a Word docume
 
 -->
 
-## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Schemalägga en rapportkörning
+## <a name="scheduling-a-report-to-run-later"></a><a name="ScheduleReport"></a> Schemalägga en rapport att köra senare
 
 Du kan schemalägga eller köra batch-jobb för rapport att köras vid ett visst datum och tider. Planerade rapporter och batch-jobb anges i jobbkön och behandlas vid den planerade tid, på liknande sätt som andra jobb. Du väljer alternativet **schema** när du har valt knappen **skicka till** och sedan skriver du in information om t. ex. skrivare, tid och datum. Rapporten läggs sedan till jobbkön och körs vid den angivna tidpunkten. När rapporten behandlas tas artikeln bort från jobbkön. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
-När du schemalägger en rapport som ska köras kan du ange att den måste köras varje torsdag genom att ställa in fältet **Datumformel för nästa körning** till *D4*. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#using-date-formulas).  
+När du schemalägger en rapport som ska köras kan du ange att den måste köras varje torsdag genom att ställa in fältet **Datumformel för nästa körning** till *D4*. Mer information finns i [använda datumformler](ui-enter-date-ranges.md#use-date-formulas).  
 
 Du kan välja att spara rapporten till en fil, (t.ex en Excel-, Word- eller PDF-fil), skriva ut den eller bara skapa rapporten. Om du väljer att spara rapporten som en fil skickas den bearbetade rapporten till området **Rapportinkorg** i ditt Rollcenter, där du kan visa den.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Skriva ut en rapport
 
 Du skriver ut en rapport genom att trycka på knappen **Skriv ut** på förfrågningssidan eller på menyraden på sidan **Förhandsgranska**.
+
+När en Excel-layout används i en rapport ser du inte fältet **skrivare**, knappen **Skriv ut** eller **Förhandsgranska**. I stället finns en knapp för att **hämta**. Om du vill skriva ut väljer du **hämta** och öppnar sedan den hämtade filen i Excel och skriver ut därifrån.
 
 ### <a name="printer"></a><a name="Printer"></a>Skrivare
 
@@ -125,9 +129,9 @@ För den thailändska versionen av [!INCLUDE[prod_short](includes/prod_short.md)
 
 Du kan också be administratören att skapa en layout för en Word-rapport för de mest använda rapporterna. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).  
 
-## <a name="changing-report-layouts"></a>Ändra rapportlayouter
+## <a name="switching-the-report-layout"></a>Växla rapportlayouten
 
-En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den är formaterad. Om du vill växla till en annan layout, se [Ändra aktuell rapportlayout](ui-how-change-layout-currently-used-report.md). Om du vill anpassa rapportens layout, se [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md).
+En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den är formaterad. Om du vill växla till en annan layout, se [Ange layout för en rapport](ui-set-report-layout.md). Om du vill anpassa rapportens layout, se [Kom igång med att skapa layouter](ui-get-started-layouts.md).
 
 ## <a name="advanced-options"></a>Avancerade alternativ
 

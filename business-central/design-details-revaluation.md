@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a9da38bf023ff378a20daa373bdd1963380e9928
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 219c99e10e274bf2eeb99607b4499a4f94102237
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131828"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517634"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Omvärdering
 Du kan omvärdera lagret utifrån den värderingsbas som bäst återspeglar lagervärdet. Du kan också bakåtdatera en omvärdering, så att kostnaden för sålda varor (KSV) uppdateras korrekt för artiklar som redan har sålts. Artiklar som använder värderingsprincipen Standard, som inte har fakturerats helt, kan också omvärderas.  

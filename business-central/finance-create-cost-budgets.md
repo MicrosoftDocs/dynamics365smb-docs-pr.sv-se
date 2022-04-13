@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d64704caee7c808cd2197adf2994a7b1abb4ea7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56757c07ae0bbc41ae2ac9fad6bc3318a1d0ab93
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145686"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520418"
 ---
 # <a name="creating-cost-budgets"></a>Skapa kostnadsbudgetar
 
@@ -22,7 +22,7 @@ Budgetering för kostnadsredovisning liknar budgetering i redovisningen. En kost
 
 En kostnadsbudget skapas för en viss tidsperiod, till exempel ett räkenskapsår. Du kan skapa kostnadsbudgetar efter behov. Du kan skapa en ny kostnadsbudget manuellt eller genom att importera en kostnadsbudget eller genom att kopiera en befintlig kostnadsbudget som budgetbas. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 
-Du kan använda följande sidor för att skapa och analysera kostnadsbudgetar. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ikon för att söka efter en sida och läs sedan verktygstipset för var och en.
+Du kan använda följande sidor för att skapa och analysera kostnadsbudgetar. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon för att söka efter en sida och läs sedan verktygstipset för var och en.
 
 |Till|Gå till|  
 |--------|---------|  

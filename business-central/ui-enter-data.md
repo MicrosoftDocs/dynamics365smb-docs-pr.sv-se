@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323038"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528554"
 ---
 # <a name="entering-data"></a>Ange data
 
@@ -23,7 +23,8 @@ Det finns många allmänna funktioner som hjälper dig att ange data lättare, s
 
 I exemplen nedan används demonstrationsdata.
 
-## <a name="working-with-editable-fields"></a>Arbeta med redigerbara fält
+## <a name="work-with-editable-fields"></a>Arbeta med redigerbara fält
+
 Fält i [!INCLUDE[prod_short](includes/prod_short.md)] kan innehålla olika redigerbara data, t. ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
 
 Vissa redigerbara fält innehåller en väljare som du kan använda för att ange ett värde.  
@@ -57,6 +58,8 @@ När markören visas i slutet av fältvärdet:
 
 > [!NOTE]
 > När du har angett ett värde kommer Business Central endast att kontrollera att den är giltig när du har klickat utanför fältet eller ange ett annat element, t. ex. nästa fält.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -108,9 +111,9 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 
  Många fält har en nedpil-knapp som du kan välja. Du kan välja pilen om du vill visa en lista med data som är tillgängliga för fältet. Knappen har två funktioner beroende på typen av fält:  
 
--   Sökning – Visar information från en annan tabell som du kan infoga i fältet. Du kan bara välja en i taget.  
+- Sökning – Visar information från en annan tabell som du kan infoga i fältet. Du kan bara välja en i taget.  
 
--   Lista – Visar den uppsättning alternativ (fasta val) som finns för fältet. Du kan bara markera ett av alternativen.  
+- Lista – Visar den uppsättning alternativ (fasta val) som finns för fältet. Du kan bara markera ett av alternativen.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kopiera och klistra in fält och rader för vanliga frågor
 
@@ -171,26 +174,26 @@ När du skriver siffror i antalsfält, till exempel fältet **Antal** för en ar
 
 ### <a name="examples"></a>Exempel  
 
--   Om du skriver 19+19 beräknas fältet till 38.  
+- Om du skriver 19+19 beräknas fältet till 38.  
 
--   Om skriver 41-9 beräknas fältet till 32.  
+- Om skriver 41-9 beräknas fältet till 32.  
 
--   Om du skriver 12*4 beräknas fältet till 48.  
+- Om du skriver 12*4 beräknas fältet till 48.  
 
--   Om du skriver 12/4 beräknas fältet till 3.  
+- Om du skriver 12/4 beräknas fältet till 3.  
 
 ## <a name="entering-negative-numbers"></a>Ange negativa antal
 
 Du kan ange negativa antal på två sätt. Numret -20,5 som kan anges:  
 
--   -20.5  
+- -20.5  
 
-    eller
--   20.5-  
+  eller
+- 20.5-  
 
- I båda fallen registreras beloppet som -20,5.  
+I båda fallen registreras beloppet som -20,5.  
 
- Om det sista tecknet i uttrycket är **+** eller **-**, kommer hela uttrycket registreras med det tecknet. Ett exempel, **10-20+**, ska leda till 10 och inte -10.  
+Om det sista tecknet i uttrycket är **+** eller **-**, kommer hela uttrycket registreras med det tecknet. Ett exempel, **10-20+**, ska leda till 10 och inte -10.  
 
 ## <a name="entering-dates-and-times"></a>Ange datum och tider
 
@@ -205,11 +208,14 @@ Du kan antingen använda dataväljaren för att välja ett datum från en kalend
 
 För manuell datainmatning kan du skriva in två, fyra, sex eller åtta siffror.  
 
--   Två siffror tolkas som dagen. Månad och år läggs till i arbetsdagens datum.  
+- Två siffror tolkas som dagen. Månad och år läggs till i arbetsdagens datum.  
 
--   Fyra siffror tolkas som dag och månad. År läggs till i arbetsdagens datum.  
+- Fyra siffror tolkas som dag och månad. År läggs till i arbetsdagens datum.  
 
--   Om det datum du vill använda ligger inom intervallet 1930-01-01 till 2029-12-31 anger du året med två siffror. Ange annars året med fyra siffror.  
+- Om det datum du vill använda ligger inom intervallet 1950-01-01 till 2049-12-31 anger du året med två siffror. Ange annars året med fyra siffror.
+
+  > [!NOTE]
+  > Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda det tvåsiffriga årtalet. Administratörer kan ändra intervallet genom att ändra serverns **CalendarTwoDigitYearMax** [!INCLUDE[prod_short](includes/prod_short.md)]-inställning . Mer information finns i [Konfigurera Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 Du kan också ange ett datum som en veckodag följt av ett veckonummer. Du kan också ange ett år. Till exempel Mån25 eller mån25 betyder måndag vecka 25.  
 
@@ -267,9 +273,12 @@ Här följer några exempel.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Ange decimalavgränsare som används av numeriska tangentbord
 
-När du anger data med hjälp av decimal tecken för numeriska tangenter, bestäms den verkliga decimalavgränsare som anges i fältet av regionsinställningarna för Business Central. Du anger region i Business Central på sidan **Mina inställningar**.
+När du anger data med hjälp av decimal tecken för numeriska tangenter, bestäms den verkliga decimalavgränsare som anges i fältet av regionsinställningarna för Business Central. De flesta regioner använder punkt (.) eller komma (,) som en avgränsare för decimalvärden, som vanligtvis visas i valuta belopp. Decimalknappen på knappsatsen anpassas till din region. Det är ofta annorlunda än punkt eller kommatecken på resten av tangentbordet. Du anger region i Business Central på sidan **Mina inställningar**.
 
-Anta exempelvis att du använder ett numeriskt tangentbord som använder en punkt (.) som tangent för decimalavgränsare. Du måste dock ange data för ett regionalt språk som använder komma (**,**) för decimaltecknet, som danska (Danmark) eller franska (Frankrike). Det innebär att du vill att decimaler som "1,23" ska anges som "1,23". I så fall kan du gå till sidan **mina inställningar** och ange **regionen** till det regionala språket, som **danska (Danmark)** eller **franska (Frankrike)**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#region).
+Anta exempelvis att du använder ett numeriskt tangentbord som använder en punkt (.) som tangent för decimalavgränsare. Du måste dock ange data för ett regionalt språk som använder komma (**,**) för decimaltecknet, som eller franska (Frankrike). Det innebär att du vill att decimaler som "1,23" ska anges som "1,23". I så fall kan du gå till sidan **mina inställningar** och ange **regionen** till det regionala språket, som eller **franska (Frankrike)**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Ibland kan det hända att du vill använda decimaltecknet för att ange en punkt (.). Anta att du har angett ett datumintervall i ett filter, t.ex. `01/01/2022..04/01/2022` eller något som kräver en punkt. För att använda detta, tryck på tangenterna "Alt+decimalavgränsare" på det numeriska tangentbordet. Denna tangentkombination växlar decimaltecknet mellan en punkt och den decimalavgränsare som bestäms av inställningen **region**.
 
 ## <a name="see-also"></a>Se även
 

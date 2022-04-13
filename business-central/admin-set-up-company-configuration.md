@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e142f8aef14ea82d67de0c51a996e4f6a6b43dbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143940"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513180"
 ---
-# <a name="set-up-company-configuration"></a>Ställa in företagskonfiguration
+# <a name="set-up-company-configuration-with-rapidstart-services"></a>Ställa in företagskonfiguration med RapidStart Services
+
 Implementeringsprocessen börjar med Microsoft-partnern. Som partner ansvarar du för att tänka igenom konfigurationdetaljerna och för att skapa ett paket som en kund enkelt kan använda. Innan du skapar ett nytt företag i [!INCLUDE [prod_short](includes/prod_short.md)] online eller lokalt bör du planera hur det ska konfigureras. Du måste beakta grundläggande inställningsdata och vilka slags data din [!INCLUDE[prod_short](includes/prod_short.md)]-lösning kräver. Samla sedan ihop all denna information i konfigurationspaket.
 
 RapidStart Services ger dig också de verktyg som du använder för att migrera bakåtkompatibla data, t. ex. kunder och leverantörer.  

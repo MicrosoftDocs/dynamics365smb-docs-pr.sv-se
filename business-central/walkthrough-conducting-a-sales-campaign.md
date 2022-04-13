@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 00b2cd6f4e0b7a141bd6c31dc61ceac909407376
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4afda1c307f0f327196ad3dc0d53d74842bf3d9f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140299"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523080"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Genomgång: Genomföra en försäljningskampanj
 
@@ -68,7 +68,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 ### <a name="to-set-up-a-campaign"></a>Så här lägger du upp en kampanj  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kampanjer** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kampanjer** och väljer sedan relaterad länk.  
 2. Välj åtgärden **nytt** för att skapa en ny kampanj. På kampanjkortet trycker du på **Retur** för att ett kampanjnummer automatiskt ska infogas.  
 3. I fältet **Beskrivning** anger du en beskrivning av kampanjen, till exempel **Office Futurus-mässa**.  
 4. Välj fältet **Statuskod** och välj statuskoden "1-PLAN". 
@@ -160,11 +160,11 @@ Marknadsföringschefen bestämmer sig för att den reducerade listan är den slu
 
 Bilagorna skickas. När processen är klar för väljer du knappen **OK** för meddelandet som anger att segmentet har loggats.  
 
- Breven skrivs ut automatiskt och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan flyttas till listan över loggade segment. För att se den listan, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Loggade segment** och väljer sedan relaterad länk.  
+ Breven skrivs ut automatiskt och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan flyttas till listan över loggade segment. För att se den listan, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Loggade segment** och väljer sedan relaterad länk.  
 
 När segmentet har loggats registreras varje brev som skickas som en interaktion, som du kan visa i loggen.  
 
-Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Interaktionslogg** och välj sedan relaterad länk. Det finns en transaktion för varje skickat brev.  
+Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Interaktionslogg** och välj sedan relaterad länk. Det finns en transaktion för varje skickat brev.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Så här skickar du ett e-postmeddelande till en kontakt  
 

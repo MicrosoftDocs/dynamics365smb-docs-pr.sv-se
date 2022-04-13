@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7fbb0d2c064df2b99fcbb58dde278ed8848f949f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137529"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516089"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
 
@@ -27,7 +27,7 @@ Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombin
 >  Komponenter som saknar operationsföljdslänkkoder visas först i listan i journalen.  
 
 ## <a name="to-register-consumption-and-output"></a>Så här registrerar du förbrukning och utdata  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
 2.  Öppna en släppt produktionsorderrad som är klar för registrering. På snabbfliken **Rader** klickar du på **Rader** och väljer sedan åtgärden **Produktionsjournal**.  
 
     Sidan **Produktionsjournal** öppnas med journalrader för produktionsorderraden enligt sidorna **Prod.orderkomponent** och **Prod.orderverksamhetsföljd**. Dessa rader kommer från den produktionsstruktur och verksamhetsföljd som tilldelats artikeln som produceras. För mer information, se [Skapa produktionsstrukturer](production-how-to-create-routings.md).  

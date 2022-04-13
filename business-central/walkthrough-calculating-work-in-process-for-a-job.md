@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ee0720c6fe8f7b64e99344fc277a5c42a0243b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148154"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523299"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Genomgång: Beräkna produkter i arbete för ett projekt
 
@@ -59,7 +59,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 ### <a name="to-calculate-wip"></a>Så här beräknar du PIA  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2.  I listan **Projekt** väljer du projektet **Hjortfält** och väljer sedan åtgärden **redigera**. Projektkortet öppnas i redigeringsläge.  
 
      PIA kan beräknas baserat på metoderna Kostnadsvärde, Förs.värde, Försäljningskostnader, Färdigställningsgrad eller Slutfört kontrakt. I det här exemplet använder CRONUS kostnadsvärdemetoden.  
@@ -91,7 +91,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 ### <a name="to-review-wip-warnings"></a>Så här kan du granska PIA-varningar  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **cockpit för PIA för projekt** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **cockpit för PIA för projekt** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Hjortfält** och välj sedan åtgärden **Visa varningar**.  
 3.  På sidan **Projekt – PIA-varningar** granskar du varningen som är kopplad till projektet.  
 

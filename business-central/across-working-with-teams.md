@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147118"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528455"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Dela Business Central-poster och sidlänkar i Microsoft Teams
 
@@ -45,7 +45,7 @@ Följande avsnitt beskriver de olika sätten i detalj.
 
 Med Business Central-appen för Teams kan du kopiera en länk från valfri Business Central-post, till exempel en kund- eller försäljningsorder, och klistra in länken i en Teams-konversation. Appen ansluter Microsoft Teams till dina affärsdata i [!INCLUDE [prod_short](includes/prod_short.md)]\. Det utökar sedan länken ett kompakt, interaktivt kort som visar information om posten. När ni väl befinner er i konversationen kan du och dina medarbetare visa mer information om posten, redigera data och vidta åtgärder &mdash; utan att lämna Teams.
 
-[![Team-integrering med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Team-integrering med Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Förutsättningar
 
@@ -60,38 +60,36 @@ Med Business Central-appen för Teams kan du kopiera en länk från valfri Busin
 1. Logga in på [!INCLUDE [prod_short](includes/prod_short.md)] genom webbläsaren.
 2. Öppna posten som du vill dela.
 
-    Appen är utformad för att visa sidor med korttypen från [!INCLUDE [prod_short](includes/prod_short.md)]\. Öppna en sida som visar en enskild post, t. ex. en artikel, kund eller försäljningsorder. Du kan inte använda den för rollcenter eller sidor som visar flera poster i en lista.
+    Appen är utformad för att visa ett kort för i stort sett samtliga typer av [!INCLUDE [prod_short](includes/prod_short.md)]-sidor. Den ger emellertid den bästa upplevelsen när den används för sidor som visar en enskild post, till exempel en artikel, kund eller försäljningsorder.
+3. Kopiera länken till sidan.
 
-3. Kopiera hela URL-adressen från webbläsarens adressfält.
+    Du kan kopiera länken på två sätt: Det enklaste och bästa sättet är att välja **Dela** ![ikonen Dela i Business Central](media/share-icon.png) > **Kopiera länk**. Deta andra sättet är att kopiera hela URL-adressen från webbläsarens adressfält.
 
-   ![Kopiera URL-adress för Business Central från webbläsare.](media/teams-url-v2.png)
+    [![Kopiera URL-adress för Business Central från webbläsare.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Gå till Team och starta en konversation, som kan vara chatt med en person, en grupp personer eller en teamkanal.
+5. Klistra in länken (URL-adressen) i meddelanderutan där du skriver ett meddelande.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Klistra in URL-adressen i meddelanderutan där du skriver ett meddelande.
+    ![Klistra in Business Central-URL i Team.](media/teams-paste-url-v2.png)
 
-   ![Klistra in Business Central-URL i Team.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Om du får ett meddelande som: *Busines Central vill visa en förhandsgranskning av den här länken* betyder det att du inte har installerat Business Central-appen för Teams. Om du vill installera appen väljer du **Visa förhandsgranskning** och följer instruktionerna.
 6. Första gången du klistrar in en länk i en konversation ombeds du logga in på [!INCLUDE [prod_short](includes/prod_short.md)] och ge appen tillstånd att hämta data. Följ bara instruktionerna på skärmen.
 
     > [!NOTE]
     > Du behöver bara utföra detta steg en enda gång.
-
 7. Vänta ett tag medan ett kort genereras i meddelanderutan.
-
 8. När kortet visas granskar du innehållet på kortet noggrant för känslig information innan du skickar meddelandet. Det här steget är viktigt eftersom alla i konversationen kan se kortet när du har skickat meddelandet.
-
 9. Om kortet verkar vara bra väljer du **Skicka** för att skicka det till konversationen.
 
     > [!TIP]
     > När kortet visas och innan du väljer **Skicka** kan du ta bort den inklistrade URL:en om du vill.
-
 10. Om du vill visa mer information om eller ändra den post somvisas på kortet väljer du **Detaljer**. Mer information finns i nästa avsnitt.
 
 ### <a name="view-card-details"></a>Visa kortinformation
 
-När ett kort har skickats till en konversation kan alla deltagare med [rätt behörighet](admin-teams-integration.md#permissions) välja **Detaljer** för att öppna ett fönster som visar mer information om posten &mdash; och eventuellt ändra posten. Det spelar ingen roll om du är den som skickar kortet eller den som tar emot det. Funktionen **Detaljer** är särskilt användbar för mottagare eftersom den snabbt förser dem med koncis, riktad information om posten, i stället för att behöva söka igenom hela posten.
+När ett kort har skickats till en konversation kan alla deltagare med [rätt behörighet](admin-teams-integration.md#permissions) välja **Detaljer** för att öppna ett fönster som visar mer information om posten &mdash; och eventuellt ändra posten. Det spelar ingen roll om du är den som skickar kortet eller den som tar emot det. Funktionen **Detaljer** är särskilt användbar för mottagare eftersom den snabbt förser dem med koncis, riktad information om posten.
 
-Fönstret Detaljer liknar det du ser i [!INCLUDE [prod_short](includes/prod_short.md)] posten. Men informationen är något nedtrimmad för Team. När du är klar med att visa och göra ändringar kan du stänga fönstret och återgå till Team-konversationen.
+Informationsfönstret liknar det som du ser i [!INCLUDE [prod_short](includes/prod_short.md)], men är fokuserat på sidan eller posten som kortet handlar om. När du är klar med att visa och göra ändringar kan du stänga fönstret och återgå till Team-konversationen.
 
 Här följer några saker som du bör tänka på när du arbetar med kortinformationen:
 

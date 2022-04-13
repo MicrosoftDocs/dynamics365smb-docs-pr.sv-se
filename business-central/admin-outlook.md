@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323208"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518343"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Hämta Business Central-tillägget för Outlook
 
@@ -39,7 +39,7 @@ Business Central-tillägget för Outlook består av två mindre tillägg:
 
     När ett e-postmeddelande hänvisar till ett affärs dokumentnummer i e-postmeddelandet, ger det här tillägget en direkt, direkt länk från e-postmeddelandet till det verkliga affärsdokumentet i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Mer information om vad du kan göra med tilläggen finns i [använda Business Central som inkorgen för företaget i Outlook](work-outlook-addin.md).
+Mer information om vad du kan göra med tilläggen finns i [Använda Business Central som företagsinkorg i Outlook](work-outlook-addin.md).
 
 Varje tillägg tillhandahålls som en XML-fil, som kallas *manifest*, som måste installeras i Outlook för alla som vill använda den här funktionen. Dessa filer beskriver hur du aktiverar tilläggen och ansluter till Business Central när de används i Outlook. Arbetet med dessa filer utförs vanligtvis av en administratör. Som normal användare behöver du oftast inte hantera dessa filer direkt. Antingen konfigurerar din administratör tillägget så att det installeras automatiskt åt dig, eller så använder du den inbyggda installationen för att hantera installationen.
 
@@ -84,7 +84,7 @@ Centraliserad distribution är en funktion i administratörscentret för Microso
 > [!IMPORTANT]
 > En grön bockmarkering visas när tillägget distribueras till administrationscentret. Det kan ta upp till 24 timmar innan användaren ser tillägget i automatiskt-appen. Användare kan behöva starta om Outlook även.
 
-När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscenter finns i [distribuera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscentret finns i [distribuera tillägg i administrationscentret](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installera tillägget för egen användning
 
@@ -129,7 +129,7 @@ Du är nu redo att börja använda tillägget i Outlook.
 [Ekonomi](finance.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
-[Minsta krav för Outlook](product-requirements.md#outlook)  
+[Minimikrav för Outlook](product-requirements.md#outlook)  
 [Använda tillägg i Outlook på Internet](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 

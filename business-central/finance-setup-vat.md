@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383677"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519231"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurera beräknings- och bokföringsmetoder för moms
 
@@ -31,7 +31,7 @@ Du kan ställa in momsberäkningar manuellt, men det kan vara svårt och tidsöd
 > [!NOTE]  
 > Du kan endast använda guiden om du har skapat ett Mitt företag och inte har bokfört transaktioner som inkluderar moms. Annars skulle vara mycket emkelt att använda olika momssatser av misstag, och göra felaktiga momsrapporter.  
 
-Om du vill ställa in momsberäkningar själv eller bara vill ha information om varje steg innehåller i det här avsnittet beskrivningar av varje steg.  
+Om du vill ställa in momsberäkningar själv eller bara vill ha information om varje steg, innehåller denna artikel beskrivningar av varje steg.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ Så här startar du den assisterade konfigurationsguiden:
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **assisterad konfiguration**.  
 2. Välj **Ställ in moms** och slutför stegen.
 3. När du har slutfört den assisterade konfigurationen går du till sidan **Bokföringsinställning för moms** och kontrollerar om du behöver fylla i ytterligare fält enligt de lokala kraven för din version av [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Lokala funktioner i Business Central](about-localization.md).  
+
+### <a name="check-the-vat-posting-setup"></a>Kontrollera bokföringsinställningar för moms
+
+För att hjälpa dig komma igång snabbt visar [!INCLUDE [prod_short](includes/prod_short.md)] dig meddelanden om redovisningskonton saknas i bokföringsmallar eller bokföringsinställningar, till exempel sidan **Bokföringsinställningar för moms**. Du kan ändra den här typen av meddelande med hjälp av meddelandet *Redovisningskonton som saknas i bokföringsmall eller inställning* på sidan **Mina meddelanden**. Gå helt enkelt till sidan **Mina inställningar** och välj sedan *Ändra när jag erhåller meddelanden.* länk.  
+
+Om du väljer ett sådant meddelande skapar [!INCLUDE [prod_short](includes/prod_short.md)] automatiskt dessa bokföringsinställningar baserat på bokföringsmallarna i det dokument eller den journal som du arbetar med.  
+
+I detta skede kanske du bara fyller i de saknade redovisningskontona. När du senare sedan finjusterar installationen ytterligare kanske du inser att konfigurationen var fel. [!INCLUDE [prod_short](includes/prod_short.md)] tillåter inte borttagning av momsbokföringsinställningar och allmänna bokföringsinställningar när transaktioner skapas baserade på sådana konfigurationer. Från och med 2022 års utgivningscykel 1 kan du använda fältet **Spärrat** i fönstret **Bokföringsinställningar för moms** för att förhindra att användare av misstag använder en konfiguration som inte längre är relevant för nya bokföringar.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Så här skapar du momsregistreringsnummer för land / region
 
@@ -94,7 +102,7 @@ Du kan registrera så många kombinationer som du vill. Om du vill gruppera komb
 Om du vill kombinera momsbokföringsinställningar gör du följande:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 5.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.
-2. Fyll i fälten om det behövs.
+2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Tilldela momsbokföringsmallar som standard till flera enheter
 

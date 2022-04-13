@@ -1,22 +1,25 @@
 ---
-title: Så här konfigurerar du ett företag med RapidStart-guiden | Microsoft Docs
-description: Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
+title: Så här konfigurerar du ett företag med RapidStart-guiden
+description: För Business Central lokalt kan du konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 03/28/2022
 ms.author: edupont
-ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 189701aef31c5bbdc3323b753667937775d59a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130858"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515803"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Så här konfigurerar du ett företag med RapidStart-guiden
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Du kan snabbt konfigurera ett nytt företag som du har skapat genom att använda konfigurationsguiden för RapidStart Services.
 
 I följande procedur har du gett kunden ett konfigurationspaket, som sedan har installerats på en dator. Kunden öppnar det nya företaget, som inte innehåller några kunddata. Du eller kunden följer stegen i guiden RapidStart Services som beskrivs i den här proceduren, för att ange grundläggande information om företaget. Guiden importerar konfigurationspaketet och kopplar sedan paketet till företaget.  

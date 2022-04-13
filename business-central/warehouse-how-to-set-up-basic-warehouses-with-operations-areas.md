@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d64cb9cdba21d3a023c86fbb39e802a78945c2b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 502ac0d10379166426014ea3bda0eedb1f6d601c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144209"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512002"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Ställa in grundläggande dist.lager med verksamhetsområden
 Om internt verksamhetsområde till exempel produktion eller tillverkning finns i grundläggande distributionslagerkonfiguration, där lagerställen använder **Lagerplats ska finnas** inställningar, och eventuellt fälten **Begär plockning** och **Begär artikelinförsel**, kan du använda följande grundläggande dokument för att registrera lageraktiviteter för internt verksamhetsområde:  
@@ -41,14 +41,14 @@ Procedurerna baseras på att ställa in grundläggande av lageraktiviteter kring
 >  I följande procedur här fältet **Lagerplats ska finnas** på lagerställekort markeras som ett villkor, eftersom det betraktas som grund för en nivå i lagerstyrningen.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Om du vill aktivera lagerdokument för intern operation aktiviteter  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
 2. Öppna lagerställekortet som du vill ställa in.  
 3.  Välj kryssrutan **Dist.lager**, fältet **Begär artikelinförsel** för att visa att när ett inkommande eller en internt källdokument med en lagerställeskod släpps, en lagerartikelinförsel eller en lagertransportdokument kan skapas.  
 4.  Välj **Begär plockning** för att visa att när ett utgående eller en internt källdokument med en lagerställeskod skapas, en lagerplockning eller en lagertransportdokument måste skapas.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Så här definierar du en standardlagerplatsstruktur i produktionsområdet
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
 2. Öppna lagerstället som du vill ställa in.  
 3.  På Snabbfliken **Lagerställen** , i **Öppen prod.lagerplats kod** fältet, ange koden för lagerstället i produktionsområdet med överflöd av komponenter som maskinoperatören kan använda utan att begära en lageraktivitet om att ta dem till lagerstället. Artiklar som placeras på denna lagerplats, används vanligtvis för automatisk bokföring. Det innebär att **Bokföringsmetod** fältet, innehåller **Framåt** eller **Bakåt**.  
 4. I fältet **Till prod.-lagerplats – kod** anger du koden för lagerstället i produktionen där komponenter, som plockas för produktion i denna plats, placeras som standard, innan de kan förbrukas. Artiklar som placeras på denna lagerplats, används vanligtvis för förbrukningsbokföring. Det innebär att **Bokföringsmetod** fältet innehåller **Manuell** eller **Plocka + framåt** eller **Plocka + bakåt** för dist.lager plockning och lagerförflyttningar.  

@@ -10,17 +10,17 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335454"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523143"
 ---
 # <a name="business-intelligence"></a>Affärsstöd
 Företag skapar och hanterar oerhörda mängder data under sin dagliga verksamhet. Dessa data, som återspeglar till exempel organisationens försäljningssiffror, inköp, driftskostnader, löner och budgetar, kan bli värdefull information, eller business intelligence, för beslutsfattare. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett antal funktioner som hjälper dig att samla, analysera och dela med dig av dina företagsdata.
 
-Funktionen för dimensioner spelar en viktig roll i affärsstöd. En dimension är data som du kan lägga till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Bland annat kan du använda dimensioner när du definierar aktiviteter och när du skapar kontouppställningar för rapportering. Mer information finns i [Arbeta med](finance-dimensions.md).
+Funktionen för dimensioner spelar en viktig roll i affärsstöd. En dimension är data som du kan lägga till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Bland annat kan du använda dimensioner när du definierar aktiviteter och när du skapar kontouppställningar för rapportering. Mer information finns i [Arbeta med dimensioner](finance-dimensions.md).
 
 > [!TIP]
 > Som ett snabbt sätt att analysera transaktionsdata med dimensioner kan du filtrera summorna i kontoplanen och posterna på alla sidor för **Transaktioner** per dimension. Sök efter åtgärden **Ange dimensionsfilter**.  

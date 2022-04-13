@@ -9,14 +9,17 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148310"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512764"
 ---
-# <a name="import-and-export-custom-report-layouts"></a>Så här importerar och exporterar du en anpassad rapportlayout
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Äldre) Importera och exportera en anpassad rapportlayout
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
+
 Du kan importera och exportera en befintlig anpassad rapportlayout som en fil till och från en plats på datorn och nätverket. Du kan till exempel exportera en rapportlayout och sedan skicka filen till en annan person för att ändra. Den personen kan sedan göra ändringar i layouten och returnera filen till dig så att du kan importera tillbaka den till.  
 
 > [!IMPORTANT]  
@@ -24,7 +27,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Så här exporterar du en rapportlayout till en fil  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
 
 2.  Markera raden för rapporten som innehåller den anpassade rapportlayouten som du vill exportera och välj sedan åtgärden **Anpassa layouter**.  
 
@@ -54,7 +57,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
 [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
-[Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)    
+[Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

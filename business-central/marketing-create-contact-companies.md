@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7f25c192c43823c1f3594f21097fe7bd7081f889
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6b82557463633959e62b4d2fed9484c8e2412b22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383565"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520262"
 ---
 # <a name="create-contacts"></a>Skapa kontakter
 
@@ -35,7 +35,7 @@ När en kontakt omvandlas till en kund blir kontaktpersonen eller kontaktföreta
 > Men om du redan använder den inbyggda funktionen för att skapa kunder eller artiklar automatiskt, stöder den här funktionsuppdateringen inte anpassade fält och nyskapade kunder eller artiklar kommer inte att innehålla sådana data.
 
 ## <a name="to-create-a-contact-manually"></a>Så här skapar du en kontakt manuellt
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. I fältet **Nr.** anger du ett nummer för kontakten.
 
@@ -48,7 +48,7 @@ Om du har kunder, leverantörer och bankkonton som du vill skapa kontaktkort fö
 > [!NOTE]  
 > Innan du kan skapa kontakter baserat på befintliga data måste du ange en affärsrelationskod för kunder, leverantörer eller bankkonton på snabbfliken **Interaktioner** på sidan **Marknadsföringsinställningar**. Mer information finns i [Ställa in kontakter](marketing-setup-contacts.md).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange ett av följande, beroende på varifrån du vill skapa kontakter och välj sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange ett av följande, beroende på varifrån du vill skapa kontakter och välj sedan relaterad länk.
    * **Skapa kontakter från kunder**
    * **Skapa kontakter från leverantörer**
    * **Skapa kontakter från bankkonton**

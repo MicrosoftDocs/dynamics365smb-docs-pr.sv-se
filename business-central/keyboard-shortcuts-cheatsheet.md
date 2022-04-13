@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f4966a1132c4e389cb3b37f31d9dcc883d27b5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384208"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511603"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Snabbguide för kortkommandon – endast dator
 
@@ -79,11 +79,18 @@ ms.locfileid: "8384208"
 |-|-|
 |Ctrl+Shift+Enter|Gå till nästa snabbinmatningsfält utanför en lista|
 |Enter/Shift+Enter|Gå till nästa/föregående snabbinmatningsfält|
+
 ##### <a name="report-preview"></a>Förhandsgranskning av rapport
 
 |Tryck på dessa tangenter|Om du vill|
 |-|-|
 |Ctrl+Home/End|Gå till första/sista sidan|
+
+#### <a name="numeric-keypad"></a>Numeriskt tangentbord
+
+|Tryck på dessa tangenter|Om du vill|  
+|-|-|
+|Alt+ decimalavgränsare|Växla utdata från decimaltecken på ett numeriskt tangentbord|
 
 > [!TIP]
 > Om du vill ha en grafisk utskriftsversion väljer du följande bild och hämtar PDF-filen.

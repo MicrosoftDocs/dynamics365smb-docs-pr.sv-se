@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 06693ce5e02256e7f0b8d54788849c146ed9dcb1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e2fe316c9f310abe3eb3bc031146445a8ffa7cef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129498"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512028"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Registrera lagerställen för att använda lagerställen
 Lagerställen representerar den grundläggande lagerstrukturen och används för att lägga förslag om artiklarnas specifika placering av artiklar. När du har skapat lagerställena kan du definiera det innehåll som du vill placera på respektive lagerplats, eller så kan lagerstället fungera som en flytande lagerplats utan att något särskilt innehåll har angetts.  
@@ -25,7 +25,7 @@ Om du vill använda lagerplatsfunktionerna på ett lagerställe måste du först
 >  Innan du kan ange lagerställeskoder på lagerställekortet, måste lagerställeskoderna skapas. Mer information finns i [Skapa lagerställen](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Så här lägger du upp ett lagerställe för att använda lagerställen  
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Välj lagerstället där du vill använda lagerställen.  
 3.  Välj åtgärden **Redigera**.  
 4.  Markera fältet **Lagerplats ska finnas** på kryssrutan **Dist.lager**.  

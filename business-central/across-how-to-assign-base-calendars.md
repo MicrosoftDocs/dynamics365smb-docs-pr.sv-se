@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 25d15bfab1dac9cea52d9efdb30e5ed3c7cbb4a2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0c6be4bc0c602363e4ae54cc27663d1eaa4091e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141599"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511850"
 ---
 # <a name="set-up-base-calendars"></a>Skapa baskalendrar
 
@@ -22,7 +22,7 @@ Du kan tilldela företaget och dess affärspartner, till exempel kunder, leveran
 
 ## <a name="to-set-up-a-base-calendar"></a>Så här lägger du upp en baskalender
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Baskalender** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Baskalender** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
 3.  Fyll i fältet **Kod**.  
 4. Välj åtgärden **Bibehåll baskalenderändringar**.
@@ -66,7 +66,7 @@ I en baskalender visas exempelvis alla lördagar normalt som lediga dagar, medan
 
 I proceduren nedan används fallet med lagerstället som exempel: Lägg märke till att du i det här skedet redan har fördelat en baskalender till lagerstället.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
 2. Öppna den plats som du vill uppdatera och välj sedan fältet **anpassad kalender**. Observera att en kalender måste markeras i fältet **Baskalenderkod**.
 3. På sidan **Anpassa kalendertransaktioner** väljer du åtgärden **Underhåll ändringar i kalender**.
 4. I **Anpassa kalenderändringar** lägger du till rader för anpassade kalendertransaktioner.
@@ -102,7 +102,7 @@ Baskalendrar tilldelas till ditt eget företag, kunder, leverantörer, lagerstä
 -   På kortet **Lagerställe** tilldelas baskalendern på snabbfliken **Lager**.  
 -   På sidan **Speditörer** fördelats baskalendern på sidan **Speditörsservice**.  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2.  Öppna det **Kundkort** som du vill tilldela en anpassad kalender för.  
 3.  På Snabbfliken **Leverans**, i fältet **Baskalenderkod**, markera den baskalender som du vill tilldela.  
 

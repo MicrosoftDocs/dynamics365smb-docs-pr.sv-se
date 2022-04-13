@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: e0ba7bc6b2979dec4b006f43ff8188010fa1885b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141879"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514289"
 ---
 # <a name="close-accounting-periods"></a>Avsluta bokföringsperioder
 
@@ -23,7 +23,7 @@ När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar
 
 ## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsperioder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokföringsperioder** och väljer sedan relaterad länk.
 2. På sidan **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
 
     Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt. Visar ett meddelande för vilket år som ska stängas och konsekvenserna av att stänga året.

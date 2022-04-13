@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e0d924270134e940fb4102dbf1fd0a9a58655dd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2b2ca286540ceca0d881b9e9928dd275583472c3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381068"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510565"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Tillägg för betalningar och avstämning (DK).
 
@@ -54,7 +54,7 @@ Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokför
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>För att tillåta betalningsdataexport från [!INCLUDE[prod_short](includes/prod_short.md)]
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournal** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournal** och väljer sedan relaterad länk.  
 2. På sidan **Redigera betalningsjournal**, välj journalen **Bank**.  
 3. Markera kryssrutan **Tillåt betalningsexport**.  
 
@@ -68,7 +68,7 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 |Tillåta meddelande till mottagare? | Ja |Nej |Nej | Ja |
 |Innehåller betalningsreferensnummer? | Nr | Ja, 16 siffror. | Ja, 15 siffror. | Nej|
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.  
 2. Öppna kortet, expandera fliken **betalningar** i fältet **betalningssätt** och välj betalningssätt.  
 3. I vissa fall måste du fylla i andra fält. Se tabellen ovan för mer information om kombinationer.  
 
@@ -105,7 +105,7 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 ## <a name="see-also"></a>Se även
 
 [Anpassning av Business Central för [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
-[Samla in betalningar med SEPA-autogiro](finance-collect-payments-with-sepa-direct-debit.md)  
+[Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 
 

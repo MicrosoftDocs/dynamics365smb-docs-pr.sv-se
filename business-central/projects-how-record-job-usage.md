@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 01af14b826f2974cf9e4d3b5b351a46dd973665d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b5030646d04e31983025e054992fa0fb71cf5b4e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131298"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513867"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrera förbrukning eller användning för projekt
 
@@ -27,7 +27,7 @@ Efterföljande procedurer beskriver hur du registrerar verklig (budgeterad) kvan
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Registrera förbrukning på en projektplaneringsrad av typen Budget
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Välj relevant projekt och välj sedan åtgärden **Projektplaneringsrader**.
 3. Välj en projektplaneringsrad av typen **Budget** eller skriv **Både Budget och Fakturerbart** som du vill registrera förbrukning för.  
 
@@ -63,7 +63,7 @@ Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt re
 > [!NOTE]  
 >   Artikeltransaktioner skapar artikeltransaktioner och minskar lagerkvantiteten. Batch-jobbet **Bokför lagerkostnad i redov.** överför kostnaden från lagret till redovisningen. Resurstransaktioner skapar resurstransaktioner.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
 2. Välj en relevant projektjournal och välj sedan åtgärden **Ber. återstående förbrukning**.  
 3. På sidan **Ber. återstående förbrukning** anger du dokumentnumret och bokföringsdatumet som ska infogas i journalen och väljer sedan knappen **OK**.  
 4. Uppdatera journalen med eventuella ändringar som kan behövas.  

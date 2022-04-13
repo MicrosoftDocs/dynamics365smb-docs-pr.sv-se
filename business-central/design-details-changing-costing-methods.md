@@ -10,12 +10,12 @@ ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6803d47ec9e7be0abe7962fd881f5cdacf8865c4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 1f726a40e23fcfcc5d00616965111254ebcd14d8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383591"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512340"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designinformation: ändra värderingsprinciper för artiklar
 
@@ -45,7 +45,7 @@ När du lägger upp lagerartiklar måste du tilldela en värderingsprincip. Meto
 
 Mer information finns i [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md).
 
-## <a name="using-assembly-orders-to-change-costing-method-assignments"></a>Använda monteringsorder för att ändra tilldelningar av värderingsprincipen
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Använda monteringsorder för att ändra tilldelningar av värderingsprincipen
 
 I det här avsnittet beskrivs följande steg för att ändra värderingsprincipen som tilldelats en artikel:
 

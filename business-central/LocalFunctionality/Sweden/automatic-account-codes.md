@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11207, 11208
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08606813d4a37ff169b9ed30ef51d876dfd24f2e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fae9c52c9bf7a265f76e790e4a71a3ba6d52594
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134451"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516499"
 ---
 # <a name="automatic-account-codes-in-the-swedish-version"></a>Automatiska kontokoder i den svenska versionen
 

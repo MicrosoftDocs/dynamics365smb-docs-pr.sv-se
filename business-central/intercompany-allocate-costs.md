@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382065"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522150"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Fördela kostnader till koncerninterna partner
 När du använder koncerninterna bokföringar för att överföra dokument mellan partnerföretag, kontrollerar de momsrelaterade inställningarna (främst rörelsebokföringsmallen för mots) som tilldelats kund- eller leverantörskonton (som är kopplade till den koncerninterna partnern) om, och hur, moms beräknas och registreras. Du kan också göra kostnadsfördelningar direkt från en inköpsorder till partnerföretag. Om du till exempel registrerar en inköpsfaktura från en extern leverantör och vill distribuera vissa eller samtliga kostnader till en eller flera koncerninterna partner.
@@ -69,7 +69,7 @@ I följande procedur beskrivs hur du fördelar kostnader med hjälp av en inköp
 1. Om du vill bokföra inköpsordern väljer du **Bokför**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Så här skickar du fördelade kostnader till koncerninterna partner
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transaktioner för int. utkorg** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Transaktioner för int. utkorg** och väljer sedan relaterad länk.
 2. Klicka på raderna som ska skickas och välj sedan åtgärden **Skicka till intern partner**. 
 3. Om du vill fördela kostnaderna väljer du åtgärden **Slutför radåtgärder**.
 

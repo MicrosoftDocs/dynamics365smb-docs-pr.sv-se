@@ -10,12 +10,12 @@ metadata:
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 2511135e9e0aebb3a813c5fede167d10b46f045a
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: 70e9bf530b2b640c42ee346d39ce6d06d5a7cee8
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: HT
   ms.contentlocale: sv-SE
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8140325"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8513477"
 title: Vanliga frågor och svar om mobilappar
 summary: "I denna artikel besvaras frågor som våra erfarna användare ofta ställer om mobilapparna för [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -83,7 +83,7 @@ sections:
     answer: "Nästan, men inte riktigt. Se listan i avsnittet [Är det samma erfarenhet i apparna som i webbläsaren?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
   - question: >
       Kan jag ansluta appen till vår lokala lösning?
-    answer: "Ja det kan du. Sätten att logga in skiljer sig något åt – det är allt. Mer information finns i [Använda Business Central lokalt?](install-mobile-app.md#using-business-central-on-premises).  \n"
+    answer: "Ja det kan du. Sätten att logga in skiljer sig något åt – det är allt. Mer information finns i [Använda Business Central lokalt?](install-mobile-app.md#use-business-central-on-premises).  \n"
   - question: >
       Kan en gäst användare använda appen för att komma åt vår Business Central-lösning?
     answer: "Nr Gäst användare är inbjudna användare från en annan Azure Active Directory (AD)-klientorganisation än din. I det här fallet autentiserar appen den primära Azure AD klientorganisation av gästanvändaren och försöker öppna Business Central slutpunkten för klientorganisationen i stället för din.  \n"

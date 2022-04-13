@@ -7,12 +7,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 47bc68e6d4354d2dd30b01571b2448f80dab3bec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129792"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521526"
 ---
 # <a name="customize-pages-for-profiles"></a>Anpassa sidor för profiler
 Användare kan anpassa sidor som utgör deras arbetsyta efter eget behov. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
@@ -25,7 +25,7 @@ Administratörer kan anpassa sidor för en profil, i enlighet med den relaterade
 Sid anpassningen startar från **profilsidan (rollerna)** och administratörens startpunkt används för att hantera användarprofiler på enskilda profilkort. Förutom att anpassa sidlayouten kan du styra olika inställningar för profiler på **profilsidan (roll)** för varje profil. Mer information finns i [Hantera profiler](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Anpassa sidor för en profil
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Profiler (roller)** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Profiler (roller)** och väljer sedan relaterad länk.
 2. Markera raden för den profil du vill anpassa sidor för och välj sedan åtgärden **Redigera**.
 3. Välj åtgärden **anpassa sidor**.
 

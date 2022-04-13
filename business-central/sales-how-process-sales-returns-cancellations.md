@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.search.form: 44, 134, 143, 9302, 9304, 6662
+ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: cf613ce6898165bca4a881a045ed4b86ef327f35
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: ad8dbaae34876678c199501648cf9d5e10a90ed0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366994"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522596"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 
@@ -75,7 +75,7 @@ De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återf
 Du kan skicka en kreditnota med ett prisavdrag till en kund om de varor som levererats till kunden är skadade eller om artiklarna inte levererades i tid.  
 Du kan bokföra det reducerade priset som en artikelomkostnad i en kreditnota eller en returorder och koppla den till den bokförda leveransen. Följande tabell beskriver en försäljningskreditnota, men samma steg gäller för en försäljningsreturorder.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningskreditnotor** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningskreditnotor** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom försäljningskreditnota.
 3. Fyll i kreditnotahuvudet med information om den kund som ska erhålla förs.tillägget.  
 4. På snabbfliken **Rader** i fältet **Typ** markerar du **Debitering (artikel)**.  

@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 31f6c59f13bed6fdb62624b56ad732824af77230
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131040"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519335"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
-När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om AMC Banking 365 Fundamentals-tillägget finns i [Använd AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md).  
+När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om AMC Banking 365 Fundamentals-tillägget finns i [Använda AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer vissa av dina affärsdata att visas för tjänsteleverantören. Serviceleverantören, AMC Consult A/S, är ansvarig för sekretessen för dessa data. Mer information finns i [Sekretesspolicy för AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
@@ -70,9 +70,9 @@ I följande tabell visas de fält i [!INCLUDE[prod_short](includes/prod_short.md
 |Avsändarbankens namn – datakonv.|Banknamn – datakonvertering|Bankkonto|Namnet på sändarens bankkonto som begärs av AMC Banking 365 Fundamentals-tillägget och anges på bankens kontokort|  
 
 ## <a name="see-also"></a>Se även  
-[Konfigurera datautbyte](across-set-up-data-exchange.md)  
+[Konfigurera databyte](across-set-up-data-exchange.md)  
 [Byta data elektroniskt](across-data-exchange.md)
-[med hjälp av AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   
+[Använda AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md)   
 [Göra betalningar med AMC Banking 365 Fundamentals-tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 
 

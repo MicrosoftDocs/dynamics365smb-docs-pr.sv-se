@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bd357f10509040afb8b64ec19fecda4e8769dfe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 927e90a5e25205873a3d0784c7065b9735dc7b24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142009"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515465"
 ---
 # <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.
@@ -26,9 +26,9 @@ De befintliga försäljningsmöjligheterna finns på sidan **Affärsmöjlighetsl
 
 | Visa affärsmöjligheter för | Då |
 | --- | --- |
-| Alla säljare och kontakter |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Affärsmöjlighetslista** och väljer sedan relaterad länk. |
-| En viss säljare |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
-| En viss kontakt |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
+| Alla säljare och kontakter |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Affärsmöjlighetslista** och väljer sedan relaterad länk. |
+| En viss säljare |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk. Välj säljare, välj åtgärden **Affärsmöjligheter** och välj sedan åtgärden **Lista**. |
+| En viss kontakt |Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk. Välj kontakt från listan, välj åtgärden **Affärsmöjligheter**. |
 
 Var och en av dessa uppgifter öppnar sidan **Affärsmöjlighetslista**.
 

@@ -11,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128797"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513919"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeta med återkommande intäkter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -29,11 +29,11 @@ En återkommande journal är en redovisningsjournal med specifika fält för han
 
 ### <a name="why-use-this-option"></a>Varför använda detta alternativ?
 
-Med detta alternativ definierar du flexibla faktureringsperioder med [datumformler](ui-enter-date-ranges.md#using-date-formulas).
+Med detta alternativ definierar du flexibla faktureringsperioder med [datumformler](ui-enter-date-ranges.md#use-date-formulas).
 
 Med det här alternativet kan du emellertid inte skriva ut och skicka fakturor i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Mer information finns i [Arbeta med återkommande journaler](ui-work-general-journals.md#working-with-recurring-journals).  
+Mer information finns i [Arbeta med återkommande journaler](ui-work-general-journals.md#work-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Skapa flera fakturor baserat på en återkommande projektjournal
 
@@ -111,8 +111,8 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du hämta ti
 
 ## <a name="see-also"></a>Se även
 
-[Datumformler](ui-enter-date-ranges.md#using-date-formulas)  
-[Arbeta med återkommande journaler](ui-work-general-journals.md#working-with-recurring-journals)  
+[Datumformler](ui-enter-date-ranges.md#use-date-formulas)  
+[Arbeta med återkommande journaler](ui-work-general-journals.md#work-with-recurring-journals)  
 [Skapa projektjournalrader](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Skapa flera projektförsäljningsfakturor](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)  

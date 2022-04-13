@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138472"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515595"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobila enhet
 
@@ -40,7 +40,7 @@ Du bör nu ha tillgång till [!INCLUDE[prod_short](includes/prod_short.md)] och 
 > [!TIP]
 > Om du vill ansluta appen till en sandbox-miljö väljer du knappen **Avancerade alternativ** och väljer sedan inloggningsalternativet **Moln-sandbox**. Om du har mer än en sandboxmiljö väljer du relevant miljö.
 
-## <a name="using-business-central-on-premises"></a>Använda Business Central lokalt?
+## <a name="use-business-central-on-premises"></a>Använda Business Central lokalt?
 
 Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du också njuta av fördelarna med mobilappen. Installationen sker på liknande sätt, men med några undantag.
 

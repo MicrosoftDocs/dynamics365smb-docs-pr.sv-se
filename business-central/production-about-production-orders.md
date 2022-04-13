@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 568b8f119cf741a16b7d20560e541d7995b7834f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0ac99e89d271a7511b400cda3498c94384e5d397
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135061"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522778"
 ---
 # <a name="about-production-orders"></a>Om produktionsorder
 
@@ -184,7 +184,7 @@ I produktionsjournalen bokförs förbrukningsantal som negativa artikeltransakti
 [Produktion](production-manage-manufacturing.md)
 [Konfigurera produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2c5a0ebaad14e33ec15df9f6483a397715a167a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ebb230a7bd0e2008d16b33c0fb00bdbeac3177d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144443"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519498"
 ---
 # <a name="receive-items"></a>Ta emot artiklar
 
@@ -26,7 +26,7 @@ När artiklar tas emot i ett distributionslager som använder inleveransbearbetn
 
 Nedan beskrivs hur du inlevererar artiklar med en inköpsorder. Stegen är liknande för försäljningsreturorder och överföringsorder.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
 2. Öppna en befintlig inköpsorder eller skapa en ny. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 3. Ange hur många enheter som har inlevererats i fältet **Inlevereras antal**.
 
@@ -42,7 +42,7 @@ Nedan beskrivs hur du inlevererar artiklar med en inköpsorder. Stegen är likna
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>För att inleverera artiklar med en lagerinleverans.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 
     Fyll i fälten på snabbfliken **Allmänt**. När du hämtar källdokumentrader, kopieras delar av informationen i huvudet till varje rad.  
@@ -95,7 +95,7 @@ Du måste definiera en procentsats som tillåter att den beställda kvantiteten 
 
 Nedan beskrivs hur du lägger upp och tilldelar en kod för överinleverans till en artikel. Momenten är liknande för en leverantör.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för en artikel som du misstänker ibland kan levereras i större mängd än vad som har beställts.
 3. Välj sökknappen i fältet **Kod för överinleverans**.
 4. Välj åtgärden **Ny**.

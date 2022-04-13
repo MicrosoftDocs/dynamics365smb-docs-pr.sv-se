@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ce44487a4c40e3997e95f883ac3cdf3a396e0d4b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382931"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514809"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
 
@@ -36,7 +36,7 @@ Utöver matchningsvillkoret gäller följande för tecknet för betalningsbelopp
 - För positiva belopp görs först en matchning mot öppna transaktioner som representerar leverantörsfakturor, och sedan mot kreditnotor för kunden.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Så här definierar du en regel för betalningskoppling
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningskopplingsregler** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningskopplingsregler** och väljer sedan relaterad länk.
 2. Definiera en ny eller redigerad betalningskopplingsregel genom att fylla i fälten på en rad enligt beskrivningen i följande register.
 
 |Fält|Beskrivning|

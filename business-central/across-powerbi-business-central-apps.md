@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134154"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519191"
 ---
-# <a name="using-the-prod_short-apps-in-power-bi"></a>Använda [!INCLUDE [prod_short](includes/prod_short.md)]-apparna i Power BI
+# <a name="use-the-prod_short-apps-in-power-bi"></a>Använda [!INCLUDE [prod_short](includes/prod_short.md)]-apparna i Power BI
 
 > **GÄLLER:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -33,7 +33,7 @@ Varje app innehåller ett flertal rapporter som du kan bearbeta för data, inklu
 - Välj något visuellt på instrumentbrädan för att få upp en av de underliggande rapporterna.  
 - Filtrera rapporten eller lägg till fält som du vill övervaka.  
 - Fäst en anpassad vy på instrumentpanelen om du vill fortsätta spåra.  
-  Du kan uppdatera data manuellt och du kan ställa in ett schema för uppdatering. Mer information finns i [konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).  
+  Du kan uppdatera data manuellt och du kan ställa in en uppställning för uppdatering. Mer information finns i [konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).  
 
 Apparna har utformats för att arbeta med data från valfritt företag i [!INCLUDE[prod_short](includes/prod_short.md)]. När du installerar Power BI-appen anger du en eller flera parametrar för att ansluta till [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -148,7 +148,7 @@ I Power BI-appen visas endast data från [!INCLUDE[prod_short](includes/prod_sho
 - Försök med att [ställa en fråga i rutan Vanliga frågor och svar](/power-bi/service-q-and-a-tips) högst upp i instrumentpanelen.
 - [Ändra panelerna](/power-bi/service-dashboard-edit-tile) på instrumentpanelen.  
 - [Välj en panel](/power-bi/service-dashboard-tiles) för att öppna den underliggande rapporten.  
-- Din datauppsättning har inte schemalagts att uppdateras som standard. Du kan ändra uppdateringsschemat eller försöka uppdatera den på begäran med **Uppdatera nu**. Mer information finns i [Konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).
+- Din datauppsättning har inte schemalagts att uppdateras som standard. Du kan ändra uppdateringsuppställningen eller försöka uppdatera den på begäran med **Uppdatera nu**. Mer information finns i [Konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -164,10 +164,10 @@ I Power BI-appen visas endast data från [!INCLUDE[prod_short](includes/prod_sho
 [Dokumentation om Power BI](/power-bi/)  
 [Affärsstöd](bi.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
-[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI datakälla](across-how-use-financials-data-source-powerbi.md)  
-[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps datakälla](across-how-use-financials-data-source-powerapps.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakälla](across-how-use-financials-data-source-powerapps.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 

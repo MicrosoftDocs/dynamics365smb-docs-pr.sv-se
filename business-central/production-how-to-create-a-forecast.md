@@ -7,22 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140949"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512920"
 ---
 # <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
 
-Du kan skapa försäljnings- och produktionsprognoser på sidan **efterfrågeprognos**.  
+Du kan skapa försäljnings- och produktionsprognoser på listsidan **efterfrågeprognos**. För varje prognos anger du sedan olika inställningar för prognosen på sidan för **översikt över efterfrågeprognosen**.  
 
-Prognosfunktionen används för att skapa prognostiserat behov, faktiskt behov skapas från försäljnings – och produktionsorder. Under tiden som produktionsprogrammet skapas nettoberäknas prognosen mot försäljnings – och produktionsorder. Alternativet *Komponent* på prognosen avgör vilken typ av krav som bör beaktas i nettoberäkningen. Om prognosen gäller en försäljningsartikel, nettoberäknas endast försäljningsorder för prognosen. Om den är för komponenter, nettoberäknas bara den härledda efterfrågan från produktionsorderkomponenter i prognosen.  
+Prognosfunktionen används för att skapa prognostiserat behov, faktiskt behov skapas från försäljnings – och produktionsorder. Under tiden som produktionsprogrammet skapas nettoberäknas prognosen mot försäljnings – och produktionsorder. Fältet **Prognostyp** på prognosen avgör vilken typ av krav som bör beaktas i nettoberäkningen. Om prognosen gäller en *försäljningsartikel*, nettoberäknas endast försäljningsorder för prognosen. Om den är för *komponenter*, nettoberäknas bara den härledda efterfrågan från produktionsorderkomponenter i prognosen.  
 
 Med prognoser kan företaget skapa hypotetiska scenarier och på ett kostnadseffektivt sätt planera för och tillgodose behov. Exakt och korrekt prognostisering kan vara avgörande för nivån av kundtillfredsställelse med hänsyn till orderlöften och punktliga leveranser.  
+
+Med 2022 utgivningscykel 1 kan du också definiera rätt detalj nivå i fälten **prognos per lagerställe** och **prognos per variant** på sidan **efterfrågeprognos översikt**. Filter och andra inställningar lagras i tabellen **namn på efterfrågeprognos**. Så att du enkelt kan stoppa och fortsätta arbeta senare. Om organisationen har uppdaterats till 2022 utgivningscykel 1, måste du växla till den nya upplevelsen på sidan [funktionshantering](admin-feature-management.md).  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Försäljningsprognoser och produktionsprognoser
 
@@ -33,7 +35,10 @@ Funktionen för produktionsprognos kan användas för att skapa försäljnings- 
 
 I de allra flesta fall ändrar produktionsplanerare försäljningsprognosen så att denna stämmer med produktionsvillkoren, men ändå uppfyller försäljningsprognosen.  
 
-Du skapar prognoser manuellt på sidan **efterfrågeprognos**. Flera prognoser kan särskiljas i systemet med hjälp av namn och typ. Prognoser kan kopieras och redigeras efter behov. Observera att endast en prognos i taget gäller för planering.  
+Du skapar prognoser manuellt på sidan **efterfrågeprognos**. Flera prognoser kan särskiljas i systemet med hjälp av namn och typ. Prognoser kan kopieras och redigeras efter behov. 
+
+> [!NOTE]
+> Endast en prognos är giltig för planeringsändamål vid varje tillfälle.
 
 Prognosen består av ett antal poster som motsvarar artikelnummer, prognosdatum och prognostiserat antal. Prognosen för en artikel täcker en period som definieras av prognosdatumet och prognosdatumet för nästa (efterföljande) prognospost. Med hänsyn till planering bör det prognostiserade antalet vara tillgängligt vid behovsperiodens start.  
 
@@ -89,7 +94,7 @@ Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe V
 
 ## <a name="to-create-a-demand-forecast"></a>Att skapa en efterfrågeprognos
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **efterfrågeprognos** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **efterfrågeprognos** och väljer sedan relaterad länk.  
 2. På snabbfliken **Allmänt**, välj en prognos i fältet **efterfrågeprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
 3. Gå till fältet **Lagerställefilter** och markera den plats som den här prognosen ska gälla för.
 4. I fältet **Visa efter** för att ändra perioden som visas i varje kolumn. Du kan välja mellan följande intervall: **Dag**, **Vecka**, **Månad**, **Kvartal**, **År** eller **Bokföringsperiod** som ställs in i ditt ekonomiområde.

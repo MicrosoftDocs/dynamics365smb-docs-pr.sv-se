@@ -6,31 +6,31 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367208"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518135"
 ---
 # <a name="welcome-to-prod_long"></a>Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. [!INCLUDE[prod_short](includes/prod_short.md)] är mycket anpassningsbart erbjuder många funktioner som gör att företag kan hantera sin verksamhet, inklusive ekonomi, produktion, försäljning, leverans, projekthantering, service och mycket annat. Företagen kan enkelt lägga till funktioner som krävs för den region där de verkar och som är anpassade för att hantera även mycket specialiserade branscher.  
+[!INCLUDE[prod_short](includes/prod_short.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. [!INCLUDE[prod_short](includes/prod_short.md)] är mycket anpassningsbart erbjuder många funktioner som gör att företag kan hantera sin verksamhet, inklusive ekonomi, produktion, försäljning, leverans, projekthantering, service och mycket annat. Företagen kan enkelt lägga till funktioner som krävs för den region där de verkar och som är anpassade för att hantera även mycket specialiserade branscher. [!INCLUDE[prod_short](includes/prod_short.md)] är enkelt att implementera och anpassa, och enkelheten styr innovationer inom produktdesign, utveckling, implementering och användbarhet.  
 
-[Lär dig mer om hur du får en kostnadsfri utvärderingsversion](trial-signup.md).  
-
-Om du redan har [!INCLUDE[prod_short](includes/prod_short.md)] loggar du in på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). I annat fall, [hämta översikten](https://dynamics.microsoft.com/business-central/overview/), [ta den guidade visningen](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) och [starta sedan en kostnadsfri utvärderingsversion](https://go.microsoft.com/fwlink/?linkid=847861). Kolla in de [snabbstartartiklar](quick-start-business-central.md) som hjälper dig att lära dig [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information om registrering till [!INCLUDE[prod_short](includes/prod_short.md)], se [Gör dig redo att göra affärer](ui-get-ready-business.md).  
+Om du redan har [!INCLUDE[prod_short](includes/prod_short.md)] loggar du in på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). I annat fall, [hämta översikten](https://dynamics.microsoft.com/business-central/overview/), [ta den guidade visningen](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) och [lär dig sedan starta sedan en kostnadsfri utvärderingsversion](trial-signup.md). Kolla in de [snabbstartartiklar](quick-start-business-central.md) som hjälper dig att lära dig [!INCLUDE [prod_short](includes/prod_short.md)]. För mer information om registrering för [!INCLUDE[prod_short](includes/prod_short.md)], se [Gör dig redo att göra affärer](ui-get-ready-business.md).  
 
 > [!TIP]
 > Skickade du hit från [!INCLUDE [prod_short](includes/prod_short.md)]? Om du inte vet var du söker kan du **Filtrera efter titlar** i navigeringsrutan åt vänster, eller så kan du använda fältet **Sök** högst upp i webbläsarfönstret.  
 >
 > Du kan också använda sökfunktionerna i [!INCLUDE [prod_short](includes/prod_short.md)] för att hitta relevant dokumentation. Mer information finns i [söka efter sidor och information med berätta](ui-search.md).
 
-## <a name="overview"></a>Översikt
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] är enkelt att implementera och anpassa, och enkelheten styr innovationer inom produktdesign, utveckling, implementering och användbarhet. På navigeringspanelen till vänster finns information om hur du använder [!INCLUDE[prod_short](includes/prod_short.md)] i företaget. Länkar till beskrivningar av de vanligaste funktionerna i avsnittet [Affärsprocesser](#business-processes).  
+## <a name="microsoft-docs"></a>Microsoft Docs
+
+På navigeringspanelen till vänster finns information om hur du använder [!INCLUDE[prod_short](includes/prod_short.md)] i företaget. Länkar till beskrivningar av de vanligaste funktionerna i avsnittet [Affärsprocesser](#business-processes). Se även avsnittet [Använda webbplatsen docs.microsoft.com för mer information](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
@@ -106,6 +106,7 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på din mobila enhet](install-mobile-app.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
+[Använda webbplatsen docs.microsoft.com för mer information](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Regelefterlevnad](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Villkor för onlinetjänster](compliance/compliance-service-compliance.md#service-terms)  
 [Större uppdateringar och mindre uppdateringar av Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

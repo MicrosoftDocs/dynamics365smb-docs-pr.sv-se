@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dbf3cbffebaf6c9ce06151a941d6517c6203863
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 9532dad89e3d88acf60e5c56af6c75ff9fc24fd1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366463"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523507"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Skapa allmän information om anläggningstillgångar
 Innan du kan hantera anläggningstillgångar, måste du skapa standardinställningredovisningskonton, fördelningsnycklar, journalmallar och journaler för bokföring och gruppering av anläggningstillgångar i klasser, som till exempel Materiella och Immateriella.
@@ -43,13 +43,13 @@ Du kan fördela transaktioner på olika avdelningar eller projekt utifrån anvä
 
 Fördelningsnycklar används för fördelningar av anläggningstillgångar, inte för individuella tillgångar.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.  
 2. På sidan **Anl.bokföringsmallar** väljer du åtgärden **Fördelningar** och sedan en bokföringstyp.
 3. På sidan **Anl. fördelningar** fyller du i fälten efter behov.
 4. Upprepa steg 2 och 3 för varje bokföringstyp som du vill ange fördelningsnycklar för.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Så här skapar du journalmallar för anläggningstillgångar
-En mall är en fördefinierad layout för en journal. Mallen innehåller information om spårkoder, rapporter och nummerserier. Mer information finns i [Arbeta med Redovisningsjournaler](ui-work-general-journals.md).
+En mall är en fördefinierad layout för en journal. Mallen innehåller information om spårkoder, rapporter och nummerserier. Mer information finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] skapar automatiskt en journalmall för anläggningstillgångar första gången du öppnar sidan **Journalmall för anläggningstillgångar** men du kan skapa ytterligare journalmallar.  
 

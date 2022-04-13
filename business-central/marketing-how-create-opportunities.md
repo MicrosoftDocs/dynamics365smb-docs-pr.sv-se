@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 174840f390145724181c37c60f040dce75232e91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 719bd9ca6e536b11ec7c8584e1956d91c7fe8017
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135860"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520974"
 ---
 # <a name="create-sales-opportunities"></a>Skapa affärsmöjligheter
 Du kan skapa möjligheter för de affärsmöjligheter som du har via dina kontakter. Alla affärsmöjligheter måste fördelas till en säljare eller inköpare och innefatta en kontakt.
@@ -26,7 +26,7 @@ Du kan skapa affärsmöjligheter från sidan **Affärsmöjlighetslista**. Men va
 Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler. För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Så här skapar du en affärsmöjlighet från en säljare
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk.
 2. Markera den säljare i listan som du vill skapa en affärsmöjlighet för.
 3. Välj åtgärden **Affärsmöjligheter** och välj sedan **Lista**.
 4. Välj **Ny** och fyll sedan i relevanta fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -34,7 +34,7 @@ Innan du kan skapa affärsmöjligheter måste du lägga upp försäljningscykler
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Så här skapar du en affärsmöjlighet från en kontakt
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
 2. Markera kontakten i listan som du vill skapa en affärsmöjlighet för.
 3. Gör något av följande:
    * Välj åtgärden **Skapa affärsmöjlighet**.

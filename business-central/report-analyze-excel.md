@@ -1,30 +1,32 @@
 ---
-title: Analysera rapportdata med Excel
-description: Lär dig att använda Excel för att analysera en rapportdatauppsättning.
+title: Analysera rapportdata med Excel och XML
+description: Lär dig att använda Excel och XML för att analysera en rapportdatauppsättning.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145478"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521812"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Analysera rapportdata med Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analysera rapportdata med Excel och XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-Som utvecklare eller avancerade användare hjälper det att kontrollera data som genereras för en viss rapportdatauppsättning medan du skapar nya rapporter eller ändrar befintliga. För att du ska kunna använda den här funktionen kan du exportera en rapportdatauppsättning som rå data till ett Excel-kalkylblad&mdash;direkt från sidan för en rapportförfrågan i klienten. I Excel kan du göra ad hoc-analyser av data och diagnostisera problem.
+Som utvecklare eller avancerade användare hjälper det att kontrollera data som genereras för en viss rapportdatauppsättning medan du skapar nya rapporter eller ändrar befintliga. För att stödja denna funktion kan du exportera en rapportdatauppsättning som rådata till en Excel-arbetsbok eller XML-fil&mdash;direkt. I Excel kan du göra ad hoc-analyser av data och diagnostisera problem.
 
 ## <a name="get-started"></a>Kom igång
 
-Om du vill exportera en rapportdatauppsättning till Excel kör du rapporten i klienten och väljer sedan på begärandesidan **Skicka till** > **Microsoft Excel-dokument (endast data)**. 
+För att exportera en rapportdatauppsättning till en Excel-arbetsbok eller XML-fil, öppna rapporten i klienten och välj sedan på begäran sidan **Skicka till to** > **Microsoft Excel dokument (endast data)** eller **XML-dokument**. Filen hämtas till enheten.
+
+## <a name="more-about-excel-data-only"></a>Mer om Excel (endast data)
 
 Alternativet **Microsoft Excel-dokument (endast data)** exporterar rapportresultaten och de kriterier som användes för att generera dem&mdash;men det innehåller inte rapportlayouten. Excel-filen innehåller den fullständiga datauppsättningen, som rådata, ordnade i rader och kolumner. Alla datakolumner i rapportens datauppsättning ingår, oavsett om de används i rapportlayouten eller inte.
 

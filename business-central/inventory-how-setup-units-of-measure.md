@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 28351ac57c6c1941446d5383b384b78fbdf1f77a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131515"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518031"
 ---
 # <a name="set-up-units-of-measure"></a>Ställa in måttenheter
 
@@ -31,7 +31,7 @@ Ett annat verktyg som gör det enklare att arbeta med flera måttenheter för ol
 
 ## <a name="to-set-up-units-of-measure"></a>Ställa in måttenheter
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **måttenhet** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **måttenhet** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. En ny tom rad infogas.  
 3. Fyll i fälten. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Om du vet att organisationen kommer att sälja artiklar med den här enheten till kunder i andra länder kan du lägga till översättningar.  
@@ -44,7 +44,7 @@ När du registrerar en ny artikel kan du välja basenheten från listan över en
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>För att ställa in flera måttenheter
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för artikeln som du vill ange alternativa enheter för.
 3. Välj åtgärden **Enheter**. Sidan **Artikelenheter** visas.
 4. Om fältet **Basmåttenhet** är ifyllt på artikelkortet har denna måttenhet redan ställts in.
@@ -64,7 +64,7 @@ Nu kan du använda de alternativa enheter för inköp, produktion och försäljn
 
 När du säljer varor till utländska kunder, kan det hända att du vill ange enheten på kundens eget språk. Det kan du göra genom att ange översättningar av måttenheter.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **måttenhet** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **måttenhet** och väljer sedan relaterad länk.
 2. Välj den kod som du vill skapa översättningar för och välj sedan åtgärden **Översättningar**.
 3. I fältet **Språkkod** klickar du på listpilen om du vill visa en lista över tillgängliga språkkoder. Markera den språkkod som du vill ange en översättning för och klicka sedan på OK så kopieras koden till fältet.
 4. Skriv den aktuella texten i fältet **Beskrivning**.

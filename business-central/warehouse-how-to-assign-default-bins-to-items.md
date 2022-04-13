@@ -10,18 +10,18 @@ ms.search.keywords: ''
 ms.search.form: 7371, 7374, 7379
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6802009029d8eea434e7c5096f4efb591ee4993b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ac50c7cf8aaf68ab0846a79788bb13e63a3c8b50
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382747"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513373"
 ---
 # <a name="assign-default-bins-to-items"></a>Tilldela standardlagerställen till artiklar
 Om du använder lagerställen för ett lagerställe blir det mycket enklare för dig att leverera, inleverera och flytta artiklar om du tilldelar dem standardlagerställen. När en artikel tilldelas en standardlagerplats kommer denna lagerplats att föreslås varje gång du påbörjar en transaktion för artikeln. Standardlagerställen definieras på sidan **Lagerställesinnehåll**.  
 
 ## <a name="to-assign-a-default-bin-to-an-item"></a>Så här tilldelar du en standardlagerplats till en artikel
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerställesinnehålluppl kalkylark** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerställesinnehålluppl kalkylark** och väljer sedan relaterad länk.  
 2.  Fyll i lagerställeskoden och information om artiklar för respektive lagerplats som du vill ange som standard för en artikel. Se till att välja **Standard** här fältet.  
 3.  Välj åtgärden **Skapa lagerställesinnehåll**. Din artikel tilldelas nu standardlagerställen.  
 
@@ -30,7 +30,7 @@ Om du använder lagerställen för ett lagerställe blir det mycket enklare för
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>Så här ändrar du standardlagerställen en artikel  
 Ibland kan det bli nödvändigt att ändra fördelningen av standardlagerplats för en viss artikel, eller tilldela en ny artikel en standardlagerplats.
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerplatsinnehåll** och väljer sedan relaterad länk.  
+1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerplatsinnehåll** och väljer sedan relaterad länk.  
 2.  Välj tillämplig lagerställekod i fältet **Lagerställefilter**.  
 3.  Sök efter aktuell post för standardlagerställesinnehåll för artikeln och avmarkera kryssrutan **Standardlagerplats**.  
 4.  Sök efter raden för lagerställesinnehåll för den lagerplats som du vill använda som ny standardlagerplats. Markera kryssrutan **Standardlagerplats**.  
