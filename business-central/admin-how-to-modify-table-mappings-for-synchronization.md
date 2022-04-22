@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515751"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557411"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Mappa register och fält som ska synkroniseras
 
@@ -28,6 +28,9 @@ När du skapar anslutningen mellan programmen ställer [!INCLUDE[prod_short](inc
 
 > [!Note]
 > Om du använder en lokal version av [!INCLUDE[prod_short](includes/prod_short.md)] lagras mappningarna för integreringsregister i register 5335 Mappningar för integreringsregister, där du kan visa och redigera mappningarna. Komplexa mappningar och synkroniseringsregler definieras i codeunit 5341. 
+
+### <a name="additional-mappings"></a>Ytterligare mappningar 
+Betalningsvillkor, leveranssätt och speditörer kan ändras och det kan vara viktigt att kunna justera dem. Om du aktiverar **funktionsuppdateringen: mappa till alternativuppsättningar i Dataverse utan kod** på sidan [funktionshantering](https://businesscentral.dynamics.com/?page=2610) kan du lägga till mappningar för integrationstabeller för betalningsvillkor (BETALNINGSVILLKOR), Utleveransvillkor (LEVERANSSÄTT) och speditörer (SPEDITÖR). Med hjälp av den här mappningen kan du se till att alla principer är desamma för dessa inställningar i [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 En mappning av integreringsregister innehåller också regler som styr hur synkroniseringsjobb för integrering synkroniserar poster i ett [!INCLUDE[prod_short](includes/prod_short.md)]-register och ett register i [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->

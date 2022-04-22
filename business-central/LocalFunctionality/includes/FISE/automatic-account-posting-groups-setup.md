@@ -3,18 +3,18 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 906cddb27c7725e89df2473f1d188bb6ff91f6af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 04a55ca0cfc85e4a7705f1142b2e83dd50789d12
+ms.sourcegitcommit: 2b65d01f06ca9c6847cfd1ea01a830490bddc0cb
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134445"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557542"
 ---
 Om du vill använda automatiska kontokoder måste du skapa en automatisk kontobokföringsmall.  
 
 ## <a name="to-set-up-automatic-account-posting-groups"></a>Så här ställer du in automatiska kontobokföringsmallar  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Automatkontering** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Automatkonteringsmallar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Allmänt**.  
 

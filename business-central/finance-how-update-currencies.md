@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523481"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557359"
 ---
 # <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
 
@@ -68,6 +68,12 @@ Batch-jobbet **Justera valutakurser** används för att manuellt justera valutak
 
 > [!TIP]
 > Du kan använda en tjänst för att uppdatera bytesfrekvenser i systemet automatiskt. Mer information finns i [Så här konfigurerar du en valutakurstjänst](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Detta justerar emellertid inte bytesfrekvensen för redan publicerade transaktioner. Om du vill uppdatera bytesfrekvenser för publicerade poster använder du batchjobbet **Justera bytesfrekvenser**.
+
+Du kan förhandsgranska den effekt som en justering har för att bokföra innan du bokför genom att klicka på **Förhandsgranska** på sidan **Justera valutakurser**. Du kan också välja om redovisnings bokföringen ska vara detaljerad (per transaktion) eller summerad (per valuta) genom att välja **summera transaktioner**. Du kan också ange hur dimensioner ska hanteras för orealiserade vinster och förluster genom att välja ett av följande alternativ i fältet **överföringsdimensionsvärden**:  
+
+- **Källtransaktionen**: redovisningstransaktioner för orealiserade vinster och förluster kommer att ha dimensions värden överförda från den justerade transaktionen.
+- **Per redovisningskonto**: redovisningstransaktioner för orealiserade vinster och förluster kommer att ha dimensionsvärden som överförs från redovisningskontot för orealiserade vinster och förluster i dimensionsinställningar.
+- **Ingen överföring**: redovisningstransaktioner för orealiserade vinster och förluster saknar dimensionsvärden.
 
 ### <a name="effect-on-customers-and-vendors"></a>Påverkan på kunder och leverantörer
 

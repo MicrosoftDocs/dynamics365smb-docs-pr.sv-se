@@ -1,6 +1,6 @@
 ---
 title: Tilldela dokumentets layouter för kunder eller leverantörer
-description: När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att de används för de dokument som du skapar för kunden eller leverantören i fråga.
+description: Använd dokumentlayout för att styra utseende och format för dokument som fakturor och order som du skickar till kunder och leverantörer.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,49 +9,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
+ms.search.form: 21, 9650
+ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f751b13485cf795acef829f40e2ff0c8f689fd0b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510745"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557385"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definiera dokumentlayout för kunder och leverantörer
-När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort i syfte att ange vilka layouter som ska användas för olika typer av dokument som du skapar för kunden eller leverantören i fråga. Värdet i fältet **Användning** definierar vilken bearbetning som dokumentlayouten ska användas för, t. ex. **påminnelse**, **utleverans** och **bekräftelse**.
+Med dokumentets layout används rapportlayout för att definiera hur många dokument du skickar till kunder och leverantörer. Business Central innehåller standardlayouter, men du kan också anpassa egna layouter för var och en av dina affärspartner. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md). Du väljer standard-och anpassade dokumentlayout från kund-och leverantörs korten genom att välja åtgärden **dokumentlayout**. Värdet i fältet **användning** definierar den procedur som dokumentlayouten används för. För kunder kan du till exempel använda **påminnelse**, **leverans** och **bekräftelse** typer för dokumentets layout.
 
-Förutom att definiera vilka layouter som ska användas för vilket dokument, kan du spara tid när du skickar dokument till olika kund- eller leverantörskontakter genom att skapa specifika kontakters e-postadresser för särskilda dokument. Kundutdrag skickas till exempel till revisorkontakter, försäljningsorder till kundernas inköpare och inköpsorder till leverantörernas säljare eller kontoansvariga.
+Med dokumentlayout kan du också spara tid när du skickar dokument till kund- eller leverantörskontakter via e-post. För varje layout som du tilldelar kunden eller kontakten kan du ange en eller flera e-postadresser för kontakter. Du kan t. ex. skicka en faktura till kundens inköps- och distributionskontakter. Det är enkelt att lägga till kontaktens e-postadresser. På sidan **Dokumentlayouter** låter åtgärden **Välj e-post från kontakter** dig välja från en lista över kontaktadresser som du har registrerat för kunden eller leverantören. Du kan också lägga till e-postadresser manuellt. Om du anger flera adresser avgränsar du dem med semikolon, och lägger inte till några blanksteg mellan adresserna.
 
-När du definierar en dokumentlayout för en kund eller leverantör kan du också ange e-postadressen till den kontaktperson som måste ta emot dokumentet. Du kan snabbt göra detta med funktionen **Välj e-post från kontakter**, som automatiskt filtrerar kontaktpersonens e-postadresser som registrerats för kunden eller leverantören i fråga.
+Innan du kan definiera vilken dokumentlayout som ska användas för vilka processer och vilken kontakt som du vill skicka dokumentet till, måste du ladda alla tillgängliga rapporter (dokument) från sidan **rapportval**. Du kan snabbt ladda dokumenten med hjälp av åtgärden **kopiera från rapporturval** på sidan **dokumentmallar**.
 
-Innan du kan definiera vilken dokumentlayout som ska användas för vilka processer och vilken kontakt som du vill skicka dokumentet till, måste du ladda alla tillgängliga rapporter (dokument) från sidan **rapportval**. Du kan snabbt göra detta med funktionen **kopiera från rapporturval**.
+Stegen i följande avsnitt beskriver hur man definierar försäljningsdokumentlayouter från sidan **Kundkort**. För leverantörer är stegen desamma från sidan **leverantörskort**.
 
-Nedan beskrivs hur du definierar olika layouter för försäljningsdokument från ett kundkort. Stegen är desamma för layouter för inköpsdokument från ett leverantörskort.
+## <a name="to-load-the-standard-document-layouts-for-sales-documents-for-a-customer"></a>Så här laddar du standardlayouter för dokument för försäljningsdokument för en kund
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+2. Öppna sidan **kundkort** för kunden och välj sedan åtgärden **dokumentlayout**.
+3. På sidan **Dokumentlayouter**, välj åtgärden **Kopiera från rapporturval**.
 
-## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Så här aktiverar du alla tillgängliga försäljningsdokument för en kund
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
-2. Öppna kortet för den kund för vilken du vill definiera dokumentlayout per affärsprocedur.
-3. På sidan **Kundkort** väljer du sidan **Dokumentlayouter**.
-4. På sidan **Dokumentlayouter**, välj åtgärden **Kopiera från rapporturval**.
-
-Sidan **Dokumentlayouter** för kunden i fråga är fylld med alla rapport layouter för försäljning som finns i systemet. Mer information om var de skapas finns i [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md).
-
-Du kan nu fortsätta med att justera listan med egna rapportmallar eller e-postadresser till de kontakter som dokumenten ska skickas till.
+På sidan **dokumentlayout** visas alla layouter som är tillgängliga för försäljningsdokument. 
 
 ## <a name="to-select-a-custom-report-layout-to-use-for-the-sales-document-layout"></a>Så här väljer du en anpassad rapportlayout som ska användas för layouter för försäljningsdokument
-Om en eller flera av rapportlayouten som definierats på sidan **dokumentlayout** för en kund inte har någon egen definierad rapportlayout, kan du snabbt göra det.
+Om du inte redan har skapat en egen rapportlayout för dokumenttypen måste du göra det först. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
-1. På sidan **dokumentlayout** på raden för en rapportlayout som du vill använda en anpassad layout för, väljer du fältet **Anpassad layoutbeskrivning**. Du kan antingen fylla i fältet om kundlayout redan har valts eller är tom.
-2. På sidan **Anpassade rapportlayouter**, välj den speciella dokumentlayout som du vill använda för försäljningsdokumenttyp i fråga. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+2. Öppna sidan **kundkort** för kunden och välj sedan åtgärden **dokumentlayout**.
+3. På sidan **dokumentlayout** på raden för en rapportlayout som du vill använda en anpassad layout för, väljer du fältet **Anpassad layoutbeskrivning**.
+4. På sidan **Anpassade rapportlayouter**, välj den dokumentlayout som du vill använda för försäljningsdokumenttyp. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
-## <a name="to-set-up-which-contact-receives-which-document-layout-for-a-customer"></a>Så här anger du vilken kontakt som får vilken dokumentlayout för en kund
-Du kan spara tid när du skickar dokument till olika kund- eller leverantörskontakter genom att ange kontaktens e-postadresser på de olika raderna på sidan **dokumentlayouter**. Kundutdrag skickas till exempel till revisorkontakter, försäljningsorder till kundernas inköpare och inköpsorder till leverantörernas säljare eller kontoansvariga.
+## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Så här anger du vilken kontakt som får vilken dokumentlayout för en kund
+Om du vill spara tid när du skickar dokument till kund- och leverantörskontakter via e-post, anger du deras e-postadresser på dokumentlayout. Du kan till exempel alltid skicka kundutdrag till deras revisorskontakter och försäljningsorder till deras köpare eller inköpsorder till säljare.
 
 1. På sidan **dokumentlayouter** på raden för en rapportlayout som du vill skicka till en viss kontakt för kunden väljer du åtgärden **Välj e-post från kontakter**.
-2. På sidan **Kontakter** väljer du rad för relevant kontakt och väljer sedan knappen **OK**.
-
-E-postadressen till kontakten infogas nu på dokumentets layouttabell så att försäljningsdokumentet, t. ex. påminnelser, alltid skickas till den kontakten hos kundens företag.
+2. Välj en eller flera kontakter på sidan **kontakter** och klicka sedan på **OK**.
 
 ## <a name="see-also"></a>Se även  
 [Uppdatera anpassade rapportlayouter](ui-update-report-layouts.md)  

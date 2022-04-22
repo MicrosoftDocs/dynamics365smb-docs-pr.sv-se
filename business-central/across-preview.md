@@ -1,19 +1,19 @@
 ---
 title: Utvärderingsversioner och prenumerationer
-description: Lär dig mer om hur du skaffar en utvärderingsversion av Business Central, hur du arbetar med miljöer med begränsat läge och hur du registrerar dig för prenumerationer.
+description: Lär dig mer om hur du kommer igång, hur du arbetar med miljöer med begränsat läge och hur du skaffar en prenumeration av Business Central Online.
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/22/2022
+ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fc77c63351a97e130c00910a2e66c9497a24d104
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511330"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557333"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer
 
@@ -23,17 +23,11 @@ Om du inte redan samarbetar med en partner, se [Hur hittar jag en återförsälj
 
 ## <a name="get-started-with-a-trial"></a>Komma igång med en utvärderingsversion
 
-Du kan registrera dig för en kostnadsfri utvärderingsversion [här](https://go.microsoft.com/fwlink/?linkid=847861). Vi rekommenderar att du samarbetar med [en återförsäljarpartner](/dynamics365/business-central/across-faq#findpartner) för att hjälpa organisationen att komma igång med [!INCLUDE[prod_short](includes/prod_short.md)]. Se även [Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central](trial-signup.md) för att komma igång.  
+[!INCLUDE [trial-get](includes/trial-get.md)]
+
+Vi rekommenderar att du samarbetar med [en återförsäljarpartner](/dynamics365/business-central/across-faq#findpartner) för att hjälpa organisationen att komma igång med [!INCLUDE[prod_short](includes/prod_short.md)]. Se även [Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central](trial-signup.md) för att komma igång.  
 
 Beroende på ditt land eller din region innehåller utvärderingsversionen de språk och den funktionalitet som krävs för ditt land eller din region. Mer information finns i avsnittet [ändra språk och nationella inställningar](about-locale-language.md).  
-
-I [!INCLUDE[prod_short](includes/prod_short.md)] kommer du att känna igen vissa saker, och andra inte. När du först loggar in på demonstrationsföretaget får du tillgång till en Komma igång-sida med länkar till installationsguider som hjälper dig att komma igång. Mer information finns i [Gör dig redo att göra affärer](ui-get-ready-business.md) och [snabbtstarter](quick-start-business-central.md).  
-
-Om det uppstår problem kan sidan [Vanliga frågor](across-faq.yml) hjälpa dig att besvara vissa av dina frågor. Om du inte kan registrera dig för utvärderingsversionen kan sidan [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md) hjälpa dig. Du kan också kontakta en [partner](/dynamics365/business-central/across-faq#findpartner) och be denne att skapa en kostnadsfri utvärderingsversion eller annan typ av förhandsversion av [!INCLUDE[prod_short](includes/prod_short.md)] åt dig.  
-
-Om du väljer att inte använda [!INCLUDE [prod_short](includes/prod_short.md)] kan du låta utvärderingen gå ut.  
-
-[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Lägga till egna data till ett tomt testföretag
 
@@ -65,7 +59,7 @@ Sidan **Assisterad konfiguration** kan innehålla andra poster. När du går ige
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Återställa din [!INCLUDE[prod_short](includes/prod_short.md)]-utvärderingsmiljö
 
-Om du har lagt till data till [!INCLUDE[prod_short](includes/prod_short.md)]-testversionen och om du vill börja om med en ny upplevelse, kan du skapa ett nytt utvärderingsföretag och sedan ta bort det första företaget. Öppna sidan **Företag** och välj sedan **Ny** för att starta den assisterade konfigurationsguiden **Skapa nytt företag**. Med hjälp av guiden kan du skapa ett nytt utvärderingsföretag med exempeldata. Du kan också skapa en kopia av det aktuella företaget, logga ut och sedan logga in på det nya företaget.  
+Om du har lagt till data i din [!INCLUDE[prod_short](includes/prod_short.md)] kostnadsfri utvärderingsversion kan du ändå börja om med en ny upplevelse. Skapa ett nytt utvärderingsföretag och ta sedan bort det ursprungliga företaget. Öppna sidan **Företag** och välj sedan åtgärden **Ny** för att starta den assisterade konfigurationsguiden **Skapa nytt företag**. Med hjälp av guiden kan du skapa ett nytt utvärderingsföretag med exempeldata. Du kan också skapa en kopia av det aktuella företaget, logga ut och sedan logga in på det nya företaget.  
 
 > [!IMPORTANT]
 > När du delar [!INCLUDE[prod_short](includes/prod_short.md)] med andra personer från organisationen, bör du kontrollera att de andra personerna inte är inloggade när du tar bort företaget.  
@@ -92,7 +86,7 @@ Om du är utvecklare låter ett begränsat läge dig skapa och testa tillägg oc
 Just nu kan alla kunder använda en miljö med begränsat läge, inklusive organisationer som har anmält sig till en utvärderingsversion. Läs mer om hur du kommer igång med ett begränsat läge i, [miljöer med begränsat läge](admin-sandbox-environments.md).  
 
 > [!NOTE]
-> Begränsat läge som skapats så här innehåller demonstrationsdata för det fiktiva företaget CRONUS. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.   
+> Begränsat läge som skapats så här innehåller demonstrationsdata för det fiktiva företaget CRONUS. Inga data kopieras till eller på annat sätt överförs från produktionsmiljön.  
 
 Administratören för din [!INCLUDE[prod_short](includes/prod_short.md)] och din återförsäljningspartner kan skapa ytterligare miljöer i administrationscentret. Mer information finns i [Administrationscenter för Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

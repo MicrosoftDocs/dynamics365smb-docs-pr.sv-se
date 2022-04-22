@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517901"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557229"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Ställa in produktionsgrupper och maskingrupper
 
@@ -39,18 +39,19 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. I fältet **Produktionsavdelning** väljer du den resursgrupp på högre nivå som produktionsgruppen är underordnad. Välj åtgärden **Ny** i listrutan.  
-5. Välj fältet **Spärrad** om du vill förhindra att produktionsgruppen används i någon behandling. Detta innebär att produktionen inte kan bokföras för en artikel som produceras i produktionsgruppen. För mer information, se [Så här bokför du produktionsutflöde](production-how-to-post-output-quantity.md).
-6. I fältet **Inköpspris** anger du kostnaden för att producera en enhet i denna produktionsgrupp, exklusive alla andra kostnadselement. Denna kostnad kallas ofta för *direkt arbetskostnad*.  
-7. I fältet **Indirekt kostnad %** anger du de allmänna verksamhetskostnaderna för att använda produktionsgruppen som en procentandel av inköpspriset. Denna procentandel läggs till inköpspriset vid beräkningen av styckkostnaden.  
-8. I fältet **Omkostnad** anger du icke-operationella kostnader för produktionsgruppen, till exempel underhållsutgifter, som ett absolut belopp.  
+5. I fältet **alternativ produktionsgrupp** väljer du den produktionsgrupp som ska användas om produktionsgruppen inte är tillgänglig eller om behovet överskrider sin kapacitet. Den alternativa produktionsgruppen är endast avsedd för information och ingår inte automatiskt i planeringsprocessen.
+6. Välj fältet **Spärrad** om du vill förhindra att produktionsgruppen används i någon behandling. Detta innebär att produktionen inte kan bokföras för en artikel som produceras i produktionsgruppen. För mer information, se [Så här bokför du produktionsutflöde](production-how-to-post-output-quantity.md).
+7. I fältet **Inköpspris** anger du kostnaden för att producera en enhet i denna produktionsgrupp, exklusive alla andra kostnadselement. Denna kostnad kallas ofta för *direkt arbetskostnad*.  
+8. I fältet **Indirekt kostnad %** anger du de allmänna verksamhetskostnaderna för att använda produktionsgruppen som en procentandel av inköpspriset. Denna procentandel läggs till inköpspriset vid beräkningen av styckkostnaden.  
+9. I fältet **Omkostnad** anger du icke-operationella kostnader för produktionsgruppen, till exempel underhållsutgifter, som ett absolut belopp.  
 
     I fältet **Styckkostnad** visas den beräknade styckkostnaden för att producera en enhet i denna produktionsgrupp, inklusive alla kostnadselement.  
 
     Styckkostnad = Inköpspris + (Inköpspris x Indirekt kostnad %) + Omkostnad.  
 
-9. I fältet **Styckkost. beräkningstyp** anger du om beräkningen ovan ska bygga på mängden tid som använts: **Tid** eller antalet enheter som har producerats: **Enheter**.  
-10. Markera fältet **Specifik styckkostnad** om du vill definiera styckkostnaden för produktionsgruppen på den operationsföljdrad där den används. Detta kan vara användbart för operationer där kapacitetskostnaden skiljer sig markant från vad som är normalt för produktionsgruppen.  
-11. I fältet **Bokföringsmetod** anger du om bokföring av utflöde i produktionsgruppen ska beräknas och bokföras manuellt eller om det ska ske automatiskt med någon av följande metoder.
+10. I fältet **Styckkost. beräkningstyp** anger du om beräkningen ovan ska bygga på mängden tid som använts: **Tid** eller antalet enheter som har producerats: **Enheter**.  
+11. Markera fältet **Specifik styckkostnad** om du vill definiera styckkostnaden för produktionsgruppen på den operationsföljdrad där den används. Detta kan vara användbart för operationer där kapacitetskostnaden skiljer sig markant från vad som är normalt för produktionsgruppen.  
+12. I fältet **Bokföringsmetod** anger du om bokföring av utflöde i produktionsgruppen ska beräknas och bokföras manuellt eller om det ska ske automatiskt med någon av följande metoder.
 
     |Alternativ|Beskrivning|
     |------|-----------|
@@ -61,17 +62,17 @@ Nedan beskrivs hur du ställer in produktionsgrupp Stegen för att ställa in ma
     > [!NOTE]
     > Om det behövs kan bokföringsmetoden som markeras här åsidosättas för enskilda operationer genom att inställningen för en operationsföljdrad ändras.
 
-12. I fältet **Enhetskod** anger du den tidsenhet som ska användas för beräkning av kostnad och kapacitetsplanering för produktionsgruppen.
+13. I fältet **Enhetskod** anger du den tidsenhet som ska användas för beräkning av kostnad och kapacitetsplanering för produktionsgruppen.
     För att kunna övervaka kapacitetsförbrukningen kontinuerligt måste du först ange en mätmetod. Enheterna som du anger är grundläggande enheter. Exempelvis mäts bearbetningstiden i timmar och minuter.
 
     > [!NOTE]  
     > Om du väljer att använda Dagar är det vktigt att komma ihåg att 1 dag = 24 timmar – inte 8 (arbetstimmar).
 
-13. I fältet **Kapacitet** anger du om fler än en person eller maskin arbetar samtidigt i produktionsgruppen. (Om din [!INCLUDE[prod_short](includes/prod_short.md)]-installation inte innehåller modulen Maskingrupp måste värdet i det är fältet vara **1**.)  
-14. I fältet **Effektivitet** anger du den procentandel av förväntade standardutdata som faktiskt uppnås av produktionsgruppen. Genom att ange **100** kan du ange att produktionsgruppens faktiska utdata är samma som standardutdata.  
-15. Markera kryssrutan **Konsoliderad kalender** om du också använder maskingrupper. På så sätt uppsummeras kalendertransaktioner maskingruppkalender.  
-16. I fältet **Fabrikskalenderkod** väljer du en fabrikskalender. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).  
-17. I fältet **Kötid** anger du ett tidsintervall som måste gå innan tilldelat arbete kan påbörjas i produktionsgruppen. 
+14. I fältet **Kapacitet** anger du om fler än en person eller maskin arbetar samtidigt i produktionsgruppen. (Om din [!INCLUDE[prod_short](includes/prod_short.md)]-installation inte innehåller modulen Maskingrupp måste värdet i det är fältet vara **1**.)  
+15. I fältet **Effektivitet** anger du den procentandel av förväntade standardutdata som faktiskt uppnås av produktionsgruppen. Genom att ange **100** kan du ange att produktionsgruppens faktiska utdata är samma som standardutdata.  
+16. Markera kryssrutan **Konsoliderad kalender** om du också använder maskingrupper. På så sätt uppsummeras kalendertransaktioner maskingruppkalender.  
+17. I fältet **Fabrikskalenderkod** väljer du en fabrikskalender. För mer information, se [Så här skapar du Fabrikskalendrar](production-how-to-create-work-center-calendars.md).  
+18. I fältet **Kötid** anger du ett tidsintervall som måste gå innan tilldelat arbete kan påbörjas i produktionsgruppen. 
 
 > [!NOTE]
 > Använd kötider för att tillhandahålla en buffert mellan den tidpunkt då en komponent anländer till en maskin eller en produktionsgrupp och när operationen verkligen startar. Exempelvis levereras en del till en maskingrupp kl. 10:00, men det tar en timme att montera den på maskinen, varför åtgärden inte påbörjas förrän kl. 11:00. För att redovisa för den timmen är kötiden en timme. Värdet i fältet **Kötid** på en maskin eller i en produktionsgrupp, plus summan av värdena i **Konfigurationstid**, **Bearbetningstid**, **Väntetid** och **Transporttid** på artikelns verksamhetsföljdrad kombineras i syfte att tillhandahålla artikelns produktionsledtid. På så sätt får du exakta totala produktionstider.  

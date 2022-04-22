@@ -1,6 +1,6 @@
 ---
 title: Kör komplett planering, nettobehov eller produktionsplan
-description: I planeringssystemet beräknas antingen produktionsprogrammet eller nettobehovet, eller så beräknas båda på samma gång.
+description: I planeringssystemet beräknas antingen huvudproduktionsplan (MPS) eller nettobehovet (MRP), eller så beräknas båda på samma gång.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b8a9f648030e0a307ccd1a086c681ba8492cf357
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 35263f54400865c88694a483bda195957a8f8db4
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516672"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557255"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov eller produktionsplan
 
-Begreppen "Skapa inköpsförslageringsförslag" eller "beräkna nettobehov" syftar på beräkningen av produktionsprogram och materialbehov baserat på faktiskt och prognostiserat behov. I planeringssystemet beräknas antingen produktionsprogrammet eller nettobehovet, eller så beräknas båda på samma gång.  
+Begreppen "beräkna planeringsförslag" eller "beräkna nettobehov" syftar på beräkningen av produktionsprogram och materialbehov baserat på faktiskt och prognostiserat behov. I planeringssystemet beräknas antingen huvudproduktionsplan eller nettobehovet, eller så beräknas båda på samma gång.  
 
 -   Nettobehov är beräkningen av en produktionsplan baserat på faktiskt behov och efterfrågeprognosen. Beräkningen av produktionsprogrammet används för slutartiklar som har en prognosrad eller en försäljningsorderrad. Dessa artiklar kallas för "nettobehovsartiklar" och identifieras dynamiskt när beräkningen startar.  
 -   Produktionsplan är beräkningen av materialbehov baserat på faktiskt behov av komponenter och efterfrågeprognosen på komponentnivå. Produktionsplanen beräknas endast för artiklar som inte är nettobehovsartiklar. Det övergripande syftet med produktionsplanen är att tillhandahålla tidsfasade formella planer, utifrån artikel, för att leverera rätt artikel i rätt tid, på rätt plats och i rätt antal.  
