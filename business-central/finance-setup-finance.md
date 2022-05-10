@@ -9,21 +9,21 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: f0112cfb60321a44d833ad6a51db209a71494bf1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6026f9ea7a0adeb66f6c543365cf7caeb91a7628
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513945"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654948"
 ---
 # <a name="setting-up-finance"></a>Ställa in ekonomi
 Innan du kan börja driva ditt företag måste du ange regler och standardvärden för hur du vill hantera finansprocesser för det företaget. Du börjar med att skapa det viktigaste för företagets redovisningsposter – kontoplanen. Därefter skapar du bokföringsmallar, som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.
 
-Vissa ekonomiinställningar kan göras automatiskt med assisterade konfigurationsguider, och vissa måste göras manuellt. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md). Sidan **Redovisningsinställningar** anger du hur du ska hantera många olika bokföringsfrågor i företaget. Du kan till exempel använda denna sida för att ange uppgifter om avrundning av fakturabelopp, valutakoden för basvalutan, adressformat och om du vill använda en alternativ rapporteringsvaluta. Mer information finns i [Förstå redovisning och kontoplan](finance-general-ledger.md).  
+Vissa ekonomiinställningar kan göras automatiskt med assisterade konfigurationsguider, och vissa måste göras manuellt. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md). Sidan **Redovisningsinställningar** anger du hur du hanterar många olika bokföringsfrågor i företaget. Du kan till exempel använda denna sida för att ange uppgifter om avrundning av fakturabelopp, valutakoden för basvalutan, adressformat och om du vill använda en alternativ rapporteringsvaluta. Mer information finns i [Förstå redovisning och kontoplan](finance-general-ledger.md).  
 
 Med hjälp av dimensioner kan du lägga till olika typer av information för respektive transaktion. Du kan skapa företagets grundläggande dimensioner, till exempel *Projekt* och *Avdelningar*. Senare kan du lägga till fler dimensioner efter behov, och du kan skapa tillfälliga dimensioner som ska användas under en begränsad tidsperiod, till exempel i samband med en försäljningskampanj. Mer information finns i [Arbeta med](finance-dimensions.md).
 
-Många av inställningsuppgifterna måste genomföras innan du kan börja registrera ekonomiska transaktioner, men du kan ändra de flesta inställningar vid en senare tidpunkt. Vissa uppgifter är valfria, till exempel behöver du bara ställa in koncerninterna bokningar och konsolideringar om du arbetar med flera företag. Andra uppgifter, som att ange vilken period som bokföringen kan göras under, kanske måste upprepas regelbundet.  
+Många av inställningsuppgifterna måste genomföras innan du kan börja registrera ekonomiska transaktioner, men du kan ändra de flesta inställningar vid en senare tidpunkt. En uppgifter är valfria, till exempel behöver du bara ställa in koncerninterna bokningar och konsolideringar om du arbetar med flera företag. Andra uppgifter, som att ange vilken period som bokföringen kan göras under, kanske måste upprepas regelbundet.  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 

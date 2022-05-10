@@ -6,22 +6,26 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 05cd41ffea6b2c78747112925d4da1e8a74c67b6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2a87bfa59ad6b5ccef9232afb57aa7400aea6ff2
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518789"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655676"
 ---
 # <a name="save-and-personalize-list-views"></a>Spara och anpassa listvyer
+
 När du har angett ett filter för en lista och du vill behålla filtret för senare kan du spara det som en vy. Mer information om filtrerings listor finns i [ange filter för listor](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
 Om det finns vyer visas gruppen **vyer** högst upp i filterrutan. Vyer är varianter av listan som har förkonfigurerats med filter. Du kan definiera och spara hur många vyer du vill per lista. Vyerna kommer att vara tillgängliga nästa gång du öppnar listan från valfri enhet eller webbläsare.
 
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
 ## <a name="to-save-a-view"></a>För att spara en vy
+
 1. Öppna vilken listsida som helst.
 2. Välj ![ikonen filterruta.](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller tryck på Shift+F3 för att öppna filterrutan.
 3. Ange ett eller flera nya filter. Mer information finns i [Ange filter på listor](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -37,13 +41,16 @@ Om du inte ger den ett namn får den namnet **Alla (kopia)**.
 > Ser du inte ikonen ![Spara vy](media/save_view_icon.png "Spara vy")? Mer information finns i [Varför har jag inte någon Spara-ikon?](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Så här byter du namn på eller tar bort en vy
+
 1. Välj den för den vy som för närvarande visar listan ![Visa fler alternativ.](media/show-more-options-icon.png "Visa fler alternativ") ikon för att se vilka alternativ som är tillgängliga.
 2. Välj antingen **Byt namn** eller **Ta bort**.
 
 ## <a name="managing-many-views"></a>Hantera många vyer
+
 När antalet vyer på en sida växer kan du behöva ytterligare kontroll över hur vyer visas i filterrutan. Med banderollen **Anpassa** kan du dölja oönskade vyer eller ändra ordning på vyerna så att du får den perfekta ordningen. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Se även
+
 [Vanliga frågor om listvyer](ui-views-faq.yml)  
 [Anpassa din arbetsyta](ui-personalization-user.md)    
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

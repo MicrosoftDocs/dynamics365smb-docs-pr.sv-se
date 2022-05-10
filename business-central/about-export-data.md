@@ -7,34 +7,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.search.form: 9901, 9018, 9020, 9022, 9027
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 02493bee3940bf1416c2485b0b45016edbca9baa
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521390"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655182"
 ---
-# <a name="exporting-your-business-data-to-excel"></a>Exportera affärsdata till Excel
-Om du vill arbeta med data från [!INCLUDE[prod_short](includes/prod_short.md)] i Excel kan du öppna alla listor i Excel och arbeta med den där. Om du vill avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.
+# <a name="export-your-business-data-to-excel"></a>Exportera dina affärsdata till Excel
+
+Excel är ett kraftfullt verktyg för att arbeta med data. Du kan öppna valfri lista i Excel inifrån [!INCLUDE[prod_short](includes/prod_short.md)]. You can even modify data in Excel and then submit it back to [!INCLUDE [prod_short](includes/prod_short.md)]. På samma sätt kan du enkelt ta med dig dina data om du väljer att avbryta prenumerationen.
 
 ## <a name="opening-lists-in-excel"></a>Öppna listor i Excel
+
 Du kan öppna data i Excel från valfri journal, lista eller kalkylblad. Öppna bara den sida som du vill använda och välj **öppna i Excel**. Öppna till exempel en lista över kunder (sök efter **kunder**) och välj sedan **öppna i Excel**. Din webbläsare uppmanar dig att öppna eller spara den genererade Excel-arbetsboken.  
 
 > [!NOTE]
 > Använd det här alternativet om du inte vill ändra och publicera ändringarna till [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Alla listor inkluderar ett antal kolumner och exportering till Excel inkluderar alla kolumner i den aktuella vyn. Om du vill lägga till eller ta bort kolumner innan du öppnar listan i Excel öppnar du bara snabbmenyn för en kolumn och anger sedan vilka kolumner som du vill visa. Denna lista över kolumner är olika för de flesta listor och återspeglar strukturen i databasen där data lagras. Om du inte vet vilken typ av data som en viss kolumn, kan du lägga till den i din vy och sedan bestämma dig för om du vill ta bort den igen.  
+Varje lista innehåller några kolumner. Exporten till Excel innehåller kolumner som är i den aktuella vyn. Ändra kolumnerna genom att öppna snabbmenyn för valfri kolumn och ange sedan vilka kolumner som ska visas. Listan över kolumner skiljer sig åt i de flesta listor. Kolumnerna återspeglar strukturen i databasen där dina data lagras. Om du är osäker på vilken typ av data en viss kolumn innehåller lägger du till den i vyn. Du kan alltid ta bort den igen.  
 
 ### <a name="edit-data-in-excel"></a>Redigera data i Excel
+
 Din [!INCLUDE[prod_short](includes/prod_short.md)]-upplevelse omfattar ett tillägg för Excel som låter dig redigera data i Excel. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Exportera data till andra finanssystem
+
 Om du vill avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.  
 
-Du kan självklart exportera alla sidor, men det kan vara mer än vad du verkligen behöver. Så överväg att exportera följande viktiga sidor och kom ihåg att lägga till alla kolumner som beskrivits tidigare:  
+Du kan exportera alla sidor, men det kan vara mer än vad du verkligen behöver. Så överväg att exportera följande viktiga sidor och kom ihåg att lägga till alla kolumner som beskrivits tidigare:  
 
 * Kontoplan  
 * Kunder  
@@ -42,7 +46,7 @@ Du kan självklart exportera alla sidor, men det kan vara mer än vad du verklig
 * Banker  
 * Artiklar  
 
-Om du även vill ha med alla dina ekonomiska transaktioner, och är detta stora mängder data, tar exporten ofta mer än några minuter. De finansiella transaktionerna visas på sidan **redovisningstransaktioner**.  
+Om du även vill ha med alla dina ekonomiska transaktioner, är detta stora mängder data, så exporten tar ofta mer än några minuter. De finansiella transaktionerna visas på sidan **redovisningstransaktioner**.  
 
 Vi rekommenderar att du också överväger att exportera data från följande sidor:  
 
@@ -68,8 +72,9 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 
 > [!NOTE]
 > Du måste ha minst en av följande behörigheter för att kunna öppna eller redigera data i Excel:
->    - Behörighetsgrupp *D365 Excel-export åtgärd*  
->    - Systembehörighet 6110 *Tillåt åtgärd exportera till Excel*.  
+>
+> * Behörighetsgrupp *D365 Excel-export åtgärd*  
+> * Systembehörighet 6110 *Tillåt åtgärd exportera till Excel*.  
 
 Mer information finns i avsnittet [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

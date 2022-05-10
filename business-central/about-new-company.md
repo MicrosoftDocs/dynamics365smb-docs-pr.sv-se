@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519361"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654974"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[prod_short](includes/prod_short.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt: gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)] beroende på dina affärsbehov.  
 
 När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>Välj rätt mall
 
@@ -52,11 +54,11 @@ På sidan **Företag** kan du använda åtgärden **Kopiera** för att skapa ett
 
 ## <a name="set-up-the-company"></a>Konfigurera företagsnavet
 
-När du loggar in på ett nytt företag körs guiden **företagsinställningar** automatiskt och hjälper dig att komma igång. Du kommer att få information om företaget, till exempel adress, bankuppgifter och lagervärderingsprincip. Vi ber om denna information eftersom den används som grund för många områden i [!INCLUDE[prod_short](includes/prod_short.md)] som du sedan inte måste konfigurera manuellt senare.  
+När du loggar in på ett nytt företag körs guiden **företagsinställningar** automatiskt och hjälper dig att komma igång. Du kommer att ombedas om information om företaget, till exempel adress, bankuppgifter och lagervärderingsprincip. Vi ber om denna information eftersom den används som grund för många områden i [!INCLUDE[prod_short](includes/prod_short.md)] som du sedan inte måste konfigurera manuellt senare.  
 
-Till exempel din företagsadress ingår i fakturor och andra dokument, din bankinformation används i betalningar och värderingsprincipen används för att beräkna priser och även lagervärdering.  
+Till exempel inkluderar [!INCLUDE [prod_short](includes/prod_short.md)] din företagsadress på fakturor och andra dokument samt dina bankuppgifter i betalningar. Värderingsprincipen används för att beräkna priser och lagervärdet.  
 
-När du har grundläggande inställningar på plats kan du ställa in återstående huvudområden. Sedan är du redo att lägga till affärsdata som t. ex. kunder och leverantörer. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+När du har grundläggande inställningar på plats kan du ställa in återstående huvudområden. Sedan är du redo att lägga till affärsdata som t.ex. kunder och leverantörer. Mer information finns i [Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Företag och miljöer
 
@@ -73,7 +75,7 @@ När ett företag har skapats kan du inte ändra namnet. Du kan emellertid ändr
 
 ## <a name="add-contoso-coffee"></a>Lägga till Contoso Coffee
 
-Appen Contoso Coffee tillhandahåller demonstrationsdata som kan hjälpa dig att utforska de avancerade funktionerna i [!INCLUDE [prod_short](includes/prod_short.md)]. Hitta appen i AppSource och installera den i ett tomt företag, till exempel ett företag i en sandbox-miljö. Mer information finns i [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
+Appen Contoso Coffee tillhandahåller demonstrationsdata som hjälper dig att utforska de avancerade funktionerna i [!INCLUDE [prod_short](includes/prod_short.md)]. Hitta appen i AppSource och installera den i ett tomt företag, till exempel ett företag i en sandbox-miljö. Mer information finns i [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
 ## <a name="see-also"></a>Se även
 

@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512055"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655754"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -33,6 +33,8 @@ Längst ned på fönstret **Berätta** är en åtgärd kallad **utforska**, som 
 
 > [!NOTE]  
 >   Om du föredrar att använda tangentbordet använder du Tabb-tangenten och piltangenterna för att välja ett objekt i resultaten. När du trycker på Retur på tangentbordet utan att välja resultat öppnar [!INCLUDE[prod_short](includes/prod_short.md)] det resultat som visas först.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### <a name="finding-an-action-on-the-current-page"></a>Söka efter en åtgärd på den aktuella sidan
 Avsnittet **På den aktuella sidan** låter dig söka efter och utföra åtgärder på sidan som är öppen. Om t. ex. sidan **Försäljningsoffert** är öppen och du skriver ”kund”, inkluderar avsnittet en åtgärd som öppnar kundkortet för den kund som har valts på försäljningsofferten.

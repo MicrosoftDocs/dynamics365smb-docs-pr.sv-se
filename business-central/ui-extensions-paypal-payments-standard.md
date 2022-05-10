@@ -11,17 +11,17 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 78ecb3147ef31bb2ced29aa3c316f9bd5c05ee0b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8350b6e2ce73d1f210bcb62a393ac8a76f7d297e
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518841"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625532"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Tillägget PayPal Payments Standard
 Kunder kräver kontinuerligt högre kundservice både när det gäller produktkvalitet och även leveransdatum och betalningsalternativ. Tjänsten för PayPal Payments Standard hjälper dig att öka din kundservice.
 
-Som alternativ till att samla utbetalningar via banköverföring eller kreditkort, kan du erbjuda dina kunder att betala via sina PayPal-konton. När du skickar en försäljningsfaktura eller en försäljningsorder per e-post, finns en PayPal-länk i e-postbrödtexten och i det bifogade PDF-dokumentet. När kunden väljer länken, visar servicesidan för deras PayPal-konto försäljningens betalningsdetaljer. Då kan kunden betala fakturan som en PayPal-betalning.
+Som alternativ till att samla utbetalningar via banköverföring eller kreditkort, kan du erbjuda dina kunder att betala via sina PayPal-konton. När du skickar en försäljningsfaktura per e-post, finns en PayPal-länk i e-postbrödtexten och i det bifogade PDF-dokumentet. När kunden väljer länken, visar servicesidan för deras PayPal-konto försäljningens betalningsdetaljer. Då kan kunden betala fakturan som en PayPal-betalning.
 
 Tjänsten för PayPal Payments Standard ger följande förmåner:
 

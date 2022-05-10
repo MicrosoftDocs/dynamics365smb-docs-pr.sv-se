@@ -6,21 +6,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
+ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ebb230a7bd0e2008d16b33c0fb00bdbeac3177d6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 326e648b2d8fbe7185cc01c76f61c48c29fa3d40
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519498"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625743"
 ---
 # <a name="receive-items"></a>Ta emot artiklar
 
 När artiklarna tas emot i ett distributionslager som har ställts in för distributionslagerinleveransen kan du bara registrera inleveransen med relaterade dokument, till exempel en inköpsorder, en försäljningsreturorder eller en order för inkommande överföringar.
 
-När artiklar tas emot i ett distributionslager som använder inleveransbearbetning måste du hämta raderna för det släppta källdokument som utlöste inleveransen. Om du använder lagerställen kan du antingen godta den standardlagerplats som fylls i eller, om artikeln inte har använts i det här lagret tidigare, fylla i den lagerplats där artikeln ska placeras. Sedan måste du fylla i antalet artiklar som har tagits emot och bokföra inleveransen.  
+När artiklar tas emot i ett distributionslager som använder inleveransbearbetning måste du hämta raderna för det släppta källdokument som utlöste inleveransen. Om du använder lagerplatser kan du antingen godta den standardlagerplats som fylls i eller, om artikeln inte har använts i det här lagret tidigare, fylla i den lagerplats där artikeln ska placeras. Sedan måste du fylla i antalet artiklar som har tagits emot och bokföra inleveransen.  
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>För att inleverera artiklar med en inköpsorder.
 

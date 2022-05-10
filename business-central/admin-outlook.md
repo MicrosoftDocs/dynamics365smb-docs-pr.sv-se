@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518343"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654922"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Hämta Business Central-tillägget för Outlook
 
@@ -42,6 +42,9 @@ Business Central-tillägget för Outlook består av två mindre tillägg:
 Mer information om vad du kan göra med tilläggen finns i [Använda Business Central som företagsinkorg i Outlook](work-outlook-addin.md).
 
 Varje tillägg tillhandahålls som en XML-fil, som kallas *manifest*, som måste installeras i Outlook för alla som vill använda den här funktionen. Dessa filer beskriver hur du aktiverar tilläggen och ansluter till Business Central när de används i Outlook. Arbetet med dessa filer utförs vanligtvis av en administratör. Som normal användare behöver du oftast inte hantera dessa filer direkt. Antingen konfigurerar din administratör tillägget så att det installeras automatiskt åt dig, eller så använder du den inbyggda installationen för att hantera installationen.
+
+> [!IMPORTANT]
+> Arbetar du med flera miljöer? Business Central-tillägget för Outlook har utformats för arbete med en enskild Business Central-miljö. När tillägget har installerats ingår namnet på miljön i tilläggets manifest. Den här konfigurationen innebär att tillägget endast ansluts till miljön som det installerades från. Öppna miljön och installera tillägget på nytt för att använda tillägget i en annan miljö.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuera tillägget med hjälp av centraliserad distribution som en administratör
 

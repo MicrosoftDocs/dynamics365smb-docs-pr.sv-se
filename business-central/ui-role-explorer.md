@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: role explorer, find features, navigate
-ms.search.form: RoleExplorer, 9020, 9022, 9027, 9018
+ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
 ms.date: 08/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 00831e4109f765f9ae0d275acc3f0c9902e1dae2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7181579da0f84d0ebdea8c546c7815004a18a40d
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512080"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655811"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Söka efter sidor med rollutforskaren
 
 Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller om du går ett steg längre. I följande dokumentation kallas denna funktionsöversikt *rollutforskaren.*
 
 Varje element i rullutforskaren är en åtgärd som öppnar en sida. Därför kan du också använda rollutforskaren som ett sätt att navigera i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="open-the-role-explorer"></a>Öppna rollutforskaren
 

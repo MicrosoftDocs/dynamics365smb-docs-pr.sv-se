@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
+ms.search.form: 9020, 9022, 9027, 9024
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513607"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655064"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
 [!INCLUDE[prod_short](includes/prod_short.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
@@ -24,6 +24,8 @@ För att stödja dessa områdesspecifika affärsuppgifter kan du använda olika 
 
 > [!NOTE]
 > Förutom de allmänna affärsrelaterade funktionerna som beskrivs i det här avsnittet kan du använda allmänna gränssnittsfunktioner varje dag för att interagera med systemet. Mer information finns i [Arbeta med Business Central](ui-work-product.md).
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitten där de beskrivs.
 

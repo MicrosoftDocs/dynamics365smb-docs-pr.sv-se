@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b5030646d04e31983025e054992fa0fb71cf5b4e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513867"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626271"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrera förbrukning eller användning för projekt
 
@@ -69,6 +69,23 @@ Då kan du spåra och jämföra de ursprungliga uppskattningarna mot faktiskt re
 4. Uppdatera journalen med eventuella ändringar som kan behövas.  
 5. Välj **Bokföra**.
 
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Skapa dokument för lager och distributionslagerplockning för ett jobb
+
+Om du vill skapa dokument för lager och distributionslagerplockning för projekt måste administratören aktivera **Funktionsuppdatering: Aktivera lager- och distributionslagerplockning från projekt** på sidan **funktionshantering**.
+
+Funktionen lägger till åtgärden **Skapa lagerplockning** och **Skapa distributionslagerplockning** på **projektkortet**. Om du vill skapa eller registrera ett plocknings dokument använder du **Artikelinförsel/plockningsrader/transportrader** eller **registrerade plockningsrader**. Mer information om plockningar finns i [Plocka artiklar](warehouse-pick-items.md)
+
+Du kan använda åtgärder på följande villkor:
+* **Status** för projektet är **öppen**.
+* **Radtypen** för projektplaneringsraden är **budget** , eller **både budget och fakturerbar**. 
+* **Typen** av projektplaneringsrad är **artikel**.
+* **Begär plockning** har aktiverats för den relaterade platsen.
+* **Dirigerad art.inf. och plock.** är inaktiverad.
+
+> [!NOTE] 
+> Även om inställningen har anropats **kräver plockning** kan du fortfarande bokföra förbrukning direkt från projektjournalraden för lagerstället. När lagerstället har konfigurerats så att plockning krävs men inte leverans, använder du sidan **Lagerplockning** för att organisera och skriva ut plockinformationen. Du kan också använda sidan för att registrera och bokföra resultatet av plockningen, som i sin tur bokför förbrukningen av artiklarna. 
+> 
+> Om din plats är inställd för att kräva både plockning och leveransbearbetning, vilket innebär att du har valt både **Begär plockning** och **Begär utleverans** på sidan **Platskort** använd **Dist.lager plockning** för att hantera plockningen. Distributionslagerplockningar liknar lagerplockningar. Skillnaden är att istället för att bokföra plockningsinformationen registrerar du plockningen. Registreringen bokförs inte i förbrukningen, utan bara artiklarna kan bokföras. Du lagerchef kan du använda ett plockningskalkylark för att organisera plockninginformation innan du skapar de individuella plockningsinstruktionerna för lager
 
 
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Granska planeringsrader för en projekttransaktion

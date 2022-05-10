@@ -1569,6 +1569,7 @@
 ##### [Synkronisera med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimera Outlook](admin-outlook-optimize.md)
 ##### [Använda Business Central utan Outlook](admin-no-outlook.md)
+##### [Vanliga frågor och svar](ui-outlook-addin-faq.yml)
 ### Konfigurera rapporter
 #### [Rapporturval](across-report-selections.md)
 ### Konfigurera anslutningar
@@ -1611,6 +1612,7 @@
 #### [Om du byter från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)
 #### [Bulkfakturera för Microsoft Bookings](finance-bookings.md)
 #### [Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)
+### [Företagsinformation](admin-company-information.md)
 ### [Skapa nummerserier](ui-create-number-series.md)
 ### [Skapa baskalendrar](across-how-to-assign-base-calendars.md)
 ### [Ställa in skrivare](ui-specify-printer-selection-reports.md)

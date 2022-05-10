@@ -6,21 +6,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2eaec73818a437e0ebc729612de063b19a074561
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516516"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655078"
 ---
 # <a name="work-with-prod_short"></a>Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
 
 Du kan t. ex. justera storleken och positionen på alla sidor, utöka bredden på kolumner och öka höjden kolumnrubriker, samt ändra sorteringen av data i kolumner. Och om du vill använda den vågräta rullningslisten för att visa alla kolumner på en listsida eller dokumentrader, kommer du att se att det finns en lodrät låsning så att en del kolumner inte rullas.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips och råd
 
