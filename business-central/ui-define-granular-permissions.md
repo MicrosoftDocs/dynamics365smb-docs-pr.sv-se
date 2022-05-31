@@ -1,42 +1,46 @@
 ---
 title: Definiera detaljerade behörigheter
-description: I det här avsnittet beskrivs hur du definierar detaljerade behörigheter genom att ge vissa användare åtkomst till objekt och tilldela behörighetsgrupper till dem.
+description: I den här artikeln beskrivs hur du definierar detaljerade behörigheter och tilldelar varje användare de behörighetsgrupper som de behöver för att utföra sina jobb.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
-ms.date: 03/24/2022
+ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522518"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729848"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 
-Administratörer använder [!INCLUDE[prod_short](includes/prod_short.md)] säkerhetssystemet för att kontrollera vilka objekt som en användare har åtkomst till i varje databas eller miljö, i kombination med de licenser som tilldelas. Du kan ange för varje användare om de kan läsa, ändra eller ange data i de valda databasobjekten. Mer detaljerad information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och administrationsinnehåll för [!INCLUDE[prod_short](includes/prod_short.md)].
+[!INCLUDE[prod_short](includes/prod_short.md)]-säkerhetssystemet kontrollerar vilka objekt som en användare har åtkomst till i varje databas eller miljö, i kombination med användarens licens. Du kan ange för varje användare om de kan läsa, ändra eller ange data i de valda databasobjekten. Mer detaljerad information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och administrationsinnehåll för [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Innan du tilldelar behörigheter till användare och användargrupper måste du ange vem som kan logga in genom att skapa användare enligt licensen såsom definierats i administrationscentret för Microsoft 365. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
+Innan du tilldelar behörigheter till användare och användargrupper måste du ange vem som kan logga in genom att skapa användare enligt licensen. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] finns det två behörighetsnivåer för databasobjekt:
 
 - De övergripande behörigheterna enligt licensen, som också kallas för berättigandet.
 
   I licenserna ingår standard behörighets uppsättningar. Från och med 2022 utgivningscykel 1 kan administratörer anpassa standard behörigheterna för de licenstyper som krävs. Mer information finns i [Konfigurera behörigheter baserat på licenser](ui-how-users-permissions.md#licensespermissions).  
+
 - Mer detaljerad behörighet som tilldelades inifrån [!INCLUDE[prod_short](includes/prod_short.md)]i.
 
   I den här artikeln beskrivs hur du kan definiera, använda och tillämpa behörigheter i [!INCLUDE [prod_short](includes/prod_short.md)] för att ändra standard konfigurationen.  
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
+Mer information finns i [Tilldelad administratörsåtkomst till Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] Online innehåller standard användargrupper som tilldelas användare automatiskt baserat på deras licens. Du kan ändra standardkonfigurationen genom att ändra eller lägga till användargrupper, behörighetsgrupper och behörigheter. I följande tabell beskrivs viktiga scenarier för ändring av standardbehörigheterna.  
 
 |Om du vill  |Gå till  |
 |---------|---------|
-|För att göra det enklare att hantera behörigheter för flera användare kan du ordna dem i användargrupper och därmed tilldela eller ändra en behörighetsuppsättning för många användare med en åtgärd.| [Hantera behörigheter via användargrupper](#to-manage-permissions-through-user-groups) |
+|För att göra det enklare att hantera behörigheter för flera användare kan du ordna dem i användargrupper och sedan tilldela eller ändra en behörighetsuppsättning för många användare med en åtgärd.| [Hantera behörigheter via användargrupper](#to-manage-permissions-through-user-groups) |
 |Så här hanterar du behörighetsgrupper för specifika användare | [Så här tilldelar behörighetsuppsättningar till användare](#to-assign-permission-sets-to-users) |
 |Så här definierar du behörighetsuppsättningen|[Skapa eller ändra en behörighetsuppsättning](#to-create-or-modify-a-permission-set)|
 |Så här hanterar du särskilda behörigheter|[Skapa eller ändra behörigheter manuellt](#to-create-or-modify-permissions-manually)|
@@ -54,7 +58,7 @@ Med användargrupper kan du hantera behörighetsgrupper i företaget. [!INCLUDE 
 
 Du börjar med att skapa en användargrupp. Sedan tilldelar du gruppen behörighetsuppsättningar för att definiera vilka objekt som användare av gruppen ska få åtkomst till. När du lägger till användare i gruppen gäller de behörighetsuppsättningar som har definierats för gruppen för användaren.
 
-Behörighetsuppsättningar som tilldelats till en användare via en användargrupp förblir synkroniserade så att en ändring av användargruppens behörigheter sprids automatiskt till användaren. Om du tar bort en användare från en användargrupp återkallas de berörda behörigheterna automatiskt.
+Behörighetsuppsättningar som tilldelas en användare via en användargrupp förblir synkroniserade. En ändring av användargruppsbehörigheter sprids automatiskt till användarna. Om du tar bort en användare från en användargrupp återkallas de berörda behörigheterna automatiskt.
 
 ### <a name="to-add-users-to-a-user-group"></a>Så här lägger du till användare i en användargrupp
 
@@ -94,16 +98,16 @@ I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en 
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. På sidan **Användare** väljer du den relevanta användaren och väljer sedan åtgärden **Behörighetsuppsättning efter användargrupp**.
-3. På sidan **Behörighetsuppsättning efter användargrupp** markerar du kryssrutan **[användarnamn]** på en rad för den relevanta behörighetsuppsättningen för att tilldela uppsättningen till användargruppen.
+3. På sidan **Behörighetsuppsättning efter användargrupp** väljer du fältet **[användargruppsnamn]** på en rad för den relevanta behörighetsuppsättningen för att tilldela uppsättningen till användargruppen.
 4. Markera kryssrutan **Alla användargrupper** om du vill tilldela behörighetsuppsättningen till alla användargrupper.
 
 Du kan också tilldela behörighetsuppsättningar direkt till en användare.
 
 ## <a name="to-assign-permission-sets-to-users"></a>Så här tilldelar behörighetsuppsättningar till användare
 
-En behörighetsuppsättning är en samling behörigheter för specifika databasobjekt. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[prod_short](includes/prod_short.md)]. 
+En behörighetsuppsättning är en samling behörigheter för specifika databasobjekt. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)]-lösning innehåller ett antal fördefinierade behörighetsuppsättningar som läggs till av Microsoft eller av lösningsleverantören. Du kan också lägga till nya behörighetsuppsättningar som är skräddarsydda efter företagets behov. Mer information finns i avsnittet [Att skapa eller redigera en behörighetsuppsättning](#to-create-or-modify-a-permission-set).
+En [!INCLUDE[prod_short](includes/prod_short.md)]-lösning innehåller fördefinierade behörighetsuppsättningar som läggs till av Microsoft eller av lösningsleverantören. Du kan också lägga till nya behörighetsuppsättningar som är skräddarsydda efter företagets behov. Mer information finns i avsnittet [Att skapa eller redigera en behörighetsuppsättning](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Om du inte vill begränsa en användares behörighet mer än vad som har definierats av licensen kan du tilldela en särskild behörighetsuppsättning som kallas SUPER för användaren. Den här behörighetsuppsättningen gör att användaren kan komma åt alla objekt som anges i licensen.
@@ -159,7 +163,7 @@ Eventuella behörighetsuppsättningar som redan har tilldelats till användaren 
 
 ### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Säkerhetsfilter – begränsa användarens åtkomst till specifika poster i en tabell
 
-För postnivåsäkerhet i [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda säkerhetsfilter för att begränsa användarens åtkomst till data i en tabell. Du kan skapa säkerhetsfilter på tabelldata. Ett säkerhetsfilter beskriver en uppsättning poster i en tabell som en användare har behörighet att komma åt. Du kan till exempel ange att en användare endast kan läsa de poster som innehåller information om en viss kund. Det innebär att användaren inte kan komma åt de poster som innehåller information om andra kunder. Mer information finns i [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters) i administrationsinnehållet.
+För postnivåsäkerhet i [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda säkerhetsfilter för att begränsa användarens åtkomst till data i en tabell. Du kan skapa säkerhetsfilter på tabelldata. Ett säkerhetsfilter beskriver en uppsättning poster i en tabell som en användare har behörighet att komma åt. Du kan till exempel ange att en användare endast kan läsa de poster som innehåller information om en viss kund. På så sätt kan användaren inte kan komma åt de poster som innehåller information om andra kunder. Mer information finns i [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters) i administrationsinnehållet.
 
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Skapa eller ändra en behörighetsuppsättning
@@ -186,28 +190,31 @@ Du kan också använda en kopieringsfunktion för att snabbt kopiera alla behör
 
 1. I sidan **behörighetsuppsättningar**, markera raden för en behörighetsuppsättning som du vill kopiera och välj sedan åtgärden **Kopiera behörighetsuppsättning**.
 2. I sidan **Kopiera behörighetsuppsättning** anger du namnet på den nya behörighetsuppsättning och väljer sedan knappen **OK**.
-3. Markera kryssrutan **Meddela vid ändrad behörighetsuppsättning** om du vill ha en länk mellan de ursprungliga och de kopierade behörighetsuppsättningarna. Länken används sedan för att meddela dig om namn eller innehåll för den ursprungliga behörighetsuppsättningen i en kommande version att lösningen uppgraderas till senare.
+3. Markera kryssrutan **Meddela vid ändrad behörighetsuppsättning** om du vill ha en länk mellan de ursprungliga och de kopierade behörighetsuppsättningarna. På så sätt får du ett meddelande om namnet eller innehållet i den ursprungliga behörighetsuppsättningen ändras i en framtida version.
 
-Den nya behörighetsuppsättningen innehåller alla behörigheter för de kopierade grupp, läggs till som en ny rad på sidan **behörighetsuppsättningen**. Nu kan du ändra behörigheten i den nya behörighetsuppsättningen. Notera att raderna sorteras i bokstavsordning inom varje typ.
+Den nya behörighetsuppsättningen innehåller alla behörigheter för de kopierade grupp, läggs till som en ny rad på sidan **behörighetsuppsättningen**. Nu kan du ändra behörigheten i den nya behörighetsuppsättningen. 
+
+> [!TIP]
+> Raderna sorteras i bokstavsordning inom varje typ.
 
 ### <a name="to-export-and-import-a-permission-set"></a>Så här exporterar och importerar du en behörighetsgrupp
 
-Om du snabbt vill ställa in behörigheter kan du importera behörighetsgrupper som du har exporterat från en annan [!INCLUDE[prod_short](includes/prod_short.md)]-innehavare.
+Om du snabbt vill ställa in behörigheter kan du importera behörighetsuppsättningar som du har exporterat från en annan [!INCLUDE[prod_short](includes/prod_short.md)]-klientorganisation.
 
-I miljöer med flera innehavare importeras en behörighetsgrupp till en särskild innehavare, d.v.s. omfattningen av importen är "klientorganisation".
+I miljöer med flera klientorganisationer importeras en behörighetsuppsättning till en särskild klientorganisation. Med andra ord är omfattningen för importen *Klientorganisation*.
 
 1. I klientorganisation 1, på **Behörighetsuppsättningar** Välj raden eller linjerna för behörighetsuppsättningarna att exportera och välj sedan **Exportera behörighetsuppsättning**.
 
-    En XML-fil skapas i mappen ladda ned på datorn. Som standard kallas det "Exportera behörighetsuppsättningar.xml"
+    En XML-fil skapas i hämtningsmappen på datorn. Som standard är namnet *Exportera behörighetsuppsättningar.xml*.
 
 2. I klientorganisation 2, på sidan **behörighetsuppsättning** välj åtgärden **Importera behörighetsuppsättning**.
-3. På dialogrutesidan **Importera behörighetsuppsättningar**, överväg om du vill slå ihop befintliga behörighetsuppsättningar med några nya behörighetsuppsättningar i xml-filen.
+3. I dialogrutan **Importera behörighetsuppsättningar**, överväg om du vill slå ihop befintliga behörighetsuppsättningar med några nya behörighetsuppsättningar i XML-filen.
 
-    Om du markerar kryssrutan **Uppdatera befintliga behörigheter** kommer befintliga behörighetsuppsättningar med samma namn som de som finns i xml-filen att slås samman med de importerade behörighetsuppsättningarna.
+    Om du markerar kryssrutan **Uppdatera befintliga behörigheter** kommer befintliga behörighetsuppsättningar som matchar namnen i XML-filen att slås samman med de importerade behörighetsuppsättningarna.
 
-    Om du inte markerar kryssrutan **Uppdatera befintliga behörigheter** kommer behörighetsuppsättningar med samma namn som de som finns i xml-filen att hoppas över under import. I så fall får du ett meddelande om behörighetsuppsättningar som hoppas över.
+    Om du inte markerar kryssrutan **Uppdatera befintliga behörigheter** kommer behörighetsuppsättningar som matchar namnen i XML-filen att hoppas över under importen. I så fall får du ett meddelande om behörighetsuppsättningar som hoppas över.
 
-4. Från dialogrutesidan **Import** hitta och välj den xml-fil som ska importeras och välj sedan åtgärden **Öppna**.
+4. I dialogrutan **Import** hittar du och väljer den XML-fil som ska importeras och väljer sedan åtgärden **Öppna**.
 
 Behörighetsgrupperna importeras.
 
@@ -235,9 +242,9 @@ I alla fält av typen de fem åtkomst **läsbehörighet**, **infoga behörighet*
 ### <a name="example---indirect-permission"></a>Exempel – Indirekt behörighet
 
 Du kan tilldela en indirekt behörighet för att använda en objekt endast via en annan objekt.
-en användare kan till exempel har behörighet att köra Codeunit 80, försäljningspost. Kodmodulen försäljningspost utför många uppgifter, inklusive ändra tabell 37 inköpsrad. När användaren bokför ett försäljningsdokument, kontrollerar codeunit [!INCLUDE[prod_short](includes/prod_short.md)] om användaren har behörighet att ändra tabellen inköpsrad. Om inte kan inte kodmodulen slutföra uppgiften, och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
+en användare kan till exempel har behörighet att köra Codeunit 80, försäljningspost. Kodmodulen försäljningspost utför många uppgifter, inklusive ändra tabell 37 inköpsrad. När användaren bokför ett försäljningsdokument, kontrollerar codeunit [!INCLUDE[prod_short](includes/prod_short.md)] om användaren har behörighet att ändra tabellen inköpsrad. Om inte kan inte codeuniten slutföra uppgiften och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
 
-Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad för att köra kodmodulen. Om användaren har indirekt behörighet till tabellen inköpsrad körs codeunit försäljningspost korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen inköpsrad genom att köra kodmodulen försäljningspost eller ett annat objekt som har behörighet att ändra tabellen inköpsrad. Användaren kan endast ändra tabellen inköpsrad när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
+Användaren behöver dock inte ha fullständig åtkomst till tabellen Inköpsrad för att köra codeuniten. Om användaren har indirekt behörighet till tabellen inköpsrad körs codeunit försäljningspost korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen inköpsrad genom att köra kodmodulen försäljningspost eller ett annat objekt som har behörighet att ändra tabellen inköpsrad. Användaren kan endast ändra tabellen inköpsrad när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Skapa eller ändra behörigheter genom att registrera dina åtgärder
 
@@ -249,7 +256,7 @@ Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad
 4. Välj åtgärden **Behörigheter**.
 5. På sidan **behörigheter** väljer åtgärden **postbehörigheter** och välj sedan åtgärden **startar**.
 
-    Detta startar en registreringsprocess som fångar alla dina åtgärder i användargränssnittet.
+    En registreringsprocess startar som fångar alla dina åtgärder i användargränssnittet.
 6. Gå till olika sidor och aktiviteter i [!INCLUDE[prod_short](includes/prod_short.md)] som du vill att användare med denna behörighetsuppsättning ska lägga till. Du måste utföra de aktiviteter som du vill registrera behörigheter för.
 7. Om du vill avsluta registreringen går du tillbaka till sidan **behörigheter** och väljer åtgärden **stoppa**.
 8. Välj knappen **Ja** om du vill lägga till registrerade behörigheter till den nya behörighetsuppsättningen.
@@ -261,19 +268,23 @@ Användaren behöver dock inte ha fullständig åtkomst till tabellen inköpsrad
 
 ## <a name="to-set-up-user-time-constraints"></a>Så här ställer du in tidsbegränsningar för användare
 
-Administratörer kan definiera tidsperioder som anger när användare kan bokföra och även om systemet registrerar den tidsperiod som den angivna användaren är inloggad. Administratörer kan också tilldela ansvarsenheter till användare. För mer information, se [Arbeta med ansvarsenheter](inventory-responsibility-centers.md).
+Administratörer kan definiera tidsperioder under vilka angivna användare kan bokföra. Administratörer kan också ange om systemet loggar hur mycket tid användare är inloggade. På liknande sätt kan administratörer tilldela ansvarsenheter till användare. För mer information, se [Arbeta med ansvarsenheter](inventory-responsibility-centers.md).
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställning** och väljer sedan relaterad länk.
 2. I sidan **Användarinställningar** väljer du åtgärden **Ny**.
 3. I den **Användar-ID** anger du ID för en användare, och väljer fältet för att se alla aktuella Windows-användare i systemet.
 4. Fyll i fälten om det behövs.
 
-## <a name="viewing-permission-changes-telemetry"></a>Visa telemetri över behörighetsförändringar 
+## <a name="viewing-permission-changes-telemetry"></a>Visa telemetri över behörighetsförändringar
 
-Du kan låta [!INCLUDE[prod_short](includes/prod_short.md)] skicka ändringar som har gjorts i behörighet för en Application Insights-resurs i Microsoft Azure. Med hjälp av Azure Monitor kan du sedan skapa rapporter och aviseringar för insamlade data. Mer information finns i följande artiklar i [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen för utvecklare och IT-proffs:
+Du kan låta [!INCLUDE[prod_short](includes/prod_short.md)] skicka ändringar som har gjorts i behörighet för en Application Insights-resurs i Microsoft Azure. Med hjälp av Azure Monitor kan du sedan skapa rapporter och aviseringar för insamlade data. Mer information finns i följande artiklar i [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen för utvecklare och administratörer:
 
 - [Övervaka och analysera telemetri – Aaktivera Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analysera telemetri för fältövervakning](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
+## <a name="delegated-admin-users"></a>Utsedda adminanvändare
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ## <a name="see-also"></a>Se även
 

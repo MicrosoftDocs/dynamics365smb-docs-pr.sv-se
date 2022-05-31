@@ -9,23 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4995a1776beacd444912124da5e9e6315f6a22f8
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521182"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740211"
 ---
-# <a name="administration"></a>Administration
+# <a name="administration-tasks"></a>Administrationsuppgifter
 
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare och anpassa användargränssnittet.  
 
 Det är viktigt att ange rätt inställningsvärden från början för att en ny verksamhetsprogramvara ska fungera effektivt. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett antal assisterade installationer som hjälper dig att ställa in grundläggande information. Mer information finns i [Ställa in Business Central](setup.md).
 
 > [!NOTE]
-> Du kan skapa ett nytt företag i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services som är ett verktyg som har utformats för att förkorta distributiontider, förbättra kvalitet på implementeringen, införa en metod med upprepning vid implementeringar och öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Mer information finns i [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Du kan använda migreringsverktyg för data för att migrera befintliga data till [!INCLUDE [prod_short](includes/prod_short.md)] online. Alternativt kan du skapa ett nytt företag i [!INCLUDE[prod_short](includes/prod_short.md)] med konfigurationspaket för att förkorta distributionstider, förbättra kvaliteten på implenteringen, införa en metod för implementeringar som går att upprepa samt förbättra produktiviteten genom att automatisera och förenkla återkommande uppgifter. Mer information finns i [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data).
 
-Om du använder RapidStart Services för att implementera inställningsvärden, eller du skriver in dem i fältet nytt företag manuellt, kan du hantera dina inställningsalternativ med de allmänna rekommendationerna för valda inställningsfält som är kända att eventuellt göra lösningen ineffektiv om den definierats felaktigt.  
+Du kan ge stöd åt dina inställningsbeslut med några allmänna rekommendationer för valda inställningsfält som eventuellt orsakar att lösningen är ineffektiv, om fältet är felaktigt inställt.  
 
 En superanvändare eller administratör kan konfigurera ramverket för datautbyte så att användare kan exportera och importera data i bank- och lönesystemfiler, till exempel för olika processer av likviditetsstyrning. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).
 
@@ -40,14 +40,14 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Ställa in skrivare och ange vilka rapporter som ska skrivas ut på vilka skrivare.|[Ställa in skrivare](ui-specify-printer-selection-reports.md)|
 |Klassificera datakänslighetsnivåer för fält så att du kan svara på begäranden från datasubjekt som rör deras personuppgifter.|[Klassificera datakänslighet](admin-classifying-data-sensitivity.md)|
 |Svara på begäranden från datasubjekt som berör deras personuppgifter.|[Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)|
-|Skapa en ny affärsenhet med hjälp av mallar|[Skapa nya företag](about-new-company.md)|
+|Skapa en ny affärsenhet med hjälp av mallar|[Skapa nytt företag](about-new-company.md)|
 |Spåra alla direkta ändringar som användarna gör av data i databasen för att kunna identifiera var fel och dataändringar härrör från.|[Logga ändringar](across-log-changes.md)|  
 |Ange enstaka eller återkommande begäranden om att köra rapporter eller kodenheter.|[Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)|  
 |Hantera, ta bort eller komprimera dokument|[Ta bort dokument](admin-manage-documents.md)|  
 |Visa sidor, kodenheter och frågor som webbtjänster.|[Publicera en webbtjänst](across-how-publish-web-service.md)|
 |Som en del av att skapa Connect Apps mellan [!INCLUDE[prod_short](includes/prod_short.md)] och tredjepartslösningar via REST API:er, definiera mallar som används för att fylla i tomma egenskaper på en entitet när du skapar en POST-åtgärd genom API.|[Konfigurera API-mallar](admin-configuring-api-template.md)|
 |Kryptera data i [!INCLUDE[prod_short](includes/prod_short.md)]-server genom att skapa nya eller importera befintliga krypteringsnycklar som du aktiverar på servern.|[Hantera datakryptering](admin-manage-data-encryption.md)|
-|Ansluta Dynamics 365 Sales med [!INCLUDE[prod_short](includes/prod_short.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integrering med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
+|Ansluta Dynamics 365 Sales med [!INCLUDE[prod_short](includes/prod_short.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser och utöka lösningen med appar.|[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
 ## <a name="administration-in-the-admin-center"></a>Administration i administrationscentret

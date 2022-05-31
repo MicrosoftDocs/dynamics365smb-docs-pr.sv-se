@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/23/2022
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: 52d8c0fb735bb0667f2219f5ed73e914e236014a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512158"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729807"
 ---
 # <a name="create-users-according-to-licenses"></a>Skapa användare enligt licenser
 
@@ -28,9 +28,9 @@ Mer information om olika typer av licenser och hur licensiering fungerar i [!INC
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Hantera användare och licenser i online-innehavare
 
-I onlineversionen av [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda din prenumeration för att definiera hur många användare som är tillåtna. Användare läggs till i klientorganisationen på Microsoft Partner Center, vanligtvis av din Microsoft-partner. Mer information finns i [Lägga till en ny kund](/partner-center/add-a-new-customer) och [Skapa, pausa eller avbryta kundprenumerationer](/partner-center/create-a-new-subscription) i hjälpen till Microsoft Partner Center.
+Din prenumeration på [!INCLUDE[prod_short](includes/prod_short.md)] online definierar hur många användare som är tillåtna. Användare läggs till i klientorganisationen på Microsoft Partner Center, vanligtvis av din Microsoft-partner. Mer information finns i [Administration av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-För att du ska kunna definiera vem som kan logga in på [!INCLUDE[prod_short](includes/prod_short.md)] måste du tilldela produktlicenserna till användarna enligt de roller dessa ska utföra i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan tilldela licenser på flera sätt:
+Du tilldelar produktlicenser till användare baserat på det arbete som varje användare gör i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan tilldela licenser på flera sätt:
 
 - Ditt företags Microsoft 365-administratör kan göra detta i [administrationscentret för Microsoft 365](https://admin.microsoft.com). Mer information finns i [Lägga till användare individuellt eller i bulk till Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - En Microsoft-partner kan tilldela licenser i administrationscentret för Microsoft 365 eller i Microsoft Partner Center. Mer information finns i [Användarhanteringsuppgifter för kundkonton](/partner-center/assign-licenses-to-users) i hjälpen för Microsoft Partner Center.
@@ -39,10 +39,14 @@ Mer information finns i [Administration av Business Central Online](/dynamics365
 
 > [!NOTE]
 > När du har lagt till användare i Microsoft 365 administrationscenter rekommenderar vi att du uppdaterar användarinformationen i [!INCLUDE[prod_short](includes/prod_short.md)] så snart som möjligt. Det är enkelt att göra användarinformationen aktuell och ser till att användarna alltid kan logga in. För mer information, se [Så här lägger du till användare eller uppdaterar användarinformation och licenstilldelningar i Business Central](#adduser).<br>
-> 
-> Att uppdatera användar information är särskilt viktigt om du har anpassat behörighetsuppsättningar för licensen. Om en ny användare försöker logga in på [!INCLUDE[prod_short](includes/prod_short.md)] innan du har lagt till dem kanske de inte kan användas. Mer information finns i [Konfigurera behörigheter baserat på licenser](#licensespermissions). 
-> 
+>
+> Att uppdatera användar information är särskilt viktigt om du har anpassat behörighetsuppsättningar för licensen. Om en ny användare försöker logga in på [!INCLUDE[prod_short](includes/prod_short.md)] innan du har lagt till dem kanske de inte kan användas. Mer information finns i [Konfigurera behörigheter baserat på licenser](#licensespermissions).
+>
 > Användare som upplever problemet är dock inte blockerade. Du kan antingen använda åtgärden **gå tillbaka start** eller helt enkelt logga in för att lösa problemet.
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+
+Mer information finns i [Tilldelad administratörsåtkomst till Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 ### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Konfigurera behörigheter baserat på licenser
 
@@ -50,7 +54,7 @@ Mer information finns i [Administration av Business Central Online](/dynamics365
 
 Administratörer kan konfigurera behörighetsgrupper och användargrupper baserat på olika licenstyper.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
-Den vanligaste licensen, *Dynamics 365 Business Central gruppmedlem*, skapas som standard så att användargrupperna *D365 för gruppmedlemmar* och *Exportåtgärd för Excel* följande behörighetsuppsättningar:
+Den vanligaste licensen, *Dynamics 365 Business Central Team Member*, har användargrupperna *D365 Team Member* och *Exportåtgärd för Excel* plus följande behörighetsuppsättningar som standard:
 
 - D365 LÄS
 - D365 TEAMMEDLEM
@@ -58,28 +62,29 @@ Den vanligaste licensen, *Dynamics 365 Business Central gruppmedlem*, skapas som
 - EXPORTERA RAPPORT EXCEL
 - LOKAL
 
-Om det inte är rätt inställning för en viss innehavare kan administratören ändra konfigurationen. Anpassade behörigheter påverkar dock bara nya användare som har tilldelats licensen. Behörigheter för befintliga användare som har tilldelats licensen kommer inte att påverkas.  
+Om denna standardkonfiguration inte är rätt inställning för en viss klientorganisation kan administratören ändra konfigurationen. Anpassade behörigheter påverkar dock bara nya användare som har tilldelats licensen. Behörigheter för befintliga användare som har tilldelats licensen påverkas inte.  
 
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med ett administratörskonto.  
-2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Licenskonfiguration** och väljer sedan relaterad länk.  
+2. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Licenskonfiguration** och väljer sedan relaterad länk.  
 
     Om du redan finns på sidan **användare** kan du köra guiden **Uppdatera användare från Microsoft 365** och sedan på första sidan av guiden, välj länken **konfigurera behörighet per licens**.  
 3. På sidan **Licensskonfiguration** välj den licens som du vill anpassa och välj sedan åtgärden **Konfigurera**.  
 4. Välj fältet **anpassa behörigheter** för att växla vid anpassning och gör sedan relevanta ändringar.  
 
-    I vårt exempel vill administratören ta bort behörigheten för redigering i Excel och ta bort användargruppen för *exportåtgärder för Excel* från gruppmedlemlicensen. Nya användare som tilldelats gruppmedlemmarnas licens kommer inte att få möjlighet att exportera data till Excel. Om organisationen ändrar sig om detta kan de bara gå tillbaka till sidan **licenskonfiguration** och stänga av anpassningen för den licenstypen.  
+    I vårt exempel vill administratören ta bort behörigheten för redigering i Excel och ta bort användargruppen för *exportåtgärder för Excel* från gruppmedlemlicensen. Nya användare som tilldelats licensen Team Member kommer inte att få möjlighet att exportera data till Excel. Om organisationen ändrar sig om detta ämne kan de bara gå tillbaka till sidan **Licenskonfiguration** och stänga av anpassningen för den licenstypen.  
 
 > [!IMPORTANT]
 > Denna anpassning av behörigheter gäller bara för nya användare som du tilldelar den aktuella licensen. Befintliga användare uppdateras inte. Vi rekommenderar att du anpassar behörigheterna innan du börjar tilldela användarlicenser i Microsoft 365 administrationscentret.
 
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Så här lägger du till användare eller uppdaterar användarinformation och licenstilldelningar i Business Central
-När du har lagt till användare eller ändrat användarinformation i administrationscentret för Microsoft 365 kan du snabbt importera användarinformationen till [!INCLUDE[prod_short](includes/prod_short.md)]. Importen inkluderar även licenstilldelning. 
+
+När du har lagt till användare eller ändrat användarinformation i administrationscentret för Microsoft 365 kan du snabbt importera användarinformationen till [!INCLUDE[prod_short](includes/prod_short.md)]. Importen inkluderar även licenstilldelning.  
 
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med ett administratörskonto.
 2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.  
 3. Välj **Uppdatera användare från Microsoft 365**.
 
-Om du lägger till nya användare är nästa steg att tilldela användargrupper och behörigheter. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md). Om du uppdaterar användarinformation och uppdateringen innehåller en licensförändring, kommer användarna att tilldelas rätt användargrupp och deras behörighetsuppsättningar uppdateras. Mer information finns i [Hantera behörigheter via användargrupper](ui-define-granular-permissions.md).  
+För nya användare är nästa steg att tilldela användargrupper och behörigheter. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md). Om du uppdaterar användarinformation och uppdateringen innehåller en licensförändring, kommer användarna att tilldelas rätt användargrupp och deras behörighetsuppsättningar uppdateras. Mer information finns i [Hantera behörigheter via användargrupper](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > Alla användare i en miljö måste tilldelas samma licens, antingen Essential eller Premium. Mer information finns i Licensieringsguiden för Microsoft Dynamics 365 Business Central. Guiden kan hämtas på webbplatsen för [Business Central](https://dynamics.microsoft.com/business-central/overview/).
@@ -91,7 +96,7 @@ Mer information om hur du synkroniserar användarinformation med Microsoft 365 f
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Så här tar du bort en användares åtkomst till systemet
 
-I online-distributioner kan du ta bort en användares åtkomst till [!INCLUDE[prod_short](includes/prod_short.md)]. Alla referenser till användaren behålls. Användaren kan emellertid inte logga in och aktiva sessioner för användaren stoppas.
+Du kan ta bort en användares åtkomst till [!INCLUDE[prod_short](includes/prod_short.md)] online. Alla referenser till användaren behålls. Användaren kan emellertid inte logga in och aktiva sessioner för användaren stoppas.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. Öppna sidan **Användarekor** för den aktuella användaren och välj **Status** i fältet **Tillstånd**.

@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149159"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729917"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beräkning av standardkostnad
 Många produktionsföretag använder värderingsbasen för standardkostnad. Detta gäller också företag som utför lätt produktion, t. ex. montering och paketering. I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks. Innan ett beslut fattas om att ändra de här kostnaderna förblir de frysta. Den faktiska kostnaden för att tillverka en produkt kan skilja sig från den beräknade standardkostnaden. Den faktiska kostnaden jämförs sedan med standardkostnaden för en särskild artikel och skillnaderna eller *avvikelserna* identifieras och analyseras för den ekonomiska styrningen.  
@@ -78,7 +78,7 @@ Om en standardinställd kapacitetskostnad ska kunna beräknas måste du faststä
 Du ställer in kostnaderna för varje tidstyp för varje maskin-/produktionsgrupp i enskilda verksamhetsföljder.  
 
 > [!NOTE]  
->  Kostnaderna för bearbetningstiden gäller för varje enskild tillverkad artikelenhet och att kostnaderna för omställningstiden gäller för varje enskilt parti. Därför måste omställningstiden i verksamhetsföljden fördelas proportionellt över partistorleken för varje operation. Partistorleken anges i motsvarande fält på snabbfliken **Beställning** för artikelkortet.  
+>  Kostnaderna för bearbetningstiden gäller för varje enskild tillverkad artikelenhet och att kostnaderna för omställningstiden gäller för varje enskilt parti. Därför måste omställningstiden i verksamhetsföljden fördelas proportionellt över partistorleken för varje operation. Partistorleken anges i motsvarande fält på snabbfliken **Återanskaffning** på sidan **Artikelkort**.  
 
 För att ange omställningstid i verksamhetsföljden i planeringssyfte, men inte inkludera den här kostnaden i den standardinställda kostnadsberäkningen avmarkerar du fältet **Kostnad inkl. omst.tid** på sidan **Produktionsinställningar**.  
 

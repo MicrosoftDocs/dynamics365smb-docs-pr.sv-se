@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519231"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740317"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurera beräknings- och bokföringsmetoder för moms
 
@@ -41,7 +41,7 @@ Vi rekommenderar att du använder den assisterade konfigurationsguiden för att 
 
 Så här startar du den assisterade konfigurationsguiden:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **assisterad konfiguration**.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **assisterad konfiguration**.  
 2. Välj **Ställ in moms** och slutför stegen.
 3. När du har slutfört den assisterade konfigurationen går du till sidan **Bokföringsinställning för moms** och kontrollerar om du behöver fylla i ytterligare fält enligt de lokala kraven för din version av [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Lokala funktioner i Business Central](about-localization.md).  
 
@@ -59,7 +59,7 @@ För att garantera att användaren anger ett giltigt momsregistreringsnummer kan
 
 Om du vill skapa momsregistreringsnummer, gör då så här:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **länder/regioner**.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **länder/regioner**.
 2. Välj land eller region, och välj sedan åtgärden **Format för momsreg.nr.**.
 3. I fältet **Format** anger du formatet genom att ange ett eller flera av följande tecken:  
 
@@ -219,12 +219,21 @@ Du måste ställa in information om hur skattemyndigheterna i ditt land eller di
 ## <a name="see-also"></a>Se även
 
 [Ställa in momsrapportmallar och momsrapportnamn](finance-how-setup-vat-statement.md)  
-[Ställa in orealiserad mervärdesskatt](finance-setup-unrealized-vat.md)  
+[Ställa in icke-realiserad moms](finance-setup-unrealized-vat.md)  
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Arbeta med ändringsverktyget för momssats](finance-how-use-vat-rate-change-tool.md)  
 [Kontrollera momsregistreringsnummer](finance-how-validate-vat-registration-number.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)  
+[Momsrapportering i tyska versionen](LocalFunctionality/Germany/vat-reporting.md)  
+[Belgisk moms](LocalFunctionality/Belgium/belgian-vat.md)  
+[Italiensk moms](LocalFunctionality/Italy/italian-vat.md)  
+[Ställa in elektroniska moms- och ICP-deklarationer i den nederländska versionen](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[Momsrapporter i den spanska versionen](LocalFunctionality/Spain/vat-reports.md)  
+[Ställ in momsbokföring för varor och tjänster i den australiska versionen](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[Moms i den tjeckiska versionen](LocalFunctionality/Czech/finance-vat.md)  
+[Momsrapportering i den norska versionen](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Rapportera moms på varor och tjänster samt harmoniserad försäljningsmoms i Kanada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

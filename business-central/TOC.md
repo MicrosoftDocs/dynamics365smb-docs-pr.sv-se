@@ -237,21 +237,9 @@
 ##### [Söka efter bokförda dokument utan inkommande dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
 ##### [Hantera många inkommande dokumentposter](across-how-manage-many-income-document-records.md)
 
-### Arbetsflöde
+### Arbetsflöden
 #### [Arbetsflödesöversikt](across-workflow.md)
-#### Konfigurera arbetsflöden
-##### [Konfigurera arbetsflöden](across-set-up-workflows.md)
-##### [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)
-##### [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)
-##### [Aviseringar för arbetsflöde](across-setting-up-workflow-notifications.md)
-##### [Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Skapa och ändra anpassade layouter](ui-get-started-layouts.md)
-<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
-##### [Konfigurera e-post](admin-how-setup-email.md)
-##### [Skapa arbetsflöden](across-how-to-create-workflows.md)
-##### [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md)
-##### [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Använda Business Central i Power Automate-flöden](across-how-use-financials-data-source-flow.md)
 #### Använda arbetsflöden
 ##### [Använd arbetsflöden](across-use-workflows.md)
 ##### [Så här aktiverar du arbetsflöden](across-how-to-enable-workflows.md)
@@ -259,7 +247,7 @@
 ##### [Begränsa och tillåt användningen av en post](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Ta bort arbetsflöden](across-how-to-delete-workflows.md)
-
+<!--data exchange-->
 ### Utbyta data elektroniskt
 #### [Översikt över dataintegration](across-data-exchange.md)
 #### [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)
@@ -672,6 +660,16 @@
 #### [Servicebokföring](service-service-posting.md)
 #### [Bokföra tjänsteorder och kreditnotor](service-how-to-post-service-orders.md)
 #### [Låna ut och ta emot låneartiklar](service-how-to-lend-receive-loaners.md)
+<!--Shopify-->
+## Onlinebutik med Shopify
+### [Kom igång med Shopify-kopplingen](shopify/get-started.md)
+### [Synkronisera objekt med Shopify](shopify/synchronize-items.md)
+### [Synkronisera kunder med Shopify](shopify/synchronize-customers.md)
+### [Synkronisera och uppfylla försäljningsordrar med Shopify](shopify/synchronize-orders.md)
+### [Kör uppgifter i bakgrunden](shopify/background.md)
+### [Felsök Shopify-kopplingen](shopify/troubleshoot.md)
+### [FAQ för Shopify-kopplingen](shopify/shopify-faq.md)
+
 <!--Company Hub-->
 ## Företagsnav
 ### [Hantera arbete i flera företag med företagsnavet](company-hub.md)
@@ -770,6 +768,7 @@
 ##### [Företagets nummer och bankkontorets nummer](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Begränsa bokföringsperioden](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Ange arbetsdatum som bokföringsdatum](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Gör journalmallar obligatoriska](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
 
 ### Kanada
 #### [Lokala funktioner i den kanadensiska versionen](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -820,9 +819,10 @@
 
 ### Danmark
 #### [Lokala funktioner i den danska versionen](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### Moms
+#### Momssats
 ##### [Skriva ut avstämningsrapporter](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Moms/VIES-rapportering](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [Inställningar för momsregistreringsnummer för intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Bankverksamhet och betalningar
 ##### [FIK-detaljer i utbetalningsavstämningsjournal](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Tillägg för betalningar och avstämning (DK).](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1329,6 +1329,7 @@
 ##### [Cartera-modul för kundfordringar](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Betalningar Cartera-modul](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII – Typer av faktura och kreditnota i försäljnings- och inköpsdokument](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [Konfigurera SII för rapportering av momsregistreringsnummer](LocalFunctionality/Spain/sii-setup.md)
 #### Grundläggande ekonomi
 ##### [Ställ in och stäng resultaträkningssaldon](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indrag och validera kontoplan](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1572,6 +1573,17 @@
 ##### [Vanliga frågor och svar](ui-outlook-addin-faq.yml)
 ### Konfigurera rapporter
 #### [Rapporturval](across-report-selections.md)
+### Konfigurera godkännandeflöden baserade på mallar
+#### [Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)
+#### [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)
+#### [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)
+#### [Aviseringar för arbetsflöde](across-setting-up-workflow-notifications.md)
+#### [Ange när och hur meddelanden om arbetsflöde ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Skapa arbetsflöden](across-how-to-create-workflows.md)
+#### [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md)
+#### [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!--Connectors-->
 ### Konfigurera anslutningar
 #### [Hämta Business Central-tillägget för Excel](admin-deploy-excel-addin.md)
 #### Använda Business Central som din företagsinkorg i Outlook 
@@ -1606,7 +1618,8 @@
 ###### [Använda Business Central-appar i Power BI](across-powerbi-business-central-apps.md)
 ##### [Vanliga frågor och svar](power-bi-faq.md)
 #### Använda Power Automate med Business Central
-##### [Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)
+##### [Använda Business Central i Power Automate-flöden](across-how-use-financials-data-source-flow.md)
+##### [Felsöka automatiserade arbetsflöden](across-flow-troubleshoot.md)  
 #### Använda Power Apps med Business Central
 ##### [Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Om du byter från en QuickBooks-app till Business Central](across-quickbooks-to-business-edition.md)
@@ -1760,23 +1773,6 @@
 ### [Klassificera datakänslighet](admin-classifying-data-sensitivity.md)
 ### [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)
 ### [Skapa nytt företag](about-new-company.md)
-### Konfigurera ett företag med RapidStart Services
-#### [RapidStart Översikt](admin-set-up-a-company-with-rapidstart.md)
-#### Ställa in företagskonfiguration
-##### [Översikt över företagskonfiguration](admin-set-up-company-configuration.md)
-##### [Så här hanterar du företagskonfigurationen i ett kalkylark](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Förbered ett konfigurationspaket](admin-how-to-prepare-a-configuration-package.md)
-#### Koppla konfigurationen till nya företag
-##### [Koppla konfigurationen till nya företag](admin-apply-configuration-to-new-companies.md)
-##### [Skapa ett nytt företag](admin-how-to-create-a-new-company.md)
-##### [Konfigurera nya företag](admin-how-to-configure-new-companies.md)
-##### [Så här konfigurerar du ett företag med RapidStart-guiden](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Kopiera data till nya företag](admin-how-to-copy-data-to-new-companies.md)
-##### [Skapa ingående saldon för journalen](admin-how-to-create-journal-opening-balances.md)
-#### [Samla in kundinställningsdata](admin-gather-customer-setup-values.md)
-#### [Förbereda migrering av kunddata med mallar](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Migrera kunddata](admin-migrate-customer-data.md)
-#### [Tips och råd: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Loggändring](across-log-changes.md)
 ### [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)
 ### [Hantera lagring genom att komprimera data eller ta bort dokument](admin-manage-documents.md)

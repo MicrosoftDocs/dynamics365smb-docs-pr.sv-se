@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520159"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729847"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
 > [!NOTE]
@@ -95,7 +95,14 @@ När du aktiverar funktionsuppdateringen **Ny upplevelse för försäljningspris
 > [!NOTE]
 > Om priser endast är inställda på artikel- eller resurskort fylls inte standardprislistorna i med dessa priser under datauppdateringen. Du kan dock öppna någon av standardprislistor eller pris förslags sidan och använda åtgärden **föreslå rader** för att lägga till prisuppsättningarna på artikel- eller resurskortet. 
 
-* Om du vill använda försäljningsprislistor avmarkerar du det. Befintliga priser kommer att konverteras till en ny prislista för varje kombination av kund, kundgrupp eller kampanj samt start- och slutdatum och valutor. Om du har många kombinationer får du många prislistor.
+* Om du vill använda försäljningsprislistor avmarkerar du det. Befintliga priser konverteras till en ny prislista för varje kombination av följande saker: 
+
+* Kund
+* Kundgrupp eller kampanj
+* Start- och slutdatum
+* Valutor 
+
+Om du har många kombinationer får du många prislistor.
 
 Om du redan har aktiverat den nya prissättningen kan du skapa standardprislistor manuellt eller ange en befintlig prislista som standard. Om du vill ange en befintlig pris lista som standard aktiverar du alternativet för att **aktivera uppdateringsstandarder** på prislistan. Sidorna **Försäljningsinställningar**, **Inköpsinställningar** och **Projektinställningar** anger du prislistan som standard.
 
@@ -129,13 +136,14 @@ Om du vill kopiera försäljningspriser – till exempel en viss kunds försälj
    > Batch-jobbet tar bara fram förslag, det genomför inte förändringarna. Om du är nöjd med förslagen och vill använda dem, d.v.s. infoga dem på sidan **Försäljningspriser**, väljer du åtgärden **Implementera prisändringar** på sidan **Försäljningsprisförslag**.
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience/)  
+Du kan ange om den nya prislistan ska använda inställningarna från sidhuvudet till listan som du kopierar, eller inställningarna från den nya listan som du kopierar till. Om du vill använda inställningarna från prislistan som du kopierar priser till ska du aktivera reglaget **Använd standardinställningar från mål**.
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsprislistor** och välj sedan relaterad länk. 
 2. Välj den prislista som ska kopieras och välj sedan **Kopiera rader**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > Du kan inte ha två rader som har samma inställningar men olika priser. Om detta händer visas ett meddelande när du aktiverar en prislista. Du kan välja det pris som ska användas genom att öppna listan och ta bort fel pris.  
+   > Du kan inte ha två artiklar som har samma inställningar men olika priser. Om detta händer visas ett meddelande när du aktiverar prislistan. Du kan välja det pris som ska användas genom att öppna listan och ta bort fel pris.  
   
 ---
 
@@ -146,8 +154,8 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 Om du vill uppdatera flera artikelpriser samtidigt – till exempel höja alla priser med en viss procentsats kan du fylla sidan Försäljningsprisförslag genom att använda följande batchjobb:
 
-* **Föreslå förs.pris i ett förslag** föreslår ändringar genom att tillämpa en justeringsfaktor på befintliga försäljningspriser, eller genom att kopiera befintliga försäljningsprisavtal till andra kunder, kundprisgrupper eller försäljningskampanjer.
-* **Föreslå artikelpris i förslag** föreslår ändringar genom att tillämpa en justeringsfaktor på befintliga enhetspriser på artikelkort, eller genom att föreslå priser för nya kombinationer av valuta, måttenheter och så vidare. Enhetspriserna för artiklar ändras inte med det här batch-jobbet.  
+* **Föreslå förs.pris i ett förslag** föreslår ändringar på ett av två sätt. Antingen genom att tillämpa en justeringsfaktor på befintliga försäljningspriser, eller genom att kopiera befintliga försäljningsprisavtal till andra kunder, kundprisgrupper eller försäljningskampanjer.
+* **Föreslå artikelpris i förslag** föreslår ändringar på ett av två sätt. Antingen genom att tillämpa en justeringsfaktor på befintliga enhetspriser på artikelkort, eller genom att föreslå priser för nya kombinationer av valuta, måttenheter och så vidare. Enhetspriserna för artiklar ändras inte med det här batch-jobbet.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningspriskalkylark** och välj sedan relaterad länk.  
 2. Välj **Föreslå artikelpris i förslag** .  
@@ -168,9 +176,9 @@ Om du vill uppdatera priserna för flera artiklar måste du skapa en ny prislist
 ---
 
 ## <a name="best-price-calculation"></a>Bästa prisberäkning
-När du har bokfört specialpriser och radrabatter för försäljning och inköp, [!INCLUDE[d365fin](includes/d365fin_md.md)] ser du till att vinsterna alltid är optimala. Det beräknar det bästa priset på försäljnings- och inköpsdokument och på projekt- och artikeljournalrader.
+När du har registrerat särskilda priser och radrabatter för försäljning och inköp beräknar [!INCLUDE[d365fin](includes/d365fin_md.md)] det bästa priset på försäljnings- och inköpsdokument och på projekt- och artikeljournalrader.
 
-Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna radrabatten för ett visst datum. [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar bästa priser när du skriver in enhetspriset och radrabattens procentsats för artiklar på nytt dokument och journalrader.
+Det bästa priset är det lägsta priset med den högsta radrabatten som tillåts för ett visst datum. [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar bästa priser när du lägger till enhetspriser och radrabattens procentsats på dokument och journalrader.
 
 > [!NOTE]  
 > Följande beskriver hur det bästa priset beräknas för försäljning. Beräkningen är samma för inköp.
@@ -199,7 +207,7 @@ Innan du kan använda fakturarabatter vid försäljning måste du ange viss info
 
 Om du vill att fakturarabatter beräknas automatiskt kan du ange detta på sidan **Försäljningsinställningar** aktivera växlingen **Beräkna fakturarabatt**.  
 
-För varje kund kan du ange om du ska ge fakturarabatter när en faktura uppfyller vissa kriterier. Till exempel om fakturabeloppet är stort nog. Fakturarabattvillkoren kan vara i lokal valuta för inrikes kunder och i utländsk valuta för kunder i utlandet.  
+Du kan ange om du ska ge fakturarabatter när en faktura uppfyller vissa kriterier för varje kund. Till exempel om fakturabeloppet är stort nog. Fakturarabattvillkoren kan vara i lokal valuta för inrikes kunder och i utländsk valuta för kunder i utlandet.  
 
 Du kan koppla rabattsatser i procent till särskilda fakturabelopp på sidan **Kundfakturarabatter** för respektive kund. Du kan ange ett obegränsat antal rabattsatser. Varje enskild kund han ha en egen sida, eller också kan du koppla flera kunder till samma sida.  
 

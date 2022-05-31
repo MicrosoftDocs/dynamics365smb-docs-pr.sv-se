@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516141"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729943"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
 Få ut mer av kommunikationen mellan dina säljare och kunder genom att förvandla e-postutbyten till praktiska möjligheter. [!INCLUDE[prod_short](includes/prod_short.md)] kan tillsammans med Exchange Online spara en logg över de inkommande och utgående meddelandena. Du kan visa och analysera innehållet i varje meddelande på sidan **Interaktionslogg**.
@@ -67,7 +67,7 @@ Regler för e-postflöde du söker efter specifika villkor i meddelanden och utf
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>Ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att logga e-postmeddelanden
+## <a name="set-up-prod_short-to-log-email-messages"></a>Ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att logga e-postmeddelanden
 Dessa steg är desamma för både den aktuella och den nya upplevelsen.
 
 Kom igång med e-postloggning i två enkla steg:
@@ -89,14 +89,27 @@ Kom igång med e-postloggning i två enkla steg:
 - Visa innehållet i e-postmeddelandet som utbytts genom att välja **Bearbeta** och sedan **Visa bilagor**.
 - Förvandla ett e-postutbyte till en affärsmöjlighet. Om en transaktion verkar lovande kan du omvandla den till en affärsmöjlighet och sedan hantera förloppet fram till en försäljning. Om du vill göra ett e-postutbyte till en affärsmöjlighet kan du välja post och sedan **processer** och sedan **skapa affärsmöjlighet**. Mer information finns i [Hantera försäljningsmöjligheter](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Ansluta lokala versioner till Microsoft Exchange
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Begränsningar för postlådor och mappar i Exchange Online
+Det finns begränsningar för postlådor och mappar i Exchange Online, till exempel begränsningar för mappstorlekar och antalet meddelanden. Mer information finns i [Exchange Online-begränsningar](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) och [Begränsningar för offentliga mallar i Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] lagrar loggade e-postmeddelanden i en mapp i Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] lagrar även en länk till varje loggat meddelande. Länkarna öppnar de loggade meddelandena i Exchange Online från sidorna Interaktionslogg, Kontaktkort och Säljarkort i [!INCLUDE[prod_short](includes/prod_short.md)]. Om ett loggat meddelande flyttas till en annan mapp kommer länken att brytas. Ett meddelande kan till exempel flyttas manuellt eller Exchange Online kan automatiskt starta Automatisk delning när en lagringsgräns har nåtts.
+
+Med hjälp av följande steg kan du undvika att bryta länkar till meddelanden i Exchange Online.
+
+1. Flytta inte befintliga meddelanden till en annan mapp när du har ändrat inställningarna för e-postloggningen. Genom att behålla befintliga meddelanden där de är kommer att bevara länkarna. Länkar till meddelanden i den nya mappen blir giltiga.
+2. Undvik att nå gränserna för postlådan och antalet mappar. Så här gör du om du är på väg att uppnå en gräns:
+    1. Skapa en ny delad postlåda (ny upplevelse) eller en ny delad mapp (aktuell upplevelse) i Exchange Online.
+    2. Uppdatera reglerna för e-postflöde i Exchange Online.
+    3. Uppdatera inställningarna för e-postloggning i Business Central
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Ansluta lokala versioner till Microsoft Exchange
 
 Du kan ansluta [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt eller Exchange Online för e-postloggning. För båda versioner av Exchange finns inställningar för anslutningen tillgängliga på sidan **Marknadsföringsinställning**. För Exchange Online kan du också använda en assisterad konfigurationsguide.
 
 > [!IMPORTANT]
 > Den nya upplevelsen stöder inte en anslutning till Exchange lokalt. Om du måste använda Exchange lokalt ska du inte aktivera funktionsuppdateringen för den nya upplevelsen.
 
-## <a name="connecting-to-exchange-on-premises"></a>Ansluta till Exchange lokalt
+## <a name="connect-to-exchange-on-premises"></a>Ansluta till Exchange lokalt
 ## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
 För att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt kan du på sidan **Marknadsföringsinställning** använda **Basic** som **Autentiseringstyp** och sedan ange autentiseringsuppgifter för användarkontot för Exchange lokalt. Slå sedan på brytaren **Aktiverad** för att starta loggningen av e-post.
 
@@ -105,7 +118,7 @@ Den nya upplevelsen stöder inte en anslutning till Exchange lokalt.
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Ansluta till Exchange Online
+## <a name="connect-to-exchange-online"></a>Ansluta till Exchange Online
 För att ansluta till Exchange Online måste du registrera ett program i Azure Active Directory. Ange program-ID, nyckelvalvshemlighet och omdirigerings-URL som ska användas för registreringen. URL-adressen för omdirigering anges i förväg och bör användas för de flesta installationer. Mer information finns i [Så här registrerar du ett program Azure AD för anslutning från Business Central till Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Du måste också ansluta till **OAuth2** som **Autentiseringstyp**. Du måste också registrera ett program i Azure Active Directory. Ange program-ID, nyckelvalvshemlighet och omdirigerings-URL som ska användas för registreringen. URL-adressen för omdirigering fylls i förväg och bör användas för de flesta installationer. Mer information finns i Så här registrerar du ett program i Azure AD för anslutning från Business Central till Exchange Online nedan.
@@ -214,6 +227,8 @@ Inaktivera din nuvarande inställning, ändra användaren på sidan för **e-pos
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk. 
 2. Välj **åtgärder** och **förnya token**.
 3. Logga in med det Exchange Online konto som det schemalagda jobbet kommer att använda för att ansluta till den delade postlådan och bearbeta e-postmeddelanden.
+
+
 
 ## <a name="see-also"></a>Se även
 [Hantera relationer](marketing-relationship-management.md)

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521786"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729781"
 ---
 # <a name="make-drop-shipments"></a>Skapa direktleveranser
 
@@ -30,7 +30,10 @@ När en försäljningsorder har markerats för direktleverans och du skapar en i
 För att förbereda en direktleverans skapar du en försäljningsorder för en artikel och anger på försäljningsraden att försäljningen kräver direktleverans.
 
 1. Skapa en försäljningsorder för en artikel. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
-2. På försäljningsorderraden för direktleveransartikeln markerar du kryssrutan **Direktleverans**. Använda funktionen **Välj kolumner** om fältet inte visas. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
+2. På försäljningsorderraden för direktleveransartikeln markerar du kryssrutan **Direktleverans**. 
+
+> [!TIP]
+> Som standard är kryssrutan Direktleverans inte tillgänglig på raderna. Om den inte är det kan du lägga till den genom att anpassa avsnittet av sidan som innehåller raderna. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Så här skapar du inköpsorder för direktleverans
 
@@ -45,11 +48,15 @@ När du förbereder en direktleverans anger du på inköpsordern att den måste 
 
 Radinformationen från försäljningsordern infogas på inköpsorderraden.
 
-Du kan nu instruera leverantören att leverera artiklarna till kunden, till exempel genom att e-posta inköpsordern som en PDF. Om leverantören har ett spårningsnummer eller liknande information kan du välja att registrera denna information på en inköpsorderrad av typen *Kommentar*.  
+Du kan nu be din leverantör att skicka artiklarna direkt till kunden. Du kan till exempel skicka ordern via e-post. 
+
+Om leverantören har ett spårningsnummer eller liknande information kan du lägga till denna information på en inköpsorderrad av typen *Kommentar*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Så här skapar du flera inköpsorder för direktleveranser
 
-Du kan också använda inköpskalkylarket för att skapa inköpsordern för leverantören. Fördelen med att använda inköpskalkylarket är att du kan skapa inköpsorder för alla utestående direktleveranser, så att du inte behöver skapa var och en enskilt.
+Du kan också använda inköpskalkylarket för att skapa inköpsordern för leverantören. 
+
+Fördelen med att använda inköpskalkylarket är att du kan skapa inköpsorder för alla utestående direktleveranser. Det innebär att du inte behöver skapa var och en för sig.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inköpskalkylark** och väljer sedan relaterad länk.
 2. Välj åtgärden **Direktleverans** och välj sedan åtgärden **Hämta förs.order**.

@@ -1,36 +1,48 @@
 ---
 title: Arbetsflöden i Dynamic 365 Business Central
-description: Använd arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemaktiviteter, till exempel automatisk bokföring, kan inkluderas som arbetsflödessteg.
+description: Använd de inbyggda arbetsflödesfunktionerna för att skapa arbetsflöden för godkännande som ska komplettera automatiserade arbetsflöden som baseras på Power Automate. Du kan ange steg för att tilldela uppgifter till olika personer som en del i de olika verksamhetsuppgifterna.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 9cfdcc9bbf8e24675c6894b8ca2efbf10129d990
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
+ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511187"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743677"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Arbetsflöden i Dynamics 365 Business Central
 
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
 
- På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
+Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] stöder tre typer av arbetsflöden:
 
- Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett antal förkonfigurerade arbetsflöden som representeras av arbetsflödesmallar som du kan kopiera för att skapa arbetsflöden. Koden för arbetsflödesmallar som läggs till av Microsoft har prefixet ”MS-”. Mer information finns i listan över arbetsflödesmallar på sidan Arbetsflödesmallar.  
+* Automatiserade arbetsflöden för godkännande baserade på inbygga mallar för arbetsflöden  
 
- Om ett företagsscenario kräver en arbetsflödehändelse eller ett svar som inte stöds kan du antingen använda Power Automate eller arbeta med en Microsoft-partner för att anpassa applikationskoden. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md).
+  På sidan **Arbetsflödesmallar** kan du se alla tillgängliga arbetsflöden. Utvärderingsversionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett antal förkonfigurerade arbetsflöden som representeras av arbetsflödesmallar som du kan kopiera för att skapa arbetsflöden. När du öppnar en arbetsflödesmall från sidan **Arbetsflödesmallar** och arbetsflödets namn börjar med *MS-*, läggs arbetsflödesmallen till av Microsoft.  
+* Automatiserade flöden som du skapar själv  
 
-Alla arbetsflödesmallar som du skapar med Power Automate läggs till i listan över arbetsflödesmallar i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Använda Business Central i ett automatiskt arbetsflöde ](across-how-use-financials-data-source-flow.md).  
+  Alla arbetsflödesmallar som du skapar med Power Automate läggs till i listan över arbetsflödesmallar i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Använda Business Central i Power Automate-flöden](across-how-use-financials-data-source-flow.md).  
+* Manuellt utlösta flöden från åtgärden **Automatisera** ([!INCLUDE [prod_short](includes/prod_short.md)] endast online). Mer information finns i [Manuella snabbflöden](across-how-use-financials-data-source-flow.md#manual-instant-flows).  
 
- I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
+## <a name="power-automate-flows"></a>Power Automate-flöden
 
-|**För att**|**Gå till**|  
+För [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrera dig för Power Automate och sedan skapa kraftfulla automatiserade flöden som du kan köra i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flöden](across-how-use-financials-data-source-flow.md).  
+
+## <a name="automated-approval-workflows"></a>Automatiserade arbetsflöden för godkännande
+
+Du kan skapa ett arbetsflöde för godkännande genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
+
+Om ett affärsscenario kräver en arbetsflödeshändelse eller ett svar som inte stöds i standardversionen, registrerar du dig för Power Automate. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flöden](across-how-use-financials-data-source-flow.md). Du kan också skaffa en app eller arbeta med en Microsoft-partner om du vill anpassa programkoden.  
+
+Om du vill konfigurera och använda arbetsflöden som inte har definierats i Power Automate kontrollerar du följande artiklar:  
+
+|**Om du vill**|**Se**|  
 |------------|-------------|  
 |Konfigurera arbetsflödesanvändare, anger hur användarna får meddeladen och skapa nya arbetsflöden. Implementera nödvändiga arbetsflödeselement genom att anpassa programkoden för nya arbetsflöden i scenarier som inte stöds.|[Konfigurera arbetsflöden](across-set-up-workflows.md)|  
 |Aktivera arbetsflöden, agera på arbetsflödemeddelanden inklusive begärandegodkännanden och godkänn begäranden för att utföra ett arbetsflödessteg. Arkivera och ta bort arbetsflöden.|[Använd arbetsflöden](across-use-workflows.md)|  
@@ -41,6 +53,7 @@ Alla arbetsflödesmallar som du skapar med Power Automate läggs till i listan �
 [Inköp](purchasing-manage-purchasing.md)  
 [Hantera projekt](projects-manage-projects.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flöden](across-how-use-financials-data-source-flow.md)  
+[Felsöka automatiserade arbetsflöden i [!INCLUDE[prod_short](includes/prod_short.md)]](across-flow-troubleshoot.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
