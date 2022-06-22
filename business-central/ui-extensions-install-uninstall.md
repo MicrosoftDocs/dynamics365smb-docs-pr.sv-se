@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514757"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804662"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Installera och avinstallera tillägg i Business Central
 
@@ -45,7 +45,7 @@ Om du väljer ett tillägg kan du läsa om vad tillägget används till och du k
 När du installerar tillägget kanske du behöver måste konfigurera det, till exempel ange ett konto för användning med tillägget **PayPal Payments Standard för [!INCLUDE[prod_short](includes/prod_short.md)]**.
 Andra tillägg lägger bara till i fält på en befintlig sida, eller lägger till en ny sida, till exempel.
 
-Om du avinstallerar tillägget och du sedan ändrar dig kan du installera det på nytt. När du avinstallerar tillägg som du har använt, bevaras data så att de är tillgängliga om du installerar tillägget igen. Det finns vissa tillägg som krävs. Du kan inte avinstallera dem från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.
+Om du avinstallerar tillägget och du sedan ändrar dig kan du installera det på nytt. När du avinstallerar tillägg som du har använt, bevaras data så att de är tillgängliga om du installerar tillägget igen. Det finns vissa tillägg som krävs. Du kan inte avinstallera dessa tillägg från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.
 
 Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företag](ui-extensions-other.md). Alla tillägg testas innan de görs tillgängliga för dig, men vi rekommenderar att du öppnar länkarna som tillhandahålls med varje tillägg om du vill veta mer om tillägget innan du väljer att installera det.
 
@@ -83,11 +83,15 @@ Om PTE innehåller bryt schemaändringar går det att *Framtvinga* en uppladdnin
 
 ## <a name="uninstall-an-extension"></a>Avinstallera ett tillägg
 
-Du avinstallerar ett tillägg på sidan **Tilläggshantering**. Om du avinstallerar ett tillägg och du sedan ändrar dig kan du installera tillägget på nytt. När du avinstallerar ett tillägg som du har använt bevaras data som standar så att de finns tillgängliga om du installerar tillägget igen. Du kan i stället välja att ta bort datan tillsammans med tillägget. Detta styrs av kryssrutan **Ta bort tilläggsdata**. Denna kryssruta är som standard *inte aktiverad*.
+Du avinstallerar ett tillägg på sidan **Tilläggshantering**. Om du vill avinstallera ett tillägg markerar du det på sidan och väljer **avinstallation** åtgärden. Om du avinstallerar ett tillägg och du sedan ändrar dig kan du installera tillägget på nytt.
+
+När du avinstallerar ett tillägg som du har använt bevaras data som standar så att de finns tillgängliga om du installerar tillägget igen. Du kan i stället välja att ta bort datan tillsammans med tillägget. Denna åtgärd styrs av växlingen **Ta bort tilläggsdata**. Funktionen är normalt inte **aktiv**. När du försöker aktivera data växeln **ta bort tillägg för tillägget** visas en bekräftelse dialog ruta och du måste välja **Ja** för att aktivera den. När växlingen **Ta bort tilläggsdata** är aktiverad kan du avinstallera filtillägget, bekräfta att du vill avinstallera tillägget och ta bort datan.
 
 > [!IMPORTANT]  
-> Om du aktiverar kryssrutan **Ta bort tilläggsdata** visas en bekräftelsedialogruta där du väljer **OK**. När kryssrutan **Ta bort tilläggsdata** är aktiverad kan du avinstallera filtillägget, bekräfta att du vill avinstallera tillägget och ta bort datan. Denna åtgärd kan inte ångras.
-Vissa tillägg är obligatoriska. Du kan inte avinstallera dem från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.  
+> - Det kan finnas andra tillägg som kräver eller är beroende av det tillägg som du vill avinstallera för att kunna fungera. Dessa andra tillägg kallas för *beroenden*. Du kan inte avinstallera ett tillägg såvida inte dess beroenden också avinstalleras.
+> - När du väljer att avinstallera ett tillägg som har en eller flera beroenden visas en bekräftelse dialogruta med en lista över de underordnade som du tillfrågas om du vill avinstallera tillägget och alla dess beroenden. Du måste välja **Ja** för att fortsätta.
+> - Om du aktiverar **borttagningstillägget** data tillägget att avinstalleras alla data för tillägget **plus** data för alla beroende tillägg. Denna åtgärd kan inte ångras.
+> - Vissa tillägg är obligatoriska. Du kan inte avinstallera dem från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.  
 
 ## <a name="see-also"></a>Se även
 

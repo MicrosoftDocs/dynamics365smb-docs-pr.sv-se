@@ -1,20 +1,20 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: fd1448c9fd32b359bf40a02b90a3ee6a66a5d685
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367304"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950261"
 ---
 ## <a name="sign-up"></a>Registrering
 
 ### <a name="which-email-address-i-should-use-to-sign-up"></a>Vilken e-postadress ska jag använda för att registrera mig?
 
-Använd din e-postadress för arbetet eller skolan. Vi upprättar din utvärderingsversion på ditt företagskonto. Du kan inte använda e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer, som till exempel outlook.com, hotmail.com, gmail.com och andra.  
+Använd din e-postadress för arbetet eller skolan. Vi upprättar din utvärderingsversion på ditt företagskonto. Du kan inte använda e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer, som till exempel *outlook.com*, *hotmail.com*, *gmail.com* och andra.  
 
 ### <a name="what-are-the-system-requirements-for-the-trial"></a>Vilka är systemkraven för utvärderingsversionen?
 
@@ -39,7 +39,7 @@ När du registrerar dig för utvärderingsversionen får du ett e-postmeddelande
 
 ### <a name="how-do-i-add-more-users-to-a-trial"></a>Hur lägger jag till fler användare i en utvärderingsversion?
 
-Du lägger till användare genom att be administratören att gå till [Microsoft 365-administrationscentret](https://admin.microsoft.com) där de kan följa [vägledningen för administrationscenter](/microsoft-365/admin/add-users/add-users) och lägga till användare upp till licensgränsen för utvärderingsversionen. Om användaren som du lägger till redan har ett Microsoft 365-konto tilldelar du den aktuella licensen. Mer information finns i [Tilldela licenser till användare](/microsoft-365/admin/manage/assign-licenses-to-users) i Microsoft 365-innehållet.
+För att kunna lägga till användare måste administratören gå till [Microsoft 365 administrationscentret](https://admin.microsoft.com). Sedan kan de följa [vägledningen för administrationscenter](/microsoft-365/admin/add-users/add-users) och lägga till användare fram till licens gränsen för prov perioden. Om användaren som du lägger till redan har ett Microsoft 365-konto tilldelar du den aktuella licensen. Mer information finns i [Tilldela licenser till användare](/microsoft-365/admin/manage/assign-licenses-to-users) i Microsoft 365-innehållet.
 
 ### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Hur många användare kan jag lägga till i min utvärderingsmiljö?
 
@@ -50,8 +50,6 @@ Det går att lägga till hur många användare som helst till utvärderingsmilj�
 Du kan inte återställa utvärderingsmiljön. Men din administratör kan skapa nya miljöer med begränsat läge, där du kan experimentera med de olika funktionerna. Mer information finns i [Miljöer för produktion och begränsat läge](/dynamics365/business-central/dev-itpro/administration/environment-types) i administrationsinnehållet.  
 
 Om du vill avbryta [!INCLUDE [prod_short](prod_short.md)] under en utvärderingsversion måste du be Microsoft 365-administratören att ta bort utvärderingsprenumerationen från ditt företagskonto i [Microsoft 365-administrationscentret](https://admin.microsoft.com/). Se också [Avsluta prenumeration eller Ta bort [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
-
-Om du registrerade dig för Dynamics 365 Business Central utan ett Microsoft 365 -företagskonto, har du inte en Microsoft 365-administratör. För att avsluta prenumeration måste du kontakta [!INCLUDE[prod_short](prod_short.md)]-annulleringsteamet genom att skicka ett e-postmeddelande till [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du måste inkludera namnet på [!INCLUDE[prod_short](prod_short.md)]-klientorganisationen i meddelandet så att vi kan identifiera dig. Den här informationen finns på sidan **Hjälp och support**, som du kommer åt från **?** meny. Mer information finns i [Resurser för hjälp och support](../product-help-and-support.md).  
 
 ## <a name="trial-expiration-and-extension"></a>Förfallodatum för och förlängning av utvärderingsversion
 

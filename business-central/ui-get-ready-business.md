@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513582"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805132"
 ---
 # <a name="get-ready-for-doing-business"></a>Gör dig redo för affärer
 
@@ -77,7 +77,29 @@ När användare skapas i Microsoft 365 kan de importeras till sidan **Användare
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
 
-## <a name="next-steps"></a>Gå vidare
+### <a name="set-up-your-company-in-prod_short"></a>Konfigurera ditt företag i [!INCLUDE[prod_short](includes/prod_short.md)]
+
+Med hjälp av artiklarna [snabbstart](quick-start-business-central.md) artiklarna kan du ta de första stegen i installationen av [!INCLUDE [prod_short](includes/prod_short.md)] i organisationen. Inne i [!INCLUDE [prod_short](includes/prod_short.md)], sidan **assisterad konfiguration** visas en lista med assisterade konfigurationsguider som hjälper dig att göra det. Beroende på din roll och ditt land eller din region innehåller sidan olika assisterade konfigurationsguider enligt illustrerat i följande tabell:
+
+| Assisterad konfiguration | Beskrivning |
+| -------------- | ----------- |
+| Konfigurera mitt företag |Skapar ett nytt provföretag där du kan ange data och testa [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Konfigurera arbetsflöden för godkännande |Ställer in möjligheten att automatiskt meddela en godkännare när en användare försöker skapa eller ändra vissa värden i dokument, journalrader eller kort. Du kan till exempel ställa in godkännande av belopp som överstiger en angiven gräns. |
+| Konfigurera e-post |Gör dig klar för att skicka e-postmeddelande direkt från, till exempel försäljningsorder, eller kontakter i [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Ställ in din företagsinkorg i Outlook |Gör dig redo att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. |
+| Migrera affärsdata |Du kan importera dina befintliga företagdata till exempel kunder, leverantörer och artiklar från Excel eller Quickbooks. |
+| Konfigurera e-postloggning |Ställ in kapaciteten att logga e-post i [!INCLUDE[prod_short](includes/prod_short.md)] för att följa upp på interaktioner. |
+| Konfigurera ett arbetsflöde för artikelgodkännande |Konfigurerar möjligheten att skicka ett meddelande till en godkännare när en användare ändrar eller skapar ett objekt. |
+| Konfigurera arbetsflöde för kundgodkännande |Ställer in förmågan att skapa arbetsflöden för godkännande som automatiskt meddelar en godkännare när en användare försöker skapa eller ändra ett kundkort. |
+| Konfigurera arbetsflöde för godkännande av utbetalningsjournal |Konfigurerar förmågan att skicka ett meddelande till en godkännare när en användare skickar utbetalningsjournalrader för godkännande. |
+| Konfigurera en anslutning till Dynamics 365 Sales |Ställer in en anslutning till Dynamics 365 Sales som gör att du kan synkronisera data som till exempel kontakter och försäljningsorderinformation. |
+| Konfigurera kassaflödesprognos |Ställer in kassaflödesprognosdiagrammet så att du kan visa beräknad föflyttning av likvida medel somgår in och ut ur företag. Diagrammet är tillgänglig på **Rollcentret Revisor**. |
+| Konfigurera rapporteringsinformation|Konfigurerar datauppsättningar som du kan använda för att bygga kraftfulla rapporter med hjälp av Excel eller Power BI, t. ex. |
+| Bjud in extern revisor |Om du använder en extern revisor för att hantera böcker och redovisning kan du bjuda in dem till dina [!INCLUDE[prod_short](includes/prod_short.md)] så att de kan arbeta med dig med räkenskapsårets informationen. |
+
+Sidan **Assisterad konfiguration** kan innehålla andra poster. När du går igenom en inställning markeras inställningen som **Slutförd**. Du kan lägga upp ytterligare områden i företaget genom att använda manuell inställning. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+
+## <a name="next-steps"></a>Nästa steg
 
 Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäljningar eller inköpsdokument. Använd avsnittet **Åtgärder** på ditt startsida för att snabbt skapa en ny förs.offert, försäljningsfaktura, försäljningsorder, inköpsfaktura eller utbetalningregistrering. Ta en titt på artiklarna i [snabbstart](quick-start-business-central.md) så att du kan gå igenom de första stegen.  
 
@@ -88,13 +110,13 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Företagsinformation, översikt](admin-company-information.md)  
 [Hjälpmedel och kortkommandon](ui-accessibility.md)  
-[Utvärderingsversioner och prenumerationer](across-preview.md)  
 [Affärsfunktion](across-business-functionality.md)  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
 [Sök i Hjälp-fönstret](product-help-and-support.md#search-in-the-help-pane)  
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Microsoft Learn webbplats](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Migrera data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Utvärderingsversioner och prenumerationer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

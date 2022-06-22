@@ -5,13 +5,13 @@ author: edupont04
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
-ms.date: 04/05/2022
-ms.openlocfilehash: 6e911b0f6b3dc9544e877aee16d52a10d54c4031
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.date: 05/25/2022
+ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557124"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805184"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central
 
@@ -30,14 +30,26 @@ Testmiljön innehåller samma funktioner som den betalda versionen. Följande l�
 - [Bli produktiv](ui-work-product.md)  
 - [Snabbstart](quick-start-business-central.md)  
 
+## <a name="get-started-with-a-subscription"></a>Komma igång med en prenumeration
+
+Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner). Med hjälp av partnern för återförsäljning kan du konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för att passa ditt företag, inklusive att importera data från ditt tidigare system. Du kan också anpassa [!INCLUDE[prod_short](includes/prod_short.md)] genom att lägga till appar från [Microsofts kommersiella marknadsplats](https://go.microsoft.com/fwlink/?linkid=2081646).  
+
+[!INCLUDE[prod_short](includes/prod_short.md)] online använder Microsoft 365. Om ditt företag använder en annan typ av e-postinstallation, kan partnern hjälpa dig att bestämma hur du ska migrera eller om du bör använda [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
+
+Du kan även kontakta [[!INCLUDE[prod_short](includes/prod_short.md)]-försäljningsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+Mer information om vad du kan göra med [!INCLUDE [prod_short](includes/prod_short.md)] finns i [Gör dig redo att göra affärer](ui-get-ready-business.md) och [Affärsfunktion](across-business-functionality.md).  
+
 ## <a name="additional-resources"></a>Ytterligare resurser
 
 - [Utforska utbildning på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Besök vårt videobibliotek](across-videos.md)  
 - [Vanliga frågor och svar för utvärderingsversion](trial-faq.md)  
-- [Utvärderingsversioner och prenumerationer](across-preview.md)  
 - [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)  
-- [Komma igång med en prenumeration](across-preview.md#get-started-with-a-subscription)  
 - [Anpassa din arbetsyta](ui-personalization-user.md)  
 - [Köra och skriva ut rapporter](ui-work-report.md)  
 - [Hjälpmedel och kortkommandon](ui-accessibility.md)  
+- [Utvärderingsversioner och prenumerationer (för administratörer)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

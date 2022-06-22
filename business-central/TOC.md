@@ -101,13 +101,13 @@
 ## Testa
 ### [Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central](trial-signup.md)
 ### [FAQ för utvärderingsversionen av Dynamics 365 Business Central](trial-faq.md)
-### [Utvärderingsversioner och prenumerationer](across-preview.md)
+### [Utvärderingsversioner och prenumerationer (endast engelska)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Gör dig redo för affärer](ui-get-ready-business.md)
 ### [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)
 ### [Utöka din utvärderingsversion](admin-extend-trial.md)
 ### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
 ## Köp
-### [Komma igång med en prenumeration](across-preview.md#get-started-with-a-subscription)
+### [Komma igång med en prenumeration](trial-signup.md#get-started-with-a-subscription)
 ### [Gör dig redo för affärer](ui-get-ready-business.md)
 
 ## Snabbstart
@@ -358,6 +358,7 @@
 #### [Om Lagerkostnad](finance-learn-about-costing.md)
 #### [Använd artikelomkostnader för att redovisa ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)
 #### [Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)
+#### [Om styckkost. beräkningstyp](finance-about-calculating-unit-cost.md)
 #### [Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)
 #### [Arbeta med lagerperioder](finance-how-to-work-with-inventory-periods.md)
 #### [Ställa in lagervärdering och lagerkostnad](finance-set-up-inventory-valuation-and-costing.md)
@@ -1424,6 +1425,7 @@
 ##### [Omsättningsskatt USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Rapportering av moms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Rapportering av skattepliktiga 1099-transaktioner i USA](LocalFunctionality/UnitedStates/tax-1099.md)  
+##### [Ställ in och Använd formuläret IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Ställa in importavgift och ingående moms](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Ställa in orealiserad omsättningsskatt och försäljningskassarabatter](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Bankverksamhet och betalningar
@@ -1474,6 +1476,7 @@
 #### [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md)
 #### [Registrera speciella försäljningspriser och rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Ställ in kundprisgrupper](sales-how-to-set-up-customer-price-groups.md)
+#### [Ställ in kundrabattgrupper](sales-how-to-set-up-customer-discount-groups.md)
 #### [Skapa säljare](sales-how-setup-salespeople.md)
 #### [Skapa dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md)
 #### [Skicka dokument via e-post](ui-how-send-documents-email.md)
@@ -1811,12 +1814,12 @@
 #### [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 #### [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)
 #### [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)
-#### [Momsgruppshantering](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [DK – C5 datamigrering](ui-extensions-c5-data-migration.md)
+#### [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)
 #### [DK – Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK – momsfilformat](ui-extensions-tax-file-formats-dk.md)
 #### [UK – GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [UK – Momsgruppshantering](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 #### [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
 ## Integrera med Dynamics 365 Sales

@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367303"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805158"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Vanliga frågor och svar för utvärderingsversionen av Dynamics 365 Business Central
 
@@ -19,11 +19,11 @@ ms.locfileid: "8367303"
 
 ### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Kan jag konvertera utvärderingsversionen till en betald licens?
 
-Ja det kan du. Mer information finns i [Komma igång med en prenumeration](across-preview.md#get-started-with-a-subscription).  
+Ja det kan du. Mer information finns i [Komma igång med en prenumeration](trial-signup.md#get-started-with-a-subscription).  
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>Vilka är begränsningarna och kvoterna för utvärderingsversionen?
 
-Den kostnadsfria utvärderingsversionen innehåller exempeldata. Om du vill testa Business Central med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag. Mer information finns i [[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer](across-preview.md).  
+Den kostnadsfria utvärderingsversionen innehåller exempeldata. Om du vill testa Business Central med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion med ett tomt företag. Administratören kan läsa mer om försök och prenumerationer [här](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ### <a name="how-do-i-start-using-the-trial"></a>Hur börjar jag använda utvärderingsversionen?
 
@@ -54,4 +54,4 @@ Det kan du inte. Om du råkar ta bort exempeldata av misstag ber du din administ
 [Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central](trial-signup.md)  
 [Vanliga frågor om att använda Business Central](across-faq.yml)  
 [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Utvärderingsversioner och prenumerationer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

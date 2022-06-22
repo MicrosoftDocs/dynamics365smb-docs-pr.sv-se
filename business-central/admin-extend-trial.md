@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381226"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805106"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Behöver du mer tid för att bestämma om du ska prenumerera?
 
@@ -52,8 +52,8 @@ Om den utökade utvärderingsperioden förfaller, kan du [prenumerera](https://g
 
 ## <a name="see-also"></a>Se även
 
+[Utvärderingsversioner och prenumerationer (endast engelska)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Skapa nya företag](about-new-company.md)  
-[Utvärderingsversioner och prenumerationer](across-preview.md)  
 [Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner)  
 [Förlänga testversioner (som administratör)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Kom igång som återförsäljare av Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

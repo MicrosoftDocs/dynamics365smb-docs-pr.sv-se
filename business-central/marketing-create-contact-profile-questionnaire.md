@@ -7,39 +7,71 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
+ms.search.form: 5109, 5110
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/20/2022
+ms.openlocfilehash: 135ca390dbf00e46deefbe6e195acfbcf11b959c
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140871"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799670"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Använda profilfrågeformulär för att klassificera affärskontakter
-Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter om kontakternas profiler. I varje frågeformulär kan du skapa frågor som du vill ställa till kontakterna.  
+
+Genom att gradera presumtiva kunder kan du identifiera vilka som en försäljningskampanj helst bör riktas mot. Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter om kontakternas profiler. I varje frågeformulär kan du skapa frågor som du vill ställa till kontakterna. På så sätt kan du gruppera kontakterna så att dina kampanjer blir mer sannolika för att ge rätt personer till gång till de kriterier som du anger med hjälp av frågeformulären.  
+
+Med rätt frågeformulär, kan du gradera de presumtiva kunderna och gruppera dem i kategorier. Du kan använda befintliga frågor och svar och kombinera dem med nya frågor och svar som du använder som grund för graderingen. Varje svar i graderingen ges ett poängvärde och, beroende på vilket intervall du skapar för kategorierna (*Från värde* och *Till värde*), grupperas kontakterna i de kategorier som du har definierat. Det kan till exempel vara kunder som graderas med *ABC*, *Hög/Låg lojalitet* hos leverantörer eller presumtiva kunder med graderingen *Platina/Guld/Silver*.  
 
 Du kan också köra frågeformuläret när du automatiskt vill besvara några av frågorna på grundval av kontakt, kund eller leverantör.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Lägga till profilfrågeformulär så här
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Profil frågeformulär inst.** och väljer sedan relaterad länk.  
-2.  Välj åtgärden **Ny**.  
-3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Profil frågeformulär inst.** och väljer sedan relaterad länk.  
+2. Välj åtgärden **Ny**.  
+3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Lägga till frågor till ett frågeformulär
-1.  Välj relevant profilfrågeformulär och välj åtgärden **Redigera inställningar för frågeformulär**.  
-2.  På den första tomma raden väljer du **Fråga** i fältet **Typ** och skriver frågan i fältet **Beskrivning**. Fyll i de övriga fälten på raden.  
-3.  På nästa tomma rad väljer du **Svar** i fältet **Radtyp** och skriver svaret i fältet **Beskrivning**.  
-4.  I fältet **Prioritet** väljer du önskad prioritet. I fälten **Från värde** och **Till värde** definierar du ett poängintervall. De kontakter som får poäng inom det angivna intervallet får svaret.  
+
+1. Välj relevant profilfrågeformulär och välj åtgärden **Redigera inställningar för frågeformulär**.  
+2. På den första tomma raden väljer du **Fråga** i fältet **Typ** och skriver frågan i fältet **Beskrivning**. Fyll i de övriga fälten på raden.  
+
+    Du kan också lägga till information i frågan.
+
+    1. Välj raden med frågan och välj sedan menyn **Rad** och välj sedan **Frågedetaljer**.  
+
+    2. Markera fältet **Auto. kontaktklassificering** på sidan **Gruppering** välj **Profil frågedetaljer**.  
+
+    3. I fältet **Kontakten kontaktklass.fält. Fältet**, markera alternativet **Gradering**.  
+
+    4. Fyll i fältet **Min. besvarade frågor %**. Standardvärdet är **0**.  
+
+        Anger det antal frågor (i procent) som måste besvaras för att den här graderingen ska beräknas.
+
+    5. På fliken **Åtgärder** i gruppen **Sida** väljer du **Svarspoäng**. Ange hur många poäng du vill ge varje svar i sidan **Svarspoäng**.
+
+        Om du vill ha en översikt över de poäng som du har gett varje svar väljer du **Svarspoäng** åtgärd.
+
+    6. Om du vill köra en uppdatering går du tillbaka till sidan inställningar för **profilfrågeformulär**. Välj **Uppdatera klassificering** i gruppen **Funktioner** på fliken **Åtgärder**.
+
+    På sidan **Profil frågeformulär inst.** visas antalet kontakter som uppfyller det villkor som visas i fältet **Antal kontakter** samt i **Kontaktkort** för varje kontakt.
+
+3. På nästa tomma rad väljer du **Svar** i fältet **Radtyp** och skriver svaret i fältet **Beskrivning**.  
+4. I fältet **Prioritet** väljer du önskad prioritet. I fälten **Från värde** och **Till värde** definierar du ett poängintervall. De kontakter som får poäng inom det angivna intervallet får svaret.  
 
 Upprepa stegen och ange alla frågor och svar i profilfrågeformuläret.
 
-När du har skapat ett frågeformulär, måste du skapa kontaktgraderingar för att klassificera kontakterna. Du kan också skapa frågor som klassas automatiskt baserat på informationen på kontaktkortet.  
+När du har skapat ett frågeformulär kan du använda det för att betygsätta och klassificera dina kontakter. Du kan också skapa frågor som klassas automatiskt baserat på informationen på kontaktkortet.  
 
 > [!NOTE]
-> När du anger en fråga som ska besvaras automatiskt väljer du <STRONG>Rad</STRONG> och sedan <STRONG>Frågedetaljer</STRONG>. Ange därefter kriterier som ska användas när den besvaras.
+> När du anger en fråga som ska besvaras automatiskt väljer du **Rad** och sedan **Frågedetaljer**. Ange därefter kriterier som ska användas när den besvaras.
+
+## <a name="apply-questionnaires-to-contacts"></a>Använd enkäter för kontakter
+
+Du kan koppla dina enkäter till kontakter manuellt. Öppna bara det relevanta kontaktkortet och välj sedan åtgärden **Profil**. När du sedan har använt de enkäter som du vill använda kan du börja använda kategorierna i dina kampanjer.  
 
 ## <a name="the-automatic-classification-of-contacts"></a>Den automatiska klassificeringen av kontakter
+
 Du kan klassificeras dina kontakter automatiskt efter kunder, leverantörer och kontaktuppgifter genom att automatiskt besvarade profilfrågor skapas på sidan **Profil frågeformulär inst.**.  
 
 > [!NOTE]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518421"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950097"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Hämta Business Central-tillägget för Excel
 
@@ -130,8 +130,7 @@ Ibland kan användare köra ett problem med Excel-tillägget. Det här avsnittet
 |Data kan inte publiceras tillbaka till [!INCLUDE [prod_short](includes/prod_short.md)].|Testa anslutningen genom att öppna arbetsboken i Excel i en webbläsare. |Ibland kan ett tillägg blockera publiceringsjobbet. Om sidan har utökats eller anpassats tar du bort tilläggen och försöker igen.|
 |Datumen är felaktiga  |Datum och tid kan visas i Excel i ett annat format än [!INCLUDE [prod_short](includes/prod_short.md)]. Detta tillstånd innebär inte att informationen är inkorrekt, och datan i [!INCLUDE [prod_short](includes/prod_short.md)] blir inte rörig.|         |
 |För vissa listsidor orsakar fel vid redigering av flera rader i Excel. Det här problemet kan uppstå om OData-anrop innehåller FlowFields och fält utanför repeater-kontrollen.|På sidan **webbtjänster** markerar du kryssrutorna **Uteslut icke-redigerbara FlowFields** och **Uteslut fält utanför repeater** för den publicerade sidan. Om du markerar dessa kryssrutor utesluter du icke-redigerbara FlowFields och fält från eTag-beräkningen. |Dessa kryssrutor är som standard dolda. Om du vill visa dem på sidan **webbtjänster** använder du [anpassning](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Användare kan inte längre logga in i tillägget. När de försöker logga in avbryts åtgärden utan att slutföras.| Det här problemet kan orsakas av en uppdatering som vi gjort i tillägget, någon gång i juli 2022. Mer information och en korrigering finns i [ändra konfigurationen för Excel-tillägget så att den stöder 2022-uppdateringen för juli](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Gäller [!INCLUDE [prod_short](includes/prod_short.md)] endast lokalt|
 
 <!--
 ## Deploy the Excel add-in for Business Central online

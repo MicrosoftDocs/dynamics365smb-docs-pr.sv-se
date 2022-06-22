@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147040"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799777"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ I det här avsnittet beskrivs minimikraven för att [!INCLUDE [prod_short](inclu
 
 - Nödvändiga licenser
 
-    I den här tabellen får du en översikt över de licenser som behövs för att [!INCLUDE [prod_short](includes/prod_short.md)]-appen ska fungera i Team.
+    Appen [!INCLUDE[prod_short](includes/prod_short.md)] kräver en Teams-licens genom ett Microsoft 365 Business- eller Enterprise-abonnemang. Fristående Teams-abonnemang som Microsoft Teams (gratis) eller Microsoft Teams Essentials stöds inte.
 
-    |Vad|Team-licens|[!INCLUDE [prod_short](includes/prod_short.md)]-licens|
-    |----|---|---|
-    |Söka efter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter|![bock.](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
-    |Klistra in en länk till en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation och skicka den som ett kort.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
-    |Dela en länk från en sida i [!INCLUDE [prod_short](includes/prod_short.md)] till en Teams-konversation.|![bock](media/check.png "kontroll")|![bockmarkering](media/check.png "kontroll")|
-    |Visa ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bockmarkering](media/check.png "kontroll")||
-    |Visa mer information för ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
-    |Öppna en sid länk i [!INCLUDE [prod_short](includes/prod_short.md)] från en konversation.|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|
+    De flesta funktioner i [!INCLUDE[prod_short](includes/prod_short.md)] appen för Teams kräver också en [!INCLUDE [prod_short](includes/prod_short.md)] licens enligt följande tabell.
+
+    |Vad|[!INCLUDE [prod_short](includes/prod_short.md)]-licens|
+    |----|---|
+    |Söka efter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter|![bock](media/check.png "kontroll")|
+    |Klistra in en länk till en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation och skicka den som ett kort.|![bock](media/check.png "kontroll")|
+    |Dela en länk från en sida i [!INCLUDE [prod_short](includes/prod_short.md)] till en Teams-konversation.|![bock](media/check.png "kontroll")|
+    |Visa ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.||
+    |Visa mer information för ett kort i en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en konversation.|![bock](media/check.png "kontroll")|
+    |Öppna en sid länk i [!INCLUDE [prod_short](includes/prod_short.md)] från en konversation.|![bock](media/check.png "kontroll")|
 
 - Tillåt förhandsgranskning av URL
 
@@ -85,7 +87,7 @@ Microsoft Teams administratörscentret konfigurerar Teams principer för program
 > [!NOTE]
 > För att kunna konfigurera centraliserad distribution måste ditt Teams-konto ha rollen **Teams-tjänstadministratör** eller rollen **global administratör**.
 
-1. I Business Central, välj ![Förstoringsglas som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"). ikonen, ange **Teams-app centraliserad distribution** och sedan väljer du relaterad länk. Du kan även klicka [här](https://businesscentral.dynamics.com/?page=1833) om du vill öppna sidan direkt.
+1. I Business Central, välj ![Förstoringsglas som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ikonen, ange **Teams-app centraliserad distribution** och sedan väljer du relaterad länk. Du kan även klicka [här](https://businesscentral.dynamics.com/?page=1833) om du vill öppna sidan direkt.
 2. Läs informationen i **ställa in Business Central-appen för Teams** och välj sedan **Nästa** när du är klar.
 3. Öppna [administrationscentret Teams](https://go.microsoft.com/fwlink/?linkid=2163970) och utför följande steg.
     1. Gå till **Teams-appar** > **inställningsprinciper**.

@@ -8,17 +8,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 04/01/2021
+ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed1fb96cd3fb5a966df7f48f0918ac1514312c49
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515829"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950468"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
-Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare. Du kan också lägga till bilagor på upp till 100 MB. Administratörer kan dessutom skapa rapportlayouter som endast innehåller nyckelinformation från dokument. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
+Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare, och bifoga filer på upp till 100 MB. Administratörer kan dessutom skapa rapportlayouter som endast innehåller nyckelinformation från dokument. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
 E-postfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] gäller endast för utgående meddelanden. Det går inte att ta emot svar – det vill säga, det finns ingen inkorg i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -33,7 +33,7 @@ För att kunna konfigurera e-post måste du ha behörighetsinställningen **E-PO
 ## <a name="adding-email-accounts"></a>Lägga till e-postkonton
 Du lägger till e-postkonton via tillägg som möjliggör att konton från olika providrar ansluter till [!INCLUDE[prod_short](includes/prod_short.md)]. Med standardtilläggen kan du använda konton från Microsoft Exchange Online. Det kan emellertid finnas andra tillägg som du kan använda för att ansluta konton från andra leverantörer, till exempel Gmail.
 
-När du har lagt till ett e-postkonto kan du ange fördefinierade affärsscenarier där kontot ska användas för att skicka e-post. Du kan t. ex. ange att alla användare skickar försäljnings dokument från ett visst konto och inköpsdokument från ett annat. Mer information finns i [Tilldela e-postscenarier till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+Du kan ange fördefinierade affärsscenarier där kontot ska användas för att skicka e-post. Du kan t. ex. ange att alla användare skickar försäljnings dokument från ett visst konto och inköpsdokument från ett annat. Mer information finns i [Tilldela e-postscenarier till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
 I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard.
 
@@ -41,23 +41,20 @@ I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard
 |---------|---------|---------|
 |**Microsoft 365 anslutningsprogram**|Alla skickar e-post från en delad postlåda i Exchange Online.|När alla meddelanden kommer från samma avdelning, t. ex. genom att din försäljningsorganisation skickar meddelanden från ett sales@cronus.com-konto. Detta alternativ kräver att du skapar en delad postlåda i administrationscentret för Microsoft 365. Mer information finns i [Delade postlådor](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Aktuell anslutningsprogram för användare**|Alla skickar e-post från det konto som de använde för att logga in på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillåt kommunikation från enskilda konton.|
-|**Annat (SMTP)**|Använd SMTP-protokoll för att skicka e-post.|Tillåt kommunikation via din SMTP-e-postserver. |
+|**SMTP Connector**|Använd SMTP-protokoll för att skicka e-post.|Tillåt kommunikation via din SMTP-e-postserver. |
 
 > [!NOTE]
 > Tilläggen **Microsoft 365 anslutningsprogram** och **anslutningsprogram för aktuell användare** använder de konton som du har angett för användare i administrationscentret för Microsoft 365 för din Microsoft 365-prenumeration. Användarna måste ha en giltig licens för Exchange Online för att kunna skicka e-post med hjälp av tilläggen. Dessutom kräver dessa tillägg att inställningen **Tillåt HttpClient-begäranden** är aktiverad. Om du vill kontrollera om den är aktiverad för dessa tillägg, gå till sidan för **tilläggshantering**, välj tillägget och välj sedan alternativet **Konfigurera**.
->
+
 > Externa användare, exempelvis utsedda administratörer och externa revisorer, kan inte använda dessa tillägg för att skicka e-postmeddelanden från [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
-## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Äldre SMTP-inställningar och tillägget för e-post/SMTP-anslutning
-Om du använder äldre SMTP-inställningar i [!INCLUDE[prod_short](includes/prod_short.md)] kan du fortsätta att göra detta parallellt med SMTP anslutningsprogram-tillägget för e-post. När vi uppdaterar ditt [!INCLUDE[prod_short](includes/prod_short.md)] till nästa version kommer vi att kopiera de äldre SMTP-inställningarna till SMTP anslutningstillägget för e-post. När du är klar kan administratören aktivera de förbättrade e-postfunktionerna, så att du kan börja använda tillägget för e-post/SMTP-anslutning. Mer information finns i [Om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Det finns emellertid ingen synkronisering mellan anslutningstillägget för SMTP och de äldre inställningarna. Om du ändrar SMTP-inställningarna i tillägget bör du utföra samma ändringar i den äldre SMTP-konfigurationen eller vice versa.
-
-> [!NOTE]
-> Om du har anpassningar som är beroende av den äldre SMTP-funktionen för e-post finns det en risk att något kommer att gå fel med dina anpassningar om du börjar använda e-posttillägg. Vi rekommenderar att du installerar och testar tilläggen innan du aktiverar funktionsväxeln för förbättrade e-postfunktioner.
+## <a name="using-smtp"></a>Använda SMTP
+Om du vill använda SMTP-protokollet för att skicka e-post från [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda SMTP-anslutningstillägget. När du lägger upp ett konto som använder SMTP är avsändarens typ ett viktigt fält. Om du väljer specifik användare kommer e-postmeddelanden att skickas med hjälp av namn och annan information från det konto som du installerar. Om du däremot väljer aktuell användare skickas e-postmeddelanden från det e-postkonto som anges för varje användares konto. Aktuell användare liknar Skicka som-funktionen. För mer information, se [Använda en adress för ersättningsavsändare i utgående e-postmeddelanden](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda OAuth 2.0 för autentisering, men du måste skapa en programregistrering i Azure-portalen och sedan köra **Azure Active Directory** installationsguiden för installation i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta till Azure AD. Mer information finns i [Skapa en programregistrering för Business Central i Azure-portalen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda OAuth 2.0 för autentisering. Du måste skapa en program registrering i Azure-portalen och sedan köra **Konfigurera Azure Active Directory** guiden för assisterad konfiguration i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta till Azure AD. Mer information finns i [Skapa en programregistrering för Business Central i Azure-portalen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Lägg till e-postkonton
 Med den assisterade konfigurationsguiden för **Konfigurera e-post** kan du snabbt komma igång med e-post.
@@ -75,7 +72,7 @@ Med den assisterade konfigurationsguiden för **Konfigurera e-post** kan du snab
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Tilldela e-scenarier till e-postkonton
-E-postscenarier är processer som involverar att skicka ett dokument. Exempelvis en försäljnings- eller inköpsorder eller en anmälan, till exempel en inbjudan till en extern revisor. Du kan använda specifika e-postkonton för specifika scenarier. Du kan t. ex. ange att alla användare alltid ska skicka försäljningsdokument från ett konto, inköpsdokument från ett annat, samt lager- eller produktionsdokument från ett tredje konto. Du kan tilldela, tilldela om och ta bort scenarier när du vill, men du kan bara tilldela ett scenario till ett enda e-postkonto åt gången. Standardkontot för e-post kommer att användas för alla scenarier som inte har tilldelats något konto.
+E-postscenarier är processer som involverar att skicka ett dokument. Exempelvis en försäljnings- eller inköpsorder eller en anmälan, till exempel en inbjudan till en extern revisor. Specifika e-postkonton kan användas för specifika scenarier. Du kan t. ex. ange att alla användare alltid ska skicka försäljningsdokument från ett konto, inköpsdokument från ett annat, samt lager- eller produktionsdokument från ett tredje konto. Du kan tilldela, tilldela om och ta bort scenarier när du vill. Ett scenario kan bara tilldelas ett e-postkonto åt gången. Standardkontot kommer att användas för alla e-postscenarier som inte har tilldelats något konto.
  
 <!--
 ## To set up email
@@ -97,14 +94,17 @@ På sidan **Visningspolicyer för användar-e-post** väljer du en användare oc
 
 * **Visa egna e-postmeddelanden** – Användaren kan bara visa sina egna e-postmeddelanden.
 * **Visa alla e-postmeddelanden** – Användaren kan visa alla e-postmeddelanden, inklusive e-postmeddelanden som har skickats av andra användare.
-* **Visa om åtkomst till alla relaterade poster** – Detta är standardpolicyn för vyer. Användaren kan visa e-postmeddelanden som andra användare har skickat om användaren har åtkomst till posten som har skickats och alla relaterade. Exempelvis skickar användare A en bokförd försäljningsfaktura till en kund. Användare B kan se e-postmeddelandet om denne har tillgång till både fakturan och kunden.
+* **Se om tillgång till alla relaterade poster** – Denna vypolicy används om ingen annan policy anges. Användaren kan visa e-postmeddelanden som andra användare har skickat om användaren har åtkomst till posten som har skickats och alla relaterade poster. Exempelvis skickar användare A en bokförd försäljningsfaktura till en kund. Användare B kan se e-postmeddelandet om denne har tillgång till både fakturan och kunden.
 * **Visa om åtkomst till relaterade poster** – Användaren kan visa e-postmeddelanden som har skickats av andra personer om användaren har åtkomst till minst en post som är relaterad till posten som har skickats. Exempelvis skickar användare A en bokförd försäljningsfaktura till en kund. Användare B kan se e-postmeddelandet om denne har tillgång till antingen fakturan eller kunden.
 
 > [!NOTE]
 >  Om du lämnar fältet **Användar-ID** tomt och sedan väljer åtgärden Visningspolicy för e-post gäller policyn som du definierar för alla användare.
 
-## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Konfigurera återanvändbara e-posttexter och layouter för försäljnings- och inköpsdokument
+## <a name="set-up-reusable-email-texts-and-layouts"></a>Ställ in återanvändbara e-posttexter och layouter
 Du kan använda rapporter för att inkludera nyckelinformation från försäljnings- och inköps dokument i texter för e-post. I den här proceduren beskrivs hur du ställer in rapporten **Försäljning – Faktura** för bokförda försäljningsfakturor, men processen liknar den för andra rapporter.
+
+> [!NOTE]
+> Om du vill använda layouten för att skapa innehåll för e-postmeddelanden måste du använda Word-filtyp för layouten.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Rapportval, försäljning** och väljer sedan relaterad länk.
 2. På sidan **Rapportval, försäljning** i fältet **Användning** väljer du **Faktura**.
@@ -112,7 +112,7 @@ Du kan använda rapporter för att inkludera nyckelinformation från försäljni
 4. Markera kryssrutan **Använd för e-postbrödtex**.
 5. Välj fältet **Beskrivning av layouten på brödtext i e-post** och välj sedan en layout från listan.
 
-    Med rapportlayout definieras stilen och innehållet i e-postmeddelandet. Detta omfattar text som t. ex. hälsningar eller instruktioner som föregår dokumentinformationen. Om din organisation har många layouter kan du få tillgång till alla tillgängliga rapportlayouter om du väljer **Välj från fullständig lista**.
+    Med rapportlayout definieras stilen och innehållet i e-postmeddelandet. Innehållet kan till exempel omfatta text som t. ex. hälsningar eller instruktioner som föregår dokumentinformationen. Om din organisation har många layouter kan du få tillgång till alla tillgängliga rapportlayouter om du väljer **Välj från fullständig lista**.
 6. Om du vill visa eller redigera den layout som e-mailets brödtext baseras på väljer du layout på sidan **Anpassade rapportlayouter** och väljer sedan åtgärden **Uppdatera layout**.
 7. Om du vill att kunderna ska använda en betalningstjänst, till exempel PayPal, måste du ställa in tjänsten. Därefter infogas PayPal-informationen och -länken i e-postmeddelandet. Mer information finns i [Så här aktiverar du kundbetalningar via PayPal](sales-how-enable-payment-service-extensions.md).
 8. Välj knappen **OK**.
@@ -120,39 +120,44 @@ Du kan använda rapporter för att inkludera nyckelinformation från försäljni
 Nu när du till exempel väljer åtgärden **Skicka** på sidan **Bokförd försäljningsfaktura** kommer e-postbrödtexten att innehålla information om dokumentet i rapport 1306 som föregås av utformad standardtext enligt den rapportlayout du valde i steg 5.
 
 ## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Använda en adress för ersättningsavsändare i utgående e-postmeddelanden
-Om du använder äldre SMTP-inställningar kan du använda funktionerna **Skicka som** eller **Skicka åt** från Microsoft Exchange för ändra avsändaradressen på utgående meddelanden. [!INCLUDE[prod_short](includes/prod_short.md)] använder SMTP-kontot för att autentisera till Exchange, men kommer antingen att ersätta avsändarens adress med den som du anger eller ändra den med "åt".
+Om du använder tillägget SMTP-anslutning kan du använda kan du använda funktionerna **Skicka som** eller **Skicka åt** från Microsoft Exchange för ändra avsändaradressen på utgående meddelanden. [!INCLUDE[prod_short](includes/prod_short.md)] använder SMTP-kontot för att autentisera till Exchange, men kommer antingen att ersätta avsändarens adress med den som du anger eller ändra den med "åt".
+
+När du skapar ett konto och vill använda funktionerna Skicka som eller Skicka åt från Exchange, i fältet **Typ av avsändare** väljer du **Specifik användare**.
+
+Du kan också välja **Aktuell användare** för att tillåta att användare skickar meddelanden via SMTP-anslutning. Meddelandet kommer att skickas från det e-postkonto som angetts i fältet kontakt e-post på användar kortet för den användare som de är inloggade på. Det fungerar emellertid som det ska när du skickar som-funktion och kommer att skickas från det konto som anges i SMTP-anslutningens inställningar.
 
 Nedan följer exempel på hur Skicka som och Skicka åt används i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
- * När du skickar dokument som inköps- eller försäljningsorder till leverantörer och kunder vill du kanske visa dem för att komma från adressen _noreply@yourcompanyname.com_.
+ * Du kanske vill att inköps- eller försäljningsorder som du skickar till leverantörer och kunder ska se ut att komma från adressen _noreply@yourcompanyname.com_.
  * När arbetsflödet skickar en godkännandeförfrågan via e-post med hjälp av e-postadressen till den som efterfrågar meddelandet.
 
 > [!Note]
 > Du kan bara använda ett konto för att ersätta avsändaradresser. Det innebär att du inte kan ha en ersättningsadress för att inköpsprocesser, och en annan för försäljningsprocesser.
 
-### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Att ange ersättningsavsändaradress för alla utgående e-postmeddelanden
-1. I **administrationscentret för Exchange** för ditt Microsoft 365-konto hittar du den postlåda som ska användas som ersättningsadress, kopiera sedan eller gör en notering av adressen. Om du behöver en ny adress går du till administrationscentret för Microsoft 365 för att skapa en ny användare och ställa in postlådan.
-2. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **SMTP-postinställningar** och väljer sedan relaterad länk.
-3. I fältet **Skicka som** anger du ersättningsadressen.
-4. Kopiera eller anteckna adressen i fältet **användar-ID**.
-5. I **administrationscenter för Exchange** hittar du postlådan som ska användas som ersättningsadress och anger sedan adressen från fältet **Användar-ID** i **Skicka som**. Mer information finns i [Använd EAC för att tilldela behörighet till enskilda mailboxar](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+<!--
+### To set up the substitute sender address for all outbound email messages
+1. In the **Exchange admin center** for your Microsoft 365 account, find the mailbox to use as the substitute address, and then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin center to create a new user and set up their mailbox.
+2. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+3. In the **Send As** field, enter the substitute address.
+4. Copy or make a note of the address in the **User ID** field.
+5. In the **Exchange admin center**, find the mailbox to use as the substitute address, and then enter the address from the **User ID** field in the **Send As** field. For more information, see [Use the EAC to assign permissions to individual mailboxes](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
-### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Så här använder du ersättningsadressen i arbetsflöde för godkännande
-1. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SMTP-postinställningar** och väljer sedan relaterad länk.
-2. Kopiera eller anteckna adressen i fältet **användar-ID**.
-3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.
-4. I **administrationscenter för Exchange** hittar du postlådan för varje användare som finns på sidan **Användarinställningar för godkännande** och i fältet **Skicka som** anger du adressen från fältet **Användar-ID** för sidan **SMTP-postinställningar** i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Hantera behörigheter förmottagare](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true).
-5. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SMTP-postinställningar** och väljer sedan relaterad länk.
-6. Aktivera ersättning genom att aktivera växling **Tillåt avsändarens ersättning**.
+### To use the substitute address in approval workflows
+1. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+2. Copy or make a note of the address in the **User ID** field.
+3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.
+4. In the **Exchange admin center**, find the mailboxes for each user listed in the **Approval User Setup** page, and in the **Send As** field enter the address from the **User ID** field of the **SMTP Email Setup** page in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Manage permissions for recipients](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true).
+5. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+6. To enable substitution, turn on the **Allow Sender Substitution** toggle.
 
 > [!Note]
-> [!INCLUDE[prod_short](includes/prod_short.md)] avgör vilken adress som ska visas i följande ordning: <br><br> 1. Adressen som anges i fältet **e-post** på sidan **Användarinställningar för godkännande** för meddelanden i ett arbetsflöde. <br> 2. Adressen som anges i fältet **skicka som** på sidan **SMTP-postinställningar**. <br> 3. Adressen som anges i fältet **Användar-ID** på sidan **SMTP-postinställningar**.
+> [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
 ## <a name="set-up-document-sending-profiles"></a>Skapa dokumentutskicksprofiler
 Du kan spara tid genom att ange en önskad metod för att skicka försäljningsdokument för respektive kund. Om du gör detta behöver du inte välja ett alternativ för sändning, till exempel om du vill skicka dokumentet via e-post eller ett elektroniskt dokument, varje gång du skickar ett dokument. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
 
 ## <a name="optional-set-up-email-logging-in-exchange-online"></a>Tillval: Ställa in e-postloggning i Exchange Online
-Få ut mer av kommunikationen mellan säljare och dina befintliga eller potentiella kunder genom att följa upp e-postutbyten och sedan omvandla dem till olika affärsmöjligheter. För mer information, se [Spåra utbyte av e-postmeddelanden mellan säljare och kontakter](marketing-set-up-email-logging.md).  
+Få ut mer av kommunikationen mellan säljare och befintliga eller potentiella kunder. Du kan spåra e-postutbyten och sedan göra dem till de möjligheter som kan åtgärdas. För mer information, se [Spåra utbyte av e-postmeddelanden mellan säljare och kontakter](marketing-set-up-email-logging.md).  
 <!--
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
@@ -171,7 +176,7 @@ De steg som ingår när du registrerar [!INCLUDE[prod_short](includes/prod_short
 |Microsoft Graph / Mail.Send|Delegerades|Skicka e-postmeddelanden.         |
 |Microsoft Graph / offline_access|Delegerades|Behåll medgivande för dataåtkomst.|
 
-Om du använder en äldre SMTP-installation eller SMTP-anslutaren och vill använda OAuth för autentisering, är behörigheterna något annorlunda. Följande register anger behörigheterna.
+Om du använder SMTP-anslutning och vill använda OAuth 2.0 för autentisering, är behörigheterna något annorlunda. Följande register anger behörigheterna.
 
 |API/behörighetsnamn  |Typ  |Beskrivning  |
 |---------|---------|---------|
@@ -190,12 +195,12 @@ Notera följande information när du skapar din appregistrering. Du kommer att b
 Allmänna riktlinjer om hur du registrerar en app finns i [Snabbstart: Registrera en app med Microsofts identitetsplattform](/azure/active-directory/develop/quickstart-register-app). 
 
 > [!NOTE]
-Om du har problem med att använda den gamla SMTP-installationen för att skicka e-post efter att du har anslutit [!INCLUDE[prod_short](includes/prod_short.md)] till din programregistrering kan det bero på att SMTP-autentisering inte har aktiverats för innehavaren. Vi rekommenderar att du använder e-postkopplingarna från Microsoft 365 och Aktuell användare i stället, eftersom de använder Microsoft Graph Mail API:er. Om du måste använda SMTP-installationen kan du emellertid aktivera SMTP AUTH. Mer information finns i [Aktivera eller inaktivera autentiserad klient-SMTP-sändning (SMTP-autentisering) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
+Om du har problem med att använda SMTP-protokoll för att skicka e-post efter att du har anslutit [!INCLUDE[prod_short](includes/prod_short.md)] till din programregistrering kan det bero på att SMTP-autentisering inte har aktiverats för innehavaren. Vi rekommenderar att du använder e-postkopplingarna från Microsoft 365 och Aktuell användare i stället, eftersom de använder Microsoft Graph Mail API:er. Om du måste använda SMTP-protokoll kan du emellertid aktivera SMTP AUTH. Mer information finns i [Aktivera eller inaktivera autentiserad klient-SMTP-sändning (SMTP-autentisering) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till dina app-registrering
 När du har registrerat ditt program i Azure Portal använder du den assisterade konfigurationen **AAD-registrering för e-postprogram** i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till det.
 
-1. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **AAD-registrering för e-postprogram** och väljer sedan relaterad länk.
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **AAD-registrering för e-postprogram** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]

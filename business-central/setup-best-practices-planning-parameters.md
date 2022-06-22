@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513659"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950179"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Skapa metodtips: planeringsparametrar
 Snabbfliken **Planering** på artikelkortet är mitten av ett företags försörjningskedja. Det är mycket viktigt att ställa in rätt planeringsparametrar för kostnadseffektiv lagerkontroll och hög kundservicenivå.  
@@ -24,7 +24,7 @@ Snabbfliken **Planering** på artikelkortet är mitten av ett företags försör
 |Inställningsfält|Best practice|Kommentar|  
 |-----------------|-------------------|-------------|  
 |Partiformningsmetod||Mer information finns i [Skapa metodtips: partiformningsmetoder](setup-best-practices-reordering-policies.md).|  
-|Reservera|Välj **aldrig**, när artikeln planeras med hjälp av en beställningspunkt.<br /><br /> I tillverkning, välj **aldrig** för att låta planeringssystemet omfatta alla kunderna.<br /><br /> Välj **Valfri** för de artiklar som du kan vilja reservera för kunder som har högsta priorit.<br /><br /> Välj **alltid** för icke-unika artiklar, till exempel artiklar av typen diverse som är inkommande för specifika behov.|Reservationer motverkar i allmänhet syftet med planering, som är att balansera tillgång och efterfrågan. Därför bör artiklar som har upprättats för planering, generellt sett inte reservers.<br /><br /> Om användaren reserverar en lagerkvantitet för framtida behov, störs fönstret planeringsgrund, och beställningspunkten kan inte användas på rätt sätt. Även om den planerade distributionslagernivån är accepterad av ordermottagaren med hänsyn till beställningspunkten, kan det hända att antalet inte är tillgängligt på grund av reservation.|  
+|Reservera|Välj **aldrig**, när artikeln planeras med hjälp av en beställningspunkt.<br /><br /> I tillverkning, välj **aldrig** för att låta planeringssystemet omfatta alla kunderna.<br /><br /> Välj **Valfri** för de artiklar som du kan vilja reservera för kunder som har högsta priorit.<br /><br /> Välj **alltid** för unika artiklar (icke standardtyp av artiklar) till exempel artiklar av typen diverse som är inkommande för specifika behov.|Reservationer motverkar i allmänhet syftet med planering, som är att balansera tillgång och efterfrågan. Därför bör artiklar som har upprättats för planering, generellt sett inte reservers.<br /><br /> Om användaren reserverar en lagerkvantitet för framtida behov, störs fönstret planeringsgrund, och beställningspunkten kan inte användas på rätt sätt. Även om den planerade distributionslagernivån är accepterad av ordermottagaren med hänsyn till beställningspunkten, kan det hända att antalet inte är tillgängligt på grund av reservation.|  
 |Max. utjämningsperiod|Ange med hänsyn till leverantörens flexibilitet.<br /><br /> En kortare period gör det möjligt att minska rörelsekapitalet genom att undvika alltför mycket lager, utan även fler åtgärder vid omplanering.|Om leverantören accepterar sista minuten-ändringar i order, använd en kortare period men var beredd att göra flera åtgärder för omplanering. Om leverantören kräver fast planering, utöka din period så mycket som möjligt.<br /><br /> Information om globala inställningar finns i fältet **Max. utjämningsperiod** se [Detaljer: planeringsparametrar](design-details-planning-parameters.md).|  
 |Ta med lager|Välj alltid när du använder partiformningsmetoden parti-för-parti.|Välj inte endast i vissa situationer, t.ex, när lagerartiklar inte är säljbara.|  
 |Säkerhetsledtid|Ställ in mellan 1D och 6D.<br /><br /> Ange en säkerhetsledtid på minst en dag för att se till att leveransen är tillgänglig dagen innan de behövs.<br /><br /> Definiera en längre tid, till dess att deras leveransprestanda är känd, om du använder en ny leverantör.<br /><br /> Definiera längre säkerhetsledtider för kritiska komponenter i produktionen.|Leverans som planeras i systemet för att undvika att varan tar slut i lager kommer på samma dag som varan tar slut. Det kan vara flera timmar för sent, om till exempel, leveransen behövs på morgonen, och den tas emot på eftermiddagen. **Obs!** Fältet **Säkerhetsledtid** använder baskalendern. Därför är 14D inte nödvändigtvis två veckor.|  

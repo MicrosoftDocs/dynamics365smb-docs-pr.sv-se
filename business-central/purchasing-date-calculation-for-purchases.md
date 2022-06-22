@@ -1,37 +1,45 @@
 ---
-title: Datumberäkning för inköp
-description: Programmet beräknar automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum.
-author: SorenGP
+title: Beräkning för inköp
+description: I den här artikeln beskrivs hur du beräknar datum för inköp.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
+ms.search.forms: ''
+ms.date: 02/06/2022
+ms.author: bholtorf
+ms.openlocfilehash: 6a3d7244beef57a1b5a82b881ec193316fe968fe
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514887"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841872"
 ---
-# <a name="date-calculation-for-purchases"></a>Datumberäkning för inköp
+# <a name="calculate-dates-for-purchases"></a>Beräkning för inköp
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] beräknas automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum. Det är detta datum då du kan förvänta dig att artiklar som beställts ett visst datum ska vara tillgängliga för plockning.  
+Om du vill ha varor i lager ett visst datum, [!INCLUDE[prod_short](includes/prod_short.md)] kan automatiskt räkna ut vilket datum du måste beställa dem. 
 
-Om du anger ett begärt inleveransdatum i en inköpsorderhuvud, är det beräknade orderdatumet det datum då ordern måste placeras för inleverans av artiklarna på datumet som du valde. Då beräknas datumet då artiklarna är tillgängliga för plockning och visas i fältet **Förväntat inleveransdatum**.  
+Resultatet är det datum då du kan plocka de artiklar som du har beställt.  
 
-Om inget begärt inleveransdatum anges används orderdatumet på raden som utgångspunkt när programmet beräknar det datum då du kan förvänta dig att ta emot artiklarna och det datum då artiklarna kommer att vara tillgängliga för plockning.  
+Om du anger ett begärt inleveransdatum på en inköpsorderrad är det beräknade orderdatumet det datum då du måste placera ordern. Datumet då föremålen kommer att vara tillgängliga för plockning visas i **Förväntat inleveransdatum**.  
+
+Om du inte anger ett begärt inleveransdatum kommer datumet som du förväntar dig att erhålla artiklarna att baseras på orderdatumet på raden. 
+
+Inleveransdatum är också det datum då artiklarna kommer att vara tillgängliga för plockning.  
+
+> [!TIP]
+> Som standard är många av de datum fält som nämns i den här artikeln dolda på inköpsorderrader. Om ett fält inte är tillgängligt kan du lägga till det genom att anpassa sidan. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
 ## <a name="calculating-with-a-requested-receipt-date"></a>Beräkna med ett begärt inleveransdatum
 
-Om ett begärt inleveransdatum angetts på inköpsorderraden används detta datum som utgångspunkt i följande beräkningar:  
+Om ett begärt inleveransdatum angetts på inköpsorderraden som detta datum ligger till grund för följande beräkningar:  
 
 - begärt inleveransdatum – ledtidsberäkning = orderdatum  
 - begärt inleveransdatum + inkommande lagerhanteringstid + säkerhetsledtid = förväntat inleveransdatum  
 
-Om du angett ett begärt inleveransdatum i inköpsorderhuvudet kopieras detta datum till motsvarande fält på alla raderna. Du kan ändra datumet på raderna eller ta bort datumet på raden.  
+Om du anger ett begärt inleveransdatum på en inköpsorderrad tilldelas det datumet till nya rader när du skapar dem. Du kan ändra eller ta bort datumet på raderna.  
 
 > [!NOTE]
 > Om din process grundar sig på beräkning bakåt, till exempel om du använder det begärda inleveransdatumet för att hämta planerat orderdatum, rekommenderar vi att du använder datumformler med fast varaktighet, till exempel "5D", i fem dagar eller "1V" i en vecka. Datumformler utan fast varaktighet, till exempel "FV" för aktuell vecka eller CM för aktuell månad, kan resultera i felaktiga datumberäkningar. Mer information om datumformler finns i [arbeta med datum och tider för kalender](ui-enter-date-ranges.md).
@@ -43,16 +51,18 @@ Om du skriver in en inköpsorderrad utan ett begärt leveransdatum fylls fältet
 - orderdatum + ledtidsberäkning = planerat inleveransdatum.  
 - planerat inleveransdatum + inkommande lagerhanteringstid + säkerhetsledtid = förväntat inleveransdatum  
 
-Om du ändrar orderdatumet på raden, t. ex. om artiklarna inte är tillgängliga hos leverantören förrän vid ett senare datum, beräknas de aktuella datumen automatiskt om på raden.  
-
-Om du ändrar orderdatumet i huvudet kopieras detta datum till fältet **Orderdatum** på samtliga rader, varefter alla relaterade datumfält beräknas om.  
+Om du ändrar order datumet på raden [!INCLUDE[prod_short](includes/prod_short.md)] räknas de andra datumen om.  
 
 ## <a name="default-values-for-lead-time-calculation"></a>Standardvärden för ledtidsberäkning
 
-[!INCLUDE[prod_short](includes/prod_short.md)] använder värdet från fältet **Ledtidsberäknin** på inköpsorderraden för att beräkna ordern och förväntade inleveransdatum.  
+[!INCLUDE[prod_short](includes/prod_short.md)] använder datumformel från fältet **Ledtidsberäkning** på inköpsorderraden för att beräkna ordern och förväntade inleveransdatum.  
 
-Du kan ange värdet på raden manuellt eller låta programmet använda värden som har definierats på leverantörskortet, artikekortet, lagerställets enhetkort eller i artikelleverantörens katalog.
-Ledtidsvärdet på leverantörskortet används dock endast om ingen ledtid har angetts på artikelkortet, lagerställets enhetkort eller i artikelleverantörens katalog för artikeln. Detta är också den eskalerade prioritetsordningen för dessa värden. Om alla anges har ledtiden från leverantörskortet lägst prioritet och ledtiden från artikelleverantörens katalog högst prioritet.  
+Du kan ange datum formeln på raderna manuellt. I annat fall [!INCLUDE[prod_short](includes/prod_short.md)] används formlerna som definieras på följande sidor i den här prioritetsordningen:
+
+1. Artikelns leverantörskatalog
+2. Artikelkort
+3. Lagerställeenhetskort
+4. Leverantörskort
 
 ## <a name="see-also"></a>Se även
 

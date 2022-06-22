@@ -1,18 +1,18 @@
 ---
 title: Synkronisera och uppfylla försäljningsordrar
 description: Konfigurera och kör import och behandling av försäljningsordrar från Shopify.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768183"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809019"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synkronisera och uppfylla försäljningsordrar
 
@@ -71,16 +71,20 @@ Följande förfarande beskriver hur du importerar och uppdaterar försäljningso
 
 Du kan också söka efter batchjobbet **Synkronisera ordrar från Shopify**.
 
-När importen är klar kan du utforska Shopify-ordern och söka efter all relaterad information, till exempel betalningstransaktioner, leveranskostnader, uppfyllelser och risk nivå. Du kan också se orderbekräftelser som har skickats till kunden genom att välja åtgärden **Shopify-statussida**.
+Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Mer information finns i [Schemalägger du återkommande uppgifter](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Granska importerade order
+
+När importen är klar kan du utforska Shopify ordern och söka efter all relaterad information. Du kan t. ex. hitta betalnings transaktioner, leveranskostnader, risknivåer och uppställningar om ordern redan har slutförts i Shopify. Du kan också se orderbekräftelser som har skickats till kunden genom att välja åtgärden **Shopify-statussida**.
 
 > [!NOTE]  
 > Du kan navigera till fönstret **Shopify-ordrar** direkt, så visas ordrar med statusen *Öppen* från alla butiker. För att granska slutförda ordrar måste du öppna sidan **Shopify-ordrar** från fönstret **Shopify-butikskort**.
 
-## <a name="create-sales-document-in-business-central"></a>Skapa försäljningsdokument i Business Central
+## <a name="create-sales-documents-in-business-central"></a>Skapa försäljningsdokument i Business Central
 
-Om reglaget **Skapa ordrar automatiskt** har aktiverats på **Shopify-butikskortet** försöker [!INCLUDE[prod_short](../includes/prod_short.md)] att skapa ett försäljningsdokument när ordern har importerats. I händelse av att processen stötet på rpoblem, till exempel om en kund eller en produkt saknas, måste du åtgärda problemet och försöka att skapa försäljningsordern på nytt.
+Om reglaget **Skapa ordrar automatiskt** har aktiverats på **Shopify-butikskortet** försöker [!INCLUDE[prod_short](../includes/prod_short.md)] att skapa ett försäljningsdokument när ordern har importerats. Om problemet uppstår i ärenden, till exempel om en kund eller en produkt saknas, måste du åtgärda problemet. Sedan kan du försöka skapa försäljningsordern igen.
 
-### <a name="to-create-sales-document"></a>Skapa försäljningsdokument
+### <a name="to-create-sales-documents"></a>Skapa försäljningsdokument
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj den butik som du vill synkronisera ordrar för och öppna sidan **Shopify-butikskort**.
@@ -88,7 +92,7 @@ Om reglaget **Skapa ordrar automatiskt** har aktiverats på **Shopify-butikskort
 4. Välj den order som du vill skapa ett försäljningsdokument för och välj åtgärden **Skapa försäljningsdokument**.
 5. Välj **Ja**.
 
-Om Shopify-ordern måste uppfyllas skapas **försäljningsordern** för uppfyllda Shopify-ordrar. Till exempel skapas **försäljningsfakturan** för de som endast innehåller presentkort.
+Om Shopify-ordern måste uppfyllas skapas **försäljningsordern**. För helt uppfyllda Shopify order, t.ex. order som endast innehåller ett presentkort eller som redan hanteras i Shopify, skapas **försäljningsfakturan**.
 
 Ett försäljningsdokument skapas nu och kan hanteras med hjälp av standardfunktionerna i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -102,7 +106,7 @@ Om inställningarna gör att en kund inte kan skapas automatiskt och en befintli
 
 ### <a name="tax-remarks"></a>Skatteanmärkningar
 
-Även om den importerade Shopify-ordern innehåller information om skatt, omberäknas skatten när du skapar ett försäljningsdokument. Därför är det viktigt att moms- och skatteinställningar är korrekta i [!INCLUDE[prod_short](../includes/prod_short.md)].
+Även om den importerade Shopify-ordern innehåller information om skatt, omberäknas skatten när du skapar ett försäljningsdokument. Den omräkningen gör det viktigt att moms- och skatteinställningar är korrekta i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Flera moms- och skattesatser. Vissa produktkategorier omfattas till exempel av reducerade skattesatser. Artiklarna måste finnas i [!INCLUDE[prod_short](../includes/prod_short.md)] och mappas till Shopify-produkter. I annat fall används momsproduktbokföringsmallen med automatiskt skapande av saknade artiklar.
 

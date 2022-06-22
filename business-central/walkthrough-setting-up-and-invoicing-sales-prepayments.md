@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518737"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799565"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
 
@@ -95,9 +95,9 @@ Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 189
 
     |**Förs.typ**|**Förs.kod**|**Artikelnr**|**Förskottsbetalning %**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Kund**|**20000**|**1896-S**|**40**|  
-    |**Alla kunder**| |**1896-S**|**20**|  
-
+    |**Kund**|**20000**|**1896-S**|**40**|
+    |**Kund**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > Beroende på ditt land/din region måste du också ange en skattegruppskod på snabbfliken **Kostnader och bokföring** för artikel 1896-S. När du använder demonstrationsföretaget är det här fältet redan inställt.
 

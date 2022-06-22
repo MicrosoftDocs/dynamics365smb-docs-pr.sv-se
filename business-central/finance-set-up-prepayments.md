@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516219"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799618"
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
 
@@ -93,10 +93,23 @@ En order kan ha en procentandel för en förskottsbet. i försäljningshuvudet o
 
 Procentandelen för förskottsbet. på kundkortet kommer således endast att användas om det inte finns en inställd procentandel för förskottsbet. för artikeln. Om du ändrar innehållet i fältet **Förskottsbetalning %** i försäljnings- eller inköpshuvudet efter att du har skapat raderna uppdateras den procentuella förskottsbetalningen. Detta gör det enkelt att upprätta en order med en fast procentandel för förskottsbet., utan att ta hänsyn till procentandelen som ställts in för artiklar.
 
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Så här släpper du försäljningsorder automatiskt när förskottsbetalningar används
+
+Du kan spara tid genom att lägga upp en jobbkötransaktion som automatiskt släpper försäljningsorder som kräver förskottsbetalning när betalningarna har kopplats. Genom att automatisera proceduren sparar du steget i frisläppa försäljningsordern.
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
+2. I fältet **Automatisk uppdateringsfrekvens av förskottsbetalning** anger du hur ofta du vill att jobbkötransaktionen ska köras.
+
+> [!TIP]
+> När du är här kan du till exempel lägga till ett skydd mot leverans- och faktureringsförsäljningsorder som har obetalda förbetalningsbelopp. Om du aktiverar **Kontrollera förskottsbet. vid bokföring** kommer [!INCLUDE[prod_short](includes/prod_short.md)] förhindra att andra personer kan bokföra order med utestående förskottsbetalningsbelopp.
+
+3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **jobbkötransaktioner** och välj sedan relaterad länk.
+4. Ställ in jobbkötransaktionen **Uppdatera väntande förskottsbetalning** till exempel genom att använda inställningarna på snabbfliken **återkommande** för att schemalägga hur ofta du vill att den ska köras. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
+
 ## <a name="see-also"></a>Se även  
 
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  
-[Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Genomgång: Konfigurera och fakturera förskottsbetalning för försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Beräkna moms på varor och tjänster på förskottsbetalningar i Australien](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Beräkna moms på varor och tjänster på förskottsbetalningar i Nya Zeeland](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md)  

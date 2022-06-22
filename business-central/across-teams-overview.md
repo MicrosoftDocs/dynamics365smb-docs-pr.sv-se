@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511239"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805054"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central- och Microsoft Teams-integrering
 
@@ -65,7 +65,7 @@ Mer information finns i [Dela poster och sidlänkar i Microsoft Teams](across-wo
     Om du inte är säker på om du har ett konto eller om du inte känner till dina autentiseringsuppgifter för att logga in, kontaktar du företagsadministratören för att få hjälp med att komma i gång.
 
     > [!TIP]
-    > Om ditt företag inte har en [!INCLUDE [prod_short](includes/prod_short.md)]-prenumeration kan du registrera dig för en kostnadsfri utvärderingsversion. Mer information finns i [Komma igång med en utvärderingsversion](across-preview.md#get-started-with-a-trial).
+    > Om ditt företag inte har en [!INCLUDE [prod_short](includes/prod_short.md)]-prenumeration kan du registrera dig för en kostnadsfri utvärderingsversion. Mer information finns i [Registrera dig för en kostnadsfri Dynamics 365 Business Central utvärderingsversion](trial-signup.md).
 
 2. Som administratör, se [Hantera Microsoft Teams-integrering med Business Central](admin-teams-integration.md) för att få information om hur du gör det möjligt för användare att arbeta med [!INCLUDE [prod_short](includes/prod_short.md)] och Teams.
 3. Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen in Team. Se [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md).

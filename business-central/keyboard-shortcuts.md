@@ -1,20 +1,20 @@
 ---
 title: Kortkommandon
 description: En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517979"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799696"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -51,6 +51,7 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |Alt+Shift+F2|Växla mellan **detaljer** och **bifogade filer** i rutan faktabox.|
 |Alt+O|Lägg till en ny anteckning för den valda posten även om rutan faktabox inte är öppen.|
 |Alt+Q<br />(Ctrl+alternativ+Q)|Öppna fönstret **Berätta**. Mer information finns i [söka efter sidor och information med berätta](ui-search.md).|
+|Ctrl+Alt+Q<br />(Ctrl+alternativ+Cmd+Q)|Öppna sidan **Sök poster** för att söka efter dokument och transaktioner som är relaterade till varandra baserat på gemensam information, som verifikationsnummer eller bokföringsdatum. Mer information finns i [söka efter relaterade fullständiga filer för bokförda dokument](ui-find-entries.md)|
 |Alt+N |Öppna en sida om du vill skapa en ny post. (Påminner om att välja **Ny** och **+** åtgärder.)|
 |Alt+Shift+N |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post. På samma sätt bokför Alt + F9 ett dokument och skapar ett nytt.|
 |Alt+T|Öppna sidan **Mina inställningar**.|
@@ -58,7 +59,7 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |Ctrl+Alt+Shift+C|Visa information på företagsbrickan.|
 |Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t. ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
 |Ctrl+C |Kopiera värdet i fältet. Om fältet är i fokus och du inte har valt någon text i fältet, kommer hela värdet att kopieras. Om du har markerat en text i fältet, kopieras endast den markerade texten.|
-|Ctrl+F1|Öppna Business Central-hjälpen för sidan.|
+|Ctrl+F1|Öppna [Hjälp-fönstret](product-help-and-support.md#help-pane) eller Business Central hjälpartikel i [Microsoft Docs](/dynamics365/business-central/), beroende på din Business Central-version.|
 |Ctrl+F12|Växla mellan breda och smala vyn.|
 |Ctrl + klicka|Navigera under anpassa personligt eller anpassa när åtgärden markeras med en pilspets. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).|  
 |Ctrl+F5|Läs [!INCLUDE[prod_short](includes/prod_short.md)]-programmet på nytt. (Ungefär som att markera uppdatera/läsa in på nytt i webbläsaren).|

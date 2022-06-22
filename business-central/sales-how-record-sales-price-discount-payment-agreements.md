@@ -1,5 +1,5 @@
 ---
-title: Registrera försäljningspriser och rabatter för kunder | Microsoft Docs
+title: Registrera speciella försäljningspriser och rabatter
 description: Beskriver hur du definiera pris-och rabattavtal för försäljningsdokument.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729847"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950153"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
+
 > [!NOTE]
-> I 2020 års utgivningscykel 2 släppte vi effektiviserade processer för att ställa in och hantera priser och rabatter. Om du är en ny kund som använder den versionen använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> I 2020 års utgivningscykel 2 introducerade nya enkla processer för att ställa in och hantera priser och rabatter. Om du är en ny kund som använder den senaste versionen använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder olika prissättnings strategier, till exempel:
+
 * Ett pris passar alla modeller där en artikel alltid säljs med samma pris.
 * Special prisavtal med specifika kunder eller kundgrupper.
 * Kampanjer när en försäljning uppfyller kriterier för ett specialerbjudande. Kriterier kan t.ex. vara när en order uppfyller ett visst minsta antal, är före ett visst datum eller innehåller en viss typ av artikel.  
 
-Om du vill använda en grundläggande prismodell behöver du bara ange ett enhetspris när du anger en artikel eller resurs. Det priset kommer alltid att användas på försäljningsdokument. För mer avancerade modeller, till exempel när du vill erbjuda specialpriser för en säljkampanj kan du ange kriterier på sidan **försäljningspriser** . Du kan erbjuda specialpriser baserat på kombinationer av följande information: 
+Om du vill använda en grundläggande prismodell behöver du bara ange ett enhetspris när du anger en artikel eller resurs. Det priset kommer alltid att användas på försäljningsdokument. För mer avancerade modeller, till exempel när du vill erbjuda specialpriser för en säljkampanj kan du ange kriterier på sidan **försäljningspriser** . Du kan erbjuda specialpriser baserat på kombinationer av följande information:  
 
 * Kund
 * Artikel
@@ -52,7 +54,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience/)
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Välj kund och välj sedan åtgärden **Priser**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja ett speciellt försäljningspris till kunden.
 
@@ -60,7 +62,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 Som standard är statusen för nya prislistor Utkast. Utkast av prislistor ingår inte i prisberäkningar. När du är klar med att lägga till rader och vill börja använda priserna ändrar du statusen till Aktiv.
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Kunder** och välj sedan relaterad länk.
 2. Välj kunden och sedan åtgärden **Försäljningsprislistor**. 
 3. Välj **Ny** för att skapa en ny försäljningsprislista.
 4. På snabbflikarna **Allmänt** och **Moms** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -176,34 +178,36 @@ Om du vill uppdatera priserna för flera artiklar måste du skapa en ny prislist
 ---
 
 ## <a name="best-price-calculation"></a>Bästa prisberäkning
-När du har registrerat särskilda priser och radrabatter för försäljning och inköp beräknar [!INCLUDE[d365fin](includes/d365fin_md.md)] det bästa priset på försäljnings- och inköpsdokument och på projekt- och artikeljournalrader.
 
-Det bästa priset är det lägsta priset med den högsta radrabatten som tillåts för ett visst datum. [!INCLUDE[d365fin](includes/d365fin_md.md)] beräknar bästa priser när du lägger till enhetspriser och radrabattens procentsats på dokument och journalrader.
+När du har registrerat särskilda priser och radrabatter för försäljning och inköp beräknar [!INCLUDE[prod_short](includes/prod_short.md)] det bästa priset på försäljnings- och inköpsdokument och på projekt- och artikeljournalrader.
+
+Det bästa priset är det lägsta priset med den högsta radrabatten som tillåts för ett visst datum. [!INCLUDE[prod_short](includes/prod_short.md)] beräknar bästa priser när du lägger till enhetspriser och radrabattens procentsats på dokument och journalrader.
 
 > [!NOTE]  
-> Följande beskriver hur det bästa priset beräknas för försäljning. Beräkningen är samma för inköp.
+> Följande beskriver hur det bästa priset beräknas för försäljning. Vid inköp är beräkningen detsamma, men baseras på de tillgängliga parametrarna. Artikelrabattgrupper stöds exempelvis inte för inköp.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar kombinationen av faktureringskund och artikel och beräknar sedan tillämpligt enhetspris och radrabattens procentsats utifrån följande villkor:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerar kombinationen av faktureringskund och artikel och beräknar sedan tillämpligt enhetspris och radrabattens procentsats utifrån följande villkor:
 
-    - Finns det ett särskilt avtal om priser eller radrabatter för den här kunden, eller tillhör kunden en grupp som har ett sådant avtal?
-    - Ingår artikeln eller artikelrabattgruppen på raden i något av dessa pris-/rabatt-avtal?
-    - Ligger orderdatumet (eller fakturans och kreditnotans bokföringsdatum) inom avtalet om priser eller radrabatter?
-    - Har någon enhetskod angetts? I så fall gör [!INCLUDE[d365fin](includes/d365fin_md.md)] en sökning efter priser eller rabatter med samma enhetskod och efter priser eller rabatter som saknar enhetskod.
+    * Finns det ett särskilt avtal om priser eller radrabatter för den här kunden, eller tillhör kunden en grupp som har ett sådant avtal?
+    * Ingår artikeln eller artikelrabattgruppen på raden i något av dessa pris-/rabatt-avtal?
+    * Ligger orderdatumet (eller fakturans och kreditnotans bokföringsdatum) inom avtalet om priser eller radrabatter?
+    * Har någon enhetskod angetts? I så fall gör [!INCLUDE[prod_short](includes/prod_short.md)] en sökning efter priser eller rabatter med samma enhetskod och efter priser eller rabatter som saknar enhetskod.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerar om några pris- och rabattavtal gäller för information på dokumentet eller journalraden. Därefter infogas det aktuella enhetspriset och radrabattprocenten med hjälp av följande kriterier:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerar om några pris- och rabattavtal gäller för information på dokumentet eller journalraden. Därefter infogas det aktuella enhetspriset och radrabattprocenten med hjälp av följande kriterier:
 
-    - Finns det krav på en lägsta kvantitet i pris-/ rabattavtalet som är uppfyllda?
-    - Finns det krav på valuta i pris-/ rabattavtalet som är uppfyllda? I så fall infogas det lägsta priset och den högsta radrabatten för den valutan, även om de skulle ge ett bättre pris i lokala valutan. Om det inte finns några pris-/rabattavtal för den angivna valutakoden infogar [!INCLUDE[d365fin](includes/d365fin_md.md)] det lägsta priset och den högsta radrabatten i dina lokala valuta.
+    * Finns det krav på en lägsta kvantitet i pris-/ rabattavtalet som är uppfyllda?
+    * Finns det krav på valuta i pris-/ rabattavtalet som är uppfyllda? I så fall infogas det lägsta priset och den högsta radrabatten för den valutan, även om de skulle ge ett bättre pris i lokala valutan. Om det inte finns några pris-/rabattavtal för den angivna valutakoden infogar [!INCLUDE[prod_short](includes/prod_short.md)] det lägsta priset och den högsta radrabatten i dina lokala valuta.
 
 Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen det senaste inköpspriset eller à-priset från artikelkortet.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Försäljningsfakturarabatter och faktureringsavgifter
+
 När du använder fakturarabatter, avgör fakturans totala belopp storleken på rabatten. På sidan **Kundfakturarabatter** kan du även lägga till en faktureringsavgift i fakturor som överstiger ett visst belopp.  
 
 Innan du kan använda fakturarabatter vid försäljning måste du ange viss information. Du måste bestämma följande:  
 
-- vilka kunder som ska erhålla den här typen av rabatt?  
-- vilka rabattsatser i procent som ska användas?  
+* vilka kunder som ska erhålla den här typen av rabatt?  
+* vilka rabattsatser i procent som ska användas?  
 
 Om du vill att fakturarabatter beräknas automatiskt kan du ange detta på sidan **Försäljningsinställningar** aktivera växlingen **Beräkna fakturarabatt**.  
 
@@ -231,7 +235,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Radrabatter**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja en speciell försäljningsradrabatt till kunden.
 
-> [!Note]
+> [!NOTE]
 > När du öppnar sidorna **Försäljningspriser** och **Försäljningsradrabatter** för en specifik kund ställs fälten **Försäljningstypfilter** och **Försäljningskodfilter** in för kunden och kan inte ändras eller tas bort.
 >
 > Om du vill ställa in priser eller radrabatter för alla kunder, en kundprisgrupp eller en kampanj måste du öppna sidorna från ett artikelkort. Du kan också använda sidan **Försäljningsprisförslag** för försäljningspriser. Mer information finns i [Så här uppdaterar du flera artikelpriser samtidigt](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -277,6 +281,8 @@ Så här definierar du fakturarabattvillkor för försäljning:
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  
+[Ställ in kundprisgrupper](sales-how-to-set-up-customer-price-groups.md)  
+[Ställ in kundrabattgrupper](sales-how-to-set-up-customer-discount-groups.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

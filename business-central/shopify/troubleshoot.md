@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768220"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808875"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Felsöka synkroniseringen mellan Shopify och Business Central
 
@@ -56,9 +56,8 @@ Om [!INCLUDE[prod_short](../includes/prod_short.md)] inte kan ansluta till ditt 
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj den butik som du vill hämta åtkomsttoken för och öppna sidan **Shopify-butikskort**.
-3. Ange koden i fältet **Kod**.  
-4. Välj åtgärden **Begär åtkomst**.
-5. Om du uppmanas att logga in på ditt Shopify-konto.
+3. Välj åtgärden **Begär åtkomst**.
+4. Om du uppmanas att logga in på ditt Shopify-konto.
 
 ## <a name="see-also"></a>Se även
 

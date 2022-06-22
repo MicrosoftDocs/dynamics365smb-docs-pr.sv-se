@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.search.form: 1638, 6702, 6704
-ms.date: 06/16/2021
+ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: c0abb4d4389dd3896f1aceedb42d51aca0e61000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139579"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799722"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Bulkfakturera för Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ För att ansluta ditt [!INCLUDE[prod_short](includes/prod_short.md)] med Booking
 Till exempel om du vill synkronisera kunder mellan Bookings och [!INCLUDE[prod_short](includes/prod_short.md)], måste du ange standardmallen för att lägga till nya kunder i [!INCLUDE[prod_short](includes/prod_short.md)] baserat på kunder i ditt Bookings-företag.  
 
 > [!NOTE]
-> Appen Bokningar är utformad för att boka möten för enskilda kunder, snarare än företag. Synkronisering med [!INCLUDE[prod_short](includes/prod_short.md)] kan därför endast synkronisera kundkontakter med en typ av ”Person”. En e-postadress krävs också för att synkronisera kontakten.  
+> Appen Bokningar är utformad för att boka möten för enskilda kunder, snarare än företag. Synkronisering med [!INCLUDE[prod_short](includes/prod_short.md)] kan därför endast synkronisera kundkontakter med en typ av *Person*. En e-postadress krävs också för att synkronisera kontakten.  
 
 På liknande sätt, om du till exempel vill synkronisera kunder mellan Bookings och [!INCLUDE[prod_short](includes/prod_short.md)], måste du ange standardmallen för att lägga till nya serviceartiklar i [!INCLUDE[prod_short](includes/prod_short.md)] baserat på kunder i ditt Bookings-företag.  
 
@@ -40,6 +40,9 @@ På liknande sätt, om du till exempel vill synkronisera kunder mellan Bookings 
 När det är dags att skicka fakturor för slutförda bokningar kan du gå till sidan **Ofakturerade bokningar**. Beroende på hur ofta informationen är synkroniserad, är listan lång eller kort. Du kan skapa fakturor för alla bokningar i listan eller en bokning i taget. Du kan markera en eller flera poster i listan och fakturera sådana.  
 
 Stöd för faktureringsmöten från Bookings är enklare än det fullständiga arbetsflödet för att arbeta med offerter, försäljningsorder och försäljningsfakturor. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md). Du kan välja att sälja tjänsterna med hjälp av [!INCLUDE[prod_short](includes/prod_short.md)] eller använda Bookings, beroende på dina behov.  
+
+> [!NOTE]
+> I maj 2022 upptäckte vi ett problem i integrationen med bokningar. För närvarande synkroniseras från Bokningar till [!INCLUDE [prod_short](includes/prod_short.md)] kräver att du manuellt kopplar fakturorna till kunder i [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Se även
 

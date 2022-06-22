@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: 344
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: a577e4723f7880b9e94babd645b7f35324e7d1ea
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654793"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799855"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Hitta relaterade transaktioner för bokförda dokument 
 
@@ -27,9 +27,9 @@ I den här artikeln får du lära dig att söka efter dokument och transaktioner
 
 Funktionen är användbar för att hitta redovisningstransaktionerna som har skapats som ett resultat av vissa transaktioner. När du söker efter verifikationsnummer kan du skriva ut sammanfattningen i rapporten Dokumentposter.
 
-## <a name="get-started"></a>Kom igång
+## <a name="get-started"></a>Kom i gång
 
-Funktionen Hitta transaktioner är tillgänglig på de flesta sidor som innehåller bokförda dokument eller bokförda dokumenttransaktioner – för både listor och kort. Det första steget är att öppna en av de här sidorna. Välj sedan antingen åtgärden **Hitta transaktioner** eller tryck på Ctrl + Alt + G.
+Funktionen Sök poster kan du komma åt på nästan vilken sida som helst genom att trycka på tangenterna Ctrl + Alt + Q. Från sidor som specifikt visar bokförda dokument eller bokförda dokumentposter&mdash;för både listor och kort&mdash;du kan också öppna funktionen genom att välja åtgärden **Hitta transaktioner**.
 
 På sidan **Hitta transaktioner** finns alla relaterade dokument och transaktioner baserade på dokumentnr och bokföringsdatum. Sidan är uppdelad i tre delar:
 

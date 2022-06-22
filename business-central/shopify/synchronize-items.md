@@ -1,18 +1,18 @@
 ---
 title: Synkronisera artiklar och lager
 description: Ställ in och kör synkronisering av artiklar mellan Shopify och Business Central
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: fac1a3df12070a2030d6d2d8dfd5e740d8cca4f9
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768184"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808965"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkronisera artiklar och lager
 
@@ -23,7 +23,7 @@ ms.locfileid: "8768184"
 
 Dessa två scenarier är alltid aktiverade.
 
-Ett annat scenario är när data hanteras i Shopify och du vill importera de artiklarna i bulk till [!INCLUDE[prod_short](../includes/prod_short.md)]. Det här scenariot kan vara användbart för datamigreringshändelser när en befintlig online-butik måste vara ansluten till en ny [!INCLUDE[prod_short](../includes/prod_short.md)].
+Ett tredje scenario är att hantera data i Shopify men importera dessa artiklar till [!INCLUDE[prod_short](../includes/prod_short.md)]. Det här scenariot kan vara användbart för datamigreringshändelser när en befintlig online-butik måste vara ansluten till en ny [!INCLUDE[prod_short](../includes/prod_short.md)] miljö.
 
 ## <a name="to-define-item-synchronizations"></a>Så här definierar du artikelsynkronisering
 
@@ -32,9 +32,9 @@ Ett annat scenario är när data hanteras i Shopify och du vill importera de art
 
 |Alternativ|Description|
 |------|-----------|
-|**Tomt**| Produkter importeras tillsammans med import av order. Produkter exporteras till Shopify om användare kör åtgärden **Lägg till artikel** från fönstret **Shopify-produkter**. Det här är standardbeteendet. |
-|**Till Shopify**| Välj det här alternativet om du, efter den första synkroniseringen som utlösts av åtgärden **Lägg till artikel**, planerar att uppdatera produkter manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Glöm inte att aktivera fältet **Kan uppdatera Shopify-produkt**. Om det inte är aktiverat är det samma som **Tomt**. |
-|**Från Shopify**| Välj det här alternativet om du planerar att importera produkter från Shopify i bulk, antingen manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Om inget alternativ har valts är det samma som **Tomt**.|
+|**Tomt**| Produkter importeras tillsammans med import av order. Produkter exporteras till Shopify om användare kör åtgärden **Lägg till artikel** från sidan **Shopify-produkter**. Den här processen är standardbeteendet. |
+|**Till Shopify**| Välj det här alternativet om du, efter den första synkroniseringen som utlösts av åtgärden **Lägg till artikel**, planerar att uppdatera produkter manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Glöm inte att aktivera fältet **Kan uppdatera Shopify-produkt**. Om det inte är aktiverat är det samma som **Tomt**. Mer information finns i [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify)|
+|**Från Shopify**| Välj det här alternativet om du planerar att importera produkter från Shopify i bulk, antingen manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Om inget alternativ har valts är det samma som **Tomt**. Mer information om hur du importerar objekt finns i [Importera objekt från Shopify](synchronize-items.md#import-items-from-shopify)|
 
 ## <a name="import-items-from-shopify"></a>Importera artiklar från Shopify
 
@@ -42,9 +42,9 @@ Antingen importerar du artiklar från Shopify i bulk eller tillsammans med order
 
 |Fält|Description|
 |------|-----------|
-|**Skapa okända artiklar automatiskt**|När Shopify-produkter och -varianter importeras till [!INCLUDE[prod_short](../includes/prod_short.md)] försöker alltid funktionen [!INCLUDE[prod_short](../includes/prod_short.md)] att hitta matchande poster i artikellistan först. **SKU-mappning** har en inverkan på hur matchningen utförs och skapar nya artiklar och/eller artikelvarianter. Mer information finns i [Produktmappning](synchronize-items.md#). Aktivera det här alternativet om du vill skapa en ny artikel eller om det inte finns någon matchande post. Den nya artikeln skapas med hjälp av importerade data och **Kod för artikelmall**. Om det här alternativet inte har aktiverats måste du skapa en artikel manuellt och använda åtgärden **Mappa produkt** från sidan **Shopify-produkter**.|
+|**Skapa okända artiklar automatiskt**|När Shopify-produkter och -varianter importeras till [!INCLUDE[prod_short](../includes/prod_short.md)] försöker alltid funktionen [!INCLUDE[prod_short](../includes/prod_short.md)] att hitta matchande poster i artikellistan först. **SKU-mappning** har en inverkan på hur matchningen utförs och skapar nya artiklar och/eller artikelvarianter. Aktivera det här alternativet om du vill skapa en ny artikel eller om det inte finns någon matchande post. Den nya artikeln skapas med hjälp av importerade data och **Kod för artikelmall**. Om det här alternativet inte har aktiverats måste du skapa en artikel manuellt och använda åtgärden **Mappa produkt** från sidan **Shopify-produkter**.|
 |**Kod för artikelmall**|Används tillsammans med **Skapa okända artiklar automatiskt**. <br> Välj den mall som ska användas för automatiskt skapade artiklar.|
-|**SKU-mappning**|Välj hur du vill använda **SKU**-värdet som importerats från Shopify under mappning och skapande av artikel/variant. Mer information finns i [Så påverkar SKU och streckkod som definierats i Shopify- produkt mappningen och skapandet av artiklar och varianter](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
+|**SKU-mappning**|Välj hur du vill använda **SKU**-värdet som importerats från Shopify under mappning och skapande av artikel/variant. Mer information finns i [Så påverkar SKU och streckkod som definierats i Shopify produkt mappningen och skapandet av artiklar och varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |**Fältavgränsare för lagerställeenhet**|Används tillsammans med **SKU-mappning** inställd på **Artikelnr + Variantkod**.<br> Definiera en avgränsare som ska användas för att dela upp SKU. <br>Om du i Shopify till exempel skapar en variant med SKU ”1000/001”, skriver du ”/” i fältet **Fältavgränsare för lagerställeenhet** för att få artikelnumret i [!INCLUDE[prod_short](../includes/prod_short.md)] till ”1000” och artikelvariantkoden till ”001”.
 |**Prefix för variant**|Används tillsammans med **SKU-mappning** inställd på **Variantkod** eller **Artikelnr + Variantkod** som en säkerhetsstrategi när lagerställeenheten som kommer från Shopify är tom.<br>Om du vill skapa artikelvarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatiskt måste du ange ett värde i **Kod**. Som standard används det värde som anges i fältet för lagerställeenhet som har importerats från Shopify. Om lagerställeenheten är tom genereras koden med det definierade variantprefixet och ”001”.|
 |**Shopify kan uppdatera artikel**| Välj det här alternativet om du vill uppdatera artiklar och/eller varianter automatiskt.|
@@ -100,10 +100,10 @@ Med följande inställningar kan du hantera exporten av artiklar:
 |Sidrubrik, SEO|Korrigera värde: Tom, se [Ad-Hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Inte använd.|
 |Metabeskrivning, SEO|Korrigera värde: Tom, se [Ad-Hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Inte använd.|
 |Media|**Bild**, mer information finns i [Synkronisera artikelbilder](synchronize-items.md#sync-item-images)|**Bild**|
-|Pris|Priset för slutkund beräknas med hänsyn tagen till artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall. |Inte använd.|
-|Jämför med pris|Pris utan rabatt beräknas med hänsyn tagen till artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall. |Inte använd.|
+|Pris|Beräknande av slutkundens pris omfattar artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall. |Inte använd.|
+|Jämför med pris|Beräknande av pris utan rabatt omfattar artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall. |Inte använd.|
 |Styckkostnad|**Styckkostnad**|**Styckkostnad**|
-|Lagerställeenhet|Se **SKU-mappning** i [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify)| Läs [Så påverkar SKU och streckkod som definierats i Shopify- produkter mappningen och skapandet av artiklar och varianter](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
+|Lagerställeenhet|Se **SKU-mappning** i [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify)| Läs [Så påverkar SKU och streckkod som definierats i Shopify produkter mappningen och skapandet av artiklar och varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Streckkod|**Artikelreferenser** av typen Streckkod|**Artikelreferenser** av typen Streckkod|
 |Spåra antal|Enligt **Lager spårat** på **Shopify-butikskortet**. Mer information finns i [Lager](synchronize-items.md#sync-inventory-to-shopify).|Inte använd.|
 |Fortsätta sälja när de är slut i lager|Enligt **Standardlagerprincip** på **Shopify-butikskortet**. Inte importerad.|Inte använd.|
@@ -115,7 +115,7 @@ Med följande inställningar kan du hantera exporten av artiklar:
 
 ### <a name="tags"></a>Taggar
 
-Importerade taggar kan granskas i faktaboxen **Taggar** under **Shopify-produkt**. Du kan redigera taggar genom att välja åtgärden **Taggar** på sidan **Shopify-produkt**.
+Granska importerade taggar i faktaboxen **Taggar** på sidan **Shopify produkt**. Du kan redigera taggar genom att välja åtgärden **Taggar** på sidan **Shopify-produkt**.
 Om alternativet **Till Shopify** har valts i fältet **Synkronisera artikel** exporteras tilldelade taggar till Shopify vid nästa synkronisering.
 
 ## <a name="run-item-synchronization"></a>Kör atikelsynkronisering
@@ -139,6 +139,8 @@ De resulterande artiklarna skapas automatiskt i Shopify med priser, men bilder o
 3. Välj åtgärden **Synkronisera produkter**.
 
 Alternativt kan du använda åtgärden **Synkronisera produkter** i fönstret **Shopify-produkter** eller söka efter batchjobbet **Synkronisera produkter**.
+
+Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Mer information finns i [Schemalägger du återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
 ### <a name="ad-hock-updates-of-shopify-products"></a>Ad-hoc-uppdateringar av Shopify-produkter
 
@@ -195,8 +197,8 @@ Priser kan exporteras för synkroniserade artiklar på de sätt som beskrivs ned
 
 ### <a name="price-calculation-remarks"></a>Anmärkningar om prisberäkning
 
-* För prisberäkning är det viktigt att ha ett värde i fältet **Standardkundmall**.
-* Glöm inte att ange en **valutakod** om din onlinebutik använder en annan valuta än BVA.
+* För prisberäkning är det viktigt att ha ett värde i fältet **Standardkundmall**. [!INCLUDE[prod_short](../includes/prod_short.md)] använder värdet i fältet **Moms bokföringsmall** för att beräkna priset inklusive moms. Det kan vara en bra idé att skapa en kund pris grupp, där du väljer fältet **Pris inklusive moms** och ange det relevanta värdet i fältet **Moms rörelsebokf. bokf. mall (pris)**.
+* Ange en **valutakod** om din onlinebutik använder en annan valuta än BVA. Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDE[prod_short](../includes/prod_short.md)].
 * När du fastställer ett pris använder [!INCLUDE[prod_short](../includes/prod_short.md)] logiken ”Lägsta pris”. Det innebär att om enhetspriset som anges på artikelkortet är lägre än vad som anges i prisgruppen används enhetspriset från artikelkortet.
 
 ## <a name="sync-inventory-to-shopify"></a>Synkronisera lager med Shopify

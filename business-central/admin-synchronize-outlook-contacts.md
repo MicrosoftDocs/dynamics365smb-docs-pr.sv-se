@@ -1,7 +1,7 @@
 ---
 title: Dela kontakter mellan Business Central och Outlook
 description: Denna tjänst har djupgående integrering med Microsoft 365 så att du kan dela kontakter mellan Outlook och Business Central.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,45 +9,54 @@ ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 6c4ed5dfa89fdafe6e685d6566a57cb604adacdb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.author: bholtorf
+ms.openlocfilehash: 571dce9d79532cb3659ec952a585764af78c5161
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513128"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799884"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisera kontakter i Business Central med kontakter i Microsoft Outlook
 
-Du kan visa samma kontakter i [!INCLUDE[prod_short](includes/prod_short.md)] som visas i Outlook om du ställer in synkronisering av kontakter. Till exempel om du är en säljare kan du göra vissa av ändringar i Outlook och en del av arbetet i [!INCLUDE[prod_short](includes/prod_short.md)]. Om kontakterna är desamma på båda platser, är ditt arbete enklare.  
+Du kan ställa in synkronisering av kontakter så att kontakterna i [!INCLUDE[prod_short](includes/prod_short.md)] har samma information som dina kontakter i Microsoft Outlook. Om du t.ex. är säljare kan du arbeta i Outlook och [!INCLUDE[prod_short](includes/prod_short.md)] på samma gång. Om kontakterna är desamma på båda platser, är ditt arbete enklare.  
 
-En dedikerad mapp i Outlook gör det enklare att hitta och du kan ange ett filter för att endast synkronisera kontakter från [!INCLUDE[prod_short](includes/prod_short.md)] som du vill se i Outlook. När kontaktsynkroniseringen har konfigurerats, kan du starta synkroniseringen manuellt eller ställa in en automatisk synkronisering som synkroniserar kontakterna enligt en uppställning.  
+Som standard sparas de kontakter som du synkroniserar i en **Business Central**-mapp i favoriter i mappfönstret i Outlook. Business Central-mappen kan göra det enklare att identifiera vilka kontakter som ska synkroniseras. Du kan ange att filter endast ska synkronisera vissa kontakter från [!INCLUDE[prod_short](includes/prod_short.md)] till Outlook. När du har ställt in synkroniseringen kan du synkronisera manuellt eller automatisera den så att den synkroniseras enligt ett schema.  
 
 ## <a name="set-up-synchronization"></a>Konfigurera synkronisering
-Du kan ange hur du vill synkronisera kontakter med Outlook på sidan **Konfigurering av Exchange-synkronisering** i [!INCLUDE[prod_short](includes/prod_short.md)]. En förutsättning är att din användarprofil i [!INCLUDE[prod_short](includes/prod_short.md)] måste ange ditt e-postkonto för Microsoft 365. Du kan kontrollera detta i avsnittet **Microsoft 365-autentisering** i din användarprofil i listan **Användare**.  
+Du kan ange hur du vill synkronisera kontakter med Outlook på sidan **Konfigurering av Exchange-synkronisering** i [!INCLUDE[prod_short](includes/prod_short.md)]. En förutsättning är att din användarprofil i [!INCLUDE[prod_short](includes/prod_short.md)] måste ange ditt e-postkonto för Microsoft 365. Du kan kontrollera denna inställning i avsnittet **Microsoft 365-autentisering** i din användarprofil i listan **Användare**. 
 
-Sedan på sidan **Konfigurering av Exchange-synkronisering** kan du verifiera att anslutningen till Exchange fungerar och sedan skapa synkroniseringen av kontakter. Öppna sidan **Inställningar för kontaktsynkning** och starta synkroniseringen. Du kan även definiera ett filter för vilka kontakter som ska synkroniseras mellan [!INCLUDE[prod_short](includes/prod_short.md)] och Outlook. Till exempel kan du registrera ett filter i namn, typ, företag eller liknande. Du kan också ändra standardnamnet på mappen som kontakterna kommer att synkroniseras till i Outlook. Standardnamnet är *Business Central*.  
-
-När synkroniseringen har ställts in, synkroniseras alla ändringar som du gör till kontakten i antingen Outlook eller i [!INCLUDE[prod_short](includes/prod_short.md)] till den andra.  
+Sedan på sidan **Konfigurering av Exchange-synkronisering** kan du verifiera att anslutningen till Exchange fungerar och sedan skapa synkroniseringen av kontakter. Från sidan **Konfigurering av Exchange-synkronisering** kan du öppna sidan **Inställningar för kontaktsynkning** och starta synkroniseringen. Du kan även definiera ett filter för att ange vilka kontakter som ska synkroniseras. Du kan till exempel filtrera på namn, typ, företag och så vidare. Du kan också ändra standardnamnet på mappen i Outlook som kontakterna kommer att synkroniseras till.  
 
 Var och en av dina medarbetare kan också ställa in sin egna Exchange-synkronisering och registrera egna filter på vilka kontakter som ska synkroniseras.  
 
-## <a name="synchronize-contacts"></a>Synkronisera kontakter
-Om du vill arbeta med kontakter i [!INCLUDE[prod_short](includes/prod_short.md)], och du sedan tycker att det är lätt att starta synkroniseringen manuellt när det passar dig från listan **kontakter**. Välj bara åtgärden **Synkronisera med Microsoft 365** och bestäm sedan om du vill ändra det filter som du har lagt upp. När du väljer OK kommer synkroniseringen att startas omedelbart och de senaste ändringarna tillämpas på dina kontakter i Outlook.  
+När du har ställt in synkroniseringen kan du synkronisera ändringar av kontakten manuellt eller automatisera den genom att lägga upp en jobbkötransaktion. Mer information om Automation finns i nästa avsnitt i den här artikeln.
 
-I listan **kontakter**, kan du synkronisera kontakterna på två sätt:
+### <a name="automate-synchronization"></a>Automatisk synkronisering
+Du kan skapa en jobbkötransaktion som ska synkronisera kontakter enligt ett schema som du definierar. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md). 
+
+I följande tabell visas inställningarna på sidan **Transaktionskort för jobbkö** som används för att synkronisera kontakter:
+
+|Fält|Inställning för synkronisering av kontakter|
+|-----|-----|
+|Objekttyp som ska köras|Kodmodul|
+|Objekt-ID som ska köras|6700|
+
+## <a name="synchronize-contacts"></a>Synkronisera kontakter
+Om du vill arbeta med kontakter i [!INCLUDE[prod_short](includes/prod_short.md)], och du sedan tycker att det är lätt att starta synkroniseringen manuellt när det passar dig från listan **kontakter**. Du kan synkronisera kontakter på två sätt:
 
 * **Synka med Microsoft 365**
 
-  Denna åtgärd synkroniserar alla ändringar från [!INCLUDE[prod_short](includes/prod_short.md)] till Microsoft 365 sedan föregående synkronisering, baserat på senaste ändringsdatum. Inga nya kontakter från Microsoft 365 synkroniseras tillbaka till [!INCLUDE[prod_short](includes/prod_short.md)] också. Detta är vanligtvis snabbare än att göra en fullständig synkronisering.  
+  Synkronisera alla ändringar från [!INCLUDE[prod_short](includes/prod_short.md)] till Microsoft 365 sedan senaste synkronisering, baserat på senaste ändringsdatum. Inga nya kontakter från Microsoft 365 synkroniseras till [!INCLUDE[prod_short](includes/prod_short.md)]. Detta är vanligtvis snabbare än att göra en fullständig synkronisering. 
 
 * **Full synkronisering med Microsoft 365**
 
-  Denna åtgärd synkroniserar alla kontakter i båda riktningar oavsett senast synkroniserad och senast ändrades.  
+  Synkronisera alla kontakter i båda riktningar oavsett senast synkroniserad och senast ändrades.  
 
-I båda fallen synkroniseras bara kontakter från Outlook om de har alla nödvändiga fält ifyllda. De obligatoriska fälten för synkronisering med Microsoft 365 är **Namn**, **E-postadress** och de måste vara av typen Person. [!INCLUDE[prod_short](includes/prod_short.md)] är huvudkontaktinformation, så kontaktinformation i [!INCLUDE[prod_short](includes/prod_short.md)] kommer att sparas i händelse av kopior.  
+I båda fallen synkroniseras bara kontakter från Outlook om de har alla nödvändiga fält ifyllda. De obligatoriska fälten för synkronisering till Microsoft 365 är **Namn**, **E-postadress** och kontakten måste vara av typen **Person**. [!INCLUDE[prod_short](includes/prod_short.md)] är källa för kontaktinformation i [!INCLUDE[prod_short](includes/prod_short.md)] kommer att sparas om det finns dubbletter.  
 
-I Outlook visas kontakter från [!INCLUDE[prod_short](includes/prod_short.md)] i en mapp under **andra kontakter** i vyn **användare**. Om du inte känner till vyn personer i Outlook får du den sedan i navigeringsalternativ längst ned till vänster i Outlook.  
+> [!NOTE]
+> Om du tar bort en kontakt i Outlook, men behåller den [!INCLUDE[prod_short](includes/prod_short.md)], kommer kontakten att återskapas i Outlook nästa gång du synkroniserar. 
 
 ## <a name="see-also"></a>Se även
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654974"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805236"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,11 +32,11 @@ Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[prod_s
 I installationsguiden finns två mallar och ett tomt alternativ:
 
 - **Utvärdering – exempeldata**  
-    Detta skapar ett företag som liknar demonstrationsföretaget med exempeldata och inställningsdata. Denna typ av företag är tillgänglig för dig utan att du behöver växla till [en 30-dagars provperiod](across-preview.md#add-your-own-data-to-an-empty-trial-company) som de andra typerna gör.  
+    Detta skapar ett företag som liknar demonstrationsföretaget med exempeldata och inställningsdata. Denna typ av företag är tillgänglig för dig utan att du behöver växla till en 30-dagars provperiod som de andra typerna gör.  
 - **Produktion – endast inställningsdata**  
-    Detta skapar ett företag som liknar **Mitt företag** med inställningsdata, men utan exempeldata. Du kan använda detta företag under [en 30 dagar lång testperiod](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Detta skapar ett företag som liknar **Mitt företag** med inställningsdata, men utan exempeldata. Du kan använda detta företag under en 30 dagar lång testperiod.  
 - **Skapa ny – Inga data**  
-    Detta skapar ett tomt företag utan inställningsdata. Du kan använda detta företag under [en 30 dagar lång testperiod](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Detta skapar ett tomt företag utan inställningsdata. Du kan använda detta företag under en 30 dagar lång testperiod.  
 
 Om du vill komma igång snabbt med ett nytt företag väljer du **Produktion – endast inställningsdata** och importerar sedan dina egna affärsdata, till exempel kunder, artiklar och leverantörer. Välj mallen **Nytt** om du vill ställa in allt från början. Om så är fallet kan du använda den assisterade konfigurationen **Företagsinställningar** som hjälper dig att komma igång med grundläggande inställningsdata.  
 
@@ -44,6 +44,8 @@ Om du vill komma igång snabbt med ett nytt företag väljer du **Produktion –
 > När du skapar ett nytt företag tar detnågra minuter innan du kan öppna det i [!INCLUDE[prod_short](includes/prod_short.md)]. Inställningsstatus på sidan **Företag** visas när det nya företaget är redo för dig. Sedan kan du växla till det nya företaget med hjälp av **Mina inställningar**.  
 
 Du kan skapa valfritt antal nya företag under en utvärderingsversion på 30 dagar, men de kan bara användas under utvärderingsperioden. Kontakta din [!INCLUDE[prod_short](includes/prod_short.md)]-partner för mer information. Se även artikeln med [Vanliga frågor och svar för Dynamics 365 Business Central](trial-faq.md).  
+
+Administratören kan läsa mer om försök och prenumerationer [här](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## <a name="copy-a-company"></a>Kopiera ett företag
 
@@ -84,7 +86,6 @@ Appen Contoso Coffee tillhandahåller demonstrationsdata som hjälper dig att ut
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
-[Utvärderingsversioner och prenumerationer](across-preview.md)  
 [Förstå infrastrukturen i Business Central online (endast engelska)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557183"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950388"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Äldre) Skapa och ändra anpassade rapportlayouter
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Som standard kommer en rapport ha inbyggd rapportlayout, antingen RDLC- eller Word-rapportlayout eller båda typerna. Du kan inte ändra inbyggda layouter, men du kan också skapa anpassade layouter. En rapport kan ha flera anpassade rapportlayouter som gör att du kan byta layout som används efter behov.
+Rapporter har som standard en inbyggd layout för rapporten. Layouten kan vara antingen en RDLC-rapportlayout Word-rapportlayout eller både och. Du kan inte ändra inbyggda layouter, men du kan också skapa anpassade layouter. En rapport kan ha åtskilliga anpassade rapportlayouter.
 
 > [!NOTE]  
 > I [!INCLUDE[prod_short](includes/prod_short.md)], omfattar termen "rapporter" även externa dokument som t. ex. fakturor och bekräftelser av inköpsorder som du skickar till kunder som PDF-filer.
 
-Om du vill skapa en anpassad layout kan du antingen skapa en kopia av en befintlig anpassad layout eller lägga till en ny anpassad layout, som baseras i de flesta fall på en inbyggd layout. När du lägger till en ny anpassad layout kan du välja att lägga till en RDLC-eller Word-rapportlayout eller både och. Den nya anpassade layouten baseras på den inbyggda layouten för rapporten, om en är tillgänglig. Om det inte finns någon fördefinierad layout för typen skapas en ny, tom layout. Du måste ändra och utforma den här tomma layouten från början. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).  
+Om du vill skapa en anpassad layout kan du antingen kopiera en befintlig anpassad layout eller lägga till en ny. Anpassade layouter baseras ofta på en inbyggd layout. När du lägger till en ny anpassad layout kan du välja att lägga till en RDLC-eller Word-rapportlayout eller både och. Den nya anpassade layouten baseras på den inbyggda layouten för rapporten, om en är tillgänglig. Om det inte finns någon fördefinierad layout för typen skapas en ny, tom layout. Du måste ändra och utforma den här tomma layouten från början. Mer information om RDLC- och Word-rapportlayouter, inbyggda och anpassade layouter och mer finns i [Hantera rapportlayouter](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Mer information finns i [Förbereda ekonomiska rapporter med kontouppställningar och kontokategorier](bi-how-work-account-schedule.md).
 
-När anpassade layouter för rapporter definieras kan du välja dem från kund- och leverantörskort för att ange att valda layouter ska användas för de dokument som du skapar för kunden eller leverantören i fråga. Mer information finns i [definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md).
+När du har definierat egna rapport layouter kan du välja dem på sidorna för kundkortet och leverantörskortet. Layouterna kommer att användas när du skapar dokument för kunden eller leverantören. Mer information finns i [definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md).
+
+Du kan också använda anpassade rapportlayouter för att lägga till innehåll i e-postmeddelanden. Med hjälp av rapportlayout kan du spara tid och säkerställa konsekvens genom att återanvända samma innehåll när du kommunicerar med kunderna. Om du vill använda anpassade rapportlayout med e-post måste du ange en filtyp för layouten. Du kan inte använda filtypen RDLC. Mer information finns i [ställa in återanvändbara e-posttexter och layouter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>Så här skapar du en anpassad layout
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.
 
     På sidan **Val av rapportlayout** visas alla rapporter som är tillgängliga i företaget som har angetts i fältet **Företagsnamn** högst upp på sidan.
-2. Ange fältet **Företag** till företaget som du vill skapa rapportlayouten i.
+2. Ange fältet **Företagsnamn** till företaget som du vill skapa rapportlayouten i.
 3. Markera raden för rapporten som du skapa layouten för och välj sedan **Anpassa layouter**.  
 
    På sidan **Anpassa rapportlayouter** visas alla anpassade layouter som är tillgängliga för den valda rapporten.

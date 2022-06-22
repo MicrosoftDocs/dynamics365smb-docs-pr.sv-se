@@ -1,20 +1,20 @@
 ---
 title: Snabbguide för kortkommandon på datorns tangentbord
 description: En utskriftsvänlig referensmall som innehåller de vanligaste kortkommandona endast för datoranvändare.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511603"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799539"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Snabbguide för kortkommandon – endast dator
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511603"
 |Alt+Shift+N|Stäng en nyligen skapad post och skapa en ny|
 |Alt+O|Lägg till en ny anteckning för den valda posten|
 |Alt+Q|Öppna **Berätta**|
+|Ctrl+Alt+Q|Öppna **Hitta transaktioner**|
 |Alt+Upp|Öppna knappbeskrivning eller valideringsfel|
 |Alt+nedpil|Öppna en listruta eller ett uppslag|
 |Alt+T|Öppna sidan **Mina inställningar**.|
@@ -34,7 +35,7 @@ ms.locfileid: "8511603"
 |Ctrl+Ins|Infoga en ny rad i ett dokument|
 |Ctrl-radera|Ta bort raden i ett dokument, en journal eller ett förslag|
 |Ctrl+Shift+F12|Maximera radartikeldelen på en dokumentsida|
-|Ctrl+F1|Öppna hjälpen för sidan<br />Navigera vid anpassning|
+|Ctrl+F1|Öppna Hjälp fönstret eller en hjälp artikel|
 |Ctrl + klicka|Navigera vid anpassning|
 |Shift+F12|Öppna rollutforskaren, en funktionsöversikt|
 |F5/Ctrl+F5|Uppdatera/läs in sidan.|

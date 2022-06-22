@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e791eb8f066085b8230aeac4c85a82c67093f06
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655585"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950496"
 ---
 # <a name="send-documents-and-emails"></a>Skicka dokument och e-post
 
@@ -44,7 +44,7 @@ Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura t
 7. I fältet **Bilaga** är den genererade fakturan bifogad som standard som en PDF-fil.
 8. Ange ett kort meddelande till mottagaren i fältet **Text**.
 
-    Om en dokumentspecifik e-postbrödtext anges på sidan **Rapportval – Försäljning** kommer fältet **Brödtext** att fyllas i automatiskt. Mer information finns i [Konfigurera återanvändbara e-posttexter och -layouter för försäljnings- och inköpsdokument](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
+    Om en dokumentspecifik e-postbrödtext anges på sidan **Rapportval – Försäljning** kommer fältet **Brödtext** att fyllas i automatiskt. Mer information finns i [ställa in återanvändbara e-posttexter och layouter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Välj knappen **OK** för att skicka e-postmeddelandet.
 
 > [!NOTE]  

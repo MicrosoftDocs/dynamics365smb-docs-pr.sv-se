@@ -8,20 +8,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740343"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799751"
 ---
 # <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
 
 Alla företag i Europeiska unionen måste rapportera sin handel med andra länder/regioner inom EU. I Sverige måste du rapportera transport av varor till de statistiska myndigheterna varje månad. I programmet kallas detta för intrastatrapportering. Du använder sidan **Intrastatjournal** när du vill fylla i periodiska intrastatrapporter.  
 
 ## <a name="required-and-optional-setups"></a>Nödvändiga och frivilliga inställningar
+
+> [!IMPORTANT]  
+> Kundkort och leverantörskort innehåller ett fält, typ av **Intrastat-partnertyp**, som har samma alternativ värden som fältet **Partnertyp**: *"" (tom)*, *Företag* och *Person*. Fältet **Intrastat partnertyp** har ersatt **Partertyp** i Intrastat-rapportering. **Partnertyp** används i SEPA för att definiera SEPA för direktdebitering (Core eller B2B). **Typ av Intrastat-partner** används endast för Intrastat-rapportering. På så sätt kan du ange olika värden för de två fälten om det behövs.
+> 
+> Observera dock att om fältet **Typ av Intrastat-partner** lämnas tomt används värdet från fältet **partnertyp** för Intrastat-rapportering.
+
 Innan du kan använda intrastatjournalen för att rapportera Intrastat-information, finns det flera saker som du måste ställa in:  
 
 * **Intrastat-inställning**: Sidan Intrastat-inställningar används för att aktivera Intrastat-rapportering och ange standardvärden för rapporten. Du kan ange om du behöver rapportera Intrastat från leveranser (utskick), inleveranser (ankomst) eller båda beroende på tröskelvärden som anges i de lokala bestämmelserna. Du kan också ange standardtransaktionstyper för vanliga och returnerade dokument, som används för transaktionsrapportering.
@@ -30,7 +36,7 @@ Innan du kan använda intrastatjournalen för att rapportera Intrastat-informati
 * **Koder för transaktionstyp**: länder och regioner har olika koder för olika typer av Intrastat-transaktioner, till exempel ordinär inköp och försäljning, byte av returnerade varor och byte av inte returnerade varor. Ställ in alla koder som gäller för ditt land/din region. Använd dessa koder på snabbfliken **Utlandshandel** på försäljnings- och inköpsdokument, samt när du bearbetar returer. 
 
     > [!NOTE]
-    > Från och med januari 2022 kräver Intrastat olika transaktionskoder för utskick till privatpersoner eller icke momsregistrerade företag och momsregistrerade företag. För att uppfylla detta krav rekommenderar vi att du granskar och/eller lägger till nya transaktionskoder på sidan **Transaktionstyper** enligt kraven i ditt land. Du bör också granska och uppdatera fältet **Partnertyp** till *Person* för privatpersoner eller icke momsregistrerade företag på relevant **Kund**-sida. Om du är osäker på vilken partnertyp eller transaktionstyp du ska använda rekommenderar vi att du frågar en expert i ditt land eller din region. 
+    > Från och med januari 2022 kräver Intrastat olika transaktionskoder för utskick till privatpersoner eller icke momsregistrerade företag och momsregistrerade företag. För att uppfylla detta krav rekommenderar vi att du granskar och/eller lägger till nya transaktionskoder på sidan **Transaktionstyper** enligt kraven i ditt land. Du bör också granska och uppdatera fältet **Intrastat partnertyp** till *Person* för privatpersoner eller icke momsregistrerade företag på relevant **Kund**-sida. Om du är osäker på vilken Intrastat partnertyp eller transaktionstyp du ska använda rekommenderar vi att du frågar en expert i ditt land eller din region. 
  
 * **Transportsätt**: det finns sju, ensiffrig kod för Intrastat transportsätt. **1** för sjötransport, **2** för järnvägstransport, **3** för vägtransport, **4** flygtransport, **5** för brev, **7** för fasta installationer och **9** för egen framdrivning (t. ex. transport av en bil genom att köra den). [!INCLUDE[prod_short](includes/prod_short.md)] kräver inte dessa koder, men vi rekommenderar att beskrivningarna ger liknande betydelse.  
 * **Transaktionsspecifikationer**: Använd dessa för att komplettera beskrivningar från transaktionstyperna.  
@@ -113,7 +119,7 @@ När du har fyllt i Intrastatjournalen kan du köra åtgärden **checklisterappo
 När du kör batch-jobbet hämtas alla artikeltransaktioner inom statistikperioden och infogas som rader i intrastatjournalen. Du kan redigera raderna efter behov.  
 
 > [!IMPORTANT]  
-> Med batch-jobbet hämtas endast de transaktioner som innehåller en lands-/regionkod som en intrastatkod har angetts för på sidan **Länder/regioner**. Därför måste du ange intrastatkoder för de lands-/regionkoder som du vill köra batch-jobbet för. Batchjobbet ställer in fältet **Partners moms-ID** till *QV999999999999* för privatpersoner eller icke momsregistrerade företag (kunder med fältet **Partnertyp** inställt på *Person*), och det använder värdet för fältet **Transaktionstyp** på den bokförda artikeltransaktionen eller projekttransaktionen. 
+> Med batch-jobbet hämtas endast de transaktioner som innehåller en lands-/regionkod som en intrastatkod har angetts för på sidan **Länder/regioner**. Därför måste du ange intrastatkoder för de lands-/regionkoder som du vill köra batch-jobbet för. Batchjobbet ställer in fältet **Partners moms-ID** till *QV999999999999* för privatpersoner eller icke momsregistrerade företag (kunder med fältet **Intrastat partnertyp** inställt på *Person*), och det använder värdet för fältet **Transaktionstyp** på den bokförda artikeltransaktionen eller projekttransaktionen. 
 
 ### <a name="to-modify-intrastat-journals-lines"></a>Så här ändrar du Intrastatjournalens rader
 
@@ -149,6 +155,9 @@ Du kan skicka Intrastat-rapporten som en fil. Innan du skapar filen kan du skriv
 5. På sidan med batch-jobb väljer du knappen **OK**.  
 6. Välj **Spara**.  
 7. Bläddra till den plats där du vill spara filen och skriv filnamnet. Klicka på  **Spara**.
+
+> [!NOTE]
+> När en rad i rapporten Intrastat har en extra enhet, visas inte artikelns vikt eftersom det här värdet inte är obligatoriskt.
 
 ## <a name="reorganize-intrastat-journals"></a>Omorganisera intrastatjournaler
 

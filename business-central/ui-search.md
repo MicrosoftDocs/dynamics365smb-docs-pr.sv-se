@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655754"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799444"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta  
 Det här avsnittet beskriver hur Berätta kan hjälpa dig att snabbt gå till saker som åtgärder, sidor och rapporter, hitta information om hur du utför en viss aktivitet och upptäcka ytterligare program och konsulttjänster för [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -50,11 +50,13 @@ Sidorna och uppgifterna som anges är beroende av den användarupplevelse du val
 ### <a name="finding-a-report-or-archived-information"></a>Söka efter en rapport eller en arkiverad Information
 Avsnittet **Gå till rapporter och analyser** ger åtkomst till rapportverktyg. Du kan till exempel öppna rapporten **Balansräkning** från listan eller använda arkiverade dokument och annan information.  
 
-### <a name="finding-information-in-the-help"></a>Hitta information i hjälpen
-Under **dokumentation** visas artiklarna som den [!INCLUDE[prod_short](includes/prod_short.md)]-dokumentation som beskriver begrepp och ger steg för steg-anvisningar för att slutföra aktiviteterna i programmet.    
+<!-- removed in v20 because of Help pane
+### Finding Information in the Help
+Under **Documentation** you will see articles from the [!INCLUDE[prod_short](includes/prod_short.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks in the application.    
 
 > [!NOTE]  
-> Dokumentation för tredje parts tillägg ingår inte i resultaten.
+> Documentation for third-party extensions is not included in the results.
+-->
 
 ### <a name="getting-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Få fler funktioner genom att söka efter en app på Microsoft AppSource
 Vår partnergrupp utvecklar appar som lägger till funktioner för [!INCLUDE[prod_short](includes/prod_short.md)]. Avsnittet **Hämta från Microsoft AppSource** visar en lista över program för [!INCLUDE[prod_short](includes/prod_short.md)] som finns på Microsoft AppSource och är relaterade till det nyckelord du sökte efter.

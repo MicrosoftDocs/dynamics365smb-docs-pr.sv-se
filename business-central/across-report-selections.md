@@ -7,18 +7,18 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512461"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950205"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportval i Business Central
 
-Du kan konfigurera standardrapporter som ska användas för att skriva ut de olika dokumenten för försäljning och inköp, exempelvis order, offerter, fakturor och kreditnotor. Om du t. ex. har en särskild layout för försäljningsfakturor kan du ange rapporten på sidan **Rapporturval – Försäljning** så att den används för att skicka eller skriva ut försäljningsfakturor.  
+Du kan ställa in standardrapporter som ska användas för att skriva ut dokument för försäljning och inköp, till exempel order, offerter och fakturor. Om du t. ex. har en särskild layout för försäljningsfakturor kan du ange rapporten på sidan **Rapporturval – Försäljning** så att den används för att skicka eller skriva ut försäljningsfakturor.  
 
-Sidorna för **rapporturval** anger vilken rapport som ska skrivas ut i olika situationer. [!INCLUDE [prod_short](includes/prod_short.md)] innehåller standardkonfigurationer, men naturligtvis kan du ändra dessa standardvärden. Du kan också lägga till rapporter på sidorna för **Rapporturval** om du exempelvis vill skriva ut mer än en rapport per dokumenttyp.  
+Sidorna för **rapporturval** anger vilken rapport som ska skrivas ut i olika situationer. [!INCLUDE [prod_short](includes/prod_short.md)] tillhandahåller standardkonfigurationer, men du kan ändra dem om det behövs. Du kan också lägga till rapporter på sidorna för **Rapporturval** om du exempelvis vill skriva ut mer än en rapport per dokumenttyp.  
 
 ## <a name="available-report-selections"></a>Tillgängliga rapporturval
 
@@ -27,7 +27,7 @@ Sidorna för **rapporturval** anger vilken rapport som ska skrivas ut i olika si
 |Område eller uppgift  |Läs mer|
 |--------------|----------|
 |Exempel på hur rapporturval fungerar (försäljning)|[Rapportval för försäljningsdokument](#example-report-selection-for-sales-documents)|
-|Standardlayout för e-post med försäljnings- och inköpsdokument  |[Konfigurera återanvändbara e-posttexter och layouter för försäljnings- och inköpsdokument](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Standardlayout för e-post med försäljnings- och inköpsdokument  |[Konfigurera återanvändbara e-posttexter och layouter för försäljnings- och inköpsdokument](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Definiera kontrollayouter     |[Välj en checklayout](finance-how-define-check-layouts.md) |
 |Definiera rapporter för momsrapportering (Tyskland)|[Ställ in rapporter för moms och Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ Sidan **Rapportval – Försäljning** definierar de standardrapporter som ska a
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Vissa typer av dokument kan skickas som e-postbilagor, andra inte. Varje sida för **Rapporturval** visar ytterligare fält om typen stöder e-post direkt.  
+Vissa typer av dokument kan skickas som e-postbilagor, andra inte. Om en typ av dokument kan skickas med e-post kommer **Rapportval** att innehålla extra fält.  
 
 På sidorna **Rapporturval – Försäljning** och **Rapporturval – Inköp** hjälper följande fält dig att konfigurera e-post:
 
-|Fältnamn |Beskrivning  |
+|Fältnamn |Description  |
 |-----------|-------------|
-|**Använd till brödtext i e-post**| Anger att sammanfattad information, t. ex. fakturanummer, förfallodatum och betalningstjänstlänken, kommer att infogas i brödtexten i det e-postmeddelande du skickar.        |
-|**Använd till e-postbilaga**| Anger att det relaterade dokumentet kommer att bifogas i e-postmeddelandet.|
-|**Beskrivning av layouten på brödtext i e-post**|Anger den layout för e-postbrödtext som används, vanligtvis en anpassad rapportlayout. |
+|**Använd till brödtext i e-post**| Infoga sammanfattad information, till exempel faktura nummer, förfallodatum och betalningstjänstlänk, i ett e-postmeddelande.        |
+|**Använd till e-postbilaga**| Bifoga det relaterade dokumentet till e-postmeddelandet.|
+|**Beskrivning av layouten på brödtext i e-post**|Ange vilken brödtext i e-post som ska användas. Layouten är oftast en egen layout för rapporter. |
 
 ## <a name="see-also"></a>Se även
 
-[Konfigurera återanvändbara e-posttexter och layouter för försäljnings- och inköpsdokument](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Ställ in återanvändbara e-posttexter och layouter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Välj en kontrollayout](finance-how-define-check-layouts.md)  
 [Ställ in rapporter för moms och Intrastat (Tyskland)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  

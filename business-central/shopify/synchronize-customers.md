@@ -1,18 +1,18 @@
 ---
 title: Synkronisera kunder
 description: Importera kunder från eller exportera kunder till Shopify
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768219"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808872"
 ---
 # <a name="synchronize-customers"></a>Synkronisera kunder
 
@@ -25,8 +25,8 @@ När en order importeras från Shopify är informationen om kunden väsentlig f�
 
 Funktionen *Importera order från Shopify* försöker att välja kunder i följande ordning:
 
-1. Om **Standardkundnr** definieras i **Shopify-kundmall** för motsvarande land används **Standardkundnr** oavsett inställningar i **Kundimport från Shopify** och **Kundmappningstyp**.
-2. Om **Kundimport från Shopify** och **Standardkundnr** definieras används **Standardkundnr** .
+1. Om **Standardkundnr** definieras i **Shopify-kundmall** för motsvarande land används **Standardkundnr** oavsett inställningar i **Kundimport från Shopify** och **Kundmappningstyp**. Mer information finns i [Kundmall per land](synchronize-customers.md#customer-template-per-country)
+2. Om **Kundimport från Shopify** anges till *Ingen* och **Standardkundnr.** definieras i **Shopify butikskort**, sedan **Standardkundnr.** .
 
 Nästa steg beror på **Kundmappningstyp**.
 
@@ -100,6 +100,8 @@ För adresser där land/provins används väljer du *Kod* eller *Namn* i fältet
 3. Välj åtgärden **Synkronisera kunder**.
 
 Alternativt kan du använda åtgärden **Starta synkronisering av kunder** i fönstret **Shopify-kunder** eller söka efter batchjobbet **Synkronisera kunder**.
+
+Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Mer information finns i [Schemalägger du återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Se även
 
