@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 028fb8d63045964fdb4e48cbbe3a6372677512d1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f85c37a9a781493f1a67f00c9dcaade540697c7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520557"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078862"
 ---
 # <a name="pick-items"></a>Plocka artiklar
 
@@ -44,12 +44,15 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |En plockningsrad delas upp i flera rader, till exempel eftersom det inte finns tillräckligt många artiklar som ska tas från den bestämda lagerstället.|[Dela rader för dist.lageraktivitet](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Få direkt tillgång till plockningar som tilldelats dig som lagerarbetare.|[Hitta distributionslagerfördelningar](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
+## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in Warehouse Management](warehouse-setup-warehouse.md) 
-[Monteringshantering](assembly-assemble-items.md)
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Lager](inventory-manage-inventory.md)  
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Monteringshantering](assembly-assemble-items.md)  
+[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

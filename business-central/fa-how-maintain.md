@@ -10,14 +10,15 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 8427a75127775e1f10576067e4ea122e7f9ad8b3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 18be12c81ddfebd07c1311e6a0f338712f842f21
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523559"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078210"
 ---
 # <a name="maintain-fixed-assets"></a>Underhålla anläggningstillgångar
+
 Underhållskostnaderna är rutinmässiga periodiska kostnader som utförs för att bevara värdet på en anläggningstillgång. Till skillnad från kapitalförbättringar ökar de inte värden.
 
 Du kan registrera och underhålla en aktuell fil om underhåll och service av anläggningstillgångarna så att du enkelt har tillgång ett fullständiga underhållsregister för anläggningstillgångar. När en anläggningstillgång skickas på service noterar du all relevant information, som exempelvis servicedatum, leverantörsnummer och serviceföretagets telefonnummer. Underhållsregistrering registreras för varje anläggningstillgång från det aktuella anläggningstillgångskortet.
@@ -25,6 +26,7 @@ Du kan registrera och underhålla en aktuell fil om underhåll och service av an
 Indexering används för att anpassa värden till den allmänna prisnivån. Du kan använda batch-jobbet **Indexera anläggningstillgångar** om du vill omberäkna underhållskostnader.
 
 ## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Om du vill registrera underhållsarbete på en anläggningstillgång
+
 Varje gång som underhåll har utförts, exempelvis ett servicebesök kan du registrera detta för den aktuella anläggningstillgången på sidan **Underhållsregistrering**.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.  
@@ -32,6 +34,7 @@ Varje gång som underhåll har utförts, exempelvis ett servicebesök kan du reg
 3. På sidan **Underhållsregistreringar** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Att bokföra underhållskostnader från en redovisningsjournalen för anläggningstillgångar.
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lista för avskrivningsregel** och väljer sedan relaterad länk.  
 2. Markera den avskrivningsregel som är tilldelad anläggningstillgången och välj sedan åtgärden **Redigera**.
 3. På sidan **Avskrivningsregelkort** ser du till att kryssrutan **Underhåll** inte är markerad. Detta säkerställer att underhållskostnader inte bokförs till redovisningen.
@@ -45,6 +48,7 @@ Varje gång som underhåll har utförts, exempelvis ett servicebesök kan du reg
 8. Välj åtgärden **Bokföra**.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Så här följer du upp servicebesök för anläggningstillgångar
+
 Du kan skriva ut rapporten **Underhåll – nästa service** om du vill se vilka tillgångar som du har bokat in ett servicebesök för. Du kan även använda den här rapporten när du uppdaterar fältet **Nästa servicedatum** på anläggningstillgångskortet.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Underhåll, nästa service** och väljer sedan relaterad länk.  
@@ -52,6 +56,7 @@ Du kan skriva ut rapporten **Underhåll – nästa service** om du vill se vilka
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
 ## <a name="to-monitor-maintenance-costs"></a>Så här övervakar du underhållskostnader:
+
 Du kan se underhållskostnaderna när du visar statistiken för en anläggningstillgång.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
@@ -62,6 +67,7 @@ Du kan se underhållskostnaderna när du visar statistiken för en anläggningst
 Sidan **Underhållstransaktioner** öppnas och visar de poster som utgör beloppet i fältet **Underhåll**.
 
 ## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Om du vill visa eller skriva ut underhållskostnader för åtskilliga anläggningstillgångar
+
 I rapporten **Underhållsanalys** kan du välja om du vill visa underhåll baaserat på en, två eller tre underhållskoder för ett angivet datum eller en angiven period. Du kan se summan för alla de markerade tillgångarna eller summan för varje tillgång.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Underhåll, analys** och väljer sedan relaterad länk.
@@ -69,6 +75,7 @@ I rapporten **Underhållsanalys** kan du välja om du vill visa underhåll baase
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
 ## <a name="to-view-maintenance-ledger-entries"></a>Så här visar du underhållstransaktioner
+
 Du kan också studera underhållskostnader genom att visa underhållstransaktionerna.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
@@ -76,13 +83,17 @@ Du kan också studera underhållskostnader genom att visa underhållstransaktion
 3. På sidan **Avskrivningsregler för anl.tillg.** väljer du relevant avskrivningsregel för anläggningstillgång åtgärden **Underhållstransaktioner**.
 
 ## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Om du vill visa eller skriva ut underhållstransaktioner för åtskilliga anläggningstillgångar
+
 I rapporten **Underhåll – Uppgifter** kan du visa eller skriva ut underhållstransaktioner för en eller flera anläggningstillgångar.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Underhåll, detaljer** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/manage-fixed-assets-maintenance-insurances/)
+
 ## <a name="see-also"></a>Se även
+
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  

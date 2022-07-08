@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382825"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075230"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Genomgång: Spåra serienummer/partinummer
 
@@ -189,7 +189,8 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Sedan ska racercyklarna säljas. Sälj först racercykeln med SN1 till Service AB.  
 
-### <a name="to-sell-the-end-items"></a>Sälja slutartiklarna  
+### <a name="to-sell-the-end-items"></a>Sälja slutartiklarna
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny** och skapa en försäljningsorder genom att fylla i följande fält.  
 
@@ -228,10 +229,12 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Nu är du klar med förberedandet av data för att visa upp funktionerna Artikelspårning och Hitta transaktioner.  
 
-## <a name="tracing-from-usage-to-origin"></a>Spåra från förbrukning till ursprung  
+## <a name="tracing-from-usage-to-origin"></a>Spåra från förbrukning till ursprung
+
  Från försäljningsavdelningen får kvalitetskontrollanten veta att den returnerade racercykeln, artikel 1002, har serienumret SN1. Genom att använda den grundläggande informationen kan han fastställa var den färdiga racercykeln senast användes, i det här fallet för försäljningsutleveransen till Service AB. Sedan måste kvalitetskontrollanten spåra baklänges till tidigaste möjliga ursprung för att fastställa vilket partinummer den trasiga in ramen kommer ifrån och vilken leverantör som levererat den.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Så här fastställer du vilket parti den defekta ramen förekom i och vem som levererade den  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Så här fastställer du vilket parti den defekta ramen förekom i och vem som levererade den
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **artikelspårning** och väljer sedan relaterad länk.  
 2.  På sidan **Artikelspårning**, ange **SN1** i fältet **Serienrfilter** och anger sedan **1002** i fältet **Artikelfilter**.  
 3.  Behåll standardinställningen för **Artikel-Endast spårade** i fältet **Visa komponenter** och behåll standardspårningsmetoden **Förbrukning – Ursprung** i **Spårningsmetod**.  
@@ -257,7 +260,8 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
      Nu är du klar med den första defekthanteringsuppgiften med hjälp av sidan **Artikelspårning**. Kvalitetskontrollanten måste nu fastställa om andra bokförda dokument innehåller racercykelramar från PARTI1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Spåra från ursprung till förbrukning  
+## <a name="tracing-from-origin-to-usage"></a>Spåra från ursprung till förbrukning
+
  Kvalitetskontrollanten har fastställt att de defekta racercykelramarna kommer från PARTI1. Nu måste han/hon leta reda på eventuella andra racercyklar som innehåller ramar från det defekta partiet så att dessa cyklar kan stoppas eller återkallas.  
 
  Ett sätt att förbereda den här spårningsuppgiften på sidan **Artikelspårning** är att manuellt ange LOT1 i fältet **Partinrfilter** och 2000 i fälte **Artikelfilter**. I den här genomgången använder vi emellertid funktionen **Spåra motsatt – från rad**.  
@@ -280,7 +284,8 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Nu är du klar med den andra defekthanteringsuppgiften med hjälp av sidan **Artikelspårning** för defekthantering. Eftersom sidan **Artikelspårning** endast bygger på bokförda poster måste kvalitetskontrollanten fortsätta till sidan **Hitta transaktioner** för att säkerställa att PARTI1 inte förekommer i icke-bokförda dokument.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Hitta alla poster som innehåller ett serienummer/partinummer  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Hitta alla poster som innehåller ett serienummer/partinummer
+
  Med sidan **Artikelspårning** fick kvalitetskontrollanten veta att de defekta racercykelramarna kom från PARTI1, vilken leverantör som levererat dem samt i vilka bokförda transaktioner de förekommit. Kvalitetskontrollanten måste nu fastställa om PARTI1 förekommer i något öppet dokument genom att integrera från spårningsresultatet till sidan **Hitta transaktioner**, där han/hon kan utföra en sökning i alla databasposter.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Så här hittar du alla förekomster av PARTI1 i icke-bokförda poster, t. ex. öppna order  
@@ -298,12 +303,14 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
  Nu är du klar med genomgången av hur du använder sidan **Hitta transaktioner** för defekthantering tillsammans med sidan **Artikelspårning**.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Se även
+
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)  
 [Hitta transaktioner](ui-find-entries.md)  
 [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 508061c70d86a5f199acec5c052c354c769c8f51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a8aeed07a17e19de22e751ac6c11959096a412a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516646"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079070"
 ---
 # <a name="planning"></a>Planering
 
@@ -45,11 +45,13 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Visa det planerade tillgängliga lagret för en artikel i olika vyer och kunna se vilka bruttobehov, planerade orderinleveranser och andra händelser som kommer att påverka det med tiden.|[Visa artikeldisposition](inventory-how-availability-overview.md)|  
 <!--|Utför utvalda planeringsaktiviteter, exempelvis ändra eller lägga till planeringsförslagsrader, i en grafisk översikt över leveransplaneringen.|[Ändra planeringsförslag i en grafisk vy](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  

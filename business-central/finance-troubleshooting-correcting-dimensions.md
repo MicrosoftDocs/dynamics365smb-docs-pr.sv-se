@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519127"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075427"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Felsökning och korrigering av dimensioner
 
@@ -122,7 +122,12 @@ Om en korrigering inte slutförs visas en varning på korrigeringskortet. Om det
 
 När du har korrigerat dimensioner kommer dina data för kostnadsredovisning inte att vara synkroniserade. Kostnadsredovisning använder dimensioner för att aggregera belopp för kostnadsställen och kostnadsbärare och för att köra kostnadsallokeringar. Om du ändrar dimensioner för redovisningstransaktioner innebär det förmodligen att du kör dina kostnadsredovisningsmodeller igen. Om du bara behöver ta bort några kostnadsregister och köra allokeringar igen, eller om du behöver ta bort allt och köra alla dina modeller igen beror på vilka data som har uppdaterats och hur dina kostnadsredovisningsfunktioner har konfigurerats. Du miste manuellt identifiera var dimensionskorrigeringar kommer att påverka kostnadsredovisningen och var uppdateringar behövs. [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller för närvarande inte ett automatiserat sätt att göra det.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
-[Arbeta med dimensioner](finance-dimensions.md)
+[Arbeta med dimensioner](finance-dimensions.md)  
 [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

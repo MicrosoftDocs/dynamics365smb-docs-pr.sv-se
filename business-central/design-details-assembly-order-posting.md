@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521052"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075609"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokföring av monteringsorder
 Monteringsorderbokföring baserad på samma principer som när du bokför de liknande aktiviteterna försäljningsorder och produktionförbrukning/utflöde. Principerna kombineras genom att monteringsorder har sitt eget användargränssnitt för bokföring, liknande det för försäljningsorder, medan den faktiska transaktionsbokföringen sker i bakgrunden som direkta artikel- och resursjournalbokföringar, som det för produktionsförbrukning, utflöde och kapacitet.  
@@ -107,6 +107,13 @@ Artikeltransaktionen som är resultatet av att bokföra en försäljning med mon
 Artikeltransaktioner av typen Försäljning som kommer från bokföring av antalet för montering mot kundorder markeras med **Ja** i fältet **Montering mot kundorder**.  
 
 Vid bokföring av försäljningsorderrader, där en del är lagerkvantitet och en annan del är antal för montering mot kundorder resulterar i separata artikeltransaktioner, en för lagerkvantitet och en för antalet för montering mot kundorder.  
+
+### <a name="posting-dates"></a>Bokföringsdatum
+
+I allmänhet kopieras bokföringsdatum från en försäljningsorder till den kopplade monteringsordern. Bokföringsdatumet i monteringsordern uppdateras automatiskt när du ändrar bokföringsdatumet i försäljningsordern direkt eller indirekt, till exempel om du ändrar bokföringsdatumet i lagerförsändelsen, lagerplocket eller som en del av en massbokning.
+
+Du kan ändra bokförings datumet i monteringsorder manuellt. Det kan dock inte senare sedan vara bokförings datum på den kopplade försäljningsordern. Det här datumet behålls om du inte uppdaterar bokföringsdatumet i försäljningsordern.
+
 
 ## <a name="see-also"></a>Se även  
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   

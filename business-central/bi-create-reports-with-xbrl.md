@@ -1,8 +1,6 @@
 ---
 title: Så här skapar du rapporter med XBRL
 description: XBRL, är ett XML-baserat språk för ekonomisk rapportering som gör det möjligt för företag att effektivt och korrekt behandla och dela med sig av sina data.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d25637f00d8b7e6641d994a13e135a78bd72a215
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b282ea2aeec8e28b36bdadfdb57065e8c9e0c727
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511759"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075062"
 ---
 # <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
 
@@ -38,7 +36,7 @@ XBRL, som står för eXtensible Business Reporting Language, är ett XML-baserat
 > Fullt stöd för taxonomier kan kräva XBRL-taggning och verktyg från tredje part. XBRL International-organisationen har en lista över verktyg och tjänster som du kan använda för XBRL-rapportering. Beroende på XBRL-rapporteringskraven för en viss taxonomi kanske du vill utforska dessa resurser. Mer information finns i [Komma igång för företag](https://go.microsoft.com/fwlink/?linkid=2153466) och [Verktyg och tjänster](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
-XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) är ett XML-baserat språk för ekonomisk rapportering. XBRL utgör en standard för enhetlig rapportering för alla användare i den ekonomiska informationskedjan, t. ex. offentliga och privata företag, revisorer, justerare, analytiker, investeringsbolag, kapitalmarknader och långivare, samt viktiga tredje parter såsom programvaruutvecklare och dataadministratörer.  
+XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) är ett XML-baserat språk för ekonomisk rapportering. XBRL utgör en standard för enhetlig rapportering för alla användare i den ekonomiska informationskedjan, t.ex. offentliga och privata företag, revisorer, justerare, analytiker, investeringsbolag, kapitalmarknader och långivare, samt viktiga tredje parter såsom programvaruutvecklare och dataadministratörer.  
 
 Taxonomier definieras och underhålls av www.xbrl.org. Du kan hämta taxonomier eller läsa mer på XBRL:s webbplats.  
 
@@ -59,7 +57,7 @@ Ett XBRL- **instansdokument** är en affärsrapport, t. ex. en ekonomisk rapport
 En taxonomi kan bestå av en bastaxonomi, t. ex. US GAAP eller IAS, och sedan ha en eller flera anknytningar. För att återspegla detta refererar en taxonomi till ett eller flera uppställningar som alla utgör separata taxonomier. När ytterligare taxonomier laddas in i databasen, läggs de nya elementen till i slutet av de redan befintliga.  
 
 ## <a name="linkbases"></a>Länkbaser  
- I XBRL-specifikation 2 beskrivs taxonomin i flera XML-filer. Den primära XML-filen är själva taxonomiuppställningsfilen (XSD-fil), som endast innehåller en oordnad lista med element eller information som ska rapporteras. Utöver detta finns ofta associerade länkbasfiler (XML-filer). Länkbasfilerna innehåller data som kompletterar taxonomin (XSD-fil). Det finns sex olika typer av länkbasfiler, och fyra av dessa är relevanta för Produktnamn XBRL. Dessa är:  
+ I XBRL-specifikation 2 beskrivs taxonomin i flera XML-filer. Den primära XML-filen är själva taxonomischemafilen (XSD-fil), som endast innehåller en oordnad lista med element eller information som ska rapporteras. Utöver detta finns ofta associerade länkbasfiler (XML-filer). Länkbasfilerna innehåller data som kompletterar taxonomin (XSD-fil). Det finns sex olika typer av länkbasfiler, och fyra av dessa är relevanta för Produktnamn XBRL. Dessa är:  
 
 -   Etikettlänkbas: Den här länkbasen innehåller etiketter eller namn för elementen. Filen kan innehålla etiketter på olika språk som identifieras med XML-egenskapen ”lang”. XML-språk-ID:t innehåller vanligtvis en förkortning på två bokstäver och även om det ska vara enkelt att gissa vad förkortningen betyder, finns det inget samband med språkkoderna i Windows eller med språkkoderna som definieras i demonstrationsdata. När användaren slår upp språken för en viss taxonomi visas därför alla etiketter för det första elementet i taxonomin. Det betyder att ett exempel på varje språk visas. En taxonomi kan ha flera kopplade etikettlänkbaser, förutsatt att dessa länkbaser innehåller olika språk.  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521286"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077742"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Skapa arbetsflöden för att koppla affärsprocessuppgifter
 
@@ -178,6 +178,8 @@ Följande illustrationer ger en översikt över resultatet av proceduren.
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Illustration av arbetsflödet för godkännande av leverantörsnamn.":::
 
 Sedan måste du och testa arbetsflödet genom att öppna en befintlig leverantör och ändra namnet. Kontrollera att en begäran om godkännande har gjorts när du ändrar leverantörens namn.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se även
 

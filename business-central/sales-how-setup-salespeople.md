@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 99f23e497c969e9a9461928d1e550605f6db1eae
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512185"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076363"
 ---
 # <a name="set-up-salespeople"></a>Skapa säljare
+
 Många företag har behov av att följa en individuell anställds prestationer som en grund för att beräkna provision eller bonus. Visa till exempel **säljareprovisionsrapporten**. Ett företag kan också vilja knyta en säljare till var och en av sina kontakter.
 
 När du har konfigurerat en säljare på sidan **Säljare** kan du välja den i fältet **Säljarkod** för alla relevanta transaktioner, t.ex redovisningskonto, kund, leverantör, och kampanjkort. När du sedan bokför eller registrerar fakturor, kreditnotor, journalrader, räntefakturor och så vidare, överförs säljarekoden till de resulterande transaktionerna.
@@ -24,12 +25,16 @@ När du har konfigurerat en säljare på sidan **Säljare** kan du välja den i 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Så här skapar du en säljarkod
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk.
 2. På sidan **Säljare** väljer du åtgärden **Ny**.
 
 Du kan använda säljare i olika relationshanterings- och marknadsföringsarbeten. Du kan till exempel tilldela aktiviteter till säljare, så att uppgifterna registreras i affärsmöjligheter som tilldelats säljaren. För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

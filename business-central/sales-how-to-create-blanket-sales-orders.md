@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d421392a4428bc227cdbf6c5532d87e7360fe189
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bc0d1455960b1550c6a8d9fc54c20112b3e9f63
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518997"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074565"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeta med avropsorder, försäljning eller inköpsavropsorder
 
@@ -56,7 +56,8 @@ Följande gäller försäljningsorder, när de har skapats från försäljningsa
 - Den fakturerade försäljningsavropsordern finns kvar i systemet tills den tas bort, antingen genom att enskilda avropsorder tas bort eller att batch-jobbet **Ta bort faktrd förs.avropsord.** körs.  
 - Om en kund dessutom har registrerats som en kontakt i modulen Marknadsföring, och om en interaktionsmallkod har angetts för avropsorder på sidan **Marknadsföringsinställning** registreras en interaktion i tabellen Interaktionslogg när du väljer **Skriv ut** för att skriva ut avropsordern.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Så här visar du status för en avropsorder  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Så här visar du status för en avropsorder
+
 Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik för försäljningsavropsorder**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån försäljningsavropsorder.  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.  
@@ -68,7 +69,8 @@ Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik f�
 - På snabbfliken **Förskottsbetalning** visas översiktsinformation om eventuella förskottsbetalda belopp.  
 - På snabbfliken **Leverantör** visas viss grundläggande information om leverantören.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader   
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader
+
 Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljningsordern och eventuella övriga försäljningsdokument, bibehålls när du har bokfört som en lista över bokförda och ej bokförda fakturarader för försäljningsorder.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.
@@ -92,6 +94,8 @@ Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljning
 |**Kreditnota**|Bokförda kreditnotor som är associerade till den markerade raden.|
 
 5. På sidan **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

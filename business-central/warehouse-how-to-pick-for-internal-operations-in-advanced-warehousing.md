@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0e7db8e4aeade9865114769c659075971dd3c8d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46d00ec083cd749ed9922ab0e046d9a76aaf4390
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518633"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076103"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Plocka för produktion eller montering i avancerad distributionslagerkonfiguration
+
 I avancerad distributionslagerkonfiguration, där det har angetts att lagerstället ska använda plockning samt leverans, kan du välja plockkomponenter för produktion- och monteringsaktiviteter med sidan **Dist.lager plockning**.  
 
 Du kan också använda sidan **Transportkalkylark** för att flytta artiklar mellan lagerställen ad hoc-, d.v.s till utan att referera till ett ursprungsdokument. Mer information finns i [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).  
@@ -38,7 +39,8 @@ För att skapa plockning för både pull- och pushscenarier, måste källdokumen
 |Produktionsorder|Ändra ordertyp till släppta produktionsorder.|  
 |Monteringsorder|Ändra status till släppt.|  
 
-## <a name="to-pick-components-using-the-pick-worksheet"></a>Så här plockar du komponenter med hjälp av plockningskalkylarket  
+## <a name="to-pick-components-using-the-pick-worksheet"></a>Så här plockar du komponenter med hjälp av plockningskalkylarket
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Hämta dist.lager dokument** och välj sedan de komponentrader från den släppta produktionsordern.  
 3.  Analysera raderna, sortera dem för att garantera en effektiv plockningsrunda och kombinera dem med andra kalkylarksrader, om så behövs, för att minimera plockningstiden för den anställda.  
@@ -49,15 +51,19 @@ För att skapa plockning för både pull- och pushscenarier, måste källdokumen
 Om internt verksamhetsområde, till exempel ett produktionslagerplats, har upprättats med en standardlagerplats för placering av komponenter som ska användas i operationen, infogas den lagerställeskoden i placeringsraderna på dokumentet för dist.lager plockning för att visa lagerarbetare var artiklarna ska placeras. Mer information finns på **Till prod.-lagerplats – kod** eller fältet **Till monteringsplats – kod**.
 
 ## <a name="filling-the-consumption-bin"></a>Fylla förbrukningslagerstället
+
 Diagrammet visar hur **Lagerställeskod** på produktionsorderkomponentraderna fylls enligt platsinställningen.
 
 ![Flödesschema för lagerplats.](media/binflow.png "BinFlow")  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
-[Monteringshantering](assembly-assemble-items.md)    
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Monteringshantering](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

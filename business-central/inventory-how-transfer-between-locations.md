@@ -10,14 +10,15 @@ ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 347550073fc4efad89c41f180c3a48747b91d7a7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01846d10f0612a902c7b9bd9f1c2f436404e441e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511629"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076467"
 ---
 # <a name="transfer-inventory-between-locations"></a>Överföra lager mellan olika lagerställen
+
 Du kan överföra lagerartiklar mellan olika lägerställen genom att skapa överföringsorder. Du kan även använda artikelgrupperingsjournalen.
 
 Med överföringsorder kan du leverera en utgående överföring från ett lagerställe och ta emot den inkommande överföringen på det andra lagerstället. Detta gör det möjligt att administrera relevanta lageraktiviteter, och ger en större trygghet att lagerkvantiteterna uppdateras på rätt sätt.
@@ -30,6 +31,7 @@ Med grupperingsjournalen fyller du helt enkelt i fälten **Lagerställeskod** oc
 Om du vill överföra artiklar måste lägerställen och överföringsflöden ställas in. Mer information finns i [Ange platser](inventory-how-setup-locations.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>För att överföra artiklar med en överföringsorder.
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **överföringsorder** och väljer sedan relaterad länk.
 2. På sidan **Överföringsorder** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -51,6 +53,7 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 5. Välj åtgärden **bokför**, välj alternativet **inleverera**, och välj sedan **OK**-knappen.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Så här överför du artiklar med artikelgrupperingsjournalen
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelgrupperingsjournaler** och väljer sedan relaterad länk.
 2. På sidan **Artikelgrupp.journal** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I fältet **Lagerställeskod** ställer du in det lagerställe där artiklarna lagras för tillfället.
@@ -60,7 +63,10 @@ Om du vill överföra artiklar måste lägerställen och överföringsflöden st
 4. I fältet **Ny lagerställeskod** ställer du in det lagerställe som du vill överföra artiklarna till.
 5. Välj åtgärden **Bokföra**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/transfer-items/)
+
 ## <a name="see-also"></a>Se även
+
 [Hantera lager](inventory-manage-inventory.md)  
 [Konfigurera platser](inventory-how-setup-locations.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

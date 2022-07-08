@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: a51175dc5dd124b58ef92e87ab6874f04e4bea41
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144885"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076961"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Business Intelligence och rapporteringsöversikt
 
@@ -30,14 +30,16 @@ Små och medelstora företag svarar på inbyggd analys och rapportering som de k
 | Lär dig hur du kan integrera externa Business Intelligence-verktyg med [!INCLUDE[prod_short](includes/prod_short.md)].| [Externa Business Intelligence-verktyg](reports-external-analysis.md) |
 |Lär dig ändra rapportlayouter eller skapa egna rapporter från grunden. |[Utveckla rapporter](reports-develop-reports.md)|
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
-[Använda rapporter i det dagliga arbetet](reports-use-reports.md)
-[Rapportöversikt](reports-available-reports.md)
-[Ad hoc-dataanalys](reports-adhoc-analysis.md)
-[Inbyggda analyser](reports-built-in-analytics.md)
-[Externa Business Intelligence-verktyg](reports-external-analysis.md)
-[Utveckla rapporter](reports-develop-reports.md)
+[Använd rapporter i det dagliga arbetet](reports-use-reports.md)  
+[Rapportöversikt](reports-available-reports.md)  
+[Ad hoc-dataanalys](reports-adhoc-analysis.md)  
+[Inbyggda analyser](reports-built-in-analytics.md)  
+[Externa Business Intelligence-verktyg](reports-external-analysis.md)  
+[Utveckla rapporter](reports-develop-reports.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

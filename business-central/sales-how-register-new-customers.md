@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520132"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076883"
 ---
 # <a name="register-new-customers"></a>Registrera nya kunder
 
@@ -26,6 +26,7 @@ Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskod
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Lägga till nya kunder
+
 Du kan lägga till nya kunder manuellt, genom att fylla i fälten på sidan för **kundkort** eller använda mallar som innehåller fördefinierad information. Du kan t.ex. skapa mallar för olika typer av kundprofiler. När du använder mallar sparar du tid när du lägger till nya kunder och ser till att informationen är korrekt varje gång. Om du skapar mallar för fler än en typ av kund kan du välja vilken mall du vill använda när du lägger till en kund . Om du bara skapar en mall kommer den att användas för alla nya kunder. När du har skapat en mall kan du använda åtgärden **tillämpa mall** för att tillämpa den på en eller flera valda kunden. Om du vill skapa en mall fyller du i den information som du vill använda på kundkortsidan och sparar den som en mall. Mer information finns i [För att spara sidan kundkort som en mall](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
@@ -79,6 +80,8 @@ Du kan välja att inte ha varningar som talar om för dig att kundens kreditlimi
     |**Kreditlimit**|Värdet i fältet **Credit Limit** på kundkortet jämförs med kundens saldo, och en varning visas om kundsaldot överskrider detta belopp.|
     |**Förfallet saldo**|Fältet **Förfallet saldo** på kundens kort markeras, och en varning visas om kunden har ett förfallet saldo.|
     |**Ingen varning**|Inga varningar visas om kundens status.|
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

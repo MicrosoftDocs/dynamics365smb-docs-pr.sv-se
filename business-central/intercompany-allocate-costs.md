@@ -1,8 +1,6 @@
 ---
 title: Fördela kostnader till koncerninterna partner | Microsoft-dokument
 description: Läs om hur momsinställningar för kunder och leverantörer styr om – och hur – moms beräknas.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f6f8634ae4431038a6ac3ea66bc5b1ead0a21d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522150"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077299"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Fördela kostnader till koncerninterna partner
 När du använder koncerninterna bokföringar för att överföra dokument mellan partnerföretag, kontrollerar de momsrelaterade inställningarna (främst rörelsebokföringsmallen för mots) som tilldelats kund- eller leverantörskonton (som är kopplade till den koncerninterna partnern) om, och hur, moms beräknas och registreras. Du kan också göra kostnadsfördelningar direkt från en inköpsorder till partnerföretag. Om du till exempel registrerar en inköpsfaktura från en extern leverantör och vill distribuera vissa eller samtliga kostnader till en eller flera koncerninterna partner.

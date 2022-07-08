@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: db06612ed644f8db52d8c9e8247b6cc7fe9df339
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 97e2e4e63d1a0d694cf881ed1fff8523d50fbb46
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519205"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077638"
 ---
 # <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 
@@ -69,13 +69,15 @@ Du kan skicka ut ytterligare förskottsfakturor för ordern. Om du vill göra de
 
  När du vill bokföra resten av fakturan bokför du den som en vanlig faktura. Förskottsbetalningsbeloppet dras automatiskt av från beloppet som ska betalas.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  
 [Genomgång: Konfigurera och fakturera förskottsbetalning för försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Ekonomi](finance.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-[Anpassa arbetsytan](ui-personalization-user.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Anpassa din arbetsyta](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,14 +10,15 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 06be08bce312cfcdd0bc6eef0e50890244734dba
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516620"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074646"
 ---
 # <a name="invoice-jobs"></a>Fakturera projekt
+
 Under projektet kan projektkostnade från resursförbrukning, material och projektrelaterade inköp uppstå. Dessa transaktioner bokförs i projektjournalen. Det är viktigt att alla kostnader registreras i projektjournalen innan kunden faktureras.
 
 > [!NOTE]
@@ -31,6 +32,7 @@ Du kan fakturera hela projektet från sidan **Projektaktivitetsrader** eller fak
 Du kan också fakturera ett företag som inte är slutkunden. Ibland partiet som ett projekt är inte densamma som den part som betalar räkningen. På sidan **Projekt** kan du ange kunden som kommer att dra nytta av projektet i **Sälja till** och parten som ska faktureras i **Fakturera till**. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>Så här skapar du flera försäljningsfakturor för projekt
+
 Du kan skapa en faktura för ett projekt för en eller flera projektaktiviteter för en kund, antingen när det arbete som ska faktureras har slutförts eller när datumet för fakturering, som är baserat på ett faktureringsschema, har infallit.
 
 Efterföljande procedur visar hur du kan använda ett batch-jobb för att fakturera flera projekt.  
@@ -46,6 +48,7 @@ Du kan granska och bokföra skapade fakturor i fönstret **Försäljningsfakturo
 > Du kan även fakturera en kund genom att välja jobbet och sedan åtgärden **Skapa försäljningsfaktura för projekt**. 
 
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Så här skapar och publicerar du en försäljningsfaktura för projekt från projektplaneringsrader
+
 Du kan skapa en faktura från projektplaneringsrader och då ange antal av artikeln, resursen eller redovisningskontot som du vill fakturera.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.
@@ -63,12 +66,14 @@ Du kan skapa en faktura från projektplaneringsrader och då ange antal av artik
 > [!NOTE]  
 >   Ovanstående process är liknande för att skapa, granska och publicera en projektrelaterad försäljningskreditnota.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/post-job-usage-sales/)
 
 ## <a name="see-also"></a>Se även
+
 [Hantera projekt](projects-manage-projects.md)  
 [Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)      
+[Inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -10,12 +10,12 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba8b80508fbab49fddb4d9927d47af3ae1d9708a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c6f9a6e526abad8e2ad53325ddf4d0079d28def2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520922"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077950"
 ---
 # <a name="making-payments"></a>Göra betalningar
 
@@ -41,7 +41,10 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Betala leverantören kontant eller med check och bokför betalningen när du bokför fakturan. |[Betala inköpsfakturor snabbt](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Se till att banken bara godkänner validerade checkar och belopp genom att skicka en fil som innehåller information om leverantör, check ch betalning. |[Exportera en Positive Pay-fil](finance-how-positive-pay.md) |
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  

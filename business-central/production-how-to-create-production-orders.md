@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 814770db81744306120445a509325cff8502041d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b47525b8f552cb4446497a0edafa7661aa25f17b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516854"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074714"
 ---
 # <a name="create-production-order-headers"></a>Så här skapar du produktionsorderhuvud
 
@@ -31,7 +31,7 @@ I det följande procedur skapas en fast planerad produktionsorder. Du kan också
 3. I fältet **Nr.** skriver du numret på den artikel som har beställts.  
 4. Välj produktionsorderns ursprung i fältet **Ursprungstyp**.
 
-Här kan du välja att skapa en familj av artiklar. Mer information finns i [Så här arbetar du med produktionsfamiljer](production-how-work-family.md).
+    Här kan du välja att skapa en familj av artiklar. Mer information finns i [Så här arbetar du med produktionsfamiljer](production-how-work-family.md).
 5. Välj artikelnummer, familj eller försäljningshuvud som produktionsordern ska skapas för i fältet **Ursprungsnr** .  
 6. Fyll i fälten **Antal** och **Förfallodatum** enligt aktuella specifikationer.  
 

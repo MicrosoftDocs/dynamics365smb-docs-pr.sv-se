@@ -10,19 +10,21 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92ebe1881a143986ef4775e269211f0fb7279f3f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519706"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079590"
 ---
 # <a name="reserve-items"></a>Reservera artiklar
+
 Reservera artiklar för försäljningsorder, inköpsorder, serviceorder, monteringsorder eller produktionsorder. Du kan reservera artiklar i lager eller inkommande på öppna dokument eller journalrader. Du utför arbetet på sidan **Reservation**.
 
 Varje rad på sidan **Reservation** som du öppnar för att reservera artiklar visar information om en viss typ av rad (försäljning, inköp, journal) eller lagerpost. Raderna beskriver hur många artiklar som är disponibla för reservation för varje radtyp eller post.
 
 ## <a name="to-reserve-items-for-sales"></a>Så här reserverar du artiklar för försäljning
+
 Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet är liknande för inköp, service och monteringsorder.  
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  På en föräljningsorder, på snabbfliken **Rader** väljer du åtgärden **Reservera**. Sidan **Reservation** visas.  
@@ -38,7 +40,8 @@ Nedan beskrivs hur du reserverar artiklar från en försäljningsorder. Momentet
 > [!NOTE]  
 >  Om artikelspårningsrader finns för försäljningsordern används en särskild procedur. Mer information finns i avsnittet [Att reservera ett specifikt parti- eller serienummer](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>Så här reserverar du artiklar för produktionsorderrader  
+## <a name="to-reserve-an-item-for-a-production-order-line"></a>Så här reserverar du artiklar för produktionsorderrader
+
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
 
 I det följande procedur används en fast planerad produktionsorder.   
@@ -50,7 +53,8 @@ I det följande procedur används en fast planerad produktionsorder.
 
 Det antal som du angett på raden för den fast planerade produktionsorden har nu reserverats.
 
-## <a name="to-reserve-items-for-production-order-components"></a>Så här reserverar du artiklar för produktionsorderkomponenter  
+## <a name="to-reserve-items-for-production-order-components"></a>Så här reserverar du artiklar för produktionsorderkomponenter
+
 Om du vill kan du reservera artiklar för produktionsorder. Tänk på att produktionsorderrader, den överordnade artikeln, inte är samma sak som produktionsorderkomponenter.
 
 I det följande procedur används en fast planerad produktionsorder.    
@@ -64,21 +68,24 @@ I det följande procedur används en fast planerad produktionsorder.
 
 Det antal som du angett på raden för den fast planerade produktionskomponentraden har nu reserverats.
 
-## <a name="to-change-a-reservation"></a>Så här ändrar du en reservation  
+## <a name="to-change-a-reservation"></a>Så här ändrar du en reservation
+
 Någon gång kan du behöva ändra en artikelreservation.   
 1. Från dokumentraden som du har reserverats från snabbfliken **rader** väljer du åtgärden **reservera**.  
 2. På sidan **Reservation** väljer du åtgärden **Reservationstransaktioner**.
 3. Sidan **Reservationstransaktioner** uppdaterar fältet **antal** på den rad som du vill ändra.
 4. Bekräfta meddelandet som visas, genom att välja **OK**-knappen.
 
-## <a name="to-cancel-a-reservation"></a>Så här avbeställer du en reservation  
+## <a name="to-cancel-a-reservation"></a>Så här avbeställer du en reservation
+
 Någon gång kan du behöva avbeställa en artikelreservation.   
 1. Från dokumentraden som du vill avbryta en reservervation från på snabbfliken **rader** väljer du åtgärden **reservera**.  
 2. På sidan **Reservation** väljer du åtgärden **Reservationstransaktioner**.  
 3.  På sidan **Reservation** väljer du åtgärden **Avbeställ reservation**.  
 4.  Bekräfta meddelandet som visas, genom att välja **OK**-knappen.  
 
-## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Om du vill reservera ett visst serie- eller partinummer  
+## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Om du vill reservera ett visst serie- eller partinummer
+
 Från utgående dokument för spårade artiklar t. ex. försäljningsorder eller produktionskomponentlistor kan du reservera specifika serie- eller partinummer. Detta kan vara användbart till exempel om du behöver produktionskomponenter från ett visst parti för att kontrollera överensstämmelse med tidigare produktionsbatcher eller därför att en kund har begärt ett specifikt serienummer. Mer information finns i [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md).
 
 Detta kallas för en specifik reservation, eftersom du reserverar från antalet av artikeln X som tillhör parti X. Om du enbart reserverar från antal av artikeln X, är det en helt vanlig, icke-specifik reservation. Mer information finns i  [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md).
@@ -93,8 +100,11 @@ Följande procedur är baserad på en försäljningsorder.
 7. Välj knappen **OK** för att öppna sidan **Reservation** där endast lager med det angivna artikelspårningsnumret visas. Om det finns icke-specifika reservationer för något av artikelspårningsnumren som har angetts på den här raden, informeras du om den kvantitet som redan har reserverats.  
 8. Välj antingen **Reservera auto** eller åtgärden **Reservera från aktuell rad** för att skapa reservationen med de specifika artikelspårningsnumren.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Se även
-[Lagersaldo](inventory-manage-inventory.md)  
+
+[Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designdetaljer: Artikelkoppling och reservationer](design-details-item-tracking-and-reservations.md)  
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  

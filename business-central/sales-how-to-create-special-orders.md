@@ -9,21 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3f9cb0690bf21c3b4571ff65486038499af010e9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518919"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078550"
 ---
 # <a name="create-special-orders"></a>Skapa specialorder
+
 Du kan skapa en specialorder för en specifik katalogartikel som inte finns i lagret och som ska levereras till en specifik kund. Leverantören levererar artikeln till distributionslagret så att du sedan kan leverera den till kunden, som en enskild leverans eller tillsammans med andra artiklar på en annan order.  
 
 Specialorder anger att inköps- och försäljningsordern är länkade för att säkerställa att den specifika katalogartikeln plockas och levereras till kunden.  
 
 Innan den här funktionen kan användas måste de kund-, leverantörs- och artikelkort som behövs för ordern läggas upp.  
 
-## <a name="to-create-a-special-order"></a>Så här skapar du en specialorder  
+## <a name="to-create-a-special-order"></a>Så här skapar du en specialorder
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Skapa och fyll i försäljningsorder för artikeln. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 3.  Fyll i försäljningsraden på snabbfliken **Rader** . I fältet **Inköpskod**, välj en inköpskod som har fältet **Specialorder** markerat.
@@ -42,7 +44,10 @@ En inköpsorder som skapas som en specialorder för en försäljningsorder respe
 > [!NOTE]  
 >  Du kan använda funktionen Specialorder om artikeln redan har reserverats. Därför, för artiklar som säljs på särskilda order, kontrollera att fältet **Reservera** på artikelkortet har angetts till **alltid**.  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se även
+
 [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md)  
 [Försäljning](sales-manage-sales.md)  
 [Skapa direktleveranser](sales-how-drop-shipment.md)   

@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517660"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079356"
 ---
 # <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
 
@@ -82,6 +82,8 @@ Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontr
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Förfallna begäranden om godkännande** och välj sedan relaterad länk.
 2. På sidan **Förfallna begäranden om godkännande** väljer du åtgärden **Skicka meddelanden om förfallna godkännanden**.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Se även
 

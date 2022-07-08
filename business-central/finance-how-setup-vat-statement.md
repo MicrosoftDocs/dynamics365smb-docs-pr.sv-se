@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383703"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075531"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Ställa in momsrapportmallar och momsrapportnamn
 
@@ -45,10 +45,12 @@ När du har definierat en momsrapport kan förhandsgranska du den och kontroller
 4. På de rader där fältet **Typ** innehåller **Momstrans.summering** kan du visa en lista över momstransaktioner genom att välja beloppet i fältet **Kolumnbelopp**.
 5. Du kan använda anpassning för att visa fler fält på raderna. Till exempel det orealiserade nettobeloppet och det orealiserade momsbeloppet, om du använder orealiserad moms.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
 [Ställa in moms](finance-setup-vat.md)  
-[Ställa in orealiserad mervärdesskatt (moms)](finance-setup-unrealized-vat.md)      
+[Ställa in orealiserad mervärdesskatt](finance-setup-unrealized-vat.md)  
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
 [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7934e272652f175360d58ea3643fa28c5551c082
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0b9598c8249e209583ffff73868013ad7e26f1b3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512298"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078162"
 ---
 # <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
+
 Omvärdering av anläggningstillgångar kan bestå av uppskrivning, nedskrivning, eller allmänna värdejusteringar.
 
 När värdet av en anläggningstillgång har ökat, bokför du en journalrad med ett högre belopp, en uppskrivning, till avskrivningsregeln. Det nya beloppet registreras som en uppskrivning enligt bokföringsinställningarna för anläggningstillgångar.
@@ -26,6 +27,7 @@ När värdet av en anläggningstillgång har minskat, bokför du en journalrad m
 Indexering används för att anpassa flera värden för anläggningstillgångar, t. ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Att bokföra uppskrivning från en redovisningsjournal.
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
 3. I fältet **Anskaffningskostnad** väljer du **Omvärdering**.
@@ -36,6 +38,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
 3. Välj **Anskaffningskostnad** i fältet **nedskrivning**.
@@ -46,6 +49,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
 5. Välj åtgärden **Bokföra**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Om du vill utföra allmän omvärdering av anläggningstillgångar
+
 Indexering används för att anpassa flera värden för anläggningstillgångar, t. ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp. Kryssrutan **Tillåt indexering** p sidan **Avskrivningsregel** måste väljas.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Indexera anläggningstillgångar** och väljer sedan relaterad länk.  
@@ -61,6 +65,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
     >   Om indexsiffrorna endast är avsedda för simulering kan du skapa en särskild avskrivningsregel där du kan lagra dem. På så sätt påverkar de här transaktionerna inte de övriga avskrivningsreglerna.
 
 ## <a name="to-post-additional-acquisition-costs"></a>Att bokföra ytterligare anskaffningskostnader
+
 Du bokför ytterligare anskaffningskostnader för en anläggningstillgång på samma sätt som du bokför den ursprungliga anskaffningskostnaden, d.v.s.från en inköpsfaktura eller från en journal för anläggningstillgångar. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).  
 
 Om avskrivningen redan har beräknats för anläggningstillgången markerar du kryssrutan **Avskr. Anskaffningskostnad** så att den tillkommande anskaffningskostnaden är mindre än det återanskaffningsvärde som avskrivs i proportion till det belopp som de tidigare anskaffade anläggningstillgången redan har avskrivits med. Detta garanterar att avskrivningsperioden inte ändras.  
@@ -74,6 +79,7 @@ Avskrivningsprocentsatsen beräknas som:
 Kom ihåg att markera kryssrutan **Avskr. till Anl.bokf.datum** på fakturan, redovisningsjournalen för anläggningstillgångar eller anläggningstillgångsjournalraderna så att avskrivningen beräknas från det senaste bokföringsdatumet för anläggningstillgången till bokföringsdatumet för den tillkommande anskaffningskostnaden.
 
 ### <a name="example---posting-additional-acquisition-costs"></a>Exempel – bokföra ytterligare anskaffningskostnader
+
 En maskin införskaffas den 1 augusti, 2000. Anskaffningskostnader är 4 800. Avskrivningsmetoden är linjär över fyra år.
 
 Den 31 augusti, 2000 körs batch-jobbet **Beräkna avskrivning**. Avskrivningen beräknas som:
@@ -114,7 +120,10 @@ Om du inte har markerat kryssrutan **Avskr. till Anl.bokf.datum** förlorar till
 
 *Summan av avskrivningen = 100 +15 + 55,54 = 170,54*
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/manage-advanced-fixed-assets-transactions/)
+
 ## <a name="see-also"></a>Se även
+
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  

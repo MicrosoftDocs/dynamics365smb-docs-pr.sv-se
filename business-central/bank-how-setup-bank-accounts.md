@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514127"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078784"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Ange ett ingående saldo
+
 Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Alternativt kan du implementera den ingående balansen som en del av skapande av allmänna data i nya företag med hjälp av den assisterad inställningsguide **Migrera affärsdata**. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokfö
 > Det är viktigt att du inte bokför det ingående saldot direkt i redovisningen. Om du har transaktioner på redovisningskontot som bokförs direkt till redovisningskontot kommer du normalt sett inte att kunna stämma av bankkontot eller – om det rör sig om bankkonton i utländsk valuta – leda till att differenser ackumuleras när du bokför fler bankavstämningar. Ofta bokförs det ingående banksaldot direkt på bank-kontot och beloppet fylls sedan i på redovisningskontot. Du kan också ångra det senare mot det redovisningskonto som du använder för att balansera det öppna redovisningssaldot. I båda fallen måste du balansera eventuell direkt bokföring till redovisningskontot innan du börjar med den första bankkontoavstämningen, framför allt om bankkontot är i en utländsk valuta.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Så här skapar du ett bankkonto för import eller export av bankfilerna
+
 Fälten relaterade till import och export av bankfeeds och filer finns på snabbfliken **Överför** på sidan **Bankkontokort**. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) och [Konfigurera tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
@@ -239,6 +241,8 @@ När du har skapat det nya bankkontot bör du också skapa en ny bokföringsmall
 > Tänk på att bankkontoinformationen på öppna försäljningsfakturor fortfarande visar det ursprungliga bankkontot. Därför kommer betalningar fortfarande att bokföras på det kontot. Vi rekommenderar att du håller båda kontona aktiva i en viss tidsperiod efter ändringen.
 
 För att få en mer sammandragen bild av dina konton i den finansiella rapporteringen, använd kontona **Från-summa** och **Till-summa** i dina kontoplan, raderna **Summeringsintervall** i kontouppställningar eller kontokategorier. Mer information finns i avsnittet [Business Intelligence och Financial Reporting](bi.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

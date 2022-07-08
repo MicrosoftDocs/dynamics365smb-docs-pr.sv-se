@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 190a3925cfc692331e21e3cd2a2b41c68cc02d6f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4d90980030453dd2b152d2b85901a9db12cadf2f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511421"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078316"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
+
 När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Det inkommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en inkommande överföringsorder, montering eller en produktionsorder vars utflöde är klart för artikelinförsel.  
 
 Du kan skapa en lagerartikelinförsel på tre sätt:  
@@ -26,6 +27,7 @@ Du kan skapa en lagerartikelinförsel på tre sätt:
 - Du kan skapa lagerartikelinförslar för flera källdokument samtidigt med hjälp av batch-jobbet.  
 
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Så här begär du en lagerinförsel genom att släppa källdokumentet
+
 För försäljningsorder, inköpsreturorder och ingående överföringsorder och montering skapar du distributionslagerkravet genom att släppa ordern. Nedan beskrivs hur du gör detta från en inköpsorder.  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
@@ -41,7 +43,9 @@ För försäljningsorder, inköpsreturorder och ingående överföringsorder och
 När distributionslagerkravet har skapats kan någon som arbetar i distributionslagret och skapar artikelinförslar se att källdokumentet är klart och kan då skapa ett nytt lagerinförseldokument.  
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet
-Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel baserat på släppta källdokument.   
+
+Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel baserat på släppta källdokument.
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I fältet **Källdokument** markerar du den typ av källdokument som du lägger ifrån dig.  
@@ -49,18 +53,21 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel ba
 5. Välj åtgärden **Hämta källdokument** för att välja från en lista över inkommande källdokument som är klara för artikelinförsel för på lagerstället.  
 6. Välj knappen **OK** för att fylla artikelinförselrader enligt det valda källdokumentet.  
 
-## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet  
+## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet
+
 1.  I källdokumentet, som kan vara en inköpsorder, försäljningsreturorder, inkommande överföringsorder eller en produktionsorder, klickar du på åtgärden **Skapa lagerartikelinförsel/plocka**.  
 2. Markera kryssrutan **Skapa lagerinförsel/plockning**.
 3. Välj knappen **OK**. En ny lagerinförsel har skapats.
 
-## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Så här skapar du flera lagerartikelinförslar med batch-jobbet:  
+## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Så här skapar du flera lagerartikelinförslar med batch-jobbet:
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Skapa lagerinförsel/plockning** och väljer sedan relaterad länk.  
 2.  På snabbfliken **Dist.lagerkrav** i beställningssidan använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer.  
 3.  Välj fältet **Skapa lagerinförsel** på kryssrutan **Alternativ**.
 4.  Välj knappen **OK**. Anger numret för den bokförda artikelinförseln i lagret.
 
-## <a name="to-record-the-inventory-put-away"></a>När du vill registrera lagerinförsel.  
+## <a name="to-record-the-inventory-put-away"></a>När du vill registrera lagerinförsel.
+
 1. Du öppnar ett befintligt artikelinförseldokument genom att välja ett från sidan **Lagerartikelinförslar**.  
 2. I fältet **Lagerställeskod** per artikelns standardlagerplats föreslår på artikelinförsel raderna den lagerplats där artiklarna ska placeras. Du kan ändra lagerstället på den här sidan om det behövs.  
 3. Utför artikelinförseln och ange information för den faktiska kvantiteten som förts in i fältet **Ant. att hantera**.
@@ -70,11 +77,14 @@ Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel ba
 
 Vid bokföringen bokförs inleveransen, eller för produktionsorder utflödet, för de källdokumentrader som har förts in. Om lagerstället använder lagerställen skapas distributionslagertransaktioner som bokför kvantitetsändringarna på lagerstället.
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
-[Monteringshantering](assembly-assemble-items.md)    
+[Lager](inventory-manage-inventory.md)  
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Monteringshantering](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

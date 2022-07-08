@@ -1,8 +1,6 @@
 ---
 title: Bearbeta affärsmöjligheter i försäljningscykler
 description: I det här avsnittet beskrivs olika sätt att hantera affärsmöjligheter i försäljningscykler och för att flytta en affärsmöjlighet till faserna i en försäljningscykel.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 927e90a5e25205873a3d0784c7065b9735dc7b24
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 60ce53dc750812dc7519e6d3894a51f4e16d71eb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515465"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076441"
 ---
 # <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.

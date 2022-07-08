@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520340"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074880"
 ---
 # <a name="setting-up-cost-accounting"></a>Ställa in kostnadsredovisning
 
@@ -141,7 +141,8 @@ Kostnadsbärare är projekt, produkter eller tjänster i ett företag. Planen f�
 * Överför dimensionsvärden i redovisningen till företagets plan för kostnadsbärare. Du kan göra nödvändiga justeringar efter överföringen.  
 * Skapa en ny plan för kostnadsbäraren som är oberoende av redovisningen, eller lägg till en ny kostnadsbäraren i en befintlig plan för kostnadsbärare. Du måste skapa varje kostnadsbärare var för sig.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Så här överför du dimensionsvärden från redovisningen till kontoplanen för kostnadsbärare  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Så här överför du dimensionsvärden från redovisningen till kontoplanen för kostnadsbärare
+
 1.  Skapa en dimension som ska vara kostnadsbärardimensionen på sidan **Uppdatera CA-dimensioner**. Endast värdena från dimensionen överförs.  
 2.  Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lista över kostnadsbärare** och väljer sedan relaterad länk.  
 3.  Välj åtgärden **Hämta kostnadsbärare från dimension** för att överföra dimensionsvärden till planen för kostnadsbärare. Funktionen överför de dimensionsvärden som du har definierat i steg 1.  
@@ -151,7 +152,8 @@ Kostnadsbärare är projekt, produkter eller tjänster i ett företag. Planen f�
 
 Diagrammet över kostnadsbärare innehåller nu alla angivna dimensionsvärden från redovisningen inklusive rubriker och delsummor.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Så här skapar du nya kostnadsbärare på sidan Lista över kostnadsbärare.  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Så här skapar du nya kostnadsbärare på sidan Lista över kostnadsbärare.
+
 Du kan lägga upp och underhålla kostnadsbärare antingen i kortet **Kort för kostnadsbärare** eller på sidan **Lista över kostnadsbärare**. I den här proceduren skapar du kostnadsbärare på sidan **Lista över kostnadsbärare**.  
 
 1.  Öppna sidan **Lista över kostnadsbärare** i redigeringsläge.  
@@ -169,9 +171,11 @@ Du kan lägga upp och underhålla kostnadsbärare antingen i kortet **Kort för 
 >  Om du har angett definitioner i fälten **Summa från/till** för **Till-summa** för kostnadsbärare innan du kör indragsfunktionen måste du ange dessa igen. Funktionen ersätter värdena i alla fält för **slutsummor**.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definiera kostnadsställen och kostnadsbärare för kontoplanen
+
 Du kan automatiskt överföra kostnads- och intäktstransaktioner från redovisningen till kostnadsredovisningen antingen för varje redovisningsbokföring eller med ett batch-jobb. När du gör överföringen överför, [!INCLUDE[prod_short](includes/prod_short.md)] endast de transaktioner som redan är länkade till ett kostnadsställe eller en kostnadsbärare. Om du vill skapa en meningsfullt överföring måste du kontrollera att kostnadsställena och kostnadsbärarna definierats korrekt.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Ange standarddimensionsvärden för redovisningskonton  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Ange standarddimensionsvärden för redovisningskonton
+
 För varje redovisningskonto kan du ange standarddimensionsvärden i tabellen **Standarddimension**. Följande exempel visar hur du anger att det alltid ska finnas ett kostnadsställe för avdelningen, men aldrig är en kostnadsbärare för ett projekt när du bokför på ett redovisningskonto.  
 
 |**Dimensionskod**|**Bokförs med**|  
@@ -179,7 +183,8 @@ För varje redovisningskonto kan du ange standarddimensionsvärden i tabellen **
 |Avdelning|Kod alltid|  
 |Objekt|Ingen kod|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definiera dimensionsvärden för omkostnader och direkta kostnader  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definiera dimensionsvärden för omkostnader och direkta kostnader
+
  Du kan överföra omkostnader till ett kostnadsställe och direkta kostnader till en kostnadsbärare. Följande tabell visar den optimala kombinationen av installationsvärden för dimensioner.  
 
 |Överför till|Kostnadsställebokföring|Kostnadsbärarbokföring|  
@@ -190,9 +195,12 @@ För varje redovisningskonto kan du ange standarddimensionsvärden i tabellen **
 > [!NOTE]  
 >  Markera kryssrutan **Kontrollera redovisningsbokföringar** för att se till att de fördefinierade kostnadsställena och kostnadsbärarna som du skapar i redovisningen automatiskt överförs till kostnadsredovisningen.
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se även
+
 [Redovisa kostnader](finance-manage-cost-accounting.md)  
-[Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)   
+[Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)  
 [Definiera och fördela kostnader](finance-define-and-allocate-costs.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

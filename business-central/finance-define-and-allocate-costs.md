@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149133"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075557"
 ---
 # <a name="defining-and-allocating-costs"></a>Definiera och fördela kostnader
 
@@ -143,12 +143,14 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
- [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)   
- [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)   
- [Redovisa kostnader](finance-manage-cost-accounting.md)   
- [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)   
+ [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)  
+ [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)  
+ [Redovisa kostnader](finance-manage-cost-accounting.md)  
+ [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)  
  [Om kostnadsredovisning](finance-about-cost-accounting.md)
 
 

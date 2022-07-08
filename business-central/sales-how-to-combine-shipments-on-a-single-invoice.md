@@ -9,19 +9,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9308412e7b1bfc19cb11187e22ae1b2d2f6c339b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513737"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077586"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinera leveranser på en enda faktura
+
 Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.  
 
 Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma kund och i samma valuta ha bokförts. Med andra ord måste du ha skapat minst två försäljningsorder och bokfört dem som levererade, men inte fakturerade. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser manuellt på en enda faktura  
+## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser manuellt på en enda faktura
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md).
 3. I fältet **Förs.kundnr.** Ange den kund som ska få fakturan för de levererade artiklarna, i fältet.  
@@ -37,7 +39,8 @@ Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma 
 > [!TIP]  
 > Om du har levererat order där du fyller i fältet **Försäljningskundnr.** Skiljer sig från **Faktureringskundnr.**, visas inte raderna i rapporten **Hämta leveransrader**. Använd anpassning för att lägga till fältet **Försäljningskund** och ta bort filtret. Nu kan du lägga till leverans rader på fakturan oavsett värdet i fältet **Försäljningskundnr.** Om du vill använda fältet **Faktureringskundnr.** Fältet på leverans raderna matchar värdet på försäljningsfakturan.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura  
+## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura
+
 [!INCLUDE[prod_short](includes/prod_short.md)] väljer endast de försäljningsorder där **Kombinera leveranser** har valts. 
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kombinera leveranser** och väljer sedan relaterad länk. Sidan för begäran om batch-jobb öppnas.  
@@ -48,7 +51,8 @@ Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma 
 > [!NOTE]  
 >  Fakturorna måste bokföras manuellt om du inte har markerat kryssrutan **Bokför fakturor** för batch-jobbet.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Så här tar du bort öppna försäljningsorder efter kombinerad utleveransbokföring 
+## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Så här tar du bort öppna försäljningsorder efter kombinerad utleveransbokföring
+
 När utleveranser kombineras på en faktura och bokförs, skapas en bokförd försäljningsfaktura för de fakturerade raderna. Innehållet i fältet **Fakturerat antal** på den ursprungliga avropsordern eller försäljningsordern uppdateras utifrån det fakturerade antalet.  
 
 När du fakturerar leveranser på det här sättet finns de order som leveranserna bokfördes från kvar, även om de har levererats och fakturerats i sin helhet.   
@@ -61,7 +65,10 @@ Du kan också ta bort enskilda försäljningsorder manuellt.
 
 Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel försäljningsavropsorder.
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se även
+
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

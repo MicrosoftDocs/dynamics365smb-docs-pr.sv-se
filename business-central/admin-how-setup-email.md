@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950468"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041432"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
 Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare, och bifoga filer på upp till 100 MB. Administratörer kan dessutom skapa rapportlayouter som endast innehåller nyckelinformation från dokument. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard
 |**SMTP Connector**|Använd SMTP-protokoll för att skicka e-post.|Tillåt kommunikation via din SMTP-e-postserver. |
 
 > [!NOTE]
-> Tilläggen **Microsoft 365 anslutningsprogram** och **anslutningsprogram för aktuell användare** använder de konton som du har angett för användare i administrationscentret för Microsoft 365 för din Microsoft 365-prenumeration. Användarna måste ha en giltig licens för Exchange Online för att kunna skicka e-post med hjälp av tilläggen. Dessutom kräver dessa tillägg att inställningen **Tillåt HttpClient-begäranden** är aktiverad. Om du vill kontrollera om den är aktiverad för dessa tillägg, gå till sidan för **tilläggshantering**, välj tillägget och välj sedan alternativet **Konfigurera**.
+> Tilläggen **Microsoft 365 anslutningsprogram** och **anslutningsprogram för aktuell användare** använder de konton som du har angett för användare i administrationscentret för Microsoft 365 för din Microsoft 365-prenumeration. Användarna måste ha en giltig licens för Exchange Online för att kunna skicka e-post med hjälp av tilläggen. Dessutom i sandbox-miljö kräver dessa tillägg att inställningen **Tillåt HttpClient-begäranden** är aktiverad. Om du vill kontrollera om den är aktiverad för dessa tillägg, gå till sidan för **tilläggshantering**, välj tillägget och välj sedan alternativet **Konfigurera**.
 
 > Externa användare, exempelvis utsedda administratörer och externa revisorer, kan inte använda dessa tillägg för att skicka e-postmeddelanden från [!INCLUDE[prod_short](includes/prod_short.md)].
 

@@ -1,8 +1,6 @@
 ---
 title: Översikt över uppgifter för att leverera service | Microsoft Docs
 description: Innehåller uppgifter för att se till att du levererar kvalitetsservice och lever upp till avtal med kunder.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128516"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077820"
 ---
 # <a name="delivering-service"></a>Leverera service
 I [!INCLUDE[prod_short](includes/prod_short.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  

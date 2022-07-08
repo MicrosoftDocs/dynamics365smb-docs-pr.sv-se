@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511564"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078028"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Ställa in artikelspårning med serie-, parti- eller paketnummer
 
@@ -85,9 +85,11 @@ Om du vill aktivera artikelspårning måste du först tilldela artikelspårnings
 3. På snabbfliken **Artikelspårning** tilldelar du lämpliga artikelspårningskoder och väljer **Artikelspårningskod**, **Serienr** och **Partinr**.
     1. Alternativt kan du också skapa en ny artikelspårningskod genom att välja åtgärden **Ny**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+
 ## <a name="see-also"></a>Se även
 
-[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)
+[Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-tracking.md)  

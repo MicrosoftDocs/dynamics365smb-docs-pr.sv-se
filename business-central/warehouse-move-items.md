@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7a44f0b716b219d7c65481c69abb3795129e8147
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 19e6d291cf2547ac0a9ad45dce264e1e326dfad6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511924"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078238"
 ---
 # <a name="moving-items"></a>Flytta artiklar
 
@@ -39,13 +39,15 @@ Lagerrelaterade uppgifter för inventering, justering och gruppering av artiklar
 |Uppdatera vilken frekvens lagerställen, till exempel plockningslagerställen, måste återfyllas med på grund av fluktuation i efterfrågan.|[Beräkna lagerplatsåteranskaffning](warehouse-how-to-calculate-bin-replenishment.md)|
 |Omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper och flytta dem eventuellt runt.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+
 ## <a name="see-also"></a>Se även
 
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in Warehouse Management](warehouse-setup-warehouse.md) 
-[Monteringshantering](assembly-assemble-items.md)
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Lager](inventory-manage-inventory.md)  
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Monteringshantering](assembly-assemble-items.md)  
+[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 991df58fde5f525772d5b9eeadbf802429965575
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dcc7b1586f50d3d9436d237592279007f38c05fa
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517426"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077247"
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
+
 Det går att se i vilket sammanhang den artikelspårade artikeln har använts, d.v.s. hur och när den togs emot eller tillverkades, överfördes, såldes, förbrukades eller returnerades. Du kan också söka efter alla aktuella instanser av ett visst serie- eller partinummer i databasen. Det gör du med funktionerna Artikelspårning och [Hitta transaktioner](ui-find-entries.md).  
 
 Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen i följande fall: när användaren vill få information om vilka kunder som tog emot produkter med ett visst partinummer eller när användaren vill få information om vilket parti en defekt komponent har sitt ursprung i.  
@@ -63,6 +64,8 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 2. Välj **Åtgärder** > **Sök efter** > **Sök efter artikelreferens**.
 3. I fälten **Serienr** och **Partinr** anger du artikelspårningsnumren som du vill spåra.  
 4. Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Se även
 

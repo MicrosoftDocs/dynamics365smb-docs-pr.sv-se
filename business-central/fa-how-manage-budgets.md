@@ -10,19 +10,21 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1244fa4e0062a5f7b9586eba125fb0fa1a050ee1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c23881a80761a9c5ffe229b6299c320c39fc3f85
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523533"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079226"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Hantera budgetar för anläggningstillgångar
+
 Du kan skapa budgeterade anläggningstillgångar. På så sätt kan du t. ex. inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.  
 
 Om du vill förbereda den budgeterade resultaträkningen, balansräkningen och likviditetsbudgeten måste du ha tillgång till information om framtida investeringar, avyttringar och avskrivning av anläggningstillgångar. Den här informationen får du i rapporten **Anl.tillg. – planerat värde**. Innan du skriver ut rapporten måste du förbereda budgeten.  
 
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>För att budgetera anskaffningskostnaden för en anläggningstillgång
+
 När du förbereder en budget måste du skapa anläggningstillgångskort för de anläggningstillgångar som du avser att införskaffa i framtiden. De budgeterade anläggningstillgångarna ställs in som vanliga anläggningstillgångar, men de måste ställas in för att inte bokföras i redovisningen.
 
 När du bokför anskaffningskostnaden, anger du numret på den budgeterade fasta anläggningstillgången i fältet **Budgeterat anl.nr.** På så sätt bokförs en anskaffningskostnad med ett motsatt tecken för den budgeterade tillgången. Detta innebär att den totala anskaffningskostnaden för den budgeterade tillgången är mellanskillnaden mellan den budgeterade och den verkliga anskaffningskostnaden.
@@ -33,6 +35,7 @@ När du bokför anskaffningskostnaden, anger du numret på den budgeterade fasta
 4. Fyll i de återstående fälten, tilldela en avskrivningsregel och bokför sedan den första anskaffningskostnaden med budgeterade anläggningstillgången som anges i fältet **Budgeterat anl.nr.** på journalraden. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).
 
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>För att budgetera avyttringen av en anläggningstillgång:
+
 Om du planerar att sälja tillgångar under budgetperioden kan du föra in uppgifter om försäljningspris och försäljningsdatum.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
@@ -40,6 +43,7 @@ Om du planerar att sälja tillgångar under budgetperioden kan du föra in uppgi
 3. På sidan **Avskrivningsregler för anl.tillg.**, fyll i fälten **Planerat avyttringsdatum** och **Planerad avyttringsintäkt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Så här visar du planerade avyttringsvärden
+
 Om du vill se de planerade avyttringsvärdena och beräkna vinsten och förlusten kan du använda rapporten **Anl. – planerat värde**.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl. – planerat värde** och väljer sedan relaterad länk.
@@ -47,6 +51,7 @@ Om du vill se de planerade avyttringsvärdena och beräkna vinsten och förluste
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
 ## <a name="to-budget-depreciation"></a>Så här budgeterar du avskrivning
+
 Du kan använda rapporten **Anl.tillg. – planerat värde** för att beräkna framtida avskrivning. I rapporten visas bokföringsvärdet och den ackumulerade avskrivningen vid inledningen av den angivna perioden, ändringar under perioden och bokföringsvärde och ackumulerad avskrivning vid slutet av den angivna perioden.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Planerat värde för anläggningstillgång** och väljer sedan relaterad länk.
@@ -55,7 +60,10 @@ Du kan använda rapporten **Anl.tillg. – planerat värde** för att beräkna f
 4. Fyll inte i fälten på snabbfliken **Anläggningstillgång** så inkluderas alla tillgångar. I fältet **Budgeterad tillgång** kan du fylla i **Nej** om du vill utesluta budgeterade tillgångar eller **Ja** om du endast vill visa de budgeterade tillgångarna.
 5. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/budget-fixed-assets/)
+
 ## <a name="see-also"></a>Se även
+
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ekonomi](finance.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e551b7810bba9e75320ca11a2126b15f3b91d812
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c5b4f6835618e57212ac7b3b4a9ecf1c672052f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521994"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077976"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbeta med ansvarsenheter
 
@@ -54,6 +54,8 @@ Du anger dessa inställningar genom att tilldela ansvarsenheter till användare 
 
 > [!NOTE]  
 > Användarna kan bara visa de bokförda dokument som har samband med användarens egen ansvarsenhet. De kan emellertid visa alla reskontratransaktioner och navigera till andra bokförda dokument från reskontratransaktionerna.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also"></a>Se även
 

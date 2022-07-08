@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 4fcc6d93c234e6c7a5b7b62514f53157878fee81
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805236"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079434"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -79,6 +79,8 @@ När ett företag har skapats kan du inte ändra namnet. Du kan emellertid ändr
 
 Appen Contoso Coffee tillhandahåller demonstrationsdata som hjälper dig att utforska de avancerade funktionerna i [!INCLUDE [prod_short](includes/prod_short.md)]. Hitta appen i AppSource och installera den i ett tomt företag, till exempel ett företag i en sandbox-miljö. Mer information finns i [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
 [Anpassa Business Central](ui-customizing-overview.md)  
@@ -87,5 +89,6 @@ Appen Contoso Coffee tillhandahåller demonstrationsdata som hjälper dig att ut
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Förstå infrastrukturen i Business Central online (endast engelska)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

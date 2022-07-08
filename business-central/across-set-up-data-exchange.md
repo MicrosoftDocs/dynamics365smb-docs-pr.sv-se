@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5efaaa688e2636ae68b149e05f9f526d1e4b1d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517140"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075999"
 ---
 # <a name="setting-up-data-exchange"></a>Konfigurera datautbyte
+
 Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta relevanta filerna. Du måste dessutom konfigurera relaterade områden, exempelvis de kunder som du skickar elektroniska fakturor till, eller också AMC Banking 365 Fundamentals-tillägget om du använder den externa tjänsteleverantören för att konvertera dina bankfiler. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
  När [!INCLUDE[prod_short](includes/prod_short.md)] har konfiguerats för utbyte av data med externa filer kan användare använda konfigurationen i gemensamma affärsuppgifter, till exempel för att skicka och ta emot elektroniska dokument och importera och exportera bankfiler.  
@@ -37,7 +38,10 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 |Förbered för att konfigurera en ny datautbytesdefinition för en datafil eller strömma med hjälp av filens XML-schema för att autofylla snabbfliken **Kolumndefinitioner** på sidan **Definitioner för bokföringsbyte**.|[Använda XML-uppställningar för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Konfigurera ramverket för datautbyte så att användare kan ta emot ett nytt inköpsdokumentformat, skicka ett nytt försäljningsdokumentformat, importera en ny bankfil eller göra andra datautbyten.|[Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se även
+
 [Utbyta data elektroniskt](across-data-exchange.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  

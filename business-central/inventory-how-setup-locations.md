@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515517"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077273"
 ---
 # <a name="set-up-locations"></a>Konfigurera platser
 
@@ -27,6 +27,7 @@ Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition p
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Lagerställekort
+
 Du anger information om ett lagerställe, till exempel ett distributionslager eller distributionscenter på sidan **Lagerställekort**. Du tilldelar varje lagerställe ett namn och en kod som representerar lagerstället. Du kan sedan ange lagerställekoden i andra delar av programmet när du vill registrera transaktioner för ett visst lagerställe.  
 
 Du kan ange information om lagerplatser och lagerprinciper för varje lagerställe. Utifrån de lagerprinciper du väljer kan du välja alternativ på snabbfliken **Lagerplatser** för att definiera vilka lagerplatser som ska användas som standard vid transaktioner. Om du använder riktad artikelinförsel och plockning, kan du använda de flesta alternativen på snabbfliken **Lagerplatsprinciper** för att definiera hur du vill använda de olika avancerade lagerfunktionerna.  
@@ -76,7 +77,10 @@ Om du vill strukturera lagerplatser under zoner kan du göra det på sidan **Zon
 Du kan dock välja att bara skapa en zon och strukturera distributionslagret enbart med hjälp av lagerplatser. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standarddimensioner för platser
+
 Du anger standardmått för en plats på sidan **Platskort** genom att välja **Plats** och sedan **Dimensioner**. Platsens standarddimensioner kopieras till journaler och dokument när du anger lagerstället på en rad, men du kan ta bort eller ändra dimensionen på raden om det behövs. Du kan kräva att användarna anger dimensioner för specifika lagerställen innan de kan bokföra en transaktion. Du kan också ta med dimensions värden för lagerställe i **standard dimensionsprioriteringar** och **Dimensionskombinationer** för kombinationer av prioritet och dimensionsregler.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

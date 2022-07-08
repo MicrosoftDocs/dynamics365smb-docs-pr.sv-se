@@ -1,8 +1,6 @@
 ---
 title: Så här justerar du kostnader för artiklar manuellt
 description: Du kan justera lagervärderingen för en artikel manuellt med hjälp av FIFO-eller genomsnittskostnadsmetoderna när kostnaderna för produkter ändras.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8b547aadab56af50aab5442b2634d4bcd1efe4cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d688838b832655a4e36abecf1162fe4e79aba7d8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515017"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078654"
 ---
 # <a name="adjust-item-costs"></a>Justera artikelkostnader
 Kostnaden för en artikel (lagervärde) som du köper och senare säljer kan ändras under dess livstid, eftersom till exempel en fraktkostnad läggs till dess inköpkostnad när du har sålt artikeln. Kostnadsjustering är speciellt relevant i situationer där du säljer varor, innan du fakturerar inköpet av dessa varor. För att alltid ha rätt lagervärde måste artikelkostnader därför regelbundet justeras. Detta säkerställer att försäljnings- och vinststatistiken är aktuell och ekonomiska KPI-er är korrekta. Mer information finns i [Designdetaljer: kostnadsjustering](design-details-cost-adjustment.md).

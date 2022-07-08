@@ -10,12 +10,12 @@ ms.search.keywords: quickstart
 ms.search.form: 1,
 ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: eb466433beecbd9cb41b13fab4cb011dd172cec3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417619"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077117"
 ---
 # <a name="company-information-quick-start"></a>Företagsinformation snabbstart
 
@@ -32,8 +32,13 @@ Du kan ange alla relevanta data på sidan **företagsinformation** när du uppr�
 
 När du har fyllt i informationen kan du stänga sidan.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även  
 
 [Företagsinformation, översikt](admin-company-information.md)  
 [Ställa in företagsinformation i Italien](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

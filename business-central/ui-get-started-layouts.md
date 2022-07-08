@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 600b7e3117b4c75e1e6599c7b1e568c34e6bbbf1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950045"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078472"
 ---
 # <a name="get-started-creating-report-layouts"></a>Kom igång med att skapa rapportlayouter
 
@@ -188,10 +188,11 @@ Följ nedanstående instruktioner om du vill ändra namn på och beskrivning av 
 
 ## <a name="see-also"></a>Se även
 
-[Hantera rapportlayout](ui-manage-report-layouts.md)
+[Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Arbeta med Word-layouter](ui-how-add-fields-word-report-layout.md)  
 [Arbeta med Excel-layouter](ui-excel-report-layouts.md)  
 [Arbeta med rapporter och batch-jobb och XMLports](ui-work-report.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

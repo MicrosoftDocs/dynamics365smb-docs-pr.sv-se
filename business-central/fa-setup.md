@@ -10,14 +10,15 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17e478464d49424d2eb929a297033605c91c25ba
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ec826560a44908b0635bf7698040b1c0e088b04
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516349"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076649"
 ---
 # <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
+
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
 
 * Hur du försäkrar, underhåller och skriver av anläggningstillgångar.  
@@ -41,8 +42,10 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Så här använder du användardefinierade avskrivningsmetoder. |[Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>Se även
+
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  

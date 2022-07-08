@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515205"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078342"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planera plockningar i kalkylark
 
@@ -33,6 +33,7 @@ På sidan **plockningsförslag** kan du skapa plocklistor som hjälper anställd
 > Information om hur du plockar komponenter för monteringsorder i allmänhet, inklusive situationer där monteringsartikeln inte ska betalas på en utleverans, se [Plocka för montering eller produktion i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Sortera rader på ett plockningsförslag
+
 Du kan sortera rader efter artikel, hyllnummer, källdokument, förfallodatum eller destination. Här följer några exempel på hur sortering kan användas.
 
 * Om du sorterar efter förfallodatum kan du välja att ta bort alla rader utom de allra mest kritiska. Egentligen raderas inte de mindre kritiska raderna, utan skickas bara tillbaka till kalkylarket **Plockningsval**. När du skapar plockningen har raderna redan sorterats efter förfallodatum och du kan välja att tilldela en anställd plockningen.
@@ -51,6 +52,8 @@ Du kan sortera rader efter artikel, hyllnummer, källdokument, förfallodatum el
 7. Om det behövs kan du tilldela en annan användare eller sortera raderna på olika sätt.  
 8. Välj åtgärden **Skriv ut** när du vill skriva ut instruktioner.  
 9. När du har utfört plockningen, väljer du åtgärden **Registrera**.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also"></a>Se även
 

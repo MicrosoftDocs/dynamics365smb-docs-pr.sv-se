@@ -229,13 +229,11 @@
 ### Inkommande dokument
 #### [Översikt över inkommande dokument](across-income-documents.md)
 #### [Ställa in inkommande dokument](across-how-setup-income-documents.md)
-#### Bearbeta inkommande dokument
-##### [Bearbeta inkommande dokument](across-process-income-documents.md)
-##### [Skapa inkommande dokumentposter](across-how-create-income-document-records.md)
-##### [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md)
-##### [Skapa inkommande dokumentposter direkt från dokument och transaktioner](across-how-connect-disconnect-income-document-records.md)
-##### [Söka efter bokförda dokument utan inkommande dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
-##### [Hantera många inkommande dokumentposter](across-how-manage-many-income-document-records.md)
+#### [Skapa inkommande dokumentposter](across-how-create-income-document-records.md)
+#### [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md)
+#### [Skapa inkommande dokumentposter direkt från dokument och transaktioner](across-how-connect-disconnect-income-document-records.md)
+#### [Söka efter bokförda dokument utan inkommande dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
+#### [Hantera många inkommande dokumentposter](across-how-manage-many-income-document-records.md)
 
 ### Arbetsflöden
 #### [Arbetsflödesöversikt](across-workflow.md)
@@ -1424,8 +1422,8 @@
 #### Moms
 ##### [Omsättningsskatt USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Rapportering av moms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Rapportering av skattepliktiga 1099-transaktioner i USA](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Ställ in och Använd formuläret IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Regel 1099 formatera ändringar och information](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Ställa in importavgift och ingående moms](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Ställa in orealiserad omsättningsskatt och försäljningskassarabatter](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Bankverksamhet och betalningar

@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 08e8d8a0f8507f1b67d5209d8e76a5f1268d2548
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520610"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078446"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytta artiklar ad hoc i grundläggande lagerkonfigurationer
+
 Ibland kan du behöva flytta artiklar mellan interna lagerställen, inte inleverans eller utleveranslagerställen, utan en viss efterfrågan från ett källdokument. Du kan utföra dessa ad hoc-transporter, till exempel, kan du ordna om distributionslagret, för att få artiklarna till område, eller flytta ytterligare artiklar till och från en produktionsområde utan ett systemsamband med produktionsorderkälldokumentet.  
 
 I grundläggande distributionslagerkonfiguration, dvs lagerställen som använder **Lagerplats ska finnas** inställningsfältet, och möjligen **Begär plockning** och den **Begär artikelinförsel** inställningarna, kan du registrera ad hoc-transporter utan källdokument på följande sätt:  
@@ -28,7 +29,8 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
 > [!NOTE]  
 >  I avancerad lagerkonfiguration, dvs lagerställen som använder **Dirigerad art.inf. och plock.** inställningsfältet använder du **Transportkalkylark** sidan eller **Intern Dist.lager plockning** eller **Intern Dist.lager art.införsel** för flytta artiklar som är ad hoc mellan lagerställen.  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Så här flyttar du artiklar som en internförflyttning  
+## <a name="to-move-items-as-an-internal-movement"></a>Så här flyttar du artiklar som en internförflyttning
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **internförflyttning** och väljer sedan relaterad länk.  
 2.  Fyll i fältet **Nr** på snabbfliken **Allmänt** . Fyll Nr fälten, antingen genom att lämna fältet eller genom att välja **AssistEdit** för att välja nummer i nummerserien.  
 3.  I **Lagerställekod** fältet, ange det lagerställe där transporten ska utföras.  
@@ -36,7 +38,7 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
     Om lagerstället lagts upp som din standardplats som distributionslageranvändare, infogas lagerställekod i automatiskt.  
 4.  I **Till lagerställeskod** fältet, ange en kod för den lagerplats som du vill flytta artikeln till. För produktionen kan detta vara till exempel en öppen produktionslagerställeskod som har angetts på lagerställekortet eller i produktionsgruppen.  
 5.  I **Förfallodatum** fältet, ange det datum då transporten måste ha slutförts.  
-6.  På snabbfliken **Rader** väljer du fältet **Artikelnr** för att öppna sidan **Lagerställesinnehåll lista** och välj sedan artikeln som ska flyttas baserat på dess tillgänglighet i lagerställena. Det går också att välja **Hämta lagerställesinnehåll** för att fylla i interförflyttningsrader baserat på dina filter. Mer information finns i beskrivningen för åtgärden **Hämta lagerställesinnehåll**.   
+6.  På snabbfliken **Rader** väljer du fältet **Artikelnr** för att öppna sidan **Lagerställesinnehåll lista** och välj sedan artikeln som ska flyttas baserat på dess tillgänglighet i lagerställena. Det går också att välja **Hämta lagerställesinnehåll** för att fylla i interförflyttningsrader baserat på dina filter. Mer information finns i beskrivningen för åtgärden **Hämta lagerställesinnehåll**.  
 
     När du har valt artikel innehåller fältet **Från lagerställeskod** automatiskt enligt valt lagerplats, men du kan ändra den till en annan lagerplats där artikeln är tillgänglig.  
 
@@ -57,7 +59,9 @@ I grundläggande distributionslagerkonfiguration, dvs lagerställen som använde
     Du utför resten av ad hoc-flyttningen på sidan **Lagertransport**, på samma sätt som du skulle för en transport baserat på källdokument. För mer information, se [Flytta komponenter till ett verksamhetsområde i grundläggande distributionslagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Så här flyttar du artiklar med artikelgrupperingsjournalen
-Du kan registrera flyttning av objekt genom att gruppera de lagerställeskoder som finns i stället för att använda dokument för distributionslagertransport. Mer information finns i [Inventera, justera och gruppera om lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md).   
+
+Du kan registrera flyttning av objekt genom att gruppera de lagerställeskoder som finns i stället för att använda dokument för distributionslagertransport. Mer information finns i [Inventera, justera och gruppera om lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md).
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikelgrupperingsjournal** och väljer sedan relaterad länk.  
 2.  Definiera vilka lagerställen som du vill flytta artiklar till och från på varje journalrad, genom att fylla i **Lagerställeskod** och **Ny lagerställeskod** fältet.  
 
@@ -69,11 +73,14 @@ Du kan registrera flyttning av objekt genom att gruppera de lagerställeskoder s
     > [!NOTE]  
     >  Till skillnad från transportdokument skapar en transportinstruktion som bokförs med grupperingsjournalen, inte ett distributionslagerkrav att utföra den fysiska aktiviteten.  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+
+## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
-[Monteringshantering](assembly-assemble-items.md)    
+[Lager](inventory-manage-inventory.md)  
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Monteringshantering](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

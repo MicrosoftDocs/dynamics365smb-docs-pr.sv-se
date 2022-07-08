@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
-ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
+ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743677"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075088"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Arbetsflöden i Dynamics 365 Business Central
 
@@ -47,6 +47,8 @@ Om du vill konfigurera och använda arbetsflöden som inte har definierats i Pow
 |Konfigurera arbetsflödesanvändare, anger hur användarna får meddeladen och skapa nya arbetsflöden. Implementera nödvändiga arbetsflödeselement genom att anpassa programkoden för nya arbetsflöden i scenarier som inte stöds.|[Konfigurera arbetsflöden](across-set-up-workflows.md)|  
 |Aktivera arbetsflöden, agera på arbetsflödemeddelanden inklusive begärandegodkännanden och godkänn begäranden för att utföra ett arbetsflödessteg. Arkivera och ta bort arbetsflöden.|[Använd arbetsflöden](across-use-workflows.md)|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Se även
 
 [Försäljning](sales-manage-sales.md)  
@@ -55,5 +57,6 @@ Om du vill konfigurera och använda arbetsflöden som inte har definierats i Pow
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flöden](across-how-use-financials-data-source-flow.md)  
 [Felsöka automatiserade arbetsflöden i [!INCLUDE[prod_short](includes/prod_short.md)]](across-flow-troubleshoot.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

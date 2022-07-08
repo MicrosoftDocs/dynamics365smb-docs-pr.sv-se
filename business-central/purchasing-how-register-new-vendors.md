@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521864"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074620"
 ---
 # <a name="register-new-vendors"></a>Registrera nya leverantörer
 
@@ -32,6 +32,7 @@ Leverantörskort innehåller den information som behövs för att köpa produkte
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Lägga till nya leverantörer
+
 Du kan lägga till nya leverantörer manuellt, genom att fylla i fälten på sidan för **leverantörskortet** eller använda mallar som innehåller fördefinierad information. Du kan t.ex. skapa mallar för olika typer av leverantörsprofiler. När du använder mallar sparar du tid när du lägger till nya leverantörer och ser till att informationen är korrekt varje gång. Om du skapar mallar för fler än en typ av leverantör kan du välja vilken mall du vill använda när du lägger till en leverantör. Om du bara skapar en mall kommer den att användas för alla nya leverantörer. När du har skapat en mall kan du använda åtgärden **tillämpa mall** för att tillämpa den på en eller flera valda leverantörer. Om du vill skapa en mall fyller du i den information som du vill använda på leverantörskortsidan och sparar den som en mall. Mer information finns i [För att spara sidan Leverantörskort som en mall](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ Du kan när som helst redigera informationen på leverantörskort. Om du har bok
 > [!TIP]
 > Du kan ändra IBAN på ett leverantörsbankkonto utan den ändring som påverkar de historiska kreditöverföring journalposterna. Kreditöverföringsjournaler lagrar mottagarens IBAN, Mottagarens bankkontonummer som har angetts i fälten leverantörsbankkonto och mottagarnamn på leverantörskortsidan när transaktionerna skapades.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Om du vill spara leverantörskortet som en mall
 
 1. På sidan **Leverantörskort** väljer du åtgärden **Spara som mall**. Sidan **leverantörsmall** öppnas uppvisar leverantörskortet som mall.
@@ -67,6 +67,8 @@ Du kan när som helst redigera informationen på leverantörskort. Om du har bok
 5. Välj **OK** när du har slutfört den nya leverantörsmallen.  
    Leverantörsmallen läggs till listan över leverantörsmallar, så att du kan använda det för att skapa nya leverantörskort.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
 [Slå samman dubblettposter](sales-how-merge-duplicate-records.md)  
@@ -74,5 +76,6 @@ Du kan när som helst redigera informationen på leverantörskort. Om du har bok
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

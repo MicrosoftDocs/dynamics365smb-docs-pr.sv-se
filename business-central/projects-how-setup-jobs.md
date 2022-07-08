@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 369e47e5bb8d30f2042b7051ed5bc0a1124a0797
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514914"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079044"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Ställ in projekt, priser och projektbokföringsmallar
 
@@ -22,6 +22,7 @@ Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar 
 För varje jobb, anger du de individuella de projektkorten med information om priser för projektartiklar, projektresurser och projektredovisningskonton och du måste skapa projektbokföringsmallar.
 
 ## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projektinställningar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -49,12 +50,14 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>För att skapa priser för resurser, artiklar och redovisningskonton för jobb
+
 > [!NOTE]
 > I 2020 års utgivningscykel 2 släppte vi nya processer för att ställa in och hantera priser och rabatter. Om du är en ny kund använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Du kan skap priser för resurser, artiklar och redovisningskonton relaterade till ett jobb. 
 
 #### <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Välj jobbet och sedan åtgärden **Resurs**, **Artikel** eller **Redovisningskonto**.
 3. På sidorna fyller du i **Priser för jobbresurser**, **Priser för jobbartiklar** eller **Priser för jobbredovisningskonto** efter behov.
@@ -68,12 +71,14 @@ I följande tabell visas hur informationen i de valfria fälten används på pro
 |**Redovisningskonton**|Den valfria informationen i fälten **Projektaktivitetsnr.**, **Valutakod**, **Radrabatt %**, **Styckkostnadsfaktor** och **Styckkostnad** kommer att användas i projektplaneringsrader och projektjournaler när detta redovisningskonto anges och läggs till i ett projekt. Värdet i fältet **Enhetspris** för projektkostnaden för redovisningskontot kommer att användas i projekplaneringstjournalerna och projektjournalerna när detta redovisningskonto anges.|
 
 #### <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Välj relevant projekt och sedan åtgärden **Försäljningsprislistor**.
 
 ---
 
 ## <a name="to-set-up-job-posting-groups"></a>Så här lägger du upp projektbokföringsmallar
+
 En aspekt av att planera projektet är att bestämma vilka bokföringskonton som ska användas för projektvärdering. Om du vill kunna bokföra projekt måste du lägga upp bokföringskonton för varje projektbokföringsmall. En bokföringsmall representerar en länk mellan projektet och hur det ska hanteras i redovisningen. När du skapar ett projekt anger du en bokföringsmall och, som standard, kopplar du varje aktivitet som du skapar för projektet till den här bokföringsmallen. Men medan du skapar aktiviteter kan du välja att åsidosätta standarden och välja en annan, mer lämplig, bokföringsmall.  
 
 > [!NOTE]  
@@ -99,6 +104,8 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 | **Konto för projektförsäljningsjustering** |Balanskontot för PIA-projektförsäljningskontot, som är ett inkomstkonto. |
 | **Konto för bokförda kostnader** |Det kostnadskonto som innehåller bokförda kostnader för projektet. Kontot är vanligtvis ett debetkonto för kostnader. |
 | **Konto för bokförd försäljning** |Inkomstkontot som innehåller den bokförda inkomsten för projektet. Kontot är vanligtvis ett kreditkonto för inkomst. |
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Se även
 

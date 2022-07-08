@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655104"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076805"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
 
@@ -330,6 +330,7 @@ Ordet för ”tid” på det språk som används av [!INCLUDE[prod_short](includ
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Ange varaktighet
+
 Vissa fält i programmet representerar en varaktighet eller mängden förfluten tid, i stället för ett visst datum eller tid. Du anger varaktigheten som en siffra följd av en enhet.
 
 Här följer några exempel.
@@ -348,6 +349,8 @@ Du kan även ange en siffra som automatiskt konverteras till en varaktighet. Det
 Ange en siffra för att se vilken måttenhet som används i fältet för varaktighet. Sedan kan du se vilken måttenhet den konverteras till.
 
 Till exempel om mätenheten är timmar konverteras siffran 5 till 5 timmar.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

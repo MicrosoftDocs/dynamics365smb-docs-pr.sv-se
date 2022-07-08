@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b8b26eb67f01ce38ebffd74f49683a583e2cce98
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b2e1b0971d6fe8c9c48ba2e0ca03271429c9841d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514075"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076623"
 ---
 # <a name="about-cost-accounting"></a>Om kostnadsredovisning
+
 Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verksamhet. Information om kostnadsredovisning har utformats för att analysera:  
 
 -   Vilka typer av kostnader uppkommer när du driver en verksamhet?  
@@ -25,7 +26,8 @@ Kostnadsredovisning kan hjälpa dig förstå kostnaderna för att driva en verks
 
 I kostnadsredovisning fördelar du faktiska och budgeterade kostnader för avdelningar, funktioner, produkter och projekt för att analysera lönsamheten för ditt företag.  
 
-## <a name="workflow-in-cost-accounting"></a>Arbetsflöde i kostnadsredovisning  
+## <a name="workflow-in-cost-accounting"></a>Arbetsflöde i kostnadsredovisning
+
 Kostnadsredovisning har följande huvudkomponenter:  
 
 -   Kostnadstyper, kostnadsställen och kostnadsbärare  
@@ -38,7 +40,8 @@ Diagrammet beskriver arbetsflödet för kostnadsredovisning.
 
 ![Kostnadsredovisning – översikt.](media/costaccountingoverview.png "CostAccountingOverview")  
 
-## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostnadstyper, kostnadsställen och kostnadsbärare  
+## <a name="cost-types-cost-centers-and-cost-objects"></a>Kostnadstyper, kostnadsställen och kostnadsbärare
+
 Du definierar kostnadstyper, kostnadsställen och kostnadsbärare för att analysera vad kostnaderna är, var kostnader kommer ifrån och vem som ska bära kostnaderna.  
 
 Du definierar en karta över kostnadstyper med en struktur och funktion som liknar redovisningskontoplanen. Du kan överföra redovisningens resultaträkningskonton eller upprätta din egen plan för kostnadstyper.  
@@ -49,27 +52,34 @@ Kostnadsbärare är produkter, produktgrupper eller tjänster för ett företag.
 
 Du kan koppla kostnadsställen till avdelningar och kostnadsbärare till projekt i företaget. Du kan dock koppla kostnadsställen och kostnadsbärare till dimensioner i redovisningen och komplettera dem med delsummor och titlar.  
 
-## <a name="cost-entries-and-cost-journals"></a>Kostnadstransaktioner och kostnadsjournaler  
+## <a name="cost-entries-and-cost-journals"></a>Kostnadstransaktioner och kostnadsjournaler
+
 Rörelsekostnader kan överföras från redovisningen. Du kan överföra kostnadstransaktionerna automatiskt från redovisningen till kostnadstransaktioner med varje bokföring. Du kan också använda ett batch-jobb för att överföra redovisningstransaktionerna till kostnadstransaktioner baserat på sammanfattande bokföring för dag eller månad.  
 
 I kostnadsjournaler kan du bokföra kostnader och aktiviteter som inte finns i redovisning eller inte skapas med fördelningar. Du kan till exempel bokföra rena rörelsekostnader, internavgifter, fördelningar och rättningstransaktioner mellan kostnadstyper, kostnadsställen och kostnadsbärare enskilt eller återkommande.  
 
-## <a name="cost-allocations"></a>Kostnadsfördelningar  
+## <a name="cost-allocations"></a>Kostnadsfördelningar
+
 Fördelningar flyttar kostnader och intäkter mellan kostnadstyper, kostnadsställen och kostnadsbärare. Omkostnader bokförs först till kostnadsställen och debiteras senare på kostnadsbärare. Till exempel kan detta utföras i en försäljningsavdelning som säljer flera produkter samtidigt. Direkta kostnader kan direkt hänföras till en kostnadsbärare, till exempel ett material som köps för en viss produkt.  
 
 Fördelningsbasen som används och noggrannheten hos fördelningsdefinitionen påverkar resultatet av kostnadsfördelningar. Fördelningsdefinitionen används för att tilldela kostnader först från så kallade förkostnadsställen till huvudkostnadsställen och sedan från kostnadsställen till kostnadsbärare.  
 
 Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Du kan tilldela faktiska värden eller budgeterade värden genom att använda den statiska fördelningsmetoden som är baserad på ett visst värde, till exempel kvadratmetrar, eller en fastställd fördelningskvot på 5:2:4. Du kan också koppla verkliga värden eller budgeterade värden genom att använda den dynamiska distributionsmetoden med nio fördefinierade fördelningsbaser och 12 dynamiska datumintervall.  
 
-## <a name="cost-budgets"></a>Kostnadsbudgetar  
+## <a name="cost-budgets"></a>Kostnadsbudgetar
+
 Du kan skapa kostnadsbudgetar efter behov. Du kan kopiera kostnadsbudgeten till redovisningsbudgeten och tvärtom. Du kan överföra budgeterade kostnader som faktiska kostnader.  
 
-## <a name="cost-reporting"></a>Rapportering av kostnader  
+## <a name="cost-reporting"></a>Rapportering av kostnader
+
 De flesta rapporter och statistik baseras på de bokförda kostnadstransaktionerna. Du kan ange sortering av resultat och använda filter för att definiera vilka data som måste visas. Du kan skapa rapporter för kostnadsfördelningsanalys. Dessutom kan du använda standardkontouppställningar för att ange hur dina rapporter för planen över kostnadstyper visas.  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se även
+
  [Redovisa kostnader](finance-manage-cost-accounting.md)  
- [Ekonomi](finance.md)   
+ [Ekonomi](finance.md)  
  [Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

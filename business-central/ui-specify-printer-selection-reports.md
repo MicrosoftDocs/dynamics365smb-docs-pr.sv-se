@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655297"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075661"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 
@@ -269,11 +269,14 @@ Du eller administratören kan också använda sidan **Skrivarhantering** för at
 > Mer specifika skrivarval har företräde framför mer allmänna skrivarval. Ett skrivarval som exempelvis har värden i fälten **Användar-ID**, **Rapport-ID** och **Skrivarnamn** har företräde framför ett skrivarval som innehåller tomma poster i fälten **Användar-ID** och **Rapport-ID**.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Välja skrivare när en rapport körs
+
 I stället för att använda standardskrivaren när du kör en rapport kan du åsidosätta inställningen från begärandesidan. Välj helt enkelt den skrivare som du vill använda för detta anrop i rapporten i listrutan **Skrivare**.
 
 ### <a name="sizing-print-jobs"></a>Ändra storlek på utskriftsjobb
 
 Molnutskrift är utformat för dokument av rimligt storlek. De flesta molntjänster, inklusive PrintNode och HP ePrint, har en gräns på 10 MB per jobb. Om du behöver skriva ut större rapporter måste du kanske dela upp dem i flera utskrifter.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

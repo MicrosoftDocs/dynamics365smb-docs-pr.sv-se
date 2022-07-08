@@ -9,23 +9,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 74af60caaf286b9993402228b050e3717fb847a6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 80c8eab293fbabd05e385c89f63f7900a7e7cbde
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136911"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074547"
 ---
 # <a name="create-service-items"></a>Skapa tjänsteartiklar
+
 I [!INCLUDE[prod_short](includes/prod_short.md)] avser termen ”serviceartikel” den utrustning eller de artiklar som kräver service. När du skapar en serviceorder kan du ange de artiklar som behöver service. I ordern kan du länka en serviceartikel till en artikel i lagret eller en serviceartikelgrupp.    
 
 När du tar emot en artikel för service kan du registrera den som serviceartikel. Detta kan göras på olika sätt. Du kan till exempel skapa en serviceartikel på sidan **serviceartiklar** eller som en del av en annan process, som t. ex. när du arbetar med en serviceorder.   
 
-## <a name="to-create-a-service-item"></a>Så här skapar du en serviceartikel  
+## <a name="to-create-a-service-item"></a>Så här skapar du en serviceartikel
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **serviceartiklar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order"></a>Så här skapar du serviceartiklar inom serviceorder  
+## <a name="to-create-service-items-within-a-service-order"></a>Så här skapar du serviceartiklar inom serviceorder
+
 När du tar emot artiklar som du vill registrera som serviceartiklar kan du skapa dem som serviceartiklar på sidan **Serviceorder** eller **Serviceoffert**.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceorder** och väljer sedan relaterad länk.  
@@ -34,7 +37,8 @@ När du tar emot artiklar som du vill registrera som serviceartiklar kan du skap
 
     Ett nummer tilldelas serviceartikeln, och ett serviceartikelkort skapas. I fältet **Serviceartikelnr** fylls numret på den nya serviceartikeln i.
 
-## <a name="to-create-a-service-item-when-shipping-items"></a>Så här skapar du en serviceartikel vid artikelutleverans  
+## <a name="to-create-a-service-item-when-shipping-items"></a>Så här skapar du en serviceartikel vid artikelutleverans
+
 När du levererar artiklar genom att bokföra antingen försäljningsorder eller försäljningsfakturor registreras de levererade artiklarna automatiskt som serviceartiklar om följande villkor uppfylls. Artiklarna måste höra till en serviceartikelgrupp och ha kryssrutan **Skapa serviceartikel** markerad. Om artiklarnas serienummer har registrerats på sidan Artikelspårningsrader kopieras informationen automatiskt till fältet **Serienr** på serviceartikelkortet när serviceartiklar skapas.  
 
 Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på försäljningsorder.  
@@ -51,13 +55,17 @@ Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på f�
 >  Om en artikel är en struktur och du inte har expanderat strukturen skapas en serviceartikel för den utifrån serviceartikelgruppens villkor, och om du så vill, serienumrens villkor.  
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Så här infogar du uppstartskostnader för en serviceartikel
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceuppgifter** och väljer sedan relaterad länk.
 2. Välj åtgärden **Artikelkalkylark**.
 3. Välj serviceraden och välj sedan **Åtgärder**, **Funktioner** och sedan åtgärden **Infoga uppstartskostnad**.  
 
     En servicerad av typen **Kostnad** infogas automatiskt med uppstartskostnaden. Uppstartskostnaden gäller vald serviceartikel.
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-items/)
+
+## <a name="see-also"></a>Se även
+
 [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Servicehantering](service-service.md)  

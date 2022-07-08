@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513425"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076753"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Genomgång: Hantera projekt med Projekt
 
@@ -24,54 +24,63 @@ Den här genomgången introducerar dig för projekthanteringsfunktionerna i proj
 
  I den här genomgången beskrivs hur du lägger upp ett nytt projekt samt några av de vanligaste aktiviteterna, som att hantera fast prissättning, delbetalningar, bokföra fakturor från projekt och kopiera projekt.  
 
-## <a name="about-this-walkthrough"></a>Om den här genomgången  
+## <a name="about-this-walkthrough"></a>Om den här genomgången
+
  I den här genomgången tas följande aktiviteter upp:  
 
-### <a name="setting-up-a-job"></a>Lägga upp ett projekt  
+### <a name="setting-up-a-job"></a>Lägga upp ett projekt
+
  Med fältet budgetstrukturinställningar för projekt kan du skapa projekt på ett okomplicerat sätt. Den här genomgången beskriver följande procedurer:  
 
 - Lägga upp aktivitetsrader och planeringsrader.  
 - Skapa projektspecifika priser för artiklar, resurser och redovisningskonton.  
 - Fakturering från ett projekt.  
 
-### <a name="handling-fixed-prices"></a>Hantera fasta priser  
+### <a name="handling-fixed-prices"></a>Hantera fasta priser
+
  I Projekt kan du hantera fasta priser och priser för tjänster och produkter som överenskommits i förväg med kunderna. I denna genomgång kan du göra följande:  
 
 - Se hur kontrakts- och fakturavärden fastställs.  
 - Lämna utrymme för extra (ej fakturerat) arbete i planeringen.  
 
-### <a name="copying-a-job"></a>Kopiera ett projekt  
+### <a name="copying-a-job"></a>Kopiera ett projekt
+
  I det här scenariot fokuserar vi på hur du kopierar en del eller hela projektet för att minska den manuella dataregistreringen och öka noggrannheten. Detta omfattar följande:  
 
 - Kopiera en del av ett projekt till ett nytt projekt.  
 - Kopiera projektspecifika priser.  
 - Kopiera planeringsrader.  
 
-### <a name="making-payment-by-installment"></a>Göra delbetalningar  
+### <a name="making-payment-by-installment"></a>Göra delbetalningar
+
  När ett stort och kostsamt projekt sträcker sig över en längre period kommer oftast kunden överens med företaget om att dela upp betalningen. I det här scenariot visas hur du konfigurerar delbetalningar och det omfattar:  
 
 - Hur du skapar delbetalningar för ett projekt.  
 - Fakturera kunder för utbetalningar.  
 - Bokföra förbrukning i ett delbetalningsprojekt.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
  Den här genomgången innehåller aktiviteter för följande roller:  
 
 - Projektchef  
 - Projektmedlemmen  
 
-## <a name="prerequisites"></a>Förutsättningar  
+## <a name="prerequisites"></a>Förutsättningar
+
  Innan du kan utföra aktiviteterna i den här genomgången måste du göra följande  
 
 - Installera demonstrationsdatabasen CRONUS.
 - Skapa exempeldata med hjälp av stegen i följande avsnitt.  
 
-## <a name="story"></a>Situation  
+## <a name="story"></a>Situation
+
 Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash är projektchef på CRONUS. Han använder projekt för att få en överblick över alla pågående projekt som CRONUS har startat, sig samt de projekt som har avslutats. Han brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Han upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[prod_short](includes/prod_short.md)] aktiverar kopiering av projektet och delbetalningar.
 
  Tricia, en projektmedlem som rapporterar till Prakash, är ansvarig för övervakning av det dagliga arbetet. Hon registrerar sitt eget arbete samt arbete som utförts av tekniker i varje aktivitet. Hon registrerar artiklarna som de har använt, och de kostnader som har uppstått.  
 
-## <a name="preparing-sample-data"></a>Förbereda exempeldata  
+## <a name="preparing-sample-data"></a>Förbereda exempeldata
+
  För att förbereda för genomgången måste du lägga till Tricia som en ny resurs.  
 
 ### <a name="to-prepare-the-sample-data"></a>Så här förbereder du exempeldata  
@@ -109,7 +118,8 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 4.  Välj **OK** för att spara ändringar.
 
-## <a name="setting-up-a-job"></a>Lägga upp ett projekt  
+## <a name="setting-up-a-job"></a>Lägga upp ett projekt
+
  I det här scenariet har CRONUS tecknat ett avtal med en kund, Progressive Home Furnishings, för att inreda ett konferensrum och en matsal. Kunden finns i USA och programmet kommer att kräva särskild programvara. projektledaren går igenom upplägget med kunden och skapar ett projekt utifrån det.  
 
 ### <a name="to-set-up-a-job"></a>Så här lägger du upp ett projekt:  
@@ -202,7 +212,8 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 4. Stäng sidan. Summorna uppdateras på sidan **Projektaktivitetsrader**.  
 
-## <a name="calculating-remaining-usage"></a>Beräkna återstående förbrukning  
+## <a name="calculating-remaining-usage"></a>Beräkna återstående förbrukning
+
  Tricia, teamprojektmedlem, har arbetat med projektet ett tag och vill registrera sina timmar och sin förbrukning för projektet. Hon har inte arbetat mer timmar än vad som överenskommits med kunden. Hon använder batch-jobbet **Ber. återstående förbrukning** för att beräkna återstående förbrukning för projekter i en projektjournal. För varje projektaktivitet beräknas skillnaden mellan planerad förbrukning av artiklar, resurser, redovisningskostnader och verklig förbrukning i projekttransaktioner. Den återstående förbrukningen visas sedan i den projektjournal som hon kan bokföra den ifrån.  
 
 ### <a name="to-calculate-remaining-usage"></a>Så här beräknar du återstående förbrukning  
@@ -219,7 +230,8 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 Raderna är nu bokförda.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Skapa och bokföra en försäljningsfaktura för ett projekt  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Skapa och bokföra en försäljningsfaktura för ett projekt
+
  I nästa steg kan Tricia skapa en ny faktura för hela projektet eller för en del av ett projekt. Hon kan även bifoga fakturan till en annan faktura för samma kund inom samma projekt. I detta fall kan hon fakturera hela projektet eftersom projektet nu är slutfört.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>Så här skapar du en projektförsäljningsfaktura  
@@ -252,7 +264,8 @@ Raderna är nu bokförda.
 2.  Välj åtgärden **Statistik**. Du kan granska detaljerad information om projektets priser, kostnader och vinster i både lokala och utländska valutor.  
 3.  Välj **Stäng** för att stänga sidan **Projektstatistik**.  
 
-## <a name="handling-fixed-prices"></a>Hantera fasta priser  
+## <a name="handling-fixed-prices"></a>Hantera fasta priser
+
  CRONUS har fått uppdraget att inreda tio konferensrum. Som projektchef vill Prakash ha en god översikt över de aktiviteter som ska utföras i projektet samt tillhörande budget och kostnader för respektive aktivitet. Han vill dessutom veta det totala pris som överenskommits för projektet och det belopp som har fakturerats hittills. Han har nått en överenskommelse med kunden om att projektet ska ha ett fast pris.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Så här hanterar du fast prissättning i projekt  
@@ -443,15 +456,18 @@ Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och stäl
 2.  Ange dagens datum som bokföringsdatum på sidan **Skapa försäljningsfaktura**, ange **Per aktivitet** och välj **OK** för att skapa en faktura med standardinformationen. Välj **OK** för att stänga bekräftelsesidan.  
 3.  Välj åtgärden **Skapa försäljningsfaktura/kreditnota**. På försäljningsfakturan ser du att det bara är handpenningen som ingår i fakturan. Du kan nu skicka fakturan till kunden enligt överenskommelse.  
 
-## <a name="next-steps"></a>Gå vidare  
+## <a name="next-steps"></a>Gå vidare
+
  Den här genomgången har handlat om några av de grundläggande stegen när man arbetar med projekt i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lärt dig hur du skapar ett nytt projekt, hur du kopierar ett projekt och hur du hanterar betalningar. Du har också sett en demonstration av hur du kan följa upp timmar och skapa fakturor.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/create-jobs/)
 
 ## <a name="see-also"></a>Se även
 
- [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
- [Ställa in projekthantering](projects-setup-projects.md)   
- [Använda resurser](projects-how-use-resources.md)   
- [Övervaka framsteg och resultat](projects-how-monitor-progress-performance.md)   
+ [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
+ [Ställa in projekthantering](projects-setup-projects.md)  
+ [Använda resurser](projects-how-use-resources.md)  
+ [Övervaka framsteg och resultat](projects-how-monitor-progress-performance.md)  
  [Fakturera projekt](projects-how-invoice-jobs.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

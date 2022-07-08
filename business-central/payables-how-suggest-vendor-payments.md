@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1360d4189bfeb8ca446e4a372613bed9f14284a4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522804"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075401"
 ---
 # <a name="suggest-vendor-payments"></a>Betalningsförslag för lev.
 
@@ -33,12 +33,14 @@ För att dra full nytta av betalningsförslagen, måste du prioritera leverantö
     * Öppna leverantörstransaktioner som är berättigade till kassarabatter, ordnade efter leverantörsnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Om du vill använda funktionen Betalningsförslag för lev.
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.  
 2. Öppna den relevanta journalen och välj sedan åtgärden **Betalningsförslag för lev.**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Välj **OK**.  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Så här infogar du förfallodatum som bokföringsdatum på betalningsjournalrader
+
 När du använder **Betalningsförslag för lev.**-batchjobbet för att skapa betalningsrader för leverantörer, kan du fylla två specialfält så att de genererade raderna använder förfallodatumet för att beräkna bokföringsdatumet. Dessa fält är **Beräkna bokföringsdatum från dokumentets förfallodatum** och **Dokumentets förfallodatum är förskjutet**.  
 
 > [!IMPORTANT]  
@@ -51,7 +53,10 @@ Du kan även skapa betalningsrader manuellt genom att använda förfallodatum f�
 > [!NOTE]  
 >   Om inköpsfakturan har förfallit kommer bokföringsdatum att anges till arbetsdatumet, och teckensnittet på raden ändras till röd färg.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/suggest-vendor-payments-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Göra betalningar](payables-make-payments.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  

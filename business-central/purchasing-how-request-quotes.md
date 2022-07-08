@@ -10,29 +10,34 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: cb2913c506362a7f4cbbed21f47093e3f5d8819a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bad66452613dba8175404e67d1d8b421902bb8d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517244"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076987"
 ---
 # <a name="request-quotes"></a>Begär offerter
 
 En inköpsoffert kan användas som ett preliminärt utkast för en inköpsorder, som sedan kan göras om till en inköpsfaktura eller en order.
 
 ## <a name="to-create-a-purchase-quote"></a>Så här skapar du en inköpsoffert:
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsofferter** och väljer sedan relaterad länk.
 2. Skapa ett nytt dokument på samma sätt som du gör en inköpsorder. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Så här gör du om inköpsofferter till inköpsorder:
+
 När du har accepterat leverantörens offert kan du omvandla den till en inköpsfaktura eller en order för att behandla inköpet.
 
 1. Öppna en inköpsoffert som är redo att konvertera och välj sedan åtgärden **skapa order**.
 
 Inköpsofferten tas bort från databasen. En inköpsfaktura eller försäljningsorder skapas baserat på informationen i inköpsofferten där du kan bearbeta inköpet. I fältet **Offertnr** på inköpsfakturan eller inköpsordern kan du ange numret på inköpsofferten som den har skapats från.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Inköp](purchasing-manage-purchasing.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Skicka dokument via e-post](ui-how-send-documents-email.md)  

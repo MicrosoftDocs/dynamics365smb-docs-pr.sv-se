@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: f36d255c555c9ac83205a675bc7647cb02e0b3c2
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.openlocfilehash: e501f61f61aec9d9ffc4acd9607ee6b9cf22e74f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419630"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074906"
 ---
 # <a name="set-up-currencies"></a>Konfigurera valutor
 
@@ -81,19 +81,19 @@ I följande tabell anges viktiga åtgärder på sidan **Valutor**.
 
 När du hanterar valutor som inte använder decimaler och om du vill undvika onödiga decimaler i utländsk valuta kan du använda två olika avrundningsfunktioner:
 
-- Enhetspris-avrundning  
+- A-pris avrundning  
 
-- Beloppavrundning  
+- Belopp avrundning  
 
 Dessa funktioner kan användas oberoende av varandra eller i kombination. Dessa funktioner kan dessutom användas i samband med fakturaavrundning.
 
-I motsats till fakturaavrundningsfunktionerna påverkar funktionen Enhetspris-avrundning och Belopp avrundning bara belopp i utländsk valuta – inte motsvarande belopp i BVA. Dessa två funktioner leder inte till några bokföringar på redovisningskontona. Därför behöver inga redovisningskonton anges i bokföringsmallar eller på andra ställen.
+I motsats till fakturaavrundningsfunktionerna, påverkar funktionen A-pris avrundning och Belopp avrundning bara belopp i utländsk valuta - inte motsvarande belopp i BVA. Dessa två funktioner leder inte till några bokföringar på redovisningskontona. Därför behöver inga redovisningskonton anges i bokföringsmallar eller på andra ställen.
 
 ### <a name="unit-amount-rounding"></a>Enhetspris-avrundning
 
 Funktionen Enhetspris-avrundning styr hur försäljningspriser för artiklar och resurser i utländsk valuta rundas av på försäljnings- och inköpsrader. Du måste ange reglerna för respektive valuta separat, i fältet **Enhetspris-avrundning** i listan **Valutor**.
 
-Funktionen Enhetspris-avrundning används automatiskt varje gång du registrerar ett artikel- eller resursnummer på en försäljningsrad. Om fakturan gäller en kund med en valutakod konverteras artikel- eller resurspriset till kundens valuta. Priset avrundas enligt Enhetspris-avrundning för valutan.
+Funktionen Enhetspris-avrundning används automatiskt varje gång du registrerar ett artikel- eller resursnummer på en försäljningsrad. Om fakturan gäller en kund med en valutakod, konverteras artikel- eller resurspriset till kundens valuta. Priset avrundas enligt Enhetspris-avrundning för valutan.
 
 ### <a name="amount-rounding"></a>Beloppavrundning
 
@@ -117,7 +117,12 @@ Du kan registrera en valutakod på en redovisningsjournalrad och bokföra raden 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/currencies-exchange-rates-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
 
 [Uppdatera valutakurser](finance-how-update-currencies.md)  
 [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,15 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626401"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074698"
 ---
 # <a name="create-jobs"></a>Skapa projekt
+
 När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
 
 Det första lagret består av projektaktiviteter. Du måste skapa minst en projektaktivitet per projekt eftersom all bokföring refererar till en projektaktivitet. Med åtminstone en projektaktivitet i ditt projekt kan du lägga upp projektplaneringsrader och bokföra förbrukningen i projektet.
@@ -34,6 +35,7 @@ Ibland är den part som tar emot en service inte densamma som den part som betal
 * Skriv över projektets standard ekonomiska villkor.
 
 ## <a name="to-create-a-job-card"></a>Så här skapar du ett projektkort.
+
 Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
@@ -44,6 +46,7 @@ Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektpla
 >   Om du använder tidrapporter i projektet måste du också ange en person som ansvarar. Denna person kan godkänna tidrapporter för anställdas aktiviteter som är kopplade till projektet. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Skapa aktiviteter för ett projekt
+
 En viktig del när du skapar ett projekt är att ange de olika aktiviteter som ingår i projektet. Du anger uppgifter genom att skapa en rad per uppgift på snabbfliken **Uppgifter** på sidan **Projektkort**. Varje projekt måste ha minst en aktivitet.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.
@@ -54,6 +57,7 @@ En viktig del när du skapar ett projekt är att ange de olika aktiviteter som i
 6. Om du vill ange projektaktiviteter med information om andra projektaktiviteter väljer du åtgärden **Kopiera projektaktiviteter från**, fyller i fälten efter behov och väljer sedan knappen **OK**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Så här skapar du en planeringsrad för ett projekt
+
 Du kan förfina dina nya projektaktiviteter på projektplaneringsrader. En planeringsrad kan används för att samla in den information som du vill spåra för ett projekt. Du kan t.ex. spåra de resurser som krävs av projektet eller vilka artiklar som behövs. Du har till exempel en uppgift för att få en kund att godkänna ett projekt. Du kan associera den aktiviteten med planeringsrader för objekt som att träffa kund och tilldela en resurs.  
 
 En projektplaneringsrad kan ha en av följande typer.  
@@ -72,6 +76,8 @@ En projektplaneringsrad kan ha en av följande typer.
 3. Markera ett projekt där fältet **Typ av projektaktivitet** innehåller **Bokföring** och klicka sedan på åtgärden **Projektplaneringsrader**.  
 4. På sidan **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.
 5. Upprepa steg 3 och 4 för alla de planeringsrader som du behöver för projektaktiviteten.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-new-job/)
 
 ## <a name="see-also"></a>Se även
 

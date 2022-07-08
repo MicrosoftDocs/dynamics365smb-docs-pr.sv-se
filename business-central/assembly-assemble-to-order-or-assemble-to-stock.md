@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517010"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075973"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Förstå montering mot kundorder och montering mot lager
+
 Monteringsartiklar kan levereras i följande två processerna:  
 
 -   Montering mot order.  
 -   Montering mot lager.  
 
-## <a name="assemble-to-order"></a>Montering mot kundorder  
+## <a name="assemble-to-order"></a>Montering mot kundorder
+
 Du använder vanligtvis *montering mot kundorder* för de artiklar som du inte vill att tillverka, eftersom du förväntar dig att anpassa dem till kundförfrågningar, eller eftersom du vill att minska den bärande kostnaden för lagret. Den andra funktionen är:  
 
 -   Kapacitet för att anpassa monteringsartiklar, när ta en försäljningsorder.  
@@ -43,7 +45,8 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 
  Om du vill aktivera den här processen, måste fältet **Monteringsmetod** på artikelkortet vara **Montering mot kundorder**.  
 
-## <a name="assemble-to-stock"></a>Montering mot lager  
+## <a name="assemble-to-stock"></a>Montering mot lager
+
  Du kan använda den för *montering mot lager* för de artiklar som du vill att sammanställa framåt av försäljning, till exempel att förbereda för en satskampanj och hålla lagret tills de beställs. Dessa artiklar är vanligtvis standardobjekt som emballerade satser, som du inte erbjuder för att anpassa till kundförfrågningar.  
 
  I montering mot lager monteras artiklar utan direkt försäljningsbehov och i lagras som en lagerartikel i distributionslagret för senare försäljning eller förbrukning som ett detaljmontage. Mer information finns i [Montera artiklar](assembly-how-to-assemble-items.md). I det här läget plockas artikel och bearbetas som ett enstaka artikel och är hanterade som en avslutad produktionsartikel.  
@@ -55,7 +58,8 @@ När du anger en artikel för montering mot kundorder på en försäljningsrad, 
 
  Om du vill aktivera den här processen, måste fältet **Monteringsmetod** på artikelkortet vara **Montering mot lager**.  
 
-## <a name="combination-scenarios"></a>Kombinationsscenarion  
+## <a name="combination-scenarios"></a>Kombinationsscenarion
+
  En allmän princip i monteringshantering är att montering mot kundorder, när de kombineras på en försäljningsorderrad, måste levereras innan och lagerkvantiteten.  
 
  Om en monteringsorder är kopplad till en försäljningsorderrad, uppdateras värdet i fältet i **Antal att montera mot kundorder** på försäljningsorderraden, **Antal att montera** via **Antal** på monteringsorderhuvudet. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -90,6 +94,8 @@ Utifrån detta exempel kan du endast ändra fältet **Antal att montera** enligt
 
 - Den lägsta kvantitet som du kan ange är 1. Det är eftersom du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
 - Den höga kvantitet som du kan ange är 4. Detta görs för att se till att du inte monterar flera av denna monteringmotkundorderartikel än vad som behövs på försäljningen.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

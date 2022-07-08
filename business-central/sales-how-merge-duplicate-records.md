@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 412dd6ae2842c408ac0a4be7be369c01019a814b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510667"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074491"
 ---
 # <a name="merge-duplicate-records"></a>Slå samman dubblettposter
+
 När olika användare skapar nya kunder, leverantörer eller kontaktkort med tiden eller nya poster skapas automatiskt vid migrering kan kund, leverantör eller kontakt visas på system med mer än en post. I så fall kan du använda sidan **slå samman dubletter** från kortet för den post som du vill behålla. Den här sidan innehåller en översikt över dubbla fältvärden och innehåller funktioner för att välja vilka värden som ska behållas eller ignoreras när du slår samman två poster i en.
 
 > [!NOTE]
@@ -61,7 +62,10 @@ Följande procedur baseras på ett kundkort. Momenten är liknande för en lever
 > [!NOTE]
 > För kontakter kan du använda funktionen för att söka efter dubbletter av kontakter innan du använder sidan **slå samman dubbletter**. Mer information finns i [söka efter dubblettkontakter](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Försäljning](sales-manage-sales.md)  
 [Ställa in kontakter](marketing-setup-contacts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

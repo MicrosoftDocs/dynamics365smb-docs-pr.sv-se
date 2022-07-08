@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522384"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075140"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurera arbetsflödesanvändare
 
@@ -43,6 +43,8 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
     |**Sekvensnr**|Ange den ordning som arbetsflödesanvändaren agerar i ett arbetsflöde i förhållanden till andra användare. Detta fält kan användas, till exempel, för att ange när användaren godkänner i förhållande till andra godkännare när du använder alternativet **Arbetsflödesanvändargrupp** i fältet **Godkännartyp** på det relaterade arbetsflödesvaret. **Tips!** Om du vill definiera att en godkännandebegäran inte godkänns förrän flera godkännare har godkänt den, oavsett plats i en hierarki, ställer du in en plan arbetsflödeanvändargrupp genom att tilldela samma sekvensnumret till de relevanta godkännarna.|  
 6. Upprepa steg 5 för att lägga till fler arbetsflödesanvändare i användargruppen.  
 7. Upprepa steg 2 till 6 för att lägga till fler arbetsflödesanvändargrupper.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se även
 

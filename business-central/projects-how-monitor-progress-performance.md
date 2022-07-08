@@ -10,14 +10,15 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f53a98d0574bfd324249b85b0b75de5f5e4997e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee69503fa830d21ed433e88c3d8f55a42a4ec1bb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514939"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074672"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Övervaka projektframsteg och -resultat
+
 Allt eftersom ett projekt fortlöper används material och resurser och de, och andra kostnader, måste bokföras i projektet. Produkter i arbete (PIA) är en funktion som gör att du kan uppskatta värdet i projektet i redovisningen medan projekten pågår. I många fall kan du bokföra kostnader för ett projekt innan du fakturerar projektet. Om endast kostnader bokförts blir er finansiella rapport oriktig. Mer information finns i [Förstå PIA-metoder](projects-understanding-wip.md).
 
 Om du vill hålla reda på värdet i redovisningen kan du beräkna PIA (Produkter i arbete) och bokföra värdet i redovisningen.
@@ -33,6 +34,7 @@ Du kan beräkna PIA baserat på:
 Om du vill visa resultatet med någon annan metod ändrar du metoden och beräknar om PIA. Det finns ingen gräns för hur många gånger du kan beräkna PIA. PIA beräknas bara, det bokförs inte i redovisningen. När du har beräknat PIA kan du bokföra det i redovisningen.
 
 ## <a name="to-create-a-job-wip-method"></a>Skapa en PIA-metod för projektet
+
 Du kan skapa en PIA-metoden för projektet som visar behoven i organisationen. När du har skapat detta kan du ange vilken PIA-beräkningsmetod som ska användas som standard i organisationen.  
 
 > [!NOTE]
@@ -45,6 +47,7 @@ Du kan skapa en PIA-metoden för projektet som visar behoven i organisationen. N
 5. I fältet **Standard-PIA-metod** väljer du metoden i listan.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Så här definierar du en PIA-metod för ett projekt
+
 När du skapar ett nytt projekt måste du ange vilken PIA-metod för projektet som gäller. I vissa fall har metoden för PIA-redovisningstransaktioner för projekt, som du kan använda, ställts in för dig som standard.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.
@@ -52,6 +55,7 @@ När du skapar ett nytt projekt måste du ange vilken PIA-metod för projektet s
 3. PÅ sidan **Projektkort**, i fältet **PIA-metod**, väljer du en PIA-metod i listan. Om en standardmetod har definierats, kan du välja ett annat alternativ vid behov.  
 
 ## <a name="to-calculate-wip"></a>Så här beräknar du PIA
+
 Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för periodslutsrapporteringen. Du kan använda batch-jobbet **Projekt – Beräkna PIA** om du vill göra detta.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt – Beräkna PIA** och väljer sedan relaterad länk.  
@@ -63,6 +67,7 @@ Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för
 >   Batch-jobbet beräknar bara PIA. Detta bokförs inte i Redovisning. Om du vill bokföra måste du köra batch-jobbet **Bokför PIA i redovisning** när du har beräknat PIA. Mer information finns i följande procedur:
 
 ## <a name="to-post-wip"></a>Bokföra PIA
+
 När du har beräknat PIA kan du bokföra det på balansräkningskonton för rapportering vid periodens slut. Använd batch-jobbet **Projekt – Bokför PIA i redovisning** om du vill göra detta.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt – Bokför PIA i redovisning** och väljer sedan relaterad länk.  
@@ -70,6 +75,7 @@ När du har beräknat PIA kan du bokföra det på balansräkningskonton för rap
 3. Välj **OK**.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Beräkna och bokföra slutförda projekt
+
 När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen och faktureringen av förbrukning, måste du uppdatera projektet så att projektet får **Statusen** **Slutförd**. Sedan måste du återföra alla PIA som har bokförs i redovisningen.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
@@ -86,6 +92,7 @@ När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen o
      De PIA-transaktioner för jobbet som skapas när du kör batch-jobbet kommer nu att ha fältet **Slutfört projekt** markerat för att visa att de är slutförda.
 
 ## <a name="to-view-job-ledger-entries"></a>Så här visar du projekttransaktioner
+
 Alla projektrelaterade transaktioner registreras i bokförda projektjournaler och numreras i ordningsföljd med start från nummer ett. I den bokförda projektjournalen kan du få en överblick över alla projekttransaktioner.    
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **projektjournaler** och väljer sedan relaterad länk.
@@ -93,12 +100,15 @@ Alla projektrelaterade transaktioner registreras i bokförda projektjournaler oc
 
 På sidan **Projekttransaktioner** kan du granska de transaktioner som är kopplade till alla projekt.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
 ## <a name="see-also"></a>Se även
-[Hantera projekt](projects-manage-projects.md)
-[hantera lagerkostnader](finance-manage-inventory-costs.md)   
+
+[Hantera projekt](projects-manage-projects.md)  
+[Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ekonomi](finance.md)  
-[Inköp](purchasing-manage-purchasing.md)         
-[Försäljning](sales-manage-sales.md)      
+[Inköp](purchasing-manage-purchasing.md)  
+[Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

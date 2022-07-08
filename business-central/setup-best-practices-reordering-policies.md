@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516568"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077534"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Skapa metodtips: partiformningsmetoder
+
 **Partiformningsmetod**-fältet på artikelkort erbjuder fyra olika planeringsmetoder som bestämmer hur de enskilda planeringsparametrarna kommunicerar.  
 
 En grund för bästa metod för val av en partiformningsmetod är artikelns ABC-klassificering. När du använder ABC-klassificeringen för lagerkontroll och leveransplanering, artiklar hanteras enligt tre olika indelningar beroende på deras värden och volym, i förhållande till summan i lager. Volymfördelning av de tre indelningar visas i följande tabell.
@@ -40,9 +41,12 @@ I följande tabell visas bästa metod för att välja mellan de fyra regler.
 |**Fast orderkvantitet**|Använd för C-artiklar.<br /><br /> Kombinera med beställningspunktparametrar.<br /><br /> Använd för låg-nivå komponenter i produktionen.<br /><br /> Använd inte, om artikeln har reserverats ofta.|C-objekt, till exempel tekoppar, är låg-värde artiklar med hög, och regelbunden orderomsättning. Den bästa partiformningsmetoden för C-objekt är därför ett som garanterar konstant tillgänglighet, genom att alltid hålla sig över en beställningspunkt.<br /><br /> Om användaren reserveras ett antal för något avlägset behov, störs planeringsgrunden. Även om den planerade distributionslagernivån är accepterad av ordermottagaren med hänsyn till beställningspunkten, kan det hända att antalet inte är tillgängligt på grund av reservation.|  
 |**Maximalt antal**|Använd för C-objekt med höga lagerhållningskostnader eller lagringsbegränsningar.<br /><br /> Kombinera tillsammans med en eller flera orderändringar (lägsta/max partistorlek eller Partistorleksmultipel).|C-objekt, till exempel tekoppar, är låg-värde artiklar med hög, och regelbunden orderomsättning. Den bästa partiformningsmetoden för C-objekt är därför ett som garanterar konstant tillgänglighet, genom att alltid hålla sig över en beställningspunkt, men under en maximal lagerkvantitet.<br /><br /> Om du vill ändra den föreslagna order, kan du behöva minska partistorleken till en angiven maximal partistorlek, öka till en angiven minimal partistorlek eller avrundad uppåt för att uppfylla en viss partistorleksmultipel. **Obs!** Lagret stannar då mellan beställningspunkt och högsta antal, om använd med en beställningspunkt.|  
 
-## <a name="see-also"></a>Se även  
- [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)   
- [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se även
+
+ [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
+ [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

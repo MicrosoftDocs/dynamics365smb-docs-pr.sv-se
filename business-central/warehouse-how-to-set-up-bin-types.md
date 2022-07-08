@@ -9,19 +9,21 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8fb409e9ca0a8540fa2ea997faae790f78086d6e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ec68eac92b29ac0f2877bdbdb957da33311e2e2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520054"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077404"
 ---
 # <a name="set-up-bin-types"></a>Skapa lagerplatstyper
+
 Du kan dirigera flödet av artiklar via lagerställen som du har definierat för särskilda distributionslageraktiviteter. Du ger varje lagerplats dess grundläggande flödesaktiviteter och definierar det sätt som lagerstället ska användas på genom att tilldela lagerstället en lagerplatstyp.  
 
 Det finns sex typer: Du kan använda alla sex olika lagerplatstyperna i distributionslagret, eller välja att endast använda lagerplatstyperna INLEVERERA, ARTINFPLOC, LEVERERA och KS. De här fyra lagerplatstyperna aktiverar förslag på hur artikelflödet ska se ut och du kan även registrera lageravvikelser.  
 
-## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Så här skapar du de lagerplatstyper som du vill använda  
+## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Så här skapar du de lagerplatstyper som du vill använda
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerplatstyper** och väljer sedan relaterad länk.  
 2.  På sidan **Lagerplatstyper** skapar du en kod på tio tecken för en lagerplatstyp.  
 3.  Välj de aktiviteter som kan utföras med varje lagerplatstyp.  
@@ -42,11 +44,14 @@ De lagerplatstyper som du kan skapa visas nedan.
 |ARTINFPLOC|Artiklar på lagerställen som föreslås för både artikelinförsel- och plockningsfunktioner. Lagerställen av den här typen har förmodligen olika lagerplatsordning. Du kan skapa volymlagerställen av den här typen med låg lagerplatsordning jämfört med de vanliga plocklagerställena eller lagerställena för framåtplockning.|  
 |KS|Den här lagerstället används för lagerjusteringar om du anger lagerstället i fältet **Justering lagerställeskod** på lagerställekortet. Du kan även skapa lagerställen av den här typen för felaktiga artiklar och artiklar om ska kontrolleras. Du kan flytta artiklar till den här lagerplatstypen om du vill isolera dem från det vanliga artikelflödet.<br /><br /> **OBS:** Till skillnad från andra lagerplatstyper har **KS** lagerplatstypen inga av artikelhanteringskryssrutorna markerade som standard. Det betyder att lagerställesinnehåll som du placerar i en KS lagerplats undantas från artikelflöden.|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/set-up-zones-bins/)
+
 ## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
-[Monteringshantering](assembly-assemble-items.md)    
+[Lager](inventory-manage-inventory.md)  
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Monteringshantering](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

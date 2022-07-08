@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9860ebc2ce7260f450dbda928ee6339c0560e0a7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b66efde55918886132def51ad898fa9e89054c02
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521130"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077351"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sälja en artikel som monterats mot kundorder
+
 Om det i fältet **Monteringsmetod** på en monteringsartikels artikelkort står **Montering mot kundorder** förväntas inte artikeln finnas i lager, och den måste monteras särskilt mot en försäljningsorder. När du anger en artikel på en försäljningsorderrad skapas en monteringsorder automatiskt och länkas till försäljningsordern.  
 
 > [!NOTE]  
@@ -28,7 +29,8 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 > [!NOTE]  
 >  I följande procedur ingår inte standardstegen för försäljningsorder före det steg där du anger artikeln för montering mot kundorder på försäljningsorderraden.  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Så här säljer du en artikel som monterats mot kundorder  
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Så här säljer du en artikel som monterats mot kundorder
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Skapa en försäljningsorder. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
 3.  I fältet **Nr.** anger du en artikel som lagts upp för montering mot kundorder.  
@@ -52,7 +54,7 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
     >   
     >  På huvudet av de kopplade monteringsorderna kan bara fältet **Startdatum** ändras så att det snabbt gör det möjligt för monteringsarbetare att ange ett datum som är tidigare än förfallodatumet, när de ska påbörja processen. Alla fält på raderna i den kopplade monteringsordern kan ändras så att lagerarbetare kan ange förbrukningssiffror under processen.  
 
-8.  Granska och svara på problem med komponenttillgänglighet. Du kan t. ex. välja en tillgänglig ersättningsartikel eller upprätta ett senare förfallodatum.  
+8.  Granska och svara på problem med komponenttillgänglighet. Du kan till exempel välja ett tillgängligt ersättningsobjekt.  
 9. Stäng sidan **Montering mot kundorderrader**. Den kopplade monteringsordern är nu redo att börja montera de anpassade artiklarna efter förfallodatum.  
 10. I försäljningsordern väljer du åtgärden **Släpp** om du vill meddela monteringsavdelningen att monteringsprocessen kan börja.  
 11. I monteringsavdelningen ska du utföra de steg av montering av de artiklar som säljs i den här proceduren. Mer information finns i [Montera artiklar](assembly-how-to-assemble-items.md).  
@@ -60,7 +62,10 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 > [!NOTE]  
 > Kom ihåg att artikelersättningar inte automatiskt gör att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig för dig.
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se även
+
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  

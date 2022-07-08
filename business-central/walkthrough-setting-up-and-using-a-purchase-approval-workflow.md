@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d4d2134945f0beb15853bc9cca227cde74285c9d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520080"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074518"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
 
@@ -120,6 +120,8 @@ Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] inneh�
 Du definierar arbetsflödesvariationer genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
 
 Om ett affärsscenario kräver en arbetsflödehändelse eller ett svar som inte stöds, måste en Microsoft-partner implementera dem genom kod, eller också kan du skapa ett arbetsflöde med hjälp av Power Automate. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i ett automatiserat arbetsflöde](across-how-use-financials-data-source-flow.md) eller [Händelser i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjälpen för utvecklare.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Se även
 

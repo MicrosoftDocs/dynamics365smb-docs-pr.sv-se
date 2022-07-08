@@ -10,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: cd8485bf4d679e740f60c8cc38e5912953b5b0bb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8de7d110e54660d4d1c79cd6b65a69b8476d9e9a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522830"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075878"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
 Om du vill säkerställa korrekt värderingmåste dina lagerartiklar läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar. För inköp kommer lossningsavgiften för en inköpt artikel bestå av leverantörens inköpspris och samtliga artikelomkostnader som kan kopplas till enskilda inleveranser eller returutleveranser. För försäljning kan det vara lika betydelsefullt för företaget att känna till leveranskostnader för sålda artiklar som att veta inköpskostnader inklusive hemtagningskostnader för inköpta artiklar.
@@ -79,7 +79,10 @@ Om du har fått en faktura för artikelomkostnaden när du har bokfört ursprung
 
 Artikelomkostnader på den separata inköpsfakturan har nu tilldelats till artikeln på den bokförda inleveransraden, därför uppdateras artikelns lagervärde med kostnaden för artikelomkostnaden.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/post-purchase-item-charges-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  

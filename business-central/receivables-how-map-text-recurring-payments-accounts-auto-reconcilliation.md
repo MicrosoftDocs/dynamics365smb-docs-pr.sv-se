@@ -10,14 +10,15 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69ec5c81ff1c93fd4ab91540f3ad3e420171c6c9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 021837a5ec2be9fb5b2234fcc85103b8ad3746f8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514835"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078576"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
+
 På sidan **Mappa text till konto** som du öppnar från sidan **Betalningsavstämningsjournal** kan du skapa mappningar mellan text på betalningar och specifika debet-, kredit- och balanskonton så att sådana betalningar bokförs på de angivna kontona när du bokför betalningar i betalningsavstämningsjournalen.
 
 Liknande funktioner finns för att stämma av överskottbelopp på Betalningsavstämningsjournaler på en ad hoc-basis. Mer information finns i [Så här stämmer du av betalningar som inte kan kopplas automatiskt](receivables-how-reconcile-payments-cannot-apply-auto.md).
@@ -30,6 +31,7 @@ Betalningar som bokförts baserat på text-till-konto-mappning kopplas inte till
 På en rad i en utbetalningsavstämningsjournal där betalningen har angetts för bokföring enligt text-till-kontomappning innehåller fältet **Matchningssäkerhet** innehåller **Hög – mappa text till konto** och fälten **Kontotyp** och **Kontonr.** innehåller de mappade kontona.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Så här mappar du text på återkommande betalningar till konton för automatisk avstämning
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
 2. Öppna en betalningsavstämningsjournal. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 3. Välj åtgärden **Mappa text till konto**. Sidan **Mappa text till konto** öppnas.
@@ -55,6 +57,8 @@ Fyll i en rad på sidan **Text-till-konto-mappning** enligt följande för att a
 | Mappningstext | Debetkontonr | Kreditkontonr | Ursprungstyp för motkonto | Ursprungsnr för motkonto |
 | --- | --- | --- | --- | --- |
 | MyBank |TOM |60400|Redovisningskonto |TOM |
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

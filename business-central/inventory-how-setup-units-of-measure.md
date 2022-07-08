@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8b03ca934a87573feded023311f01349066f886c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518031"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074854"
 ---
 # <a name="set-up-units-of-measure"></a>Ställa in måttenheter
 
@@ -79,6 +79,8 @@ Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du 
 3. För försäljning: På Snabbfliken **Fakturering**, i fältet **Måttenhet för försäljning**, öppna sidan **Måttenheter för artikel**.
 4. För inköp: På snabbfliken **Återanskaffning** i fältet **Måttenhet för inköp** öppnar du sidan **Måttenheter för artikel**.
 5. Välj den kod som du vill ange som standardenhet för försäljning respektive inköp, och välj sedan knappen **OK**.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f1e99daea56fda5a1a36e0e2b1fb69c332dc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519153"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076545"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologi i kostnadsredovisning
 
@@ -49,8 +49,11 @@ I det här avsnittet definieras de viktigaste begreppen som används i kostnadsk
 |Rörlig kostnad|Rörliga kostnader är kostnader som ändras i proportion till aktiviteten i en verksamhet. Rörliga kostnader är summan av marginalkostnaderna utslaget på alla producerade enheter. Fasta kostnader och rörliga kostnader utgör de två komponenterna i den totala kostnaden.|  
 |Variant|En variant används som en valfri användardefinierad etikett för fördelningar. Syftet med etiketten är att filtrera fördelningsgrupper.|  
 
-## <a name="see-also"></a>Se även  
- [Om kostnadsredovisning](finance-about-cost-accounting.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se även
+
+ [Om kostnadsredovisning](finance-about-cost-accounting.md)  
  [Redovisa kostnader](finance-manage-cost-accounting.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

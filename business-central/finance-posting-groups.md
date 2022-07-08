@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515673"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076571"
 ---
 # <a name="set-up-posting-groups"></a>Konfigurera bokföringsmallar
 
@@ -58,6 +58,7 @@ I tabellen nedan beskrivs de bokföringsmallar som är specifika för datatyper.
 | Bokföringsmallar för anläggningstillgångar |Definiera konton för olika typer av utgifter och kostnader som t. ex. förvärvskostnader, ackumulerade avskrivningsbelopp, förvärvskostnader vid avyttring, ackumulerad avskrivning vid avyttring, vinster vid avyttring, förluster vid avyttring, underhållskostnader och avskrivningsutlägg. Ställ in dessa bokföringsmallar på sidan **Anl.bokföringsmallar**. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Tillåta ersättningsbokföringsmallar för kunder eller leverantörer i dokument
+
 Du kan låta användarna välja andra kund- och leverantörsbokföringsmallar än standardvärdena när de arbetar med försäljnings- eller inköpsdokument och -journaler.
 
 Om du vill tillåta ändringar av kundbokföringsmallar väljer du **Tillåt ändring av bokföringsmall** på sidorna **Inställningar för försäljning och kundreskontra** och **Serviceinställningar**, samt sidan **Inställningar för inköp och skulder** för ändringar i bokföringsmall för leverantör.
@@ -129,10 +130,13 @@ Om något är fel visar [!INCLUDE[prod_short](includes/prod_short.md)] sidan **f
 > [!NOTE]
 > Fel hanteringen som beskrivs ovan är inte tillgänglig för artikel-, resurs-, personal- och anläggningstillgångsjournaler eller för redovisningskonton som lagts till i lokala versioner av bokföringsmallar.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Huvudbok och kontolista](finance-general-ledger.md)  
 [Ställa in Finance](finance-setup-finance.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

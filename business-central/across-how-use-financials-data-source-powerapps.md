@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 75dbc465373843327c4ff1c4a8563452d3464d94
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9c4f0decab63b3e0484ceff3f0bd7c31c638258
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133310"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075114"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps
 
@@ -49,10 +49,12 @@ När du har skapat och byggt ditt program kan du dela den med dina kollegor. Mer
 > [!NOTE]
 > Om du vill ansluta till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste du välja anslutningen **Business Central (lokal)** i steg 3.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/power-apps-power-automate-business-central/)
+
 ## <a name="see-also"></a>Se även
 
 [Skapa en arbetsyteapp från en mall i Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
-[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Komma igång med att utveckla anslutningsprogram för Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 

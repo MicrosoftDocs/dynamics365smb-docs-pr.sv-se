@@ -9,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: 93eb177ff9ba102277a50f9686ea941df33d5563
-ms.sourcegitcommit: 13ac10624bee47c73989b2b20942a01c849b4a6a
+ms.openlocfilehash: f1128a9fb4e9643286e4305695e1d40719d86301
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8744116"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079330"
 ---
 # <a name="use-prod_short-in-power-automate-flows"></a>Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flöden
 
@@ -50,6 +50,8 @@ Du kan skapa flöden på webbplatsen [powerautomate.microsoft.com](https://power
 ## <a name="manage-workflows"></a>Hantera arbetsflöden
 
 Du kan få en översikt över alla arbetsflöden som du har åtkomst till genom att välja åtgärden **Hantera arbetsflöden** på menyn **Power Automate**. Listan öppnas i en ny flik i webbläsaren och du loggas in på Power Automate automatiskt. Där kan du se när varje flöde kördes senast.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/use-power-automate/)
 
 ## <a name="see-also"></a>Se även
 

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518581"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078394"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plocka artiklar för utleverans från dist.lager
+
 När Lagerställe är inställt på att begära plockningsbearbetning så väl som utleveransbearbetning använder du plockningsdokumenten för att skapa och bearbeta plockningsinformationen innan du bokför Lagerutleveransen.  
 
 Du kan inte skapa ett dokument för dist.lager plockning från grunden, eftersom en plockningsaktivitet alltid ingår i ett arbetsflöde, i ett pull-/pushscenario.  
@@ -36,7 +37,8 @@ Du kan också skapa dokument för dist.lager plockning med pushmetod från sidan
 >   
 >  Information om hur du plockar komponenter för monteringsorder i allmänhet, inklusive situationer där monteringsartikeln inte ska betalas på en utleverans, se [Plocka för produktion eller montering](warehouse-how-to-pick-for-production.md).  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Så här plocka artiklar för utleverans  
+## <a name="to-pick-items-for-warehouse-shipment"></a>Så här plocka artiklar för utleverans
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
 
     Om du vill arbeta med en viss plockning väljer du plockningen från listan eller filtrerar listan för att söka efter de plockningar som specifikt har tilldelats dig. Öppna plockningskortet.  
@@ -54,6 +56,7 @@ Den person som ansvarar för utleverans kan nu få artiklarna till ett leveransd
 Förutom plockning för källdokument, som beskrivs i det här avsnittet, kan du ta och placera artiklar mellan lagerställen, utan att referera till källdokument. Mer information finns i [Plocka och föra in utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Hantera artiklar för montering mot kundorder i distributionslagerutleveranser
+
 I montering mot kundorder-scenarier är fältet **Ant. att utleverera** på distributionslagerutleveransrader använt för att notera hur många enheter som monteras. Det angivna antalet bokförs sedan som monteringsutflöde när distributionslagerutleveransen bokförs.
 
 För andra distributionslagerutleveransrader är värdet i **Ant. att utleverera** noll från början.
@@ -72,9 +75,12 @@ När distributionslagerutleveransen har bokförts uppdateras olika fält på fö
 
 > I så fall hanteras antal för montering mot kundorder som beskrivs i det här avsnittet, och lagerantalet behandlas som andra distributionslagerutleveransrader. Mer information om kombinationsscenarion finns i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  

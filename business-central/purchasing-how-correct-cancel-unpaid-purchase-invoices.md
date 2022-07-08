@@ -10,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 568f9f4424eefb249176fc56cbc515fc03a9af24
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7cfff3b5140dfa01aa3028b47cf9e52bad47cd8c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517348"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078628"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Korrigera eller annullera obetalda inköpsfakturor
 
@@ -28,6 +28,7 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Korrigera en bokförd inköpsfaktura
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
 2. Markera den bokförda inköpsfakturan som du vill korrigera.  
 
@@ -41,6 +42,7 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 4. Välj **Visa korrigerande kreditnota** för att visa de bokförda inköpskreditnotorna som annullerar den ursprungliga bokförda inköpsfakturan.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Avbryta en bokförd inköpsfaktura
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
 2. Markera den bokförda inköpsfakturan som du vill annullera.
 
@@ -52,9 +54,13 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 4. Välj **Visa korrigerande kreditnota** för att visa de bokförda inköpskreditnotorna som annullerar den ursprungliga bokförda inköpsfakturan.
 
 ### <a name="partial-invoice-posting-also-supported"></a>Delfakturabokföring stöds också
+
 Om annulleringen är knuten till en delfakturabokföring uppdateras den ursprungliga inköpsorderraden så att den återspeglar det annullerade fakturerade antalet. Fälten **Ant. att fakturera** och **Antal fakturerat** på den relaterade inköpsorderraden återställs till värdena före delbokföringen.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

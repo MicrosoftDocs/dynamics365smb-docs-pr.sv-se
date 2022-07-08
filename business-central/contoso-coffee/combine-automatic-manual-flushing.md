@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 6b128f79cb8e629147bdd5ae77f2545ad0f7025c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525183"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078758"
 ---
 # <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Genomgång: Kombinera automatisk och manuell "flushing"
 
@@ -23,7 +23,9 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya
 
 ## <a name="steps"></a>Steg
 
-1. Skapa en fast planerad produktionsorder för fem enheter av artikeln **SP-SCM1004, AutoDrip**. Mer information finns i avsnittet [Genomgång: Skapa en fast planerad produktionsorder och ändra den](create-firm-planned-production-order-change.md).  
+> [OBS!] Kom ihåg att justera lagret genom att bokföra artikel journal med ingående balans.
+
+1. Skapa en fast planerad produktionsorder för fem enheter av artikeln **SP-SCM1004, AutoDrip** på *NORTH* plats. Mer information finns i avsnittet [Genomgång: Skapa en fast planerad produktionsorder och ändra den](create-firm-planned-production-order-change.md).  
 
 2. Frisläpp produktionsordern.
 

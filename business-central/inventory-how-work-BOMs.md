@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6f2ac75c4a00804c0fef47dfb7885fa2d50fbf19
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d538ea3e1bb00772a3a3183c09c2220893380058
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515491"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079564"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeta med strukturer
+
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras eller tillverkas av resurser eller maskin resurserna från komponenter. En monteringsstruktur kan också användas för att sälja en överordnad artikel som byggsatser bestående av dess komponenter.
 
 ## <a name="assembly-boms-or-production-boms"></a>Monteringsstrukturer eller produktionsstrukturer
+
 Du använder monteringsorder för att slutboka artiklar från komponenter i en enkel sätt, som kan utföras av en eller flera grundläggande resurser, som inte är maskin- eller produktionsgrupper, eller utan något resurser. Det kan exempelvis vara en monteringsprocess att välja två som vinflaska och en kaffesäck och sedan packa dem som presentartiklar.  
 
 En monteringsstruktur är mycket viktigt som definierar vilka komponentartiklarna ingår i en slutartikelmontering mot kundorder, och vilka resurser som används för att monterar monteringsartikeln. När du anger monteringsartikeln och ett antal i huvudet för en ny monteringsorder, fylls monteringsorderraderna i automatiskt enligt monteringsstrukturen med en monteringsorderrad per komponent eller resurs. Mer information finns i [Monteringshantering](assembly-assemble-items.md).
@@ -35,6 +37,7 @@ Begreppet av resurser i produktionen är mycket mer avancerad än i monteringsha
 Både monteringsorder och produktionsorder kan kopplas direkt till försäljningsorder. Du kan dock endast använda monteringsorder att anpassa slutartikeln direkt för en kundförfråga med försäljningsordern.
 
 ## <a name="to-create-an-assembly-bom"></a>Skapa en monteringsstruktur
+
 Om du vill definiera en överordnad artikel som består av andra artiklar eller resurser som krävs för att montera den överordnade, måste du skapa en monteringsstruktur.  
 
 Monteringsstrukturer innehåller vanligtvis artiklar men kan också innehålla en eller flera resurser som krävs för att utföra monteringsarbetet.
@@ -54,6 +57,7 @@ Det finns två delar för att skapa en monteringsstruktur:
 3. På sidan **Monteringsstruktur** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-edit-assembly-boms"></a>Så här redigerar du monteringsstrukturer
+
 Du kan när som helst redigera raderna i en monteringsstruktur. Men tänk på att strukturen kanske används på pågående försäljningar eller sammansättningar av den överordnade, som kan påverkas av ändringen. Välj åtgärden **Används i** för att se i vilka artiklar den används och sedan om försäljnings- eller monteringsorder kan påverkas.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
@@ -61,6 +65,7 @@ Du kan när som helst redigera raderna i en monteringsstruktur. Men tänk på at
 3. På sidan **Monteringsstruktur**, välj åtgärden **Redigera lista** och ändra sedan fältet efter behov.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Visa komponenter och resurser indragna enligt strukturen
+
 Från sidan **Monteringsstruktur** kan du öppna en separat sida som visar komponenterna och resurserna med indrag enligt deras strukturplats under monteringsartikeln.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
@@ -69,6 +74,7 @@ Från sidan **Monteringsstruktur** kan du öppna en separat sida som visar kompo
 4. På sidan **Monteringsstruktur** väljer du åtgärden **visa struktur**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Ersätta monteringsartikeln med de komponenter som ingår i rader
+
 Du kan använda en särskild funktion för att ersätta raden för monteringsartikeln med nya rader för dess komponenter från alla försäljnings- och inköpsdokument som innehåller en monteringsartikel. Den här funktionen används, till exempel för att sälja komponenter som en sats som motsvarar monteringsartikeln.
 
 Åtgärden **Expandera struktur** finns också på sidan **monteringsstruktur** som en metod för att visa underordnade artiklar på en monteringsstruktur.
@@ -113,9 +119,12 @@ Styckkostnaden för en monteringsstruktur är alltid lika med de sammanlagda sty
 
 Kostnaderna för de artiklar som utgör monteringsstrukturen kopieras från komponentens artikelkort. Kostnaden för varje artikel multipliceras med det aktuella antalet, och totalkostnaden visas i fältet **Styckkostnad** på artikelkortet för monteringsartikeln.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/set-up-assembly-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
-[Visa artikeldisposition](inventory-how-availability-overview.md)     
+[Visa artikeldisposition](inventory-how-availability-overview.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

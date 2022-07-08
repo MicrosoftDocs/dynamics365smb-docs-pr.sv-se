@@ -10,14 +10,15 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01fd408e08dab78667eaa58bac55f39087b27f74
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 7a08a9f53329693a44a7da1e293561d27fff4b78
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655468"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075791"
 ---
 # <a name="customize-business-central"></a>Anpassa Business Central
+
 Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.
 
 > [!NOTE]
@@ -32,7 +33,10 @@ Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater 
 > [!NOTE]
 > Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[prod_short](includes/prod_short.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. Därför kan användare med **grundläggande** upplevelsen i vissa avsnitt läsa om funktionerna och delar av användargränssnittet som inte visas i deras användargränssnitt. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
+
 ## <a name="see-also"></a>Se även
+
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

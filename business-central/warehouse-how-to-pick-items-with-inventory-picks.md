@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edb133005292c0309de09273b6a2c5c43669eeed
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8764fa82ef8bf408e85655b5a97719d9f649e7be
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514731"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078368"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plocka artiklar med lagerplockning
 
@@ -111,6 +111,8 @@ Om ett monteringsutflöde har angetts för lagerstället, när värdet i fältet
 Om ingen lagerställeskod anges på försäljningsorderraden, och ingen monteringsutflöde har angetts för lagerstället, är **Lagerställeskod** på lagerplockningsraden tomt. Lagerarbetaren måste öppna sidan **Lagerställesinnehåll** och markera den lagerplats där monteringsartiklarna är församlade.
 
 I alla scenarier där en del av antalet måste först vara församlad och ett annat ska plockas från lagret, skapas ett minimum på två lagerplockningsrader. En plockningsrad är för antal för montering mot kundorder. Den andra plockningsraden beror på vilka lagerställen som kan uppfylla det återstående antalet från lagret. Lagerställeskoder på de två raderna är ifyllt olika sätt, som beskrivs för de två olika försäljningstyperna. Mer information finns i avsnittet Kombinationsscenarion i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Se även
 

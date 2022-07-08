@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: cf7f84b8ba0c7622f08856b677e3559cc669e7ed
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799618"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078680"
 ---
 # <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
 
@@ -105,6 +105,8 @@ Du kan spara tid genom att lägga upp en jobbkötransaktion som automatiskt slä
 
 3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **jobbkötransaktioner** och välj sedan relaterad länk.
 4. Ställ in jobbkötransaktionen **Uppdatera väntande förskottsbetalning** till exempel genom att använda inställningarna på snabbfliken **återkommande** för att schemalägga hur ofta du vill att den ska köras. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även  
 

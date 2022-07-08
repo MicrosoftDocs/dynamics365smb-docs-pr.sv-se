@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805184"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077508"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central
 
@@ -43,9 +43,10 @@ Du kan även kontakta [[!INCLUDE[prod_short](includes/prod_short.md)]-försäljn
 
 Mer information om vad du kan göra med [!INCLUDE [prod_short](includes/prod_short.md)] finns i [Gör dig redo att göra affärer](ui-get-ready-business.md) och [Affärsfunktion](across-business-functionality.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="additional-resources"></a>Ytterligare resurser
 
-- [Utforska utbildning på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Besök vårt videobibliotek](across-videos.md)  
 - [Vanliga frågor och svar för utvärderingsversion](trial-faq.md)  
 - [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)  

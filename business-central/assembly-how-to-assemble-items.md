@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 24ea5d30b184018b69735768a6a721393086a95a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 13f1a68ebb3c9a16c06cdc0cf9382867403ba5ca
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521156"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079252"
 ---
 # <a name="assemble-items"></a>Montera Artiklar
+
 Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering**, när standard metoden för att tillhandahålla artikeln är att sammanställa från definierade komponenter och eventuellt med en viss resurs.  
 
 Komponenterna och resurser, som ingår i den här typen av en monteringsartikel, måste definieras i en monteringsstruktur. Mer information finns i [Arbeta med strukturer](inventory-how-work-BOMs.md).  
@@ -40,7 +41,8 @@ Dessa inställningsalternativ är standardinställningar som hantera hur försä
 
 I den här proceduren skapar och behandlar du och en monteringsorder för artiklar som monteras mot lager, som innebär utan ett kopplat försäljningsorder. Steget innehåller initialisera monteringsorder, hantera potentiella komponenttillgänglighetsproblem och delvis att bokföra monteringsartikel utflöde.
 
-## <a name="to-assemble-an-item"></a>Om du vill att sammanställa en artikel  
+## <a name="to-assemble-an-item"></a>Om du vill att sammanställa en artikel
+
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **monteringsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**. Sidan **Ny monteringsorder** öppnas.  
 3.  Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -67,7 +69,10 @@ I den här proceduren skapar och behandlar du och en monteringsorder för artikl
 
 När du bokför har lyckas, monteringsartikeln bokförs som utflöde på den potentiella lagerställekod och lagerställeskod som definieras på monteringsorder. För manuellt skapade monteringsorder kan lagerstället kopieras från fältet **Standardplacering av order** inställningsfältet. För flöde för montering mot kundorder kan lagerställekoden kopieras från försäljningsorderraden.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se även
+
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  

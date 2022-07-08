@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 00be9cdf2e76df93f144662e70bb8558e9b12a2e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517270"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076935"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Korrigera eller makulera obetalda försäljningsfakturor
 
@@ -66,6 +66,8 @@ Om annulleringen är knuten till en delfakturabokföring uppdateras den ursprung
 
     En försäljningskreditnota skapas automatiskt och bokförs för att makulera den ursprungligt bokförda försäljningsfakturan.
 5. Välj åtgärden **Visa korrigerande kreditnota** för att visa de bokförda försäljningskreditnotorna som annullerar den ursprungliga bokförda försäljningsfakturan.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

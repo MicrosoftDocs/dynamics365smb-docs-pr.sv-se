@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: e195e6658bc495b5d06764114d971c9fc4b7b484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 401deb016122100f86142cb2314c18e3b481bccd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522622"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077872"
 ---
 # <a name="date-calculation-for-sales"></a>Datumberäkning för försäljning
+
 I [!INCLUDE[prod_short](includes/prod_short.md)] beräknas automatiskt tidigast möjliga leveransdatum för en artikel på en försäljningsorderrad.
 
 Om kunden har begärt ett särskilt leveransdatum beräknas det datum då artiklarna måste vara tillgängliga för plockning så att varorna faktiskt ska kunna levereras på angiven dag.
@@ -24,6 +25,7 @@ Om kunden har begärt ett särskilt leveransdatum beräknas det datum då artikl
 Om inget bestämt leveransdatum begärts beräknas det datum då artiklarna kan levereras, med utgångspunkt från det datum då artiklarna är tillgängliga för plockning.
 
 ## <a name="calculating-a-requested-delivery-date"></a>Beräkna ett begärt leveransdatum
+
 Om du anger ett begärt leveransdatum på försäljningsorderraden blir detta datum utgångspunkt för följande beräkningar.
 
 - begärt leveransdatum – leveranstid = planerat utleveransdatum
@@ -35,14 +37,17 @@ Om artiklarna kan plockas på utleveransdatumet kan försäljningsprocessen fort
 > Om din process grundar sig på beräkning bakåt, till exempel om du använder det begärda leveransdatumet för att hämta planerat leveransdatum, rekommenderar vi att du använder datumformler med fast varaktighet, till exempel "5D", i fem dagar eller "1V" i en vecka. Datumformler utan fast varaktighet, till exempel "FV" för aktuell vecka eller CM för aktuell månad, kan resultera i felaktiga datumberäkningar. Mer information om datumformler finns i [arbeta med datum och tider för kalender](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Beräkna tidigaste möjliga leveransdatum
+
 Om du inte har angett ett begärt leveransdatum på försäljningsorderraden, eller om det begärda leveransdatumet inte kan godtas, beräknas det tidigaste datum då artiklarna är tillgängliga. Detta datum anges automatiskt i fältet Leveransdatum på raden. Det datum då du planerar att utleverera artiklarna liksom det datum då varorna kan levereras till kunden beräknas med hjälp av följande formler.
 
 - planerat utleveransdatum + utgående lagerhanteringstid = planerat utleveransdatum
 - planerat utleveransdatum +- leveranstid = planerat leveransdatum
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även  
- [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)   
+## <a name="see-also"></a>Se även
+
+ [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  
  [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

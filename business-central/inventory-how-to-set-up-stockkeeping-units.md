@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 320a5315f569deeec8c86ce8246497f171fbb853
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5271203a9936f268e23df9b8e38a2373d875e5f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517400"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076493"
 ---
 # <a name="set-up-stockkeeping-units"></a>Ställa in lagerställeenheter
+
 Du kan använda lagerställeenheter för att registrera artikelinformation som rör ett visst lagerställe eller en viss variantkod.  
 
 lagerställetheter fungerar som komplement till artikelkort. De ersätter dem inte även om de är relaterade till dem. Med lagerställeenheter kan du ha olika information om en artikel på ett visst lagerställe (t. ex. ett distributionslager eller ett distributionscenter) eller om en särskild variant, (t. ex. olika hyllnummer och olika återanskaffningsinformation) av samma artikel.  
@@ -39,7 +40,10 @@ Om du vill skapa flera lagerställeenheter för en artikel, kan du använda batc
 > Om LAGERSTÄLLEENHETEN levereras via produktion, kommer inte fältet **Standardkostnad** användas för fakturering, och justera den faktiska kostnaden för den producerade artikeln. I stället används fältet **Standardkostnad** på den underliggande artikelkortet, och eventuella avvikelser beräknas mot kostnadsandelar för artikeln.<br /><br />
 > Eftersom produktionsstrukturer och operationsföljden inte kan tilldelas Lagerställekonfiguration, är styckkostnaden summerad och den relaterade beräkningen av kostnad delar inte heller tillgängliga på Lagerställeenheter. Mer information finns i [Om att beräkna standardkostnad](finance-about-calculating-standard-cost.md).
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+
+## <a name="see-also"></a>Se även
+
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
 [Lagerstyrning](warehouse-manage-warehouse.md)  

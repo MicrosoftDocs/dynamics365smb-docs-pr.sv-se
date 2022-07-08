@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a57165a63139f0c8bf590b811160a45e26152ce
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4454fd40daffbaa5d551635c406f10c70009d3bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522438"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076077"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planera lagertransporter i kalkylark
+
 Planera transporter i kalkylarket med hjälp av Återanskaffningsfunktionen eller manuellt planera de rader som du vill skapa som transportinstruktioner.  
 
-## <a name="to-calculate-a-replenishment-movement"></a>Så här beräknar du återanskaffningstransporter:  
+## <a name="to-calculate-a-replenishment-movement"></a>Så här beräknar du återanskaffningstransporter:
+
 Allt eftersom artiklarna i distributionslagret levereras till kunderna innehåller lagerställen med högst lagerplatsordning allt färre artiklar. Om du vill fylla på plocklagerställena med högst lagerplatsordning med artiklar från andra lagerställen kan du köra funktionen **Beräkna lagerplatsåteranskaffning** på sidan **Transportkalkylark**
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Transportkalkylark** och väljer sedan relaterad länk.  
@@ -40,7 +42,8 @@ Allt eftersom artiklarna i distributionslagret levereras till kunderna innehåll
 3.  Titta igenom raderna och ändra dem vid behov, eller ta bort vissa av raderna om du inte har tillräckligt med tid att utföra alla.  
 4.  Välj åtgärden **Skapa transport** för att skapa en distributionslagerinstruktion till lagerpersonalen.  
 
-## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Du kan flytta hela innehållet i en eller flera lagerställen med funktionen Hämta lagerställesinnehåll:  
+## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Du kan flytta hela innehållet i en eller flera lagerställen med funktionen Hämta lagerställesinnehåll:
+
 Du kan även använda Transportkalkylark för att planera andra lagertransporter inom distributionslagret. När du till exempel vill placera artiklar på en lagerplats för kvalitetskontroll kan du använda transportförslaget för att planera den åtgärden och sedan skapa en transportinstruktion för en anställd.  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Transportkalkylark** och väljer sedan relaterad länk.  
@@ -64,9 +67,12 @@ Du kan även använda Transportkalkylark för att planera andra lagertransporter
 6.  Ta bort ofullständiga rader som du bara använde i informationssyfte.  
 7.  När raderna i transportkalkylarket korrekt speglar hur transporten ska utföras av lagerpersonalen klickar du på åtgärden **Skapa transport** för att skapa instruktionerna för personalen.  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/move-items/)
+
+## <a name="see-also"></a>Se även
+
 [Lagerstyrning](warehouse-manage-warehouse.md)  
-[Lagersaldo](inventory-manage-inventory.md)  
+[Lager](inventory-manage-inventory.md)  
 [Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  

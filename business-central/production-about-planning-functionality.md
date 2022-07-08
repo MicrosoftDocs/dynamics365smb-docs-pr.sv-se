@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 51f1e2ff31e819c8aa571335b25dc51ec61d6d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512262"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077214"
 ---
 # <a name="about-planning-functionality"></a>Om planeringsfunktioner
 
@@ -148,7 +148,7 @@ På det sätt som beskrivs i [Planera](production-planning.md) kan du välja mel
 
 På sidan **Inköpskalkylark** visas en lista över artiklar som behöver beställas. Du kan ange artiklar i kalkylarket på följande sätt:
 
-- Ange artiklarna manuellt i kalkylarket och fyll i aktuella fält.
+- Ange artiklarna manuellt i förslaget och fyll i aktuella fält.
 
 - Använd batch-jobbet **Skapa plan**. Genom detta beräknas en återanskaffningsplan för artiklar och lagerställesenheter som har skapats med återanskaffningssystemet **Inköp** eller **Överföring**. När du använder detta batch-jobb fylls fältet **Åtgärdsmeddelande** automatiskt i med ett förslag på en åtgärd för att fylla på artikeln. Detta kan till exempel innebära att artikelantalet i en befintlig order ökas eller att en ny order skapas.
 
@@ -158,9 +158,11 @@ På sidan **Inköpskalkylark** visas en lista över artiklar som behöver bestä
 
 - Du kan använda åtgärden **Specialorder** för att fylla i raderna i inköpskalkylarket. För den här åtgärden används batch-jobbet **Hämta förs.order** så att du kan bestämma vilka försäljningsorderrader du vill ange för en specialorder.
 
-Raderna i inköpskalkylarket innehåller detaljerad information om de artiklar som måste beställas på nytt. Du kan redigera och ta bort raderna så att återanskaffningsplanen justeras, och du kan bearbeta raderna ytterligare med hjälp av batch-jobbet **Verkställ åtgärdsmeddelande**.
+Inköpsförslagsraderna innehåller detaljerad information om de artiklar som måste beställas. Du kan redigera och ta bort raderna så att återanskaffningsplanen justeras, och du kan bearbeta raderna ytterligare med hjälp av batch-jobbet **Verkställ åtgärdsmeddelande**.
 
 Information om hur du planerar lagerställen och överföringar finns i [Planera med eller utan lagerställen](production-planning-with-without-locations.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

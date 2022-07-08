@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 337900111388e086e27a2d388843d4e1ab052eb6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec81b14510d89729f7c51f95a3907db38e3876ea
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518239"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075947"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder för anläggningstillgångar
 
@@ -299,6 +299,8 @@ När du registrerar en transaktion i B1 i redovisningsjournalen för anläggning
 
 > [!NOTE]  
 > Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal. När du bokför transaktioner i redovisningsjournalen för anläggningstillgångar måste du lämna fältet **Dokumentnr** tomt. Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen. Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>Se även
 

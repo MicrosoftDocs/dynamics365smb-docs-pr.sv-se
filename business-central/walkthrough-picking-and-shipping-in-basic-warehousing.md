@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0594134585fe85540c7ed87e1588fd218b7a561a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513399"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074464"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Genomgång: Plockning och leverans i grundläggande lagerkonfiguration
 
@@ -67,6 +67,7 @@ Ellen, lagerchefen i CRONUS, ställer in lagret SYD för grundläggande plocknin
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
 ### <a name="setting-up-the-bin-codes"></a>Ställer in lagerplatskoder
+
 När du har skapat ett lagerställe måste du lägga till två lagerplatser.
 
 #### <a name="to-setup-the-bin-codes"></a>Ställa in lagerplatskoder
@@ -142,6 +143,8 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
 6. Välj åtgärden **bokför**, välj **leverera**, och välj sedan **OK**-knappen.  
 
     De 30 Amsterdam-lamporna har nu registrerats som plockade från lagerställen S-01-0001 och S-01-0002, och en negativ artikeltransaktion skapas som återspeglar den bokförda leveransen.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also"></a>Se även
 
