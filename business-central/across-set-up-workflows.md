@@ -9,26 +9,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: c07a3cfc9807ddcb78a97dc342013ff6e498fee7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 268bb46b6f5949d2816111eed7fb7a09150dd974
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518447"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129990"
 ---
 # <a name="set-up-workflows"></a>Konfigurera arbetsflöden
 
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Mer information finns i [Använd arbetsflöden](across-use-workflows.md).  
 
- Innan du kan börja använda arbetsflöden måste du konfigurera arbetsflödesanvändare och godkännaranvändare,ange hur användarna ska meddelas om arbetsflödessteg och sedan skapa arbetsflöden, eventuellt med tillämpning av föregående kodanpassning.  
+Innan du kan börja använda arbetsflöden måste du konfigurera arbetsflödesanvändare och godkännaranvändare,ange hur användarna ska meddelas om arbetsflödessteg och sedan skapa arbetsflöden.  
 
- På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
+På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
 
- Om ett affärsscenario kräver en arbetsflödehändelse eller ett svar som inte stöds, måste en Microsoft-partner implementera dem genom kod, eller också kan du skapa ett arbetsflöde med hjälp av Power Automate. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i ett automatiserat arbetsflöde](across-how-use-financials-data-source-flow.md) eller [Händelser i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjälpen för utvecklare.
+[!INCLUDE[workflow](includes/workflow.md)]
 
- I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
+I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.  
 
-|**För att**|**Gå till**|  
+|**Om du vill**|**Se**|  
 |------------|-------------|  
 |Konfigurera arbetsflödesanvändare och användargrupper|[Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)|  
 |Konfigurera arbetsflödesanvändare som ingår i godkännandearbetsflöden.|[Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)|  
@@ -42,16 +42,20 @@ Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifte
 |Se information om hur du konfigurerar ett arbetsflöde för godkännande av försäljningsdokument genom att följa en procedur från slutpunkt till slutpunkt.|[Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
 ## <a name="example-of-an-approval-workflow"></a>Exempel på ett arbetsflöde för godkännande
-Den här videon visar hur du ställer in ett arbetsflöde som kräver att någon begär någon annans godkännande innan de kan ändra information om en befintlig kund eller skapa en ny kund.  
+
+Den här videon visar hur du ställer in ett arbetsflöde som kräver att en användare begär någon annans godkännande innan de kan ändra information om en befintlig kund eller skapa en ny kund.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-also"></a>Se även  
- [Använda arbetsflöden](across-use-workflows.md)   
- [Arbetsflöde](across-workflow.md)   
- [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Arbeta med Business Central](ui-work-product.md)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)
+
+## <a name="see-also"></a>Se även
+
+[Använd arbetsflöden](across-use-workflows.md)  
+[Arbetsflöde](across-workflow.md)  
+[Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Arbeta med Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

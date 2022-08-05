@@ -1,25 +1,27 @@
 ---
 title: Konfigurera meddelanden för arbetsflödet
-description: I det här avsnittet beskrivs hur du konfigurerar arbetsflödesmeddelanden för att varna en användare om att en händelse har inträffat som de måste reagera på ett arbetsflödessvar krävs.
+description: I den här artikeln beskrivs hur du konfigurerar arbetsflödesmeddelanden för att varna en användare om att en händelse har inträffat som de måste reagera på ett arbetsflödessvar krävs.
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a41dcc291fb46173533f6552b6c64de35d28bc01
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99c08769429eef51a1d52e142d455ccd227781c7
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134024"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130017"
 ---
 # <a name="workflow-notifications"></a>Aviseringar för arbetsflöde
 
-Konfigurera dina arbetsflöden så att användarna automatiskt meddelas när deras uppmärksamhet krävs för ett steg i det arbetsflödet. Många arbetsflödessvar handlar om att meddela en användare om att en händelse har skett som de måste agera på. Till exempel i en arbetsflödessteg kan händelsen vara att användare 1 begär godkännande av en ny post och åtgärden är att ett meddelande skickas till användare 2, godkännaren. I nästa arbetsflödessteg kan händelsen vara att användare 2 godkänner posten och åtgärden är att ett meddelande skickas till användare 3, som ska starta en relaterad bearbetning av den godkända posten. För arbetsflödessteg som gäller godkännande kopplas varje meddelande till en godkännandepost. Mer information finns i [Arbetsflöden](across-workflow.md).  
+Konfigurera dina arbetsflöden så att användarna automatiskt meddelas när deras uppmärksamhet krävs för ett steg i det arbetsflödet. Många arbetsflödessvar handlar om att meddela en användare om att en händelse har skett som de måste agera på.
+
+Du kan t.ex. ange användare 2, som är användare av godkännare och får ett meddelande när användare 1 begär godkännande för en ny post. I nästa steg i arbetsflödet får du ett meddelande om användare 3 när användare 2 godkänner posten för att starta en relaterad bearbetning av posten. Med arbetsflödessteg för godkännande kopplas varje meddelande till en godkännandepost. Mer information finns i [Arbetsflöden](across-workflow.md).  
 
 > [!NOTE]  
-> Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöder meddelanden som e-post och interna noteringar.  
+> Standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöder meddelanden som e-post och interna noteringar.  
 
 > [!IMPORTANT]  
 > Alla arbetsflödesmeddelanden skickas via en jobbkö. Se till att jobbkön i din installation är konfigurerad för att hantera arbetsflödesmeddelanden och att kryssrutan **Starta automatiskt från server** är markerad. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
@@ -32,7 +34,7 @@ Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:
 
     För godkännande arbetsflöden konfigurerar du mottagare av arbetsflödemeddelanden genom att fylla i en rad på sidan **Användarinställningar för godkännande** för varje användare som ingår i arbetsflödet.  
 
-    Till exempel om användare 2 är specificerat i fältet **Godkännar-ID** på raden för användare 1 så skickas meddelandet om godkännandebegäran till användare 1. Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md).  
+    Till exempel om användare 2 är specificerat i fältet **Godkännar-ID** på raden för användare 1 så skickas meddelandet om godkännandebegäran till användare 2. Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md).  
 * Meddelandescheman
 
     Du definierar när och hur användarna får arbetsflödemeddelanden genom att fylla i sidan **Meddelandeschema** för varje arbetsflödesanvändare. Mer information finns i [Så här anger du när och hur användare ska meddelas](across-how-to-specify-when-and-how-to-receive-notifications.md).  
@@ -45,11 +47,13 @@ Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:
 
 * Svarsalternativ
 
-    Du konfigurerar specifikt innehåll och regler för ett arbetsflödemeddelande när du skapar arbetsflödet i fråga. Du gör detta genom att välja alternativ på sidan **Alternativ för arbetsflödessvar** för de arbetsflödessvar som representerar meddelandet. Mer information finns i steg 9 i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
+    Du konfigurerar specifikt innehåll och regler för ett arbetsflödemeddelande när du skapar arbetsflödet i fråga. Välj de anpassningsalternativ på sidan **Arbetsflödessvar** för de arbetsflödessvar som representerar meddelandet. Mer information finns i steg 9 i [Skapa arbetsflöden](across-how-to-create-workflows.md#to-create-a-workflow).  
 
 * Meddela avsändare
 
-    För arbetsflöden för godkännande lägger du till ett arbetsflödessvarssteg för att meddela avsändaren när begäran har godkänts eller avvisats. Mer information finns i steg 9 i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
+    För arbetsflöden för godkännande lägger du till ett arbetsflödessvarssteg för att meddela avsändaren när begäran har godkänts eller avvisats. Mer information finns i steg 9 i [Skapa arbetsflöden](across-how-to-create-workflows.md#to-create-a-workflow).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se även
 

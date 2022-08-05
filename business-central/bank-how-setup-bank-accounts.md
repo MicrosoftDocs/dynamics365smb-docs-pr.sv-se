@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078784"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144146"
 ---
 # <a name="set-up-bank-accounts"></a>Skapa bankkonton
 
@@ -88,7 +88,7 @@ Den bättre mappningsinformation som du gör i betalningsavstämningsjournal, de
 
 ## <a name="to-set-up-bank-accounts"></a>Så här skapar du bankkonton
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. På sidan **Bankkonton** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -169,7 +169,7 @@ Så här fyller du i fältet **Saldo** med en ingående balans, du måste bokfö
 
 Fälten relaterade till import och export av bankfeeds och filer finns på snabbfliken **Överför** på sidan **Bankkontokort**. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) och [Konfigurera tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Öppna kortet för ett bankkonto som du ska exportera eller importera bankfiler.
 3. I snabbfliken **Överför** fyller du i nödvändiga fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -222,14 +222,7 @@ Bilden visar flödet av avgående betalningar:
 
 Fälten på snabbfliken **Överför** på sidan **Leveraqntörsbankkontokort** är relaterade till export av bankfeeds och filer. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) och [Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
-2. Öppna kortet för en leverantör vars bankkonto som du ska exportera betalningsbankfiler till.
-3. Välj åtgärden **bankkonton**.
-4. Från **Bankkontolista leverantör**, välj relevant bankkonton eller lägg till ett nytt bankkonto.  
-5. På sidan **Leverantörsbankkontokort** på snabbfliken **Överför** fyller du sedan de fält som behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Vissa fält leverantörens bankkontokort kan innehålla känslig information, till exempel fälten **Bankfilialsnr.**, **Bankkontonr.**, **SWIFT-kod** och **IBAN-kod**. Mer information finns i [Övervaka känsliga fält](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## <a name="changing-your-bank-account"></a>Ändra ditt bankkonto
 
@@ -257,6 +250,5 @@ För att få en mer sammandragen bild av dina konton i den finansiella rapporter
 [Betalningsavstämning](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

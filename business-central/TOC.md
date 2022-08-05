@@ -440,7 +440,7 @@
 ### [Sälja produkter](sales-how-sell-products.md)
 ### [Skriv ut plocklistan](sales-how-print-picking-list.md)
 ### [Bokför försäljning](ui-post-sales.md)
-### [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)
+### [Skapa återkommande försäljningsrader](sales-how-work-standard-lines.md)
 ### [Skapa direktleveranser](sales-how-drop-shipment.md)
 ### [Skapa specialorder](sales-how-to-create-special-orders.md)
 ### [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)
@@ -472,9 +472,9 @@
 ### [Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)
 ### [Externa dokumentnummer på inköpsdokument](purchasing-ext-doc-no.md)
 ### [Ange externa dokumentnummer](across-enter-external-document-numbers.md)
+### [Skapa återkommande inköpsrader](purchasing-how-work-recurring-purchase-lines.md)
 
-
-## Lager
+## Lagersaldo
 ### [Lageröversikt](inventory-manage-inventory.md)
 ### [Lager och distributionslagerrapporter](inventory-WMS-reports.md)
 ### [Registrera nya artiklar](inventory-how-register-new-items.md)
@@ -1472,6 +1472,7 @@
 #### [Ställa in försäljning](sales-setup-sales.md)
 #### [Registrera nya kunder](sales-how-register-new-customers.md)
 #### [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md)
+#### [Ställa in priser och rabatter](across-prices-and-discounts.md)
 #### [Registrera speciella försäljningspriser och rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Ställ in kundprisgrupper](sales-how-to-set-up-customer-price-groups.md)
 #### [Ställ in kundrabattgrupper](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Konfigurera inköp
 #### [Konfigurera inköp](purchasing-setup-purchasing.md)
 #### [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)
-#### [Registrera speciella inköpspriser och rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Skapa bankkonton för leverantörer](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Prioritera leverantörer](purchasing-how-prioritize-vendors.md)
 #### [Konfigurera inköpare](purchasing-how-setup-purchasers.md)
+#### [Ställa in priser och rabatter](across-prices-and-discounts.md)
+#### [Registrera speciella inköpspriser och rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Lagerinställning
 #### [Lagerinställning](inventory-setup-inventory.md)
 #### [Ställa in allmän lagerinformation](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Hantera användarinställningar och inställningar](admin-manage-user-settings-preferences.md)
 ### [Ställa in skrivare](ui-specify-printer-selection-reports.md)
 ### [Klassificera datakänslighet](admin-classifying-data-sensitivity.md)
+### [Status för sekretessmeddelanden](privacy-notices-status.md)
 ### [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md)
 ### [Skapa nytt företag](about-new-company.md)
 ### [Loggändring](across-log-changes.md)

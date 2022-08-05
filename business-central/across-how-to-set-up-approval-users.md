@@ -1,6 +1,6 @@
 ---
 title: Konfigurera användare för godkännande
-description: Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i användarinställningar för godkännande.
+description: Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade på sidan användarinställningar för godkännande.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129213"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129801"
 ---
 # <a name="set-up-approval-users"></a>Konfigurera användare för godkännande
 
@@ -46,7 +46,7 @@ Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du ska
     |**Obegränsad godkännande inköpsbeg.**|Ange att användaren i fältet **Användar-ID** kan godkänna alla inköpsofferter oavsett belopp.<br /><br /> Om du markerar den här kryssrutan kan du inte fylla i fältet **Max.bel godkänna ink.begäran**.|  
     |**Ersättare**|Välj användar-ID för den användare som måste godkänna begäranden från användaren i fältet **Användar-ID** om användaren i **Godkännar-ID** inte är tillgänglig. <br /><br />**Obs!**  Ersättaren kan vara antingen användaren i fältet **Ersättare** en direkta godkännaren eller godkännandeadministratören, i den prioritetsordningen. Mer information finns i [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md).|  
     |**E-post**|Ange e-postadressen till användaren i fältet **Användar-ID**.|  
-    |**Administratör för godkännande**|Ange den användare som har rättigheter att ta bort spärrar på godkännandearbetsflöden, till exempel genom att delegera godkännandebegäran till nya ersättande godkännare och ta bort förfallna godkännandebegäranden.|
+    |**Administratör för godkännande**|Ange användaren som har behörighet att avblockera arbetsflöde för godkännande. Till exempel genom att delegera godkännandebegäran till nya ersättande godkännare och ta bort förfallna godkännandebegäranden.|
 
     > [!Note]
     > Endast en person kan vara administratör för godkännande.
@@ -54,14 +54,16 @@ Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du ska
 3. Om du vill testa konfigurationen av godkännandeanvändare väljer du åtgärden **Test av användarinställningar för godkännande**.  
 4. Upprepa steg 2 och 3 för varje användare som du vill konfigurera som en godkännandeanvändare.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Se även
 
-[Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)   
-[Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)   
-[Skapa arbetsflöden](across-how-to-create-workflows.md)   
-[Konfigurera arbetsflöden](across-set-up-workflows.md)   
-[Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Arbetsflöde](across-workflow.md)   
+[Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)  
+[Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  
+[Skapa arbetsflöden](across-how-to-create-workflows.md)  
+[Konfigurera arbetsflöden](across-set-up-workflows.md)  
+[Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Arbetsflöde](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077273"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129683"
 ---
 # <a name="set-up-locations"></a>Konfigurera platser
 
@@ -77,8 +77,7 @@ Om du vill strukturera lagerplatser under zoner kan du göra det på sidan **Zon
 Du kan dock välja att bara skapa en zon och strukturera distributionslagret enbart med hjälp av lagerplatser. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standarddimensioner för platser
-
-Du anger standardmått för en plats på sidan **Platskort** genom att välja **Plats** och sedan **Dimensioner**. Platsens standarddimensioner kopieras till journaler och dokument när du anger lagerstället på en rad, men du kan ta bort eller ändra dimensionen på raden om det behövs. Du kan kräva att användarna anger dimensioner för specifika lagerställen innan de kan bokföra en transaktion. Du kan också ta med dimensions värden för lagerställe i **standard dimensionsprioriteringar** och **Dimensionskombinationer** för kombinationer av prioritet och dimensionsregler.
+Du anger standardmått för en plats på sidan **Platskort** genom att välja **Dimensioner**. Därefter kopplas platsens standarddimensioner till dokument när du väljer lagerställe på en rad. Om det behövs kan du ta bort eller ändra dimensionen på raden. På fältet **värdebokföring** kan du kräva att personer anger dimensioner för platser innan de kan bokföra en transaktion. Om du vill att användarna endast ska kunna välja vissa dimensions värden kan du ange dem i fältet **tillåtna värdefilter**. Du kan också ta med dimensions värden för lagerställe på sidan **standard dimensionsprioriteringar** och **Dimensionskombinationer** för kombinationer av prioritet och dimensionsregler.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

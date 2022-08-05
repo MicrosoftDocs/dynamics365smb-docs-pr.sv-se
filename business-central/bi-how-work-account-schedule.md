@@ -10,28 +10,28 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512366"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129745"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
 
-Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram i Rollcentret, till exempel diagram för kassaflöde och i rapporter såsom resultaträknings- och balansräkningsrapporter.
+Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram och rapporter i Rollcentret, till exempel diagram för kassaflöde och resultaträknings- och balansräkningsrapporter.
 
 Du öppnar dessa två rapporter, till exempel med åtgärden **finansiella rapporter** på Business Manager och rollcenter för redovisare.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] innehåller några exempel på kontouppställningar som du kan använda direkt eller så kan du ange egna rader och kolumner för att jämföra siffrorna. Du kan till exempel skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Du kan skapa så många anpassade finansiella rapporter som du önskar.  
+[!INCLUDE[prod_short](includes/prod_short.md)] innehåller exempel kontouppställningar som du kan använda direkt. Du kan också skapa egna rader och kolumner för att ange vilka siffror som ska jämföras. Du kan skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Antalet anpassade bokslut du kan skapa är obegränsat.  
 
-Ställa in kontouppställningar kräver en förståelse för den ekonomiska informationen i kontoplanen. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna. Detta kräver att budgetar som skapas. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
+Ställa in kontouppställningar kräver en förståelse för den ekonomiska informationen i kontoplanen. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna, men det kräver att du har skapat budgetar. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 
 ## <a name="account-schedules"></a>Kontouppställningar
 
-Kontouppställningar används för att ordna kontona i kontoplanen på ett sätt som passar presentation av information om dem. Du kan skapa olika layouter för att definiera informationen som du vill hämta från kontoplanen. En av huvudfunktionerna hos en kontouppställning är att tillhandahålla en plats för beräkningar som inte kan göras direkt i kontoplanen, till exempel beräkningar av deltotaler för kontogrupper, vilka kan inkluderas i nya totaler som sedan i sin tur kan användas i andra totaler. Användare kan till exempel skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Dessutom kan redovisningstransaktionerna och redovisningsbudgettransaktioner filtreras, till exempel efter nettoförändring eller debetbelopp.
+Kontouppställningen strukturerar kontona i kontoplanen på ett sätt som gör det enklare att presentera data. Du kan skapa olika layouter för att definiera informationen som du vill hämta från kontoplanen. Kontouppställningar är en plats för beräkningar som inte kan göras direkt i kontoplanen. Du kan t. ex. skapa delsummor för grupper av konton och sedan ta med denna summa i andra summor. Ett annat exempel är att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Dessutom kan du filtrera redovisningstransaktionerna och redovisningsbudgettransaktioner, till exempel efter nettoförändring eller debetbelopp.
 
-Du kan även jämföra två eller flera kontouppställningar och kolumnlayouter med hjälp av formler. Den här typen av jämförelse ger dig möjlighet att:
+Du kan även jämföra två eller flera kontouppställningar och kolumnlayouter med hjälp av formler, som låter dig vidta följande åtgärder:
 
 * Skapa anpassade ekonomirapporter.
 * Skapa så många kontouppställningar som behövs, var och en med ett unikt namn.
@@ -50,28 +50,33 @@ Du kan använda kontokategorier för att ändra layout på din redovisning. När
 
 Du använder kontouppställningar för att analysera siffror för redovisningskonton eller jämföra redovisningstransaktioner med redovisningsbudgettransaktioner. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.
 
-Kontouppställningar i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] utgör grunden för de ekonomiska standardrapporter, som kanske inte passar ditt företag. Du kan snabbt skapa dina egna finansiella rapporter, du kan starta genom att kopiera en befintlig kontouppställning. Se punkt 3 nedan.
+Kontouppställningar i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] utgör grunden för de ekonomiska standardrapporter, som kanske inte passar ditt företag. Du kan snabbt skapa dina egna finansiella rapporter, du kan starta genom att kopiera en befintlig kontouppställning som beskrivs i steg 3.
 
-Sidan **Kontouppställning översikt** är där du kan förhandsgranska den finansiella rapport som definieras i kontouppställningen. I det följande är det viktigt att förstå att det du ställer in som kontouppställningsrader och kolumner bara kan visas och godkännas på sidan **Kontouppställning översikt** som du öppnar från en kontouppställning genom att välja åtgärden **översikt**. Själva sidan **kontouppställning** är endast inställningsområde.  
+> [!TIP]
+> När du har skapat en konto uppställning kan du använda sidan **Kontouppställning översikt** för att förhandsgranska och validera den finansiella rapport som definieras av kontouppställningen. För att öppna sidan, välj åtgärden **Översikt**.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontouppställningar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.  
 2. På sidan **Kontouppställningar** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn.
-3. Alternativt väljer du åtgärden **Kopiera kontouppställning** fyller du i de två fälten och väljer sedan knappen **OK**.
+3. Om du vill återanvända inställningar från en befintlig kontouppställning väljer du åtgärden **Kopiera kontouppställning**.
 4. Fyll i fälten om det behövs. I fältet **Standardkolumnlayout** väljer du en befintlig layout. Du kan redigera den senare om du vill.
 
-    Du kan använda kolumnlayouter för att definiera kolumner för olika parametrar som ekonomiska data på raderna visas. Du kan t. ex. utforma en kolumn för att jämföra nettoförändringen för samma period innevarande och föregående år med fyra kolumner. Mer information finns i avsnittet [Att redigera en kolumnlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Kolumnlayouter för att definiera kolumner för parametrar som ekonomiska data på raderna visas. Till exempel kan en kolumnlayout innehålla fyra kolumner som låter dig jämföra nettoförändringen för samma period innevarande och föregående år. Mer information finns i avsnittet [Att redigera en kolumnlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Välj åtgärden **Redigera kontouppställning**.
-6. Skapa en rad för varje ekonomisk element som du vill ska visas i rapporten, till exempel en rad för omsättningstillgångar och en annan rad för anläggningstillgångar. För inspiration, se befintliga kontouppställningar i demonstrationsföretaget CRONUS.
+6. Beroende på vad du vill analysera, välj åtgärder **Infoga redovisningskonton**, **Infoga kassaflödeskonton** och **Infoga kostnadstyper** för att skapa en rad för varje ekonomiskt element. Du kan till exempel ha en rad för omsättningstillgångar och en annan rad för anläggningstillgångar. För inspiration, se kontouppställningar i demonstrationsföretaget CRONUS.
+
+    > [!NOTE]
+    > **Radnr.** fältet visas de första 10 tecknen i en identifierare, t. ex. ett kontonummer. Om du lägger till element med identifierare som börjar med samma tio tecken kommer du att ha dubbletter i fältet **Radnr.** . Om det behövs kan du redigera identfiers manuellt när du har infogat elementen. Alla identifierare visas i fältet **Summeringsintervall** .
+
 7. Välj åtgärden **översikt** för att se den resulterande finansiella rapporten.
 8. På sidan **Kontouppställning översikt** i fältet **Kolumnlayoutnamn** väljer du en annan kolumnlayout för att visa ekonomiska data med andra parametrar.
-9. Välj knappen **OK**.
+9. Välj **OK**.
 
 Du har nu definierat basen för kontouppställningen, raderna för ekonomiska data som ska visas och en befintlig layout för kolumner för att visa data på rader per olika parametrar. Om standardkolumnlayouten som du valde i steg 4 inte passar dina önskemål, följ proceduren nedan.
 
 ### <a name="to-edit-a-column-layout"></a>Så här redigerar du en kolumnlayout
 
-För att ange vilka kolumner som ska tas med i den resulterande rapporten använder du kolumnlayouter. Du kan t. ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år. Du kan ha upp till 15 kolumne. Detta är användbart om du t. ex. vill visa budgetar för 12 månader och inkludera en kolumn som visar summan.
+För att ange vilka kolumner som ska tas med i den resulterande rapporten använder du kolumnlayouter. Du kan t.ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år. Du kan ha upp till 15 kolumner, vilket kan vara praktiskt om du t. ex. visar budgetar i tolv månader med en kolumn som visar summan.
 
 > [!NOTE]
 > En utskriven/granskad/sparad version av en kontouppställning kan visa maximalt fem kolumner. Om kontouppställningen endast är avsedd för analys på sidan **Kontouppställning översikt** kan du skapa så många kolumner du vill.
@@ -86,7 +91,7 @@ För att ange vilka kolumner som ska tas med i den resulterande rapporten använ
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Så här skapar du en kolumn för att beräkna procentsatser
 
-Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t. ex. har ett antal rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning som varje rad representerar.
+Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t. ex. har rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning i varje rad.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.
 2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
@@ -119,9 +124,9 @@ Nu kan du kopiera och klistra in budgetutdraget i ett kalkylblad.
 
 Din kontouppställning kan jämföra resultaten av olika bokföringsperioder, till exempel den här månaden eller samma månad förra året. Det gör du genom att öppna sidan **Kolumnlayout** och anpassa den genom att lägga till fältet **Formel jämförelseperiod** som en kolumn. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md). Du kan sedan ange att fältet ska vara en periodformel.  
 
-En bokföringsperiod måste inte matcha kalendern, men varje räkenskapsår måste ha lika många bokföringsperioder, även om perioderna kan vara olika långa.  
+En bokföringsperiod måste inte stämma överens med kalendern. Men varje räkenskapsår måste ha lika många bokföringsperioder, även om perioderna kan vara olika långa.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] använder periodformeln för att beräkna beloppet från jämförelseperioden i förhållande till perioden som representeras av datumfiltret i en rapportbegäran. Jämförelseperioden baseras på perioden för startdatumet i datumfiltret. Följande förkortningar för perioder används:
+[!INCLUDE[prod_short](includes/prod_short.md)] använder periodformeln för att beräkna beloppet från jämförelseperioden i förhållande till perioden som representeras av datumfiltret i en rapport. Jämförelseperioden baseras på perioden för startdatumet i datumfiltret. Följande förkortningar för perioder används:
 
 | Förkortning | Beskrivning                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -150,7 +155,7 @@ Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel
 Mer information om datumformler finns i [arbeta med datum och tider för kalender](ui-enter-date-ranges.md).  
 
 ## <a name="import-or-export-account-schedules"></a>Importera eller exportera kontouppställningar
-Du kan importera och exportera kontouppställningar som RapidStart-konfigurationspaket. Detta kan till exempel vara användbart när du delar dem med andra företag. Paketet skapas i en .rapidstart-fil, vilket levererar paketinnehållen i ett komprimerat format.
+Du kan importera och exportera kontouppställningar som RapidStart-konfigurationspaket. Till exempel är konfigurationspaket användbara för att dela dem med andra företag. Paketet skapas i en .rapidstart-fil, vilket levererar paketinnehållen i ett komprimerat format.
 
 ### <a name="to-import-and-export-account-schedules"></a>Så här importerar och exporterar du kontouppställningar
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.

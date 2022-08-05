@@ -10,14 +10,15 @@ ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 411163798b5af49a154e19243e556c010bffd5ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ed025f130fc2de9be77c373ab9b651844496b8a7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513789"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144217"
 ---
 # <a name="prioritize-vendors"></a>Prioritera leverantörer
+
 [!INCLUDE[prod_short](includes/prod_short.md)] används för att ta fram olika betalningsförslag, t. ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
 
 Först måste du prioritera leverantörerna genom att tilldela nummer till dem.
@@ -25,6 +26,7 @@ Först måste du prioritera leverantörerna genom att tilldela nummer till dem.
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>Så här prioriterar du leverantörer:
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Välj lämplig leverantör och sedan **Redigera**.
 3. Ange ett nummer i fältet **Prioritet**.
@@ -34,9 +36,10 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] räknas lägst nummer (förutom
 Om du inte vill prioritera en leverantör lämnar du fältet **Prioritet** tomt. Om du sedan använder funktionen för betalningsförslag visas den här leverantören sist i listan, efter de leverantörer som har tilldelats ett prioritetsnummer. Du kan ange valfritt antal prioritetsnivåer alltefter behov.
 
 ## <a name="see-also"></a>Se även
+
+[Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

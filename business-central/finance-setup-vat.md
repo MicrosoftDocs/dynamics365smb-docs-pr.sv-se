@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740317"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130125"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurera beräknings- och bokföringsmetoder för moms
 
@@ -171,6 +171,21 @@ Du kan ändra eller ta bort en momsklausul och dina ändringar kommer visas i en
 2. Välj åtgärden **Översättningar**.  
 3. I fältet **språkkod** välj det språk du översätta till.  
 4. I fältet **Beskrivning** och **Beskrivning 2** anger du översättning av beskrivningarna. Denna text visas i det översatta momsrapportdokument.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>För att ange utökad text för momsklausuler
+
+> [!NOTE]  
+> Om landet eller regionen kräver längre text för momsklausuler än standardversionen stöder kan du ange den längre texten för momsklausuler som *extratext* så att den skrivs ut på försäljnings- och inköpsrapporterna.  
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 11.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsklausuler** och väljer sedan relaterad länk.  
+2. Välj åtgärden **Extratexter**.  
+3. Fyll i fälten **Kod** och **Beskrivning**.  
+3. Välj åtgärden **Ny**.  
+4. Alternativt kan du välja fältet **Alla språkkoder** eller ange det relevanta språket i **språkkod** om du använder språkkoder.  
+5. Fyll i fältet **Startdatum** och fältet **Slutdatum** om du vill begränsa den period under vilken extratexten ska användas.  
+6. På raderna **Text**, skriv den utökade texten för dina momsklausuler.  
+7. Markera relevanta fält för dokumenttyperna där du vill att extratexten ska skrivas ut.  
+8. Stäng sidan.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Skapa en momsbokföringsinställning för hantering av importmoms
 

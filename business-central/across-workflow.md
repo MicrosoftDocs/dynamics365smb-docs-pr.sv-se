@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075088"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129909"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Arbetsflöden i Dynamics 365 Business Central
 
@@ -38,7 +38,7 @@ För [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrera di
 
 Du kan skapa ett arbetsflöde för godkännande genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
 
-Om ett affärsscenario kräver en arbetsflödeshändelse eller ett svar som inte stöds i standardversionen, registrerar du dig för Power Automate. Mer information finns i [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flöden](across-how-use-financials-data-source-flow.md). Du kan också skaffa en app eller arbeta med en Microsoft-partner om du vill anpassa programkoden.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
 Om du vill konfigurera och använda arbetsflöden som inte har definierats i Power Automate kontrollerar du följande artiklar:  
 

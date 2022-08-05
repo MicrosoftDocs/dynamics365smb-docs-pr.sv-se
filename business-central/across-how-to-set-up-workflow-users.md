@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 187ff9bad2fb8bf320872759115e98b326b689c8
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075140"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130206"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurera arbetsflödesanvändare
 
@@ -40,7 +40,7 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
     |**Användarnamn**|Ange användaren som ska ingå i arbetsflöden.<br /><br /> Användaren måste finnas på sidan **Användarinställningar**. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).|  
-    |**Sekvensnr**|Ange den ordning som arbetsflödesanvändaren agerar i ett arbetsflöde i förhållanden till andra användare. Detta fält kan användas, till exempel, för att ange när användaren godkänner i förhållande till andra godkännare när du använder alternativet **Arbetsflödesanvändargrupp** i fältet **Godkännartyp** på det relaterade arbetsflödesvaret. **Tips!** Om du vill definiera att en godkännandebegäran inte godkänns förrän flera godkännare har godkänt den, oavsett plats i en hierarki, ställer du in en plan arbetsflödeanvändargrupp genom att tilldela samma sekvensnumret till de relevanta godkännarna.|  
+    |**Sekvensnr**|Ange den ordning som arbetsflödesanvändaren agerar i ett arbetsflöde i förhållanden till andra användare. Detta fält kan användas, till exempel, för att ange när användaren godkänner i förhållande till andra godkännare när du använder alternativet **Arbetsflödesanvändargrupp** i fältet **Godkännartyp** på det relaterade arbetsflödesvaret.<br /><br /> **Tips!** Om du vill definiera att en godkännandebegäran krävs att flera användare har godkänt den, oavsett plats i en hierarki, ställer du in en plan arbetsflödeanvändargrupp genom att tilldela samma sekvensnumret till de relevanta godkännarna.|  
 6. Upprepa steg 5 för att lägga till fler arbetsflödesanvändare i användargruppen.  
 7. Upprepa steg 2 till 6 för att lägga till fler arbetsflödesanvändargrupper.  
 

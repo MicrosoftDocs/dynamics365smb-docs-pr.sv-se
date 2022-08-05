@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077377"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130233"
 ---
 # <a name="use-workflows"></a>Använda arbetsflöden
 
@@ -54,19 +54,19 @@ Arbetsflödet godkänns dock inte förrän alla begäranden har godkänts av god
 
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Det går också att skapa samma arbetsflöde mer än en gång. Varje arbetsflöde som utlöstes av en händelse med hjälp av olika filter. Detta är användbart om en godkännande förfrågan på en avdelning måste godkännas av en godkännare, där godkännande begäranden på andra avdelningar måste godkännas av en annan godkännare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
 
- Innan du kan börja använda arbetsflöden måste du konfigurera arbetsflödesanvändare, skapa arbetsflöden, eventuellt tillämpa föregående kodanpassning och ange hur användarna ska meddelas. Mer information finns i [Konfigurera arbetsflöden](across-set-up-workflows.md).  
+Innan du kan börja använda arbetsflöden måste du konfigurera arbetsflödesanvändare, skapa arbetsflöden, eventuellt tillämpa föregående kodanpassning och ange hur användarna ska meddelas. Mer information finns i [Konfigurera arbetsflöden](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Vanliga arbetsflödessteg är när användare begär godkännande av aktiviteter och godkännare accepterar eller avvisar godkännandebegäranden. Därför handlar många avsnitt om hur du använder arbetsflöden i godkännande.  
 
- I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
+ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.  
 
-|**För att**|**Gå till**|  
+|**Om du vill**|**Se**|  
 |------------|-------------|  
 |Ange ett arbetsflöde för att starta när den första instegshändelsen inträffar.|[Så här aktiverar du arbetsflöden](across-how-to-enable-workflows.md)|  
 |Begär godkännande för en aktivitet, som en godkännare, acceptera, avvisa eller delegera godkännanden och skicka eller visa godkännandemeddelanden.|[Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md)|  
 |Skapa arbetsflödessteg som begränsar en viss posttyp från att användas innan en viss händelse uppstår, till exempel att posten godkänns.|[Begränsa och tillåt användningen av en post](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Visa avslutade arbetsflödessteginstanser med statusen Avslutat.|[Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)|  
+|Visa avslutade instans för arbetsflödessteg med statusen **Avslutat**.|[Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)|  
 |Ta bort ett arbetsflöde som du vet inte ska användas längre.|[Ta bort arbetsflöden](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)

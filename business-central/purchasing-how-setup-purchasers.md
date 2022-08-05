@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c9389ca6a888e81c67aa9e6421e20e5b43d35d38
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 15eaf7e799f12e1e2c1c4dca5328b354c8113af7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078602"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144281"
 ---
 # <a name="set-up-purchasers"></a>Konfigurera inköpare
 
@@ -39,9 +39,9 @@ Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och ti
 
 ## <a name="see-also"></a>Se även
 
+[Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

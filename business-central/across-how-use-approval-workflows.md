@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a4dcb5c9f12190a662c4f45bbadcfdddee70fa7f
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079356"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129828"
 ---
 # <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
 
@@ -20,7 +20,7 @@ När en post som till exempel ett inköpsdokument eller ett kundkort måste godk
 
 Du kan ställa in godkännandearbetsflöden på sidan **Arbetsflöde**. Du måste också ställa in godkännande användare, inklusive eventuella relevanta beloppsgränser, på sidan **användarinställningar för godkännande**. Mer information finns i [Konfigurera arbetsflöden](across-set-up-workflows.md).  
 
-Förutom arbetsflöden för godkännande som beskrivs i det här avsnittet, kan du utföra olika andra arbetsflödesuppgifter. Mer information finns i [Använda arbetsflöden](across-use-workflows.md).
+Förutom arbetsflöden för godkännande som beskrivs i den här artikeln kan du utföra olika andra arbetsflödesuppgifter. Mer information finns i [Använd arbetsflöden](across-use-workflows.md).
 
 Centrala arbetsflöden för godkännande för inköpsdokument, försäljningsdokument, utbetalningsjournaler, kundkort och artikelkort är klara att starta som guider. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).
 
@@ -33,7 +33,7 @@ Efterföljande aktivitet utförs av en godkännaranvändare.
 
 Statusen på godkännandetransaktionen uppdateras från **Skapad** till **Öppen**. Statusen på posten, t. ex. en inköpsfaktura, uppdateras från **Öppen** till **Väntar på godkännande** och är låst för bearbetning tills alla godkännare har godkänt transaktionen.
 
-När godkännaren har godkänt transaktionen, ändras statusen till **Släppt**. Därefter kan du fortsätta med dina uppgifter för posten.
+När alla godkännare som krävs har godkänt transaktionen, ändras statusen till **Släppt**. Därefter kan du fortsätta med dina uppgifter för posten.
 
 ## <a name="to-cancel-requests-for-approval"></a>Så här annullerar du begäranden om godkännande
 
@@ -76,9 +76,9 @@ Ett meddelande om att godkänna begäran skickas till den ersättande godkännar
 
 Efterföljande aktivitet utförs av en godkännaranvändare med behörigheten godkännare.
 
-Med jämna mellanrum måste du påminna godkännandearbetsflödesanvändare om förfallna godkännandebegäranden som de måste agera på. Använd funktionen **Skicka meddelanden om förfallna godkännanden** för detta.
+Med jämna mellanrum måste du påminna godkännandearbetsflödesanvändare om förfallna godkännandebegäranden som de måste agera på. Använd funktionen **Skicka meddelanden om förfallna godkännanden** för att påminna användaren.
 
-Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontroll för att hitta alla förfallna öppna godkännandetransaktioner. Varje godkännare som har minst en förfallen godkännandetransaktion får meddelande med en lista över alla förfallna godkännandebegäranden. Meddelandet skickas också till deras godkännare och alla som begärt de förfallna godkännandena. Detta är praktiskt om den förfallna godkännandetransaktionen behöver delegeras till en ersättare.
+Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontroll för att hitta alla förfallna öppna godkännandetransaktioner. Varje godkännare som har minst en förfallen godkännandetransaktion får meddelande med en lista över alla förfallna godkännandebegäranden. Meddelandet skickas också till deras godkännare och alla som begärt de förfallna godkännandena. Detta sista steg är praktiskt om den förfallna godkännandetransaktionen behöver delegeras till en ersättare.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Förfallna begäranden om godkännande** och välj sedan relaterad länk.
 2. På sidan **Förfallna begäranden om godkännande** väljer du åtgärden **Skicka meddelanden om förfallna godkännanden**.
