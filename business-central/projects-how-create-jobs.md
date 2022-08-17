@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074698"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227479"
 ---
 # <a name="create-jobs"></a>Skapa projekt
 
@@ -43,7 +43,15 @@ Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektpla
 3. Om du vill ange projektet med information om andra projekt väljer du åtgärden **Kopiera projekt**, fyller i fälten efter behov och väljer sedan knappen **OK**.
 
 > [!NOTE]  
->   Om du använder tidrapporter i projektet måste du också ange en person som ansvarar. Denna person kan godkänna tidrapporter för anställdas aktiviteter som är kopplade till projektet. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
+> Om du använder tidrapporter i projektet måste du också ange en person som ansvarar. Denna person kan godkänna tidrapporter för anställdas aktiviteter som är kopplade till projektet. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
+
+Om du vill kan du markera åtgärder i projekt som spärrade med fältet **spärrad**. följande tabell beskriver effekten av alternativen för detta fält.
+
+|Alternativ  |Description  |
+|---------|---------|
+|Tom |Alla åtgärder tillåts.|
+|Bokföra    |Du kan arbeta med planeringsrader, men projektet är spärrat för bokföring. Om du väljer det här alternativet innebär det att du inte kan bokföra någon förbrukning eller försäljning för projektet.|
+|Alla  |Alla åtgärder är spärrade.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Skapa aktiviteter för ett projekt
 

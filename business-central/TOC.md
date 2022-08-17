@@ -772,9 +772,9 @@
 ### Kanada
 #### [Lokala funktioner i den kanadensiska versionen](LocalFunctionality/Canada/canada-local-functionality.md)
 #### Moms
-##### [Rapportera omsättningsskatt och moms på varor och tjänster i Kanada](LocalFunctionality/Canada/sales-tax-goods-services.md)
-##### [Rapportera omsättningsskatt i Kanada](LocalFunctionality/Canada/ca-sales-tax.md)
-##### [Ställa in orealiserad omsättningsskatt och försäljningskassarabatter](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
+##### [Rapportera moms och moms på varor och tjänster i Kanada](LocalFunctionality/Canada/sales-tax-goods-services.md)
+##### [Rapportera moms i Kanada](LocalFunctionality/Canada/ca-sales-tax.md)
+##### [Ställa in orealiserad moms och försäljningskassarabatter](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Ställa in importavgift och ingående moms](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 #### Bankverksamhet och betalningar
 ##### [Skapa depositioner](LocalFunctionality/Canada/how-to-create-deposits.md)
@@ -1308,6 +1308,7 @@
 ##### [Rapport 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Skapa rapport 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Ställ in 340 rapporter för mindre företag](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [Konfigurera SII för rapportering av momsregistreringsnummer](LocalFunctionality/Spain/sii-setup.md)
 ##### [Skapa mallar för telematiska momsrapporter i textfilformat](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Skapa mallar för telematiska momsrapporter i XML-format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [Exportera momsrapporter i XML-format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Cartera-modul för kundfordringar](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Betalningar Cartera-modul](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII – Typer av faktura och kreditnota i försäljnings- och inköpsdokument](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [Konfigurera SII för rapportering av momsregistreringsnummer](LocalFunctionality/Spain/sii-setup.md)
 #### Grundläggande ekonomi
 ##### [Ställ in och stäng resultaträkningssaldon](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indrag och validera kontoplan](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1420,12 +1420,12 @@
 ### USA
 #### [Lokala funktioner i den amerikanska versionen](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Moms
-##### [Omsättningsskatt USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Moms USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Rapportering av moms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Ställ in och Använd formuläret IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regel 1099 formatera ändringar och information](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Ställa in importavgift och ingående moms](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Ställa in orealiserad omsättningsskatt och försäljningskassarabatter](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
+##### [Ställa in orealiserad moms och försäljningskassarabatter](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Bankverksamhet och betalningar
 ##### [Skapa depositioner](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 ##### [Stämma av bankkonton](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729848"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227506"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
 
@@ -82,6 +82,10 @@ Du kan kopiera alla behörighetsuppsättningar från en befintlig användargrupp
 3. I fältet **Ny användargruppkod** anger du ett namn på den nya gruppen och väljer sedan knappen **OK**.
 
 Användargruppen läggs till i sidan **Användargrupper**. Fortsätt med att lägga till användare. Mer information finns i avsnittet [För att lägga till användare i en användargrupp](#to-add-users-to-a-user-group).  
+
+> [!IMPORTANT]
+> Du får ett meddelande om verifieringsfel om du försöker tilldela en användargrupp en användare som refererar till en behörighetsgrupp som har definierats i ett tillägg som inte avinstallerats. Detta beror på att app-ID tillägget verifieras när det refereras. Om du vill tilldela en användare en användargrupp kan du antingen installera tillägget på nytt, ta bort referensen för det avinstallerade tillägget från behörighetsgruppen eller ta bort behörighetsuppsättningen från användargruppen.
+
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Tilldela behörighetsuppsättningar till användargrupper
 
