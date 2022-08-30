@@ -665,6 +665,7 @@
 ### [Synkronisera objekt med Shopify](shopify/synchronize-items.md)
 ### [Synkronisera kunder med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisera och uppfylla försäljningsordrar med Shopify](shopify/synchronize-orders.md)
+### [Ställa in moms för Shopify anslutning](shopify/setup-taxes.md)
 ### [Kör uppgifter i bakgrunden](shopify/background.md)
 ### [Felsök Shopify-kopplingen](shopify/troubleshoot.md)
 ### [FAQ för Shopify-kopplingen](shopify/shopify-faq.md)

@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c7aea0d0b3d9a8902e704a2d390d6a244e8cbbef
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808965"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317306"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkronisera artiklar och lager
 
@@ -89,6 +89,8 @@ Med följande inställningar kan du hantera exporten av artiklar:
 |**Lager spårat**|Välj hur systemet ska fylla i fältet **Spåra lager** för produkter som exporteras till Shopify. Du kan uppdatera information om tillgänglighet från [!INCLUDE[prod_short](../includes/prod_short.md)] för produkter i Shopify som lagerspårning har aktiverats för. Mer information finns i [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standardlagerprincip**|Välj *Neka* för att förhindra negativt lager på Shopify-sidan. |
 |**Kan uppdatera Shopify-produkter**|Ange om [!INCLUDE[prod_short](../includes/prod_short.md)] endast kan skapa artiklar eller om det kan uppdatera artiklar också. Välj det här alternativet om du, efter den första synkroniseringen som utlösts av åtgärden **Lägg till artikel**, planerar att uppdatera produkter manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Glöm inte att välja **Till Shopify** i fältet **Artikelsynkronisering**.|
+|**Kod för kundmall**|Välj den standard mall som ska användas under prisberäkningen. Mer information finns i [Ställ in moms](setup-taxes.md).|
+
 
 ### <a name="fields-mapping-overview"></a>Översikt över fältmappning
 
@@ -100,7 +102,7 @@ Med följande inställningar kan du hantera exporten av artiklar:
 |Sidrubrik, SEO|Korrigera värde: Tom, se [Ad-Hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Inte använd.|
 |Metabeskrivning, SEO|Korrigera värde: Tom, se [Ad-Hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Inte använd.|
 |Media|**Bild**, mer information finns i [Synkronisera artikelbilder](synchronize-items.md#sync-item-images)|**Bild**|
-|Pris|Beräknande av slutkundens pris omfattar artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall. |Inte använd.|
+|Pris|Beräknande av slutkundens pris omfattar artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall. |**A-pris**|
 |Jämför med pris|Beräknande av pris utan rabatt omfattar artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall. |Inte använd.|
 |Styckkostnad|**Styckkostnad**|**Styckkostnad**|
 |Lagerställeenhet|Se **SKU-mappning** i [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify)| Läs [Så påverkar SKU och streckkod som definierats i Shopify produkter mappningen och skapandet av artiklar och varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
@@ -111,7 +113,7 @@ Med följande inställningar kan du hantera exporten av artiklar:
 |Leverantör|**Namn** på leverantör från **Leverantörsnr** |**Leverantörsnr**-mappning efter namn.|
 |Vikt|**Bruttovikt**.|Inte använd.|
 |Momspliktig|Fast värde: aktiverat.|Inte använd.|
-|Momskoder|**Momsgruppskod**. Endast relevant för moms. Mer information finns i [Moms](synchronize-orders.md#tax-remarks). |Inte använd.|
+|Momskoder|**Momsgruppskod**. Endast relevant för moms. Mer information finns i [Ställ in moms](setup-taxes.md). |Inte använd.|
 
 ### <a name="tags"></a>Taggar
 
@@ -197,7 +199,7 @@ Priser kan exporteras för synkroniserade artiklar på de sätt som beskrivs ned
 
 ### <a name="price-calculation-remarks"></a>Anmärkningar om prisberäkning
 
-* För prisberäkning är det viktigt att ha ett värde i fältet **Standardkundmall**. [!INCLUDE[prod_short](../includes/prod_short.md)] använder värdet i fältet **Moms bokföringsmall** för att beräkna priset inklusive moms. Det kan vara en bra idé att skapa en kund pris grupp, där du väljer fältet **Pris inklusive moms** och ange det relevanta värdet i fältet **Moms rörelsebokf. bokf. mall (pris)**.
+* För prisberäkning är det viktigt att ha ett värde i fältet **Standardkundmall**. Mer information finns i [Ställ in moms](setup-taxes.md).
 * Ange en **valutakod** om din onlinebutik använder en annan valuta än BVA. Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDE[prod_short](../includes/prod_short.md)].
 * När du fastställer ett pris använder [!INCLUDE[prod_short](../includes/prod_short.md)] logiken ”Lägsta pris”. Det innebär att om enhetspriset som anges på artikelkortet är lägre än vad som anges i prisgruppen används enhetspriset från artikelkortet.
 

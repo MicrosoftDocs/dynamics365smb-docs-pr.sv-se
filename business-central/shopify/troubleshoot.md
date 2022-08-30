@@ -1,18 +1,18 @@
 ---
 title: Felsöka synkroniseringen av Shopify och Business Central
 description: Lår dig vad du ska göra om något går fel under synkroniseringen av data mellan Shopify och Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129647"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317252"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Felsöka synkroniseringen mellan Shopify och Business Central
 
@@ -22,7 +22,7 @@ Det kan hända att du behöver felsöka problem när du synkroniserar data mella
 
 Om en synkroniseringsuppgift misslyckas kan du aktivera loggning genom att aktivera reglaget **Aktivera logg** på **Shopify-butikskortet**. Utlösa synkroniseringsuppgift och granska loggar manuellt.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och anger **Shopify-loggposter** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta vad du vill göra") och anger **Shopify-loggposter** och väljer sedan relaterad länk.
 2. Välj den berörda loggposten och öppna fönstret **Shopify-loggpost**.
 3. Kontrollera begäran, statuskod och beskrivning och svar.
 
@@ -86,6 +86,16 @@ I följande procedurer beskrivs hur du roterar den åtkomsttoken som används av
 2. Välj den butik som du vill rotera åtkomsttoken för och öppna sidan **Shopify-butikskort**.
 3. Välj åtgärden **Begär åtkomst**.
 4. Om du uppmanas till det, loggar du in på ditt Shopify-konto, granskar sekretess och behörigheter och trycker sedan på knappen **Installera app**.
+
+## <a name="known-issues"></a>Kända problem
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Redovisnings- Rörelsebokföringsmallen måste ha ett värde i kund. Den kan inte vara noll eller tom.
+
+Fyll i fältet **Kod för kundmall** i fönstret **Shopify butikskort** med den mall som har **Rörelsebokföringsmall** ifyllt. Kundmallen används inte bara för att skapa kunder, utan även för beräkning av försäljningspris och när försäljningsdokument skapas.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Import av data till din Shopify butik har inte aktiverats. Gå till butikskortet för att aktivera det.
+
+I fönstret **Shopify butikskort** aktivera växlingsknappen **Tillåt synkronisering till Shopify**.  Denna växlingsknapp är avsedd att skydda onlinebutiken från att hämta demodata från [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>Se även
 

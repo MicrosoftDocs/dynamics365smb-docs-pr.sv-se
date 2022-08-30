@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077794"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317333"
 ---
 # <a name="synchronize-customers"></a>Synkronisera kunder
 
@@ -47,7 +47,7 @@ Antingen importerar du kunder från Shopify i bulk eller tillsammans med orderim
 |**Kundmappningstyp**|Definiera hur kopplingen ska utföra mappning.<br>- **Via e-post/telefon** om du vill att kopplingen mappar importerade Shopify-kunder till befintliga kunder i [!INCLUDE[prod_short](../includes/prod_short.md)] med hjälp av e-post och telefon.</br>- **Genom faktureringsinfo** om du vill att kopplingen mappar importerade Shopify-kunder till befintliga kunder i [!INCLUDE[prod_short](../includes/prod_short.md)] med hjälp av adressinformation eller information om fakturamottagaren.</br>Välj **Ta alltid standardkunden** om du vill att systemet använder en kund från **Standardkundnr** . |
 |**Shopify kan uppdatera kunder**| Välj om du vill att kopplingen uppdaterar kunder som inte hittas, när något av alternativen **Via e-post/telefon** eller **Genom faktureringsinfo** har valts i fältet **Kundmappningstyp**.|
 |**Skapa okända kunder automatiskt**| Välj om du vill att kopplingen skapar saknade kunder när något av alternativen **Via e-post/telefon** eller **Genom faktureringsinfo** har valts i fältet **Kundmappningstyp**. En ny kund skapas med hjälp av importerade data och **Kod för kundmall** definierad på någon av sidorna **Shopify-butikskort** eller **Shopify-kundmall**. Observera att Shopify-kunden måste ha minst en adress. Om alternativet inte har aktiverats måste du skapa kunden manuellt och koppla den till Shopify-kunden. Du kan alltid upprätta en kundsskapelse manuellt från sidan **Shopify-order**.|
-|**Kod för kundmall**|Används tillsammans med **Skapa okända automatiskt**.<br> Välj den standardmall som ska användas för automatiskt skapade kunder. Kontrollera att den valda mallen innehåller de obligatoriska fälten, till exempel **Gen. rörelsebokföringsmall**, **Kundbokföringsmall**, moms eller skattepliktiga fält.<br> Du kan definiera mallar per land/region i sidan **Shopify-kundmallar**, vilket är användbart för korrekt momsberäkning. Mer information finns i [Momsanmärkningar](synchronize-orders.md#tax-remarks).|
+|**Kod för kundmall**|Används tillsammans med **Skapa okända automatiskt**.<br> Välj den standardmall som ska användas för automatiskt skapade kunder. Kontrollera att den valda mallen innehåller de obligatoriska fälten, till exempel **Gen. rörelsebokföringsmall**, **Kundbokföringsmall**, moms eller skattepliktiga fält.<br> Du kan definiera mallar per land/region i sidan **Shopify-kundmallar**, vilket är användbart för korrekt momsberäkning. <br>Mer information finns i [Momsinställningar](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Kundmall per land
 
@@ -57,7 +57,8 @@ Med **Shopify-kundmallen** kan du göra följande för varje land:
 
 1. Ange **Standardkundnr**, vilket har högre prioritet än valen i fälten **Kundimport från Shopify** och **Kundmappningstyp**. Används i den importerade försäljningsordern.
 2. Definiera **Kod för kundmall**, som används för att skapa saknade kunder om **Skapa okända kunder automatiskt** har aktiverats. Om **Kod för kundmall** är tom använder funktionen **Kod för kundmall** som har definierats på **Shopify-butikskortet**.
-3. I vissa fall räcker inte **Kod för kundmall** per land för att säkerställa korrekt beräkning av moms. För till exempel länder med moms. I det här fallet kan **skatteområdena** vara ett användbart tillägg.
+3. Ange om priser inkluderar skatt/moms för importerade order.
+4. I vissa fall räcker inte **Kod för kundmall** per land för att säkerställa korrekt beräkning av moms. För till exempel länder med moms. I det här fallet kan **skatteområdena** vara ett användbart tillägg.
 
 > [!NOTE]  
 > Landskoderna är ISO 3166-1 alpha-2 landskoder. Mer information finns i [Landskod](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,7 +69,7 @@ Befintliga kunder kan exporteras till Shopify i bulk. Detta innebär att en kund
 
 |Fält|Description|
 |------|-----------|
-|**Exportera kunder till Shopify**|Välj om du planerar att exportera alla kunder med en giltig e-postadress från [!INCLUDE[prod_short](../includes/prod_short.md)] till Shopify i bulk, antingen manuellt med hjälp av åtgärden **Synkronisera kunder** eller via jobbkön för återkommande uppdateringar.|
+|**Exportera kunder till Shopify**|Välj om du planerar att exportera alla kunder med en giltig e-postadress från [!INCLUDE[prod_short](../includes/prod_short.md)] till Shopify i bulk, antingen manuellt med hjälp av åtgärden **Synkronisera kunder** eller via jobbkön för återkommande uppdateringar.<br> När du exporterar kunder med provinser/stater måste du se till att **ISO-koden** fylls i för länder/regioner.|
 |**Kan uppdatera Shopify-kunder**|Används tillsammans med inställning **Exportera kunder till Shopify**. Aktivera om du till generera uppdateringar senare från [!INCLUDE[prod_short](../includes/prod_short.md)] för kunder som redan finns i Shopify.|
 
 > [!NOTE]  

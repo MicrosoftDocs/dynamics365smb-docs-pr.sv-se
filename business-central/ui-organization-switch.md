@@ -7,18 +7,20 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 0f8c8bf1f9f9c56f1790bf8fd6727eab6977ad3c
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655390"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317361"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Byta till ett annat företag eller annan miljö
 
 [!INCLUDE [prod_short](includes/prod_short.md)] finns i många olika länder och stöder många olika typer av organisationer. Organisationen kanske har lagt upp [!INCLUDE [prod_short](includes/prod_short.md)] så att du måste förstå termerna *företag* och *miljö*.  
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Mer information finns i [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)]
+
+Mer information finns i [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Om du ofta byter mellan olika företag eller arbetar med [!INCLUDE[prod_short](includes/prod_short.md)] inifrån en annan app som exempelvis Microsoft Teams, kan det vara lätt att tappa orienteringen. För att du ska kunna hålla reda på saker och ting kan du lägga till ett märke som visar företagsnamnet, detta så att du snabbt kan kontrollera att du befinner dig på rätt plats. För mer information, se [Så här visar du ett företagsbricka för snabb åtkomst till företagsinformation](ui-change-basic-settings.md#badge).
@@ -32,8 +34,11 @@ Beroende på webbläsaren kan du också fästa de olika företagen i ditt favori
 När du har loggat in på [!INCLUDE[prod_short](includes/prod_short.md)] visas de miljöer som du har åtkomst till på startsidan för Office.com.  
 
 1. Välj ikonen **startprogram** ![startprogram.](media/app-launcher-icon.png "Programmarstartbild ger till gång till fler funktioner").
-2. Om en app inte visas för [!INCLUDE[prod_short](includes/prod_short.md)] i rutan som öppnas väljer du **Office 365**. Ange sedan **Business Central** i rutan **Sök** eller välj **Alla appar** > **Affärsappar**.  
-3. En [!INCLUDE[prod_short](includes/prod_short.md)] app anges för varje typ av miljö, som produktion och sandbox. Om du vill växla till en annan miljö väljer du [!INCLUDE[prod_short](includes/prod_short.md)] appen för miljötypen. Om du har mer än en miljö av en viss typ kan du välja miljön när du väljer den panel du vill använda.
+2. I rutan som öppnas söker du efter och väljer [!INCLUDE[prod_short](includes/prod_short.md)]. Om du inte ser [!INCLUDE[prod_short](includes/prod_short.md)], välj **Alla appar**, ange sedan **Business Central** i rutan **Sökning**.
+
+   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text=" Microsoft 365 programmarstartbild visar Business Central-panelen.":::  
+
+3. Om det finns mer än en miljö blir du ombedd att välja vilken miljö du vill ha åtkomst till.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

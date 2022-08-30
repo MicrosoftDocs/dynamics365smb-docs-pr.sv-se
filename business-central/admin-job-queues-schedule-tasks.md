@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed56b0724b19d971b8dc98ea79807423403fd83
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129772"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317441"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
 
-Med jobbköer kan användarna schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Exempelvis vill du kanske köra rapporten **Salesperson * Sales Statistics** veckovis i syfte att spåra en säljares säljaktivitet varje vecka, eller också kanske du vill köra codeunit **Delegate Approval Requests** dagligen i syfte att förhindra att dokument ansamlas.
+Med jobbköer kan användarna schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Exempelvis vill du kanske köra rapporten **Säljare – försäljningsstatistik** veckovis i syfte att spåra en säljares säljaktivitet varje vecka, eller också kanske du vill köra codeunit **Delegera godkännandebegäranden** dagligen i syfte att förhindra att dokument ansamlas.
 
 Sidan **Projektkötransaktioner** fönstret visas alla aktuella jobb. Om du lägger till en ny jobbkötransaktion som du vill tidsplanera måste du ange en del information. Till exempel:
 * Den objekttyp som du vill köra, t. ex. en rapport eller codeunit. Du måste ha behörighet att köra den aktuella rapporten eller codeunit.
