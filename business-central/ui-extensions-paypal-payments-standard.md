@@ -6,17 +6,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
+ms.search.keywords: app, add-in, manifest, customize
+ms.search.form: 1070, 1071, 1073, 1074
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: dd29eca71dc0484238d75162039c12235082a081
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077456"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361846"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Tillägget PayPal Payments Standard
+
 Kunder kräver kontinuerligt högre kundservice både när det gäller produktkvalitet och även leveransdatum och betalningsalternativ. Tjänsten för PayPal Payments Standard hjälper dig att öka din kundservice.
 
 Som alternativ till att samla utbetalningar via banköverföring eller kreditkort, kan du erbjuda dina kunder att betala via sina PayPal-konton. När du skickar en försäljningsfaktura per e-post, finns en PayPal-länk i e-postbrödtexten och i det bifogade PDF-dokumentet. När kunden väljer länken, visar servicesidan för deras PayPal-konto försäljningens betalningsdetaljer. Då kan kunden betala fakturan som en PayPal-betalning.
@@ -34,9 +36,9 @@ Tjänsten för PayPal Payments Standard ger följande förmåner:
 Mer information finns i [Så här aktiverar du kundbetalningar via PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se även
+
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

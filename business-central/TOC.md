@@ -296,6 +296,7 @@
 #### [Spärra kunder](receivables-how-block-customers.md)
 #### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md)
+#### [Moms i standardversionen av Business Central](sales-tax-concept.md)
 
 ### Hantera likviditet
 #### [Översikt över leverantörsreskontra](payables-manage-payables.md)

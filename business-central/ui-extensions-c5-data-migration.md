@@ -6,24 +6,26 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: extension, migrate, data, C5, import
+ms.search.keywords: extension, migrate, data, C5, import
+ms.search.form: 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1874, 1882, 1883, 1884, 1885, 1886, 1888, 1890, 1891, 1892, 1893, 1894, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1906
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6f8c90eeb5b99f5591db7847e9d48124c910e328
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0def51f435cf836d681a56a75f3ac5fece4d87ea
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381120"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361697"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tillägget C5 Datamigrering
 
 Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
 
-> [!Note]
+> [!NOTE]
 > Företag i [!INCLUDE[prod_short](includes/prod_short.md)] får inte innehålla några data. Dessutom, när du har startat en flyttning ska du inte skapa kunder, leverantörer, artiklar eller konton förrän migreringen har slutförts.
 
-## <a name="what-data-is-migrated"></a>Vilka data överförs?
+## <a name="what-data-is-migrated"></a>Vilka data migreras?
+
 Följande data överförs för respektive enhet:
 
 ### <a name="customers"></a>Kunder
@@ -86,7 +88,7 @@ Om du flyttar konton, flyttas även följande uppgifter:
 * Artikeljournaler
 * Öppna transaktioner (artikeltransaktioner)
 
-> [!Note]
+> [!NOTE]
 > Om det finns öppna transaktioner med utländska valutor flyttas även valutakurserna för dessa valutor. Andra valutakurser överförs inte.
 
 ### <a name="chart-of-accounts"></a>Kontoplan
@@ -94,7 +96,7 @@ Om du flyttar konton, flyttas även följande uppgifter:
 * Standarddimensioner: avdelning, kostnadsställe, ändamål  
 * Historiska redovisningstransaktioner  
 
-> [!Note]
+> [!NOTE]
 > Historiska redovisningstransaktioner hanteras på olika sätt. När du migrerar data ställer du in en parameter för **aktuell period**. Den här parametern anger hur du behandlar redovisningstransaktioner. Transaktioner efter detta datum migreras individuellt. Transaktioner före det här datumet läggs samman per konto och flyttas över som ett enstaka belopp. Låt oss anta att det finns transaktioner i 2015, 2016, 2017, 2018, och du anger 01 januari 2017 i fältet Aktuell period. För varje konto samlas belopp för transaktioner på eller före den 31 december 2106 i en enda redovisningsjournalrad för varje redovisningskonto. Alla transaktioner efter detta datum migreras individuellt.
 
 ## <a name="file-size-requirements"></a>Storlekskraven i filen
@@ -107,16 +109,16 @@ Det är bara några steg för att exportera data från C5 och importera den i [!
 
 1. I C5 använd funktionen **exportera databas** för att exportera data. Skicka sedan exportmappen till en komprimerad mapp.  
 2. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **datamigrering** och välj **datamigrering**.  
-3. Följ instruktionerna i assisterad konfiguration. Se till att använda **Importera från Microsoft Dynamcis C5 2012** som datakälla.  
+3. Följ instruktionerna i assisterad konfiguration. Se till att använda **Importera från Microsoft Dynamics C5 2012** som datakälla.  
 
-## <a name="viewing-the-status-of-the-migration"></a>Visa status för migreringen.
+## <a name="viewing-the-status-of-the-migration"></a>Visa status för migreringen
 
 Använd sidan **översikt över datamigrering** för att övervaka flyttningen. På sidan visas information som till exempel antal enheter som migreringen omfattar, flyttning och antalet artiklar som har överförts och om de lyckades. Den visar antalet fel, låter dig ta reda på vad som orsakade problemet och, när det är möjligt, gör det enkelt att gå till enheten för att lösa problemen. Mer information finns i nästa avsnitt i den här artikeln.  
 
-> [!Note]
+> [!NOTE]
 > Medan du väntar på resultat från migreringen, måste du uppdatera sidan för att visa resultatet.
 
-## <a name="how-to-avoid-double-posting"></a>Undvika dubbel bokföring
+## <a name="how-to-avoid-double-posting"></a>Så här undviker du dubbel bokföring
 
 För att undvika dubbel bokföring i redovisningen används följande balansräkningskonton för öppna transaktioner:  
 
@@ -135,10 +137,10 @@ På sidan **migreringsfel**, om du vill korrigera ett fel kan du välja ett felm
 
 När du har korrigerat ett eller flera fel kan du välja **Migrera** för att endast överföra de enheter som har fastställts, utan att behöva starta om flyttningen helt.  
 
-> [!Tip]
+> [!TIP]
 > Om du har kopplat mer än ett fel, kan du använda funktionen **Välj flera** om du vill markera flera rader att migrera. Om det finns fel som inte är viktiga att fixa kan du välja dem och sedan välja **hoppa över val**.
 
-> [!Note]
+> [!NOTE]
 > Om du har artiklar som ingår i en struktur kan du behöva migrera flera gånger om det ursprungliga objektet inte skapas innan alla varianter som refererar till den. Om en artikelvariant skapas först blir kan referensen till det ursprungliga objektet orsaka ett felmeddelande.  
 
 ## <a name="verifying-data-after-migrating"></a>Kontrollera data efter migrering
@@ -160,6 +162,5 @@ Du kan förhindra migrering av data genom att välja **Stoppa alla migreringar**
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
+ms.search.form: 1439,
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3980b900a1fe261ae45c2eb1dc6e5395a01cb02d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384026"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361752"
 ---
 # <a name="the-essential-business-insights-extension"></a>Tillägget Vitala företagsinsikter
+
 Tillägget Vitala företagsinsikter hittar intressanta affärsfakta i dina företagsdata och visar dessa som tidningsaktiga rubriker i rollcenter. Beroende på vad tillägget hittar i datan kommer insikterna från förra veckan, förra månaden eller tre månader från dagens datum. Denna kunskap uppdateras var 10:e minut.  
 
 Om du vill titta närmare på en insikt kan du välja den för att komma till källan. Om du exempelvis vill ha information om den största försäljningsfakturan som bokfördes förra veckan, kan du välja insikten för att visa fakturan.
@@ -36,7 +38,7 @@ I följande tabell beskrivs den information som detta tillägg ger respektive ro
 |Administratör| Visar en hälsningsfras och en länk till produktinformation.|
 
 ## <a name="see-also"></a>Se även
-[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)
 
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

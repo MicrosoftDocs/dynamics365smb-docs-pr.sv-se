@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: ''
+ms.search.form: 1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71efcfc54da6462525d4900c4879e984b59f27e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51f3d27e59301d9d094afb6826a0f025ecf0d7e4
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138316"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361481"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Tillägget Företagsnav för Business Central
 
@@ -24,7 +25,7 @@ Instrumentpanelen innehåller ett mycket specialiserat rollcenter för en bättr
 
 När du installerar tillägget kan du få information i ett exempel företag. Du kan ta bort exempelföretaget när som helst.
 
-## <a name="installing-the-extension"></a>Installerar tillägg
+## <a name="installing-the-extension"></a>Installerar tillägget
 
 När du installerar tillägget i din [!INCLUDE [prod_short](includes/prod_short.md)] kommer du att tillfrågas om du vill använda den nu. Om du gör det måste du logga ut och logga in igen eftersom tillägget ersätter ditt nuvarande rollcenter och lägger till behörigheter i din användarprofil.
 
@@ -33,6 +34,5 @@ När du installerar tillägget i din [!INCLUDE [prod_short](includes/prod_short.
 [Hantera arbete i flera företag med företagsnavet](company-hub.md)  
 [Revisorlösningar i Business Central ](finance-accounting.md)  
 [Ekonomi](finance.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,15 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
+ms.search.keywords: app, add-in, manifest, customize, stream, bank account link
+ms.search.form: 1450, 1451, 1452, 1453, 1454, 1458, 1460,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 54871f5a9aac3fe84e769d278fc21138a118ebb0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1e2c1b1b9030033ec35c79e478d0d5bd5246b3d6
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511473"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362001"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Tillägget Envestnet Yodlee Bank Feeds
 
@@ -40,14 +41,15 @@ Tjänsten Envestnet Yodlee Bank Feeds ger följande fördelar:
 * Aktiverar utkontraktering av utbetalningxavstämning till en revisor genom att ge åtkomst till kontoutdrag.
 
 ## <a name="available-bank-feeds"></a>Tillgängliga bankflöden
+
 Du kan kontrollera om en bank stöds genom att ställa in och ansluta till tjänsten Envestnet Yodlee Bank Feeds. Banken kommer att visas i listan om den stöds av Envestnet Yodlee.
 
 Mer information finns i [Ställ in tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 ## <a name="see-also"></a>Se även
-[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)    
-[Tillämpa betalningar automatiskt och jämka bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg ](ui-extensions.md)  
+[Tillämpa betalningar automatiskt och jämka bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

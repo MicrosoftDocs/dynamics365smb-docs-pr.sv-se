@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074932"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362028"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeta med betalningstoleranser och kassarabattstoleranser
 
@@ -44,7 +44,7 @@ Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](
 
 ## <a name="to-set-up-tolerances"></a>Så här lägger du upp toleranser
 
-Du kan använda toleranser för dagar och belopp så att du kan avsluta en faktura även om betalningen inte täcker hela fakturabeloppet, oavsett om det beror på att förfallodatumet för kassarabatten har passerats, att varorna har dragits av eller att ett mindre fel har begåtts. Det gäller även återbetalningar och kreditnotor.  
+Tolerans på dagar och belopp gör att du kan stänga en faktura trots att betalningen inte helt täcker beloppet på fakturan. Till exempel på grund av att förfallodatumet för kassa rabatten överskrids, har varor dragits av eller på grund av ett mindre fel. Det gäller även återbetalningar och kreditnotor.  
 
 Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokföringsmetoder för både kassarabattstolerans och betalningstolerans samt köra batch-jobbet **Ändra betalningstolerans**.  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
@@ -57,17 +57,21 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 8. Öppna sidan **Redovisningsinställningar**.  
 9. På snabbfliken **Program**, fyll i fälten **Kassarabattolerans bokf.**, **Kassarabattfrist** och **Betalningstolerans bokföring**.   
 10. Välj åtgärden **Ändra betalningstolerans**.
+
+    > [!NOTE]
+    > När du väljer **Koppla till äldsta** i fältet **Avräkningsmetod** på sidan **Kundkort** kommer inte [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt att lägga upp betalningstoleranser, även när de ligger inom de tröskelvärden som anges på sidan **Redovisningsinställningar**. [!INCLUDE[prod_short](includes/prod_short.md)] förutsätter att inställningen Koppla till äldsta anger att kunden (eller leverantören) har ett konto hos dig där de regelbundet betalar saldot. Därför bör du inte ta bort de återstående beloppen genom att bokföra en betalningstolerans transaktion.
+
 11. P sidan **Ändra betalningstolerans** genom att fylla i fälten **Betalningstolerans %** och **Max.belopp betalningstolerans** samt välja **OK**.
 
 > [!IMPORTANT]  
->  Du har nu lagt upp toleransen för basvalutan. Om du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska hantera tolerans för betalningar, kreditnotor och återbetalningar i en utländsk valuta ska hanteras måste du köra batch-jobbet **Ändra betalningstolerans** med ett värde i fältet **Valutakod**.  
+> Du har nu lagt upp toleransen för basvalutan. Om du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska hantera tolerans för betalningar, kreditnotor och återbetalningar i en utländsk valuta ska hanteras måste du köra batch-jobbet **Ändra betalningstolerans** med ett värde i fältet **Valutakod**.  
 
 > [!NOTE]  
->  Om du vill visa ett varningsmeddelande när du bokför en kopplad transaktion inom toleransen måste du aktivera betalningstoleransvarningen. Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
+> Om du vill visa ett varningsmeddelande när du bokför en kopplad transaktion inom toleransen måste du aktivera betalningstoleransvarningen. Mer information finns i [aktivera eller inaktivera betalningstoleransvarningar](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Mer information finns i [Spärra betalningstolerans för kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+> Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Mer information finns i [Spärra betalningstolerans för kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  När du lägger upp toleransen kontrollerar [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt om det finns några öppna transaktioner och beräknas toleransen för dessa transaktioner också.
+> När du lägger upp toleransen kontrollerar [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt om det finns några öppna transaktioner och beräknas toleransen för dessa transaktioner också.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
 
@@ -76,7 +80,7 @@ Betalningstoleransvarningen visas när du bokför en kopplad transaktion med ett
 2. På sidan **Redovisningsinställningar** på snabbfliken **Koppling** i fönstret **Betal.tolerans varning** för att aktivera varningen. Inaktivera varningen genom att stänga av växlingen.  
 
 > [!NOTE]  
->  Standardalternativet för sidan **Betal.tolerans varning** är **Lämna saldo som återstående belopp**. Standardalternativet för sidan **Kassarabattolerans varning** är **Acceptera inte sen kassarabatt**.
+> Standardalternativet för sidan **Betal.tolerans varning** är **Lämna saldo som återstående belopp**. Standardalternativet för sidan **Kassarabattolerans varning** är **Acceptera inte sen kassarabatt**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Så här spärrar du betalningstolerans för kunder
 
@@ -86,7 +90,7 @@ Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleran
 2. Välj kryssrutan **Spärra betalningstolerans** på Snabbfliken **Betalningar**.  
 
 > [!NOTE]  
->  Om det finns öppna transaktioner för kunden eller leverantören tillfrågas du om du vill ta bort betalningstoleransen från transaktioner som är öppna för tillfället.
+> Om det finns öppna transaktioner för kunden eller leverantören tillfrågas du om du vill ta bort betalningstoleransen från transaktioner som är öppna för tillfället.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Exempel 1 – toleransberäkningar för enstaka dokument
 

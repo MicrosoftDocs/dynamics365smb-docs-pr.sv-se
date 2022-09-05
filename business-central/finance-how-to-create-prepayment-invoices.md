@@ -9,20 +9,20 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 97e2e4e63d1a0d694cf881ed1fff8523d50fbb46
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 620a1af0deff6f9615b38706dd3f53f3db285008
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077638"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362087"
 ---
 # <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 
-Om du kräver att dina kunder betalar innan du levererar en order till dem kan du använda funktionen för förskottsbetalning. Detsamma gäller om leverantören kräver att du betalar innan han/hon levererar en order till dig.  
+Om du kräver att kunderna betalar innan du skickar deras beställning kan du använda förskottsbetalningsfunktionerna. Detsamma gäller om leverantören kräver att du betalar innan han/hon levererar en order till dig.  
 
-När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Om du har en standard förskottsbetalningsprocent för en given artikel på beställningen, eller för kunden eller leverantören tas den automatiskt med i den resulterande förskottsfakturan. Du kan också ange en procentandel för förskottsbetalning för hela dokumentet.
+När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Om du har en standard förskottsbetalningsprocent för en given artikel på beställningen, eller för kunden eller leverantören tas procentsatsen med i förskottsfakturan. Du kan också ange en procentandel för förskottsbetalning för hela dokumentet.
 
-När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Du kan använda standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet om det behövs. Till exempel, en totalsumma för hela ordern.  
+När du har skapat en försäljnings- eller inköpsorder kan du skapa en förskottsfaktura. Använd standardprocentandelarna för varje försäljnings- eller inköpsrad eller ändra beloppet. Du kan till exempel ange ett totalt belopp för hela ordern.  
 
 I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en försäljningsorder. Momenten är liknande för en inköpsorder.  
 
@@ -55,19 +55,23 @@ I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en f
 
     Om fältet **Priser inkl. moms** är markerat, kan fältet **Förskottsbetalningsbelopp inkl moms** redigeras  
 
-    Om du ändrar innehållet i fältet **Förskottsbetalningsbelopp** fördelas beloppet proportionellt på alla rader, förutom på de rader där värdet **0** i fältet **Förskottsbetalning %**.  
+    Om du ändrar innehållet i fältet **Förskottsbetalningsbelopp** fördelas beloppet proportionellt på alla rader, förutom på de där värdet **0** i fältet **Förskottsbetalning %**.  
 
 5. Du skriver ut en testrapport innan du bokför en förskottsfaktura genom att välja åtgärden **Förskottsbetalning** och sedan välja åtgärden **Testrapport för förskottsbetalning**.  
 6. Du bokför en förskottsfaktura genom att välja åtgärden **Förskottsbetalning** och sedan åtgärden **Bokför förskottsfaktura**.  
 
     Om du vill bokföra och skriva ut förskottsfakturan väljer du åtgärden **Bokför och skriv ut faktura på förskottsbet.**.  
 
-Du kan skicka ut ytterligare förskottsfakturor för ordern. Om du vill göra detta höjer du förskottsbetalningsbeloppet på minst en rad, justerar dokumentdatumet om det behövs och bokför sedan förskottsfakturan. En ny faktura skapas för skillnaden mellan de förskottsbetalningsbelopp som hittills har fakturerats och det nya förskottsbetalningsbeloppet.  
+Du kan skicka ut ytterligare förskottsfakturor för ordern. Om du vill utfärda en annan faktura höjer du förskottsbetalningsbeloppet på minst en rad, justerar dokumentdatumet om det behövs och bokför sedan förskottsfakturan. En ny faktura skapas för skillnaden mellan de förskottsbetalningsbelopp som hittills har fakturerats och det nya förskottsbetalningsbeloppet.  
 
 > [!NOTE]  
 > Om du befinner dig i Nordamerika kan ändra du inte procentandelen för förskottsbetalning när förskottsfakturan har bokförts. Detta förhindras i den amerikanska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] eftersom beräkning av moms på annat sätt blir felaktiga.  
 
  När du vill bokföra resten av fakturan bokför du den som en vanlig faktura. Förskottsbetalningsbeloppet dras automatiskt av från beloppet som ska betalas.  
+
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Uppdatera statusen för förutbetalda order och fakturor automatiskt
+
+Du kan påskynda bearbetningen av order och fakturor genom att lägga upp jobbkötransaktioner som automatiskt uppdaterar status för dessa dokument. När en förskotts faktura betalas kan jobbkötransaktionen automatiskt ändra dokument statusen från **Väntar på förskottsbetalning** till **släppt**. När du registrerar jobbkötransaktioner måste du använda de kodmoduler som är **383 Uppdatera väntande förskottsbetalning, försäljning** och **383 Uppdaterar väntande förskottsbetalning, inköp**. Vi rekommenderar att du schemalägger transaktionerna så att de körs ofta, till exempel varje minut. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 

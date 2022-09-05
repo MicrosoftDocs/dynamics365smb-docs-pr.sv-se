@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808939"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361562"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Kom igång med Shopify-kopplingen
 
@@ -26,26 +27,26 @@ Shopify-anslutningen innehåller följande funktioner:
 - Synkronisering av artiklar eller produkter med dubbel riktning  
 
   - Kopplingen synkroniserar bilder, artikelvarianter, streckkoder, leverantörens artikel nummer, extratexter och taggar.  
-  - Exportera artikelattribut till Shopify.  
-  - Använd valda kundprisgrupper och -rabatter för att definiera priser som exporteras till Shopify.  
-  - Bestäm om artiklar kan skapas automatiskt eller tillåta uppdateringar av befintliga produkter.  
+  -    Exportera artikelattribut till Shopify.  
+  -    Använd valda kundprisgrupper och -rabatter för att definiera priser som exporteras till Shopify.  
+  -    Bestäm om artiklar kan skapas automatiskt eller tillåta uppdateringar av befintliga produkter.  
 - Synkronisera lagernivåer  
 
-  - Välj några av eller alla tillgängliga platser i [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Uppdatera lager nivåer på flera lagerställen i Shopify.  
+  -    Välj några av eller alla tillgängliga platser i [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Uppdatera lager nivåer på flera lagerställen i Shopify.  
 - Synkronisering av kunder med dubbel riktning  
 
-  - Smartmappa kunder via telefon och e-post.  
-  - Använd landsspecifika mallar när du skapar kunder, vilket säkerställer att skatteinställningarna är korrekta.  
+  -    Smartmappa kunder via telefon och e-post.  
+  -    Använd landsspecifika mallar när du skapar kunder, vilket säkerställer att skatteinställningarna är korrekta.  
 - Importera order från Shopify  
 
-  - Under importen kan du automatiskt skapa kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller bestämma dig för att hantera kunderna i Shopify.  
-  - Ta med order som skapats i andra kanaler, till exempel Shopify POS eller Amazon.  
-  - Leverans kostnader, presentkort, tips, leverans- och betalningsmetoder, transaktioner och risk för bedrägerier.  
+  -    Under importen kan du automatiskt skapa kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller bestämma dig för att hantera kunderna i Shopify.  
+  -    Ta med order som skapats i andra kanaler, till exempel Shopify POS eller Amazon.  
+  -    Leverans kostnader, presentkort, tips, leverans- och betalningsmetoder, transaktioner och risk för bedrägerier.  
   - Ta emot utbetalnings information från Shopify Payments.  
 - Enkel spårning av uppfyllelse information  
 
-  - Om du vill kan du välja att skriva artikelspårningsinformation från [!INCLUDE [prod_short](../includes/prod_short.md)] till Shopify.  
+  -    Om du vill kan du välja att skriva artikelspårningsinformation från [!INCLUDE [prod_short](../includes/prod_short.md)] till Shopify.  
 
 Om du vill använda Shopify med [!INCLUDE [prod_short](../includes/prod_short.md)] kan du först göra detta. Den här artikeln används som vägledning för att slutföra integrationen av Shopify-butiken med [!INCLUDE [prod_short](../includes/prod_short.md)].
 
