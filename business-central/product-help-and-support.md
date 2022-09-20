@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 33cd44d4aab7f22dd8ea2cbad7fd21a4955142a0
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516932"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460628"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
@@ -138,7 +138,7 @@ Din [!INCLUDE[prod_short](includes/prod_short.md)] återförsäljningspartner ko
 Mer information finns i [Eskalera supportproblem till Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) i administrationsinnehållet.  
 
 > [!NOTE]
-> Med [!INCLUDE[prod_short](includes/prod_short.md)] online finns avsnittet **Rapportera ett problem** bara tillgängligt om du har betalat för en [!INCLUDE[prod_short](includes/prod_short.md)]-prenumeration. Om du har registrerat dig för en utvärderingsperiod men ännu inte har köpt [!INCLUDE[prod_short](includes/prod_short.md)] har du ingen återförsäljningspartner och kan inte kontakta Microsofts supportteam. Du hittar en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner).  
+> Med [!INCLUDE[prod_short](includes/prod_short.md)] online finns avsnittet **Rapportera ett problem** bara tillgängligt om du har betalat för en [!INCLUDE[prod_short](includes/prod_short.md)]-prenumeration. Om du har registrerat dig för en utvärderingsperiod men ännu inte har köpt [!INCLUDE[prod_short](includes/prod_short.md)] har du ingen återförsäljningspartner och kan inte kontakta Microsofts supportteam. Du hittar en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 >
 > Med [!INCLUDE[prod_short](includes/prod_short.md)] lokalt är detta avsnitt endast tillgängligt i 2020 års utgivningscykel 2 (version 18) och senare.
 
@@ -232,7 +232,7 @@ Detsamma gäller om du använder [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
-[Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner)  
+[Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Hjälpsystem (endast tillgängligt på engelska)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blogginlägg: hitta rätt resurser och ge feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central utvecklare och administration](/dynamics365/business-central/dev-itpro/)  

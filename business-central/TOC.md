@@ -1,4 +1,4 @@
-# [Välkommen till Business Central](index.md)
+# [Välkommen till Business Central](index.md)  
 # [Ny och planerad](product-news.md)
 # Kom igång
 ## [Översikt över affärsfunktioner](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Arbeta med redovisningsjournaler](ui-work-general-journals.md)
 ### [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)
 ### [Låt Business Central föreslå värden](ui-let-system-suggest-values.md)
+### [Använd Online Map för att hitta platser och vägbeskrivningar](across-online-maps.md)
 
 ### Inkommande dokument
 #### [Översikt över inkommande dokument](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Skriv ut plocklistan](sales-how-print-picking-list.md)
 ### [Bokför försäljning](ui-post-sales.md)
 ### [Skapa återkommande försäljningsrader](sales-how-work-standard-lines.md)
+### [Behandla delleveranser med leveranstyp](sales-how-send-partial-shipments.md)
 ### [Skapa direktleveranser](sales-how-drop-shipment.md)
 ### [Skapa specialorder](sales-how-to-create-special-orders.md)
 ### [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Skapa nummerserier](ui-create-number-series.md)
 ### [Skapa baskalendrar](across-how-to-assign-base-calendars.md)
 ### [Ställa in skrivare](ui-specify-printer-selection-reports.md)
+### [Ställ in Online Map](across-online-maps-setup.md)
 ### [Skaffa Business Central på din mobila enhet](install-mobile-app.md)
 ### [Skaffa Business Central på din stationära dator](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Synkronisera manuellt registermappning](admin-manual-synchronization-of-table-mappings.md)
 ### [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
+### [Använda ett Power Automate flöde för aviseringar till Dataverse enhetsändringar](admin-power-automate-flow-dataverse.md)
 ## Designdetaljer
 ### [Översikt över designdetaljer för applikation](design-details-application-design.md)
 ### Designdetaljer: Leveransplanering

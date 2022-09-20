@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 17491ce9bdc611bbdc7d06755edebe12a5f5df31
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079304"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460677"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Behöver du mer tid för att bestämma om du ska prenumerera?
 
 Det är viktigt att fatta rätt beslut när du väljer ett affärsprogram och vi vet att det kan ta tid att utforska alla hörnen i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du behöver mer tid för att slutföra utvärderingen kan du förlänga utvärderingsperioden själv i ytterligare 30 dagar. När utgångsdatumet för utvärderingsperioden närmar sig visar vi ett varningsmeddelande när du loggar in. Meddelandet innehåller en länk till guiden **utöka utvärderingsperioden** som du kan använda för att utöka utvärderingsperioden. De extra 30 dagarna startar när du väljer **utöka utvärderingsperioden** i guiden.
 
-Utöka utvärderingsperioden själv är en engångsföreteelse. Du kan inte utöka den två gånger, åtminstone inte själv. Om du redan har utökat perioden kan din Microsoft-partner utöka den åt dig igen. Det är en engångsföreteelse. Om du inte redan samarbetar med en partner, se [Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner).  
+Utöka utvärderingsperioden själv är en engångsföreteelse. Du kan inte utöka den två gånger, åtminstone inte själv. Om du redan har utökat perioden kan din Microsoft-partner utöka den åt dig igen. Det är en engångsföreteelse. Om du inte redan samarbetar med en partner, se [Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
 ## <a name="to-extend-your-trial-period"></a>Så här utökar du utvärderingsperioden
 
@@ -56,7 +56,7 @@ Om den utökade utvärderingsperioden förfaller, kan du [prenumerera](https://g
 
 [Utvärderingsversioner och prenumerationer (endast engelska)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Skapa nya företag](about-new-company.md)  
-[Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner)  
+[Hur hittar jag en återförsäljningspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Förlänga testversioner (som administratör)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Kom igång som återförsäljare av Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

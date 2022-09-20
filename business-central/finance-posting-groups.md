@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076571"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460785"
 ---
 # <a name="set-up-posting-groups"></a>Konfigurera bokföringsmallar
 
@@ -59,9 +59,11 @@ I tabellen nedan beskrivs de bokföringsmallar som är specifika för datatyper.
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Tillåta ersättningsbokföringsmallar för kunder eller leverantörer i dokument
 
+[!INCLUDE [preview](includes/preview.md)]
+
 Du kan låta användarna välja andra kund- och leverantörsbokföringsmallar än standardvärdena när de arbetar med försäljnings- eller inköpsdokument och -journaler.
 
-Om du vill tillåta ändringar av kundbokföringsmallar väljer du **Tillåt ändring av bokföringsmall** på sidorna **Inställningar för försäljning och kundreskontra** och **Serviceinställningar**, samt sidan **Inställningar för inköp och skulder** för ändringar i bokföringsmall för leverantör.
+Om du vill tillåta ändringar av kundbokföringsmallar väljer du **Tillåt flera bokföringsmallar** på sidorna **Inställningar för försäljning och kundreskontra** och **Serviceinställningar**, samt sidan **Inställningar för inköp och skulder** för ändringar i bokföringsmall för leverantör.
 
 Påp sidorna **Kundbokföringsmallar** eller **Leverantörsbokföringsmallar** kan du ange de bokföringsmallar som du vill tillåta som ersättningar genom att välja **Ersättningar**. Ersättningsbokföringsmallar kan ersätta de standardmässiga kund- eller leverantörsbokföringsmallar som angetts för en kund eller leverantör.
 

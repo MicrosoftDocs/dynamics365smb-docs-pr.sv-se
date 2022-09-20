@@ -8,16 +8,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
 ms.search.form: 253
-ms.date: 06/25/2021
+ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 8601153fc7bd813b3baa1c0ff7ebe0768d467dc0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 501f719c185177f8c9554d8f10c3f026df36169a
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518893"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460920"
 ---
 # <a name="sales"></a>FÖRS
+
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.
 
 Du måste använda försäljningsorder om din försäljningsprocess kräver att du t. ex. kan leverera delar av en orderkvantitet eftersom hela kvantiteten inte är tillgängliga på en gång. Om du säljer artiklar genom att leverera direkt från din leverantör till kunden, som en direktleverans, måste du även använda försäljningsorder. I alla andra aspekter fungerar försäljningsorder på samma sätt som försäljningsfakturor. Med försäljningsorder kan du också använda funktionen orderlöfte för att kommunicera vissa leveransdatum till dina kunder.  
@@ -26,17 +27,17 @@ Du kan förhandla med kunden genom att först skapa förs.offerter, som du kan o
 
 Det är enkelt att korrigera eller annullera en bokförd försäljningsfaktura, innan den betalas. Det är användbart om du vill rätta till ett skrivfel eller om du kunden göra en ändring tidigt i orderprocessen. Om den bokförda försäljningsfakturan betalas, måste du skapa en försäljningskreditnota och försäljningsreturorder för att återföra försäljningen.
 
-Effektiva metoder för försäljning och marknadsföring handlar om hur du fattar rätt beslut vid rätt tidpunkt. Marknadsföringsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] ger en exakt överblick över din kontaktinformation när du behöver den, så att du kan arbeta effektivt med potentiella kunder och öka kundtillfredsställelsen. Mer information finns i [Kundhantering](marketing-relationship-management.md).
+Effektiva metoder för försäljning och marknadsföring handlar om hur du fattar rätt beslut vid rätt tidpunkt. Marknadsföringsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] ger en exakt överblick över din kontaktinformation när du behöver den, så att du kan arbeta effektivt med potentiella kunder och öka kundtillfredsställelsen. Läs mer på [Kundhantering](marketing-relationship-management.md).
 
-Om du använder Dynamics 365 Sales för Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda Business Central för underliggande aktiviteter som att bearbeta order, hantera lager och hantera de ekonomiska transaktionerna. Mer information finns i [Använd Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md).
+Om du använder Microsoft Dynamics 365 Sales för Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda Business Central för underliggande aktiviteter som att bearbeta order, hantera lager och hantera de ekonomiska transaktionerna. Läs mer på [Använda Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md).
 
-I affärsmiljöer där kunden måste betala för produkter i förväg måste du vänta på kvittot på betalning innan du levererar produkterna. I de flesta fall behandlar du inkommande betalningar några veckor efter leverans, genom att koppla betalningarna till dess relaterade obetalda bokförda försäljningsfakturor. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
+I affärsmiljöer där kunden måste betala för produkter i förväg måste du vänta på kvittot på betalning innan du levererar produkterna. I de flesta fall behandlar du inkommande betalningar några veckor efter leverans, genom att koppla betalningarna till dess relaterade obetalda bokförda försäljningsfakturor. Läs mer på [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
-Försäljningsdokument kan skickas som PDF-filer kopplade till e-postmeddelande. Brödtexten för e-post ska innehålla ett utdrag av försäljningsdokumentet, till exempel produkter, totalt belopp och en länk till webbplatsen för PayPal. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
+Försäljningsdokument kan skickas som PDF-filer kopplade till e-postmeddelande. Brödtexten för e-post ska innehålla ett utdrag av försäljningsdokumentet, till exempel produkter, totalt belopp och en länk till webbplatsen för PayPal. Läs mer på [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
-För alla försäljningsprocesser kan du t. ex. inkludera ett arbetsflöde för godkännande för att kräva att stora försäljningar till vissa kunder godkänns av redovisningschefen. Mer information finns i [Använd arbetsflöden](across-use-workflows.md).
+För alla försäljningsprocesser kan du t. ex. inkludera ett arbetsflöde för godkännande för att kräva att stora försäljningar till vissa kunder godkänns av redovisningschefen. Läs mer i [Använd arbetsflöden](across-use-workflows.md).
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
+I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.
 
 | Till | Gå till |
 | --- | --- |
@@ -46,6 +47,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Behandla en försäljningsorder som rör delvis leverans eller direktleverans. |[Sälja produkter](sales-how-sell-products.md) |
 |Förstå vad som händer när du bokför försäljningsdokument.|[Bokföra försäljning](ui-post-sales.md)|
 |Förbered för att plocka artiklar för utleverans.|[Skriv ut plocklistan](sales-how-print-picking-list.md)|
+| Uppfylla en försäljningsorder med flera delleveranser. | [Bearbeta delleveranser](sales-how-send-partial-shipments.md) |
 |Lägga upp standardförsäljnings- eller inköpsrader som du kan snabbt infoga i dokument, till exempel för återkommande påfyllningsorder.|[Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)|  
 | Länka en försäljningsorder till en inköpsorder för att sälja ett direktutleveransobjekt som ska levereras direkt från din leverantör till kunden. |[Skapa direktleveranser](sales-how-drop-shipment.md) |
 |Har en katalogartikel levererad från en leverantör till distributionslagret så att du kan leverera den till kunden.|[Skapa specialorder](sales-how-to-create-special-orders.md)|
@@ -57,18 +59,18 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Informera dina kunder om orderleveransdatum genom att beräkna antingen kapabel att lova-datum eller dispositionsdatum.|[Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)|
 |Lösa problem när det finns två eller flera poster för samma kund.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se även
+
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
-[Projekthantering](projects-manage-projects.md)    
+[Projekthantering](projects-manage-projects.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

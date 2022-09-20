@@ -1,5 +1,5 @@
 ---
-title: Använda Business Central-appar i Power BI| Microsoft Docs
+title: Använda Business Central-appar i Power BI
 description: Använda insikter, business intelligence och KPI:er från dina Business Central-data är enkelt med Business Central-apparna för Power BI.
 author: jswymer
 ms.topic: get-started-article
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a6b6de60f6262906429127b0588ca62c9dcca1b
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519191"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461082"
 ---
 # <a name="use-the-prod_short-apps-in-power-bi"></a>Använda [!INCLUDE [prod_short](includes/prod_short.md)]-apparna i Power BI
 
@@ -158,19 +158,18 @@ I Power BI-appen visas endast data från [!INCLUDE[prod_short](includes/prod_sho
 [Power BI-integreringskomponent och arkitekturöversikt för [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
 [Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
-[Power BI för konsumenter](/power-bi/consumer/end-user-consumer)  
-[Power BI-tjänstens "nya utseende"](/power-bi/service-new-look)  
-[Snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-[Dokumentation om Power BI](/power-bi/)  
 [Affärsstöd](bi.md)  
-[Gör dig redo att göra affärer](ui-get-ready-business.md)  
-[Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
-[Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Gör dig redo för affärer](ui-get-ready-business.md)  
+[Importera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakälla](across-how-use-financials-data-source-powerapps.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
-
-
+[Dokumentation om Power BI](/power-bi/)  
+[Vad är Power BI?](/power-bi/fundamentals/power-bi-overview)  
+[Snabbstart: Anslut till data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Introduktion till dataförråd](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Introduktion till dataflöden och dataförberedelser via självbetjäning](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

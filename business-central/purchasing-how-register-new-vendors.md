@@ -10,37 +10,37 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: 00ce5d3014d0154f877b9d58fc4e0fd0585f13ac
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 88b6c57fb93b5ef3e2a4cf02ce7a802e4d8aef22
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144335"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460753"
 ---
 # <a name="register-new-vendors"></a>Registrera nya leverantörer
 
 Leverantörer erbjuder produkter som du säljer. Varje leverantör som du har köpt av måste registreras som ett leverantörskort.
 
-Innan du kan registrera nya leverantörer, måste du lägga upp olika inköpskoder som du kan välja mellan, när du fyller i leverantörskort. När alla obligatoriska huvuddata skapats kan du konfigurera leverantören ytterligare, till exempel genom att prioritera leverantören i betalningssyfte och upprätta en lista över artiklar som leverantören och andra leverantörer kan tillhandahålla. En annan grupp av inställningsuppgifter för leverantörer är att lägga in dina avtal om inköpspris, rabatter och betalning. Mer information finns i [Konfigurera inköp](purchasing-setup-purchasing.md).
+Innan du kan registrera nya leverantörer, måste du lägga upp olika inköpskoder som du kan välja mellan, när du fyller i leverantörskort. När alla nödvändiga basdata har skapats kan du lägga till unika egenskaper för en leverantör, till exempel genom att prioritera leverantören i betalningssyfte och upprätta en lista över artiklar som leverantören och andra leverantörer kan tillhandahålla. En annan grupp av inställningsuppgifter för leverantörer är att lägga in dina avtal om inköpspris, rabatter och betalning. Läs mer i [Ställa in inköp](purchasing-setup-purchasing.md).
 
-Leverantörskort innehåller den information som behövs för att köpa produkter från leverantören. Mer information finns i [Så här registrerar du inköp](purchasing-how-record-purchases.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
+Leverantörskort innehåller den information som behövs för att köpa produkter från varje leverantör. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).
 <br /><br />  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Lägga till nya leverantörer
 
-Du kan lägga till nya leverantörer manuellt, genom att fylla i fälten på sidan för **leverantörskortet** eller använda mallar som innehåller fördefinierad information. Du kan t.ex. skapa mallar för olika typer av leverantörsprofiler. När du använder mallar sparar du tid när du lägger till nya leverantörer och ser till att informationen är korrekt varje gång.
+Du kan lägga till nya leverantörer manuellt, genom att fylla i sidan för **leverantörskortet** eller använda mallar som innehåller fördefinierad information. Du kan t.ex. skapa mallar för olika typer av leverantörsprofiler. När du använder mallar sparar du tid när du lägger till nya leverantörer och ser till att informationen är korrekt varje gång.
 
 > [!NOTE]  
-> Om leverantörsmallar finns för olika leverantörstyper, visas en sida när du skapar ett nytt leverantörskort där du kan välja en lämplig mall. Om endast en leverantörsmall finns, då använder nya leverantörskort alltid den mallen.
+> Om leverantörsmallar finns för olika leverantörstyper, när du börjar skapa ett nytt leverantörskort kommer du att se en sida där du kan välja rätt mall. Om endast en leverantörsmall finns, då använder nya leverantörskort alltid den mallen.
 
-När du har skapat en mall kan du använda åtgärden **tillämpa mall** för att tillämpa den på en eller flera valda leverantörer. Om du vill skapa en mall fyller du i den information som du vill använda på leverantörskortsidan och sparar den som en mall. Mer information finns i [För att spara sidan Leverantörskort som en mall](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
+När du har skapat en mall kan du använda åtgärden **tillämpa mall** för att tillämpa den på en eller flera valda leverantörer. Om du vill skapa en mall fyller du i den information som du vill använda på **leverantörskort** och sparar den som en mall. Mer information finns i [För att spara sidan Leverantörskort som en mall](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
-> Det kan vara användbart att anpassa sidan för **leverantörsmall** när du skapar en mall. Du kanske till exempel vill lägga till ett fält som inte redan visas på sidan. Mer information finns i [Anpassa din arbetsyta](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Det kan vara användbart att anpassa sidan för **leverantörsmall** när du skapar en mall. Du kanske till exempel vill lägga till ett fält som inte redan visas på sidan. Mer information finns i avsnittet [Anpassa din arbetsyta](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-Du kan också skapa en leverantör från en kontakt. Mer information finns i [Att skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+Du kan också skapa en leverantör från en kontakt. Mer information finns i avsnittet [Skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
 ### <a name="to-create-a-new-vendor"></a>Skapa en ny leverantör
 
@@ -51,14 +51,14 @@ Du kan också skapa en leverantör från en kontakt. Mer information finns i [At
 
 Leverantören är nu registrerad, och leverantörskortet är klart att användas i inköpsdokument.
 
-Om du vill använda detta leverantörskort som en mall när du skapar nya leverantörskort, så fortsätt med att spara den som en leverantörsmall. Mer information finns i avsnittet [Så här sparar du leverantörskortet som en mall](#to-save-the-vendor-card-as-a-template).
+Om du vill använda detta leverantörskort som en mall när du skapar nya leverantörskort, så fortsätt med att spara den som en leverantörsmall. Mer information finns i [För att spara sidan leverantörskort som en mall](#to-save-the-vendor-card-as-a-template)
 
 ### <a name="deleting-and-editing-vendor-information"></a>Ta bort och redigera leverantörsinformation
 
 Du kan när som helst redigera informationen på leverantörskort. Om du har bokfört en transaktion för en leverantör kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort leverantörskort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.
 
 > [!TIP]
-> Du kan ändra IBAN på ett leverantörsbankkonto utan den ändring som påverkar de historiska kreditöverföring journalposterna. Kreditöverföringsjournaler lagrar mottagarens IBAN, Mottagarens bankkontonummer som har angetts i fälten leverantörsbankkonto och mottagarnamn på leverantörskortsidan när transaktionerna skapades.
+> Du kan ändra IBAN på ett leverantörsbankkonto utan den ändring som påverkar de historiska kreditöverföring journalposterna. Kreditöverföringsjournaler lagrar *mottagarens IBAN*, *Mottagarens bankkontonummer* som har angetts i fälten **leverantörsbankkonto** och **mottagarnamn** på sidan **leverantörskort** när transaktionerna skapades.
 
 > [!TIP]
 > Du kan lägga till alternativa adresser på leverantörs kort genom att välja åtgärden **orderadresser**.
@@ -72,7 +72,7 @@ Du kan när som helst redigera informationen på leverantörskort. Om du har bok
 5. Välj **OK** när du har slutfört den nya leverantörsmallen.  
    Leverantörsmallen läggs till listan över leverantörsmallar, så att du kan använda det för att skapa nya leverantörskort.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se även
 
@@ -82,6 +82,7 @@ Du kan när som helst redigera informationen på leverantörskort. Om du har bok
 [Konfigurera inköpare](purchasing-how-setup-purchasers.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
+[Använd Online Map för att hitta platser och vägbeskrivningar](across-online-maps.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

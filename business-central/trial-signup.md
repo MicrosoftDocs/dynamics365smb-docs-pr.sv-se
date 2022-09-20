@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077508"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461028"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central
 
@@ -32,7 +32,7 @@ Testmiljön innehåller samma funktioner som den betalda versionen. Följande l�
 
 ## <a name="get-started-with-a-subscription"></a>Komma igång med en prenumeration
 
-Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#findpartner). Med hjälp av partnern för återförsäljning kan du konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för att passa ditt företag, inklusive att importera data från ditt tidigare system. Du kan också anpassa [!INCLUDE[prod_short](includes/prod_short.md)] genom att lägga till appar från [Microsofts kommersiella marknadsplats](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Varje gång du loggar in under provperioden, visas ett meddelande i ett blått fält längst upp återstående tid. Om du vill prenumerera, hitta en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). Med hjälp av partnern för återförsäljning kan du konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för att passa ditt företag, inklusive att importera data från ditt tidigare system. Du kan också anpassa [!INCLUDE[prod_short](includes/prod_short.md)] genom att lägga till appar från [Microsofts kommersiella marknadsplats](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online använder Microsoft 365. Om ditt företag använder en annan typ av e-postinstallation, kan partnern hjälpa dig att bestämma hur du ska migrera eller om du bör använda [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
 
