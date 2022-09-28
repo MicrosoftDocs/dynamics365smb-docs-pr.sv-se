@@ -10,12 +10,12 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aecfa9a0709205a781d974a1f901a5ddb3710ae7
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 223930af41410c649d18a567bc5f2a736e0403fa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655000"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535887"
 ---
 # <a name="work-with-general-journals"></a>Arbeta med redovisningsjournaler
 
@@ -212,11 +212,11 @@ Följande procedur är baserad på sidan **Redovisningsjournal**, men gäller f�
 
 Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnumret på enstaka eller grupperade journalrader är i ordningsföljd. När dokument numreras kan du fortsätta att bokföra journalen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 
-[Så här bokför du transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
+[Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
 [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)  
 [Fördela kostnader och intäkter](year-allocate-costs-income.md)  
 [Ekonomi](finance.md)  

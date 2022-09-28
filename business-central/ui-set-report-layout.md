@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525169"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535860"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Ange layout för en rapport
 
@@ -47,7 +47,7 @@ Det finns två sätt att ange vilken layout en rapport använder. Ett sätt är 
 
 ## <a name="set-the-layout-from-report-layout-selection-page"></a>Ange layout från sidan Val av rapportlayout
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.
   
    Val av rapportlayout visar alla rapporter som är tillgängliga i företaget som har angetts i fältet **Företag** högst upp på sidan. Fältet **Layoutbeskrivning** anger den layout som används i rapporten för närvarande.
 2. Ange fältet **Företag** fältet högst upp till företaget som inkluderar rapporten.
@@ -62,7 +62,7 @@ Det finns två sätt att ange vilken layout en rapport använder. Ett sätt är 
 
 Rapporter är avsedda att använda en layout som standard. Du kan växla tillbaka till det ursprungliga standardlayout sidan **Val av rapportlayout**. Markera bara rapporten och välj **Återställ standard åtgärd** för val längst upp på sidan.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

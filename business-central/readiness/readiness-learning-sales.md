@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 9830e4e842cc7fe3febcbe809547ad26701f527d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60fc44ff10b762c3cba9bbae2447982214b34e24
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781844"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535135"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Utbildningskatalog för partnerförsäljning och marknadsföring
 
@@ -22,17 +22,17 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 
 | Innehåll     | Beskrivning    | Format                                | Längd              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Endast partner) I den här sessionen beskrivs värdet med Business Central. Business Central erbjuder fantastiskt värde eftersom det integreras med annan Microsoft Cloud Service inklusive Microsoft 365 och kan anpassas eller utökas för specifika branschbehov med Power Apps, Power Automate och Power BI. | Video                                 | 8 minuter 5 sekunder |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Endast partner) I den här sessionen beskrivs värdet med Business Central. Business Central erbjuder fantastiskt värde eftersom det integreras med andra Microsoft-molntjänster inklusive Microsoft 365 och kan anpassas eller utökas för specifika branschbehov med Power Apps, Power Automate och Power BI. | Video                                 | 8 minuter 5 sekunder |
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/) | Utforska Dynamics 365 Business Central-funktionerna    | Webbplats    |                     |
-| [Dynamics 365 Business Central](/learn/modules/dynamics-365-business-central/)            | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion.    | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
+| [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion.    | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
 
 ## <a name="getting-started"></a>Komma igång<a name="get-started"></a>
 
 | Innehåll   | Beskrivning   | Format                                | Längd              |
 |-----------|---------------|---------------------------------------|---------------------|
-| [Komma igång med projekt Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Använder du intresserad av Business Central? I så fall ger den här utbildningsvägen en bra introduktion. Den beskriver hur du skapar en utvärderingsversion, ger grundläggande information om vad som finns tillgängligt och vilka anpassningar du kan göra för att anpassa Business Central för användning.          | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 4 minuter   |
-| [Arbeta med Microsoft Dynamics 365 Business Central -användargränssnittet](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Vill du lära dig mer om Business Central-användargränssnittet? I den här utbildningsvägen visas användargränssnittet och hur du kan anpassa det. Den beskriver även alternativa gränssnitt som t. ex. en smartphone.    | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter  |
-| [Arbeta som ett proffs med data i Business Central](/learn/paths/work-pro-data-dynamics-365-business-central) | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet.      | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter  |
+| [Komma igång med projekt Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Använder du intresserad av Business Central? I så fall ger den här utbildningsvägen en bra introduktion. Den beskriver hur du skapar en utvärderingsversion, ger grundläggande information om vad som finns tillgängligt och vilka anpassningar du kan göra för att anpassa Business Central för användning.          | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 4 minuter   |
+| [Arbeta med Microsoft Dynamics 365 Business Central -användargränssnittet](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Vill du lära dig mer om Business Central-användargränssnittet? I den här utbildningsvägen visas användargränssnittet och hur du kan anpassa det. Den beskriver även alternativa gränssnitt som t. ex. en smartphone.    | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter  |
+| [Arbeta som ett proffs med data i Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet.      | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter  |
 | [Business Central YouTube-spellista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube-landningssida för Dynamics 365 Business Central-videor  | YouTube-videor  |                     |
 
 ## <a name="grow-your-business"></a>Utveckla företaget<a name="grow"></a>
@@ -46,6 +46,5 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Cloud Solution Provider-program – jämför partnersupportprogram](https://partner.microsoft.com/support/partnersupport) | Titta på det här videoklippet för att se hur du kan välja rätt partnersupportplan för ditt företag. Sedan visas en jämförelse sida vid sida.    | Webbplats                               |                       |
 | [Cloud SureStep-accelererad försäljning](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Endast partner) Den accelererade försäljningsprocessen Cloud SureStep är byggd kring den moderna köparens behov och försöker utlösa en känslomässig, erfarenhetsdriven strategisk tändande gnista tidigt i försäljningsprocessen. I den här serien med videoklipp och resurser beskrivs en preskriptiv försäljningsprocess som har utformats speciellt för att motverka den traditionella resursintensiva, "demo-orienterade" lösningsförsäljningen, som oftast leder till mycket anpassade produktdemonstrationer, komplexa försäljningscykler och långa implementeringsprojekt. I resursbiblioteket finns ett antal anpassningsbara mallar som du kan använda för att skapa en egen uppsättning försäljningstillgångar som stöd för snabbare försäljning. | Webbplats     |                       |
 | [Tillägg till spelboken för övergångspartner (juli 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Detta tillägg till spelboken för övergångspartner tillhandahåller viss uppdaterad och ny vägledning för partners som vill säkra sin befintliga kundbas från konkurrens och SaaS-nykomlingar  | PowerPoint-bildspel | 15 bilder |
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

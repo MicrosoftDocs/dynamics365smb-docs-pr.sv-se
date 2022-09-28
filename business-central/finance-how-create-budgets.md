@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 22f0ecdf185d3b2e31d23dd2492223179328d103
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514049"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533139"
 ---
 # <a name="create-gl-budgets"></a>Skapa redovisningsbudgetar
 
@@ -49,7 +49,7 @@ För praktiskt taget alla andra sidor kan du exportera data på sidor i budgeten
 > [!NOTE]
 > Kontoplanen som redovisningsbudgetarna baseras på, har rader för kontotypen Rubrik som innehåller där summan av raderna under. När du exporterar en redovisningsbudget exporteras data på alla rader oavsett kontotypen. Men endast data på rader med kontotypen Bokföring kan importera data igen. I enlighet med detta: <br /><br /> **När du importerar en redovisningsbudget tas alla värden som fanns på Rubrikrader bort.** <br /><br /> Detta är för att undvika fel summor när du har importerat data som har skapats eller redigerats i Excel.<br /><br /> **Scenario**: du vet att nya budgeterade lönkostnader ska vara BVA 1 200 000. Du vill att budget för löneavdelningen för tre specifika rader (av kontotypen Bokföring) för heltidsanställda, deltidsanställda och timanställda. De tre raderna grupperas under rubrikraden Löner.<br /><br />Du anger 1 200 000 på rubrikraden, exporterar budget till Excel och skickar sedan den till löneavdelningen och ber dem distribuera BVA 1 200 000.<br /><br /> Löneavdelningen fördelar beloppet på tre bokföringskonton. När du importerar tillbaka till redovisningsbudget fylls de tre kontona i med den nya Excel-informationen och summerar till BVA 1 200 000 och rubrikraden är tom.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

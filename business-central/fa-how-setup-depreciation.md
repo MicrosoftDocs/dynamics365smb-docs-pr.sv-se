@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079200"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534676"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Skapa avskrivning för anläggningstillgång
 
@@ -95,7 +95,7 @@ När batchjobbet Beräkna avskrivning körs används normalt ett standardår med
 
 Om du väljer det här fältet använder batchjobbet Beräkna avskrivning kalenderåret med 365 dagar i stället och varje månad har då samma antal dagar som i kalendern. Det enda undantaget är februari månad under ett skottår, då batchjobbet räknar med 28 dagar och inte 29. Det betyder att alla år, även skottår, anses ha 365 dagar.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>Se även
 

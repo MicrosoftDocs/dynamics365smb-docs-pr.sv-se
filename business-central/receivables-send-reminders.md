@@ -10,18 +10,18 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 436, 437, 442, 431, 432, 434
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 56a0725c324942e2b469b58d70168df0c232171b
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.openlocfilehash: 5faa75ab9a501e30551c951c0e18a6cf559331d6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419292"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535403"
 ---
 # <a name="send-reminders-of-outstanding-balances"></a>Skicka påminnelser om utestående saldon
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

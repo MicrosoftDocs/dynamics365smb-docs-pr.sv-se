@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b2e1b0971d6fe8c9c48ba2e0ca03271429c9841d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076623"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528391"
 ---
 # <a name="about-cost-accounting"></a>Om kostnadsredovisning
 
@@ -74,7 +74,7 @@ Du kan skapa kostnadsbudgetar efter behov. Du kan kopiera kostnadsbudgeten till 
 
 De flesta rapporter och statistik baseras på de bokförda kostnadstransaktionerna. Du kan ange sortering av resultat och använda filter för att definiera vilka data som måste visas. Du kan skapa rapporter för kostnadsfördelningsanalys. Dessutom kan du använda standardkontouppställningar för att ange hur dina rapporter för planen över kostnadstyper visas.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

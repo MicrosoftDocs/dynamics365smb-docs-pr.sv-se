@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227479"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528954"
 ---
 # <a name="create-jobs"></a>Skapa projekt
 
@@ -85,7 +85,7 @@ En projektplaneringsrad kan ha en av följande typer.
 4. På sidan **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.
 5. Upprepa steg 3 och 4 för alla de planeringsrader som du behöver för projektaktiviteten.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-new-job/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-new-job/)
 
 ## <a name="see-also"></a>Se även
 

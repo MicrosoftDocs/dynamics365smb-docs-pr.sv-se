@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7da9d24f805c273c67cf856e6a1a835e18686b83
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076961"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528686"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Business Intelligence och rapporteringsöversikt
 
@@ -30,7 +30,7 @@ Små och medelstora företag svarar på inbyggd analys och rapportering som de k
 | Lär dig hur du kan integrera externa Business Intelligence-verktyg med [!INCLUDE[prod_short](includes/prod_short.md)].| [Externa Business Intelligence-verktyg](reports-external-analysis.md) |
 |Lär dig ändra rapportlayouter eller skapa egna rapporter från grunden. |[Utveckla rapporter](reports-develop-reports.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

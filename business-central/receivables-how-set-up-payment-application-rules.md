@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e942adc661b31dbb181624ff66ebd33a2d50b255
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514809"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531087"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
 
@@ -77,10 +77,10 @@ I följande tabell beskrivs standardreglerna för betalningsansökan i [!INCLUDE
 | Lågt              | 1        | Helt                 | Nej                             | Inga matchningar                     |
 | Lågt              | 2        | Delvis             | Nej                             | Flera matchningar               |
 | Lågt              | 3        | Delvis             | Nej                             | Inga matchningar                     |
-| Lågt              | 4        | Nej                    | Nej                             | En matchning                      |
-| Lågt              | 5        | Nej                    | Nej                             | Flera matchningar               |
+| Låg              | 4        | Nr                    | Nr                             | En matchning                      |
+| Låg              | 5        | Nr                    | Nr                             | Flera matchningar               |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b188268feeb483a62ee82990ba3cf92b5afa1606
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519758"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528981"
 ---
 # <a name="get-business-central-desktop-app"></a>Hämta appen för Business Central Desktop
 
@@ -72,7 +72,7 @@ Skillnaden är när du har flera innehavare. Till skillnad från [!INCLUDE[prod_
 > [!IMPORTANT]
 > Om du använder Business Central 2021 utgivningscykel 1 (version 18) eller tidigare kan du inte installera appen på det sätt som beskrivs i den här artikeln. Installera i stället appen från [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Mer information och hjälp om hur du installerar den här äldre appen finns i [Förbereda och installera Business Central-appen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

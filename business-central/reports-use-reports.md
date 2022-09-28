@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: d3eca2b850e189045257cd6c979db3017d72323a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 99ef7f561610c2891e2a936bfb18b046cd8469c9
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077898"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531627"
 ---
 # <a name="use-reports-in-daily-work"></a>Använd rapporter i det dagliga arbetet
 
@@ -30,7 +30,7 @@ En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] samlar in informatio
 | Köra en rapport med samma alternativ och filter? Lär dig använda sparade inställningar på begärandesidan | [Hantering av sparade rapportinställningar](reports-saving-reusing-settings.md)|
 | Vill du ändra standardlayout för en rapport? | [Ändra standardrapportlayout](ui-how-change-layout-currently-used-report.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

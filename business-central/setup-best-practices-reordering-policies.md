@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f12a5156cbad785ccede27bbe176b7e3ccd74d9c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077534"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531060"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Skapa metodtips: partiformningsmetoder
 
@@ -41,7 +41,7 @@ I följande tabell visas bästa metod för att välja mellan de fyra regler.
 |**Fast orderkvantitet**|Använd för C-artiklar.<br /><br /> Kombinera med beställningspunktparametrar.<br /><br /> Använd för låg-nivå komponenter i produktionen.<br /><br /> Använd inte, om artikeln har reserverats ofta.|C-objekt, till exempel tekoppar, är låg-värde artiklar med hög, och regelbunden orderomsättning. Den bästa partiformningsmetoden för C-objekt är därför ett som garanterar konstant tillgänglighet, genom att alltid hålla sig över en beställningspunkt.<br /><br /> Om användaren reserveras ett antal för något avlägset behov, störs planeringsgrunden. Även om den planerade distributionslagernivån är accepterad av ordermottagaren med hänsyn till beställningspunkten, kan det hända att antalet inte är tillgängligt på grund av reservation.|  
 |**Maximalt antal**|Använd för C-objekt med höga lagerhållningskostnader eller lagringsbegränsningar.<br /><br /> Kombinera tillsammans med en eller flera orderändringar (lägsta/max partistorlek eller Partistorleksmultipel).|C-objekt, till exempel tekoppar, är låg-värde artiklar med hög, och regelbunden orderomsättning. Den bästa partiformningsmetoden för C-objekt är därför ett som garanterar konstant tillgänglighet, genom att alltid hålla sig över en beställningspunkt, men under en maximal lagerkvantitet.<br /><br /> Om du vill ändra den föreslagna order, kan du behöva minska partistorleken till en angiven maximal partistorlek, öka till en angiven minimal partistorlek eller avrundad uppåt för att uppfylla en viss partistorleksmultipel. **Obs!** Lagret stannar då mellan beställningspunkt och högsta antal, om använd med en beställningspunkt.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/replenish-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

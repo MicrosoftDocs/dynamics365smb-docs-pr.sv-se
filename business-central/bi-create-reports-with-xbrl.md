@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: b282ea2aeec8e28b36bdadfdb57065e8c9e0c727
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c10fc78e461b273483a16720dafdf7f99882573e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075062"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529332"
 ---
 # <a name="create-reports-with-xbrl"></a>Skapa rapporter med XBRL
 
@@ -114,7 +114,7 @@ När en taxonomi ändras måste du uppdatera den aktuella taxonomin i enlighet d
 6.  Importera länkbasen genom att välja åtgärden **importera**.  
 7.  Välj **Ja** när du vill koppla länkbasen till uppställningen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)    

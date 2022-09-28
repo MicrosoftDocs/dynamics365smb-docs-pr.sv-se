@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 837dc686f3a926683a736e2f4f3108d752bb791b
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 66327ff91c22111e288bcb6b15d7b510cf498688
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311183"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535377"
 ---
 # <a name="set-up-this-feature-in-max-100-characters"></a>Ställ in den här funktionen på max. 100 tecken
 
 Använd [!INCLUDE [prod_short](includes/prod_short.md)] för produktnamnet och skriv i aktiva meningar, t.ex. "få snabbare arbete" och "med den här funktionen kan du".  
 
-Mer information om MarkDown och stilar finns i [redigeringsguiden för Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Mer information om MarkDown och stilar finns i [redigeringsguiden för Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Kom ihåg att lägga till "Se även"-länkar, samt att lägga till den nya artikeln i TOC.md-filen.  
 

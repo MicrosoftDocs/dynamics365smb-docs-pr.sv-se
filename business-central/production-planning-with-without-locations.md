@@ -7,37 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/16/2021
+ms.date: 09/15/2022
 ms.author: edupont
-ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4bb3f626e02259171a9a1bf41c580f34aaa19758
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517849"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524544"
 ---
 # <a name="planning-with-or-without-locations"></a>Planera med och utan lagerställen.
-Vid planering med eller utan lagerställekod på behovsrader, fungerar planeringssystemet på ett okomplicerat sätt när:  
 
--   behovsraderna alltid har lagerställekoder och systemet helt och hållet använder lagerställeenheter, inklusive den relevanta lagerställekonfigurationen.  
--   behovsraderna aldrig har lagerställekoder och systemet inte använder lagerställeenheter eller någon lagerställekonfiguration (se det sista scenariet nedan).  
+Innan du börjar använda planeringsmotorn bör du bestämma dig för om du ska använda platser eller inte. Det finns två huvudsakliga enkla sätt:
 
-Om behovsraderna ibland har lagerställekoder och ibland inte, kommer planeringssystemet att följa vissa regler beroende på konfigurationen.  
-
-> [!TIP]
-> Om du ofta planerar för behov på olika lagerställen rekommenderar vi att du använder funktionen Lagerställeenheter.
+* behovsraderna alltid har lagerställekoder och systemet helt och hållet använder lagerställeenheter, inklusive den relevanta lagerställekonfigurationen. Lära dig mer på [behov vid lagerställe](#demand-at-location).  
+* behovsraderna förses aldrig med lagerställekoder och systemet använder artikelkortet. Se scenariot [behov på "tomt lagerställe"](#demand-at-blank-location) nedan.
 
 ## <a name="demand-at-location"></a>Behov vid lagerställe  
 
-När planeringssystemet identifierar behov vid ett lagerställe (en rad med en lagerställekod) reagerar det på olika sätt beroende på tre viktiga konfigurationsvärden.  
+När planeringssystemet identifierar behov vid ett lagerställe (en rad med en lagerställekod) reagerar det på olika sätt beroende på 2 viktiga konfigurationsvärden.  
 
-När planeringen körs kontrolleras de tre konfigurationsvärdena i tur och ordning och planeringen sker därefter:  
+Under planeringskörning körs kontrolleras de två konfigurationsvärdena i tur och ordning och planeringen sker därefter:  
 
-1. Finns det en bock i fältet **Lagerställ obligatoriskt** på sidan **Lagerinställningar**?  
-
-    Om ja, då:  
-
-2. Finns det en lagerställeenhet för artikeln?  
+1. Finns det en lagerställeenhet för artikeln på det efterfrågade lagerstället?  
 
     Om ja, då:  
 
@@ -45,7 +37,7 @@ När planeringen körs kontrolleras de tre konfigurationsvärdena i tur och ordn
 
     Om nej, då:  
 
-3. Innehåller fältet **Komponenter på lagerställe** på sidan **Produktionskonfiguration** begärd lagerställeskod?  
+2. Innehåller fältet **Komponenter på lagerställe** på sidan **Produktionskonfiguration** begärd lagerställeskod?  
 
     Om ja, då:  
 
@@ -53,104 +45,112 @@ När planeringen körs kontrolleras de tre konfigurationsvärdena i tur och ordn
 
     Om nej, då:  
 
-    Artikeln planeras så här: Partiformningsmetod =  *Parti-för-parti*, Ta med lager =  *Ja*, alla andra planeringsparametrar = Tom. (De artiklar som använder partiformningsmetoden  *Order* fortsätter att använda  *Order* samt andra inställningar.)  
-
-> [!NOTE]  
-> Detta minimialternativ täcker bara det exakta behovet. Alla planeringsparametrar som har definierats ignoreras.  
-
-Se variationerna i scenarierna nedan.  
+    Artikeln planeras enligt "lägsta alternativ" som täcker det exakta behovet. Planeringsparametrarna anges som: Partiformningsmetod = *Parti-för-parti*, Ta med lager = *Ja*, alla andra planeringsparametrar = Tom. (De artiklar som använder partiformningsmetoden  *Order* fortsätter att använda  *Order* samt andra inställningar.)
 
 > [!TIP]
-> Fältet **Lagerställen obligatoriska** på sidan **Lagerinställningar** samt fältet **Komponenter på lagerställe** på sidan Produktionskonfiguration är mycket viktiga för att styra hur planeringssystemet hanterar behovsrader med/utan lagerställekoder.
+> Om du ofta planerar för behov på olika lagerställen rekommenderar vi att du använder funktionen lagerställeenheter och undvika efterfrågan på tomt lagerställe. Läs mer i [Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)
+
+Se variationerna i [scenarierna nedan](#scenarios).
+
+> [!NOTE]
+> Fältet **Komponenter vid lagerställe** på sidan **Produktionsinställningar** är väldigt viktigt när du styr hur behovsrader med/utan lagerställekoder hanteras i planeringssystemet.
 >
-> För inköpta produktionsbehov (när planeringsmotorn enbart används för inköpsplanering och inte för produktionsplanering), använder [!INCLUDE [prod_short](includes/prod_short.md)] samma lagerställe till komponenter som du har angett på produktionsordern. Om du fyller i det här fältet kan du emellertid dirigera om komponenterna till ett annat lagerställe.
+> För produktionsbehovet använder [!INCLUDE [prod_short](includes/prod_short.md)] samma lagerställe för detaljmontage och komponenterna som anges i produktionsordern. Om du fyller i det här fältet kan du emellertid dirigera om detaljmontage och komponenterna till ett annat lagerställe.
 >
 > Du kan också definiera detta för en viss lagerställeenhet genom att välja en annan lagerställekod i fältet **Komponenter på lagerställe** på lagerställeenhetskortet. Observera dock att detta sällan har någon betydelse eftersom planeringslogiken kan komma att förvridas när du planerar för komponenten Lagerställeenhet.
 
-Ett annat viktigt fält är fältet **Max. orderantal** på **artikelkortet**. Detta anger en högsta tillåten kvantitet för ett artikelorderförslag och används om artikeln levereras i en fast transportenhet – t. ex. en container – som du vill utnyttja fullt ut. När behovet av återanskaffning har identifierats och partistorleken har justerats efter den angivna policyn för beställning, minskas antalet så att det högst uppgår till den största orderstorlek som anges för artikeln. Om ytterligare behov kvarstår beräknas nya order automatiskt för att uppfylla dem. Du använder vanligen detta fält med produktionsprincipen Tillverka-Mot-Lager.  
+## <a name="demand-at-blank-location"></a>Efterfrågan vid "tomt lagerställe"
 
-## <a name="demand-at-blank-location"></a>Behov vid tomt lagerställe  
-Även om kryssrutan **Lagerställe** är markerat, tillåter systemet att rader skapas utan lagerställekod – vilka också kallas för *TOM*. Detta är en avvikelse för systemet eftersom det har olika konfigurationsvärden som har justerats till att hantera lagerställen (se ovan) och därför kommer planeringsmotorn inte att skapa någon planeringsrad för en behovsrad. Om fältet **Lagerställe ska finnas** inte är markerat men om något av de andra konfigurationsvärdena för lagerstället har angetts, betraktas även detta som en avvikelse och planeringssystemet reagerar genom att skicka ut "minimialternativet":   
-Artikeln planeras så här: Partiformningsmetod =  *Parti-för-parti* ( *Order* förblir *Order)*, Ta med lager =  *Ja*, alla andra planeringsparametrar = Tom.  
+I allmänhet planeras artikeln enligt planerings parametrarna på artikelkortet när ett behov identifieras på en tom plats (en rad utan lagerställekod) i planeringssystemet.
 
-Se variationerna i inställningsscenarierna nedan.  
+Fältet **Lagerställen obligatoriska** på sidan **Lagerinställningar** samt fältet **Komponenter på lagerställe** på sidan **Produktionskonfiguration** eller lagerställeenheter kommer att påverka hur planeringssystemet hanterar efterfrågerader med/utan platskoder. Om ett av följande påståenden är sant, anses efterfrågan på tomt lagerställe också vara en avvikelse och planeringssystemet kommer att reagera genom att mata ut "minimialternativ": Artikeln planeras enligt: Ombeställningspolicy = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-### <a name="setup-1"></a>Konfiguration 1:  
+* Fältet **Komponenter vid lagerställe** på sidan **Produktionsinställningar** har ett värde.
+* En lagerställeenhet finns för den planerade artikeln.
+* Fältet **Lagerställe ska finnas** är markerat.
 
--   Lagerställe ska finnas = *Ja*  
--   Lagerställeenheten är inställd på  *RÖD*  
--   Komp. vid lagerställe =  *BLÅ*  
+## <a name="scenarios"></a>Scenarierna
 
-#### <a name="case-11-demand-is-at--red-location"></a>Fall 1.1: Behov finns vid lagerställe *RÖD*  
+Se variationerna i inställningsscenarierna nedan.
 
-Artikeln planeras enligt planeringsparametrarna på kortet för lagerställeenheten (inklusive möjlig överföring).  
+### <a name="setup-1"></a>Konfiguration 1
 
-#### <a name="case-12-demand-is-at--blue-location"></a>Fall 1.2: Behov finns vid lagerställe *BLÅ*  
+* Lagerställe ska finnas = *Ja*  
+* Lagerställeenheten är inställd på *VÄST*  
+* Komponent vid lagerställe = *ÖST*  
 
-Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
+#### <a name="case-11-demand-is-at-west-location"></a>Fall 1.1: Behov finns vid lagerställe *VÄST*
 
-#### <a name="case-13-demand-is-at--green-location"></a>Fall 1.3: Behov finns vid lagerställe  *GRÖN*  
+Artikeln planeras enligt planeringsparametrarna på kortet för lagerställeenheten (inklusive möjlig överföring).
 
-Artikeln planeras så här: Partiformningsmetod =  *Parti-för-parti* ( *Order* förblir  *Order*), Ta med lager =  *Ja*, alla andra planeringsparametrar = Tom.  
+#### <a name="case-12-demand-is-at-east-location"></a>Fall 1.2: Behov finns vid lagerställe *ÖST*
 
-#### <a name="case-14-demand-is-at--blank-location"></a>Fall 1.4: Behov finns vid lagerställe *TOM*  
+Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
-Artikeln planeras inte eftersom inget lagerställe har definierats på behovsraden.  
+#### <a name="case-13-demand-is-at-north-location"></a>Fall 1.3: Behov finns vid lagerställe *NORR*
 
-### <a name="setup-2"></a>Konfiguration 2:  
+Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
--   Lagerställe ska finnas = *Ja*  
--   Ingen lagerställeenhet finns  
--   Komp. vid lagerställe =  *BLÅ*  
+#### <a name="case-14-demand-is-at-blank-location"></a>Fall 1.4: Behov finns vid lagerställe *TOM*
 
-#### <a name="case-21-demand-is-at--red-location"></a>Fall 2.1: Behov finns vid lagerställe  *RÖD*  
+Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-Artikeln planeras så här: Partiformningsmetod =  *Parti-för-parti* ( *Order* förblir  *Order*), Ta med lager =  *Ja*, alla andra planeringsparametrar = Tom.  
+### <a name="setup-2"></a>Konfiguration 2
 
-#### <a name="case-22-demand-is-at--blue-location"></a>Fall 2.2: Behov finns vid lagerställe *BLÅ*  
+* Lagerställe ska finnas = *Ja*  
+* Ingen lagerställeenhet finns  
+* Komponent vid lagerställe = *ÖST*  
 
-Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
+#### <a name="case-21-demand-is-at-west-location"></a>Fall 2.1: Behov finns vid lagerställe *VÄST*
 
-### <a name="setup-3"></a>Konfiguration 3:  
+Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
--   Lagerställe ska finnas = *Ja*  
--   Ingen lagerställeenhet finns  
--   Komp. vid lagerställe =  *BLÅ*  
-
-#### <a name="case-31-demand-is-at--red-location"></a>Fall 3.1: Behov finns vid lagerställe  *RÖD*  
-
-Artikeln planeras så här: Partiformningsmetod =  *Parti-för-parti* ( *Order* förblir  *Order*), Ta med lager =  *Ja*, alla andra planeringsparametrar = Tom.  
-
-#### <a name="case-32-demand-is-at--blue-location"></a>Fall 3.2: Behov finns vid lagerställe *BLÅ*  
+#### <a name="case-22-demand-is-at-east-location"></a>Fall 2.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
 
-#### <a name="case-33-demand-is-at--blank-location"></a>Fall 3.3: Behov finns vid lagerställe  *TOM*  
+### <a name="setup-3"></a>Konfiguration 3
 
-Artikeln planeras så här: Partiformningsmetod =  *Parti-för-parti* ( *Order* förblir  *Order*), Ta med lager =  *Ja*, alla andra planeringsparametrar = Tom.  
+* Lagerställe ska finnas = *Ja*  
+* Ingen lagerställeenhet finns  
+* Komponent vid lagerställe = *ÖST*  
 
-### <a name="setup-4"></a>Konfiguration 4:  
+#### <a name="case-31-demand-is-at-west-location"></a>Fall 3.1: Behov finns vid lagerställe *VÄST*
 
--   Lagerställe ska finnas = *Ja*  
--   Ingen lagerställeenhet finns  
--   Komp. vid lagerställe =  *TOM*  
+Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case-41-demand-is-at--blue-location"></a>Fall 4.1: Behov finns vid lagerställe  *BLÅ*  
-
-Artikeln planeras så här: Partiformningsmetod =  *Parti-för-parti* ( *Order* förblir  *Order*), Ta med lager =  *Ja*, alla andra planeringsparametrar = Tom.  
-
-#### <a name="case-42-demand-is-at--blank-location"></a>Fall 4.2: Behov finns vid lagerställe  *TOM*  
+#### <a name="case-32-demand-is-at-east-location"></a>Fall 3.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
+
+#### <a name="case-33-demand-is-at-blank-location"></a>Fall 3.3: Behov finns vid lagerställe *TOM*
+
+Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
+
+### <a name="setup-4"></a>Konfiguration 4
+
+* Lagerställe ska finnas = *Ja*  
+* Ingen lagerställeenhet finns  
+* Komp. vid lagerställe = *TOM*  
+
+#### <a name="case-41-demand-is-at-east-location"></a>Fall 4.1: Behov finns vid lagerställe *ÖST*
+
+Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
+
+#### <a name="case-42-demand-is-at-blank-location"></a>Fall 4.2: Behov finns vid lagerställe *TOM*
+
+Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
 Som du ser i det sista scenariet, går det bara att korrigera resultat från en behovsrad utan lagerställekod genom att inaktivera alla konfigurationsvärden för lagerställena. Det enda sättet att få stabila planeringsresultat för behov vid lagerställen är att använda lagerställeenheter.  
 
-Om du ofta planerar för behov på olika lagerställen rekommenderar vi därför att du använder funktionen Lagerställeenheter.  
+Om du ofta planerar för behov på olika lagerställen rekommenderar vi därför att du använder funktionen Lagerställeenheter.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se även
 
 [Planerad](production-planning.md)  
-[Ställa in Produktion](production-configure-production-processes.md)  
+[Konfigurera produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Lager](inventory-manage-inventory.md)  
 [Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)  
@@ -158,6 +158,5 @@ Om du ofta planerar för behov på olika lagerställen rekommenderar vi därför
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

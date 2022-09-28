@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
-ms.openlocfilehash: 1839f54de2382ad5b7d8b6b936181e105a56e06b
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 8c6faa8adadb62449d1067f877b40176bc15d034
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144444"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529637"
 ---
 # <a name="set-up-vendor-bank-accounts"></a>Skapa bankkonton för leverantörer
 
@@ -32,7 +32,7 @@ Om en leverantör har ett eller flera bankkonton och du vill ställa in ett öns
 2. Öppna kortet för leverantören.
 3. På snabbfliken **betalningar** väljer du standard leverantörs bank kontot i fältet **Föredragen bankkontokod**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: dcc7b1586f50d3d9436d237592279007f38c05fa
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 584205dba5f8f7d566475ef9d13a97c25949545b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077247"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531843"
 ---
 # <a name="trace-item-tracked-items"></a>Spåra artiklar med artikelspårning
 
@@ -65,7 +65,7 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 3. I fälten **Serienr** och **Partinr** anger du artikelspårningsnumren som du vill spåra.  
 4. Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Se även
 

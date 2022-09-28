@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514601"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524548"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Hantera OneDrive-integrering med Business Central
 
@@ -53,7 +53,7 @@ Som en del av en katastrofåterställning kan administratörer behöva återstä
 
 ## <a name="configuring-business-central-on-premises"></a>Konfigurera Business Central lokalt
 
-En administratör måste upprätta anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] lokalerna och OneDrive. Till skillnad från [!INCLUDE[prod_short](includes/prod_short.md)] online är anslutningen inte automatisk. Om anslutningen inte är konfigurerad kan användarna inte använda funktionerna OneDrive. 
+En administratör måste upprätta anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] lokalerna och OneDrive. Till skillnad från [!INCLUDE[prod_short](includes/prod_short.md)] online är anslutningen inte automatisk. Om anslutningen inte är konfigurerad kan användarna inte använda funktionerna OneDrive.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan endast kopplas till OneDrive som finns i Microsoft i molnet. Anslutning till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till lagringsplatsen mina webbplatser för SharePoint server stöds inte.
 
@@ -64,7 +64,7 @@ En administratör måste upprätta anslutningen mellan [!INCLUDE[prod_short](inc
 >* När du exporterar en rapport till en fil kopieras filen automatiskt till OneDrive och sedan öppnas den i Excel Online, Word Online eller OneDrive. 
 >* Andra funktioner kan också öppnas automatiskt i OneDrive.
 
-### <a name="to-prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>För att förbereda [!INCLUDE[prod_short](includes/prod_short.md)] lokal för anslutning till OneDrive
+### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Förbered [!INCLUDE[prod_short](includes/prod_short.md)] lokal för anslutning till OneDrive
 
 <!-- 
 1. For the best experience Configure Azure Active Directory (AD) authentication.
@@ -86,12 +86,12 @@ För Business Central 2021utgivningscykel 2 (version 19) anger du dessa behörig
 
 Det här fungerar i Azure-portalen. Kontrollera att du kopierar det program-ID (klient) och den klienthemlighet som används av det registrerade programmet. Du behöver informationen i nästa uppgift.
 
-Mer information om hur du registrerar ett program och konfigurerar behörigheter finns i [Registrera ett program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) i hjälpen för utvecklare och IT-proffs.
+Mer information om kontots förutsättningar hur du registrerar ett program och konfigurerar behörigheter finns i [Registrera ett program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) i hjälpen för utvecklare och IT-proffs.
 
 > [!TIP]
 > Om du redan har registrerat ett program som en del av en integration med en annan Microsoft-produkt, till exempel Power BI, kan du återanvända programregistreringen. Om så är fallet behöver du bara ange SharePoint behörigheterna.
 
-### <a name="to-set-up-the-connection-in-prod_short-on-premises"></a>Så här konfigurerar du anslutningen i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt
+### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Konfigurera anslutningen i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt
 
 <!--
 > [!NOTE]
@@ -101,7 +101,7 @@ Mer information om hur du registrerar ett program och konfigurerar behörigheter
 > * NavUserPassword
 > * Azure Active Directory
 -->
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Microsoft SharePoint Konfiguration av inställningen** och väljer sedan relaterad länk.
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Microsoft SharePoint Konfiguration av inställningen** och väljer sedan relaterad länk.
 2. I fältet **Beskrivning** anger du en beskrivning för anslutningen som **OneDrive**.
 3. I fältet **Mapp** anger du **Business Central**.
 4. I fältet **Plats** anger du URL för din OneDrive.
@@ -118,7 +118,9 @@ Mer information om hur du registrerar ett program och konfigurerar behörigheter
 > Sidan SharePoint anslutningsinställningar används för att konfigurera flera äldre funktioner. I avsnittet **Allmänt** konfigureras anslutningen till OneDrive och avsnittet **Delade dokument** dirigerar om filer till SharePoint i stället. Äldre SharePoint funktion kommer att vara inaktuell i en snar framtid. Vi rekommenderar att du inte konfigurerar avsnittet **delade dokument**.
 
 ## <a name="see-also"></a>Se även
+
 [Business Central och OneDrive för företag-integration](across-onedrive-overview.md)  
 [Öppna Business Central-filer i OneDrive](across-share-onedrive.md)  
-[OneDrive Vanliga frågor och svar](admin-onedrive-faq.md)
+[OneDrive Vanliga frågor och svar](admin-onedrive-faq.md)  
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

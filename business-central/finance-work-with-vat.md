@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417525"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530925"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 Om landet eller regionen kräver att du beräknar och rapporterar mervärdesskatt (moms) på försäljnings- och inköpstransaktioner kan du ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att beräkna moms. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
@@ -193,7 +193,7 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 > * Så här skapar du manuellt ett leveransintyg  
 > * Så här skriver du ut ett leveransintyg.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

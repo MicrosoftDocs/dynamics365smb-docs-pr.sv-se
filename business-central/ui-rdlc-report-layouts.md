@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 0ad639f620bd938494ed4a7e75526af64fe23312
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0d3a1ce19b094fa77ae332a8dc90f1e8b3712cbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525261"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532491"
 ---
 # <a name="working-with-rdlc-layouts"></a>Arbeta med RDLC-layouter
 
@@ -47,7 +47,7 @@ Bakom RDL/RDLC och hur Report Builder används.
 > [!NOTE]
 > Report Builder kan tolka filtypen RDL, inte. rdlc. Layoutfiler som exporteras från Business Central är .rdlc-filtyper. Om du vill ändra de här layouterna i Report Builder byter du namn på filtypen till. RDL.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

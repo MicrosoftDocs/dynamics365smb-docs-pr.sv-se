@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 6057773d71ccbd0c31a71774796f2ce7d5394b84
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075230"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532545"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Genomgång: Spåra serienummer/partinummer
 
@@ -303,7 +303,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
  Nu är du klar med genomgången av hur du använder sidan **Hitta transaktioner** för defekthantering tillsammans med sidan **Artikelspårning**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/use-serial-lot-numbers/)
 
 ## <a name="see-also"></a>Se även
 

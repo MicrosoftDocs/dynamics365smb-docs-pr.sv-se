@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0512e0f77f563b92c0ffcf4c2430a3a3ee329bbb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510949"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532788"
 ---
 # <a name="work-with-prod_short-data-in-power-bi"></a>Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
@@ -31,6 +31,8 @@ När du väl har ett Power BI-konto kan du logga in på [https://powerbi.microso
 Power BI-tjänsten utgör värd för samtliga dina tillgängliga rapporter. Välj **Min arbetsyta** > **Rapporter** för att visa rapporten. Välj sedan helt enkelt den rapport som du vill visa.
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online får du automatiskt en uppsättning standardrapporter på din arbetsyta. Om du vill skapa dina egna rapporter kan du använda Power BI Desktop för att skapa rapporterna och sedan publicera dem på din arbetsyta. Mer information finns i [Komma igång med att skapa rapporter i Power BI Desktop för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md).
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste du börja från grunden genom att använda Power BI Desktop. Som tillval kan Power BI-rapporter distribueras som uppladdningsbara filer.
 
@@ -73,9 +75,9 @@ När en rapport väl finns på din arbetsyta kan du dela den med andra i din org
 Om du vill dela en rapport väljer du **Dela** i en listrapport eller en öppen rapport. I fönstret **Dela rapport** anger du den fullständiga e-postadressen till de individer eller distributionsgrupper som du vill dela med. Följ instruktionerna på skärmen för att slutföra delningen. Mer information finns i [Sela en instrumentpanel eller rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 > [!NOTE]
-> Du och de personer du delar med måste ha en [Power BI Pro-licens](/power-bi/service-features-license-type). Innehållet måste ligga på en arbetsyta med [Premium-kapacitet](/power-bi/service-premium-what-is). Mer information finns i [Olika sätt att dela ditt arbete i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
+> Du och de personer du delar med måste ha en [Power BI Pro-licens](/power-bi/service-features-license-type). Innehållet måste ligga på en arbetsyta med [Premium-kapacitet](/power-bi/service-premium-what-is). Mer information finns i [Så här delar du ditt arbete i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

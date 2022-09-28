@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 07dfa98c8499a2a9c7de9d5005d941f8d65aa7fb
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 0f1e728b67555fcbde041f556265824b1a64a169
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805080"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529035"
 ---
 # <a name="welcome-to-prod_long"></a>Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -30,11 +30,11 @@ Om du redan har [!INCLUDE[prod_short](includes/prod_short.md)] loggar du in på 
 
 ## <a name="microsoft-docs"></a>Microsoft Docs
 
-På navigeringspanelen till vänster finns information om hur du använder [!INCLUDE[prod_short](includes/prod_short.md)] i företaget. Länkar till beskrivningar av de vanligaste funktionerna i avsnittet [Affärsprocesser](#business-processes). Se även avsnittet [Använda webbplatsen docs.microsoft.com för mer information](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
+På navigeringspanelen till vänster finns information om hur du använder [!INCLUDE[prod_short](includes/prod_short.md)] i företaget. Länkar till beskrivningar av de vanligaste funktionerna i avsnittet [Affärsprocesser](#business-processes). Se även avsnittet [Mer information om hur du använder produktdokumentationen](product-help-and-support.md#learn-more-using-the-product-documentation).
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-Du kan också [besöka vårt videobibliotek](across-videos.md) eller börja med utbildningsvägen [Kom igång med Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Du kan också [besök vårt videobibliotek](across-videos.md) eller starta med [Komma igång med Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) utbildningsvägen [Microsoft utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
 > Om inget annat anges visar innehållet på den Docs.microsoft.com webbplatsen den senaste versionen av [!INCLUDE[prod_short](includes/prod_short.md)] online. Om din organisation använder en annan version av [!INCLUDE[prod_short](includes/prod_short.md)] online är kanske vissa funktioner inte tillgängliga ännu. Om organisationen använder sig [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kanske du använder en tidigare version. Mer information finns i [Vanliga frågor och svar](across-faq.yml).
@@ -78,7 +78,7 @@ Följande avsnitt innehåller viktig information som du kan använda för att ko
 
 ## <a name="learn"></a>Läs mer
 
-Hitta gratis e-utbildningsinnehåll för [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Hitta gratis e-utbildningsinnehåll för [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 Du kan också visa videor med nya och ofta använda funktioner i vårt videobibliotek. Mer information finns i [besök vårt videobibliotek](across-videos.md).  
 
@@ -94,11 +94,11 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Se även
 
-[Dynamics 365 Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Dynamics 365 Business Central utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
 [Komma igång med Business Central](ui-get-ready-business.md)  
 [Besök vårt videobibliotek](across-videos.md)  
@@ -107,7 +107,7 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på din mobila enhet](install-mobile-app.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
-[Använda webbplatsen docs.microsoft.com för mer information](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
+[Mer information om hur du använder produktdokumentationen](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Regelefterlevnad](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Villkor för onlinetjänster](compliance/compliance-service-compliance.md#service-terms)  
 [Större uppdateringar och mindre uppdateringar av Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

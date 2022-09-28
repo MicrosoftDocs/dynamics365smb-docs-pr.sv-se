@@ -5,7 +5,7 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Läs mer
 ### [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central i Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Genomgång av affärsprocesser
 #### [Tillgängliga genomgångar](walkthrough-business-process-walkthroughs.md)
 #### [Genomgång: Genomföra en försäljningskampanj](walkthrough-conducting-a-sales-campaign.md)

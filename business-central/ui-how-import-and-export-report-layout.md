@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f0384ea780065c72e6fd4ca3ff95d2ec771a20ea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512764"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528148"
 ---
 # <a name="legacy-import-and-export-custom-report-layouts"></a>(Äldre) Importera och exportera en anpassad rapportlayout
 
@@ -51,7 +51,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
  Den ursprungliga anpassade rapportlayouten ersätts med den importerade rapportlayouten.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

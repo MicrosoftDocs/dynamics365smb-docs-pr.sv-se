@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 83796dec798e550593a3eb735c183c9db63bcec0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7bede8c805e960848f349a3492784e7d0f568bd7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781869"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534487"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Utbildningskatalog för partner förförsäljning
 
@@ -22,9 +22,9 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 
 | Innehåll                                                                                                                              | Beskrivning                                                                                                                                                                                                                                                                                      | Format                                | Längd             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
-| [Komma igång med projekt Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)                          | Använder du intresserad av Business Central? I så fall ger den här utbildningsvägen en bra introduktion. Den beskriver hur du skapar en utvärderingsversion, ger grundläggande information om vad som finns tillgängligt och vilka anpassningar du kan göra för att anpassa Business Central för användning. | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 4 minuter  |
-| [Arbeta med Microsoft Dynamics 365 Business Central -användargränssnittet](/learn/paths/work-with-user-interface-dynamics-365-business-central/) | Vill du lära dig mer om Business Central-användargränssnittet? I den här utbildningsvägen visas användargränssnittet och hur du kan anpassa det. Den beskriver även alternativa gränssnitt som t. ex. en smartphone. | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
-| [Arbeta som ett proffs med data i Business Central](/learn/paths/work-pro-data-dynamics-365-business-central) | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet. | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
+| [Komma igång med projekt Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/)                          | Använder du intresserad av Business Central? I så fall ger den här utbildningsvägen en bra introduktion. Den beskriver hur du skapar en utvärderingsversion, ger grundläggande information om vad som finns tillgängligt och vilka anpassningar du kan göra för att anpassa Business Central för användning. | Kostnadsfri online-utbildningsväg i egen takt | 3 timmar 4 minuter  |
+| [Arbeta med Microsoft Dynamics 365 Business Central -användargränssnittet](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Vill du lära dig mer om Business Central-användargränssnittet? I den här utbildningsvägen visas användargränssnittet och hur du kan anpassa det. Den beskriver även alternativa gränssnitt som t. ex. en smartphone. | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
+| [Arbeta som ett proffs med data i Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet. | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter |
 | [Business Central YouTube-spellista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-landningssida för Dynamics 365 Business Central-videor | YouTube-videor |                    |
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Utforska Dynamics 365 Business Central-funktionerna                                                                                                                                                                                                                                               | Webbplats                               |                    |
 
@@ -40,7 +40,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | Innehåll                                                                                                                                | Beskrivning                                                                                                                                                                                                                                                                                      | Format                                | Längd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/) | Utforska Dynamics 365 Business Central-funktionerna | Webbplats |                     |
-| [Dynamics 365 Business Central](/learn/modules/dynamics-365-business-central/) | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion. | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
+| [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion. | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
 
 ## <a name="whats-new"></a>Nyheter<a name="whatsnew"></a>
 

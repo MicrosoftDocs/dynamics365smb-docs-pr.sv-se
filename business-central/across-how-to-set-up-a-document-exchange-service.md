@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4a502dc56f45673c0a052b0081518ae0ec888a14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 611f3ac405c66996ed5ec1e1f275ccb5eaccd3d5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076025"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530736"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurera en tjänst för dokumentutbyte
 
@@ -67,7 +67,7 @@ Om du vill ansluta Business Central lokalt måste du skapa en app i Tradeshift A
 
 Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten vid körning genom att prenumerera på händelserna OnGetClientId och OnGetClientSecret i codeunit 1410 "Inställningar för dokumentöverföring."
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

@@ -10,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: ad8dbaae34876678c199501648cf9d5e10a90ed0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a6feeced4c3e0e5286b0acbd264157b5cdab2524
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522596"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531384"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 
@@ -146,7 +146,7 @@ För att tilldela exakt kostnadsåterföring manuellt, måste du välja fältet 
 
 Mer information finns i [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md)
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 187ff9bad2fb8bf320872759115e98b326b689c8
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 95730ff31c963695c94a64d36a8f980bddfbb72b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130206"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530952"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurera arbetsflödesanvändare
 
@@ -44,7 +44,7 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
 6. Upprepa steg 5 för att lägga till fler arbetsflödesanvändare i användargruppen.  
 7. Upprepa steg 2 till 6 för att lägga till fler arbetsflödesanvändargrupper.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se även
 

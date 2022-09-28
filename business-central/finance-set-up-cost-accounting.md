@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 96d2542c719c7a93f4190294c7b4f42e0a11c68e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074880"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535054"
 ---
 # <a name="setting-up-cost-accounting"></a>Ställa in kostnadsredovisning
 
@@ -195,7 +195,7 @@ För varje redovisningskonto kan du ange standarddimensionsvärden i tabellen **
 > [!NOTE]  
 >  Markera kryssrutan **Kontrollera redovisningsbokföringar** för att se till att de fördefinierade kostnadsställena och kostnadsbärarna som du skapar i redovisningen automatiskt överförs till kostnadsredovisningen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

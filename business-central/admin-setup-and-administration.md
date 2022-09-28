@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4995a1776beacd444912124da5e9e6315f6a22f8
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 8d961c1d54dda71651eb81c6dfab05733d0207fc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740211"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533247"
 ---
 # <a name="administration-tasks"></a>Administrationsuppgifter
 
@@ -61,7 +61,7 @@ Interna och delegerade administratörer har tillgång till administrationscentre
 |Hantera användarsessioner, inklusive att avbryta en session om användaren är blockerad.|[Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
 |Konfigurera klientorganisationen så att den skickar telemetriska data till Azure Application Insights för bättre analys och fel sökning.|[Aktivera Skicka telemetri till Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

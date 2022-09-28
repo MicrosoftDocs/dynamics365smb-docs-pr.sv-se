@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf0a8881ea896c1728f02f07e5991b284a3ccae
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129855"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529602"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrera speciella försäljningspriser och rabatter
 
@@ -221,7 +221,7 @@ Förutom (eller i stället för) en procentuell rabatt kan du koppla en fakturer
 > [!TIP]  
 > Innan du anger den här informationen i programmet kan det vara praktiskt att skapa ett utkast av den rabattstruktur som du vill använda. På så sätt blir det enklare att se vilka kunder som kan kopplas till samma fakturarabattsida. Ju färre sidor som behöver definieras, ju snabbare går det att ange basinformationen.
 
-För utbildning inom försäljningsrabatter, se [Ställa in rabatter för dina kunder](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
+För utbildning inom försäljningsrabatter, se [Ställa in rabatter för dina kunder](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="calculating-invoice-discounts-on-sales"></a>Beräkna fakturarabatter på försäljning
 
@@ -276,7 +276,7 @@ Så här definierar du fakturarabattvillkor för försäljning:
 4. Fakturarabatten beräknas som en procentandel av fakturabeloppet i fältet **Rabatt %**.
 5. Upprepa steg 5 till och med 7 för varje valuta som kunden ska ta emot en annan fakturarabatt för.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

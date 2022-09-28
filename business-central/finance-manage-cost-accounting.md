@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b395159d761e4f39c514a1e87c75a4ceb1dd59fa
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ccce829d284379ab307c141d4076ad30bfbaa018
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513997"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535243"
 ---
 # <a name="accounting-for-costs"></a>Redovisa kostnader
 Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att driva en verksamhet. När du vill börja med kostnadsredovisning, se följande avsnitt.  
@@ -30,7 +30,7 @@ Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att 
 |Lära dig att skapa kostnadsbudgetar.|[Skapa kostnadsbudgetar](finance-create-cost-budgets.md)|
 |Avbryta kostnadstransaktioner från journaler för kostnadsbudget.|[Ta bort kostnadsbudgettransaktioner](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se Relaterad utbildning på [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även  
 [Ekonomi](finance.md)  

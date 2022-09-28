@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 268bb46b6f5949d2816111eed7fb7a09150dd974
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7676e05255c31bd2b9906951d98d1a87622a0fcf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129990"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530277"
 ---
 # <a name="set-up-workflows"></a>Konfigurera arbetsflöden
 
@@ -48,7 +48,7 @@ Den här videon visar hur du ställer in ett arbetsflöde som kräver att en anv
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se även
 

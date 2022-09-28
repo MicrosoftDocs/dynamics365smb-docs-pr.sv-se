@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 01b48fad86c805da2120477fc9f6d5f0f5bcdb94
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799751"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533893"
 ---
 # <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
 
@@ -69,7 +69,7 @@ Du kan exportera transaktionerna till en fil som du kan skicka till de intrastat
 
 ### <a name="to-set-up-transport-methods"></a>Så här ställer du in transportsätt
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transportmetoder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Transportmetoder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Om du vill ställa in vilka Intrastatrapportfält som är obligatoriska
@@ -173,7 +173,7 @@ I många länder fastställer tullen och skattemyndigheterna åttasiffriga koder
 
 Lägg till alla koder du har användning för på sidan **EU tull statistiknr**. Du måste fylla i koderna på artikelkortet innan du börjar att bokföra. När du har lagt upp koderna anger du dem i fältet **EU tull statistiknr** på artikelkortet. Du måste även fylla i fältet **Nettovikt** på artikelkortet.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se även
 

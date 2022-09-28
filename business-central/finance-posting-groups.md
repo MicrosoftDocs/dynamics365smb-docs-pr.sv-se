@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 96505ae8097131b6c02aba65c9ab751b3e331224
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460785"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535189"
 ---
 # <a name="set-up-posting-groups"></a>Konfigurera bokföringsmallar
 
@@ -132,7 +132,7 @@ Om något är fel visar [!INCLUDE[prod_short](includes/prod_short.md)] sidan **f
 > [!NOTE]
 > Fel hanteringen som beskrivs ovan är inte tillgänglig för artikel-, resurs-, personal- och anläggningstillgångsjournaler eller för redovisningskonton som lagts till i lokala versioner av bokföringsmallar.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/posting-groups-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

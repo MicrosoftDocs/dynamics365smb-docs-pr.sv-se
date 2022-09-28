@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f0a26e9a6784f1d0ae2b7c8881667a51560cbf6
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5afe559e9f3e741db5c75b5cf3026caf50a1ce97
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077690"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530709"
 ---
 # <a name="set-up-prices-and-discounts"></a>Ställa in priser och rabatter
 
@@ -119,7 +119,7 @@ Du kan koppla rabattprocentsatser till särskilda fakturabelopp på sidan **Fakt
 Förutom (eller i stället för) en procentuell rabatt kan du koppla en faktureringsavgift till ett särskilt fakturabelopp.  
 
 > [!TIP]  
-> Innan du börjar ange den här informationen är det en bra idé att förbereda din rabattstruktur i förväg, så det blir lättare att se vilka kunder som ska länkas till samma fakturarabattsida. Mer information om rabatter i Sales finns i [Ställa in rabatter för dina kunder](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
+> Innan du börjar ange den här informationen är det en bra idé att förbereda din rabattstruktur i förväg, så det blir lättare att se vilka kunder som ska länkas till samma fakturarabattsida. Mer information om rabatter i Sales finns i [Ställa in rabatter för dina kunder](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Så här definierar du radrabatt för en kund
 
@@ -205,7 +205,7 @@ Om du vill uppdatera priserna för flera artiklar måste du skapa en ny prislist
 
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandeln alltid är optimal, detta genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument, samt i jobb- och artikeljournalrader. Mer information finns i [Bästa prisberäkning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130180"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529737"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Begränsade miljöer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Administratören hanterar begränsade miljöer i [administrationscentret](/dynam
 
 Om du exempelvis vill skapa ett begränsade läge för benchmark-hantering kan administratören skapa en dedikerad miljö i administrationscentret. Mer information finns i [Produktions och begränsade miljöer](/dynamics365/business-central/dev-itpro/administration/environment-types) i utvecklar- och administrationsinnehållet.  
 
-Du kan också använda begränsade miljöer på ett säkert sätt i utbildningssyfte, t. ex. för att följa en utbildningsväg från [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), eftersom det är en säker miljö att experimentera med. Om något går fel tar du bara bort begränsade miljön och börjar om.  
+Du kan också använda begränsade miljöer på ett säkert sätt i utbildningssyfte för att följa en utbildningsväg från [Microsoft utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), eftersom det är en säker miljö att experimentera med. Om något går fel tar du bara bort begränsade miljön och börjar om.  
 
 När du är klar kan du ta bort det begränsade läget med hjälp av administrationscentret.  
 
@@ -70,7 +70,7 @@ Mer information finns i [Använda designer](/dynamics365/business-central/dev-it
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 8bd79a13bb7ecc806fea0dcdea33ec604bd98c41
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 6cca8d8f9b0ec28b149532581f9bc458022c3cd5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460893"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529521"
 ---
 # <a name="receive-items"></a>Ta emot artiklar
 
@@ -122,7 +122,7 @@ När du hanterar ett överinleverans kan du antingen öka värdet i fältet **An
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] innehåller inte funktioner som automatiskt initierar den ekonomiska administrationen av överinleveranser. Du måste hantera detta manuellt i samråd med leverantören, till exempel genom att leverantören skickar en ny eller uppdaterad faktura.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also"></a>Se även
 

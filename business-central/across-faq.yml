@@ -7,12 +7,12 @@ metadata:
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 13f6de4c6f01fbe7a525d7b1f18d3f83f12cb6c3
-  ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
+  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
   ms.translationtype: HT
   ms.contentlocale: sv-SE
-  ms.lasthandoff: 09/09/2022
-  ms.locfileid: "9461001"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "9535351"
 title: Vanliga frågor om att använda Business Central
 summary: "Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och använda utvärderingsversion, köpa en prenumeration och använda [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också lära dig hur du får teknisk support.  \n"
 sections:
@@ -36,7 +36,7 @@ sections:
       Ja. [!INCLUDE [prod_short](includes/prod_short.md)] är optimerad för onlinedistribution, och vissa funktioner kan endast köras lokalt under vissa omständigheter, medan andra inte stöds alls. Mer information finns [funktioner som inte implementerats i lokala distributioner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (finns endast på engelska).
   - question: >
       Kan jag få utbildning i Business Central?
-    answer: "Ja det kan du. Du kan hitta kostnadsfritt eLearning-innehåll på [Microsoft Learn-webbplatsen](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Du kan också be din återförsäljare om ytterligare utbildningar. Om du inte vet vem det är, se avsnittet [Hur jag hittar en återförsäljningspartner?](#how-do-i-find-a-reselling-partner).  \n\nMer information om utbildning om Dynamics 365 som tillhandahålls från Microsoft finns på sidan [Microsoft Dynamics 365- utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nYtterligare innehåll tillhandahålls av [!INCLUDE[prod_short](includes/prod_short.md)]-communityn, t. ex. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) som har skrivits av en partner.  \n"
+    answer: "Ja det kan du. Du kan hitta kostnadsfritt eLearning-innehåll på [Microsoft-utbildning webbplatsen](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Du kan också be din återförsäljare om ytterligare utbildningar. Om du inte vet vem det är, se avsnittet [Hur jag hittar en återförsäljningspartner?](#how-do-i-find-a-reselling-partner).  \n\nMer information om utbildning om Dynamics 365 som tillhandahålls från Microsoft finns på sidan [Microsoft Dynamics 365- utbildning](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nYtterligare innehåll tillhandahålls av [!INCLUDE[prod_short](includes/prod_short.md)]-communityn, t. ex. [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics) som har skrivits av en partner.  \n"
   - question: Hur får jag teknisk support för Business Central?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] säljs via partners och du bör kontakta din återförsäljare för att få hjälp med tekniska problem. Om din [!INCLUDE[prod_short](includes/prod_short.md)]-partner inte kan lösa problemet, skapar de ett supportärende hos Microsoft.  \n\nMer information finns i avsnittet [Hjälp och support](product-help-and-support.md) och [Hur hittar jag en återförsäljningspartner?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
@@ -50,7 +50,7 @@ sections:
     answer: "Om upplevelseinställningen på sidan **företagsinformation** anges till **viktig**, kommer gränssnittselement för Produktion och Servicehantering inte att synas eftersom de kräver upplevelsen **Premium**. En textanteckning infogas i inledande hjälpavsnitt för olika områden. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  \n"
   - question: >
       Varför är ny information inte tillgänglig på mitt språk?
-    answer: "På webbplatsen docs.microsoft.com publiceras information om affärsfunktioner på ett antal språk. Innehållet redigeras på engelska och publiceras på URL:er med *en-US* som språkkod. När ny information publiceras på engelska skickas den ut för översättning till de språk som stöds. Det innebär att du inte kommer att kunna läsa det nya innehållet på ditt eget språk förrän om upp till fyra veckor.  \n\nVi förstår problemen som det kan orsaka, och uppmanar användarna att söka efter vad de söker på engelska om de inte kan hitta dem på eget språk.  \n"
+    answer: "Microsoft Learn innehåll om affärsfunktioner på flera språk. Innehållet redigeras på engelska och publiceras på URL:er med *en-US* som språkkod. När ny information publiceras på engelska skickas den ut för översättning till de språk som stöds. Det innebär att du inte kommer att kunna läsa det nya innehållet på ditt eget språk förrän om upp till fyra veckor.  \n\nVi förstår problemen som det kan orsaka, och uppmanar användarna att söka efter vad de söker på engelska om de inte kan hitta dem på eget språk.  \n"
   - question: Vilken e-postadress kan jag använda med Business Central Online?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] online kräver att du använder en e-postadress från ditt arbete eller din skola för att registrera dig. [!INCLUDE[prod_short](includes/prod_short.md)] online har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc..  \n\nOm du försöker att registrera dig med en personlig e-postadress kommer du att få ett meddelande som indikerar att du använder en e-postadress från arbete eller skola. Mer information finns i [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md).  \n\nOm du vill distribuera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda andra autentiseringsmetoder. Lär dig mer vid [distribution av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
   - question: >
