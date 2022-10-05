@@ -113,8 +113,11 @@
 ## Snabbstart
 ### [Snabbstart för Business Central](quick-start-business-central.md)
 ### [Ställa in företagsinformation](quick-start-company-information.md)
+### [Ange ekonomisk information](quick-start-financial-information.md)
 ### [Sälja produkter och tjänster](quick-start-sell-products-and-services.md)
 ### [Köpa produkter och tjänster](quick-start-procurement.md)
+### [Anpassa och skriva ut rapporter och dokument](quick-start-reports-and-documents.md)
+### [Få insikter om Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Bli produktiv i Business Central
@@ -239,13 +242,13 @@
 ### Arbetsflöden
 #### [Arbetsflödesöversikt](across-workflow.md)
 #### [Använda Business Central i Power Automate-flöden](across-how-use-financials-data-source-flow.md)
-#### Använda arbetsflöden
-##### [Använd arbetsflöden](across-use-workflows.md)
-##### [Så här aktiverar du arbetsflöden](across-how-to-enable-workflows.md)
-##### [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md)
+#### Använda arbetsflöden för godkännande
+##### [Använda arbetsflöden för godkännande](across-use-workflows.md)
+##### [Aktivera arbetsflöden för godkännande](across-how-to-enable-workflows.md)
+##### [Så här använder du godkännande av arbetsflöden](across-how-use-approval-workflows.md)
 ##### [Begränsa och tillåt användningen av en post](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)
-##### [Ta bort arbetsflöden](across-how-to-delete-workflows.md)
+##### [Ta bort arbetsflöden för godkännande](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Utbyta data elektroniskt
 #### [Översikt över dataintegration](across-data-exchange.md)
@@ -1585,11 +1588,11 @@
 #### [Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)
 #### [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)
 #### [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)
-#### [Aviseringar för arbetsflöde](across-setting-up-workflow-notifications.md)
+#### [Aviseringar för godkännandearbetsflöde](across-setting-up-workflow-notifications.md)
 #### [Ange när och hur meddelanden om arbetsflöde ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Skapa arbetsflöden](across-how-to-create-workflows.md)
+#### [Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)
 #### [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md)
+#### [Exportera och importera godkännandearbetsflöden](across-how-to-export-and-import-workflows.md)
 #### [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Konfigurera anslutningar
@@ -1626,7 +1629,7 @@
 ###### [Använda Business Central-appar i Power BI](across-powerbi-business-central-apps.md)
 ##### [Vanliga frågor och svar](power-bi-faq.md)
 #### Använda Power Automate med Business Central
-##### [Använda Business Central i Power Automate-flöden](across-how-use-financials-data-source-flow.md)
+##### [Använda Power Automate flöden i Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Felsöka automatiserade arbetsflöden](across-flow-troubleshoot.md)  
 #### Använda Power Apps med Business Central
 ##### [Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps](across-how-use-financials-data-source-powerapps.md)

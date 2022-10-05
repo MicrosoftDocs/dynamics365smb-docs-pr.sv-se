@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524512"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585898"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Använda ett Power Automate flöde för aviseringar till Dataverse enhetsändringar
 
@@ -54,11 +54,14 @@ Administratörer kan skapa ett automatiserat flöde i Power Automate som meddela
 Data synkroniseras mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE [cds_long_md](includes/cds_long_md.md)] via ett integrationsanvändarkonto. Om du vill ignorera de ändringar som gjorts i synkroniseringen skapar du ett villkorssteg i flödet som inte täcker de ändringar som görs av integrationsanvändarkontot.  
 
 1. Lägg till steget **Hämta en rad med ID från Dataverse** efter flödesutlösaren med följande inställningar. Mer information finns i [Hämta en rad efter ID Dataverse](/power-automate/dataverse/get-row-id).
+
     1. I fältet **Tabellnamn**, välj **Användare**
     2. I fältet **rad-ID** väljer du alternativet **ändrad av (värde)** från flödesutlösaren.  
+
 2. Lägg till ett villkorssteg med följande **eller**-inställningar för att identifiera integrationsanvändarkontot.
     1. Användarens **primära e-postadress** innehåller **contoso.com**
     2. Användarens **fullständiga namn** innehåller **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Lägg till en avsluta kontroll för att stoppa flödet om enheten ändrades av kontot integrationsanvändare.
 
 Följande bild visar hur du definierar flödesutlösaren och flödesvillkoret.
@@ -73,6 +76,7 @@ Om flödet inte har stoppats av villkoret måste du meddela [!INCLUDE[prod_short
 2. Välj åtgärden **Skapa post (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Inställningar för [!INCLUDE[prod_short](includes/prod_short.md)]-kopplingen":::
+
 3. Använd knappen **Assist redigera (...)** i det övre högra hörnet för att lägga till anslutningen till din [!INCLUDE[prod_short](includes/prod_short.md)]-miljö.
 4. När du är ansluten fyller du i fälten **miljönamn** och **företagsnamn**.
 5. I fältet **API-kategori** ange **microsoft/dataverse/v1.0**.
@@ -87,7 +91,8 @@ Följande bild visar hur ditt flöde ska se ut.
 När du lägger till, tar bort eller ändrar ett konto i din [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljö utförs följande åtgärder av det här flödet:
 
 1. Anropa den [!INCLUDE[prod_short](includes/prod_short.md)]-miljö som du har angett i [!INCLUDE[prod_short](includes/prod_short.md)]anslutningen.
-2. Använd [!INCLUDE[prod_short](includes/prod_short.md)] API för att infoga en post med **entitetsnamn** inställt på **konto** i tabellen **Dataverse ingångsändring**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] kommer att starta jobbkötransaktionen som synkroniserar kunder med konton.
+2. Använd [!INCLUDE[prod_short](includes/prod_short.md)] API för att infoga en post med **entityName** inställt på **konto** i tabellen **Dataverse ingångsändring**. Den här parametern är det exakta namnet på den Dataverse entitet som du skapar flödet för.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] kommer att starta jobbkötransaktionen som synkroniserar kunder med konton.
 
 ## <a name="see-also"></a>Se även
 

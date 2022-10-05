@@ -7,24 +7,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.date: 08/25/2022
 ms.author: edupont
-ms.openlocfilehash: ee2f9f6989e2f2c5142397a171b0709fb2e9b087
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 244062b9e8c9768da040f6635f61092a7e1e9770
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147524"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585736"
 ---
 # <a name="business-central-quick-starts"></a>Snabbstart för Business Central
 
-Med hjälp av de här snabbstartsartiklarna kan du sätta igång så snart som möjligt så att du kan utföra de grundläggande funktioner du behöver i [!INCLUDE[prod_short](includes/prod_short.md)].
+Med hjälp av de här snabbstartsartiklarna kan du sätta igång så snart som möjligt så att du kan utföra de grundläggande [!INCLUDE[prod_short](includes/prod_short.md)] funktioner du behöver.
 
 Följande avsnitt leder till layoutstöd för nybörjare som hjälper dig att bekanta dig med de funktioner som du behöver i [!INCLUDE[prod_short](includes/prod_short.md)]. I varje snabbstart hittar du länkar till mer avancerad information om funktionen om du behöver det.
 
 ## <a name="provide-basic-information-about-your-company"></a>Ange grundläggande information om företaget
 
 Det första steget är att ange den grundläggande informationen om företaget. Detta omfattar exempelvis information om t.ex. adress, bankkonton, momsnummer och så vidare. Detta beskrivs i artikeln [snabbstart företagsinformation](quick-start-company-information.md).
+
+## <a name="prepare-basic-financial-information"></a>Förbered grundläggande ekonomisk information
+
+Nu är det dags att ange företagets ekonomiska information så att du är klar att göra affärer. Använd [!INCLUDE[prod_short](includes/prod_short.md)] kontoplan för att spara tid. Om det behövs kan du anpassa det med några få steg genom att följa den [ekonomiska informationen i snabbstart](quick-start-financial-information.md).
 
 <!--
 ## Financial Basics
@@ -33,10 +37,11 @@ Financial Information
 (chart of accounts, but explained for non-accountants)
 -->
 
-<!--
-## Basic Reports and Output Documents
+## <a name="print-reports-and-customize-documents"></a>Skriv ut rapporter och anpassa dokument
 
-Reports and Documents  
+Lär dig att anpassa och skriva ut rapporter och dokument som försäljningsfakturor så att de passar ditt företags behov i de [grundläggande rapporterna och dokumenten](quick-start-reports-and-documents.md).
+
+<!-- Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
@@ -56,15 +61,17 @@ Information om hur du köper produkter och tjänster finns i artikeln [Snabbstar
 (buy stuff, register in inventory, pay vendor)
 -->
 
-<!--
-## Understand Your Business with Business Intelligence
+## <a name="understand-your-company-with-business-intelligence"></a>Förstå ditt företag med Business Intelligence
 
+Omvandla dina affärsdata till värdefulla insikter med hjälp av de verktyg som visas i [Business Intelligence snabbstart](quick-start-business-intelligence.md).
+
+<!--
 Business Intelligence  
 (reports)
 -->
 
 ## <a name="see-also"></a>Se även
 
-[Översikt över affärsfunktioner](across-business-functionality.md)  
 [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)  
+[Översikt över affärsfunktioner](across-business-functionality.md)  
 [Översikt över uppgifter för inställning av Business Central](setup.md)  

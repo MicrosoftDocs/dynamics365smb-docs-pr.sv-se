@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 5c6f480bff2244fac66b996a81ada8e3e318c150
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130044"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585516"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Ange när och hur meddelanden om arbetsflöde ska tas emot
 
@@ -25,57 +25,58 @@ Man kan också ändra sina meddelandeinställningar genom att välja knappen **�
 > [!NOTE]
 > Meddelandena levereras enligt meddelandeinställningarna för mottagaren, inte avsändaren. Det är en viktig skillnad eftersom det innebär att när någon begär ett godkännande som en del av ett arbetsflöde kommer deras förfrågan inte nödvändigtvis att skickas direkt. I stället levereras den enligt meddelandeuppställningen som anges i godkännarens meddelandeinställningar.
 
-Innan du kan konfigurera meddelandeinställningar för en godkännandeanvändare måste du konfigurera användaren som en godkännandeanvändare. Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md).  
+Innan du kan konfigurera meddelandeinställningar för en godkännandeanvändare måste du konfigurera användaren som en godkännandeanvändare. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-approval-users.md).  
 
 > [!NOTE]
-> Om du vill använda e-post som aviseringsmetod måste du konfigurera e-post för både avsändaren och mottagaren i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Konfigurera e-post](admin-how-setup-email.md).
+> Om du vill använda e-post som aviseringsmetod måste du konfigurera e-post för både avsändaren och mottagaren i [!INCLUDE [prod_short](includes/prod_short.md)]. Läs mer i [Ställa in e-post](admin-how-setup-email.md).
 
 ## <a name="steps-in-workflows"></a>Steg i arbetsflöden
 
-Många arbetsflödessvar för godkännande handlar om att meddela användare om att en händelse har skett som de måste agera på. Till exempel ett arbetsflödessteg kan vara att en händelse där användare 1 begär godkännande av en ny post. Det relaterade svaret är att ett meddelande skickas till användare 2, godkännaren. I nästa arbetsflödessteg kan händelsen vara att användare 2 godkänner posten. Det relaterade svaret är att ett meddelande skickas till användare 3 om att starta en process med den godkända posten. För arbetsflödessteg som gäller godkännande kopplas varje meddelande till en godkännandepost. Mer information finns i [Arbetsflöden](across-workflow.md).  
+Många arbetsflödessvar för godkännande handlar om att meddela användare om att en händelse har skett som de måste agera på. Till exempel ett arbetsflödessteg kan vara att en händelse där användare 1 begär godkännande av en ny post. Det relaterade svaret är att ett meddelande skickas till användare 2, godkännaren. I nästa arbetsflödessteg kan händelsen vara att användare 2 godkänner posten. Det relaterade svaret är att ett meddelande skickas till användare 3 om att starta en process med den godkända posten. För arbetsflödessteg som gäller godkännande kopplas varje meddelande till en godkännandepost. Läs mer i [arbetsflöden](across-workflow.md).  
 
-## <a name="specify-when-and-how-users-receive-notifications"></a>Ange när och hur användare ska meddelas  
+## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Ange när och hur användare ska meddelas  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2. Markera raden för användaren som du vill konfigurera meddelandeinställningar för och välj sedan åtgärden **Konfigurera meddelanden**.  
 3. På sidan **Konfigurera meddelanden** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
-    > [!NOTE]
-    > Om du öppnar sidan **Konfigurera meddelanden** från sidan **Användarinställningar för godkännande** länkas meddelandeinställningarna till godkännandeanvändaren. Godkännandeanvändaren får alltid arbetsflödesmeddelanden i enlighet med meddelandeinställningen. Om du använder Tell Me för att öppna sidan **Konfigurera meddelanden** gäller meddelandeinställningen för alla användare.  
+   > [!NOTE]
+   > Om du öppnar sidan **Konfigurera meddelanden** från sidan **Användarinställningar för godkännande** länkas meddelandeinställningarna till godkännandeanvändaren. Godkännandeanvändaren får alltid arbetsflödesmeddelanden i enlighet med meddelandeinställningen. Om du använder funktionen *Tell Me* för att öppna sidan **Konfigurera meddelanden** gäller meddelandeinställningen för alla användare.
 
-    |Fält|Beskrivning|  
-    |---------------------------------|---------------------------------------|  
-    |**Meddelandetyp**|Ange vilken typ av händelse meddelandet handlar om.<br /><br /> Välj något av följande alternativ:<br /><br /> -   **Ny post** anger att meddelandet är en ny post, till exempel ett dokument, som användaren måste agera på.<br />-   **Godkännande** anger att meddelandet handlar om en eller flera godkännandebegäranden.<br />-   **Förfallna** anger att meddelandet är en påminnelse till användare om att de är sena i att agera på en händelse.|  
-    |**Meddelandemetod**|Ange om meddelandet ska skickas som ett e-postmeddelande eller som en intern kommentar.|
+   |Fält|Description|
+   |-----|-----------|
+   |**Meddelandetyp**|Ange vilken typ av händelse meddelandet handlar om.<br /><br /> Välj något av följande alternativ:<br /><br /> -   **Ny post** anger att meddelandet är en ny post, till exempel ett dokument, som användaren måste agera på.<br />-   **Godkännande** anger att meddelandet handlar om en eller flera godkännandebegäranden.<br />-   **Förfallna** anger att meddelandet är en påminnelse till användare om att de är sena i att agera på en händelse.|
+   |**Meddelandemetod**|Ange om meddelandet ska skickas som ett e-postmeddelande eller som en intern kommentar.|
 
-    Du kan definiera layouten för e-postmeddelanden genom att anpassa rapporten 1320, e-postmeddelanden. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
+   Du kan definiera layouten för e-postmeddelanden genom att anpassa rapporten 1320, e-postmeddelanden. Läs mer på [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md).
 
-    Du har nu registrerat hur användaren ska meddelas. Fortsätt med att ange när användaren ska meddelas.  
-
+   Du har nu registrerat hur användaren ska meddelas. Fortsätt med att ange när användaren ska meddelas.  
 4. Välj åtgärden **Meddelandeschema**.  
 5. På sidan **Meddelandeschema** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
-    |Fält|Description|  
-    |---------------------------------|---------------------------------------|  
-    |**Återkommande**|Ange upprepningsmönstret för användarens mottagning av meddelanden.|  
-    |**Tid**|Ange vid vilken tidpunkt på dagen som användaren får meddelanden när värdet i fältet **Återkommande** inte är **Omedelbart**.|  
-    |**Daglig frekvens**|Ange på vilken typ av dagar användaren meddelas när värdet i fältet **Återkommande** är **Daglig**.<br /><br /> Markera **Vardag** för meddelanden varje arbetsdag i veckan. Markera **Daglig** för meddelanden varje veckodag inklusive helger.|  
-    |**Måndag** till och med **söndag**|Ange på vilka dagar användaren meddelas när värdet i fältet **Återkommande** är **Veckovis**.|  
-    |**Datum i månaden**|Ange om användaren meddelas på den första, den sista eller ett visst datum i månaden.|  
-    |**Datum för månadsvis meddelande**|Ange månadsdag då användaren meddelas när värdet i fältet **Datum i månaden** är **Anpassat**.|  
+   |Fält|Description|
+   |-----|-----------|
+   |**Återkommande**|Ange upprepningsmönstret för användarens mottagning av meddelanden.|
+   |**Tid**|Ange vid vilken tidpunkt på dagen som användaren får meddelanden när värdet i fältet **Återkommande** inte är **Omedelbart**.|
+   |**Daglig frekvens**|Ange på vilken typ av dagar användaren meddelas när värdet i fältet **Återkommande** är **Daglig**.<br /><br /> Markera **Vardag** för meddelanden varje arbetsdag i veckan. Markera **Daglig** för meddelanden varje veckodag inklusive helger.|
+   |**Måndag** till och med **söndag**|Ange på vilka dagar användaren meddelas när värdet i fältet **Återkommande** är **Veckovis**.|
+   |**Datum i månaden**|Ange om användaren meddelas på den första, den sista eller ett visst datum i månaden.|
+   |**Datum för månadsvis meddelande**|Ange månadsdag då användaren meddelas när värdet i fältet **Datum i månaden** är **Anpassat**.|
 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Ändra när och hur du ska meddelas
 
 1. Välj knappen **Ändra meddelandeinställningar** i ett av meddelandena som du har tagit emot, antingen eller som e-post eller notering.  
-2. Ändra dina meddelandeinställningar så som beskrivs i föregående steg på sidan **Konfigurera meddelanden**.  
+2. Ändra dina meddelandeinställningar så som beskrivs i steg 3-5 ovan på sidan **Konfigurera meddelanden**.
+   1. Bekräfta att rätt meddelande har valts i fältet **meddelandetyp**.
+   2. Välj om du vill få ett e-postmeddelande eller en meddelande anteckning i fältet **meddelandemetod**.
+   3. Välj **meddelandeschema** för att ändra frekvens och tidpunkt då meddelanden skickas.
 
 ## <a name="see-also"></a>Se även
 
 [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  
 [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)  
-[Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  
-[Konfigurera arbetsflöden](across-set-up-workflows.md)  
-[Använd arbetsflöden](across-use-workflows.md)
-
+[Konfigurera aviseringar för arbetsflöde](across-setting-up-workflow-notifications.md)  
+[Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)  
+[Använda arbetsflöden för godkännande](across-use-workflows.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Ställ in arbetsflöden (innehåller video)
+title: Ställ in godkännandearbetsflödet (innehåller video)
 description: Ställ in arbetsflöden, arbetsflödesanvändare och godkännande användare för att ansluta verksamhetsprocesser som utförs av de olika användarna.
 author: SorenGP
 ms.topic: conceptual
@@ -7,26 +7,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 7676e05255c31bd2b9906951d98d1a87622a0fcf
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 04067d8cb0ee786b3738fb0cc7055d0b84c001d0
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530277"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585763"
 ---
-# <a name="set-up-workflows"></a>Konfigurera arbetsflöden
+# <a name="set-up-approval-workflows"></a>Konfigurera arbetsflöden för godkännande
 
-Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Mer information finns i [Använd arbetsflöden](across-use-workflows.md).  
+Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Läs mer i [Använda arbetsflöden för godkännande](across-use-workflows.md).
 
-Innan du kan börja använda arbetsflöden måste du konfigurera arbetsflödesanvändare och godkännaranvändare,ange hur användarna ska meddelas om arbetsflödessteg och sedan skapa arbetsflöden.  
+Innan du kan börja använda godkännandearbetsflödet måste du konfigurera arbetsflödesanvändare och godkännaranvändare,ange hur användarna ska meddelas om arbetsflödessteg och sedan skapa arbetsflöden.
 
-På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
+På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.  
+I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.
 
 |**Om du vill**|**Se**|  
 |------------|-------------|  
@@ -36,9 +36,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Ange om användare ska meddelas per e-post eller anteckning och hur ofta meddelanden ska kunna skickas.|[Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Anpassa innehållet i e-postmeddelanden genom att ändra rapporten 1320, e-postmeddelanden.|[Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)|  
 |Skapa en SMTP-server för att aktivera e-postkommunikation i och utanför [!INCLUDE[prod_short](includes/prod_short.md)].|[Konfigurera e-post](admin-how-setup-email.md)|
-|Ange de olika stegen för ett arbetsflöde genom att koppla arbetsflödeshändelser till arbetsflödessvar.|[Skapa arbetsflöden](across-how-to-create-workflows.md)|  
-|Använd arbetsflödesmallar till att skapa nya arbetsflöden|[Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Dela arbetsflöden med andra [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md)|  
+|Ange de olika stegen för ett arbetsflöde genom att koppla arbetsflödeshändelser till arbetsflödessvar.|[Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)|  
+|Använd arbetsflödesmallar till att skapa nya arbetsflöden|[Skapa godkännandearbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Dela arbetsflöden med andra [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Exportera och importera godkännandearbetsflöden](across-how-to-export-and-import-workflows.md)|  
 |Se information om hur du konfigurerar ett arbetsflöde för godkännande av försäljningsdokument genom att följa en procedur från slutpunkt till slutpunkt.|[Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
 ## <a name="example-of-an-approval-workflow"></a>Exempel på ett arbetsflöde för godkännande
@@ -52,10 +52,9 @@ Den här videon visar hur du ställer in ett arbetsflöde som kräver att en anv
 
 ## <a name="see-also"></a>Se även
 
-[Använd arbetsflöden](across-use-workflows.md)  
+[Använda arbetsflöden för godkännande](across-use-workflows.md)  
 [Arbetsflöde](across-workflow.md)  
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbeta med Business Central](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

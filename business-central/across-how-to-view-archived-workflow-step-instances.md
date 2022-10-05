@@ -7,24 +7,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.search.form: 1530,
+ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: a1913b943cd899fe0903d64da6214225787b002a
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 60a25f6b07c4e483d06891367a679bada00d4f75
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129882"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585817"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Visa arkiverade instanser för arbetsflödessteg
 
 Alla slutförda instanser för arbetsflödessteg sparas på sidan **Arkiverade instanser för arbetsflödessteg**.  
 
-På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
+På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Läs mer i [Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md).  
+
+> [!NOTE]
+> Om du vill visa historik och status för arbetsflöden med hjälp av Power Automate-integration väljer du åtgärden **Mina flöden** på **Power Automate** sidan och väljer sedan ett flöde för att visa dess kör historik och status.
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Så här visar du arkiverade instanser för arbetsflödessteg
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Öppna arbetsflödet som du vill visa alla arkiverade arbetsflödessteginstanser för.  
 3. På sidan **Arbetsflöde** väljer du åtgärden **Arkiverade instanser för arbetsflödessteg**.  
 
@@ -35,13 +39,12 @@ På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda
 
 ## <a name="see-also"></a>Se även
 
-[Ta bort arbetsflöden](across-how-to-delete-workflows.md)  
-[Skapa arbetsflöden](across-how-to-create-workflows.md)  
-[Så här aktiverar du arbetsflöden](across-how-to-enable-workflows.md)  
+[Ta bort arbetsflöden för godkännande](across-how-to-delete-workflows.md)  
+[Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  
+[Aktivera arbetsflöden för godkännande](across-how-to-enable-workflows.md)  
+[Använda arbetsflöden för godkännande](across-use-workflows.md)  
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Konfigurera arbetsflöden](across-set-up-workflows.md)  
-[Använd arbetsflöden](across-use-workflows.md)  
+[Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)  
 [Arbetsflöde](across-workflow.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

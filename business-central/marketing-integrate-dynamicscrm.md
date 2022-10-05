@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521000"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585871"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Använda Dynamics 365 Sales från Business Central
 Om du använder Dynamics 365 Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[prod_short](includes/prod_short.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
@@ -76,7 +76,7 @@ Detta fungerar även om den ursprungliga försäljningsordern innehåller produk
 
 Om artikelbeskrivningen på den ursprungliga försäljningsordern är mycket omfattande, skapas en ytterligare försäljningsorderrad av typen **Kommentar** för att hålla hela texten på försäljningsordern i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Uppdateringar av fält i försäljningsorderhuvud, till exempel fälten Senaste utleveransdatum eller Begärt leveransdatum, som har mappats i integreringsregistermappningen **FÖRSÄLJNINGSORDER-ORDER** synkroniseras med jämna mellanrum till [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som att släppa en försäljningsorder och leverans och fakturering av en försäljningsorder bokförs på försäljningsorderns tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [introduktion till aktivitetsfeeder](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Uppdateringar av fält i försäljningsorderhuvud, till exempel fälten Senaste utleveransdatum eller Begärt leveransdatum, som har mappats i integreringsregistermappningen **FÖRSÄLJNINGSORDER-ORDER** synkroniseras med jämna mellanrum till [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som att släppa en försäljningsorder och leverans och fakturering av en försäljningsorder bokförs på försäljningsorderns tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [introduktion till aktivitetsfeeder](/dynamics365/sales-enterprise/manage-activities). Om du vill aktivera bokföring och aktiviteter för order i [!INCLUDE[crm_md](includes/crm_md.md)] se [Ställ in Notes-kontrollen för att komma åt information om inlägg för en anpassad entitet](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) i dokumentationen för Customer Engagement. Artikeln handlar om Customer Engagement (on-premises) men stegen är desamma för onlineversionen. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > Periodisk synkronisering som baseras på integreringsregistermappningen **FÖRSÄLJNINGSORDER-ORDER** fungerar bara när integrering av försäljningsorder har aktiverats. Mer information finns i [Anslutningsinställningar på sidan Sales anslutningsinställningar](admin-prepare-dynamics-365-for-sales-for-integration.md). Enbart försäljningsorder som skapats från försäljningsorder som har skickats i [!INCLUDE[crm_md](includes/crm_md.md)] synkroniseras. Mer information finns i [Aktivera integrering av bearbetning av försäljningsorder](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

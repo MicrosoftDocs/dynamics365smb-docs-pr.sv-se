@@ -1,5 +1,5 @@
 ---
-title: Så här aktiverar du arbetsflöden | Microsoft Docs
+title: Så här aktiverar du godkännande av arbetsflöden
 description: När du har skapat ett arbetsflöde och du vet att det är redo att startas måste du aktivera arbetsflödet.
 author: SorenGP
 ms.topic: conceptual
@@ -7,24 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: f9efb91e608bffc0d5da789191b5732ae90e8305
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: f391b8629fb5c18e09bcf84e0d14442cccc29903
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531789"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585574"
 ---
-# <a name="enable-workflows"></a>Så här aktiverar du arbetsflöden
+# <a name="enable-approval-workflows"></a>Aktivera arbetsflöden för godkännande
 
-När du har skapat ett arbetsflöde och du vet att det är redo att startas måste du aktivera arbetsflödet.  
+När du har skapat ett arbetsflöde för godkännande och du vet att det är redo att startas måste du aktivera det.  
 
-På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
+På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
 
-## <a name="to-enable-a-workflow"></a>Så här aktiverar du ett arbetsflöde
+## <a name="enable-a-workflow"></a>Aktivera ett arbetsflöde
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Öppna arbetsflödet du vill aktivera.  
 3. På sidan **arbetsflödet**, aktivera växlingskontrollen **Aktiverad**.  
 
@@ -32,13 +32,12 @@ På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda
 
 ## <a name="see-also"></a>Se även
 
-[Skapa arbetsflöden](across-how-to-create-workflows.md)  
+[Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  
+[Använda arbetsflöden för godkännande](across-use-workflows.md)  
 [Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)  
-[Ta bort arbetsflöden](across-how-to-delete-workflows.md)  
-[Konfigurera arbetsflöden](across-set-up-workflows.md)  
-[Använd arbetsflöden](across-use-workflows.md)  
+[Ta bort arbetsflöden för godkännande](across-how-to-delete-workflows.md)  
+[Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)  
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbetsflöde](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

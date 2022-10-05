@@ -1,19 +1,20 @@
 ---
 title: Felsöka automatiserade arbetsflöden
 description: Lär dig mer om felsökning av kopplingen mellan Business Central och Power Automate när du skapar ett automatiserat arbetsflöde.
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2022
+ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,
+ms.date: 08/04/2022
 ms.author: edupont
-author: jswymer
-ms.openlocfilehash: b8fff95ced93e7ee2a3112969f45525532b19445
-ms.sourcegitcommit: e86f0bd15604c2fb327e3182929c44a4172790c7
+ms.openlocfilehash: 42b9a61f40afda0a50d6c6ec86d9984e53ae9ffb
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786202"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585925"
 ---
 # <a name="troubleshoot-your-prod_short-automated-workflows"></a>Felsöka [!INCLUDE[prod_short](includes/prod_short.md)] automatiserade arbetsflöden
 
@@ -44,35 +45,39 @@ Platshållaren, `\<name\>`, är namnet på den webbtjänst som saknas, till exem
 
 ### <a name="possible-cause"></a>Möjlig orsak
 
-För att du ska kunna använda Power Automate för dina godkännanden måste vissa sidor och codeunit-objekt publiceras som webbtjänster. Som standard publiceras de flesta nödvändiga objekt som webbtjänster åt dig. I vissa fall kan din miljö emellertid ha anpassats så att dessa objekt inte längre publiceras.
+För att du ska kunna använda Power Automate för dina godkännanden måste vissa sidor och codeunit-objekt publiceras som webbtjänster. Som standard publiceras de flesta nödvändiga objekt som webbtjänster. I vissa fall kan din miljö emellertid ha anpassats så att dessa objekt inte längre publiceras.
 
-### <a name="fix"></a>Korrigering
+### <a name="fix"></a>Korrigera
 
 Gå till sidan **Webbtjänster** och kontrollera att följande objekt publiceras som webbtjänster. Det ska finnas en post i listan för respektive objekt, med kryssrutan **Publicerad** markerad.  
 
-|Objekttyp|Objekt-ID|Objektnamn|Tjänstnamn|
-|-----------|---------|-----------|------------|
-|Kodmodul|  1544    |WorkflowWebhookSubscription|WorkflowActionResponse|
-|Sida|  6408|   workflowCustomers|  workflowCustomers|
-|Sida   |6406   |workflowGenJournalBatches| workflowGenJournalBatches|
-|Sida   |6407   |workflowGenJournalLines|workflowGenJournalLines|
-|Sida   |6409   |workflowItems| workflowItems|
-|Sida   |6405   |Entitet för inköpsdokumentrad|workflowPurchaseDocumentLines|
-|Sida|  6404    |workflowPurchaseDocuments| workflowPurchaseDocuments|
-|Sida|  6403    |Entitet för försäljningsdokumentrad |workflowSalesDocumentLines|
-|Sida|  6402|   workflowSalesDocuments| workflowSalesDocuments|
-|Sida|  6410    |workflowVendors|   workflowVendors|
-|Sida|  831 |workflowWebhookSubscriptions|  workflowWebhookSubscriptions|
+| Objekttyp | Objekt-ID | Objektnamn | Tjänstnamn |
+|--|--|--|--|
+| Kodmodul | 1544 | WorkflowWebhookSubscription | WorkflowActionResponse |
+| Sida | 6408 | workflowCustomers | workflowCustomers |
+| Sida | 6406 | workflowGenJournalBatches | workflowGenJournalBatches |
+| Sida | 6407 | workflowGenJournalLines | workflowGenJournalLines |
+| Sida | 6409 | workflowItems | workflowItems |
+| Sida | 6405 | Entitet för inköpsdokumentrad | workflowPurchaseDocumentLines |
+| Sida | 6404 | workflowPurchaseDocuments | workflowPurchaseDocuments |
+| Sida | 6403 | Entitet för försäljningsdokumentrad | workflowSalesDocumentLines |
+| Sida | 6402 | workflowSalesDocuments | workflowSalesDocuments |
+| Sida | 6410 | workflowVendors | workflowVendors |
+| Sida | 831 | workflowWebhookSubscriptions | workflowWebhookSubscriptions |
 
 > [!NOTE]
 > Värdet **Tjänstnamn** värde måste anges exakt det som visas i registret. Ändra eller äversätt inte tjänstnamnet.
 
 Mer information om publicering av webbtjänster finns i [Publicera en webbtjänst](across-how-publish-web-service.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/use-power-automate/).
+
 ## <a name="see-also"></a>Se även
 
-[Använda [!INCLUDE[prod_short](includes/prod_short.md)] i ett automatiserat arbetsflöde](across-how-use-financials-data-source-flow.md)  
+[Använda Power Automate-flöden i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Arbetsflöde](across-workflow.md)  
-
+[Konfigurera automatiserade arbetsflöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  
+[Växla till snabbflöden](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
+[Hantera Power Automate-flöden](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

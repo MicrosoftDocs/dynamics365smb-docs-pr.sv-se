@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf58b9f1c0702275df1dc6e2884444369d084b80
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533824"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585436"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
 
@@ -25,11 +25,11 @@ Innan du skapar godkännandearbetsflöden, måste du skapa en godkännare och er
 > [!NOTE]
 > Förutom funktionerna för arbetsflöde inom [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda Power Automate för att definiera arbetsflöden för händelser i [!INCLUDE[prod_short](includes/prod_short.md)]. Trots att det finns två separata arbetsflödessystem bör du notera att alla flödesmalla som du skapar med Power Automate lägga till i listan över arbetsflödesmallar i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Använda Business Central i ett automatiskt arbetsflöde ](across-how-use-financials-data-source-flow.md).  
 
-Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Mer information finns i [Arbetsflöden](across-workflow.md).  
+Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Läs mer i [arbetsflöden](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Om den här genomgången
 
-I den här genomgången tas följande aktiviteter upp:  
+Den här genom gången är ett scenario som illustrerar följande uppgifter:  
 
 - Ställa in godkännandeanvändare  
 - Ställa in meddelanden för godkännandeanvändare  
@@ -45,7 +45,7 @@ För att testa godkännandearbetsflödet loggar Stefan först in på [!INCLUDE[p
 
 ## <a name="users"></a>Användare
 
-Innan du kan ställa in godkännandeanvändare och deras meddelandemetod måste du kontrollera att det finns två användare i [!INCLUDE[prod_short](includes/prod_short.md)]: En användare representerar Alicia. Den andra användaren, du själv, representerar Sean. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
+Innan du kan ställa in godkännandeanvändare och deras meddelandemetod måste du kontrollera att det finns två användare i [!INCLUDE[prod_short](includes/prod_short.md)]: En användare representerar Alicia. Den andra användaren, du själv, representerar Sean. Läs mer på [Skapa användare enligt licenser](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Ställa in godkännandeanvändare
 
@@ -62,13 +62,13 @@ När du har loggat in som dig själv ställer du in Alicia som en godkännandean
 3. Ställ in de två godkännandeanvändarna genom att fylla i fälten enligt beskrivningen i följande tabell.  
 
     |Användar-ID|Godkännar-ID|Obegränsad godkännande för inköp|  
-    |-------------|-----------------|---------------------------------|  
-    |DU||Vald|  
-    |ALICIA|DU||  
+    |-------|-----------|---------------------------|  
+    |DU||Vald|
+    |ALICIA|DU||
 
 ### <a name="setting-up-notifications"></a>Ställa in meddelanden
 
-Användaren får ett internt meddelande om begäranden att godkänna i den här genomgången. Godkännandemeddelandet kan också skickas via e-post, och du kan lägga till ett svarssteg i arbetsflödet som meddelar avsändaren när en begäran godkänns eller avvisas. Mer information finns i [Så här anger du när och hur användare ska meddelas](across-how-to-specify-when-and-how-to-receive-notifications.md).
+Användaren får ett internt meddelande om begäranden att godkänna i den här genomgången. Godkännandemeddelandet kan också skickas via e-post, och du kan lägga till ett svarssteg i arbetsflödet som meddelar avsändaren när en begäran godkänns eller avvisas. Läs mer på [Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Så här ställer du in hur och när du får meddelande
 
@@ -83,7 +83,7 @@ Användaren får ett internt meddelande om begäranden att godkänna i den här 
 Skapa arbetsflödet för godkännande av inköpsorder genom att kopiera stegen från mallen **Arbetsflöde för godkännande av inköpsorder**. Lämna de befintliga arbetsflödesstegen oförändrade och aktivera sedan arbetsflödet.  
 
 > [!TIP]
-> Som tillval kan du lägga till ett arbetsflödessvarssteg för att meddela avsändaren när dennes begäran har godkänts eller avvisats. Mer information finns i [Så här anger du när och hur användare ska meddelas](across-how-to-specify-when-and-how-to-receive-notifications.md).
+> Som tillval kan du lägga till ett arbetsflödessvarssteg för att meddela avsändaren när dennes begäran har godkänts eller avvisats. Läs mer på [Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Så här skapar och aktiverar du ett arbetsflöde för inköpsordergodkännade
 
@@ -110,7 +110,7 @@ Observera att värdet i fältet **Status** har ändrats till **Väntar på godk�
 ### <a name="to-approve-the-purchase-order-as-sean"></a>Så här godkänner du inköpsordern, som Sean
 
 1. Logga in som Sean.
-2. I rollcentret går du till området **Självbetjäning** och väljer panelen **Begäranden att godkänna**.
+2. I rollcentret går du till området **Självbetjäning** och väljer **Begäranden att godkänna**.
 3. På sidan **Begäranden att godkänna** markerar du raden om inköpsordern från Alicia och väljer sedan åtgärden **Godkänn**.  
 
 Värdet i fältet **Status** på Alicias inköpsorder ändras till **Släppt**.  
@@ -119,7 +119,7 @@ Du har nu ställt in och testat ett enkelt godkännandearbetsflöde som baseras 
 
 Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett antal arbetsflödesmallar för scenarier som stöds av programkoden. De flesta mallar är för godkännandearbetsflöden.  
 
-Du definierar arbetsflödesvariationer genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Mer information finns i [Skapa arbetsflöden](across-how-to-create-workflows.md).  
+Du definierar arbetsflödesvariationer genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
@@ -129,7 +129,7 @@ Du definierar arbetsflödesvariationer genom att fylla i fält på arbetsflödes
 
 [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  
-[Skapa arbetsflöden](across-how-to-create-workflows.md)  
+[Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  
 [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md)  
 [Arbetsflöde](across-workflow.md)  
 [Använda Business Central i ett automatiskt arbetsflöde](across-how-use-financials-data-source-flow.md)  

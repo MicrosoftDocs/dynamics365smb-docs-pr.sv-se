@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 8915015f015642a85439fbdd5511271b06a8358f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: c1b55f213ad738deb03a5f13afccbc8f4bac10b2
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531303"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585709"
 ---
 # <a name="set-up-printers"></a>Ställa in skrivare
 
@@ -135,7 +135,7 @@ För detaljerade instruktioner om hur du installerar, se [Komma igång: Ställ i
 
 Nu kan du lägga till skrivarna till [!INCLUDE[prod_short](includes/prod_short.md)], konfigurerar standardskrivare för rapporter och skriva ut.  
 
-### <a name="add-universal-printer-printers-to-business-central"></a>Lägga till Universell skrivare till Business Central
+### <a name="add-universal-print-printers-to-business-central"></a>Lägga till Universell skrivare till Business Central
 
 När du har skapat och delat ut skrivare i Universell skrivare kan du börja använda dem i Business Central. Det finns två sätt att lägga till skrivare på Universell skrivare. Du kan lägga till alla skrivarna på en gång eller individuellt, en i taget.
 
