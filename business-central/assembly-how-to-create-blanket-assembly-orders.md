@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c388cdb7780e8af5a3da1c35bd31f9263df879d3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 41e682a54861857ce0ee36bbbf34924c5795b11b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520496"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605468"
 ---
 # <a name="create-blanket-assembly-orders"></a>Skapa monteringsorder för avrop
+
 Du kan använda monteringshantering för att anpassa en monteringsartikel till ett kundkrav under försäljningsprocessen. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
  Som med alla typer av artiklar kan du också skapa avropsförsäljningsorder för anpassade monteringsartiklar före periodens skapande av faktiska försäljningsorder enligt avropsorderavtalet. Den här processen involverar flera extra steg i jämförelse med att skapa en vanlig avropsförsäljningsorder. Den använder en variation av en kopplad monteringsorder, dvs. en monteringsorder för avrop.
@@ -26,6 +27,7 @@ Du kan använda monteringshantering för att anpassa en monteringsartikel till e
 >  Som för alla avropsorder är antalet i monteringsavropsorder endast prognoser och kan inte användas förrän de konverterats till faktiska monteringsorder. Därför är orderfunktioner som dispositionsberäkning, reservation och artikelspårning inte aktiva för monteringsorder för avrop.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Så här skapar du en monteringsorder för avrop för montering\-mot\-kundorder  
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.  
 2. Skapa en ny avropsorder med en rad för en monteringsartikel. Mer information finns i [Skapa försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md).  
 3. I fältet **Antal att montera mot kundorder** på monteringsorderraden anger du det totala antalet.
@@ -41,11 +43,12 @@ Du kan använda monteringshantering för att anpassa en monteringsartikel till e
 Den länkade avropsmonteringsofferten och eventuella anpassningar är kopplade till den nya försäljningsordern så att artikelmontering eller -försäljning kan förberedas.  
 
 ## <a name="see-also"></a>Se även
+
 [Skapa försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)  
 [Monteringshantering](assembly-assemble-items.md)  
-[Arbeta med strukturer](inventory-how-work-BOMs.md)  
+[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

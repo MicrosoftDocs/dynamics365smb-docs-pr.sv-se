@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535324"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606447"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -49,7 +49,7 @@ När du loggar in på [!INCLUDE [prod_short](includes/prod_short.md)] för förs
 2. **Konfigurera Power BI-rapporter i Business Central** assisterad konfiguration startar. Välj **Nästa** om du vill fortsätta.
 3. På sidan **Kontrollera din Power BI-licens**. Gör något av följande:
 
-    - Om du ännu inte har registrerat dig för Power BI väljer du [Gå till Power BI hemsidan](https://powerbi.microsoft.com). Registrera dig för ett konto och kom sedan tillbaka till [!INCLUDE[prod_short](includes/prod_short.md)] och avsluta uppsättningen.
+    - Om du ännu inte har registrerat dig för Power BI väljer du [Gå till Power BI hemsidan](https://powerbi.microsoft.com). Registrera dig för ett konto och kom sedan tillbaka till [!INCLUDE[prod_short](includes/prod_short.md)] och avsluta konfigurationen.
 
     - Om du redan har en licens väljer du **Nästa**.
 4. På nästa sida [!INCLUDE[prod_short](includes/prod_short.md)] laddas nu en demorapport upp till Power BI. Detta tar några minuter, så det görs i bakgrunden. Om du vill slutföra installationen väljer du **Nästa** och **Slutför** sedan .
@@ -69,9 +69,14 @@ När du väl är ansluten kan du välja en rapport i Power BI-delen på olika si
 
 ### <a name="show-reports-on-list-pages"></a>Visa rapporter på listsidor
 
-[!INCLUDE[prod_long](includes/prod_long.md)] omfattar en Power BI-FactBox på flertalet viktiga listsidor. Denna FactBox ger ytterligare insikter kring datan i listan. I takt med att du förflyttar dig mellan raderna i listan uppdateras samt filtreras rapporten för vald post. Om du inte ser denna del går du till åtgärdsfältet och väljer **Åtgärder** > **Visa** > **Visa/dölj Power BI-rapporter**.
+[!INCLUDE[prod_long](includes/prod_long.md)] omfattar en Power BI-FactBox på flertalet viktiga listsidor. Denna faktabox ger ytterligare insikter kring datan i listan. I takt med att du förflyttar dig mellan raderna i listan uppdateras samt filtreras rapporten för vald post.
 
 Mer information om hur du skapar rapporter för listasidor finns i [Skapa Power BI-rapporter för visning av listdata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Om du inte ser Power BI-faktaboxen kan det hända att en är dold på arbetsytan på grund av anpassning. Välj ikonen ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och välj sedan åtgärden **Anpassa**. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
+>
+> Om du har en äldre version av Business Central går du till åtgärdsfältet och väljer **Åtgärder** > **Visa** > **Visa/Dölj Power BI-rapporter**.
 
 ### <a name="switch-reports"></a>Växla rapporter
 
@@ -143,7 +148,6 @@ Detta beror troligen på att rapportens namn inte innehåller listsidans namn. R
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakälla](across-how-use-financials-data-source-powerapps.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 

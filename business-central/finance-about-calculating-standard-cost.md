@@ -8,14 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 966baa1d1adb25c811f8b9518abe0d79f5839cac
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729917"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606782"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beräkning av standardkostnad
+
 Många produktionsföretag använder värderingsbasen för standardkostnad. Detta gäller också företag som utför lätt produktion, t. ex. montering och paketering. I standardkostnadssystemet fastställs styckkostnaden i lagret utifrån en historisk eller förväntad kostnad som är rimlig. På det här sättet skapas ett underlag för standardkostnaderna, eftersom tidigare och förväntade framtida kostnadsdata undersöks. Innan ett beslut fattas om att ändra de här kostnaderna förblir de frysta. Den faktiska kostnaden för att tillverka en produkt kan skilja sig från den beräknade standardkostnaden. Den faktiska kostnaden jämförs sedan med standardkostnaden för en särskild artikel och skillnaderna eller *avvikelserna* identifieras och analyseras för den ekonomiska styrningen.  
 
 Standardkostnader kan bibehållas för artiklar som fylls i via inköp, montering och produktion. För varje återanskaffning kan standardkostnader bestå av följande delar.  
@@ -26,7 +27,8 @@ Standardkostnader kan bibehållas för artiklar som fylls i via inköp, monterin
 |**Montering**|Inköpskostnad för material, direkt eller fast arbetskostnad och omkostnad.|  
 |**Prod.order**|Inköpskostnad för material, arbetskostnad, underleverantörskostnad och omkostnad.|  
 
-## <a name="setting-up-standard-costs"></a>Ställa in standardkostnader  
+## <a name="setting-up-standard-costs"></a>Ställa in standardkostnader
+
 Eftersom standardkostnaden för en producerad eller monterad artikel kan innehålla flera kostnadsslag måste en standardkostnad utarbetas för alla följande kostnadsslag: materialkostnader, kapacitetskostnader (arbete) och leveratörskostnader (inköpskostnader och overheadkostnader).  
 
 Redovisningen i ett produktionsföretag som använder standardkostnadskalkylering består av:  
@@ -42,7 +44,7 @@ Följande viktiga kostnadselement utgör den totala inköpskostnaden för en fä
 - Kapacitetskostnad.  
 - Underleverantörskostnader endast för den producerade artikeln.  
 
-### <a name="material-costs"></a>materialkostnader
+### <a name="material-costs"></a>Materialkostnader
 
 Materialkostnaderna är kostnader som är kopplade till detaljmontage och inköpt råmaterial. Materialkostnaden kan bestå av kostnadsslag för både inköpskostnad och indirekt kostnad.  
 
@@ -60,7 +62,8 @@ Materialkostnaden för en tillverkad artikel kan visas på två sätt som motsva
 |En nivå|Den producerade artikeln är lika med totalkostnaden för alla inköpta eller detaljmonterade artiklar i artikelns produktionsstruktur.|  
 |En nivå eller flera nivåer|Producerad artikel är summan av materialkostnaden för alla delmontage i den artikelns struktur och kostnaden för alla inköpta artiklar i den artikelns produktionsstruktur.|  
 
-### <a name="capacity-costs"></a>Kapacitetskostnader  
+### <a name="capacity-costs"></a>Kapacitetskostnader
+
 Kapacitetskostnaderna är kostnader som är kopplade till interna kostnader för arbetskraft och maskiner. Du måste lägga upp dessa kostnader för varje resurs (i monteringshanteringen) och arbete eller maskingrupp i verksamhetsföljden (i produktion). På samma sätt som med materialkostnaderna kan du identifiera kostnadsslag för kapacitetskostnaden, vad beträffar både inköpskostnaden och den indirekta kostnaden. Inköpskostnaden för en produktionsgrupp kan t. ex. vara "verkstadskostnaden" som har skapats för en särskild uppgift. Den indirekta kostnaden för en produktionsgrupp kan utgöras av allmänna kostnader för fabriken, t. ex. belysning, uppvärmning o.s.v. På liknande sätt som med materialkostnaderna kan kapacitetsoverhead uttryckas i form av en procentsats för den indirekta kostnaden eller en fast overheadkostnad.  
 
 Inställningen av kapacitetskostnaderna för monterade artiklar består av följande delar:  
@@ -84,26 +87,30 @@ För att ange omställningstid i verksamhetsföljden i planeringssyfte, men inte
 
 På En-nivå-basis är detta den arbetskostnad som krävs för att producera den färdiga produktionsartikeln och anges på produktionsartikelns verksamhetsföljd. På en fler-nivå-basis är den kapacitet som har angetts för varje enskild tillverkad artikel som ingår i den överordnade artikelns struktur.  
 
-### <a name="subcontractor-costs"></a>Underleverantörskostnader  
+### <a name="subcontractor-costs"></a>Underleverantörskostnader
+
 Underleverantörskostnaderna är kostnader som är kopplade till tjänster från företagets fristående leverantörer eller underleverantörer. På liknande sätt som med material- och kapacitetskostnaderna kan underleverantörskostnaderna bestå av både inköpskostnad och overheadkostnad. Inköpskostnaden för legotillverkningen utgörs av den faktiska avgiften per enhet för de erhållna tjänsterna. Overheadkostnaden för legotillverkningen kan t. ex. vara frakt- och hanteringskostnader som företaget ådrog sig vid en legotillverkningsorder.  
 
 Eftersom legotillverkning är en utlagd kapacitet ställs kostnaden för legotillverkningstjänsterna (inköpskostnad och indirekt kostnad) in för produktionsgruppkortet som motsvarar legotillverkningsoperationen.  
 
-## <a name="updating-standard-costs"></a>Uppdatera standardkostnader  
+## <a name="updating-standard-costs"></a>Uppdatera standardkostnader
+
 Använd funktionen från artikelkortet för att uppdatera eller beräkna standardkostnaden för monteringsartiklar.  
 
 Processen för att uppdatera eller att beräkna standardkostnader består vanligtvis av följande uppgifter:  
 
 1.  Uppdatera kostnader på komponent- och kapacitetsnivå. Mer information finns i batch-jobben **Föreslå artikelstandardkostnad** och **föreslå kapacitet standardkostnad**.  
-2.  Konsolidera och summera komponent- och kapacitetskostnader för att beräkna den totala monterings- eller produktionskostnaden för artiklarna. Mer information finns i [Beräkna standardkostnaden för en monteringsartikel](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
+2.  Konsolidera och summera komponent- och kapacitetskostnader för att beräkna den totala monterings- eller produktionskostnaden för artiklarna. Mer information finns i [Beräkna standardkostnaden för en monteringsartikel](assembly-how-work-assembly-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Använda standardkostnaderna som anges när du kör de föregående batch-jobben. Standardkostnaderna börjar inte gälla förrän de implementeras. Använd batch-jobbet **Implementera ändringar av standardkostnad**, som uppdaterar ändringarna av standardkostnaden för artiklar med de i tabellen Standardkostnadsformulär.  
 4.  Implementera ändringarna för att uppdatera fältet **Styckkostnad** för artikelkortet och utföra lagerutvärderingen. Mer information finns i [Omvärdera lager](inventory-how-revalue-inventory.md).
 
-## <a name="see-also"></a>Se även  
- [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)   
- [Arbeta med strukturer](inventory-how-work-BOMs.md)   
- [Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)   
- [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)
+## <a name="see-also"></a>Se även
 
+[Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
+[Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)  
+[Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  
+[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
+[Skapa produktionsstrukturer](production-how-to-create-production-boms.md)  
+[Arbeta med strukturer](inventory-how-work-BOMs.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

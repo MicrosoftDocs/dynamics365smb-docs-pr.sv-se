@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148674"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605171"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
 
@@ -40,7 +40,7 @@ Planeringsparametrar kan också definieras för en valfri kombination av artikel
 
 Mer information finns i [Designdetaljer: Hantera principer för omordning](design-details-handling-reordering-policies.md) och [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md).  
 
-## <a name="planning-starting-date"></a>Planera startdatum
+## <a name="planning-starting-date"></a>Planeringsstartdatum
 
 För att undvika en leveransplanering som tar med öppna tidigare order och föreslår eventuellt omöjliga på åtgärder, behandlar planeringssystemet alla datum före planeringsstartdatumet som en fryst zon där följande specialregel gäller:  
 
@@ -88,7 +88,7 @@ När du upprättar en plan är sekvensen med beräkningarna viktig för att få 
 
 Planeringssystemet i [!INCLUDE[prod_short](includes/prod_short.md)] efterfrågestyrt. Artiklar på hög nivå ska planeras före artiklar på låg nivå, eftersom planen för artiklar på hög nivå artiklar kan generera ytterligare efterfrågan för artiklarna på låg nivå. Det innebär till exempel att återförsäljningslagerställen ska planeras innan distributionscenter planeras, eftersom planen för ett återförsäljningslagerställe kan innehålla ytterligare efterfrågan från distributionscentret. På en detaljerad saldonivå betyder det också att en försäljningsorder inte ska aktivera en ny leveransorder om en redan släppt leveransorder kan täcka försäljningsordern. På samma sätt ska en tillgång med ett specifikt partinummer inte fördelas för att täcka en generisk efterfrågan om en annan efterfrågan kräver det specifika partiet.  
 
-### <a name="item-priority--low-level-code"></a>Artikelprioritet / lågnivå kod
+### <a name="item-priority--low-level-code"></a>Artikelprioritet/lågnivåkod
 
 I en produktionsmiljö resulterar efterfrågan på en färdig, säljbar artikel i härledd efterfrågan på komponenter som ingår i den färdiga artikeln. Strukturer kontrollerar komponentstrukturen och kan omfatta flera nivåer av halvfärdiga artiklar. När du planerar en artikel på en nivå skapar det härledd efterfrågan på komponenter på nästa nivå, och så vidare. Det leder till slut till en härledd efterfrågan på inköpta artiklar. Därför planerar planeringssystemet för artiklar i den ordning som de är rankade i den totala strukturhierarkin, och börjar med färdiga säljbara artiklar på högsta nivån och fortsätter nedåt via produktstrukturen till artiklarna för lägre nivå (enligt lägsta-nivå-koden).  
 
@@ -109,7 +109,7 @@ Du kan också aktivera logik som påskyndar beräkningar av kod på låg nivå g
 
 ### <a name="locations--transfer-level-priority"></a>Lagerställen/Prioritet för överföringsnivå
 
-Företag som har verksamhet på fler än ett lagerställe kan behöva planera för varje lagerställe var för sig. Till exempel kan en artikels säkerhetslagernivån och dess partiformningsmetod skilja sig från ett lagerställe till ett annat. I det här fallet måste planeringsparametrarna anges per artikel och även per lagerställe.  
+Företag som har verksamhet på fler än ett lagerställe kan behöva planera för varje lagerställe var för sig. Till exempel kan en artikels säkerhetslagernivå och dess partiformningsmetod skilja sig från ett lagerställe till ett annat. I det här fallet måste planeringsparametrarna anges per artikel och även per lagerställe.  
 
 Det stöds med användning av lagerställeenheter där enskilda planeringsparametrar kan anges på nivån med lagerställeenheter. En lagerställeenhet kan ses som en artikel på ett visst lagerställe. Om användaren inte har definierat en lagerställeenhet för lagerstället kommer programmet att återgå till parametrarna som har angetts på artikelkortet. Programmet beräknar en plan endast för aktiva lagerställen, d.v.s där det finns befintligt behov eller tillgång för den angivna artikeln.  
 
@@ -198,7 +198,7 @@ Mer information finns i [Serie-/partinummer läses in efter specifikationsnivå]
 
 Mer information om hur planeringssystemet balanserar attribut finns i [Serie-/partinummer och Order-till-order-länkar är undantagna från den frysta zonen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
-## <a name="order-to-order-links"></a>Order-till-Order-länkar
+## <a name="order-to-order-links"></a>Order-till-order-länkar
 
 Order-till-order-anskaffning betyder att en artikel köps in, monteras eller produceras för att exklusivt täcka en viss efterfrågan. Vanligtvis gäller det A-artiklar och motiveringen för att välja den här metoden kan vara att efterfrågan är ovanlig, ledtiden är oansenlig eller de obligatoriska attributen varierar.  
 
@@ -299,7 +299,7 @@ Det grundläggande leveransplaneringsverktyget som representeras av sidan **Orde
 > [!NOTE]  
 >  Orderplanering bör inte användas om företaget redan använder planering eller inköpskalkylark. Leveransorder som skapas från sidan **Orderplanering** kan ändras eller tas bort under den automatiska planeringskörningen. Detta beror på att den automatiska planeringskörningen använder planeringsparametrarna och dessa kanske inte beaktas av användaren som skapade den manuella planen på sidan Orderplanering.  
 
-##  <a name="finite-loading"></a>Bestämd beläggning
+## <a name="finite-loading"></a>Bestämd beläggning
 
 [!INCLUDE[prod_short](includes/prod_short.md)] är ett ERP-system av standardtyp, inget avsändningssystem eller kontrollsystem för butiksgolv. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.  
 
@@ -308,7 +308,7 @@ Det påtänkta användningen av funktionen Kap.begränsning för resurs är 1): 
 När du ska planera med kapacitetsbegränsade resurser ser systemet till att ingen resurs beläggs över sin definierade kapacitet (kritisk beläggning). Det ske genom att tilldela varje operation till den närmaste tillgängliga tidsluckan. Om tidsluckan inte är tillräckligt stor för att slutföra hela åtgärden kommer åtgärden att uppdelas i två eller flera delar som placeras i de närmaste tidsluckorna.  
 
 > [!NOTE]  
->  I händelse av åtgärdsdelning tilldelas inställningstiden bara en gång, eftersom det antas att vissa manuella justeringen sker för att optimera schemat.  
+> I händelse av åtgärdsdelning tilldelas inställningstiden bara en gång, eftersom det antas att vissa manuella justeringen sker för att optimera schemat.  
 
 Dämpartid kan läggas till i resurser för att minimera åtgärdsdelning. Det gör att systemet kan schemalägga laddning till den sista möjliga dagen genom att överskrida den kritiska beläggningsprocenten något om det kan minska antalet operationer som delas.  
 
@@ -316,11 +316,10 @@ Detta slutför översikten över centrala koncept för leveransplanering i [!INC
 
 ## <a name="see-also"></a>Se även
 
-[Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)   
-[Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)   
-[Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)   
-[Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
-[Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)
-
+[Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)  
+[Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
+[Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  
+[Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
+[Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

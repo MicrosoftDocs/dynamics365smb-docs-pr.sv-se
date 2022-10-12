@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528455"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617800"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Dela Business Central-poster och sidlänkar i Microsoft Teams
 
@@ -102,18 +102,24 @@ Mer information om hur du arbetar med kort och kortinformation finns i [Vanliga 
 
 Direkt från de flesta samlingssidor, på samma sätt som på **Artiklar** sida och detaljsidor, som kort **Artiklar** du kan skicka en länk till sidan till specifika mottagare i en Teams-konversation. Du kan t.ex. dela en länk till en filtrerad vy över posterna. Mottagarna kan sedan markera länken så att sidan öppnas i [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![Menyn Dela visas på ett kort.](media/teams-share-link.png "Menyn Dela visas på ett kort.")
+[![!Menyn Dela visas på ett kort.](media/teams-share-link-v2.png "Menyn Dela visas på ett kort.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Förutsättningar
-Du har tillgång till Microsoft Teams.
+
+- Du har tillgång till Microsoft Teams.
+- (Valfritt) Du har installerat [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. 
+
+  Med appen installerad kommer även de meddelanden du skickar med länken att innehålla ett kompakt kort för sidan. Mer information om hur du installerar appen finns i [Installera appen [!INCLUDE [prod_short](includes/prod_short.md)] för Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Dela en länk
 
 1. I [!INCLUDE [prod_short](includes/prod_short.md)]\, öppna sidan som du vill dela.
 2. Välj det du vill ha högst upp på sidan ![Åtgärden dela till andra program på sidor.](media/share-icon.png) sedan **dela med Teams**.
 3. Logga in på Teams med ditt användarnamn och lösenord om du uppmanas till det.
-4. I sidan **Delat till Teams**, skriv ett namn på en person, grupp eller kanal som du vill skicka meddelandet till. 
-5. Meddelanderutan innehåller en länk till sidan. Lägg till mer information om du vill, välj sedan **Dela**.
+4. I sidan **Delat till Teams**, skriv ett namn på en person, grupp eller kanal som du vill skicka meddelandet till.
+5. Meddelanderutan innehåller en länk till sidan. Om [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Teams är installerad visas även ett kort för den länkade posten eller sidan i meddelanderutan.
+
+   Lägg till mer information om du vill, välj sedan **Dela**.
 6. Länken har nu delats. Om du vill gå till konversationen väljer du **gå till Teams**.
 
 ## <a name="see-also"></a>Se även
@@ -127,6 +133,5 @@ Du har tillgång till Microsoft Teams.
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

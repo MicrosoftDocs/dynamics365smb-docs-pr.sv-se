@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585466"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606528"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Använda Power Automate-flöden i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,9 +43,7 @@ Med Power Automate kan du skapa affärsflöden direkt internt och förlita dig p
 
 ## <a name="instant-flows"></a>Direktflöden
 
-Från och med utgivningscykel 1 2022 (maj 2022) kan [!INCLUDE [prod_short](includes/prod_short.md)] online administratörer [aktivera en funktion](admin-feature-management.md) för att göra det möjligt att köra ett Power Automate-flöde från de flesta sidor. Mer information finns i [Konfigurera automatiserade arbetsflöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrationsinnehållet.
-
-När administratören har anslutit [!INCLUDE [prod_short](includes/prod_short.md)] till Power Automate ser du alla flöden som organisationen har lagt till när du väljer åtgärden **Automatisera** på de relevanta sidorna. Direktflöden körs utan att lämna [!INCLUDE [prod_short](includes/prod_short.md)].
+[!INCLUDE [prod_short](includes/prod_short.md)] kan köra ett Power Automate-flöde från de flesta list-, kort- och dokumentsidor. När administratören har anslutit [!INCLUDE [prod_short](includes/prod_short.md)] till Power Automate ser du alla flöden som organisationen har lagt till när du väljer åtgärden **Automatisera** på de relevanta sidorna. Direktflöden körs utan att lämna [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Konfigurera automatiserade arbetsflöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrationsinnehållet.
 
 Dessa direktarbetsflöden öppnas på en sida i [!INCLUDE [prod_short](includes/prod_short.md)] online, så att du håller dig inom ramen för affärsprocessen du höll på med. Välj åtgärden **Automatisera** som på vissa sidor är kapslad under menyn **Fler alternativ**, men du hittar den genom att välja menyobjektet **Power Automate** och sedan relevant länk för att utlösa arbetsflödet. Anslutningen till Power Automate har redan ställts in åt dig.
 
@@ -62,7 +60,7 @@ Du kan hitta exempelmallar för att anpassa till ditt företag och alla tillgän
 
 ## <a name="manage-automated-workflows"></a>Hantera automatiserade arbetsflöden
 
-Du kan skapa nya flöden eller hantera befintliga Power Automate-flöden i [!INCLUDE [prod_short](includes/prod_short.md)] på sidan **Hantera Power Automate-flöden**. Mer information finns i artikeln [Hantera Power Automate-flöden](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) i administrationsinnehållet.
+Du kan skapa nya flöden eller hantera befintliga Power Automate-flöden i [!INCLUDE [prod_short](includes/prod_short.md)] på sidan **Hantera Power Automate-flöden**. Mer information finns i artikeln [Hantera Power Automate-flöden](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) i administrationsinnehållet.
 
 Du kan också hantera tillgängliga Power Automate arbetsflöden på sidan **arbetsflöden** i [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan visas både inbyggda godkännanden och Power Automate arbetsflöden, med alternativ för de senare för att aktivera/inaktivera, ta bort och visa arbetsflödet på webbplatsen Power Automate.
 

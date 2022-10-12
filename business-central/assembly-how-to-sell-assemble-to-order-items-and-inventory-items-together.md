@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 34bbdae60f2e9e17cdd6f006f4af432658ee9dbe
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dafd52a1a2925c0347a455810ad727b8b89706dc
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519872"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607263"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Artiklar för montering mot kundorder och lagerartiklar ihop
+
 Om fältet **Monteringsmetod** på en monteringsartikels artikelkort innehåller **Montering mot lager** förutsätter standardprocessen för försäljningsorder att artikeln redan monterats och kan plockas från lagret, om den är tillgänglig. Därför skapas inte monteringsorder automatiskt och länkas till försäljningsorderraden. Men om en del av (eller hela) antalet inte är tillgängligt har du en möjlighet att skapa en monteringsorder för återstående antal genom att fylla i fältet **Antal att montera mot kundorder** på försäljningsorderraden. På det här viset kan du montera artikeln mot kundorder även om det har lagts upp för montering mot lager som standard.  
 
 Liknande flexibilitet finns när du säljer artiklar för montering mot order och en del av antalet finns i lagret. Du vill då dra av dessa från monteringsordern. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
@@ -28,7 +29,8 @@ Liknande flexibilitet finns när du säljer artiklar för montering mot order oc
 > [!NOTE]  
 >  I följande procedur ingår inte de standardsteg för försäljningsorder som du bör följa innan du skapar en monteringsorder för antal som inte är tillgängliga.
 
-## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Så här säljer du artiklar för montering mot kundorder och lagerartiklar ihop  
+## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Så här säljer du artiklar för montering mot kundorder och lagerartiklar ihop
+
 1.  Ange ett antal i fältet **Antal** som överstiger lagret på en försäljningsorderrad för en artikel som ska monteras mot lager. Sidan **Kontrollera disponibelt** visas. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).
 2.  Observera fältet **Totalt antal** (med ett negativt värde), som du ska skriva in i nästa steg.  
 3.  I fältet **Antal att montera mot kundorder** anger du värdet från föregående steg.  
@@ -38,11 +40,12 @@ Liknande flexibilitet finns när du säljer artiklar för montering mot order oc
 > [!CAUTION]  
 >  Fältet **Lagerställeskod** på försäljningsordern kan fyllas i i förväg enligt fältet **Lagerpl.kod för mont. mot lev.** eller fältet **Från monteringsplats – kod** på lagerställekortet. I så fall här kan fältet **Lagerställeskod** på försäljningsorderraden vara felaktigt i den här kombinationen av antal av montering mot kundorder och antal av montering mot lager. Det kan vara bra att undersöka fältet **Lagerställeskod** och se till att placeringen fungerar för alla antal. Alternativt kan du ange de två olika antalen på separata försäljningsorderrader.  
 
-## <a name="see-also"></a>Se även  
+## <a name="see-also"></a>Se även
+
 [Monteringshantering](assembly-assemble-items.md)  
-[Arbeta med strukturer](inventory-how-work-BOMs.md)  
+[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

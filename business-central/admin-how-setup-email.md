@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534298"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606393"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
 Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare, och bifoga filer på upp till 100 MB. Administratörer kan dessutom skapa rapportlayouter som endast innehåller nyckelinformation från dokument. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ Med den assisterade konfigurationsguiden för **Konfigurera e-post** kan du snab
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Tilldela e-scenarier till e-postkonton
 E-postscenarier är processer som involverar att skicka ett dokument. Exempelvis en försäljnings- eller inköpsorder eller en anmälan, till exempel en inbjudan till en extern revisor. Specifika e-postkonton kan användas för specifika scenarier. Du kan t. ex. ange att alla användare alltid ska skicka försäljningsdokument från ett konto, inköpsdokument från ett annat, samt lager- eller produktionsdokument från ett tredje konto. Du kan tilldela, tilldela om och ta bort scenarier när du vill. Ett scenario kan bara tilldelas ett e-postkonto åt gången. Standardkontot kommer att användas för alla e-postscenarier som inte har tilldelats något konto.
- 
+
+På sidan **Tilldelning av e-postscenario** kan du välja åtgärden **Konfigurera standardbilagor** för att lägga till bilagor till e-postscenarier. De bifogade filerna är alltid tillgängliga när du skriver ett e-postmeddelande för ett dokument som är relaterat till scenariot. Varje e-postscenario kan ha en eller flera bifogade standardbilagor. Standardbilagor läggs automatiskt till i e-postmeddelanden för e-postscenariot. När du t.ex. skickar en försäljningsorder med e-post, läggs standardbilagan som anges för försäljningsorderscenariot till. Standardbilagor visas i avsnittet **Bifogadefiler** längst ned på sidan **Skriv ett e-postmeddelande**. Du kan manuellt lägga till bifogade filer som inte är standard i e-postmeddelandet.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ På sidan **Visningspolicyer för användar-e-post** väljer du en användare oc
 >  Om du lämnar fältet **Användar-ID** tomt och sedan väljer åtgärden Visningspolicy för e-post gäller policyn som du definierar för alla användare.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Ställ in återanvändbara e-posttexter och layouter
-Du kan använda rapporter för att inkludera nyckelinformation från försäljnings- och inköps dokument i texter för e-post. I den här proceduren beskrivs hur du ställer in rapporten **Försäljning – Faktura** för bokförda försäljningsfakturor, men processen liknar den för andra rapporter.
+Du kan använda rapporter för att inkludera nyckelinformation från försäljnings-, inköps- och servicedokument i texter för e-post. I den här proceduren beskrivs hur du ställer in rapporten **Försäljning – Faktura** för bokförda försäljningsfakturor, men processen liknar den för andra rapporter.
 
 > [!NOTE]
 > Om du vill använda layouten för att skapa innehåll för e-postmeddelanden måste du använda Word-filtyp för layouten.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Rapportval, försäljning** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Rapporturval – försäljning** och väljer sedan relaterad länk.
 2. På sidan **Rapportval, försäljning** i fältet **Användning** väljer du **Faktura**.
 3. På en ny rad i fältet **Rappport-ID** väljer du t. ex. standardrapport 1306.
 4. Markera kryssrutan **Använd för e-postbrödtex**.

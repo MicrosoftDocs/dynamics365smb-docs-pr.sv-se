@@ -1,178 +1,202 @@
 ---
-title: Skapa ekonomiska rapporter med hjälp av kontouppställningar
-description: Beskriver hur du kan använda kontouppställningar för att skapa olika vyer och rapporten för att analysera ekonomisk prestandadata.
+title: Skapa ekonomiska rapporter med ekonomiska data och kontokategorier
+description: Beskriver hur du kan använda ekonomiska rapporter för att skapa olika vyer och rapporter för att analysera ekonomisk prestandadata.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
-ms.date: 04/01/2021
+ms.search.keywords: bi, power BI, analysis, KPI, account schedule, financial report
+ms.search.form: 103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766
+ms.date: 08/12/2022
 ms.author: edupont
-ms.openlocfilehash: 780034b8c53e7bb1704e13d0b1a00158583c11db
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 3b71bec5ca7f1c903913b4244eb176dbf1c53c86
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531735"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605252"
 ---
-# <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Förbereda ekonomiska rapporter, kontouppställningar och kategorier
+# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Förbereda Financial Reporting med ekonomiska data och kontokategorier
 
-Du kan använda kontouppställningar för att få information om ekonomiska data som lagras i din kontoplan. Kontouppställningar analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med redovisningsbudgettransaktioner. Resultaten visas i diagram och rapporter i Rollcentret, till exempel diagram för kassaflöde och resultaträknings- och balansräkningsrapporter.
+Ekonomiska rapporter ger dig insikt i ekonomiska data som lagras i din kontoplan. Ekonomiska rapporter analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med budgettransaktioner. Resultaten visas i diagram och rapporter i Rollcentret, till exempel diagram för kassaflöde och resultaträknings- och balansräkningsrapporter.
 
-Du öppnar dessa två rapporter, till exempel med åtgärden **finansiella rapporter** på Business Manager och rollcenter för redovisare.  
+Du öppnar dessa två rapporter, till exempel med åtgärden **Finansiella rapporter** i Business Manager och rollcenter för redovisning.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] innehåller exempel kontouppställningar som du kan använda direkt. Du kan också skapa egna rader och kolumner för att ange vilka siffror som ska jämföras. Du kan skapa kontouppställningar för att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Antalet anpassade bokslut du kan skapa är obegränsat.  
+[!INCLUDE[prod_short](includes/prod_short.md)] innehåller exempel på ekonomiska rapporter som du kan använda direkt. Du kan också skapa egna rader och kolumner för att ange vilka siffror som ska jämföras. Du kan till exempel skapa ekonomiska rapporter för att beräkna vinstmarginaler med dimensioner som avdelningar eller kundgrupper. Antalet anpassade bokslut du kan skapa är obegränsat.  
 
-Ställa in kontouppställningar kräver en förståelse för den ekonomiska informationen i kontoplanen. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna, men det kräver att du har skapat budgetar. Mer information finns i [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
+Ställa in ekonomiska rapporter kräver en förståelse för den ekonomiska informationen i kontoplanen. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna, men det kräver att du har skapat budgetar. Läs mer i [Skapa redovisningsbudgetar](finance-how-create-budgets.md).
 
-## <a name="account-schedules"></a>Kontouppställningar
+## <a name="financial-reports"></a>Ekonomiska rapporter
 
-Kontouppställningen strukturerar kontona i kontoplanen på ett sätt som gör det enklare att presentera data. Du kan skapa olika layouter för att definiera informationen som du vill hämta från kontoplanen. Kontouppställningar är en plats för beräkningar som inte kan göras direkt i kontoplanen. Du kan t. ex. skapa delsummor för grupper av konton och sedan ta med denna summa i andra summor. Ett annat exempel är att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Dessutom kan du filtrera redovisningstransaktionerna och redovisningsbudgettransaktioner, till exempel efter nettoförändring eller debetbelopp.
+Ekonomiska rapporter strukturerar kontona i kontoplanen på ett sätt som gör det enklare att presentera data. Du kan skapa olika layouter för att definiera informationen som du vill hämta från kontoplanen. Ekonomiska rapporter är en plats för beräkningar som inte kan göras direkt i kontoplanen. Du kan t. ex. skapa delsummor för grupper av konton och sedan ta med denna summa i andra summor. Ett annat exempel är att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Dessutom kan du filtrera redovisningstransaktionerna och budgettransaktioner, till exempel efter nettoförändring eller debetbelopp.
 
-Du kan även jämföra två eller flera kontouppställningar och kolumnlayouter med hjälp av formler, som låter dig vidta följande åtgärder:
+Du kan även jämföra två eller flera ekonomiska rapporter och kolumndefinitioner med hjälp av formler, så att du kan göra följande:
 
 * Skapa anpassade ekonomirapporter.
-* Skapa så många kontouppställningar som behövs, var och en med ett unikt namn.
+* Skapa så många ekonomiska rapporter som behövs, var och en med ett unikt namn.
 * Skapa olika rapportlayouter och skriva ut rapporterna med de aktuella siffrorna.
 
 ## <a name="gl-account-categories"></a>Redovisningskontokategorier
 
-Du kan använda kontokategorier för att ändra layout på din redovisning. När du har upprättat din kontokategorier på sidan **Redovisningskontokategorier** och du väljer åtgärden **Skapa kontouppställningar** uppdateras de underliggande kontouppställningarna för de centrala ekonomiska rapporterna. Nästa gång du kör någon av dessa rapporter, till exempel rapport för **kontoavstämning** kommer nya summor och underposter att läggas till, baserat på ändringarna.
+Du kan använda kontokategorier för att ändra layout på din redovisning. När du har upprättat dina kontokategorier på sidan **Redovisningskontokategorier** kan du välja åtgärden **Skapa ekonomiska rapporter** och uppdatera de underliggande ekonomiska rapporterna för de centrala ekonomiska rapporterna. Nästa gång du kör någon av dessa rapporter, till exempel rapporten **Kontoavstämning** kommer nya summor och underposter att läggas till.
 
 > [!NOTE]
-> Konto kategorierna på den högsta nivån, till exempel noden **skulder**, är fasta och du kan inte lägga till egna. Du kan emellertid ta bort och lägga till kontokategorier på lägre nivåer och ändra deras struktur för att definiera hur det relaterade kontouppställningen ska visas i rapporter.
+> Kontokategorierna på den högsta nivån, till exempel noden **Skulder**, är fasta och du kan inte lägga till egna. Du kan emellertid ta bort och lägga till kontokategorier på lägre nivåer och definiera hur den relaterade ekonomiska rapporten ska visas i rapporter.
 >
-> Du bör skapa och strukturera egna redovisningskonto kategorier från grunden, i en hierarki vid behov, i stället för att försöka omarrangera de befintliga. Du kan t. ex. strukturera om **Skulder** så att de innehåller en nod **Eget kapital** följ **Kortfristiga skulder** och **Långfristiga skulder**.
+> Du bör skapa och strukturera egna redovisningskontokategorier från grunden, i en hierarki vid behov, i stället för att försöka omarrangera de befintliga. Du kan t. ex. strukturera om **Skulder** så att de innehåller en nod **Eget kapital** följ **Kortfristiga skulder** och **Långfristiga skulder**.
 
-## <a name="to-create-a-new-account-schedule"></a>Så här skapar du nya kontouppställningar:
+## <a name="create-a-new-financial-report"></a>Skapa en ny ekonomisk rapport
 
-Du använder kontouppställningar för att analysera siffror för redovisningskonton eller jämföra redovisningstransaktioner med redovisningsbudgettransaktioner. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.
+Du använder ekonomiska rapporter för att analysera siffror för redovisningskonton eller för att jämföra redovisningstransaktioner med budgettransaktioner. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.
 
-Kontouppställningar i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] utgör grunden för de ekonomiska standardrapporter, som kanske inte passar ditt företag. Du kan snabbt skapa dina egna finansiella rapporter, du kan starta genom att kopiera en befintlig kontouppställning som beskrivs i steg 3.
+De ekonomiska rapporterna i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] kanske inte passar ditt företags behov. Du kan snabbt skapa dina egna finansiella rapporter, starta genom att kopiera en befintlig, som beskrivs i steg tre nedan.
 
 > [!TIP]
-> När du har skapat en konto uppställning kan du använda sidan **Kontouppställning översikt** för att förhandsgranska och validera den finansiella rapport som definieras av kontouppställningen. För att öppna sidan, välj åtgärden **Översikt**.  
+> När du har skapat en ekonomisk rapport kan du använda sidan **Ekonomisk rapport** för att förhandsgranska och validera en nyligen definierad ekonomisk rapport. För att öppna sidan väljer du åtgärden **Redigera ekonomisk rapport**.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.  
-2. På sidan **Kontouppställningar** väljer du åtgärden **Ny** för att skapa ett nytt kontouppställningsnamn.
-3. Om du vill återanvända inställningar från en befintlig kontouppställning väljer du åtgärden **Kopiera kontouppställning**.
-4. Fyll i fälten om det behövs. I fältet **Standardkolumnlayout** väljer du en befintlig layout. Du kan redigera den senare om du vill.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.  
+2. På sidan **Ekonomiska rapporter** väljer du åtgärden **Nytt** för att skapa ett nytt namn på ekonomisk rapport.
+3. Om du vill återanvända inställningar från en befintlig ekonomisk rapport väljer du åtgärden **Kopiera ekonomisk rapport**.
+4. Fyll i fälten om det behövs. I fältet **kolumndefinition** väljer du en befintlig definition, som du senare kan redigera om du vill.
 
-    Kolumnlayouter för att definiera kolumner för parametrar som ekonomiska data på raderna visas. Till exempel kan en kolumnlayout innehålla fyra kolumner som låter dig jämföra nettoförändringen för samma period innevarande och föregående år. Mer information finns i avsnittet [Att redigera en kolumnlayout](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Kolumndefinitioner anger parametrar som ekonomiska data på raderna visas enligt. Till exempel kan en kolumndefinition innehålla fyra kolumner som du kan använda för att jämföra nettoförändringen för samma period innevarande och föregående år. Mer information finns i avsnittet [Redigera en kolumndefinition](bi-how-work-account-schedule.md#edit-a-column-definition).
 
-5. Välj åtgärden **Redigera kontouppställning**.
-6. Beroende på vad du vill analysera, välj åtgärder **Infoga redovisningskonton**, **Infoga kassaflödeskonton** och **Infoga kostnadstyper** för att skapa en rad för varje ekonomiskt element. Du kan till exempel ha en rad för omsättningstillgångar och en annan rad för anläggningstillgångar. För inspiration, se kontouppställningar i demonstrationsföretaget CRONUS.
+5. Välj åtgärden **Redigera raddefinition**.
+6. Välj åtgärderna **Infoga redovisningskonton**, **Infoga kassaflödeskonton** och **Infoga kostnadstyper** för att skapa en rad för varje ekonomiskt element som du vill analysera. Du kan till exempel ha en rad för omsättningstillgångar och en annan rad för anläggningstillgångar. För inspiration, se ekonomiska rapporter i demonstrationsföretaget CRONUS.
 
     > [!NOTE]
-    > **Radnr.** fältet visas de första 10 tecknen i en identifierare, t. ex. ett kontonummer. Om du lägger till element med identifierare som börjar med samma tio tecken kommer du att ha dubbletter i fältet **Radnr.** . Om det behövs kan du redigera identfiers manuellt när du har infogat elementen. Alla identifierare visas i fältet **Summeringsintervall** .
+    > **Radnr.** fältet visar de första 10 tecknen i en identifierare, t.ex. ett kontonummer. Om du lägger till element med identifierare som börjar med samma tio tecken kommer du att ha dubbletter i fältet **Radnr.** . Om det behövs kan du redigera identifierare manuellt när du har infogat elementen. Alla identifierare visas i fältet **Summeringsintervall** .
 
-7. Välj åtgärden **översikt** för att se den resulterande finansiella rapporten.
-8. På sidan **Kontouppställning översikt** i fältet **Kolumnlayoutnamn** väljer du en annan kolumnlayout för att visa ekonomiska data med andra parametrar.
+7. På sidan **Ekonomiska rapporter** väljer du åtgärden **Redigera ekonomisk rapport** för att se den slutliga ekonomiska rapporten.
+8. På sidan **Ekonomisk rapport** i fältet **Kolumndefinition** väljer du en annan kolumndefinition för att utforska ekonomiska data med andra parametrar.
 9. Välj **OK**.
 
-Du har nu definierat basen för kontouppställningen, raderna för ekonomiska data som ska visas och en befintlig layout för kolumner för att visa data på rader per olika parametrar. Om standardkolumnlayouten som du valde i steg 4 inte passar dina önskemål, följ proceduren nedan.
+Du har nu definierat basen för den ekonomiska rapporten, raderna för ekonomiska data som ska visas och en befintlig layout för kolumner för att visa data på rader med anpassade parametrar. Om standardkolumndefinitionen som du valde i steg 4 inte passar dina önskemål, följ proceduren nedan.
 
-### <a name="to-edit-a-column-layout"></a>Så här redigerar du en kolumnlayout
+### <a name="edit-a-column-definition"></a>Redigera en kolumndefinition
 
-För att ange vilka kolumner som ska tas med i den resulterande rapporten använder du kolumnlayouter. Du kan t.ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år. Du kan ha upp till 15 kolumner, vilket kan vara praktiskt om du t. ex. visar budgetar i tolv månader med en kolumn som visar summan.
-
-> [!NOTE]
-> En utskriven/granskad/sparad version av en kontouppställning kan visa maximalt fem kolumner. Om kontouppställningen endast är avsedd för analys på sidan **Kontouppställning översikt** kan du skapa så många kolumner du vill.
-
-1. På sidan **kontouppställningar**, välj relevant kontouppställning och välj sedan åtgärden **Redigera inställning av kolumnlayout**.
-2. På sidan **kolumnlayouter** skapar du en rad för varje kolumn av ekonomiska data som visas i den finansiella rapporten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Välj knappen **OK**.
-4. Öppna sidan **Kontouppställning översikt** med jämna mellanrum för att kontrollera att den nya kolumnlayouten fungerar korrekt.
+Du använder kolumndefinitioner för att ange vilka kolumner som ska tas med i den resulterande rapporten. Du kan t.ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år. Du kan ha upp till 15 kolumner, vilket kan vara praktiskt om du t.ex. visar budgetar i tolv månader med en kolumn som visar summan.
 
 > [!NOTE]
-> Kolumnerna som du anger på varje rad representerar kolumnerna 3 och uppåt på sidan **Kontouppställning översikt**. De två första kolumnerna **Radnr** och **beskrivning** korrigeras.  
+> En utskriven/granskad/sparad version av en ekonomisk rapport visar maximalt fem kolumner. Om en ekonomisk rapport däremot endast är avsedd för analys på sidan **Ekonomisk rapport** kan du skapa så många kolumner du vill.
 
-### <a name="to-create-a-column-that-calculates-percentages"></a>Så här skapar du en kolumn för att beräkna procentsatser
+1. På sidan **Ekonomiska rapporter** väljer du den relevanta ekonomiska rapporten och väljer sedan åtgärden **Redigera kolumndefinition**.
+2. På sidan **Kolumndefinition** skapar du en rad för varje kolumn av ekonomiska data som visas i den finansiella rapporten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Välj **OK**.
+4. Öppna sidan **Ekonomisk rapport** med jämna mellanrum för att kontrollera att den nya kolumndefinitionen fungerar korrekt.
 
-Du kan lägga till en kolumn i en kontouppställning för att beräkna procentsatser för en summa. Om du t. ex. har rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning i varje rad.
+> [!NOTE]
+> Kolumnerna som du anger på varje rad representerar kolumnerna tre och uppåt på sidan **Ekonomisk rapport**. De två första kolumnerna **Radnr** och **beskrivning** korrigeras.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.
-2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
-3. Välj åtgärden **Redigera kontouppställning** för att skapa en kontouppställningsrad för att beräkna den summa som procentsatserna ska baseras på .  
+### <a name="create-a-column-that-calculates-percentages"></a>Skapa en kolumn för att beräkna procentsatser
+
+Du kan lägga till en kolumn i en ekonomisk rapport för att beräkna procentsatser för en summa. Om du t. ex. har rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning i varje rad.
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
+2. På sidan **Ekonomiska rapporter** väljer du en ekonomisk rapport.  
+3. Välj åtgärden **Redigera ekonomisk rapport** för att skapa en ekonomisk rapportrad för att beräkna den summa som procentsatserna ska baseras på.  
 4. Infoga en rad direkt ovanför den första raden för vilken du vill visa en procentsats.  
 5. Fyll i fälten på raden på följande sätt: I fältet **summeringstyp** anger du **inställningsbas för procent**. I fältet **Summeringsintervall** anger du en formel för den summa som procentsatsen kommer att baseras på. Ange till exempel **11** om rad 11 innehåller den totala försäljningen.  
-6. Välj åtgärden **Redigera inställning av kolumnlayout** för att ange en kolumn.  
-7. Fyll i fälten på raden på följande sätt: I fältet **kolumntyp** väljer **formeln**. I fältet **Formel** anger du en formel för det belopp som du vill beräkna en procentsats för, följt av %. Om till exempel kolumn N innehåller nettoförändringen anger du **N%**.  
-8. Upprepa steg 4-7 för varje grupp av kolumner som du vill dela upp per procentsats.
+6. Välj åtgärden **Redigera kolumndefinition** för att ange en kolumn.  
+7. Fyll i fälten på raden på följande sätt: I fältet **kolumntyp** väljer **formeln**. I fältet **Formel** anger du en formel för det belopp som du vill beräkna en procentsats för, följt av procentsymbolen (%). Om kolumn N innehåller nettoförändringen anger du **N%**.  
+8. Upprepa steg 4–7 för varje grupp av rader som du vill dela upp per procentsats.
 
-## <a name="to-set-up-account-schedules-with-overviews"></a>Så här skapar du kontouppställningar med översikter
+## <a name="set-up-financial-reports-with-overviews"></a>Ställa in ekonomiska rapporter med översikter
 
-Du kan använda en kontouppställning för att skapa en rapport där redovisningssiffror jämförs med redovisningsbudgetsiffror.
+Du kan använda en ekonomisk rapport för att skapa en rapport där redovisningssiffror jämförs med budgetsiffror.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.
-2. På sidan **Kontouppställningsnamn** väljer du kontouppställning.  
-3. Välj åtgärden **Redigera kontouppställning**.  
-4. På sidan **Kontouppställning** väljer du önskat kontouppställningsnamn i fältet **Namn**.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
+2. På sidan **Ekonomiska rapporter** väljer du en ekonomisk rapport.  
+3. Välj åtgärden **Redigera raddefinition**  
+4. På sidan **Raddefinition** väljer du önskat namn på ekonomisk rapport i fältet **Namn**.
 5. Välj åtgärden **Infoga redovisningskonton**.  
 6. Markera de konton som du vill inkludera i utdraget och välj sedan **OK**.
 
-    Kontona infogas i kontouppställningen. Om du vill kan du ändra kolumnens layout.  
-7. Välj åtgärden **Översikt**.  
-8. På sidan **Kontouppställning översikt**, på snabbfliken **Dimensionsfilter** ställ in budgetfiltret på önskat filternamn.  
+    Kontona infogas i den ekonomiska rapporten. Om du vill kan du ändra kolumndefinitionen.  
+7. Välj åtgärden **Redigera ekonomisk rapport**.  
+8. På sidan **Ekonomisk rapport**, på snabbfliken **Dimensioner** ställ in budgetfiltret på önskat filternamn.  
 9. Välj **OK**.  
 
 Nu kan du kopiera och klistra in budgetutdraget i ett kalkylblad.  
 
 ## <a name="comparing-accounting-periods-using-period-formulas"></a>Jämföra bokföringsperioder med hjälp av periodformler
 
-Din kontouppställning kan jämföra resultaten av olika bokföringsperioder, till exempel den här månaden eller samma månad förra året. Det gör du genom att öppna sidan **Kolumnlayout** och anpassa den genom att lägga till fältet **Formel jämförelseperiod** som en kolumn. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md). Du kan sedan ange att fältet ska vara en periodformel.  
+Din ekonomiska rapport kan jämföra resultaten av olika bokföringsperioder, till exempel den senaste månaden eller samma månad förra året. Det gör du genom att öppna sidan **Kolumndefinition** och anpassa den genom att lägga till fältet **Formeljämförelseperiod** som en kolumn. Lär dig hur du [anpassar arbetsytan](ui-personalization-user.md). Du kan sedan ange att fältet ska vara en periodformel.  
 
 En bokföringsperiod måste inte stämma överens med kalendern. Men varje räkenskapsår måste ha lika många bokföringsperioder, även om perioderna kan vara olika långa.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] använder periodformeln för att beräkna beloppet från jämförelseperioden i förhållande till perioden som representeras av datumfiltret i en rapport. Jämförelseperioden baseras på perioden för startdatumet i datumfiltret. Följande förkortningar för perioder används:
+[!INCLUDE[prod_short](includes/prod_short.md)] använder periodformeln för att beräkna varaktigheten för jämförelseperioden i förhållande till perioden som representeras av datumfiltret i en rapport. Jämförelseperioden baseras på perioden för startdatumet i datumfiltret. Följande förkortningar för perioder används:
 
-| Förkortning | Beskrivning                                                                           |
+| Förkortning | Description                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
-| P            | Period                                                                                |
+| P            | Period.                                                                                |
 | SP           | Sista perioden i ett räkenskapsår, halvår eller kvartal.                                   |
 | CP           | Aktuell period under räkenskapsåret, halvåret eller kvartalet. Använd CP i formler för att ange den period som formeln ska börja eller sluta med. Till exempel anger RÅ\[1..cp\] tiden från början av det aktuella räkenskapsåret till den aktuella perioden.|
 | RÅ           | Räkenskapsåret. Till exempel anger RÅ\[1..3\] det första kvartalet av det aktuella räkenskapsåret. |
 
 Exempel på formler:
 
-| Formel         | Beskrivning                                                                                     |
+| Formel         | Description                                                                                     |
 | --------------- | ----------------------------------------------------------------------------------------------- |
-| \<Blank\>       | Aktuell period                                                                                  |
-| \-1P            | Föregående period                                                                                 |
-| \-1RÅ\[1..LP\]  | Hela föregående räkenskapsåret                                                                     |
-| \-1RÅ           | Aktuell period i föregående räkenskapsår                                                          |
-| \-1RÅ\[1..3\]   | Första kvartalet i föregående räkenskapsår                                                           |
-| \-1RÅ\[1..cp\]  | Från början av föregående räkenskapsår till och med aktuell period i föregående räkenskapsår, inklusive båda perioderna |
-| \-1RÅ\[CP..LP\] | Från aktuell period i föregående räkenskapsår till och med sista perioden i föregående räkenskapsår, inklusive båda perioderna   |
+| \<Blank\>       | Aktuell period.                                                                                  |
+| \-1P            | Föregående period.                                                                                 |
+| \-1RÅ\[1..LP\]  | Hela föregående räkenskapsåret.                                                                     |
+| \-1RÅ           | Aktuell period i föregående räkenskapsår.                                                          |
+| \-1RÅ\[1..3\]   | Första kvartalet i föregående räkenskapsår.                                                           |
+| \-1RÅ\[1..cp\]  | Från början av föregående räkenskapsår till och med aktuell period i föregående räkenskapsår, inklusive båda perioderna. |
+| \-1RÅ\[CP..LP\] | Från aktuell period i föregående räkenskapsår till och med sista perioden i föregående räkenskapsår, inklusive båda perioderna.   |
 
-Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel i fältet **Jämförelse datumformel**. Om fältet till exempel har värdet -1å, jämförs [!INCLUDE [prod_short](includes/prod_short.md)] med samma period 1 år tidigare.
-
-> [!NOTE]
-> Det är inte alltid transparent som perioder som du jämför eftersom du kan ange ett filter för en rapport som omfattar andra datum än de bokföringsperioder som återspeglas i data i kontoplanen. Exempelvis kan du skapa kontouppställningar som du vill jämföra denna period med samma period föregående år, så att du kan ange **Formel jämförelseperiod** till *-1RÅ*. Sedan kan du köra rapporten 28 februari och ange datumfilter till januari och februari. Som ett resultat jämför kontouppställningen januari och februari i år med januari föregående år, vilket är den enda avslutade bokföringsperioden av de två för föregående år.  
-
-Mer information om datumformler finns i [arbeta med datum och tider för kalender](ui-enter-date-ranges.md).  
-
-## <a name="import-or-export-account-schedules"></a>Importera eller exportera kontouppställningar
-Du kan importera och exportera kontouppställningar som RapidStart-konfigurationspaket. Till exempel är konfigurationspaket användbara för att dela dem med andra företag. Paketet skapas i en .rapidstart-fil, vilket levererar paketinnehållen i ett komprimerat format.
-
-### <a name="to-import-and-export-account-schedules"></a>Så här importerar och exporterar du kontouppställningar
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontouppställningar** och väljer sedan relaterad länk.
-2. Välj kontouppställningen och sedan åtgärden **Importera kontoschema** eller **Exportera kontouppställning** beroende på vad du vill göra. 
+Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel i fältet **Jämförelse datumformel**. Om fältet till exempel har värdet -1å, jämför [!INCLUDE [prod_short](includes/prod_short.md)] med samma period 1 år tidigare.
 
 > [!NOTE]
-> När du importerar kontouppställningar kommer befintliga poster som har samma namn som de som importeras att tas bort.
+> Det är inte alltid transparent vilka perioder som du jämför eftersom du kan ange ett datumfilter för en rapport som omfattar andra datum än de bokföringsperioder som återspeglas i kontoplanen. Så om du skapar en ekonomisk rapport där du vill jämföra denna period med samma period föregående år, så att du kan ställa in fältet **Formeljämförelseperiod** till *-1RÅ*. Sedan kan du köra rapporten 28 februari och ange datumfilter till januari och februari. Som ett resultat jämför den ekonomiska rapporten januari och februari i år med januari föregående år, vilket är den enda avslutade bokföringsperioden av de två för föregående år.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/configure-financial-reports-dynamics-365-business-central/index)
+Läs mer i [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
+
+## <a name="print-and-save-financial-reports"></a>Skriva ut och spara ekonomiska rapporter
+
+Du kan skriva ut ekonomiska rapporter med hjälp av enhetens utskriftstjänster. [!INCLUDE[prod_short](includes/prod_short.md)] ger dig även möjlighet att spara rapporter som Microsoft Excel-arbetsböcker, Microsoft Word-dokument, PDF-filer och XML-filer.
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
+2. På sidan **Ekonomiska rapporter** väljer du rapporten som ska skrivas ut och väljer sedan åtgärden **Skriv ut**.
+3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. I fältet **Skrivare** väljer du den enhet som rapporten ska skickas till.
+    1. Alternativet **(Hanteras av webbläsaren)** anger att rapporten inte har tilldelats någon skrivare. I så fall hanterar webbläsaren utskriften och visar en standardupplevelse där du kan välja en lokal skrivare som är ansluten till enheten. **(Hanteras av webbläsaren)** är inte tillgängligt i [!INCLUDE[prod_short](includes/prod_short.md)] mobilappen eller appen för Microsoft Teams.
+5. Välj åtgärden **Skriv ut**.
+
+### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Schemalägga en ekonomisk rapport eller spara som ett PDF-, Word- eller Excel-dokument
+
+En ekonomisk rapport kan sparas som en fil i olika format, till exempel PDF, XML, Word eller Excel. Alternativt kan [!INCLUDE[prod_short](includes/prod_short.md)] ställas in på att generera återkommande ekonomiska rapporter:
+
+1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
+2. På sidan **Ekonomiska rapporter** väljer du åtgärden **Skriv ut**.
+3. Ange rapporten i enlighet därmed och välj åtgärden **Skicka till**.
+4. Välj filformat eller åtgärden **Schemalägg** och välj **OK**.
+5. Fyll i fälten om du vill skapa en schemalagd eller återkommande ekonomisk rapport. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+   * För återkommande ekonomiska rapporter ställer du in fälten **Tidigast startdatum/-tid** och **Förfallodatum/-tid** på det första respektive sista datumet för att generera den ekonomiska rapporten. Välj också vilka dagar rapporten ska skapas genom att ställa in fältet **Datumformel för nästa körning** genom att följa formatet som förklaras i avsnittet [Använd datumformler](ui-enter-date-ranges.md#use-date-formulas).
+
+## <a name="importing-or-exporting-financial-reports"></a>Importera eller exportera ekonomiska rapporter
+
+Du kan importera och exportera ekonomiska rapporter som RapidStart-konfigurationspaket, som är användbara när du vill dela informationen med andra företag, t.ex. Paketet skapas i en .rapidstart-fil, vilket komprimerar innehållet.
+
+### <a name="import-and-export-financial-reports"></a>Importera och exportera ekonomiska rapporter
+
+1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
+2. Välj den ekonomiska rapporten och välj sedan åtgärden **Importera ekonomisk rapport** eller **Exportera ekonomisk rapport**, beroende på vad du vill göra.
+
+> [!NOTE]
+> När du importerar ekonomiska rapporter kommer befintliga poster som har samma namn som de som importeras att tas bort.
+
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft-utbildning](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also"></a>Se även
 
-[Affärsstöd](bi.md)  
+[Köra och skriva ut rapporter](ui-work-report.md)  
+[Financial Business Intelligence](bi.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Huvudbok och kontolista](finance-general-ledger.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

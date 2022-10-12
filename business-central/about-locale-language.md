@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655520"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606836"
 ---
 # <a name="changing-language-and-region"></a>Byta språk och region
 
@@ -58,14 +58,14 @@ På sidan **Hjälp och support** kan du se den version av [!INCLUDE[prod_short](
 
 ## <a name="languages-of-the-prod_short-help"></a>Språk för [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen
 
-Hjälpinnehållet i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] publiceras till Microsoft Docs-webbplatsen. Innehållet är tillgängligt på olika språk. Om du har tillgång till dokument inifrån [!INCLUDE[prod_short](includes/prod_short.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska som standard.
+Hjälpinnehållet i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] publiceras till Microsoft Learn. Innehållet är tillgängligt på olika språk. Om du har tillgång till dokumentation inifrån [!INCLUDE[prod_short](includes/prod_short.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska som standard.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hur ändrar jag språk på webbplatsen Microsoft-dokument?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Hur ändrar jag språk på Microsoft Learn-webbplatsen?
 
 Det är enkelt – bläddra längst ned på sidan och välj symbolen med en jordglob längst ned till vänster.
 
 > [!NOTE]  
-> Listan visar alla språk som stöds av webbplatsen Microsoft Docs. [!INCLUDE[prod_short](includes/prod_short.md)] är tillgängligt i ett begränsat antal länder/regioner och [!INCLUDE [prod_short](includes/prod_short.md)] Hjälp-innehållet är inte tillgängligt på alla språk som Microsoft-dokumenten stöder.
+> Listan visar alla språk som stöds av Microsoft Learn-webbplatsen. [!INCLUDE[prod_short](includes/prod_short.md)] är tillgängligt i ett begränsat antal länder/regioner och [!INCLUDE [prod_short](includes/prod_short.md)] Hjälp-innehållet är inte tillgängligt på alla språk som Microsoft Learn-webbplatsen stöder.
 
 ## <a name="see-also"></a>Se även
 

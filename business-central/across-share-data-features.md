@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528511"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607479"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Dela affärsdata från Business Central
 
@@ -42,7 +42,7 @@ Mer information finns i [Sortera, söka och filtrera](ui-enter-criteria-filters.
 
 ![Stöds](media/check.png) Business Central Online ![Stöds inte](media/x-icon.png) Business Central lokalt
 
-Direkt från de flesta samlings- och informations sidor kan du skicka en länk till sidan till personer, grupper eller kanaler. Dela t.ex. en länk till en filtrerad vy över posterna. Mottagarna kan sedan markera länken så att sidan öppnas i Business Central.
+Direkt från de flesta samlings- och informations sidor kan du skicka en länk till sidan till personer, grupper eller kanaler. Dela t.ex. en länk till en filtrerad vy över posterna. Om du har installerat [!INCLUDE[prod_short](includes/prod_short.md)]-appen för Teams kommer länken automatiskt att expanderas till ett kompakt kort som du kan ta med i meddelandet. Mottagarna kan sedan markera länken eller kortet så att sidan öppnas i Business Central.
 
 Mer information finns i [Dela poster och sidlänkar i Teams](across-working-with-teams.md).
 

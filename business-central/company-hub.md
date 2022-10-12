@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132061"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606177"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Hantera arbete i flera företag med företagsnavet
 
-Vissa människor arbetar i flera företag i [!INCLUDE [prod_short](includes/prod_short.md)], medan andra också arbetar i mer än en organisation, till exempel externa revisorer, anställda och chefer hos företag med flera dotterbolag. För de här användarna, och många andra, fungerar företagsnavet som en landningssida för att hantera arbete i olika miljöer som de arbetar inom, mellan företag, miljöer och regioner.  
+Vissa människor arbetar i flera företag i [!INCLUDE [prod_short](includes/prod_short.md)], medan andra också arbetar i mer än en organisation, till exempel externa revisorer, anställda och chefer hos företag med flera dotterbolag. För dessa användare och många andra, fungerar företagsnavet som en landningssida som ger en ekonomisk översikt över företag och miljöer. Det förser användarna med ett verktyg för att hantera arbete i olika miljöer som de arbetar inom, mellan företag, miljöer och regioner.  
 
 Du kan komma åt företagsnavet genom att växla till rollen **Företagsnav** i Mina inställningar, eller genom att öppna sidan **Företagsnav** direkt. Du kan göra samma sak på båda ställena, men åtgärder placeras något annorlunda på menyerna.  
+
+[![Visar företagsnavsidan som innehåller en lista över alla företag.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Du kan ansluta företagets nav till så många företag som behövs. Du kan emellertid bara ansluta företagsnavet till företag som finns i [!INCLUDE [prod_short](includes/prod_short.md)] online.

@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532734"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617855"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportera moms till skattemyndigheterna
 
@@ -30,7 +30,7 @@ Du kan använda följande inbyggda rapporter:
 
     Rapporten Momsretur inkluderar moms för försäljning och inköp till kunder och från leverantörer i alla länder som använder moms.  
 
-I båda fallen beräknas moms utifrån tabellen Moms-bokföringsinställningar och de momsbokföringsmallar du har skapat.
+I båda fallen beräknas moms utifrån tabellen Moms-bokföringsinställningar och de momsbokföringsmallar du har skapat. [!INCLUDE[prod_short](includes/prod_short.md)] visar momstransaktioner baserat på deras **momsdatum**.
 
 Om du vill se en fullständig historik över momstransaktioner för alla bokföringar som avser moms skapas en transaktion på sidan **momstransaktioner**. Dessa transaktioner används för att beräkna momsavräkningsbeloppet (betalningen eller återbetalningen) för en bestämd period. För att se momstransaktioner, välj ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **momstransaktioner** och väljer sedan relaterad länk.
 

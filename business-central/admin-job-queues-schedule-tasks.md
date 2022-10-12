@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317441"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607106"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
 
-Med jobbköer kan användarna schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Exempelvis vill du kanske köra rapporten **Säljare – försäljningsstatistik** veckovis i syfte att spåra en säljares säljaktivitet varje vecka, eller också kanske du vill köra codeunit **Delegera godkännandebegäranden** dagligen i syfte att förhindra att dokument ansamlas.
+Med sidan Jobbkötransaktioner kan användarna schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Exempelvis vill du kanske köra rapporten **Salesperson * Sales Statistics** veckovis i syfte att spåra en säljares säljaktivitet varje vecka, eller också kanske du vill köra codeunit **Delegate Approval Requests** dagligen i syfte att förhindra att dokument ansamlas.
 
 Sidan **Projektkötransaktioner** fönstret visas alla aktuella jobb. Om du lägger till en ny jobbkötransaktion som du vill tidsplanera måste du ange en del information. Till exempel:
+
 * Den objekttyp som du vill köra, t. ex. en rapport eller codeunit. Du måste ha behörighet att köra den aktuella rapporten eller codeunit.
 * Objektets namn och objekt-ID. 
 * Parametrar för att ange beteendet för jobbkötransaktionen. Du kan t.ex lägga till en planeringsparameter om att endast skicka bokförda försäljningsorder. 
 * När och hur ofta jobbkötransaktionen ska köras.
 
 > [!IMPORTANT]  
-> Om du använder behörighetsuppsättningen SUPER som följer med demolicensen för [!INCLUDE[prod_short](includes/prod_short.md)] har du och dina användare behörigheter att köra alla artiklar som licensen medger. Detta räcker fortfarande inte för delegerad administratör eller användare med enhetslicens, som inte kan skapa hela jobbköer.
+> Om du tilldelas behörighetsuppsättningen SUPER som följer med [!INCLUDE[prod_short](includes/prod_short.md)] har du behörighet att köra alla artiklar som licensen medger. Om du har rollen Delegerad admin kan du skapa och schemalägga jobbkötransaktioner, men endast administratörer och licensierade användare kan köra dem. Användare med enhetslicensen kan inte skapa eller köra jobbköer.
 
 När jobbköer är inställda och körs kan status ändras enligt följande inom varje återkommande period:
 
@@ -73,7 +74,7 @@ På sidan **schemalagda uppgifter** i [!INCLUDE [prod_short](includes/prod_short
 Om det aktuella företaget exempelvis finns i en miljö som är en kopia av en annan miljö stoppas alla schemalagda aktiviteter. Använd sidan **Schemalagda uppgifter** för att visa vilka uppgifter som är klara att köras i jobbkön.  
 
 > [!NOTE]
-> Interna administratörer och användare kan schemalägga aktiviteter så att de körs. Delegerade administratörer kan inte.
+> Interna administratörer och licensierade användare kan schemalägga aktiviteter så att de körs. Delegerade administratörer kan konfigurera och schemalägga aktiviteter så att de körs, men endast licensierade användare kan köra dem.
 
 ## <a name="the-my-job-queue-part"></a>Min jobbködel
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 85c83a08907f9f5b441b3f09c1a09131684707a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517180"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606501"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektera sidor i Business Central
 
@@ -26,11 +26,7 @@ Funktionen för sidinspektion låter dig hämta information om en sida, ge insik
 
 Du startar sidgranskning från sidan **hjälp och support**. Välj frågetecknet i övre högra hörnet, välj **hjälp och support** och välj **Kontrollera sidor och data**. Du kan bara använda kortkommandot **Ctrl + Alt + F1**.
 
-Rutan **sidinspektion** visas på sidan. I följande figur visas rutan **Sidinspektion** på sidan **försäljningsorder**.
-
-![Sidinspektion.](media/page-inspection-example.png)
-
-När rutan **Sidinspektion** först öppnats, visas information som tillhör objektet på huvudsidan.
+Rutan **sidinspektion** visas på sidan. När rutan först öppnas visas information som tillhör objektet på huvudsidan.
 
 Använd tangentbord eller pekdon för att flytta markeringen till olika element på sidan. När du väljer en faktabox eller en del av huvudsidan markeras markeringsområdet med en ram och rutan **Sidinspektion** visar information om det valda elementet. Till exempel föregående bild visar information om listan som en del på sidan **försäljningsorder**. När du navigerar mellan sidorna i programmet kommer rutan **Sidinspektion** att uppdateras automatiskt med sidinformation allt eftersom.
 
@@ -47,6 +43,5 @@ Användare som inte har beviljats behörighet för **systemobjekt 5330** kan for
 ## <a name="see-also"></a>Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,20 +7,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 06adf2a30a7487fa3bc66e1aebec42e6c55184e2
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 5968cd8d2348b0fac7c81c4b588dfd89388a27f5
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227425"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606474"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Business Central och OneDrive för företag-integration
 
 OneDrive för företag är en molnlagringstjänst som ingår i Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] med är det enkelt att lagra, hantera och dela filer med andra människor via OneDrive. När en fil finns i din OneDrive kan du använda de omfattande samarbetsfunktionerna från online-versioner av Microsoft-produkter, till exempel Word, Excel och PowerPoint. Du kan t.ex. dela ett Word-dokument och sedan och dina kollegor kan redigera det tillsammans i realtid. OneDrive kan du också öppna andra typer av filer, till exempel PDF-filer. 
 
-## <a name="get-started"></a>Kom i gång
+## <a name="get-started-with-onedrive-features"></a>Kom igång med OneDrive-funktioner
 
-Vi har skapat anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] online och OneDrive så är det lätt att komma igång. Det enda kravet är att användare har öppnat OneDrive minst en gång. 
+Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] online har vi redan skapat anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] online och OneDrive, så det är lätt att komma igång. Det enda kravet är att användare har öppnat OneDrive minst en gång. Med [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste en administratör konfigurera anslutningen innan du kan komma igång. Läs mer i [Hantera OneDrive-integrering med Business Central](admin-onedrive-integration.md).
+
+<!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
+
+### <a name="open-and-share-in-onedrive"></a>Öppna och dela i OneDrive
 
 På de flesta sidor där det finns filer, t.ex. Rapportinkorgen eller filer som är bifogade till poster, finns åtgärderna **Öppna i OneDrive** och **Dela**.
 
@@ -34,6 +38,15 @@ På de flesta sidor där det finns filer, t.ex. Rapportinkorgen eller filer som 
 |Öppna i OneDrive|Kopiera filen till Business Central-mapp i din OneDrive och öppna filen.|[Öppna i OneDrive](across-share-onedrive.md#open-in-onedrive) |
 |Andel|Kopiera filen till din OneDrive och dela den med andra användare.|[Dela i OneDrive](across-share-onedrive.md#share) |
 
+### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Spara Excel-arbetsböcker och rapportera filer i OneDrive
+
+Med OneDrive-integrering konfigurerad använder ett par andra välbekanta funktioner automatiskt OneDrive för att spara filer istället för att spara filer på enheten:
+
+- Åtgärderna **Öppna i Excel** och **Redigera i Excel** på listsidor kopierar automatiskt Excel-filen till OneDrive och öppnar den sedan i Excel Online. Mer information finns i [Visa och redigera i Excel](across-work-with-excel.md).
+- När du skickar en rapport till en Excel- eller Word-fil kopieras filen automatiskt till OneDrive och öppnas sedan i Excel eller Word online. Mer information finns i [Spara en rapport till en fil](ui-work-report.md#saving-a-report-to-a-file).
+
+Dessa funktioner är inte aktiverade som standard. Men som administratör kan du enkelt aktivera dem med hjälp av guiden för assisterad konfiguration **OneDrive-konfiguration**.
+
 <!--
 When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
 
@@ -45,10 +58,10 @@ The folder and its content are private until you decide to share them with other
 -->
 
 > [!NOTE]
-> Du kan också ansluta lokala [!INCLUDE[prod_short](includes/prod_short.md)] platser till OneDrive. Det finns dock några saker du bör göra för att det ska fungera. Mer information finns i [Konfigurera Business Central lokalt](admin-onedrive-integration.md#configuring-business-central-on-premises).
+> Du kan också ansluta lokala [!INCLUDE[prod_short](includes/prod_short.md)] platser till OneDrive. Det finns dock några saker du bör göra för att det ska fungera. Mer information finns i [Konfigurera Business Central lokalt](admin-onedrive-integration-onpremises.md).
 
 ## <a name="see-also"></a>Se även
 
 [Hantera OneDrive integrering med Business Central](admin-onedrive-integration.md)  
 [Öppna Business Central-filer i OneDrive](across-share-onedrive.md)  
-[OneDrive Vanliga frågor och svar](admin-onedrive-faq.md)
+[OneDrive Vanliga frågor och svar](admin-onedrive-faq.md)  

@@ -9,21 +9,72 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: cb9f91caa06ed1b5bf579bf4be477c906a588faf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524548"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606312"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Hantera OneDrive-integrering med Business Central
 
-Den här artikeln innehåller en översikt över vad en administratör kan göra som administratör för att styra OneDrive för företag-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online kunder online kan dra nytta av automatisk integration, med inga ytterligare inställningar som krävs för att använda dessa funktioner. 
+Den här artikeln innehåller en översikt över vad en administratör kan göra som administratör för att styra OneDrive för företag-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-kunder kan dra nytta av automatisk integration, utan ytterligare inställningar som krävs för att använda funktionerna för att öppna och dela i OneDrive. Med guiden för assisterad konfiguration **OneDrive-konfiguration** kan du ge användare åtkomst till ännu fler OneDrive-funktioner, som att öppna Excel-filer i OneDrive&mdash;eller till och med stänga av alla funktioner.  
 
-## <a name="minimum-requirements"></a>Minsta krav
+## <a name="configure-onedrive-for-integration-with-business-central"></a>Konfigurera OneDrive för integrering med Business Central
+
+I det här avsnittet beskrivs krav som måste uppfyllas i OneDrive för företag för att konfigurera integrationen med Business Central och den uppgift som du kan utföra för att hantera integrationen.
+
+### <a name="minimum-requirements"></a>Minsta krav
 
 * Varje användare måste ha en licens för [!INCLUDE[prod_short](includes/prod_short.md)] och OneDrive  som en del av en Microsoft 365-plan.
 * OneDrive måste ställas in för varje användare.
+
+### <a name="managing-privacy"></a>Hantera sekretess
+
+> [!IMPORTANT]
+> Om du har valt att distribuera Business Central och OneDrive till olika länder eller regioner kan det hända att de filer som skapas av Business Central och placeras i OneDrive kan korsa datahemvistgränser. Se till att bekräfta organisationens principer och myndighetsefterföljandekrav för datahemvist innan du aktiverar anslutningen till OneDrive.
+
+Administratörer och slutanvändare styr innehållet som lagras i OneDrive, och dessa data ägs uteslutande av din organisation. Mer information finns i [så här skyddar SharePoint och OneDrive data i molnet](/sharepoint/safeguarding-your-data). Du kan också besöka vår [Sekretesspolicy för Microsoft](https://privacy.microsoft.com/en-us/privacystatement), som förklarar vilka data Microsoft behandlar, hur Microsoft behandlar den och för vilka ändamål.
+
+Genom att aktivera den här tjänstanslutningen godkänner du:
+
+(a) dela data från Dynamics 365 Business Central med tjänstleverantören, som kommer att använda dem enligt dennes villkor och sekretesspolicy, (b) tjänstleverantörens efterlevnadskrav kan skilja sig från Dynamics 365 Business Central och (c) Microsoft kan dela din kontaktinformation med den här tjänstleverantören om det behövs för att leverantören ska kunna driva och felsöka tjänsten.
+
+## <a name="configure-business-central"></a>Konfigurera Business Central
+
+Med Business Central online konfigureras kopplingen mellan Business Central och OneDrive automatiskt, och OneDrive-funktionerna är tillgängliga för användarna som standard. Om du vill stänga av vissa eller samtliga av funktionerna kan du använda guiden för assisterad konfiguration **OneDrive-konfiguration** i Business Central-klienten.
+
+Att konfigurera Business Central lokalt är annorlunda eftersom anslutningen mellan Business Central och OneDrive inte har konfigurerats åt dig. Du måste du göra manuellt. Mer information finns i [Konfigurera OneDrive-integration med Business Central lokalt](admin-onedrive-integration-onpremises.md).
+
+### <a name="about-multiple-environments"></a>Om flera miljöer
+
+OneDrive-integrationen konfigureras per miljö, vilket innebär att dina inställningar gäller för alla företag i den miljön. Om organisationen har mer än en miljö måste du konfigurera OneDrive-integrationen för varje.
+
+### <a name="prerequisites"></a>Förutsättningar
+
+- Indirekt, ändra och ta bort (imd) behörighet i tabellen **Dokumentservicescenario** som minimum
+
+### <a name="configure-onedrive-using-onedrive-setup"></a>Konfigurera OneDrive med OneDrive-konfiguration
+
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger **OneDrive-konfiguration** och välj sedan relaterad länk. 
+2. Första gången du kör assisterad konfiguration kan du se **Din integritet**. Läs informationen på sidan och om du godkänner villkoren väljer du **Godkänn** för att fortsätta.
+3. På sidan **Konfigurera filhantering** har du följande alternativ att välja bland:
+
+   [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
+4. Välj **Nästa**>**Klart**.
+
+### <a name="switching-to-new-onedrive-integration-after-upgrade"></a>Växla till ny OneDrive-integration efter uppgradering
+
+Den assisterade konfigurationen **OneDrive-konfiguration** introducerades i utgivningscykel 2 år 2022, version 21.0. Tidigare använde OneDrive-integrationen **SharePoint-anslutningskonfigurationen**, som är inaktuell och kommer att tas bort i utgivningscykel 2 år 2023, version 23.0. När du har uppgraderat till version 21 fungerar OneDrive fortfarande som tidigare. Men vi rekommenderar att du växlar till den nya OneDrive-integrationen. Om du gör detta byte nu blir det enklare när **SharePoint-anslutningskonfigurationen** tas bort. Dessutom kan du använda guiden för assisterad konfiguration **OneDrive-konfiguration** för att hantera de OneDrive-funktioner som är tillgängliga för användarna. Den assisterade konfigurationen **OneDrive-konfiguration** gör övergången från den äldre SharePoint-konfigurationen enkel och smidig.
+
+Du byter genom att helt enkelt öppna och köra den assisterade konfigurationen **OneDrive-konfiguration** direkt eller genom att öppna sidan **SharePoint-anslutningskonfiguration** och välja **Gå till ny OneDrive-konfiguration** i meddelandet längst upp på sidan. Följ konfigurationsguiden på det sätt som beskrivs i föregående avsnitt.
+
+## <a name="restoring-onedrive-and-prod_short"></a>Återställa OneDrive och [!INCLUDE[prod_short](includes/prod_short.md)]
+
+Som en del av en katastrofåterställning kan administratörer behöva återställa en [!INCLUDE[prod_short](includes/prod_short.md)] online-miljö till en säkerhetskopia från en tidpunkt som redan har passerat och synkronisera OneDrive-lagringen till samma tidpunkt. OneDrive tillhandahåller olika återställningsverktyg, t.ex. att återställa en användares OneDrive till en tidigare tidpunkt, återställa en tidigare version av en enskild fil eller återställa borttagna filer. Mer information finns i följande artiklar:
+
+* För [!INCLUDE[prod_short](includes/prod_short.md)], se [återställa en miljö i administrationscentret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+* För OneDrive, se [återställa dina OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
 
 ## <a name="governance"></a>Styrelse
 
@@ -39,83 +90,6 @@ Administrationscentret för SharePoint ger omfattande kontroll över principer s
 
 > [!NOTE]
 > Vissa funktioner kan vara tillgängliga endast för vissa uppställningar.
-
-## <a name="managing-privacy"></a>Hantera sekretess
-
-Administratörer och slutanvändare styr innehållet som lagras i OneDrive, och dessa data ägs uteslutande av din organisation. Mer information finns i [så här skyddar SharePoint och OneDrive data i molnet](/sharepoint/safeguarding-your-data). Du kan också besöka vår [Sekretesspolicy för Microsoft](https://privacy.microsoft.com/en-us/privacystatement), som förklarar vilka data Microsoft behandlar, hur Microsoft behandlar den och för vilka ändamål.
-
-## <a name="restoring-onedrive-and-prod_short"></a>Återställa OneDrive och [!INCLUDE[prod_short](includes/prod_short.md)]
-
-Som en del av en katastrofåterställning kan administratörer behöva återställa en [!INCLUDE[prod_short](includes/prod_short.md)] miljö till en säkerhetskopia från en tidpunkt som redan har passerat och synkronisera OneDrive lagringen till samma tidpunkt. OneDrive tillhandahåller olika verktyg, t.ex. att återställa en användares OneDrive till en tidigare tidpunkt, återställa en tidigare version av en enskild fil eller återställa borttagna filer. Mer information finns i följande artiklar:
-
-* För [!INCLUDE[prod_short](includes/prod_short.md)], se [återställa en miljö i administrationscentret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
-* För OneDrive, se [återställa dina OneDrive](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
-
-## <a name="configuring-business-central-on-premises"></a>Konfigurera Business Central lokalt
-
-En administratör måste upprätta anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] lokalerna och OneDrive. Till skillnad från [!INCLUDE[prod_short](includes/prod_short.md)] online är anslutningen inte automatisk. Om anslutningen inte är konfigurerad kan användarna inte använda funktionerna OneDrive.
-
-[!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan endast kopplas till OneDrive som finns i Microsoft i molnet. Anslutning till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till lagringsplatsen mina webbplatser för SharePoint server stöds inte.
-
-> [!IMPORTANT]
-> Genom att konfigurera den här funktionen kan du också aktivera äldre funktioner som skickar filer till OneDrive.  
->
->* Excel-filen kopieras automatiskt till funktionen öppna i Excel till OneDrive och sedan öppnas den i Excel Online. 
->* När du exporterar en rapport till en fil kopieras filen automatiskt till OneDrive och sedan öppnas den i Excel Online, Word Online eller OneDrive. 
->* Andra funktioner kan också öppnas automatiskt i OneDrive.
-
-### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Förbered [!INCLUDE[prod_short](includes/prod_short.md)] lokal för anslutning till OneDrive
-
-<!-- 
-1. For the best experience Configure Azure Active Directory (AD) authentication.
-
-   For more information, see [Authenticating Business Central Users with Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory)-->
-
-Lägg till ett registrerat program för Business Central i din Azure AD-klientorganisation för ditt Microsoft 365-abonnemang. Precis som andra Azure-tjänster som arbetar med Business Central kräver OneDrive en appregistrering för Azure Active Directory i (Azure AD). Programregistreringen tillhandahåller autentisering och autentiseringstjänster mellan Business Central och SharePoint som används av OneDrive.
-
-Konfigurera det registrerade programmet med följande delegerade behörigheter till SharePoint API:
-
-- AllSites.FullControl
-- User.ReadWrite.All 
-
-För Business Central 2021utgivningscykel 2 (version 19) anger du dessa behörigheter istället:
-
-- AllSites.Write
-- MyFiles.Write
-- User.Read.All 
-
-Det här fungerar i Azure-portalen. Kontrollera att du kopierar det program-ID (klient) och den klienthemlighet som används av det registrerade programmet. Du behöver informationen i nästa uppgift.
-
-Mer information om kontots förutsättningar hur du registrerar ett program och konfigurerar behörigheter finns i [Registrera ett program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) i hjälpen för utvecklare och IT-proffs.
-
-> [!TIP]
-> Om du redan har registrerat ett program som en del av en integration med en annan Microsoft-produkt, till exempel Power BI, kan du återanvända programregistreringen. Om så är fallet behöver du bara ange SharePoint behörigheterna.
-
-### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Konfigurera anslutningen i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt
-
-<!--
-> [!NOTE]
-> This requires the following types of authentication credentials:
->
-> * Windows
-> * NavUserPassword
-> * Azure Active Directory
--->
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Microsoft SharePoint Konfiguration av inställningen** och väljer sedan relaterad länk.
-2. I fältet **Beskrivning** anger du en beskrivning för anslutningen som **OneDrive**.
-3. I fältet **Mapp** anger du **Business Central**.
-4. I fältet **Plats** anger du URL för din OneDrive.
-
-    URL:en för en OneDrive har vanligtvis följande format: `https://<tenant name>-my.sharepoint.com`. Mer information finns i [OneDrive URL:er för användare i organisationen ](/onedrive/list-onedrive-urls) i OneDrive dokumentationen.
-5. I fältet **klient-ID** anger du klient-ID:t från programregistreringen.
-6. I fältet **klienthemlighet** anger du hemligheten från programregistreringen. 
-   <!-- 
-   For information about how to find the URLs, see the following:
-   * [How to find your SharePoint server URL]
-   * [How to find your OneDrive URL]-->
-
-> [!IMPORTANT]
-> Sidan SharePoint anslutningsinställningar används för att konfigurera flera äldre funktioner. I avsnittet **Allmänt** konfigureras anslutningen till OneDrive och avsnittet **Delade dokument** dirigerar om filer till SharePoint i stället. Äldre SharePoint funktion kommer att vara inaktuell i en snar framtid. Vi rekommenderar att du inte konfigurerar avsnittet **delade dokument**.
 
 ## <a name="see-also"></a>Se även
 
