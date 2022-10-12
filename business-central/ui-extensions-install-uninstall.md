@@ -1,55 +1,55 @@
 ---
-title: Installera och avinstallera tillägg
-description: Läs mer om att installera och avinstallera tillägg i Business Central.
+title: Installera och avinstallera appar
+description: Läs mer om hur du kan installera och avinstallera appar och tillägg i Business Central.
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.search.form: 2500
-ms.date: 05/24/2022
+ms.search.form: 2500, 20350
+ms.date: 09/22/2022
 ms.author: solsen
-ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
-ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
+ms.openlocfilehash: db08c13d5e6a5dd29cf9a32b56ab3b5fa9ce77f9
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804662"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605988"
 ---
-# <a name="install-and-uninstall-extensions-in-business-central"></a>Installera och avinstallera tillägg i Business Central
+# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Installera och avinstallera tillägg (appar) i Business Central
 
-Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installera tillägg som exempelvis lägger till funktioner, ändrar beteenden eller ger dig tillgång till nya onlinetjänster. Mer information finns i [Anpassa Business Central med hjälp av tillägg](ui-extensions.md).
+Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installera appar som exempelvis lägger till funktioner, ändrar beteenden eller ger dig tillgång till nya onlinetjänster. Mer information finns i [Anpassa Business Central med hjälp av tillägg](ui-extensions.md).
 
 > [!NOTE]
-> Om du vill installera eller avinstallera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i EXTEND. MGT. - ADMIN-användargruppen, eller så måste du ha EXTEND. MGT. - ADMIN-behörighetsuppsättningen. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.
+> Om du vill installera eller avinstallera appar från AppSource eller lägga till appar per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i EXTEND. MGT. - ADMIN-användargruppen, eller så måste du ha EXTEND. MGT. - ADMIN-behörighetsuppsättningen. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget.
 >
 > Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
 
-> [!NOTE]  
-> Behörighetsuppsättningen **EXTEND. MGT. – ADMIN** infördes i Business Central 2021 utgivningscykel 1 som ersättning av behörighetsuppsättningen **D365 EXTENSION MGT** i tidigare versioner.
+Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
 
 ## <a name="install-an-extension"></a><a name="install"></a>Installera ett tillägg
 
-Du hanterar tillägg på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Välj ikonen **Sök efter sida eller rapport** ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") i det övre högra hörnet ange **Tillägget** och välj sedan relaterad länk.  
+Du hanterar appar och tillägg på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Välj ikonen **Sök efter sida eller rapport** ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") i det övre högra hörnet ange **Tillägget** och välj sedan relaterad länk.  
 
-Du kan skapa nya tillägg från marknadsplatsen på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Här kan du se alla tillgängliga tillägg för [!INCLUDE[prod_short](includes/prod_short.md)], och du kan få program, tillägg och innehållspaket för andra Microsoft-produkter. Ange relevanta filter, ta en titt på varje tilläggs uppgifter och få tillägg för ditt [!INCLUDE[prod_short](includes/prod_short.md)].  
+Du kan hämta nya appar från marknadsplatsen på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Marknadsplatsen innehåller alla tillgängliga appar för [!INCLUDE[prod_short](includes/prod_short.md)], plus appar och innehållspaket för andra Microsoft-produkter. Ange relevanta filter, ta en titt på varje tilläggs uppgifter och få tillägg för ditt [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
 > Logga in på [AppSource.microsoft.com](https://appsource.microsoft.com/) med hjälp av e-postkonto som du använder för [!INCLUDE[prod_short](includes/prod_short.md)]. Använd samma e-postkonto för andra tjänster och produkter för en bra upplevelse.  
 
-Du kan också komma till marknadsplatsen från [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Tilläggshantering** kan du se tilläggen som installeras för närvarande, och du kan öppna sidan **tilläggmarknadsplatsen** som visar tilläggen för [!INCLUDE[prod_short](includes/prod_short.md)] som för närvarande finns tillgängliga i AppSource. Om du väljer länken *Fler appar* tas du till [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Du kan också komma till AppSource från [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Tilläggshantering** kan du se apparna som är installerade för närvarande, och du kan öppna sidan **Tilläggmarknadsplatsen** som visar apparna för [!INCLUDE[prod_short](includes/prod_short.md)] som för närvarande finns tillgängliga i AppSource. Om du väljer länken *Fler appar* tas du till [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-Om du väljer ett tillägg kan du läsa om vad tillägget används till och du kan få mer information om tillägget. När du väljer att få ett tillägg, måste du godkänna användningsvillkoret. Om du får tillägget från AppSource-webbplatsen kommer du att loggas in på [!INCLUDE[prod_short](includes/prod_short.md)] för att slutföra installationen.  
+Om du väljer en app kan du läsa om vad appen används till och du kan få mer information om appen i hjälpavsnittet. När du väljer att hämta en app, måste du godkänna användningsvillkoret. Om du hämtar appen från AppSource-webbplatsen kommer du att loggas in på [!INCLUDE[prod_short](includes/prod_short.md)] för att slutföra installationen.  
 
-När du installerar tillägget kanske du behöver måste konfigurera det, till exempel ange ett konto för användning med tillägget **PayPal Payments Standard för [!INCLUDE[prod_short](includes/prod_short.md)]**.
-Andra tillägg lägger bara till i fält på en befintlig sida, eller lägger till en ny sida, till exempel.
+När du har installerat en app måste du kanske konfigurera den. I vissa appar måste du ange en del information innan du kan använda dem. Till exempel måste du, när du har installerat appen **PayPal Payments Standard**, ange e-postadressen eller konto-ID för ditt PayPal-konto. Om du vill konfigurera en app eller ta reda på vilken information du behöver går du till sidan **Installerade tillägg** och väljer åtgärden **Konfigurera**.  
 
-Om du avinstallerar tillägget och du sedan ändrar dig kan du installera det på nytt. När du avinstallerar tillägg som du har använt, bevaras data så att de är tillgängliga om du installerar tillägget igen. Det finns vissa tillägg som krävs. Du kan inte avinstallera dessa tillägg från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.
+Andra appar lägger bara till fält på en befintlig sida, eller lägger till en ny sida, till exempel.
 
-Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företag](ui-extensions-other.md). Alla tillägg testas innan de görs tillgängliga för dig, men vi rekommenderar att du öppnar länkarna som tillhandahålls med varje tillägg om du vill veta mer om tillägget innan du väljer att installera det.
+Om du avinstallerar en app och du sedan ändrar dig kan du installera den på nytt. När du avinstallerar en app som du har använt, bevaras data så att de är tillgängliga om du installerar appen igen. Det finns vissa appar som krävs. Du kan inte avinstallera dessa appar från sidan **Tilläggshantering**. Om du försöker visas ett felmeddelande.
 
-Microsoft ger även följande tillägg:
+Några appar ges ut av Microsoft, och andra appar ges ut av [andra företag](ui-extensions-other.md). Alla appar testas innan de görs tillgängliga för dig, men vi rekommenderar att du öppnar länkarna som tillhandahålls med varje app om du vill veta mer om appen innan du väljer att installera den.
+
+Microsoft ger även följande appar:
 
 * [AMC Banking 365 Fundamentals-tillägg](ui-extensions-amc-banking.md)
 * [Ceridian löner](ui-extensions-ceridian-payroll.md)
@@ -75,23 +75,28 @@ Microsoft ger även följande tillägg:
 * [Tillägget GetAddress.io för postnummer i Storbritannien ](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Ladda upp en PTE (tillägg per klientorganisation)
+## <a name="set-up-an-extension"></a>Konfigurera ett tillägg
+När du har installerat en app måste du kanske konfigurera den. Till exempel för appen **PayPal Payments Standard för [!INCLUDE[prod_short](includes/prod_short.md)]** måste du ange det PayPal-konto som ska användas. Om så är fallet frågar [!INCLUDE[prod_short](includes/prod_short.md)], när installationen har slutförts, om du vill konfigurera appen direkt. Konfigurationer kan krävas för att appen ska fungera, eller så kan de vara valfria.
+
+Om du väljer att konfigurera din app direkt och den har en konfiguration som krävs, öppnar [!INCLUDE[prod_short](includes/prod_short.md)] den konfiguration som krävs. Konfigurationen kan vara antingen en sida där du anger information eller en guide för assisterad konfiguration som hjälper dig genom stegen. Om du inte slutför konfigurationen på en gång kan du använda sidan **Konfigurationer för _appens namn_**, som innehåller en lista över alla konfigurationer för appen. Obligatoriska konfigurationer anges i **fetstil**.
+
+## <a name="upload-a-per-tenant-extension-pte"></a>Ladda upp ett tillägg per klientorganisation (PTE)
 
 Du överför en PTE med hjälp av sidan för **tilläggshantering**. På siden **Tilläggshantering**, gå till **Hantera**, välj sedan **Ladda upp tillägg**. Sidan **Ladda upp och distribuera tillägg** ange vilken .app-fil som ska laddas upp. Om du vill fortsätta klickar du på knappen **Acceptera** och sedan knappen **Distribuera**, detta kommer att starta processen med att distribuera PTE.
 
 Om PTE innehåller bryt schemaändringar går det att *Framtvinga* en uppladdning av den. Det gör du i läget för **Synkroniseringsläge för schema** välja alternativet **Framtvinga**. Du får en bekräftelse dialogruta som du kan ta emot innan du fortsätter.  
 
-## <a name="uninstall-an-extension"></a>Avinstallera ett tillägg
+## <a name="uninstall-an-app"></a>Avinstallera en app
 
-Du avinstallerar ett tillägg på sidan **Tilläggshantering**. Om du vill avinstallera ett tillägg markerar du det på sidan och väljer **avinstallation** åtgärden. Om du avinstallerar ett tillägg och du sedan ändrar dig kan du installera tillägget på nytt.
+Du avinstallerar en app på sidan **Tilläggshantering**. Om du vill avinstallera en app markerar du den på sidan och väljer åtgärden **Avinstallera**. Om du avinstallerar en app och du sedan ändrar dig kan du installera appen på nytt.
 
-När du avinstallerar ett tillägg som du har använt bevaras data som standar så att de finns tillgängliga om du installerar tillägget igen. Du kan i stället välja att ta bort datan tillsammans med tillägget. Denna åtgärd styrs av växlingen **Ta bort tilläggsdata**. Funktionen är normalt inte **aktiv**. När du försöker aktivera data växeln **ta bort tillägg för tillägget** visas en bekräftelse dialog ruta och du måste välja **Ja** för att aktivera den. När växlingen **Ta bort tilläggsdata** är aktiverad kan du avinstallera filtillägget, bekräfta att du vill avinstallera tillägget och ta bort datan.
+När du avinstallerar en app som du har använt bevaras data som standard så att de finns tillgängliga om du installerar appen igen. Du kan i stället välja att ta bort datan tillsammans med appen. Denna åtgärd styrs av växlingen **Ta bort tilläggsdata**. Funktionen är normalt inte **aktiv**. När du försöker aktivera **Ta bort tilläggsdata** för appen visas en bekräftelsedialog och du måste välja **Ja** för att aktivera den. När växlingen **Ta bort tilläggsdata** är aktiverad kan du avinstallera appen, bekräfta att du vill avinstallera appen och ta bort datan.
 
 > [!IMPORTANT]  
-> - Det kan finnas andra tillägg som kräver eller är beroende av det tillägg som du vill avinstallera för att kunna fungera. Dessa andra tillägg kallas för *beroenden*. Du kan inte avinstallera ett tillägg såvida inte dess beroenden också avinstalleras.
-> - När du väljer att avinstallera ett tillägg som har en eller flera beroenden visas en bekräftelse dialogruta med en lista över de underordnade som du tillfrågas om du vill avinstallera tillägget och alla dess beroenden. Du måste välja **Ja** för att fortsätta.
-> - Om du aktiverar **borttagningstillägget** data tillägget att avinstalleras alla data för tillägget **plus** data för alla beroende tillägg. Denna åtgärd kan inte ångras.
-> - Vissa tillägg är obligatoriska. Du kan inte avinstallera dem från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.  
+> - Det kan finnas andra appar som kräver eller är beroende av den app som du vill avinstallera för att kunna fungera. Dessa andra appar kallas för *beroenden*. Du kan inte avinstallera en app såvida inte dess beroenden också avinstalleras.
+> - När du väljer att avinstallera en app som har ett eller flera beroenden visas en bekräftelsedialogruta med en lista över beroenden och du tillfrågas om du vill avinstallera appen och alla dess beroenden. Du måste välja **Ja** för att fortsätta.
+> - Om du aktiverar **Ta bort tilläggsdata** tas alla data för appen bort när du avinstallerar appen, **plus** data för alla beroende appar. Denna åtgärd kan inte ångras.
+> - Vissa appar är obligatoriska. Du kan inte avinstallera dem från sidan **Tilläggshantering**. Om du försöker visas ett felmeddelande.  
 
 ## <a name="see-also"></a>Se även
 

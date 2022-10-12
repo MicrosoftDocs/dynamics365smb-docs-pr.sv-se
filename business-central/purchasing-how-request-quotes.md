@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 113e562a6d8f5b29df6ff2800cc93a151a1d57e8
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 870fa31361770f5bd773f22ff24a54d65a4b80a3
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532599"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607587"
 ---
 # <a name="request-quotes"></a>Begär offerter
 
@@ -37,7 +37,7 @@ Inköpsofferten tas bort från databasen. En inköpsorder skapas utifrån inform
 > [!NOTE]
 > Det går inte att konvertera en inköpsoffert till en inköpsfaktura direkt, som det är möjligt med försäljningsofferter. Om du vill ha mer information om hur du skapar en inköpsfaktura kan du läsa [Registrera inköp med inköps fakturor](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/learn/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft-utbildning](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se även
 

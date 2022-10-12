@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531708"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607722"
 ---
 # <a name="resources-for-help-and-support"></a>Resurser för hjälp och support
 
@@ -51,7 +51,7 @@ I följande lista beskrivs hur du kan öppna Hjälp-fönstret och om kort har la
 Använd sökfältet för att söka efter riktlinjer för användning av produkt, inbyggda funktioner och tillgängliga moduler. Beroende på sökorden visas fem eller fler länkar med en kort beskrivning i fönstret. Välj en länk eller begränsa sökvillkoren. När du väljer en länk öppnas målartikeln i en ny flik i webbläsaren. Du kan välja att ta bort dockningsstationen för webbläsaren så att du kan visa relevant information bredvid varandra med [!INCLUDE [prod_short](includes/prod_short.md)]. Rutan förblir öppen medan du navigerar [!INCLUDE [prod_short](includes/prod_short.md)] så att innehåll som du har sökt efter fortfarande visas.  
 
 > [!NOTE]
-> I den aktuella versionen av [!INCLUDE [prod_short](includes/prod_short.md)], gäller endast sökfältet i hjälpfönstret för innehåll som publiceras på den [Docs.microsoft.com](/dynamics365/business-central) webbplatsen.
+> I den aktuella versionen av [!INCLUDE [prod_short](includes/prod_short.md)] gäller sökfältet i rutan Hjälp endast innehåll som publiceras till [Dynamics 365 Business Central-dokumentationen](/dynamics365/business-central) på Microsoft Learn.
 
 ## <a name="help--support-page"></a>Hjälp- och supportsida
 
@@ -83,7 +83,7 @@ Avsnittet **Hitta den** innehåller två länkar till produkthjälpen:
 
 - Hjälp om sidan som du precis såg i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Den här länken genereras automatiskt. Om [!INCLUDE[prod_short](includes/prod_short.md)] inte kan hitta relevant länk kommer landningssidan på [Docs.microsoft.com](index.md) för standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] att visas. Om sidan till exempel utgjorde en del av en app som inte lade till kontextkänslig hjälpmappning i [!INCLUDE[prod_short](includes/prod_short.md)] kommer *utbildningslänken* att återgå till sin standardlandningssida.  
+  Den här länken genereras automatiskt. Om [!INCLUDE[prod_short](includes/prod_short.md)] inte hittar den relevanta länken visas [landningssidan på Microsoft Learn](index.md) för standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)]. Om sidan till exempel utgjorde en del av en app som inte lade till kontextkänslig hjälpmappning i [!INCLUDE[prod_short](includes/prod_short.md)] kommer *utbildningslänken* att återgå till sin standardlandningssida.  
   
 - Hjälplandningssida för [!INCLUDE[prod_short](includes/prod_short.md)]  
 

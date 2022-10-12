@@ -1,20 +1,20 @@
 ---
 title: Om planeringsfunktioner
-description: I planeringssystemet i Dynamics 365 Business Central beaktas alla efterfråge- och tillgångsdata, resultaten nettoberäknas och förslag på balansering av tillgång för att uppfylla efterfrågan skapas.
-author: SorenGP
+description: Planering beaktar alla efterfråge- och tillgångsdata, resultaten nettoberäknas och förslag på balansering av tillgång för att uppfylla efterfrågan skapas.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535430"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606971"
 ---
 # <a name="about-planning-functionality"></a>Om planeringsfunktioner
 
@@ -30,7 +30,7 @@ Mer information finns i [Designdetaljer: Leveransplanering](design-details-suppl
 Planering innehåller två element: tillgång och efterfrågan. Dessa två element måste balanseras för att se till att efterfrågan uppfylls i tid och så kostnadseffektivt som möjligt.  
 
 - Efterfrågan är den term som vanligtvis används för alla typer av bruttobehov, t. ex. försäljningsorder, serviceorder, komponentbehov från montering eller produktionsorder, utgående överföringar, avropsorder eller prognoser. Utöver dessa, tillåts även en del andra typer av efterfrågan – t. ex. negativa produktions- eller inköpsorder, negativt lager och inköpsreturer.  
-- Tillgång är det ord som vanligtvis används för alla typer av återanskaffning, t. ex. lager, inköpsorder, monteringsorder, produktionsorder eller inkommande överföring. På motsvarande sätt kan det finnas negativa försäljnings- eller serviceorder, negativt komponentbehov eller försäljningsretur – vilka alla på ett sätt också representerar tillgång.  
+- Tillgång avser alla typer av återanskaffning, t.ex. lager, inköpsorder, monteringsorder, produktionsorder eller inkommande överföring. På motsvarande sätt kan det finnas negativa försäljnings- eller serviceorder, negativt komponentbehov eller försäljningsretur som också representerar tillgång.  
 
 Ett annat mål med planeringssystemet är att se till att lagret inte blir onödigt stort. Om det uppstår en minskad efterfrågan, får du i planeringssystemet ett förslag om att skjuta upp, minska antalet eller annullera befintliga återanskaffningsorder.  
 
@@ -158,9 +158,12 @@ På sidan **Inköpskalkylark** visas en lista över artiklar som behöver bestä
 
 - Du kan använda åtgärden **Specialorder** för att fylla i raderna i inköpskalkylarket. För den här åtgärden används batch-jobbet **Hämta förs.order** så att du kan bestämma vilka försäljningsorderrader du vill ange för en specialorder.
 
-Inköpsförslagsraderna innehåller detaljerad information om de artiklar som måste beställas. Du kan redigera och ta bort raderna så att återanskaffningsplanen justeras, och du kan bearbeta raderna ytterligare med hjälp av batch-jobbet **Verkställ åtgärdsmeddelande**.
+Inköpsförslagsraderna innehåller detaljerad information om de artiklar som måste beställas. Du kan redigera och ta bort raderna så att återanskaffningsplanen justeras, och du kan bearbeta raderna ytterligare med hjälp av batch-jobbet **Verkställ åtgärdsmeddelande**. 
 
 Information om hur du planerar lagerställen och överföringar finns i [Planera med eller utan lagerställen](production-planning-with-without-locations.md).
+
+> [!TIP]
+> När du arbetar på sidorna **Inköpsförslag** eller **Planeringsförslag** kan du ordna raderna genom att sortera efter ett kolumnnamn. Detta är särskilt användbart på sidan Paneringsförslag eftersom de kan användas för produktionsorder på flera nivåer. Som standard sorteras rader efter fältet **Artikelnr**. Om du vill gruppera rader för en order med flera nivåer sorterar du efter **Ref.ordernr** . Också fälten **MPS-order** och **Planeringsnivå** kan hjälpa dig att visa hierarkin av rader.
 
 ## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
 

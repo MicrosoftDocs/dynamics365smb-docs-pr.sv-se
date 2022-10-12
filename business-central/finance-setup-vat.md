@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 148d6657d3fffeaa7b5415338517f1688264ae98
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532950"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617918"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurera beräknings- och bokföringsmetoder för moms
 
@@ -32,7 +32,7 @@ Om du vill ställa in momsberäkningar själv eller bara vill ha information om 
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>Ställ in moms med hjälp av den assisterade momsinställningsguiden (rekommenderas> 
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Ställ in moms med hjälp av guiden för assisterad konfiguration (rekommenderas)
 
 > [!NOTE]
 > Du kan endast använda guiden **Momsinställning** om du har skapat ett *Mitt företag* och inte har bokfört transaktioner som inkluderar moms.
@@ -50,6 +50,21 @@ För att hjälpa dig komma igång snabbt meddelar [!INCLUDE [prod_short](include
 Om du väljer ett sådant meddelande skapar [!INCLUDE [prod_short](includes/prod_short.md)] automatiskt dessa bokföringsinställningar baserat på bokföringsmallarna i det dokument eller den journal som du arbetar med.  
 
 I detta skede kanske du bara fyller i de saknade redovisningskontona. När du senare sedan finjusterar installationen ytterligare kanske du inser att konfigurationen var fel. [!INCLUDE [prod_short](includes/prod_short.md)] tillåter inte borttagning av momsbokföringsinställningar och allmänna bokföringsinställningar när transaktioner skapas baserade på sådana konfigurationer. Från och med 2022 års utgivningscykel 1 kan du använda fältet **Spärrat** i fönstret **Bokföringsinställningar för moms** för att förhindra att användare av misstag använder en konfiguration som inte längre är relevant för nya bokföringar.
+
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Ställ in ett standarddatum för moms för dokument och journaler
+Momsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] baseras på **momsdatumet** för att ta med momstransaktioner i momsrapporter under en momsperiod. Momsdatumet kan ändras i alla dokument och journaler, men du måste ange ett standardvärde för momsdatumet.
+
+> [!NOTE]
+> När du har bokfört dokumentet eller journalen visas **momsdatumet** på **Momsposter** och **Redovisningsposter** samt på det bokförda dokumentet.
+
+Så här ställer du in ett standardvärde för ett momsdatum:
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Redovisningsinställningar** och välj sedan relaterad länk.  
+2. På snabbfliken **Allmänt**, i fältet **Standarddatum för moms**, väljer du antingen **Bokföringsdatum** eller **Dokumentdatum**.
+3. Stäng sidan.  
+
+> [!NOTE]
+> Som standard är **standarddatumet för moms** **bokföringsdatumet**.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Så här skapar du momsregistreringsnummer för land / region
 
@@ -76,7 +91,7 @@ Använd koder som är lätta att komma ihåg och som beskriver rörelsebokförin
 
 Om du vill konfigurera rörelsebokföringsmall för moms, gör du följande steg:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Moms rörelsebokföringsmall** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Moms rörelsebokföringsmall** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 
 Du kan skapa standardrörelsebokföringsmallar för moms genom att koppla rörelsebokföringsmallar för moms till generella rörelsebokföringsmallar. [!INCLUDE[prod_short](includes/prod_short.md)] tilldelar automatiskt rörelsebokföringsmallen för moms när du tilldelar rörelsebokföringsmallen till ett kund-, leverantörs- eller redovisningskonto.
@@ -89,7 +104,7 @@ Det är praktiskt att använda koder som är lätta att komma ihåg och som besk
 
 Om du vill konfigurera rörelsebokföringsmall för moms, gör du följande steg:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Moms produktbokföringsmallar** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Moms produktbokföringsmallar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinera momsbokföringsmallar i momsbokföringsinställningar
@@ -100,7 +115,7 @@ Du kan registrera så många kombinationer som du vill. Om du vill gruppera komb
 
 Om du vill kombinera momsbokföringsinställningar gör du följande:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 5.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta 5.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Tilldela momsbokföringsmallar som standard till flera enheter
@@ -118,20 +133,20 @@ I följande avsnitt beskrivs hur du tilldelar momsbokföringsmallar till enskild
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Så här tilldelar du momsbokföringsmallar till individuella redovisningskonton
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 6.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 6.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. Öppna kortet **redovisningskontokortet** för det kontot.  
 3. På snabbfliken **bokföring** i fältet **Typ av bokföring** väljer du antingen **försäljning** eller **inköp**.  
 4. Välj momsbokföringsmallar för försäljnings- eller inköpskontot.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>För att tilldela rörelsebokföringsmallar för moms till kunder och leverantörer
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 7.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** eller **Leverantör** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 7.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** eller **Leverantör** och väljer sedan relaterad länk.  
 2. På kortet **Kund** eller **Leverantör** expanderar du snabbfliken **Fakturering**.  
 3. Välj rörelsebokföringsmallar för moms.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>För att tilldela produktbokföringsmallar till individuella artiklar och resurser
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 8.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikel** eller **Resurs** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 8.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikel** eller **Resurs** och väljer sedan relaterad länk.  
 2. Gör något av följande:  
 
     * På kortet **Item**  expandera snabbfliken **pris och bokföring** och välj **visa fler** för att visa fältet **Moms produktbokföringsmall**.  
@@ -150,7 +165,7 @@ Du kan ändra eller ta bort en momsklausul och dina ändringar kommer visas i en
 
 ### <a name="to-set-up-vat-clauses"></a>Så här konfigurerar du momsklausuler
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 9.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsklausuler** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 9.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsklausuler** och väljer sedan relaterad länk.  
 2. På sidan **momsklusuler** skapar du en ny rad.  
 3. I fältet **Kod** anger du en identifierare för klausulen. Du använder den här koden för att tilldela klausulen till momsbokföringsmallar.  
 4. I fältet **Beskrivning** anger du den text för momsundantag som ska visas i dokument som kan inkludera moms. I fältet **Beskrivning 2** anger du ytterligare text om det behövs. Texten kommer visas på nya dokumentrader.
@@ -161,7 +176,7 @@ Du kan ändra eller ta bort en momsklausul och dina ändringar kommer visas i en
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Så här tilldelar du en momsklausul till en momsbokföringsinställning
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 10.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 10.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.  
 2. I kolumnen **momsklausul** väljer du klausul för varje momsbokföringsinställning som den gäller för.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Att ange översättningar för momsklausuler
@@ -176,7 +191,7 @@ Du kan ändra eller ta bort en momsklausul och dina ändringar kommer visas i en
 > [!NOTE]  
 > Om landet eller regionen kräver längre text för momsklausuler än standardversionen stöder kan du ange den längre texten för momsklausuler som *extratext* så att den skrivs ut på försäljnings- och inköpsrapporterna.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 11.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsklausuler** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 11.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsklausuler** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Extratexter**.  
 3. Välj åtgärden **Ny**.  
 4. Fyll i fälten **Språkkod** och **Beskrivning**.  
@@ -192,9 +207,9 @@ Du använder funktionen för *importmoms* när du bokför ett dokument där hela
 
 Så här anger du koder för importmoms:  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 12.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Moms produktbokföringsmallar** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 12.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Moms produktbokföringsmallar** och väljer sedan relaterad länk.  
 2. På sidan Bokföringsmallar för momsprodukter anger du en ny produktbokföringsmall för importmoms.  
-3. Välj den ![Glödlampa som öppnar funktionen Berätta 13.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.  
+3. Välj ![glödlampan som öppnar funktionen Berätta 13.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.  
 4. På sidan Bokföringsmallar för momsprodukter skapar du en ny rad eller använder valfri befintlig rörelsebokföringsmall för moms i kombination med den nya produktbokföringsmallen för moms för importmoms.  
 5. I fältet **Momsberäkningstyp** väljer du **enbart moms**.  
 6. Ange det redovisningskonto som ska användas för att bokföra importmoms i fältet **Ingående moms**. Alla andra konton är valfria.  

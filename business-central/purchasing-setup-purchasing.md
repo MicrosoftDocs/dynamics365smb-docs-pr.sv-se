@@ -8,30 +8,64 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 07/04/2022
+ms.date: 08/30/2022
 ms.author: edupont
-ms.openlocfilehash: 008c0d35c8bfefdf002e08b967ddc1a9336b04a5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 82083beeb1779455fbd4b8a6083663b5559129eb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530385"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606620"
 ---
 # <a name="setting-up-purchasing"></a>Ställa in inköp
 
 Innan du kan hantera inköpsprocesser måste du konfigurera reglerna och värdena som definierar företagets inköpspolicyer.
 
-Du måste ställa in de allmänna inställningarna, till exempel vilka inköpsdokument som är obligatoriska och hur deras värden ska bokföras. Dessa allmänna inställningar görs vanligtvis bara en gång, under den initiala implementeringen.
+Du måste definiera den allmänna konfigurationen på sidan **Konfiguration av inköp och leverantörsreskontra**, som vanligtvis utförs en gång under den första implementeringen. Läs mer i följande avsnitt, [Konfiguration av inköp och leverantörsreskontra](#purchases-and-payables-setup).
 
 En separat serie uppgifter relaterade till att registrera nya leverantörer är att registrera alla specialpriser eller rabattavtal som du har med varje leverantör.
 
-Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i avsnittet Finans. Mer information finns i [Konfigurera ekonomi](finance-setup-finance.md). På samma sätt kan lagerrelaterade inköpsinställningar, till exempel enheter och artikelspårningskoder, finnas i [avsnittet lagerinställningar](inventory-setup-inventory.md).
+Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i avsnittet för finanskonfiguration. Läs mer i [Ställa in finanser](finance-setup-finance.md). På samma sätt kan lagerrelaterade inköpsinställningar, till exempel enheter och artikelspårningskoder, finnas i [avsnittet lagerinställningar](inventory-setup-inventory.md).
+
+## <a name="purchases-and-payables-setup"></a>Konfiguration av inköp och leverantörsreskontra
+
+Innan du arbetar med inköp och leverantörsreskontra går du till sidan **Konfiguration av inköp och leverantörsreskontra** och anger hur inköpsvärden bokförs och de nummerserier som används för dokument om leverantörer och inköp.
+
+### <a name="general-settings"></a>Allmänna inställningar
+
+På snabbfliken **Allmänt** väljer du alternativ för t.ex. hur rabatter ska beräknas och bokföras samt hur fakturor ska avrundas. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+
+Vissa fält kräver särskild uppmärksamhet, till exempel fältet **Beräkna fakturarabatt per moms/moms-ID**, vilket anger om fakturarabatten beräknas enligt skatteidentifieraren eller fakturasumman. Läs mer på [Kombinera momsbokföringsmallar i momsbokföringsinställningarna](finance-setup-vat.md#combine-vat-posting-groups-in-vat-posting-setups).
+
+På samma sätt kan fältet **Appln. mellan valutor** leda till små avrundningsskillnader vid koppling av transaktioner i olika valutor till varandra. Läs mer på [Aktivera koppling av kundreskontratransaktioner till olika valutor](finance-how-enable-application-ledger-entries-different-currencies.md)
+
+Vissa fält ändrar också beteendet eller beror på hur andra fält är inställda. Till exempel påverkas funktionen **Kontrollera förskottsbetalning vid bokföring** av hur fältet **Automatisk uppdatering av förskottsbetalning** är inställt för kontroll av väntande förskottsbetalningar.
+
+Läs mer om fälten [**Ext. Dok.nr obligatoriskt**](#external-document-number) och [**Exakt kostnadsåterföring**](#exact-cost-reversing) nedan.
+
+### <a name="number-series-settings"></a>Inställningar för nummerserier
+
+På snabbfliken **Nummerserier** måste du definiera unika identifieringskoder som ska användas för leverantörer, fakturor och andra inköpsdokument. Numrering är viktig inte enbart för interna processer, men kan också behöva följa lokala regler. Det kan vara värt att ställa in alla serier på sidan **Nr-serier** på förhand, istället för att skapa nya från **Konfiguration av inköp och leverantörsreskontra**. Läs mer i [Skapa nummerserier](ui-create-number-series.md).
+
+## <a name="external-document-number"></a>Externt dokumentnummer
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
+## <a name="exact-cost-reversing"></a>Exakt kostnadsåterföring
+
+Funktionen **Exakt kostnadsåterföring** bidrar till att säkerställa att returnerade varor värderas till samma kostnad som när de ursprungligen togs ur lagret, med hjälp av en fast applikation istället för att följa ett genomsnitt eller en först in, först ut-metod. Mer information finns i avsnittet [Designdetaljer: Fast applikation](design-details-item-application.md#fixed-application). Om en extra kostnad senare läggs till det ursprungliga inköpet uppdateras värdet på inköpsreturen i enlighet därmed.
+
+Med funktionen aktiverad kan en returtransaktion endast bokföras genom att ange löpnumret för artikeltransaktionen i fältet **Koppla till artikellöpnr** på inköpsreturorderraden. Som standard visas inte fältet på snabbfliken **Rader**. Lär dig hur du lägger till fält till sidor i avsnittet [Anpassa arbetsytan](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+[!INCLUDE[local-functionality](includes/local-functionality.md)]
+
+## <a name="more-purchasing-setups"></a>Fler inköpsinställningar
 
 | Till | Gå till |
 | --- | --- |
 | Skapa ett leverantörskort för varje leverantör som du har köpt av. |[Registrera nya leverantörer](purchasing-how-register-new-vendors.md) |
-| Prioritera leverantörer |[Prioritera leverantörer](purchasing-how-prioritize-vendors.md) |
-| Ange bank konto information – inklusive IBAN och SWIFT-koder – på leverantörens kort. | [Skapa bankkonton för leverantörer](purchasing-how-set-up-vendors-bank-accounts.md) |
+| Prioritera leverantörer. |[Prioritera leverantörer](purchasing-how-prioritize-vendors.md) |
+| Ange bankkontoinformation&mdash;inklusive IBAN (International Bank Account Number) och SWIFT-koder&mdash;på leverantörens kort. | [Skapa bankkonton för leverantörer](purchasing-how-set-up-vendors-bank-accounts.md) |
 | Skapa inköpare, tilldela leverantörer och koder för att spåra statistik. |[Konfigurera inköpare](purchasing-how-setup-purchasers.md) |
 | Ange de olika rabatterna och specialpriserna som leverantörerna beviljar dig beroende på artikel, kvantitet och/eller datum. |[Registrera inköpspris, rabatt och betalningsavtal](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Definiera vad du betalar för de artiklar och tjänster som köpts av ditt företag.  | [Ställa in priser och rabatter](across-prices-and-discounts.md) |
@@ -41,14 +75,7 @@ Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i av
 | Granska utgiftskvitton, konvertera papper och elektroniska dokument till journalrader och digitala pappersfakturor från leverantörer. | [Ställa in inkommande dokument](across-how-setup-income-documents.md) |
 | Ange standardrapporter som ska användas för olika dokumenttyper. |[Rapportval i Business Central](across-report-selections.md)|
 
-> [!TIP]
-> Beroende på ditt geografiska läge kan vissa sidor innehålla fält som inte beskrivs i artiklarna som anges här, detta eftersom de gäller lokala funktioner eller anpassningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>Externt dokumentnummer
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se även
 

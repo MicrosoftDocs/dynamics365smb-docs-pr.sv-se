@@ -1,21 +1,21 @@
 ---
 title: Skapa ett leverantörskort för att registrera en ny leverantör (innehåller video)
 description: Lär dig hur du skapar ett leverantörskort för registrering av en ny leverantör eller leverantör och hur du sparar leverantörskort som en mall.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532046"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606647"
 ---
 # <a name="register-new-vendors"></a>Registrera nya leverantörer
 
@@ -41,6 +41,10 @@ När du har skapat en mall kan du använda åtgärden **tillämpa mall** för at
 > Det kan vara användbart att anpassa sidan för **leverantörsmall** när du skapar en mall. Du kanske till exempel vill lägga till ett fält som inte redan visas på sidan. Mer information finns i avsnittet [Anpassa din arbetsyta](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Du kan också skapa en leverantör från en kontakt. Mer information finns i avsnittet [Skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Remittera till-adresser används när du skriver ut checkar för att betala leverantörerna, och leverantörer kan ha flera remittera till-adresser för betalningar. En leverantör kan till exempel leverera en artikel från ett dotterbolag, men vill erhålla betalning vid sitt huvudkontor. Med [!INCLUDE [prod_short](includes/prod_short.md)] kan du skapa flera postadresser för varje leverantör, och du kan välja rätt plats att skicka betalningar till per faktura.
+
+Du anger remittera till-adresser på leverantörskortsidorna och på snabbfliken Leverans & betalningar på inköpsorder och fakturor. När du skapar utbetalningsjournalrader med hjälp av åtgärderna Betala leverantör eller Skapa betalning på sidan Leverantörslista eller sidan Leverantörskort, eller åtgärden Koppla transaktioner i en utbetalningsjournal, tilldelas remittera till-koden på leverantörsreskontratransaktionen. Du kan skriva över det här värdet.
 
 ### <a name="to-create-a-new-vendor"></a>Skapa en ny leverantör
 

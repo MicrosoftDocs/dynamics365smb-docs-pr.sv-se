@@ -1,6 +1,6 @@
 ---
 title: Skapa artikelkort för varor eller tjänster (innehåller video)
-description: Du skapar artikelkort för tjänster som du säljer som timmar och för fysiska produkter, till exempel monteringsartiklar, färdiga produkter eller råmaterial som säljs från lagret.
+description: Du skapar artikelkort för service som du säljer som timmar och för fysiska produkter. Exempel inkluderar monteringsartiklar och färdiga varor som du säljer från lagret.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.date: 09/26/2022
 ms.author: edupont
-ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 945197681e32f6d77ede2f1b0e727892a64d8277
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532923"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604955"
 ---
 # <a name="register-new-items"></a>Registrera nya artiklar
 
@@ -23,19 +23,20 @@ Artiklar, bland andra produkter, utgör basen för ditt arbete, varorna eller tj
 
 Artikelkort innehåller den information som behövs för att köpa, lagra, sälja, leverera och informera om artiklar.
 
-Artikelkortet kan vara av typen **Lager**, **Service**, eller **Inte i lager** för att ange om artikeln är en fysisk inventeringsenhet, en arbetstidsenhet eller en fysisk enhet som inte spåras i inventeringen. Mer information om typerna finns i [Om artikeltyper](inventory-about-item-types.md).
+Artikelkortet kan vara av typen **Lager**, **Service** eller **Inte i lager** för att ange om artikeln är en fysisk lagerenhet, en arbetstidsenhet eller en fysisk enhet som inte spåras i inventeringen. Mer information om typerna finns i [Om artikeltyper](inventory-about-item-types.md).
 
-En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en strukturlista vara antingen en monteringsstruktur eller en produktionsstruktur, beroende på dess användning. Mer information finns i [Arbeta med strukturer](inventory-how-work-BOMs.md).
+En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. Läs mer om monteringsstrukturer och produktionsstrukturer på [Arbeta med strukturer](inventory-how-work-BOMs.md).
 
 Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikelkortet. Leverantörer visas sedan på sidan **Artikelleverantörskatalog** så att du enkelt kan välja en annan leverantör.
 
-Artiklar som du erbjuder dina kunder men som du inte vill hantera i ditt system, tills du börjar sälja dem kan ställas in som katalogartiklar. Katalogartiklar ska inte förväxlas med vanliga artiklar av typen **Inte i lager**. Mer information finns i [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).  
+*Katalogartiklar* är artiklar du erbjuder dina kunder men som du inte vill hantera i ditt system, tills du börjar sälja dem. Katalogartiklar är inte vanliga artiklar av typen **Inte i lager**. Mer information: [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > Om artikelmallar finns för olika artikeltyper, visas en sida när du skapar ett nytt artikelkort där du kan välja en lämplig mall. Om endast en artikelmall finns, då använder nya artikelkort alltid den mallen.
 
 I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan också skapa nya artikelkort genom att kopiera befintliga artiklar. Mer information finns i [kopiera befintliga objekt om du vill skapa nya objekt](inventory-how-copy-items.md).  
 
+<br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Skapa ett nytt artikelkort
@@ -65,7 +66,7 @@ Artikelmallen läggs till listan över artikelmallar, så att du kan använda de
 
 ### <a name="items-used-in-production-orders"></a>Artiklar som används i produktionsorder
 
-Om du vill registrera artiklar som sedan används i produktionsorder anger du återanskaffningssystemet som *Prod. order* på snabbfliken **återanskaffning**. För mer information, se [Om produktionsorder](production-about-production-orders.md).  
+Om du vill registrera artiklar som används i produktionsorder anger du återanskaffningssystemet som *Prod. order* på snabbfliken **Återanskaffning**. För mer information, se [Om produktionsorder](production-about-production-orders.md).  
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Så här lägger du upp flera leverantörer för artiklar
 
@@ -87,12 +88,12 @@ Du kan ställa in artiklar så att de har ersättningar, som andra artiklar som 
 ### <a name="to-make-an-item-substitution"></a>Så här gör du en artikelersättning
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
-2. Hitta den aktuella artikeln och klicka sedan på **Artikelnr** för att öppna artikelkortet.  
-3. Välj åtgärden **Relaterat**, välj sedan **Artikel** och sedan **Ersättningar** för att öppna sidan Artikelersättningspost.  
+2. Hitta den aktuella artikeln och välj sedan **Artikelnr** för att öppna artikelkortet.  
+3. Välj åtgärden **Relaterat**, välj sedan **Artikel** och sedan **Ersättningar** för att öppna sidan **Artikelersättningspost**.  
 4. Välj **Ersättningsnr**. fältet och välj sedan ersättningsartikel i listan.
-5. Fortsätt att fylla i eller ändra andra fält på sidan vid behov.
+5. Fyll i eller ändra andra fält på sidan vid behov.
 
-När antal artiklar som har begärts, exempelvis på en försäljningsrad, överstiger det tillgängliga antalet i lager visas ett meddelande som anger att ersättningsartiklar finns.
+När antal artiklar som har begärts överstiger det tillgängliga antalet i lager visas ett meddelande som anger att ersättningsartiklar finns.
 
 > [!NOTE]  
 > Kom ihåg att artikelersättningar inte automatiskt gör att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig för dig.
@@ -100,6 +101,8 @@ När antal artiklar som har begärts, exempelvis på en försäljningsrad, över
 ## <a name="categories-attributes-and-variants"></a>Kategorier, attribut och varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+
+Läs mer om varianter på [Hantera produktvarianter](inventory-item-variants.md).  
 
 ## <a name="deleting-item-cards"></a>Ta bort artikelkort
 
@@ -109,7 +112,7 @@ Om du har bokfört en transaktion för en artikel kan du inte ta bort kortet eft
 
 När du registrerar en ny artikel visas fält som är kopplade till hanteringen av distributionslager, särskilt på snabbfliken **Distributionslager**. Om organisationen inte använder funktionerna för hantering av distributionslager i [!INCLUDE [prod_short](includes/prod_short.md)] kan du ignorera dessa fält.  
 
-Om företaget senare konfigurerar hantering av distributionslager, måste du i de flesta fall gå tillbaka till varje befintlig artikel för att försäkra dig om att de har rätt information i de olika fälten så att lagerprocesserna kan köras som förväntat. Informationen kan omfatta fält som **Indelningskod för distributionslager** eller **Mallkod för artikelinförsel**. Mer information finns i [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md).  
+Om företaget senare konfigurerar lagerhantering rekommenderar vi att du säkerställer att varje befintlig artikeln har rätt information i de olika fälten. På så sätt kan lagerprocesserna köras som förväntat. Informationen kan omfatta fält som **Indelningskod för distributionslager** eller **Mallkod för artikelinförsel**. Mer information finns i [Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md).  
 
 ## <a name="planning"></a>Planering
 
@@ -123,7 +126,8 @@ Exempel på hur du kan använda fälten på snabbfliken **Planering** finns i [M
 
 [Lager](inventory-manage-inventory.md)  
 [Ställa in måttenheter](inventory-how-setup-units-of-measure.md)  
-[EU tull statistiknr](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Hantera produktvarianter](inventory-item-variants.md)  
+[Ställa in Intrastat-rapporter](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Skapa nummerserier](ui-create-number-series.md)  
 [Ställa in bokföringsmallar](finance-posting-groups.md)  

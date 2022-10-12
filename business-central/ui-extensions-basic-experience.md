@@ -10,12 +10,12 @@ ms.search.keywords: C5, financials, extension
 ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: b0443ef53a564e103810543225cc0c4a0c6bced7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362228"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606042"
 ---
 # <a name="the-basic-experience-extension"></a>Basic Experience-tillägget
 
@@ -24,17 +24,17 @@ Om du har använt Microsoft Dynamics C5 kan Microsoft-partner hjälpa dig ta ste
 Det här tillägget är avsett för mindre företag och kan stödja upp till tre användare. Om du behöver fler användare måste du uppgradera till en [!INCLUDE[prod_short](includes/prod_short.md)]-licens och avinstallera tillägget.
 
 > [!NOTE]
-> Nu är det här tillägget bara tillgängligt för kunder i Danmark och Island. 
+> Nu är det här tillägget bara tillgängligt för kunder i Danmark och Island.
 
 ## <a name="whats-available"></a>Vad som finns
 
 I följande tabell beskrivs de funktioner som är tillgängliga om du installerar Basic Experience-tillägget.
 
-|Område  |Funktionalitet  |
+|Yta  |Funktionalitet  |
 |---------|---------|
-|**Redovisning** |Grundläggande finans, Kontouppställningar, Anläggningstillgångar, Bankhantering, Bankavstämning, Betalningar, Direktdebitering, Dimensioner, Flera valutor, Budgetar, Arbetsflöde, Dokumenthantering/OCR, Konsolidering, Obegränsat antal företag|
-|**Konto – kundreskontra/försäljning** |Grundläggande kundreskontra, försäljningsfakturering, försäljningsrabatter, prissättning, moms, kontakthantering |
-|**Konto – leverantörsreskontra/inköp** |Grundläggande leverantörsreskontra, inköpsfakturering |
+|**Redovisning** |Grundläggande finans, ekonomiska rapporter, anläggningstillgångar, bankhantering, bankavstämning, betalningar, direktdebitering, dimensioner, flera valutor, budgetar, arbetsflöde, dokumenthantering/OCR, konsolidering, obegränsat antal företag|
+|**Kundfordringar/försäljning** |Grundläggande kundreskontra, försäljningsfakturering, försäljningsrabatter, prissättning, moms, kontakthantering |
+|**Leverantörsreskontra/inköp** |Grundläggande leverantörsreskontra, inköpsfakturering |
 |**Projekthantering** |Projekt, projektpris, tidrapporter, tilldelning, uppgifter, resurser |
 |**Lager** |Grundläggande lager, artikelersättningar, artikeltvärreferens |
 
@@ -46,7 +46,7 @@ Det här tillägget skiljer sig från de flesta, och du behöver hjälp från en
 2. Lägg till minst en användare som är tilldelad en Basic Experience-licens på ditt Azure Active Directory-konto.
 3. Ta bort alla företag, inklusive exempelföretaget Cronus.
 4. Skapa ett nytt företag som inte innehåller exempeldata eller inställningar.
-5. Lägg till paketet **Demo RapidStart**. <!--what does the pockage contain?-->
+5. Lägg till paketet **Demo RapidStart**. <!--what does the package contain?-->
 6. Hämta och installera Basic Experience-tillägget från AppSource.
 
 ## <a name="migrating-data"></a>Migrera data

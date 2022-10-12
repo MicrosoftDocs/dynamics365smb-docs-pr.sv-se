@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531141"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606674"
 ---
 # <a name="keyboard-shortcuts"></a>Kortkommandon
 
@@ -56,15 +56,16 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |Alt+Shift+N |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post. På samma sätt bokför Alt + F9 ett dokument och skapar ett nytt.|
 |Alt+T|Öppna sidan **Mina inställningar**.|
 |Alt+Högerpil|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "Knappen AssistEdit"). knappen. Detta används när den vanliga listruteknappen (Alt + nedåtpil) i samma fält används för ett annat syfte.|
-|Ctrl+Alt+Shift+C|Visa information på företagsbrickan.|
+|Ctrl+Alt+Shift+C|Visa information på företagsbrickan. Det här kortkommandot slutade användas i Business Central 2022, utgivningscykel 2 (version 21) och ersattes av Ctrl + O. |
 |Ctrl+Alt+F1|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t. ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
 |Ctrl+C |Kopiera värdet i fältet. Om fältet är i fokus och du inte har valt någon text i fältet, kommer hela värdet att kopieras. Om du har markerat en text i fältet, kopieras endast den markerade texten.|
-|Ctrl+F1|Öppna [Hjälp-fönstret](product-help-and-support.md#help-pane) eller Business Central hjälpartikel i [Microsoft Docs](/dynamics365/business-central/), beroende på din Business Central-version.|
+|Ctrl+F1|Öppna [hjälpfönstret](product-help-and-support.md#help-pane) eller en Business Central-hjälpartikel på [Microsoft Learn](/dynamics365/business-central/), beroende på din Business Central-version.|
 |Ctrl+F12|Växla mellan breda och smala vyn.|
 |Ctrl + klicka|Navigera under anpassa personligt eller anpassa när åtgärden markeras med en pilspets. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).|  
 |Ctrl+F5|Läs [!INCLUDE[prod_short](includes/prod_short.md)]-programmet på nytt. (Ungefär som att markera uppdatera/läsa in på nytt i webbläsaren).|
 |F5|Uppdatera informationen på den aktuella sidan.<br /><br />Använd denna nyckel för att se till att informationen på sidan har uppdaterats med ändringarna som andra har gjort medan du arbetar.|
-|Skriv in|Aktivera eller nå elementet eller kontrollen som är i fokus.|
+|Ctrl+O|Öppna rutan **Tillgängliga företag** för att växla till ett annat företag eller en annan miljö. Mer information finns i [byta till ett annat företag eller annan miljö](ui-organization-switch.md).|
+|Enter|Aktivera eller nå elementet eller kontrollen som är i fokus.|
 |Esc|Stäng den aktuella sidan eller listrutan.|
 |Tabb|Flytta fokus till nästa kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |Skift+Tabb|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|

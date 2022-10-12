@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528659"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606069"
 ---
 # <a name="change-basic-settings"></a>Ändra grundinställningar
 
@@ -29,9 +29,9 @@ Rollcentret bestämmer startsidan, en startskärm som har utformats för den spe
 
 * Längst upp låter navigeringen dig växla mellan kunder, leverantörer, artiklar och andra viktiga listor med information. På samma sätt kan du starta aktiviteter, såsom skapa en ny försäljningsfaktura direkt från startsidan.
 
-* I mitten hittar du området **aktiviteter**, som visar aktuella data och som du kan klicka på eller knacka på för att visa mer detaljerad information. Nyckelindikatorer (KPI:er) kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också att upprätta en lista över favoritkunder på startsidan för affärskonton som du arbetar med ofta eller behöver ge extra uppmärksamhet till.
+* I mitten hittar du området **Aktiviteter**, som visar aktuella data och som kan väljas för att visa mer detaljerad information. Nyckelindikatorer (KPI:er) kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också att upprätta en lista över favoritkunder på startsidan för affärskonton som du arbetar med ofta eller behöver ge extra uppmärksamhet till.
 
-### <a name="to-change-the-role"></a>Så här ändrar du rollen
+### <a name="change-the-role"></a>Ändra rollen
 
 Standardrollen är **Chef**, men du kan välja en annan roll för att använda ett rollcenter som passar bättre till dina önskemål.  
 
@@ -41,30 +41,37 @@ Standardrollen är **Chef**, men du kan välja en annan roll för att använda e
 
 ## <a name="company"></a><a name="company"></a>Företag
 
-Ett företag fungerar som en behållare för data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget.
+Ett företag fungerar som en behållare för data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget. Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata.
+
+I fältet **Företag** visas det företag som du arbetar på för tillfället, och du kan använda det för att växla till ett annat företag. Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en åtgärd som du kan välja att gå tillbaka till rollcentret.
+
+> [!TIP]
+> Du kan också ändra företaget genom att använda företagsväxlaren (Crtl + O). Mer information om den här funktionen och andra sätt att ändra företaget eller miljön finns i [Växla till ett annat företag eller en annan miljö](ui-organization-switch.md).
 
 Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata. Du kan skapa ett nytt företag med egna data. Mer information finns i [Skapa nya företag](about-new-company.md).
 
-### <a name="to-change-the-company-name"></a>Så här ändrar du företagsnamnet
+<!--
+### To change the company name
 
-Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en åtgärd som du kan välja att gå tillbaka till rollcentret. Du kan ändra det här namnet på sidan **företagsinformation**.
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Välja ![Kugghjulsikon för att öppna menyn Inställningar.](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Företagsinformation**.
-2. Ange det nya företagsnamnet i fältet **Namn**.
-3. Lämna sidan. Systemet startas om och det nya företaget visas i det övre vänstra hörnet.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Så här visar du ett företagsbricka för snabb åtkomst till företagsinformation
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-Du kan lägga till en anpassad bricka i det övre högra hörnet, som du kan välja för att snabbt visa företagsnamn och klientorganisationens information i en popup-ruta. Företagsbrickan är också användbart när [!INCLUDE[prod_short](includes/prod_short.md)] finns inbäddat i ett annat program, exempelvis Microsoft Teams eller i något annat webbprogram. Eftersom [!INCLUDE[web_client](includes/web_client.md)] visar mindre omgivande kontextuell information i dessa fall, utgör företagsbrickan det enda sättet att avgöra vilket företag eller vilken miljö en post tillhör.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.
-2. I snabbfliken **Företagsbricka** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> Om en företagsbricka definieras kan du inte ändra företagsnamnet enligt beskrivningen i [så här ändrar du företagsnamnet](ui-change-basic-settings.md#to-change-the-company-name)
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a><a name="work-date"></a>Arbetsdatum
-Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra dagens datum.
+
+Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra arbetsdatum.
 
 > [!TIP]  
 > I alla datafält skriver du **t** för att snabbt ange dagens datum och skriv **w** för att snabbt ange arbetsdatum vilket är värdet i fältet **Arbetsdatum** på sidan **Mina inställningar**.
@@ -84,7 +91,7 @@ Om arbetsdatumet inte anges för den aktuella dagen (idag) kommer arbetsdatumet 
 
 ## <a name="region"></a><a name="region"></a> Region
 
-Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras. Det avgör också vilket tecken som används som decimalavgränsare när du använder ett numeriskt tangentbord för att ange data. Mer information finns i [Ange data](ui-enter-data.md#decimal).
+Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras. Det avgör också vilket tecken som används som decimalavgränsare när du använder ett numeriskt tangentbord för att ange data. Läs mer på [Ange data](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Språk
 
@@ -100,7 +107,7 @@ Definierar tidszonen där du befinner dig. När du loggar in på [!INCLUDE [prod
 
 ## <a name="notifications"></a>Meddelanden
 
-Välj länken *Ändra när jag får meddelanden* för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Mer information finns i [Hantera meddelanden](ui-smart-notifications.md).
+Välj länken *Ändra när jag får meddelanden* för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Läs mer på [Hantera meddelanden](ui-smart-notifications.md).
 
 ## <a name="teaching-tips"></a>Undervisningstips
 
@@ -110,8 +117,8 @@ Välj länken *Ändra när jag får meddelanden* för att visa eller ändra medd
 
 ## <a name="see-also"></a>Se även
 
-[Skapa nya företag](about-new-company.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
+[Skapa nya företag](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530925"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617827"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 Om landet eller regionen kräver att du beräknar och rapporterar mervärdesskatt (moms) på försäljnings- och inköpstransaktioner kan du ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att beräkna moms. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
@@ -61,6 +61,18 @@ Beroende på vad du vill göra kan du tilldela en rörelsebokföringsmall för m
 
 #### <a name="examples"></a>Exempel
 Faktorer såsom det land eller den region som du säljer till, eller vilken typ av branscher du säljer till, kan påverka det momsbelopp som du måste redovisa. En restaurang kan till exempel debitera 6 % moms för måltider som äts på plats, och 17 % för avhämtming. Detta gör du genom att skapa en rörelsebokföringsmall för moms (pris) för på plats och en för avhämtning.
+
+## <a name="working-with-vat-date"></a>Arbeta med momsdatum
+### <a name="vat-date-in-documents"></a>Momsdatum i dokument
+När du skapar nya försäljnings- eller inköpsdokument baseras **momsdatumet** på inställningen i fältet **Standarddatum för moms** på sidan **Redovisningsinställningar**. Det här standardvärdet kan vara samma som **Bokföringsdatum** eller **Dokumentdatum**. Om du behöver ett annat momsdatum kan du manuellt ändra värdet i fältet **Momsdatum**. När du bokför dokumentet visas **momsdatumet** i bokföringsdokumentet och i moms-och redovisningstransaktionerna.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Korrigera momsdatum i bokförda transaktioner
+I vissa fall måste du ändra momsdatumet även om dokumentet har bokförts, och det kan du göra i [!INCLUDE[prod_short](includes/prod_short.md)]. Så här ändrar du **momsdatumet** för bokförda dokument:
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **momstransaktioner** och väljer sedan relaterad länk.
+2. Hitta transaktionen med fel momsdatum.
+3. Klicka på åtgärden **Redigera lista** och ange korrekt datum i fältet **Momsdatum**.
+4. Stäng sidan.
+5. Det nya momsdatumet ändras i relaterade **redovisningstransaktioner** och i det bokförda dokumentet.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Manuellt korrigera momsbelopp i försäljnings- och inköpsdokument  
 Du kan korrigera redan bokförda momstransaktioner så att du kan ändra det totala beloppet för utgående eller ingående moms utan att ändra nettobeloppet. Om du t.ex. tar emot en faktura från en leverantör med ett felaktigt momsbelopp.  
@@ -109,14 +121,14 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurera inköp för bokföring av fakturor med specificerad importmoms  
 1. Skapa ett leverantörskort för den importavdelning som skickar importmomsfakturan till dig. **Gen. rörelsebokföringsmall** och **Moms rörelsebokföringsmall** måste ställas in på samma sätt som redovisningskontot för importmomsen.  
 2. Skapa en **produktbokföringsmall** för importmomsen och skapa **produktbokf.mall för standardmoms** för den kopplade **produktbokföringsmallen** för importmomsen.  
-3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
+3. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 4. Välj redovisningskontot för importmoms och välj sedan åtgärden **Redigera**.  
 5. På snabbfliken **Bokföring**  i fältet **Produktbokföringsmall** för importmomsen. [!INCLUDE[prod_short](includes/prod_short.md)] fyller automatiskt i **Moms, produktbokföringsmall**.  
-6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
+6. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 7. Skapa en kombination av **Gen. rörelsebokföringsmall** för skattemyndigheterna och **Produktbokföringsmall** för importmoms. Välj importmervärdeskattredovisningskontot för den här nya kombinationen i fältet **Inköpskonto**.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Så här skapar du en ny faktura för leverantören när du har slutfört inställningen  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Skapa en ny inköpsfaktura.  
 3. I fältet **Inköpsleverantörsnr** markerar du leverantören och klickar på **OK**.  
 4. I inköpsraden, i fältet **Typ** välj **Redovisningskonto**, och i fältet **Nr.** markera redovisningskontot för importmoms.  
@@ -128,7 +140,7 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 När du säljer varor till en kund i ett annat EU-land/region, måste du skicka kunden ett leveransintyg som kunden måste signera och returnera till dig. Följande tillvägagångssätt används för att behandla leveransintyg för försäljningsutleveranser, men samma moment gäller för serviceleveranser av artiklar och returutleveranser till leverantörer.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Så här visar du information om leveransintyg  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
 3. Välj **Information om leveransintyg**.  
 4. Som standard, om den momsbokföringsmall som har ställts in för kunden har kryssrutan **Leveransintyg krävs** markerad, så är fältet **Status** angett till **Obligatoriskt**. Du kan uppdatera fältet för att visa om intyget har tagits emot från kunden.  
@@ -147,7 +159,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 >  Du kan granska och skriva ut dokumentet. När du väljer **Skriv ut leveransintyg** och skriver ut dokumentet, väljs kryssrutan **Utskrivet** automatiskt. Dessutom, om den inte redan har angetts, uppdateras statusen för intyget till **Obligatoriskt**. Du inkluderar det utskrivna intyget med utleveransen.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Så här skriver du ut ett leveransintyg  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
 3. Välj **Skriv ut leveransintyg**.  
 
@@ -165,7 +177,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 8. Du måste skicka det utskrivna leveransintyget till kunden för signatur.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Så här uppdaterar du statusen för ett leveransintyg för en utleverans  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
 3. I fältet **Status** väljer du önskat alternativ.  
 
@@ -178,7 +190,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 Om du vill visa en grupp av certifikat startar du från på sidan **Leveransintyg** och uppdaterar sedan information om status för utestående intyg när du tar emot dem från kunderna. Det kan vara användbart när du vill söka efter alla intyg som har en viss status, till exempel **Obligatoriskt**, för vilka du vill uppdatera statusen till **Ej inlevererat**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Så här uppdaterar du statusen för en grupp med leveransintyg  
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leveransintyg** och väljer den relaterade länken.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leveransintyg** och väljer den relaterade länken.  
 2. Filtrera fältet **Status** fältet till värdet som du vill ha för att skapa listan över intyg som du vill hantera.  
 3. Om du vill uppdatera information om status, Välj **Redigera lista**.  
 4. I fältet **Status** väljer du önskat alternativ.  

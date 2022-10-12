@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 0f1e728b67555fcbde041f556265824b1a64a169
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 139ecb336cbfa637ad723322dad2b205050864b4
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529035"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604982"
 ---
 # <a name="welcome-to-prod_long"></a>Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -28,16 +28,16 @@ Om du redan har [!INCLUDE[prod_short](includes/prod_short.md)] loggar du in på 
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-docs"></a>Microsoft Docs
+## <a name="microsoft-learn"></a>Microsoft Learn
 
 På navigeringspanelen till vänster finns information om hur du använder [!INCLUDE[prod_short](includes/prod_short.md)] i företaget. Länkar till beskrivningar av de vanligaste funktionerna i avsnittet [Affärsprocesser](#business-processes). Se även avsnittet [Mer information om hur du använder produktdokumentationen](product-help-and-support.md#learn-more-using-the-product-documentation).
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-Du kan också [besök vårt videobibliotek](across-videos.md) eller starta med [Komma igång med Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) utbildningsvägen [Microsoft utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Du kan också [besöka vårt videobibliotek](across-videos.md) eller börja med utbildningsvägen [Kom igång med Microsoft Dynamics 365 Business Central](/training/paths/get-started-dynamics-365-business-central/) på [Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Om inget annat anges visar innehållet på den Docs.microsoft.com webbplatsen den senaste versionen av [!INCLUDE[prod_short](includes/prod_short.md)] online. Om din organisation använder en annan version av [!INCLUDE[prod_short](includes/prod_short.md)] online är kanske vissa funktioner inte tillgängliga ännu. Om organisationen använder sig [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kanske du använder en tidigare version. Mer information finns i [Vanliga frågor och svar](across-faq.yml).
+> Om inget annat har angetts återspeglar artiklar på Microsoft Learn den senaste versionen av [!INCLUDE[prod_short](includes/prod_short.md)] online. Om din organisation använder en annan version av [!INCLUDE[prod_short](includes/prod_short.md)] online är kanske vissa funktioner inte tillgängliga ännu. Om organisationen använder sig [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kanske du använder en tidigare version. Mer information finns i [Vanliga frågor och svar](across-faq.yml).
 
 Följande avsnitt innehåller viktig information som du kan använda för att komma igång med [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -76,9 +76,9 @@ Följande avsnitt innehåller viktig information som du kan använda för att ko
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regler och riktlinjer för AL-kod](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="learn"></a>Läs mer
+## <a name="microsoft-learn-training"></a>Microsoft Learn-utbildning
 
-Hitta gratis e-utbildningsinnehåll för [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Hitta gratis e-utbildningsinnehåll för [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft Learn-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Du kan också visa videor med nya och ofta använda funktioner i vårt videobibliotek. Mer information finns i [besök vårt videobibliotek](across-videos.md).  
 
@@ -94,7 +94,7 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-microsoft-learn-training"></a>Se relaterad [Microsoft Learn-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Se även
 
@@ -114,7 +114,6 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 [Dynamics 365-dokumentation](/dynamics365/)  
 [Dynamics 365 Business Central om microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Introduktion till docs.microsoft.com (det ursprungliga blogginlägget)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

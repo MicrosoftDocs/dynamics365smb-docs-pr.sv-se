@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535496"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607668"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Översikt över uppgifter för att avsluta bokföringsperioder
 
@@ -24,18 +24,18 @@ ms.locfileid: "9535496"
 
 * Specificera intervall för bokföringsdatum som gäller hela systemet och är användarspecifik.  
 
-    Detta anger datumen som bokföring kan göras i. Beroende på vilka behov som finns i ditt företag kanske du vill tillåta bokföring i början av perioden eller mot slutet. Mer information finns [Så här anger du bokföringsperioder](finance-how-specify-posting-periods.md).  
+    Detta anger datumen som bokföring kan göras i. Beroende på vilka behov som finns i ditt företag kanske du vill tillåta bokföring i början av perioden eller mot slutet. Läs mer på [Ange bokföringsperioder](finance-how-specify-posting-periods.md).  
 * Gör alla nödvändiga redovisningsjusteringar.  
 * Uppdatera och bokför återkommande journaler.  
   <!--* Process Consolidations-->
-* Kör kontouppställningar enligt följande:  
-  * Öppna sidan **Kontouppställning** och klicka på **Skriv ut**.  
+* Gör ekonomiska rapporter så här:  
+  * Öppna sidan **Ekonomiska rapporter** och välj åtgärden **Skriv ut**.  
 
 ## <a name="sales-and-receivables"></a>Försäljning
 
 * Bokför alla försäljningsorder, fakturor, kreditnotor och returorder.  
 * Bokför alla inbetalningsjournaler.  
-* Uppdatera och bokför återkommande journaler som hör till försäljning- och kundreskontra.  
+* Uppdatera och bokför återkommande journaler som hör till försäljning.  
 * Stäm av kundreskontra i redovisningen.  
 * Kör batch-jobbet **Ta bort fakturerade förs.order**  
 
@@ -43,13 +43,13 @@ ms.locfileid: "9535496"
 
 * Bokför alla inköps order, fakturor, kreditnotor och returorder.  
 * Bokför alla betalningsjournaler.  
-* Uppdatera och bokför återkommande journaler som relaterar till inköps- och leverantörsreskontra.  
+* Uppdatera och bokför återkommande journaler som relaterar till inköp.  
 * Kör rapporten **Lev.skulder – ålder** och stäm av leverantörsskulder i redovisningen.  
 * Kör batch-jobbet **Ta bort fakturerade inköpsorder**  
 
 ## <a name="fixed-assets"></a>Anläggningstillgångar
 
-* Alla underhållskostnader har bokförts via anl.journaler eller fakturor
+* Bokför alla underhållskostnader som har bokförts via anl.journaler eller fakturor.
 * Bokföra justeringar.
 * Bokföra uppskrivning
 * Bokföra avskrivning
@@ -57,9 +57,9 @@ ms.locfileid: "9535496"
 
 ## <a name="intercompany"></a>Koncernintern
 
-* Behandla koncerninterna transaktioner
+* Behandla koncerninterna transaktioner.
 
-## <a name="calculate-and-process-sales-tax"></a>Beräkna och bearbeta Omsättningsskatt
+## <a name="calculate-and-process-sales-tax"></a>Beräkna och bearbeta omsättningsskatt
 
 * Fyll i skattmeddelanden.  
 
@@ -70,6 +70,5 @@ ms.locfileid: "9535496"
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Avsluta böcker](year-close-books.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 # [Ny och planerad](product-news.md)
 # Kom igång
 ## [Översikt över affärsfunktioner](across-business-functionality.md)
-<!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
+<!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Läs mer
 ### [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)
 ### [Business Central-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -20,7 +20,7 @@
 #### [Genomgång: Beräkna produkter i arbete för ett projekt](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Genomgång: Plockning och leverans i grundläggande lagerkonfiguration](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Genomgång: Utföra kassaflödesprognoser genom att använda ekonomiska rapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 <!-- Contoso-->
 ### Demonstrationsdata för Contoso Coffee för tillverkning
 #### [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -124,6 +124,7 @@
 ### [Översikt över allmänna funktioner](ui-work-product.md)
 ### [Utskriftsversion av översiktsblad](ui-work-product.md#cheatsheet)
 ### [Söka efter sidor och information med berätta](ui-search.md)
+### [Söka efter specifika data](ui-search-data.md)
 ### [Söka efter sidor med rollutforskaren](ui-role-explorer.md)
 ### [Vanliga frågor om Berätta](ui-search-faq.md)
 ### [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
@@ -196,10 +197,11 @@
 ### [Resurser för hjälp och support](product-help-and-support.md)
 ### [Besök vårt videobibliotek](across-videos.md)
 ### [Hämta teknisk support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-<!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+
+<!--## Microsoft Learn training
+### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -225,6 +227,7 @@
 ### [Bokföra flera dokument på samma gång](ui-batch-posting.md)
 ### [Förhandsgranska resultat](ui-how-preview-post-results.md)
 ### [Redigera bokförda dokument](across-edit-posted-document.md)
+### [Statusfält i dokument](ui-document-status.md)
 ### [Arbeta med redovisningsjournaler](ui-work-general-journals.md)
 ### [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)
 ### [Låt Business Central föreslå värden](ui-let-system-suggest-values.md)
@@ -257,7 +260,6 @@
 ##### [Konfigurera dataintegration](across-set-up-data-exchange.md)
 ##### [Konfigurera en tjänst för dokumentutbyte](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Ställa in inkommande dokument](across-how-setup-income-documents.md)
-##### [Uppdatera valutakurser](finance-how-update-currencies.md)
 ##### [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
@@ -275,7 +277,6 @@
 ##### [Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Göra betalningar med AMC Banking 365 Fundamentals-tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Uppdatera valutakurser](finance-how-update-currencies.md)
 ##### [Fältmappning vid import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Fältmappning för AMC Banking 365 Fundamentals-tillägget](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
@@ -301,6 +302,7 @@
 #### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md)
 #### [Moms i standardversionen av Business Central](sales-tax-concept.md)
+#### [Arbeta med Intrastat-rapporter](finance-how-report-intrastat.md)
 
 ### Hantera likviditet
 #### [Översikt över leverantörsreskontra](payables-manage-payables.md)
@@ -416,19 +418,19 @@
 ### [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)
 ### [Så här omvandlar du servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)
 ### [Hantera momssatsändringar](finance-how-use-vat-rate-change-tool.md)
-### [Genomgång: Utföra kassaflödesprognoser genom att använda kontouppställningar](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### [Genomgång: Utföra kassaflödesprognoser genom att använda ekonomiska rapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analysera finansiella rapporter i Excel](finance-analyze-excel.md)
 ### [Överföra banktillgångar](bank-how-transfer-bank-funds.md)
 ### [Skapa bankdepositioner](bank-create-bank-deposits.md)
-### [Revisorlösningar i Business Central](finance-accounting.md)
+### [Revisorlösningar i Business Central ](finance-accounting.md)
 ### [Flera platser och internationella organisationer](finance-multi-site-organizations.md)
 
-## Business Intelligence och Financial Reporting
-### [Business Intelligence och Financial Reporting (översikt)](bi.md)
+## Ekonomisk rapportering och Business Intelligence-rapportering
+### [Översikt över ekonomisk rapportering och Business Intelligence-rapportering](bi.md)
 ### [Ekonomisk rapportering](finance-reports.md)
 ### [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)
-### [Förbereda ekonomiska rapporter, kontouppställningar och kategorier](bi-how-work-account-schedule.md)
-### [Skapa och publicera KPI-webbtjänster som baseras på kontouppställningar](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+### [Förbereda Financial Reporting med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)
+### [Skapa och publicera KPI-webbtjänster som baseras på ekonomiska rapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)
 ### [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)
 ### [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)
@@ -456,7 +458,7 @@
 ### [Kombinera leveranser på en enda faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)
 ### [Spåra paket](sales-how-track-packages.md)
-### [Datumberäkning för försäljning](sales-date-calculation-for-sales.md)
+### [Beräkning av leveransdatum för försäljning](sales-date-calculation-for-sales.md)
 ### [Slå samman dubblettposter](sales-how-merge-duplicate-records.md)
 ### [Arbeta med återkommande intäkter](finance-recurring-invoicing.md)
 ### [Ange externa dokumentnummer](across-enter-external-document-numbers.md)
@@ -486,6 +488,7 @@
 ### [Registrera nya artiklar](inventory-how-register-new-items.md)
 ### [Arbeta med strukturer](inventory-how-work-BOMs.md)
 ### [Kategorisera artiklar](inventory-how-categorize-items.md)
+### [Hantera produktvarianter](inventory-item-variants.md)  
 ### [Arbeta med artikelattribut](inventory-how-work-item-attributes.md)
 ### [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md)
 ### [Beräkna och justera lager med hjälp av dokument](inventory-how-count-inventory-with-documents.md)
@@ -588,7 +591,7 @@
 ### [Artiklar för montering mot kundorder och lagerartiklar ihop](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Skapa monteringsorder för avrop](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Ångra monteringsboking](assembly-how-to-undo-assembly-posting.md)
-### [Arbeta med strukturer](inventory-how-work-BOMs.md)
+### [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)
 ### [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)
 
 ## Produktion
@@ -629,8 +632,8 @@
 #### [Plocka artiklar](warehouse-pick-items.md)
 #### [Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Plocka artiklar för utleverans från dist.lager](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration](warehouse-how-to-pick-for-production.md)
-#### [Plocka för produktion eller montering i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+#### [Plocka för produktion, montering eller jobb i grundläggande distributionslagerkonfigurationer](warehouse-how-to-pick-for-production.md)
+#### [Plocka för produktion, montering eller jobb i avancerade distributionslagerkonfigurationer](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 #### [Planera plockningar i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md)
 #### [Plocka och lagra utan källdokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 #### [Plocka med FEFO](warehouse-picking-by-fefo.md)
@@ -671,7 +674,6 @@
 ### [Synkronisera objekt med Shopify](shopify/synchronize-items.md)
 ### [Synkronisera kunder med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisera och uppfylla försäljningsordrar med Shopify](shopify/synchronize-orders.md)
-### [Ställa in moms för Shopify anslutning](shopify/setup-taxes.md)
 ### [Kör uppgifter i bakgrunden](shopify/background.md)
 ### [Felsök Shopify-kopplingen](shopify/troubleshoot.md)
 ### [FAQ för Shopify-kopplingen](shopify/shopify-faq.md)
@@ -1228,11 +1230,11 @@
 ### Ryssland
 #### [Lokala funktioner i den ryska versionen](LocalFunctionality/Russia/russia-local-functionality.md)
 #### Grundläggande ekonomi
-##### [Kontouppställningar – översikt](LocalFunctionality/Russia/account-schedules-overview.md)
-##### [Importera och exportera kontouppställningar](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
-##### [Definiera ett kontouppställningstillägg](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
-##### [Definiera en kontouppställningskonstant](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
-##### [Arbeta med kontouppställningar](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
+##### [Översikt över ekonomiska rapporter](LocalFunctionality/Russia/account-schedules-overview.md)
+##### [Importera och exportera ekonomiska rapporter](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
+##### [Definiera ett tillägg till en ekonomisk rapport](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
+##### [Definiera en konstant i en ekonomisk rapport](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
+##### [Arbeta med ekonomiska rapporter](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
 ##### [Korrespondens i redovisning](LocalFunctionality/Russia/general-ledger-correspondence.md)
 ##### [Valuta](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 ##### [Skapa ansvariga medarbetare och förskottsutdrag](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
@@ -1340,7 +1342,7 @@
 ##### [Ställ in och stäng resultaträkningssaldon](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indrag och validera kontoplan](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
 ##### [Ignorera rabatter i redovisningskonton](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
-##### [Exportera kontouppställningar till ASC-format](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
+##### [Exportera ekonomiska rapporter till ASC-format](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
 ##### [Skriva ut rapporter för kontoregler](LocalFunctionality/Spain/how-to-print-account-book-reports.md)
 ##### [Skriv ut regler för försäljning och inköpsfaktura](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
 ##### [Transaktionsnummer](LocalFunctionality/Spain/transaction-numbers.md)
@@ -1427,7 +1429,7 @@
 ### USA
 #### [Lokala funktioner i den amerikanska versionen](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Moms
-##### [Moms USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Grundläggande momsinställningar](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Rapportering av moms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Ställ in och Använd formuläret IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regel 1099 formatera ändringar och information](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
@@ -1449,7 +1451,7 @@
 #### [Konfigurera betalsätt](finance-payment-methods.md)
 #### [Ställa in betalningsvillkor](finance-payment-terms.md)
 #### [Konfigurera bokföringsmallar](finance-posting-groups.md)
-#### [Förbereda Financial Reporting med kontouppställningar och kontokategorier](bi-how-work-account-schedule.md)
+#### [Förbereda Financial Reporting med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)
 #### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)
 #### [Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)
@@ -1467,7 +1469,7 @@
 #### [Konfigurera kontoplan](finance-setup-chart-accounts.md)
 #### [Ställa in analys för kassaflöde](finance-setup-cash-flow-analyses.md)
 #### [Så här skapar du Kontantkunder](finance-how-to-set-up-cash-customers.md)
-#### [Skapa och rapportera Intrastat](finance-how-setup-report-intrastat.md)
+#### [Ställa in Intrastat-rapporter](finance-how-setup-report-intrastat.md)
 #### [Så här använder du fördelningsnycklar i redovisningsjournaler](ui-how-use-allocation-keys-general-journals.md)
 ### Konfigurera bank
 #### [Konfigurera bank](bank-setup-banking.md)
@@ -1583,7 +1585,7 @@
 ##### [Använda Business Central utan Outlook](admin-no-outlook.md)
 ##### [Vanliga frågor och svar](ui-outlook-addin-faq.yml)
 ### Konfigurera rapporter
-#### [Rapporturval](across-report-selections.md)
+#### [Rapportval för dokument](across-report-selections.md)
 ### Konfigurera godkännandeflöden baserade på mallar
 #### [Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)
 #### [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)
@@ -1613,7 +1615,8 @@
 #### Använda OneDrive för företag med Business Central
 ##### [Översikt](across-onedrive-overview.md)
 ##### [Hantera OneDrive för företagsintegrering](admin-onedrive-integration.md)
-##### [Öppna Business Central-filer i OneDrive](across-share-onedrive.md)
+###### [Konfigurera OneDrive-integration med Business Central lokalt](admin-onedrive-integration-onpremises.md)
+##### [Öppna och dela filer i OneDrive](across-share-onedrive.md)
 ##### [OneDrive Vanliga frågor och svar](admin-onedrive-faq.md)
 #### Använda Power BI med Business Central
 ##### [Introduktion](admin-powerbi.md)
@@ -1653,17 +1656,17 @@
 ### [Kör rapporter](ui-work-report.md)
 ### [Bokmärk en rapport](ui-bookmarks.md)
 ### [Analysera rapportdata med Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
 ### [Skriva ut rapporter](ui-specify-printer-selection-reports.md#default)
 ### [Schemalägg rapporter](ui-work-report.md#ScheduleReport)
+### [Dela och exportera rapporter med rapportinkorgen](ui-work-report-inbox.md)
 ### [Hantering av sparade rapportinställningar](reports-saving-reusing-settings.md)
 ### [Ange layout för en rapport](ui-set-report-layout.md)
 ### [(Äldre) Ange layout för en rapport](ui-how-change-layout-currently-used-report.md)
 
 ## Inbyggda rapporter
 ### [Rapportöversikt](reports-available-reports.md)
-### Finans
-#### [Ekonomisk analys](bi.md)
+### Ekonomi
+#### [Ekonomisk Business Intelligence](bi.md)
 #### [Analysera finansiella rapporter med Excel](finance-analyze-excel.md)
 #### [Viktiga ekonomiska rapporter](finance-reports.md)
 #### [Kundfordringsrapporter](receivables-reports.md)
@@ -1704,7 +1707,7 @@
 
 ### Monteringshantering
 #### [Monteringshanteringsrapporter](assembly-reports.md)
-#### [Visa strukturen för strukturlistan](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+#### [Visa strukturen för strukturlistan](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
 ### Produktion
 #### [Produktionsrapporter](production-reports.md)
@@ -1723,13 +1726,13 @@
 ### [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)
 ### [Analysera siddata i Excel](across-work-with-excel.md)
 ### [Analysera rapportdata med Excel](report-analyze-excel.md)
-### [Ekonomisk analys](bi.md)
+### [Ekonomisk Business Intelligence](bi.md)
 
 ## Inbyggda analyser 
 ### [Översikt](reports-built-in-analytics.md)
 ### [Intelligenta insikter](about-intelligent-cloud.md)
 ### [Arbeta med Power BI-rapporter](across-working-with-powerbi.md)
-### [Ekonomisk analys](bi.md)
+### [Ekonomisk Business Intelligence](bi.md)
 ### [Analysera finansiella rapporter med Excel](finance-analyze-excel.md)
 ### [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)
 ### [Telemetri för rapportanvändning](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535860"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606890"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Ange layout för en rapport
 
@@ -25,17 +25,19 @@ En rapportlayout bestämmer utseendet på en rapport. Det styr vilka data fält 
 
 När det finns flera företag i kopplingen anges layouterna för varje företag. Samma rapport i ett företag kan ha olika layout i ett annat företag.
 
-## <a name="get-started"></a>Kom igång
+## <a name="get-started"></a>Kom i gång
 
-Det finns två sätt att ange vilken layout en rapport använder. Ett sätt är från sidan **Val av rapportlayout**. På det andra sättet kommer du från sidan **rapportlayouter**. Varje sida har olika fördelar, t.ex.: 
+Det finns några olika sätt att ange vilken layout en rapport använder. Varje sätt har fördelar, beroende på vad du vill göra: 
 
-- På sidan för **val av rapportlayout** visas en lista över alla rapporter.
+- Från sidan för rapportbegäran
 
-  På den här sidan visas den aktuella layouten för en rapport. Dessutom kan du ange layouter i olika företag utan att behöva byta det företag som du arbetar med.
+  När du konfigurerar en rapport som ska köras innehåller sidan för rapportbegäran fältet **Rapportlayout**, som innehåller den aktuella standardlayouten som används i rapporten. Du kan använda det här fältet för att tillfälligt växla till en annan tillgänglig layout i den rapport du kör. När du har kört rapporten återgår layouten till standardlayouten igen. Mer information finns i [Köra och skriva ut rapporter](ui-work-report.md#switching-the-report-layout).
 
-- På sidan **rapportlayout** visas alla tillgängliga layouter för varje rapport i det aktuella företaget.
+- Från sidan **Val av rapportlayout**
 
-  Det är enkelt att hitta en speciell layout genom att sortera eller filtrera listan. När du har hittat layouten kan du ange den för en rapport med ett enda val.
+  På sidan för **val av rapportlayout** visas en lista över alla rapporter. På den här sidan visas den aktuella standardlayouten för en rapport. Där kan du ange layouter i olika företag utan att behöva byta det företag som du arbetar med.
+
+- Från sidan **Rapportlayouter** På sidan **Rapportlayouter** visas alla tillgängliga layouter för varje rapport i det aktuella företaget. Den används också för att ange standardlayout för rapporter. Det är enkelt att hitta en speciell layout genom att sortera eller filtrera listan. När du har hittat layouten kan du ange den för en rapport med ett enda val.
 
   > [!NOTE]
   > Du kan inte använda sidan **rapportlayout** för Word- och RDLC layouter som har skapats med hjälp av de äldre **anpassade layouterna**. Du behöver inte ens visa dessa egna layouter på sidan **rapportmallar**. För dessa layouter kan du bara ställa in dem med hjälp av sidan **val av rapportlayout**.

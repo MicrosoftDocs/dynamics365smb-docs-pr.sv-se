@@ -8,14 +8,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 06/24/2021
+  ms.date: 08/09/2022
   ms.author: mikebc
-  ms.openlocfilehash: 6140dd6e114a8967a4e20196feb88e25fbd06bb1
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
+  ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
   ms.translationtype: HT
   ms.contentlocale: sv-SE
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8144599"
+  ms.lasthandoff: 09/30/2022
+  ms.locfileid: "9607641"
 title: Vanliga frågor om listvyer
 summary: I den här artikeln besvaras frågor som våra erfarna användare ofta ställer om att arbeta med listvyer och spara filter.
 sections:
@@ -47,7 +47,7 @@ sections:
   - question: >
       Finns det även vyer för andra formulärfaktorer?
     answer: >
-      Ja. Alla vyer som du sparar i din webbläsare eller på en stationär dator kommer också att vara tillgängliga på din surfplatta eller smartphone. Du kan inte ändra eller anpassa vyer på mobila enheter.
+      Ja. Alla vyer som du sparar i din webbläsare eller på en skrivbordsapp kommer också att vara tillgängliga på din surfplatta, smartphone eller inbäddad i Microsoft Teams. Du kan inte ändra eller anpassa vyer på mobila enheter.
   - question: >
       Är mina personliga vyer alltid tillgängliga?
     answer: >
@@ -63,7 +63,7 @@ sections:
   - question: >
       Hur gör jag för att dela mina vyer med andra?
     answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller inget sätt att dela den exakta listvyn. Du kan emellertid dela med dig av de aktuella filtren så att andra användare kan se en liknande lista över poster. Kopiera helt enkelt URL-adressen till din stationära webbläsare och dela den med dina kollegor. Det går inte att garantera att delade filter ger mottagaren en identisk uppsättning filter som du ser i webbläsaren.
+      [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller inget sätt att dela den exakta listvyn. Du kan emellertid dela med dig av de aktuella filtren så att andra användare kan se en liknande lista över poster. I Business Centrals webbklient väljer du en vy och använder funktionen **Kopiera länk** för att kopiera URL-adressen till Urklipp. kopiera helt enkelt URL-adressen och dela den med dina kollegor. Det går inte att garantera att delade filter ger mottagaren en identisk uppsättning filter som du ser i webbläsaren.
   - question: >
       Kan jag söka efter vyer i fönstret Berätta?
     answer: >
@@ -88,17 +88,9 @@ sections:
       De vyer som visas i en lista är en kombination av dina personliga vyer tillsammans med systemvyer. Systemvyer kan komma från affärsprogrammet, från tillägg eller kan vara rollspecifika om listan har anpassats för din roll.
   - question: >
       Varför ger vissa vyer färre alternativ?
-    answer: >
-      Vissa vyer ger bara möjlighet att spara en kopia av vyn, medan andra inte tillåter att ändringar sparas i vyn. Hur vyn skapades avgör vilka alternativ som är tillgängliga för vyn. Vyer kan skapas på flera sätt:
-
-
-      - Personliga vyer som du har sparat
-
-      - Systemvyer som är en standarddel av affärsprogrammet, eller läggs till via tillägg eller rollspecifika vyer. Till skillnad från personliga vyer kan du inte spara tillbaka ändringar av filter till den systemvyn.
-
-      - Äldre systemvyer som utgör en standarddel av affärsprogrammet men som har skapats med äldre versioner av [!INCLUDE[prod_short](includes/prod_short.md)]. Dessa vyer ger färre alternativ. Du kan bara spara dem som en ny vy – du kan inte dölja dem eller ändra ordningen på dem. Stödet för äldre systemvyer kommer att upphöra i en kommande uppdatering av [!INCLUDE[prod_short](includes/prod_short.md)].
+    answer: "Vissa vyer ger bara möjlighet att spara en kopia av vyn, medan andra inte tillåter att ändringar sparas i vyn. Hur vyn skapades avgör vilka alternativ som är tillgängliga för vyn. Vyer kan skapas på flera sätt:\n\n- Personliga vyer som du har sparat\n- Systemvyer som är en standarddel av affärsprogrammet, eller läggs till via tillägg eller rollspecifika vyer. Till skillnad från personliga vyer kan du inte spara tillbaka ändringar av filter till den systemvyn.\n- Äldre systemvyer som utgör en standarddel av affärsprogrammet men som har skapats med äldre versioner av [!INCLUDE[prod_short](includes/prod_short.md)]. Dessa vyer ger färre alternativ. Du kan bara spara dem som en ny vy – du kan inte dölja dem eller ändra ordningen på dem. Stödet för äldre systemvyer kommer att upphöra i en kommande uppdatering av [!INCLUDE[prod_short](includes/prod_short.md)].\n\n> [!NOTE]\n> Från och med utgivningscykel 2 år 2023 av Business Central stöds inte längre äldre vyer och visas inte på listsidan. Lär dig mer om hur utvecklare kan migrera till moderna listvyer på [Migrera från äldre vyer till moderna vyer](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
   - question: >
-      Hur konverterar jag äldre systemvyer?
+      Hur kommer jag förbi tidigare begränsningar för äldre systemvyer?
     answer: >
       Äldre systemvyer är listvyer som har skapats av utvecklare i äldre versioner av [!INCLUDE[prod_short](includes/prod_short.md)] genom att placera dem på sidan rollcenter. Dessa vyer visas nu direkt på listsidan, men ger en försämrad upplevelse och färre alternativ. Du kan konvertera en äldre systemvy till en personlig vy som är helt anpassningsbar, genom att spara den äldre vyn som en ny vy. På samma sätt kan administratörer välja att konvertera rollspecifika äldre systemvyer genom att anpassa användar rollen och spara den äldre vyn som en ny rollbaserad vy.
 

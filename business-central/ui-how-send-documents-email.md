@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532356"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607209"
 ---
 # <a name="send-documents-and-emails"></a>Skicka dokument och e-post
 
@@ -51,10 +51,13 @@ Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura t
 > Om du inte vill ange e-postinställningar varje gång du e-postar ett dokument, kan du välja alternativet **Ja (använd standardinställningar)** i fältet **E-post** på sidan **Skicka dokument till**. I så fall kommer inte sidan **Skicka e-post** att öppnas. Se steg 4. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Skriva och skicka ett e-postmeddelande
+
 Du kan snabbt skapa e-postmeddelanden för kontakter, kunder, leverantörer, säljare/inköpare och bankkonton direkt från sidorna i dessa entiteter. Välj bara **processer** och skicka sedan **e-post** för att öppna e-postredigeraren. För bankkonton finns åtgärden **skicka e-post** under **åtgärder**.
 
 > [!TIP]
 > Om du ofta skickar e-postmeddelanden som är snarlika eller vill skicka en masskommunikation, t.ex. att annonsera en försäljningskampanj, kan du använda Word-mallar med e-post för att påskynda arbetet. Du kan skapa en mall för en entitet, till exempel kunder, leverantörer och kontakter, som ska generera innehållet i ett e-postmeddelande åt dig och till och med anpassa innehållet för mottagaren baserat på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [använda Word-mallar för masskommunikation](ui-mail-merge.md).  
+
+Om du är tilldelad ett e-postscenario som är relaterat till den entitet som du skickar e-post till, eller det dokument som du skickar, kan en bifogad fil läggas till automatiskt i meddelandet. Det beror på att en standardbilaga har tilldelats e-postscenariot. Du kan ta bort den bifogade filen om du inte vill skicka den med meddelandet. Mer information finns i [Tilldela e-postscenarier till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokument markerade som utskrivna ut när de skickas
 

@@ -1,65 +1,61 @@
 ---
-title: Anpassa Business Central Online med hjälp av tillägg
-description: Lär dig mer om att lägga till funktioner och att anpassa Business Central genom att installera tillägg.
+title: Anpassa Business Central Online med hjälp av appar
+description: Lär dig mer om att lägga till funktioner och att anpassa Business Central genom att installera appar i den här artikeln.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 2500, 2502
-ms.date: 03/22/2022
+ms.search.form: 2500, 2502, 20350, 20353
+ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 8ff68bbeb2d7603b1c4d1b612413279cca5eec86
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5b0744394201e11534f19c25999af0da0944ec9b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530465"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605691"
 ---
-# <a name="customizing-business-central-online-using-extensions"></a>Anpassa Business Central Online med hjälp av tillägg
+# <a name="customizing-business-central-online-with-apps"></a>Anpassa Business Central Online med appar
 
-Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] online genom att installera tillägg som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster.
+Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] online genom att installera appar som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster. Dessa appar kallas även *tillägg* eftersom de *utökar* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-> [!NOTE]
-> Om du vill installera eller avinstallera tillägg från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i användargruppen **D365 Extension Mgt.** eller ha behörighetsuppsättningen **EXTENSION MGT - ADMIN**. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).  
->
-> Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
+## <a name="manage-apps"></a>Hantera appar
 
-<!-- [!NOTE]  
-> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
+När du först startar [!INCLUDE[prod_short](includes/prod_short.md)] är några appar redan installerade. Med tiden kommer fler appar att göras tillgängliga till dig, och du kan då välja om du vill använda appen eller inte.
+
+Till exempel ger Microsoft en app som ger integrering med PayPal Payments Standard. Detta tillägg instalelras dessutom som standard. Men om ett annat tillägg är tillgängligt som erbjuder integrering med en annan utbetalningtjänst, kan du installera det nya tillägget och sedan välja vilka av de två tjänsterna som ska användas.  
+
+Om du vill använda funktionen som tillhandahålls av en app, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av appen.
+
+Om du vill installera eller avinstallera appar från AppSource eller lägga till tillägg per klientorganisation måste du ha rätt behörigheter. Du måste antingen vara medlem i användargruppen **D365 Extension Mgt.** eller ha behörighetsuppsättningen **EXTENSION MGT - ADMIN**. Om du är administratör kan du tilldela användargrupper och behörigheter till andra användare i företaget. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]  
-> Överföring av tillägg per innehavare och installation av AppSource-tillägg stöds inte via sidan **Tilläggshantering** för lokala installationer. Du kan inte installera AppSource-tillägg lokalt, inklusive i Docker-baserade distributioner.
+> För lokalt [!INCLUDE [prod_short](includes/prod_short.md)] kan du inte ladda upp tillägg per klientorganisation eller installera AppSource-appar genom sidan **Tilläggshantering**. Du kan inte installera AppSource-appar lokalt, inklusive i Docker-baserade distributioner.
 
-När du först startar först [!INCLUDE[prod_short](includes/prod_short.md)], har du dessutom några tillägg installerade. Med tiden kommer fler tillägg att göras tillgängliga till dig, och du kan då välja om du vill använda tillägg eller inte.
-
-Till exempel ger Microsoft ett tillägg som ger integrering med PayPal Payments Standard. Detta tillägg instalelras dessutom som standard.
-Men om ett annat tillägg är tillgängligt som erbjuder integrering med en annan utbetalningtjänst, kan du installera det nya tillägget och sedan välja vilka av de två tjänsterna som ska användas.  
-
-Du hanterar tilläggen på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Du kan också välja ikonen **Sök efter sidan eller rapporten** ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") i övre högra hörnet och ange **tillägg** och välj sedan den relaterade länken. Mer information finns i [Installera och avinstallera tillägg](ui-extensions-install-uninstall.md).
+Du hanterar apparna på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Du kan också välja ikonen **Sök efter sidan eller rapporten** ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") i övre högra hörnet och ange **tillägg** och välj sedan den relaterade länken. Mer information finns i [Installera och avinstallera appar](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
-> Om du tror att du borde ha åtkomst till ett tillägg, men dess funktioner inte går att hitta kontrollerar du sidan **tilläggshantering** om tillägget inte finns, kan du installera det enligt vad som beskrivs i följande avsnitt.  
+> Om du tror att du borde ha åtkomst till en app, men dess funktioner inte går att hitta kontrollerar du sidan **Tilläggshantering**. Om appen inte finns, kan du installera den enligt vad som beskrivs i följande avsnitt.  
 
 > [!NOTE]  
 > Logga in på [AppSource.microsoft.com](https://appsource.microsoft.com/) med hjälp av det e-postkonto som du använder för [!INCLUDE[prod_short](includes/prod_short.md)] online. Använd samma e-postkonto för andra tjänster och produkter för en bra upplevelse.  
 
-Du kan också komma till marknadsplatsen från [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Tilläggshantering** kan du se tilläggen som installeras för närvarande, och du kan öppna sidan **tilläggmarknadsplatsen** som visar tilläggen för [!INCLUDE[prod_short](includes/prod_short.md)] som för närvarande finns tillgängliga i AppSource. Om du väljer länken *Fler appar* tas du till [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
+Du kan också komma till marknadsplatsen från [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Tilläggshantering** kan du se apparna som är installerade för närvarande, och du kan öppna sidan **Tilläggmarknadsplatsen** som visar apparna för [!INCLUDE[prod_short](includes/prod_short.md)] som för närvarande finns tillgängliga i AppSource. Om du väljer länken *Fler appar* tas du till [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
-Om du väljer ett tillägg kan du läsa om vad tillägget används till och du kan få mer information om tillägget. När du väljer att få ett tillägg, måste du godkänna användningsvillkoret. Om du får tillägget från AppSource-webbplatsen kommer du att loggas in på [!INCLUDE[prod_short](includes/prod_short.md)] för att slutföra installationen.  
+Om du väljer en app kan du läsa om vad appen används till och du kan få mer information om appen i hjälpavsnittet. När du väljer att hämta en app, måste du godkänna användningsvillkoret. Om du hämtar appen från AppSource-webbplatsen kommer du att loggas in på [!INCLUDE[prod_short](includes/prod_short.md)] för att slutföra installationen.  
 
-När du installerar tillägget kanske du behöver måste konfigurera det, till exempel ange ett konto för användning med tillägget **PayPal Payments Standard för [!INCLUDE[prod_short](includes/prod_short.md)]**.
-Andra tillägg lägger bara till i fält på en befintlig sida, eller lägger till en ny sida, till exempel.   
+När du installerar en app kanske du måste konfigurera den, till exempel ange ett konto för användning med tillägget **PayPal Payments Standard för [!INCLUDE[prod_short](includes/prod_short.md)]**.
+Andra appar lägger bara till fält på en befintlig sida, eller lägger till en ny sida, till exempel.   
 
-Om du avinstallerar tillägget och du sedan ändrar dig kan du installera det på nytt. När du avinstallerar tillägg som du har använt, bevaras data så att de är tillgängliga om du installerar tillägget igen. Det finns vissa tillägg som krävs. Du kan inte avinstallera dem från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.  
+Om du avinstallerar en app och du sedan ändrar dig kan du installera den på nytt. När du avinstallerar en app som du har använt, bevaras data så att de är tillgängliga om du installerar appen igen. Det finns vissa appar som krävs. Du kan inte avinstallera dem från sidan för **tilläggshantering**. Om du försöker visas ett felmeddelande.  
 
-Några tillägg ges ut av Microsoft, och andra tillägg ges ut av [andra företag](ui-extensions-other.md). Alla tillägg testas innan de görs tillgängliga för dig, men vi rekommenderar att du öppnar länkarna som tillhandahålls med varje tillägg om du vill veta mer om tillägget innan du väljer att installera det.  
+Några appar ges ut av Microsoft, och andra appar ges ut av [andra företag](ui-extensions-other.md). Alla appar testas innan de görs tillgängliga för dig, men vi rekommenderar att du öppnar länkarna som tillhandahålls med varje tillägg om du vill veta mer om appen innan du väljer att installera den.  
 
 > [!NOTE]  
-> Du kan hålla utkik efter nya tillägg från Microsoft och andra leverantörer på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> Du kan hålla utkik efter nya appar från Microsoft och andra leverantörer på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+## <a name="apps-and-data-transfer"></a>Appar och dataöverföring
 
-## <a name="extensions-and-data-transfer"></a>Tillägg och dataöverföring
-
-Eftersom följande tillägg kommunicerar med andra tjänster kan de överföra data ur geografi för [!INCLUDE[prod_short](includes/prod_short.md)]-miljö:
+Eftersom följande appar kommunicerar med andra tjänster kan de överföra data ur geografin för [!INCLUDE[prod_short](includes/prod_short.md)]-miljön:
 
 * AMC Banking 365 Fundamentals-tillägg
 * Image Analyzer
@@ -75,26 +71,38 @@ Detta gäller även vissa funktioner i basprogrammet, till exempel följande fun
 * Dataverse-anslutningar
 * OCR-tjänst
 * Online Map
-* EU:s momsregistreringsnummer Service
+* EU:s momsregistreringsnummer Tjänst
 
-## <a name="recommended-apps"></a>Rekommenderade appar
-Microsofts partner och återförsäljare kan skapa ett tillägg som de kan använda för att sammanställa listor över appar som de ofta rekommenderar till sina kunder. Om de gör det och har distribuerat tillägget till din klientorganisation kommer programmen att vara tillgängliga på sidan **rekommenderade appar**. Där kan du läsa om varje app och bestämma om du ska installera dem.
+## <a name="connect-your-business"></a>Anslut företaget
+
+Från och med utgivningscykel 2 2022 kan [!INCLUDE [prod_short](includes/prod_short.md)]-onlinemiljöer lista en eller flera appar på sidorna **Anslutningsappar** och **Bankappar**. Dessa appar kan ansluta ditt företag till externa tjänster, vilket ökar produktiviteten genom att processer automatiseras. Du kan t.ex. ansluta till dina banker och importera banktransaktioner automatiskt. Apparna är enkla att installera och konfigurera direkt från den här sidan. Välj en app för att lära dig mer om funktioner och prissättning.  
+
+Visa listan över föreslagna appar genom att välja åtgärden **Anslutningsappar** på sidan **Tilläggshantering**.  
 
 > [!NOTE]
-> Om du är Microsoft-partner eller återförsäljare och vill tillhandahålla en lista över rekommenderade appar, se [rekommendationer för appar från AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
+> Den första personen som öppnar sidan **Anslutningsappar** måste bevilja tillägget tillstånd att ansluta till en extern tjänst. Tillåt anslutningen en gång eller alltid. Om du väljer att blockera anslutningen måste du hitta relevanta appar på AppSource.
+
+Den här externa tjänsten kommer att generera en lista över relevanta appar som baseras på ditt land eller din region
+
+## <a name="recommended-apps"></a>Rekommenderade appar
+
+Microsofts partner och återförsäljare kan skapa en app som de kan använda för att sammanställa listor över appar som de ofta rekommenderar till sina kunder. Om de gör det och har distribuerat appen till din klientorganisation kommer apparna att vara tillgängliga på sidan **Rekommenderade appar**. Där kan du läsa om varje app och bestämma om du ska installera dem.
+
+> [!NOTE]
+> Om du är Microsoft-partner eller återförsäljare och vill tillhandahålla en lista över rekommenderade appar, se [Rekommenderade appar från AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrationsinnehållet.
 
 ## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se även
 
-[Installera och avinstallera tillägg](ui-extensions-install-uninstall.md)  
+[Installera och avinstallera appar](ui-extensions-install-uninstall.md)  
 [Anpassa Business Central](ui-customizing-overview.md)  
-[Business Central-tillägg från andra leverantörer](ui-extensions-other.md)  
+[Business Central-appar från andra leverantörer](ui-extensions-other.md)  
 [Skapa tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
-[Så här aktiverar du kundutbetalning via PayPal](sales-how-enable-payment-service-extensions.md)  
-[Migrera affärsdata från andra finanssystem](across-import-data-configuration-packages.md)  
-[Konfigurera tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]-tillägg från andra leverantörer](ui-extensions-other.md)  
+[Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md)  
+[Migrera verksamhetsdata från andra finanssystem](across-import-data-configuration-packages.md)  
+[Ställ in tillägget GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]-appar från andra leverantörer](ui-extensions-other.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

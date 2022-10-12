@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135990"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605117"
 ---
 # <a name="set-up-payment-terms"></a>Ställa in betalningsvillkor
 
@@ -35,7 +35,7 @@ När du har ställt in betalningsvillkoren tilldelar du dem till kunder och leve
 > [!TIP]
 > I basversionen av [!INCLUDE [prod_short](includes/prod_short.md)] stöds inte betalningsvillkor med delbetalningar. Istället måste du använda funktionen för förskottsbetalning. Mer information finns i [Ange Förskottsbetalningar](finance-set-up-prepayments.md).
 >
-> I vissa länder *kan* du ställa in betalningsvillkor med delbetalningar. Om du vill veta om den här funktionen stöds i ditt land kan du läsa avsnittet **Lokal funktionalitet** i navigeringsrutan till vänster på webbplatsen [Docs.microsoft.com](about-localization.md).
+> I vissa länder *kan* du ställa in betalningsvillkor med delbetalningar. Om du vill veta om den här funktionen stöds i ditt land kan du läsa avsnittet **Lokal funktionalitet** i navigeringsrutan till vänster i en [Microsoft Learn](about-localization.md)-artikel.
 
 ## <a name="see-also"></a>Se även
 

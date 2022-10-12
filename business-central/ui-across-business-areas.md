@@ -8,26 +8,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 04/01/2021
+ms.date: 09/19/2022
 ms.author: edupont
-ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655064"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605907"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
+
 [!INCLUDE[prod_short](includes/prod_short.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
 
-För att stödja dessa områdesspecifika affärsuppgifter kan du använda olika allmänna affärsfunktioner som t. ex. att definiera extratext för dokumentrader och organisera kopplade affärsuppgifter i arbetsflöden.
+För att stödja dessa områdesspecifika affärsuppgifter kan du använda olika allmänna affärsfunktioner som t.ex. att definiera extratext för dokumentrader och organisera kopplade affärsuppgifter i arbetsflöden.
 
 > [!NOTE]
 > Förutom de allmänna affärsrelaterade funktionerna som beskrivs i det här avsnittet kan du använda allmänna gränssnittsfunktioner varje dag för att interagera med systemet. Mer information finns i [Arbeta med Business Central](ui-work-product.md).
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitten där de beskrivs.
+I tabellen nedan anges dessa allmänna affärsområden med länkar till artiklar där de beskrivs.
 
 | Till | Gå till |
 | --- | --- |
@@ -42,18 +43,20 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till avsnitte
 |Bokföra flera försäljnings- eller inköpsdokument direkt eller som planerade.|[Bokföra flera dokument på samma gång](ui-batch-posting.md)|  
 |Granska resultatet av bokföringen innan du bokför.|[Förhandsgranska resultat](ui-how-preview-post-results.md)|
 |Redigera valda fält i bokförda försäljnings- eller inköpsdokument.|[Redigera bokförda dokument](across-edit-posted-document.md)|
+| Förstå tillgänglig status för dokument av typen offerter, order och kreditnotor, till exempel **Öppna** och **Släppta** | [Statusfält i dokument](ui-document-status.md) |
 |Lär dig att arbeta med redovisningsjournaler som används till att bokföra på redovisningskonton och andra konton, till exempel bank-, kund-, leverantörs- och anläggningstillgångskonton. |[Arbeta med redovisningsjournaler](ui-work-general-journals.md) |
 | Du kan schemalägga en rapport att köras vid ett visst datum och tider. |[Schemalägga en rapportkörning](ui-work-report.md#ScheduleReport) |
 |Låt systemet hjälpa dig att avsluta uppgifter snabbare och mer korrekt genom att fylla i fält eller färdigställa rader med data som du annars måste beräkna och ange själv.|[Låta Business Central föreslå värden](ui-let-system-suggest-values.md)|
 |Registrera externa dokument inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 |Konfigurera och använd arbetsflöden som kopplar uppgifter som ska utföras av olika användare eller i systemet, till exempel automatisk bokföring. Begära och bevilja godkännande för att skapa eller bokföra dokument är vanliga arbetsflödessteg.|[Arbetsflöde](across-workflow.md)|
 | Ställ in datautbytesdefinitioner för att skicka och ta emot elektroniska dokument. |[Utbyta data elektroniskt](across-data-exchange.md) |
+| Använd onlinekartor för att hitta platser och vägbeskrivning till kunder, leverantörer och adresser i allmänhet. | [Använd Online Map för att hitta platser och vägbeskrivningar](across-online-maps.md) |
 
 ## <a name="see-also"></a>Se även
+
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Administration](admin-setup-and-administration.md)
+[Administration](admin-setup-and-administration.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
