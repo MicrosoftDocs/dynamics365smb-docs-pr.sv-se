@@ -1,27 +1,32 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ed62e60d3b5b1af2158d8adc6c411884ea4c12aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: 8849f1c5d33cd1f826e7f53be317cb01e513fcd1
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133582"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652144"
 ---
-När alla artiklar har angetts på raderna kan du beräkna fakturarabatten för hela försäljningsdokumentet genom att välja åtgärden **Beräkna fakturarabatt**.
+När du har lagt till alla artiklar på rader kan du beräkna fakturarabatten för hela försäljningsdokumentet genom att välja åtgärden **Beräkna fakturarabatt**.
 
-Rabatten beräknas baserat på alla försäljningsdokumentets rader för artiklar där fältet **Tillåt fakturarabatt** på försäljningsorderraden innehåller **Ja**. Detta är den förvalda inställningen för artiklar. Rader med artikelomkostnader ingår till exempel inte i beräkningen av fakturarabatten. Om du vill tillämpa en rabatt på sådana rader måste du ange fältet **Radrabatt %** på de relevanta raderna.  
+Rabatten beräknas baserat på alla rader i försäljnings dokumentet där kryssrutan **beräkna fakturarabatt** har valts. Som standard är fakturarabatter tillåtna. Men rader med artikelomkostnader ingår till exempel inte i beräkningen av fakturarabatten. Om du vill tillämpa en rabatt på sådana rader anger du ett värde i fältet **Radrabattbelopp** på raderna.  
+
+> [!NOTE]
+> Som standard är fälten **Pris inklusive moms** och **Radrabattbelopp** är gömda på rader. Om fälten inte är tillgängliga kan du lägga till dem genom att anpassa sidan. Mer information finns i [Anpassa din arbetsyta](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 > [!TIP]
-> Om fältet **Beräkn. fakturarabatt** väljs på sidan **Försäljningsinställningar** kommer fakturarabatten att beräknas automatiskt när du gör något av följande i ett säljdokument:
+> Om fältet **Beräkna fakturarabatt** är markerat på sidan **Försäljningsinställningar** beräknas fakturarabatten automatiskt. När beräkningen sker varierar beroende på vilken typ av försäljningsdokument du använder.
+>
+> Om du använder en försäljningsorder beräknas rabatten när du lägger till en rad. För alla andra försäljningsdokument, till exempel försäljningsfakturor, beräknas rabatten när du gör något av följande:
 >
 > * Visa statistik
 > * Visa en testrapport
 > * Skriv ut
 > * Post
 
-Villkoren för fakturarabatt för en kund definieras på sidan **Kundfakturarabatter** för kunden. Valutakoden i försäljningsdokumentet används för att hitta villkoren för fakturarabatt i motsvarande valuta.
+Du definierar fakturarabatt för en kund definieras på sidan **Kundfakturarabatter**. Valutakoden i försäljningsdokumentet används för att hitta villkoren för fakturarabatt i motsvarande valuta.
 
-Om inga fakturarabatter har definierats för utländska valutor används villkoren för fakturarabatt som definieras på sidan **Anp. fakturarabatter** med belopp i din lokala valuta, och valutakursen på bokföringsdatumet i säljdokumentet används för att beräkna fakturarabatten i den utländska valutan.
+Om du inte har definierat fakturarabatter för utländska valutor används rabattvillkoren på sidan **Kundfakturarabatter** för att beräkna rabatten. I beräkningen används den lokala valutan och den valutakurs som gäller på dokumentets bokföringsdatum.

@@ -1,21 +1,21 @@
 ---
 title: Anpassa sidor (innehåller video)
 description: Lär dig mer om att anpassa användargränssnittet och din arbetsyta så att det passar ditt sätt att arbeta och personliga inställningar i Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528819"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652171"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 
@@ -79,9 +79,15 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 |Lägg till en ny åtgärd på en sida eller rapport i rollcentret.|Välj ikonen bokmärke på sida för rapportförfrågan, sida i rapporten eller berätta för mig-fönstret.|Se [Förse en sida eller rapport med ett bokmärke på ditt rollcenter](ui-bookmarks.md)|
 |Starta alltid en lista som visad eller dold|Välj knappen **Expandera alla** eller **Komprimera alla** längst upp till vänster i listan. Alternativt väljer du åtgärden **Expandera alla** eller **Komprimera alla** i menyn för den första kolumnen. |Gäller för komprimerbara hierarkinivåer|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Anpassa åtgärder
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Anpassa åtgärdsfältet och menyer
 
-Anpassning låter dig bestämma vilka åtgärder som ska visas i navigerings- och åtgärdsfälten och i rollcenter, samt var de ska visas. Du kan visa, dölja eller flytta enskilda åtgärder eller åtgärdsgrupper. Anpassning av navigerings- och åtgärdsfältet utförs ungefär på samma sätt som med andra element i användargränssnittet. Vad du kan göra med en åtgärd eller grupp beror emellertid på var den åtgärden eller gruppen finns. Det bästa sättet att ta reda på detta är att arbetar i anpassat läge och låta pilarna guida dig.
+Anpassning låter dig bestämma vilka åtgärder som ska visas i navigerings- och åtgärdsfälten och i rollcenter, samt var de ska visas. Du kan visa, dölja eller flytta enskilda åtgärder eller åtgärdsgrupper.
+
+I 2022 utgivningscykel 2 tillhandahöll vi fler sätt att göra Business Central till din egen. I följande video visas hur du kan anpassa åtgärder på sidor och rollcenter.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+Anpassning av navigerings- och åtgärdsfältet utförs ungefär på samma sätt som med andra element i användargränssnittet. Vad du kan göra med en åtgärd eller grupp beror emellertid på var den åtgärden eller gruppen finns. Det bästa sättet att ta reda på detta är att arbetar i anpassat läge och låta pilarna guida dig.
 
 Det finns ett par termer som du bör känna till för att bättre förstå åtgärdsanpassning: *åtgärdsgrupp* och *prioriterad kategori*.  
 
