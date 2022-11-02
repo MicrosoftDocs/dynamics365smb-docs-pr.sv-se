@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652171"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716584"
 ---
 # <a name="personalize-your-workspace"></a>Anpassa din arbetsyta
 
@@ -155,6 +155,12 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
 - Ändringarna börjar gälla i alla dina rollcenter. Till exempel om du gör en ändring i kundlistan när rollcentret har angetts till Chef visas dessutom ändringen ipå sidan **Kunder** när rollcentret anges till Försäljningsorderhandläggare.
 - Ändringar av en sida i rutan börjar gälla på sidan var den än visas.  
 - Du kan bara lägga till fält och kolumner från en fördefinierad lista som baseras på sidan. Du kan inte skapa nya.
+- **Power Automate** åtgärder i åtgärdsfältet
+  - Du kan inte dölja eller flytta objektet **Automatisera** eller **Power Automate** underobjekt och dess åtgärder **Skapa ett flöde** och **Hantera flöden**.
+  - Du kan flytta flöden som ingår i **Automatiserade** objektet, men du kan inte dölja dem med hjälp av anpassning. När du flyttar flödet skapas en kopia av flödet till målet. det går inte att ta bort det från det **Automatiserade** objektet.
+
+   > [!TIP]
+   > Som administratör kan du dölja **automatiserade** objekt från användare. Läs mer i [Ställa in Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 

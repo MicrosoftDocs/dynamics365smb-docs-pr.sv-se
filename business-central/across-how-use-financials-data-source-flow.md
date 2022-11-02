@@ -2,67 +2,113 @@
 title: Använda Power Automate flöden i Business Central
 description: Konfigurera och använda Power Automate-flöden för att skapa eller ändra Business Central-data.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
-ms.date: 09/13/2022
-ms.author: edupont
-ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 10/10/2022
+ms.custom: bap-template
+ms.openlocfilehash: ce1af0b2a07aa570141f9d4684930e303cbca742
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606528"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716548"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Använda Power Automate-flöden i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Du kan använda din [!INCLUDE[prod_short](includes/prod_short.md)]-data som en del av ett arbetsflöde i Microsoft Power Automate. Skapa dina egna flöden och anslut dina data från interna och externa källor med [!INCLUDE [prod_short](includes/prod_short.md)]-kopplingen.
+Med [!INCLUDE[prod_short](includes/prod_short.md)] får du en licens Microsoft Power Automate. Med denna licens kan du använda din [!INCLUDE[prod_short](includes/prod_short.md)]-data som en del av ett arbetsflöde i Microsoft Power Automate. Du skapar dina egna flöden och anslut dina data från interna och externa källor med [!INCLUDE [prod_short](includes/prod_short.md)]-kopplingen.
+
+Power Automate-flöden initieras av händelser, t.ex. när en post skapades, ändrades eller togs bort. Flödena kan också köras på ett användardefinierat schema eller vid behov.
 
 > [!NOTE]
-> Du måste ha ett giltigt konto med både [!INCLUDE[prod_short](includes/prod_short.md)] och Power Automate.  
+> Administratörer kan begränsa åtkomsten till Power Automate. Om du upptäcker att du inte har tillgång till några eller alla funktioner som beskrivs i den här artikeln, prata med din administratör. Om du vill lära dig hur du kan kontrollera Power Automate-åtkomst som en administratör, se [Konfigurera Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
+
+<!-- You must have a valid account with both [!INCLUDE[prod_short](includes/prod_short.md)] and Power Automate. --> 
 
 > [!TIP]
 > Förutom Power Automate kan du använda mallarna för arbetsflöden för godkännande i [!INCLUDE[prod_short](includes/prod_short.md)]. Trots att det finns två separata arbetsflödessystem, kommer alla mallar för arbetsflöden för godkännande som du skapar med Power Automate att läggas till i listan över arbetsflöden i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i [arbetsflöden](across-workflow.md).
 
-Power Automate-flöden utlöses av händelser som t.ex. post och dokument skapande, ändring eller borttagning (automatiserade flöden). Flödena kan också köras på ett användardefinierat schema (schemalagda flöden) eller vid behov (direkt flöden).
+## <a name="about-power-automate-flows"></a>Om Power Automate-flöden
+
+Power Automate är en tjänst som hjälper dig att skapa automatiserade arbetsflöden (eller flöden) mellan appar och tjänster, t.ex. [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate flöden kräver lite eller ingen kodkunskap. De kan kopplas till en mängd olika händelser och svar, till exempel:
+- Poständringar
+- Uppdateringar av externa filer
+- Bokförda dokument
+- Olika tjänster från Microsoft och andra leverantörer, som t.ex. Microsoft Outlook, Excel, Dataverse, Teams, SharePoint, Power Apps, mm.
+
+Det finns tre olika typer av molnflöden som du kan arbeta med:
+
+|Flödestyp|Description|
+|---------|-----------|
+|Automatiserade|Den här flödestypen körs automatiskt av en händelse. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en händelse vara när en post eller ett dokument skapas, ändras av borttaget. En ny försäljningsfaktura kan t.ex. utlösa ett flöde för en begäran om godkännande, som kan ha olika händelser beroende på svar från godkännare. Ett negativt svar skickar ett meddelande och ett e-postmeddelande till godkännande beställaren. Ett positivt svar uppdaterar samtidigt ett Excel-kalkylblad som finns i en SharePoint-mapp och skickar en uppdatering till en chatt för Teams. Automatiserade flöden kan startas av både interna och externa händelser i [!INCLUDE[prod_short](includes/prod_short.md)].|
+|Schemalagd|Den här typen av flöde körs också automatiskt, men körs med jämna mellanrum vid schemalagda datum och tidpunkter. |
+|Direkt |Den här flödestypen körs vid behov och kräver att användaren kör den manuellt från en knapp eller åtgärd i en annan app eller enhet, i det här fallet [!INCLUDE[prod_short](includes/prod_short.md)] klienten. Direktflöden fungerar på samma sätt som kommando genvägar, så att du kan utföra stegvisa steg med några knapptryckningar och startas från vissa sidor eller tabeller. Ett flöde kan t.ex. lägga till en knapp på åtgärds menyn på sidan **leverantörer** för att spärra betalningar till en leverantör och samtidigt skicka anpassningsbara e-postmeddelanden till leverantörens kontakt och företagets inköpare samt uppdatera kontakten i Outlook. |
 
 ## <a name="power-automate-features-in-prod_short"></a>Power Automate funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Flödet utökar de inbyggda funktionerna för godkännande arbetsflöden som är tillgängliga i [!INCLUDE[prod_short](includes/prod_short.md)]utan att behöva använda sig av kunskap och kan associeras med ett brett utbud av händelser och svar, såsom registerändringar, externa filuppdateringar, upplagda dokument och olika Microsoft- och tredjepartstjänster som t.ex. Microsoft Outlook, Microsoft Excel, Microsoft Dataverse, Microsoft Teams, Microsoft SharePoint, Microsoft Power Apps med mera.
+Du kan utforska alla Power Automate flöden som är tillgängliga för dig genom att logga in på [Power Automate](https://powerautomate.com) och välja **Mina flöden** från navigeringsfältet till vänster. Här hittar du de flöden som du redan har skapat själv och som du har delat med dig av en administratör eller en medarbetare. Dessa flöden görs också tillgängliga i [!INCLUDE [prod_short](includes/prod_short.md)] från olika sidor. Med automatiska flöden i [!INCLUDE[prod_short](includes/prod_short.md)] finns det ingenting som du kan göra, om du inte vill ändra dem eller inaktivera dem. Annars fungerar de bara när de utlöses. Precis som för direktflöden av [!INCLUDE[prod_short](includes/prod_short.md)] data kan du köra dem från de flesta list-, kort-och dokumentsidor genom att välja dem från **automatiserat** objekt i åtgärden. Läs mer i avsnitten som följer.
 
-En ny försäljningsfaktura kan t.ex. utlösa ett arbetsflöde för en begäran om godkännande, som kan ha olika händelser beroende på svar från godkännare. Ett negativt svar skickar ett meddelande och ett e-postmeddelande till godkännande beställaren. Ett positivt svar uppdaterar samtidigt ett Excel-kalkylblad som finns i en SharePoint-mapp och skickar en uppdatering till en chatt för Teams.
+<!--
 
-Direktflöden fungerar på samma sätt som kommando genvägar, så att du kan utföra stegvisa steg med några knapptryckningar och startas från vissa sidor eller tabeller. Ett flöde kan t.ex. lägga till en knapp på åtgärds menyn på sidan **leverantörer** för att spärra betalningar till en leverantör och samtidigt skicka anpassningsbara e-postmeddelanden till leverantörens kontakt och företagets inköpare samt uppdatera kontakten i Outlook.
+## Automated flows
 
-## <a name="automated-workflows"></a>Automatiserade arbetsflöden
+With Power Automate, you can create business flows directly in-house and rely on citizen developers. Automated workflows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)], and also be set to run periodically. Learn more and get instructions on how to create flows in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
-Med Power Automate kan du skapa affärsflöden direkt internt och förlita dig på civila utvecklare. Automatiserade arbetsflöden kan startas av både interna och externa händelser i [!INCLUDE[prod_short](includes/prod_short.md)] och anges så att de körs med jämna mellanrum. Lär dig mer och få instruktioner om hur du skapar arbetsflöden i artikeln [ange automatiserade arbetsflöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrations innehållet.
+-->
 
-## <a name="instant-flows"></a>Direktflöden
+## <a name="run-instant-flows"></a>Kör direktflöden
 
-[!INCLUDE [prod_short](includes/prod_short.md)] kan köra ett Power Automate-flöde från de flesta list-, kort- och dokumentsidor. När administratören har anslutit [!INCLUDE [prod_short](includes/prod_short.md)] till Power Automate ser du alla flöden som organisationen har lagt till när du väljer åtgärden **Automatisera** på de relevanta sidorna. Direktflöden körs utan att lämna [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Konfigurera automatiserade arbetsflöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrationsinnehållet.
+Direktflöden öppnas i [!INCLUDE [prod_short](includes/prod_short.md)] online, så att du håller dig inom ramen för affärsprocessen du höll på med. Du kan köra ett direktflöde från de flesta listor, kort eller dokument.
 
-Dessa direktarbetsflöden öppnas på en sida i [!INCLUDE [prod_short](includes/prod_short.md)] online, så att du håller dig inom ramen för affärsprocessen du höll på med. Välj åtgärden **Automatisera** som på vissa sidor är kapslad under menyn **Fler alternativ**, men du hittar den genom att välja menyobjektet **Power Automate** och sedan relevant länk för att utlösa arbetsflödet. Anslutningen till Power Automate har redan ställts in åt dig.
+1. Välj **automatisera** i åtgärdsfältet och välj sedan ett flöde från listan över tillgängliga flöden under **Power Automate** åtgärden
 
-De flesta flöden kräver att du fyller i ett fält eller två innan du väljer åtgärden **Kör flöde**.
+    :::image type="content" source="media/power-automate-action-intro.png" alt-text="Visar instruktionen automatisera i åtgärdsfältet med utökade åtgärder.":::
+
+    På vissa sidor kapslas funktionen **automatiskt** in under **fler alternativ (...)**. 
+2. I fönstret **Kör flöde** i de obligatoriska fälten och välj **Fortsätt** för att köra flödet.
+
+> [!NOTE]
+> Första gången du använder **Automatiserat** objekt visas kanske bara åtgärden **Kom igång Power Automate**. Den här åtgärden visas eftersom det inte gick att acceptera sekretessmeddelandet för Microsoft Power Automate. Välj **Kom igång med Power Automate** och följ instruktionerna för att acceptera eller acceptera för att fortsätta.  
+>
+> :::image type="content" source="media/power-automate-action.png" alt-text="Visar det automatiserade objektet i åtgärdsfältet.":::
+
+<!--
+
+[!INCLUDE [prod_short](includes/prod_short.md)] can run a Power Automate flow from most list, card, and document pages. Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate, you'll see any flows your organization has added when you choose the **Automate** action on the relevant pages. Instant flows are run without leaving [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
+
+These instant flows open on a page inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of. Choose the **Automate** action—on some pages nested under the **More Options** menu—choose the **Power Automate** menu item, then choose the relevant link to trigger the workflow. The connection to Power Automate is already set up for you.
+
+Most flows require you to fill in a field or two before you choose the **Run flow** action.
 
 > [!TIP]
-> Om du inte ser åtgärden **Automatisera** har [!INCLUDE [prod_short](includes/prod_short.md)] troligtvis inte konfigurerats till att använda Power Automate. Mer information från din administratör.
+> If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. Learn more from your admin.-->
 
-## <a name="add-more-automated-flows-and-instant-flows"></a>Lägga till fler automatiserade flöden och snabbflöden
+## <a name="create-edit-and-manage-flows"></a>Skapa, redigera och hantera flöden
 
-Du kan skapa flöden på webbplatsen [powerautomate.microsoft.com](https://powerautomate.microsoft.com). Om din administratör har ställt in möjligheten att köra Power Automate-flöden i [!INCLUDE [prod_short](includes/prod_short.md)] online, kan du emellertid börja bygga upp ett flöde från åtgärden **automatisera** på de relevanta sidorna, som du hittar på menyn **fler alternativ** beroende på vilken sida som används. Välj sedan menyartikeln **Power Automate** och åtgärden **Skapa ett flöde**. Power Automate öppnas sedan i en ny flik i webbläsaren och du loggas in automatiskt.
+Att skapa nya flöden, ändra och hantera befintliga (som att aktivera eller inaktivera dem) kan göras direkt i Power Automate. Du kan dock starta några av de här uppgifterna inifrån [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-Du kan hitta exempelmallar för att anpassa till ditt företag och alla tillgängliga triggerhändelser med båda [!INCLUDE [prod_short](includes/prod_short.md)] och externa verktyg genom att välja menyn **kopplingar** på webbplatsen Power Automate. Mer information om tillgängliga mallar och utlösare finns i [Konfigurera automatiserade arbetsflöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrationsinnehållet.
+- Om du vill skapa ett direktflöde från en lista, kort eller dokumentsida väljer du **Automatisera** > **Skapa ett flöde**.
+- Om du vill öppna Power Automate från en lista, kort eller dokumentsida väljer du **Automatisera** > **Hantera flöden**.
+- Du kan skapa nya flöden eller hantera befintliga flöden i [!INCLUDE[prod_short](includes/prod_short.md)] på sidan **Hantera Power Automate-flöden**
 
-## <a name="manage-automated-workflows"></a>Hantera automatiserade arbetsflöden
+Dessa uppgifter utförs vanligtvis av en administratör eller superanvändare. Uppgifterna kräver en bredare kunskap om affärsprocesserna i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Ställa in automatiserade flöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Skapa snabb flöden ](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) och [Hantera Power Automate flöden](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+<!-- 
 
-Du kan skapa nya flöden eller hantera befintliga Power Automate-flöden i [!INCLUDE [prod_short](includes/prod_short.md)] på sidan **Hantera Power Automate-flöden**. Mer information finns i artikeln [Hantera Power Automate-flöden](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) i administrationsinnehållet.
+## Add more automated flows and instant flows
 
-Du kan också hantera tillgängliga Power Automate arbetsflöden på sidan **arbetsflöden** i [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan visas både inbyggda godkännanden och Power Automate arbetsflöden, med alternativ för de senare för att aktivera/inaktivera, ta bort och visa arbetsflödet på webbplatsen Power Automate.
+You can create flows through the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability to run Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages, which can be found under the **More Options** menu depending on the page. Then choose the **Power Automate** menu item, and then choose the **Create a flow** action. Power Automate then opens in a new browser tab, and you're signed in automatically.
+
+You can find sample templates to adapt to your company and all available trigger events, using both [!INCLUDE [prod_short](includes/prod_short.md)] and external tools, by choosing the **Connectors** menu on the Power Automate website. Learn more about available templates and triggers in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
+
+## Create and manage Power Automate flows
+
+You can create new flows or manage existing Power Automate flows in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Manage Power Automate Flows** page. Learn more in the [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) article in the administration content.
+
+<!--
+You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
 ## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/use-power-automate/)
 
@@ -80,3 +126,4 @@ Du kan också hantera tillgängliga Power Automate arbetsflöden på sidan **arb
 [Växla till snabbflöden](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
+a

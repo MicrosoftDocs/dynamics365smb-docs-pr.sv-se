@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607431"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716565"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central- och Microsoft Teams-integrering
 
@@ -54,7 +54,9 @@ Mer information finns i [Dela poster i Microsoft Teams](across-working-with-team
 
 Direkt från de flesta samlings-och informations sidor i Business Central kan du använda åtgärden **dela till Teams** från ![Ikonen Dela meny på sidorna](media/share-icon.png "Menyn Dela visas på ett kort."). Ikon för att skriva ett meddelande, välja mottagare, till exempel gruppmedlemmar, grupper eller kanaler, och skicka meddelandet med en länk och till Business Central-sidan.
 
-![Menyn Dela visas på ett kort.](media/teams-share-link.png "Menyn Dela visas på ett kort.")
+[![!Menyn Dela visas på ett kort.](media/teams-share-link-v2.png "Menyn Dela visas på ett kort.")](media/teams-share-link-v2.png#lightbox)
+
+<!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Mer information finns i [Dela poster och sidlänkar i Microsoft Teams](across-working-with-teams.md#share-link).
 
