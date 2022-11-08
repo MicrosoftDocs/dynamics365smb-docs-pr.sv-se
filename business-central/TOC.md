@@ -674,6 +674,8 @@
 ### [Synkronisera objekt med Shopify](shopify/synchronize-items.md)
 ### [Synkronisera kunder med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisera och uppfylla försäljningsordrar med Shopify](shopify/synchronize-orders.md)
+### [Synkronisera transaktioner och utbetalningar](shopify/transactions-and-payouts.md)
+### [Ställa in moms för Shopify anslutning](shopify/setup-taxes.md)
 ### [Kör uppgifter i bakgrunden](shopify/background.md)
 ### [Felsök Shopify-kopplingen](shopify/troubleshoot.md)
 ### [FAQ för Shopify-kopplingen](shopify/shopify-faq.md)
@@ -1775,7 +1777,7 @@
 ### [Tjänstens regelefterlevnad](compliance/compliance-service-compliance.md)
 ### [Intyg](compliance/compliance-certifications.md)
 ## [Översikt över tjänsten (endast på engelska)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Test funktioner som kan anslutas till andra Microsoft-tjänster](privacy-connected-services.md)
 # Utveckling och administration
 ## [Komma igång med dokumentation för utveckling och administration](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administrationsuppgifter i Business Central

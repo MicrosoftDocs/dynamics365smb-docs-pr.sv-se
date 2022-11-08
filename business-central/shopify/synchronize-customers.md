@@ -8,12 +8,12 @@ ms.search.form: 30105, 30106, 30107, 30108, 30109,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: d4ff86179fa5b82bcc398ee58cf92fc121c486d8
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 1a796d1094401cd2ebc0efd54f752211d22bfb12
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361428"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728660"
 ---
 # <a name="synchronize-customers"></a>Synkronisera kunder
 
@@ -21,22 +21,6 @@ När en order importeras från Shopify är informationen om kunden väsentlig f�
 
 * Använd särskild kund för alla order.
 * Importera information om den faktiska kunden från Shopify. Det här alternativet är också tillgängligt när du exporterar kunder till Shopify från [!INCLUDE[prod_short](../includes/prod_short.md)] först.
-
-## <a name="how-the-connector-chooses-which-customer-to-use"></a>Så väljer kopplingen vilken kund som ska användas
-
-Funktionen *Importera order från Shopify* försöker att välja kunder i följande ordning:
-
-1. Om **Standardkundnr** definieras i **Shopify-kundmall** för motsvarande land används **Standardkundnr** oavsett inställningar i **Kundimport från Shopify** och **Kundmappningstyp**. Läs mer i [Kundmall per land](synchronize-customers.md#customer-template-per-country).
-2. Om **Kundimport från Shopify** anges till *Ingen* och **Standardkundnr.** definieras på sidan **Shopify butikskort**, sedan **Standardkundnr.** .
-
-Nästa steg beror på **Kundmappningstyp**.
-
-* Om det är **Ta alltid standardkunden** använder kopplingen sedan kunden som definierats i fältet **Standardkundnr** på sidan **Shopify-butikskort**.
-* Om det är **Via e-post/telefon** försöker kopplingen hitta befintliga kunder genom ID först, sedan via e-post och sedan via telefonnummer. Om kunden inte hittas skapar kopplingen en ny kund.
-* Om det är **Genom faktureringsinfo** försöker kopplingen att hitta befintliga kunder genom ID först och sedan genom information om faktureringsadressen. Om kunden inte hittas skapar kopplingen en ny kund.
-
-> [!NOTE]  
-> Kopplingen använder information från faktureringsadressen och skapar en faktureringskund i [!INCLUDE[prod_short](../includes/prod_short.md)]. Försäljningskunden är densamma som faktureringskunden.
 
 ## <a name="important-settings-when-importing-customers-from-shopify"></a>Viktiga inställningar när du importerar kunder från Shopify
 
@@ -66,19 +50,29 @@ Med **Shopify-kundmallen** kan du göra följande för varje kund:
 
 ## <a name="export-customers-to-shopify"></a>Exportera kunder till Shopify
 
-Befintliga kunder kan exporteras till Shopify i bulk. I varje fall kommer en kund och en standardadress skapas. Med följande inställningar kan du hantera processer:
+Du kan exportera befintliga kunder till Shopify i bulk. I varje fall kommer en kund och en standardadress skapas. Med följande inställningar kan du hantera processer:
 
 |Fält|Description|
 |------|-----------|
-|**Exportera kunder till Shopify**|Välj detta om du planerar att exportera alla kunder med en giltig e-postadress från [!INCLUDE[prod_short](../includes/prod_short.md)] till Shopify i bulk. Du kan göra det antingen manuellt, med hjälp av åtgärden **synkronisera kunder** eller automatiskt med hjälp av en jobbkö för återkommande uppdateringar.<br> När du exporterar kunder med adresser som inkluderar provinser/stater måste du se till att **ISO-koden** fylls i för länder/regioner.|
+|**Exportera kunder till Shopify**|Välj detta om du planerar att exportera alla kunder från [!INCLUDE[prod_short](../includes/prod_short.md)] till Shopify i bulk. Du kan göra det antingen manuellt, med hjälp av åtgärden **synkronisera kunder** eller automatiskt med hjälp av en jobbkö för återkommande uppdateringar.<br> När du exporterar kunder med adresser som inkluderar provinser/stater måste du se till att **ISO-koden** fylls i för länder/regioner.|
 |**Kan uppdatera Shopify-kunder**|Detta används tillsammans med inställning **Exportera kunder till Shopify**. Aktivera om du till generera uppdateringar senare från [!INCLUDE[prod_short](../includes/prod_short.md)] för kunder som redan finns i Shopify.|
 
-> [!NOTE]  
-> När du har skapat kunderna i Shopify kan du skicka direkt inbjudningar till dem och på så vis uppmuntra dem att aktivera sina konton.
+Följande krav gäller för export av en kund:
+
+* Kunden måste ha en giltig e-postadress.
+* Ett land/en region har valts på kund kortet för lokala kunder, med tomt land/region det land/den region som har angetts på sidan **företagsinformation** måste ha en definierad ISO-kod.
+* Om kunden har ett telefonnummer måste numret vara unikt eftersom Shopify inte ska acceptera ytterligare en kund med samma telefonnummer.
+* Om kunden har ett telefonnummer måste det vara i formatet E.164. Olika format stöds om de representerar ett tal som kan ringas upp var som helst i världen. Följande format är giltiga:
+  * xxxxxxxxxx
+  * +xxxxxxxxxxx
+  * (xxx)xxx-xxxx
+  * +x xxx-xxx-xxxx
+
+När du har skapat kunderna i Shopify kan du skicka direkt inbjudningar till dem och på så vis uppmuntra dem att aktivera sina konton.
 
 ### <a name="populate-customer-information-in-shopify"></a>Fylla i kundinformation i Shopify
 
-En kund i Shopify har förnamn, efternamn, e-post och/eller telefonnummer. Du kan fylla i förnamn och efternamn baserat på informationen från kundkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
+En kund i Shopify har förnamn, efternamn, e-post och/eller telefonnummer. Du kan ange förnamn och efternamn baserat på informationen från kundkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Prioritet|Fält i kundkort|Description|
 |------|------|-----------|
@@ -86,7 +80,7 @@ En kund i Shopify har förnamn, efternamn, e-post och/eller telefonnummer. Du ka
 |2|**Namn 2**|Om fältet **Namn 2** har fyllts i och fältet **Källa till namn 2** på **Shopify-butikskortet** innehåller något av alternativen *Förnamn och efternamn* eller *Efternamn och förnamn*, som anger hur värdena ska delas.|
 |3|**Namn**|Lägsta prioritet om fältet **Namn** har fyllts i och fältet **Namnkälla** på **Shopify-butikskortet** innehåller något av alternativen *Förnamn och efternamn* eller *Efternamn och förnamn*, som anger hur värdena ska delas.|
 
-En kund i Shopify har också en standardadress, som kan innehålla ettt företag och en adress utöver förnamn, efternamn, e-post och/eller telefon. Du kan fylla i fältet **Företag** baserat på data från kundkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
+En kund i Shopify har också en standardadress, som kan innehålla ett företag och en adress utöver förnamn, efternamn, e-post och/eller telefon. Du kan fylla i fältet **Företag** baserat på data från kundkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Prioritet|Fält i kundkort|Description|
 |------|------|-----------|

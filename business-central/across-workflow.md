@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716539"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728474"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Arbetsflöden i Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] stöder tre
 * Power Automate-flöden
 
   * Automatiserade flöden som utlöses av händelser (såsom skapande, ändring eller radering av poster eller dokument) i [!INCLUDE[prod_short](includes/prod_short.md)]. Dessutom ingår godkännande flöden som skapas i Power Automate som utlösare när ett godkännande begärs i [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Direkt flöden som aktiveras manuellt av åtgärden **Automatiserad** från listor, kort och dokumentsidor. 
+  * Direkt flöden som aktiveras manuellt av åtgärden **Automatiserad** från listor, kort och dokumentsidor.
 
     Skapa och utlösa manuellt en Power Automate-flöde i en [!INCLUDE[prod_short](includes/prod_short.md)] såsom en kund, artikel eller försäljningsorder, med alternativ för att manipulera information både internt och externt (med hjälp av integrerade verktyg).
 
@@ -44,11 +44,12 @@ Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrera dig
 
 ## <a name="approval-workflows"></a>Arbetsflöden för godkännande
 
-Du kan skapa ett arbetsflöde för godkännande genom att ange de berörda stegen på raderna. Varje steg består av:
-- En arbetsflödeshändelse, som kontrolleras av händelsevillkor
-- Ett arbetsflödessvar som kontrolleras av svars alternativen.
+Skapa ett arbetsflöde för godkännande genom att ange vad som ska starta arbetsflödet och vad som händer härnäst enligt följande:
 
-Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.<!--What are the "values"? Can we give an example?-->
+* En arbetsflödeshändelse, som kontrolleras av händelsevillkor.
+* Ett arbetsflödessvar som kontrolleras av svars alternativen.
+
+För att definiera arbetsflödessteg, fyll i fält på arbetsflödeslinjer med hjälp av händelse- och svarsvärdena som representerar scenarier som stöds.
 
 Exempel på olika typer av arbetsflödeshändelser är bland annat generering av försäljningsorder, inköpsorder, offerter, fakturor, prisändringar och leverantörs- eller kundändringar.
 

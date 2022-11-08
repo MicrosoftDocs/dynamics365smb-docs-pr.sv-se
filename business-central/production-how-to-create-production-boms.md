@@ -1,18 +1,18 @@
 ---
 title: Skapa produktionsstrukturer
 description: Lära dig hur du skapar en produktionsstruktur, nya versioner av en produktionsstruktur och hur du använder beräkningsformeln för antal.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: production bom, bills of material,
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607830"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728552"
 ---
 # <a name="create-production-boms"></a>Skapa produktionsstrukturer
 
@@ -21,7 +21,7 @@ En produktionsstruktur innehåller standarddata som beskriver de komponenter och
 [!INCLUDE[prod_short](includes/prod_short.md)] stödjer även monteringsstrukturer. Du använder monteringsorder för att slutboka artiklar från komponenter i en enkel sätt, som kan utföras av en eller flera grundläggande resurser, som inte är maskin- eller produktionsgrupper, eller utan något resurser. Det kan exempelvis vara en monteringsprocess att välja två som vinflaska och en kaffesäck och sedan packa dem som presentartiklar. Mer information finns i [Monteringsstrukturer eller produktionsstrukturer](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> I appen **Contoso Coffe Demo Data** ingår demonstrationsprodukter för olika produktionsstrukturscenarier som kan användas i en testmiljö, till exempel under en utvärdering. Lär dig hur du ställer in data för Contoso Coffee och söker efter genomgångar för olika scenarier på [Introduktion till Contoso Coffee Demo Data](/contoso-coffee/contoso-coffee-intro.md).
+> I appen **Contoso Coffe Demo Data** ingår demonstrationsprodukter för olika produktionsstrukturscenarier som kan användas i en testmiljö, till exempel under en utvärdering. Lär dig hur du ställer in data för Contoso Coffee och söker efter genomgångar för olika scenarier på [Introduktion till Contoso Coffee Demo Data](contoso-coffee/contoso-coffee-intro.md).
 
 Innan du kan skapa en verksamhetsföljd måste följande vara på plats:  
 
@@ -102,7 +102,7 @@ I en produktionsstruktur behövs 70 metalldelar med dimensionerna längd = 0,20 
 
 [Skapa verksamhetsföljder](production-how-to-create-routings.md)  
 [Hantera produktvarianter](inventory-item-variants.md)  
-[Genomgång: varianter](/contoso-coffee/variants.md)  
+[Genomgång: varianter](contoso-coffee/variants.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Planerad](production-planning.md)  

@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2c54b24a38be055fb8f6e641761130e6eab8b829
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361616"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728390"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkronisera artiklar och lager
 
@@ -29,7 +29,9 @@ Ett tredje scenario är att hantera data i Shopify men importera dessa artiklar 
 ## <a name="define-item-synchronizations"></a>Definiera artikelsynkronisering
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik**. Öppna en butik som du vill konfigurera synkronisering av artiklar för.
-2. Från fältet **Synkronisera artikel** väljer du det alternativ som efterfrågas.<br>Alternativen beskrivs i tabellen nedan.
+2. Från fältet **Synkronisera artikel** väljer du det alternativ som efterfrågas.
+
+   Alternativen beskrivs i tabellen nedan.
 
 |Alternativ|Description|
 |------|-----------|
@@ -46,7 +48,7 @@ Importera först artiklar från Shopify antingen i bulk eller tillsammans med or
 |**Skapa okända artiklar automatiskt**|När Shopify-produkter och -varianter importeras till [!INCLUDE[prod_short](../includes/prod_short.md)] försöker alltid funktionen [!INCLUDE[prod_short](../includes/prod_short.md)] att hitta matchande poster i artikellistan först. **SKU-mappning** har en inverkan på hur matchningen utförs och skapar nya artiklar och/eller artikelvarianter. Aktivera det här alternativet om du vill skapa en ny artikel eller om det inte finns någon matchande post. Den nya artikeln skapas med hjälp av importerade data och **Kod för artikelmall**. Om det här alternativet inte har aktiverats måste du skapa en artikel manuellt och använda åtgärden **Mappa produkt** från sidan **Shopify-produkter**.|
 |**Kod för artikelmall**|Används denna växlingsknapp **Skapa okända artiklar automatiskt**.<br>Välj den mall som ska användas för automatiskt skapade artiklar.|
 |**SKU-mappning**|Välj hur du vill använda **SKU**-värdet som importerats från Shopify under mappning och skapande av artikel/variant. Läs mer i avsnittet [Påverkan av Shopify produkt-SKU:er och streckkoder för att mappa och skapa artiklar och varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**Fältavgränsare för lagerställeenhet**|Använd det här med alternativet **SKU-mappning** inställt på **Artikelnr + variant (synchronize-items.md#effect-of- shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)Code**.<br> Definiera en avgränsare som ska användas för att dela upp SKU.<br>Om du i Shopify skapar en variant med SKU ”1000/001”, skriver du ”/” i fältet **Fältavgränsare för lagerställeenhet** för att få artikelnumret i [!INCLUDE[prod_short](../includes/prod_short.md)] till ”1000” och artikelvariantkoden till ”001”.|
+|**Fältavgränsare för lagerställeenhet**|Använd med **SKU-mappning** anges till alternativet **[Artikelnr + Variantkod](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definiera en avgränsare som ska användas för att dela upp SKU.<br>Om du i Shopify skapar en variant med SKU ”1000/001”, skriver du ”/” i fältet **Fältavgränsare för lagerställeenhet** för att få artikelnumret i [!INCLUDE[prod_short](../includes/prod_short.md)] till ”1000” och artikelvariantkoden till ”001”.|
 |**Prefix för variant**|Används tillsammans med **SKU-mappning** inställd på **Variantkod** eller **Artikelnr + Variantkod** som en säkerhetsfunktion när lagerställeenheten som kommer från Shopify är tom.<br>Om du vill skapa artikelvarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatiskt måste du ange ett värde i **Kod**. Som standard används det värde som anges i fältet för lagerställeenhet som har importerats från Shopify. Om lagerställeenheten är tom genereras koden med det definierade variantprefixet och ”001”.|
 |**Shopify kan uppdatera artikel**|Välj det här alternativet om du vill uppdatera artiklar och/eller varianter automatiskt.|
 
@@ -168,7 +170,7 @@ Baserat på värdet i **Åtgärd för borttagna produkter** på sidan **Shopify-
 
 Synkronisering av bilder kan konfigureras för synkroniserade artiklar. Välj mellan följande alternativ:
 
-* **Tom** – synkronisering av bilder inaktiveras.
+* **Inaktiverad** – synkronisering av bilder inaktiveras.
 * **Till Shopify** – bilder på artiklar exporteras till Shopify.
 * **Från Shopify** – bilder från Shopify importeras till [!INCLUDE[prod_short](../includes/prod_short.md)].
 
