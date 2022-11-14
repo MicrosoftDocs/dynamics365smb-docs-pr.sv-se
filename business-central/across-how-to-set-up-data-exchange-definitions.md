@@ -1,19 +1,19 @@
 ---
 title: Definiera hur data överförs elektroniskt
 description: Definiera hur Business Central överför data med externa filer som elektroniska dokument, bankdata, artikelkataloger m.m.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607533"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744876"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Skapa dataintegreringsdefinitioner
 
@@ -129,6 +129,7 @@ Från och med utgivningscykel 2 år 2022 kan du även gruppera efter valfritt f�
     |**Tabell-ID**|Ange tabellen som innehåller fälten som data utbyts till eller från enligt mappningen.|  
     |**Använd som cachelagringstabell**|Ange att tabellen som du väljer i fältet **Tabell-ID** är en cachelagringstabell där importerade data lagras innan de mappas till måltabellen.<br /><br /> Du kan använda den här cachelagringstabellen när definitionen för datautbyte används för att importera och konvertera elektroniska dokument, till exempel från leverantörsfakturor till inköpsfakturor i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i [Utbyta data elektroniskt](across-data-exchange.md).|  
     |**Namn**|Ange ett namn på mapningsinställningen.|  
+    |**Nyckelindex**|Ange nyckelindexet som ska användas för att sortera källposterna före export.|
     |**Förmappningskodenhet**|Ange den kodenhet som förbereder mappningen mellan fält i [!INCLUDE[prod_short](includes/prod_short.md)] och externa data.|  
     |**Mappningskodenhet**|Ange den kodenhet som används för att mappa specifika kolumner eller XML-dataelement till fält i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Eftermappningskodenhet**|Ange den kodenhet som slutför mappningen mellan fält i [!INCLUDE[prod_short](includes/prod_short.md)] och externa data. **OBS!**  När du använder tilläggsfunktionen AMC Banking 365 Fundamentals konverterar kodenheten exporterade data från [!INCLUDE[prod_short](includes/prod_short.md)] till ett standardformat som är redo för export. För import konverterar kodenheten externa data till ett format som är klart att importera till [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -161,6 +162,13 @@ Från och med utgivningscykel 2 år 2022 kan du även gruppera efter valfritt f�
      |**Omvandlingsregel**|Ange regeln för att omvandla importerad text till ett värde som stöds innan det kan mappas till det angivna fältet. När du väljer ett värde i det här fältet anges samma värde i fältet **Omvandlingsregel** i **Mappningsbuff. för datautbytesfält** och vice versa. Mer information om tillgängliga omvandlingsregler som kan användas finns i nästa avsnitt.|
      |**Prioritet**|Ange i vilken ordning fältmappningarna måste bearbetas. Fältmappningen med högst prioritetsnummer kommer att bearbetas först.|
 
+4. På snabbfliken **Fältgruppering** anger du regler som du vill använda för att gruppera fälten när du skapar filen genom att fylla i fälten enligt beskrivningen i följande tabell.  
+
+     |Fält|Description|  
+     |--------------------------------- |---------------------------------------|  
+     |**Fält-ID**|Ange numret på fältet i den externa filen som används för gruppering och detta fält måste anges av användare.|
+     |**Fältrubrik**|Ange rubriken på fältet i den externa filen som används för gruppering.|
+
 ## <a name="transformation-rules"></a>Omvandlingsregler
 
 Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandlingsregler för datautbytesdefinitioner för att göra dem likadana. Du definierar omvandlingsregler för datautbytesdefinitioner genom att öppna en befintlig definition (eller skapa en ny definition) och sedan, på snabbfliken **Raddefinitioner**, välja **Hantera** och sedan **Fältmappning**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. I följande register beskrivs de typer av omvandlingar som du kan utföra.
@@ -180,6 +188,8 @@ Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandli
 |**Matchning – reguljärt uttryck**|Använd ett reguljärt uttryck för att hitta ett eller flera värden. Denna regel liknar alternativen för **Delsträng** och **Reguljärt uttryck – Byt ut**.|
 |**Anpassat**|Denna omvandlingsregel är ett avancerat alternativ som kräver hjälp från en utvecklare. Det möjliggör en integreringshändelse som du kan prenumerera på om du vill använda din egen omvandlingskod. Om du är utvecklare och vill använda det här alternativet läser du avsnittet nedan.|
 |**Format för datum och tid**|Definiera hur du vill visa aktuellt datum och tid på dagen.|
+|**Fältsökning**|Använd fält från olika tabeller. Du måste följa stegen för att använda den. Använd först **tabell-ID** för att ange ID för tabellen som innehåller posten för fältsökningen. Sedan i fältet **Källfält-ID** anger du ID för fältet som innehåller posten för fältsökningen. Slutligen i fältet **Målfält-ID** anger du ID för fältet för att hitta posten för fältsökningen. Du kan också använda **Regel för fältsökning** för att ange typen av fältsökning. För fältet **Mål** används värdet från **Målfält-ID** även om det är tomt. För fältet **Ursprungligt om mål är tomt** används det ursprungliga värdet om målet är tomt.|
+|**Avrunda**|Avrunda värdet i det här fältet med hjälp av några ytterligare regler. I fältet **precision** anger du i första hand en avrundningsprecision. Sedan i fältet **riktning** anger du sedan avrundningsriktningen.|
 
 > [!NOTE]  
 > Lär dig mer om datum- och tidsformatering på [Standardsträngar för datum- och tidsformat](/dotnet/standard/base-types/standard-date-and-time-format-strings).

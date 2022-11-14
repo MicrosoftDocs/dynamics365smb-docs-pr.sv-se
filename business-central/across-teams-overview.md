@@ -2,19 +2,19 @@
 title: Översikt över Business Central- och Microsoft Teams-integrering | Microsoft Docs
 description: Dela Business Central-poster direkt i en Team-konversation.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
-ms.author: jswymer
-ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.custom: bap-template
+ms.openlocfilehash: 13c5e71ff35bf0bb45cabebe2124864c7875f526
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716565"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744903"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central- och Microsoft Teams-integrering
 
@@ -59,6 +59,14 @@ Direkt från de flesta samlings-och informations sidor i Business Central kan du
 <!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Mer information finns i [Dela poster och sidlänkar i Microsoft Teams](across-working-with-teams.md#share-link).
+
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Lägg till fliken Business Central i Teams-kanal eller chatt
+
+Med Business Central-appen för Teams installerad kan du lägga till en flik i en kanal eller chatta visar Business Central data från listor och kortsidor.
+
+![Flikar i Teams](media/teams-tabs-border.png)
+
+Mer information finns i [Lägg till fliken Business Central i Teams](across-teams-tab.md).
 
 ## <a name="get-started"></a>Kom igång
 
