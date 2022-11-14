@@ -1610,6 +1610,7 @@
 ##### [Hantera teamintegrering](admin-teams-integration.md)
 ##### [Installera Business Central-appen i Teams](across-install-app-for-teams.md)
 ##### [Söka efter kunder, leverantörer och kontakter](across-search-contacts-teams.md)
+##### [Lägg till fliken Business Central i kanal eller chatt](across-teams-tab.md)
 ##### [Dela poster och sidlänkar i Teams](across-working-with-teams.md)
 ##### [Ändra företag och andra inställningar](across-teams-settings.md)
 ##### [Vanliga frågor och Svar om Teams](teams-faq.md)
@@ -1784,6 +1785,12 @@
 ### [Administrationsuppgifter](admin-setup-and-administration.md)
 ### [Skapa användare enligt licenser](ui-how-users-permissions.md)
 ### [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)
+### Åtkomst med Microsoft 365-licenser
+#### [Översikt](admin-access-with-m365-license.md)
+#### [Ställ in åtkomst med Microsoft 365-licenser](admin-access-with-m365-license-setup.md)
+#### [Användaråtkomstflöde](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Felsökning](admin-access-with-m365-license-troubleshooting.md) 
 ### [Hantera profiler](admin-users-profiles-roles.md)
 ### [Hantera användarinställningar och inställningar](admin-manage-user-settings-preferences.md)
 ### [Ställa in skrivare](ui-specify-printer-selection-reports.md)

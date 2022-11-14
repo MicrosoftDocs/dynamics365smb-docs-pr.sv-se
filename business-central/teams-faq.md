@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606123"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744711"
 ---
 # <a name="teams-faq"></a>Vanliga frågor och Svar om Teams
 
@@ -145,6 +145,92 @@ Om du vill delta i att förbättra appen för Teams, eller har en idé som skull
 
 Mer information om funktionalitet i webbklienten som länkar till Teams finns i [Dela poster och sidlänkar i Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Business Central-tabell](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Vem kan se innehållet på en flik?
+
+Varje person i chatten eller kanalen som har:
+
+1. Business Central-app för Teams installerad.
+2. Antingen en Business Central-licens eller har beviljats åtkomst till Business Central med hjälp av deras Microsoft 365-licens.
+3. Behörighet att visa data på sidan.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>Var kommer det rekommenderade innehållet från?
+
+Det rekommenderade innehållet som du kan välja från i alternativet **flikinnehåll** på en flik är baserat på ditt rollcenter. Det rekommenderade innehållet innehåller endast listsidor, till exempel kunder, försäljningsorder och leverantörer, inte kortsida som viss kund eller leverantör.
+
+Det rekommenderade innehållet innehåller:
+
+- Åtgärder i den översta navigeringsmenyn i rollcentret
+- Alla listsidor som du har bokmärkt.
+- Om en listsida innehåller olika vyer, inklusive de vyer du har skapat, kommer du också åt dessa vyer
+
+Du kan lägga till listsidor med det rekommenderade innehållet genom att lägga till bokmärken. Du kan också ta bort det rekommenderade innehållet genom att ta bort bokmärken. Om du vill veta mer om hur du lägger till och tar bort bokmärken, se [Bokmärk en sida eller rapport i rollcentret](ui-bookmarks.md).
+
+Om du växlar miljön eller företaget på fliken ändras det rekommenderade innehållet utifrån det rollcenter och de bokmärken för miljön och företaget som du växlar till.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>När jag skapar en flik ger den behörighet till personerna i kanalen eller chatten?
+
+Nr. När du skapar flikar påverkas inte behörigheterna och användarna måste redan ha behörighet till dessa data när de öppnar fliken.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Kan jag chatta bredvid en flik?
+
+Ja. Använd ikonen chatt för att starta konversationen. Konversationen associeras sedan med fliken. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Om jag tar bort en flik från en chatt eller kanal, är alla Business Central data borttagna?
+
+Nr.
+
+### <a name="can-i-safely-rename-a-tab"></a>Kan jag byta namn på en flik?
+
+Ja. Innehållet på fliken är inte relaterat till flikens egentliga namn. Ändra namn kommer! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Jag måste arbeta mellan olika uppgifter i olika fönster. Kan jag göra det?
+
+Ja. Du kan pop ut fliken till ett eget webbläsarfönster för att visa Business Central webbklienten. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Kan jag lägga till eller fästa flik i Teams-möten?
+
+Nr. Business Central-appen för Teams stöder inte flikar i möten.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Det går inte att lägga till en flik med ISV-URL:er som *.bc.dynamics.com (men kan fästas)
+
+Stöds inte.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>När jag gör saker på fliken, t.ex. navigera, flytta, tillämpa ett filter eller söka, kan andra se mina ändringar?
+
+Nr. Endast fältändringar och aktiva åtgärder påverkar hur andra ser innehållet på fliken.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Uppdateras innehållet i flikar automatiskt? Om inte, hur uppdaterar jag det?
+
+Innehållet uppdateras inte automatiskt och de här knapparna för närvarande inte uppdateras. Det bästa sättet att uppdatera innehållet och se till att det är upp till data, lämnar du fliken och går sedan tillbaka. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Visar du listor och poster från mina anpassningar och tilläggsprogram?
+
+Ja. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Kan andra se den på mitt språk när jag lägger till en flik?
+
+Nr. Varje användare visar flikarnas innehåll på språk-, region-och tidszons inställningarna från Business Central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Kan jag ha flera flikar som pekar på ett annat innehåll?
+
+Ja.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Kan jag också lägga till flikar för att chatta med en enda person?
+
+Ja, så länge chatten inte är ett utkast (det vill säga att ett meddelande inte har skickats för att initiera chatten) och att den andra personen även har installerat Business Central-programmet.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Kan jag byta företag inom en flik?
+
+Nr. 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Är detta annat än att använda Teams allmänna möjlighet att skapa en flik som är värd för en webbplats?
+
+Ja. Vi rekommenderar inte att du använder metoden. I många fall fungerar det inte för Business Central.
+
 ## <a name="search-for-contacts"></a>[Söka efter kontakter](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Vilka tabeller söker programmet?
@@ -156,6 +242,7 @@ När du söker efter kontakter från [!INCLUDE [prod_short.md](includes/prod_sho
 När du skriver sökorden i sökrutan matchas termerna mot de flesta fält i tabellen **kontakter**. Fälten inkluderar till exempel fälten **Nr.**, **Namn**, **Adress**, **Telefonnr.** eller **Mobiltelefonnummer** samt **E-post**. 
 
 Sökvillkoren matchas inte mot några anpassade fält som har lagts till i tabellen **Kontakter** efter appar och tillägg.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Omfattar sökresultaten företag och personer?
 
 Ja. I [!INCLUDE [prod_short.md](includes/prod_short.md)] kan kontakter vara av typen **Företag** eller **Person**, där en eller flera personer kan vara kopplade till ett företag. I sökresultatet har företag och personer olika ikoner.
