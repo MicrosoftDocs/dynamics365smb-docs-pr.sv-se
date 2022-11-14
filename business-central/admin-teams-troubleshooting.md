@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528481"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744768"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -159,6 +159,23 @@ Problemet kan bero på olika orsaker. Till exempel måste den identitet som du a
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>Mina kort har inte längre någon popout-knapp
 
 Från och med april 2022 kommer länkar som visas som kompaktkort i Teams inte längre att innehålla knappen **Popout**. Om du vill öppna detta kort i dess eget fönster väljer du knappen **Detaljer** och sedan **Öppna i webbläsare** i ellipsmenyn (**...**) i fönstrets övre högra hörn.
+
+## <a name="cant-pin-a-card-to-tab"></a>Det går inte att fästa kort på fliken
+
+Det finns några orsaker till detta problem.
+
+- Om kortet delades från sök ME kan du inte fästa det på en flik. 
+
+- Det går inte att fästa förrän du har lagt till fliken Business Central. Det här problemet är känt i Teams. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Någon har lagt till en flik, men fliken visas inte för mig
+
+Problemet beror på att du inte har installerat BC-appen för Teams. Endast de med appen installerade kommer att se de flikarna i Business Central.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Andra ser annan sorterings- eller kolumnlayout än vad som författaren ser
+
+Problemet beror förmodligen på att du har delat en listvy som är en personlig vy. I det här fallet måste du arbeta med administratören för att skapa rollbaserade listvyer som täcker de olika rollerna i kanalen/chatten, eller skapa vyn för hela organisationen så att alla kan få en enhetlig vy.
+
 
 ## <a name="see-also"></a>Se även
 

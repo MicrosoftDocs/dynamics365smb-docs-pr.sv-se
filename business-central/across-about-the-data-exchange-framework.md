@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134388"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744657"
 ---
 # <a name="about-the-data-exchange-framework"></a>Om ramverket för datautbyte
 
-Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
+Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner eller myndigheter.
 
 Som administratör eller Microsoft-partner kan du använda ramverket i nya integreringsfunktioner genom att ställa in vilka data som ska utbytas och hur. Exempelvis varierar formatet på filer för utbyte av data i bankfiler, elektroniska dokument, valutakurser och annat med ERP-system beroende på leverantören av datafilen eller strömmen och på land/region. [!INCLUDE[prod_short](includes/prod_short.md)] stöder olika bankfilformat och datatjänststandarder. För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte.
 
@@ -59,10 +59,14 @@ Du kan ställa in en extern tjänst för kontinuerlig uppdatering av aktuella va
 
 För alla utbyten av data i XML-filer kan du förbereda dataväxlingsinställningen genom att ladda den relaterade XML-schemafilen på sidan **Visningsprogram för XML-schema**. Här väljer du dataelementen som du vill utbyta med [!INCLUDE[prod_short](includes/prod_short.md)] och sedan initialiserar du antingen en definition för datautbyte eller genererar en XMLport.
 
+## <a name="intrastat"></a>Intrastat
+
+[!INCLUDE[prod_short](includes/prod_short.md)] använder data Exchange Framework för Intrastat-rapportering där du enkelt kan skapa tidsstämplade filer i olika format för export. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller förberedda format för lokaliserade länder och för standardversionen. Du kan dock ändra i medföljande rapport eller skapa en egen.
+
 ## <a name="see-also"></a>Se även
 
 [Utbyta data elektroniskt](across-data-exchange.md)  
-[Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Använda XML-uppställningar för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
