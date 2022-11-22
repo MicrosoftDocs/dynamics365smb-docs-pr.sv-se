@@ -1,20 +1,21 @@
 ---
 title: Ange när och hur meddelanden om arbetsflöde ska tas emot
 description: När du konfigurerar användare i arbetsflöden för godkännande kan du ange hur och när varje godkännandeanvändare får meddelanden.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585516"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763269"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Ange när och hur meddelanden om arbetsflöde ska tas emot
 
@@ -38,10 +39,10 @@ Många arbetsflödessvar för godkännande handlar om att meddela användare om 
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2. Markera raden för användaren som du vill konfigurera meddelandeinställningar för och välj sedan åtgärden **Konfigurera meddelanden**.  
-3. På sidan **Konfigurera meddelanden** kan du fylla i fälten enligt beskrivningen i följande tabell.  
+3. På sidan **Konfigurera arbetsflödesavisering** kan du fylla i fälten enligt beskrivningen i följande tabell.  
 
    > [!NOTE]
-   > Om du öppnar sidan **Konfigurera meddelanden** från sidan **Användarinställningar för godkännande** länkas meddelandeinställningarna till godkännandeanvändaren. Godkännandeanvändaren får alltid arbetsflödesmeddelanden i enlighet med meddelandeinställningen. Om du använder funktionen *Tell Me* för att öppna sidan **Konfigurera meddelanden** gäller meddelandeinställningen för alla användare.
+   > Om du öppnar sidan **Konfigurera arbetsflödesavisering** från sidan **Användarinställningar för godkännande** länkas meddelandeinställningarna till godkännandeanvändaren. Godkännandeanvändaren får alltid arbetsflödesmeddelanden i enlighet med meddelandeinställningen. Om du använder funktionen *Tell Me* för att öppna sidan **Konfigurera arbetsflödesavisering** gäller meddelandeinställningen för alla användare.
 
    |Fält|Description|
    |-----|-----------|
@@ -66,7 +67,7 @@ Många arbetsflödessvar för godkännande handlar om att meddela användare om 
 ## <a name="change-when-and-how-you-receive-notifications"></a>Ändra när och hur du ska meddelas
 
 1. Välj knappen **Ändra meddelandeinställningar** i ett av meddelandena som du har tagit emot, antingen eller som e-post eller notering.  
-2. Ändra dina meddelandeinställningar så som beskrivs i steg 3-5 ovan på sidan **Konfigurera meddelanden**.
+2. Ändra dina meddelandeinställningar så som beskrivs i steg 3-5 ovan på sidan **Konfigurera arbetsflödesavisering**.
    1. Bekräfta att rätt meddelande har valts i fältet **meddelandetyp**.
    2. Välj om du vill få ett e-postmeddelande eller en meddelande anteckning i fältet **meddelandemetod**.
    3. Välj **meddelandeschema** för att ändra frekvens och tidpunkt då meddelanden skickas.

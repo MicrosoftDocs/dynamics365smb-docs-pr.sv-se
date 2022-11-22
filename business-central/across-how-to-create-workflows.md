@@ -1,24 +1,24 @@
 ---
 title: Skapa arbetsflöden för godkännande för att koppla aktiviteter
-description: Du kan skapa arbetsflöden som sammankopplar affärsprocesser som utförs av olika användare, samt inkludera systemaktiviteter som automatisk bokföring, som arbetsflödessteg.
-author: SorenGP
+description: Lär dig skapa arbetsflöden som kopplar uppgifter som utförs av olika människor i affärsprocesser.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586006"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763274"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Skapa arbetsflöden för att koppla affärsprocessuppgifter
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Skapa arbetsflöden för att koppla uppgifter i affärsprocesser
 
-Du kan skapa arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
+Du kan skapa arbetsflöden som kopplar uppgifter i affärsprocesser som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
 
 På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar med svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
 
@@ -73,7 +73,10 @@ För båda händelser och svar är alternativen systemdefinierade. Nya måste l�
 
     1. Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skicka ett meddelande.  
 
-       |Fält|Beskrivning|
+    > [!NOTE]
+    > Dessa fält varierar beroende på vilket svar du valt.
+
+       |Fält|Description|
        |-----|-----------|
        |**Meddela avsändare**|Ange om den som har fått godkännandet ska meddelas i stället för mottagaren om godkännandeförfrågan. Om du markerar kryssrutan inaktiveras fältet **Mottagarens användar-ID** eftersom den som skickar godkännandet kommer att meddelas i stället. Namnet på arbetsflödessvar ändras enligt detta till **skapa ett meddelande för &lt;avsändaren&gt;**. Om kryssrutan inte är markerad kan namnet på arbetsflödetssvar **skapa ett meddelande för &lt;användaren&gt;**.|
        |**Mottagarens användar-ID**|Ange den användare som meddelande ska skickas till. **Obs**! Alternativet är bara tillgängligt för arbetsflödesvar med en platshållare för en specifik användare. För arbetsflödesvar utan platshållare för användare definieras meddelandemottagaren vanligtvis av **inställningen av godkännandeanvändare**.|
@@ -83,19 +86,19 @@ För båda händelser och svar är alternativen systemdefinierade. Nya måste l�
 
     2. Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skapa en godkännandebegäran.  
 
-        |Fält|Description|  
-        |-----|-----------|  
-        |**Formel för förfallodatum**|Ange hur många dagar det är kvar tills godkännandebegäran måste lösas från datumet då det skickades.|
-        |**Delegera efter**|Ange om och när en godkännandebegäran delegeras automatiskt till den relevanta ersättaren. Du kan välja att automatiskt delegera en, två eller fem dagar efter datumet när godkännandet begärdes.|
-        |**Godkännartyp**|Ange vem godkännaren är, enligt inställningarna av godkännandeanvändare och arbetsflödesanvändare. När fältet anges till **Säljare/Inköpare** användaren som ställs in i fältet **Säljare/inköpare kod** i sidan **Användarinställningar för godkännande** fastställer godkännaren. Godkännandebegäranposter skapas sedan enligt värdet i fältet **Gränstyp för godkännare**. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-workflow-users.md).|
-        |**Visa bekräftelsemeddelande**|Ange om ett bekräftelsemeddelande visas för användarna när de har begärt ett godkännande.|
-        |**Gränstyp för godkännare**|Ange hur godkännares godkännandegränser påverkas när godkännandebegärandeposter skapas för dem. En kvalificerad godkännare är en godkännare vars godkännandegräns är högre än värdet på begäran. Följande alternativ finns: <ol><li>**Godkännarkedja** anger att godkännandebegärandeposter skapas för alla begärandens godkännare upp till och med den första kvalificerade godkännaren.</li><li>**Direkt godkännare** anger att en godkännandebegärandepost skapas endast för begärandens omedelbara godkännare, oberoende av godkännarens godkännandegräns.</li><li>**Första kvalificerade godkännare** anger att en godkännandebegärandepost skapas endast för begärandens första kvalificerade godkännare.</li></ol>|
+       |Fält|Description|  
+       |-----|-----------|  
+       |**Formel för förfallodatum**|Ange hur många dagar det är kvar tills godkännandebegäran måste lösas från datumet då det skickades.|
+       |**Delegera efter**|Ange om och när en godkännandebegäran delegeras automatiskt till den relevanta ersättaren. Du kan välja att automatiskt delegera en, två eller fem dagar efter datumet när godkännandet begärdes.|
+       |**Godkännartyp**|Ange vem godkännaren är, enligt inställningarna av godkännandeanvändare och arbetsflödesanvändare. När fältet anges till **Säljare/Inköpare** användaren som ställs in i fältet **Säljare/inköpare kod** i sidan **Användarinställningar för godkännande** fastställer godkännaren. Godkännandebegäranposter skapas sedan enligt värdet i fältet **Gränstyp för godkännare**. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-workflow-users.md).|
+       |**Visa bekräftelsemeddelande**|Ange om ett bekräftelsemeddelande visas för användarna när de har begärt ett godkännande.|
+       |**Gränstyp för godkännare**|Ange hur godkännares godkännandegränser påverkas när godkännandebegärandeposter skapas för dem. En kvalificerad godkännare är en godkännare vars godkännandegräns är högre än värdet på begäran. Följande alternativ finns: <ol><li>**Godkännarkedja** anger att godkännandebegärandeposter skapas för alla begärandens godkännare upp till och med den första kvalificerade godkännaren.</li><li>**Direkt godkännare** anger att en godkännandebegärandepost skapas endast för begärandens omedelbara godkännare, oberoende av godkännarens godkännandegräns.</li><li>**Första kvalificerade godkännare** anger att en godkännandebegärandepost skapas endast för begärandens första kvalificerade godkännare.</li><li>**Specifik godkännare** anger att användaren ska meddelas i fältet **godkännar-ID**.</li></ol>|
     3. Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skapa journalrader.  
 
-        |Fält|Description|  
-        |-----|-----------|  
-        |**Namn på redovisningsjournalmall**|Ange namnet på redovisningsjournalmallen som de angivna journalraderna skapas i.|  
-        |**Redovisningsjournalnamn**|Ange namnet på redovisningsjournalbatchen som de angivna journalraderna skapas i.|  
+       |Fält|Description|  
+       |-----|-----------|  
+       |**Namn på redovisningsjournalmall**|Ange namnet på redovisningsjournalmallen som de angivna journalraderna skapas i.|  
+       |**Redovisningsjournalnamn**|Ange namnet på redovisningsjournalbatchen som de angivna journalraderna skapas i.|  
 
 11. Välj knapparna **Öka indrag** och **Minska indrag** för att göra ett indrag för händelsenamnet i fältet **När** för att definiera stegets position i arbetsflödet.  
 
