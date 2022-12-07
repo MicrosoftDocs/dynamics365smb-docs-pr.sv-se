@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362103"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788266"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion till demonstrationsdata för Contoso Coffee
 
@@ -26,13 +26,13 @@ Appen tillhandahåller fyra produkter som är optimerade för olika scenarier:
 
 - **SP-SCM1011 Airpot Duo**  
 
-  För den här produkten krävs artikelspårning, och den har en komponent som också kräver artikelspårning. Värderingsmetoden är *Special*.  
+  För den här produkten krävs artikelspårning, och den har en komponent som också kräver artikelspårning. Värderingsmetoden är *Specifik*.  
 
 - **SP-SCM1004 Autodrip**  
 
   Den här produkten är en struktur med ett detaljmontage, **Operationsföljd**. Vi rekommenderar detta för att demonstrera de olika "flushing"-metoderna för såväl komponenter som åtgärder. Värderingsmetoden är *Standard*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   Denna produkt har tre varianter och tre strukturlistor som kan tilldelas lagerställeenheter. Produkten använder det fiktiva strukturkonceptet. Värderingsmetoden är *Standard*.
 

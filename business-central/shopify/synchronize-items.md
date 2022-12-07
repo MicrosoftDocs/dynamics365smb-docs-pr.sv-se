@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: a14e81932ab2cc02c691d6dfe8a9a1c4fe326410
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728390"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802963"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkronisera artiklar och lager
 
@@ -28,7 +28,7 @@ Ett tredje scenario är att hantera data i Shopify men importera dessa artiklar 
 
 ## <a name="define-item-synchronizations"></a>Definiera artikelsynkronisering
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik**. Öppna en butik som du vill konfigurera synkronisering av artiklar för.
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butik**. Öppna en butik som du vill konfigurera synkronisering av artiklar för.
 2. Från fältet **Synkronisera artikel** väljer du det alternativ som efterfrågas.
 
    Alternativen beskrivs i tabellen nedan.
@@ -64,8 +64,8 @@ Skillnaden mellan alternativen i fältet **SKU-mappning** beskrivs i följande t
 |**Artikelnr**|Välj om fältet SKU innehåller artikelnumret|Ingen inverkan på skapandet av artikel utan varianter. För artiklar med varianter skapas varje variant som en separat artikel.<br>Om Shopify har en produkt med två varianter och deras SKU:er är ”1000” och ”2000”, skapas två artiklar med numren ”1000” och ”2000” i [!INCLUDE[prod_short](../includes/prod_short.md)].|
 |**Variantkod**|Fältet SKU används inte i rutinen för artikelmappning.|Ingen inverkan på skapandet av artikeln. När en artikelvariant skapas används värdet i fältet SKU som kod. Om SKU är tom genereras en kod med hjälp av fältet **Variantprefix**.|
 |**Artikelnr + variantkod**|Välj om fältet SKU innehåller ett artikelnr och artikelvariantkod avgränsade med värdet som definieras i fältet **Fältavgränsare för lagerställeenhet**.|När en artikel skapas tilldelas den första delen av värdet i fältet SKU som **nr**. Om SKU-tomt är tom genereras ett artikelnummer med hjälp av nummerserier som definierats i **Kod för artikelmall** eller **Artikelnr** på sidan **Lagerinställningar**.<br>När en artikel skapas använder variantfunktionen den andra delen av värdet i fältet SKU som **kod**. Om SKU-fältet är tomt genereras en kod med hjälp av fältet **Variantprefix**.|
-|**Leverantörens artikelnr**|Välj om fältet SKU innehåller artikelnumret för leverantören. I det här fallet används inte **Artikelleverantörsnr.** på sidan **Artikelkort** i stället för **Leverantörens artikelnr.** från **Artikelns leverantörskatalog**. Om posten i *Katalog från artikelleverantör* innehåller en variantkod används denna kod för att mappa Shopify-varianten.|Om en motsvarande leverantör finns i [!INCLUDE[prod_short](../includes/prod_short.md)] används SKU-värdet som **Leverantörens artikelnr** på sidan **Artikelkort** och som **Artikelreferens** av typen Leverantör. <br>Förhindrar att varianter skapas. Det är användbart när du bara vill använda huvudartikeln i försäljningsordern. Du kan fortfarande mappa en variant manuellt på sidan **Shopify-produkt**.|
-|**Streckkod**|Välj om fältet SKU innehåller en streckkod. En sökning utförs bland **Artikelreferenser** av typen Leverantör. Om posten Artikelreferens som hittas innehåller en variantkod används denna variantkod för att mappa Shopify-varianten.|Ingen inverkan på skapandet av artikeln. <br>Förhindrar att varianter skapas. Det är användbart när du bara vill använda huvudartikeln i försäljningsordern. Du kan fortfarande mappa en variant manuellt på sidan **Shopify-produkt**.|
+|**Leverantörens artikelnr**|Välj om fältet SKU innehåller artikelnumret för leverantören. I det här fallet används inte **Artikelleverantörsnr.** på sidan **Artikelkort** i stället för **Leverantörens artikelnr.** från **Artikelns leverantörskatalog**. Om posten i *Katalog från artikelleverantör* innehåller en variantkod används denna kod för att mappa Shopify-varianten.|Om en motsvarande leverantör finns i [!INCLUDE[prod_short](../includes/prod_short.md)], används SKU-värdet som **Leverantörens artikelnr.** på sidan **Artikelkort** och som **Artikelreferens** av typen *Leverantör*. <br>Förhindrar att varianter skapas. Det är användbart när du bara vill använda huvudartikeln i försäljningsordern. Du kan fortfarande mappa en variant manuellt på sidan **Shopify-produkt**.|
+|**Streckkod**|Välj om fältet SKU innehåller en streckkod. En sökning utförs bland **Artikelreferenser** av typen *Streckkod*. Om posten Artikelreferens som hittas innehåller en variantkod används denna variantkod för att mappa Shopify-varianten.|Ingen inverkan på skapandet av artikeln. <br>Förhindrar att varianter skapas. Det är användbart när du bara vill använda huvudartikeln i försäljningsordern. Du kan fortfarande mappa en variant manuellt på sidan **Shopify-produkt**.|
 
 I följande tabell beskrivs effekten av fältet **Streckkod**.
 
@@ -238,9 +238,18 @@ Du kan starta lagersynkronisering på de två sätt som beskrivs nedan.
 
 ### <a name="inventory-remarks"></a>Lageranmärkningar
 
-* Kopplingen beräknar **Prognostiserat tillgängligt saldo** och exporterar det till Shopify.
+* Kopplingen beräknar **Prognostiserat tillgängligt saldo** vid aktuellt datum och exporterar det till Shopify.
 * Du kan inspektera lagerinformationen från Shopify på sidan **Faktabox om Shopify-lager**. I den här faktaboxen får du en översikt över Shopify-lagret och det senast beräknade lagret i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finns en post per plats.
 * Om lagerinformationen i Shopify skiljer sig från **Prognostiserat tillgängligt saldo** i [!INCLUDE[prod_short](../includes/prod_short.md)] uppdateras lagret i Shopify.
+
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Exempel på beräkning av planerad disponibel balans
+
+Det finns 10 delar av artikeln som finns tillgängliga i handen och två utestående försäljningsorder. En för måndagen med kvantiteten *en* och en för torsdag med kvantitet *två*. Beroende på när du synkroniserar lager, uppdateras lager nivån i Shopify med olika antal:
+
+|När synkronisering av lagret körs|Värde som används för att uppdatera lagernivå|Kommentar|
+|------|-----------------|-----------------|
+|Tisdag|9|Lager 10 minus försäljningsorder som levereras till måndag|
+|Fredag|7|Lager 10 minus både försäljningsorder|
 
 ## <a name="see-also"></a>Se även
 

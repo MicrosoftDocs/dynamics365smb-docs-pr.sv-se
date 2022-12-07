@@ -9,18 +9,19 @@ ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: f509c0a8bf5e9320eb0f2712863984221b7138b9
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
+ms.search.forms: 9061
+ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9745022"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804425"
 ---
-# <a name="set-up-access-with-microsoft-365-licenses"></a>Ställ in åtkomst med Microsoft 365-licenser 
+# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Konfigurera Business Central Access i Teams med Microsoft 365-licenser
 
-Administratörer måste slutföra flera aktiviteter innan de får åtkomst till Business Central med deras Microsoft 365-licens. Stegen nedan representerar den minsta inställning som krävs för att komma igång.  
+Administratörer måste slutföra flera aktiviteter innan de får åtkomst till Business Central med deras Microsoft 365-licens. Stegen nedan representerar den minsta inställning som krävs för att komma igång. Om du vill veta mer om åtkomst med Microsoft 365 licenser går du till [Business Central åtkomst med Microsoft 365 licenser](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Distribuera appen Business Central för Teams 
+## <a name="deploy-the-business-central-app-for-teams"></a>Distribuera appen Business Central för Teams
 
 För att Business Central-licensinnehavare att dela data i Teams och Microsoft 365-licensinnehavaren måste ha till gång till dessa data, måste han/ hon ha Business Central-appen för Teams installerade. Även om användare kan installera själva appen av sig, rekommenderas administratörer att använda centraliserad distribution. Centraliserad distribution gör att du kan lyfta upp appen till en bredare publik i organisationen och minimera enskilda användares ansträngningar. 
 
@@ -43,8 +44,10 @@ Så här konfigurerar du startbehörigheter:
 3. Högst upp på **Microsoft 365**-licenssida, välj redigeringsikonen ![ikonen redigera](media/edit-pencil.png), aktivera **Anpassa behörigheter**. 
 4. I avsnittet **Anpassade behörighetsuppsättningar** lägg till lämpliga behörighetsuppsättningar och välj om de är tillämpliga på ett enda företag eller alla företag inom miljön.
 
+Med denna konfiguration kan användare med endast en Microsoft 365 licens läggs till i listan **användare** när de får åtkomst till Business Central första gången. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).
+
 > [!NOTE]
-> När du synkroniserar användarlistan i Business Central med användare i Microsoft 365, läggs endast användare med en Business Central-licens till i Business Central användarlista. Användare med endast en Microsoft 365-licens läggs till i listan användare när de ansluter till Business Central för första gången. Läs mer på [Skapa användare enligt licenser](ui-how-users-permissions.md).
+> När du synkroniserar användarlistan i Business Central med användare i Microsoft 365, läggs endast användare med en Business Central-licens till i Business Central användarlista. Du kan tilldela en säkerhets grupp till miljön mer administrativ kontroll över behörigheter, användar grupper och profiler. När miljöer skyddas med hjälp av en säkerhetsgrupp och aktiverar åtkomst med Microsoft 365 licenser, kommer åtgärden **Uppdatera användare från Microsoft 365** på sidan **användare** även att innehålla användare som bara har en Microsoft 365 licens. Mer information om hur du skyddar miljöer finns i [ Hantera åtkomst med hjälp av Azure Active Directory grupper ](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) i hjälpen för utvecklare och IT-proffs.
 
 > [!TIP]
 > Letar du efter ett snabbare sätt att komma igång när du försöker med den här funktionen eller utvärderingsföretag? Tilldela **D365 läs** behörighetsuppsättning, som ger behörighet till de flesta objekt.  
@@ -89,6 +92,6 @@ För att verifiera att din installation är redo för produktion hjälper följa
 
 ## <a name="see-also"></a>Se även
 
-[Business Central-åtkomst med Microsoft 365-licenser](admin-access-with-m365-license.md#minimum-requirements)  
+[Översikt över Business Central-åtkomst med Microsoft 365-licenser](admin-access-with-m365-license.md#minimum-requirements)  
 [Felsöka åtkomst med Microsoft 365-licenser](admin-access-with-m365-license-troubleshooting.md)  
 [Business Central- och Microsoft Teams-integration](across-teams-overview.md)  

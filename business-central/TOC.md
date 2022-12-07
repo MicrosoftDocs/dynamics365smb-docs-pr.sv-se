@@ -21,6 +21,7 @@
 #### [Genomgång: Plockning och leverans i grundläggande lagerkonfiguration](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Genomgång: Utföra kassaflödesprognoser genom att använda ekonomiska rapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Genomgång: ställa in och använda Shopify anslutningsprogram](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Demonstrationsdata för Contoso Coffee för tillverkning
 #### [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -671,6 +672,7 @@
 <!--Shopify-->
 ## Onlinebutik med Shopify
 ### [Kom igång med Shopify-kopplingen](shopify/get-started.md)
+#### [Skapa och ställa in ett Shopify konto](shopify/shopify-account.md)
 ### [Synkronisera objekt med Shopify](shopify/synchronize-items.md)
 ### [Synkronisera kunder med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisera och uppfylla försäljningsordrar med Shopify](shopify/synchronize-orders.md)
@@ -679,6 +681,7 @@
 ### [Kör uppgifter i bakgrunden](shopify/background.md)
 ### [Felsök Shopify-kopplingen](shopify/troubleshoot.md)
 ### [FAQ för Shopify-kopplingen](shopify/shopify-faq.md)
+### [Genomgång: ställa in och använda Shopify anslutningsprogram](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Företagsnav
@@ -1789,7 +1792,7 @@
 #### [Översikt](admin-access-with-m365-license.md)
 #### [Ställ in åtkomst med Microsoft 365-licenser](admin-access-with-m365-license-setup.md)
 #### [Användaråtkomstflöde](admin-access-with-m365-license-flow.md)
-<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Vanliga frågor och svar](admin-access-with-m365-license-faq.md)
 #### [Felsökning](admin-access-with-m365-license-troubleshooting.md) 
 ### [Hantera profiler](admin-users-profiles-roles.md)
 ### [Hantera användarinställningar och inställningar](admin-manage-user-settings-preferences.md)

@@ -8,18 +8,22 @@ ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 3
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728336"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802937"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synkronisera och uppfylla försäljningsordrar
 
 I den här artikeln beskrivs nödvändiga inställningar och steg som måste slutföras för att synkronisera och uppfylla försäljningsordrar från Shopify i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Ange import av ordrar på Shopify-butikskortet
+
+Ange en **valutakod** om din onlinebutik använder en annan valuta än den lokala valutan (BVA). Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDE[prod_short](../includes/prod_short.md)]. 
+
+Du kan se butiksvalutan i inställningarna [butiksinformation](https://www.shopify.com/admin/settings/general) i din Shopify Admin. Shopify kan konfigureras så att olika valutor accepteras, men importerade order kan användas i [!INCLUDE[prod_short](../includes/prod_short.md)] butiksvaluta.
 
 En vanlig Shopify-order kan inkludera kostnader förutom delsumman, till exempel fraktkostnader eller dricks. Dessa belopp bokförs direkt till det redovisningskonto som du vill använda för specifika transaktionstyper:
 
@@ -80,7 +84,7 @@ Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. L�
 
 ## <a name="review-imported-orders"></a>Granska importerade order
 
-När importen är klar kan du utforska Shopify beställa och hitta all relaterad information, såsom betalningstransaktioner, fraktkostnader, risknivå eller uppfyllelser, om beställningen redan utfördes i Shopify. Du kan också se orderbekräftelser som har skickats till kunden genom att välja åtgärden **Shopify-statussida**.
+När importen är klar kan du utforska Shopify beställa och hitta all relaterad information, såsom betalningstransaktioner, fraktkostnader, risknivå, orderattribut och taggar eller uppfyllelser, om beställningen redan utfördes i Shopify. Du kan också se orderbekräftelser som har skickats till kunden genom att välja åtgärden **Shopify-statussida**.
 
 > [!NOTE]  
 > Du kan navigera till fönstret **Shopify-ordrar** direkt, så visas ordrar med statusen *Öppen* från alla butiker. För att granska slutförda ordrar måste du öppna sidan **Shopify-ordrar** från fönstret **Shopify-butikskort**.
@@ -132,6 +136,7 @@ I Shopify:
 |Redigera|Påverkan|
 |------|-----------|
 |Ändra uppfyllelseplatsen | Den ursprungliga platsen kommer att synkroniseras med [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Ändra plats för uppfyllelse och registrera uppfyllelse i Shopify| Om ordern redan har importerats uppdateras inte rader. I annan importerad order används plats för uppfyllelse. |
 |Redigera en order och ändra antal| Order huvud och tilläggs tabeller uppdateras på [!INCLUDE[prod_short](../includes/prod_short.md)] rader. |
 |Redigera en order och lägg till nytt objekt | Orderrubriken uppdateras, raderna kommer inte att uppdateras. |
 

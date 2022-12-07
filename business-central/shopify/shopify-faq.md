@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 93c30d401cd5b9f689f757621b12a09dfd73b4b4
-ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
+ms.openlocfilehash: 534b4aa47820bc3738a8ffc22a02151efef64863
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "9213669"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802909"
 ---
 # <a name="faq-for-technical-details"></a>FAQ för teknisk information
 
@@ -25,6 +25,29 @@ Shopify är ett paketbaserade program som gör att vem som helst kan ställa in 
 
 Med Shopify-anslutning kan företag ansluta sina Shopify butik (eller butiker) med [!INCLUDE[prod_short](../includes/prod_short.md)] för att maximera företagets produktivitet. Genom att använda Shopify-anslutning kan de hantera och se insikter från sin verksamhet och sina Shopify online butik som en enhet. 
 
+### <a name="capabilities"></a>Funktioner
+
+- Stöd för fler än en Shopify-butik
+  - Varje butik har sina egna inställningar, inklusive en samling produkter, platser som används för att beräkna lager och prislistor.  
+- Synkronisering av artiklar eller produkter med dubbel riktning
+  - Kopplingen synkroniserar bilder, artikelvarianter, streckkoder, leverantörens artikel nummer, extratexter och taggar.  
+  - Exportera artikelattribut till Shopify.  
+  - Använd valda kundprisgrupper och -rabatter för att definiera priser som exporteras till Shopify.  
+  - Bestäm om artiklar kan skapas automatiskt eller tillåta uppdateringar av befintliga produkter.  
+- Synkronisera lagernivåer
+  - Välj några av eller alla tillgängliga platser i [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  - Uppdatera lager nivåer på flera lagerställen i Shopify.  
+- Synkronisering av kunder med dubbel riktning
+  - Smartmappa kunder via telefon och e-post.  
+  - Använd landsspecifika mallar när du skapar kunder, vilket säkerställer att skatteinställningarna är korrekta.  
+- Importera order från Shopify
+  - Inkludera beställningar som skapats i olika försäljningskanaler, såsom webbutik eller **Shopify POS**. 
+  - Leverans kostnader, presentkort, tips, leverans- och betalningsmetoder, transaktioner och risk för bedrägerier.  
+  - Under importen kan du automatiskt skapa kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller bestämma dig för att hantera kunderna i Shopify.  
+  - Ta emot utbetalnings information från Shopify Payments. 
+- Spåra uppfyllelse information
+  - Om du vill kan du välja att överföra artikelspårningsinformation från [!INCLUDE [prod_short](../includes/prod_short.md)] till Shopify.  
+
 ## <a name="why-did-microsoft-and-shopify-form-this-partnership"></a>Varför lät Microsoft och Shopify bilda det här partnerskapet? 
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] har ett samarbete med Shopify för att hjälpa våra kunder att skapa en bättre kundupplevelse. När Shopify ger handlare en lättanvänd handelslösning, [!INCLUDE[prod_short](../includes/prod_short.md)] erbjuder omfattande företagsledning över ekonomi-, försäljnings-, service- och driftteam inom en enda app. Med sömlös anslutning mellan de två systemen synkroniseras order, lager och kund information så att butikerna kan uppfylla beställningar snabbare och betjäna kunderna bättre.
@@ -37,19 +60,34 @@ Shopify-anslutningen fungerar inte för [inbäddad app](/dynamics365/business-ce
 
 ## <a name="what-support-is-offered-for-the-shopify-connector"></a>Vilket stöd erbjuds för Shopify-anslutningen?
 
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
+
 Shopify kopplingen täcks av den aktuella stöd modellen. Mer information finns i [Teknisk support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (finns endast på engelska). 
 
-Om du vill ha hjälp med Shopify, starta med [Allmänt Shopify hjälpcenter](https://help.shopify.com/) eller [24/7 Support för din butik som en Shopify handlarens](https://help.shopify.com/questions#/).
+Få hjälp från en konsult som känner till Shopify anslutningsprogram för [!INCLUDE[prod_short](../includes/prod_short.md)], för att uppfylla dina unika företagsspecifika krav.
+ 
+Sök i [konsulttjänster](https://aka.ms/BCShopifyConsultant).
+
+### <a name="shopify"></a>Shopify
+
+Om du vill ha hjälp med Shopify, starta med [Allmänt Shopify hjälpcenter](https://help.shopify.com/) eller [24/7 Support för din butik som en Shopify handlarens](https://help.shopify.com/questions#/). 
+
+Du kan också utforska [Expertmarknaden](https://experts.shopify.com/) och hitta rätt experter som erbjuder tjänster för Shopify handlare.
+
+## <a name="currently-not-supported-features-however-were-tracking-them-and-may-consider-adding-them-in-the-future"></a>Funktioner som inte stöds, men vi följer upp dem och kan tänka på att lägga till dem i framtiden:
+
+- B2B-funktioner, inklusive företag, företagsprislistor, betalningsvillkor
+- Marknader
+  - Flera översättningar av huvuddata. Du kan välja ett språk som ska användas för export av produktinformation.
+  - Priser per land/region. En prislista är tillgänglig för den valda valutan. Konverteringen till andra valutor kommer att hanteras av Shopify.
 
 ## <a name="is-the-shopify-connector-extensible"></a>Kan Shopify-anslutningen utökas?
 
-För närvarande är den här appen icke-utökningsbar med abonnemang som gör att den kan utökas vid något tillfälle (ännu inte identifierad) i framtiden.
+För närvarande är den här appen icke-utökningsbar med planer för att göra den utökningsbar i 2023. 
 
 ## <a name="is-the-shopify-connector-open-for-contribution"></a>Är Shopify-anslutningen öppen för bidrag
 
 Ja, detta tillägg är öppet för bidrag från communityn. Du hittar [källkoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i databasen Microsoft Al arkiv för programtillägg.
-
-
 
 
 ## <a name="see-also"></a>Se även
