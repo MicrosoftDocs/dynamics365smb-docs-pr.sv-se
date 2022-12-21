@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
-ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
+ms.openlocfilehash: d401e6d9a0b8fb4f05bcc379322b2f81bfc03c57
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617918"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822421"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurera beräknings- och bokföringsmetoder för moms
 
@@ -55,7 +55,7 @@ I detta skede kanske du bara fyller i de saknade redovisningskontona. När du se
 Momsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] baseras på **momsdatumet** för att ta med momstransaktioner i momsrapporter under en momsperiod. Momsdatumet kan ändras i alla dokument och journaler, men du måste ange ett standardvärde för momsdatumet.
 
 > [!NOTE]
-> När du har bokfört dokumentet eller journalen visas **momsdatumet** på **Momsposter** och **Redovisningsposter** samt på det bokförda dokumentet.
+> När du har bokfört dokumentet eller journalen visas **momsdatumet** på **Momstransaktioner** och **Redovisningstransaktioner** samt på det bokförda dokumentet.
 
 Så här ställer du in ett standardvärde för ett momsdatum:
 
@@ -233,7 +233,12 @@ För att korrekt beräkna moms på försäljning till länder/regioner inom EU b
 * Lägg upp en rad för försäljning med samma information för inköp. Om du redan har lagt upp rader på sidan **Bokföringsinställning** för moms för inköp från andra länder/regioner inom EU kan du även använda dessa rader för försäljning.  
 * Tilldela rörelsebokföringsmallar för moms i fältet **Moms rörelsebokföringsmall** på snabbfliken **Fakturering** på leverantörskortet för varje EU-leverantör. Du bör också ange kunden momsregistreringsnummer i fältet **Momsregistreringsnr** på Snabbfliken **Utlandshandel**.  
 
-När du bokför en försäljning till en kund i ett annat land eller en annan region inom EU beräknas momsbeloppet och en momstransaktion skapas med informationen om omvänd moms och nettobeloppet (det belopp som används för att beräkna momsbeloppet). Inga poster bokförs på momskontona i redovisningen.
+När du bokför en försäljning till en kund i ett annat land eller en annan region inom EU beräknas momsbeloppet och en momstransaktion skapas med informationen om omvänd moms och nettobeloppet (det belopp som används för att beräkna momsbeloppet). Inga transaktioner bokförs på momskontona i redovisningen.
+
+Om du vill använda en kombination av momsrörelsebokföringsmall och momsproduktbokföringsmall för rapportering som tjänster i de periodiska momsrapporterna, markera då fältet **EU-tjänst**.
+
+> [!NOTE]  
+> Fältet **EU-tjänst** gäller endast för momsrapporter. Fältet är inte relaterat till funktionerna **Tjänstedeklaration** eller **Intrastat för tjänster**.
 
 ## <a name="vat-rounding-for-documents"></a>Momsavrundning för dokument
 

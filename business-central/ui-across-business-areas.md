@@ -1,21 +1,19 @@
 ---
 title: Använda allmänna funktioner över affärsområden
 description: Lär dig om de funktioner som används över flera olika affärsområden i Business Central.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605907"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822498"
 ---
 # <a name="general-business-functionality"></a>Allmänna affärsfunktioner
 
@@ -43,7 +41,8 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till artiklar
 |Bokföra flera försäljnings- eller inköpsdokument direkt eller som planerade.|[Bokföra flera dokument på samma gång](ui-batch-posting.md)|  
 |Granska resultatet av bokföringen innan du bokför.|[Förhandsgranska resultat](ui-how-preview-post-results.md)|
 |Redigera valda fält i bokförda försäljnings- eller inköpsdokument.|[Redigera bokförda dokument](across-edit-posted-document.md)|
-| Förstå tillgänglig status för dokument av typen offerter, order och kreditnotor, till exempel **Öppna** och **Släppta** | [Statusfält i dokument](ui-document-status.md) |
+|Lär dig hitta dokument och transaktioner som är relaterade till varandra baserat på en begränsad information om ett dokument, en kontakt eller en artikel. | [Hitta relaterade transaktioner för dokument](ui-find-entries.md) |
+|Förstå tillgänglig status för dokument av typen offerter, order och kreditnotor, till exempel **Öppna** och **Släppta** | [Statusfält i dokument](ui-document-status.md) |
 |Lär dig att arbeta med redovisningsjournaler som används till att bokföra på redovisningskonton och andra konton, till exempel bank-, kund-, leverantörs- och anläggningstillgångskonton. |[Arbeta med redovisningsjournaler](ui-work-general-journals.md) |
 | Du kan schemalägga en rapport att köras vid ett visst datum och tider. |[Schemalägga en rapportkörning](ui-work-report.md#ScheduleReport) |
 |Låt systemet hjälpa dig att avsluta uppgifter snabbare och mer korrekt genom att fylla i fält eller färdigställa rader med data som du annars måste beräkna och ange själv.|[Låta Business Central föreslå värden](ui-let-system-suggest-values.md)|

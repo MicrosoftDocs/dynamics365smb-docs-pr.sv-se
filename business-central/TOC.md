@@ -81,7 +81,7 @@
 ##### [Designdetaljer: inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)  
 ##### [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md)  
 ##### [Designdetaljer: Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
-##### [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
+##### [Designdetaljer: avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
 ##### [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)
 #### Designdetaljer: Objektspårning
 ##### [Designdetaljer: Artikelspårning](design-details-item-tracking.md)
@@ -104,7 +104,7 @@
 ### [FAQ för utvärderingsversionen av Dynamics 365 Business Central](trial-faq.md)
 ### [Utvärderingsversioner och prenumerationer (endast engelska)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Gör dig redo för affärer](ui-get-ready-business.md)
-### [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md)
+### [Felsöka registrering av självbetjäning](ui-troubleshoot-self-signup.md)
 ### [Utöka din utvärderingsversion](admin-extend-trial.md)
 ### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
 ## Köp
@@ -125,9 +125,9 @@
 ### [Översikt över allmänna funktioner](ui-work-product.md)
 ### [Utskriftsversion av översiktsblad](ui-work-product.md#cheatsheet)
 ### [Söka efter sidor och information med berätta](ui-search.md)
+### [Vanliga frågor om Berätta](ui-search-faq.md)
 ### [Söka efter specifika data](ui-search-data.md)
 ### [Söka efter sidor med rollutforskaren](ui-role-explorer.md)
-### [Vanliga frågor om Berätta](ui-search-faq.md)
 ### [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
 ### [Vanliga frågor om sök och filtrera](ui-search-filter-faq.yml)
 ### [Ange data](ui-enter-data.md)
@@ -228,6 +228,7 @@
 ### [Bokföra flera dokument på samma gång](ui-batch-posting.md)
 ### [Förhandsgranska resultat](ui-how-preview-post-results.md)
 ### [Redigera bokförda dokument](across-edit-posted-document.md)
+### [Hitta relaterade transaktioner för dokument](ui-find-entries.md)
 ### [Statusfält i dokument](ui-document-status.md)
 ### [Arbeta med redovisningsjournaler](ui-work-general-journals.md)
 ### [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)
@@ -417,7 +418,7 @@
 ### [Importera lönetransaktioner](finance-how-import-payroll-transactions.md)
 ### [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)
 ### [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)
-### [Så här omvandlar du servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)
+### [Så här omvandlar du tjänstekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)
 ### [Hantera momssatsändringar](finance-how-use-vat-rate-change-tool.md)
 ### [Genomgång: Utföra kassaflödesprognoser genom att använda ekonomiska rapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analysera finansiella rapporter i Excel](finance-analyze-excel.md)
@@ -528,7 +529,7 @@
 ### [Så här skriver du av eller amorterar anläggningstillgångar](fa-how-depreciate-amortize.md)
 ### [Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md)
 ### [Hantera budgetar för anläggningstillgångar](fa-how-manage-budgets.md)
-### [Felsöka poster i redovisning för anläggningstillgångar](fa-troubleshooting-fa-ledger-entries.md)
+### [Felsöka transaktioner i redovisning för anläggningstillgångar](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Kundhantering
 ### [Översikt över kundhantering](marketing-relationship-management.md)
@@ -646,27 +647,27 @@
 <!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
 <!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
-## Servicehantering
-### [Servicehantering](service-service.md)
-### Planera service
-#### [Planera servicehantering](service-plan-service.md)
-#### [Serviceprishantering](service-service-price-management.md)
-#### [Serviceorderstatus och reparationsstatus](service-service-order-status-and-repair-status.md)
-#### [Fördelningsstatus och reparationsstatus för serviceartiklar](service-allocation-status-and-repair-status.md)
-#### [Visa servicestatistik:](service-service-statistics.md)
-### Uppfyll servicekontrakt
-#### [Uppfyll servicekontrakt](service-fulfill-service-contracts.md)
+## Tjänstehantering
+### [Tjänstehantering](service-service.md)
+### Planeringstjänst
+#### [Planera tjänstehantering](service-plan-service.md)
+#### [Tjänsteprishantering](service-service-price-management.md)
+#### [Tjänsteorderstatus och reparationsstatus](service-service-order-status-and-repair-status.md)
+#### [Fördelningsstatus och reparationsstatus för tjänsteartiklar](service-allocation-status-and-repair-status.md)
+#### [Visa tjänstestatistik:](service-service-statistics.md)
+### Uppfyll tjänstekontrakt
+#### [Uppfyll tjänstekontrakt](service-fulfill-service-contracts.md)
 #### [Flera kontrakt](service-multiple-contracts.md)
-#### [Så här arbetar du med servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)
-#### [Ändra det årliga beloppet på servicekontrakt eller kontraktofferter](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-### Leverera service
-#### [Leverera service](service-deliver-service.md)
+#### [Så här arbetar du med tjänstekontrakt och tjänstekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)
+#### [Ändra det årliga beloppet på tjänstekontrakt eller kontraktofferter](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
+### Leverera tjänst
+#### [Leverera tjänst](service-deliver-service.md)
 #### [Skapa tjänsteofferter](service-how-to-create-service-quotes.md)
 #### [Skapa tjänsteorder](service-how-to-create-service-orders.md)
 #### [Skapa tjänstefakturor eller kreditnotor](service-how-create-invoices.md)
 #### [Så här tilldelar du resurser](service-how-to-allocate-resources.md)
 #### [Arbeta med tjänsteuppgifter](service-how-to-work-on-service-tasks.md)
-#### [Servicebokföring](service-service-posting.md)
+#### [Tjänstebokföring](service-service-posting.md)
 #### [Bokföra tjänsteorder och kreditnotor](service-how-to-post-service-orders.md)
 #### [Låna ut och ta emot låneartiklar](service-how-to-lend-receive-loaners.md)
 <!--Shopify-->
@@ -1015,8 +1016,8 @@
 ##### GST Cess
 ###### [GST Cess grundläggande inställning](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
 ###### [GST Cess-beräkning](LocalFunctionality/India/GST-Cess-Calculations.md)
-##### GST på servicehantering
-###### [GST på servicehantering](LocalFunctionality/India/GST-Service-Management.md)
+##### GST på tjänstehantering
+###### [GST på tjänstehantering](LocalFunctionality/India/GST-Service-Management.md)
 ##### Distribution av GST-ingångstjänsten
 ###### [Översikt över distribution av GST-ingångstjänsten](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
 ###### [Process för Distribution av GST-ingångstjänsten](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
@@ -1082,7 +1083,7 @@
 #### Grundläggande ekonomi
 ##### [Avsluta ett räkenskapsår](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 ##### [Definiera debetbelopp och kreditbelopp](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
-##### [Återföring av journalposter](LocalFunctionality/Italy/reversing-journal-entries.md)
+##### [Återföring av journaltransaktioner](LocalFunctionality/Italy/reversing-journal-entries.md)
 #### Lager
 ##### [Ställa in initiala artikelkostnader](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
 ##### [Skattemässig lagervärdering](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
@@ -1557,11 +1558,11 @@
 #### [Arbeta med produktionsfamiljer](production-how-work-family.md)
 #### [Skapa standardverksamhetsföljdrader](production-how-set-up-standard-routing-lines.md)
 #### [Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)
-### Konfigurera servicehantering
-#### [Konfigurera servicehantering](service-setup-service.md)
+### Konfigurera tjänstehantering
+#### [Konfigurera tjänstehantering](service-setup-service.md)
 #### [Skapa tjänsteartiklar](service-how-to-create-service-items.md)
 #### [Skapa standardtjänstekoder](service-how-setup-service-coding.md)
-#### [Konfigurera serviceprocesser](service-setup-service-processes.md)
+#### [Konfigurera tjänsteprocesser](service-setup-service-processes.md)
 #### [Konfigurera felrapportering](service-how-setup-fault-reporting.md)
 #### [Skapa tjänsteerbjudanden](service-how-setup-service-offerings.md)
 #### [Ställa in felsökning](service-how-setup-troubleshooting.md)
@@ -1571,7 +1572,7 @@
 #### [Ställa in arbetstimmar och tjänstetider](service-how-setup-work-service-hours.md)
 #### [Ställ in status för tjänsteorder och reparationer](service-order-repair-status.md)
 #### [Lägga upp program för låneartiklar](service-how-setup-loaner-program.md)
-#### [Skapa servicekontrakt](service-how-setup-service-contracts.md)
+#### [Skapa tjänstekontrakt](service-how-setup-service-contracts.md)
 ### Skapa komplexa moduler med hjälp av bästa praxis
 #### [Konfigurera praxis](set-up-complex-application-areas-using-best-practices.md)
 #### Skapa metodtips: leveransplanering
@@ -1720,11 +1721,11 @@
 #### [Visa beläggning på produktions- och maskingrupper](production-how-to-view-the-load-on-work-centers.md)
 #### [Visa produktionsgruppstransaktioner](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
 
-### Servicehantering
-#### [Visa servicestatistik](service-service-statistics.md)
-#### [Översikt över serviceorder](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Översikt över serviceoffert](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
-#### [Översikt över bokfört servicedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
+### Tjänstehantering
+#### [Visa tjänstestatistik](service-service-statistics.md)
+#### [Översikt över tjänsteorder](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Översikt över tjänsteoffert](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Översikt över bokfört tjänstedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
 ## Ad hoc-dataanalys
 ### [Översikt](reports-adhoc-analysis.md)
@@ -1827,6 +1828,9 @@
 #### [AMC Banking 365 Fundamentals-tillägg](ui-extensions-amc-banking.md)
 #### [Ceridian löner](ui-extensions-ceridian-payroll.md)
 #### [Företagsnav](ui-extensions-company-hub.md)
+#### [DK – C5 datamigrering](ui-extensions-c5-data-migration.md)
+#### [DK – Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
+#### [DK – momsfilformat](ui-extensions-tax-file-formats-dk.md)
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Information om viktiga affärsdata](ui-extensions-essential-business-insights.md)
 #### [Image Analyzer](ui-extensions-image-analyzer.md)
@@ -1839,13 +1843,11 @@
 #### [QuickBooks Online Datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 #### [Importera QuickBooks-lönefil](ui-extensions-quickbooks-payroll.md)
 #### [Försäljnings- och lagerprognos](ui-extensions-sales-forecast.md)
-#### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-#### [DK - C5 datamigrering](ui-extensions-c5-data-migration.md)
-#### [DK – Betalningar och betalningsavstämningar](ui-extensions-payments-reconciliation-formats-dk.md)
-#### [DK – momsfilformat](ui-extensions-tax-file-formats-dk.md)
+#### [Tjänstedeklarationstillägg](finance-how-setup-use-service-declaration.md)
 #### [UK – GetAddress.io för postnummer i Storbritannien](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [UK – Momsgruppshantering](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
+#### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
 ## Integrera med Dynamics 365 Sales
 ### [Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
@@ -1903,7 +1905,7 @@
 #### [Designdetaljer: inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md)  
 #### [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md)  
 #### [Designdetaljer: Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
-#### [Designdetaljer: utgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
+#### [Designdetaljer: avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)  
 #### [Designdetaljer: Integrering med lager](design-details-integration-with-inventory.md)
 ### Designdetaljer: Objektspårning
 #### [Översikt över artikelspårning](design-details-item-tracking.md)

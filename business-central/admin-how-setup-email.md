@@ -1,6 +1,6 @@
 ---
 title: Skapa ett e-postkonto i Business Central (innehåller video)
-description: Beskriver hur du ansluter e-postkonton till Business Central så att du kan skicka utgående meddelanden utan att behöva öppna någon annan app.
+description: Beskriver hur du ansluter e-postkonton till Business Central så att du kan skicka avgående meddelanden utan att behöva öppna någon annan app.
 author: brentholtorf
 ms.topic: get-started-article
 ms.devlang: na
@@ -8,32 +8,38 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 08/16/2022
+ms.date: 11/22/2022
 ms.author: bholtorf
-ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 20246e01fab861a3d4af7d6a1778531f17e97987
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606393"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822442"
 ---
 # <a name="set-up-email"></a>Konfigurera e-post
-Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare, och bifoga filer på upp till 100 MB. Administratörer kan dessutom skapa rapportlayouter som endast innehåller nyckelinformation från dokument. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
-E-postfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] gäller endast för utgående meddelanden. Det går inte att ta emot svar – det vill säga, det finns ingen inkorg i [!INCLUDE[prod_short](includes/prod_short.md)].
+Personer på företag skickar information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post varje dag. Administratörer kan ansluta ett eller flera e-postkonton till [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan skicka dokument utan att behöva öppna någon e-postapp. Du kan skapa varje meddelande individuellt med grundläggande formateringsverktyg, till exempel teckensnitt, format, färger och så vidare, och bifoga filer på upp till 100 MB. Administratörer kan dessutom skapa rapportlayouter som endast innehåller nyckelinformation från dokument. Läs mer på [Skicka dokument via e-post](ui-how-send-documents-email.md).
+
+E-postfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] gäller endast för avgående meddelanden. Det går inte att ta emot svar – det vill säga, det finns ingen "Inkorg"-sida.
 
 > [!NOTE]
 > Du kan bara e-postfunktioner för [!INCLUDE[prod_short](includes/prod_short.md)] online endast med Exchange Online. Vi stöder inte hybridscenarier, till exempel att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] online till en lokal version av Exchange.
-> 
+>
 > Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste du skapa en app-registrering för [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal innan du kan konfigurera e-post. App-registreringen gör det möjligt för [!INCLUDE[prod_short](includes/prod_short.md)] att auktorisera och autentisera med din e-postleverantör. Mer information finns i [Konfigurera e-post för Business Central lokalt](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). I [!INCLUDE[prod_short](includes/prod_short.md)] online hanterar vi detta åt dig.
 
-## <a name="required-permissions"></a>Behörigheter som krävs
-För att kunna konfigurera e-post måste du ha behörighetsinställningen **E-POSTKONFIGURATION**. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md). 
+## <a name="requirements"></a>Krav
+
+Det finns några krav för att konfigurera och använda e-postfunktionerna.
+
+* För att kunna konfigurera e-post måste du ha behörighetsinställningen **E-POSTKONFIGURATION**. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
+* Alla som ska använda e-postfunktionerna måste vara helt licensierade [!INCLUDE [prod_short](includes/prod_short.md)]. Delegerade administratörer och gästanvändare kan t. ex. inte använda klientorganisationens e-postkonto.
 
 ## <a name="adding-email-accounts"></a>Lägga till e-postkonton
+
 Du lägger till e-postkonton via tillägg som möjliggör att konton från olika providrar ansluter till [!INCLUDE[prod_short](includes/prod_short.md)]. Med standardtilläggen kan du använda konton från Microsoft Exchange Online. Det kan emellertid finnas andra tillägg som du kan använda för att ansluta konton från andra leverantörer, till exempel Gmail.
 
-Du kan ange fördefinierade affärsscenarier där kontot ska användas för att skicka e-post. Du kan t. ex. ange att alla användare skickar försäljnings dokument från ett visst konto och inköpsdokument från ett annat. Mer information finns i [Tilldela e-postscenarier till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+Du kan ange fördefinierade affärsscenarier där kontot ska användas för att skicka e-post. Du kan t. ex. ange att alla användare skickar försäljnings dokument från ett visst konto och inköpsdokument från ett annat. Läs mer på [Tilldela scenarier för e-post till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
 I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard.
 
@@ -51,18 +57,22 @@ I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="using-smtp"></a>Använda SMTP
-Om du vill använda SMTP-protokollet för att skicka e-post från [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda SMTP-anslutningstillägget. När du lägger upp ett konto som använder SMTP är avsändarens typ ett viktigt fält. Om du väljer specifik användare kommer e-postmeddelanden att skickas med hjälp av namn och annan information från det konto som du installerar. Om du däremot väljer aktuell användare skickas e-postmeddelanden från det e-postkonto som anges för varje användares konto. Aktuell användare liknar Skicka som-funktionen. För mer information, se [Använda en adress för ersättningsavsändare i utgående e-postmeddelanden](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
+
+Om du vill använda SMTP-protokollet för att skicka e-post från [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda SMTP-anslutningstillägget. När du skapar ett konto som använder SMTP är fältet **Sändartyp** av stor vikt. Om du väljer **Specifik användare** kommer e-postmeddelanden att skickas med hjälp av namn och annan information från det konto som du konfigurerar. Om du däremot väljer **Aktuell användare** skickas e-postmeddelanden från det e-postkonto som anges för respektive användares konto. Aktuell användare liknar Skicka som-funktionen. För mer information, se [Använda en adress för ersättningsavsändare i avgående e-postmeddelanden](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda OAuth 2.0 för autentisering. Du måste skapa en program registrering i Azure-portalen och sedan köra **Konfigurera Azure Active Directory** guiden för assisterad konfiguration i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta till Azure AD. Mer information finns i [Skapa en programregistrering för Business Central i Azure-portalen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda protokollet OAuth 2.0 för autentisering. Du måste skapa en program registrering i Azure-portalen och sedan köra **Konfigurera Azure Active Directory** guiden för assisterad konfiguration i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta till Azure AD. Mer information finns i [Skapa en programregistrering för Business Central i Azure-portalen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+>
+> Exchange Online avvecklar grundläggande autentisering för SMPT. KLientorganisationer som för närvarande använder SMTP-autentisering påverkas inte av ändringen. Vi rekommenderar dock starkt att du använder den senaste versionen av [!INCLUDE [prod_short](includes/prod_short.md)] och konfigurerar OAuth 2.0-autentisering för SMTP. Vi kommer inte att lägga till certifikatbaserad autentisering i tidigare versioner av [!INCLUDE [prod_short](includes/prod_short.md)], till exempel version 14. Om du inte kan konfigurera OAuth 2.0-autentisering uppmuntrar vi dig att utforska alternativ från tredje part om du vill använda e-post från SMTP i tidigare versioner.
 
 ## <a name="add-email-accounts"></a>Lägg till e-postkonton
+
 Med den assisterade konfigurationsguiden för **Konfigurera e-post** kan du snabbt komma igång med e-post.
 
 > [!NOTE]
-> Du måste ha ett standardkonto för e-post, även om du bara lägger till ett enda konto. Standardkontot kommer att användas för alla e-postscenarier som inte har tilldelats något konto. Mer information finns i [Tilldela e-postscenarier till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+> Du måste ha ett standardkonto för e-post, även om du bara lägger till ett enda konto. Standardkontot kommer att användas för alla e-postscenarier som inte har tilldelats något konto. Läs mer på [Tilldela scenarier för e-post till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurera e-postkonton** och väljer sedan relaterad länk.
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurera e-postkonton** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -71,7 +81,8 @@ Med den assisterade konfigurationsguiden för **Konfigurera e-post** kan du snab
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
-## <a name="assign-email-scenarios-to-email-accounts"></a>Tilldela e-scenarier till e-postkonton
+## <a name="assign-email-scenarios-to-email-accounts"></a>Tilldela e-postscenarier till e-postkonton
+
 E-postscenarier är processer som involverar att skicka ett dokument. Exempelvis en försäljnings- eller inköpsorder eller en anmälan, till exempel en inbjudan till en extern revisor. Specifika e-postkonton kan användas för specifika scenarier. Du kan t. ex. ange att alla användare alltid ska skicka försäljningsdokument från ett konto, inköpsdokument från ett annat, samt lager- eller produktionsdokument från ett tredje konto. Du kan tilldela, tilldela om och ta bort scenarier när du vill. Ett scenario kan bara tilldelas ett e-postkonto åt gången. Standardkontot kommer att användas för alla e-postscenarier som inte har tilldelats något konto.
 
 På sidan **Tilldelning av e-postscenario** kan du välja åtgärden **Konfigurera standardbilagor** för att lägga till bilagor till e-postscenarier. De bifogade filerna är alltid tillgängliga när du skriver ett e-postmeddelande för ett dokument som är relaterat till scenariot. Varje e-postscenario kan ha en eller flera bifogade standardbilagor. Standardbilagor läggs automatiskt till i e-postmeddelanden för e-postscenariot. När du t.ex. skickar en försäljningsorder med e-post, läggs standardbilagan som anges för försäljningsorderscenariot till. Standardbilagor visas i avsnittet **Bifogadefiler** längst ned på sidan **Skriv ett e-postmeddelande**. Du kan manuellt lägga till bifogade filer som inte är standard i e-postmeddelandet.
@@ -90,7 +101,8 @@ På sidan **Tilldelning av e-postscenario** kan du välja åtgärden **Konfigure
 -->
 
 ## <a name="set-up-view-policies"></a>Konfigurera visningspolicyer
-Du kan kontrollera vilka e-postmeddelanden som en användare kan se på sidorna Utkorg för e-post och Skickad e-post.
+
+Du kan kontrollera vilka e-postmeddelanden som en användare kan nå på sidorna Utkorg för e-post och Skickad e-post.
 
 På sidan **Visningspolicyer för användar-e-post** väljer du en användare och därefter ett av följande alternativ i fältet **Visningspolicy för e-post**:
 
@@ -100,10 +112,24 @@ På sidan **Visningspolicyer för användar-e-post** väljer du en användare oc
 * **Visa om åtkomst till relaterade poster** – Användaren kan visa e-postmeddelanden som har skickats av andra personer om användaren har åtkomst till minst en post som är relaterad till posten som har skickats. Exempelvis skickar användare A en bokförd försäljningsfaktura till en kund. Användare B kan se e-postmeddelandet om denne har tillgång till antingen fakturan eller kunden.
 
 > [!NOTE]
->  Om du lämnar fältet **Användar-ID** tomt och sedan väljer åtgärden Visningspolicy för e-post gäller policyn som du definierar för alla användare.
+> Om du lämnar fältet **Användar-ID** tomt och sedan väljer åtgärden **Visningspolicy för e-post** gäller visningspolicyn för alla användare.
 
-## <a name="set-up-reusable-email-texts-and-layouts"></a>Ställ in återanvändbara e-posttexter och layouter
-Du kan använda rapporter för att inkludera nyckelinformation från försäljnings-, inköps- och servicedokument i texter för e-post. I den här proceduren beskrivs hur du ställer in rapporten **Försäljning – Faktura** för bokförda försäljningsfakturor, men processen liknar den för andra rapporter.
+## <a name="specify-how-many-messages-an-account-can-send-per-minute"></a>Ange hur många meddelanden ett konto får skicka per minut
+
+Vissa e-postleverantörer (ISP) begränsar antalet e-postmeddelanden som ett e-postkonto kan skicka samtidigt eller inom en viss tidsperiod, eller både och. Denna praxis kallad *e-poststrypning* hjälper internetleverantören till att styra trafiken på sina servrar och förhindra skräppost. Om ett e-postkonto överskrider gränsen kan det hända att internetleverantören blockerar meddelandena. Du kan kontrollera att antalet meddelanden som du skickar från [!INCLUDE [prod_short](includes/prod_short.md)] följer internetleverantörens gräns genom att ange gränsen för vart och ett av dina e-postkonton.
+
+Standardgränsen för kontotyperna Microsoft 365 och Aktuell användare är 30, vilket motsvarar den gräns som anges av Exchange Online.
+
+Du kan ange gränsen på två sätt:
+
+* När du använder guiden Konfigurera assisterad konfiguration för e-post för att skapa ett nytt konto anger du gränsen i fältet **Gräns per minut**.
+* För befintliga e-postkonton anger du gränsen i fältet **Gräns för e-post** på kontot.
+
+
+
+## <a name="set-up-reusable-email-texts-and-layouts"></a>Konfigurera återanvändbara texter och layouter för e-post
+
+Du kan använda rapporter för att inkludera nyckelinformation från försäljnings-, inköps- och tjänstedokument i texter för e-post. I den här proceduren beskrivs hur du ställer in rapporten **Försäljning – Faktura** för bokförda försäljningsfakturor, men processen liknar den för andra rapporter.
 
 > [!NOTE]
 > Om du vill använda layouten för att skapa innehåll för e-postmeddelanden måste du använda Word-filtyp för layouten.
@@ -121,8 +147,9 @@ Du kan använda rapporter för att inkludera nyckelinformation från försäljni
 
 Nu när du till exempel väljer åtgärden **Skicka** på sidan **Bokförd försäljningsfaktura** kommer e-postbrödtexten att innehålla information om dokumentet i rapport 1306 som föregås av utformad standardtext enligt den rapportlayout du valde i steg 5.
 
-## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Använda en adress för ersättningsavsändare i utgående e-postmeddelanden
-Om du använder tillägget SMTP-anslutning kan du använda kan du använda funktionerna **Skicka som** eller **Skicka åt** från Microsoft Exchange för ändra avsändaradressen på utgående meddelanden. [!INCLUDE[prod_short](includes/prod_short.md)] använder SMTP-kontot för att autentisera till Exchange, men kommer antingen att ersätta avsändarens adress med den som du anger eller ändra den med "åt".
+## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Använda en adress för ersättningsavsändare för avgående e-postmeddelanden
+
+Om du använder tillägget SMTP-anslutning kan du använda kan du använda funktionerna **Skicka som** eller **Skicka åt** från Microsoft Exchange för ändra avsändaradressen på avgående meddelanden. [!INCLUDE[prod_short](includes/prod_short.md)] använder SMTP-kontot för att autentisera till Exchange, men kommer antingen att ersätta avsändarens adress med den som du anger eller ändra den med "åt".
 
 När du skapar ett konto och vill använda funktionerna Skicka som eller Skicka åt från Exchange, i fältet **Typ av avsändare** väljer du **Specifik användare**.
 
@@ -130,8 +157,8 @@ Du kan också välja **Aktuell användare** för att tillåta att användare ski
 
 Nedan följer exempel på hur Skicka som och Skicka åt används i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
- * Du kanske vill att inköps- eller försäljningsorder som du skickar till leverantörer och kunder ska se ut att komma från adressen _noreply@yourcompanyname.com_.
- * När arbetsflödet skickar en godkännandeförfrågan via e-post med hjälp av e-postadressen till den som efterfrågar meddelandet.
+* Du kanske vill att inköps- eller försäljningsorder som du skickar till leverantörer och kunder ska se ut att komma från adressen _noreply@yourcompanyname.com_.
+* När arbetsflödet skickar en godkännandeförfrågan via e-post med hjälp av e-postadressen till den som efterfrågar meddelandet.
 
 > [!Note]
 > Du kan bara använda ett konto för att ersätta avsändaradresser. Det innebär att du inte kan ha en ersättningsadress för att inköpsprocesser, och en annan för försäljningsprocesser.
@@ -155,20 +182,24 @@ Nedan följer exempel på hur Skicka som och Skicka åt används i [!INCLUDE[pro
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
-## <a name="set-up-document-sending-profiles"></a>Skapa dokumentutskicksprofiler
+## <a name="set-up-document-sending-profiles"></a>Konfigurera dokumentutskicksprofiler
+
 Du kan spara tid genom att ange en önskad metod för att skicka försäljningsdokument för respektive kund. Om du gör detta behöver du inte välja ett alternativ för sändning, till exempel om du vill skicka dokumentet via e-post eller ett elektroniskt dokument, varje gång du skickar ett dokument. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
 
-## <a name="optional-set-up-email-logging-in-exchange-online"></a>Tillval: Ställa in e-postloggning i Exchange Online
-Få ut mer av kommunikationen mellan säljare och befintliga eller potentiella kunder. Du kan spåra e-postutbyten och sedan göra dem till de möjligheter som kan åtgärdas. För mer information, se [Spåra utbyte av e-postmeddelanden mellan säljare och kontakter](marketing-set-up-email-logging.md).  
+## <a name="optional-set-up-email-logging-in-exchange-online"></a>Tillval: Konfigurera e-postloggning i Exchange Online
+
+Få ut mer av kommunikationen mellan säljare och befintliga eller potentiella kunder. Du kan spåra e-postutbyten och sedan göra dem till de möjligheter som kan åtgärdas. Lär dig mer på [Spåra utbyten av e-postmeddelanden mellan säljare och kontakter](marketing-set-up-email-logging.md).  
 <!--
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## <a name="setting-up-email-for-business-central-on-premises"></a>Konfigurera e-post för Business Central lokalt 
+## <a name="setting-up-email-for-business-central-on-premises"></a>Konfigurera e-post för Business Central lokalt
+
 [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan integreras med tjänster som baseras på Microsoft Azure. Du kan till exempel använda Cortana Intelligence för smartare kassaflödesprognoser, Power BI för att visualisera verksamheten och Exchange Online för att skicka e-post. Integreringen med dessa tjänster baseras på en programregistrering i Azure Active Directory. Programregistreringen tillhandahåller autentisering och autentiseringstjänster för kommunikation. Om du vill använda e-postfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste du registrera [!INCLUDE[prod_short](includes/prod_short.md)] som en app i Azure-portalen och sedan ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till programregistreringen. Följande avsnitt beskriver hur du gör detta.
 
 ### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Skapa en programregistrering för Business Central i Azure-portalen
+
 De steg som ingår när du registrerar [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal beskrivs i [Registrera ett program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De inställningar som är specifika för e-postfunktionen är de delegerade behörigheter som du ger din programregistrering. Följande register anger minimibehörigheterna.
 
 |API/behörighetsnamn  |Typ  |Beskrivning  |
@@ -190,16 +221,17 @@ Om du använder SMTP-anslutning och vill använda OAuth 2.0 för autentisering, 
 
 Notera följande information när du skapar din appregistrering. Du kommer att behöva den för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till din app-registrering.
  
-* Program-ID (klient) 
+* Program-ID (klient)
 * Omdirigerings-URI (valfritt)
 * Klienthemlighet
 
-Allmänna riktlinjer om hur du registrerar en app finns i [Snabbstart: Registrera en app med Microsofts identitetsplattform](/azure/active-directory/develop/quickstart-register-app). 
+Lär dig mer om allmänna riktlinjer om hur du registrerar ett program i [Snabbstart: Registrera ett program med Microsofts identitetsplattform](/azure/active-directory/develop/quickstart-register-app).
 
 > [!NOTE]
-Om du har problem med att använda SMTP-protokoll för att skicka e-post efter att du har anslutit [!INCLUDE[prod_short](includes/prod_short.md)] till din programregistrering kan det bero på att SMTP-autentisering inte har aktiverats för innehavaren. Vi rekommenderar att du använder e-postkopplingarna från Microsoft 365 och Aktuell användare i stället, eftersom de använder Microsoft Graph Mail API:er. Om du måste använda SMTP-protokoll kan du emellertid aktivera SMTP AUTH. Mer information finns i [Aktivera eller inaktivera autentiserad klient-SMTP-sändning (SMTP-autentisering) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
+Om du har problem med att använda SMTP-protokoll för att skicka e-post efter att du har anslutit [!INCLUDE[prod_short](includes/prod_short.md)] till din programregistrering kan det bero på att SMTP-autentisering inte har aktiverats för klientorganisationen. Vi rekommenderar att du använder e-postkopplingarna från Microsoft 365 och Aktuell användare i stället, eftersom de använder Microsoft Graph Mail API:er. Om du måste använda SMTP-protokoll kan du emellertid aktivera SMTP AUTH. Mer information finns i [Aktivera eller inaktivera autentiserad klient-SMTP-sändning (SMTP-autentisering) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-prod_short-to-your-app-registration"></a>Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till dina app-registrering
+### <a name="connect-prod_short-to-your-app-registration"></a>Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till din app-registrering
+
 När du har registrerat ditt program i Azure Portal använder du den assisterade konfigurationen **AAD-registrering för e-postprogram** i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till det.
 
 1. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **AAD-registrering för e-postprogram** och väljer sedan relaterad länk.

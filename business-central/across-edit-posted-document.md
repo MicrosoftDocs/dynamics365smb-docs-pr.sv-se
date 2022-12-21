@@ -11,12 +11,12 @@ ms.search.keywords: Posted document, editable, posted sales shipment, posted pur
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 3c8e4dde3ddf684f9402b98634cbc74c34058933
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ae59d920f4c560caff2bb545b1922bcd4bff65db
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519950"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822552"
 ---
 # <a name="edit-posted-documents"></a>Redigera bokförda dokument
 
@@ -36,13 +36,13 @@ Följande ytterligare dokument kan redigeras i de angivna länderna eller region
 - ES: Bokförd försäljningsfaktura, Bokförd försäljningskreditnota, Bokförd inköpsfaktura, Bokförd inköpskreditnota
 - APAC: Bokförd försäljningskreditnota, bokförd inköpskreditnota
 - RU: Bokförd försäljningskreditnota
-- IT: Bokförd överföringsutleverans, Bokförd serviceleverans
+- IT: Bokförd överföringsutleverans, Bokförd tjänsteleverans
 
 ## <a name="to-edit-a-posted-sales-shipment"></a>Så här redigerar du en bokförd försäljningsutleverans
 
 Här följer en beskrivning av hur du redigerar en bokförd försäljningsutleverans. Stegen är liknande för de övriga dokument som stöds.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.
 2. Markera dokumentet som du vill redigera och välj åtgärden **Uppdatera dokument**. Du kan också öppna dokumentet och välja åtgärden.
 3. På sidan **Bokförd försäljningsutleverans – Uppdatera** redigerar du fältet för **Godsupplysningsnr** till exempel.
 4. Välj **OK**.
@@ -51,10 +51,10 @@ Den bokförda försäljningsutleveransen uppdateras.
 
 ## <a name="see-also"></a>Se även
 
-[Allmänna affärsfunktioner](ui-across-business-areas.md)  
-[Inköp](purchasing-manage-purchasing.md)  
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
+[Hitta relaterade transaktioner för dokument](ui-find-entries.md)  
+[Inköp](purchasing-manage-purchasing.md)  
+[Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
