@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 864b7854593fe0b0d8ecb739f580daa7bd035c58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519283"
 ---
-# <a name="design-details-rounding"></a>Designdetaljer: Avrundning
+# Designdetaljer: Avrundning
 Avrundningsrester kan uppstå när du värderar kostnaden för en lagerminskning som har angetts i ett annat antal än motsvarande lagerökning. Avrundningsrester beräknas för alla värderingsprinciper när du kör batch-jobbet **Justera kost. artikeltrans**.  
 
  När du använder värderingsprincipen Genomsnitt beräknas avrundningsresten och registreras enligt en ackumulerad, transaktion-för-transaktion-utgångspunkt.  
 
  När du använder en annan värderingsprincip än Genomsnitt beräknas avrundningsresten när lagerökningen har kopplats fullständigt, d.v.s när återstående antal för lagerökningen är lika med noll. En separat transaktion skapas sedan för den avrundningsresten, och bokföringsdatumet på avrundningsresten är bokföringsdatumet för den senast fakturerade värdetransaktion för lagerökningen.  
 
-## <a name="example"></a>Exempel  
+## Exempel  
  Följande exempel visar hur olika avrundningsrester hanteras för genomsnittsvärderingsprincipen och icke-genomsnittvärderingsprincipen. I båda fallen har batch-jobbet **Justera kost – artikeltransaktioner** körts.  
 
  Följande tabell visas de artikeltransaktioner som exemplet baseras på.  
@@ -58,7 +52,7 @@ Avrundningsrester kan uppstå när du värderar kostnaden för en lagerminskning
 |04-01-20|-1|-3.33|4|4|  
 |01-01-20|0|-0.01|1|5|  
 
-## <a name="see-also"></a>Se även  
+## Se även  
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)   
  [Designdetaljer: värderingsprinciper](design-details-costing-methods.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  

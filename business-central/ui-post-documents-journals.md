@@ -7,16 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: edupont
-ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822525"
 ---
-# <a name="posting-documents-and-journals"></a>Bokför dokument och journaler
+# Bokför dokument och journaler
 
 Bokföring representerar redovisningsåtgärden att bokföra affärstransaktioner i de olika företaghuvudböckerna.
 
@@ -33,7 +27,7 @@ I tabellen nedan beskrivs relaterade uppgifter med länkar till avsnitten där d
 | Förhandsgranska på en sida de transaktioner som skapas när du bokför. |[Förhandsgranska resultat](ui-how-preview-post-results.md) |
 | Förhandsgranska i en rapport, de transaktioner som skapas när du bokför. |[Visa testrapporter före bokföring](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Redigera bokförda dokument](across-edit-posted-document.md)  
 [Hitta relaterade transaktioner för dokument](ui-find-entries.md)  

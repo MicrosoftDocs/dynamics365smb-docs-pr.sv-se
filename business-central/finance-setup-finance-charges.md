@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment due, debt, overdue, fee, charge
-ms.search.form: 6, 494
+ms.search.keywords: 'payment due, debt, overdue, fee, charge'
+ms.search.form: '6, 494'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 27378e1c2c12077bdb04aa9f1e2b93f27fe048dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528283"
 ---
-# <a name="set-up-finance-charge-terms"></a>Konfigurera räntevillkor
+# Konfigurera räntevillkor
 
 Om en kund inte har betalat på förfallodatumet kan du låta beräkna dröjsmålsränta automatiskt och lägga på den på de förfallna beloppen på kundens konto. Du kan informera kunder om debiterade dröjsmålsräntor genom att skicka räntefakturor. Först måste du emellertid upprätta en kod som representerar respektive ränteberäkning. Du kan sedan ange denna kod i fältet Räntevillkorskod på kundkorten.  
 
-## <a name="finance-charge-terms"></a>Räntevillkor
+## Räntevillkor
 
 Du måste ange räntevillkor för respektive ränteberäkning och sedan tilldela villkoren till kunden i fältet **Räntevillkorskod** på sidan **Kund**.
 
@@ -39,7 +33,7 @@ Räntor kan antingen beräknas med metoden genomsnittligt saldo per dag eller me
 
 Dessutom är varje villkor i tabellen Räntevillkor kopplad till en undertabell, nämligen Räntetext. För respektive uppsättning av räntevillkor kan du definiera en inledande och/eller avslutande text som kan inkluderas på räntefakturan.
 
-### <a name="to-set-up-finance-charge-terms"></a>Ange räntevillkoren
+### Ange räntevillkoren
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **räntevillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
@@ -68,9 +62,9 @@ Dessutom är varje villkor i tabellen Räntevillkor kopplad till en undertabell,
 |%8|Innehållet i fältet **Valutakod** i räntefakturans huvud|  
 |%9|Innehållet i fältet **Bokföringsdatum** i räntefakturans huvud|  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/send-memos-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/send-memos-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)  

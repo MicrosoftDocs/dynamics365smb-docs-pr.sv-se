@@ -1,29 +1,23 @@
 ---
 title: Fältmappning vid import av SEPA CAMT-filer | Microsoft Docs
 description: På europeiska marknader kan du importera bankutdragsfiler i regionala SEPA-standarder (Single Euro Payments Area).
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: db90358fcca87bc7217d48efa7577e8d4a835c58
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521364"
+ms.date: 01/06/2023
+ms.custom: bap-template
 ---
-# <a name="field-mapping-when-importing-sepa-camt-files"></a>Fältmappning vid import av SEPA CAMT-filer
+# Fältmappning vid import av SEPA CAMT-filer
+
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder de regionala SEPA-standardena (Single Euro Payments Area) för import av SEPA-kontoutdrag (CAMT-format). Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
  SEPA CAMT-standarden har lokala varianter. Därför kanske du måste ändra den generiska definitionen av datautbytet representeras av koden **SEPA CAMT** på sidan **Definitioner för bokföringsbyte** för att anpassa den till en lokal variation av standarden. Följande tabeller visar element-till-fält-mappning för tabellerna 81, 273 och 274 i SEPA CAMT-implementeringen i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Information om att skapa och justera en dataintegreringsdefinition finns i [Ställa in dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>CAMT-datamappning till fält i tabellen Redovisningsjournal (81)  
+## CAMT-datamappning till fält i tabellen Redovisningsjournal (81)  
 
 |Elementsökväg|Meddelandeelement|Datatyp|Beskrivning|Identifierare för negativt tecken|Fältnr|Fältnamn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -35,14 +29,14 @@ ms.locfileid: "8521364"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ostrukturerat|Text|Information som levereras så att du matcha/stämma av en transaktion med artiklarna som betalningen är avsedd att reglera, till exempel kommersiella fakturor i ett kundreskontrasystem, i en ostrukturerad form||8|Beskrivning|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Ytterligare information om transaktionen||1222|Transaktionsinformation|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>CAMT-datamappning till fält i tabellen Bankkontoavstämning (273)  
+## CAMT-datamappning till fält i tabellen Bankkontoavstämning (273)  
 
 |Elementsökväg|Meddelandeelement|Datatyp|Beskrivning|Identifierare för negativt tecken|Fältnr|Fältnamn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Datum|Datum och tid när meddelandet skapades||3|Kontoutdragets datum|  
 |Stmt/Motkonto/Belopp|Belopp|Decimal|Det belopp som kommer från de nettoberäknade beloppen för alla debet- och kredittransaktioner||4|Kontoutdragets slutsaldo|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>CAMT-datamappning till fält i tabellen Bankkontoavstämningsrad (274)  
+## CAMT-datamappning till fält i tabellen Bankkontoavstämningsrad (274)  
 
 |Elementsökväg|Meddelandeelement|Datatyp|Beskrivning|Identifierare för negativt tecken|Fältnr|Fältnamn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -61,10 +55,11 @@ ms.locfileid: "8521364"
 > [!IMPORTANT]
 > Vid import av CAMT-kontoutdrag [!INCLUDE[prod_short](includes/prod_short.md)] måste varje transaktion vara unik, vilket innebär att fältet **Transaktions-ID** som kommer från taggen *Stmt/Ntry/NtryDtls/TxDtls/ReFS/EndToEndId* i CAMT-filen måste vara unikt i den öppna bankkontoavstämningen. Om informationen inte finns ignorerar [!INCLUDE[prod_short](includes/prod_short.md)] betalningen. Om en tidigare bankavstämning på samma bankkonto bokfördes med samma transaktions-ID som för den aktuella importen, kommer den aktuella transaktionen inte att stämmas av automatiskt, men den kan fortfarande importeras.
 
-## <a name="see-also"></a>Se även  
+## Se även  
+
 [Konfigurera dataintegration](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)  
-[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
+[Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Använda XML-uppställningar för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  
 

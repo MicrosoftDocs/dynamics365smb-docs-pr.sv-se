@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 21, 22
+ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 537c25d60282712f66afcdcfe9e44eb99bd2291f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139553"
 ---
-# <a name="set-up-cash-customers"></a>Så här skapar du Kontantkunder
+# Så här skapar du Kontantkunder
 
 Det går inte att skapa fakturor utan kundnummer. Det gäller även vid kontantförsäljning då det inte finns något att registrera på kundkonton.  
 
-## <a name="to-set-up-a-cash-customer"></a>Så här skapar du en kontantkund
+## Så här skapar du en kontantkund
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kund** och väljer sedan relaterad länk.  
 2. Skapa ett nytt kort för **Kund**. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
@@ -35,7 +29,7 @@ Det går inte att skapa fakturor utan kundnummer. Det gäller även vid kontantf
 >
 > Du måste ange ett nummer i bokföringsmallen för kundkreditkontot, även om saldot på detta alltid kommer att vara 0 när du har bokfört fakturor.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)

@@ -7,14 +7,9 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 422466c83d3f86f9afa611f5ef578482eadaf275
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531762"
 ---
-# <a name="integrating-with-microsoft-dataverse"></a>Integrera med Microsoft Dataverse
+
+# Integrera med Microsoft Dataverse
 
 I företagsappar används ofta data från mer än en källa. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombinerar data till en enda logikuppsättning som gör det enklare att ansluta andra Dynamics 365-program, t. ex. [!INCLUDE[crm_md](includes/crm_md.md)] eller ett eget program som bygger på [!INCLUDE[prod_short](includes/cds_long_md.md)], till [!INCLUDE[prod_short_md](includes/prod_short.md)]. Mer information om [!INCLUDE[prod_short](includes/cds_long_md.md)] finns i [Vad är Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
@@ -29,19 +24,19 @@ Följande steg ger en översikt över hur du integrerar [!INCLUDE[prod_short](in
 
 3. Synkronisera data mellan apparna. Mer information finns i [Synkronisera Business Central och Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-prod_short"></a>Komma igång med [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Komma igång med [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 För att komma igång med [!INCLUDE[prod_short](includes/cds_long_md.md)] behöver du ett Microsoft Power Apps-konto. Om du inte redan har ett Power Apps-konto kan du få ett gratis genom att besöka [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) och välja länken **Kom igång gratis**. Mer information om hur du kommer igång med [!INCLUDE[prod_short](includes/cds_long_md.md)] finns i avsnittet [Komma igång med Dataverse](/training/modules/get-started-with-powerapps-common-data-service/)-modulen från Microsoft utbildning.
 
-## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Dubbelriktad eller enkelriktad datasynkronisering
+## Dubbelriktad eller enkelriktad datasynkronisering
 
 Beroende på ditt företags behov kan du ställa in integreringen för att synkronisera data antingen till eller från en Dynamics 365-affärsapp till en annan, eller i båda riktningarna i närapå realtid via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Om du t. ex. integrerar [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] med hjälp av [!INCLUDE[prod_short](includes/cds_long_md.md)] kan en säljare skapa en försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] och ordern synkroniseras till [!INCLUDE[prod_short](includes/prod_short.md)]. Från [!INCLUDE[crm_md](includes/crm_md.md)] kan säljaren å andra sidan se information från [!INCLUDE[prod_short](includes/prod_short.md)] som berör tillgängligheten för artikeln på ordern. 
 
-## <a name="standard-and-custom-entities"></a>Standard- och anpassade eenheter
+## Standard- och anpassade eenheter
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] lagrar data säkert i en uppsättning tabeller, som är grupper av transaktioner som påminner om hur en tabell lagrar data i en databas. [!INCLUDE[prod_short](includes/cds_long_md.md)] innehåller en grundläggande uppsättning tabeller som täcker typiska scenarier, men du kan också skapa egna tabeller som är specifika för organisationen. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du visa standard- och anpassade tabeller som synkroniseras på sidan Registermappningar för integrering.
 
-## <a name="about-the-business-central-base-integration-solution"></a>Om basintegreringslösningen i Business Central
+## Om basintegreringslösningen i Business Central
 
 Lösningen för basintegrering är en nyckelkomponent i integreringen. Lösningen lägger till de roller och åtkomstnivåer som krävs för integreringen i användarkontona, och skapar de tabeller som behövs för att mappa [!INCLUDE[prod_short](includes/prod_short.md)]-företaget till affärsenheten i [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
@@ -62,9 +57,9 @@ Mer information om varje roll, t. ex. behörigheter och åtkomstnivåer finns i 
 
 Under anslutningsinstallationen skapas integreringsregistermappningar som behövs för att synkronisera data. Enheter i [!INCLUDE[prod_short](includes/cds_long_md.md)] är mappade till tabeller och tabellfält i Business Central via integreringstabeller. Mer information finns i [Standardinställd enhetsmappning för synkronisering](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/use-model-driven-apps-common-data-service/)
+## Se relaterad [Microsoft utbildning](/training/modules/use-model-driven-apps-common-data-service/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Modeller för dataägarskap](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

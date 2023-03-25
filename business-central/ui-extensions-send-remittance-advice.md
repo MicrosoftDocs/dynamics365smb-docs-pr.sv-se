@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advice'
 ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: c0204c74ce2adb463c6a8fe0036e59b6fdd06727
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521604"
 ---
-# <a name="send-remittance-advice"></a>Skicka kundremissa
+# Skicka kundremissa
 
 När kundremissa används för att meddela leverantörerna om de betalningar som görs kan du nu skicka kundremissa i bulk från betalningsjournalen och skicka om när du har utfört betalningar från leverantörsreskontratransaktioner genom att använda dokumentutskicksprofiler.
 
@@ -28,7 +22,7 @@ Du kan skicka kundremissa på två olika sätt:
 * Gå till sidan **Utbetalningsjournal** och välj **Relaterat**, **Betalningar**, **Skicka kundremissa** för att skicka kundremissa via e-post för en eller flera utbetalningsjournaltyper
 * På sidan **leverantörsreskontratransaktioner** välj **åtgärder**, **funktioner**, **skicka kundremissa** via e-post efter bokföring av leverantörsbetalningar, för en av flera leverantörsreskontratransaktioner
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Betalningsförslag för lev.](payables-how-suggest-vendor-payments.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg ](ui-extensions.md)  

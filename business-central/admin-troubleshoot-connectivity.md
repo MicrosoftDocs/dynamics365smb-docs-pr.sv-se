@@ -6,18 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: connectivity, troubleshooting, connection problems
+ms.search.keywords: 'connectivity, troubleshooting, connection problems'
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: 6719a46bdb86be63bd4ffe1b3ff916911a645bc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522228"
 ---
-# <a name="troubleshoot-connectivity-for-business-central"></a>Felsökning: anslutning för Business Central
+# Felsökning: anslutning för Business Central
 
 > **GÄLLER:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -28,7 +22,7 @@ ms.locfileid: "8522228"
 > [!NOTE]
 > På sidan **felsöka anslutning** testas nätverkets prestanda eller pålitlighet, liksom anslutningens hastighet. Den verifierar endast anslutningen till olika resurser.
 
-## <a name="start-the-connectivity-check"></a>Starta anslutningskontrollen 
+## Starta anslutningskontrollen 
 
 1. Öppna en webbläsare.
 2. I adressen anger du webbadressen som du använder för att öppna Business Central och lägg till `/connectivity` på slutet. 
@@ -57,7 +51,7 @@ ms.locfileid: "8522228"
 
 De kontroller som körs beskrivs i följande avsnitt, och några tips på hur du kan åtgärda problemen.
 
-## <a name="basic-internet-connectivity"></a>Grundläggande internetanslutning
+## Grundläggande internetanslutning
 
 Kontrollerar att du har anslutning till Internet genom att kontrollera att du har åtkomst till en känd offentlig domän som www.bing.com.
 
@@ -66,7 +60,7 @@ Kontrollerar att du har anslutning till Internet genom att kontrollera att du ha
 |Din webbläsare stöder inte den här kontrollen|Öppna sidan i en webbläsare som stöds och försök igen. En lista över vilka webbläsare som stöds finns i [Minimikrav för att använda Business Central – webbläsare](product-requirements.md#browsers)|
 |Det gick inte att skicka ping till servern på följande URL: {url}|Kontrollera dina brandvägginställningar.|
 
-## <a name="cdn-content-delivery-network-resources-loading"></a>CDN (Content Delivery Network) inläsning av resurser
+## CDN (Content Delivery Network) inläsning av resurser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] använder Azure Content Delivery Network (CDN) för att tillhandahålla resurser som krävs för att köra Business Central webbklienten. Den här kontrollen kontrollerar att de resurser som krävs är tillgängliga och kan nås genom att skicka ping till Business Central-instansen i CDN.
 
@@ -75,7 +69,7 @@ Kontrollerar att du har anslutning till Internet genom att kontrollera att du ha
 |Din webbläsare stöder inte den här kontrollen|Se kontrollen **Grundläggande internetanslutning**.|
 |Det gick inte att skicka ping till servern på följande URL: {url}|Kontrollera dina brandvägginställningar.|
 
-## <a name="user-authentication"></a>Användarautentisering
+## Användarautentisering
 
 Kontrollerar att den aktuella användaren har loggat in med ett giltigt Business Central-konto.
 
@@ -83,7 +77,7 @@ Kontrollerar att den aktuella användaren har loggat in med ett giltigt Business
 |-------|-------------|
 |Ingen användare är för närvarande autentiserad|Logga in på Business Central med giltigt användarnamn och lösenord.|
 
-## <a name="business-central-environments-discovery"></a>Identifiering av Business Central-miljöer
+## Identifiering av Business Central-miljöer
 
 Söker efter Business Central-miljöer som är tillgängliga för en autentiserad användare och verifierar sedan om användaren kan autentiseras i miljön.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -94,7 +88,7 @@ Söker efter Business Central-miljöer som är tillgängliga för en autentisera
 |Det gick inte att hämta tillgängliga miljöer för ditt konto.|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 |Ditt användarnamn eller lösenord är felaktigt, eller också har du inget giltigt konto.| Kontrollera att du har loggat in med rätt användarnamn och lösenord.|
 
-## <a name="application-service-connectivity"></a>Appens tjänstanslutning
+## Appens tjänstanslutning
 
 Kontrollerar att den autentiserade användaren kan ansluta till en identifierad miljö, vanligtvis från produktionsmiljön.
 
@@ -105,7 +99,7 @@ Kontrollerar att den autentiserade användaren kan ansluta till en identifierad 
 |Ingen grupperad adress att utföra den här kontrollen för|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 |Versionsslutpunkten finns inte|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Översikt över uppgifter för inställning av Business Central](setup.md)  

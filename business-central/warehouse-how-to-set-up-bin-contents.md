@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530439"
 ---
-# <a name="create-bin-contents"></a>Skapa lagerställesinnehåll
+# Skapa lagerställesinnehåll
 
 När du har skapat lagerställena kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerstället ska fyllas med en viss artikel. Du kan göra detta manuellt på sidan **lagerställesinnehåll** eller automatiskt med sidan **skapa lagerställesinnehåll i kalkylarket**.
 
-## <a name="to-create-bin-content-manually"></a>Så här skapar du lagerställesinnehåll manuellt
+## Så här skapar du lagerställesinnehåll manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2. Markera platsen där du vill skapa lagerställesinnehållet och väljer åtgärden **Lagerställen**.  
@@ -37,7 +31,7 @@ Om du markerar fältet **Fast** kopplar du artikeln till lagerstället. Det bety
 > [!NOTE]  
 > Du kan skapa flera lagerställesinnehåll samtidigt på sidan **Lagerställesinnehålluppl förslag**.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Så här skapar du lagerställesinnehåll i kalkylarket:
+## Så här skapar du lagerställesinnehåll i kalkylarket:
 
 När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du vill ha på varje lagerplats i lagerplatsuppläggningskalkylarket.
 
@@ -55,17 +49,14 @@ När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du
 
 I det här kalkylarket kan du arbeta med flera lagerställesinnehållsrader för flera lagerställen och på så sätt få en bra översikt över vad du placerar på olika lagerställen i en viss zon, gång eller ställning.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/set-up-zones-bins/)
+## Se relaterad [Microsoft utbildning](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
-[Beräkna lagerplatsåteranskaffning](warehouse-how-to-calculate-bin-replenishment.md)  
-[Lagerstyrning](warehouse-manage-warehouse.md)  
+[Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
 [Monteringshantering](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
-[Designdetaljer: Lagerstyrningsinställningar](design-details-warehouse-setup.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

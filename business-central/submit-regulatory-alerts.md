@@ -4,21 +4,15 @@ description: Du kan följa den här guiden om du vill skicka en andra varning ti
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.reviewer: edupont
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335116"
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Skicka notifieringar om lands-/regionspecifika regleringsfunktioner
+# Skicka notifieringar om lands-/regionspecifika regleringsfunktioner
 
 Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) för att skicka regelnotifieringar Dynamics tjänst för att skicka regelnotifieringar.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Att skicka regelnotifiering i LCS
+## Att skicka regelnotifiering i LCS
 
 1. Gå till [https://lcs.dynamics.com](https://lcs.dynamics.com) och logga in  
 
@@ -71,7 +65,7 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
 
       När du har skickat meddelandet får du en bekräftelse på att meddelandet har skickats till Microsoft.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Byta språk och plats](about-locale-language.md)  

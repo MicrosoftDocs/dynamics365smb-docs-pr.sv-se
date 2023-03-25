@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supplier, payment priority
-ms.search.form: 26, 27
+ms.search.keywords: 'supplier, payment priority'
+ms.search.form: '26, 27'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ed025f130fc2de9be77c373ab9b651844496b8a7
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144217"
 ---
-# <a name="prioritize-vendors"></a>Prioritera leverantörer
+# Prioritera leverantörer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] används för att ta fram olika betalningsförslag, t. ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
 
@@ -25,7 +19,7 @@ Först måste du prioritera leverantörerna genom att tilldela nummer till dem.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
-## <a name="to-prioritize-vendors"></a>Så här prioriterar du leverantörer:
+## Så här prioriterar du leverantörer:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Välj lämplig leverantör och sedan **Redigera**.
@@ -35,7 +29,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] räknas lägst nummer (förutom
 
 Om du inte vill prioritera en leverantör lämnar du fältet **Prioritet** tomt. Om du sedan använder funktionen för betalningsförslag visas den här leverantören sist i listan, efter de leverantörer som har tilldelats ett prioritetsnummer. Du kan ange valfritt antal prioritetsnivåer alltefter behov.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  

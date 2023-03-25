@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bills of material, assembly BOM, production BOM,
-ms.search.form: ''
+ms.search.keywords: 'bills of material, assembly BOM, production BOM,'
+ms.search.form: null
 ms.date: 09/26/2022
 ms.author: a-reishima
-ms.openlocfilehash: 4b1f1b15c2502ddb894baf733308800846a74206
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606728"
 ---
-# <a name="work-with-bills-of-material"></a>Arbeta med strukturer
+# Arbeta med strukturer
 
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras från andra artiklar eller tillverkas av resurser eller maskingrupper från komponenter.
 
-## <a name="assembly-boms-or-production-boms"></a>Monteringsstrukturer eller produktionsstrukturer
+## Monteringsstrukturer eller produktionsstrukturer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder två olika typer av strukturer:
 
@@ -42,7 +36,7 @@ Begreppet av resurser i produktionen är mycket mer avancerad än i monteringsha
 
 Både monteringsorder och produktionsorder kan kopplas direkt till försäljningsorder. Du kan dock endast använda monteringsorder att anpassa slutartikeln direkt för en kundförfråga med försäljningsordern.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
 [Skapa produktionsstrukturer](production-how-to-create-production-boms.md)  

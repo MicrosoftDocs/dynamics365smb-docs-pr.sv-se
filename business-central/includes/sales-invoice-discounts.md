@@ -3,12 +3,6 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8849f1c5d33cd1f826e7f53be317cb01e513fcd1
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652144"
 ---
 När du har lagt till alla artiklar på rader kan du beräkna fakturarabatten för hela försäljningsdokumentet genom att välja åtgärden **Beräkna fakturarabatt**.
 

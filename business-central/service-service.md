@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142912"
 ---
-# <a name="service-management"></a>Servicehantering
+# Servicehantering
 > [!NOTE]
 > Funktionen som beskrivs i det här avsnittet och underavsnitt visas endast i användargränssnittet om du har **Premium**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
@@ -42,7 +36,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Skapa och hantera avtal mellan dig och kunderna.|[Uppfylla servicekontrakt](service-fulfill-service-contracts.md)|  
 |Ge kunder service och fakturera serviceorder.|[Leverera service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Se även  
+## Se även  
 [Hantera kundreskontra](receivables-manage-receivables.md)   
 [Projekt](projects-how-create-jobs.md)   
 [Välkommen till[!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)

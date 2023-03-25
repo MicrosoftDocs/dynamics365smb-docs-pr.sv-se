@@ -1,22 +1,16 @@
 ---
 title: Översikt över uppgifter för inställning av Business Central
-description: Läs en översikt av de uppgifter som krävs för att installera, initialisera och konfigurera Business Central för att passa just dina behov.
+description: 'Läs en översikt av de uppgifter som krävs för att installera, initialisera och konfigurera Business Central för att passa just dina behov.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: configure, initialize
+ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 65fd173213af21631b27019a79fc8030d6839daf
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604840"
 ---
-# <a name="overview-of-tasks-to-set-up-prod_short"></a>Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
+# Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov. Med hjälp av artiklarna i [Business Central snabbstart](quick-start-business-central.md) kan du ta de första stegen att göra [!INCLUDE [prod_short](includes/prod_short.md)] till din egen. Den här artikeln innehåller en översikt över hur du kan konfigurera [!INCLUDE [prod_short](includes/prod_short.md)] för organisationen.
 
@@ -39,7 +33,7 @@ Utöver guiderna för assisterad konfiguration kan några allmänna funktioner o
 |Ange standardrapporter som ska användas med olika dokumenttyper.|[Rapportval för dokument](across-report-selections.md)|
 | Ställa in hur du ställer in resurser och tidrapporter och projekt för att hantera projekt. |[Ställa in projekthantering](projects-setup-projects.md) |
 | Konfigurera hur du försäkrar, underhåller och skriver av anläggningstillgångar och hur du registrerar kostnader för anläggningstillgångar i företagets redovisning. |[Ställa in anläggningstillgångar](fa-setup.md) |
-|Definiera allmänna regler och värden för lagerprocesser och särskild hantering vid varje lagerställe.|[Ställa in lagerstyrning](warehouse-setup-warehouse.md)|
+|Definiera allmänna regler och värden för lagerprocesser och särskild hantering vid varje lagerställe.|[Ställa in Warehouse Management](warehouse-setup-warehouse.md)|
 |Förbereda produktionsstrukturer och verksamhetsföljder för att definiera hur artiklar tillverkas och förbereda maskin- eller produktionsgrupper för att vidta nödvändiga åtgärder.|[Ställa in Produktion](production-configure-production-processes.md)|
 |Standardtjänster, symptom och felkoder och skapa serviceartiklar, resurser och dokumentation som behövs för att tillhandahålla service till kunder.|[Ställa in tjänstehantering](service-setup-service.md)|
 |Läs om bästa praxis för att konfigurera artiklar för lagerkostnad och leveransplanering.|[Ställa in komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)|
@@ -61,13 +55,13 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[prod_short](inc
 > [!NOTE]
 > Som administratör kan du skapa ett nytt företag i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services som är ett verktyg utformat för att förkorta distributionstider, förbättra implementeringskvaliteten, införa en upprepningsbar implementeringsmetod samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Läs mer på [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Konfigurera appar
+## Konfigurera appar
 
 Utöver huvudfunktionerna i [!INCLUDE [prod_short](includes/prod_short.md)] lägger Microsoft till några appar som anges på [sidan **Tilläggshantering**](https://businesscentral.dynamics.com/?page=2500). Från och med oktober 2022 ger varje app en länk som öppnar konfigurationssidan – bara välj åtgärden **Konfigurera**.  
 
 Du kan också lägga till funktioner i [!INCLUDE [prod_short](includes/prod_short.md)] genom att lägga till AppSource-appar. Läs mer på [Anpassa Business Central Online med hjälp av tillägg](ui-extensions.md).  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Företagsinformation, översikt](admin-company-information.md)  
 [Administration](admin-setup-and-administration.md)  
@@ -79,7 +73,7 @@ Du kan också lägga till funktioner i [!INCLUDE [prod_short](includes/prod_shor
 [Anläggningstillgångar](fa-manage.md)  
 [Monteringshantering](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  
-[Lagerstyrning](warehouse-manage-warehouse.md)  
+[Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  

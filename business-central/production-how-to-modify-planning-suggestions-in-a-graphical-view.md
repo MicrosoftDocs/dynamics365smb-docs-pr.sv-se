@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 90201c5aa134eb0c4c9c01c4c692f3f253b5f56c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515413"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ändra planeringsförslag i en grafisk vy
+# Ändra planeringsförslag i en grafisk vy
 
 En vanlig planeringsaktivitet är att ändra eller lägga till planeringsförslagsrader för att ändra de föreslagna leveransordrarna innan du utför dem genom att köra funktionen **Verkställ åtgärdsmeddelande**. Ett alternativ för att göra det i planeringsförslaget är att använda en grafisk översikt. Men stöds inte för närvarande i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -92,7 +86,7 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Planerad](production-planning.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  

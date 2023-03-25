@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 612dc8ada170ae6925bd3121db324cec1624ce68
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530142"
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a>(Äldre) Ange layout för en rapport
+# (Äldre) Ange layout för en rapport
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -30,7 +24,7 @@ När anpassade layouter för rapporter definieras kan du välja dem från kund- 
 > [!TIP]  
 > Dokumentrapporter (inte listor) som använder en Word-rapportlayout är vanligtvis snabbare än de med en RDLC-rapportlayout. Om du har möjlighet att välja mellan ett ord eller en RDLC-rapportlayout för en dokumentrapport kan du alltså använda Word-rapportlayouten för bästa prestanda.
 
-## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Ändra vilken rapportlayout som ska användas för en rapport eller ett dokument
+## Ändra vilken rapportlayout som ska användas för en rapport eller ett dokument
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.
   
@@ -49,7 +43,7 @@ När anpassade layouter för rapporter definieras kan du välja dem från kund- 
 
 Om du har valt en inbyggd RDLC- eller Word-rapportlayout krävs ingen mer åtgärd och layouten används i när rapporten körs nästa gång.
 
-## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Så här ändrar du den anpassade layouten som ska användas för en rapportlayout
+## Så här ändrar du den anpassade layouten som ska användas för en rapportlayout
 
 Du kanske också vill ändra den anpassade layout som används. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
@@ -62,9 +56,9 @@ Namnet på den valda anpassade layouten visas nu i fältet **Anpassad layoutbesk
 
 Du kan nu gå till kund- och leverantörskorten för att ange vilka layouter som ska användas för olika dokument som du har för kunden eller leverantören i fråga, t. ex. orderbekräftelser eller betalningspåminnelser. Mer information finns i [definiera dokumentlayout för kunder och leverantörer](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

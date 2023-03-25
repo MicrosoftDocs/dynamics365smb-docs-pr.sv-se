@@ -1,22 +1,15 @@
 ---
 title: Administrationsuppgifter i Business Central
 description: Vissa uppgifter i Business Central kräver central administrering och konfigurering. Se vad de är och lär dig vad du ska göra.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: edupont
-ms.openlocfilehash: 8d961c1d54dda71651eb81c6dfab05733d0207fc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533247"
+ms.date: 01/11/2023
+ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Administrationsuppgifter
+# Administrationsuppgifter
 
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare och anpassa användargränssnittet.  
 
@@ -50,7 +43,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Ansluta Dynamics 365 Sales med [!INCLUDE[prod_short](includes/prod_short.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser och utöka lösningen med appar.|[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Administration i administrationscentret
+## Administration i administrationscentret
 
 Interna och delegerade administratörer har tillgång till administrationscentret för [!INCLUDE [prod_short](includes/prod_short.md)] där de kan konfigurera, övervaka och felsöka [!INCLUDE [prod_short](includes/prod_short.md)]-miljöer. I följande register beskrivs vissa huvuduppgifter, med länkar till respektive beskrivande artikel.  
 
@@ -58,12 +51,12 @@ Interna och delegerade administratörer har tillgång till administrationscentre
 |------------|-------------|
 |Lär dig mer om de verktyg som du kan använda för att felsöka.|[Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)|
 |Övervaka användning och felsök sessioner|[Miljötelemetri i Business Central administrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Hantera användarsessioner, inklusive att avbryta en session om användaren är blockerad.|[Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Hantera användarsessioner, inklusive att avbryta en session om användaren är blockerad.|[Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurera klientorganisationen så att den skickar telemetriska data till Azure Application Insights för bättre analys och fel sökning.|[Aktivera Skicka telemetri till Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Affärsfunktion](across-business-functionality.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  

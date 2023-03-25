@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142503"
 ---
+
 > [!NOTE]
 > I följande avsnitt antas du att du har administratörsbehörighet för Exchange Online.
 
@@ -20,7 +15,7 @@ Innan du kan konfigurera e-postloggning måste du förbereda Office 365 [offentl
 
 Följ stegen nedan för att konfigurera Exchange Online, med länkar till var du kan läsa mer.
 
-### <a name="create-an-admin-role-group"></a>Skapa en administratörsrollgrupp
+### Skapa en administratörsrollgrupp
 
 Skapa en administratörsrollgrupp för gemensamma mappar baserat på informationen i följande tabell:
 
@@ -32,7 +27,7 @@ Skapa en administratörsrollgrupp för gemensamma mappar baserat på information
 
 Mer information finns i [Hantera rollgrupper i Exchange Online](/exchange/permissions-exo/role-groups).
 
-### <a name="create-a-new-public-folder-mailbox"></a>Skapa en ny gemensam mappinkorg
+### Skapa en ny gemensam mappinkorg
 
 Skapa en ny postmapp för allmän mapp baserad på informationen i följande tabell:
 
@@ -42,7 +37,7 @@ Skapa en ny postmapp för allmän mapp baserad på informationen i följande tab
 
 Mer information finns i [Skapa en offentlig mappinkorg](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### <a name="create-new-public-folders"></a>Skapa nya offentliga mappar
+### Skapa nya offentliga mappar
 
 1. Skapa en ny gemensam mapp med namnet **e-postloggning** i roten så att den fullständiga sökvägen till mappen blir `\Email Logging\`
 2. Skapa två undermappar så att resultatet blir följande fullständiga sökvägar till mapparna:
@@ -52,23 +47,23 @@ Mer information finns i [Skapa en offentlig mappinkorg](/exchange/collaboration-
 
 Mer information finns i [Skapa en offentlig mapp](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### <a name="set-public-folder-ownership"></a>Ange ägarskap för gemensam mapp
+### Ange ägarskap för gemensam mapp
 
 Ange e-postloggningsanvändaren som ägare till båda gemensamma mapparna *Kö* och *Lagring*.
 
 Mer information finns i [Tilldela behörigheter till den offentliga mappen](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### <a name="mail-enable-the-queue-public-folder"></a>Postaktivera den offentliga mappen *Kö*
+### Postaktivera den offentliga mappen *Kö*
 
   Mer information finns i [postaktivera eller post-inaktivera en offentlig mapp](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Postaktivera utskick av e-post till gemensamma mappen *Kö*
+### Postaktivera utskick av e-post till gemensamma mappen *Kö*
 
 Postaktivera utskick av e-post till den gemensamma mappen *Kö* med Outlook eller Exchange Management Shell.
 
 Mer information finns i [Tillåta anonyma användare att skicka e-post till en postaktiverad gemensam mapp](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Skapa regler för e-postflöde
+### Skapa regler för e-postflöde
 
 Skapa två postflödesregler baserad på informationen i följande tabell:
 

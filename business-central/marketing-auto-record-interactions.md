@@ -1,22 +1,16 @@
 ---
 title: Konfigurera automatisk registrering av interaktioner | Microsoft Docs
-description: Du kan automatiskt registrera kund- eller klienteinteraktioner, till exempel för försäljnings-, inköps- och servicedokument eller telefonsamtal.
+description: 'Du kan automatiskt registrera kund- eller klienteinteraktioner, till exempel för försäljnings-, inköps- och servicedokument eller telefonsamtal.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: marketing, relationship, prospect, contact, client, customer
+ms.search.keywords: 'marketing, relationship, prospect, contact, client, customer'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6ccf3a51b8a9cbddcddd68ba192cfdbe36149bc3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075883"
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a>Automatiskt registrering av interaktioner med kontakter
+# Automatiskt registrering av interaktioner med kontakter
 Du kan ställa in programmet att automatiskt registrera interaktioner för försäljning, inköp och servicedokument, omslagsblad, e-post, telefonsamtal som till exempel:
 
 * Skriva ut försäljnings- eller inköpsofferter, beställningar, fakturor, kreditnotor, omslagsblad.
@@ -28,7 +22,7 @@ Du kan ställa in programmet att automatiskt registrera interaktioner för förs
 För att definiera automatisk registrering av dessa interaktioner anger du interaktionsmallar för dessa dokument och åtgärder, genom att använda sidan **Interaktionsmall inställningar**.  
 För att öppna sidan **Mallinställningar för interaktion** välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Mallinställningar för interaktion** och väljer sedan relaterad länk.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Inspelningsinteraktioner med kontakter](marketing-interactions.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

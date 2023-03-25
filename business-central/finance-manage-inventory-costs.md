@@ -1,22 +1,16 @@
 ---
 title: Hantera lagerkostnader
-description: Kostnadshantering är om registrering och rapportering av rörelsens driftskostnader, inklusive rapportering av produktionskostnader och lagerkostnader.
+description: 'Kostnadshantering är om registrering och rapportering av rörelsens driftskostnader, inklusive rapportering av produktionskostnader och lagerkostnader.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523429"
 ---
-# <a name="managing-inventory-costs"></a>Hantera lagerkostnader
+# Hantera lagerkostnader
 Kostnadshantering används vid registrering och rapportering av rörelsens driftskostnader. Den omfattar rapportering av tillverkningskostnader och lagerkostnader, det vill säga varornas värdet.   
 
 Inom kostnadskalkylering måste du vara medveten om att värderingsprinciper anger hur varor värderas när de lämnar lagret, att kostnadsjusteringen uppdaterar kostnaderna för sålda varor med relaterad inköpskostnad som bokförs efter försäljningen och att lagervärdena måste bokföras på särskilda redovisningskonton med jämna mellanrum.
@@ -39,7 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |utföra kontroll- och rapporteringsuppgifter vid periodslut, till exempel beräkna lagervärdet och bokföra kostnader i redovisningen.|[Rapportera kostnader och stämma av med redovisningen](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |lära dig hur du kan använda jobbkön för att flytta aktiviteterna för att justera lagerkostnaden eller stämma av den med redovisningen till bakgrunden.|[justera och stämma av lagerkostnad med redovisning med jobbkö](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Se även  
+## Se även  
  [Ekonomi](finance.md)  
  [Lagersaldo](inventory-manage-inventory.md)   
  [Försäljning](sales-manage-sales.md)   

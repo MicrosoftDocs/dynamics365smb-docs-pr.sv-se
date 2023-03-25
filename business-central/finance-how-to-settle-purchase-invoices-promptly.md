@@ -3,24 +3,18 @@ title: Betala inköpsfakturor snabbt
 description: Om du vill betala leverantören kontant eller med check kan all nödvändig bokföring göras när du bokför fakturan.
 author: brentholtorf
 ms.topic: conceptual
-ms.search.form: 51, 9308
+ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8386d5e52086f1a291529d828b66163c5d2851d3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516297"
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Betala inköpsfakturor snabbt
+# Betala inköpsfakturor snabbt
 
 Om du vill betala leverantören kontant eller med check kan du bokföra betalningen när du bokför fakturan.  
 
 > [!NOTE]  
 > Om du ofta betalar inköpsfakturor kontant, via check eller banöverföring, kan det vara praktiskt att definiera ett särskilt betalningssätt för ett balanskonto och ange detta i fältet **Betalningssätt** på leverantörskortet. Hädanefter infogas motkontonumret i fakturahuvudet automatiskt när du skapar en ny faktura. Mer information finns i [Definiera betalningssätt](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Så här gör du för att snabbt betala inköpsfakturor:
+## Så här gör du för att snabbt betala inköpsfakturor:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -31,7 +25,7 @@ Om du vill betala leverantören kontant eller med check kan du bokföra betalnin
 >
 > Denna anpassning krävs endast om du inte anger balanskonton för betalningssätten enligt beskrivningen ovan.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  

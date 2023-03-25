@@ -1,22 +1,16 @@
 ---
 title: Omvärdera anläggningstillgångar
-description: Lär dig att justera värdet för anläggningstillgångar, registrera nya belopp eller uppskrivning, nedskrivning och bokföra ytterligare anskaffningskostnader.
+description: 'Lär dig att justera värdet för anläggningstillgångar, registrera nya belopp eller uppskrivning, nedskrivning och bokföra ytterligare anskaffningskostnader.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5628, 5629, 5633
+ms.search.form: '5628, 5629, 5633'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba537dd27fedfb204483d81815380d0910676c20
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532221"
 ---
-# <a name="revalue-fixed-assets"></a>Omvärdera anläggningstillgångar
+# Omvärdera anläggningstillgångar
 
 Omvärdering av anläggningstillgångar kan bestå av uppskrivning, nedskrivning, eller allmänna värdejusteringar.
 
@@ -26,7 +20,7 @@ När värdet av en anläggningstillgång har minskat, bokför du en journalrad m
 
 Indexering används för att anpassa flera värden för anläggningstillgångar, t. ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp.
 
-## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Att bokföra uppskrivning från en redovisningsjournal.
+## Att bokföra uppskrivning från en redovisningsjournal.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
@@ -37,7 +31,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
     >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl.bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Uppskrivningskonto** redovisningsdebitkontot och fältet **Uppskrivning motkonto** innehåller det redovisningskonto där du vill bokföra mottransaktioner för uppskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Välj åtgärden **Bokföra**.
 
-## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
+## Att bokföra en nedskrivning från en redovisningsjournalen för anläggningstillgångar.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.
@@ -48,7 +42,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
     >   Steg 4 fungerar bara om du har ställt in följande: På sidan **Anl.bokföringsmallkort** för den fasta anläggningstillgångens bokföringsmall, innehåller fältet **Nedskrivningskonto** redovisningskreditkontot och fältet **Nedskrivningskostnadskontot** innehåller det redovisningskonto där du vill bokföra mottransaktioner för nedskrivning. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Välj åtgärden **Bokföra**.
 
-## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Om du vill utföra allmän omvärdering av anläggningstillgångar
+## Om du vill utföra allmän omvärdering av anläggningstillgångar
 
 Indexering används för att anpassa flera värden för anläggningstillgångar, t. ex. per allmänna prisändringar. Du kan använda batch-jobbet **Indexera anläggningstillgångar** när du vill ändra olika belopp, till exempel nedskrivnings- och uppskrivningsbelopp. Kryssrutan **Tillåt indexering** p sidan **Avskrivningsregel** måste väljas.
 
@@ -64,7 +58,7 @@ Indexering används för att anpassa flera värden för anläggningstillgångar,
     > [!TIP]  
     >   Om indexsiffrorna endast är avsedda för simulering kan du skapa en särskild avskrivningsregel där du kan lagra dem. På så sätt påverkar de här transaktionerna inte de övriga avskrivningsreglerna.
 
-## <a name="to-post-additional-acquisition-costs"></a>Att bokföra ytterligare anskaffningskostnader
+## Att bokföra ytterligare anskaffningskostnader
 
 Du bokför ytterligare anskaffningskostnader för en anläggningstillgång på samma sätt som du bokför den ursprungliga anskaffningskostnaden, d.v.s.från en inköpsfaktura eller från en journal för anläggningstillgångar. Mer information finns i [Så här anskaffar du anläggningstillgångar](fa-how-acquire.md).  
 
@@ -78,7 +72,7 @@ Avskrivningsprocentsatsen beräknas som:
 
 Kom ihåg att markera kryssrutan **Avskr. till Anl.bokf.datum** på fakturan, redovisningsjournalen för anläggningstillgångar eller anläggningstillgångsjournalraderna så att avskrivningen beräknas från det senaste bokföringsdatumet för anläggningstillgången till bokföringsdatumet för den tillkommande anskaffningskostnaden.
 
-### <a name="example---posting-additional-acquisition-costs"></a>Exempel – bokföra ytterligare anskaffningskostnader
+### Exempel – bokföra ytterligare anskaffningskostnader
 
 En maskin införskaffas den 1 augusti, 2000. Anskaffningskostnader är 4 800. Avskrivningsmetoden är linjär över fyra år.
 
@@ -120,9 +114,9 @@ Om du inte har markerat kryssrutan **Avskr. till Anl.bokf.datum** förlorar till
 
 *Summan av avskrivningen = 100 +15 + 55,54 = 170,54*
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/manage-advanced-fixed-assets-transactions/)
+## Se relaterad [Microsoft utbildning](/training/paths/manage-advanced-fixed-assets-transactions/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  

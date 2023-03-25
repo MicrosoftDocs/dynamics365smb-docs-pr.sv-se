@@ -6,26 +6,21 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 496eaa1fd1aa8828125018a554c701743bccd5db
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525197"
 ---
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Genomgång: Använda orderplanering för att skapa och reservera leverans
+
+# Genomgång: Använda orderplanering för att skapa och reservera leverans
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata för att planera.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du har skapat en produktions order för 100 enheter av artikeln **SP-SCM1009, Airpot** och du vill planera del enheter för ordern. Du använder orderplanering när du vill skapa en produktionsorder som krävs för leveransen. Eftersom du skapar produktionsordern för att uppfylla kraven från en specifik order bestämmer du dig för att reservera utflödet av produktionsordern.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa den nya släppta produktionsordern för 100 enheter av artikeln **SP-SCM1009, Airpot**.
 
-    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
+    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Utsläppta produktionsorder** och väljer sedan relaterad länk.  
 
     2. Välj åtgärden **Ny** och fyll sedan i fälten enligt instruktionerna i följande tabell.  
 
@@ -64,7 +59,7 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du har skapat en produk
 
 Det är det för orderplanering i [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee-intro.md)  
 [Om produktionsorder](../production-about-production-orders.md)  

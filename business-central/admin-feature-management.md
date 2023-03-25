@@ -1,20 +1,15 @@
 ---
 title: Aktivera kommande funktioner i förväg
-description: Lär dig hur du aktiverar markerade, valfria funktioner innan de blir obligatoriska.
+description: 'Lär dig hur du aktiverar markerade, valfria funktioner innan de blir obligatoriska.'
 author: mikebcMSFT
 ms.topic: conceptual
-ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.keywords: 'administration, admin, key, optional, feature management, early access, preview'
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 0ff7ee2a56b762609e2b15f101c1e4abc9bd46cd
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533355"
 ---
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Aktivera Nya och kommande funktioner i förväg
+
+# Aktivera Nya och kommande funktioner i förväg
 
 En del nya funktioner kan aktiveras i förväg så att du kan dra nytta av dem så tidigt som möjligt. Aktivering av funktioner tidigt ger dig tid att testa och förbereda organisationen för ändring.
 
@@ -22,9 +17,9 @@ När Microsoft släpper funktioner eller funktioner för funktionsdesign som en 
 
 Läs mer om [funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/admin-online-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Nya och planerade funktioner](/dynamics365-release-plan/2021wave1/)  
 

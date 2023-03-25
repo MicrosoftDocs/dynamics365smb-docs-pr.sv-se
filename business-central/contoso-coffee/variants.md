@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 86b70b3caf1896804ffdc3c76610ffe10ae73c5c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525188"
 ---
-# <a name="walkthrough-variants"></a>Genomgång: varianter
+
+# Genomgång: varianter
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata för att lära dig om varianter.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera efter fråge prognosen för varje variant av artikeln SP-SCM1006, AutoDripLite. Eftersom de har olika färger måste du se till att rätt struktur används för varje variant. Kör planeringsarbetsbladet för att beräkna utbudet.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Ställ in lagerställeenheter för artikeln SP-SCM1006, AutoDripLite. Tilldela en strukturlista för SKU med varianterna rött och vitt.
 
@@ -103,6 +98,6 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera eft
 
     9. För varje skapad rad väljer du **komponent**-åtgärden och kontrollerar vilken färg som används.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee-intro.md)  

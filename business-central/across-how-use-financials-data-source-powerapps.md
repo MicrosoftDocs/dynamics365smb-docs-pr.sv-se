@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: OData, Power App, SOAP
+ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531897"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps
+# Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps
 
 Du kan göra din [!INCLUDE[prod_short](includes/prod_short.md)]-data tillgänglig som underlag för datakälla i Power Apps.  
 
 > [!NOTE]  
 > Du måste ha ett giltigt konto med [!INCLUDE[prod_short](includes/prod_short.md)] och med Power Apps.  
 
-## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>Att lägga till [!INCLUDE[prod_short](includes/prod_short.md)] som datakälla i Power Apps.
+## Att lägga till [!INCLUDE[prod_short](includes/prod_short.md)] som datakälla i Power Apps.
 
 1. I webbläsaren, går du till [powerapps.microsoft.com](https://powerapps.microsoft.com/), och loggar in.
 2. På startsidan, i avsnittet **Starta från data** välj panelen **Andra datakällor**.  
@@ -49,9 +43,9 @@ När du har skapat och byggt ditt program kan du dela den med dina kollegor. Mer
 > [!NOTE]
 > Om du vill ansluta till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste du välja anslutningen **Business Central (lokal)** i steg 3.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/power-apps-power-automate-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/power-apps-power-automate-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa en arbetsyteapp från en mall i Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  

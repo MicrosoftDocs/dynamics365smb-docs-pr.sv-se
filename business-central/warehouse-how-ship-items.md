@@ -1,120 +1,126 @@
 ---
 title: Leverera artiklar
-description: Denna artikel beskriver hur du levererar artiklar från distributionslagret, beroende på distributionslager konfigurationen för utleveransbearbetning.
-author: SorenGP
+description: I den här artikeln beskrivs hur du levererar artiklar från distributionslagret.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
-ms.date: 09/02/2022
-ms.author: edupont
-ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531222"
+ms.date: 02/22/2023
+ms.custom: bap-template
+ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="ship-items"></a>Leverera artiklar
 
-När artiklarna utlevereras från ett distributionslager som har ställts in för utleveransbearbetning kan du bara registrera utleveransen med relaterade dokument, till exempel en försäljningsorder, en serviceorder, inköpsreturorder eller en order för utgående överföringar.
+# Utleverera artiklar med en lagerutleverans
 
-När du utlevererar artiklar från ett distributionslagret som har ställt in utleveransbearbetning kan du bara leverera artiklar baserat på källdokument som andra företagsenheter har släppt till distributionslagret för åtgärder.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du plocka och inleverera artiklar och använda någon av fyra metoder, enligt beskrivningen i följande tabell.
 
-> [!NOTE]
-> Om distributionslagret använder direktutleveranser och lagerställen, kan du för varje rad visa hur många artiklar som har placerats i direktutleveranslagerställena. Programmet beräknar antalet automatiskt när fälten i utleveransen uppdateras. Om det rör sig om de artiklar som ingår i den utleverans du förbereder, kan du skapa en plockning för alla raderna och därefter färdigställa utleveransen. Läs mer på [Artiklar för direktutleverans](warehouse-how-to-cross-dock-items.md).
+|Metod|Utgående process|Begär plockning|Kräv utleverans|Komplexitetsnivå (mer information på [Warehouse Management – översikt](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Bokföra plockning och utleverans från orderraden|||Ingen tilldelad distributionslageraktivitet.|  
+|B|Bokföra plockning och utleverans från ett lagerplockningdokument|Aktiverat||Grundläggande: Order för order|  
+|A|Bokföra plockning och utleverans från ett distributionslagerutleveransdokument||Aktiverat|Grundläggande: Konsoliderad inleverans-/utleveransbokföring för flera order.|  
+|D|Bokföra plockning från ett distributionslagerplockningdokument och bokföra leveransen från ett distributionslagerutleveransdokument|Aktiverat|Aktiverat|Avancerat|  
 
-## <a name="ship-items-with-a-sales-order"></a>Utleverera artiklar med en försäljningsorder
+För att lära dig mer om artikelutleverans, gå till [avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md).
 
-Följande instruktioner beskriver hur man skickar varor från en försäljningsorder. Stegen är liknande för inköpsreturorder, serviceorder och utgående överföringsorder.  
+I denna artikel hänvisas till metod C och D i tabellen. I båda metoder börjar du med att skapa ett utleveransdokument från ett källdokument för företag. Sedan kan du välja de angivna artiklarna för utleverans.
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
-2. Öppna en befintlig försäljningsorder eller skapa en ny. Läs mer på [Sälja produkter](sales-how-sell-products.md).
-3. Ange hur många enheter som har levererats i fältet **Ant. att utleverera**.
+När en lagerställe kräver utleveranser för distributionslagret, kan du leverera artiklar baserat på källdokument som har släppts till distributionslager. När du släpper källdokument blir artiklarna på dem klara att hanteras i distributionslagret. Följande källdokument finns:
 
-    Värdet i fältet **Utlevererat antal** uppdateras i enlighet därmed. Om detta är en delutleverans och värdet är lägre än värdet i fältet **antal**. Ta reda på mer på [Behandla delleveranser](sales-how-send-partial-shipments.md).
-4. Välj åtgärden **Bokföra**.
+* Försäljningsorder
+* Inköpsreturorder
+* Överföringsorder
+* Serviceorder
 
-> [!NOTE]
-> Om organisationen inte använder försäljningsorder antar den att när du bokför försäljningsfakturan [!INCLUDE [prod_short](includes/prod_short.md)] att du har levererat hela antalet. Om det strider mot hur organisationen fungerar rekommenderar vi att du använder försäljningsorder och registrerar leveranser enligt vad som beskrivs i den här artikeln.
+Du kan skapa distributionslagerutleverans på två sätt:
 
-## <a name="ship-items-with-a-warehouse-shipment"></a>Utleverera artiklar med en lagerutleverans
+* Med en pushmetod när arbetet utförs på orderbasis. Välj åtgärden **Skapa distributionslagerutleverans** i källdokumentet för att skapa en distributionslagerutleverans för dokumentet.
+* I en pullmetod när du använder åtgärden **Frisläpp** i källdokumentet för att frisläppa den till distributionslagret. En lageranställd skapar en **Distributionslagerutleverans** för ett eller flera släppta källdokument. I proceduren nedan beskrivs hur du skapar en distributionslagerutleverans med en pullmetod.
 
-Först kan du skapa ett utleveransdokument från ett källdokument för företag. Sedan kan du välja de angivna artiklarna för utleverans.
+## För att utleverera artiklar med ett dokument för distributionslagerutleverans
 
-### <a name="create-a-warehouse-shipment"></a>Skapa en distributionslagerutleverans
-
-Medarbetare som är ansvarig för utleveransen skapar en distributionslagerutleverans. I följande procedur beskrivs hur du skapar försändelsen manuellt i standard versionen av [!INCLUDE[prod_short](includes/prod_short.md)]. Organisationen kan emellertid ha automatiserat en del av den här metoden, till exempel med hjälp av handburna eller monterade skannrar som externa leverantörer stöder.  
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
 2. Välj **Ny**.  
+3. I fältet **Nr.** Välj den nummerserie som ska användas för att skapa ett ID för utleveransen.  
+4. I fältet **Lagerställekod**, välj det lagerställe du utlevererar från. 
 
-    Fyll i fälten på snabbfliken **Allmänt**. När du hämtar källdokumentrader, kopieras delar av informationen i huvudet till varje rad.  
+    När du hämtar källdokumentrader, kopieras delar av informationen från lagerstället till varje rad.  
+5. Om lagerstället kräver lagerplats, fyll i **Lagerplatskod**. Beroende på dina inställningar kan [!INCLUDE[prod_short](includes/prod_short.md)]] lägga till lagerplatskoden åt dig. Läs mer om [Zon och lagerplatskoder](warehouse-how-ship-items.md#zone-and-bin-codes).  
+6. Du kan få källdokument på två sätt:
 
-    För dirigerad artikelinförsel och plockning: om lagerstället har en standardzon och standardlagerplats för utleveranser fylls fälten **Zonkod** och **Lagerställeskod** i automatiskt. Du kan dock ändra fälten vid behov.  
+    * Välj åtgärden **Hämta källdokument**. Sidan **Källdokument** öppnas. Här kan du välja ett eller flera källdokument frisläppta till distributionslager som kräver utleverans.
+    * Välj åtgärden **Filter för att hämta urspr.dok.**. Sidan **Filter att hämta ursprungsdok.** öppnas. Du kan välja källdokumentfiltret och använda det. Alla släppta källdokumentrader som uppfyller filterkriterierna läggs till på sidan **Distributionslagerutleverans**. Läs mer på [Så här använder du filter för att hämta källdokument](warehouse-how-ship-items.md#how-to-use-filters-to-get-source-documents).
 
-    > [!NOTE]  
-    > Om du vill utleverera artiklar med klasskoder för distributionslager som skiljer sig från klasskoderna för lagerstället i fältet **Lagerställeskod** i dokumenthuvudet, måste du ta bort innehållet i fältet **Lagerställeskod** i huvudet innan du hämtar källdokumentets rader för artiklarna.  
-3. Välj åtgärden **Hämta källdokument**. Sidan **Källdokument** öppnas.
+    > [!NOTE]
+    > Om lagerstället använder direktutleveranser och lagerplatser för varje rad kan du visa hur många artiklar som har placerats i direktutleveranslagerställena. [!INCLUDE [prod_short](includes/prod_short.md)] beräknar antalet automatiskt när fälten i utleveransen uppdateras. Om det rör sig om de artiklar som ingår i den utleverans du förbereder, kan du skapa en plockning för alla artiklar och därefter färdigställa utleveransen. Läs mer på [Artiklar för direktutleverans](warehouse-how-to-cross-dock-items.md).
 
-    Från en ny eller öppen lagerutleverans kan du använda sidan **Filter att hämta ursprungsdok.** för att hämta de släppta källdokumentraderna som anger vilka artiklar som ska utlevereras.
+7. Skapa distributionslagerplockning. Om lagerstället kräver plockning, kan du skapa plockningsaktiviteter för utleveranser på något av följande två sätt:
 
-    1. Välj åtgärden **Filter för att hämta urspr.dok.**.  
-    2. Du skapar ett nytt filter genom att ange en beskrivande kod i fältet **Kod** och väljer sedan åtgärden **Ändra**.  
-    3. Definiera vilken typ av källdokumentrader som du vill hämta genom att fylla i relevanta filterfält.  
-    4. Välj åtgärden **Kör**.  
+    * Med push-metod där du använder åtgärden **Skapa plockning**. Välj de rader som du vill plocka och ange information om plockningarna. Till exempel vilka lagerplatser som ska tas från och placeras samt hur många enheter som ska hanteras. Lagerplatser kan fördefinieras för distributionslagerstället eller resurs.
+    * Med pull-metod där du använder åtgärden **Frisläppa**. På sidan **Plockningskalkylark** kan du använda åtgärden **Hämta dist.lager dokument** för att hämta sina tilldelade plockningar. När distributionslagerplockningar är fullständigt registrerade tas raderna i **Plockningskalkylark** bort. Läs mer på [Plocka artiklar för distributionslagerutleverans](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-    Alla relaterat källdokumentrader, som uppfyller filtervillkorna, infogas nu på sidan **Dist.lager utleverans** som du aktiverade från filterfunktionen.  
+> [!TIP]
+> För lagerställen som inte kräver plockning kan du skriva ut distributionslagerutleveransen och använda den som plocklista.
 
-    Filterkombinationerna, vilka du definierar, sparas på sidan **Filter att hämta ursprungsdok.** tills nästa gång du behöver den. Du kan skapa ett obegränsat antal filterkombinationer. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
+8. Ange antalet som ska levereras.  
 
-4. Välj det källdokument som du vill leverera artiklar för och klicka på **OK**.  
+    För lagerställen som kräver plockning uppdateras fältet **Ant. att utleverera** automatiskt när plockningen registreras. Annars fylls fältet **Ant. att utleverera** är ifyllt med utestående antal på respektive rad när distributionslagerutleveransraden skapas.
 
-Raderna i källdokumentet visas på sidan **Dist.lager utleverans**. **Ant. att utlevereras** är ifyllt med utestående antal på respektive rad, men du kan ändra antalet som behövs. Om du tar bort innehållet i fältet **Lagerställeskod** på snabbfliken **Allmänt** innan du hämtar raderna måste du fylla i en lämplig lagerställeskod på varje utleveransrad.  
+    Du kan ändra kvantiteten, men du kan inte skicka fler varor än antalet i fältet **Utestående ant.** på källdokumentrad eller fältet **Plockat antal** om plockning krävs.
 
-> [!NOTE]  
-> Det går inte att utleverera fler artiklar än antalet, i **Utestående ant.** på källdokumentraden. För att skicka fler artiklar, använd filterfunktionen för att hämta ett annat källdokument som innehåller en rad för samma objekt.  
+    För att ange värdet i fältet **Ant. att utleverera** på alla rader med noll, väljer du åtgärden **Ta bort ant. att utleverera**. Om du till exempel anger antal till noll, är det praktiskt att använda en streckkodsskanner för att uppdatera de utlevererade kvantiteterna. Om du vill lägga till disponibelt antal för utleverans väljer du åtgärden **Fyll i auto. ant. att utleverera**.
 
-När du har alla rader som ska utlevereras kan du skicka raderna som lagerpersonalen ska plocka.
+9. Bokför leveransen.
 
-### <a name="pick-and-ship"></a>Plocka och utleverera du artiklar
+## Så här använder du filter för att hämta källdokument
 
-Vanligtvis skapar en lagerarbetare ansvarig för plockning ett plockningsdokument eller öppnar ett redan skapat plockningsdokument.  
+Från en lagerutleverans kan du använda sidan **Filter att hämta ursprungsdok.** för att hämta de släppta källdokumentraderna som anger vilka artiklar som ska utlevereras.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.
-2. Välj dist.lager utleverans som du vill plocka för och välj sedan åtgärden **Skapa plockning**.
-3. Fyll i fälten på sidan och sedan välj **OK** knappen. De angivna dokumenten för distributionslagertransport har skapats.
+1. Välj åtgärden **Filter för att hämta urspr.dok.** i distributionslagerutleveransen. 
+2. Du skapar ett nytt filter genom att ange en beskrivande kod i fältet **Kod** och väljer sedan åtgärden **Ändra**.
 
-    Du kan också öppna ett befintlig distributionslagerplockdokument.
-4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk. Välj Dist.lager plockning som du vill arbeta med.
+    Sidan **Filterkortet för källdokument - avgående** visas.
 
-    Om distributionslagret är konfigurerat att använda lagerställen har plockningsraderna omvandlats till åtgärdsrader för Ta och Placera.
+3. Använd filtren för att definiera vilken typ av källdokumentrader som ska hämtas. Du kan till exempel välja olika typer av källdokument, till exempel försäljnings- och överföringsorder.
+4. Välj **Kör**.  
 
-    Du kan sortera raderna, tilldela en anställd plockningen, använda ett brytenhetsfilter, om du använder dirigerad artikelinförsel och plockning, samt skriva ut plockningsinstruktionerna.
+Alla relaterade källdokumentrader, som uppfyller filtervillkorna, läggs till på sidan **Dist.lager inleverans** som du aktiverade från filter för.
 
-5. Utför den faktiska plockningen av artiklarna och placera dem på angiven utleveranslagerplats, eller i utleveransområdet, om du inte använder lagerställen.
-6. Välj **Registrera plockning**.
+Du kan skapa ett obegränsat antal filterkombinationer. Filter sparas på sidan **Filter att hämta ursprungsdok.** och är tillgängliga nästa gång du behöver den. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
 
-    Fälten **Ant. att utleverera** och **Dokumentstatus** i leveransdokumentets huvud uppdateras. De artiklar som du har plockat är inte längre tillgängliga för andra order att plocka eller för interna operationer.
-7. Skriv ut leveransdokumenten, förbered godspaketen och bokför utleveransen.
+## Zon och lagerplatskoder
 
-Mer information om hur du plockar för utleveranser finns i [Plocka artiklar för Dist.lager utleverans](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Om lagerplatser är obligatoriska på lagerstället föreslår [!INCLUDE [prod_short](includes/prod_short.md)] en zon och en lagerplatskod i utleveransdokument för distributionslager.
 
-Du kan också använda plockningsförslaget för att kombinera flera plockningsinstruktioner till en enda instruktion (för flera utleveranser) och på så sätt optimera plockningen i distributionslagret. Lär dig mer på [Planera plockning i kalkylark](warehouse-how-to-plan-picks-in-worksheets.md).
+* För avancerade konfigurationer där ett lagerställe använder dirigerad artikelinförsel och plockning använder [!INCLUDE [prod_short](includes/prod_short.md)] lagerplatsen som anges i fältet **Utlevns lagerställeskod** på **Lagerställekort**. Om ingen **Utlevns lagerställeskod** anges är fältet tomt. Om artikeln och utleveransens lagerplats inte överensstämmer lämnar [!INCLUDE [prod_short](includes/prod_short.md)] utleveransens lagerplats tomt.
+* I andra fall använder [!INCLUDE [prod_short](includes/prod_short.md)] alltid den lagerplats som anges i fältet **Utlevns lagerställeskod** på **Lagerställekod**. Om en lagerplatskod inte har angetts använder [!INCLUDE [prod_short](includes/prod_short.md)] lagerplatskoden från källdokumentet.
+
+## Hantera artiklar för montering mot kundorder i distributionslagerutleveranser
+
+I montering mot kundorder-scenarier är fältet **Ant. att utleverera** på distributionslagerutleveransrader använt för att notera hur många enheter som monteras. Antalet bokförs sedan som monteringsutflöde när distributionslagerutleveransen bokförs. För andra distributionslagerutleveransrader är värdet i **Ant. att utleverera** noll.
+
+När arbetare är klara med att montera en del av eller hela antalet för montering mot kundorder, registrera antalet på **Ant. att utleverera** på distributionslagerutleveransrad. Välj åtgärden **Bokför utleverans**. Monteringsutflödet bokförs, inklusive komponentförbrukningen. En utleverans för kvantiteterna bokförs för försäljningsordern.
+
+Från monteringsordern kan du välja **Montering mot kundorder, dist.lager utleveransrad** för att komma åt distributionslagerutleveransraden.
+
+När distributionslagerutleveransen har bokförts uppdateras olika fält på försäljningsorderraden för att visa förloppet i distributionslagret. Följande fält uppdateras också för att visa hur många antal för montering mot kundorder som återstår att monteras och levereras:
+
+* **ATO Restnot. antal i lager**
+* **ATO Restnot. antal i lager (bas)**
 
 > [!NOTE]
-> Om du väntar på att vissa artiklar ska anlända till distributionslagret, och du använder funktionerna för direktutleverans, beräknar [!INCLUDE[prod_short](includes/prod_short.md)] det antal artiklar som finns på lagerstället för direktutleverans för varje utleverans- eller plockningsförslagsrad. Det här fältet uppdateras varje gång du lämnar och öppnar utleveransdokumentet eller kalkylarket. Läs mer på [Artiklar för direktutleverans](warehouse-how-to-cross-dock-items.md).
+> I alla scenarier där en del av antalet måste först vara monterat och ett annat ska levereras från lagret, skapas ett minimum på två distributionslagerutleveransrader. En är för antal för montering mot kundorder, och en är lagerantalet.
+>
+> Antalet för montering mot kundorder hanteras enligt beskrivningen i den här artikeln. Lagerkvantiteten hanteras som en vanlig distributionslagerutleverans. Mer information om kombinationsscenarion finns i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se även
+## Se även
 
-[Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
 [Monteringshantering](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+[Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

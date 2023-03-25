@@ -5,20 +5,15 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 60fc44ff10b762c3cba9bbae2447982214b34e24
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535135"
 ---
-# <a name="partner-sales-and-marketing-learning-catalog"></a>Utbildningskatalog för partnerförsäljning och marknadsföring
+
+# Utbildningskatalog för partnerförsäljning och marknadsföring
 
 Är du ansvarig för att hjälpa dina kunder att köpa rätt lösning?
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov.  
 
-## <a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
+## Affärsvärde<a name="busvalue"></a>
 
 | Innehåll     | Beskrivning    | Format                                | Längd              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -26,7 +21,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/) | Utforska Dynamics 365 Business Central-funktionerna    | Webbplats    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion.    | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
 
-## <a name="getting-started"></a>Komma igång<a name="get-started"></a>
+## Komma igång<a name="get-started"></a>
 
 | Innehåll   | Beskrivning   | Format                                | Längd              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -35,7 +30,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Arbeta som ett proffs med data i Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet.      | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter  |
 | [Business Central YouTube-spellista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube-landningssida för Dynamics 365 Business Central-videor  | YouTube-videor  |                     |
 
-## <a name="grow-your-business"></a>Utveckla företaget<a name="grow"></a>
+## Utveckla företaget<a name="grow"></a>
 
 | Innehåll   | Beskrivning        | Format                                | Längd                |
 |-----------|--------------------|---------------------------------------|-----------------------|
@@ -45,6 +40,6 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Cloud Solution Provider-program – sälja efterfrågade molnlösningar](/partner-center/csp-overview)  | Med hjälp av detta Cloud Solution Provider-program (CSP) kan du göra mer än att sälja licenser och bli mer engagerad i kundens verksamhet.   | Webbplats      |                       |
 | [Cloud Solution Provider-program – jämför partnersupportprogram](https://partner.microsoft.com/support/partnersupport) | Titta på det här videoklippet för att se hur du kan välja rätt partnersupportplan för ditt företag. Sedan visas en jämförelse sida vid sida.    | Webbplats                               |                       |
 | [Cloud SureStep-accelererad försäljning](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Endast partner) Den accelererade försäljningsprocessen Cloud SureStep är byggd kring den moderna köparens behov och försöker utlösa en känslomässig, erfarenhetsdriven strategisk tändande gnista tidigt i försäljningsprocessen. I den här serien med videoklipp och resurser beskrivs en preskriptiv försäljningsprocess som har utformats speciellt för att motverka den traditionella resursintensiva, "demo-orienterade" lösningsförsäljningen, som oftast leder till mycket anpassade produktdemonstrationer, komplexa försäljningscykler och långa implementeringsprojekt. I resursbiblioteket finns ett antal anpassningsbara mallar som du kan använda för att skapa en egen uppsättning försäljningstillgångar som stöd för snabbare försäljning. | Webbplats     |                       |
-| [Tillägg till spelboken för övergångspartner (juli 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Detta tillägg till spelboken för övergångspartner tillhandahåller viss uppdaterad och ny vägledning för partners som vill säkra sin befintliga kundbas från konkurrens och SaaS-nykomlingar  | PowerPoint-bildspel | 15 bilder |
+| [Tillägg till spelboken för övergångspartner (juli 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Detta tillägg till spelboken för övergångspartner tillhandahåller viss uppdaterad och ny vägledning för partners som vill säkra sin befintliga kundbas från konkurrens och SaaS-nykomlingar  | PowerPoint-bildspel | 15 bilder |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

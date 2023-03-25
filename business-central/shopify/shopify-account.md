@@ -4,24 +4,20 @@ description: Lär dig hur du får ett Shopify konto så att du kan visa arbetsfl
 ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: '30101, 30102'
 ms.reviewer: solsen
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: b4449b573307582595ee9949dcb53d5d553ce0f2
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9803057"
 ---
-# <a name="create-and-set-up-a-shopify-account"></a>Skapa och ställa in ett Shopify konto
+
+# Skapa och ställa in ett Shopify konto
 
 Om du funderar på att använda Shopify som näthandelslösning och behöver ett konto för att validera det Shopify integrerade arbetsflödet har du följande alternativ:
 
 - Få en testversion. Detta är den vanligaste startpunkten för slutanvändare.  
 - Skapa utvecklingsbutiker. Det här tillvägagångssättet är för partner som utför återkommande demonstrationer, utbildningar och support.
 
-## <a name="trial-end-user"></a>Utvärderingsversion (slutanvändare)
+## Utvärderingsversion (slutanvändare)
 
 Gå till [Shopify webbplatsen ](https://www.shopify.com) och använd ditt e-postkonto för administratörskontot för att registrera dig för en kostnads fri utvärderingsversion. Mer information om hur du skapar och anpassar onlinebutiken finns i [Shopify hjälpcenter](https://help.shopify.com/).
 
@@ -40,7 +36,7 @@ I **Shopify Admin** av skapad butik tillämpa följande **inställningar**:
 > [!Important]  
 > Glöm inte att avbryta din Shopify utvärdering om du vill undvika betalningar.
 
-## <a name="development-store"></a>Utvecklingsbutik
+## Utvecklingsbutik
 
 Börja med att ansluta till [Shopify partnerprogrammet](https://help.shopify.com/partners/about). Därefter använder du **instrumentpanelen för partnern** för att skapa ett utvecklingslager. Läs mer i [Skapa utvecklingsbutiker](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -54,7 +50,7 @@ När du har skapat butiken i **Shopify Admin** av skapad butik tillämpa följan
   1. *(för testning) Falsk gateway*. Mer information finns i [Aktivera falsk gateway för test](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify Payments* i testläge. Läs mer i [Testa Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kom igång med Shopify-kopplingen](get-started.md)  
 [Genomgång: ställa in och använda Shopify anslutningsprogram](walkthrough-setting-up-and-using-shopify.md)

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31
+ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95194e3afed89d8a5636e53e1da76c20d81296ef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522544"
 ---
-# <a name="setup-best-practices-costing-method"></a>Lägga upp bästa praxis: Värderingsprincip
+# Lägga upp bästa praxis: Värderingsprincip
 
 **Värderingsprincipen** på artikelkortet anger hur artikelns kostnadsflöde registreras och om ett faktiskt eller budgeterat värde ska kapitaliseras och användas i kostnadsberäkningen.  
 
@@ -32,7 +26,7 @@ I tabellen nedan finns bästa metod för hur du lägger upp fältet **Värdering
 |Specifik|Använd i produktionen eller handel med enkelt härledas artiklar med i höga kostnadspris.<br /><br /> Använda för artiklar, som lyder under regler.<br /><br /> Använd för artiklar med serienummer.|En artikels styckkostnad är den exakta kostnaden för mottagandet av den aktuella enheten.|
 |Standard|Använd där kostnadskontroll är kritisk.<br /><br /> Använd i upprepande produktion för att värdera kostnaderna för direkt material, direkt arbete och produktionsoverheadkostnad.<br /><br /> Använd när det finns funktion och personal som underhåller standarder.|En artikels styckkostnad är förinställd baserad på uppskattning.<br /><br /> När den verkliga kostnaden senare realiseras, måste standardkostnaden justeras med den verkliga kostnaden via skillnadsvärden.|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  

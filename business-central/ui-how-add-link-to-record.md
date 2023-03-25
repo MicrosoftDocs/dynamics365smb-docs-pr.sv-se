@@ -1,58 +1,58 @@
 ---
-title: Lägg till bifogade filer, länkar och anteckningar på poster
-description: Koppla en hyperlänk till ett dokument eller en webbplats till en viss post, till exempel en kund eller ett dokument.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: e3f1e3f63c8e27d081a89f6d8626b8b392a6e02b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519550"
+title: 'Lägg till bifogade filer, länkar och anteckningar på poster'
+description: 'Koppla en hyperlänk till ett dokument eller en webbplats till en viss post, till exempel en kund eller ett dokument.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 02/24/2023
+ms.custom: bap-template
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
+# Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
-I faktaboxen för de flesta kort och dokument kan du bifoga filer, lägga till länkar och skriva anteckningar. För länkar och noteringar kan du också göra det på listsidan genom att först välja den relaterade raden.
+På de flesta listsidor, kort och dokument kan du bifoga filer, lägga till länkar och skriva anteckningar på **Bilagor** i rutan **Faktabox**. Numret på flikens rubrik visar hur många bifogade filer, länkar eller anteckningar som finns för kortet eller dokumentet.
 
-Om du vill visa eller ändra dessa kopplade informationstyper måste du först öppna fliken **bifogade filer** i faktaboxen. Numret bakom flikens rubrik visar hur många bifogade filer, länkar eller anteckningar som finns för kortet eller dokumentet.
+På snabbfliken **Rader** kan du också använda åtgärden **Bilagor** för att koppla dokument till en viss rad. Du kanske till exempel vill bifoga specifikationer för en artikel på en inköpsfaktura.
 
-Bilagor, länkar och anteckningar förblir kopplade till ett kort eller dokument, till exempel från en pågående försäljningsorder till en bokförd försäljningsfaktura. Ingen av de bifogade filtyperna skrivs emellertid ut från systemet, till exempel vid utskrift eller vid sparande i fil.
+Bilagor, länkar och anteckningar förblir kopplade till kortet eller dokumentet medan de behandlas i andra lägen. Till exempel från en pågående försäljningsorder till en bokförd försäljningsfaktura. Ingen av de bifogade filtyperna skrivs emellertid ut från systemet, till exempel vid utskrift eller vid sparande i fil.
+
+Du kan också lägga till bilagor till e-postmeddelandena som du skickar från [!INCLUDE [prod_short](includes/prod_short.md)]. När du skickar ett e-postmeddelande direkt från ett dokument, till exempel en försäljningsoffert, åtgärden **Lägg till fil från källdokument** låter dig välja filer som är bifogade till den. Du kan bara välja filer som är kopplade till dokumentet. Du kan välja filer som är kopplade till rader.
 
 > [!NOTE]
 > När du delvis levererar och fakturerar en försäljningsorder eller en inköpsorder, kopplas den bifogade filen endast till den slutgiltiga fakturan för ordern. På samma sätt, när du fakturerar med hjälp av funktionen för uppskov, kopplas den bifogade filen endast till redovisningstransaktionerna för dokumentet, men inte till periodiseringsposter.
 >
 > Om du tar bort en order innan den faktureras tas även den bifogade filen bort. När du fakturerar inköpsorder med åtgärden Hämta inleveransrader från en inköpsfaktura läggs inte bilagan på inköpsordern till i inköpsfakturan.
 
-## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Så här bifogar du en fil till en inköpsfaktura
-Du kan bifoga alla typer av filer, som innehåller text, bilder och video, till ett kort eller dokument. Detta är användbart om du t. ex. vill lagra en leverantörs faktura som en PDF-fil på den relaterade inköpsfakturan i [!INCLUDE[prod_short](includes/prod_short.md)]i.
+## Så här bifogar du en fil till en inköpsfaktura
+
+Du kan bifoga alla typer av filer, som text, bilder och videofiler, till ett kort, dokument eller en rad på ett dokument. Detta är användbart om du t. ex. vill lagra en leverantörs faktura som en PDF-fil på den relaterade inköpsfakturan i [!INCLUDE[prod_short](includes/prod_short.md)]i.
 
 > [!NOTE]
-> Filer som bifogas med funktionen inkommande dokument finns inte på fliken **bifogade filer**. Mer information finns i [inkommande dokument](across-income-documents.md).
+> Filer som bifogas med funktionen inkommande dokument finns inte på fliken **bifogade filer**. Mer information finns i [inkommande dokument](across-income-documents.md). Detsamma gäller för filer som bifogas rader i dokument.
 
 Följande procedur är baserad på en inköpsfaktura. Stegen är liknande för alla andra dokument och kort som stöds.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
-2. Öppna försäljningsorder som du vill bifoga en fil till.
-3. Öppna fliken **bifogade filer** i faktaboxen.
+> [!TIP]
+> Om den bifogade filen är specifik för en rad i dokumentet kan du koppla den till raden. Välj raden och välj sedan åtgärden **Bilagor**.
+
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
+2. Öppna inköpsfaktura som du vill bifoga en fil till.
+3. I rutan **Faktabox**, välj fliken **Bilagor**.
 4. Välj värdet bakom fältet **dokument**, till exempel "0".
 5. På sidan **Bifogade dokument** i fältet **bilaga**, välj åtgärden **Välj en fil**.
-5. Markera en fil varifrån som helst och välj sedan knappen **öppna**.
+6. Markera en fil varifrån som helst och välj sedan knappen **öppna**.
 
 Filen är nu bifogad inköpsfakturan.
 
-## <a name="to-view-an-attached-file"></a>Visa den bifogade filen
-1. Öppna fliken **bifogade filer** i faktaboxen.
+## Visa den bifogade filen
+
+1. I rutan **Faktabox**, öppna fliken **Bilagor**.
 2. Välj värdet bakom fältet **dokument**, till exempel "1".
 3. På sidan **Bifogade dokument** väljer du åtgärden **Förhandsgranskning**.
 4. Öppna den hämtade filen.
 
-## <a name="to-save-a-document-as-a-pdf-attachment"></a>Så här sparar du ett dokument som en bifogad PDF-fil
+## Så här sparar du ett dokument som en bifogad PDF-fil
+
 När du behöver spara ett dokument som en fil kan du använda åtgärden **Bifoga som PDF** för att överföra det aktuella dokumentinnehållet som en PDF-fil som är kopplad till faktaboxen för dokumentet. Detta är användbart exempelvis när dokument följer flera steg i en procedur, t. ex. ett arbetsflöde för försäljning eller godkännande, och du vill referera till en utskrift av föregående steg.
 
 Följande procedur är baserad på en försäljningsorder. Stegen är liknande för samtliga dokument som stöds.
@@ -62,7 +62,8 @@ Följande procedur är baserad på en försäljningsorder. Stegen är liknande f
 
 En PDF-fil med det aktuella innehållet på försäljningsordern läggs till på fliken **Bilagor** i faktaboxen.
 
-## <a name="to-add-a-link-from-an-item-card"></a>Att lägga till länk från ett artikelkort
+## Att lägga till länk från ett artikelkort
+
 Du kan lägga till en länk från ett kort eller dokument till en URL. Detta är användbart om du t. ex. vill koppla ett artikelkort till leverantörens artikelkatalog.
 
 Följande procedur baseras på ett artikelkort. Stegen är liknande för alla andra kort och dokument.
@@ -79,7 +80,8 @@ Följande procedur baseras på ett artikelkort. Stegen är liknande för alla an
 
 Länken kopplas nu till artikelkortet.  
 
-## <a name="to-write-a-note-on-a-sales-order"></a>Skriva en notering på en försäljningsorder
+## Skriva en notering på en försäljningsorder
+
 Du kan skriva en notering på ett dokument eller kort, t. ex. om du vill skicka särskilda instruktioner till andra användare av dokumentet eller kortet. Du kan ta med fillänkar och URL:er i anteckningar.
 
 > [!NOTE]
@@ -95,7 +97,7 @@ Följande procedur är baserad på en försäljningsorder. Stegen är liknande f
 
 Noteringen är nu kopplad till försäljningsordern.
 
-## <a name="see-also"></a>Se även  
+## Se även  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  

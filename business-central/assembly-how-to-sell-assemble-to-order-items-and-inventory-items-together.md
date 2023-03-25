@@ -1,51 +1,43 @@
 ---
 title: Artiklar för montering mot kundorder och lagerartiklar ihop
-description: Om en del av en monteringsartikel är inställd för montering till lager inte är tillgängligt har du möjlighet att skapa en monteringsorder för återstående antal direkt.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: dafd52a1a2925c0347a455810ad727b8b89706dc
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607263"
+description: Om en del av artikel för montering mot lager inte är tillgänglig kan du skapa en monteringsorder för återstående antal.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 02/21/2023
+ms.custom: bap-template
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Artiklar för montering mot kundorder och lagerartiklar ihop
+# Artiklar för montering mot kundorder och lagerartiklar ihop
 
-Om fältet **Monteringsmetod** på en monteringsartikels artikelkort innehåller **Montering mot lager** förutsätter standardprocessen för försäljningsorder att artikeln redan monterats och kan plockas från lagret, om den är tillgänglig. Därför skapas inte monteringsorder automatiskt och länkas till försäljningsorderraden. Men om en del av (eller hela) antalet inte är tillgängligt har du en möjlighet att skapa en monteringsorder för återstående antal genom att fylla i fältet **Antal att montera mot kundorder** på försäljningsorderraden. På det här viset kan du montera artikeln mot kundorder även om det har lagts upp för montering mot lager som standard.  
+Om fältet **Monteringsmetod** på en monteringsartikels artikelkort innehåller **Montering mot lager** förutsätter processen för försäljningsorder att artikeln redan monterats och kan plockas från lagret, om den är tillgänglig. Därför skapas inte monteringsorder automatiskt och länkas till försäljningsorderraden. Men om en del eller hela antalet inte är tillgängligt kan du skapa en monteringsorder för återstående antal. För att göra det fyller du i fältet **Antal att montera mot kundorder** försäljningsorderraden. Denna inställning gör att du kan montera artikeln mot ordern även om det har lagts upp för montering mot lager.  
 
-Liknande flexibilitet finns när du säljer artiklar för montering mot order och en del av antalet finns i lagret. Du vill då dra av dessa från monteringsordern. Mer information finns i [Så här säljer du lagerartiklar i flöde för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
-
-> [!NOTE]  
->  Vissa regler gäller för fältet **Levereras antal** på försäljningsorderrader som innehåller en kombination av antal i montering mot kundorder och antal i lager. Mer information finns i avsnittet Kombinationsscenarion i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
+Du har liknande flexibilitet när du säljer artiklar med montering mot kundorder och en del av antalet redan finns i lager. Du ska dra av kvantiteten från monteringsordern. Mer information om att sälja lagerartiklar finns i [Sälja lagerartiklar i flöden för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 > [!NOTE]  
->  I följande procedur ingår inte de standardsteg för försäljningsorder som du bör följa innan du skapar en monteringsorder för antal som inte är tillgängliga.
+> Vissa regler gäller för fältet **Ant. att utleverera** på försäljningsorderrader som innehåller en kombination av antal i montering mot kundorder och antal i lager. Om du vill veta mer om reglerna går du till [kombinationsscenarier](assembly-assemble-to-order-or-assemble-to-stock.md#combination-scenarios).  
 
-## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Så här säljer du artiklar för montering mot kundorder och lagerartiklar ihop
+> [!NOTE]  
+> I följande procedur ingår inte de steg för försäljningsorder som du bör följa innan du skapar en monteringsorder för antal som inte är tillgängliga.
 
-1.  Ange ett antal i fältet **Antal** som överstiger lagret på en försäljningsorderrad för en artikel som ska monteras mot lager. Sidan **Kontrollera disponibelt** visas. Mer information finns i [Visa tillgängliga objekt](inventory-how-availability-overview.md).
-2.  Observera fältet **Totalt antal** (med ett negativt värde), som du ska skriva in i nästa steg.  
-3.  I fältet **Antal att montera mot kundorder** anger du värdet från föregående steg.  
-4.  Utför någon ändring i monteringskomponenterna. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
-5.  Släpp försäljningsordern, förbered den för plockning av lagerartiklarna och för montering av de artiklar som inte är tillgängliga. Mer information om dessa standardsteg för montering finns i [Montera artiklar](assembly-how-to-assemble-items.md).  
+## Så här säljer du artiklar för montering mot kundorder och lagerartiklar ihop
+
+1. På en försäljningsorderrad för en montering mot lagerartikel, ange antal i fältet **Antal** som överstiger lagret. Sidan **Kontrollera disponibelt** visas. Om du vill veta mer om artikeldisposition kan du gå till [Visa artikeldisposition](inventory-how-availability-overview.md).
+2. I fältet **Antal att montera mot kundorder** anger du värdet från fältet **Totalt antal**.  
+3. Utför eventuella ändringar i monteringskomponenterna. Läs mer på [Sälja artiklar som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md).  
+4. Släpp försäljningsordern för att göra artiklarna tillgängliga för plockning och för montering av de artiklar som inte är tillgängliga. Mer information om dessa standardsteg för montering finns i [Montera artiklar](assembly-how-to-assemble-items.md).  
 
 > [!CAUTION]  
->  Fältet **Lagerställeskod** på försäljningsordern kan fyllas i i förväg enligt fältet **Lagerpl.kod för mont. mot lev.** eller fältet **Från monteringsplats – kod** på lagerställekortet. I så fall här kan fältet **Lagerställeskod** på försäljningsorderraden vara felaktigt i den här kombinationen av antal av montering mot kundorder och antal av montering mot lager. Det kan vara bra att undersöka fältet **Lagerställeskod** och se till att placeringen fungerar för alla antal. Alternativt kan du ange de två olika antalen på separata försäljningsorderrader.  
+> Fältet **Lagerställeskod** på försäljningsordern kan innehålla värdet från fältet **Lagerpl.kod för mont. mot lev.** eller fältet **Från monteringsplats – kod** på lagerställekortet. I så fall här kan fältet **Lagerställeskod** på försäljningsorderraden vara felaktigt i den här kombinationen av antal av montering mot kundorder och antal av montering mot lager. Det kan vara bra att titta i fältet **Lagerställeskod** och se till att det fungerar för alla antal. Alternativt kan du ange de två olika antalen på separata försäljningsorderrader.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

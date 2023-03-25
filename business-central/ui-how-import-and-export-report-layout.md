@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
+ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0384ea780065c72e6fd4ca3ff95d2ec771a20ea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528148"
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(Äldre) Importera och exportera en anpassad rapportlayout
+# (Äldre) Importera och exportera en anpassad rapportlayout
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -25,7 +19,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 > [!IMPORTANT]  
 >  Du kan inte importera eller exportera inbyggda rapportlayouter.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>Så här exporterar du en rapportlayout till en fil  
+### Så här exporterar du en rapportlayout till en fil  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
 
@@ -35,7 +29,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
 4.  Välj **Exportera fil** i dialogrutan, välj knappen **Spara** och spara sedan filen på ett ställe på datorn eller nätverket.  
 
-### <a name="to-import-a-report-layout-file"></a>Så här importerar du en rapportlayoutfil  
+### Så här importerar du en rapportlayoutfil  
 
 1.  Se till att den relevanta filen som definierar rapportlayouten är tillgänglig på din dator eller i ditt nätverk.  
 
@@ -51,9 +45,9 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
  Den ursprungliga anpassade rapportlayouten ersätts med den importerade rapportlayouten.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  

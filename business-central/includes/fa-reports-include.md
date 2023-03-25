@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef16857d616d643a40552580638d402eb53a8f08
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334701"
 ---
+
 I följande tabell beskrivs några av de viktigaste rapporterna inom rapportering av anläggningstillgångar.
 
 | Rapportera | Beskrivning | Id | 

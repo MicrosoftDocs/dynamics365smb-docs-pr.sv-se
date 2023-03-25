@@ -7,17 +7,11 @@ ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
-ms.search.keywords: kit, kitting, substitute items
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting, substitute items'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
-ms.openlocfilehash: a9c686531a813e9eaf849d30fbcb41fc4f31c696
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804479"
 ---
-# <a name="sell-items-assembled-to-order"></a>Sälja en artikel som monterats mot kundorder
+# Sälja en artikel som monterats mot kundorder
 
 Artiklar som är inställda för montering enligt beställning förväntas inte finnas i lager och kommer att monteras när det ingår i en försäljningsorder. En artikel ställs in för montering mot kundorder när **monteringsmetod** på artikelkortet innehåller **montering mot kundorder**. När du anger en artikel på en försäljningsorderrad skapas en monteringsorder automatiskt och länkas till försäljningsordern.  
 
@@ -34,7 +28,7 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 > [!NOTE]  
 > I följande procedur ingår inte stegen för att skapa en standard försäljningsorder som sker före det steg där du anger artikeln för montering mot kundorder på försäljningsorderraden. Mer information om hur du skapar försäljningsorder finns på [Sälja produkter med en kundförsäljning](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Så här säljer du en artikel som monterats mot kundorder
+## Så här säljer du en artikel som monterats mot kundorder
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Skapa en försäljningsorder. 
@@ -66,15 +60,15 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 > [!NOTE]  
 > artikelersättningar gör inte automatiskt att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft-utbildning](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## Se relaterad [Microsoft-utbildning](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530196"
 ---
-# <a name="business-central-learning-catalog"></a>Utbildningskatalog för Business Central
+
+# Utbildningskatalog för Business Central
 
 Hitta rätt onlineutbildning, i personliga workshops, och evenemang för din roll som en användare eller partner för Business Central.
 
@@ -20,7 +15,7 @@ Hitta rätt onlineutbildning, i personliga workshops, och evenemang för din rol
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Företagets beslutsfattare
+    ### Företagets beslutsfattare
 
     Bestämmer du om du vill investera i ny teknik? 
 
@@ -36,7 +31,7 @@ Hitta rätt onlineutbildning, i personliga workshops, och evenemang för din rol
 
     :::column:::
 
-    ### <a name="business-user"></a>Affärsanvändare
+    ### Affärsanvändare
 
     Fick du bara ett nytt program att använda? 
 
@@ -54,7 +49,7 @@ Hitta rätt onlineutbildning, i personliga workshops, och evenemang för din rol
 
     :::column:::
 
-    ### <a name="developer"></a>Utvecklare
+    ### Utvecklare
 
     Behöver du skriva kod för att kunna integrera med andra datakällor, utöka funktionaliteten hos kärnsystemet eller bygga ett komplicerat program?
 
@@ -66,7 +61,7 @@ Hitta rätt onlineutbildning, i personliga workshops, och evenemang för din rol
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Funktionskonsult
+    ### Funktionskonsult
     
     Är du implementeringsexpert för en företagsdomän? 
 

@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, inventory, costing
+ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146663"
 ---
-# <a name="design-details-inventory-costing"></a>Designdetaljer: Lagerkalkylering
+# Designdetaljer: Lagerkalkylering
 
 Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Lagervärdering, kallas även kostnadshantering, används vid registrering och rapportering av rörelsens driftskostnader.  
 
-## <a name="in-this-section"></a>I det här avsnittet
+## I det här avsnittet
 
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-application.md)  

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: reject, delegate, request
+ms.search.keywords: 'reject, delegate, request'
 ms.search.form: 1533
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 4dbe4217720ddd0bfe976560331329537577cfeb
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585952"
 ---
-# <a name="set-up-workflow-users"></a>Konfigurera arbetsflödesanvändare
+# Konfigurera arbetsflödesanvändare
 
 Innan du kan skapa arbetsflöde för godkännande måste du ställa in de användare som ska ingå i arbetsflödena. Det behövs för att ange till exempel vem som ska ta emot en notering för att agera på ett arbetsflödessteg.  
 
@@ -28,7 +22,7 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
 > [!NOTE]  
 > Om du vill definiera att en godkännandebegäran inte godkänns förrän flera användare har godkänt den, ställer du in godkännare i en hierarki. För godkännartypen **godkännare** anger du godkännare på sidan **Användarinställningar för godkännande**. För godkännartypen **Arbetsflödesanvändargrupp** ställer du in godkännare på sidan **Arbetsflödesanvändargrupper** och definierar hierarkin genom att tilldela inkrementella nummer till varje godkännare i fältet **Sekvensnr.** . Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-approval-users.md). 
 
-## <a name="to-set-up-a-workflow-user"></a>Så här konfigurerar du en arbetsflödesanvändare
+## Så här konfigurerar du en arbetsflödesanvändare
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflödesanvändargrupper** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflödesanvändargrupp** öppnas.  
@@ -47,9 +41,9 @@ Arbetsflödesanvändare som fungerar som godkännandeanvändare, både den som b
 6. Upprepa steg 5 för att lägga till fler arbetsflödesanvändare i arbetsflödesanvändargrupp.  
 7. Upprepa steg 2 till 6 för att lägga till fler arbetsflödesanvändargrupper.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  
 [Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)  

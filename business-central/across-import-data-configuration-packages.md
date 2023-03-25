@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: migration, Excel
+ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: edupont
-ms.openlocfilehash: a189f2f10ad9e8f2ab0063987fbafefd4ad1948f
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740371"
 ---
-# <a name="import-business-data-from-other-finance-systems"></a>Importera affärsdata från andra finanssystem
+# Importera affärsdata från andra finanssystem
 
 När du registrerar dig på [!INCLUDE[prod_short](includes/prod_short.md)], kan du välja att skapa ett tomt företag så att du kan överföra din egen information och testa det nya [!INCLUDE[prod_short](includes/prod_short.md)]-företaget. Beroende på finanslösningen som används i din verksamhet idag, kan du överföra information om kunder, leverantörer, lager och bankkonton.  
 
@@ -27,11 +21,11 @@ Från ditt Rollcenter kan du starta en guide för assisterad konfiguration som h
 > [!TIP]  
 > Vi rekommenderar att du använder guider för datamigrering för att importera data från Dynamics GP, Dynamics NAV eller QuickBooks. Mer information finns i [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet, eller [QuickBooks-datamigrering](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a>Arbeta med data i Excel
+## Arbeta med data i Excel
 
 Du kan använda Excel-tillägget för att förbereda befintligt innehåll för användning i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Visa och redigera i Excel från Business Central](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a>Importera data från konfigurationspaket
+## Importera data från konfigurationspaket
 
 Du kan konfigurera lösningsspecifika konfigurationspaket för större implementeringsarbete. Mer information finns i [Konfigurera konfigurationspaket för företag](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (endast på engelska) i administrationsinnehållet.  
 
@@ -48,7 +42,7 @@ När du exporterar standardkonfigurationspaketet till Excel innehåller den gene
 > [!NOTE]
 > Fält av BLOB-typen kan inte exporteras/importeras med Excel.
 
-### <a name="tables-in-the-default-configuration-package"></a>Tabellerna i standardkonfigurationspaketet
+### Tabellerna i standardkonfigurationspaketet
 
 Standardkonfigurationspaketet stöder följande tabeller:
 
@@ -79,7 +73,7 @@ Standardkonfigurationspaketet stöder följande tabeller:
 - Förs.pris
 - Inköpspris
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Migrera lokala data till Business Central Online (endast på engelska)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Ställa in konfigurationspaket för företag](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: availability, localization
-ms.search.form: ''
+ms.search.keywords: 'availability, localization'
+ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a0468ce2d5c58fae7fc8298b4f4bf320ba3540ce
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655728"
 ---
-# <a name="local-functionality-in-prod_long"></a>Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
+# Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har en kombinerad lokaliseringsstrategi för modeller från både Microsoft och partners. I det här avsnittet finns beskrivningar av funktionerna som gäller för de länder där Microsoft tillhandahåller funktioner för regelefterlevnad och andra lokala funktioner.  
 
 En fullständig lista över de marknader som stöds för närvarande finns i [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Lokal funktionalitet
+## Lokal funktionalitet
 
 Välj lämplig länk om du vill ha information om den lokala funktionaliteten för varje land/region:
 
@@ -54,11 +48,11 @@ Välj lämplig länk om du vill ha information om den lokala funktionaliteten f�
 |        | Indien | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nya Zeeland | [Lokal funktionalitet för Nya Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countries"></a>Övriga länder
+### Övriga länder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] är tillgänglig även på andra marknader via lokaliseringsappar. Om en Microsoft-partner har skapat en lokaliseringsapp för ditt land/din region hittar du den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Regelefterlevnad](compliance/compliance-overview.md)  

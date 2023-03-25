@@ -2,39 +2,35 @@
 title: Stämma av bankkonton
 description: Lära dig hur du stämmer av transaktioner i Business Central med transaktioner i kontoutdragen från din bank.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 389, 1290, 1692, 10124
-ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80c8ca9f1fa9d32ae7738f95d99fc01cd0e7e548
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605360"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.date: 12/13/2022
+ms.custom: bap-template
 ---
-# <a name="reconcile-bank-accounts"></a>Stämma av bankkonton
+# Stämma av bankkonton
 
 Bankavstämningen säkerställer att det som finns i dina böcker matchar de utdrag som du får från banken. Bankkontoavstämningen jämför och matchar transaktionerna i de bankkonton som du har skapat i [!INCLUDE[prod_short](includes/prod_short.md)] med banktransaktioner hos banken. Vid avstämningen kan du bokföra saldona till dina bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)] så att de blir tillgängliga för ekonomichefer. Bankavstämning är också ett praktiskt sätt att upptäcka och lösa problem med saknade betalningar och bokföringsfel.
 
-I det här ämnet beskrivs hur du stämmer av bankkonton från sidan **Bankkontoavstämning**.
+I den här artikel beskrivs hur du stämmer av bankkonton från sidan **Bankkontoavstämning**.
 
-> [!TIP]
-> Du kan också stämma av bankkonton på sidan **Betalningsavstämningsjournal** när du bearbetar betalningar. Öppna bankkontotransaktioner som relateras till kopplade kund- eller leverantörsreskontratransaktionerna kommer att avslutas när du väljer åtgärden **Bokför betalningar och stäm av bankkonton**. Detta betyder att bankkontot stäms av automatiskt för de betalningar som du bokför med journalen. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Du kan också stämma av bankkonton på sidan **Betalningsavstämningsjournal** när du bearbetar betalningar. Öppna bankkontotransaktioner som relateras till kopplade kund- eller leverantörsreskontratransaktionerna kommer att avslutas när du väljer åtgärden **Bokför betalningar och stäm av bankkonton**. Detta betyder att bankkontot stäms av automatiskt för de betalningar som du bokför med journalen. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
 > I Nordamerika kan du också utföra detta arbete på sidan **Bank poster kalkylblad** som passar bättre för kontroller och inlåning men inte erbjuder import av bankutdragsfiler. Du använder den här sidan i stället för sidan **bankkontoavstämning**, avmarkera fälten **Bankavstämning med auto. match** på sidan **Redovisningsinställningar**. Mer information finns i avsnittet [stämma av bankkonton](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under Förenta staterna: lokal funktion.
 
 Raderna på sidan **Bankkontoavstämning** är uppdelade i två rutor. Rutan **Bankkontoavstämning** visar antingen importerade banktransaktioner eller transaktioner med utestående utbetalningar. Rutan **Bankkontotransaktioner** visar transaktionerna på det interna bankkontot.
 
-Avstämning av transaktioner i utdrag från banken med banktransaktioner i [!INCLUDE[prod_short](includes/prod_short.md)] kallas *matchning*. Du kan välja att matcha automatiskt genom att använda åtgärden **Matcha automatiskt**. Du kan också manuellt välja rader i båda fönster för att koppla varje kontoutdragrad till en eller flera motsvarande bankkontotransaktioner och sedan använda åtgärden **Matcha manuellt**. Kryssrutan **Kopplad** markeras på rader där transaktioner matchas. Mer information finns i [Konfigurera regler för automatiska betalningskopplingar](receivables-how-set-up-payment-application-rules.md).
+Avstämning av transaktioner i utdrag från banken med banktransaktioner i [!INCLUDE[prod_short](includes/prod_short.md)] kallas *matchning*. Det finns två sätt att matcha transaktioner med banktransaktioner:
 
-> [!NOTE]  
-> Om kontoutdragsrader berör checktransaktioner kan du inte använda matchningsfunktionerna. I stället måste du välja åtgärden **Koppla trans.** och sedan välja den relevanta checktransaktionen att matcha kontoutdragraden med.
+* Du kan matcha automatiskt med åtgärden **Matcha automatiskt**.
+* Du kan manuellt välja rader i båda fönster för att koppla varje kontoutdragsrad till en eller flera motsvarande bankkontotransaktioner och sedan använda åtgärden **Matcha manuellt**.
+
+Kryssrutan **Kopplad** markeras på rader där transaktioner matchas. Mer information finns i [Konfigurera regler för automatiska betalningskopplingar](receivables-how-set-up-payment-application-rules.md). Om du anger ett slutdatum för utdraget i bankkontoavstämningen efter att du har matchat raderna med transaktioner, kommer [!INCLUDE [prod_short](includes/prod_short.md)] att återställa matchningarna för rader och transaktioner som inträffar efter detta datum.
+
+> [!NOTE]
+> När du har angett ett datum i fältet Slutdatum för kontoutdraget, filtrerar sidan bankkontotransaktionerna banktransaktionerna så att endast transaktioner fram till det datumet visas. Du kan bara bokföra bankkontoavstämningar med banktransaktioner på eller före slutdatum för kontoutdraget. Filtret ser till att bankens redovisning balanseras med bankkontoutdraget på slutdatum för utdraget, med skillnaden som utestående betalningar och checkar.
 
 När värdet i fältet **Total saldo** i **Kontoutdragrader** är lika med det totala värdet av **Bankkontotransaktioner** plus fältet **Saldo för senaste kontoavstämning** i **Bankkontotransaktioner** kan du välja **Bok**. Omatchat bankkontotransaktioner kommer att finnas kvar på sidan, vilket indikerar en viss avvikelse som du bör lösa för att stämma av bankkontot.
 
@@ -43,7 +39,7 @@ Om du vill dubbelkolla bankkontoavstämningen innan du bokför den, kan du anvä
 * När du förbereder en bankkontoavstämning på sidan **Bankkontoavstämning**.
 * När du stämmer av betalningar på sidan **Betalningsavstämningsjournal**.
 
-Alla rader som inte kan matchas, vilket anges med ett värde i fältet **Skillnad**, finns kvar på sidan **Bankkontoavstämning** efter bokföring. De representerar någon form av avvikelse som du måste lösa innan du kan slutföra bankkontoavstämningen. Typiska affärssituationer som kan orsaka skillnader:
+Alla rader som inte kan matchas, vilket anges med ett värde i fältet **Skillnad**, finns kvar på sidan **Bankkontoavstämning** efter bokföring. De representerar någon form av avvikelse som du måste lösa innan du kan slutföra bankkontoavstämningen. I tabellen nedan beskrivs några typiska affärssituationer som kan orsaka skillnader.
 
 | Differens | Orsak | Åtgärd |
 |------------|--------|------------|
@@ -58,7 +54,7 @@ Du kan fylla i rutan **Kontoutdragrader** på sidan **Bankkontoavstämning** på
 * Automatiskt: Genom att använda funktionen **Import kontoutdrag** för att fylla i rutan **Kontoutdragsrad** med bankkontotransaktioner som baseras på en importerad fil eller ström som tillhandahålls av banken.
 * Manuellt: Genom att använda funktionen **Föreslå rader** för att fylla i rutan **Kontoutdragsrader** i enlighet med fakturor i [!INCLUDE[prod_short](includes/prod_short.md)] som har utestående betalningar.
 
-## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Så här fyller du i bankavstämningrader genom att importera ett kontoutdrag
+## Lägg till bankutdragsrader genom att importera ett kontoutdrag
 
 Fönstret **Kontoutdragsrader** fylls med banktransaktioner enligt en importerad fil eller ström som tillhandahålls av banken.
 
@@ -75,7 +71,7 @@ Om du vill importera bankutdrag som bankflöden måste du ställa in tjänsten E
 6. Om du har en bankutdragsfil väljer du åtgärden **Importera bankutdrag**.
 7. Leta upp filen och välj sedan knappen **Öppna** för att importera banktransaktionerna till rutan **Kontoutdragsrader** på sidan **Bankkontoavstämning**.
 
-## <a name="to-fill-bank-reconciliation-lines-with-the-suggest-lines-function"></a>Så här fyller du i bankavstämningrader med funktionen Föreslå rader
+## Så här fyller du i bankavstämningrader med åtgärden Föreslå rader
 
 Rutan **Kontoutdragsrader** fylls i enligt fakturorna i [!INCLUDE[prod_short](includes/prod_short.md)] som har utestående betalningar.  
 
@@ -83,37 +79,37 @@ Rutan **Kontoutdragsrader** fylls i enligt fakturorna i [!INCLUDE[prod_short](in
 2. Ange det tidigaste bokföringsdatumet för transaktionsavstämningen i fältet **Startdatum**.
 3. Ange det senaste bokföringsdatumet för transaktionsavstämningen i fältet **Slutdatum**.
 
-> [!NOTE]
-> Normalt motsvarar slutdatum det datum som har angetts i fältet **Kontoutdragets datum**. Om du däremot vill stämma av transaktionerna för endast en del av en period kan du ange ett annat slutdatum.
+    > [!NOTE]
+    > Normalt motsvarar slutdatum det datum som har angetts i fältet **Kontoutdragets datum**. Om du däremot vill stämma av transaktionerna för endast en del av en period kan du ange ett annat slutdatum.
 
 4. Om du inte vill att bankkontotransaktionerna ska ta med omatchade öppna återförda transaktioner väljer du alternativet **Ignorera återförda transaktioner**. Som standard inkluderar listan med bankkontotransaktioner återförda transaktioner fram till kontoutdragets datum.
 5. Välj **OK**.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Så här matchar du automatiskt kontoutdragrader med bankkontotransaktioner
+## Så här matchar du automatiskt kontoutdragrader med bankkontotransaktioner
 
 Sidan **Bankkontoavstämning** erbjuder automatiskt matchande funktioner baserade på en textmatchning på en kontoutdragsrad (vänster ruta) med text på en eller flera redovisningstransaktioner för bankkontot (höger ruta). Du kan skriva över de föreslagna automatiska matchningarna, och du kan också välja att inte använda automatisk matchning alls. För mer information, se [Så här matchar du kontoutdragrader med bankkontotransaktioner manuellt](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 Du kan undersöka basen för matchningar med hjälp av åtgärden **matcha detaljer**. Informationen innehåller t.ex. namnen på de fält som innehöll matchande värden.  
 
 1. På sidan **Bankkontoavstämning** väljer du åtgärden **Matcha automatiskt**. Sidan **Matcha banktransaktioner** öppnas.
-2. Ange antalet dagar före och efter bankkontotransaktionbokföringsdatumet som funktionen ska söka i för att matcha bokföringsdatum i bankkontoutdraget i fältet **Bokföringsdatumtolerans (dagar)**.
+2. Ange antalet dagar före och efter bankkontotransaktionbokföringsdatumet som åtgärden ska söka i för att matcha bokföringsdatum i bankkontoutdraget i fältet **Bokföringsdatumtolerans (dagar)**.
 
     Om du anger 0 eller lämnar fältet tomt kommer åtgärden **Matcha automatiskt** endast söka efter matchande bokföringsdatum på bankkontotransaktionbokföringsdatumet.
 3. Välj **OK**.
 
-    Alla kontoutdragsrader och bankkontotransaktioner som kan matchas ändrar till grönt teckensnitt och kryssrutan **Kopplat** markeras.
+    Raderna är färgkodade så att du lättare förstår vad du ska göra med dem. Alla kontoutdragsrader och bankkontotransaktioner som kan matchas ändrar till grönt teckensnitt och kryssrutan **Kopplat** markeras. Bankkontotransaktioner som redan är matchade med andra bankavstämningar visas med blått teckensnitt.
 4. Markera kontoutdragraden och välj sedan åtgärden **Ta bort matchning**.
 
 > [!TIP]
 > Du kan använda en blandning av manuell och automatisk matchning. Om du har manuellt matchade transaktioner skrivs inte dina val över med automatisk matchning.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Så här matchar du manuellt bankutdragsrader med bankkontotransaktioner
+## Så här matchar du manuellt bankutdragsrader med bankkontotransaktioner
 
 > [!TIP]
 > När du matchar rader och transaktioner manuellt kan åtgärderna **Visa alla**, **Visa återförda transaktioner**, **Dölj återförda transaktioner** och **Visa icke-matchande** göra det enklare att få en överblick. Som standard innehåller bankkontotransaktionerna inte omatchade återförda transaktioner. Om du vill ta med dessa poster i listan och matcha dem manuellt väljer du åtgärden **Visa återförda transaktioner**. Om du väljer att dölja återförda transaktioner när du har gjort en eller flera matchningar visas de matchade transaktionerna fortfarande.
 
 1. På sidan **Bankkontoavstämning** markerar du en okopplad rad i rutan **Kontoutdragrader**.
-2. I rutan **Bankkontotransaktioner** markerar du en eller flera bankkontotransaktioner som kan matchas med den valda kontoutdragraden. Om du vill välja flera rader, tryck och håll ned CTRL-tangenten och välj raderna.
+2. I rutan **Bankkontotransaktioner** markerar du en eller flera bankkontotransaktioner som kan matchas med den valda kontoutdragraden. Om du vill välja flera rader, tryck och håll ned <kbd>CTRL</kbd>-tangenten och välj raderna.
 
    > [!TIP]
    > Du kan också matcha flera bankutdragsrader manuellt med en bankkontotransaktion. Det kan till exempel vara användbart om bankinsättningen innehöll flera betalningsmetoder, t.ex. kreditkort från olika utfärdare och din bank visar dem som separata rader.
@@ -125,7 +121,7 @@ Du kan undersöka basen för matchningar med hjälp av åtgärden **matcha detal
 > [!TIP]
 > Markera kontoutdragraden och välj sedan åtgärden **Ta bort matchning**. Om du har matchat flera bankutdragsrader till en transaktion och behöver ta bort en eller flera av de matchade raderna, tas alla manuella matchningar bort för transaktionen när du väljer **ta bort matchning**.
 
-## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>Så här skapar du saknade transaktioner att matcha med banktransaktioner
+## Så här skapar du saknade transaktioner att matcha med banktransaktioner
 
 Ibland kan det hända att ett kontoutdrag från banken innehåller belopp som motsvarar en avgift eller räntekostnad. Sådana banktransaktionsrader kan inte matchas eftersom inga relaterade transaktioner finns i [!INCLUDE[prod_short](includes/prod_short.md)]. Du måste sedan bokföra en journalrad för varje transaktion för att skapa en artikelrelaterad transaktion som den kan matchas med.
 
@@ -141,10 +137,11 @@ Ibland kan det hända att ett kontoutdrag från banken innehåller belopp som mo
 6. Uppdatera eller öppna sidan **Bankkontoavstämning** igen. Den nya transaktionen ska visas i fönstret **Bankkontotransaktioner**.
 7. Matcha kontoutdragraden till bankkontotransaktionen, antingen manuellt eller automatiskt.
 
-## <a name="find-outstanding-transactions-previous-periods"></a>Hitta utestående transaktioner föregående perioder
+## Hitta utestående transaktioner i föregående perioder
+
 Du kan använda kontoutdragsrapporten för att söka efter utestående transaktioner i föregående perioder. Utestående transaktioner har öppnats före kontoutdragets datum och har inte stängts eller stängts efter att bankavstämningen bokfördes.
 
-När du kör kontoutdragsrapporten från sidan Kontoutdragslista kan du aktivera Utestående transaktioner så innehåller rapporten ett avsnitt med utestående transaktioner.
+När du kör kontoutdragsrapporten från sidan Kontoutdragslista kan du aktivera **Utestående transaktioner** så innehåller rapporten ett avsnitt med utestående transaktioner.
 
 **Exempel** Vi har bankkontotransaktionerna A, B och C i vårt bankkonto för augusti månad. När vi stämmer av vårt bankkonto för augusti hittar vi en bankutdragsrad som matchar post A, men ingen för B och C. Så vi bokför avstämningen med transaktion A avstämd och B och C som utestående transaktioner.
 
@@ -152,19 +149,23 @@ I september erhåller vi en betalning för transaktion B och bestämmer oss för
 
 Om vi skriver ut rapporten för augusti har vi utestående transaktioner för våra B- och C-transaktioner även om vi avslutade transaktioner B i september.
 
-## <a name="undo-a-bank-account-reconciliation"></a>Ångra en bankkontoavstämning
-Om du upptäcker ett misstag i en bokförd bankavstämning kan du använda åtgärden **Ångra** på sidan **Bankkontoutdrag** för att korrigera det. När du ångrar en bokförd bankavstämning flyttas transaktionerna till sidan **Bankavstämning** och markeras som **Öppna**, vilket innebär att de inte stämts av. Du kan sedan rätta bankavstämningen och bokföra den igen.
+## Ångra en bankkontoavstämning
+
+Om du upptäcker ett misstag i en bokförd bankavstämning kan du använda åtgärden **Ångra** på sidan **Bankkontoutdragslista** för att korrigera det. När du ångrar en bokförd bankavstämning flyttas transaktionerna till sidan **Bankavstämning** och markeras som **Öppna**, vilket innebär att de inte stämts av. Du kan sedan rätta bankavstämningen och bokföra den igen.
 
 > [!NOTE]
 > I den Nordamerikanska versionen måste du aktivera brytaren **Bankavstämn. med auto-matchning** på sidan **Redovisningsinställning** om du vill använda funktionen Ångra för bokförda bankavstämningar och kontoutdrag. Funktionen Ångra är inte tillgänglig för kontoutdrag som har bokförts från kalkylblad för bankavstämning.
 
-### <a name="reusing-the-bank-statement-number"></a>Återanvända kontoutdragsnumret
-Det kontoutdragsnummer som används för den nya bankavstämningen tas från bankkontot, precis som saldot för senaste kontoavstämning. Du kan ändra dessa värden innan du börjar en ny bankavstämning. När du skapar en ny bankavstämning kontrollerar emellertid [!INCLUDE[d365fin](includes/d365fin_md.md)] om utdragsnumret redan har tilldelats ett bokfört kontoutdrag. Om numret redan används men du vill att det nya kontoutdraget ska använda det istället, kan du använda åtgärden **Ändra dokumentnr.** på sidan **Bankkontoavstämn.**.
+### Återanvända kontoutdragsnumret
 
-### <a name="examples"></a>Exempel
+Det kontoutdragsnummer som används för den nya bankavstämningen tas från bankkontot, precis som saldot för senaste kontoavstämning. Du kan ändra dessa värden innan du börjar en ny bankavstämning. När du skapar en ny bankavstämning kontrollerar emellertid [!INCLUDE[d365fin](includes/d365fin_md.md)] om utdragsnumret redan har tilldelats ett bokfört kontoutdrag. Om numret redan används men du vill att det nya kontoutdraget ska använda det istället, kan du använda åtgärden **Ändra dokumentnr.** åtgärden på sidan **Bankkontoavstämn.**.
+
+### Exempel
+
 Nedan följer några exempel på hur du kan korrigera ett misstag i en bokförd bankavstämning med eller utan att använda samma utdragsnummer.
 
-#### <a name="example-1"></a>Exempel 1
+#### Exempel 1
+
 Du utförde bankavstämningar för januari, februari och mars. Kontoutdragsnumret var 100 för mars. Senare upptäcker du att mars bara inkluderade transaktioner fram till och med den 30, vilket innebär att transaktionerna för den 31 saknas. Därför måste du göra om bankavstämningen för mars. I det här fallet öppnar vi fönstret **Kontoutdrag**, väljer utdraget för mars och väljer sedan **Ångra**. 
 
 Den nya bankavstämningen erhåller utdragsnummer 101. Om du vill tilldela om numret 100 väljer du **Ändra utdragsnr.** och ange **100**. 
@@ -172,7 +173,8 @@ Den nya bankavstämningen erhåller utdragsnummer 101. Om du vill tilldela om nu
 > [!TIP]
 > Glöm inte att ange lämpligt slutdatum för utdrag (i detta exempel: den 31 mars) och redigera fältet **Saldo för senaste kontoavstämning**. 
 
-#### <a name="example-2"></a>Exempel 2
+#### Exempel 2
+
 Du utförde bankavstämningar för januari, februari, juni och juli. Du upptäcker att februari var felaktigt. Vi antar att det hade utdragsnummer 100. På samma sätt som i Exempel 1 använder du fältet Ångra och Ändra utdragsnr. åtgärder för att ändra utdragsnumret på samma sätt som i Exempel #1 ovan, och du kan nu göra om bankavstämningen för februari.  
 
 Efter att du har bokfört den korrigerade bankavstämningen för februari kommer, på motsvarande bankkontokort, fältet **Senaste utdragsnr.** att ange **100**, och fältet **Saldo för senaste kontoavstämning** att ange slutsaldot för februariutlåtandet. 
@@ -186,15 +188,15 @@ Om nästa bankavstämning du gör är för augusti bör du överväga att ändra
 >
 > Saldot för senaste kontoavstämning lagras på bankkontot för att minimera misstag vid bankavstämningar, men det kan också redigeras, så att du kan utföra dina bankavstämningar i valfri ordning. Detta innebär också att om du ångrar ett kontoutdrag kanske det nya slutsaldot inte är saldot för den senaste kontoavstämningen på nästa kontoutdrag. Det finns ingen funktion som gör att du kan flytta ett saldo framåt till alla efterföljande kontoutdrag, så tänk på detta när du använder Ångra.  
 
-## <a name="avoid-direct-posting"></a>Undvik direktbokföring
+## Undvik direktbokföring
 
 Använd inte ett redovisningskonto som tillåter direkt bokföring i bankkontots bokföringsmall. Direkt bokföring innebär att kopplingen mellan bankkontotransaktionen och redovisningskontotransaktionen bryts. När du stämmer av ditt bankkonto kommer transaktioner som bokförts direkt till redovisningskontot inte att tas med och det är svårt att slutföra avstämningen.
 
 Detta misstag inträffar ofta när du anger ett ingående saldo för ett bankkonto. Det är viktigt att du inte bokför det ingående saldot direkt i redovisningen. Transaktioner på redovisningskontot som bokförs direkt till redovisningskontot orsakar problem. Dessa transaktioner kan t.ex. hindra dig från att stämma av ditt bankkonto. För bankkonton med utländsk valuta kan transaktionerna medföra att avvikelser ackumuleras när du har bokfört fler bankavstämningar på grund av valutakursjusteringar. Ofta bokförs det ingående banksaldot direkt på bank-kontot och beloppet fylls sedan i på redovisningskontot. Du kan också ångra det senare mot det redovisningskonto som du använder för att balansera det öppna redovisningssaldot. I båda fallen måste du balansera eventuell direkt bokföring till redovisningskontot innan du börjar med den första bankkontoavstämningen, framför allt om bankkontot är i en utländsk valuta.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Tillämpa betalningar automatiskt och jämka bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Ställa in bankverksamhet](bank-setup-banking.md)  

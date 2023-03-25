@@ -4,17 +4,11 @@ description: I den här artikeln beskrivs hur du konfigurerar arbetsflödesmedde
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65dad3ffcb91415b13683f20a5e91274c3841c87
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585475"
 ---
-# <a name="approval-workflow-notifications"></a>Aviseringar för godkännandearbetsflöde
+# Aviseringar för godkännandearbetsflöde
 
 Konfigurera dina arbetsflöden så att användarna automatiskt meddelas när deras uppmärksamhet krävs för ett steg i det arbetsflödet. Många arbetsflödessvar handlar om att meddela en användare om att en händelse har skett som de måste agera på.
 
@@ -26,7 +20,7 @@ Du kan t.ex. ange användare 2, som är användare av godkännare och får ett m
 > [!IMPORTANT]  
 > Alla arbetsflödesmeddelanden skickas via en jobbkö. Se till att jobbkön i din installation är konfigurerad för att hantera arbetsflödesmeddelanden och att kryssrutan **Starta automatiskt från server** är markerad. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Ställa in aviseringar
+## Ställa in aviseringar
 
 Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:  
 
@@ -55,9 +49,9 @@ Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:
 
   För arbetsflöden för godkännande lägger du till ett arbetsflödessvarssteg för att meddela avsändaren när begäran har godkänts eller avvisats. Läs mer i steg 9 i avsnittet [Skapa arbetsflöden](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  
 [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)  

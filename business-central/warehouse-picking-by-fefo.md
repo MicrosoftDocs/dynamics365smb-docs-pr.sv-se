@@ -1,22 +1,16 @@
 ---
 title: 'Så här: Aktivera plockning med FEFO | Microsoft Docs'
-description: FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklar, de med de tidigaste utgångsdatumen, plockas först.
+description: 'FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklar, de med de tidigaste utgångsdatumen, plockas först.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520028"
 ---
-# <a name="enable-picking-items-by-fefo"></a>Aktivera plockning av artiklar med FEFO
+# Aktivera plockning av artiklar med FEFO
 FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklarna – de med tidigast utgångsdatum – plockas först.  
 
  Den här funktionen fungerar bara, när dessa villkor är uppfyllt:  
@@ -39,11 +33,10 @@ Om du vill aktivera transporter enligt FEFO, lämna fältet **Från lagerplats**
 <br /><br />
 Om fältet **Endast utgångsbokföring** markeras på **Artikelspårning kodkort**, endast föremål som inte har löpt ut ingår i valet och raderna sorteras enligt FEFO-principen.
 
-## <a name="see-also"></a>Se även  
-[Plocka artiklar](warehouse-pick-items.md)   
+## Se även  
 [Plocka artiklar för utleverans från dist.lager](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+[Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

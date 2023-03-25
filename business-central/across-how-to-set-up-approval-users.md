@@ -1,6 +1,6 @@
 ---
 title: Konfigurera användare för godkännande
-description: Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade på sidan användarinställningar för godkännande.
+description: 'Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade på sidan användarinställningar för godkännande.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2654dcb68b579d90fe3218bcd0bba3bde4cb5036
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585844"
 ---
-# <a name="set-up-approval-users"></a>Konfigurera användare för godkännande
+# Konfigurera användare för godkännande
 
 Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. På sidan **Användarinställningar för godkännande** anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande.  
 
@@ -28,7 +22,7 @@ När du har konfigurerat godkännandeanvändare kan du skapa arbetsflödessvar f
 > [!NOTE]  
 > Om du vill definiera att en godkännandebegäran inte godkänns förrän flera användare har godkänt den, ställer du in godkännare i en hierarki. För godkännartypen **godkännare** anger du godkännare på sidan **Användarinställningar för godkännande**. För godkännartypen **Arbetsflödesanvändargrupp** ställer du in godkännare på sidan **Arbetsflödesanvändargrupper** och definierar hierarkin genom att tilldela inkrementella nummer till varje godkännare i fältet **Sekvensnr.** . Läs mer i [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Så här konfigurerar du en godkännandeanvändare
+## Så här konfigurerar du en godkännandeanvändare
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2. Skapa en ny rad på sidan **Användarinställningar för godkännande** och fyll i fälten enligt instruktionerna i följande tabell.  
@@ -54,9 +48,9 @@ När du har konfigurerat godkännandeanvändare kan du skapa arbetsflödessvar f
 3. Om du vill testa konfigurationen av godkännandeanvändare väljer du åtgärden **Test av användarinställningar för godkännande**.  
 4. Upprepa steg 2 och 3 för varje person som du vill konfigurera som en godkännandeanvändare.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)  
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 878f301db5b7b887201fd2e803fd299dc3894dbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146598"
 ---
-# <a name="design-details-planning-assignment-table"></a>Designdetaljer: Planeringsfördelningstabell
+# Designdetaljer: Planeringsfördelningstabell
 Alla artiklar ska planeras för, men det finns ingen anledning att beräkna en plan för en artikel om det inte har skett någon ändring i efterfråge- eller tillgångsmönstret sedan senaste gången som en plan beräknades.  
 
 Om användaren har angett en ny försäljningsorder eller har ändrat en befintlig finns det anledning att beräkna om planen. Andra anledningar är en ändring i prognos eller önskat antal i säkerhetslagret. När du ändrar en struktur genom att lägga till eller ta bort en komponent indikerar det troligtvis en ändring, men endast för komponentartikeln.  
@@ -61,7 +55,7 @@ När att prod.program eller ett nettobehov beräknas gäller inga begränsningar
 * Prod.program: Planeringssystemet kontrollerar att artikeln har en efterfrågeprognos eller en försäljningsorder. Om inte, ingår artikeln inte i planen.  
 * Nettobehov: Om planeringssystemet identifierar att artikeln fylls på av en nettoplaneringsrad eller nettoleveransorder ska artikeln inte användas i planeringen. Dock inkluderas all efterfrågan från relevanta komponenter.  
 
-## <a name="see-also"></a>Se även  
+## Se även  
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)   

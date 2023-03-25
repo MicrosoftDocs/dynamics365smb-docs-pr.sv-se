@@ -6,14 +6,8 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605117"
 ---
-# <a name="set-up-payment-terms"></a>Ställa in betalningsvillkor
+# Ställa in betalningsvillkor
 
 Betalningsvillkor avgör hur du hanterar förfallodatum och kassarabatter. Du kan ange valfritt antal koder för betalningsvillkor och använda datumformler för att definiera betalningsvillkoren. När du registrerar dig för [!INCLUDE [prod_short](includes/prod_short.md)] för första gången erbjuder demonstrationsföretaget några betalsätt som företagen ofta använder. Du kan emellertid lägga till hur många rader du vill.  
 
@@ -25,7 +19,7 @@ När du bokför en kreditnota kommer på samma sätt [!INCLUDE [prod_short](incl
 
 Om du vill skicka påminnelser om förfallna betalningar måste du ange nivåer och villkor för betalningspåminnelser. Mer information finns i [Ange villkor och nivåer för påminnelser](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Så här definierar du betalningsvillkor
+## Så här definierar du betalningsvillkor
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsvillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ När du har ställt in betalningsvillkoren tilldelar du dem till kunder och leve
 >
 > I vissa länder *kan* du ställa in betalningsvillkor med delbetalningar. Om du vill veta om den här funktionen stöds i ditt land kan du läsa avsnittet **Lokal funktionalitet** i navigeringsrutan till vänster i en [Microsoft Learn](about-localization.md)-artikel.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera betalsätt](finance-payment-methods.md)  
 [Konfigurera förskottsbetalningar](finance-set-up-prepayments.md)  

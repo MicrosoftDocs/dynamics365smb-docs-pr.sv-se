@@ -1,31 +1,25 @@
 ---
 title: Batch-bokför förbrukning
-description: Om bokföringsmetoden är Manuell, måste du bokföra komponenterna manuellt med hjälp av en förbrukningsjournal.
+description: 'Om bokföringsmetoden är Manuell, måste du bokföra komponenterna manuellt med hjälp av en förbrukningsjournal.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000846, 99000850
+ms.search.form: '99000846, 99000850'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516724"
 ---
-# <a name="batch-post-production-consumption"></a>Batch-bokföra produktionsförbrukning
+# Batch-bokföra produktionsförbrukning
 
 Om bokföringsmetoden är **Manuell**, måste du bokföra komponenterna manuellt med hjälp av en förbrukningsjournaler.  
 
 >[!NOTE]
-> Om du har markerat fältet **Begär plockning** på lagerställekortet för att ange att lagerstället kräver bearbetning av lagerplockning, behöver du inte använda det här batch-jobbet. [!INCLUDE[prod_short](includes/prod_short.md)] hanterar förbrukningen när du bokför lagerplockning. Mer information finns i [Plocka för produktion i grundläggande distributionslagerkonfigurationer](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations).  
+> Om du har markerat fältet **Begär plockning** på lagerställekortet för att ange att lagerstället kräver bearbetning av lagerplockning, behöver du inte använda det här batch-jobbet. [!INCLUDE[prod_short](includes/prod_short.md)] hanterar förbrukningen när du bokför lagerplockning. Mer information finns i [Plocka för produktion i grundläggande distributionslagerkonfigurationer](warehouse-how-to-pick-for-production.md).  
 
 Du kan också ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att automatiskt bokföra (*bokföra*) komponenter när du startar eller färdigställer produktionsorder. Mer information finns i [Tillåta bokföring av komponenter enligt operationens utflöde](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Om du vill bokföra förbrukning för produktion av en eller flera rader
+## Om du vill bokföra förbrukning för produktion av en eller flera rader
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **förbrukningsjournal** och väljer sedan relaterad länk.  
 2. Fyll i fälten med data om produktionsorden och om förbrukningen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ Du kan också ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att
 
 3. Välj åtgärden **Bokför** om du vill bokföra förbrukningen. De relaterade varulagret minskas.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](production-manage-manufacturing.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  

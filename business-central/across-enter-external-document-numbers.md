@@ -1,22 +1,16 @@
 ---
 title: Ange externa dokumentnummer
-description: Du kan ange externa dokumentnummer för kunder och leverantörer i alla försäljnings- och inköpsorder, fakturor och kreditnotor. Du kan använda numren för att söka efter bokförda försäljnings- och inköpsrader senare.
+description: 'Du kan ange externa dokumentnummer för kunder och leverantörer i alla försäljnings- och inköpsorder, fakturor och kreditnotor. Du kan använda numren för att söka efter bokförda försäljnings- och inköpsrader senare.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: f667ab258d134ab904b75c7a357b6739db3118d9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141677"
 ---
-# <a name="enter-external-document-numbers"></a>Ange externa dokumentnummer
+# Ange externa dokumentnummer
 
 Du kan ange externa dokumentnummer för kunder och leverantörer i alla försäljnings- och inköpsorder, fakturor och kreditnotor. Du kan använda numren för att söka efter bokförda försäljnings- och inköpsrader senare.  
 
@@ -25,7 +19,7 @@ Du kan ange externa dokumentnummer för kunder och leverantörer i alla försäl
 
 I proceduren nedan beskrivs hur du anger ett externt dokumentnummer på en försäljningsorder, men liknande steg gäller för andra försäljnings- och inköpsdokument.
 
-## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Så här anger du externa dokumentnummer i en försäljningsorder  
+## Så här anger du externa dokumentnummer i en försäljningsorder  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Välj relevant försäljningsorder och välj sedan åtgärden **Redigera**.  
@@ -34,7 +28,7 @@ I proceduren nedan beskrivs hur du anger ett externt dokumentnummer på en förs
     I inköpsdokument är det relevanta fältet **Leverantörens fakturanr**.
 4. Fyll i övriga fält enligt behov.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Externa dokumentnummer på inköpsdokument](purchasing-ext-doc-no.md)  
 [Externa dokumentnummer på inköpsdokument](sales-how-invoice-sales.md#external-document-numbers)  

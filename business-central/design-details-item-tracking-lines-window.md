@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, inventory, item, tracking, serial number, lot number
+ms.search.keywords: 'design, inventory, item, tracking, serial number, lot number'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 43c6c6dedbc7a1b35e5aa05d0ed42fb986c01f3f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146655"
 ---
-# <a name="design-details-item-tracking-lines-page"></a>Designdetaljer – Sida för artikelspårningsrader
+# Designdetaljer – Sida för artikelspårningsrader
 Artikelspårningposter och reservationposter skapas i reservationssystemet, och deras disposition beräknas dynamiskt. Data som har angetts på sidan **Artikelspårningsrader** hanteras i en tillfällig version av tabellen **Spårningsspecifikation**. När sidan har stängts sparas aktiva data i tabellen **Reservationstransaktion** och historiska data sparas i tabellen **Spårningsspecifikation**. Mer information finns i [Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner](design-details-active-versus-historic-item-tracking-entries.md)  
   
 Sökningar från fälten **Serienr** och **Partinr** visar dispositionen baserat på både tabellen **Artikeltransaktion** och tabellen **Reservationstransaktion** utan datumfilter. I matrisen med antalsfält i rubriken på sidan **Artikelspårningsrader** visas dynamisk antalen och summorna för artikelspårningsnummer som anges på raderna på sidan. Antalet måste stämma överens med antalet på dokumentraden, vilket indikeras av värdet **0** i fälten **Odefinierad** i huvudet på sidan.  
@@ -29,7 +23,7 @@ För att koordinera flödet av serie- och partinummer genom lagret finns följan
   
 Reglerna för att registrera data på sidan **Artikelspårningsrader** stöder även kopplingsprinciperna som styr orderspårning, planering och reservation. Mer information finns i [Designdetaljer: Artikelkoppling och planering](design-details-item-tracking-and-planning.md).  
   
-## <a name="see-also"></a>Se även  
+## Se även  
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

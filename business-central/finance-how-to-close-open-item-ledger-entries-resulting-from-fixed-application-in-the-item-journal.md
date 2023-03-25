@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 40
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dfcab14c585873aca8b9f65d2ebd6d188771b4dc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138576"
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Stäng öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen
+# Stäng öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen
 
 Du kan använda fältet **Kopplas från löpnr** på sidan **Artikeljournal** för att skapa en fast koppling mellan en inkommande transaktion och den ursprungliga utgående transaktionen. Till exempel, för att korrigera utgående transaktion eller bearbeta dess retur.  
 
@@ -29,7 +23,7 @@ Du kan ändra och återanvända kopplingstransaktioner under vissa omständighet
 
 I följande procedur beskrivs hur du avslutar sådana transaktioner genom att utföra två korrigerande bokföringar i artikeljournalen.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Om du vill avsluta öppna artikeltransaktioner som skapas från ett fast koppling i artikeljournalen  
+## Om du vill avsluta öppna artikeltransaktioner som skapas från ett fast koppling i artikeljournalen  
 
 1. Använd fältet **Kopplas från löpnr** om du vill bokföra en positiv justering med motsvarande antal. Denna åtgärd stänger den ursprungliga negativ transaktion med en fast koppling.  
 
@@ -38,7 +32,7 @@ I följande procedur beskrivs hur du avslutar sådana transaktioner genom att ut
 
     Fältet **Transaktionen Gäller** anger om antalet på artikeljournalraden ska kopplas till ett redan bokfört dokument. I så fall anger du löpnumret på den artikeltransaktion som artikeljournalen ska kopplas till.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)  
 [Behandla försäljningsreturer och annulleringar](sales-how-process-sales-returns-cancellations.md)  

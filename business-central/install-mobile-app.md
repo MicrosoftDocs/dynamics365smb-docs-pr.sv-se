@@ -1,22 +1,17 @@
 ---
 title: Skaffa Business Central på din mobila enhet (innehåller video)
-description: I det här avsnittet beskrivs de olika sätt som du kan visa och redigera Business Central-data, skicka till Excel med mera på din telefon eller surfplatta.
+description: 'I det här avsnittet beskrivs de olika sätt som du kan visa och redigera Business Central-data, skicka till Excel med mera på din telefon eller surfplatta.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: desktop, Windows, app
+ms.search.keywords: 'desktop, Windows, app'
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 075af1a6b1d02a68a84d504b7ffa8602b50b17f8
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534092"
 ---
-# <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobila enhet
+
+# Få Business Central på din mobila enhet
 
 Komma åt [!INCLUDE[prod_short](includes/prod_short.md)] från en mobil enhet. Du kan navigera genom dina affärsdata, använda funktioner som till exempel Skicka till Excel eller Microsoft 365, visa aktuella diagram och KPI-er, e-posta försäljningsofferter och fakturor, samt ta och bifoga bilder med din kamera. Följ stegen nedan för att hämta programmet och komma igång.
 
@@ -25,7 +20,7 @@ Komma åt [!INCLUDE[prod_short](includes/prod_short.md)] från en mobil enhet. D
 > [!TIP]
 > Vill du ha en app på datorns skrivbord i Windows eller macOS? Se [Hämta appen för Business Central Desktop](install-desktop-app.md).
 
-## <a name="get-the-app-on-my-mobile-device"></a>Skaffa appen på min mobila enhet
+## Skaffa appen på min mobila enhet
 
 1. Installera appen [!INCLUDE[prod_short](includes/prod_short.md)] på den mobila enheten genom att hämta programmet från App Store, eller Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
@@ -38,9 +33,9 @@ Komma åt [!INCLUDE[prod_short](includes/prod_short.md)] från en mobil enhet. D
 Du bör nu ha tillgång till [!INCLUDE[prod_short](includes/prod_short.md)] och kan visa och redigera data.  
 
 > [!TIP]
-> Om du vill ansluta appen till en sandbox-miljö väljer du knappen **Avancerade alternativ** och väljer sedan inloggningsalternativet **Moln-sandbox**. Om du har mer än en sandboxmiljö väljer du relevant miljö.
+> Om du vill ansluta appen till en sandbox-miljö väljer du knappen **Avancerade alternativ**och väljer sedan inloggningsalternativet **Moln-sandbox**. Om du har mer än en sandboxmiljö väljer du relevant miljö.
 
-## <a name="use-business-central-on-premises"></a>Använda Business Central lokalt?
+## Använda Business Central lokalt?
 
 Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du också njuta av fördelarna med mobilappen. Installationen sker på liknande sätt, men med några undantag.
 
@@ -58,9 +53,9 @@ Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du ock
 > [!NOTE]
 > Prata med administratören om du får problem med att få appen att fungera korrekt. Detta kan bero på att en förutsättning saknas, eller på en ofullständig konfiguration. Mer information finns i [Förbereda miljön för mobilappen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) eller [Felsöka Business Central-mobilappen lokalt](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Vanliga frågor och svar om mobilappar](ui-mobile-faq.yml)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  

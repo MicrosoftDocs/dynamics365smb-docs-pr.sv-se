@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516089"
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
+# Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad
 
 Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombineras funktionerna hos de skilda förbruknings- och utflödesjournalerna. Den kombinerade journalen kan öppnas direkt från en släppt produktionsorder. Huvudsyftet med journalen är att komponentförbrukning, antalet slutartiklar som har producerats och den tid som går åt under operationer ska kunna bokföras manuellt. Värdena bokförs i transaktioner under den släppta produktionsordern. förbrukningskvantiteter bokförs som negativa artikeltransaktioner, utdatakvantiteter bokförs som positiva transaktion och åtgången tid bokförs som kapacitetstransaktioner. Dessa bokförda värden visas också längst ned i journalen som faktiska kvantiteter.  
 
@@ -26,7 +20,7 @@ Den här åtgärden utförs på sidan **Produktionsjournal**. I journalen kombin
 > [!NOTE]  
 >  Komponenter som saknar operationsföljdslänkkoder visas först i listan i journalen.  
 
-## <a name="to-register-consumption-and-output"></a>Så här registrerar du förbrukning och utdata  
+## Så här registrerar du förbrukning och utdata  
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
 2.  Öppna en släppt produktionsorderrad som är klar för registrering. På snabbfliken **Rader** klickar du på **Rader** och väljer sedan åtgärden **Produktionsjournal**.  
 
@@ -64,7 +58,7 @@ Om värdena som återstår ska bokföras kommer journalen att innehåller dessa 
 > [!WARNING]  
 >  Sidan **Produktionsjournal** kan inte användas av två användare samtidigt. Det innebär att om användare 2 öppnar sidan och registrerar data när användare 1 redan arbetar på sidan kan användare 2 förlora data när användare 1 stänger sidan.  
 
-## <a name="see-also"></a>Se även  
+## Se även  
 [Produktion](production-manage-manufacturing.md)    
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)      

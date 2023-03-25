@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: document, mail, merge, Word, template, email
+ms.search.keywords: 'document, mail, merge, Word, template, email'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519524"
 ---
-# <a name="use-word-templates-for-bulk-communication"></a>Använda Word-mallar för masskommunikation
+
+# Använda Word-mallar för masskommunikation
 Microsoft Word-mallar kan göra det enklare att kommunicera i skrivit eller e-post med enheter som kontakter, kunder och leverantörer. Du kan till exempel skapa broschyrer för att avisera kunder om en försäljningskampanj, brev för att informera leverantörer om nya inköpsprinciper eller inbjudningar till att locka kontakter till ett kommande evenemang.
 
 > [!NOTE]
@@ -28,12 +23,12 @@ På sidan **Word-mallar**, när du skapar en ny mall kan du använda en assister
 
 När du har skapat mallen och lagt till sammankopplingsinstruktioner använder du samma stödlinje för att överföra mallen.
 
-## <a name="setting-up-the-template-in-word"></a>Konfigurera mall i Word
+## Konfigurera mall i Word
 När du lägger upp mallen i Word på fliken **Utskick** kan du lägga till sammankopplingsinstruktioner genom att välja **Infoga sammankopplingsfält**. De kopplingsfält som är tillgängliga kommer från datakällfilen som du hämtade för entiteten. De fungerar som platshållare som berättar för Word var i dokumentet informationen om enheten ska placeras. 
 
 :::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Lägga till kopplingsinstruktioner i Microsoft Word":::
 
-## <a name="adding-related-entities"></a>Lägga till relaterade entiteter
+## Lägga till relaterade entiteter
 Förutom att lägga till data för källentiteten, d.v.s. den entitet som du skapar mallen för, kan du också koppla data från enheter som är relaterade till den. Om källan exempelvis är en kundentitet kan du också koppla data från fält på kund-/inköpare, eftersom båda entiteterna har ett gemensamt fält.
 
 Relaterade enheter delar ett fält, som ofta är en identifierare som t.ex. namn, kod eller ID, med källentiteten. När du lägger upp en mall finns det enkla och avancerade alternativ för att välja relaterade entiteter:
@@ -43,24 +38,24 @@ Relaterade enheter delar ett fält, som ofta är en identifierare som t.ex. namn
 
 När du lägger till en relaterad entitet måste du ange ett prefix för fältnamnet. När du lägger till fält i mallen kan prefixet göra det enklare att skilja mellan fälten från källentiteten och fält från relaterade entiteter.
 
-## <a name="to-create-a-word-template-in-business-central"></a>Så här skapar du en Word-mall i Business Central
+## Så här skapar du en Word-mall i Business Central
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Word-mallar** och väljer sedan relaterad länk.
 2. Välj **Ny**, sedan **Skapa en mall** och följ sedan instruktionerna i guiden assisterad konfiguration. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
 > Du kan också skapa en mall direkt från sidan för en entitet genom att välja åtgärd för att **tillämpa Word-mall** för att öppna guiden inställningsguiden och **ny mall**. När du gör det väljs datakälla för dig baserat på typen av entitet.
 
-## <a name="applying-a-template"></a>Tillämpa en mall
+## Tillämpa en mall
 När Word-mallen är klar kan du på sidan **Word-mallar** välja **Använd** för att skapa dokumenten. När du använder en Word-mall på en entitet infogas data från sammankopplingsfälten i dokumentet. Du kan antingen skapa ett dokument som innehåller avsnitt för varje entitet, eller **dela** för att skapa ett nytt dokument för varje entitet.
 
 Du kan tillämpa mallar på en eller flera av samma typ av entiteter, till exempel en kontakt, direkt i kontexten för den sidan eller på sidan Word-mallar om du vill använda mallen på alla enheter av den aktuella typen.
 
-## <a name="use-word-templates-with-email"></a>Använda Word-mallar med e-post
+## Använda Word-mallar med e-post
 Du kan använda Word-mallar för att lägga till innehåll i e-postmeddelanden. När du skriver ett e-postmeddelande kan du välja instruktionen **Använd Word-mall** om du vill använda innehållet i en mall i meddelandet. Detta förutsätter att du har skapat en eller flera mallar för entiteten. Du kan använda en mall i taget och när du växlar mellan mallar ändras meddelandet så att det återspeglar innehållet i den valda mallen.
 
 Dessutom kan du använda åtgärden **Lägg till fil från Word-mall** för att koppla innehållet i mallen till e-postmeddelandet som en fil. Filen kommer att använda det format som du har angett för mallens utdata.
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Alternativ för att använda innehåll från en Word-mall i ett e-postmeddelande":::
 
-## <a name="see-also"></a>Se även
+## Se även
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  

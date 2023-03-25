@@ -6,25 +6,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 600, 610
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: '600, 610'
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519732"
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Arbeta med koncerninterna dokument och journaler
+# Arbeta med koncerninterna dokument och journaler
 Du använder koncerninterna dokument eller journaler för att bokföra transaktioner med koncerninterna partner. När du bokför ett koncerninternt dokument eller journalrad i företaget skapas, skapas ett motsvarande dokument eller journalrad i din koncerninterna utkorg som du kan överföra till partnern. Partnern kan sedan bokföra den koncerninterna transaktionen i sitt företag utan att behöva registrera samma data på nytt.
 
 För försäljnings- och inköpsdokument, säkerställer koden för koncernintern partner på den involverade kunden eller leverantören att alla order och fakturor som har genererats gäller transaktioner med dessa företag kommer att producera motsvarande dokument i partnerföretaget, vilket resulterar i att räkenskaperna balanseras korrekt.
 
 För koncerninterna redovisningsjournalrader behöver du inte ange konton för en enskild räkenskapsbok, utan helt enkelt ange moderbolaget. Motsvarande koncerninterna redovisningsjournalrader skapas sedan i partnerföretaget som resulterar i att räkenskaperna balanseras för de båda företag som är involverade i en transaktion.
 
-## <a name="to-fill-in-and-send-an-intercompany-sales-order"></a>Så här fyller du i och skickar en koncernintern försäljningsorder
+## Så här fyller du i och skickar en koncernintern försäljningsorder
 Du kan skicka försäljnings- och inköpsorder samt returorder före bokföring. Fakturor och kreditnotor kan inte skickas förrän de är bokförda.
 
 Följande procedur beskriver hur du fyller i och skickar en koncernintern försäljningsorder. Samma steg gäller koncerninterna inköpsorder och returorder och till bokförda koncerninterna fakturor och kreditnotor.  
@@ -38,7 +32,7 @@ Följande procedur beskriver hur du fyller i och skickar en koncernintern förs�
 > [!NOTE]
 > Om du utför steg 4, kommer försäljningsordern flyttas till koncerninterna utkorgen där du kan skicka den senare. Mer information finns i [Hantera den koncerninterna inkorgen och utkorgen](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Så här fyller du i och bokför koncerninterna journaler
+## Så här fyller du i och bokför koncerninterna journaler
 
 När du bokför ett koncernintern redovisningsjournalsrad i företaget skapas, skapas ett motsvarande journalrad i din koncerninterna utkorg som du kan överföra till partnern. Med 2022 utgivningscykel 1 kan du också ställa in företaget för automatiskt skapande av mottagna koncerninterna transaktioner från koncerninterna partner, bokförda i den koncerninterna redovisningsjournalen. Partnern kan sedan bokföra den koncerninterna transaktionen i sitt företag utan att behöva registrera samma data på nytt.
 
@@ -53,7 +47,7 @@ När du bokför ett koncernintern redovisningsjournalsrad i företaget skapas, s
 
 Transaktionerna som bokförs i företaget och en journal med motsvarande transaktioner skapas i koncerninterna utkorgen som du kan skicka till partnerföretaget. Mer information finns i [Hantera den koncerninterna inkorgen och utkorgen](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  
 [Ekonomi](finance.md)  

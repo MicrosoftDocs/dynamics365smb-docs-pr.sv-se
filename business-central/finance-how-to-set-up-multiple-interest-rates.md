@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 6, 431, 432, 572
+ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 997a6e587a94d4d4a20db5f01a79ad0fd295df61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135447"
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Ställa in flera räntesatser för fördröjd betalning
+# Ställa in flera räntesatser för fördröjd betalning
 
 Du kan använda olika räntesatser för olika perioder för försenade betalningar i handelstransaktioner. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -24,7 +18,7 @@ En myndighet anger till exempel den högsta räntan som kan tas ut för en kund.
 
 När du skapar villkor och betalningspåminnelsevillkor för räntefakturor, så kan du för avgiften för försenad betalning ange flera räntesatser så att avgiften beräknas utifrån olika räntesatser under olika perioder.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Så här ställer du in flera räntesatser
+## Så här ställer du in flera räntesatser
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **räntevillkor** och väljer sedan relaterad länk.  
 2. Gå till sidan **Räntevillkor** välj räntevillkoret och välj sedan åtgärden **Räntesatser**.  
@@ -36,7 +30,7 @@ När du skapar villkor och betalningspåminnelsevillkor för räntefakturor, så
 
 När du skickar ut en räntefaktura, visar fakturan dröjsmålsräntan med flera räntesatser för en viss tidsperiod. Räntefakturan innehåller även kontaktinformation för kunden, företaget som skickar räntefakturan, det ytterligare beloppet och totalt belopp. Den ingående transaktionen på räntefakturan visas i fet stil. Dröjsmålsräntan beräknas med flera räntesatser för en viss tidsperiod och skrivs ut efter den ingående transaktionen på räntefakturan.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Ställa in Finance](finance-setup-finance.md)

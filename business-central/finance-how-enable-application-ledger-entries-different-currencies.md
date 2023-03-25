@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, payment, reconcile
-ms.search.form: 148, 460, 25
+ms.search.keywords: 'multiple currencies, payment, reconcile'
+ms.search.form: '148, 460, 25'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e8a09e2a832e5461b0a597a9caf4af8e9d7af7e9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529062"
 ---
-# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Aktivera koppling av kundreskontratransaktioner till olika valutor
+# Aktivera koppling av kundreskontratransaktioner till olika valutor
 
 Om en valuta används vid inköp från en leverantör och en annan vid betalning kan du koppla betalningen till inköpet.
 
@@ -25,7 +19,7 @@ Om du säljer i en valuta och får betalt i en annan kan du koppla betalningen t
 
 Efterföljande proceduren beskriver hur du ställer in detta för leverantörsreskontratransaktioner på sidan **Inköpsinställningar**. Denna inställning liknar den för kundreskontratransaktioner på sidan **Försäljningsinställningar**.
 
-## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Så här aktiverar du koppling av leverantörsreskontratransaktioner i olika valutor
+## Så här aktiverar du koppling av leverantörsreskontratransaktioner i olika valutor
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inköpsinställningar** och väljer sedan relaterad länk.
 2. I fältet **Koppling mellan valutor** markerar du ett av följande alternativ.
@@ -36,7 +30,7 @@ Efterföljande proceduren beskriver hur du ställer in detta för leverantörsre
 | EMU |Koppling mellan EMU-valutor är tillåten. |
 | Alla |Koppling mellan alla valutor är tillåten. |
 
-## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Så här skapar du redovisningskonton för avrundningsdifferenser vid valutakoppling
+## Så här skapar du redovisningskonton för avrundningsdifferenser vid valutakoppling
 
 Om du kopplar transaktioner till olika valutor måste du ange de redovisningskonton som du vill bokföra avrundningsdifferenserna på.  
 
@@ -48,9 +42,9 @@ Om du kopplar transaktioner till olika valutor måste du ange de redovisningskon
 3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörsbokföringsmallar** och väljer sedan relaterad länk.  
 4. Ange aktuella redovisningskonton för bokföring av avrundningsskillnader i fälten **Debet valutakopp. avrundning** och **Kredit valutakopp. avrundning**.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  

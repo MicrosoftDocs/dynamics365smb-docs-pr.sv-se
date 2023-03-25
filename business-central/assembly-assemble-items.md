@@ -1,59 +1,63 @@
 ---
 title: Monteringshantering
-description: Stödja företag som levererar produkter till kunderna genom att kombinera komponenter i enkla processer utan att ha behov av produktionsfunktioner.
-author: SorenGP
+description: Lär dig stödja produkter till kunderna genom att kombinera komponenter i enkla processer utan att använda produktionsfunktioner.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: c026f7b8374dd78b4c3f06d76d43e3ffac0198b2
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607079"
+ms.date: 02/21/2023
+ms.custom: bap-template
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="assembly-management"></a>Monteringshantering
+# Monteringshantering
 
-För att hantera företag som levererar till produkter till kunder genom att slå ihop komponenter i enkla processer utan behov av produktionsfunktionen, innehåller [!INCLUDE[prod_short](includes/prod_short.md)] funktionen för att sammanställa artiklar som integreras med befintliga funktioner, till exempel försäljning, planering, reservationer och lagerhantering.  
+Företag kan stödja produkter till kunderna genom att kombinera komponenter utan att använda produktionsfunktioner. Funktioner för att montera artiklar integreras med relaterade funktioner som försäljning, planering, reservationer och lagerstyrning.  
 
- En monteringsartikel definieras som en säljbar artiklar som innehåller en monteringsstruktur. Mer information finns i [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md).
+En monteringsartikel är en säljbar artiklar som innehåller en monteringsstruktur. Om du vill lära dig mer om monteringsstrukturer går du till [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md).
 
- Monteringsorder är den interna order, som en produktionsorder, som används för att hantera monteringsprocessen och för att koppla försäljningskraven med relevanta lageraktiviteter. Monteringsorder skiljer sig från andra ordertyper, eftersom de avser både förbrukning och utflöde, när de bokförs. Monteringsorderhuvudet reagerar på samma sätt till en utflödesjournalrad och monteringsorderrader reagerar på samma sätt som förbrukningsjournalrader.  
+Monteringsorder är interna order, precis som produktionsorder. Använd monteringsorder för att hantera monteringsprocesser och för att koppla försäljningsbehov med lageraktiviteter. Monteringsorder avser både produktion och förbrukning vid bokföring. Monteringsorderhuvud påminner om utflödesjournalrader. Monteringsorderrader påminner om förbrukningsjournalrader.  
 
- För att stödja en just-i-tid-lagerstrategi och kapaciteten för att anpassa produkter till kundförfrågan, kan monteringsorder automatiskt skapas och kopplas så snart försäljningsorderraden skapas. Kopplingen mellan försäljningsbehov och monteringsleveransen gör att försäljningsorderhandläggare kan anpassa monteringsartikeln löpande, ge löfte om leveransdatum enligt komponentdisposition och att bokföra utflödet och utleveransen av monterade artiklar direkt monterad utifrån försäljningsorder gränssnitt. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
+Du kan använda en just-in-time inventeringsstrategi och anpassa produkter för att uppfylla kundernas önskemål. Monteringsorder kan skapas automatiskt och länkas när du skapar en försäljningsorderrad. Länken mellan försäljningsbehov och monteringsleverans öppnar upp flera affärsmöjligheter när du behandlar försäljningsorder:
 
- På en orderrad kan du sälja en kvantitet som är tillgänglig, och måste plockas från lagret tillsammans med ett antal som måste monteras till i ordern. Det finns vissa regler för att styra distributionen på sådana antal för att se till att antalet för montering mot kundorder åsidosätter lagersaldot i en delbetalning leverans. Mer information finns i avsnittet "Kombinationsscenarion" i [Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
+* Anpassade monteringsartiklar i farten.
+* Utlova leveransdatum efter komponent tillgänglighet.
+* Bokför produktion och leverans av den sammansatta artikeln direkt från deras försäljningsorder.
 
- Särskild funktioner finns för att styra fältet av montering mot kundorder. När antalet för montering mot kundorder är klar för utleverans, lagerarbetaren i kostnad bokför en lagerplockning för försäljningsorderraden i fråga. Detta skapar en lagerförflyttning för komponenterna, bokför monteringsutflöde och försäljningsorderleveransen. Mer information finns i avsnittet ”Hantera artiklar för montering mot kundorder i lagerplockningar” i [Plocka artiklar med Lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md).
+Om du vill veta mer om att sälja monteringsartiklar går du till [Sälja artiklar monterade på order](assembly-how-to-sell-items-assembled-to-order.md).  
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
+Rader på försäljningsorder kan innehålla artiklar som ska plockas från lager och artiklar som ska monteras för ordern. Antalet för montering mot kundorder har företräde framför lagerkvantiteter i delleveranser. För att lära dig mer om att sälja lager och monteringsartiklar, gå till [Kombinationsscenarier](assembly-assemble-to-order-or-assemble-to-stock.md#combination-scenarios).  
 
-|**Om du vill**|**Gå till**|  
+När antalet för montering mot kundorder är redo att utlevereras kan en lageranställd bokföra en lagerplockning för försäljningsorderraderna. När du bokför en lagerplockning utförs några saker:
+
+* Skapa en lagerförflyttning för komponenterna
+* Bokför monteringsutflödet och försäljningsorder utleveransen.
+
+Om du vill lära dig mer om montering mot kundorder och lagerplockning gå till [Hantering av montering mot kundorder med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
+
+I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.
+
+|**Om du vill**|**Se**|  
 |------------|-------------|  
-|Lära dig mer om skillnaden mellan monterings artiklar direkt före leverans försäljningsorder och monterings artiklar som används för lagret.|[Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md)|
-|Fyll i fälten på lagerställekort och i lagerinställningar för att definiera hur artiklar överförs till och från monteringsavdelningen.|[Ställa in grundläggande dist.lager med verksamhetsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
-|Anpassa en monteringsartikel till ett kundkrav under försäljningsprocessen och konvertera till en försäljning när den godkänns.|[Skapa en försäljning för montering mot kundorder](assembly-how-to-quote-an-assemble-to-order-sale.md)|
-|Kombinera komponenter för att skapa en artikel i ett enkelt behandling till order eller lager.|[Montera Artiklar](assembly-how-to-assemble-items.md)|  
+|Mer information om montering av artiklar för försäljningsorder och lagring.|[Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md)|
+|Använd lagerställekort och i lagerinställningar för att definiera hur artiklar överförs till och från montering.|[Ställa in grundläggande dist.lager med verksamhetsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
+|Gör offert för anpassad monteringsartikel och konvertera sedan offerten till en försäljning när kunden accepterar den.|[Skapa en försäljning för montering mot kundorder](assembly-how-to-quote-an-assemble-to-order-sale.md)|
+|Kombinera komponenter för att skapa en artikel till order eller lager.|[Montera Artiklar](assembly-how-to-assemble-items.md)|  
 |Du kan sälja monteringsartiklar som inte är tillgängliga genom att skapa en länkad monteringsorder för att tillhandahålla hela eller delvisa försäljningsorderantal.|[Sälja en artikel som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md)|
 |Om några artiklar för montering mot kundorder redan finns i lager kan du dra av antalet från monteringsordern och reservera det från lagret.|[Sälja lagerartiklar i flöden för montering mot kundorder](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
-|Du kan få en monteringsorder att automatiskt tillhandahålla en del av, eller hela, försäljningsorderns antal när du säljer monteringsartiklar från lagret när inte alla artiklar är tillgängliga.|[Artiklar för montering mot kundorder och lagerartiklar ihop](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
-|Gör anpassade monteringsartiklar för försäljningsavropsorder före periodens skapande av faktiska försäljningsorder enligt avropsorderavtalet.|[Skapa monteringsorder för avrop](assembly-how-to-create-blanket-assembly-orders.md)|
-|Ångra en bokförd monteringsorder, till exempel för att ordern har bokförts med misstag som måste rättas.|[Ångra monteringsboking](assembly-how-to-undo-assembly-posting.md)|
-|Lära dig att arbeta med monteringsstrukturer och de huvudsakliga skillnaderna med produktionsstrukturer.|[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)|
-|Lära dig hur tillverkningsförbrukning och utflöde hanteras, när du bokför monteringsorder och utifrån hur artikel och resurskostnaderna är behandlats och biztalk-dokumenten distribueras till redovisningen.|[Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)|  
+|När monteringsartiklar inte finns i lager använder du en monteringsorder för att ange en del av eller hela antalet.|[Artiklar för montering mot kundorder och lagerartiklar ihop](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Skapa anpassade monteringsartiklar för avropsorder för försäljning innan du skapar försäljningsorder.|[Skapa monteringsorder för avrop](assembly-how-to-create-blanket-assembly-orders.md)|
+|Ångra en bokförd monteringsorder, till exempel för att ordern har bokförts med misstag.|[Ångra monteringsboking](assembly-how-to-undo-assembly-posting.md)|
+|Lära dig att arbeta med monteringsstrukturer och hur de skiljer sig från produktionsstrukturer.|[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)|
+|Lära dig mer om bokföring av monteringsförbrukning och utflöde och hur [!INCLUDE [prod_short](includes/prod_short.md)] fördelar artikel- och resurskostnader i redovisningen.|[Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
+## Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med strukturer](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Översikt över Warehouse Management](design-details-warehouse-management.md)
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->

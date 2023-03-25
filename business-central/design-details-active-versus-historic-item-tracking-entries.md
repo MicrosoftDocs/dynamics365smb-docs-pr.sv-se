@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 8e38d258510e35c0cb613191d005affbb3fb8713
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146780"
 ---
-# <a name="design-details-active-versus-historic-item-tracking-entries"></a>Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner
+# Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner
 När delar av ett dokumentradantal bokförs överförs endast det aktuella antalet till artikeltransaktionerna och dess artikelspårningsnummer. Emellertid kommer du att vilja få tillgång till all relevant information om artikelspårning direkt från den aktiva dokumentraden. Det vill säga, du vill inte bara visa transaktionerna som är relaterade till återstående antal, du vill även ha information om de enheter som har bokförts. När du visar eller ändrar sidan **Artikelspårningsrader** visas det samlade innehållet i tabellen **Spårningsspecifikation** (T336) och tabellen **Reservationstransaktion** (T337) i en tillfällig version av T336. Detta säkerställer att historiska och aktiva artikelspårningsdata nås som en.  
 
  Följande tabell visar hur T336 och T337 används i ett inköpsscenario. De fetstilta siffrorna representerar värden som användaren skriver in manuellt på sidan **Artikelspårningsrader**.  
@@ -58,7 +52,7 @@ När delar av ett dokumentradantal bokförs överförs endast det aktuella antal
 |Sidan **artikelspårningsrader**|7|0|**5**|7|2|  
 |**T336**|7|0|0|7|7|  
 
-## <a name="see-also"></a>Se även  
+## Se även  
  [Designdetaljer: Objektspårning](design-details-item-tracking.md)   
  [Designdetaljer – Sida för artikelspårningsrader](design-details-item-tracking-lines-window.md)
 

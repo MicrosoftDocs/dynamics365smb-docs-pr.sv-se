@@ -1,91 +1,93 @@
 ---
 title: 'Så här: Införa artiklar med lagerartikelinförslar'
-description: Läs om hur du använder lagerinförseldokumentet för lager för att registrera och bokföra artikelinförsel och inleveransinformation för dina källdokument.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: ce664efeb299072e73c2b25ea87ed28596164015
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528497"
+description: Lär dig använda lagerinförseldokumentet för att registrera och bokföra artikelinförsel och inleveransinformation.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
+ms.search.forms: '7375,'
 ---
-# <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
+# Föra in artiklar med lagerartikelinförsel
 
-När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Det inkommande källdokumentet kan vara in inköpsorder, en försäljningsreturorder, en inkommande överföringsorder, montering eller en produktionsorder vars utflöde är klart för artikelinförsel.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ta emot objekt och lägga undan dem med någon av fyra metoder, enligt beskrivningen i följande tabell.
+
+|Metod|inkommande behandling|Begär inleverans|Begär artikelinförsel|Komplexitetsnivå (mer information på [Warehouse Management – översikt](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Bokföra inleverans och lagerinförsel från orderraden|||Ingen tilldelad distributionslageraktivitet.|  
+|B|Bokföra inleverans och lagerinförsel från ett lagerinförseldokument||Aktiverat|Grundläggande: Order för order|  
+|A|Bokföra inleverans och lagerinförsel från ett distributionslagerinleveransdokument|Aktiverat||Grundläggande: Konsoliderad inleverans-/utleveransbokföring för flera order.|  
+|D|Bokföra inleverans från ett distributionslagerinleveransdokument och bokföra införsel i ett distributionslagerinförseldokument|Aktiverat|Aktiverat|Avancerat|  
+
+Läs mer i [Inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md).
+
+I denna artikel hänvisas till metod B i tabellen.
+
+När lagerstället har konfigurerats så att artikelinförsel krävs men inte inleverans, använder du dokumentet **Lagerartikelinförsel** för att registrera och bokföra artikelinförsel och inleveransinformation för källdokumenten. Inkommande källdokumenten kan göras för inköpsorder, försäljningsreturorder och inkommande överföringar.
+
+> [!NOTE]
+> Produktion och monteringsutflöde representerar också inkommande källdokument. Läs mer om hantering av produktions- och monteringsutflöde för interna processer på [Designdetaljer: Interna distributionslagerflöden](design-details-internal-warehouse-flows.md).
 
 Du kan skapa en lagerartikelinförsel på tre sätt:  
 
-- Skapa artikelinförseln i två steg genom att först skapa ett distributionslagerkrav från källdokumentet, som fungerar som en signal till distributionslagret att källdokumentet är klart för artikelinförsel. Lagerartikelinförseln kan sedan skapas från sidan **Lagerartikelinförsel** baserat på källdokumentet.  
 - Skapa lagerartikelinförseln direkt från själva källdokumentet.  
-- Du kan skapa lagerartikelinförslar för flera källdokument samtidigt med hjälp av batch-jobbet.  
+- Skapa lagerartikelinförslar för flera källdokument samtidigt med hjälp av ett batch-jobb.  
+- Skapa artikelinförseln i två steg genom att först släppa källdokumentet för att göra artiklarna tillgängliga för artikelinförsel. Du kan skapa lagerartikelinförseln baserat på källdokumentet med sidan **Lagerartikelinförsel**.  
 
-## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Så här begär du en lagerinförsel genom att släppa källdokumentet
+## Så här skapar du en lagerartikelinförsel från källdokumentet
 
-För försäljningsorder, inköpsreturorder och ingående överföringsorder och montering skapar du distributionslagerkravet genom att släppa ordern. Nedan beskrivs hur du gör detta från en inköpsorder.  
+1. I källdokumentet, som kan vara en inköpsorder, försäljningsreturorder, inkommande överföringsorder, välj åtgärden **Skapa lagerartikelinförsel/plocka**.  
+2. Markera kryssrutan **Skapa lagerinförsel/plockning**.
+3. Välj knappen **OK**. En ny lagerinförsel har skapats.
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
+## Så här skapar du flera lagerartikelinförslar med batch-jobbet:
+
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Skapa lagerinförsel/plockning/rörelse** och väljer sedan relaterad länk. 
+2. På snabbfliken **Dist.lagerkrav** använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer. Du kan till exempel endast skapa artikelinförseln för inköpsorder.
+3. På snabbfliken **Alternativ**, markera kryssrutan **Skapa lagerinförsel**.
+4. Välj **OK**. Anger numret för den bokförda artikelinförseln i lagret.
+
+## Så här skapar du artikelinförseln i två steg
+
+### Så här begär du en lagerinförsel genom att släppa källdokumentet
+
+När du släpper inköpsorder, försäljningsreturorder och inkommande överföringsorder, blir artiklarna på order tillgängliga för artikelinförsel. Följande steg beskriver hur du gör artiklarna på en inköpsorder klara att föras in.  
+
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
 2. Markera den inköpsorder som du vill släppa och välj sedan åtgärden **Släpp**.  
 
-    För produktionsorder skapar du distributionslagerkravet genom att skapa ett inkommande krav från den släppta produktionsordern.  
-3.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
-4. Välj åtgärden **Skapa inkommande dist.lagerkalkylark**.  
+### Så här skapar du en lagerartikelinförsel från källdokumentet
 
-> [!NOTE]  
->  Du kan också skapa inkommande distributionslagerkrav genom att markera kryssrutan **Skapa inkommande begäran** när du uppdaterar produktionsordern. Mer information finns i [Uppdatera eller omplanera produktionsorder](production-how-to-replan-refresh-production-orders.md).  
+En distributionslagerarbetare kan skapa en ny lagerinförsel baserat på det släppta källdokumentet.
 
-När distributionslagerkravet har skapats kan någon som arbetar i distributionslagret och skapar artikelinförslar se att källdokumentet är klart och kan då skapa ett nytt lagerinförseldokument.  
-
-## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet
-
-Nu när begäran har skapats kan lagerpersonalen skapa en ny artikelinförsel baserat på släppta källdokument.
-
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I fältet **Källdokument** markerar du den typ av källdokument som du lägger ifrån dig.  
 4. I fältet **Ursprungsnr** markerar du källdokumentet.  
 5. Välj åtgärden **Hämta källdokument** för att välja från en lista över inkommande källdokument som är klara för artikelinförsel för på lagerstället.  
 6. Välj knappen **OK** för att fylla artikelinförselrader enligt det valda källdokumentet.  
 
-## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet
+## När du vill registrera lagerinförsel.
 
-1.  I källdokumentet, som kan vara en inköpsorder, försäljningsreturorder, inkommande överföringsorder eller en produktionsorder, klickar du på åtgärden **Skapa lagerartikelinförsel/plocka**.  
-2. Markera kryssrutan **Skapa lagerinförsel/plockning**.
-3. Välj knappen **OK**. En ny lagerinförsel har skapats.
+1. På sidan **lagerartikelinförsel**, öppna ett befintligt lagerinförseldokument.  
+2. I fältet **Lagerställeskod** på artikelinförselrader föreslår lagerplats där artiklarna måste föras in baserat på artikelns standardlagerplats. Du kan ändra lagerplats vid behov.  
+3. Utför artikelinförseln och ange den faktiska kvantitet som förts in i fältet **Ant. att hantera**.
 
-## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Så här skapar du flera lagerartikelinförslar med batch-jobbet:
+    Om du måste placera artiklar för en rad på flera lagerställen, t.ex. om den utsedda lagerplatsen är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Åtgärden skapar en rad för återstående antal att hantera.  
+4. När du har fört in artiklarna väljer du åtgärden **Bokföra**.  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Skapa lagerinförsel/plockning** och väljer sedan relaterad länk.  
-2.  På snabbfliken **Dist.lagerkrav** i beställningssidan använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer.  
-3.  Välj fältet **Skapa lagerinförsel** på kryssrutan **Alternativ**.
-4.  Välj knappen **OK**. Anger numret för den bokförda artikelinförseln i lagret.
+    * Bokför inleveransen av de källdokumentrader som har förts in
+    * Om lagerstället använder lagerställen kommer bokföringen även att skapa distributionslagertransaktioner för att bokföra ändringar i antalet lagerställen.
 
-## <a name="to-record-the-inventory-put-away"></a>När du vill registrera lagerinförsel.
+## Se relaterad [Microsoft utbildning](/training/modules/receive-put-away-items/)
 
-1. Du öppnar ett befintligt artikelinförseldokument genom att välja ett från sidan **Lagerartikelinförslar**.  
-2. I fältet **Lagerställeskod** per artikelns standardlagerplats föreslår på artikelinförsel raderna den lagerplats där artiklarna ska placeras. Du kan ändra lagerstället på den här sidan om det behövs.  
-3. Utför artikelinförseln och ange information för den faktiska kvantiteten som förts in i fältet **Ant. att hantera**.
+## Se även
 
-    Om det är nödvändigt att placera artiklar för en rad på flera lagerställen, t. ex. om den utsedda lagerstället är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Mer information om hur du delar upp rader finns i [Dela dist.lageraktivitetsrader](warehouse-how-to-split-warehouse-activity-lines.md).  
-4. När du har utfört lagerinförsel, väljer du åtgärden **Bokföra**.  
-
-Vid bokföringen bokförs inleveransen, eller för produktionsorder utflödet, för de källdokumentrader som har förts in. Om lagerstället använder lagerställen skapas distributionslagertransaktioner som bokför kvantitetsändringarna på lagerstället.
-
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/receive-put-away-items/)
-
-## <a name="see-also"></a>Se även
-
-[Lagerstyrning](warehouse-manage-warehouse.md)  
+[Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
-[Monteringshantering](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

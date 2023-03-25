@@ -1,320 +1,300 @@
 ---
-title: 'Designdetaljer: Centrala koncept i planeringssystemet'
-description: Med hjälp av planeringsfunktionerna kan du föreslå att användaren ska utföra åtgärder baserat på efterfråge-/leveranstillfället och artikelns planeringsparametrar.
-author: SorenGP
+title: Designdetaljer Centrala koncept i planeringssystemet
+description: Planering föreslår åtgärder för att användaren ska utföra åtgärder baserat på efterfråge-/leveranstillfället och artikelns planeringsparametrar.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605171"
+ms.date: 01/25/2023
+ms.custom: bap-template
 ---
-# <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Centrala koncept i planeringssystemet
+# Designdetaljer: Centrala koncept i planeringssystemet
 
-Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Enligt varje artikels lägsta-nivå-kod (strukturposition) anropar batchjobbet sedan en kodenhet som beräknar en tillförselplan genom att balansera uppsättningar med tillgång-efterfrågan och föreslår möjliga åtgärder som användaren kan vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
+Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Sedan, enligt varje artikels lågnivåkod (strukturplats), anropar batch-jobbet en kodenhet som beräknar en leveransplanering. Kodenheten balanserar uppsättningar med tillgång och efterfrågan och föreslår åtgärder som användaren ska vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
 
 ![Information på sidan Planeringsförslag.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Information på sidan Planeringsförslag")  
 
 Planeraren i ett företag, till exempel en inköpare eller en produktionsplanerare antas vara användaren i planeringssystemet. Planeringssystemet hjälper användaren genom att utföra de omfattande men ganska rättframma beräkningarna av en plan. Användaren kan sedan koncentrera sig på att lösa svårare problem, till exempel när saker är annorlunda än vanligt.  
 
-Planeringssystemet drivs av förväntad och faktisk kundefterfrågan, till exempel prognoser och försäljningsorder. Om du kör planeringsberäkningen får du i programmet ett förslag på särskilda åtgärder för användaren att vidta för eventuell leverans från leverantörer, monterings- eller produktionsavdelningar, eller överföringar från andra distributionslager. De föreslagna åtgärderna kan vara att skapa nya leveransorder, till exempel inköps – eller produktionsorder. Om det redan finns leveransorder kan de föreslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
+Planeringssystemet drivs av förväntad och faktisk kundefterfrågan, till exempel prognoser och försäljningsorder. Planeringsberäkningar ger förslag på åtgärder som du kan vidta för att leverera från leverantörer, monteringar, produktion eller överföringar från andra lagerställen. Ett exempel på föreslagen åtgärd kan vara att skapa nya leveransorder, till exempel inköps- eller produktionsorder. Om det redan finns leveransorder kan de föreslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
 
 Ett annat mål med planeringssystemet är att se till att lagret inte blir onödigt stort. Om efterfrågan minskas får du i planeringssystemet ett förslag om att användaren ska skjuta upp, minska antalet eller annullera befintliga leveransorder.  
 
-Nettobehov och produktionsprogram, beräkna nettoförändringsplan och beräkna fullständig plan är alla operationer inom en kodenhet som innehåller planeringslogiken. Dock användare leveransplanberäkningen olika undersystem.  
+En kodenhet innehåller planeringslogik och följande funktioner:
 
-Observera att planeringssystemet inte har någon särskild logik för kapacitetsutjämning eller finplanering. Därför utförs sådant schemaarbete som en separat funktion. Bristen på direkt integrering mellan de två områdena betyder också att betydande kapacitet eller schemaändringar kräver att planeringen körs igen.  
+* MRP och MPS
+* Beräkna nettoförändringsplan
+* Beräkna fullständig plan
 
-## <a name="planning-parameters"></a>Planeringsparametrar
+Dock omfattar leveransplanberäkningen olika undersystem.  
 
-Planeringsparametrar som användar anger för en artikel eller en grupp av artiklar styr vilka åtgärder som planeringssystemet föreslår i olika situationer. Planeringsparametrarna definieras på varje artikelkort för att kontrollera när, hur mycket och hur du fyller på.  
+Planeringssystemet omfattar inte har någon särskild logik för kapacitetsutjämning eller finplanering. Dessa typer av planeringsarbete utförs separat. Bristen på direkt integrering mellan de två områdena betyder också att betydande kapacitet eller schemaändringar kräver att du kör om planeringen.  
 
-Planeringsparametrar kan också definieras för en valfri kombination av artikel, variant och lagerställe genom att skapa en lagerställeenhet (SKU) för varje nödvändig kombination och sedan ange individuella parametrar.  
+## Planeringsparametrar
 
-Mer information finns i [Designdetaljer: Hantera principer för omordning](design-details-handling-reordering-policies.md) och [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md).  
+Planeringsparametrar som du anger för en artikel eller en grupp av artiklar styr vilka åtgärder som planeringssystemet föreslår i olika situationer. Definiera planeringsparametrar för varje artikel för att kontrollera när, hur mycket och hur du fyller på.  
 
-## <a name="planning-starting-date"></a>Planeringsstartdatum
+Planeringsparametrar kan också definieras för en valfri kombination av artikel, variant och lagerställe genom att skapa en lagerställeenhet (SKU) för varje nödvändig kombination och sedan ange individuella parametrar. Mer information finns i [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md) och [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md).  
 
-För att undvika en leveransplanering som tar med öppna tidigare order och föreslår eventuellt omöjliga på åtgärder, behandlar planeringssystemet alla datum före planeringsstartdatumet som en fryst zon där följande specialregel gäller:  
+## Planeringsstartdatum
 
-All efterfrågan och tillgång före startdatumet för planeringsperioden anses vara en del av lagret eller levererat.  
+Planeringssystemet hjälper dig att undvika att ha öppna order tidigare och förslag på åtgärder som inte är möjliga. Planering behandlar alla datum före startdatumet som en frusen zon. Följande regel gäller för den frysta zonen:  
 
-Med andra ord antas att planen för det tidigare har körts enligt den angivna planen.  
+* All efterfrågan och tillgång före startdatumet för planeringsperioden anses vara en del av lagret eller levererat. Med andra ord antas att planen för det tidigare har körts enligt den angivna planen. Läs mer på [Hantera order före planeringsstartdatumet](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).  
 
-Mer information finns i [Hantera order före planeringsstartdatumet](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
+## Dynamisk orderspårning (pegging)
 
-## <a name="dynamic-order-tracking-pegging"></a>Dynamisk orderspårning (pegging)
+Dynamisk orderspårning, med sitt samtidiga skapande av åtgärdsmeddelanden i planeringsförslaget, är inte en del av leveransplaneringssystemet. När en efterfrågan eller tillgång skapas eller ändras länkar dynamisk orderspårning efterfrågan och kvantiteterna för att täcka den i realtid.  
 
-Dynamisk orderspårning, med sitt samtidiga skapande av åtgärdsmeddelanden i planeringsförslaget, är inte en del av leveransplaneringssystemet i [!INCLUDE[prod_short](includes/prod_short.md)]. Den här funktionen länkar, i realtid, behovet och det antal som kan täcka det när en ny efterfrågan eller tillgång registreras eller ändras.  
+Om du till exempel anger eller ändrar en försäljningsorder, söker dynamisk orderspårning omedelbart efter tillgång för att täcka efterfrågan. Tillgång kan vara från lager eller från en förväntad leveransorder (t.ex en inköpsorder eller produktionsorder). När en leveranskälla kopplar [!INCLUDE [prod_short](includes/prod_short.md)] tillgång och efterfrågan. Du öppnar länken på skrivskyddade sidor från dokumentraderna. När tillgången inte kan hittas skapar det dynamiska orderspårningssystemet åtgärdsmeddelanden i planeringsförslaget med tillförselplankalkylark.  
 
-Till exempel om användaren anger eller ändrar en försäljningsorder söker det dynamiska orderspårningsystemet omedelbart efter en lämplig tillgång för att täcka efterfrågan. Det kan vara från lager eller från en förväntad leveransorder (t.ex en inköpsorder eller produktionsorder). När en tillförselkälla hittas skapar systemet en länk mellan tillgång och efterfrågan och visar den i skrivskyddade sidor som nås från de berörda dokumentraderna. När lämplig efterfrågan inte kan hittas skapar det dynamiska orderspårningsystemet åtgärdsmeddelanden i planeringsförslaget med tillförselplankalkylark som återspeglar dynamiskt saldo. Den dynamiska orderspårningsystemet har ett grundläggande planeringssystem som kan vara till hjälp både för planeraren och andra roller i den interna försörjningskedjan.  
+Med dynamisk orderspårning kan du utvärdera om du accepterar leveransorderförslag. Från leveranssidan visas den efterfrågan som skapade tillgången. Från efterfrågesidan identifierar den tillgången som ska täcka efterfrågan.  
 
-Dynamisk orderspårning kan alltså ses som ett verktyg som hjälper användare att bedöma om de ska acceptera de föreslagna leveransordrarna. Från tillgångssidan kan en användare se vilken efterfrågan som har skapat tillgången, och från efterfråganssidan vilken tillgång som ska täcka efterfrågan.  
+:::image type="content" source="media/nav_app_supply_planning_1_dynamic_order_tracking.png" alt-text="Exempel på dynamisk orderspårning.":::
 
-![Exempel på dynamisk orderspårning.](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Exempel på dynamisk orderspårning")  
+Läs mer på [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-För mer information, se [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
+I företaget med ett lågt artikelflöde och mindre avancerade produktstrukturer kan det räcka med att använda dynamisk orderspårning för leveransplanering. Men i mer upptagna miljöer ska planeringssystemet användas för att säkerställa att det finns en korrekt balanserad leveransplanering.  
 
-I företaget med ett lågt artikelflöde och mindre avancerade produktstrukturer kan det vara lämpligt att använda dynamisk orderspårning som huvudsakliga typ av tillförselplanering. Men i mer upptagna miljöer ska planeringssystemet användas för att säkerställa att det alltid finns en korrekt balanserad leveransplanering.  
+### Dynamisk orderspårning kontra planeringssystemet
 
-### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamisk orderspårning kontra planeringssystemet
+Det kan vara svårt att skilja mellan planeringssystemet och dynamisk orderspårning. Båda funktionerna visar utdata i planeringsförslaget genom att föreslå åtgärder som planeraren bör vidta. Dock skiljer sig sättet som utflödet produceras.  
 
-Vid en snabb överblick kan det vara svårt att skilja mellan planeringssystemet och dynamisk orderspårning. Båda funktionerna visar utdata i planeringsförslaget genom att föreslå åtgärder som planeraren bör vidta. Dock skiljer sig sättet som utflödet produceras.  
+Planeringssystemet hanterar hela tillgångs- och efterfrågemönstret för en artikel. Alla nivåer i hierarkistrukturen beaktas längs tids linjen. Dynamisk orderspårning är endast en åtgärd som löser situationen i den ordning som aktiverade den. Vid balansering av tillgång och efterfrågan skapar planeringssystemet länkar i ett aktivt kommandoläge. Vid dynamisk orderspårning skapas länkarna automatiskt när du anger en efterfrågan eller tillgång. När du t.ex. skapar en försäljnings- eller inköpsorder.  
 
-Planeringssystemet hanterar hela mönstret för tillgång-efterfrågan via alla nivåer av strukturhierarkin i tidslinjen, medan dynamisk orderspårning endast hanterar läget för ordern som aktiverade den. När tillgång och efterfrågan balanseras, skapar planeringssystemet länkar i användaraktiverat grupperingsläge, medan dynamisk orderspårning skapar länkarna automatiskt i farten, oavsett när användaren anger ett behov eller en leverans i programmet, t. ex. försäljningsorder eller inköpsorder.  
+Dynamisk orderspårning länkar efterfrågan och tillgång när data anges, i den ordning som de inkommer. Detta kan leda till en viss oordning i prioriteringar. En försäljningsorder som har registrerats först med ett förfallodatum som nästa månad kan t.ex. vara kopplad till leveransen i lager. Nästa försäljningsorder som förfaller i morgon kan orsaka ett åtgärdsmeddelande för att skapa en ny inköpsorder för att täcka det. I följande bild visas detta scenario.  
 
-Dynamisk orderspårning skapar länkar mellan efterfrågan och tillgång när data anges, i den ordning som de inkommer. Det kan leda till en viss oordning i prioriteringar. Exempelvis kan en försäljningsorder som har angetts först, med förfallodatum nästa månad, kopplas till tillgången i lager, medan nästa försäljningsorder som förfaller imorgon kan orsaka ett åtgärdsmeddelande att skapa en ny inköpsorder för att täcka den, som illustreras nedan.  
+:::image type="content" source="media/nav_app_supply_planning_1_dynamic_order_tracking_graph.png" alt-text="Exempel på orderspårning vid leveransplanering 1.":::
 
-![Exempel på orderspårning vid leveransplanering 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Exempel på orderspårning vid leveransplanering 1")  
+Planeringssystemet behandlar tillgång och efterfrågan för artiklar på en prioriterad order. Ordern prioriteras enligt förfallodatum och ordertyper. Det vill säga på grundval av first-needed-first-served. Den tar bort alla orderspårninglänkar som skapades dynamiskt och återställer dem enligt förfallodatumsprioritet. När planeringssystemet har körts har det löst alla obalanser mellan tillgång och efterfrågan, som illustreras nedan för samma data.
 
-Som motsats hanterar planeringssystemet all efterfrågan och tillgång för en viss artikel, i prioriterad ordning enligt förfallodatum och ordertyper, d.v.s., enligt first-needed/first-served. Den tar bort alla orderspårninglänkar som skapades dynamiskt och återställer dem enligt förfallodatumsprioritet. När planeringssystemet har körts har det löst alla obalanser mellan tillgång och efterfrågan, som illustreras nedan för samma data.  
+:::image type="content" source="media/nav_app_supply_planning_1_planning_graph.png" alt-text="Exempel på orderspårning vid leveransplanering 2.":::  
 
-![Exempel på orderspårning vid leveransplanering 2.](media/NAV_APP_supply_planning_1_planning_graph.png "Exempel på orderspårning vid leveransplanering 2")  
+När du har kört planeringen innehåller inte tabellen Åtgärdsmeddelandetrans. några åtgärdsmeddelanden. Dessa meddelanden ersätts av de åtgärder som föreslås i planeringsförslaget. Läs mer i [Orderspårninglänkar under planering](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).  
 
-Efter planeringskörningen återstår inga åtgärdsmeddelanden i tabellen Åtgärdsmeddelandetrans. eftersom de har ersatts med de föreslagna åtgärderna i planeringsförslaget  
+## Sekvens och prioritet i planering
 
-Mer information finns i [Orderspårningslänkar genom planering](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
+Sekvensen för beräkningarna i din plan är viktig för att få jobbet gjort inom rimlig tid. Prioriteringen av krav och resurser spelar också en viktig roll för att få de bästa resultatet.  
 
-## <a name="sequence-and-priority-in-planning"></a>Sekvens och prioritet i planering
+Planeringssystemet är efterfrågestyrt. Artiklar på hög nivå ska planeras före artiklar på låg nivå, eftersom de kan generera efterfrågan för artiklarna på låg nivå. Till exempel återförsäljningslagerställen ska planeras innan distributionscenter planeras, eftersom återförsäljningslagerstället kan innehålla ytterligare efterfrågan från distributionscentret. På en detaljerad balanseringsnivå, om en släppt leveransorder kan täcka en försäljningsorder, bör systemet inte skapa en ny leveransorder. En tillgång med ett specifikt partinummer ska inte fördelas för att täcka en generisk efterfrågan om en annan efterfrågan kräver det specifika partiet.  
 
-När du upprättar en plan är sekvensen med beräkningarna viktig för att få jobbet gjort inom en rimlig tidsram. Dessutom spelar prioriteringen av krav och resurser en viktig roll för att få de bästa resultatet.  
+### Artikelprioritet/lågnivåkod
 
-Planeringssystemet i [!INCLUDE[prod_short](includes/prod_short.md)] efterfrågestyrt. Artiklar på hög nivå ska planeras före artiklar på låg nivå, eftersom planen för artiklar på hög nivå artiklar kan generera ytterligare efterfrågan för artiklarna på låg nivå. Det innebär till exempel att återförsäljningslagerställen ska planeras innan distributionscenter planeras, eftersom planen för ett återförsäljningslagerställe kan innehålla ytterligare efterfrågan från distributionscentret. På en detaljerad saldonivå betyder det också att en försäljningsorder inte ska aktivera en ny leveransorder om en redan släppt leveransorder kan täcka försäljningsordern. På samma sätt ska en tillgång med ett specifikt partinummer inte fördelas för att täcka en generisk efterfrågan om en annan efterfrågan kräver det specifika partiet.  
+I en produktionsmiljö resulterar efterfrågan på en färdig, säljbar artikel i härledd efterfrågan på komponenter som ingår i den färdiga artikeln. Strukturer kontrollerar komponentstrukturen och kan omfatta flera nivåer av halvfärdiga artiklar. När du planerar en artikel på en nivå skapar det härledd efterfrågan på komponenter på nästa nivå. Denna hierarki leder till slut till en härledd efterfrågan på inköpta artiklar. Planeringssystemet planerar för artiklar efter deras rangordning i den totala strukturhierarkin. Systemet startar med färdiga säljbara artiklar på den översta nivån och fortsätter att dela upp produktstrukturen med artiklarna på lägre nivåer (enligt lågnivåkod).  
 
-### <a name="item-priority--low-level-code"></a>Artikelprioritet/lågnivåkod
+I följande bild visas i vilken ordning [!INCLUDE [prod_short](includes/prod_short.md)] leveransorder föreslås på den översta nivån. Förslagen antas och artiklar på låg nivå visas också.
 
-I en produktionsmiljö resulterar efterfrågan på en färdig, säljbar artikel i härledd efterfrågan på komponenter som ingår i den färdiga artikeln. Strukturer kontrollerar komponentstrukturen och kan omfatta flera nivåer av halvfärdiga artiklar. När du planerar en artikel på en nivå skapar det härledd efterfrågan på komponenter på nästa nivå, och så vidare. Det leder till slut till en härledd efterfrågan på inköpta artiklar. Därför planerar planeringssystemet för artiklar i den ordning som de är rankade i den totala strukturhierarkin, och börjar med färdiga säljbara artiklar på högsta nivån och fortsätter nedåt via produktstrukturen till artiklarna för lägre nivå (enligt lägsta-nivå-koden).  
+:::image type="content" source="media/nav_app_supply_planning_1_bom_planning.png" alt-text="Planera för strukturlistor.":::
 
-![Planera för strukturlistor.](media/NAV_APP_supply_planning_1_BOM_planning.png "Planera för strukturlistor")  
+Mer information om produktionsavvägningar finns i [Läsa in lagerprofilerna](design-details-balancing-demand-and-supply.md#load-inventory-profiles).  
 
-Figurerna visar i vilken följd systemet ger förslag för leveransorder på högsta nivå och – förutsatt att användaren godkänner dessa förslag – även för alla artiklar på lägre nivå.  
+#### Optimera prestanda för beräkningar på låg nivå
 
-Mer information om produktionsavvägningar finns i [Läsa in lagerprofilerna](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Beräkningar av kod på låg nivå kan påverka systemprestanda. Om du vill minska effekten kan du inaktivera **Dynamisk beräkning av lågnivåkod** på sidan **Produktionsinställningar**. När du gör det föreslår [!INCLUDE[prod_short](includes/prod_short.md)] att du skapar en post för återkommande jobbkö som uppdaterar koder på låg nivå dagligen. Du kan se till att jobbet kommer att köras utanför arbetstid genom att ange en starttid i fältet **Tidigaste startdatum/starttid**.
 
-#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimera prestanda för beräkningar på låg nivå
-
-Beräkningar av kod på låg nivå kan påverka systemprestanda. Om du vill minska effekten kan du inaktivera **Dynamisk beräkning av kod på låg nivå** på sidan **Produktionsinställningar**. När du gör det föreslår [!INCLUDE[prod_short](includes/prod_short.md)] att du skapar en post för återkommande jobbkö som uppdaterar koder på låg nivå dagligen. Du kan se till att jobbet kommer att köras utanför arbetstid genom att ange en starttid i fältet **Tidigaste startdatum/starttid**.
-
-Du kan också aktivera logik som påskyndar beräkningar av kod på låg nivå genom att välja **Optimera beräkning av kod på låg nivå** på sidan **Produktionsinställningar**. 
+Du kan också påskynda beräkningar av kod på låg nivå genom att välja växlingsknappen **Optimera beräkning av kod på låg nivå** på sidan **Produktionsinställningar**.
 
 > [!IMPORTANT]
-> Om du väljer att optimera prestanda använder [!INCLUDE[prod_short](includes/prod_short.md)] nya beräkningsmetoder att fastställer koder på låg nivå. Om du har ett tillägg som är beroende av de händelser som används av de gamla beräkningarna kan tillägget sluta fungera.   
+> Om du väljer att optimera prestanda använder [!INCLUDE[prod_short](includes/prod_short.md)] nya beräkningsmetoder att fastställer koder på låg nivå. Om du har ett tillägg som är beroende av de händelser som används av de gamla beräkningarna kan tillägget sluta fungera.
 
-### <a name="locations--transfer-level-priority"></a>Lagerställen/Prioritet för överföringsnivå
+### Lagerställen/Prioritet för överföringsnivå
 
-Företag som har verksamhet på fler än ett lagerställe kan behöva planera för varje lagerställe var för sig. Till exempel kan en artikels säkerhetslagernivå och dess partiformningsmetod skilja sig från ett lagerställe till ett annat. I det här fallet måste planeringsparametrarna anges per artikel och även per lagerställe.  
+Företag som har verksamhet på fler än ett lagerställe kan behöva planera för varje lagerställe var för sig. Till exempel kan en artikels säkerhetslagernivå och dess partiformningsmetod skilja sig från ett lagerställe till ett annat. Du måste ange planeringsparametrarna per artikel och lagerställe.  
 
-Det stöds med användning av lagerställeenheter där enskilda planeringsparametrar kan anges på nivån med lagerställeenheter. En lagerställeenhet kan ses som en artikel på ett visst lagerställe. Om användaren inte har definierat en lagerställeenhet för lagerstället kommer programmet att återgå till parametrarna som har angetts på artikelkortet. Programmet beräknar en plan endast för aktiva lagerställen, d.v.s där det finns befintligt behov eller tillgång för den angivna artikeln.  
+Du kan använda lagerställeenheter för att ange individuella planeringsparametrar. En lagerställeenhet kan ses som en artikel på ett visst lagerställe. Om du inte har definierat någon lagerställeenhet för lagerstället kommer [!INCLUDE [prod_short](includes/prod_short.md)] använda de parametrar som har angetts på artikelkortet. [!INCLUDE [prod_short](includes/prod_short.md)] beräknar endast en plan för aktiva lagerställen, där det finns befintlig efterfrågan eller tillgång för den angivna artikeln.  
 
-I princip kan valfri artikel hanteras på valfritt lagerställe, men programmets inställning till lagerställebegreppet är ganska strikt. En försäljningsorder för ett lagerställe kan exempelvis inte uppfyllas av lagersaldo på ett annat lagerställe. Antalet i lager måste först överföras till det lagerställe som anges på försäljningsordern.  
+Alla artiklar kan hanteras på valfritt lagerställe, men [!INCLUDE [prod_short](includes/prod_short.md)] har en ganska strikt inställning till lagerställebegreppet. En försäljningsorder för en artikel på ett lagerställe kan inte uppfyllas av lager på ett annat lagerställe. Antalet i lager måste först överföras till det lagerställe som anges på försäljningsordern.
 
-![Planera för lagerställeenheter.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planera för lagerställeenheter")  
+:::image type="content" source="media/nav_app_supply_planning_1_sku_planning.png" alt-text="Planera för lagerställeenheter.":::
 
-Mer information finns i [Designdetaljer: Planerade överföringar](design-details-transfers-in-planning.md).  
+Läs mer på [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md).  
 
-### <a name="order-priority"></a>Orderprioritet
+### Orderprioritet
 
-Inom en given lagerställeenhet representerar det begärda eller tillgängliga datumet den högsta prioriteten. Dagens efterfrågan ska hanteras före kommande dagars efterfrågan. Men förutom någon typ av prioritet, sorteras de olika tillgångs- och efterfråganstyperna enligt affärsbetydelse för att bestämma vilken efterfrågan som ska uppfyllas innan en annan efterfrågan uppfylls. På tillförselsidan avgör orderprioriteten vilken tillgångskälla som ska kopplas innan du kopplar andra tillgångskällor.  
+Inom en given lagerställeenhet representerar det begärda eller tillgängliga datumet den högsta prioriteten. Dagens efterfrågan ska hanteras före kommande dagars efterfrågan. Men förutom någon typ av prioritet, sorteras de olika tillgångs- och efterfråganstyperna enligt affärsbetydelse för att bestämma vilken efterfrågan som ska uppfyllas först. På tillgångssidan avgör orderprioriteten källan till tillgången som ska gälla först. Lär dig mer på [Prioritera order](design-details-balancing-demand-and-supply.md#prioritize-orders).  
 
-Mer information finns i [Prioritera order](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
+## Efterfrågeprognoser och avropsorder
 
-## <a name="demand-forecasts-and-blanket-orders"></a>Efterfrågeprognoser och avropsorder
+Både prognoser och avropsorder representerar förutsedd efterfrågan. Avropsorder, som täcker en kunds påtänkta inköp under en viss tidsperiod, fungerar för att minska osäkerheten i den allmänna prognosen. Avropsorder är en kundspecifik prognos utöver för den ospecificerade prognosen som illustreras i följande bild.  
 
-Både prognoser och avropsorder representerar förutsedd efterfrågan. Avropsorder, som täcker en kunds påtänkta inköp under en viss tidsperiod, fungerar för att minska osäkerheten i den allmänna prognosen. Avropsorder är en kundspecifik prognos utöver för den ospecificerade prognosen som illustreras under.  
+:::image type="content" source="media/nav_app_supply_planning_1_forecast_and_blanket.png" alt-text="Planera med prognoser.":::
 
-![Planera med prognoser.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planera med prognoser")  
+Läs mer på [Prognostiserad efterfrågan minskas av försäljningsorder](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-Mer information finns i [Prognostiserad efterfrågan minskas av försäljningsorder](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
+## Planeringsfördelning
 
-## <a name="planning-assignment"></a>Planeringsfördelning
-
-Alla artiklar ska planeras för, men det finns ingen anledning att beräkna en plan för en artikel om det inte har skett någon ändring i efterfråge- eller tillgångsmönstret sedan senaste gången som en plan beräknades.  
-
-Om användaren har angett en ny försäljningsorder eller har ändrat en befintlig finns det anledning att beräkna om planen. Andra anledningar är en ändring i prognos eller önskat antal i säkerhetslagret. När du ändrar en struktur genom att lägga till eller ta bort en komponent indikerar det troligtvis en ändring, men endast för komponentartikeln.  
+Alla artiklar ska planeras om när mönstret för tillgång och efterfrågan har ändrats sedan den senaste gången en plan beräknades. Om du till exempel anger en ny försäljningsorder eller ändrar en befintlig beräknar du om planen. Andra anledningar för omplandering är en ändring i prognos eller antal i säkerhetslagret. När du ändrar en struktur genom att lägga till eller ta bort en komponent indikerar det troligtvis en ändring, men endast för komponentartikeln.  
 
 Planeringssystemet övervakar sådana händelser och tilldelar lämpliga artiklar för planeringen.  
 
-För flera lagerställen sker fördelningen på nivån med kombinationen av artikel per lagerställe. Om till exempel en försäljningsorder har skapats vid endast ett lagerställe, kommer programmet att tilldela artikeln vid det specifika lagerstället för planeringen.  
+För flera lagerställen sker fördelningen på nivån med kombinationen av artikel per lagerställe. Om till exempel en försäljningsorder har skapats vid endast ett lagerställe, kommer [!INCLUDE [prod_short](includes/prod_short.md)] att tilldela artikeln vid det specifika lagerstället för planeringen.  
 
-Anledningen för att välja artikel för planeringen är en fråga om systemprestanda. Om ingen ändring i en artikels efterfrågans-/tillgångsmönster har skett kommer planeringssystemet inte att föreslå några åtgärder som ska vidtas. Utan planeringsfördelningen måste systemet utföra beräkningarna för alla artiklar för att avgöra vad som ska planeras för, och det skulle dränera systemresurser.  
+Anledningen för att välja artikel för planeringen är en fråga om systemprestanda. Om ingen ändring i en artikels efterfrågans-/tillgångsmönster har skett kommer planeringssystemet inte att föreslå några åtgärder som ska vidtas. Utan planeringsfördelningen måste systemet utföra beräkningarna för alla artiklar för att avgöra vad som ska planeras för. För att lära dig mer om orsaker till att tilldela en artikel för planering finns i [Designdetaljer: Tabell för planeringsfördelning](design-details-planning-assignment-table.md).  
 
-Den fullständiga listan över anledningar för att tilldela en artikel för planering finns i [Designdetaljer: Tabell för planeringsfördelning](design-details-planning-assignment-table.md).  
+Följande är tillgängliga planeringsalternativ:  
 
-Planeringsalternativen i [!INCLUDE[prod_short](includes/prod_short.md)] är:  
+* **Beräkna fullständig plan** beräknar alla valda artiklar oavsett om det är nödvändigt eller inte.  
+* **Beräkna nettoförändringplan** beräknar endast de valda artiklar som har någon ändring i efterfråge-/tillgångsmönstret, och därför har tilldelats för planering.  
 
--   Beräkna fullständig plan – Beräknar alla valda artiklar oavsett om det är nödvändigt eller inte.  
--   Beräkna nettoförändringplan – Beräknar endast de valda artiklar som har någon ändring i efterfråge-/tillgångssmönstret, och därför har tilldelats för planering.  
+Vissa tror att nettoförändringsplaneringen ska utföras i farten, till exempel när försäljningsorder anges. Att planera i farten kan vara förvirrande eftersom dynamisk orderspårning och åtgärdsmeddelanden också beräknas i farten. [!INCLUDE[prod_short](includes/prod_short.md)] ger disponibel att lova-kontroll i realtid. Den innehåller popup-varningar när du anger försäljningsorder och den aktuella leveransplanen inte kan uppfylla efterfrågan.  
 
-Vissa användare tror att nettoförändringsplaneringen ska utföras i farten, till exempel när försäljningsorder anges. Det kan vara förvirrande eftersom dynamisk orderspårning och åtgärdsmeddelanden också beräknas i farten. Dessutom erbjuder [!INCLUDE[prod_short](includes/prod_short.md)] realtidstillgänglig Disponibel att lova-kontroll, som ger popup-varningar när du anger försäljningsorder om behovet inte kan uppfyllas enligt den aktuella finns leveransplaneringen.  
+Planeringssystemet planerar endast för de artiklar som du har förberett med lämpliga planeringsparametrar. Annars antas det att du planerar artiklarna manuellt eller halvautomatiskt genom att använda funktionen Orderplanering. Mer information om automatiska planeringsförfaranden finns i [Designdetaljer: Balansera tillgång och efterfrågan](design-details-balancing-demand-and-supply.md).  
 
-Utöver dessa fall planerar planeringssystemet endast för de artiklar som användaren har förberett med lämpliga planeringsparametrar. Annars antas det att användaren planerar artiklarna manuellt eller halvautomatiskt genom att använda funktionen Orderplanering.  
-
-Mer information om automatiska planeringsförfaranden finns i [Designdetaljer: Balansera tillgång och efterfrågan](design-details-balancing-demand-and-supply.md).  
-
-## <a name="item-dimensions"></a>Artikeldimensioner
+## Artikeldimensioner
 
 Tillgång och efterfrågan kan ha variantkoder och lagerställekoder som måste respekteras när planeringssystemet balanserar efterfrågan och tillgång.  
 
-Systemet hanterar variant- och lagerställekoder som artikeldimensioner på en försäljningsorderrad, lagertransaktion och så vidare. Därefter beräknas en plan för varje kombination av variant och lagerställe som om kombinationen är ett separat artikelnummer.  
+[!INCLUDE [prod_short](includes/prod_short.md)] hanterar variant- och lagerställekoder som artikeldimensioner på en försäljningsorderrad, lagertransaktion och så vidare. Därefter beräknas en plan för varje kombination av variant och lagerställe som om kombinationen är ett separat artikelnummer.  
 
-I stället för att beräkna en teoretisk kombination av variant och lagerställe, beräknas endast de kombinationer som faktiskt finns i databasen.  
+I stället för att beräkna en teoretisk kombination av variant och lagerställe, beräknar [!INCLUDE [prod_short](includes/prod_short.md)] endast de kombinationer som faktiskt finns i databasen. För att lära dig mer om hur planeringssystemet hanterar lagerställekoder på begäran, gå till [Designdetaljer: Efterfrågan på tomt lagerställe](design-details-balancing-demand-and-supply.md).  
 
-Se [Designdetaljer: Efterfrågan på tomt lagerställe](design-details-balancing-demand-and-supply.md) för mer information om hur planeringssystemet hanterar platskoder på begäran.  
+## Artikelattribut
 
-## <a name="item-attributes"></a>Artikelattribut
+Artiklar har ofta allmänna attribut, såsom artikelnummer, variantkod, platskod och typ av beställning. Varje tillgångs- och efterfråganshändelse kan dock ha andra specifikationer, t.ex. serie- eller partinummer. Planeringssystemet planerar dessa attribut på vissa sätt beroende på nivån av specifikation.  
 
-Förutom allmänna artikeldimensioner, t.ex artikelnummer, variantkod, lagerställekod och typ av order, kan varje tillgångs- och efterfråganshändelse ha ytterligare specifikationer i form av serie-/partinummer. Planeringssystemet planerar dessa attribut på vissa sätt beroende på nivån av specifikation.  
+Order-till-order-koppling mellan tillgång och efterfrågan är en annan typ av attribut som påverkar planeringssystemet. Lär dig mer [Order-till-order-länkar](#order-to-order-links).
 
-Order-till-order-koppling mellan tillgång och efterfrågan är en annan typ av attribut som påverkar planeringssystemet.  
+### Specifika attribut
 
-### <a name="specific-attributes"></a>Specifika attribut
+Vissa efterfrågansattribut är specifika och en försörjning måste matcha dem exakt.
 
-Vissa attribut på efterfrågan är specifika och måste exakt matchas av en motsvarande tillgång. Följande två specifika attribut finns:  
+* Serie-/partinummer som kräver en viss koppling (dessa attribut krävs om du aktiverar växlingsknappen för **SN-specifik spårning** eller **Partispecifik spårning** på sidan **Artikelspårning kodkort** för artikelspårningskoden som används av artikeln).  
+* Länkar till leveransorder som skapas manuellt eller automatiskt för en viss efterfrågan (order-till-order-länkar).  
 
--   Efterfrågade serie-/partinummer som kräver en viss koppling (kryssrutan **SN-specifik spårning** eller **Partispecifik spårning** är markerad på sidan **Kodkort för artikelspårning** för artikelspårningskoden som används av artikeln).  
--   Länkar till leveransorder som skapas manuellt eller automatiskt för en viss efterfrågan (order-till-order-länkar).  
+Planeringssystemet gäller följande regler till dessa attribut:  
 
-För dessa attribut har planeringssystemet följande regler:  
+* Efterfrågan med specifika attribut kan endast uppfyllas av tillgång med matchande attribut.  
+* Tillgång med särskilda attribut kan också uppfylla efterfrågan som inte ber specifikt om dessa attribut.  
 
--   Efterfrågan med specifika attribut kan endast uppfyllas av tillgång med matchande attribut.  
--   Tillgång med särskilda attribut kan också uppfylla behov som inte ber specifikt om dessa attribut.  
+Om lager eller prognostiserade leveranser inte kan möta en efterfrågan på specifika attribut, föreslår planeringssystemet en ny leveransorder utan att ta hänsyn till planeringsparametrar.  
 
-Om ett behov för specifika attribut inte kan uppfyllas av lager eller planerade leveranser, kommer planeringssystemet att föreslå en ny leveransorder som täcker den aktuella efterfrågan utan hänsyn till planeringsparametrar.  
+### Icke-specifika attribut
 
-### <a name="non-specific-attributes"></a>Icke-specifika attribut
+Serie- eller partinummerartiklar utan särskilda artikelspårningsinställningar kan ha icke-specifika serie- eller partinummer. Dessa typer av nummer kan tillämpas på alla serie- eller partinummer. Planeringssystemet har mer frihet att matcha, till exempel en serieefterfrågan med en serietillgång, vanligtvis i lagret.  
 
-Serie-/partinumrerade artiklar utan specifik artikelspårningsinställning kan ha serie-/partinummer som inte måste kopplas till exakt samma serie-/partinummer, men kan kopplas till varje serie- eller partinummer. Det ger planeringssystemet mer frihet att matcha, till exempel en serieefterfrågan med en serietillgång, vanligtvis i lagret.  
+Tillgång/efterfrågan med serie-eller parti nummer, specifika eller icke-specifika, är hög prioritet och är undantagna från den frysta zonen. De ingår i planeringen även om de förfaller innan startdatumet för planeringen. Mer information finns i [Serie- och partinummer läses in efter specifikationsnivå](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).
 
-Efterfrågan med serie-/partinummer, specifika eller icke-specifika, anses högprioriterade och är därför undantagna från den frysta zonen, vilket betyder att de ska ingå i planering även om de förfaller före planeringsstartdatumet.  
+Mer information om hur planeringssystemet balanserar attribut finns i [Serie- och partinummer och order-till-order-länkar är undantagna från den tidigare perioden](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period).  
 
-Mer information finns i [Serie-/partinummer läses in efter specifikationsnivå](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
+## Order-till-order-länkar
 
-Mer information om hur planeringssystemet balanserar attribut finns i [Serie-/partinummer och Order-till-order-länkar är undantagna från den frysta zonen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
+Order till order innebär att du kan köpa, montera eller producera en artikel för en viss efterfrågan. Det finns flera anledningar till att välja den här principen:
 
-## <a name="order-to-order-links"></a>Order-till-order-länkar
+* Efterfrågan är ovanlig.
+* Ledtiden är obetydlig.
+* De nödvändiga attributen varierar.  
 
-Order-till-order-anskaffning betyder att en artikel köps in, monteras eller produceras för att exklusivt täcka en viss efterfrågan. Vanligtvis gäller det A-artiklar och motiveringen för att välja den här metoden kan vara att efterfrågan är ovanlig, ledtiden är oansenlig eller de obligatoriska attributen varierar.  
-
-Ett annat specialfall som använder order-till-order-koppling är när en monteringsorder är kopplad till en försäljningsorder i ett scenario med montering mot kundorder.  
+Ett annat fall som använder order-till-order-koppling är när en monteringsorder är kopplad till en försäljningsorder i ett scenario med montering mot kundorder.  
 
 Order-till-order-länkar kopplas mellan efterfrågan och tillgång på fyra sätt:  
 
--   När det planerade artikeln använder partiformningsmetoden Order.  
--   När du använder produktionsprincipen Tillverka-Mot-Order för att skapa produktionsorder på flera nivåer eller av projekttyp (som producerar nödvändiga komponenter på samma produktionsorder).  
--   När du skapar produktionsorder för försäljningsorder med funktionen Försäljningsorderplanering.  
--   När du sammanställer en artikel till en försäljningsorder. (Monteringsmetoden anges till Montering mot kundorder.  
+* När det planerade artikeln använder partiformningsmetoden **Order**  
+* När du använder produktionsprincipen tillverka-mot-order för att skapa produktionsorder på flera nivåer eller av projekttyp (som producerar nödvändiga komponenter på samma produktionsorder)  
+* När du skapar produktionsorder för försäljningsorder med funktionen Försäljningsorderplanering  
+* När du monterar en artikel på en försäljningsorder (**Monteringsmetod** anges till **Montering mot kundorder**)  
 
-I dessa fall föreslår planeringssystemet bara att beställa det antal som krävs. När den har skapats fortsätter inköps-, produktions- eller monteringsordern att matcha den motsvarande efterfrågan. Om t.ex en försäljningsorder ändras i tid eller antal, kommer planeringssystemet att föreslå att motsvarande leveransorder ändras på samma sätt.  
+Planeringssystemet föreslår att du bara beställer det antal som krävs. Inköps-, produktions- eller monteringsordern fortsätter matcha efterfrågan. Om t.ex en försäljningsorder ändras i tid eller antal, kommer planeringssystemet föreslår att du ändrar leveransorder på samma sätt.  
 
-När order-till-order-länkar finns tar inte planeringssystemet med kopplad tillgång eller lager i balanseringen. Det är upp till användaren att utvärdera om den länkade tillgången ska används för att täcka annan eller ny efterfrågan, och i så fall ta bort leveransordern eller reservera den länkade tillgången manuellt.  
+När order-till-order-länkar finns tar inte planeringssystemet med kopplad tillgång eller lager i balanseringen. Planeraren kan bestämma om man vill använda den kopplade tillgången eller en ny efterfrågan. I det senare fallet kan de ta bort leveransordern eller reservera den kopplade tillgången manuellt.  
 
-Reservationer och orderspårninglänkar bryts om en situation blir omöjlig, till exempel att efterfrågan till ett datum tidigare än leveransen. Order-till-order-länken anpassas till eventuella ändringar i efterfrågan eller tillgång och därmed bryts länken aldrig.  
+Reservationer och orderspårningslänkar bryts om en situation blir omöjlig. Till exempel när efterfrågan flyttas till ett datum som är tidigare än tillgången. Order-till-order-länkar anpassas till ändringar i efterfrågan eller tillgång och bryts aldrig.  
 
-## <a name="reservations"></a>Reservationer
+## Reservationer
 
-Planeringssystemet tar inte med några reserverade antal i beräkningen. Till exempel om en försäljningsorder har avslutats helt eller delvis mot reserverat antal i lager, kan det reserverade antalet i lagret inte användas för att täcka annan efterfrågan. Planeringssystemet tar inte med denna uppsättning med efterfrågan-tillgång i beräkningen.  
+Planeringssystemet tar inte med några reserverade antal i beräkningen. Om t.ex. ett antal för en försäljningsorder är helt eller delvis reserverat kan du inte använda kvantiteten för att täcka andra efterfrågan.
 
-Planeringssystemet inkluderar fortfarande reserverat antal i den planerade lagerprofilen, eftersom alla kvantiteter måste beaktas både när du fastställer när beställningspunkten har passerats, och hur många som ska beställas för att uppnå och inte överskrida den maximala lagernivån. Därför leder onödiga reservationer till ökade risk för att lagernivåerna bli låga, eftersom planeringslogiken inte identifierar reserverat antal.  
+Planeringssystemet tar inte med några reserverade antal i den planerade lagerprofilen. Det måste ta hänsyn till alla kvantiteter för att bestämma när ombeställningspunkten har passerat och hur många som ska beställas för att uppnå den maximala lagernivån. Onödiga reservationer kan öka risken att lagernivåerna bli låga, eftersom planeringslogiken inte identifierar reserverat antal.  
 
-Följande illustration visar hur reservationer kan förhindra den mest genomförbara planen.  
+I följande bild visas hur reservationer kan förhindra planering.  
 
-![Planera med reservationer.](media/NAV_APP_supply_planning_1_reservations.png "Planera med reservationer")  
+:::image type="content" source="media/nav_app_supply_planning_1_reservations.png" alt-text="Planera med reservationer.":::
 
-För mer information, se [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  
+Läs mer på [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-## <a name="warnings"></a>Varningar
+## Varningar
 
-Den första kolumnen i planeringsförslaget är avsedd för varningsfälten. I det här fältet kommer alla planeringsrader som skapats för en ovanlig situation att ha en varningsikon, som användaren kan klicka på för att få mer information.  
+Den första kolumnen i planeringsförslaget är avsedd för varningsfälten. En varningsikon visas när du skapar en planeringsrad för en ovanlig situation.  
 
-Tillgången på planeringsrader med varningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Systemet kan dock konfigurerar för att följa vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar. Mer information finns i beskrivningen av alternativen för batch-jobbet **Skapa inköpsförslag – Planeringsförslag** respektive batchjobbet **Inköpskalkylarket Skapa inköpsförslag – inköpskalkylark** .  
+Tillgången på planeringsrader med varningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Systemet kan dock konfigurerar för att följa vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar. Varningsinformationen visas på sidan **Ej spårade planeringselement** som är också användas för att visa orderspårningslänkar till icke orderrelaterade nätverkstyper. Det finns tre typer av varningar:  
 
-Varningsinformationen visas på sidan **Ej spårade planeringselement** som är också användas för att visa orderspårningslänkar till icke orderrelaterade nätverkstyper. Följande typer av varningar förekommer:  
+* Nödsituation  
+* Undantag  
+* Observera!  
 
--   Nödsituation  
--   Undantag  
--   Observera!  
+:::image type="content" source="media/nav_app_supply_planning_1_warnings.png" alt-text="Varningar i planeringsförslaget.":::
 
-![Varningar i planeringsförslaget.](media/NAV_APP_supply_planning_1_warnings.png "Varningar i planeringsförslaget")  
-
-### <a name="emergency"></a>Nödsituation
+### Nödsituation
 
 Varningen för nödsituation visas i två olika situationer:  
 
--   När lagret är negativt på startdatumet för planeringen.  
--   När det finns antedaterade försörjnings- eller behovshändelser.  
+* När lagret är negativt på startdatumet för planeringen  
+* När det finns antedaterade tillgångs- eller efterfrågehändelser  
 
-Om lagernivån för en artikel är negativ på startdatumet för planeringen föreslår systemet en nödleverans för det negativa antalet med leverans på startdatumet för planeringen. I varningstexten anges startdatumet och antalet i nödordern. Mer information finns i [Hantera planerat negativt lager](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
+Om lagernivån för en artikel är negativ på startdatumet för planeringen föreslår systemet en nödleverans för det negativa antalet med leverans på startdatumet för planeringen. I varningstexten anges startdatumet och antalet i nödordern. Läs mer på [Hantera planerat negativt lagersaldo](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
-Eventuella dokumentrader med förfallodatum före startdatumet för planeringen konsolideras i en nödleveransorder för artikeln med leverans på startdatumet för planeringen.  
+Dokumentrader med förfallodatum före startdatumet för planeringen konsolideras i en nödleveransorder. Beställningen är planerad att anlända på planeringsstartdatum.  
 
-### <a name="exception"></a>Undantag
+### Undantag
 
 Undantagsvarningen visas om det planerade disponibla lagret sjunker under nivån för säkerhetslagret. Planeringssystemet föreslår en leveransorder för att uppfylla behovet på förfallodatumet. I varningstexten framgår vilket antal som gäller för artikelns säkerhetslager och det datum då det understigs.  
 
-Att bryta säkerhetslagrets nivå betraktas som ett undantag eftersom det inte bör inträffa om beställningspunkten har ställts in korrekt. Mer information finns i [Ombeställningspunktens roll](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
+Överträdelse av säkerhetslagernivån är ett undantag. Det är inte fallet om ombeställningspunkten är korrekt inställd. Mer information finns i [Ombeställningspunktens roll](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
-I allmänhet garanterar exceptionella orderförslag att planerat tillgängligt lager aldrig är lägre än säkerhetslagernivån. Detta innebär dock att det föreslagna antalet bara täcker säkerhetslager, utan att överväga planeringsparametrarna. Dock i alla scenarier ska orderändringsfält övervägas.  
+Exceptionella orderförslag hjälper till säkerställa att planerat tillgängligt lager aldrig är lägre än säkerhetslagernivån. Det föreslagna antalet täcker säkerhetslager, utan att överväga planeringsparametrarna. Dock i alla scenarier ska orderändringsfält övervägas.  
 
 > [!NOTE]  
->  Planeringssystemet kan ha förbrukats säkerhetslagret med avsikt och fyller sedan omedelbart på det. Mer information finns i [Säkerhetslager kan förbrukas](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
+> Planeringssystemet kan ha förbrukats säkerhetslagret med avsikt och fyller sedan omedelbart på det. Lär dig mer på [Förbruka säkerhetslager](design-details-balancing-demand-and-supply.md#consume-safety-stock).
 
-### <a name="attention"></a>Observera!
+### Observera!
 
 Den här varningen visas i tre olika situationer:  
 
--   Startdatumet för planeringen ligger tidigare än arbetsdatumet.  
--   Planeringsraden föreslår att en släppt inköps- eller produktionsorder ändras.  
--   Det planerade lagret överstiger överflödesnivån på förfallodatumet. Mer information finns i [Hålla sig under överflödesnivån](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
+* Startdatumet för planeringen ligger tidigare än arbetsdatumet.  
+* Planeringsraden föreslår att en släppt inköps- eller produktionsorder ändras.  
+* Det planerade lagret överstiger överflödesnivån på förfallodatumet. Lär dig mer på [Hålla sig under överflödesnivån](design-details-handling-reordering-policies.md#stay-below-the-overflow-level).  
 
 > [!NOTE]  
->  Vid planering av rader med varningar är fältet **Acceptera åtgärdsmeddelande** inte markerat, eftersom planeraren förväntas att undersöka dessa rader innan planen utförs.  
+> Vid planeringsrader med varningar är fältet **Acceptera åtgärdsmeddelande** inte markerat, eftersom planeraren förväntas att undersöka dessa rader innan planen utförs.  
 
-## <a name="error-logs"></a>Felloggar
+## Felloggar
 
-På sidan Skapa inköpsförslag kan användaren välja fältet **Stoppa och visa första felet** för att planeringskörningen ska stanna när den träffar på det första felet. På samma gång visas ett meddelande med information om felet. Om det finns ett fel, kommer endast de planeringsrader som skapades innan felet påträffades att visas i planeringsförslaget.  
+På sidan för förfrågan **Skapa inköpsförslag** kan du välja fältet **Stoppa och visa första felet** för att planeringskörningen ska stanna när den träffar på det första felet. Ett meddelande visas med information om felet. Om det finns ett fel visar planeringsförslaget endast de planeringsrader som gjordes framgångsrikt innan felet inträffade.  
 
-Om fältet inte har markerats kommer batchjobbet Skapa inköpsförslag att fortsätta tills det har slutförts. Fel kommer inte att avbryta batch-jobbet. Om det finns fler än ett fel, visas ett meddelande efter slutförandet som meddelar hur många artiklar som påverkas av fel. Sidan **Logg över planeringsfel** öppnas därefter för att visa mer information om felet och ange länkar till de dokument eller artikelkort som påverkas.  
+Om fältet inte har markerats kommer batchjobbet **Skapa inköpsförslag** att fortsätta tills det har slutförts. Fel kommer inte att avbryta batch-jobbet. Om det finns fel visas ett meddelande som anger hur många objekt som påverkades. Sidan **Logg över planeringsfel** ger mer information om felet och ange länkar till de dokument eller konfigurationer som påverkas.  
 
-![Felmeddelanden i planeringsförslaget.](media/NAV_APP_supply_planning_1_error_log.png "Felmeddelanden i planeringsförslaget")  
+:::image type="content" source="media/nav_app_supply_planning_1_error_log.png" alt-text="Felmeddelanden i planeringsförslaget.":::
 
-## <a name="planning-flexibility"></a>Planeringsflexibilitet
+## Planeringsflexibilitet
 
-Det är inte alltid praktiskt att planera en befintlig leveransorder, till exempel när produktionen har inletts eller extra personer anställs på en viss dag för att utföra jobbet. Om du vill ange om en befintlig beställning kan ändras av planeringssystemet har alla leveransorderrader fältet Planeringsflexibilitet med två alternativ: Obegränsat och Ingen. Om fältet har värdet Ingen kommer planeringssystemet inte försöka ändra leveransorderraden.  
+Det är alltid praktiskt att planera en befintlig leveransorder. Till exempel när produktionen har startats eller om du anställer extra personal på en viss dag för att utföra jobbet. Om du vill ange om planeringssystemet kan ändra en order kommer alla leveransorderrader ha fältet **Planeringsflexibilitet** med två alternativ: **Obegränsat** och **Ingen**. Om fältet har värdet **Ingen** kommer planeringssystemet inte försöka ändra leveransorderraden.  
 
-Fältet kan ställas in manuellt av användaren, men i vissa fall ställs det in automatiskt. Det faktum att planeringsflexibilitet kan ställas in manuellt av användaren är viktigt, eftersom det gör det lätt att anpassa förbrukningen av funktionen till olika arbetsflöden och affärsfall.  
+Du kan ställa in fältet manuellt, men i vissa fall ställs det in automatiskt av [!INCLUDE [prod_short](includes/prod_short.md)]. Det faktum att du kan ställa in planeringsflexibilitet är viktigt, eftersom det gör det lätt att anpassa användningen av funktionen till olika arbetsflöden och affärsfall. Mer information om hur detta fält används finns i [Designdetaljer: Planerade överföringar](design-details-transfers-in-planning.md).  
 
-Mer information om hur detta fält används finns i [Designdetaljer: Planerade överföringar](design-details-transfers-in-planning.md).  
+## Orderplanering
 
-## <a name="order-planning"></a>Orderplanering
-
-Det grundläggande leveransplaneringsverktyget som representeras av sidan **Orderplanering** har utformats för manuellt beslutsfattande. Den beaktar inte några planeringsparametrar och diskuteras därför inte vidare i det här dokumentet. Mer information finns i [Planera för ny behovsorder efter order](production-how-to-plan-for-new-demand.md).  
+Det grundläggande leveransplaneringsverktyget som representeras av sidan **Orderplanering** har utformats för manuellt beslutsfattande. Den beaktar inte några planeringsparametrar och diskuteras därför inte vidare i den här artikeln. Mer information finns i [Planera för ny behovsorder efter order](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
->  Orderplanering bör inte användas om företaget redan använder planering eller inköpskalkylark. Leveransorder som skapas från sidan **Orderplanering** kan ändras eller tas bort under den automatiska planeringskörningen. Detta beror på att den automatiska planeringskörningen använder planeringsparametrarna och dessa kanske inte beaktas av användaren som skapade den manuella planen på sidan Orderplanering.  
+> Vi rekommenderar att du inte använder orderplanering om företaget redan använder planering eller inköpskalkylark. Leveransorder som skapas från sidan **Orderplanering** kan ändras eller tas bort under den automatiska planeringskörningen. Dessa ändringar beror på att den automatiska planeringskörningen använder planeringsparametrarna och dessa kanske inte beaktas när du skapade den manuella planen på sidan Orderplanering.  
 
-## <a name="finite-loading"></a>Bestämd beläggning
+## Bestämd beläggning
 
-[!INCLUDE[prod_short](includes/prod_short.md)] är ett ERP-system av standardtyp, inget avsändningssystem eller kontrollsystem för butiksgolv. Den planerar för ett möjligt utnyttjande av resurser genom att ange grovt schema, men det skapar och underhåller inte automatiskt detaljerade scheman som baseras på prioriteter eller optimeringsregler.  
+[!INCLUDE[prod_short](includes/prod_short.md)] ger ett grovt schema för att planera rimlig användning av resurser. Den skapar och underhåller inte automatiskt detaljerade scheman baserat på prioriteringar eller optimeringsregler.  
 
-Det påtänkta användningen av funktionen Kap.begränsning för resurs är 1): om du vill undvika överbelastning av specifika resurser och 2): om du vill säkerställa att ingen kapacitet blir ej fördelad om den kan öka produktionstiden för en produktionsorder. Funktionen har inga anläggningar eller alternativ om du vill prioritera eller optimera operationer, vilket man kan förvänta sig i ett avsändningssystem. Det kan ge en grov uppskattning av kapaciteten som är praktisk för att identifiera flaskhalsar och undvika att överlasta resurser.  
+Den avsedda användningen av resursfunktionen för kapacitetsbegränsningar är följande:
 
-När du ska planera med kapacitetsbegränsade resurser ser systemet till att ingen resurs beläggs över sin definierade kapacitet (kritisk beläggning). Det ske genom att tilldela varje operation till den närmaste tillgängliga tidsluckan. Om tidsluckan inte är tillräckligt stor för att slutföra hela åtgärden kommer åtgärden att uppdelas i två eller flera delar som placeras i de närmaste tidsluckorna.  
+* För att undvika överlagring av resurser
+* För att säkerställa att kapaciteten inte lämnas ej fördelad om det skulle kunna minska den omvända tiden för en produktionsorder
+
+När du ska planera med kapacitetsbegränsade resurser ser [!INCLUDE [prod_short](includes/prod_short.md)] till att resurser inte beläggs över sin definierade kapacitet (kritisk beläggning). Det tilldelar varje åtgärd till den närmaste tillgängliga tidsluckan. Om tidsluckan inte är tillräckligt stor för att slutföra hela åtgärden kommer åtgärden att uppdelas i två eller flera delar i de närmaste tidsluckorna.  
 
 > [!NOTE]  
 > I händelse av åtgärdsdelning tilldelas inställningstiden bara en gång, eftersom det antas att vissa manuella justeringen sker för att optimera schemat.  
 
-Dämpartid kan läggas till i resurser för att minimera åtgärdsdelning. Det gör att systemet kan schemalägga laddning till den sista möjliga dagen genom att överskrida den kritiska beläggningsprocenten något om det kan minska antalet operationer som delas.  
+Du kan lägga till dämpartid i resurser för att minimera åtgärdsdelning. Denna tid låter [!INCLUDE [prod_short](includes/prod_short.md)] schemalägga beläggningen den sista tänkbara dagen genom att den kritiska beläggningsprocenten överskrids något.  
 
-Detta slutför översikten över centrala koncept för leveransplanering i [!INCLUDE[prod_short](includes/prod_short.md)]. Följande avsnitt utforskar dessa begrepp närmare och placerar dem i kontexten av kärnplaneringsprocedurerna, balansering av efterfrågan och tillgång samt hanteringen av partiformningsmetoder.  
-
-## <a name="see-also"></a>Se även
+## Se även
 
 [Designdetaljer: Överföringar i planering](design-details-transfers-in-planning.md)  
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  

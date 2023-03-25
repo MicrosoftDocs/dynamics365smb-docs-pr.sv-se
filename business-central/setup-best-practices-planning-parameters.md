@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950179"
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Skapa metodtips: planeringsparametrar
+# Skapa metodtips: planeringsparametrar
+
 Snabbfliken **Planering** på artikelkortet är mitten av ett företags försörjningskedja. Det är mycket viktigt att ställa in rätt planeringsparametrar för kostnadseffektiv lagerkontroll och hög kundservicenivå.  
 
  I tabellen nedan finns best practice för hur du lägger upp valda planeringsparameterfält. Välj länken i kolumnen **Inställningsfält** om du vill ha mer information om ett fält.  
@@ -35,16 +30,16 @@ Snabbfliken **Planering** på artikelkortet är mitten av ett företags försör
 |Avrundning|I kostsam produktion ange till 0,00001.|Stora avrundningskvantiteter av kassationsartiklar, eller materialförbrukning kan uppgå till mycket stor lagerkostnader. Den kan därför vara nödvändigt att ange den minsta avrundningsprecisionen för att minska den potentiella kostnad.|  
 
 > [!NOTE]  
->  De bästa praxisna för planeringsparametrarna på artikelkort kan också tillämpas på samma fält på lagerställeenhetskort.  
->   
->  Om företag planerar för behov på olika lagerställen, rekommenderas det att att definiera lagerställeenheter för varje lagerställe och att alla behov skapas, med hjälp av ett värde i fältet **Lagerställekod** . Mer information finns i [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md).  
+> De bästa praxisna för planeringsparametrarna på artikelkort kan också tillämpas på samma fält på lagerställeenhetskort.  
+>
+> Om företag planerar för behov på olika lagerställen, rekommenderas det att att definiera lagerställeenheter för varje lagerställe och att alla behov skapas, med hjälp av ett värde i fältet **Lagerställekod** . Läs mer på [Designdetaljer: Planera med och utan lagerställen](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Se även  
- [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)   
- [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
- [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
- [Designdetaljer: Efterfrågan vid tomt lagerställe](design-details-demand-at-blank-location.md)  
- [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Se även  
+[Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
+[Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
+[Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
+[Designdetaljer: Planera med och utan lagerställen](production-planning-with-without-locations.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

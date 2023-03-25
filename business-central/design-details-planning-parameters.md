@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: planning, design
+ms.search.keywords: 'planning, design'
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131983"
 ---
-# <a name="design-details-planning-parameters"></a>Designdetaljer: Planeringsparametrar
+# Designdetaljer: Planeringsparametrar
 I det här avsnittet beskrivs de olika planeringsparametrarna som du kan använda i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Det sätt som planeringssystemet styr artikeltillgång bestäms av olika inställningar på artikelkortet eller lagerställeenheten, och inställningar i produktionskonfigurationen. Följande tabell visar hur parametrarna används för planering.  
@@ -30,10 +24,10 @@ Det sätt som planeringssystemet styr artikeltillgång bestäms av olika instäl
 |Ändra leveransorder|Min. partistorlek<br /><br /> Max. partistorlek<br /><br /> Partistorleksmultipel|  
 |Begränsa den planerade artikeln|Produktionsprincip:<br /><br /> -   Tillverka-Mot-Lager<br />-   Tillverka-Mot-Order|  
 
-## <a name="define-if-the-item-will-be-planned"></a>Ange om artikeln kommer att planeras  
+## Ange om artikeln kommer att planeras  
 För att ta med en artikel/lagerställeenhet i planeringsprocessen måste den ha en partiformningsmetod, annars måste den planeras manuellt, till exempel funktionen med Orderplanering.  
 
-## <a name="define-when-to-reorder"></a>Definiera när du ska beställa  
+## Definiera när du ska beställa  
 Beställningsförslag släpps allmänt endast när den planerade tillgängliga kvantiteten har fallit till eller under ett visst antal. Antalet definieras av beställningspunkten. Annars kommer det att vara noll. Noll kan justeras genom att ange ett säkerhetslager. Om användaren har definierat en säkerhetsledtid kommer den att orsaka kalkylarket ska levereras under perioden för det förfallodatum som krävs.  
 
 Fältet **Tidsenhet** används i partiformningsmetoder (**Fast orderkvantitet** och **Maximalt antal**), där lagernivån kontrolleras efter varje tidsenhet. Den första tidsenheten börjar på planeringsstartdatumet.  
@@ -45,7 +39,7 @@ Standardsäkerhetsledtiden på sidan **Produktionsinställning** ska anges till 
 
 Ytterligare tre periodfält för beställningscykel **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod**, har också betydelse för att definiera när du ska beställa om. Mer information finns i [Optimera när och hur mycket som ska beställas](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Definiera hur mycket som ska beställas  
+## Definiera hur mycket som ska beställas  
 Om planeringssystemet identifierar behovet att beställa om används den angivna partiformningsmetoden för att bestämma när och hur mycket som ska beställas.  
 
 Oberoende av partiformningsmetoden följer planeringssystemet vanligtvis den här logiken:  
@@ -58,7 +52,7 @@ Oberoende av partiformningsmetoden följer planeringssystemet vanligtvis den hä
 
      Ytterligare periodfält för beställningscykel spellar också en roll när man definierar hur mycket som ska beställa om: **omplaneringsperiod**, **partiackumuleringsperiod**, och **Utjämningsperiod**. Mer information finns i [Optimera när och hur mycket som ska beställas](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-### <a name="reordering-policies"></a>Partiformningsmetoder  
+### Partiformningsmetoder  
 Följande partiformningsmetoder påverkar den kvantitet som ska beställas.  
 
 |Partiformningsmetod|Beskrivning|  
@@ -68,7 +62,7 @@ Följande partiformningsmetoder påverkar den kvantitet som ska beställas.
 |**Order**|Partistorlek beräknas för att uppfylla varje enskild efterfråganshändelse och uppsättningen med efterfrågan-tillgång fortsätter att vara kopplad till körningen. Inga planeringsparametrar beaktas.|  
 |**Parti-för-parti**|Antalet beräknas så att det uppfyller summan av efterfrågan som förfaller inom tidsenheten.|  
 
-##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimera när och hur mycket som ska beställas  
+##  Optimera när och hur mycket som ska beställas  
 För att få en rationell tillförselplan finjusterar en planerare planeringsparametrar för att begränsa omplaneringsförslag, ackumulera efterfrågan (dynamiskt beställningsantal) eller för att undvika oviktiga planeringsåtgärder. Följande periodfält för beställningscykel hjälper till att optimera när och hur mycket som ska beställas.  
 
 |Fält|Beskrivning|  
@@ -103,19 +97,19 @@ I följande exempel representerar de svarta pilarna befintlig tillgång (upp) oc
 
 **Standardvärden:** Standardvärdet i fältet **Tidsenhet** och de tre fälten för beställningsperiod är tomma. För alla fält utom fältet **Utjämningsperiod** betyder det 0D (noll dagar). Om fältet **Utjämningsperiod** är tomt, används det globala värdet i **Standard för utjämningsperiod** på sidan **Produktionsinställningar**.  
 
-## <a name="modify-the-supply-orders"></a>Ändra leveransorder  
+## Ändra leveransorder  
 När orderkalkylarkets antal har beräknats kan en eller flera av ordermodifierarna kan justera det. Till exempel är den maximal partistorlek större än eller lika med det lägsta partistorlek, som är större än eller lika med ordermultipeln.  
 
 Antalet minskas om det överskrider den maximal partistorleken. Sedan ökas den om den är nedanför den lägsta partistorleken. Slutligen avrundas den så att den motsvarar en viss partistorleksmultipel. Alla återstående antal använder samma justeringar tills den totala efterfrågan konverterats till orderförslag.  
 
-## <a name="delimit-the-item"></a>Begränsa artikeln  
+## Begränsa artikeln  
 Alternativet **Produktionsprincip** definierar vilka extra order nettobehovsberäkningen ska föreslå.  
 
 Om alternativet **Tillverka-Mot-Lager** används rör beställningarna endast artikeln i fråga.  
 
 Om alternativet **Tillverka-mot-Order** används kommer planeringssystemet att analysera produktionsstrukturen för artikeln och skapa ytterligare länkade som orderförslag för de artiklar på lägre nivå som också definieras som tillverka-mot-order. Detta fortsätter så länge det finns tillverka-mot-order-artiklar i de fallande strukturerna.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Använd lågnivåkoder för att hantera härledd efterfrågan
+## Använd lågnivåkoder för att hantera härledd efterfrågan
 
 Använd lågnivåkoder för att skapa härledd efterfrågan för komponenter till de lägre nivåerna i strukturen. Om du vill ha en mer grundlig förklaring av detta, se [Artikelprioritet / Lågnivåkod](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,11 +125,11 @@ Istället för den automatiska beräkning som sker dynamiskt om fältet väljs k
 > [!NOTE]
 > Även om fältet **Dynamisk lågnivåkod** markeras ändras inte lägstanivåkoderna för komponentartiklar dynamiskt om en överordnad struktur tas bort eller anges som ocertifierad. Det kan då bli svårt att lägga till nya artiklar i slutet av produktionsstrukturen eftersom detta kan överskrida det maximala antalet lägstanivåkoder. För större produktionsstrukturer som uppnår gränsen för lägstanivåkod är det därför bättre att köra batch-jobbet **Beräkna lägstanivåkod** ofta i syfte att bibehålla strukturen.  
 
-### <a name="optimize-low-level-code-calculation"></a>Optimera beräkning av lägstanivåkod
+### Optimera beräkning av lägstanivåkod
 
 Markera fältet **Optimera beräkning för lägstanivåkod** för att ange att du vill använda den nya, snabbare metoden för beräkning av lägstanivåkod. Observera att den nya beräkningen görs på ett annat sätt, och att användningen av denna kan komma att bryta tillägg som bygger på den befintliga metoden. Den nya beräkningsmetoden ersätter den aktuella metoden i en framtida version.
 
-## <a name="see-also"></a>Se även  
+## Se även  
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansera efterfrågan och tillgång](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)

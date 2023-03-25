@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: c391e7d6492a722de10801212ccd04a532f8a971
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419619"
 ---
 Eftersom företag verkar i fler länder/regioner blir det viktigt att de kan handla och rapportera ekonomisk information i fler än en valuta. Den lokala valutan (BVA) definieras på sidan **Redovisningsinställningar** enligt beskrivningen i artikeln [Att förstå redovisning och kontoplan](../finance-general-ledger.md). När den lokala valutan (BVA) har definierats visas den som en tom valuta, så när fältet **Valuta** är tomt betyder det att valutan är BVA.  
 

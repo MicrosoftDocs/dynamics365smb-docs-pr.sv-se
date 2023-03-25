@@ -7,25 +7,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: ''
+ms.search.form: null
 ms.date: 08/25/2022
 ms.author: a-reishima
-ms.openlocfilehash: 6d8383015e977acffe94555eec00bfb8f104085d
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586080"
 ---
-# <a name="financial-information-quick-start"></a>Ekonomisk information snabbstart
+
+# Ekonomisk information snabbstart
 
 När du har angett grundläggande företagsinformation i [!INCLUDE[prod_short](includes/prod_short.md)] är ett av nästa steg att fylla i det ekonomiska avsnittet. Du kan inte bara ta emot eller göra betalningar, utan även för att hantera och rapportera ditt företagsnummer.
 
-## <a name="the-chart-of-accounts"></a>Kontoplanen
+## Kontoplanen
 
 Kontoplan (COA) ger en överblick över företagets ekonomi, som visar konton i strukturerade grupper som tillgångar, skulder, intäkter, sålda varor och kostnader. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller en standardkontoplan som du kan anpassa till ditt företags redovisningspraxis.
 
-## <a name="set-up-the-chart-of-accounts"></a>Konfigurera kontoplan
+## Konfigurera kontoplan
 
 I följande video visas hur du konfigurerar en kontoplan i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -33,7 +28,7 @@ I följande video visas hur du konfigurerar en kontoplan i [!INCLUDE[prod_short]
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-### <a name="add-an-account-to-the-chart-of-accounts"></a>Lägg till ett konto i kontoplanen
+### Lägg till ett konto i kontoplanen
 
 Om du vill lägga till ett konto som inte ingår som standard i [!INCLUDE[prod_short](includes/prod_short.md)], t.ex. trädgårdstjänster – så följer du bara dessa steg:
 
@@ -61,7 +56,7 @@ Om du vill lägga till ett konto som inte ingår som standard i [!INCLUDE[prod_s
 
 5. Fyll i återstående fält på sidan **Leverantörsbankkontokort** efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="get-an-overview-of-the-chart-of-accounts"></a>Få en översikt över kontoplanen
+### Få en översikt över kontoplanen
 
 Om du behöver en mer kompakt vy av kontoplanen, utan kolumner för bokföringsmallar, bokföringstyp eller kostnadstyp, visas huvudinformationen för varje konto i en mindre tabell i **översikten över kontoplan**. Du kan dessutom dölja eller expandera grupper så att de döljer kontona i dem.
 
@@ -69,7 +64,7 @@ Om du vill visa översikten väljer du åtgärden **Kontoplansöversikt** på si
 
 Lära dig mer om kontoplanen och redovisningen i [Förstå redovisningen och kontoplanen](finance-general-ledger.md).
 
-## <a name="set-up-bank-accounts"></a>Skapa bankkonton
+## Skapa bankkonton
 
 Bank konton i [!INCLUDE[prod_short](includes/prod_short.md)] registrera banktransaktioner och är kopplade till transaktioner i kontoplanen. I följande video visas hur du konfigurerar bankkonton.
 
@@ -84,9 +79,9 @@ Bank konton i [!INCLUDE[prod_short](includes/prod_short.md)] registrera banktran
    Fältet skiljer sig från fältet **Bankkontonr.** på snabbfliken **Allmänt**.
 4. På sidan **Bankkontokort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## Se relaterad utbildning på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera kontoplan](finance-setup-chart-accounts.md)  
 [Skapa bankkonton](bank-how-setup-bank-accounts.md)  

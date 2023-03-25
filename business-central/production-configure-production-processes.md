@@ -1,22 +1,16 @@
 ---
 title: Konfigurera produktionsprocesser
-description: För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
+description: 'För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605772"
 ---
-# <a name="setting-up-manufacturing"></a>Ställa in Produktion
+# Ställa in Produktion
 
 För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
 
@@ -39,7 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Använd standarduppgifter om du vill förenkla verksamhetsföljder genom att snabbt lägga till extra information för återkommande transaktioner.|[Skapa standardverksamhetsföljdrader](production-how-set-up-standard-routing-lines.md)|  
 |Förbered produktionsgrupper och verksamhetsföljder för att representera legotillverkning.|[Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](production-manage-manufacturing.md)  
 [Planerad](production-planning.md)  

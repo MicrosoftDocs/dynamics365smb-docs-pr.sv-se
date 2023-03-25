@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.search.form: 1826, 1827
+ms.search.keywords: 'consolidation, subsidiaries, consolidate'
+ms.search.form: '1826, 1827'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 453cebcddb1fdfd2f3127fd08548deccc8fe1876
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512210"
 ---
-# <a name="set-up-company-consolidation"></a>Ställa in företagskonsolidering
+
+# Ställa in företagskonsolidering
 
 Innan du kan konsolidera redovisningstransaktionerna för två eller flera separata företag (dotterbolag) till ett konsoliderat företag måste du förbereda kontoplaner och konsolideringsföretaget.  
 
@@ -28,7 +23,7 @@ Det finns två sätt att ställa in konsolideringen beroende på hur komplicerat
   * I varje affärsenhet anger du vilka redovisningskonton som ska inkluderas i konsolideringen, och ange omräkningsmetoden för konsolidering för varje konto.
   * I det konsoliderade företaget konfigurerar du ett affärsenhetskort för varje företag som ska inkluderas i konsolideringen. Affärsenhetskortet innehåller information, till exempel datumen för affärsenhetens räkenskapsår och procentandelen av varje konto som måste inkluderas i konsolideringen.
 
-## <a name="simple-consolidation-setup"></a>Enkel konsolidering
+## Enkel konsolidering
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Om din konsolidering är enkel, till exempel eftersom du äger de koncernföretag som ska konsolideras helt, kommer den assisterade konfigurationen **Företagskonsolidering** att hjälpa dig med följande steg:
@@ -41,11 +36,11 @@ Så här använder du den assisterade konfigurationsguiden:
 1. I rollcentret **Revisor** väljer du åtgärden **Assisterad konfiguration**.
 2. Välj **Ställ in konsolideringsrapportering** och slutför sedan varje steg i den assisterade konfigurationsguiden.
 
-## <a name="advanced-consolidation-setup"></a>Avancerad konsolidering
+## Avancerad konsolidering
 
 Om du behöver mer avancerade inställningar för en konsolidering kan du konfigurera konsolideringen manuellt. Till exempel om du har kunder som du endast delvis äger eller om du har kunder som du inte vill inkludera i konsolideringen.  
 
-### <a name="set-up-the-consolidated-company"></a>Konfigurera det konsoliderade företaget
+### Konfigurera det konsoliderade företaget
 
 Först måste du konfigurera det konsoliderade företaget. Du kan lägga upp det konsoliderade företaget i en databas på samma sätt som du lägger upp andra företag. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).  
 
@@ -69,7 +64,7 @@ I följande lista visas de viktigaste aspekterna av det konsoliderade företaget
 
     Mer information finns i avsnittet [Inkludera eller exkludera dimensioner](#dim).
 
-### <a name="add-business-units"></a><a name="busunit"></a>Lägg till affärsenheter
+### <a name="busunit"></a>Lägg till affärsenheter
 
 [!INCLUDE[prod_short](includes/prod_short.md)] låter dig lägga upp en lista över affärsenheter som ska konsolideras, verifiera redovisningsinformation innan du konsoliderar dem, importera filer och generera konsolideringsrapporter.  
 
@@ -83,7 +78,7 @@ I följande lista visas de viktigaste aspekterna av det konsoliderade företaget
 
 Om en utländsk valuta används för koncernföretaget måste du ange vilken valutakurs som ska användas vid konsolideringen. Dessutom måste du ange konsolideringsinformation på koncernföretagets redovisningskonton. De här processerna beskrivs i följande avsnitt.
 
-### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Förbereda redovisningskonton för konsolidering
+### <a name="glacc"></a>Förbereda redovisningskonton för konsolidering
 
 Kontoplanen för ett företag som ska konsolideras måste innehålla konton för konsolidering. Du måste ange vilket redovisningskonto i det konsoliderade företaget som saldot ska överföras till vid konsolideringen för varje redovisningskonto i alla företag. Detta är en koppling som gör det möjligt för företag med olika kontoplaner att konsolideras tillsammans.
 
@@ -92,7 +87,7 @@ Om kontoplanen i affärsenheten skiljer sig från det konsoliderade företaget m
 1. I varje affärsenhet [!INCLUDE [prod_short](includes/prod_short.md)], välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.  
 2. Öppna kortet för kontot och fyll sedan i fälten på snabbfliken **konsolidering**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Ange valutakurs för konsolidering
+### <a name="exchrates"></a>Ange valutakurs för konsolidering
 
 Om en affärsenhet har en annan valuta än det konsoliderade företaget, måste du ange valutakurser för metoder för varje konto innan du konsoliderar. För varje konto bestämmer innehållet i **Konsoliderad omräkningsmetod** valutakursen. I det konsoliderade företaget, på varje affärsenhetskort, i fältet **Valutakurstabell**, anger du om konsolideringen ska använda valutakurser från affärsenheten eller det konsoliderade företaget. Om du använder valutakurser från det konsoliderade företaget kan du ändra valutakurserna för en affärsenhet. För affärsenheter, om fältet **Valutakurstabell** innehåller **Lokal** kan du ändra valutakursen från affärsenhetskortet. Valutakurserna kopieras från tabellen **Valutakurs**, men du kan ändra dem före konsolideringen.
 
@@ -115,7 +110,7 @@ Om du vill ange valutakurs för affärsenheter gör du följande:
 4. Välj åtgärden **Slutkurs**.  
 5. På fältet **Relations- valutakurs belopp** anger du valutakursen.
 
-### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Inkludera eller exkludera dimensioner
+### <a name="dim"></a>Inkludera eller exkludera dimensioner
 
 Du kan konsolidera dimensionsinformation såväl som redovisningskonton.
 
@@ -125,15 +120,15 @@ Du kan konsolidera dimensionsinformation såväl som redovisningskonton.
   * För att konsolidera dimensionsvärdekoden i affärsenheten med en annan dimensionsvärdekod i det konsoliderade företaget fyller du i fältet **Konsolideringskod** med relevanta dimensioner.  
 * Lägg till relevanta dimensioner på relevanta redovisningskonton
 
-### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Exkludera ett företag från konsolidering
+### <a name="exclude"></a>Exkludera ett företag från konsolidering
 
 Om du inte vill inkludera en affärsenhet i konsolideringen kan du exkludera den. Om du vill göra det, öppnar du affärsenhetskortet och avmarkerar kryssrutan **konsolidera**.
 
-### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Inkludera ett delvis ägt företag i konsolidering
+### <a name="include"></a>Inkludera ett delvis ägt företag i konsolidering
 
 Om du bara äger en del av ett företag kan inkludera en procentandel av varje transaktion som motsvarar procentandelen av det företag som du äger. Om du äger 70 % av företaget kommer konsolideringen att innehålla 70 SEK av en faktura på 100 SEK. Om du vill ange hur stor procentandel av företaget du äger går du till affärsenhetskortet och anger procentsatsen i fältet **konsolideringsgrad %**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)  
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  

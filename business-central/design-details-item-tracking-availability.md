@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 4fd66e1b6e5aff71ee10b0e24d9f25b81eb85887
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138628"
 ---
-# <a name="design-details-item-tracking-availability"></a>Designdetaljer: Disposition av artikelspårning
+# Designdetaljer: Disposition av artikelspårning
 Sidorna **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dynamisk dispositionsinformationen för serie-/partinummer. Avsikten med detta är att öka transparensen för användare på avgående dokument, t. ex. försäljningsorder, genom att visa dem vilka serienummer eller hur många enheter av partinumret som för närvarande tilldelas på andra öppna dokument. Det minskar osäkerhet som orsakas av dubbel fördelning, och gör att orderhandläggarna kan känna sig säkra på att artikelspårningsnumren och datumen som utlovas på försäljningsorder som inte har bokförts kan uppfyllas. Mer information finns i [Designdetaljer: Sida för artikelspårningsrader](design-details-item-tracking-lines-window.md).  
 
  När du öppnar sidan **Artikelspårningsrader** hämtas tillgänglighetsdata från tabellen **Artikeltransaktion** och tabellen **Reservationstransaktion** utan datumfilter. När du väljer fältet **Serienr** eller fältet **Partinr** öppnas sidan **Artikelspårning sammandrag** och en översikt av informationen om artikelspårning visas i tabellen **Reservationstransaktion**. Översikten innehåller följande information om varje serie- eller partinummer på artikelspårningsraden:  
@@ -33,7 +27,7 @@ Sidorna **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dynam
 
  För att bevara databasprestanda hämtas tillgänglighetsdata bara en gång från databasen när du öppnar sidan **Artikelspårningsrader** och använder funktionen **Uppdatera tillgänglighet** på sidan.  
 
-## <a name="calculation-formula"></a>Beräkningsformel  
+## Beräkningsformel  
  Som beskrivs i föregående tabell beräknas tillgängligheten av ett visst serie- eller partinummer så här.  
 
  totalt disponibelt antal = antal i lager – (alla behov + antal som ännu inte allokerats till databasen)  
@@ -41,7 +35,7 @@ Sidorna **Artikelspårningsrader** och **Artikelspårning sammandrag** ger dynam
 > [!IMPORTANT]  
 >  Följande formel betyder att dispositionsberäkningar för serie- eller partinummer endast beaktar lager och ignorerar planerade inleveranser. Leveranser som inte ännu har bokförts till lagret påverkar inte artikelspårningsdisposition, i motsats till vanlig artikeldispositionen där planerade inleveranser inkluderas.  
 
-## <a name="see-also"></a>Se även  
+## Se även  
  [Designdetaljer: Objektspårning](design-details-item-tracking.md)
 
 

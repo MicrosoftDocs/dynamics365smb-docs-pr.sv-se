@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cancel, undo, correct
-ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
+ms.search.keywords: 'cancel, undo, correct'
+ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee86f0211c4694a355c4ec55b8c66e202035ae8e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530574"
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Behandla inköpsreturer eller annulleringar
+# Behandla inköpsreturer eller annulleringar
 
 Om du vill returnera artiklar till leverantören eller annullera tjänster som du har köpt, kan du skapa och bokföra en inköpskreditnota som anger begärd ändring med hänsyn till den ursprungliga inköpfakturan. Du kan skapa inköpskreditnotan direkt från den bokförda inköpsfakturan med rätt fakturainformation, eller skapa en ny inköpskreditnota med kopierad fakturainformation.
 
@@ -34,7 +28,7 @@ Förutom den ursprungliga bokförda inköpsfakturan kan du koppla inköpskreditn
 
 Bokföringen av kreditnota återställer även eventuella kostnader som har tilldelats det bokförda dokumentet så att artikelns värdetransaktioner är samma som innan artikelkostnaden har tilldelats.
 
-## <a name="inventory-costing"></a>Lagerkostnad
+## Lagerkostnad
 Om du vill behålla rätt lagervärdering vill du vanligtvis plocka returartiklar från lagret till den styckkostnad som de köptes för, inte till deras aktuella styckkostnad. I programmet kallas detta för exakt kostnadsåterföring.
 
 Två funktioner finns för att fördela exakt kostnadsåterföring automatiskt.  
@@ -48,7 +42,7 @@ För att tilldela exakt kostnadsåterföring manuellt, måste du välja fältet 
 
 Mer information finns i [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md)
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Skapa en ny inköpskreditnota från en bokförd inköpsfaktura.
+## Skapa en ny inköpskreditnota från en bokförd inköpsfaktura.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
 2. På sidan **Bokförda inköpsfakturor** väljer du den bokförda inköpsfakturan som du vill återföra och väljer sedan åtgärden **Skapa korrigerande kreditnota**.
@@ -69,7 +63,7 @@ De bokförda inköpsfakturorna som du koppla kreditnotan till återförs nu. Om 
 
 Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bokförda inköpskreditnotor.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Skapa en ny inköpskreditnota genom att kopiera en bokförd inköpsfaktura.
+## Skapa en ny inköpskreditnota genom att kopiera en bokförd inköpsfaktura.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpskreditnotor** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom inköpskreditnota.
@@ -81,7 +75,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 8. Välj **OK**. De kopierade fakturaraderna infogas i inköpskreditnotan.
 9. Slutför inköpskreditnotan enligt vad som förklaras i [Att skapa en inköpskreditnota från en bokförd inköpsfaktura](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Att skapa en inköpsreturorder baserat på minst ett bokfört inköpsdokument.
+## Att skapa en inköpsreturorder baserat på minst ett bokfört inköpsdokument.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsreturorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -103,7 +97,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 8. Markera de rader som du vill kopiera till det nya dokumentet.  
 
     > [!NOTE]  
-    >  Om du använder Ctrl+A för att markera alla rader kopieras alla rader inom det filter som du har angett, men filtret **Visa endast rader som kan återföras** ignoreras. Exempel: Du har filtrerat raderna efter ett angivet dokumentnummer med två rader, där den ena raden redan har returnerats. Även om fältet **Visa endast rader som kan återföras** markerats kopieras båda raderna om du trycker på Ctrl+A för att kopiera alla rader, i stället för bara den rad som inte har återförts.  
+    >  Om du använder <kbd>Ctrl</kbd>+<kbd>A</kbd> för att markera alla rader kopieras alla rader inom det filter som du har angett, men filtret **isa endast rader som kan återföras** ignoreras. Exempel: Du har filtrerat raderna efter ett angivet dokumentnummer med två rader, där den ena raden redan har returnerats. Även om fältet **Visa endast rader som kan återföras** markerats, om du trycker på<kbd>Ctrl</kbd>+<kbd>A</kbd> för att kopiera alla rader kopieras båda raderna i stället för bara den rad som inte har återförts.  
 
 9. Klicka på **OK** om du vill kopiera raderna till det nya dokumentet.  
 
@@ -131,7 +125,7 @@ Inköpskreditnotan tas bort och ersätts med ett nytt dokument i listan över bo
 10. På sidan **Inköpsreturorder** i fältet **Returorsakskod** för varje rad väljer du orsaken till returen.
 11. Välj åtgärden **Bokföra**.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Skapa en ersättningsinköpsorder från en inköpsreturorder
+## Skapa en ersättningsinköpsorder från en inköpsreturorder
 
 Du kan komma överens med leverantören om att de ska kompensera dig för en inköpt artikel genom att ersätta den. Ersättningsartikeln kan vara likadan eller annorlunda. Detta kan inträffa om leverantören av misstag har skickat fel artikel.  
 
@@ -140,7 +134,7 @@ Du kan komma överens med leverantören om att de ska kompensera dig för en ink
 3. På sidan **Flytta negativa inköpsrader** fyller du i fälten efter behov.
 4. Välj knappen **OK**. Den negativa raden tas bort från inköpsreturordern, och en ny inköpsorder skapas. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>Så här skapar du ett prisavdrag vid inköp:
+## Så här skapar du ett prisavdrag vid inköp:
 
 Om en leverantör skickar artiklar som på något sätt inte motsvarar din beställning, t. ex. om varorna är skadade eller har fel färg eller storlek, erbjuds du förmodligen någon form av ersättning eller avdrag på priset.  
 
@@ -159,7 +153,7 @@ Du kan bokföra den reducerade inköpskostnaden som en artikelomkostnad på en k
 
 När du bokför inköpsreturordern läggs inköpstillägget till det aktuella inköpstransaktionsbeloppet. På det här sättet kan du hålla lagervärderingen aktuell.  
 
-## <a name="to-combine-return-shipments"></a>Så här kombinerar du returutleveranser
+## Så här kombinerar du returutleveranser
 
 Om du vill skicka tillbaka artiklar som täcks av olika inköpsreturorder till samma leverantör kan du använda funktionen **Kombinera returutleveranser**.  
 
@@ -181,15 +175,15 @@ När returutleveranser kombineras på en kreditnota och sedan bokförs skapas en
     Om du har valt en ogiltig returutleveransrad eller du vill börja om från början, behöver du bara ta bort raderna från inköpskreditnotan och använda funktionen **Hämta returutleveransrader** igen.  
 6. Välj åtgärden **Bokföra**.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Så här tar du bort öppna inköpsreturorder efter kombinerad returutleverans bokföring  
+### Så här tar du bort öppna inköpsreturorder efter kombinerad returutleverans bokföring  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ta bort fakturerade inköpsreturorder** och väljer sedan relaterad länk.  
 2. Fyll i fälten på efter behov och välj sedan knappen **OK**.  
 3. Du kan också ta bort enskilda inköpsreturorder manuellt.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
 [Korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

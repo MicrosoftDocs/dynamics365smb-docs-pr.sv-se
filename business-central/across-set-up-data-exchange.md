@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744930"
 ---
-# <a name="setting-up-data-exchange"></a>Konfigurera datautbyte
+# Konfigurera datautbyte
 
 Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta relevanta filerna. Du måste dessutom konfigurera relaterade områden, exempelvis de kunder som du skickar elektroniska fakturor till, eller också AMC Banking 365 Fundamentals-tillägget om du använder den externa tjänsteleverantören för att konvertera dina bankfiler. Mer information finns i [Utbyta data elektroniskt](across-data-exchange.md).  
 
@@ -39,9 +33,9 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 |Förbered för att konfigurera en ny datautbytesdefinition för en datafil eller strömma med hjälp av filens XML-schema för att autofylla snabbfliken **Kolumndefinitioner** på sidan **Definitioner för bokföringsbyte**.|[Använda XML-uppställningar för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Konfigurera ramverket för datautbyte så att användare kan ta emot ett nytt inköpsdokumentformat, skicka ett nytt försäljningsdokumentformat, importera en ny bankfil eller göra andra datautbyten.|[Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Utbyta data elektroniskt](across-data-exchange.md)  
 [Inkommande dokument](across-income-documents.md)  

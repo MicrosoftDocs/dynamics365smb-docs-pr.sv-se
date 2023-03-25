@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, tracing
+ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141339"
 ---
-# <a name="design-details-item-tracking-design"></a>Designdetaljer: Artikelkopplingsdesign
+# Designdetaljer: Artikelkopplingsdesign
 
 Artikelspårning i [!INCLUDE[prod_short](includes/prod_short.md)] startar med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Artikelspårningsfunktionen finns i en separat objektstruktur med invecklade länkar till bokförda dokument och artikeltransaktioner och den är integrerad med bokningssystemet, som hanterar reservation, orderspårning och åtgärdsmeddelanden. Mer information finns i [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljer för leveransplanering.  
 
-Designen innehåller artikelspårningstransaktioner i beräkningar av den totala tillgängligheten i hela systemet, inklusive planering, produktion och lagerstyrning. Serie- och partinummer används på artikeltransaktionerna för att säkerställa enkel tillgång till historiska data i artikelspårningssyfte. Med 2021 utgivningscykel 1 innehåller artikelspårning i [!INCLUDE [prod_short](includes/prod_short.md)] paketnummer.  
+Designen innehåller artikelspårningstransaktioner i beräkningar av den totala tillgängligheten i hela systemet, inklusive planering, produktion och Warehouse Management. Serie- och partinummer används på artikeltransaktionerna för att säkerställa enkel tillgång till historiska data i artikelspårningssyfte. Med 2021 utgivningscykel 1 innehåller artikelspårning i [!INCLUDE [prod_short](includes/prod_short.md)] paketnummer.  
 
 Med tillägg av serie- parti- eller paketnummer hanterar reservationssystemet permanenta artikelattribut, samtidigt som det även hanterar intermittenta länkar mellan tillgång och efterfrågan i form av orderspårningposter och reservationstransaktioner. En annan egenskap som skiljer sig åt för serie- och partinummer jämfört med konventionella reservationdata är att de kan bokföras, antingen delvis eller helt. Därför fungerar tabellen **Reservationstransaktion** (T337) nu med en relaterad tabell, tabellen **Spårningsspecifikation** (T336), som hanterar och visar summan av aktiva och bokförda artikelspårningsantal. Mer information finns i [Designdetaljer: Aktiva kontra historiska artikelspårningstransaktioner](design-details-active-versus-historic-item-tracking-entries.md)  
 
@@ -39,7 +33,7 @@ Kodenhet 22, **Artikeljournal – bokför rad**, delar nu bokföringen enligt de
 
 Mer information finns i [Designdetaljer: Bokföringsstruktur för artikelspårning](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Designdetaljer: Artikelkoppling](design-details-item-tracking.md)
 

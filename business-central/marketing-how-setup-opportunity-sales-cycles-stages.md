@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
-ms.search.forms: 5122, 5121, 5120, 5175, 5119, 5098, 5096
+ms.search.keywords: 'relationship, prospect'
+ms.search.forms: '5122, 5121, 5120, 5175, 5119, 5098, 5096'
 ms.date: 05/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 4d87bc092ceffafecd460380a8a7d93849e988e6
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808991"
 ---
-# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Skapa cykler för affärsmöjligheter och cykeletapper
+# Skapa cykler för affärsmöjligheter och cykeletapper
 
 Innan du börjar använda affärsmöjligheter måste du skapa försäljningscykler och försäljningscykeletapper. En försäljningscykel består av en serie etapper från den första kontakten till en genomförd försäljning. För varje steg definierar du vissa krav som måste uppfyllas, till exempel att kräva en förs.offert innan en affärsmöjlighet kan gå till nästa etapp. Du kan också ange om en etapp kan hoppas över. Du kan skapa ett valfritt antal försäljningscyklar. Du kan upprätta så många försäljningscykeletapper som behövs inom en försäljningscykel.
 
@@ -25,25 +19,25 @@ Att använda affärsmöjlighetscykeler omfattar att skapa försäljningscykel oc
 
 Det här avsnittet beskriver även hur du ställer in uppgifter och aktiviteter och tilldela uppgifter till aktiviteter. Mer information finns i [Skapa aktiviteter med uppgifter](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
-## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Så här skapar du cykelkoder för affärsmöjligheter:
+## Så här skapar du cykelkoder för affärsmöjligheter:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningscykler** och väljer sedan relaterad länk. Sidan **Försäljningscykler** öppnas och visar alla befintliga försäljningscyklar.
 2. Välj åtgärden **Ny** och fyll i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Upprepa stegen för varje säljcykel du vill skapa. När du har skapat cykler för affärsmöjligheter vill du kanske skapa de olika etapperna i varje cykel.
 
-## <a name="to-define-opportunity-sales-cycle-stages"></a>Om du vill definiera etapper för försäljningscykel för affärsmöjligheter
+## Om du vill definiera etapper för försäljningscykel för affärsmöjligheter
 
 1. På sidan **Försäljningscykler** markerar du den försäljningscykel för affärsmöjligheter som du vill ställa in etapper för och väljer sedan åtgärden **Etapper**. Sidan **Försäljningscykeletapper** öppnas.
 2. Välj åtgärden **Ny** för att skapa en ny etapp i försäljningscykeln.
 
 Upprepa stegen för varje etapp du vill skapa i försäljningscykeln.
 
-## <a name="to-assign-stage-cycles-to-opportunities"></a>Så här tilldelar du cykler till affärsmöjligheten.
+## Så här tilldelar du cykler till affärsmöjligheten.
 
 När du har lagt till försäljningscykeln till affärsmöjligheten, kan du börja lägga till affärsmöjligheter och sedan tilldela etappen för försäljningscykeln till affärsmöjligheten genom att ange fältet **försäljningscykelkod**. Mer information finns i [Så här skapar du försäljningsmöjligheter](marketing-how-create-opportunities.md).
 
-## <a name="to-set-up-activities-with-tasks"></a>Så här skapar du aktiviteter med uppgifter
+## Så här skapar du aktiviteter med uppgifter
 
 Du kan kombinera flera uppgifter, till exempel uppgifter som var och en representerar ett steg i aktiviteter. Alla steg i en aktivitet är knutna till varandra med hjälp av en datumformel. Du kan tilldela aktiviteter till affärsmöjligheter, säljare eller kontakter.
 
@@ -51,7 +45,7 @@ Du kan kombinera flera uppgifter, till exempel uppgifter som var och en represen
 2. Välj åtgärden **Ny** och fyll i fälten efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. På snabbfliken **rader** fyller du i fälten för att definiera en eller flera uppgifter i aktiviteten.
 
-## <a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a>Tilldela uppgifter eller aktiviteter till affärsmöjligheter
+## Tilldela uppgifter eller aktiviteter till affärsmöjligheter
 
 När du har lagt upp en aktivitet kan du tilldela aktiviteten som uppgiften tillhör och därmed tilldela affärsmöjligheter.
 
@@ -71,7 +65,7 @@ Följande proceduren beskriver hur du tilldelar aktiviteter för aktiviteten til
 6. På sidan **Uppgiftslista** väljer du en ny uppgift och väljer sedan åtgärden **Tilldela aktiviteter**.
 7. På sidan **Tilldela aktiviteter** fyller du i fälten efter behov och väljer sedan knappen **OK**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Behandlar försäljningsmöjligheter](marketing-processing-sales-opportunities.md)  
 [Försäljning](sales-manage-sales.md)  

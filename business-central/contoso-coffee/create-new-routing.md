@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: deb1ef6ab18cbd6562ae18cc17495fe3e5021db1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525249"
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Genomgång: Skapa en ny operationsföljd
+
+# Genomgång: Skapa en ny operationsföljd
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demonstrationsdata för att konfigurera en ny operationsföljd för produktion manuellt i [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Oscar, processteknikern på Contoso Coffee, bestämmer sig för att skapa en ny operationsföljd med namnet *Ny sökväg*. Eftersom operationsföljden inte fungerar som någon annan operationsföljd på Contoso Coffee måste han manuellt ange all information för operationsföljden.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa huvudet för operationsföljden.  
 
@@ -60,6 +55,6 @@ Oscar, processteknikern på Contoso Coffee, bestämmer sig för att skapa en ny 
 
 Den nya operationsföljden har nu konfigurerats.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee-intro.md)  

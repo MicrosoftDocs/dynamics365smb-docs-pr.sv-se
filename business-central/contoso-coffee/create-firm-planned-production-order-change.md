@@ -6,24 +6,19 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 7a057e144ed6825435c62f565eeaaa73974fedf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525254"
 ---
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Genomgång: Skapa en fast planerad produktionsorder och ändra den
+
+# Genomgång: Skapa en fast planerad produktionsorder och ändra den
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata för att arbeta med produktionsorder.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Eduardo, produktionsplanerare på Contoso Coffee, måste skapa en ny produktionsorder för 10 enheter av artikeln **SP-SCM1009, Airpot** som måste betalas den 28 april. Han bakåtplanerar detta och bekräftar att han kan starta ordern den 27 april.  
 
 Kort efter att han är klar med denna uppgift ombeds han att öka ordern till 50 enheter. När han gör det, flyttar funktionen för bakåtplanering startdatumet för ordern till en för tidig tidpunkt. Han framåtbokar då ordern från den 23 april för att fastställa ett mer realistiskt slutdatum.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa den första produktionsordern för 10 enheter av artikeln **SP-SCM1009, Airpot**.
 
@@ -63,6 +58,6 @@ Kort efter att han är klar med denna uppgift ombeds han att öka ordern till 50
 
 Den nya produktionsordern har nu skapats, och Eduardos krav har uppfyllts.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee-intro.md)  

@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: f002086780e694ad80f2b5c80e942ab411de1948
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732969"
 ---
 Det kan hända att du ser andra användare i listan **Användare** än bara de från ditt eget företag. När en utsedd administratör från en återförsäljarpartner loggar in på en [!INCLUDE [prod_short](prod_short.md)]-miljö på uppdrag av sin kund, skapas han/hon automatiskt som en användare i [!INCLUDE [prod_short](prod_short.md)]. På så sätt loggas de åtgärder som utförs av en utsedd administratör i [!INCLUDE [prod_short](prod_short.md)], t.ex. publicering av dokument, och kopplas till dennes användar-ID.  
 

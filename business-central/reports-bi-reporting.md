@@ -10,14 +10,8 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 09/22/2022
 ms.author: kepontop
-ms.openlocfilehash: 4ae58b37d42d501142ebfa617da79266d5d8a9b1
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607867"
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Business Intelligence och rapporteringsöversikt
+# Business Intelligence och rapporteringsöversikt
 
 Små och medelstora företag förlitar sig på inbyggd analys och rapportering som de kan använda direkt för att hålla reda på sin verksamhet. [!INCLUDE[prod_short](includes/prod_short.md)] stöder vanliga affärsprocesser och mer komplicerade processer för sådana organisationer. Var och en av dessa processer omfattar rapporter och analysverktyg. Du kan också göra ad hoc-analyser direkt från din hemsida.  
 
@@ -32,9 +26,9 @@ I följande tabell beskrivs viktiga funktioner för Business Intelligence och ra
 | Integrera externa Business Intelligence-verktyg med [!INCLUDE[prod_short](includes/prod_short.md)].| [Externa Business Intelligence-verktyg](reports-external-analysis.md) |
 |Ändra rapportlayouter eller skapa egna rapporter från grunden. |[Utveckla rapporter](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
+## Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomisk Business Intelligence](bi.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

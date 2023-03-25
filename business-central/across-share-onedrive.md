@@ -4,17 +4,11 @@ description: Lär dig hur du kan dela Business Central-data genom OneDrive för 
 author: jswymer
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 99077273617613a2bd5fd949ead836605432b9aa
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607452"
 ---
-# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Öppna och dela Business Central-filer i Microsoft OneDrive
+# Öppna och dela Business Central-filer i Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gör det enkelt att lagra, hantera och dela filer med andra människor via Microsoft OneDrive för företag. På de flesta sidor där det finns filer, t.ex. Rapportinkorgen eller när filer är bifogade till poster, finns åtgärderna **Öppna i OneDrive** och **Dela**.
 
@@ -25,7 +19,7 @@ ms.locfileid: "9607452"
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Åtgärderna Öppna i OneDrive och Dela för bilagor":::
 
 
-## <a name="open-in-onedrive"></a>Öppna i OneDrive
+## Öppna i OneDrive
 
 Med åtgärden **Öppna i OneDrive** kopieras filen till OneDrive och sedan öppnas filen i ett program som Microsoft Excel online, Microsoft Word online eller Microsoft PowerPoint online. 
 
@@ -37,7 +31,7 @@ Med online-versionerna av de här programmen kan du anteckna, redigera och samar
 
 För andra populära filtyper, till exempel PDF-filer, textfiler och bilder, OneDrive finns det fil visningsprogram som erbjuder funktioner för att skriva ut, dela med mera. Om det inte går att visa en fil i OneDrive kan du bli ombedd att hämta den.
 
-## <a name="share"></a>Dela
+## Dela
 
 Med åtgärden **Dela** kopierar du filen till din OneDrive, så att du kan se vilka du redan har delat den med samt dela filen med andra användare. När du väljer åtgärden **Dela** öppnas följande sida.
 
@@ -59,19 +53,18 @@ Delningsfunktionen i Business Central baseras på OneDrive. Läs mer om OneDrive
 > [!NOTE]
 > Åtgärden **Dela** är inte tillgänglig i Business Central-appen för mobila enheter.
 
-## <a name="first-time-sign-in-from-business-central"></a>Första gången du loggar in från Business Central
+## Första gången du loggar in från Business Central
 
 När du använder åtgärden **Öppna i OneDrive** eller **Dela** för första gången gör [!INCLUDE[prod_short](includes/prod_short.md)] följande:
 
 1. Öppnar sidan **Läs igenom regler och villkor**. Läs sidan och godkänn regler och villkor genom att välja **Godkänn** för att fortsätta.
-2. Öppnar sidan **Välj ett konto**. Välj ditt konto eller **använd ett annat konto** om du inte ser ditt eget. Ange sedan rätt användarnamn och lösenord.
-3. Skapar en mapp kallad [!INCLUDE[prod_short](includes/prod_short.md)] i OneDrive. 
-4. I [!INCLUDE[prod_short](includes/prod_short.md)]-mappen skapas en mapp med samma namn som det företag som du arbetar i. Om du arbetar i mer än ett företag skapar [!INCLUDE[prod_short](includes/prod_short.md)] en mapp för varje företag du jobbar för när du använder åtgärden **Öppna i OneDrive** eller **Dela**. 
-5. Placerar en kopia av filen som du valde i företagsnamnmappen och öppnar sedan filen. 
+2. Skapar en mapp kallad [!INCLUDE[prod_short](includes/prod_short.md)] i OneDrive. 
+3. I [!INCLUDE[prod_short](includes/prod_short.md)]-mappen skapas en mapp med samma namn som det företag som du arbetar i. Om du arbetar i mer än ett företag skapar [!INCLUDE[prod_short](includes/prod_short.md)] en mapp för varje företag du jobbar för när du använder åtgärden **Öppna i OneDrive** eller **Dela**. 
+4. Placerar en kopia av filen som du valde i företagsnamnmappen och öppnar sedan filen. 
 
 Nästa gång du använder åtgärden **Öppna i OneDrive** eller **Dela** kopierar och öppnar [!INCLUDE[prod_short](includes/prod_short.md)] filen. 
 
-## <a name="managing-multiple-copies-of-a-file"></a>Hantera flera kopior av en fil
+## Hantera flera kopior av en fil
 
 När du väljer **Öppna i OneDrive** eller **Dela** kopieras filen från [!INCLUDE[prod_short](includes/prod_short.md)] till din mapp i OneDrive. Om du redigerar filen i OneDrive blir den filen annorlunda mot [!INCLUDE[prod_short](includes/prod_short.md)]-filen. Om du vill uppdatera [!INCLUDE[prod_short](includes/prod_short.md)] med den senaste filversionen tar du bort den befintliga filen från [!INCLUDE[prod_short](includes/prod_short.md)] och överför sedan den senaste kopian.
 
@@ -89,7 +82,7 @@ Om en fil med samma namn redan finns i OneDrive får du följande alternativ:
  
   Det här alternativet behåller den befintliga filen som den är och sparar filen du valde från Business Central under ett annat namn. Det nya namnet liknar det befintliga namnet, utom med ett suffixnummer som "Artiklar (2).xlsx".
 
-## <a name="about-your-business-central-folder-on-onedrive"></a>Om din Business Central-mapp på OneDrive
+## Om din Business Central-mapp på OneDrive
 
 Mappen och dess innehåll är privata tills du bestämmer dig för att dela dem med andra. Du kanske vill dela med dig av innehållet till en eller flera medarbetare eller till och med personer utanför organisationen. 
 
@@ -100,7 +93,7 @@ Du kan öppna på sidan OneDrive från **mina inställningar** genom att välja 
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Business Central- och OneDrive-integration](across-onedrive-overview.md)  
 [Hantera OneDrive integrering med Business Central](admin-onedrive-integration.md)  

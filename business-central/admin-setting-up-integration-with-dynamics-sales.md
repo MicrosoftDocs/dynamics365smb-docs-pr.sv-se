@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607344"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Ställa in konton för integrering med Microsoft Dataverse
+# Ställa in konton för integrering med Microsoft Dataverse
 
 Den här artikeln innehåller en översikt över hur du ställer in de konton som behövs för att integrera [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Ställa in administratörsanvändarkontot
+## Ställa in administratörsanvändarkontot
 
 Du måste lägga till ditt administratörsanvändarkonto för [!INCLUDE[prod_short](includes/prod_short.md)] som användare i [!INCLUDE[cds_long](includes/cds_long_md.md)]. När du konfigurerar anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)] använder vi det här kontot en gång för att installera och konfigurera vissa nödvändiga komponenter.
 
@@ -29,7 +23,7 @@ Du måste lägga till ditt administratörsanvändarkonto för [!INCLUDE[prod_sho
 >
 > När anslutningskonfigurationen är klar kan denna [!INCLUDE[prod_short](includes/cds_long_md.md)]-användare tas bort. Integreringen fortsätter att använda användarkontot som har skapats automatiskt särskilt för integrering.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Behörigheter och säkerhetsroller för användarkonton i [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Behörigheter och säkerhetsroller för användarkonton i [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Basintegreringslösningen skapar följande roller i [!INCLUDE[cds_long](includes/cds_long_md.md)] för integreringen:
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Integrera med Microsoft Dataverse](admin-common-data-service.md)  
 [Integrering med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

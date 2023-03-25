@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: eef49d2ad6d1f52e8b85b1c3e06695668d19fd4f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530088"
 ---
-# <a name="set-up-locations-to-use-bins"></a>Registrera lagerställen för att använda lagerställen
+# Registrera lagerställen för att använda lagerställen
 
 Lagerställen representerar den grundläggande lagerstrukturen och används för att lägga förslag om artiklarnas specifika placering av artiklar. När du har skapat lagerställena kan du definiera det innehåll som du vill placera på respektive lagerplats, eller så kan lagerstället fungera som en flytande lagerplats utan att något särskilt innehåll har angetts.  
 
@@ -25,7 +19,7 @@ Om du vill använda lagerplatsfunktionerna på ett lagerställe måste du först
 > [!NOTE]  
 >  Innan du kan ange lagerställeskoder på lagerställekortet, måste lagerställeskoderna skapas. Mer information finns i [Skapa lagerställen](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Så här lägger du upp ett lagerställe för att använda lagerställen
+## Så här lägger du upp ett lagerställe för att använda lagerställen
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Välj lagerstället där du vill använda lagerställen.  
@@ -39,21 +33,20 @@ Om du vill använda lagerplatsfunktionerna på ett lagerställe måste du först
 10. Fyll i fälten på snabbfliken **Lagerplatsprinciper** om de är relevanta för distributionslagret. De viktigaste fälten är **Lagerplats kapacitetsprincip**, **Tillåt brytenhet** och **Artikelinförsel mallkod**.  
 11. På snabbfliken **Dist.lager** fyller du i fälten **utgående lagerhanteringstid**, **inkommande lagerhanteringstid** och **Baskalenderkod**. Mer information finns i [Så här skapar du baskalendrar](across-how-to-assign-base-calendars.md).
 
-## <a name="filling-the-consumption-bin"></a>Fylla förbrukningslagerstället
+## Fylla förbrukningslagerstället
 
 Diagrammet visar hur **Lagerställeskod** på produktionsorderkomponentraderna fylls enligt platsinställningen.
 
 ![Flödesschema för lagerplats.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/configure-bins-location/)
+## Se relaterad [Microsoft utbildning](/training/modules/configure-bins-location/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
-[Lagerstyrning](warehouse-manage-warehouse.md)  
+[Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)     
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md)     
 [Monteringshantering](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

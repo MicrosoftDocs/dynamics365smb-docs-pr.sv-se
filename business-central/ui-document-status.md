@@ -1,21 +1,15 @@
 ---
 title: Statusfält i dokument
-description: Lär dig om statusen Öppna och Släppta för offert-, order- eller kreditnota-dokument.
+description: 'Lär dig om statusen Öppna och Släppta för offert-, order- eller kreditnota-dokument.'
 author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
-ms.search.form: ''
+ms.search.keywords: 'document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,'
+ms.search.form: null
 ms.date: 09/19/2022
 ms.author: bholtorf
-ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728633"
 ---
-# <a name="status-field-on-documents"></a>Statusfält i dokument
+# Statusfält i dokument
 
 När du skapar en offert, order eller kreditnota, står det som standard **Öppen** i fältet **Status** i dokumenthuvudet.
 
@@ -28,11 +22,11 @@ När du har fyllt i dokumentet kan du släppa det, och [!INCLUDE[prod_short](inc
 | Väntar på godkännande   | Dokumentet väntar på att godkännas. |
 | Väntar på förskottsbetalning | En förskottsfaktura har bokförts för dokumentet. |
 
-## <a name="release-process"></a>Släppningsprocess
+## Släppningsprocess
 
 Utsläppsförloppet kan användas på olika sätt för att förenkla det vanliga arbetsflödet, t.ex. företagets rutiner för godkännande eller för att starta lageraktiviteter.
 
-### <a name="approval-procedures"></a>Rutiner för godkännande
+### Rutiner för godkännande
 
 Utsläppsförloppet kan användas inom företaget för att visa att en annan användare har godkänt dokumentet, eller att en extern kontakt klarar att uppfylla specifikationerna i dokumentet. Här är några exempel:
 
@@ -42,11 +36,11 @@ Utsläppsförloppet kan användas inom företaget för att visa att en annan anv
 
 Lär dig mer om arbetsflöde för godkännande på [Använda arbetsflöden](across-use-workflows.md).
 
-### <a name="warehouse-activities"></a>Lageraktiviteter
+### Lageraktiviteter
 
 Så länge en order har status **Öppen**, börjar lagret inte att förbereda in- eller utleverans av artiklarna på ordern. Genom att släppa ordern visar du att den är färdig och kan tas med i lageraktiviteterna.
 
-## <a name="reopen-a-released-order"></a>Öppna en släppt order igen
+## Öppna en släppt order igen
 
 Om du vill göra ändringar i en släppt order, kan du öppna ordern igen. För de rader som redan har behandlats av lagret, kan du dock bara öka antalet.
 
@@ -57,7 +51,7 @@ Om du gör ändringar i en order som redan är släppt, måste du meddela lagret
 > [!NOTE]
 > Om du vill bokföra en öppen order eller kreditnota utan att släppa den först, släpper [!INCLUDE [prod_short](includes/prod_short.md)] dokumentet automatiskt när du bokför det. Om du bokför order eller kreditnotor med hjälp av funktionen **Bokför batch-jobb**, kan du välja att bara bokföra de order eller kreditnotor som du har släppt.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Sälja produkter med en kundförsäljningsreturorder](sales-how-sell-products.md)  
 [Registrera inköp med inköpsfakturor](purchasing-how-record-purchases.md)  

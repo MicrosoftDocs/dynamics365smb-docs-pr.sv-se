@@ -1,27 +1,21 @@
 ---
 title: Kopiera befintliga artiklar till Skapa nya artiklar
-description: När du lägger till ett nytt objekt, för att spara tid, kan du använda funktionen Kopiera objekt för att kopiera ett befintligt objekt så att det används som mall för ett nytt objekt.
+description: 'När du lägger till ett nytt objekt, för att spara tid, kan du använda funktionen Kopiera objekt för att kopiera ett befintligt objekt så att det används som mall för ett nytt objekt.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130302"
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Kopiera befintliga artiklar till Skapa nya artiklar
+# Kopiera befintliga artiklar till Skapa nya artiklar
 
 När du lägger till ett nytt objekt, för att spara tid, kan du använda funktionen **Kopiera objekt** för att kopiera ett befintligt objekt så att det används som mall för ett nytt objekt.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Kopiera ett befintligt objekt till ett nytt objekt.
+## Kopiera ett befintligt objekt till ett nytt objekt.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Välj objektet som du vill kopiera och välj sedan åtgärden **Kopiera objekt**.  
@@ -35,7 +29,7 @@ När du lägger till ett nytt objekt, för att spara tid, kan du använda funkti
 
 4. Välj **OK** om du vill kopiera dina val till det nya objektet.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Ställa in lager](inventory-setup-inventory.md)  

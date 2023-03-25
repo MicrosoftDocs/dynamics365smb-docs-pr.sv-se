@@ -1,23 +1,17 @@
 ---
 title: Översikt över uppgifter för hantering av försäljning
-description: Läs allt om hur du använder Business Central-tjänster för att hantera försäljningsaktiviteter med kunder med försäljningsfakturor, order, offerter med mera.
+description: 'Läs allt om hur du använder Business Central-tjänster för att hantera försäljningsaktiviteter med kunder med försäljningsfakturor, order, offerter med mera.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell
+ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: d6db11d2cb8f7d2cb0906146d03f423b815c29d1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535752"
 ---
-# <a name="sales"></a>FÖRS
+# FÖRS
 
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.
 
@@ -59,7 +53,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Informera dina kunder om orderleveransdatum genom att beräkna antingen kapabel att lova-datum eller dispositionsdatum.|[Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)|
 |Lösa problem när det finns två eller flera poster för samma kund.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/sell-items-services-dynamics-365-business-central/).
+## Se relaterad [Microsoft utbildning](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)  

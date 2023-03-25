@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317381"
 ---
 [!INCLUDE[prod_short](prod_short.md)]-användarna kan ibland stödja mer än en avdelning eller underorganisation inom en affärsenhet. Ett företag kan till exempel ha försäljningskontor i olika städer och länder och har därför skapat en separat affärsenhet för respektive kontor. De kontor som tillhör samma land upprättas som separata *företag* i en delad *miljö*. Andra kontor skapas som företag i olika miljöer eftersom de är geografiskt baserade i andra länder.
 

@@ -1,23 +1,17 @@
 ---
 title: Skapa och ändra anpassade layouter för rapporter och dokument
-description: Lär dig hur du kan skapa anpassade layouter för att personligt anpassa utseendet på rapporten när den visas, skrivs ut eller sparas.
+description: 'Lär dig hur du kan skapa anpassade layouter för att personligt anpassa utseendet på rapporten när den visas, skrivs ut eller sparas.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604784"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Äldre) Skapa och ändra anpassade rapportlayouter
+# (Äldre) Skapa och ändra anpassade rapportlayouter
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ När du har definierat egna rapportlayouter kan du välja dem på sidorna för k
 
 Du kan också använda anpassade rapportlayouter för att lägga till innehåll i e-postmeddelanden. Med hjälp av rapportlayout kan du spara tid och säkerställa konsekvens genom att återanvända samma innehåll när du kommunicerar med kunderna. Om du vill använda anpassade rapportlayouter med e-post måste filtypen för layouten vara Word. Du kan inte använda filtypen RDLC. Läs mer i [Ställ in återanvändbara e-posttexter och layouter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Skapa en anpassad layout
+## Skapa en anpassad layout
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.
 
@@ -60,11 +54,11 @@ Den anpassade layouten har skapats och du kan ändra den om du vill.
 > [!TIP]
 > Du kan exportera rapportresultaten till en Microsoft Excel-fil för att visa hela datauppsättningen, inklusive alla kolumner, men utan layouten. Excel-filen kan hjälpa dig att verifiera att rapporten returnerar förväntade data eller diagnosproblem. Läs mer i [Analysera rapportdata med Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Ändra en anpassad layout
+## <a name="ModifyCustomLayout"></a>Ändra en anpassad layout
 
 Om du vill ändra en anpassad rapportlayout måste du först exportera rapportlayouten som en fil till en plats på din dator eller nätverk. Öppna sedan det exporterade dokumentet och gör ändringarna. När du är klar med ändringarna importerar du rapportlayouten.
 
-### <a name="modify-a-custom-layout"></a>Ändra en anpassad layout
+### Ändra en anpassad layout
 
 1. Exportera en anpassad layout från sidan **Anpassade rapportlayouter**. Om sidan inte redan är öppen, sök efter och öppna **Val av rapportlayout**, välj rapporten med layouten som du vill ändra och välj sedan åtgärden **Anpassade layouter**.  
 2. På sidan **Anpassade rapportlayouter** väljer du den layout som du vill ändra, väljer åtgärden **Exportera layout** och väljer sedan **Spara** eller **Spara som** för att spara rapportlayouten till en plats på datorn eller i nätverket.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Ändra aktuell rapportlayout](ui-how-change-layout-currently-used-report.md)  

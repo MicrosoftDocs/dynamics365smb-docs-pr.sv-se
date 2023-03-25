@@ -1,22 +1,16 @@
 ---
 title: Utbyta data
-description: Utbyta elektroniska affärsdokument, t.ex. bankfiler, mellan Business Central och externa parter.
+description: 'Utbyta elektroniska affärsdokument, t.ex. bankfiler, mellan Business Central och externa parter.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
+ms.search.keywords: 'exchange data, external files, electronic documents, AMC Banking, OCT, SEPA'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: bb5886d46e780a32f0d0e58d0f62c58cacdc91a7
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744741"
 ---
-# <a name="exchanging-data"></a>Utbyta data
+# Utbyta data
 Du kan utbyta data mellan [!INCLUDE[prod_short](includes/prod_short.md)] och externa filer eller strömmar i gemensamma affärsuppgifter, till exempel för att skicka och ta emot elektroniska dokument och importera och exportera bankfiler.  
 
 Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta datafilerna eller strömmarna. Du måste dessutom konfigurera relaterade områden, exempelvis de kunder som du skickar elektroniska fakturor till, samt AMC Banking 365 Fundamentals-tillägget om du distribuerar bankfilskonverteringar till en extern tjänsteleverantör. Mer information finns i [Konfigurera datautbyte](across-set-up-data-exchange.md).  
@@ -37,7 +31,7 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 |Exportera data för Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)].|[Ställa in Intrastat-rapporter](finance-how-setup-report-intrastat.md)|
 |Visa vilka fält i [!INCLUDE[prod_short](includes/prod_short.md)] som mappas till filelement när du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget.|[Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Se även  
+## Se även  
 [Konfigurera databyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)   

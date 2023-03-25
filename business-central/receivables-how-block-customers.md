@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fb69308a913f12a1433d2b37680f0ece1e93d3b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140689"
 ---
-# <a name="block-customers"></a>Spärra kunder
+# Spärra kunder
 Du kan spärra en kund, till exempel på grund av ett insolvensförfarande, så att kunden inte kan läggas till försäljningsdokument, eller så att inga transaktioner kan bokföras för kunden.
 
 Förutom att spärra en kund, kan du ange ingående transaktioner för en kund som spärrade i samband med påminnelser. Mer information finns i [Så här kräver du in utestående saldon](receivables-collect-outstanding-balances.md).   
@@ -30,12 +24,12 @@ Följande tabell anger alternativen för att spärra kunder.
 |**Fakturera**|Det går inte att skapa nya order, nya leveranser eller nya fakturor för den här kunden. Befintliga leveranser som inte ännu har fakturerats kan inte faktureras. Du kan fortfarande skicka påminnelser och räntefakturor till kunden.|  
 |**Alla**|Ingen transaktion tillåts för den här kunden, inklusive betalningar.|  
 
-## <a name="to-block-a-customer"></a>Om du vill spärra en kund  
+## Om du vill spärra en kund  
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj en kund och välj sedan åtgärden **Redigera**.
 3. I fältet **Spärrad** anger du vad som ska blockeras i enlighet med beskrivningen i tabellen ovan.
 
-## <a name="see-also"></a>Se även  
+## Se även  
 [Registrera nya kunder](sales-how-register-new-customers.md)  
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  

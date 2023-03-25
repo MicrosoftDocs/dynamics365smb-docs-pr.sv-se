@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 41c661d161d88ac1b74b7f723e0913cf1575a4ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130156"
 ---
+
 I försäljningsdokument och journaler kan du ange ett dokumentnummer som refererar till kundens nummersystem. <!--You can enter a maximum of ten characters, both numbers and letters.--> Använd det här fältet för att registrera numret som kunden har tilldelat ordern, fakturan eller kreditnotan. Sedan kan du använda numret om du av någon anledning behöver söka efter den bokförda posten med hjälp av detta nummer.  
 
 Fältet **Ext. Dok.nr obligatoriskt** på sidan **Konfiguration av försäljning och kundreskontra** anger om det är obligatoriskt att ange ett externt dokumentnummer i fältet **Externt dokumentnr** i ett försäljningshuvud och fältet **Externt dokumentnr** på en redovisningsjournalrad.

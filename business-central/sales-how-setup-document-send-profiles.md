@@ -1,22 +1,16 @@
 ---
 title: Konfigurera föredragna metoder för att skicka försäljningsdokument (innehåller video) | Microsoft Docs
-description: Beskriver hur du ställer in respektive kunds standardmetod för att skicka dokument, till exempel e-transaktion, PDF, elektroniska dokument och så vidare.
+description: 'Beskriver hur du ställer in respektive kunds standardmetod för att skicka dokument, till exempel e-transaktion, PDF, elektroniska dokument och så vidare.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: email, PDF, electronic document
+ms.search.keywords: 'email, PDF, electronic document'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d858c39b26ae75446bd73fc09f8df3845c1fb73d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076389"
 ---
-# <a name="set-up-document-sending-profiles"></a>Skapa dokumentutskicksprofiler
+# Skapa dokumentutskicksprofiler
 Du kan skapa varje kund med en föredragen metod för att skicka försäljningsdokument så att du inte behöver välja alternativ varje gång som du väljer åtgärden **Bokför och skicka**.
 
 På sidan **Dokumentutskicksprofiler** konfigurerar du olika utskicksprofiler som du kan välja bland i fältet **Dokumentutskicksprofil** på ett kundkort. Du kan markera kryssrutan **Standard** om du vill ange att dokumentutskicksprofilen är standardprofilen för alla kunder förutom för kunder som har fältet **Dokumentutskicksprofil** ifyllt med en annan utskicksprofil.
@@ -26,17 +20,17 @@ När du väljer åtgärden **Bokför och skicka** i ett försäljningsdokument v
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHH?rel=0]
 
-## <a name="to-set-up-a-document-sending-profile"></a>Så här konfigurerar du en dokumentutskicksprofil
+## Så här konfigurerar du en dokumentutskicksprofil
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Dokumentutskicksprofiler** och väljer sedan relaterad länk.
 2. På sidan **Dokumentutskicksprofiler** väljer du åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Så här anger du en utskicksprofil på ett kundkort
+## Så här anger du en utskicksprofil på ett kundkort
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kortet för kunden som du vill skapa en utskicksprofil för.
 3. I fältet **Dokumentutskicksprofil** väljer du en profil som du har konfigurerat enligt beskrivningen i föregående procedur.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

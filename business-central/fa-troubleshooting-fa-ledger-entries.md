@@ -7,25 +7,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382477"
 ---
-# <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Tillägget Felsöka poster i redovisningen för fasta anläggningstillgångar
+# Tillägget Felsöka poster i redovisningen för fasta anläggningstillgångar
 Använd tillägget Felsöka poster i redovisningen för fasta anläggningstillgångar för att avrunda avskrivnings- och anskaffningsbelopp i poster för anläggningstillgångar till heltal. Om du till exempel vill avrunda beloppet 30 000,44 till 30 000. Vanliga orsaker till avrundningsproblem är datamigrering, att man plötsligt börjar bokföra belopp i redovisningen, samt anpassningar i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Tillägget Felsöka poster i redovisningen för fasta anläggningstillgångar är förinstallerat och klart att köra. Om du tar bort tillägget men vill installera det igen hitar du det på AppSource.
 
-## <a name="troubleshooting-fixed-asset-ledger-entries"></a>Felsöka redovisningsposter för fasta anläggningstillgångar
+## Felsöka redovisningsposter för fasta anläggningstillgångar
 När du öppnar sidan **Kort för fast anläggningstillgång** för första gången schemaläggs jobbkön **Skanna redovisningsposter för fasta anläggningstillgångar** till att övervaka belopp varje söndag. Om denna funktion hittar belopp som du kan vilja avrunda visas ett meddelande nästa gång du öppnar sidan Kort för fast anläggningstillgång. Meddelandet innehåller alternativet **Visa fler** som öppnar sidan **Redovisningsposter för fasta anlägningstillgångar med avrundningsproblem**, som innehåller de transaktioner med belopp som du kan vilja avrunda. Om du vill avrunda beloppen väljer du transaktionerna och sedan åtgärden **Acceptera urval**. Du kan använda åtgärden **Sök poster med problem** för att uppdatera listan med nya problem som inträffat efter det att jobbkötransaktionen kördes föregående söndag.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Anläggningstillgångar](fa-manage.md)  
 [Hantera anläggningstillgångar](fa-manage.md)  
 [Underhålla anläggningstillgångar](fa-how-maintain.md)  

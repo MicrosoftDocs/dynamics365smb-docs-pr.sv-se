@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141729"
 ---
-# <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
+
+# Utbyta data elektroniskt.
 Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
 
 I standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)], används ramverket för dataintegrering i processer som utbyte av elektroniska dokument, import och export av bankfiler och uppdatering av valutakurser för valutor. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
@@ -31,7 +26,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Skapa dataintegreringsdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  
 |Använd definitioner för datautbyte och skicka PEPPOL-fakturor, ta emot PEPPOL-fakturor, importera bankkontoutdrag och exportera bankbetalningfiler.|[Utbyta data](across-exchange-data.md)|  
 
-## <a name="see-also"></a>Se även  
+## Se även  
 [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)  
 [Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  

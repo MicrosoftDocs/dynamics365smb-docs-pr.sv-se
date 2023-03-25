@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522752"
 ---
-# <a name="batch-post-output-and-run-times"></a>Batch-bokför utflöde och körtider
+# Batch-bokför utflöde och körtider
 Utflödesantalet representerar arbetsförloppet i form av färdig kvantitet och utnyttjad kapacitet för produktions- eller maskingrupp.
 
 Du kan välja använda utflödesjournal för att:
@@ -30,7 +24,7 @@ Du kan välja använda utflödesjournal för att:
 
 Med fönstret **Produktionsjournal** kan du utföra samma uppgifter som i fönstret **Utflödesjournal** och samtidigt utföra de relaterade bokföringsuppgifterna för förbrukningen. För mer information, se [Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Om du vill bokföra utflödeskvantiteter och/eller registrera körtider för en eller flera produktionsorderrader
+## Om du vill bokföra utflödeskvantiteter och/eller registrera körtider för en eller flera produktionsorderrader
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
 2. Fyll i fälten med data om produktionsorden och utdata och/eller körtid. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -44,7 +38,7 @@ Kapacitetstransaktioner uppdateras för de använda produktions- eller maskingru
 
 Om du har bokfört den sista operationen kommer artikeln att läggas till i lagret.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Bokför kassation manuellt](production-how-to-post-scrap.md)
 [Återför utflödesbokföring](production-how-to-reverse-output-posting.md)

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763274"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Skapa arbetsflöden för att koppla uppgifter i affärsprocesser
+# Skapa arbetsflöden för att koppla uppgifter i affärsprocesser
 
 Du kan skapa arbetsflöden som kopplar uppgifter i affärsprocesser som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
 
@@ -47,7 +41,7 @@ Arbetsflödet är uppdelat i tre delar:
 
 För båda händelser och svar är alternativen systemdefinierade. Nya måste läggas till genom utveckling av ett tillägg.
 
-## <a name="to-create-a-workflow"></a>Skapa ett arbetsflöde
+## Skapa ett arbetsflöde
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflöde** visas.  
@@ -65,7 +59,7 @@ För båda händelser och svar är alternativen systemdefinierade. Nya måste l�
    Om arbetsflödeshändelsen är ändringen av ett visst fält i en post, då öppnas sidan **Händelsevillkor** med alternativ för att markera fältet och typen av ändring.  
 
    1. Så här anger du en fältändring för händelsen: i sidan **Händelsevillkor**, i fältet **Fält**, markerar du det fält som ska ändras.  
-   2. Välj antingen **Minskad**, **Ökad** eller **Ändrad** i fältet **Operator**.  
+   2. Välj antingen **Minskad**, **Ökad**eller **Ändrad** i fältet **Operator**.  
 9. I fältet **Sedan svar** anger du svaret som ska följa när arbetsflödeshändelsen inträffar.  
 
    När du väljer fältet öppnas sidan **Arbetsflödessvar** där du kan välja mellan alla arbetsflödessvar som finns och ange svarsalternativ för det valda svaret.  
@@ -117,7 +111,7 @@ För båda händelser och svar är alternativen systemdefinierade. Nya måste l�
 > [!TIP]  
 > Om du vill visa relationer mellan tabeller som används i arbetsflöden väljer du den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **arbetsflöde – tabellrelationer**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Exempel på hur du skapar ett nytt arbetsflöde med hjälp av befintliga händelser
+## Exempel på hur du skapar ett nytt arbetsflöde med hjälp av befintliga händelser
 
 I följande exempel görs ett nytt arbetsflöde för att godkänna ändringar av namnet på en befintlig leverantör:
 
@@ -176,9 +170,9 @@ Följande illustrationer ger en översikt över resultatet av proceduren.
 
 Sedan måste du och testa arbetsflödet genom att öppna en befintlig leverantör och ändra namnet. Kontrollera att en begäran om godkännande har gjorts när du ändrar leverantörens namn.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)  
 [Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  

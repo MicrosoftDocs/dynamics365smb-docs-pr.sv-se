@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.search.forms: 1060, 1061, 1062
+ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5b2ae63fea8f6ad477478eff6d876a0779d165ee
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530520"
 ---
-# <a name="enable-customer-payments-through-payment-services"></a>Aktivera kundbetalningar via betalningstjänster
+# Aktivera kundbetalningar via betalningstjänster
 
 Som alternativ till att samla utbetalningar via banköverföring eller kreditkort, kan dina kunder betala via sina konton med betalningstjänster som t.ex. PayPal eller WorldPay.  
 
@@ -25,7 +19,7 @@ När du har aktiverat en betalningstjänst i [!INCLUDE[prod_short](includes/prod
 
 Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installerade i [!INCLUDE[prod_short](includes/prod_short.md)], och klara att aktiveras.  
 
-## <a name="to-enable-a-payment-service-in-prod_short"></a>Så här aktiverar du en betalningstjänst i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Så här aktiverar du en betalningstjänst i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningstjänster** och väljer sedan relaterad länk.  
 2. På sidan **Betalningstjänst** väljer du åtgärden **Ny**.  
@@ -34,7 +28,7 @@ Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installer
 5. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Stäng sidan.  
 
-## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Välja en betalningstjänst för en försäljningsfaktura
+## Välja en betalningstjänst för en försäljningsfaktura
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 2. Öppna den försäljningsfaktura som du vill betala med hjälp av betalningstjänsten.  
@@ -43,9 +37,9 @@ Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installer
     > [!NOTE]  
     > Fältet **betalningstjänst** är bara tillgängligt om du har aktiverat betalningstjänsten.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  

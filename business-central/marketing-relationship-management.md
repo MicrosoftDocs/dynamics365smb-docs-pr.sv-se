@@ -7,18 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contact, prospect, client
-ms.search.forms: 9076, 9026
+ms.search.keywords: 'contact, prospect, client'
+ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137867"
 ---
-# <a name="managing-relationships"></a>Hantera relationer
+# Hantera relationer
 Kundhanteringsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att hantera och stödja din försäljning. Med de här funktionerna får du tillgång till fullständig och riktig information så att du kan fokusera på ditt arbete med de viktiga kund-/kontaktsegmenten.
 
 Effektiva metoder för försäljning och marknadsföring handlar om hur du fattar rätt beslut vid rätt tidpunkt. [!INCLUDE[prod_short](includes/prod_short.md)] ger en exakt överblick över din kontaktinformation när du behöver den, så att du kan arbeta effektivt med potentiella kunder och öka kundtillfredsställelsen.

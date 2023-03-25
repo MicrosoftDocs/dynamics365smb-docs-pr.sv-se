@@ -1,81 +1,92 @@
 ---
-title: Designdetaljer – Disposition i distributionslagret | Microsoft Docs
-description: Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributionslagret, så att avgående beställningar kan flöda effektivt och ge bästa möjliga leveranser.
-author: SorenGP
+title: Designdetaljer – Disposition i distributionslagret
+description: Lära dig mer om de olika faktorer som påverkar artikeldispositionen i distributionslagret.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132087"
+ms.date: 02/22/2023
+ms.custom: bap-template
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Disposition i distributionslagret
-Systemet måste ha en konstant kontroll på artikeltillgänglighet i distributionslagret, så att avgående beställningar kan flöda effektivt och ge bästa möjliga leveranser.  
+# Designdetaljer: Disposition i distributionslagret
 
-Dispositionen varierar beroende på fördelningar på lagerplatsnivån när distributionslageraktiviteter, till exempel plockning och transport, inträffar och när lagerreservationssystemet har begränsningar som ska uppfyllas. En ganska komplex algoritm kontrollerar att alla villkor är uppfyllda innan antal tilldelas till plockningar för utgående flöden.
+Håll dig uppdaterad om artikeldispositionen för att säkerställa att utgående order flödar effektivt och att leveranstiderna är optimala.  
 
-Om ett eller flera villkor inte uppfylls kan olika felmeddelanden visas, inklusive det allmänna "inget att hantera". -meddelande. Meddelandet "Inget att hantera." kan finnas flera olika orsaker, både i utgående och ankommande flöden, där en direkt eller indirekt involverad dokumentrad innehåller fältet **Ant. att hantera**.
+Disposition kan variera beroende på flera faktorer. Till exempel:
 
-> [!NOTE]
-> Informationen kommer snart att publiceras här om möjliga orsaker och lösningar för "inget att hantera". -meddelande.
+* Fördelningar på lagerplatsnivå när lageraktiviteter som plockningar och transporter sker.
+* När lagerreservationssystemet tillämpar begränsningar för att följa.
 
-## <a name="bin-content-and-reservations"></a>Lagerplats och reservationer  
- I en installation av lagerstyrning finns artikelantalet både som distributionslagertransaktioner, i modulen Distributionslager och som artikeltransaktioner, i modulen Lager. Dessa två transaktionstyper innehåller information om var artiklarna finns och om de är tillgängliga. Distributionslagertransaktioner definierar en artikels tillgänglighet per lagerplats och lagerplatstyp, vilket kallas lagerplatsinnehåll. Artikeltransaktioner definierar en artikels disposition genom dess reservation till avgående dokument.  
+Innan du fördelar kvantiteter till plockningar för utgående flöden verifierar [!INCLUDE [prod_short](includes/prod_short.md)] att alla villkor är uppfyllda.
 
- Särskild funktion i plockningsalgoritmen finns för att beräkna den kvantitet som är tillgänglig för plockning när lagerplatsinnehåll kopplas ihop med reservationer.  
+När villkoren inte är uppfyllda visas felmeddelanden. Ett vanligt meddelande är det allmänna "finns inget att hantera". -meddelande. Meddelandet kan visas av flera olika orsaker, både i utgående och inkommande flöden, där en dokumentrad innehåller fältet **Ant. att hantera**.
 
-## <a name="quantity-available-to-pick"></a>Disponibelt antal att plocka  
- Om till exempel plockningsalgoritmen inte beaktar artikelantal som har reserverats för en väntande försäljningsframgångs, kan dessa artiklar plockas för en annan försäljningsorder som ska utlevereras tidigare, vilket hindrar att den första försäljningen uppfylls. För att undvika den här situationen drar plockningsalgoritmen bort antal som har reserverats för andra avgående dokument, antal på befintliga plockdokument och antal som har plockas men som ännu inte har levererats eller förbrukats.  
+## Lagerplatsinnehåll och reservationer  
 
- Resultatet visas i fältet **Disponibelt att plocka** på sidan **Plockningskalkylark** där fältet beräknas dynamiskt. Värdet beräknas också när användaren skapar distributionslagerplockningarna direkt för avgående dokument. Sådana utgående dokument kan vara försäljningsorder, produktionsförbrukning eller utgående överföringar, där resultatet visas i de relaterade antalsfälten, till exempel **Ant. att hantera**.  
+Artikelantal finns både som dist.lager transaktioner och som artikeltransaktioner i lager. Dessa två transaktionstyper innehåller information om var artiklarna finns och om de är tillgängliga. Distributionslagertransaktioner definierar en artikels tillgänglighet per lagerplats och lagerplatstyp, vilket kallas lagerplatsinnehåll. Artikeltransaktioner definierar en artikels disposition genom dess reservation till avgående dokument.  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] beräknar den kvantitet som är tillgänglig för plockning när lagerplatsinnehållet kopplas till reservationer.  
+
+## Disponibelt antal att plocka  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] reserverar artiklar för pågående leveranser av försäljningsorder så att de inte plockas för andra försäljningsorder som levereras tidigare. [!INCLUDE [prod_short](includes/prod_short.md)] subtraherar antal artiklar som redan bearbetas enligt följande:
+
+* Kvantiteter som reserverats för andra utgående dokument.
+* Antal för befintliga plockningsdokument.
+* Kvantiteter som plockats men ännu inte levererats eller förbrukats.  
+
+Resultatet beräknas dynamiskt och visas i fältet **Disponibelt att plocka** på sidan **Plockningskalkylark**. Värdet beräknas också när användaren skapar distributionslagerplockningarna direkt för avgående dokument. Följande utgående källdokument finns:
+
+* Försäljningsorder
+* Produktionsförbrukning
+* Avgående överföringar
+
+Resultatet blir tillgängligt i dessa dokument i kvantitetsfälten, till exempel i fältet **Ant. att hantera**.  
 
 > [!NOTE]  
->  Angående prioriteten för reservationer subtraheras antalet som ska reserveras från antalet som är disponibelt att plockas. Till exempel om antalet som är tillgängligt på plocklagerplatser är 5 enheter, men 100 enheter finns på införsel-lagerplatser, och du försöker att reservera mer än 5 enheter för ytterligare en order, kommer ett felmeddelande visas eftersom den här extra kvantiteten måste vara tillgänglig på plocklagerplatser.  
+> För prioriteten för reservationer subtraheras antalet som ska reserveras från antalet som är disponibelt att plockas. Till exempel om antalet som är tillgängligt på plocklagerplatser är 5 enheter, men 100 enheter finns på införsel-lagerplatser, och du försöker att reservera mer än 5 enheter för ytterligare en order, kommer ett felmeddelande visas eftersom den här extra kvantiteten måste vara tillgänglig på plocklagerplatser.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Beräknar disponibelt antal att plocka  
- Antalet som är tillgängligt att plocka beräknas så här:  
+### Beräknar disponibelt antal att plocka  
 
- disponibelt antal att plocka = antal på plocklagerplatser – antal i plockning och transport – (reserverat antal på plocklagerplatser + reserverat antal i plockning och transport)  
+[!INCLUDE [prod_short](includes/prod_short.md)] beräknar antalet som är tillgängligt att plocka så här:  
 
- Följande diagram visar de olika elementen i beräkningen.  
+disponibelt antal att plocka = antal på plocklagerplatser – antal i plockning och transport – (reserverat antal på plocklagerplatser + reserverat antal i plockning och transport)  
 
- ![Tillgänglig för plockning med reservationsöverlappning.](media/design_details_warehouse_management_availability_2.png "Tillgänglig för plockning med reservationsöverlappning")  
+Följande diagram visar de olika elementen i beräkningen.  
 
-## <a name="quantity-available-to-reserve"></a>Disponibelt antal att reservera  
- Eftersom begreppen för lagerplatsinnehåll och reservation finns till samtidigt, måste antalet artiklar som är disponibla att reservera justeras mot fördelningar till utgående distributionslagerdokument.  
+![Tillgänglig för plockning med reservationsöverlappning.](media/design_details_warehouse_management_availability_2.png "Tillgänglig för plockning med reservationsöverlappning")  
 
- Det bör vara möjligt att reservera alla artiklar i lager, utom de som har inlett avgående behandling. Antalet som är tillgängligt att reservera definieras som antalet på alla dokument och alla lagerplatstyper, utom följande avgående antal:  
+## Disponibelt antal att reservera
 
--   Antal i oregistrerade plockdokument  
--   Antal i utleveranslagerplatser  
--   Antal i till-produktion-lagerplatser  
--   Antal i öppna produktionslagerplatser  
--   Antal i till-montering-lagerplatser  
--   Antal på justeringlagerplatser  
+Eftersom begreppen för lagerplatsinnehåll och reservation finns till samtidigt, måste antalet artiklar som är disponibla att reservera justeras mot fördelningar till utgående distributionslagerdokument.  
 
- Resultatet visas i fältet **Totalt disponibelt antal** på sidan **Reservation**.  
+Du kan reservera alla lagerartiklar, utom artiklar som har startat avgående bearbetning. Antalet som är tillgängligt att reservera definieras som antalet på alla dokument och alla lagerplatstyper. Följande avgående antal är undantag:  
 
- På en reservationsrad visas antalet som inte kan reserveras, eftersom det har fördelats i distributionslagret, i fältet **Fördelat antal i dist.lager** på sidan **Reservation**.  
+* Antal i oregistrerade plockdokument  
+* Antal i utleveranslagerplatser  
+* Antal i till-produktion-lagerplatser  
+* Antal i öppna produktionslagerplatser  
+* Antal i till-montering-lagerplatser  
+* Antal på justeringlagerplatser  
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Beräknar disponibelt antal att reservera  
- Antalet som är tillgängligt att reservera beräknas så här:  
+Resultatet visas i fältet **Totalt disponibelt antal** på sidan **Reservation**.  
 
- disponibelt antal att reservera = totalt antal i lager – antal i plockning och transport för källdokument – reserverat antal – antal i avgående lagerplatser  
+På en reservationsrad visas antalet som inte kan reserveras, eftersom det har fördelats i distributionslagret, i fältet **Fördelat antal i dist.lager** på sidan **Reservation**.  
 
- Följande diagram visar de olika elementen i beräkningen.  
+### Beräknar disponibelt antal att reservera
 
- ![Tillgänglig för reservering per lagerställefördelning.](media/design_details_warehouse_management_availability_3.png "Tillgänglig för reservering per lagerställefördelning")  
+[!INCLUDE [prod_short](includes/prod_short.md)] beräknar antalet som är tillgängligt att reservera så här:  
 
-## <a name="see-also"></a>Se även  
- [Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
- [Visa artikeldisposition](inventory-how-availability-overview.md)
+disponibelt antal att reservera = totalt antal i lager – antal i plockning och transport för källdokument – reserverat antal – antal i avgående lagerplatser  
+
+Följande diagram visar de olika elementen i beräkningen.  
+
+![Tillgänglig för reservering per lagerställefördelning.](media/design_details_warehouse_management_availability_3.png "Tillgänglig för reservering per lagerställefördelning")  
+
+## Se även  
+
+[Översikt över Warehouse Management: ](design-details-warehouse-management.md)
+[Visa artiklarnas disposition](inventory-how-availability-overview.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

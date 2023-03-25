@@ -1,29 +1,23 @@
 ---
 title: Arkivera försäljnings- och inköpsdokument
-description: Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och ramorder och återställa originalen om det behövs.
+description: 'Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och ramorder och återställa originalen om det behövs.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.date: 03/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: c81248844f603f80304822c0ce089c666f9be9bc
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950335"
 ---
-# <a name="archive-documents"></a>Arkivera dokument
+# Arkivera dokument
 Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och ramorder. Genom att arkivera dokument kan du återställa originalet om det behövs. Du kan arkivera ett försäljnings- eller inköpsdokument flera gånger och spara en annan arkiverad version varje gång.
 
 För arkiverade försäljningsdokument där originalet finns och inte har bokförts, kan du använda åtgärd **återställa** för att skriva över det aktuella dokumentet med en arkiverad version. 
 
 För arkiverade dokument där originalet tagits bort kan du endast återanvända innehållet genom att kopiera informationen, till exempel med åtgärd **Kopiera från dokument**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Så här ställer du in automatisk dokumentarkivering
+## Så här ställer du in automatisk dokumentarkivering
 
 Du kan ställa in automatisk arkivering av försäljnings- och inköpsorder, offerter, avropsorder och returorder. När automatisk arkivering är aktiverad skapas en ny version av det arkiverade dokumentet när någon gör något av följande:
 
@@ -45,7 +39,7 @@ Följande tabell beskriver alternativen för fält **Arkivera offerter**.
 |**Fråga**|Välj för att uppmana användaren att välja huruvida försäljningsofferter ska arkiveras när de tas bort.|
 |**Alltid**|Välj om du vill arkivera försäljningsofferter automatiskt när de tas bort.|
 
-## <a name="to-archive-a-sales-order"></a>För att arkivera en försäljningsorder
+## För att arkivera en försäljningsorder
 
 Följande förfarande beskriver hur du arkiverar en försäljningsorder. Stegen är liknande för alla inköpsorder, avropsorder, returorder och offerter.
 
@@ -55,7 +49,7 @@ Följande förfarande beskriver hur du arkiverar en försäljningsorder. Stegen 
 
 Försäljningsordern arkiveras. Du kan visa den på sidan **Arkiverade försäljningsorder**.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Så här återställer du en icke-bokförd försäljningsorder från arkivet
+## Så här återställer du en icke-bokförd försäljningsorder från arkivet
 
 Nedan beskrivs hur du ändrar innehållet återställa en arkiverad försäljningsorder till den ursprungliga försäljningsordern. Att återställa ett dokument är endast möjligt när originaldokumentet inte har bokförts. Stegen är liknande för alla inköpsorder, avropsorder, returorder och offerter.
 
@@ -64,7 +58,7 @@ Nedan beskrivs hur du ändrar innehållet återställa en arkiverad försäljnin
 
 Innehållet i den ursprungliga försäljningsordern ersätts med värdet för den valda arkiverade versionen.
 
-## <a name="to-delete-archived-sales-orders"></a>Ta bort arkiverade förs.orderversioner
+## Ta bort arkiverade förs.orderversioner
 
 Följande förfarande beskriver hur du tar bort arkiverade försäljningsorder. Stegen är liknande för andra arkiverade försäljnings- och inköpsdokument.
 
@@ -72,7 +66,7 @@ Följande förfarande beskriver hur du tar bort arkiverade försäljningsorder. 
 2. Välj åtgärden **Ta bort äldre versioner** och välj sedan lämpliga filter på sidan **Ta bort arkiverade försäljningsorderversioner**.  
 3. Välj knappen **OK**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Spåra dokumentrader](across-how-to-track-document-lines.md)  
 [Försäljning](sales-manage-sales.md)  

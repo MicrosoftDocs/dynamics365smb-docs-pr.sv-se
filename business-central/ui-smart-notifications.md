@@ -1,22 +1,16 @@
 ---
 title: Arbeta med smarta meddelanden och ange när du ser den
-description: Du kan få meddelanden som informerar dig om statusändringar eller händelser, till exempel en skuld eller låg lagernivå.
+description: 'Du kan få meddelanden som informerar dig om statusändringar eller händelser, till exempel en skuld eller låg lagernivå.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: bholtorf
-ms.openlocfilehash: ee3f03eb59df2c991cd0a87dd6e10c07000311cc
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654844"
 ---
-# <a name="manage-notifications"></a>Hantera meddelanden
+# Hantera meddelanden
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att arbeta mer smart genom att meddela dig om vissa evenemang eller stausändringar som t. ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Dessa meddelanden visas som diskreta tips i kontexten för uppgiften som du gör, och du kan välja att ignorera meddelandet eller visa detaljer om utskick.  
 
@@ -24,7 +18,7 @@ Om du väljer att visa detaljer för ett meddelande, kan du vidta vill att lösa
 
 Meddelandena hjälper otränade användare att slutföra obekanta uppgifter och minskar inte produktiviteten för den mer tränade användaren.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Aktivera eller inaktivera meddelanden och kontrollera när de skickas
+## Aktivera eller inaktivera meddelanden och kontrollera när de skickas
 
 När du först börjar med [!INCLUDE[prod_short](includes/prod_short.md)] aktiveras alla meddelanden, men du kan aktivera dem eller inaktivera dem, till exempel om du inte är intresserad av en viss händelse eller status.  
 
@@ -37,7 +31,7 @@ Aktivera meddelanden och inaktivera dem och ange villkor som bara gäller för d
 3. Aktivera eller inaktivera ett meddelande på sidan som visas genom att markera eller avmarkera kryssrutan **aktiverad**.  
 4. Ange villkor som ska utlösa meddelanden genom att välja länken **Visa filterdetaljer** och fyll sedan i fälten.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

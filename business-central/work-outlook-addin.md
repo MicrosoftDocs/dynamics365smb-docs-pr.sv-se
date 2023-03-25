@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365
+ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 94ff94bab70582f4f9b4dcd73a5923931317d6f1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530331"
 ---
-# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Använda Business Central som din företagsinkorg i Outlook
+# Använda Business Central som din företagsinkorg i Outlook
 
 [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder ett tillägg som gör dig redo att hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med tillägget [!INCLUDE[prod_short](includes/prod_short.md)] för avsnittet kan du se ekonomiska data som relateras till kunder och leverantörer, samt visa och skicka ekonomiska dokument som t.ex offerter och fakturor.
 
@@ -30,7 +24,7 @@ ms.locfileid: "9530331"
 
    När ett affärsdokument skickas i ett e-postmeddelande ger tillägget en direkt länk från e-postmeddelandet till det faktiska affärsdokumentet i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="get-started"></a>Kom igång
+## Kom igång
 
 1. Det första du gör är att hämta [!INCLUDE[prod_short](includes/prod_short.md)] tillägget som installeras i Outlook. Administratören kanske redan har installerat tillägget. Om du inte är säker kan du be administratören att kontrollera om den är installerad eller se nästa steg.
 
@@ -51,7 +45,7 @@ Första gången du använder tillägget i en [!INCLUDE[prod_short](includes/prod
 
 Mer information finns i [använda tilläggsprogram i Outlook på webben](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in"></a>Arbeta med kontakter och dokument med hjälp av tillägget för information om kontakter
+## Arbeta med kontakter och dokument med hjälp av tillägget för information om kontakter
 
 Anta att du får ett e-postmeddelande från en kund som vill ha en offert för vissa artiklar. Direkt i Outlook kan du öppna tilläggsprogrammet [!INCLUDE[prod_short](includes/prod_short.md)] som känner igen avsändaren som en kund, och öppnar kundkortet för hans företag. Från denna instrumentbräda kan du se översiktsinformation för kunden samt bläddra ned för mer detaljer för särskilda dokument. Du kan också studera kundens försäljninghistorik. Om det är en ny kontakt kan du skapa den som en kund i [!INCLUDE[prod_short](includes/prod_short.md)] utan att lämna Outlook.  
 
@@ -64,7 +58,7 @@ Ibland vill du se fler fält än vad du kan se i tilläggsprogrammet, till exemp
 > [!TIP]
 > Uppgifterna beskriver hur du använder tillägget från ett e-postmeddelande. Men du kan göra detsamma i en avtalad tid i Outlook.
 
-### <a name="look-up-a-business-contact-when-composing-an-email"></a>Slå upp en företagskontakt när du skriver ett e-postmeddelande
+### Slå upp en företagskontakt när du skriver ett e-postmeddelande
 
 1. Skapa ett nytt e-postmeddelande.
 2. I menyfliksområdet, gå till **[!INCLUDE[prod_short](includes/prod_short.md)]** och välj **Information om kontakt**. Eller om du använder Outlook på webben, längst upp eller längst ner i e-postmeddelandet, välj ![ikonen Business Central tillägg i Outlook.](media/outlook-business-central-icon.png) > **Information om kontakt**.
@@ -72,7 +66,7 @@ Ibland vill du se fler fält än vad du kan se i tilläggsprogrammet, till exemp
 
     En översikt över kontakten visas i rutan och kontakten läggs till på raden **till** i e-postmeddelandet.
 
-### <a name="view-and-change-the-contact-details-or-switch-company"></a>Visa och ändra kontaktinformation eller växla företag
+### Visa och ändra kontaktinformation eller växla företag
 
 Åtgärds fältet högst upp i [!INCLUDE[prod_short](includes/prod_short.md)] tilläggsrutan innehåller flera åtgärder som gör att du kan gå djupare till detaljer om kontakten och ändra saker.
 
@@ -80,7 +74,7 @@ Ibland vill du se fler fält än vad du kan se i tilläggsprogrammet, till exemp
 
 Du kan t.ex. öppna den fullständiga kontaktinformationen som visas i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du arbetar med mer än ett [!INCLUDE[prod_short](includes/prod_short.md)]-företag kan du enkelt växla mellan företag.
 
-### <a name="track-incoming-documents"></a>Spåra inkommande dokument
+### Spåra inkommande dokument
 
 Du kanske använder listan **inkommande dokument** i [!INCLUDE[prod_short](includes/prod_short.md)] för att spåra dokument för bearbetning av leverantörer som skickar till dig, till exempel en inköpsfaktura som ska betalas. Om du gör det kan du enkelt skapa poster för inkommande dokument från Outlook-tillägget och inkludera bifogade filer i e-postmeddelandet.
 
@@ -88,13 +82,13 @@ Du kanske använder listan **inkommande dokument** i [!INCLUDE[prod_short](inclu
 
 2. I åtgärdsfältet för tillägget, välj **Visa fler åtgärder**, välj **Skicka till inkommande dokument…** .  
 
-### <a name="create-and-send-new-document-to-a-contact"></a>Skapa och skicka ett nytt dokument till en kontakt
+### Skapa och skicka ett nytt dokument till en kontakt
 
 1. Välj i menyfliksområdet eller längst ned i e -postmeddelandet ![ikonen Business Central tillägg i Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]** > **Nytt** och välj sedan den typ av dokument som du vill skapa, t.ex. **försäljningsoffert**.
 2. Gör ändringar i dokumentet i **[!INCLUDE[prod_short](includes/prod_short.md)]** tilläggsrutan.
 3. När dokumentet är klart att skickas till kontakten kan du välja **Visa fler åtgärder** och sedan välja åtgärden **Skicka via e-post** i åtgärdsfältet.
 
-### <a name="attach-files-to-records"></a>Bifoga filer till poster
+### Bifoga filer till poster
 
 Din e-postinkorg fungerar ofta som en källa för inkommande filer som initierar eller avblockerar arbetsflöden. Filer kan innehålla sådant som PDF-faktura betalningar, foton av varor eller krav i Word-dokument. När du arbetar i Outlook med Business Central poster som leverantörer, kunder, inköpsfakturor eller försäljningsorder kan du bifoga dessa filer till posterna.
 
@@ -104,7 +98,7 @@ Du kan bifoga filer på ett par olika sätt. Ett sätt är att ladda upp filer f
 
 När du bifogat en fil kan kollegor snabbt hämta och visa filen från fakta boxen för **bifogade filer** i alla Business Central-klienter. Eller så kan de öppna filen i OneDrive för att dela och samarbeta med sina avdelningar.
 
-#### <a name="how-to-attach-a-file"></a>Så här bifogar du en fil
+#### Så här bifogar du en fil
 
 1. Öppna e-post, välj ikonen för ![Business Central- tillägget i Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Information om kontakt**.
 2. Välj i åtgärdsfältet för tillägget, välj **Visa fler åtgärder** > **Bilagor**.
@@ -118,7 +112,7 @@ När du bifogat en fil kan kollegor snabbt hämta och visa filen från fakta box
 > [!NOTE]
 > Du kan inte bifoga filer till alla poster. Den här funktionen är tillgänglig för poster där Faktabox för **bifogade filer** används, till exempel en leverantör, kund, inköpsfaktura eller försäljningsorder.
 
-## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>Visa ett dokument från ett e-postmeddelande med tillägget dokumentvisning
+## Visa ett dokument från ett e-postmeddelande med tillägget dokumentvisning
 
 Oavsett om det är ett e-postmeddelande som du har skickat eller tagit emot kan du välja ett [!INCLUDE[prod_short](includes/prod_short.md)] dokument, till exempel försäljningsofferten, direkt i Outlook. Därifrån kan du göra ändringar och navigera till relaterad information &mdash; på samma sätt som i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -128,9 +122,9 @@ Om du använder Outlook-appen väljer du bara **dokumentlänk** högst upp i e-p
 > Från och med 2022 utgivningscykel 1 öppnas dokument i ett nytt webbläsarfönster med alla funktioner som du känner från [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan navigera från ett dokument till en lista och tillbaka, öppna listor i Excel, skicka dokument som ska skrivas ut och köra eller förhandsgranska relaterade rapporter. Du kan också använda alla välkända kortkommandon när du öppnar dokument från Outlook.  
 
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Få Business Central på min mobila enhet](install-mobile-app.md)  

@@ -1,28 +1,22 @@
 ---
 title: Ställa in lager
-description: Beskriver hur du ställer in dina lagerprocesser, inklusive överföringsflöden och lagerställen som t. ex. distributionslager.
+description: 'Beskriver hur du ställer in dina lagerprocesser, inklusive överföringsflöden och lagerställen som t. ex. distributionslager.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d637ae9b0413bb069927166fc8a5ac74e9dd7e2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531492"
 ---
-# <a name="setting-up-inventory"></a>Ställa in lager
+# Ställa in lager
 Innan du kan administrera aktiviteter för lager och lagerkostnader måste du först ställa in de regler och värden som definierar företagets lagerpolicyer.
 
 Du kan förbättra kundservicen och optimera din leverantörskedja genom att fördela ditt lager på olika adresser. Du kan sedan köpa, lagra eller sälja artiklar på olika lägerställen och överföra lager mellan dessa.
 
-När du har skapat ett lager kan du administrera olika lagerprocesser relaterade till artikeltransaktioner. Mer information finns i [Hantera lager](inventory-manage-inventory.md) och [Lagerstyrning](warehouse-manage-warehouse.md).
+När du har skapat ett lager kan du administrera olika lagerprocesser relaterade till artikeltransaktioner. Mer information finns i [Hantera lager](inventory-manage-inventory.md) och [Warehouse Management – Översikt](design-details-warehouse-management.md).
 
 | Till | Gå till |
 | --- | --- |
@@ -38,13 +32,14 @@ När du har skapat ett lager kan du administrera olika lagerprocesser relaterade
 |Importera flera artikelbilder samtidigt från en zip-fil där filer namnges enligt artikelnummer.|[Importera flera artikelbilder](inventory-how-import-item-pictures.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera lager](inventory-manage-inventory.md)  
 [Hantera inköp](purchasing-manage-purchasing.md)  
 [Hantera försäljning](sales-manage-sales.md)    
+[Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 

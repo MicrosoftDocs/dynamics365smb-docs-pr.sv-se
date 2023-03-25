@@ -5,23 +5,18 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
-ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
+ms.search.form: '30100, 30101, 30102, 30103, 30104, 30135,'
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: bc3c5769a100909faedbfacce58bb1a2b146f5ad
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802990"
 ---
-# <a name="get-started-with-the-shopify-connector"></a>Kom igång med Shopify-kopplingen
+
+# Kom igång med Shopify-kopplingen
 
 Anslut din Shopify butik (eller butiker) med [!INCLUDE [prod_short](../includes/prod_short.md)] och maximera företagets produktivitet. Hantera och visa insikter från ditt företag och din Shopify butik som en enhet.
 
 Om du vill använda Shopify med [!INCLUDE [prod_short](../includes/prod_short.md)] kan du först göra detta. Den här artikeln används för att integrera Shopify-butiken med [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## <a name="prerequisites-for-shopify"></a>Förutsättningar för Shopify
+## Förutsättningar för Shopify
 
 Du måste ha följande:
 
@@ -30,7 +25,7 @@ Du måste ha följande:
 
 Mer information om hur du skapar  Shopify  testversioner och rekommenderade inställningar finns i [ skapa och ställa in Shopify konto](shopify-account.md).
 
-## <a name="prerequisites-for-business-central"></a>Förutsättningar för Business Central
+## Förutsättningar för Business Central
 
 - Kontrollera att **[Shopify anslutning](https://go.microsoft.com/fwlink/?linkid=2196238)**-appen för har installerats.
 
@@ -39,7 +34,7 @@ Mer information om hur du skapar  Shopify  testversioner och rekommenderade inst
 - Kontrollera att användaren har tillräcklig behörighet. Shopify Anslutningen täcks av *Shopify – Admin (SHPFY – ADMIN)* behörighetsuppsättningen. Mer information om [Skapa användare enligt licenser](../ui-how-users-permissions.md) och [Att komponera behörighetsuppsättningar](../ui-define-granular-permissions.md)
 
 
-## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>Installera Dynamics 365 Business Central-appen till din Shopify onlinebutik
+## Installera Dynamics 365 Business Central-appen till din Shopify onlinebutik
 
 För befintlig [!INCLUDE[prod_short](../includes/prod_short.md)] är det här steget valfritt och kan hoppas över.
 
@@ -51,7 +46,7 @@ För befintlig [!INCLUDE[prod_short](../includes/prod_short.md)] är det här st
 4. Välj **Registrera dig nu** om du vill starta [!INCLUDE[prod_short](../includes/prod_short.md)] utvärderingsversion eller **Logga in** om du redan har [!INCLUDE[prod_short](../includes/prod_short.md)]. Du kommer att omdirigeras till sidan [Business Central](https://businesscentral.dynamics.com).
 5. Nästa steg ska utföras i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="connect-business-central-to-the-shopify-online-store"></a>Ansluta Business Central till onlinebutiken på Shopify
+## Ansluta Business Central till onlinebutiken på Shopify
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj åtgärden **Ny**.  
@@ -62,14 +57,14 @@ För befintlig [!INCLUDE[prod_short](../includes/prod_short.md)] är det här st
 
 Upprepa steg 2–6 för alla onlinebutiker som du vill ansluta.
 
-### <a name="known-issues"></a>Kända problem
+### Kända problem
 
 - Webbläsaren blockerar popup-fönstret. När du aktiverar **Aktivera** öppnas systemet sidan **Väntar på ett svar. Stäng inte sidan**  som väntar på ett åtkomsttoken från Shopify, om den sidan är stängd eller blockerad kan du inte ansluta till Shopify. Läs mer på [begäran om åtkomsttoken](troubleshoot.md#request-the-access-token)
 - [Oauth fel invalid_request: det gick inte att hitta Shopify API-programmet med api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [Det går inte att ansluta från sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
 
 
-## <a name="next-steps"></a>Nästa steg
+## Nästa steg
 
 Nu är din onlinebutik ansluten till [!INCLUDE[prod_short](../includes/prod_short.md)]. I nästa steg ska du definiera vad som ska synkroniseras och hur.
 
@@ -77,7 +72,7 @@ Nu är din onlinebutik ansluten till [!INCLUDE[prod_short](../includes/prod_shor
 - [Synkronisera kunder](synchronize-customers.md)
 - [Synkronisera order](synchronize-orders.md)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Genomgång: ställa in och använda Shopify anslutningsprogram](walkthrough-setting-up-and-using-shopify.md)  
 

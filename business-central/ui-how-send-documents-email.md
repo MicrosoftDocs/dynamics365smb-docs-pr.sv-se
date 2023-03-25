@@ -1,21 +1,15 @@
 ---
 title: Skicka dokument och e-post
-description: Du kan definiera innehåll som ska infogas i brödtexten i ett e-postmeddelande, till exempel en PayPal-länk. Du kan också koppla dokument till e-postmeddelanden.
+description: 'Du kan definiera innehåll som ska infogas i brödtexten i ett e-postmeddelande, till exempel en PayPal-länk. Du kan också koppla dokument till e-postmeddelanden.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.search.form: ''
+ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607209"
 ---
-# <a name="send-documents-and-emails"></a>Skicka dokument och e-post
+# Skicka dokument och e-post
 
 Du kan enkelt dela information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post direkt från [!INCLUDE[prod_short](includes/prod_short.md)] utan att behöva öppna en e-postapp.  
 
@@ -28,7 +22,7 @@ Om du vill aktivera e-post i [!INCLUDE[prod_short](includes/prod_short.md)] star
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] stöder endast utgående e-postkommunikation. Du kan inte heller ta emot svar inom appen.
 
-## <a name="to-send-documents-by-email"></a>Så här skickar du dokument som e-post
+## Så här skickar du dokument som e-post
 
 Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura till ett e-postmeddelande som en PDF-fil, samt med och med dokumentspecifik e-posttext. <!--update this-->
 
@@ -50,7 +44,7 @@ Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura t
 > [!NOTE]  
 > Om du inte vill ange e-postinställningar varje gång du e-postar ett dokument, kan du välja alternativet **Ja (använd standardinställningar)** i fältet **E-post** på sidan **Skicka dokument till**. I så fall kommer inte sidan **Skicka e-post** att öppnas. Se steg 4. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>Skriva och skicka ett e-postmeddelande
+## Skriva och skicka ett e-postmeddelande
 
 Du kan snabbt skapa e-postmeddelanden för kontakter, kunder, leverantörer, säljare/inköpare och bankkonton direkt från sidorna i dessa entiteter. Välj bara **processer** och skicka sedan **e-post** för att öppna e-postredigeraren. För bankkonton finns åtgärden **skicka e-post** under **åtgärder**.
 
@@ -59,11 +53,11 @@ Du kan snabbt skapa e-postmeddelanden för kontakter, kunder, leverantörer, sä
 
 Om du är tilldelad ett e-postscenario som är relaterat till den entitet som du skickar e-post till, eller det dokument som du skickar, kan en bifogad fil läggas till automatiskt i meddelandet. Det beror på att en standardbilaga har tilldelats e-postscenariot. Du kan ta bort den bifogade filen om du inte vill skicka den med meddelandet. Mer information finns i [Tilldela e-postscenarier till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokument markerade som utskrivna ut när de skickas
+## Dokument markerade som utskrivna ut när de skickas
 
 Vissa dokument i [!INCLUDE[prod_short](includes/prod_short.md)] har ett fält som anger hur många gånger dokumentet har skrivits ut. Numret i fältet <!--"that field?" need a name...--> uppdateras också om du skickar dokumentet med e-post, detta eftersom en PDF-fil genereras för det. Numret uppdateras även om du inte skickar e-postmeddelandet. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Skickade e-postmeddelanden och din utkorg för e-post
+## Skickade e-postmeddelanden och din utkorg för e-post
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lagrar e-postmeddelanden som du skickar på sidan **Skickade objekt**. Det gör att du kan skicka e-post på nytt eller vidarebefordra dem till någon annan. Om du inte hittar något e-postmeddelande bland dina skickade objekt kan du söka efter det på sidan **Utkorg för e-post**. 
 
@@ -72,9 +66,9 @@ Vissa dokument i [!INCLUDE[prod_short](includes/prod_short.md)] har ett fält so
 
 I **Utkorgen för e-post** finns de e-postmeddelanden som du har sparat som utkast samt e-postmeddelanden som inte skickades, till exempel om e-postadressen var ogiltig. För meddelanden som inte gick att skicka kan du välja **Visa fel** eller **Undersök fel** för att felsöka problemet.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/set-up-email/)
+## Se relaterad [Microsoft utbildning](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Konfigurera e-post](admin-how-setup-email.md)  

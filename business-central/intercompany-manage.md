@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511655"
 ---
-# <a name="managing-intercompany-transactions"></a>Hantera koncerninterna transaktioner
+# Hantera koncerninterna transaktioner
 
 Funktioner för koncernintern bokföring är till för de som arbetar med mer än ett koncernföretag och ställer in flera företag för att separera redovisningsfunktionerna för var och en av dessa enheter. Den här allmänna beskrivningen gäller många användare, särskilt de som arbetar internationellt eller i regioner med mycket olikartade affärskulturer och lagreglerade miljöer.
 
@@ -32,7 +26,7 @@ Det finns fyra huvudsakliga fördelar med koncerninterna funktioner:
 - Fullständig redovisningsspårning och full insyn i affärsaktiviteter och transaktionshistorik  
 - Effektiva, kostnadseffektiva transaktioner med dotterbolag  
 
-## <a name="streamlining-the-flow-of-business-activities"></a>Förenkling av arbetsflödesaktiviteter  
+## Förenkling av arbetsflödesaktiviteter  
 
 Med hjälp av koncerninterna transaktioner kan du distribuera försäljnings- och inköpsdokument samt journaltransaktioner till alla satellitkontor, försäljningskontor och dotterbolag från programmet. Tidsbesparingen och den ökade effektiviteten fortplantar sig i hela organisationen genom att du eliminerar onödig dataregistrering och slipper skicka, ta emot, skriva ut och arkivera försäljnings- och inköpsdokument på papper.  
 
@@ -71,7 +65,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Ordna och bearbeta ingående och utgående transaktioner som du skickar till din koncerninterna partner.|[Hantera koncerninterna in- och utkorgar](intercompany-how-manage-intercompany-inbox.md)|
 |Använd koncerninterna transaktioner för att fördela kostnader mellan partnerföretag.|[Fördela kostnader till koncerninterna partner](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  

@@ -7,23 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: 1,
+ms.search.form: '1,'
 ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: e2ee4c75deebcca1a774a6472e08db12984114d2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528175"
 ---
-# <a name="company-information-quick-start"></a>Företagsinformation snabbstart
+
+# Företagsinformation snabbstart
 
 För att du ska kunna hjälpa dig att skaffa och köra ditt företag i [!INCLUDE[prod_short](includes/prod_short.md)] måste du först fylla i en del av den grundläggande företagsinformationen och relevant information baserad på ditt företagsbehov.  
 
 Du kan ange alla relevanta data på sidan **företagsinformation** när du upprättar ett nytt företag.
 
-## <a name="to-set-up-company-information"></a>Ställa in företagsinformation  
+## Ställa in företagsinformation  
 
 1. Välja ![Kugghjulsikon för att öppna menyn Inställningar.](media/ui-experience/settings_icon_small.png) och sedan åtgärden **Företagsinformation**.
 2. Ange informationen i snabbflikarna enligt beskrivningen i följande tabell. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -32,9 +27,9 @@ Du kan ange alla relevanta data på sidan **företagsinformation** när du uppr�
 
 När du har fyllt i informationen kan du stänga sidan.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-new-companies-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även  
+## Se även  
 
 [Företagsinformation, översikt](admin-company-information.md)  
 [Ställa in företagsinformation i Italien](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

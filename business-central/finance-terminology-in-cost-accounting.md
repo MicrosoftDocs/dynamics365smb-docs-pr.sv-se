@@ -1,27 +1,21 @@
 ---
 title: Terminologi i kostnadsredovisning
-description: I det här avsnittet definieras de nyckeltermer som används i kostnadsredovisningen, t.ex. fördelningsnyckel och fördelningskälla.
+description: 'I det här avsnittet definieras de nyckeltermer som används i kostnadsredovisningen, t.ex. fördelningsnyckel och fördelningskälla.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532167"
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminologi i kostnadsredovisning
+# Terminologi i kostnadsredovisning
 
 I det här avsnittet definieras de viktigaste begreppen som används i kostnadskalkylering.  
 
-## <a name="key-terms"></a>Begrepp
+## Begrepp
 
  Följande tabell visar definitioner av de viktigaste begreppen i kostnadskalkylering.  
 
@@ -49,9 +43,9 @@ I det här avsnittet definieras de viktigaste begreppen som används i kostnadsk
 |Rörlig kostnad|Rörliga kostnader är kostnader som ändras i proportion till aktiviteten i en verksamhet. Rörliga kostnader är summan av marginalkostnaderna utslaget på alla producerade enheter. Fasta kostnader och rörliga kostnader utgör de två komponenterna i den totala kostnaden.|  
 |Variant|En variant används som en valfri användardefinierad etikett för fördelningar. Syftet med etiketten är att filtrera fördelningsgrupper.|  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
  [Om kostnadsredovisning](finance-about-cost-accounting.md)  
  [Redovisa kostnader](finance-manage-cost-accounting.md)  

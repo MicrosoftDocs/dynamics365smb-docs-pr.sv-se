@@ -1,23 +1,17 @@
 ---
 title: Ekonomihantering (innehåller video)
-description: Läs om hur Business Central stöder dina behov av ekonomisk förvaltning, redovisning, revision samt bokföring.
+description: 'Läs om hur Business Central stöder dina behov av ekonomisk förvaltning, redovisning, revision samt bokföring.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
+ms.search.keywords: 'accounting, auditing, bookkeeping'
+ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605009"
 ---
-# <a name="financial-management"></a>Ekonomihantering
+# Ekonomihantering
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardkonfigurationen för de flesta finansiella processer, men du kan ändra den så att den passar dina behov. Läs mer i [Ställa in finanser](finance-setup-finance.md).
 
@@ -55,13 +49,13 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Arbeta med finansiella rapporter och översikter i Microsoft Excel. |[Analysera finansiella rapporter i Excel](finance-analyze-excel.md) |
 |För mer information om hur du använder rollcentret Revisor, kontakta en extern revisor och använd företagsnavet för att hantera konton för flera klienter.|[Revisorlösningar i Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Ta en videorundtur
+## Ta en videorundtur
 
 I detta videoklipp beskrivs några av huvudfunktionerna för att hantera finanser. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in Finance](finance-setup-finance.md)  
 [Försäljning](sales-manage-sales.md)  

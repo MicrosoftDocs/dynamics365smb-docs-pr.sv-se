@@ -7,14 +7,9 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788266"
 ---
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion till demonstrationsdata för Contoso Coffee
+
+# Introduktion till demonstrationsdata för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-apparna för Business Central lägger till demonstrationsdata som du kan använda för att lära dig använda produktionsfunktionerna i Business Central.  
 
@@ -41,7 +36,7 @@ Tillverkningsaktiviteterna för alla scenarier använder platsen *NORR*.
 > [!IMPORTANT]
 > Innan du kör något av scenarierna för Contoso Coffee bokför du eventuella artikeljournalrader med ingående balanser. Mer information finns i avsnittet [Konfigurera data för Contoso Coffee](#set-up-contoso-coffee-data).
 
-## <a name="set-up-contoso-coffee-data"></a>Konfigurera data för Contoso Coffee
+## Konfigurera data för Contoso Coffee
 
 Om du vill använda demonstrationsdata för Contoso Coffee måste du installera två appar i det aktuella företaget i [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -72,7 +67,7 @@ När de relevanta apparna har installerats går du till sidan [Demonstrationsdat
 
 Välj åtgärden **Skapa demonstrationsdata** när du är klar. Det tar några minuter att lägga till data i den underliggande databasen, men sedan är det dags att köra de olika scenarierna.  
 
-## <a name="scenarios"></a>Scenarierna
+## Scenarierna
 
 Demonstrationsdata för Contoso Coffee stöder för närvarande följande scenarier för test och utbildning:
 
@@ -90,7 +85,7 @@ Läs stegen för respektive scenario i den relevanta artikeln.
 > [!IMPORTANT]
 > Dessa genomgångar kräver att användarupplevelsen är inställd på *Premium* på sidan **Företagsinformation**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](../production-manage-manufacturing.md)  
 [Produktionsrapporter och analyser i Business Central](../production-reports.md)  

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect, opportunity, email
+ms.search.keywords: 'relationship, prospect, opportunity, email'
 ms.date: 03/22/2022
-ms.search.form: 1680, 1811, 5076
+ms.search.form: '1680, 1811, 5076'
 ms.author: bholtorf
-ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729943"
 ---
-# <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
+# Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
 Få ut mer av kommunikationen mellan dina säljare och kunder genom att förvandla e-postutbyten till praktiska möjligheter. [!INCLUDE[prod_short](includes/prod_short.md)] kan tillsammans med Exchange Online spara en logg över de inkommande och utgående meddelandena. Du kan visa och analysera innehållet i varje meddelande på sidan **Interaktionslogg**.
 
 > [!NOTE]
@@ -26,19 +20,19 @@ Få ut mer av kommunikationen mellan dina säljare och kunder genom att förvand
 > [!IMPORTANT]
 > För [!INCLUDE[prod_short](includes/prod_short.md)] online kräver den nya erfarenheten att [!INCLUDE[prod_short](includes/prod_short.md)] och Exchange Online finns i samma klientorganisation.
 
-## <a name="to-set-up-email-logging"></a>Så här konfigurerar du e-postloggning
+## Så här konfigurerar du e-postloggning
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **E-postloggning med Microsoft Graph API**. Om funktionsuppdateringen inte är aktiverad följer du anvisningarna på fliken **Aktuell upplevelse**.
 
-## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
+## [Aktuell upplevelse](#tab/current-experience)
 
-### <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Konfigurera gemensamma mappar och regler för e-postloggning i Exchange Online
+### Konfigurera gemensamma mappar och regler för e-postloggning i Exchange Online
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Därefter ansluter du [!INCLUDE[prod_short](includes/prod_short.md)] med Exchange Online.
 
-## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
-### <a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a>Konfigurera en delad brevlåda och regler för e-postinloggning i Exchange Online
+## [Ny upplevelse](#tab/new-experience)
+### Konfigurera en delad brevlåda och regler för e-postinloggning i Exchange Online
 
 > [!NOTE]
 > För dessa åtgärder krävs administratörsåtkomst för Exchange Online.
@@ -48,13 +42,13 @@ Förbered en delad postlåda i Exchange administrationscenter. Du kan också anv
 > [!NOTE]
 > Om du använder Exchange Management PowerShell är dina ändringar tillgängliga i Exchange administrationscenter efter en fördröjning. Förseningen kan vara i flera timmar.
 
-### <a name="add-a-user-account-for-members-of-the-shared-mailbox"></a>Lägga till ett användarkonto för medlemmar i den delade postlådan
+### Lägga till ett användarkonto för medlemmar i den delade postlådan
 Det konto som du ska använda för e-postloggning är ett Exchange Online-konto. Det schemalagda jobbet kommer att använda kontot för att ansluta till den delade postlådan och bearbeta e-postmeddelanden. Det här kontot ska inte kopplas till en specifik person. Lägg till e-postkontot till medlemmarna för den delade postlådan. Mer information finns i avsnittet [Använd EAC för att redigera delegering av delad postlådan](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
-### <a name="allow-other-users-to-see-logged-emails"></a>Låta andra användare se loggade e-postmeddelanden
+### Låta andra användare se loggade e-postmeddelanden
 Du kan tillåta en annan användare att öppna ett e-postmeddelande i Exchange som är relaterat till en interaktionsloggtransaktionen från [!INCLUDE[prod_short](includes/prod_short.md)]. Det gör du genom att ge användaren ``Read`` behörighet till mappen **Arkiv** i den delade postlådan. Mer information finns också i [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Skapa regler för e-postflöde
+### Skapa regler för e-postflöde
 Regler för e-postflöde du söker efter specifika villkor i meddelanden och utför åtgärder för dem. Skapa två postflödesregler baserad på informationen i följande tabell. Mer information finns i [Hantera postflödesregler i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) och [Åtgärder för postflödesregler i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
 |Syfte  |Name  |Använd regeln om …  |Gör följande …  |
@@ -67,7 +61,7 @@ Regler för e-postflöde du söker efter specifika villkor i meddelanden och utf
 
 ---
 
-## <a name="set-up-prod_short-to-log-email-messages"></a>Ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att logga e-postmeddelanden
+## Ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att logga e-postmeddelanden
 Dessa steg är desamma för både den aktuella och den nya upplevelsen.
 
 Kom igång med e-postloggning i två enkla steg:
@@ -82,14 +76,14 @@ Kom igång med e-postloggning i två enkla steg:
 > * **Aktuell upplevelse**: Sök efter **Marknadsföringsinställning**, välj **Åtkomst**, sedan **Funktioner** och **Validera konfiguration för e-postloggning**.
 > * **Ny erfarenhet**: Sök efter **E-postloggning**, välj **Åtgärder** och välj **Validera konfiguration**.
 
-## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Visa e-postutbyten i interaktionsloggen
+## Visa e-postutbyten i interaktionsloggen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] skapar en transaktion på sidan **Interaktionslogg** varje gång en säljare och en kontakt utbyter e-postmeddelanden. Om du vill visa interaktionsloggen öppnar du kortet **Kontakt**, väljer **Relaterat**, väljer sedan **Historik** och därefter **Interaktionslogg**. Det finns några saker som du kan göra med posterna i loggen, till exempel:
 
 - Visa innehållet i e-postmeddelandet som utbytts genom att välja **Bearbeta** och sedan **Visa bilagor**.
 - Förvandla ett e-postutbyte till en affärsmöjlighet. Om en transaktion verkar lovande kan du omvandla den till en affärsmöjlighet och sedan hantera förloppet fram till en försäljning. Om du vill göra ett e-postutbyte till en affärsmöjlighet kan du välja post och sedan **processer** och sedan **skapa affärsmöjlighet**. Mer information finns i [Hantera försäljningsmöjligheter](marketing-manage-sales-opportunities.md).
 
-## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Begränsningar för postlådor och mappar i Exchange Online
+## Begränsningar för postlådor och mappar i Exchange Online
 Det finns begränsningar för postlådor och mappar i Exchange Online, till exempel begränsningar för mappstorlekar och antalet meddelanden. Mer information finns i [Exchange Online-begränsningar](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) och [Begränsningar för offentliga mallar i Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lagrar loggade e-postmeddelanden i en mapp i Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] lagrar även en länk till varje loggat meddelande. Länkarna öppnar de loggade meddelandena i Exchange Online från sidorna Interaktionslogg, Kontaktkort och Säljarkort i [!INCLUDE[prod_short](includes/prod_short.md)]. Om ett loggat meddelande flyttas till en annan mapp kommer länken att brytas. Ett meddelande kan till exempel flyttas manuellt eller Exchange Online kan automatiskt starta Automatisk delning när en lagringsgräns har nåtts.
@@ -102,33 +96,33 @@ Med hjälp av följande steg kan du undvika att bryta länkar till meddelanden i
     2. Uppdatera reglerna för e-postflöde i Exchange Online.
     3. Uppdatera inställningarna för e-postloggning i Business Central
 
-## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Ansluta lokala versioner till Microsoft Exchange
+## Ansluta lokala versioner till Microsoft Exchange
 
 Du kan ansluta [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt eller Exchange Online för e-postloggning. För båda versioner av Exchange finns inställningar för anslutningen tillgängliga på sidan **Marknadsföringsinställning**. För Exchange Online kan du också använda en assisterad konfigurationsguide.
 
 > [!IMPORTANT]
 > Den nya upplevelsen stöder inte en anslutning till Exchange lokalt. Om du måste använda Exchange lokalt ska du inte aktivera funktionsuppdateringen för den nya upplevelsen.
 
-## <a name="connect-to-exchange-on-premises"></a>Ansluta till Exchange lokalt
-## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
+## Ansluta till Exchange lokalt
+## [Aktuell upplevelse](#tab/current-experience)
 För att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt kan du på sidan **Marknadsföringsinställning** använda **Basic** som **Autentiseringstyp** och sedan ange autentiseringsuppgifter för användarkontot för Exchange lokalt. Slå sedan på brytaren **Aktiverad** för att starta loggningen av e-post.
 
-## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
+## [Ny upplevelse](#tab/new-experience)
 Den nya upplevelsen stöder inte en anslutning till Exchange lokalt.
 
 ---
 
-## <a name="connect-to-exchange-online"></a>Ansluta till Exchange Online
+## Ansluta till Exchange Online
 För att ansluta till Exchange Online måste du registrera ett program i Azure Active Directory. Ange program-ID, nyckelvalvshemlighet och omdirigerings-URL som ska användas för registreringen. URL-adressen för omdirigering anges i förväg och bör användas för de flesta installationer. Mer information finns i [Så här registrerar du ett program Azure AD för anslutning från Business Central till Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Du måste också ansluta till **OAuth2** som **Autentiseringstyp**. Du måste också registrera ett program i Azure Active Directory. Ange program-ID, nyckelvalvshemlighet och omdirigerings-URL som ska användas för registreringen. URL-adressen för omdirigering fylls i förväg och bör användas för de flesta installationer. Mer information finns i Så här registrerar du ett program i Azure AD för anslutning från Business Central till Exchange Online nedan.
 
 Du måste ställa in installationen för att använda HTTPS. Mer information finns i [Konfigurera SSL för att skydda anslutningen till Business Central webbklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Om du konfigurerar servern så att den får en annan startsida kan du alltid ändra URL-adressen. Klientens hemlighet kommer att sparas som en krypterad sträng i databasen.
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Exchange Online
+### Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Exchange Online
 Följande åtgärder förutsätter att du använder Azure Active Directory för att hantera identiteter och åtkomst. Mer information finns i [Snabbstart: registrera ett program med Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). 
 
-## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience) 
+## [Aktuell upplevelse](#tab/current-experience) 
 Följande åtgärder förutsätter att du använder Azure Active Directory för att hantera identiteter och åtkomst. Mer information finns i [Snabbstart: registrera ett program med Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). Om du inte använder Azure Active Directory, se [använda en annan identitets- och åtkomsthanteringstjänst](marketing-set-up-email-logging.md#use-another-identity-and-access-management-service). 
 
 1. I Azure Portal, under **Hantera**, väljer du **Autentisering**.
@@ -174,7 +168,7 @@ Följande åtgärder förutsätter att du använder Azure Active Directory för 
    > [!NOTE]
    > Om du inte uppmanas att logga in med ditt administratörskonto beror detta förmodligen på att popup-fönster blockeras. Du kan logga in med popup-fönster från https://login.microsoftonline.com.
 
-## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
+## [Ny upplevelse](#tab/new-experience)
 1. I Azure Portal, under **Hantera**, väljer du **Autentisering**.
 2. Under **Omdirigerings-URL** lägger du till den omdirigerings-URL som anges på sidan **e-postloggning** i [!INCLUDE[prod_short](includes/prod_short.md)]. Om fältet för omdirigeringsadressen på sidan E-postloggning är tom hittar du den föreslagna omdirigeringsadressen på sidan **Assisterad konfiguration**. För att öppna sidan, på sidan **e-postloggning** välj **Åtgärder** och **Assisterad konfiguration**.
 
@@ -187,50 +181,50 @@ Följande åtgärder förutsätter att du använder Azure Active Directory för 
 6. Välj **Översikt** och leta sedan reda på **App (klient-ID)**-värdet. Detta är klient-ID:t för ditt program. Du måste ange den antingen i fältet **klient-ID** på sidan **e-postloggning**.
 7. I [!INCLUDE[prod_short](includes/prod_short.md)] konfigurerar du e-postloggning på sidan **E-postloggning** eller använder guiden **Assisterad konfiguration** för att få hjälp.
 
-### <a name="use-another-identity-and-access-management-service"></a>Använda en annan identitets- och åtkomsthanteringstjänst
+### Använda en annan identitets- och åtkomsthanteringstjänst
 Om du inte använder Azure Active Directory för att hantera identiteter och åtkomst behöver du en viss hjälp från en utvecklare. Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten i samband med körning genom att prenumerera på händelserna OnGetEmailLoggingClientId och OnGetEmailLoggingClientSecret i codeunit 1641, "Konfigurera e-postloggning".
 
 ---
 
-## <a name="to-start-logging-email"></a>Så här börjar du logga e-post
+## Så här börjar du logga e-post
 1. För att börja logga e-post, på **e-postloggning** vänd växlingsknappen **Aktiverad**.
 2. Logga in med det Exchange Online konto som det schemalagda jobbet kommer att använda för att ansluta till den delade postlådan och bearbeta e-postmeddelanden.
 
     > [!NOTE]
     > Om du inte uppmanas att logga in på Exchange Online konto kan det bero på att din webbläsare blockerar popup-fönster. Du kan logga in med popup-fönster från https://login.microsoftonline.com.
 
-## <a name="to-stop-logging-email"></a>Så här slutar du logga e-post
-## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience)
+## Så här slutar du logga e-post
+## [Aktuell upplevelse](#tab/current-experience)
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Marknadsföringsinställning** och väljer sedan relaterad länk.
 1. Stäng av brytaren **Aktiverad**.
 
-## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
+## [Ny upplevelse](#tab/new-experience)
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk.
 2. Stäng av brytaren **Aktiverad**.
 
 ---
 
-## <a name="to-change-the-user-account-used-for-email-logging"></a>Så här ändrar du vilket användarkonto som ska användas för e-postloggning
+## Så här ändrar du vilket användarkonto som ska användas för e-postloggning
 Om du använder den nya upplevelsen kan du ändra vilket användarkonto som ska användas för e-postloggning. Det aktuella gränssnittet stöder inte detta.
 
-## <a name="current-experience"></a>[Aktuell upplevelse](#tab/current-experience) 
+## [Aktuell upplevelse](#tab/current-experience) 
 Inaktivera din nuvarande inställning, ändra användaren på sidan för **e-postloggning** och aktivera sedan e-postloggning igen. Du kan också köra den assisterade installationsguiden igen.
 
-## <a name="new-experience"></a>[Ny upplevelse](#tab/new-experience)
-### <a name="prod_short-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Online
+## [Ny upplevelse](#tab/new-experience)
+### [!INCLUDE[prod_short](includes/prod_short.md)] Online
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med det konto som det schemalagda jobbet kommer att använda för att ansluta till den delade postlådan och bearbeta e-postmeddelanden. Det här kontot måste ha åtkomst till både [!INCLUDE[prod_short](includes/prod_short.md)] och Exchange Online.
 2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk. 
 3. Välj **relaterad** och sedan **Jobbkötransaktion**.
 4. Starta om jobbet **E-postloggning**.
 
-### <a name="prod_short-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] lokalt
+### [!INCLUDE[prod_short](includes/prod_short.md)] lokalt
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk. 
 2. Välj **åtgärder** och **förnya token**.
 3. Logga in med det Exchange Online konto som det schemalagda jobbet kommer att använda för att ansluta till den delade postlådan och bearbeta e-postmeddelanden.
 
 
 
-## <a name="see-also"></a>Se även
+## Se även
 [Hantera relationer](marketing-relationship-management.md)
 
 

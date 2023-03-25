@@ -2,26 +2,20 @@
 title: Ställ in och använd tjänstdeklarationstillägget
 description: Lär dig hur du ställer in och använder funktioner för tjänstdeklaration (Intrastat för tjänster) för att rapportera tjänstehandel med företag i andra EU-länder.
 author: altotovi
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: electronic document, Intrastat, trade, EU, service, declaration,
-ms.search.form: 30, 76, 5010, 5022, 5023, 5024, 5800
-ms.date: 11/23/2022
 ms.author: altotovi
-ms.openlocfilehash: 0d5e541e1092b4fa655ab12d5c6d2fa48ff07f9d
-ms.sourcegitcommit: bcd3e5dcbb3d839f38f2321b7ef35d4a2ce492c1
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/29/2022
-ms.locfileid: "9806338"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/21/2022
+ms.custom: bap-template
+ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
+ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# <a name="the-service-declaration-extension"></a>Tjänstdeklarationstillägget
+# Tjänstdeklarationstillägget
 
 I vissa EU-länder kräver myndigheterna att företagen rapporterar exporten av tjänster till andra EU-länder. Med **tjänst deklaration** tillägget kan du samla in information om tjänsthandeln i EU och rapportera den till myndigheterna. Även om den har namnet **tjänstdeklaration** kan du även använda den som **Intrastat för tjänst**. Det här tillägget är tillgängligt för alla EU-länder som en W1-version, och det kan användas som det är i Belgien. För andra länder krävs en tilldelad landsökning. Om ett land behöver ett annat format kan du använda rapport konfigurationen i **Ramverk för dataintegration** för att ändra formatet.
 
-## <a name="enable-the-service-declaration-extension"></a>Aktivera tjänstdeklarationstillägget
+## Aktivera tjänstdeklarationstillägget
 
 När du har installerat tillägget i din miljö måste du aktivera det.
 
@@ -32,11 +26,11 @@ När du har installerat tillägget i din miljö måste du aktivera det.
 5. Innan du börjar bör du kontrollera **totala antalet koder** för att förstå hur många tjänsttransaktionstyper som redan har angetts.
 6. Slutför konfigurationen genom att klicka **Slutför** i det sista steget.
 
-## <a name="set-up-the-service-declaration-extension"></a>Ställ in tjänstdeklarationstillägget
+## Ställ in tjänstdeklarationstillägget
 
 Du kan ställa in tillägget manuellt, eller genom att använda en rapporteringsfil i datautbytesdefinition.
 
-### <a name="to-set-up-service-declaration-manually"></a>Ställ in tjänstedeklarationen manuellt
+### Ställ in tjänstedeklarationen manuellt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Konfigurera tjänstdeklaration** och väljer sedan relaterad länk.
 2. Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Allmänt**:
@@ -53,7 +47,7 @@ Du kan ställa in tillägget manuellt, eller genom att använda en rapporterings
 3. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Typer av tjänstetransaktioner** och väljer sedan relaterad länk.
 4. På raderna ange **Koder** och **beskrivningar** för de typer av tjänstetransaktioner du vill använda på raderna.
 
-### <a name="set-up-a-reporting-file"></a>Konfigurera en rapporteringsfil
+### Konfigurera en rapporteringsfil
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Datautbytesdefinition** och välj relaterad länk.
 2. Välj åtgärden **Ny**.
@@ -72,11 +66,11 @@ Du kan ställa in tillägget manuellt, eller genom att använda en rapporterings
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] levereras med den förinställda datautbytesdefinitionen för **Tjänstedeklarationsnr** för alla lokaliserade länder. Läs mer om att skapa en ny datautbytesdefinition i [Ställa in datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
-## <a name="other-related-configurations"></a>Andra relaterade konfigurationer
+## Andra relaterade konfigurationer
 
 Innan du använder tjänstdeklarationstillägget konfigurerar du vissa fält för artiklar, resurser och artikelomkostnader.
 
-### <a name="items"></a>Artiklar
+### Artiklar
 
 Ställ in information om tjänstdeklaration på artikelkortsidor:
 
@@ -87,7 +81,7 @@ Ställ in information om tjänstdeklaration på artikelkortsidor:
    2. I fältet **Kod för typ av tjänstetransaktion** ange koden för **Typ av tjänstetransaktion**.
    3. Om du inte vill ta med service artikeln i tjänstdeklarationer väljer du fältet **Undanta från tjänstedeklaration**.
 
-### <a name="resources"></a>Resurser
+### Resurser
 
 Ställ in information om tjänstdeklaration på resurskortsidor:
 
@@ -97,7 +91,7 @@ Ställ in information om tjänstdeklaration på resurskortsidor:
    1. I fältet **Kod för typ av tjänstetransaktion** ange koden för **Typ av tjänstetransaktion**.
    2. Om du inte vill ta med resursen i tjänstdeklarationer väljer du fältet **Undanta från tjänstedeklaration**.
 
-### <a name="item-charges"></a>Artikelkostnader
+### Artikelkostnader
 
 Ställ in information om tjänstdeklaration för artikelomkostnad:
 
@@ -106,7 +100,7 @@ Ställ in information om tjänstdeklaration för artikelomkostnad:
 3. I fältet **Kod för typ av tjänstetransaktion** ange koden för **Typ av tjänstetransaktion**.
 4. Om du inte vill ta med artikelomkostnad i tjänstdeklarationer väljer du fältet **Undanta från tjänstedeklaration**.
 
-## <a name="create-new-service-declaration"></a>Skapa en ny tjänstdeklaration
+## Skapa en ny tjänstdeklaration
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Tjänstdeklaration** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
@@ -117,7 +111,7 @@ Ställ in information om tjänstdeklaration för artikelomkostnad:
 
 När du kör batch-jobbet hämtas alla transaktioner från relevanta inköps- och försäljningsdokument under den period som krävs och läggs till på tjänstdeklarationsraderna. Placera markören över fälten i rader om du vill läsa en kort beskrivning.
 
-## <a name="modify-a-service-declaration"></a>Ändra en tjänstedeklaration
+## Ändra en tjänstedeklaration
 
 Om det behövs kan du ändra raderna eller lägga till nya.
 
@@ -126,11 +120,11 @@ Om det behövs kan du ändra raderna eller lägga till nya.
 3. Baserat på **Dokumenttyp**, fyll i fältet **Dokumentnr.**.
 4. Fyll i resterande fält.
 
-## <a name="overview-the-service-declaration-lines"></a>Översikt över tjänstedeklarationrader
+## Översikt över tjänstedeklarationrader
 
 När du har skapat en tjänstdeklaration använder du åtgärd **översikt** för att få en överblick över tjänstdeklarationsraderna. Du kan gruppera och sammanfatta raderna på samma sätt som den exporterade filen. Du kan också öppna raderna i Excel.
 
-## <a name="report-service-declaration-in-a-file"></a>Rapportera tjänstdeklaration i en fil
+## Rapportera tjänstdeklaration i en fil
 
 Du kan skicka tjänstdeklaration som en fil baserad på olika lokala myndigheters behov. Så här skapar du en fil:
 
@@ -140,19 +134,19 @@ Du kan skicka tjänstdeklaration som en fil baserad på olika lokala myndigheter
 4. Välj åtgärden **Skapa fil**.
 5. Tjänstdeklaration-filen sparas i det format som krävs.
 
-## <a name="other-considerations"></a>Övrigt att tänka på
+## Övrigt att tänka på
 
 När du använder **tjänstdeklaration** tillägget finns det några saker du bör tänka på. Det är till exempel viktigt att grupperna överensstämmer med kraven från utfärdare. Det är också viktigt att tjänst tas med på rätt sätt på försäljnings- och inköpsdokument.
 
-### <a name="grouping-lines"></a>Gruppera rader
+### Gruppera rader
 
 På tjänstdeklarationsrader finns det ingen gruppering utifrån något fält. Alla transaktioner kopieras från original dokumentet som en källa.
 
 Gruppering som krävs av myndigheterna kommer att lämnas i den exporterade filen. Du måste konfigurera grupper i **Datautbytesdefinitionen** som är helt konfigurerbar. Läs mer i [Så här skapar du datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="using-services-in-document-lines"></a>Använda tjänster på dokumentrader
+### Använda tjänster på dokumentrader
 
-När du skapar en inköps- eller försäljningsfaktura hittar du två fält som är relaterade till tjänstdeklarationer på deras rader. Båda fälten fylls i automatiskt med standardvärdena från artikel-, resurs- eller artikel omkostnaden som ställts in.
+När du skapar en inköps-, försäljnings- eller servicefaktura hittar du två fält som är relaterade till tjänstdeklarationer på deras rader. Båda fälten fylls i automatiskt med standardvärdena från artikel-, resurs- eller artikel omkostnaden som ställts in.
 
 - **Kod för typ av tjänstetransaktion** – ange koden för typ av tjänstetransaktion.
 - **Tillämplig för tjänstedeklaration** – Anger om en artikel eller resurs är tillämplig för en tjänstedeklaration.
@@ -161,9 +155,9 @@ Du kan ändra värdena i dessa fält, men om du väljer fältet **Tillämplig f�
 
 Om du anger ett värde i fältet **Kod för typ av tjänstetransaktion** men inte väljer **Gäller för tjänstdeklaration** kan du bokföra dokumentet men raden kommer inte att beräknas när du gör det.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställ in Intrastat-rapportering](finance-how-setup-report-intrastat.md)
 [Intrastat-rapport i Business Central](finance-how-report-intrastat.md)  

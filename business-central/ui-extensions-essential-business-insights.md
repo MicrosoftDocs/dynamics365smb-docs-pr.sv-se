@@ -7,18 +7,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: BI, add-in, insight, headline, data
-ms.search.form: 1439,
+ms.search.keywords: 'BI, add-in, insight, headline, data'
+ms.search.form: '1439,'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361752"
 ---
-# <a name="the-essential-business-insights-extension"></a>Tillägget Vitala företagsinsikter
+
+# Tillägget Vitala företagsinsikter
 
 Tillägget Vitala företagsinsikter hittar intressanta affärsfakta i dina företagsdata och visar dessa som tidningsaktiga rubriker i rollcenter. Beroende på vad tillägget hittar i datan kommer insikterna från förra veckan, förra månaden eller tre månader från dagens datum. Denna kunskap uppdateras var 10:e minut.  
 
@@ -37,7 +32,7 @@ I följande tabell beskrivs den information som detta tillägg ger respektive ro
 |Projektchef| Visar en hälsningsfras och en länk till produktinformation.|
 |Administratör| Visar en hälsningsfras och en länk till produktinformation.|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)
 

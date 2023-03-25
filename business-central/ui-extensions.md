@@ -3,22 +3,16 @@ title: Anpassa Business Central Online med hjälp av appar
 description: Lär dig mer om att lägga till funktioner och att anpassa Business Central genom att installera appar i den här artikeln.
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 2500, 2502, 20350, 20353
+ms.search.keywords: 'app, add-in, manifest, customize'
+ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 5b0744394201e11534f19c25999af0da0944ec9b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605691"
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Anpassa Business Central Online med appar
+# Anpassa Business Central Online med appar
 
 Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] online genom att installera appar som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster. Dessa appar kallas även *tillägg* eftersom de *utökar* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps"></a>Hantera appar
+## Hantera appar
 
 När du först startar [!INCLUDE[prod_short](includes/prod_short.md)] är några appar redan installerade. Med tiden kommer fler appar att göras tillgängliga till dig, och du kan då välja om du vill använda appen eller inte.
 
@@ -53,7 +47,7 @@ Några appar ges ut av Microsoft, och andra appar ges ut av [andra företag](ui-
 > [!NOTE]  
 > Du kan hålla utkik efter nya appar från Microsoft och andra leverantörer på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>Appar och dataöverföring
+## Appar och dataöverföring
 
 Eftersom följande appar kommunicerar med andra tjänster kan de överföra data ur geografin för [!INCLUDE[prod_short](includes/prod_short.md)]-miljön:
 
@@ -73,7 +67,7 @@ Detta gäller även vissa funktioner i basprogrammet, till exempel följande fun
 * Online Map
 * EU:s momsregistreringsnummer Tjänst
 
-## <a name="connect-your-business"></a>Anslut företaget
+## Anslut företaget
 
 Från och med utgivningscykel 2 2022 kan [!INCLUDE [prod_short](includes/prod_short.md)]-onlinemiljöer lista en eller flera appar på sidorna **Anslutningsappar** och **Bankappar**. Dessa appar kan ansluta ditt företag till externa tjänster, vilket ökar produktiviteten genom att processer automatiseras. Du kan t.ex. ansluta till dina banker och importera banktransaktioner automatiskt. Apparna är enkla att installera och konfigurera direkt från den här sidan. Välj en app för att lära dig mer om funktioner och prissättning.  
 
@@ -84,16 +78,16 @@ Visa listan över föreslagna appar genom att välja åtgärden **Anslutningsapp
 
 Den här externa tjänsten kommer att generera en lista över relevanta appar som baseras på ditt land eller din region
 
-## <a name="recommended-apps"></a>Rekommenderade appar
+## Rekommenderade appar
 
 Microsofts partner och återförsäljare kan skapa en app som de kan använda för att sammanställa listor över appar som de ofta rekommenderar till sina kunder. Om de gör det och har distribuerat appen till din klientorganisation kommer apparna att vara tillgängliga på sidan **Rekommenderade appar**. Där kan du läsa om varje app och bestämma om du ska installera dem.
 
 > [!NOTE]
 > Om du är Microsoft-partner eller återförsäljare och vill tillhandahålla en lista över rekommenderade appar, se [Rekommenderade appar från AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrationsinnehållet.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/customize-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/customize-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Installera och avinstallera appar](ui-extensions-install-uninstall.md)  
 [Anpassa Business Central](ui-customizing-overview.md)  

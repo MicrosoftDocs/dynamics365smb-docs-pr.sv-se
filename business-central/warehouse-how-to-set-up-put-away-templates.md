@@ -6,23 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
+ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 83d15ea1db01ef8161c81465a8c521128c7b8407
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529818"
 ---
-# <a name="set-up-put-away-templates"></a>Skapa artikelinförselmallar
+# Skapa artikelinförselmallar
 
 Med dirigerad artikelinförsel och plockning går det alltid att hitta den lämpligaste lagerstället för artiklarna enligt den artikelinförselmall som du har skapat för distributionslagret, de lagerplatsordningar som du har angett för lagerställena samt de lägsta och högsta antal som du har definierat för de fasta lagerställena.  
 
 Du kan skapa flera artikelinförselmallar och välja en av dem för att styra allmänna artikelinförslar i distributionslagret. Du kan även välja en artikelinförselmall för valfri artikel eller lagerställeenhet som kan ha specialkrav beträffande artikelinförsel.  
 
-## <a name="to-set-up-put-away-templates"></a>Så här skapar du artikelinförselmallar:
+## Så här skapar du artikelinförselmallar:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **artikelinförselmallar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -37,15 +31,13 @@ Du kan skapa flera artikelinförselmallar och välja en av dem för att styra al
 
 Du kan skapa olika artikelinförselmallar och sedan använda dem som du vill. Den artikelinförselmall som du har valt för artikeln eller lagerställeenheten om det finns någon. Om de här fälten inte fylls i används den artikelinförselmall som du har valt för distributionslagret på snabbfliken **Lagerplatsprinciper** på lagerställekortet.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/put-away-templates/)
+## Se relaterad [Microsoft utbildning](/training/modules/put-away-templates/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
-[Lagerstyrning](warehouse-manage-warehouse.md)  
+[Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
-[Monteringshantering](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

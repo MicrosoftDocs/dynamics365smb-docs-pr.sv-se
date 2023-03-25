@@ -4,22 +4,16 @@ description: Använd spårningstjänsten för speditör på Internet för att sp
 author: SorenGP
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 142, 800, 806
+ms.search.form: '142, 800, 806'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518945"
 ---
-# <a name="track-packages"></a>Spåra paket
+# Spåra paket
 De flesta speditörer tillhandahåller en webbtjänst som gör att du kan spåra statusen för dina paket medan de är på väg. Denna information kan vara användbar i många affärsprocesser, till exempel när du tillhandahåller kundservice. Om du använder en eller flera speditörer kan du ange en del grundläggande information om dem och sedan använda deras paketspårningstjänst direkt från sidorna Bokförda försäljningsutleveranser, Bokförda försäljningsfakturor, Bokförda försäljningskreditnotor och Bokförd returinleverans. För mer information, se [Ställa in speditörer](sales-how-to-set-up-shipping-agents.md). 
 
 I följande procedur beskrivs hur du spårar ett paket från en bokförd utleverans, men samma steg gäller för att aktivera paketspårning från sidorna Bokförd försäljningsfaktura, Bokförd försäljningskredit Nota och Bokförd returinleverans.  
 
-## <a name="to-track-a-package"></a>Så här spårar du godspaket
+## Så här spårar du godspaket
 
 > [!NOTE]
 > I följande procedur används sidan bokförda leveranser som exempel. Stegen för att spåra ett paket är desamma på de bokförda fakturorna, den bokförda försäljningskreditnotan och den bokförda returinleveransraden.
@@ -30,7 +24,7 @@ I följande procedur beskrivs hur du spårar ett paket från en bokförd utlever
 4. Kontrol lera att rätt speditör och att servicenivån är korrekta och stäng sedan sidan.
 5. Välj åtgärden **Spåra paket** för att öppna speditörens spårningstjänst.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)  
 [Försäljning](sales-manage-sales.md)  

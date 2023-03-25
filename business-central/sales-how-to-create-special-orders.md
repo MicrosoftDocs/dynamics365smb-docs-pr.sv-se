@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ba0a00ecb2a0a4ed5f11cf9b898b0ae9aee6edf9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528846"
 ---
-# <a name="create-special-orders"></a>Skapa specialorder
+# Skapa specialorder
 
 Du kan skapa en specialorder för en specifik katalogartikel som inte finns i lagret och som ska levereras till en specifik kund. Leverantören levererar artikeln till distributionslagret så att du sedan kan leverera den till kunden, som en enskild leverans eller tillsammans med andra artiklar på en annan order.  
 
@@ -24,7 +18,7 @@ Specialorder anger att inköps- och försäljningsordern är länkade för att s
 
 Innan den här funktionen kan användas måste de kund-, leverantörs- och artikelkort som behövs för ordern läggas upp.  
 
-## <a name="to-create-a-special-order"></a>Så här skapar du en specialorder
+## Så här skapar du en specialorder
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Skapa och fyll i försäljningsorder för artikeln. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
@@ -44,9 +38,9 @@ En inköpsorder som skapas som en specialorder för en försäljningsorder respe
 > [!NOTE]  
 >  Du kan använda funktionen Specialorder om artikeln redan har reserverats. Därför, för artiklar som säljs på särskilda order, kontrollera att fältet **Reservera** på artikelkortet har angetts till **alltid**.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md)  
 [Försäljning](sales-manage-sales.md)  

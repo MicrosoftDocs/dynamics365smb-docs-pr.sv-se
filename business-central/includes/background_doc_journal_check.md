@@ -3,14 +3,8 @@ author: bholtorf
 ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7441e5632c5d1541f76ecc4c64c334e1c1853068
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525237"
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Kontrollera data i dokument och journaler medan du arbetar
+## Kontrollera data i dokument och journaler medan du arbetar
 
 I 2022 års utgivningscykel 1 introducerades en funktion som validerar de data du registrerar i dokument och journaler medan du matar in dem. Om du aktiverar den här funktionen kan du t.ex. undvika misstag i datainmatning eller att inte kunna bokföra något på grund av ett fel. 
 

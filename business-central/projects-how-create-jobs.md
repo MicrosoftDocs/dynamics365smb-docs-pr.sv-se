@@ -4,18 +4,12 @@ description: För ett nytt projekt kan du skapa ett projektkort med projektaktiv
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: project management, task
-ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
+ms.search.keywords: 'project management, task'
+ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528954"
 ---
-# <a name="create-jobs"></a>Skapa projekt
+# Skapa projekt
 
 När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
 
@@ -34,7 +28,7 @@ Ibland är den part som tar emot en service inte densamma som den part som betal
 * Lägga till information om externa referenser för att förenkla kommunikationen med projektet.
 * Skriv över projektets standard ekonomiska villkor.
 
-## <a name="to-create-a-job-card"></a>Så här skapar du ett projektkort.
+## Så här skapar du ett projektkort.
 
 Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.
 
@@ -53,7 +47,7 @@ Om du vill kan du markera åtgärder i projekt som spärrade med fältet **spär
 |Bokföra    |Du kan arbeta med planeringsrader, men projektet är spärrat för bokföring. Om du väljer det här alternativet innebär det att du inte kan bokföra någon förbrukning eller försäljning för projektet.|
 |Alla  |Alla åtgärder är spärrade.|
 
-## <a name="to-create-tasks-for-a-job"></a>Skapa aktiviteter för ett projekt
+## Skapa aktiviteter för ett projekt
 
 En viktig del när du skapar ett projekt är att ange de olika aktiviteter som ingår i projektet. Du anger uppgifter genom att skapa en rad per uppgift på snabbfliken **Uppgifter** på sidan **Projektkort**. Varje projekt måste ha minst en aktivitet.
 
@@ -64,7 +58,7 @@ En viktig del när du skapar ett projekt är att ange de olika aktiviteter som i
 5. Upprepa steg 3 och 4 för alla de aktiviteter som du behöver för projektet.
 6. Om du vill ange projektaktiviteter med information om andra projektaktiviteter väljer du åtgärden **Kopiera projektaktiviteter från**, fyller i fälten efter behov och väljer sedan knappen **OK**.
 
-## <a name="to-create-planning-lines-for-a-job"></a>Så här skapar du en planeringsrad för ett projekt
+## Så här skapar du en planeringsrad för ett projekt
 
 Du kan förfina dina nya projektaktiviteter på projektplaneringsrader. En planeringsrad kan används för att samla in den information som du vill spåra för ett projekt. Du kan t.ex. spåra de resurser som krävs av projektet eller vilka artiklar som behövs. Du har till exempel en uppgift för att få en kund att godkänna ett projekt. Du kan associera den aktiviteten med planeringsrader för objekt som att träffa kund och tilldela en resurs.  
 
@@ -85,9 +79,9 @@ En projektplaneringsrad kan ha en av följande typer.
 4. På sidan **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.
 5. Upprepa steg 3 och 4 för alla de planeringsrader som du behöver för projektaktiviteten.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-new-job/)
+## Se relaterad [Microsoft utbildning](/training/modules/create-new-job/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Projekthantering](projects-manage-projects.md)  
 [Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

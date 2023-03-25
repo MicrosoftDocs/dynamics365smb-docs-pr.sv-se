@@ -9,21 +9,15 @@ ms.workload: na
 ms.search.form: 99000823
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d28439357d179e41dfacbaa8504dc0a7fa98230e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516698"
 ---
-# <a name="post-scrap-manually"></a>Bokföra kassationen manuellt
+# Bokföra kassationen manuellt
 
 Om kassation produceras under bearbetningen kan detta anges i utflödesjournalen.  
 
 > [!NOTE]
 > Kassationsantalet läggs inte till i utflödesantalet.  
 
-## <a name="to-post-scrap-manually"></a>Så här bokför du kassationen manuellt
+## Så här bokför du kassationen manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +25,7 @@ Om kassation produceras under bearbetningen kan detta anges i utflödesjournalen
 4. Ange kassationskoden i fältet **Kassationskod**.  
 5. Välj åtgärden **bokför** för att bokföra den angivna kassationen per operation.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](production-manage-manufacturing.md)
 [Konfigurera produktion](production-configure-production-processes.md)  

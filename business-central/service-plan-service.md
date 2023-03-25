@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, work hours, configure, price, pricing
+ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077560"
 ---
-# <a name="planning-services"></a>Planera service
+# Planera service
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du ställa in de standarduppgifter som behövs för att kundens krav på service uppfylls. För att göra detta måste du bestämma vilka serviceartiklar och erbjudanden som din serviceorganisation stödjer och till vilket pris.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder även vissa statistikverktyg som kan användas för att ta reda på hur bra det går och identifiera områden som du kan förbättra.
@@ -31,7 +25,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Förstå förhållandet mellan status på reparation och vilken effekt de har på tilldelade resurser och tvärtom.|[Förstå fördelningsstatus och reparationsstatus](service-allocation-status-and-repair-status.md)|  
 |Använda statistik för att analysera dina serviceprocesser. | [Visa servicestatistik](service-service-statistics.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Leverera service](service-deliver-service.md)  
 [Registrera prissättning och alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)  
