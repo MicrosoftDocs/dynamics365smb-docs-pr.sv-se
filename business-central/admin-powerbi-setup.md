@@ -1,26 +1,20 @@
 ---
 title: Aktivera Power BI-integrering med Business Central
-description: Lär dig hur du konfigurerar anslutningen till Power BI. Med Power BI-raporter kan du hämta insikter, Business Intelligence och KPI:er från dina Business Central-data.
+description: 'Lär dig hur du konfigurerar anslutningen till Power BI. Med Power BI-raporter kan du hämta insikter, Business Intelligence och KPI:er från dina Business Central-data.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, business intelligence, KPI'
 ms.date: 07/13/2022
 ms.author: jswymer
-ms.openlocfilehash: 6f2aea0734a25a49d21bd45628ddf0068f5cb7a6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530979"
 ---
-# <a name="enabling-power-bi-integration-with-prod_short"></a>Aktivera Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
+# Aktivera Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I denna artikel beskrivs hur du gör [!INCLUDE[prod_short](includes/prod_short.md)] redo för integrering med Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online är redan färdigkonfigurerat för integrering – dock finns viss licensinformation som du bör läsa igenom. För [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste du konfigurera din miljö för anslutning till Power BI innan användarna kan använda det.
 
-## <a name="power-bi-licensing"></a><a name="license"></a>Power BI-licenser
+## <a name="license"></a>Power BI-licenser
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] får användarna en gratis Power BI-licens som ger åtkomst till de vanligaste funktionerna i [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI. Du kan även köpa en Power BI Pro-licens som ger åtkomst till ytterligare funktioner. Följande tabell sammanfattar de funktioner som medföljer respektive licens.
 
@@ -31,11 +25,11 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] får användarna en gratis Po
 
 mer information finns i [Licensiera Power BI-tjänsten för användare i din organisation](/power-bi/admin/service-admin-licensing-organization) eller [Registrera dig för Power BI-tjänsten som privatperson](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Visa data via API eller OData-webbtjänster
+## <a name="exposedata"></a>Visa data via API eller OData-webbtjänster
 
 Med Business Central finns det två sätt att visa data som kan konsumeras av Power BI-rapporter: API-sidor eller frågor och OData-webbtjänster (Open Data Protocol).
 
-### <a name="api-pages-and-queries"></a>API-sidor och frågor
+### API-sidor och frågor
 
 > **GÄLLER:** endast Business Central online
 
@@ -50,23 +44,24 @@ Business Central online stöder också anpassade API:er. Program utvecklare av B
 >
 > I sällsynta fall orsakar beteendet ett fel när en användare försöker hämta data från API för en rapport i Power BI Desktop. Om databasändringar krävs på den anpassade API kan Power BI Desktop-användare tvinga fram beteendet. Mer information finns i [Skapa Power BI-rapporter för att visa Business Central-data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
-### <a name="odata-web-services"></a>OData-webbtjänst
+### OData-webbtjänst
 
 Du kan publicera Business Central-appobjekt, till exempel kodmoduler, sidor och frågor, som [OData-webbtjänster](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Med Business Central online finns många webbtjänster som standard publicerade. Ett enkelt sätt att hitta webbtjänsterna är att söka efter *webbtjänster* i [!INCLUDE[prod_short](includes/prod_short.md)]. På sidan **Webbtjänster** ser du till att fältet **Publicera** har valts för de webbtjänster som anges ovan. Mer information om publicering av webbtjänster finns i [Publicera en webbtjänst](across-how-publish-web-service.md).
 
 Om du vill få veta mer om vad du kan göra för att säkerställa en maximal webbtjänstprestanda – ur ett Business Central server-perspektiv (slutpunkten) samt ur ett konsumentperspektiv (klienten), läs då [Skapa effektiva webbtjänster](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
-### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Välja om API-sidor eller OData-webbtjänster ska användas
+### Välja om API-sidor eller OData-webbtjänster ska användas
 
 När det är möjligt rekommenderas du att använda API-sidor i stället för OData-webbtjänster. API-sidor är oftast snabbare när data läses in i Power BI-rapporter än OData-webbtjänster. Dessutom är de mer flexibla eftersom de gör att du kan hämta data från tabellfält som inte är definierade i ett sidobjekt.
 
-## <a name="set-up-prod_short-on-premises-for-power-bi-integration"></a><a name="setup"></a>Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt för Power BI-integrering
+## <a name="setup"></a>Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt för Power BI-integrering
 
 I detta avsnitt beskrivs kraven för en lokal [!INCLUDE[prod_short](includes/prod_short.md)]-distribution i syfte att integrera med Power BI.
 
-1. Konfigurera antingen NavUserPassword- eller Azure Active Directory-autentisering för distributionen.
-
-    Power BI-integrering stöder inte Windows-autentisering.  
+1. Konfigurera antingen NavUserPassword- eller Azure Active Directory-autentisering för distributionen.  
+    
+    > [!NOTE]
+    > Power BI integrationen stöder inte Windows-autentisering och stöds inte på Windows-klienten.
 
 2. Aktivera OData-webbtjänster och ODataV4-slutpunkten.
 
@@ -97,9 +92,9 @@ I detta avsnitt beskrivs kraven för en lokal [!INCLUDE[prod_short](includes/pro
     Om du vill skapa den första anslutningen öppnar du [!INCLUDE[prod_short](includes/prod_short.md)] och kör **Kom igång med Power BI** från startsidan. Denna åtgärd leder dig genom samtyckesprocessen och kontrollerar din Power BI-licens. När du uppmanas att göra så, loggar du in med ett Azure-administratörskonto. Mer information finns i [Anslut till Power BI – endast en gång](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Business Central och Power BI](admin-powerbi.md)  
 [Power BI-integreringskomponent och arkitekturöversikt för [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

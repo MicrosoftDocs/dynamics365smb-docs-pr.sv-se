@@ -12,6 +12,8 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 ---
 # Flöde för användaråtkomst för Microsoft 365-licenser
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Denna artikel beskriver vad som händer när en användare kommer åt Business Central-data med hjälp av deras Microsoft 365-licens för första gången. Med hjälp av det här flödet kan administratörer planera sina inställningar och konfigurera Business Central så att de överensstämmer med deras företags behov.
 
 1. Först autentiseras användarens identitet 

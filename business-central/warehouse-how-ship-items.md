@@ -59,8 +59,8 @@ Du kan skapa distributionslagerutleverans på två sätt:
     * Med push-metod där du använder åtgärden **Skapa plockning**. Välj de rader som du vill plocka och ange information om plockningarna. Till exempel vilka lagerplatser som ska tas från och placeras samt hur många enheter som ska hanteras. Lagerplatser kan fördefinieras för distributionslagerstället eller resurs.
     * Med pull-metod där du använder åtgärden **Frisläppa**. På sidan **Plockningskalkylark** kan du använda åtgärden **Hämta dist.lager dokument** för att hämta sina tilldelade plockningar. När distributionslagerplockningar är fullständigt registrerade tas raderna i **Plockningskalkylark** bort. Läs mer på [Plocka artiklar för distributionslagerutleverans](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> För lagerställen som inte kräver plockning kan du skriva ut distributionslagerutleveransen och använda den som plocklista.
+    > [!TIP]
+    > För lagerställen som inte kräver plockning kan du skriva ut distributionslagerutleveransen och använda den som plocklista.
 
 8. Ange antalet som ska levereras.  
 
@@ -71,6 +71,8 @@ Du kan skapa distributionslagerutleverans på två sätt:
     För att ange värdet i fältet **Ant. att utleverera** på alla rader med noll, väljer du åtgärden **Ta bort ant. att utleverera**. Om du till exempel anger antal till noll, är det praktiskt att använda en streckkodsskanner för att uppdatera de utlevererade kvantiteterna. Om du vill lägga till disponibelt antal för utleverans väljer du åtgärden **Fyll i auto. ant. att utleverera**.
 
 9. Bokför leveransen.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## Så här använder du filter för att hämta källdokument
 

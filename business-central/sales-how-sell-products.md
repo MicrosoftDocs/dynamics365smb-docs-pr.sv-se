@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
-ms.search.form: 42, 48, 9305
+ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
+ms.search.form: '42, 48, 9305'
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 7d3363557e469344c1648c52b08393efc0f2dc69
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535833"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Sälja produkter med en kundförsäljningsreturorder
+# Sälja produkter med en kundförsäljningsreturorder
 
 Artikeln ger vägledning till användare om du bör använda en kundorder utöver en faktura. Om din försäljningsprocess kräver att du bara skickar en del av en order, kanske för att hela kvantiteten inte är tillgänglig direkt, måste du bearbeta den försäljningen genom att göra en försäljningsorder.
 
@@ -29,7 +23,7 @@ I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller 
 
 Du kan även skapa direktbetalade order för icke-registrerade kunder genom att definiera ett ”kontant” kundkort som du refererar till på försäljningsorder. Läs mer i [Så här skapar du Kontantkunder](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Skapa en försäljningsorder
+## Skapa en försäljningsorder
 
 > [!NOTE]  
 > Följande procedur förutsätter att kunden redan har ställts in. Instruktioner om hur du gör det finns i [Registrera nya kunder](sales-how-register-new-customers.md).
@@ -93,13 +87,13 @@ Dialogrutan **Bokför och skicka bekräftelse** visar kundens standardmetod för
 
 Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljningsorder matas ut som ett PDF-dokument. När försäljningsordern bokförs helt tas den bort från listan över försäljningsorder och ersätts med nya dokument i listan över bokförda försäljningsfakturor och listan över bokförda försäljningsleveranser.  
 
-## <a name="external-document-number"></a>Externt dokumentnummer
+## Externt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Bokföra försäljning](ui-post-sales.md)  

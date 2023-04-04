@@ -1,22 +1,16 @@
 ---
 title: Skapa inkommande dokumentposter
-description: Använd olika funktioner på sidan inkommande dokument för att granska utgifts kvitton, hantera OCR-uppgifter, konvertera inkommande användarfiler och bifoga externa filer.
+description: 'Använd olika funktioner på sidan inkommande dokument för att granska utgifts kvitton, hantera OCR-uppgifter, konvertera inkommande användarfiler och bifoga externa filer.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
+ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 3f49980df13e62d948e7b2c17be54779bc8f901a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532464"
 ---
-# <a name="create-incoming-document-records"></a>Skapa inkommande dokumentposter
+# Skapa inkommande dokumentposter
 
 På sidan **Inkommande dokument** använder du olika funktioner för att förhandsgranska utgiftskvitton, hantera OCR-uppgifter och konvertera inkommande dokumentfiler, manuellt eller automatiskt, till relevanta dokument eller journalrader i . De externa filerna kan kopplas till något processteg, inklusive till bokförda dokument och till resulterande leverantörs-, kund- och redovisningstransaktioner.
 
@@ -24,7 +18,7 @@ Om du vill registrera ett externt dokument i [!INCLUDE[prod_short](includes/prod
 
 Innan du kan använda funktionen för **inkommande dokument** måste du utföra de nödvändiga inställningarna. Mer information finns i [Skapa inkommande dokument](across-how-setup-income-documents.md).
 
-## <a name="to-approve-or-reject-an-incoming-document"></a>Så här Godkänn eller avvisa ett inkommande dokument.
+## Så här Godkänn eller avvisa ett inkommande dokument.
 
 Om du har ställt in funktionen **inkommande dokument** så att den kräver godkännande för att skapa dokument, måste användare med rätt behörighet godkänna posterna innan de behandlas. Mer information finns i [ställa in god kännare för inkommande dokumentposter](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -33,7 +27,7 @@ Om du har ställt in funktionen **inkommande dokument** så att den kräver godk
 
 Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** på den inkommande dokumentraden. Användaren som ansvarar för att skapa t.ex inköpsfakturor kan fortsätta med att bearbeta transaktionen.
 
-## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Så här skapar du en inkommande dokumentpost genom att ta ett foto
+## Så här skapar du en inkommande dokumentpost genom att ta ett foto
 
 > [!NOTE]  
 > Följande proceduren gäller endast [!INCLUDE[prod_short](includes/prod_short.md)] för surfplatte- och telefonklienter.
@@ -45,7 +39,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 
     En ny inkommande dokumentpost skapas med bilden bifogad.
 
-## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Så här bifogar du en bild till en inkommande dokumentpost genom att ta ett foto
+## Så här bifogar du en bild till en inkommande dokumentpost genom att ta ett foto
 
 > [!NOTE]  
 > Följande proceduren gäller endast [!INCLUDE[prod_short](includes/prod_short.md)] för surfplatte- och telefonklienter.
@@ -57,7 +51,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 
     Bilden har bifogats till den inkommande dokumentposten.
 
-## <a name="to-create-an-incoming-document-record-manually"></a>Så här skapar du en inkommande dokumentpost manuellt
+## Så här skapar du en inkommande dokumentpost manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.
 2. Välj **Ny** och sedan åtgärden **Skapa från fil**.  
@@ -67,9 +61,9 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 6. Markera filen som representerar det inkommande dokumentet i fråga och välj sedan knappen **Öppna** på sidan **Infoga fil**.
 7. På sidan **Inkommande dokument** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Använd OCR för att förvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md)
 [Skapa inkommande dokumentposter direkt från dokument och poster](across-how-connect-disconnect-income-document-records.md)

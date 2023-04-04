@@ -1,5 +1,5 @@
 ---
-title: Inleverera och införa i avancerad Warehouse Management
+title: Inleverera och införa i avancerad lagerstyrning
 description: De inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.
 author: SorenGP
 ms.topic: conceptual

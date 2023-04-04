@@ -68,6 +68,8 @@ Mer information om företag och miljöer finns i avsnittet om [Miljölänkar](co
 
 ## Komma åt företagsnavet
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 För att få tillgång till företagsnavet måste du ha åtkomst via antingen användargruppen *D365 FÖRETAGSNAV* eller genom behörighetsuppsättningen *D365 FÖRETAGSNAV*. Du måste också ha åtkomst till de företag som finns i företagsnavet, vilket innebär att du måste vara användare i dessa företag. Mer information finns i [Skapa användare enligt licenser](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]

@@ -25,7 +25,7 @@ Det effektivaste sättet att skapa lagerställena i distributionslagret på är 
 
 Fältet **Dedikerad** på sidan **Lagerplatser** anger att kvantiteterna på lagerplatsen är skyddade från att plockas för andra behov. Men kvantiteterna i lagerställena kan fortfarande reserveras. Därmed ingår antalet i dedikerade lagerställen i fältet **Totalt disponibelt antal** på sidan **Reservation**.
 
-Att dedikera en lagerplats resulterar i en liknande funktion i grundläggande Warehouse Management att använda lagerplatstyper, som endast finns i avancerade distributionslager. Mer information finns i [Skapa lagerställen](warehouse-how-to-set-up-bin-types.md).
+Att dedikera en lagerplats resulterar i en liknande funktion i grundläggande lagerstyrning att använda lagerplatstyper, som endast finns i avancerade distributionslager. Mer information finns i [Skapa lagerställen](warehouse-how-to-set-up-bin-types.md).
 
 ### Exempel
 

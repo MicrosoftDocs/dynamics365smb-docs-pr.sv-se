@@ -19,14 +19,16 @@ Tabellen nedan visar anslutningarna till Microsoft-tjänster som har aktiveras a
 |------------|-------------|--------|------------|-------------|
 |Microsoft Teams|Ja|Nr|**Dela till Teams**-åtgärd på **artikel** kort |[Hantera Teams-integrering med Business Central](admin-teams-integration.md)|  
 |Microsoft OneDrive för företag|Ja|Nr|**Öppna i OneDrive** åtgärd på **objekt** bilagor |[Hantera OneDrive integrering med Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Ja|Nr|**Automatisera** åtgärder på **artikel** kort |[Konfigurera Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
+| Microsoft Power Automate |Ja|Nej|**Automatisera** åtgärder på **artikel** kort |[Konfigurera Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+| Microsoft Azure OpenAI Automate |Ja |Nej|**Copilot (förhandsversion)** |[Konfigurera marknadsföringstext för AI-baserad artikel med Copilot](enable-ai.md)|
 
 > [!NOTE]
 > Med hjälp av funktioner som ansluter till dessa tjänster: 
 >
 > - Du medgivande på att dina data delas med Microsoft-tjänsten. Om organisationen har distribuerat dessa tjänster i ett annat land eller en annan region kan en anslutning till tjänsten leda till att data korsar datahemvistgränser. Se till att bekräfta organisationens principer och myndighetsefterföljandekrav för datahemvist innan du använder dessa funktioner. 
 > - Det kan påverka tjänster som inte är testversioner. Om dessa tjänster används i produktionen av organisationen och inte är utvärderade tillsammans med Business Central, andra användare av dessa tjänster som inte deltar i denna testversion av [!INCLUDE[prod_short](includes/prod_short.md)] påverkas.
-> - [!INCLUDE[prod_short](includes/prod_short.md)] kan också ansluta till Microsoft-tjänster eller tjänster från tredje part beroende på de anpassningar och tillägg som du eller administratören har installerat i din [!INCLUDE[prod_short](includes/prod_short.md)] testversion. Om du vill ha information om hur dina data kommer att bearbetas, kontaktar du tilläggsutvecklaren eller följer sekretesslänken för tillägget AppSource. 
+> - [!INCLUDE[prod_short](includes/prod_short.md)] kan också ansluta till Microsoft-tjänster eller tjänster från tredje part beroende på de anpassningar och tillägg som du eller administratören har installerat i din [!INCLUDE[prod_short](includes/prod_short.md)] testversion. Om du vill ha information om hur dina data kommer att bearbetas, kontaktar du tilläggsutvecklaren eller följer sekretesslänken för tillägget AppSource.
+> - För funktioner i förhandsversion godkänner du [villkor för förhandsversion](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/?wt.mc_id=power-virtual-agents_inproduct).
 
 Din sekretess är viktig för oss. Om du vill veta mer om hur Microsoft behandlar dina data, se [Microsofts sekretesspolicy](https://go.microsoft.com/fwlink/?linkid=521839).
 

@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Registrera förbrukning eller användning för projekt
 
 På sidan **Jobbkort** kan du öppna sidan **Projektplaneringsrader** om du vill granska och registrera användning på olika delar av projektet. Den här informationen uppdateras automatiskt när du ändrar och överför information mellan projekt och projektjournaler eller projektfakturor. Detta innebär att du har aktiverat växlingsknappen **Använd förbrukningslänk som standard** på sidan **Inställningar i projekt**. Läs mer i [Ställa in projekt](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 Till exempel för planeringsrader av typen **Budget** kan du ange antal av en resurs och hur stort antal som ska överföras till projektjournalen. Om typen av planeringsrad är **Fakturerbar** kan du ange antal av resursen och hur stort antal som ska överföras till en faktura. Mer information om hur du fakturerar kunden finns i [Fakturera projekt](projects-how-invoice-jobs.md). Genom att jämföra ursprungligt antal, återstående antal eller bokfört antal kan du snabbt granska användningsinformation. För mer information om att uppskatta budgeterade värden i samband med planering, se [Hantera projektbudget](projects-how-manage-budgets.md).  
 
@@ -28,11 +24,11 @@ Efterföljande procedurer beskriver hur du registrerar verklig (budgeterad) kvan
 3. Välj en projektplaneringsrad av typen **Budget** eller skriv **Både Budget och Fakturerbart** som du vill registrera förbrukning för.   
 
     > [!NOTE]
-    > Du kan också registrera förbrukning på en projektplaneringsrad av typen **Fakturerbart**. Vanligtvis använder du dessa rader för att skapa fakturor, men du kan även överföra informationen till en journal. Läs mer på [fakturaprojekt](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > Du kan också registrera förbrukning på en projektplaneringsrad av typen **Fakturerbart**. Vanligtvis använder du dessa rader för att skapa fakturor, men du kan även överföra informationen till en journal. Läs mer på [fakturaprojekt](projects-how-invoice-jobs.md) 
 
 4. På fältet **Antal att överföra till journal** anger du hur stort antal som ska överföras. Standardkvantiteten är samma värde som du angav i fältet **Antal**.
 
-    Fältet **Återstående antal** visar kvantiteten som återstår för att slutföra projektet och att överföras till journalen. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    Fältet **Återstående antal** visar kvantiteten som återstår för att slutföra projektet och att överföras till journalen.
 5. Välj åtgärden **Skapa projektjournalrader**.
 
     > [!TIP]
@@ -40,6 +36,9 @@ Efterföljande procedurer beskriver hur du registrerar verklig (budgeterad) kvan
 6. På sidan **Projekt – Överför projektplaneringsrad** fyller du i fälten efter behov och väljer sedan knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Välj åtgärden **Öppna projektjournal**.  
 8. På sidan **Projektjournal** väljer du relevant rad och väljer sedan åtgärden **Bokför**.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. På sidan **Projektplaneringsrader** granskar du den registrerade förbrukningen genom att observera fälten **Antal**, **Återstående antal** och **Antal att överföra till journal**.  
 10. Upprepa steg 3 till 8 om du vill registrera extra förbrukning.  
 
@@ -49,6 +48,8 @@ Efterföljande procedurer beskriver hur du registrerar verklig (budgeterad) kvan
 2. Välj relevant projektjournalnamn i fältet **Journalnamn**.  
 3. Ange dokumentnummer, projektnumret, projektaktivitetsnummer, typ och antal av typen som förbrukas, på en ny rad.  
 4. Välj åtgärden**Bokför** när projektjournalraderna har slutförts.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Så här visar du projektförbrukning och uppskattningar och bokföruppdateringar
 

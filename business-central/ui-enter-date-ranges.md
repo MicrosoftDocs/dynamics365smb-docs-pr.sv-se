@@ -1,29 +1,24 @@
 ---
 title: Ange datum och tider i Business Central
-description: Lära dig att ange datum och tider, inklusive olika tips för produktivitet till exempel snabbskrift, uttryck och intervaller.
+description: 'Lära dig att ange datum och tider, inklusive olika tips för produktivitet till exempel snabbskrift, uttryck och intervaller.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'dates, reporting, filter, calendar, shorthand, range'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d3e060d5a6d3632dcade331cef7f2c9f0ecb4027
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534757"
 ---
-# <a name="work-with-calendar-dates-and-times"></a>Arbeta med kalenderdatum och tider
+
+# Arbeta med kalenderdatum och tider
 
 Du kan ange datum och tid på flera olika sätt. [!INCLUDE[prod_short](includes/prod_long.md)] inbegriper kraftfulla funktioner som förbättrar datainmatning eller hjälper dig att skriva komplexa kalenderuttryck. Det finns olika ställen i programmet där du kan ange datum och tider i ett fält. På t. ex. en försäljningsorder kan du ange leveransdatumet. När du filtrerar listor eller rapportdata, kan du ange datum och tider för att precisera endast den information som du är intresserad av.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a>Kontrollera inställningarna för region och språk
+## Kontrollera inställningarna för region och språk
 
 Sidan **Mina inställningar** anger **Region** och **Språk** du använder i programmet. Dessa inställningar påverkar hur du anger datum och tid.
 
@@ -38,7 +33,7 @@ Sidan **Mina inställningar** anger **Region** och **Språk** du använder i pro
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a>Ange datum
+## Ange datum
 
 I ett datumfält kan du ange ett datum med standardformat för din region. Olika områden kan använda olika avgränsare mellan dagar, månader och år. Exempelvis använder vissa regioner bindestreck (åååå-mm-dd) och andra snedstreck (åååå/mm/dd).  
 
@@ -50,15 +45,15 @@ I ett datumfält kan du ange ett datum med standardformat för din region. Olika
 
 Om du vill arbeta mer effektivt med datum och tider, använd någon av de metoder eller format som beskrivs nedan.
 
-### <a name="picking-dates-from-the-calendar"></a>Välja datum från kalendern
+### Välja datum från kalendern
 
-Ett fält som visar en kalenderikon kan anges med hjälp av kalenderdatumväljaren. Om du vill visa kalenderdatumväljaren, aktivera kalenderikonen eller tryck på kortkommandot Ctrl + Home i fältet.
+Ett fält som visar en kalenderikon kan anges med hjälp av kalenderdatumväljaren. Om du vill visa kalenderdatumväljaren, aktivera kalenderikonen eller tryck på kortkommandot <kbd>Ctrl</kbd>+<kbd>Home</kbd> i fältet.
 
 ![Datumfält.](media/ui-date-field.png "Exempel på datumfält")
 
 Se även [Kortkommandon i kalenderdatumväljaren](keyboard-shortcuts.md#calendarshortcuts)
 
-### <a name="day-week-year-pattern"></a>Dag\-vecka\-år-mönster
+### Dag\-vecka\-år-mönster
 
 Du kan ange ett datum som en veckodag följt av ett veckonummer och alternativt ett år. Till exempel Mån25 eller mån25 betyder måndag vecka 25. Om du inte anger ett år används året från arbetsdatumet.
 
@@ -66,7 +61,7 @@ I stället för att ange hela ordet för dagen i veckan, kan du skriva in del av
 
 Veckonummersystemet är alltid ISO-8601 där vecka 1 är veckan med 4 januari eller veckan med första torsdagen på året.
 
-### <a name="digit-patterns"></a>Siffermönster
+### Siffermönster
 
 I ett datumfält kan du skriva in två, fyra, sex eller åtta siffror.
 
@@ -79,17 +74,17 @@ I ett datumfält kan du skriva in två, fyra, sex eller åtta siffror.
   > [!NOTE]
   > Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda det tvåsiffriga årtalet. Administratörer kan ändra intervallet genom att ändra serverns **CalendarTwoDigitYearMax** [!INCLUDE[prod_short](includes/prod_short.md)]-inställning . Mer information finns i [Konfigurera Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### <a name="today"></a>I dag
+### I dag
 
 Ange ordet för _idag_, på det språk som anges på sidan **Mina inställningar**, för att ange dagens datum på en post. I stället för att ange hela ordet, kan du skriva in del av ordet, från början. På engelska kan du till exempel ange _t_ eller _tod_, förutsatt att det inte också är början på ett annat ord.
 
-### <a name="period"></a>Period
+### Period
 
 Om du vill filtrera efter en viss redovisningsperiod i ett datumfält skriver du in p eller ordet period, följt av ett nummer som identifierar bokföringsperioden som p2 eller period4. Bokföringsperioden är i förhållande till räkenskapsåret för det aktuella arbetsdatumet som angetts i ditt rollcenter. Om arbetsdatumet är till exempel **22-03-21**, då är _p1_, eller bara _p_, filter på den första perioden på räkenskapsåret 2022 (såsom 22-01-01..22-01-31). _p15_-filter för femtonde bokföringsperioden från början av räkenskapsåret 2022 (såsom 23-03-01..23-03-31).
 
 Bokföringsperioder definieras på sidan **Bokföringsperioder**. Om du vill visa eller ändra bokföringsperioderna, öppna sidan [här](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a>Arbetsdatum
+### Arbetsdatum
 
 Använd ett arbetsdatum för att ange ett datum som inte är dagens datum på poster. Ett arbetsdatum kan t.ex. vara användbart när du vill ange ett visst datum för flera poster. Du anger arbetsdatumet på sidan **Mina inställningar**. 
 
@@ -97,13 +92,13 @@ Ett snabbt sätt att ange arbetsdatumet på en post är att ange en del av eller
 
 Om du inte har angett något arbetsdatum kommer dagens datum att användas. För mer information, se [Ändra grundläggande inställningar, såsom arbetsdatum](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a>Avslutsdatum
+### Avslutsdatum
 
 När du avslutar ett räkenskapsår kan du använda avslutsdatum för att ange att en transaktion är en bokslutspost. Ett avslutsdatum ligger tekniskt sätt mellan två datum, till exempel mellan den 31 december och den 1 januari.
 
 För att ange att ett datum är ett avslutsdatum ange A före datumet såsom A120131. Använd det här formatet tillsammans med alla datummönster.
 
-### <a name="examples"></a>Exempel
+### Exempel
 
 Följande tabell innehåller exempel på datum med alla format. Det förutsätter regioninställningar som formaterar datum enligt: **år.månad.dag.**, en vecka med start på måndag och på engelska.
 
@@ -128,7 +123,7 @@ Följande tabell innehåller exempel på datum med alla format. Det förutsätte
 |t 23|Tisdag av vecka 23 arbetsdatumets år|
 |t-1|Tisdag av vecka 1 arbetsdatumets år|
 
-##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Inställningsintervall
+##  <a name="BKMK_SettingDateRanges"></a> Inställningsintervall
 
 I listor, summor och rapporter kan du ange filter för datum, tid och datum och tid som innehåller ett startvärde och ett slutvärde om du endast vill visa de data som finns inom intervallet. Standardregler gäller för hur du kan ange datumintervall.
 
@@ -140,7 +135,7 @@ I listor, summor och rapporter kan du ange filter för datum, tid och datum och 
 
 Du kan använda giltiga format i filtret för datumintervall. Till exempel mån14 3..t 4p som tillämpas på ett datum/tidsfält resulterar i ett filter mellan 03:00 måndag vecka 14 det aktuella arbetsdatumets år, inklusive fram till i dag klockan 16:00.
 
-## <a name="use-date-formulas"></a>Använd datumformler
+## Använd datumformler
 
 En datumformel är en kort kombination av förkortningar med bokstäver och siffror som anger hur datum ska beräknas. Du kan ange datumformler i olika fält eller filter för datumberäkning.
 
@@ -292,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a>Ange tider
+## Ange tider
 
 När du anger tider kan du infoga vilken avgränsare du vill mellan enheterna, utom blanksteg. Om du använder dubbla siffror för varje enhet upp till millisekunder är det inte obligatoriskt.
 
@@ -325,11 +320,11 @@ I följande tabell visas de olika sätt som du kan ange tider på, samt hur de t
 
 Ordet för ”tid” på det språk som används av [!INCLUDE[prod_short](includes/prod_long.md)] utvärderas till aktuell tid på din dator eller mobil enhet. Du kan skriva in alla ord, från början, såsomt eller TIM.
 
-## <a name="entering-combined-dates-and-times"></a>Ange kombinerade datum och tider
+## Ange kombinerade datum och tider
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a>Ange varaktighet
+## Ange varaktighet
 
 Vissa fält i programmet representerar en varaktighet eller mängden förfluten tid, i stället för ett visst datum eller tid. Du anger varaktigheten som en siffra följd av en enhet.
 
@@ -350,9 +345,9 @@ Ange en siffra för att se vilken måttenhet som används i fältet för varakti
 
 Till exempel om mätenheten är timmar konverteras siffran 5 till 5 timmar.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)  

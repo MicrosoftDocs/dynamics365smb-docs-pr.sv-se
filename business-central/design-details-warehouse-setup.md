@@ -1,5 +1,5 @@
 ---
-title: Designdetaljer – Warehouse Managementsinställningar
+title: Designdetaljer – Lagerstyrningsinställningar
 description: 'Lagerställefunktionen innehåller olika komplexitetsnivåer, som till stor del definieras av lagerplatsinställningarna på lagerställekort.'
 author: SorenGP
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Designdetaljer: Warehouse Managementsinställningar
+# Designdetaljer: Lagerstyrningsinställningar
 
 Distributionslagerfunktion i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller olika nivåer av komplexitet, enligt definitionen av licensbehörigheter i de offererade partiklarna. Nivån av komplexitet i en lagerlösning definieras i hög grad av den lagerplatsinställningen på lagerställekort, som i sin tur är licenskontrollerat så att åtkomsten till inställningsfält för lagerstället definieras av licensen. Dessutom ska kopplingsobjekten i licensen styra vilka användargränssnittsdokument som ska användas för de distributionslageraktiviteter som stöds.  
 <!--

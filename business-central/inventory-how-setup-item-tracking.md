@@ -1,22 +1,16 @@
 ---
-title: Ställa in artikelspårning med serie-, parti- eller paketnummer
-description: Ställa in artikelspårning med serie-, parti- eller paketnummer
+title: 'Ställa in artikelspårning med serie-, parti- eller paketnummer'
+description: 'Ställa in artikelspårning med serie-, parti- eller paketnummer'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533274"
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Ställa in artikelspårning med serie-, parti- eller paketnummer
+# Ställa in artikelspårning med serie-, parti- eller paketnummer
 
 Håll reda på lagerartiklar även i komplexa lagerkonfigurationer med tal som är specifika för varje artikel, antingen som ett enskilt objekt, som ett parti eller som ett paket. Med artikelspårning kan du spåra artiklar över interna lagerrörelser och utgående och inkommande dokument.
 
@@ -25,13 +19,13 @@ Artiklar med serienr och partinr som kan spåras, antingen framåt eller bakåt 
 > [!TIP]
 > I utgivningscykel 1 för 2021 och senare, slå på funktionsuppdateringen på *Använd spårning på paketnummer i boknings- och spårningssystemet* om du vill arbeta med paketnummer samt serienummer och partinummer. Mer information finns i [Aktivera kommande funktioner i förväg](admin-feature-management.md). När funktionen är påslagen kan du tilldela paketnummer till utgående och inkommande dokument som liknar hur du kan arbeta med partinummer.  
 
-## <a name="numbers-and-item-tracking"></a>Nummer och artikelspårning
+## Nummer och artikelspårning
 
 Som en del av dina lagerprocesser kan du bunta ditt lager i paket, lådor, behållare och så vidare. Men för att hålla reda på artiklarna tilldelar du unika nummer som identifiering. Du tillverkar och säljer till exempel en stol som har artikelnummer *1900-S*. Varje enskild stol har ett serienummer *1001*, men du lägger också ihop fyra stolar i *LOT0001* och du levererar stolar i en behållare med paketnummer *CONTAINER010* som också innehåller andra föremål, till exempel *LOT0100* med sidobord och *LOT200* med lampor.  
 
 Beroende på din konfiguration använder du dessa olika nummer för att hålla reda på lagret [!INCLUDE [prod_short](includes/prod_short.md)] i de olika stadierna av inköp, försäljning, lageroperationer och så vidare.
 
-## <a name="to-set-up-item-tracking-codes"></a>Så här skapar du en artikelspårningskoder
+## Så här skapar du en artikelspårningskoder
 
 Artikelspårningskoden reflekterar ett företags olika regler i samband med användningen av serie- och partinummer för artiklar som flyttas i lagret.  
 
@@ -48,7 +42,7 @@ Eftersom det här inställningsfältet omfattar alla möjliga transaktioner med 
 > [!NOTE]  
 >  För att tilldela artikelspårningsnummer i distributionslageraktiviteter måste fälten **SN dist.lager spårning** och **Parti dist.lager spårning.** markeras på artikelns kort för artikelspårningskoden.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Så här skapar du utgångsregler för serie-/partinummer
+## Så här skapar du utgångsregler för serie-/partinummer
 
 För vissa artiklar kanske du vill definiera särskilda förfallodatum och -regler i artikelspårningskoden. På så sätt kan du hålla reda på när olika serie-/partinummer går ut.
 
@@ -62,7 +56,7 @@ För vissa artiklar kanske du vill definiera särskilda förfallodatum och -regl
     |**Kräv inmatning av utgångsdatum**|Anger att du manuellt måste ange ett förfallodatum på artikelspårningsraden.|  
     |**Använd utgångsdatum**|Anger att du vill beräkna utgångsdatum. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Så här skapar du garantier för serie-/partinummer
+## Så här skapar du garantier för serie-/partinummer
 
 För vissa artiklar kanske du vill definiera specifika garantier i artikelspårningskoden. På så sätt kan du hålla reda på när garantierna för särskilda serie- eller partinummer i lagret går ut.  
 
@@ -76,7 +70,7 @@ För vissa artiklar kanske du vill definiera specifika garantier i artikelspårn
     |**Kräv inmatning av garantidatum**|Anger att du manuellt måste ange ett garantidatum på artikelspårningsraden.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>Så här ställer du in artiklar för spårning med rätt artikelspårningskoder
+## Så här ställer du in artiklar för spårning med rätt artikelspårningskoder
 
 Om du vill aktivera artikelspårning måste du först tilldela artikelspårningskoder till en artikel. Det finns två sätt att lägga till artikelspårningskoder, genom att välja koden från en fördefinierad lista eller genom att tilldela en ny unik kod. Placera markören över fälten om du vill läsa en kort beskrivning.
 
@@ -85,9 +79,9 @@ Om du vill aktivera artikelspårning måste du först tilldela artikelspårnings
 3. På snabbfliken **Artikelspårning** tilldelar du lämpliga artikelspårningskoder och väljer **Artikelspårningskod**, **Serienr** och **Partinr**.
     1. Alternativt kan du också skapa en ny artikelspårningskod genom att välja åtgärden **Ny**.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/prepare-item-tracking/)
+## Se relaterad [Microsoft utbildning](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)  

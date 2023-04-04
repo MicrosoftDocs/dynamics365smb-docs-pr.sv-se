@@ -3,19 +3,13 @@ title: Skapa användare enligt licenser
 description: Beskriver hur du lägger till användare i Business Central Online eller lokalt baserade på licenser.
 author: jswymer
 ms.topic: conceptual
-ms.search.keywords: access, right, security
-ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
+ms.search.keywords: 'access, right, security'
+ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
 ms.date: 05/09/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: f0a9231b68df913c122c4118a5585f8464fdbd00
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804533"
 ---
-# <a name="create-users-according-to-licenses"></a>Skapa användare enligt licenser
+# Skapa användare enligt licenser
 
 I den här artikeln beskrivs hur administratörer skapar användare och anger vem som kan logga in på [!INCLUDE[prod_short](includes/prod_short.md)]. Du lär dig också om hur du tilldelar behörigheter till olika användare enligt dina produktlicenser.
 
@@ -26,7 +20,7 @@ Mer information om olika typer av licenser och hur licensiering fungerar i [!INC
 > [!NOTE]
 > Hanteringen av användare och licenser varierar beroende på om lösningen [!INCLUDE[prod_short](includes/prod_short.md)] distribueras online eller lokalt. För [!INCLUDE [prod_short](includes/prod_short.md)] online måste du lägga till användare från Microsoft 365. I lokala distributioner kan du skapa, redigera och ta bort användare direkt.  
 
-## <a name="manage-users-and-licenses-in-online-tenants"></a>Hantera användare och licenser i online-innehavare
+## Hantera användare och licenser i online-innehavare
 
 Användarkonton i [!INCLUDE[prod_short](includes/prod_short.md)] måste skapas först i Microsoft 365 administrationscenter. Dessa användarkonton är inte exklusiva till Business Central. Om du prenumererar på andra planer kan de användas för att logga in på andra program, t.ex. Power BI. Mer information om hur du skapar användare i Microsoft 365 administrationscenter finns i [Lägga till användare i Microsoft administrationscenter](/microsoft-365/admin/add-users/add-users).
 
@@ -41,11 +35,11 @@ Mer information finns i [Administration av Business Central Online](/dynamics365
 
 När användarkonton har skapats på Microsoft 365 administrationscentret finns det två sätt att importera dem till Business Central:
 
-- Ett användarkonto importeras automatiskt när användaren loggar in på Business Central första gången.
+- Ett användarkonto importeras automatiskt när användaren loggar in på [!INCLUDE [prod_short](includes/prod_short.md)] första gången.
 
-- Administratören kan importera användare genom att välja åtgärden  **Uppdatera användare från Microsoft 365** på sidan **Användare* .
+- Administratören kan importera användare genom att välja åtgärden **Uppdatera användare från Microsoft 365** på sidan **Användare* .
 
-Båda metoderna har sina egna fördelar och du kan använda dem samtidigt. Med varje tillvägagångssätt kan administratörerna konfigurera Business Central proaktivt för att tilldela startbehörighet, användargrupper och användarprofiler. Med hjälp av åtgärden **Uppdatera användare från Microsoft 365** får administratörer mer kontroll att justera behörigheter, användargrupper och profiler. Det är en idealisk metod när du konfigurerar Business Central för första gången, innan en användare loggar in eller när du lägger till en ny grupp användare.
+Båda metoderna har sina egna fördelar och du kan använda dem samtidigt. Med varje tillvägagångssätt kan administratörerna konfigurera [!INCLUDE [prod_short](includes/prod_short.md)] proaktivt för att tilldela startbehörighet, användargrupper och användarprofiler. Med hjälp av åtgärden **Uppdatera användare från Microsoft 365** får administratörer mer kontroll att justera behörigheter, användargrupper och profiler. Det är en idealisk metod när du konfigurerar [!INCLUDE [prod_short](includes/prod_short.md)] för första gången, innan en användare loggar in eller när du lägger till en ny grupp användare.
 
 > [!NOTE]
 > När du har lagt till användare i Microsoft 365 administrationscenter rekommenderar vi att du uppdaterar användarinformationen i [!INCLUDE[prod_short](includes/prod_short.md)] så snart som möjligt. Det är enkelt att göra användarinformationen aktuell och ser till att användarna alltid kan logga in. För mer information, se [Så här lägger du till användare eller uppdaterar användarinformation och licenstilldelningar i Business Central](#adduser).<br>
@@ -58,7 +52,7 @@ Båda metoderna har sina egna fördelar och du kan använda dem samtidigt. Med v
 
 Mer information finns i [Tilldelad administratörsåtkomst till Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Konfigurera behörigheter baserat på licenser
+### <a name="licensespermissions"></a>Konfigurera behörigheter baserat på licenser
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -88,13 +82,16 @@ Om denna standardkonfiguration inte är rätt inställning för en viss miljö k
 > [!IMPORTANT]
 > Denna anpassning av behörigheter gäller bara för nya användare som du tilldelar den aktuella licensen. Befintliga användare uppdateras inte. Vi rekommenderar att du anpassar behörigheterna innan du börjar tilldela användarlicenser i Microsoft 365 administrationscentret.
 
-### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Så här lägger du till användare eller uppdaterar användarinformation och licenstilldelningar i Business Central
+### <a name="adduser"></a>Så här lägger du till användare eller uppdaterar användarinformation och licenstilldelningar i Business Central
 
 När du har lagt till användare eller ändrat användarinformation i administrationscentret för Microsoft 365 kan du snabbt importera användarinformationen till [!INCLUDE[prod_short](includes/prod_short.md)]. Importen inkluderar även licenstilldelning.  
 
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med ett administratörskonto.
 2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.  
 3. Välj **Uppdatera användare från Microsoft 365**.
+
+> [!NOTE]
+> Åtgärden **Uppdatera användare från Microsoft 365** uppdaterar inte användare som inte har tilldelats en licens, till exempel någon som är global administratör och Dynamics 365 administratör. Dessa användare kommer att uppdateras nästa gång de loggar in på miljön.
 
 Nästa steg för nyligen skapade användare är att tilldela användargrupper och behörigheter. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md) Om du uppdaterar en användare och uppdateringen innehåller en licensförändring, kommer användarna att tilldelas rätt användargrupp och deras behörighetsuppsättningar uppdateras. Mer information finns i [Hantera behörigheter via användargrupper](ui-define-granular-permissions.md).  
 
@@ -106,7 +103,7 @@ Mer information om hur du synkroniserar användarinformation med Microsoft 365 f
 > [!NOTE]
 > Om du använder en extern revisor för att hantera böcker och redovisning kan du bjuda in dem till din Business Central så att de kan arbeta med dig med räkenskapsårets informationen. Mer information finns i [Bjud in din externa revisor till din Business Central](finance-accounting.md#inviteaccountant).
 
-### <a name="to-remove-a-users-access-to-the-system"></a>Så här tar du bort en användares åtkomst till systemet
+### Så här tar du bort en användares åtkomst till systemet
 
 Du kan ta bort en användares åtkomst till [!INCLUDE[prod_short](includes/prod_short.md)] online. Alla referenser till användaren behålls. Användaren kan emellertid inte logga in och aktiva sessioner för användaren stoppas.
 
@@ -116,7 +113,7 @@ Du kan ta bort en användares åtkomst till [!INCLUDE[prod_short](includes/prod_
 
 Du kan också ta bort licensen från en användare i administrationscentret för Microsoft 365. Användaren kan sedan inte logga in. Mer information finns i [Ta bort licenser från användare](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synkronisering med Microsoft 365
+### <a name="m365"></a>Synkronisering med Microsoft 365
 
 När du tilldelar en licens för [!INCLUDE[prod_short](includes/prod_short.md)] till en användare i Microsoft 365 finns det två sätt att skapa användaren på i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -141,13 +138,13 @@ Lär dig mer om hur du skyddar åtkomsten till miljöer med hjälp av säkerhets
 
 Få en översikt över hur du får tillgång till Business Central i Teams med Microsoft 365 licenser på [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Hantera användare och licenser i lokala distributioner
+## Hantera användare och licenser i lokala distributioner
 
 Vid lokala distributioner anges antalet licensierade användare i licensfilen (.bclicense or .flf). När en administratör eller Microsoft-partner överför licensfilen kan de ange vilka användare som kan logga in på [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Vid lokala distributioner kan administratören skapa, redigera och ta bort användare direkt från sidan **Användare**.
 
-### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Redigera eller ta bort en användare i en lokal distribution
+### Redigera eller ta bort en användare i en lokal distribution
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 2. Markera användaren som du vill redigera och välj åtgärden **Redigera**.
@@ -159,7 +156,7 @@ Vid lokala distributioner kan administratören skapa, redigera och ta bort anvä
 >
 > Mer information finns under [Autentisering och autentiseringstyper](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i administrationshjälpen för [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  

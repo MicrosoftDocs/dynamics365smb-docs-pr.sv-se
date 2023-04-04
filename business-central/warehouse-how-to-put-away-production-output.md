@@ -41,6 +41,8 @@ Det första steget när du inför utflöde är att skapa det inkommande distribu
 4. Fyll i artikelinförselraderna efter behov.
 5. När raderna är färdiga att bokföras klickar du på **Bokför**. Bokföringen skapar distributionslagertransaktionerna och bokför utflödet av artiklarna.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 Du kan också skapa en **Lagerinförsel** direkt från den släppta produktionsordern. Läs mer på [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 När du bokför en lagerinförsel antas det att alla åtgärder bokförs enligt standardverksamhetsföljden. Det vill säga att uflödesantalet bokförs enligt den senaste åtgärden. Du kan använda utflödesjournalen om du vill bokföra avvikelser i utflödesantalet, konfigurationen och bearbetningstiderna. Om du måste bokföra delvis efter att du har skapat lagerinförseln, kan du göra det för omställningstiderna och antalet för alla åtgärder utom den sista. Den sista åtgärden av lagerinförseln.  

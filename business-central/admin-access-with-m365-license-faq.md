@@ -11,6 +11,8 @@ ms.custom: bap-template
 ---
 # Vanliga frågor rom åtkomst med Microsoft 365-licenser
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Användare kan komma åt Business Central -data i Microsoft Teams med deras Microsoft 365 licens. I denna artikel besvaras vanliga frågor från administratörer, konsulter och andra. Utvecklare bör läsa vanliga frågor och svar om utvecklare. Gå till vanliga frågor och svar Business Central med Microsoft Teams, gå till [vanliga frågor och svar om Teams](teams-faq.md).
 
 ## [Behörigheter](#tab/permissions) 

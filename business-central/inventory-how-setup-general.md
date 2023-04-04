@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: 0cf56049c5c7d5b31cb75185bb26f9619317d9e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522020"
 ---
-# <a name="set-up-general-inventory-information"></a>Ställa in allmän lagerinformation
+# Ställa in allmän lagerinformation
 
 Du ställer in dina allmänna lagerinställningar på sidan **Lagerinställningar**.
 
-## <a name="to-set-up-general-inventory-information"></a>Så här ställer du in allmän lagerinformation
+## Så här ställer du in allmän lagerinformation
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
 2. På sidan **Lagerinställningar** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +31,7 @@ Om du vill ange en inkommande lagerhanteringstid som ska tas med i orderlöftesb
 >
 > Du kan också justera kostnader manuellt med jämna mellanrum med batch-jobbet Justera kost.-artikeltrans. Du kan också inaktivera automatisk kostnadsbokföring eller ange fältet **Automatisk kostnadsjustering** som *Aldrig*. I båda fallen visas ett meddelande där du kan starta en assisterad konfigurationsguide som hjälper dig att schemalägga aktiviteter för jobbkön. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Lagerinställning](inventory-setup-inventory.md)  
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  

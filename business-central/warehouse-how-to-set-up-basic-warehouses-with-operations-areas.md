@@ -33,7 +33,7 @@ Lagerställeskoder som definierats på lagerställekort anger ett standardlagerf
 Procedurerna baseras på att ställa in grundläggande av lageraktiviteter kring en produktionsområde. Momentet är liknande för andra verksamhetsområden, t.ex montering, tjänstehantering och projekt.  
 
 > [!NOTE]  
->  I följande procedur här fältet **Lagerplats ska finnas** på lagerställekort markeras som ett villkor, eftersom det betraktas som grund för en nivå i Warehouse Managementen.  
+>  I följande procedur här fältet **Lagerplats ska finnas** på lagerställekort markeras som ett villkor, eftersom det betraktas som grund för en nivå i lagerstyrningen.  
 
 ## Om du vill aktivera lagerdokument för intern operation aktiviteter
 

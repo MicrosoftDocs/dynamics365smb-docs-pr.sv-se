@@ -1,107 +1,187 @@
 ---
-title: Plocka för produktion, montering eller jobb i grundläggande distributionslager
-description: När distributionslagrets lagerställe kräver att du behandlar plock, men inte utleveranser, använder du sidan Lagerplockning för att registrera plockning av komponenter.
+title: 'Plocka eller flytta artiklar för produktion, montering eller projekt i grundläggande distributionslagerkonfigurationer'
+description: 'När distributionslagrets lagerställe kräver att du behandlar plock, men inte utleveranser, använder du sidan Lagerplockning för att registrera plockning av komponenter.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 08/02/2022
 ms.author: bholtorf
-ms.openlocfilehash: 859c70ebc51f2649000d41817d173292ed5b0870
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617883"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.date: 12/16/2022
+ms.custom: bap-template
+ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Plocka för produktion, montering eller jobb i grundläggande distributionslagerkonfigurationer
+# Plocka för produktion, montering eller jobb i grundläggande distributionslagerkonfigurationer
 
-Hur du för in plockningskomponenter för produktions- eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
+Hur du för in plockningskomponenter för produktions, jobb eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Läs mer på [Ställa in lagerstyrning](warehouse-setup-warehouse.md).
 
-## <a name="pick-for-production-in-basic-warehouse-configurations"></a>Plocka komponenter för produktion i en grundläggande lagerkonfiguration.
+I en avancerad lagerkonfiguration för det utgående flödet (plocka), på sidan **Lagerställekort** för lagerstället, slå på växlingsknappen **Begär plockning** men stäng av växlingsknappen **Kräver utleverans**.
 
-Om ett lagerställe kräver plockningsbehandling men inte utleveransbehandling kan du använda sidan **Lagerplockning**. På sidan **Lagerplockning** kan du ordna och registrera plockningen av artiklar som har bokföringsmetoden inställd på **Manuell**. När du registrerar en lagerplockning bokförs förbrukningen av plockade komponenter. Du kan även använda **Lagerrrörelse** med hänvisning till ett källdokument för att tilldela komponenter med bokföringsmetod inställd på **Manuell**, **Plocka + Framåt**, **Plocka + Bakåt** till produktionsorder.
+Använd följande dokumenten för interna åtgärder:
 
-Om produktionen integreras med lagerprocesser, genom lagerplatser eller dirigerad artikelinförsel och plockning, förbrukas komponenterna från lagerplatsen på produktionsorderraden. Alla nödvändiga komponenter måste vara tillgänglig på lagerplatsen. Annars stoppas manuell eller spolad förbrukning som bokförs för den komponenten.
+* Lagerplockning
+* Lagertransport
 
-> [!NOTE]  
-> Lagerplockningar, lagerförflyttningar och distributionslagerplockningar har följande viktiga skillnader:  
->
-> - När du registrerar en lagerplockning för en intern operation, bokförs till exempel produktion, förbrukningen av markerade komponenterna samtidigt. När du registrerar en lagerförflyttning eller en distributionslagerplockning för en intern operation, registrerar du bara en fysisk transport av nödvändiga komponenter till en lagerplats i verksamhetsområdet utan att bokföra förbrukningen.  
-> - Om du använder lagerplockningar definierar fältet **Lagerställeskod** på en produktionsorderkomponentrad lagerstället *ta* från vilken antalet komponenter minskas när konsumtionen bokförs. Om du använder lagerförflyttningar eller distributionslagerplockningar definierar fältet **Lagerställeskod** på en produktionsorderkomponentrad, lagerstället *plats* i verksamhetsområdet från vilken antalet lagerarbetare måste placera komponenter.  
+## Lagerplockningar
 
-För att plocka eller flytta komponenter för källdokument måste en utgående distributionslagerbegäran meddelande distributionslagret om behovet av komponenten. Den utgående distributionslagerbegäran skapas när du gör följande:
+* När du registrerar en lagerplockning för en intern operation, bokförs till exempel produktion eller ett projekt, förbrukningen av markerade komponenterna samtidigt.
+* Växlingsknappen **Lagerplats obligatorisk** på sidan **Lagerställekort** är valfritt.
+* Om du använder lagerplockningar definierar fältet **Lagerställeskod** på en produktionsorderkomponentrad eller projektplaneringsrader lagerstället *ta*. Komponenterna minskas i lagerplatsen när du bokför förbrukningen.
 
-- Ändrar statusen på en produktionsorder till Släppt.
-- Skapar en utsläppt produktionsorder.  
+## Lagerförflyttningar
 
-Bokföringsmetoder påverkar också flödet av komponenter i produktionen. Mer information finns i [Bokför komponenter enligt verksamhetens utflöde](production-how-to-flush-components-according-to-operation-output.md). **Lagerförflyttning** med referenser till källdokumentet och **Distributionslagerplockning** kan inte användas för att plocka komponenter med bokföringsmetoder *framåt* och *bakåt*. **Lagerplockning** kan inte användas för att plocka komponenter med någon annan bokföringsmetod än *Manuell* . Om du vill hantera återstående komponenter använder du **Lagerförflyttning** utan hänvisning till ett källdokument. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande distributionslagerkonfiguration](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+* Lagertransport kräver att du stänger av växlingsknappen **Lagerplats obligatorisk** på sidan **Lagerställekort** för platsen.
+* Lagerförflyttningar fungerar bara med produktionsorderna komponentrader och monteringsorderrader.
+* När du registrerar en lagerförflyttning för en intern operation, registrerar du bara en fysisk transport av komponenter till en lagerplats i verksamhetsområdet. Du bokför inte förbrukning.
+* Om du använder lagerförflyttningar definierar fältet **Lagerställeskod** på en produktionsorderkomponentrad, lagerstället *plats* i verksamhetsområdet. Lagerplatsen plats är där lagerpersonalen måste placera komponenterna.
+* Registrera förbrukningen av plockade komponenter separat genom att bokföra en förbrukningsjournal eller monteringsorder.
 
-I avancerade lagerkonfigurationer där platser kräver både val och leveranser måste du använda sidan **Dist.lager plockning** för att få komponenter med spolningsmetod inställd på *Manuell*, *Plocka + Framåt*, *Plocka + Bakåt* till produktionsorder. Mer information finns i [Plocka för produktion eller montering i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+>[!NOTE]
+> Även om du har inaktiverat växlingsknappen **Kräver plockning** kan du använda ett dokument för **Dist.lager plockning**. Distributionslagerplockningar liknar **lagerplockningar**. Detta är användbart om du vill använda plockning i åtgärder och skicka i utgående lagerflöden.
 
-## <a name="to-pick-components-for-production-and-jobs-in-basic-warehouse-configurations"></a>Plocka komponenter för produktion och jobb i grundläggande lagerkonfigurationer
+### Produktion
 
-I grundläggande distributionslagerkonfigurationer, där det har angetts att lagerstället endast ska använda plockning, kan du välja plockkomponenter för produktionsaktiviteter och projektplaneringsrader på sidan **Lagerplockning**. För mer information, se [Plocka artiklar med lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md).
+Använd dokumentet **Lagerplockning** för att plocka produktionskomponenter i flödet till produktion.
+
+För lagerställen som använder lagerplatser kan du utöka flödet till produktionen genom att använda dokumentet **Lagertransport**. Lagerförflyttningar är särskilt användbara vid bokföring av komponent. För att lära dig mer om hur komponentförbrukningen bokförs från till-produktion eller öppen produktionslagerplats, gå till [Bokföring av produktionskomponenter i en grundläggande konfiguration av distributionslager](#flushing-production-components-in-a-basic-warehouse-configuration).
+
+### Montering  
+
+Använd dokument **lagerförflyttning** för att flytta monteringskomponenter till monteringsområdet.
+
+> [!NOTE]
+> Dokumentet **Lagerförflyttning** kräver lagerplatser.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] stöder montering mot lager och montering mot kundorder typer för monteringsflöden. Om du vill lära dig mer om montering på beställning i det utgående lagerflödet, gå till [Hantering av artikel för montering mot kundorder med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
+
+### Projekthantering  
+
+Använd dokumentet **Lagerplockning** för att plocka projektkomponenter i flödet till projekthantering.
+
+För lagerställen som använder lagerplatser kan du utöka flödet till projekt med dokumentet **Lagertransport**.
 
 > [!NOTE]
 > Möjligheten att plocka komponenter för projektplaneringsrader har lagts till [!INCLUDE[d365fin](includes/d365fin_md.md)] i utgivningscykel 2 år 2022. Om du vill börja använda funktionen måste en administratör aktivera **Funktionsuppdatering: Aktivera lager- och distributionslagerplockning från Projekt** på sidan **Funktionshantering**.
 >
->[!INCLUDE[prod_short](includes/prod_short.md)] använder värdet i fältet **Återstående antal** på projektplaneringsraden när lagerplockningar skapas. Om du vill använda lagerplockningar för projekt måste du aktivera **Tillämpa användningslänk** på sidan **Projektkort** för projektet. På så sätt kan du spåra användningen mot din plan. Om du inte aktiverar detta fortsätter det återstående antalet att vara **0** och lagerplockningen skapas inte. Mer information finns i [Konfigurera projaktanvändningsspårning](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] använder värdet i fältet **Återstående antal** på projektplaneringsraden när lagerplockningar skapas. Om du vill använda lagerplockningar för projekt måste du aktivera **Tillämpa användningslänk** på sidan **Projektkort** för projektet. På så sätt kan du spåra användningen mot din plan. Om du inte aktiverar detta fortsätter det återstående antalet att vara **0** och lagerplockningen skapas inte. Mer information finns i [Konfigurera projaktanvändningsspårning](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerplockning** och väljer sedan relaterad länk.  
-2. Om du vill komma åt produktionsorderns komponenter väljer du åtgärden **Hämta källdokument** och väljer den släppta produktionsordern.  
-3. Plocka komponenten och registrera plockningsinformationen i fältet **Ant. att hantera**.  
-4. När raderna är färdiga att bokföras klickar du på **Bokför**. Bokföringen skapar de nödvändiga distributionslagertransaktionerna och bokför förbrukningen av artiklarna.  
+## Plocka eller flytta för produktion, montering och projekt i en grundläggande lagerkonfiguration
 
-Du kan också skapa en **lagerplockning** direkt från den släppta produktionsordern. Välj **Skapa lagerartikelinförsel/Plocka/Förflyttning**, välj **Skapa lagerplockning** och välj sedan **OK**-knappen.
+Du kan skapa en lagerartikelplockning eller lagerförflyttning på tre sätt:  
 
-Alternativt kan du använda **Lagerförflyttning** med referens till källdokumentet för att flytta artiklar mellan lagerplatser. Du måste registrera förbrukningen separat. Mer information finns i [Batch-bokföra produktionsförbrukning](production-how-to-post-consumption.md)
+* Från själva källdokumentet.  
+* För flera källdokument samtidigt med hjälp av ett batch-jobb.  
+* I två steg. Släpp källdokumentet för att göra källdokumentet klart för plockning. Skapa lagerplockningen eller transporten från dokumenten **lagerplockning** eller **lagerförflyttning**  dokumenten. Lagerplockning eller transport baseras på källdokumentet.  
 
-## <a name="pick-for-assembly-in-basic-warehouse-configurations"></a>Plocka för montering i en grundläggande lagerkonfiguration.
+### Så här skapar du en lagerplockning från källdokumentet
 
-Använd följande sidor för att plocka monteringsorder:
+1. I källdokumentet, som kan vara en produktionsorder eller ett projekt, väljer du åtgärden **Skapa lagerartikelinförsel/plocka**.  
+2. Markera kryssrutan **Skapa lagerplockning**.
+3. Välj **OK**.
 
-- Sidan **Lagerförflyttning**.
-- Om lagerstället kräver plockning men inte leverans, använder du sidan **Lagerplockning** för att plocka, montera och leverera försäljningsorder där artiklar måste vara monterade innan de kan levereras. Mer information finns i [hantera artiklar för montering mot kundorder i lagerplockningar](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks) .  
+### Så här skapar du en lagerförflyttning från källdokumentet
 
-I avancerad distributionslagerkonfiguration, där lagerställen kräver både plockning och utleveranser måste du använda sidan **dist.lager plockning** för att få komponenter till monteringsordern. Mer information finns i [Plocka för produktion eller montering i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+1. I källdokumentet, som kan vara en produktionsorder, monteringsorder eller ett projekt, väljer du åtgärden **Skapa lagerartikelinförsel/plocka**.  
+2. Markera kryssrutan **Skapa lagerförflyttning**.
+3. Välj **OK**.
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Hantering av artikel för montering mot kundorder i lagerplockningar
+### Så här skapar du flera lagerplockningar eller transport med batch-jobbet
 
-Sidan **Lagerplockning** används också för att plocka och leverera för försäljning där artiklar måste vara församlade, innan de kan levereras. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Skapa lagerinförsel/plockning/rörelse** och väljer sedan relaterad länk.  
+2. På snabbfliken **Dist.lagerkrav** använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer. Du kan till exempel skapa plockningar för enbart produktionsorder.
+3. På snabbfliken **Alternativ** aktiverar du växlingsknapparna **Skapa lagerplockning** eller **Skapa lagerförflyttning**.
+4. Välj **OK**.
 
-Artiklar där montering mot kundorder krävs för leverans anses inte finns i en lagerplats förrän de är monterade och bokförda som utflöde på en lagerplats i monteringsområdet. Därför kommer du att plocka dessa artiklar för leverans efter ett visst flöde. Från en lagerplats tar lagerarbetare monteringsartiklarna till ett leveransdocka och bokför sedan lagerplockningen. Bokförda lagerplockningen bokför sedan monteringsutflödet, komponentförbrukningen och utleveransen.
+### Så här skapar du lagerplockningar eller rörelser i två steg
 
-Du kan lägga upp [!INCLUDE[prod_short](includes/prod_short.md)] för att automatiskt skapa en lagertransport, när monteringsartikeln för lagerplockningen skapas. Du skapar förflyttningar automatiskt genom att välja fältet **Skapa transporter automatiskt** på sidan **Monteringsinställningar**. Mer information finns i [Flytta komponenter till ett verksamhetsområde i grundläggande lagerstyrning](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Om du vill plocka eller flytta komponenter för källdokumenten i två steg måste du släppa källdokumentet så att det är klart för plockning. Släppa källdokumenten för intern operation på följande sätt.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] skapar lagerplockningsrader för försäljningsartiklar på olika sätt beroende på om ingen, några eller alla försäljningsradantal monteras mot kundorder.
+|Källdokument|Släppningsmetod|  
+|---------------------|--------------------|  
+|Produktionsorder|På sidan **Planerad produktionsorder** ändrar du statusen för en order till **Släppt** eller använd sidan **Släppt produktionsorder** för att skapa en släppt produktionsorder.|  
+|Monteringsorder|Ändrar statusen på en produktionsorder till **Släppt**.|
+|Projekt | Ändra status för att **öppna** eller skapa projekt med statusen öppen direkt.|  
 
-- I försäljning där du använder lagerplockningar för att bokföra lagerleveranser skapar [!INCLUDE[prod_short](includes/prod_short.md)] en lagerplockningsrad för varje försäljningsorderrad. Om artikeln placeras på olika lagerplatser skapas fler än en rad. Plockningsraderna baseras på antalet i fältet **Ant. att utleverera**.
-- I försäljning där hela antalet på försäljningsorderraden är monterad till order, skapas en lagerplockningsrad för det antalet. Värdet i fältet Antal att montera är lika med värdet i fältet **Antal att leverera**. Fältet **montering mot kundorder** är markerat på raden.
+En lagerpersonal som har tilldelats plockningsartiklar kan skapa ett lagerartikelinförsel dokument för källdokumentet.  
 
-Om ett monteringsutflöde har angetts för lagerstället, infogas värdet i fältet **Lagerpl.kod för mont. mot lev.** eller **Från monteringsplats – kod** i den ordern i fältet **Lagerställeskod** på lagerplockningsraden.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerplockning** och eller **lagerförflyttning** väljer sedan relaterad länk.  
+2. Välj åtgärden **Ny**.  
+3. I fältet **Källdokument** markerar du den typ av källdokument som du artikelinförsel är för.
 
-Om ingen lagerställeskod anges på försäljningsorderraden, och ingen monteringsutflöde har angetts för lagerstället, är **Lagerställeskod** på lagerplockningsraden tomt. Lagerarbetaren måste öppna sidan **Lagerställesinnehåll** och markera den lagerplats där monteringsartiklarna är församlade.
+    > [!NOTE]
+    > Du kan inte använda dokument för **lagerplockning** för att plocka monteringskomponenter.
+4. I fältet **Ursprungsnr** markerar du källdokumentet.  
+5. Välj alternativt åtgärden **Hämta källdokument** för att välja dokumentet från en lista över inkommande källdokument som är klara för plockning på lagerstället.  
+6. Välj **OK** för att fylla plock- eller transportrader enligt det valda källdokumentet.  
 
-När en del av antalet måste monteras först och en annan del måste plockas från lagret skapar [!INCLUDE[prod_short](includes/prod_short.md)] minst två lagerplockningsrader. En plockningsrad är för antal för montering mot kundorder. Den andra plockningsraden beror på vilka lagerställen som kan uppfylla det återstående antalet från lagret. Lagerställeskoder på de två raderna är ifyllt olika sätt, som beskrivs för de två olika försäljningstyperna. Mer information finns i avsnittet Kombinationsscenarion i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
+## När du vill registrera lagerplockning
 
-## <a name="filling-the-consumption-bin"></a>Fylla förbrukningslagerstället
+1.  På sidan **lagerplockning** öppnar du dokumentet för att registrera plockning för.  
+2. I fältet **Lagerställeskod** på plockningsraderna, är lagerplats som artiklarna måste plockas från lagerplatsen där artiklarna finns. Du kan ändra lagerplats vid behov.
+3. Utför plockningen och ange plockningsantalet i fältet **Ant. att hantera**.
 
-Diagrammet visar hur **Lagerställeskod** på produktionsorderkomponentraderna fylls enligt platsinställningen.
+    Om du måste placera artiklar för en rad på flera lagerställen, t.ex. om hela antalet inte finns på lagret använder du åtgärden **Dela rad**, på snabbfliken **Rader**. Åtgärden skapar en rad för återstående antal att hantera.  
+4. Välj åtgärden **Bokföra**.  
 
-![Flödesschema för lagerplats.](media/binflow.png "BinFlow")
+Följande händer under bokföringsförfarandet:
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
+* Bokför förbrukningen av källdokumentraderna som plockades.
+* Om lagerstället använder lagerställen kommer bokföringen även att skapa distributionslagertransaktioner för att bokföra ändringar i antalet lagerställen.
 
-## <a name="see-also"></a>Se även
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-[Lagerstyrning](warehouse-manage-warehouse.md)  
+## När du vill registrera lagerförflyttning
+
+1.  På sidan **lagerförflyttning** öppnar du dokumentet för att registrera transporten för.  
+2. I fältet **lagerplatskod** på plockningsraderna, föreslås lagerplatsen som artiklarna måste plockas från artikelns standardlagerplats och tillgänglighet. Du kan ändra lagerplats vid behov.  
+3. Utför transport och ange flyttat antal i fältet **Ant. att hantera**. Värdet för Ta och Placera raderna måste vara samma. Annars kan du inte registrera transporten.
+
+    Om du måste placera artiklar för en rad på flera lagerställen, t.ex. om hela antalet inte finns på lagret använder du åtgärden **Dela rad**, på snabbfliken **Rader**. Åtgärden skapar en rad för återstående antal att hantera.  
+4. Välj åtgärden **Registrera lagertransport**.  
+
+Följande händer under bokföringsförfarandet:
+
+* Dist.lager transaktioner indikerar nu att komponenterna finns på lagerställen som har angetts på källdokumentets orderrader.. Till exempel monteringsorder, produktionskomponenter eller projektplaneringsrad.
+
+>[!NOTE]
+> Till skillnad från när du vill flytta komponenter med en lagerplockning, förbrukning inte bokförs när du registrerar en lagerförflyttning. Du registrerar förbrukning som ett separat steg genom att bokföra källdokumentet.
+
+## Bokföra komponenter för produktion i en grundläggande lagerkonfiguration
+
+Bokföringsmetoder påverkar flödet av komponenter i produktionen. Läs mer i [Bokföra komponenter utifrån operationens utflöde](production-how-to-flush-components-according-to-operation-output.md). Beroende på vilken bokföringsmetod som valts kan du plocka komponenter för produktion på följande sätt:
+
+* Använd ett dokument för **Lagerplockning** för att registrera plockning för artiklar som använder **manuell** bokföringsmetod. När du registrerar en lagerplockning bokförs förbrukningen av plockade komponenter. 
+* Använd ett dokument för **lagerförflyttning** med en referens till ett källdokument för att registrera plockningar för komponenter som använder **Manuell** bokföringsmetod. Du måste registrera förbrukning separat. Läs mer på [Batch-bokföra produktionsförbrukning](production-how-to-post-consumption.md). 
+* Använd ett dokument för **lagerförflyttning** med en referens till ett källdokument för att registrera plockningar för komponenter som använder **Plocka + framåt** och **Plocka + bakåt** bokföringsmetod. Förbrukningen av komponenterna sker automatiskt antingen när du ändrar produktionsorderns status eller startar eller avslutar en åtgärd. Alla nödvändiga komponenter måste vara tillgängliga. Annars stoppas bokförs förbrukning som stoppas för den komponenten.
+* Använd ett dokument för **lagerförflyttning** utan en hänvisning till ett källdokument eller andra sätt att registrera rörelsen av komponenter som använder bokföringsmetoden **Framåt** eller **Bakåt**. Förbrukningen av komponenterna sker automatiskt antingen när du ändrar produktionsorderns status eller startar eller avslutar en åtgärd. Alla nödvändiga komponenter måste vara tillgängliga. Annars stoppas bokförd förbrukning för den komponenten. Läs mer på [Flytta artiklar internt i grundläggande distributionslagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
+
+### Exempel
+
+Du har en produktionsorder för 15 STYCK av artikeln SP-SCM1004. Några av artiklarna på komponentlistan måste bokföras manuellt i en förbrukningsjournal, och andra artiklar på listan kan plockas och bokföras automatiskt med hjälp av bokföringsmetoden **Plocka + bakåt**.  
+
+Följande steg ger ett exempel på de åtgärder som olika användare gör och det relaterade svaret:  
+
+1. Produktionsledaren släpper produktionsordern. Artiklar med bokföringsmetoden **Framåt** och utan verksamhetsföljdlänk dras av från den öppna produktionslagerplatsen.  
+2. Arbetsledaren väljer åtgärden **Skapa lagerartikelinförsel/Plocka** för produktionsordern och aktiverar växlingsknappen **Skapa lagerplockning** och **Skapa lagerförflyttning**. Ett lagerplockningsdokument skapas för artiklar med bokföringsmetoden **Manuell** och en lagerförflyttning skapas för artiklar med bokföringsmetoden **Plockning + bakåt** och **Plockning + framåt**.
+3. Lagerchefen tilldelar plockningar och transport till lagerarbetare.
+4. Lagerarbetaren plockar artiklarna från lämpliga lagerställen och placerar dem i Till produktion-lagerstället eller lagerstället som anges på lagerförflyttning. Lagerplatsen kan vara för produktionsgrupp eller maskingrupp.  
+5. Lagerarbetaren bokför plockningen. Antalet dras av från lagerplatserna.
+6. Lagerarbetaren bokför transport. Antalet dras av från plocklagerställena och läggs till i förbrukningslagerstället. Fältet **Plockat antal** på komponentlistan för alla plockade artiklar uppdateras.  
+7. Maskinoperatorn informerar produktionschefen att slutartiklarna är klara.  
+8. Produktionsledaren använder utflödesjournalen eller produktionsjournalen för att bokföra utflödet. Antalet komponent artiklar som använder bokföringsmetoden **Plocka + Framåt** eller **Plocka + Bakåt** med operationsföljdslänkar dras från till produktionslagerplatsen.
+9. Produktionschefen ändrar status för produktionsorder till **Avslutad**. Antalet av komponentartiklarna som använder bokföringsmetoden **Bakåt** dras av från öppna produktionslagerplatsen och antalet av komponentartiklarna som använder bokföringsmetoden **Plocka + bakåt** och ingen operationsföljdslänk dras av från till produktion-lagerplatsen.  
+
+ Följande illustration visas när fältet **Lagerställeskod** på komponentlistan fylls enligt inställningen för lagerstället eller maskin-/produktionsgruppen.  
+
+:::image type="content" source="media/binflow.png" alt-text="Översikt över när och hur fältet Lagerplatskod fylls i.":::
+
+## Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
+
+## Se även
+
 [Lager](inventory-manage-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
 [Monteringshantering](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
+[Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

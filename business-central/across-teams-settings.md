@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133232"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Ändra företag och andra inställningar i Teams
+
+# Ändra företag och andra inställningar i Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -32,7 +27,7 @@ Det finns två sätt att öppna sidan **inställningar**: 1) från meddelanderut
 
    ![Inställningar för meddelanderutan Business Central.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  

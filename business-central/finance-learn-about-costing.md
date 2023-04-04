@@ -1,22 +1,16 @@
 ---
 title: Om Lagerkostnad
-description: Att hantera lagerkostnader är allt om registrering och rapportering av rörelsens driftskostnader, inklusive rapportering av produktionskostnader och lagerkostnader.
+description: 'Att hantera lagerkostnader är allt om registrering och rapportering av rörelsens driftskostnader, inklusive rapportering av produktionskostnader och lagerkostnader.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 521cf2700c16bab71d13ea1282fbf4b09164b004
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513971"
 ---
-# <a name="about-inventory-costing"></a>Om Lagerkostnad
+# Om Lagerkostnad
 Hantering av Lagerkostnad används vid registrering och rapportering av rörelsens driftskostnader. Den omfattar rapportering av tillverkningskostnader och lagerkostnader, det vill säga varornas värdet.  
 
  Inom kostnadskalkylering måste du vara medveten om att värderingsprinciper anger hur varor värderas när de lämnar lagret, att kostnadsjusteringen uppdaterar kostnaderna för sålda varor med relaterad inköpskostnad som bokförs efter försäljningen och att lagervärdena måste bokföras på särskilda redovisningskonton med jämna mellanrum.  
@@ -37,7 +31,7 @@ Hantering av Lagerkostnad används vid registrering och rapportering av rörelse
 |läsa om hur ett företag kan använda lagerperioder för att kontrollera lagervärdet över tid genom att definiera kortare perioder som kan stängas för bokföring under räkenskapsårets gång.|[Arbeta med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Förstå alla funktioner i kostnadsmotorn, inklusive vad som händer när du bokför transaktioner för montering och produktionsorder.|[Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)    
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

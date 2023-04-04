@@ -12,6 +12,8 @@ ms.search.form: 9171
 ---
 # Hantera användarprofiler
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Tilldela alla användare profiler som återspeglar:
 
 * Deras affärsroll

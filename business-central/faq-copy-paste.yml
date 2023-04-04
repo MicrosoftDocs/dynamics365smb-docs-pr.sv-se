@@ -1,70 +1,70 @@
 ### YamlMime:FAQ
 metadata:
-  title: Copy and paste data FAQ
-  description: Get answers to frequently asked questions about copying and pasting data from fields and rows from Business Central pages.
+  title: Vanliga frågor och svar och att kopiera och klistra in data
+  description: Få svar på vanliga frågor om att kopiera och klistra in data från fält och rader från Business Central-sidor.
   ms.topic: faq
-title: Copy and Paste FAQ
+title: Vanliga frågor om Kopiera och klistra in
 summary: |
-  You can copy one or more rows (records) from a list or a single field on a page, and then paste what you copied into the same page, another page, or an external document (like Microsoft Excel and Outlook email).  
+  Du kan kopiera en eller flera rader (poster) i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post).  
 
-  In short, to copy, you select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>C<ept id="p2">&lt;/kbd&gt;</ept> (cmd+C in macOS) on your keyboard. To paste, you select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept> (<bpt id="p3">&lt;kbd&gt;</bpt>Cmd<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>V<ept id="p4">&lt;/kbd&gt;</ept> in macOS). There are several other keyboard shortcuts for copying and pasting that help you save time when entering data. For more information about these, see <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#CopyRows)</ept>. This article answers common questions you might have about copying and pasting.  
+  Kortfattat, för att kopiera väljer du <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C i macOS) på tangentbordet. Klistra in genom att välja <kbd>Ctrl</kbd>+<kbd>V</kbd> (<kbd>Cmd</kbd>+<kbd>V</kbd> i macOS). Det finns flera andra kortkommandon för kopiera och klistra in som hjälper dig att spara tid när du anger data. Mer information om detta finns i [Kortkommandon](keyboard-shortcuts.md#CopyRows). Den här artikeln besvarar vanliga frågor som du kanske har om att kopiera och klistra in.  
 sections:
-  - name: General
+  - name: Allmänt
     questions:
-      - question: What can I copy and paste?
+      - question: Vad kan jag kopiera och klistra in?
         answer: |
-          You can copy and paste this type of data:
-          - Copy one or more rows in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> to the same list, or to any list with identical columns.
-          - Copy one or more rows in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> and paste into Excel or other applications.
-          - Copy one or more rows in Excel and paste into a <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> list.
-          - Copy the value of an individual field in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> and paste it anywhere.
-      - question: Does copy and paste work with tiles?
+          Du kan kopiera och klistra in den här typen av data:
+          - Kopiera en eller flera rader i [!INCLUDE[prod_short](includes/prod_short.md)] samma lista eller en lista med samma kolumner.
+          - Kopiera en eller flera rader i [!INCLUDE[prod_short](includes/prod_short.md)] och klistra in i Excel eller andra program.
+          - Kopiera en eller flera rader i Excel och klistra in i en [!INCLUDE[prod_short](includes/prod_short.md)]-lista.
+          - Kopiera värdet för ett enskilt fält i [!INCLUDE[prod_short](includes/prod_short.md)] och klistra in det var som helst.
+      - question: Fungerar kopiera och klistra in med paneler?
         answer: |
-          Yes, but only for a single selected tile.
-      - question: How do I copy a row?
+          Ja, men endast för en enstaka markerad panel.
+      - question: Hur kopierar en rad?
         answer: |
-          To copy a single row, select it, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>C<ept id="p2">&lt;/kbd&gt;</ept>.
+          Om du vill kopiera en rad, markerar du den och väljer <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
-          If you want to copy more rows, you can:
-          - select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept>+Click on another row or select <bpt id="p2">&lt;kbd&gt;</bpt>Shift<ept id="p2">&lt;/kbd&gt;</ept>+Click to select the row and all rows in between. See <bpt id="p1">[</bpt>Keyboard Shortcuts<ept id="p1">](keyboard-shortcuts.md#CopyRows)</ept> for more mouse and keyboard combinations for selecting rows.
-          - Select <bpt id="p1">![</bpt>Show more options<ept id="p1">](media/show-more-options-icon.png "|::ref1::|")</ept> in the first column, choose <bpt id="p2">**</bpt>Select More<ept id="p2">**</ept>, select the check box next to each row that you want to copy, and then select <bpt id="p3">&lt;kbd&gt;</bpt>Ctrl<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>C<ept id="p4">&lt;/kbd&gt;</ept>.
-      - question: How do I paste rows?
+          Om du vill kopiera fler rader kan du:
+          - välj <kbd>Ctrl</kbd>+ klicka på en annan rad eller välj <kbd>Shift</kbd>+ klicka för att markera raden och alla rader mellan. Se [kortkommandon](keyboard-shortcuts.md#CopyRows) för flera kombinationer av mus och tangentbord för att markera rader.
+          - Välj ![Visa fler alternativ](media/show-more-options-icon.png "Ikonen Visa fler alternativ") i den första kolumnen, markera **Välj fler**, markera kryssrutan bredvid varje rad som du vill kopiera och tryck på <kbd>Ctrl</kbd>+<kbd>C</kbd>.
+      - question: Hur klistrar man in rader?
         answer: |
-          Select an empty row, with focus in any cell, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept>.
+          Markera en tom rad, som är i fokus på en cell, och välj sedan på <kbd>Ctrl</kbd>+<kbd>V</kbd>.
 
-          If you want to replace existing rows, select the rows, and then select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>V<ept id="p2">&lt;/kbd&gt;</ept>. In this case, you can only paste the same number of rows that you selected.
+          Om du vill ersätta befintliga rader markerar du raderna och välj <kbd>Ctrl</kbd>+<kbd>V</kbd>. I det här fallet kan du bara klistra in samma antal rader som du har valt.
 
           > [!NOTE]
-          > The list that you are pasting into must be editable.
+          > Listan som du klistrar in i måste vara redigerbar.
 
           <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
-      - question: Can I paste rows into an Outlook email?
+      - question: Kan jag klistra in rader i ett e-postmeddelande i Outlook?
         answer: |
-          Yes. This is pasted as a nicely-formatted table that preserves indentation, numeric alignment and coloring, just as you would see in <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
-      - question: In which lists can I copy and paste rows?
+          Ja. Detta klistras in som en snyggt formaterad tabell som bevarar indrag, numerisk justering och färg, på samma sätt som visas i [!INCLUDE[prod_short](includes/prod_short.md)].
+      - question: I vilken lista kan jag kopiera och klistra in rader?
         answer: |
-          You can copy rows in any kind of list, including worksheets, FactBoxes, or list that are embedded on a page (like lines of a sales order). However, to paste rows, the list must be editable.
+          Du kan kopiera rader i alla typer av lista som innehåller kalkylblad, faktaboxar eller lista som är inbäddad på en sida (till exempel rader på en försäljningsorder). För att klistra in rader måste listan vara redigerbar.
 
-          On some pages, the application design may prevent you from pasting rows. Contact your administrator or application developer to change the <bpt id="p1">[</bpt>Editable property<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property)</ept> on the page or <bpt id="p2">[</bpt>PasteIsValid property<ept id="p2">](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property)</ept> on the source table.
-      - question: On which clients is copy and paste available?
+          På vissa sidor kan utformningen göra att du inte kan klistra in rader. Kontakta administratören eller programutvecklare för att ändra den [redigerbar egenskap](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) på sidan eller [PasteIsValid egenskap](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) i källtabellen.
+      - question: På vilka klienter finns kopiera och klistra in?
         answer: |
-          Copy and paste are available in the browser or the <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> app for Windows 10.
-      - question: What is the maximum number of rows that can be copied?
+          Kopiera och klistra in är tillgängliga i webbläsaren eller [!INCLUDE[prod_short](includes/prod_short.md)]-appen för Windows-10.
+      - question: Vad är det maximala antalet rader som kan kopieras?
         answer: |
-          You can copy as many rows as you have scrolled into view. For example, to copy all 1000 rows on a page, you must first scroll to the bottom of the page and wait for the rows to appear before copying. The maximum number of rows you can copy is only limited by the memory of your device.
-      - question: Must I have the exact same number of columns when pasting rows?
+          Du kan kopiera så många rader som du har rullat in i vyn. Om du till exempel vill kopiera alla 1000 rader på en sida, måste du först bläddra längst ned på sidan och vänta tills raderna visas innan du kopierar. Det maximala antalet rader som du kan kopiera begränsas endast av enhetens minne.
+      - question: Måste jag ha exakt samma antal kolumner när jag klistrar in rader?
         answer: |
-          Yes. Whether you are copying from <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, from Excel, or from some other table source, the rows that you paste into <ph id="ph2">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> must have the exact matching columns - no more no less.
-      - question: Why do I get errors when pasting rows?
+          Ja. Om du kopierar från [!INCLUDE[prod_short](includes/prod_short.md)], från Excel eller från någon annan tabellkälla måste raderna du vill klista in i [!INCLUDE[prod_short](includes/prod_short.md)] ha exakt matchande kolumner – inte fler och inte färre.
+      - question: Varför visas fel när du klistrar in rader?
         answer: |
-          When pasting into <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>, each row is checked to make sure that values in each column are valid. If a column contains a value that is not valid, the pasting is stopped, and an error message is displayed. To avoid this, make sure that the columns have valid values before you paste them.
-      - question: Can I also copy links to pages and records?
+          När du klistrar in i [!INCLUDE[prod_short](includes/prod_short.md)], kontrolleras varje rad för att se till att värdena i varje kolumn är giltiga. Om en kolumn innehåller ett värde som inte är giltigt stoppas klistra in och ett felmeddelande visas. Du undviker detta genom att se till att kolumnerna har värdet innan du klistrar in dem.
+      - question: Kan jag även kopiera länkar till sidor och poster?
         answer: |
-          Yes. For more information, see <bpt id="p1">[</bpt>Sharing Business Data from Business Central<ept id="p1">](across-share-data-features.md)</ept>.
+          Ja. Mer information finns i [Dela affärsdata från Business Central](across-share-data-features.md).
 additionalContent: |
-  ## Next steps
-  Find related information here: 
-    - <bpt id="p1">[</bpt>Assistive Features<ept id="p1">](ui-accessibility.md)</ept>  
-    - <bpt id="p1">[</bpt>Getting Ready for Doing Business<ept id="p1">](ui-get-ready-business.md)</ept>  
-    - <bpt id="p1">[</bpt>Work with <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph><ept id="p1">](ui-work-product.md)</ept>  
-    - <bpt id="p1">[</bpt>Frequently Asked Questions<ept id="p1">](across-faq.yml)</ept>
+  ## Gå vidare
+  Hitta relaterad information här: 
+    - [Hjälpmedelsfunktioner](ui-accessibility.md)  
+    - [Gör dig redo att göra affärer](ui-get-ready-business.md)  
+    - [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+    - [Vanliga frågor och svar](across-faq.yml)

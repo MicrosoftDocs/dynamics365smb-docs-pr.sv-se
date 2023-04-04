@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516453"
 ---
-# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams
+
+# Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -25,7 +20,7 @@ I den här artikeln lär du dig hur du installerar [!INCLUDE [prod_short](includ
 > [!NOTE]
 > Administratören kan ha angett att appen automatiskt ska installeras. Du kan kontrollera om appen är installerad genom att öppna team och sedan välja **appar**. Sök efter **Business Central** och välj sedan det när du hittar det. Om du ser **Öppna** på sidan **Business Central** är programmet redan installerat.  
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar
 
 - Ett [!INCLUDE [prod_short](includes/prod_short.md)] online användarkonto krävs för [!INCLUDE [prod_short](includes/prod_short.md)]-app för Teams.
 
@@ -35,7 +30,7 @@ I den här artikeln lär du dig hur du installerar [!INCLUDE [prod_short](includ
 
 - Organisationens policyer måste tillåta att du installerar appar i Microsoft Teams.
 
-## <a name="add-the-business-central-app-to-teams"></a>Lägg till Business Central-appen i Team
+## Lägg till Business Central-appen i Team
 
 Det finns tre sätt att installera Business Central-appen:
 
@@ -72,11 +67,11 @@ Det här alternativet är det snabbaste sättet att installera appen.
 > [!NOTE]
 > Oavsett alternativ kan du komma att uppmanas att logga in på [!INCLUDE [prod_short](includes/prod_short.md)]. Markera länken **logga in** och följ instruktionerna för att ange inloggningsnamn och lösenord för [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="next-step"></a>Nästa steg
+## Nästa steg
 
 Du är nu redo att använda appen i Team för att söka efter kontakter eller dela Business Central-poster. Mer information finns i [Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams](across-search-contacts-teams.md) eller [Dela poster i Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Vanliga frågor och Svar om Teams](teams-faq.md)  

@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
+ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d2d7e2f3f71cd0791df27eb378bfa4bf66338afa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532329"
 ---
-# <a name="setting-up-warehouse-management"></a>Ställa in lagerstyrning
+# Ställa in lagerstyrning
 
 Ett företags distributionsstrategi återspeglas i konfigurationen av dess lagerprocesser. Detta omfattar att definiera hur olika artiklar hanteras på olika lagerställen, till exempel graden av styrning av lagerplats och omfattningen av arbetsflödet som krävs mellan lageraktiviteterna.  
 
@@ -24,7 +18,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 |**Om du vill**|**Gå till**|  
 |------------|-------------|  
-|Få en översikt över möjligheterna med grundläggande och avancerade distributionslagerfunktioner.|[Designdetaljer: Översikt över distributionslager](design-details-warehouse-overview.md)|  
+|Få en översikt över möjligheterna med grundläggande och avancerade distributionslagerfunktioner.|[Hantering av distributionslager – översikt](design-details-warehouse-management.md)|  
 |Ställa in åtta olika typer av lagerplatstyper, till exempel Plockningslagerplats, för att definiera vilka flödesaktiviteter som gäller för respektive typ av lagerplats.|[Skapa lagerplatstyper](warehouse-how-to-set-up-bin-types.md)|  
 |Skapa lagerställen, antingen manuellt eller automatiskt med information, till exempel namn, nummerserie och kategori, enligt en lagerplatsmall.|[Skapa lagerställen](warehouse-how-to-create-individual-bins.md)|  
 |Definiera vilka artiklar som du vill lagra på en viss lagerplats och ställa in reglerna som bestämmer när lagerstället ska fyllas med en särskild artikel.|[Skapa lagerställesinnehåll](warehouse-how-to-set-up-bin-contents.md)|  
@@ -39,17 +33,14 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Aktivera lagerarbetarna att dela upp en större enhet i mindre enheter för att uppfylla behoven hos källdokument.|[Aktivera automatisk volymnedbrytning med dirigerad artikelinförsel och plockning](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Ställa in lagret så att det alltid föreslår automatiskt att de artiklar som utgår först plockas först.|[Aktivera plockning med FEFO](warehouse-picking-by-fefo.md)|
 |Få tips på hur du ordnar om lagerställen, lagerställen eller zoner för att få mer effektiva lageraktiviteter.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|
-|Integrera streckkodsläsare i lösningen för hantering av lager. Endast för installation på plats.|[Använda ADCS (Automatiskt datainsamlingssystems)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-warehouse-management/)
+## Se relaterad [Microsoft utbildning](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
-[Lagerstyrning](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Monteringshantering](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyrning](design-details-warehouse-management.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

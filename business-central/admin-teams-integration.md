@@ -6,25 +6,20 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 11/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 0290a9224691bbcab8e3a7dbef185e1507a3b75a
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744795"
 ---
-# <a name="managing-microsoft-teams-integration-with-prod_short"></a>Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
+
+# Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Den här artikeln innehåller en översikt över vad du kan göra som administratör för att styra Microsoft Teams-integrationen med [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a>I Microsoft Teams
+## I Microsoft Teams
 
-### <a name="minimum-requirements"></a>Minsta krav
+### Minsta krav
 
 I det här avsnittet beskrivs minimikraven för att [!INCLUDE [prod_short](includes/prod_short.md)]-appen ska fungera i Team.
 
@@ -47,7 +42,7 @@ I det här avsnittet beskrivs minimikraven för att [!INCLUDE [prod_short](inclu
 
     Principinställningen **Tillåt förhandsgranskning av URL** måste vara på. I annat fall kan ett kort inte genereras för [!INCLUDE [prod_short](includes/prod_short.md)]-länkar som klistrats in i en Teams-konversation. Mer information om den här inställningen finns i [Hantera meddelandeprinciper i Team](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-prod_short-app-optional"></a>Hantera [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valfritt)
+### Hantera [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valfritt)
 
 Som Team-administratör kan du hantera alla appar för organisationen, inklusive [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Du kan godkänna eller installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för organisationen, hindra användare från att installera appen med mera.
 
@@ -56,9 +51,9 @@ Mer information finns i följande artiklar i Microsoft Teams-dokumentationen:
 - [Hantera dina appar i Microsoft Teams administratörscenter](/MicrosoftTeams/manage-apps)
 - [Hantera principer för appkonfiguration i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-prod_short"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
+## I [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements"></a>Minsta krav
+### Minsta krav
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-version:
 
@@ -80,7 +75,7 @@ Mer information finns i följande artiklar i Microsoft Teams-dokumentationen:
     
     Mer information om behörigheter finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installera Business Central-appen med hjälp av centraliserad distribution
+## Installera Business Central-appen med hjälp av centraliserad distribution
 
 Microsoft Teams administratörscentret konfigurerar Teams principer för programinställningar för organisationen. I administrations centret för team kan du använda funktionen centraliserad distribution för att automatiskt installera Business Central-appen i Teams för alla användare i organisationen, specifika grupper eller enskilda användare.
 
@@ -92,7 +87,7 @@ Microsoft Teams administratörscentret konfigurerar Teams principer för program
 3. Öppna [administrationscentret Teams](https://go.microsoft.com/fwlink/?linkid=2163970) och utför följande steg.
     1. Gå till **Teams-appar** > **inställningsprinciper**.
     2. Skapa en ny princip eller välj den princip som du vill använda för att installera Business Central-appen och välj sedan **Lägg till program**.
-    3. På sidan **Lägg till installera** de appar söker du efter och väljer **Business Central**.
+    3. På sidan **Lägg till installera**de appar söker du efter och väljer **Business Central**.
     4. Välj **Lägg till**.
 
        Business Central ska nu visas under **installerade appar** för principen.
@@ -104,18 +99,18 @@ Microsoft Teams administratörscentret konfigurerar Teams principer för program
 > [!IMPORTANT]
 > Det kan ta upp till 24 timmar innan appinställningsprincipen tillämpas och appen distribueras till användarna.
 
-## <a name="managing-privacy-and-compliance"></a>Hantera sekretess och kompatibilitet 
+## Hantera sekretess och kompatibilitet 
 
 Microsoft Teams innehåller omfattande kontroller för kompatibilitet och hantering av känsliga eller personligt identifierbara data  &mdash; inklusive data som lagts till i chattar och kanaler av [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Förstå var [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagras
+### Förstå var [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagras
 
 När ett kort har skickats till en chatt kopieras kortet och de fält som visas på kortet till Teams. Denna information är underkastad Teams policyer för organisationen, till exempel policyer för bevarande av data. När kortinformation visas lagras ingen information i informationsfönstret i Teams. Informationen förblir lagrad i [!INCLUDE [prod_short](includes/prod_short.md)] och kommer bara att hämtas av Teams när användaren väljer att visa informationen. 
 
 - Om du vill veta mer om var Teams lagrar data, se [Var informationen finns i Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Mer information om bevarandepolicyer i Teams finns i [Bevarandepolicyer i Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a>Begränsa delning av kort 
+### Begränsa delning av kort 
 
 Du hindrar vissa användare eller grupper från att skicka kort till chattar eller kanaler genom att konfigurera meddelandepolicyer som inaktiverar inställningen **URL-förhandsgranskning**. Mer information om den här inställningen finns i [Hantera meddelandeprinciper i Team](/microsoftteams/messaging-policies-in-teams). 
 
@@ -123,7 +118,7 @@ Du kan också använda informationshinder för att förhindra att användare ell
 
 Funktionerna för dataförlustskydd i säkerhets- och efterlevnadscentret för Microsoft 365 kan inte användas specifikt för kort. De kan emellertid tillämpas på de chattmeddelanden som innehåller korten. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a>Svara på dataförfrågningar
+### Svara på dataförfrågningar
 
 Du tillåter gruppmedlemmar och gruppägare att ta bort meddelanden som innehåller känsliga kort genom att ställa in meddelandepolicye, t. ex. **Ägare kan ta bort skickade meddelanden** och **Användare kan ta bort skickade meddelanden**. Mer information finns i [Hantera meddelandepolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -131,7 +126,7 @@ Funktionerna för innehållssökning och eDiscovery-efterlevnad i säkerhets- oc
 
 Eftersom kortdata i Teams är en kopia av data i [!INCLUDE [prod_short](includes/prod_short.md)] kan du också använda [!INCLUDE [prod_short](includes/prod_short.md)]-funktioner för att exportera en kunds data vid behov. Mer information om sekretess i [!INCLUDE [prod_short](includes/prod_short.md)] finns i avsnittet [Vanliga frågor och svar om sekretess för Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="see-also"></a>Se även
+## Se även
 [Integreringsöversikt för [!INCLUDE [prod_short](includes/prod_short.md)] och Microsoft Teams](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  
 [Vanliga frågor och Svar om Teams](teams-faq.md)  

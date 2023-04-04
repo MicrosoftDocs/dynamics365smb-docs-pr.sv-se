@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Business Central Add-in for Outlook FAQ
-  description: See answers to frequently asked questions about using Business Central add-in for Outlook.
+  title: Vanliga frågor och svar om Business Central-tillägget för Outlook
+  description: Se svar på vanliga frågor om att använda Business Central-tillägget för Outlook.
   author: jswymer
   ms.topic: faq
   ms.devlang: na
@@ -10,30 +10,30 @@ metadata:
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
-title: Business Central Add-in for Outlook FAQ
+title: Vanliga frågor och svar om Business Central-tillägget för Outlook
 summary: |
-  This article answers questions that users often ask about the Business Central add-in for Outlook.   
+  I denna artikel besvaras frågor som användare ofta ställer om Business Central-tillägget för Outlook.   
 sections:
-  - name: Ignored
+  - name: Ignorerat
     questions:
       - question: |
-          How do I change the environment my add-in is pointing to?  
+          Hur ändrar jag miljön som mitt tillägg pekar på?  
         answer: |
-          The environment URL is configured in the add-in when the add-in is installed (specifically, in the add-in's manifest file). If you want the add-in to point to a different environment, open the desired Business Central environment and deploy the add-in again, for example, by running the <bpt id="p1">**</bpt>Get the Outlook Add-in<ept id="p1">**</ept> assisted setup. This action  will redeploy the add-in with updated environment URLs. 
+          Miljöns URL konfigureras i tillägget när tillägget är installerat (särskilt i tilläggets manifestfil). Om du vill att tillägget ska peka till en annan miljö öppnar du önskad Business Central-miljö och distribuerar tillägget igen, till exempel genom att köra guiden för assisterad konfiguration **Hämta Outlook-tillägget**. Med den här åtgärden omdistribueras tillägget med uppdaterade miljö-URL:er. 
 
           > [!NOTE]
-          > It might take some time before the change takes effect.
+          > Det kan ta lite tid innan ändringen träder i kraft.
       - question: |
-          Can I customize the add-in to connect to multiple environments?
+          Kan jag anpassa tillägget för att ansluta till flera miljöer?
         answer: |
-          Yes. As an administrator, developer, or partner, you can modify and build your own add-in manifests. One way is to download the Contact Insights manifest from each environment that the users want to connect to. Then, modify the <ph id="ph1">`&lt;Id&gt;`</ph> and <ph id="ph2">`&lt;DisplayName&gt;`</ph> tags to allow multiple versions of the add-in to be installed. These modifications will let the user have multiple Business Central add-ins installed, each pointing to their own environment.
+          Ja. Som administratör, utvecklare eller partner kan du ändra och bygga egna tilläggsmanifest. Ett sätt är att ladda ned manifestet Information om kontakt från varje miljö som användarna vill ansluta till. Ändra sedan taggarna `<Id>` och `<DisplayName>` så att flera versioner av tillägget kan installeras. Dessa ändringar gör att användaren har flera tilläggsprogram för Business Central installerade, vart och ett som pekar på sin egen miljö.
 
-          ![Multiple Business Central add-ins for Outlook.](media/outlook-multiple-addins.png) 
+          ![Flera Business Central-tillägg för Outlook.](media/outlook-multiple-addins.png) 
 additionalContent: |
 
-  ## See also
+  ## Se även
 
-  <bpt id="p1">[</bpt>Get the Business Central Add-in for Outlook<ept id="p1">](admin-outlook.md)</ept>  
-  <bpt id="p1">[</bpt>Use Business Central as your Business Inbox in Outlook<ept id="p1">](work-outlook-addin.md)</ept>  
+  [Hämta Business Central-tillägget för Outlook](admin-outlook.md)  
+  [Använda Business Central som din företagsinkorg i Outlook](work-outlook-addin.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]

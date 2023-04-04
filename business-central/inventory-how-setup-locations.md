@@ -1,23 +1,17 @@
 ---
 title: Skapa ett lagerställekort och definiera överföringsflöden (innehåller video)
-description: Om du köper, lagrar eller säljer artiklar på mer än ett ställe kan du ställa in varje plats som lagerställe.
+description: 'Om du köper, lagrar eller säljer artiklar på mer än ett ställe kan du ställa in varje plats som lagerställe.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, distribution center
-ms.search.forms: 5703, 15
+ms.search.keywords: 'warehouse, distribution center'
+ms.search.forms: '5703, 15'
 ms.date: 07/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 882c7c0506439aba55d5b1c2d0cc23bd79db9d6e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605813"
 ---
-# <a name="set-up-locations"></a>Konfigurera platser
+# Konfigurera platser
 
 Lagerställen är platser som distributionslager där du köper, lagrar eller säljer artiklar. [!INCLUDE [prod_short](includes/prod_short.md)] använder lagerställen för att hålla ordning på lagret i både enklare och mer komplicerade lagerprocesser.
 
@@ -26,7 +20,7 @@ Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition p
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Lagerställekort
+## Lagerställekort
 
 Du anger information om ett lagerställe, till exempel ett distributionslager eller distributionscenter på sidan **Lagerställekort**. Du tilldelar varje lagerställe ett namn och en kod som representerar lagerstället. Du kan sedan ange lagerställekoden i andra delar av programmet när du vill registrera transaktioner för ett visst lagerställe.  
 
@@ -36,7 +30,7 @@ Vissa alternativfält beror på inställningar på sidan **Lagerställekort** f�
 
 Välj åtgärden **Zoner** eller **Lagerplatser** om du vill visa information om zoner och lagerplatser som har definierats för lagerstället.
 
-### <a name="to-set-up-a-location"></a>Så här skapar du lagerställen
+### Så här skapar du lagerställen
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
@@ -50,7 +44,7 @@ Du kan ändra konfigurationen för ett lagerställe så länge den inte har någ
 
 Du kan definiera överföringsflöden mellan lagerställen, om du har flera lagerställen. Mer information finns i [Skapa överföringsflöde](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Så här skapar du ett överföringsflöde
+### Så här skapar du ett överföringsflöde
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **överföringsflöden** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
@@ -58,7 +52,7 @@ Du kan definiera överföringsflöden mellan lagerställen, om du har flera lage
 
 Du kan nu överföra lagerartiklar mellan två lagerställen. Mer information finns i [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md).    
 
-## <a name="bins"></a>Lagerplatser
+## Lagerplatser
 
 Lagerplatser representerar den grundläggande lagerstrukturen och kan föreslå var artiklar ska placeras. Dina lagerplatser kan ha innehåll eller vara flytande lagerplatser utan visst innehåll. 
 
@@ -67,17 +61,17 @@ Om du vill använda lagerplatsfunktionen på ett lagerställe går du till sidan
 > [!NOTE]
 > Innan du kan ange lagerplatskoder på ett lagerställe, måste du skapa lagerplatskoder. Mer information finns i [Skapa lagerställen](warehouse-how-to-create-individual-bins.md) och [Skapa lagerplatstyper](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Zoner
+## Zoner
 
 Om du vill strukturera lagerplatser under zoner kan du göra det på sidan **Zoner**. När du tilldelar en zon till lagerplatser kopierar [!INCLUDE [prod_short](includes/prod_short.md)] informationen från zonen till lagerplatserna. Du kan också välja att ställa in en zon och använda lagerplatser separat för att organisera distributionslagret. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Standarddimensioner för platser
+## Standarddimensioner för platser
 
 Du anger standardmått för en plats på sidan **Platskort** genom att välja **Dimensioner**. Därefter kopplas platsens standarddimensioner till dokument när du väljer lagerställe på en rad. Om det behövs kan du ta bort eller ändra dimensionen på raden. På fältet **värdebokföring** kan du kräva att personer anger dimensioner för platser innan de kan bokföra en transaktion. Om du vill att användarna endast ska kunna välja vissa dimensionsvärden kan du ange värdena i fältet **Tillåtna värdefilter**. Du kan också ta med dimensions värden för lagerställe på sidan **standard dimensionsprioriteringar** och **Dimensionskombinationer** för kombinationer av prioritet och dimensionsregler.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera lager](inventory-manage-inventory.md)  
 [Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)  

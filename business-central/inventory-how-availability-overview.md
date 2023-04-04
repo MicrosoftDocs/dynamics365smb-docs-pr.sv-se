@@ -1,6 +1,6 @@
 ---
 title: Få en dispositionsöversikt
-description: Du kan få information om dispositionen av artiklar eller lager mellan lagerställen per försäljning eller inköphändelser efter en viss tidsperiod, etc.
+description: 'Du kan få information om dispositionen av artiklar eller lager mellan lagerställen per försäljning eller inköphändelser efter en viss tidsperiod, etc.'
 documentationcenter: ''
 author: SorenGP
 ms.topic: overview
@@ -8,17 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
+ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
 ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: b30c38789dcfe3c6fd639fedc1f8f2a7b0d0d47a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605853"
 ---
-# <a name="view-the-availability-of-items"></a>Visa artikeldisposition
+# Visa artikeldisposition
 
 Utifrån en verksamhetsuppgift kan du få avancerad information om när och var en artikel är disponibel, exempelvis när du talar med en kund om ett leveransdatum.
 
@@ -40,7 +34,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)], visas dispositionssiffror i tv
 > [!NOTE]  
 >   I följande procedurer beskrivs hur du visar avancerad tillgänglighetsinformation från artikellistan och artikelkortet. Du kan också visa information för artikeln på raden via försäljningsdokumentraderna. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 
-## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Visa tillgängligheten för en artikel efter in- eller utlevereranstidpunkt
+## Visa tillgängligheten för en artikel efter in- eller utlevereranstidpunkt
 
 Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktioner på sidan **Artikeldisposition per händelse**.
 
@@ -51,7 +45,7 @@ Du kan visa tillgängligheten för en artikel enligt planerade artikeltransaktio
     På sidan **Artikeldisposition per händelse** visas hur lagerkvantiteten utvecklas över tid enligt schemalagda händelser för ut- och inleverans. Sidan har en komprimerad vy som visar en rad med ackumulerad information per tidsintervall då lagerkvantiteterna ändras. Tidsintervall där inga händelser inträffat visas inte. Du kan expandera varje rad för att visa information om händelsen eller händelserna som orsakade det ackumulerade antalet på raden.
 4. Välj värdet i fältet **Lagerutveckling över tid** för att visa artikeltransaktionerna och öppna dokument som utgör värdet.
 
-## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Visa dispositionen för en artikel under olika perioder
+## Visa dispositionen för en artikel under olika perioder
 
 Du visar en artikels disposition över tid för angivna tidsperioder på sidan **Artikeldisp. per perioder**.
 
@@ -62,7 +56,7 @@ Du visar en artikels disposition över tid för angivna tidsperioder på sidan *
     Sidan **Artikeldisp. per perioder** visar hur artikelns lagerkvantitet utvecklas över tid under en period som du själv väljer, till exempel dag, vecka eller kvartal.
 4. Välj värdet i fältet **Lagerutveckling över tid** för att visa artikeltransaktionerna och öppna dokument som utgör värdet.
 
-## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Visa tillgängligheten för en artikel på de lägerställen där den lagras
+## Visa tillgängligheten för en artikel på de lägerställen där den lagras
 
 Du kan visa dispositionen av en artikel på de olika lägerställen där den lagras på sidan **Artikeldisp. per lagerställe**.
 
@@ -74,7 +68,7 @@ Du kan visa dispositionen av en artikel på de olika lägerställen där den lag
 4. Välj värdet i fältet **Lagersaldo** för att visa de artikeltransaktioner som utgör värdet.
 5. Välj värdet i fältet **Lagerutveckling över tid** för att visa artikeltransaktionerna och öppna dokument som utgör värdet.
 
-## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Visa tillgängligheten för alla artiklar per det lagerställe där de lagras
+## Visa tillgängligheten för alla artiklar per det lagerställe där de lagras
 
 Du kan visa disposition för alla artiklar på alla lägerställen på sidan **Artiklar per lagerställe**.
 
@@ -84,7 +78,7 @@ Du kan visa disposition för alla artiklar på alla lägerställen på sidan **A
     Sidan **Artiklar per lagerställe** visar, för alla artiklar, hur många som är tillgängliga på respektive lagerställe.
 3. Välj värdet i fältet **Lagersaldo** för att visa de artikeltransaktioner som utgör värdet.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>För att visa tillgängligheten för en artikel med dess användning i monterings- eller produktionsstrukturer
+## För att visa tillgängligheten för en artikel med dess användning i monterings- eller produktionsstrukturer
 
 Om en artikel är en del av monterings- eller produktionsstrukturer, antingen som en överordnad artikel eller en komponent kan du se hur många enheter av den som krävs på sidan **Artikeldisposition per strukturnivå**. Sidan visar hur många av en överordnad artikel går det att producera baserat på dispositionen av underordnade artiklar på underliggande rader. Ett objekt som har en monterings- eller produktionsstruktur visas på sidan som en komprimerbar rad. Du kan expandera raden för att visa underliggande komponenter och underenheter på låg-nivå med egna strukturer.
 
@@ -97,7 +91,7 @@ På varje rad på sidan för både den överordnade artikeln och underartiklar v
 |**Kan skapa överordnad**|Visar hur många enheter du kan tillverka av monteringsartiklarna till toppartikeln. Fältet anger hur många enheter av omedelbart överordnade artiklar som kan monteras. Värdet baseras på tillgänglighet till artikeln som finns specificerad på raden.|
 |**Kan skapa toppartikel**|Visar hur många enheter du kan tillverka av toppartikeln. Fältet anger hur många enheter av strukturartikeln på den översta raden som kan monteras. Värdet baseras på tillgänglighet till artikeln som finns specificerad på raden.|
 
-### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Så här visar du en artikeldisposition enligt efterfrågan för dess överordnade
+### Så här visar du en artikeldisposition enligt efterfrågan för dess överordnade
 
 Sidan **Artikeldisposition per strukturnivå** visar information för artikeln på kortet eller dokumentraden som sidan har öppnats för. Artikeln visas alltid på den översta raden. Du kan visa information för andra artiklar eller alla artiklar genom att ändra värdet i fältet **Artikelfilter**.
 
@@ -106,14 +100,14 @@ Sidan **Artikeldisposition per strukturnivå** visar information för artikeln p
 
 Fältet **Flaskhals** anger vilken artikel i strukturen som begränsar dig från att kunna producera ett större antal än antalet som visas i fältet **Kan skapa toppartikel**. En flaskhalsartikel kan till exempel vara en inköpt komponent med ett förväntat inleveransdatum som är för sent för att skapa fler enheter av toppartikeln per datumet i fältet **Behövs den**.
 
-## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Så här visar du en artikels disposition efter dess måttenhet
+## Så här visar du en artikels disposition efter dess måttenhet
 
 På sidan **Visa artikelns disposition per enhet** visar tillgängligheten för ett objekt i de måttenheter som det lagras i.
 
 > [!NOTE]  
 > Om du vill hålla informationen korrekt måste du konvertera artikelenheter. Om du t. ex. köper en artikel i en enhet, till exempel rutor, och du säljer artiklar i en annan enhet, t. ex. stycken, måste du använda en artikeljournal för att konvertera enheterna eller "uppackade" artiklar. Du kan använda en negativ journalrad för justeringsartikel för att minska lagret i enheten för inköp, t. ex. rutor och en positiv justering för att öka lagret i enheten för försäljning, till exempel styck. 
 
-## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>Visa en artikels disposition efter dess varianter
+## Visa en artikels disposition efter dess varianter
 
 På sidan **Artikeldisposition efter variant** visas den faktiska och prognostiserade tillgängligheten av en artikel grupperad efter variantkod.
 
@@ -128,7 +122,7 @@ På sidan **Artikeldisposition efter variant** visas den faktiska och prognostis
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="assembly-availability-page"></a>Sidan Monteringsdisposition
+## Sidan Monteringsdisposition
 
 Fönstret **Monteringsdisposition** visar detaljerade dispositionsinformation för monteringsartikeln. Den öppnar:
 
@@ -144,7 +138,7 @@ Snabbfliken **Rader** visar de detaljerade dispositionsinformationen för monter
 
 Om en eller flera monteringskomponenter inte är tillgänglig, visas det i **Möjlig att montera** fältet på den aktuella raden som ett antal mindre än antalet i **återstående antal** på **Detaljer** Snabbfliken.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera lager](inventory-manage-inventory.md)  
 [Monteringshantering](assembly-assemble-items.md)  

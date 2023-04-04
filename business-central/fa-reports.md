@@ -4,25 +4,19 @@ description: Se vilka försäljningsrapporter och analyser som är tillgängliga
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610
+ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605, Report_5606, Report_5607, Report_5608, Report_5610'
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: bd3c8db65e27f1e48906fbbf1bdce380835f9b46
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511093"
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Rapporter för anläggningstillgångar och analys i Business Central
+# Rapporter för anläggningstillgångar och analys i Business Central
 
 För att hjälpa dig att hantera dina anläggningstillgångar i [!INCLUDE [prod_short](includes/prod_short.md)] är standardrapporter och analyser inbyggda. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  

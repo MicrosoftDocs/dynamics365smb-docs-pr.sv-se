@@ -26,7 +26,7 @@ I fältet **Typ** på sidan **artikelkort** kan du ange vilken artikel som anvä
 
 Följande tabell listar de funktioner som de tre objekttyperna stöder.
 
-|Artikeltyp|FÖRS|Inköp|Projektförbrukning|Serviceförbrukning|Monteringsförbrukning|Produktion Förbrukning|Monteringsutflöde|Produktionsutflöde|Platsöverföring|Fysisk räkning|Omvärdering av lager|Lagerkostnad|Artikelspårning|Reservation|Warehouse Management|Planering|Orderplanering|
+|Artikeltyp|FÖRS|Inköp|Projektförbrukning|Serviceförbrukning|Monteringsförbrukning|Produktion Förbrukning|Monteringsutflöde|Produktionsutflöde|Platsöverföring|Fysisk räkning|Omvärdering av lager|Lagerkostnad|Artikelspårning|Reservation|Lagerstyrning|Planering|Orderplanering|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |Lagersaldo|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|Ja|
 |Inte i lager|Ja|Ja|Ja|Ja|Ja|Ja|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Nr|Ja|

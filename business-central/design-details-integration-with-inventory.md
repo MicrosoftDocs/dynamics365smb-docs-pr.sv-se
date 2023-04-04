@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer – Integrering med lager
-description: Warehouse Management och modulen inventeringsjournalen med varandra i inventeringsjournalen och i lager- eller distributionslagerjustering.
+description: Lagerledningsmodulen och modulen inventeringsjournalen med varandra i inventeringsjournalen och i lager- eller distributionslagerjustering.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,7 +11,7 @@ ms.date: 06/15/2021
 ms.author: edupont
 ---
 # Designdetaljer: Integrering med lager
-Warehouse Management och lagermodulen interagerar med varandra i inventeringsjournalen och i lager- eller distributionslagerjustering.  
+Lagerledningsmodulen och lagermodulen interagerar med varandra i inventeringsjournalen och i lager- eller distributionslagerjustering.  
   
 ## Fysiskt lager  
  Sidan **Dist.lager inventeringsjournal** används med sidan **Inventeringsjournal** för alla avancerade distributionslagerplatser. Lagret på lagerplatsnivå beräknas, och en utskriven lista levereras till lagerpersonalen. Listan visar vilka artiklar i vilka lagerplatser som ska inventeras.  

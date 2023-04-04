@@ -1,23 +1,17 @@
 ---
 title: Översikt över uppgifter för hantering av betalningar till leverantörer
-description: Innehåller information om hur du hanterar betalningar till leverantörer och fordringsägare, inklusive bokför betalningsraderna och få en översikt över saldot som förfaller.
+description: 'Innehåller information om hur du hanterar betalningar till leverantörer och fordringsägare, inklusive bokför betalningsraderna och få en översikt över saldot som förfaller.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
+ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd3786fd6795163fb0327a54c501808272621a30
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531465"
 ---
-# <a name="making-payments"></a>Göra betalningar
+# Göra betalningar
 
 När du gör betalningar till leverantörer eller kunder eller återbetalningar till anställda bokför du relaterade betalningsraderna på sidan **Betalningsjournal**. Betalningsjournalen är en redovisningsjournal som är optimerad för betalningar och innehåller flera kraftfulla funktioner, till exempel funktionen **Betalningsförslag för lev.** som söker efter leverantörsbetalningar som har förfallit, och rapporten **Leverantör – Ålderssammandrag** som visar en översikt över förfallna leverantörsbetalningar.  
 
@@ -41,9 +35,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Betala leverantören kontant eller med check och bokför betalningen när du bokför fakturan. |[Betala inköpsfakturor snabbt](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Se till att banken bara godkänner validerade checkar och belopp genom att skicka en fil som innehåller information om leverantör, check ch betalning. |[Exportera en Positive Pay-fil](finance-how-positive-pay.md) |
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inköp](purchasing-manage-purchasing.md)  

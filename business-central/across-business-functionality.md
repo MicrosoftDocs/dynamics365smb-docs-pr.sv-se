@@ -1,23 +1,17 @@
 ---
 title: Affärsfunktioner som stöds av Business Central
-description: Innehåller en översikt över de funktioner och avdelningar som stöds av moduler, till exempel ekonomi, lager och projekthantering.
+description: 'Innehåller en översikt över de funktioner och avdelningar som stöds av moduler, till exempel ekonomi, lager och projekthantering.'
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606809"
 ---
-# <a name="business-functionality"></a>Affärsfunktion
+# Affärsfunktion
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas. [Lär dig mer om hur du får en kostnadsfri utvärderingsversion](trial-signup.md).  
 
@@ -39,13 +33,13 @@ ms.locfileid: "9606809"
 |Planera de produktionsåtgärder som krävs för att omvandla inflöden till färdiga varor.|[Planerad](production-planning.md)|
 |Placera säljbara artiklar tillsammans i enkla steg för att skapa en ny artikel, till exempel ett paket.|[Monteringshantering](assembly-assemble-items.md)|
 |Definiera resurser på verkstadsgolvet och deras kapacitet, planera operationer, flytta produktionskomponenter och verkställa produktion.|[Produktion](production-manage-manufacturing.md)|
-|Säkerställ ett effektivt flöde av mottagna och levererade varor.|[Lagerstyrning](warehouse-manage-warehouse.md)|
+|Säkerställ ett effektivt flöde av mottagna och levererade varor.|[Hantering av distributionslager – översikt](design-details-warehouse-management.md)|
 |Planera servicesamtal och lägg upp serviceorder. Spåra reservdelar och tillbehör.|[Servicehantering](service-service.md)|
 |Konfigurera och använd arbetsflöden som kopplar uppgifter som ska utföras av olika användare eller i systemet, till exempel automatisk bokföring. Begära och bevilja godkännande för att skapa eller bokföra dokument är vanliga arbetsflödessteg.|[Arbetsflöde](across-workflow.md)|
 |Aktivera möjlighet för användare att utbyta data med externa källor under dagliga uppgifter, till exempel skicka/ta emot elektroniska dokument, importera/exporterar bankfiler och uppdatera valutakurser.|[Utbyta data elektroniskt](across-data-exchange.md)|
 |Registrera externa dokument i [!INCLUDE[prod_short](includes/prod_short.md)], inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Administration](admin-setup-and-administration.md)    
 [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)  

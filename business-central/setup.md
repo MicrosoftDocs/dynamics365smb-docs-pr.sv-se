@@ -33,7 +33,7 @@ Utöver guiderna för assisterad konfiguration kan några allmänna funktioner o
 |Ange standardrapporter som ska användas med olika dokumenttyper.|[Rapportval för dokument](across-report-selections.md)|
 | Ställa in hur du ställer in resurser och tidrapporter och projekt för att hantera projekt. |[Ställa in projekthantering](projects-setup-projects.md) |
 | Konfigurera hur du försäkrar, underhåller och skriver av anläggningstillgångar och hur du registrerar kostnader för anläggningstillgångar i företagets redovisning. |[Ställa in anläggningstillgångar](fa-setup.md) |
-|Definiera allmänna regler och värden för lagerprocesser och särskild hantering vid varje lagerställe.|[Ställa in Warehouse Management](warehouse-setup-warehouse.md)|
+|Definiera allmänna regler och värden för lagerprocesser och särskild hantering vid varje lagerställe.|[Ställa in lagerstyrning](warehouse-setup-warehouse.md)|
 |Förbereda produktionsstrukturer och verksamhetsföljder för att definiera hur artiklar tillverkas och förbereda maskin- eller produktionsgrupper för att vidta nödvändiga åtgärder.|[Ställa in Produktion](production-configure-production-processes.md)|
 |Standardtjänster, symptom och felkoder och skapa serviceartiklar, resurser och dokumentation som behövs för att tillhandahålla service till kunder.|[Ställa in tjänstehantering](service-setup-service.md)|
 |Läs om bästa praxis för att konfigurera artiklar för lagerkostnad och leveransplanering.|[Ställa in komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)|

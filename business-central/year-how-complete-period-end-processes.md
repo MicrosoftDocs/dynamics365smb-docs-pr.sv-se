@@ -6,21 +6,15 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607668"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Översikt över uppgifter för att avsluta bokföringsperioder
+# Översikt över uppgifter för att avsluta bokföringsperioder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tvingar dig inte att avsluta perioder, men det finns många periodslutsaktiviteter (månadsslut) som du kan göra. I det här avsnittet ges en översikt över valfria processer och aktiviteter för att avsluta perioder.  
 
-## <a name="general-ledger"></a>Redovisning
+## Redovisning
 
 * Specificera intervall för bokföringsdatum som gäller hela systemet och är användarspecifik.  
 
@@ -31,7 +25,7 @@ ms.locfileid: "9607668"
 * Gör ekonomiska rapporter så här:  
   * Öppna sidan **Ekonomiska rapporter** och välj åtgärden **Skriv ut**.  
 
-## <a name="sales-and-receivables"></a>Försäljning
+## Försäljning
 
 * Bokför alla försäljningsorder, fakturor, kreditnotor och returorder.  
 * Bokför alla inbetalningsjournaler.  
@@ -39,7 +33,7 @@ ms.locfileid: "9607668"
 * Stäm av kundreskontra i redovisningen.  
 * Kör batch-jobbet **Ta bort fakturerade förs.order**  
 
-## <a name="purchases-and-payables"></a>Inköp
+## Inköp
 
 * Bokför alla inköps order, fakturor, kreditnotor och returorder.  
 * Bokför alla betalningsjournaler.  
@@ -47,7 +41,7 @@ ms.locfileid: "9607668"
 * Kör rapporten **Lev.skulder – ålder** och stäm av leverantörsskulder i redovisningen.  
 * Kör batch-jobbet **Ta bort fakturerade inköpsorder**  
 
-## <a name="fixed-assets"></a>Anläggningstillgångar
+## Anläggningstillgångar
 
 * Bokför alla underhållskostnader som har bokförts via anl.journaler eller fakturor.
 * Bokföra justeringar.
@@ -55,17 +49,17 @@ ms.locfileid: "9607668"
 * Bokföra avskrivning
 * Uppdatera och bokföra återkommande journal för anläggningstillgångar.
 
-## <a name="intercompany"></a>Koncernintern
+## Koncernintern
 
 * Behandla koncerninterna transaktioner.
 
-## <a name="calculate-and-process-sales-tax"></a>Beräkna och bearbeta omsättningsskatt
+## Beräkna och bearbeta omsättningsskatt
 
 * Fyll i skattmeddelanden.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Avsluta böcker](year-close-books.md)  

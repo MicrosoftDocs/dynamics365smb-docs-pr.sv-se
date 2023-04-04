@@ -1,29 +1,23 @@
 ---
 title: Ändra grundläggande inställningar för den aktuella användaren
-description: Lär dig mer om hur du ändrar vissa grundläggande inställningar i Business Central, t.ex. roll och rollcenter, företag, arbetsdatum och tidszoner.
+description: 'Lär dig mer om hur du ändrar vissa grundläggande inställningar i Business Central, t.ex. roll och rollcenter, företag, arbetsdatum och tidszoner.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
-ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'change Role Center, notification, change company, change work date, decimal separator'
+ms.search.form: '9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606069"
 ---
-# <a name="change-basic-settings"></a>Ändra grundinställningar
+# Ändra grundinställningar
 
 PÅ sidan **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[prod_short](includes/prod_short.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="role"></a><a name="role-center"></a>Roll
+## <a name="role-center"></a>Roll
 
 Rollcentret bestämmer startsidan, en startskärm som har utformats för den specifika rollens behov i en organisation. Beroende på din roll ger startsidan eller rollcentret en översikt över verksamheten, din avdelning eller dina personliga uppgifter. Du kan också navigera till ditt dagliga arbete och söka efter arbete som har tilldelats dig.
 
@@ -31,7 +25,7 @@ Rollcentret bestämmer startsidan, en startskärm som har utformats för den spe
 
 * I mitten hittar du området **Aktiviteter**, som visar aktuella data och som kan väljas för att visa mer detaljerad information. Nyckelindikatorer (KPI:er) kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också att upprätta en lista över favoritkunder på startsidan för affärskonton som du arbetar med ofta eller behöver ge extra uppmärksamhet till.
 
-### <a name="change-the-role"></a>Ändra rollen
+### Ändra rollen
 
 Standardrollen är **Chef**, men du kan välja en annan roll för att använda ett rollcenter som passar bättre till dina önskemål.  
 
@@ -39,7 +33,7 @@ Standardrollen är **Chef**, men du kan välja en annan roll för att använda e
 2. På sidan **Mina inställningar** i fältet **Roll** väljer du den roll du vill använda som standard. Välj till exempel **Revisor**.
 3. Välj **OK**.
 
-## <a name="company"></a><a name="company"></a>Företag
+## <a name="company"></a>Företag
 
 Ett företag fungerar som en behållare för data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget. Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata.
 
@@ -69,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="work-date"></a><a name="work-date"></a>Arbetsdatum
+## <a name="work-date"></a>Arbetsdatum
 
 Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra arbetsdatum.
 
@@ -79,7 +73,7 @@ Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som at
 > [!IMPORTANT]  
 > När du har ändrat arbetsdatumet, om du loggar ut eller växlar till ett annat företag, ändras arbetsdata tillbaka till standardarbetsdatum. Så nästa gång du loggar in eller går tillbaka till det ursprungliga företaget, kan du behöva ange arbetsdatumet igen.
 
-### <a name="work-date-indication"></a>Indikering av arbetsdatum
+### Indikering av arbetsdatum
 
 Arbetsdatumet är kritiskt på sidor som kan redigeras. När arbetsdatumet inte är inställt på dagens datum på en redigerbar sida, visas två typer av indikatorer på sidan:
 
@@ -89,11 +83,11 @@ Arbetsdatumet är kritiskt på sidor som kan redigeras. När arbetsdatumet inte 
 
 Om arbetsdatumet inte anges för den aktuella dagen (idag) kommer arbetsdatumet att anges i det övre vänstra hörnet på samtliga sidor där du kan redigera data.
 
-## <a name="region"></a><a name="region"></a> Region
+## <a name="region"></a> Region
 
 Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras. Det avgör också vilket tecken som används som decimalavgränsare när du använder ett numeriskt tangentbord för att ange data. Läs mer på [Ange data](ui-enter-data.md#decimal).
 
-## <a name="language"></a><a name="language"></a> Språk
+## <a name="language"></a> Språk
 
 Ändra displayspråk. Detta fält visas bara om det finns flera språk att välja mellan.
 
@@ -101,21 +95,21 @@ Startspråket bestäms antingen av administratören eller i webbläsaren när du
 
 Ytterligare språk för [!INCLUDE[prod_short](includes/prod_short.md)] kan installeras från AppSource. Även om alla visningsspråk som stöds visas i listan måste administratören installera relevant språkapp i klientorganisationen innan användarna kan växla till det nya språket i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="time-zone"></a>Tidszon
+## Tidszon
 
 Definierar tidszonen där du befinner dig. När du loggar in på [!INCLUDE [prod_short](includes/prod_short.md)] för första gången anges tidszonen baserat på företagets adress. Ändra den om den inte passar din fysiska plats.  
 
-## <a name="notifications"></a>Meddelanden
+## Meddelanden
 
 Välj länken *Ändra när jag får meddelanden* för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Läs mer på [Hantera meddelanden](ui-smart-notifications.md).
 
-## <a name="teaching-tips"></a>Undervisningstips
+## Undervisningstips
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 11/10/2022
 ms.author: jswymer
-ms.openlocfilehash: 790b354577dbb14d7fd0aa75db6e5158f09a5c89
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788267"
 ---
-# <a name="working-with-microsoft-excel-layouts"></a>Arbeta med Microsoft Excel-layouter
+# Arbeta med Microsoft Excel-layouter
 
 Microsoft Excel-rapportlayouter baseras på Excel-arbetsböcker (.xlsx-filer). Med dem kan du skapa rapporter som innehåller välbekanta Excel-funktioner för sammanfattning, analys och presentation av data som formler, PivotTables och PivotCharts.
 
@@ -25,7 +19,7 @@ Microsoft Excel-rapportlayouter baseras på Excel-arbetsböcker (.xlsx-filer). M
 
 I den här artikeln beskrivs några av de viktigaste sakerna du behöver veta för att komma igång med Excel-layouter.
 
-## <a name="why-use-excel-layouts"></a>Varför använda Excel-layouter?
+## Varför använda Excel-layouter?
 
 Fördelar med att använda Excel-layouter:
 
@@ -38,18 +32,18 @@ Fördelar med att använda Excel-layouter:
   - [Prognoser och analyser](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Använd installerade tillägg och programintegrationer som Power Automate-flöden eller OneDrive.
 
-## <a name="get-started"></a>Kom i gång
+## Kom i gång
 
 Det finns huvudsakligen två uppgifter som du behöver för att skapa en Excel-layout i en rapport:
 
 1. Skapa den nya Excel-layoutfilen.
 2. Lägg till den nya i rapporten.
 
-## <a name="task-1-create-the-excel-layout-file"></a>Uppgift 1: Skapa den nya Excel-layoutfilen
+## Uppgift 1: Skapa den nya Excel-layoutfilen
 
 Det finns tre sätt att skapa en Excel-layoutfil för en rapport.
 
-### <a name="from-any-report"></a>[Från alla rapporter](#tab/any-report)
+### [Från alla rapporter](#tab/any-report)
 
 Följ dessa steg om du vill skapa en Excel-layout från en rapport, oavsett vilken typ av layout som används. Excel-layouten innehåller det **data** blad och den tabell som krävs ett **rapportmetadata** blad och inget annat.
 
@@ -60,30 +54,30 @@ Följ dessa steg om du vill skapa en Excel-layout från en rapport, oavsett vilk
    I det här steget hämtas en Excel-arbetsbok som innehåller rapport datauppsättningen.
 4. Öppna den nedladdade filen i Excel, gör ändringar och spara sedan filen.
 
-### <a name="from-another-excel-report-layout"></a>[Från en annan Excel-rapportlayout](#tab/other-layout)
+### [Från en annan Excel-rapportlayout](#tab/other-layout)
 
 Om det redan finns en Excel-layout för en rapport kan du använda den befintliga layouten som utgångspunkt. Det finns två tillvägagångssätt för att få en kopia av layouten. Du kan antingen exportera den befintliga layouten från sidan **Rapportlayout** eller hämta layouten från sidan för rapportens förfrågan. Du kan hämta en Excel-layouttabell som innehåller alla blad i den befintliga filen på båda sätten. Skillnaden är att när du laddar ner den från begärandesidan inkluderar layouten faktiska data. (Data krävs inte, men det är enklare att designa dem.)
 
-#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Metod 1: exportera layouten från sidan **rapportlayout**
+#### Metod 1: exportera layouten från sidan **rapportlayout**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Välj Excel-layouten i listan och välj sedan åtgärden **exportera layout** högst upp på sidan.
 3. Öppna filen i Excel, gör ändringar och spara sedan filen.
 
-#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Metod 2: Hämta layouten från rapportens förfrågan sida
+#### Metod 2: Hämta layouten från rapportens förfrågan sida
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. På sidan **Rapportlayouter** väljer du en layout för rapporten och väljer sedan åtgärden **Kör rapport**.
 3. Välj på sidan för rapportbegäran **Ladda ned**.
 4. Öppna filen i Excel, gör ändringar och spara sedan filen.
 
-### <a name="from-al-code"></a>[Från AI-kod](#tab/from-code)
+### [Från AI-kod](#tab/from-code)
 
 Det här är den mest avancerade metoden för att skapa en layout för en Excel-rapport. Eftersom det kräver kunskap om AL-kod riktas den mot programmerare. Med den här metoden är Excel-layouterna del av ett tilläggspaket som du installerar. Läs mer på [Skapa en Excel-layoutrapport](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) i hjälpen för utvecklare och IT-proffs.
 
 ---
 
-## <a name="task-2-add-the-excel-layout-to-the-report"></a>Uppgift 2: Lägg till Excel-layouten i rapporten
+## Uppgift 2: Lägg till Excel-layouten i rapporten
 
 När du väl har Excel-layoutfilen är nästa uppgift att lägga till den som en ny layout för rapporten.
 
@@ -112,7 +106,7 @@ När du väl har Excel-layoutfilen är nästa uppgift att lägga till den som en
 3. Report metadata 
 -->
 
-## <a name="understanding-excel-layouts"></a>Förstå Excel-layouter
+## Förstå Excel-layouter
 
 Det finns några saker som du behöver veta eller överväga när du skapar eller gör ändringar i Excel-layouter. Alla Excel-layouter måste innehålla två element: ett **datablad** och en **data**-tabell. Dessa element bygger på layouten genom att definiera affärsdata från Business Central som du kan arbeta med. Du kan betrakta **data**-bladet som ett slags kontrakt mellan layouten i affärsdata. Du ska använda dessa data som källa för de beräkningar och visuella effekter som du vill presentera i andra blad.
 
@@ -134,7 +128,7 @@ Sammanfattningsvis är detta vad du bör och inte bör göra **data**-bladet:
 - Lägg inte till några kolumner om de inte är med i rapport datauppsättningen.
 - Du kan placera bladen i valfri ordning med **data**-bladet först eller sist.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Ändra aktuell rapportlayout](ui-how-change-layout-currently-used-report.md)  
