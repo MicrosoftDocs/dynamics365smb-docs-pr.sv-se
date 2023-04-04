@@ -1,20 +1,14 @@
 ---
 title: Skapa produktionsstrukturer
-description: Lära dig hur du skapar en produktionsstruktur, nya versioner av en produktionsstruktur och hur du använder beräkningsformeln för antal.
+description: 'Lära dig hur du skapar en produktionsstruktur, nya versioner av en produktionsstruktur och hur du använder beräkningsformeln för antal.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords: production bom, bills of material,
-ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: 'production bom, bills of material,'
+ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818'
 ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728552"
 ---
-# <a name="create-production-boms"></a>Skapa produktionsstrukturer
+# Skapa produktionsstrukturer
 
 En produktionsstruktur innehåller standarddata som beskriver de komponenter och underenheter som används vid produktion av en överordnad artikel. När en produktionsorder har skapats för den överordnade artikeln, avgör dess produktionsstruktur beräkningen av materialbehoven enligt vad som visas på sidan **Prod.order komponenter**.
 
@@ -28,7 +22,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 - Artikelkort kan skapas för överordnade artiklar som ingår i produktionen. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 - Produktionsresurser har ställts in. Mer information finns i [Skapa produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>Skapa en ny produktionsstruktur.
+## Skapa en ny produktionsstruktur.
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Produktionsstrukturer** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -52,7 +46,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Om du vill beräkna om standardkostnaden för artikeln från artikelkortet, välj **Produktion** och sedan åtgärden **Ber. standardkostnad**.  
 
-## <a name="to-create-a-new-version-of-a-production-bom"></a>Så här skapar du nya versioner av produktionsstrukturer
+## Så här skapar du nya versioner av produktionsstrukturer
 
 Nya versioner av produktionsstrukturer används till exempel när en artikel ersätts av en annan artikel, eller när en kund begär en specialversion av en produkt. Med versionsprincipen kan olika versioner av en produktionsstruktur hanteras. Strukturen i produktionsstrukturversionen motsvarar strukturen i produktionsstrukturen. Den största skillnaden är versionernas giltighetstid. Giltigheten definieras av startdatum.  
 
@@ -76,7 +70,7 @@ Versionens giltighetstid anges i fältet **Startdatum**.
 >
 > Fiktiva prod.strukturer fungerar som struktureringsprodukter. Den här typen av produktionsstruktur leder aldrig till en färdig produkt, men används enbart för att bedöma den härledda efterfrågan. Fiktiva prod.strukturer har inga egna standarduppgifter om artiklar.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Antal beräkningsformel på produktionsstrukturer
+## Antal beräkningsformel på produktionsstrukturer
 
 Antal beräknas med hänsyn till olika dimensioner, som också anges på produktionsstrukturraderna. Dimensionerna avser en orderenhet för respektive artikel. Längd, bredd, djup och vikt kan anges som dimensioner.  
 
@@ -94,11 +88,11 @@ Relationen i en enskild komponent definieras av en beräkningsformel. Följande 
 > [!NOTE]
 > Med beräkningsformeln för **fast kvantitet** ser du till att förbrukningen av en komponent är densamma, oavsett kassation eller utflöde. För produktions order komponenter, när fältet **beräkningsformel** är inställt på fast antal, är fältet **Fast kvantitet** och **Förväntad kvantitet** alltid lika med **kvantiteten per** fält. Den procentuella kassation som har definierats på samma rad ignoreras. Fast kvantitet respekteras av rapporten **Artikeldisposition**. I rapporten visas artikeln som flaskhals, om disponibelt antal är mindre än antalet i fältet **Antal per överordnad**. Fälten **Kan skapa överordnad** och **Kan skapa toppartikel** är alltid tomma, oavsett tillgänglig kvantitet. Fast kvantitet ingår också i beräkningar för standardkostnader. Partistorleken för den producerade artikeln påverkar kostnaden som har allokerats för en artikel.
 
-### <a name="example"></a>Exempel
+### Exempel
 
 I en produktionsstruktur behövs 70 metalldelar med dimensionerna längd = 0,20 m och bredd = 0,15 m. Värdena anges så här: Beräkningsformel = längd * bredd, längd = 20, bredd = 15, antal per = 70. Antalet anges som Antal per * längd * bredd, d.v.s. Antal = 70 * 0,20 m * 0,15 m = 2,1 m2.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa verksamhetsföljder](production-how-to-create-routings.md)  
 [Hantera produktvarianter](inventory-item-variants.md)  

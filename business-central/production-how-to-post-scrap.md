@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000823
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Bokföra kassationen manuellt
@@ -24,6 +24,8 @@ Om kassation produceras under bearbetningen kan detta anges i utflödesjournalen
 3. Ange kassationsantalet i fältet **Kasserat antal**.  
 4. Ange kassationskoden i fältet **Kassationskod**.  
 5. Välj åtgärden **bokför** för att bokföra den angivna kassationen per operation.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## Se även
 

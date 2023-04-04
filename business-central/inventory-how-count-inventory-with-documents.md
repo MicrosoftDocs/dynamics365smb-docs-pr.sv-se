@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
-ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
+ms.search.keywords: 'adjustment, status, negative, positive, increase, decrease, inventory'
+ms.search.forms: '5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5b2e1e7a9ea7c6f2ed49c146e7e52ffdfa28c28c
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532680"
 ---
-# <a name="count-and-adjust-inventory-using-documents"></a>Beräkna och justera lager med hjälp av dokument
+# Beräkna och justera lager med hjälp av dokument
 
 Du kan göra en fysisk inventering av artiklar med hjälp av inventeringsorder och inventeringsregistreringsdokument. Sidan **inventeringsorder** används för att ordna de fullständiga inventeringar, till exempel en per lagerställe. Sidan **registrering av fysiskt lager** används för att kommunicera och samla in faktiska inventeringen av artiklar. Du kan skapa flera inspelningar av en order, till exempel för att fördela grupper av artiklar till olika medarbetare.
 
@@ -35,7 +29,7 @@ Inventering med dokument består av följande övergripande åtgärder:
 3. Ange antalet räknade artiklar på registreringarna som anges på utskrifter, till exempel och anger värdet till **avslutad**.
 4. Slutför och bokför inventeringsordern.
 
-## <a name="to-create-a-physical-inventory-order"></a>Skapa en inventeringsorder
+## Skapa en inventeringsorder
 
 En inventeringsorder är ett fullständigt dokument som består av en inventering i orderhuvudet och vissa rader för orderinventering. Informationen i inventeringshuvudet beskriver hur du gör en inventering. Inventeringsorderraderna innehåller information om artiklarna och var de finns.
 
@@ -57,7 +51,7 @@ En rad för varje artikel som finns på den valda platsen och ange filter och al
 
 Du kan nu fortsätta med att skapa en eller flera registreringar som är instruktioner till anställda som utför den faktiska inventeringen.  
 
-## <a name="to-create-a-physical-inventory-recording"></a>Skapa en inventeringsregistrering
+## Skapa en inventeringsregistrering
 
 För varje inventeringsorder kan du skapa en eller flera inventeringsregistreringsdokument där personalen anger inventerade kvantiteter manuellt eller genom en integrerad skanner.
 
@@ -79,7 +73,7 @@ Vid manuell beräkning, kan du skriva ut en lista, rapporten **Inventeringsregis
 8. För artiklar som använder artikelspårning skapar du ytterligare en rad för varje partinummer eller serienummer genom att välja åtgärd **funktion** och åtgärd **kopiera rad**. Mer information finns i avsnittet [Hantera artikelspårning vid inventering](#handling-item-tracking-when-counting-inventory).  
 9. Välj åtgärden **Skriv ut** för att förbereda fysiska dokumentet som anställda ska använda för att anteckna inventerade kvantiteter.
 
-## <a name="to-finish-a-physical-inventory-recording"></a>Slutför en inventeringsregistrering
+## Slutför en inventeringsregistrering
 
 När medarbetare har inventerat lagerkvantiteter, måste du förbereda att registrera dem i systemet.
 
@@ -94,7 +88,7 @@ När medarbetare har inventerat lagerkvantiteter, måste du förbereda att regis
 > Om det inte finns några matchande inventeringsorderrad och om kryssrutan **Tillåt registrering utan order** är markerad och en ny rad infogas automatiskt och kryssrutan **Registrerade utan order** markeras på den relateradeinventeringsorderraden. I annat fall visas ett felmeddelande och processen avbryts.<br /><br />
 > Om mer än en inventeringsregistreringsrad matchar en inventeringsorderrad, visas ett meddelande och processen avbryts. Om du av någon anledning har två identiska inventeringsrader på inventeringsordern använder du en funktion för att lösa problemet. Mer information finns i avsnittet [Så här hittar du dubbla inventeringsorderrader](#to-find-duplicate-physical-inventory-order-lines).
 
-## <a name="to-complete-a-physical-inventory-order"></a>Slutför en inventeringsorder
+## Slutför en inventeringsorder
 
 När du är klar med inventeringsregistrering uppdateras på fältet **inspelning av antal (bas)** på relaterade inventeringsordern med de inventerade (registrerade) värdena och kryssrutan **på registrera** är markerad. Om beräknade värdet skiljer sig från der förväntade visas skillnaden i fältet **Positivt antal (bas)** och **Negativt antal**.
 
@@ -102,7 +96,7 @@ För att visa förväntade kvantiteter och alla registrerade avvikelser för art
 
 Du kan även välja differensen för **Differens för inventeringsorder** åtgärd för att visa eventuella skillnader mellan förväntat antal och inventerat antal.
 
-### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Hitta dubbla inventeringsorderrader
+### Hitta dubbla inventeringsorderrader
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokför inventeringsorder** och väljer sedan relaterad länk.
 2. Öppna den inventeringsorder som du vill visa dubbla rader för.
@@ -110,7 +104,7 @@ Du kan även välja differensen för **Differens för inventeringsorder** åtgä
 
 Dubbla inventeringsorderraderna visas så att du kan ta bort dem och endast en rad med en unik uppsättning värden i fälten **Artikelnr**, **Variantkod**, **Platskod** och **Lagerställekod**.
 
-### <a name="to-post-a-physical-inventory-order"></a>Bokför en inventeringsorder
+### Bokför en inventeringsorder
 
 När du har slutfört en inventeringsorder och ändrar dess status till **avslutad**, kan du bokföra den. Du kan bara ange produktionsorderstatusen från inventeringen till **avslutad** om följande gäller:
 
@@ -129,7 +123,7 @@ När du har slutfört en inventeringsorder och ändrar dess status till **avslut
 
 De involverade artikeltransaktionerna uppdateras tillsammans med alla relaterade artikelspårningstransaktionerna.
 
-### <a name="to-view-posted-physical-inventory-orders"></a>För att visa bokförda inventeringsorder
+### För att visa bokförda inventeringsorder
 
 När du har bokfört inventeringsordern kommer den att tas bort och du kan visa och utvärdera dokumentet som en bokförd inventeringsorder inklusive dess inventeringsregistreringar och eventuella kommentarer som har skapats.
 
@@ -137,13 +131,13 @@ När du har bokfört inventeringsordern kommer den att tas bort och du kan visa 
 2. På sidan **Bokförda inventeringsorder** markera bokförda ordern som du vill visa och välj sedan åtgärden **visa**.
 3. För att visa en lista över relaterade inventeringsregistreringar väljer du åtgärden **registreringar**.
 
-## <a name="handling-item-tracking-when-counting-inventory"></a>Hantera artikelspårning vid inventering
+## Hantera artikelspårning vid inventering
 
 Artikelspårning tillhör serie- eller partinummer som har tilldelats artiklarna. Vid inventering av en artikel i lagret som, till exempel 10 olika partinummer ska den anställde kunna registrera vilka och hur många enheter av varje partinummer som finns i lager. Mer information om funktionen för artikelspårning finns i [Så här arbetar du med serienummer och partinummer](inventory-how-work-item-tracking.md).
 
 Kryssrutan **använda artikelspårning** på inventeringsorderrader väljs automatiskt om artikelspårningskoden har ställts in för artikeln, men du kan också markera eller avmarkera den manuellt.
 
-### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Exempel – Förbered en inventeringsregistrering för en artikelspårad artikel
+### Exempel – Förbered en inventeringsregistrering för en artikelspårad artikel
 
 Beakta inventeringsperioden för artikel A, som finns i lager som tio olika serienummer.
 1. På registreringsraden för artikeln väljer du kryssrutan **använda artikelspårning**.
@@ -159,7 +153,7 @@ Beakta inventeringsperioden för artikel A, som finns i lager som tio olika seri
 
 Observera att rapporten **Inventeringsregistrering** innehåller tio rader för artikel A, en för varje löpnummer.
 
-### <a name="example---record-and-post-counted-lot-number-differences"></a>Exempel – registrera och bokföra inventerat partinummeravvikelser
+### Exempel – registrera och bokföra inventerat partinummeravvikelser
 
 En partispårad artikel lagras i lagret med ”PARTI”-nummerserien.
 
@@ -194,7 +188,7 @@ En partispårad artikel lagras i lagret med ”PARTI”-nummerserien.
 
 På sidan **inventeringsorder** innehåller fältet **Neg. antal (bas)** *8*. För den aktuella raden innehåller sidan **Artikelspårningslista för inventering** positiva eller negativa kvantiteter för det enskilda partinummer.
 
-## <a name="inventory-documents"></a>Inventariedokument
+## Inventariedokument
 
 Följande typer av dokument är användbara för att hantera distributionslagret:
 
@@ -206,7 +200,7 @@ Du kan skriva ut dessa dokument när som helst, släppa och öppna dem igen och 
 > [!NOTE]
 > Innan du kan använda dessa dokument måste du ange en nummerserie för att skapa deras identifierare. Mer information finns i nästa avsnitt.
 
-### <a name="to-set-up-numbering-for-inventory-documents"></a>Så här ställer du in numrering för lagerdokument
+### Så här ställer du in numrering för lagerdokument
 
 I följande procedur beskrivs hur du ställer in numrering för inventeringsdokument.
 
@@ -217,7 +211,7 @@ I följande procedur beskrivs hur du ställer in numrering för inventeringsdoku
    - **Lagerutleveransnr-serie**  
    - **Bokförd lagerutleveransnr-serie**  
 
-### <a name="to-create-and-post-an-inventory-document"></a>Så här skapar och bokför du ett lagerdokument
+### Så här skapar och bokför du ett lagerdokument
 
 Följande procedur visar hur du skapar, skriver ut och bokför en lagerinleverans. Momenten är liknande för bokförda lagerutleveranser.
 
@@ -231,7 +225,7 @@ Följande funktioner finns på sidan **Lagerinleverans**:
 - Välj åtgärderna **Frisläpp** eller **Öppna igen** för att ange status för nästa bearbetningssteg  
 - Välj åtgärden **Bokför** för att bokföra lagerinleveransen, eller välj **Bokför och skriv ut** för att bokföra inleveransen och skriva ut test rapporten  
 
-## <a name="printing-inventory-documents"></a>Skriva ut lagerdokument
+## Skriva ut lagerdokument
 
 Du kan ange vilka rapporter som ska skrivas ut i olika etapper genom att välja något av följande alternativ i fältet **Användning** på sidan **Rapportval – lager**:
 
@@ -243,14 +237,14 @@ Du kan ange vilka rapporter som ska skrivas ut i olika etapper genom att välja 
 > [!NOTE]
 > Vilka rapporter som finns kan variera beroende på landets lokalisering. Basprogrammet innehåller inga layouter.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/adjust-inventory/)
+## Se relaterad [Microsoft utbildning](/training/modules/adjust-inventory/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md)  
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Lager](inventory-manage-inventory.md)  
-[Lagerstyrning](warehouse-manage-warehouse.md)  
+[Hantering av distributionslager – översikt](design-details-warehouse-management.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
