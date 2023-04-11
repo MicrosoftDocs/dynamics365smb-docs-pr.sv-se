@@ -23,16 +23,23 @@
 #### [Genomgång: Utföra kassaflödesprognoser genom att använda ekonomiska rapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Genomgång: Konfigurera och använda Shopify-anslutningsprogram](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Demonstrationsdata för produktion för Contoso Coffee
+### Demonstrationsdata för Contoso Coffee
 #### [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### [Skapa en ny produktionsstrukturlista och strukturlisteversion](contoso-coffee/create-new-production-bom-version.md)
-#### [Skapa en operationsföljd](contoso-coffee/create-new-routing.md)
-#### [Skapa en fast planerad produktionsorder och ändra den](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Kombinera automatisk och manuell bokföring](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Använda orderplanering för att skapa och reservera leverans](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Konfigurera och hantera en legotillverkningsoperation](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Konfigurera ny kapacitet](contoso-coffee/set-up-new-capacity.md)
-#### [Varianter](contoso-coffee/variants.md)
+#### Produktion
+##### [Introduktion till produktion för Contoso Coffee](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Skapa en ny produktionsstrukturlista och strukturlisteversion](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Skapa en operationsföljd](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Skapa en fast planerad produktionsorder och ändra den](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Kombinera automatisk och manuell bokföring](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Använda orderplanering för att skapa och reservera leverans](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Konfigurera och hantera en legotillverkningsoperation](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Konfigurera ny kapacitet](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Varianter](contoso-coffee/manufacturing/variants.md)
+#### Lagerstyrning
+##### [Introduktion till distributionslager för Contoso Coffee](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Genomgång av ankommande och avgående flöde i grundläggande distributionslagerkonfigurationer](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Genomgång av ankommande och avgående flöde i blandade distributionslagerkonfigurationer](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Genomgång av ankommande och avgående flöde i avancerad distributionslagerkonfiguration med dirigerad artikelinförsel och plockning](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Designdetaljer
 #### [Översikt över designdetaljer för koppling](design-details-application-design.md)
@@ -108,7 +115,7 @@
 ### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
 ### Marknadsföringstext för AI-baserad artikel med Copilot
 #### [Översikt](ai-overview.md)
-#### [Skaffa förhandsversionen – Copilot-utgåvan](ai-preview-getstarted.md)
+#### [Skaffa förhandsversion](ai-preview-getstarted.md)
 #### [Konfigurera marknadsföringstext för AI-baserad artikel](enable-ai.md)
 #### [Skapa marknadsföringstext för AI-baserad artikel](item-marketing-text.md)
 #### [Vanliga frågor och svar](ai-faq.md)
@@ -409,8 +416,12 @@
 ### Konsolidera ekonomiska data från flera företag
 #### [Företagskonsolidering](finance-consolidated-company-reporting.md)
 #### [Konfigurera företagskonsolidering](finance-consolidated-company-reporting-setup.md)
+
+### Arbeta med kontoplanen och redovisningen
+#### [Förstå huvudboken och kontoplanen](finance-general-ledger.md)
+#### [Granska konton](finance-review-accounts.md)
+
 ### [Konsolidera saldon för ett företag som är en kund och en leverantör](finance-consolidate-customer-vendor-balances.md)
-### [Så här fungerar i redovisningen och äkthetsbeviset](finance-general-ledger.md)
 ### [Arbeta med dimensioner](finance-dimensions.md)
 ### [Felsöka och korrigera dimensioner](finance-troubleshooting-correcting-dimensions.md)
 ### [Valutor i Business Central](finance-currencies.md)
@@ -436,6 +447,7 @@
 ## Ekonomisk business intelligence och rapportering
 ### [Översikt över ekonomisk business intelligence och rapportering](bi.md)
 ### [Ekonomiska rapporter](finance-reports.md)
+### [Analysera data med statistiska konton](bi-use-statistical-accounts.md)
 ### [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)
 ### [Förbereda Financial Reporting med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)
 ### [Konfigurera och publicera KPI-webbtjänster som baseras på ekonomiska rapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1509,8 +1521,9 @@
 #### [Konfigurera säljare](sales-how-setup-salespeople.md)
 #### [Konfigurera dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md)
 #### [Skicka dokument via e-post](ui-how-send-documents-email.md)
-#### [Konfigurera utleveransvillkor](sales-how-set-up-shipment-methods.md)
+#### [Konfigurera utleveransmetoder](sales-how-set-up-shipment-methods.md)
 #### [Konfigurera speditörer](sales-how-to-set-up-shipping-agents.md)
+#### [Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)
 ### Konfigurera inköp
 #### [Konfigurera inköp](purchasing-setup-purchasing.md)
 #### [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)
@@ -1519,6 +1532,7 @@
 #### [Konfigurera inköpare](purchasing-how-setup-purchasers.md)
 #### [Konfigurera priser och rabatter](across-prices-and-discounts.md)
 #### [Registrera speciella inköpspriser och rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)
 ### Konfigurera lager
 #### [Konfigurera lager](inventory-setup-inventory.md)
 #### [Konfigurera allmän lagerinformation](inventory-how-setup-general.md)
@@ -1631,6 +1645,7 @@
 ##### [Översikt](across-teams-overview.md)
 ##### [Hantera integration med Teams](admin-teams-integration.md)
 ##### [Installera appen Business Central för Teams](across-install-app-for-teams.md)
+##### [Få åtkomst till data i Teams utan Business Central-licens](teams-access-with-m365-license.md)
 ##### [Söka efter kunder, leverantörer och kontakter](across-search-contacts-teams.md)
 ##### [Lägga till fliken Business Central i kanal eller chatt](across-teams-tab.md)
 ##### [Dela poster och sidlänkar i Teams](across-working-with-teams.md)
@@ -1755,6 +1770,7 @@
 ### [Vanliga frågor och svar om sökning och filtrering](ui-search-filter-faq.yml)
 ### [Analysera siddata i Excel](across-work-with-excel.md)
 ### [Analysera rapportdata med Excel](report-analyze-excel.md)
+### [Analysera listdata med analysläge](analysis-mode.md)
 ### [Ekonomisk business intelligence](bi.md)
 
 ## Inbyggda analyser 
@@ -1884,6 +1900,9 @@
 ### [Schemalägga en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
 ### [Använda ett Power Automate-flöde för aviseringar till Dataverse-enhetsändringar](admin-power-automate-flow-dataverse.md)
+## Synkronisera huvuddata mellan företag
+### [Kom i gång med synkronisering av huvuddata](admin-set-up-data-sync.md)
+### [Hantera synkronisering av huvuddata](admin-sync-master-data.md)
 ## Designdetaljer
 ### [Översikt över designdetaljer för koppling](design-details-application-design.md)
 ### Designdetaljer: Leveransplanering
