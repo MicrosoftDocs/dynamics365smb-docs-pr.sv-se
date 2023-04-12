@@ -1,15 +1,12 @@
 ---
 title: Ångra en bokföring genom att bokföra en mottransaktion
-description: 'Om du har bokfört en felaktig bokföring i den allmänna journalen, kan du använda funktionen Återför transaktion för att ångra bokföringen med ett korrekt redovisningsspårning.'
+description: Om du hittar ett misstag i en bokförd allmän journal kan du använda åtgärden Återför transaktion för att ångra bokföringen med en korrekt redovisningsspårning.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Återföra journalbokningar och ångra inleveranser/utleveranser
 
@@ -93,6 +90,5 @@ Momenten är liknande för bokförda returinleveranser.
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

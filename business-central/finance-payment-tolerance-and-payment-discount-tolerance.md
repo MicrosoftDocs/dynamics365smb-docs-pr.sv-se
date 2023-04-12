@@ -1,13 +1,13 @@
 ---
 title: Betalningstolerans och kassarabattstolerans
-description: 'Du kan skapa betalningstolerans för att avsluta en faktura, när betalningen inte täcker hela beloppet på fakturan.'
+description: Den här artikeln förklarar hur du ställer in betalningstolerans för att stänga en faktura när betalningen inte helt täcker fakturabeloppet.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '118, 314, 395'
-ms.date: 10/29/2021
+ms.date: 04/03/2023
 ms.author: edupont
 ---
 # Arbeta med betalningstoleranser och kassarabattstoleranser
@@ -66,6 +66,9 @@ Du lägger upp toleransen genom att lägga upp olika toleranskonton, ange bokfö
 > Du inaktiverar toleransen för en kund eller leverantör genom att spärra toleransen på motsvarande kund- eller leverantörskort. Mer information finns i [Spärra betalningstolerans för kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > När du lägger upp toleransen kontrollerar [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt om det finns några öppna transaktioner och beräknas toleransen för dessa transaktioner också.
+
+> [!IMPORTANT]  
+> När du aktiverar fältet **Justera för kassarabatt** på sidan **Bokföringsinställningar för moms** anses momsbeloppet vara kopplat till beloppen i **betalningstolerans** och **kassarabatter** och moms minskas för båda transaktionsbeloppen om de finns. Det går inte att konfigurera systemet att använda momsminskning för en typ av transaktion.  
 
 ## Så här aktiverar eller inaktiverar du betalningstoleransvarningen:
 

@@ -80,19 +80,17 @@ Välj elementen från artikellistan som ska exporteras till Shopify. Använd åt
 
 Du hanterar processen att exportera objekt med dessa inställningar:
 
-|Fält|Description|
+|Fält|Beskrivning|
 |------|-----------|
-|**Kundprisgrupp**|Ange priset för en artikel i Shopify. Försäljningspriset för den här kundprisgruppen har tagits. Om ingen grupp anges används priset på artikelkortet.|
-|**Kundrabattgrupp**|Bestäm vilken rabatt som ska användas i beräkningen av priset på en artikel i Shopify. Rabatterade priser lagras i fältet **Pris** och det fulla priset lagras i fältet **Jämför pris**.|
 |**Synkronisera utökad text för artikel**|Välj detta fält för att synkronisera den utökade texten för artikeln. Så som den läggs till i fältet *Beskrivning* kan den innehålla HTML-kod. |
 |**Synkronisera artikelattribut**|Välj detta fält om du vill synkronisera artikelattribut. Attribut formateras som tabeller och inkluderas i fältet *Beskrivning* på Shopify.|
+|**Marknadsföringstext för synkroniseringsartikel**|Välj det här fältet för att synkronisera marknadsföringstext för objektet. Även om marknadsföringstexten är en sorts beskrivning är den annorlunda än fältet **Beskrivningar**. Fältet **Beskrivning** används vanligtvis som ett kortfattat visningsnamn för att snabbt identifiera produkten. Marknadsföringstexten är å andra sidan en mer omfattande och beskrivande text. Dess syfte är att lägga till marknadsförings- och reklam innehåll. Texten kan sedan publiceras med artikeln i Shopify. Det finns två sätt att skapa marknadsföringstexten. Använd Copilot, som föreslår AI-genererad text för dig, eller börja från början.|
 |**Språkkod**|Välj detta fält om du vill ha översatta versionerna för titel, attribut och utökad text.|
 |**SKU-mappning**|Välj hur du vill fylla i SKU-fältet i Shopify. Följande alternativ stöds:<br> - **Artikelnr** för att använda artikelnr för både produkter och varianter.<br> - **Artikelnr + Variantkod** för att skapa en SKU genom att sammanfoga värden från två fält. För artiklar utan varianter används endast artikelnummer.<br>- **Artikelleverantörsnr** för att använda det artikelleverantörsnummer som definierats i *Artikelkort* för både produkter och varianter.<br> - **Streckkod** för att använda streckkod av typen **Artikelreferens**. Det här alternativet respekterar varianter.|
 |**Fältavgränsare för lagerställeenhet**|Definiera en avgränsare för alternativet **Artikelnr + Variantkod**.|
 |**Lager spårat**| Välj hur systemet ska fylla i fältet **Spåra lager** för produkter som exporteras till Shopify. Du kan uppdatera information om tillgänglighet från [!INCLUDE[prod_short](../includes/prod_short.md)] för produkter i Shopify som lagerspårning har aktiverats för. Läs mer i avsnittet [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standardlagerprincip**|Välj *Neka* för att förhindra negativt lager på Shopify-sidan.|
 |**Kan uppdatera Shopify-produkter**|Definiera detta fält om [!INCLUDE[prod_short](../includes/prod_short.md)] kan endast kan skapa artiklar eller om det kan uppdatera artiklar också. Välj det här alternativet om du, efter den första synkroniseringen som utlösts av åtgärden **Lägg till artikel**, planerar att uppdatera produkter manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Glöm inte att välja **Till Shopify** i fältet **Artikelsynkronisering**.|
-|**Kod för kundmall**|Välj den standard mall som ska användas under prisberäkningen. Läs mer i [Ställa in moms](setup-taxes.md).|
 
 ### Översikt över fältmappning
 
@@ -104,8 +102,8 @@ Du hanterar processen att exportera objekt med dessa inställningar:
 |Sidrubrik, SEO|Fast värde: tom. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Metabeskrivning, SEO|Fast värde: tom. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Media|**Bild**. Mer information finns i avsnittet [Synkronisera artikelbilder](synchronize-items.md#sync-item-images)|**Bild**|
-|Pris|Beräknande av slutkundens pris omfattar artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall.|**A-pris**|
-|Jämför med pris|Beräknande av pris utan rabatt omfattar artikelprisgrupp, artikelrabattgrupp, valutakod och kod för kundmall.|Inte använd.|
+|Pris|Beräknande av slutkundens pris omfattar inkluderar artikelenhetspris, kundprisgrupp, kundrabattgrupp och valutakod. Mer information finns i avsnittet [Synkronisera priser](synchronize-items.md#sync-prices-with-shopify)|**A-pris**|
+|Jämför med pris|Beräkningen av priset utan rabatt.|Inte använd.|
 |Styckkostnad|**Styckkostnad**|**Styckkostnad**|
 |Lagerställeenhet|Läs mer om detta under **SKU-mappning** i avsnittet [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify).|Läs mer i avsnittet [Påverkan av Shopify produkt-SKU:er och streckkoder för att mappa och skapa artiklar och varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Streckkod|**Artikelreferenser** av typen Streckkod.|**Artikelreferenser** av typen Streckkod.|
@@ -193,6 +191,17 @@ Synkronisering av bilder kan initieras på två sätt som beskrivs nedan.
 
 ## Synkronisera priser med Shopify
 
+Du hanterar processen att exportera priser med dessa inställningar:
+
+|Fält|Beskrivning|
+|------|-----------|
+|**Kundprisgrupp**|Ange priset för en artikel i Shopify. Försäljningspriset för den här kundprisgruppen har tagits. Om ingen grupp anges används priset på artikelkortet.|
+|**Kundrabattgrupp**|Bestäm vilken rabatt som ska användas i beräkningen av priset på en artikel i Shopify. Rabatterade priser lagras i fältet **Pris** och det fulla priset lagras i fältet **Jämför pris**.|
+|**Tillåt radrabatt**|Anger om radrabatt tillåts när priser beräknas för Shopify. Den här inställningen gäller endast för priser på artikeln. Priser för kundprisgruppen har ingen växling på raderna.|
+|**Priser inkl. moms**|Anger om prisberäkningar för Shopify inkluderar moms. Läs mer i [Ställa in moms](setup-taxes.md).|
+|**Moms rörelsebokföringsmall**|Anger vilken moms rörelsebokföringsmall som används för att beräkna priserna i Shopify. Det bör vara den grupp som du använder för inrikes kunder. Läs mer i [Ställa in moms](setup-taxes.md).|
+|**Valutakod**|Ange en valutakod om din onlinebutik använder en annan valuta än den lokala valutan (BVA). Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDEprod_short].|
+
 Priser kan exporteras för synkroniserade artiklar på två sätt som beskrivs nedan.
 
 ### Synkronisera priser från sidan Shopify-produkter
@@ -202,9 +211,8 @@ Priser kan exporteras för synkroniserade artiklar på två sätt som beskrivs n
 
 ### Anmärkningar om prisberäkning
 
-* För prisberäkning är det viktigt att ha ett värde i fältet **Standardkundmall**. Läs mer i [Ställa in moms](setup-taxes.md).
-* Ange en **valutakod** om din onlinebutik använder en annan valuta än den lokala valutan (BVA). Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDE[prod_short](../includes/prod_short.md)].
-* När du fastställer ett pris använder [!INCLUDE[prod_short](../includes/prod_short.md)] logiken ”Lägsta pris”. Logiken lägsta pris innebär att om enhetspriset som anges på artikelkortet är lägre än vad som anges i prisgruppen används enhetspriset från artikelkortet.
+* När du fastställer ett pris använder [!INCLUDE[prod_short](../includes/prod_short.md)] logiken ”Lägsta pris”. Den lägsta pris logiken ignorerar emellertid det a-pris som har definierats på artikelkortet om ett pris har definierats i prisgruppen. Detta gäller även om a-priset från artikelns kortpris inte är lägre.
+* För att beräkna priser skapar kopplingen en tillfällig försäljningsoffert för artikeln med antal 1 och använder logik för standard prisberäkning. Endast priser och rabatter som gäller för antal 1 används. Du kan inte exportera olika priser eller rabatter baserat på kvantitet.
 
 ## Synkronisera lager med Shopify
 
@@ -220,7 +228,7 @@ Lagersynkronisering kan konfigureras för artiklar som redan synkroniserats. Tv�
 3. Välj åtgärden **Platser** för att öppna **Shopify-butiksplatser**.
 4. Välj åtgärden **Hämta Shopify-platser** för att importera alla platser som har definierats i Shopify. Du hittar dem i inställningarna för [**Platser**](https://www.shopify.com/admin/settings/locations) under **Shopify-admin**.
 5. I fältet **Platsfilter** lägger du till platser om du endast vill inkludera lager från specifika platser. Du kan ange *ÖST|VÄST*, så att lager från enbart dessa två platser är tillgängligt för försäljning via onlinebutiken.
-6. Avmarkera reglaget **Inaktiverad** för att aktivera lagersynkronisering för utvalda Shopify-platser.
+6. Välj den lager beräkningsmetod som ska användas för de valda Shopify lagerställena.
 
 Du kan starta lagersynkronisering på de två sätt som beskrivs nedan.
 
@@ -237,9 +245,10 @@ Du kan starta lagersynkronisering på de två sätt som beskrivs nedan.
 
 ### Lageranmärkningar
 
-* Kopplingen beräknar **Prognostiserat tillgängligt saldo** vid aktuellt datum och exporterar det till Shopify.
+* Standardmetoden för lagerberäkning har **projekterats tillgängligt saldo t.o.m. datum**. Med utökning kan du lägga till fler alternativ. Om du vill veta mer om utökning, gå till [exempel](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * Du kan inspektera lagerinformationen från Shopify på sidan **Faktabox om Shopify-lager**. I den här faktaboxen får du en översikt över Shopify-lagret och det senast beräknade lagret i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finns en post per plats.
 * Om lagerinformationen i Shopify skiljer sig från **Prognostiserat tillgängligt saldo** i [!INCLUDE[prod_short](../includes/prod_short.md)] uppdateras lagret i Shopify.
+* När du lägger till ett nytt lagerställe i Shopify måste du också lägga till lagerposter för det. Shopify gör det inte automatiskt för befintliga produkter och varianter och anslutningsprogram kommer inte att synkronisera lagernivåer för sådana artiklar på det nya lagerstället. Om du vill ha mer information går du till [tilldela lager till lagerställen](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
 #### Exempel på beräkning av planerad disponibel balans
 

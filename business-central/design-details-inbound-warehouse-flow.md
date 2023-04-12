@@ -48,11 +48,6 @@ I metoderna A, B och C kombineras inleverans och artikelinförsel i ett steg nä
 > * Lagerartikelinförsel som används i metod B, tillsammans med registrering av artikelinförselinformation, bokför även inleveransen av källdokumentet.
 > * Distributionslagerinförsel som används i metod D kan inte bokföras och endast registrera artikelinförsel. Registreringen gör artiklarna tillgängliga för vidare bearbetning men bokför inte inleveransen. I det ankommande flödet kräver distributionslagerinförsel en distributionslagerinleverans.
 
-> [!NOTE]
-> Även om distributionslagerinförslar och lagerartikelinförslar låter liknande, är de olika dokument och används i olika processer.
-> * Lagerartikelinförsel som används i metod B, tillsammans med registrering av artikelinförselinformation, bokför även inleveransen av källdokumentet.
-> * Distributionslagerinförsel som används i metod D kan inte bokföras och endast registrera artikelinförsel. Registreringen gör artiklarna tillgängliga för vidare bearbetning men bokför inte inleveransen. I det ankommande flödet kräver distributionslagerinförsel en distributionslagerinleverans.
-
 ## Ingen tilldelad distributionslageraktivitet
 
 I följande artiklar finns information om hur du behandlar inleveranser för källdokument om du inte har särskilda lageraktiviteter.

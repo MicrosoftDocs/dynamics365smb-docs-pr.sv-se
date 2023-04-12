@@ -68,6 +68,7 @@ Med funktionen aktiverad kan en returtransaktion endast bokföras genom att ange
 | Hantera affärsinteraktion med leverantörerna, importera mottagna fakturadokument och registrera nya leverantörer med hjälp av e-postklienten för Outlook. | [Konfigurera Business Central-tillägget för Outlook](admin-outlook.md) |
 | Granska utgiftskvitton, konvertera papper och elektroniska dokument till journalrader och digitala pappersfakturor från leverantörer. | [Ställa in inkommande dokument](across-how-setup-income-documents.md) |
 | Ange standardrapporter som ska användas för olika dokumenttyper. |[Rapportval i Business Central](across-report-selections.md)|
+|Ange om användare tillåts bokföra inköpsfakturor och om de måste bokföra tillsammans med en leverans. |[Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)|
 
 ## Se relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 

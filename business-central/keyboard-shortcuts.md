@@ -3,12 +3,12 @@ title: Kortkommandon
 description: En fullständig lista över kombinationer av kortkommandon för att arbeta effektivt med dina data.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Kortkommandon
@@ -39,6 +39,7 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 
 |Välj dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Visa snabbtangenter för att markera åtgärder i åtgärdsfältet och på navigeringsmenyn på sidan. Mer information finns i [snabbtangenter](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>Uppil</kbd>|Öppna en listruta eller leta upp ett värde för ett fält.|
 |<kbd>Alt</kbd>+<kbd>Uppil</kbd>|Visa knappbeskrivning för ett fält eller en kolumnrubrik i en tabell. Om det finns valideringsfel för fältet, välj <kbd>Alt</kbd>+<kbd>Uppil</kbd> för att visa valideringsfelet. Välj <kbd>Esc</kbd> eller <kbd>Alt</kbd>+<kbd>Uppil</kbd> för att stänga knappbeskrivningen.|
 |<kbd>F2</kbd>|Växla för att växla mellan att markera hela fältets värde eller att placera markören på slutet av fältets värde.|
@@ -51,7 +52,7 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> |Stäng en nyligen skapad sida och öppna en ny för att skapa en ny post. På samma sätt bokför <kbd>Alt</kbd>+<kbd>F9</kbd> ett dokument och skapar ett nytt.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Öppna sidan **Mina inställningar**.|
 |<kbd>Alt</kbd>+<kbd>Högerpil</kbd>|Slå upp ytterligare information eller underliggande värden för ett fält som innehåller knappen ![AssistEdit](media/assist-edit-icon.png "Knappen AssistEdit"). knappen. Detta används när den vanliga listruteknappen (<kbd>Alt</kbd>+<kbd>Uppil</kbd>) i samma fält används för ett annat syfte.|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Visa information på företagsbrickan. Det här kortkommandot slutade användas i Business Central 2022, utgivningscykel 2 (version 21) och ersattes av <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>|Visa information på företagsbrickan. Med början i Business Central 2022, utgivningscykel 2 (version 21) stöds inte längre denna genväg och ersattes av <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Öppna och stäng sidinspektionsrutan. Sidinspektionsrutan visar information om sidan, t. ex. dess källtabell, fält, filter, tillägg och annat.<br /><br />Mer information finns i [Inspektionssidor](across-inspect-page.md).|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Kopiera värdet i fältet. Om fältet är i fokus och du inte har valt någon text i fältet, kommer hela värdet att kopieras. Om du har markerat en text i fältet, kopieras endast den markerade texten.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Öppna [hjälpfönstret](product-help-and-support.md#help-pane) eller en Business Central-hjälpartikel på [Microsoft Learn](/dynamics365/business-central/), beroende på din Business Central-version.|
@@ -245,6 +246,19 @@ I följande tabell beskriver kortkommandon på en numerisk knappsats.
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Decimalavgränsare</kbd>|Ändra resultatet av decimal tecknet till antingen en punkt (.) eller det tecken som bestäms av inställningen **region** på sidan **mina inställningar**. För mer information, se [Ange decimalavgränsare som används av numeriska tangentbord](ui-enter-data.md#decimal).|
 
+
+## Snabbtangenter för åtgärdsfält och navigeringsmeny
+
+Snabbtangenter är kortkommandon som markerar specifika åtgärder på åtgärdsfältet och på navigeringsmenyn, så att du kan navigera i instruktioner för att komma till den sida du vill ha. Snabbtangenter är tillgängliga i Business Central webbklient och liknar snabbtangenter i Excel och Word Online.  
+
+Om du vill använda snabbtangenter på en sida väljer du <kbd>Alt</kbd>-tangenten för att visa *tangentbeskrivningar*, som är bokstäver i små rutor bredvid åtgärderna i åtgärdsfältet och på menynnavigering. 
+
+![Bild som visar snabbtangenter på listsidan för kunder.](media/access-keys.png) 
+
+Välj en åtgärd genom att välja den tangentkombination som visas i tangentbeskrivningar, t.ex. <kbd>H</kbd> eller <kbd>J</kbd>+<kbd>F</kbd>.
+- Om åtgärden öppnas på en undermeny med andra åtgärder, visas tangentbeskrivningar för undermenyn så att du kan fortsätta använda snabbtangenter om du vill.
+- Om åtgärden öppnar en annan sida inaktiveras tangentbeskrivningar. För att visa dem igen väljer du <kbd>Alt</kbd>-tangenten. 
+ 
 ## Se även
 
 [Snabbguide för kortkommandon – endast dator](keyboard-shortcuts-cheatsheet.md)  

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000846, 99000850'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Batch-bokföra produktionsförbrukning
 
 Om bokföringsmetoden är **Manuell**, måste du bokföra komponenterna manuellt med hjälp av en förbrukningsjournaler.  
 
->[!NOTE]
+> [!NOTE]
 > Om du har markerat fältet **Begär plockning** på lagerställekortet för att ange att lagerstället kräver bearbetning av lagerplockning, behöver du inte använda det här batch-jobbet. [!INCLUDE[prod_short](includes/prod_short.md)] hanterar förbrukningen när du bokför lagerplockning. Mer information finns i [Plocka för produktion i grundläggande distributionslagerkonfigurationer](warehouse-how-to-pick-for-production.md).  
 
 Du kan också ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att automatiskt bokföra (*bokföra*) komponenter när du startar eller färdigställer produktionsorder. Mer information finns i [Tillåta bokföring av komponenter enligt operationens utflöde](production-how-to-flush-components-according-to-operation-output.md).
@@ -30,6 +30,8 @@ Du kan också ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att
     > Om du har konfigurerat platskortet för att kräva bearbetning av lagerplockning kan endast kvantiteter som redan plockas genom en lageraktivitet anges i fältet **Antal** på sidan **Förbrukningsjournal** inte någon beräknad kvantitet.. Mer information finns i [Plocka för produktion eller montering i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 3. Välj åtgärden **Bokför** om du vill bokföra förbrukningen. De relaterade varulagret minskas.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Se även
 

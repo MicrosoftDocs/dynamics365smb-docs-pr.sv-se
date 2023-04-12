@@ -53,7 +53,7 @@ Kvalitetskontrollanten Rickard utreder en försäljningsretur av artikel 1002, R
 - Vilket parti med racercykelramar som var defekt.  
 - Vilken inköpsorder det defekta partiet togs emot för.  
 
-Från försäljningsavdelningen får kvalitetskontrollanten veta att den returnerade racercykeln, artikel 1002, hade serienumret SN1. Med denna grundläggande information måste han fastställa var den färdiga racercykeln senast användes och sedan måste han spåra baklänges till tidigaste möjliga ursprung för att fastställa vilket partinummer den trasiga komponenten, d.v.s. cykelramen, kommer från.  
+Från försäljningsavdelningen får kvalitetskontrollanten veta att den returnerade racercykeln, artikel 1002, hade serienumret SN1. Med denna grundläggande information måste de fastställa var den färdiga racercykeln senast användes och sedan måste de spåra baklänges till tidigaste möjliga ursprung för att fastställa vilket partinummer den trasiga komponenten, d.v.s. cykelramen, kommer från.  
 
 Resultatet av den här första artikelspårningsuppgiften identifierar vilka racerramar som var defekta och vilken leverantör som levererat dessa. Sedan, men genom samma övergripande spårningsprocess, måste kvalitetskontrollanten leta upp alla de racercyklar med racerramar från det defekta partiet som sålts, så att dessa order kan stoppas eller återkallas. Slutligen måste kvalitetskontrollanten hitta eventuella öppna dokument där det defekta partiet används så att inga ytterligare transaktioner skapas med det.  
 
@@ -225,7 +225,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
 ## Spåra från förbrukning till ursprung
 
- Från försäljningsavdelningen får kvalitetskontrollanten veta att den returnerade racercykeln, artikel 1002, har serienumret SN1. Genom att använda den grundläggande informationen kan han fastställa var den färdiga racercykeln senast användes, i det här fallet för försäljningsutleveransen till Service AB. Sedan måste kvalitetskontrollanten spåra baklänges till tidigaste möjliga ursprung för att fastställa vilket partinummer den trasiga in ramen kommer ifrån och vilken leverantör som levererat den.  
+ Från försäljningsavdelningen får kvalitetskontrollanten veta att den returnerade racercykeln, artikel 1002, har serienumret SN1. Genom att använda den grundläggande informationen kan de fastställa var den färdiga racercykeln senast användes, i det här fallet för försäljningsutleveransen till Service AB. Sedan måste kvalitetskontrollanten spåra baklänges till tidigaste möjliga ursprung för att fastställa vilket partinummer den trasiga in ramen kommer ifrån och vilken leverantör som levererat den.  
 
 ### Så här fastställer du vilket parti den defekta ramen förekom i och vem som levererade den
 
@@ -256,7 +256,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
 ## Spåra från ursprung till förbrukning
 
- Kvalitetskontrollanten har fastställt att de defekta racercykelramarna kommer från PARTI1. Nu måste han/hon leta reda på eventuella andra racercyklar som innehåller ramar från det defekta partiet så att dessa cyklar kan stoppas eller återkallas.  
+ Kvalitetskontrollanten har fastställt att de defekta racercykelramarna kommer från PARTI1. Nu måste de leta reda på eventuella andra racercyklar som innehåller ramar från det defekta partiet så att dessa cyklar kan stoppas eller återkallas.  
 
  Ett sätt att förbereda den här spårningsuppgiften på sidan **Artikelspårning** är att manuellt ange LOT1 i fältet **Partinrfilter** och 2000 i fälte **Artikelfilter**. I den här genomgången använder vi emellertid funktionen **Spåra motsatt – från rad**.  
 
@@ -274,7 +274,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Kvalitetskontrollanten informerar genast försäljningsavdelningen så att de kan sätta igång och återkalla den defekta racercykeln från kunden, Fotograferna AB.  
 
-    Samtidigt kan han av de sista tre spårningsraderna utläsa att ytterligare två artiklar, SN3 och SN4, har producerats baserat på racercykelramar från PARTI1. Kvalitetskontrollanten vidtar en åtgärd för att spärra dessa två slutprodukter i lagret.  
+    Samtidigt kan de av de sista tre spårningsraderna utläsa att ytterligare två artiklar, SN3 och SN4, har producerats baserat på racercykelramar från PARTI1. Kvalitetskontrollanten vidtar en åtgärd för att spärra dessa två slutprodukter i lagret.  
 
     Nu är du klar med den andra defekthanteringsuppgiften med hjälp av sidan **Artikelspårning** för defekthantering. Eftersom sidan **Artikelspårning** endast bygger på bokförda poster måste kvalitetskontrollanten fortsätta till sidan **Hitta transaktioner** för att säkerställa att PARTI1 inte förekommer i icke-bokförda dokument.  
 

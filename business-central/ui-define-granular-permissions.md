@@ -2,17 +2,17 @@
 title: Definiera detaljerade behörigheter
 description: I den här artikeln beskrivs hur du definierar detaljerade behörigheter och tilldelar varje användare de behörighetsgrupper som de behöver för att utföra sina jobb.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 11/29/2022
-ms.author: bholtorf
+ms.date: 02/08/2023
 ---
 
 # Tilldela behörigheter till användare och grupper
+
+[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-säkerhetssystemet kontrollerar vilka objekt som en användare har åtkomst till i varje databas eller miljö, i kombination med användarens licens. För varje användare kan du ange om de kan läsa, ändra eller ange data i databasobjekten. Mer information finns i [Datasäkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjälpen för utvecklare och administrationsinnehåll för [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -26,16 +26,16 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] finns det två behörighetsniv�
 
 - Detaljerad behörighet som du tilldelar i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-  I den här artikeln beskrivs hur du kan definiera, använda och tillämpa behörigheter i [!INCLUDE [prod_short](includes/prod_short.md)] för att ändra standardkonfigurationen.  
+I den här artikeln beskrivs hur du kan definiera, använda och tillämpa behörigheter i [!INCLUDE [prod_short](includes/prod_short.md)] för att ändra standardkonfigurationen.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Mer information finns i [Tilldelad administratörsåtkomst till Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] Online innehåller standard användargrupper som tilldelas användare automatiskt baserat på deras licens. Du kan ändra standardkonfigurationen genom att ändra eller lägga till användargrupper, behörighetsgrupper och behörigheter. I följande tabell beskrivs viktiga scenarier för ändring av standardbehörigheterna.  
+[!INCLUDE [prod_short](includes/prod_short.md)] Online innehåller standard användargrupper som tilldelas användare automatiskt baserat på deras licens. Du kan ändra standardkonfigurationen genom att ändra eller lägga till säkerhetsgrupper, behörighetsgrupper och behörigheter. I följande tabell beskrivs viktiga scenarier för ändring av standardbehörigheterna.  
 
 |Om du vill  |Gå till  |
 |---------|---------|
-|För att göra det enklare att hantera behörigheter för flera användare kan du ordna dem i användargrupper och sedan tilldela eller ändra en behörighetsuppsättning för många användare med en åtgärd.| [Hantera behörigheter via användargrupper](#to-manage-permissions-through-user-groups) |
+|För att göra det enklare att hantera behörigheter för flera användare kan du ordna dem i säkerhetsgrupper och sedan tilldela eller ändra en behörighetsuppsättning för många användare med en åtgärd.| [Hantera behörigheter via användargrupper](#to-manage-permissions-through-user-groups) |
 |Så här hanterar du behörighetsgrupper för specifika användare | [Så här tilldelar behörighetsuppsättningar till användare](#to-assign-permission-sets-to-users) |
 |Så här definierar du en behörighetsuppsättning|[Skapa behörighetsuppsättning](#to-create-a-permission-set)|
 |För att visa eller felsöka en användares behörigheter|[Så här får du en översikt en användares behörigheter](#to-get-an-overview-of-a-users-permissions)|
@@ -76,11 +76,11 @@ Underhåll är också lättare. När du lägger till systembehörighet uppdatera
   |**Reducera till indirekt**|Ändra åtkomstnivån till Indirekt om någon behörighetsuppsättning ger direkt åtkomst till objektet. Du kan till exempel välja det här alternativet om behörighetsuppsättningen ger direkt åtkomst till redovisningstransaktioner, men du vill inte att användarna ska ha fullständig åtkomst till transaktionerna.|
   
   > [!NOTE]
-  > Den högsta behörighetsuppsättningen i hierarkin avgör om behörigheten inkluderas eller exkluderas. Om två uppsättningar finns på samma nivå i hierarkin och en behörighet inkluderas i en uppsättning, men exkluderas i den andra, kommer behörigheten att undantas.
+  > Om en behörighet både tas med och utesluts kommer behörigheten att uteslutas.
 
 6. Använd fälten **Objekttyp** och **Objekt-ID** för att ange vilket objekt du ger åtkomst till.
 
-> [!TIP]
+  > [!TIP]
   > Nya rader innehåller standardvärden. Till exempel innehåller fältet **Objekttyp** **Tabelldata** och fältet **Objekt-ID** innehåller **0**. Standardvärdena är bara platshållare och används inte. Du måste välja en typ av objekt och ett objekt i fältet **Objekt-ID** innan du kan skapa en ny rad.
 
 7. Valfritt: Om du definierar behörigheter för ett objekt av typen Tabelldata kan du i fältet **Säkerhetsfilter** filtrera data som en användare kan öppna i fält i den valda tabellen. Du kanske till exempel vill låta en användare endast komma åt de poster som innehåller information om en viss kund. Mer information finns i [Säkerhetsfilter begränsar användarens åtkomst till specifika poster i en tabell](#security-filters-limit-a-users-access-to-specific-records-in-a-table) och [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -105,9 +105,16 @@ I rutan **Resultat** använder du fältet **Inkluderingsstatus** för att identi
 
 Om du vill ha en översikt över behörigheterna i behörighetsuppsättningen väljer du åtgärden **Visa alla behörigheter**. På sidan **Utökade behörigheter** visas alla behörigheter som redan tilldelats behörighetsuppsättningen och behörigheterna i de tillagda behörighetsuppsättningarna.
 
-För att helt utesluta en behörighetsuppsättning som du har lagt till går du till rutan **Resultat**, väljer raden, väljer **Visa fler alternativ** och sedan **Uteslut**. När du utesluter en behörighetsuppsättning skapas en rad i rutan **Behörighetsuppsättningar** av typen Utesluten. Om du har uteslutit en behörighetsuppsättning, men vill ta med den igen, tar du bort raden i rutan **Behörighetsuppsättningar**.
+För att helt utesluta alla behörigheter från en behörighetsuppsättning som du har lagt till går du till rutan **Resultat**, väljer raden, väljer **Visa fler alternativ** och sedan **Uteslut**. När du utesluter en behörighetsuppsättning skapas en rad i rutan **Behörighetsuppsättningar** av typen Utesluten. Om du har uteslutit en behörighetsuppsättning, men vill ta med den igen, tar du bort raden i rutan **Behörighetsuppsättningar**.
 
-Om du vill utesluta eller delvis utesluta en viss behörighet i en uppsättning som du har lagt till, skapar du en rad för objektet under **Behörigheter**. Fälten för åtkomstnivå, Infoga behörighet, Ändra behörighet och så vidare innehåller alla Uteslut. Om du vill tillåta en viss åtkomstnivå väljer du lämpligt alternativ.
+Om du vill utesluta eller delvis utesluta en viss behörighet i en uppsättning som du har lagt till, skapar du en rad för objektet under **Behörigheter**. Fälten för åtkomstnivå, Infoga behörighet, Ändra behörighet och så vidare innehåller alla **Uteslut**. Om du vill tillåta en viss åtkomstnivå väljer du lämpligt alternativ.
+
+> [!NOTE]
+> Om du utesluter en behörighetsgrupp utesluts alla behörigheter i uppsättningen. [!INCLUDE [prod_short](includes/prod_short.md)] beräknar behörigheterna som följer:
+
+> 1. Beräkna den fullständiga listan med inkluderade behörigheter
+> 2. Beräkna den fullständiga listan med uteslutna behörigheter
+> 3. Ta bort uteslutna behörigheter från listan över inkluderade behörigheter (borttagning av indirekt behörighet är detsamma som att minska till indirekt)
 
 ## Att kopiera behörighetsuppsättning
 
@@ -135,7 +142,7 @@ Skapa en ny behörighetsuppsättning genom att kopiera en annan. Den nya uppsät
 2. På sida **Behörighetsuppsättningar** väljer du åtgärden **Ny**.
 3. Fyll i fälten på en ny rad efter behov.
 4. Välj åtgärden **Behörigheter**.
-1. På sidan **behörigheter** väljer åtgärden **postbehörigheter** och välj sedan åtgärden **startar**.  
+5. På sidan **behörigheter** väljer åtgärden **postbehörigheter** och välj sedan åtgärden **startar**.  
     Inspelning måste göras antingen genom att använda (popup) funktionen **Öppna denna sida i ett nytt fönster new windows** för att ha inspelningsfönstret **behörigheter** bredvid eller genom att arbeta i samma flik.  
     En registreringsprocess startar nu som fångar alla dina åtgärder i användargränssnittet.
 6. Gå till olika sidor och aktiviteter i [!INCLUDE[prod_short](includes/prod_short.md)] som du vill att användare med denna behörighetsuppsättning ska lägga till. Du måste utföra de aktiviteter som du vill registrera behörigheter för.
@@ -166,7 +173,7 @@ Behörighetsgrupperna importeras.
 
 ## Ta bort föråldrade behörigheter från alla behörighetsgrupper
 
-1. På sidan **Behörighetsuppsättningar**, välj åtgärden **Ta bort inaktuella behörigheter**.
+På sidan **Behörighetsuppsättningar**, välj åtgärden **Ta bort inaktuella behörigheter**.
 
 ## Så här ställer du in tidsbegränsningar för användare
 

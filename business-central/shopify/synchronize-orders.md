@@ -28,7 +28,9 @@ En vanlig Shopify-order kan inkludera kostnader förutom delsumman, till exempel
 
 Aktivera **Skapa ordrar automatiskt** för att automatiskt skapa försäljningsdokument i [!INCLUDE[prod_short](../includes/prod_short.md)] när Shopify-ordern har importerats.
 
-Försäljningsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] innehåller en länk till Shopify-ordern. Om du aktiverar **Shopify-ordernr på dokumentraden** upprepas den här informationen på försäljningsraden som *Kommentar*.
+Om du vill släppa ett försäljningsdokument automatiskt aktiverar du alternativet **Frisläpp försäljningsorder automatiskt**.
+
+Försäljningsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] länkar till Shopify ordern, och du kan lägga till ett fält som inte redan visas på sidan. Om du vill veta mer om hur du lägger till ett fält går du till [Börja anpassa en sida med banderollen **Anpassa**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Om du aktiverar **Shopify-ordernr på dokumentraden** upprepas den här informationen på försäljningsraden som **Kommentar**.
 
 I fältet **Skatteområdeskälla** kan du definiera prioritet för hur skatteområdeskod eller rörelsebokföringsmallar för moms ska väljas baserat på adress. Den importerade Shopify ordern innehåller information om skatt, men momsen kommer att räknas om när du skapar försäljnings dokumentet så det är viktigt att moms-och moms inställningarna är korrekta i [!INCLUDE[prod_short](../includes/prod_short.md)]. Mer information om moms finns i [ställa in moms för Shopify anslutningen](setup-taxes.md).
 
@@ -75,7 +77,7 @@ Följande förfarande beskriver hur du importerar och uppdaterar försäljningso
 > [!NOTE]  
 > När du filtrerar efter tagg bör du använda filtertoken `@` och `*`. Om du t. ex. vill importera order som innehåller *tag1* använder du `@*tag1*`. `@` kommer att säkerställa att resultatet är skiftlägesokänsligt, medan `*` hitta beställningar med flera taggar.
 
-7. Välj **OK**.
+6. Välj **OK**.
 
 Du kan också söka efter batchjobbet **Synkronisera ordrar från Shopify**.
 
@@ -132,20 +134,24 @@ Nästa steg beror på **Kundmappningstyp**.
 
 I Shopify:
 
-|Redigera|Påverkan|
-|------|-----------|
-|Ändra uppfyllelseplatsen | Den ursprungliga platsen kommer att synkroniseras med [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Ändra plats för uppfyllelse och registrera uppfyllelse i Shopify| Om ordern redan har importerats uppdateras inte rader. I annan importerad order används plats för uppfyllelse. |
-|Redigera en order och ändra antal| Order huvud och tilläggs tabeller uppdateras på [!INCLUDE[prod_short](../includes/prod_short.md)] rader. |
-|Redigera en order och lägg till nytt objekt | Orderrubriken uppdateras, raderna kommer inte att uppdateras. |
+|Redigera|Påverkan för redan importerad order|Påverkan för order som importeras för första gången|
+|------|-----------|-----------|
+|Ändra uppfyllelseplatsen | Den ursprungliga platsen är i rader | En uppfyllelseplats är synkroniserad med [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Redigera en order och öka antal| Orderhuvud och tilläggstabeller uppdateras på [!INCLUDE[prod_short](../includes/prod_short.md)] rader.| Importerad order kommer att använda ny kvantitet|
+|Redigera en order och minska antal| Orderhuvud och tilläggstabeller uppdateras på [!INCLUDE[prod_short](../includes/prod_short.md)] rader.| Den importerade ordern kommer att använda den ursprungliga kvantiteten, fältet bevarat antal innehåller ett nytt värde.|
+|Redigera en order och ta bort befintlig artikel | Orderhuvud och tilläggstabeller uppdateras på [!INCLUDE[prod_short](../includes/prod_short.md)] rader.| Borttagen artikel importeras fortfarande kommer fältet uppfyllt antal att innehålla noll. |
+|Redigera en order och lägg till nytt objekt | Orderrubriken uppdateras, raderna kommer inte att uppdateras. | Ursprungliga och tillagda objekt kommer att importeras. |
+|Bearbetningsorder: uppfyllelse, uppdatera betalningsinformation | Orderrubriken uppdateras, raderna kommer inte att uppdateras. |Ändringen påverkar inte hur order importeras.|
+|Annullera order | Orderrubriken uppdateras, raderna kommer inte att uppdateras. |Annullerad order importeras inte |
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Redigera|Påverkan|
 |------|-----------|
-|Ändra platsen till en annan plats, mappad till Shopify platserna. Bokför leverans. | När uppfyllelse har synkroniserats uppdateras platsen i Shopify. |
+|Ändra platsen till en annan plats, mappad till Shopify platserna. Bokför leverans. | Ordern markeras som uppfylld. Den ursprungliga platsen kommer att användas. |
 |Ändra platsen till en annan plats, mappad inte till Shopify platserna. Bokför leverans. | Uppfyllelse kommer inte att synkroniseras med Shopify. |
-|Ändra minsknings antal. Bokför leverans. | Ordern i Shopify markeras som delvis uppfylld. |
+|Minska antal. Bokför leverans. | Ordern i Shopify markeras som delvis uppfylld. |
+|Öka antal. Bokför leverans. | Uppfyllelse kommer inte att synkroniseras med Shopify. |
 |Lägg till ett nytt objekt. Bokför leverans. | Ordern i Shopify markeras som uppfylld. Raderna uppdateras inte. |
 
 ## Synkronisera försändelser till Shopify
@@ -162,7 +168,8 @@ Du kan också använda åtgärden **Synkronisera utleveranser** på sidorna Shop
 
 Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Läs mer i [Schemalägg återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
->[Viktigt] Platsen, inklusive tom plats, som definieras i raden Bokad leverans måste ha en matchande post i Shopify plats. Annars kommer den här raden inte att skickas tillbaka till Shopify. Lära dig mer på [platsmappning](synchronize-orders.md#location-mapping).
+>[!Important]
+>Platsen, inklusive tom plats, som definieras i raden Bokad leverans måste ha en matchande post i Shopify plats. Annars kommer den här raden inte att skickas tillbaka till Shopify. Lära dig mer på [platsmappning](synchronize-orders.md#location-mapping).
 
 Glöm inte att köra **Synkronisera ordrar från Shopify** för att uppdatera uppfyllandestatusen för ordern i [!INCLUDE[prod_short](../includes/prod_short.md)]. Kopplingsfunktionen arkiverar också helt betalda och uppfyllda ordrar i både Shopify och [!INCLUDE[prod_short](../includes/prod_short.md)] under förutsättning att villkoren uppfylls.
 

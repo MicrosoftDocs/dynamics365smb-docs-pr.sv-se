@@ -86,8 +86,9 @@ När du väl har Excel-layoutfilen är nästa uppgift att lägga till den som en
 3. Ställ in **Rapport-ID** till *Rapport*.
 4. Ange ett namn i **Layoutnamn**.
 5. Ange **formatalternativ** för **Excel**.
-6. Välj **OK** > **Välj** för att öppna Utforskaren på enheten.
-7. Hitta och välj Excel-filen och välj sedan **Öppna**.
+6. Välj **OK**, gör sedan ett av följande steg för att ladda upp layoutfilen för rapporten:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Den valda filen överförs till layouten så öppnas sidan **Rapportlayout**.
 8. För att se hur rapporten ser ut i den nya layouten väljer du layouten från listan och väljer sedan **Kör rapport**.

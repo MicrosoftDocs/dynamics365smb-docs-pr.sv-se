@@ -2,13 +2,13 @@
 title: Hantera Microsoft Teams-integrering med Business Central| Microsoft Docs
 description: Hantera Business Central-integrering med Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
-ms.date: 11/03/2022
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
 
 # Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -82,7 +82,7 @@ Microsoft Teams administratörscentret konfigurerar Teams principer för program
 > [!NOTE]
 > För att kunna konfigurera centraliserad distribution måste ditt Teams-konto ha rollen **Teams-tjänstadministratör** eller rollen **global administratör**.
 
-1. I Business Central, välj ![Förstoringsglas som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ikonen, ange **Teams-app centraliserad distribution** och sedan väljer du relaterad länk. Du kan även klicka [här](https://businesscentral.dynamics.com/?page=1833) om du vill öppna sidan direkt.
+1. I Business Central, välj ![Förstoringsglas som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **Teams-app centraliserad distribution** och sedan väljer du relaterad länk. Du kan även klicka [här](https://businesscentral.dynamics.com/?page=1833) om du vill öppna sidan direkt.
 2. Läs informationen i **ställa in Business Central-appen för Teams** och välj sedan **Nästa** när du är klar.
 3. Öppna [administrationscentret Teams](https://go.microsoft.com/fwlink/?linkid=2163970) och utför följande steg.
     1. Gå till **Teams-appar** > **inställningsprinciper**.
@@ -91,7 +91,7 @@ Microsoft Teams administratörscentret konfigurerar Teams principer för program
     4. Välj **Lägg till**.
 
        Business Central ska nu visas under **installerade appar** för principen.
-    5. Konfigurera ytterligare inställningar och välj **Spara**.
+    5. Konfigurera ytterligare inställningar efter behov och välj **Spara**.
 
     Mer information om inställningsprinciper i Teams finns i [Hantera principer för programkonfiguration i Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) i Teams-dokumentationen.
 4. Gå tillbaka till **Teams-app centraliserad distribution** i Business Central och välj **klar**.
@@ -126,7 +126,27 @@ Funktionerna för innehållssökning och eDiscovery-efterlevnad i säkerhets- oc
 
 Eftersom kortdata i Teams är en kopia av data i [!INCLUDE [prod_short](includes/prod_short.md)] kan du också använda [!INCLUDE [prod_short](includes/prod_short.md)]-funktioner för att exportera en kunds data vid behov. Mer information om sekretess i [!INCLUDE [prod_short](includes/prod_short.md)] finns i avsnittet [Vanliga frågor och svar om sekretess för Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
+## Visa eller dölja postdata på kort
+
+När en post delas med andra i en Teams-chatt eller kanal visas ett kort med fält som innehåller information om posten. Alla mottagare kan visa dessa data (eller postsammanfattning) som standard, oavsett licens eller behörigheter i Business Central. Om du är administratör kan du använda guiden för assisterad konfiguration **Kortinställningar** för att dölja postsammanfattningen så att den inte visas på kort i Teams. Om du döljer postsammanfattningen tas alla fält och bilder bort, men knappen **information** och annan information som inte rör posten visas fortfarande på kortet.
+
+|Postsammanfattning aktiverad|Postsammanfattning inaktiverad|
+|-|-|
+|![Bild som visar ett kort i Teams när postsammanfattning har aktiverats.](media/card-settings-example-on.png)|![Bild som visar ett kort i Teams när postsammanfattning har inaktiverats.](media/card-settings-example-off.png)|
+
+Du konfigurerar inställningen per miljö. När du aktiverar eller inaktiverar postsammanfattningen påverkar det alla företag i miljön.
+
+1. Öppna den miljö som du vill ändra i Business Central.
+
+   > [!TIP]
+   > För att växla miljö, välj <kbd>Ctrl</kbd>+<kbd>O</kbd>.
+2. Välj den ![Förstoringsglas som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kortinställningar** och väljer sedan relaterad länk. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Läs informationen om **Kortinställningar** och välj **Nästa** när du är klar.
+4. På sidan **Datasynlighet** aktiverar du knappen **Visa postsammanfattning** för att visa data på korten eller inaktiverar du den för att dölja data.
+5. Klicka på **Nästa** och följ instruktionerna för att slutföra inställningsguiden.
+
 ## Se även
+
 [Integreringsöversikt för [!INCLUDE [prod_short](includes/prod_short.md)] och Microsoft Teams](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  
 [Vanliga frågor och Svar om Teams](teams-faq.md)  

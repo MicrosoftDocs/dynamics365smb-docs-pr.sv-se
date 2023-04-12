@@ -7,10 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Batch-bokför utflöde och körtider
+
 Utflödesantalet representerar arbetsförloppet i form av färdig kvantitet och utnyttjad kapacitet för produktions- eller maskingrupp.
 
 Du kan välja använda utflödesjournal för att:
@@ -22,7 +23,7 @@ Du kan välja använda utflödesjournal för att:
 > [!NOTE]
 > Om produktionens operationsföljd används uppdateras inventeringen endast när du bokför utflöde antal vid den senaste operationen.
 
-Med fönstret **Produktionsjournal** kan du utföra samma uppgifter som i fönstret **Utflödesjournal** och samtidigt utföra de relaterade bokföringsuppgifterna för förbrukningen. För mer information, se [Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad](production-how-to-register-consumption-and-output.md).
+På sidan **Produktionsjournal** kan du utföra samma uppgifter som på sidan **Utflödesjournal** och även bokföra förbrukningsuppgifter. För mer information, se [Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad](production-how-to-register-consumption-and-output.md).
 
 ## Om du vill bokföra utflödeskvantiteter och/eller registrera körtider för en eller flera produktionsorderrader
 
@@ -32,11 +33,11 @@ Med fönstret **Produktionsjournal** kan du utföra samma uppgifter som i fönst
     Du kan använda funktionen expandera **Expandera oper.följd** när du vill generera journalrader från produktionsorder.
   
 3. Om operationen har slutförts, välj fältet **FÄRDIG**.  
-4. Välj åtgärden **Bokför** om du vill bokföra operationer. 
+4. Välj åtgärden **Bokför** om du vill bokföra operationer.
 
-Kapacitetstransaktioner uppdateras för de använda produktions- eller maskingrupperna med information om tid och kvantitet av produktion och kassation.  
+    Kapacitetstransaktioner uppdateras för de använda produktions- eller maskingrupperna med information om tid och kvantitet av produktion och kassation. Om du har bokfört den sista operationen kommer artikeln att läggas till i lagret.
 
-Om du har bokfört den sista operationen kommer artikeln att läggas till i lagret.  
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Se även
 

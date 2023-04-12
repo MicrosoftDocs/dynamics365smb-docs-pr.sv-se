@@ -2,19 +2,17 @@
 title: Synkroniserar Business Central och Dataverse
 description: Lär dig mer om att synkronisera data mellan Business Central och Dataverse.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Schemalägga en synkronisering mellan Business Central och Dataverse
 
-
-Du kan synkronisera [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på schemalagda intervall, genom att ställa in projekt i jobbkön. Synkroniseringjobben synkroniserar data i [!INCLUDE[prod_short](includes/prod_short.md)]-poster och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-poster som har kopplats ihop tidigare. Eller för poster som inte redan är kopplade, beroende på synkroniseringsriktningen och reglerna, kan synkroniseringjobben skapa och koppla nya poster i målsystemet. 
+Du kan synkronisera [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på schemalagda intervall, genom att ställa in projekt i jobbkön. Synkroniseringjobben synkroniserar data i [!INCLUDE[prod_short](includes/prod_short.md)]-poster och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-poster som har kopplats ihop. För poster som inte redan är kopplade, beroende på synkroniseringsriktningen och reglerna, kan synkroniseringjobben skapa och koppla nya poster i målsystemet.
 
 Det finns flera synkroniseringsprojekt som är tillgängliga förinstallerade. Projekten körs i följande ordning i syfte att undvika kopplingsberoenden mellan tabeller. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
@@ -44,7 +42,7 @@ Varje köpost för synkroniseringsjobb använder en specifik integreringsregiste
 
 För att synkronisera data måste [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabellposter vara kopplade till [!INCLUDE[prod_short](includes/prod_short.md)]-poster. Till exempel måste en [!INCLUDE[prod_short](includes/prod_short.md)]-kund kopplas till ett [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-konto. Du kan skapa kopplingar manuellt, innan du kör synkroniseringjobben, eller låta synkroniseringsjobben ställa in kopplingar automatiskt. Följande lista beskriver hur data synkroniseras mellan [!INCLUDE[cds_long_md](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] när du vill använda synkroniseringsjobbköposterna. Mer information finns i [Koppla och synkronisera posterna manuellt](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- Kryssrutan **Synka endast kopplade poster** styr om nya poster skapas när du synkroniserar. Som standard är kryssrutan markerad, vilket innebär att endast de poster som är kopplade kommer att synkroniseras. I registermappningarna för integrering kan du ändra registermappningen mellan en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabell och en [!INCLUDE[prod_short](includes/prod_short.md)]-tabell, så att integreringssynkroniseringsjobben skapar nya poster i måldatabasen för varje rad i källdatabasen som inte är kopplad. Mer information finns i [Skapa nya poster](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- Kryssrutan **Synka endast kopplade poster** styr om nya poster skapas när du synkroniserar. Som standard är kryssrutan markerad, vilket innebär att endast de poster som är kopplade kommer att synkroniseras. I registermappningarna för integrering kan du ändra registermappningen mellan en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabell och en [!INCLUDE[prod_short](includes/prod_short.md)]-tabell, så att integreringssynkroniseringsjobben skapar nya poster i måldatabasen för varje rad i källdatabasen som inte är kopplad. Mer information finns i [Skapa nya poster](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Exempel** Om du avmarkerar kryssrutan **Synka endast kopplade poster** när du synkroniserar kunder i [!INCLUDE[prod_short](includes/prod_short.md)] med konton i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], skapas ett nytt konto för varje kund i [!INCLUDE[prod_short](includes/prod_short.md)] och kopplas automatiskt. Dessutom, eftersom synkroniseringen är dubbelriktad skapas och kopplas en ny kund för varje [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-konto som redan har kopplats.  
 
@@ -60,6 +58,7 @@ För att synkronisera data måste [!INCLUDE[cds_long_md](includes/cds_long_md.md
 - Med dubbelriktad synkronisering synkroniserar jobbet från [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] och sedan från [!INCLUDE[cds_long_md](includes/cds_long_md.md)] till [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Om timeout för inaktivitet
+
 Vissa jobbkötransaktioner, till exempel sådana som schemalägger synkronisering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[cds_long_md](includes/cds_long_md.md)], använder fältet **Timeout för inaktivitet** på SIDAN för jobbkötransaktion för att förhindra att jobbkötransaktionen körs i onödan.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Flödesschema för när jobbkötransaktioner spärras på grund av inaktivitet.":::

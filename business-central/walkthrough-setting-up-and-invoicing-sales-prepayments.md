@@ -39,15 +39,15 @@ Den här genomgången innehåller aktiviteter för följande roller:
 
 ## Situation
 
- Phyllis är redovisningschef. Hon fattar beslut om vilka kunder som måste betala en deposition innan artiklar tillverkas eller levereras. Phyllis lägger upp [!INCLUDE[prod_short](includes/prod_short.md)] för att beräkna förskottsbetalningar automatiskt.  
+ Phyllis är redovisningschef och fattar beslut om vilka kunder som måste betala en deposition innan artiklar tillverkas eller levereras. Phyllis lägger upp [!INCLUDE[prod_short](includes/prod_short.md)] för att beräkna förskottsbetalningar automatiskt.  
 
- Susan är försäljningsorderhandläggare. När en kund ringer in en order registrerar hon ordern i systemet medan kunden är i telefon. På så sätt kan hon verifiera priser och betalningsvillkor med kunden omedelbart, och hon kan göra ändringar i ordern medan hon förhandlar med kunden.  
+ Susan är försäljningsorderhandläggare. När en kund ringer in en order registrerar Susan ordern i systemet medan kunden är i telefon. På så sätt kan Susan verifiera priser och betalningsvillkor med kunden omedelbart, och hon kan göra ändringar i ordern medan hon förhandlar med kunden.  
 
  Arnie arbetar på kundreskontraavdelningen där han bokför fakturor och betalningar.  
 
  I det här scenariot lägger Phyllis upp förskottsbetalningskrav för kunden Service AB, baserat på deras kredithistorik. Phyllis ger Susans instruktioner för hur order ska hanteras.  
 
- När kunden ringer förhandlar Susan med kunden tills de når ett avtal. Hon kan sedan välja att beräkna förskottsbetalningen på flera olika sätt.  
+ När kunden ringer förhandlar Susan med kunden tills de når en överenskommelse och väljer sedan att beräkna förskottsbetalningen på flera olika sätt.  
 
  När Susan har skickat förskottsfakturan beställer kunden ytterligare en artikel. Susan uppdaterar order och skapar en förskottsfaktura.  
 
@@ -75,9 +75,9 @@ I följande procedurer beskrivs hur Phyllis uppgifter ska utföras:
 
 Nu kan du inte utleverera eller fakturera en order med ett obetalt förskottsbetalningsbelopp.  
 
-Phyllis kräver att kunden 20000 ska faktureras 30 % i förskott för alla order. Därför anger hon ett procentuellt standardvärde för förskottsbetalning.  
+Phyllis kräver att kunden 20000 ska faktureras 30 % i förskott för alla order. Därför anger Phyllis ett procentuellt standardvärde för förskottsbetalning.  
 
-Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 1896-S. Kunden 20000 har dålig betalningshistorik så hon kräver 40 % i förskottsbetalning från kund 20000 för artikel 1896-S. I följande exempel visas hur du lägger upp procentuella standardvärden för förskottsbetalningar.  
+Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 1896-S. Kunden 20000 har dålig betalningshistorik så Phyllis kräver 40 % i förskottsbetalning från kund 20000 för artikel 1896-S. I följande exempel visas hur du lägger upp procentuella standardvärden för förskottsbetalningar.  
 
 ### Så här tilldelar du kunder och artiklar procentuella standardvärden för förskottsbetalningar
 
@@ -165,7 +165,7 @@ När Susan har angett korrekta värden för förskottsbetalning av ordern skapar
 
 ## Skapa en ytterligare förskottsfaktura
 
-Följande dag ringer kunden upp Susan och ändrar ordern. Kunden vill ha två stycken av artikel 1896-S. Susan öppnar ordern igen och uppdaterar den. Hon skapar sedan en andra förskottsfaktura för ordern och skickar den till kunden.  
+Följande dag ringer kunden upp Susan och ändrar ordern. Kunden vill ha två stycken av artikel 1896-S. Susan öppnar ordern igen och uppdaterar den och skapar sedan ytterligare en förskottsfaktura för ordern och skickar den till kunden.  
 
 ### Så här skapar du ytterligare en förskottsfaktura
 

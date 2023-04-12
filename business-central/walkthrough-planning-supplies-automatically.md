@@ -47,11 +47,11 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 ## Situation  
  Kunden Fotograferna AB beställer fem touringcyklar för utleverans 2021-02-05 (5 februari).  
 
- Eduardo, produktionsplaneraren, utför den rutinmässiga leveransplaneringen till den första veckan i februari 2021. Han filtrerar på det egna lagerstället, ÖST, och anger ett planeringsintervall på arbetsdatumet (2021-01-23) till 2021-02-07 innan han beräknar en första leveransplanering.  
+ Eduardo, produktionsplaneraren, utför den rutinmässiga leveransplaneringen till den första veckan i februari 2021. Eduardo filtrerar på det egna lagerstället, ÖST, och anger ett planeringsintervall på arbetsdatumet (2021-01-23) till 2021-02-07 innan han beräknar en första leveransplanering.  
 
  Det enda behovet den veckan är för Fotograferna AB:s försäljningsorder. Eduardo ser att ingen av planeringsraderna har någon varning och han fortsätter att skapa leveransorder utan ändringar för de föreslagna planeringsraderna.  
 
- Nästa dag, innan någon av de ursprungliga leveransordrarna har påbörjats eller bokförts blir Eduardo underrättad om att en annan kund har beställt tio touringcyklar för utleverans 2021-02-12. Han gör en ny beräkning för att justera leveransplaneringen för att få med behovsändringen. Omberäkningen resulterar i en nettoändringsplanering som innehåller förslag på ändringar av både datum och kvantitet för en del av de leveransorder som skapades vid den första körningen.  
+ Nästa dag, innan någon av de ursprungliga leveransordrarna har påbörjats eller bokförts blir Eduardo underrättad om att en annan kund har beställt tio touringcyklar för utleverans 2021-02-12. Eduardo gör en ny beräkning för att justera leveransplaneringen för att få med behovsändringen. Omberäkningen resulterar i en nettoändringsplanering som innehåller förslag på ändringar av både datum och kvantitet för en del av de leveransorder som skapades vid den första körningen.  
 
  Under de olika planeringsstegen slår Eduardo upp de order som berörs och använder funktionen Orderspårning för att kontrollera vilka behov som täcks av vilka leveranser.  
 
@@ -80,7 +80,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
  Nu är du klar med att förbereda exempeldata för genomgången.  
 
 ## Skapa en fullständig leveransplanering  
- När en ny försäljningsorder på fem touringcyklar inkommer börjar Ricardo med planeringsprocessen genom att ange inställningar, filter och planeringsintervall för att exkludera alla övriga behov utom de för den första veckan i februari på lagerställe ÖST. Han börjar med att beräkna ett produktionsprogram inom filtren, och fortsätter sedan med att beräkna en fullständig leveransplanering för alla behov på lägre nivå (nettobehov).  
+ När en ny försäljningsorder på fem touringcyklar inkommer börjar Ricardo med planeringsprocessen genom att ange inställningar, filter och planeringsintervall för att exkludera alla övriga behov utom de för den första veckan i februari på lagerställe ÖST. Ricardo börjar med att beräkna ett produktionsprogram inom filtren, och fortsätter sedan med att beräkna en fullständig leveransplanering för alla behov på lägre nivå (nettobehov).  
 
 ### Så här skapar du försäljningsreturordern  
 
@@ -198,7 +198,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
  Du är nu klar med den första beräkningen, analysen och skapandet av en leveransplanering för behovet vid lagerställe ÖST under första veckan i februari. I följande avsnitt beställer en annan kund tio touringcyklar, vilket tvingar Eduardo att planera om.  
 
 ## Skapa en nettoförändringsplanering  
- Nästa dag, innan någon leveransorder har påbörjats eller bokförts, anländer en ny försäljningsorder från Libros AB för tio touringcyklar med leveransdatum 2021-02-12. Eduardo blir underrättad om det här nya behovet och fortsätter genom att planera om för att justera den aktuella leveransplaneringen. Eduardo använder funktionen Nettoförändringsplanering för att beräkna endast de förändringar som görs i behovet eller leveransen sedan den senaste planeringskörningen. Dessutom utökar han planeringsperioden till 2021-02-14 så att den även omfattar den nya försäljningsefterfrågan den 2014-02-12.  
+ Nästa dag, innan någon leveransorder har påbörjats eller bokförts, anländer en ny försäljningsorder från Libros AB för tio touringcyklar med leveransdatum 2021-02-12. Eduardo blir underrättad om det här nya behovet och fortsätter genom att planera om för att justera den aktuella leveransplaneringen. Eduardo använder funktionen Nettoförändringsplanering för att beräkna endast de förändringar som görs i behovet eller leveransen sedan den senaste planeringskörningen. Dessutom utökar Eduardo planeringsperioden till 2021-02-14 så att den även omfattar den nya försäljningsefterfrågan den 2014-02-12.  
 
  I planeringssystemet beräknas det bästa sättet att täcka behovet för de här två identiska produkterna, t. ex. att slå samman vissa inköps- och produktionsorder, omplanera andra order och skapa nya order vid behov.  
 

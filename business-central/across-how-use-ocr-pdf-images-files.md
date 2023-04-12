@@ -44,7 +44,7 @@ Vidarebefordra e-post till OCR-tjänstleverantören från ditt e-postprogram med
 Eftersom ingen inkommande dokumentpost finns för filen skapas en ny post automatiskt på sidan **Inkommande dokument** när du får det resulterande elektroniska dokumentet från OCR-tjänsten. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> Om du arbetar med en Tablet PC eller en telefon, kan du skicka filen till OCR-servicen, så snart som du har tagit ett foto av dokumentet, eller så kan du skapa ett inkommande dokument direkt. Mer information finns i [Skapa inkommande dokumentposter genom att ta ett foto](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> Om du arbetar med en Tablet PC eller en telefon, kan du skicka filen till OCR-servicen, så snart som du har tagit ett foto av dokumentet, eller så kan du skapa ett inkommande dokument direkt. Mer information finns i [Skapa inkommande dokumentposter genom att ta ett foto](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## Så här tar du emot det resulterande elektroniska dokumentet från OCR-tjänsten
 

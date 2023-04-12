@@ -1,14 +1,12 @@
 ---
 title: Använda din adata för att skapa en app | Microsoft Docs
 description: Du kan göra dina Business Central-data tillgängliga som datakälla och ange en OData-URL för dina webbtjänster för att skapa en företagsapp med Power Apps.
-author: edupont04
+author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.service: dynamics365-business-central
 ms.search.keywords: 'OData, Power App, SOAP'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 04/01/2023
+ms.author: jswymer
 ---
 # Ansluta till dina Business Central-data i syfte att skapa en företagsapp med hjälp av Power Apps
 
@@ -34,7 +32,7 @@ Du kan göra din [!INCLUDE[prod_short](includes/prod_short.md)]-data tillgängli
 Dessa så kallade tabeller visas som [!INCLUDE[prod_short](includes/prod_short.md)] kopplingen för Power Apps.  
 
 > [!NOTE]
-> Om du vill ta med data från andra tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] i din app, måste du samarbeta med en utvecklare för att definiera en anpassad API i [!INCLUDE[prod_short](includes/prod_short.md)] och sedan använda denna anpassade API via en anpassad anslutning i Power Apps. Mer information finns i [skapa en egen anslutning från början.](/connectors/custom-connectors/define-blank)  
+> Om du vill ta med data från andra tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] i din app, måste du samarbeta med en utvecklare för att definiera en anpassad API i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Nu har du lyckats ansluta till dina [!INCLUDE[prod_short](includes/prod_short.md)]-data och är redo att börja skapa din Power BI. Du kan lägga till ytterligare skärmar och ansluta till ytterligare data från [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Skapa en arbetsyteapp från ett exempel i Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 

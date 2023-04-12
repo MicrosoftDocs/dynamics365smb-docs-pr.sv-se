@@ -83,10 +83,10 @@ När medarbetare har inventerat lagerkvantiteter, måste du förbereda att regis
 4. Markera kryssrutan **registrerad** på varje rad.
 5. När du har angett alla data för en inventeringsregistrering, väljer du åtgärden **slutför**. Observera att alla rader måste ha kryssrutan **registrerad** markerad.
 
-> [!NOTE]
-> När du är klar med en inventeringsregistrering överförs varje rad till raden på relaterad inventeringsorder som exakt matchar det. För att matcha måste värdena i fälten **Artikelnr**, **Variantkod**, **Platskod** och **Lagerställekod** vara samma för registrering och orderraderna.<br /><br />
-> Om det inte finns några matchande inventeringsorderrad och om kryssrutan **Tillåt registrering utan order** är markerad och en ny rad infogas automatiskt och kryssrutan **Registrerade utan order** markeras på den relateradeinventeringsorderraden. I annat fall visas ett felmeddelande och processen avbryts.<br /><br />
-> Om mer än en inventeringsregistreringsrad matchar en inventeringsorderrad, visas ett meddelande och processen avbryts. Om du av någon anledning har två identiska inventeringsrader på inventeringsordern använder du en funktion för att lösa problemet. Mer information finns i avsnittet [Så här hittar du dubbla inventeringsorderrader](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > När du är klar med en inventeringsregistrering överförs varje rad till raden på relaterad inventeringsorder som exakt matchar det. För att matcha måste värdena i fälten **Artikelnr**, **Variantkod**, **Platskod** och **Lagerställekod** vara samma för registrering och orderraderna.<br /><br />
+    > Om det inte finns några matchande inventeringsorderrad och om kryssrutan **Tillåt registrering utan order** är markerad och en ny rad infogas automatiskt och kryssrutan **Registrerade utan order** markeras på den relateradeinventeringsorderraden. I annat fall visas ett felmeddelande och processen avbryts.<br /><br />
+    > Om mer än en inventeringsregistreringsrad matchar en inventeringsorderrad, visas ett meddelande och processen avbryts. Om du av någon anledning har två identiska inventeringsrader på inventeringsordern använder du en funktion för att lösa problemet. Mer information finns i avsnittet [Så här hittar du dubbla inventeringsorderrader](#to-find-duplicate-physical-inventory-order-lines).
 
 ## Slutför en inventeringsorder
 
@@ -118,10 +118,12 @@ När du har slutfört en inventeringsorder och ändrar dess status till **avslut
     På sidan **inventeringsorder** visar du den kvantitet som finns i fältet **Ant. registrerade (bas)**.
 3. Välj åtgärden **Slutför**.
 
-    Värdet i fältet **Status** ändras till **avslutad** och du kan nu bara ändra ordningen genom att först välja åtgärden **öppna igen**.
+    Värdet i fältet **Status** är **avslutad** och du kan nu bara ändra ordningen genom att först välja åtgärden **öppna igen**.
 4. Välj åtgärden **Bokför** och välj sedan knappen **OK** för att bokföra ordern.
 
-De involverade artikeltransaktionerna uppdateras tillsammans med alla relaterade artikelspårningstransaktionerna.
+    Artikeltransaktionerna uppdateras tillsammans med alla relaterade artikelspårningstransaktionerna.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### För att visa bokförda inventeringsorder
 
@@ -141,9 +143,9 @@ Kryssrutan **använda artikelspårning** på inventeringsorderrader väljs autom
 
 Beakta inventeringsperioden för artikel A, som finns i lager som tio olika serienummer.
 1. På registreringsraden för artikeln väljer du kryssrutan **använda artikelspårning**.
-2.  Välj fältet **serienr**, markera det första serienumret som finns i lager för artikeln och välj sedan knappen **OK**.
+2. Välj fältet **serienr**, markera det första serienumret som finns i lager för artikeln och välj sedan knappen **OK**.
 
-    Fortsätt att kopiera raden för den första artikelspårade artikeln för att infoga extra rader som motsvarar antalet serienummer i lagret.
+    Kopiera raden för den första artikelspårade artikeln för att infoga extra rader som motsvarar antalet serienummer i lagret.
 
 3. Välj åtgärd **funktion** och sedan åtgärd **kopia raden**.
 4. På sidan **Kopiera inventeringsregistreringsrad**, ange 9 i fältet **Antal kopior** och välj sedan **OK**.
@@ -192,8 +194,8 @@ På sidan **inventeringsorder** innehåller fältet **Neg. antal (bas)** *8*. F�
 
 Följande typer av dokument är användbara för att hantera distributionslagret:
 
-- Använd **lagerinleveranser** för att registrera positiva justeringar av artiklar baserat på kvalitet, kvantitet och kostnad.
-- Använd **lagerutleveranser** för att skriva av saknade eller skadade varor.
+* Använd **lagerinleveranser** för att registrera positiva justeringar av artiklar baserat på kvalitet, kvantitet och kostnad.
+* Använd **lagerutleveranser** för att skriva av saknade eller skadade varor.
 
 Du kan skriva ut dessa dokument när som helst, släppa och öppna dem igen och tilldela gemensamma värden, inklusive dimensioner, i sidhuvudet. Om du vill skriva ut dokumenten igen efter att de har bokförts kan du göra det på sidorna **Bokförd lagerinleverans** och **Bokförd lagerutleverans**.
 
@@ -206,10 +208,11 @@ I följande procedur beskrivs hur du ställer in numrering för inventeringsdoku
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
 2. På snabbfliken **Numrering** ange följande fält nummerserien för dokument:
-   - **Lagerinleveransnr-serie**  
-   - **Bokförda lagerinleveransnr-serie**  
-   - **Lagerutleveransnr-serie**  
-   - **Bokförd lagerutleveransnr-serie**  
+
+   * **Lagerinleveransnr-serie**  
+   * **Bokförda lagerinleveransnr-serie**  
+   * **Lagerutleveransnr-serie**  
+   * **Bokförd lagerutleveransnr-serie**  
 
 ### Så här skapar och bokför du ett lagerdokument
 
@@ -222,17 +225,19 @@ Följande procedur visar hur du skapar, skriver ut och bokför en lagerinleveran
 
 Följande funktioner finns på sidan **Lagerinleverans**:
 
-- Välj åtgärderna **Frisläpp** eller **Öppna igen** för att ange status för nästa bearbetningssteg  
-- Välj åtgärden **Bokför** för att bokföra lagerinleveransen, eller välj **Bokför och skriv ut** för att bokföra inleveransen och skriva ut test rapporten  
+* Välj åtgärderna **Frisläpp** eller **Öppna igen** för att ange status för nästa bearbetningssteg  
+* Välj åtgärden **Bokför** för att bokföra lagerinleveransen, eller välj **Bokför och skriv ut** för att bokföra inleveransen och skriva ut test rapporten  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Skriva ut lagerdokument
 
 Du kan ange vilka rapporter som ska skrivas ut i olika etapper genom att välja något av följande alternativ i fältet **Användning** på sidan **Rapportval – lager**:
 
-- Lagerinleverans
-- Lagerutleverans
-- Bokförd lagerinleverans
-- Bokförd lagerutleverans
+* Lagerinleverans
+* Lagerutleverans
+* Bokförd lagerinleverans
+* Bokförd lagerutleverans
 
 > [!NOTE]
 > Vilka rapporter som finns kan variera beroende på landets lokalisering. Basprogrammet innehåller inga layouter.

@@ -90,8 +90,12 @@ Det första du måste göra när du arbetar med XBRL-funktionerna är att import
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **XBRL-taxonomier** och väljer sedan relaterad länk.  
 2. På sidan **XBRL-taxonomier** skapa en ny rad och ange namnet och en beskrivning av taxonomin.  
 3. Välj åtgärden **Uppställningar** och infoga beskrivningen av uppställningen.  
-4. Du importerar uppställningen genom att på sidan **XBRL-uppställningar** välja åtgärden **Importera** och sedan välja en mapp och XSD-fil. Välj **Öppna**.  
-5. Du importerar länkbasen genom att på sidan **XBRL-uppställningar** välja åtgärden **Länkbaser** och sedan välja en mapp och XML-fil. Välj **Öppna**.  
+4. Om du vill importera schemat väljer sidan **XBRL-scheman**, välj åtgärden **Importera**, gör sedan något av följande steg för att ladda upp filen:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Om du vill importera länkbasen väljer sidan **XBRL-scheman**, välj åtgärden **länkbaser**, gör sedan något av följande steg för att ladda upp filen:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. Du kan nu välja att koppla länkbasen till uppställningen. Upprepa stegen ovan för att importera resterande länkbaser.  
 7. Välj åtgärden **Koppla till taxonomi** för att koppla länkbasen till uppställningen.  
 

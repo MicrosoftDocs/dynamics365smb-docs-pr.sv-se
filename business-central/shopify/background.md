@@ -18,11 +18,11 @@ Det är effektivt att köra vissa uppgifter samtidigt och på ett automatiserat 
 
 ## Kör uppgifter i bakgrunden för en specifik butik
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange namnet på **Shopify-butiken** och väljer butiksnamnet i listan.
-2. Välj den butik som du vill synkronisera artiklar för och öppna sidan **Shopify-butikskort**.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
+2. Välj den butik som du vill köra synkronisering i bakgrunden för och öppna sidan **Shopify-butikskort**.
 3. Aktivera reglaget **Tillåt synkronisering i bakgrunden**.
 
-När synkroniseringsåtgärden aktiveras, i stället för en uppgift som körs i förgrunden, ombeds du att vänta. När den är klar kan du fortsätta med nästa åtgärd. Uppgiften skapas som **Jobbkötransaktion** och startar direkt på ett icke-blockerande sätt.
+När synkroniseringsåtgärden aktiveras, i stället för en uppgift som körs i förgrunden, ombeds du att vänta. När den är klar kan du fortsätta med nästa åtgärd. Uppgiften skapas som **Jobbkötransaktion** och startar direkt.
 
 ## Så här schemalägger du återkommande uppgifter
 
@@ -41,6 +41,15 @@ Du kan schemalägga följande återkommande uppgifter så att de utförs på ett
 
 > [!NOTE]
 > Vissa element kan uppdateras av flera uppgifter, till exempel när du importerar beställningar, beroende på inställningen i **Shopify butikskort**, kan systemet också importera och uppdatera kund- och/eller produktdata. Kom ihåg att använda samma jobbkö för att undvika konflikter.
+
+Andra uppgifter som kan vara till hjälp för att automatisera ytterligare behandling av försäljningsdokument:
+
+- rapport 497 Masspublicera inköpsfakturor
+- rapport 496 Masspublicera inköpsordrar
+
+Du kan använda **Shopify ordernr.** för att identifiera försäljningsdokument som har importerats från Shopify.
+
+Om du vill lära dig mer om hur du bokför försäljningsorder i en batch går du till [Skapa en jobbkötransaktion för batchbokföring av försäljningsorder](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## Se även
 

@@ -1,5 +1,5 @@
 ---
-title: Få åtkomst till Business Central förhandsversion – Copilot-utgåvan
+title: Kom igång med en Business Central förhandsversion för Copilot
 description: I artikeln beskrivs hur du skaffar en Business Central-miljö med den nya AI-funktionen för att skapa textförslag för artikel-/produktbeskrivningar.
 author: jswymer
 ms.author: jswymer
@@ -9,38 +9,35 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Kom igång med en Business Central förhandsversion – Copilot-utgåvan
+# Kom igång med en Business Central förhandsversion för Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-Du kan försöka använda AI-baserad text för marknadsföring av text med en Copilot, oavsett om du är en befintlig Business Central-kund eller en potentiell kund, det vill säga någon som är intresserad av att utforska Business Central och testa den nya funktionen. För att komma igång måste du ha till gång till en förhandsversion av Business Central som stöder den nya funktionen. Slutför det avsnitt nedan som gäller dig.
+Du kan försöka använda AI-baserad text för marknadsföring av text med en Copilot, oavsett om du är en befintlig Business Central-kund eller en potentiell kund, det vill säga någon som är intresserad av att utforska Business Central och testa den nya funktionen. För att komma igång måste du ha tillgång till en version av Business Central Online som stöder den nya funktionen. Slutför det avsnitt nedan som gäller dig.
 
 ## Organisationen använder redan Business Central
 
-Som befintlig kund eller partner behöver du en administratör som har tillgång till Business Central administrationscenter för att konfigurera en miljö för *begränsat läge* som kör den förhandsversion som innehåller Copilot. När miljön i begränsat läge är igång kan användarna prova den nya funktionen.
+Som befintlig kund eller partner behöver du en administratör som har tillgång till Business Central administrationscenter för att konfigurera en miljö som kör den förhandsversion som innehåller Copilot. När miljön är igång kan användarna prova den nya funktionen.
 
 Om du är miljöadministratör utför du följande steg:
 
 1. Logga in på administrationscenter för Business Central.
 2. Välj **Miljöer** > **Ny**.
 3. I fönstret **Skapa miljö** anger du ett namn för den nya miljön i fältet **Miljönamn**.
-4. Ange **Miljötyp** till **Begränsat läge**.
-5. Ange **Land** till **USA**.
+4. Ange **Miljötyp** till **Begränsat läge** eller **Produktion**.
+5. Ange **land** för valfritt land/region i listan, men tänk på att den AI-genererade marknadsföringstexten från Copilot endast är på engelska.
+6. I rutan **Version** väljer du en version 22 eller senare från listan.
 
+   <!--
    > [!IMPORTANT]
-   > Förhandsgranskningen är endast tillgänglig i USA. Organisationer i andra länder eller regioner kan fortfarande skapa en förhandsgranskning av begränsat läge för att uppleva Copilot.
-
-6. I rutan **Version** väljer du en version **22.0.54157.54311 (förhandsversion – Copilot-utgåvan)**.
-
-   > [!IMPORTANT]
-   > Du måste använda **22.0.54157.54311 (förhandsversion – Copilot-utgåvan)** för att uppleva Copilot.
-
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
+   -->
 7. Välj **skapa**.  
 
-Om du vill ha mer information om hur du skapar begränsade miljöer går du till [Skapa en miljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+Om du vill ha mer information om hur du skapar miljöer går du till [Skapa en miljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> De begränsade miljöerna i förhandsversion är bara tillgängliga till och med 1 maj 2023. Efter det här datumet måste du konfigurera en ny miljö, eller uppgradera alla andra miljöer till version 22.0 eller senare om du vill fortsätta att försöka förhandsgranska AI-baserad text.
+> Om begränsade miljöer i förhandsversion som kör **22.0.54157.54311 (förhandsversion – Copilot-version)** bör du vara medveten om att dessa miljöer endast är tillgängliga till 1 maj 2023. Efter det här datumet måste du konfigurera en ny miljö, eller uppgradera alla andra miljöer till version 22.0 eller senare om du vill fortsätta att försöka förhandsgranska AI-baserad text.
 
 ## Organisationen använder inte Business Central
 
@@ -49,13 +46,12 @@ Om du inte är en Business Central-kund kan du registrera dig för en kostnadsfr
 1. Gå till [den här provwebbplatsen](https://go.microsoft.com/fwlink/?linkid=2227167) för att komma igång med registreringsprocessen.
 2. Följ instruktionerna på skärmen.
 
-   Du ombeds ange information som din e-postadress, ditt namn och ditt telefonnummer. Den exakta upplevelsen kan variera beroende på vilken information du anger. Här är emellertid några viktiga punkter som du kan tänka på när du går igenom registreringsprocessen:
-
-   - För e-postadress använder du din e-postadress på jobbet eller i skolan. Vi upprättar din utvärderingsversion på ditt företagskonto. Du kan inte använda e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer, som till exempel outlook.com, hotmail.com, gmail.com och andra.
-   - När du kommer till alternativet för **Land eller region** bör du ställa in detta **USA**.
+   Du ombeds ange information som din e-postadress, ditt namn och ditt telefonnummer. Den exakta upplevelsen kan variera beroende på vilken information du anger. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> För e-postadress använder du din e-postadress på jobbet eller i skolan. Vi upprättar din utvärderingsversion på ditt företagskonto. Du kan inte använda e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer, som till exempel outlook.com, hotmail.com, gmail.com och andra.
+   
+   <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
-      > Du måste ange **Land eller region** till **USA**, annars kommer inte AI-drivna objekt marknadsföringstext med Copilot att vara tillgänglig i Business Central.  
+      > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
 3. När du kommer till steget **bekräftelseinformation** kan du börja utvärderingen.
 
    - Om du vill gå direkt till Business Central, välj **Hoppa över och gå till Dynamics 365 Business Central** > **Kom igång**.

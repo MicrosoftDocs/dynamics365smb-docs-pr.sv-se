@@ -117,8 +117,9 @@ Kopiera är ett snabbt sätt att skapa en ny layout som är samma som en befintl
    |Beskrivning| Skriv mer detaljerad information i layouten. |nej|
    |Formalternativ|Ange det här fältet som överensstämmer med layoutens typ, som t.ex. Word, Excel eller RDLC.|ja|
 
-6. Välj **OK** > **Välj** för att öppna Utforskaren på enheten.
-7. Hitta och välj Excel-filen och välj sedan **Öppna**.
+6. Välj **OK**, gör sedan ett av följande steg för att ladda upp layoutfilen för rapporten:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Den valda filen överförs till layouten och du kommer då tillbaka till sidan **rapportlayout**.
 

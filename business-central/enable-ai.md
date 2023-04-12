@@ -39,7 +39,7 @@ Du använder en [förhandsversion](ai-preview-getstarted.md) av Business Central
 
 ## Nästa steg
 
-När du har en begränsade miljö eller utvärderingsmiljön kan du testa Copilot för artiklar i Business Central. Gå till [Lägg till marknadsföringstext för artiklar](item-marketing-text.md).  
+När du har aktiverat om godkänt funktionen kan du testa Copilot för artiklar i Business Central. Gå till [Lägg till marknadsföringstext för artiklar](item-marketing-text.md).  
 
 ## Se även
 

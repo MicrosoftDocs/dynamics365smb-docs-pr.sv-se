@@ -3,9 +3,6 @@ title: Köra och skriva ut rapporter
 description: Lär dig att lägga en rapport i en jobbkö och schemalägga den att behandlas vid en viss tidpunkt.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -136,6 +133,12 @@ En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den
 - Om du vill ändra standardlayouten som används av en rapport går du till någon av sidorna **Rapportlayouter** eller **Val av rapportlayout**.
 
 Läs mer i [Ange layout för en rapport](ui-set-report-layout.md). Om du vill anpassa din egen rapportlayout går du till [Kom igång med att skapa layouter](ui-get-started-layouts.md).
+
+## Ändra språk och format för tal, datum och tid
+
+Som standard är språket för text och format för tal, datum och klock slag i en rapport baserad på inställningarna för arbetsspråk och region som definieras på sidan **mina inställningar**. Du kan dock ändra språk och formatregion från fall till fall när du förhandsgranskar, skriver ut eller skickar en rapport. På sidan för begäran väljer du **Avancerat** och anger sedan alternativen för **språk** och **formatregion**.
+
+Mer information om sidan **Mina inställningar** finns på [Ändra grundläggande inställningar](ui-change-basic-settings.md#region).
 
 ## Avancerade alternativ
 

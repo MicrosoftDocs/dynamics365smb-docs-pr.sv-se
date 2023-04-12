@@ -4,7 +4,7 @@ description: Få svar på vanliga frågor om AI-genererad textkapacitet med Copi
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: faq
-ms.date: 03/16/2023
+ms.date: 04/03/2023
 ms.custom: bap-template
 author: jswymer
 ms.service: dynamics365-business-central
@@ -35,10 +35,9 @@ För att Copilot ska vara tillgänglig, måste följande villkor vara uppfyllda:
 - Det språk som du använder i Business Central måste vara engelska. Alla tillgängliga engelska språk kommer att fungera, t.ex. engelska (USA), engelska (Storbritannien) eller engelska (Sydafrika).
 
   Om du vill ändra språk väljer du ikonen **Inställningar** i det övre högra hörnet ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") > **Mina inställningar** > **Språk**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#language).
-- Du måste använda Business Central Online som en utvärderingsversion eller i ett begränsat läge.
-- Din version av Business Central måste vara **22.0.54157.54311 (förhandsversion – Copilot-utgåvan)**.
+- Du måste använda Business Central Online version 22 eller senare (om du är en befintlig kund) eller en provversion.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
 
-   Om du vill kontrollera versionen markerar du frågetecknet i det övre högra hörnet och **Hjälp och support**. Under **Felsökning**, leta efter programversionen. För information om hur du får rätt förhandsgranskningsversion, gå till [Komma igång med Business Central förhandsversionen – Copilot-utgåvan](ai-preview-getstarted.md).
+   Om du vill kontrollera versionen markerar du frågetecknet i det övre högra hörnet och **Hjälp och support**. Under **Felsökning**, leta efter programversionen. För information om hur du får rätt förhandsgranskningsversion, gå till [Komma igång med Business Central förhandsversionen](ai-preview-getstarted.md).
 - Funktionen **Skapa AI-baserade produktbeskrivningar med Copilot** måste aktiveras.
 
    Om du vill ha mer information går du till [Aktivera eller inaktivera funktionen "Skapa AI-baserad produktbeskrivningar med Copilot"](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).

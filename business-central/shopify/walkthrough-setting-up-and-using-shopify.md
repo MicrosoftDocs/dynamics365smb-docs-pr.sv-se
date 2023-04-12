@@ -29,7 +29,7 @@ Mer information om hur du skapar Shopify testversioner och rekommenderade instä
 
 Du måste ha ett [!INCLUDE[prod_short](../includes/prod_short.md)]-konto. 
 
-Du kan t.ex. skapa demokonto eller starta utvärdering. Lär dig mer när du [ Förbereder demonstrationer av [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) och [ Registrera dig för testversionen](../trial-signup.md). 
+Du kan t.ex. skapa demokonto eller starta utvärdering. Lär dig mer när du [ Förbered demonstrationsmiljöer av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) och [ Registrera dig för testversionen](../trial-signup.md). 
 
 ## Ansluta Business Central till butiken på Shopify
 
@@ -100,7 +100,7 @@ Klicka på knappen **Köp nu** och gå till kassan.
 5. Klicka på knappen **Fortsätt till leverans**.
 6. Spara `Standard` som leveransmetod och välj knappen **Fortsätt till betalning**.
 7. Välj `10%` tips.
-8. I **kreditkort** ange `1` if you use *(för test) Falsk Gateway*, om du använder *Shopify Payments* i testläge, ange `5555 5555 5555 4444` i fältet **kreditkort**.
+8. I fältet **kreditkort** ange `1` om du använder *(för test) Falsk gateway* eller anger `5555 5555 5555 4444` om du använder *Shopify Payments* i testläge.
 9. Fyll i fälten **Namn på kort**.
 10. I fältet **Utgångsdatumet**, ange aktuell månad/år.
 11. I fältet **Säkerhetskod** ange `111`.
@@ -162,18 +162,20 @@ Förbereda data.
 2. Lägg till en ny prisgrupp. I fältet **kod** ange `SHOPIFY`.
 3. Stäng fönstret **Kundprisgrupp**.
 4. Välj ![glödlampan som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artiklar** och välj sedan relaterad länk.
-5. Välj artikel **1896-S, Athens Desk**.
-6. Välj åtgärden för **varianter** och Lägg sedan till två varianter `PREMIUM, Athens Desk, Premium edition` och `ESSENTIAL, Athens Desk, Essential edition`.
-7. Välj **extratext** och skapa en ny extratext som gäller för alla språkkoder. I fältet **Beskrivning** ange `Shopify`. 
-8. Lägg till följande beskrivning med HTML-taggar: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Välj **försäljningspriser** och lägg till nya priser som visas i följande tabell:
+
+Välj artikel **1896-S, Aten skrivbord** och kör följande steg.
+
+1. Välj åtgärden för **varianter** och Lägg sedan till två varianter `PREMIUM, Athens Desk, Premium edition` och `ESSENTIAL, Athens Desk, Essential edition`.
+2. Välj åtgärden **utökad text** och skapa en ny utökad text som gäller för alla språkkoder. I fältet **Beskrivning** ange `Shopify`. 
+3. Lägg till följande text med HTML-taggar: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Välj åtgärden **försäljningspriser** och lägg till nya priser som visas i följande tabell:
 
   |Rad|**Förs.typ**|**Förs.kod**|Kontakttyp|Kod|Variantkod<br>(lägg till fältet via anpassning)|Styckpris|
   |------|------------|------------|------------|------------|------------|------------|
   |1|Kundprisgrupp|SHOPIFY|Artikel|1896-S|ESSENTIAL|700|
   |2|Kundprisgrupp|SHOPIFY|Artikel|1896-S|PREMIUM|1 000|
 
-10. Välj **försäljningsrabatter** och lägg till en ny rabatt:
+5. Välj åtgärden **försäljningsrabatter** och lägg till en ny rabatt:
 
 * **Försäljningstyp** *Kundrabattgrupp*
 * **Förs.kod** *BUTIK*
@@ -182,18 +184,18 @@ Förbereda data.
 * **Måttenhetskod** *PCS*
 * **Radrabatt %** *10*
 
-11. Välj **artikelreferenser** och följande lägg till rader:
+6. Välj åtgärden **artikelreferenser** och följande lägg till rader:
 
   |Rad|**Referenstyp**|**Referensnr**|Variantkod|
   |------|------------|------------|------------|
   |1|Streckkod|77777777|ESSENTIAL|
   |2|Streckkod|11111111|PREMIUM|
 
-12. Stäng **artikelkortet**.
-13. Välj artikel **1920-S, ANTWERP konferensbord**.
-14. Välj **Justera lager** och ange fältet **Nytt lager** ange `100` för plats *ÖST* och *VÄST*. 
-1. Välj **OK**.
-1. Stäng **artikelkortet**.
+
+Välj artikeln **1920-S, ANTWERP konferensbord** och kör följande steg.
+
+1. Välj **Justera lager** och ange fältet **Nytt lager** ange `100` för plats *ÖST* och *VÄST*. 
+2. Välj **OK**.
 
 Justera inställningar för synkronisering.
 

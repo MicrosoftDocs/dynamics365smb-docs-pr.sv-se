@@ -4,48 +4,63 @@ description: Lär dig hur du kan lösa problem med att komma åt Business Centra
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
 ms.topic: troubleshooting
-ms.date: 11/03/2022
+ms.date: 02/07/2023
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
 # Felsöka åtkomst med Microsoft 365-licenser
 
-## Symtom
+## "Den här sidan använder data från relaterade tabeller som du inte har åtkomst till" felmeddelande
+
+### Symtom
 
 När du öppnar en post i Teams visas ett felmeddelande i en flik eller kortinformation som liknar:
 
 "Den här sidan använder data från relaterade tabeller som du inte har åtkomst till. Kontakta administratören om du vill arbeta med alla funktioner på den här sidan."
 
-## Orsak
+### Orsak
 
 Du saknar antagligen objektbehörigheter för tabeller som den aktuella sidan eller posten länkar till.
 
-## Symtom
+## Microsoft 365 åtkomst har aktiverats, men användare får ett behörighetsfel
 
-Åtkomst har aktiverats, men användare får ett behörighetsfel när de kommer åt en post.
+### Symtom
 
-## Orsak
+Åtkomst med Microsoft 365 har aktiverats i administrationscenter för Business Central men användare får ett behörighetsfel när de kommer åt en post.
 
-Om du aktiverar åtkomst i administrationscentret för Business Central men inte tilldelar behörigheter på sidan licenskonfiguration, får alla som försöker komma åt Business Central-poster i Teams sina användarposter utan behörighet till några objekt. Business Central är säkert genom konstruktion: administratörer måste först konfigurera vilka data som kan användas i Teams. 
+### Orsak
 
-## Åtgärd
+Om du aktiverar åtkomst i administrationscentret för Business Central men inte tilldelar behörigheter på sidan **licenskonfiguration**, får alla som försöker komma åt Business Central-poster i Teams sina användarposter utan behörighet till några objekt. Business Central är säkert genom konstruktion: administratörer måste först konfigurera vilka data som kan användas i Teams. 
+
+### Åtgärd
 
 När du anpassar behörigheter på sidan licenskonfiguration påverkas endast de nyss skapade användarna. Du måste också tilldela behörighet som saknas till användare som redan har skapats via sidan med användarlistor. 
 
-## Symtom
+## Du har delat en länk i Teams, men användarna får ett meddelande om att de endast kan visa information
 
-När jag delar en länk i Teams kan andra användare få fel meddelandet "vid åtkomst till Business Central med en Microsoft 365-licens kan du bara visa data i Microsoft Teams ".
+### Symtom
 
-## Orsak
+När jag delar en länk i Teams som Business Central-användare kan andra användare få fel meddelandet "vid åtkomst till Business Central med en Microsoft 365-licens kan du bara visa data i Microsoft Teams".
+
+### Orsak
 
 När du delar en Business Central-länk till en Teams-chatt eller -kanaler, navigerar du alltid från en länk Microsoft Teams där uppgifterna inte längre blir tillgängliga för en person som har en Microsoft 365-licens.
 
-## Åtgärd
+### Åtgärd
 
 När du delar sidor eller poster kan du antingen ta med förhands granskningen av länken som ett kort eller dela data som en flik i en chatt eller kanal.
+
+## Kortet från den delade länken är minimalt och innehåller inte knappen Detaljer
+
+### Symtom 
+
+När en Microsoft 365-licensinnehavare utan en Business Central-licens delar en Business Central-länk i Teams, utökas den automatiskt till ett kort som inte har någon värdefull information och som bara visar Business Central utan knappen **Detaljer**.
+
+### Orsak
+
+Användare som har en  Microsoft 365- licens men saknar Business Central-licens kan inte dela länkar som kort. Om användaren har Business Central-appen för Teams installerad och klistrar in en länk i skrivområdet visas bara ett minimalt kort. 
 
 ## Se även
 

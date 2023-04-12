@@ -1,19 +1,19 @@
 ---
 title: 'Så här: Arbeta med ansvarsenheter'
 description: Ansvarsenhet som administrativa centraler hjälper företag att skapa användarspecifika vyer över försäljnings- och inköpsdokument som är relaterade uteslutande till varje centrum.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '5714, 5715'
-ms.date: 06/16/2021
-ms.author: edupont
+ms.date: 03/09/2023
+ms.author: bholtorf
 ---
 # Arbeta med ansvarsenheter
 
-Med ansvarsenheterna kan användarna hantera administrativa enheter. En ansvarsenhet kan vara ett kostnadsställe, en vinstenhet, en investeringsenhet eller en annan typ av administrativ enhet som har definierats av företaget. Exempel på ansvarsenheter är ett försäljningskontor, en inköpsavdelning för flera lagerställen och en fabriks planeringskontor. Med den här funktionen kan företagen till exempel ställa in användarspecifika vyer för försäljnings- och inköpsdokument som endast kan kopplas till en viss ansvarsenhet.  
+Med ansvarsenheterna kan användarna hantera administrativa enheter. En ansvarsenhet kan vara ett kostnadsställe, en vinstenhet, en investeringsenhet eller en annan typ av administrativ enhet som har definierats av företaget. Exempel på ansvarsenheter är ett försäljningskontor, en inköpsavdelning för flera lagerställen och en fabriks planeringskontor. Företagen kan till exempel ställa in användarspecifika vyer för försäljnings- och inköpsdokument som kan kopplas till en viss ansvarsenhet.  
 
 Genom att använda funktionen för flera lagerställen och ansvarsenheter i kan företagen med utlokaliserad verksamhet sköta affärsverksamheten på ett mycket flexibelt men också optimalt sätt.
 
@@ -25,8 +25,8 @@ Om funktionen för flera lagerställen används kan företagen sköta lagerhante
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Om du använder ansvarsenheter för att administrera ditt företag kan det vara praktiskt att ange en standardansvarsenhet för företaget.
-4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.
+    Om du använder ansvarsenheter för att administrera ditt företag kan det vara praktiskt att ange en standardansvarsenhet.
+4. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.
 5. I fältet **ansvarsenhet** anger du en ansvarsenhetskod.
 
 Den här koden används på alla inköps- försäljnings- och servicedokument om användaren, kunden eller leverantören inte har någon standardansvarsenhet. På ett försäljnings-, inköps- eller servicedokument, kan du ange en annan ansvarsenhet än standard.
@@ -36,7 +36,7 @@ Den här koden används på alla inköps- försäljnings- och servicedokument om
 
 ## Så här tilldelar du ansvarsenheter till användare
 
-Du kan definiera användare så att endast de dokument som är relevanta inom deras arbetsområden hämtas som standard. Användare associeras vanligtvis med en ansvarsenhet och arbetar normalt sett endast med dokument som är knutna till särskilda moduler inom just den ansvarsenheten.  
+Du kan definiera användare så att [!INCLUDE [prod_short](includes/prod_short.md)] endast får de dokument som är relevanta inom deras arbetsområden. Användare associeras vanligtvis med en ansvarsenhet och arbetar normalt sett endast med dokument som är knutna till särskilda moduler inom just den ansvarsenheten.  
 
 Du anger dessa inställningar genom att tilldela ansvarsenheter till användare inom tre olika huvudområden: Inköp, Försäljning och Servicehantering.  
 
@@ -54,10 +54,10 @@ Du anger dessa inställningar genom att tilldela ansvarsenheter till användare 
 ## Se även
 
 [Ställa in lager](inventory-setup-inventory.md)  
-[Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
+[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

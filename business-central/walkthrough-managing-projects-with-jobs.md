@@ -69,9 +69,9 @@ Den här genomgången introducerar dig för projekthanteringsfunktionerna i proj
 
 ## Situation
 
-Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash är projektchef på CRONUS. Han använder projekt för att få en överblick över alla pågående projekt som CRONUS har startat, sig samt de projekt som har avslutats. Han brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Han upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[prod_short](includes/prod_short.md)] aktiverar kopiering av projektet och delbetalningar.
+Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash, en projektledare på CRONUS använder projekt för att få en överblick över alla pågående projekt som CRONUS har startat, sig samt de projekt som har avslutats. Prakash brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[prod_short](includes/prod_short.md)] aktiverar kopiering av projektet och delbetalningar.
 
- Tricia, en projektmedlem som rapporterar till Prakash, är ansvarig för övervakning av det dagliga arbetet. Hon registrerar sitt eget arbete samt arbete som utförts av tekniker i varje aktivitet. Hon registrerar artiklarna som de har använt, och de kostnader som har uppstått.  
+ Tricia, en projektmedlem som rapporterar till Prakash, är ansvarig för övervakning av det dagliga arbetet. Tricia registrerar sitt eget arbete samt det arbete som utförs av teknikerna i varje aktivitet, registrerar de artiklar som de har använt och de kostnader som har uppstått.  
 
 ## Förbereda exempeldata
 
@@ -98,11 +98,11 @@ Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar 
 
 6. Stäng sidan.
 
-I nästa procedur skapar du en projektjournal för Tricia för att bokföra hennes förbrukning.  
+I nästa procedur skapar du en projektjournal för Tricia för att bokföra deras förbrukning.  
 
 ### Skapa en ny journal  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
+1.  Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
 2.  På sidan **Journalnamn** i fönstret **Projektjournal**. Sidan **Projektjournaler** öppnas.  
 3.  Välj åtgärden **Ny** för att skapa en rad med följande information:  
 
@@ -182,7 +182,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 - **Fakturerbart**: Faktureras men läggs inte till i schemat.  
 - **Både budget och fakturerbart**: Faktureras och läggs till i schemat.  
 
- I den här genomgången använder projektchefen **Både budget och fakturerbart**. Han upprättar tre planeringsrader för aktivitet 1010 och två planeringsrader för aktivitet 1020.  
+ I den här genomgången använder projektchefen **Både budget och fakturerbart**. De skapar tre planeringsrader för aktivitet 1010 och två planeringsrader för aktivitet 1020.  
 
 ### Skapa planeringsrader  
 
@@ -208,7 +208,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra henn
 
 ## Beräkna återstående förbrukning
 
- Tricia, teamprojektmedlem, har arbetat med projektet ett tag och vill registrera sina timmar och sin förbrukning för projektet. Hon har inte arbetat mer timmar än vad som överenskommits med kunden. Hon använder batch-jobbet **Ber. återstående förbrukning** för att beräkna återstående förbrukning för projekter i en projektjournal. För varje projektaktivitet beräknas skillnaden mellan planerad förbrukning av artiklar, resurser, redovisningskostnader och verklig förbrukning i projekttransaktioner. Den återstående förbrukningen visas sedan i den projektjournal som hon kan bokföra den ifrån.  
+ Tricia, teamprojektmedlem, har arbetat med projektet ett tag och vill registrera sina timmar och sin förbrukning för projektet. Tricia har inte arbetat mer timmar än vad som överenskommits med kunden. Tricia använder batch-jobbet **Ber. återstående förbrukning** för att beräkna återstående förbrukning för projekter i en projektjournal. För varje projektaktivitet beräknas skillnaden mellan planerad förbrukning av artiklar, resurser, redovisningskostnader och verklig förbrukning i projekttransaktioner. Den återstående förbrukningen visas sedan i den projektjournal som hon kan bokföra den ifrån.  
 
 ### Så här beräknar du återstående förbrukning  
 
@@ -226,7 +226,7 @@ Raderna är nu bokförda.
 
 ## Skapa och bokföra en försäljningsfaktura för ett projekt
 
- I nästa steg kan Tricia skapa en ny faktura för hela projektet eller för en del av ett projekt. Hon kan även bifoga fakturan till en annan faktura för samma kund inom samma projekt. I detta fall kan hon fakturera hela projektet eftersom projektet nu är slutfört.  
+ I nästa steg kan Tricia skapa en ny faktura för hela projektet eller för en del av ett projekt. Tricia kan även bifoga fakturan till en annan faktura för samma kund inom samma projekt. I detta fall kan Tricia fakturera hela projektet eftersom projektet nu är slutfört.  
 
 ### Så här skapar du en projektförsäljningsfaktura  
 
@@ -260,7 +260,7 @@ Raderna är nu bokförda.
 
 ## Hantera fasta priser
 
- CRONUS har fått uppdraget att inreda tio konferensrum. Som projektchef vill Prakash ha en god översikt över de aktiviteter som ska utföras i projektet samt tillhörande budget och kostnader för respektive aktivitet. Han vill dessutom veta det totala pris som överenskommits för projektet och det belopp som har fakturerats hittills. Han har nått en överenskommelse med kunden om att projektet ska ha ett fast pris.  
+ CRONUS har fått uppdraget att inreda tio konferensrum. Som projektchef vill Prakash ha en god översikt över de aktiviteter som ska utföras i projektet samt tillhörande budget och kostnader för respektive aktivitet. Prakash vill dessutom veta det totala pris som överenskommits för projektet och det belopp som har fakturerats hittills. De har nått en överenskommelse med kunden om att projektet ska ha ett fast pris.  
 
 ### Så här hanterar du fast prissättning i projekt  
 
@@ -268,7 +268,7 @@ Raderna är nu bokförda.
 2. Markera projektnummer **Nyström** och välj sedan åtgärd **Projektaktivitetsrader**.  
 3. Markera rad 1120 och i fältet **Budget (totalkostnad)** högerklickar du på beloppet och väljer **Specificera**.  
 
-     Genom att granska Projektplaneringslista inser Prakash att Tricia behövs i 30 timmar under den här projektfasen. Han kommer överens med kunden om ett fast pris.  
+     Genom att granska Projektplaneringslista inser Prakash att Tricia behövs i 30 timmar under den här projektfasen. Prakash kommer överens med kunden om ett fast pris.  
 
 4. På sidan **Projektaktivitetsrader** väljer du rad 1120 och väljer sedan åtgärden **Projektplaneringsrader**. Skapa en planeringsrad med följande information:  
 
@@ -280,7 +280,7 @@ Raderna är nu bokförda.
 5. I fältet **Budget (totalkostnad)**, högerklicka i fältet och välj **Specificering** igen på sidan **Projektaktivitetsrader**. Visa de ändringar som gjorts i schemat. Du ser att 30 timmar har lagts till i schemat.  
 6. Stäng sidorna.  
 
-När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 25 timmar på projektet. Dessa timmar registrerar hon i projektjournalen.  
+När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 25 timmar på projektet och registrerar dessa timmar i projektjournalen.  
 
 ### Så här registrerar du timmar i projektjournalen  
 
@@ -298,7 +298,7 @@ När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 2
 
 3. Välj åtgärden **Bokföra**.  
 
-     Några dagar senare arbetar Tricia ytterligare 10 timmar på projektet. Hon har nu arbetat totalt 35 timmar. Eftersom avtalet gäller för 30 timmar med kunden debiteras kunden endast 5 av dessa timmar. Tricia ska manuellt lägga till dessa extra fem timmar som hon arbetade i schemat.  
+     Några dagar senare arbetar Tricia för ytterligare tio timmar på projektet och har nu arbetat 35 timmar. Eftersom avtalet gäller för 30 timmar med kunden debiteras kunden endast 5 av dessa timmar. Tricia ska manuellt lägga till dessa extra fem timmar som hon arbetade i schemat.  
 
 4. På sidan **Projektjournal** väljer du åtgärden **Ber. återstående förbrukning**.  
 5. På sidan **Projekt – Beräkna återstående förbrukning** anger du följande information på snabbfliken **Alternativ**:  
@@ -442,7 +442,7 @@ Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och stäl
 
 11. Skapa en liknande planeringsradtransaktion för projektaktivitet 4000.  
 
- Nu när aktivitets- och planeringsraderna har registrerats kan Prakash skapa en faktura på den första betalningen. Det gör han från projektaktivitetsraderna för att vara säker på att fakturan bara innehåller raderna för den första betalningen. Du kan öppna försäljningsordern från planeringsraderna eller projektaktivitetsraderna.  
+ Nu när aktivitets- och planeringsraderna har registrerats kan Prakash skapa en faktura på den första betalningen. Prakash gör det från projektaktivitetsraderna för att vara säker på att fakturan bara innehåller raderna för den första betalningen. Du kan öppna försäljningsordern från planeringsraderna eller projektaktivitetsraderna.  
 
 ### Så här skapar du en faktura  
 

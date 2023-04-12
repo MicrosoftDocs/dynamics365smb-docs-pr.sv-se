@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'warehouse, distribution center'
 ms.search.forms: '5703, 15'
-ms.date: 07/05/2022
+ms.date: 03/25/2023
 ms.author: bholtorf
 ---
 # Konfigurera platser
 
 Lagerställen är platser som distributionslager där du köper, lagrar eller säljer artiklar. [!INCLUDE [prod_short](includes/prod_short.md)] använder lagerställen för att hålla ordning på lagret i både enklare och mer komplicerade lagerprocesser.
 
-Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition per lagerställe och överföra lager mellan olika lagerställen. Mer information finns i [Administrera projekt](inventory-manage-inventory.md).
+Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition per lagerställe och överföra lager mellan olika lagerställen. Mer information finns i [Hantera lager](inventory-manage-inventory.md).
 <br><br>  
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
@@ -38,36 +38,71 @@ Välj åtgärden **Zoner** eller **Lagerplatser** om du vill visa information om
 4. Upprepa steg 2 och 3 för varje lagerställe där du vill bedriva lagerhållning.
 
 > [!NOTE]  
-> Många fält på sidan Lagerställekort hänvisar till hanteringen av artiklar i ingående och utgående lagerprocesser. Dessa fält är inte relevanta för företag som inte behöver komplicerade distributionslagerfunktioner. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).
+> Många fält på sidan Lagerställekort hänvisar till hanteringen av artiklar i ingående och utgående lagerprocesser. Dessa fält är inte relevanta för företag som inte behöver komplicerade distributionslagerfunktioner. Läs mer på [Ställa in Warehouse Management](warehouse-setup-warehouse.md).
 
 Du kan ändra konfigurationen för ett lagerställe så länge den inte har några artikeltransaktioner.  
 
-Du kan definiera överföringsflöden mellan lagerställen, om du har flera lagerställen. Mer information finns i [Skapa överföringsflöde](inventory-how-setup-locations.md#to-create-a-transfer-route).
+Du kan definiera överföringsflöden mellan lagerställen, om du har flera lagerställen. Om du vill veta mer om överföringsflöden går du till [Skapa ett överföringsflöde](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### Så här skapar du ett överföringsflöde
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **överföringsflöden** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **överföringsflöden** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 4. På sidan **Lagerställekort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Du kan nu överföra lagerartiklar mellan två lagerställen. Mer information finns i [Så här överför du lager mellan olika lagerställen](inventory-how-transfer-between-locations.md).    
+Du kan nu överföra lagerartiklar mellan två lagerställen. Om du vill veta mer om överföringar går du vidare till [överför lager mellan lagerställen](inventory-how-transfer-between-locations.md).
 
-## Lagerplatser
+## Lagerställen
 
-Lagerplatser representerar den grundläggande lagerstrukturen och kan föreslå var artiklar ska placeras. Dina lagerplatser kan ha innehåll eller vara flytande lagerplatser utan visst innehåll. 
+Lagerplatser representerar den grundläggande lagerstrukturen och kan föreslå var artiklar ska placeras. Dina lagerplatser kan ha innehåll eller vara flytande lagerplatser utan visst innehåll.
 
 Om du vill använda lagerplatsfunktionen på ett lagerställe går du till sidan **Lagerställekort** på snabbfliken **Distributionslager** och aktiverar reglaget **Lagerplats obligatorisk**. Du kan utforma artikelflödet på lagerstället genom att ange lagerplatskoder i fälten för lagerprocesserna på snabbflikarna **Lagerplatser** och **Lagerplatsprinciper**.
 
 > [!NOTE]
-> Innan du kan ange lagerplatskoder på ett lagerställe, måste du skapa lagerplatskoder. Mer information finns i [Skapa lagerställen](warehouse-how-to-create-individual-bins.md) och [Skapa lagerplatstyper](warehouse-how-to-set-up-bin-types.md).  
+> Innan du kan ange lagerplatskoder på ett lagerställe, måste du skapa lagerplatskoder. Om du vill lära dig mer om lager platser går du till [skapa lagerplatser](warehouse-how-to-create-individual-bins.md) och [skapar lagerplatstyper](warehouse-how-to-set-up-bin-types.md).  
 
 ## Zoner
 
-Om du vill strukturera lagerplatser under zoner kan du göra det på sidan **Zoner**. När du tilldelar en zon till lagerplatser kopierar [!INCLUDE [prod_short](includes/prod_short.md)] informationen från zonen till lagerplatserna. Du kan också välja att ställa in en zon och använda lagerplatser separat för att organisera distributionslagret. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
+Om du vill strukturera lagerplatser under zoner kan du göra det på sidan **Zoner**. När du tilldelar en zon till lagerplatser kopierar [!INCLUDE [prod_short](includes/prod_short.md)] informationen från zonen till lagerplatserna. Du kan också välja att ställa in en zon och använda lagerplatser separat för att organisera distributionslagret. Läs mer om zoner på [Ställa in Warehouse Management](warehouse-setup-warehouse.md).  
 
 ## Standarddimensioner för platser
 
-Du anger standardmått för en plats på sidan **Platskort** genom att välja **Dimensioner**. Därefter kopplas platsens standarddimensioner till dokument när du väljer lagerställe på en rad. Om det behövs kan du ta bort eller ändra dimensionen på raden. På fältet **värdebokföring** kan du kräva att personer anger dimensioner för platser innan de kan bokföra en transaktion. Om du vill att användarna endast ska kunna välja vissa dimensionsvärden kan du ange värdena i fältet **Tillåtna värdefilter**. Du kan också ta med dimensions värden för lagerställe på sidan **standard dimensionsprioriteringar** och **Dimensionskombinationer** för kombinationer av prioritet och dimensionsregler.
+Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem med olika rapporteringsverktyg. Till exempel kan dimensioner indikera avdelningen eller projektet en post kom från. Med standarddimensioner kan användare undvika misstag och behöva ange dimensioner manuellt på transaktionsnivån om alla varor kommer från en enda plats och avdelning.
+
+Du anger standardmått för en plats på sidan **Platskort** genom att välja **Dimensioner**. Därefter kopplas platsens standarddimensioner till dokument när du väljer lagerställe på en rad.
+
+* Överföringsorder
+* Inventeringsorder
+* Lagerutleveranser
+* Lagerinleveranser
+* Artikeljournaler
+
+Om det behövs kan du ta bort eller ändra dimensionen på raden. På fältet **värdebokföring** kan du kräva att personer anger dimensioner för platser innan de kan bokföra en transaktion. Om du vill att användarna endast ska kunna välja vissa dimensionsvärden kan du ange värdena i fältet **Tillåtna värdefilter**. Du kan också ta med dimensions värden för lagerställe på sidan **standard dimensionsprioriteringar** och **Dimensionskombinationer** för kombinationer av prioritet och dimensionsregler.
+
+Eftersom överföringsorder dokument och grupperingsjournalen innehåller mer än en plats, är order som används för att ange data viktig. Standarddimensioner kopieras från fältet senaste plats (transitlagerstället ignoreras).
+
+### Exempel på standardmått på lagerställen
+
+Följande exempel visar hur standarddimensionen används.
+
+Du har följande dimensionsinställningar:
+
+* Lagerställe ÖST. Avdelningsdimension är ADM
+* Lagerställe VÄST. Avdelningsdimension är PROD
+
+Du anger lagerstället i en överföringsorder så här:
+
+1. Från lagerställe = ÖST
+2. Till lagerställe = VÄST
+
+Dimensionen PROD kommer att kopieras från lagerställe VÄST.
+
+Du fyller i fälten i motsatt ordning, enligt följande:
+
+1. Till lagerställe = VÄST
+2. Från lagerställe = ÖST
+
+Dimensionen ADM kommer att kopieras från lagerställe ÖST.
 
 ## Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

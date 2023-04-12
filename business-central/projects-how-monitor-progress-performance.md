@@ -1,15 +1,14 @@
 ---
 title: Övervaka projektframsteg och -resultat
 description: Beskriver hur du skapar en PIA-metod och beräknar PIA för att uppskatta det ekonomiska värdet i lika jobb medan de pågår.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
-ms.date: 08/04/2022
-ms.author: edupont
 ---
 # Övervaka projektframsteg och -resultat
 

@@ -1,58 +1,61 @@
 ---
 title: Hantera koncerninterna transaktioner
 description: Med de koncerninterna funktionerna förenklar du affärsprocesser och transaktioner mellan företag inom samma organisation.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 02/06/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
-ms.search.form: 605
-ms.date: 08/11/2021
-ms.author: edupont
+ms.search.form: '605,'
 ---
 # Hantera koncerninterna transaktioner
 
-Funktioner för koncernintern bokföring är till för de som arbetar med mer än ett koncernföretag och ställer in flera företag för att separera redovisningsfunktionerna för var och en av dessa enheter. Den här allmänna beskrivningen gäller många användare, särskilt de som arbetar internationellt eller i regioner med mycket olikartade affärskulturer och lagreglerade miljöer.
+Företag med fler än en juridisk person med separata redovisningsfunktioner kan utnyttja koncerninterna transaktioner. Det kan till exempel vara användbart för företag som har dotter bolag på flera internationella marknader eller regioner. Organisationen kan bestå av flera företag, men kanske inte har motsvarande antal team inom redovisning och administration. Koncerninterna transaktioner förenklar affärsprocesser och transaktioner mellan företag i koncerninterna partnerskap.
 
-Organisationen kan bestå av flera företag, men kanske inte har motsvarande antal team inom redovisning och administration. Koncerninterna transaktioner förenklar affärsprocesser och transaktioner mellan dessa koncernföretag.
-
-När du börjar använda koncerninterna transaktioner blir det lika enkelt att göra affärer med dina dotterbolag och interna partnerorganisationer som att arbeta med externa leverantörer och kunder. Du anger bara koncernintern information en gång i tillämpliga dokument. Du kan använda funktioner som du redan känner till, t. ex. hantering av leverantörsreskontra och kundreskontra. Genom att koppla funktioner för kontoplanen och dimensioner kan du försäkra dig om att informationen visas på rätt plats.  
+När du har angett kund- och leverantörsrelationer för koncerninterna transaktioner, registrerar partner information en gång i försäljnings- och inköpsdokument. Ett motsvarande dokument skapas i den andra partnern som är involverad i transaktionen. Genom att koppla funktioner för kontoplanen och dimensioner kan du försäkra dig om att informationen visas på rätt plats.  
 
 Det finns fyra huvudsakliga fördelar med koncerninterna funktioner:  
 
-- Ökad produktivitet till följd av tidsbesparingar och förenklade transaktioner  
-- Minimerad felpotential eftersom informationen endast behöver registreras en gång och automatiserade processer över hela systemet.  
-- Fullständig redovisningsspårning och full insyn i affärsaktiviteter och transaktionshistorik  
-- Effektiva, kostnadseffektiva transaktioner med dotterbolag  
+* Ökad produktivitet till följd av tidsbesparingar och förenklade transaktioner  
+* Mindre misstag eftersom informationen endast behöver registreras en gång och automatiserade processer över hela systemet  
+* Fullständig redovisningsspårning och full insyn i affärsaktiviteter och transaktionshistorik  
+* Effektiva, kostnadseffektiva transaktioner med dotterbolag  
 
 ## Förenkling av arbetsflödesaktiviteter  
 
-Med hjälp av koncerninterna transaktioner kan du distribuera försäljnings- och inköpsdokument samt journaltransaktioner till alla satellitkontor, försäljningskontor och dotterbolag från programmet. Tidsbesparingen och den ökade effektiviteten fortplantar sig i hela organisationen genom att du eliminerar onödig dataregistrering och slipper skicka, ta emot, skriva ut och arkivera försäljnings- och inköpsdokument på papper.  
+Med hjälp av koncerninterna transaktioner kan du distribuera försäljnings- och inköpsdokument samt journaltransaktioner till alla satellitkontor, försäljningskontor och dotterbolag. Att fördela transaktioner sparar tid och ökar effektiviteten i hela organisationen genom att minska datainmatning. Det minskar behovet av att skicka, ta emot, skriva ut och arkivera försäljnings- och inköpsdokument.  
 
-Du har full kontroll över alla transaktionsdokument. Du kan t. ex. avvisa ett dokument som har skickats till dig och därmed återföra bokföringar och ångra inleveranser/utleveranser som är inkorrekta. När du gör ett inköp från en partner eller ett dotterbolag kan du uppdatera inköpsordern så länge som det säljande bolaget inte har levererat några varor.  
+Du har full kontroll över alla transaktionsdokument. Du kan t. ex. avvisa ett dokument som har skickats till dig och använd åtgärderna **återföra journalbokningar** och **ångra inleveranser/utleveranser** för korrigeringar. När du gör ett inköp från en partner eller ett dotterbolag kan du uppdatera inköpsordern så länge som det säljande bolaget inte har levererat några varor.  
 
-När du skapar en transaktion behöver du inte ange konton för en enskild räkenskapsbok, utan helt enkelt ange moderbolaget. De koncerninterna funktionerna skapar rader i redovisningsjournaler resulterar i att räkenskaperna balanseras för de båda företag som är involverade i en transaktion. I Kundreskontra och Leverantörsreskontra tilldelar du en koncernintern partnerkod till kunder och leverantörer. Alla order och fakturor som sedan genereras och som gäller transaktioner med dessa företag resulterar i att motsvarande dokument skapas i partnerföretaget och att konton balanseras korrekt.  
+När du registrerar en transaktion behöver du inte ange vilka konton som ska användas. Du väljer just den koncerninterna partnern. De koncerninterna funktionerna skapar rader i redovisningsjournaler som balanserar räkenskaperna för de båda företag som är involverade i en transaktion. I Kundreskontra och Leverantörsreskontra tilldelar du en koncernintern partnerkod till kunder och leverantörer. Från det tillfället producerar alla order och fakturor för transaktioner mellan dessa företag motsvarande dokument i partnerföretaget. Resultatet är rätt balanserade konton.  
 
-Den koncerninterna transaktionsfunktionen används i första hand för att understödja koncerninterna transaktioner med försäljnings- och inköpsdokument samt med rader i redovisningsjournaler. I detta område tillåts koncerninterna transaktioner mellan flera [!INCLUDE [prod_short](includes/prod_short.md)] databaser, t.ex. i olika länder/regioner samt flera valutor, olika kontoplaner, olika dimensioner och olika artikelnumrering.  
+Koncernintern fokuserar på försäljnings- och inköpsdokument och redovisningsjournalrader och tillåter transaktioner mellan flera [!INCLUDE [prod_short](includes/prod_short.md)]-databaser. Som exempel:
 
-I koncerninterna transaktioner används ett antal transaktioner och dokument:  
+* I olika länder/regioner
+* Flera valutor
+* Olika kontoplaner
+* Olika dimensioner
+* Olika artikelnummer  
 
-- Redovisningsjournalposter
-- Inköps- och försäljningsorder
-- Inköps- och försäljningsfakturor
-- Kreditnotor
-- Returorder
+I koncerninterna transaktioner används flera typer av transaktioner och dokument:  
 
-När du ställer in koncerninterna transaktioner skapar du en lista över koncerninterna partner, så kallade konc.int. partner och en koncernintern kontoplan. Om du följer dessa steg kan du utföra koncerninterna redovisningsjournaltransaktioner. Du ställer in dimensioner, om så krävs, separat.  
+* Redovisningsjournalposter
+* Inköps- och försäljningsorder
+* Inköps- och försäljningsfakturor
+* Kreditnotor
+* Returorder
+
+När du ställer in koncerninterna transaktioner skapar du en lista över koncerninterna partner och en koncernintern kontoplan och koncerninterna dimensioner. Efteråt kan du skapa transaktioner i koncerninterna redovisningsjournaler.
 
 > [!NOTE]
-> Redovisningsjournalen i sig innehåller inte några valutafunktioner, utan alla belopp omvandlas till lokal valuta med hjälp av tillämplig kurs.
+> Redovisningsjournalen innehåller i sig själva inga valutor. Alla belopp omvandlas till den aktuella valutakursen i den lokala valutan.
 
-När du har ställt in affärspartner som kunder och leverantörer i systemet och tilldelat dem koncerninterna partnerkoder, är det möjligt att utbyta koncerninterna inköps – och försäljningsdokument, inklusive artiklar och artikelomkostnader. [!INCLUDE [prod_short](includes/prod_short.md)] har stöd för koncerninterna transaktioner mellan flera databaser, t.ex. i olika länder/regioner samt flera valutor, olika kontoplaner, olika dimensioner och olika artikelnumrering.  
+När du har ställt in affärspartner som kunder och leverantörer och tilldelat dem koncerninterna partnerkoder, är det möjligt att utbyta koncerninterna inköps – och försäljningsdokument, inklusive artiklar och artikelomkostnader. 
 
 > [!NOTE]
-> Det går inte att byta ut alla typer av data mellan företag på det här sättet. Inköpsfakturor skickas inte till affärspartner via koncerninterna processer. Men försäljningsfakturor som skickas via koncerninterna processer kommer att skapas som inköpsfakturor i det mottagande företaget.
+> Företag kan inte använda koncernintern för att utbyta alla typer av data. Inköpsfakturor skickas inte till affärspartner via koncerninterna processer. Men försäljningsfakturor som skickas via koncerninterna processer kommer att skapas som inköpsfakturor i det mottagande företaget.
 
 Att konsolidera ekonomiska data kan vara särskilt användbart för koncerninterna processer. Mer information finns i [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md).
 
@@ -60,7 +63,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 
 |Till |Gå till|
 |---|---|
-|Skapa dina koncerninterna leverantörer och kunder som så kallade koncerninterna partners och konfigurera en koncernintern kontoplan.|[Koncerninterna inställningar](intercompany-how-setup.md)|
+|Skapa dina koncerninterna leverantörer och kunder som partner och konfigurera en koncernintern kontoplan.|[Koncerninterna inställningar](intercompany-how-setup.md)|
 |Du använder koncerninterna dokument eller journaler för att bokföra transaktioner med koncerninterna partner.|[Arbeta med koncerninterna dokument och journaler](intercompany-how-work-documents-journals.md)|
 |Ordna och bearbeta ingående och utgående transaktioner som du skickar till din koncerninterna partner.|[Hantera koncerninterna in- och utkorgar](intercompany-how-manage-intercompany-inbox.md)|
 |Använd koncerninterna transaktioner för att fördela kostnader mellan partnerföretag.|[Fördela kostnader till koncerninterna partner](intercompany-allocate-costs.md)|

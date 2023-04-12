@@ -22,7 +22,7 @@ Använd bokföringsperioder för att ange om användare kan bokföra i redovisni
 2. På sidan **Redovisningsinställningar** anger du perioden genom att ange datum i fälten **Tillåt bokföring fr.o.m** och **Tillåt bokföring t.o.m.**.  
 
 > [!NOTE]  
-> Dessa bokföringsperioder tillämpas på hela företaget och alla användare. Om du vill tillåta undantag kan du definiera olika bokföringsperioder för specifika användare på sidan **Användarinställningar**. Dessa bokföringsperioder åsidosätter de som anges på sidan **Redovisningsinställningar**. Mer information finns i [Så här ställer du in tidsbegränsningar för användare](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
+> Dessa bokföringsperioder tillämpas på hela företaget och alla användare. Om du vill tillåta undantag kan du definiera olika bokföringsperioder för specifika användare på sidan **Användarinställningar**. Dessa bokföringsperioder åsidosätter de som anges på sidan **Redovisningsinställningar**. Mer information finns i [Så här ställer du in tidsbegränsningar för användare](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
 ## Se även
 

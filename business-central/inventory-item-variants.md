@@ -14,7 +14,7 @@ ms.author: edupont
 Artikelvarianter är ett fantastiskt sätt att se till att listan över produkter är under kontroll. Till exempel om du har ett stort antal artiklar som är nästan identiska och endast varierar i färg. Du kan definiera varje variant som en separat artikel. Men du väljer att ställa in en artikel och ange olika färger som varianter av artikeln.  
 
 > [!TIP]
-> En praktisk introduktion till hur du använder varianter i produktionen finns i [Genomgång: varianter](contoso-coffee/variants.md) för Contoso Coffee-demodata.  
+> En praktisk introduktion till hur du använder varianter i produktionen finns i [Genomgång: varianter](contoso-coffee/manufacturing/variants.md) för Contoso Coffee-demodata.  
 
 ## Lägga till varianter i en artikel
 
@@ -57,4 +57,4 @@ Om funktionen är aktiverad kan användarna inte bokföra en transaktion om inte
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Ställa in allmän lagerinformation](inventory-how-setup-general.md)  
-[Genomgång: varianter](contoso-coffee/variants.md)  
+[Genomgång: varianter](contoso-coffee/manufacturing/variants.md)  

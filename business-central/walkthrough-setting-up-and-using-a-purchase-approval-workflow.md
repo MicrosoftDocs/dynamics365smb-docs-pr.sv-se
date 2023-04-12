@@ -33,7 +33,7 @@ Den här genom gången är ett scenario som illustrerar följande uppgifter:
 
 ## Situation
 
-Sean är en super user i CRONUS. Han skapar två godkännandeanvändare. En är Alicia som representerar en inköpsagent. Den andra är han själv som representerar Alicias godkännare. Sean ger sig själv obegränsade godkännanderättigheter för inköp och anger sedan att han ska få meddelanden genom intern anteckning så snart som en relevant händelse inträffar. Till slut skapar Sean det önskade godkännandearbetsflödet som en kopia av den befintliga arbetsflödesmallen för *Arbetsflöde för godkännande av inköpsorder* och låter alla befintliga händelsevillkor och svarsalternativ vara oförändrade, och aktiverar sedan arbetsflödet.  
+Stefan är en superanvändare på CRONUS och skapar två godkännande användare. En är Alicia som representerar en inköpsagent. Den andra är Sean själv som representerar Alicias godkännare. Sean ger sig själv obegränsade godkännanderättigheter för inköp och anger sedan att han ska få meddelanden genom intern anteckning så snart som en relevant händelse inträffar. Till slut skapar Sean det önskade godkännandearbetsflödet som en kopia av den befintliga arbetsflödesmallen för *Arbetsflöde för godkännande av inköpsorder* och låter alla befintliga händelsevillkor och svarsalternativ vara oförändrade, och aktiverar sedan arbetsflödet.  
 
 För att testa godkännandearbetsflödet loggar Stefan först in på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia och begär sedan godkännande av en inköpsorder. Sedan loggar Sean in som sig själv, ser anteckningen i sitt rollcenter, följer länken till godkännandebegäran för inköpsordern och godkänner sedan begäran.  
 

@@ -32,12 +32,12 @@ När artiklar tas emot i ett distributionslager som konfigureras för att bearbe
 Du kan skapa distributionslagerinleverans på två sätt:
 
 * Med en pushmetod när arbetet utförs på orderbasis. Välj åtgärden **Skapa dist.lager inleverans** i källdokumentet, till exempel inköpsorder, försäljningsreturorder eller överföringsorder för att skapa distributionslagerinleverans för ett källdokument.
-*-* Med pullmetoden när du använder åtgärden **Frisläpp** i källdokumentet, t.ex. inköpsorder, försäljningsreturorder eller överföringsorder för att lämna ut dokumentet till lagret. En lageranställd skapar en **Dist.lager inleverans** för ett eller flera släppta källdokument. I proceduren nedan beskrivs hur du skapar en distributionslagerinleverans med en pullmetod. I proceduren nedan beskrivs hur du skapar en distributionslagerinleverans med en pullmetod. 
+* Med pullmetoden när du använder åtgärden **Frisläpp** i källdokumentet, t.ex. inköpsorder, försäljningsreturorder eller överföringsorder för att lämna ut dokumentet till lagret. En lageranställd skapar en **Dist.lager inleverans** för ett eller flera släppta källdokument. I proceduren nedan beskrivs hur du skapar en distributionslagerinleverans med en pullmetod. I proceduren nedan beskrivs hur du skapar en distributionslagerinleverans med en pullmetod.
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 
-    Fyll i fältet **Lagerställekod** på snabbfliken **Allmänt**. När du hämtar källdokumentrader, kopieras delar av informationen i huvudet till varje rad. 
+    Fyll i fältet **Lagerställekod** på snabbfliken **Allmänt**. När du hämtar källdokumentrader, kopieras delar av informationen i huvudet till varje rad.
 
     För ett lagerställe som kräver lagerplats, fyll i **Lagerplatskod**. Beroende på dina inställningar kan [!INCLUDE[prod_short](includes/prod_short.md)] lägga till lagerplatskoden åt dig. Läs mer om [Zon och lagerplatskoder](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ Du kan skapa distributionslagerinleverans på två sätt:
 
 5. Bokför lagerinleveransen. Fälten med antal i källdokumenten uppdateras automatiskt och artiklarna läggs till i lager.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Om du använder dist.lager artikelinförsel, som refererar till metod D i tabellen i början av denna artikel, inlevereras artiklarna men kan inte plockas förrän de har förts in. Om du vill veta mer om att införa artiklar kan du gå till [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Om du använder dist.lager artikelinförsel, som refererar till metod D i tabellen i början av denna artikel, inlevereras artiklarna men kan inte plockas förrän de har förts in. Om du vill veta mer om att införa artiklar kan du gå till [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Annars kan du använda åtgärden **bokför och skriv ut**. Åtgärden bokför inleveransen och skriver ut den som en artikelinförselinstruktion som visar var artikeln ska placeras.
 
-> [!NOTE]  
-> Om distributionslagret använder direktutleverans kan du kontrollera om artiklar inte kan direktutlevereras utan att de ska tas bort. För att lära dig mer om montering av artiklar, gå till [Beräkna direktutleverans av artiklar](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Om distributionslagret använder direktutleverans kan du kontrollera om artiklar inte kan direktutlevereras utan att de ska tas bort. För att lära dig mer om montering av artiklar, gå till [Beräkna direktutleverans av artiklar](warehouse-how-to-cross-dock-items.md).
 
 ## Så här använder du filter för att hämta källdokument
 

@@ -44,7 +44,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
  CRONUS har vunnit ett långvarigt projekt som nu har förlängts över flera redovisningsperioder. Tricia, en projektmedlem, beräknar produkter i arbete (PIA) för att kontrollera att företagets finansiella rapporter är rätt.  
 
- I den här proceduren kommer Tricia att välja en särskild grupp med aktiviteter som ska inkluderas i PIA-beräkningen. På sidan **Projektaktivitetsrader** kan hon ange dessa rader i kolumnen **PIA totalt**.  
+ I den här proceduren kommer Tricia att välja en särskild grupp med aktiviteter som ska inkluderas i PIA-beräkningen. På sidan **Projektaktivitetsrader** kan Tricia ange dessa rader i kolumnen **PIA totalt**.  
 
  De tre alternativen beskrivs i tabellen nedan.  
 
@@ -54,7 +54,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 |**Summa**|Definierar intervallet eller gruppen av aktiviteter som ingår i PIA- och resultatbeloppsberäkningen. Inom gruppen ska **Typ av projektaktivitet** som angetts som **Bokföring** ingå i PIA-totalen om inte fältet **PIA-total** angetts som **Exklusive**.|  
 |**Exklusive**|Gäller bara när **Typ av projektaktivitet** är **Bokföring**. Aktiviteten beaktas inte när PIA och resultatbelopp beräknas.|  
 
- I följande genomgången använder Tricia kostnadsvärdemetoden, företagets standard, för att beräkna PIA. Hon anger vilken del av projektet som ska inkluderas i PIA-beräkningen genom att tilldela PIA-slutsummorna till olika projektaktivitetsrader.  
+ I följande genomgången använder Tricia kostnadsvärdemetoden, företagets standard, för att beräkna PIA. Tricia anger vilken del av projektet som ska inkluderas i PIA-beräkningen genom att tilldela PIA-slutsummorna till olika projektaktivitetsrader.  
 
 ### Så här beräknar du PIA  
 
@@ -134,7 +134,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
 ## Återföra en PIA-bokning
 
- Tricia anser att projektaktiviteter som är exkluderade från beräkning av PIA borde vara inkluderade i PIA. Hon kan återföra de felaktiga transaktionerna utan att behöva bokföra nya PIA-transaktioner.  
+ Tricia anser att projektaktiviteter som är exkluderade från beräkning av PIA borde vara inkluderade i PIA. Tricia kan återföra de felaktiga transaktionerna utan att behöva bokföra nya PIA-transaktioner.  
 
 ### Så här återför du en PIA-transaktioner  
 
@@ -153,7 +153,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 13. Öppna **Projektaktivitetsrader** för projektet, inkludera de delar av projektet som bör ingå i PIA-beräkningen och därefter räkna om och bokföra det nya värdet i redovisningen.  
 
     > [!NOTE]  
-    >  Anta att Tricia har beräknat och bokfört PIA för ett projekt med felaktiga datum. Genom att följa metoden som diskuterades tidigare kan hon återföra de felaktiga transaktionerna, korrigera datum och bokföra dessa på nytt i redovisningen.  
+    >  Anta att Tricia har beräknat och bokfört PIA för ett projekt med felaktiga datum. Genom att följa metoden som diskuterades tidigare kan Tricia återföra de felaktiga transaktionerna, korrigera datum och bokföra dessa på nytt i redovisningen.  
 
 ## Gå vidare
 
