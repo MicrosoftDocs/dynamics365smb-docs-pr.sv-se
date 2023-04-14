@@ -428,6 +428,7 @@
 ### [Skapa redovisningsbudgetar](finance-how-create-budgets.md)
 ### [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)
 ### [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)
+### [Export av verifieringsfil](finance-how-to-export-audit-files.md)
 ### [Fördela kostnader och intäkter](year-allocate-costs-income.md)
 ### [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)
 ### [Periodisera intäkter och kostnader](finance-how-defer-revenue-expenses.md)
