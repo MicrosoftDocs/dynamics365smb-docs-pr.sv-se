@@ -60,6 +60,8 @@ Om du vill använda SMTP-protokollet för att skicka e-post från [!INCLUDE[prod
 >
 > Exchange Online avvecklar grundläggande autentisering för SMPT. KLientorganisationer som för närvarande använder SMTP-autentisering påverkas inte av ändringen. Vi rekommenderar dock starkt att du använder den senaste versionen av [!INCLUDE [prod_short](includes/prod_short.md)] och konfigurerar OAuth 2.0-autentisering för SMTP. Vi kommer inte att lägga till certifikatbaserad autentisering i tidigare versioner av [!INCLUDE [prod_short](includes/prod_short.md)], till exempel version 14. Om du inte kan konfigurera OAuth 2.0-autentisering uppmuntrar vi dig att utforska alternativ från tredje part om du vill använda e-post från SMTP i tidigare versioner.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## Lägg till e-postkonton
 
 Med den assisterade konfigurationsguiden för **Konfigurera e-post** kan du snabbt komma igång med e-post.

@@ -2,7 +2,6 @@
 title: Tillägget Bas för molnmigrering
 description: Använd tillägget Bas för molnmigrering för att ansluta din lokala lösning med Business Central online.
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
