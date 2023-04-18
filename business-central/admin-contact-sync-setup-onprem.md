@@ -1,12 +1,12 @@
 ---
 title: Konfigurera synkronisering av kontakter med Outlook för Business Central lokal
-description: Lär dig hur du konfigurerar Business Central lokal miljö med synkronisering av kontakter med Outlook för Business Central lokal
+description: Lär dig hur du konfigurerar Business Central lokal miljö för att synkronisera kontakter i Business Central och Outlook.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 03/17/2023
+ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
