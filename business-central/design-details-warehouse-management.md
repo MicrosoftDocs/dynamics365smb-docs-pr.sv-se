@@ -30,7 +30,7 @@ Implementera dessa funktioner i olika kombinationer för att skräddarsy dina di
 
 Du kan konfigurera distributionslagerfunktioner på olika sätt. Det är viktigt att du väljer en förbättring av dina processer utan att orsaka omkostnader. I tabellen nedan finns en översikt över typiska konfigurationer som används vid hantering av fysiska varor.
 
-|Komplexitetsnivå|Beskrivning|Inställningar|Lagerställeskod|Exempel på inkommande flöde|Exempel på utgående flöde|Exempel på internt flöde|  
+|Komplexitetsnivå|Description|Inställningar|Lagerställeskod|Exempel på inkommande flöde|Exempel på utgående flöde|Exempel på internt flöde|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Ingen tilldelad distributionslageraktivitet.|Bokför från order och journaler.||Valfritt. Kontrolleras av växlingsknappen **Lagerställeskod är obligatorisk**.|Inköpsorder|Försäljningsorder| Produktionsorder -> förbrukningsjournal|  
 |Grundläggande|Konsoliderad inleverans-/utleveransbokföring för flera order.|**Begär inleverans**<br>**Begär utleverans**.|Valfritt. Kontrolleras av växlingsknappen Lagerställeskod är obligatorisk|Inköpsorder -> Dist.lager inleverans|Försäljningsorder -> Distributionslagerutleverans|Samma som ovan.|
@@ -61,7 +61,7 @@ För att kunna hantera fysiska varor måste du ha minst ett lagerställe. Du kan
 Lagerställen är vanligtvis det bästa sättet att organisera åtgärder som är distribuerade över olika geografiska områden. I vissa fall kanske du vill skapa flera lagerställen som ligger på samma plats. Att använda lagerställen har följande fördelar:
 
 * Bevilja åtkomst med hjälp av sidorna **Distributionslagerpersonal** och **Ansvarsenheter**.
-* Definiera kalendrar, verksamhetsföljder och ankommande och avgående hanteringstider för datumberäkning och planering. [Om planeringsfunktioner](production-about-planning-functionality.md).
+* Definiera kalendrar, verksamhetsföljder och ankommande och avgående hanteringstider för datumberäkning och planering. Läs mer på [Om planeringsfunktionen](production-about-planning-functionality.md).
 * Ange standarddimensioner och använd olika lagerbokföringsinställningar.
 * Ange planeringsparametrar. Läs mer i [planeringsparametrar](production-about-planning-functionality.md#planning-parameters).  
 * Använd olika funktioner för distributionslager för varje lagerställe.

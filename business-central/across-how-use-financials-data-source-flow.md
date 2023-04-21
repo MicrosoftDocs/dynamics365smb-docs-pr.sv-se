@@ -28,6 +28,7 @@ Power Automate-flöden initieras av händelser, t.ex. när en post skapades, än
 ## Om Power Automate-flöden
 
 Power Automate är en tjänst som hjälper dig att skapa automatiserade arbetsflöden (eller flöden) mellan appar och tjänster, t.ex. [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate flöden kräver lite eller ingen kodkunskap. De kan kopplas till en mängd olika händelser och svar, till exempel:
+
 - Poständringar
 - Uppdateringar av externa filer
 - Bokförda dokument
@@ -41,10 +42,13 @@ Det finns tre olika typer av molnflöden som du kan arbeta med:
 |Schemalagd|Den här typen av flöde körs också automatiskt, men körs med jämna mellanrum vid schemalagda datum och tidpunkter. |
 |Direkt |Den här flödestypen körs vid behov och kräver att användaren kör den manuellt från en knapp eller åtgärd i en annan app eller enhet, i det här fallet [!INCLUDE[prod_short](includes/prod_short.md)] klienten. Direktflöden fungerar på samma sätt som kommando genvägar, så att du kan utföra stegvisa steg med några knapptryckningar och startas från vissa sidor eller tabeller. Ett flöde kan t.ex. lägga till en knapp på åtgärds menyn på sidan **leverantörer** för att spärra betalningar till en leverantör och samtidigt skicka anpassningsbara e-postmeddelanden till leverantörens kontakt och företagets inköpare samt uppdatera kontakten i Outlook. |
 
-## Power Automate funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Power Automate-funktioner
 
-Du kan utforska alla Power Automate flöden som är tillgängliga för dig genom att logga in på [Power Automate](https://powerautomate.com) och välja **Mina flöden** från navigeringsfältet till vänster. Här hittar du de flöden som du redan har skapat själv och som du har delat med dig av en administratör eller en medarbetare. Dessa flöden görs också tillgängliga i [!INCLUDE [prod_short](includes/prod_short.md)] från olika sidor. Med automatiska flöden i [!INCLUDE[prod_short](includes/prod_short.md)] finns det ingenting som du kan göra, om du inte vill ändra dem eller inaktivera dem. Annars fungerar de bara när de utlöses. Precis som för direktflöden av [!INCLUDE[prod_short](includes/prod_short.md)] data kan du köra dem från de flesta list-, kort-och dokumentsidor genom att välja dem från **automatiserat** objekt i åtgärden. Läs mer i avsnitten som följer.
+Du kan utforska alla Power Automate flöden som är tillgängliga för dig genom att logga in på [Power Automate](https://powerautomate.com) och välja **Mina flöden** från navigeringsfältet till vänster. Här hittar du de flöden som du redan har skapat själv och som du har delat med dig av en administratör eller en medarbetare.
 
+- Direkt flöden görs också tillgängliga för körning direkt från de flesta list-, kort- och dokumentsidor i [!INCLUDE[prod_short](includes/prod_short.md)]. Snabb flödena finns i åtgärdsgruppen **automatiserad** i åtgärdsfältet på sidorna. Om du vill köra ett flöde markerar du det och följer instruktionerna som visas för dig. Läs mer i avsnitten som följer.
+ 
+- Med automatiska flöden i [!INCLUDE[prod_short](includes/prod_short.md)] finns det ingenting som du kan göra, om du inte vill ändra dem eller inaktivera dem. Annars fungerar de bara när de utlöses. 
 <!--
 
 ## Automated flows
@@ -86,9 +90,9 @@ Att skapa nya flöden, ändra och hantera befintliga (som att aktivera eller ina
 
 - Om du vill skapa ett direktflöde från en lista, kort eller dokumentsida väljer du **Automatisera** > **Skapa ett flöde**.
 - Om du vill öppna Power Automate från en lista, kort eller dokumentsida väljer du **Automatisera** > **Hantera flöden**.
-- Du kan skapa nya flöden eller hantera befintliga flöden i [!INCLUDE[prod_short](includes/prod_short.md)] på sidan **Hantera Power Automate-flöden**
+<!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-Dessa uppgifter utförs vanligtvis av en administratör eller superanvändare. Uppgifterna kräver en bredare kunskap om affärsprocesserna i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Ställa in automatiserade flöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Skapa snabb flöden ](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) och [Hantera Power Automate flöden](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+Dessa uppgifter utförs vanligtvis av en administratör eller superanvändare. Uppgifterna kräver en bredare kunskap om affärsprocesserna i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du vill veta mer, utforska [Power Automate-integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Ställa in direktflöden](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) och [Hantera Power Automate-flöden](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
 <!-- 
 
 ## Add more automated flows and instant flows

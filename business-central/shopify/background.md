@@ -44,8 +44,8 @@ Du kan schemalägga följande återkommande uppgifter så att de utförs på ett
 
 Andra uppgifter som kan vara till hjälp för att automatisera ytterligare behandling av försäljningsdokument:
 
-- rapport 497 Masspublicera inköpsfakturor
-- rapport 496 Masspublicera inköpsordrar
+- rapport 297 Masspublicera försäljningsfakturor
+- rapport 296 Masspublicera försäljningsordrar
 
 Du kan använda **Shopify ordernr.** för att identifiera försäljningsdokument som har importerats från Shopify.
 

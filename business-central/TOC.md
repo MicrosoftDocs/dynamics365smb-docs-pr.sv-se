@@ -810,6 +810,7 @@
 ##### [Begränsa bokföringsperioden](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Ange arbetsdatum som bokföringsdatum](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Göra journalmallar obligatoriska](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Periodisering i transaktionsrapporter för försäljning och inköp](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Kanada
 #### [Lokala funktioner i den kanadensiska versionen](LocalFunctionality/Canada/canada-local-functionality.md)

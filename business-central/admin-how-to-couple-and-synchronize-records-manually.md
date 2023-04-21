@@ -45,7 +45,7 @@ Det här videoklippet visar kopplings-och synkroniseringsdata vid integrering me
 2. Välj åtgärden **[!INCLUDE[prod_short](includes/prod_short.md)]** i menyfliksområdet för att öppna och koppla transaktioner automatiskt.
 
     > [!Note]
-    > Du kan endast synkronisera en enskild transaktion automatiskt från [!INCLUDE[crm_md](includes/crm_md.md)] när **Synka endast kopplade transaktioner** är inaktiverat och synkroniseringen har angetts som dubbelriktad eller Från integreringstabell på sidan **Registermappning för integrering** för transaktionen. Mer information finns i [Mappa de tabeller och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
+    > Du kan endast synkronisera en enskild transaktion automatiskt från [!INCLUDE[crm_md](includes/crm_md.md)] när **Synka endast kopplade transaktioner** är inaktiverat och synkroniseringen har angetts som **dubbelriktad** eller **Från integreringstabell** på sidan **Registermappning för integrering** för transaktionen. Mer information finns i [Mappa de tabeller och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
 ## För at koppla flera poster med matchningsbaserad koppling
 
@@ -63,6 +63,36 @@ Ange vilka data som ska synkroniseras för en entitet, t.ex. en kund eller konta
 1. I [!INCLUDE[prod_short](includes/prod_short.md)] öppna listsidan för posten, till exempel listsidan kunder eller kontakter.  
 2. Markera den post du vill synkronisera och välj sedan åtgärden **Synkronisera nu**.  
 3. Om transaktioner kan synkroniseras åt endast ett håll, välj då det alternativ som anger riktningen för datauppdateringen, och välj sedan **OK**.  
+
+## Massinfoga och koppla poster
+
+Om du har ett stort antal Dataverse-enheter som motsvarar posterna i [!INCLUDE [prod_short](includes/prod_short.md)] kan du infoga och koppla dem i bulk. Du kanske till exempel vill lägga in och koppla poster när du ställer in synkronisering för första gången.
+
+Du ska använda **Guiden för dataimport** i **Microsoft Power Platform administrationscenter**.
+
+I följande exempel beskrivs hur du lägger till och koppla kunder med konton i Dataverse. Använd samma procedur för andra typer av entiteter, t.ex. leverantörer, artiklar och resurser.
+
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+2. Välj åtgärden **Öppna i Excel** för att öppna kunddata i Excel. <!--Don't they need to choose the customers that they want to import to Dataverse?-->
+3. Om du vill mappa och importera data till entiteten i **konto** i Dataverse följer du de steg som beskrivs i [Importera data (alla post typer) från flera källor](/power-platform/admin/import-data-all-record-types).  
+
+    Om entiteten konto har en kolumn för **bcbi_companyid** och du mappar data kolumnerna, bör du kontrollera att rätt företags-ID tilldelas i kolumnen för varje importerad post. Så här söker du efter företags-ID i [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+    1. Öppna sidan **integreringstabellens mappningslista**.
+    2. Välj **KUND** och välj sedan **Redigera lista**.
+    3. Bläddra åt höger och välj knappen redigeringshjälp :::image type="icon" source="media/assist-edit-icon.png" border="false"::: i fältet **Filter för integreringsregister**. Detta visar standardfiltret för kundmappning och innehåller företags-ID. Företags-ID är den första delen av värdet. Kopiera endast den delen och bortse från 0. I följande exempel markeras den del som ska kopieras.
+
+    :::image type="content" source="media/dataverse-company-id-guid.png" alt-text="Visar den del av företags-ID som ska kopieras":::
+
+    > [!NOTE]
+    > Alla namn på  Dataverse -entiteter och Business Central-poster matchar inte. Beroende på vad du importerar, kontrollera att följande kolumner har följande värden när du har importerat:
+    >
+    >* För kunderna ska kolumnen **CustomerTypeCode** innehålla **Kund**.
+    >* För leverantörerna ska kolumnen **CustomerTypeCode** innehålla **Leverantörer**. 
+    >* För artiklar bör kolumnen **ProductTypeCode** innehålla **Försäljningslager**.
+    >* För resurser ska kolumnen **ProductTypeCode** innehålla **Tjänst**.
+ 
+4. När du har importerat data till Dataverse-miljön i [!INCLUDE [prod_short](includes/prod_short.md)], följ dessa steg [För att koppla flera poster med matchningsbaserad koppling](#to-couple-multiple-records-using-match-based-coupling) för att koppla Dataverse-entiteterna med [!INCLUDE [prod_short](includes/prod_short.md)]-poster. 
 
 ## Frånkopplingsposter
 

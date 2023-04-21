@@ -1,15 +1,14 @@
 ---
 title: Skapa nya företag med en assisterad konfiguration
-description: 'Det är enkelt att skapa ett nytt, tomt företag i Business Central. En assisterad konfiguration hjälper dig genom stegen och du kan importera dina befintliga affärsdata.'
-author: edupont04
+description: 'Det är enkelt att skapa ett nytt, tomt företag i Business Central. En assisterad konfiguration hjälper dig genom stegen och du kan importera dina affärsdata.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/14/2023
+ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -46,7 +45,9 @@ Administratören kan läsa mer om försök och prenumerationer [här](/dynamics3
 På sidan **Företag** kan du använda åtgärden **Kopiera** för att skapa ett andra företag baserat på innehållet i ett befintligt företag. Detta är användbart om du t. ex. vill testa ett företag utan att störa produktionsdata.
 
 > [!Important]
-> Den här funktionen kan inte användas för att göra en säkerhetskopia av ett företag. När du gör en säkerhetskopia av ett företag börjar du genom att exportera databasen som en .bacpac-fil. Mer information finns i [Exportera databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjälpen för utvecklare och administration.
+> Använd inte kopieringsåtgärden för att göra en säkerhetskopia av ett företag. För att göra en säkerhetskopia av ett företag börjar du genom att exportera databasen som en .bacpac-fil. Mer information finns i [Exportera databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjälpen för utvecklare och administration.
+
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
 ## Konfigurera företagsnavet
 
