@@ -109,12 +109,11 @@ För att helt utesluta alla behörigheter från en behörighetsuppsättning som 
 
 Om du vill utesluta eller delvis utesluta en viss behörighet i en uppsättning som du har lagt till, skapar du en rad för objektet under **Behörigheter**. Fälten för åtkomstnivå, Infoga behörighet, Ändra behörighet och så vidare innehåller alla **Uteslut**. Om du vill tillåta en viss åtkomstnivå väljer du lämpligt alternativ.
 
-> [!NOTE]
-> Om du utesluter en behörighetsgrupp utesluts alla behörigheter i uppsättningen. [!INCLUDE [prod_short](includes/prod_short.md)] beräknar behörigheterna som följer:
+Om du utesluter en behörighetsgrupp utesluts alla behörigheter i uppsättningen. [!INCLUDE [prod_short](includes/prod_short.md)] beräknar behörigheterna som följer:
 
-> 1. Beräkna den fullständiga listan med inkluderade behörigheter
-> 2. Beräkna den fullständiga listan med uteslutna behörigheter
-> 3. Ta bort uteslutna behörigheter från listan över inkluderade behörigheter (borttagning av indirekt behörighet är detsamma som att minska till indirekt)
+1. Beräkna den fullständiga listan med inkluderade behörigheter
+2. Beräkna den fullständiga listan med uteslutna behörigheter
+3. Ta bort uteslutna behörigheter från listan över inkluderade behörigheter (borttagning av indirekt behörighet är detsamma som att minska till indirekt)
 
 ## Att kopiera behörighetsuppsättning
 
