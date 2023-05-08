@@ -2,30 +2,31 @@
 title: Skapa arbetsflöden för godkännande för att koppla aktiviteter
 description: Lär dig skapa arbetsflöden som kopplar uppgifter som utförs av olika människor i affärsprocesser.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 11/11/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.date: 04/24/2023
+ms.custom: bap-template
 ---
 # Skapa arbetsflöden för att koppla uppgifter i affärsprocesser
 
-Du kan skapa arbetsflöden som kopplar uppgifter i affärsprocesser som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
+Du kan skapa arbetsflöden som kopplar uppgifter i affärsprocesser som ska utföras av olika användare. Du kan inkludera systemuppgifter, till exempel automatisk bokföring, som ett steg i arbetsflöden som är före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.  
 
-På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar med svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden.  
+På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange stegen på raderna. Varje steg består av en utlösare och ett svar:
+
+* En händelse som anger de villkor som gäller för att starta arbetsflödet.
+* Ett arbetsflödessvar som definierar vad arbetsflödet gör.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-När du skapar arbetsflöden kan du kopiera stegen från befintliga arbetsflöden eller från arbetsflödesmallar. Arbetsflödesmallar representerar icke-redigerbara arbetsflöden som finns i den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)]. Koden för arbetsflödesmallar som läggas till av Microsoft har prefixet ”MS-”, till exempel "MS-PIW”. Läs mer på [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)  
+När du skapar arbetsflöden kan du kopiera stegen från befintliga arbetsflöden eller från arbetsflödesmallar. Arbetsflödesmallar är icke-redigerbara arbetsflöden som [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller. Identifierare för arbetsflödesmallar har prefixet ”MS-”, till exempel "MS-PIW”. Läs mer på [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)  
 
 > [!NOTE]  
 > Alla meddelanden om arbetsflödessteg skickas via en jobbkö. Kontrollera att jobbkön återspeglar dina affärsbehov. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
 :::image type="content" source="media/Workflows/workflow-example.png" alt-text="Illustration av ett exempel på ett arbetsflöde.":::
 
-Arbetsflödet är uppdelat i tre delar:
+Ett arbetsflöde är uppdelat i tre delar:
 
 1. **När händelse**  
    Det är här som utlösaren väljs.  
@@ -39,11 +40,11 @@ Arbetsflödet är uppdelat i tre delar:
 3. **Då svar**  
    **Svaren** anger nästa steg i arbetsflödet.
 
-För båda händelser och svar är alternativen systemdefinierade. Nya måste läggas till genom utveckling av ett tillägg.
+Alternativen för båda händelser och svar är systemdefinierade. Om du vill lägga till nya alternativ måste du utveckla ett tillägg.
 
 ## Skapa ett arbetsflöde
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflöde** visas.  
 3. Ange högst 20 tecken för att identifiera arbetsflödet i fältet **Kod**.  
 4. Så här skapar du arbetsflödet från en arbetsflödesmall, på sidan **Arbetsflöden**, välj åtgärden **Nytt arbetsflöde från en arbetsflödesmall**. Läs mer på [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)  
@@ -51,18 +52,18 @@ För båda händelser och svar är alternativen systemdefinierade. Nya måste l�
 6. I fältet **kategorin** ange kategorin som arbetsflödet tillhör.  
 7. I fältet **När händelse** ange den händelse som måste uppstå för att starta arbetsflödessteget.  
 
-   När du väljer fältet öppnas sidan **Arbetsflödeshändelse** där du kan välja mellan alla arbetsflödeshändelser som är tillgängliga.  
+   När du väljer fältet öppnas sidan **Arbetsflödeshändelse** som anger alla arbetsflödeshändelser som är tillgängliga.  
 8. I fältet **På villkor** skriver du ett eller flera villkor som måste uppfyllas innan händelsen i fältet **När händelse** kan uppstå.  
 
-   När du väljer fältet öppnas sidan **Händelseförhållanden** där du väljer från en lista med filterfält som är relevanta som villkor för händelsen i fråga. Du kan lägga till nya filterfält som du vill använda som händelsevillkor. Du ställer in händelsevillkorfilter så som du ställer in filter på rapportsidor.  
+   När du väljer fältet visar sidan **Händelsevillkor** filterfält som kan vara villkor för händelsen. Du kan lägga till nya filterfält om du vill.  
 
-   Om arbetsflödeshändelsen är ändringen av ett visst fält i en post, då öppnas sidan **Händelsevillkor** med alternativ för att markera fältet och typen av ändring.  
+   Om arbetsflödeshändelsen är ändringen av ett visst fält i en post, använd sidan **Händelsevillkor** med för att markera fältet och typen av ändring.  
 
    1. Så här anger du en fältändring för händelsen: i sidan **Händelsevillkor**, i fältet **Fält**, markerar du det fält som ska ändras.  
    2. Välj antingen **Minskad**, **Ökad**eller **Ändrad** i fältet **Operator**.  
 9. I fältet **Sedan svar** anger du svaret som ska följa när arbetsflödeshändelsen inträffar.  
 
-   När du väljer fältet öppnas sidan **Arbetsflödessvar** där du kan välja mellan alla arbetsflödessvar som finns och ange svarsalternativ för det valda svaret.  
+   När du väljer fältet öppnas sidan **Arbetsflödessvar** som anger alla arbetsflödessvar och svarsalternativ som är tillgängliga.  
 10. På snabbfliken **Alternativ för valt arbetsflödessvar** anger du alternativ för arbetsflödessvaret genom att välja värden i de olika fälten som visas, enligt följande:  
 
     1. Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skicka ett meddelande.  
@@ -72,21 +73,22 @@ För båda händelser och svar är alternativen systemdefinierade. Nya måste l�
 
        |Fält|Description|
        |-----|-----------|
-       |**Meddela avsändare**|Ange om den som har fått godkännandet ska meddelas i stället för mottagaren om godkännandeförfrågan. Om du markerar kryssrutan inaktiveras fältet **Mottagarens användar-ID** eftersom den som skickar godkännandet kommer att meddelas i stället. Namnet på arbetsflödessvar ändras enligt detta till **skapa ett meddelande för &lt;avsändaren&gt;**. Om kryssrutan inte är markerad kan namnet på arbetsflödetssvar **skapa ett meddelande för &lt;användaren&gt;**.|
+       |**Meddela avsändare**|Ange om den som har fått godkännandet ska meddelas i stället för mottagaren om godkännandeförfrågan. Om du markerar kryssrutan inaktiveras fältet **Mottagarens användar-ID** eftersom den som skickar godkännandet kommer att meddelas i stället. Namnet på arbetsflödessvar ändras enligt detta till **skapa ett meddelande för &lt;avsändaren&gt;**. Om kryssrutan inte är markerad kan namnet på arbetsflödessvar **skapa ett meddelande för &lt;användaren&gt;**.|
        |**Mottagarens användar-ID**|Ange den användare som meddelande ska skickas till. **Obs**! Alternativet är bara tillgängligt för arbetsflödesvar med en platshållare för en specifik användare. För arbetsflödesvar utan platshållare för användare definieras meddelandemottagaren vanligtvis av **inställningen av godkännandeanvändare**.|
-       |**Transaktionstyp för meddelande**|Anger om arbetsflödesmeddelandet utlöses av en poständring, en begäran om godkännande eller en data som har passerats.|
-       |**Målsida för länk**|Ange en annan sida som länken i meddelandet öppnar i stället för standardsidan. Sidan måste ha samma källtabell som posten.|
+       |**Transaktionstyp för meddelande**|Ange en utlösare för arbetsflödesmeddelandet. Utlösaren kan vara en ändring av posten, en godkännandebegäran eller ett förfallodatum som har passerat.|
+       |**Målsida för länk**|Ange sidan som länken i meddelandet öppnas på. Sidan måste ha samma källtabell som posten.|
        |**Anpassad länk**|Ange URL-adressen till en länk som läggs till i meddelandet utöver länken till sidan.|
 
     2. Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skapa en godkännandebegäran.  
 
        |Fält|Description|  
        |-----|-----------|  
-       |**Formel för förfallodatum**|Ange hur många dagar det är kvar tills godkännandebegäran måste lösas från datumet då det skickades.|
-       |**Delegera efter**|Ange om och när en godkännandebegäran delegeras automatiskt till den relevanta ersättaren. Du kan välja att automatiskt delegera en, två eller fem dagar efter datumet när godkännandet begärdes.|
-       |**Godkännartyp**|Ange vem godkännaren är, enligt inställningarna av godkännandeanvändare och arbetsflödesanvändare. När fältet anges till **Säljare/Inköpare** användaren som ställs in i fältet **Säljare/inköpare kod** i sidan **Användarinställningar för godkännande** fastställer godkännaren. Godkännandebegäranposter skapas sedan enligt värdet i fältet **Gränstyp för godkännare**. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-workflow-users.md).|
-       |**Visa bekräftelsemeddelande**|Ange om ett bekräftelsemeddelande visas för användarna när de har begärt ett godkännande.|
-       |**Gränstyp för godkännare**|Ange hur godkännares godkännandegränser påverkas när godkännandebegärandeposter skapas för dem. En kvalificerad godkännare är en godkännare vars godkännandegräns är högre än värdet på begäran. Följande alternativ finns: <ol><li>**Godkännarkedja** anger att godkännandebegärandeposter skapas för alla begärandens godkännare upp till och med den första kvalificerade godkännaren.</li><li>**Direkt godkännare** anger att en godkännandebegärandepost skapas endast för begärandens omedelbara godkännare, oberoende av godkännarens godkännandegräns.</li><li>**Första kvalificerade godkännare** anger att en godkännandebegärandepost skapas endast för begärandens första kvalificerade godkännare.</li><li>**Specifik godkännare** anger att användaren ska meddelas i fältet **godkännar-ID**.</li></ol>|
+       |**Formel för förfallodatum**|Ange antalet dagar som godkännaren har för att svara på begäran. Perioden inleds när begäran skickas.|
+       |**Delegera efter**|Ange om och när en godkännandebegäran delegeras automatiskt till ersättaren. Du kan välja att automatiskt delegera en, två eller fem dagar efter datumet när godkännandet begärdes.|
+       |**Godkännartyp**|Ange vem godkännaren är, enligt inställningarna av godkännandeanvändare och arbetsflödesanvändare. När fältet anges till **Säljare/Inköpare** användaren som anges i fältet **Säljare/inköpare kod** i sidan **Användarinställningar för godkännande** fastställer godkännaren. Godkännandebegäranposter skapas sedan enligt värdet i fältet **Gränstyp för godkännare**. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-workflow-users.md).|
+       |**Visa bekräftelsemeddelande**|Ange om ett bekräftelsemeddelande visas för användarna eller inte när en användare begär ett godkännande.|
+       |**Gränstyp för godkännare**|Ange effekten av begränsningar för godkännare. En godkännares godkännandegräns måste vara över värdet i begäran. Följande alternativ finns: <ol><li>**Godkännarkedja** anger att godkännandebegärandeposter skapas för alla begärandens godkännare upp till och med den första kvalificerade godkännaren.</li><li>**Direkt godkännare** anger att en godkännandebegärandepost skapas endast för begärandens omedelbara godkännare, oberoende av godkännarens godkännandegräns.</li><li>**Första kvalificerade godkännare** anger att en godkännandebegärandepost skapas endast för begärandens första godkännare.</li><li>**Specifik godkännare** anger att användaren ska meddelas i fältet **godkännar-ID**.</li></ol>|
+
     3. Fyll i fälten som beskrivs i följande tabell för att ange alternativ för arbetsflödesvar som omfattar att skapa journalrader.  
 
        |Fält|Description|  
@@ -96,26 +98,26 @@ För båda händelser och svar är alternativen systemdefinierade. Nya måste l�
 
 11. Välj knapparna **Öka indrag** och **Minska indrag** för att göra ett indrag för händelsenamnet i fältet **När** för att definiera stegets position i arbetsflödet.  
 
-    1. Ange att steget är nästa i arbetsflödesföljden genom att göra ett indrag för händelsenamnet i det föregående steget.  
+    1. Dra in händelsen under namnet på föregående steg för att ange att det är nästa steg.  
     2. Ange att steget är ett av flera alternativa steg som kan startas beroende på dess villkor genom att placera händelsenamnet med samma indrag som de andra alternativa stegen. Ordna sådana valfria efter prioritet genom att placera det viktigaste steget först.  
 
     > [!NOTE]  
     >  Du kan endast ändra indrag för ett steg som inte har ett efterföljande steg.  
 
 12. Upprepa steg 7 till 11 för att lägga till fler arbetsflödessteg, antingen före eller efter steget som du har skapat.  
-13. Aktivera växlingskontrollen **Aktiverad** för att ange att arbetsflödet ska starta så snart som händelsen i det första steget av typen **Insteg** inträffar. Läs mer i [Använd arbetsflöden](across-use-workflows.md).  
+13. Aktivera växlingskontrollen **Aktiverad** för att ange att arbetsflödet ska starta när händelsen i det första steget av typen **Insteg** inträffar. Läs mer i [Använd arbetsflöden](across-use-workflows.md).  
 
 > [!NOTE]  
-> Aktivera inte ett arbetsflöde förrän du vet att arbetsflödet är avslutat och att relevanta arbetsflödessteg kan startas.  
+> Aktivera inte ett arbetsflöde förrän du är säker på att det är klart.  
 
 > [!TIP]  
-> Om du vill visa relationer mellan tabeller som används i arbetsflöden väljer du den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **arbetsflöde – tabellrelationer**.  
+> Om du vill utforska relationer mellan tabeller som används i arbetsflöden väljer du ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **arbetsflöde – tabellrelationer**.  
 
 ## Exempel på hur du skapar ett nytt arbetsflöde med hjälp av befintliga händelser
 
-I följande exempel görs ett nytt arbetsflöde för att godkänna ändringar av namnet på en befintlig leverantör:
+Följande exempel skapar ett arbetsflöde för att godkänna en ändring av namnet på en leverantör:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflöde** visas.
 3. I arbetsflödet, fyll i fälten enligt beskrivningen i följande tabell på snabbfliken Alternativ.
 
@@ -128,39 +130,39 @@ I följande exempel görs ett nytt arbetsflöde för att godkänna ändringar av
 4. Skapa det första arbetsflödessteget enligt följande instruktioner.
 
     1. I fältet **när händelse** anger du att *en leverantörspost har ändrats*.  
-    2. I fältet **På villkor** lämnar du ordet som **Alltid**. På sidan **Händelsevillkor** lägg till **Lägg till ett villkor för när ett fältvärde ändras** och markerar sedan fältet *namn*. Resultatet av det här steget är att villkoret läses som *namn ändras*.  
-    3. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar** välj svaret *Återställ värdet för fältet \<Field\> på posten och spara ändringar*. Sedan i avsnittet **alternativ för markerade svar** ange fältet *Namn*.  
-    4. Välj länken **Lägg till fler svar** och lägg till en post för *skapa en godkännandebegäran för posten med hjälp av typen god kännare <%1> och <%2>* svar.  
-    5. I avsnittet **alternativ för det valda svar** för det nya svaret ändrar du fältet **godkännartyp** till *Arbetsflödesanvändargrupp* och anger sedan relevant användargrupp i fältet **Arbetsflödesanvändargrupp**. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-approval-users.md).  
-    6. Lägg till ett tredje svar *Skicka godkännandebegäranden för posten och skapa ett meddelande*.  
-    7. Lägg till ett fjärde svar, *Visa meddelande "%1"* och sedan, i avsnittet **alternativ för markerade svar** i fältet **Meddelande** anger du att **En begäran om godkännande har skickats**.  
+    2. I fältet **På villkor** lämnar du ordet som **Alltid**. På sidan **Händelsevillkor** lägg till **Lägg till ett villkor för när ett fältvärde ändras** och markerar sedan fältet **namn**. Resultatet av det här steget är att villkoret läses som *namn ändras*.  
+    3. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar** välj svaret **Återställ värdet för fältet \<Field\> på posten och spara ändringar**. Sedan i avsnittet **alternativ för markerade svar** ange fältet **Namn**.  
+    4. Välj länken **Lägg till fler svar** och lägg till en post för **skapa en godkännandebegäran för posten med hjälp av typen god kännare <%1> och <%2>** svar.  
+    5. I avsnittet **Alternativ för markerade svar** för det nya svaret ändrar du fältet **Godkännartyp** till **Arbetsflödesanvändargrupp**. I fältet **Arbetsflödesanvändargrupp** anger du sedan användargruppen. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-approval-users.md).  
+    6. Lägg till ett tredje svar **Skicka godkännandebegäranden för posten och skapa ett meddelande**.  
+    7. Lägg till ett fjärde svar **Visa meddelande "%1"**. Sedan i avsnittet **Alternativ för markerade svar** i fältet **Meddelande** ange **En begäran om godkännande har skickats**.  
     8. Välj **OK** om du vill återvända till arbetsflödessteget.  
 
-5. Lägg till ett nytt arbetsflödessteg för *en begäran om godkännande på nästa rad*. händelse.
+5. Lägg till ett nytt arbetsflödessteg för händelsen **en begäran om godkännande på nästa rad**.
 
-    1. I fältet **När händelse** ange *en begäran om godkännande på nästa rad*.  
+    1. I fältet **När händelse** ange **en begäran om godkännande på nästa rad**.  
     2. Välj radmenyn och välj sedan **öka indrag**.  
-    3. I fältet **På villkor** välj ordet **Alltid** och sedan i fältet **Väntar på godkännanden** anger du *0*. Resultatet av det här steget är att villkoret läses som *Väntar på godkännanden:0* för att ange att det är den sista godkännaren.  
-    4. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar**, välj svaret *Skicka godkännandebegäranden för posten och skapa ett meddelande*.  
+    3. I fältet **På villkor** väljer du **Alltid**. I fältet **Väntar på godkännanden** anger du **0**. Villkoret läses som **Väntar på godkännanden:0** för att indikera att begäran inte kräver fler godkännare.  
+    4. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar**, välj svaret **Skicka godkännandebegäranden för posten och skapa ett meddelande**.  
     5. Välj **OK**.  
-6. Lägg till ett andra arbetsflödessteg för händelsen *en begäran om godkännande på nästa rad*.  
+6. Lägg till ett andra arbetsflödessteg för händelsen **en begäran om godkännande på nästa rad**.  
 
-    1. I fältet **När händelse** ange *en begäran om godkännande på nästa rad*.
-    2. I fältet **På villkor** välj ordet **Alltid** och sedan i fältet **Väntar på godkännanden** anger du *>0*. Resultatet av det här steget är att villkoret läses som *Väntar på godkännanden:>0* för att ange att det *inte* är den sista godkännaren.  
-    3. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar**, välj svaret *Skicka godkännandebegäranden för posten och skapa ett meddelande*.  
+    1. I fältet **När händelse** ange **en begäran om godkännande på nästa rad**.
+    2. I fältet **På villkor** väljer du **Alltid**. I fältet **Väntar på godkännanden** anger du **>0**. Villkoret läses som **Väntar på godkännanden:>0** för att ange att det är den sista godkännaren.  
+    3. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar**, välj svaret **Skicka godkännandebegäranden för posten och skapa ett meddelande**.  
     4. Välj **OK**.  
-7. Lägg till ett arbetsflödessteg för händelsen *en begäran om godkännande har delegerad*.  
+7. Lägg till ett arbetsflödessteg för händelsen **en begäran om godkännande har delegerad**.  
 
-    1. I fältet **När händelse** ange *en begäran om godkännande är delegerad*.  
-    2. I fältet **På villkor** lämnar du värdet som *Alltid*.  
-    3. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar**, välj svaret *Skicka godkännandebegäranden för posten och skapa ett meddelande*.  
+    1. I fältet **När händelse** ange **en begäran om godkännande är delegerad**.  
+    2. I fältet **På villkor** lämnar du värdet som **Alltid**.  
+    3. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar**, välj svaret **Skicka godkännandebegäranden för posten och skapa ett meddelande**.  
     4. Välj **OK**.  
-8. Lägg till ett andra arbetsflödessteg för händelsen *en begäran om godkännande har avvisats*.  
+8. Lägg till ett andra arbetsflödessteg för händelsen **en begäran om godkännande har avvisats**.  
 
-    1. I fältet **När händelse** ange *en begäran om godkännande har avvisats*.  
-    2. I fältet **På villkor** lämnar du värdet som *Alltid*.  
-    3. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar** välj *Avvisa nya värden*.  
-    4. Välj länken **Lägg till fler svar** och lägg till en post för svaret *Avvisa godkännandebegäran för posten och skapa ett meddelande*
+    1. I fältet **När händelse** ange **en begäran om godkännande har avvisats**.  
+    2. I fältet **På villkor** lämnar du värdet som **Alltid**.  
+    3. I fältet **Sedan svar** välj länken **Välj svar**. På sidan **Arbetsflödessvar** i fältet **Välj svar** välj **Avvisa nya värden**.  
+    4. Välj länken **Lägg till fler svar** och lägg till en post för svaret **Avvisa godkännandebegäran för posten och skapa ett meddelande**
     5. Välj **OK**.  
 9. För att aktivera arbetsflödet, aktivera växlingskontrollen **Aktiverad**.  
 
