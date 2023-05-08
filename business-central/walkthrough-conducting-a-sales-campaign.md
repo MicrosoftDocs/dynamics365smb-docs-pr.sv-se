@@ -44,7 +44,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
 ## Situation
 
- Marknadsföringschefen på försäljningsavdelningen hos CRONUS är ansvarig för planering och genomförande av kampanjer. Han fattar också beslut om vilka mässor som företaget ska delta i och utvärderar hur kampanjerna går.  
+ Marknadsföringschefen på försäljningsavdelningen hos CRONUS är ansvarig för planering och genomförande av kampanjer. Marknadsföringschefen fattar också beslut om vilka mässor som företaget ska delta i och utvärderar hur kampanjerna går.  
 
  Marknadsföringsassistenten på marknadsföringsavdelningen ansvarar för att ta fram, distribuera och placera ut marknadsföringsmaterial.  
 
@@ -96,7 +96,7 @@ Sidan **Segment** innehåller nu en lista med kontakter baserat på det filter s
 
 ## Utvinna data
 
- Marknadsföringschefen tar en närmare titt på segmentlistan med kontakter och inser att den är alldeles för stor. Han bestämmer sig för att minska ned listan och i stället basera den på verkligt potentiella kunder för att se till att han fokuserar på rätt målgrupp. Den här processen att förfina och minska data kallas även för datautvinning.  
+ Marknadsföringschefen tar en närmare titt på segmentlistan med kontakter och inser att den är alldeles för stor. Chefen bestämmer sig för att minska ned listan och i stället basera den på verkligt potentiella kunder för att se till att han fokuserar på rätt målgrupp. Den här processen att förfina och minska data kallas även för datautvinning.  
 
 ### Så här tar du bort kontakter från segmentet  
 

@@ -39,7 +39,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 
 ## Situation
 
-Ken är controller på CRONUS som varje månad gör kassaflödesprognoser. Han tar med ekonomi, försäljning, inköp och anläggningstillgångar i prognosen, som han sedan presenterar för Sara som är ekonomichef.  
+Ken är controller på CRONUS som varje månad gör kassaflödesprognoser. Ken tar med ekonomi, försäljning, inköp och anläggningstillgångar i prognosen och presenterar den för Sara som är ekonomichef.  
 
 ## Lägga upp ett nytt namn för ekonomisk rapport
 
@@ -95,12 +95,12 @@ När ett namn på en ekonomisk rapport ställs in definierar Ken varje rad i den
 
 ## Skapa en ny kolumndefinition
 
-Innan Ken kan skriva ut kassaflödesprognosen, måste han att skapa kolumndefinitionen för den numeriska informationen. I kolumnerna definierar han den information som han vill använda från raderna.
+Innan Ken kan skriva ut kassaflödesprognosen, måste han att skapa kolumndefinitionen för den numeriska informationen. I kolumnerna definierar Ken den information som han vill använda från raderna.
 
 - Den första kolumnen har numret *C10* med rubriken **Amount** och innehåller nettoförändringen.  
 - Den andra kolumnen har numret *C20* och rubriken **Saldo på datum** och innehåller transaktionerna för perioden.  
 - Den tredje kolumnen har numret *C30* och rubriken **Hela året** och innehåller nettoförändringen i saldona för hela räkenskapsåret.  
-- Slutligen anger han att kolumndefinitionen ska vara standardalternativet för den ekonomiska rapporten **Prognos**.  
+- Slutligen anger Ken att kolumndefinitionen ska vara standardalternativet för den ekonomiska rapporten **Prognos**.  
 
 ### Lägga upp en ny kolumndefinition
 

@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Mobile Apps FAQ
-  description: See answers to frequently asked questions about using Business Central on your phone or tablet.
+  title: Vanliga frågor och svar om mobilappar
+  description: Se svar på vanliga frågor om att använda Business Central på din telefon eller surfplatta.
   author: edupont04
   ms.topic: faq
   ms.devlang: na
@@ -10,63 +10,58 @@ metadata:
   ms.search.keywords: 'phone, tablet'
   ms.date: 10/25/2021
   ms.author: edupont
-title: Mobile Apps FAQ
+title: Vanliga frågor och svar om mobilappar
 summary: |
-  This article answers questions that our advanced users often ask about the mobile apps for <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph>.  
+  I denna artikel besvaras frågor som våra erfarna användare ofta ställer om mobilapparna för [!INCLUDE [prod_short](includes/prod_short.md)].  
 sections:
-  - name: Ignored
+  - name: Har ignorerats
     questions:
       - question: |
-          Is there an app for my device?
-        answer: |
-          Probably! Install the <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> app on your mobile device by downloading the app from the Windows Store, App Store, or Google Play.
-
-          - <bpt id="p1">[</bpt>Windows Store<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734848)</ept> (PC only)
-          - <bpt id="p1">[</bpt>App Store<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734847)</ept>
-          - <bpt id="p1">[</bpt>Google Play<ept id="p1">](https://go.microsoft.com/fwlink/?LinkId=734849)</ept>
+          Finns det någon app för min enhet?
+        answer: "Troligen! Installera appen [!INCLUDE[prod_short](includes/prod_short.md)] på den mobila enheten genom att hämta programmet från Windows Store, App Store, eller Google Play.\n\n- [Windows\_Store](https://go.microsoft.com/fwlink/?LinkId=734848) (endast PC)\n- [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)\n- [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)\n"
       - question: |
-          Is it the same experience in the apps as in the browser?
+          Fungerar det likadant i apparna som i webbläsaren?
         answer: |
-          No, not exactly. For example, we show only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group due to the limited screen size on mobile devices. Similarly, the keyboard shortcuts are not available because you mainly use touch rather than a keyboard to navigate on mobile devices.
+          Nej, inte exakt. På grund av den begränsade skärmstorleken på mobila enheter visar vi t. ex. endast aktivitetsgruppen **Hem**. På samma sätt är kortkommandona inte tillgängliga eftersom du främst använder beröring snarare än ett tangentbord för att navigera på mobila enheter.
 
-          The following table describes some of the most common differences and limitations that you might experience when using <ph id="ph1">[!INCLUDE [prod_short](includes/prod_short.md)]</ph> on mobile devices, compared to the browser.
+          I tabellen nedan beskrivs några av de vanligaste skillnaderna och begränsningarna som kan uppstå när du använder [!INCLUDE [prod_short](includes/prod_short.md)] på mobila enheter jämfört med i webbläsaren.
 
-          | Concept | On tablets | On phones | Example from the browser |
+          | Begrepp | På surfplattor | På telefoner | Exempel från webbläsaren |
           |--|--|--|--|
-          | Activity groups | Only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group is shown. | Only the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> activity group is shown. | <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Posted Documents<ept id="p2">**</ept> on the <ph id="ph1">`Sales Order Processor`</ph> Role Center. |  |
-          | Selecting multiple records in lists | Not available. | Not available. | <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>A<ept id="p2">&lt;/kbd&gt;</ept> or <bpt id="p3">&lt;kbd&gt;</bpt>Ctrl<ept id="p3">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p4">&lt;kbd&gt;</bpt>Click<ept id="p4">&lt;/kbd&gt;</ept> on rows in a list in the browser. |
-          | Actions in the action bar | Only Promoted actions are shown. | Only Promoted actions are shown. |  |
-          | FactBoxes | Not shown on List pages or Worksheet pages. | Not shown on List pages or Worksheet pages. | <ph id="ph1">`Customer`</ph> list on the <ph id="ph2">`Small Business`</ph> Role Center. |
-          | Advanced filters | No column-specific filtering is available. | No column-specific filtering is available. | On the <ph id="ph1">`Customer`</ph> list page. |
-          | Tell Me | Not available yet. | Not available yet. | See <bpt id="p1">[</bpt>Finding Pages and Information with Tell Me<ept id="p1">](ui-search.md)</ept>. |  |
-          | Role Explorer | Not available yet. | Not available yet. | See <bpt id="p1">[</bpt>Finding Pages with the Role Explorer<ept id="p1">](ui-role-explorer.md)</ept>. |
-          | Fields in FastTabs | Fields in FastTabs on list pages are not shown. Only the repeater control is shown in the content area of the page. | Not available. |  |
-          | Select from full list | Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records. | Not available on lookups. Users are not able to run actions on a lookup page, and they cannot access the full set of records. | On the <ph id="ph1">`Item Card`</ph> when selecting the <bpt id="p1">**</bpt>Base Units of Measure<ept id="p1">**</ept>. |
-          | Search across list columns | Partly supported. Search will not include FlowFields. | Partly supported. Search will not include FlowFields. | See examples on the <ph id="ph1">`Customers`</ph> list page. |
-          | Lookups | Available. | Available, with the difference that advanced and simple lookups behave similarly on the phone. The lookup will not bring up the card, show FactBoxes, or any field groups. | See examples on the <ph id="ph1">`Customer Card`</ph> page. |
-          | Matrix controls | Not available. | Not available. | See example in <ph id="ph1">`G/L Budget`</ph>. |
-          | File download | Available. Cannot download multiple files at the same time. | Available. Cannot download multiple files at the same time. | <ph id="ph1">`Trial Balance`</ph> report in the <bpt id="p1">**</bpt>Print to Excel<ept id="p1">**</ept> check box. |
-          | Worksheet pages | Available. | Not available; an error message is displayed. | <ph id="ph1">`Sales Price`</ph> Worksheet or <ph id="ph2">`Cash Flow`</ph> Worksheet. |
-          | Lists | Available. | Available, with the difference that these are displayed in a brick layout. | Customers or Sales Orders pages. |
-          | Indentation in repeater controls | Available. | Not available. The repeater control will be rendered as a regular flat brick layout. | Chart of Accounts and Contacts List pages. |
-          | Automatic input focus on first editable field of a page | Not available. | Not available. | <ph id="ph1">`Customer Card`</ph> page.<BR /><BR />In the browser, focus will automatically be on the first editable field (such as the <ph id="ph1">`Name`</ph> field), enabling you to change the value right away.<BR /><BR />In the tablet and phone apps, this field will not be in focus; instead, you will have to manually select the field first in order to make changes.|
+          | Aktivitetsgrupper | Endast aktivitetsgruppen **Hem** visas. | Endast aktivitetsgruppen **Hem** visas. | **Hem** och **Bokförda dokument** i rollcentret för `Sales Order Processor`. |  |
+          | Markera flera poster i listor | Inte tillgängligt. | Inte tillgängligt. | <kbd>Ctrl</kbd>+<kbd>A</kbd> eller <kbd>Ctrl</kbd>+<kbd>Click</kbd> på rader i en lista i webbläsaren. |
+          | Åtgärder i åtgärdsfältet | Endast prioriterade åtgärder visas. | Endast prioriterade åtgärder visas. |  |
+          | Faktarutor | Visas inte på listsidor eller förslagssidor. | Visas inte på listsidor eller förslagssidor. | Listan `Customer` i rollcentret för `Small Business`. |
+          | Avancerade filter | Det finns ingen kolumn-specifik filtrering tillgänglig. | Det finns ingen kolumn-specifik filtrering tillgänglig. | På listsidan `Customer`. |
+          | Berätta | Inte tillgängligt än. | Inte tillgängligt än. | Se [Söka efter sidor och information med Berätta](ui-search.md). |  |
+          | Rollutforskare | Inte tillgängligt än. | Inte tillgängligt än. | Se [Söka efter sidor med Rollutforskaren](ui-role-explorer.md). |
+          | Fält på snabbflikar | Fält i snabbflikar på listsidor visas inte. Endast repeaterkontrollen visas i sidans innehållsområde. | Inte tillgängligt. |  |
+          | Välj från fullständig lista | Inte tillgängligt i sökningar. Användare kan inte köra åtgärder på en sökningssida och kan heller inte komma åt den fullständiga uppsättningen poster. | Inte tillgängligt i sökningar. Användare kan inte köra åtgärder på en sökningssida och kan heller inte komma åt den fullständiga uppsättningen poster. | I `Item Card` när du väljer **Basmåttenhet**. |
+          | Sök i flera listkolumner | Stöds delvis. I sökningen ingår inte FlowFields. | Stöds delvis. I sökningen ingår inte FlowFields. | Se exempel på listsidan `Customers`. |
+          | Sökningar | Tillgängligt. | Tillgänglig, med den skillnaden att avancerade och enkla sökningar fungerar på liknande sätt i telefonen. Sökningen tar inte fram kortet, visar faktarutor eller någon fältgrupp. | Se exempel på listsidan `Customer Card`. |
+          | Matriskontroller | Inte tillgängligt. | Inte tillgängligt. | Se exempel i `G/L Budget`. |
+          | Filhämtning | Tillgängligt. Det går inte att hämta flera filer samtidigt. | Tillgängligt. Det går inte att hämta flera filer samtidigt. | `Trial Balance`-rapport i kryssruten **Skriv ut till Excel**. |
+          | Förslagssidor | Tillgängligt. | Inte tillgängligt; ett felmeddelande visas. | `Sales Price`-förslag eller `Cash Flow`-förslag. |
+          | Listor | Tillgängligt. | Tillgängligt, med skillnaden att dessa visas i panel-layout. | Sidor för kunder eller försäljningsorder. |
+          | Indrag i kontroller för repeater | Tillgängligt. | Inte tillgängligt. Repeteraren-kontrollen renderas som en normal panel. | Kontoplans- och kontaktlistsidor. |
+          | Automatiskt inmatningsfokus på första redigerbara fält på en sida | Inte tillgängligt. | Inte tillgängligt. | `Customer Card`-sida<BR /><BR />I webbläsaren kommer fokus automatiskt att riktas mot det första redigerbara fältet (t. ex. fältet `Name`), så att du kan ändra värdet direkt.<BR /><BR />I apparna för surfplatta och telefon står detta fält inte i fokus, och du måste istället markera fältet manuellt för att göra ändringar.|
       - question: |
-          Is it the same experience on tablets and phones?
+          Är upplevelsen densamma på surfplattor och telefoner?
         answer: |
-          Almost, but not quite. See the list in the <bpt id="p1">[</bpt>Is it the same experience in the apps as in the browser?<ept id="p1">](#is-it-the-same-experience-in-the-apps-as-in-the-browser-)</ept> section.  
+          Nästan, men inte riktigt. Se listan i avsnittet [Är det samma erfarenhet i apparna som i webbläsaren?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
       - question: |
-          Can I connect the app to our on-premises solution?
+          Kan jag ansluta appen till vår lokala lösning?
         answer: |
-          Yes, you can! It's a slightly different way to signing in, that's all. For more information, see <bpt id="p1">[</bpt>Use Business Central on-premises?<ept id="p1">](install-mobile-app.md#use-business-central-on-premises)</ept>.  
+          Ja det kan du. Sätten att logga in skiljer sig något åt – det är allt. Mer information finns i [Använda Business Central lokalt?](install-mobile-app.md#use-business-central-on-premises).  
       - question: |
-          Can a guest user use the app to access our Business Central solution?
+          Kan en gäst användare använda appen för att komma åt vår Business Central-lösning?
         answer: |
-          No. Guest users are invited users from a different Azure Active Directory (AD) tenant than yours. In this case, the app will authenticate to the guest user's primary Azure AD tenant and try open the Business Central endpoint on that tenant instead of yours.  
+          Nr Gäst användare är inbjudna användare från en annan Azure Active Directory (AD)-klientorganisation än din. I det här fallet autentiserar appen den primära Azure AD klientorganisation av gästanvändaren och försöker öppna Business Central slutpunkten för klientorganisationen i stället för din.  
 additionalContent: |
 
-  ## See also
+  ## Se även
 
-  <bpt id="p1">[</bpt>Getting Business Central on Your Mobile Device<ept id="p1">](install-mobile-app.md)</ept>  
-  <bpt id="p1">[</bpt>Install the Business Central App for Microsoft Teams<ept id="p1">](across-install-app-for-teams.md)</ept>  
+  [Få Business Central på din mobila enhet](install-mobile-app.md)  
+  [Installera appen Business Central för Microsoft Teams](across-install-app-for-teams.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]
