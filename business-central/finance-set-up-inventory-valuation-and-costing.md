@@ -1,19 +1,13 @@
 ---
 title: Ställa in lagervärdering och lagerkostnad
-description: Om du vill se till att lagerkostnaderna registreras korrekt, ställer du in olika fält och sidor innan du gör artikeltransaktioner.
+description: "Om du vill se till att lagerkostnaderna registreras korrekt, ställer du in olika fält och sidor\_innan du gör artikeltransaktioner."
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520314"
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Ställa in lagervärdering och lagerkostnad
+# Ställa in lagervärdering och lagerkostnad
 
 Om du vill se till att lagerkostnaderna registreras korrekt, ställer du in olika fält och sidor innan du gör artikeltransaktioner. Vanligtvis väljer företag en specifik värderingsprincip och tillämpar den på lagerartiklar, till exempel för att hjälpa dem att spåra värdet av artiklar i lager.  
 
@@ -36,7 +30,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |se till att inköpsreturer kopplas till den ursprungliga inkommande transaktionen så att lagervärdet bevaras.|**Exakt kostnadsåterföring** på sidan **Inköp & Leverantörsreskontra**|
 |ange avrundningsreglerna som ska användas när artikelpriser justeras eller föreslås och när standardkostnader justeras eller föreslås.|Sidan **Avrundningsmetod**|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Ställa in allmän lagerinformation](inventory-how-setup-general.md)  

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
-ms.search.form: 256, 233, 624, 1228
+ms.search.keywords: 'payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP'
+ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 8b64ed6fc1342ec5f274b28f5a670bc329555e44
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520948"
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrera betalningar och återbetalningar i betalningsjournalen
+# Registrera betalningar och återbetalningar i betalningsjournalen
 
 På sidan **Betalningsjournal** registrerar du betalningar du gör till leverantörer och återbetalningar som du gör till kunder. När du bokför en utbetalningsjournalrad registreras det betalda beloppet för det angivna bankkontot. Du måste sedan vidta åtgärder för att utföra den faktiska överföringen pengar från relaterat bankkonto.  
 
@@ -35,7 +29,7 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 
     Förutom registrering att betalning har gjort kan du också använda sidan **betalningsjournal** till att skapa betalningen för vidare behandling av din bank. Mer information finns i [Göra checkbetalningar](payables-how-work-checks.md) och [Göra elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Göra betalningar i betalningsjournal
+## Göra betalningar i betalningsjournal
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.
 2. Öppna den journal som ska användas för betalningar.
@@ -49,7 +43,7 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 6. När alla betalningsjournalrader är ifyllda, välj åtgärden **Bokför**.
 
 
-## <a name="to-issue-a-refund-check"></a>Så här skickar du en återbetalningscheck
+## Så här skickar du en återbetalningscheck
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Utbetalningsjournaler** och välj sedan relaterad länk.
 2. I fältet **Dokumenttyp** väljer du **Återbetalning**.  
@@ -63,7 +57,7 @@ Betalningsjournalen är en redovisningsjournal som är optimerad för att göra 
 10. När alla utbetalningsjournalrader är slutförda, välj åtgärden **Bokför/skriv ut** och välj åtgärden **Bokför och skriv ut** och välj **Ja**.  
   
 
-## <a name="see-also"></a>Se även
+## Se även
 [Gör checkbetalning](payables-how-work-checks.md)  
 [Gör elektroniska betalningar](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

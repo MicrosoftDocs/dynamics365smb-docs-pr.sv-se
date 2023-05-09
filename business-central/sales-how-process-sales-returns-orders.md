@@ -1,29 +1,23 @@
 ---
 title: Behandlar säljreturordrar
-description: Beskriver hur du skapar en försäljningsreturorder om du vill bearbeta en retur, annullering eller ersättning för artiklar eller tjänster som du har blivit mottagen betalning för.
+description: 'Beskriver hur du skapar en försäljningsreturorder om du vill bearbeta en retur, annullering eller ersättning för artiklar eller tjänster som du har blivit mottagen betalning för.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: undo, credit memo, return, order
-ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
+ms.search.keywords: 'undo, credit memo, return, order'
+ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 78b4c6412b24721b52a5c271c0e1c5a4c7ba8775
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529116"
 ---
-# <a name="process-sales-return-orders"></a>Behandlar säljreturordrar  
+# Behandlar säljreturordrar  
 
 Om du behöver mer kontroll över försäljningsreturprocessen, till exempel distributionslagerdokument för artikelhantering eller bättre överblick när du tar emot artiklar från flera försäljningsdokument med en försäljningsretur, kan du skapa försäljningsreturorder. En försäljningsreturorder utför automatiskt den relaterade försäljningskreditnotan och andra returrelaterade dokument, till exempel en ersättningsförsäljningsorder, om detta behövs.
 
 Förutom den ursprungliga bokförda försäljningsfakturan kan du koppla försäljningskreditnotan eller försäljningsreturorden till andra försäljningsdokument, t.ex en annan bokförd försäljningfaktura, eftersom kunden också returnerar artiklarna som har levererats med den fakturan.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument.  
+## Skapa en försäljningsreturorder baserat på minst ett bokfört försäljningsdokument.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **säljreturordrar** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.  
@@ -45,7 +39,7 @@ Förutom den ursprungliga bokförda försäljningsfakturan kan du koppla försä
 8. Markera de rader som du vill kopiera till det nya dokumentet.  
 
     > [!NOTE]  
-    >  Om du använder Ctrl+A för att markera alla rader kopieras alla rader inom det filter som du har angett, men filtret **Visa endast rader som kan återföras** ignoreras. Exempel: Du har filtrerat raderna efter ett angivet dokumentnummer med två rader, där den ena raden redan har returnerats. Även om fältet **Visa endast rader som kan återföras** markerats kopieras båda raderna om du trycker på Ctrl+A för att kopiera alla rader, i stället för bara den rad som inte har återförts.  
+    >  Om du använder <kbd>Ctrl</kbd>+<kbd>A</kbd> för att markera alla rader kopieras alla rader inom det filter som du har angett, men filtret **isa endast rader som kan återföras** ignoreras. Exempel: Du har filtrerat raderna efter ett angivet dokumentnummer med två rader, där den ena raden redan har returnerats. Även om fältet **Visa endast rader som kan återföras** markerats, om du trycker på<kbd>Ctrl</kbd>+<kbd>A</kbd> för att kopiera alla rader kopieras båda raderna i stället för bara den rad som inte har återförts.  
 
 9. Klicka på **OK** om du vill kopiera raderna till det nya dokumentet.  
 
@@ -73,7 +67,7 @@ Förutom den ursprungliga bokförda försäljningsfakturan kan du koppla försä
 10. På sidan **Förs.returorder** i fältet **Returorsakskod** för varje rad väljer du orsaken till returen.
 11. Välj åtgärden **Bokföra**.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Så här skapar du en ersättningsförsäljningsorder från en försäljningsreturorder
+## Så här skapar du en ersättningsförsäljningsorder från en försäljningsreturorder
 Du kan behöva gottgöra kunden för någon försåld artikel genom att den ersätts med en annan. Artikeln kan ersättas med en likadan eller någon annan. Den här situationen kan exempelvis uppstå om fel artikel av misstag har levererats till kunden.  
 
 1. På sidan **Förs.returorder** för en aktiv returprocess på en tom rad skapar du en negativ transaktion för ersättningsartikeln genom att ange ett negativt belopp i fältet **Antal**.  
@@ -81,7 +75,7 @@ Du kan behöva gottgöra kunden för någon försåld artikel genom att den ers�
 3. På sidan **Flytta negativa förs.rader** fyller du i fälten efter behov.
 4. Välj knappen **OK**. Den negativa raden för ersättningsartikeln bort från försäljningsreturordern och infogas på en ny **Försäljningsorder**-sida. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Så här skapar du returrelaterade dokument från en försäljningsreturorder
+## Så här skapar du returrelaterade dokument från en försäljningsreturorder
 Du kan skapa ersättningsförsäljningsorder, inköpsreturorder och ersättningsförsäljningsorder automatiskt under försäljningsreturprocessen. Detta är användbart i situationer där du vill hantera artiklar med garantier från leverantörer.
 
 1. På sidan **Förs.returorder** för en aktiv returprocess, väljer du åtgärden **Skapa returrelaterade dokument**.
@@ -90,7 +84,7 @@ Du kan skapa ersättningsförsäljningsorder, inköpsreturorder och ersättnings
 4. Om returnerad en artikel måste beställas från leverantören markerar du kryssrutan **Skapa inköpsorder**.
 5. Om du måste skapa en ersättningsförsäljningsorder markerar du kryssrutan **Skapa förs.order**.
 
-## <a name="to-create-a-restock-charge"></a>Så här skapar du en återlagringsavgift
+## Så här skapar du en återlagringsavgift
 Du kan behöva debitera kunder återlagringsavgift för att täcka hanteringskostnader för retur av någon artikel. Det kan till exempel inträffa om någon kund av misstag beställt fel artikel eller ändrat sig när artikeln tagits emot.
 
 Du kan bokföra den ökade kostnaden som en artikelomkostnad i en kreditnota eller en returorder och koppla den till den bokförda leveransen. Följande tabell beskriver en försäljningsreturorder, men samma steg gäller för en försäljningskreditnota.
@@ -101,9 +95,9 @@ Du kan bokföra den ökade kostnaden som en artikelomkostnad i en kreditnota ell
 
 När du bokför försäljningsreturordern läggs återlagringsavgiften till det aktuella försäljningstransaktionsbeloppet. På det här sättet kan du hålla lagervärderingen aktuell.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
