@@ -48,18 +48,18 @@ I det här avsnittet beskrivs de aktuella begränsningarna för AI-genererad tex
 
 - AI-genererade textförslag finns endast på engelska.
 - Dåliga förslag kan uppstå när obestämd eller generiska produktnamn används och detaljer om en vara saknas, som nyckelattribut eller en kategori.
-- Copilot stöds endast i Business Central Online testmiljöer och miljöer i begränsat läge. Inte produktionsmiljöer, privata molnmiljöer eller lokala Business Central-miljöer.
+- Copilot stöds endast i Business Central Online. Inte privata molnmiljöer eller lokala Business Central-miljöer.
 - Copilot stöds inte via anslutningar till din egen Azure OpenAI-tjänstresurs i din Azure-prenumeration.
 - Partner utökning av AI-kapacitet med hjälp av AL-kod stöds inte.
 
 ## Nästa steg
 
-För att komma igång måste du ha en särskild Business Central förhandsversion som aktiveras med Copilot.
+För att komma igång måste du ha en Business Central version för 22 miljöer som aktiveras med Copilot.
 
-- Om du är en befintlig Business Central-kund måste du som är Business Central-administratör konfigurera förhandsversionen i en miljö i begränsat läge åt dig.
+- Om du är en befintlig Business Central-kund måste du som är Business Central-administratör konfigurera en version för 22 miljöer åt dig.
 - Om du inte är en Business Central-kund, men vill prova kan du registrera dig för en kostnadsfri utvärderingsversion.
 
-Om du vill ha mer information går du till [Skaffa Business Central förhandsversion – Copilot-utgåvan](ai-preview-getstarted.md).  
+Om du vill ha mer information går du till [Skaffa Business Central förhandsversion](ai-preview-getstarted.md).  
 
 ## Se även
 

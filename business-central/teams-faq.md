@@ -340,6 +340,10 @@ När du tar bort ett meddelande som innehåller ett kort raderas eller påverkas
 
 Nr Fältvärdena på ett kort i Teams, inklusive eventuella bilder, baseras på de data som är tillgängliga när kortet skickades till chatten. [!INCLUDE [prod_short.md](includes/prod_short.md)]-korten uppdateras inte automatiskt i Teams. 
 
+### Varför visar inte kort mer information istället för bara sidnamnet och informationsknappen?
+
+En administratör kan ha konfigurerat Teams-integration så att kort inte visar data om poster. Mer information finns i [Visa eller dölja postdata på kort](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### Kommer andra att se mitt kort om de inte har [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen för Teams? 
 
 När du skriver och skickar ett meddelande till chatten som innehåller ett kort kommer alla användare att se kortet&mdash;även om de inte har installerat [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen för Teams.
