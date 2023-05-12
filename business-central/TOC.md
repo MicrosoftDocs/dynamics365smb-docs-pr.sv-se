@@ -350,9 +350,11 @@
 #### Konfigurera moms
 ##### [Konfigurera moms](finance-setup-vat.md)
 ##### [Konfiguration av bokföringsmall](finance-posting-groups.md#tax-posting-groups)
+##### [Konfigurera ej avdragsgill moms](finance-setup-nondeductible-vat.md)
 ##### [Konfigurera orealiserad moms](finance-setup-unrealized-vat.md)
-##### [Konfigurera en ny momsrapport](finance-how-setup-vat-statement.md)
+##### [Konfigurera en momsrapport](finance-how-setup-vat-statement.md)
 #### [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)
+#### [Använd ej avdragsgill moms](finance-how-use-non-deductible-vat.md)
 #### [Skicka momsrapporter till skattemyndigheterna](finance-how-report-vat.md)
 #### [Hantera momssatsändringar](finance-how-use-vat-rate-change-tool.md)
 #### [Validera momsregistreringsnummer](finance-how-validate-vat-registration-number.md)
