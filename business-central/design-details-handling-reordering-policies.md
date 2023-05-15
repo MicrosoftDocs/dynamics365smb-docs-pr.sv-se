@@ -338,13 +338,15 @@ Till skillnad från de flesta uppsättningar med tillgång-efterfrågan planeras
 
 Parti-för-parti-metoden är den mest flexibla eftersom systemet endast reagerar på faktisk efterfrågan. Det fungerar på förutsedd efterfrågan från prognos och avropsorder och avräknar sedan orderkvantiteten baserat på efterfrågan. Metoden gäller för artiklar där lager kan accepteras men ska undvikas.  
 
-På vissa sätt påminner parti-för-parti-metoden om orderprincipen, men den har en generisk metod för artiklar. Den kan godta antal i lagret och sedan bunta in efterfrågan och tillgång i de tidsenheter du definierar.  
+På vissa sätt påminner parti-för-parti-metoden om orderprincipen. Den kan godta antal i lagret och sedan bunta in efterfrågan och tillgång i de tidsenheter du definierar.
 
 Du anger tidsenheter i fältet **Tidsenhet** på sidan **Artikelkort**. Den minsta storleken på tidsenheten är en dag, eftersom det är den minsta måttenheten för tillgångs- och efterfrågehändelserna i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 Tidsenheten anger också gränser för när du ska omplanera en leveransorder för att uppfylla en viss efterfrågan. Tillgången ligger inom tidsenheten kommer den att planeras om framåt eller bakåt för att uppfylla efterfrågan. Tidigare tillgång kommer att orsaka extra lager och du bör avbryta den. För tillgång som är senare, skapa en ny leveransorder.  
 
-Med den här metoden kan du ange ett säkerhetslager för att kompensera ändringar i tillgång eller för att uppfylla en oväntad efterfrågan.  
+Med den här metoden kan du ange ett säkerhetslager för att kompensera ändringar i tillgång eller för att uppfylla en oväntad efterfrågan. Metoden parti-för-parti kan också innehålla en utjämningsperiod och utjämningsantal som reducerar orderplaneringen.  
+
+Tillsammans med fältet **Omplaneringsperiod** bidrar **Partiackumuleringsperiod** till att definiera företagets beställningscykeln. Från datumet för det första behovet samlas alla behov i nästa partiackumuleringsperiod till en leveransorder på datumet för det första behovet. Behov som ligger utanför partiackumuleringsperioden omfattas inte av leveransorder.
 
 Eftersom leveranspartistorleken baseras på den faktiska efterfrågan, kan det vara praktiskt att använda ordermodifierare:
 
