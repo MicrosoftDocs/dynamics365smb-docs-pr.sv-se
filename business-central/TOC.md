@@ -1,4 +1,5 @@
-# [Välkommen till Business Central](index.md)  
+
+# [Välkommen till Business Central](index.md)
 # [Nyheter och planerade funktioner](product-news.md)
 # Kom i gång
 ## [Översikt över affärsfunktioner](across-business-functionality.md)
