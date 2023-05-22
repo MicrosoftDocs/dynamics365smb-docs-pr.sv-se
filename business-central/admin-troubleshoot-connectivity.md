@@ -99,6 +99,26 @@ Kontrollerar att den autentiserade användaren kan ansluta till en identifierad 
 |Ingen grupperad adress att utföra den här kontrollen för|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 |Versionsslutpunkten finns inte|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 
+## Webbserveranslutning
+
+Kontrollerar att den autentiserade användaren kan upprätta anslutningar till webbservern.
+
+|Problem|Vad du kan göra|
+|-------|-------------|
+|Ingen autentiserad användare kan utföra den här kontrollen för|Se kontrollen **användarverifiering**.|
+|Det gick inte att hämta tillgängliga miljöer för ditt konto.|Se **Identifiering av Business Central-miljöer**.|
+|Ingen grupperad adress att utföra den här kontrollen för|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
+|Det gick inte att upprätta en anslutning till webbservern|Rensa cacheminnet och läs in sidan igen.|
+
+## Status för tjänstens hälsotillstånd
+
+Rapporterar hälsostatus för Business Central genom att söka efter deklarerade avbrott.
+
+|Problem|Vad du kan göra|
+|-------|-------------|
+|Ingen autentiserad användare kan utföra den här kontrollen för|Se kontrollen **användarverifiering**.|
+|Business Central är tillfälligt otillgänglig. Försök igen senare.|Försök igen senare.|
+
 ## Se även
 
 [Resurser för hjälp och support](product-help-and-support.md)  

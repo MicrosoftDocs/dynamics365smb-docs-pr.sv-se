@@ -106,7 +106,7 @@ Det finns två sätt att godkänna som en administratör:
 
 - Det enklaste sättet är att använda Copilot. Första gången du använder Copilot som administratör uppmanas du att granska villkoren och sedan godkänna eller avböja dem. Om du vill veta hur du använder en Copilot går du till [Lägg till marknadsföringstext till artiklar](item-marketing-text.md).  
 
-- Det andra är att använda sidan **Status för sekretessmeddelanden** i Business Central och godkänn integrering av **Azure OpenAI** för alla användare. Mer information finns i [godkänna allmänna villkor](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- Det andra är att använda sidan **Status för sekretessmeddelanden** i Business Central och godkänn integrering av **Azure OpenAI** för alla användare. Mer information finns i [godkänna allmänna villkor](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## Se även
 

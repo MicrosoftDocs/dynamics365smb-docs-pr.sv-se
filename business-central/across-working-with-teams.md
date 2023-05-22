@@ -2,13 +2,13 @@
 title: Dela Business Central-poster i Microsoft Teams
 description: Lär dig att använda Business Central-appen för Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.service: dynamics365-business-central
+ms.reviewer: jswymer
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
-ms.date: 09/22/2022
+ms.date: 16/18/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Dela Business Central-poster och sidlänkar i Microsoft Teams
@@ -68,17 +68,16 @@ Med Business Central-appen för Teams kan du kopiera en länk från valfri Busin
 
     > [!TIP]
     > Om du får ett meddelande som: *Busines Central vill visa en förhandsgranskning av den här länken* betyder det att du inte har installerat Business Central-appen för Teams. Om du vill installera appen väljer du **Visa förhandsgranskning** och följer instruktionerna.
-6. Första gången du klistrar in en länk i en konversation ombeds du logga in på [!INCLUDE [prod_short](includes/prod_short.md)] och ge appen tillstånd att hämta data. Följ bara instruktionerna på skärmen.
 
     > [!NOTE]
-    > Du behöver bara utföra detta steg en enda gång.
-7. Vänta ett tag medan ett kort genereras i meddelanderutan.
-8. När kortet visas granskar du innehållet på kortet noggrant för känslig information innan du skickar meddelandet. Det här steget är viktigt eftersom alla i konversationen kan se kortet när du har skickat meddelandet.
-9. Om kortet verkar vara bra väljer du **Skicka** för att skicka det till konversationen.
+    > Beroende på din Business Central-version, första gången du klistrar in en länk i en konversation blir du kanske ombedd att logga in på [!INCLUDE [prod_short](includes/prod_short.md)] och ge appen tillstånd att hämta data. Följ bara instruktionerna på skärmen. Du behöver bara göra detta steg en gång.
+6. Vänta ett tag medan ett kort genereras i meddelanderutan.
+7. När kortet visas granskar du innehållet på kortet noggrant för känslig information innan du skickar meddelandet. Det här steget är viktigt eftersom alla i konversationen kan se kortet när du har skickat meddelandet.
+8. Om kortet verkar vara bra väljer du **Skicka** för att skicka det till konversationen.
 
     > [!TIP]
     > När kortet visas och innan du väljer **Skicka** kan du ta bort den inklistrade URL:en om du vill.
-10. Om du vill visa mer information om eller ändra den post somvisas på kortet väljer du **Detaljer**. Mer information finns i nästa avsnitt.
+9. Om du vill visa mer information om eller ändra den post somvisas på kortet väljer du **Detaljer**. Mer information finns i nästa avsnitt.
 
 ### Visa kortinformation
 

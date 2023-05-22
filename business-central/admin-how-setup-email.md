@@ -232,13 +232,13 @@ Om du har problem med att använda SMTP-protokoll för att skicka e-post efter a
 
 ### Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till din app-registrering
 
-När du har registrerat ditt program i Azure Portal använder du den assisterade konfigurationen **AAD-registrering för e-postprogram** i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till det.
+När du har registrerat ditt program i Azure Portal använder du sidan **AAD-registrering för e-postprogram** i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till det.
 
 1. I [!INCLUDE[prod_short](includes/prod_short.md)] välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **AAD-registrering för e-postprogram** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Om du ansluter för första gången kan du också köra den assisterade konfigurationsguiden **Konfigurera e-post**. Guiden kommer att kräva information för att ansluta till din programregistrering. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Om du ansluter för första gången kan du också köra den assisterade konfigurationsguiden **Konfigurera e-post**. I det här fallet innehåller guiden också registreringssidan för AAD e-postprogrammet där du kan lägga till information för att ansluta till din programregistrering. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 

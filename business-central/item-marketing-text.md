@@ -39,7 +39,7 @@ Copilot är utformad för att spara tid och hjälpa dig att skriva kreativ och e
 
 ### Skapa första utkast med Copilot
 
-1. Öppna den artikel som du vill ändra i Business Central. För att öppna en artikel, gör följande steg:
+1. Öppna den artikel som du vill ändra i Business Central. För att öppna en artikel, gör följande:
 
    1. I det övre högra hörnet, välj ![Glödlampa som öppnar funktionen Berätta 22.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **artiklar** och välj sedan relaterad länk för att visa en lista med tillgängliga artiklar.
    2. Om du vill öppna objektet dubbelklicka på det eller markera värdet i fältet **Nr.** kolumn.
@@ -50,14 +50,14 @@ Copilot är utformad för att spara tid och hjälpa dig att skriva kreativ och e
 
 2. Från artikelkortet finns det två sätt att komma igång med att skriva marknadsföringstext med Copilot:
 
-   - Ett sätt är att använda rutan **marknadsföringstext** i faktabox på sidans högra sida. Följ dessa steg:
+   - Använd rutan **marknadsföringstext** i faktabox på sidans högra sida. Följ dessa steg:
 
-      1. I rutan **Marknadsföringstext**, välj **Skapa med Copilot**.
+     1. I rutan **Marknadsföringstext**, välj **Skapa med Copilot**.
 
-         Den föreslagna texten visas i rutan.
-      2. Om du vill använda ett annat förslag väljer du **Skapa med Copilot** igen. Om du inte är nöjd med förslaget väljer du **Ignorera** för att rensa rutan.
+        Den föreslagna texten visas i rutan.
+     2. Om du vill använda ett annat förslag väljer du **Skapa med Copilot** igen. Om du inte är nöjd med förslaget väljer du **Ignorera** för att rensa rutan.
 
-         Du kan göra detta steg över och över tills du får ett förslag om att det är en bra utgångspunkt. Tänk dock på att det aktuella förslaget skrivs över och inte nödvändigtvis visas igen. Om du vill använda det aktuella förslaget går du vidare till nästa steg. Du har fortfarande möjlighet att få fler förslag och till och med förbättra förslagen om du vill senare.
+        Du kan göra detta steg över och över tills du får ett förslag om att det är en bra utgångspunkt. Tänk dock på att det aktuella förslaget skrivs över och inte visas igen. Om du vill använda det aktuella förslaget går du vidare till nästa steg. Du har fortfarande möjlighet att få fler förslag och till och med förbättra förslagen om du vill senare.
       3. Välj **Granska och spara förslaget** eller **Redigera** om du vill granska, redigera och spara texten.
 
          Det här steget tar dig till sidan **Skapa med Copilot**. Gå till nästa avsnitt.
@@ -65,7 +65,7 @@ Copilot är utformad för att spara tid och hjälpa dig att skriva kreativ och e
          > [!NOTE]
          > Texten sparas inte förrän du tar det här steget.
 
-   - Ett annat sätt är att välja åtgärden **Marknadsföringstext** högst upp på sidan artikel kort och gå direkt till sidan **Skapa med Copilot**.
+   - Välj åtgärden **Marknadsföringstext** högst upp på sidan artikel kort och gå direkt till sidan **Skapa med Copilot**.
 
      Från sidan **Skapa med**, välj **Skapa med Copilot** för att hämta det första förslaget. Du kan sedan få fler förslag, försöka förbättra de förslag du får, redigera text med mera. Gå till [Granska, redigera och spara](#review-edit-and-save-text) för mer information.
 
@@ -104,7 +104,7 @@ Det finns några steg som du kan utföra för att förbättra textförslagen och
    |-|-|
    |Attribut att inkludera|Använd det här alternativet om du delvis vill basera förslagen på de attribut som tilldelats artikeln. Välj de attribut som bäst överensstämmer med de egenskaper som du vill marknadsföra. De mer relevanta attribut som du tar med desto bättre blir resultatet. Om du anser att du saknar några nyckelattribut lägger du till fler. För mer information om attribut, gå till [Arbeta med artikelattribut](inventory-how-work-item-attributes.md) |
    |Betona en kvalitet|Använd det här alternativet om du vill välja från en lista med fördefinierade kvaliteter som du vill framhäva i texten. Välj en kvalitet som bäst passar den typ av artikel du skriver om artikel. Kvaliteterna överensstämmer inte direkt med artikelns attribut, beskrivning eller kategori. Till exempel kan **kvalitet** vara ett bra val för både en cykel eller ett skrivbord medan **hastighet** skulle passa en cykel men inte ett skrivbord.|
-   |Tonfall|Använd det här alternativet om du vill påverka vilken typ av ord, fraser och skiljetecken som används för att engagera målgruppen. Du kan välja mellan flera fördefinierade tonfall, allt från **Formell** (vilket resulterar i en mest affärsmässig ton av valen) till **Skapa** (vilket resulterar i en mycket informell ton av valen). |
+   |Tonfall|Använd det här alternativet om du vill påverka vilken typ av ord, fraser och skiljetecken som används för att engagera målgruppen. Du kan välja mellan flera fördefinierade tonfall, allt från **Formell** (vilket resulterar i en mest affärsmässig ton) till **Skapa** (vilket resulterar i en mycket informell ton). |
    |Format och längd|Använd det här alternativet när du vill styra textens allmänna struktur, som består av tre delar, som täcks av fyra olika alternativ: <ul><li>**Slogan** – Ett slogan eller kort mening som identifierar föremålet eller varumärket.</li><li>**Stycke** – Ett enda stycke med flytande och utförlig text, bestående av flera fullständiga meningar.</li><li>**Slogan + stycke** – En slogan följt av ett stycke</li><li>**Korthet** – En inledande mening, som liknar en slogan, följt av en punktlista med viktiga punkter av intresse.</li></ul> |
 
 2. Förbättra fältet **Beskrivning** på artikelkortet.
