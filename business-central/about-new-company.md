@@ -14,15 +14,18 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] tillhör behållaren för affärsdata en affärsenhet eller juridisk person som kallas ett *företag*. När du registrerar dig för [!INCLUDE[prod_short](includes/prod_short.md)] får du ett demonstrationsföretag och ett tomt företag, *Mitt företag*. Att växla mellan företag är enkelt: gå bara till **Mina inställningar** och flytta till det andra företaget. Men du kan också skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)] beroende på dina affärsbehov.  
 
+> [!NOTE]
+> För att skapa ett nytt företag måste du vara tilldelad behörighetsuppsättning **Super**.
+
 När du skapar ett nytt företag får du hjälp med de grundläggande inställningarna av en assisterad konfiguration. Du kan sedan importera relevanta data från ditt gamla system eller från något annat företag i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Välj rätt mall
 
-Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda den assisterade inställningsguiden **Skapa nytt företag** för att komma igång. Assisterad konfiguration är tillgänglig från sidan **Företag** och från sökfunktionen i fältet **Företag** på sidan **Mina inställningar**.  
+Om du bestämmer dig för att lägga till ett företag till din [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda den assisterade inställningsguiden **Skapa nytt företag** för att komma igång. Guiden för assisterad konfiguration är tillgänglig från sidan **Företag** och från sökfunktionen i fältet **Företag** på sidan **Mina inställningar**.  
 
-I installationsguiden finns två mallar och ett tomt alternativ:
+I guiden för assisterad konfiguration finns två mallar och ett tomt alternativ:
 
 - **Utvärdering – exempeldata**  
     Detta skapar ett företag som liknar demonstrationsföretaget med exempeldata och inställningsdata. Denna typ av företag är tillgänglig för dig utan att du behöver växla till en 30-dagars provperiod som de andra typerna gör.  

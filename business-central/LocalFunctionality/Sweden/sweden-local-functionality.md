@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/21/2021
+ms.date: 06/02/2023
 ms.author: edupont
 ---
 # Sverige lokala funktioner i den svenska versionen
@@ -23,16 +23,18 @@ I följande avsnitt beskrivs den lokala funktionaliteten som är unik för den s
     * [Automatiska kontokoder](automatic-account-codes.md) **Tillgänglig nu**
     * [Så här ställer du in automatiska kontobokföringsmallar](how-to-set-up-automatic-account-posting-groups.md)  **Tillgänglig nu**
     * [Importera och exportera data i SIE-format (Standard Import Export)](how-to-import-and-export-data-in-standard-import-export-format.md) **Tillgänglig nu**  
+    * SIE export/import som en del av appen Export av verifieringsfil **Tillgänglig nu**
     * [Skriva ut rapporterna Balansräkning och Resultaträkning](how-to-print-balance-sheet-and-income-statement-reports.md) **Tillgänglig nu**  
 
 ## Framtida lagstiftningskrav utreds
 
-* Att flytta svensk lokalisering till en app **Maj 2023**
-* SIE export/import som en del av appen Export av verifieringsfil **Maj 2023**
-* Om du flyttar automatiskt kontokoder till en global app **Maj 2023**
-* Stora företag att rapportera betalningstider **2023 utgivningscykel 2**
+* Stora företag att rapportera betalningstider **22,3**
 
 Om du känner till alla kommande lagstiftningsfunktioner kan du skicka en [avisering om regleringsfunktion](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+## Lokaliseringsarkitektur
+
+Från och med version 2023 utgivningscykel 1 (v22.3) har svensk lokalisering uppdaterats för att fungera som en förlängning på toppen av W1 BaseApp. För de följande tre versioner kan du välja om du vill aktivera nya funktioner. Efter den här perioden kommer gamla funktioner att bli inaktuella och den nya lokaliseringen aktiveras automatiskt. 
 
 ## Se även
 
