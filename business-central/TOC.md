@@ -1,5 +1,6 @@
 
-# [Välkommen till Business Central](index.md)
+# [Dokumentation för Business Central](index.yml)
+# [Välkommen till Business Central](welcome.md)
 # [Nyheter och planerade funktioner](product-news.md)
 # Kom i gång
 ## [Översikt över affärsfunktioner](across-business-functionality.md)
@@ -157,6 +158,7 @@
 ### [Byta till ett annat företag eller annan miljö](ui-organization-switch.md)
 ### [Hantera aviseringar](ui-smart-notifications.md)
 ### [Prestandatips för företagsanvändare](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Analysera prestanda](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Varningar och felmeddelanden](product-error-messages.md)
 ### Personanpassa Business Central
 #### [Anpassa arbetsytan](ui-personalization-user.md)
@@ -1844,6 +1846,7 @@
 ### [Administrationsuppgifter](admin-setup-and-administration.md)
 ### Hantera åtkomst till Business Central
 #### [Översikt](admin-access-overview.md)
+#### [Styra åtkomsten till Business Central med hjälp av säkerhetsgrupper](ui-security-groups.md)
 #### Åtkomst med Microsoft 365-licenser
 ##### [Översikt](admin-access-with-m365-license.md)
 ##### [Konfigurera åtkomst med Microsoft 365-licenser](admin-access-with-m365-license-setup.md)
