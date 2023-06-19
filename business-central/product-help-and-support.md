@@ -78,7 +78,7 @@ Avsnittet **Hitta den** innehåller två länkar till produkthjälpen:
 
 - Hjälp om sidan som du precis såg i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Den här länken genereras automatiskt. Om [!INCLUDE[prod_short](includes/prod_short.md)] inte hittar den relevanta länken visas [landningssidan på Microsoft Learn](index.md) för standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)]. Om sidan till exempel utgjorde en del av en app som inte lade till kontextkänslig hjälpmappning i [!INCLUDE[prod_short](includes/prod_short.md)] kommer *utbildningslänken* att återgå till sin standardlandningssida.  
+  Den här länken genereras automatiskt. Om [!INCLUDE[prod_short](includes/prod_short.md)] inte hittar den relevanta länken visas [landningssidan på Microsoft Learn](index.yml) för standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)]. Om sidan till exempel utgjorde en del av en app som inte lade till kontextkänslig hjälpmappning i [!INCLUDE[prod_short](includes/prod_short.md)] kommer *utbildningslänken* att återgå till sin standardlandningssida.  
   
 - Hjälplandningssida för [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ Om du vill varna din partner om ett problem väljer du länken för att antingen
 
 ## Mer information om hur du använder produktdokumentationen
 
-Basversionen av [!INCLUDE [prod_short](includes/prod_short.md)] har förlängts och anpassats av en stor grupp av partner. Varje partner och många kunder använder sig av sin egen hjälp på sina egna webbplatser. Men du kan alltid gå till webbplatsen [Dynamics 365 Business Central dokumentation](index.md) för mer information. Webbplatsen innehåller olika typer av innehåll, till exempel följande:
+Basversionen av [!INCLUDE [prod_short](includes/prod_short.md)] har förlängts och anpassats av en stor grupp av partner. Varje partner och många kunder använder sig av sin egen hjälp på sina egna webbplatser. Men du kan alltid gå till webbplatsen [Dynamics 365 Business Central dokumentation](index.yml) för mer information. Webbplatsen innehåller olika typer av innehåll, till exempel följande:
 
-- [Konceptuellt innehåll om affärsfunktioner](index.md)  
+- [Konceptuellt innehåll om affärsfunktioner](welcome.md)  
 - [Dokumentation för utvecklare](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Gratis utbildningsvägar och e-inlärningsmoduler i flera användarprofiler](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ I det här avsnittet kan du lära dig mer om hur du navigerar i innehållet i en
 
 ### Innehåll på webbplatsen
 
-[Det här avsnittet](index.md) av Microsoft Learn är värd för innehåll från Microsoft som representerar *Läs mer* i användarhjälp modellen. I vissa fall avser *Läs mer*-innehållet att besvara de frågor som användargränssnittet inte kan besvara, till exempel följande:
+[Det här avsnittet](welcome.md) av Microsoft Learn är värd för innehåll från Microsoft som representerar *Läs mer* i användarhjälp modellen. I vissa fall avser *Läs mer*-innehållet att besvara de frågor som användargränssnittet inte kan besvara, till exempel följande:
 
 - Var får den här sidan plats i det större arbetsflödet?  
 - Vad kommer härnäst?  

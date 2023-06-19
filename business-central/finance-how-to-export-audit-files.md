@@ -11,7 +11,7 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Export av verifieringsfil
@@ -50,7 +50,7 @@ De flesta format som krävs av myndigheterna för redovisningskonton kräver en 
 
 Följ dessa steg för att tillhandahålla redovisningskontomappningen för exporten av verifieringsfilen.
 
-1. Välj sökknappen ![Förstoringsglas som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra"), ange **Mappning av redovisningskonto** och välj sedan den relaterade länken.
+1. Välj sökknappen ![Förstoringsglas som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Mappning av redovisningskonto** och välj sedan den relaterade länken.
 2. På sidan **Mappning av redovisning**, välj **Ny** för att skapa en mappning.
 3. I fältet **Kod**, ange mappningskoden som representerar rapporteringsperioden.
 4. I fältet **Standardkontotyp** väljer du typ av standardredovisningskonto.
@@ -98,10 +98,9 @@ Följ dessa steg för att tillhandahålla redovisningskontomappningen för expor
 > Om du har flera transaktioner att exportera rekommenderar vi inte att du exporterar dem i den aktuella sessionen på grund av eventuella prestandaproblem. I stället rekommenderar vi att du använder parallell bearbetning under lediga dagar eller timmar.
 
 ## Se även
-
 [Ekonomihantering](finance.md)  
 [Förstå redovisningen och kontoplanen](finance-general-ledger.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeta med Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

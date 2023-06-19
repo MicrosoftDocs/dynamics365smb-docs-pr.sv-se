@@ -1,18 +1,18 @@
 ---
 title: Synkronisera kunder
 description: Importera kunder från eller exportera kunder till Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkronisera kunder
 
-När en order importeras från Shopify är informationen om kunden väsentlig för ytterligare behandling av dokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finns två huvudalternativ och kombinationer:
+När en order importeras från Shopify är informationen om kunden väsentlig för ytterligare behandling av dokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finns två huvudalternativ och flera kombinationer:
 
 * Använd särskild kund för alla order.
 * Importera information om den faktiska kunden från Shopify. Det här alternativet är också tillgängligt när du exporterar kunder till Shopify från [!INCLUDE[prod_short](../includes/prod_short.md)] först.
@@ -36,9 +36,9 @@ Vissa inställningar kan definieras på lands-/regionnivå eller på läns-/prov
 Med **Shopify-kundmallen** kan du göra följande för varje kund:
 
 1. Ange **Standardkundnr**, vilket har högre prioritet än valen i fälten **Kundimport från Shopify** och **Kundmappningstyp**. Används i den importerade försäljningsordern.
-2. Definiera **Kod för kundmall**, som används för att skapa saknade kunder om **Skapa okända kunder automatiskt** har aktiverats. Om **Kod för kundmall** är tom använder funktionen **Kod för kundmall** som har definierats på **Shopify-butikskortet**.
-3. Ange om priser inkluderar skatt/moms för importerade order.
-4. I vissa fall räcker inte den **Kod för kundmall** som definieras för ett land inte för att säkerställa korrekt beräkning av skatter (till exempel för länder med moms). I det här fallet kan **skatteområdena** vara ett användbart tillägg.
+2. Definiera **Kod för kundmall**, som används för att skapa saknade kunder om **Skapa okända kunder automatiskt** har aktiverats. Om **Kod för kundmall** är tom använder funktionen **Kod för kundmall** som har definierats på **Shopify-butikskortet**. Systemet försöker först hitta en mall för **lands-/regionkod** för standardadressen. Om det inte finns någon mall används den första adressen.
+3. I vissa fall räcker inte den **Kod för kundmall** som definieras för ett land inte för att säkerställa korrekt beräkning av skatter (till exempel för länder med moms). I det här fallet kan **skatteområden** vara ett användbart tillägg.
+4. Fältet **Momsområde** innehåller också **Landsnummer** och **Landsnamn**. Det här paret är användbart när kopplingen måste konvertera en kod till ett namn eller vice versa.
 
 > [!NOTE]  
 > Landskoderna är ISO 3166-1 alpha-2 landskoder. Läs mer om [landskod](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +58,7 @@ Följande krav gäller för export av en kund:
 * Ett land/en region har valts på kund kortet för lokala kunder, med tomt land/region det land/den region som har angetts på sidan **företagsinformation** måste ha en definierad ISO-kod.
 * Om kunden har ett telefonnummer måste numret vara unikt eftersom Shopify inte ska acceptera ytterligare en kund med samma telefonnummer.
 * Om kunden har ett telefonnummer måste det vara i formatet E.164. Olika format stöds om de representerar ett tal som kan ringas upp var som helst i världen. Följande format är giltiga:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +83,8 @@ Det finns också en standardadress för en kund i Shopify. Adressen kan innehål
 |1|**Namn**|Högsta prioritet om fältet **Namnkälla** på **Shopify-butikskortet** innehåller *Företagsnamn*.|
 |2|**Namn 2**|Lägsta prioritet om fältet **Källa till namn 2** på **Shopify-butikskortet** innehåller *Företagsnamn*.|
 
-För adresser där land/provins används väljer du *Kod* eller *Namn* i fältet **Landskälla** i **Shopify-butikskort**. Koden eller namnet anger vilken typ av data som lagras i [!INCLUDE[prod_short](../includes/prod_short.md)] i fältet **Land**.
+För adresser där delstat/provins används väljer du **Kod** eller **Namn** i fältet **delstatskälla** på sidan **Shopify-butikskort**. Koden eller namnet anger vilken typ av data som lagras i [!INCLUDE[prod_short](../includes/prod_short.md)] i fältet **Delstat**. Kom ihåg att initiera kundmallar per land så att delstatskoden/namnmappningen är klar. 
+
 
 ## Synka kunder
 

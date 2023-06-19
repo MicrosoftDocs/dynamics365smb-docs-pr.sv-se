@@ -13,9 +13,9 @@ ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 
 # Kom i gång med synkronisering av huvuddata
 
-När du har två eller flera företag som använder minst en del av samma huvuddata kan du spara tid genom att synkronisera informationen i företagen. Synkronisering av data är särskilt användbart när du ställer in nya dotterbolag.
+När två eller flera företag använder en del av samma huvuddata kan du synkronisera data i stället för att lägga till dem manuellt i varje företag. Till exempel synkronisering av data är särskilt användbart när du ställer in nya dotterbolag.
 
-Huvuddata omfattar inställningar och icke-transaktionell information om affärsentiteter, till exempel kunder, leverantörer, artiklar och anställda. Data innehåller kontext för affärstransaktioner. Här följer några exempel på standarduppgifter för en kund:
+Huvuddata omfattar inställningar och icke-transaktionell information om affärsentiteter. Till exempel kunder, leverantörer, artiklar och anställda. Data innehåller kontext för affärstransaktioner. Här följer några exempel på standarduppgifter för en kund:
 
 * Name
 * Identifieringsnummer
@@ -23,7 +23,7 @@ Huvuddata omfattar inställningar och icke-transaktionell information om affärs
 * Betalningsvillkor
 * Kreditgräns
 
-Du sätter upp synkronisering i dotterbolagen. Genom att använda en pull-modell hämtar dotterbolagen data från det källföretag som de behöver göra affärer med. När du har ställt in synkroniseringen och synkroniserat data första gången är allt klart. Posterna i tabellerna är sammanfogade och jobbkötransaktioner börjar med att uppdatera data i dotterbolag när någon gör en ändring i källföretaget.
+Du sätter upp synkronisering i dotterbolagen. Genom att använda en pull-modell hämtar dotterbolagen data från det källföretag som de behöver göra affärer med. När du har ställt in synkroniseringen och synkroniserat data första gången är allt klart. Jobbköposter uppdaterar kopplade poster i dotterbolagen när någon ändrar data i källföretaget.
 
 ## Endast enkelriktad synkronisering
 
@@ -34,10 +34,13 @@ Du kan endast synkronisera data från källföretaget till dotterbolag med pullm
 
 ## Innan du börjar
 
-Det här är kraven för att ställa in synkronisering.
+Följande är krav för att ställa in synkronisering.
 
 * Alla företag måste vara i samma miljö.
-* Den användare som ställer in dotterbolaget måste ha behörighetsuppsättningen **Hantering av huvuddata – vy**. Behörighetsgruppen är tillgänglig för Premium- och Essential-licenser. Teammedlemslicensen låter någon komma åt men inte ändra poster, så den kan inte användas för att ställa in synkroniseringen.
+* Den användare som ställer in dotterbolaget måste ha licenserna **Essential**, **Premium** eller **Basic ISV**.
+
+> [!NOTE]
+> Licensen Teammedlem och Intern administratör låter någon komma åt men inte ändra poster, så den kan inte användas för att ställa in synkroniseringen. Med licensen Delegerad admin kan du inte schemalägga bakgrunds aktiviteter så du kommer inte att kunna slutföra installationen.
 
 ## Ange källföretaget
 
@@ -52,7 +55,7 @@ Nästa steg är att aktivera tabeller och fält för synkronisering.
 
 ## Aktivera eller inaktivera tabeller och fält
 
-För att spara tid visar [!INCLUDE [prod_short](includes/prod_short.md)] en lista över de tabeller som företag ofta synkroniserar. Som standard är dessa tabeller aktiverade för synkronisering, men du kan ändra, inaktivera eller ta bort dem som du önskar. Som en extra tidsbesparing är vissa fält i tabellerna redan inaktiverade eftersom de förmodligen inte är relevanta för dotterbolaget.
+För att spara tid visar [!INCLUDE [prod_short](includes/prod_short.md)] en lista över de tabeller som företag ofta synkroniserar. Som standard är dessa tabeller aktiverade för synkronisering. Du kan ändra, inaktivera eller ta bort dem på det sätt som visas. Som en extra tidsbesparing är vissa fält i tabellerna redan inaktiverade eftersom de förmodligen inte är relevanta för dotterbolaget.
 
 > [!NOTE]
 > Om ett eller flera tillägg är installerade i källföretaget kan du när ett dotterbolag ställer in synkroniseringen innehåller sidan **Synkroniseringstabeller** tabeller från tilläggen och du kan komma åt deras fält. Om källföretaget lägger till ett tillägg när synkroniseringen har ställts in, måste dock varje dotterbolag lägga till tabellerna manuellt. Om du vill veta mer om hur du lägger till tabeller går du till [Lägg till eller ta bort tabeller från synkroniseringstabellistan](#add-or-delete-tables-from-the-synchronization-tables-list). Om du vill ha mer information om utöka [!INCLUDE [prod_short](includes/prod_short.md)] går du till [Utveckla tillägg i Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -85,8 +88,11 @@ Du kan ange vilka data som ska synkroniseras för en tabell genom att matcha pos
 
 När du är klar väljer du åtgärden **Hanteringskonfiguration för huvuddata**, välj åtgärden **Starta inledande synkronisering**. På sidan **Första synkronisering av huvuddata**, välj den typ av synkronisering som du vill använda för varje tabell.
 
-* Om det redan finns poster i både käll- och dotterbolag och du vill matcha befintliga poster, väljer du åtgärd **Använd matchningsbaserad koppling**. [!INCLUDE [prod_short](includes/prod_short.md)] kommer att matcha poster i dotterbolaget med poster i källföretaget baserat på matchningskriterier som du definierar. För flera standardtabeller [!INCLUDE [prod_short](includes/prod_short.md)] har redan befintliga poster matchats med primär nyckeln, men du kan ändra den om du vill. Du kan också låta synkroniseringen skapa nya poster i dotterbolaget för poster i källföretaget som dotterbolaget inte har. Om du vill ha mer information om matchning går du till [Använd matchningsbaserad koppling](#use-match-based-coupling).
-* Om du väljer **Kör fullständig synkronisering**, synkroniseringen kommer att skapa nya poster för alla poster i källföretaget som inte är kopplade än. Vanligtvis är det här alternativet användbart om dotter bolaget inte har några data i tabellen, eller om du bara vill lägga till poster från källföretaget, utan att matcha.  
+* Om det redan finns poster i både käll- och dotterbolag och du vill matcha befintliga poster, väljer du åtgärd **Använd matchningsbaserad koppling**. [!INCLUDE [prod_short](includes/prod_short.md)] matchar poster i dotter bolaget med poster i källföretaget. Matchningarna baseras på matchande kriterier som du definierar. För flera standardtabeller [!INCLUDE [prod_short](includes/prod_short.md)] har redan befintliga poster matchats med primär nyckeln, men du kan ändra den om du vill. Du kan också låta synkroniseringen skapa nya poster i dotterbolaget för poster i källföretaget som dotterbolaget inte har. Om du vill ha mer information om matchning går du till [Använd matchningsbaserad koppling](#use-match-based-coupling).
+* Om du väljer **Kör fullständig synkronisering**, synkroniseringen kommer att skapa nya poster för alla poster i källföretaget som inte är kopplade än. Det här alternativet är t.ex. användbart i följande fall:
+
+    * Dotterbolaget saknar data i tabellen.
+    * Du vill lägga till poster från källföretaget utan att matcha.  
 
 När du har valt alternativet som ska användas väljer du **starta alla** för att starta synkroniseringen.
 
@@ -118,7 +124,7 @@ Om du vill visa information om antalet poster som har infogats eller ändrats, k
 
 ## Använd export och import för att dela en synkroniseringsinställningar
 
-Om du lägger upp flera dotterbolag som ska använda samma eller liknande inställningar kan du spara tid genom att lägga upp ett dotterbolag och sedan exportera dess inställningar till en .xml-fil. Filen innehåller hela inställningarna, inklusive tabell- och fältmappningar och filterkriterier. Du kan sedan importera filen till nästa dotterbolag. För att importera eller exportera en inställning, på sidan **Hanteringskonfiguration för huvuddata** använd åtgärd **Importera** eller **Exportera**.
+Om du lägger upp flera dotter bolag som använder samma eller liknande synkroniseringsinställningar, finns det en tidsinställning. Skapa ett dotter bolag och exportera dess inställningar till en .xml-fil. Filen innehåller hela inställningarna, inklusive tabell- och fältmappningar och filterkriterier. Du kan sedan importera filen till nästa dotterbolag. För att importera eller exportera en inställning, på sidan **Hanteringskonfiguration för huvuddata** använd åtgärd **Importera** eller **Exportera**.
 
 ## Se även
 

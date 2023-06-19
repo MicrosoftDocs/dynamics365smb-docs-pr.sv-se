@@ -39,7 +39,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 ## Se även  
 [Hantera kundreskontra](receivables-manage-receivables.md)   
 [Projekt](projects-how-create-jobs.md)   
-[Välkommen till[!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
+[Välkommen till[!INCLUDE[prod_long](includes/prod_long.md)] ](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

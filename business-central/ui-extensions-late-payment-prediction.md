@@ -118,7 +118,7 @@ Du kan också skapa din egen förebyggande webbtjänst som bygger på en allmän
 
 [Azure Machine Learning Studio-dokumentation](/azure/machine-learning/classic/)  
 [Anpassa Business Central med tillägg](ui-extensions.md)  
-[Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Använd artificiell intelligens i Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

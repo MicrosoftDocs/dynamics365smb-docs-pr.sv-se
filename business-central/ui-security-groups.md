@@ -12,37 +12,37 @@ ms.date: 02/08/2023
 
 # Styra åtkomsten till Business Central med hjälp av säkerhetsgrupper
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
+Säkerhetsgrupper gör det enklare för administratörer att hantera användarbehörigheter. Till exempel för [!INCLUDE [prod_short](includes/prod_short.md)] online kan de återanvändas över Dynamics 365-program, t.ex.  SharePoint Online, CRM Online och [!INCLUDE [prod_short](includes/prod_short.md)]. Administratörer lägger till behörigheter i deras [!INCLUDE [prod_short](includes/prod_short.md)] säkerhetsgrupper och när de lägger till användare i gruppen behörigheten gäller för alla medlemmar. En administratör kan till exempel skapa en [!INCLUDE [prod_short](includes/prod_short.md)] säkerhetsgrupp som ger säljare möjlighet att skapa och bokföra försäljningsorder. Eller låta inköpare göra samma sak för inköpsorder.
 
-Säkerhetsgrupper gör det enklare för administratörer att hantera användarbehörigheter i sina Dynamics 365-program, till exempel SharePoint Online, CRM Online och onlineversionen av [!INCLUDE [prod_short](includes/prod_short.md)]. Administratörer lägger till behörigheter i sina säkerhetsgrupper och när de lägger till användare i gruppen behörigheten gäller för alla medlemmar. En administratör kan till exempel skapa en säkerhetsgrupp som ger säljare möjlighet att skapa och bokföra försäljningsorder. Eller låta inköpare göra samma sak för inköpsorder.
+## Business Central Online och lokalt
 
-Skapa säkerhetsgrupperna i Microsoft 365 administrationscentret eller Azure Active Directory. I den här artikeln beskrivs hur du gör i Microsoft 365 administrationscentret, men stegen är liknande i båda.
+Du kan använda säkerhetsgrupper för online- och lokala versioner av [!INCLUDE [prod_short](includes/prod_short.md)]. Beroende på din version skapar du grupper på något av följande sätt:
 
-## Lägg till en säkerhetsgrupp i Microsoft 365 administrationscenter
+* För onlineversionen använder du Azure Active Directory säkerhetsgrupper. Om du vill veta mer om hur du skapar en grupp går du till [Skapa, redigera eller ta bort en säkerhetsgrupp i Microsoft 365 administrationscenter](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* För lokala platser använder du Windows Active Directory-grupper. Om du vill ha mer information går du till [Skapa ett gruppkonto i Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
-1. I Microsoft 365 administrationscenter, gå till sidan **Aktiva team och grupper**.
-2. Välj **Lägg till en grupp**.
-3. Välj typ av grupp **Säkerhet** och välj **Nästa**.
-4. Ange grunderna för din grupp.
-5. Valfritt: gör medlemmarna i gruppen tillgängliga för rolltilldelning. Om du vill veta mer om tilldelningarna går du till [Använd Azure AD-grupper för att hantera rolltilldelningar](/azure/active-directory/roles/groups-concept).
-6. Öppna gruppen och använd fliken **Lägg till medlemmar** för att inkludera personer i gruppen.
+Skapa sedan en motsvarande säkerhetsgrupp i [!INCLUDE [prod_short](includes/prod_short.md)] och länka den sedan till gruppen du skapade. Om du vill veta mer går du till [Lägg till en säkerhetsgrupp i Business Central](#add-a-security-group-in-business-central).
+
+> [!NOTE]
+> Om du har skapat en speciell typ av användare med en licens typ för Windows-grupper i en version av [!INCLUDE [prod_short](includes/prod_short.md)] lokal som är äldre än 2023 utgivningscykel 1 när du uppgraderar [!INCLUDE [prod_short](includes/prod_short.md)] konverterar användaren till en säkerhetsgrupp. Den nya säkerhetsgruppen har samma namn som Windows-gruppnamnet. Säkerhetsgruppen ger dig en bättre översikt över grupp medlemmarna och deras gällande behörigheter.
 
 ## Lägg till en säkerhetsgrupp i Business Central
 
-I [!INCLUDE [prod_short](includes/prod_short.md)], skapa en säkerhetsgrupp och länka den sedan till säkerhetsgruppen i Microsoft 365 administrationscenter. Den nya gruppen innehåller de medlemmar som du lade till i Microsoft 365 administrationscentret.
-
 1. Välj ![glödlampan som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Säkerhetsgrupper** och väljer sedan relaterad länk.
-2. Välj **Ny** för att skapa en grupp.
-3. I fältet **Namn** anger du ett namn på gruppen.
-4. I fältet **Namn på AAD-säkerhetsgrupp** anger du namnet på säkerhetsgruppen exakt så som det visas i Microsoft 365 administrationscenter. [!INCLUDE [prod_short](includes/prod_short.md)] kommer att hitta den gruppen och länka den till den här gruppen.
+1. Välj **Ny** för att skapa en grupp.
+1. Skapa länken till gruppen enligt följande:
+
+    * För [!INCLUDE [prod_short](includes/prod_short.md)] online, välj gruppen i fältet **Namn på AAD-säkerhetsgrupp**.
+    * För [!INCLUDE [prod_short](includes/prod_short.md)] lokalt, välj gruppen i fältet **Windows-gruppnamn**.
 
 > [!NOTE]
 > De användare som visas på kortet **Medlemmar** i rutan Faktabox eller på sidan **Medlemmar i säkerhetsgrupp** endast om de har lagts till som användare i [!INCLUDE [prod_short](includes/prod_short.md)]. För mer information om att lägga till användare se [Så här lägger du till användare eller uppdaterar användarinformation och licenstilldelningar i Business Central](ui-how-users-permissions.md#adduser).  
 
-### Tilldela behörigheter till gruppen
+### Tilldela behörigheter till en säkerhetsgrupp
 
 1. På sidan **Säkerhetsgrupper** väljer du gruppen och sedan åtgärden **Behörigheter**.
 1. Tilldela behörigheter på följande sätt:
+
     * Om du vill tilldela behörighetslistor individuellt väljer du de behörigheter som du vill tilldela i fältet **behörighetsuppsättning**.
     * Om du vill tilldela flera behörighetsuppsättningar väljer du åtgärden **Välj behörighetsuppsättningar** och väljer vilka uppsättningar som ska tilldelas.
 
@@ -54,7 +54,19 @@ Behörigheter finns också på sidan **användare**. I rutan faktabox visas kort
 
 ## Säkerhetsgrupper och användargrupper
 
-Om du har användargrupper kan du konvertera grupperna till behörighetsgrupper i klientorganisationen med hjälp av guiden för assisterad konfiguration för **migrering av användargrupp**. För att starta guiden, på sidan **Funktionshantering** sök efter **Funktion: Konvertera behörigheter för användargrupper** och välj **Alla användare** i fältet **Aktiverad för**. I guiden för assisterad konfiguratio finns följande alternativ för konverteringen:
+> [!NOTE]
+> Användargrupper kommer inte längre att vara tillgängliga i framtida versioner.
+
+Säkerhetsgrupper liknar de användargrupper som är tillgängliga för tillfället. Användargrupper är dock bara relevanta för [!INCLUDE [prod_short](includes/prod_short.md)]. Säkerhets grupper är baserade på grupper i Azure Active Directory eller Windows Active Directory, beroende på om du använder [!INCLUDE [prod_short](includes/prod_short.md)] online eller lokalt. Grupper gynnar administratörer eftersom de kan använda dem med andra Dynamics 365-appar. Om till exempel säljare använder [!INCLUDE [prod_short](includes/prod_short.md)] och SharePoint-administratörer behöver inte skapa gruppen och dess medlemmar.
+
+### Valfritt: Konvertera användargrupper till behörighetsuppsättningar
+
+I 2023 utgivningscykel 1 och senare kan du konvertera användargrupper till behörighetsgrupper i din klientorganisation. Behörighetsgrupperna ger samma funktioner som användargrupperna. Här följer några exempel:
+
+* Du kan använda faktaboxen **användare** för att hantera behörigheter för användare.
+* Du kan detaljgranska behörighetsgruppens namn om du vill lägga till andra behörighetsgrupper i den uppsättning som du arbetar med. Mer information finns i [Lägga till andra behörighetsuppsättningar](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+Använd **Migrering av användargrupper** användargrupper för att konvertera grupper. För att starta guiden, på sidan **Funktionshantering** sök efter **Funktion: Konvertera behörigheter för användargrupper** och välj **Alla användare** i fältet **Aktiverad för**. I guiden för assisterad konfiguratio finns följande alternativ för konverteringen:
 
 |Alternativ  |Beskrivning  |
 |---------|---------|

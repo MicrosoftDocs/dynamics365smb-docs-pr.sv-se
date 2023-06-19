@@ -39,7 +39,7 @@ En översikt med de marknader som för närvarande stöds i Dynamics 365 finns i
 
 [Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central](trial-signup.md)  
 [FAQ för utvärderingsversionen av Dynamics 365 Business Central](trial-faq.md)  
-[Välkommen till [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[Välkommen till [!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokal funktionalitet](about-localization.md)  
 [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

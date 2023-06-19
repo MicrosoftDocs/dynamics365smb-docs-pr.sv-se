@@ -1,16 +1,14 @@
 ---
 title: Registrera speciella försäljningspriser och rabatter
 description: Beskriver hur du definiera pris-och rabattavtal för försäljningsdokument.
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Registrera speciella försäljningspriser och rabatter
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * Ett pris passar alla modeller där en artikel alltid säljs med samma pris.
 * Special prisavtal med specifika kunder eller kundgrupper.
-* Kampanjer när en försäljning uppfyller kriterier för ett specialerbjudande. Kriterier kan t.ex. vara när en order uppfyller ett visst minsta antal, är före ett visst datum eller innehåller en viss typ av artikel.  
+* Kampanjer när en försäljning uppfyller kriterier för ett specialerbjudande. Du kan till exempel ha följande kriterier för en order:
+
+  * Det uppfyller minimiantalet
+  * Det är före ett visst datum
+  * Det innehåller en viss typ av artikel  
 
 Om du vill använda en grundläggande prismodell behöver du bara ange ett enhetspris när du anger en artikel eller resurs. Det priset kommer alltid att användas på försäljningsdokument. För mer avancerade modeller, till exempel när du vill erbjuda specialpriser för en säljkampanj kan du ange kriterier på sidan **försäljningspriser** . Du kan erbjuda specialpriser baserat på kombinationer av följande information:  
 
@@ -32,13 +34,13 @@ Om du vill använda en grundläggande prismodell behöver du bara ange ett enhet
 * Minimiantal
 * Datum som definierar perioden som priserna är giltiga för.
 
-När du anger särskilda priser kan [!INCLUDE[prod_short](includes/prod_short.md)] dessutom kan du beräkna det bästa priset på försäljnings- och inköpsdokument och på projekt- och artikeljournalrader. Läs mer på [Bästa prisberäkning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+När du anger särskilda priser kan [!INCLUDE[prod_short](includes/prod_short.md)] dessutom kan du beräkna det bästa priset på försäljnings- och inköpsdokument och på projekt- och artikeljournaler. Läs mer på [Bästa prisberäkning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 För försäljningsrabatter kan du ställa in två typer:
 
-| Rabattyp | Beskrivning |
+| Typ av rabatt | Description |
 | --- | --- |
-| **Förs.radrabatt** |Ett belopp som infogas på försäljningsrader om de innehåller en viss kombination av kund, artikel, minsta kvantiteten, måttenhet eller start-/slutdatum. Denna typ fungerar på samma sätt som för försäljningspriser. |
+| **Förs.radrabatt** |Lägg till belopp som infogas på försäljningsrader som har en viss kombination av kund, artikel, minsta kvantiteten, måttenhet eller start-/slutdatum. Denna typ fungerar på samma sätt som för försäljningspriser. |
 | **Fakturarabatt** |En procentrabatt som dras av från försäljningsdokumentets summa om summan av alla rader i dokumentet överstiger ett viss minimivärde. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ När du aktiverar funktionsuppdateringen **Ny upplevelse för försäljningspris
 
 * Aktivera det om du vill arbeta med alla priser på samma sida. Befintliga priser konverteras till en standardprislista för vart och ett av följande dokument:
 
-    * FÖRS
-    * Inköp
-    * Projektförsäljning
-    * Projektinköp
+  * FÖRS
+  * Inköp
+  * Projektförsäljning
+  * Projektinköp
 
-    Du kan redigera alla priser för dessa områden på sidan **Prisförslag**. Standardprislistorna anges på sidorna **Försäljningsinställningar**, **Inköpsinställningar** och **Projektinställningar**. 
+  Du kan redigera alla priser för dessa områden på sidan **Prisförslag**. Standardprislistorna anges på sidorna **Försäljningsinställningar**, **Inköpsinställningar** och **Projektinställningar**.
 
 > [!NOTE]
 > Om priser endast är inställda på artikel- eller resurskort fylls inte standardprislistorna i med dessa priser under datauppdateringen. Du kan dock öppna någon av standardprislistorna eller sidan **Prisförslag** och använda åtgärden **Föreslå rader** för att lägga till prisuppsättningarna på artikel- eller resurskortet.
 
-* Om du vill använda försäljningsprislistor avmarkerar du det. Befintliga priser konverteras till en ny prislista för varje kombination av följande saker: 
+* Om du vill använda försäljningsprislistor avmarkerar du det. Befintliga priser konverteras till en ny prislista för varje kombination av följande saker:
 
-* Kund
-* Kundgrupp eller kampanj
-* Start- och slutdatum
-* Valutor 
+  * Kund
+  * Kundgrupp eller kampanj
+  * Start- och slutdatum
+  * Valutor
 
 Om du har många kombinationer får du många prislistor.
 
@@ -166,9 +168,12 @@ Om du vill kopiera försäljningspriser – till exempel en viss kunds försälj
 
 #### [Ny upplevelse](#tab/new-experience/)  
 
-Du kan ange om den nya prislistan ska använda inställningarna från sidhuvudet till listan som du kopierar, eller inställningarna från den nya listan som du kopierar till. Om du vill använda inställningarna från prislistan som du kopierar priser till ska du aktivera reglaget **Använd standardinställningar från mål**.
+Du kan ange de inställningar som prislistan ska använda:
 
-1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsprislistor** och välj sedan relaterad länk. 
+* Använd inställningarna från huvudet i listan som du kopierar.
+* Använd inställningarna från listan du kopierar till. Om du vill använda inställningarna från prislistan som du kopierar priser till ska du aktivera reglaget **Använd standardinställningar från mål**.
+
+1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningsprislistor** och välj sedan relaterad länk.
 2. Välj den prislista som ska kopieras och välj sedan **Kopiera rader**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 Om du vill uppdatera flera artikelpriser samtidigt – till exempel höja alla priser med en viss procentsats kan du fylla sidan Försäljningsprisförslag genom att använda följande batchjobb:
 
-* **Föreslå förs.pris i ett förslag** föreslår ändringar på ett av två sätt. Antingen genom att tillämpa en justeringsfaktor på befintliga försäljningspriser, eller genom att kopiera befintliga försäljningsprisavtal till andra kunder, kundprisgrupper eller försäljningskampanjer.
-* **Föreslå artikelpris i förslag** föreslår ändringar på ett av två sätt. Antingen genom att tillämpa en justeringsfaktor på befintliga enhetspriser på artikelkort, eller genom att föreslå priser för nya kombinationer av valuta, måttenheter och så vidare. Enhetspriserna för artiklar ändras inte med det här batch-jobbet.  
+* **Föreslå förs.pris i ett förslag** föreslår ändringar på ett av två sätt:
+
+  * Genom att tillämpa en justeringsfaktor på befintliga försäljningspriser.
+  * Genom att kopiera befintliga försäljningsprisavtal till andra kunder, kundprisgrupper eller försäljningskampanjer.
+
+* **Föreslå artikelpris i förslag** föreslår ändringar på ett av två sätt:
+
+  * Genom att tillämpa en justeringsfaktor på befintliga enhetspriser på artikelkort.
+  * Genom att föreslå priser för nya kombinationer av valuta, måttenheter och så vidare.
+
+  Detta batchjobb ändrar inte enhetspriserna på artiklar.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Försäljningspriskalkylark** och välj sedan relaterad länk.  
 2. Välj **Föreslå artikelpris i förslag** .  
@@ -219,7 +233,7 @@ Det bästa priset är det lägsta priset med den högsta radrabatten som tillåt
 
     * Finns det ett särskilt avtal om priser eller radrabatter för den här kunden, eller tillhör kunden en grupp som har ett sådant avtal?
     * Ingår artikeln eller artikelrabattgruppen på raden i något av dessa pris-/rabatt-avtal?
-    * Ligger orderdatumet (eller fakturans och kreditnotans bokföringsdatum) inom avtalet om priser eller radrabatter?
+    * Ligger datumet inom pris-/rabattavtalets start- och slutdatum? För fakturor och kredit notor är det här datumet i fältet **bokföringsdatum** i dokumenthuvudet. För alla andra dokument är det datumet i fältet **orderdatum** i rubrikerna.
     * Har någon enhetskod angetts? I så fall gör [!INCLUDE[prod_short](includes/prod_short.md)] en sökning efter priser eller rabatter med samma enhetskod och efter priser eller rabatter som saknar enhetskod.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerar om några pris- och rabattavtal gäller för information på dokumentet eller journalraden. Därefter infogas det aktuella enhetspriset och radrabattprocenten med hjälp av följande kriterier:

@@ -16,6 +16,9 @@ ms.author: edupont
 
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du ange vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).  
 
+> [!NOTE]
+> Från och med version 22.1 har den svenska lokaliseringen flyttats till tilläggen och den här funktionen är avlokaliserad. Eftersom lokaliseringen nu skapas som ett tillägg måste du aktivera funktionen för att kunna använda den. Mer information om den här metoden finns i [Importera och exportera data i SIE-format, standard import-export](how-to-use-sie-audit-files-export.md).
+
 ## Så här importerar du data i SIE-format  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **SIE-import** och väljer sedan relaterad länk.  
@@ -40,7 +43,7 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 
     |Fält|Description|  
     |---------------------------------|---------------------------------------|  
-    |**Filtyp**|Välj typen av fil du vill skapa. Välj något av följande alternativ:<br /><br /> -   **År – Slutsaldon** – Innehåller årligt utgående saldo för alla konton i kontoplanen.<br />-   **Periodiska saldon** – Innehåller årligt utgående saldo och månatliga förändringar för alla konton i kontoplanen.<br />-   **Objektsaldon** – Innehåller årligt utgående kontosaldo, månatliga förändringar och saldon på objektnivån, till exempel kostnadsenheter och projekt, för alla konton i kontoplanen.<br />-   **Transaktioner** – Innehåller alla redovisningstransaktioner för perioden.|  
+    |**Filtyp**|<p>Välj typen av fil du vill skapa. Välj något av följande alternativ:</p><ul><li>**År – Slutsaldon** – Innehåller årligt utgående saldo för alla konton i kontoplanen.</li><li>**Periodiska saldon** – Innehåller årligt utgående saldo och månatliga förändringar för alla konton i kontoplanen.</li><li>**Objektsaldon** – Innehåller årligt utgående kontosaldo, månatliga förändringar och saldon på objektnivån, till exempel kostnadsenheter och projekt, för alla konton i kontoplanen.</li><li>**Transaktioner** – Innehåller alla redovisningstransaktioner för perioden.</li></ul>|  
     |**Kontakt**|Ange kontaktperson. Fältet är ett tillval.|  
     |**Kommentarer**|Beskriv filens innehåll.|  
     |**Dimensioner**|Markera dimensionerna du vill exportera.|  

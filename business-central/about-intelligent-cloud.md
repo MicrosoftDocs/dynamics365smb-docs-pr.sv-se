@@ -37,7 +37,7 @@ Sidan ansluter också till Power BI för ytterligare insikter. Du kan också ans
 
 ## Se även
 
-[Välkommen till Business Central](index.md)  
+[Välkommen till Business Central](welcome.md)  
 [Tillägget Molnmigrering](ui-extensions-data-replication.md)  
 [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 

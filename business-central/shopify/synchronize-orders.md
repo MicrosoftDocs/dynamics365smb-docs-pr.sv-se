@@ -1,13 +1,13 @@
 ---
 title: Synkronisera och uppfylla försäljningsordrar
 description: Konfigurera och kör import och behandling av försäljningsordrar från Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkronisera och uppfylla försäljningsordrar
@@ -32,7 +32,20 @@ Om du vill släppa ett försäljningsdokument automatiskt aktiverar du alternati
 
 Försäljningsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] länkar till Shopify ordern, och du kan lägga till ett fält som inte redan visas på sidan. Om du vill veta mer om hur du lägger till ett fält går du till [Börja anpassa en sida med banderollen **Anpassa**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Om du aktiverar **Shopify-ordernr på dokumentraden** upprepas den här informationen på försäljningsraden som **Kommentar**.
 
-I fältet **Skatteområdeskälla** kan du definiera prioritet för hur skatteområdeskod eller rörelsebokföringsmallar för moms ska väljas baserat på adress. Den importerade Shopify ordern innehåller information om skatt, men momsen kommer att räknas om när du skapar försäljnings dokumentet så det är viktigt att moms-och moms inställningarna är korrekta i [!INCLUDE[prod_short](../includes/prod_short.md)]. Mer information om moms finns i [ställa in moms för Shopify anslutningen](setup-taxes.md).
+I fältet **Skatteområdesprioritet** kan du definiera prioritet för hur skatteområdeskod eller på adresser i order. Den importerade Shopify ordern innehåller information om moms. Moms beräknas om när du skapar försäljnings dokumentet, så det är viktigt att moms- och skatteinställningar är korrekta i [!INCLUDE[prod_short](../includes/prod_short.md)]. Mer information om moms finns i [ställa in moms för Shopify anslutningen](setup-taxes.md).
+
+Ange hur du bearbetar returer och återbetalningar:
+
+* **Tom** anger att du inte importerar och behandlar returer och återbetalningar.
+* **Endast import** anger att du importerar information, men du kommer att manuellt skapa motsvarande kreditnotor.
+* **Skapa kreditnota automatiskt** anger att du importerar information och [!INCLUDE[prod_short](../includes/prod_short.md)] skapar kredit notorna automatiskt. Det här alternativet innebär att du måste aktivera funktionen för växlingsknappen **Skapa automatiskt försäljningsorder**.
+
+Ange en plats för returer och redovisningskonton för återbetalningar för varor och andra återbetalningar.
+
+* **Refund Account non-restock Items** – Anger ett redovisningskontonummer för artiklar där du inte vill ha en lagerrättelse.
+* **Återbetalningskonto** – Anger ett redovisningskontonummer för differensen mellan det totala återbetalade beloppet och det totala beloppet för artiklarna.
+
+Lär dig mer om [Returer och återbetalningar](synchronize-orders.md#returns-and-refunds)
 
 ### Mappning av utleveransmetoder
 
@@ -118,7 +131,7 @@ Om inställningarna gör att en kund inte kan skapas automatiskt och en befintli
 
 Funktionen *Importera order från Shopify* försöker att välja kunder i följande ordning:
 
-1. Om **Standardkundnr** definieras i **Shopify-kundmall** för motsvarande land används **Standardkundnr** oavsett inställningar i **Kundimport från Shopify** och **Kundmappningstyp**. Läs mer i [Kundmall per land](synchronize-customers.md#customer-template-per-country).
+1. Om **Standardkundnr** definieras i **Shopify kundmall** för **Kod för leveransland/-region**, sedan **Standardkundnr.** oavsett inställningar i **Kundimport från Shopify** och **Kundmappningstyp**. Läs mer i [Kundmall per land](synchronize-customers.md#customer-template-per-country).
 2. Om **Kundimport från Shopify** anges till *Ingen* och **Standardkundnr.** definieras på sidan **Shopify butikskort**, sedan **Standardkundnr.** .
 
 Nästa steg beror på **Kundmappningstyp**.
@@ -129,6 +142,27 @@ Nästa steg beror på **Kundmappningstyp**.
 
 > [!NOTE]  
 > Kopplingen använder information från faktureringsadressen och skapar en faktureringskund i [!INCLUDE[prod_short](../includes/prod_short.md)]. Försäljningskunden är densamma som faktureringskunden.
+
+### Olika bearbetningsregler för order
+
+Du kanske vill hantera order på olika sätt utifrån en regel. Order från en specifik försäljningskanal, som kassa, bör därför använda standardkunden, men du vill att din onlinebutik ska ha verklig information om kunden.
+
+Ett sätt att ta itu med detta är att skapa ett extra Shopify-butikskort och använda filter på sidan **Synkronisera order från Shopify** begäran.
+
+Exempel: du har både onlinebutik och Shopify kassa. För din kassa vill du använda en fast kund, men för onlinebutiken vill du skapa kunder i [!INCLUDE[prod_short](../includes/prod_short.md)]. I proceduren nedan beskrivs de steg på hög nivå som visas. Mer information finns i motsvarande hjälpartiklar.
+
+1. Skapa en Shopify butik kallad *BUTIK* och koppla den till ditt Shopify-konto.
+2. Konfigurera synkronisering av artikel/produkt så att den här butiken hanterar produktinformation.
+3. Ange att kunderna importeras med order. Kontakten ska hitta kunder genom att söka efter sin e-postadress. Om det inte finns någon adress används kundmallen för att skapa en ny kund.
+4. Skapa en Shopify butik kallad *KASSA* och koppla den till samma Shopify-konto.
+6. Kontrollera att synkronisering av artikel/produkt har inaktiverats.
+7. Välj det anslutningsprogram som använder standardkunden.
+8. Skapa en återkommande jobbkötransaktion för rapport 30104 **Synkronisera order från Shopify**. Välj **BUTIK** i fältet **Shopify butikskod** och använd filter för att hämta alla order utom de som skapas av kassans försäljningskanal. Till exempel, **<>butikskassa**
+9. Skapa en återkommande jobbkötransaktion för rapport 30104 **Synkronisera order från Shopify**. Välj **KASSA** i fältet **Shopify butikskod** och använd filter för att hämta order som genererats av kassans försäljningskanal. Till exempel, **butikskassa**.
+
+Varje jobbkö kommer att importera och bearbeta order inom de definierade filtren och använda reglerna från motsvarande Shopify butikskort. De skapar till exempel försäljningsorder för standardkunden.
+
+>![Viktigt] För att undvika konflikter när du behandlar order måste du komma ihåg att använda samma jobbkö för båda jobbkötransaktionerna.
 
 ### Effekten av orderredigering
 
@@ -184,6 +218,27 @@ Spårningsföretaget fylls i följande ordning (från högsta till lägsta) base
 * **Kod**
 
 Om fältet **Spårnings-URL för paket** har fyllts i för posten Speditör innehåller också försändelsebekräftelsen en spårnings-URL.
+
+## Returer och återbetalningar
+
+I en integration mellan  Shopify och [!INCLUDE[prod_short](../includes/prod_short.md)] är det viktigt att kunna synkronisera så mycket affärsdata som möjligt. Det gör det enklare att hålla ekonomi- och lagernivåerna aktuella i [!INCLUDE[prod_short](../includes/prod_short.md)]. De data som du kan synkronisera innehåller returer och återbetalningar som registrerats i Shopify administration eller Shopify kassa.
+
+Returer och återbetalningar importeras med tillhörande order om du har aktiverat bearbetningstypen på det Shopify butikskortet.
+
+Returer importeras endast i informationssyfte. Det finns ingen bearbetningslogik associerad med dem.
+
+Ekonomi och, om det behövs, lagertransaktioner bearbetas via återbetalningar. Återbetalningar kan inkludera produkter eller bara belopp, t.ex. om en handlare har beslutat att kompensera fraktavgifter eller något annat belopp.
+Du kan skapa försäljningskreditnotor för återbetalningar. Kreditnotorna kan ha följande typer av rader:
+
+|Kontakttyp|Nr.|Kommentar|
+|-|-|-|
+|Redovisningskonto|Konto för sålda presentkort| Använd för återbetalningar relaterade till presentkort.|
+|Redovisningskonto|Återbetalningskonto för artiklar som inte återanskaffas | Används för återbetalningar som avser produkter som inte har återanskaffats. |
+|Artikel |Art.nr| Används för återbetalningar som avser produkter som har återanskaffats. Gäller för direkta återbetalningar eller återbetalningar som är kopplade till återbetalningar. Lagerställekoden på kreditnotsraden anges utifrån det värde som valts för returplatsen.|
+|Redovisningskonto| Återbetalningskonto | Använd för andra återbetalade belopp som inte är relaterade till produkter eller presentkort. Exempelvis tips eller om du manuellt angav ett belopp att återbetala i Shopify. |
+
+>[!Note]
+>Returplatsen, inklusive tomma platser, som definieras i **Shopify butikskortet** , används på den skapade kreditnotan. De ursprungliga platserna ignoreras från order eller leveranser.
 
 ## Presentkort
 

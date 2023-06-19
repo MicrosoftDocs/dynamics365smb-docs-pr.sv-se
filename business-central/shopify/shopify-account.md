@@ -50,7 +50,10 @@ När du har skapat butiken i **Shopify Admin** av skapad butik tillämpa följan
   1. *(för testning) Falsk gateway*. Mer information finns i [Aktivera falsk gateway för test](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify Payments* i testläge. Läs mer i [Testa Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Utvecklingsarkiv är oftast lösenordsskyddade. När du försöker öppna en specifik sida i onlinebutiken från [!INCLUDE [prod_short](../includes/prod_short.md)], t.ex. gå till en viss produkt eller order, måste du ange lösenordet. När du testar behöver du inte ange ditt lösenord, logga in på Shopify administratören och öppna butiken därifrån. Du behöver inte ange butikens lösenord förrän du stänger webbläsaren eller så upphör sessionen att gälla.  
+
 ## Se även
 
-[Kom igång med Shopify-kopplingen](get-started.md)  
+[Komma i gång med Shopify-anslutningsprogrammet](get-started.md)  
 [Genomgång: ställa in och använda Shopify anslutningsprogram](walkthrough-setting-up-and-using-shopify.md)

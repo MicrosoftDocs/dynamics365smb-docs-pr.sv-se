@@ -16,12 +16,12 @@ Den här artikeln innehåller en översikt över hur du ställer in de konton so
 
 ## Ställa in administratörsanvändarkontot
 
-Du måste lägga till ditt administratörsanvändarkonto för [!INCLUDE[prod_short](includes/prod_short.md)] som användare i [!INCLUDE[cds_long](includes/cds_long_md.md)]. När du konfigurerar anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)] använder vi det här kontot en gång för att installera och konfigurera vissa nödvändiga komponenter.
+Om du vill konfigurera anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)], måste du logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med ett användarkonto som är tilldelat till [!INCLUDE[prod_short](includes/prod_short.md)] Essential- eller [!INCLUDE[prod_short](includes/prod_short.md)] Premium-licens. Vi använder det här kontot en gång för att installera och konfigurera vissa nödvändiga komponenter.
 
 > [!IMPORTANT]
-> Administratörsanvändarkontot måste vara en licensierad användare med säkerhetsrollen **Systemadministratör** i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljön och en global administratör på den klientorganisation som miljön tillhör. Det här kontot behöver ingen licens för [!INCLUDE[prod_short](includes/prod_short.md)], eftersom det endast används för att tillhandahålla tjänsten i [!INCLUDE[prod_short](includes/cds_long_md.md)]-klientorganisationen och för att utföra konfigurationsuppgifter.
+> Under installationen ombeds du ange autentiseringsuppgifter för [!INCLUDE[prod_short](includes/cds_long_md.md)] miljön. Ange autentiseringsuppgifterna för ett konto som är en licensierad användare och tilldelat till **Systemadministratör** i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljön och en global administratör på den klientorganisation som miljön tillhör. Det här kontot behöver ingen licens för [!INCLUDE[prod_short](includes/prod_short.md)], eftersom det endast används för att ställa in uppgifter i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljö.
 >
-> När anslutningskonfigurationen är klar kan denna [!INCLUDE[prod_short](includes/cds_long_md.md)]-användare tas bort. Integreringen fortsätter att använda användarkontot som har skapats automatiskt särskilt för integrering.
+> När anslutningskonfigurationen är klar kan du ta bort denna [!INCLUDE[prod_short](includes/cds_long_md.md)]-användare. Integreringen fortsätter att använda användarkontot som har skapats automatiskt särskilt för integrering.
 
 ## Behörigheter och säkerhetsroller för användarkonton i [!INCLUDE[prod_short](includes/cds_long_md.md)]
 

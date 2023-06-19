@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 03/24/2022
+ms.date: 05/12/2023
 ms.author: bholtorf
 ---
 # Designdetaljer: Värderingsprinciper
@@ -32,13 +32,22 @@ Följande bild visar hur kostnader flödar via lagret för varje värderingsprin
 ![Visualiserade värderingsmetoder.](media/design_details_inventory_costing_7_costing_methods.png "Visualiserade värderingsmetoder")  
 
 Värderingsprinciper skiljer sig åt på sättet som de värderar lagerminskningar, och om de använder de faktiska kostnaderna eller standardkostnader som värderingsbas. Följande tabell förklarar de olika egenskaperna. (LIFO-metoden används inte eftersom den påminner om FIFO-metoden).  
-
-|Kategori|FIFO|Genomsnitt|Standard|Specifik|  
+<!--Old  table
+|Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
-|Allmänna egenskaper|Enkelt att förstå|Baserat på periodalternativ: **Dag**/**Vecka**/**Månad**/**Kvartal**/**Bokföringsperiod**.<br /><br /> Kan beräknas per artikel eller per artikel/lagerställe/variant.|Enkelt att använda men kräver kvalificerat underhåll.|Kräver artikelspårning på både inkommande och utgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|  
-|Koppling/justering|Koppling håller reda på **det återstående antalet**.<br /><br /> Justering vidarebefordrar kostnader enligt antalskoppling.|Koppling håller reda på **återstående antal**.<br /><br /> Kostnader beräknas och speditioneras per **värderingsdatum**.|Koppling håller reda på **återstående antal**.<br /><br /> Koppling baseras på FIFO.|Alla kopplingar är fasta.|  
-|Omvärdering|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar endast fakturerat antal.<br /><br /> Kan endast utföras per artikel.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar fakturerade och icke-fakturerade antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|  
-|Diverse|Om du bakåtdaterar en lagerminskning kopplas befintliga transaktioner INTE om för att ge ett korrekt FIFO-kostnadsflöde.|Om du bakåtdaterar en lagerökning eller lagerminskning beräknas genomsnittskostnaden om och alla transaktioner som påverkas justeras.<br /><br /> Om du ändrar perioden eller beräkningstypen måste alla påverkade transaktioner justeras.|Använd sidan **Standardformulär** för att regelbundet uppdatera och summera standardkostnader.<br /><br /> Stöds INTE per lagerställeenhet.<br /><br /> Inga historiska transaktioner finns för standardkostnader.|Du kan använda specifik artikelspårning utan att använda värderingsprincipen Specifik. Sedan följer kostnaden INTE partinumret, utan kostnadsantagandet för den valda värderingsprincipen.|  
+|General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
+|Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
+|Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
+|Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+-->
+<!--Table flipped for slightly better readability -->
+
+||Allmänna egenskaper|Koppling/justering |Omvärdering|Diverse |
+|-|---------|---------|---------|---------|
+|**FIFO**     |Enkelt att förstå|Koppling håller reda på **det återstående antalet**.<br /><br /> Justering vidarebefordrar kostnader enligt antalskoppling. |Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Om du bakåtdaterar en lagerminskning kopplas befintliga transaktioner INTE om för att ge ett korrekt FIFO-kostnadsflöde.|
+|**Genomsnitt**     |Baserat på periodalternativ: **Dag**/**Vecka**/**Månad**/**Kvartal**/**Bokföringsperiod**.<br /><br /> Kan beräknas per artikel eller per artikel/lagerställe/variant.|Koppling håller reda på **återstående antal**.<br /><br /> Kostnader beräknas och speditioneras per **värderingsdatum**. |Omvärderar endast fakturerat antal.<br /><br /> Kan endast utföras per artikel.<br /><br /> Kan utföras bakåt i tiden. |Om du bakåtdaterar en lagerökning eller lagerminskning beräknas genomsnittskostnaden om och alla transaktioner som påverkas justeras.<br /><br /> Om du ändrar perioden eller beräkningstypen måste alla påverkade transaktioner justeras.|
+|**Standard**     |Enkelt att använda men kräver kvalificerat underhåll.|Koppling håller reda på **återstående antal**.<br /><br /> Koppling baseras på FIFO.|Omvärderar fakturerade och icke-fakturerade antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Använd sidan **Standardformulär** för att regelbundet uppdatera och summera standardkostnader.<br /><br /> Stöds INTE per lagerställeenhet.<br /><br /> Inga historiska transaktioner finns för standardkostnader.|
+|**Specifikt**     |Kräver artikelspårning på både inkommande och utgående transaktioner.<br /><br /> Används vanligtvis för artiklar med serienummer.|Alla kopplingar är fasta.|Omvärderar endast fakturerat antal.<br /><br /> Kan utföras per artikel eller per artikeltransaktion.<br /><br /> Kan utföras bakåt i tiden.|Du kan använda specifik artikelspårning utan att använda värderingsprincipen Specifik. Sedan följer kostnaden INTE partinumret, utan kostnadsantagandet för den valda värderingsprincipen.|
 
 ## Exempel
 
@@ -140,13 +149,14 @@ För artiklar som använder värderingsprincipen **Standard** värderas lagerök
 
 ## Se även
 
- [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
- [Designdetaljer: Varians](design-details-variance.md)   
- [Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)   
- [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
- [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
- [Ekonomi](finance.md)  
- [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
+[Designdetaljer: Varians](design-details-variance.md)  
+[Designdetaljer: Genomsnittskostnad](design-details-average-cost.md)  
+[Designdetaljer: Artikelkoppling](design-details-item-application.md)  
+[Hantera lagerkostnader](finance-manage-inventory-costs.md)  
+[Ekonomi](finance.md)  
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Ord lista över termer i Dynamics 365 affärsprocesser](/dynamics365/guidance/business-processes/glossary)  
+[Definiera översikt över produkt- och tjänstkostnader](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

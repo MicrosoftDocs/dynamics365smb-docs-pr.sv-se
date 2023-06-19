@@ -1,13 +1,13 @@
 ---
 title: Synkronisera artiklar och lager
 description: Ställ in och kör synkronisering av artiklar mellan Shopify och Business Central
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkronisera artiklar och lager
@@ -98,17 +98,17 @@ Du hanterar processen att exportera objekt med dessa inställningar:
 |------|-----------------|-----------------|
 |Status|Enligt fältet **Status för skapade produkter** på **Shopify-butikskortet**. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Rubrik | **Beskrivning**. Om språkkoden är definierad och motsvarande artikelöversättning finns kommer artikelöversättningen att användas i stället för beskrivning.|**Beskrivning**|
-|Description|Kombinerar utökade texter och attribut om motsvarande reglage på Shopify-butikskortet har aktiverats. Respekterar språkkod.|Inte använd.|
+|Description|Kombinerar utökade texter, marknadsföringstexter och attribut om aktiverar motsvarande reglage på Shopify-butikskortet. Respekterar språkkod.|Inte använd.|
 |Sidrubrik, SEO|Fast värde: tom. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Metabeskrivning, SEO|Fast värde: tom. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Media|**Bild**. Mer information finns i avsnittet [Synkronisera artikelbilder](synchronize-items.md#sync-item-images)|**Bild**|
-|Pris|Beräknande av slutkundens pris omfattar inkluderar artikelenhetspris, kundprisgrupp, kundrabattgrupp och valutakod. Mer information finns i avsnittet [Synkronisera priser](synchronize-items.md#sync-prices-with-shopify)|**A-pris**|
+|Pris|Beräknande av slutkundens pris omfattar inkluderar artikelenhetspris, kundprisgrupp, kundrabattgrupp och valutakod. Mer information finns i avsnittet [Synkronisera priser](synchronize-items.md#sync-prices-with-shopify)|**A-pris**. Priset importeras bara till nyligen skapade objekt men uppdateras inte vid senare synkroniseringar.|
 |Jämför med pris|Beräkningen av priset utan rabatt.|Inte använd.|
-|Styckkostnad|**Styckkostnad**|**Styckkostnad**|
+|Styckkostnad|**Styckkostnad**|**Styckkostnad**. Enhetspriset importeras bara till nyligen skapade objekt men uppdateras inte vid senare synkroniseringar.|
 |Lagerställeenhet|Läs mer om detta under **SKU-mappning** i avsnittet [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify).|Läs mer i avsnittet [Påverkan av Shopify produkt-SKU:er och streckkoder för att mappa och skapa artiklar och varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Streckkod|**Artikelreferenser** av typen Streckkod.|**Artikelreferenser** av typen Streckkod.|
-|Spåra antal|Enligt fältet **Lager spårat** på sidan **Shopify-butikskortet**. Läs mer i avsnittet [Lager](synchronize-items.md#sync-inventory-to-shopify).|Inte använd.|
-|Fortsätta sälja när de är slut i lager|Enligt **Standardlagerprincip** på **Shopify-butikskortet**. Inte importerad.|Inte använd.|
+|Spåra antal|Enligt fältet **Lager spårat** på sidan **Shopify-butikskortet**. Läs mer i avsnittet [Lager](synchronize-items.md#sync-inventory-to-shopify). Används endast när du exporterar en produkt för första gången.|Inte använd.|
+|Fortsätta sälja när de är slut i lager|Enligt **Standardlagerprincip** på **Shopify-butikskortet**. Används endast när du exporterar en produkt för första gången.|Inte använd.|
 |Kontakttyp|**Beskrivning** av **Artikelkategorikod**. Om typen inte har angetts i Shopify läggs den till som en anpassad typ.|**Artikelkategorikod**. Mappning per beskrivning.|
 |Leverantör|**Namn** på leverantör från **Leverantörsnr**|**Leverantörsnr**-mappning efter namn.|
 |Vikt|**Bruttovikt**.|Inte använd.|
