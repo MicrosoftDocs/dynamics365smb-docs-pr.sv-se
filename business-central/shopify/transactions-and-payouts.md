@@ -10,13 +10,13 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# <a name="transactions-and-payouts" />Transaktioner och utbetalningar
+# Transaktioner och utbetalningar
 
 När en kund färdigställer sin kassa i onlinebutiken sparas informationen om betalningar som en **transaktion**. Det kan finnas flera transaktioner kopplade till ordern, till exempel när en kund använder ett presentkort för att betala en del av kostnaden och sedan använder ett kredit kort eller PayPal för det återstående beloppet.
 
 Om du använder Shopify betalning som betalningsprovider kan du utöver information om de pengar som erhållits från kunden av betalnings förmedlaren även Visa utbetalningar från Shopify till ditt bankkonto.
 
-## <a name="transactions" />Transaktioner
+## Transaktioner
 
 De betalningstransaktioner som ägde rum på Shopify synkroniseras med ordrarna och kan visas från **Shopify-ordern**.
 
@@ -26,7 +26,7 @@ Fältet **Bokfört fakturanr.** kan vara användbart i avstämningsprocessen.
 
 Om du har konfigurerat en mappning för betalningsmetod kommer det skapade försäljningsdokumentet att ha en tilldelad betalningsmetod kod. Mer information finns i [mappning betalningsmetod](#payment-method-mapping).
 
-## <a name="payouts" />Utbetalningar
+## Utbetalningar
 
 Om din butik har Shopify Payments aktiverat får du betalningar genom **Shopify utbetalningar** när en kund betalar med Shopify betalningar och snabbkassa.
 
@@ -38,7 +38,7 @@ För att granska alla utbetalningar väljer du ikonen med ![glödlampan som öpp
 
 **Utbetalningar** är endast avsedda som information och påverkar inte redovisningen eller bank redovisningen, men de kan vara användbara när du behandlar ditt bankkonto utdrag.
 
-## <a name="payment-method-mapping" />Mappning av betalningssätt
+## Mappning av betalningssätt
 
 För att fylla i **Kod för betalningssätt** för försäljningsdokument som importerats från Shopify automatiskt måste du konfigurera **Mattning av betalningssätt**.
 
@@ -52,7 +52,7 @@ För att fylla i **Kod för betalningssätt** för försäljningsdokument som im
 > [!NOTE]  
 > Om motsvarande betalningsmetod i [!INCLUDE[prod_short](../includes/prod_short.md)] har **Balanskontotyp** och **Balanskontotyp** fylls i, då kommer fakturasystemet under bokföringen att skapa en balanseringspost av typen *Betalning* och ansluta den till typen *Faktura* i kundreskontra transaktionen.
 
-## <a name="use-cases" />Användningsfall
+## Användningsfall
   
 Parter:
 
@@ -60,7 +60,7 @@ Parter:
 * Handlare – ditt företag.
 * Betalningsförmedlare – företag som underlättar bearbetningen av betalningar. Kan vara Shopify Payments eller tredje part.
 
-### <a name="how-money-flows" />Hur pengar flödar
+### Hur pengar flödar
 
 Köparen köper varor i onlinebutiken. Det sista steget är att behandla betalning.
 
@@ -77,7 +77,7 @@ Beroende på vilken bank det gäller kan handlaren se den inkommande transaktion
 
 Det finns flera alternativ för hur du kan hantera betalningstransaktioner i [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Alternativ 1: Stäm av inkommande överföringar till bankkonto mot ursprungliga fakturor
+### Alternativ 1: Stäm av inkommande överföringar till bankkonto mot ursprungliga fakturor
   
 Handlare importerar försäljningsorder till [!INCLUDE[prod_short](../includes/prod_short.md)] och bokför utleverans och faktura.
 
@@ -90,7 +90,7 @@ Problem:
 1. Kan vara svårt om det finns flera fakturor (och kreditnotor), men en utbetalning från betalningsförmedlaren med ett klumpsumma.
 2. Beloppet matchar vanligen inte på grund av provision. Du kan använda betalningstolerans eller/och kassarabatter för att hantera avgifter.
 
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Alternativ 2: stämma av inkommande överföringar till bankkontot mot ett interimistiskt konto som representerar pengar hos betalningsförmedlaren
+### Alternativ 2: stämma av inkommande överföringar till bankkontot mot ett interimistiskt konto som representerar pengar hos betalningsförmedlaren
   
 Handlare importerar försäljningsorder till [!INCLUDE[prod_short](../includes/prod_short.md)] och bokför utleverans och faktura.
   
@@ -119,6 +119,6 @@ Problem:
 
 1. Du kan skapa flera redovisnings- eller bankkonton om du arbetar med flera betalningsförmedlare. Försäljningsorder i [!INCLUDE[prod_short](../includes/prod_short.md)] som endast stöder en betalningsmetodkod, vilket gör det svårt att hantera ärenden när en köpare använder flera betalningsmetoder för en order.
 
-## <a name="see-also" />Se även
+## Se även
 
 [Kom igång med kopplingen för Shopify](get-started.md)  

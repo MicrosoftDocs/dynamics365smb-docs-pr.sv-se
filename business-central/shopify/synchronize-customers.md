@@ -10,14 +10,14 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-customers" />Synkronisera kunder
+# Synkronisera kunder
 
 När en order importeras från Shopify är informationen om kunden väsentlig för ytterligare behandling av dokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finns två huvudalternativ och flera kombinationer:
 
 * Använd särskild kund för alla order.
 * Importera information om den faktiska kunden från Shopify. Det här alternativet är också tillgängligt när du exporterar kunder till Shopify från [!INCLUDE[prod_short](../includes/prod_short.md)] först.
 
-## <a name="important-settings-when-importing-customers-from-shopify" />Viktiga inställningar när du importerar kunder från Shopify
+## Viktiga inställningar när du importerar kunder från Shopify
 
 Antingen importerar du kunder från Shopify i bulk eller tillsammans med orderimporten. Du kan hantera processen med följande inställningar:
 
@@ -29,7 +29,7 @@ Antingen importerar du kunder från Shopify i bulk eller tillsammans med orderim
 |**Skapa okända kunder automatiskt**| Välj detta fält om du vill att kopplingen skapar saknade kunder när något av alternativen **Via e-post/telefon** eller **Genom faktureringsinfo** har valts i fältet **Kundmappningstyp**. En ny kund skapas med hjälp av importerade data och **Kod för kundmall** definierad på någon av sidorna **Shopify-butikskort** eller **Shopify-kundmall**. Observera att Shopify-kunden måste ha minst en adress. Order som skapats via Shopify POS försäljningskanal saknar ofta adressinformation. Om alternativet inte har aktiverats måste du skapa kunden manuellt och koppla den till Shopify-kunden.|
 |**Kod för kundmall**|Detta fält används tillsammans med **Skapa okända automatiskt**.<br>- Välj den standardmall som ska användas för automatiskt skapade kunder. Kontrollera att den valda mallen innehåller de obligatoriska fälten, till exempel **Gen. rörelsebokföringsmall**, **Kundbokföringsmall** och moms eller momsrelaterade fält.<br>- Du kan definiera mallar per land/region i sidan **Shopify-kundmallar**, vilket är användbart för korrekt momsberäkning. <br>- Läs mer i [Ställa in moms](setup-taxes.md).|
 
-### <a name="customer-template-per-country" />Kundmall per land
+### Kundmall per land
 
 Vissa inställningar kan definieras på lands-/regionnivå eller på läns-/provinsnivå. Inställningarna kan konfigureras i [Leverans](https://www.shopify.com/admin/settings/shipping) på Shopify.
 
@@ -43,7 +43,7 @@ Med **Shopify-kundmallen** kan du göra följande för varje kund:
 > [!NOTE]  
 > Landskoderna är ISO 3166-1 alpha-2 landskoder. Läs mer om [landskod](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## <a name="export-customers-to-shopify" />Exportera kunder till Shopify
+## Exportera kunder till Shopify
 
 Du kan exportera befintliga kunder till Shopify i bulk. I varje fall kommer en kund och en standardadress skapas. Med följande inställningar kan du hantera processer:
 
@@ -66,7 +66,7 @@ Följande krav gäller för export av en kund:
 
 När du har skapat kunderna i Shopify kan du skicka direkt inbjudningar till dem och på så vis uppmuntra dem att aktivera sina konton.
 
-### <a name="populate-customer-information-in-shopify" />Fylla i kundinformation i Shopify
+### Fylla i kundinformation i Shopify
 
 En kund i Shopify har förnamn, efternamn, e-post och/eller telefonnummer. Du kan ange förnamn och efternamn baserat på namn på kundkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -86,7 +86,7 @@ Det finns också en standardadress för en kund i Shopify. Adressen kan innehål
 För adresser där delstat/provins används väljer du **Kod** eller **Namn** i fältet **delstatskälla** på sidan **Shopify-butikskort**. Koden eller namnet anger vilken typ av data som lagras i [!INCLUDE[prod_short](../includes/prod_short.md)] i fältet **Delstat**. Kom ihåg att initiera kundmallar per land så att delstatskoden/namnmappningen är klar. 
 
 
-## <a name="sync-customers" />Synka kunder
+## Synka kunder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Shopify butik** och väljer sedan relaterad länk.
 2. Välj den specifika butik som du vill synkronisera kunder för.
@@ -96,6 +96,6 @@ Alternativt kan du använda åtgärden **Starta synkronisering av kunder** i fö
 
 Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Läs mer i [Schemalägg återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
-## <a name="see-also" />Se även
+## Se även
 
 [Kom igång med kopplingen för Shopify](get-started.md)  
