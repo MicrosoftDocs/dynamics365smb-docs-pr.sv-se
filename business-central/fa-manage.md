@@ -11,7 +11,7 @@ ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 563
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Hantera anläggningstillgångar
+# <a name="managing-fixed-assets" />Hantera anläggningstillgångar
 
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
 
@@ -41,15 +41,15 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | bokföra avyttringstransaktioner, visa avyttringstransaktioner och bokföra delvisa avyttringar. |[Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md) |
 | Hanter budgetar för anläggningstillgångar, budgeterar anskaffningskostnader, budgeterar avyttringar av anläggningstillgångar och budgeterar avskrivning. |[Hantera budgetar för anläggningstillgångar](fa-how-manage-budgets.md) |
 
-## Video: översikt
+## <a name="video-overview" />Video: översikt
 
 I följande video beskrivs grunderna för anläggningstillgångar.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Se relaterad [Microsoft utbildning](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Se relaterad [Microsoft utbildning](/training/paths/manage-fixed-assets-transactions/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
@@ -57,7 +57,7 @@ I följande video beskrivs grunderna för anläggningstillgångar.
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

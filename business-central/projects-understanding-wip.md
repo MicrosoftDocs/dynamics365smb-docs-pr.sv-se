@@ -11,7 +11,7 @@ ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Förstå PIA-metoder i projekthantering
+# <a name="understanding-wip-methods-in-project-management" />Förstå PIA-metoder i projekthantering
 
 Allt eftersom ett projekt fortlöper används material och resurser och de, och andra kostnader, måste bokföras i projektet. Produkter i arbete (PIA) är en funktion som gör att du kan uppskatta värdet i projektet i redovisningen medan projekten pågår. I många fall kan du bokföra kostnader för ett projekt innan du fakturerar projektet. Om endast kostnader bokförts blir er finansiella rapport oriktig.
 
@@ -27,9 +27,9 @@ Om du vill hålla reda på värdet i redovisningen kan du beräkna PIA (Produkte
 | Procent färdigställt |Bokförda kostnader = Förbrukning totalkostnad<br /><br /> Bokförd intäkt = Fakturerbart totalpris x Färdigställningsgrad<br /><br /> Färdigställningsgrad = Förbrukning totalkostnad/Budget totalkostnad<br /> (Sparas i mappen **Färdigställningsgrad %**-fält på projektaktivitetsrader)<br /><br /> PIA-försäljning = Bokförd försäljning – Fakturerbart fakturerat pris |Beräkningar av färdigställningsgrad bokför intäkter proportionellt baserat på färdigställningsgraden, det vill säga Förbrukning totalkostnad kontra budget kostnader.<br /><br /> Den här beräkningen kräver att fakturerbart totalpris och budget totalkostnader anges korrekt för hela projektet. |
 | Slutfört kontrakt |PIA-belopp = PIA-kostnadsbelopp = Förbrukning (totalkostnad)<br /><br /> PIA-försäljningsbelopp = Fakturerbart (Fakturerat pris) |Slutfört kontrakt bokför inte intäkter och kostnader förrän projektet är slutfört. Du kan vilja göra detta när det finns en stor osäkerhet kring uppskattningen av kostnader och intäkter för projektet.<br /><br /> All förbrukning bokförs på kontot för PIA-kostnader (tillgång) och all fakturerad försäljning bokförs på kontot för fakturerad PIA-försäljning (skuld) tills projektet är slutfört. |
 
-## Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Projekthantering](projects-manage-projects.md)  
 [Ekonomi](finance.md)  

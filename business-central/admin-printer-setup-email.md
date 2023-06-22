@@ -9,14 +9,14 @@ ms.topic: how-to
 ms.date: 01/26/2023
 ms.custom: bap-template
 ---
-# Konfigurera e-postutskrift
+# <a name="set-up-email-printers" />Konfigurera e-postutskrift
 
 I den här artikeln beskrivs hur du konfigurerar e-postaktiverad skrivare i [!INCLUDE[prod_short](includes/prod_short.md)]. Med dessa skrivare skickar [!INCLUDE[prod_short](includes/prod_short.md)] utskriftsjobben till skrivaren med hjälp av skrivarens e-postadress.
 
 > [!TIP]
 > Om du vill veta mer om andra skrivarmöjligheter går du till [Översikt över skrivarhanteringen](admin-printer-setup-overview.md). 
 
-## Förutsättningar
+## <a name="prerequisites" />Förutsättningar
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] utgivningscykel 1 år 2020 eller senare
 - Tillägget **Skicka till e-postskrivare** är installerat
@@ -26,7 +26,7 @@ I den här artikeln beskrivs hur du konfigurerar e-postaktiverad skrivare i [!IN
 
    Läs mer i [Ställa in e-post](admin-how-setup-email.md).
 
-## Lägg till en e-postskrivare
+## <a name="add-an-email-printer" />Lägg till en e-postskrivare
 
 På sidan **Utskriftshantering** kan du se vilka skrivare som är inställda. Sidan ger dig också åtkomst till sidan **Inställningar** för varje skrivare för att redigera en befintlig konfiguration eller ställa in en ny skrivare.
 
@@ -39,17 +39,17 @@ På sidan **Utskriftshantering** kan du se vilka skrivare som är inställda. Si
     >
     > Tänk på att tillägget för e-postskrivare är inställt på pappersformatet **A4**, vilket exempelvis inte lämpar sig för Nordamerika.
 
-## Sekretesspolicy
+## <a name="privacy-notice" />Sekretesspolicy
 
 Om du använder tillägget för e-postskrivare skickas alla eller vissa utskriftsjobb till den e-postadress som konfigurerats för skrivaren. Vi rekommenderar starkt att ett unikt e-transaktion-ID kopplas till en skrivarenhet endast med de officiella tjänster som tillhandahålls av maskinvarutillverkaren, till exempel HP ePrint, KonicaMinolta EveryonePrint eller Epson Email Print.
 
 Du måste vidta alla nödvändiga sekretessåtgärder, inklusive att se till lösningen för e-postutskrift har korrekt konfigurerade behörigheter, sekretessinställningar och lagringsmetoder. Det är ditt ansvar att skapa en korrekt, verifierad och fungerande e-postadress. Läs mer i [Microsofts sekretesspolicy](https://privacy.microsoft.com/privacystatement).
 
-## Nästa steg
+## <a name="next-steps" />Nästa steg
 
 [Ställa in standardskrivare](ui-specify-printer-selection-reports.md)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Översikt över skrivarhantering](admin-printer-setup-overview.md)  
 [Ställa in skrivare för Universell utskrift ](admin-printer-setup-universal-print.md)

@@ -14,11 +14,11 @@ ms.contentlocale: sv-SE
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605961"
 ---
-# <a name="switching-to-another-company-or-environment"></a>Byta till ett annat företag eller annan miljö
+# <a name="switching-to-another-company-or-environment" /><a name="switching-to-another-company-or-environment"></a>Byta till ett annat företag eller annan miljö
 
 [!INCLUDE [prod_short](includes/prod_short.md)] finns i många olika länder och stöder många olika typer av organisationer. Organisationen kan välja att organisera arbetet i [!INCLUDE [prod_short](includes/prod_short.md)] i flera *företag* och *miljöer*. I den här artikeln får du hjälp att förstå de viktigaste skillnaderna och hur du arbetar med dem.
 
-## <a name="about-companies-and-environments"></a>Om företag och miljöer
+## <a name="about-companies-and-environments" /><a name="about-companies-and-environments"></a>Om företag och miljöer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -30,7 +30,7 @@ ms.locfileid: "9605961"
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment"></a>Funktioner för att byta företag eller miljö
+## <a name="features-for-switching-company-or-environment" /><a name="features-for-switching-company-or-environment"></a>Funktioner för att byta företag eller miljö
 
 Det finns några funktioner som du kan använda för att byta företag eller miljö medan du arbetar. I följande tabell jämförs funktionens funktioner, som beskrivs närmare i de avsnitt som följer.
 
@@ -41,7 +41,7 @@ Det finns några funktioner som du kan använda för att byta företag eller mil
 |[Mina inställningar](#use-my-settings)|![bockmarkering](media/check.png "kontroll")|||![bock](media/check.png "kontroll")|
 |[Företagsnav](#use-company-hub)|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")||
 
-## <a name="use-the-company-switcher"></a>Använd företagsväxlaren
+## <a name="use-the-company-switcher" /><a name="use-the-company-switcher"></a>Använd företagsväxlaren
 
 Att använda företagsväxlaren är troligen det snabbaste och mest mångsidiga sättet att byta företag. Företagsväxlaren är en ruta som är lätt tillgänglig från valfri sida. I fönstret får du en översikt över alla företag i alla miljöer som du har tillgång till, och du kan växla direkt till någon av dem&mdash;antingen på samma flik i webbläsaren eller på en ny. Det är särskilt användbart när du arbetar i många företag i olika miljöer.
 
@@ -62,7 +62,7 @@ Att använda företagsväxlaren är troligen det snabbaste och mest mångsidiga 
 > [!TIP]
 > Tryck på F5 om du vill uppdatera listan över miljöer och företag.
 
-## <a name="use-the-app-launcher"></a>Använd appstartaren
+## <a name="use-the-app-launcher" /><a name="use-the-app-launcher"></a>Använd appstartaren
 
 När du har loggat in på [!INCLUDE[prod_short](includes/prod_short.md)] visas de miljöer som du har åtkomst till på startsidan för Office.com.  
 
@@ -78,7 +78,7 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## <a name="use-my-settings"></a>Använd Mina inställningar
+## <a name="use-my-settings" /><a name="use-my-settings"></a>Använd Mina inställningar
 
 När du är inloggad i [!INCLUDE[prod_short](includes/prod_short.md)] kan du snabbt byta till ett annat företag i samma miljö. När du har bytt blir det företag du väljer standardföretag och öppnas nästa gång du loggar in.
 
@@ -93,13 +93,13 @@ När du är inloggad i [!INCLUDE[prod_short](includes/prod_short.md)] kan du sna
 > [!TIP]
 > Ett bra sätt att gå direkt till standardföretaget när du loggar in, och att inte behöva ange en miljö, är att lägga till URL-adressen i listan med favoriter när du har loggat in.
 
-## <a name="use-company-hub"></a>Använd företagsnav
+## <a name="use-company-hub" /><a name="use-company-hub"></a>Använd företagsnav
 
 *Företagsnavet* är ett mycket specialiserat rollcenter som ger en ekonomisk översikt över företag och miljöer. Företagsnavet är tillgängligt som ett [tillägg](ui-extensions-company-hub.md) för att ge en instrumentpanel med sammanfattningsdata för varje företag som du har tillgång till. På hemsidan visas ekonomiska KPI:er samt en direkt länk till de enskilda miljöerna och företagen. Mer information finns i [Hantera arbete över flera företag i företagsnavet](company-hub.md).
 
 [![Visar företagsnavsidan som innehåller en lista över alla företag.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## <a name="see-also"></a>Se även
+## <a name="see-also" /><a name="see-also"></a>Se även
 
 [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  

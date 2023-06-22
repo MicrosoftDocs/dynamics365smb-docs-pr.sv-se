@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# Begränsa och tillåt användningen av en post
+# <a name="restrict-and-allow-usage-of-a-record" />Begränsa och tillåt användningen av en post
 
 Om du vill begränsa en post från att användas i vissa aktiviteter, till exempel tills posten har godkänts, kan du inkorporera två arbetsflödessvar i ett arbetsflöde som kontrollerar användningen av posten. Ett arbetsflödessvar ska begränsa användningen av posten enligt definitionen i arbetsflödeshändelsen och villkoren. Ett annat arbetsflödessvar ska tillåta användning av posten enligt definitionen i arbetsflödeshändelsen och villkoren. Det finns två svar i standard versionen av [!INCLUDE[prod_short](includes/prod_short.md)] för det här ändamålet: **Lägg till postbegränsning** och **Ta bort postbegränsning**.
 
@@ -22,7 +22,7 @@ Om du vill begränsa en post från att användas i vissa aktiviteter, till exemp
 
 Följande procedur beskriver hur du begränsar inköpsorder från att bokföras tills de har godkänts. Det nya arbetsflödet baseras på det befintliga mallen *Arbetsflöde för godkännande av inköpsfaktura*.  
 
-## Skapa ett arbetsflödessteg som begränsar bokföring av icke godkända inköpsorder
+## <a name="create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders" />Skapa ett arbetsflödessteg som begränsar bokföring av icke godkända inköpsorder
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. På sidan **Arbetsflöden** väljer du åtgärden **Nytt arbetsflöde från mall**. Läs mer på [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)
@@ -32,7 +32,7 @@ Följande procedur beskriver hur du begränsar inköpsorder från att bokföras 
 4. På snabbfliken **Arbetsflödessteg** väljer du fältet **På villkor** för första steget sedan för filtret **Dokumenttyp**, välj **Order**.  
 5. Fortsätt med att redigera, ta bort eller lägga till andra arbetsflödessteg så att de återspeglar en affärsprocess som börjar med att begränsa så att icke godkända inköpsorder bokförs.  
 
-## Se även
+## <a name="see-also" />Se även
 
 [Använda arbetsflöden för godkännande](across-use-workflows.md)  
 [Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  

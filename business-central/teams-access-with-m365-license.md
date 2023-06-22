@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# Få åtkomst till data i Teams utan Business Central-licens
+# <a name="access-data-in-teams-without-business-central-license" />Få åtkomst till data i Teams utan Business Central-licens
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-användare tilldelas en Dynamics 365 Business Central-licens som gör att de kan visa, ändra och arbeta med affärsdata från Teams. Dessa användare kan samarbeta med information genom att dela poster i chatt eller kanaler, eller lägga till flikar som visar poster. Det kan emellertid finnas andra anställda i organisationen som inte har en Business Central-licens, men som kan ha nytta av att kunna visa data i Teams. För dessa användare [!INCLUDE[prod_short](includes/prod_short.md)]ger den begränsade åtkomsten enbart via deras Microsoft 365-licenser.  
 
@@ -19,10 +19,10 @@ Som administratör kan du konfigurera miljöer för att aktivera åtkomst med  M
 
 Om du vill veta mer om åtkomst med Microsoft 365-licenser går du till [Business Central åtkomst med Microsoft 365-licenser](admin-access-with-m365-license.md) och [Vanliga frågor om åtkomst med Microsoft 365-licenser](admin-access-with-m365-license-faq.md).
 
-## Nästa steg
+## <a name="next-steps" />Nästa steg
 
 [Konfigurera Business Central Access i Teams med Microsoft 365-licenser](admin-access-with-m365-license-setup.md)  
 
-## Se även
+## <a name="see-also" />Se även
 
 [Felsöka åtkomst med Microsoft 365-licenser](admin-access-with-m365-license-troubleshooting.md)  

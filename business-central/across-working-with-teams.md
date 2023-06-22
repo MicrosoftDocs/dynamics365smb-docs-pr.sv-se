@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.custom: bap-template
 ---
 
-# Dela Business Central-poster och sidlänkar i Microsoft Teams
+# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams" />Dela Business Central-poster och sidlänkar i Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 [!INCLUDE [prod_short](includes/prod_short.md)] erbjuder ett par sätt att dela data från Business Central direkt i en Microsoft Teams konversation:
 
 <!-- 
-## Overview
+## <a name="overview" />Overview
 In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
 The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 [!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
@@ -36,13 +36,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 Följande avsnitt beskriver de olika sätten i detalj.
 
-## Inkludera och visa ett Business Central-kort i en Teams-konversation
+## <a name="include-and-view-a-business-central-card-in-a-teams-conversation" />Inkludera och visa ett Business Central-kort i en Teams-konversation
 
 Med Business Central-appen för Teams kan du kopiera en länk från valfri Business Central-post, till exempel en kund- eller försäljningsorder, och klistra in länken i en Teams-konversation. Appen ansluter Microsoft Teams till dina affärsdata i [!INCLUDE [prod_short](includes/prod_short.md)]\. Det utökar sedan länken ett kompakt, interaktivt kort som visar information om posten. När ni väl befinner er i konversationen kan du och dina medarbetare visa mer information om posten, redigera data och vidta åtgärder &mdash; utan att lämna Teams.
 
 [![Team-integrering med Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
-### Förutsättningar
+### <a name="prerequisites" />Förutsättningar
 
 - Du har tillgång till Microsoft Teams.
 - Du har installerat [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Team. Mer information finns i [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)
@@ -50,7 +50,7 @@ Med Business Central-appen för Teams kan du kopiera en länk från valfri Busin
 > [!NOTE]
 > Alla deltagare i en Team-konversation kommer att kunna se kort för Business Central-poster som du skickar till konversationen. Men för att visa mer information om poster med hjälp av knapparna **Detaljer** eller **Öppna** på ett kort, behöver de tillgång till [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Hantera Microsoft Teams-integrering](admin-teams-integration.md#minimum-requirements-1).
 
-### Ta med ett Business Central-kort i en Team-konversation
+### <a name="include-a-business-central-card-in-a-teams-conversation" />Ta med ett Business Central-kort i en Team-konversation
 
 1. Logga in på [!INCLUDE [prod_short](includes/prod_short.md)] genom webbläsaren.
 2. Öppna posten som du vill dela.
@@ -79,7 +79,7 @@ Med Business Central-appen för Teams kan du kopiera en länk från valfri Busin
     > När kortet visas och innan du väljer **Skicka** kan du ta bort den inklistrade URL:en om du vill.
 9. Om du vill visa mer information om eller ändra den post somvisas på kortet väljer du **Detaljer**. Mer information finns i nästa avsnitt.
 
-### Visa kortinformation
+### <a name="view-card-details" />Visa kortinformation
 
 När ett kort har skickats till en konversation kan alla deltagare med [rätt behörighet](admin-teams-integration.md#permissions) välja **Detaljer** för att öppna ett fönster som visar mer information om posten &mdash; och eventuellt ändra posten. Det spelar ingen roll om du är den som skickar kortet eller den som tar emot det. Funktionen **Detaljer** är särskilt användbar för mottagare eftersom den snabbt förser dem med koncis, riktad information om posten.
 
@@ -92,20 +92,20 @@ Här följer några saker som du bör tänka på när du arbetar med kortinforma
 
 Mer information om hur du arbetar med kort och kortinformation finns i [Vanliga frågor och svar om Teams](teams-faq.md).
 
-## <a name="share-link"></a>Dela en länk till sidan i Business Central till Teams
+## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Dela en länk till sidan i Business Central till Teams
 
 Direkt från de flesta samlingssidor, på samma sätt som på **Artiklar** sida och detaljsidor, som kort **Artiklar** du kan skicka en länk till sidan till specifika mottagare i en Teams-konversation. Du kan t.ex. dela en länk till en filtrerad vy över posterna. Mottagarna kan sedan markera länken så att sidan öppnas i [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!Menyn Dela visas på ett kort.](media/teams-share-link-v2.png "Menyn Dela visas på ett kort.")](media/teams-share-link-v2.png#lightbox)
 
-### Förutsättningar
+### <a name="prerequisites" />Förutsättningar
 
 - Du har tillgång till Microsoft Teams.
 - (Valfritt) Du har installerat [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. 
 
   Med appen installerad kommer även de meddelanden du skickar med länken att innehålla ett kompakt kort för sidan. Mer information om hur du installerar appen finns i [Installera appen [!INCLUDE [prod_short](includes/prod_short.md)] för Microsoft Teams](across-install-app-for-teams.md).
 
-### Dela en länk
+### <a name="share-a-link" />Dela en länk
 
 1. I [!INCLUDE [prod_short](includes/prod_short.md)]\, öppna sidan som du vill dela.
 2. Välj det du vill ha högst upp på sidan ![Åtgärden dela till andra program på sidor.](media/share-icon.png) sedan **dela med Teams**.
@@ -116,7 +116,7 @@ Direkt från de flesta samlingssidor, på samma sätt som på **Artiklar** sida 
    Lägg till mer information om du vill, välj sedan **Dela**.
 6. Länken har nu delats. Om du vill gå till konversationen väljer du **gå till Teams**.
 
-## Se även
+## <a name="see-also" />Se även
 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  
@@ -126,6 +126,6 @@ Direkt från de flesta samlingssidor, på samma sätt som på **Artiklar** sida 
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Konfigurera försäljning
+# <a name="setting-up-sales" />Konfigurera försäljning
 Innan du kan hantera försäljningsprocesser måste du konfigurera reglerna och värdena som definierar företagets försäljningspolicies.
 
 Du måste definiera de allmänna inställningarna på sidan **Försäljningsinställningar**, till exempel vilka försäljningsdokument som krävs, hur deras värden ska bokföras och vilken typ av rader som ska skapas som standard. Dessa allmänna inställningar görs vanligtvis bara en gång, under den initiala implementeringen.
@@ -33,9 +33,9 @@ Finansrelaterade försäljningar, till exempel betalningssätt och valutor, besk
 |Ange information om de olika transportleverantörerna som du använder, bland annat en länk till deras godsupplysningstjänst.|[Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

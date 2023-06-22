@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: mikebc
 ---
 
-# Aktivera Nya och kommande funktioner i förväg
+# <a name="enabling-new-and-upcoming-features-ahead-of-time" />Aktivera Nya och kommande funktioner i förväg
 
 En del nya funktioner kan aktiveras i förväg så att du kan dra nytta av dem så tidigt som möjligt. Aktivering av funktioner tidigt ger dig tid att testa och förbereda organisationen för ändring.
 
@@ -17,9 +17,9 @@ När Microsoft släpper funktioner eller funktioner för funktionsdesign som en 
 
 Läs mer om [funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## Se relaterad [Microsoft utbildning](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/admin-online-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Nya och planerade funktioner](/dynamics365-release-plan/2021wave1/)  
 

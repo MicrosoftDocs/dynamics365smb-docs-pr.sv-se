@@ -8,17 +8,17 @@ ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# Ekonomisk rapportering och analys i Business Central
+# <a name="financial-reports-and-analytics-in-business-central" />Ekonomisk rapportering och analys i Business Central
 
 Financial reporting i [!INCLUDE [prod_short](includes/prod_short.md)] gör det möjligt för finans- och affärspersoner att skapa, underhålla, distribuera och visa finansiella rapporter. Ger mer än traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter. [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera olika rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen. Financial reporting inkluderar stöd för dimensioner, varför kontosegment eller dimensioner blir omedelbart tillgängliga. Inga andra verktyg och inga andra konfigurationssteg krävs.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Rapporter
+## <a name="reports" />Rapporter
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Uppgifter
+## <a name="tasks" />Uppgifter
 
 I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
 
@@ -30,9 +30,9 @@ I följande artiklar beskrivs några av de viktigaste uppgifterna för att analy
 * [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Hantera åtkomstmetod för databas](admin-data-access-intent.md)  
 
-## Se relaterad [Microsoft utbildning](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Skapa kostnadsbudgetar](finance-create-cost-budgets.md)  
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  

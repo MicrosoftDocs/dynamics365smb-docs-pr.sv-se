@@ -12,7 +12,7 @@ ms.date: 05/19/2021
 ms.author: bholtorf
 ---
 
-# Tillägget Image Analyzer
+# <a name="the-image-analyzer-extension" />Tillägget Image Analyzer
 
 Tillägget Image Analyzer använder kraftfulla bildanalyser från Computer Vision API för Azure Cognitive Services för att identifiera attribut i bilder du importerar för artiklar och kontaktpersoner, så att du lätt kan gå igenom och tilldela dem. För artiklar, kan attribut vara om artikel är en tabell eller en bil eller om den är röd eller blå. För kontaktpersoner kan attribut vara kön och ålder.
 
@@ -22,11 +22,11 @@ Image Analyzer är gratis [!INCLUDE[prod_short](includes/prod_short.md)], men de
 
 När du har aktiverat tillägget körs Image Analyzer när du importerar en bild till en artikel eller kontaktperson. Du ser de attribut och konfidensnivå och information direkt och bestämmer vad du vill göra med varje attribut. Om du har importerat bilder innan du valde tillägget Image Analyzer måste du gå till artikel- eller kontaktkorten och välja åtgärd **analysera bild**.  
 
-## Sekretesspolicy
+## <a name="privacy-notice" />Sekretesspolicy
 
 Det här tillägget använder API för visuellt innehåll från Azure Cognitive Services, som kan ha olika nivåer av att åtaganden än [!INCLUDE[prod_short](includes/prod_short.md)]. När du aktiverar tillägget Image Analyzer skickas kunddata som till exempel en kontaktbild eller en artikelbild till API för visuellt innehåll. Genom att installera det här tillägget godkänner för denna uppsättning data som ska skickas till API för visuellt innehåll. Observera att du kan inaktivera samt avinstallera tillägget Image Analyzer när som helst för att avbryta användningen av funktionen. Mer information finns i [Microsoft säkerhetscenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## Krav
+## <a name="requirements" />Krav
 
 Det finns några krav för bilder:
 
@@ -34,7 +34,7 @@ Det finns några krav för bilder:
 * Maximal filstorlek: mindre än 4 MB  
 * Bilddimensioner: större än 50 x 50 bildpunkter  
 
-## Aktivera tillägget Image Analyzer
+## <a name="switch-on-the-image-analyzer-extension" />Aktivera tillägget Image Analyzer
 
 Tillägget Image Analyzer är inbyggt i [!INCLUDE[prod_short](includes/prod_short.md)]. Du måste aktivera den.
 
@@ -49,7 +49,7 @@ Om du vill aktivera tillägget Image Analyzer, gör du något av följande:
     > [!TIP]  
     > Sidan **inställningar för analys av bilden** låter dig också öppna där du kan ändra graden av säkerhet för attributförslag. Om du till exempel kräver en högre grad av säkerhet anger du en högre procentandel.
 
-## Analysera en artikelbild
+## <a name="analyze-an-item-image" />Analysera en artikelbild
 
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
 
@@ -69,7 +69,7 @@ Fältet **Åtgärd att utföra** har följande alternativ:
 > [!NOTE]  
 > Som standard visar **Artikelattribut** attribut där **Förtroendepoäng** är över **Förtroendepoängtröskel i procent** som definierats i **Bildanalysinställningar**. Om du vill visa alla identifierade attribut väljer du åtgärden **Visa alla attribut**.
 
-## Analysera en kontaktpersonsbild
+## <a name="analyze-a-contact-person-picture" />Analysera en kontaktpersonsbild
 
 Följande steg beskriver hur du analyserar en bild som har hämtats innan du valde Image Analyzer-tillägget.  
 
@@ -90,7 +90,7 @@ Följande steg beskriver hur du analyserar en bild som har hämtats innan du val
     >
     > Computer Vision API returnerar inte förtroendenivå för ålders- och könsattribut.
   
-## Använda ditt konto för Computer Vision API
+## <a name="use-your-own-computer-vision-api-account" />Använda ditt konto för Computer Vision API
 
 Använd även ditt eget konto för Computer Vision API, till exempel om du vill analysera mer bilder än vad standardintegreringen erbjuder.
 
@@ -100,21 +100,21 @@ Använd även ditt eget konto för Computer Vision API, till exempel om du vill 
     > [!NOTE]  
     > Du måste lägga till **/analysera** i slutet av API-URI, om den inte redan finns där. Till exempel: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## Se hur många analyser som du har kvar i den aktuella perioden
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period" />Se hur många analyser som du har kvar i den aktuella perioden
 
 Du kan visa antalet analyser som du har gjort och hur många du ändå kan göra, under den aktuella perioden.  
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för bildanalys** och väljer sedan relaterad länk.
 2. **Gränstyp**, **Gränsvärde**, och **Utförda analyser** ger användarinformation.  
 
-## Sluta använda tillägget Image Analyzer
+## <a name="stop-using-the-image-analyzer-extension" />Sluta använda tillägget Image Analyzer
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceanslutningar** och väljer sedan **Bildanalysinställningar**.  
 2. Avmarkera fältet **Aktivera Image Analyzer**.  
 
 Du kan också avinstallera tillägget helt. Du kan alltid hämta det igen från AppSource. Mer information finns i [Installera och avinstallera tillägg i Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## Se även
+## <a name="see-also" />Se även
 
 [Arbeta med artikelattribut](inventory-how-work-item-attributes.md)  
 [Kategorisera artiklar](inventory-how-categorize-items.md)  

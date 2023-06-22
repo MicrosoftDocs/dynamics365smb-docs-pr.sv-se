@@ -10,11 +10,11 @@ ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Överföra, dela eller kombinera anläggningstillgångar
+# <a name="transfer-split-or-combine-fixed-assets" />Överföra, dela eller kombinera anläggningstillgångar
 
 Du kan använda grupperingsjournalen för anläggningstillgångar när du överför, delar upp och slår ihop anläggningstillgångar. Du visar eller skriver ut resultatet av grupperingen av anläggningstillgångar med rapporten **Anl. – bokföringsvärde 02**.
 
-## Om du vill överföra en anläggningstillgång till en annan avdelning
+## <a name="to-transfer-a-fixed-asset-to-a-different-department" />Om du vill överföra en anläggningstillgång till en annan avdelning
 
 Du kan behöva överföra en anläggningstillgång till en annan avdelning, du till exempel placerar en tillgång i produktionsavdelningen när den är under utveckling och sedan flyttar den till administrationsavdelningen när den är färdig.  
 
@@ -30,7 +30,7 @@ Du kan behöva överföra en anläggningstillgång till en annan avdelning, du t
 
 Om du har bokfört en anskaffningskostnad för en tillgång kan du använda grupperingsjournalen för anläggningstillgångar när du vill dela upp anskaffningskostnaden på flera tillgångar.  
 
-## Om du vill dela en anläggningstillgång i tre anläggningstillgångar
+## <a name="to-split-a-fixed-asset-into-three-fixed-assets" />Om du vill dela en anläggningstillgång i tre anläggningstillgångar
 Du kan dela upp en anläggningstillgång till åtskilliga anläggningstillgångar, till exempel när du vill fördela en anläggningstillgång till tre olika avdelningar. Du kan till exempel flytta 25 % av anskaffningskostnaden och avskrivningskostnaden för den ursprungliga anläggningstillgången till en andra anläggningstillgång och 45 % till en tredje tillgång. De återstående 30 % kvarstår på den ursprungliga anläggningstillgången.
 
 1. Skapa två nya anläggningstillgången. Ange relevanta avdelningar som dimensioner.  
@@ -46,7 +46,7 @@ Du kan dela upp en anläggningstillgång till åtskilliga anläggningstillgånga
 9. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Redovisningsjournaler för anl.tillg.** och väljer sedan relaterad länk.
 10. På sidan **Anl.tillg. redovisningsjournal** väljer du åtgärden **Bokför** för att bokföra grupperingen som du utförde i steg 4 och 8.
 
-## Om du vill kombinera flera anläggningstillgångar till en
+## <a name="to-combine-two-fixed-assets-into-one" />Om du vill kombinera flera anläggningstillgångar till en
 
 Du kan kombinera flera anläggningstillgångar till en anläggningstillgång, till exempel när du vill flytta distribuerade anläggningstillgångar till en avdelning. Om du har bokfört anskaffningskostnader och avskrivning anläggningstillgång som ska flyttas, kombineras dessa värden i en enda anläggningstillgång.
 
@@ -60,15 +60,15 @@ Du kan kombinera flera anläggningstillgångar till en anläggningstillgång, ti
 6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.tillg. redovisningsjournaler** och väljer sedan relaterad länk.
 7. På sidan **Anl.tillg. redovisningsjournal** väljer du åtgärden **Bokför** för att bokföra grupperingen som du utförde i steg 2 och 5.
 
-## Så här visar du ändrade avskrivningsregelvärden som beror på gruppering av anläggningstillgångar
+## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification" />Så här visar du ändrade avskrivningsregelvärden som beror på gruppering av anläggningstillgångar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsvärde 02 för anläggningstillgång** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Se relaterad [Microsoft utbildning](/training/paths/reclassify-fixed-assets/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  

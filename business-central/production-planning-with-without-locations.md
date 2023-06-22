@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: edupont
 ---
-# Planera med och utan lagerställen.
+# <a name="planning-with-or-without-locations" />Planera med och utan lagerställen.
 
 Innan du börjar använda planeringsmotorn bör du bestämma dig för om du ska använda platser eller inte. Det finns två huvudsakliga enkla sätt:
 
 * behovsraderna alltid har lagerställekoder och systemet helt och hållet använder lagerställeenheter, inklusive den relevanta lagerställekonfigurationen. Lära dig mer på [behov vid lagerställe](#demand-at-location).  
 * behovsraderna förses aldrig med lagerställekoder och systemet använder artikelkortet. Se scenariot [behov på "tomt lagerställe"](#demand-at-blank-location) nedan.
 
-## Behov vid lagerställe  
+## <a name="demand-at-location" />Behov vid lagerställe
 
 När planeringssystemet identifierar behov vid ett lagerställe (en rad med en lagerställekod) reagerar det på olika sätt beroende på 2 viktiga konfigurationsvärden.  
 
@@ -53,7 +53,7 @@ Se variationerna i [scenarierna nedan](#scenarios).
 >
 > Du kan också definiera detta för en viss lagerställeenhet genom att välja en annan lagerställekod i fältet **Komponenter på lagerställe** på lagerställeenhetskortet. Observera dock att detta sällan har någon betydelse eftersom planeringslogiken kan komma att förvridas när du planerar för komponenten Lagerställeenhet.
 
-## Efterfrågan vid "tomt lagerställe"
+## <a name="demand-at-blank-location" />Efterfrågan vid "tomt lagerställe"
 
 I allmänhet planeras artikeln enligt planerings parametrarna på artikelkortet när ett behov identifieras på en tom plats (en rad utan lagerställekod) i planeringssystemet.
 
@@ -63,75 +63,75 @@ Fältet **Lagerställen obligatoriska** på sidan **Lagerinställningar** samt f
 * En lagerställeenhet finns för den planerade artikeln.
 * Fältet **Lagerställe ska finnas** är markerat.
 
-## Scenarierna
+## <a name="scenarios" />Scenarierna
 
 Se variationerna i inställningsscenarierna nedan.
 
-### Konfiguration 1
+### <a name="setup-" />Konfiguration 1
 
 * Lagerställe ska finnas = *Ja*  
 * Lagerställeenheten är inställd på *VÄST*  
 * Komponent vid lagerställe = *ÖST*  
 
-#### Fall 1.1: Behov finns vid lagerställe *VÄST*
+#### <a name="case--demand-is-at-west-location" />Fall 1.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras enligt planeringsparametrarna på kortet för lagerställeenheten (inklusive möjlig överföring).
 
-#### Fall 1.2: Behov finns vid lagerställe *ÖST*
+#### <a name="case--demand-is-at-east-location" />Fall 1.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
-#### Fall 1.3: Behov finns vid lagerställe *NORR*
+#### <a name="case--demand-is-at-north-location" />Fall 1.3: Behov finns vid lagerställe *NORR*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### Fall 1.4: Behov finns vid lagerställe *TOM*
+#### <a name="case--demand-is-at-blank-location" />Fall 1.4: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-### Konfiguration 2
+### <a name="setup-" />Konfiguration 2
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komponent vid lagerställe = *ÖST*  
 
-#### Fall 2.1: Behov finns vid lagerställe *VÄST*
+#### <a name="case--demand-is-at-west-location" />Fall 2.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### Fall 2.2: Behov finns vid lagerställe *ÖST*
+#### <a name="case--demand-is-at-east-location" />Fall 2.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
 
-### Konfiguration 3
+### <a name="setup-" />Konfiguration 3
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komponent vid lagerställe = *ÖST*  
 
-#### Fall 3.1: Behov finns vid lagerställe *VÄST*
+#### <a name="case--demand-is-at-west-location" />Fall 3.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### Fall 3.2: Behov finns vid lagerställe *ÖST*
+#### <a name="case--demand-is-at-east-location" />Fall 3.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
 
-#### Fall 3.3: Behov finns vid lagerställe *TOM*
+#### <a name="case--demand-is-at-blank-location" />Fall 3.3: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-### Konfiguration 4
+### <a name="setup-" />Konfiguration 4
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komp. vid lagerställe = *TOM*  
 
-#### Fall 4.1: Behov finns vid lagerställe *ÖST*
+#### <a name="case--demand-is-at-east-location" />Fall 4.1: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### Fall 4.2: Behov finns vid lagerställe *TOM*
+#### <a name="case--demand-is-at-blank-location" />Fall 4.2: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
@@ -139,9 +139,9 @@ Som du ser i det sista scenariet, går det bara att korrigera resultat från en 
 
 Om du ofta planerar för behov på olika lagerställen rekommenderar vi därför att du använder funktionen Lagerställeenheter.
 
-## Se relaterad utbildning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Se relaterad utbildning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
-## Se även
+## <a name="see-also" />Se även
 
 [Planerad](production-planning.md)  
 [Konfigurera produktion](production-configure-production-processes.md)  

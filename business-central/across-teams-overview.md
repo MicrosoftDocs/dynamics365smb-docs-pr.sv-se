@@ -11,7 +11,7 @@ ms.date: 09/22/2022
 ms.custom: bap-template
 ---
 
-# Business Central- och Microsoft Teams-integrering
+# <a name="business-central-and-microsoft-teams-integration" />Business Central- och Microsoft Teams-integrering
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,11 +19,11 @@ ms.custom: bap-template
 
 Appen är tillgänglig på Team-marknaden, och du kan använda den med appen Team för stationära enheter, mobilapp eller webben.
 
-## Funktionsöversikt
+## <a name="features-overview" />Funktionsöversikt
 
 I [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Teams finns följande funktioner.
 
-### Slå upp information om kunder, leverantörer och andra kontakter
+### <a name="look-up-details-of-customers-vendors-and-other-contacts" />Slå upp information om kunder, leverantörer och andra kontakter
 
 Oavsett var du arbetar i Teams kan du söka efter information om kunder, leverantörer och andra [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter. Med den här funktionen kan du inte visa allmän information om kontakter, utan även åtkomst till interaktionshistorik, relaterade dokument med mera.
 
@@ -35,7 +35,7 @@ Du kan också dela kontaktinformation i en konversation. Därifrån har deltagar
 
 Mer information finns i [Söka efter kontakter från Microsoft Teams](across-search-contacts-teams.md).
 
-### Dela poster i konversationer
+### <a name="share-records-in-conversations" />Dela poster i konversationer
 
 Kopiera en länk till en Business Central-post och klistra in den i en Team-konversation så att den kan delas med dina medarbetare. Appen kommer sedan att utöka länken till ett kompakt, interaktivt kort som visar information om posten.
 
@@ -45,7 +45,7 @@ När du har gått igenom konversationen kan du och dina medarbetare visa mer inf
 
 Mer information finns i [Dela poster i Microsoft Teams](across-working-with-teams.md).
 
-### Dela länkar från sidor i Business Central till Teams
+### <a name="share-links-from-pages-in-business-central-to-teams" />Dela länkar från sidor i Business Central till Teams
 
 Direkt från de flesta samlings-och informations sidor i Business Central kan du använda åtgärden **dela till Teams** från ![Ikonen Dela meny på sidorna](media/share-icon.png "Menyn Dela visas på ett kort."). Ikon för att skriva ett meddelande, välja mottagare, till exempel gruppmedlemmar, grupper eller kanaler, och skicka meddelandet med en länk och till Business Central-sidan.
 
@@ -55,7 +55,7 @@ Direkt från de flesta samlings-och informations sidor i Business Central kan du
 
 Mer information finns i [Dela poster och sidlänkar i Microsoft Teams](across-working-with-teams.md#share-link).
 
-### Lägg till fliken Business Central i Teams-kanal eller chatt
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat" />Lägg till fliken Business Central i Teams-kanal eller chatt
 
 Med Business Central-appen för Teams installerad kan du lägga till en flik i en kanal eller chatta visar Business Central data från listor och kortsidor.
 
@@ -63,7 +63,7 @@ Med Business Central-appen för Teams installerad kan du lägga till en flik i e
 
 Mer information finns i [Lägg till fliken Business Central i Teams](across-teams-tab.md).
 
-## Kom igång
+## <a name="get-started" />Kom igång
 
 1. Ett [!INCLUDE [prod_short](includes/prod_short.md)] online användarkonto krävs för [!INCLUDE [prod_short](includes/prod_short.md)]-app för Teams.
 
@@ -76,14 +76,14 @@ Mer information finns i [Lägg till fliken Business Central i Teams](across-team
 3. Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen in Team. Se [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md).
 4. När du har installerat appen är du klar att sätta igång. Se [Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams](across-search-contacts-teams.md) och [Dela poster i Microsoft Teams](across-working-with-teams.md).
 
-## Se även
+## <a name="see-also" />Se även
 
 [Vanliga frågor och Svar om Teams](teams-faq.md)  
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 [Ändra företag och andra inställningar i Teams](across-teams-settings.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

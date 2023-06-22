@@ -10,18 +10,18 @@ ms.search.form: '99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 990
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Så här visar du beläggning på produktions- och maskingrupper
+# <a name="view-load-on-work-and-machine-centers" />Så här visar du beläggning på produktions- och maskingrupper
 
 På sidorna **produktionsgruppkort** och **maskingruppkort** kan du se beläggningen på fabriken till följd av planerade och släppta produktionsorder.  
 
-## Så här visar du produktionsgruppsbeläggningen
+## <a name="to-view-the-load-on-work-centers" />Så här visar du produktionsgruppsbeläggningen
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.  
 2. Öppna relevant **produktionsgrupp**kort i listan och klicka på åtgärden **beläggning**.  
 
 Använd fälten **Visa efter** och **Visa som** på snabbfliken **Alternativ** för att välja lämplig period.  
 
-## Se även  
+## <a name="see-also" />Se även
 [Produktion](production-manage-manufacturing.md)
 [Konfigurera produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)  

@@ -11,14 +11,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 01/21/2022
 ms.author: edupont
 ---
-# Ställa in eller ändra kontoplanen
+# <a name="set-up-or-change-the-chart-of-accounts" />Ställa in eller ändra kontoplanen
 
 Kontoplanen visar huvudbokskontona som lagrar dina ekonomiska data. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet. Du kan dock ändra standardkontona och du kan lägga till nya konton.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Lägga till eller ändra konton
+## <a name="add-or-change-accounts" />Lägga till eller ändra konton
 
 Från kontoplanen kan du öppna varje redovisningskonto och lägga till eller ändra inställningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ För konton av typen **Summa** måste fältet **Summeringsintervall** fyllas i. 
 > [!IMPORTANT]
 > Om du har angett definitioner i fälten **Summeringsintervall** för konton av typen **Till-summa** innan indragsfunktionen används, måste du ange dessa igen eftersom värdena i alla **Till-summa**-fält skrivs över med funktionen.
 
-## Ta bort konton
+## <a name="delete-accounts" />Ta bort konton
 
 Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande förutsättningar gälla:  
 
@@ -39,7 +39,7 @@ Du kan ta bort ett redovisningskonto. Men om du tar bort det, måste följande f
 
 [!INCLUDE[prod_short](includes/prod_short.md)] förhindrar dig från att ta bort ett redovisningskonto som lagrar data som behövs i kontoplanen.  
 
-## Spärra borttagning av redovisningskonton
+## <a name="block-deletion-of-gl-accounts" />Spärra borttagning av redovisningskonton
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -49,9 +49,9 @@ Ett nytt fält, **Spärra radering av redovisningskonton**, har lagts till på s
 
 Att ställa in fältet **Blockera borttagning av redovisningskonton** på *Ja* kan anses vara bästa praxis, och så även att ställa in datumet i fältet **Kontrollera borttagning av redovisningskonto efter** på till exempel det datum efter vilket du måste lagra dina finansdata.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Huvudbok och kontolista](finance-general-ledger.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
@@ -65,6 +65,6 @@ Att ställa in fältet **Blockera borttagning av redovisningskonton** på *Ja* k
 [Ställ in och stäng resultaträkningssaldon i spanska versionen](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Indrag och validera kontoplanen i den spanska versionen](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

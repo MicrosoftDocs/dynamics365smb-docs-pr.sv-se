@@ -11,7 +11,7 @@ ms.search.form: '43, 48, 9301'
 ms.date: 09/01/2022
 ms.author: edupont
 ---
-# Fakturaförsäljning
+# <a name="invoice-sales" />Fakturaförsäljning
 
 Du kan vanligtvis skapa antingen en försäljningsorder eller försäljningsfaktura för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.  
 
@@ -25,7 +25,7 @@ I alla andra situationer fungerar försäljningsorder och försäljningsfakturor
 
 Du kan förhandla med kunden genom att först skapa förs.offerter, som du kan omvandla till en försäljningsfaktura när du instämmer om försäljningen. Se mer i [Gör försäljningsofferter](sales-how-make-offers.md).
 
-## Skapa försäljningsfakturor
+## <a name="create-sales-invoices" />Skapa försäljningsfakturor
 
 Om kunden bestämmer sig att köpa kan du bokföra fakturan för att skapa relaterade kvantitet- och värdetransaktioner. När du bokför försäljningsfakturan, kan du också e-posta den som en PDF-bilaga. Du kan använda ifylld e-postbrödtext med en sammanfattning av fakturan och betalningsinformationen, till exempel en länk till PayPal. Läs mer på [Skicka dokument via e-post](ui-how-send-documents-email.md). När kunden sedan betalar fakturan, kan du registrera den betalningen på olika sätt, beroende på storlek och önskade arbetsflöden för din organisation. Läs mer i avsnittet [registrera betalningar](#registering-payments).  
 
@@ -33,7 +33,7 @@ Artikelkort kan vara av typen **Lager**, **Service**, eller **Inte i lager** fö
 
 Du kan fylla i kundfälten på försäljningsfakturan på ett av två sätt, beroende på om kunden redan har registrerats. Se steg 2 i följande procedur.
 
-### Så här skapar du en försäljningsfaktura
+### <a name="to-create-a-sales-invoice" />Så här skapar du en försäljningsfaktura
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 2. Ange namnet på en befintlig kund i fältet **Kund**. Om kunden däremot är ny och därför inte registrerad, följer du dessa steg för att fylla i standard kundinformationen på sidan **försäljningsfaktura**.
@@ -88,11 +88,11 @@ Dialogrutan **Bokför och skicka bekräftelse** visar kundens standardmetod för
 
 Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljningsfakturan matas ut som ett PDF-dokument. Försäljningsfakturan tas bort från listan över försäljningsfakturor och ersätts med ett nytt dokument i listan över bokförda försäljningsfakturor.  
 
-### Beräkna fakturarabatter på försäljning
+### <a name="calculating-invoice-discounts-on-sales" />Beräkna fakturarabatter på försäljning
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## Bokförda fakturor
+## <a name="posted-invoices" />Bokförda fakturor
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -100,7 +100,7 @@ Det är enkelt att korrigera eller annullera en bokförd försäljningsfaktura, 
 
 [Öppna listan **bokförda försäljningsfakturor**](https://businesscentral.dynamics.com/?page=143) i [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Registrera betalningar
+## <a name="registering-payments" />Registrera betalningar
 
 Beroende på ditt företagsbehov kan du få betalt och registrera den betalningen på olika sätt: manuellt, automatiskt eller via betalningstjänster.  
 
@@ -115,13 +115,13 @@ Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom a
 > [!TIP]
 > Om du vill skicka påminnelser om förfallna betalningar måste du först ange nivåer och villkor för betalningspåminnelser. Läs mer i [Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md).  
 
-## Externa dokumentnummer
+## <a name="external-document-numbers" />Externa dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/index).
 
-## Se även
+## <a name="see-also" />Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

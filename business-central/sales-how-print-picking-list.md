@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Skriv ut plocklistan
+# <a name="print-the-picking-list" />Skriv ut plocklistan
 
 Du kan skriva ut en lagerplockningslista direkt från en försäljningsorder och andra dokument som inleder leverans av varor.
 
 Den här rapporten används vanligtvis i företag utan dedikerad funktionalitet för Warehouse Management, så att en lager arbetare kan visa eller skriva ut plocklistan från det relaterade försäljningsdokumentet. I företag med högre volym eller mer komplexa processer planeras och utförs leverans och plockning i dedikerade distributionslagerdokument. Läs mer i [Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md).
 
-## För att skriva ut en plockningslista från en försäljningsorder
+## <a name="to-print-a-picking-list-from-a-sales-order" />För att skriva ut en plockningslista från en försäljningsorder
 
 Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla andra dokument som kan användas för att initiera leverans av artiklar, såsom överföringsorder.
 
@@ -30,7 +30,7 @@ Du kan också spara plockningslistan som ett dokument, t. ex. skicka till någon
 > [!NOTE]
 > Om du använde funktionen **Expandera struktur** på försäljningsordern visas bara komponenterna för den relaterade monteringsartikeln i rapporten. Mer information finns i [Arbeta med strukturer](inventory-how-work-BOMs.md).
 
-## Se även
+## <a name="see-also" />Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# Designdetaljer för program
+# <a name="application-design-details" />Designdetaljer för program
 
 Artiklarna i detta avsnitt innehåller detaljerad teknisk information om komplexa programfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Designdetaljinnehåll är avsett för genomförare, utvecklare och super users, 
 |Lär dig mer om historisk och aktuella utformning av artikelspårningfunktionen och hur den integreras med reservationssystemet för ta med serie-/partinummer i dispositionsberäkningarna.|[Designdetaljer: Artikelkoppling](design-details-item-tracking.md)|  
 |Lära dig mer om funktionen för bokföringsrad för redovisningsjournal.|[Designdetaljer: Bokföring av rad i redovisningsjournalen](design-details-general-journal-post-line.md)|
 
-## Se även
+## <a name="see-also" />Se även
 
 [Planerad](production-planning.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
@@ -34,4 +34,4 @@ Designdetaljinnehåll är avsett för genomförare, utvecklare och super users, 
 [Ställa in komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]

@@ -11,7 +11,7 @@ ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# Skapa analysrapporter
+# <a name="create-analysis-reports" />Skapa analysrapporter
 
 Försäljningschefer behöver regelbundet analysera omsättning, bruttovinst och andra viktiga indikatorer på försäljningen. Inköpare är mer intresserade av dynamiken i inköpsvolymer, leverantörens kapacitet och inköpspriser. Logistik- och lagerchefer behöver i sin tur information om lageromsättning, analyser av lagerrörelser och statistik över lagervärdet. Därför finns det ingen analysrapport som passar alla.
 
@@ -23,7 +23,7 @@ Analysrapporten består av de objekt du vill analysera (till exempel kunder, kun
 
 Förutom analysrapporter kan du skapa och visa liknande information i analysvyer (baserade på dimensioner). Läs mer i [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md).
 
-## Exempel
+## <a name="example" />Exempel
 
 Du kan lägga upp dessa rader (objekt som du vill analysera):  
 
@@ -37,7 +37,7 @@ Sedan kan du skapa dessa kolumner (hur du vill att objekten ska analyseras):
 - Försäljning förra månaden  
 - Försäljning i procent av förra månaden  
 
-## Lägga upp rad- och kolumnlayouter
+## <a name="setting-up-line-and-column-layouts" />Lägga upp rad- och kolumnlayouter
 
 På sidan **Analysrapport** kan du visa olika rad- och kolumnlayouter som du konfigurerar på:
 
@@ -57,7 +57,7 @@ Baserat på de rader och kolumner du har lagt upp sammanställer [!INCLUDE[prod_
 
 Du kan till exempel lägga upp en grupp rader och flera grupper kolumnlayouter om du vill visa månadsrapporter respektive årsrapporter.
 
-## Skapa analyskolumnmallar
+## <a name="set-up-analysis-column-templates" />Skapa analyskolumnmallar
 
 Följande procedur är baserad på analysvyer för försäljning. Momentet är liknande för inköp och analysvyer.
 
@@ -74,7 +74,7 @@ En analyskolumnmall innehåller en uppsättning rader, där var och en represent
     Om du i fältet **Transaktionstyp** väljer **Artikeltransaktion** kopieras de faktiska värdena från artikeltransaktionen. Om du väljer **Artikelbudgettransaktioner** kopieras de budgeterade siffrorna från budgeten.  
 5. Välj **OK** om du vill spara ändringarna.  
 
-## Skapa analysradmallar
+## <a name="set-up-analysis-line-templates" />Skapa analysradmallar
 
 Följande procedur är baserad på en analysrapport för försäljning. Momentet är liknande för inköp och analysrapporter.
 
@@ -88,7 +88,7 @@ En analysradmall innehåller en uppsättning rader, där var och en representera
 > [!NOTE]  
 > För att skapa många enskilda rader för varje artikel, kund och så vidare, kan du i stället välja lämpligt infogningsalternativ för att fylla i alla relevanta fält på raden. Om du vill kan du senare redigera raderna manuellt. Om du vill infoga rader väljer du åtgärden **Infoga artiklar** eller **Infoga artikelgrupper**.  
 
-## Skapa en ny försäljningsanalysrapport
+## <a name="create-a-new-sales-analysis-report" />Skapa en ny försäljningsanalysrapport
 
 Följande procedur är baserad på en analysrapport för försäljning. Momentet är liknande för inköp och analysrapporter.
 
@@ -103,7 +103,7 @@ Med analysrapporter kan du analysera försäljningsdynamiken efter nyckeltal fö
 > [!NOTE]  
 > Du kan välja kombinationer av rader och kolumnmallar för att skapa rapporter och tilldela dem unika namn. Om du gör det behöver du inte välja rad- och kolumnmallar på sidan **Försäljningsanalysrapport**. Du kan efter behov ändra rad- och kolumnmallarna i rapport och sedan återställa den ursprungliga kombinationen igen genom att välja rapporten på nytt.
 
-## Se även
+## <a name="see-also" />Se även
 
 [Financial Business Intelligence](bi.md)  
 [Ekonomi](finance.md)  

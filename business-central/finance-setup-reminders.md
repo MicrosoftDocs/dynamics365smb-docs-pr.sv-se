@@ -11,30 +11,30 @@ ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# Konfigurera påminnelsevillkor och nivåer
+# <a name="set-up-reminder-terms-and-levels" />Konfigurera påminnelsevillkor och nivåer
 
 Du kan använda betalningspåminnelser för att påminna kunder om förfallna belopp. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## Betalningspåminnelsevillkor
+## <a name="reminder-terms" />Betalningspåminnelsevillkor
 
 Om en betalning förfaller måste du bestämma när och hur betalningspåminnelsen ska skickas till kunden i fråga. Dessutom kanske du vill debitera kundens konto för ränta eller avgifter. Du kan ange valfritt antal villkor för betalningspåminnelser.  
 
 > [!NOTE]
 > Om du vill beräkna dröjsmålsränta på förfallna betalningar kan du göra detta när du skapar betalningspåminnelser. Om du däremot endast vill beräkna dröjsmålsränta och informera dina kunder om det utan att skicka betalningspåminnelser bör du använda [räntefakturor](finance-setup-finance-charges.md). Mer information finns i [Betalningspåminnelser](receivables-collect-outstanding-balances.md#reminders) samt [Ränta](receivables-collect-outstanding-balances.md#finance-charges).
 
-### Så här ställer du in betalningspåminnelsevillkor
+### <a name="to-set-up-reminder-terms" />Så här ställer du in betalningspåminnelsevillkor
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **påminnelsevillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Om du vill använda fler än en uppsättning villkor, anger du en kod för varje kombination.
 
-## Betalningspåminnelsenivåer
+## <a name="reminder-levels" />Betalningspåminnelsenivåer
 
 För varje påminnelsevillkorskod kan du definiera valfritt antal betalningspåminnelsenivåer. Första gången en betalningspåminnelse skapas för en kund används inställningen från nivå 1. När betalningspåminnelsen skickas ut registreras nivånumret på betalningspåminnelsetransaktionerna som skapas och kopplas till de enskilda kundreskontratransaktionerna. Om kunden måste påminnas igen kontrolleras alla betalningspåminnelsetransaktioner som är kopplade till öppna kundreskontratransaktioner så att det högsta nivånumret hittas. Villkoren från nästa nivånummer används sedan för den nya betalningspåminnelsen.
 
 Om du skapar fler betalningspåminnelser än du har definierat nivåer för, används villkoren för den högsta nivån. Du kan skapa så många betalningspåminnelser som fältet **Max. antal påminnelser** i betalningspåminnelsevillkoren tillåter.
 
-### Så här ställer du in nivåer för betalningspåminnelser
+### <a name="to-set-up-reminder-levels" />Så här ställer du in nivåer för betalningspåminnelser
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **påminnelsevillkor** och väljer sedan relaterad länk.  
 2. På sidan **betalningspåminnelsevillkor** och välj raden med de villkor som du vill ange nivåer för och klicka sedan på åtgärden **Nivåer**.  
@@ -92,9 +92,9 @@ Om du skapar fler betalningspåminnelser än du har definierat nivåer för, anv
 
 När du har angett betalningspåminnelsevillkoren (med ytterligare nivåer och text) anger du någon av koderna på vart och ett av kundkorten. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
 
-## Se relaterad [Microsoft utbildning](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/send-reminders-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Skicka påminnelser om utestående saldon](receivables-send-reminders.md)  

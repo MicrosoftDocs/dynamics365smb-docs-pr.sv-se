@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-includeprodshortincludesprodshortmd" />Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
 
@@ -18,14 +18,14 @@ Du kan t. ex. justera storleken och positionen på alla sidor, utöka bredden p�
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="cheatsheet"></a>Tips och råd
+## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Tips och råd
 
 > [!TIP]
 > Om du vill visa en utskriftsvänlig översikt över de mest använda funktionerna väljer du följande bild och hämtar PDF-filen.
 >
 > [ ![Ikon för PDF-filen.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som öppnar en PDF-fil")
 
-## Länkar till mer information
+## <a name="links-to-learn-more" />Länkar till mer information
 
 I tabellen nedan anges några av de grundläggande funktioner med länkar till avsnitten där de beskrivs.
 
@@ -51,12 +51,12 @@ I tabellen nedan anges några av de grundläggande funktioner med länkar till a
 | Administrera innehåll och format i rapporter och dokument, inklusive vilka datafält i en rapportdatauppsättning som visas i rapporten och hur dessa ordnas, textstil, bilder och mycket annat.|[Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md) |
 |Lär dig mer om funktioner och möjligheter som gör [!INCLUDE[prod_short](includes/prod_short.md)] lättillgängligt för användare med funktionshinder.|[Hjälpmedel och kortkommandon](ui-accessibility.md)|
 
-## Hitta rätt i Business Central
+## <a name="getting-around-in-business-central" />Hitta rätt i Business Central
 Här följer en kort video om hur du navigerar i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## Välja en webbläsare för skrivbordet
+## <a name="choosing-a-desktop-browser" />Välja en webbläsare för skrivbordet
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder flera webbläsare som vardera erbjuder en mängd olika funktioner och möjligheter. Webbläsaren spelar en betydande roll i användargränssnittets svarstider och prestanda. Se listan över vilka webbläsare som stöds och rekommenderas för [Business Central online](./product-requirements.md) och webbläsare för [Business Central lokalt](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -65,7 +65,7 @@ Här följer en kort video om hur du navigerar i [!INCLUDE[prod_short](includes/
     Internet Explorer stöds inte längre. Mer information finns i [Microsoft Edge-dokumentationen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Se till att din webbläsare alltid har uppdaterats till den senaste versionen.
 
-## Åtgärdsfält
+## <a name="action-bars" />Åtgärdsfält
 
 I [!INCLUDE [prod_short](includes/prod_short.md)] kan du utföra ditt arbete i en lista, ett dokument eller ett kort. Alla tre sidtyperna har en stapel med åtgärder som är relevanta för den aktuella sidan, och åtgärderna är nästan desamma för det enskilda kortet eller dokumentet och för listan över entiteter. På så sätt kan du hantera en enskild försäljningsorder på sidan **försäljningsorder** och i listan över **försäljningsorder** , inklusive bokföring och fakturering.  
 
@@ -80,16 +80,16 @@ När du söker efter en öppen listsida, till exempel listan **försäljningsord
 
 Men när du öppnar samma listsida från start sidan finns inte åtgärden **hantera**. Om du vill öppna en enskild försäljningsorder i stället väljer du fältet **nummer**. I den här vyn kan du inte fästa åtgärdsfältet.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/work-pro-data-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Ställa in Business Central](setup.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Prestandatips för företagsanvändare](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

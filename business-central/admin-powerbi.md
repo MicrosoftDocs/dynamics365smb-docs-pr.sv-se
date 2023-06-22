@@ -10,13 +10,13 @@ ms.date: 04/26/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# Introduktion till [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI
+# <a name="introduction-to-includeprodshortincludesprodshortmd-and-power-bi" />Introduktion till [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI
 
 Det är enkelt att få insikter i dina [!INCLUDE[prod_short](includes/prod_short.md)]-data är enkelt med [Power BI](https://powerbi.microsoft.com) – ett system för datavisualisering från Microsoft. Power BI hämtar [!INCLUDE[prod_short](includes/prod_short.md)]-data som gör det möjligt för dig att skapa instrumentpaneler och rapporter baserade på denna data. Power BIutgör ett flexibelt alternativ till rapporter som skapas med [!INCLUDE[prod_short](includes/prod_short.md)] genom att göra det möjligt för dig att öka detaljnivån i och anpassa visualiseringen, samt till och med att sammanslå data från olika företag i [!INCLUDE[prod_short](includes/prod_short.md)]. Vissa Power BI-rapporter kan också bäddas in i Business Central och visas utan att du behöver lämna systemet. Upplevelsen av mer komplexa instrumentpaneler blir bättre från Power BI-webbplatsen.
 
 ![Power BI och Business Central.](media/power-bi-intro.png)
 
-## Vad kan du göra med Power BI och [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="what-you-can-do-with-power-bi-and-includeprodshortincludesprodshortmd" />Vad kan du göra med Power BI och [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Det finns olika funktioner för att arbeta med [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI. Vissa saker kan du göra från Power BI, medan andra saker görs via [!INCLUDE[prod_short](includes/prod_short.md)]. Vissa funktioner är dessutom endast tillgängliga med [!INCLUDE[prod_short](includes/prod_short.md)] online, inte lokalt. Följande tabell ger dig en översikt.
 
@@ -30,7 +30,7 @@ Det finns olika funktioner för att arbeta med [!INCLUDE[prod_short](includes/pr
 
 <a name="onprem"><sup>*</sup></a> Denna funktion kräver ett registrerat program för Business Central i Microsoft Azure. Mer information finns i [Registrera Business Central lokalt i Azure AD för integrering med andra tjänster](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## Komma igång med Power BI
+## <a name="get-ready-to-use-power-bi" />Komma igång med Power BI
 
 Det finns några uppgifter som måste utföras innan du kan börja använda Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Uppgifterna beror på din roll i organisationen och vad du vill göra med Power BI:
 
@@ -45,7 +45,7 @@ Det finns några uppgifter som måste utföras innan du kan börja använda Powe
 |Exponera Business Central-data för Power BI||![det är en bock.](media/check.png)|![återigen en bock](media/check.png)|[Visa data via API-sidor eller OData-webbtjänster](admin-powerbi-setup.md#exposedata)
 |Aktivera integrering med Power BI<br />(endast lokalt)||![det är en bock.](media/check.png)||[Konfigurera Business Central lokalt för Power BI-integration](admin-powerbi-setup.md#setup)|
 
-## Spåra dina affärs-KPI: er med Power BI-mått
+## <a name="track-your-business-kpis-with-power-bi-metrics" />Spåra dina affärs-KPI: er med Power BI-mått
 
 Om du använder Power BI i [!INCLUDE[prod_short](includes/prod_short.md)] data, är det enkelt att spåra KPI:er eller mått som är viktiga för dig. 
 
@@ -65,15 +65,15 @@ Mer information om Power BI Mått finns i [Komma igång med mått i Power BI](/p
 > [!NOTE]
 > Det går för närvarande inte att bädda in styrkort från Power BI mått i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Nästa steg
+## <a name="next-steps" />Nästa steg
 
 - Om du är administratör som behöver installera Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], g till [Aktivera Power BI Integration](admin-powerbi-setup.md).
 - Om Power BI redan är inställt och du vill testa funktionerna går du till [Arbeta med Power BIRapporter i Business Central](across-working-with-powerbi.md).
 
 
-## Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Affärsstöd](bi.md)  
 [Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

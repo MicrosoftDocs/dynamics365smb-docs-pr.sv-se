@@ -11,7 +11,7 @@ ms.search.forms: null
 ms.date: 10/28/2022
 ms.author: bholtorf
 ---
-# Beräkning för inköp
+# <a name="calculate-dates-for-purchases" />Beräkning för inköp
 
 Om du vill ha varor i lager ett visst datum, [!INCLUDE[prod_short](includes/prod_short.md)] kan automatiskt räkna ut vilket datum du måste beställa dem. 
 
@@ -26,7 +26,7 @@ Inleveransdatum är också det datum då artiklarna kommer att vara tillgänglig
 > [!TIP]
 > Som standard är många av de datum fält som nämns i den här artikeln dolda på inköpsorderrader. Om ett fält inte är tillgängligt kan du lägga till det genom att anpassa sidan. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
-## Beräkna med ett begärt inleveransdatum
+## <a name="calculating-with-a-requested-receipt-date" />Beräkna med ett begärt inleveransdatum
 
 Om ett begärt inleveransdatum angetts på inköpsorderraden som detta datum ligger till grund för följande beräkningar:  
 
@@ -38,7 +38,7 @@ Om du anger ett begärt inleveransdatum på en inköpsorderrad tilldelas det dat
 > [!NOTE]
 > Om din process grundar sig på beräkning bakåt, till exempel om du använder det begärda inleveransdatumet för att hämta planerat orderdatum, rekommenderar vi att du använder datumformler med fast varaktighet, till exempel "5D", i fem dagar eller "1V" i en vecka. Datumformler utan fast varaktighet, till exempel "FV" för aktuell vecka eller CM för aktuell månad, kan resultera i felaktiga datumberäkningar. Mer information om datumformler finns i [arbeta med datum och tider för kalender](ui-enter-date-ranges.md).
 
-## Beräkna utan ett begärt inleveransdatum
+## <a name="calculating-without-a-requested-receipt-date" />Beräkna utan ett begärt inleveransdatum
 
 Om du skriver in en inköpsorderrad utan ett begärt inleveransdatum fylls fältet **Orderdatum** i automatiskt med datumet i fältet **Orderdatum** i inköpshuvudet. Detta datum är antingen det datum du angett eller arbetsdatumet. Därefter utförs följande datumberäkningar för inköpsorderraden, med utgångspunkt från orderdatumet:  
 
@@ -47,7 +47,7 @@ Om du skriver in en inköpsorderrad utan ett begärt inleveransdatum fylls fält
 
 Om du ändrar order datumet på raden [!INCLUDE[prod_short](includes/prod_short.md)] räknas de andra datumen om.  
 
-## Standardvärden för ledtidsberäkning
+## <a name="default-values-for-lead-time-calculation" />Standardvärden för ledtidsberäkning
 
 [!INCLUDE[prod_short](includes/prod_short.md)] använder datumformel från fältet **Ledtidsberäkning** på inköpsorderraden för att beräkna ordern och förväntade inleveransdatum.  
 
@@ -58,9 +58,9 @@ Du kan ange datum formeln på raderna manuellt. I annat fall [!INCLUDE[prod_shor
 3. Lagerställeenhetskort
 4. Leverantörskort
 
-## Se relaterad [Microsoft utbildning](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Datumberäkning för försäljning](sales-date-calculation-for-sales.md)  
 [Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)  

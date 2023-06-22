@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Tjänstens regelefterlevnad
+# <a name="service-compliance" />Tjänstens regelefterlevnad
 
 Det här innehållet anger information om tjänstens regelefterlevnad i relation till [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
@@ -21,17 +21,17 @@ Du hittar en detaljerad lista över [molnets regelefterlevnad i Business Central
 
 Om du är intresserad av vilka erbjudanden för regelefterlevnad som Microsoft har, se [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Tjänstvillkor
+## <a name="service-terms" />Tjänstvillkor
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## Se även
+## <a name="see-also" />Se även
 
 [Regelefterlevnad](compliance-overview.md)  
 [Programmets regelefterlevnad](compliance-application-compliance.md)  
 [Intyg](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

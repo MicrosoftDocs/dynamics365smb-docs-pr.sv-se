@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 03/06/2022
 ms.author: a-reishima
 ---
-# Om styckkost. beräkningstyp
+# <a name="about-unit-cost-calculation" />Om styckkost. beräkningstyp
 
 Varje artikel har en styckkostnad som beräknas med hjälp av företagets värderingsprincip och andra faktorer. Som regel med *Standard* värderingsprinciperna **Styckkostnad** fältvärdet baseras på standardkostnaden för artikeln. För alla andra kalkylmetoder (*FIFO*, *LIFO*, *Specifik* och *Genomsnitt*), styckkostnaden beräknas utifrån den genomsnittliga styckkostnaden över en tidsperiod.  
 
 Mer information finns i [Administrera lagerkostnader](finance-manage-inventory-costs.md).  
 
-## När uppdateras styckkostnadsfältet
+## <a name="when-is-the-unit-cost-field-updated" />När uppdateras styckkostnadsfältet
 
 Den valda kalkylmetoden påverkar när **Styckkostnad** uppdateras.
 
@@ -33,35 +33,35 @@ Om något av dessa villkor gäller uppdateras fältet **styckkostnaden** med vä
 
 I fältet **Styckkostnad** på artikelkortet kan du drilla ner för att se historiken för transaktioner som den genomsnittliga kostnaden för tillgängliga enheter beräknas från i fönstret **Översikt: Beräkning av genomsnittskostnad**.
 
-## Beräkna styckkostnad vid inköp
+## <a name="unit-cost-calculation-for-purchases" />Beräkna styckkostnad vid inköp
 
 När du köper in artiklar kopieras alltid värdet i fältet **Senaste direkt kostnad** på artikelkortet till fältet **Inköpspris** på en inköpsrad eller till raden **A-pris** på en artikeljournalrad.
 
 Ditt val i fältet **Värderingsprincip** påverkar hur [!INCLUDE[prod_short](includes/prod_short.md)] beräknar innehållet i fältet **Styckkostnad** på raderna.
 
-### Värderingsprincip FIFO, LIFO, Serienr eller Genomsnitt
+### <a name="costing-method-fifo-lifo-specific-or-average" />Värderingsprincip FIFO, LIFO, Serienr eller Genomsnitt
 
 [!INCLUDE[prod_short](includes/prod_short.md)] beräknar innehållet i fältet **Styckkostnad (BVA)** på inköpsraden eller innehållet i fältet **Styckkostnad** på artikeljournalraden enligt följande formel:
 
 *Styckkostnad (BVA) = (Inköpspris – (Rabattbelopp/Antal)) x (1 + Indirekt kostnad %/100) + Overheadkostnad*
 
-### Värderingsprincip Standard
+### <a name="costing-method-standard" />Värderingsprincip Standard
 
 Fältet **Styckkostnad (BVA)** på inköpsraden, eller fältet **Styckkostnad** på artikeljournalraden, fylls i med värdet i fältet **Styckkostnad** på artikelkortet. Med värderingsprincipen som *Standard* beräknas detta värde alltid enligt standardkostnaden.
 
 När du bokför inköpet använder [!INCLUDE[prod_short](includes/prod_short.md)] styckkostnaden från inköpsraden eller artikeljournalraden till transaktionsrad för den inköpta artikeln. Du kan se den i artikelns transaktionslista.
 
-### Samtliga värderingsprinciper
+### <a name="all-costing-methods" />Samtliga värderingsprinciper
 
 Innehållet i fältet Kost.belopp aktuellt, eller i vissa fall fältet **Kost.belopp (faktisk)** eller, om tillämpligt, fältet **Kost.belopp (förväntat)** för den här artikeltransaktionen, beräknas alltid enligt styckkostnaden från raden i källdokumentet, oavsett vilken värderingsprincip som används för artikeln.
 
-## Beräkning av styckkostnad vid försäljning
+## <a name="unit-cost-calculation-for-sales" />Beräkning av styckkostnad vid försäljning
 
 När du säljer artiklar, kopieras styckkostnaden från fältet **Styckkostnad** på artikelkortet till försäljnings- eller artikeljournalraden.
 
 När du bokför, kopieras styckkostnaden till en rad på försäljningsfakturan. Styckkostnaden visas på artikelns transaktionslista. [!INCLUDE[prod_short](includes/prod_short.md)] använder styckkostnaden från källdokumentraden för att beräkna innehållet i **Kost.belopp (aktuellt)** eller, om tillämpligt, fältet **Kost.belopp(förväntat)** oavsett vilken värderingsprincip som används för artikeln.
 
-## Se även
+## <a name="see-also" />Se även
 
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  

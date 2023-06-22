@@ -10,11 +10,11 @@ ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Skapa lagerställesinnehåll
+# <a name="create-bin-contents" />Skapa lagerställesinnehåll
 
 När du har skapat lagerställena kan du skapa deras innehåll. Du kan ange de artiklar som du vill lagra på en viss lagerplats och ange regler som styr hur lagerstället ska fyllas med en viss artikel. Du kan göra detta manuellt på sidan **lagerställesinnehåll** eller automatiskt med sidan **skapa lagerställesinnehåll i kalkylarket**.
 
-## Så här skapar du lagerställesinnehåll manuellt
+## <a name="to-create-bin-content-manually" />Så här skapar du lagerställesinnehåll manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2. Markera platsen där du vill skapa lagerställesinnehållet och väljer åtgärden **Lagerställen**.  
@@ -31,7 +31,7 @@ Om du markerar fältet **Fast** kopplar du artikeln till lagerstället. Det bety
 > [!NOTE]  
 > Du kan skapa flera lagerställesinnehåll samtidigt på sidan **Lagerställesinnehålluppl förslag**.  
 
-## Så här skapar du lagerställesinnehåll i kalkylarket:
+## <a name="to-create-bin-content-with-a-worksheet" />Så här skapar du lagerställesinnehåll i kalkylarket:
 
 När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du vill ha på varje lagerplats i lagerplatsuppläggningskalkylarket.
 
@@ -49,9 +49,9 @@ När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du
 
 I det här kalkylarket kan du arbeta med flera lagerställesinnehållsrader för flera lagerställen och på så sätt få en bra översikt över vad du placerar på olika lagerställen i en viss zon, gång eller ställning.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Se relaterad [Microsoft utbildning](/training/modules/set-up-zones-bins/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

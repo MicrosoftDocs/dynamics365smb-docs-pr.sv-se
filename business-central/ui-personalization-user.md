@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 10/11/2022
 ms.author: bholtorf
 ---
-# Anpassa din arbetsyta
+# <a name="personalize-your-workspace" />Anpassa din arbetsyta
 
 Du kan anpassa din arbetsyta efter ditt arbete och dina preferenser. Ändra sidor så att de endast visar information som du behöver, där du behöver den. Anpassningen påverkar endast din arbetsyta. Det påverkar inte hur andra fungerar.
 
@@ -25,13 +25,13 @@ Du kan göra olika ändringar, som att flytta och dölja fält, kolumner och åt
 > Administratörer kan utföra samma layoutändringar när användare kan anpassa arbetsytan för en profil som tilldelas flera användare. Om du vill veta mer om sidor för roller går du till [anpassa sidor för roller](ui-personalization-manage.md)<br /><br />
 Administratörer kan också åsidosätta eller inaktivera användarnas anpassning och de kan definiera vilka funktioner som till och med är tillgängliga för användare att se i alla eller specifika företag. Mer information finns i [Anpassa Business Central](ui-customizing-overview.md).
 
-## Video
+## <a name="video" />Video
 
 I följande video visas några av de sätt som du kan anpassa ditt rollcenter på.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## För att ändra bredden på en kolumn
+## <a name="to-change-the-width-of-a-column" />För att ändra bredden på en kolumn
 
 Du kan lätt ändra storlek på kolumnerna i en lista. Det är bara att dra kantlinjen mellan kolumnerna i till vänster eller höger.  
 
@@ -40,7 +40,7 @@ Du kan lätt ändra storlek på kolumnerna i en lista. Det är bara att dra kant
 
 Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden på ditt konto och du ser inte vilken enhet du loggar in på.
 
-## För at börja anpassa en sida via banderollen **Anpassa**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner" />För at börja anpassa en sida via banderollen **Anpassa**
 
 1. Öppna sidan du vill anpassa.
 2. Längst upp till höger, välj ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **anpassa**.
@@ -58,7 +58,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 6. Välj elementet och välj sedan antingen **Flytta**, **Ta bort**, **Dölj**, **Visa**, **Visa under "Visa mer"**, **Visa vid komprimerad**, **Visa alltid**, **Ställ in/rensa låst ruta** eller **Inkludera/exkludera från snabbinmatning**, beroende på typ och tillstånd för elementet i användargränssnittet. Mer information finns i [Vad du kan anpassa](#What).
 7. När du är klar med att ändra layouten på en eller flera sidor, välj knappen **Klar** på banderollen **Anpassa**.
 
-## <a name="What"></a>Detta kan du anpassa
+## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Detta kan du anpassa
 
 |Vad vill du göra|Hur du gör det.|Anmärkningar|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 |Lägg till en ny åtgärd på en sida eller rapport i rollcentret.|Välj ikonen bokmärke på sida för rapportförfrågan, sida i rapporten eller berätta för mig-fönstret.|Se [Förse en sida eller rapport med ett bokmärke på ditt rollcenter](ui-bookmarks.md)|
 |Starta alltid en lista som visad eller dold|Välj knappen **Expandera alla** eller **Komprimera alla** längst upp till vänster i listan. Alternativt väljer du åtgärden **Expandera alla** eller **Komprimera alla** i menyn för den första kolumnen. |Gäller för komprimerbara hierarkinivåer|
 
-## <a name="Actions"></a>Anpassa åtgärdsfältet och menyer
+## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Anpassa åtgärdsfältet och menyer
 
 Anpassning låter dig bestämma vilka åtgärder som ska visas i navigerings- och åtgärdsfälten och i rollcenter, samt var de ska visas. Du kan visa, dölja eller flytta enskilda åtgärder eller åtgärdsgrupper.
 
@@ -93,7 +93,7 @@ En *prioriterad kategori* är en grupp före den lodräta linjen `|` i åtgärds
 > [!NOTE]  
 > Om du vill rensa anpassningen markerar du pilspetsen runt delens designermeny och väljer **Rensa anpassning**.
 
-### Om du vill ta bort, dölja och visa åtgärder och åtgärdsgrupper
+### <a name="to-remove-hide-and-show-actions-and-action-groups" />Om du vill ta bort, dölja och visa åtgärder och åtgärdsgrupper
 
 När du vill visa eller dölja en åtgärd definierar alternativen under pilspetsen vad som kan göras beroende på åtgärdens tillstånd. 
 
@@ -106,7 +106,7 @@ När du vill visa eller dölja en åtgärd definierar alternativen under pilspet
 |**Dölj**|Det här alternativet visas om åtgärden eller åtgärdsgruppen inte finns någon annanstans i navigerings- eller åtgärdsfältet. Liksom alternativet **Ta bort** får detta alternativ åtgärden eller åtgärdsgruppen att försvinna från navigerings- eller åtgärdsfältet. Men i anpassningsläget visas åtgärd eller åtgärdsgrupp fortfarande på den aktuella positionen förutom att det verkar dämpat.|
 |**Visa**|Det här alternativet visas om åtgärden eller åtgärdsgruppen är tidigare dolda (är nedtonade). Om du väljer detta alternativ kommer åtgärden eller åtgärdsgruppen att visas på navigerings- eller åtgärdsfältet.|
 
-### Flytta åtgärder och åtgärdsgrupper
+### <a name="to-move-actions-and-action-groups" />Flytta åtgärder och åtgärdsgrupper
 
 Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontell linje mellan två åtgärder eller en gräns runt en åtgärdsgrupp. Följande begränsningar förekommer:
 
@@ -116,7 +116,7 @@ Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontel
 1. Om du vill flytta en åtgärd eller en åtgärdsgrupp, dra och släpp den till önskad position, precis som med fält och kolumner.
 2. Om du vill flytta en åtgärd eller åtgärdsgrupp till en åtgärdsgrupp som är tom, dra åtgärden eller åtgärdsgruppen till den nya gruppen och släpp den i rutan **släpp åtgärd här**.
 
-## <a name="Parts"></a>Anpassa delar
+## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Anpassa delar
 
 Delar är områden på en sida som vanligtvis utgörs av flera fält, diagram eller annat innehåll. En del visar en färgad kantlinje när du fokuserar på delen. Startvyn för ett rollcenter har till exempel flera delar. På grund av deras väldefinierade gränser kan du anpassa hela delen samt dess innehåll.
 
@@ -126,7 +126,7 @@ Delar är områden på en sida som vanligtvis utgörs av flera fält, diagram el
 
 Du kan ta bort alla anpassningsändringar du har utfört i en enskild del genom att välja alternativet **Radera anpassning** under delens pilspets. När du rensar anpassningen för en viss del påverkar detta bara ändringar i innehållet i just den delen, inte delens placering eller synlighet på sidan.  
 
-## Rensa anpassning
+## <a name="to-clear-personalization" />Rensa anpassning
 
 Vid något tillfälle kanske du vill ångra några eller alla anpassningsändringar som du har gjort på sidan.
 
@@ -143,7 +143,7 @@ Vid något tillfälle kanske du vill ångra några eller alla anpassningsändrin
 |**Endast fält och kolumner**|Rensar alla anpassningsändringar som du någonsin har gjort på sidan förutom de i navigerings- eller åtgärdsfältet. Sådana ändringar inbegriper fält, kolumner, delar och paneler. |
 |**Alla**|Rensar alla personanpassningsändringar som du har gjort så att sidan ser ut som den gjorde från början. Sådana ändringar inbegriper ändringar i navigerings- eller åtgärdsfält, fält, kolumner, delar och paneler.|
 
-## Andra punkter av intresse
+## <a name="other-points-of-interest" />Andra punkter av intresse
 
 Här följer några tips som hjälper dig att bättre förstå anpassning.
 
@@ -158,9 +158,9 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
    > [!TIP]
    > Som administratör kan du dölja **automatiserade** objekt från användare. Läs mer i [Ställa in Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## Se även
+## <a name="see-also" />Se även
 [Anpassa sidor för profiler](ui-personalization-manage.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  

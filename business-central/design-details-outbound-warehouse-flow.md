@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 11/25/2022
 ms.custom: bap-template
 ---
-# Processer för avgående distributionslager
+# <a name="outbound-warehouse-processes" />Processer för avgående distributionslager
 
 Avgående processer i distributionslager startar när du släpper ett källdokument för att ta bort artiklar från ett lagerställe. Till exempel, antingen för att leverera artiklarna någonstans eller för att flytta dem till ett annat lagerställe i företaget. I princip består processen utleverans av avgående order av två olika aktiviteter:
 
@@ -48,7 +48,7 @@ I metoderna A, B och C kombineras aktiviteterna för plockning och utleverans i 
 > * Lagerplockningen som används i metod B, tillsammans med registrering av plockningsinformation, bokför även utleveransen av källdokumentet.
 > * Distributionslagerplockningen som används i metod D kan inte bokföras och endast registrera plockning. Registreringen gör artiklarna tillgängliga för distributionslagerutleveranser men bokför inte utleveransen. I det utgående flödet kräver distributionslagerplockningen en distributionslagerutleverans.
 
-## Ingen tilldelad distributionslageraktivitet
+## <a name="no-dedicated-warehouse-activity" />Ingen tilldelad distributionslageraktivitet
 
 I följande artiklar finns information om hur du behandlar inleveranser för källdokument om du inte har särskilda lageraktiviteter.
 
@@ -57,58 +57,58 @@ I följande artiklar finns information om hur du behandlar inleveranser för kä
 * [Behandla inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md)
 * [Skapa tjänsteorder](service-how-to-create-service-orders.md)
 
-## Grundläggande distributionslagerkonfiguration
+## <a name="basic-warehouse-configurations" />Grundläggande distributionslagerkonfiguration
 
 Följande diagram visar de utgående distibutionslagerprocesserna för olika typer av dokument i grundläggande lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Visar stegen i ett grundläggande utgående flöde i ett lagerställe.":::
 
-### 1: Släpp källdokument
+### <a name="-release-a-source-document" />1: Släpp källdokument
 
 När du använder åtgärden **Frisläpp** i ett källdokument, t.ex. en försäljnings- eller överföringsorder, är artiklarna i dokumentet klara att hanteras i distributionslagret. Till exempel plockat och placera i den lagerplats som anges i dokumentet. Användaren kan skapa plockningsdokument för inventering för enskilda rader på order, med en pushmetod, baserat på angivna lagerställen och antal som ska hanteras.  
 
-### 2. Skapa lagerplockning
+### <a name="-create-an-inventory-pick" />2. Skapa lagerplockning
 
 På sidan **lagerplockning** hämtas lagerarbetaren från källdokument raderna. Lagerplockningsraderna kan redan ha skapats, med en pushmetod, av användaren som är ansvarig för källdokumentet.  
 
-### 3. Bokföra lagerplockning
+### <a name="-post-an-inventory-pick" />3. Bokföra lagerplockning
 
 På varje rad för artiklar som har plockats delvis eller helt, fyller lagerarbetaren i fältet **Antal** och bokför sedan lagerplockningen. Källdokument som är relaterade till lagerplockningen bokförs som levererade eller förbrukade.  
 
 För lagerplockningarna skapas negativa artikeltransaktioner, distributionslagertransaktioner skapas och plockförfrågan tas bort, om de hanteras fullständigt. Till exempel uppdateras fältet **Utlevererat antal** på den utkommande källdokumentraden. Ett redan bokfört leveransdokument skapas som återspeglar till exempel försäljningsordern, och de levererade artiklarna.  
 
-## Avancerad distributionslagerkonfiguration
+## <a name="advanced-warehouse-configurations" />Avancerad distributionslagerkonfiguration
 
 Följande diagram visar de utgående distibutionslagerprocesserna för olika typer av dokument i avancerade lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Visar stegen i ett grundläggande utgående distributionslagerflöde.":::
 
-### 1: Släpp källdokument
+### <a name="-release-a-source-document" />1: Släpp källdokument
 
 Om du frigör ett källdokument i avancerade konfigurationer sker samma sak som för grundläggande konfigurationer. Artiklarna blir tillgängliga för hantering i distributionslagret. De kan till exempel ingå i en utleverans.  
 
-### 2. Skapa en distributionslagerutleverans
+### <a name="-create-a-warehouse-shipment" />2. Skapa en distributionslagerutleverans
 
 Sidan **Dist.lager utleverans** hämtar raderna från det släppta källdokumentet. Du kan kombinera rader från flera källdokument i en distributionslagerutleverans.  
 
-### 3: Skapa distributionslagerplockning
+### <a name="-create-a-warehouse-pick" />3: Skapa distributionslagerplockning
 
 På sidan **Distributionslagerutleverans**, skapa aktiviteter för distributionslagerplockning för utleveranser på ett av två sätt:
 
 - Med push-metod där du använder åtgärden **Skapa plockning**. Välj raderna att plockas och förbered plockningar genom att till exempel ange vilka fack som ska tas från och placeras i, och hur många enheter som ska hanteras. Lagerplatser kan fördefinieras för distributionslagerstället eller resurs.
 - Med pull-metod där du använder åtgärden **Frisläppa**. På sidan **Plockningskalkylark** kan distributionslagerpersonal använda åtgärden **Hämta dist.lager dokument** för att hämta sina tilldelade plockningar. När distributionslagerplockningar är fullständigt registrerade tas raderna i **Plockningskalkylark** bort.
 
-### 4: Registrera dist.lagerplockning
+### <a name="-register-a-warehouse-pick" />4: Registrera dist.lagerplockning
 
 På sidan **Dist.lager plockning** fyller lagerarbetaren i fältet **Antal** på varje rad för artiklar som har plockats, delvis eller helt och registrerar sedan plockningen.
 
 Distributionslagertransaktioner skapas och plockningsraderna tas bort om hela antalet plockades. Plockningsdokument förblir öppet tills hela antalet på distributionslagerutleverans registreras. Fältet **Plockat antal** på distributionslagerutleveransraderna uppdateras.  
 
-### 5: Bokför dist.lager utleverans
+### <a name="-post-the-warehouse-shipment" />5: Bokför dist.lager utleverans
 
 När alla artiklar på distributionslagerutleveransdokument registrerats som plockade bokför distributionslagerarbetaren utleveransen. Bokföringen uppdaterar artikeltransaktionerna så att de återspeglar minskningen av lagret. Till exempel uppdateras fältet **Utlevererat antal** på den utkommande källdokumentraden.  
 
-## Se även
+## <a name="see-also" />Se även
 
 [Warehouse Management](design-details-warehouse-management.md)  
 

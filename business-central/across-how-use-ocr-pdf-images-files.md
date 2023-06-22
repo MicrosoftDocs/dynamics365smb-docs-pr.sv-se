@@ -11,7 +11,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents" />Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument
 
 Från PDF eller bildfiler som du får från dina handelspartner kan du låta en extern OCR-tjänst (Optical Character Recognition) skapa elektroniska dokument som du kan konvertera till dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du [skicka den till OCR-tjänsten från sidan](#to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page) **Inkommande dokument**.
 
@@ -26,7 +26,7 @@ Trafiken av filer till och från OCR-tjänsten bearbetas av en dedikerad Jobbkö
 > [!NOTE]
 > OCR-funktionen tillhandahålls av externa providers. Välj ett servicepaket som passar din organisation och/eller ditt land/din region. Sök efter tjänster som är kompatibla med [!INCLUDE[prod_short](includes/prod_short.md)] och information om tillgängliga funktioner på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## Så här skickar du en PDF- eller bildfil till OCR-tjänsten från sidan Inkommande dokument
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page" />Så här skickar du en PDF- eller bildfil till OCR-tjänsten från sidan Inkommande dokument
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.
 2. Skapa en ny inkommande dokumentpost och bifoga filen. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).  
@@ -37,7 +37,7 @@ Trafiken av filer till och från OCR-tjänsten bearbetas av en dedikerad Jobbkö
 
    Värdet i OCR-status fältet ändras till **OCR-status** ändras till **Skickat**, förutsatt att inga fel finns.
 
-## Så här skickar du en PDF eller bildfil till OCR-tjänstn via e-post
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email" />Så här skickar du en PDF eller bildfil till OCR-tjänstn via e-post
 
 Vidarebefordra e-post till OCR-tjänstleverantören från ditt e-postprogram med PDF- eller bildfilen bifogad. Se OCR-tjänstleverantörens webbplats för information om e-postadress att skicka till.
 
@@ -46,7 +46,7 @@ Eftersom ingen inkommande dokumentpost finns för filen skapas en ny post automa
 > [!NOTE]  
 > Om du arbetar med en Tablet PC eller en telefon, kan du skicka filen till OCR-servicen, så snart som du har tagit ett foto av dokumentet, eller så kan du skapa ett inkommande dokument direkt. Mer information finns i [Skapa inkommande dokumentposter genom att ta ett foto](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
-## Så här tar du emot det resulterande elektroniska dokumentet från OCR-tjänsten
+## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service" />Så här tar du emot det resulterande elektroniska dokumentet från OCR-tjänsten
 
 Elektroniska dokument, som skapas med OCR-tjänsten från PDF- eller bildfilen tas emot automatiskt på sidan **Inkommande dokument** jobbkötransaktionen som konfigureras när du aktiverar OCR-tjänsten.
 
@@ -65,7 +65,7 @@ Om du inte använder en jobbkö, eller om du vill ta emot ett färdigt OCR-dokum
 
 Du kan nu fortsätta med att skapa dokumentposter för de inlevererade elektroniska dokumenten i [!INCLUDE[prod_short](includes/prod_short.md)], manuellt eller automatiskt. Mer information finns i nästa procedur: Du kan också [koppla den nya inkommande dokumentposten till det bokförda eller icke bokförda befintliga dokumentet](across-how-connect-disconnect-income-document-records.md) så att källfilen är lätt att komma åt från [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Så här skapar du en inköpsfaktura från ett elektroniskt dokument som har tagits emot från OCR-servicen
+## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service" />Så här skapar du en inköpsfaktura från ett elektroniskt dokument som har tagits emot från OCR-servicen
 
 Efterföljande procedur beskriver hur du skapar en inköpsfakturatransaktion från en leverantörsfaktura som tas emot som ett elektroniskt dokument från OCR-servicen. Proceduren är samma när du skapar, till exempel, en redovisningsjournalrad från ett kostnadskvitto eller från en försäljningsreturorder.
 
@@ -78,7 +78,7 @@ En inköpsfaktura kommer att skapas av [!INCLUDE[prod_short](includes/prod_short
 
 Eventuella valideringsfel som vanligtvis beror på fel eller saknade data [!INCLUDE[prod_short](includes/prod_short.md)], visas på snabbfliken **Fel och varningar**. För mer information, se avsnittet [Så här hanterar du fel vid mottagning av elektroniska dokument](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
-### Du mappar ett inkommande dokument till ett särskilt leverantörskonto
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account" />Du mappar ett inkommande dokument till ett särskilt leverantörskonto
 
 För inkommande dokument använder du vanligtvis åtgärden**Mappa text till konto** för att definiera att en viss text på en leverantörsfaktura som har tagits emot från OCR-servicen mappas till en viss leverantörskonto. Framöver innebär varje del av den inkommande dokumentbeskrivningen som finns som en mappningstext att **Leverantörsnummer** på resulterande dokument eller journalrader av typ *redovisningskonto* fylls med leverantören i fråga.
 
@@ -94,7 +94,7 @@ Förutom fördelning eller mappning till ett leverantörskonto eller redovisning
    > Använd inte fälten **Ursprungstyp för motkonto** och **Ursprungsnr för motkonto** fält i samband med inkommande dokument. De används endast för automatisk betalningsavstämning. Mer information finns i [Mappa text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 6. Upprepa steg 2 till 5 för all text på inkommande dokument som du vill automatiskt vill skapa dokument för.
 
-## Så här hanterar du fel vid mottagning av elektroniska dokument
+## <a name="to-handle-errors-when-receiving-electronic-documents" />Så här hanterar du fel vid mottagning av elektroniska dokument
 
 1. På sidan **Inkommande dokument** välj raden för ett elektroniskt dokument som tagits emot från OCR-tjänsten med fel, indikerat av *Fel* i fältet **OCR-status**.
 2. På sidan **Inkommande dokument** väljer du åtgärden **Redigera**.
@@ -104,7 +104,7 @@ Förutom fördelning eller mappning till ett leverantörskonto eller redovisning
 6. Fortsätt med att bearbeta det inkommande dokumentet elektroniskt genom att välja åtgärden**Skapa manuellt** igen.
 7. Upprepa steg 5 och 6 för alla återstående fel, tills det elektroniska dokumentet kan tas emot korrekt.
 
-## Så här utbildar du OCR-tjänsten till att undvika fel
+## <a name="to-train-the-ocr-service-to-avoid-errors" />Så här utbildar du OCR-tjänsten till att undvika fel
 
 Eftersom OCR baseras på optisk läsning är det troligt att OCR-tjänsten tolkar tecknen i dina PDF- eller bildfiler fel första gången dokument från till exempel en viss leverantör behandlas. Det går kanske inte tolka företaglogotypen som leverantörens namn eller summan på ett utläggskvitto kan misstolkas på grund av layouten. Du kan undvika sådana fel genom att korrigera uppgifterna som du får av OCR-tjänsten och skicka återkopplingen till tjänsten.
 
@@ -120,9 +120,9 @@ Sidan **OCR-datakorrigering** som öppnas från sidan **Inkommande dokument** vi
 
 Fälten på snabbfliken **Ekonomisk information** på sidan **Inkommande dokument** uppdateras med alla nya värden som du har angett i steg 4.
 
-## Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Skapa inkommande dokument poster ](across-how-create-income-document-records.md)
 [Skapa inkommande dokument poster direkt från dokument och poster](across-how-connect-disconnect-income-document-records.md)

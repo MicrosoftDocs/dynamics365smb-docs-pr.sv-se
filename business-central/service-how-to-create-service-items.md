@@ -10,18 +10,18 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Skapa tjänsteartiklar
+# <a name="create-service-items" />Skapa tjänsteartiklar
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] avser termen ”serviceartikel” den utrustning eller de artiklar som kräver service. När du skapar en serviceorder kan du ange de artiklar som behöver service. I ordern kan du länka en serviceartikel till en artikel i lagret eller en serviceartikelgrupp.    
 
 När du tar emot en artikel för service kan du registrera den som serviceartikel. Detta kan göras på olika sätt. Du kan till exempel skapa en serviceartikel på sidan **serviceartiklar** eller som en del av en annan process, som t. ex. när du arbetar med en serviceorder.   
 
-## Så här skapar du en serviceartikel
+## <a name="to-create-a-service-item" />Så här skapar du en serviceartikel
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **serviceartiklar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Så här skapar du serviceartiklar inom serviceorder
+## <a name="to-create-service-items-within-a-service-order" />Så här skapar du serviceartiklar inom serviceorder
 
 När du tar emot artiklar som du vill registrera som serviceartiklar kan du skapa dem som serviceartiklar på sidan **Serviceorder** eller **Serviceoffert**.  
 
@@ -31,7 +31,7 @@ När du tar emot artiklar som du vill registrera som serviceartiklar kan du skap
 
     Ett nummer tilldelas serviceartikeln, och ett serviceartikelkort skapas. I fältet **Serviceartikelnr** fylls numret på den nya serviceartikeln i.
 
-## Så här skapar du en serviceartikel vid artikelutleverans
+## <a name="to-create-a-service-item-when-shipping-items" />Så här skapar du en serviceartikel vid artikelutleverans
 
 När du levererar artiklar genom att bokföra antingen försäljningsorder eller försäljningsfakturor registreras de levererade artiklarna automatiskt som serviceartiklar om följande villkor uppfylls. Artiklarna måste höra till en serviceartikelgrupp och ha kryssrutan **Skapa serviceartikel** markerad. Om artiklarnas serienummer har registrerats på sidan Artikelspårningsrader kopieras informationen automatiskt till fältet **Serienr** på serviceartikelkortet när serviceartiklar skapas.  
 
@@ -48,7 +48,7 @@ Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på f�
 >   
 >  Om en artikel är en struktur och du inte har expanderat strukturen skapas en serviceartikel för den utifrån serviceartikelgruppens villkor, och om du så vill, serienumrens villkor.  
 
-## Så här infogar du uppstartskostnader för en serviceartikel
+## <a name="to-insert-a-starting-fee-for-a-service-item" />Så här infogar du uppstartskostnader för en serviceartikel
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceuppgifter** och väljer sedan relaterad länk.
 2. Välj åtgärden **Artikelkalkylark**.
@@ -56,9 +56,9 @@ Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på f�
 
     En servicerad av typen **Kostnad** infogas automatiskt med uppstartskostnaden. Uppstartskostnaden gäller vald serviceartikel.
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-items/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Se relaterad [Microsoft utbildning](/training/modules/create-items/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Ställa in tjänsteartiklar och tjänsteartikelkomponenter](service-how-setup-service-items.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  

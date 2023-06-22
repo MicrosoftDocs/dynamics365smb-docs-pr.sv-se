@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Ställa in anläggningstillgångar
+# <a name="setting-up-fixed-assets" />Ställa in anläggningstillgångar
 
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
 
@@ -36,9 +36,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Så här använder du användardefinierade avskrivningsmetoder. |[Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  

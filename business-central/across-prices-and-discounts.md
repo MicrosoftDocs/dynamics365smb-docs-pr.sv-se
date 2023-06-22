@@ -11,14 +11,14 @@ ms.search.form: '459, 460, 7001, 7011, 7015, 7016, 7017, 7018'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Ställa in priser och rabatter
+# <a name="set-up-prices-and-discounts" />Ställa in priser och rabatter
 
 > [!NOTE]
 > Under 2020 års utgivningscykel 2 släppte vi effektiviserade processer för att ställa in och hantera priser och rabatter. Om du är en ny kund som använder den versionen använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** på sidan **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Pris- och rabattstrategier för inköp och försäljning av artiklar och tjänster är grundläggande verktyg för framgångsrika företag. När du har ställt in de artiklar och tjänster som ditt företag köper och säljer kan du definiera vad du betalar eller debiterar för dem, och dessa belopp läggs automatiskt till i försäljnings- och inköpsdokument. 
 
-## Ställa in priser och rabatter
+## <a name="setting-up-prices-and-discounts" />Ställa in priser och rabatter
 
 Innan du skapar prislistor måste du definiera dina prissättnings- och rabattstrategier på sidorna **Inställningar för försäljning och kundreskontra** och **Inställningar för inköp och skulder**.
 
@@ -34,11 +34,11 @@ Eftersom försäljningspriser och försäljningsradrabatter baseras på en kombi
 > [!TIP]  
 > Om en artikel aldrig ska säljas till rabatterat pris lämnar du bara rabattfälten på artikelsidan tomma och tar inte med artikeln i några inställningar för radrabatt.
 
-## Om prislistor
+## <a name="about-price-lists" />Om prislistor
 
 Prislistor är flexibla och låter dig ange den affärspartner eller aktivitet som de gäller för. Du kan till exempel ställa in en prislista som gäller för alla leverantörer och kunder, eller erbjuda specialpriser eller rabatter för varje affärspartner, kanske baserat på en minsta kvantitet på inköps- eller försäljningsorder, eller en viss kombination av kund, artikel, minsta kvantitet, enhet eller tidsperioder. De priser och rabatter som du definierar tillämpas automatiskt på inköps- och försäljningsdokument. 
 
-## Ställ in priser
+## <a name="set-up-prices" />Ställ in priser
 
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **Ny upplevelse för försäljningspris**. 
 
@@ -68,7 +68,7 @@ Om du vill granska prislistor och priser som gäller för specifika kunder eller
 
 ---
 
-## Så här skapar du försäljningsradrabatter för en kund
+## <a name="to-set-up-a-sales-line-discount-for-a-customer" />Så här skapar du försäljningsradrabatter för en kund
 
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **Ny upplevelse för försäljningspris**. 
 
@@ -98,7 +98,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 ---
 
-## Arbeta med fakturarabatter och faktureringsavgifter
+## <a name="work-with-invoice-discounts-and-service-charges" />Arbeta med fakturarabatter och faktureringsavgifter
 
 När du använder fakturarabatter, avgör det fakturerade beloppets storlek hur stor rabatt som ges. På sidan **Fakturarabatter** kan du även lägga till en faktureringsavgift i fakturor som överstiger ett visst belopp.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -115,7 +115,7 @@ Förutom (eller i stället för) en procentuell rabatt kan du koppla en fakturer
 > [!TIP]  
 > Innan du börjar ange den här informationen är det en bra idé att förbereda din rabattstruktur i förväg, så det blir lättare att se vilka kunder som ska länkas till samma fakturarabattsida. Mer information om rabatter i Sales finns i [Ställa in rabatter för dina kunder](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### Så här definierar du radrabatt för en kund
+### <a name="to-set-up-an-invoice-discount-for-a-customer" />Så här definierar du radrabatt för en kund
 
 När du har bestämt vilka kunder som är aktuella för fakturarabatter, anger du fakturarabattkoderna på kundkorten och anger villkoren för respektive kod.
 
@@ -136,7 +136,7 @@ Så här definierar du fakturarabattvillkor för försäljning:
 
 Fakturarabatten ställs nu in i fältet och fördelas till kunden i fråga. När du väljer kundkoden i fältet **Fakturarabattkod** på andra kundkort, kopplas samma fakturarabatt till dessa kunder.
 
-## Så här kopierar du försäljningspriser
+## <a name="to-copy-sales-prices" />Så här kopierar du försäljningspriser
 
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **Ny upplevelse för försäljningspris**. 
 
@@ -167,7 +167,7 @@ Statusen för prislistan måste vara **Utkast**.
   
 ---
 
-## Så här uppdaterar du flera artikelpriser samtidigt
+## <a name="to-bulk-update-item-prices" />Så här uppdaterar du flera artikelpriser samtidigt
 
 Dessa steg skiljer sig åt beroende på om administratören har aktiverat funktionsuppdateringen **Ny upplevelse för försäljningspris**. 
 
@@ -195,13 +195,13 @@ Om du vill uppdatera priserna för flera artiklar måste du skapa en ny prislist
 
 ---
 
-## Beräkna bästa pris
+## <a name="calculating-the-best-price" />Beräkna bästa pris
 
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandeln alltid är optimal, detta genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument, samt i jobb- och artikeljournalrader. Mer information finns i [Bästa prisberäkning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## Se relaterad [Microsoft utbildning](/training/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/customer-discounts-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  

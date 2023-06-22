@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams
+# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams" />Söka efter kunder, leverantörer och andra kontakter från Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Infört i 2021 utgivningscykel 1.
 
@@ -21,7 +21,7 @@ ms.author: jswymer
 - Dela en kontakt som ett kort i en Teams-konversation.
 - Visa information om kontakten, interaktionshistorik och andra insikter som utestående betalningar eller öppna dokument.
 
-## Förutsättningar
+## <a name="prerequisites" />Förutsättningar
 
 - Du har tillgång till Microsoft Teams.
 - Du har installerat [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Team. Mer information finns i [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)
@@ -30,7 +30,7 @@ ms.author: jswymer
 > [!NOTE]
 > Oavsett om du söker från kommandorutan eller meddelanderutan, kan du uppmanas att logga in eller ställa in appen första gången. Det här steget måste du söka efter kontakter på rätt Business Central-företag. Information om hur du ställer in appen för att välja företag finns i [ändra företag och andra inställningar i Teams](across-teams-settings.md).
 
-## Slå upp kontakter från kommandorutan
+## <a name="look-up-contacts-from-the-command-box" />Slå upp kontakter från kommandorutan
 
 Kommandorutan visas högst upp på varje skärm i Teams. Du kan söka, ta snabb åtgärder eller starta appar, som [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Sökning från kommandorutan är praktiskt när du snabbt vill söka efter kontakter och relaterade data för egen användning. Anta att du vill slå upp en e-postadress till en leverantör för att skapa ett kalendermöte. Eller kanske vill du slå upp interaktionshistorik under ett möte med en kund.
 
@@ -51,7 +51,7 @@ Kommandorutan visas högst upp på varje skärm i Teams. Du kan söka, ta snabb 
 
 Mer allmän information om kommandorutan i Teams finns i [Teams – Använd kommandorutan](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## Slå upp kontakter från meddelanderutan
+## <a name="look-up-contacts-from-the-message-compose-box" />Slå upp kontakter från meddelanderutan
 
 Fördelen med att använda meddelanderutan är att du kan lägga till ett kontaktkort direkt till en konversation så att andra kan se det.
 
@@ -73,13 +73,13 @@ Fördelen med att använda meddelanderutan är att du kan lägga till ett kontak
     > [!NOTE]
     > Kontaktkortet skickas inte till konversationen direkt för andra att se. Du har möjlighet att granska innehållet på kortet och lägga till text före eller efter det du vill. Skicka sedan meddelandet till chatten när det är klart.
 
-### Det finns också ett annat sätt
+### <a name="heres-another-way" />Det finns också ett annat sätt
 
 1. I stället för att använda **Business Central**-ikonen skriver du **@Business Central** direkt i meddelanderutan.
 2. Ange dina söktermer i rutan.
 3. Välj en kontakt med upp- och nedpilarna på tangentbordet och tryck sedan på <kbd>retur</kbd>.
 
-## Visa information om kontaktkort
+## <a name="viewing-contact-card-details" />Visa information om kontaktkort
 
 Kontakt kortet i Teams ger dig en snabb överblick över kunden, leverantören eller kontakten. Kortet är interaktivt &mdash;vilket innebär att du kan visa mer information eller till och med ändra en kontakt med hjälp av knapparna **Detaljer** eller **Öppna i nytt fönster**.
 
@@ -90,7 +90,7 @@ Kontaktkortet fungerar precis som kort för poster, t.ex. artiklar, kunder eller
 > [!NOTE]
 > Alla deltagare i en Team-konversation kommer att kunna se kort för Business Central-kontakt som du skickar till konversationen. Men för att visa mer information om poster med hjälp av knapparna **Detaljer** eller **Öppna** på ett kort, behöver de tillgång till [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Hantera Microsoft Teams-integrering](admin-teams-integration.md#minimum-requirements-1).
 
-## Se även
+## <a name="see-also" />Se även
 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  
@@ -100,7 +100,7 @@ Kontaktkortet fungerar precis som kort för poster, t.ex. artiklar, kunder eller
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

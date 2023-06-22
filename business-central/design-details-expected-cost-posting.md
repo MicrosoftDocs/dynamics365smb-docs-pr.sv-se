@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: edupont
 ---
-# Designdetaljer: Bokföring av förväntad kostnad
+# <a name="design-details-expected-cost-posting" />Designdetaljer: Bokföring av förväntad kostnad
 Förväntade kostnader representerar uppskattningen av exempelvis en inköpt artikels kostnad som du registrerar innan fakturan för artikeln erhålls.  
 
  Du kan bokföra förväntade kostnader till lagret och redovisningen. När du bokför ett antal som bara har inlevererats eller levererats men inte fakturerats, skapas en värdetransaktion med den förväntade kostnaden. Den förväntade kostnaden påverkar lagervärdet men bokförs inte till redovisningen om du inte har ställt in systemet att göra det.  
@@ -22,7 +22,7 @@ Förväntade kostnader representerar uppskattningen av exempelvis en inköpt art
 
  För att stödja avstämning och spårbarhet visar den fakturerade värdetransaktionen det förväntade kostnadsbeloppet som har bokförts för att motkontera interimskontona.  
 
-## Förutsättningar för bokföring av förväntade kostnader
+## <a name="prerequisites-for-posting-expected-costs" />Förutsättningar för bokföring av förväntade kostnader
 
 För att du ska kunna bokföra förväntade kostnader måste du göra följande:
 1. På sidan **Lagerinställningar** markerar du kryssrutan **Automatisk bokföring av kostnader** och kryssrutan **Förväntad kostnadsbokföring till redovisning**.
@@ -32,7 +32,7 @@ För att du ska kunna bokföra förväntade kostnader måste du göra följande:
 3. På sidan **Allmänna bokföringsinställningar** bekräftar du fältet **Lagerbokf. (interim)** för den **Allm. rörelsebokföringsmall** och den **Allm. produktbokföringsmall** som du ska använda.
 4. När du skapar en inköpsorder krävs som standard fältet **Leverantörens fakturanummer**. Du måste stänga av detta på sidan **Inställningar för inköp och skulder** genom att avmarkera fältet **Ext. Dok.nr obligatoriskt**.
 
-## Exempel  
+## <a name="example" />Exempel
 
 > [!NOTE]  
 > De kontonummer som används i detta exempel gäller endast som referens och kommer att variera i systemet. Ställ in dem enligt anvisningarna ovan.
@@ -85,7 +85,7 @@ Du bokför en inköpsorder som mottagen. Förväntad kostnad är 95,00 BVA.
 |01-15-20|Direkt kostnad kopplad – konto|7291|-100|6|  
 |01-15-20|Lagerkonto|2130|100|5|  
 
-## Se även
+## <a name="see-also" />Se även
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)   
  [Designdetaljer: Avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md)   

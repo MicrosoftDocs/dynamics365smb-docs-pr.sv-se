@@ -11,13 +11,13 @@ ms.date: 08/23/2022
 ms.author: jswymer
 ---
 
-# Visa tabellinformation
+# <a name="viewing-table-information" />Visa tabellinformation
 
 På sidan **8700 tabellinformation** finns information om antalet poster i alla system- och affärstabeller i [!INCLUDE[prod_short](includes/prod_short.md)] och hur mycket data varje tabell innehåller.
 
 Den här informationen är användbar för att felsöka prestandaproblem, eftersom du kan se fördelningen av datastorlek över tabeller.
 
-## Visa tabellinformation
+## <a name="viewing-table-information" />Visa tabellinformation
 
 Om du vill öppna sidan markerar du ![Sök på sidan eller rapporten.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Tabellinformation** och väljer sedan relaterad länk.
 
@@ -38,7 +38,7 @@ I följande tabell beskrivs de olika tabellerna som anges:
 > [!NOTE]
 > Om du tar bort data i en tabell [!INCLUDE[prod_short](includes/prod_short.md)] startas flera processer i bakgrunden för att se till att allting rensas i databasen. Värdena på sidan Tabellinformation uppdateras inte förrän dessa processer är klara, vilket kan ta ett tag. Hur lång tid du ska vänta kan variera beroende på databasens storlek.
 
-## Se även
+## <a name="see-also" />Se även
 
 [Kontrollera sidor](across-inspect-page.md)  
 [Prestandaartiklar för utvecklare](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

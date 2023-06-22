@@ -10,7 +10,7 @@ ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Skapa kostnadsbudgetar
+# <a name="creating-cost-budgets" />Skapa kostnadsbudgetar
 
 Budgetering för kostnadsredovisning liknar budgetering i redovisningen. En kostnadsbudget skapas baserat på kostnadstyper, precis som en budget för redovisningen skapas baserat på redovisningskonton.  
 
@@ -26,9 +26,9 @@ Du kan använda följande sidor för att skapa och analysera kostnadsbudgetar. V
 |Visa kostnadsbudgetjournaler och kostnadsbudgettransaktioner.|Sidan **Kostnadsbudgetregister**|  
 |Skriv ut kostnadsbudgetjämförelser med hjälp av olika rapporter.|Rapporten **Saldo/budget för kostnadsredovisning**<br /><br /> Rapporten **Kostnadsredovisning, resultaträkning/budget**<br /><br /> Rapporten **Kostnadsbudget per kostnadsställe**<br /><br /> Rapporten **Kostnadsbudget per kostnadsbärare**|  
 
-## Se relaterad [Microsoft utbildning](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-reports-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Redovisa kostnader](finance-manage-cost-accounting.md)  
 [Skapa redovisningsbudgetar](finance-how-create-budgets.md)  

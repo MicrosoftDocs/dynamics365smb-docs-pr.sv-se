@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Byta språk och region
+# <a name="changing-language-and-region" />Byta språk och region
 
 [!INCLUDE[prod_short](includes/prod_short.md)] finns på många marknader och språk runtom i världen. På de marknader där det finns [!INCLUDE[prod_short](includes/prod_short.md)] finns det regleringsfunktioner som hjälper företag med regleringar. [!INCLUDE[prod_short](includes/prod_short.md)] kan visas på olika språk. Du kan till och med ändra språket som används för att visa texter. Ändringen sker omedelbart när du har loggats ut och in igen automatiskt. Inställningen gäller för dig och inte de övriga i företaget.  
 
@@ -29,7 +29,7 @@ Du kan inte ändra de texter som lagras som programdata. Exempel på den här ty
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] har bara stöd för en enda teckenuppsättning. Därför kanske en del tecken inte stöds i din miljö och det uppstår problem med att hämta data som har registrerats med en annan teckenuppsättning. Din miljö kan till exempel endast stödja engelska och ryska tecken. I sådant fall, om du anger data på något annat språk, kan det hända att dina data inte lagras som de ska. Kontakta systemadministratören om du vill ha information om vilka språk som stöds i din [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Ändra nationella inställningar
+## <a name="changing-your-region-setting" />Ändra nationella inställningar
 
 Region skiljer sig från både språk och juridiska krav på lokala marknader. Region bestämmer hur data visas, till exempel vad gäller decimalavgränsare, och hur text justeras till vänster eller höger. Region avgör även vissa systemelement i webbläsaren, till exempel åtgärden att skapa ett nytt objekt i en lista.  
 
@@ -40,28 +40,28 @@ Du kan ändra region i fliken som du använder för att arbeta i [!INCLUDE[prod_
 
 Om du vill ändra region går du till sidan **Mina inställningar**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
-## Ändra nationella inställningar för kunder, kontakter och leverantörer
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors" />Ändra nationella inställningar för kunder, kontakter och leverantörer
 
 Vissa företag använder en extern tjänst som validerar adressuppgifter i landet eller regionen. Men när du behöver uppdatera adressinformation kanske det struktureras som de här tjänsterna använder inte alltid är det som passar för vissa situationer. Business Central ger dig ett mer flexibelt sätt att ange adressuppgifter.
 
 På sidan **Redovisningsinställningar** , om du aktiverar växlingsknappen **Kräv lands-/regionkod för adress** ändrar till fältet **Lands-/regionkod** på adresser för kunder, kontakter eller leverantörer kommer att återställa värdena i andra adressfält.
 
-## Programversion
+## <a name="application-version" />Programversion
 
 På sidan **Hjälp och support** kan du se den version av [!INCLUDE[prod_short](includes/prod_short.md)] som ditt företag är baserat på. Om du vill basera ett företag på en annan version kan administratören skapa en ny produktionsmiljö. Mer information finns i [Skapa en ny produktionsmiljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i innehållet för utvecklare och IT-proffs.  
 
-## Språk för [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen
+## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Språk för [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen
 
 Hjälpinnehållet i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] publiceras till Microsoft Learn. Innehållet är tillgängligt på olika språk. Om du har tillgång till dokumentation inifrån [!INCLUDE[prod_short](includes/prod_short.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska som standard.
 
-### Hur ändrar jag språk på Microsoft Learn-webbplatsen?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site" />Hur ändrar jag språk på Microsoft Learn-webbplatsen?
 
 Det är enkelt – bläddra längst ned på sidan och välj symbolen med en jordglob längst ned till vänster.
 
 > [!NOTE]  
 > Listan visar alla språk som stöds av Microsoft Learn-webbplatsen. [!INCLUDE[prod_short](includes/prod_short.md)] är tillgängligt i ett begränsat antal länder/regioner och [!INCLUDE [prod_short](includes/prod_short.md)] Hjälp-innehållet är inte tillgängligt på alla språk som Microsoft Learn-webbplatsen stöder.
 
-## Se även
+## <a name="see-also" />Se även
 
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  

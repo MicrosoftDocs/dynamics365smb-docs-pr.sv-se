@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Genomgång: varianter
+# <a name="walkthrough-variants" />Genomgång: varianter
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata för att lära dig om varianter.
 
-## Scenario
+## <a name="scenario" />Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera efter fråge prognosen för varje variant av artikeln SP-SCM1006, AutoDripLite. Eftersom de har olika färger måste du se till att rätt struktur används för varje variant. Kör planeringsarbetsbladet för att beräkna utbudet.  
 
-## Steg
+## <a name="steps" />Steg
 
 1. Ställ in lagerställeenheter för artikeln SP-SCM1006, AutoDripLite. Tilldela en strukturlista för SKU med varianterna rött och vitt.
 
@@ -98,6 +98,6 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera eft
 
     9. För varje skapad rad väljer du **komponent**-åtgärden och kontrollerar vilken färg som används.  
 
-## Se även
+## <a name="see-also" />Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# Administrationsuppgifter
+# <a name="administration-tasks" />Administrationsuppgifter
 
 Central administration utförs vanligtvis av en roll i företaget. Omfattningen av dessa uppgifter kan vara beroende av företagets storlek och administratörens ansvarsområden. Dessa uppgifter kan omfatta att hantera databassynkronisering av projekt och e-postköer, konfigurera användare och anpassa användargränssnittet.  
 
@@ -43,7 +43,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Ansluta Dynamics 365 Sales med [!INCLUDE[prod_short](includes/prod_short.md)] för att erhålla integreringen mellan kundrelationer och orderbehandling i processen från kundämne till betalning.|[Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ändra vilka fält och åtgärder som visas i användargränssnittet så att de passar företagets affärsprocesser och utöka lösningen med appar.|[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## Administration i administrationscentret
+## <a name="administration-in-the-admin-center" />Administration i administrationscentret
 
 Interna och delegerade administratörer har tillgång till administrationscentret för [!INCLUDE [prod_short](includes/prod_short.md)] där de kan konfigurera, övervaka och felsöka [!INCLUDE [prod_short](includes/prod_short.md)]-miljöer. I följande register beskrivs vissa huvuduppgifter, med länkar till respektive beskrivande artikel.  
 
@@ -54,16 +54,16 @@ Interna och delegerade administratörer har tillgång till administrationscentre
 |Hantera användarsessioner, inklusive att avbryta en session om användaren är blockerad.|[Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurera klientorganisationen så att den skickar telemetriska data till Azure Application Insights för bättre analys och fel sökning.|[Aktivera Skicka telemetri till Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Affärsfunktion](across-business-functionality.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

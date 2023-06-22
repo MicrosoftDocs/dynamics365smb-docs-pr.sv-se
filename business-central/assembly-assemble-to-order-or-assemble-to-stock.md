@@ -10,14 +10,14 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# Förstå montering mot kundorder och montering mot lager
+# <a name="understanding-assemble-to-order-and-assemble-to-stock" />Förstå montering mot kundorder och montering mot lager
 
 [!INCLUDE [prod_short](includes/prod_short.md)] låter dig lägga till monteringsartiklar på följande sätt:
 
 * Montering mot kundorder  
 * Montering mot lager  
 
-## Montering mot kundorder
+## <a name="assemble-to-order" />Montering mot kundorder
 
 Använd processen montering mot kundorder för artiklar som du inte vill lagerföra. Du kan till exempel ha följande orsaker:
 
@@ -43,7 +43,7 @@ När du anger en artikel för montering mot kundorder på en försäljningsorder
 
 För att ange att en artikel är monterad på beställning, i fältet **Monteringsmetod** på sidan **Artikelkort** för artikeln, välj **Montering mot kundorder**.  
 
-## Montering mot lager
+## <a name="assemble-to-stock" />Montering mot lager
 
 Använd processen montering mot lager för artiklar som du monterar och lagrar för framtida försäljning. Artiklar med montering mot lager är standardartiklar, till exempel emballerade satser, som du inte anpassar. Du kan även förbruka dessa artiklar som monteringskomponenter. Artiklarna plockas och bearbetas som enstaka artiklar och hanteras som avslutade produktionsartiklar. För att lära dig mer om monteringsartiklar, gå till [Montera artiklar](assembly-how-to-assemble-items.md).  
 
@@ -54,7 +54,7 @@ När du anger ett montering mot lager artikel på en försäljningsrad behandlas
 
 För att ange att en artikel är monterad på beställning, i fältet **Monteringsmetod** på sidan **Artikelkort** för artikeln, välj **Montering mot kundorder**.  
 
-## Kombinationsscenarion
+## <a name="combination-scenarios" />Kombinationsscenarion
 
 När montering mot kundorder och lagerkvantiteter kombineras på försäljningsorder måste antalet för montering mot kundorder levereras först.  
 
@@ -96,9 +96,9 @@ Utifrån detta exempel kan du endast ändra fältet **Antal att montera** enligt
 * Den lägsta kvantitet som du kan ange är 1. Du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
 * Den höga kvantitet som du kan ange är 4. Den här gränsen garanterar att du inte sätter samman mer av artikeln än vad du behöver för försäljningen.  
 
-## Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
