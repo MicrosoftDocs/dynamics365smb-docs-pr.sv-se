@@ -49,7 +49,7 @@ När du registrerar programmet bör du tänka på följande:
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />Konfigurera OneDrive-anslutningen i version 21 och senare
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />Konfigurera OneDrive-anslutningen i version 21 och senare
 
 Använd den här proceduren om du använder Business Central 2022, utgivningscykel 2 (version 21) eller senare.
 
@@ -74,7 +74,7 @@ Använd den här proceduren om du använder Business Central 2022, utgivningscyk
    - Om du inte redan har konfigurerat den registrerade appen för Azure AD öppnas guiden **Konfigurera Azure Active Directory**.
 6. När det är slutfört accepteras sekretessmeddelandet för OneDrive-integration för alla användare. Om du vill ändra det så att användarna måste acceptera eller avböja själva, går du till sidan **Sekretessmeddelandestatus** och väljer **Låt användaren bestämma** för OneDrive-integrationen. Användare kommer då att uppmanas att godkänna eller avböja sekretessmeddelandet första gången de använder OneDrive-funktionerna. Mer information finns i [Sekretessmeddelanden](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />Konfigurera anslutningen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 och 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Konfigurera anslutningen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 och 20
 
 Använd den här proceduren om du använder Business Central 2022, utgivningscykel 1 (version 20), eller 2021, utgivningscykel 2 (version 19).
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Använd den här proceduren om du använder Business Central 2022, utgivningscyk
 > [!IMPORTANT]
 > Sidan **SharePoint-anslutningskonfiguration** används för att konfigurera flera äldre funktioner. I avsnittet **Allmänt** konfigureras anslutningen till OneDrive och avsnittet **Delade dokument** dirigerar om filer till SharePoint i stället. **SharePoint-anslutningskonfiguration** är inaktuell och kommer att tas bort i kommande versioner. Vi rekommenderar att du inte konfigurerar avsnittet **delade dokument**. Mer information finns i [Föråldrade funktioner i basappen ](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />Efter uppgradering till version 21
+## <a name="after-upgrade-to-version-21" />Efter uppgradering till version 21
 
 När du uppgraderar till version 21 eller senare kommer den befintliga anslutningen till OneDrive som konfigurerats på sidan **SharePoint-anslutningskonfiguration** fortfarande att fungera. Men eftersom sidan **SharePoint-anslutningskonfiguration** kommer att tas bort i version 23, rekommenderar vi att du växlar till den nya OneDrive-integrationen, enligt beskrivningen i nästa avsnitt. Om du gör detta byte nu blir det enklare när **SharePoint-anslutningskonfigurationen** tas bort. Dessutom kan du använda guiden för assisterad konfiguration **OneDrive-konfiguration** för att hantera de OneDrive-funktioner som är tillgängliga för användarna.
 

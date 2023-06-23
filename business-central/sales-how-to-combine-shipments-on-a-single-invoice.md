@@ -59,7 +59,7 @@ Du kan också ta bort enskilda försäljningsorder manuellt.
 
 Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel försäljningsavropsorder.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

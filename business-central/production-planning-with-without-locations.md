@@ -67,71 +67,71 @@ Fältet **Lagerställen obligatoriska** på sidan **Lagerinställningar** samt f
 
 Se variationerna i inställningsscenarierna nedan.
 
-### <a name="setup-" />Konfiguration 1
+### <a name="setup-1" />Konfiguration 1
 
 * Lagerställe ska finnas = *Ja*  
 * Lagerställeenheten är inställd på *VÄST*  
 * Komponent vid lagerställe = *ÖST*  
 
-#### <a name="case--demand-is-at-west-location" />Fall 1.1: Behov finns vid lagerställe *VÄST*
+#### <a name="case-11-demand-is-at-west-location" />Fall 1.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras enligt planeringsparametrarna på kortet för lagerställeenheten (inklusive möjlig överföring).
 
-#### <a name="case--demand-is-at-east-location" />Fall 1.2: Behov finns vid lagerställe *ÖST*
+#### <a name="case-12-demand-is-at-east-location" />Fall 1.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
-#### <a name="case--demand-is-at-north-location" />Fall 1.3: Behov finns vid lagerställe *NORR*
+#### <a name="case-13-demand-is-at-north-location" />Fall 1.3: Behov finns vid lagerställe *NORR*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case--demand-is-at-blank-location" />Fall 1.4: Behov finns vid lagerställe *TOM*
+#### <a name="case-14-demand-is-at-blank-location" />Fall 1.4: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-### <a name="setup-" />Konfiguration 2
+### <a name="setup-2" />Konfiguration 2
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komponent vid lagerställe = *ÖST*  
 
-#### <a name="case--demand-is-at-west-location" />Fall 2.1: Behov finns vid lagerställe *VÄST*
+#### <a name="case-21-demand-is-at-west-location" />Fall 2.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case--demand-is-at-east-location" />Fall 2.2: Behov finns vid lagerställe *ÖST*
+#### <a name="case-22-demand-is-at-east-location" />Fall 2.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
 
-### <a name="setup-" />Konfiguration 3
+### <a name="setup-3" />Konfiguration 3
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komponent vid lagerställe = *ÖST*  
 
-#### <a name="case--demand-is-at-west-location" />Fall 3.1: Behov finns vid lagerställe *VÄST*
+#### <a name="case-31-demand-is-at-west-location" />Fall 3.1: Behov finns vid lagerställe *VÄST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case--demand-is-at-east-location" />Fall 3.2: Behov finns vid lagerställe *ÖST*
+#### <a name="case-32-demand-is-at-east-location" />Fall 3.2: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.  
 
-#### <a name="case--demand-is-at-blank-location" />Fall 3.3: Behov finns vid lagerställe *TOM*
+#### <a name="case-33-demand-is-at-blank-location" />Fall 3.3: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-### <a name="setup-" />Konfiguration 4
+### <a name="setup-4" />Konfiguration 4
 
 * Lagerställe ska finnas = *Ja*  
 * Ingen lagerställeenhet finns  
 * Komp. vid lagerställe = *TOM*  
 
-#### <a name="case--demand-is-at-east-location" />Fall 4.1: Behov finns vid lagerställe *ÖST*
+#### <a name="case-41-demand-is-at-east-location" />Fall 4.1: Behov finns vid lagerställe *ÖST*
 
 Artikeln planeras så här: Partiformningsmetod = *Parti-för-parti* (*Order* förblir *Order*), Ta med lager = *Ja*, alla andra planeringsparametrar = Tom.
 
-#### <a name="case--demand-is-at-blank-location" />Fall 4.2: Behov finns vid lagerställe *TOM*
+#### <a name="case-42-demand-is-at-blank-location" />Fall 4.2: Behov finns vid lagerställe *TOM*
 
 Artikeln planeras enligt planeringsparametrarna på artikelkortet.
 
@@ -139,7 +139,7 @@ Som du ser i det sista scenariet, går det bara att korrigera resultat från en 
 
 Om du ofta planerar för behov på olika lagerställen rekommenderar vi därför att du använder funktionen Lagerställeenheter.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Se relaterad utbildning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Se relaterad utbildning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

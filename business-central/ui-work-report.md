@@ -153,7 +153,7 @@ Fälten under snabbfliken **Avancerat** anger begränsningar för den genererade
 > [!NOTE]
 > De högsta värdena kan vara olika för lokala [!INCLUDE[prod_short](includes/prod_short.md)] och en administratör kan ändra dem. Läs mer i avsnittet [Konfigurera Business Central Server – Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). En översikt över rapporteringsbegränsningar i [!INCLUDE[prod_short](includes/prod_short.md)] online finns i [Operativa gränser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

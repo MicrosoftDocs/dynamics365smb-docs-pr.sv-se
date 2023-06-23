@@ -122,7 +122,7 @@ Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig up
 
 Värdet i fältet **valutakurs** på sidan **valutor** uppdateras med den senaste valutakursen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

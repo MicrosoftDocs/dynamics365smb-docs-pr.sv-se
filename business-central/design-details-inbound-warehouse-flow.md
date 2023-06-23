@@ -64,15 +64,15 @@ Följande diagram visar de inkommande distibutionslagerflödena efter dokumentty
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Grundläggande ankommande flöde i distributionslager.":::
 
-### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1. Släpp ett källdokument för att skapa en begäran om en lagerinförsel
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1. Släpp ett källdokument för att skapa en begäran om en lagerinförsel
 
 När du tar emot artiklar släpper du källdokumentet, till exempel en inköpsorder eller en ankommande överföringsorder. Om du släpper dokumentet blir artiklarna tillgängliga för införsel. Du kan också skapa lagerinförseldokument för enskilda orderrader, med en pushmetod, baserat på angivna lagerställen och antal som ska hanteras.  
 
-### <a name="-create-an-inventory-put-away" />2: Skapa lagerinförsel
+### <a name="2-create-an-inventory-put-away" />2: Skapa lagerinförsel
 
 På sidan **Lagerinförsel** kan du med pull-metod få de väntande källdokumentraderna som baseras på inkommande distributionslagerförfrågningar. Med en pushmetod kan du också skapa lagerartikelinförselraderna när du skapar källdokumentet.  
 
-### <a name="-post-an-inventory-put-away" />3: Bokför en lagerinförsel
+### <a name="3-post-an-inventory-put-away" />3: Bokför en lagerinförsel
 
 På varje rad för artiklar som har införts, delvis eller helt, fyller du i fältet **Antal** och bokför sedan lagerartikelinförseln. Källdokument som är relaterade till artikelinförsel i lager bokförs som inlevererade.  
 
@@ -89,21 +89,21 @@ Följande diagram visar de inkommande distibutionslagerflödet efter dokumenttyp
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Avancerat ankommande flöde i distributionslager":::
 
-### <a name="-release-the-source-document" />1: Släpp källdokument
+### <a name="1-release-the-source-document" />1: Släpp källdokument
 
 När du tar emot artiklar släpper du källdokumentet, till exempel en inköpsorder eller en ankommande överföringsorder. Om du släpper dokumentet blir artiklarna tillgängliga för införsel. Artikelinförsel innehåller referenser till källdokumenttypen och numret.
 
-### <a name="-create-a-warehouse-receipt" />2: Skapa dist.lager inleverans
+### <a name="2-create-a-warehouse-receipt" />2: Skapa dist.lager inleverans
 
 Sidan **Distributionslagerinleverans** hämta raderna för ankommande källdokument. Flera dokumentrader kan kombineras i ett inleveransdokument för distributionslager. Fyll i fältet **Ant. att hantera** och väljer inleveranszon och lagerplats, om det behövs.  
 
-### <a name="-post-the-warehouse-receipt" />3: Bokför lagerinleveransen
+### <a name="3-post-the-warehouse-receipt" />3: Bokför lagerinleveransen
 
 Boka distributionslagerinleveransen för att skapa positiva artikelposter. Fältet **Inlevererat antal** på den ankommande källdokumentraden uppdateras.  
 
 Om växlingsknappen **Begär artikelinförsel** inte är påslagen på lagerställekortet, det är här processen stannar. Annars kan du lägga upp det ankommande källdokumentet blir artiklarna tillgängliga för införsel. Artikelinförsel innehåller referenser till källdokumenttypen och numret.  
 
-### <a name="-optional-generate-put-away-worksheet-lines" />4: (Valfritt) Generera rader med artikelinförselkalkylark
+### <a name="4-optional-generate-put-away-worksheet-lines" />4: (Valfritt) Generera rader med artikelinförselkalkylark
 
 Hämta artikelinförselraderna i **Artikelinförsel kalkylark** baserat på bokförda lagerinleveranser eller åtgärder som producerar utdata. Välj raderna för artikelinförsel och ange följande information:
 
@@ -118,11 +118,11 @@ När alla artikelinförslar har planerats och tilldelats till lagerarbetare gene
 > [!NOTE]  
 > Om sidan **Artikelinförsel kalkylark** inte har markerats på lagerställekortet skapas distributionslagerdokument för artikelinförsel direkt baserat på bokförda distributionslagerinleveranser. I så fall behövs inte detta steg.  
 
-### <a name="-create-a-warehouse-put-away-document" />5. Skapa ett dokument för artikelinförsel i distributionslager
+### <a name="5-create-a-warehouse-put-away-document" />5. Skapa ett dokument för artikelinförsel i distributionslager
 
 Skapa ett dokument för artikelinförsel med en pullmetod baserat på den bokförda distributionslagerinleveransen. Alternativt skapas distributionslagerinförseldokumentet och tilldelas till en lagerarbetare med en pushmetod.  
 
-### <a name="-register-a-warehouse-put-away" />6: Registrera dist.lager artikelinförsel
+### <a name="6-register-a-warehouse-put-away" />6: Registrera dist.lager artikelinförsel
 
 På varje rad för artiklar som har införts, delvis eller helt, fyller du i fältet **Antal** på sidan **Dist.lager artikelinförsel** och registrerar sedan lagerartikelinförseln.  
 

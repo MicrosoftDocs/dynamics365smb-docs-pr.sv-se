@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking--fundamentals-extension" />Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension" />Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget
 När du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget kommer den data du exporterar att visas för tjänsteleverantören. Serviceleverantören är ansvarig för sekretessen för dessa data. Mer information om AMC Banking 365 Fundamentals-tillägget finns i [Använda AMC Banking 365 Fundamentals-tillägget](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Felsöka åtkomst med Microsoft 365-licenser
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Felsöka åtkomst med Microsoft 365-licenser
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />"Den här sidan använder data från relaterade tabeller som du inte har åtkomst till" felmeddelande
 
@@ -24,7 +24,7 @@ När du öppnar en post i Teams visas ett felmeddelande i en flik eller kortinfo
 
 Du saknar antagligen objektbehörigheter för tabeller som den aktuella sidan eller posten länkar till.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 åtkomst har aktiverats, men användare får ett behörighetsfel
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 åtkomst har aktiverats, men användare får ett behörighetsfel
 
 ### <a name="symptoms" />Symtom
 

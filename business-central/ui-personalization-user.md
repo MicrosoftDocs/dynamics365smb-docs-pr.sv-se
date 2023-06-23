@@ -158,7 +158,7 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
    > [!TIP]
    > Som administratör kan du dölja **automatiserade** objekt från användare. Läs mer i [Ställa in Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 [Anpassa sidor för profiler](ui-personalization-manage.md)  

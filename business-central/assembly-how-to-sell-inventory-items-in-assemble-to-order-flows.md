@@ -47,7 +47,7 @@ I den här proceduren ersätter du antalet för montering mot kundorder med lage
 > [!CAUTION]  
 > Fältet **Lagerställeskod** på försäljningsordern kan innehålla värdet från fältet **Lagerpl.kod för mont. mot lev.** eller fältet **Från monteringsplats – kod** på lagerställekortet. I så fall här kan fältet **Lagerställeskod** på försäljningsorderraden vara felaktigt i den här kombinationen av antal av montering mot kundorder och antal av montering mot lager. Det kan vara bra att titta i fältet **Lagerställeskod** och se till att det fungerar för alla antal. Alternativt kan du ange de två olika antalen på separata försäljningsorderrader.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

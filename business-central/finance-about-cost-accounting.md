@@ -68,7 +68,7 @@ På samma sätt som med budgetering i redovisningen kan du skapa budgetar för a
 
 De flesta rapporter och statistik baseras på de bokförda kostnadstransaktionerna. Du kan ange sortering av resultat och använda filter för att definiera vilka data som måste visas. Du kan skapa rapporter för kostnadsfördelningsanalys. Dessutom kan du använda ekonomiska rapporter för att ange hur dina rapporter för planen över kostnadstyper visas.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

@@ -199,7 +199,7 @@ Om du vill uppdatera priserna för flera artiklar måste du skapa en ny prislist
 
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandeln alltid är optimal, detta genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument, samt i jobb- och artikeljournalrader. Mer information finns i [Bästa prisberäkning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

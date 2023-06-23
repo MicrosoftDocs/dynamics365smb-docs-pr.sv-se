@@ -133,13 +133,13 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  ![Första exempel på orderspårningstransaktioner i registret Reservationstransaktion.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Löpnummer 8 och 9
+### <a name="entry-numbers-8-and-9" />Löpnummer 8 och 9
  För komponentbehovet för PARTIA och PARTIB skapas orderspårningslänkar från efterfrågan i tabell 5407, **Prod.orderkomponent** till tillgången i tabell 32, **Artikeltransaktion**. Fältet **Reservationsstatus** innehåller **Spårning** för att ange att dessa transaktioner är dynamiska orderspårninglänkar mellan tillgång och efterfrågan.  
 
 > [!NOTE]  
 >  Fältet **Partinr** är tomt på behovsraderna, eftersom partinumren inte har specificerats på komponentraderna för den släppta produktionsordern.  
 
-### <a name="entry-numbers-" />Löpnummer 10
+### <a name="entry-numbers-10" />Löpnummer 10
  Från försäljningsbegäran i tabell 37, **Försäljningsrad**, skapas en orderspårningslänk till leveransen i tabell 5406, **Prod.orderrad**. Fältet **Reservationsstatus** innehåller **Reservation** och fältet **Bindning** innehåller **Order-till-order**. Det beror på att den släppta produktionsordern genererats specifikt för försäljningsordern och måste förbli kopplad, till skillnad från orderspårninglänkar med reservationsstatusen **Spårning**, som skapas och ändras dynamiskt. Mer information finns i avsnittet “Automatiska reservationer” i detta ämne.  
 
  I det här skedet av scenariet överförs de 100 enheterna i PARTIA och PARTIB till lagerställe ÖST genom en överföringsorder.  
@@ -151,12 +151,12 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  ![Andra exempel på orderspårningstransaktioner i registret Reservationstransaktion.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Löpnummer 8 och 9
+### <a name="entry-numbers-8-and-9" />Löpnummer 8 och 9
  Orderspårningstransaktioner för de två partierna av komponenten visar att efterfrågan i tabell 5407 ändras från reservationsstatusen **Spårning** till **Överskott**. Anledningen är att tillgång som de var kopplade till tidigare, i tabell 32, har använts av utleveransen på överföringsordern.  
 
  Äkta överskott, som i det här fallet, återspeglar överskjutande tillgång eller efterfrågan som inte har spårats. Det är en indikation på obalansen i ordernätverket som skapar ett åtgärdsmeddelande från planeringssystemet såvida det inte löses dynamiskt.  
 
-### <a name="entry-numbers--to-" />Löpnummer 12 till 16
+### <a name="entry-numbers-12-to-16" />Löpnummer 12 till 16
  Eftersom de två partierna för komponenten bokförs på överföringsordern som levererade men inte inlevererade, är alla relaterade positiva orderspårningstransaktioner av reservationstypen **Överskott**, vilket anger att de inte är kopplade till några behov. För varje partinummer är en transaktion knuten till tabell 5741, **Överföringsrad**, och en transaktion är knuten till artikeltransaktionen på transitlagerstället där artiklarna finns nu.  
 
  I det här skedet av scenariet bokförs överföringsordern för komponenterna från lagerställe ÖST till VÄST som inlevererad.  
@@ -173,7 +173,7 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  ![Fjärde exempel på orderspårningstransaktioner i registret Reservationstransaktion.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Löpnummer 21 och 22
+### <a name="entry-numbers-21-and-22" />Löpnummer 21 och 22
  Eftersom komponentbehovet har ändrats till lagerställe ÖST och tillgången finns tillgänglig som artikeltransaktioner vid lagerställe ÖST, är alla orderspårningsposter för de två partinumren nu fullständigt spårade, vilket anges av reservationsstatusen **Spårning**.  
 
  Fältet **Partinr** fylls nu på i orderspårningstransaktionen för tabell 5407, eftersom partinummer har tilldelats produktionsorderkomponentraderna.  

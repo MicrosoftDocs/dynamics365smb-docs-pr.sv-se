@@ -179,7 +179,7 @@ Följ nedanstående instruktioner om du vill ändra namn på och beskrivning av 
     > För att hjälpa dig hitta layout, använd rutan **Sök**, **Filter** och kolumnsortering.
 3. Ändra **layoutnamn** och klicka sedan på **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

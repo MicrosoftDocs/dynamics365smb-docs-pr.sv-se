@@ -45,7 +45,7 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
  Den ursprungliga anpassade rapportlayouten ersätts med den importerade rapportlayouten.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

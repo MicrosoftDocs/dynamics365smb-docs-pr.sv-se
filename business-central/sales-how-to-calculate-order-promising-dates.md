@@ -128,7 +128,7 @@ Innan ett objekt kan tas med i orderlöftesberäkningen, måste den markeras som
     - Markera **Kapabel att lova** om du vet att artikeln för närvarande är slut på lagret och vill beräkna det tidigaste datum då artikeln kan vara disponibel genom att skicka ut nya påfyllningsrekvisitioner.  
 5.  Välj **Acceptera** om du accepterar det tidigaste leveransdatum som är tillgängligt.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

@@ -33,7 +33,7 @@ När du skapar en ny journalrad, dokumenthuvud eller dokumentrad kan du ange en 
 
 När du redigerar och stänger sidan **Redigera dimensionsuppsättningstrans.** utförs en kontroll för att se om kombinationen av dimensionsvärden finns som en dimensionsuppsättning i tabellen. Om kombinationen finns i tabellen tilldelas motsvarande dimensionsuppsättnings-ID till journalraden, dokumenthuvudet eller dokumentraden. Annars läggs en ny dimensionsuppsättning till tabellen och det nya dimensionsuppsättnings-ID:t tilldelats journalraden, dokumenthuvudet eller dokumentraden.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 Dimensionshantering
+## <a name="codeunit-408-dimension-management" />Codeunit 408 Dimensionshantering
 Codeunit 408, Dimensionshantering, är ett funktionsbibliotek som hanterar gemensamma uppgifter som är kopplade till dimensioner, till exempel kopiering från en tabell till en annan eller från ett dokument till ett annat.
 
 ## <a name="performance-improvement" />Prestandaförbättring

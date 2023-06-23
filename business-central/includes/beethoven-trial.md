@@ -14,11 +14,11 @@ Använd din e-postadress för arbetet eller skolan. Vi upprättar din utvärderi
 
 Denna app är en molnbaserad tjänst som inte kräver någon särskild programvara annat än en uppdaterad webbläsare, men vissa begränsningar gäller.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" />Hur registrerar jag mig för utvärderingsversionen utan en Microsoft 365-klientorganisation?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" />Hur registrerar jag mig för utvärderingsversionen utan en Microsoft 365-klientorganisation?
 
 Det kan du inte. Använd en e-postadress för arbetet eller skolan.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" />Kan jag registrera mig för andra Dynamics 365-appar som Sales, Marketing och Customer Service?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" />Kan jag registrera mig för andra Dynamics 365-appar som Sales, Marketing och Customer Service?
 
 Ja det kan du. Om du vill visa alla tillgängliga utvärderingsversioner [besöker du sidan för utvärderingsnav](https://dynamics.microsoft.com/dynamics-365-free-trial). Du kan använda samma e-postkonto för att registrera dig för olika utvärderingsversioner.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

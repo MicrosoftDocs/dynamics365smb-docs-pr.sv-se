@@ -61,7 +61,7 @@ Om annulleringen är knuten till en delfakturabokföring uppdateras den ursprung
     En försäljningskreditnota skapas automatiskt och bokförs för att makulera den ursprungligt bokförda försäljningsfakturan.
 5. Välj åtgärden **Visa korrigerande kreditnota** för att visa de bokförda försäljningskreditnotorna som annullerar den ursprungliga bokförda försäljningsfakturan.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

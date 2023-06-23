@@ -27,7 +27,7 @@ Du kan ange alla relevanta data på sidan **företagsinformation** när du uppr�
 
 När du har fyllt i informationen kan du stänga sidan.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

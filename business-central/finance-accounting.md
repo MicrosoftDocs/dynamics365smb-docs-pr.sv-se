@@ -45,7 +45,7 @@ Vi har gjort det lätt för dig att bjuda in en extern revisor. Öppna bara sida
 >
 > För den här uppgiften krävs åtkomst till hantering av användare och licenser i Azure Active Directory. Användaren som skickar den här inbjudan måste tilldelas rollen **Global administratör** eller **Användaradministratör** i administratörscentret för Microsoft 365. Mer information finns i [Om administratörsroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratörsinnehållet.  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Lägga till din revisor i Microsoft 365 i Azure Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Lägga till din revisor i Microsoft 365 i Azure Portal
 
 Om din administratör eller återförsäljarpartner inte vill använda guiden **Bjud in extern revisor** kan de lägga till en extern användare i Azure-portalen och tilldela denna användare licensen *Extern revisor*. Mer information finns i [Snabbstart: Lägg till gästanvändare i din katalog i Azure Portal](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

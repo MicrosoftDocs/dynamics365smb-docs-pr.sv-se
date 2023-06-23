@@ -43,7 +43,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

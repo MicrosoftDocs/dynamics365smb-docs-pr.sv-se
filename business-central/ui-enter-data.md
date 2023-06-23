@@ -275,7 +275,7 @@ Anta exempelvis att du använder ett numeriskt tangentbord som använder en punk
 > [!TIP]
 > Ibland kan det hända att du vill använda decimaltecknet för att ange en punkt (.). Anta att du har angett ett datumintervall i ett filter, t.ex. `01/01/2022..04/01/2022` eller något som kräver en punkt. För att använda detta, välj tangenterna <kbd>Alt</kbd>+<kbd>decimalavgränsare</kbd> på det numeriska tangentbordet. Denna tangentkombination växlar decimaltecknet mellan en punkt och den decimalavgränsare som bestäms av inställningen **region**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

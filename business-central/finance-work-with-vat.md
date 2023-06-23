@@ -234,7 +234,7 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 > * Så här skapar du manuellt ett leveransintyg  
 > * Så här skriver du ut ett leveransintyg.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

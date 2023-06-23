@@ -87,7 +87,7 @@ Microsofts partner och återförsäljare kan skapa en app som de kan använda f�
 > [!NOTE]
 > Om du är Microsoft-partner eller återförsäljare och vill tillhandahålla en lista över rekommenderade appar, se [Rekommenderade appar från AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrationsinnehållet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

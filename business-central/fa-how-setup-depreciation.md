@@ -84,7 +84,7 @@ För varje avskrivningsregel anger du en standardinställning för mallar och jo
 3. Om du vill ha en standardinställning för varje användare väljer du fältet **Användar-ID** så visas sidan **Användare**.  
 4. Välj journalmallen eller journalen som ska användas som standard i de andra fälten.  
 
-## <a name="fiscal-year--days-field-depreciation" />Räkenskapsår på 365 dagar, fältavskrivning
+## <a name="fiscal-year-365-days-field-depreciation" />Räkenskapsår på 365 dagar, fältavskrivning
 
 När batchjobbet Beräkna avskrivning körs används normalt ett standardår med 360 dagar där varje månad har 30 dagar.
 

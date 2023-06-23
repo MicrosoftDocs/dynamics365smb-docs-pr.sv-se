@@ -116,7 +116,7 @@ Om du använder Business Central lokalt kan det vara något annorlunda att insta
 
 Du är nu redo att börja använda tillägget i Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

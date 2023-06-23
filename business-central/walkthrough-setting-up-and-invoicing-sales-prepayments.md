@@ -235,7 +235,7 @@ Du har också bokfört en förskottsfaktura, skapat en andra förskottsfaktura n
 
 Funktionerna för förskottsbetalning gör det enklare att lägga upp och använda förskottsbetalningsregler för kunder och artiklar. De ger dig också möjlighet att bokföra varje betalning mot en faktura.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

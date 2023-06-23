@@ -12,7 +12,7 @@ ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 53
 ms.date: 09/16/2022
 ms.author: bholtorf
 ---
-# <a name="use-dynamics--sales-from-business-central" />Använda Dynamics 365 Sales från Business Central
+# <a name="use-dynamics-365-sales-from-business-central" />Använda Dynamics 365 Sales från Business Central
 Om du använder Dynamics 365 Sales for Customer Engagement kan du utnyttja sömlös integrering i processen från kundämne till betalning genom att använda [!INCLUDE[prod_short](includes/prod_short.md)] för underliggande verksamhet som bearbeta order, hantering av lager och hantera de ekonomiska transaktionerna.
 
 Innan du kan använda integreringsfunktionerna måste din systemadministratör ställa in anslutningen och definiera användarna i [!INCLUDE[crm_md](includes/crm_md.md)]. Mer information finns i [Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).

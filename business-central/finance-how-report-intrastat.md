@@ -116,7 +116,7 @@ När du arbetar med **Intrastat-rapporten** visas fältet **Status** i dokumenth
 * *Släppt*: [!INCLUDE[prod_short](includes/prod_short.md)] ändrar automatiskt statusen till *Släppt* när du skapar en fil. Från det tillfället kan du inte ändra **Intrastat-rapporten**. Om du behöver ändra något och rapportera igen kan du använda åtgärden **Öppna igen** för att öppna Intrastat-rapporten på nytt. När dokumentet har öppnats igen kan du använda åtgärden **Släpp** för att frisläppa dokumentet igen.
 * **Rapporterad**: Anger om transaktionen redan har rapporterats till skattemyndigheterna. Detta är inte en vanlig status, utan ett oberoende fält, och även om du öppnar Intrastat-rapporten igen, visas fortfarande att filen redan har skapats för rapporten.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se även
 

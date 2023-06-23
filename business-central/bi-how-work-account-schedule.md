@@ -184,7 +184,7 @@ Du kan importera och exportera ekonomiska rapporter som RapidStart-konfiguration
 > [!NOTE]
 > När du importerar ekonomiska rapporter kommer befintliga poster som har samma namn som de som importeras att tas bort.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics--business-centralindex" />Se relaterad [Microsoft-utbildning](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Se relaterad [Microsoft-utbildning](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se även
 

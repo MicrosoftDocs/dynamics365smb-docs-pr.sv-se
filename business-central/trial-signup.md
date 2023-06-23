@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# <a name="sign-up-for-a-free-dynamics--business-central-trial" />Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial" />Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central
 
 Business Central erbjuder en kostnadsfri utvärderingsversion. Efter en snabb registrering får du tillgång till många av appens viktigaste funktioner. Med utvärderingsversionen kan du testa appen med exempeldata. Om du vill testa saker med dina egna data kan du växla till en kostnadsfri 30-dagars utvärderingsversion. [Läs mer om att Business Central](across-business-functionality.md).  
 
@@ -38,7 +38,7 @@ Du kan även kontakta [[!INCLUDE[prod_short](includes/prod_short.md)]-försäljn
 
 Mer information om vad du kan göra med [!INCLUDE [prod_short](includes/prod_short.md)] finns i [Gör dig redo att göra affärer](ui-get-ready-business.md) och [Affärsfunktion](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources" />Ytterligare resurser
 

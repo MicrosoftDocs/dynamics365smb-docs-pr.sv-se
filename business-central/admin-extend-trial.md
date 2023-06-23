@@ -45,7 +45,7 @@ Om den utökade utvärderingsperioden förfaller, kan du [prenumerera](https://g
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

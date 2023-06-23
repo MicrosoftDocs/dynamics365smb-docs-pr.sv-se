@@ -134,7 +134,7 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 7. Expandera snabbfliken för **Azure AI** och fyll sedan i fälten, inklusive API-URL och API-nyckel från Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. I rollcentret Revisor väljer du åtgärden **Omberäkna prognos** under diagrammet **Kassaflödesprognos**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

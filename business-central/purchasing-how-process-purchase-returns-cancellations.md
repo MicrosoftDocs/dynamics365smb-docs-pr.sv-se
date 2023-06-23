@@ -181,7 +181,7 @@ När returutleveranser kombineras på en kreditnota och sedan bokförs skapas en
 2. Fyll i fälten på efter behov och välj sedan knappen **OK**.  
 3. Du kan också ta bort enskilda inköpsreturorder manuellt.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 [Inköp](purchasing-manage-purchasing.md)  

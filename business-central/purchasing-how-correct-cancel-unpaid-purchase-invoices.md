@@ -51,7 +51,7 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 
 Om annulleringen är knuten till en delfakturabokföring uppdateras den ursprungliga inköpsorderraden så att den återspeglar det annullerade fakturerade antalet. Fälten **Ant. att fakturera** och **Antal fakturerat** på den relaterade inköpsorderraden återställs till värdena före delbokföringen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-central" />Se relaterad [Microsoft utbildning](/training/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
 ## <a name="see-also" />Se även
 

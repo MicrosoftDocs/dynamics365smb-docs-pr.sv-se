@@ -26,7 +26,7 @@ Om en leverantör har ett eller flera bankkonton och du vill ställa in ett öns
 2. Öppna kortet för leverantören.
 3. På snabbfliken **betalningar** väljer du standard leverantörs bank kontot i fältet **Föredragen bankkontokod**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

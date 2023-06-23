@@ -89,7 +89,7 @@ Betalningstoleransens standardinställning är tillåten. Du inaktiverar toleran
 > [!NOTE]  
 > Om det finns öppna transaktioner för kunden eller leverantören tillfrågas du om du vill ta bort betalningstoleransen från transaktioner som är öppna för tillfället.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Exempel 1 – toleransberäkningar för enstaka dokument
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Exempel 1 – toleransberäkningar för enstaka dokument
 
 Följande är några exempelscenarier som visar förväntade toleransberäkningar och bokföringar i olika situationer.  
 
@@ -127,7 +127,7 @@ Scenarier med alternativ A och B motsvarar dessa följande:
 
 I relation till scenariot ovan kan betalningsintervallen illustreras på följande sätt:  
 
-#### <a name="-payment-date--scenarios--" />(1) Betalningsdatum <=03-01-15 (scenarier 1–3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betalningsdatum <=03-01-15 (scenarier 1–3)
 
 Återstående belopp per  
 
@@ -139,7 +139,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Betalningsdatumet infaller mellan 03-01-16 och 03-01-20 (scenario 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) Betalningsdatumet infaller mellan 03-01-16 och 03-01-20 (scenario 4-9)
 
 Återstående belopp per  
 
@@ -151,7 +151,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) Betalningsdatum infaller efter 03-01-20 (scenario 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) Betalningsdatum infaller efter 03-01-20 (scenario 10-15)
 
 Återstående belopp per  
 
@@ -163,7 +163,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Exempel 2 – toleransberäkningar för flera dokument
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Exempel 2 – toleransberäkningar för flera dokument
 
 Följande är några exempelscenarier som visar förväntade toleransberäkningar och bokföringar i olika situationer. Exemplen gäller bara de scenarier som resulterar i att alla poster i programmet stängs.  
 
@@ -215,7 +215,7 @@ Scenarier med alternativ A, B, C, eller D motsvarar dessa följande:
 
 I relation till scenariot ovan kan betalningsintervallen illustreras på följande sätt:  
 
-#### <a name="-payment-date--scenarios--" />(1) Betalningsdatum <=03-01-15 (scenarier 1–3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betalningsdatum <=03-01-15 (scenarier 1–3)
 
 Återstående belopp per  
 
@@ -227,7 +227,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Betalningsdatumet infaller mellan 03-01-16 och 03-01-17 (scenario 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) Betalningsdatumet infaller mellan 03-01-16 och 03-01-17 (scenario 4-9)
 
 Återstående belopp per  
 
@@ -239,7 +239,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) Betalningsdatumet infaller mellan 03-01-18 och 03-01-20 (scenario 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) Betalningsdatumet infaller mellan 03-01-18 och 03-01-20 (scenario 10-21)
 
 Återstående belopp per  
 
@@ -251,7 +251,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) Betalningsdatumet infaller mellan 03-01-21 och 03-01-22 (scenario 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) Betalningsdatumet infaller mellan 03-01-21 och 03-01-22 (scenario 22-27)
 
 Återstående belopp per  
 
@@ -263,7 +263,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) Betalningsdatum infaller efter 03-01-22 (scenario 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) Betalningsdatum infaller efter 03-01-22 (scenario 28-30)
 
 Återstående belopp per  
 
@@ -275,7 +275,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

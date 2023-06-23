@@ -16,7 +16,7 @@ När du stänger en sida när du har redigerat en uppsättning med dimensioner u
 ## <a name="building-search-tree" />Bygga sökträd
  Tabell 481 **Trädnod för dimensionsuppsättning** används när [!INCLUDE[prod_short](includes/prod_short.md)] utvärderar om en dimensionsuppsättning redan finns i tabell 480 **Dimensionsuppsättnings transaktion**. Utvärderingen utförs av rekursivt genomgång av sökträdet från toppnivån nummer 0. Den översta nivån 0 representerar en dimension utan dimensionsuppsättningstransaktioner. De underordnade uppsättningarna till denna dimensionsuppsättning representerar dimensionsuppsättningar med endast en dimensionsuppsättningstransaktion. De underordnade uppsättningarna till dessa dimensionsuppsättningar representerar dimensionsuppsättningar med två underordnade, och så vidare.  
 
-### <a name="example-" />Exempel 1
+### <a name="example-1" />Exempel 1
  Följande diagram representerar ett sökträd med sex dimensionsuppsättningar. Endast den särskiljande dimensionsuppsättningstransaktionen visas i diagrammet.  
 
  ![Exempel på en dimensionsträdsstruktur.](media/nav2013_dimension_tree.png "Exempel på en dimensionsträdsstruktur")  
@@ -33,7 +33,7 @@ När du stänger en sida när du har redigerat en uppsättning med dimensioner u
 |Frågesvar 5|AREA 40|  
 |Frågesvar 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Exempel 2
+### <a name="example-2" />Exempel 2
  I det här exemplet visas hur [!INCLUDE[prod_short](includes/prod_short.md)] utvärderar om en dimensionsuppsättning som består av dimensionsuppsättningstransaktionerna AREA 40, DEPT PROD finns.  
 
  Först [!INCLUDE[prod_short](includes/prod_short.md)] uppdateras även tabellen **Trädnod för dimensionsuppsättning** för att se till att sökträdet ser ut som på bilden. På så sätt blir dimensionsuppsättning 7 underordnad dimensionsuppsättning 5.  

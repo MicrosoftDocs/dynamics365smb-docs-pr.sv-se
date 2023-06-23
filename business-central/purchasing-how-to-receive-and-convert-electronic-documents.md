@@ -52,7 +52,7 @@ Efterföljande procedur beskriver hur du tar emot en leverantörsfaktura och den
 
     Eventuella valideringfel som vanligtvis beror på fel eller saknade huvuddata i [!INCLUDE[prod_short](includes/prod_short.md)], visas på snabbfliken **Felmeddelanden**.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

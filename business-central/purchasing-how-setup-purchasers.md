@@ -29,7 +29,7 @@ Om flera inköpare arbetar i företaget kan du lägga upp dem på en sida och ti
 2. Öppna leverantörskortet för den leverantör som du vill koppla en inköpare till.
 3. På sidan **Inköparkod** markera lämplig inköparkod och stäng sedan fönstret.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

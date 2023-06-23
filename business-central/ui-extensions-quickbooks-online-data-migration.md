@@ -62,7 +62,7 @@ Det finns några saker som du bör göra:
 * Om du använder moms kan du behöva lägga till en rörelsebokföringsmall och en produktbokföringsmall till bokföringsinställningar så att du kan bokföra moms.
 * Kontrollera de ingående saldona för konton i redovisningen. QuickBooks Online sparar inte aktuellt saldo för alla konton, så du kan behöva åtgärda ingående saldon.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

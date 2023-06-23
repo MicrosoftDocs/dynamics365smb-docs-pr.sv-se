@@ -75,7 +75,7 @@ Du kan också tilldela till artikelattribut till artikelkategorier, som sedan ko
 
 Artiklarna på sidan **Artiklar** filtreras efter de angivna artikelattributvärdena.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

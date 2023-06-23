@@ -126,7 +126,7 @@ Om något är fel visar [!INCLUDE[prod_short](includes/prod_short.md)] sidan **f
 > [!NOTE]
 > Fel hanteringen som beskrivs ovan är inte tillgänglig för artikel-, resurs-, personal- och anläggningstillgångsjournaler eller för redovisningskonton som lagts till i lokala versioner av bokföringsmallar.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesposting-groups-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesposting-groups-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/posting-groups-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

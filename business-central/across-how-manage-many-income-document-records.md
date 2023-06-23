@@ -47,7 +47,7 @@ Alla inkommande dokumentposter visas inklusive de som inte har kryssrutan **Beha
 > [!NOTE]  
 > Du kan också utföra den preliminära för den individuella transaktionen på sidan **inkommande dokumentkort**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
   

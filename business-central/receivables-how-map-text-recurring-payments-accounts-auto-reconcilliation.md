@@ -52,7 +52,7 @@ Fyll i en rad på sidan **Text-till-konto-mappning** enligt följande för att a
 | --- | --- | --- | --- | --- |
 | MyBank |TOM |60400|Redovisningskonto |TOM |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

@@ -282,7 +282,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
  Med sidan **Artikelspårning** fick kvalitetskontrollanten veta att de defekta racercykelramarna kom från PARTI1, vilken leverantör som levererat dem samt i vilka bokförda transaktioner de förekommit. Kvalitetskontrollanten måste nu fastställa om PARTI1 förekommer i något öppet dokument genom att integrera från spårningsresultatet till sidan **Hitta transaktioner**, där han/hon kan utföra en sökning i alla databasposter.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />Så här hittar du alla förekomster av PARTI1 i icke-bokförda poster, t. ex. öppna order
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />Så här hittar du alla förekomster av PARTI1 i icke-bokförda poster, t. ex. öppna order
 
 1.  På sidan **Artikelspårning** markerar du pekaren på den första spårningsraden, som är inleveransen för PARTI1.  
 2.  Välj åtgärden **Hitta transaktioner**.  

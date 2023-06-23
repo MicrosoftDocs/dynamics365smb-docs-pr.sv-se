@@ -133,7 +133,7 @@ Nu kan Ken koppla kolumndefinitionen till namnet på den ekonomiska rapporten.
 2. På sidan **Ekonomisk rapport** kan du ange ett belopp och sedan visa transaktionerna i kassaflödesprognosen som utgör beloppet. Dessutom kan du visa formeln som används för att beräkna beloppet. Du kan också filtrera beloppen efter datum och dimension.  
 3. Välj åtgärden **Skriv ut** när du vill skriva ut kassaflödesprognosen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

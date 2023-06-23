@@ -70,7 +70,7 @@ Följande tabell visar vilka filter är möjliga för olika fördelningsbaser oc
 |Sålda artiklar (belopp)|Artikelnr|Ja|Ja|Ja|Lagerbokföringsmall|  
 |Inköpta artiklar (belopp)|Artikelnummer|Ja|Ja|Ja|Lagerbokföringsmall|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Scenario 1: Definiera fast distribution beräknad på fördelningskvot
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Scenario 1: Definiera fast distribution beräknad på fördelningskvot
 
 Statisk fördelning är baserad på ett visst värde, till exempel kvadratmeter eller en fastställd fördelningskvot, till exempel 5:2:4.  
 
@@ -110,7 +110,7 @@ I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] beräknar automatiskt fältet **Procent** med hjälp av ett procenttal som är beroende av alla tre fördelningskvoterna, som anges i fältet **Del** för alla tre rader.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Scenario 2 – Definiera dynamisk distribution beräknad på sålda artiklar
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Scenario 2 – Definiera dynamisk distribution beräknad på sålda artiklar
 
 I det här avsnittet innehåller exempel på hur du definierar fördelningar med dynamisk fördelning. I exemplet ändrar du dynamisk fördelning av kostnaderna för de SALES-kostnadsstället för att det ska fungera med den nya kostnadsbäraren IT EQUIPMENT. IT EQUIPMENT-paketet har artikelnummer i intervallet 8904-W till 8924-W. Du kan använda föregående års försäljningssiffror för att beräkna antalet andelen. Fördelningen bokförs på hjälpkostnadstypen 9903.  
 
@@ -137,7 +137,7 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

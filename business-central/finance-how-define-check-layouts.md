@@ -45,7 +45,7 @@ I uppdatering 15.3 och nyare installeras magnetiskt bläcktecken igenkänningste
 > [!NOTE]
 > Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[prod_short](includes/prod_short.md)]-miljön.
 
-### <a name="micr-e-b-specifications" />MICR E-13B specifikationer
+### <a name="micr-e-13b-specifications" />MICR E-13B specifikationer
 
 I följande avsnitt sammanfattas specifikationerna för de MICR-E-13B teckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
@@ -57,7 +57,7 @@ I följande avsnitt sammanfattas specifikationerna för de MICR-E-13B teckensnit
 
 Den fullständiga specifikationen av MICR E-13B teckensnitt finns i leverantörens dokumentation här: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />MICR CMC-7 specifikationer
+### <a name="micr-cmc-7-specifications" />MICR CMC-7 specifikationer
 
 Följande CMC-7 teckensnitt finns tillgängliga [!INCLUDE[prod_short](includes/prod_short.md)] online:
 

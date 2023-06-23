@@ -80,7 +80,7 @@ När du söker efter en öppen listsida, till exempel listan **försäljningsord
 
 Men när du öppnar samma listsida från start sidan finns inte åtgärden **hantera**. Om du vill öppna en enskild försäljningsorder i stället väljer du fältet **nummer**. I den här vyn kan du inte fästa åtgärdsfältet.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

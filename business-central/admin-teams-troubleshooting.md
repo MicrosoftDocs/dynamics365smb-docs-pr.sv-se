@@ -182,7 +182,7 @@ Problemet beror förmodligen på att du har delat en listvy som är en personlig
 [Ändra företag och andra inställningar i Teams](across-teams-settings.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includedfinincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

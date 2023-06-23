@@ -46,7 +46,7 @@ När du har gjort ett val anger du relevant sökningsinformation i fälten läng
 > [!TIP]
 > Ett par exempel på hur du använder **Hitta transaktioner** finns i [Spåra artikel-Spårade artiklar](inventory-how-to-trace-item-tracked-items.md) och [Genomgång: Spåra serie-/partinummer](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

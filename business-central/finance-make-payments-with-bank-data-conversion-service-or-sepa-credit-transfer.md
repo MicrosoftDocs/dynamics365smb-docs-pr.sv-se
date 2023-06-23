@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Gör betalningar med tillägget AMC Banking 365 Fundamentals eller SEPA-kreditöverföring
 
 På sidan **Betalningsjournal** kan du behandla betalningar till dina leverantörer genom att exportera en fil tillsammans med betalningsinformation från på journalraderna. Du kan sedan överföra filen till den elektroniska banken där relaterade pengaöverföringar bearbetas. [!INCLUDE[prod_short](includes/prod_short.md)] stödjer SEPA kreditöverföringar-format, men andra format för elektroniska betalningar i ditt land/din region kan finnas.
 
@@ -23,7 +23,7 @@ På sidan **Betalningsjournal** kan du behandla betalningar till dina leverantö
 > [!NOTE]  
 > När du har verifierat att betalningarna har behandlats korrekt av banken kan du fortsätta att bokföra utbetalningsjournalraderna.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />Konfigurera tillägget AMC Banking 365 Fundamentals
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />Konfigurera tillägget AMC Banking 365 Fundamentals
 
 Aktivera tillägget AMC Banking 365 Fundamentals om du vill få en eventuell bankutdragsfil konverterad till ett format som du kan importera eller få dina exporterad betalningsfiler konverterade till det format som din bank kräver. Mer information finns i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).
 

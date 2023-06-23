@@ -138,7 +138,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Planeringsraden för artikeln 1300, Kedjemont, föreslår tio enheter. Detta avviker från de fem styckena som vi förväntas behöva för att uppfylla försäljningsorder. Fortsätt med att visa dessa beställningsspårningposter.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Visa orderspårningsposter för artikel 1300
+### <a name="to-view-order-tracking-entries-for-item-1300" />Visa orderspårningsposter för artikel 1300
 
 1.  Markera planeringsraden för artikeln 1300 och klicka sedan på **Orderspårning**.  
 
@@ -234,7 +234,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Flera planeringsrader multipliceras enkelt med tre för att ge 15 touringcyklar i stället för 5, och förfallodatumen flyttas tillbaka för att ge de ökade antalet till försäljningsorderns utleveransdatum till Fotograferna AB. För dessa planeringsrader kan alla kvantiteter spåras. De återstående planeringsraderna ökas med tio stycken förutom att deras förfallodatum flyttas. För dessa planeringsrader är en del av antalen ospårade på grund av olika planeringsparametrar. Fortsätt med att visa några av dessa beställningsspårningposter.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Visa orderspårningsposter för artikel 1250
+### <a name="to-view-order-tracking-entries-for-item-1250" />Visa orderspårningsposter för artikel 1250
 
 1.  Markera planeringsraden för artikeln 1250 och klicka sedan på **Orderspårning**.  
 

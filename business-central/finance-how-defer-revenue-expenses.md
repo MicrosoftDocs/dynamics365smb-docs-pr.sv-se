@@ -102,7 +102,7 @@ Om du har gjort det måste du göra ett undantag för att tillåta dem att bokf�
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Redovisningsinställningar** eller **Användarinställningar** och välj sedan relaterad länk.
 2. I fälten **Tillåt periodiseringsbokföring från** och **Tillåt periodiseringsbokföring till** anger du ett start- och slutdatum för perioden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

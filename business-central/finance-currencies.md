@@ -29,7 +29,7 @@ Du anger valutakoder i listan **Valutor**, inklusive extra information och inst�
 
 Valutakurserna är det verktyg som används för att beräkna värdet i den lokala valutan (BVA) för varje valutatransaktion. Mer information finns i [uppdatera valutakurser](finance-how-update-currencies.md).  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

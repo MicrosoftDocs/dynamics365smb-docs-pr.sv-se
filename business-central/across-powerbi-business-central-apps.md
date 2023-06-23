@@ -144,7 +144,7 @@ I Power BI-appen visas endast data från [!INCLUDE[prod_short](includes/prod_sho
 - [Välj en panel](/power-bi/service-dashboard-tiles) för att öppna den underliggande rapporten.  
 - Din datauppsättning har inte schemalagts att uppdateras som standard. Du kan ändra uppdateringsuppställningen eller försöka uppdatera den på begäran med **Uppdatera nu**. Mer information finns i [Konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

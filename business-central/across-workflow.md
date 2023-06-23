@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Arbetsflöden i Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Arbetsflöden i Dynamics 365 Business Central
 
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemaktiviteter, till exempel automatisk bokföring, kan inkluderas som arbetsflöden. Systemaktiviteter kan föregås eller följas av användaraktiviteter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.
 

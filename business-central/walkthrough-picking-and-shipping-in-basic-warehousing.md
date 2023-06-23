@@ -77,7 +77,7 @@ För att kunna använda den här funktionen måste du lägga till dig själv til
   3. I fältet **Lagerställekod** väljer du SYD.  
   4. Välj fältet **Standard** och sedan knappen **Ja**.  
 
-### <a name="making-item--s-available" />Göra punkt 1928-S tillgänglig
+### <a name="making-item-1928-s-available" />Göra punkt 1928-S tillgänglig
 
 Gör artikeln 1928-S tillgänglig på lagerstället SYD, genom att följa nedanstående steg:  
 

@@ -136,7 +136,7 @@ Avsnittet innehåller följande procedurer:
     |---------------------------------|---------------------------------------|  
     |**Redovisningskonto för rader utan artikel**|Anger det redovisningskonto som infogas automatiskt på inköpsrader, som skapas från elektroniska dokument när den inkommande dokumentraden inte innehåller en identifierbar artikel. Inkommande dokumentrader som inte har ett EAN- eller leverantörsartikelnummer konverteras till en inköpsrad av typen **Redovisningskonto**, och **Nr** på inköpsraden innehåller det konto som du väljer i den **Redovisningskonto för rader utan artikel**.<br /><br /> Om du lämnar fältet **Redovisningskonto för rader utan artikel** tomt, och det inkommande dokumentet har rader utan identifierbara artiklar, kommer inköpsdokumentet inte att skapas. Ett felmeddelande visas med instruktion om att du måste fylla i fältet **Redovisningskonto för rader utan artikel** innan du kan slutföra uppgiften.|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 [Utbyta data elektroniskt.](across-data-exchange.md)   

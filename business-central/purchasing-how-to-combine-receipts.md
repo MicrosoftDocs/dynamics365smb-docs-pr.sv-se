@@ -42,7 +42,7 @@ Du kan också ta bort enskilda order manuellt.
 
 Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel inköpsavropsorder.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

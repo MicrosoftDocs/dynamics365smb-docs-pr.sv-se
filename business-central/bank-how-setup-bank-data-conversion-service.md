@@ -11,7 +11,7 @@ ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-the-amc-banking--fundamentals-extension" />Konfigurera AMC Banking 365 Fundamentals-tillägget
+# <a name="set-up-the-amc-banking-365-fundamentals-extension" />Konfigurera AMC Banking 365 Fundamentals-tillägget
 En global tjänstleverantör för att konvertera betalningsinformation till alla dataformat som din bank kräver är ansluten och redo att aktiveras i [!INCLUDE[prod_short](includes/prod_short.md)]. I [!INCLUDE[prod_short](includes/prod_short.md)] betecknas detta som tillägget AMC Banking 365 Fundamentals.
 
 Du kan exportera betalningsrader från sidan **Utbetalningsjournal** till en en fil eller en dataström som du sedan överför till din bank för automatisk behandling, så att du inte behöver göra electroniska betalningar individuellt. Mer information finns i [Så här exporterar du betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -25,7 +25,7 @@ Om du vill importera eller exportera bankfiler måste du ställa in ditt eget ba
 > [!NOTE]  
 > AMC Banking 365 Fundamentals-tillägget kan komma att begränsa antalet rader som kan exporteras i en och samma fil. Du får ett felmeddelande om gränsen överskrids. Bankutlåtandefiler bör inte överskrida 1 000 rader, detta eftersom bearbetningstiden i AMC Banking 365 Fundamentals-tillägget annars kan komma att förlängas avsevärt.
 
-## <a name="to-sign-your-company-up-for-the-amc-banking--fundamentals-extension" />För att registrera ditt företag för AMC Banking 365 Fundamentals-tillägget
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension" />För att registrera ditt företag för AMC Banking 365 Fundamentals-tillägget
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Installation av konv.tjänst för bankdata** och väljer sedan relaterad länk.  
 2. Sidan **Installation av konv.tjänst för bankdata** öppnas, med tre fält förifyllda med relevanta URL:er tillhörande leverantören av AMC Banking 365 Fundamentals-tillägget.
 

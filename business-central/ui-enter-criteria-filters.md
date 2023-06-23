@@ -172,7 +172,7 @@ När du anger kriterier kan du använda alla siffror och bokstäver som du norma
 > [!TIP]
 > Om du använder ett numeriskt tangentbord kan du använda decimal tecknet för att skriva ett tecken som inte är punkt (.). Om du vill växla till en punkt trycker du på tangenterna <kbd>Alt</kbd>+<kbd>decimalavgränsare</kbd> på det numeriska tangentbordet. När du vill växla tillbaka trycker du på <kbd>Alt</kbd>+<kbd>decimalavgränsare</kbd> igen. För mer information, se [Ange decimalavgränsare som används av numeriska tangentbord](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) Antingen eller
+#### <a name="124-eitheror" />(&#124;) Antingen eller
 
 |Exempel|Poster som visas|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Använd `%myvendors` i fältet leverantörs**nr** om du vill visa alla poster f�
 |-----------------------|-----------------------|  
 |`%myvendors`|Leverantörer i **mina leverantörer** i rollcentret. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

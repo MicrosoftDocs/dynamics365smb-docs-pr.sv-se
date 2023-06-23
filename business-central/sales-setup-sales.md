@@ -33,7 +33,7 @@ Finansrelaterade försäljningar, till exempel betalningssätt och valutor, besk
 |Ange information om de olika transportleverantörerna som du använder, bland annat en länk till deras godsupplysningstjänst.|[Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 [Försäljning](sales-manage-sales.md)  

@@ -33,11 +33,11 @@ Om du vill uppdatera Outlook till den senaste versionen följer du den här Micr
 
 [Installera Office-uppdateringar](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview" />Installera Microsoft Edge WebView2
+## <a name="install-microsoft-edge-webview2" />Installera Microsoft Edge WebView2
 
 Kontrollera att Microsoft Edge WebView2 är installerat på enheten.
 
-### <a name="how-to-check-if-microsoft-edge-webview-is-installed" />Så här kontrollerar du om Microsoft Edge WebView2 har installerats
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed" />Så här kontrollerar du om Microsoft Edge WebView2 har installerats
 
 Så här kontrollerar du om du har Microsoft Edge WebView2 installerat på en dator:
 
@@ -52,7 +52,7 @@ Från kontrollpanelen:
 2. Välj **Program** > **Program och funktioner**.
 3. I sökrutan skriver du **WebView2**. Om Microsoft Edge WebView2 är installerat visas en post med namnet **Microsoft Edge WebView2 Runtime**.
 
-### <a name="how-to-install-microsoft-edge-webview" />Installera Microsoft Edge WebView2
+### <a name="how-to-install-microsoft-edge-webview2" />Installera Microsoft Edge WebView2
 
 1. Använd webbläsaren och gå till [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Välj **Hämta**.

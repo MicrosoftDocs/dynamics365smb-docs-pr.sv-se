@@ -100,7 +100,7 @@ Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen 
 > [!IMPORTANT]  
 > När konverteringen är klar markeras fältet **konverterad** i tabellen **Ändringsloggtransaktion för momssats** och **konverteras datum** i den **Ändringsloggtransaktion för momssats** fylls i med konverteringsdatumet.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

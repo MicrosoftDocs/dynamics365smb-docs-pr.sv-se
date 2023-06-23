@@ -122,7 +122,7 @@ Om du använder Outlook-appen väljer du bara **dokumentlänk** högst upp i e-p
 > Från och med 2022 utgivningscykel 1 öppnas dokument i ett nytt webbläsarfönster med alla funktioner som du känner från [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan navigera från ett dokument till en lista och tillbaka, öppna listor i Excel, skicka dokument som ska skrivas ut och köra eller förhandsgranska relaterade rapporter. Du kan också använda alla välkända kortkommandon när du öppnar dokument från Outlook.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

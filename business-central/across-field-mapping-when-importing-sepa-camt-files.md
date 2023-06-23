@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Information om att skapa och justera en dataintegreringsdefinition finns i [Ställa in dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />CAMT-datamappning till fält i tabellen Redovisningsjournal (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" />CAMT-datamappning till fält i tabellen Redovisningsjournal (81)
 
 |Elementsökväg|Meddelandeelement|Datatyp|Beskrivning|Identifierare för negativt tecken|Fältnr|Fältnamn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ostrukturerat|Text|Information som levereras så att du matcha/stämma av en transaktion med artiklarna som betalningen är avsedd att reglera, till exempel kommersiella fakturor i ett kundreskontrasystem, i en ostrukturerad form||8|Beskrivning|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Text|Ytterligare information om transaktionen||1222|Transaktionsinformation|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />CAMT-datamappning till fält i tabellen Bankkontoavstämning (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" />CAMT-datamappning till fält i tabellen Bankkontoavstämning (273)
 
 |Elementsökväg|Meddelandeelement|Datatyp|Beskrivning|Identifierare för negativt tecken|Fältnr|Fältnamn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Datum|Datum och tid när meddelandet skapades||3|Kontoutdragets datum|  
 |Stmt/Motkonto/Belopp|Belopp|Decimal|Det belopp som kommer från de nettoberäknade beloppen för alla debet- och kredittransaktioner||4|Kontoutdragets slutsaldo|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />CAMT-datamappning till fält i tabellen Bankkontoavstämningsrad (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" />CAMT-datamappning till fält i tabellen Bankkontoavstämningsrad (274)
 
 |Elementsökväg|Meddelandeelement|Datatyp|Beskrivning|Identifierare för negativt tecken|Fältnr|Fältnamn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

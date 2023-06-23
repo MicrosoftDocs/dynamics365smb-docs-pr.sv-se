@@ -92,7 +92,7 @@ Om lagerplatser är obligatoriska för lagerställen, läggs zon och lagerplatsk
 * För avancerade konfigurationer som använder dirigerad artikelinförsel och plockning använder [!INCLUDE [prod_short](includes/prod_short.md)] lagerplatskod för inleverans från sidan **Lagerställekort** för lagerstället. Om det inte finns någon lagerplatskod för inleverans anges ingen lagerplats. Om artikeln och inleveransens lagerplatser inte matchar är koden för inleveransens lagerplats tom.
 * I andra konfigurationer om lagerplatskod för inleverans inte har angetts använder [!INCLUDE [prod_short](includes/prod_short.md)] lagerplatskoden från källdokumentet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also" />Se även
 

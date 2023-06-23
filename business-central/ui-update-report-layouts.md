@@ -58,7 +58,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
 Försök att uppdatera layouten på nytt när du har ändrat layouten.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
  [Hantera rapportlayouter](ui-manage-report-layouts.md)  

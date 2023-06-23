@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft--licenses" />Business Central-åtkomst med Microsoft 365-licenser
+# <a name="business-central-access-with-microsoft-365-licenses" />Business Central-åtkomst med Microsoft 365-licenser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] användare tilldelas en Dynamics 365 Business Central-licens som gör att de kan visa, ändra och arbeta med affärs data från alla användargränssnitt. För alla andra anställda i organisationen som bara behöver kunna visa data ibland kan Business Central komma åt via Microsoft 365.  
 
 När en organisation har både en Dynamics 365 Business Central och Microsoft 365-prenumeration kan administratörer konfigurera miljöer för att aktivera åtkomst med Microsoft 365-licenser och välja exakt vilka tabeller och andra objekt som den här användarkategorin ska ha åtkomst till. När de är konfigurerade kan anställda som har en Microsoft 365-licens men ingen [!INCLUDE [prod_short](includes/prod_short.md)]-licens kan visa [!INCLUDE [prod_short](includes/prod_short.md)]-poster som delas med dem i Microsoft Teams chattar och kanaler.
 
-## <a name="why-enable-access-with-microsoft--licenses" />Varför aktivera åtkomst med Microsoft 365-licenser
+## <a name="why-enable-access-with-microsoft-365-licenses" />Varför aktivera åtkomst med Microsoft 365-licenser
 
 - Lås upp huvuddata som varje anställd i organisationen ska ha åtkomst till.
 

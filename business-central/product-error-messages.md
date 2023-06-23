@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Varningar och felmeddelanden i Dynamics 365 Business Central
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Varningar och felmeddelanden i Dynamics 365 Business Central
 
 Under din arbetsdag kan du se meddelanden i [!INCLUDE [prod_short](includes/prod_short.md)] om att något gick fel eller att det inte var möjligt att bokföra någonting t. ex. I många fall gör meddelandet det enkelt att lösa ärendet eller att återställa de ändringar som du har gjort. I andra fall kanske du inte har den information som du behöver för att få en avblockering. I den här artikeln finns tips om hur du gör framsteg.  
 

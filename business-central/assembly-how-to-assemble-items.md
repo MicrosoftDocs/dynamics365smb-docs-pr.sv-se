@@ -61,7 +61,7 @@ Följ stegen i proceduren för att montera en artikel på lager. Om du vill veta
 
 När du bokför har lyckas, monteringsartikeln bokförs som utflöde på den potentiella lagerställekod och lagerställeskod som definieras på monteringsorder. För manuellt skapade monteringsorder kan lagerstället kopieras från fältet **Standardplacering av order** inställningsfältet. För flöde för montering mot kundorder kan lagerställekoden kopieras från försäljningsorderraden.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

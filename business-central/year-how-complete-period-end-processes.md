@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Fyll i skattmeddelanden.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

@@ -16,7 +16,7 @@ Den här artikeln svarar på vanliga frågor om Shopify-kopplingen.
 
 Shopify är ett paketbaserade program som gör att vem som helst kan ställa in en onlinebutik och sälja sina produkter. Shopify plattformen erbjuder online återförsäljare en serie tjänster för betalningar, marknadsföring, leverans och kundengagemang.
 
-## <a name="what-is-the-microsoft-dynamics--business-central-shopify-connector" />Vad är Microsoft Dynamics 365 Business Central Shopify-anslutning?
+## <a name="what-is-the-microsoft-dynamics-365-business-central-shopify-connector" />Vad är Microsoft Dynamics 365 Business Central Shopify-anslutning?
 
 Med Shopify-anslutning kan företag ansluta sina Shopify butik (eller butiker) med [!INCLUDE[prod_short](../includes/prod_short.md)] för att maximera företagets produktivitet. Genom att använda Shopify-anslutning kan de få åtkomst till och hantera insikter från sin verksamhet och sina Shopify online butik som en enhet.
 

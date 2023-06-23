@@ -92,7 +92,7 @@ Om du skapar fler betalningspåminnelser än du har definierat nivåer för, anv
 
 När du har angett betalningspåminnelsevillkoren (med ytterligare nivåer och text) anger du någon av koderna på vart och ett av kundkorten. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/send-reminders-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

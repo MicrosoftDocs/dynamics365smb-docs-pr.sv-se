@@ -58,7 +58,7 @@ Det finns några olika sätt att ange vilken layout en rapport använder. Varje 
 
 Rapporter är avsedda att använda en layout som standard. Du kan växla tillbaka till det ursprungliga standardlayout sidan **Val av rapportlayout**. Markera bara rapporten och välj **Återställ standard åtgärd** för val längst upp på sidan.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

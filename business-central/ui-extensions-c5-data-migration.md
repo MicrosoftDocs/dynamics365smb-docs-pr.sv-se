@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />Tillägget C5 Datamigrering
+# <a name="the-c5-data-migration-extension" />Tillägget C5 Datamigrering
 
 Det här tillägget gör det enkelt att flytta över kunder, leverantörer, artiklar och dina redovisningskonton från Microsoft Dynamics C5 2012 till [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också migrera historiska transaktioner för redovisningskonton.
 

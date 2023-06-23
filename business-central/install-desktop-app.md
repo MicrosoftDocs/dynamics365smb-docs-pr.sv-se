@@ -66,7 +66,7 @@ Skillnaden är när du har flera innehavare. Till skillnad från [!INCLUDE[prod_
 > [!IMPORTANT]
 > Om du använder Business Central 2021 utgivningscykel 1 (version 18) eller tidigare kan du inte installera appen på det sätt som beskrivs i den här artikeln. Installera i stället appen från [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Mer information och hjälp om hur du installerar den här äldre appen finns i [Förbereda och installera Business Central-appen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

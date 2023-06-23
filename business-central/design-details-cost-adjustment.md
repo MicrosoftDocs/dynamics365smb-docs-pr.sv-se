@@ -90,14 +90,14 @@ När du kör batchjobbet **Just kost. – artikeltrans** har du alternativet att
 
 Följande exempel visar om du bokför en inköpt artikel som inlevererad och fakturerad den 01-01-20. Du bokför senare den sålda artikeln som levererad och fakturerad på 01-15-20. Sedan kör du batchjobben **Justera kost – artikeltrans** och **Bokför lagerkostnad i redov.** Följande transaktioner upprättas.  
 
-#### <a name="value-entries-" />Värdetransaktioner (1)
+#### <a name="value-entries-1" />Värdetransaktioner (1)
 
 |Bokföringsdatum|Artikeltransaktionstyp|Kost.belopp (aktuellt)|Kostnad bokförd i redov.|Fakturerat antal|Löpnr|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Inköp|10,00|10,00|1|1|  
 |01-15-20|Försäljning|-10.00|-10.00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (1)
 
 |Löpnr redovisning|Värdelöpnr|Bokf. redov.journalnr|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ Följande exempel visar om du bokför en inköpt artikel som inlevererad och fak
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Redovisningstransaktioner (1)
+#### <a name="general-ledger-entries-1" />Redovisningstransaktioner (1)
 
 |Bokföringsdatum|Redovisningskonto|Kontonr. (En-US-demo)|Belopp|Löpnr|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ Följande exempel visar om du bokför en inköpt artikel som inlevererad och fak
 
 Senare bokför du en relaterad inköpsartikelkostnad på 2,00 BVA som har fakturerats den 02-10-20. Kör batch-jobbet **Justera kost – artikeltrans** och sedan batch-jobbet **Bokför lagerkostnad i redov.**. Batch-jobbet Kostnadsjustering justerar kostnaden för försäljningen med -2,00 BVA, och batch-jobbet **Bokför lagerkostnad i redov.** bokför de nya värdetransaktioner till redovisningen. Resultatet är som följer.  
 
-#### <a name="value-entries-" />Värdetransaktioner (2)
+#### <a name="value-entries-2" />Värdetransaktioner (2)
 
 |Bokföringsdatum|Artikeltransaktionstyp|Kost.belopp (aktuellt)|Kostnad bokförd i redov.|Fakturerat antal|Justering|Löpnr|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Inköp|2,00|2,00|0|Nej|3|  
 |01-15-20|Försäljning|-2.00|-2.00|0|Ja|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (2)
 
 |Löpnr redovisning|Värdelöpnr|Bokf. redov.journalnr|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Senare bokför du en relaterad inköpsartikelkostnad på 2,00 BVA som har faktur
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Redovisningstransaktioner (2)
+#### <a name="general-ledger-entries-2" />Redovisningstransaktioner (2)
 
 |Bokföringsdatum|Redovisningskonto|Kontonr. (En-US-demo)|Belopp|Löpnr|  
 |------------|-----------|------------------------|------|---------|  

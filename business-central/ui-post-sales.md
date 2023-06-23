@@ -47,7 +47,7 @@ I de flesta fall kan du öppna reskontratransaktioner från det berörda kortet 
 
 Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **Godsupplysningsnr**. . Mer information finns i [Redigera bokförda dokument](across-edit-posted-document.md). För mer kritiska fält som påverkar granskningsspåret måste du återföra eller ångra bokföring. Mer information finns i [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

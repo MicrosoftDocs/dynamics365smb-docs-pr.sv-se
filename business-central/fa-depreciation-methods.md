@@ -80,7 +80,7 @@ För detta exempel ser anläggningstillgångstransaktionen ut så här:
 | 27-06-30 |Avskrivning |180 |-6 250,00 |6,250.00 |
 | 27-12-31 |Avskrivning |180 |-6 250,00 |0 |
 
-## <a name="declining-balance--depreciation" />Degressiv 1, avskrivning
+## <a name="declining-balance-1-depreciation" />Degressiv 1, avskrivning
 
 Det här är en accelererande avskrivningsmetod som fördelar den största delen av kostnaden för en tillgång på de första åren av tillgångens livslängd. Om du använder den här metoden måste du ange en fast årlig procentsats.  
 
@@ -92,7 +92,7 @@ Avskrivningsbasen beräknas som bokföringsvärdet för den lägsta bokförda av
 
 Det bokförda avskrivningsbeloppet kan innehålla transaktioner av olika bokföringstyper (nedskrivning, val 1 och val 2) som har bokförts efter startdatumet för det aktuella räkenskapsåret. De här bokföringstyperna inkluderas i det bokförda avskrivningsbeloppet om fälten **Avskrivningstyp** och **Ingår i bokföringsvärde** är markerade på sidan **Anl. inställning bokföring**.  
 
-### <a name="example---declining-balance--depreciation" />Exempel – Degressiv 1, avskrivning
+### <a name="example---declining-balance-1-depreciation" />Exempel – Degressiv 1, avskrivning
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** är 25. Batch-jobbet **Beräkna avskrivning** körs två gånger per år.  
 
@@ -122,11 +122,11 @@ Beräkningsmetod:
 
 Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.  
 
-## <a name="declining-balance--depreciation" />Degressiv 2, avskrivning
+## <a name="declining-balance-2-depreciation" />Degressiv 2, avskrivning
 
 Med metoderna Degressiv 1 och Degressiv 2 beräknas samma totala avskrivningsbelopp för varje år. Om du däremot vill köra batch-jobbet **Beräkna avskrivning** mer än en gång om året resulterar metoden Degressiv 1 i lika stora avskrivningsbelopp för varje avskrivningsperiod. Metoden Degressiv 2 resulterar däremot i avskrivningsbelopp som minskar för varje period.  
 
-### <a name="example---declining-balance--depreciation" />Exempel – Degressiv 2, avskrivning
+### <a name="example---declining-balance-2-depreciation" />Exempel – Degressiv 2, avskrivning
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** är 25. Batch-jobbet **Beräkna avskrivning** körs två gånger per år. Så här ser anläggningstillgångstransaktionerna ut:  
 
@@ -159,7 +159,7 @@ Avskrivningsvärdena är:
 | 21-06-30 |DA = 75 000,00 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 10 048,09 |
 | 21-12-31 |DA = 64 951,91 x (1 – (1 – 0,25)<sup>0,5</sup>) = 8 701,91 |
 
-## <a name="dbsl-depreciation" />DB1/SL Avskrivning
+## <a name="db1sl-depreciation" />DB1/SL Avskrivning
 
 DEG1/LIN är en förkortning av Degressiv 1 och Linjär. Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.  
 
@@ -169,7 +169,7 @@ Du kan använda olika procentsatser för att beräkna degressiv.
 
 Om du använder den här metoden måste du ange den beräknade livslängden och en degressiv procentsats på sidan **Anl. avskrivningsregel**.  
 
-### <a name="example---db-sl-depreciation" />Exempel – DB1-SL-avskrivning
+### <a name="example---db1-sl-depreciation" />Exempel – DB1-SL-avskrivning
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** på sidan **Anl.avskrivningsregel** är 25 och värdet i fältet **Antal avskrivningsår** är 8. Batch-jobbet **Beräkna avskrivning** körs två gånger per år.  
 
@@ -246,7 +246,7 @@ Så här ser anläggningstillgångstransaktionerna ut:
 | 24-12-31 |Avskrivning |360 |-20 000,00 |10,000.00 |
 | 25-12-31 |Avskrivning |180 |-10 000,00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Exempel: DEG1/LIN-avskrivning med metoden Halvårspraxis
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Exempel: DEG1/LIN-avskrivning med metoden Halvårspraxis
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. **Avskrivningens startdatum** är 20-11-01. Den beräknade livslängden är fem år, varför **Slutdatum för avskrivning** blir 25-06-30. På sidan **Anl. avskrivningsregler** är värdet 40 i fältet **Degressiv %**. Batch-jobbet **Beräkna avskrivning** körs en gång om året. Detta exempel bygger på att räkenskapsåret sammanfaller med kalenderåret.  
 

@@ -33,20 +33,20 @@ Följande exempel visar hur artikeltransaktioner, värdetransaktioner och artike
 
  Du bokför en inköpsorder som har inlevererats och fakturerats för 10 artiklar med en direkt styckkostnad på BVA 7 och en omkostnad på BVA 1. Bokföringsdatumet är 20-01-01. Följande transaktioner upprättas.  
 
-### <a name="item-ledger-entries-" />Artikeltransaktioner (1)
+### <a name="item-ledger-entries-1" />Artikeltransaktioner (1)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Antal|Löpnr|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Inköp|80.00|10|1|  
 
-### <a name="value-entries-" />Värdetransaktioner (1)
+### <a name="value-entries-1" />Värdetransaktioner (1)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Artikeltrans.löpnr|Löpnr|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Inköpskostnad|70,00|1|1|  
 |01-01-20|Indirekt kostnad|10,00|1|2|  
 
-### <a name="item-application-entries-" />Kopplingstransaktioner för artikel (1)
+### <a name="item-application-entries-1" />Kopplingstransaktioner för artikel (1)
 
 |Löpnr|Artikeltrans.löpnr|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Följande exempel visar hur artikeltransaktioner, värdetransaktioner och artike
 
  Nu bokför du en försäljning på 10 enheter av artikeln med ett bokföringsdatum på 01-15-20.  
 
-### <a name="item-ledger-entries-" />Artikeltransaktioner (2)
+### <a name="item-ledger-entries-2" />Artikeltransaktioner (2)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Antal|Löpnr|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Försäljning|-80.00|-10|2|  
 
-### <a name="value-entries-" />Värdetransaktioner (2)
+### <a name="value-entries-2" />Värdetransaktioner (2)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Artikeltrans.löpnr|Löpnr|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Direkt kostnad|-80.00|2|3|  
 
-### <a name="item-application-entries-" />Kopplingstransaktioner för artikel (2)
+### <a name="item-application-entries-2" />Kopplingstransaktioner för artikel (2)
 
 |Löpnr|Artikeltrans.löpnr|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 
  Följande tabeller visar resultatet av avstämningen av lagertransaktionerna i det här exemplet med redovisningen.  
 
-### <a name="value-entries-" />Värdetransaktioner (3)
+### <a name="value-entries-3" />Värdetransaktioner (3)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Kostnad bokförd i redov.|Artikeltrans.löpnr|Löpnr|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 |01-01-20|Indirekt kostnad|10,00|10,00|1|2|  
 |01-15-20|Direkt kostnad|-80.00|-80.00|2|3|  
 
-### <a name="general-ledger-entries-" />Redovisningstransaktioner (3)
+### <a name="general-ledger-entries-3" />Redovisningstransaktioner (3)
 
 |Bokföringsdatum|Redovisningskonto|Kontonr. (En-US-demo)|Belopp|Löpnr|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 
  Relationen mellan värdetransaktioner och bokföringstransaktioner lagras i tabellen **Artikeltrans.relation**.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (3)
 
 |Löpnr redovisning|Värdelöpnr|Bokf. redov.journalnr|  
 |-------------|---------------|----------------|  

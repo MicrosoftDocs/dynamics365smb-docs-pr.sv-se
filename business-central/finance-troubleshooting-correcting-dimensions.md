@@ -117,7 +117,7 @@ Om en korrigering inte slutförs visas en varning på korrigeringskortet. Om det
 
 När du har korrigerat dimensioner kommer dina data för kostnadsredovisning inte att vara synkroniserade. Kostnadsredovisning använder dimensioner för att aggregera belopp för kostnadsställen och kostnadsbärare och för att köra kostnadsallokeringar. Om du ändrar dimensioner för redovisningstransaktioner innebär det förmodligen att du kör dina kostnadsredovisningsmodeller igen. Om du bara behöver ta bort några kostnadsregister och köra allokeringar igen, eller om du behöver ta bort allt och köra alla dina modeller igen beror på vilka data som har uppdaterats och hur dina kostnadsredovisningsfunktioner har konfigurerats. Du miste manuellt identifiera var dimensionskorrigeringar kommer att påverka kostnadsredovisningen och var uppdateringar behövs. [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller för närvarande inte ett automatiserat sätt att göra det.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics--business-central" />Se relaterad [Microsoft utbildning](/training/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 
