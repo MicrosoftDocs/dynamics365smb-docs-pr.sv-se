@@ -10,13 +10,13 @@ author: AndreiPanko
 ms.author: andreipa
 ---
 
-# <a name="get-started-with-the-shopify-connector" />Kom igång med Shopify-kopplingen
+# Kom igång med Shopify-kopplingen
 
 Anslut din Shopify butik (eller butiker) med [!INCLUDE [prod_short](../includes/prod_short.md)] och maximera företagets produktivitet. Hantera och visa insikter från ditt företag och din Shopify butik som en enhet.
 
 Om du vill använda Shopify med [!INCLUDE [prod_short](../includes/prod_short.md)] är det ett par saker du måste göra först. Den här artikeln används för att integrera Shopify-butiken med [!INCLUDE [prod_short](../includes/prod_short.md)].
 
-## <a name="prerequisites-for-shopify" />Förutsättningar för Shopify
+## Förutsättningar för Shopify
 
 Du måste ha följande:
 
@@ -25,7 +25,7 @@ Du måste ha följande:
 
 Mer information om hur du skapar Shopify testversioner och rekommenderade inställningar finns i [ skapa och ställa in Shopify konto](shopify-account.md).
 
-## <a name="prerequisites-for-business-central" />Förutsättningar för Business Central
+## Förutsättningar för Business Central
 
 - Kontrollera att **[Shopify anslutning](https://go.microsoft.com/fwlink/?linkid=2196238)**-appen för har installerats.
 
@@ -33,7 +33,7 @@ Mer information om hur du skapar Shopify testversioner och rekommenderade instä
 
 - Kontrollera att användaren har rätt behörighet. Shopify Anslutningen täcks av **Shopify – Admin (SHPFY – ADMIN)** behörighetsuppsättningen. Mer information om [Skapa användare enligt licenser](../ui-how-users-permissions.md) och [Att komponera behörighetsuppsättningar](../ui-define-granular-permissions.md).
 
-## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store" />Installera Dynamics 365 Business Central-appen till din Shopify onlinebutik
+## Installera Dynamics 365 Business Central-appen till din Shopify onlinebutik
 
 För befintliga instanser av [!INCLUDE[prod_short](../includes/prod_short.md)] är det här steget valfritt och kan hoppas över.
 
@@ -45,7 +45,7 @@ För befintliga instanser av [!INCLUDE[prod_short](../includes/prod_short.md)] �
 4. Välj **Registrera dig nu** om du vill starta [!INCLUDE[prod_short](../includes/prod_short.md)] utvärderingsversion eller **Logga in** om du redan har [!INCLUDE[prod_short](../includes/prod_short.md)]. Du kommer att omdirigeras till sidan [Business Central](https://businesscentral.dynamics.com).
 5. Gör nästa steg i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="connect-business-central-to-the-shopify-online-store" />Ansluta Business Central till onlinebutiken på Shopify
+## Ansluta Business Central till onlinebutiken på Shopify
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj åtgärden **Ny**.  
@@ -56,13 +56,13 @@ För befintliga instanser av [!INCLUDE[prod_short](../includes/prod_short.md)] �
 
 Upprepa steg 2–6 för alla onlinebutiker som du vill ansluta.
 
-### <a name="known-issues" />Kända problem
+### Kända problem
 
 - Webbläsaren blockerar popup-fönstret. När du aktiverar **Aktiverad** [!INCLUDE [prod_short](../includes/prod_short.md)] öppnas sidan **Väntar på ett svar. Stäng inte sidan** medan den väntar på åtkomsttoken från Shopify. Om den sidan är stängd eller blockerad kan du inte ansluta till Shopify. Läs mer på [begäran om åtkomsttoken](troubleshoot.md#request-the-access-token)
 - [Fel: Oauth error invalid_request: Det gick inte att hitta Shopify API-programmet med api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
 - [Det går inte att ansluta från sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
-## <a name="next-steps" />Nästa steg
+## Nästa steg
 
 Nu är din onlinebutik ansluten till [!INCLUDE[prod_short](../includes/prod_short.md)]. I nästa steg ska du definiera vad som ska synkroniseras och hur.
 
@@ -70,7 +70,7 @@ Nu är din onlinebutik ansluten till [!INCLUDE[prod_short](../includes/prod_shor
 - [Synkronisera kunder](synchronize-customers.md)
 - [Synkronisera order](synchronize-orders.md)
 
-## <a name="testing-strategies" />Teststrategier
+## Teststrategier
 
 Det finns olika metoder för att testa en integration och varje metod har sina tekniker och nackdelar.
 
@@ -78,13 +78,13 @@ Du kan ansluta [!INCLUDE[prod_short](../includes/prod_short.md)] och Shopify-kon
 
 Det är lätt att köra synkroniseringstester igen. Med anslutningsprogram kan du ta bort importerade data, till exempel produkter, kunder och order, och sedan importera dem igen. Bara [Återställ synkronisering](troubleshoot.md#reset-sync).
 
-### <a name="shopify-sandbox-and-business-central-sandbox" />Shopify begränsat läge och Business Central begränsat läge
+### Shopify begränsat läge och Business Central begränsat läge
 
 Det är förmodligen det säkraste sättet att testa integrationen. I stället för att använda ett  Shopify  begränsat läge kan du också använda provprenumerationen eller Utvecklingsbutik. I [!INCLUDE[prod_short](../includes/prod_short.md)] kan du också använda ett testföretag i en produktionsmiljö.
 
 Om du vill lära dig mer om [!INCLUDE[prod_short](../includes/prod_short.md)] begränsat läge går du till [Skapa en ny miljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
-### <a name="shopify-sandbox-and-business-central-production" />Shopify begränsat läge och Business Central produktion
+### Shopify begränsat läge och Business Central produktion
 
 Det här är *inte* en rekommenderad konfiguration för testning eftersom Shopify anslutningsprogram kan skapa eller ändra artiklar och kunder. Du kan också skapa försäljningsdokument som order och fakturor. Det kan vara svårt att ångra dessa dokument.
  
@@ -98,7 +98,7 @@ Om du måste använda den här konfigurationen rekommenderar vi att du granskar 
 
 Mer information finns i [Återställa en miljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
 
-### <a name="shopify-production-and-business-central-sandbox" />Shopify produktion och Business Central begränsat läge
+### Shopify produktion och Business Central begränsat läge
 
 Det kan vara en god idé att säkerhetskopiera data. Du kan till exempel exportera dina produkter och kunder. Mer information finns i [Använda CSV-filer för att säkerhetskopiera butiksinformation](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
@@ -109,9 +109,9 @@ Om du behåller växlingen **Tillåt datasynkronisering till Shopify** aktiverad
 *   Välj **utkast** i fältet **status för skapa produkt** för att säkerställa att exporterade produkter inte är tillgängliga för köpare. Du kan kontrollera hur produkten ser ut i onlinebutiken, synkronisera priser, alternativ och lagernivåer. Kontrollera att du använder filtren på sidan **Lägg till objekt till Shopify** för att begränsa antalet exporterade objekt.
 * Inaktivera växlingen **Exportera kund till Shopify** så att du inte skickar kunderna till Shopify.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-shopify-connector-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/use-shopify-connector-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
-## <a name="see-also" />Se även
+## Se även
 
 [Genomgång: ställa in och använda Shopify anslutningsprogram](walkthrough-setting-up-and-using-shopify.md)  
 

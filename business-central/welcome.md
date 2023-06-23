@@ -9,7 +9,7 @@ ms.workload: na
 ms.date: 05/22/2023
 ms.author: jswymer
 ---
-# <a name="welcome-to-includeprodlongincludesprodlongmd" />Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
+# Välkommen till [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] är en administreringslösning för små och medelstora organisationer, som automatiserar och förenklar verksamhetsprocesser och hjälper dig att sköta ditt företag. [!INCLUDE[prod_short](includes/prod_short.md)] är mycket anpassningsbart erbjuder många funktioner som gör att företag kan hantera sin verksamhet, inklusive ekonomi, produktion, försäljning, leverans, projekthantering, service och mycket annat. Företagen kan enkelt lägga till funktioner som krävs för den region där de verkar och som är anpassade för att hantera även mycket specialiserade branscher. [!INCLUDE[prod_short](includes/prod_short.md)] är enkelt att implementera och anpassa, och enkelheten styr innovationer inom produktdesign, utveckling, implementering och användbarhet.  
 
@@ -22,7 +22,7 @@ Om du redan har [!INCLUDE[prod_short](includes/prod_short.md)] loggar du in på 
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-learn" />Microsoft Learn
+## Microsoft Learn
 
 På navigeringspanelen till vänster finns information om hur du använder [!INCLUDE[prod_short](includes/prod_short.md)] i företaget. Länkar till beskrivningar av de vanligaste funktionerna i avsnittet [Affärsprocesser](#business-processes). Se även avsnittet [Mer information om hur du använder produktdokumentationen](product-help-and-support.md#learn-more-using-the-product-documentation).
 
@@ -35,7 +35,7 @@ Du kan också [besöka vårt videobibliotek](across-videos.md) eller börja med 
 
 Följande avsnitt innehåller viktig information som du kan använda för att komma igång med [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="business-processes" />Affärsprocesser
+## Affärsprocesser
 
 - [Gör dig redo att göra affärer](ui-get-ready-business.md)
 - [Ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
@@ -62,7 +62,7 @@ Följande avsnitt innehåller viktig information som du kan använda för att ko
   - [Allmänna affärsfunktioner](ui-across-business-areas.md)
   - [Lokal funktionalitet](about-localization.md)
 
-## <a name="development-and-administration-content" />Innehåll för utveckling och administration
+## Innehåll för utveckling och administration
 
 - [Utveckling och administration](/dynamics365/business-central/dev-itpro/index)
 - [Utvärderingsversioner och prenumerationer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -70,13 +70,13 @@ Följande avsnitt innehåller viktig information som du kan använda för att ko
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regler och riktlinjer för AL-kod](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="microsoft-learn-training" />Microsoft Learn-utbildning
+## Microsoft Learn-utbildning
 
 Hitta gratis e-utbildningsinnehåll för [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft Learn-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Du kan också visa videor med nya och ofta använda funktioner i vårt videobibliotek. Mer information finns i [besök vårt videobibliotek](across-videos.md).  
 
-## <a name="community-resources" />Gruppresurser
+## Gruppresurser
 
 - [Microsoft Dynamics 365 Business Central-community](https://community.dynamics.com/business)
 - [Microsoft Dynamics 365 Business Central i Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
@@ -84,13 +84,13 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 - [Microsoft Dynamics 365 Business Central-översikt](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partner Network \(kräver Microsoft Partner Network-medlemskonto\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
-## <a name="get-notified-about-changes-through-an-rss-feed" />Få ett meddelande om ändringar via en RSS-feed
+## Få ett meddelande om ändringar via en RSS-feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-microsoft-learn-trainingtrainingdynamics365business-centralwtmciddyn365bclandingpage-docs" />Se relaterad [Microsoft Learn-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## Se relaterad [Microsoft Learn-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
-## <a name="see-also" />Se även
+## Se även
 
 [Dynamics 365 Business Central utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
@@ -109,6 +109,6 @@ Du kan också visa videor med nya och ofta använda funktioner i vårt videobibl
 [Dynamics 365 Business Central om microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
