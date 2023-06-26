@@ -1,30 +1,32 @@
 ---
 title: Nytt och planerat i standard versionen
 description: Lär dig hitta de senaste nyheterna och uppdateringarna för nya och befintliga funktioner i standardversionen av Business Central.
-author: edupont04
-ms.topic: get-started-article
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.topic: conceptual
+ms.date: 06/15/2023
+ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
-ms.date: 12/07/2022
-ms.author: edupont
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central" />Nytt och planerat för Dynamics 365 Business Central
+# Nytt och planerat för Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-Viktig information ger en översikt över nya och kommande funktioner. I dokumentationen ger vi artiklar som du kan använda för att lära dig mer om nya och befintliga funktioner i standardversionen av [!INCLUDE[prod_long](includes/prod_long.md)].  
-
 Följande lista innehåller information om de senaste versionerna av [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [Lanseringsvåg 1 för 2023](/dynamics365/release-plans/)
 * [Lanseringsvåg 2 för 2022](/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features)  
-* [Lanseringsvåg 1 för 2022](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
 
 Du kan också utforska webbplatsen [Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/) och webbplatsen [Dynamics 365 Business Central-översikt](https://dynamics.microsoft.com/roadmap/business-central/).  
 
-## <a name="get-notified-about-changes-through-an-rss-feed" />Få ett meddelande om ändringar via en RSS-feed
+Lär dig mer om hur [!INCLUDE [prod_short](includes/prod_short.md)] online får nästa uppdateringar på [Större uppdateringar och mindre uppdateringar](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (endast på engelska).
+
+## Få ett meddelande om ändringar via en RSS-feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also" />Se även
+## Se även
 
 [Besök vårt videobibliotek](across-videos.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
@@ -36,6 +38,6 @@ Du kan också utforska webbplatsen [Dynamics 365 Business Central-funktioner](ht
 [Business Central-prissättning](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central-gruppen](https://community.dynamics.com/business/)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

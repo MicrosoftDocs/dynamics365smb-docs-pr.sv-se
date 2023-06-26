@@ -3,12 +3,11 @@ title: Felsöka automatiserade arbetsflöden
 description: Lär dig mer om felsökning av kopplingen mellan Business Central och Power Automate när du skapar ett automatiserat arbetsflöde.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 06/16/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: d365-business-central
 ---
 
 # Felsöka [!INCLUDE[prod_short](includes/prod_short.md)] automatiserade arbetsflöden
@@ -27,6 +26,20 @@ För närvarande finns det en gräns för hur många poster ett flöde kan hante
 
 > [!NOTE]
 > För utvecklare utförs flödesaktiveringen via webhook-meddelanden, och denna begränsning beror på hur Business Central-anslutningen hanterar `collection`-meddelanden. Mer information finns i [Arbeta med webhooks i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) i Hjälp för utvecklare och administratörer.
+
+## Felmeddelandet "svaret från den Business Central-tjänsten är för stort"
+
+### Problem
+
+När du använder en åtgärd som interagerar med poster (t.ex. *Skapa post (V3)* och *Skapa post (V3)*), Power Automate kan ett felmeddelande som liknar detta visas.
+
+`The response from the Business Central service is too large`
+
+### Möjlig orsak
+
+Även om Business Central inte har någon fastställd gräns för storleken på poster som returneras av API:er Dynamics 365 Business Central anslutningsprogram för Power Automate kan endast hantera poster upp till 8 MB.
+
+Alla Business Central API:er som tillhandahålls av Microsoft returnerar poster under denna gräns, men API:er som tillhandahålls av partners kanske inte gör det. Om ett felmeddelande visas om att svaret från Business Central-tjänsten är för stort, kontaktar du den partner som skapade det API som du använder.
 
 ## Felmeddelandet "Entitetsuppsättningen hittades inte"
 

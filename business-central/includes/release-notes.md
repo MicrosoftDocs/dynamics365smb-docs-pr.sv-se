@@ -1,11 +1,9 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 06/15/2023
+ms.author: bholtorf
 ---
-> [!IMPORTANT]
->
-> Funderar du på kommande och nya funktioner i Dynamics 365 Business Central?
->
-> [Läs den senaste versionen av viktig information](/dynamics365/release-plans/). Vi har sammanställt all information som du kan tänkas behöva som du kan använda för din planering. För varje version kan du få viktig information som en enda PDF-fil.
+Funderar du på kommande och nya funktioner i [!INCLUDE [prod_short](prod_short.md)]? Viktig information ger en översikt över nya och kommande funktioner. Vi har sammanställt all information som du kan tänkas behöva som du kan använda för din planering. För varje version kan du hämta viktig information som en PDF-fil.
+
+I dokumentationen ger vi artiklar som du kan använda för att lära dig mer om nya och befintliga funktioner i standardversionen av [!INCLUDE [prod_short](prod_short.md)].
