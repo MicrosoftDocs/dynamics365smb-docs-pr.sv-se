@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="update-standard-costs" />Uppdatera standardkostnader
+# <a name="update-standard-costs"></a>Uppdatera standardkostnader
 Du måste regelbundet uppdatera standardkostnader för komponenter och överföra de nya kostnaderna till den överordnade artikeln. Processen består typiskt av följande fyra steg:  
 
 1.  Uppdatera kostnader på komponent- och kapacitetsnivå. Mer information finns i batch-jobbet **Föreslå artikelstandardkostnad**.  
@@ -20,7 +20,7 @@ Du måste regelbundet uppdatera standardkostnader för komponenter och överför
 
 Mer information finns i [Om att beräkna standardkostnad](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs" />Uppdatera standardkostnader
+## <a name="to-update-standard-costs"></a>Uppdatera standardkostnader
 
 1.  Kör batch-jobbet **Justera kost. – artikeltrans.**  
 2.  Kör batch-jobbet **Bokför lagerkostnad i redov.**  
@@ -35,7 +35,7 @@ Mer information finns i [Om att beräkna standardkostnad](finance-about-calculat
     7.  Kör batch-jobbet **Implementera standardkostnadsändringar**.  
 4.  Granska och bokför sidan **Omvärderingsjournal** , vilken har fyllts på med transaktioner från föregående steg i den här processen.  
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
  [Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)   
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   

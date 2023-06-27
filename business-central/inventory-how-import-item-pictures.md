@@ -11,12 +11,12 @@ ms.search.form: '30, 461'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="import-multiple-item-pictures" />Importera flera artikelbilder
+# <a name="import-multiple-item-pictures"></a>Importera flera artikelbilder
 Du kan importera flera artikelbilder samtidigt. Bara ge bildfilerna namn som motsvarar dina artikelnummer, komprimera dem till en zip-fil och använd sedan sidan Importera artikelbilder för att hantera vilka artikelbilder som ska importeras.
 
 Alla vanliga filformat stöds.
 
-## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file" />Namnge bildfiler med artikelnamnen och förbered ZIP-filen
+## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Namnge bildfiler med artikelnamnen och förbered ZIP-filen
 1. På platsen där artikelbilderna sparas ska du namnge varje filnamn i enlighet med numret på den relaterade artikeln. Som exempel:
 
     |Artikelnr|Filnamn|
@@ -27,7 +27,7 @@ Alla vanliga filformat stöds.
 
 2. Samla alla filer i ZIP-filen. Till exempel i Windows Explorer, markerar du filerna och väljer **skicka till**, **komprimerad mapp**.     
 
-## <a name="to-import-item-pictures" />För att importera artikelbilder
+## <a name="to-import-item-pictures"></a>För att importera artikelbilder
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
 2. Välj åtgärden **Importera artikelbilder**.
 3. I fältet **Välj en ZIP-fil** markerar du relevant ZIP-mapp och väljer sedan knappen **öppna**.
@@ -41,7 +41,7 @@ Alla vanliga filformat stöds.
 
 Fältet **importstatus** uppdateras för att visa om bildimporten har hoppas över eller slutförts.       
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Skapa nummerserier](ui-create-number-series.md)  
 [Lager](inventory-manage-inventory.md)  

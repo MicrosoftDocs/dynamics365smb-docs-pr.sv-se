@@ -11,7 +11,7 @@ ms.search.form: 15
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="convert-existing-locations-to-warehouse-locations" />Konvertera befintliga lagerställen till distributionslagerställen
+# <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertera befintliga lagerställen till distributionslagerställen
 Du kan definiera att ett befintligt lagerställe ska använda zoner och lagerställen och fungera som ett distributionslager.  
 
 Batch-jobbet där ett lagerställe definieras som ett distributionslager skapar ursprungliga distributionslagertransaktioner för dist.lager justeringslagerstället för alla artiklar som finns på lagerstället. Dessa ursprungliga transaktioner balanseras när transaktioner för fysiskt lager registreras när batch-jobbet är färdigt.  
@@ -21,7 +21,7 @@ Du kan skapa zoner och lagerställen före eller efter konverteringen. Den enda 
 > [!IMPORTANT]  
 >  Du rensar alla negativa lagersaldon och eventuella öppna distributionslagerdokument innan du konverterar platsen för dist.lagerhantering, genom att köra en rapport för att hitta artiklar med negativt lagersaldo och öppna distributionslagerdokument för lagerstället. Mer information finns i Kontrollera negativt lagersaldo.  
 
-## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location" />Så här aktiverar du ett befintligt lagerställe att fungera som ett distributionslager
+## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Så här aktiverar du ett befintligt lagerställe att fungera som ett distributionslager
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Skapa dist.lagerplats** och väljer sedan relaterad länk.  
 2.  I **Lagerställekod** fältet, ange det lagerställe som du vill aktivera för distributionslagerbearbetning.  
 3.  I **Justering lagerställeskod** fältet, ange lagerstället på platsen dit ej synkroniserade dist.lager transaktioner lagras. Mer information finns i [Så här synkroniserar du justerade lagertransaktioner med tillhörande artikeltransaktioner](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
@@ -36,7 +36,7 @@ Du kan skapa zoner och lagerställen före eller efter konverteringen. Den enda 
 
  För lagerställen där Warehouse Managementsdokument inte användes före konverteringen måste du på nytt öppna och släppa källdokument som var delvis inlevererade eller delvis utlevererade före konverteringen.  
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)     

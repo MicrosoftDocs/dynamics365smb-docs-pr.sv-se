@@ -10,17 +10,17 @@ ms.search.keywords: 'Teams, web client, troubleshooting, errors'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client" />Ställa in och felsöka webbläsaren så att den fungerar med webb klienten för Business Central
+# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Ställa in och felsöka webbläsaren så att den fungerar med webb klienten för Business Central
 
 I den här artikeln beskrivs hur du konfigurerar din webbläsare så att [!INCLUDE[web_client](includes/web_client.md)] och dess funktioner fungerar korrekt. Läs den här artikeln om du har problem med att öppna [!INCLUDE[web_client](includes/web_client.md)], detta eftersom vissa problem kan orsakas av webbläsarens inställningar.
 
 Artikeln innehåller information om hur du konfigurerar Microsoft Edge, men kraven för JavaScript, cookies och popup-fönster är desamma för alla webbläsare som stöds. Mer information om andra webbläsare finns i tillverkarens instruktioner.  
 
-## <a name="use-a-supported-browser" />Använd en webbläsare som stöds
+## <a name="use-a-supported-browser"></a>Använd en webbläsare som stöds
 
 Se till att du använder en av de webbläsare som stöds. Se [Minimikrav för att använda Business Central](product-requirements.md#browsers).  
 
-## <a name="allow-javascript-from-business-central" />Tillåt JavaScript från Business Central
+## <a name="allow-javascript-from-business-central"></a>Tillåt JavaScript från Business Central
 
 *Problem:*
 
@@ -37,7 +37,7 @@ The resource you are looking for has been removed, had its name changed, or is t
     - Flytta reglaget **Tillåtet** åt vänster (Av). Välj sedan **Lägg till** och skriv in webbadressen (URL) för [!INCLUDE[prod_short](includes/prod_short.md)] i rutan **Webbplats**. Välj **Lägg till** när du är klar.
     - Flytta reglaget **Tillåtet** åt höger (På).
 
-## <a name="allow-cookies-from-business-central" />Tillåt cookies från Business Central
+## <a name="allow-cookies-from-business-central"></a>Tillåt cookies från Business Central
 
 *Problem:*
 
@@ -50,7 +50,7 @@ Om webbläsaren inte tillåter cookies visas följande felmeddelande:
 1. I Microsoft Edge går du till **Inställningar** > **Cookies och webbplatsbehörigheter** > **Cookies och webbplatsdata**.
 2. Flytta reglaget för **Tillåt webbplatser att spara och läsa cookiedata** åt höger (På).  
 
-## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Tillåt popup-fönster från Business Central
+## <a name="allow-pop-ups-from-business-central"></a><a name="popup"></a>Tillåt popup-fönster från Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreras med flera produkter. I vissa fall, t. ex. när Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] eller "popup-fönster" öppnas i produkten. Denna funktion kräver att webbläsaren tillåter popup-fönster från [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -75,7 +75,7 @@ Try again
 2. Flytta reglaget **Blockerat** åt höger (På).
 3. Välj **Lägg till**. I rutan **Webbplats** anger du `https://businesscentral.dynamics.com` och väljer sedan **Lägg till**.
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 

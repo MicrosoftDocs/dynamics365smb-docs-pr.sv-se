@@ -9,7 +9,7 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# <a name="configure-ai-powered-item-marketing-text-preview-with-copilot" />Konfigurera marknadsföringstext för AI-baserad artikel (förhandsversion) med Copilot
+# <a name="configure-ai-powered-item-marketing-text-preview-with-copilot"></a>Konfigurera marknadsföringstext för AI-baserad artikel (förhandsversion) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -20,28 +20,28 @@ I den här artikeln beskrivs hur du kan styra möjligheten att skapa marknadsfö
 
 Om något av dessa krav inte uppfylls kan funktionen inte användas.
 
-## <a name="prerequisites" />Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
 
 Du använder en [förhandsversion](ai-preview-getstarted.md) av Business Central som har aktiverats för Copilot. Att aktivera Copilot utförs av en administratör. Om du vill ha mer information går du till [Konfigurera marknadsföringstext för AI-baserad artikel med Copilot](enable-ai.md).
 
-## <a name="enable-or-disable-create-ai-powered-product-descriptions-with-copilot" />Aktivera och inaktivera funktionen Skapa AI-baserade produktbeskrivningar med Copilot
+## <a name="enable-or-disable-create-ai-powered-product-descriptions-with-copilot"></a>Aktivera och inaktivera funktionen Skapa AI-baserade produktbeskrivningar med Copilot
 
 1. I Business Central söker du efter och öppnar sidan **Funktionshantering**.
 2. Ange kolumnen **Aktiverad för** för funktionen **Funktion i förhandsversion: Skapa AI-baserade produktbeskrivningar med Copilot** till **Alla användare** för att aktivera funktionen eller **ingen** för att inaktivera den.
 
    Mer information om funktionshantering i allmänhet finns i [Funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## <a name="consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users" />Samtycke till eller avvisa förhandsgranskning och sekretessvillkor för alla användare
+## <a name="consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users"></a>Samtycke till eller avvisa förhandsgranskning och sekretessvillkor för alla användare
 
 1. I Business Central, sök efter och öppna sidan **Status för sekretessmeddelanden**.
 2. I kolumnen **Integrationsnamn**, välj **Azure OpenAI**, läs sedan villkoren som presenteras för dig.
 3. I raden **Azure OpenAI**, markera kryssrutan **Acceptera för alla** för att samtycka till **Acceptera inte för alla** för att avvisa.
 
-## <a name="next-steps" />Nästa steg
+## <a name="next-steps"></a>Nästa steg
 
 När du har aktiverat om godkänt funktionen kan du testa Copilot för artiklar i Business Central. Gå till [Lägg till marknadsföringstext för artiklar](item-marketing-text.md).  
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över marknadsföringstext för AI-baserad artikel med Copilot](ai-overview.md)  
 [Skapa marknadsföringstext för artiklar som använder Copilot](item-marketing-text.md)  

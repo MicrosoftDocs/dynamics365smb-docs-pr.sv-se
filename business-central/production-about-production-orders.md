@@ -10,7 +10,7 @@ ms.search.form: '99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 990
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="about-production-orders" />Om produktionsorder
+# <a name="about-production-orders"></a>Om produktionsorder
 
 Produktionsorder används för att hantera omvandlingen av inköpt material till producerade artiklar. Produktionsorder dirigerar arbete via olika produktions- eller maskingrupper i fabriken.  
 
@@ -31,7 +31,7 @@ Produktionsorder är startpunkter för:
 - Kontroll av aktuell produktion  
 - Spårning av slutförd produktion  
 
-## <a name="production-order-creation" />Skapa produktionsorder
+## <a name="production-order-creation"></a>Skapa produktionsorder
 Du kan skapa produktionsorder manuellt på orderbasis på sidan **Produktionsorder**. Produktionsorder kan även skapas på sidan **Förs.orderplanering** eller **Orderplanering**. Flera order skapas på sidan **Planeringsförslag**.  
 
 Produktionsorder kan skapas med hjälp av information från:  
@@ -42,7 +42,7 @@ Produktionsorder kan skapas med hjälp av information från:
 - Maskingrupper  
 - Produktionsgrupper  
 
-## <a name="limitations-on-production-order-creation" />Begränsningar vid skapande av produktionsorder
+## <a name="limitations-on-production-order-creation"></a>Begränsningar vid skapande av produktionsorder
 Produktionsorder reserveras automatiskt och spåras till deras ursprung när:  
 
 - Skapas från **[planeringsförslaget](production-how-to-run-mps-and-mrp.md)**.  
@@ -54,16 +54,16 @@ Mer information finns i [Spåra relationer mellan tillgång och efterfrågan](pr
 
 Produktionsorder som skapas på annat sätt reserveras och spåras inte automatiskt.   
 
-## <a name="production-order-status" />Status för produktionsorder
+## <a name="production-order-status"></a>Status för produktionsorder
 Statusen för en produktionsorder styr hur den bearbetas i programmet. Formen på och innehållet i produktionen föreskrivs av orderns status. Produktionsorder visas i olika sidor beroende på status. Du kan inte ändra statusen för en produktionsorder manuellt. Du måste använda funktionen **Ändra status** i den enskilda produktionsordern eller i fönstret **Ändra produktionsorderstatus**.  
 
-### <a name="simulated-production-order" />Simulerad produktionsorder
+### <a name="simulated-production-order"></a>Simulerad produktionsorder
 Den simulerade produktionsorder är unik på grund av följande egenskaper:  
 
 - Precis som namnet antyder är denna produktionsorder en simulering, som huvudsakligen används för anbudsgivning och kostnadskalkylering, till exempel när avdelningen för forskning och utveckling vill ha en kostnadsberäkning på en föreslagen artikel. En simulerad produktionsorder fungerar som ett exempel på en produktionsorder.  
 - En simulerad produktionsorder påverkar inte planeringen av order. I planeringen (prod.program och nettobehov) beaktas inte simulerade produktionsorder, och de påverkar inte heller planeringen. Simulerade produktionsorder kan inte heller användas som mall eftersom de försvinner när du ändrar deras status.  
 
-### <a name="planned-production-order" />Planerad produktionsorder
+### <a name="planned-production-order"></a>Planerad produktionsorder
 Den planerade produktionsordern är unik på grund av följande egenskaper:  
 
 - Du kan automatiskt skapa en planerad produktionsorder från en försäljningsorder.  
@@ -72,7 +72,7 @@ Den planerade produktionsordern är unik på grund av följande egenskaper:
 - Genereringen av planerade produktionsorder i planeringen resulterar i ett föreslaget "planerat orderutsläpp" som inkluderar antal, utsläppsdatum och förfallodatum. Logiken för planeringssystemet baseras på återanskaffningssystemet, beställningsprinciper och orderändringar som påträffas i planeringsprocessen för nettobehov.  
 - Du kan granska beläggningen för varje produktions- eller maskingrupp i operationsföljden för den planerade produktionsordern om du vill se vilken effekt en planerad produktionsorder har.  
 
-### <a name="firm-planned-production-order" />Fast planerad produktionsorder
+### <a name="firm-planned-production-order"></a>Fast planerad produktionsorder
 Den fast planerade produktionsordern är unik på grund av följande egenskaper:  
 
 - Du kan automatiskt skapa en fast planerad produktionsorder från en försäljningsorder.  
@@ -81,7 +81,7 @@ Den fast planerade produktionsordern är unik på grund av följande egenskaper:
 - Genereringen av fast planerade produktionsorder i planeringen resulterar i ett föreslaget "planerat orderutsläpp" som inkluderar antal, utsläppsdatum och förfallodatum. Logiken för planeringssystemet baseras på återanskaffningssystemet, beställningsprinciper och orderändringar som påträffas i planeringsprocessen för nettobehov.  
 - Du kan granska beläggningen för varje produktions- eller maskingrupp i operationsföljden för den fast planerade produktionsordern om du vill se vilken effekt en planerad produktionsorder har.  
 
-### <a name="released-production-order" />Släppt produktionsorder
+### <a name="released-production-order"></a>Släppt produktionsorder
 Den släppta produktionsordern är unik på grund av följande egenskaper:  
 
 - Du kan automatiskt skapa en släppt produktionsorder från en försäljningsorder.  
@@ -89,7 +89,7 @@ Den släppta produktionsordern är unik på grund av följande egenskaper:
 - I de fall produktionstypen Tillverka-mot-order används, är det inte ovanligt att en släppt produktionsorder skapas direkt efter registreringen av försäljningsordern.  
 - Faktisk materialförbrukning och produktutflöde kan registreras manuellt med en släppt produktionsorder. Dessutom sker rensning av förbrukning och produktutflöde endast automatiskt för släppta produktionsorder.  
 
-### <a name="finished-production-order" />Färdiga produktionsorder
+### <a name="finished-production-order"></a>Färdiga produktionsorder
 Den färdiga produktionsordern är unik på grund av följande egenskaper:  
 
 - En färdig produktionsorder är vanligtvis en produktionsorder som redan har tillverkats.  
@@ -97,7 +97,7 @@ Den färdiga produktionsordern är unik på grund av följande egenskaper:
 - Färdiga produktionsorder används för rapportering av statistik och för att stödja möjligheten att gå tillbaka till andra order (t. ex. försäljnings-, produktions- och inköpsorder). Med möjligheten att gå tillbaka till en färdig produktionsorder kan du granska den detaljerade historiken.  
 - Färdiga produktionsorder kan inte ändras.  
 
-## <a name="production-order-execution" />Utföra en produktionsorder
+## <a name="production-order-execution"></a>Utföra en produktionsorder
 När du har skapat och planerat en produktionsorder måste den släppas ut till fabriken för att utföras. När ordern utförs registrerar du:  
 
 - Material som plockas eller förbrukas  
@@ -106,7 +106,7 @@ När du har skapat och planerat en produktionsorder måste den släppas ut till 
 
 Den här informationen kan registreras manuellt, eller via automatisk rapportering, enligt inställningarna i fältet Bokföringsmetod för artikeln och produktionsgruppen.  
 
-### <a name="material-consumption" />Materialförbrukning
+### <a name="material-consumption"></a>Materialförbrukning
 I programmet finns en mängd olika alternativ för hur ett tillverkningsföretag kan vilja registrera materialförbrukning. Materialförbrukning kan till exempel registreras manuellt, vilket kan vara önskvärt om det ofta förekommer komponentersättningar eller kassation som är större än förväntat.  
 
 Förbrukningen av material kan bearbetas via [förbrukningsjournalen](production-how-to-post-consumption.md), men kan även registreras automatiskt i programmet, även kallat för automatisk rapportering (bokföring). Rapporteringsmetoderna är:  
@@ -128,7 +128,7 @@ Bokföringsmetoden kopieras från artikelkortet när produktionsordern uppdatera
 
 Mer information finns i [Bokför komponenter enligt verksamhetens utflöde](production-how-to-flush-components-according-to-operation-output.md)
 
-### <a name="production-output" />Produktionsutflöde
+### <a name="production-output"></a>Produktionsutflöde
 Med hjälp av programmet kan du spåra hur mycket tid som läggs ned på arbetet med en produktionsorder, förutom att registrera det antal som tillverkas. Den här informationen kan hjälpa dig att mer exakt fastställa produktionskostnaden. Detta är även användbart för tillverkare som använder ett standardsystem för kostnadsberäkning och som kanske vill registrera faktisk information för att hjälpa dem att utveckla bättre riktlinjer.  
 
 Utflöde kan bearbetas via [utflödesjournalen](production-how-to-post-output-quantity.md), men kan även registreras automatiskt i programmet. Bokföringsprogrammet kopieras då automatiskt från produktionsgrupps- eller maskingruppskortet till verksamhetsföljden för produktionsordern när du uppdaterar. Precis som för materialförbrukning, finns det tre rapporteringsmetoder för utflöde:  
@@ -143,12 +143,12 @@ Metoden Framåt registrerar det förväntade utflödet (och tid), som automatisk
 
 Metoden Bakåt registrerar det förväntade utflödet (och tid), som automatiskt registreras när en produktionsorder färdigställs. Operationsföljdslänkkoder används inte när utflödet bokförs bakåt.  
 
-### <a name="posting-consumption-and-output" />Bokföra förbrukning och utflöde
+### <a name="posting-consumption-and-output"></a>Bokföra förbrukning och utflöde
 Du kan använda valfri kombination av automatisk bokföring och manuellt registrerad information för både förbrukning och utflöde. Exempelvis kanske du vill bokföra komponenter framåt automatiskt, men ändå använda förbrukningsjournalen för att registrera kassation. På liknande sätt kanske du vill registrera utflöde automatiskt, men använda utflödesjournalen för att registrera kassation för den överordnade artikeln eller extra tid som har lagts ned på ordern.  
 
 Om du anger förbrukning och utflöde manuellt måste du bestämma den sekvens i vilken du kommer att registrera den här informationen. Du kan registrera förbrukningen först och använda en genvägsmetod för att registrera informationen som baseras på det förväntade utflödeantalet. Eller så kan du ange utflödet först med hjälp av funktionen **Expandera oper.följd** . Du skulle sedan registrera förbrukning baserat på faktiskt utflödeantal.  
 
-### <a name="production-journal" />Produktionsjournal
+### <a name="production-journal"></a>Produktionsjournal
 I [produktionsjournalen](production-how-to-register-consumption-and-output.md) kombineras funktionerna hos förbrukningsjournalen och utflödesjournalen i en enda journal. Produktionsjournalen kan öppnas direkt från den släppta produktionsordern.  
 
 Syftet med produktionsjournalen är att tillhandahålla ett enda gränssnitt som du använder för att registrera förbrukning och utflöde från en produktionsorder.  
@@ -174,7 +174,7 @@ Produktionsjournalen skiljer sig från förbruknings- och utflödesjournalerna p
 
 I produktionsjournalen bokförs förbrukningsantal som negativa artikeltransaktioner, utflödeantal bokförs som positiva transaktioner och tidsinsats bokförs som kapacitetstransaktioner.  
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 [Produktion](production-manage-manufacturing.md)
 [Konfigurera produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)  

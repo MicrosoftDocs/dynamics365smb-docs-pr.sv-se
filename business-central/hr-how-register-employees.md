@@ -11,11 +11,11 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="register-employees" />Registrera personal
+# <a name="register-employees"></a>Registrera personal
 
 Om du vill använda funktionen personal måste du först lägga till varje medarbetare genom att fylla i fälten på sidan **personalkort** .
 
-## <a name="adding-new-employees" />Lägga till nya medarbetare
+## <a name="adding-new-employees"></a>Lägga till nya medarbetare
 
 Du kan lägga till nya anställda manuellt, genom att fylla i fälten på sidan för **Personalkort** eller använda mallar som innehåller fördefinierad information. Du kan t.ex. skapa mallar för olika typer av personalprofiler. När du använder mallar sparar du tid när du lägger till nya medarbetare och ser till att informationen är korrekt varje gång. Om du skapar mallar för fler än en typ av medarbetare kan du välja vilken mall du vill använda när du lägger till en medarbetare. Om du bara skapar en mall kommer den att användas för alla nya medarbetare. När du har skapat en mall kan du använda åtgärden **tillämpa mall** för att tillämpa den på en eller flera valda medarbetare. Om du vill skapa en mall fyller du i den information som du vill använda på personalkortsidan och sparar den som en mall.
 
@@ -27,13 +27,13 @@ Du kan när som helst ändra informationen om en anställd. Uppdaterade medarbet
 > [!NOTE]  
 > Du kan återbetala en medarbetare för deras utgifter under affärsaktiviteter. Av den anledningen måste du fylla i fälten på snabbfliken **Betalningar** på sidan **Personalkort**. Mer information finns i [Så här registrerar du och återbetalar personalens utgifter](finance-how-record-reimburse-employee-expenses.md).
 
-## <a name="to-set-up-an-employee" />Så här registrerar du personal
+## <a name="to-set-up-an-employee"></a>Så här registrerar du personal
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **personal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Personalkort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-insert-a-picture-of-an-employee" />Infoga en bild av den anställde
+## <a name="to-insert-a-picture-of-an-employee"></a>Infoga en bild av den anställde
 
 Om du har en bild av en anställd kan du infoga den på personalkortet.
 
@@ -45,7 +45,7 @@ Om du har en bild av en anställd kan du infoga den på personalkortet.
 
 Bilden infogas i faktaboxen **Personalbild**.
 
-## <a name="to-register-various-information-about-an-employee" />Så här registrerar du information om en anställd
+## <a name="to-register-various-information-about-an-employee"></a>Så här registrerar du information om en anställd
 
 Du kan ställa in information, till exempel medlem i fackföreningen, anhöriga och anställningsavtal på personalkortet. Nedan beskrivs hur du ställer in en alternativ adress. Stegen är liknande för alla andra uppgifter som du kan ställa in på ett personalkort.
 
@@ -57,7 +57,7 @@ Du kan använda alternativa adresser för att hålla reda på var de anställda 
 4. På sidan **Alternativ adresslista** fyller du i fälten efter behov.
 5. Upprepa steg 4 för varje alternativ adress.
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Ekonomi](finance.md)  

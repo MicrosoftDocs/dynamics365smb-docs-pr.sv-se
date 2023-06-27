@@ -11,7 +11,7 @@ ms.search.form: '9813, 9814'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="restructure-warehouses" />Omstrukturera lager
+# <a name="restructure-warehouses"></a>Omstrukturera lager
 Du kanske vill omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper. Den typen av aktivitet utförs inte särskilt ofta, men det kan uppstå situationer när en omgruppering är nödvändig för att åstadkomma en effektivare drift. Som exempel:  
 
 - Du kanske vill växla till lagerställeskoder som stöder automatisk datainsamling, exempelvis med handenheter.  
@@ -20,7 +20,7 @@ Du kanske vill omstrukturera distributionslagret med nya lagerställeskoder och 
 
 Om distributionslagret är inställt på lagerställen, men inte dirigerad artikelinförsel och plockning, strukturera om distributionslagret genom att skapa nya lagerställen du vill använda.  
 
-## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only" />Om du vill omstrukturera en vanlig dist.lager som använder lagerställen bara
+## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Om du vill omstrukturera en vanlig dist.lager som använder lagerställen bara
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  På snabbfliken **lager** anger du fältet **Standardlagerplatsval** till **Senaste lagerplats**.  
 3.  Flytta allt innehåll på de nuvarande lagerställena till de nya lagerställena som du precis har skapat.  
@@ -35,7 +35,7 @@ Om distributionslagret är inställt på lagerställen, men inte dirigerad artik
 
 Du har nu tömt lagerställen där artiklarna användes. Standardlagerställena för artiklarna har nu ändrats till de nya lagerställen.  
 
-## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick" />Omstrukturera en avancerad lager som använder dirigerad artikelinförsel och plockning
+## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Omstrukturera en avancerad lager som använder dirigerad artikelinförsel och plockning
 
 1.  Ska de nya lagerställena som du vill använda i framtiden. Mer information finns i [Skapa lagerställen](warehouse-how-to-create-individual-bins.md).  
 2.  Flytta allt innehåll på de nuvarande lagerställena till de nya lagerställena som du precis har skapat.  
@@ -52,7 +52,7 @@ Du har nu tömt lagerställen där artiklarna användes. Standardlagerställena 
 
 Du har nu tagit bort lagerställena från lagerflödet och har omklassificerat dem, som KS-lagerställen. KS-lagerställen har inte några av aktivitetsfälten på sidan **Lagerplatstyper** valda och därför inte beaktas av objektflödet. Mer information finns i [Skapa lagerställen](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="to-delete-a-bin" />Så här tar du bort en lagerplats
+## <a name="to-delete-a-bin"></a>Så här tar du bort en lagerplats
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Markera lagerstället där du vill ta bort lagerställen väljer du åtgärden **Lagerställen**.  
@@ -63,7 +63,7 @@ Om du klickar på **Ja** tas lagerstället bort för framtida användning, men l
 
 Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerstället också får det nya namnet kan du göra det på sidan **Lagerställen**, inklusive lagerställesinnehåll, aktivitetsrader för distributionslager, registrerade aktivitetsrader för distributionslager, kalkylarksrader för distributionslager, inleveransrader för distributionslager, bokförda inleveransrader för distributionslager, utleveransrader för distributionslager, bokförda utleveransrader för distributionslager och distributionslagertransaktioner.  
 
-## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records" />Så här byter du namn på en lagerplats och ändrar lagerställeskoden i alla poster
+## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Så här byter du namn på en lagerplats och ändrar lagerställeskoden i alla poster
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2.  Välj lagerstället där du vill byta namn på en lagerplats eller ändra lagerställeskoden och klicka på åtgärden **Lagerställen**.  
@@ -75,7 +75,7 @@ Om du vill byta namn på en lagerplats så att alla poster som tillhör lagerst�
 >   
 >  Om du byter namn på en inleveranslagerplats eller en leveranslagerplats, alla bokförd inleveranser och utleveranser som gäller för lagerstället, byts namn på.  
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)     

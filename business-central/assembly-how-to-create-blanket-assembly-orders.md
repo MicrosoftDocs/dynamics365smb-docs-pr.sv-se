@@ -11,7 +11,7 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-blanket-assembly-orders" />Skapa monteringsorder för avrop
+# <a name="create-blanket-assembly-orders"></a>Skapa monteringsorder för avrop
 
 Du kan använda monteringshantering för att anpassa en monteringsartikel till ett kundkrav under försäljningsprocessen. Mer information finns i [Sälja artiklar monterade mot order](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -20,7 +20,7 @@ Du kan använda monteringshantering för att anpassa en monteringsartikel till e
 > [!NOTE]  
 >  Som för alla avropsorder är antalet i monteringsavropsorder endast prognoser och kan inte användas förrän de konverterats till faktiska monteringsorder. Därför är orderfunktioner som dispositionsberäkning, reservation och artikelspårning inte aktiva för monteringsorder för avrop.  
 
-## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item" />Så här skapar du en monteringsorder för avrop för montering\-mot\-kundorder
+## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Så här skapar du en monteringsorder för avrop för montering\-mot\-kundorder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.  
 2. Skapa en ny avropsorder med en rad för en monteringsartikel. Mer information finns i [Skapa försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md).  
@@ -36,7 +36,7 @@ Du kan använda monteringshantering för att anpassa en monteringsartikel till e
 
 Den länkade avropsmonteringsofferten och eventuella anpassningar är kopplade till den nya försäljningsordern så att artikelmontering eller -försäljning kan förberedas.  
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Skapa försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)  
 [Monteringshantering](assembly-assemble-items.md)  

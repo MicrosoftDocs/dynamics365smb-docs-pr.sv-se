@@ -10,7 +10,7 @@ ms.date: 12/05/2022
 ms.custom: bap-template
 ---
 
-# <a name="warehouse-management-overview" />Warehouse Management – översikt
+# <a name="warehouse-management-overview"></a>Warehouse Management – översikt
 
 Det finns två saker som är viktiga för alla företag som fysiskt flyttar varor till och från sitt distributionslager.
 
@@ -26,7 +26,7 @@ För att hjälpa företag uppnår dessa saker, lägger distributionslagerfunktio
 
 Implementera dessa funktioner i olika kombinationer för att skräddarsy dina distributionslagerprocesser i företaget. Möjliggör en ökad komplexitet när företaget växer och processerna ändras.
 
-## <a name="overview-of-different-configuration-options" />Översikt över olika konfigurationsalternativ
+## <a name="overview-of-different-configuration-options"></a>Översikt över olika konfigurationsalternativ
 
 Du kan konfigurera distributionslagerfunktioner på olika sätt. Det är viktigt att du väljer en förbättring av dina processer utan att orsaka omkostnader. I tabellen nedan finns en översikt över typiska konfigurationer som används vid hantering av fysiska varor.
 
@@ -48,13 +48,13 @@ Komplexitetsnivån påverkas också av de dokumenttyper som du använder i distr
 
 En annan faktor som påverkar komplexitet är hur ditt fysiska lagerställe visas i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer på [Modellering av det fysiska lagerstället](#modeling-the-physical-warehouse).
 
-## <a name="modeling-the-physical-warehouse" />Modellering av det fysiska lagerstället
+## <a name="modeling-the-physical-warehouse"></a>Modellering av det fysiska lagerstället
 
 Det finns flera alternativ för att representera den verkliga inställningen av distributionslagret i [!INCLUDE[prod_short](includes/prod_short.md)]. Dina val bestämmer hur du ska arbeta med distributionslagerfunktioner.
 
 Placeringen av artiklar kan vara hyllor, lagerställen eller lagerplatser och det finns fördelar och nackdelar för varje alternativ.
 
-### <a name="locations-and-bins" />Lagerställen och lagerplatser
+### <a name="locations-and-bins"></a>Lagerställen och lagerplatser
 
 För att kunna hantera fysiska varor måste du ha minst ett lagerställe. Du kan använda flera lagerställen eller använda lagerplatser för att modellera distributionslagret och organisationsstrukturen.
 
@@ -66,7 +66,7 @@ Lagerställen är vanligtvis det bästa sättet att organisera åtgärder som ä
 * Ange planeringsparametrar. Läs mer i [planeringsparametrar](production-about-planning-functionality.md#planning-parameters).  
 * Använd olika funktioner för distributionslager för varje lagerställe.
 
-### <a name="shelves-and-bins" />Hyllor och lagerplatser
+### <a name="shelves-and-bins"></a>Hyllor och lagerplatser
 
 Om du alltid lagrar en artikel på samma plats kan du använda fältet **hyllnummer.** på **Artikelkortet** eller **Lagerställeenhetskort**. Detta fält kan användas som ett grundläggande manuellt lagringssystem i miljöer utan lagerplatser. Fältets värde kopieras från artikelkortet till dokumentrader och rapporter, men det är endast information. Värdet används inte i distributionslageraktiviteter eller vid beräkningar av tillgänglighet.
 
@@ -77,7 +77,7 @@ Lagerställen representerar den grundläggande lagerstrukturen och används för
 * Lagerplatskapacitet och viktbegränsningar (endast för dirigerad artikelinförsel och plockning).
 * Klassificering av lagerplats (för dirigerad artikelinförsel och plockning).
 
-## <a name="typical-warehouse-workflow" />Vanligt arbetsflöde för distributionslager
+## <a name="typical-warehouse-workflow"></a>Vanligt arbetsflöde för distributionslager
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.
 
@@ -89,19 +89,19 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 
 Ställ in de lagerprocesser som är rätt för ditt företag. Läs mer på [Ställa in lagerstyrning](warehouse-setup-warehouse.md).
 
-## <a name="terminology-related-to-warehouse-management" />Terminologi relaterad till Warehouse Management
+## <a name="terminology-related-to-warehouse-management"></a>Terminologi relaterad till Warehouse Management
 
-### <a name="complexity-levels" />Komplexitetsnivåer
+### <a name="complexity-levels"></a>Komplexitetsnivåer
 
 Vi använder termerna grundläggande och avancerad för att skilja mellan olika nivåer av komplexitet. Denna enkla differentiering täcker flera nivåer av komplexitet i lagerställekonfigurationen, var och en stöds av olika distributionslagerdokument. Den mest avancerade lager nivån kallas för "dirigerad artikelinförsel och plockning". Om du vill använda dirigerad artikelinförsel och plockning för en plats, aktivera växlingsknappen **dirigerad artikelinförsel och plockning** på sidan **Lagerställekort**.
 
-### <a name="warehouse-flows" />Distributionslagerflöden
+### <a name="warehouse-flows"></a>Distributionslagerflöden
 
 * Inkommande flöde – Flytta artiklar i till distributionslagerstället och göra dem tillgängliga, till exempel inköp och inkommande överföringar.
 * Utgående flöde – Plocka och utleverera artiklar till kunder eller andra lagerställen.
 * Internt flöde – Hantera artiklar på ett lagerställe. Exempelvis flytta komponenter till produktionen eller utföra en inventering.
 
-### <a name="basic-documents" />Grundläggande dokument
+### <a name="basic-documents"></a>Grundläggande dokument
 
 Följande dokument används i grundläggande distributionslagerflöden.
 
@@ -111,7 +111,7 @@ Följande dokument används i grundläggande distributionslagerflöden.
 * Artikeljournal
 * Artikelgrupperingsjournal
 
-### <a name="advanced-documents" />Avancerade dokument
+### <a name="advanced-documents"></a>Avancerade dokument
 
 Följande dokument används i avancerade distributionslagerflöden.
 
@@ -129,11 +129,11 @@ Följande dokument används i avancerade distributionslagerflöden.
 * Artikeljournal för distributionslager
 * Distributionslagrets artikelgrupperingsjournal
 
-### <a name="pages-and-settings" />Sidor och inställningar
+### <a name="pages-and-settings"></a>Sidor och inställningar
 
 I det här avsnittet beskrivs begreppen bakom nyckelsidorna och lagerinställningarna.
 
-#### <a name="bins-and-bin-content" />Lagerplatser och lagerplatsinnehåll
+#### <a name="bins-and-bin-content"></a>Lagerplatser och lagerplatsinnehåll
 
 En lagerplats är en lagringsenhet som har utformats för att innehålla åtskilda delar. Det är den minsta behållarenheten i [!INCLUDE[prod_short](includes/prod_short.md)]. Antalet artiklar på lagerplatser kallas för *lagerplatsinnehåll*. En sökning från fältet **Artikel** eller fältet **Lagerställeskod** i ett distributionslagerrelaterat dokument visar den beräknade tillgängligheten av artikeln på lagerstället.  
 
@@ -150,7 +150,7 @@ En dedikerad lagerplats med lagerplatsinnehåll som bara kan plockas för dedike
 
 Du kan ha en standardlagerplats per artikel per lagerställe.  
 
-#### <a name="bin-type" />Lagerplatstyp
+#### <a name="bin-type"></a>Lagerplatstyp
 
 Lagerställen som använder dirigerad artikelinförsel och plockning kan använda lagerplatstyper. Lagerplatstyper styr de aktiviteter som du tillåter för en lagerplats. Följande typer av lagerplatser finns tillgängliga:  
 
@@ -168,7 +168,7 @@ Med undantag av lagerplatstyperna PLOCKA, ARTINFPLOC och ARTINFÖRS, definierar 
 > [!NOTE]  
 > Du måste använda transport för att flytta artiklar till lagerplatserna INLEVNS och KS, använd transport för att flytta artiklar från lagerplatserna UTLEVNS och KS.  
 
-#### <a name="bin-ranking" />Lagerplatsordning
+#### <a name="bin-ranking"></a>Lagerplatsordning
 
 I avancerad lagerhantering kan du automatisera och optimera hur artiklar samlas i artikelinförsel- och plockningskalkylark genom att ranka lagerplatser. Artiklar föreslås för plockningar och införsel baserat på lagerplatsordning.
 
@@ -176,7 +176,7 @@ Artikelinförselprocesser optimeras enligt lagerplatsordning, genom att föresl�
 
 Lagerplatsordning och lagerplatsinnehåll är de grundläggande egenskaper som guidar lagerpersonalen i distributionslagret.  
 
-#### <a name="bin-setup" />Lagerplatsinställning
+#### <a name="bin-setup"></a>Lagerplatsinställning
 
 I avancerad lagerstyrning kan du ange följande kapacitetsvärden för att styra hur och på vilka lagerplatser du lagrar artiklar:
 
@@ -193,7 +193,7 @@ Om du har angett kapacitetsbegränsningar för lagerställesinnehåll för en la
 > [!NOTE]  
 > Du kan bara använda flera basenheter på lagerställen som använder dirigerad artikelinförsel och plockning. I alla andra konfigurationer kan du endast använda lagerplatsinnehåll i basenheten. I alla transaktioner med en basenhet som är större än artikelns basenhet konverteras antalet till basenheten.  
 
-#### <a name="zone" />Zon
+#### <a name="zone"></a>Zon
 
 I avancerad lagerhantering kan lagerplatser grupperas i zoner för att hantera hur arbetsflödet med lageraktiviteter dirigeras för lagerställen.  
 
@@ -201,7 +201,7 @@ En zon kan vara en inleveranszon eller en lagerhållningszon, och varje zon kan 
 
 De flesta egenskaper som har kopplats till en zon ska tilldelas de lagerställen som skapas för zonen.  
 
-#### <a name="warehouse-class" />Dist.lagerklass
+#### <a name="warehouse-class"></a>Dist.lagerklass
 
 I avancerad lagerhantering kan du tilldela klasskoder för distributionslager för följande entiteter: 
 
@@ -215,11 +215,11 @@ När du arbetar med distributionslagerklasser och en leverans-/utleveranslagerpl
 
 I inkommande arbetsflöden är klasskoden bara markerad på inkommande rader där artikelklasskoden inte stämmer med standardlagerstället för inleveranser. Om rätt standardlagerställen inte har kopplats kan antalet som inte har inlevereras.  
 
-#### <a name="location" />Lagerställe
+#### <a name="location"></a>Lagerställe
 
 En plats är en fysisk struktur eller plats där lager tas emot, lagras och levereras. Ett lagerställa kan vara ett distributionslager, en servicebil, en visningslokal, en anläggning eller ett område i en anläggning. Lagret är ofta organiserat i lagerplatser och zoner.
 
-#### <a name="first-expired-first-out" />First Expiry First Out
+#### <a name="first-expired-first-out"></a>First Expiry First Out
 
 Om du markerar kryssrutan **Plocka enligt FEFO** på snabbfliken **Lagerplatsprinciper** på sidan **Lagerställekort** plockas spårade artiklar på lagerstället enligt deras utgångsdatum. Artiklar med de tidigaste förfallodatumen plockas först.  
 
@@ -227,13 +227,13 @@ Distributionslageraktiviteter i alla plock- och transportdokument sorteras enlig
 
 När du plockar med FEFO kommer artiklarna som förfaller först att samlas i en tillfällig artikelspårninglista baserat på förfallodatumet. Om två artiklar har samma utgångsdatum, väljs artikeln med det lägsta serie – eller partinummer först. Om serie- eller partinummer är samma, väljs först den artikel som registrerades först. Standardvillkor för att välja artiklar i plocklagerställen, till exempel lagerplatsordning och enhetsbrytning, som kopplas till den tillfälliga FEFO-artikelspårninglistan.  
 
-#### <a name="put-away-template" />Artikelinförselmall
+#### <a name="put-away-template"></a>Artikelinförselmall
 
 Artikelinförselmallen anger en uppsättning prioriterade regler som gäller när du skapar artikelinförslar. En artikelinförselmall kan till exempel kräva att du placerar artiklar på en lagerplats med lagerplatsinnehåll som har samma basenhet. Om en liknande lagerplats med tillräcklig kapacitet inte kan hittas måste artikeln placeras på en tom lagerplats. Du tilldelar en artikelinförselmall till en artikel och ett lagerställe.  
 
-## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)  

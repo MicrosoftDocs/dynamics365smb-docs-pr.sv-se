@@ -11,12 +11,12 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="set-up-fault-reporting" />Konfigurera felrapportering
+# <a name="set-up-fault-reporting"></a>Konfigurera felrapportering
 Felrapportering låter dig upprätta standarder för att registrera felinformation för serviceartiklar. Exempelvis kan du ange problemet, vilka problem som uppstår, orsaken till problemet och hur du löser det.  
 
 Felkoder identifierar de olika serviceartikelfelen eller de åtgärder som vidtas för serviceartiklar. Beroende på felrapporteringsnivån på företaget kanske du måste skapa feltypskoder och symptomkoder innan du skapar felkoder. Felområden identifierar fel hos serviceartiklar. Felorsakskoder identifierar orsaken till serviceartikelfel och vid behov utesluter garanti- och kontraktsrabatter. Du kanske till exempel vill utesluta garanti- och kontraktsrabatt om kunden är ansvarig för felet på serviceartikeln. Du kan tilldela felorsakskoder för serviceorder. Mer information finns i [Så här arbetar du med tjänsteuppgifter](service-how-to-work-on-service-tasks.md).  
 
-## <a name="to-specify-the-overall-level-of-fault-reporting" />Ange övergripandenivå av felrapportering
+## <a name="to-specify-the-overall-level-of-fault-reporting"></a>Ange övergripandenivå av felrapportering
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceinställningar** och väljer sedan relaterad länk.
 2. I fältet **Felrapporteringsnivå**, välj ett av alternativen som beskrivs i följande tabell.  
 
@@ -29,7 +29,7 @@ Felkoder identifierar de olika serviceartikelfelen eller de åtgärder som vidta
 
 När du gör inställningar för felhantering kan du också ange vilka reparationer eller åtgärder som associeras med ett fel eller en defekt. Du ställer in detta på sidan **fel/åtgärd kodssamband** där du konfigurerar kombinationer av koder för serviceartikelgruppen på serviceartikeln som du har öppnat fönstret för och antalet förekomster av var och en.
 
-## <a name="to-create-fault-and-resolution-code-relationships" />Så här skapar du fel- och åtgärdskodssamband
+## <a name="to-create-fault-and-resolution-code-relationships"></a>Så här skapar du fel- och åtgärdskodssamband
 <!--this needs to go in a working with topic-->
 Du måste bygga upp information om fel- och åtgärdskodssamband för att kunna se de vanligaste reparationsmetoderna för vissa artikelfel när du utför på artiklarna. Använd batch-jobbet **Infoga fel-/åtgärdssambandskoder** för sökning efter alla kombinationer av fel- och åtgärdskoder i bokförda serviceorder och registrera dem på sidan **Fel-/åtgärdssambandskoder**.
 
@@ -38,7 +38,7 @@ Du måste bygga upp information om fel- och åtgärdskodssamband för att kunna 
 3. Markera kryssrutan **Relation baserad på serviceartikelgrupp** om du vill att relationen ska grupperas efter serviceartikelgrupp.  
 4. Markera kryssrutan **Bibehåll manuellt infogade poster** om du vill behålla uppgifterna som du redan har infogat manuellt i fönstret **Fel- och åtgärdssamband koder**.  
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 [Ställa in tjänstehantering](service-setup-service.md)  
 [Servicehantering](service-service.md)  
 

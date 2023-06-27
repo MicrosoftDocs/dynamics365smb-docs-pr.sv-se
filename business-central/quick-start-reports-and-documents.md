@@ -12,11 +12,11 @@ ms.date: 08/15/2022
 ms.author: a-reishima
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start" />Grundläggande rapporter och dokument snabbstart för utdata
+# <a name="basic-reports-and-documents-output-quick-start"></a>Grundläggande rapporter och dokument snabbstart för utdata
 
 Om du vill anpassa [!INCLUDE[prod_short](includes/prod_short.md)] efter företagets behov kan du ange och använda rapporter och anpassade dokument som passar företagets processer och visuella identiteter.
 
-## <a name="add-your-company-logo-to-documents" />Lägg till företagslogotyp till dokument
+## <a name="add-your-company-logo-to-documents"></a>Lägg till företagslogotyp till dokument
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller mallar som använder företagets logotyp för att spara tid anpassa dokument som fakturor, order och utdrag.
 
@@ -26,7 +26,7 @@ Om du vill anpassa [!INCLUDE[prod_short](includes/prod_short.md)] efter företag
 
 Du kan se ovanstående instruktioner i [den här YouTube videon](https://www.youtube.com/watch?v=AatXbKF1NGg). När bilden väl visas i fältet **Bild** kan du stänga sidan **Företagsinformation**.
 
-## <a name="run-reports" />Kör rapporter
+## <a name="run-reports"></a>Kör rapporter
 
 I rapporter kan du ordna information från olika källor i [!INCLUDE[prod_short](includes/prod_short.md)] och presentera den på ett läsligt sätt som är lätt att skriva ut eller dela digitalt. Rapporter finns på de sidor som de associeras sammanhangsbaserat med. På sidan **artiklar** visas t.ex. en lista över rapporter som är relaterade till lagernivåer, inköp, försäljning med mera.
 
@@ -38,7 +38,7 @@ I rapporter kan du ordna information från olika källor i [!INCLUDE[prod_short]
 
 Lär dig mer om att filtrera data, schemalägga rapporter och mer vid [Kör- och skriv ut-rapporter](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents" />Spara rapporter som PDF-, Excel- eller Word-dokument
+## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Spara rapporter som PDF-, Excel- eller Word-dokument
 
 Om du snabbt vill dela rapporter kan du spara [!INCLUDE[prod_short](includes/prod_short.md)] rapporter direkt i PDF Microsoft Excel eller Microsoft Word dokument.
 
@@ -47,7 +47,7 @@ Om du snabbt vill dela rapporter kan du spara [!INCLUDE[prod_short](includes/pro
 3. Välj filen, och välj sedan **OK**.
 R den genererade rapport filen sparas automatiskt i webbläsarens nedĺaddningsmapp.
 
-### <a name="change-report-and-document-layouts" />Ändra rapport- och dokumentlayouter
+### <a name="change-report-and-document-layouts"></a>Ändra rapport- och dokumentlayouter
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller många inbyggda layouter för rapporter och andra genererade dokument, till exempel försäljningsfakturor. Med hjälp av program som Microsoft Word eller Excel kan du redigera layoutinställningarna för dokument och rapporter enligt följande exempel:
 
@@ -64,9 +64,9 @@ R den genererade rapport filen sparas automatiskt i webbläsarens nedĺaddningsm
 
 Mer information om hur du anpassar rapporter och dokument till ditt företags behov vid [rapport- och dokumentlayout](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/work-with-reports/).
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Använd rapporter i det dagliga arbetet](reports-use-reports.md)  
 [Tillgängliga rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

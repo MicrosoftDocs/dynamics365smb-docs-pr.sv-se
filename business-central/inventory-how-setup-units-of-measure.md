@@ -10,7 +10,7 @@ ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-units-of-measure" />Ställa in måttenheter
+# <a name="set-up-units-of-measure"></a>Ställa in måttenheter
 
 När du skapar en inställning [!INCLUDE [prod_short](includes/prod_short.md)] anger du allmänna måttenheter på sidan **enhet**. När du sedan registrerar nya artiklar anger du basenheten på **artikelkortet**. Du kan också lägga till enheter senare.  
 
@@ -23,7 +23,7 @@ Om en artikel lagerförs med en enhet men tillverkas med en annan, kan du skapa 
 
 Ett annat verktyg som gör det enklare att arbeta med flera måttenheter för olika artiklar är möjligheten att ange en avrundningsprecision för basenheter. Att ange en avrundningsprecision ger vägledning för vad någon ska ange för en viss affärsprocedur och minskar avrundningsproblemen. När du använder alternativa enheter används värdet i fältet **Antal per måttenhet** för att beräkna antalet i basenheten, vilket kan leda till avrundningsproblem. Anta t.ex. att du får en ruta som innehåller sex objekt. När rutan anländer till lagret upptäcker du att en av de sex artiklarna saknas. Du bestämmer dig för att inte bokföra inleveransen av en ruta, utan i stället ändra den mottagna kvantiteten till fem av sex delar. Som leder till en inleverans av 4,99998 st enheter snarare än fem. På sidan **måttenheter för artikel** i fältet **Avrundning för antal** låter dig ange ett värde som omvandlar kvantiteten till ett nummer som är lättare att förstå. Om du fortsätter med exemplet skriver vi in **1** i fältet för att avrunda till jämnt fem stycken.
 
-## <a name="to-set-up-units-of-measure" />Ställa in måttenheter
+## <a name="to-set-up-units-of-measure"></a>Ställa in måttenheter
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **måttenhet** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. En ny tom rad infogas.  
@@ -36,7 +36,7 @@ Ett annat verktyg som gör det enklare att arbeta med flera måttenheter för ol
 
 När du registrerar en ny artikel kan du välja basenheten från listan över enheter som du nu har lagt upp. Du kan också lägga upp flera enheter för en artikel.  
 
-## <a name="to-set-up-multiple-item-units-of-measure" />För att ställa in flera måttenheter
+## <a name="to-set-up-multiple-item-units-of-measure"></a>För att ställa in flera måttenheter
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna kortet för artikeln som du vill ange alternativa enheter för.
@@ -54,7 +54,7 @@ När du registrerar en ny artikel kan du välja basenheten från listan över en
 
 Nu kan du använda de alternativa enheter för inköp, produktion och försäljningsdokument. För mer information, se [Så här anger du en standardenhet för en enhetskod för försäljnings- och inköpstransaktioner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
-## <a name="to-set-up-unit-of-measure-translations" />Så här skapar du enhetsöversättningar
+## <a name="to-set-up-unit-of-measure-translations"></a>Så här skapar du enhetsöversättningar
 
 När du säljer varor till utländska kunder, kan det hända att du vill ange enheten på kundens eget språk. Det kan du göra genom att ange översättningar av måttenheter.
 
@@ -64,7 +64,7 @@ När du säljer varor till utländska kunder, kan det hända att du vill ange en
 4. Skriv den aktuella texten i fältet **Beskrivning**.
 5. Upprepa steg 2-4 för varje måttenhetskod och de språk som du vill ange översättningar för.
 
-## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions" />Så här anger du en standardenhet för en enhetskod för försäljnings- och inköpstransaktioner
+## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Så här anger du en standardenhet för en enhetskod för försäljnings- och inköpstransaktioner
 
 Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du ange särskilda enheter för inköp och försäljning. För att du ska kunna göra det, måste du ha skapat sidan **Artikelenheter**.
 
@@ -74,9 +74,9 @@ Om du brukar köpa eller sälja artiklar i andra enheter än basenheten, kan du 
 4. För inköp: På snabbfliken **Återanskaffning** i fältet **Måttenhet för inköp** öppnar du sidan **Måttenheter för artikel**.
 5. Välj den kod som du vill ange som standardenhet för försäljning respektive inköp, och välj sedan knappen **OK**.
 
-## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med måttenheter för produktionsbatch](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  

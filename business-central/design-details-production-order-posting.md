@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-production-order-posting" />Designdetaljer: Bokföring av produktionsorder
+# <a name="design-details-production-order-posting"></a>Designdetaljer: Bokföring av produktionsorder
 Precis som för monteringsorderbokföring konverteras de förbrukade komponenterna och den använda maskintiden och utflödas som producerad artikel när produktionsordern har färdigställts. Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md) Däremot är kostnadsflödet för monteringsorder mindre komplicerat, särskilt eftersom bokföring av monteringskostnad endast uppstår en gång och därför inte genererar lager för produkter i arbete.
 
 
@@ -46,7 +46,7 @@ Värdena av ökningar och minskningar registreras i de olika typerna av tillverk
 
 Även om värdet på av transaktioner som är kopplade till inköpta varor bokförs endast som artikeltransaktioner med relaterade värdetransaktioner, bokförs transaktioner som är kopplade till producerade artiklar som kapacitetstransaktioner med relaterade värdetransaktioner, utöver artikeltransaktionerna.  
 
-## <a name="posting-structure" />Bokföringsstruktur
+## <a name="posting-structure"></a>Bokföringsstruktur
 När du bokför produktionsorder till PIA-lagret avser utflöde, förbrukning och kapacitet.  
 
 Följande diagram visar de berörda bokföringsrutinerna i kodenhet 22.  
@@ -69,12 +69,12 @@ En värdetransaktion som beskriver PIA-lagervärdet kan kopplas till en av följ
 
 För mer information om hur kostnader från produktion och montering bokförs i redovisningen, se [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting" />Kapacitetsbokföring
+## <a name="capacity-posting"></a>Kapacitetsbokföring
 Bokföring av utflöde från den sista produktionsorderns verksamhetsföljdsrad resulterar i en kapacitetstransaktion för slutobjektet, förutom dess lagerökning.  
 
  Kapacitetstransaktionen är en post för den tid som spenderades för att producera artikeln. Den relaterade värdetransaktionen beskriver ökningen av PIA-lagervärdet, som är värdet för konverteringkostnaden. Mer information finns i ”från fönstret kapacitetstransaktioner” i [Designdetaljer: konton i redovisningen](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="production-order-costing" />Kostnadskalkylering för tillverkningsorder
+## <a name="production-order-costing"></a>Kostnadskalkylering för tillverkningsorder
  För att kontrollera lager- och produktionskostnader måste ett produktionsföretag mäta kostnaden för produktionsordern, eftersom den förutbestämda standardkostnaden för varje producerad artikel ska kapitaliseras i balansräkningen. Se [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md) för information om varför producerade artiklar använder värderingsprincipen.  
 
 > [!NOTE]  
@@ -98,7 +98,7 @@ I standardkostnadmiljöer baseras värderingen av en produktionsorder på följa
     >  Det skiljer sig från monteringsorderbokföring, som alltid bokför faktiska kostnader. Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
 2.  När produktionsorder ställs in till **Färdig**, d.v.s ordern faktureras genom att köra batchjobbet **Justera kost. – artikeltrans.**. Det medför att den totala kostnaden för ordern beräknas baserat på standardkostnaden för de förbrukade materialen och kapaciteten. Skillnaden mellan det beräknade standardkostnaderna och de faktiska produktionskostnaderna beräknas och bokförs.  
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
  [Hantera lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments" />Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
+# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
 
 Denna genomgång visar hur du konfigurerar och använder förskottsbetalningar i [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -18,7 +18,7 @@ Denna genomgång visar hur du konfigurerar och använder förskottsbetalningar i
 
 Du kan till exempel skicka fler förskottsfakturor om fler artiklar läggs till i ordern.  
 
-## <a name="about-this-walkthrough" />Om den här genomgången
+## <a name="about-this-walkthrough"></a>Om den här genomgången
 
 Den här genomgången kommer att innehålla följande scenarion:  
 
@@ -29,7 +29,7 @@ Den här genomgången kommer att innehålla följande scenarion:
 - Använda förskottsbetalningar för en order  
 - Fakturera slutbeloppet på en order med en förskottsbetalning  
 
-### <a name="roles" />Roller
+### <a name="roles"></a>Roller
 
 Den här genomgången innehåller aktiviteter för följande roller:  
 
@@ -37,7 +37,7 @@ Den här genomgången innehåller aktiviteter för följande roller:
 - Orderhandläggare (Susan)  
 - Kundreskontraadministratör (Arnie)  
 
-## <a name="story" />Situation
+## <a name="story"></a>Situation
 
  Phyllis är redovisningschef och fattar beslut om vilka kunder som måste betala en deposition innan artiklar tillverkas eller levereras. Phyllis lägger upp [!INCLUDE[prod_short](includes/prod_short.md)] för att beräkna förskottsbetalningar automatiskt.  
 
@@ -53,7 +53,7 @@ Den här genomgången innehåller aktiviteter för följande roller:
 
  Arnie registrerar kundens betalning och bokför den mot fakturorna och skickar sedan den sista fakturan.  
 
-## <a name="set-up-prepayments" />Konfigurera förskottsbetalningar
+## <a name="set-up-prepayments"></a>Konfigurera förskottsbetalningar
 
 Phyllis konfigurerar systemet för hantering av förskottsbetalningar från kunder.  
 
@@ -63,13 +63,13 @@ Phyllis konfigurerar systemet för hantering av förskottsbetalningar från kund
 
 I följande procedurer beskrivs hur Phyllis uppgifter ska utföras:  
 
-### <a name="to-set-up-number-series-for-prepayments" />Så här lägger du upp nummerserier för förskottsbetalningar
+### <a name="to-set-up-number-series-for-prepayments"></a>Så här lägger du upp nummerserier för förskottsbetalningar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.  
 2. På sidan **Försäljningsinställningar** expanderar du snabbfliken **Nummerserier**.  
 3. Kontrollera att nummerserien för bokförda förskottsfakturor i fältet **Försk.fakt.nr.serie (bokförd)** är samma som för bokförda försäljningsfakturor (**Fakturanr-serie (bokförd)**) och att nummerserien för bokförda förskottskreditnotor (**Försk.kredit.nr.serie (bokförd)**) är samma som för bokförda kreditnotor (**Kreditnotenr-serie (bokförd)**).  
 
-### <a name="to-block-shipments-for-unpaid-prepayment" />Så här spärrar du utleveranser för obetalda förskottsbetalningar
+### <a name="to-block-shipments-for-unpaid-prepayment"></a>Så här spärrar du utleveranser för obetalda förskottsbetalningar
 
 1. På sidan **Försäljningsinställningar**, på snabbfliken **Allmänt**, markerar du kryssrutan **Kontrollera förskottsbet. vid bokföring**.
 
@@ -79,7 +79,7 @@ Phyllis kräver att kunden 20000 ska faktureras 30 % i förskott för alla order
 
 Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 1896-S. Kunden 20000 har dålig betalningshistorik så Phyllis kräver 40 % i förskottsbetalning från kund 20000 för artikel 1896-S. I följande exempel visas hur du lägger upp procentuella standardvärden för förskottsbetalningar.  
 
-### <a name="to-assign-default-prepayment-percentages-to-customers-and-items" />Så här tilldelar du kunder och artiklar procentuella standardvärden för förskottsbetalningar
+### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Så här tilldelar du kunder och artiklar procentuella standardvärden för förskottsbetalningar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2. Öppna kortet för kund 20000 (Trey Research).
@@ -97,7 +97,7 @@ Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 189
 
 6. Stäng alla sidor.  
 
-### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup" />Så här kan du skriva in ett konto för utgående förskottsbetalningar i bokföringsinställningarna
+### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Så här kan du skriva in ett konto för utgående förskottsbetalningar i bokföringsinställningarna
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 2. Markera raden där fältet **Gen. rörelsebokföringsmall** anges till **INRIKES** och fältet **Produktbokföringsmall** anges till **ÅTERFÖRSÄLJNING**.  
@@ -106,7 +106,7 @@ Phyllis kräver att alla kunder ska faktureras 20 % i förskott för artikel 189
 > [!TIP]
 > Om fältet på sidan **Bokföringsinställningar** inte visas kan du använda den vågräta rullningslisten längst ned på sidan för att rulla åt höger.  
 
-## <a name="create-an-order-that-requires-a-prepayment" />Skapa en order som kräver förskottsbetalning
+## <a name="create-an-order-that-requires-a-prepayment"></a>Skapa en order som kräver förskottsbetalning
 
  I följande scenario skapar Susan, orderhandläggaren, en order medan hon pratar med en kund. De artiklar som kunden beställer kräver en förskottsbetalning. Dessutom har kunden gjort sent betalningar tidigare. Susan har blivit instruerad att kräva ett fast belopp på **800** som förskottsbetalning för ordern.  
 
@@ -114,7 +114,7 @@ Kunden önskar betala 35 % vilket Susan går med på och ändrar ordern därefte
 
 Susan skapar en förskottsfaktura och skickar den till kunden.  
 
-### <a name="to-create-a-sales-order-with-a-prepayment" />Så här skapar du en försäljningsorder med förskottsbetalning
+### <a name="to-create-a-sales-order-with-a-prepayment"></a>Så här skapar du en försäljningsorder med förskottsbetalning
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -151,11 +151,11 @@ Susan skapar en förskottsfaktura och skickar den till kunden.
 12. Välj **ja** för varningen som visas. En debitering på 35 % används som procentuell förskottsbetalning för hela ordern.  
 13. Bekräfta att raderna har uppdaterats korrekt.  
 
-## <a name="create-a-prepayment-invoice" />Skapa en förskottsfaktura
+## <a name="create-a-prepayment-invoice"></a>Skapa en förskottsfaktura
 
 När Susan har angett korrekta värden för förskottsbetalning av ordern skapar hon förskottsfakturan och skickar den till kunden.  
 
-### <a name="to-create-a-prepayment-invoice" />Så här skapar du en förskottsfaktura
+### <a name="to-create-a-prepayment-invoice"></a>Så här skapar du en förskottsfaktura
 
 1. På sidan **Försäljningsorder** väljer du **Åtgärder**, sedan **Bokföring**, sedan **Förskottsbetalning** och sedan **Bokför och skriv ut faktura för förskottsbetalning**
 2. Klicka på **Ja** för att bokföra fakturan.  
@@ -163,11 +163,11 @@ När Susan har angett korrekta värden för förskottsbetalning av ordern skapar
 > [!NOTE]  
 > Susan skulle nu skicka fakturan till kunden.  
 
-## <a name="create-an-additional-prepayment-invoice" />Skapa en ytterligare förskottsfaktura
+## <a name="create-an-additional-prepayment-invoice"></a>Skapa en ytterligare förskottsfaktura
 
 Följande dag ringer kunden upp Susan och ändrar ordern. Kunden vill ha två stycken av artikel 1896-S. Susan öppnar ordern igen och uppdaterar den och skapar sedan ytterligare en förskottsfaktura för ordern och skickar den till kunden.  
 
-### <a name="to-create-an-additional-prepayment-invoice" />Så här skapar du ytterligare en förskottsfaktura
+### <a name="to-create-an-additional-prepayment-invoice"></a>Så här skapar du ytterligare en förskottsfaktura
 
 1. På sidan **Försäljningsorder** väljer du åtgärden **Frisläpp** och sedan **Öppna igen**.  
 2. På raden för artikel **1896-S** anger du **2** i fältet **Kvantitet**.  
@@ -176,11 +176,11 @@ Följande dag ringer kunden upp Susan och ändrar ordern. Kunden vill ha två st
 3. För att bokföra en faktura för extra förskottsbetalningsbelopp väljer du **Åtgärder**, sedan **Bokföring**, sedan **Förskottsbetalning** och sedan **Bokför och skriv ut faktura för förskottsbetalning**
 4. Klicka på **Ja** för att bokföra fakturan.  
 
-## <a name="apply-the-prepayments" />Använda förskottsbetalningar
+## <a name="apply-the-prepayments"></a>Använda förskottsbetalningar
 
 Kunden betalar förskottsbeloppet. Arnie, från redovisningsavdelningen, registrerar betalningen och använder den på förskottsfakturorna.  
 
-### <a name="to-apply-a-payment-to-the-prepayment-invoices" />Så här bokför du betalningar mot förskottsfakturor
+### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Så här bokför du betalningar mot förskottsfakturor
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inbetalningsjournaler** och väljer sedan relaterad länk.  
 2. Fyll i journalraden med följande information.  
@@ -200,11 +200,11 @@ Kunden betalar förskottsbeloppet. Arnie, från redovisningsavdelningen, registr
 7. Om du vill bokföra journalen väljer du åtgärden **Bokför/skriv ut** och väljer sedan **Bokför**.
 8. Välj **Ja**.
 
-## <a name="invoice-the-remaining-amount" />Fakturera återstående belopp
+## <a name="invoice-the-remaining-amount"></a>Fakturera återstående belopp
 
 Nu har Arnie blivit informerad om att artiklarna på ordern har levererats och att ordern är klar för fakturering. Arnie skapar fakturan för ordern.  
 
-### <a name="to-invoice-the-remaining-amount" />Så här fakturerar du återstående belopp
+### <a name="to-invoice-the-remaining-amount"></a>Så här fakturerar du återstående belopp
 
 1. Öppna försäljningsordern.
 2. Välj åtgärden **Bokföring** och sedan **Bokför**.
@@ -218,11 +218,11 @@ Nu har Arnie blivit informerad om att artiklarna på ordern har levererats och a
 
 5. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically" />Uppdatera statusen för förutbetalda order och fakturor automatiskt
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Uppdatera statusen för förutbetalda order och fakturor automatiskt
 
 Du kan påskynda bearbetningen av order och fakturor genom att lägga upp jobbkötransaktioner som automatiskt uppdaterar status för dessa dokument. När en förskotts faktura betalas kan jobbkötransaktionen automatiskt ändra dokument statusen från **Väntar på förskottsbetalning** till **släppt**. När du registrerar jobbkötransaktioner måste du använda de kodmoduler som är **383 Uppdatera väntande förskottsbetalning, försäljning** och **383 Uppdaterar väntande förskottsbetalning, inköp**. Vi rekommenderar att du schemalägger transaktionerna så att de körs ofta, till exempel varje minut. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## <a name="next-steps" />Gå vidare
+## <a name="next-steps"></a>Gå vidare
 
 Den här genomgången har gått igenom hur du konfigurerar [!INCLUDE[prod_short](includes/prod_short.md)] att hantera förskottsbetalningar. 
 
@@ -235,9 +235,9 @@ Du har också bokfört en förskottsfaktura, skapat en andra förskottsfaktura n
 
 Funktionerna för förskottsbetalning gör det enklare att lägga upp och använda förskottsbetalningsregler för kunder och artiklar. De ger dig också möjlighet att bokföra varje betalning mot en faktura.  
 
-## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  
 [Ekonomi](finance.md)  

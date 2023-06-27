@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments" />Definiera regler för automatisk koppling av betalningar
+# <a name="set-up-rules-for-automatic-application-of-payments"></a>Definiera regler för automatisk koppling av betalningar
 
 På sidan **Regler för betalningskoppling** anger du regler som styr hur betalningstext (på en banktransaktion) automatiskt kopplas till text på relaterade öppna (obetalda) fakturor, kreditnotor eller andra poster när du använder funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal**. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ Utöver matchningsvillkoret gäller följande för tecknet för betalningsbelopp
 - För negativa belopp görs först en matchning mot öppna transaktioner som representerar kundfakturor, och sedan mot kreditnotor för leverantören.
 - För positiva belopp görs först en matchning mot öppna transaktioner som representerar leverantörsfakturor, och sedan mot kreditnotor för kunden.
 
-## <a name="to-set-up-a-payment-application-rule" />Så här definierar du en regel för betalningskoppling
+## <a name="to-set-up-a-payment-application-rule"></a>Så här definierar du en regel för betalningskoppling
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningskopplingsregler** och väljer sedan relaterad länk.
 2. Definiera en ny eller redigerad betalningskopplingsregel genom att fylla i fälten på en rad enligt beskrivningen i följande register.
 
@@ -74,9 +74,9 @@ I följande tabell beskrivs standardreglerna för betalningsansökan i [!INCLUDE
 | Låg              | 4        | Nr                    | Nr                             | En matchning                      |
 | Låg              | 5        | Nr                    | Nr                             | Flera matchningar               |
 
-## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  

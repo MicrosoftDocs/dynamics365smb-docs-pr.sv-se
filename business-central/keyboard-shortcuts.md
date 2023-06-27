@@ -11,7 +11,7 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-shortcuts" />Kortkommandon
+# <a name="keyboard-shortcuts"></a>Kortkommandon
 
 Den här artikeln innehåller en översikt över några av de kombinationer av kortkommandon som du kan använda när du arbetar med [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -21,7 +21,7 @@ En översikt över de vanligaste kortkommandona finns i [Kortkommandon (endast d
 > Om du vill visa en grafisk vy över de mest använda kortkommandona väljer du följande bild och hämtar PDF-filen.  
 > [ ![Ikon för PDF-filen.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som öppnar en PDF-fil")
 
-## <a name="overview" />Översikt
+## <a name="overview"></a>Översikt
 
 Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer effektivt att navigera till olika områden och element på en sida. De stöds av de flesta webbläsare, beteendet kan dock variera något.
 
@@ -33,7 +33,7 @@ De flesta kortkommandona är desamma oavsett om operativ systemet är Windows e
 > [!NOTE]
 > Förutom de globala kortkommandon som beskrivs i denna artikel finns ett antal företagsspecifika genvägar. Till exempel i den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)], bokför <kbd>F9</kbd> ett dokument och <kbd>Ctrl</kbd>+<kbd>F7</kbd> visar redovisningstransaktionerna för en post när du öppnar posten i ett kort. I denna artikel beskrivs några av de vanligaste företagsspecifika kortkommandona, som visas med kursiv stil. Tänk på att de faktiska kortkommandona kan variera i just din lösning. I användargränssnittet visas kortkommandot i knappbeskrivningen för den aktuella åtgärden.
 
-## <a name="general-keyboard-shortcuts" /><a name="Keyboard"></a> Allmänna kortkommandon
+## <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Allmänna kortkommandon
 
 I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika element på en sida. Element är t. ex. åtgärder, list rutor, uppslag m.m. Mer information om kortkommandon för att hantera poster när de visas i en lista finns i nästa avsnitt.
 
@@ -67,14 +67,14 @@ I tabellen nedan beskrivs kortkommandon för navigering och åtkomst av olika el
 |<kbd>Shift</kbd>+<kbd>Tabb</kbd>|Flytta fokus till föregående kontroll eller element på en sida, till exempel åtgärder, knappar, fält eller listrubriker.|
 |<kbd>Y</kbd> och <kbd>N</kbd>|Aktivera knapparna **Ja** och **Nej** i dialogrutor. De faktiska nycklarna kan variera beroende på vilket språk som anges i **Mina inställningar**. Du kan t.ex. välja <kbd>J</kbd> för att aktivera knappen **Ja** när du använder tyska språket.|
 
-## <a name="keyboard-shortcuts-in-lists" />Kortkommandon i listor
+## <a name="keyboard-shortcuts-in-lists"></a>Kortkommandon i listor
 
 I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. Genvägsåtgärden skiljer sig något beroende på om sidan visas som listvy eller sida vid sida.
 <!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
-### <a name="general" />Allmänt
+### <a name="general"></a>Allmänt
 
 |Välj dessa tangenter<br />(i macOS)|För att göra detta som en lista|För att göra detta som en panelvisning |
 |--------------------------------|-------------------------|--------------------------|
@@ -90,7 +90,7 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Skicka förslag på rader på sidan för kalkylark för kassaflöde.|Ej tillämpbart.|
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Visa serie- och partinummer som har tilldelats till radartikeln för dokument eller journal.|Ej tillämpbart.|
 
-### <a name="navigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
 
 Det finns stödraster som innehåller rader och kolumner på många olika sidtyper i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel listsidor och **Rad**-delar i dokument. Att flytta från en cell till en annan i ett rutnät kan ske helt och hållet via tangentbordet.
 
@@ -111,7 +111,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 | <kbd>Tabb</kbd> | I en redigerbar lista, flytta till samma rad till höger i samma fält. | Ej tillämpbart. | 
 | <kbd>Shift</kbd>+<kbd>Tabb</kbd> | I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. |
 
-### <a name="selecting-copying-and-pasting" /><a name="CopyRows"></a>Välja kopiera och klistra in
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Välja kopiera och klistra in
 
 |Välj dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 |<kbd>Shift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>Fn</kbd>+<kbd>Uppil</kbd>)|Utöka radmarkeringen så att samtliga synliga rader nedanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart.|
 |<kbd>F8</kbd>|Kopiera fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden. Du kan bara göra detta i redigerbara listor. Med detta kortkommando följt av en <kbd>flik</kbd> kan du snabbt kan fylla i fält i radposter som du vill ska ha samma värde som raden ovan.|Ej tillämpbart.|
 
-### <a name="searching-and-filtering-lists" /><a name="KeyboardFilter"></a>Söka och filtrera listor
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Söka och filtrera listor
 
 |Välj dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
@@ -141,7 +141,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Återställ filter. Detta är detsamma som att välja **Återställ filter** i filterrutan och kopplar det till fält och totala filter.<br /><br /> Filter återgår till standardfilter för den aktuella vyn. Om den aktuella vyn är **alla** motsvarar detta att återvända till en ofiltrerad vy med alla poster. |
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Växla fokus från den filterrutan tillbaka till listan.|
 
-## <a name="keyboard-shortcuts-in-cards-and-documents" />Kortkommandon i kort och dokument
+## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Kortkommandon i kort och dokument
 
 Följande kortkommandon kan användas för kortsidorna t. ex. **kundkort** och dokumentsidor t. ex. **försäljningsorder** för att visa och ändra poster.
 
@@ -169,7 +169,7 @@ Följande kortkommandon kan användas för kortsidorna t. ex. **kundkort** och d
 |<kbd>Shift</kbd>+<kbd>F6</kbd>|Flytta till föregående <kbd>snabbflik</kbd> eller del (underordnad sida).|
 |*<kbd>Shift</kbd>+<kbd>F9</kbd>*|Bokför och skriv ut ett dokument.|
 
-## <a name="quick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Kortkommandon för snabbinmatning för fält
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Kortkommandon för snabbinmatning för fält
 
 Följande kortkommandon gäller funktionen snabbinmatning på kort, dokument och listsidor. På listor kan inte genvägar användas när listan är i panelvyn. Mer information om snabbinmatnings finns i [påskynda datainmatning med snabbinmatning](ui-enter-data.md#QuickEntry).
 
@@ -179,7 +179,7 @@ Följande kortkommandon gäller funktionen snabbinmatning på kort, dokument och
 |<kbd>Shift</kbd>+<kbd>Enter</kbd>|Bekräfta värdet i nuvarande fält och gå till föregående snabbinmatningsfält.||
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Bekräfta värdet i nuvarande kolumn och gå till nästa snabbinmatningsfält utanför listan.<br /><br />Detta kortkommando gäller för inbäddade listor på en sida, till exempel radartiklar på en försäljningsorder. På så sätt kan du snabbt komma ut ur listan och fortsätta skriva in data i övriga fält på sidan.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Kortkommandon i kalendern (datumväljare)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Kortkommandon i kalendern (datumväljare)
 
 När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en kalender (datumväljare) där du kan välja önskat datum. I följande tabell beskrivs kortkommandon för kalendern.
 
@@ -197,14 +197,14 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |<kbd>Page Down</kbd>|Flytta till nästa månad|
 |<kbd>Page Up</kbd>|Flytta till föregående månad|  
 
-## <a name="keyboard-shortcuts-in-date-fields" />Kortkommandon i datumfält
+## <a name="keyboard-shortcuts-in-date-fields"></a>Kortkommandon i datumfält
 
 |Välj dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
 |<kbd>d</kbd>|Ange aktuellt datum. "I" betyder "i dag".|
 |<kbd>a</kbd>|Ange arbetsdatum. Mer information finns i [Arbetsdatum](ui-change-basic-settings.md#work-date)|
 
-## <a name="keyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Kortkommandon i Förhandsgranska rapport
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Kortkommandon i Förhandsgranska rapport
 
 |Välj dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|
@@ -218,7 +218,7 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |<kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>uppåtpil</kbd>)|Gå till nästa sida i rapporten.|
 |<kbd>Page Up</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>uppåtpil</kbd>)|Gå till föregående sida i rapporten.|
 
-## <a name="keyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Kortkommandon för zoomning in och ut
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Kortkommandon för zoomning in och ut
 
 |Välj dessa tangenter|Om du vill|
 |--------------------------------|----------|
@@ -226,7 +226,7 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Zooma ut på den aktuella sidan.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Zooma in eller ut till 100 % på den aktuella sidan.|  
 
-## <a name="keyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Kortkommandon för rollutforskaren
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Kortkommandon för rollutforskaren
 
 Rollutforskaren ger dig en översikt över och snabb åtkomst till alla affärsfunktioner som är tillgängliga för din roll. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).
 
@@ -238,7 +238,7 @@ Rollutforskaren ger dig en översikt över och snabb åtkomst till alla affärsf
 |<kbd>Shift</kbd> <kbd>F3</kbd> eller <kbd>Ctrl</kbd>+<kbd>Uppil</kbd>|Flytta fokus till föregående funna funktion i rollutforskaren.|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>|Visa eller dölj alla undernoder – utöver noder på översta nivån – när du väljer åtgärden **Visa** eller **Dölj**.|
 
-## <a name="numeric-keypad-shortcuts" /><a name="keypad"></a>Kortkommandon för numeriskt tangentbord
+## <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a>Kortkommandon för numeriskt tangentbord
 
 I följande tabell beskriver kortkommandon på en numerisk knappsats.
 
@@ -247,7 +247,7 @@ I följande tabell beskriver kortkommandon på en numerisk knappsats.
 |<kbd>Alt</kbd>+<kbd>Decimalavgränsare</kbd>|Ändra resultatet av decimal tecknet till antingen en punkt (.) eller det tecken som bestäms av inställningen **region** på sidan **mina inställningar**. För mer information, se [Ange decimalavgränsare som används av numeriska tangentbord](ui-enter-data.md#decimal).|
 
 
-## <a name="access-keys-for-action-bar-and-navigation-menu" />Snabbtangenter för åtgärdsfält och navigeringsmeny
+## <a name="access-keys-for-action-bar-and-navigation-menu"></a>Snabbtangenter för åtgärdsfält och navigeringsmeny
 
 Snabbtangenter är kortkommandon som markerar specifika åtgärder på åtgärdsfältet och på navigeringsmenyn, så att du kan navigera i instruktioner för att komma till den sida du vill ha. Snabbtangenter är tillgängliga i Business Central webbklient och liknar snabbtangenter i Excel och Word Online.  
 
@@ -259,7 +259,7 @@ Välj en åtgärd genom att välja den tangentkombination som visas i tangentbes
 - Om åtgärden öppnas på en undermeny med andra åtgärder, visas tangentbeskrivningar för undermenyn så att du kan fortsätta använda snabbtangenter om du vill.
 - Om åtgärden öppnar en annan sida inaktiveras tangentbeskrivningar. För att visa dem igen väljer du <kbd>Alt</kbd>-tangenten. 
  
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Snabbguide för kortkommandon – endast dator](keyboard-shortcuts-cheatsheet.md)  
 [Hjälpmedelsfunktioner](ui-accessibility.md)  

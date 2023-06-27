@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-basic-experience-extension" />Basic Experience-tillägget
+# <a name="the-basic-experience-extension"></a>Basic Experience-tillägget
 
 Om du har använt Microsoft Dynamics C5 kan Microsoft-partner hjälpa dig ta steget över till en mer modern lösning som baseras på [!INCLUDE[prod_short](includes/prod_short.md)], så att du kan fortsätta avnjuta samma effektiviserade möjligheter som Dynamics C5.
 
@@ -21,7 +21,7 @@ Det här tillägget är avsett för mindre företag och kan stödja upp till tre
 > [!NOTE]
 > Nu är det här tillägget bara tillgängligt för kunder i Danmark och Island.
 
-## <a name="whats-available" />Vad som finns
+## <a name="whats-available"></a>Vad som finns
 
 I följande tabell beskrivs de funktioner som är tillgängliga om du installerar Basic Experience-tillägget.
 
@@ -33,7 +33,7 @@ I följande tabell beskrivs de funktioner som är tillgängliga om du installera
 |**Projekthantering** |Projekt, projektpris, tidrapporter, tilldelning, uppgifter, resurser |
 |**Lager** |Grundläggande lager, artikelersättningar, artikeltvärreferens |
 
-## <a name="getting-started" />Kom i gång
+## <a name="getting-started"></a>Kom i gång
 
 Det här tillägget skiljer sig från de flesta, och du behöver hjälp från en Microsoft-partner för att installera och konfigurera det. För att visa vad du kan förvänta dig får du här en övergripande vy över vad Microsoft-partnern gör.
 
@@ -44,11 +44,11 @@ Det här tillägget skiljer sig från de flesta, och du behöver hjälp från en
 5. Lägg till paketet **Demo RapidStart**. <!--what does the package contain?-->
 6. Hämta och installera Basic Experience-tillägget från AppSource.
 
-## <a name="migrating-data" />Migrera data
+## <a name="migrating-data"></a>Migrera data
 
 Ta med dina Dynamics C5-data. När din Microsoft-partner har installerat Basic Experience-tillägget får du ett tomt företag. Ett enkelt sätt att flytta data från Dynamics C5 till Basic Experience är att använda tillägget C5 för datamigrering, som ingår i [!INCLUDE[prod_short](includes/prod_short.md)]. Tillägget flyttar kunder, leverantörer, artiklar, dina redovisningskonton och transaktioner däri.
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Tillägget C5 Datamigrering](ui-extensions-c5-data-migration.md)  
 

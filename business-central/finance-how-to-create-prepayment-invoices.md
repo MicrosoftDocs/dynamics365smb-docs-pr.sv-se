@@ -9,7 +9,7 @@ ms.date: 02/02/2023
 ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices" />Skapa förskottsfakturor
+# <a name="create-prepayment-invoices"></a>Skapa förskottsfakturor
 
 Om du kräver att kunderna betalar innan du skickar deras beställning kan du använda förskottsbetalningsfunktionerna. Detsamma gäller om leverantören kräver att du betalar innan han/hon levererar en order till dig.  
 
@@ -19,7 +19,7 @@ När du har skapat en försäljnings- eller inköpsorder kan du skapa en försko
 
 I följande procedur beskrivs hur du fakturerar en förskottsbetalning för en försäljningsorder. Momenten är liknande för en inköpsorder.  
 
-## <a name="to-create-a-prepayment-invoice" />Så här skapar du en förskottsfaktura
+## <a name="to-create-a-prepayment-invoice"></a>Så här skapar du en förskottsfaktura
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Skapa en ny försäljningsorder för relevant kund. Mer information finns i [Sälja produkter](sales-how-sell-products.md).  
@@ -70,13 +70,13 @@ Du kan skicka ut ytterligare förskottsfakturor för ordern. Om du vill utfärda
 
  När du vill bokföra resten av fakturan bokför du den som en vanlig faktura. Förskottsbetalningsbeloppet dras automatiskt av från beloppet som ska betalas.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically" />Uppdatera statusen för förutbetalda order och fakturor automatiskt
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Uppdatera statusen för förutbetalda order och fakturor automatiskt
 
 Du kan påskynda bearbetningen av order och fakturor genom att lägga upp jobbkötransaktioner som automatiskt uppdaterar status för dessa dokument. När en förskotts faktura betalas kan jobbkötransaktionen automatiskt ändra dokument statusen från **Väntar på förskottsbetalning** till **släppt**. När du registrerar jobbkötransaktioner måste du använda de kodmoduler som är **383 Uppdatera väntande förskottsbetalning, försäljning** och **383 Uppdaterar väntande förskottsbetalning, inköp**. Vi rekommenderar att du schemalägger transaktionerna så att de körs ofta, till exempel varje minut. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  
 [Genomgång: Konfigurera och fakturera förskottsbetalning för försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

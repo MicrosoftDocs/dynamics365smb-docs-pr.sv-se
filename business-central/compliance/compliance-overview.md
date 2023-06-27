@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="compliance-overview" />Regelefterlevnad – översikt
+# <a name="compliance-overview"></a>Regelefterlevnad – översikt
 
 Det här innehållet anger information om regelefterlevnad i relation till [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

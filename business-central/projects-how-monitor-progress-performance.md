@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ---
-# <a name="monitor-job-progress-and-performance" />Övervaka projektframsteg och -resultat
+# <a name="monitor-job-progress-and-performance"></a>Övervaka projektframsteg och -resultat
 
 Med funktionen Produkter i arbete (PIA) kan du uppskatta det ekonomiska värdet av pågående jobb i huvudboken.
 
@@ -27,7 +27,7 @@ Du kan beräkna PIA baserat på:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-job-wip-method" />Skapa en PIA-metod
+## <a name="create-a-job-wip-method"></a>Skapa en PIA-metod
 
 Skapa en PIA-metoden för projektet som visar behoven i organisationen och ange som standard.  
 
@@ -40,7 +40,7 @@ Skapa en PIA-metoden för projektet som visar behoven i organisationen och ange 
 4. För att göra denna nya metod till standard, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projektinställningar** och väljer sedan relaterad länk.  
 5. I fältet **Standard-PIA-metod** väljer du metoden i listan.
 
-## <a name="define-a-wip-method-for-a-job" />Definiera en PIA-metod för ett projekt
+## <a name="define-a-wip-method-for-a-job"></a>Definiera en PIA-metod för ett projekt
 
 När du skapar ett nytt projekt måste du ange vilken PIA-metod för projektet som gäller. I vissa fall är den PIA-metod för projekt som du använder redan angiven som standard.
 
@@ -48,7 +48,7 @@ När du skapar ett nytt projekt måste du ange vilken PIA-metod för projektet s
 2. Välj åtgärden **Ny**. Läs mer i [skapa jobb](projects-how-create-jobs.md).  
 3. PÅ sidan **Projektkort**, i fältet **PIA-metod**, väljer du en PIA-metod i listan. Om en standardmetod har definierats, kan du välja ett annat alternativ vid behov.  
 
-### <a name="define-a-wip-method-for-a-job-task" />Definiera du en PIA-metod för ett projekt
+### <a name="define-a-wip-method-for-a-job-task"></a>Definiera du en PIA-metod för ett projekt
 
 Du kan definiera en PIA-metod för en projektaktivitet, utelämna vissa projekt aktiviteter från PIA-beräkning eller gruppera aktiviteter så att de beräknas tillsammans. 
 
@@ -93,7 +93,7 @@ Du kommer att märka:
 
 * *1300* till *1399*: PIA kommer att beräknas separat för den här gruppen av projektaktiviteter.
 
-## <a name="calculate-wip" />Beräkna PIA
+## <a name="calculate-wip"></a>Beräkna PIA
 
 Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för periodslutsrapporteringen. Använd batch-jobbet **Projekt – Beräkna PIA** om du vill göra detta.  
 
@@ -105,7 +105,7 @@ Du kan fastställa PIA-beloppet som ska bokföras på balansräkningskonton för
 > [!NOTE]  
 >   Batchjobbet beräknar endast PIA, det bokförs inte till huvudboken. Om du vill bokföra måste du köra batch-jobbet **Bokför PIA i redovisning** när du har beräknat PIA. Läs mer i följande procedur.
 
-## <a name="post-wip" />Bokföra PIA
+## <a name="post-wip"></a>Bokföra PIA
 
 När du har beräknat PIA kan du bokföra det på balansräkningskonton för rapportering vid periodens slut. Använd batch-jobbet **Projekt – Bokför PIA i redovisning** om du vill göra detta.
 
@@ -113,7 +113,7 @@ När du har beräknat PIA kan du bokföra det på balansräkningskonton för rap
 2. På sidan **Projekt – Bokför PIA i redovisning** fyller du i fälten efter behov.  
 3. Välj **OK**.
 
-## <a name="calculate-and-post-job-completion-entries" />Beräkna och bokföra slutförda projekt
+## <a name="calculate-and-post-job-completion-entries"></a>Beräkna och bokföra slutförda projekt
 
 När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen och faktureringen av förbrukning, måste du uppdatera projektet så att projektet får **Statusen** **Slutförd**. Sedan måste du återföra alla PIA som har bokförs i redovisningen.
 
@@ -130,7 +130,7 @@ När du har slutfört alla aktiviteter i ett projekt, bland annat bokföringen o
 
      De PIA-transaktioner för jobbet som skapas när du kör batch-jobbet kommer nu att ha fältet **Slutfört projekt** markerat för att visa att de är slutförda.
 
-## <a name="view-job-ledger-entries" />Visa projekttransaktioner
+## <a name="view-job-ledger-entries"></a>Visa projekttransaktioner
 
 Alla projektrelaterade transaktioner registreras i bokförda projektjournaler och numreras i ordningsföljd med start från nummer ett. I den bokförda projektjournalen kan du få en överblick över alla projekttransaktioner.    
 
@@ -139,9 +139,9 @@ Alla projektrelaterade transaktioner registreras i bokförda projektjournaler oc
 
 På sidan **Projekttransaktioner** kan du granska de transaktioner som är kopplade till alla projekt.  
 
-## <a name="find-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also" />Se även
+## <a name="see-also"></a>Se även
 
 [Genomgång: Beräkna produkter i arbete för ett projekt](walkthrough-calculating-work-in-process-for-a-job.md)
 [Hantera projekt](projects-manage-projects.md)  
