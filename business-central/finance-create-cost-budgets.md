@@ -26,7 +26,7 @@ Du kan använda följande sidor för att skapa och analysera kostnadsbudgetar. V
 |Visa kostnadsbudgetjournaler och kostnadsbudgettransaktioner.|Sidan **Kostnadsbudgetregister**|  
 |Skriv ut kostnadsbudgetjämförelser med hjälp av olika rapporter.|Rapporten **Saldo/budget för kostnadsredovisning**<br /><br /> Rapporten **Kostnadsredovisning, resultaträkning/budget**<br /><br /> Rapporten **Kostnadsbudget per kostnadsställe**<br /><br /> Rapporten **Kostnadsbudget per kostnadsbärare**|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-reports-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

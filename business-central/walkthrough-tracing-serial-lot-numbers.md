@@ -297,7 +297,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
  Nu är du klar med genomgången av hur du använder sidan **Hitta transaktioner** för defekthantering tillsammans med sidan **Artikelspårning**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-serial-lot-numbers" />Se relaterad [Microsoft utbildning](/training/paths/use-serial-lot-numbers/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/use-serial-lot-numbers/)
 
 ## <a name="see-also" />Se även
 

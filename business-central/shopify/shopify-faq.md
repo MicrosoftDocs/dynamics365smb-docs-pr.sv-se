@@ -55,7 +55,7 @@ Shopify-anslutningen fungerar inte för [inbäddad app](/dynamics365/business-ce
 
 ## <a name="what-support-is-offered-for-the-shopify-connector" />Vilket stöd erbjuds för Shopify-anslutningen?
 
-### <a name="includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](../includes/prod_short.md)]
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 Shopify kopplingen täcks av den aktuella stöd modellen. Mer information finns i [Teknisk support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (finns endast på engelska).
 

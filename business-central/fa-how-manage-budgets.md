@@ -54,7 +54,7 @@ Du kan använda rapporten **Anl.tillg. – planerat värde** för att beräkna f
 4. Fyll inte i fälten på snabbfliken **Anläggningstillgång** så inkluderas alla tillgångar. I fältet **Budgeterad tillgång** kan du fylla i **Nej** om du vill utesluta budgeterade tillgångar eller **Ja** om du endast vill visa de budgeterade tillgångarna.
 5. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />Se relaterad [Microsoft utbildning](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also" />Se även
 

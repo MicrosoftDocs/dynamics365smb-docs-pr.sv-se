@@ -36,7 +36,7 @@ Om du inte har angett ett begärt leveransdatum på försäljningsorderraden, el
 - *utleveransdatum + utgående lagerhanteringstid = planerat utleveransdatum*
 - *planerat utleveransdatum + leveranstid = planerat leveransdatum*
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft-utbildning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

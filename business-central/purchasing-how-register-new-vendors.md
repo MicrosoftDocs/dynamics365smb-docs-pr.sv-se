@@ -70,7 +70,7 @@ Du kan när som helst redigera informationen på leverantörskort. Om du har bok
 5. Välj **OK** när du har slutfört den nya leverantörsmallen.  
    Leverantörsmallen läggs till listan över leverantörsmallar, så att du kan använda det för att skapa nya leverantörskort.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

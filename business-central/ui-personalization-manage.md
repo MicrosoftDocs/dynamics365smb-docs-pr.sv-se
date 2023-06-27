@@ -62,7 +62,7 @@ Du kan ta bort individuella sidanpassningar som du har gjort för en profil. Anp
 
 Layouten på de markerade sidorna justeras efter de ändringar som du har gjort.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Se relaterad [Microsoft utbildning](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Se även
 

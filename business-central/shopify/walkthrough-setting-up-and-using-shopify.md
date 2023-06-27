@@ -132,11 +132,11 @@ I **Shopify Admin** meddelande om att ordern nu är markerad som *uppfylld*. Du 
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Genomgång: Bjud in dina kunder till din nya onlinebutik
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 
 Efter en lyckad snabbstart av den nya onlinebutiken vill du att de aktuella kunderna ska besöka den och börja montera order.
 
-### <a name="steps" />Steg
+### <a name="steps-1" />Steg
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
@@ -148,11 +148,11 @@ I **Shopify Admin** meddelande om att kunderna har importerats. Öppna en av kun
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Genomgång: finjustering av artikelhantering
 
-### <a name="scenario" />Scenario
+### <a name="scenario-2" />Scenario
 
 Du vill lägga till mer flexibilitet och kontrollera dina processer runt objekthantering. Du vill förbättra produktbeskrivningen och vill lägga till fler granskningssteg innan produkterna blir tillgängliga för slutkunden.
 
-### <a name="steps" />Steg
+### <a name="steps-2" />Steg
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
@@ -241,11 +241,11 @@ I **Shopify onlinebutik** öppna produktkatalogen, hitta *ATHENS Desk*-produkten
 
 ## <a name="walkthrough-import-items-from-shopify" />Genomgång: Importera artiklar från Shopify
 
-### <a name="scenario" />Scenario
+### <a name="scenario-3" />Scenario
 
 Du har redan en lyckad onlinebutik och vill börja använda [!INCLUDE[prod_short](../includes/prod_short.md)] som verksamhetshanteringsprogram. Du vill importera så mycket data Shopify som möjligt. 
 
-### <a name="steps" />Steg
+### <a name="steps-3" />Steg
 
 Det här är en förlängning av [ genomgången: påbörja försäljning av produkter online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Du kan också prova med egna data, till exempel Shopify butiken eller sandbox.
 

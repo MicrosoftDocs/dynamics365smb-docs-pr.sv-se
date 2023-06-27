@@ -302,7 +302,7 @@ Du måste ställa in information om hur skattemyndigheterna i ditt land eller di
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

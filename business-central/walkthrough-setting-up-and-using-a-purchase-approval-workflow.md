@@ -117,7 +117,7 @@ Du definierar arbetsflödesvariationer genom att fylla i fält på arbetsflödes
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Se relaterad [Microsoft utbildning](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Se även
 

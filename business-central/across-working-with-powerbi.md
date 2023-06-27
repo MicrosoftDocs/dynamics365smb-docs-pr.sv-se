@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" />Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-" />Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
 I den här artikeln får du lära dig det grundläggande inom att visa Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -35,7 +35,7 @@ Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste det
 
 Innan du kan använda Power BI med [!INCLUDE[prod_short](includes/prod_short.md)] måste du registrera dig för Power BI-tjänsten. Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) om du inte redan har registrerat dig. När du registrerar dig använder du din e-postadress för arbetet samt ditt lösenord.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect"></a>Anslut till Power BI – endast en gång
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect"></a>Anslut till Power BI – endast en gång
 
 När du loggar in på [!INCLUDE [prod_short](includes/prod_short.md)] för första gången kan du komma att se en tom Power BI-del på olika sidor (som visas i föregående illustration). Det första du måste göra är att ansluta till ditt Power BI-konto. När du väl är ansluten kan du se rapporterna. Du behöver bara utföra detta steg en enda gång.
 
@@ -53,7 +53,7 @@ Anslutningsprocessen startar. I samband med processen kommunicerar [!INCLUDE [pr
 > [!TIP]
 > Med [!INCLUDE [prod_short](includes/prod_short.md)] online kommer detta steg automatiskt att ladda upp Power BI-standardrapporter som används i [!INCLUDE [prod_short](includes/prod_short.md)] till din Power BI-arbetsyta.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" />Från [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
+#### <a name="from--on-premises" />Från [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
 
 Ansluta till Power BI från [!INCLUDE [prod_short](includes/prod_short.md)] liknar att göra det online. På sidan **TJÄNSTEBEHÖRIGHETER FÖR AZURE ACTIVE DIRECTORY** kan du emellertid uppmanas att bevilja åtkomst till Power BI-tjänster. Välj **Auktorisera Azure-tjänster** och sedan **Godkänn** om du vill bevilja åtkomst.
 
@@ -99,7 +99,7 @@ När du återgår till rollcentret visas den uppdaterade rapporten. Om du har an
 > [!NOTE]
 > Denna funktion är ej tillgänglig med [!INCLUDE [prod_short](includes/prod_short.md)] lokalt.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload"></a>Ladda upp rapporter
+### <a name="upload-reports" /><a name="upload"></a>Ladda upp rapporter
 
 Power BI-rapporter kan distribueras bland användarna som .pbix-filer. Om du har .pbix-filer kan du ladda upp och dela dessa med samtliga [!INCLUDE [prod_short](includes/prod_short.md)]-användare. Rapporterna delas i respektive företag i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -126,7 +126,7 @@ Detta meddelande visas om den förvalda rapporten inte lyckas distribuera din Po
 
 Detta beror troligen på att rapportens namn inte innehåller listsidans namn. Rensa filtret om du vill få en komplett lista över tillgängliga Power BI-rapporter.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

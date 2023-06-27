@@ -16,7 +16,7 @@ Använd en extern tjänst för att hämta de senaste valutakurserna till listan 
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="a-namecurracurrencies" /><a name="curr"></a>Valutor
+## <a name="currencies" /><a name="curr"></a>Valutor
 
 I följande tabell beskrivs fälten i listan **Valutor**.
 
@@ -111,7 +111,7 @@ Du kan registrera en valutakod på en redovisningsjournalrad och bokföra raden 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

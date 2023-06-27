@@ -29,13 +29,13 @@ Följande tabell innehåller en översikt över uppgifter som du vanligtvis utf�
 | Avsluta bokföringsperioder och räkenskapsår, föra över resultaträkningssaldon till balansräkningskonton och bokför årsavslutstransaktion för årsslut. |[Avsluta böcker](year-close-books.md) |
 | skriva ut rapporter som kan vara till hjälp när du skapar ekonomirapporter. |[Förbereda årsbokslutsrapporter](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 
 [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

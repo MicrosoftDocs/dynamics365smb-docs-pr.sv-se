@@ -37,7 +37,7 @@ Business Central som molntjänst har uppnått certifieringar som ISO 27001 med m
 [Programmets regelefterlevnad](compliance-application-compliance.md)  
 [Tjänstens regelefterlevnad](compliance-service-compliance.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

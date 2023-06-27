@@ -39,7 +39,7 @@ Det här videoklippet visar kopplings-och synkroniseringsdata vid integrering me
 2. Välj åtgärden **synkronisera nu**.  
 3. Om en transaktion kan synkroniseras åt endast ett håll, välj då det alternativ som anger riktningen för datauppdateringen, och välj sedan **OK**.  
 
-## <a name="to-synchronize-a-single-record-from-includecrmmdincludescrmmdmd" />Om du vill synkronisera en enda transaktion från [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="to-synchronize-a-single-record-from-" />Om du vill synkronisera en enda transaktion från [!INCLUDE[crm_md](includes/crm_md.md)]
 
 1. I [!INCLUDE[crm_md](includes/crm_md.md)] öppnar du formuläret för den transaktion du vill koppla. Till exempel formuläret Kontokort eller Kontaktkort.  
 2. Välj åtgärden **[!INCLUDE[prod_short](includes/prod_short.md)]** i menyfliksområdet för att öppna och koppla transaktioner automatiskt.

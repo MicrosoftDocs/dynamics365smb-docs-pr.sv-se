@@ -29,7 +29,7 @@ Det finns lite information du bör ha tillhanda innan du skapar anslutningen:
 > Här beskrivs proceduren för onlineversionen av [!INCLUDE[prod_short](includes/prod_short.md)].
 > Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt och inte använder Azure Active Directory-kontot för att ansluta till [!INCLUDE [cds_long_md](includes/cds_long_md.md)] måste du också ange användarnamn och lösenord för ett användarkonto för integreringen. Detta kontot kallas "integreringsanvändar"-kontot. Om du använder ett Azure Active Directory-konto krävs eller visas inte integrationens användarkonto. Integrationsanvändaren ställs in automatiskt och kräver ingen licens.
 
-## <a name="set-up-a-connection-to-includecdslongmdincludescdslongmdmd" />Konfigurera en anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-a-connection-to-" />Konfigurera en anslutning till [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 För alla autentiseringstyper förutom Microsoft 365-autentisering kan du ställa in anslutningen till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på sidan **Dataverse-anslutningsinställningar**. För Microsoft 365-autentisering rekommenderar vi att du använder guiden för assisterad konfiguration **Dataverse-anslutningsinställningar**. Guiden gör det enklare att konfigurera anslutningen och specificera avancerade funktioner, till exempel ägarskapsmodell och initial synkronisering.  
 
@@ -206,7 +206,7 @@ Följande åtgärder förutsätter att du använder Azure AD för att hantera id
    > [!NOTE]
    > Om du inte uppmanas att logga in med ditt administratörskonto beror det förmodligen på att popup-fönster blockeras. Du kan logga in med popup-fönster från `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-includecdslongmdincludescdslongmdmd" />Koppla bort från [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### <a name="to-disconnect-from-" />Koppla bort från [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfiguration av inställningen av Dataverse** och väljer sedan relaterad länk.
 2. På sidan **Konfiguration av anslutning till Dataverse** stänger du av reglaget **Aktiverad**.  

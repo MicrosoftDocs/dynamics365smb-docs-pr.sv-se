@@ -92,13 +92,13 @@ Här följer några saker som du bör tänka på när du arbetar med kortinforma
 
 Mer information om hur du arbetar med kort och kortinformation finns i [Vanliga frågor och svar om Teams](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Dela en länk till sidan i Business Central till Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Dela en länk till sidan i Business Central till Teams
 
 Direkt från de flesta samlingssidor, på samma sätt som på **Artiklar** sida och detaljsidor, som kort **Artiklar** du kan skicka en länk till sidan till specifika mottagare i en Teams-konversation. Du kan t.ex. dela en länk till en filtrerad vy över posterna. Mottagarna kan sedan markera länken så att sidan öppnas i [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!Menyn Dela visas på ett kort.](media/teams-share-link-v2.png "Menyn Dela visas på ett kort.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Förutsättningar
+### <a name="prerequisites-1" />Förutsättningar
 
 - Du har tillgång till Microsoft Teams.
 - (Valfritt) Du har installerat [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. 
@@ -126,6 +126,6 @@ Direkt från de flesta samlingssidor, på samma sätt som på **Artiklar** sida 
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

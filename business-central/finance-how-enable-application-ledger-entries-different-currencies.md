@@ -42,7 +42,7 @@ Om du kopplar transaktioner till olika valutor måste du ange de redovisningskon
 3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörsbokföringsmallar** och väljer sedan relaterad länk.  
 4. Ange aktuella redovisningskonton för bokföring av avrundningsskillnader i fälten **Debet valutakopp. avrundning** och **Kredit valutakopp. avrundning**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

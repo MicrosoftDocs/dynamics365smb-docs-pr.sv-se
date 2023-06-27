@@ -42,7 +42,7 @@ Den här videon visar hur du ställer in ett arbetsflöde som kräver att en anv
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se även
 

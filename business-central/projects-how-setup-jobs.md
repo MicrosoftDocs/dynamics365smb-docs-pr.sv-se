@@ -99,7 +99,7 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 | **Konto för bokförda kostnader** |Det kostnadskonto som innehåller bokförda kostnader för projektet. Kontot är vanligtvis ett debetkonto för kostnader. |
 | **Konto för bokförd försäljning** |Inkomstkontot som innehåller den bokförda inkomsten för projektet. Kontot är vanligtvis ett kreditkonto för inkomst. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Se även
 

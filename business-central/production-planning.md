@@ -39,7 +39,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Visa det planerade tillgängliga lagret för en artikel i olika vyer och kunna se vilka bruttobehov, planerade orderinleveranser och andra händelser som kommer att påverka det med tiden.|[Visa artikeldisposition](inventory-how-availability-overview.md)|  
 <!--|Utför utvalda planeringsaktiviteter, exempelvis ändra eller lägga till planeringsförslagsrader, i en grafisk översikt över leveransplaneringen.|[Ändra planeringsförslag i en grafisk vy](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 
@@ -51,7 +51,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

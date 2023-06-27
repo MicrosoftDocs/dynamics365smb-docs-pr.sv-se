@@ -61,7 +61,7 @@ Om du godkänner den inkommande dokumentposten markeras kryssrutan **Släppt** p
 6. Markera filen som representerar det inkommande dokumentet i fråga och välj sedan knappen **Öppna** på sidan **Infoga fil**.
 7. På sidan **Inkommande dokument** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

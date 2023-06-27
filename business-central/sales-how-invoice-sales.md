@@ -119,7 +119,7 @@ Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom a
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se även
 

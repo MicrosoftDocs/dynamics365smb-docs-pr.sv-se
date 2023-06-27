@@ -121,7 +121,7 @@ Fälten **Dokumentdatum** och **Belopp** på sidan **Transaktioner för moms**, 
 
 Innan du använder den prediktiva webb-tjänsten komprimerar [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Dokumentdatum** baserat på värdet i fältet **Periodtyp** på sidan **Inställningar för kassaflöde**.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Skapa och använda en egen prediktiv webbtjänst för kassaflödesprognoser
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Skapa och använda en egen prediktiv webbtjänst för kassaflödesprognoser
 
 Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän modell kallad **Prognosmodell för Microsoft Business Central**. Den här förebyggande modellen finns online i Azure AI-galleriet. För att använda modellen gör du följande:  
 
@@ -134,7 +134,7 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 7. Expandera snabbfliken för **Azure AI** och fyll sedan i fälten, inklusive API-URL och API-nyckel från Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. I rollcentret Revisor väljer du åtgärden **Omberäkna prognos** under diagrammet **Kassaflödesprognos**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

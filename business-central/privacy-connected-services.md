@@ -32,6 +32,6 @@ Tabellen nedan visar anslutningarna till Microsoft-tjänster som har aktiveras a
 
 Din sekretess är viktig för oss. Om du vill veta mer om hur Microsoft behandlar dina data, se [Microsofts sekretesspolicy](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

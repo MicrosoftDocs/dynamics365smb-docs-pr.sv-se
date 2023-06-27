@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Begränsade miljöer i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-" />Begränsade miljöer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online kan du enkelt få en säker miljö där du kan testa, träna eller felsöka utan att störa företagets arbetsprocesser eller affärsdata. En sådan icke-produktionsmiljö kallas för *begränsat läge*. Isolerad från produktionen är begränsat läge stället för att säkert utforska, lära sig, demonstrera, utveckla och testa tjänsten utan att risk för att data och inställningar påverkas i din produktionsmiljö.  
 
@@ -64,7 +64,7 @@ Mer information finns i [Använda designer](/dynamics365/business-central/dev-it
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

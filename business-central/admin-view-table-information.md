@@ -17,7 +17,7 @@ På sidan **8700 tabellinformation** finns information om antalet poster i alla 
 
 Den här informationen är användbar för att felsöka prestandaproblem, eftersom du kan se fördelningen av datastorlek över tabeller.
 
-## <a name="viewing-table-information" />Visa tabellinformation
+## <a name="viewing-table-information-1" />Visa tabellinformation
 
 Om du vill öppna sidan markerar du ![Sök på sidan eller rapporten.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Tabellinformation** och väljer sedan relaterad länk.
 

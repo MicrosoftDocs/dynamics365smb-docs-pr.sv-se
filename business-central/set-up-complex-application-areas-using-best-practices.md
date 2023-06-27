@@ -26,7 +26,7 @@ Det är viktigt att ange rätt inställningsvärden från början för att en ny
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

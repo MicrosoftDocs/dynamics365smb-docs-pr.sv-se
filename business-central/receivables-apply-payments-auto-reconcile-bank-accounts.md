@@ -37,7 +37,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Koppla text på betalningar till specifika kund-, leverantörs- eller redovisningskonton för att alltid bokföra återkommande inbetalningar eller kostnader på dessa konton när det inte finns dokument att applicera dem på. |[Så här mappar du text på återkommande betalningar till konton för automatisk avstämning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Ange reglerna som styr hur betalningar/banktransaktioner automatiskt ska kopplas till sina relaterade öppna transaktioner när du använder funktionen **Koppla automatiskt** på sidan **Betalningsavstämningsjournal**.|[Definiera regler för automatisk koppling av betalningar](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/use-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/use-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md)  

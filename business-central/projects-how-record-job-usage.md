@@ -96,7 +96,7 @@ När du har bokfört projektjournalrader kan du se de planeringsrader som är ko
 2. Välj en relevant projektjournal och välj sedan åtgärden **Transaktioner**.  
 3. På sidan **Projekttransaktioner** väljer du åtgärden **Visa kopplade projektplaneringsrader**.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Se relaterad [Microsoft utbildning](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Se även
 

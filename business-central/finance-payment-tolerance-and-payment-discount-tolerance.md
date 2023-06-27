@@ -211,11 +211,11 @@ Scenarier med alternativ A, B, C, eller D motsvarar dessa följande:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**03-01-15** <br />**03-01-17**|**03-01-20** <br />**03-01-22**|**>03-01-22**|**2000**|**Ingen**|**Ja**|**0**|**0**|  
 |30|1 000 <br />1 000|60 <br />30|5 <br />5|03-01-15 <br />03-01-17|03-01-20 <br />03-01-22|>03-01-22|1990|PaymentTolerance|Ja|0|5|  
 
-### <a name="payment-range-diagrams" />Betalningsintervalldiagram
+### <a name="payment-range-diagrams-1" />Betalningsintervalldiagram
 
 I relation till scenariot ovan kan betalningsintervallen illustreras på följande sätt:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betalningsdatum <=03-01-15 (scenarier 1–3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Betalningsdatum <=03-01-15 (scenarier 1–3)
 
 Återstående belopp per  
 
@@ -275,7 +275,7 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

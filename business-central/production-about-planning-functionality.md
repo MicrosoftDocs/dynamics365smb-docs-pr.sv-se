@@ -159,7 +159,7 @@ Information om hur du planerar lagerställen och överföringar finns i [Planera
 > [!TIP]
 > När du arbetar på sidorna **Inköpsförslag** eller **Planeringsförslag** kan du ordna raderna genom att sortera efter ett kolumnnamn. Detta är särskilt användbart på sidan Paneringsförslag eftersom de kan användas för produktionsorder på flera nivåer. Som standard sorteras rader efter fältet **Artikelnr**. Om du vill gruppera rader för en order med flera nivåer sorterar du efter **Ref.ordernr** . Också fälten **MPS-order** och **Planeringsnivå** kan hjälpa dig att visa hierarkin av rader.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

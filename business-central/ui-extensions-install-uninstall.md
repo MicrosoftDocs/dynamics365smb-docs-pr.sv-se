@@ -23,7 +23,7 @@ Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] genom att installer
 
 Om du vill använda funktionen som tillhandahålls av ett tillägg, till exempel att öppna sidor, köra rapporter, välja åtgärder och så vidare, måste du koppla behörighetsuppsättningarna som installeras som en del av tillägget.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Installera ett tillägg
+## <a name="install-an-extension" /><a name="install"></a>Installera ett tillägg
 
 Du hanterar appar och tillägg på sidan **Tilläggshantering**. Du kan öppna den här sidan från startsidan. Välj ikonen **Sök efter sida eller rapport** ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") i det övre högra hörnet ange **Tillägget** och välj sedan relaterad länk.  
 
@@ -104,7 +104,7 @@ När du avinstallerar en app som du har använt bevaras data som standard så at
 [[!INCLUDE[prod_short](includes/prod_short.md)]-tillägg från andra leverantörer](ui-extensions-other.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -59,7 +59,7 @@ Du kan också skapa en egen förebyggande webbtjänst som bygger på en allmän 
 6. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inställningar för försäljnings- och lagerprognoser** och väljer sedan relaterad länk.  
 7. Expandera snabbfliken **Allmänt** och fyll sedan i fälten för API-URL och API-nyckel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-sales-inventory-forecast-extension" />Se relaterad [Microsoft utbildning](/training/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also" />Se även
 

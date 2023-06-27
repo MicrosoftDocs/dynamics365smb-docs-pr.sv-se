@@ -47,7 +47,7 @@ Du kan även skapa betalningsrader manuellt genom att använda förfallodatum f�
 > [!NOTE]  
 >   Om inköpsfakturan har förfallit kommer bokföringsdatum att anges till arbetsdatumet, och teckensnittet på raden ändras till röd färg.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

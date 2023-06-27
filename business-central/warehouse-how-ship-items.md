@@ -115,7 +115,7 @@ När distributionslagerutleveransen har bokförts uppdateras olika fält på fö
 >
 > Antalet för montering mot kundorder hanteras enligt beskrivningen i den här artikeln. Lagerkvantiteten hanteras som en vanlig distributionslagerutleverans. Mer information om kombinationsscenarion finns i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

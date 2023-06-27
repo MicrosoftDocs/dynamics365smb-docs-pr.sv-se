@@ -115,7 +115,7 @@ Du kan kopiera transaktioner från en avskrivningsregel till en annan med hjälp
 
 De kopierade raderna skapas antingen i redovisningsjournalen för anläggningstillgångar eller i anläggningstillgångsjournalen, beroende på om avskrivningsregeln som du kopierar har integrering med redovisningen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Se relaterad [Microsoft utbildning](/training/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also" />Se även
 

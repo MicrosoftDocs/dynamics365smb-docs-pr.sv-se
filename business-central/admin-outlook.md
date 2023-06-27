@@ -83,7 +83,7 @@ Centraliserad distribution är en funktion i administratörscentret för Microso
 
 När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscentret finns i [distribuera tillägg i administrationscentret](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Installera tillägget för egen användning
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Installera tillägget för egen användning
 
 Om ditt företag tillåter det, kan du installera Business Central-tillägget för bara dig själv. Kontakta administratören om du är osäker.
 
@@ -94,7 +94,7 @@ Om ditt företag tillåter det, kan du installera Business Central-tillägget f�
 
 Business Central ansluter till e-postservern och installerar tillägget i Outlook. Det tar inte lång tid. Du är nu redo att börja använda tillägget i Outlook.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>För Business Central lokalt
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>För Business Central lokalt
 
 Om du använder Business Central lokalt kan det vara något annorlunda att installera tillägget.
 
@@ -116,7 +116,7 @@ Om du använder Business Central lokalt kan det vara något annorlunda att insta
 
 Du är nu redo att börja använda tillägget i Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

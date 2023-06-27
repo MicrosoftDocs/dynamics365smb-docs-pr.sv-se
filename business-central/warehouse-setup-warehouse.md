@@ -35,7 +35,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Få tips på hur du ordnar om lagerställen, lagerställen eller zoner för att få mer effektiva lageraktiviteter.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" />Se relaterad [Microsoft utbildning](/training/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-warehouse-management/)
 
 ## <a name="see-also" />Se även
 

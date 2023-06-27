@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 När du utför verksamhetsuppgifter samverkar du med data på olika sätt, till exempel skapar poster och registrerar data, sorterar och filtrerar data, skriver noteringar och skickar data till andra program.
 
@@ -18,7 +18,7 @@ Du kan t. ex. justera storleken och positionen på alla sidor, utöka bredden p�
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Tips och råd
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Tips och råd
 
 > [!TIP]
 > Om du vill visa en utskriftsvänlig översikt över de mest använda funktionerna väljer du följande bild och hämtar PDF-filen.
@@ -80,7 +80,7 @@ När du söker efter en öppen listsida, till exempel listan **försäljningsord
 
 Men när du öppnar samma listsida från start sidan finns inte åtgärden **hantera**. Om du vill öppna en enskild försäljningsorder i stället väljer du fältet **nummer**. I den här vyn kan du inte fästa åtgärdsfältet.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 
@@ -89,7 +89,7 @@ Men när du öppnar samma listsida från start sidan finns inte åtgärden **han
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Prestandatips för företagsanvändare](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

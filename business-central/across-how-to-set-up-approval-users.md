@@ -10,7 +10,7 @@ ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# Konfigurera godkännandeanvändare
+# <a name="set-up-approval-users" />Konfigurera godkännandeanvändare
 
 Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa användare som är inblandade på sidan **användarinställningar för godkännande**. Du kan också ange beloppsgränser för olika typer av förfrågningar, definiera ersättande godkännare och skapa meddelanden.  
 
@@ -19,7 +19,7 @@ När du har konfigurerat godkännandeanvändare kan du skapa arbetsflödessvar f
 > [!TIP]
 > Du kan kräva att flera godkännare reagerar på en begäran om godkännande genom att skapa en grupp med godkännare på sidan **Arbetsflödesanvändargrupp**. Läs mer i [Konfigurera arbetsflödesanvändargrupper](across-how-to-set-up-workflow-users.md).  
 
-## Så här konfigurerar du en godkännandeanvändare
+## <a name="to-set-up-an-approval-user" />Så här konfigurerar du en godkännandeanvändare
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,9 +46,9 @@ När du har konfigurerat godkännandeanvändare kan du skapa arbetsflödessvar f
 
 Nästa steg är att ange hur du vill [!INCLUDE [prod_short](includes/prod_short.md)] meddela personer om att en begäran väntar på att bli uppmärksam på deras uppmärksamhet. Läs mer på [Konfigurera aviseringar för arbetsflöde](across-setting-up-workflow-notifications.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
-## Se även
+## <a name="see-also" />Se även
 
 [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)  
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  

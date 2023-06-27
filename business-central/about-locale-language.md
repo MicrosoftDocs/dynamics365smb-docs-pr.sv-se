@@ -50,7 +50,7 @@ På sidan **Redovisningsinställningar** , om du aktiverar växlingsknappen **Kr
 
 På sidan **Hjälp och support** kan du se den version av [!INCLUDE[prod_short](includes/prod_short.md)] som ditt företag är baserat på. Om du vill basera ett företag på en annan version kan administratören skapa en ny produktionsmiljö. Mer information finns i [Skapa en ny produktionsmiljö](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i innehållet för utvecklare och IT-proffs.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Språk för [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen
+## <a name="languages-of-the--help" />Språk för [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen
 
 Hjälpinnehållet i standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] publiceras till Microsoft Learn. Innehållet är tillgängligt på olika språk. Om du har tillgång till dokumentation inifrån [!INCLUDE[prod_short](includes/prod_short.md)], visas innehållet på ditt eget språk. Om en viss sida inte ännu är tillgänglig på ditt språk, visas den på engelska som standard.
 

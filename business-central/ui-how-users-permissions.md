@@ -54,7 +54,7 @@ Båda metoderna har sina egna fördelar och du kan använda dem samtidigt. Med v
 
 Mer information finns i [Tilldelad administratörsåtkomst till Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Konfigurera behörigheter baserat på licenser
+### <a name="configure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Konfigurera behörigheter baserat på licenser
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ Om denna standardkonfiguration inte är rätt inställning för en viss miljö k
 > [!IMPORTANT]
 > Denna anpassning av behörigheter gäller bara för nya användare som du tilldelar den aktuella licensen. Befintliga användare uppdateras inte. Vi rekommenderar att du anpassar behörigheterna innan du börjar tilldela användarlicenser i Microsoft 365 administrationscentret.
 
-### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Så här lägger du till användare eller uppdaterar användarinformation och licenstilldelningar i Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Så här lägger du till användare eller uppdaterar användarinformation och licenstilldelningar i Business Central
 
 När du har lagt till användare eller ändrat användarinformation i administrationscentret för Microsoft 365 kan du snabbt importera användarinformationen till [!INCLUDE[prod_short](includes/prod_short.md)]. Importen inkluderar även licenstilldelning.  
 
@@ -118,7 +118,7 @@ Du kan ta bort en användares åtkomst till [!INCLUDE[prod_short](includes/prod_
 
 Du kan också ta bort licensen från en användare i administrationscentret för Microsoft 365. Användaren kan sedan inte logga in. Mer information finns i [Ta bort licenser från användare](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synkronisering med Microsoft 365
+### <a name="synchronization-with-microsoft-365" /><a name="m365"></a>Synkronisering med Microsoft 365
 
 När du tilldelar en licens för [!INCLUDE[prod_short](includes/prod_short.md)] till en användare i Microsoft 365 finns det två sätt att skapa användaren på i [!INCLUDE[prod_short](includes/prod_short.md)].  
 

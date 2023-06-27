@@ -49,7 +49,7 @@ Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:
 
   För arbetsflöden för godkännande lägger du till ett arbetsflödessvarssteg för att meddela avsändaren när begäran har godkänts eller avvisats. Läs mer i steg 9 i avsnittet [Skapa arbetsflöden](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se även
 

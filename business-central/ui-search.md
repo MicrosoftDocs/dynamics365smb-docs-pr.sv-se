@@ -76,7 +76,7 @@ Funktionen **Berätta vad du vill göra** söker inte efter data som till exempe
 
 Vi har visat Berätta för ett antal intressenter, noterat de frågor som de har gemensamt och använt våra anteckningar till en lista av vanliga frågor. Om du är intresserad, se [Vanliga frågor Berätta](ui-search-faq.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" /><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" /><a name="see-also"></a>Se även
 

@@ -37,7 +37,7 @@ Du kan också lägga till betalningsvillkor i betalsättet. Mer information finn
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** eller **Leverantör** och väljer sedan relaterad länk.
 2. I fältet **betalningssättkod**, välj metoden som ska användas som standard för kunden eller leverantören.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

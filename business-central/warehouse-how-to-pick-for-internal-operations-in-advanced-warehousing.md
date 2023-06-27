@@ -167,7 +167,7 @@ Följande illustration visas när fältet **Lagerställeskod** på komponentlist
 
 :::image type="content" source="media/binflow.png" alt-text="Översikt över när och hur fältet Lagerplatskod fylls i.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se även
 

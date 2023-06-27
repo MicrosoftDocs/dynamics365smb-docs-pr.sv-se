@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 I den här artikeln besvaras några frågor som du kanske har kring arbetet med OneDrive och [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="does-this-work-with-all-includeprodshortincludesprodshortmd-clients" />Fungerar detta hos alla [!INCLUDE[prod_short](includes/prod_short.md)] klienter?
+## <a name="does-this-work-with-all--clients" />Fungerar detta hos alla [!INCLUDE[prod_short](includes/prod_short.md)] klienter?
 
 Ja. Du kan öppna filer OneDrive från [!INCLUDE[prod_short](includes/prod_short.md)] mobilappar när du visar kort information i Microsoft Teams eller till och med från Outlook-tillägget.  
 
@@ -24,7 +24,7 @@ Ja. Du kan öppna filer OneDrive från [!INCLUDE[prod_short](includes/prod_short
 
 Som en del av din Microsoft 365-prenumeration tillhandahåller organisationen dig OneDrive, din fillagring i molnet. OneDrive är privat som standard, där du strukturerar innehållet och väljer vilka filer eller mappar som ska delas och vem som ska delas. SharePoint å andra sidan, visas en fildatabas i molnet som delas med andra i organisationen.  
 
-## <a name="does-includeprodshortincludesprodshortmd-support-consumer-onedrive" />Stöder [!INCLUDE[prod_short](includes/prod_short.md)] kund OneDrive?
+## <a name="does--support-consumer-onedrive" />Stöder [!INCLUDE[prod_short](includes/prod_short.md)] kund OneDrive?
 
 Nr Integrationen är uteslutande avsedd för OneDrive för företag och har endast stöd för ditt arbetskonto. 
 
@@ -36,15 +36,15 @@ Nr Integrationen är uteslutande avsedd för OneDrive för företag och har enda
 
 Administratörer kan komma åt instrumentpanelen för tjänsthälsa som en del av administrationscentret för Microsoft 365. Instrumentpanelen innehåller OneDrive tjänsttillgänglighet. Gå till [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
-## <a name="is-onedrive-integration-available-to-includeprodshortincludesprodshortmd-on-premises" />Är OneDrive integrering tillgänglig för [!INCLUDE[prod_short](includes/prod_short.md)] lokala platser?
+## <a name="is-onedrive-integration-available-to--on-premises" />Är OneDrive integrering tillgänglig för [!INCLUDE[prod_short](includes/prod_short.md)] lokala platser?
 
 Ja, men till skillnad från [!INCLUDE[prod_short](includes/prod_short.md)] online, krävs ytterligare inställningar. Mer information finns i [Konfigurera Business Central lokalt](admin-onedrive-integration-onpremises.md).  
 
-## <a name="does-includeprodshortincludesprodshortmd-on-premises-connect-with-sharepoint-server" />Ansluter [!INCLUDE[prod_short](includes/prod_short.md)] lokal med SharePoint server?
+## <a name="does--on-premises-connect-with-sharepoint-server" />Ansluter [!INCLUDE[prod_short](includes/prod_short.md)] lokal med SharePoint server?
 
 Nr. Den här distributionskombinationen stöds inte även om SharePoint-servern har aktiverat Mina webbplatser.  
 
-## <a name="does-includeprodshortincludesprodshortmd-online-connect-with-sharepoint-server" />Ansluter [!INCLUDE[prod_short](includes/prod_short.md)] online med SharePoint server?
+## <a name="does--online-connect-with-sharepoint-server" />Ansluter [!INCLUDE[prod_short](includes/prod_short.md)] online med SharePoint server?
 
 Nr. Den här distributionskombinationen stöds inte även om SharePoint-servern har aktiverat Mina webbplatser.  
 
@@ -56,7 +56,7 @@ Integrationen förutsätter att företagsnamn är unika i olika [!INCLUDE[prod_s
 
 [!INCLUDE[prod_short](includes/prod_short.md)] flyttar inte automatiskt över filer som du har öppnat tidigare i OneDrive till den nya mappen. När du har bytt namn på företaget kommer Öppna åtgärden OneDrive kopierar filerna till en mapp med det nya företagsnamnet.   
 
-## <a name="when-attaching-files-to-includeprodshortincludesprodshortmd-how-do-i-pick-a-file-from-onedrive" />När filer bifogas till [!INCLUDE[prod_short](includes/prod_short.md)], hur väljer jag en fil från OneDrive?
+## <a name="when-attaching-files-to--how-do-i-pick-a-file-from-onedrive" />När filer bifogas till [!INCLUDE[prod_short](includes/prod_short.md)], hur väljer jag en fil från OneDrive?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller inte någon molnfilväljare. Du måste hämta filen från OneDrive till enheten och sedan överföra den till [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -72,11 +72,11 @@ Kör guiden för assisterad konfiguration **OneDrive-konfiguration** och inaktiv
 
 Det här är en äldre funktion där alla [!INCLUDE[prod_short](includes/prod_short.md)] filer från alla användare skickas till en enda SharePoint mapp. Vi rekommenderar att du inte konfigurerar snabbfliken Delade dokument på sidan **SharePoint-anslutningskonfigurationen** eftersom sidan är [inaktuell](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) och kommer att tas bort i utgivningscykel 2 år 2023, version 23.0.  Vi rekommenderar att du använder **OneDrive-konfiguration** istället.  
 
-## <a name="which-version-of-includeprodshortincludesprodshortmd-supports-onedrive" />Vilken version av [!INCLUDE[prod_short](includes/prod_short.md)] support OneDrive?
+## <a name="which-version-of--supports-onedrive" />Vilken version av [!INCLUDE[prod_short](includes/prod_short.md)] support OneDrive?
 
 Integrationen med OneDrive blev tillgänglig i 2021 utgivningscykel 2.  
 
-## <a name="a-namefeaturesawhich-features-are-affected-by-onedrive-integration" /><a name="features"></a>Vilka funktioner påverkas av OneDrive-integrationen?
+## <a name="which-features-are-affected-by-onedrive-integration" /><a name="features"></a>Vilka funktioner påverkas av OneDrive-integrationen?
 
 I guiden för assisterad konfiguration **OneDrive-konfiguration** för konfiguration av OneDrive-integrationen kan du aktivera eller inaktivera funktioner för hantering av Business Central-filer i OneDrive. Funktionerna är uppdelade i två alternativ:
 

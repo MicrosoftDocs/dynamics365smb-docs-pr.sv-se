@@ -147,7 +147,7 @@ Den här funktionen kommer snart att vara tillgänglig. Från och med februari 2
 
 Om du har gamla rapporter baserade på Business Central-data, går de inte att ansluta till den skrivskyddade databaskopian.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Jag har provat förhandsversionen av det nya anslutningsprogrammet för uppdateringen från februari 2022. När jag ansluter till min anpassade Business Central API-sida får jag felmeddelandet "Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad.". Hur kan jag åtgärda det?
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Jag har provat förhandsversionen av det nya anslutningsprogrammet för uppdateringen från februari 2022. När jag ansluter till min anpassade Business Central API-sida får jag felmeddelandet "Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad.". Hur kan jag åtgärda det?
 
 Med det nya anslutningsprogrammet kommer nya rapporter som använder Business Central-data att anslutas till en skrivskyddad kopia av Business Central-databasen som standard. Den här ändringen ger bättre prestanda. I sällsynta fall kan det emellertid orsaka fel. Det här felet inträffar vanligen eftersom ditt anpassade API gör ändringar av Business Central-poster samtidigt som Power BI försöker hämta data. Det händer i synnerhet som en del av AL-utlösare: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord och OnAfterGetCurrRecord.
 
@@ -182,7 +182,7 @@ In general, we recommend avoiding any database modifications in API pages when t
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 -->
-### <a name="a-namepermsahow-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hur ändrar jag eller avmarkerar jag det konto som jag använder för att ansluta till Business Central från Power BI Desktop?
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hur ändrar jag eller avmarkerar jag det konto som jag använder för att ansluta till Business Central från Power BI Desktop?
 
 I Power BI Desktop, gör något av följande:
 
@@ -237,14 +237,14 @@ Ja. Det här avancerade scenariot gör att Business Central bibehåller prestand
 
 Vi undersöker den här funktionen. Power BI innehåller många API:er som styr rapportdistributioner. Mer information finns i [Introduktion till distributionsledningar](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />När jag hämtar data från Business Central för att använda i mina Power BI-rapporter visas vissa värden som "_x0020_". Vilka är dessa värden?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values" />När jag hämtar data från Business Central för att använda i mina Power BI-rapporter visas vissa värden som "_x0020_". Vilka är dessa värden?
 
 Vissa API-sidor, inklusive de flesta API v 2.0-sidor, har fält baserade på [Al Enum-objekt](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Fält som baseras på AL Enum-objekt måste ha namn som är konsekventa och alltid samma, så att filter i rapporten alltid fungerar&mdash;oavsett vilket språk eller operativsystem du använder. Därför är inte fälten som baseras på AL Enum översatta och kodade för att undvika specialtecken, inklusive blanksteg. När det inte finns ett tomt alternativ i det AL-Enum-objektet kodas det till "_x0020_". Du kan alltid använda en omvandling till data på Power BI om du vill visa olika värden för dessa fält, t. ex. "Tomt".
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

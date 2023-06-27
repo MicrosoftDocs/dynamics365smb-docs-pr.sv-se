@@ -55,7 +55,7 @@ Du kan skapa journaler i en försäkringsjournalmall. Värdena i journalen anvä
 > [!NOTE]  
 >   Siffror fyller en särskild funktion i journalnamnen. Om ett journalmallsnamn eller ett journalnamn innehåller ett nummer, får namnet efterföljande nummer automatiskt när journalen bokförs. Om till exempel HH1 anges i fältet **Namn** ändras journalnamnet till HH2 när journalen som heter HH1 har bokförts.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Se även
 

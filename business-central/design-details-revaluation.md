@@ -89,7 +89,7 @@ När du beräknar det omvärderingsbara antalet för artiklar som använder vär
 -   En värdetransaktion med transaktionstypen **Varians**. Den här transaktionen registrerar skillnaden mellan det fakturerade kostnaden och den omvärderade standardkostnaden.  
 -   En värdetransaktion med transaktionstypen **Omvärdering**. Den här transaktionen registrerar återföringen av omvärdering av den förväntade kostnaden.  
 
-### <a name="example" />Exempel
+### <a name="example-1" />Exempel
 Följande exempel, baserat på produktionen av kedjan i föregående exempel, visar hur de tre typerna av transaktioner skapas. Det baseras på följande scenario:  
 
 1.  Användaren bokför de inköpta länkarna som inlevererade med en styckkostnad på BVA 2,00.  
@@ -123,7 +123,7 @@ Följande tabell visar de villkor som används för en artikel som inte använde
 |Ö|Senare än omvärderingstransaktionsnr.|Lika med omvärderingbokföringsdatumet|Ja|  
 |K|Senare än omvärderingstransaktionsnr.|Senare än omvärderingbokföringsdatum|Ja|  
 
-### <a name="example" />Exempel
+### <a name="example-2" />Exempel
 Följande exempel, som visar omvärdering av en artikel som använder FIFO-värderingsprincipen, baseras på följande scenariot:  
 
 1.  Den 01-01-20 bokför användaren ett inköp på 6 enheter.  

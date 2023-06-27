@@ -139,7 +139,7 @@ Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna rad
 
 Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen det senaste inköpspriset eller à-priset från artikelkortet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-prices-discounts-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alla [!INCLUDE[prod_short](includes/prod_short.md)]-uppräkningar ovan mappas till alternativuppsättningar i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Utöka alternativuppsättningar i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-" />Utöka alternativuppsättningar i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Skapa ett nytt AL-tillägg.
 
 2. Lägg till ett Enum-tillägg för de alternativ som du vill utöka. Kontrollera att du använder samma värde. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > De första tio tecknen i de nya alternativvärdenas namn och rubriker måste vara unika. Exempel: två alternativ med namnet "Överför 20 arbetsdagar" och "Överför 20 kalenderdagar" orsakar ett fel eftersom båda har samma första tio tecken, "Överföring 2". Namnge dem, till exempel "TRF20 WD" och "TRF20 CD".
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />Uppdatera alternativmappningen för [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="update--option-mapping" />Uppdatera alternativmappningen för [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Du kan nu återskapa mappningen mellan [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ och [!INCLUDE[prod_short](includes/prod_short.md)]-transaktioner.
 
 På sidan **Mappning av integreringstabell** väljer du raden för **Betalningsvillkor** och väljer sedan åtgärden **Synkronisera ändrade transaktioner**. Sidan **Alternativmappning för Dataverse** uppdateras med ytterligare nedanstående transaktioner.

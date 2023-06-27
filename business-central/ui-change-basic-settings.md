@@ -17,7 +17,7 @@ PÅ sidan **Mina inställningar** kan du visa och ändra grundläggande inställ
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namerole-centerarole" /><a name="role-center"></a>Roll
+## <a name="role" /><a name="role-center"></a>Roll
 
 Rollcentret bestämmer startsidan, en startskärm som har utformats för den specifika rollens behov i en organisation. Beroende på din roll ger startsidan eller rollcentret en översikt över verksamheten, din avdelning eller dina personliga uppgifter. Du kan också navigera till ditt dagliga arbete och söka efter arbete som har tilldelats dig.
 
@@ -33,7 +33,7 @@ Standardrollen är **Chef**, men du kan välja en annan roll för att använda e
 2. På sidan **Mina inställningar** i fältet **Roll** väljer du den roll du vill använda som standard. Välj till exempel **Revisor**.
 3. Välj **OK**.
 
-## <a name="a-namecompanyacompany" /><a name="company"></a>Företag
+## <a name="company" /><a name="company"></a>Företag
 
 Ett företag fungerar som en behållare för data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget. Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="a-namebadgeato-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="a-namework-dateawork-date" /><a name="work-date"></a>Arbetsdatum
+## <a name="work-date" /><a name="work-date"></a>Arbetsdatum
 
 Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra arbetsdatum.
 
@@ -83,11 +83,11 @@ Arbetsdatumet är kritiskt på sidor som kan redigeras. När arbetsdatumet inte 
 
 Om arbetsdatumet inte anges för den aktuella dagen (idag) kommer arbetsdatumet att anges i det övre vänstra hörnet på samtliga sidor där du kan redigera data.
 
-## <a name="a-nameregiona-region" /><a name="region"></a> Region
+## <a name="region" /><a name="region"></a> Region
 
 Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras. Det avgör också vilket tecken som används som decimalavgränsare när du använder ett numeriskt tangentbord för att ange data. Läs mer på [Ange data](ui-enter-data.md#decimal).
 
-## <a name="a-namelanguagea-language" /><a name="language"></a> Språk
+## <a name="language" /><a name="language"></a> Språk
 
 Ändra displayspråk. Detta fält visas bara om det finns flera språk att välja mellan.
 
@@ -107,7 +107,7 @@ Välj länken *Ändra när jag får meddelanden* för att visa eller ändra medd
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

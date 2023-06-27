@@ -123,7 +123,7 @@ Följande tabell innehåller exempel på datum med alla format. Det förutsätte
 |t 23|Tisdag av vecka 23 arbetsdatumets år|
 |t-1|Tisdag av vecka 1 arbetsdatumets år|
 
-## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Inställningsintervall
+## <a name="setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Inställningsintervall
 
 I listor, summor och rapporter kan du ange filter för datum, tid och datum och tid som innehåller ett startvärde och ett slutvärde om du endast vill visa de data som finns inom intervallet. Standardregler gäller för hur du kan ange datumintervall.
 
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas" />Use Date Formulas
+## <a name="use-date-formulas-1" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -345,7 +345,7 @@ Ange en siffra för att se vilken måttenhet som används i fältet för varakti
 
 Till exempel om mätenheten är timmar konverteras siffran 5 till 5 timmar.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

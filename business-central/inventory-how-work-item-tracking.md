@@ -220,7 +220,7 @@ Att gruppera artikelspårningen för en artikel innebär att ett parti- eller se
 8. Genom att registrera information om parti- eller serienummer kan den befintliga informationen om parti- eller serienumret ändras.  
 9. Bokför journalen för att koppla de nya artikelspårningsnumren eller utgångsdatumen till den associerade artikeltransaktionen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Se relaterad [Microsoft utbildning](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Se även
 

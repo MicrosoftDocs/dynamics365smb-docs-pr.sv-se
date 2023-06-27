@@ -114,7 +114,7 @@ Om du inte har markerat kryssrutan **Avskr. till Anl.bokf.datum** förlorar till
 
 *Summan av avskrivningen = 100 +15 + 55,54 = 170,54*
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-advanced-fixed-assets-transactions" />Se relaterad [Microsoft utbildning](/training/paths/manage-advanced-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/manage-advanced-fixed-assets-transactions/)
 
 ## <a name="see-also" />Se även
 

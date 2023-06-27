@@ -89,7 +89,7 @@ I din **Shopify administration**, välj **inkludera eller exkludera moms baserat
 > [!NOTE]
 > Den här inställningen påverkar inte priser på de inhemska marknaderna, som kontrolleras av växlingsknappen **Alla priser inklusive moms**.
 
-### <a name="all-prices-include-tax-is-selected" />Alla priser inklusive moms är markerade
+### <a name="all-prices-include-tax-is-selected-1" />Alla priser inklusive moms är markerade
 
 |-|Inrikes försäljning|Utländskt land där moms inkluderas i priset|Utländskt land där moms utesluts|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ I din **Shopify administration**, välj **inkludera eller exkludera moms baserat
 
 Priset för varje kund ändras beroende på var de befinner sig.
 
-### <a name="all-prices-include-tax-is-not-selected" />Alla priser inklusive moms är inte markerade
+### <a name="all-prices-include-tax-is-not-selected-1" />Alla priser inklusive moms är inte markerade
 
 |-|Inrikes försäljning|Utländskt land där moms inkluderas i priset|Utländskt land där moms utesluts|
 |------------------------|--------|--------|--------|

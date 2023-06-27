@@ -35,7 +35,7 @@ Om du vill se en fullständig historik över momstransaktioner för alla bokför
 > [!NOTE]
 > Varje [!INCLUDE[prod_short](includes/prod_short.md)] miljö är avsedd att hantera lagstadgad rapportering i ett enda land. Den nederländska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] hanterar momsrapportering i Nederländerna men inte i andra länder. På samma sätt hanterar USA-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] 1099 rapportering i USA och saknar stöd för att åberopa momsrapportering i andra länder, såvida det inte har gjorts av ett tillägg som levererats av vårt partner ekosystem eller en kundspecifik kodändring.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Om rapporten med EU-försäljningslista
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Om rapporten med EU-försäljningslista
 
 I Europeiska Unionen (EU) och i Storbritannien måste alla företag som säljer varor och tjänster till momsregistrerade kunder, bland annat kunder inom Europeiska unionen (EU), lämna in en elektronisk version av rapporten i XML-format till sina tull- och skattemyndigheter. **EU-försäljningslisterapporten** fungerar bara för länder inom EU.
 
@@ -53,7 +53,7 @@ När skattemyndigheten granskar rapporten, skickar de ett e-postmeddelande till 
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Om rapporten Momsretur
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Om rapporten Momsretur
 
 Använd den här rapporten om du vill skicka in moms för försäljnings- och inköpsdokument, till exempel inköpsorder och försäljningsorder, fakturor och kreditnotor. Informationen i rapporten är uppställd på samma sätt som i deklarationen från skattemyndigheten.  
 
@@ -73,7 +73,7 @@ Om du vill rapportera moms till en skattemyndighet elektroniskt, måste du anslu
     > [!NOTE]  
     > Det är en bra idé att testa anslutningen. Detta gör du genom att markera kryssrutan **Testläge** och sedan förbereda och skicka in din momsrapport enligt anvisningarna i avsnittet [Förbereda och skicka in en momsrapport](#to-prepare-and-submit-a-vat-report). I testläget testar tjänsten om skattemyndigheten kan ta emot rapporten och rapportstatus talar om att testet lyckades. Det är viktigt att komma ihåg att det inte är en verklig inlämning. Om du vill skicka rapporten på riktigt måste du rensa kryssrutan **testläge** och upprepa överföringen.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Så här ställer du in momsrapporter i [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Så här ställer du in momsrapporter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
 > [!Note]
 > När du skapar kodmoduler för rapporten måste du ta hänsyn till värdet i fältet **Momsrapportversion**. Det här fältet måste motsvara versionen av rapporten som är, eller var, krävd av skattemyndigheten. Du kan till exempel ange **2021** i kryssrutan för att ange att rapporten överensstämmer med de krav som gällde det året. Kontakta skattemyndigheterna för att få den senaste versionen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

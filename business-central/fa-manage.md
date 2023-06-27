@@ -47,7 +47,7 @@ I följande video beskrivs grunderna för anläggningstillgångar.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Se relaterad [Microsoft utbildning](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also" />Se även
 
@@ -57,7 +57,7 @@ I följande video beskrivs grunderna för anläggningstillgångar.
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

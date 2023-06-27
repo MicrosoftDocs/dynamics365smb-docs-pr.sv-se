@@ -115,7 +115,7 @@ När ditt företag använder leveransplaneringsprocesserna i [!INCLUDE [prod_sho
 
 Exempel på hur du kan använda fälten på snabbfliken **Planering** finns i [Metodtips för installation: Planeringsparametrar](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Se relaterad [Microsoft utbildning](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-items/)
 
 ## <a name="see-also" />Se även
 

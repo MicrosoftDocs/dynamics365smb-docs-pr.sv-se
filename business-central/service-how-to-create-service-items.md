@@ -56,7 +56,7 @@ Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på f�
 
     En servicerad av typen **Kostnad** infogas automatiskt med uppstartskostnaden. Uppstartskostnaden gäller vald serviceartikel.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Se relaterad [Microsoft utbildning](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-items/)
 
 ## <a name="see-also" />Se även
 

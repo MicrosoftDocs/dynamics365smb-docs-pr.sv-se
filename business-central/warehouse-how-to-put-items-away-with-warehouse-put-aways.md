@@ -112,7 +112,7 @@ Om man använder både bearbetning av artikelinförsel och inleverans för lager
 
 5. När du har placerat alla artiklarna på lagerställen enligt anvisningarna, välj åtgärden **Registrera artikelinförsel**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Se relaterad [Microsoft utbildning](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Se även
 

@@ -30,7 +30,7 @@ I följande artiklar beskrivs några av de viktigaste uppgifterna för att analy
 * [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Hantera åtkomstmetod för databas](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

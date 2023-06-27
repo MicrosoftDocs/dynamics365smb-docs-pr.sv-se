@@ -26,11 +26,11 @@ Du saknar antagligen objektbehörigheter för tabeller som den aktuella sidan el
 
 ## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 åtkomst har aktiverats, men användare får ett behörighetsfel
 
-### <a name="symptoms" />Symtom
+### <a name="symptoms-1" />Symtom
 
 Åtkomst med Microsoft 365 har aktiverats i administrationscenter för Business Central men användare får ett behörighetsfel när de kommer åt en post.
 
-### <a name="cause" />Orsak
+### <a name="cause-1" />Orsak
 
 Om du aktiverar åtkomst i administrationscentret för Business Central men inte tilldelar behörigheter på sidan **licenskonfiguration**, får alla som försöker komma åt Business Central-poster i Teams sina användarposter utan behörighet till några objekt. Business Central är säkert genom konstruktion: administratörer måste först konfigurera vilka data som kan användas i Teams. 
 
@@ -40,25 +40,25 @@ När du anpassar behörigheter på sidan licenskonfiguration påverkas endast de
 
 ## <a name="you-shared-a-link-in-teams-but-users-get-a-message-that-they-can-only-view-data" />Du har delat en länk i Teams, men användarna får ett meddelande om att de endast kan visa information
 
-### <a name="symptoms" />Symtom
+### <a name="symptoms-2" />Symtom
 
 När jag delar en länk i Teams som Business Central-användare kan andra användare få fel meddelandet "vid åtkomst till Business Central med en Microsoft 365-licens kan du bara visa data i Microsoft Teams".
 
-### <a name="cause" />Orsak
+### <a name="cause-2" />Orsak
 
 När du delar en Business Central-länk till en Teams-chatt eller -kanaler, navigerar du alltid från en länk Microsoft Teams där uppgifterna inte längre blir tillgängliga för en person som har en Microsoft 365-licens.
 
-### <a name="resolution" />Åtgärd
+### <a name="resolution-1" />Åtgärd
 
 När du delar sidor eller poster kan du antingen ta med förhands granskningen av länken som ett kort eller dela data som en flik i en chatt eller kanal.
 
 ## <a name="card-from-shared-link-is-minimal-and-doesnt-include-details-button" />Kortet från den delade länken är minimalt och innehåller inte knappen Detaljer
 
-### <a name="symptoms" />Symtom
+### <a name="symptoms-3" />Symtom
 
 När en Microsoft 365-licensinnehavare utan en Business Central-licens delar en Business Central-länk i Teams, utökas den automatiskt till ett kort som inte har någon värdefull information och som bara visar Business Central utan knappen **Detaljer**.
 
-### <a name="cause" />Orsak
+### <a name="cause-3" />Orsak
 
 Användare som har en  Microsoft 365- licens men saknar Business Central-licens kan inte dela länkar som kort. Om användaren har Business Central-appen för Teams installerad och klistrar in en länk i skrivområdet visas bara ett minimalt kort. 
 

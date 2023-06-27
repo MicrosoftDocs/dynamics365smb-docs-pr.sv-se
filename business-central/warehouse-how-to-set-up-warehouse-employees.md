@@ -22,7 +22,7 @@ Alla användare som utför distributionslageraktiviteter måste registreras som 
 5. Aktivera växlingen **Standard** för att ange att detta är det enda lagerställe som den anställda kan utföra aktiviteter på.  
 6. Upprepa de här stegen om du vill tilldela andra anställda till lagerställen, eller tilldela andra lagerställen till befintliga anställda.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Se även
 

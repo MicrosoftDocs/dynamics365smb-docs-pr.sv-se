@@ -63,7 +63,7 @@ Det finns flera kortkommandon som du kan använda för att arbeta med musen och 
 
 Mer information om genvägar finns i [Kortkommandon](keyboard-shortcuts.md). I den här artikeln beskrivs några kortkommandon.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
 
 Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t. ex. på kortsidorna) och i listor (rader och kolumner). Det är praktiskt när du utför återkommande uppgifter som kräver att flera poster skapas i sekvens. Exempel omfattar en grupp försäljningsorder eller registrering av nya artiklar.
 
@@ -125,7 +125,7 @@ För att starta filtrering, välj ![Filterrutaikon](media/open-filter-pane-icon.
 
 Filtrering är särskilt användbart när du visar och analyserar längre dokument. Anta att du öppnar en bokförd försäljningsfaktura. Sedan kan du filtrera radartiklarna så att de visar alla radartiklar som har en individuell rabatt på över 5 %. Du kan också filtrera fram cykel tillbehör med "pro" i namnet.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Fokusera på radartiklar
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Fokusera på radartiklar
 
 När du arbetar med dokument som innehåller en del av en radartikel, kan du växla vyn så att endast radartiklarna fokuseras. Exempel på dokument är försäljningsorder och faktura. Radartikeldelen expanderas så att den upptar nästan hela arbetsytan. Den döljer andra delar av sidan utom området åtgärder högst upp. Denna layout ger dig en bättre översikt över radobjekten och ger mer plats att arbeta med dem.
 
@@ -266,7 +266,7 @@ Här följer några exempel.
 
  Numret 5 konverteras till 5 timmar om enheten är timmar.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Ange decimalavgränsare som används av numeriska tangentbord
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Ange decimalavgränsare som används av numeriska tangentbord
 
 När du anger data med hjälp av <kbd>decimalavgränsare</kbd> för numeriska tangenter, bestäms den verkliga decimalavgränsare som anges i fältet av regionsinställningarna för Business Central. De flesta regioner använder punkt (.) eller komma (,) som en avgränsare för decimalvärden, som vanligtvis visas i valuta belopp. Decimalknappen på knappsatsen anpassas till din region. Det är ofta annorlunda än punkt eller kommatecken på resten av tangentbordet. Du anger region i Business Central på sidan **Mina inställningar**.
 
@@ -275,7 +275,7 @@ Anta exempelvis att du använder ett numeriskt tangentbord som använder en punk
 > [!TIP]
 > Ibland kan det hända att du vill använda decimaltecknet för att ange en punkt (.). Anta att du har angett ett datumintervall i ett filter, t.ex. `01/01/2022..04/01/2022` eller något som kräver en punkt. För att använda detta, välj tangenterna <kbd>Alt</kbd>+<kbd>decimalavgränsare</kbd> på det numeriska tangentbordet. Denna tangentkombination växlar decimaltecknet mellan en punkt och den decimalavgränsare som bestäms av inställningen **region**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

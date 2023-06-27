@@ -37,7 +37,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
 > [!NOTE]  
 >  Du kan inte ändra inbyggda rapportlayouter<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Så här öppnar du den anpassade XML-delen för rapporten i Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Så här öppnar du den anpassade XML-delen för rapporten i Word
   
 1. Öppna sedan Word-rapportlayoutdokumentet i Word, om inte redan har öppnats.  
   
@@ -103,7 +103,7 @@ Bilder justeras i det övre vänstra hörnet av innehållskontrollen och storlek
   
 3. För att öka eller minska bildstorleken drar du ett storlekshandtag bort från eller mot mitten av innehållskontrollen.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Ta bort rubrik- och datafält
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Ta bort rubrik- och datafält
 
 Rubrik- och datafält för en rapport finns i innehållskontroller i Word. Efterföljande diagram illustrerar en innehållskontroll när den har valts i Word-dokumentet.  
 

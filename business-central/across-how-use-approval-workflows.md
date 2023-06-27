@@ -78,7 +78,7 @@ Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontr
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Förfallna begäranden om godkännande** och välj sedan relaterad länk.
 2. På sidan **Förfallna begäranden om godkännande** väljer du åtgärden **Skicka meddelanden om förfallna godkännanden**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Se relaterad [Microsoft utbildning](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Se även
 

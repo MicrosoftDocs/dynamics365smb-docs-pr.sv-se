@@ -33,7 +33,7 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 |Förbered för att konfigurera en ny datautbytesdefinition för en datafil eller strömma med hjälp av filens XML-schema för att autofylla snabbfliken **Kolumndefinitioner** på sidan **Definitioner för bokföringsbyte**.|[Använda XML-uppställningar för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Konfigurera ramverket för datautbyte så att användare kan ta emot ett nytt inköpsdokumentformat, skicka ett nytt försäljningsdokumentformat, importera en ny bankfil eller göra andra datautbyten.|[Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

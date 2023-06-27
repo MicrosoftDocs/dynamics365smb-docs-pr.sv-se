@@ -83,7 +83,7 @@ Följande diagram visar de utgående distibutionslagerprocesserna för olika typ
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Visar stegen i ett grundläggande utgående distributionslagerflöde.":::
 
-### <a name="1-release-a-source-document" />1: Släpp källdokument
+### <a name="1-release-a-source-document-1" />1: Släpp källdokument
 
 Om du frigör ett källdokument i avancerade konfigurationer sker samma sak som för grundläggande konfigurationer. Artiklarna blir tillgängliga för hantering i distributionslagret. De kan till exempel ingå i en utleverans.  
 

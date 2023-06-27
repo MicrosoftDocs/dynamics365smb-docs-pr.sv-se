@@ -230,7 +230,7 @@ Lär dig mer om allmänna riktlinjer om hur du registrerar ett program i [Snabbs
 > [!NOTE]
 Om du har problem med att använda SMTP-protokoll för att skicka e-post efter att du har anslutit [!INCLUDE[prod_short](includes/prod_short.md)] till din programregistrering kan det bero på att SMTP-autentisering inte har aktiverats för klientorganisationen. Vi rekommenderar att du använder e-postkopplingarna från Microsoft 365 och Aktuell användare i stället, eftersom de använder Microsoft Graph Mail API:er. Om du måste använda SMTP-protokoll kan du emellertid aktivera SMTP AUTH. Mer information finns i [Aktivera eller inaktivera autentiserad klient-SMTP-sändning (SMTP-autentisering) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till din app-registrering
+### <a name="connect--to-your-app-registration" />Anslut [!INCLUDE[prod_short](includes/prod_short.md)] till din app-registrering
 
 När du har registrerat ditt program i Azure Portal använder du sidan **AAD-registrering för e-postprogram** i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till det.
 
@@ -263,7 +263,7 @@ När du har registrerat ditt program i Azure Portal använder du sidan **AAD-reg
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />Se relaterad [Microsoft utbildning](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/set-up-email/)
 
 ## <a name="see-also" />Se även
 

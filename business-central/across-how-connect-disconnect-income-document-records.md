@@ -41,7 +41,7 @@ Du kan ta bort bifogade filer från ej bokförda dokument när som helst genom a
 
 Kopplingen till det bokförda dokumentet tas bort. Du kan nu fortsätta med att koppla en annan inkommande dokumentpost till det bokförda dokumentet enligt vad som beskrivs i det här avsnittet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

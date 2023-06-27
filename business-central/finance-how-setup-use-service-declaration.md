@@ -155,7 +155,7 @@ Du kan ändra värdena i dessa fält, men om du väljer fältet **Tillämplig f�
 
 Om du anger ett värde i fältet **Kod för typ av tjänstetransaktion** men inte väljer **Gäller för tjänstdeklaration** kan du bokföra dokumentet men raden kommer inte att beräknas när du gör det.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se även
 

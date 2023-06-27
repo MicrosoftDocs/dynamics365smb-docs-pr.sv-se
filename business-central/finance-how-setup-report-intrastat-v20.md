@@ -170,7 +170,7 @@ I många länder fastställer tullen och skattemyndigheterna åttasiffriga koder
 
 Lägg till alla koder du har användning för på sidan **EU tull statistiknr**. Du måste fylla i koderna på artikelkortet innan du börjar att bokföra. När du har lagt upp koderna anger du dem i fältet **EU tull statistiknr** på artikelkortet. Du måste även fylla i fältet **Nettovikt** på artikelkortet.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se även
 

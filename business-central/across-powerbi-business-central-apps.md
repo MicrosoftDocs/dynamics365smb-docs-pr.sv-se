@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the-include-prodshortincludesprodshortmd-apps-in-power-bi" />Använda [!INCLUDE [prod_short](includes/prod_short.md)]-apparna i Power BI
+# <a name="use-the--apps-in-power-bi" />Använda [!INCLUDE [prod_short](includes/prod_short.md)]-apparna i Power BI
 
 > **GÄLLER:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -51,7 +51,7 @@ Power BI-appar kräver behörighet till de tabeller där datan hämtas ifrån sa
 
 Registrera dig frö Power BI-tjänsten. Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) om du inte redan har registrerat dig. När du registrerar dig använder du din e-postadress för arbetet samt ditt lösenord.
 
-## <a name="install-a-includeprodshortincludesprodshortmd-app-in-power-bi" />Installera en [!INCLUDE[prod_short](includes/prod_short.md)]-app i Power BI
+## <a name="install-a--app-in-power-bi" />Installera en [!INCLUDE[prod_short](includes/prod_short.md)]-app i Power BI
 
 1. Öppna din webbläsare, gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) och logga in på ditt konto.
 2. Välj **Hämta Data** längst ned i den vänstra navigeringsrutan.  
@@ -69,7 +69,7 @@ Registrera dig frö Power BI-tjänsten. Gå till [https://powerbi.microsoft.com]
 
     Efter slutförd installation finns appen tillgänglig via **Appar** i navigeringsmenyn i Power BI.
 
-## <a name="connect-the-includeprodshortincludesprodshortmd-app-to-your-data" />Ansluta [!INCLUDE[prod_short](includes/prod_short.md)]-appen till dina data
+## <a name="connect-the--app-to-your-data" />Ansluta [!INCLUDE[prod_short](includes/prod_short.md)]-appen till dina data
 
 1. Under **Appar** väljer du appen Business Central och sedan **Anslut**.
 2. När du uppmanas till det fyller du i **Företagets namn** och **Miljö** med information om den [!INCLUDE[prod_short](includes/prod_short.md)]-instans som du vill ansluta till.
@@ -96,7 +96,7 @@ Inget Power BI-konto har konfigurerats. Du måste ha en licens för att få ett 
 
 Detta meddelande visas om den förvalda rapporten inte lyckas distribuera din Power BI-arbetsyta. Alternativt har rapporten distribuerats men inte uppdaterats korrekt. Om detta problem uppstår går du till rapporten på din Power BI-arbetsyta, väljer **Datauppsättning**, **Inställningar** och uppdaterar sedan autentiseringsuppgifterna manuellt. När datauppsättningen har uppdaterats går du tillbaka till [!INCLUDE[prod_short](includes/prod_short.md)] och väljer rapporten manuellt på sidan **Välj rapporter**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-includeprodshortincludesprodshortmd-app-in-power-bi" />Du behöver en Power BI Pro-licens för att installera [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />Du behöver en Power BI Pro-licens för att installera [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Power BI
 
 För att kunna dela ditt innehåll behöver såväl du som de personer du delar med en [Power BI Pro-licens](/power-bi/service-features-license-type). Innehållet måste ligga på en arbetsyta med [Premium-kapacitet](/power-bi/service-premium-what-is). Mer information finns i [Så här delar du ditt arbete i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -144,7 +144,7 @@ I Power BI-appen visas endast data från [!INCLUDE[prod_short](includes/prod_sho
 - [Välj en panel](/power-bi/service-dashboard-tiles) för att öppna den underliggande rapporten.  
 - Din datauppsättning har inte schemalagts att uppdateras som standard. Du kan ändra uppdateringsuppställningen eller försöka uppdatera den på begäran med **Uppdatera nu**. Mer information finns i [Konfigurera schemalagd uppdatering](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

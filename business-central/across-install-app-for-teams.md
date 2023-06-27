@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="install-the-include-prodshortincludesprodshortmd-app-for-microsoft-teams" />Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams
+# <a name="install-the--app-for-microsoft-teams" />Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -80,7 +80,7 @@ Du är nu redo att använda appen i Team för att söka efter kontakter eller de
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

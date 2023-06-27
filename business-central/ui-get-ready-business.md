@@ -71,7 +71,7 @@ När användare skapas i Microsoft 365 kan de importeras till sidan **Användare
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Konfigurera ditt företag i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-" />Konfigurera ditt företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med hjälp av artiklarna [snabbstart](quick-start-business-central.md) artiklarna kan du ta de första stegen i installationen av [!INCLUDE [prod_short](includes/prod_short.md)] i organisationen. Inne i [!INCLUDE [prod_short](includes/prod_short.md)], sidan **assisterad konfiguration** visas en lista med assisterade konfigurationsguider som hjälper dig att göra det. Beroende på din roll och ditt land eller din region innehåller sidan olika assisterade konfigurationsguider enligt illustrerat i följande tabell:
 
@@ -112,6 +112,6 @@ Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäl
 [Migrera data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Utvärderingsversioner och prenumerationer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

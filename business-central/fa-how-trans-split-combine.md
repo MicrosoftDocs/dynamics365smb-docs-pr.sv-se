@@ -66,7 +66,7 @@ Du kan kombinera flera anläggningstillgångar till en anläggningstillgång, ti
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Se relaterad [Microsoft utbildning](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also" />Se även
 

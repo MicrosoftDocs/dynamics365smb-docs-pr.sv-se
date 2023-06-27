@@ -24,7 +24,7 @@ I det här avsnittet kan du läsa mer om vår metod för regelefterlevnad ur per
 |Visa information om olika certifieringar relaterade till Business Central. Här hittar du information om allmänna certifieringar och landsspecifika certifikat.|[Intyg](compliance-certifications.md)|  
 |Lär dig mer om villkor för servicenivåavtal och andra villkor för servicen|[Tjänstvillkor](compliance-service-compliance.md#service-terms)|  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

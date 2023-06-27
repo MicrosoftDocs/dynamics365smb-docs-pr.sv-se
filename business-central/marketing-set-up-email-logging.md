@@ -55,7 +55,7 @@ Regler för e-postflöde du söker efter specifika villkor i meddelanden och utf
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] behandlar endast meddelanden i mappen Inkorgen i den delade postlådan. Om en regel flyttar meddelanden från inkorgen till en annan mapp kommer dessa meddelanden inte att behandlas. Dessutom ignoreras meddelanden i mappen skräppost.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att logga e-postmeddelanden
+## <a name="set-up--to-log-email-messages" />Ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att logga e-postmeddelanden
 
 Kom igång med e-postloggning i två enkla steg:
 
@@ -145,14 +145,14 @@ Om du inte använder Azure Active Directory för att hantera identiteter och åt
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Så här ändrar du vilket användarkonto som ska användas för e-postloggning
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med det konto som det schemalagda jobbet kommer att använda för att ansluta till den delade postlådan och bearbeta e-postmeddelanden. Det här kontot måste ha åtkomst till både [!INCLUDE[prod_short](includes/prod_short.md)] och Exchange Online.
 2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk. 
 3. Välj **relaterad** och sedan **Jobbkötransaktion**.
 4. Starta om jobbet **E-postloggning**.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] lokalt
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] lokalt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk.
 2. Välj **åtgärder** och **förnya token**.

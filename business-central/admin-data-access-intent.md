@@ -43,7 +43,7 @@ Inom databasterminologin kallas denna funktion vanligen för *läsningsskalning*
     > [!NOTE]
     > Om ett objekt som är redigerbart, exepelvis kundkortet, är **Skrivskyddat**, kommer den primära databasen fortfarande att användas oavsett vilken behörighet som används, vilket gör att användarna kan göra ändringar som vanligt.
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 [Affärsfunktion](across-business-functionality.md)  
@@ -51,7 +51,7 @@ Inom databasterminologin kallas denna funktion vanligen för *läsningsskalning*
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)    
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

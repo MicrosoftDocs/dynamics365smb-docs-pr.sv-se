@@ -47,7 +47,7 @@ Du kan dela rapporter med samarbetspartner på sidan **Rapportinkorgen**. Välj 
 >
 > Med hjälp av åtgärden **Dela** blir den genererade rapportfilen tillgänglig för andra användare på OneDrive för företag, och visar inte den schemalagda rapporten i **Rapportinkorgen**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Se relaterad utbildning på [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Se relaterad utbildning på [Microsoft Learn](/learn/paths/build-reports/).
 
 ## <a name="see-also" />Se även
 

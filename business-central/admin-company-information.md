@@ -28,7 +28,7 @@ Om din version av [!INCLUDE [prod_short](includes/prod_short.md)] inkluderar fle
 
 Det finns några funktioner som du kan använda för att växla mellan företag medan du arbetar, som företagsväxlaren (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Läs mer i [Byta till ett annat företag eller en annan miljö](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Visa en företagsbricka
+## <a name="display-a-company-badge" /><a name="badge"></a>Visa en företagsbricka
 
 När det finns mer än ett företag eller miljö visas företagsväxlaren i det övre högra hörnet av programfältet, nära sökikonen i programfältet. Som standard använder företaget en standardföretagsbricka, t.ex ![företagsikon Launcher.](media/ui-experience/company-icon.png "Visar företagsväxlingsikonen som används när det finns en enda miljö") och ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Visar företagsväxlingsikonen som används när det finns flera miljöer").
 
@@ -54,7 +54,7 @@ Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en å
 
 Standardgränssnittet i utvärderingsversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller inte alla funktioner. Du kan aktivera den fullständiga upplevelsen på sidan **Företagsinformation**. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

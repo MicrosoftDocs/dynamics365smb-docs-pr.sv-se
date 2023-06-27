@@ -93,7 +93,7 @@ Du kan schemalägga en rapport eller batch-jobb att köras vid ett visst datum o
 
 Om du vill veta mer om schemaläggning går du till [Schemaläggning av en rapport som ska köras](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-includeprodshortincludesprodshortmd-and-includeprodshortincludescdslongmdmd" />Schemalägg synkronisering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="schedule-synchronization-between--and-includeprod_short" />Schemalägg synkronisering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Om du har integrerat [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)] kan jobbkön schemalägga när data ska synkroniseras. Beroende på vilken riktning och vilka regler du definierat kan jobbkötransaktionen skapa poster i ett program för att matcha poster i den andra. Ett bra exempel är när du registrerar en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)] en jobbkötransaktion kan du ange den kontakten åt dig i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du vill veta mer om schemaläggning, gå till [Schemalägga en synkronisering mellan Business Central och Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 

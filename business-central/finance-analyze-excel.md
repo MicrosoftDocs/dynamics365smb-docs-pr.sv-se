@@ -44,13 +44,13 @@ De fördefinierade Excel-rapporterna baseras på informationen i det aktuella f�
 
 De övriga bladen i Excel-arbetsboken visar de data som ligger bakom rapporten. Om du vill ta reda på vad som ligger bakom grupperingarna i Excel-rapporterna måste du kanske filtrera listorna i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />[!INCLUDE [prod_short](includes/prod_short.md)] Excel tillägg
+## <a name="the--excel-add-in" />[!INCLUDE [prod_short](includes/prod_short.md)] Excel tillägg
 
 Din [!INCLUDE [prod_short](includes/prod_short.md)]-upplevelse inkluderar ett tillägg för Excel. Beroende på din prenumeration loggas du in automatiskt eller måste ange inloggningsinformation för [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Visa och redigera i Excel från Business Central](across-work-with-excel.md).  
 
 Med tillägget, kan du uppdatera data från [!INCLUDE [prod_short](includes/prod_short.md)], och du kan skicka ändringar till [!INCLUDE [prod_short](includes/prod_short.md)]. Däremot inaktiveras skjuta tillbaka till databasen är inte tillgängligt för de finansiella rapporter du kan se i Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

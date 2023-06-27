@@ -118,7 +118,7 @@ I scenarier där en del av antalet monteras och ett annat ska plockas, skapas et
 > [!NOTE]  
 > Om artiklar monteras mot kundorder, skapas lagerplockningen för den kopplade försäljningsordern för att skapa en lagerförflyttning för alla monteringskomponenter.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se även
 

@@ -19,7 +19,7 @@ När du har aktiverat en betalningstjänst i [!INCLUDE[prod_short](includes/prod
 
 Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installerade i [!INCLUDE[prod_short](includes/prod_short.md)], och klara att aktiveras.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Så här aktiverar du en betalningstjänst i [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-" />Så här aktiverar du en betalningstjänst i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningstjänster** och väljer sedan relaterad länk.  
 2. På sidan **Betalningstjänst** väljer du åtgärden **Ny**.  
@@ -37,7 +37,7 @@ Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installer
     > [!NOTE]  
     > Fältet **betalningstjänst** är bara tillgängligt om du har aktiverat betalningstjänsten.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

@@ -96,7 +96,7 @@ Utifrån detta exempel kan du endast ändra fältet **Antal att montera** enligt
 * Den lägsta kvantitet som du kan ange är 1. Du måste åtminstone sammanställa en enhet för att kunna sälja de fyra enheter, antaget att de återstående tre finns i lager.  
 * Den höga kvantitet som du kan ange är 4. Den här gränsen garanterar att du inte sätter samman mer av artikeln än vad du behöver för försäljningen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

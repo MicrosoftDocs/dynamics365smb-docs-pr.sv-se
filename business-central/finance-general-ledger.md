@@ -98,7 +98,7 @@ På sidan **Kontoplan** visas i en hierarkisk lista de konton som ger snabb åtk
 
 I en liten organisation, t.ex. demonstrationsföretaget CRONUS, kan de flesta användare redigera kontoplanen, utom användare med en licens som gruppmedlem. Större organisationer använder dock vanligtvis roller och behörigheter för att begränsa åtkomsten till att redigera kontoplanen. Om du är administratör eller har rollen *Företagschef* eller *Revisor* kan du kontrollera användarbehörigheter för att ge rätt personer tillgång till de relevanta tabellerna. Läs mer i avsnittet [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />Se relaterad [Microsoft utbildning](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also" />Se även
 

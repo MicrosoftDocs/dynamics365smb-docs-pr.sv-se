@@ -11,7 +11,7 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-includeprodshortincludesprodshortmd" />Bulkfakturera för Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-" />Bulkfakturera för Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Om företaget använder appen Bookings i Microsoft 365 kan du göra bulkfakturering för avtalade tider. SIdan **Ofakturerade bokningar** i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller en lista över företagets slutförda bokningar. Du kan snabbt markera avtalade tider som du vill fakturera och skapa fakturor för utkast för tjänsterna på den här sidan.  
 

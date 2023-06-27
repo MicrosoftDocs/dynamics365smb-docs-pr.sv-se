@@ -43,7 +43,7 @@ I det här avsnittet definieras de viktigaste begreppen som används i kostnadsk
 |Rörlig kostnad|Rörliga kostnader är kostnader som ändras i proportion till aktiviteten i en verksamhet. Rörliga kostnader är summan av marginalkostnaderna utslaget på alla producerade enheter. Fasta kostnader och rörliga kostnader utgör de två komponenterna i den totala kostnaden.|  
 |Variant|En variant används som en valfri användardefinierad etikett för fördelningar. Syftet med etiketten är att filtrera fördelningsgrupper.|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

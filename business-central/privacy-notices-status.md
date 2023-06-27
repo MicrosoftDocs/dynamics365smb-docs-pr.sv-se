@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Status för sekretessmeddelanden i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Status för sekretessmeddelanden i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 I den här artikeln beskrivs hur sekretess meddelandet är och förklarar syftet med sidan **Status för sekretessmeddelanden** i [!INCLUDE[prod_short](includes/prod_short.md)]. Du får också lära dig hur administratörer kan använda den här sidan.
 

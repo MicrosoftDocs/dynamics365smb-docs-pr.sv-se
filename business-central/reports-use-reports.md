@@ -25,7 +25,7 @@ En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] samlar in informatio
 | Lär dig hur du ändrar standardlayout för en rapport. | [Ändra standardrapportlayout](ui-how-change-layout-currently-used-report.md) |
 | Visa och analysera data från en rapportdatauppsättning i Microsoft Excel. | [Spara rapportdatauppsättning till Excel från begärandesidan](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

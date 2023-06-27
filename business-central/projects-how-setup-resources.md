@@ -74,7 +74,7 @@ Förutom priset som anges på resurskortet, kan du registrera alternativa priser
 3. På sidan **Resurspriser** fyller du i fälten på en rad efter behov.
 4. Upprepa steg 3 för varje alternativt resurspris som du vill skapa.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Se även
 

@@ -34,7 +34,7 @@ Om du vill skapa flera lagerställeenheter för en artikel, kan du använda batc
 > Om LAGERSTÄLLEENHETEN levereras via produktion, kommer inte fältet **Standardkostnad** användas för fakturering, och justera den faktiska kostnaden för den producerade artikeln. I stället använder [!INCLUDE [prod_short](includes/prod_short.md)] värdet i fältet **Standardkostnad** på den underliggande artikelkortet, och eventuella avvikelser beräknas mot kostnadsandelar för artikeln.<br><br>
 > Även om du kan tilldela produktionsstrukturer och operationsföljden inte kan tilldelas Lagerställekonfiguration, är styckkostnaden summerad och den relaterade beräkningen av kostnad delar inte heller tillgängliga på Lagerställeenheter. Om du vill veta mer om standardkostnader går du till [Beräkna standardkostnad](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-trainingtrainingmodulescontrol-inventory-multiple-locations" />Se relaterad [Microsoft utbildning](/training/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/control-inventory-multiple-locations/)
 
 ## <a name="see-also" />Se även
 

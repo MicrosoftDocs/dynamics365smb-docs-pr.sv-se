@@ -81,7 +81,7 @@ En distributionslagerarbetare kan skapa en ny lagerinförsel baserat på det sl�
     * Bokför inleveransen av de källdokumentrader som har förts in
     * Om lagerstället använder lagerställen kommer bokföringen även att skapa distributionslagertransaktioner för att bokföra ändringar i antalet lagerställen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Se relaterad [Microsoft utbildning](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Se även
 

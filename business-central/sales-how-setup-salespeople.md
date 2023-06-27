@@ -25,7 +25,7 @@ När du har konfigurerat en säljare på sidan **Säljare** kan du välja den i 
 
 Du kan använda säljare i olika relationshanterings- och marknadsföringsarbeten. Du kan till exempel tilldela aktiviteter till säljare, så att uppgifterna registreras i affärsmöjligheter som tilldelats säljaren. För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

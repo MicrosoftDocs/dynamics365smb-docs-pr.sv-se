@@ -60,7 +60,7 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 > [!NOTE]  
 > artikelersättningar gör inte automatiskt att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft-utbildning](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

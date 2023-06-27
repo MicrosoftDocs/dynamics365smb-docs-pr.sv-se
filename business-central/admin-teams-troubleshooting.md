@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshooting-microsoft-teams-integration-with-" />Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -182,7 +182,7 @@ Problemet beror förmodligen på att du har delat en listvy som är en personlig
 [Ändra företag och andra inställningar i Teams](across-teams-settings.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

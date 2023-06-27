@@ -75,7 +75,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
 
 Upprepa stegen för varje kontraktsrad.  
 
-#### <a name="example" />Exempel
+#### <a name="example-1" />Exempel
 Det finns ingen markering i fältet **Tillåt ej balanserade belopp** i servicekontraktet som innehåller tre kontraktsrader med dylik information.  
 
 |Artikel|Radkostnad|Radvärde|Radrabatt %|Radrabattbelopp|Radbelopp|TB|  
@@ -113,7 +113,7 @@ Om du ändrar det årliga beloppet för servicekontraktet eller kontraktsofferte
     * Radrabatt % = Radrabatt / Radvärde × 100  
     * TB = Radbelopp – Radkostnad  
 
-#### <a name="example" />Exempel
+#### <a name="example-2" />Exempel
 Det finns ingen markering i fältet **Tillåt ej balanserade belopp** i servicekontraktet som innehåller tre kontraktsrader med dylik information.  
 
 |Artikel|Radkostnad|Radvärde|Radrabatt %|Radrabattbelopp|Radbelopp|TB|  

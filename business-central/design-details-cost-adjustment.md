@@ -158,7 +158,7 @@ Om du vill ställa in kostnadsjusteringen att köras automatiskt när du bokför
 
 Urvalet som du gör i fältet **Automatisk kostnadsjustering** är viktigt för prestanda och dina kostnaders korrekthet. Kortare tidsperioder, till exempel **Dag** eller **Vecka**, påverkar systemprestanda mindre, eftersom har strängare krav att endast kostnader som har bokförts inom den sista dagen eller veckan kan justeras automatiskt. Det innebär att den automatiska kostnadsjusteringen inte körs lika ofta och därför påverkar systemprestanda mindre. Det betyder också¨att styckkostnaderna kan vara mindre exakta.  
 
-### <a name="example" />Exempel
+### <a name="example-1" />Exempel
 
 Följande exempel visar ett automatiskt kostnadsjusteringscenario:  
 

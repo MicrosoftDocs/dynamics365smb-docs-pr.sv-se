@@ -10,11 +10,11 @@ ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, bus
 ms.date: 07/13/2022
 ms.author: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-includeprodshortincludesprodshortmd" />Aktivera Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="enabling-power-bi-integration-with-" />Aktivera Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I denna artikel beskrivs hur du gör [!INCLUDE[prod_short](includes/prod_short.md)] redo för integrering med Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online är redan färdigkonfigurerat för integrering – dock finns viss licensinformation som du bör läsa igenom. För [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste du konfigurera din miljö för anslutning till Power BI innan användarna kan använda det.
 
-## <a name="a-namelicenseapower-bi-licensing" /><a name="license"></a>Power BI-licenser
+## <a name="power-bi-licensing" /><a name="license"></a>Power BI-licenser
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] får användarna en gratis Power BI-licens som ger åtkomst till de vanligaste funktionerna i [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI. Du kan även köpa en Power BI Pro-licens som ger åtkomst till ytterligare funktioner. Följande tabell sammanfattar de funktioner som medföljer respektive licens.
 
@@ -25,7 +25,7 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] får användarna en gratis Po
 
 mer information finns i [Licensiera Power BI-tjänsten för användare i din organisation](/power-bi/admin/service-admin-licensing-organization) eller [Registrera dig för Power BI-tjänsten som privatperson](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="a-nameexposedataaexpose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Visa data via API eller OData-webbtjänster
+## <a name="expose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Visa data via API eller OData-webbtjänster
 
 Med Business Central finns det två sätt att visa data som kan konsumeras av Power BI-rapporter: API-sidor eller frågor och OData-webbtjänster (Open Data Protocol).
 
@@ -54,7 +54,7 @@ Om du vill få veta mer om vad du kan göra för att säkerställa en maximal we
 
 När det är möjligt rekommenderas du att använda API-sidor i stället för OData-webbtjänster. API-sidor är oftast snabbare när data läses in i Power BI-rapporter än OData-webbtjänster. Dessutom är de mer flexibla eftersom de gör att du kan hämta data från tabellfält som inte är definierade i ett sidobjekt.
 
-## <a name="a-namesetupaset-up-includeprodshortincludesprodshortmd-on-premises-for-power-bi-integration" /><a name="setup"></a>Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt för Power BI-integrering
+## <a name="set-up--on-premises-for-power-bi-integration" /><a name="setup"></a>Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt för Power BI-integrering
 
 I detta avsnitt beskrivs kraven för en lokal [!INCLUDE[prod_short](includes/prod_short.md)]-distribution i syfte att integrera med Power BI.
 
@@ -92,7 +92,7 @@ I detta avsnitt beskrivs kraven för en lokal [!INCLUDE[prod_short](includes/pro
     Om du vill skapa den första anslutningen öppnar du [!INCLUDE[prod_short](includes/prod_short.md)] och kör **Kom igång med Power BI** från startsidan. Denna åtgärd leder dig genom samtyckesprocessen och kontrollerar din Power BI-licens. När du uppmanas att göra så, loggar du in med ett Azure-administratörskonto. Mer information finns i [Anslut till Power BI – endast en gång](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

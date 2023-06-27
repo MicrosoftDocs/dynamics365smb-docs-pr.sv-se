@@ -31,7 +31,7 @@ Om du är intresserad av vilka erbjudanden för regelefterlevnad som Microsoft h
 [Programmets regelefterlevnad](compliance-application-compliance.md)  
 [Intyg](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

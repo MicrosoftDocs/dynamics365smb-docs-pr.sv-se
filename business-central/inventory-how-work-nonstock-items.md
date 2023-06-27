@@ -58,7 +58,7 @@ I följande processer används en försäljningsorder, men stegen är desamma f�
 > [!NOTE]  
 > En artikelreferens skapas mellan leverantörens artikelnummer och det nya artikelnumret. Om du vill veta mer om artikelreferenser går du till [Använd artikelreferenser](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

@@ -70,7 +70,7 @@ Med funktionen aktiverad kan en returtransaktion endast bokföras genom att ange
 | Ange standardrapporter som ska användas för olika dokumenttyper. |[Rapportval i Business Central](across-report-selections.md)|
 |Ange om användare tillåts bokföra inköpsfakturor och om de måste bokföra tillsammans med en leverans. |[Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />Se relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Se relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

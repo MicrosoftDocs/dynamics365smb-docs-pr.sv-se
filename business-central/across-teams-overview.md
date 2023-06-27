@@ -83,7 +83,7 @@ Mer information finns i [Lägg till fliken Business Central i Teams](across-team
 [Ändra företag och andra inställningar i Teams](across-teams-settings.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

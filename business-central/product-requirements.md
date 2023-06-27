@@ -53,7 +53,7 @@ Innan du öppnar [!INCLUDE[prod_short](includes/prod_short.md)] online, bör du 
 
 **Redigera i Excel:** För att använda Excel-tillägget för att göra ändringar i Excel och sätta tillbaka ändringarna i [!INCLUDE[prod_short](includes/prod_short.md)], behöver du Excel 2019 eller senare. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Genom att använda administrationscenter för Business Central
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Genom att använda administrationscenter för Business Central
 
 Administrationscentret har utformats för att fungera med den aktuella versionen av följande webbläsare:
 

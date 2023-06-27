@@ -63,7 +63,7 @@ Den assisterade konfigurationen **OneDrive-konfiguration** introducerades i utgi
 
 Du byter genom att helt enkelt öppna och köra den assisterade konfigurationen **OneDrive-konfiguration** direkt eller genom att öppna sidan **SharePoint-anslutningskonfiguration** och välja **Gå till ny OneDrive-konfiguration** i meddelandet längst upp på sidan. Följ konfigurationsguiden på det sätt som beskrivs i föregående avsnitt.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />Återställa OneDrive och [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="restoring-onedrive-and-" />Återställa OneDrive och [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Som en del av en katastrofåterställning kan administratörer behöva återställa en [!INCLUDE[prod_short](includes/prod_short.md)] online-miljö till en säkerhetskopia från en tidpunkt som redan har passerat och synkronisera OneDrive-lagringen till samma tidpunkt. OneDrive tillhandahåller olika återställningsverktyg, t.ex. att återställa en användares OneDrive till en tidigare tidpunkt, återställa en tidigare version av en enskild fil eller återställa borttagna filer. Mer information finns i följande artiklar:
 

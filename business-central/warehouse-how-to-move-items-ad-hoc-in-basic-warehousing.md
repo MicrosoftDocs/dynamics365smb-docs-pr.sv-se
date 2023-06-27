@@ -89,7 +89,7 @@ Istället för att använda transportdokument kan du registrera transport genom 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se även
 

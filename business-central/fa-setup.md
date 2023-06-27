@@ -36,7 +36,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Så här använder du användardefinierade avskrivningsmetoder. |[Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Se även
 

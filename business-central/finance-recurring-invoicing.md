@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Arbeta med återkommande intäkter i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Arbeta med återkommande intäkter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Många företag flyttar från en affärsintäktsmodell där intäkter görs från en kunds engångsinköp till en abonnemangsmodell, där intäkter görs på återkommande basis i utbyte mot löpande tillgång till leverans av en vara eller tjänst.
 [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder följande alternativ för att automatisera det sätt på vilket du skickar prenumerationsfakturor till dina kunder och registrerar återkommande intäkter. 
@@ -35,7 +35,7 @@ Den återkommande projektjournalen är ett mer avancerat alternativ till redovis
 
 När du har bokfört en återkommande projektjournal kan du skapa flera fakturor med uppgiften **Skapa försäljningsfaktura för projekt**. Du kan granska och bokföra skapade fakturor på sidan **Försäljningsfakturor**.
 
-### <a name="why-use-this-option" />Varför använda detta alternativ?
+### <a name="why-use-this-option-1" />Varför använda detta alternativ?
 
 Med det här alternativet följer du standardproceduren för fakturering med alla fördelar denna medför, inklusive standard- och kundlayouter för kommunikationsinställningar. Du kan också definiera priser individuellt för respektive projekt.
 
@@ -47,7 +47,7 @@ Mer information finns i [Skapa projektjournalrader](projects-how-record-job-usag
 
 Om du ofta behöver skapa försäljnings- och inköpsrader med liknande information, kan du skapa återkommande försäljningsrader som du sedan kan infoga i återkommande försäljnings- och inköpsdokument, till exempel för återkommande påfyllningsorder. Använd batch-jobbet **Skapa återkommande försäljningsfakturor** för att skapa försäljningsfakturor enligt återkommande försäljningsrader som tilldelats till kunderna samt med bokföringsdatum som infaller inom de giltighetsdatum som du anger på de åtekrommande försäljningsraderna.  
 
-### <a name="why-use-this-option" />Varför använda detta alternativ?
+### <a name="why-use-this-option-2" />Varför använda detta alternativ?
 
 Med det här alternativet kan du tilldela samma återkommande rader till flera kunder. Du kan ange giltighetsperioden för de återkommandeförsäljningsraderna för en specifik kund. Du kan tilldela flera återkommande rader till samma kund, och alla tas med i fakturan.
 
@@ -62,7 +62,7 @@ Ett servicekontrakt innehåller serviceavtalen mellan kunderna och företaget. E
 Du kan ange kontraktets startdatum, fakturaperiod, huruvida kontraktet är förbetalt eller inte samt prisuppdateringsinformationom du tänker ändra priserna medan kontrakt är aktivt. Du kan använda både serviceartiklar eller artiklar på servicekontraktsraderna.
 Du kan skapa kontraktsmallar för att definiera hur vissa typer av kontrakt ska skapas.  
 
-### <a name="why-use-this-option" />Varför använda detta alternativ?
+### <a name="why-use-this-option-3" />Varför använda detta alternativ?
 
 Med det här alternativet använder du en del av den avancerade servicehanteringsfunktionen som inte är begränsad till att utfärda återkommande fakturor, men som även stöder verkstads- och fältserviceåtgärder.
 
@@ -78,7 +78,7 @@ Det finns flera relaterade funktioner i [!INCLUDE[prod_short](includes/prod_shor
 En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund.
 En avropsorder skapas vanligtvis om en kund har lovat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Avropsorder gäller vanligtvis bara en artikel med förbestämda leveransdatum. Huvudanledningen till att en avropsorder används i stället för en försäljningsorder är att det antal som anges på en avropsorder inte påverkar artikeldispositionen – det kan emellertid användas i planeringssyfte.
 
-#### <a name="why-use-this-option" />Varför använda detta alternativ?
+#### <a name="why-use-this-option-4" />Varför använda detta alternativ?
 
 Med det här alternativet använder du den förutsedda efterfrågan, varför informationen beaktas under de normala planeringsrutinerna. Mer information finns i [Begär prognoser och avropsorder](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ Mer information finns i [Arbeta med försäljningsavropsorder](sales-how-to-crea
 Du kan använda återkommande order för att skapa mallar för avropsorder så att försäljningsorder kan skapas baserat på datumintervall som du definierar. Om du till exempel levererar samma försäljningsorder varannan vecka kan du använda en försäljningsavropsorder och skapa återkommande order.
 Du kan använda återkommande grupper om du vill definiera ett intervall med parametrar som visar hur du skapar orderna. Dessa grupper tilldelas till avropsorder som måste skapas regelbundet. Om du vill skapa de återkommande orderna måste du regelbundet köra åtgärden Skapa återkommande order. 
 
-#### <a name="why-use-this-option" />Varför använda detta alternativ?
+#### <a name="why-use-this-option-5" />Varför använda detta alternativ?
 
 Med det här alternativet kan du välja mellan fasta och bästa priser.
 

@@ -36,7 +36,7 @@ Inventering, justering och gruppering av artiklar kan omfatta lagerställeuppgif
 |Använd dist.lagertransportkalkylarket, intern artikelinförsel och plockning för att flytta artiklar i avancerad distributionslagerkonfiguration med direktplockning och artikelinförsel.|[Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper och flytta dem eventuellt runt.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se även
 

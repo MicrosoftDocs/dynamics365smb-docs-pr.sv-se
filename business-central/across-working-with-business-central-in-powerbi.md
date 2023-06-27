@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with-include-prodshortincludesprodshortmd-data-in-power-bi" />Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
+# <a name="work-with--data-in-power-bi" />Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
 I denna artikel lär du dig det grundläggande inom att arbeta med rapporter och instrumentpaneler i Power BI som använder [!INCLUDE [prod_short](includes/prod_short.md)] som datakälla. Artikeln beskriver vissa aspekter som hjälper dig komma igång som [!INCLUDE[prod_short](includes/prod_short.md)]-användare. För allmänna instruktioner och riktlinjer för hur du använder Power BI, se [Power BI-dokumentation för konsumenter](/power-bi/consumer).
 
@@ -44,7 +44,7 @@ I navigeringsfönstret, under Datauppsättningar, väljer du Fler alternativ (..
 
 Mer information finns i [Konfigurera schemalagd uppdatering](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="a-nameuploadaupload-reports-from-files" /><a name="upload"></a>Ladda upp rapporter från filer
+## <a name="upload-reports-from-files" /><a name="upload"></a>Ladda upp rapporter från filer
 
 Power BI-rapporter kan distribueras bland användarna som .pbix-filer. Om du har en .pbix-fil kan du ladda upp filen till en arbetsyta. Om du vill ladda upp en rapport gör du följande:
 
@@ -62,7 +62,7 @@ Mer information finns i [Ladda upp rapporten till tjänsten](/power-bi/paginated
 > [!TIP]
 > Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] online kan du också ladda upp en rapport inifrån [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)] – Ladda upp rapporter](across-working-with-powerbi.md#upload).
 
-## <a name="a-nameshareashare-reports-with-others" /><a name="share"></a>Dela rapporter med andra
+## <a name="share-reports-with-others" /><a name="share"></a>Dela rapporter med andra
 
 När en rapport väl finns på din arbetsyta kan du dela den med andra i din organisation.
 
@@ -71,7 +71,7 @@ Om du vill dela en rapport väljer du **Dela** i en listrapport eller en öppen 
 > [!NOTE]
 > Du och de personer du delar med måste ha en [Power BI Pro-licens](/power-bi/service-features-license-type). Innehållet måste ligga på en arbetsyta med [Premium-kapacitet](/power-bi/service-premium-what-is). Mer information finns i [Så här delar du ditt arbete i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

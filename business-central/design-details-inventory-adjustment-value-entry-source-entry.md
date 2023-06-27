@@ -158,7 +158,7 @@ Användargrupper är inte behöriga att bokföra i december utan i januari, vilk
 
 ## <a name="item-charge-scenario" />Artikelomkostnadsscenario
 
-### <a name="prerequisites" />Förutsättningar
+### <a name="prerequisites-1" />Förutsättningar
 
 Ange följande värden:
 
@@ -184,7 +184,7 @@ Ange följande värden:
 
 - Tillåt bokföring t.o.m. = tom  
 
-### <a name="to-test-the-scenario" />För att testa scenariot
+### <a name="to-test-the-scenario-1" />För att testa scenariot
 
 Testa det här scenariot genom att utföra följande steg:
 

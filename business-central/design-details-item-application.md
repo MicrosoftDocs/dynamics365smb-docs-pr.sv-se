@@ -69,7 +69,7 @@ När en lagerminskning bokförs skapas en artikelkopplingstransaktion som koppla
 
 I tabellen  **Artikeltransaktion** visas antalet som ännu inte har kopplats i fältet **Återstående antal**. Om det återstående antalet överstiger 0 så markeras kryssrutan **Öppen**.  
 
-### <a name="example" />Exempel
+### <a name="example-1" />Exempel
 Följande exempel visar artikelkopplingstransaktionen som skapas när en utleverans bokförs som innehåller fem enheter av artiklarna från inleveransen i föregående exempel. Den första artikelkopplingstransaktionen är inköpsinleveransen. Den andra kopplingstransaktionen tillhör utleveransen.  
 
 Följande tabell visar de två artikelkopplingstransaktionerna som är resultatet av lagerökningen och lagerminskningen.  

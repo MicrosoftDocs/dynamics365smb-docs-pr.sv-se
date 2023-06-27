@@ -51,7 +51,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Lära dig att arbeta med monteringsstrukturer och hur de skiljer sig från produktionsstrukturer.|[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)|
 |Lära dig mer om bokföring av monteringsförbrukning och utflöde och hur [!INCLUDE [prod_short](includes/prod_short.md)] fördelar artikel- och resurskostnader i redovisningen.|[Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 
@@ -63,6 +63,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

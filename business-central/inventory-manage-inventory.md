@@ -55,7 +55,7 @@ I följande tabell beskrivs relaterade uppgifter.
 |Hantera affärsverksamheten på försäljningskontor, inköpsavdelningar eller planeringskontor på flera platser.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
 |Använd resurser med särskilda funktioner för olika tjänster och serviceartiklar.|[Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsget-started-inventory-management" />Se relaterad [Microsoft utbildning](/training/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/get-started-inventory-management/)
 
 ## <a name="see-also" />Se även
 
@@ -65,6 +65,6 @@ I följande tabell beskrivs relaterade uppgifter.
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

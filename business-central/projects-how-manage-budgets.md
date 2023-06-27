@@ -17,7 +17,7 @@ Du kan lägga upp en budget för varje projekt. Budgeten används för att plane
 
 Efterföljande procedur beskriver hur du beräknar budgeterade kostnader under planering. Mer information om registrering av budgeterade jämfört med faktiska projektpriser och -kostnader finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).  
 
-## <a name="a-namejobbudgetcostsa-to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Att ange budgeterade kostnader för ett projekt
+## <a name="to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Att ange budgeterade kostnader för ett projekt
 När en kund vill veta priset på ett projekt som kommer att faktureras baserat på förbrukning, måste du fastställa de budgeterade kostnaderna för projektet. Du använder sidan **Projektaktivitetsrader** om du vill göra detta.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
@@ -43,7 +43,7 @@ På sidan **Projektkort** kan du nu se en översikt över de totala budgeterade 
 
 Mer information om registrering av budgeterade jämfört med faktiska projektpriser och -kostnader finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-job-planning-lines" />Se relaterad [Microsoft utbildning](/training/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also" />Se även
 

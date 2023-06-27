@@ -70,7 +70,7 @@ I följande avsnitt sammanfattas specifikationerna för de MICR CMC-7 teckensnit
 
 ![MICR CMC-7 specifikationer.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 specifikationer")
 
-### <a name="delimiter-characters" />Avgränsningstecken
+### <a name="delimiter-characters-1" />Avgränsningstecken
 
 ![Avgränsningstecken för CMC-7.](media/font-cmc7-letters.png "Avgränsningstecken för CMC-7")
 

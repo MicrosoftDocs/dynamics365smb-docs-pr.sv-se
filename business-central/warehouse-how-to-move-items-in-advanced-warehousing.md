@@ -138,7 +138,7 @@ Om du måste registrera det faktum att artiklar redan har flyttats till andra la
 2. Fyll i fälten **Artikelnr**, **Från zonkod**, **Från lagerställeskod**, **Till zonkod** och **Till lagerställeskod**.  
 3. Välj **Registrera**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se även
 

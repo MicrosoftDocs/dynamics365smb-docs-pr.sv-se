@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Revisorupplevelse i Financials [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Revisorupplevelse i Financials [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Alla företag måste göra sin redovisning och godkänna redovisningen. Vissa företag använder en extern revisor och andra har en revisor bland personalen. Oavsett vilken typ av revisor som du är kan du använda rollcentret **revisor** som din startsida i [!INCLUDE[prod_short](includes/prod_short.md)]. Härifrån kan du komma åt alla sidor som behövs i arbetet.  
 
@@ -25,7 +25,7 @@ Om du precis har börjat använda [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Om du arbetar i flera [!INCLUDE [prod_short](includes/prod_short.md)]-företag kan det vara praktiskt att använda sidan **Företagsnav** för att hålla ordning på arbetet.  Mer information finns i [Hantera arbete över flera företag i företagsnavet](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Bjud in din externa revisorn till [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Bjud in din externa revisorn till [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Om du använder en extern revisor för att hantera böcker och redovisning kan din administratör bjuda in dem till ditt [!INCLUDE[prod_short](includes/prod_short.md)] så att de kan arbeta tillsammans med dig på räkenskapsårets data. [!INCLUDE[prod_short](includes/prod_short.md)] omfattar tre licenser av typen extern revisor. Mer information om licenser finns i [Licensieringsguiden för Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Om din administratör eller återförsäljarpartner inte vill använda guiden **
 
 Därefter måste du tilldela den nya gästanvändaren en licens till [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />För att ge din revisor åtkomst till ditt [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />För att ge din revisor åtkomst till ditt [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. I den Azure-portalen, på den nyligen tillagda användaren, väljer du **Profil** och sedan **Redigera**
 2. Uppdatera fältet **Användningsplats** till det aktuella landet och välj sedan **Spara**.
@@ -78,7 +78,7 @@ Därefter måste du tilldela den nya gästanvändaren en licens till [!INCLUDE[p
 
 Om det lyckas tilldelas licensen till gästanvändaren och gästkontot skapas.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Importera den nya användaren till [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Importera den nya användaren till [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Revisorn får ett e-postmeddelande som meddelar dem att de har fått åtkomst till ditt Active Directory. Därefter måste du ge dem åtkomst till rätt företag i [!INCLUDE[prod_short](includes/prod_short.md)].
 

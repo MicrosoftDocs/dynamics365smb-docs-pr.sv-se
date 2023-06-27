@@ -111,7 +111,7 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 
 Du kan nu ta artiklarna till leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, på sidan **Distributionslagerutleverans**. Läs mer på [utleverera artiklar](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Se relaterad [Microsoft utbildning](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also" />Se även
 

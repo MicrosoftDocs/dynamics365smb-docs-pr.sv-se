@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/15/2022
 ---
-# <a name="database-wait-statistics-in-includeprodlongincludesprodlongmd" />Väntestatistik för databas i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-wait-statistics-in-" />Väntestatistik för databas i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Administratörer och utvecklare kan inblicka data prestanda genom att titta på **databasens väntestatistik** i [!INCLUDE[prod_short](includes/prod_short.md)]. Den information som finns i **databasens väntestatistik** kan hjälpa dig att kontrollera vilken typ av resurser som används och vilken typ av fördröjning som databas processerna möter. Genom att analysera denna väntestatistik kan du hitta grundorsaken till din databas långsamma prestanda och kan så småningom fatta bättre beslut för programmets prestanda.
 

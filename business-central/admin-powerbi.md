@@ -10,13 +10,13 @@ ms.date: 04/26/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# <a name="introduction-to-includeprodshortincludesprodshortmd-and-power-bi" />Introduktion till [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI
+# <a name="introduction-to--and-power-bi" />Introduktion till [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI
 
 Det är enkelt att få insikter i dina [!INCLUDE[prod_short](includes/prod_short.md)]-data är enkelt med [Power BI](https://powerbi.microsoft.com) – ett system för datavisualisering från Microsoft. Power BI hämtar [!INCLUDE[prod_short](includes/prod_short.md)]-data som gör det möjligt för dig att skapa instrumentpaneler och rapporter baserade på denna data. Power BIutgör ett flexibelt alternativ till rapporter som skapas med [!INCLUDE[prod_short](includes/prod_short.md)] genom att göra det möjligt för dig att öka detaljnivån i och anpassa visualiseringen, samt till och med att sammanslå data från olika företag i [!INCLUDE[prod_short](includes/prod_short.md)]. Vissa Power BI-rapporter kan också bäddas in i Business Central och visas utan att du behöver lämna systemet. Upplevelsen av mer komplexa instrumentpaneler blir bättre från Power BI-webbplatsen.
 
 ![Power BI och Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-includeprodshortincludesprodshortmd" />Vad kan du göra med Power BI och [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="what-you-can-do-with-power-bi-and-" />Vad kan du göra med Power BI och [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Det finns olika funktioner för att arbeta med [!INCLUDE[prod_short](includes/prod_short.md)] och Power BI. Vissa saker kan du göra från Power BI, medan andra saker görs via [!INCLUDE[prod_short](includes/prod_short.md)]. Vissa funktioner är dessutom endast tillgängliga med [!INCLUDE[prod_short](includes/prod_short.md)] online, inte lokalt. Följande tabell ger dig en översikt.
 
@@ -71,7 +71,7 @@ Mer information om Power BI Mått finns i [Komma igång med mått i Power BI](/p
 - Om Power BI redan är inställt och du vill testa funktionerna går du till [Arbeta med Power BIRapporter i Business Central](across-working-with-powerbi.md).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

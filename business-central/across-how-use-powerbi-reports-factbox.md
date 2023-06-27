@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-includeprodshortincludesprodshortmd" />Skapa Power BI-rapporter för att visa listdata i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-" />Skapa Power BI-rapporter för att visa listdata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] omfattar en Power BI-Faktabox kontrollelement på många viktiga sidor. Syftet med denna faktabox är att visa Power BI-rapporter som är relaterade till poster i listorna, vilket ger extra inblick i data. Idén är att när du förflyttar dig mellan raderna i listan uppdateras rapporten för vald post.
 
@@ -116,7 +116,7 @@ Bekräfta att den sida du vill visa är den första sidan i rapporten.
 
 Kontrollera att rapportens storlek är 325 pixlar x 310 pixlar. Spara rapporten och uppdatera sedan listsidan.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

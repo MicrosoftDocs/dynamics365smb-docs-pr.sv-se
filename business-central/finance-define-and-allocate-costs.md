@@ -137,7 +137,7 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

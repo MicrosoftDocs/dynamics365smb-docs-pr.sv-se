@@ -49,7 +49,7 @@ Du anger dessa inställningar genom att tilldela ansvarsenheter till användare 
 > [!NOTE]  
 > Användarna kan bara visa de bokförda dokument som har samband med användarens egen ansvarsenhet. De kan emellertid visa alla reskontratransaktioner och navigera till andra bokförda dokument från reskontratransaktionerna.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Se relaterad [Microsoft utbildning](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />Se även
 

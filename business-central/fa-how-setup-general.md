@@ -123,7 +123,7 @@ Om det är första gången som du använder anläggningstillgångarna i [!INCLUD
 
 Om anläggningstillgångarna inte har integrerats med redovisningen hoppar du över steg 6 och 8.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Se även
 

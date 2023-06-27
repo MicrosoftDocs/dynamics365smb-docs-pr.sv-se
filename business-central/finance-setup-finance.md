@@ -51,7 +51,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 > [!TIP]
 > Beroende på ditt geografiska läge kan vissa Business Central-sidor innehålla fält som inte beskrivs i artiklarna som anges ovan, eftersom de gäller lokala funktioner eller anpassningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 
@@ -62,6 +62,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

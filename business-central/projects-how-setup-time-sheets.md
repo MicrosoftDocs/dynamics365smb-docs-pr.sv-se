@@ -88,7 +88,7 @@ I följande avsnitt beskrivs hur du ställer in tidrapporter om du inte använde
 > [!NOTE]  
 > Du kan inte ändra ID på tidrapportsgodkännaren om det finns tidrapporter som inte ännu har behandlats och har statusen **Skickad** eller **Öppen**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Se även
 

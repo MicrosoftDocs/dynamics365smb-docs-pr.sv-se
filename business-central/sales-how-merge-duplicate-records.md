@@ -56,7 +56,7 @@ Följande procedur baseras på ett kundkort. Momenten är liknande för en lever
 > [!NOTE]
 > För kontakter kan du använda funktionen för att söka efter dubbletter av kontakter innan du använder sidan **slå samman dubbletter**. Mer information finns i [söka efter dubblettkontakter](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

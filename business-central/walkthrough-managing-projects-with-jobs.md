@@ -112,7 +112,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra dera
 
 4.  Välj **OK** för att spara ändringar.
 
-## <a name="setting-up-a-job" />Lägga upp ett projekt
+## <a name="setting-up-a-job-1" />Lägga upp ett projekt
 
  I det här scenariet har CRONUS tecknat ett avtal med en kund, Progressive Home Furnishings, för att inreda ett konferensrum och en matsal. Kunden finns i USA och programmet kommer att kräva särskild programvara. projektledaren går igenom upplägget med kunden och skapar ett projekt utifrån det.  
 
@@ -258,7 +258,7 @@ Raderna är nu bokförda.
 2.  Välj åtgärden **Statistik**. Du kan granska detaljerad information om projektets priser, kostnader och vinster i både lokala och utländska valutor.  
 3.  Välj **Stäng** för att stänga sidan **Projektstatistik**.  
 
-## <a name="handling-fixed-prices" />Hantera fasta priser
+## <a name="handling-fixed-prices-1" />Hantera fasta priser
 
  CRONUS har fått uppdraget att inreda tio konferensrum. Som projektchef vill Prakash ha en god översikt över de aktiviteter som ska utföras i projektet samt tillhörande budget och kostnader för respektive aktivitet. Prakash vill dessutom veta det totala pris som överenskommits för projektet och det belopp som har fakturerats hittills. De har nått en överenskommelse med kunden om att projektet ska ha ett fast pris.  
 
@@ -454,7 +454,7 @@ Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och stäl
 
  Den här genomgången har handlat om några av de grundläggande stegen när man arbetar med projekt i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lärt dig hur du skapar ett nytt projekt, hur du kopierar ett projekt och hur du hanterar betalningar. Du har också sett en demonstration av hur du kan följa upp timmar och skapa fakturor.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Se relaterad [Microsoft utbildning](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/create-jobs/)
 
 ## <a name="see-also" />Se även
 

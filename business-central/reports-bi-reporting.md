@@ -26,7 +26,7 @@ I följande tabell beskrivs viktiga funktioner för Business Intelligence och ra
 | Integrera externa Business Intelligence-verktyg med [!INCLUDE[prod_short](includes/prod_short.md)].| [Externa Business Intelligence-verktyg](reports-external-analysis.md) |
 |Ändra rapportlayouter eller skapa egna rapporter från grunden. |[Utveckla rapporter](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

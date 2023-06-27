@@ -294,7 +294,7 @@ När du registrerar en transaktion i B1 i redovisningsjournalen för anläggning
 > [!NOTE]  
 > Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal. När du bokför transaktioner i redovisningsjournalen för anläggningstillgångar måste du lämna fältet **Dokumentnr** tomt. Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen. Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Se relaterad [Microsoft utbildning](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Se även
 

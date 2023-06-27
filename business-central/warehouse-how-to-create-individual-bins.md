@@ -70,7 +70,7 @@ Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du stäl
 
 Upprepa processen för ytterligare en uppsättning lagerställen tills du har skapat alla de lagerställen som du ska ha i distributionslagret.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-bins" />Se relaterad [Microsoft utbildning](/training/modules/create-new-bins/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-new-bins/)
 
 ## <a name="see-also" />Se även
 

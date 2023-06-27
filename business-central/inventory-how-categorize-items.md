@@ -44,7 +44,7 @@ Om du ändrar dig om en artikelkategori kan du ta bort den. Om en artikel redan 
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

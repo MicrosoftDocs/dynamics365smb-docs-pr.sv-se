@@ -64,7 +64,7 @@ Innan du kan börja använda arbetsflöden måste du konfigurera arbetsflödesan
 | Visa avslutade instans för arbetsflödessteg med statusen **Avslutat**. | [Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md) |
 | Ta bort ett arbetsflöde för godkännande som du vet inte ska användas längre. | [Ta bort arbetsflöden för godkännande](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se även
 

@@ -35,7 +35,7 @@ För slutanvändaren skiljer sig installations upplevelsen från de två distrib
 
 Med båda dessa distributionsalternativ är tillägget automatiskt konfigurerat för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]. Ett tredje distributionsalternativ är en manuell installation av tillägget direkt från Excel. Med det här alternativet måste användarna konfigurera tillägget för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Växling från enskilda förvärv till centraliserad distribution eller på annat sätt
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Växling från enskilda förvärv till centraliserad distribution eller på annat sätt
 
 När du ändrar från ett enskilt förvärv av tillägget till centraliserad distribution eller tvärtom måste Excel-filer som användare skapat före övergången påverkas. Efter över gången kan användare fortfarande öppna eventuella Excel-kalkylblad som tidigare skapats med åtgärden **redigera i Excel** eller skapats manuellt genom att konfigurera Excel-tillägget. Men de kan inte uppdatera data i filen från Business Central eller push-uppdateringar till Business Central
 
@@ -87,7 +87,7 @@ När du är klar kan du alltid ändra distributionen i administrationscentret f�
 > [!NOTE]
 > Det kan ta upp till 24 timmar innan användaren distribuerar tillägget automatiskt i Excel för användare.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individuellt anskaffning: installera tillägget manuellt för egen användning
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individuellt anskaffning: installera tillägget manuellt för egen användning
 
 I de flesta fall installeras tillägget automatiskt när du öppnar Excel från Business Central, eller så uppmanas du att installera det. Det kan emellertid finnas fall där du måste installera tillägget manuellt.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

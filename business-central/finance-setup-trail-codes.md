@@ -79,7 +79,7 @@ Den valda uppföljningskoden kopieras till nya journaler som skapas med den här
 
 När fakturan bokförs kopieras uppföljningskoden till alla redovisnings-, kund- och leverantörstransaktioner. Du kan inte tilldela olika uppföljningskoder till de enskilda inköps- och försäljningsraderna eftersom alla rader bokförs som en transaktion.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 
@@ -90,7 +90,7 @@ När fakturan bokförs kopieras uppföljningskoden till alla redovisnings-, kund
 [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

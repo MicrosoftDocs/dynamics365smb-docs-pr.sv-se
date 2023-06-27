@@ -151,7 +151,7 @@ På sidan **Produktionsinställningar** har fältet **Komp. vid lagerställe** v
 
  ![Andra exempel på orderspårningstransaktioner i registret Reservationstransaktion.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Löpnummer 8 och 9
+### <a name="entry-numbers-8-and-9-1" />Löpnummer 8 och 9
  Orderspårningstransaktioner för de två partierna av komponenten visar att efterfrågan i tabell 5407 ändras från reservationsstatusen **Spårning** till **Överskott**. Anledningen är att tillgång som de var kopplade till tidigare, i tabell 32, har använts av utleveransen på överföringsordern.  
 
  Äkta överskott, som i det här fallet, återspeglar överskjutande tillgång eller efterfrågan som inte har spårats. Det är en indikation på obalansen i ordernätverket som skapar ett åtgärdsmeddelande från planeringssystemet såvida det inte löses dynamiskt.  

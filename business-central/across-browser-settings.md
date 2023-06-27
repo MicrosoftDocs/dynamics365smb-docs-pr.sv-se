@@ -50,7 +50,7 @@ Om webbläsaren inte tillåter cookies visas följande felmeddelande:
 1. I Microsoft Edge går du till **Inställningar** > **Cookies och webbplatsbehörigheter** > **Cookies och webbplatsdata**.
 2. Flytta reglaget för **Tillåt webbplatser att spara och läsa cookiedata** åt höger (På).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Tillåt popup-fönster från Business Central
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Tillåt popup-fönster från Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreras med flera produkter. I vissa fall, t. ex. när Microsoft Teams, [!INCLUDE[prod_short](includes/prod_short.md)] eller "popup-fönster" öppnas i produkten. Denna funktion kräver att webbläsaren tillåter popup-fönster från [!INCLUDE[prod_short](includes/prod_short.md)].
 

@@ -21,7 +21,7 @@ Du hittar rapporter i menyn **Rapporter** på valda sidor, listor och kort, elle
 
 När du väljer en rapport visas vanligtvis en sidan för förfrågan&mdash;med rapportens namn&mdash;där du kan ange olika alternativ och filter som avgör vilka data som inkluderas. I följande avsnitt förklaras hur du använder sidan för begäran för att bygga, förhandsgranska och skriva ut en rapport.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Använda standardvärden&mdash;fördefinierade inställningar
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Använda standardvärden&mdash;fördefinierade inställningar
 
 De flesta sidor för rapportbegäran innehåller fältet **Använd standardvärden från**. Med det här fältet kan du välja fördefinierade inställningar för rapporten, som automatiskt anger alternativ och filter. Välj en post i listrutan så ändras alternativen och filtren på sidan för rapportbegäran därefter.
 
@@ -80,7 +80,7 @@ Om organisationen har konfigurerat OneDrive för systemfunktioner i stället fö
 >
 > Du kan också använda **Microsoft Excel-dokumentet (endast data)** om du vill skapa nya Excel-layouter för en viss rapport. Läs mer i [Arbeta med Excel-layouter](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Schemalägga en rapport att köra senare eller periodvis
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Schemalägga en rapport att köra senare eller periodvis
 
 Du kan schemalägga en enskild eller återkommande rapport att köras vid ett visst datum och tider. Planerade rapporter anges i jobbkön och behandlas vid den planerade tid, på liknande sätt som andra jobb. Välj alternativet **Schema** när du har valt **Skicka till**. Ange sedan information som skrivare samt datum och tid. Rapporten läggs till jobbkön och körs vid den angivna tidpunkten. När rapporten behandlas tas artikeln bort från jobbkön. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ När du har redigerat rapportalternativen upprepar du de första två stegen och
 
 Läs mer om hantering av jobbkö i [Använd jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Skriva ut en rapport
+## <a name="printing-a-report" /><a name="PrintReport"></a>Skriva ut en rapport
 
 Du skriver ut en rapport genom att välja **Skriv ut** på sidan för rapportbegäran eller på menyraden på sidan **Förhandsgranska**.
 
 När en Excel-layout används i en rapport ser du inte fältet **Skrivare** eller knapparna **Skriv ut** eller **Förhandsgranska**. I stället finns alternativet **Hämta**. Om du vill skriva ut väljer du **hämta** och öppnar sedan den hämtade filen i Excel och skriver ut därifrån.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Skrivare
+### <a name="printer" /><a name="Printer"></a>Skrivare
 
 Fältet **Skrivare** på begäranssidan visar namnet på skrivaren som rapporten skickas till. Om du vill ändra en skrivare markerar du bara skrivaren i listan.
 
@@ -153,7 +153,7 @@ Fälten under snabbfliken **Avancerat** anger begränsningar för den genererade
 > [!NOTE]
 > De högsta värdena kan vara olika för lokala [!INCLUDE[prod_short](includes/prod_short.md)] och en administratör kan ändra dem. Läs mer i avsnittet [Konfigurera Business Central Server – Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). En översikt över rapporteringsbegränsningar i [!INCLUDE[prod_short](includes/prod_short.md)] online finns i [Operativa gränser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se även
 

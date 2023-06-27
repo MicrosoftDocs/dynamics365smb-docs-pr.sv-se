@@ -172,7 +172,7 @@ Följande illustrationer ger en översikt över resultatet av proceduren.
 
 Sedan måste du och testa arbetsflödet genom att öppna en befintlig leverantör och ändra namnet. Kontrollera att en begäran om godkännande har gjorts när du ändrar leverantörens namn.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se även
 

@@ -49,7 +49,7 @@ När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du
 
 I det här kalkylarket kan du arbeta med flera lagerställesinnehållsrader för flera lagerställen och på så sätt få en bra översikt över vad du placerar på olika lagerställen i en viss zon, gång eller ställning.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Se relaterad [Microsoft utbildning](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also" />Se även
 

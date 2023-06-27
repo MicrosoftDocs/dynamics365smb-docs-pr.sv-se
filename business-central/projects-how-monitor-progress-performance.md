@@ -139,7 +139,7 @@ Alla projektrelaterade transaktioner registreras i bokförda projektjournaler oc
 
 På sidan **Projekttransaktioner** kan du granska de transaktioner som är kopplade till alla projekt.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Se även
 

@@ -74,7 +74,7 @@ Du kan skicka ut ytterligare förskottsfakturor för ordern. Om du vill utfärda
 
 Du kan påskynda bearbetningen av order och fakturor genom att lägga upp jobbkötransaktioner som automatiskt uppdaterar status för dessa dokument. När en förskotts faktura betalas kan jobbkötransaktionen automatiskt ändra dokument statusen från **Väntar på förskottsbetalning** till **släppt**. När du registrerar jobbkötransaktioner måste du använda de kodmoduler som är **383 Uppdatera väntande förskottsbetalning, försäljning** och **383 Uppdaterar väntande förskottsbetalning, inköp**. Vi rekommenderar att du schemalägger transaktionerna så att de körs ofta, till exempel varje minut. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

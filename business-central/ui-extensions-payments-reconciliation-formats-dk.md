@@ -47,7 +47,7 @@ Det finns några steg för att komma igång.
 
 Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokföringsmall** och en **Leverantörsbokföringsmall**. Inställningen av Land/Region måste för leverantören vara Danmark (DK). Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />För att tillåta betalningsdataexport från [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-allow--to-export-payment-data" />För att tillåta betalningsdataexport från [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournal** och väljer sedan relaterad länk.  
 2. På sidan **Redigera betalningsjournal**, välj journalen **Bank**.  

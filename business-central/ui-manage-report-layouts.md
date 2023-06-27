@@ -120,7 +120,7 @@ For information about how to switch the layout currently used on a report, see [
 
 
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 

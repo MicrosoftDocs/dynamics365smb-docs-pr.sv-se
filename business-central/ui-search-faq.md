@@ -30,7 +30,7 @@ Om användaren inte har AccessByPermissions visas inte åtgärder. Sidor och rap
 
 Sidsökning har utvecklats till Berätta för att hjälpa dig att få jobbet gjort fortare. Sidsökning kan bara hjälpa dig att navigera till sidor och rapporter. På teknisk nivå baseras Berätta inte längre på äldre MenuSuite-begrepp.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Du kan använda lokal [!INCLUDE[prod_short](includes/prod_short.md)]. Omfattar detta Berätta?
+### <a name="i-use-on-premises--does-that-include-tell-me" />Du kan använda lokal [!INCLUDE[prod_short](includes/prod_short.md)]. Omfattar detta Berätta?
 
 Du kan använda Berätta i den lokala webbklienten för att hitta åtgärder, sidor och rapporter, men inte appar och konsulttjänster i AppSource.
 

@@ -49,7 +49,7 @@ Ett nytt fält, **Spärra radering av redovisningskonton**, har lagts till på s
 
 Att ställa in fältet **Blockera borttagning av redovisningskonton** på *Ja* kan anses vara bästa praxis, och så även att ställa in datumet i fältet **Kontrollera borttagning av redovisningskonto efter** på till exempel det datum efter vilket du måste lagra dina finansdata.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 
@@ -65,6 +65,6 @@ Att ställa in fältet **Blockera borttagning av redovisningskonton** på *Ja* k
 [Ställ in och stäng resultaträkningssaldon i spanska versionen](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Indrag och validera kontoplanen i den spanska versionen](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

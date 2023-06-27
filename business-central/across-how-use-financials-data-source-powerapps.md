@@ -19,7 +19,7 @@ Du kan göra din [!INCLUDE[prod_short](includes/prod_short.md)]-data tillgängli
 
 Du måste ha ett giltigt konto med [!INCLUDE[prod_short](includes/prod_short.md)] och med Power Apps.  
 
-## <a name="add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-apps" />Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som n datakälla i Power Apps
+## <a name="add--as-a-data-source-in-power-apps" />Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som n datakälla i Power Apps
 
 Dessa steg lägger till en Business Central-tabell, till exempel kunder eller artiklar, som data källa för en Power Apps-app.
 
@@ -58,7 +58,7 @@ As a preview version, Business Central offers several sample apps that you can u
 
 As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that let you push and pull Power Platfrom changes to and from enviroments. You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE](https://github.com/BusinessCentralDemos/AL-Go-PTE). For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm).-->
 
-## <a name="see-related-microsoft-trainingtrainingpathspower-apps-power-automate-business-central" />Se relaterad [Microsoft utbildning](/training/paths/power-apps-power-automate-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/power-apps-power-automate-business-central/)
 
 ## <a name="see-also" />Se även
 

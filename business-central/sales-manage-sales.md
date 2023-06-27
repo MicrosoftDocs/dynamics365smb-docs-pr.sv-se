@@ -53,7 +53,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Informera dina kunder om orderleveransdatum genom att beräkna antingen kapabel att lova-datum eller dispositionsdatum.|[Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)|
 |Lösa problem när det finns två eller flera poster för samma kund.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/sell-items-services-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)  
@@ -63,6 +63,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -54,7 +54,7 @@ Interna och delegerade administratörer har tillgång till administrationscentre
 |Hantera användarsessioner, inklusive att avbryta en session om användaren är blockerad.|[Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurera klientorganisationen så att den skickar telemetriska data till Azure Application Insights för bättre analys och fel sökning.|[Aktivera Skicka telemetri till Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 
@@ -63,7 +63,7 @@ Interna och delegerade administratörer har tillgång till administrationscentre
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

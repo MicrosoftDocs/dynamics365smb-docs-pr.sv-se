@@ -242,7 +242,7 @@ Du kan ange vilka rapporter som ska skrivas ut i olika etapper genom att välja 
 > [!NOTE]
 > Vilka rapporter som finns kan variera beroende på landets lokalisering. Basprogrammet innehåller inga layouter.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Se relaterad [Microsoft utbildning](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Se även
 

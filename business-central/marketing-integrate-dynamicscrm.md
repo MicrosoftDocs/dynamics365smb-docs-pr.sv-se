@@ -138,7 +138,7 @@ Om du vill synkronisera prislistor går du till sidan **Försäljningsprislista*
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)    
 [Översikt över försäljnings- och försäljningsnav](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

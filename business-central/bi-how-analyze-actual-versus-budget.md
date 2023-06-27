@@ -60,7 +60,7 @@ I stället för att visa de faktiska och budgeterade beloppen för alla konton u
 3. På snabbfliken **Alternativ** fyller du i fälten för att definiera vad som ska visas i tabellen.  
 4. På snabbfliken **Rader** hovrar du över ett fält i tabellen om du vill läsa en kort beskrivning av det visade beloppet.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Se relaterad utbildning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se även
 

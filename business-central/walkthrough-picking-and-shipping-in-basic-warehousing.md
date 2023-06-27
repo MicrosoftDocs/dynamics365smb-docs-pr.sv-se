@@ -135,7 +135,7 @@ På sidan **Lagerplockning** kan du hantera alla utgående distributionslagerakt
 
     De 30 Amsterdam-lamporna har nu registrerats som plockade från lagerställen S-01-0001 och S-01-0002, och en negativ artikeltransaktion skapas som återspeglar den bokförda leveransen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se även
 

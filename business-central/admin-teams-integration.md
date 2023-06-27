@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-" />Hantera Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ I det här avsnittet beskrivs minimikraven för att [!INCLUDE [prod_short](inclu
 
     Principinställningen **Tillåt förhandsgranskning av URL** måste vara på. I annat fall kan ett kort inte genereras för [!INCLUDE [prod_short](includes/prod_short.md)]-länkar som klistrats in i en Teams-konversation. Mer information om den här inställningen finns i [Hantera meddelandeprinciper i Team](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />Hantera [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valfritt)
+### <a name="managing-the--app-optional" />Hantera [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valfritt)
 
 Som Team-administratör kan du hantera alla appar för organisationen, inklusive [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Du kan godkänna eller installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för organisationen, hindra användare från att installera appen med mera.
 
@@ -51,9 +51,9 @@ Mer information finns i följande artiklar i Microsoft Teams-dokumentationen:
 - [Hantera dina appar i Microsoft Teams administratörscenter](/MicrosoftTeams/manage-apps)
 - [Hantera principer för appkonfiguration i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />I [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-" />I [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements" />Minsta krav
+### <a name="minimum-requirements-1" />Minsta krav
 
 - [!INCLUDE [prod_short](includes/prod_short.md)]-version:
 
@@ -103,7 +103,7 @@ Microsoft Teams administratörscentret konfigurerar Teams principer för program
 
 Microsoft Teams innehåller omfattande kontroller för kompatibilitet och hantering av känsliga eller personligt identifierbara data  &mdash; inklusive data som lagts till i chattar och kanaler av [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />Förstå var [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagras
+### <a name="understanding-where--cards-are-stored" />Förstå var [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagras
 
 När ett kort har skickats till en chatt kopieras kortet och de fält som visas på kortet till Teams. Denna information är underkastad Teams policyer för organisationen, till exempel policyer för bevarande av data. När kortinformation visas lagras ingen information i informationsfönstret i Teams. Informationen förblir lagrad i [!INCLUDE [prod_short](includes/prod_short.md)] och kommer bara att hämtas av Teams när användaren väljer att visa informationen. 
 
@@ -153,7 +153,7 @@ Du konfigurerar inställningen per miljö. När du aktiverar eller inaktiverar p
 [Felsöka Teams](admin-teams-troubleshooting.md)  
 [Utveckling för Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

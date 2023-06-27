@@ -51,7 +51,7 @@ Diagrammet visar hur **Lagerställeskod** på produktionsorderkomponentraderna f
 
 :::image type="content" source="media/binflow.png" alt-text="Fältet Lagerställeskod på produktionsorderkomponentraderna.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Se relaterad [Microsoft utbildning](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Se även
 

@@ -39,7 +39,7 @@ När du har definierat en momsrapport kan förhandsgranska du den och kontroller
 4. På de rader där fältet **Typ** innehåller **Momstrans.summering** kan du visa en lista över momstransaktioner genom att välja beloppet i fältet **Kolumnbelopp**.
 5. Du kan använda anpassning för att visa fler fält på raderna. Till exempel det orealiserade nettobeloppet och det orealiserade momsbeloppet, om du använder orealiserad moms.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

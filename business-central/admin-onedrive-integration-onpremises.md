@@ -22,7 +22,7 @@ Det finns två aktiviteter som måste utföras för att konfigurera OneDrive-int
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan endast kopplas till OneDrive som finns i Microsoft i molnet. Anslutning till [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till lagringsplatsen mina webbplatser för SharePoint server stöds inte.
 
-## <a name="a-nameregisterapparegister-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Registrera en app i Azure AD för OneDrive-integration
+## <a name="register-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Registrera en app i Azure AD för OneDrive-integration
 
 I den här uppgiften lägger du till en registrerad app för Business Central i din Azure AD-klientorganisation för ditt Microsoft 365-abonnemang. Precis som andra Azure-tjänster som arbetar med Business Central kräver OneDrive en registrerad app i Azure Active Directory (Azure AD). Den registrerade appen tillhandahåller autentisering och autentiseringstjänster mellan Business Central och SharePoint som används av OneDrive.
 
@@ -45,7 +45,7 @@ När du registrerar programmet bör du tänka på följande:
 
 - Om du använder Business Central version 19 eller 20 kopierar **Program-ID (klient)** och **klienthemligheten** som används av den registrerade appen. Du behöver informationen i nästa uppgift.
 
-## <a name="a-nameurlaget-your-onedrive-url" /><a name="url"></a>Hämta din OneDrive-URL
+## <a name="get-your-onedrive-url" /><a name="url"></a>Hämta din OneDrive-URL
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
@@ -74,7 +74,7 @@ Använd den här proceduren om du använder Business Central 2022, utgivningscyk
    - Om du inte redan har konfigurerat den registrerade appen för Azure AD öppnas guiden **Konfigurera Azure Active Directory**.
 6. När det är slutfört accepteras sekretessmeddelandet för OneDrive-integration för alla användare. Om du vill ändra det så att användarna måste acceptera eller avböja själva, går du till sidan **Sekretessmeddelandestatus** och väljer **Låt användaren bestämma** för OneDrive-integrationen. Användare kommer då att uppmanas att godkänna eller avböja sekretessmeddelandet första gången de använder OneDrive-funktionerna. Mer information finns i [Sekretessmeddelanden](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Konfigurera anslutningen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 och 20
+## <a name="set-up-the-connection-in--version-19-and-20" />Konfigurera anslutningen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 och 20
 
 Använd den här proceduren om du använder Business Central 2022, utgivningscykel 1 (version 20), eller 2021, utgivningscykel 2 (version 19).
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ Om du vill växla till den nya OneDrive-integrationen kör du guiden för assist
 
 Innan du sätter igång med bytet eller när du gör det, ska du läsa nästa avsnitt för att lära dig mer om vissa aspekter och överväganden i processen. 
 
-### <a name="a-nameonedrivesetupmigrationaabout-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Om att växla till den nya OneDrive-integrationen
+### <a name="about-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Om att växla till den nya OneDrive-integrationen
 
 Utöver OneDrive-integration kan Business Central också integreras med andra tjänster, t.ex Power BI och Universell utskrift. Integrering med dessa andra tjänster kräver också en registrerad Azure AD-app för autentisering. Azure AD-appen som används av dessa tjänster konfigureras i den assisterade konfigurationen **Konfigurera dina Azure Active Directory-konton**. När du växlar från den äldre SharePoint-anslutningskonfigurationen ändrar den assisterade konfigurationen **OneDrive-konfiguration** din OneDrive-integration så att den också använder den assisterade konfigurationen **Konfigurera dina Azure Active Directory-konton**&mdash;så att alla integrationer använder samma Azure AD-app.
 

@@ -202,7 +202,7 @@ Bokför justeringslagerplatsposterna i artikeltransaktionerna för de perioder s
 5. Välj **OK**. Positiva och negativa justeringarna summeras för varje artikel, och rader skapas i artikeljournalen.  
 6. Bokför journalraderna för att ange kvantitetsavvikelserna i artikeltransaktionerna. Inventeringarna på lagerplatserna och artikeltransaktionerna är nu matchade.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Se relaterad [Microsoft utbildning](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Se även
 

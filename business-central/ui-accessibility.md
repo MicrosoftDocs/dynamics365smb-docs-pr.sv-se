@@ -26,7 +26,7 @@ Den här artikeln innehåller information om de funktioner som gör [!INCLUDE[pr
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namenavigationa-navigation" /><a name="Navigation"></a> Navigering
+## <a name="navigation" /><a name="Navigation"></a> Navigering
   
 Du kan använda olika kombinationer av TAB, SKIFT och piltangenter för att flytta mellan element på en sida. Element kan vara åtgärder, fält och kolumner, delar och andra kontroller. I allmänhet, välj <kbd>Tabb</kbd> eller <kbd>Shift</kbd>+<kbd>Tabb</kbd> för att gå till nästa eller föregående element.
 
@@ -34,19 +34,19 @@ När du fokuserar på ett område som innehåller åtgärder, som navigeringsfä
 
 Med tabbordningen kan du också växla mellan den primära webbläsarsidan och dialogrutor som begär exempelvis bekräftelse eller inloggningssidan.  
 
-## <a name="a-nameheadingsa-headings-in-content" /><a name="Headings"></a> Rubriker i innehåll
+## <a name="headings-in-content" /><a name="Headings"></a> Rubriker i innehåll
 
 HTML-källan för [!INCLUDE[prod_short](includes/prod_short.md)]-innehåll använder taggar för att hjälpa användare av tekniska hjälpmedel för att förstå sidans struktur och innehåll. På listsidor definieras exempelvis kolumnerna i TH-taggar, och kolumnrubrikerna anges med attributet TITLE inuti taggen. Rubriker för element, till exempel snabbflikar, faktaboxar och fält ingår i rubriktaggarna (H1, H2, H3 och H4).  
 
-## <a name="a-nameimagesa-image-and-links" /><a name="Images"></a> Bilder och länkar
+## <a name="image-and-links" /><a name="Images"></a> Bilder och länkar
 
 En beskrivande text för bilder anges med attributet ALT i IMG-taggen. En beskrivande text för hyperlänkar anges med rubrikattributet inuti A-taggen.  
 
-## <a name="a-nameassistivetecha-assistive-technologies" /><a name="AssistiveTech"></a> Hjälpmedel
+## <a name="assistive-technologies" /><a name="AssistiveTech"></a> Hjälpmedel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder olika hjälpmedel, till exempel hög kontrast, skärmläsare och program för röstigenkänning. Vissa hjälpmedel fungerar kanske inte tillsammans med vissa element på [!INCLUDE[prod_short](includes/prod_short.md)]-sidor.  
 
-## <a name="a-namezooma-zoom" /><a name="zoom"></a> Zooma
+## <a name="zoom" /><a name="zoom"></a> Zooma
 
 I de flesta webbläsare används vanliga kortkommandon för att zooma in och ut på den aktuella sidan. Dessa kortkommandon är inte specifika för [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerar när du använder [!INCLUDE [prod_short](includes/prod_short.md)] i en webbläsare. En lista över vilka kortkommandon som stöds finns i [Kortkommandon för att zooma in och ut](keyboard-shortcuts.md#zoomshortcuts).
 

@@ -38,7 +38,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
  Ändringar till rapportlayouterna testas men tillämpas inte på de faktiska rapportlayouterna. På sidan **Uppdateringslogg för rapportlayout** visas med status för potentiella uppdateringar för varje rapportlayout. Om det finns fel för en rapportlayout kan du öppna rapportlayouten direkt från meddelandet och åtgärda felen. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="a-nameupdatelimitationsa-limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Begränsningar för uppdatering av anpassad rapportlayout
+## <a name="limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Begränsningar för uppdatering av anpassad rapportlayout
  Det finns flera typer av ändringar som den automatiska uppdateringen kan tillämpa för anpassade rapportlayouter. Ett fält som används i layouten kan till exempel ha tagits bort från rapportdatauppsättningen. Däremot kan den automatiska uppdateringen inte hantera följande ändringar i en rapportdatauppsättning.  
 
 1.  Borttagna fält, rubriker eller dataobjekt.  
@@ -49,7 +49,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
  Om något av dessa problem identifieras i uppdateringsprocessen kan inte uppdateringen tillämpas. Du måste åtgärda problemen manuellt, till exempel genom att redigera rapportlayouten i Word eller via programmering med hjälp av kodenheter för uppgradering.  
 
-## <a name="a-namefixerrorsa-fixing-errors" /><a name="FixErrors"></a> Åtgärda fel
+## <a name="fixing-errors" /><a name="FixErrors"></a> Åtgärda fel
  Om du får ett felmeddelande när du uppdaterar eller testar rapportlayoutuppdateringar måste du troligtvis ändra rapportlayouten för att lösa problemet. Läs felmeddelandet för att fastställa orsaken till problemet.  
 
  De mest vanliga problemet inträffar när ett fält som användes på layout har tagits bort från rapportdatauppsättningen. I det här fallet visas en rad i felmeddelandet som anger att en artikel har tagits bort. För att lösa problemet måste du ändra layouten och ta bort fältet i fråga.  
@@ -58,7 +58,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
 Försök att uppdatera layouten på nytt när du har ändrat layouten.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
  [Hantera rapportlayouter](ui-manage-report-layouts.md)  

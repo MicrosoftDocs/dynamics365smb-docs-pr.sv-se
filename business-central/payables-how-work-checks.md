@@ -75,7 +75,7 @@ Om du vill granska bokförda checkar, till exempel för att kontrollera flera ko
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonto – kontrollera detaljer** och väljer sedan relaterad länk.
 2. Ställa in filter som relevanta och välj sedan knappen **förhandsgranskning**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics-365-business-central" />Se relaterad [Microsoft utbildning](/training/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/use-checks-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se även
 

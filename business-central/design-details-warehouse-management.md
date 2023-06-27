@@ -231,7 +231,7 @@ När du plockar med FEFO kommer artiklarna som förfaller först att samlas i en
 
 Artikelinförselmallen anger en uppsättning prioriterade regler som gäller när du skapar artikelinförslar. En artikelinförselmall kan till exempel kräva att du placerar artiklar på en lagerplats med lagerplatsinnehåll som har samma basenhet. Om en liknande lagerplats med tillräcklig kapacitet inte kan hittas måste artikeln placeras på en tom lagerplats. Du tilldelar en artikelinförselmall till en artikel och ett lagerställe.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Se även
 
@@ -239,6 +239,6 @@ Artikelinförselmallen anger en uppsättning prioriterade regler som gäller nä
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

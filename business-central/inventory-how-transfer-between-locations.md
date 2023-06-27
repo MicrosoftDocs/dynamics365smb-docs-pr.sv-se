@@ -125,7 +125,7 @@ Om antalet har levererats i en lagerutleverans infogas en rättningsrad i den bo
 
 Om du vill slutföra korrigeringen öppnar du överföringsordern på nytt, anger rätt antal och bokför ordern. Om du använder en lagerutleverans för att skicka order skapar du och bokför en ny lagerutleverans.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Se relaterad [Microsoft utbildning](/training/modules/transfer-items/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/transfer-items/)
 
 ## <a name="see-also" />Se även
 

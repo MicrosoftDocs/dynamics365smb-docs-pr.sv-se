@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-includeprodshortincludesprodshortmd" />Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-" />Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov. Med hjälp av artiklarna i [Business Central snabbstart](quick-start-business-central.md) kan du ta de första stegen att göra [!INCLUDE [prod_short](includes/prod_short.md)] till din egen. Den här artikeln innehåller en översikt över hur du kan konfigurera [!INCLUDE [prod_short](includes/prod_short.md)] för organisationen.
 
@@ -79,6 +79,6 @@ Du kan också lägga till funktioner i [!INCLUDE [prod_short](includes/prod_shor
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

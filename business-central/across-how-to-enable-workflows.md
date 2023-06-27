@@ -22,7 +22,7 @@ På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda
 2. Öppna arbetsflödet du vill aktivera.  
 3. På sidan **arbetsflödet**, aktivera växlingskontrollen **Aktiverad**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se även
 

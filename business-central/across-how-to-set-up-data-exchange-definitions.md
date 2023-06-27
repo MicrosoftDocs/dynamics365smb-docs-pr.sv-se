@@ -33,7 +33,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 1. Sidan **datautbytesdefinitioner** beskriver layouten för rader och kolumner i filen. Läs mer i avsnittet [Beskriva formateringen av rader och kolumner i filen](#formatlinescolumns).  
 2. Sidan **Datautbytesmappning** mappar kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i avsnittet [Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Beskriva formateringen av rader och kolumner i filen
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Beskriva formateringen av rader och kolumner i filen
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Datautbytesdefinition** och välj relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -108,7 +108,7 @@ Nästa steget i att skapa en definition för datautbyte är att avgöra vilka ko
 > [!NOTE]  
 > Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[prod_short](includes/prod_short.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** på sidan **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Ibland är värdena i de fält som du vill mappa olika. I ett företagsprogram är till exempel språkkoden för USA "U.S.", men i det andra är det "US". Det innebär att du måste omvandla värdet när du utbyter data. Detta sker genom omvandlingsregler som du definierar för fälten. Läs mer i [Omvandlingsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

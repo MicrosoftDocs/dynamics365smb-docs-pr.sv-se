@@ -92,10 +92,10 @@ Mer information finns i [Designdetaljer: utgående distributionslagerflöde](../
 
 Efterföljande genomgången visar metod D i föregående tabellen.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Susan, orderhandläggaren, skapar försäljningsorder för olika rostade bönor och skickar den till lagerstället. Eftersom alla order kommer från samma kund, Ellen, kan lagerchefen leverera dem tillsammans. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden.
 
-### <a name="steps" />Steg
+### <a name="steps-1" />Steg
 Detta är en fortsättning av [Inkommande flöde: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Frisläpp försäljningsorder till lagret.  
@@ -137,7 +137,7 @@ Detta är en fortsättning av [Inkommande flöde: Inleverera och införa utflöd
     4. Välj åtgärden **Bokför utleverans**.
     5. Bekräfta alternativet **leverans**.
 
-### <a name="results" />Resultat
+### <a name="results-1" />Resultat
  - de rostade bönorna har nu registrerats som plockad 
  - **Registrerad distributionslagerplockning** skapas
  - **Bokförd distributionslagerutleverans** skapas

@@ -80,7 +80,7 @@ Standardkonfigurationspaketet stöder följande tabeller:
 [QuickBooks datamigrering](ui-extensions-quickbooks-data-migration.md)  
 [Importera flera artikelbilder](inventory-how-import-item-pictures.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

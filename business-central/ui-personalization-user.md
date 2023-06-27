@@ -58,7 +58,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 6. Välj elementet och välj sedan antingen **Flytta**, **Ta bort**, **Dölj**, **Visa**, **Visa under "Visa mer"**, **Visa vid komprimerad**, **Visa alltid**, **Ställ in/rensa låst ruta** eller **Inkludera/exkludera från snabbinmatning**, beroende på typ och tillstånd för elementet i användargränssnittet. Mer information finns i [Vad du kan anpassa](#What).
 7. När du är klar med att ändra layouten på en eller flera sidor, välj knappen **Klar** på banderollen **Anpassa**.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Detta kan du anpassa
+## <a name="what-you-can-personalize" /><a name="What"></a>Detta kan du anpassa
 
 |Vad vill du göra|Hur du gör det.|Anmärkningar|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 |Lägg till en ny åtgärd på en sida eller rapport i rollcentret.|Välj ikonen bokmärke på sida för rapportförfrågan, sida i rapporten eller berätta för mig-fönstret.|Se [Förse en sida eller rapport med ett bokmärke på ditt rollcenter](ui-bookmarks.md)|
 |Starta alltid en lista som visad eller dold|Välj knappen **Expandera alla** eller **Komprimera alla** längst upp till vänster i listan. Alternativt väljer du åtgärden **Expandera alla** eller **Komprimera alla** i menyn för den första kolumnen. |Gäller för komprimerbara hierarkinivåer|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Anpassa åtgärdsfältet och menyer
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Anpassa åtgärdsfältet och menyer
 
 Anpassning låter dig bestämma vilka åtgärder som ska visas i navigerings- och åtgärdsfälten och i rollcenter, samt var de ska visas. Du kan visa, dölja eller flytta enskilda åtgärder eller åtgärdsgrupper.
 
@@ -116,7 +116,7 @@ Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontel
 1. Om du vill flytta en åtgärd eller en åtgärdsgrupp, dra och släpp den till önskad position, precis som med fält och kolumner.
 2. Om du vill flytta en åtgärd eller åtgärdsgrupp till en åtgärdsgrupp som är tom, dra åtgärden eller åtgärdsgruppen till den nya gruppen och släpp den i rutan **släpp åtgärd här**.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Anpassa delar
+## <a name="personalizing-parts" /><a name="Parts"></a>Anpassa delar
 
 Delar är områden på en sida som vanligtvis utgörs av flera fält, diagram eller annat innehåll. En del visar en färgad kantlinje när du fokuserar på delen. Startvyn för ett rollcenter har till exempel flera delar. På grund av deras väldefinierade gränser kan du anpassa hela delen samt dess innehåll.
 
@@ -158,7 +158,7 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
    > [!TIP]
    > Som administratör kan du dölja **automatiserade** objekt från användare. Läs mer i [Ställa in Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se även
 [Anpassa sidor för profiler](ui-personalization-manage.md)  
