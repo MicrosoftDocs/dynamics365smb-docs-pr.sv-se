@@ -10,7 +10,7 @@ ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# <a name="invoicing-prepayments"></a>Fakturera förskottsbetalningar
+# <a name="invoicing-prepayments"></a><a name="invoicing-prepayments"></a>Fakturera förskottsbetalningar
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -29,9 +29,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |skapa en order, justera förskottsbetalningsbeloppen och skicka ut en faktura för förskottsbetalningsbeloppen.|[Skapa förskottsfakturor](finance-how-to-create-prepayment-invoices.md)|  
 |skicka ut en ytterligare förskottsfaktura, antingen för ytterligare artiklar eller för en ytterligare deposition på den ursprungliga ordern, eller skicka ut en kreditnota för förskottsbetalning.|[Korrigera förskottsbetalningar](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Genomgång: Konfigurera och fakturera förskottsbetalning för försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Ekonomi](finance.md)  

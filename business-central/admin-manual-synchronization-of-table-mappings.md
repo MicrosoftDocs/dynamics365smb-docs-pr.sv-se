@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="manually-synchronize-table-mappings"></a>Synkronisera manuellt registermappning
+# <a name="manually-synchronize-table-mappings"></a><a name="manually-synchronize-table-mappings"></a>Synkronisera manuellt registermappning
 
 
 En integreringsregistermappning associerar ett [!INCLUDE[prod_short](includes/prod_short.md)]-register, till exempel kund, med ett [!INCLUDE[prod_short](includes/cds_long_md.md)]-register, exempelvis ett konto. Genom att synkronisera en mappning för integreringsregister kan du synkronisera data i alla poster i det [!INCLUDE[prod_short](includes/prod_short.md)]-register och det [!INCLUDE[prod_short](includes/cds_long_md.md)]-register som kopplas. Dessutom, beroende på konfigurationen av registermappningen, kan synkronisering skapa och koppla nya poster i destinationslösningen ej kopplade poster i källan.  
@@ -20,7 +20,7 @@ Manuellt synkroniserade integreringsregistermappningarna kan användas under den
 
 Den här artikeln beskriver tre metoder för att manuellt synkronisera integreringsregistermappningar. Varje metod ger olika nivåer av synkronisering.
 
-## <a name="run-a-full-synchronization"></a>Kör en fullständig synkronisering
+## <a name="run-a-full-synchronization"></a><a name="run-a-full-synchronization"></a>Kör en fullständig synkronisering
 En fullständig synkronisering kör alla synkroniseringsjobb för standardintegrering för synkronisering av [!INCLUDE[prod_short](includes/prod_short.md)]-poster och [!INCLUDE[prod_short](includes/cds_long_md.md)]-register, enligt definitionen på sidan **Registermappningar för integrering**. 
 
 En fullständig synkronisering utför följande åtgärder för [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)]-poster som är:
@@ -36,7 +36,7 @@ Om och när en rad skapas beror på synkroniseringsriktningen. Till exempel när
 > [!IMPORTANT]  
 >  Du kan bara använda fullständig synkronisering när du från början lägger upp integrering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)] och endast en av lösningarna innehåller data som du vill kopiera till den andra lösningen. En fullständig synkronisering kan vara lämplig i demonstrationsmiljöer. Eftersom den fullständiga synkroniseringen skapas automatiskt och kopplar poster mellan lösningarna går det snabbare att arbeta med synkronisering av data mellan poster. Å andra sidan bör du bara köra en fullständig synkronisering om du vill ha en rad i [!INCLUDE[prod_short](includes/prod_short.md)] för respektive rad i [!INCLUDE[prod_short](includes/cds_long_md.md)] för en given registermappning. Annars kan du kan få oönskade eller dubblettposter i antingen [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
-### <a name="to-run-a-full-synchronization"></a>Kör en fullständig synkronisering
+### <a name="to-run-a-full-synchronization"></a><a name="to-run-a-full-synchronization"></a>Kör en fullständig synkronisering
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfiguration av inställningen av Dataverse** och väljer sedan relaterad länk.
 
     > [!NOTE]
@@ -51,7 +51,7 @@ Om och när en rad skapas beror på synkroniseringsriktningen. Till exempel när
 
 Du kan visa resultatet av en fullständig synkronisering på sidan **Integreringssynkroniseringsjobb**. För mer information, se [Visa status för en synkronisering](admin-how-to-view-synchronization-status.md).  
 
-## <a name="synchronizing-all-modified-records"></a>Synkronisera alla ändrade poster
+## <a name="synchronizing-all-modified-records"></a><a name="synchronizing-all-modified-records"></a>Synkronisera alla ändrade poster
 Använd sidan **Common Data Service anslutningsinställningar** om du vill synkronisera ändringar i alla integrationsregistermappningar. Detta liknar en fullständig synkronisering. Detta synkroniserar data i alla kopplade poster i de [!INCLUDE[prod_short](includes/prod_short.md)]- och [!INCLUDE[prod_short](includes/cds_long_md.md)]-register som har definierats i registermappningarna. Som standard synkroniseras endast data som har ändrats sedan den senaste synkroniseringen. Synkroniseringsjobb synkroniserar registermappningar i följande ordning för att undvika kopplingsberoenden mellan registren:  
 
 1.  VALUTA  
@@ -65,18 +65,18 @@ Du kan visa resultatet av en synkronisering på sidan **Integreringssynkroniseri
 > [!TIP]  
 >  Genom att ändra integreringsregistermappningen i förväg kan du skapa filter för att bestämma vilka data som ska synkroniseras, eller konfigurera mappningar i syfte att skapa nya data i destinationslösningen för ej kopplade poster eller rader i källan. Mer information finns i [Ändra registermappningar för synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-### <a name="to-synchronize-data-for-all-tables"></a>Synkronisera data för alla register
+### <a name="to-synchronize-data-for-all-tables"></a><a name="to-synchronize-data-for-all-tables"></a>Synkronisera data för alla register
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Microsoft Dynamics 365 Sales anslutningsinställningar** och väljer sedan relaterad länk.
 2.  Välj åtgärden **Synkronisera ändrade poster** och sedan **Ja**.  
 
-## <a name="synchronize-individual-table-mappings"></a>Synkronisera individuella registermappningar
+## <a name="synchronize-individual-table-mappings"></a><a name="synchronize-individual-table-mappings"></a>Synkronisera individuella registermappningar
 Använd sidan **Registermappningar för integrering** för att köra ett synkroniseringsjobb för registermappningar. Detta synkroniserar data för alla kopplade poster och rader i de [!INCLUDE[prod_short](includes/prod_short.md)]- och [!INCLUDE[prod_short](includes/cds_long_md.md)]-register som har definierats av registermappningarna. Som standard synkroniseras endast data som har ändrats sedan den senaste synkroniseringen.  
 
-### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Synkronisera poster i en integreringsregistermappning
+### <a name="to-synchronize-records-of-an-integration-table-mapping"></a><a name="to-synchronize-records-of-an-integration-table-mapping"></a>Synkronisera poster i en integreringsregistermappning
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Registermappning för integrationen** och välj sedan relaterad länk.
 2.  Välj åtgärden **Synkronisera ändrade poster** och sedan **Ja**.  
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 [Synkroniserar i Business Central och Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Ställa in konton för integrering med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
 

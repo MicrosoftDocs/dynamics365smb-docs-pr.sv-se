@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-pre-sales-learning-catalog"></a>Utbildningskatalog för partner förförsäljning
+# <a name="partner-pre-sales-learning-catalog"></a><a name="partner-pre-sales-learning-catalog"></a>Utbildningskatalog för partner förförsäljning
 
 Är du ansvarig för att demonstrera viktiga funktioner för kunderna? 
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov. 
 
-## <a name="get-started"></a>Kom igång<a name="get-started"></a>
+## <a name="get-started"></a><a name="get-started"></a>Kom igång<a name="get-started"></a>
 
 | Innehåll                                                                                                                              | Beskrivning                                                                                                                                                                                                                                                                                      | Format                                | Längd             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -23,21 +23,21 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Business Central YouTube-spellista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-landningssida för Dynamics 365 Business Central-videor | YouTube-videor |                    |
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Utforska Dynamics 365 Business Central-funktionerna                                                                                                                                                                                                                                               | Webbplats                               |                    |
 
-## <a name="grow-your-business"></a>Utveckla företaget<a name="grow"></a>
+## <a name="grow-your-business"></a><a name="grow-your-business"></a>Utveckla företaget<a name="grow"></a>
 
 | Innehåll                                                                                                                                | Beskrivning                                                                                                                                                                                                                                                                                      | Format                                | Längd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central – engagerande konversationer med potentiella kunder (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Errol Schoenfish, chef för produktmarknadsföring pratar om hur man har övertygande samtal med potentiella kunder i Microsoft Dynamics 365 Business Central. | Video | 11 minuter 16 sekunder |
 | [Dynamics 365 Business Central – så här blir det verklighet](https://mbspartner.microsoft.com/D365/Videos/101787) | Errol Schoenfish, chef för produktmarknadsföring pratar om hur du kommer igång med demonstrationer av Microsoft Dynamics 365 Business Central. | Video | 12 minuter 29 sekunder |
 
-## <a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
 
 | Innehåll                                                                                                                                | Beskrivning                                                                                                                                                                                                                                                                                      | Format                                | Längd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/) | Utforska Dynamics 365 Business Central-funktionerna | Webbplats |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion. | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
 
-## <a name="whats-new"></a>Nyheter<a name="whatsnew"></a>
+## <a name="whats-new"></a><a name="whats-new"></a>Nyheter<a name="whatsnew"></a>
 
 | Innehåll                                                                                                                                | Beskrivning                                 | Format                                | Längd                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

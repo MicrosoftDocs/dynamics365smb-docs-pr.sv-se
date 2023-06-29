@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts"></a>Arbeta med Word-layouter
+# <a name="work-with-word-layouts"></a><a name="work-with-word-layouts"></a>Arbeta med Word-layouter
 
 En layout för en Word-rapport bestämmer innehållet i och formatet på en rapport när den förhandsgranskas och skrivs ut från Business Central. Du skapar och ändrar dessa layouter med Microsoft Word.
 
@@ -26,18 +26,18 @@ Om du designar en Word-rapportlayout från noll eller lägger till nya datafält
 > [!TIP]  
 > Visa tabellstödlinjerna så att du kan se gränserna mellan tabellceller. Kom ihåg att dölja stödlinjerna när du har redigerat klart. För att visa eller dölja tabellstödlinjer, välj tabellen och välj under **Visa stödlinjer** på fliken **Tabell** under **Layout**.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inbäddade teckensnitt i Word-ayouter för konsistens
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a><a name="embedding-fonts-in-word-layouts-for-consistency"></a>Inbäddade teckensnitt i Word-ayouter för konsistens
 
 För att säkerställa att rapporterna alltid visas och skrivs ut med planerade teckensnitt, oavsett om en användare öppnar eller skriver ut rapporter, kan du bädda in teckensnitt i Word-dokumentet. Men tänk på att inbäddade teckensnitt kan öka storleken på de Word-filerna väsentligt. Mer information om inbäddade teckensnitt i Word finns i [inbäddade teckensnitt i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## <a name="adding-data-fields"></a>Lägga till datafält
+## <a name="adding-data-fields"></a><a name="adding-data-fields"></a>Lägga till datafält
 
 En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bilder. I det här avsnittet beskrivs proceduren för att lägga fält i en rapportdatauppsättning i en befintlig Word-rapportlayout för en rapport. Du lägger till fält genom att använda den anpassade Word XML-delen för rapporten och att lägga till innehållskontroller som mappar till fälten på rapportdatauppsättningen. Att lägga till fält kräver att du har viss kunskap om rapportens datauppsättning så att du kan identifiera fälten som du vill lägga till i layouten.  
   
 > [!NOTE]  
 >  Du kan inte ändra inbyggda rapportlayouter<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Så här öppnar du den anpassade XML-delen för rapporten i Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Så här öppnar du den anpassade XML-delen för rapporten i Word
   
 1. Öppna sedan Word-rapportlayoutdokumentet i Word, om inte redan har öppnats.  
   
@@ -59,7 +59,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
   
      När du har valt den anpassade XML-delen visar XML-mappningsrutan de rubriker och fältkontroller som är tillgängliga för rapporten.  
   
-### <a name="to-add-a-label-or-data-field"></a>Så här lägger du till en rubrik eller ett datafält
+### <a name="to-add-a-label-or-data-field"></a><a name="to-add-a-label-or-data-field"></a>Så här lägger du till en rubrik eller ett datafält
   
 1. Placera markören i det dokument som du vill lägga till kontrollen i.  
   
@@ -68,7 +68,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
     > [!NOTE]  
     >  Du kan inte lägga till ett fält genom att manuellt skriva datauppsättningsfältets namn i innehållskontrollen. Du måste använda fönstret **XML-mappning** för att mappa fälten.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Så här lägger du till upprepande rader med datafält för att skapa en lista
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a><a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Så här lägger du till upprepande rader med datafält för att skapa en lista
   
 1. I en tabell lägger du till en tabellrad som innehåller en kolumn för varje fält som du vill upprepa.  
   
@@ -86,7 +86,7 @@ En rapportdatauppsättning kan bestå av fält som visar rubriker, data och bild
   
     3. Upprepa steg a och b för varje fält.  
   
-## <a name="adding-image-fields"></a>Lägga till bildfält
+## <a name="adding-image-fields"></a><a name="adding-image-fields"></a>Lägga till bildfält
 
 En rapportdatauppsättning kan omfatta ett fält som innehåller en bild, t. ex. ett företagslogotyp eller en bild av en artikel. Om du vill lägga till en bild från rapportdatauppsättningen infogar du en **Bild**-innehållskontroll.  
   
@@ -95,7 +95,7 @@ Bilder justeras i det övre vänstra hörnet av innehållskontrollen och storlek
 > [!IMPORTANT]  
 > Du kan bara lägga till bilder som har ett format som stöds av Word, till exempel .bmp-, .jpeg- och .png-filtyper. Om du lägger till en bild som har ett format som inte stöds i Word visas ett felmeddelande när du kör rapporten från [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.  
   
-### <a name="to-add-an-image"></a>Så här lägger du till en bild
+### <a name="to-add-an-image"></a><a name="to-add-an-image"></a>Så här lägger du till en bild
   
 1. Placera pekaren i det dokument som du vill lägga till kontrollen i.  
   
@@ -103,7 +103,7 @@ Bilder justeras i det övre vänstra hörnet av innehållskontrollen och storlek
   
 3. För att öka eller minska bildstorleken drar du ett storlekshandtag bort från eller mot mitten av innehållskontrollen.  
 
-## <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Ta bort rubrik- och datafält
+## <a name="removing-label-and-data-fields"></a><a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Ta bort rubrik- och datafält
 
 Rubrik- och datafält för en rapport finns i innehållskontroller i Word. Efterföljande diagram illustrerar en innehållskontroll när den har valts i Word-dokumentet.  
 
@@ -111,7 +111,7 @@ Rubrik- och datafält för en rapport finns i innehållskontroller i Word. Efter
 
 Namnet på rubriken eller datafältet visas i innehållskontrollen. I exemplet är fältnamnet CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>Så här tar du bort en rubrik eller ett datafält
+### <a name="to-remove-a-label-or-data-field"></a><a name="to-remove-a-label-or-data-field"></a>Så här tar du bort en rubrik eller ett datafält
 
 1. Högerklicka på fältet som du vill ta bort och välj **Ta bort innehållskontroll**.  
 
@@ -119,11 +119,11 @@ Namnet på rubriken eller datafältet visas i innehållskontrollen. I exemplet �
 
 2. Ta bort den återstående texten efter behov.
 
-## <a name="custom-xml-part-overview"></a>Översikt över anpassad XML-del
+## <a name="custom-xml-part-overview"></a><a name="custom-xml-part-overview"></a>Översikt över anpassad XML-del
 
 Word-rapportlayouter bygger på *anpassade XML-delar*. En anpassad XML för en rapport består av element som motsvarar dataobjekten, kolumner och rubriker som ingår i rapportens datauppsättning. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Den anpassade XML-delen används för att mappa data till en rapport när rapporten körs.
 
-### <a name="xml-structure-of-custom-xml-part"></a>XML-struktur för anpassad XML-del
+### <a name="xml-structure-of-custom-xml-part"></a><a name="xml-structure-of-custom-xml-part"></a>XML-struktur för anpassad XML-del
 
 Följande tabell innehåller en förenklad översikt över XML-dokument av en anpassad XML-del.  
   
@@ -136,7 +136,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Dataobjekt och kolumner som är inbäddade i dataobjektet på högsta nivå. Kolumner anges i alfabetisk ordning under respektive dataobjekt.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Bokslutselement.|  
   
-### <a name="custom-xml-part-in-word"></a>Anpassad XML-del i Word
+### <a name="custom-xml-part-in-word"></a><a name="custom-xml-part-in-word"></a>Anpassad XML-del i Word
 
  I Word öppnar du den anpassade XML-delen i rutan **XML-mappning** och använder sedan rutan för att mappa element till innehållskontroller i Word-dokumentet. Rutan **XML-mappning** är tillgänglig från fliken **Utvecklare** (mer information finns i [Visa fliken Utvecklare på menyfliken](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
@@ -154,7 +154,7 @@ Följande tabell innehåller en förenklad översikt över XML-dokument av en an
   
 * Rubrikens språk som visas när du kör rapporten beror på språkinställningen för rapportobjektet.  
   
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   
 

@@ -10,7 +10,7 @@ ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 732
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="setting-up-warehouse-management"></a>Ställa in lagerstyrning
+# <a name="setting-up-warehouse-management"></a><a name="setting-up-warehouse-management"></a>Ställa in lagerstyrning
 
 Ett företags distributionsstrategi återspeglas i konfigurationen av dess lagerprocesser. Detta omfattar att definiera hur olika artiklar hanteras på olika lagerställen, till exempel graden av styrning av lagerplats och omfattningen av arbetsflödet som krävs mellan lageraktiviteterna.  
 
@@ -35,9 +35,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Få tips på hur du ordnar om lagerställen, lagerställen eller zoner för att få mer effektiva lageraktiviteter.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Monteringshantering](assembly-assemble-items.md)  

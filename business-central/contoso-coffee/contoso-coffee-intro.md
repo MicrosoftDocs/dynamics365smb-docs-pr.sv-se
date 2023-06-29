@@ -9,12 +9,12 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion till demonstrationsdata för Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion till demonstrationsdata för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-apparna för Business Central lägger till demonstrationsdata som du kan använda för att lära dig använda funktionerna i Business Central.  
 
 
-## <a name="set-up-contoso-coffee-data"></a>Konfigurera data för Contoso Coffee
+## <a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a>Konfigurera data för Contoso Coffee
 
 Om du vill använda demonstrationsdata för Contoso Coffee måste du installera två appar i det aktuella företaget i [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -31,7 +31,7 @@ Sedan ska du slutföra:
  - [Produktionsinställningar](manufacturing/contoso-coffee-manufacturing-intro.md) för att förbereda för användning av [Produktionsscenarier](#manufacturing-scenarios)
  - [Lagerstyrningsinställningar](warehousing/contoso-coffee-warehousing-intro.md) för att förbereda för användning av [Lagerstyrningsscenarier](#warehousing-scenarios)
 
-## <a name="manufacturing-scenarios"></a>Produktionsscenarier
+## <a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a>Produktionsscenarier
 
 Demonstrationsdata för Contoso Coffee stöder för närvarande följande produktionsscenarier för test och utbildning:
 
@@ -49,7 +49,7 @@ Läs stegen för respektive scenario i den relevanta artikeln.
 > [!IMPORTANT]
 > Produktionsgenomgångar kräver att användarupplevelsen är inställd på *Premium* på sidan **Företagsinformation**.
 
-## <a name="warehousing-scenarios"></a>Lagerstyrningsscenarier
+## <a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a>Lagerstyrningsscenarier
 
 Demonstrationsdata för Contoso Coffee stöder för närvarande följande lagerstyrningsscenarier för test och utbildning:
 
@@ -59,7 +59,7 @@ Demonstrationsdata för Contoso Coffee stöder för närvarande följande lagers
 
 Läs stegen för respektive scenario i den relevanta artikeln.
    
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Produktion](../production-manage-manufacturing.md)  
 [Lagerstyrning](../warehouse-manage-warehouse.md)  

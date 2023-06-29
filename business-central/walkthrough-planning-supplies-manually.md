@@ -10,27 +10,27 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
+# <a name="walkthrough-planning-supplies-manually"></a><a name="walkthrough-planning-supplies-manually"></a>Genomgång: Planera leveranser manuellt
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Den här genomgången demonstrerar processen för att planera leveransorder som uppfyller efterfrågan. Du kan inleda leveransplaneringen vid fasta tidpunkter, exempelvis varje morgon eller varje måndag, eller när du får ett meddelande från försäljningsavdelningen eller produktionen, beroende på typen av efterfrågan. I den här genomgången använder du sidan **Orderplanering**, som är ett enkelt leveransplaneringsverktyg som bygger på manuellt beslutsfattande snarare än parameterbaserad automatisk planering.  
 
-## <a name="about-this-walkthrough"></a>Om den här genomgången
+## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Om den här genomgången
  I den här genomgången tas följande aktiviteter upp:  
 
 -   Planera en inköpsorder för komponenter till produktionen.  
 -   Planera en överföringsorder för att uppfylla försäljningsbehov.  
 -   Planera en produktionsorder för en artikel med flera nivåer.  
 
-## <a name="roles"></a>Roller
+## <a name="roles"></a><a name="roles"></a>Roller
  Den här genomgången innehåller arbetsuppgifter som utförs av följande användarroller:  
 
 -   Produktionsplanerare  
 -   Inköpsagent  
 -   Försäljningsorderhandläggare  
 
-## <a name="prerequisites"></a>Förutsättningar
+## <a name="prerequisites"></a><a name="prerequisites"></a>Förutsättningar
  Innan du påbörjar genomgången måste du installera [!INCLUDE[prod_short](includes/prod_short.md)]. Följande ändringar måste göras i databasen:  
 
 -   Ta bort alla befintliga försäljningsorder på cyklar.  
@@ -39,17 +39,17 @@ Den här genomgången demonstrerar processen för att planera leveransorder som 
 
  En regel är att de data som föreslås i genomgången ska användas eftersom dessa data har alla nödvändiga poster.  
 
-## <a name="story"></a>Situation
+## <a name="story"></a><a name="story"></a>Situation
  Eduardo är produktionsplanerare på ett litet tillverkande företag och håller på att planera produktions- och inköpsorder för att uppfylla behov.  
 
  Eftersom produkternas produktstrukturer har få nivåer och orderflödet är relativt lågt använder Eduardo sidan **Orderplanering** för att manuellt skapa leveransorder, en produktnivå i taget.  
 
  I en mer komplex produktionsmiljö används planeringsförslaget för att planera leveranser baserat på parametrar som omplaneringsperiod, säkerhetsledtid, beställningspunkt och batch-beräkningar av den sammanställda efterfrågan på alla produktnivåer.  
 
-## <a name="setting-up-the-sample-data"></a>Ställa in exempeldata
+## <a name="setting-up-the-sample-data"></a><a name="setting-up-the-sample-data"></a>Ställa in exempeldata
  Standarddemonstrationsföretaget CRONUS har för närvarande en stor mängd oplanerad efterfrågan. Under de olika planeringsaktiviteterna i den här genomgången måste du avvika från det realistiska verksamhetsflödet genom att ignorera efterfrågan med tidiga förfallodatum och i stället använda efterfrågan med senare förfallodatum.  
 
-## <a name="use-the-order-planning-page"></a>Använd sidan Orderplanering
+## <a name="use-the-order-planning-page"></a><a name="use-the-order-planning-page"></a>Använd sidan Orderplanering
 
 Du kommer åt sidan **Orderplanering** från flera olika platser:  
 
@@ -58,7 +58,7 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 -   Inköp, Planering  
 -   Du kan dessutom öppna den här sidan för en viss produktionsorder genom att välja åtgärden **Planering**.
 
-### <a name="to-use-the-order-planning-page"></a>Så här använder du sidan Orderplanering
+### <a name="to-use-the-order-planning-page"></a><a name="to-use-the-order-planning-page"></a>Så här använder du sidan Orderplanering
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Orderplanering** och väljer sedan relaterad länk.  
 
@@ -82,10 +82,10 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 
      Order som inte har några problem med tillgången visas inte. Om det inte finns några order när en plan beräknas visas ett meddelande och inga planeringsrader visas.  
 
-## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Planera en inköpsorder för att uppfylla behov av komponenter
+## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a><a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Planera en inköpsorder för att uppfylla behov av komponenter
  I den här proceduren skapar du en inköpsorder på komponenter som behövs för produktionen.  
 
-### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Så här planerar du en inköpsorder för att uppfylla komponentbehovet i produktionen
+### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a><a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Så här planerar du en inköpsorder för att uppfylla komponentbehovet i produktionen
 
 1.  Expandera den första raden (välj +-symbolen).  
 2.  Välj den första behovsraden med artikel **LSU-15**, och välj sedan åtgärden **visa dokument**.  
@@ -122,10 +122,10 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 
      Inköpsorder skapas och sparas som de sista orderna i listan över inköpsorder.  
 
-## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Planera en överföringsorder för att uppfylla försäljningsbehov
+## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a><a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Planera en överföringsorder för att uppfylla försäljningsbehov
  I den här proceduren planerar du för behov från en försäljningsorder. Behovsraderna motsvarar försäljningsrader och inte komponentrader som vid efterfrågan från produktion.  
 
-### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Så här planerar du en överföringsorder för att uppfylla försäljningsbehov
+### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a><a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Så här planerar du en överföringsorder för att uppfylla försäljningsbehov
 
 1.  Flytta markören till planeringsraden för order **2008**.  
 2.  Expandera raden och flytta markören till behovsraden.  
@@ -150,10 +150,10 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 
      Överföringsordern skapas och sparas i listan som den sista ordern i listan över öppna överföringsorder.  
 
-## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Planera en produktionsorder med flera nivåer för att uppfylla försäljningsbehov
+## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a><a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Planera en produktionsorder med flera nivåer för att uppfylla försäljningsbehov
  I den här proceduren planerar du att uppfylla försäljningsbehovet av en tillverkad artikel med flera produktnivåer som var och en ger upphov till beroende produktionsbehov.  
 
-### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Så här planerar du produktion i flera nivåer för att uppfylla försäljningsbehov
+### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a><a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Så här planerar du produktion i flera nivåer för att uppfylla försäljningsbehov
 
 1.  Markera planeringsraden med försäljningsbehov för order **1001** som skapades tidigare under förutsättningar.  
 
@@ -172,7 +172,7 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 
  Som produktionsplanerare måste du planera en särskild produktionsorder.  
 
-### <a name="to-plan-a-specific-production-order"></a>Så här planerar du en särskild produktionsorder
+### <a name="to-plan-a-specific-production-order"></a><a name="to-plan-a-specific-production-order"></a>Så här planerar du en särskild produktionsorder
 
 1.  Öppna produktionsordern **101001** på tio cyklar som du precis har skapat med funktionen **Skapa order**.  
 2.  Öppna sidan **Prod.order – komponenter** för att kontrollera att den extra klockan återges i produktionsordern.  
@@ -222,7 +222,7 @@ Du kommer åt sidan **Orderplanering** från flera olika platser:
 
      Stäng sidan **Fasta planerade prod.order** för att se hur starttider och sluttider för enskilda order har planerats enligt produktstrukturen. Komponenterna på den lägsta nivån tillverkas först. Därför måste du planera order i flera nivåer, vilket framgår av den här planeringsprocessen.  
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

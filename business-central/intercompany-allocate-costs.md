@@ -10,7 +10,7 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocate-costs-to-intercompany-partners"></a>Fördela kostnader till koncerninterna partner
+# <a name="allocate-costs-to-intercompany-partners"></a><a name="allocate-costs-to-intercompany-partners"></a>Fördela kostnader till koncerninterna partner
 När du använder koncerninterna bokföringar för att överföra dokument mellan partnerföretag, kontrollerar de momsrelaterade inställningarna (främst rörelsebokföringsmallen för mots) som tilldelats kund- eller leverantörskonton (som är kopplade till den koncerninterna partnern) om, och hur, moms beräknas och registreras. Du kan också göra kostnadsfördelningar direkt från en inköpsorder till partnerföretag. Om du till exempel registrerar en inköpsfaktura från en extern leverantör och vill distribuera vissa eller samtliga kostnader till en eller flera koncerninterna partner.
 
 Du kan fördela kostnader till en eller flera koncerninterna partner med hjälp av följande:
@@ -18,7 +18,7 @@ Du kan fördela kostnader till en eller flera koncerninterna partner med hjälp 
 * **Koncerninterna allmänna journaler** – Dessa journaler är användbara när en tjänst köps in. När ett moderbolag till exempel anlitar en tjänst för att konfigurera datorsystem i två dotterbolag. Fakturan skickas till moderbolaget, men kostnaderna fördelas på de koncerninterna partnerna. Mer information finns i [Arbeta med koncerninterna dokument och journaler](intercompany-how-work-documents-journals.md).
 * Inköpsorder och fakturor – Att använda inköpsdokument är användbart när inköpsfunktionerna för till exempel rörelsekostnader centraliseras i ett företag och sedan allokeras till de koncerninterna partnerna.
 
-## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Så här fördelar du kostnader med hjälp av en koncernintern redovisningsjournal
+## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a><a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Så här fördelar du kostnader med hjälp av en koncernintern redovisningsjournal
 Gör så här om du vill ange en rad i en koncernintern redovisningsjournal. 
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Koncernintern redovisningsjournal** och väljer sedan relaterad länk.
@@ -42,7 +42,7 @@ Gör så här om du vill ange en rad i en koncernintern redovisningsjournal.
    1. Fyll i återstående fält om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Upprepa dessa steg för varje koncernintern partner som ska dela kostnaden.
 1. Om du vill bokföra dokumentet och fördela kostnaderna väljer du **Bokför**.  
 
-## <a name="to-allocate-costs-using-a-purchase-document"></a>Så här fördelar du kostnader med hjälp av ett inköpsdokument
+## <a name="to-allocate-costs-using-a-purchase-document"></a><a name="to-allocate-costs-using-a-purchase-document"></a>Så här fördelar du kostnader med hjälp av ett inköpsdokument
 I följande procedur beskrivs hur du fördelar kostnader med hjälp av en inköpsfaktura. Stegen är desamma för inköpsorder.
 
 > [!NOTE]
@@ -60,12 +60,12 @@ I följande procedur beskrivs hur du fördelar kostnader med hjälp av en inköp
 1. Fyll i återstående fält om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 1. Om du vill bokföra inköpsordern väljer du **Bokför**.
 
-## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Så här skickar du fördelade kostnader till koncerninterna partner
+## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a><a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Så här skickar du fördelade kostnader till koncerninterna partner
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Transaktioner för int. utkorg** och väljer sedan relaterad länk.
 2. Klicka på raderna som ska skickas och välj sedan åtgärden **Skicka till intern partner**. 
 3. Om du vill fördela kostnaderna väljer du åtgärden **Slutför radåtgärder**.
 
-## <a name="calculating-vat-for-cost-distributions"></a>Beräkna moms för kostnadsfördelningar
+## <a name="calculating-vat-for-cost-distributions"></a><a name="calculating-vat-for-cost-distributions"></a>Beräkna moms för kostnadsfördelningar
 När du använder ett dokument för att fördela kostnader till koncerninterna partner finns det två momsinställningar att tänka på: 
 * Inställningarna på redovisningskontot för utgifter:
    * Om de allmänna generella moms-rörelsebokföringsmallarna är inställda på redovisningskontot beror beräkningen på grupperna och produktgrupperna från dokumentraden.
@@ -77,7 +77,7 @@ När du använder ett dokument för att fördela kostnader till koncerninterna p
 > [!NOTE]
 > Det är viktigt att validera både inställningen för koncerninterna partner och inställningen för redovisningskonto (för det kostnadskonto som används för kostnadsfördelningen) innan du fördelar kostnader till koncerninterna partner.
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 [Koncerninterna inställningar](intercompany-how-setup.md)  
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  
 [Ekonomi](finance.md)  

@@ -10,7 +10,7 @@ author: jswymer
 ms.service: dynamics365-business-central
 ---
 
-# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>Marknadsföringstext för AI-baserad artikel (förhandsversion) med vanliga frågor och svar om Copilot
+# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a><a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>Marknadsföringstext för AI-baserad artikel (förhandsversion) med vanliga frågor och svar om Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -18,7 +18,7 @@ I den här artikeln används frågor och svar för att förklara viktiga aspekte
 
 ## [Allmänt](#tab/general)
 
-### <a name="what-is-copilot"></a>Vad är Copilot?
+### <a name="what-is-copilot"></a><a name="what-is-copilot"></a>Vad är Copilot?
 
 Copilot tillhandahåller AI-genererade text förslag för artiklar i Business Central. Den är avsedd för användare som skriver marknadsföringstext för artiklar för att hjälpa dem att producera och övertygande innehåll. Några viktiga fördelar:
 
@@ -28,7 +28,7 @@ Copilot tillhandahåller AI-genererade text förslag för artiklar i Business Ce
 
 Användare bör ta hänsyn till AI-genererad text som ett förslag som måste granskas och redigeras med precision innan den är allmänt tillgänglig.
 
-### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Varför är inte Copilot tillgängliga för marknadsföringstext på mina artiklar på Business Central?
+### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a><a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Varför är inte Copilot tillgängliga för marknadsföringstext på mina artiklar på Business Central?
 
 För att Copilot ska vara tillgänglig, måste följande villkor vara uppfyllda:
 
@@ -45,21 +45,21 @@ För att Copilot ska vara tillgänglig, måste följande villkor vara uppfyllda:
 
    För mer information, gå till [Samtycke till eller avvisa förhandsgranskning och sekretessvillkor för alla användare](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
 
-### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Är Copilot tillgänglig för förhandsversion i Business Central lokal?
+### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a><a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Är Copilot tillgänglig för förhandsversion i Business Central lokal?
 
 Nej, den stöds inte för närvarande i Business Central lokal.
 
-### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>Hur fungerar Copilot, var kommer den föreslagna texten från?
+### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a><a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>Hur fungerar Copilot, var kommer den föreslagna texten från?
 
 Copilot använder [Microsoft Azure OpenAI-tjänst](/azure/cognitive-services/openai/overview) för att komma åt kraftfulla språkmodeller som analyserar och genererar naturligt språk. Dessa modeller har tränats på en stor mängd textdatauppsättningar. Som ett resultat kan Copilot generera föreslagna, personliga svar på engelska baserat på en minimal mängd indata, som en artikels attribut, kategori eller beskrivning. 
 
-### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>Vilken är kvaliteten på den text som föreslås av Copilot?
+### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a><a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>Vilken är kvaliteten på den text som föreslås av Copilot?
 
 Eftersom den underliggande tekniken bakom Copilot använder AI som har tränats på ett brett utbud av källor, är det genererade innehållet inte alltid sakligt eller lämpligt. Vissa förslag kan till och med innehålla tveksamt eller olämpligt innehåll. Det är ditt ansvar att granska och redigera de förslag som har skapats för att säkerställa att det är korrekt och lämpligt.
 
 För information om olämpliga förslag, gå till vad som [Vad har gjorts med kränkande och skadliga textförslag?](/dynamics365/business-central/ai-faq?&tabs=oversight#whats-done-about-abusive-and-harmful-text-suggestions).
 
-### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>Hur kan jag förbättra de förslag jag får från en Copilot?
+### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a><a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>Hur kan jag förbättra de förslag jag får från en Copilot?
 
 Det finns några saker du kan göra för att få ut så mycket som möjligt av de förslag som medföljer Copilot:
 
@@ -70,13 +70,13 @@ Det finns några saker du kan göra för att få ut så mycket som möjligt av d
 
 Mer information finns i [Förbättra och anpassa textförslag](item-marketing-text.md#improve-and-tailor-text-suggestions).
 
-### <a name="what-if-im-not-satisfied-with-the-generated-text"></a>Vad händer om jag inte är nöjd med den genererade texten?
+### <a name="what-if-im-not-satisfied-with-the-generated-text"></a><a name="what-if-im-not-satisfied-with-the-generated-text"></a>Vad händer om jag inte är nöjd med den genererade texten?
 
 För att hjälpa oss att förbättra texten, välj **Är detta ett bra förslag?** på sidan **Skapa med Copilot** som du kan svara med en tumme upp (jag gillar) eller tumme ner (behöver förbättras).
 
 ![Visar artikelkort med fönstret marknadsföringstext](media/create-with-copilot-window-feedback.png)
 
-### <a name="can-admins-disable-copilot-if-so-how"></a>Kan administratörer inaktivera Copilot? Hur gör jag?
+### <a name="can-admins-disable-copilot-if-so-how"></a><a name="can-admins-disable-copilot-if-so-how"></a>Kan administratörer inaktivera Copilot? Hur gör jag?
 
 Business Central erbjuder administratörer två sätt att inaktivera Copilot i förhandsgranskningen:
 
@@ -90,13 +90,13 @@ För att lära dig mer [Konfigurera marknadsföringstext (förhandsversion) för
 
 ## [Rättvisa](#tab/fairness)
 
-### <a name="does-copilot-work-with-languages-other-than-english"></a>Fungerar Copilot med andra språk än engelska?
+### <a name="does-copilot-work-with-languages-other-than-english"></a><a name="does-copilot-work-with-languages-other-than-english"></a>Fungerar Copilot med andra språk än engelska?
 
 För närvarande stöder Copilot endast engelska. Felaktiga svar kan returneras om användarna talar med systemet på andra språk än engelska.
 
 ## [Den mänskliga kontrollen](#tab/oversight)
 
-### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>Vad har man gjort åt kränkande och skadliga textförslag?
+### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a><a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>Vad har man gjort åt kränkande och skadliga textförslag?
 
 I Azure OpenAI-tjänsten lagras frågor och slutprodukter från tjänsten som används för att övervaka missbruk och för att utveckla och förbättra kvaliteten på Azure OpenAI innehållshanteringssystem. [Lär dig mer om innehållshantering och filtrering](/azure/cognitive-services/openai/concepts/content-filter).
 
@@ -104,13 +104,13 @@ Auktoriserade Microsoft-anställda kan få åtkomst till dina meddelanden och ko
 
 Mer information finns i [Data, sekretess och säkerhet för Azure OpenAI-tjänst](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Kan jag välja bort processen för loggning och mänsklig granskning?
+### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a><a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Kan jag välja bort processen för loggning och mänsklig granskning?
 
 Som en del av att tillhandahålla Azure Open AI förhandsversion, behandlar Microsoft och lagrar kunddata som skickas till tjänsten, samt utlämnande av innehåll, i syfte (1) att övervaka och förebygga grova eller skadliga användningar av tjänsten och (2) utveckling, testning och förbättring av möjligheterna avsedda att förhindra missbruk av och/eller skadliga resultat från tjänsten.Auktoriserad Microsoft-personal kan granska data som har utlösta våra automatiserade system för att undersöka och kontrollera eventuella missbruk och kan vid begränsade stickprov av termer som inte har flaggats av våra automatiserade system för att säkerställa till att systemen fungerar som de ska. Behörig Microsoft-personal kan också komma åt och använda dessa data för att förbättra våra system som övervakar och förhindrar grova eller skadliga användningar av tjänsten.Läs mer om [villkor för förhandsversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
 
 ## [Sekretess](#tab/privacy)
 
-### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Vilken data samlar kapaciteten in? Hur används uppgifterna?
+### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a><a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Vilken data samlar kapaciteten in? Hur används uppgifterna?
 
 Förmågan samlar ditt svar till frågan **Är detta ett bra förslag?** på sidan **Skapa med Copilot** som kan vara antingen tumme upp (jag gillar) eller tummen ner (behöver förbättras).
 
@@ -120,7 +120,7 @@ Vi använder dessa uppgifter för att utvärdera och förbättra kvaliteten på 
 
 ---
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Översikt över marknadsföringstext för AI-baserad artikel med Copilot](ai-overview.md)  
 [Konfigurera marknadsföringstext för AI-baserad artikel med Copilot som en administratör](enable-ai.md)  

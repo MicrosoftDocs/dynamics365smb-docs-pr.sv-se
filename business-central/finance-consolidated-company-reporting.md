@@ -12,7 +12,7 @@ ms.date: 09/29/2022
 ms.author: bholtorf
 ---
 
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidera ekonomiska data från flera företag
+# <a name="consolidating-financial-data-from-multiple-companies"></a><a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidera ekonomiska data från flera företag
 
 Vissa organisationer använder [!INCLUDE [prod_short](includes/prod_short.md)] i flera affärsenheter eller juridiska enheter. Andra använder [!INCLUDE [prod_short](includes/prod_short.md)] i dotterbolag som ska rapportera till överordnade organisationer. I båda fallen använder revisorer inbyggda verktyg för att konsolidera ekonomiska data.  
 
@@ -35,7 +35,7 @@ Du kan lägga upp det konsoliderade företaget i en databas på samma sätt som 
 > [!TIP]
 > Att konsolidera ekonomiska data kan vara särskilt användbart i samband med koncerninterna processer. Mer information finns i [Hantera koncerninterna transaktioner](intercompany-manage.md).
 
-## <a name="use-the-consolidated-trial-balance-report"></a>Använd rapporten Konsoliderad råbalans
+## <a name="use-the-consolidated-trial-balance-report"></a><a name="use-the-consolidated-trial-balance-report"></a>Använd rapporten Konsoliderad råbalans
 
 Rapport **Konsoliderad råbalans** kan ge dig en överblick över din verksamhets övergripande ekonomiska hälsa. Rapporten kombinerar redovisningstransaktioner från var och ett av företagen i ett nytt företag som du skapar för att innehålla konsoliderade data. Detta företag kallas normalt för det *konsoliderade företaget*. Det konsoliderade företaget är bara en behållare för konsoliderade data och saknar levande affärsdata. Företagen som du inkluderar i det konsoliderade företaget blir **Affärsenheter** i rapporten. Mer information finns i [Konfigurera företagskonsolidering](finance-consolidated-company-reporting-setup.md). Om det är fyra affärsenheter eller färre kan rapporten **Konsoliderad råbalans (4)** användas.  
 
@@ -46,11 +46,11 @@ Rapporten visar en linje för varje konto och följer kontoplanens struktur. Ett
 * De gjorda elimineringarna i det konsoliderade företaget. Elimineringar kommer alltid att visas för en period motsvarande det konsoliderade företagets räkenskapsår.
 * Totalen för det konsoliderade företaget efter elimineringar. Visas som en nettoförändring eller som saldo t.o.m. datum.
 
-## <a name="consolidate-data"></a>Konsolidera data
+## <a name="consolidate-data"></a><a name="consolidate-data"></a>Konsolidera data
 
 Överföringen av siffrorna från affärsenheterna till det konsoliderade företaget är den faktiska *konsolideringen*. Innan du konsoliderar kan det vara bra att kontrollera om det finns några skillnader mellan den grundläggande informationen i affärsenheterna och i det konsoliderade företaget. Det finns två rapporter som du kan använda för att testa databasen och filen.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>Så här testar du data före konsolidering
+### <a name="to-test-the-data-before-you-consolidate"></a><a name="to-test-the-data-before-you-consolidate"></a>Så här testar du data före konsolidering
 
 Testa data innan du överför den till det konsoliderade företaget. [!INCLUDE[prod_short](includes/prod_short.md)] tittar efter skillnader i information som finns i affärsenheterna och det konsoliderade företaget. Till exempel om kontonummer eller dimensionskoder är olika. Du måste åtgärda felen innan du kan köra rapporten. Du kan testa en databas, eller om du importerar data från en XML-fil kan du testa filen.  
 
@@ -61,7 +61,7 @@ Testa data innan du överför den till det konsoliderade företaget. [!INCLUDE[p
     * Testa en fil genom att välja åtgärden **testa fil**, ange namnet på filen och välj sedan **Skriv ut**.  
     * Om du vill testa en databas väljer du **Testa databas**.  
 
-### <a name="run-the-consolidation"></a>Kör konsolideringen
+### <a name="run-the-consolidation"></a><a name="run-the-consolidation"></a>Kör konsolideringen
 
 När du har testat data kan du starta konsolideringen överför den till det konsoliderade företaget.  
 
@@ -71,7 +71,7 @@ När du har testat data kan du starta konsolideringen överför den till det kon
 4. I avsnittet Filter anger du ett filter för den aktuella affärsenheten eller det aktuella företagsnamnet.  
 5. Du kan också schemalägga en rapport att köras vid en tidpunkt som passar dig.  
 
-## <a name="eliminate-repeated-transactions"></a>Eliminera upprepade transaktioner
+## <a name="eliminate-repeated-transactions"></a><a name="eliminate-repeated-transactions"></a>Eliminera upprepade transaktioner
 
 När du har konsoliderat företagen måste du hitta och eliminera alla transaktioner som registreras mer än en gång mellan företag. Bearbeta konsolideringselimineringar är en manuell process.  
 
@@ -96,7 +96,7 @@ En rad skapas för varje konto enligt kontoplanens uppställning. Ett konto visa
 * Beskrivningen kopierad från redovisningsjournalen.
 * Det konsoliderade företagets total efter elimineringarna om de är bokförda.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Exportera och importera konsoliderade data mellan databaser
+## <a name="export-and-import-consolidated-data-between-databases"></a><a name="export-and-import-consolidated-data-between-databases"></a>Exportera och importera konsoliderade data mellan databaser
 
 Om data för en affärsenheter är i en annan databas måste du exportera konsolideringsdata till en fil innan du kan inkludera den i konsolideringen. Varje företag måste exporteras var för sig. I detta avseende används batch-jobbet **Exportera konsolidering**.  
 
@@ -112,7 +112,7 @@ De exporterade posterna innehåller följande fält: **Kontonr**, **Bokföringsd
 3. Det dimensionsvärde som exporteras för transaktionen är det konsoliderade företagets dimensionsvärde som har lagts upp i fältet **Konsolideringskod** för det dimensionsvärdet. Om inget dimensionsvärde har angetts för det konsoliderade företaget i fältet **Konsolideringskod** för det dimensionsvärdet, exporteras själva dimensionsvärdet till raden.  
 4. XML-filerna innehåller dessutom valutakurserna i konsolideringsperioden. Dessa kurser placeras i ett separat avsnitt i början av filen.  
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Ställa in företagskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  

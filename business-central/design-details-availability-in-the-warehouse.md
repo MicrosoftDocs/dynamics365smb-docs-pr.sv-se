@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Disposition i distributionslagret
+# <a name="design-details-availability-in-the-warehouse"></a><a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Disposition i distributionslagret
 
 Håll dig uppdaterad om artikeldispositionen för att säkerställa att utgående order flödar effektivt och att leveranstiderna är optimala.  
 
@@ -21,13 +21,13 @@ Innan du fördelar kvantiteter till plockningar för utgående flöden verifiera
 
 När villkoren inte är uppfyllda visas felmeddelanden. Ett vanligt meddelande är det allmänna "finns inget att hantera". -meddelande. Meddelandet kan visas av flera olika orsaker, både i utgående och inkommande flöden, där en dokumentrad innehåller fältet **Ant. att hantera**.
 
-## <a name="bin-content-and-reservations"></a>Lagerplatsinnehåll och reservationer
+## <a name="bin-content-and-reservations"></a><a name="bin-content-and-reservations"></a>Lagerplatsinnehåll och reservationer
 
 Artikelantal finns både som dist.lager transaktioner och som artikeltransaktioner i lager. Dessa två transaktionstyper innehåller information om var artiklarna finns och om de är tillgängliga. Distributionslagertransaktioner definierar en artikels tillgänglighet per lagerplats och lagerplatstyp, vilket kallas lagerplatsinnehåll. Artikeltransaktioner definierar en artikels disposition genom dess reservation till avgående dokument.  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beräknar den kvantitet som är tillgänglig för plockning när lagerplatsinnehållet kopplas till reservationer.  
 
-## <a name="quantity-available-to-pick"></a>Disponibelt antal att plocka
+## <a name="quantity-available-to-pick"></a><a name="quantity-available-to-pick"></a>Disponibelt antal att plocka
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reserverar artiklar för pågående leveranser av försäljningsorder så att de inte plockas för andra försäljningsorder som levereras tidigare. [!INCLUDE [prod_short](includes/prod_short.md)] subtraherar antal artiklar som redan bearbetas enligt följande:
 
@@ -46,7 +46,7 @@ Resultatet blir tillgängligt i dessa dokument i kvantitetsfälten, till exempel
 > [!NOTE]  
 > För prioriteten för reservationer subtraheras antalet som ska reserveras från antalet som är disponibelt att plockas. Till exempel om antalet som är tillgängligt på plocklagerplatser är 5 enheter, men 100 enheter finns på införsel-lagerplatser, och du försöker att reservera mer än 5 enheter för ytterligare en order, kommer ett felmeddelande visas eftersom den här extra kvantiteten måste vara tillgänglig på plocklagerplatser.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Beräknar disponibelt antal att plocka
+### <a name="calculating-the-quantity-available-to-pick"></a><a name="calculating-the-quantity-available-to-pick"></a>Beräknar disponibelt antal att plocka
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beräknar antalet som är tillgängligt att plocka så här:  
 
@@ -56,7 +56,7 @@ Följande diagram visar de olika elementen i beräkningen.
 
 ![Tillgänglig för plockning med reservationsöverlappning.](media/design_details_warehouse_management_availability_2.png "Tillgänglig för plockning med reservationsöverlappning")  
 
-## <a name="quantity-available-to-reserve"></a>Disponibelt antal att reservera
+## <a name="quantity-available-to-reserve"></a><a name="quantity-available-to-reserve"></a>Disponibelt antal att reservera
 
 Eftersom begreppen för lagerplatsinnehåll och reservation finns till samtidigt, måste antalet artiklar som är disponibla att reservera justeras mot fördelningar till utgående distributionslagerdokument.  
 
@@ -73,7 +73,7 @@ Resultatet visas i fältet **Totalt disponibelt antal** på sidan **Reservation*
 
 På en reservationsrad visas antalet som inte kan reserveras, eftersom det har fördelats i distributionslagret, i fältet **Fördelat antal i dist.lager** på sidan **Reservation**.  
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Beräknar disponibelt antal att reservera
+### <a name="calculating-the-quantity-available-to-reserve"></a><a name="calculating-the-quantity-available-to-reserve"></a>Beräknar disponibelt antal att reservera
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beräknar antalet som är tillgängligt att reservera så här:  
 
@@ -83,7 +83,7 @@ Följande diagram visar de olika elementen i beräkningen.
 
 ![Tillgänglig för reservering per lagerställefördelning.](media/design_details_warehouse_management_availability_3.png "Tillgänglig för reservering per lagerställefördelning")  
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Översikt över Warehouse Management: ](design-details-warehouse-management.md)
 [Visa artiklarnas disposition](inventory-how-availability-overview.md)

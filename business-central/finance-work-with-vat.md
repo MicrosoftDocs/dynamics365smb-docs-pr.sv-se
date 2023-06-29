@@ -11,7 +11,7 @@ ms.search.form: '7, 118, 130, 142, 459, 460, 525'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
+# <a name="work-with-vat-on-sales-and-purchases"></a><a name="work-with-vat-on-sales-and-purchases"></a>Arbeta med moms på försäljning och inköp
 
 Om landet eller regionen kräver att du beräknar och rapporterar mervärdesskatt (moms) på försäljnings- och inköpstransaktioner kan du ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att beräkna moms. Mer information finns i [ställa in beräkningar och bokföring av metoder för moms](finance-setup-vat.md).
 
@@ -20,7 +20,7 @@ Det finns emellertid vissa momsrelaterade uppgifter som du kan göra manuellt. D
 > [!TIP]
 > Du kan låta [!INCLUDE[prod_short](includes/prod_short.md)] validera momsregistreringsnummer och annan företagsinformation när du skapar eller uppdaterar dokument. Mer information finns i [validera momsregistreringsnummer](finance-how-validate-vat-registration-number.md).
 
-## <a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a>Beräkna och visa momsbelopp i försäljnings- och inköpsdokument
+## <a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a><a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a>Beräkna och visa momsbelopp i försäljnings- och inköpsdokument
 
 När du väljer ett artikelnummer i fältet **Nr**. i ett försäljnings-eller inköpsdokument fyller [!INCLUDE[prod_short](includes/prod_short.md)] i fälten **Enhetspris** och **Radbelopp**. Enhetspriset kommer antingen från kortet **Artikel** eller från artikelpriserna för artikeln och kunden. [!INCLUDE[prod_short](includes/prod_short.md)] beräknar radbeloppet när du anger en kvantitet för raden.  
 
@@ -28,7 +28,7 @@ Om du vill att enhetspriser och radbelopp ska inkludera moms – till exempel om
 
 Du kan beräkna och visa momsbelopp i försäljnings- och inköpsdokument på olika sätt beroende på vilken typ av kund eller leverantör som du handlar med. Du kan också ändra det momsbelopp som har beräknats manuellt, exempelvis för att detta ska matcha det momsbelopp som har beräknats av leverantören för en given transaktion.
 
-### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inkludera eller exkludera moms för priser och radbelopp
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a><a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inkludera eller exkludera moms för priser och radbelopp
 
 Om du väljer kryssrutan **Priser inklusive moms** på ett försäljningsdokument inkluderar fälten **Enhetspris** och **Radbelopp** moms. Som standard ingår inte moms i värdena i dessa fält. Namnen på fälten visar om priserna inkluderar moms.  
 
@@ -43,7 +43,7 @@ Följande tabell innehåller en översikt över hur enhetsprisbeloppen för ett 
 |Aktivt|Inte aktivt|Programmet beräknas momsbeloppet som inkluderas i fältet **Enhetspris** på **artikelkortet** med hjälp av den momsprocentsats i förhållande till rörelsebokföringsmallen för moms (pris) samt produktbokföringsmallen för moms. **Enhetspris** på artikelkortet, minus momsbeloppet, anges sedan i **Enhetspris exl. moms** på försäljningsraderna. Mer information finns i [Använda rörelsebokföringsmallar för moms och kundprisgrupper](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
 |Aktivt|Aktivt|**Enhetspriset** på artikelkortet kopieras till fältet **Enhetspris inkl. moms**.|
 
-#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Använda rörelsebokföringsmallar för moms och kundprisgrupper
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a><a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Använda rörelsebokföringsmallar för moms och kundprisgrupper
 
 Om du vill att moms ska ingå i priserna kan du använda rörelsebokföringsmallar för moms för att beräkna beloppet baserat på momsbokföringsinställningarna för gruppen. Mer information finns i [Konfigurera bokföringsmallar för moms](finance-setup-vat.md#set-up-vat-business-posting-groups).
 
@@ -57,13 +57,13 @@ Beroende på vad du vill göra kan du tilldela en rörelsebokföringsmall för m
 > [!NOTE]
 > Om du inte anger någon grupp i fältet **Rörelsebokföringsmall för moms (pris)** kommer inte att inkluderas i priser.
 
-#### <a name="examples"></a>Exempel
+#### <a name="examples"></a><a name="examples"></a>Exempel
 
 Faktorer såsom det land eller den region som du säljer till, eller vilken typ av branscher du säljer till, kan påverka det momsbelopp som du måste redovisa. En restaurang kan till exempel debitera 6 % moms för måltider som äts på plats, och 17 % för avhämtming. Detta gör du genom att skapa en rörelsebokföringsmall för moms (pris) för på plats och en för avhämtning.
 
-## <a name="working-with-vat-date"></a>Arbeta med momsdatum
+## <a name="working-with-vat-date"></a><a name="working-with-vat-date"></a>Arbeta med momsdatum
 
-### <a name="vat-date-in-documents"></a>Momsdatum i dokument
+### <a name="vat-date-in-documents"></a><a name="vat-date-in-documents"></a>Momsdatum i dokument
 
 När du skapar nya försäljnings- eller inköpsdokument baseras **momsdatumet** på inställningen i fältet **Standarddatum för moms** på sidan **Redovisningsinställningar**. Det här standardvärdet kan vara samma som **Bokföringsdatum** eller **Dokumentdatum**. Om du behöver ett annat momsdatum kan du manuellt ändra värdet i fältet **Momsdatum**. När du bokför dokumentet visas **momsdatumet** i bokföringsdokumentet och i moms-och redovisningstransaktionerna.
 
@@ -79,7 +79,7 @@ När du skapar nya försäljnings- eller inköpsdokument baseras **momsdatumet**
 > [!NOTE]
 > Om du lämnar **Momsdatum** tomt, [!INCLUDE [prod_short](includes/prod_short.md)] används standardkonfigurationen från **Standardmomsdatumet** i **Redovisningsinställningar** som **Momsdatum** i den bokförda transaktionen.  
 
-### <a name="modifying-the-vat-date-in-posted-entries"></a>Ändra momsdatum i bokförda transaktioner
+### <a name="modifying-the-vat-date-in-posted-entries"></a><a name="modifying-the-vat-date-in-posted-entries"></a>Ändra momsdatum i bokförda transaktioner
 
 Vid behov kan du ändra de bokförda dokumenten för momsdatumet. För att ändra datumet i fältet **momsdatum** för bokförda dokument, följ stegen nedan:
 
@@ -94,7 +94,7 @@ Vid behov kan du ändra de bokförda dokumenten för momsdatumet. För att ändr
 > [!NOTE]
 > Om dokumentet har fler än en **Momstransaktion** behöver du bara ändra värdet i fältet **Momsdatum** i en transaktion som är kopplad till dokumentet. För att hålla transaktionerna konsekventa ändrar [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt momsdatumet i momstransaktioner som hör till den här transaktionen. [!INCLUDE [prod_short](includes/prod_short.md)] uppdaterar **momsdatumet** i andra tabeller (redovisningstransaktioner och dokument) uppdateras, men endast relaterade till den här transaktionen.  
 
-## <a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a>Manuellt korrigera momsbelopp i försäljnings- och inköpsdokument
+## <a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a><a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a>Manuellt korrigera momsbelopp i försäljnings- och inköpsdokument
 
 Du kan korrigera redan bokförda momstransaktioner så att du kan ändra det totala beloppet för utgående eller ingående moms utan att ändra nettobeloppet. Om du t.ex. tar emot en faktura från en leverantör med ett felaktigt momsbelopp.  
 
@@ -102,13 +102,13 @@ Du kan korrigera redan bokförda momstransaktioner så att du kan ändra det tot
 
 Om en kassarabatt har beräknats baserad på ett fakturabelopp inklusive moms kan du återställa den del av momsbeloppet som utgörs av kassarabatten när kassarabatten beviljas. Observera att du måste aktivera fältet **Justering för kassarabatt** i både redovisningsinställningarna generellt och i momsbokföringsinställningarna för särskilda kombinationer av rörelsebokföringsmallar för moms och produktbokföringsmallar för moms.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Så här ställer du in systemet för manuell momsregistrering i försäljningsdokument
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Så här ställer du in systemet för manuell momsregistrering i försäljningsdokument
 Nedan beskrivs hur du aktiverar manuella momsändringar för försäljningsdokument. Stegen är liknande på sidan **Inköpsinställningar**.
 
 1. På sidan  **Redovisningsinställningar** ange en  **Max. tillåten momsdifferens** mellan det belopp som har beräknats automatiskt och det manuella beloppet.  
 2. På sidan **Tillåt momsdifferens** i fönstret **Försäljningsinställningar** .  
 
-### <a name="to-adjust-vat-for-a-sales-document"></a>Så här justerar du moms för ett försäljningsdokument
+### <a name="to-adjust-vat-for-a-sales-document"></a><a name="to-adjust-vat-for-a-sales-document"></a>Så här justerar du moms för ett försäljningsdokument
 
 1. Öppna den aktuella försäljningsordern.  
 2. Välj åtgärden **Statistik**.  
@@ -118,16 +118,16 @@ Nedan beskrivs hur du aktiverar manuella momsändringar för försäljningsdokum
 > [!NOTE]  
 > Det totala momsbeloppet för fakturan visas på raderna grupperade per moms-ID. Du kan justera beloppet i fältet **Momsbelopp**på raderna för varje moms-ID. När du ändrar fältet **Momsbelopp** utförs en kontroll för att undersöka att du inte har ändrat momsen med mer än det belopp som du har angett som maximal tillåten differens. Om beloppet ligger utanför intervallet i **Max. tillåten momsdifferens** visas en varning som anger den maximala tillåtna differensen. Du kommer inte att kunna fortsätta förrän beloppet justeras inom godkända parametrar. Klicka på **OK** och ange ett annat **Momsbelopp** som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen fördelas momsen proportionellt över dokumentraderna som har samma moms-ID.  
 
-## <a name="calculating-vat-manually-using-journals"></a>Manuell momsberäkning med hjälp av journaler
+## <a name="calculating-vat-manually-using-journals"></a><a name="calculating-vat-manually-using-journals"></a>Manuell momsberäkning med hjälp av journaler
 Du kan också justera momsbelopp i redovisnings-, försäljnings- och inköpsjournaler. Detta kan vara nödvändigt när du anger en leverantörsfaktura i journalen och det förekommer en differens mellan det momsbeloppet som [!INCLUDE[prod_short](includes/prod_short.md)] beräknade och momsbeloppet på den leverantörsfaktura du har tagit emot.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Så här ställer du in systemet för manuell momsregistrering i redovisningsjournaler
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Så här ställer du in systemet för manuell momsregistrering i redovisningsjournaler
 Du måste utföra följande steg innan du kan ange moms manuellt i en redovisningsjournal.  
 
 1. På sidan  **Redovisningsinställningar** ange en  **Max. tillåten momsdifferens** mellan det belopp som har beräknats automatiskt och det manuella beloppet.  
 2. På sidan **Redovisningsjournalmallar** markerar du kryssrutan **Tillåt momsdifferens** för den relevanta journalen.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Så här ställer du in systemet för manuell momsregistrering i försäljnings- och inköpsjournaler
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Så här ställer du in systemet för manuell momsregistrering i försäljnings- och inköpsjournaler
 
 Du måste utföra följande steg innan du kan ange moms manuellt i en försäljnings- och inköpsjournal.
 
@@ -138,10 +138,10 @@ Du måste utföra följande steg innan du kan ange moms manuellt i en försäljn
 > [!NOTE]  
 > Om differensen är större visas en varning som anger den maximala tillåtna differensen. Innan du fortsätter måste du justera beloppet. Klicka på **OK** och ange ett annat belopp som ligger inom det tillåtna intervallet. Om momsdifferensen är lika med eller lägre än den maximala tillåtna differensen visar [!INCLUDE[prod_short](includes/prod_short.md)] differensen i fältet **Momsdifferens**.  
 
-## <a name="posting-import-vat-with-purchase-invoices"></a>Bokföra du importmoms med inköpsfakturor
+## <a name="posting-import-vat-with-purchase-invoices"></a><a name="posting-import-vat-with-purchase-invoices"></a>Bokföra du importmoms med inköpsfakturor
 I stället för att använda journaler för att bokföra en importmomsfaktura, kan du använda en inköpsfaktura.  
 
-### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurera inköp för bokföring av fakturor med specificerad importmoms
+### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a><a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurera inköp för bokföring av fakturor med specificerad importmoms
 
 1. Skapa ett leverantörskort för den importavdelning som skickar importmomsfakturan till dig. **Gen. rörelsebokföringsmall** och **Moms rörelsebokföringsmall** måste ställas in på samma sätt som redovisningskontot för importmomsen.  
 2. Skapa en **produktbokföringsmall** för importmomsen och skapa **produktbokf.mall för standardmoms** för den kopplade **produktbokföringsmallen** för importmomsen.  
@@ -151,7 +151,7 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 6. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Bokföringsinställningar** och välj sedan relaterad länk.  
 7. Skapa en kombination av **Gen. rörelsebokföringsmall** för skattemyndigheterna och **Produktbokföringsmall** för importmoms. Välj importmervärdeskattredovisningskontot för den här nya kombinationen i fältet **Inköpskonto**.  
 
-### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Så här skapar du en ny faktura för leverantören när du har slutfört inställningen
+### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a><a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Så här skapar du en ny faktura för leverantören när du har slutfört inställningen
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Skapa en ny inköpsfaktura.  
@@ -161,11 +161,11 @@ I stället för att använda journaler för att bokföra en importmomsfaktura, k
 6. I fältet **Inköpspris exkl. moms** skriver du in momsbeloppet.  
 7. Bokföra fakturan  
 
-## <a name="processing-certificates-of-supply"></a>Behandla leveransintyg
+## <a name="processing-certificates-of-supply"></a><a name="processing-certificates-of-supply"></a>Behandla leveransintyg
 
 När du säljer varor till en kund i ett annat EU-land/region, måste du skicka kunden ett leveransintyg som kunden måste signera och returnera till dig. Följande tillvägagångssätt används för att behandla leveransintyg för försäljningsutleveranser, men samma moment gäller för serviceleveranser av artiklar och returutleveranser till leverantörer.  
 
-### <a name="to-view-certificate-of-supply-details"></a>Så här visar du information om leveransintyg
+### <a name="to-view-certificate-of-supply-details"></a><a name="to-view-certificate-of-supply-details"></a>Så här visar du information om leveransintyg
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
 3. Välj **Information om leveransintyg**.  
@@ -184,7 +184,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 > [!Note]  
 >  Du kan granska och skriva ut dokumentet. När du väljer **Skriv ut leveransintyg** och skriver ut dokumentet, väljs kryssrutan **Utskrivet** automatiskt. Dessutom, om den inte redan har angetts, uppdateras statusen för intyget till **Obligatoriskt**. Du inkluderar det utskrivna intyget med utleveransen.  
 
-### <a name="to-print-a-certificate-of-supply"></a>Så här skriver du ut ett leveransintyg
+### <a name="to-print-a-certificate-of-supply"></a><a name="to-print-a-certificate-of-supply"></a>Så här skriver du ut ett leveransintyg
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
@@ -203,7 +203,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 
 8. Du måste skicka det utskrivna leveransintyget till kunden för signatur.  
 
-### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Så här uppdaterar du statusen för ett leveransintyg för en utleverans
+### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a><a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Så här uppdaterar du statusen för ett leveransintyg för en utleverans
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda försäljningsutleveranser** och väljer sedan relaterad länk.  
 2. Välj den relevanta försäljningsutleveransen till en kund i ett annat EU-land/-region.  
@@ -217,7 +217,7 @@ När du säljer varor till en kund i ett annat EU-land/region, måste du skicka 
 
 Om du vill visa en grupp av certifikat startar du från på sidan **Leveransintyg** och uppdaterar sedan information om status för utestående intyg när du tar emot dem från kunderna. Det kan vara användbart när du vill söka efter alla intyg som har en viss status, till exempel **Obligatoriskt**, för vilka du vill uppdatera statusen till **Ej inlevererat**.  
 
-### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Så här uppdaterar du statusen för en grupp med leveransintyg
+### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a><a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Så här uppdaterar du statusen för en grupp med leveransintyg
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leveransintyg** och väljer den relaterade länken.  
 2. Filtrera fältet **Status** fältet till värdet som du vill ha för att skapa listan över intyg som du vill hantera.  
@@ -234,9 +234,9 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 > * Så här skapar du manuellt ett leveransintyg  
 > * Så här skriver du ut ett leveransintyg.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Förbereda beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  

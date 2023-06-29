@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 03/23/2022
 ms.author: jswymer
 ---
-# <a name="entering-data"></a>Ange data
+# <a name="entering-data"></a><a name="entering-data"></a>Ange data
 
 Det finns många allmänna funktioner som hjälper dig att ange data lättare, snabbare och mer exakt. Dessa grundläggande principer och avancerade funktioner för dataregistrering beskrivs i den här artikeln.  
 
@@ -19,7 +19,7 @@ Det finns många allmänna funktioner som hjälper dig att ange data lättare, s
 
 I exemplen nedan används demonstrationsdata.
 
-## <a name="work-with-editable-fields"></a>Arbeta med redigerbara fält
+## <a name="work-with-editable-fields"></a><a name="work-with-editable-fields"></a>Arbeta med redigerbara fält
 
 Fält i [!INCLUDE[prod_short](includes/prod_short.md)] kan innehålla olika redigerbara data, t. ex. text eller valutabelopp. Redigerbara fält visar oftast en inmatningsruta där du kan skriva eller välja ett värde. Fält som inte kan redigeras visas vanligtvis med grå bakgrund.   
 
@@ -33,7 +33,7 @@ Vissa redigerbara fält innehåller en väljare som du kan använda för att ang
 |Växel eller kryssruta|Vissa fält ger ett enkelt alternativ med värdena *Ja* eller *Nej*. Växeln används för att ange det här värdet och visas alltid som en kryssrutor i listor|
 |Assist redigera       |Vissa fält tillhandahåller anpassade väljare som passar för att söka efter och välja det bästa värdet för fältet, till exempel popup-fönster.|
 
-### <a name="modifying-a-field-value"></a>Ändra ett fältvärde
+### <a name="modifying-a-field-value"></a><a name="modifying-a-field-value"></a>Ändra ett fältvärde
 
 Om du vill ändra värdet i ett fält måste du först ställa in fokus på det fältet. Du ställer in fokus genom att göra följande:
 
@@ -57,25 +57,25 @@ När markören visas i slutet av fältvärdet:
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
-## <a name="keyboard-shortcuts"></a>Kortkommandon
+## <a name="keyboard-shortcuts"></a><a name="keyboard-shortcuts"></a>Kortkommandon
 
 Det finns flera kortkommandon som du kan använda för att arbeta med musen och snabba upp din datainmatning. Dessa kortkommandon är särskilt användbara när du vill ha stora och repetitiva uppgifter.
 
 Mer information om genvägar finns i [Kortkommandon](keyboard-shortcuts.md). I den här artikeln beskrivs några kortkommandon.
 
-## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Påskynda datainmatning med snabbinmatning
 
 Snabbinmatning är en funktion som skapats för datainmatning vid användning av tangentbordet. Snabbinmatning fungerar på fält (t. ex. på kortsidorna) och i listor (rader och kolumner). Det är praktiskt när du utför återkommande uppgifter som kräver att flera poster skapas i sekvens. Exempel omfattar en grupp försäljningsorder eller registrering av nya artiklar.
 
 Du kan använda Tabb-tangenten för att gå från ett fält på en sida till nästa redigerbara fält. Nackdelen med att använda Tabb-tangenten är att det alltid går sekventiellt till nästa fält. <!-- even if the field is non-editable or seldom filled it in.-->Snabbinmatning låter dig ändra den här sökvägen. Med snabbinmatning gör att du kan använda <kbd>returtangenten</kbd> för att navigera genom enbart de fält som du är intresserad av. Snabbinmatning hoppar över icke redigerbara fält och fält som du vanligtvis inte fyller i. Du kanske redan har upptäckt denna funktion på vissa sidor. Detta beteende beror på att fälten som ska inkluderas när du trycker på retur och vilka som ska hoppas över har fördefinierats. Du kan anpassa snabbinmatning genom att anpassa arbetsytan och optimera hur du anger data på varje sida.
 
-### <a name="how-quick-entry-works"></a>Hur snabbinmatning fungerar
+### <a name="how-quick-entry-works"></a><a name="how-quick-entry-works"></a>Hur snabbinmatning fungerar
 
 Varje fält kan markeras som antingen *inkluderas i snabbinmatning* eller *exkluderas från snabbinmatning*. Fält som inkluderas i snabbinmatning infogas i sökvägen när du trycker på <kbd>retur</kbd>. Fält som utesluts från snabbinmatning kommer inte.
 
 När du är klar med att ange data i ett fält trycker du bara på <kbd>Retur</kbd> för att bekräfta ändringarna och gå till nästa fält. Om du vill byta riktning och fortsätter till föregående fält trycker du på <kbd>Shift</kbd>+<kbd>Retur</kbd>. Mer information om genvägar finns i [kortkommandon för snabbinmatning för fält](keyboard-shortcuts.md#QuickEntry).
 
-#### <a name="tips-and-tricks"></a>Tips och råd
+#### <a name="tips-and-tricks"></a><a name="tips-and-tricks"></a>Tips och råd
 
 Listan nedan ger användbar information om hur du använder snabbinmatning.
 
@@ -86,7 +86,7 @@ Listan nedan ger användbar information om hur du använder snabbinmatning.
 - Snabbinmatning fungerar oavsett om fälten är obligatoriska. Så det är en bra idé att kontrollera att obligatoriska fält är inkluderade i snabbinmatning.
 - Som standard inkluderas de flesta fält i snabbinmatning. Så i början kommer uppgiften troligen att utesluta fält från snabbinmatning.
 
-### <a name="to-change-quick-entry-fields"></a>Så här ändrar du snabbinmatningsfält
+### <a name="to-change-quick-entry-fields"></a><a name="to-change-quick-entry-fields"></a>Så här ändrar du snabbinmatningsfält
 
 Om du vill ställa in snabbinmatning för fält använder du anpassning.
 
@@ -95,13 +95,13 @@ Om du vill ställa in snabbinmatning för fält använder du anpassning.
 
 Mer information om anpassning finns i [Anpassa arbetsyta](ui-personalization-user.md).
 
-## <a name="mandatory-fields"></a>Obligatoriska fält
+## <a name="mandatory-fields"></a><a name="mandatory-fields"></a>Obligatoriska fält
 
 När du anger data på sidor markeras vissa fält med en röd asterisk. Den röda asterisken innebär att fältet måste fyllas i för att slutföra en viss operation. Ett exempel är när du bokför en transaktion som använder värdet i fältet.  
 
 Även om ett fält är obligatoriskt tvingas du inte fylla i fältet innan du fortsätter till andra fält eller stänger sidan. Den röda asterisken fungerar endast som en påminnelse att du kommer att spärras från att slutföra en viss process.  
 
-## <a name="finding-data-as-you-type"></a>Söka efter data allt eftersom du skriver
+## <a name="finding-data-as-you-type"></a><a name="finding-data-as-you-type"></a>Söka efter data allt eftersom du skriver
 
  När du börjar skriva tecken i ett fält visas en listruta med möjliga fältvärden. Listan ändras allt eftersom du skriver fler tecken, och du kan välja rätt värde när det visas.  
 
@@ -111,7 +111,7 @@ När du anger data på sidor markeras vissa fält med en röd asterisk. Den röd
 
 - Lista – Visar den uppsättning alternativ (fasta val) som finns för fältet. Du kan bara markera ett av alternativen.  
 
-## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kopiera och klistra in fält och rader för vanliga frågor
+## <a name="copying-and-pasting-faq-fields-and-lines"></a><a name="copying-and-pasting-faq-fields-and-lines"></a>Kopiera och klistra in fält och rader för vanliga frågor
 
 Du kan kopiera en eller flera rader från en lista eller ett enstaka fält på en sida. Klistra sedan in det du kopierade på samma sida, en annan sida eller ett externt dokument. Du kan t. ex. klistra in Microsoft Excel eller Outlook-e-post. Kortfattat, för att kopiera väljer du <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C i macOS) på tangentbordet. Klistra in genom att välja <kbd>Ctrl</kbd>+<kbd>V</kbd> eller <kbd>cmd+V</kbd> i macOS.
 
@@ -119,25 +119,25 @@ I en lista kopierar du fältet i samma kolumn i raden ovanför och klistra in de
 
 Mer information finns i avsnittet [kopiera och klistra in vanliga frågor](faq-copy-paste.yml).
 
-## <a name="filtering-line-items"></a>Filtrera radposter
+## <a name="filtering-line-items"></a><a name="filtering-line-items"></a>Filtrera radposter
 
 För att starta filtrering, välj ![Filterrutaikon](media/open-filter-pane-icon.png "Filterrutaikon") högst upp i listan eller välj <kbd>Shift</kbd>+<kbd>F3</kbd> för att öppna filterrutan. Du kan arbeta med filterrutan som på vilken lista som helst. Mer information finns i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
 Filtrering är särskilt användbart när du visar och analyserar längre dokument. Anta att du öppnar en bokförd försäljningsfaktura. Sedan kan du filtrera radartiklarna så att de visar alla radartiklar som har en individuell rabatt på över 5 %. Du kan också filtrera fram cykel tillbehör med "pro" i namnet.
 
-## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusera på radartiklar
+## <a name="focusing-on-line-items"></a><a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusera på radartiklar
 
 När du arbetar med dokument som innehåller en del av en radartikel, kan du växla vyn så att endast radartiklarna fokuseras. Exempel på dokument är försäljningsorder och faktura. Radartikeldelen expanderas så att den upptar nästan hela arbetsytan. Den döljer andra delar av sidan utom området åtgärder högst upp. Denna layout ger dig en bättre översikt över radobjekten och ger mer plats att arbeta med dem.
 
 Du får särskilt fördelar när du arbetar med stora radartikellistor och du vill ange data snabbt. Den här funktionen ger även avancerad filtreringskapacitet. På samma sätt som i andra listor blir det ännu enklare att bläddra och söka igenom radobjekt.
 
-### <a name="switching-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
+### <a name="switching-the-focus-on-and-off"></a><a name="switching-the-focus-on-and-off"></a>Aktivera och inaktivera fokus
 
 Om du vill fokusera på rad artiklar markerar du var som helst i delen för rad objekt och väljer ![ikonen fokusläge.](media/focus-mode.png "Ikonen Fokusläge") i det övre högra hörnet eller välj <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd>.
 
 Om du vill växla tillbaka till normal läget väljer du ![ikonen fokusläge.](media/focus-mode.png "Ikonen Fokusläge") eller välj <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F12</kbd> igen.
 
-## <a name="multitasking-across-multiple-pages"></a>Multikörning över flera sidor
+## <a name="multitasking-across-multiple-pages"></a><a name="multitasking-across-multiple-pages"></a>Multikörning över flera sidor
 
 Du kan öppna ett kort eller en dokument sida i ett nytt fönster. När du öppnar ett nytt fönster kan du:
 
@@ -163,11 +163,11 @@ Ett ytterligare sätt att multitaska är att öppna [!INCLUDE[prod_short](includ
 > [!NOTE]
 > Använd inte funktionen **Kopiera** i webbläsaren för att skapa den nya fliken eftersom detta kan medföra att åtgärder på en flik blockerar åtgärder på andra flikar då dessa ingår i samma session.
 
-## <a name="entering-quantities-by-calculation"></a>Ange antal genom beräkning
+## <a name="entering-quantities-by-calculation"></a><a name="entering-quantities-by-calculation"></a>Ange antal genom beräkning
 
 När du skriver siffror i antalsfält, till exempel fältet **Antal** för en artikeljournalrad, kan du skriva formeln i stället för summan.  
 
-### <a name="examples"></a>Exempel
+### <a name="examples"></a><a name="examples"></a>Exempel
 
 - Om du skriver 19+19 beräknas fältet till 38.  
 
@@ -177,7 +177,7 @@ När du skriver siffror i antalsfält, till exempel fältet **Antal** för en ar
 
 - Om du skriver 12/4 beräknas fältet till 3.  
 
-## <a name="entering-negative-numbers"></a>Ange negativa antal
+## <a name="entering-negative-numbers"></a><a name="entering-negative-numbers"></a>Ange negativa antal
 
 Du kan ange negativa antal på två sätt. Numret -20,5 som kan anges:  
 
@@ -190,14 +190,14 @@ I båda fallen registreras beloppet som -20,5.
 
 Om det sista tecknet i uttrycket är **+** eller **-**, kommer hela uttrycket registreras med det tecknet. Ett exempel, **10-20+**, ska leda till 10 och inte -10.  
 
-## <a name="entering-dates-and-times"></a>Ange datum och tider
+## <a name="entering-dates-and-times"></a><a name="entering-dates-and-times"></a>Ange datum och tider
 
 Du kan ange datum och tider i alla datumfält. Du kan skriva datum med eller utan avgränsare.
 
 > [!NOTE]  
 > Hur du anger datum och klockslag beror på dina **region**-inställningar. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a>Ange datum
+### <a name="entering-dates"></a><a name="entering-dates"></a>Ange datum
 
 Du kan antingen använda dataväljaren för att välja ett datum från en kalender, eller också kan du ange datumen manuellt. Det här avsnittet innehåller en kort översikt över hur du anger datum. Mer information finns i [arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
 
@@ -223,7 +223,7 @@ I stället för att skriva in ett visst datum kan du skriva in någon av dessa k
 |a|Detta anger arbetsdatumet som har lagts upp i programmet. Om du vill ändra arbetsdatumet, [ändra grundläggande inställningar](ui-change-basic-settings.md). Det är praktiskt att använda arbetsdatum om du har många transaktioner med ett annat datum än dagens datum.|
 |a|Detta anger att datumet efter a är ett avslutsdatum, till exempel A120131.|  
 
-## <a name="entering-times"></a>Ange tider
+## <a name="entering-times"></a><a name="entering-times"></a>Ange tider
 
 När du anger tider kan du infoga vilken avgränsare du vill mellan enheterna. Detta är dock inte obligatoriskt. Du behöver inte skriva minuter, sekunder eller AM/PM.  
 
@@ -241,11 +241,11 @@ I följande tabell visas de olika sätt som du kan ange tider på, samt hur de t
 
  Du måste ange två siffror för varje tidsenhet om du inte använder någon avgränsare.  
 
-## <a name="entering-combined-datetimes"></a>Ange kombinerade datum och tider
+## <a name="entering-combined-datetimes"></a><a name="entering-combined-datetimes"></a>Ange kombinerade datum och tider
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a>Ange varaktighet
+## <a name="entering-duration"></a><a name="entering-duration"></a>Ange varaktighet
 
 Du anger varaktigheten som en siffra följd av en enhet.  
 
@@ -266,7 +266,7 @@ Här följer några exempel.
 
  Numret 5 konverteras till 5 timmar om enheten är timmar.  
 
-## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Ange decimalavgränsare som används av numeriska tangentbord
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Ange decimalavgränsare som används av numeriska tangentbord
 
 När du anger data med hjälp av <kbd>decimalavgränsare</kbd> för numeriska tangenter, bestäms den verkliga decimalavgränsare som anges i fältet av regionsinställningarna för Business Central. De flesta regioner använder punkt (.) eller komma (,) som en avgränsare för decimalvärden, som vanligtvis visas i valuta belopp. Decimalknappen på knappsatsen anpassas till din region. Det är ofta annorlunda än punkt eller kommatecken på resten av tangentbordet. Du anger region i Business Central på sidan **Mina inställningar**.
 
@@ -275,9 +275,9 @@ Anta exempelvis att du använder ett numeriskt tangentbord som använder en punk
 > [!TIP]
 > Ibland kan det hända att du vill använda decimaltecknet för att ange en punkt (.). Anta att du har angett ett datumintervall i ett filter, t.ex. `01/01/2022..04/01/2022` eller något som kräver en punkt. För att använda detta, välj tangenterna <kbd>Alt</kbd>+<kbd>decimalavgränsare</kbd> på det numeriska tangentbordet. Denna tangentkombination växlar decimaltecknet mellan en punkt och den decimalavgränsare som bestäms av inställningen **region**.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

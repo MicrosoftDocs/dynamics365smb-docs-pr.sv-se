@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Återföra journalbokningar och ångra inleveranser/utleveranser
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a><a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Återföra journalbokningar och ångra inleveranser/utleveranser
 
 Återföring av journalbokningar används till exempel för att korrigera fel och rensa en gammal periodisering innan du registrerar en ny. En omvänd post är densamma som den ursprungliga posten, men har ett motsatt tecken i fältet **belopp**. Den omvända posten måste ha samma dokumentnummer och bokföringsdatum som den ursprungliga posten. När du har återfört en post måste du skapa en korrekt post.
 
@@ -20,7 +20,7 @@ Om du har bokfört fel negativt antal, till exempel om en inköpsorder med fel a
 
 Om du har bokfört fel positivt antal, till exempel en utleverans eller en inköpsreturorder med fel antal artiklar och bokfört den som levererad men inte fakturerad, kan du ångra bokföringen.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Att återföra bokföringen av en redovisningstransaktion journal
+## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a><a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Att återföra bokföringen av en redovisningstransaktion journal
 
 Du kan återföra poster från alla sidor **Transaktioner**. Följande procedur baseras sidan **redovisningstransaktioner**.
 
@@ -34,7 +34,7 @@ Du kan återföra poster från alla sidor **Transaktioner**. Följande procedur 
 3. Välj åtgärden **Återför** på sidan **Återför transaktionsposter**.
 4. Klicka på knappen **Ja** för att återföra.
 
-## <a name="to-post-a-negative-entry"></a>Bokföra en negativ transaktion
+## <a name="to-post-a-negative-entry"></a><a name="to-post-a-negative-entry"></a>Bokföra en negativ transaktion
 
 Använd fältet **Korrigering** för att bokföra en negativ debet istället för en kredit, eller för att bokföra en negativ kredit istället för en debet för ett konto. Som standard är fältet tillgängligt i alla journaler. Fälten **Debetbelopp** och **Kreditbelopp** innehåller både ursprungstransaktionen och den korrigerade transaktionen. Dessa fält påverkar inte kontosaldot.  
 
@@ -44,7 +44,7 @@ Använd fältet **Korrigering** för att bokföra en negativ debet istället fö
 4. På journalraden som du vill aktivera för negativa poster väljer du kryssrutan **Korrigering**.  
 5. Välj åtgärden **Bokför** och välj sedan knappen **Ja** för att bokföra journalen.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Så här ångrar du ett antal i en bokförd inköspleverans
+## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a><a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Så här ångrar du ett antal i en bokförd inköspleverans
 
 Nedan beskrivs hur du återställer en bokförd inleverans eller bokförda resurser. Momenten är liknande för bokförda utleveranser.
 
@@ -57,7 +57,7 @@ En rättningsrad lagts till under den valda inleveransraden. Om antalet har inle
 
 Fälten **Inlevererat antal** och **Inlevrd. antal ej faktrd.** på den relaterade inköpsordern är nollställda.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Så här ångrar du ett bokfört antal i bokförda returleveranser
+## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a><a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Så här ångrar du ett bokfört antal i bokförda returleveranser
 
 I följande steg finns beskrivningar om att:
 
@@ -83,7 +83,7 @@ Momenten är liknande för bokförda returinleveranser.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Ångra monteringsboking](assembly-how-to-undo-assembly-posting.md)  
 [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  

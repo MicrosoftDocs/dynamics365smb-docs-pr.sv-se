@@ -10,17 +10,17 @@ ms.custom: bap-template
 ms.search.keywords: incoming document
 ms.search.form: '600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
 ---
-# <a name="manage-the-intercompany-inbox-and-outbox"></a>Hantera koncerninterna in- och utkorgar
+# <a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a>Hantera koncerninterna in- och utkorgar
 
 Koncerninterna transaktioner som du tar emot från dina koncerninterna partner visas i den **koncerninterna inkorgen**. Om du vill veta hur du behandlar inkommande koncerninterna transaktioner går du till [Behandla inkommande koncerninterna transaktioner](#process-incoming-intercompany-transactions). Koncerninterna transaktioner som du skickar till partner visas i den **koncerninterna utkorgen**. Om du vill veta hur du behandlar utgående koncerninterna transaktioner går du till [Behandla utgående koncerninterna transaktioner](#to-process-outgoing-intercompany-transactions).
 
 Vissa transaktioner hanteras dock automatiskt beroende på de koncerninterna inställningarna. Du kan ställa in källföretaget och partner företagen så att de automatiskt skapar dokument och journaler som motsvarar transaktioner som företag skickar via den koncerninterna redovisningsjournalen. Om du vill lära dig mer om koncerninterna journaler går du till [Fyll i och bokför en koncernintern journal](intercompany-how-work-documents-journals.md#fill-in-and-post-an-intercompany-journal).  
 
-## <a name="organizing-the-inbox"></a>Ordna inkorgen
+## <a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a>Ordna inkorgen
 
 Du kan använda filterfälten överst i inkorgen när du vill fastställa vilka transaktioner som ska visas på sidan. Om du till exempel bara vill utforska transaktioner som en viss partner skapat, använd filter **transaktionskälla** och **Kod för koncernintern partner**.  
 
-### <a name="transaction-source"></a>Transaktionskälla
+### <a name="transaction-source"></a><a name="transaction-source"></a>Transaktionskälla
 
 Vad du kan göra med en transaktion beror på om den har:  
 
@@ -29,7 +29,7 @@ Vad du kan göra med en transaktion beror på om den har:
 
 Du kan använda fältet **Visa transaktionskälla** om du vill filtrera sidan **Koncerninterna inkorgstransaktioner** så att endast dessa typer av transaktioner visas. Du kan även filtrera efter koncerninterna partner eller efter innehållet i fältet **Radåtgärd**.  
 
-#### <a name="created-by-intercompany-partner"></a>Skapats av en koncernintern partner
+#### <a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a>Skapats av en koncernintern partner
 
  När du får en ny transaktion som har skapats av din partner kan du välja att:
 
@@ -37,15 +37,15 @@ Du kan använda fältet **Visa transaktionskälla** om du vill filtrera sidan **
 * Avvisa transaktionen (returnera den till partnern)  
 * Avbryta transaktionen (ta bort transaktionen utan att returnera den till partnern)  
 
-#### <a name="returned-from-intercompany-partner"></a>Returnerad från koncernintern partner
+#### <a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a>Returnerad från koncernintern partner
 
 Om din koncerninterna partner avvisar en transaktion måste du avbryta transaktionen i inkorgen och sedan skapa korrigeringsrader eller återföra journalen eller dokumentet.  
 
-## <a name="recreating-inbox-entries"></a>Återskapa poster i inkorgen
+## <a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a>Återskapa poster i inkorgen
 
 Om du har accepterat en transaktion i inkorgen men därefter tagit bort dokumentet eller journalen i stället för att bokföra den kan du återskapa posten i inkorgen och acceptera den på nytt.  
 
-## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Skaffa en översikt över koncerninterna transaktioner för en period
+## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Skaffa en översikt över koncerninterna transaktioner för en period
 
 Du kan skapa en översikt över alla koncerninterna transaktioner som du har skickat och tagit emot under en period. I rapporten **Konc.int. transaktioner** visas alla koncerninterna redovisningstransaktioner, kundreskontratransaktioner och leverantörsreskontratransaktioner.
 
@@ -55,7 +55,7 @@ Du kan skapa en översikt över alla koncerninterna transaktioner som du har ski
 > * På sidan **Koncernintern inställning** aktivera växlingen **Automatiskt skicka transaktioner** för synkroniseringspartner.
 > * För partnerföretag, på sidan **Koncernintern partner** aktiverar du växlingen **Acceptera transaktioner automatiskt**.  
 
-## <a name="import-intercompany-transactions-from-a-file"></a>Importera koncerninterna transaktioner från en fil
+## <a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a>Importera koncerninterna transaktioner från en fil
 
 [!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
 
@@ -68,7 +68,7 @@ Om du har en koncernintern partner som inte finns i samma databas som ditt före
 
 Transaktionerna importeras till inkorgen där du kan bearbeta dem.
 
-## <a name="process-incoming-intercompany-transactions"></a>Hantera inkommande koncerninterna transaktioner
+## <a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a>Hantera inkommande koncerninterna transaktioner
 
 När koncerninterna partner skickar koncerninterna transaktioner hamnar de i den koncerninterna inkorgen. Du måste utvärdera varje transaktion i inkorgen och välja lämplig åtgärd.  
 
@@ -83,7 +83,7 @@ Rader som du avvisar och återgår till partnern går till din koncerninterna ut
 
 För rader som en partner avvisat och returnerat till dig måste du bokföra en korrigering av den ursprungliga transaktionen som du har bokfört i företaget.
 
-## <a name="to-process-outgoing-intercompany-transactions"></a>Så här hanterar du utgående koncerninterna transaktioner
+## <a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a>Så här hanterar du utgående koncerninterna transaktioner
 
 När du bokför en koncernintern journal eller ett koncerninternt dokument, eller när du skickar en koncernintern orderbekräftelse, skickas transaktionerna till den koncerninterna utkorgen. Du måste öppna utkorgen och bearbeta dem för att de ska skickas till dina koncerninterna partner.  
 
@@ -96,7 +96,7 @@ Använd åtgärden **returnera till inkorgen** för att flytta rader till inkorg
 
 Om du använder åtgärden **Avbryt** bokför du en korrigering av den ursprungliga transaktionen som du har bokfört i företaget.  
 
-## <a name="recreate-intercompany-inbox-transactions"></a>Återskapa koncerninterna inkorgstransaktioner
+## <a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a>Återskapa koncerninterna inkorgstransaktioner
 
 Ibland kan du behöva återskapa en transaktion i inkorgen eller utkorgen. Om du till exempel har accepterat en transaktion i inkorgen men sedan tagit bort dokumentet eller journalen i stället för att bokföra den, kan du återskapa posten i inkorgen och acceptera den på nytt.  
 
@@ -105,7 +105,7 @@ Den här proceduren beskriver hur du återskapar inkorgstransaktioner, men det f
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Hanterade konc.int. inkorgstransaktioner** och väljer sedan relaterad länk.  
 2. På sidan **Hanterade konc.int. inkorgstransaktioner** markerar du raden med den transaktion som du vill återskapa i inkorgen och väljer sedan åtgärden **Återskapa inkorgstransaktion**.  
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Hantera koncerninterna transaktioner](intercompany-manage.md)  
 [Ekonomi](finance.md)  

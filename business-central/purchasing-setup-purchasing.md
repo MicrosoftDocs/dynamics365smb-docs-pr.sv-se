@@ -11,7 +11,7 @@ ms.search.form: '175, 176, 177, 178, 456, 460, 5727, 5729'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# <a name="setting-up-purchasing"></a>Ställa in inköp
+# <a name="setting-up-purchasing"></a><a name="setting-up-purchasing"></a>Ställa in inköp
 
 Innan du kan hantera inköpsprocesser måste du konfigurera reglerna och värdena som definierar företagets inköpspolicyer.
 
@@ -21,11 +21,11 @@ En separat serie uppgifter relaterade till att registrera nya leverantörer är 
 
 Finansrelaterade inköp, till exempel betalningssätt och valutor, beskrivs i avsnittet för finanskonfiguration. Läs mer i [Ställa in finanser](finance-setup-finance.md). På samma sätt kan lagerrelaterade inköpsinställningar, till exempel enheter och artikelspårningskoder, finnas i [avsnittet lagerinställningar](inventory-setup-inventory.md).
 
-## <a name="purchases-and-payables-setup"></a>Konfiguration av inköp och leverantörsreskontra
+## <a name="purchases-and-payables-setup"></a><a name="purchases-and-payables-setup"></a>Konfiguration av inköp och leverantörsreskontra
 
 Innan du arbetar med inköp och leverantörsreskontra går du till sidan **Konfiguration av inköp och leverantörsreskontra** och anger hur inköpsvärden bokförs och de nummerserier som används för dokument om leverantörer och inköp.
 
-### <a name="general-settings"></a>Allmänna inställningar
+### <a name="general-settings"></a><a name="general-settings"></a>Allmänna inställningar
 
 På snabbfliken **Allmänt** väljer du alternativ för t.ex. hur rabatter ska beräknas och bokföras samt hur fakturor ska avrundas. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -37,15 +37,15 @@ Vissa fält ändrar också beteendet eller beror på hur andra fält är instäl
 
 Läs mer om fälten [**Ext. Dok.nr obligatoriskt**](#external-document-number) och [**Exakt kostnadsåterföring**](#exact-cost-reversing) nedan.
 
-### <a name="number-series-settings"></a>Inställningar för nummerserier
+### <a name="number-series-settings"></a><a name="number-series-settings"></a>Inställningar för nummerserier
 
 På snabbfliken **Nummerserier** måste du definiera unika identifieringskoder som ska användas för leverantörer, fakturor och andra inköpsdokument. Numrering är viktig inte enbart för interna processer, men kan också behöva följa lokala regler. Det kan vara värt att ställa in alla serier på sidan **Nr-serier** på förhand, istället för att skapa nya från **Konfiguration av inköp och leverantörsreskontra**. Läs mer i [Skapa nummerserier](ui-create-number-series.md).
 
-## <a name="external-document-number"></a>Externt dokumentnummer
+## <a name="external-document-number"></a><a name="external-document-number"></a>Externt dokumentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="exact-cost-reversing"></a>Exakt kostnadsåterföring
+## <a name="exact-cost-reversing"></a><a name="exact-cost-reversing"></a>Exakt kostnadsåterföring
 
 Funktionen **Exakt kostnadsåterföring** bidrar till att säkerställa att returnerade varor värderas till samma kostnad som när de ursprungligen togs ur lagret, med hjälp av en fast applikation istället för att följa ett genomsnitt eller en först in, först ut-metod. Mer information finns i avsnittet [Designdetaljer: Fast applikation](design-details-item-application.md#fixed-application). Om en extra kostnad senare läggs till det ursprungliga inköpet uppdateras värdet på inköpsreturen i enlighet därmed.
 
@@ -53,7 +53,7 @@ Med funktionen aktiverad kan en returtransaktion endast bokföras genom att ange
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## <a name="more-purchasing-setups"></a>Fler inköpsinställningar
+## <a name="more-purchasing-setups"></a><a name="more-purchasing-setups"></a>Fler inköpsinställningar
 
 | Till | Gå till |
 | --- | --- |
@@ -70,9 +70,9 @@ Med funktionen aktiverad kan en returtransaktion endast bokföras genom att ange
 | Ange standardrapporter som ska användas för olika dokumenttyper. |[Rapportval i Business Central](across-report-selections.md)|
 |Ange om användare tillåts bokföra inköpsfakturor och om de måste bokföra tillsammans med en leverans. |[Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Inköp](purchasing-manage-purchasing.md)  
 [Översikt över installation](setup.md)  

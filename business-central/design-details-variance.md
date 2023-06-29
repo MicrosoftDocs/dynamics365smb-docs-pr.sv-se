@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-variance"></a>Designdetaljer: Varians
+# <a name="design-details-variance"></a><a name="design-details-variance"></a>Designdetaljer: Varians
 Varians definieras som skillnaden mellan den faktiska kostnaden och standardkostnaden, enligt beskrivningen i följande formel.  
 
  faktisk kostnad – standardkostnad = varians  
@@ -20,7 +20,7 @@ Varians definieras som skillnaden mellan den faktiska kostnaden och standardkost
 > [!NOTE]  
 >  Omvärderingen påverkar inte avvikelseberäkningen, eftersom omvärderingen endast ändrar lagervärdet.  
 
-## <a name="example"></a>Exempel
+## <a name="example"></a><a name="example"></a>Exempel
  Följande exempel visar hur avvikelser beräknas för inköpta artiklar. Det baseras på följande scenario:  
 
 1.  Användaren köper en artikel för BVA 90,00, men standardkostnaden är BVA 100,00. Inköpsvariansen är -10,00 BVA.  
@@ -33,7 +33,7 @@ Varians definieras som skillnaden mellan den faktiska kostnaden och standardkost
 
  ![Beräkning av inköpsvarians.](media/design_details_inventory_costing_11_purchase_variance.png "Beräkning av inköpsvarians")  
 
-## <a name="determining-the-standard-cost"></a>Fastställa standardkostnaden
+## <a name="determining-the-standard-cost"></a><a name="determining-the-standard-cost"></a>Fastställa standardkostnaden
  Standardkostnaden används när du beräknar avvikelse och beloppet som ska kapitaliseras. Eftersom standardkostnaden kan ändras med tiden på grund av manuell uppdateringsberäkning måste du ha en tidpunkt då standardkostnaden är fast för avvikelseberäkning. Det här är punkten där lagerökningen faktureras. För producerade eller monterade artiklar punkten, är den punkt när standardkostnaden fastställs den punkt när kostnaden justeras.  
 
  Följande tabell visar hur olika kostnadsandelar beräknas för tillverkade och monterade artiklar när du använder funktionen Beräkna standardkostnad.  
@@ -52,7 +52,7 @@ Varians definieras som skillnaden mellan den faktiska kostnaden och standardkost
 |**Uppsum. kap.overh.kostnad**|Ej tillämpbart|![Ekvation 8.](media/design_details_inventory_costing_11_equation_8.png "Ekvation 8")|  
 |**Uppsum. tillverk.overh.kost**|Ej tillämpbart|![Ekvation 9.](media/design_details_inventory_costing_11_equation_9.png "Ekvation 9")|  
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: värderingsprinciper](design-details-costing-methods.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  

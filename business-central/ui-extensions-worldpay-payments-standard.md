@@ -10,14 +10,14 @@ ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="the-worldpay-payments-standard-extension"></a>Tillägget WorldPay Payments Standard
+# <a name="the-worldpay-payments-standard-extension"></a><a name="the-worldpay-payments-standard-extension"></a>Tillägget WorldPay Payments Standard
 
 Tillägget WorldPay Payments Standard låter dig erbjuda kunder ett praktiskt alternativ till betalningar via banköverföringar eller kreditkort. Inte bara det, betalningar via betalningstjänster hamnar vanligtvis snabbare i på ditt bankkonto.
 Om du aktiverar tillägget och skickar en försäljningsfaktura eller försäljningsorder via e-post, innehåller dokumentet en länk till tjänsten i e-postmeddelandet och det bifogade PDF-dokumentet. Kunden kan välja länken och sedan använda betalningstjänsten för att göra betalningen.
 
 Att aktivera tillägg för betalningstjänster är gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du måste du kontakta betalningstjänsten för att få ett konto. Mer information finns i [Aktivera kundbetalning via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

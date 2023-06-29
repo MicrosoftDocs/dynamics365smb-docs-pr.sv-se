@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Ställ in och hantera en legotillverkningsoperation
+# <a name="set-up-and-process-a-subcontracting-operation"></a><a name="set-up-and-process-a-subcontracting-operation"></a>Ställ in och hantera en legotillverkningsoperation
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata i legotillverkning.
 
-## <a name="scenario"></a>Scenario
+## <a name="scenario"></a><a name="scenario"></a>Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. På grund av kapacitetsbegränsningarna planerar du att använda en underleverantör för att producera artikeln **SP-SCM1009, Airpot**.
 
 Här skapar du en ny släppt produktionsorder för 12 enheter av artikeln SP-SCM1009, Airpot, med routing-SP-SCM1009-SUB-2. Använd arbetsbladet för underleverantörer för att generera en inköpsorder för produktionen och avsluta sedan operationen genom att ta emot och fakturera inköpsordern.
 
-## <a name="steps"></a>Steg
+## <a name="steps"></a><a name="steps"></a>Steg
 
 1. Skapa den nya släppta produktionsordern för 12 enheter av artikeln SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Här skapar du en ny släppt produktionsorder för 12 enheter av artikeln SP-SCM
 
 Utflödet från artikel SP-SCM1009 Airpot är nu registrerat.
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

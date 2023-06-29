@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-"></a>Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-"></a><a name="overview-of-tasks-to-set-up-"></a>Översikt över arbetsuppgifter för att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardinställningar för de flesta verksamhetsprocesser, men du kan ändra konfigurationen så att denna passar organisationens behov. Med hjälp av artiklarna i [Business Central snabbstart](quick-start-business-central.md) kan du ta de första stegen att göra [!INCLUDE [prod_short](includes/prod_short.md)] till din egen. Den här artikeln innehåller en översikt över hur du kan konfigurera [!INCLUDE [prod_short](includes/prod_short.md)] för organisationen.
 
@@ -55,13 +55,13 @@ Vissa områden kräver att du är administratör i din [!INCLUDE[prod_short](inc
 > [!NOTE]
 > Som administratör kan du skapa ett nytt företag i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services som är ett verktyg utformat för att förkorta distributionstider, förbättra implementeringskvaliteten, införa en upprepningsbar implementeringsmetod samt öka produktiviteten genom att automatisera och underlätta återkommande uppgifter. Läs mer på [Konfigurera ett företag med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Konfigurera appar
+## <a name="set-up-apps"></a><a name="set-up-apps"></a>Konfigurera appar
 
 Utöver huvudfunktionerna i [!INCLUDE [prod_short](includes/prod_short.md)] lägger Microsoft till några appar som anges på [sidan **Tilläggshantering**](https://businesscentral.dynamics.com/?page=2500). Från och med oktober 2022 ger varje app en länk som öppnar konfigurationssidan – bara välj åtgärden **Konfigurera**.  
 
 Du kan också lägga till funktioner i [!INCLUDE [prod_short](includes/prod_short.md)] genom att lägga till AppSource-appar. Läs mer på [Anpassa Business Central Online med hjälp av tillägg](ui-extensions.md).  
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Företagsinformation, översikt](admin-company-information.md)  
 [Administration](admin-setup-and-administration.md)  

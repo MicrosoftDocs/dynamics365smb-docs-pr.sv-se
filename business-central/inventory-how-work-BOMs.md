@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 09/26/2022
 ms.author: a-reishima
 ---
-# <a name="work-with-bills-of-material"></a>Arbeta med strukturer
+# <a name="work-with-bills-of-material"></a><a name="work-with-bills-of-material"></a>Arbeta med strukturer
 
 Du använder strukturlistor (stycklistor) till strukturens överordnade artiklar som monteras från andra artiklar eller tillverkas av resurser eller maskingrupper från komponenter.
 
-## <a name="assembly-boms-or-production-boms"></a>Monteringsstrukturer eller produktionsstrukturer
+## <a name="assembly-boms-or-production-boms"></a><a name="assembly-boms-or-production-boms"></a>Monteringsstrukturer eller produktionsstrukturer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder två olika typer av strukturer:
 
@@ -36,7 +36,7 @@ Begreppet av resurser i produktionen är mycket mer avancerad än i monteringsha
 
 Både monteringsorder och produktionsorder kan kopplas direkt till försäljningsorder. Du kan dock endast använda monteringsorder att anpassa slutartikeln direkt för en kundförfråga med försäljningsordern.
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
 [Skapa produktionsstrukturer](production-how-to-create-production-boms.md)  

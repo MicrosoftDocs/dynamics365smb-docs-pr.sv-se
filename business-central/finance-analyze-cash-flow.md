@@ -11,7 +11,7 @@ ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862
 ms.date: 12/20/2021
 ms.author: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysera kassaflödet i företaget
+# <a name="analyzing-cash-flow-in-your-company"></a><a name="analyzing-cash-flow-in-your-company"></a>Analysera kassaflödet i företaget
 Diagrammen i rollcentret Revisor ger en inblick som hjälper dig att ta beslut om vad du ska göra med dina kontanter.  
 
 | För att svara på frågor som de här | Använd det här diagrammet |
@@ -36,15 +36,15 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 * Subtraherar leverantörsreskontra och lägger till kundreskontra.  
 * Hoppar över dubbla försäljningsorder och inköpsorder.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Att visa ett kassaflödeskalkylblad
+## <a name="to-view-a-cash-flow-worksheet"></a><a name="to-view-a-cash-flow-worksheet"></a>Att visa ett kassaflödeskalkylblad
 
 1. Sök efter **Kassaflödesprognoser** och välj sedan relaterad länk.  
 2. Välj en kassaflödesprognos och välj sedan åtgärden **kassaflödeskalkylblad**.  
 3. På sidan **kassaflödekalkylblad** väljer du åtgärden **Föreslå kalkylarksrader**.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

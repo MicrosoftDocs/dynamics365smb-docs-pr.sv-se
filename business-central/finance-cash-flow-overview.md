@@ -12,15 +12,15 @@ ms.date: 12/20/2021
 ms.author: edupont
 ---
 
-# <a name="cash-flow-overview"></a>Kassaflöde, översikt
+# <a name="cash-flow-overview"></a><a name="cash-flow-overview"></a>Kassaflöde, översikt
 
 Att förstå kassainflöde och kassautflöde är nyckeln till att driva en framgångsrik verksamhet. Du kan använda kassaflöde för att enkelt skapa en kortfristig prognos som förutsäger hur och när du kan förvänta dig pengar in i och ut ur verksamheten. Det är viktigt att du vet att ditt företag har tillräckligt mycket kontanter för att betala fordringsägare och kostnader när de förfaller.
 
-## <a name="definition-of-cash-flow"></a>Definition av kassaflöde
+## <a name="definition-of-cash-flow"></a><a name="definition-of-cash-flow"></a>Definition av kassaflöde
 
 Termen *kassaflöde* används för att visa inbetalningar minus utbetalningar under en vald period. Det är en uppskattning av den mängd pengar du kan förvänta dig in i och ut ur din verksamhet, och innefattar alla förväntade intäkter och kostnader.
 
-## <a name="work-with-cash-flow"></a>Arbeta med kassaflöde
+## <a name="work-with-cash-flow"></a><a name="work-with-cash-flow"></a>Arbeta med kassaflöde
 
 Illustrationen visar en översikt över hur du kan arbeta med kassaflöde.
 
@@ -39,7 +39,7 @@ Illustrationen visar en översikt över hur du kan arbeta med kassaflöde.
 - Du kan använda ett batchjobb för att överföra information från områden i redovisningen, försäljning, inköp, service och anläggningstillgångar till förslaget. Sedan registrerar du förslagsrader för att göra en kassaflödesprognos.  
 - Du använder olika fönster, rapporter och diagram för att analysera och skriva ut en kassaflödesprognos som avser tillgänglighets- och tidslinjeöversikter.  
 
-## <a name="making-a-cash-flow-forecast"></a>Göra en prognos för kassaflöde
+## <a name="making-a-cash-flow-forecast"></a><a name="making-a-cash-flow-forecast"></a>Göra en prognos för kassaflöde
 
 Baserat på registrerade förslagsrader kan du regelbundet göra en kassaflödesprognos. Följande layout är en vanligen använd layout för en kassaflödesprognos. Layouten har tre avsnitt:
 
@@ -67,7 +67,7 @@ Nettokassaflöde eller kontanter i handen beräknas som totala inbetalningar min
 
 Prognosen kan sedan användas som ett internt beslutsverktyg som hjälper dig att planera framåt och göra viktiga strategiska beslut i verksamheten.
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Ställa in analys för kassaflöde](finance-setup-cash-flow-analyses.md)  
 [Analysera kassaflöde](finance-analyze-cash-flow.md)  

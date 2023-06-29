@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 12/16/2021
 ms.author: edupont
 ---
-# <a name="combine-shipments-on-a-single-invoice"></a>Kombinera leveranser på en enda faktura
+# <a name="combine-shipments-on-a-single-invoice"></a><a name="combine-shipments-on-a-single-invoice"></a>Kombinera leveranser på en enda faktura
 
 Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.  
 
 Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma kund och i samma valuta ha bokförts. Med andra ord måste du ha skapat minst två försäljningsorder och bokfört dem som levererade, men inte fakturerade. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser manuellt på en enda faktura
+## <a name="to-manually-combine-shipments-on-a-single-invoice"></a><a name="to-manually-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser manuellt på en enda faktura
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Mer information finns i [Så här fakturerar du försäljningsaktiviteter](sales-how-invoice-sales.md).
@@ -33,7 +33,7 @@ Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma 
 > [!TIP]  
 > Om du har levererat order där du fyller i fältet **Försäljningskundnr.** Skiljer sig från **Faktureringskundnr.**, visas inte raderna i rapporten **Hämta leveransrader**. Använd anpassning för att lägga till fältet **Försäljningskund** och ta bort filtret. Nu kan du lägga till leverans rader på fakturan oavsett värdet i fältet **Försäljningskundnr.** Om du vill använda fältet **Faktureringskundnr.** Fältet på leverans raderna matchar värdet på försäljningsfakturan.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura
+## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a><a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Så här kombinerar du utleveranser automatiskt på en enda faktura
 
 [!INCLUDE[prod_short](includes/prod_short.md)] väljer endast de försäljningsorder där **Kombinera leveranser** har valts. 
 
@@ -45,7 +45,7 @@ Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma 
 > [!NOTE]  
 >  Fakturorna måste bokföras manuellt om du inte har markerat kryssrutan **Bokför fakturor** för batch-jobbet.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Så här tar du bort öppna försäljningsorder efter kombinerad utleveransbokföring
+## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a><a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Så här tar du bort öppna försäljningsorder efter kombinerad utleveransbokföring
 
 När utleveranser kombineras på en faktura och bokförs, skapas en bokförd försäljningsfaktura för de fakturerade raderna. Innehållet i fältet **Fakturerat antal** på den ursprungliga avropsordern eller försäljningsordern uppdateras utifrån det fakturerade antalet.  
 
@@ -59,9 +59,9 @@ Du kan också ta bort enskilda försäljningsorder manuellt.
 
 Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel försäljningsavropsorder.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

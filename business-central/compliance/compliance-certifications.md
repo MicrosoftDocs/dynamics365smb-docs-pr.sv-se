@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# <a name="certifications"></a>Intyg
+# <a name="certifications"></a><a name="certifications"></a>Intyg
 
 Det här innehållet anger information om certifieringar i relation till [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Lands-/regionspecifika certifieringar och ackrediteringar
+## <a name="countryregion-specific-certifications-and-accreditations"></a><a name="countryregion-specific-certifications-and-accreditations"></a>Lands-/regionspecifika certifieringar och ackrediteringar
 
 I vissa länder eller regioner måste redovisningsprogram godkännas i enlighet med lokala skatteregler och ekonomiska krav. Vissa länder använder detta som ett årligt återkommande krav och andra som ett direkt krav att följa. Nedan visas en lista över de aktuella länderna/regionerna där Business Central har uppnått certifieringar.
 
@@ -27,11 +27,11 @@ I vissa länder eller regioner måste redovisningsprogram godkännas i enlighet 
 > [!NOTE]  
 > I länder/regioner där Microsoft inte använder en lokal version är det vanligen upp till partnern att få certifieringen av Business Central grundläggande produkt, inklusive dess lokalisering och andra funktioner överst.
 
-## <a name="other-certifications"></a>Andra certifieringar
+## <a name="other-certifications"></a><a name="other-certifications"></a>Andra certifieringar
 
 Business Central som molntjänst har uppnått certifieringar som ISO 27001 med mera. En fullständig lista över dessa certifieringar finns i [denna sidan (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a>Se även
 
 [Regelefterlevnad](compliance-overview.md)  
 [Programmets regelefterlevnad](compliance-application-compliance.md)  
