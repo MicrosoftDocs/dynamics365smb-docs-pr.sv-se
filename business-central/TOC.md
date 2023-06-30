@@ -998,6 +998,7 @@
 ### Indien
 #### [Översikt](LocalFunctionality/India/india-local-functionality.md)
 #### [Konfigurera bokföring av nummerserier](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Granskningskedja och redigeringsloggar för redovisningsprogramvara i Indien](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Skattemotor
 ##### [Översikt](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Konfiguration för import/export av skattemotor](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
