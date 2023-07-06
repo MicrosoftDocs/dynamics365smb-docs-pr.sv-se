@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7351,'
 ---
 
-# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a><a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Flytta artiklar i avancerad distributionslagerkonfigurationer med dirigerad plockning och artikelinförsel
+# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a><a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a><a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Flytta artiklar i avancerad distributionslagerkonfigurationer med dirigerad plockning och artikelinförsel
 
 Du kanske vill flytta artiklar mellan lagerplatser utan behov från ett källdokument. Du kanske till exempel vill göra det som en del av följande aktiviteter:
 
@@ -36,9 +36,9 @@ Sidorna **Transportkalkylark** , **Interna plockningar för distributionslager**
 * Artikelinförsel använd mallar för artikelinförsel
 * Plockning använder lagerplats rangordning och disposition
 
-## <a name="warehouse-movement-worksheet"></a><a name="warehouse-movement-worksheet"></a>Kalkylark för dist.lager transport
+## <a name="warehouse-movement-worksheet"></a><a name="warehouse-movement-worksheet"></a><a name="warehouse-movement-worksheet"></a>Kalkylark för dist.lager transport
 
-### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a><a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Så här flyttar du artiklar med dist.lager transport kalkylarket
+### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a><a name="to-move-items-with-the-warehouse-movement-worksheet"></a><a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Så här flyttar du artiklar med dist.lager transport kalkylarket
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Transportkalkylark** och väljer sedan relaterad länk.  
 2. Fyll i fälten på kalkylarket manuellt eller använd någon av följande åtgärder för att automatiskt fylla i raderna:
@@ -55,7 +55,7 @@ Sidorna **Transportkalkylark** , **Interna plockningar för distributionslager**
 
 3. Välj åtgärden **Skapa transport** för att skapa förflyttningen. När flytten är färdig kan du registrera den.  
 
-### <a name="to-register-the-warehouse-movement"></a><a name="to-register-the-warehouse-movement"></a>Så här registrerar du distributionslagertransporten:
+### <a name="to-register-the-warehouse-movement"></a><a name="to-register-the-warehouse-movement"></a><a name="to-register-the-warehouse-movement"></a>Så här registrerar du distributionslagertransporten:
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **transport** och väljer sedan relaterad länk.  
 2. Öppna transportdokumentet att registrera.  
@@ -71,9 +71,9 @@ Sidorna **Transportkalkylark** , **Interna plockningar för distributionslager**
 > [!NOTE]  
 > För lagerställen som använder dirigerad artikelinförsel och plockning kan du inte manuellt flytta artiklar på lagerplatser av typen**INLEVERERA** eftersom de ännu inte anses vara tillgängliga lager. Du måste föra in artiklarna på de här lagerplatserna innan de är tillgängliga för transport.
 
-## <a name="internal-pick"></a><a name="internal-pick"></a>Intern plockning
+## <a name="internal-pick"></a><a name="internal-pick"></a><a name="internal-pick"></a>Intern plockning
 
-### <a name="to-create-an-internal-pick"></a><a name="to-create-an-internal-pick"></a>Skapa en intern plockning
+### <a name="to-create-an-internal-pick"></a><a name="to-create-an-internal-pick"></a><a name="to-create-an-internal-pick"></a>Skapa en intern plockning
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Dist.lager intern plockning** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
@@ -82,7 +82,7 @@ Sidorna **Transportkalkylark** , **Interna plockningar för distributionslager**
 5. Välj åtgärden **Skapa plockning**. En plockinstruktion är nu klar att utföras av lagerpersonalen. Alternativt kan du välja åtgärden **Frisläppning** och skapa distributionslagerplockningar med hjälp av **Plockförslaget**. Om du vill lära dig mer om plockningsförslag kan du gå till [ Skapa plockningsdokument i bulk med plockningsförslaget](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. När plockningen är färdig kan du registrera den.  
 
-### <a name="to-register-the-warehouse-pick"></a><a name="to-register-the-warehouse-pick"></a>Så här registrerar du dist.lager plockning
+### <a name="to-register-the-warehouse-pick"></a><a name="to-register-the-warehouse-pick"></a><a name="to-register-the-warehouse-pick"></a>Så här registrerar du dist.lager plockning
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
 
@@ -94,9 +94,9 @@ Sidorna **Transportkalkylark** , **Interna plockningar för distributionslager**
 
 4. När du har utfört plockningen och placerat artiklarna i utleveransområdet eller på lagerstället för utleveranser väljer du åtgärden **Registrera plockning**.  
 
-## <a name="internal-put-away"></a><a name="internal-put-away"></a>Intern artikelinförsel
+## <a name="internal-put-away"></a><a name="internal-put-away"></a><a name="internal-put-away"></a>Intern artikelinförsel
 
-### <a name="to-create-an-internal-put-away"></a><a name="to-create-an-internal-put-away"></a>Skapa en intern art.införsel
+### <a name="to-create-an-internal-put-away"></a><a name="to-create-an-internal-put-away"></a><a name="to-create-an-internal-put-away"></a>Skapa en intern art.införsel
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager intern art.införsel** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
@@ -110,7 +110,7 @@ Sidorna **Transportkalkylark** , **Interna plockningar för distributionslager**
 6. Välj åtgärden **Skapa artikelinförsel**. En artikelinförselinstruktion är nu klar för lagerpersonalen. Alternativt kan du välja åtgärden **Frisläppning** och skapa distributionslagerinförslar med hjälp av sidan **Artikelinförselförslag**. Om du vill lära dig mer om artikelinförselkalkylark kan du gå till [ Skapa artikelinförseldokument i bulk med artikelinförselkalkylark](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. När artikelinförsel är färdig kan du registrera den.  
 
-### <a name="to-register-the-warehouse-put-away"></a><a name="to-register-the-warehouse-put-away"></a>Fortsätt med att registrera artikelinförsel för distributionslager
+### <a name="to-register-the-warehouse-put-away"></a><a name="to-register-the-warehouse-put-away"></a><a name="to-register-the-warehouse-put-away"></a>Fortsätt med att registrera artikelinförsel för distributionslager
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **artikelinförsel** och väljer sedan relaterad länk.
 2. Öppna dist.lager artikelinförsel som är klara att hantera.  
@@ -130,7 +130,7 @@ Sidorna **Transportkalkylark** , **Interna plockningar för distributionslager**
 
 5. När du har placerat alla artiklarna på lagerställen enligt anvisningarna, välj åtgärden **Registrera artikelinförsel**.  
 
-## <a name="to-register-a-movement-that-has-already-happened"></a><a name="to-register-a-movement-that-has-already-happened"></a>Så här registrerar du en transport som redan har hänt
+## <a name="to-register-a-movement-that-has-already-happened"></a><a name="to-register-a-movement-that-has-already-happened"></a><a name="to-register-a-movement-that-has-already-happened"></a>Så här registrerar du en transport som redan har hänt
 
 Om du måste registrera det faktum att artiklar redan har flyttats till andra lagerplatser utan att ha lagt undan, plocka eller flytta, kan du använda **Dist.lagergrupperingsjnl** för att registrera transporten.
 
@@ -138,9 +138,9 @@ Om du måste registrera det faktum att artiklar redan har flyttats till andra la
 2. Fyll i fälten **Artikelnr**, **Från zonkod**, **Från lagerställeskod**, **Till zonkod** och **Till lagerställeskod**.  
 3. Välj **Registrera**.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

@@ -10,7 +10,7 @@ ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a><a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Skapa en färglagd indikator på stack-ikoner för företaget eller enskilda användare
+# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a><a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a><a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Skapa en färglagd indikator på stack-ikoner för företaget eller enskilda användare
 
 Som administratör kan du skapa stack-ikoner som visas i användarens rollcenter för att inkludera en indikator som ändrar färg baserat på datavärdena i stack-ikonerna.  
 
@@ -20,7 +20,7 @@ Från sidan **Inställning av stack-ikon** ställer du in indikatorer för alla 
 
 För att ställa in indikatorn, anger du upp till två tröskelvärden som definierar tre intervall av datavärden (låg, medel och hög) som du kan koppla en annan färg (eller stil).  
 
-### <a name="to-set-up-colored-indicators-on-cues"></a><a name="to-set-up-colored-indicators-on-cues"></a>Så här ställer du in kulörta indikatorer på stack-ikoner
+### <a name="to-set-up-colored-indicators-on-cues"></a><a name="to-set-up-colored-indicators-on-cues"></a><a name="to-set-up-colored-indicators-on-cues"></a>Så här ställer du in kulörta indikatorer på stack-ikoner
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställning av stack-ikon** och väljer sedan relaterad länk.  
 
      Sidan **Inställning av stack-ikon** visas. Sidan anger indikatorerna som närvarande är inställda på stack-ikoner. Indikatorer som gäller för alla användare i företaget har ett tomt **Användarnamn**-fält. Indikatorer som är kopplade till en viss användare innehåller användarens namn i **Användarnamn**-fältet.  
@@ -57,7 +57,7 @@ För att ställa in indikatorn, anger du upp till två tröskelvärden som defin
     |**Tvetydigt**|Gul|  
     |**Underordnad**|Grått|  
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

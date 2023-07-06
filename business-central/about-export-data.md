@@ -11,11 +11,11 @@ ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="export-your-business-data-to-excel"></a><a name="export-your-business-data-to-excel"></a>Exportera dina affärsdata till Excel
+# <a name="export-your-business-data-to-excel"></a><a name="export-your-business-data-to-excel"></a><a name="export-your-business-data-to-excel"></a>Exportera dina affärsdata till Excel
 
 Excel är ett kraftfullt verktyg för att arbeta med data. Du kan öppna valfri lista i Excel inifrån [!INCLUDE[prod_short](includes/prod_short.md)]. You can even modify data in Excel and then submit it back to [!INCLUDE [prod_short](includes/prod_short.md)]. På samma sätt kan du enkelt ta med dig dina data om du väljer att avbryta prenumerationen.
 
-## <a name="opening-lists-in-excel"></a><a name="opening-lists-in-excel"></a>Öppna listor i Excel
+## <a name="opening-lists-in-excel"></a><a name="opening-lists-in-excel"></a><a name="opening-lists-in-excel"></a>Öppna listor i Excel
 
 Du kan öppna data i Excel från valfri journal, lista eller kalkylblad. Öppna bara den sida som du vill använda och välj **öppna i Excel**. Öppna till exempel en lista över kunder (sök efter **kunder**) och välj sedan **öppna i Excel**. Din webbläsare uppmanar dig att öppna eller spara den genererade Excel-arbetsboken.  
 
@@ -24,11 +24,11 @@ Du kan öppna data i Excel från valfri journal, lista eller kalkylblad. Öppna 
 
 Varje lista innehåller några kolumner. Exporten till Excel innehåller kolumner som är i den aktuella vyn. Ändra kolumnerna genom att öppna snabbmenyn för valfri kolumn och ange sedan vilka kolumner som ska visas. Listan över kolumner skiljer sig åt i de flesta listor. Kolumnerna återspeglar strukturen i databasen där dina data lagras. Om du är osäker på vilken typ av data en viss kolumn innehåller lägger du till den i vyn. Du kan alltid ta bort den igen.  
 
-### <a name="edit-data-in-excel"></a><a name="edit-data-in-excel"></a>Redigera data i Excel
+### <a name="edit-data-in-excel"></a><a name="edit-data-in-excel"></a><a name="edit-data-in-excel"></a>Redigera data i Excel
 
 Din [!INCLUDE[prod_short](includes/prod_short.md)]-upplevelse omfattar ett tillägg för Excel som låter dig redigera data i Excel. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="exporting-data-to-other-finance-systems"></a><a name="exporting-data-to-other-finance-systems"></a>Exportera data till andra finanssystem
+## <a name="exporting-data-to-other-finance-systems"></a><a name="exporting-data-to-other-finance-systems"></a><a name="exporting-data-to-other-finance-systems"></a>Exportera data till andra finanssystem
 
 Om du vill avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)], kan du på samma sätt exportera data till Excel så att du kan ta den med dig.  
 
@@ -72,9 +72,9 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 
 Mer information finns i avsnittet [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 [Avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  

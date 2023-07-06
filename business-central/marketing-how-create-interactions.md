@@ -12,12 +12,12 @@ ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a><a name="create-interactions-on-contacts-and-segments"></a>Så här skapar du interaktioner på kontakter och segment
+# <a name="create-interactions-on-contacts-and-segments"></a><a name="create-interactions-on-contacts-and-segments"></a><a name="create-interactions-on-contacts-and-segments"></a>Så här skapar du interaktioner på kontakter och segment
 Du kan skapa interaktioner för att registrera all interaktion och kommunikation som du har med dina kontakter och segment, till exempel direktreklam.
 
 Innan du skapar interaktioner måste du lägga upp interaktionsmallar. Mer information finns i  [Skapa interaktionsmallar](marketing-interactions.md).
 
-## <a name="to-create-an-interaction"></a><a name="to-create-an-interaction"></a>Skapa interaktioner så här
+## <a name="to-create-an-interaction"></a><a name="to-create-an-interaction"></a><a name="to-create-an-interaction"></a>Skapa interaktioner så här
 1. Öppna kontakten, säljaren eller interaktionsloggtransaktionen.
 2. Välj åtgärden **Skapa interaktion**.
 3. Fyll i fälten och välj sedan knappen **OK**.
@@ -25,12 +25,12 @@ Innan du skapar interaktioner måste du lägga upp interaktionsmallar. Mer infor
 > [!NOTE]  
 >   Om du behöver göra något annat aktivitet i **Avbryt** innan du avslutar interaktionen, kan du avsluta guiden och välja om du vill avsluta interaktionen senare. Detta senarelägger interaktionen.
 
-## <a name="to-finish-and-delete-postponed-interactions"></a><a name="to-finish-and-delete-postponed-interactions"></a>Så här slutför du och tar bort senarelagda åtgärder
+## <a name="to-finish-and-delete-postponed-interactions"></a><a name="to-finish-and-delete-postponed-interactions"></a><a name="to-finish-and-delete-postponed-interactions"></a>Så här slutför du och tar bort senarelagda åtgärder
 1. Öppna kontakten, säljaren eller interaktionsloggtransaktionen.
 2. Välj **Senarelagda interaktioner**.
 3. Markera den åtgärd som du vill slutföra och klicka på åtgärden **Fortsätt**.
 
-## <a name="to-create-an-interaction-on-a-segment"></a><a name="to-create-an-interaction-on-a-segment"></a>Så här skapar du interaktioner för segment
+## <a name="to-create-an-interaction-on-a-segment"></a><a name="to-create-an-interaction-on-a-segment"></a><a name="to-create-an-interaction-on-a-segment"></a>Så här skapar du interaktioner för segment
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Segment** och väljer sedan relaterad länk.
 2. På sidan **Segment**, i avsnittet **Interaktion**, fyller du i fälten för att specificera vilken interaktion som du vill tilldela segmentet.
 
@@ -42,7 +42,7 @@ Interaktionen registreras för varje kontakt i segmentet i tabellen **Interaktio
 
 Om du har markerat kryssrutan **Skapa uppföljningssegment** skapas automatiskt ett nytt segment med samma kontakter som det segment som du precis har loggat.
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 [Registrera interaktioner](marketing-interactions.md)  
 [Hantera kontakter](marketing-contacts.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  

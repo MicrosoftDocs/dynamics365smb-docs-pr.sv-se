@@ -11,11 +11,11 @@ ms.search.form: 177
 ms.date: 07/06/2022
 ms.author: a-reishima
 ---
-# <a name="create-recurring-purchase-lines"></a><a name="create-recurring-purchase-lines"></a>Skapa återkommande inköpsrader
+# <a name="create-recurring-purchase-lines"></a><a name="create-recurring-purchase-lines"></a><a name="create-recurring-purchase-lines"></a>Skapa återkommande inköpsrader
 
 Om du ofta behöver skapa inköpsrader med liknande information, kan du ställa in standardraderna så att du sedan kan infoga på återkommande inköpsdokument, till exempel för återkommande påfyllningsorder.
 
-## <a name="set-up-recurring-purchase-lines"></a><a name="set-up-recurring-purchase-lines"></a>Ställ in återkommande inköpsrader
+## <a name="set-up-recurring-purchase-lines"></a><a name="set-up-recurring-purchase-lines"></a><a name="set-up-recurring-purchase-lines"></a>Ställ in återkommande inköpsrader
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **återkommande inköpsrader** och väljer sedan relaterad länk.
 2. På sidan **Återkommande inköpsrader** väljer du åtgärden **Ny**.
@@ -27,7 +27,7 @@ Om du ofta behöver skapa inköpsrader med liknande information, kan du ställa 
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-purchase-lines-to-a-vendor"></a><a name="assign-recurring-purchase-lines-to-a-vendor"></a>Tilldela en leverantör återkommande inköpsrader
+## <a name="assign-recurring-purchase-lines-to-a-vendor"></a><a name="assign-recurring-purchase-lines-to-a-vendor"></a><a name="assign-recurring-purchase-lines-to-a-vendor"></a>Tilldela en leverantör återkommande inköpsrader
 
 Tilldela en eller flera återkommande inköpsrader till en leverantör så att de är tillgängliga att infoga på inköpsdokument från den leverantören.
 
@@ -44,7 +44,7 @@ Tilldela en eller flera återkommande inköpsrader till en leverantör så att d
 |**Automatiskt**|Om det finns flera återkommande inköpsrader för leverantören, får du ett meddelande där du kan välja vilken som ska infogas. Om det bara finns en återkommande inköpsrad kommer den att infogas automatiskt.<br /><br />Detta fungerar endast om det nya dokumentet har skapats från en dokumentlista, t. ex. genom att välja ny åtgärd **Ny** på sidan **Inköpsorder**. Det fungerar inte om dokumentet har skapats från ett leverantörskort, till exempel.|
 |**Fråga alltid**|Ett meddelande visas och alla befintliga återkommande inköpsrader visas så att du kan välja ett.
 
-## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a><a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Så här kan du automatiskt infoga återkommande inköpsrader på en inköpsfaktura
+## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a><a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a><a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Så här kan du automatiskt infoga återkommande inköpsrader på en inköpsfaktura
 
 Om det finns återkommande inköpsrader för leverantören kan du infoga dem, eller få dem automatiskt tillagda, på alla typer av inköpsdokument, till exempel en inköpsfaktura. Om du har aktiverat alternativen **Fråga alltid** när du tilldelar återkommande inköpsrader till leverantörer kommer du att informeras om det finns återkommande inköpsrader.
 
@@ -54,7 +54,7 @@ Om det finns återkommande inköpsrader för leverantören kan du infoga dem, el
 4. På sidan **återkommande inköpsrader** välj sökknappen i fältet **kod** och välj sedan en uppsättning standardinköpsrader.
 5. Välj **OK** för att infoga standardinköpsraderna på fakturan, där du kan använda eller redigera informationen.
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 [Inköp](purchasing-manage-purchasing.md)  
 [Konfigurera inköp](purchasing-setup-purchasing.md)  

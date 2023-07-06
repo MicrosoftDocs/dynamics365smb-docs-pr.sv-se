@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# <a name="manage-master-data-synchronization"></a><a name="manage-master-data-synchronization"></a>Hantera synkronisering av huvuddata
+# <a name="manage-master-data-synchronization"></a><a name="manage-master-data-synchronization"></a><a name="manage-master-data-synchronization"></a>Hantera synkronisering av huvuddata
 
 När du har ställt in synkronisering av huvuddata och synkroniserats för första gången är posterna i de valda tabellerna kopplade och en återkommande Jobbkötransaktion skapas för varje register. Jobbkötransaktioner synkroniserar automatiskt data i dotterbolagen när någon gör en ändring i källföretaget. Annars behöver du inte göra någonting.
 
@@ -21,7 +21,7 @@ Ibland kan det emellertid hända att saker går fel och det kan finnas situation
 
 I den här artikeln beskrivs verktygen som du kan använda för att fortsätta köra synkroniseringen på ett smidigt sätt.
 
-## <a name="investigate-the-status-of-synchronization"></a><a name="investigate-the-status-of-synchronization"></a>Undersök status för synkronisering
+## <a name="investigate-the-status-of-synchronization"></a><a name="investigate-the-status-of-synchronization"></a><a name="investigate-the-status-of-synchronization"></a>Undersök status för synkronisering
 
 Det finns två åtgärder på sidan **synkronisera tabeller** som kan hjälpa dig att övervaka synkroniseringen:
 
@@ -38,29 +38,29 @@ Följande tabell beskriver åtgärderna.
 > [!NOTE]
 > Om du hittar ett fel på sidan **Integreringssynkroniseringsjobb** som du inte kan matcha själv, om du kontaktar partnern eller Microsoft för support, kan det vara bra att ange felmeddelandet och anropsstack information.
 
-## <a name="synchronize-modified-records"></a><a name="synchronize-modified-records"></a>Synkronisera ändrade poster
+## <a name="synchronize-modified-records"></a><a name="synchronize-modified-records"></a><a name="synchronize-modified-records"></a>Synkronisera ändrade poster
 
 Om du ändrar en inställning för en tabell eller ett dotterbolag måste du uppdatera synkroniseringen. Om du till exempel väljer alternativet **Skriv över lokal ändring** i ett fält så att data från källföretaget kan skriva över lokala ändringar. För att uppdatera synkroniseringen, använd åtgärden **synkronisera ändrade poster** på sidan **synkronisera tabeller**.
 
-## <a name="update-table-schemas"></a><a name="update-table-schemas"></a>Uppdatera tabellscheman
+## <a name="update-table-schemas"></a><a name="update-table-schemas"></a><a name="update-table-schemas"></a>Uppdatera tabellscheman
 
 Om källföretaget ändrar en tabell, till exempel genom att lägga till ett fält som du vill synkronisera måste dotterbolagens fältmappningar uppdateras. På sidan **synkronisera fält** använd åtgärden **uppdatera fält**. 
 
-## <a name="enable-or-disable-couplings-between-records"></a><a name="enable-or-disable-couplings-between-records"></a>Aktivera eller inaktivera kopplingar mellan poster
+## <a name="enable-or-disable-couplings-between-records"></a><a name="enable-or-disable-couplings-between-records"></a><a name="enable-or-disable-couplings-between-records"></a>Aktivera eller inaktivera kopplingar mellan poster
 
 För att starta eller stoppa koppling på specifika poster på en tabell, på sidan **synkronisera fält**, välj fälten och använd sedan antingen åtgärderna **aktivera** eller **inaktivera**. 
 
 > [!TIP]
 > Ett snabbt sätt att aktivera eller inaktivera flera fält samtidigt, är att markera dem i listan och sedan använda åtgärderna **aktivera** eller **inaktivera**.
 
-## <a name="adding-extensions"></a><a name="adding-extensions"></a>Lägga till tillägg
+## <a name="adding-extensions"></a><a name="adding-extensions"></a><a name="adding-extensions"></a>Lägga till tillägg
 
 Om källföretaget installerar ett nytt tillägg, måste dotterbolaget också installera det om det vill synkronisera data för det. Dotterbolaget kan använda åtgärden **Uppdatera fält** på sidan **synkronisera fält** för att lägga till tabellerna från tillägget i listan.
 
 > [!NOTE]
 > En del tabeller hämtar data från relaterade tabeller. Om du lägger till ett tillägg som inte innehåller relaterade tabeller kommer fälten i dessa tabeller inte att vara tillgängliga. Kontrollera att du har lagt till alla relaterade tabeller.
 
-## <a name="clean-up-old-entries"></a><a name="clean-up-old-entries"></a>Rensa gamla poster
+## <a name="clean-up-old-entries"></a><a name="clean-up-old-entries"></a><a name="clean-up-old-entries"></a>Rensa gamla poster
 
 Med tiden kommer antalet poster i synkroniseringsloggen att bli stort, så du kanske vill rensa lite för att ta bort onödiga poster. Om du vill göra det enklare att rensa gamla poster kan du utföra följande åtgärder på sidan **Integreringssynkroniseringsjobb**:
 
@@ -68,11 +68,11 @@ Med tiden kommer antalet poster i synkroniseringsloggen att bli stort, så du ka
 * **Ta bort alla transaktioner**
 
 <!--
-## <a name="recreate-a-deleted-job-queue-entry"></a><a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
+## <a name="recreate-a-deleted-job-queue-entry"></a><a name="recreate-a-deleted-job-queue-entry"></a><a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 [Kom i gång med synkronisering av huvuddata](admin-set-up-data-sync.md)

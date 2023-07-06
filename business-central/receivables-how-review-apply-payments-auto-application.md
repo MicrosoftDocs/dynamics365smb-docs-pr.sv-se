@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a>Granska och koppla betalningar manuellt efter automatisk koppling
+# <a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a><a name="review-and-apply-payments-manually-after-automatic-application"></a>Granska och koppla betalningar manuellt efter automatisk koppling
 För varje journalrad som representerar en betalning på sidan **Betalningsavstämningsjournal** kan du öppna sidan **Betalningskoppling** för att visa alla öppna kandidattransaktioner för betalningen och för att visa detaljerad information för varje transaktion om datamatchningen som en betalningskoppling baseras på. Här kan du koppla manuellt betalningar eller koppla om betalningar som kopplades automatiskt till fel transaktion. Mer information om automatisk koppling finns i [Så här stämmer du av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -30,7 +30,7 @@ Vinst-och-förlustjusteringar som krävs på grund av valutakonverteringar hante
 > [!NOTE]  
 >   Du kan bara koppla en betalning till ett konto. Om du vill dela kopplingen på flera öppna transaktioner, till exempel för att koppla en klumpsummabetalning måste de öppna transaktionerna vara för samma konto. Mer information finns i moment 7 och 8 i proceduren i det här avsnittet.
 
-## <a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a>Så här granskar och kopplar du betalningar efter automatisk koppling
+## <a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a><a name="to-review-or-apply-payments-after-automatic-application"></a>Så här granskar och kopplar du betalningar efter automatisk koppling
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsavstämningsjournal** och väljer sedan relaterad länk.
 2. Öppna betalningsavstämningsjournalen för ett bankkonto som du vill stämma av betalningar för. Mer information finns i [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md).
 3. På sidan **Betalningsavstämningsjournal** väljer du en betalning som du vill granska eller manuellt koppla till en eller flera öppna transaktioner, och väljer sedan åtgärden**Koppla manuellt**.
@@ -43,7 +43,7 @@ Vinst-och-förlustjusteringar som krävs på grund av valutakonverteringar hante
 
 Sidan **Betalningskoppling** stängs och på sidan **Betalningsavstämningsjournal** ändras värdet i fältet **Matchningssäkerhet** till **Accepterat** för att ange att du har granskat eller manuellt kopplat betalningen.
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

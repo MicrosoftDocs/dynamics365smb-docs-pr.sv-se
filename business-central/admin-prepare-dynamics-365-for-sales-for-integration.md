@@ -10,14 +10,14 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="integrating-with-dynamics-365-sales"></a><a name="integrating-with-dynamics-365-sales"></a>Integrering med Dynamics 365 Sales
+# <a name="integrating-with-dynamics-365-sales"></a><a name="integrating-with-dynamics-365-sales"></a><a name="integrating-with-dynamics-365-sales"></a>Integrering med Dynamics 365 Sales
 
 Rollen säljare betraktas ofta som en de mest utåtriktade jobben i ett företag. Men kan det vara användbart för säljare att kunna se inuti verksamheten och se vad som händer på serverdelen. Genom att integrera [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[crm_md](includes/crm_md.md)] kan du ge säljarna en insikt. Integreringen låter användare visa information i [!INCLUDE[prod_short](includes/prod_short.md)] medan de arbetar i [!INCLUDE[crm_md](includes/crm_md.md)]. Till exempel när du förbereder en försäljningsoffert kan det vara bra att veta om det finns tillräckligt mycket lager för att uppfylla ordern. Mer information finns i [Använd Dynamics 365 Sales från Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > I detta ämne beskrivs hur du integrerar onlineversioner av [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av [!INCLUDE[prod_short](includes/cds_long_md.md)]. Information om lokal konfiguration finns i [förbereda Dynamics 365 Sales för integrering lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## <a name="integrating-through-dataverse"></a><a name="integrating-through-dataverse"></a>Integrera via Dataverse
+## <a name="integrating-through-dataverse"></a><a name="integrating-through-dataverse"></a><a name="integrating-through-dataverse"></a>Integrera via Dataverse
 Om du vill göra det enklare att ansluta och synkronisera data med andra Dynamics 365-program kan [!INCLUDE[prod_short](includes/prod_short.md)] också integrera med [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan t.ex. ansluta till [!INCLUDE[crm_md](includes/crm_md.md)] eller appar som du själv har skapat. Om du integrerar för första gången måste du göra detta via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Mer information finns i [Integrera med Dataverse](admin-common-data-service.md).
 
 Om du redan har integrerat [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)] kan du fortsätta att synkronisera data med hjälp av dina inställningar. Om du uppgraderar eller stänger av [!INCLUDE[crm_md](includes/crm_md.md)]-integreringen måste du emellertid ansluta dig via [!INCLUDE[prod_short](includes/cds_long_md.md)] för att aktivera den igen. Mer information finns i [Uppgradera en integrering med Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
@@ -25,17 +25,17 @@ Om du redan har integrerat [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[
 > [!NOTE]
 > När du återansluter via [!INCLUDE[prod_short](includes/cds_long_md.md)] används standardinställningarna för synkroniseringen, och eventuella konfigurationsinställningar skrivs över. Till exempel tillämpas standardmappningarna för tabeller.
 
-## <a name="integration-settings-that-are-specific-to-a--integration"></a><a name="integration-settings-that-are-specific-to-a--integration"></a>Integreringsinställningar som är specifika för en [!INCLUDE[crm_md](includes/crm_md.md)]-integrering
+## <a name="integration-settings-that-are-specific-to-a--integration"></a><a name="integration-settings-that-are-specific-to-a--integration"></a><a name="integration-settings-that-are-specific-to-a--integration"></a>Integreringsinställningar som är specifika för en [!INCLUDE[crm_md](includes/crm_md.md)]-integrering
 Integreringen med [!INCLUDE[prod_short](includes/prod_short.md)] sker via [!INCLUDE[prod_short](includes/cds_long_md.md)], och det finns många standardinställningar och tabeller som tillhandahålls. Utöver standardinställningarna finns det vissa som är specifika för [!INCLUDE[crm_md](includes/crm_md.md)]. Följande avsnitt visar dessa inställningar.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-sales"></a><a name="permissions-and-security-roles-for-user-accounts-in-sales"></a>Behörigheter och säkerhetsroller för användarkonton i Sales
+## <a name="permissions-and-security-roles-for-user-accounts-in-sales"></a><a name="permissions-and-security-roles-for-user-accounts-in-sales"></a><a name="permissions-and-security-roles-for-user-accounts-in-sales"></a>Behörigheter och säkerhetsroller för användarkonton i Sales
 När du installerar integreringslösningen konfigureras behörigheter för användarkontot för integrering. Om behörigheterna ändras kan du behöva återställa dem. Detta kan du göra genom att ominstallera integreringslösningen genom att välja **Omdistribuera integreringslösning** på sidan **Anslutningsinställningar för Dynamics 365**. Följande säkerhetsroller har distribuerats:
 
 * Dynamics 365 Business Central-integreringsadministratör
 * Dynamics 365 Business Central-integreringsanvändare
 * Dynamics 365 Business Central-produktartikelanvändare
 
-### <a name="connection-settings-in-the-setup-guide"></a><a name="connection-settings-in-the-setup-guide"></a>Anslutningsinställningar i installationsguiden
+### <a name="connection-settings-in-the-setup-guide"></a><a name="connection-settings-in-the-setup-guide"></a><a name="connection-settings-in-the-setup-guide"></a>Anslutningsinställningar i installationsguiden
 Du kan använda en assisterad konfigurationsguide för att snabbt ställa in anslutningen och ange avancerade funktioner, till exempel att koppla mellan transaktioner.
 
 1. Välj **inställningar och tillägg**, och välj **assisterad konfiguration**.
@@ -51,7 +51,7 @@ Du kan använda en assisterad konfigurationsguide för att snabbt ställa in ans
 |**Aktivera anslutning för Dynamics 365 Sales** | Aktivera anslutning till [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **SDK-version för Dynamics 365** | Detta gäller endast om du integrerar med en lokal version av [!INCLUDE[crm_md](includes/crm_md.md)]. Det här är den SDK-version för Dynamics 365 (även kallat Xrm) för att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen måste vara kompatibel med SDK-versionen som används av [!INCLUDE[crm_md](includes/crm_md.md)] och motsvarande eller senare än den version som används av [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
-### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a><a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Anslutningsinställningar på inställningssidan för Microsoft Dynamics 365-anslutningar
+### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a><a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a><a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Anslutningsinställningar på inställningssidan för Microsoft Dynamics 365-anslutningar
 
 Ange följande information om anslutningen från [!INCLUDE[crm_md](includes/crm_md.md)] till [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -71,10 +71,10 @@ Förutom inställningarna ovan anger du följande inställningar för [!INCLUDE[
 |**Dubbelriktad synkronisering av försäljningsorder**|Synkronisera försäljningsorder i båda riktningar. Om en kund t.ex. ändrar sig angående den produkt eller kvantitet de beställt i [!INCLUDE[crm_md](includes/crm_md.md)] kan du utföra ändringen genom att arkivera försäljningsdokumentet och skapa ett nytt [!INCLUDE[prod_short](includes/prod_short.md)]. Detsamma gäller dokument i [!INCLUDE[prod_short](includes/prod_short.md)]. Om t. ex. priser, momsbelopp eller förväntade leveransdatum ändras, synkroniseras ändringarna automatiskt till [!INCLUDE[crm_md](includes/crm_md.md)]. Dubbelriktad synkronisering hjälper säljarna hållas uppdaterade med de senaste ändringarna och statusen för offerter och order.|
 
 <!--
-### <a name="user-account-settings"></a><a name="user-account-settings"></a>User Account Settings
+### <a name="user-account-settings"></a><a name="user-account-settings"></a><a name="user-account-settings"></a>User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
 
-### <a name="standard-sales-entity-mapping-for-synchronization"></a><a name="standard-sales-entity-mapping-for-synchronization"></a>Standardinställd försäljningsenhetsmappningar för synkronisering
+### <a name="standard-sales-entity-mapping-for-synchronization"></a><a name="standard-sales-entity-mapping-for-synchronization"></a><a name="standard-sales-entity-mapping-for-synchronization"></a>Standardinställd försäljningsenhetsmappningar för synkronisering
 
 Enheter i [!INCLUDE[crm_md](includes/crm_md.md)], till exempel order, är integrerade med motsvarande tabelltyper i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel försäljningsorder. För att arbeta med [!INCLUDE[crm_md](includes/crm_md.md)]-data anger du länkar kallade "kopplingar" mellan tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[crm_md](includes/crm_md.md)].
 
@@ -99,7 +99,7 @@ I följande tabell visas standardmappningen mellan tabeller i [!INCLUDE[prod_sho
 > [!NOTE]
 > Mappningarna för tabellerna Objektmåttenhet, Resursmåttenhet och enhetsgrupp är endast tillgängliga om din administratör har aktiverat funktionsväxlingen **Funktionsuppdatering: Flera enheter av måttsynkronisering med Dynamics 365 Sales** på sidan **Funktionshantering**. Mer information finns i [Synkronisera artiklar och resurser med produkter i andra måttenheter](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a><a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synkronisera artiklar och resurser med produkter i andra måttenheter
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a><a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a><a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synkronisera artiklar och resurser med produkter i andra måttenheter
 Företag producerar eller köper ofta artiklarna i en enhet och säljer dem sedan i en annan enhet. För att synkronisera objekt som använder flera måttenheter måste du aktivera funktionsväxlingen **Funktionsuppdatering: Flera enheter för måttsynkronisering med Dynamics 365 Sales** på sidan **funktionshantering**. 
 
 När du aktiverar funktionen för uppdatera skapas en ny enhetsgrupptabell som tilldelas varje artikel och resurs i [!INCLUDE[prod_short](includes/prod_short.md)]. Tabellerna gör att du kan kartlägga tabellerna enhetsgrupp, artikelmåttenhet och resursmåttenhet i [!INCLUDE[prod_short](includes/prod_short.md)] till Dynamics 365 Sales enhetsgrupp i [!INCLUDE[crm_md](includes/crm_md.md)]. I följande bild visas mappningarna.
@@ -108,7 +108,7 @@ När du aktiverar funktionen för uppdatera skapas en ny enhetsgrupptabell som t
 
 Du kan skapa flera måttenheter för varje enhetsgrupp och tilldela grupperna till produkter i [!INCLUDE[crm_md](includes/crm_md.md)]. Därefter kan du synkronisera produkterna med artiklar och resurser i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan manuellt koppla artikelenheter eller resursenheter med en enhetsgrupp. När du gör det och enhetsgruppen för artikeln eller resursen inte är kopplad till en enhetsgrupp i [!INCLUDE[crm_md](includes/crm_md.md)], till exempel eftersom enhets gruppen inte finns, [!INCLUDE[prod_short](includes/prod_short.md)] skapas enhetsgruppen automatiskt i [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### <a name="mapping-items-and-resources-to-products"></a><a name="mapping-items-and-resources-to-products"></a>Mappa artiklar och resurser till produkter
+### <a name="mapping-items-and-resources-to-products"></a><a name="mapping-items-and-resources-to-products"></a><a name="mapping-items-and-resources-to-products"></a>Mappa artiklar och resurser till produkter
 När du aktiverar funktionsväxlingen **Funktionsuppdatering: Flera enheter för synkronisering med Dynamics 365 Sales** sker följande:
 
 * Nya mappningar skapas för artiklar och resurser.
@@ -140,7 +140,7 @@ Följande steg beskriver hur du börjar mappa enhetsgrupper:
 5. Välj mappningen **ARTIKEL-PRODUKT** och sedan åtgärden **Starta om**. Omstart skapar nya produkter från artiklarna i [!INCLUDE[crm_md](includes/crm_md.md)] och tilldelar en ny enhetsgrupp som är specifik för artikeln.
 6. Välj mappningen **RESURS-PRODUKT** och sedan åtgärden **Starta om**. Omstart skapar nya produkter från resurserna i [!INCLUDE[crm_md](includes/crm_md.md)] och tilldelar en ny enhetsgrupp som är specifik för resurser.
 
-### <a name="synchronization-rules"></a><a name="synchronization-rules"></a>Synkroniseringsregler
+### <a name="synchronization-rules"></a><a name="synchronization-rules"></a><a name="synchronization-rules"></a>Synkroniseringsregler
 
 Följande tabell anger regler som kontrollerar synkroniseringen mellan [!INCLUDE[crm_md](includes/crm_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)]. Dessa regler gäller utöver de regler som angetts för Dataverse, vilka också gäller. För mer information, se [Standardenhetsmappningar](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
@@ -158,7 +158,7 @@ Följande tabell anger regler som kontrollerar synkroniseringen mellan [!INCLUDE
 |Bokförda försäljningsfakturor|Bokförda försäljningsfakturor som är synkroniserade med försäljningsfakturor. Innan du kan synkronisera en faktura är det bättre att synkronisera alla andra tabeller som kan delta i fakturan, från säljare till prislistor. Värdet för säljarkod i fakturarubriken definierar ägaren till den kopplade tabellen i Sales.|
 |Försäljningsorder|När integrering av försäljningsorder har aktiverats synkroniseras försäljningsorder i [!INCLUDE[prod_short](includes/prod_short.md)] som har skapats från skickade försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] med försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] när de släpps. Innan du synkroniserar order bör du först synkronisera alla tabeller som ingår i ordern, till exempel säljare och prislistor. Fältet Säljarkod i orderrubriken definierar ägaren till den kopplade tabellen i [!INCLUDE[crm_md](includes/crm_md.md)].|
 
-### <a name="synchronization-jobs-for-a-sales-integration"></a><a name="synchronization-jobs-for-a-sales-integration"></a>Synkroniseringsjobb för Sales-integrering
+### <a name="synchronization-jobs-for-a-sales-integration"></a><a name="synchronization-jobs-for-a-sales-integration"></a><a name="synchronization-jobs-for-a-sales-integration"></a>Synkroniseringsjobb för Sales-integrering
 
 Projekten körs i följande ordning i syfte att undvika kopplingsberoenden mellan tabeller. Det finns ytterligare jobb tillgängliga från Dataverse. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](./admin-job-queues-schedule-tasks.md).
 
@@ -169,7 +169,7 @@ Projekten körs i följande ordning i syfte att undvika kopplingsberoenden mella
 5. FÖRSÄLJNPRIS – PROUDUKTPRIS – Dynamics 365 Sales synkroniseringsjobb.
 6. BOKFÖRD FÖRSÄLJNINGSFAKTURA-FAKT – Dynamics 365 Sales-synkroniseringsjobb.
 
-### <a name="default-synchronization-job-queue-entries"></a><a name="default-synchronization-job-queue-entries"></a>Poster för standardsynkroniseringjobbkön
+### <a name="default-synchronization-job-queue-entries"></a><a name="default-synchronization-job-queue-entries"></a><a name="default-synchronization-job-queue-entries"></a>Poster för standardsynkroniseringjobbkön
 
 I följande tabell beskrivs standardsynkroniseringjobben för Sales.  
 
@@ -183,13 +183,13 @@ I följande tabell beskrivs standardsynkroniseringjobben för Sales.
 |BOKFÖRD FÖRSÄLJNINGSFAKTURA-FAKT – Dynamics 365 Sales synkroniseringsjobb|Synkroniserar [!INCLUDE[crm_md](includes/crm_md.md)]-fakturor med [!INCLUDE[prod_short](includes/prod_short.md)] bokförda försäljningsfakturor.|Från [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[crm_md](includes/crm_md.md)]|FAKTUROR-BOKFÖRDA FÖRSÄLJNINGSFAKTUROR|30|1440<br> (24 tim)|
 |Kundstatistik – Dynamics 365 Sales-synkronisering.|Uppdaterar [!INCLUDE[crm_md](includes/crm_md.md)]-konton med senaste [!INCLUDE[prod_short](includes/prod_short.md)] kundinformation. I [!INCLUDE[crm_md](includes/crm_md.md)] visas den här informationen i snabbformuläret **Business Central bankkontostatistik** som är kopplat till [!INCLUDE[prod_short](includes/prod_short.md)] kunder.<br /><br /> Informationen kan även uppdateras manuellt från varje kundpost. Mer information finns i [Koppla och synkronisera posterna manuellt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Obs:** denna jobbkötransaktion är endast relevant om [!INCLUDE[prod_short](includes/prod_short.md)] integreringslösning är installerad i [!INCLUDE[crm_md](includes/crm_md.md)]. |Ej tillämpbart|Ej tillämpbart|30|Ej tillämpbart| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a><a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Ansluter till lokala versioner av Business Central 2019 utgivningscykel 1 och Microsoft Dynamics NAV 2018
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a><a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a><a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Ansluter till lokala versioner av Business Central 2019 utgivningscykel 1 och Microsoft Dynamics NAV 2018
 Microsoft Power Platform-teamet har [meddelat](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) att man kommer att fasa ut autentiseringstypen Office365. Om du använder en version av [!INCLUDE[prod_short](includes/prod_short.md)] lokalt som är äldre än Business Central 2019 utgivningscykel 1 måste du använda OAuth-autentiseringstypen för att ansluta till [!INCLUDE[crm_md](includes/crm_md.md)] online. Instruktionerna i det här avsnittet beskriver hur du ansluter följande produktversioner:
 
 * Business Central 2019 utgivningscykel 1
 * Microsoft Dynamics NAV 2018
 
-### <a name="prerequisites"></a><a name="prerequisites"></a>Förutsättningar
+### <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Förutsättningar
 
 - Du måste ha en Microsoft Azure-prenumeration. Ett provkonto kommer att fungera för programregistrering.
 - [!INCLUDE[crm_md](includes/crm_md.md)] är konfigurerad för att använda någon av följande autentiseringstyper:
@@ -201,7 +201,7 @@ Microsoft Power Platform-teamet har [meddelat](/power-platform/important-changes
 
    - OAuth
 
-### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a><a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Så här ansluter du Business Central 2019 utgivningscykel 1 och Dynamics NAV 2018
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a><a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a><a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Så här ansluter du Business Central 2019 utgivningscykel 1 och Dynamics NAV 2018
 
 1. Importera integreringslösningen Microsoft Dynamics 365 Business Central i din [!INCLUDE[crm_md](includes/crm_md.md)]-miljö. Integreringslösningen finns i mappen CrmCustomization på [!INCLUDE[prod_short](includes/prod_short.md)] eller Dynamics NAV 2018 installation DVD. Beroende på produktversionen importerar du något av följande lösningar:
 
@@ -256,7 +256,7 @@ Microsoft Power Platform-teamet har [meddelat](/power-platform/important-changes
 > [!Note]
 > Om du vill konfigurera en anslutning till en [!INCLUDE[crm_md](includes/crm_md.md)]-instans med en specifik autentiseringstyp fyller du i fälten i snabbfliken **Information om autentiseringstyp**. Mer information finns i [Autentisering med Microsoft Dataverse webbtjänster](/powerapps/developer/data-platform/authentication). Detta steg är inte nödvändigt när du ansluter en onlineversion av [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 [Ställa in konton för integrering med [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
 [Ställ in en anslutning till [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  

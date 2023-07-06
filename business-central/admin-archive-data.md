@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.form: 630
 ---
 
-# <a name="the-data-archive-extension"></a><a name="the-data-archive-extension"></a>Tillägget Dataarkiv
+# <a name="the-data-archive-extension"></a><a name="the-data-archive-extension"></a><a name="the-data-archive-extension"></a>Tillägget Dataarkiv
 
 Med tiden kommer ditt företag att samla en stor mängd data och som administratör är det förmodligen en god idé att ha en strategi för att arkivera data. Att få mycket data kan sakta ner sig, t.ex. ta något längre tid att generera rapporter eller till och med låsa poster. Dessutom kan stora mängder data leda till ökade lagringskostnader.
 
 Dataarkiv tillägget ger en grundläggande ram för att arkivera och säkerhetskopiera data som en del av datumkomprimeringen. Datumkomprimering konsoliderar relaterade transaktioner till en enda post och tar bort originalen. Läs mer på [Komprimera data med datumkomprimering](admin-manage-documents.md#compress-data-with-date-compression). Det kan dock finnas ett värde där informationen sparas, så i stället för att ta bort den, kan du arkivera den för senare användning.
 
-## <a name="start-archiving-data"></a><a name="start-archiving-data"></a>Starta arkivering av data
+## <a name="start-archiving-data"></a><a name="start-archiving-data"></a><a name="start-archiving-data"></a>Starta arkivering av data
 
 Tillägget är förinstallerat och tillgängligt i **tilläggshantering** så du behöver inte göra någonting för att komma igång. Tillägget finns också tillgängligt på AppSource.
 
@@ -50,10 +50,10 @@ Tillägget Dataarkiv används av följande batch-jobb för datumkomprimering.
 
 Aktivera arkivering av data när du kör något av batch-jobben genom att aktivera växlingsknappen **arkivera borttagna transaktioner**.
 
-## <a name="storage-considerations"></a><a name="storage-considerations"></a>Överväganden vid lagring
+## <a name="storage-considerations"></a><a name="storage-considerations"></a><a name="storage-considerations"></a>Överväganden vid lagring
 
 Arkiverade data lagras i tabellen **innehavaradministration i media**. Vi rekommenderar att du exporterar gamla arkiv till t.ex. en CSV-fil och sedan tar bort de gamla arkivposterna.
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 [Hantera lagring genom att ta bort dokument eller komprimera data](admin-manage-documents.md)

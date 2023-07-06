@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a>Utbildningskatalog för partnerförsäljning och marknadsföring
+# <a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a>Utbildningskatalog för partnerförsäljning och marknadsföring
 
 Är du ansvarig för att hjälpa dina kunder att köpa rätt lösning?
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov.  
 
-## <a name="business-value"></a><a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
 
 | Innehåll     | Beskrivning    | Format                                | Längd              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/) | Utforska Dynamics 365 Business Central-funktionerna    | Webbplats    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion.    | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter          |
 
-## <a name="getting-started"></a><a name="getting-started"></a>Komma igång<a name="get-started"></a>
+## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Komma igång<a name="get-started"></a>
 
 | Innehåll   | Beskrivning   | Format                                | Längd              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,7 +30,7 @@ Följande katalog är ordnad efter grundläggande kunskaper om specifika domäne
 | [Arbeta som ett proffs med data i Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Har du precis kommit igång med Business Central? Du kan använda den här utbildningsvägen för att förbereda dig för olika typer av data i Business Central och hur du söker efter information du behöver i programmet.      | Kostnadsfri online-utbildningsväg i egen takt | 2 timmar 27 minuter  |
 | [Business Central YouTube-spellista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube-landningssida för Dynamics 365 Business Central-videor  | YouTube-videor  |                     |
 
-## <a name="grow-your-business"></a><a name="grow-your-business"></a>Utveckla företaget<a name="grow"></a>
+## <a name="grow-your-business"></a><a name="grow-your-business"></a><a name="grow-your-business"></a>Utveckla företaget<a name="grow"></a>
 
 | Innehåll   | Beskrivning        | Format                                | Längd                |
 |-----------|--------------------|---------------------------------------|-----------------------|

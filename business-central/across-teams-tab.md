@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
 
-# <a name="add-business-central-tab-in-microsoft-teams"></a><a name="add-business-central-tab-in-microsoft-teams"></a>Lägg till fliken Business Central i Microsoft Teams
+# <a name="add-business-central-tab-in-microsoft-teams"></a><a name="add-business-central-tab-in-microsoft-teams"></a><a name="add-business-central-tab-in-microsoft-teams"></a>Lägg till fliken Business Central i Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,7 +19,7 @@ I Teams visas flikarna högst upp i kanalerna och chattarna, så att deltagare s
 
 ![Flikar i Teams](media/teams-tabs-border.png)
 
-## <a name="about-business-central-tabs"></a><a name="about-business-central-tabs"></a>Om flikar Business Central
+## <a name="about-business-central-tabs"></a><a name="about-business-central-tabs"></a><a name="about-business-central-tabs"></a>Om flikar Business Central
 
 En [!INCLUDE [prod_short](includes/prod_short.md)]-flik ger en fokuserad vy över [!INCLUDE [prod_short](includes/prod_short.md)] list- och kortsidor. Fliken visar inte hela [!INCLUDE [prod_short](includes/prod_short.md)] webbklienten. Det finns ingen webbläsargräns, [!INCLUDE [prod_short](includes/prod_short.md)] banderoll (t.ex. med Berätta, sök, hjälp) eller det övre navigeringsmenyerna&mdash;endast sidinnehåll och åtgärder. Innehållet är interaktivt, vilket innebär att du kan välja åtgärder och länkar, ändra data och mycket mer. Du är begränsad till det du ser och kan göra med samma behörighet som har tilldelats ditt konto i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ Om du vill veta mer om vem som kan visa innehållet på en [!INCLUDE [prod_short
 > [!TIP]
 > Är du utvecklare? Du kan också lägga till flikar programmässigt med Microsoft Graph API. Mer information finns i [Lägg till fliken Business Central i Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a>Förutsättningar
+## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Förutsättningar
 
 För att lägga till en [!INCLUDE [prod_short](includes/prod_short.md)] flik måste följande villkor vara uppfyllda:
 
@@ -42,7 +42,7 @@ Om du vill visa [!INCLUDE [prod_short](includes/prod_short.md)] flik som har lag
 - Du har en [!INCLUDE [prod_short](includes/prod_short.md)]-licens eller begränsad åtkomst till Business Central med endast en Microsoft 365-licens. Mer information finns i [Business Central åtkomst med Microsoft 365-licenser](admin-access-with-m365-license.md).
 - Du har installerat [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams.
 
-## <a name="add-tab-using-recommended-content"></a><a name="add-tab-using-recommended-content"></a>Lägg till flik med rekommenderat innehåll
+## <a name="add-tab-using-recommended-content"></a><a name="add-tab-using-recommended-content"></a><a name="add-tab-using-recommended-content"></a>Lägg till flik med rekommenderat innehåll
 
 Gör så här om du vill lägga till en flik genom att välja vad som ska visas från en lättillgänglig lista med rekommenderad information som bygger på ditt rollcenter&mdash;utan att du behöver lämna Teams. Mer information om vad du kan välja mellan finns i [var kommer det rekommenderade innehållet från?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -61,7 +61,7 @@ Gör så här om du vill lägga till en flik genom att välja vad som ska visas 
 6. Välj **Lägg upp på kanalen om den här fliken** för att automatiskt lägga upp ett meddelande i Teams-kanalen eller chatta för att låta deltagarna veta att du har lagt till den här fliken.
 7. Välj **Spara**.
 
-## <a name="add-tab-using-a-page-link"></a><a name="add-tab-using-a-page-link"></a>Lägg till flik med hjälp av en sidlänk
+## <a name="add-tab-using-a-page-link"></a><a name="add-tab-using-a-page-link"></a><a name="add-tab-using-a-page-link"></a>Lägg till flik med hjälp av en sidlänk
 
 Ett annat sätt att lägga till en flik med hjälp av en länk (URL) till sidan som du vill visa. Det här sättet är användbart när du vill visa en viss [!INCLUDE [prod_short](includes/prod_short.md)] post eller en listsida som inte har bokmärken i ditt rollcenter.
 
@@ -80,14 +80,14 @@ Ett annat sätt att lägga till en flik med hjälp av en länk (URL) till sidan 
 8. Välj **Lägg upp på kanalen om den här fliken** för att automatiskt lägga upp ett meddelande i Teams-kanalen eller chatta för att låta deltagarna veta att du har lagt till den här fliken.
 9. Välj **Spara**.
 
-## <a name="add-tab-by-pinning-card-details"></a><a name="add-tab-by-pinning-card-details"></a>Lägg till flik genom att fästa kortinformation
+## <a name="add-tab-by-pinning-card-details"></a><a name="add-tab-by-pinning-card-details"></a><a name="add-tab-by-pinning-card-details"></a>Lägg till flik genom att fästa kortinformation
 
 Så här lägger du till en flik för en post som har delats eller klistrats in i en Teams-kanal eller chatt. Mer information om hur du delar poster och sidlänkar i Teams finns i [Dela poster och sidlänkar i Teams](across-working-with-teams.md).
 
 1. I Teams väljer du knappen **Detaljer** på kortet.
 2. I det övre högra hörnet av kortinformationen väljer du ikonen **Fäst längst upp på chatten** ![Fästikon för att lägga till Teams-flik i Business Central](media/pin-teams.png).
 
-## <a name="change-a-tab-and-its-content"></a><a name="change-a-tab-and-its-content"></a>Ändra en flik och dess innehåll
+## <a name="change-a-tab-and-its-content"></a><a name="change-a-tab-and-its-content"></a><a name="change-a-tab-and-its-content"></a>Ändra en flik och dess innehåll
 
 När en flik har lagts till kan du göra vissa ändringar av fliken. Du kan till exempel byta namn på fliken, flytta den och ta bort den. Dessa åtgärder finns i de flikalternativ som är tillgängliga genom att du väljer nedpil på fliken.
 
@@ -97,7 +97,7 @@ På samma sätt som för innehållet på en flik kan du ändra informationen om 
 
 Du kan också ändra vyn över sidan och dess data, som att sortera och växla mellan list- och panellägen. När du gör den här typen av ändringar påverkar de inte vad andra ser. De ser vad du ursprungligen bokförde tills de gör liknande ändringar själva.
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 [Översikt över Business Central- och Microsoft Teams-integrering](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  

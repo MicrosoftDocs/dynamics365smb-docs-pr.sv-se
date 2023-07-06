@@ -11,7 +11,7 @@ ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# <a name="financial-business-intelligence"></a><a name="financial-business-intelligence"></a>Financial Business Intelligence
+# <a name="financial-business-intelligence"></a><a name="financial-business-intelligence"></a><a name="financial-business-intelligence"></a>Financial Business Intelligence
 
 Företag samlar in oerhörda mängder data under sin dagliga verksamhet. Dessa data, som återspeglar till exempel organisationens försäljningssiffror, inköp, driftskostnader, löner och budgetar, representerar värdefull information, eller business intelligence, för beslutsfattare. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller många funktioner som hjälper dig att samla in, analysera och dela med dig av dina företagsdata.
 
@@ -32,7 +32,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Aktivera global ekonomisk rapportering som står till internationella organisationer i redovisning med standarden eXtensible Business Reporting Language (XBRL).|[Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)|
 |Ändra åtkomstmetoden för databaser gällande rapporter, sidor av typen API och frågor för att minska belastningen och förbättra prestandan.|[Hantera åtkomstmetod för databas](admin-data-access-intent.md)|
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Använda Business Central som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  

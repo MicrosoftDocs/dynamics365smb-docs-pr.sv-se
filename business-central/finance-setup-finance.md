@@ -10,7 +10,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# <a name="setting-up-finance"></a><a name="setting-up-finance"></a>Ställa in ekonomi
+# <a name="setting-up-finance"></a><a name="setting-up-finance"></a><a name="setting-up-finance"></a>Ställa in ekonomi
 
 Innan du kan börja driva ditt företag måste du ange hur du vill hantera finansprocesser för företaget. Först skapar du det viktigaste för företagets redovisningsposter: kontoplanen. Därefter skapar du bokföringsmallar, som gör det effektivare att tilldela standardredovisningskonton till kunder, leverantörer och artiklar.
 
@@ -51,9 +51,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 > [!TIP]
 > Beroende på ditt geografiska läge kan vissa Business Central-sidor innehålla fält som inte beskrivs i artiklarna som anges ovan, eftersom de gäller lokala funktioner eller anpassningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  

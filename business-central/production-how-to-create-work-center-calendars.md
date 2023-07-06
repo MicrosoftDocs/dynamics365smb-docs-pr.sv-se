@@ -10,7 +10,7 @@ ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="set-up-shop-calendars"></a><a name="set-up-shop-calendars"></a>Så här lägger du upp fabrikskalendrar
+# <a name="set-up-shop-calendars"></a><a name="set-up-shop-calendars"></a><a name="set-up-shop-calendars"></a>Så här lägger du upp fabrikskalendrar
 
 I en produktionsgrupp- eller maskingruppkalender anger du de arbetsdagar/arbetstimmar, skift, helgdagar och frånvaro som avgör den tillgängliga bruttokapaciteten för produktionsgruppen (mätt i tidsenheter) utifrån de effektivitets- och kapacitetsvärden som har definierats för gruppen.
 
@@ -18,7 +18,7 @@ Om du vill beräkna en specifik produktionsgrupp- eller maskingruppkalender mås
 
 Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är liknande när du ställer in maksingruppkalender.  
 
-## <a name="to-create-work-shifts"></a><a name="to-create-work-shifts"></a>Så här skapar du arbetsskift
+## <a name="to-create-work-shifts"></a><a name="to-create-work-shifts"></a><a name="to-create-work-shifts"></a>Så här skapar du arbetsskift
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **arbetsskift** och väljer sedan relaterad länk.  
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera arbetsskiftet (till exempel **1**).  
 3.  Beskriv arbetsskiftet i fältet **Beskrivning**, till exempel **1:a skift**.  
@@ -26,7 +26,7 @@ Nedan beskrivs hur du ställer in produktionsgruppskalendrar. Momentet är likna
 
 Även om dina produktionsgrupper inte arbetar i olika skift måste du ange minst en arbetsskiftkod.  
 
-## <a name="to-set-up-a-shop-calendar"></a><a name="to-set-up-a-shop-calendar"></a>Så här skapar du en fabrikskalender
+## <a name="to-set-up-a-shop-calendar"></a><a name="to-set-up-a-shop-calendar"></a><a name="to-set-up-a-shop-calendar"></a>Så här skapar du en fabrikskalender
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **fabrikskalendrar** och väljer sedan relaterad länk.  
 2.  På en tom rad anger du ett nummer i fältet **Kod** för att identifiera fabrikskalendern.  
 3.  Beskriv fabrikskalendern i fältet **Beskrivning**.  
@@ -60,7 +60,7 @@ De angivna helgdagarna får värdet noll för tillgänglig kapacitet i alla prod
 
 Fabrikskalendern kan nu tilldelas en produktionsgrupp så att den produktionsgruppkalender som styr all verksamhetstidsplanering för produktionsgruppen kan beräknas.  
 
-## <a name="to-calculate-a-work-center-calendar"></a><a name="to-calculate-a-work-center-calendar"></a>Så här beräknar du en produktionsgruppkalender
+## <a name="to-calculate-a-work-center-calendar"></a><a name="to-calculate-a-work-center-calendar"></a><a name="to-calculate-a-work-center-calendar"></a>Så här beräknar du en produktionsgruppkalender
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.
 2. Öppna produktionsgruppen som du vill uppdatera.  
@@ -88,7 +88,7 @@ Kalendertransaktioner skapas (eller uppdateras), och du ser den tillgängliga ka
 
 Den beräknade produktionsgruppkalendern definierar nu när, och hur mycket, som är tillgänglig kapacitet för produktionsgruppen. Detta styr detaljerat planeringen av operationer som utförs i produktionsgruppen.  
 
-## <a name="to-record-work-center-absence"></a><a name="to-record-work-center-absence"></a>Så här registrerar du frånvaro i produktionsgrupper
+## <a name="to-record-work-center-absence"></a><a name="to-record-work-center-absence"></a><a name="to-record-work-center-absence"></a>Så här registrerar du frånvaro i produktionsgrupper
 1.  På sidan **Prod.gruppkalender** väljer du åtgärden **Visa matris**.
 2. På sidan **Prod.gruppkalendermatris** markerar du den produktionsgrupp och den kalenderdag som frånvarotid ska registreras för och väljer åtgärden **Frånvaro**.  
 3.  På sidan **Frånvaro** anger du starttid, sluttid och beskrivning av frånvarotiden. Till exempel:  
@@ -99,7 +99,7 @@ Den beräknade produktionsgruppkalendern definierar nu när, och hur mycket, som
 
 Kapaciteten för den markerade dagen minskas med den registrerade frånvarotiden.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 [Skapa baskalendrar](across-how-to-assign-base-calendars.md)  
 [Ställa in produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'design, reconciliation, general ledger, inventory'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-reconciliation-with-the-general-ledger"></a><a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstämning med redovisningen
+# <a name="design-details-reconciliation-with-the-general-ledger"></a><a name="design-details-reconciliation-with-the-general-ledger"></a><a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstämning med redovisningen
 När lagertransaktioner bokförs till exempel utleveranser, produktionsutflöde eller negativa justeringar registreras antals- och värdeändringarna i lagret i artikeltransaktionerna respektive värdetransaktionerna. Nästa steg i processen går ut på att bokföra lagervärdena på redovisningens lagerkonton.  
 
 Det finns två sätt att stämma av lagerredovisningen med redovisningen:  
@@ -18,22 +18,22 @@ Det finns två sätt att stämma av lagerredovisningen med redovisningen:
 * Manuellt genom att köra batch-jobbet **Bokför lagerkostnad i redov.**.  
 * Automatiskt, varje gång som du bokför en lagertransaktion.  
 
-## <a name="post-inventory-cost-to-gl-batch-job"></a><a name="post-inventory-cost-to-gl-batch-job"></a>Batchjobbet Bokför lagerkostnad i redovisning.
+## <a name="post-inventory-cost-to-gl-batch-job"></a><a name="post-inventory-cost-to-gl-batch-job"></a><a name="post-inventory-cost-to-gl-batch-job"></a>Batchjobbet Bokför lagerkostnad i redovisning.
 När batch-jobbet **Bokför lagerkostnad i redov.** körs skapas redovisningstransaktionerna utifrån värdetransaktioner. Du kan sammanställa redovisningstransaktioner för varje värdetransaktion, eller skapa redovisningstransaktioner för varje kombination av bokföringsdatum, lagerställekod, lagerbokföringsmall, generell rörelsebokföringsmall och generell produktbokföringsmall.  
 
 Bokföringsdatum för redovisningstransaktionerna anges till bokföringsdatumet för motsvarande värdetransaktion, utom när värdetransaktionen infaller i en stängd bokföringsperiod. I det här fallet hoppas värdetransaktionen över och du måste ändra antingen redovisningsinställningar eller användarinställningar för att aktivera bokföring i datumintervallet.  
 
 När du kör batch-jobbet **Bokför lagerkostnad i redov.** kan du få fel på grund av med saknad inställning eller inkompatibel dimensionsinställning. Om fel uppstår i batch-jobbets dimensionsinställning ersätter den dessa fel och använder dimensionerna för värdetransaktionen. För andra fel bokför batch-jobbet inte värdetransaktionerna och anger dem vid slutet av rapporten i avsnittet **Transaktioner som hoppats över**. För att bokföra de här transaktionerna måste du först lösa felen. Om en lista över felen ska visas innan batch-jobbet för bokföring ska köras kan rapporten **Bokför lagerkostnad i redovisning**. Alla fel som inträffar under testbokföringen visas i en lista i testrapporten. Därefter går det att korrigera felen och köra batch-jobbet för bokföringen av lagerkostnaden utan att transaktioner hoppas över.  
 
-## <a name="automatic-cost-posting"></a><a name="automatic-cost-posting"></a>Automatisk kostnadsbokföring
+## <a name="automatic-cost-posting"></a><a name="automatic-cost-posting"></a><a name="automatic-cost-posting"></a>Automatisk kostnadsbokföring
 Om du vill göra så att kostnadsbokföringen till redovisningen körs automatiskt när du bokför en lagertransaktion markerar du kryssrutan **Automatisk kostnadsbokföring** på sidan **Lagerinställning**. Bokföringsdatumet för redovisningstransaktionen är detsamma som bokföringsdatumet för artikeltransaktionen.  
 
-## <a name="account-types"></a><a name="account-types"></a>Kontotyper
+## <a name="account-types"></a><a name="account-types"></a><a name="account-types"></a>Kontotyper
 Under avstämning bokförs lagervärden i lagerkontot i balansräkningen. Samma belopp, men med omvänt tecken, bokförs på det relevanta motkontot. Vanligtvis är motkontot ett resultaträkningkonto. Men när du bokför direkt kostnad som hör till förbrukning eller utflöde är motkontot ett balansräkningskonto. Typen av artikeltransaktion och värdetransaktionen avgör vilket redovisningskonto att bokföra på.  
 
 Transaktionstypen anger vilket redovisningskonto att bokföra på. Det bestäms antingen av antalets tecken i artikeltransaktionen eller det värderade antalet i värdetransaktionen, eftersom antalen har alltid samma tecken. En försäljningspost med ett positivt antal beskriver till exempel en lagerminskning som orsakas av en försäljning, och en försäljningstransaktion med ett negativt antal beskriver en lagerökning som orsakas av en försäljningsretur.  
 
-### <a name="example"></a><a name="example"></a>Exempel
+### <a name="example"></a><a name="example"></a><a name="example"></a>Exempel
 Följande exempel visar en cykelkedja som tillverkas av inköpta länkar. I det här exemplet visas hur de olika redovisningskontotyperna används i ett typiskt scenario.  
 
 Kryssrutan **Förväntad kost.bokf. i redovisningen** på sidan **Lagerinställningar** är markerad i och följande inställning har definierats.  
@@ -61,7 +61,7 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
 |**Enhetspris senaste inköp**|2,00 SEK|  
 |**Omkostnad %**|10|  
 
-##### <a name="scenario"></a><a name="scenario"></a>Scenario
+##### <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scenario
 1. Användaren köpen 150 länkar och bokför inköpsordern som inlevererad. (Inköp)  
 2. Användaren bokför inköpsordern som fakturerad. Det skapas ett omkostnadsbelopp på BVA 3,00 som ska fördelas och ett avvikelsebelopp på BVA 18,00. (Inköp)  
 
@@ -110,7 +110,7 @@ Följande tabell visar hur länken produktionsgruppen ställs in på produktions
 
 För mer information om sambandet mellan kontotyperna och de olika typerna av värden, se [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
 [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)   
 [Designdetaljer: kostnadsjustering](design-details-cost-adjustment.md)
