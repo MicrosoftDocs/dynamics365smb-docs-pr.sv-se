@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a>Utbildningskatalog för företagets beslutsfattare
+# <a name="business-decision-makers-learning-catalog"></a>Utbildningskatalog för företagets beslutsfattare
 
 Bestämmer du om du vill investera i ny teknik?
 
 Följande katalog är ordnad efter grundläggande kunskaper om specifika domäner och från de mest grundläggande till de mest avancerade. Om det finns ett innehåll i flera format får du veta så att du kan välja det utbildningsformat som bäst motsvarar dina behov.  
 
-## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Affärsvärde<a name="busvalue"></a>
+## <a name="business-value"></a><a name="busvalue"></a>Affärsvärde
 
 | Innehåll                                                                 | Beskrivning                                                                                                | Format                                | Längd     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | I den här modulen visas programfunktioner, fördelar och exempel på Dynamics 365 Business Central i aktion. | Kostnadsfri online-utbildningsväg i egen takt | 24 minuter |
 
-## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Komma igång<a name="get-started"></a>
+## <a name="getting-started"></a><a name="get-started"></a>Komma igång
 
 | Innehåll                                                                                                                             | Beskrivning                                                                                                                                                                                                                                                                                      | Format                                | Längd             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

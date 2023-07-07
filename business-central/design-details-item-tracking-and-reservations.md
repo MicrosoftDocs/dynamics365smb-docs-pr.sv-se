@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-and-reservations"></a><a name="design-details-item-tracking-and-reservations"></a><a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
+# <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Artikelkoppling och reservationer
 
 Samtidigt användning av reservation och specifik artikelspårning är ovanlig, eftersom de båda skapar en koppling mellan tillgång och efterfrågan. Förutom i situationer där en kund eller en produktionsplanerare begär ett visst parti, är det sällan meningsfullt att reservera lagerartiklar som har redan artikelspårningsnummer för viss koppling. Även om det är möjligt att reservera artiklar som kräver särskild artikelspårning, krävs särskilda funktioner för att undvika konflikter mellan orderhandläggare som begär samma spårade artiklar.  
   
@@ -37,12 +37,12 @@ Den huvudsakliga skillnaden mellan specifika och icke-specifika reservationer de
   
 När du reserverar lagerkvantiteter från en avgående dokumentrad för en artikel som har artikelspårningsnummer tilldelade och är inställd för särskild artikelspårning, leder sidan **Reservation** dig via olika arbetsflöden beroende på vad du behöver för serie- eller partinumren.  
   
-## <a name="specific-reservation"></a><a name="specific-reservation"></a><a name="specific-reservation"></a>Specifik reservation
+## <a name="specific-reservation"></a>Specifik reservation
 När du väljer **Reservera** på den utgående dokumentraden visas en dialogruta där du tillfrågas om du vill reservera specifika serie- eller partinummer. Om du väljer **Ja** visas en lista med alla serie- och partinummer som tilldelats dokumentraden. Sidan **Reservation** öppnas när du har valt en av serie- eller partinumren, och du kan då reservera bland de valda serie- eller partinumren på ett typiskt sätt.  
   
 Om några av de specifika artikelspårningsnumren som du försöker reservera finns i icke-specifika reservationer får du ett meddelande längst ned på sidan **Reservation** om att många av det totala reserverade antalet finns i icke-specifika reservationer och om de är fortfarande tillgängliga.  
   
-## <a name="nonspecific-reservation"></a><a name="nonspecific-reservation"></a><a name="nonspecific-reservation"></a>Icke-specifik reservation
+## <a name="nonspecific-reservation"></a>Icke-specifik reservation
 Om du väljer **Nr** i dialogrutan som visas öppnas sidan **Reservation** och du kan reservera bland alla serie- och partinummer i lagret.  
   
 På grund av strukturen i reservationsystemet måste systemet välja specifika artikeltransaktioner att reservera mot när du gör en icke-specifik reservation för en artikelspårad artikel. Eftersom artikeltransaktionerna har artikelspårningsnumren, reserverar reservationen indirekt specifika serie- eller partinummer, även om du inte avsåg att göra det. För att hantera den här situationen försöker reservationssystemet ombilda icke-specifika reservationstransaktioner före bokföring.  
@@ -52,24 +52,24 @@ Systemet reserverar faktiskt fortfarande mot specifika transaktioner, men det an
 > [!NOTE]  
 >  På en icke-specifik reservation är partinummer- eller serienummerfältet tomt i reservationstransaktionen som pekar på efterfrågan, till exempel försäljningen.  
   
-## <a name="reshuffle"></a><a name="reshuffle"></a><a name="reshuffle"></a>Ombildning
+## <a name="reshuffle"></a>Ombildning
 När en användare bokför ett utgående dokument när han har valt fel serie- eller partinummer ombildas andra icke-specifika reservationer för att visa faktiskt serie- eller partinummer plockas. Det uppfyller bokföringsmotorn med en fast koppling mellan tillgång och efterfrågan.  
   
 För alla affärsscenarion som stöds är det endast möjligt att blanda om mot positiva artikeltransaktioner med reservation och serie- eller partinummer, men utan definierade serie- eller partinummer på efterfråganssidan.  
   
-## <a name="supported-business-scenarios"></a><a name="supported-business-scenarios"></a><a name="supported-business-scenarios"></a>Affärsscenarion som stöds
+## <a name="supported-business-scenarios"></a>Affärsscenarion som stöds
 Funktionen Sen bindning stöder följande affärsscenarion:  
   
 * Ange ett specifikt serie- eller partinummer för ett avgående dokument med icke-specifik reservation av ett felaktigt serie- eller partinummer.  
 * Reservera ett visst serie- eller partinummer.  
 * Bokför ett avgående dokument med icke-specifik reservation av serie- eller partinummer.  
   
-### <a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation"></a><a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation"></a><a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation"></a>Ange serie- eller partinummer för ett avgående dokument med fel icke-specifik reservation
+### <a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation"></a>Ange serie- eller partinummer för ett avgående dokument med fel icke-specifik reservation
 Det här är det vanligaste det av de tre scenarierna som stöds. I det här fallet säkerställer funktionen Sen bindning att en användare kan ange ett serie- eller partinummer, som faktiskt plockas, på ett avgående dokument som redan har en icke-specifik reservation av ett annat serie- eller partinummer.  
   
 Till exempel uppstår behovet när en orderhandläggare först skapade en icke-specifik reservation för ett serie- eller partinummer. Senare, när artikeln faktiskt plockas från lagret, måste det plockade serie- eller partinumret anges på ordern innan den bokförs. Den icke-specifika reservationen ombildas vid bokföringen för att se till att det valda serie- eller partinumret kan anges utan att förlora reservationen och se till att det valda serie- eller partinumret kan kopplas helt och bokföras.  
   
-### <a name="reserve-specific-serial-or-lot-numbers"></a><a name="reserve-specific-serial-or-lot-numbers"></a><a name="reserve-specific-serial-or-lot-numbers"></a>Reservera specifika serie- eller partinummer
+### <a name="reserve-specific-serial-or-lot-numbers"></a>Reservera specifika serie- eller partinummer
 I affärsscenariot säkerställer funktionen Sen bindning att en användare som försöker att reservera ett visst serienummer eller partinummer som för närvarande har reserverats icke-specifikt kan göra det. En icke-specifik reservation stuvas om vid tidpunkten för reservation för att släppa serie- eller partinumret i för den specifika förfrågan.  
   
 Ombildningen sker automatiskt, men inbäddad hjälp visas längst ned på sidan **Reservation** och visar följande text:  
@@ -78,12 +78,12 @@ Ombildningen sker automatiskt, men inbäddad hjälp visas längst ned på sidan 
   
 Dessutom visar fältet **Icke-specifik reserverat antal** hur många reservationstransaktioner som är icke-specifika. Som standard visas detta fält inte för användaren.  
   
-### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a><a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a><a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a>Bokför ett avgående dokument med icke-specifik reservation av serie- eller partinummer.
+### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a>Bokför ett avgående dokument med icke-specifik reservation av serie- eller partinummer.
 Affärsscenariot stöds med funktionen Sen bindning som möjliggör fast koppling och avgående bokföring av det som faktiskt plockas genom att ombilda en annan icke-specifik reservation av ett serie- eller partinummer. Om det inte är möjligt att stuva om visas följande standardmeddelande när användaren försöker bokföra utleveransen:  
   
 **Artikel XX kan inte kopplas helt.**  
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 [Designdetaljer: Objektspårning](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

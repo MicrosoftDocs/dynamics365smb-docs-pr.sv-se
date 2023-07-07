@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-complex-application-areas-using-best-practices"></a><a name="set-up-complex-application-areas-using-best-practices"></a><a name="set-up-complex-application-areas-using-best-practices"></a>Skapa komplexa moduler med hjälp av bästa praxis
+# <a name="set-up-complex-application-areas-using-best-practices"></a>Skapa komplexa moduler med hjälp av bästa praxis
 Det är viktigt att ange rätt inställningsvärden från början för att en ny verksamhetsprogramvara ska fungera effektivt.  
 
  Om du använder snabbstart för att implementera inställningsvärden, eller du skriver in dem i fältet nytt företag manuellt, kan du hantera dina inställningsalternativ med de allmänna rekommendationerna för valda inställningsfält som är kända att eventuellt göra lösningen ineffektiv om den definierats felaktigt.  
@@ -21,7 +21,7 @@ Det är viktigt att ange rätt inställningsvärden från början för att en ny
 
 -   [Lägga upp bästa praxis: Värderingsprincip](setup-best-practices-costing-method.md)  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

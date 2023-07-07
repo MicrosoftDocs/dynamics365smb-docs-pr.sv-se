@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a>Konfigurera arbetsflöden för godkännande
+# <a name="set-up-approval-workflows"></a>Konfigurera arbetsflöden för godkännande
 
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Läs mer i [Använda arbetsflöden för godkännande](across-use-workflows.md).
 
@@ -35,16 +35,16 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Dela arbetsflöden med andra [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Exportera och importera godkännandearbetsflöden](across-how-to-export-and-import-workflows.md)|  
 |Se information om hur du konfigurerar ett arbetsflöde för godkännande av försäljningsdokument genom att följa en procedur från slutpunkt till slutpunkt.|[Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a>Exempel på ett arbetsflöde för godkännande
+## <a name="example-of-an-approval-workflow"></a>Exempel på ett arbetsflöde för godkännande
 
 Den här videon visar hur du ställer in ett arbetsflöde som kräver att en användare begär någon annans godkännande innan de kan ändra information om en befintlig kund eller skapa en ny kund.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Använda arbetsflöden för godkännande](across-use-workflows.md)  
 [Arbetsflöde](across-workflow.md)  

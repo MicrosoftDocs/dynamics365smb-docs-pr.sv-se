@@ -11,7 +11,7 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manage-human-resources"></a><a name="manage-human-resources"></a><a name="manage-human-resources"></a>Administrera personal
+# <a name="manage-human-resources"></a>Administrera personal
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du hålla detaljerade register över dina anställda. Du kan registrera och underhålla personalinformation, till exempel anställningskontrakt, konfidentiell information, kompetenser och kontakter.
 
@@ -26,7 +26,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Registrera nya anställda, redigera poster för nuvarande anställda och bifoga relaterad information, till exempel avtal och artiklar. |[Registrera personal](hr-how-register-employees.md) |
 | Registrera anställdas frånvaro och visa frånvarostatistik genom olika filter. |[Hantera personalfrånvaro](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

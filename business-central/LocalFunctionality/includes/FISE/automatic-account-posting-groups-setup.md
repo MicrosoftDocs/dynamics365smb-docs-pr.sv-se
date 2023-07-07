@@ -12,7 +12,7 @@ ms.locfileid: "8557542"
 ---
 Om du vill använda automatiska kontokoder måste du skapa en automatisk kontobokföringsmall.  
 
-## <a name="to-set-up-automatic-account-posting-groups"></a><a name="to-set-up-automatic-account-posting-groups"></a><a name="to-set-up-automatic-account-posting-groups"></a><a name="to-set-up-automatic-account-posting-groups"></a>Så här ställer du in automatiska kontobokföringsmallar
+## <a name="to-set-up-automatic-account-posting-groups"></a>Så här ställer du in automatiska kontobokföringsmallar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Automatkonteringsmallar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  

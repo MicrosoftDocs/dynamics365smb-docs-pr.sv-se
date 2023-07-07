@@ -11,7 +11,7 @@ ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
 ---
-# <a name="troubleshoot-connectivity-for-business-central"></a><a name="troubleshoot-connectivity-for-business-central"></a><a name="troubleshoot-connectivity-for-business-central"></a>Felsökning: anslutning för Business Central
+# <a name="troubleshoot-connectivity-for-business-central"></a>Felsökning: anslutning för Business Central
 
 > **GÄLLER:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -22,7 +22,7 @@ ROBOTS: NOINDEX
 > [!NOTE]
 > På sidan **felsöka anslutning** testas nätverkets prestanda eller pålitlighet, liksom anslutningens hastighet. Den verifierar endast anslutningen till olika resurser.
 
-## <a name="start-the-connectivity-check"></a><a name="start-the-connectivity-check"></a><a name="start-the-connectivity-check"></a>Starta anslutningskontrollen
+## <a name="start-the-connectivity-check"></a>Starta anslutningskontrollen
 
 1. Öppna en webbläsare.
 2. I adressen anger du webbadressen som du använder för att öppna Business Central och lägg till `/connectivity` på slutet. 
@@ -51,7 +51,7 @@ ROBOTS: NOINDEX
 
 De kontroller som körs beskrivs i följande avsnitt, och några tips på hur du kan åtgärda problemen.
 
-## <a name="basic-internet-connectivity"></a><a name="basic-internet-connectivity"></a><a name="basic-internet-connectivity"></a>Grundläggande internetanslutning
+## <a name="basic-internet-connectivity"></a>Grundläggande internetanslutning
 
 Kontrollerar att du har anslutning till Internet genom att kontrollera att du har åtkomst till en känd offentlig domän som www.bing.com.
 
@@ -60,7 +60,7 @@ Kontrollerar att du har anslutning till Internet genom att kontrollera att du ha
 |Din webbläsare stöder inte den här kontrollen|Öppna sidan i en webbläsare som stöds och försök igen. En lista över vilka webbläsare som stöds finns i [Minimikrav för att använda Business Central – webbläsare](product-requirements.md#browsers)|
 |Det gick inte att skicka ping till servern på följande URL: {url}|Kontrollera dina brandvägginställningar.|
 
-## <a name="cdn-content-delivery-network-resources-loading"></a><a name="cdn-content-delivery-network-resources-loading"></a><a name="cdn-content-delivery-network-resources-loading"></a>CDN (Content Delivery Network) inläsning av resurser
+## <a name="cdn-content-delivery-network-resources-loading"></a>CDN (Content Delivery Network) inläsning av resurser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] använder Azure Content Delivery Network (CDN) för att tillhandahålla resurser som krävs för att köra Business Central webbklienten. Den här kontrollen kontrollerar att de resurser som krävs är tillgängliga och kan nås genom att skicka ping till Business Central-instansen i CDN.
 
@@ -69,7 +69,7 @@ Kontrollerar att du har anslutning till Internet genom att kontrollera att du ha
 |Din webbläsare stöder inte den här kontrollen|Se kontrollen **Grundläggande internetanslutning**.|
 |Det gick inte att skicka ping till servern på följande URL: {url}|Kontrollera dina brandvägginställningar.|
 
-## <a name="user-authentication"></a><a name="user-authentication"></a><a name="user-authentication"></a>Användarautentisering
+## <a name="user-authentication"></a>Användarautentisering
 
 Kontrollerar att den aktuella användaren har loggat in med ett giltigt Business Central-konto.
 
@@ -77,7 +77,7 @@ Kontrollerar att den aktuella användaren har loggat in med ett giltigt Business
 |-------|-------------|
 |Ingen användare är för närvarande autentiserad|Logga in på Business Central med giltigt användarnamn och lösenord.|
 
-## <a name="business-central-environments-discovery"></a><a name="business-central-environments-discovery"></a><a name="business-central-environments-discovery"></a>Identifiering av Business Central-miljöer
+## <a name="business-central-environments-discovery"></a>Identifiering av Business Central-miljöer
 
 Söker efter Business Central-miljöer som är tillgängliga för en autentiserad användare och verifierar sedan om användaren kan autentiseras i miljön.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -88,7 +88,7 @@ Söker efter Business Central-miljöer som är tillgängliga för en autentisera
 |Det gick inte att hämta tillgängliga miljöer för ditt konto.|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 |Ditt användarnamn eller lösenord är felaktigt, eller också har du inget giltigt konto.| Kontrollera att du har loggat in med rätt användarnamn och lösenord.|
 
-## <a name="application-service-connectivity"></a><a name="application-service-connectivity"></a><a name="application-service-connectivity"></a>Appens tjänstanslutning
+## <a name="application-service-connectivity"></a>Appens tjänstanslutning
 
 Kontrollerar att den autentiserade användaren kan ansluta till en identifierad miljö, vanligtvis från produktionsmiljön.
 
@@ -99,7 +99,7 @@ Kontrollerar att den autentiserade användaren kan ansluta till en identifierad 
 |Ingen grupperad adress att utföra den här kontrollen för|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 |Versionsslutpunkten finns inte|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 
-## <a name="web-server-connectivity"></a><a name="web-server-connectivity"></a><a name="web-server-connectivity"></a>Webbserveranslutning
+## <a name="web-server-connectivity"></a>Webbserveranslutning
 
 Kontrollerar att den autentiserade användaren kan upprätta anslutningar till webbservern.
 
@@ -110,7 +110,7 @@ Kontrollerar att den autentiserade användaren kan upprätta anslutningar till w
 |Ingen grupperad adress att utföra den här kontrollen för|Kontrollera listan över tillgängliga miljöer i administrationscentret för Business Central.|
 |Det gick inte att upprätta en anslutning till webbservern|Rensa cacheminnet och läs in sidan igen.|
 
-## <a name="service-health-status"></a><a name="service-health-status"></a><a name="service-health-status"></a>Status för tjänstens hälsotillstånd
+## <a name="service-health-status"></a>Status för tjänstens hälsotillstånd
 
 Rapporterar hälsostatus för Business Central genom att söka efter deklarerade avbrott.
 
@@ -119,7 +119,7 @@ Rapporterar hälsostatus för Business Central genom att söka efter deklarerade
 |Ingen autentiserad användare kan utföra den här kontrollen för|Se kontrollen **användarverifiering**.|
 |Business Central är tillfälligt otillgänglig. Försök igen senare.|Försök igen senare.|
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Översikt över uppgifter för inställning av Business Central](setup.md)  

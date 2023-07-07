@@ -8,7 +8,7 @@ ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, tra
 ms.date: 08/12/2022
 ms.author: a-reishima
 ---
-# <a name="process-partial-shipments"></a><a name="process-partial-shipments"></a><a name="process-partial-shipments"></a>Bearbeta delleveranser
+# <a name="process-partial-shipments"></a>Bearbeta delleveranser
 
 I en del leverans, levereras ingen order på samma gång. Av en order på exempelvis 100 enheter levereras 40 enheter omedelbart och 60 vid senare tillfälle. Det finns ingen begränsning av antalet utleveranser som kan utföras för en order.
 
@@ -18,7 +18,7 @@ Som standard [!INCLUDE [prod_short](includes/prod_short.md)] anges fältet på s
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Sälja produkter med en kundförsäljningsreturorder](sales-how-sell-products.md)  
 [Leverera artiklar](warehouse-how-ship-items.md)  

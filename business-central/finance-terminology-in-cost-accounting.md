@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="terminology-in-cost-accounting"></a><a name="terminology-in-cost-accounting"></a><a name="terminology-in-cost-accounting"></a>Terminologi i kostnadsredovisning
+# <a name="terminology-in-cost-accounting"></a>Terminologi i kostnadsredovisning
 
 I det här avsnittet definieras de viktigaste begreppen som används i kostnadskalkylering.  
 
-## <a name="key-terms"></a><a name="key-terms"></a><a name="key-terms"></a>Begrepp
+## <a name="key-terms"></a>Begrepp
 
  Följande tabell visar definitioner av de viktigaste begreppen i kostnadskalkylering.  
 
@@ -43,9 +43,9 @@ I det här avsnittet definieras de viktigaste begreppen som används i kostnadsk
 |Rörlig kostnad|Rörliga kostnader är kostnader som ändras i proportion till aktiviteten i en verksamhet. Rörliga kostnader är summan av marginalkostnaderna utslaget på alla producerade enheter. Fasta kostnader och rörliga kostnader utgör de två komponenterna i den totala kostnaden.|  
 |Variant|En variant används som en valfri användardefinierad etikett för fördelningar. Syftet med etiketten är att filtrera fördelningsgrupper.|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
  [Om kostnadsredovisning](finance-about-cost-accounting.md)  
  [Redovisa kostnader](finance-manage-cost-accounting.md)  

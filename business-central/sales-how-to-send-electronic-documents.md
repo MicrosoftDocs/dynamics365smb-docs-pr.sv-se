@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="send-electronic-documents"></a><a name="send-electronic-documents"></a><a name="send-electronic-documents"></a>Skicka elektroniska dokument
+# <a name="send-electronic-documents"></a>Skicka elektroniska dokument
 
 Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöder utskick av elektroniska fakturor och kreditnotor i PEPPOL-format, ett format som stöds av de största leverantörerna av dokumentutbytestjänster. En leverantör av dokumentväxlingstjänster skickar dokument elektroniskt mellan handelspartners. För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte.  
 
@@ -18,7 +18,7 @@ Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöde
 
  Om du vill skicka en försäljningsfaktura som ett elektroniskt PEPPOL-dokument väljer du **Elektroniskt dokument** i dialogrutan **Bokför och skicka**. Från denna dialogruta kan du även konfigurera kundens standardprofil för dokumentutskick. Först måste du skapa olika huvuddata, som företagsinformation, kunder, artiklar och enheter. Dessa används för att identifiera dina affärspartners och artiklar vid konvertering av data i fält i [Så här konfigurerar du utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-### <a name="to-send-an-electronic-sales-invoice"></a><a name="to-send-an-electronic-sales-invoice"></a><a name="to-send-an-electronic-sales-invoice"></a>Så här kan du skicka en elektronisk försäljningsfaktura
+### <a name="to-send-an-electronic-sales-invoice"></a>Så här kan du skicka en elektronisk försäljningsfaktura
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsfakturor** och väljer sedan relaterad länk.  
 
@@ -43,9 +43,9 @@ Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöde
     > [!NOTE]  
     >  Du kan även skicka en bokförd försäljningsfaktura som ett elektroniskt dokument. Proceduren är samma som har beskrivits i det här avsnittet för icke-bokförda försäljningsdokument. På sidan **Bokförd försäljningsfaktura** väljer du åtgärden **Aktivitetslogg** för att visa status för det elektroniska dokumentet.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Skapa dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md)  

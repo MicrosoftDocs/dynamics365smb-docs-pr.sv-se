@@ -10,7 +10,7 @@ ms.search.form: '371, 423, 424, 427, 1208, 1207, 1230'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="collect-payments-with-sepa-direct-debit"></a><a name="collect-payments-with-sepa-direct-debit"></a><a name="collect-payments-with-sepa-direct-debit"></a>Samla in betalningar med SEPA-autogiro
+# <a name="collect-payments-with-sepa-direct-debit"></a>Samla in betalningar med SEPA-autogiro
 
 Med kundens samtycke kan du samla in betalningar direkt från kundens bankkonto enligt SEPA-formatet.  
 
@@ -25,7 +25,7 @@ När betalningar har behandlas enligt din bank, kan du bokföra betalningsinleve
 > [!NOTE]  
 > För att samla in betalningar med hjälp av SEPA Autogiro måste valutan på försäljningsfakturan vara EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a><a name="setting-up-sepa-direct-debit"></a><a name="setting-up-sepa-direct-debit"></a>Konfigurera SEPA Autogiro
+## <a name="setting-up-sepa-direct-debit"></a>Konfigurera SEPA Autogiro
 
 Från sidan **Samlingar med autogiro** kan du exportera instruktioner till din Internetbank för autogirobetalning från kundens bankkonto till ditt bankkonto enligt formatet för SEPA-autogiro.
 
@@ -40,13 +40,13 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 * Ställ in kundens betalningssätt.  
 * Ställ in medgivande för autogiro att återspegla ditt avtal med kunden för att samla in sina betalningar under en viss avtalsperiod.  
 
-### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a><a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a><a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Så här ställer du in ditt bankkonto för SEPA-autogiro
+### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Så här ställer du in ditt bankkonto för SEPA-autogiro
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.  
 2. Öppna det bankkonto som du vill använda för autogiro.  
 3. På snabbfliken **Överföring**, i fältet **Exp.format för SEPA-autogiro**, välj alternativet för SEPA-autogiro.  
 
-### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a><a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a><a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>För att ställa in kundens betalningssätt för SEPA-autogiro
+### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>För att ställa in kundens betalningssätt för SEPA-autogiro
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **betalningsmetoder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -66,7 +66,7 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 7. Välj **Betalningssätt**-fältet och välj sedan koden för betalningssätt som du angav i steg 3.  
 8. Upprepa steg 6 till och med 7 för alla kunder som du vill ställa in för SEPA-autogiroinsamling.  
 
-#### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a><a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a><a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Så här ställer du in medgivande för autogiro som representerar kundavtalet
+#### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Så här ställer du in medgivande för autogiro som representerar kundavtalet
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2. Öppna kortet för den kund som du vill ställa in för SEPA-autogiro.  
@@ -89,14 +89,14 @@ Innan du kan bearbeta kundbetalningar på elektronisk väg genom att exportera i
 
  Medgivande för autogiro infogas automatiskt i fältet **Medgivande-ID för autogiro** när du skapar en försäljningsfaktura för den kund som du valde i steg 2. Mer information finns i [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md).
 
-## <a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a><a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a><a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil
+## <a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Skapa insamlingsposter för SEPA Autogiro och exportera till en bankfil
 
 Om du vill instruera banken att överföra betalningsbeloppet från kundens bankkonto till ditt företags konto skapar du en autogirobetalning som innehåller information om kundens bankkonto, berörda försäljningsfakturor och medgivande för autogiro. Från direktdebitering-insamlingsposten som skapas kan du sedan exportera en XML-fil som du skickar eller överför till din elektroniska bank för bearbetning. Alla betalningar som inte kunde behandlas av banken meddelas till dig av din bank och du måste sedan manuellt avvisa de aktuella autogiroinsamlingsposterna.  
 
  > [!NOTE]  
  > För att samla in betalningar med hjälp av SEPA Autogiro måste valutan på försäljningsfakturan vara EURO.  
 
-### <a name="to-create-a-direct-debit-collection"></a><a name="to-create-a-direct-debit-collection"></a><a name="to-create-a-direct-debit-collection"></a>Skapa en direktdebitering-insamling
+### <a name="to-create-a-direct-debit-collection"></a>Skapa en direktdebitering-insamling
 
  1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Samlingar med autogiro** och väljer sedan relaterad länk.  
  2. På sidan **Samlingar med autogiro** väljer du åtgärden **Skapa samling med autogiro**.  
@@ -116,7 +116,7 @@ Om du vill instruera banken att överföra betalningsbeloppet från kundens bank
 
 En autogiroinsamling läggs till på sidan **Autogiroinsamlingar** och en eller flera autogiroinsamlingsposter skapas.  
 
-### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a><a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a><a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Så här exporterar du direktdebeterings-insamlingposter till en bankfil
+### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Så här exporterar du direktdebeterings-insamlingposter till en bankfil
 
  1. På sidan **Samlingar med autogiro** väljer du åtgärden **Transaktioner för samlingar med autogiro**.  
  2. På sidan **Transaktioner för samlingar med autogiro** väljer du den post som du vill exportera och väljer sedan åtgärden **Skapa autogirofil**.  
@@ -126,13 +126,13 @@ En autogiroinsamling läggs till på sidan **Autogiroinsamlingar** och en eller 
 
  Om den exporterade filen inte kan behandlas, till exempel eftersom kunden är insolvent, kan du avvisa direktdebitering-insamlingsposten. Om den exporterade filen har bearbetats av banken, samlas automatiskt förfallna betalningar på de berörda försäljningsfakturorna från berörda kunder. I så fall kan du stänga samlingen.  
 
-### <a name="to-reject-a-direct-debit-collection-entry"></a><a name="to-reject-a-direct-debit-collection-entry"></a><a name="to-reject-a-direct-debit-collection-entry"></a>Avvisa en direktdebitering-insamlingspost
+### <a name="to-reject-a-direct-debit-collection-entry"></a>Avvisa en direktdebitering-insamlingspost
 
 * På sidan **Transaktioner för samlingar med autogiro**, markera den post som inte behandlades korrekt, och välj åtgärden **Avvisa transaktion**.  
 
     Värdet i fältet **Status** på sidan **Transaktioner för samlingar med autogiro** ändras till **Avvisad**.  
 
-### <a name="to-close-a-direct-debit-collection"></a><a name="to-close-a-direct-debit-collection"></a><a name="to-close-a-direct-debit-collection"></a>Stänga en direktdebitering-insamling
+### <a name="to-close-a-direct-debit-collection"></a>Stänga en direktdebitering-insamling
 
 * På sidan **Transaktioner för samlingar med autogiro**, markera den post som behandlades korrekt, och välj åtgärden **Stäng samling**.  
 
@@ -140,13 +140,13 @@ En autogiroinsamling läggs till på sidan **Autogiroinsamlingar** och en eller 
 
  Du kan nu fortsätta med att bokföra inleveranser för de berörda försäljningsfakturorna. Du kan göra detta om du ofta bokför betalningsinleveranser, som på sidan **Betalningsregistrering** eller också kan du bokföra de relaterade betalningsinleveranser direkt från sidan **Transaktioner för samlingar med autogiro**. Mer information finns i [kräva in betalningar med SEPA direktdebitering](finance-collect-payments-with-sepa-direct-debit.md).
 
-## <a name="posting-sepa-direct-debit-payment-receipts"></a><a name="posting-sepa-direct-debit-payment-receipts"></a><a name="posting-sepa-direct-debit-payment-receipts"></a>Bokföra betalningsinleveranser för SEPA Autogiro
+## <a name="posting-sepa-direct-debit-payment-receipts"></a>Bokföra betalningsinleveranser för SEPA Autogiro
 
 När en direkt autogiroinsamling framgångsrikt bearbetas av din bank, kan du fortsätta att bokföra mottagandet av betalningen för de berörda försäljningsfakturorna. För mer information, se [Så här skapar du insamlingsposter för SEPA Autogiro och exporterar till en bankfil](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
 Du kan bokföra Betalningsinleverans direkt från sidan **Samlingar med autogiro** eller sidan **Transaktioner för samlingar med autogiro**. Alternativt kan du vidarebefordra arbetet till en annan användare genom att förbereda de relaterade journalraderna.  
 
-### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a><a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a><a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Så här bokför du ett betalningskvitto på sidan Samlingar med autogiro
+### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Så här bokför du ett betalningskvitto på sidan Samlingar med autogiro
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Samlingar med autogiro** och väljer sedan relaterad länk.  
 2. Välj en rad för en autogiroinsamling som har exporterats till en bankfil och framgångsrikt bearbetats av banken.
@@ -162,7 +162,7 @@ Du kan bokföra Betalningsinleverans direkt från sidan **Samlingar med autogiro
 
 5. Välj **OK**.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Servicehantering](service-service.md)

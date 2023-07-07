@@ -5,7 +5,7 @@ ms.date: 10/27/2022
 ms.author: bholtorf
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a><a name="reversing-journals-to-correct-mistakes"></a><a name="reversing-journals-to-correct-mistakes"></a>Återföra journaler för att korrigera misstag
+### <a name="reversing-journals-to-correct-mistakes"></a>Återföra journaler för att korrigera misstag
 
 När du arbetar med journaler som har många rader och något går fel, är det viktigt att du har ett enkelt sätt att korrigera misstag. På sidan **Bokförd redovisningsjournal** finns några åtgärder som kan hjälpa dig.
 

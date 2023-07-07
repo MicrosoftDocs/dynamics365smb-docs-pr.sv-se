@@ -8,14 +8,14 @@ ms.search.form: 'Report_107, Report_111, Report_112, Report_113, Report_119, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a><a name="sales-reports-and-analytics-in-business-central"></a><a name="sales-reports-and-analytics-in-business-central"></a>Försäljningsrapporter och analys i Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Försäljningsrapporter och analys i Business Central
 
 Med försäljningsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] kan försäljnings- och affärspersonal få insikter och statistik om aktuella och tidigare försäljningsaktiviteter.  
 
-## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Rapporter
+## <a name="reports"></a>Rapporter
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a><a name="tasks"></a><a name="tasks"></a>Uppgifter
+## <a name="tasks"></a>Uppgifter
 
 I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
 
@@ -23,7 +23,7 @@ I följande artiklar beskrivs några av de viktigaste uppgifterna för att analy
 * [Visa artikeldisposition](inventory-how-availability-overview.md)
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  

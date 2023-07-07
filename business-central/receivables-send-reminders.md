@@ -11,13 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="send-reminders-of-outstanding-balances"></a><a name="send-reminders-of-outstanding-balances"></a><a name="send-reminders-of-outstanding-balances"></a>Skicka påminnelser om utestående saldon
+# <a name="send-reminders-of-outstanding-balances"></a>Skicka påminnelser om utestående saldon
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Ställa in flera räntesatser för fördröjd betalning](finance-how-to-set-up-multiple-interest-rates.md)  

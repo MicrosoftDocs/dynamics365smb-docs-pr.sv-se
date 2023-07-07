@@ -11,11 +11,11 @@ ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Förstå redovisningen och kontoplanen
+# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Förstå redovisningen och kontoplanen
 
 Redovisningen lagrar dina ekonomiska data, och kontoplanen visar de konton som alla redovisningstransaktioner bokförs på. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a>Redovisningsinställning och bokföringsinställning
+## <a name="general-ledger-setup-and-general-posting-setup"></a>Redovisningsinställning och bokföringsinställning
 
 Inställningarna för redovisningen är kärnan i ekonomiska processer eftersom den definierar hur du bokför data. Två sidor i synnerhet spelar en viktig roll när det är att konfigurera ekonomiprocesserna:  
 
@@ -41,7 +41,7 @@ Inställningarna för redovisningen är kärnan i ekonomiska processer eftersom 
 
   Öppna sidan [här](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a>Kontoplanen
+## <a name="the-chart-of-accounts"></a>Kontoplanen
 
 Kontoplanen visar alla redovisningskonton. Från kontoplanen, kan du göra sådant som:  
 
@@ -53,7 +53,7 @@ Kontoplanen visar alla redovisningskonton. Från kontoplanen, kan du göra såda
 
 Du kan lägga till, ändra eller ta bort konton i redovisningen. I syfte att undvika avvikelser kan du emelelrtid inte ta bort ett redovisningskonto om dess data används i kontoplanen. Från och med 2022 års utgivningscykel 2 kan du också spärra oavsiktlig borttagning av konton under känsliga perioder. Mer information finns i avsnittet [Ta bort konton](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="account-categories"></a><a name="account-categories"></a><a name="account-categories"></a>Kontokategorier
+## <a name="account-categories"></a>Kontokategorier
 
 Med kontokategorier kan du mappa redovisningskonton till kategorier som en anpassning av strukturen på din redovisning.  
 
@@ -63,7 +63,7 @@ Du kan skapa en kategorigrupp genom att dra in andra delkategorier under en rad 
 
 Du kan definiera om specifika typer av rapporter måste innehålla kontona i varje delkategori. Du kan använda kontokategorier för att ändra layout på din redovisning.  
 
-### <a name="example"></a><a name="example"></a><a name="example"></a>Exempel
+### <a name="example"></a>Exempel
 
 Till exempel har det standardinställda saldo vid kontoavstämning en enkelt transaktion för *kontanter* under *tillgångar*. Om du vill att saldot överväger handkassa och check, måste du göra följa steg:
 
@@ -90,17 +90,17 @@ När du väljer åtgärden **Skapa ekonomiska rapporter**, eller nästa gång ra
 > [!NOTE]
 > Om du skapar ett redovisningskonto utan att tilldela en kontokategori, tilldelar du kontot till en bokföringsmall [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt en kontokategori från redovisningskonto ovanför kontot i kontoplanen. Om du vill inkludera det nya kontot i dina ekonomiska rapporter måste du välja åtgärden **Skapa ekonomiska rapporter** på sidan **Kategorier på redovisningskonton**. Du kan också öppna sidan Redovisningskontokort, ange kontokategorin och sedan generera om den ekonomiska rapporten.
 
-## <a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a>Få en snabböversikt
+## <a name="get-a-quick-overview"></a>Få en snabböversikt
 
 På sidan **Kontoplan** visas i en hierarkisk lista de konton som ger snabb åtkomst till nyckelinformation för respektive konto. Listan är dock statisk, och om du har många konton måste du kanske bläddra för att kunna visa olika konton. Om du bara vill ha en snabb överblick över grunderna, till exempel nettoförändringar och saldon, är sidan **Kontoplansöversikt** ett användbart alternativ. Kolumnlayouten på sidan är nu samma som du hittar på sidan **Kontoplan** (men med färre kolumner), så du behöver inte orientera om dig själv. Du kan expandera eller komprimera de hierarkiska nivåerna för att kondensera vyn. För att det ska bli lättare att växla mellan sidorna är sidan **Kontoplansöversikt** tillgänglig på sidan **Kontoplanen**.
 
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a>Åtkomst för att skapa och redigera konton och kontokategorier
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Åtkomst för att skapa och redigera konton och kontokategorier
 
 I en liten organisation, t.ex. demonstrationsföretaget CRONUS, kan de flesta användare redigera kontoplanen, utom användare med en licens som gruppmedlem. Större organisationer använder dock vanligtvis roller och behörigheter för att begränsa åtkomsten till att redigera kontoplanen. Om du är administratör eller har rollen *Företagschef* eller *Revisor* kan du kontrollera användarbehörigheter för att ge rätt personer tillgång till de relevanta tabellerna. Läs mer i avsnittet [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/business-central-configure-general-ledger-setup/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md)  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  

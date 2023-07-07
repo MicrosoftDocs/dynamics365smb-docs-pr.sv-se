@@ -13,7 +13,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-essential-business-insights-extension"></a><a name="the-essential-business-insights-extension"></a><a name="the-essential-business-insights-extension"></a>Tillägget Vitala företagsinsikter
+# <a name="the-essential-business-insights-extension"></a>Tillägget Vitala företagsinsikter
 
 Tillägget Vitala företagsinsikter hittar intressanta affärsfakta i dina företagsdata och visar dessa som tidningsaktiga rubriker i rollcenter. Beroende på vad tillägget hittar i datan kommer insikterna från förra veckan, förra månaden eller tre månader från dagens datum. Denna kunskap uppdateras var 10:e minut.  
 
@@ -32,7 +32,7 @@ I följande tabell beskrivs den information som detta tillägg ger respektive ro
 |Projektchef| Visar en hälsningsfras och en länk till produktinformation.|
 |Administratör| Visar en hälsningsfras och en länk till produktinformation.|
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)
 

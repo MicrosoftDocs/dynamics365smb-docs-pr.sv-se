@@ -11,14 +11,14 @@ ms.search.form: 680
 ms.date: 08/08/2022
 ms.author: a-reishima
 ---
-# <a name="share-and-export-reports-with-the-report-inbox"></a><a name="share-and-export-reports-with-the-report-inbox"></a><a name="share-and-export-reports-with-the-report-inbox"></a>Dela och exportera rapporter med rapportinkorgen
+# <a name="share-and-export-reports-with-the-report-inbox"></a>Dela och exportera rapporter med rapportinkorgen
 
 På sidan **Rapportinkorgen** visas schemalagda rapporter som genererats av användaren i [!INCLUDE[prod_short](includes/prod_short.md)] och kan användas inte bara för att öppna genererade rapporter, utan även för att dela och öppna filer i OneDrive för företag.
 
 > [!TIP]
 > Följande åtgärder är också tillgängliga i delen **Rapportinkorgen** i rollcentret. Om delen inte visas i gränssnittet kan du lära dig att anpassa ditt rollcenter här: [Anpassa arbetsytan](ui-personalization-user.md).
 
-## <a name="download-generated-reports"></a><a name="download-generated-reports"></a><a name="download-generated-reports"></a>Hämta genererade rapporter
+## <a name="download-generated-reports"></a>Hämta genererade rapporter
 
 Om du vill spara tidigare rapporter öppnar du sidan **Rapportinkorgen** på följande sätt:
 
@@ -30,7 +30,7 @@ Om du vill spara tidigare rapporter öppnar du sidan **Rapportinkorgen** på fö
 >
 > De genererade filerna sparas i det format som definieras vid schemaläggningen av rapporten och kan ändras på sidan **Jobbkötransaktioner** tillsammans med återkommande och andra inställningar. Lär dig ändra rapportfilformatet och ange ytterligare alternativ på [Hantera schemalagda återkommande rapporter](ui-work-report.md#manage-scheduled-recurring-reports).
 
-## <a name="open-generated-reports-in-onedrive"></a><a name="open-generated-reports-in-onedrive"></a><a name="open-generated-reports-in-onedrive"></a>Öppna genererade rapporter i OneDrive
+## <a name="open-generated-reports-in-onedrive"></a>Öppna genererade rapporter i OneDrive
 
 Om du vill exportera rapportfilen till Microsoft OneDrive för företag, väljer du rapporten på sidan **Rapportinkorgen** och väljer åtgärden **Öppna i OneDrive**. Rapporten kopieras sedan till [!INCLUDE[prod_short](includes/prod_short.md)]-mappen i OneDrive och öppnas i ett nytt webbläsarfönster där du kan skriva ut och hantera dokumentfilen.
 
@@ -38,7 +38,7 @@ Om du vill exportera rapportfilen till Microsoft OneDrive för företag, väljer
 >
 > Rapporter som är på väg att upphöra att gälla på sidan **Schemalägg en rapport** och som kopierats till OneDrive tas inte automatiskt bort från den delade mappen.
 
-## <a name="share-scheduled-reports"></a><a name="share-scheduled-reports"></a><a name="share-scheduled-reports"></a>Dela schemalagda rapporter
+## <a name="share-scheduled-reports"></a>Dela schemalagda rapporter
 
 Du kan dela rapporter med samarbetspartner på sidan **Rapportinkorgen**. Välj rapporten och välj åtgärden **Dela**. På sidan **Skicka länk** väljer du vem som kan öppna filen, definierar redigeringsbehörigheter och väljer sedan **Skicka** för att skicka en länk för åtkomst till den sparade rapporten.
 
@@ -47,9 +47,9 @@ Du kan dela rapporter med samarbetspartner på sidan **Rapportinkorgen**. Välj 
 >
 > Med hjälp av åtgärden **Dela** blir den genererade rapportfilen tillgänglig för andra användare på OneDrive för företag, och visar inte den schemalagda rapporten i **Rapportinkorgen**.
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/paths/build-reports/).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Köra och skriva ut rapporter](ui-work-report.md)  
 [Tillgängliga rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

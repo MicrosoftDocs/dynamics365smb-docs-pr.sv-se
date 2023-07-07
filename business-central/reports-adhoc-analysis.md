@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# <a name="ad-hoc-data-analysis"></a><a name="ad-hoc-data-analysis"></a><a name="ad-hoc-data-analysis"></a>Ad hoc-dataanalys
+# <a name="ad-hoc-data-analysis"></a>Ad hoc-dataanalys
 
 Ibland behöver du analysera data i [!INCLUDE[prod_short](includes/prod_short.md)] på ett sätt som inte finns i en standardrapport. Detta kallas ofta "ad hoc-analys". Nedan finns länkar som du kan använda för att lära dig hur du utför den.
 
@@ -21,7 +21,7 @@ Ibland behöver du analysera data i [!INCLUDE[prod_short](includes/prod_short.md
 | Visa och analysera data från en rapportdatauppsättning i Excel. | [Spara rapportdatauppsättningar till Excel från begärandesidan](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 | Visa och analysera ekonomiska data med hjälp av ekonomiska rapporter. | [Ekonomisk analys](bi.md) |
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Business Intelligence och rapporteringsöversikt](ui-work-report.md)
 

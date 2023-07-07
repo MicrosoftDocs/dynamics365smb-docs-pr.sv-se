@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-planning-supplies-automatically"></a><a name="walkthrough-planning-supplies-automatically"></a><a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
+# <a name="walkthrough-planning-supplies-automatically"></a>Genomgång: Planera leveranser automatiskt
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -23,7 +23,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Planeringsresultatet beräknas delvis utifrån behovs- och utbudsuppsättningarna i databasen och delvis utifrån inställningarna för lagerställeenhetskort eller artikelkort, produktstrukturer och verksamhetsföljder.  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Om den här genomgången
+## <a name="about-this-walkthrough"></a>Om den här genomgången
  I den här genomgången visar vi hur du använder leveransplaneringssystemet för att automatiskt planera alla inköps- och produktionsorder som krävs för att producera 15 touringcyklar som behövs för att uppfylla olika försäljningsorder. För att genomgången ska bli så tydlig och realistisk som möjligt har antalet planeringsrader begränsats genom att filtrera bort alla övriga behovs- och leveransuppsättningar i demoföretaget CRONUS, förutom försäljningsbehovet vid försäljningsställe ÖST.  
 
  I den här genomgången tas följande aktiviteter upp:  
@@ -33,18 +33,18 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 -   Automatiskt skapa föreslagna leveransorder.  
 -   Skapa nytt försäljningsbehov och planera om därefter.  
 
-## <a name="roles"></a><a name="roles"></a><a name="roles"></a>Roller
+## <a name="roles"></a>Roller
 
 -   Produktionsplanerare  
 -   Inköpsagent  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
  För att kunna utföra den här genomgången behöver du:  
 
 -   Demoföretaget CRONUS Sverige AB.  
 -   Ändra olika inställningsvärden för artiklar genom att följa stegen i avsnittet “Förbereda exempeldata“ senare i den här genomgången.  
 
-## <a name="story"></a><a name="story"></a><a name="story"></a>Situation
+## <a name="story"></a>Situation
  Kunden Fotograferna AB beställer fem touringcyklar för utleverans 2021-02-05 (5 februari).  
 
  Eduardo, produktionsplaneraren, utför den rutinmässiga leveransplaneringen till den första veckan i februari 2021. Eduardo filtrerar på det egna lagerstället, ÖST, och anger ett planeringsintervall på arbetsdatumet (2021-01-23) till 2021-02-07 innan han beräknar en första leveransplanering.  
@@ -55,17 +55,17 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Under de olika planeringsstegen slår Eduardo upp de order som berörs och använder funktionen Orderspårning för att kontrollera vilka behov som täcks av vilka leveranser.  
 
-## <a name="preparing-sample-data"></a><a name="preparing-sample-data"></a><a name="preparing-sample-data"></a>Förbereda exempeldata
+## <a name="preparing-sample-data"></a>Förbereda exempeldata
  Skapa lagerställeenheter för touringcykeln och ett val av dess komponenter, artikelnumren 1001 till 1300. (Vissa komponenter exkluderas för att förenkla procedurer.) Justera planeringsparametrarna för de valda komponenterna för att ge mer transparenta planeringsresultat.  
 
-### <a name="to-create-stockkeeping-units"></a><a name="to-create-stockkeeping-units"></a><a name="to-create-stockkeeping-units"></a>Så här skapar du lagerställeenheter
+### <a name="to-create-stockkeeping-units"></a>Så här skapar du lagerställeenheter
 
 1.  Öppna artikelkort för artikel 1001, touringcykel.  
 2.  Välj åtgärden **Skapa lagerställeenhet**.  
 3.  På sidan **Skapa lagerställeenhet** lämnar du alla alternativ och filter oförändrade och klickar sedan på **OK**.  
 4.  Upprepa steg 1 till 3 för alla artiklar i nummerintervallet 1100 till 1300.  
 
-### <a name="to-change-selected-planning-parameters"></a><a name="to-change-selected-planning-parameters"></a><a name="to-change-selected-planning-parameters"></a>Så hör kan du ändra de valda planeringsparametrarna
+### <a name="to-change-selected-planning-parameters"></a>Så hör kan du ändra de valda planeringsparametrarna
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerställeenheter** och väljer sedan relaterad länk.  
 2.  Öppna det enhetskortet för lagerställe ÖST för artikel 1100, framhjul.  
@@ -79,10 +79,10 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Nu är du klar med att förbereda exempeldata för genomgången.  
 
-## <a name="creating-a-regenerative-supply-plan"></a><a name="creating-a-regenerative-supply-plan"></a><a name="creating-a-regenerative-supply-plan"></a>Skapa en fullständig leveransplanering
+## <a name="creating-a-regenerative-supply-plan"></a>Skapa en fullständig leveransplanering
  När en ny försäljningsorder på fem touringcyklar inkommer börjar Ricardo med planeringsprocessen genom att ange inställningar, filter och planeringsintervall för att exkludera alla övriga behov utom de för den första veckan i februari på lagerställe ÖST. Ricardo börjar med att beräkna ett produktionsprogram inom filtren, och fortsätter sedan med att beräkna en fullständig leveransplanering för alla behov på lägre nivå (nettobehov).  
 
-### <a name="to-create-the-sales-order"></a><a name="to-create-the-sales-order"></a><a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern
+### <a name="to-create-the-sales-order"></a>Så här skapar du försäljningsreturordern
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
@@ -94,7 +94,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 4.  Acceptera tillgänglighetsvarningen och klicka på **Ja** för att registrera det nya efterfrågade antalet.  
 
-### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a><a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a><a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Så här skapar du en fullständig plan för att tillfredsställa behovet vid lagerställe ÖST
+### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Så här skapar du en fullständig plan för att tillfredsställa behovet vid lagerställe ÖST
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
@@ -117,7 +117,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 7.  Stäng sidorna **Förs.order** och **Orderspårning**.  
 
-### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a><a name="to-calculate-mrp-to-include-underlying-component-needs"></a><a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Beräkna nettobehov för att ta med underliggande komponentbehov
+### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Beräkna nettobehov för att ta med underliggande komponentbehov
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
@@ -131,14 +131,14 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
      Totalt 14 planeringsrader skapas med förslag på leveransorder för alla de behov som försäljningsordern för touringcyklarna vid lagerställe ÖST representerar.  
 
-## <a name="analyzing-the-planning-result"></a><a name="analyzing-the-planning-result"></a><a name="analyzing-the-planning-result"></a>Analysera planeringsresultatet
+## <a name="analyzing-the-planning-result"></a>Analysera planeringsresultatet
  Eduardo vill analysera de föreslagna kvantiteterna och visar detaljer på valda planeringsrader för att visa orderspårningsposter och planeringsparametrar.  
 
  På sidan **Planeringsförslag** observera att kolumnen **Förfallodatum** i planeringsförslaget har planerats baklänges, från försäljningsorderns förfallodatum, 2021-02-05. Tidslinjen börjar på den översta planeringsraden med produktionsordern för att producera de färdiga touringcyklarna. Tidslinjen slutar vid nedersta planeringsraden med inköpsordern för en av artiklarna på lägsta nivå, 1255, Sockel baksida, som förfaller 2021-01-30. Som planeringsraden för artikeln 1251, axelbakhjulet, representerar raden en inköpsorder för komponenter som förfallit på startdatumet för den producerade överordnade undermonteringsartikeln 1250, som i sin tur är förfallet 02-03-2014. Genom hela kalkylarket kan du se att alla underliggande artiklar har förfallit på startdatumet för sina överordnade artiklar.  
 
  Planeringsraden för artikeln 1300, Kedjemont, föreslår tio enheter. Detta avviker från de fem styckena som vi förväntas behöva för att uppfylla försäljningsorder. Fortsätt med att visa dessa beställningsspårningposter.  
 
-### <a name="to-view-order-tracking-entries-for-item-1300"></a><a name="to-view-order-tracking-entries-for-item-1300"></a><a name="to-view-order-tracking-entries-for-item-1300"></a>Visa orderspårningsposter för artikel 1300
+### <a name="to-view-order-tracking-entries-for-item-1300"></a>Visa orderspårningsposter för artikel 1300
 
 1.  Markera planeringsraden för artikeln 1300 och klicka sedan på **Orderspårning**.  
 
@@ -148,7 +148,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
      På sidan **Planeringselement, inte spårat** visas att artikeln 1300 använder en planeringsparameter, Min. partistorlek, som är 10,00. Därför står planeringsraden för tio enheter totalt, där endast fem kan spåras till ett behov. De sista fem enheterna är en ospårad kvantitet som tillfredsställer planeringsparametern. Fortsätt för att granska planeringsparametrar.  
 
-### <a name="to-check-the-planning-parameter"></a><a name="to-check-the-planning-parameter"></a><a name="to-check-the-planning-parameter"></a>Så här kan du kontrollera planeringsparametern
+### <a name="to-check-the-planning-parameter"></a>Så här kan du kontrollera planeringsparametern
 
 1.  På sidan **Ej spårade planeringselement** markerar du orderspårningsraden för artikel 1300.  
 2.  Välj fältet **Artikelnr** och välj sedan **Avancerat**.  
@@ -157,7 +157,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 5.  Expandera snabbfliken **Planering** och lägg märke till att fältet **Min. partistorlek** har värdet 10.  
 6.  Stäng alla sidor utom sidan **Planeringsförslag**.  
 
-### <a name="to-view-more-order-tracking-entries"></a><a name="to-view-more-order-tracking-entries"></a><a name="to-view-more-order-tracking-entries"></a>Visa fler orderspårningstransaktioner
+### <a name="to-view-more-order-tracking-entries"></a>Visa fler orderspårningstransaktioner
 
 1.  Markera planeringsraden för artikeln 1110 rim och klicka sedan på **Orderspårning**.  
 
@@ -179,10 +179,10 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Nu är du klar med analysen av den ursprungliga leveransplaneringen. Lägg märke till att kryssrutan **Acceptera åtgärdsmeddelande** är markerad på alla planeringsrader vilket visar att de är klara att omvandlas till leveransorder.  
 
-## <a name="carrying-out-action-messages"></a><a name="carrying-out-action-messages"></a><a name="carrying-out-action-messages"></a>Verkställa åtgärdsmeddelanden
+## <a name="carrying-out-action-messages"></a>Verkställa åtgärdsmeddelanden
  Nästa steg för Eduardo blir att omvandla de föreslagna planeringsraderna till leveransorder genom att använda funktionen **Skapa order från planering**.  
 
-### <a name="to-automatically-create-the-suggested-supply-orders"></a><a name="to-automatically-create-the-suggested-supply-orders"></a><a name="to-automatically-create-the-suggested-supply-orders"></a>Så här skapar du de föreslagna leveransordrarna automatiskt
+### <a name="to-automatically-create-the-suggested-supply-orders"></a>Så här skapar du de föreslagna leveransordrarna automatiskt
 
 1.  Markera kryssrutan **Acceptera åtgärdsmeddelande** på planeringsraderna med en varning av typen undantag.  
 2.  Välj den **Verkställ åtgärdsmeddelande** åtgärd.  
@@ -197,12 +197,12 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Du är nu klar med den första beräkningen, analysen och skapandet av en leveransplanering för behovet vid lagerställe ÖST under första veckan i februari. I följande avsnitt beställer en annan kund tio touringcyklar, vilket tvingar Eduardo att planera om.  
 
-## <a name="creating-a-net-change-plan"></a><a name="creating-a-net-change-plan"></a><a name="creating-a-net-change-plan"></a>Skapa en nettoförändringsplanering
+## <a name="creating-a-net-change-plan"></a>Skapa en nettoförändringsplanering
  Nästa dag, innan någon leveransorder har påbörjats eller bokförts, anländer en ny försäljningsorder från Libros AB för tio touringcyklar med leveransdatum 2021-02-12. Eduardo blir underrättad om det här nya behovet och fortsätter genom att planera om för att justera den aktuella leveransplaneringen. Eduardo använder funktionen Nettoförändringsplanering för att beräkna endast de förändringar som görs i behovet eller leveransen sedan den senaste planeringskörningen. Dessutom utökar Eduardo planeringsperioden till 2021-02-14 så att den även omfattar den nya försäljningsefterfrågan den 2014-02-12.  
 
  I planeringssystemet beräknas det bästa sättet att täcka behovet för de här två identiska produkterna, t. ex. att slå samman vissa inköps- och produktionsorder, omplanera andra order och skapa nya order vid behov.  
 
-### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a><a name="to-create-the-new-sales-demand-and-replan-accordingly"></a><a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Så här skapar du nytt försäljningsbehov och planerar om därefter
+### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Så här skapar du nytt försäljningsbehov och planerar om därefter
 
 1.  Välj åtgärden **Ny**.  
 2.  På sidan **Försäljningsorder** kan du fylla i fälten enligt beskrivningen i följande tabell.  
@@ -229,12 +229,12 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Alla andra planeringsrader har åtgärdsmeddelandet **Planera & ändra antal**. Detta betyder att förutom att öka kvantiteten så har förfallodatumen flyttats i förhållande till leveransplaneringen för att innefatta det extra antalet i den tillgängliga produktionstiden (kapaciteten). Inköpta komponenter planeras om och ökas för att uppfylla produktionsorder. Fortsätt med att analysera den nya planen.  
 
-## <a name="analyzing-the-changed-planning-result"></a><a name="analyzing-the-changed-planning-result"></a><a name="analyzing-the-changed-planning-result"></a>Analysera det ändrade planeringsresultatet
+## <a name="analyzing-the-changed-planning-result"></a>Analysera det ändrade planeringsresultatet
  Eftersom alla parti-för-parti-planerade artiklar i filtret, 1100 till 1300, har en omplaneringsperiod på två veckor, ändras deras befintliga leveransorder för att uppfylla det nya behovet, som uppstår under de angivna två veckorna.  
 
  Flera planeringsrader multipliceras enkelt med tre för att ge 15 touringcyklar i stället för 5, och förfallodatumen flyttas tillbaka för att ge de ökade antalet till försäljningsorderns utleveransdatum till Fotograferna AB. För dessa planeringsrader kan alla kvantiteter spåras. De återstående planeringsraderna ökas med tio stycken förutom att deras förfallodatum flyttas. För dessa planeringsrader är en del av antalen ospårade på grund av olika planeringsparametrar. Fortsätt med att visa några av dessa beställningsspårningposter.  
 
-### <a name="to-view-order-tracking-entries-for-item-1250"></a><a name="to-view-order-tracking-entries-for-item-1250"></a><a name="to-view-order-tracking-entries-for-item-1250"></a>Visa orderspårningsposter för artikel 1250
+### <a name="to-view-order-tracking-entries-for-item-1250"></a>Visa orderspårningsposter för artikel 1250
 
 1.  Markera planeringsraden för artikeln 1250 och klicka sedan på **Orderspårning**.  
 
@@ -248,7 +248,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
 3.  Stäng alla sidor utom sidan **Planeringsförslag**.  
 
-### <a name="to-view-an-existing-order"></a><a name="to-view-an-existing-order"></a><a name="to-view-an-existing-order"></a>Visa en befintlig order
+### <a name="to-view-an-existing-order"></a>Visa en befintlig order
 
 1.  På planeringsraden för artikel 1250 klickar du på fältet **Ref. ordernr**. .  
 2.  På sidan **Fast planerad prod.order** för Baknav. Den befintliga beställningen på tio stycken, som du skapade i den första planläggningskörningen, öppnas.  
@@ -256,7 +256,7 @@ Begreppen "kör planering" eller "kör nettobehov" syftar på beräkningen av de
 
  Nu är du klar med genomgången av hur du använder planeringssystemet för att automatiskt upptäcka behov, beräkna lämpliga leveransorder i enlighet med behovet och planeringsparametrar och sedan automatiskt skapa olika typer av leveransorder med passande datum och antal.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Designdetaljer: Leveransplanering](design-details-supply-planning.md)

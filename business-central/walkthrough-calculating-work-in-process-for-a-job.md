@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-job"></a><a name="walkthrough-calculating-work-in-process-for-a-job"></a><a name="walkthrough-calculating-work-in-process-for-a-job"></a>Genomgång: Beräkna produkter i arbete för ett projekt
+# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Genomgång: Beräkna produkter i arbete för ett projekt
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med förbrukningen av resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider. Om ett projekt löper över en längre tid kan du behöva överföra de här kostnaderna till ett konto för produkter i arbete (PIA) på balansräkningen medan projektet färdigställs. Du kan sedan bokföra kostnaderna och försäljningsintäkterna i resultaträkningskonton när det är lämpligt.  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Om den här genomgången
+## <a name="about-this-walkthrough"></a>Om den här genomgången
 
  I den här genomgången tas följande aktiviteter upp:  
 
@@ -28,19 +28,19 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
  Under varje steg i processen beräknas värdet på projekttransaktionerna som flyttas till redovisningen. Stegen för beräkning och bokföring är åtskilda för att du lättare ska kunna granska data och göra ändringar innan de bokförs i redovisningen. Du bör därför se till att all information är korrekt när du har kört batch-jobben för beräkning och innan du bokför.  
 
-## <a name="roles"></a><a name="roles"></a><a name="roles"></a>Roller
+## <a name="roles"></a>Roller
 
  I den här genomgången används projektteammedlemmen Tricia.  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
 
  Innan du kan utföra aktiviteterna i den här genomgången måste du installera [!INCLUDE[prod_short](includes/prod_short.md)] på datorn.  
 
-## <a name="story"></a><a name="story"></a><a name="story"></a>Situation
+## <a name="story"></a>Situation
 
  Den här genomgången fokuserar på CRONUS AB, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. De flesta som arbetar på CRONUS är projektorienterade och Tricia, en projektmedlem, använder projekt för att få en översikt över alla pågående projekt, som CRONUS har inlett, och även de projekt som avslutats. Vissa av projekten kan vara mycket för långa och löpa över månader. Tricia kan använda en PIA för att registrera produkter i arbete och spåra kostnader i hela projektet.  
 
-## <a name="calculating-wip"></a><a name="calculating-wip"></a><a name="calculating-wip"></a>Beräkna PIA
+## <a name="calculating-wip"></a>Beräkna PIA
 
  CRONUS har vunnit ett långvarigt projekt som nu har förlängts över flera redovisningsperioder. Tricia, en projektmedlem, beräknar produkter i arbete (PIA) för att kontrollera att företagets finansiella rapporter är rätt.  
 
@@ -56,7 +56,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
  I följande genomgången använder Tricia kostnadsvärdemetoden, företagets standard, för att beräkna PIA. Tricia anger vilken del av projektet som ska inkluderas i PIA-beräkningen genom att tilldela PIA-slutsummorna till olika projektaktivitetsrader.  
 
-### <a name="to-calculate-wip"></a><a name="to-calculate-wip"></a><a name="to-calculate-wip"></a>Så här beräknar du PIA
+### <a name="to-calculate-wip"></a>Så här beräknar du PIA
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2.  I listan **Projekt** väljer du projektet **Hjortfält** och väljer sedan åtgärden **redigera**. Projektkortet öppnas i redigeringsläge.  
@@ -88,7 +88,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
  Observera att värdet för **Bokfört kostnadsbelopp** är 215,60 i kolumnen **Till bokföra**. Detta visar den totala kostnaden för två av artiklarna i gruppen med projektaktiviteter 1110 – 1130. Den tredje artikeln har lagts **Exklusive**, och ingår därför inte i PIA-beräkningen.  
 
-### <a name="to-review-wip-warnings"></a><a name="to-review-wip-warnings"></a><a name="to-review-wip-warnings"></a>Så här kan du granska PIA-varningar
+### <a name="to-review-wip-warnings"></a>Så här kan du granska PIA-varningar
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **cockpit för PIA för projekt** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Hjortfält** och välj sedan åtgärden **Visa varningar**.  
@@ -96,7 +96,7 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
  Efter bokföringsperiodens slut måste Tricia beräkna PIA på nytt så att även slutfört arbete fram till dagens datum kommer med.  
 
-### <a name="to-recalculate-wip"></a><a name="to-recalculate-wip"></a><a name="to-recalculate-wip"></a>Så här beräknar du PIA på nytt
+### <a name="to-recalculate-wip"></a>Så här beräknar du PIA på nytt
 
 1.  På kortet **Projekt** väljer du åtgärden **PIA-transaktioner** för att visa PIA-beräkningen.  
 
@@ -108,11 +108,11 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 > [!NOTE]  
 >  Endast produkter i arbete och resultatbelopp beräknas. Detta bokförs inte i Redovisning. Om du vill bokföra värdet måste du köra batchjobbet **Bokför PIA i redovisning** när du har beräknat PIA och bokföring.
 
-## <a name="posting-wip-to-general-ledger"></a><a name="posting-wip-to-general-ledger"></a><a name="posting-wip-to-general-ledger"></a>Bokföra PIA i reodvisningen
+## <a name="posting-wip-to-general-ledger"></a>Bokföra PIA i reodvisningen
 
  Nu när Tricia har beräknat PIA för det här projektet kan hon bokföra det i redovisningen.  
 
-### <a name="to-post-wip-to-general-ledger"></a><a name="to-post-wip-to-general-ledger"></a><a name="to-post-wip-to-general-ledger"></a>Så här bokför du PIA i redovisningen
+### <a name="to-post-wip-to-general-ledger"></a>Så här bokför du PIA i redovisningen
 
 1.  I listan **Projekt** markerar du projektet **Hjortfält**.  
 2.  Välj åtgärden **PIA** och klicka på åtgärden **Bokför PIA i redovisning**.  
@@ -132,11 +132,11 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 10. Lägg märke till att kolumnen **Bokförd**, fältet **Bokfört kostnadsbelopp i redov.** nu fylls i på snabbfliken **PIA och bokföring**, vilket anger att PIA har bokförts i redovisningen.  
 11. Välj **OK** för att stänga kortet.  
 
-## <a name="reversing-a-wip-posting"></a><a name="reversing-a-wip-posting"></a><a name="reversing-a-wip-posting"></a>Återföra en PIA-bokning
+## <a name="reversing-a-wip-posting"></a>Återföra en PIA-bokning
 
  Tricia anser att projektaktiviteter som är exkluderade från beräkning av PIA borde vara inkluderade i PIA. Tricia kan återföra de felaktiga transaktionerna utan att behöva bokföra nya PIA-transaktioner.  
 
-### <a name="to-reverse-a-wip-posting"></a><a name="to-reverse-a-wip-posting"></a><a name="to-reverse-a-wip-posting"></a>Så här återför du en PIA-transaktioner
+### <a name="to-reverse-a-wip-posting"></a>Så här återför du en PIA-transaktioner
 
 1.  I listan **Projekt** markerar du projektet **Hjortfält**.  
 2.  Välj åtgärden **PIA** och klicka på åtgärden **Bokför PIA i redovisning**.  
@@ -155,13 +155,13 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
     > [!NOTE]  
     >  Anta att Tricia har beräknat och bokfört PIA för ett projekt med felaktiga datum. Genom att följa metoden som diskuterades tidigare kan Tricia återföra de felaktiga transaktionerna, korrigera datum och bokföra dessa på nytt i redovisningen.  
 
-## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Gå vidare
+## <a name="next-steps"></a>Gå vidare
 
  Den här genomgången har du lärt dig hur du beräknar PIA i [!INCLUDE[prod_short](includes/prod_short.md)]. I större projekt kan det vara praktiskt att överföra kostnaderna till ett PIA-konto periodvis medan projektet färdigställs. Den här genomgången har visat hur man exkluderar aktivitetsrader från en beräkning. Detta visar också när du bör omberäkna. Slutligen, den här genomgången visar hur du bokför PIA i redovisningen. Ett exempel på hur du återför en PIA-bokföring till redovisningen inkluderas också.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Genomgång: Hantera projekt med Projekt](walkthrough-managing-projects-with-jobs.md)  

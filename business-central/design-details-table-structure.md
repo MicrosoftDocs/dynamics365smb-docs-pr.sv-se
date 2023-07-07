@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-table-structure"></a><a name="design-details-table-structure"></a><a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
+# <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
 För att förstå hur dimensionstransaktioner lagras och bokförs är det viktigt att förstå tabellstrukturen.  
 
-## <a name="table-480-dimension-set-entry"></a><a name="table-480-dimension-set-entry"></a><a name="table-480-dimension-set-entry"></a>Tabell 480, dimensionsuppsättningstransaktion
+## <a name="table-480-dimension-set-entry"></a>Tabell 480, dimensionsuppsättningstransaktion
 Tabellen kan inte ändras. Följande data har upprättats skriftligt till tabellen. Du kan inte ta bort eller redigera dem.
 
 |Fältnummer|Fältnamn|Datatyp|Kommentar|  
@@ -25,7 +25,7 @@ Tabellen kan inte ändras. Följande data har upprättats skriftligt till tabell
 |5|**Dimensionsnamn**|Text 30|CalcField. Uppslag i tabell 348.|  
 |6|**Dimensionsvärdesnamn**|Text 30|CalcField. Uppslag i tabell 349.|  
 
-## <a name="table-481-dimension-set-tree-node"></a><a name="table-481-dimension-set-tree-node"></a><a name="table-481-dimension-set-tree-node"></a>Tabell 481, Trädnod för dimensionsuppsättning
+## <a name="table-481-dimension-set-tree-node"></a>Tabell 481, Trädnod för dimensionsuppsättning
 Tabellen kan inte ändras. Den används för att söka efter en dimensionsuppsättning. Om dimensionsuppsättningen inte hittas, skapas en ny uppsättning.  
 
 |Fältnr|Fältnamn|Datatyp|Kommentar|  
@@ -35,7 +35,7 @@ Tabellen kan inte ändras. Den används för att söka efter en dimensionsuppsä
 |3|**Dimensionsuppsättnings-ID**|Heltal|AutoIncrement. Använt i fält 1 i tabell 480.|  
 |4|**Används**|Booleskt|Falskt om det inte används.|  
 
-## <a name="table-482-reclas-dimension-set-buffer"></a><a name="table-482-reclas-dimension-set-buffer"></a><a name="table-482-reclas-dimension-set-buffer"></a>Tabell 482 Gruppera dimensionsuppsättningsbuffert
+## <a name="table-482-reclas-dimension-set-buffer"></a>Tabell 482 Gruppera dimensionsuppsättningsbuffert
 Tabellen används om du till exempel ändrar en dimensionsvärdekod i en artikeltransaktion med hjälp av sidan **artikelgrupperingsjournal**.  
 
 |Fältnummer|Fältnamn|Datatyp|Kommentar|  
@@ -49,14 +49,14 @@ Tabellen används om du till exempel ändrar en dimensionsvärdekod i en artikel
 |7|**Dimensionsvärdesnamn**|Text 30|CalcField. Uppslag i tabell 349.|  
 |8|**Nytt dimensionsvärdesnamn**|Text 30|CalcField. Uppslag i tabell 349.|  
 
-## <a name="transaction-and-budget-tables"></a><a name="transaction-and-budget-tables"></a><a name="transaction-and-budget-tables"></a>Transaktions- och budgettabeller
+## <a name="transaction-and-budget-tables"></a>Transaktions- och budgettabeller
 Det här fältet är viktigt förutom andra dimensionsfälten i tabellen:  
 
 |Fältnummer|Fältnamn|Datatyp|Kommentar|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionsuppsättnings-ID**|Heltal|Referensfält 1 i tabell 480.|  
 
-### <a name="table-83-item-journal-line"></a><a name="table-83-item-journal-line"></a><a name="table-83-item-journal-line"></a>Tabell 83, artikeljournalrad
+### <a name="table-83-item-journal-line"></a>Tabell 83, artikeljournalrad
 Det här fältet är viktigt förutom andra dimensionsfälten i tabellen:  
 
 |Fältnummer|Fältnamn|Datatyp|Kommentar|  
@@ -64,14 +64,14 @@ Det här fältet är viktigt förutom andra dimensionsfälten i tabellen:
 |480|**Dimensionsuppsättnings-ID**|Heltal|Referensfält 1 i tabell 480.|  
 |481|**Nytt dimensionsuppsättnings-ID**|Heltal|Referensfält 1 i tabell 480.|  
 
-### <a name="table-349-dimension-value"></a><a name="table-349-dimension-value"></a><a name="table-349-dimension-value"></a>Tabell 349, dimensionsvärde
+### <a name="table-349-dimension-value"></a>Tabell 349, dimensionsvärde
 Det här fältet är viktigt förutom andra dimensionsfälten i tabellen:  
 
 |Fältnummer|Fältnamn|Datatyp|Kommentar|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensionsvärde-ID**|Heltal|AutoIncrement. Använt för referenser i tabell 480 och tabell 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a><a name="tables-that-contain-the-dimension-set-id-field"></a><a name="tables-that-contain-the-dimension-set-id-field"></a>Tabeller som innehåller fältet dimensionsuppsättning-ID
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabeller som innehåller fältet dimensionsuppsättning-ID
  Fältet **dimensionsuppsättning-ID** (480) finns i följande tabeller. För tabellerna som lagrar bokförda data visar fältet endast icke-redigerbara dimensioner som är markerade som Gå nedåt. För tabellerna som lagrar arbetsdokument är fältet redigerbart. Bufferttabellerna som används internt behöver inte redigerbara eller icke-redigerbara möjligheter.  
 
  Fältet 480 kan inte redigeras i följande tabeller.  
@@ -174,7 +174,7 @@ Fältet 480 finns i följande bufferttabeller.
 |5637|**Anl. redov. bokf.buffer**|  
 |7136|**Buffert för artikelbudget**|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över dimensionsuppsättningstransaktioner](design-details-dimension-set-entries-overview.md)  
 [Designdetaljer: Söka efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   

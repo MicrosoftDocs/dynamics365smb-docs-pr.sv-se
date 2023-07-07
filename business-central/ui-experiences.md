@@ -11,7 +11,7 @@ ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="change-which-features-are-displayed"></a><a name="change-which-features-are-displayed"></a><a name="change-which-features-are-displayed"></a>Ändra vilka funktioner som visas
+# <a name="change-which-features-are-displayed"></a>Ändra vilka funktioner som visas
 [!INCLUDE[prod_short](includes/prod_short.md)] är utformat för att hjälpa dig att driva företaget oavsett storlek och komplexitet. I produktens kärna finns viktiga funktioner, till exempel ekonomisk rapportering, försäljning, inköp och lagerhantering. När affärs komplexiteten ökar kan du t. ex. aktivera funktioner för produktion och tjänsthantering.
 
 Du kan ange produktens komplexitets nivå och därmed vilka funktioner företagets användare får till gång till, genom att ändra inställningen **Upplevelse** på sidan **Företagsinformation**. Observera att upplevelseinställningen också kan ändras genom att lägga till vissa tillägg från AppSource. Mer information finns i [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md).
@@ -32,10 +32,10 @@ Innan du definierar ett företags upplevelseinställning definierar du användar
 
 Inställningen **Upplevelse** gäller för alla användare i ett företag, men varje användare kan anpassa sin egen upplevelse ytterligare genom att ändra sidlayouter och innehåll. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a><a name="enabling-premium-features-after-upgrading-a-plan"></a><a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivera Premium-funktioner när du har uppgraderat en Plan
+## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivera Premium-funktioner när du har uppgraderat en Plan
 Användare som är tilldelade till planer i administrationscentret för Microsoft 365 i samband med det allmänna arbetet i skapandet av Business Central-användare. Mer information finns i [Lägga till användare och tilldela licenser samtidigt](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a><a name="to-update-plan-changes-in-users-groups"></a><a name="to-update-plan-changes-in-users-groups"></a>Uppdatera planändringar i användargrupper
+### <a name="to-update-plan-changes-in-users-groups"></a>Uppdatera planändringar i användargrupper
 När du har gjort en ändring i planer för användare i administrationscentret för Microsoft 365, såsom tilldelat premiumplanen till flera användare, måste du visa ändringarna i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Logga in som en administratör.
@@ -44,15 +44,15 @@ När du har gjort en ändring i planer för användare i administrationscentret 
 
 All ny information om användarna planer och deras tilldelade användargrupper har nu uppdaterats enligt ändringarna i planen.
 
-### <a name="to-select-the-premium-experience"></a><a name="to-select-the-premium-experience"></a><a name="to-select-the-premium-experience"></a>För att välja Premium-upplevelsen.
+### <a name="to-select-the-premium-experience"></a>För att välja Premium-upplevelsen.
 Du kan nu fortsätta med att välja den nya miljön.
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.
 2. På sidan **FöretagsInformation** på snabbfliken **användarupplevelse** väljer du fältet **upplevelse**.
 
-## <a name="help-assumes-premium-experience"></a><a name="help-assumes-premium-experience"></a><a name="help-assumes-premium-experience"></a>Hjälp utgår från Premium-upplevelsen
+## <a name="help-assumes-premium-experience"></a>Hjälp utgår från Premium-upplevelsen
 Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[prod_short](includes/prod_short.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 [Anpassa din arbetsyta](ui-personalization-user.md)  
 [Anpassa Business Central](ui-customizing-overview.md)  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  

@@ -11,11 +11,11 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a><a name="bulk-invoicing-for-microsoft-bookings-in-"></a><a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Bulkfakturera för Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Bulkfakturera för Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Om företaget använder appen Bookings i Microsoft 365 kan du göra bulkfakturering för avtalade tider. SIdan **Ofakturerade bokningar** i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller en lista över företagets slutförda bokningar. Du kan snabbt markera avtalade tider som du vill fakturera och skapa fakturor för utkast för tjänsterna på den här sidan.  
 
-## <a name="connect-to-bookings"></a><a name="connect-to-bookings"></a><a name="connect-to-bookings"></a>Anslut till Bookings
+## <a name="connect-to-bookings"></a>Anslut till Bookings
 
 För att ansluta ditt [!INCLUDE[prod_short](includes/prod_short.md)] med Bookings, måste du ange ditt Bookings-företag, vad som ska synkroniseras med Bookings, hur ofta du vill synkronisera och vilka mallar du vill använda. Du kan ställa in informationen på sidan **Inställningar av Bookings-synkning** som du kan starta från sidan **Inställningar för Exchange-synkning** som du hittar genom [söka](ui-search.md).  
 
@@ -29,7 +29,7 @@ På liknande sätt, om du till exempel vill synkronisera kunder mellan Bookings 
 > [!NOTE]
 > Endast objekt av typen *Service* synkroniseras mellan Bookings och [!INCLUDE[prod_short](includes/prod_short.md)]. Den mall som du har skapat på sidan **Konfigurationsmallar** så att den kan användas för artikelsynkroniseringen måste ange typen som *Service*.
 
-## <a name="invoice-appointments"></a><a name="invoice-appointments"></a><a name="invoice-appointments"></a>Fakturera möten
+## <a name="invoice-appointments"></a>Fakturera möten
 
 När det är dags att skicka fakturor för slutförda bokningar kan du gå till sidan **Ofakturerade bokningar**. Beroende på hur ofta informationen är synkroniserad, är listan lång eller kort. Du kan skapa fakturor för alla bokningar i listan eller en bokning i taget. Du kan markera en eller flera poster i listan och fakturera sådana.  
 
@@ -38,7 +38,7 @@ Stöd för faktureringsmöten från Bookings är enklare än det fullständiga a
 > [!NOTE]
 > I maj 2022 upptäckte vi ett problem i integrationen med bokningar. För närvarande synkroniseras från Bokningar till [!INCLUDE [prod_short](includes/prod_short.md)] kräver att du manuellt kopplar fakturorna till kunder i [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)  

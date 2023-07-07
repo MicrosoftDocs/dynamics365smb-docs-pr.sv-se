@@ -8,7 +8,7 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# <a name="set-up-currencies"></a><a name="set-up-currencies"></a><a name="set-up-currencies"></a>Konfigurera valutor
+# <a name="set-up-currencies"></a>Konfigurera valutor
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -16,7 +16,7 @@ Använd en extern tjänst för att hämta de senaste valutakurserna till listan 
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="currencies"></a><a name="currencies"></a><a name="currencies"></a><a name="curr"></a>Valutor
+## <a name="currencies"></a><a name="curr"></a>Valutor
 
 I följande tabell beskrivs fälten i listan **Valutor**.
 
@@ -52,7 +52,7 @@ I följande tabell beskrivs fälten i listan **Valutor**.
 |**Max. tillåten momsdifferens**|Det högsta belopp som tillåts för momsskillnader i den här valutan. Mer information finns i [Korrigera momsbelopp manuellt i försäljnings- och inköpsdokument](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Det här fältet kanske inte visas som standard. Den kan hämtas genom att anpassa sidan.|
 |**Momsavrundningstyp**|Anger avrundningsmetoden för att korrigera momsbelopp manuellt i försäljnings- och inköpsdokument. Det här fältet kanske inte visas som standard. Den kan hämtas genom att anpassa sidan.|
 
-### <a name="available-currency-functions"></a><a name="available-currency-functions"></a><a name="available-currency-functions"></a>Tillgängliga valutafunktioner
+### <a name="available-currency-functions"></a>Tillgängliga valutafunktioner
 
 I följande tabell anges viktiga åtgärder på sidan **Valutor**.  
 
@@ -67,11 +67,11 @@ I följande tabell anges viktiga åtgärder på sidan **Valutor**.
 ||**Uppdatera valutakurser**|Hämta de senaste valutakurserna från en tjänsteleverantör.|
 |**Rapporter**|**Utländskt valutasaldo**|Visa saldon för alla kunder och leverantörer i både utländska valutor och i lokal valuta (BVA). Rapporten innehåller två saldon i BVA. Ett är det utländska valutasaldot konverterat till BVA med hjälp av valutakursen vid tidpunkten för transaktionen. Det andra är det utländska valutasaldot konverterat till BVA med hjälp av valutakursen på arbetsdagen.|
 
-## <a name="lcy-and-other-currencies"></a><a name="lcy-and-other-currencies"></a><a name="lcy-and-other-currencies"></a>BVA och andra valutor
+## <a name="lcy-and-other-currencies"></a>BVA och andra valutor
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="rounding-currencies"></a><a name="rounding-currencies"></a><a name="rounding-currencies"></a>Avrunda valutor
+## <a name="rounding-currencies"></a>Avrunda valutor
 
 När du hanterar valutor som inte använder decimaler och om du vill undvika onödiga decimaler i utländsk valuta kan du använda två olika avrundningsfunktioner:
 
@@ -83,37 +83,37 @@ Dessa funktioner kan användas oberoende av varandra eller i kombination. Dessa 
 
 I motsats till fakturaavrundningsfunktionerna, påverkar funktionen A-pris avrundning och Belopp avrundning bara belopp i utländsk valuta - inte motsvarande belopp i BVA. Dessa två funktioner leder inte till några bokföringar på redovisningskontona. Därför behöver inga redovisningskonton anges i bokföringsmallar eller på andra ställen.
 
-### <a name="unit-amount-rounding"></a><a name="unit-amount-rounding"></a><a name="unit-amount-rounding"></a>Enhetspris-avrundning
+### <a name="unit-amount-rounding"></a>Enhetspris-avrundning
 
 Funktionen Enhetspris-avrundning styr hur försäljningspriser för artiklar och resurser i utländsk valuta rundas av på försäljnings- och inköpsrader. Du måste ange reglerna för respektive valuta separat, i fältet **Enhetspris-avrundning** i listan **Valutor**.
 
 Funktionen Enhetspris-avrundning används automatiskt varje gång du registrerar ett artikel- eller resursnummer på en försäljningsrad. Om fakturan gäller en kund med en valutakod, konverteras artikel- eller resurspriset till kundens valuta. Priset avrundas enligt Enhetspris-avrundning för valutan.
 
-### <a name="amount-rounding"></a><a name="amount-rounding"></a><a name="amount-rounding"></a>Beloppavrundning
+### <a name="amount-rounding"></a>Beloppavrundning
 
 Funktionen Beloppsavrundning styr hur belopp i utländsk valuta rundas av på redovisningsjournalrader, försäljningsrader och inköpsrader. Du måste ange reglerna för respektive valuta separat, i fältet **Beloppsavrundning** i listan **Valutor**.
 
 Belopp i utländsk valuta avrundas när du fyller i och bokför redovisningsjournalrader, försäljningsrader och inköpsrader.
 
-## <a name="exchange-rates"></a><a name="exchange-rates"></a><a name="exchange-rates"></a>Valutakurser
+## <a name="exchange-rates"></a>Valutakurser
 
 Du kan registrera valutakurser för varje utländsk valuta och ange vilka datum som valutakurserna gäller från. Du kan t.ex. ange dagliga, månatliga eller kvartalsvisa valutakurser för respektive utländsk valuta.
 
 Du kan lagra historiska valutakurser på sidan **Valutakurser** som referens. När du behöver uppdatera valutakurserna kan du använda knappen **Uppdatera valutakurser** för att visa de senaste valutakurserna från en extern tjänsteleverantör.
 
-## <a name="general-ledger-accounts"></a><a name="general-ledger-accounts"></a><a name="general-ledger-accounts"></a>Redovisningskonton
+## <a name="general-ledger-accounts"></a>Redovisningskonton
 
 Du kan inte koppla valutakoder till redovisningskonton eftersom belopp på redovisningskonton anges i BVA. Om du har ett banklån i USD och gör insättningar på ett bankkonto i SEK, kan du hålla ordning på dessa konton genom att skapa bankkonton i både USD och SEK. Med bokföringsmallar kan du koppla kontona till relevanta redovisningskonton. I redovisningen visas värdet på beloppen i BVA.
 
 Du kan registrera en valutakod på en redovisningsjournalrad och bokföra raden på ett redovisningskonto. Relevant valutakurs används för att konvertera beloppet till BVA innan det bokförs på redovisningskontot.  
 
-## <a name="example-of-a-receivable-currency-transaction"></a><a name="example-of-a-receivable-currency-transaction"></a><a name="example-of-a-receivable-currency-transaction"></a>Exempel på en transaktion med ingående valuta
+## <a name="example-of-a-receivable-currency-transaction"></a>Exempel på en transaktion med ingående valuta
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Uppdatera valutakurser](finance-how-update-currencies.md)  
 [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md)  

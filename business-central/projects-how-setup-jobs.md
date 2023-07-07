@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a><a name="set-up-jobs-prices-and-job-posting-groups"></a><a name="set-up-jobs-prices-and-job-posting-groups"></a>Ställ in projekt, priser och projektbokföringsmallar
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Ställ in projekt, priser och projektbokföringsmallar
 
 Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar i [!INCLUDE[prod_short](includes/prod_short.md)].  Använd sidan **Projektinställning** för att definiera hur du ska använda projektfunktioner.
 
@@ -21,7 +21,7 @@ Ange olika uppgifter för varje projekt:
 * Redovisningskonton för projekt
 * Projektbokföringsmallar (krävs)
 
-## <a name="to-set-general-information-for-jobs"></a><a name="to-set-general-information-for-jobs"></a><a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
+## <a name="to-set-general-information-for-jobs"></a>Så här anger du allmän information för projekt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projektinställningar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +29,7 @@ Ange olika uppgifter för varje projekt:
 > [!NOTE]
 > Växlingsknappen **Tillämpa användningslänk som standard** på sidan **Projektinställningar** indikerar om projekttransaktioner är länkade till projektplaneringsrader som standard. Aktivera växlingknappen så att den här inställningen tillämpas på alla nya projekt. Du kan aktivera eller inaktivera spårning av projektförbrukning för ett visst projekt genom att aktivera eller inaktivera växlingsknappen **Använd förbrukningslänk** på sidan **Projektkort**.
 
-### <a name="to-set-up-job-usage-tracking"></a><a name="to-set-up-job-usage-tracking"></a><a name="to-set-up-job-usage-tracking"></a>Så här anger du projektförbrukningsspårning
+### <a name="to-set-up-job-usage-tracking"></a>Så här anger du projektförbrukningsspårning
 
 När du arbetar på ett projekt kan det hända att du vill veta hur förbrukningen spåras mot din plan. För att utforska användning kan du skapa en koppling mellan dina projektplaneringsrader och den faktiska förbrukningen. Med länken kan du hålla reda på kostnaderna och förstå hur mycket arbete som återstår. Som standard är projektplaneringsradtypen **Budget**, men radtypen **Både Budget och Fakturerbart** har liknande effekter.
 
@@ -43,7 +43,7 @@ När du har ställt in användningsspårning genom att aktivera växlingsknappen
 > [!IMPORTANT]
 > Om du inte anger ett värde i fältet **Radtyp** på projektjournalraden eller inköpsraden skapas inga projektplaneringsrader när du bokför projekt journalen eller inköpsdokumentet.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a><a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a><a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>För att skapa priser för resurser, artiklar och redovisningskonton för jobb
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>För att skapa priser för resurser, artiklar och redovisningskonton för jobb
 
 > [!NOTE]
 > I 2020 års utgivningscykel 2 släppte vi nya processer för att ställa in och hantera priser och rabatter. Om du är en ny kund använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ När du väljer en resurs, en artikel eller ett redovisningskonto för ett proje
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a><a name="to-set-up-job-posting-groups"></a><a name="to-set-up-job-posting-groups"></a>Så här lägger du upp projektbokföringsmallar
+## <a name="to-set-up-job-posting-groups"></a>Så här lägger du upp projektbokföringsmallar
 
 En aspekt av att planera projektet är att bestämma vilka bokföringskonton som ska användas för projektvärdering. Om du vill kunna bokföra projekt måste du lägga upp bokföringskonton för varje projektbokföringsmall. En bokföringsmall representerar en länk mellan projektet och hur det ska hanteras i redovisningen. När du skapar ett projekt anger du en bokföringsmall och, som standard, kopplar du varje aktivitet som du skapar för projektet till den här bokföringsmallen. Men medan du skapar aktiviteter kan du välja att åsidosätta standarden och välja en annan, mer lämplig, bokföringsmall.  
 
@@ -99,9 +99,9 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 | **Konto för bokförda kostnader** |Det kostnadskonto som innehåller bokförda kostnader för projektet. Kontot är vanligtvis ett debetkonto för kostnader. |
 | **Konto för bokförd försäljning** |Inkomstkontot som innehåller den bokförda inkomsten för projektet. Kontot är vanligtvis ett kreditkonto för inkomst. |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Ange projekthantering](projects-setup-projects.md)  
 [Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

@@ -10,22 +10,22 @@ ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect, opportunity, email'
 ms.search.form: '1680, 1811, 5076'
 ---
-# <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a><a name="track-email-message-exchanges-between-salespeople-and-contacts"></a><a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
+# <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spåra utbyte av e-postmeddelanden mellan säljare och kontakter
 
 Få ut mer av kommunikationen mellan dina säljare och kunder genom att förvandla e-postutbyten till praktiska möjligheter. [!INCLUDE[prod_short](includes/prod_short.md)] kan tillsammans med Exchange Online spara en logg över de inkommande och utgående meddelandena. Du kan visa och analysera innehållet i varje meddelande på sidan **Interaktionslogg**.
 
 > [!IMPORTANT]
 > För [!INCLUDE[prod_short](includes/prod_short.md)] online, [!INCLUDE[prod_short](includes/prod_short.md)] och Exchange Online måste finnas på samma innehavare.
 
-## <a name="to-set-up-email-logging"></a><a name="to-set-up-email-logging"></a><a name="to-set-up-email-logging"></a>Så här konfigurerar du e-postloggning
+## <a name="to-set-up-email-logging"></a>Så här konfigurerar du e-postloggning
 
-### <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a><a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a><a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Konfigurera gemensamma mappar och regler för e-postloggning i Exchange Online
+### <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Konfigurera gemensamma mappar och regler för e-postloggning i Exchange Online
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Därefter ansluter du [!INCLUDE[prod_short](includes/prod_short.md)] med Exchange Online.
 
-### <a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a><a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a><a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a>Konfigurera en delad brevlåda och regler för e-postinloggning i Exchange Online
+### <a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a>Konfigurera en delad brevlåda och regler för e-postinloggning i Exchange Online
 
 > [!NOTE]
 > För dessa åtgärder krävs administratörsåtkomst för Exchange Online.
@@ -35,15 +35,15 @@ Förbered en delad postlåda i Exchange administrationscenter. Du kan också anv
 > [!NOTE]
 > Om du använder Exchange Management PowerShell är dina ändringar tillgängliga i Exchange administrationscenter efter en fördröjning. Förseningen kan vara i flera timmar.
 
-### <a name="add-a-user-account-for-members-of-the-shared-mailbox"></a><a name="add-a-user-account-for-members-of-the-shared-mailbox"></a><a name="add-a-user-account-for-members-of-the-shared-mailbox"></a>Lägga till ett användarkonto för medlemmar i den delade postlådan
+### <a name="add-a-user-account-for-members-of-the-shared-mailbox"></a>Lägga till ett användarkonto för medlemmar i den delade postlådan
 
 Det konto som du ska använda för e-postloggning är ett Exchange Online-konto. Det schemalagda jobbet kommer att använda kontot för att ansluta till den delade postlådan och bearbeta e-postmeddelanden. Det här kontot ska inte kopplas till en specifik person. Lägg till e-postkontot till medlemmarna för den delade postlådan. Mer information finns i avsnittet [Använd EAC för att redigera delegering av delad postlådan](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
-### <a name="allow-other-users-to-see-logged-emails"></a><a name="allow-other-users-to-see-logged-emails"></a><a name="allow-other-users-to-see-logged-emails"></a>Låta andra användare se loggade e-postmeddelanden
+### <a name="allow-other-users-to-see-logged-emails"></a>Låta andra användare se loggade e-postmeddelanden
 
 Du kan tillåta en annan användare att öppna ett e-postmeddelande i Exchange som är relaterat till en interaktionsloggtransaktionen från [!INCLUDE[prod_short](includes/prod_short.md)]. Det gör du genom att ge användaren ``Read`` behörighet till mappen **Arkiv** i den delade postlådan. Mer information finns också i [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a><a name="create-mail-flow-rules"></a><a name="create-mail-flow-rules"></a>Skapa regler för e-postflöde
+### <a name="create-mail-flow-rules"></a>Skapa regler för e-postflöde
 
 Regler för e-postflöde du söker efter specifika villkor i meddelanden och utför åtgärder för dem. Skapa två postflödesregler baserad på informationen i följande tabell. Mer information finns i [Hantera postflödesregler i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) och [Åtgärder för postflödesregler i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
@@ -55,7 +55,7 @@ Regler för e-postflöde du söker efter specifika villkor i meddelanden och utf
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] behandlar endast meddelanden i mappen Inkorgen i den delade postlådan. Om en regel flyttar meddelanden från inkorgen till en annan mapp kommer dessa meddelanden inte att behandlas. Dessutom ignoreras meddelanden i mappen skräppost.
 
-## <a name="set-up--to-log-email-messages"></a><a name="set-up--to-log-email-messages"></a><a name="set-up--to-log-email-messages"></a>Ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att logga e-postmeddelanden
+## <a name="set-up--to-log-email-messages"></a>Ställa in [!INCLUDE[prod_short](includes/prod_short.md)] för att logga e-postmeddelanden
 
 Kom igång med e-postloggning i två enkla steg:
 
@@ -66,14 +66,14 @@ Kom igång med e-postloggning i två enkla steg:
     > [!Tip]
     > När du har slutfört stegen i guiden kan du kontrollera om kopplingen har lyckats. Sök efter **E-postloggning**, välj **Åtgärder** och välj **Validera konfiguration**.
 
-## <a name="view-email-message-exchanges-in-the-interaction-log"></a><a name="view-email-message-exchanges-in-the-interaction-log"></a><a name="view-email-message-exchanges-in-the-interaction-log"></a>Visa e-postutbyten i interaktionsloggen
+## <a name="view-email-message-exchanges-in-the-interaction-log"></a>Visa e-postutbyten i interaktionsloggen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] skapar en transaktion på sidan **Interaktionslogg** varje gång en säljare och en kontakt utbyter e-postmeddelanden. Om du vill visa interaktionsloggen öppnar du kortet **Kontakt**, väljer **Relaterat**, väljer sedan **Historik** och därefter **Interaktionslogg**. Det finns några saker som du kan göra med posterna i loggen, till exempel:
 
 * Visa innehållet i e-postmeddelandet som utbytts genom att välja **Bearbeta** och sedan **Visa bilagor**.
 * Förvandla ett e-postutbyte till en affärsmöjlighet. Om en transaktion verkar lovande kan du omvandla den till en affärsmöjlighet och sedan hantera förloppet fram till en försäljning. Om du vill göra ett e-postutbyte till en affärsmöjlighet kan du välja post och sedan **processer** och sedan **skapa affärsmöjlighet**. Mer information finns i [Hantera försäljningsmöjligheter](marketing-manage-sales-opportunities.md).
 
-## <a name="mailbox-and-folder-limits-in-exchange-online"></a><a name="mailbox-and-folder-limits-in-exchange-online"></a><a name="mailbox-and-folder-limits-in-exchange-online"></a>Begränsningar för postlådor och mappar i Exchange Online
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Begränsningar för postlådor och mappar i Exchange Online
 
 Det finns begränsningar för postlådor och mappar i Exchange Online, till exempel begränsningar för mappstorlekar och antalet meddelanden. Mer information finns i [Exchange Online-begränsningar](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) och [Begränsningar för offentliga mallar i Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019&preserve-view=true).
 
@@ -87,14 +87,14 @@ Med hjälp av följande steg kan du undvika att bryta länkar till meddelanden i
     2. Uppdatera reglerna för e-postflöde i Exchange Online.
     3. Uppdatera inställningarna för e-postloggning i Business Central
 
-## <a name="connect-on-premises-versions-to-microsoft-exchange"></a><a name="connect-on-premises-versions-to-microsoft-exchange"></a><a name="connect-on-premises-versions-to-microsoft-exchange"></a>Ansluta lokala versioner till Microsoft Exchange
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Ansluta lokala versioner till Microsoft Exchange
 
 Du kan ansluta [!INCLUDE[prod_short](includes/prod_short.md)] lokalt till Exchange lokalt eller Exchange Online för e-postloggning. För båda versioner av Exchange finns inställningar för anslutningen tillgängliga på sidan **Marknadsföringsinställning**. För Exchange Online kan du också använda en assisterad konfigurationsguide.
 
 <!-- [!IMPORTANT]
 > The new experience doesn't support a connection to Exchange on-premises. If you must use Exchange on-premises, do not enable the feature update for the new experience.
 
-## <a name="connect-to-exchange-on-premises"></a><a name="connect-to-exchange-on-premises"></a><a name="connect-to-exchange-on-premises"></a>Connect to Exchange on-premises
+## <a name="connect-to-exchange-on-premises"></a>Connect to Exchange on-premises
 <!--
 ## [Current Experience](#tab/current-experience)
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchange on-premises, on the **Marketing Setup** page, you can use **Basic** as the **Authentication Type**, and then enter credentials for the user account for Exchange on-premises. Then turn on the **Enabled** toggle to start logging email.
@@ -102,7 +102,7 @@ To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchang
 ## [New Experience](#tab/new-experience)
 The new experience does not support connections to Exchange on-premises.
 -->
-## <a name="connect-to-exchange-online"></a><a name="connect-to-exchange-online"></a><a name="connect-to-exchange-online"></a>Ansluta till Exchange Online
+## <a name="connect-to-exchange-online"></a>Ansluta till Exchange Online
 
 För att ansluta till Exchange Online måste du registrera ett program i Azure Active Directory. Ange program-ID, nyckelvalvshemlighet och omdirigerings-URL som ska användas för registreringen. URL-adressen för omdirigering anges i förväg och bör användas för de flesta installationer. Mer information finns i [Så här registrerar du ett program Azure AD för anslutning från Business Central till Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
@@ -110,7 +110,7 @@ Du måste också ansluta till **OAuth2** som **Autentiseringstyp**. Du måste oc
 
 Du måste ställa in installationen för att använda HTTPS. Mer information finns i [Konfigurera SSL för att skydda anslutningen till Business Central webbklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Om du konfigurerar servern så att den får en annan startsida kan du alltid ändra URL-adressen. Klientens hemlighet kommer att sparas som en krypterad sträng i databasen.
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a><a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a><a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Exchange Online
+### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Så här registrerar du ett program i Azure AD för att ansluta från Business Central till Exchange Online
 
 Följande åtgärder förutsätter att du använder Azure Active Directory för att hantera identiteter och åtkomst. Mer information finns i [Snabbstart: registrera ett program med Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -126,11 +126,11 @@ Följande åtgärder förutsätter att du använder Azure Active Directory för 
 6. Välj **Översikt** och leta sedan reda på **App (klient-ID)**-värdet. Detta är klient-ID:t för ditt program. Du måste ange den antingen i fältet **klient-ID** på sidan **e-postloggning**.
 7. I [!INCLUDE[prod_short](includes/prod_short.md)] konfigurerar du e-postloggning på sidan **E-postloggning** eller använder guiden **Assisterad konfiguration** för att få hjälp.
 
-### <a name="use-another-identity-and-access-management-service"></a><a name="use-another-identity-and-access-management-service"></a><a name="use-another-identity-and-access-management-service"></a>Använda en annan identitets- och åtkomsthanteringstjänst
+### <a name="use-another-identity-and-access-management-service"></a>Använda en annan identitets- och åtkomsthanteringstjänst
 
 Om du inte använder Azure Active Directory för att hantera identiteter och åtkomst behöver du en viss hjälp från en utvecklare. Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten i samband med körning genom att prenumerera på händelserna OnGetEmailLoggingClientId och OnGetEmailLoggingClientSecret i codeunit 1641, "Konfigurera e-postloggning".
 
-## <a name="to-start-logging-email"></a><a name="to-start-logging-email"></a><a name="to-start-logging-email"></a>Så här börjar du logga e-post
+## <a name="to-start-logging-email"></a>Så här börjar du logga e-post
 
 1. För att börja logga e-post, på **e-postloggning** vänd växlingsknappen **Aktiverad**.
 2. Logga in med det Exchange Online konto som det schemalagda jobbet kommer att använda för att ansluta till den delade postlådan och bearbeta e-postmeddelanden.
@@ -138,27 +138,27 @@ Om du inte använder Azure Active Directory för att hantera identiteter och åt
     > [!NOTE]
     > Om du inte uppmanas att logga in på Exchange Online konto kan det bero på att din webbläsare blockerar popup-fönster. Du kan logga in med popup-fönster från https://login.microsoftonline.com.
 
-## <a name="to-stop-logging-email"></a><a name="to-stop-logging-email"></a><a name="to-stop-logging-email"></a>Så här slutar du logga e-post
+## <a name="to-stop-logging-email"></a>Så här slutar du logga e-post
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk.
 2. Stäng av brytaren **Aktiverad**.
 
-## <a name="to-change-the-user-account-used-for-email-logging"></a><a name="to-change-the-user-account-used-for-email-logging"></a><a name="to-change-the-user-account-used-for-email-logging"></a>Så här ändrar du vilket användarkonto som ska användas för e-postloggning
+## <a name="to-change-the-user-account-used-for-email-logging"></a>Så här ändrar du vilket användarkonto som ska användas för e-postloggning
 
-### <a name="-online"></a><a name="-online"></a><a name="-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med det konto som det schemalagda jobbet kommer att använda för att ansluta till den delade postlådan och bearbeta e-postmeddelanden. Det här kontot måste ha åtkomst till både [!INCLUDE[prod_short](includes/prod_short.md)] och Exchange Online.
 2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk. 
 3. Välj **relaterad** och sedan **Jobbkötransaktion**.
 4. Starta om jobbet **E-postloggning**.
 
-### <a name="-on-premises"></a><a name="-on-premises"></a><a name="-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] lokalt
+### <a name="-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] lokalt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon, anger du **E-postloggning** och väljer sedan relaterad länk.
 2. Välj **åtgärder** och **förnya token**.
 3. Logga in med det Exchange Online konto som det schemalagda jobbet kommer att använda för att ansluta till den delade postlådan och bearbeta e-postmeddelanden.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 [Hantera relationer](marketing-relationship-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

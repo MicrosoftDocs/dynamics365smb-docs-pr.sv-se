@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="create-workflows-from-workflow-templates"></a><a name="create-workflows-from-workflow-templates"></a><a name="create-workflows-from-workflow-templates"></a>Skapa arbetsflöden från arbetsflödesmallar
+# <a name="create-workflows-from-workflow-templates"></a>Skapa arbetsflöden från arbetsflödesmallar
 
 Du kan spara tid när du skapar nya arbetsflöde för godkännande kan du använda arbetsflödesmallar.  
 
@@ -20,7 +20,7 @@ Ett annat sätt att snabbt att skapa ett arbetsflöde är att importera ett befi
 
 På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a><a name="to-create-a-workflow-from-a-workflow-template"></a><a name="to-create-a-workflow-from-a-workflow-template"></a>Så här skapar du ett arbetsflöde från en arbetsflödesmall
+## <a name="to-create-a-workflow-from-a-workflow-template"></a>Så här skapar du ett arbetsflöde från en arbetsflödesmall
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Nytt arbetsflöde från mallen**. Sidan **arbetsflödesmallar**.  
@@ -29,9 +29,9 @@ På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda
    Sidan **Arbetsflöde** öppnas för ett nytt arbetsflöde som innehåller all information för den valda mallen. Värdet i fältet **Kod** utökas med till exempel ”-01" för att ange att det är det första arbetsflödet som skapas från arbetsflödesmallen.  
 4. Fortsätt med att skapa arbetsflödet genom att redigera arbetsflödesstegen, eller lägg till nya steg. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  
 [Exportera och importera godkännandearbetsflöden](across-how-to-export-and-import-workflows.md)  

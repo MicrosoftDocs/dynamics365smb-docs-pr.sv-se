@@ -10,7 +10,7 @@ ms.search.form: '506, 521, 9125'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="remove-and-reapply-item-ledger-entries"></a><a name="remove-and-reapply-item-ledger-entries"></a><a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
+# <a name="remove-and-reapply-item-ledger-entries"></a>Ta bort och koppla om artikeltransaktioner
 På sidan **Kopplingsformulär** kan du visa och manuellt ändra vissa artikelkopplingstransaktioner som skapas automatiskt under lagertransaktioner.  
 
 När du bokför en lagertransaktion som innebär att artiklar tas in i eller ut ur lagret, skapas en artikelkoppling mellan varje lagerökning och lagerminskning. Genom de här kopplingarna fastställs kostnadsflödet från varorna som tas emot i lagret till varorna som lämnar lagret. På grund av sättet som styckkostnaden beräknas på kan en felaktig artikelkoppling medföra att genomsnittskostnaden och styckkostnaden får oriktiga resultat. Mer information finns i Designdetaljer: Artikelkoppling.
@@ -33,7 +33,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
     - Det går att ta bort kopplingar från mer än en transaktion åt gången i kopplingsformuläret. Det går däremot inte att skapa en koppling för mer än en transaktion åt gången, eftersom kopplingen påverkar uppsättningen transaktioner som kan kopplas.
     - I följande fall kan ingen koppling utföras i kopplingsformuläret: Om det inte finns tillräckligt med antal i lager för kopplingen, utförs ingen koppling i kopplingsformuläret när användaren försöker att koppla en transaktion för en lagerminskning utan artikelspårningsinformation till en transaktion för en lagerökning med artikelspårningsinformation.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a><a name="to-remove-an-item-application-by-using-the-application-worksheet"></a><a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Ta bort en artikelkoppling med hjälp av kopplingsformulär
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Ta bort en artikelkoppling med hjälp av kopplingsformulär
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
@@ -50,7 +50,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
 >   
 >  **Det går inte att utföra åtgärden eftersom kopplingar för transaktionerna för artikel \<item\> har tagits bort i Kopplingsformuläret av användaren \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a><a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a><a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Koppla om en artikelkoppling med hjälp av kopplingsformuläret
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta 2.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kopplingsformulär** och väljer sedan relaterad länk.  
 2.  Sidan **Kopplingsformulär** öppnas och visar befintliga artikeltransaktioner för alla artiklar.  
@@ -67,7 +67,7 @@ Om du inte kan använda ett dokument för att koppla, som när du behöver rätt
     >  Om du valt att göra en koppling utan att veta om att kopplingen medför att en oändlig loop skapas i kostnadsjusteringsprocessen utförs inte kopplingen du föreslagit. Det här kan ske när de ursprungliga transaktionerna har genererat ett negativt lager. Kopplingen utförs inte. Därför måste du välja en annan transaktion för kopplingen.  
 6.  Om fältet **Automatisk kostnadsjustering** har värdet **Alltid** i **Lagerinställningar**, körs batch-jobbet för kostnadsjustering automatiskt i programmet när en omkoppling har gjorts. Kör annars batch-jobbet **Justera kost. – artikeltrans** för att säkerställa att samtliga kostnader är aktuella.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Behandla inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md)  

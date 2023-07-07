@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a><a name="walkthrough-combine-automatic-and-manual-flushing"></a><a name="walkthrough-combine-automatic-and-manual-flushing"></a>Genomgång: Kombinera automatisk och manuell "flushing"
+# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Genomgång: Kombinera automatisk och manuell "flushing"
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demonstrationsdata inom "flushing".  
 
-## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scenario
+## <a name="scenario"></a>Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya produktionsordern för tio enheter av artikeln SP-SCM1004, AutoDrip. Vissa komponenter och åtgärder "flushas" framåt, andra bakåt baserat på olika villkor.
 
-## <a name="steps"></a><a name="steps"></a><a name="steps"></a>Steg
+## <a name="steps"></a>Steg
 
 > [OBS!] Kom ihåg att justera lagret genom att bokföra artikel journal med ingående balans.
 
@@ -103,7 +103,7 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya
 
 Det var allt för manuell och automatisk "flushing" av komponenter.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 ["Flusha" komponenter utifrån verksamhetens utflöde](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

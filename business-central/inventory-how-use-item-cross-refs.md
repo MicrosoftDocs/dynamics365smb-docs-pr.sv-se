@@ -11,7 +11,7 @@ ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/27/2021
 ms.author: edupont
 ---
-# <a name="use-item-references"></a><a name="use-item-references"></a><a name="use-item-references"></a>Använd artikelreferenser
+# <a name="use-item-references"></a>Använd artikelreferenser
 
 Om du köper eller säljer artiklar som du och leverantören eller kunden använder olika villkor för kan du ställa in en referens mellan villkoren för artiklarna och villkoren som kunden eller leverantören för artikeln använder. På så sätt infogas leverantörens eller kundens artikelbeskrivning, enhet eller variantkod automatiskt på de relevanta dokumenten när du fyller i fältet **Artikelreferensnummer.** .  
 
@@ -22,14 +22,14 @@ Om du köper eller säljer artiklar som du och leverantören eller kunden använ
 >
 > I versioner tidigare än utgivningscykel 2, 2021 kan administratören aktivera funktionen *Skriv längre artikelreferenser* på sidan [Funktionshantering](https://businesscentral.dynamics.com/?page=2610) (länken kräver att du har en [!INCLUDE [prod_short](includes/prod_short.md)]-klientorganisation). Hur du använder referenser ändras inte, men namn på sådant som sidor och knappar gör det. Exempelvis kommer sidan **Transaktioner för korsreferens av artikel** att bli sidan **Transaktioner för artikelreferens**.
 
-## <a name="to-start-using-item-references"></a><a name="to-start-using-item-references"></a><a name="to-start-using-item-references"></a>Börja använda artikelreferenser
+## <a name="to-start-using-item-references"></a>Börja använda artikelreferenser
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
 1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **lagerinställning** och välj sedan relaterad länk.
 2. Välj fältet **Använd artikelreferenser**.
 
-## <a name="to-set-up-an-item-reference"></a><a name="to-set-up-an-item-reference"></a><a name="to-set-up-an-item-reference"></a>Så här ställer du in en artikelreferens
+## <a name="to-set-up-an-item-reference"></a>Så här ställer du in en artikelreferens
 
 1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill skapa en referens för.
@@ -41,7 +41,7 @@ Om du köper eller säljer artiklar som du och leverantören eller kunden använ
 
 Följande procedur beskriver hur du anger artikelreferensen på en inköpsorder. Liknande steg gäller för försäljningsdokument och andra inköpsdokument.  
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a><a name="to-enter-a-vendors-item-description-on-a-document"></a><a name="to-enter-a-vendors-item-description-on-a-document"></a>Ange leverantörens artikelbeskrivning på ett dokument
+## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Ange leverantörens artikelbeskrivning på ett dokument
 
 1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **inköpsorder** och välj sedan relaterad länk.
 2. Skapa en inköpsorder för leverantören som du ställer in en artikelreferens för ovan.
@@ -50,7 +50,7 @@ Följande procedur beskriver hur du anger artikelreferensen på en inköpsorder.
 
 Fältet **beskrivning** på raden skrivs över med leverantörens artikelbeskrivning som ställs in på referensartikelns transaktion. Om artikelreferensen innehåller en variantkod eller en måttenhet kopieras dessa värden också till dokumentet.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  

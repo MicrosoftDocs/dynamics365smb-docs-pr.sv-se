@@ -11,7 +11,7 @@ ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-vendors"></a><a name="register-new-vendors"></a><a name="register-new-vendors"></a>Registrera nya leverantörer
+# <a name="register-new-vendors"></a>Registrera nya leverantörer
 
 Leverantörer erbjuder produkter som du säljer. Varje leverantör som du har köpt av måste registreras som ett leverantörskort.
 
@@ -22,7 +22,7 @@ Leverantörskort innehåller den information som behövs för att köpa produkte
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## <a name="adding-new-vendors"></a><a name="adding-new-vendors"></a><a name="adding-new-vendors"></a>Lägga till nya leverantörer
+## <a name="adding-new-vendors"></a>Lägga till nya leverantörer
 
 Du kan lägga till nya leverantörer manuellt, genom att fylla i sidan för **leverantörskortet** eller använda mallar som innehåller fördefinierad information. Du kan t.ex. skapa mallar för olika typer av leverantörsprofiler. När du använder mallar sparar du tid när du lägger till nya leverantörer och ser till att informationen är korrekt varje gång.
 
@@ -40,7 +40,7 @@ Remittera till-adresser används när du skriver ut checkar för att betala leve
 
 Du anger remittera till-adresser på leverantörskortsidorna och på snabbfliken Leverans & betalningar på inköpsorder och fakturor. När du skapar utbetalningsjournalrader med hjälp av åtgärderna Betala leverantör eller Skapa betalning på sidan Leverantörslista eller sidan Leverantörskort, eller åtgärden Koppla transaktioner i en utbetalningsjournal, tilldelas remittera till-koden på leverantörsreskontratransaktionen. Du kan skriva över det här värdet.
 
-### <a name="to-create-a-new-vendor"></a><a name="to-create-a-new-vendor"></a><a name="to-create-a-new-vendor"></a>Skapa en ny leverantör
+### <a name="to-create-a-new-vendor"></a>Skapa en ny leverantör
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -51,7 +51,7 @@ Leverantören är nu registrerad, och leverantörskortet är klart att användas
 
 Om du vill använda detta leverantörskort som en mall när du skapar nya leverantörskort, så fortsätt med att spara den som en leverantörsmall. Mer information finns i [För att spara sidan leverantörskort som en mall](#to-save-the-vendor-card-as-a-template)
 
-### <a name="deleting-and-editing-vendor-information"></a><a name="deleting-and-editing-vendor-information"></a><a name="deleting-and-editing-vendor-information"></a>Ta bort och redigera leverantörsinformation
+### <a name="deleting-and-editing-vendor-information"></a>Ta bort och redigera leverantörsinformation
 
 Du kan när som helst redigera informationen på leverantörskort. Om du har bokfört en transaktion för en leverantör kan du inte ta bort kortet eftersom transaktionerna kan behövas för revision. Om du vill ta bort leverantörskort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.
 
@@ -61,7 +61,7 @@ Du kan när som helst redigera informationen på leverantörskort. Om du har bok
 > [!TIP]
 > Du kan lägga till alternativa adresser på leverantörs kort genom att välja åtgärden **orderadresser**.
 
-## <a name="to-save-the-vendor-card-as-a-template"></a><a name="to-save-the-vendor-card-as-a-template"></a><a name="to-save-the-vendor-card-as-a-template"></a>Om du vill spara leverantörskortet som en mall
+## <a name="to-save-the-vendor-card-as-a-template"></a>Om du vill spara leverantörskortet som en mall
 
 1. På sidan **Leverantörskort** väljer du åtgärden **Spara som mall**. Sidan **leverantörsmall** öppnas uppvisar leverantörskortet som mall.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -70,9 +70,9 @@ Du kan när som helst redigera informationen på leverantörskort. Om du har bok
 5. Välj **OK** när du har slutfört den nya leverantörsmallen.  
    Leverantörsmallen läggs till listan över leverantörsmallar, så att du kan använda det för att skapa nya leverantörskort.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Slå samman dubblettposter](sales-how-merge-duplicate-records.md)  
 [Skapa nummerserier](ui-create-number-series.md)  

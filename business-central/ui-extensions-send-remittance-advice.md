@@ -10,7 +10,7 @@ ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advic
 ms.date: 07/06/2021
 ms.author: edupont
 ---
-# <a name="send-remittance-advice"></a><a name="send-remittance-advice"></a><a name="send-remittance-advice"></a>Skicka kundremissa
+# <a name="send-remittance-advice"></a>Skicka kundremissa
 
 När kundremissa används för att meddela leverantörerna om de betalningar som görs kan du nu skicka kundremissa i bulk från betalningsjournalen och skicka om när du har utfört betalningar från leverantörsreskontratransaktioner genom att använda dokumentutskicksprofiler.
 
@@ -22,7 +22,7 @@ Du kan skicka kundremissa på två olika sätt:
 * Gå till sidan **Utbetalningsjournal** och välj **Relaterat**, **Betalningar**, **Skicka kundremissa** för att skicka kundremissa via e-post för en eller flera utbetalningsjournaltyper
 * På sidan **leverantörsreskontratransaktioner** välj **åtgärder**, **funktioner**, **skicka kundremissa** via e-post efter bokföring av leverantörsbetalningar, för en av flera leverantörsreskontratransaktioner
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 
 [Betalningsförslag för lev.](payables-how-suggest-vendor-payments.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg ](ui-extensions.md)  

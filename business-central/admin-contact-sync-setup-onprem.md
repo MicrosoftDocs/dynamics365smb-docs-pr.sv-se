@@ -10,21 +10,21 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a><a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a><a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Konfigurera synkronisering av kontakter med Outlook för Business Central lokal
+# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Konfigurera synkronisering av kontakter med Outlook för Business Central lokal
 
 I den här artikeln lär du dig att konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] lokal för att synkronisera kontakter i [!INCLUDE[prod_short](includes/prod_short.md)] med kontakter i Outlook. Om du vill ha mer information kan du gå till [Synkronisera kontakter i Business Central med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md).
 
-## <a name="introduction"></a><a name="introduction"></a><a name="introduction"></a>Introduktion
+## <a name="introduction"></a>Introduktion
 
 Synkronisering av kontakter kräver att protokollet OAuth 2.0 används för autentisering med Exchange Online. Tidigare stöddes även grundläggande autentisering, men det är inaktuellt och stöds inte längre med Exchange Online. Du kan läsa mer om avskrivningen på [Utfasning av grundläggande autentisering i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Den här ändringen innebär att synkroniseringen av kontakter i Business Central kan ha slutat fungera i din lokala miljö. I den här artikeln får du veta hur du får den att fungera igen.
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
 
 - Exchange Online, antingen en fristående version eller genom Microsoft 365 abonnemang  
 - Åtkomst till Azure Active Directory (Azure AD) klientorganisation som används av Exchange Online
 - [!INCLUDE[prod_short](includes/prod_short.md)]-användare har ett Microsoft 365 eller Exchange Online e-postkonto som tilldelats deras konton i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan kontrollera denna inställning i avsnittet **Microsoft 365-autentisering** i användarprofilen i listan **Användare**. 
 
-## <a name="set-up-contact-sync"></a><a name="set-up-contact-sync"></a><a name="set-up-contact-sync"></a>Ställ in synkronisering av kontakter
+## <a name="set-up-contact-sync"></a>Ställ in synkronisering av kontakter
 
 Slutför följande steg för att ställa in synkronisering av kontakter. Om du kör [!INCLUDE[prod_short](includes/prod_short.md)] våren 2019 (v.14), du måste göra ett extra steg som antingen ändrar programkoden eller skapar en anslutning till Power BI.
 
@@ -59,6 +59,6 @@ Slutför följande steg för att ställa in synkronisering av kontakter. Om du k
 
    När den lösning du har valt är på plats ber du användarna att köra antingen den nya/ändrade sidan eller [ansluta till Power BI](across-working-with-powerbi.md#connect). De behöver bara utföra detta steg en gång.
 
-## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Nästa steg
+## <a name="next-steps"></a>Nästa steg
 
 [Synkronisera kontakter i Business Central med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)  

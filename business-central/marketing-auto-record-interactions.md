@@ -10,7 +10,7 @@ ms.search.keywords: 'marketing, relationship, prospect, contact, client, custome
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a><a name="recording-interactions-with-contacts-automatically"></a><a name="recording-interactions-with-contacts-automatically"></a>Automatiskt registrering av interaktioner med kontakter
+# <a name="recording-interactions-with-contacts-automatically"></a>Automatiskt registrering av interaktioner med kontakter
 Du kan ställa in programmet att automatiskt registrera interaktioner för försäljning, inköp och servicedokument, omslagsblad, e-post, telefonsamtal som till exempel:
 
 * Skriva ut försäljnings- eller inköpsofferter, beställningar, fakturor, kreditnotor, omslagsblad.
@@ -22,7 +22,7 @@ Du kan ställa in programmet att automatiskt registrera interaktioner för förs
 För att definiera automatisk registrering av dessa interaktioner anger du interaktionsmallar för dessa dokument och åtgärder, genom att använda sidan **Interaktionsmall inställningar**.  
 För att öppna sidan **Mallinställningar för interaktion** välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Mallinställningar för interaktion** och väljer sedan relaterad länk.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se även
+## <a name="see-also"></a>Se även
 [Inspelningsinteraktioner med kontakter](marketing-interactions.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
