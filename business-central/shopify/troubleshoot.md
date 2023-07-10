@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
 ---
 
-# Felsöka synkroniseringen mellan Shopify och Business Central
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Felsöka synkroniseringen mellan Shopify och Business Central
 
 Det kan hända att du behöver felsöka problem när du synkroniserar data mellan Shopify och [!INCLUDE[prod_short](../includes/prod_short.md)]. På den här sidan beskrivs åtgärder för att felsöka vanliga scenarier.
 
-## Kör uppgifter i förgrund
+## <a name="run-tasks-in-the-foreground"></a>Kör uppgifter i förgrund
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj den butik som du vill felsöka och öppna sidan **Shopify-butikskort**.
@@ -22,17 +22,17 @@ Det kan hända att du behöver felsöka problem när du synkroniserar data mella
 
 När synkroniseringsåtgärden utlöses, körs uppgiften i förgrunden. Om ett fel inträffar visas en feldialogruta med länken **Kopiera Detaljer**. Använd den här länken om du vill kopiera information till en textredigerare för vidare analys.
 
-## Loggar
+## <a name="logs"></a>Loggar
 
 Om en synkroniseringsuppgift misslyckas kan du aktivera **Logg aktiverad** på sidan **Shopify butikskort** för att aktivera loggning. Du kan sedan utlösa synkroniseringsuppgift och granska loggar manuellt.
 
-### Så här aktiverar du loggning
+### <a name="to-enable-logging"></a>Så här aktiverar du loggning
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj den butik som du vill felsöka och öppna sidan **Shopify-butikskort**.
 3. Slå på brytaren **Logg aktiverad**.
 
-### Att granska loggar
+### <a name="to-review-logs"></a>Att granska loggar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och anger **Shopify-loggposter** och väljer sedan relaterad länk.
 2. Välj den berörda loggposten och öppna sidan **Shopify-loggpost**.
@@ -42,7 +42,7 @@ Senare, kom ihåg att stänga av loggning för att undvika negativ effekt på pr
 
 Från sidan **Shopify-loggposter** kan du utlösa borttagning av alla loggposter eller transaktioner som är äldre än sju dagar.
 
-## Datainsamling
+## <a name="data-capture"></a>Datainsamling
 
 Oavsett om **Logg aktiverad** är aktiverad eller inte loggas alltid Shopify svar. Du kan kontrollera eller hämta loggarna från sidan **Datainsamlingslista**.
 
@@ -56,13 +56,13 @@ Välj åtgärden **Hämtade Shopify-data** på en av följande sidor:
 - **Shopify-betalningstransaktioner**
 - **Shopify-transaktioner**
 
-## Återställ synkronisering
+## <a name="reset-sync"></a>Återställ synkronisering
 
 För optimala prestanda importerar kopplingen endast kunder, produkter och order som har skapats eller ändrats sedan den senaste synkroniseringen. På sidan **Shopify-butikskortet** finns funktioner för att ändra datum och tid för den senaste synkroniseringen eller för att återställa den helt. Med den här funktionen ser du till att alla data synkroniseras och inte bara de ändringar som gjorts sedan den senaste synkroniseringen utfördes.
 
 Den här funktionen kan endast användas för synkronisering från Shopify till [!INCLUDE[prod_short](../includes/prod_short.md)]. Den kan vara användbar om du behöver återställa borttagna data, såsom produkter, kunder eller borttagna ordrar.
 
-## Kräv åtkomsttoken
+## <a name="request-the-access-token"></a>Kräv åtkomsttoken
 
 Om [!INCLUDE[prod_short](../includes/prod_short.md)] inte kan ansluta till ditt Shopify konto kan du prova att återställa åtkomsttoken från Shopify. Du kan behöva begära en ny token om ändringar gjorts i säkerhetsnycklar eller nödvändiga behörigheter (programomfattningarna).
 
@@ -73,7 +73,7 @@ Om [!INCLUDE[prod_short](../includes/prod_short.md)] inte kan ansluta till ditt 
 
 Växlas **Har AccessKey** kommer att aktiveras.
 
-## Kontrollera och aktivera behörigheter för att göra HTTP-begäranden i en miljö utan produktions miljön
+## <a name="verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment"></a>Kontrollera och aktivera behörigheter för att göra HTTP-begäranden i en miljö utan produktions miljön
 
 Anslutningstillägget kräver Shopify behörighet att göra HTTP-begäranden för att det ska fungera korrekt. Vid testning i en miljö för begränsat läge är HTTP-begäranden förbjudna för alla tillägg.
 
@@ -82,26 +82,26 @@ Anslutningstillägget kräver Shopify behörighet att göra HTTP-begäranden fö
 3. På sidan **Konfigurera** väljer du åtgärden **Tilläggsinställningar**.
 4. Kontrollera att växlingsknappen **Tillåt HTTPClient-begäranden** är aktiverat.
 
-## Rotera Shopify åtkomsttoken
+## <a name="rotate-the-shopify-access-token"></a>Rotera Shopify åtkomsttoken
 
 I följande procedurer beskrivs hur du roterar den åtkomsttoken som används av Shopify Connector för att komma åt din Shopify onlinebutik.
 
-### I Shopify
+### <a name="in-shopify"></a>I Shopify
 
 1. Gå till **Shopify administratör** i din [appar](https://www.shopify.com/admin/apps).
 2. Välj **Ta bort** i raden med **Dynamics 365 Business Central**-appen.
 3. Välj **Ta bort** i meddelandet.
 
-### I [!INCLUDE[prod_short](../includes/prod_short.md)]
+### <a name="in-"></a>I [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Shopify butiker** och väljer sedan relaterad länk.
 2. Välj den butik som du vill rotera åtkomsttoken för och öppna sidan **Shopify-butikskort**.
 3. Välj åtgärden **Begär åtkomst**.
 4. Om du uppmanas till det, loggar du in på ditt Shopify-konto, granskar sekretess och behörigheter och trycker sedan på knappen **Installera app**.
 
-## Kända problem
+## <a name="known-issues"></a>Kända problem
 
-### Fel: försäljningshuvudet finns inte. Identifieringsfält och värden: dokumenttyp='Quote',No.='YOUR SHOPIFY STORE'
+### <a name="error-the-sales-header-does-not-exist-identification-fields-and-values-document-typequotenoyour-shopify-store"></a>Fel: försäljningshuvudet finns inte. Identifieringsfält och värden: dokumenttyp='Quote',No.='YOUR SHOPIFY STORE'
 
 För att beräkna priser skapar Shopify anslutningsprogram ett tillfälligt försäljningsdokument (offert) för tillfällig kund (butikskod) och använder standardprisberäkningslogiken. Om ett tillägg från en annan tillverkare prenumererar på händelser i ett temporärt försäljningsdokument kanske inte huvudet är tillgängligt. Du bör kontakta tilläggets leverantör. Be dem att ändra sin kod och söka efter tillfälliga poster. I vissa fall behöver de bara lägga till `IsTemporary` metoden på rätt plats. Om du vill veta mer om `IsTemporary`, gå till [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
@@ -123,22 +123,22 @@ AL-anropsstack:
 
 Kom ihåg informationen om resursen AL-anropsstacken till med tilläggets leverantör.
 
-### Fel: gen. Rörelsebokföringsmallen måste ha ett värde i kund: 'YOUR SHOPIFY STORE'. Den kan inte vara noll eller tom
+### <a name="error-gen-bus-posting-group-must-have-a-value-in-customer-your-shopify-store-it-cannot-be-zero-or-empty"></a>Fel: gen. Rörelsebokföringsmallen måste ha ett värde i kund: 'YOUR SHOPIFY STORE'. Den kan inte vara noll eller tom
 
 På sidan **Shopify butikskort**, fyll i fältet **Kod för kundmall** med den mall som har **Rörelsebokföringsmall** ifyllt. Kundmallen används för att skapa kunder och för att beräkna försäljningspriser på försäljningsdokument.
 
-### Fel: Import av data till din Shopify butik har inte aktiverats. Gå till butikskortet för att aktivera det
+### <a name="error-importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Fel: Import av data till din Shopify butik har inte aktiverats. Gå till butikskortet för att aktivera det
 
 På sidan **Shopify butikskort** aktivera växlingsknappen **Tillåt synkronisering till Shopify**. Denna inställning är avsedd att skydda onlinebutiken från att hämta demodata från [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### Fel: Oauth error invalid_request: Det gick inte att hitta Shopify API-programmet med api_key
+### <a name="error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Fel: Oauth error invalid_request: Det gick inte att hitta Shopify API-programmet med api_key
 
 Det verkar som du använder [bädda in appen](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), där klientens URL har formatet: `https://[application name].bc.dynamics.com`. Shopify anslutningen fungerar inte för inbäddade appar. För mer information, se [Vilka Microsoft-produkter är Shopify-anslutningen tillgängliga för?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
-### Fel: Internt fel. Det verkar som om ett fel har inträffat hos oss. Begärande-ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+### <a name="error-internal-error-looks-like-something-went-wrong-on-our-end-request-id-xxxxxxxx-xxxx-xxxx-xxxx-xxxx"></a>Fel: Internt fel. Det verkar som om ett fel har inträffat hos oss. Begärande-ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Kontakta Shopify-supporten inom sju dagar efter det här felet och ange begärande-ID. Om du vill veta mer går du till [Supportalternativ för Shopify](shopify-faq.md#shopify).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Kom igång med kopplingen för Shopify](get-started.md)
