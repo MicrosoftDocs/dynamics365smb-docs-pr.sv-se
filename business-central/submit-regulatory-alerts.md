@@ -45,7 +45,7 @@ Vi inbjuder dig till att använda Microsoft Dynamics Lifecycle Services (LCS) f�
         |Description  | Ange en kort översikt över lagstiftningen. Beskrivningen bör fokusera på frågor som är relevanta för resursplanering inom företag (ERP), så att användare kan förstå kraven på en hög nivå utan att behöva läsa lagstiftningen först.|
         |Land  | Ange landet/regionen som lagstiftningen gäller för.|
         |Bransch| Ange vilken bransch om kravet bara gäller för specifika branscher. Välj till exempel **Offentliga sektorn**, **Butik** eller **Produktion**.|
-        |Funktionsreferens  | Detta gäller inte för Dynamics 365 Business Central, men du kan ange en referens till en funktion om du känner till den. Listan med funktioner för ett visst land finns i [lokaliseringsportal](/dynamics/s-e/) på webbplatsen CustomerSource. |
+        |Funktionsreferens  | Detta gäller inte för Dynamics 365 Business Central, men du kan ange en referens till en funktion om du känner till den. Listan med funktioner för ett visst land/region finns i [lokaliseringsportal](/dynamics/s-e/) på webbplatsen CustomerSource. |
         |Datum för tillämpning av lagen  | Ange det datum då berörda kunder måste börja följa lagen.|
         |Datum när myndigheten tillkännagav meddelandet  | Ange det datum då myndigheten meddelade ändringen.|
         |Senaste arkiveringsdatum  | Välj deadline för den första överföringen av nya eller ändrade rapporten.|

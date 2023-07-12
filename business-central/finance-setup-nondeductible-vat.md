@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Ställ in ej avdragsgill moms
 
-Ej avdragsgill moms (VAT) är den moms som betalas av en inköpare, men det är inte avdragsgill från köparens egen momsskuld. Företag kan vanligtvis återställa moms på inköp av varor och tjänster som hör till deras affärsaktiviteter. I vissa fall ådrar sig dock en verksamhet moms som inte är avdragsgill. Dessa situationer är vanligen relaterade till lokala bestämmelser och kan skilja sig från land till land. Modellen för användning av ej avdragsgill eller delvis avdragsgill moms är emellertid densamma. Du kan använda proportionell moms för att beräkna moms när det finns avdragsgill och ej avdragsgill moms.
+Ej avdragsgill moms (VAT) är den moms som betalas av en inköpare, men det är inte avdragsgill från köparens egen momsskuld. Företag kan vanligtvis återställa moms på inköp av varor och tjänster som hör till deras affärsaktiviteter. I vissa fall ådrar sig dock en verksamhet moms som inte är avdragsgill. Dessa situationer är vanligtvis relaterade till lokala bestämmelser och kan skilja sig åt mellan länder/regioner. Modellen för användning av ej avdragsgill eller delvis avdragsgill moms är emellertid densamma. Du kan använda proportionell moms för att beräkna moms när det finns avdragsgill och ej avdragsgill moms.
 
 I allmänhet kan moms inte dras av för vissa inköp på grund av följande faktorer:
 
 - **Vilken typ av varor eller tjänster som köps** – Moms är helt eller delvis ej avdragsgill genom en bestämmelser om varor som t.ex. bilar, mobiltelefoner och livsmedel som köps på restauranger.
 - **Delvis avdragsgill moms** – Moms är proportionell enligt förhållandet mellan de försäljningsåtgärder som momsen gäller för och alla åtgärder som har utförts. Moms som överstiger detta förhållande kan inte dras av.
 
-Eftersom det kan vara svårt att veta var och hur en artikel används, måste du kontakta lokala skattemyndigheter i ditt land för att avgöra om en viss procent andel av momsen är avdragsgill baserat på historiska data. 
+Eftersom det kan vara svårt att veta var och hur en artikel används, måste du kontakta lokala skattemyndigheter i ditt land/region för att avgöra om en viss procent andel av momsen är avdragsgill baserat på historiska data. 
 
 > [!IMPORTANT]
 > Denna globala funktion är tillgänglig i alla länder med aktiverad moms **förutom Belgien, Italien, Norge och Spanien**. De här lokaliseringarna har redan befintlig lokal funktion och kommer att uppgraderas i framtiden. Kör inte den här funktionen i dessa länder eftersom uppgraderingsproceduren inte finns.

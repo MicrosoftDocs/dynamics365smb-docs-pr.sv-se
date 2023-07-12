@@ -12,18 +12,18 @@ ms.date: 07/21/2022
 ms.author: altotovi
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Moms i standardversionen av Business Central
+# Moms i standardversionen av Business Central
 
 **Moms** är en skatt som gäller inköp av varor och tjänster för konsumenter och försäljning av varor och tjänster för företag. Moms bör helst gälla all slutlig konsumtion med få undantag. Undantag för slutkonsumtion beror på lokala myndigheter, men generellt sett bör transaktioner mellan företag undantas från moms.  
 
 Vanligtvis gäller moms för försäljning av varor och tjänster och är en procent andel av det totala inköpsbeloppet. Återförsäljare ansvarar för beräkning och insamling av moms vid tidpunkten då inköpet görs.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] är tillgänglig i länder där moms används och i länder där moms används. Standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] har grundläggande stöd för moms och stöd i programversionerna som används i USA och Kanada.
+[!INCLUDE[prod_short](includes/prod_short.md)] är tillgänglig i länder/regioner där moms används och i länder där moms används. Standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)] har grundläggande stöd för moms och stöd i programversionerna som används i USA och Kanada.
 
 > [!IMPORTANT]
 > Även om moms är tillgänglig i standardversionen stöder Microsoft endast moms i USA och Kanada.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Rapportering av moms i USA](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Rapportera moms i Kanada](localfunctionality/canada/ca-sales-tax.md)  

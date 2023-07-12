@@ -4,7 +4,7 @@ description: Lär dig mer om felsökning av kopplingen mellan Business Central o
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 06/16/2023
+ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: d365-business-central
@@ -22,7 +22,7 @@ Om en händelse skapar eller ändrar många poster, körs inte flödet på vissa
 
 ### Möjlig orsak
 
-För närvarande finns det en gräns för hur många poster ett flöde kan hantera. Om fler än 100 poster skapas eller ändras inom 30 sekunder utlöses inte flödet.
+För närvarande finns det en gräns för hur många poster ett flöde kan hantera. Om fler än 1000 poster skapas eller ändras inom 30 sekunder utlöses inte flödet.
 
 > [!NOTE]
 > För utvecklare utförs flödesaktiveringen via webhook-meddelanden, och denna begränsning beror på hur Business Central-anslutningen hanterar `collection`-meddelanden. Mer information finns i [Arbeta med webhooks i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) i Hjälp för utvecklare och administratörer.

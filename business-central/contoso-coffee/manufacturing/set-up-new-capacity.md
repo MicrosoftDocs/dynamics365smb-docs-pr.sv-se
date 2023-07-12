@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a>Genomgång: Skapa en ny kapacitet
+# Genomgång: Skapa en ny kapacitet
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata i hur du hanterar kapacitet.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Som svar på förändringar på verkstadsgolvet måste du skapa ett nytt arbetscenter, Testavdelningen. Den nya produktionsgruppen har en maskingrupp, test. De nya centren måste ha en kapacitetskalender för ett enstaka skift från 08:00:00 till 16:00:00, måndag till fredag.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Så här skapar du produktionsgrupper.
 
@@ -32,8 +32,8 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Som svar på förändri
         |**A-pris senaste inköp**|3.25|
         |**Styckkost. beräkningstyp**|Tid|
         |**Bokföringsmetod**|Manuell|
-        |**Produktbokföringsmall**|INGEN MOMS</br></br>Observera att den här markeringen beror på redovisningsinställningar och land.|
-        |**Måttenhetskod** |MINUTER|
+        |**Produktbokföringsmall**|INGEN MOMS</br></br>Observera att den här markeringen beror på redovisningsinställningar och land/region.|
+        |**Enhetskod** |MINUTER|
         |**Kapacitet** |1|
         |**Effektivitet** |90|
         |**Fabrikskalenderkod** |1|
@@ -84,6 +84,6 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Som svar på förändri
 
 På sidan **kalendertransaktioner** är de dagliga kapacitets transaktionerna i fältet **kapacitet (total)** är 480 minuter. Detta återspeglar ett åtta timmars skift för varje arbetsdag. Dessutom visar fältet **kapacitet (effektiv)** visar 432 minuter. Detta motsvarar den 90 procents effektivitetsgrad som du har tilldelat maskingruppen.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

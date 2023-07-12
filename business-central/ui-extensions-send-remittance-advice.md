@@ -10,19 +10,19 @@ ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advic
 ms.date: 07/06/2021
 ms.author: edupont
 ---
-# <a name="send-remittance-advice"></a>Skicka kundremissa
+# Skicka kundremissa
 
 När kundremissa används för att meddela leverantörerna om de betalningar som görs kan du nu skicka kundremissa i bulk från betalningsjournalen och skicka om när du har utfört betalningar från leverantörsreskontratransaktioner genom att använda dokumentutskicksprofiler.
 
 > [!NOTE]
-> Denna funktion stöds endast i Business Central online och lokalt i följande länder: Storbritannien, USA, Kanada, Australien, Nya Zeeland och Sydafrika.  
+> Denna funktion stöds endast i Business Central online och lokalt i följande länder/regioner: Storbritannien, USA, Kanada, Australien, Nya Zeeland och Sydafrika.  
 
 Du kan skicka kundremissa på två olika sätt:
 
 * Gå till sidan **Utbetalningsjournal** och välj **Relaterat**, **Betalningar**, **Skicka kundremissa** för att skicka kundremissa via e-post för en eller flera utbetalningsjournaltyper
 * På sidan **leverantörsreskontratransaktioner** välj **åtgärder**, **funktioner**, **skicka kundremissa** via e-post efter bokföring av leverantörsbetalningar, för en av flera leverantörsreskontratransaktioner
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Betalningsförslag för lev.](payables-how-suggest-vendor-payments.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg ](ui-extensions.md)  

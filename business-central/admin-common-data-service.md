@@ -3,15 +3,15 @@ title: Använda Microsoft Dataverse
 description: Introduktion till hur du integrerar och använder Microsoft Dataverse och dess komponenter för att ansluta till andra Dynamics 365-program.
 author: brentholtorf
 ms.author: bholtorf
-ms.custom: na
-ms.reviewer: na
+ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 06/14/2021
+ms.date: 06/28/2023
+ms.custom: bap-template
 ---
 
-# <a name="integrating-with-microsoft-dataverse"></a><a name="integrating-with-microsoft-dataverse"></a>Integrera med Microsoft Dataverse
+# Integrera med Microsoft Dataverse
 
-I företagsappar används ofta data från mer än en källa. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombinerar data till en enda logikuppsättning som gör det enklare att ansluta andra Dynamics 365-program, t. ex. [!INCLUDE[crm_md](includes/crm_md.md)] eller ett eget program som bygger på [!INCLUDE[prod_short](includes/cds_long_md.md)], till [!INCLUDE[prod_short_md](includes/prod_short.md)]. Mer information om [!INCLUDE[prod_short](includes/cds_long_md.md)] finns i [Vad är Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
+I företagsappar används ofta data från mer än en källa. [!INCLUDE[prod_short](includes/cds_long_md.md)] data till en enda logikuppsättning som gör det enklare att ansluta [!INCLUDE[prod_short](includes/prod_short.md)] till andra Dynamics 365-progeam. Till exempel [!INCLUDE[crm_md](includes/crm_md.md)] eller ett eget program skapat med [!INCLUDE[prod_short](includes/cds_long_md.md)]. För att lära dig om [!INCLUDE[prod_short](includes/cds_long_md.md)], gå till [Vad är Dataverse?](/powerapps/maker/common-data-service/data-platform-intro).
 
 Följande steg ger en översikt över hur du integrerar [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -24,19 +24,19 @@ Följande steg ger en översikt över hur du integrerar [!INCLUDE[prod_short](in
 
 3. Synkronisera data mellan apparna. Mer information finns i [Synkronisera Business Central och Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-"></a><a name="getting-started-with-"></a>Komma igång med [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Kom igång med [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 För att komma igång med [!INCLUDE[prod_short](includes/cds_long_md.md)] behöver du ett Microsoft Power Apps-konto. Om du inte redan har ett Power Apps-konto kan du få ett gratis genom att besöka [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) och välja länken **Kom igång gratis**. Mer information om hur du kommer igång med [!INCLUDE[prod_short](includes/cds_long_md.md)] finns i avsnittet [Komma igång med Dataverse](/training/modules/get-started-with-powerapps-common-data-service/)-modulen från Microsoft utbildning.
 
-## <a name="bi-directional-or-uni-directional-data-synchronization"></a><a name="bi-directional-or-uni-directional-data-synchronization"></a>Dubbelriktad eller enkelriktad datasynkronisering
+## Dubbelriktad eller enkelriktad datasynkronisering
 
-Beroende på ditt företags behov kan du ställa in integreringen för att synkronisera data antingen till eller från en Dynamics 365-affärsapp till en annan, eller i båda riktningarna i närapå realtid via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Om du t. ex. integrerar [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] med hjälp av [!INCLUDE[prod_short](includes/cds_long_md.md)] kan en säljare skapa en försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] och ordern synkroniseras till [!INCLUDE[prod_short](includes/prod_short.md)]. Från [!INCLUDE[crm_md](includes/crm_md.md)] kan säljaren å andra sidan se information från [!INCLUDE[prod_short](includes/prod_short.md)] som berör tillgängligheten för artikeln på ordern. 
+Du kan synkronisera data antingen till eller från en Dynamics 365-affärsapp till en annan, eller i båda riktningarna i närapå realtid via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Om du t.ex. integrerar [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[crm_md](includes/crm_md.md)], kan en säljare skapa en försäljningsorder i [!INCLUDE[crm_md](includes/crm_md.md)] och ordern synkroniseras till [!INCLUDE[prod_short](includes/prod_short.md)]. Artiklar, från [!INCLUDE[crm_md](includes/crm_md.md)], kan säljaren som berör tillgängligheten för artikeln på ordern i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-## <a name="standard-and-custom-entities"></a><a name="standard-and-custom-entities"></a>Standard- och anpassade eenheter
+## Standard- och anpassade enheter
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] lagrar data säkert i en uppsättning tabeller, som är grupper av transaktioner som påminner om hur en tabell lagrar data i en databas. [!INCLUDE[prod_short](includes/cds_long_md.md)] innehåller en grundläggande uppsättning tabeller som täcker typiska scenarier, men du kan också skapa egna tabeller som är specifika för organisationen. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du visa standard- och anpassade tabeller som synkroniseras på sidan Registermappningar för integrering.
 
-## <a name="about-the-business-central-base-integration-solution"></a><a name="about-the-business-central-base-integration-solution"></a>Om basintegreringslösningen i Business Central
+## Om basintegreringslösningen i Business Central
 
 Lösningen för basintegrering är en nyckelkomponent i integreringen. Lösningen lägger till de roller och åtkomstnivåer som krävs för integreringen i användarkontona, och skapar de tabeller som behövs för att mappa [!INCLUDE[prod_short](includes/prod_short.md)]-företaget till affärsenheten i [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
@@ -44,22 +44,43 @@ Den assisterade konfigurationen **Ställ in [!INCLUDE[prod_short](includes/cds_l
 
 * Systemadministratör  
 
-Mer information finns i [Ställa in användarkonton för integrering med [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) och [Skapa användare i Microsoft Dynamics 365 (online) och tilldela säkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
+Mer information om användarkonton finns i följande artiklar:
+
+* [Ställa in konton för integrering med [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md) 
+* [Skapa användare i Microsoft Dynamics 365 (online) och tilldela säkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles). 
 
 Administratörskontot används endast en gång under installationen av de konfigurationsändringar som basintegreringslösningen gör i [!INCLUDE[prod_short](includes/cds_long_md.md)]. När lösningen har importerats behövs inte kontot längre. Integreringen fortsätter att använda användarkontot som har skapats automatiskt särskilt för integrering.
 
 Förutom att anpassa [!INCLUDE[prod_short](includes/cds_long_md.md)]  kommer integreringslösningen även att skapa följande roller i [!INCLUDE[prod_short](includes/cds_long_md.md)] för integreringen:
 
-* **Integreringsadministratören** – tillåter användare att hantera anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)]. Vanligtvis tilldelas detta bara till det automatiskt skapade användarkontot för synkronisering.  
-* **Integreringsanvändare** – tillåter användare att komma åt synkroniserade data. Detta tilldelas normalt till det automatiskt skapade användarkontot för synkronisering och andra användare som behöver visa eller komma åt synkroniserade data.
+* **Integreringsadministratören** – tillåter användare att hantera anslutningen mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)]. Vanligtvis tilldelas rollen bara till det automatiskt skapade användarkontot för synkronisering.  
+* **Integreringsanvändare** – tillåter användare att komma åt synkroniserade data. Normalt tilldelar du rollen följande användarkonton:
+
+  * De användarkonton som skapas automatiskt för synkronisering.
+  * Andra användare som behöver åtkomst till synkroniserade data.
 
 Mer information om varje roll, t. ex. behörigheter och åtkomstnivåer finns i [Konfigurera användarkonton för integrering med [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-setting-up-integration-with-dynamics-sales.md).
 
-Under anslutningsinstallationen skapas integreringsregistermappningar som behövs för att synkronisera data. Enheter i [!INCLUDE[prod_short](includes/cds_long_md.md)] är mappade till tabeller och tabellfält i Business Central via integreringstabeller. Mer information finns i [Standardinställd enhetsmappning för synkronisering](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
+När du ställer in anslutningen skapar du de integrationens tabellmappningar som du behöver för att synkronisera data. Enheter i [!INCLUDE[prod_short](includes/cds_long_md.md)] är mappade till tabeller och tabellfält i [!INCLUDE [prod_short](includes/prod_short.md)] via integreringstabeller. Om du vill veta mer om mappningar går du till [Standardenhetsmappning för synkronisering](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/use-model-driven-apps-common-data-service/)
+## Hantera skillnader i lokala och grundläggande transaktionsvalutor
 
-## <a name="see-also"></a><a name="see-also"></a>Se även
+Du kan ansluta till en [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljö med en annan basvaluta än den lokala valutan i [!INCLUDE[prod_short](includes/prod_short.md)]. Du gör anslutningen i [!INCLUDE[prod_short](includes/prod_short.md)] på sidan **Dataverse-anslutningsinställningar** eller med hjälp av **Konfigurera anslutning till Dataverse** assisterad inställningsguide.
+
+För att kunna ansluta måste du kontrollera att inställningen bastransaktionens valuta i [!INCLUDE[prod_short](includes/cds_long_md.md)] har den valuta som har angetts på sidan **Valutor** i [!INCLUDE [prod_short](includes/prod_short.md)] och minst en valutakurs har angetts för valutan på sidan **Valutakurser**.
+
+Här är ett exempel. Du ansluter [!INCLUDE[prod_short](includes/cds_long_md.md)] med euro (EUR) angiven som lokal valuta på sidan **Redovisningsinställningar** till en [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljö med en bastransaktionsvaluta inställd på amerikanska dollar (USD). Du måste ha USD på sidan **Valutor** i [!INCLUDE [prod_short](includes/prod_short.md)] och rätt valutakurs. 
+
+När du aktiverar anslutningen till [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE [prod_short](includes/prod_short.md)] lägger det till lokal valuta till entiteten **Valuta** i [!INCLUDE[prod_short](includes/cds_long_md.md)] med valutakursen från fältet **Valutafaktor** på **Valutakurser**.
+
+Synkronisering med valuta är enkelriktad, från [!INCLUDE [prod_short](includes/prod_short.md)] till [!INKLUDERA [!INCLUDE[prod_short](includes/cds_long_md.md)], belopp konverteras och synkroniseras enligt följande:
+
+* Belopp i [!INCLUDE[prod_short](includes/cds_long_md.md)] basvalutan konverteras till [!INCLUDE [prod_short](includes/prod_short.md)] lokala valutan baserat på den senaste valutakursen som synkroniseras från [!INCLUDE [prod_short](includes/prod_short.md)].
+* Belopp i [!INCLUDE [prod_short](includes/prod_short.md)] lokal valuta synkroniseras med [!INCLUDE [prod_short](includes/prod_short.md)] lokala valutan i någon av de andra valutorna i [!INCLUDE[prod_short](includes/cds_long_md.md)].
+
+## Se relaterad [Microsoft utbildning](/training/modules/use-model-driven-apps-common-data-service/)
+
+## Se även
 
 [Modeller för dataägarskap](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

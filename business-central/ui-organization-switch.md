@@ -3,22 +3,17 @@ title: Byta till ett annat företag eller annan miljö
 description: Om du arbetar i flera organisationer kan du snabbt växla mellan olika miljöer och företag.
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'environments, companies, tenants, organization'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0cc18a4a84e24ce58d486275442ba686ed559047
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: sv-SE
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605961"
 ---
-# <a name="switching-to-another-company-or-environment"></a>Byta till ett annat företag eller annan miljö
 
-[!INCLUDE [prod_short](includes/prod_short.md)] finns i många olika länder och stöder många olika typer av organisationer. Organisationen kan välja att organisera arbetet i [!INCLUDE [prod_short](includes/prod_short.md)] i flera *företag* och *miljöer*. I den här artikeln får du hjälp att förstå de viktigaste skillnaderna och hur du arbetar med dem.
+# Byta till ett annat företag eller annan miljö
 
-## <a name="about-companies-and-environments"></a>Om företag och miljöer
+[!INCLUDE [prod_short](includes/prod_short.md)] finns i många olika länder/regioner och stöder många olika typer av organisationer. Organisationen kan välja att organisera arbetet i [!INCLUDE [prod_short](includes/prod_short.md)] i flera *företag* och *miljöer*. I den här artikeln får du hjälp att förstå de viktigaste skillnaderna och hur du arbetar med dem.
+
+## Om företag och miljöer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -30,7 +25,7 @@ ms.locfileid: "9605961"
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment"></a>Funktioner för att byta företag eller miljö
+## Funktioner för att byta företag eller miljö
 
 Det finns några funktioner som du kan använda för att byta företag eller miljö medan du arbetar. I följande tabell jämförs funktionens funktioner, som beskrivs närmare i de avsnitt som följer.
 
@@ -41,7 +36,7 @@ Det finns några funktioner som du kan använda för att byta företag eller mil
 |[Mina inställningar](#use-my-settings)|![bockmarkering](media/check.png "kontroll")|||![bock](media/check.png "kontroll")|
 |[Företagsnav](#use-company-hub)|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")|![bock](media/check.png "kontroll")||
 
-## <a name="use-the-company-switcher"></a>Använd företagsväxlaren
+## Använd företagsväxlaren
 
 Att använda företagsväxlaren är troligen det snabbaste och mest mångsidiga sättet att byta företag. Företagsväxlaren är en ruta som är lätt tillgänglig från valfri sida. I fönstret får du en översikt över alla företag i alla miljöer som du har tillgång till, och du kan växla direkt till någon av dem&mdash;antingen på samma flik i webbläsaren eller på en ny. Det är särskilt användbart när du arbetar i många företag i olika miljöer.
 
@@ -50,7 +45,7 @@ Att använda företagsväxlaren är troligen det snabbaste och mest mångsidiga 
    :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Visar företagsväxlarikonen i sidhuvudet till Business Central-klienten.":::  
 
    > [!TIP]
-   > Du kan också använda kortkommandot Crtl + O för att öppna fönstret.
+   > Du kan också använda kortkommandot <kbd>Crtl</kbd>+<kbd>O</kbd> för att öppna fönstret.
 2. I rutan **Tillgängliga företag** väljer du det företag som du vill byta till, väljer pilen **Växla** och väljer sedan ett av följande alternativ:
 
    |Alternativ|Description|
@@ -60,9 +55,9 @@ Att använda företagsväxlaren är troligen det snabbaste och mest mångsidiga 
    |Öppna på ny flik och gå till samma sida|Det här alternativet är endast aktivt på listsidor, till exempel kunder, försäljningsorder eller artiklar. Då öppnas samma lista, men för det valda företaget, i en ny flik i webbläsaren. |
 
 > [!TIP]
-> Tryck på F5 om du vill uppdatera listan över miljöer och företag.
+> Välj <kbd>F5</kbd> om du vill uppdatera listan över miljöer och företag.
 
-## <a name="use-the-app-launcher"></a>Använd appstartaren
+## Använd appstartaren
 
 När du har loggat in på [!INCLUDE[prod_short](includes/prod_short.md)] visas de miljöer som du har åtkomst till på startsidan för Office.com.  
 
@@ -78,14 +73,14 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## <a name="use-my-settings"></a>Använd Mina inställningar
+## Använd Mina inställningar
 
 När du är inloggad i [!INCLUDE[prod_short](includes/prod_short.md)] kan du snabbt byta till ett annat företag i samma miljö. När du har bytt blir det företag du väljer standardföretag och öppnas nästa gång du loggar in.
 
 1. I det övre högra hörnet väljer du ikonen **Inställningar** ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och väljer sedan åtgärden **Mina inställningar**.
 
     > [!TIP]
-    > Du kan också använda kortkommandot Alt + T för att snabbt öppna sidan mina inställningar.
+    > Du kan också använda kortkommandot <kbd>Alt</kbd>+<kbd>T</kbd> för att snabbt öppna sidan mina inställningar.
 
 2. På sidan **Mina inställningar** i fältet **Företag** välj företaget.  
 3. Välj **OK**.
@@ -93,13 +88,13 @@ När du är inloggad i [!INCLUDE[prod_short](includes/prod_short.md)] kan du sna
 > [!TIP]
 > Ett bra sätt att gå direkt till standardföretaget när du loggar in, och att inte behöva ange en miljö, är att lägga till URL-adressen i listan med favoriter när du har loggat in.
 
-## <a name="use-company-hub"></a>Använd företagsnav
+## Använd företagsnav
 
 *Företagsnavet* är ett mycket specialiserat rollcenter som ger en ekonomisk översikt över företag och miljöer. Företagsnavet är tillgängligt som ett [tillägg](ui-extensions-company-hub.md) för att ge en instrumentpanel med sammanfattningsdata för varje företag som du har tillgång till. På hemsidan visas ekonomiska KPI:er samt en direkt länk till de enskilda miljöerna och företagen. Mer information finns i [Hantera arbete över flera företag i företagsnavet](company-hub.md).
 
 [![Visar företagsnavsidan som innehåller en lista över alla företag.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa nya företag i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  

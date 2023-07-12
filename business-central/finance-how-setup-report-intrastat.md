@@ -1,6 +1,6 @@
 ---
 title: Ställa in Intrastat-rapporter
-description: Denna artikel förklarar hur du konfigurerar funktioner för rapportering av Intrastat och att rapportera handel med företag i andra EU-länder.
+description: Denna artikel förklarar hur du konfigurerar funktioner för rapportering av Intrastat och att rapportera handel med företag i andra EU-länder/regioner.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
@@ -11,14 +11,14 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# <a name="set-up-intrastat-reporting"></a>Ställa in Intrastat-rapporter
+# Ställa in Intrastat-rapporter
 
 Alla företag i Europeiska unionen (EU) måste rapportera sin handel med andra länder/regioner inom EU. I Sverige måste företag rapportera transport av varor till de statistiska myndigheterna varje månad, och rapporten måste levereras till skattemyndigheterna. Intrastat är det system som används för att samla in statistik om varor inom dessa länder/regioner. Använd Intrastat-rapporten för att slutföra periodisk rapportering för Intrastat genom att samla in, registrera och rapportera handel med varor enligt lokal lagstiftning.
 
-Intrastat-rapportering baseras på de grundläggande EU-bestämmelser som gäller för alla länder. Det finns emellertid skillnader i de enskilda länderna. Varje land har sina egna regler om vad som ska rapporteras och på vilket sätt.
+Intrastat-rapportering baseras på de grundläggande EU-bestämmelser som gäller för alla länder/regioner. Det finns emellertid skillnader i de enskilda länderna/regionerna. Varje land/region har sina egna regler om vad som ska rapporteras och på vilket sätt.
 
 > [!NOTE]
-> Intrastat-uppgifter gäller inte förflyttning av tjänster mellan länder, utan endast varor. Informationen gäller i stället bara för varor som artiklar och anläggningstillgångar. Om din lokala regering kräver att du registrerar transport av tjänster mellan länder använder du funktionen **Servicedeklaration**.
+> Intrastat-uppgifter gäller inte förflyttning av tjänster mellan länder/regioner, utan endast varor. Informationen gäller i stället bara för varor som artiklar och anläggningstillgångar. Om din lokala regering kräver att du registrerar transport av tjänster mellan länder/regioner använder du funktionen **Servicedeklaration**.
 >
 > Den här funktionen är tillgänglig från och med den 2022 november, som en app som du kan hämta från [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). För att använda den här funktionen måste du först installera den på sidan **Tilläggshantering**.
 
@@ -27,7 +27,7 @@ Intrastat-rapportering baseras på de grundläggande EU-bestämmelser som gälle
 >
 > Läs den föregående versionens artikel för Intrastat-inställning och -användning på [Inställning och rapportering av Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## <a name="enable-the-new-intrastat-experience"></a>Aktivera den nya Intrastat-upplevelsen
+## Aktivera den nya Intrastat-upplevelsen
 
 I utgivningscykel 2 år 2022 innehåller [!INCLUDE[prod_short](includes/prod_short.md)] en omdesignad Intrastat-upplevelse med utökade funktioner. Om den nya Intrastat-funktionen inte är aktiverad i din miljö kan den aktiveras av en administratör på sidan **Funktionshantering**.
 
@@ -42,13 +42,13 @@ I utgivningscykel 2 år 2022 innehåller [!INCLUDE[prod_short](includes/prod_sho
 6. När du är klar med konfigurationen väljer du **Slutför** för att börja använda den nya Intrastat-upplevelsen.
 
     > [!NOTE]
-    > Beroende på ditt företags plats kommer det att räcka för att aktivera den tidigare beskrivna funktionen. För länder med särskilda funktioner för Intrastat-rapportering bör du aktivera den landsspecifika Intrastat-appen utöver kärntillägget.
+    > Beroende på ditt företags plats kommer det att räcka för att aktivera den tidigare beskrivna funktionen. För länder/regioner med särskilda funktioner för Intrastat-rapportering bör du aktivera den land-/regionsspecifika Intrastat-appen utöver kärntillägget.
 
-## <a name="intrastat-configuration"></a>Intrastat-konfiguration
+## Intrastat-konfiguration
 
 Innan du kan använda Intrastat-rapporter måste du ställa in flera konfigurationer.
 
-### <a name="intrastat-reporting-setup"></a>Konfiguration av Intrastat-rapporter
+### Konfiguration av Intrastat-rapporter
 
 Använd sidan **Konfiguration av Intrastat-rapporter** för att aktivera och ange standardbeteende för Intrastat-rapportering. Du kan ange om du behöver rapportera Intrastat från leveranser (utskick), inleveranser (ankomst) eller båda beroende på tröskelvärden som anges i de lokala bestämmelserna. Du kan också ange standardtransaktionstyper för vanliga och returnerade dokument, som används för transaktionsrapportering.
 
@@ -91,7 +91,7 @@ Följ dessa steg för att ställa in Intrastat-rapportering.
 
 5. På snabbfliken **Numrering**, ange ett värde i **Intrastat-nr**.
 
-### <a name="set-up-a-reporting-file"></a>Konfigurera en rapporteringsfil
+### Konfigurera en rapporteringsfil
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Datautbytesdefinition** och välj relaterad länk.
 2. Välj **Ny** på snabbfliken **Allmänt** ange information om datautbytesdefinition, datafiltyp, kolumnavgränsare, relaterade kodenheter, XMLport och andra fält efter behov.
@@ -112,11 +112,11 @@ Följ dessa steg för att ställa in Intrastat-rapportering.
 9. Om du vill gruppera transaktioner baserat på vissa kolumner väljer du de fält som du vill använda för gruppering på snabbfliken **Fältgruppering**.
 
 > [!NOTE]
-> [!INCLUDE[prod_long](includes/prod_long.md)] levereras med den förinställda datautbytesdefinitionen för Intrastat för alla lokaliserade länder. För att lära dig mer om hur du skapar en ny datautbytesdefinition i [Ställa in datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
+> [!INCLUDE[prod_long](includes/prod_long.md)] levereras med den förinställda datautbytesdefinitionen för Intrastat för alla lokaliserade länder/regioner. För att lära dig mer om hur du skapar en ny datautbytesdefinition i [Ställa in datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Ange obligatoriska fält med checklistan för Intrastat-rapporter
+### Ange obligatoriska fält med checklistan för Intrastat-rapporter
 
-I vissa länder kräver myndigheterna att Intrastatrapporter omfattar, exempelvis leveransmetod för inköp eller andra värden när försäljningen är över ett visst gränsvärde.
+I vissa länder/regioner kräver myndigheterna att Intrastatrapporter omfattar, exempelvis leveransmetod för inköp eller andra värden när försäljningen är över ett visst gränsvärde.
 
 Så här anger du obligatoriska fält eller värden på sidan **Intrastat-rapport**, följ dessa steg:
 
@@ -136,9 +136,9 @@ Så här anger du obligatoriska fält eller värden på sidan **Intrastat-rappor
 > [!NOTE]
 > När du öppnar **Filtersida** från raden **Filteruttryck** kan du använda alla standardfilteruttryck som relaterar till det fält som du vill filtrera.
 >
-> Var försiktig när du ställer in valideringsregler, eftersom de kan skilja sig mellan olika länder.
+> Var försiktig när du ställer in valideringsregler, eftersom de kan skilja sig mellan olika länder/regioner.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Använd anpassade codeunits i Intrastat-rapportering
+## Använd anpassade codeunits i Intrastat-rapportering
 
 Om du vill ändra hur Intrastat fungerar och standardkonfigurationen inte räcker kan du anpassa systemet genom att utöka standardfunktionerna. Om du behöver ändra Intrastat-beteendet ytterligare kan du skapa egna codeunits. När du skapar codeunits måste du göra ytterligare ändringar för att kunna använda dem. Så här konfigurerar du systemet för att använda egna objekt.
 
@@ -154,7 +154,7 @@ Om du vill ändra hur Intrastat fungerar och standardkonfigurationen inte räcke
 > [!IMPORTANT]
 > Raden måste vara tom om du använder standard-codeunits. Du bör endast skapa en rad och konfigurera den om du har utvecklat egna codeunits.
 
-## <a name="other-intrastat-configurations"></a>Andra Intrastat-konfigurationer
+## Andra Intrastat-konfigurationer
 
 Kundkort och leverantörskort innehåller fältet **Intrastat-partnertyp** som har samma alternativvärden som fältet **Partnertyp**: 
 
@@ -171,7 +171,7 @@ Förutom **Konfiguration av Intrastat-rapport**, **Datautbytesdefinitioner** och
 | Sida | Description |
 | ---- | ----------- |
 | **Länder/regioner** | På sidan **Länder/regioner**, lägg till information om **EU lands-/regionskod** och **Intrastat-kod** för att ange en kod för landet/regionen som du handlar med. Den här informationen används i Intrastat-rapportering. |
-| **EU tull statistiknr** | I många länder fastställer tullen och skattemyndigheterna åttasiffriga koder för olika typer av artiklar. För att ange artikelkoden på sidan **statistiknummer** för att artikeltransaktioner ska innehålla den information som krävs när den importeras till Intrastatjournalraden. Ta reda på koderna för de artiklar som ditt företag handlar med och skriv in dem på sidan **statistiknummer**. |
+| **EU tull statistiknr** | I många länder/regioner fastställer tullen och skattemyndigheterna åttasiffriga koder för olika typer av artiklar. För att ange artikelkoden på sidan **statistiknummer** för att artikeltransaktioner ska innehålla den information som krävs när den importeras till Intrastatjournalraden. Ta reda på koderna för de artiklar som ditt företag handlar med och skriv in dem på sidan **statistiknummer**. |
 | **Transportsätt** | Det finns sju ensiffriga koder för Intrastat-transportmetoder **1** för sjötransport, **2**för järnvägstransport, **3** för vägtransport, **4** flygtransport, **5** för brev, **7** för fasta installationer och **9** för egen framdrivning (t.ex. transport av en bil genom att köra den). [!INCLUDE[prod_short](includes/prod_short.md)] saknar dessa specifika koder. Vi rekommenderar dock att beskrivningarna ger liknande betydelse. |
 | **Transaktionstyper** | Länder och regioner har olika koder för olika typer av Intrastat-transaktioner, till exempel ordinära inköp och försäljning, byte av returnerade varor och byte av inte returnerade varor. Ställ in alla koder som gäller för ditt land/din region. Dessa koder används sedan på snabbfliken **Utlandshandel** på försäljnings- och inköpsdokument, samt när du bearbetar returer. |
 | **Transaktionsspecifikationer** | Skapa koder som komplement till beskrivning av transaktionstyp. |
@@ -182,31 +182,31 @@ Förutom **Konfiguration av Intrastat-rapport**, **Datautbytesdefinitioner** och
 |   Fält   |   Description   |
 | --------- | --------------- |
 | **Nettovikt** | Vikt är en av de grundläggande konfigurationerna som är relaterad till Intrastat-rapportering eftersom total vikt är obligatorisk för rapportering. För att vara redo för detta behov anger du ett värde i fältet **Nettovikt** på artikel- eller anläggningstillgångskortet. |
-| **Kod för tillverkningsland** | Använd ISO alpha-koderna på artikel- eller anläggningstillgångskortet med två bokstäver för det land där varan erhölls eller producerades. Om varan har producerats i mer än ett land, är ursprungslandet det sista land där den bearbetades. |
-| **Momsidentifieringsnummer för partneroperatör i den importerande medlemsstaten** | Detta är momsidentifieringsnumret för partneroperatören i den importerande medlemsstaten. Moms-ID används också vid utbyte av data inom EU-export mellan medlemsstater och gör det möjligt för medlemsstaterna att tilldela mottagna data till det importerande företaget i det egna landet. Rapporteringsenheter måste ange moms-ID för det företag som deklarerat förvärv av varor inom unionen i den importerande medlemsstaten. |
+| **Kod för tillverkningsland** | Använd ISO alpha-koderna på artikel- eller anläggningstillgångskortet med två bokstäver för det land/den regionen där varan erhölls eller producerades. Om varan har producerats i mer än ett land/region, är ursprungslandet det sista land/region där den bearbetades. |
+| **Momsidentifieringsnummer för partneroperatör i den importerande medlemsstaten** | Detta är momsidentifieringsnumret för partneroperatören i den importerande medlemsstaten. Moms-ID används också vid utbyte av data inom EU-export mellan medlemsstater och gör det möjligt för medlemsstaterna att tilldela mottagna data till det importerande företaget i det egna landet/regionen. Rapporteringsenheter måste ange moms-ID för det företag som deklarerat förvärv av varor inom unionen i den importerande medlemsstaten. |
 
 Du kan även ställa in:
 
 * **Artikelkoder**: Tull- och skattemyndigheterna har fastställt numeriska koder som klassificera artiklar och tjänster. Du kan ange koder för artiklar.
 * **Områden**: Kompletterande uppgifter om länder och regioner.
-* **In-/utförselplatser**: Ange platser där du kan skicka eller ta emot artiklar till eller från andra länder. En flygplats är ett exempel på en in-/utförselplats. Du kan ange in-/utförselplatser på försäljnings- och inköpsdokument på snabbfliken **Utlandshandel**. Informationen kopieras från artikeltransaktionerna när du skapar Intrastatjournalen.
+* **In-/utförselplatser**: Ange platser där du kan skicka eller ta emot artiklar till eller från andra länder/regioner. En flygplats är ett exempel på en in-/utförselplats. Du kan ange in-/utförselplatser på försäljnings- och inköpsdokument på snabbfliken **Utlandshandel**. Informationen kopieras från artikeltransaktionerna när du skapar Intrastatjournalen.
 * **Kompletterande måttenhet**: Varuantalet för Intrastat-rapportering kan vara nettovikten (i kg) eller en kompletterande enhet. Om det krävs kompletterande enheter måste de konfigureras för artiklar och anläggningstillgångar.
 
-#### <a name="set-up-transport-methods"></a>Konfigurera transportsätt
+#### Konfigurera transportsätt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transportmetoder** och väljer sedan relaterad länk.
 2. Fyll i fältinformation om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Skapa koder av transaktionstyp
+#### Skapa koder av transaktionstyp
 
 1. välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transaktionstyper** och väljer sedan relaterad länk.
 2. Fyll i fältinformation om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Andra relaterade konfigurationer
+### Andra relaterade konfigurationer
 
 Innan du använder funktionen Intrastat-rapportering måste du definiera vissa fält på kortet för artikel, anläggningstillgång, kund och leverantör.
 
-#### <a name="item-cards"></a>Artikelkorten
+#### Artikelkorten
 
 Följ stegen nedan för att ställa in all nödvändig information om Intrastat på artikelkort.
 
@@ -222,7 +222,7 @@ Följ stegen nedan för att ställa in all nödvändig information om Intrastat 
 > [!NOTE]
 > När du lägger till tariffnumret till en måttenhet som är definierad för artikeln, [!INCLUDE [prod_short](includes/prod_short.md)] fyller automatiskt i fältet **Kompletterande måttenhet**, baserat på konfigurationen av tullnummer. Du kan ändra värdet i fältet **Kompletterande måttenhet** efter behov.
 
-#### <a name="set-up-fixed-assets-for-intrastat"></a>Ställ in anläggningstillgångar för Intrastat
+#### Ställ in anläggningstillgångar för Intrastat
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
 2. Välj anläggningstillgången som du vill konfigurera.
@@ -231,7 +231,7 @@ Följ stegen nedan för att ställa in all nödvändig information om Intrastat 
 > [!NOTE]
 > Du kan använda andra måttenheter som kompletterande måttenhet. Oavsett vilken **måttenhetskod** du väljer kommer dess **kvantitet** i Intrastat-rapporter alltid att vara 1.
 
-#### <a name="set-up-vendors-for-intrastat"></a>Ställ in leverantörer för Intrastat
+#### Ställ in leverantörer för Intrastat
 
 Innan du kan ta med en leverantör i Intrastat-rapportering, anger du deras information på sidan **Leverantörskort**. Ange till exempel ett värde för **Lands-/regionkod** och ett värde **Momsregistreringsnr.**.
 
@@ -240,7 +240,7 @@ Innan du kan ta med en leverantör i Intrastat-rapportering, anger du deras info
 3. På snabbfliken **Intrastat** i fälten **Standardtransaktionsyp**, **Standardtransaktionstyp – Returer** och **Standardtransportsätt**, ange ett standardvärde för varje fält.
 4. Expandera snabbfliken **Betalningar** och välj alternativet i fältet **Intrastat-partnertyp** för att ange om leverantören är en person eller ett företag i Intrastat-rapportering.
 
-#### <a name="set-up-customers-for-intrastat"></a>Ställ in kunder för Intrastat
+#### Ställ in kunder för Intrastat
 
 Innan du kan ta med en kund i Intrastat-rapportering, anger du deras information på sidan **Kundkort**. Du måste till exempel ange ett värde för **Lands-/regionkod** och ett värde **Momsregistreringsnr.**.
 
@@ -249,22 +249,22 @@ Innan du kan ta med en kund i Intrastat-rapportering, anger du deras information
 3. På snabbfliken **Intrastat** i fälten **Standardtransaktionsyp**, **Standardtransaktionstyp – Returer** och **Standardtransportsätt**, ange ett standardvärde för varje fält.
 4. Expandera snabbfliken **Betalningar** och välj alternativet i fältet **Intrastat-partnertyp** för att ange om leverantören är en person eller ett företag i Intrastat-rapportering.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Exkludera artiklar och anläggningstillgångar från Intrastat-rapportering
+#### Exkludera artiklar och anläggningstillgångar från Intrastat-rapportering
 
 Om det finns en orsak till att en viss artikel eller anläggningstillgång ska uteslutas från Intrastat-rapportering måste du ändra ett alternativ på deras kort.
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Undanta en artikel från Intrastat-rapportering
+##### Undanta en artikel från Intrastat-rapportering
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artiklar** och välj sedan relaterad länk.
 2. Välj det objekt som du vill konfigurera och sedan på snabbfliken **Kostnad och bokföring** markera kryssrutan **Uteslut från Intrastat-rapport**.
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Exkludera en anläggningstillgång från Intrastat-rapportering
+##### Exkludera en anläggningstillgång från Intrastat-rapportering
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
 2. Välj anläggningstillgången som du vill konfigurera.
 3. Expandera snabbfliken **Intrastat** och markera sedan kryssrutan **Uteslut från Intrastat-rapport**.
 
-#### <a name="set-up-tariff-numbers"></a>Ställ in statistiknummer
+#### Ställ in statistiknummer
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **statistiknummer** och väljer sedan relaterad länk.  
 2. På sidan **statistiknummer** anger du information i fälten enligt instruktionerna i följande tabell.
@@ -282,11 +282,11 @@ Om det finns en orsak till att en viss artikel eller anläggningstillgång ska u
 > 
 > När du lägger till ett tariffnummer som har ett definierat värde **Måttenhet** till artikeln, lägger [!INCLUDE [prod_short](includes/prod_short.md)] automatiskt till en ny måttenhet till värdet **måttenheter för artikel** för artikeln. Värdet **Antal per måttenhet** är baserat på fältet **Avrundning för antal**.
 
-## <a name="enter-countryregion-intrastat-settings"></a>Ange landsspecifika Intrastat-inställningar
+## Ange land-/regionsspecifika Intrastat-inställningar
 
-Kraven på Intrastat är likartade i alla medlemsstater i EU, även om det finns viktiga undantag. I teorin bör bestämmelserna tillämpas på samma sätt i alla medlemsstater. Det finns emellertid skillnader i genomförandet, eftersom vissa medlemsstater ger riktlinjer om hur du tillämpar principerna i särskilda situationer (t.ex. handelsprover, varureturer etc.). Dessa riktlinjer kan ge olika resultat för olika situationer. Därför kan informationen som länderna måste skriva in skilja sig åt, vilket kan vara det filformat som de måste använda för rapportering.
+Kraven på Intrastat är likartade i alla medlemsstater i EU, även om det finns viktiga undantag. I teorin bör bestämmelserna tillämpas på samma sätt i alla medlemsstater. Det finns emellertid skillnader i genomförandet, eftersom vissa medlemsstater ger riktlinjer om hur du tillämpar principerna i särskilda situationer (t.ex. handelsprover, varureturer etc.). Dessa riktlinjer kan ge olika resultat för olika situationer. Därför kan informationen som länderna/regionerna måste skriva in skilja sig åt, vilket kan vara det filformat som de måste använda för rapportering.
 
-### <a name="austria"></a>Österrike
+### Österrike
 
 För Intrastat-rapportering i Österrike krävs två olika filer för inleveranser och utleveranser. Så här kontrollerar du att installationen är korrekt.
 
@@ -298,11 +298,11 @@ Att arbeta med Intrastat-rapporter är samma sak som den globala funktionen.
 
 <!-- ### Belgium-->
 
-### <a name="czech-republic"></a>Tjeckien
+### Tjeckien
 
 Den nya Intrastat-rapportens upplevelse för Tjeckiska republiken kommer att finnas tillgänglig från Utgivningscykel 1 2023. Under tiden kan du fortsätta att använda funktionen **Intrastat-journal**.
 
-### <a name="finland"></a>Finland
+### Finland
 
 I Finland finns ytterligare steg för att ställa in Intrastat. För Intrastat-rapportering i Finland krävs två olika filer för inleveranser och utleveranser. Det finns även två separata värden för **Def.kod för datautbyte** som har konfigurerats.
 
@@ -320,13 +320,13 @@ Att arbeta med Intrastat-rapporter är samma sak som den globala funktionen.
 
 <!-- ### Germany-->
 
-### <a name="italy"></a>Italien
+### Italien
 
 En ny Intrastat-rapportupplevelse för Italien kommer att finnas tillgänglig från och med 2023 februari. Under tiden kan du fortsätta att använda funktionen **Intrastat-journal**.
 
 <!-- ### France-->
 
-### <a name="sweden"></a>Sverige
+### Sverige
 
 För Intrastat-rapportering i Sverige krävs två olika filer för inleveranser och utleveranser. Så här kontrollerar du att installationen är korrekt.
 
@@ -337,9 +337,9 @@ Att arbeta med Intrastat-rapporter är samma sak som den globala funktionen.
 
 <!-- ### United Kingdom-->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Intrastat-rapportering Business Central](finance-how-report-intrastat.md)  
 [Ekonomihantering](finance.md)  

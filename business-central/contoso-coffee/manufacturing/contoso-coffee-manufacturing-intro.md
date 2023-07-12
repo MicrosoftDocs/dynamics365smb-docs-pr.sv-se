@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduktion till produktion för Contoso Coffee
+# Introduktion till produktion för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-apparna för Business Central lägger till demonstrationsdata som du kan använda för att lära dig använda produktionsfunktionerna i Business Central.  
 
@@ -36,7 +36,7 @@ Tillverkningsaktiviteterna för alla scenarier använder platsen *NORR*.
 > [!IMPORTANT]
 > Innan du kör något av scenarierna för Contoso Coffee bokför du eventuella artikeljournalrader med ingående balanser. Mer information finns i avsnittet [Konfigurera data för Contoso Coffee](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Ställ in data för produktion för Contoso Coffee
+## Ställ in data för produktion för Contoso Coffee
 
 Om du vill använda demonstrationsdata för produktion för Contoso Coffee måste du installera två appar i det aktuella företaget i [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -45,7 +45,7 @@ Om du vill använda demonstrationsdata för produktion för Contoso Coffee måst
     Den här appen levererar demonstrationsdata för basprogrammet.  
 - **Demonstrationsdatauppsättning för Contoso Coffee (lands-ID)**  
 
-    Den här appen lägger till landsspecifika innehåll ovanpå basprogrammet.
+    Den här appen lägger till land-/regionsspecifika innehåll ovanpå basprogrammet.
 
 Lägg till programmen i ett tomt företag i en betald prenumeration eller som en del av en utvärderingsversion. Du kan till exempel skapa ett nytt företag utan exempeldata från den assisterade konfigurationsguiden **Skapa nytt företag** som du kan öppna från listan **Företag**. Lägg sedan till programmen från [marknadsplatsen](../../ui-extensions-install-uninstall.md#install) om de inte redan anges på sidan **Tilläggshantering**.  
 
@@ -67,7 +67,7 @@ När de relevanta apparna har installerats går du till sidan [Demonstrationsdat
 
 Välj åtgärden **Skapa demonstrationsdata** när du är klar. Det tar några minuter att lägga till data i den underliggande databasen, men sedan är det dags att köra de olika scenarierna.  
 
-## <a name="scenarios"></a>Scenarierna
+## Scenarierna
 
 Demonstrationsdata för produktion för Contoso Coffee stöder för närvarande följande produktionsscenarier för test och utbildning:
 
@@ -85,7 +85,7 @@ Läs stegen för respektive scenario i den relevanta artikeln.
 > [!IMPORTANT]
 > Dessa genomgångar kräver att användarupplevelsen är inställd på *Premium* på sidan **Företagsinformation**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsrapporter och analyser i Business Central](../../production-reports.md)  

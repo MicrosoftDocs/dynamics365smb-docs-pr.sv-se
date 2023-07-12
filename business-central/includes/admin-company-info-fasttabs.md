@@ -10,4 +10,4 @@ ms.author: edupont
 |**Kommunikation**|Ange den grundläggande kontaktinformationen för företaget, till exempel telefonnummer och e-postadress.|  
 |**Betalningar**| Fyll i relevant bankinformation för att försäkra dig om att kunderna kommer att kunna betala dig.|  
 |**Leverans**|Fyll i relevant leveransinformation så att du kan skicka och ta emot varor från och till företaget.|  
-|**Moms**|Beroende på vilket land ditt företag registrerats i kan du se en snabbfliken kallad Moms. Om denna är tillgänglig, fyll i fälten.|  
+|**Moms**|Beroende på vilket land/region ditt företag registrerats i kan du se en snabbfliken kallad Moms. Om denna är tillgänglig, fyll i fälten.|  

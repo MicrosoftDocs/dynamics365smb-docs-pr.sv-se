@@ -7,7 +7,7 @@ ms.author: edupont
 1. Gå till [provwebbplatsen](https://go.microsoft.com/fwlink/?linkid=847861), välj *Ekonomi och åtgärder* och sedan, på **Dynamics 365 Business Central**-kortet, väljer du knappen **Prova gratis**.  
 2. Ange din e-postadress och andra uppgifter för ditt jobb eller skolan. Du kommer att omdirigeras till din utvärderingsversion på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
 
-Utvärderingsversionen tar en stund att läsa in, men därefter kan du börja använda appen. Med checklistan **kom igång** följer du stegen för att göra dig redo för affärer. Stegen varierar beroende på ditt land och alla branschspecifika funktioner som du har lagt till i din [!INCLUDE [prod_short](prod_short.md)].  
+Utvärderingsversionen tar en stund att läsa in, men därefter kan du börja använda appen. Med checklistan **kom igång** följer du stegen för att göra dig redo för affärer. Stegen varierar beroende på ditt land/din region och alla branschspecifika funktioner som du har lagt till i din [!INCLUDE [prod_short](prod_short.md)].  
 
 I [!INCLUDE[prod_short](prod_short.md)] kommer du att känna igen vissa saker, och andra inte. När du först loggar in på demonstrationsföretaget får du tillgång till en Kom igång-kort med en länk för att visa demoturer. Mer information finns i [Gör dig redo att göra affärer](../ui-get-ready-business.md) och [snabbtstarter](../quick-start-business-central.md).  
 
