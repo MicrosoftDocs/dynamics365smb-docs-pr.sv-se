@@ -106,7 +106,7 @@
 ##### [Översikt över bokföring av rad i redovisningsjournalen](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)  
 ##### [Designdetaljer: Struktur för bokföringsmotor](design-details-posting-engine-structure.md)  
-
+#### [Designdetaljer: Icke-avdragsgill moms](design-details-nondeductible-vat.md)
 ## Testa
 ### [Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central](trial-signup.md)
 ### [Vanliga frågor och svar om utvärderingsversionen av Dynamics 365 Business Central](trial-faq.md)
