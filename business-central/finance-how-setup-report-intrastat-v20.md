@@ -11,13 +11,13 @@ ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 
 ms.date: 05/23/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-and-report-intrastat"></a>Skapa och rapportera Intrastat
+# Skapa och rapportera Intrastat
 
 Alla företag i Europeiska unionen måste rapportera sin handel med andra länder/regioner inom EU. I Sverige måste du rapportera transport av varor till de statistiska myndigheterna varje månad. I programmet kallas detta för intrastatrapportering. Du använder sidan **Intrastatjournal** när du vill fylla i periodiska intrastatrapporter.
 
 [!INCLUDE[intrastat-2022w2](includes/intrastat-2022w2.md)]
 
-## <a name="required-and-optional-setups"></a>Nödvändiga och frivilliga inställningar
+## Nödvändiga och frivilliga inställningar
 
 > [!IMPORTANT]
 > Kundkort och leverantörskort innehåller ett fält, typ av **Intrastat-partnertyp**, som har samma alternativ värden som fältet **Partnertyp**: *"" (tom)*, *Företag* och *Person*. Fältet **Intrastat partnertyp** har ersatt **Partnertyp** i Intrastat-rapportering. **Partnertyp** används i SEPA för att definiera SEPA för direktdebitering (Core eller B2B). **Typ av Intrastat-partner** används endast för Intrastat-rapportering. På så sätt kan du ange olika värden för de två fälten om det behövs.
@@ -47,7 +47,7 @@ Du kan även ställa in:
 * **Områden**: Använd dessa för att komplettera uppgifterna om länder och regioner.  
 * **In-/ utförselplatser**: Använd dessa för att ange platser där du kan skicka eller ta emot artiklar till eller från andra länder/regioner. Flygplatsen Heathrow är ett exempel på en in-/utförselplats. Du kan ange in-/utförselplatser på försäljnings- och inköpsdokument på snabbfliken **Utlandshandel**. Informationen kopieras också från artikeltransaktionerna när du skapar intrastatjournalen.  
 
-### <a name="to-set-up-intrastat-templates-and-batches"></a>Så här ställer du in intrastatjournalmallar och intrastatjournaler
+### Så här ställer du in intrastatjournalmallar och intrastatjournaler
 
 Batch-jobbet Intrastat inkluderar endast artikeltransaktioner, inte redovisningstransaktioner. Om du har redovisningstransaktioner som bör ingå i intrastatrapporteringen måste du ange dem manuellt. Om du till exempel köper en dator från ett annat land eller en annan region inom EU, placeras den inte på lager utan bokförs på ett redovisningskonto. Den här typen av transaktioner måste registreras manuellt i intrastatjournalen.  
 
@@ -64,12 +64,12 @@ Du kan exportera transaktionerna till en fil som du kan skicka till de intrastat
 > [!NOTE]
 > I fältet **statistikperiod** anger du statistikperioden med fyra siffror varav de första två siffrorna representerar året och följande två siffror motsvarar månaden. Skriv till exempel 1706 för juni 2017.
 
-### <a name="to-set-up-transport-methods"></a>Så här ställer du in transportsätt
+### Så här ställer du in transportsätt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Transportmetoder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Om du vill ställa in vilka Intrastatrapportfält som är obligatoriska
+### Om du vill ställa in vilka Intrastatrapportfält som är obligatoriska
 
 I vissa länder/regioner, exempelvis Spanien och Storbritannien, kräver myndigheterna att Intrastatrapporter omfattar, exempelvis leveransmetod för inköp eller andra värden när försäljningen är över ett visst gränsvärde. På sidan **Intrastat-inställningar** kan du ange att **Kontrollisteinställningar för Intrastat** anger obligatoriska fält på sidan **Intrastatjournal**.
 
@@ -77,11 +77,11 @@ I vissa länder/regioner, exempelvis Spanien och Storbritannien, kräver myndigh
 2. Välj åtgärden **Kontrollisteinställningar för Intrastat**.
 3. På sidan **Kontrollisteinställningar för Intrastat** väljer du **fältnamnet** för att välja det Intrastatrapportfält som du vill ska vara obligatoriskt.
 
-### <a name="czechia"></a>Tjeckien
+### Tjeckien
 
 För tjeckiska företag måste du också ställa in artikelkoder och koder för transaktionstyp.  
 
-#### <a name="to-set-up-commodity-codes"></a>Så här skapar du artikelkoder
+#### Så här skapar du artikelkoder
 
 Alla artiklar som du köper eller säljer måste ha en artikelkod.  
 
@@ -89,11 +89,11 @@ Alla artiklar som du köper eller säljer måste ha en artikelkod.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Om du vill tilldela en artikel en artikelkod, går du till sidan **artikelkort**, expanderar snabbfliken **kostnader och bokföring**och anger koden i fältet **Artikelkod**.
 
-### <a name="italy"></a>Italien
+### Italien
 
 För italienska företag måste du också ställa in artikelkoder och koder för transaktionstyp.  
 
-#### <a name="to-set-up-transaction-nature-codes"></a>Så här skapar du koder av transaktionstyp
+#### Så här skapar du koder av transaktionstyp
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Koder för transaktionstyp** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -101,11 +101,11 @@ För italienska företag måste du också ställa in artikelkoder och koder för
 > [!TIP]
 > Om du ofta använder en kod av transaktionstyp kan göra du den till standard. Gör detta genom att gå till sidan **Intrastatinställningar** och välja koden.
 
-## <a name="to-report-intrastat"></a>Att rapportera intrastat
+## Att rapportera intrastat
 
 När du har fyllt i Intrastatjournalen kan du köra åtgärden **Checklisterapport** när du vill kontrollera att all information i journalen är korrekt. Obligatoriska fält som du har angett på sidan **Kontrollisteinställningar för Intrastat** som saknar värden visas i faktaboxen Fel och varning på sidan **Intrastatjournal**. Därefter kan du skriva ut en intrastatrapport som ett formulär eller skapa en fil som ska skickas till skattemyndigheten i Sverige.  
 
-### <a name="to-fill-in-intrastat-journals"></a>Så här fyller du i intrastatjournaler
+### Så här fyller du i intrastatjournaler
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatjournal** och väljer sedan relaterad länk.  
 2. På sidan **Intrastatjournal** i fältet **Journalnamn** väljer du relevant journal och sedan knappen **OK**.  
@@ -118,7 +118,7 @@ När du kör batch-jobbet hämtas alla artikeltransaktioner inom statistikperiod
 > [!IMPORTANT]  
 > Med batch-jobbet hämtas endast de transaktioner som innehåller en lands-/regionkod som en intrastatkod har angetts för på sidan **Länder/regioner**. Därför måste du ange intrastatkoder för de lands-/regionkoder som du vill köra batch-jobbet för. Batchjobbet ställer in fältet **Partners moms-ID** till *QV999999999999* för privatpersoner eller icke momsregistrerade företag (kunder med fältet **Intrastat partnertyp** inställt på *Person*), och det använder värdet för fältet **Transaktionstyp** på den bokförda artikeltransaktionen eller projekttransaktionen.
 
-### <a name="to-modify-intrastat-journals-lines"></a>Så här ändrar du Intrastatjournalens rader
+### Så här ändrar du Intrastatjournalens rader
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatjournal** och väljer sedan relaterad länk.  
 2. På sidan **Intrastatjournal** i fältet **Journalnamn** väljer du relevant journal och sedan knappen **OK**.  
@@ -130,7 +130,7 @@ När du kör batch-jobbet hämtas alla artikeltransaktioner inom statistikperiod
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)]-versioner som inte har stöd för [**Redigera i Excel**](across-work-with-excel.md#edit-in-excel) för journaler, kan du skapa konfigurationspaket för att exportera och importera Intrastatjournal-rader i Excel. Mer information finns i [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet.
 
-### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportera intrastat på ett formulär eller en fil
+### Rapportera intrastat på ett formulär eller en fil
 
 Du måste skriva ut rapporten **Intrastat – formulär** för att erhålla den information som behövs i INTRASTAT-formuläret från de statistiska myndigheterna. Innan du kan göra detta måste du lägga upp intrastatjournalen och fylla i den. Om du både har försäljnings- och inköpstransaktioner måste du fylla i ett separat formulär för varje typ, vilket innebär att du måste skriva ut rapporten två gånger.  
 
@@ -141,7 +141,7 @@ Du måste skriva ut rapporten **Intrastat – formulär** för att erhålla den 
 5. På snabbfliken **Intrastatjournalrad** lägger du till filtret **Typ** och anger om det är **Inleverans** eller **Utleverans**.  
 6. Välj **skicka till** för att skriva ut rapporten.  
 
-### <a name="report-intrastat-in-a-file"></a>Rapportera intrastat i en fil
+### Rapportera intrastat i en fil
 
 Du kan skicka Intrastat-rapporten som en fil. Innan du skapar filen kan du skriva ut en kontrollrapport som innehåller samma information som filen.  
 
@@ -156,7 +156,7 @@ Du kan skicka Intrastat-rapporten som en fil. Innan du skapar filen kan du skriv
 > [!NOTE]
 > När en rad i rapporten Intrastat har en extra enhet, visas inte artikelns vikt eftersom det här värdet inte är obligatoriskt.
 
-## <a name="reorganize-intrastat-journals"></a>Omorganisera intrastatjournaler
+## Omorganisera intrastatjournaler
 
 Eftersom du måste skicka en INTRASTAT-rapport varje månad och skapa en ny journal för varje rapport kommer det sannolikt att finnas många journaler. Journalraderna tas inte bort automatiskt. Om du vill kan du ordna om journalnamnen med jämna mellanrum. Du gör detta genom att ta bort de journaler som inte längre behövs. Även journalraderna i de här journalerna tas bort.  
 
@@ -164,15 +164,15 @@ Eftersom du måste skicka en INTRASTAT-rapport varje månad och skapa en ny jour
 2. Om du vill visa alternativen väljer du fältet **Journalnamn**.  
 3. Välj journalerna som tas bort, och välj sedan knappen **Ta bort**.  
 
-## <a name="tariff-numbers"></a>EU tull statistiknr
+## EU tull statistiknr
 
 I många länder/regioner fastställer tullen och skattemyndigheterna åttasiffriga koder för olika typer av artiklar. För att artikeltransaktioner ska innehålla nödvändig information när programmet importerar dem till intrastatjournalraden, måste du ha angett statistiknumret på sidan **EU tull statistiknr**. Ta reda på koderna för de artikeltyper som ditt företag handlar med och skriv in dem på sidan **EU tull statistiknr**.
 
 Lägg till alla koder du har användning för på sidan **EU tull statistiknr**. Du måste fylla i koderna på artikelkortet innan du börjar att bokföra. När du har lagt upp koderna anger du dem i fältet **EU tull statistiknr** på artikelkortet. Du måste även fylla i fältet **Nettovikt** på artikelkortet.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomihantering](finance.md)
 
