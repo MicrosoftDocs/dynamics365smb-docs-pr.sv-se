@@ -18,7 +18,7 @@ I den här artikeln beskrivs nödvändiga inställningar och steg som måste slu
 
 Ange en **valutakod** om din onlinebutik använder en annan valuta än den lokala valutan (BVA). Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
-Du kan se butiksvalutan i inställningarna [butiksinformation](https://www.shopify.com/admin/settings/general) i din Shopify Admin. Shopify kan konfigureras så att olika valutor accepteras, men importerade order kan användas i [!INCLUDE[prod_short](../includes/prod_short.md)] butiksvaluta.
+Du kan få åtkomst butiksvalutan i inställningarna [butiksinformation](https://www.shopify.com/admin/settings/general) i din Shopify Admin. Shopify kan konfigureras så att olika valutor accepteras, men importerade order kan användas i [!INCLUDE[prod_short](../includes/prod_short.md)] butiksvaluta.
 
 En vanlig Shopify-order kan inkludera kostnader förutom delsumman, till exempel fraktkostnader eller dricks. Dessa belopp bokförs direkt till det redovisningskonto som du vill använda för specifika transaktionstyper:
 
@@ -96,6 +96,31 @@ Du kan också söka efter batchjobbet **Synkronisera ordrar från Shopify**.
 
 Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Läs mer i [Schemalägg återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
+### Under huven
+
+Shopify anslutningsprogram importerar order i två steg:
+
+1.  Order rubriker importeras till tabellen **Shopify order som ska importeras** när de matchar vissa villkor:
+    
+* De arkiveras.
+* De skapades eller ändrades efter den senaste synkroniseringen.
+
+2.  Den importerar Shopify order och kompletterande information.
+* Shopify anslutningsprogram behandlar alla poster i tabellen **Shopify ordern som ska importeras** som matchar de filter kriterier som du har angett på sidan för förfrågan **Synkronisera order från Shopify**. Exempelvis taggar, kanal eller status för uppfyllelse. Om du inte har angett några filter behandlas alla poster.
+* Vid import av Shopify-order, begär Shopify-anslutningsprogrammet ytterligare information från Shopify:
+
+    * Orderhuvuden
+    * Orderrader
+    * Information om leverans och uppfyllelse
+    * Transaktioner
+    * Returer och återbetalningar, om detta konfigureras
+
+Sidan **Shopify-order att importera** är användbar när du felsöker problem med orderimport. Du kan bedöma vilka order som är tillgängliga och vidta följande steg:
+
+* Kontrollera om ett fel har blockerat importen av en specifik order och utforska informationen om felet. Kontrollera fältet **Har fel**.
+* Endast processer för specifika order. Du måste fylla i **Butikskod**, välj en eller fler order och sedan åtgärden **Importera valda order** .
+* Ta bort order från sidan **Shopify-order att importera** för att undanta dem från synkroniseringen.
+
 ## Granska importerade order
 
 När importen är klar kan du utforska Shopify beställa och hitta all relaterad information, såsom betalningstransaktioner, fraktkostnader, risknivå, orderattribut och taggar eller uppfyllelser, om beställningen redan utfördes i Shopify. Du kan också se orderbekräftelser som har skickats till kunden genom att välja åtgärden **Shopify-statussida**.
@@ -131,7 +156,7 @@ Om inställningarna gör att en kund inte kan skapas automatiskt och en befintli
 
 Funktionen *Importera order från Shopify* försöker att välja kunder i följande ordning:
 
-1. Om **Standardkundnr** definieras i **Shopify kundmall** för **Kod för leveransland/-region**, sedan **Standardkundnr.** oavsett inställningar i **Kundimport från Shopify** och **Kundmappningstyp**. Läs mer i [Kundmall per land](synchronize-customers.md#customer-template-per-country).
+1. Om **Standardkundnr** definieras i **Shopify kundmall** för **Kod för leveransland/-region**, sedan **Standardkundnr.** oavsett inställningar i **Kundimport från Shopify** och **Kundmappningstyp**. Läs mer i [Kundmall per land](synchronize-customers.md#customer-template-per-countryregion).
 2. Om **Kundimport från Shopify** anges till *Ingen* och **Standardkundnr.** definieras på sidan **Shopify butikskort**, sedan **Standardkundnr.** .
 
 Nästa steg beror på **Kundmappningstyp**.
