@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: edupont
 ---
-# Gör dig redo för affärer
+# <a name="get-ready-for-doing-business"></a>Gör dig redo för affärer
 
 Grattis, du har precis har initialiserat ditt första företag i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,7 +23,7 @@ Du kan också hitta listan med guider för assisterad konfiguration om du välje
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Kom igång
+## <a name="get-started"></a>Kom igång
 
 När du loggar in för första gången eller startar ett nytt företag tar checklistan **Kom igång** dig igenom stegen för att göra dig redo för affärer. Stegen varierar beroende på ditt land/region och alla branschspecifika funktioner som du har lagt till i din [!INCLUDE [prod_short](includes/prod_short.md)]. Från och med 2021 utgivningscykel 2 är startsidan för första gången optimerad när du loggar in på CRONUS demonstrationsföretaget. Om du vill visa fler länkar till fler sidor måste du bara växla till chefsrollen. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).  
 
@@ -38,7 +38,7 @@ Om ett område inte omfattas av en assisterad konfiguration väljer du ikonen ![
 
 När du har kört en assisterade konfigurationsguider, väljs den som **slutfört**.  
 
-## Undervisningstips och turer
+## <a name="teaching-tips-and-tours"></a>Undervisningstips och turer
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
@@ -46,7 +46,7 @@ När du har kört en assisterade konfigurationsguider, väljs den som **slutför
 
 Undervisningstips är korta meddelanden som informerar, påminner eller lär dig om viktiga och nya funktioner som startar automatiskt när du öppnar en sida. Om du till exempel vill se undervisningstipset för kortet **Försäljningsfaktura** väljer du länken i det övre vänstra hörnet på sidan där det står *Försäljningsfaktura*. Detta startar en bildtext med en kort beskrivning av sidan och vad du kan göra där. Om det finns en rundtur för sidan inbjuder en länk dig att ta turnén. Länken *Läs mer* tar dig till produkthjälpen för sidan.
 
-## Rollspecifika startsidor
+## <a name="role-specific-home-pages"></a>Rollspecifika startsidor
 
 Beroende på din roll ger hemsidan en översikt över verksamheten. Högst upp visas ett navigeringsfält som gör att du enkelt får tillgång till kunder, leverantörer, artiklar, och så vidare. I mitten hittar du panelen **Aktiviteter**. **Aktiviteter** visar data och kan klickas på för enkelt tillgång till det valda dokumentets.
 
@@ -57,11 +57,11 @@ Använd pilarna för att minska en del av sidan och för att få mer plats för 
 > [!TIP]  
 > Du kan återgå till startsidan genom att välja företagsnamnet i det övre vänstra hörnet.
 
-## Företagsinformation
+## <a name="company-information"></a>Företagsinformation
 
 Under **företaginställningar** kan du visa och redigera in inställningsinformation om det aktuella företaget. Mycket av detta fylldes i om du slutförde den assisterade installationen **Konfigurera företag** när du regsitrerade dig för [!INCLUDE[prod_short](includes/prod_short.md)]. Om du vill ändra företaglogotypen, kontaktinformation, bankinställningarna eller information om fältet, kan du göra det från denna sida.  
 
-## Lägga till användare och behörigheter
+## <a name="adding-users-and-permissions"></a>Lägga till användare och behörigheter
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -69,11 +69,11 @@ Du lägger till användare i Microsoft 365 administrationscenter. Mer informatio
 
 När användare skapas i Microsoft 365 kan du importera dem till sidan **Användare** genom att använda åtgärden **Hämta uppdateringar Office 365**. Sedan kan du tilldela behörigheter till användare och för att ordna dem i användargrupper. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
 
-## Produkthjälpen
+## <a name="product-help"></a>Produkthjälpen
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Mer information finns i [Resurser för Hjälp och support](product-help-and-support.md).  
 
-### Konfigurera ditt företag i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-"></a>Konfigurera ditt företag i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med hjälp av artiklarna [snabbstart](quick-start-business-central.md) artiklarna kan du ta de första stegen i installationen av [!INCLUDE [prod_short](includes/prod_short.md)] i organisationen. Inne i [!INCLUDE [prod_short](includes/prod_short.md)], sidan **assisterad konfiguration** visas en lista med assisterade konfigurationsguider som hjälper dig att göra det. Beroende på din roll och ditt land eller din region innehåller sidan olika assisterade konfigurationsguider enligt illustrerat i följande tabell:
 
@@ -95,11 +95,11 @@ Med hjälp av artiklarna [snabbstart](quick-start-business-central.md) artiklarn
 
 Sidan **Assisterad konfiguration** kan innehålla andra poster. När du går igenom en inställning markeras inställningen som **Slutförd**. Du kan lägga upp ytterligare områden i företaget genom att använda manuell inställning. Mer information finns i [Skapa [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Nästa steg
+## <a name="next-steps"></a>Nästa steg
 
 Baserat på dina migrerade data, kan du nu fortsätta med att skapa nya försäljningar eller inköpsdokument. Använd avsnittet **Åtgärder** på ditt startsida för att snabbt skapa en ny förs.offert, försäljningsfaktura, försäljningsorder, inköpsfaktura eller utbetalningregistrering. Ta en titt på artiklarna i [snabbstart](quick-start-business-central.md) så att du kan gå igenom de första stegen.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Snabbstart för Business Central](quick-start-business-central.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
