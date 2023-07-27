@@ -9,7 +9,7 @@ ms.date: 06/15/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nytt och planerat för Dynamics 365 Business Central
+# Nytt och planerat för Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -22,21 +22,22 @@ Du kan också utforska webbplatsen [Dynamics 365 Business Central-funktioner](ht
 
 Lär dig mer om hur [!INCLUDE [prod_short](includes/prod_short.md)] online får nästa uppdateringar på [Större uppdateringar och mindre uppdateringar](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (endast på engelska).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Få ett meddelande om ändringar via en RSS-feed
+## Få ett meddelande om ändringar via en RSS-feed
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Besök vårt videobibliotek](across-videos.md)  
 [Resurser för hjälp och support](product-help-and-support.md)  
 [Dynamics 365 Business Central utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
+[Nyheter och ändringar](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Dynamics 365 Business Central-översikt](https://dynamics.microsoft.com/roadmap/business-central/)  
 [Dynamics 365-blogg](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Business Central-prissättning](https://dynamics.microsoft.com/business-central/overview/#pricing)  
-[Dynamics 365 Business Central-gruppen](https://community.dynamics.com/business/)
+[Dynamics 365 Business Central-webbgruppsforum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
