@@ -10,7 +10,7 @@ ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Tillägget WorldPay Payments Standard
+# <a name="the-worldpay-payments-standard-extension"></a>Tillägget WorldPay Payments Standard
 
 > [!CAUTION]
 > WorldPay Payments Standard-tillägget kommer att vara inaktuellt. Koden är marknadsförd som föråldrad från och med 2023 utgivningscykel 2. Appen kommer att vara aktiv för de följande tre större versionerna och kommer sedan att tas bort.   
@@ -20,7 +20,7 @@ Om du aktiverar tillägget och skickar en försäljningsfaktura eller försäljn
 
 Att aktivera tillägg för betalningstjänster är gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du måste du kontakta betalningstjänsten för att få ett konto. Mer information finns i [Aktivera kundbetalning via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

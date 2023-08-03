@@ -10,7 +10,7 @@ ms.search.form: 1752
 ms.date: 06/14/2021
 ---
 
-# Fältet Klassificera datakänslighet
+# <a name="classifying-data-sensitivity-fields"></a>Fältet Klassificera datakänslighet
 Om du vill klassificera de fält som innehåller känsliga eller personliga data kan en Microsoft-partner ange egenskapen ```DataClassification``` för fält. Detta kräver åtkomst till databastabeller, antingen via utvecklingsmiljön eller genom att köra ett skript för Windows PowerShell. Mer information finns i [Klassificera data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Som kund kan du lägga till en andra klassificeringsnivå genom att ange känslighetsnivåer för de data som du lagrar i standard- respektive anpassade fält. Klassificering av datakänslighet gör att du vet var i ditt system du förvarar personuppgifter och gör det enklare att svara på förfrågningar från datasubjekt. Om exempelvis en kontakt eller en kund ber dig att exportera deras personuppgifter. Mer information finns i [Svara på begäranden om personuppgifter](admin-responding-to-requests-about-personal-data.md).
@@ -27,7 +27,7 @@ I följande tabell beskrivs vilka datakänslighetnivåer som du kan tilldela.
 |Konfidentiell | Affärsdata som du använder för redovisning eller andra affärsändamål och inte vill visa för andra enheter. Detta kan till exempel omfatta transaktioner.|
 |Normal | Allmänna uppgifter som inte tillhör andra kategorier.|
 
-## Hur klassificerar jag mina data?
+## <a name="how-do-i-classify-my-data"></a>Hur klassificerar jag mina data?
 
 Klassificeringen av känsligheten för ett stort antal fält ett i taget skulle ta lång tid. För att skynda på processen tillhandahåller vi verktyg som kan användas för att massklassificera fältens känsligt och därefter finjustera klassificeringen för specifika fält. Du hittar verktyg i kalkylarket för klassificering av data som finns att tillgå i rollcentret för administrering av användare, användargrupper och behörigheter. Du måste vara systemadministratör för att kunna använda kalkylarket.
 
@@ -43,7 +43,7 @@ Kalkylbladet Dataklassificering låter dig göra saker som exempelvis:
 > [!Tip]
 > Vi har definierat känslighetsklassificeringsprov för tabeller och fält i demonstrationsföretaget Cronus. Du kan använda dessa klassificeringar som inspirationskälla när du klassificerar egna tabeller och fält.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Klassificering av Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
 
