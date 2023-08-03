@@ -11,11 +11,11 @@ ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: edupont
 ---
-# <a name="create-recurring-sales"></a>Skapa återkommande försäljning
+# Skapa återkommande försäljning
 
 Om du ofta behöver skapa försäljningsrader med liknande information, kan du ställa in standardraderna så att du sedan kan infoga på återkommande försäljningsdokument, till exempel för återkommande påfyllningsorder.  
 
-## <a name="set-up-recurring-sales-lines"></a>Skapa återkommande försäljningsrader
+## Skapa återkommande försäljningsrader
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **återkommande försäljningsrader** och väljer sedan relaterad länk.  
 2. På sidan **Återkommande försäljningsrader** väljer du åtgärden **Ny**.  
@@ -27,7 +27,7 @@ Om du ofta behöver skapa försäljningsrader med liknande information, kan du s
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-sales-lines-to-a-customer"></a>Tilldela återkommande försäljningsrader till kunder
+## Tilldela återkommande försäljningsrader till kunder
 
 Tilldela en eller flera återkommande försäljningsrader till en kund så att dessa kan läggas in i försäljningsdokument för kunden.
 
@@ -49,7 +49,7 @@ Tilldela en eller flera återkommande försäljningsrader till en kund så att d
 |**Automatiskt**|Om det finns flera återkommande försäljningsrader för kunden, får du ett meddelande där du kan välja vilken som ska infogas. Om det bara finns en återkommande försäljningsrad kommer den att infogas automatiskt.<br /><br />Detta fungerar bara om det nya dokumentet har skapats från en dokumentlista, t. ex. genom att välja ny åtgärd **Ny** på sidan **Försäljningsorder**. Det fungerar inte om dokumentet har skapats från ett kundkort, till exempel.|
 |**Fråga alltid**|Ett meddelande visas och alla befintliga återkommande försäljningsrader visas så att du kan välja ett.
 
-## <a name="insert-recurring-sales-lines-on-a-sales-invoice"></a>Infoga återkommande försäljningsrader i en försäljningsfaktura
+## Infoga återkommande försäljningsrader i en försäljningsfaktura
 
 Om det finns återkommande försäljningsrader för kunden kan du infoga dem (eller få dem infogade) i alla typer av försäljningsdokument, t. ex. en försäljningsfaktura. Om du har aktiverat alternativen **Fråga alltid** när du tilldelar återkommande försäljningsrader till kunder kommer du att informeras om det finns återkommande försäljningsrader.
 
@@ -59,7 +59,7 @@ Om det finns återkommande försäljningsrader för kunden kan du infoga dem (el
 4. På sidan **återkommande försäljningsrader** välj sökknappen i fältet **kod** och välj sedan en uppsättning standardförsäljningsrader.
 5. Välj **OK** för att infoga standardförsäljningsraderna på fakturan, där du kan använda eller redigera informationen.
 
-## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Skapa flera försäljningsfakturor utifrån återkommande försäljningsrader
+## Skapa flera försäljningsfakturor utifrån återkommande försäljningsrader
 
 Du kan använda batch-jobbet **Skapa återkommande försäljningsfakt.** för att skapa försäljningsfakturor enligt standardförsäljningsrader som tilldelats till kunderna och med bokföringsdatum som infaller inom de giltighetsdatum som du anger på standardförsäljningsraden.
 
@@ -70,9 +70,9 @@ Du kan använda batch-jobbet **Skapa återkommande försäljningsfakt.** för at
 
 Fakturor skapas för kunder med den angivna standardkundförs.koden och angiven information om direktdebitering, för bokföring på det angivna datumet.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Ställa in försäljning](sales-setup-sales.md)  

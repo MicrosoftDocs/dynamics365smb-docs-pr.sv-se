@@ -11,7 +11,7 @@ ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="change-which-features-are-displayed"></a>Ändra vilka funktioner som visas
+# Ändra vilka funktioner som visas
 [!INCLUDE[prod_short](includes/prod_short.md)] är utformat för att hjälpa dig att driva företaget oavsett storlek och komplexitet. I produktens kärna finns viktiga funktioner, till exempel ekonomisk rapportering, försäljning, inköp och lagerhantering. När affärs komplexiteten ökar kan du t. ex. aktivera funktioner för produktion och tjänsthantering.
 
 Du kan ange produktens komplexitets nivå och därmed vilka funktioner företagets användare får till gång till, genom att ändra inställningen **Upplevelse** på sidan **Företagsinformation**. Observera att upplevelseinställningen också kan ändras genom att lägga till vissa tillägg från AppSource. Mer information finns i [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md).
@@ -32,27 +32,28 @@ Innan du definierar ett företags upplevelseinställning definierar du användar
 
 Inställningen **Upplevelse** gäller för alla användare i ett företag, men varje användare kan anpassa sin egen upplevelse ytterligare genom att ändra sidlayouter och innehåll. Mer information finns i [Anpassa din arbetsyta](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivera Premium-funktioner när du har uppgraderat en Plan
+## Aktivera Premium-funktioner när du har uppgraderat en Plan
 Användare som är tilldelade till planer i administrationscentret för Microsoft 365 i samband med det allmänna arbetet i skapandet av Business Central-användare. Mer information finns i [Lägga till användare och tilldela licenser samtidigt](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a>Uppdatera planändringar i användargrupper
-När du har gjort en ändring i planer för användare i administrationscentret för Microsoft 365, såsom tilldelat premiumplanen till flera användare, måste du visa ändringarna i [!INCLUDE[prod_short](includes/prod_short.md)].
+### Uppdatera planändringar i användargrupper
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+När du har gjort en ändring i planer för användare i administrationscentret för Microsoft 365 såsom tilldelat premiumplanen till flera användare, måste du uppdatera [!INCLUDE[prod_short](includes/prod_short.md)] för att ändringarna ska visas.
 
 1. Logga in som en administratör.
-2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
-3. På sidan **Användare** väljer du åtgärden **Uppdatera all användargrupper**.
+2. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
+3. På sidan **Användare** välj åtgärden **Uppdatera användare från Microsoft 365**.
 
-All ny information om användarna planer och deras tilldelade användargrupper har nu uppdaterats enligt ändringarna i planen.
-
-### <a name="to-select-the-premium-experience"></a>För att välja Premium-upplevelsen.
+### För att välja Premium-upplevelsen.
 Du kan nu fortsätta med att välja den nya miljön.
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Företagsinformation** och väljer sedan relaterad länk.
 2. På sidan **FöretagsInformation** på snabbfliken **användarupplevelse** väljer du fältet **upplevelse**.
 
-## <a name="help-assumes-premium-experience"></a>Hjälp utgår från Premium-upplevelsen
+## Hjälp utgår från Premium-upplevelsen
 Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[prod_short](includes/prod_short.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Anpassa din arbetsyta](ui-personalization-user.md)  
 [Anpassa Business Central](ui-customizing-overview.md)  
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
@@ -61,7 +62,7 @@ Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[prod_short
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] Licensieringsguide](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

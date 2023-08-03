@@ -12,17 +12,17 @@ ms.date: 06/07/2022
 ms.author: solsen
 ---
 
-# <a name="configure-api-templates"></a>Konfigurera API-mallar
+# Konfigurera API-mallar
 
 API-bibliotek för [!INCLUDE[prod_short_md](includes/prod_short.md)] ger en förenklad representation av de underliggande enheterna. Alla egenskaper i programmet är inte tillgängliga via den associerade API. Sidan **API-inställningar** låter dig definiera mallar som används för att fylla i tomma egenskaper på en enhet när du skapar en POST-åtgärd via API. 
 
 Till exempel en konfigurationsmall har definierats för artikelenheten när en ny post skapas genom artiklarnas API, alla egenskaper för ny artikel som inte har definierats i API får fyllas på från den valda mallen. Om till exempel inget värde har angetts för fältet **Produktbokföringsmall** via API:n, men värdet som definieras i den valda mallen och sedan används den bokföringsmall som definierats i mallen till det nya objektet. 
 
-## <a name="setting-up-the-entity-template"></a>Konfigurera enhetsmall
+## Konfigurera enhetsmall
 
 Om du vill använda mallar med API-biblioteket, måste du först ställa in och ange egenskaper för mallarna. Du kan ställa in dessa mallar på sidan **Konfigurationsmallar**. Mer information finns i [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) (endast på engelska) i administrationsinnehållet.  
 
-## <a name="assign-the-template-to-an-api"></a>Tilldela mallen till en API
+## Tilldela mallen till en API
 
 Om du vill tilldela en mall till en API måste du gå igenom följande steg.
 
@@ -45,7 +45,7 @@ Om du vill tilldela en mall till en API måste du gå igenom följande steg.
 
     Definierad mall kopplas till en ny post som skapas via API och bara om de villkor som anges i fältet **villkor** uppfylls av de värden som redan har angetts för den nya instansen av enheten.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [API-dokumentation](/dynamics-nav/fin-graph)  
 [Utveckla Connect Apps för [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
