@@ -11,7 +11,7 @@ ms.search.forms: '5703, 15'
 ms.date: 03/25/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-locations"></a>Konfigurera platser
+# Konfigurera platser
 
 Lagerställen är platser som distributionslager där du köper, lagrar eller säljer artiklar. [!INCLUDE [prod_short](includes/prod_short.md)] använder lagerställen för att hålla ordning på lagret i både enklare och mer komplicerade lagerprocesser.
 
@@ -20,7 +20,7 @@ Du kan sedan skapa dokumentrader för ett visst lagerställe, visa disposition p
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Lagerställekort
+## Lagerställekort
 
 Du anger information om ett lagerställe, till exempel ett distributionslager eller distributionscenter på sidan **Lagerställekort**. Du tilldelar varje lagerställe ett namn och en kod som representerar lagerstället. Du kan sedan ange lagerställekoden i andra delar av programmet när du vill registrera transaktioner för ett visst lagerställe.  
 
@@ -30,7 +30,7 @@ Vissa alternativfält beror på inställningar på sidan **Lagerställekort** f�
 
 Välj åtgärden **Zoner** eller **Lagerplatser** om du vill visa information om zoner och lagerplatser som har definierats för lagerstället.
 
-### <a name="to-set-up-a-location"></a>Så här skapar du lagerställen
+### Så här skapar du lagerställen
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
@@ -44,7 +44,7 @@ Du kan ändra konfigurationen för ett lagerställe så länge den inte har någ
 
 Du kan definiera överföringsflöden mellan lagerställen, om du har flera lagerställen. Om du vill veta mer om överföringsflöden går du till [Skapa ett överföringsflöde](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Så här skapar du ett överföringsflöde
+### Så här skapar du ett överföringsflöde
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **överföringsflöden** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
@@ -52,7 +52,7 @@ Du kan definiera överföringsflöden mellan lagerställen, om du har flera lage
 
 Du kan nu överföra lagerartiklar mellan två lagerställen. Om du vill veta mer om överföringar går du vidare till [överför lager mellan lagerställen](inventory-how-transfer-between-locations.md).
 
-## <a name="bins"></a>Lagerställen
+## Lagerställen
 
 Lagerplatser representerar den grundläggande lagerstrukturen och kan föreslå var artiklar ska placeras. Dina lagerplatser kan ha innehåll eller vara flytande lagerplatser utan visst innehåll.
 
@@ -61,11 +61,11 @@ Om du vill använda lagerplatsfunktionen på ett lagerställe går du till sidan
 > [!NOTE]
 > Innan du kan ange lagerplatskoder på ett lagerställe, måste du skapa lagerplatskoder. Om du vill lära dig mer om lager platser går du till [skapa lagerplatser](warehouse-how-to-create-individual-bins.md) och [skapar lagerplatstyper](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Zoner
+## Zoner
 
 Om du vill strukturera lagerplatser under zoner kan du göra det på sidan **Zoner**. När du tilldelar en zon till lagerplatser kopierar [!INCLUDE [prod_short](includes/prod_short.md)] informationen från zonen till lagerplatserna. Du kan också välja att ställa in en zon och använda lagerplatser separat för att organisera distributionslagret. Läs mer om zoner på [Ställa in Warehouse Management](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Standarddimensioner för platser
+## Standarddimensioner för platser
 
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem med olika rapporteringsverktyg. Till exempel kan dimensioner indikera avdelningen eller projektet en post kom från. Med standarddimensioner kan användare undvika misstag och behöva ange dimensioner manuellt på transaktionsnivån om alla varor kommer från en enda plats och avdelning.
 
@@ -81,7 +81,7 @@ Om det behövs kan du ta bort eller ändra dimensionen på raden. På fältet **
 
 Eftersom överföringsorder dokument och grupperingsjournalen innehåller mer än en plats, är order som används för att ange data viktig. Standarddimensioner kopieras från fältet senaste plats (transitlagerstället ignoreras).
 
-### <a name="example-of-default-dimensions-on-locations"></a>Exempel på standardmått på lagerställen
+### Exempel på standardmått på lagerställen
 
 Följande exempel visar hur standarddimensionen används.
 
@@ -104,9 +104,9 @@ Du fyller i fälten i motsatt ordning, enligt följande:
 
 Dimensionen ADM kommer att kopieras från lagerställe ÖST.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera lager](inventory-manage-inventory.md)  
 [Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)  

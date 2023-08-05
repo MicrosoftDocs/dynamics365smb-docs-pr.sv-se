@@ -8,21 +8,21 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="assembly-reports-and-analytics-in-business-central"></a>Monteringsrapporter och analys i Business Central
+# Monteringsrapporter och analys i Business Central
 
 Med monteringsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] kan produktions- och affärspersonal få insikter och statistik om aktuella och tidigare monteringsaktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks"></a>Uppgifter
+## Uppgifter
 
 I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
 
 * [Visa artikeldisposition](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Monteringshantering](assembly-assemble-items.md)  
 [Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  

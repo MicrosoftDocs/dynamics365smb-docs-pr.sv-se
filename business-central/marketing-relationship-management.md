@@ -12,7 +12,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="managing-relationships"></a>Hantera relationer
+# Hantera relationer
 Kundhanteringsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] hjälper dig att hantera och stödja din försäljning. Med de här funktionerna får du tillgång till fullständig och riktig information så att du kan fokusera på ditt arbete med de viktiga kund-/kontaktsegmenten.
 
 Effektiva metoder för försäljning och marknadsföring handlar om hur du fattar rätt beslut vid rätt tidpunkt. [!INCLUDE[prod_short](includes/prod_short.md)] ger en exakt överblick över din kontaktinformation när du behöver den, så att du kan arbeta effektivt med potentiella kunder och öka kundtillfredsställelsen.

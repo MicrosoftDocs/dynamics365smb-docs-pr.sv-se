@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# <a name="use-reports-in-daily-work"></a>Använd rapporter i det dagliga arbetet
+# Använd rapporter i det dagliga arbetet
 
 En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] samlar in information baserat på en angiven uppsättning kriterier. Den ordnar och presenterar informationen i ett lättläst format som du kan skriva ut eller spara som en fil.  
 
@@ -25,9 +25,9 @@ En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] samlar in informatio
 | Lär dig hur du ändrar standardlayout för en rapport. | [Ändra standardrapportlayout](ui-how-change-layout-currently-used-report.md) |
 | Visa och analysera data från en rapportdatauppsättning i Microsoft Excel. | [Spara rapportdatauppsättning till Excel från begärandesidan](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
+## Se relaterad [Microsoft-utbildning](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Rapportöversikt](reports-available-reports.md)  
 [Business Intelligence och rapporteringsöversikt](ui-work-report.md)  

@@ -12,7 +12,7 @@ ms.date: 08/01/2021
 ms.author: jswymer
 ---
 
-# <a name="finding-pages-with-the-role-explorer"></a>Söka efter sidor med rollutforskaren
+# Söka efter sidor med rollutforskaren
 
 Du kan få en översikt över alla affärsfunktioner som är tillgängliga för din roll och för andra roller om du går ett steg längre. I följande dokumentation kallas denna funktionsöversikt *rollutforskaren.*
 
@@ -20,7 +20,7 @@ Varje element i rullutforskaren är en åtgärd som öppnar en sida. Därför ka
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a>Öppna rollutforskaren
+## Öppna rollutforskaren
 
 Du kan öppna rullutforskaren från rollcentret och alla listsidor och från fönstret **Berätta**.
 
@@ -29,7 +29,7 @@ Du kan öppna rullutforskaren från rollcentret och alla listsidor och från fö
 
 När du först öppnar rollcentret visas länkar till de flesta funktioner som är tillgängliga för din roll.
 
-## <a name="navigate-features"></a>Navigera i funktioner
+## Navigera i funktioner
 
 De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionerna eller modulerna. Varje nod kan komprimeras eller expanderas individuellt och du kan komprimera/expandera alla noder tillsammans.
 
@@ -37,11 +37,11 @@ De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionern
 - Om du vill visa/dölja alla noder på översta nivån på sidan, men låt undernoderna vara de du vill ha, väljer du **...** längst upp och välj sedan **Visa** eller **Dölj**.
 - Om du vill expandera/komprimera alla toppnivåer och alla undernoder under den väljer du **...** längst upp, välj sedan **Expandera alla** eller **Visa alla**.
 
-## <a name="search-for-features"></a>Söka efter funktioner
+## Söka efter funktioner
 
 Du kan snabbt hitta funktioner genom att välja **Sök** och sedan ange ett ord eller en fras för funktionen som du söker efter. I rollcentret markeras all matchande text. Om en funktion är dold från att visas i en komprimerad nod, markeras den komprimerade noden med en punkt. 
 
-## <a name="explore-other-roles"></a>Utforska andra roller
+## Utforska andra roller
 
 Om du vill utforska andra roller än dina egna markerar du **utforska fler roller**. Rollcentret visar varje roll under sin egen rubrik, med länkar till dess funktioner. Du kan sedan navigera och söka efter funktioner på samma sätt som när du utforskar din roll.
 
@@ -57,7 +57,7 @@ När du utforskar andra roller kan du också begränsa prospekteringen genom att
 > För utvecklare klassificerar du sidor och rapporter genom att ange [egenskapen UsageCategory](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) i objektets Al-kod.
 <!--
  
-## <a name="role-explorer-actions"></a>Role explorer actions
+## Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -80,7 +80,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Expandera och komprimera noder i rollutforskaren
+## Expandera och komprimera noder i rollutforskaren
 
 De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionerna eller modulerna. Varje nod kan komprimeras eller expanderas individuellt och du kan komprimera/expandera alla noder tillsammans.
 
@@ -90,7 +90,7 @@ De åtgärder som öppnar sidor ordnas under noder som namnges efter funktionern
   - Välj <kbd>Ctrl</kbd>+<kbd>Shift</kbd> medan du väljer åtgärden **Expandera** eller **Dölj** i det övre högra hörnet.
   - Välj **...** i det övre högra hörnet och sedan åtgärden **Expandera alla** eller **Dölj alla**.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Söka efter sidor och information med berätta](ui-search.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

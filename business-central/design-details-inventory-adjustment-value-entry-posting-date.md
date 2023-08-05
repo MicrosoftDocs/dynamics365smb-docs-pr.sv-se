@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
 ---
-# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen
+# Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen
 
 Den här artikeln ger vägledning för användare av lagerkostnadsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] och särskilt för hur batchjobbet **Justera kostn. – artikeltrans.** identifierar och tilldelar ett bokföringsdatum till de värdeposter som batchjobbet ska skapa.
 
-## <a name="how-posting-dates-are-assigned"></a>Hur bokföringsdatum tilldelas
+## Hur bokföringsdatum tilldelas
 
 Batchjobbet **Justera kost.-artikeltrans** tilldelar ett bokföringsdatum för den värdetransaktion den håller på att skapa genom följande steg:  
 
@@ -26,7 +26,7 @@ Batchjobbet **Justera kost.-artikeltrans** tilldelar ett bokföringsdatum för d
 
 Vi ska nu granska denna process i praktiken. Anta att vi har en försäljningspost för en artikeltransaktion. Artikeln skeppades iväg den 5 september 2020 och fakturerades dagen efter.  
 
-#### <a name="item-ledger-entry"></a>Artikeltransaktion
+#### Artikeltransaktion
 
 |Löpnr  |Artikelnr  |Bokföringsdatum  |Transaktionstyp  | Dokumentnummer |Lagerställekod  |Antal  |Kost.belopp (aktuellt)  |Fakturerat antal  |Återstående antal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -52,7 +52,7 @@ Om du vill tilldela bokföringsdatumet för **Löpnr. 391** följande steg till�
 
 Vi ska nu granska ovannämnda försäljning genom att lägga till inställningen av tillåtna datumintervall för bokföring.  
   
-#### <a name="inventory-periods"></a>Lagerperioder
+#### Lagerperioder
 
 |Slutdatum  |Name  |Avslutad  |
 |---------|---------|---------|
@@ -71,7 +71,7 @@ Vi ska nu granska ovannämnda försäljning genom att lägga till inställningen
 
 Första tillåtna bokföringsdatum är den första dagen i den första öppna perioden som är 1 september 2020.  
 
-#### <a name="general-ledger-setup"></a>Redovisningsinställningar
+#### Redovisningsinställningar
 
 |Fält|Värde  |
 |---------|---------|
@@ -93,19 +93,19 @@ Det ursprungliga tilldelade bokföringsdatumet var den 6 september, vilket visas
 |381     |  A       |    2020-09-06     |    Försäljning     | Direkt kostnad   | 103022        |319     | Blå        |  0       |-1        |-10       |    10     | Nej  |0      |       FÖRS   |
 |391     |  A       |    **2020-09-10**     |    Försäljning     | Direkt kostnad   | 103022        |319     | Blå        |  0       |0         |-1        |    0     |Ja   |    181   | LAGJUST   |
 
-## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Vanliga problem med batch-jobbet Justera kost. – artikeltrans.
+## Vanliga problem med batch-jobbet Justera kost. – artikeltrans.
 
 Supportteamet räknar regelbundet med jämna mellanrum så att de kan motivera sina egna artiklar om problemlösning.
 
-### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Felmeddelande "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum..."
+### Felmeddelande "Bokföringsdatumet är inte inom ditt tillåtna intervall för bokföringsdatum..."
 
 Om det här felet uppstår måste du justera de datum som användaren får bokföra transaktioner med. Mer information finns i [felmeddelandet "bokföringsdatum är inte inom det tillåtna intervallet för bokföringsdatum"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Bokföringsdatum på justeringsvärdetransaktionen jämfört med bokföringsdatum för transaktionen som orsakar justeringen, till exempel omvärdering eller artikelomkostnad
+### Bokföringsdatum på justeringsvärdetransaktionen jämfört med bokföringsdatum för transaktionen som orsakar justeringen, till exempel omvärdering eller artikelomkostnad
 
 För mer information, se [Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-application.md)  

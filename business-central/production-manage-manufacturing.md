@@ -10,7 +10,7 @@ ms.search.form: '5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 932
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manufacturing"></a>Produktion
+# Produktion
 
 > [!NOTE]
 > Funktionen som beskrivs i det här avsnittet och underavsnitt visas endast i användargränssnittet om du har **Premium**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
@@ -39,7 +39,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Använda sidan **Kapacitetsjournal** för att bokföra förbrukade kapaciteter som inte tilldelats en produktionsorder, till exempel underhållsarbete.|[Bokför kapaciteter](production-how-to-post-capacities.md)|  
 |Beräkna och justera kostnaden för färdiga produktionsartiklar och förbrukade komponenter för avstämning.|[Om kostnader för färdiga produktionsorder](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)  
@@ -47,7 +47,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Inköp](purchasing-manage-purchasing.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

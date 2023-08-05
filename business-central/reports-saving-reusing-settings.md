@@ -10,7 +10,7 @@ ms.search.keywords: 'customization, personalization'
 ms.date: 12/21/2021
 ms.author: edupont
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Hantera sparade inställningar för rapporter och batch-jobb
+# Hantera sparade inställningar för rapporter och batch-jobb
 
 När användaren kör en rapport visas vanligtvis en sida där han eller hon kan välja alternativ och ange filter för att ändra den data som inkluderas i den genererade rapporten. Denna sida kallas *sidan för förfrågan*. En rapport kan omfatta en eller flera *sparade(e) inställning(ar)* som användarna kan tillämpa på rapporten från sidan för förfrågan. *Sparade inställningar* är i grunden fördefinierade alternativ och filter. Att använda sparade inställningar är ett snabbt och säkert sätt att på ett konsekvent sätt generera rapporter som innehåller korrekta data. Mer information finns i [Använda sparade inställningar](ui-work-report.md#SavedSettings).
 
@@ -19,7 +19,7 @@ När användaren kör en rapport visas vanligtvis en sida där han eller hon kan
 
 Om du har rätt behörigheter kan du visa, ändra och skapa sparade inställningarna för alla rapporter för alla användare i företaget. Du kan tilldela sparade inställningar för en rapport till individuella användare eller alla användare i företaget.
 
-## <a name="manage-saved-settings"></a>Hantera sparade inställningar
+## Hantera sparade inställningar
 
 Du hanterar sparade inställningar från sidan **Rapportinställningar**. Det finns två sätt att öppna denna sida:
 
@@ -35,7 +35,7 @@ Denna sida för **rapportinställningar** visar samtliga befintliga poster för 
 >
 > I vissa fall kan inställningarna emellertid inte delas, och administratören kan inte ändra dem. De flesta batch-jobb stöder inte delade inställningar.  
 
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Skapa eller ändra inställningarna för alla användare
+## Skapa eller ändra inställningarna för alla användare
 
 Via sidan **Rapportinställningar** kan du:
 
@@ -49,7 +49,7 @@ Via sidan **Rapportinställningar** kan du:
 > [!NOTE]
 > Förmågan att spara inställningar finns bara för rapporter där värdet [egenskapen SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) på sidan för rapportförfrågan har angetts som **Ja**. Egenskapen **SaveValues** anges i utvecklare.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md)  
 

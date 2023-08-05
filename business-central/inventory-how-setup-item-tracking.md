@@ -40,7 +40,7 @@ Artikelspårningskoden reflekterar ett företags olika regler i samband med anv�
 Eftersom det här inställningsfältet omfattar alla möjliga transaktioner med artikeln, markeras även de enskilda fälten för inkommande/utgående. Dessa individuella fält för inkommande/utgående har emellertid inget att göra med kopplingar i lagret, utan definierar bara företagets arbetsflöde i fråga om när artikelspårningsnummer ska kopplas.  
 
 > [!NOTE]  
->  För att tilldela artikelspårningsnummer i distributionslageraktiviteter måste fälten **SN dist.lager spårning** och **Parti dist.lager spårning.** markeras på artikelns kort för artikelspårningskoden.  
+> För att tilldela artikelspårningsnummer i distributionslageraktiviteter måste fälten **SN dist.lager spårning** och **Parti dist.lager spårning.** markeras på artikelns kort för artikelspårningskoden.  
 
 ## Så här skapar du utgångsregler för serie-/partinummer
 
@@ -78,6 +78,36 @@ Om du vill aktivera artikelspårning måste du först tilldela artikelspårnings
 2. Markera en befintlig artikel i listan och öppna sidan **Artikelkort**.  
 3. På snabbfliken **Artikelspårning** tilldelar du lämpliga artikelspårningskoder och väljer **Artikelspårningskod**, **Serienr** och **Partinr**.
     1. Alternativt kan du också skapa en ny artikelspårningskod genom att välja åtgärden **Ny**.
+
+## Så här anger du ingående saldo för de artiklar som spåras
+
+Du kan skapa ingående saldo för de artiklar som du spårar. Eftersom du kan välja olika inställningar för distributionslager finns det två alternativ:
+
+* Aktivera specifika journaler på sidan **Artikeljournal** för att låta användarna ange serie-, parti- och paketdata direkt på journalraderna.
+* För platser där växlingsknappen **Dirigerad art.inf. och plock.** aktiveras, använd sidan **Inventeringslista för distributionslager** för att göra alla artikelspårningsfält tillgängliga. Fälten som är tillgängliga inkluderar fälten **garantidatum** och **utgångsdatum**.
+
+### Artikeljournaler 
+
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikeljournaler** och väljer sedan relaterad länk.
+2. Välj fälten **Namn** för att öppna en lista med redovisningsjournaler.
+3. Välj **Ny** för att skapa en ny batch och slå sedan på **Artikelspårning på rader**.
+4. Välj **OK** för att välja den batch du skapat.
+5. Fyll i fälten på artikeljournalraden vid behov. Lägg märke till att fälten **Partinr.**, **Serienr.**, **Utgångsdatum**, **Garantidatum** och **Paketnr.** Fält är tillgängliga (om funktionen är aktiverad).
+6. Välj åtgärden **Bokför** för att justera lagret.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] visar ett fåtal mindre verifieringssätt när du skriver eller importerar data. En mer omfattande kontroll sker när du bokför eller överför data från Journal rader till **fönstret Artikelspårning**. Det senare sker automatiskt när du öppnar sidan **fönstret Artikelspårning** från artikeljournalraden eller om du väljer åtgärden **Uppdatera artikelspårningsrader**.
+
+### Lagerjournal för fysisk inventering för platser där riktad plockning och borttagning är aktiverad  
+
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inventeringslista för distributionslager** och väljer sedan relaterad länk.
+2. Fyll i fälten på artikeljournalraden vid behov. Lägg märke till att fälten **Partinr.**, **Serienr.**, **Utgångsdatum**, **Garantidatum** och **Paketnr.** Fält är tillgängliga (om funktionen är aktiverad).
+3. Välj åtgärden **Registrera** för att justera lagret. Kom ihåg att du måste synkronisera justerade lagertransaktioner med tillhörande artikeltransaktioner Om du vill ha mer information går du till [synkronisera de justerade lagertransaktionerna](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+För massimportera använder du konfigurationspaket för att importera data till journalerna.
+
+> [!NOTE]
+> Du kan inte använda **Redigera i Excel** för att skapa journalrader med uppföljningsinformation.
 
 ## Se relaterad [Microsoft utbildning](/training/modules/prepare-item-tracking/)
 

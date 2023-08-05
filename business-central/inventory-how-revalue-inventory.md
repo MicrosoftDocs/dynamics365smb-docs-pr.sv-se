@@ -12,10 +12,10 @@ ms.search.forms: '5803,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="revalue-inventory"></a>Omvärdera lager
+# Omvärdera lager
 Om du vill öka eller minska värdet för en artikel eller en viss artikeltransaktion, använder du omvärderingsjournalen.
 
-## <a name="to-revalue-inventory"></a>Omvärdera lager
+## Omvärdera lager
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **omvärderingsjournalen** och väljer sedan relaterad länk.
 2. Välj åtgärden **Beräkna lagervärde**.
 3. På sidan **Beräkna lagervärde** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -27,7 +27,7 @@ Om du vill öka eller minska värdet för en artikel eller en viss artikeltransa
 
 Nya värdetransaktioner skapas nu för att visa omvärderingarna som du har bokfört. Du kan se de nya värdena på respektive artikelkort.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Designdetaljer: Omvärdering](design-details-revaluation.md)  
 [Lager](inventory-manage-inventory.md)  
 [Försäljning](sales-manage-sales.md)  
