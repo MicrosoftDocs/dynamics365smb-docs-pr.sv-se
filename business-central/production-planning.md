@@ -10,7 +10,7 @@ ms.search.for: '291, 292, 293, 295, 517, 9010, 9038'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Planering
+# <a name="planning"></a>Planering
 
 De produktionsoperationer som krävs för att omvandla inflöde till färdiga varor måste planeras varje dag eller varje vecka beroende på vad det är för produkt och vilka volymer det handlar om. [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder funktioner för att leverera mot förväntat och faktiskt behov från försäljning, montering och produktion samt för distributionsplanering med lagerställeenheter och lageröverföringar.
 
@@ -39,9 +39,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Visa det planerade tillgängliga lagret för en artikel i olika vyer och kunna se vilka bruttobehov, planerade orderinleveranser och andra händelser som kommer att påverka det med tiden.|[Visa artikeldisposition](inventory-how-availability-overview.md)|  
 <!--|Utför utvalda planeringsaktiviteter, exempelvis ändra eller lägga till planeringsförslagsrader, i en grafisk översikt över leveransplaneringen.|[Ändra planeringsförslag i en grafisk vy](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  

@@ -11,17 +11,17 @@ ms.date: 09/30/2021
 ms.author: edupont
 ---
 
-# Ställ in kundprisgrupper
+# <a name="set-up-customer-price-groups"></a>Ställ in kundprisgrupper
   
 Försäljningspriser kan skapas beroende på vilken kundgrupp du säljer till. Dessa grupper kallas kundprisgrupper.
 
 Innan du skapar kundprisgrupper måste du bestämma hur många grupper du vill skapa och vilka kunder som ska tillhöra varje grupp.  
 
-## Så här skapar du försäljningspriser för kundgrupper  
+## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>Så här skapar du försäljningspriser för kundgrupper
 
 När du och kunderna har kommit överens om vilka priser som kundgruppen ska betala för specifika artiklar, registrerar du dessa för de enskilda artiklarna på raderna på sidan **Förs.priser**.
 
-### Så här skapar du försäljningspriser för kundgrupper
+### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Så här skapar du försäljningspriser för kundgrupper
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kundprismallar** och väljer sedan relaterad länk.  
 
@@ -43,11 +43,11 @@ När du och kunderna har kommit överens om vilka priser som kundgruppen ska bet
 
 Upprepa steg 4 till och med 8 för alla artiklar som du vill skapa ett försäljningspris för.
 
-## Så här anger du koder för kundprisgrupper på kundkort  
+## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>Så här anger du koder för kundprisgrupper på kundkort
 
 När du har skapat kundprisgrupperna kan du ange koderna för kundprisgrupperna på kundkorten.
 
-### Så här anger du koder för kundprisgrupper på kundkort  
+### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Så här anger du koder för kundprisgrupper på kundkort
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 
@@ -56,7 +56,7 @@ När du har skapat kundprisgrupperna kan du ange koderna för kundprisgrupperna 
 3. På snabbfliken **Fakturering**, i fältet **Kundprisgrupp**. öppna kod **Kundprisgrupp**.  
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

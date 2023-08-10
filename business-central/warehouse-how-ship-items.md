@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
 
-# Utleverera artiklar med en lagerutleverans
+# <a name="ship-items-with-a-warehouse-shipment"></a>Utleverera artiklar med en lagerutleverans
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du plocka och inleverera artiklar och använda någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -37,7 +37,7 @@ Du kan skapa distributionslagerutleverans på två sätt:
 * Med en pushmetod när arbetet utförs på orderbasis. Välj åtgärden **Skapa distributionslagerutleverans** i källdokumentet för att skapa en distributionslagerutleverans för dokumentet.
 * I en pullmetod när du använder åtgärden **Frisläpp** i källdokumentet för att frisläppa den till distributionslagret. En lageranställd skapar en **Distributionslagerutleverans** för ett eller flera släppta källdokument. I proceduren nedan beskrivs hur du skapar en distributionslagerutleverans med en pullmetod.
 
-## För att utleverera artiklar med ett dokument för distributionslagerutleverans
+## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>För att utleverera artiklar med ett dokument för distributionslagerutleverans
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
 2. Välj **Ny**.  
@@ -74,7 +74,7 @@ Du kan skapa distributionslagerutleverans på två sätt:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## Så här använder du filter för att hämta källdokument
+## <a name="how-to-use-filters-to-get-source-documents"></a>Så här använder du filter för att hämta källdokument
 
 Från en lagerutleverans kan du använda sidan **Filter att hämta ursprungsdok.** för att hämta de släppta källdokumentraderna som anger vilka artiklar som ska utlevereras.
 
@@ -90,14 +90,14 @@ Alla relaterade källdokumentrader, som uppfyller filtervillkorna, läggs till p
 
 Du kan skapa ett obegränsat antal filterkombinationer. Filter sparas på sidan **Filter att hämta ursprungsdok.** och är tillgängliga nästa gång du behöver den. Du kan ändra villkor när som helst, genom att välja åtgärden **Ändra**.
 
-## Zon och lagerplatskoder
+## <a name="zone-and-bin-codes"></a>Zon och lagerplatskoder
 
 Om lagerplatser är obligatoriska på lagerstället föreslår [!INCLUDE [prod_short](includes/prod_short.md)] en zon och en lagerplatskod i utleveransdokument för distributionslager.
 
 * För avancerade konfigurationer där ett lagerställe använder dirigerad artikelinförsel och plockning använder [!INCLUDE [prod_short](includes/prod_short.md)] lagerplatsen som anges i fältet **Utlevns lagerställeskod** på **Lagerställekort**. Om ingen **Utlevns lagerställeskod** anges är fältet tomt. Om artikeln och utleveransens lagerplats inte överensstämmer lämnar [!INCLUDE [prod_short](includes/prod_short.md)] utleveransens lagerplats tomt.
 * I andra fall använder [!INCLUDE [prod_short](includes/prod_short.md)] alltid den lagerplats som anges i fältet **Utlevns lagerställeskod** på **Lagerställekod**. Om en lagerplatskod inte har angetts använder [!INCLUDE [prod_short](includes/prod_short.md)] lagerplatskoden från källdokumentet.
 
-## Hantera artiklar för montering mot kundorder i distributionslagerutleveranser
+## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Hantera artiklar för montering mot kundorder i distributionslagerutleveranser
 
 I montering mot kundorder-scenarier är fältet **Ant. att utleverera** på distributionslagerutleveransrader använt för att notera hur många enheter som monteras. Antalet bokförs sedan som monteringsutflöde när distributionslagerutleveransen bokförs. För andra distributionslagerutleveransrader är värdet i **Ant. att utleverera** noll.
 
@@ -115,9 +115,9 @@ När distributionslagerutleveransen har bokförts uppdateras olika fält på fö
 >
 > Antalet för montering mot kundorder hanteras enligt beskrivningen i den här artikeln. Lagerkvantiteten hanteras som en vanlig distributionslagerutleverans. Mer information om kombinationsscenarion finns i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)  

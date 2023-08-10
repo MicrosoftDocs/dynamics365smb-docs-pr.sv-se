@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# Plocka artiklar med lagerplockning
+# <a name="pick-items-with-inventory-picks"></a>Plocka artiklar med lagerplockning
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du plocka och inleverera artiklar och använda någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -42,29 +42,29 @@ Du kan skapa en lagerartikelplockning på tre sätt:
 
 Lagerplockning kan sedan skapas från sidan **Lagerplockning** baserat på källdokumentet.  
 
-## Så här skapar du en lagerplockning från källdokumentet
+## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Så här skapar du en lagerplockning från källdokumentet
 
 1. I källdokumentet, som kan vara en försäljningsorder, inköpsreturorder, utgående överföringsorder eller en produktionsorder, klickar du på åtgärden **Skapa lagerartikelinförsel/plocka**.
 2. Markera kryssrutan **Skapa lagerplockning**.  
 3. Välj knappen **OK**. En ny lagerplockning skapas.
 
-## Så här skapar du flera lagerplockningar med batch-jobbet
+## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Så här skapar du flera lagerplockningar med batch-jobbet
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Skapa lagerinförsel/plockning/rörelse** och väljer sedan relaterad länk.  
 2. På snabbfliken **Dist.lagerkrav** använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer. Du kan till exempel skapa plockningar för enbart försäljningsorder.  
 3. På snabbfliken **Alternativ**, markera kryssrutan **Skapa lagerplockning**.
 4. Välj **OK**.
 
-## Så här skapar du plockningen i två steg
+## <a name="to-create-the-pick-in-two-steps"></a>Så här skapar du plockningen i två steg
 
-### Så här begär du en lagerplockning genom att släppa källdokumentet
+### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Så här begär du en lagerplockning genom att släppa källdokumentet
 
 För försäljningsorder, inköpsreturorder och utgående överföringsorder skapar du distributionslagerkravet genom att släppa ordern. När du släpper ordern blir artiklarna tillgängliga för plockning.
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Markera den försäljningsorder som du vill släppa och välj sedan åtgärden **Släpp**.
 
-### Så här skapar du en lagerplockning från källdokumentet:
+### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Så här skapar du en lagerplockning från källdokumentet:
 
 När du släppt en order kan distributionslagerarbetare upprätta en lagerplockning.
 
@@ -75,7 +75,7 @@ När du släppt en order kan distributionslagerarbetare upprätta en lagerplockn
 5. Välj alternativt åtgärden **Hämta källdokument** för att skapa en lista över utgående källdokument som är klara för plockning för på lagerstället.  
 6. Välj knappen **OK** för att fylla plockrader enligt det valda källdokumentet.  
 
-## När du vill registrera lagerplockning
+## <a name="to-record-inventory-picks"></a>När du vill registrera lagerplockning
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerplockning** och väljer sedan relaterad länk.  
 2. I fältet **Lagerställeskod** på plockningsraderna, är lagerstället som artiklarna måste plockas från antyder per artiklarna standardlagerplats. Du kan ändra lagerstället på den här sidan om det behövs.  
@@ -90,7 +90,7 @@ När du släppt en order kan distributionslagerarbetare upprätta en lagerplockn
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Hantering av artikel för montering mot kundorder i lagerplockningar
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Hantering av artikel för montering mot kundorder i lagerplockningar
 
 Du kan även använda sidan **Lagerplockning** för att plocka och leverera för försäljning där artiklar måste monteras, innan de kan levereras. Läs mer på [Sälja artiklar som monterats mot kundorder](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -120,9 +120,9 @@ I scenarier där en del av antalet monteras och ett annat ska plockas, skapas et
 > [!NOTE]  
 > Om artiklar monteras mot kundorder, skapas lagerplockningen för den kopplade försäljningsordern för att skapa en lagerförflyttning för alla monteringskomponenter.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Leverera service
+# <a name="delivering-service"></a>Leverera service
 I [!INCLUDE[prod_short](includes/prod_short.md)] finns det funktioner som hjälper dig att leverera service enligt de kontrakt som du har skapat och de serviceorder som du har åtagit dig att uppfylla. Dina servicetekniker eller avsändare kan lätt hitta utestående serviceorder med hjälp av **Beordringstavlan**. Du kan snabbt se på **Beordringstavlan** vilka order som pågår och vilka order som har slutförts.  
   
 Ett annat sätt att granska väntande serviceorder är att använda sidan **Serviceuppgifter**. I den här vyn över dina serviceåtaganden kan du se var någonstans i arbetsflödet som en order befinner sig och ändra status så att den återspeglar kontakterna med kunden.  
@@ -33,7 +33,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Skapa och bokför fakturor för service som du har levererat.|[Skapa tjänstefakturor eller kreditnotor](service-how-create-invoices.md)|  
 |Håll kunderna nöjda genom att låna dem en artikel medan du arbetar med deras.| [Låna ut och ta emot låneartiklar](service-how-to-lend-receive-loaners.md)|
   
-## Se även  
+## <a name="see-also"></a>Se även
 [Planera service](service-plan-service.md)  
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Hantera projekt](projects-manage-projects.md)  

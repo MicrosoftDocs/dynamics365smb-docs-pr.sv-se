@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Genomgång: Genomföra en försäljningskampanj
+# <a name="walkthrough-conducting-a-sales-campaign"></a>Genomgång: Genomföra en försäljningskampanj
 
 En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du ett segment, eller en grupp med kontakter, med hjälp av filter i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -18,7 +18,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
  Med kampanj- och segmentfunktionerna och tillhörande automatiserade processer kan du planera, organisera och hålla ordning på dina marknadsaktiviteter. Det kommer att öka dina möjligheter att vinna nya kunder och behålla befintliga kunder.  
 
-## Om den här genomgången
+## <a name="about-this-walkthrough"></a>Om den här genomgången
 
  I den här genomgången beskrivs processen för att följa upp en mässa och välja ut potentiella kunder (kontakter) i en uppföljningskampanj.  
 
@@ -31,18 +31,18 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 - Skicka brev till kontakter.  
 - Registrera kampanjsvar.  
 
-## Roller
+## <a name="roles"></a>Roller
 
  Den här genomgången innehåller arbetsuppgifter som utförs av följande användarroller:  
 
 - Marknadsföringschef eller försäljningschef  
 - Marknadsföringsassistent  
 
-## Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
 
  Innan du kan utföra aktiviteterna i den här genomgången måste du installera [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Situation
+## <a name="story"></a>Situation
 
  Marknadsföringschefen på försäljningsavdelningen hos CRONUS är ansvarig för planering och genomförande av kampanjer. Marknadsföringschefen fattar också beslut om vilka mässor som företaget ska delta i och utvärderar hur kampanjerna går.  
 
@@ -56,11 +56,11 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
  Assistenten hjälper till att skicka ut tackbrev till alla kontakter som lämnade sina visitkort i montern och chefen registrerar sedan alla svar som de får in från de potentiella kunderna.  
 
-## Lägga upp en kampanj
+## <a name="setting-up-a-campaign"></a>Lägga upp en kampanj
 
  Som fort assistenten har registrerat de visitkort som togs emot under mässan lägger marknadsföringschefen upp ett kampanjkort för att hantera de aktiviteter som krävs för kampanjen.  
 
-### Så här lägger du upp en kampanj  
+### <a name="to-set-up-a-campaign"></a>Så här lägger du upp en kampanj
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kampanjer** och väljer sedan relaterad länk.  
 2. Välj åtgärden **nytt** för att skapa en ny kampanj. På kampanjkortet trycker du på <kbd>Retur</kbd> för att ett kampanjnummer automatiskt ska infogas.  
@@ -68,13 +68,13 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 4. Välj fältet **Statuskod** och välj statuskoden "1-PLAN". 
 5. Fyll i fälten **Startdatum** och **Slutdatum** för kampanjen.  
 
-## Välja målgrupp
+## <a name="selecting-the-target-audience"></a>Välja målgrupp
 
  Marknadsföringschefen skapar ett segment för att välja kontakter som de kan arbeta med.  
  
  När du skapar ett segment kan du använda en mängd olika kriterier för att välja vilka kontakter som ska vara mål för segmentet. Du kan till exempel välja kontaktpersoner som arbetar på ett företag eller en potentiell kund som är ansvarig för inköp på ett företag. Du använder filter för att lägga till kontakter efter de villkor som bäst passar dina ändamål. Du kan till exempel välja att filtrera på ansvarsområde för kontaktpersonen eller affärsrelation eller bransch för kontaktföretaget. I den här genomgången väljer du filtret **Arbetsansvar** för att välja kontakter.
 
-### Så här skapar du ett segment med relevanta kontakter  
+### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Så här skapar du ett segment med relevanta kontakter
 
 1. Välj åtgärden **Navigera** och välj sedan **Segment**.  
 2. Välj åtgärden **nytt** för att skapa ett nytt segment. På segmentkortet trycker du på **Retur** för att ett segmentnummer automatiskt ska infogas.  
@@ -87,18 +87,18 @@ Sidan **Segment** innehåller nu en lista med kontakter baserat på det filter s
 > [!NOTE]  
 > Du kan spara ditt segmentkriterium så att du kan använda det vid ett senare tillfälle.
 
-### Så här sparar du kriterier för segmentering
+### <a name="to-save-your-segmentation-criteria"></a>Så här sparar du kriterier för segmentering
 
 1. På sidan **Segment** väljer du **Åtgärder**.
 2. Välj **Funktioner**, sedan **Segment** och välj sedan åtgärden **Spara kriterier**.  
 3. På sidan **Spara segmentkriterium** anger du en kod för segmentet. I fältet **Beskrivning** anger du en beskrivning av ditt segmentkriterium.
 4. Välj **OK**.  
 
-## Utvinna data
+## <a name="mining-the-data"></a>Utvinna data
 
  Marknadsföringschefen tar en närmare titt på segmentlistan med kontakter och inser att den är alldeles för stor. Chefen bestämmer sig för att minska ned listan och i stället basera den på verkligt potentiella kunder för att se till att han fokuserar på rätt målgrupp. Den här processen att förfina och minska data kallas även för datautvinning.  
 
-### Så här tar du bort kontakter från segmentet  
+### <a name="to-remove-contacts-from-the-segment"></a>Så här tar du bort kontakter från segmentet
 
 1. På sidan **Segment** väljer du **Åtgärder**.
 2. I menyfältet väljer du **Funktioner**, **Kontakter** och **Minska kontakter**.  
@@ -111,28 +111,28 @@ Sidan **Segment** innehåller nu en lista med kontakter baserat på det filter s
  > [!NOTE]  
  > Om du behöver reversera borttagningen av en grupp kontakter kan du göra det med funktionen **Gå tillbaka**. Med andra ord kan du ångra din senast utförda segmentering.  
 
-### Så här återställer du de borttagna kontakterna
+### <a name="to-bring-back-the-removed-contacts"></a>Så här återställer du de borttagna kontakterna
 
 1. På sidan **Segment** väljer du åtgärden **Segment**.
 2. Välj åtgärden **Gå tillbaka**.
 
 Kontakter, som du precis tog bort, läggs tillbaka till listan med kontakter.
 
-## Länka ett segment till en kampanj
+## <a name="linking-a-segment-to-a-campaign"></a>Länka ett segment till en kampanj
 
 Marknadsföringschefen bestämmer sig för att den reducerade listan är den slutgiltiga listan med kontakter som de vill ska ingå i kampanjen. De länkar därför det här segmentet till kampanjen FUTURUS-mässan.  
 
-### Så här länkar du ett segment till kampanjen  
+### <a name="to-link-a-segment-to-the-campaign"></a>Så här länkar du ett segment till kampanjen
 
 1. På sidan **Segment** klickar du på snabbfliken **Kampanje**  och väljer du fältet **Kampanjnr** för att välja den kampanj som du vill att segmentet ska kopplas till, exempelvis **CP0001**.
 2. Välj **Ja**.  
 3. Eftersom det här segmentet är målgruppen för kampanjen markerar du kryssrutan **Kampanjmål** och väljer **Ja**.  
 
-## Skicka brev och e-postmeddelande till kontakter
+## <a name="sending-letters-and-email-messages-to-contacts"></a>Skicka brev och e-postmeddelande till kontakter
 
  Marknadsassistenten hjälper marknadsföringschefen med korrespondensen till de potentiella kunderna och tackar dem för att de besökte mässan.
 
-### Så här använder du ett segment så att skicka ett brev till en kontakt  
+### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Så här använder du ett segment så att skicka ett brev till en kontakt
 
 > [!NOTE]  
 > I den här proceduren måste du bifoga ett Word-dokument. Du kan lägga till bifogade filer på valfritt språk.
@@ -160,7 +160,7 @@ När segmentet har loggats registreras varje brev som skickas som en interaktion
 
 Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Interaktionslogg** och välj sedan relaterad länk. Det finns en transaktion för varje skickat brev.  
 
-### Så här skickar du ett e-postmeddelande till en kontakt  
+### <a name="to-send-an-email-message-to-a-contact"></a>Så här skickar du ett e-postmeddelande till en kontakt
 
 1. På snabbfliken **Interaktion**, i fältet **Interaktionsmallkod**, väljer du affärsbrevmallen, kod **BUS**.  
 2. I fältet **Angående (standard)** skriver du följande exempeltext: **Tack för att du besökte mässan**.  
@@ -173,13 +173,13 @@ Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_
 
  Breven skickas automatiskt med e-post och segmentet loggas. Eftersom segmentet har loggats finns det inte längre i listan över segment utan sparas i listan över loggade segment. För att se den listan, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Loggade segment** och väljer sedan relaterad länk.  
 
-## Registrera kampanjsvar
+## <a name="registering-campaign-responses"></a>Registrera kampanjsvar
 
  Under de närmaste veckorna svarar de potentiella kunderna på brevet. Marknadsföringschefen vill hålla ordning på svaren och registrerar korrespondensen.  
 
  För att hålla ordning på svaren lägger du upp ett segment för de kontakter som har svarat på brevet.  
 
-### Så här registrerar du kampanjsvar  
+### <a name="to-register-campaign-responses"></a>Så här registrerar du kampanjsvar
 
 1. På sidan **Segment**, under snabbfliken **Interaktion**, väljer du fältet **Interaktionsmallkod**.  
 
@@ -193,7 +193,7 @@ Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_
 7. På sidan **Segment** väljer du åtgärden **Logg**.  
 8. På sidan **Logga segment** avmarkerar du kryssrutan **Skicka bilagor**. Tryck på **OK** för att bekräfta meddelandet om att segmentet har loggats.  
   
-## Se även  
+## <a name="see-also"></a>Se även
 [Kundhantering](marketing-relationship-management.md)  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

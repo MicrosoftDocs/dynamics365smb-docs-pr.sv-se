@@ -10,37 +10,37 @@ ms.search.form: '7368, 7369, 7370, 7371, 7372, 7373'
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# Skapa lagerställen
+# <a name="create-bins"></a>Skapa lagerställen
 
 Det effektivaste sättet att skapa lagerställena i distributionslagret på är att generera grupper med liknande lagerställen i lagerplatsuppläggningskalkylarket, men du kan även skapa en lagerplats i taget från lagerställekortet. Du kan också använda en funktion på sidan **Lagerplatsuppläggningskalkylark** för att skapa lagerställena automatiskt.  
 
-## Så här skapar du en lagerplats från lagerställekortet:
+## <a name="to-create-a-bin-from-the-location-card"></a>Så här skapar du en lagerplats från lagerställekortet:
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **placeringar** och väljer sedan relaterad länk.  
 2.  Markera lagerstället som du vill skapa en lagerplats från och välj åtgärden **Lagerställen**  
 3. Välj åtgärden **Ny**.
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Fältet Dedikerad
+### <a name="the-dedicated-field"></a>Fältet Dedikerad
 
 Fältet **Dedikerad** på sidan **Lagerplatser** anger att kvantiteterna på lagerplatsen är skyddade från att plockas för andra behov. Men kvantiteterna i lagerställena kan fortfarande reserveras. Därmed ingår antalet i dedikerade lagerställen i fältet **Totalt disponibelt antal** på sidan **Reservation**.
 
 Att dedikera en lagerplats resulterar i en liknande funktion i grundläggande lagerstyrning att använda lagerplatstyper, som endast finns i avancerade distributionslager. Mer information finns i [Skapa lagerställen](warehouse-how-to-set-up-bin-types.md).
 
-### Exempel
+### <a name="example"></a>Exempel
 
 En produktionsgrupp med en lagerplatskod i fältet **Till produktion-lagerplats-kod**. Produktionsorderkomponentrader med den här lagerställeskoden kräver att framåtriktade komponenter placeras där. Dock tills komponenterna förbrukas från den lagerplats kan andra komponentbehov väljas eller förbrukas från den lagerstället eftersom de är fortfarande tillgängligt lagerställesinnehåll. Se till att lagerställesinnehållet är bara tillgänglig för det komponentbehov som använder den till produktion-lagerplats genom att välja fältet **Dedikerad** på raden för den lagerställeskoden.
 
 > [!Caution]
 > Artiklar på dedikerade lagerställen skyddas inte när de plockas och förbrukas som produktions- eller monteringskomponenter med sidan **Lagerplockning**. Mer information finns i [Plocka för produktion eller montering i grundläggande distributionslagerkonfiguration](warehouse-how-to-pick-for-production.md).
 
-## Så här skapar du enstaka lagerställen i lagerplatsuppläggningskalkylark:
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Så här skapar du enstaka lagerställen i lagerplatsuppläggningskalkylark:
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerplatsuppläggningskalkylark** och väljer sedan relaterad länk.  
 2.  På varje rad fyller du i de fält som är nödvändiga för att namnge och ange egenskaper för de lagerställen som du skapar.  
 3.  Välj åtgärden **Skapa lagerställen**.  
 
-## Så här skapar du lagerställen automatiskt i lagerplatsuppläggningskalkylarket:
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Så här skapar du lagerställen automatiskt i lagerplatsuppläggningskalkylarket:
 
 Innan du börjar skapa lagerställen automatiskt i kalkylarket bör du bestämma vilken typ av lagerställen som är viktiga för driften samt vilket artikelflöde som är mest praktiskt i den fysiska strukturen i distributionslagret.  
 
@@ -70,9 +70,9 @@ Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du stäl
 
 Upprepa processen för ytterligare en uppsättning lagerställen tills du har skapat alla de lagerställen som du ska ha i distributionslagret.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-new-bins/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-new-bins/)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

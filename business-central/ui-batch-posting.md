@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Bokföra flera dokument på samma gång
+# <a name="post-multiple-documents-at-the-same-time"></a>Bokföra flera dokument på samma gång
 
 I stället för att bokföra enskilda dokument var för sig kan du välja flera icke bokförda dokument i en lista för direkt bokföring eller för batch-bokföring enligt ett schema, t. ex. i slutet av dagen. Detta kan vara användbart om endast en ansvarig kan bokföra dokument som skapats av andra användare eller undvika problem med system prestanda vid bokföring under arbetstid.
 
-## Så här bokför du flera inköpsorder direkt
+## <a name="to-post-multiple-purchase-orders-immediately"></a>Så här bokför du flera inköpsorder direkt
 
 I proceduren nedan beskrivs hur du bokför flera inköpsorder direkt. Stegen är liknande för alla ingående och utgående dokument.
 
@@ -26,7 +26,7 @@ I proceduren nedan beskrivs hur du bokför flera inköpsorder direkt. Stegen är
 5. Välj åtgärden **bokföra** och välj sedan åtgärden **bokför**.
 6. Välj knappen **Ja** på bekräftelsemeddelandet.
 
-## Så här bokför du flera inköpsorder
+## <a name="to-batch-post-multiple-purchase-orders"></a>Så här bokför du flera inköpsorder
 
 I proceduren nedan beskrivs hur du bokför flera inköpsorder. Stegen är liknande för alla inköps- och försäljningsdokument där åtgärden **batch-bokföring** är tillgänglig.
 
@@ -42,7 +42,7 @@ I proceduren nedan beskrivs hur du bokför flera inköpsorder. Stegen är liknan
 > [!NOTE]
 > Det kan ta en stund att bokföra flera dokument och samtidigt blockera andra användare. Överväg att aktivera bakgrundsbokföring. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## Att ställa in bakgrundsbokföring med jobbköer
+## <a name="to-set-up-background-posting-with-job-queues"></a>Att ställa in bakgrundsbokföring med jobbköer
 Projektköer är ett effektivt verktyg som schemalägger körning av affärsprocesser i bakgrunden, till exempel när flera användare försöker bokföra försäljningsorder men endast en order i taget kan bearbetas.  
 
 Nedan beskrivs hur du ställer in bakgrundsbokföring av försäljningsorder. Stegen är liknande för inköp.  
@@ -67,14 +67,14 @@ Nedan beskrivs hur du ställer in bakgrundsbokföring av försäljningsorder. St
 4. Bokför en försäljningsorder för att verifiera att jobbkön arbetar som förväntat. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
     Försäljningsordern läggs nu till i en särskild jobbkötransaktion som definierar när dokumenten bokförs. 
 
-### Så här visar du status från ett försäljnings- eller inköpsdokument
+### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Så här visar du status från ett försäljnings- eller inköpsdokument
 Om jobbkön inte kan bokföra försäljningsorder, ändras status till **Fel**, och försäljningsordern läggs till listan över försäljningsorder som användaren måste att hantera manuellt.
 1. I dokumentet som du har försökt publicera med bakgrundspublicering väljer du fältet **Status för jobbkö**, som innehåller **Fel**.
 2. Granska felmeddelandet och lös problemet.
 
 Alternativt kan du också granska sidan **Loggtransaktioner för jobbkö** om försäljningsordern har bokförts. Mer information finns i avsnittet [Övervaka jobbkön](#monitor-the-job-queue).
 
-## Skapa en jobbkötransaktion för batchbokföring av försäljningsorder
+## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Skapa en jobbkötransaktion för batchbokföring av försäljningsorder
 
 Alternativt kan du även skjuta upp publiceringar till när tillfället passar din organisation bättre. Inom ditt företag kanske det exempelvis passar bättre att köra vissa rutiner när merparten av datainmatningen har slutförts för dagen. Du gör detta genom att konfigurera jobbkön så att denna kör diverse masspubliceringsrapporter, exempelvis **Masspublicera säljorder**, **Masspublicera säljfakturor** och liknande rapporter. [!INCLUDE[prod_short](includes/prod_short.md)] stöder bokföring i bakgrunden för alla försäljnings-, inköps- och servicedokument.
 
@@ -111,13 +111,13 @@ Följande förfarande visar hur du konfigurerar rapporten **Massbokför försäl
 
 Försäljningsorder som befinner sig inom ramarna för definierade filter kommer nu att bokföras varje vardag kl. 16.00.
 
-## Övervaka jobbkön
+## <a name="monitor-the-job-queue"></a>Övervaka jobbkön
 
 Om du konfigurerar bakgrundsbokföring med jobbköer gör du det till en vanlig uppgift för att övervaka jobbkön och uppmärksamma eventuella problem. Du kan spåra statusen på sidan **Jobbkötransaktioner**. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
 Som administratör kan du använda [Application Insights](/azure/azure-monitor/app/app-insights-overview) för att samla in och analysera telemetri som du kan använda för att identifiera problem. Mer information finns i [Övervaka och analysera telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i innehållet för utvecklare och administration.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Bokför dokument och journaler](ui-post-documents-journals.md)  
 [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)  

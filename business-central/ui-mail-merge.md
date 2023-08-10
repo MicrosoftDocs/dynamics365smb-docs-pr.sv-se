@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.forms: '9989, 13,'
 ---
 
-# Använda Word-mallar för masskommunikation
+# <a name="use-word-templates-for-bulk-communication"></a>Använda Word-mallar för masskommunikation
 
 Microsoft Word-mallar kan göra det enklare att kommunicera i skrivit eller e-post med enheter som kontakter, kunder och leverantörer. Du kan till exempel skapa:
 
@@ -21,7 +21,7 @@ Microsoft Word-mallar kan göra det enklare att kommunicera i skrivit eller e-po
 > [!NOTE]
 > När du ställer in Word-mallar måste du använda en enhet med Microsoft Word 2019 eller nyare och Windows-operativsystemet installerat.
 
-## Ange datakälla
+## <a name="set-up-the-source-of-data"></a>Ange datakälla
 
 Använda entiteter i [!INCLUDE[prod_short](includes/prod_short.md)] som datakälla för mallen och lägga till kopplings instruktioner i anpassa dokument för varje entitet. Sammankopplingsfälten hämtas från entiteten i [!INCLUDE[prod_short](includes/prod_short.md)]. När du använder en Word-mall på en entitet infogas data från sammankopplingsfälten i dokumentet.
 
@@ -42,7 +42,7 @@ När du hämtar en mall får du en zip-fil som innehåller två filer.
 
 Om du vill veta mer om hur du ställer in en mall i Word går du till [Ställa in mallen i Word](#set-up-the-template-in-word).
 
-## Lägg till poster som är relaterade eller orelaterade till källentiteten
+## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a>Lägg till poster som är relaterade eller orelaterade till källentiteten
 
 Du kan också koppla data från andra entiteter. Om du vill lägga till andra entiteter som data källor använder du någon av följande åtgärder på sidan **Word-mallar** eller när du använder den guidade installationen:
 
@@ -57,7 +57,7 @@ Du kan skapa en hierarki med entiteter, både relaterade och orelaterade. Relati
 
 När du lägger till entiteter använder du **Fältprefix** för att ange ett prefix för fältnamnen. Senare, när du lägger till fält i mallen, hjälper prefixet att skilja mellan fält från källan och andra enheter.
 
-### Markera de fält som ska inkluderas
+### <a name="select-the-fields-to-include"></a>Markera de fält som ska inkluderas
 
 För varje entitet kan du ange vilka fält som ska vara tillgängliga för mallen. Välj ett nummer i kolumnen **antal markerade fält** om du vill visa en lista över tillgängliga fält. På sidan **Val av fält** använd kryssrutan **Inkludera** för att ange fälten. För vissa enheter ingår fält som företag vanligtvis använder som standard. Du kan redigera listan, till exempel, för att ta bort standardfälten. Ändringarna gäller endast för den mall som du arbetar med.
 
@@ -67,7 +67,7 @@ För varje entitet kan du ange vilka fält som ska vara tillgängliga för malle
 > [!NOTE]
 > Du eller din Microsoft-partner kan lägga till anpassade fält i entiteter. När du gör det prefixar vi namnet på fälten med **CALC** och ger det fälttypen **beräknad**. Fälttypen kallas beräknad för att visa att fältet kan visa olika typer av värden, till exempel text, siffror, datum och så vidare.
 
-## Så här skapar du en Word-mall i Business Central
+## <a name="to-create-a-word-template-in-business-central"></a>Så här skapar du en Word-mall i Business Central
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Word-mallar** och väljer sedan relaterad länk.
 2. Välj **Ny**, sedan **Skapa en mall** och följ sedan instruktionerna i guiden assisterad konfiguration. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,19 +75,19 @@ För varje entitet kan du ange vilka fält som ska vara tillgängliga för malle
 > [!TIP]
 > Du kan också skapa en mall direkt från sidan för en entitet genom att välja åtgärd för att **tillämpa Word-mall** för att öppna guiden inställningsguiden och **ny mall**. När du gör det väljs datakälla för dig baserat på typen av entitet.
 
-## Konfigurera mall i Word
+## <a name="set-up-the-template-in-word"></a>Konfigurera mall i Word
 
 När du lägger upp mallen i Word på fliken **Utskick** kan du lägga till sammankopplingsinstruktioner genom att välja **Infoga sammankopplingsfält**. De kopplingsfält kommer från datakällfilen som du hämtade för entiteten. De fungerar som platshållare som berättar för Word var i dokumentet informationen om enheten ska placeras.
 
 :::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Lägga till kopplingsinstruktioner i Microsoft Word":::
 
-## Tillämpa en mall
+## <a name="apply-a-template"></a>Tillämpa en mall
 
 När Word-mallen är klar kan du på sidan **Word-mallar** välja **Använd** för att skapa dokumenten. När du använder en Word-mall på en entitet infogas data från sammankopplingsfälten i dokumentet. Du kan antingen skapa ett dokument som innehåller avsnitt för varje entitet, eller **dela** för att skapa ett nytt dokument för varje entitet.
 
 Du kan använda åtgärden **Använd Word-mallar** för att tillämpa mallar på en eller flera av samma typ av enhet, till exempel en kund, direkt i sammanhanget för sidan för enheten. Till exempel sidorna **Kund** eller **Leverantör**.
 
-## Använda Word-mallar med e-post
+## <a name="use-word-templates-with-email"></a>Använda Word-mallar med e-post
 
 Du kan använda Word-mallar för att lägga till innehåll i e-postmeddelanden. När du skriver ett e-postmeddelande kan du välja instruktionen **Använd Word-mall** om du vill använda innehållet i en mall i meddelandet. Du måste ha skapat mallar för entiteten. Du kan använda en mall i taget och när du växlar mellan mallar ändras meddelandet så att det återspeglar innehållet i den valda mallen.
 
@@ -95,7 +95,7 @@ Dessutom kan du använda åtgärden **Lägg till fil från Word-mall** för att 
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Alternativ för att använda innehåll från en Word-mall i ett e-postmeddelande":::
 
-## Redigera en Word-mall
+## <a name="edit-a-word-template"></a>Redigera en Word-mall
 
 Du kan göra följande ändringar i Word-mallarna:
 
@@ -104,7 +104,7 @@ Du kan göra följande ändringar i Word-mallarna:
 * Om du vill ersätta Word-mallen med en ny mall använder du åtgärden **Överför**
 * Ta bort mallen
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Konfigurera e-post](admin-how-setup-email.md)  

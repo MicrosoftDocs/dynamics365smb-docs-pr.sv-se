@@ -11,11 +11,11 @@ ms.date: 06/16/2021
 ms.author: andregu
 ---
 
-# Hantera momssatsändringar
+# <a name="managing-vat-rate-changes"></a>Hantera momssatsändringar
 
 Momssatser kan ändras beroende på lokal lagstiftning. Alla ändringar av moms påverkar data i [!INCLUDE[prod_short](includes/prod_short.md)] oavsett om momssatsen sänks, höjs eller tas bort. Moms kopplas till många olika enheter i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel kunder, leverantörer, artiklar, resurser, artikelomkostnader och redovisningskonton. Ändringar i momssatser sker vanligtvis vid ett visst datum, från vilket ställe du måste ha ändrat momsinställningarna, bokföringsmallarna o.s.v. för att se till att nya försäljningsorder och inköpsorder skapas med den nya momssatsen.
 
-## Ändra momssatser
+## <a name="changing-vat-rates"></a>Ändra momssatser
 
 Det bästa sättet att hantera en ändring av momssats är att bokföra och stänga öppna order och andra dokument innan momssatsen växlar datum för att säkerställa att dessa ändringar inte påverkas av ändringen. Det här är den enklaste metoden som gör det möjligt att starta nya order och dokument med den nya momssatsen.
 
@@ -30,11 +30,11 @@ Följande tillvägagångssätt föreslås för att hantera ändring av momssats
 > [!NOTE]  
 > Vi uppdaterar för närvarande momssats ändringsverktyget. De funktioner som beskrivs nedan kanske inte stämmer överens med funktionaliteten i miljön. Uppdateringen utförs före den 1 juli 2020 och kommer inte att vara en vanlig månatlig uppdatering. I stället uppdateras alla miljöer automatiskt (snabb korrigering). När uppdateringen har slutförts visas inte längre meddelandet.  
 
-## Ändringsverktyget för momssats
+## <a name="the-vat-rate-change-tool"></a>Ändringsverktyget för momssats
 
 Ändringsverktyget för momssats kan hjälpa till med konvertering av momssatser på huvuddata, journaler och order. Detta är användbart om du vill omvandla moms på huvuddata enklare eller om du har order som du inte kan stänga före växeldatumet och som kommer att bearbetas under en längre tidsperiod och på så sätt korsa momssatsens växeldatum. Det finns vissa begränsningar i ändringsverktyget för momssats.
 
-## Förstå begränsningarna för konverteringen av momssatsen
+## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Förstå begränsningarna för konverteringen av momssatsen
 
 Verktyget för momsändring utför momssatskonvertering för huvuddata, journaler och order på olika sätt. De valda huvuddata och journalerna uppdateras med den nya allmänna produktbokföringsmallen eller produktbokföringsmallen för moms. Om en order har levererats helt eller delvis, kommer de levererade artiklarna behålla den aktuella produktbokföringsmallen eller produktbokföringsmallen för moms. En ny orderrad skapas för de olevererade artiklarna och uppdateras för att stämma med den nuvarande och nya momsen eller allmänna produktbokföringsmallen. Dessutom ska artikelomkostnadsfördelningar, konfigurationsmallar för artiklar, reservationer och artikelspårningsinformation uppdateras. 
 
@@ -55,7 +55,7 @@ Det finns några saker som verktyget inte konverterar:
 * Priser på försäljningspriser (huvuddata)
 * Rörelsebokföringsmallar för kunder och leverantörer.
 
-### Så här förbereder du konverteringar av momssatser
+### <a name="to-prepare-vat-rate-change-conversions"></a>Så här förbereder du konverteringar av momssatser
 
 Innan du skapar ändringsverktyget för momssats, måste du göra följande förberedelser.
 
@@ -64,20 +64,20 @@ Innan du skapar ändringsverktyget för momssats, måste du göra följande för
 * Om du vill reducera antalet dokumentet som konverteras, bokför så många dokument som möjligt och minska ej bokförda dokument till en minimum.  
 * Säkerhetskopiera data.
 
-### Så här ställer du in ändringsverktyget för momssats
+### <a name="to-set-up-the-vat-rate-change-tool"></a>Så här ställer du in ändringsverktyget för momssats
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för ändring av momssats** och väljer sedan relaterad länk.  
 2. På snabbflikarna **Huvuddata**, **Journaler** och **Dokument**, välj en bokföringsmall i alternativlistan för nödvändiga fält. För varje grupp kan du välja om du vill konvertera produktbokföringsmallar för moms eller generella produktbokföringsmallar, eller konvertera båda värdena om de är tillgängliga i huvuddataartikeln. För vissa områden kan du också definiera ett filter för att endast konvertera en delmängd av värden, till exempel redovisningskonton. 
 3. På snabbfliken **priser inklusive moms** väljer du vilka radtyper på order som du vill uppdatera a-priser för. A-priserna på rader av typen artikel och resurs kommer alltid att uppdateras.
 
-### Så här skapar du konvertering av produktbokföringsmallar
+### <a name="to-set-up-product-posting-group-conversion"></a>Så här skapar du konvertering av produktbokföringsmallar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inställningar för ändring av momssats** och väljer sedan relaterad länk.  
 2. På sidan **Inställningar för ändring av momssats** väljer du åtgärden **Moms prod.bokf.mall, konv.** eller **Produktbokföringsmall, konv**.  
 3. I fältet  **Från kod**, ange den aktuella bokföringsmallen.  
 4. I fältet **Till kod** anger du den nya bokföringsgruppen.  
 
-### Utföra konvertering för ändring av momssats
+### <a name="to-perform-vat-rate-change-conversion"></a>Utföra konvertering för ändring av momssats
 
 Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen för moms. Du utför moms och generella bokföringsmallkonverteringar för att ändra momssatser och underhålla exakt momsrapportering. Beroende på inställningen görs följande ändringar:  
 
@@ -100,9 +100,9 @@ Du använder momssatsändringsverktyget till rätta ändringar i standardsatsen 
 > [!IMPORTANT]  
 > När konverteringen är klar markeras fältet **konverterad** i tabellen **Ändringsloggtransaktion för momssats** och **konverteras datum** i den **Ändringsloggtransaktion för momssats** fylls i med konverteringsdatumet.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/rate-change-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in moms](finance-setup-vat.md)  
 [Ställa in orealiserad mervärdesskatt](finance-setup-unrealized-vat.md)  

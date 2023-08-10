@@ -10,13 +10,13 @@ ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Spåra relationer mellan tillgång och efterfrågan
+# <a name="track-relations-between-demand-and-supply"></a>Spåra relationer mellan tillgång och efterfrågan
 
 Du kan spåra det orderbehov (spårat antal), den prognos, den försäljningsavropsorder eller den planeringsparameter (ej spårat antal) som gett upphov till den aktuella planeringsraden från alla försörjnings- eller behovsdokument i det så kallade ordernätverker.
 
 Planeringsförslaget omfattar också stödinformation för planeringen, till exempel enheter som inte finns på order som hjälper planeraren att ta fram en optimal leveransplan. Mer information finns i [Planeringselement, inte spårat](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## Så här spårar du länkade artiklar
+## <a name="to-track-linked-items"></a>Så här spårar du länkade artiklar
 Orderspårningen visar hur försäljningsorder, produktionsorder och inköpsorder är relaterade till produktionsordern genom planerings- och reservationssystem.
 
 Nedan beskrivs hur du spårar länkade artiklar på en fast planerad produktionsorder. Momentet är liknande för alla andra ordertyper och från planeringsförslagsraderna.
@@ -27,7 +27,7 @@ Nedan beskrivs hur du spårar länkade artiklar på en fast planerad produktions
 
 På raderna i fönstret **Orderspårning** visas de dokument som är relaterade till den aktuella produktionsorderraden.
 
-## Ej spårade planeringselement
+## <a name="untracked-planning-elements"></a>Ej spårade planeringselement
 Sidan **Ej spårade planeringselement** öppnas när du väljer sidan **ej spårat antal** på sidan **orderplanering**. Den har två syften:
 
 1. Den innehåller information om ej spårade kvantiteter, som visas när användaren vill se ej spårade kvantiteter från sidan Orderspårning .
@@ -46,7 +46,7 @@ Sidan innehåller poster som redogör för en överskottskvantitet i orderspårn
 - Partistorleksmultipel
 - Dämpare (% partistorlek)
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Planerad](production-planning.md)   
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    

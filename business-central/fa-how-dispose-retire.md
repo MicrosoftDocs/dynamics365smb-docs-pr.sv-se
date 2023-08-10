@@ -11,7 +11,7 @@ ms.search.form: '5628, 5610, 5611, 5629, 5633'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Avyttra eller ställa av anläggningstillgångar
+# <a name="dispose-of-or-retire-fixed-assets"></a>Avyttra eller ställa av anläggningstillgångar
 
 När du säljer eller på annat sätt avyttrar en anläggningstillgång, måste avyttringsvärdet bokföras för att beräkna och registrera vinst eller förlust. En avyttringstransaktion måste vara den sista bokförda transaktionen för en anläggningstillgång. För delvis avyttrade anläggningstillgångar kan du bokföra fler än en avyttringstransaktion. Summan av alla bokförda avyttringsbelopp måste vara ett kreditbelopp.  
 
@@ -20,7 +20,7 @@ När du säljer eller på annat sätt avyttrar en anläggningstillgång, måste 
 
 Följande åtgärder förutsätter att du redan har skapat relevanta bokföringsmallar på sidan **Anl.bokföringsmallar**. Mer information finns i [Så här skapar du bokföringsmallar för anläggningstillgångar](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 
-## Bokföra en avyttringstransaktion i redovisningsjournalen för anläggningstillgångar.
+## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Bokföra en avyttringstransaktion i redovisningsjournalen för anläggningstillgångar.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl.tillg. redovisningsjournaler** och väljer sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ Följande åtgärder förutsätter att du redan har skapat relevanta bokförings
 
 Om du säljer eller på annat sätt avyttrar en del av en anläggningstillgång måste du dela upp tillgången innan du kan registrera avyttringstransaktionen. För mer information, se [Så här överför, delar eller kombinerar du anläggningstillgångar](fa-how-trans-split-combine.md).  
 
-## Så här visar du avyttringstransaktioner
+## <a name="to-view-disposal-ledger-entries"></a>Så här visar du avyttringstransaktioner
 
 När du säljer eller avyttrar en anläggningstillgång måste avyttringsvärdet bokföras på redovisningskonton där du kan se resultatet.  
 
@@ -45,9 +45,9 @@ När du säljer eller avyttrar en anläggningstillgång måste avyttringsvärdet
 
 Sidan **Redovisningstransaktioner** öppnas där du kan visa de transaktioner som förfogandeinlägget ledde till.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/dispose-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/dispose-fixed-assets/)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  

@@ -10,13 +10,13 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# Databasens index saknas i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-"></a>Databasens index saknas i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Administratörer och utvecklare kan göra databasen mer effektiv och på så sätt förbättra programmets prestanda med hjälp av den information som hämtas av **databasen som saknar index** i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 **Databas som saknas i index** innehåller en lista över potentiella kolumner som kan indexeras och viss användbar information om dem. Med hjälp av den här informationen kan du fatta bättre beslut om databasens och tillämpningens optimala prestanda. Mer information om saknade index och hur de hjälper dig att uppnå prestandamål genom [!INCLUDE[prod_short](includes/prod_short.md)] finns i [saknade index i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/database-missing-indexes).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Klustrade och grupperade index som beskrivs](/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described)  
 [Optimera SQL Server-prestanda med Business Central](/dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance)  

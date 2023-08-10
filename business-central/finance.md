@@ -11,7 +11,7 @@ ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Ekonomihantering
+# <a name="financial-management"></a>Ekonomihantering
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardkonfigurationen för de flesta finansiella processer, men du kan ändra den så att den passar dina behov. Läs mer i [Ställa in finanser](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Arbeta med finansiella rapporter och översikter i Microsoft Excel. |[Analysera finansiella rapporter i Excel](finance-analyze-excel.md) |
 |För mer information om hur du använder rollcentret Revisor, kontakta en extern revisor och använd företagsnavet för att hantera konton för flera klienter.|[Revisorlösningar i Business Central](finance-accounting.md)|  
 
-## Ta en videorundtur
+## <a name="take-a-video-tour"></a>Ta en videorundtur
 
 I detta videoklipp beskrivs några av huvudfunktionerna för att hantera finanser. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in Finance](finance-setup-finance.md)  
 [Försäljning](sales-manage-sales.md)  

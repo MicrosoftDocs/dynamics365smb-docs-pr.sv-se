@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# Inkommande dokument
+# <a name="incoming-documents"></a>Inkommande dokument
 
 Externa affärsdokument kan komma till ditt företag som en e-postbilaga eller papperskopia som du skannar för att spara. Det här scenariot är typiskt för inköp där sådana inkommande dokument representerar betalningkvitton för kostnader eller små inköp.
 
 På sidan **Inkommande dokument** använder du olika funktioner för att förhandsgranska utgiftskvitton, hantera OCR-uppgifter och konvertera inkommande dokumentfiler, manuellt eller automatiskt, till relevanta dokument eller journalrader i . De externa filerna kan kopplas till något processteg, inklusive till bokförda dokument och till resulterande leverantörs-, kund- och redovisningstransaktioner.
 
-## Användningsscenario
+## <a name="usage-scenario"></a>Användningsscenario
 
 Du kan registrera filer och pappers kopior som tagits emot från dina handelspartner i [!INCLUDE[prod_short](includes/prod_short.md)] och skapa en dokument post. Till exempel en inköps- eller försäljningsfaktura, kreditnota eller en journalrad.
 
@@ -30,7 +30,7 @@ När du exempelvis tar emot en faktura i PDF-format från leverantören, kan du 
 > [!TIP]
 > Skapa inkommande dokument poster i [!INCLUDE[prod_short](includes/prod_short.md)] direkt från e-postmeddelanden som skickas av leverantörer med hjälp av Outlook-tillägget. Mer information finns i [Använda Business Central som din företagsinkorg i Outlook](work-outlook-addin.md).
 
-## Funktioner för inkommande dokument
+## <a name="incoming-document-features"></a>Funktioner för inkommande dokument
 
 Processen för inkommande dokument består av följande huvudaktiviteter:
 
@@ -57,9 +57,9 @@ Processen för inkommande dokument består av följande huvudaktiviteter:
 | Från sidorna **Kontoplan** och **Redovisningstransaktioner** kan du använda en sökfunktion för att hitta redovisningsposter för bokförda dokument som inte har inkommande dokumentposter, och sedan länka dem till centralt befintliga poster eller skapa nya med bifogade dokumentfiler. |[Söka efter bokförda dokument utan inkommande dokumentposter](across-how-find-posted-documents-without-income-document-records.md) |
 | Få en bättre översikt genom att ange inkommande dokumentposter som *Bearbetade* för att ta bort dem från standardvyn. |[Hantera många inkommande dokumentposter](across-how-manage-many-income-document-records.md) |
 
-## Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Inköp](purchasing-manage-purchasing.md)  
 [Redigera bokförda dokument](across-edit-posted-document.md)  

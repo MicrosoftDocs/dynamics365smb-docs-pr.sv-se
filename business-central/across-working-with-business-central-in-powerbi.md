@@ -10,15 +10,15 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
+# <a name="work-with--data-in-power-bi"></a>Arbeta med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
 I denna artikel lär du dig det grundläggande inom att arbeta med rapporter och instrumentpaneler i Power BI som använder [!INCLUDE [prod_short](includes/prod_short.md)] som datakälla. Artikeln beskriver vissa aspekter som hjälper dig komma igång som [!INCLUDE[prod_short](includes/prod_short.md)]-användare. För allmänna instruktioner och riktlinjer för hur du använder Power BI, se [Power BI-dokumentation för konsumenter](/power-bi/consumer).
 
-## Gör dig redo
+## <a name="get-ready"></a>Gör dig redo
 
 Registrera dig frö Power BI-tjänsten. Gå till [https://powerbi.microsoft.com](https://powerbi.microsoft.com) om du inte redan har registrerat dig. När du registrerar dig använder du en e-postadress för arbetet samt ett lösenord.
 
-## Kom igång
+## <a name="get-started"></a>Kom igång
 
 När du väl har ett Power BI-konto kan du logga in på [https://powerbi.microsoft.com/](https://powerbi.microsoft.com/).
 
@@ -30,21 +30,21 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] online får du automatiskt en
 
 Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt måste du börja från grunden genom att använda Power BI Desktop. Som tillval kan Power BI-rapporter distribueras som uppladdningsbara filer.
 
-## Hämta senaste data
+## <a name="get-the-latest-data"></a>Hämta senaste data
 
 Varje enskild Power BI-rapport baseras på en datauppsättning som hämtar data från [!INCLUDE[prod_short](includes/prod_short.md)]-källorna. D måste se till att datan i dina Power BI-rapporter motsvarar datan i [!INCLUDE[prod_short](includes/prod_short.md)]. Detta koncept kallas *uppdatering*.  Uppdatering kanske inte sker automatiskt beroende på hur din organisation har konfigurerat Power BI. Du kan uppdatera data på två sätt: manuellt eller genom att schemalägga en uppdatering. Manuell uppdatering sker på begäran och vid behov. Schemalagd uppdatering utför uppdatering vid förvalda tidsintervall.
 
-### Manuell uppdatering
+### <a name="refresh-manually"></a>Manuell uppdatering
 
 I navigeringsfönstret, under **Datauppsättningar**, väljer du **Fler alternativ (...)** bredvid datauppsättningen och sedan **Uppdatera nu**.
 
-### Schemalägga en uppdatering
+### <a name="schedule-a-refresh"></a>Schemalägga en uppdatering
 
 I navigeringsfönstret, under Datauppsättningar, väljer du Fler alternativ (...) bredvid datauppsättningen och sedan **Schemalägg uppdatering**. Fyll i informationen under avsnittet **Schemalägg uppdatering** och välj sedan **Verkställ**.
 
 Mer information finns i [Konfigurera schemalagd uppdatering](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="upload"></a>Ladda upp rapporter från filer
+## <a name="upload-reports-from-files"></a><a name="upload"></a>Ladda upp rapporter från filer
 
 Power BI-rapporter kan distribueras bland användarna som .pbix-filer. Om du har en .pbix-fil kan du ladda upp filen till en arbetsyta. Om du vill ladda upp en rapport gör du följande:
 
@@ -62,7 +62,7 @@ Mer information finns i [Ladda upp rapporten till tjänsten](/power-bi/paginated
 > [!TIP]
 > Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] online kan du också ladda upp en rapport inifrån [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [Arbeta med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)] – Ladda upp rapporter](across-working-with-powerbi.md#upload).
 
-## <a name="share"></a>Dela rapporter med andra
+## <a name="share-reports-with-others"></a><a name="share"></a>Dela rapporter med andra
 
 När en rapport väl finns på din arbetsyta kan du dela den med andra i din organisation.
 
@@ -71,9 +71,9 @@ Om du vill dela en rapport väljer du **Dela** i en listrapport eller en öppen 
 > [!NOTE]
 > Du och de personer du delar med måste ha en [Power BI Pro-licens](/power-bi/service-features-license-type). Innehållet måste ligga på en arbetsyta med [Premium-kapacitet](/power-bi/service-premium-what-is). Mer information finns i [Så här delar du ditt arbete i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Business Central och Power BI](admin-powerbi.md)  
 [Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  

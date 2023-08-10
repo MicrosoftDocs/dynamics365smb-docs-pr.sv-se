@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Skapa specialorder
+# <a name="create-special-orders"></a>Skapa specialorder
 
 Du kan skapa en specialorder för en specifik katalogartikel som inte finns i lagret och som ska levereras till en specifik kund. Leverantören levererar artikeln till distributionslagret så att du sedan kan leverera den till kunden, som en enskild leverans eller tillsammans med andra artiklar på en annan order.  
 
@@ -18,7 +18,7 @@ Specialorder anger att inköps- och försäljningsordern är länkade för att s
 
 Innan den här funktionen kan användas måste de kund-, leverantörs- och artikelkort som behövs för ordern läggas upp.  
 
-## Så här skapar du en specialorder
+## <a name="to-create-a-special-order"></a>Så här skapar du en specialorder
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Skapa och fyll i försäljningsorder för artikeln. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
@@ -38,9 +38,9 @@ En inköpsorder som skapas som en specialorder för en försäljningsorder respe
 > [!NOTE]  
 >  Du kan använda funktionen Specialorder om artikeln redan har reserverats. Därför, för artiklar som säljs på särskilda order, kontrollera att fältet **Reservera** på artikelkortet har angetts till **alltid**.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md)  
 [Försäljning](sales-manage-sales.md)  

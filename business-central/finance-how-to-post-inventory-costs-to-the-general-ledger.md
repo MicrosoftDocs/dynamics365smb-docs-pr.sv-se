@@ -11,7 +11,7 @@ ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Stämma av lagerkostnader med redovisningen
+# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Stämma av lagerkostnader med redovisningen
 
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen.
 
@@ -19,7 +19,7 @@ Automatisk kostnadsbokföring definieras av fältet **Automatisk kostnadsbokför
 
 Även om lagerkostnaderna automatiskt bokförs i redovisningen måste du fortsatt säkerställa att varukostnader skickas vidare till relaterade utgående försäljningstransaktioner, i synnerhet när varorna säljs innan du har fakturerat inköpet av varorna. I programmet kallas detta för Kostnadsjustering. Artikelkostnader justeras automatiskt när du bokför artikeltransaktioner, men du kan också justera projektartikelkostnader manuellt. Mer information finns i [Justera artikelkostnader](inventory-how-adjust-item-costs.md).
 
-## Bokföra lagerkostnader manuellt
+## <a name="to-post-inventory-costs-manually"></a>Bokföra lagerkostnader manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokför lagerkostnad i redov.** och väljer sedan relaterad länk.
 2. Bokför lagerkostnader i redovisningen manuellt genom att köra batch-jobbet. När det här batch-jobbet körs skapas redovisningstransaktioner utifrån värdetransaktioner. Det går att bokföra transaktionerna så att de sammanfattas per bokföringsmall.
@@ -31,7 +31,7 @@ Om en lista över felen ska visas innan batch-jobbet för bokföring ska köras 
 
 Det går att visa en översikt över de värden som eventuellt bokförs i redovisningen genom att köra batch-jobbet **Bokför lagerkostnad i redov.**, utan att själva bokföringen av värdena utförs i redovisningen. Genom att avmarkera fältet **Bokför** på sidan för begäran kan översikten visas. Om batch-jobbet körs med de här inställningarna visas värdena som kan bokföras i redovisningen i rapporten, men de bokförs inte.
 
-## För att granska avstämningen mellan inventeringen och redovisningen.
+## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>För att granska avstämningen mellan inventeringen och redovisningen.
 Sidan **Avstämning lager – redovisning -** visar följande:
 
 - Påvisar avstämningsdifferenser genom att jämföra vad som registrerats i redovisningen och vad som registrerats i lagerredovisningen (värdetransaktioner).
@@ -64,7 +64,7 @@ I de närmast följande kolumnerna visas summorna för samma kontotyper beräkna
 
 Välj värdet i något av fälten om du vill se de lagerrapporttransaktioner som användes för att beräkna summorna. För lagersummorna är lagerrapporttransaktionerna summorna av värdetransaktioner för artiklarna. För redovisningssummorna är lagerrapporttransaktionerna summorna från redovisningstransaktionerna.
 
-## Rapportera kostnader och stämma av med redovisningen
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportera kostnader och stämma av med redovisningen
 Andra rapporter, spårningsfunktioner och ett särskilt avstämningsverktyg är tillgängliga för revisorn eller controllern som ansvarar för att rapportera ett korrekt och balanserat lagervärde till ekonomiavdelningen.
 
 Värdena beskrivs i tabellen nedan.    
@@ -76,7 +76,7 @@ Värdena beskrivs i tabellen nedan.
 |visa lagervärdet på valda artiklar, inklusive deras faktiska och förväntade kostnad på det angivna datumet.|**Lagervärdering – kost.spec.**-rapport|  
 |använda en rapport för att analysera orsakerna till kostnadsvariationer eller för att få information om kostnadsandelarna för sålda artiklar (KSV).|**Kostnadsandelar – analys**-rapport|  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)    
