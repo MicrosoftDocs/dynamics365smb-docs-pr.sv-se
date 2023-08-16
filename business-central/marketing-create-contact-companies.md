@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# <a name="create-contacts"></a>Skapa kontakter
+# Skapa kontakter
 
 När du utvecklar en affärsrelation med någon på ett annat företag lägger du till denne som en kontakt i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan sedan lägga till information om dem eller deras företag som kan vara användbar för framtida kommunikation. På sidan **Kontaktkort** kan du skapa följande typer av kontakter:
 
@@ -28,7 +28,7 @@ När en kontakt omvandlas till en kund blir kontaktpersonen eller kontaktföreta
 >
 > Men om du redan använder den inbyggda funktionen för att skapa kunder eller artiklar automatiskt, stöder den här funktionsuppdateringen inte anpassade fält och nyskapade kunder eller artiklar kommer inte att innehålla sådana data.
 
-## <a name="to-create-a-contact-manually"></a>Så här skapar du en kontakt manuellt
+## Så här skapar du en kontakt manuellt
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
@@ -37,7 +37,7 @@ När en kontakt omvandlas till en kund blir kontaktpersonen eller kontaktföreta
    Om du har definierat en nummerserie för kontakter på sidan **Marknadsföringsinställning** kan du i stället trycka på <kbd>Retur</kbd> för att infoga nästa tillgängliga kontaktnummer.
 4. Fyll i återstående fält om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Skapa en kontakt av en kund, en leverantör eller ett bankkonto så här
+## Skapa en kontakt av en kund, en leverantör eller ett bankkonto så här
 
 Om du har kunder, leverantörer och bankkonton som du vill skapa kontaktkort för, använder du batch-jobben **Skapa kontakter från**. När du skapar en kontakt på detta sätt, synkroniseras kontaktinformationen senare med den relaterade kunden, leverantören eller bankkontotinformationen. Läs mer på [Synkronisera kontakter med kunder, leverantörer, medarbetare och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
@@ -56,7 +56,7 @@ Nästa kontaktnummer i nummerserien kopplas till de nya kontakterna. Affärsrela
 > [!TIP]  
 > Du kan även göra detta i motsatt riktning, dvs när du skapar en kund, leverantör, anställd eller bankkonto utifrån en kontakt. Mer information finns i avsnittet [Att skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
-## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>Skapa en kund, leverantör, medarbetare eller ett bankkonto från en kontakt
+## Skapa en kund, leverantör, medarbetare eller ett bankkonto från en kontakt
 
 Om du har en kund, leverantör, medarbetare eller ett bankkonto för företaget som du vill skapa en kontakt för kan du använda åtgärden **Skapa som**. När du skapar en kontakt på detta sätt synkroniseras kontaktinformationen senare med den relaterade kunden, leverantören, medarbetaren eller bankkontoinformationen. Läs mer på [Synkronisera kontakter med kunder, leverantörer och bankkonton](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
 
@@ -70,7 +70,7 @@ Om du har en kund, leverantör, medarbetare eller ett bankkonto för företaget 
 
 Kontaktinformationen överförs från kontaktkortet till en ny kund, leverantör, medarbetare eller ett nytt bankkontokort. Du kanske vill lägga till specifik information på varje kort, t.ex fakturering och betalningsinformation. Mer information finns i [Registrera nya kunder](sales-how-register-new-customers.md).
 
-## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a>Länka en kontakt till en befintlig kund, leverantör, medarbetare eller ett befintligt bankkonto
+## Länka en kontakt till en befintlig kund, leverantör, medarbetare eller ett befintligt bankkonto
 
 Om du har en kontakt och antingen en kund, en leverantör, en medarbetare eller ett bankkonto för samma företag, kan du länka de två enheterna så att data synkroniseras.
 
@@ -80,7 +80,7 @@ Om du har en kontakt och antingen en kund, en leverantör, en medarbetare eller 
 4. I fältet **Nuvarande huvudfält** anger du vilka fält som ska prioriteras i händelse av en konflikt mellan fält som är gemensamma för både den befintliga kontakten och kunden, leverantören, medarbetaren eller bankkontot. Om en säljarkod är olika för kontakten och kunden kan du välja ett behålla den på kontaktkortet genom att välja **Kontakt**.
 5. Välj **OK**.
 
-## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>För att ta bort en länk mellan en kontakt och en befintlig kund, leverantör, medarbetare eller ett befintligt bankkonto
+## För att ta bort en länk mellan en kontakt och en befintlig kund, leverantör, medarbetare eller ett befintligt bankkonto
 
 Om du har kopplat en kontakt och en kund, leverantör, medarbetare eller ett bankkonto som du inte avsåg att göra tar du bort länken mellan entiteterna så att data inte längre synkroniseras.
 
@@ -92,7 +92,7 @@ Om du har kopplat en kontakt och en kund, leverantör, medarbetare eller ett ban
 > [!NOTE]  
 > Använd inte fönstret **Affärsrelationer** för att ändra befintliga relationer. Ta i stället bort relationen och använd sedan åtgärden **Länka med befintlig**. Mer information finns i avsnittet [Länka en kontakt till en befintlig kund, leverantör, anställd eller befintligt bankkonto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Synkronisera kontakter med kunder, leverantörer, medarbetare och bankkonton
+## Synkronisera kontakter med kunder, leverantörer, medarbetare och bankkonton
 
 Om några av kontakterna också är kunder, leverantörs. medarbetare eller bankkonton kan du synkronisera dem med data från kontakten och dra nytta av följande förmåner:
 
@@ -112,12 +112,12 @@ Det finns tre sätt att aktivera datasynkronisering mellan kontakter och kunder,
 * När du skapar kunder, leverantörer, medarbetare eller bankkonton från kontakter. Mer information finns i avsnittet [Att skapa en kund, leverantör, anställd eller bankkonto från en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 * När du länkar kontakterna till befintliga kunder, leverantörer, medarbetare eller bankkonton från kontaktkortet. Mer information finns i avsnittet [Länka en kontakt till en befintlig kund, leverantör, anställd eller befintligt bankkonto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Visar vilken kund, leverantör, medarbetare eller vilket bankkonto en kontakt tillhör
+## Visar vilken kund, leverantör, medarbetare eller vilket bankkonto en kontakt tillhör
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kontakter** och väljer sedan relaterad länk.
 2. Markera raden för en kontakt, välj åtgärden **Relaterad information** och välj sedan åtgärden **Kund/Leverantör/Bankkonto/Medarbetare**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera kontakter](marketing-contacts.md)  
 [Ställa in kontakter](marketing-setup-contacts.md)  

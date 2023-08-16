@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Hantera lager- och produktionskostnader
+# Hantera lager- och produktionskostnader
 
 Många av funktionerna inom kostnadskalkylering utförs i underliggande processer som användaren inte behöver bry sig om, till exempel transaktionskoppling och automatisk kostnadsjustering, men ett antal fält, sidor och rapporter riktar sig mot användare som direkt eller indirekt hanterar kostnader för artiklar eller driften.  
 
@@ -29,7 +29,7 @@ Många av funktionerna inom kostnadskalkylering utförs i underliggande processe
 |manuellt ångra en artikelkoppling eller koppla om artikeltransaktioner som skapats i programmet.|[Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Du kan använda fältet **Kopplas från löpnr** i artikeljournal för att skapa en fast koppling mellan en inkommande transaktion och den ursprungliga utgående transaktionen.|[Avsluta öppna artikeltransaktioner som skapas från en fast koppling i artikeljournalen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)
 [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md)

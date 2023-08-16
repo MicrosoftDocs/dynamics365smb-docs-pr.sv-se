@@ -11,14 +11,14 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="specify-a-default-printer"></a><a name="default"></a>Ange en standardskrivare
+# <a name="default"></a>Ange en standardskrivare  
 
 När du har skapat en skrivare i Business Central kan du ange vilken skrivare som ska användas som standard. Det finns ett par sätt att ange skrivare som ska användas som standard för rapporter och andra utskriftsjobb. En standardskrivare är användbar om du arbetar med olika rapporter som kräver olika skrivare på grund av sin placering i företaget eller deras utskriftskapacitet.
 
 > [!IMPORTANT]
 > De enda skrivare som du kan ange som standard är **Microsoft skriv ut till PDF** och molnskrivare som redan har ställts in för användning i Business Central, som e-postskrivare och skrivare för Universell utskrift. Molnskrivare konfigureras vanligtvis av en administratör. Mer information finns i [Skrivarinställningar och hantering](admin-printer-setup-overview.md).   
 
-## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Ange en skrivare som standardskrivare för alla utskriftsjobb
+## Ange en skrivare som standardskrivare för alla utskriftsjobb
 
 På sidan **Skrivarhantering** kan du ställa in en skrivare som standardskrivare för alla utskriftsjobb. Du kan ange skrivaren som standard för dig eller för alla användare.
 
@@ -31,7 +31,7 @@ På sidan **Skrivarhantering** kan du ställa in en skrivare som standardskrivar
 > [!NOTE]
 > Om du anger en standardskrivare från **Skrivarhantering** läggs en post till i **skrivarvalet**.
 
-## <a name="set-a-default-printer-for-specific-reports"></a>Ange standardskrivaren för specifika rapporter
+## Ange standardskrivaren för specifika rapporter
 
 På sidan **Skrivarval** kan du ange skrivaren som en rapport ska använda som standard. Standard skrivare är inställda på användarkontots grunder. Du kan ange en standardskrivare för bara dig själv, en annan användare eller alla användare.
 
@@ -60,17 +60,17 @@ Du eller administratören kan också använda sidan **Skrivarhantering** för at
 > [!NOTE]
 > Mer specifika skrivarval har företräde framför mer allmänna skrivarval. Ett skrivarval som exempelvis har värden i fälten **Användar-ID**, **Rapport-ID** och **Skrivarnamn** har företräde framför ett skrivarval som innehåller tomma poster i fälten **Användar-ID** och **Rapport-ID**.
 
-## <a name="choosing-the-printer-when-running-a-report"></a>Välja skrivare när en rapport körs
+## Välja skrivare när en rapport körs
 
 I stället för att använda standardskrivaren när du kör en rapport kan du åsidosätta inställningen från begärandesidan. Välj helt enkelt den skrivare som du vill använda för denna rapportgenerering i listrutan **Skrivare**.
 
-## <a name="sizing-print-jobs"></a>Ändra storlek på utskriftsjobb
+## Ändra storlek på utskriftsjobb
 
 Molnutskrift är utformat för dokument av rimligt storlek. De flesta molntjänster, inklusive PrintNode och HP ePrint, har en gräns på 10 MB per jobb. Om du behöver skriva ut större rapporter måste du kanske dela upp dem i flera utskrifter.
 
 [Microsoft-utbildning](/training/modules/change-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skrivarhantering](admin-printer-setup-overview.md)  
 [Konfigurera skrivare för Universell utskrift](admin-printer-setup-universal-print.md)  

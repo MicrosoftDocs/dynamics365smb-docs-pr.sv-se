@@ -10,11 +10,11 @@ ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="managing-database-access-intent"></a>Hantera åtkomstmetod för databas
+# Hantera åtkomstmetod för databas
 
 Som Super-användare eller administratör kan du ändra åtkomstmetoden för databaser med avseende på rapporter, sidor av typen API och frågor för att förbättra tjänstens prestanda.
 
-## <a name="overview"></a>Översikt
+## Översikt
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan konfigureras för att använda skrivskyddade kopior av den primära (skrivskyddade) databasen. Användning av en databaskopia minskar belastningen på den primära databasen. I vissa fall förbättras också prestandan när du visar data på klienten. Kopior är fördelaktiga för objekt, t. ex. rapporter, frågor och API-sidor, som används för att enbart visa (men inte ändra) data.
 
@@ -24,7 +24,7 @@ Sidan **Metodlista för databasåtkomst** kan du åsidosätta den fördefinierad
 
 Inom databasterminologin kallas denna funktion vanligen för *läsningsskalning*. Mer information om avläsning och metoder för dataåtkomst i [!INCLUDE[prod_short](includes/prod_short.md)] finns i [Använda Läsningsskalning för bättre prestanda](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prod_short](includes/prod_short.md)]-hjälp för utvecklare och administration.
 
-## <a name="to-change-the-database-access-intent"></a>Så här ändrar du åtkomstmetod för databaser
+## Så här ändrar du åtkomstmetod för databaser
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Metodlista för databasåtkomst** och väljer sedan relaterad länk.
 
@@ -43,9 +43,9 @@ Inom databasterminologin kallas denna funktion vanligen för *läsningsskalning*
     > [!NOTE]
     > Om ett objekt som är redigerbart, exepelvis kundkortet, är **Skrivskyddat**, kommer den primära databasen fortfarande att användas oavsett vilken behörighet som används, vilket gör att användarna kan göra ändringar som vanligt.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 [Affärsfunktion](across-business-functionality.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 08/12/2022
 ms.author: jswymer
 ---
-# <a name="setting-the-layout-used-by-a-report"></a>Ange layout för en rapport
+# Ange layout för en rapport
 
 > **GÄLLER:** Business Central Online, Business Central lokal utgivningscykel 1 år 2022 och senare. Gå till tidigare versioner [här](ui-how-change-layout-currently-used-report.md).
 
@@ -19,7 +19,7 @@ En rapportlayout bestämmer utseendet på en rapport. Det styr vilka data fält 
 
 När det finns flera företag i kopplingen anges layouterna för varje företag. Samma rapport i ett företag kan ha olika layout i ett annat företag.
 
-## <a name="get-started"></a>Kom i gång
+## Kom i gång
 
 Det finns några olika sätt att ange vilken layout en rapport använder. Varje sätt har fördelar, beroende på vad du vill göra: 
 
@@ -36,12 +36,12 @@ Det finns några olika sätt att ange vilken layout en rapport använder. Varje 
   > [!NOTE]
   > Du kan inte använda sidan **rapportlayout** för Word- och RDLC layouter som har skapats med hjälp av de äldre **anpassade layouterna**. Du behöver inte ens visa dessa egna layouter på sidan **rapportmallar**. För dessa layouter kan du bara ställa in dem med hjälp av sidan **val av rapportlayout**.
 
-## <a name="set-the-layout-from-the-report-layouts-page"></a>Ange layout från sidan rapportlayout
+## Ange layout från sidan rapportlayout
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Leta reda på layouten i listan, markera den och välj sedan **ange standard** åtgärd överst på sidan.
 
-## <a name="set-the-layout-from-report-layout-selection-page"></a>Ange layout från sidan Val av rapportlayout
+## Ange layout från sidan Val av rapportlayout
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.
   
@@ -54,13 +54,13 @@ Det finns några olika sätt att ange vilken layout en rapport använder. Varje 
 
 4. På sidan **Rapportlayouter** välj layout, välj sedan **OK**.
 
-## <a name="revert-to-the-original-default-layout"></a>Återgå till ursprunglig standardlayout
+## Återgå till ursprunglig standardlayout
 
 Rapporter är avsedda att använda en layout som standard. Du kan växla tillbaka till det ursprungliga standardlayout sidan **Val av rapportlayout**. Markera bara rapporten och välj **Återställ standard åtgärd** för val längst upp på sidan.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera rapportlayouter](ui-manage-report-layouts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

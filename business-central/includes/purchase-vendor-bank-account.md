@@ -1,8 +1,8 @@
 ---
-author: rubenseishima
+author: brentholtorf
 ms.topic: include
-ms.date: 06/30/2022
-ms.author: a-reishima
+ms.date: 08/03/2023
+ms.author: bholtorf
 ---
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
@@ -15,4 +15,4 @@ ms.author: a-reishima
 > Vissa fält är dolda tills du väljer **Visa fler** åtgärder, vanligen på grund av att de används sällan. Andra måste läggas till genom anpassning. Mer information finns i [Anpassa din arbetsyta](../ui-personalization-user.md).
 
 > [!WARNING]
-> Vissa fält leverantörens bankkontokort kan innehålla känslig affärsdata, till exempel **Bankfilialsnr.**, **Bankkontonr.**, **SWIFT-kod** och **IBAN-kod**. Mer information om hur du övervakar och meddelas när någon ändrar ett värde i dessa fält finns i [övervaka känsliga fält](../across-log-changes.md#monitoring-sensitive-fields).
+> Vissa fält leverantörens bankkontokort kan innehålla känslig affärsdata, till exempel **Bankfilialsnr.**, **Bankkontonr.**, **SWIFT-kod** och **IBAN-kod**. Mer information om hur du övervakar och meddelas när någon ändrar ett värde i dessa fält finns i [övervaka känsliga fält](../across-log-changes.md#monitor-sensitive-fields).

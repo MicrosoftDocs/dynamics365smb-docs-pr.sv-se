@@ -322,7 +322,7 @@
 #### [Moms i standardversionen av Business Central](sales-tax-concept.md)
 #### [Arbeta med Intrastat-rapporter](finance-how-report-intrastat.md)
 
-### Hantera likviditet
+### Hantera leverantörsreskontra
 #### [Översikt över leverantörsreskontra](payables-manage-payables.md)
 #### [Leverantörsreskontra, rapporter och analyser](payables-reports.md)
 #### Göra utbetalningar
@@ -350,6 +350,7 @@
 
 ### Hantera moms
 #### [Översikt över momshantering](finance-manage-vat.md)
+#### [Inköpstransaktioner för tredje part från EU-land](finance-how-to-eu3party-trade-purchase.md)
 #### Konfigurera moms
 ##### [Konfigurera moms](finance-setup-vat.md)
 ##### [Konfiguration av bokföringsmall](finance-posting-groups.md#tax-posting-groups)
@@ -1994,13 +1995,13 @@
 #### [Designdetaljer: Tabellstruktur](design-details-table-structure.md)
 <!--migrate to BC online-->
 ## Migrera till Business Central Online
-### [Migrera lokala data](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
-### [Köra verktyget för molnmigrering](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Hantera migreringen till molnet](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+### [Introduktion](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+<!--### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)-->
+### [Hantera migreringen till molnet](/dynamics365/business-central/dev-itpro/administration/migration-manage?toc=/dynamics365/business-central/toc.json)
 ### [Migrera från Business Central lokalt](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Migrera från Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Migrera från Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Vanliga frågor om att migrera till molnet](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+<!--### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)-->
+### [Vanliga frågor om att migrera till molnet](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
 ## [Administration av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Utveckling](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Säkerhet och skydd](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Kom igång med en Business Central förhandsversion för Copilot
+# Kom igång med en Business Central förhandsversion för Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Du kan försöka använda AI-baserad text för marknadsföring av text med en Copilot, oavsett om du är en befintlig Business Central-kund eller en potentiell kund, det vill säga någon som är intresserad av att utforska Business Central och testa den nya funktionen. För att komma igång måste du ha tillgång till en version av Business Central Online som stöder den nya funktionen. Slutför det avsnitt nedan som gäller dig.
 
-## <a name="your-organization-already-uses-business-central"></a>Organisationen använder redan Business Central
+## Organisationen använder redan Business Central
 
 Som befintlig kund eller partner behöver du en administratör som har tillgång till Business Central administrationscenter för att konfigurera en miljö som kör den förhandsversion som innehåller Copilot. När miljön är igång kan användarna prova den nya funktionen.
 
@@ -39,7 +39,7 @@ Om du vill ha mer information om hur du skapar miljöer går du till [Skapa en m
 > [!IMPORTANT]
 > Om begränsade miljöer i förhandsversion som kör **22.0.54157.54311 (förhandsversion – Copilot-version)** bör du vara medveten om att dessa miljöer endast är tillgängliga till 1 maj 2023. Efter det här datumet måste du konfigurera en ny miljö, eller uppgradera alla andra miljöer till version 22.0 eller senare om du vill fortsätta att försöka förhandsgranska AI-baserad text.
 
-## <a name="your-organization-doesnt-use-business-central"></a>Organisationen använder inte Business Central
+## Organisationen använder inte Business Central
 
 Om du inte är en Business Central-kund kan du registrera dig för en kostnadsfri utvärderingsversion för att testa de nya AI-funktionerna. Det är enkelt att registrera sig för utvärderingsversionen. Du vägleds genom några steg där du måste ange en del information, t.ex. e-postadress, telefonnummer och namn. Slutför följande steg om du vill skaffa utvärderingsversionen:
 
@@ -95,7 +95,7 @@ Om du inte är en Business Central-kund kan du registrera dig för en kostnadsfr
    > [!TIP]
    > Om du inte ser **Dina checklistor**, välj knappen **Visa demopresentationer** först.
 
-## <a name="next-steps"></a>Nästa steg
+## Nästa steg
 
 AI-funktionerna som tillhandahålls av en Copilot måste aktiveras innan du eller någon annan kan använda en Copilot. För att aktivera AI-funktionerna måste en administratör samtycka till villkoren i [förhandsversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) och [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839) för organisationens räkning.
 
@@ -108,7 +108,7 @@ Det finns två sätt att godkänna som en administratör:
 
 - Det andra är att använda sidan **Status för sekretessmeddelanden** i Business Central och godkänn integrering av **Azure OpenAI** för alla användare. Mer information finns i [godkänna allmänna villkor](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Översikt över marknadsföringstext för AI-baserad artikel med Copilot](ai-overview.md)  
 [Konfigurera marknadsföringstext för AI-baserad artikel med Copilot som en administratör](enable-ai.md)  

@@ -11,13 +11,13 @@ ms.search.form: '1002, 1007'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manage-job-budgets"></a>Hantera projektbudgetar
+# Hantera projektbudgetar
 
 Du kan lägga upp en budget för varje projekt. Budgeten används för att planera de resurser du tilldelar ett projekt. Budgeten kan antingen vara allmän med få poster eller innehålla fler poster som är indelade i aktivitetsnivåer. Du kan sedan jämföra budgeterade belopp med den faktiska förbrukningen enligt registreringen i projektjournalen. Genom att övervaka skillnader mellan faktisk förbrukning och budgeterad användning kan du kontrollera pågående projekt och förbättra kvaliteten hos framtida projekt genom att minska risken för att kostnader underskattas.
 
 Efterföljande procedur beskriver hur du beräknar budgeterade kostnader under planering. Mer information om registrering av budgeterade jämfört med faktiska projektpriser och -kostnader finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).  
 
-## <a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="JobBudgetCosts"></a>Att ange budgeterade kostnader för ett projekt
+## <a name="JobBudgetCosts"></a> Att ange budgeterade kostnader för ett projekt
 När en kund vill veta priset på ett projekt som kommer att faktureras baserat på förbrukning, måste du fastställa de budgeterade kostnaderna för projektet. Du använder sidan **Projektaktivitetsrader** om du vill göra detta.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
@@ -43,9 +43,9 @@ På sidan **Projektkort** kan du nu se en översikt över de totala budgeterade 
 
 Mer information om registrering av budgeterade jämfört med faktiska projektpriser och -kostnader finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/set-up-job-planning-lines/)
+## Se relaterad [Microsoft utbildning](/training/modules/set-up-job-planning-lines/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Projekthantering](projects-manage-projects.md)  
 [Ekonomi](finance.md)  

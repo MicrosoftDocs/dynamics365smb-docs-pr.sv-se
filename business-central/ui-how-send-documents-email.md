@@ -5,7 +5,7 @@ author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
-ms.search.form: null
+ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
@@ -13,7 +13,7 @@ ms.author: edupont
 
 Du kan enkelt dela information och dokument, till exempel försäljnings- och inköpsorder och fakturor, via e-post direkt från [!INCLUDE[prod_short](includes/prod_short.md)] utan att behöva öppna en e-postapp.  
 
-Du kan skicka nästan alla typer av dokument som bifogade PDF-filer. Du kan också skapa en rapportlayout som innehåller information från dokumentet i e-postmeddelandets brödtext, tillsammans med text som gör e-postmeddelandet mer användarvänligt, till exempel en standardhälsning. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
+Du kan skicka nästan alla typer av dokument som bifogade PDF-filer. Du kan också skapa en rapportlayout som innehåller information från dokumentet i e-postmeddelandets brödtext, tillsammans med text som gör e-postmeddelandet mer användarvänligt, till exempel en standardhälsning. Mer information finns i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).
 
 När du skickar fakturor kan du göra det enklare för kunder att göra betalningar via en betaltjänst, till exempel PayPal, genom att automatiskt lägga till information och en länk till tjänsten i e-postmeddelandet. Mer information finns i [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
@@ -24,12 +24,12 @@ Om du vill aktivera e-post i [!INCLUDE[prod_short](includes/prod_short.md)] star
 
 ## Så här skickar du dokument som e-post
 
-Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura till ett e-postmeddelande som en PDF-fil, samt med och med dokumentspecifik e-posttext. <!--update this-->
+Den här proceduren beskriver hur du kopplar en bokförd försäljningsfaktura till ett e-postmeddelande som en PDF-fil, samt med och med dokumentspecifik e-posttext. Stegen är liknande för de övriga dokument som stöds.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.
-2. Markera fakturan och välj åtgärden **Skriv ut/Skicka** och välj **Skicka**.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.
+2. Markera fakturan och välj åtgärden **Skriv ut/Skicka** och välj **Skicka via e-post**.
 3. I fältet **E-post** väljer du **Ja (fråga efter inställningar)**. Mer information finns i [Skapa Dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
-    
+
     Om fältet **E-post** på sidan **Skicka dokument till** anges som **Ja (fråga efter inställningar)**, öppnas sidan **Skicka e-post** med kontaktpersonen förifylld i fältet **Till:** och dokumentet bifogat som en PDF-fil. I fältet **brödtext** kan du antingen skriva in en text manuellt, eller också kan du fylla i fältet med en dokumentspecifik e-postbrödtext som du har ställt in.
 
 4. Välj **OK**.
@@ -51,7 +51,17 @@ Du kan snabbt skapa e-postmeddelanden för kontakter, kunder, leverantörer, sä
 > [!TIP]
 > Om du ofta skickar e-postmeddelanden som är snarlika eller vill skicka en masskommunikation, t.ex. att annonsera en försäljningskampanj, kan du använda Word-mallar med e-post för att påskynda arbetet. Du kan skapa en mall för en entitet, till exempel kunder, leverantörer och kontakter, som ska generera innehållet i ett e-postmeddelande åt dig och till och med anpassa innehållet för mottagaren baserat på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [använda Word-mallar för masskommunikation](ui-mail-merge.md).  
 
+### Bifoga ett dokument till ett e-postmeddelande
+
+Det finns flera sätt att bifoga dokument till e-post.
+
 Om du är tilldelad ett e-postscenario som är relaterat till den entitet som du skickar e-post till, eller det dokument som du skickar, kan en bifogad fil läggas till automatiskt i meddelandet. Det beror på att en standardbilaga har tilldelats e-postscenariot. Du kan ta bort den bifogade filen om du inte vill skicka den med meddelandet. Mer information finns i [Tilldela e-postscenarier till e-postkonton](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
+
+Om du vill bifoga en fil i e-postredigeraren använder du följande åtgärder:
+
+* Välj **Lägg till fil** för att välja en fil.
+* Välj **Lägg till filer från standardurval** om du vill lägga till en fil som är associerad med e-postscenariot manuellt.
+* Välj **Lägg till fil från källdokument** om du vill välja en fil som är kopplad till det dokument som du arbetar med. Filerna är antingen kopplade till själva dokumentet eller en eller flera av dess linjer.
 
 ## Dokument markerade som utskrivna ut när de skickas
 
