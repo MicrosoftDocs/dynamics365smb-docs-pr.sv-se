@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Designdetaljer: Kostnadskomponenter
+# <a name="design-details-cost-components"></a>Designdetaljer: Kostnadskomponenter
 Kostnadkomponenter är olika typer av kostnader som utgör värdet på en lagerökning eller lagerminskning.  
 
  Följande tabell innehåller de olika kostnadskomponenterna och eventuella underordnade kostnadskomponenter som de består av.  
@@ -33,7 +33,7 @@ Kostnadkomponenter är olika typer av kostnader som utgör värdet på en lager�
 > [!NOTE]  
 >  Frakt- och försäkringskostnader är artikelomkostnader som kan läggas till i en artikels kostnad när som helst. När du kör batchjobbet **Justera kost. – artikeltrans** uppdateras värdet på alla relaterade lagerminskningar därefter.  
 
-## Se även  
+## <a name="see-also"></a>Se även
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Varians](design-details-variance.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
  [Ekonomi](finance.md)  

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# Kom i gång med synkronisering av huvuddata
+# <a name="get-ready-to-synchronize-master-data"></a>Kom i gång med synkronisering av huvuddata
 
 När två eller flera företag använder en del av samma huvuddata kan du synkronisera data i stället för att lägga till dem manuellt i varje företag. Till exempel synkronisering av data är särskilt användbart när du ställer in nya dotterbolag.
 
@@ -25,14 +25,14 @@ Huvuddata omfattar inställningar och icke-transaktionell information om affärs
 
 Du sätter upp synkronisering i dotterbolagen. Genom att använda en pull-modell hämtar dotterbolagen data från det källföretag som de behöver göra affärer med. När du har ställt in synkroniseringen och synkroniserat data första gången är allt klart. Jobbköposter uppdaterar kopplade poster i dotterbolagen när någon ändrar data i källföretaget.
 
-## Endast enkelriktad synkronisering
+## <a name="uni-directional-synchronization-only"></a>Endast enkelriktad synkronisering
 
 Du kan endast synkronisera data från källföretaget till dotterbolag med pullmetod. Dotterbolag kan inte skicka data till källföretaget.
 
 > [!NOTE]
 > Även om det är möjligt rekommenderar vi inte att du konfigurerar dubbelriktad synkronisering. Det vill säga att datasynkroniseras från källföretaget till dotterbolagen och från dotterbolagen till källföretaget. Om du synkroniserar data i båda riktningarna kan konflikter eller oönskade överskrivningar uppstå.
 
-## Innan du börjar
+## <a name="before-you-start"></a>Innan du börjar
 
 Följande är krav för att ställa in synkronisering.
 
@@ -42,7 +42,7 @@ Följande är krav för att ställa in synkronisering.
 > [!NOTE]
 > Licensen Teammedlem och Intern administratör låter någon komma åt men inte ändra poster, så den kan inte användas för att ställa in synkroniseringen. Med licensen Delegerad admin kan du inte schemalägga bakgrunds aktiviteter så du kommer inte att kunna slutföra installationen.
 
-## Ange källföretaget
+## <a name="specify-the-source-company"></a>Ange källföretaget
 
 De första stegen är att ange företaget som ska bli datakälla och aktivera synkronisering. Dotterbolag hämtar data från källföretaget.
 
@@ -56,7 +56,7 @@ De första stegen är att ange företaget som ska bli datakälla och aktivera sy
 
 Nästa steg är att aktivera tabeller och fält för synkronisering.
 
-## Aktivera eller inaktivera tabeller och fält
+## <a name="enable-or-disable-tables-and-fields"></a>Aktivera eller inaktivera tabeller och fält
 
 För att spara tid visar [!INCLUDE [prod_short](includes/prod_short.md)] en lista över de tabeller som företag ofta synkroniserar. Som standard är dessa tabeller aktiverade för synkronisering. Du kan ändra, inaktivera eller ta bort dem på det sätt som visas. Som en extra tidsbesparing är vissa fält i tabellerna redan inaktiverade eftersom de förmodligen inte är relevanta för dotterbolaget.
 
@@ -78,7 +78,7 @@ För att spara tid visar [!INCLUDE [prod_short](includes/prod_short.md)] en list
 > [!TIP]
 > Ett snabbt sätt att aktivera eller inaktivera flera fält samtidigt, är att markera dem i listan och sedan använda åtgärderna **aktivera** eller **inaktivera**.
 
-### Använd matchningsbaserad koppling
+### <a name="use-match-based-coupling"></a>Använd matchningsbaserad koppling
 
 Du kan ange vilka data som ska synkroniseras för en tabell genom att matcha poster baserat på villkor. På sidan **Hanteringskonfiguration för huvuddata** väljer du åtgärden **Matchningsbaserad koppling** för att öppna sidan **Välj kopplingsvillkor**. Du kan definiera följande kriterier för ditt matchande:
 
@@ -87,7 +87,7 @@ Du kan ange vilka data som ska synkroniseras för en tabell genom att matcha pos
 * De fält som ska användas för att matcha poster och om matchningen är skiftlägeskänslig.
 * Prioritera ordningen som posterna genomsöks i genom att ange en matchningsprioritet. [!INCLUDE [prod_short](includes/prod_short.md)] söker efter en matchning i stigande ordning baserat på matchningsprioritet. Ett tomt värde är lika med prioritet 0, som är högsta prioritet. Fält med prioritet 0 beaktas först.
 
-## Synkronisera för första gången
+## <a name="synchronize-for-the-first-time"></a>Synkronisera för första gången
 
 När du är klar väljer du åtgärden **Hanteringskonfiguration för huvuddata**, välj åtgärden **Starta inledande synkronisering**. På sidan **Första synkronisering av huvuddata**, välj den typ av synkronisering som du vill använda för varje tabell.
 
@@ -106,9 +106,9 @@ Medan synkroniseringen körs visar sidan **Jobbstatus** på sidan **Initiera ful
 
 Om du vill visa information om antalet poster som har infogats eller ändrats, kan du välja värdet i kolumnen **jobbstatus** för att öppna sidan **Visa – integrera synkroniseringsjobb** . När det gäller poster som har infogats kan du välja numret i kolumnen **infogad** för att få mer information om de nya posterna.
 
-## Lägg till eller ta bort tabeller från listan över synkroniseringstabeller
+## <a name="add-or-delete-tables-from-the-synchronization-tables-list"></a>Lägg till eller ta bort tabeller från listan över synkroniseringstabeller
 
-### Lägg till en tabell
+### <a name="add-a-table"></a>Lägg till en tabell
 
 > [!IMPORTANT]
 > Även om tabeller som innehåller transaktionsdata är tillgängliga i listan, till exempel tabeller som innehåller transaktioner, bör du inte välja dem. Synkronisering fungerar bara för tabeller som innehåller icke-transaktionella data.
@@ -117,7 +117,7 @@ Om du vill visa information om antalet poster som har infogats eller ändrats, k
 1. Välj **Ny** och välj sedan tabellen att lägga till.
 1. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### Ta bort en tabell
+### <a name="delete-a-table"></a>Ta bort en tabell
 
 > [!NOTE]
 > Om du tar bort en post i källföretaget tas den även bort i dotterbolaget. Detta förhindrar oönskad förlust av data. Dotterbolaget kan bestämma om tabellen ska tas bort.
@@ -125,10 +125,10 @@ Om du vill visa information om antalet poster som har infogats eller ändrats, k
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Synkroniseringstabeller** och välj relaterad länk.
 1. Välj åtgärden **Radera**.
 
-## Använd export och import för att dela en synkroniseringsinställningar
+## <a name="use-export-and-import-to-share-a-synchronization-setup"></a>Använd export och import för att dela en synkroniseringsinställningar
 
 Om du lägger upp flera dotter bolag som använder samma eller liknande synkroniseringsinställningar, finns det en tidsinställning. Skapa ett dotter bolag och exportera dess inställningar till en .xml-fil. Filen innehåller hela inställningarna, inklusive tabell- och fältmappningar och filterkriterier. Du kan sedan importera filen till nästa dotterbolag. För att importera eller exportera en inställning, på sidan **Hanteringskonfiguration för huvuddata** använd åtgärd **Importera** eller **Exportera**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera synkronisering av huvuddata](admin-sync-master-data.md)

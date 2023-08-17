@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# Genomgång av ankommande och avgående flöde i avancerad distributionslagerkonfiguration med dirigerad artikelinförsel och plockning
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Genomgång av ankommande och avgående flöde i avancerad distributionslagerkonfiguration med dirigerad artikelinförsel och plockning
 
 Den här genomgången visar hur man slutför inkommande och utgående flöden i konfigurationen Avancerad: dirigerad artikelinförsel och plockning. Mer information finns i avsnittet [Översikt över olika konfigurationsalternativ](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Förutsättningar  
+## <a name="prerequisites"></a>Förutsättningar
 För att slutföra denna genomgång måste du ange dig själv som distributionslagerpersonal på lagerstället *VIT* med de här stegen:  
 1. Välj ![glödlampan som öppnar funktionen Berätta 1.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
 2. Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
@@ -24,10 +24,10 @@ För att slutföra denna genomgång måste du ange dig själv som distributionsl
 4. Aktivera **standard** växling.
 
 
-## Scenario  
+## <a name="scenario"></a>Scenario
 Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåfyllning för att öka hastigheten på inleveranser och leveranstid.  
 
-## Steg
+## <a name="steps"></a>Steg
 
 1. Skapa distributionslagerutleverans.  
 
@@ -136,7 +136,7 @@ Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåf
     4. Bekräfta alternativet **leverans**.
 
 
-## Resultat
+## <a name="results"></a>Resultat
 - **Bokförda inleveranser till distributionslager** skapas
 - **Registrerad artikelinförsel för distributionslager** skapas    
 - **Bokförd inköpsinleverans** skapas    
@@ -150,7 +150,7 @@ Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåf
 
 
 
-## Se även
+## <a name="see-also"></a>Se även
 [Ta emot artiklar](../../warehouse-how-receive-items.md) 
 [Designdetaljer: Inkommande distributionslagerflöde](../../design-details-inbound-warehouse-flow.md) 
 [Leverera artiklar](../../warehouse-how-ship-items.md) 

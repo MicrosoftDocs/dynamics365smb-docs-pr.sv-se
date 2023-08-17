@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
 ---
-# Analysera data med statistiska konton
+# <a name="analyze-data-with-statistical-accounts"></a>Analysera data med statistiska konton
 
 Använda statistiska konton för att komplettera information i ekonomiska rapporter. Med statistiska konton kan du lägga till mått som bygger på icke-transaktionella data. Du lägger till icke-transaktionella data som nummerbaserade enheter, till exempel:
 
@@ -26,12 +26,12 @@ I fråga om hur de fungerar är statistiska konton likartade bokföringskonton. 
 
 Det finns några huvudskillnader mellan statistiska konton och bokföringskonton. Statistiska konton är separata entiteter och ingår inte i råbalansen. Du behöver inte heller balansera debet- och kreditbelopp när du använder statistiska kontojournaler för att bokföra transaktioner på ett statistik konto. Du bokför bara beloppet.
 
-## Skapa ett statistiskt konton
+## <a name="set-up-a-statistical-account"></a>Skapa ett statistiskt konton
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Statistiska konton** och väljer sedan relaterad länk.
 1. På snabbfliken **Allmänt** fyller du i fälten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Bokföra belopp till ett statistik konto
+## <a name="post-amounts-to-a-statistical-account"></a>Bokföra belopp till ett statistik konto
 
 1. Om du vill bokföra de belopp som du vill spåra väljer du tabellen **Statistiska konton** på sidan **Journal för statistiskt konto**.
 1. I fältet **Bokföringsdatum**, ange sista datum för den bokföringsperiod som du vill bokföra belopp för.
@@ -41,11 +41,11 @@ Det finns några huvudskillnader mellan statistiska konton och bokföringskonton
 1. Ange det belopp som ska bokföras i fältet **Belopp**. 
 1. Valfritt: Om du vill inkludera statistiska kontot i mer avancerade analyser, ange dimensioner i fälten **Avdelningskod** och **Kundgruppkod**. Om du vill lära dig mer om dimensioner går du till [Analysera data per dimension](bi-how-analyze-data-dimension.md).
 
-## Verifiera belopp till ett statistik konto
+## <a name="verify-statistical-account-amounts"></a>Verifiera belopp till ett statistik konto
 
 På sidan **statistiska konton** använder du åtgärden **statistiskt kontosaldo** för att kontrollera att de registrerade beloppen är korrekta för varje period.  
 
-## Ta med statistiskt kontot i en finansiell rapport
+## <a name="include-the-statistical-account-in-a-financial-report"></a>Ta med statistiskt kontot i en finansiell rapport
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
 1. Skapa en ny finansiell rapport på något av följande sätt:
@@ -61,7 +61,7 @@ På sidan **statistiska konton** använder du åtgärden **statistiskt kontosald
 1. I fältet **Radtyp** väljer du om du vill visa saldot på bokföringsdatumet eller början av bokföringsperioden eller om du vill visa ändringen av beloppet under perioden.
 1. Fyll i resterande fält. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Financial Business Intelligence](bi.md)  
 [Ekonomisk rapportering och analys i Business Central](finance-reports.md)

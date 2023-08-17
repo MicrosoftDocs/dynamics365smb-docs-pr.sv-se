@@ -11,9 +11,9 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# Snabbguide för kortkommandon – endast dator
+# <a name="keyboard-quick-reference---pc-only"></a>Snabbguide för kortkommandon – endast dator
 
-#### Allmänt
+#### <a name="general"></a>Allmänt
 
 |Välj dessa tangenter|Om du vill|  
 |-|-|
@@ -39,7 +39,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Flytta fokus till nästa/föregående element|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Flytta till nästa snabbflik/del|
 
-#### Navigera och markera rader
+#### <a name="navigate--select-rows"></a>Navigera och markera rader
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
@@ -53,14 +53,14 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Markera synliga rader ovanför/nedanför|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Fokusera ut från listan|
 
-#### Kopiera och klistra in
+#### <a name="copy--paste"></a>Kopiera och klistra in
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopiera/klistra in rader|
 |<kbd>F8</kbd>|Kopiera fält ovan till aktuell rad|
 
-#### Sök, filtrera och sortera
+#### <a name="search-filter--sort"></a>Sök, filtrera och sortera
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
@@ -71,20 +71,20 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Lägg till filter i markerat fält fält|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Återställ filter|
 
-#### Snabbinmatning
+#### <a name="quick-entry"></a>Snabbinmatning
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Gå till nästa snabbinmatningsfält utanför en lista|
 |<kbd>Enter</kbd>/<kbd>Shift</kbd>+<kbd>Enter</kbd>|Gå till nästa/föregående snabbinmatningsfält|
 
-##### Förhandsgranskning av rapport
+##### <a name="report-preview"></a>Förhandsgranskning av rapport
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Gå till första/sista sidan|
 
-#### Numeriskt tangentbord
+#### <a name="numeric-keypad"></a>Numeriskt tangentbord
 
 |Välj dessa tangenter|Om du vill|  
 |-|-|

@@ -11,7 +11,7 @@ ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# Använda arbetsflöden för godkännande
+# <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
 
 Ett arbetsflöde är en serie uppgifter som utlöses av en åtgärd, ett villkor eller en regel. Arbetsflöden används vanligtvis för att integrera affärslogiken i en organisation, till exempel separation av uppgifter, förena processer eller för att använda bästa praxis.
 
@@ -64,9 +64,9 @@ Innan du kan börja använda arbetsflöden måste du konfigurera arbetsflödesan
 | Visa avslutade instans för arbetsflödessteg med statusen **Avslutat**. | [Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md) |
 | Ta bort ett arbetsflöde för godkännande som du vet inte ska användas längre. | [Ta bort arbetsflöden för godkännande](across-how-to-delete-workflows.md) |
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)  
 [Arbetsflöde](across-workflow.md)  

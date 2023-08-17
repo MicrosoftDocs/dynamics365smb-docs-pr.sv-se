@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Designdetaljer: Integrering med lager
+# <a name="design-details-integration-with-inventory"></a>Designdetaljer: Integrering med lager
 
 Lagerledningsmodulen och lagerfunktioner interagerar med varandra i inventeringsjournalen och i lager- eller distributionslagerjustering.  
 
-## Fysiskt lager  
+## <a name="physical-inventory"></a>Fysiskt lager
 
 Sidan **Dist.lager inventeringsjournal** används med sidan **Inventeringsjournal** för alla avancerade distributionslagerplatser. Lagret på lagerplatsnivå beräknas, och en utskriven lista levereras till lagerpersonalen. Listan visar vilka artiklar i vilka lagerplatser som ska inventeras.  
   
@@ -30,7 +30,7 @@ När du bokför inventeringjournalen uppdateras lagret och standardjusteringlage
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## Distributionslagerjusteringar till artikeltransaktioner  
+## <a name="warehouse-adjustments-to-the-item-ledger"></a>Distributionslagerjusteringar till artikeltransaktioner
 
 Du kan använda sidan **Artikeljournal** och funktionen **Beräkna dist.lager justering** för att justera lagret i artikeltransaktioner i enlighet med en justering som har gjorts av objektantalet på en lagerplats i distributionslagret. För att skapa en koppling mellan lagret och distributionslagret måste du definiera en standardjusteringlagerplats per lagerställe.  
   
@@ -43,7 +43,7 @@ Om du vill justera lagerplatsinnehåll kan du använda distributionslagerartikel
   
 Om du anger ett positivt antal och bokför raden ökar lagret som lagras på lagerplatsen, och antalet på standardjusteringslagerplatsen minskar på motsvarande sätt.  
   
-## Se även  
+## <a name="see-also"></a>Se även
 
 [Hantering av distributionslager – översikt](design-details-warehouse-management.md)  
 [Designdetaljer: Disposition i distributionslagret](design-details-availability-in-the-warehouse.md)  
