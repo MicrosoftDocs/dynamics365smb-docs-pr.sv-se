@@ -1,19 +1,18 @@
 ---
 title: Avskrivningsmetoder för anläggningstillgångar
-description: Lär dig mer om de olika inbyggda metoderna för att skriva av eller skriva ned anläggningstillgångar i standardversionen av Business Central som inkluderar åtta metoder.
-author: edupont04
+description: Lär dig mer om de olika inbyggda metoderna för avskrivning eller nedskrivning av anläggningstillgångar.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: write down
+ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
-ms.date: 07/05/2021
-ms.author: edupont
+ms.date: 08/08/2023
+ms.custom: bap-template
 ---
 # Avskrivningsmetoder för anläggningstillgångar
 
-Det finns åtta avskrivningsmetoder tillgängliga i standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)]:  
+Det finns åtta avskrivningsmetoder tillgängliga i [!INCLUDE [prod_short](includes/prod_short.md)]:  
 
 * Linjär  
 * Degressiv 1  
@@ -23,15 +22,15 @@ Det finns åtta avskrivningsmetoder tillgängliga i standardversionen av [!INCLU
 * Användardefinierad  
 
   > [!NOTE]  
-  > Ange din egen avskrivningsmetod genom att definiera avskrivningstabeller. Information om hur du tillämpar en användardefinierad avskrivningsmetod finns i [Konfigurera användardefinierad avskrivningsmetod](fa-how-setup-user-defined-depreciation-method.md).
+  > Ange din egen avskrivningsmetod genom att definiera avskrivningstabeller. Mer information om hur du tillämpar en användardefinierad avskrivningsmetod finns i [Konfigurera användardefinierad avskrivningsmetod](fa-how-setup-user-defined-depreciation-method.md).
 * Manuell  
 
   > [!NOTE]  
-  > Du kan använda den här metoden för tillgångar som du inte längre kan skriva av, exempelvis mark. Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar. Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där denna avskrivningsmetod används.  
+  > Använd den manuella metoden för tillgångar som inte längre kan skriva av, exempelvis mark. Du måste föra in avskrivningen i redovisningsjournalen för anläggningstillgångar. Batch-jobbet **Beräkna avskrivning** utesluter anläggningstillgångar där den manuella avskrivningsmetoden används.  
 * Halvårspraxis  
 
   > [!NOTE]  
-  > När du använder den här metoden avskrivs en anläggningstillgång med samma belopp varje år.  
+  > Denna metod gör en avskrivning av en anläggningstillgång med samma belopp varje år.  
 
 ## Linjär avskrivning
 
@@ -42,7 +41,7 @@ När du använder den linjära metoden måste du ange ett av följande alternati
 * ett fast årligt belopp  
 * avskrivningsperiod  
 
-### Avskrivningsperiod
+### avskrivningsperiod
 
 Om du anger en avskrivningsperiod (antal avskrivningsår, antal avskrivningsmånader eller slutdatum för avskrivningen) används den här formeln vid beräkning av avskrivningsbeloppet:  
 
@@ -54,15 +53,15 @@ Bokföringsvärdet kan minskas genom bokförd uppskrivning, nedskrivning, val 1
 
 ### Fast årlig procentsats
 
-Om du anger en fast årlig procentsats används följande formel vid beräkning av avskrivningsbeloppet:  
+Om du anger en fast årlig procentsats använder [!INCLUDE [prod_short](includes/prod_short.md)] följande formel vid beräkning av avskrivningsbeloppet:  
 
 *Avskrivningsbelopp = (Linjär % × Avskrivningsbas × Antal avskr.dagar) / (100 × 360)*  
 
 ### Fast årligt belopp
 
-Om du anger ett fast årligt belopp används följande formel vid beräkning av avskrivningsbeloppet:  
+Om du anger ett fast årligt belopp använder [!INCLUDE [prod_short](includes/prod_short.md)] följande formel vid beräkning av avskrivningsbeloppet:  
 
-*Avskrivningsbelopp = (Fast avskrivningsbelopp × Antal avskrivningsdagar) / 360*  
+* *Avskrivningsbelopp = (Fast avskrivningsbelopp × Antal avskrivningsdagar) / 360*  
 
 ### Exempel – linjär avskrivningsmetod
 
@@ -82,17 +81,17 @@ För detta exempel ser anläggningstillgångstransaktionen ut så här:
 
 ## Degressiv 1, avskrivning
 
-Det här är en accelererande avskrivningsmetod som fördelar den största delen av kostnaden för en tillgång på de första åren av tillgångens livslängd. Om du använder den här metoden måste du ange en fast årlig procentsats.  
+Det här är en avskrivningsmetod som fördelar den största delen av kostnaden för en tillgång på de första åren av tillgångens livslängd. Om du använder den här metoden måste du ange en fast årlig procentsats.  
 
 Följande formel beräknar avskrivningsbelopp:  
 
-*Avskrivningsbelopp = (Degressiv % × Antal avskr.dagar × Avskrivningsbas) / (100 × 360)*  
+* *Avskrivningsbelopp = (Degressiv % × Antal avskr.dagar × Avskrivningsbas) / (100 × 360)*  
 
-Avskrivningsbasen beräknas som bokföringsvärdet för den lägsta bokförda avskrivningen sedan startdatumet för det aktuella räkenskapsåret.  
+Avskrivningsbasen beräknas som bokföringsvärdet vid årets början. Antalet avskrivningsdagar är antalet dagar mellan bokföringsdatum och sista avskrivningsdatum. [!INCLUDE [prod_short](includes/prod_short.md)] beräknar avskrivning under antagande att eventuell avskrivning som gjorts under räkenskapsåret görs med denna formel.  
 
 Det bokförda avskrivningsbeloppet kan innehålla transaktioner av olika bokföringstyper (nedskrivning, val 1 och val 2) som har bokförts efter startdatumet för det aktuella räkenskapsåret. De här bokföringstyperna inkluderas i det bokförda avskrivningsbeloppet om fälten **Avskrivningstyp** och **Ingår i bokföringsvärde** är markerade på sidan **Anl. inställning bokföring**.  
 
-### Exempel – Degressiv 1, avskrivning
+### Exempel 1 – Degressiv 1, avskrivning
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** är 25. Batch-jobbet **Beräkna avskrivning** körs två gånger per år.  
 
@@ -121,6 +120,28 @@ Beräkningsmetod:
 * År 3: *25 % av 56 250 = 14 062,50 = 7 031,25 + 7 031,25*
 
 Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.  
+
+### Exempel 2 – Degressiv 1, avskrivning
+
+En tillgångs bokförda värde är 100 000 den 2022-12-31. Du bokför en avskrivning på 1 778 den 2023-02-02, vilket är det förväntade (proportionella) beloppet för årets avskrivning efter 32 dagar. Om du kör avskrivning den 2023-06-30 kommer [!INCLUDE [prod_short](includes/prod_short.md)] att föreslå 8 222, eftersom det finns 148 dagar från 2023-02-02 till 2023-06-30. Den förväntade återstående avskrivningen för 2023-06-30 beräknas med följande formel:
+
+* *148/360 x 0,20 x 100 000 = 8 222*
+
+### Exempel 3 – Degressiv 1, avskrivning
+
+Om du bokför ett belopp som inte överensstämmer med avskrivningsmetoden för degressiv 1, t.ex. 5 000 föreslår [!INCLUDE [prod_short](includes/prod_short.md)] återstoden av det förväntade beloppet.
+
+En tillgångs bokförda värde är 100 000 den 2022-12-31. Du bokför en avskrivning på 5 000 den 2023-02-02, vilket är mer än det förväntade (proportionella) beloppet 2023-02-02 på 32 dagar. Om du kör avskrivning den 2023-06-30 kommer [!INCLUDE [prod_short](includes/prod_short.md)] att föreslå 8 222, eftersom det finns 148 dagar från 2023-02-02 till 2023-06-30. Den förväntade återstående avskrivningen för 2023-06-30 beräknas med följande formel:
+
+* *148/360 x 0,20 x 100 000 = 8 222*
+
+### Exempel 4 – Degressiv 1, avskrivning
+
+En tillgångs bokförda värde är 100 000 den 2023-12-31. Du bokför en avskrivning på 95 000 den 2023-02-02, vilket överstiger årets tillåtna avskrivningsbelopp. Om du kör avskrivning den 2023-06-30 kommer [!INCLUDE [prod_short](includes/prod_short.md)] att föreslå 5 000, eftersom det finns 148 dagar från 2023-02-02 till 2023-06-30. Den förväntade återstående avskrivningen för 2023-06-30 beräknas med följande formel: 
+
+* *148/360 x 0,20 x 100 000 = 8 222*
+
+Det återstående bokförda värdet är dock bara 5 000, så [!INCLUDE [prod_short](includes/prod_short.md)] föreslår 5 000 eftersom ett bokfört värde inte kan vara negativt.
 
 ## Degressiv 2, avskrivning
 
@@ -159,7 +180,7 @@ Avskrivningsvärdena är:
 | 21-06-30 |DA = 75 000,00 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 10 048,09 |
 | 21-12-31 |DA = 64 951,91 x (1 – (1 – 0,25)<sup>0,5</sup>) = 8 701,91 |
 
-## DB1/SL Avskrivning
+## DB1/SL avskrivning
 
 DEG1/LIN är en förkortning av Degressiv 1 och Linjär. Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.  
 
@@ -219,7 +240,7 @@ Beräkningsmetod:
 
 Metoden Halvårspraxis kan endast användas om du har markerat fältet **Använd halvårsgammal** på sidan **Avskrivningsregel för anl.tillg.**.  
 
-Den här avskrivningsregeln kan användas tillsammans med följande avskrivningsmetoder i programmet:  
+Den här avskrivningsregeln kan användas med följande avskrivningsmetoder:  
 
 * Linjär  
 * Degressiv 1  
@@ -284,9 +305,12 @@ Beräkningsmetod:
 
 ## Kopiera transaktioner till fler avskrivningsregler
 
-Om du har tre avskrivningsregler, B1, B2 och B3, och vill kopiera transaktioner från B1 till B2 och B3 kan du markera fältet **Ingår i dubblettlista** på avskrivningsregelkorten för B2 och B3. Detta är praktiskt om avskrivningsregel B1 är integrerad med redovisningen samt använder redovisningsjournalen för anläggningstillgångar och om avskrivningsreglerna B2 och B3 inte är integrerade med redovisningen och använder journalen för anläggningstillgångar.  
+Om du har tre avskrivningsregler, B1, B2 och B3, och vill kopiera transaktioner från B1 till B2 och B3 kan du markera kryssrutan **Ingår i dubblettlista** på avskrivningsregelkorten för B2 och B3. Den här inställningen är t.ex. användbar i följande situationer:
 
-När du registrerar en transaktion i B1 i redovisningsjournalen för anläggningstillgångar och markerar fältet **Använd dubblettlista** kopieras transaktionen till regel B2 och B3 i journalen för anläggningstillgångar när transaktionen har bokförts.  
+* Avskrivningsregel B1 integreras med redovisningen och använder redovisningsjournalen för anläggningstillgångar.
+* Avskrivningsregel B2 och B3 integreras inte med redovisningen och använder journalen för anläggningstillgångar.  
+
+När du gör en transaktion i B1 i redovisningsjournalen för anläggningstillgångar och markerar kryssrutan **Använd dubblettlista**, [!INCLUDE [prod_short](includes/prod_short.md)] dupliceras transaktionen i regel B2 och B3 i journalen för anläggningstillgångar när transaktionen har bokförts.  
 
 > [!NOTE]  
 > Du kan inte kopiera till samma journal som du kopierar från. Om du bokför transaktioner i redovisningsjournalen för anläggningstillgångar kan du kopiera dem till journalen för anläggningstillgångar eller till redovisningsjournalen för anläggningstillgångar med hjälp av en annan journal.  
@@ -303,6 +327,5 @@ När du registrerar en transaktion i B1 i redovisningsjournalen för anläggning
 [Ekonomi](finance.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
