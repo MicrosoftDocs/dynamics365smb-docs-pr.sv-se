@@ -6,18 +6,18 @@ ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30101, 30102'
 ms.reviewer: solsen
-author: AndreiPanko
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="create-and-set-up-a-shopify-account"></a>Skapa och ställa in ett Shopify konto
+# Skapa och ställa in ett Shopify konto
 
 Om du funderar på att använda Shopify som näthandelslösning och behöver ett konto för att validera det Shopify integrerade arbetsflödet har du följande alternativ:
 
 - Få en testversion. Detta är den vanligaste startpunkten för slutanvändare.  
 - Skapa utvecklingsbutiker. Det här tillvägagångssättet är för partner som utför återkommande demonstrationer, utbildningar och support.
 
-## <a name="trial-end-user"></a>Utvärderingsversion (slutanvändare)
+## Utvärderingsversion (slutanvändare)
 
 Gå till [Shopify webbplatsen ](https://www.shopify.com) och använd ditt e-postkonto för administratörskontot för att registrera dig för en kostnads fri utvärderingsversion. Mer information om hur du skapar och anpassar onlinebutiken finns i [Shopify hjälpcenter](https://help.shopify.com/).
 
@@ -36,7 +36,7 @@ I **Shopify Admin** av skapad butik tillämpa följande **inställningar**:
 > [!Important]  
 > Glöm inte att avbryta din Shopify utvärdering om du vill undvika betalningar.
 
-## <a name="development-store"></a>Utvecklingsbutik
+## Utvecklingsbutik
 
 Börja med att ansluta till [Shopify partnerprogrammet](https://help.shopify.com/partners/about). Därefter använder du **instrumentpanelen för partnern** för att skapa ett utvecklingslager. Läs mer i [Skapa utvecklingsbutiker](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -53,7 +53,7 @@ När du har skapat butiken i **Shopify Admin** av skapad butik tillämpa följan
 > [!Note]  
 > Utvecklingsarkiv är oftast lösenordsskyddade. När du försöker öppna en specifik sida i onlinebutiken från [!INCLUDE [prod_short](../includes/prod_short.md)], t.ex. gå till en viss produkt eller order, måste du ange lösenordet. När du testar behöver du inte ange ditt lösenord, logga in på Shopify administratören och öppna butiken därifrån. Du behöver inte ange butikens lösenord förrän du stänger webbläsaren eller så upphör sessionen att gälla.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Komma i gång med Shopify-anslutningsprogrammet](get-started.md)  
 [Genomgång: ställa in och använda Shopify anslutningsprogram](walkthrough-setting-up-and-using-shopify.md)

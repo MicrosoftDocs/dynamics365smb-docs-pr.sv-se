@@ -10,7 +10,7 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Uppgradera en integrering med Dynamics 365 Sales
+# Uppgradera en integrering med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] integreras också med [!INCLUDE[prod_short](includes/cds_long_md.md)], vilket gör det enkelt att ansluta och synkronisera data med andra Dynamics 365-program, till exempel [!INCLUDE[crm_md](includes/crm_md.md)] eller till och med appar som du själv skapar. Om du integrerar för första gången rekommenderar vi att du gör det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Mer information finns i [Integrera med Dataverse](admin-common-data-service.md).
 
 Om du redan har integrerat [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)] kan du fortsätta att synkronisera data med hjälp av dina inställningar. Om du uppgraderar [!INCLUDE[prod_short](includes/prod_short.md)] eller stänger av [!INCLUDE[crm_md](includes/crm_md.md)]-integreringen måste du emellertid ansluta dig via [!INCLUDE[prod_short](includes/cds_long_md.md)] för att aktivera den igen. 
@@ -18,7 +18,7 @@ Om du redan har integrerat [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[
 > [!NOTE]
 > När du återansluter via [!INCLUDE[prod_short](includes/cds_long_md.md)] används standardinställningarna för synkroniseringen, och eventuella konfigurationsinställningar skrivs över. Till exempel tillämpas standardmappningarna för tabeller.
 
-## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Så här uppgraderar du anslutningen till att använda Dataverse
+## Så här uppgraderar du anslutningen till att använda Dataverse
 1. Öppna sidan **Konfiguration av anslutning till Microsoft Dynamics 365** stänger du av reglaget **Aktiverad**. Stäng sedan sidan att koppla från [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Öppna sidan **Dataverse anslutningsinställningar** och välj **Ägarskapsmodlel**, välj **Person**. Välj sedan växlingen **Aktivera** för att aktivera anslutningen till [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
@@ -34,7 +34,7 @@ Om du redan har integrerat [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[
    > [!IMPORTANT]
    > När du använder åtgärden **Använd standardsynkronisering** tillämpas standardmappningar för integreringstabell. Alla anpassade mappningar skrivs över. Om du har anpassade mappningar som du vill behålla rekommenderar vi att du exporterar dem till Excel eller pratar med din Microsoft-partner om andra sätt att behålla dina egna mappningar.    
 
-## <a name="see-also"></a>Se även
+## Se även
 [Integrering med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Integrera med Microsoft Dataverse](admin-common-data-service.md)
 

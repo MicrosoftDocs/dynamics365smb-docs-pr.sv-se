@@ -1,16 +1,16 @@
 ---
 title: Servicehantering
 description: Lär dig att använda funktioner i Business Central-utformade hantera och spåra tjänster för att stödja reparationsverkstads- och Field Service-operationer.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="service-management"></a>Servicehantering
+# Servicehantering
 > [!NOTE]
 > Funktionen som beskrivs i det här avsnittet och underavsnitt visas endast i användargränssnittet om du har **Premium**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
@@ -36,7 +36,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Skapa och hantera avtal mellan dig och kunderna.|[Uppfylla servicekontrakt](service-fulfill-service-contracts.md)|  
 |Ge kunder service och fakturera serviceorder.|[Leverera service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Hantera kundreskontra](receivables-manage-receivables.md)   
 [Projekt](projects-how-create-jobs.md)   
 [Välkommen till[!INCLUDE[prod_long](includes/prod_long.md)] ](welcome.md)

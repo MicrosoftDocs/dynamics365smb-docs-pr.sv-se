@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/05/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Gå till [provwebbplatsen](https://go.microsoft.com/fwlink/?linkid=847861), välj *Ekonomi och åtgärder* och sedan, på **Dynamics 365 Business Central**-kortet, väljer du knappen **Prova gratis**.  
 2. Ange din e-postadress och andra uppgifter för ditt jobb eller skolan. Du kommer att omdirigeras till din utvärderingsversion på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

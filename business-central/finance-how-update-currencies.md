@@ -1,18 +1,18 @@
 ---
 title: Uppdatera valutakurser (innehåller video)
 description: Om du spårar belopp i olika valutor kan du låta Business Central hjälpa dig att justera valutakurser för bokförda transaktioner med en extern tjänst.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: 'multiple currencies, adjust exchange rates, FX rates'
 ms.search.form: '5, 118'
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="update-currency-exchange-rates"></a>Uppdatera valutakurser
+# Uppdatera valutakurser
 
 Du kan definiera olika valutor i [!INCLUDE [prod_short](includes/prod_short.md)], till exempel om du gör affärer i andra valutor än den lokala valutan. För att hjälpa dig att hålla reda på förändringar i valutakurserna kan du sedan hantera valutorna manuellt, eller också ställa in en tjänst för valutakurs.
 
-## <a name="currencies"></a>Valutor
+## Valutor
 
 > [!TIP]  
 > Om du söker efter realtidsinformation om valutakurser i utländsk valuta (FX) eller historiska kurser i [!INCLUDE[prod_short](includes/prod_short.md)], hittar du den som "valuta". Förutom denna artikel, se även [Konfigurera en Alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Du kan definiera olika valutor i [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Du anger valutakoder i listan **Valutor**, inklusive extra information och inställningar som behövs för respektive valutakod. Mer information finns i [Valutor](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Exempel på en transaktion med ingående valuta
+### Exempel på en transaktion med ingående valuta
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Valutakurser
+## Valutakurser
 
 Valutakurserna är det verktyg som används för att beräkna värdet i den lokala valutan (BVA) för respektive valutatransaktion. Sidan **Valutakurser** innehåller följande fält:
 
@@ -54,7 +54,7 @@ Det justerade valutakursbeloppet eller det relationella justeringsvalutakursbelo
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates"></a>Justera valutakurser
+## Justera valutakurser
 
 Eftersom valutakurser ständigt fluktuerar måste alternativa valutavärden i systemet justeras med jämna mellanrum. Om dessa justeringar inte görs kan de belopp som har konverterats från utländska (eller alternativa) valutor och bokförts i huvudboken i BVA vara missvisande. Dessutom måste dagliga transaktioner som bokförs innan en daglig valutakurs har registrerats i programmet uppdateras efter det att den dagliga valutakursinformationen har registrerats.
 
@@ -69,28 +69,28 @@ Du kan förhandsgranska den effekt som en justering har för att bokföra innan 
 - **Per redovisningskonto**: redovisningstransaktioner för orealiserade vinster och förluster kommer att ha dimensionsvärden som överförs från redovisningskontot för orealiserade vinster och förluster i dimensionsinställningar.
 - **Ingen överföring**: redovisningstransaktioner för orealiserade vinster och förluster saknar dimensionsvärden.
 
-### <a name="effect-on-customers-and-vendors"></a>Påverkan på kunder och leverantörer
+### Påverkan på kunder och leverantörer
 
 För kund- och leverantörskonton justeras valutan med hjälp av valutakursen från det bokföringsdatum som angetts i batchjobbet. I batch-jobbet beräknas skillnaderna för enskilda valutasaldon och beloppen bokförs på det redovisningskonto som angetts i fältet **Kursvinster väntade** eller **Kursförluster befarade** på sidan **Valutor**. Mottransaktioner bokförs automatiskt till redovisningens försäljnings-/inköpskonto.
 
 Batch-jobbet behandlar alla öppna kundredovisningstransaktioner och leverantörstransaktioner. Om det finns valutakursdifferens i någon transaktion skapas i batch-jobbet en ny detaljerad kund- eller leverantörstransaktion som återger det justerade beloppet på kund- eller leverantörstransaktionen.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensioner på kund-/leverantörstransaktioner
+#### Dimensioner på kund-/leverantörstransaktioner
 
 Justeringstransaktionerna tilldelas dimensioner från kund-/leverantörsreskontratransaktionerna, och justeringarna bokförs per kombination av dimensionsvärden.
 
-### <a name="effect-on-bank-accounts"></a>Påverkan på bankkonton
+### Påverkan på bankkonton
 
 För bankkonton justerar batchjobbet valutan efter valutakursen på det bokföringsdatum som angetts i batchjobbet. I batch-jobbet beräknas skillnaderna för varje bankkonto med valutakod och beloppen bokförs på det redovisningskonto som angetts i fältet **Kursvinster konstaterade** eller **Kursförluster konstaterade** på sidan **Valutor**. Mottransaktioner bokförs automatiskt på de redovisningsbankkonton som angetts i bankkontobokföringsmallarna. Batch-jobbet beräknar en transaktion per valuta per bokföringsmall.
 
-#### <a name="dimensions-on-bank-account-entries"></a>Dimensioner för bankkontotransaktioner
+#### Dimensioner för bankkontotransaktioner
 
 Justeringstransaktionerna för bankkontots redovisningskonto och för vinst-/förlustkontot tilldelas bankkontots standarddimensioner.
 
-### <a name="effect-on-gl-accounts"></a>Påverkan på redovisningskonton
+### Påverkan på redovisningskonton
 Om du bokför i alternativ rapporteringsvaluta kan du låta nya redovisningstransaktioner för valutajusteringar mellan BVA och den alternativa rapporteringsvalutan skapas i batch-jobbet. I batch-jobbet beräknas differenser för varje redovisningstransaktion och redovisningstransaktionen justeras enligt innehållet i fältet **Valutakursjustering** för varje redovisningskonto.
 
-##### <a name="dimensions-on-gl-account-entries"></a>Dimensioner för redovisningskontotransaktioner
+##### Dimensioner för redovisningskontotransaktioner
 Justeringstransaktionerna tilldelas dimensioner från de redovisningskonton de bokförs på.
 
 > [!Important]
@@ -98,7 +98,7 @@ Justeringstransaktionerna tilldelas dimensioner från de redovisningskonton de b
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>Så här konfigurerar du en valutakurstjänst
+## Så här konfigurerar du en valutakurstjänst
 Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig uppdatering av aktuella valutakurser. 
 
 > [!NOTE]
@@ -116,15 +116,15 @@ Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig up
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a>Så här uppdaterar du valutakurser från en tjänst
+## Så här uppdaterar du valutakurser från en tjänst
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.
 2. Välj åtgärden **uppdatera valutakurser**.
 
 Värdet i fältet **valutakurs** på sidan **valutor** uppdateras med den senaste valutakursen.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Valutor i Business Central](finance-currencies.md)  
 [Konfigurera valutor](finance-set-up-currencies.md)  

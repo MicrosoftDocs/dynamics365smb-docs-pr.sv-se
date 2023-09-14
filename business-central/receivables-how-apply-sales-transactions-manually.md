@@ -1,7 +1,7 @@
 ---
 title: Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner
 description: Beskriver hur du använder inbetalningar eller återbetalningar för kunder till en eller flera öppna kundreskontratransaktioner. Det är en del av att stämma av kundbetalningar.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'payment process, cash receipt'
 ms.search.form: '25, 255'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner
+# Stäm av kundbetalningar med inbetalningsjournalen eller från kundreskontratransaktioner
 
 När du får en kontant betalning från en kund eller ger en kontant återbetalning kan du använda betalningen eller återbetalningen för att stänga öppna debet eller kredit. Du kan ange det belopp som du vill koppla. Du kan till exempel använda delbetalningar till kundreskontratransaktioner. Att avsluta kundreskontratransaktioner håller kundstatistik, kontoutdrag, ekonomiavgifter och så vidare uppdaterad.
 
@@ -31,7 +31,7 @@ Du kan koppla kundreskontratransaktioner på olika sätt:
 > [!NOTE]  
 >   Om fältet **Avräkningsmetod** på kundkortet innehåller **Koppla till äldsta faktur**, kommer betalningen att kopplas till den äldsta öppna kredittransaktionen om du inte manuellt anger en transaktion. Om avräkningsmetoden för en leverantör är **Manuell** måste du alltid koppla transaktioner manuellt.
 
-## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Så här fyller du i och bokför en inbetalningsjournal:
+## Så här fyller du i och bokför en inbetalningsjournal:
 En inbetalningsjournal är en typ av redovisningsjournal. Du kan använda den för att bokföra transaktioner på redovisningskonton, bankkonton, kundkonton, leverantörskonton och konton för anläggningstillgångar. Du kan applicera betalningen på en eller flera debetposter när du bokför betalningen. Du kan även koppla från de bokförda transaktionerna senare.
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inbetalningsjournal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Redigera journal**.
@@ -48,7 +48,7 @@ En inbetalningsjournal är en typ av redovisningsjournal. Du kan använda den f�
 11. Välj kontantkontot för kontantbetalningar eller rätt bankkonto för andra typer av betalningar i fältet **Motkonto**.
 12. Bokför journalen.
 
-## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Så här kopplar du en betalning till en enskild kundreskontratransaktion
+## Så här kopplar du en betalning till en enskild kundreskontratransaktion
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inbetalningsjournal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Redigera journal**.
 3. Ange information om den transaktion som ska kopplas på den första journalraden.
@@ -63,7 +63,7 @@ En inbetalningsjournal är en typ av redovisningsjournal. Du kan använda den f�
 10. Välj **OK**. På sidan **Inbetalningsjournal** visas nu transaktionen i fälten **Kopplas till dokumenttyp** och **Kopplas till ver.nr.**
 11. Bokför inbetalningsjournalen.
 
-## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Så här kopplar du en betalning till flera kundreskontratransaktioner
+## Så här kopplar du en betalning till flera kundreskontratransaktioner
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inbetalningsjournal** och väljer sedan relaterad länk.
 2. Välj åtgärden **Redigera journal**.
 3. Ange information om den transaktion som ska kopplas på den första journalraden.
@@ -79,7 +79,7 @@ En inbetalningsjournal är en typ av redovisningsjournal. Du kan använda den f�
 11. Välj **OK**.
 12. Bokför inbetalningsjournalen.
 
-## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Så här kopplar du en kreditnota till en enskild kundreskontratransaktion
+## Så här kopplar du en kreditnota till en enskild kundreskontratransaktion
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningskreditnotor** och väljer sedan relaterad länk.
 2. Öppna relevant försäljningskreditnota.
 3. Om du vill koppla kreditnotan till en enskild kundreskontratransaktion vid bokföring klickar du på snabbfliken **Kopplas till ver.nr** och väljer den transaktion som du vill koppla betalningen till.
@@ -89,7 +89,7 @@ En inbetalningsjournal är en typ av redovisningsjournal. Du kan använda den f�
 5. Välj knappen **OK**. På sidan **Försäljningskreditnota** visas nu transaktionen som du har valt i fälten **Kopplas till dokumenttyp** och **Kopplas till ver.nr.** Och beloppet på den kreditnota som ska bokföras justerat för eventuell kassarabatt.
 6. Bokför kreditnotan.
 
-## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Så här kopplar du en kreditnota till flera kundreskontratransaktioner
+## Så här kopplar du en kreditnota till flera kundreskontratransaktioner
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningskreditnotor** och väljer sedan relaterad länk.
 2. Öppna relevant försäljningskreditnota.
 3. Om du vill koppla kreditnotan till flera kundreskontratransaktioner vid bokföringen väljer du åtgärden **Koppla transaktioner**.
@@ -100,7 +100,7 @@ En inbetalningsjournal är en typ av redovisningsjournal. Du kan använda den f�
 6. Välj knappen **OK**. Sidan **Förs.kreditnota** innehåller nu beloppet på den kreditnota som ska bokföras justerat med eventuell kassarabatt.
 7. Bokför kreditnotan.
 
-## <a name="to-apply-posted-customer-ledger-entries"></a>Så här kopplar du bokförda kundreskontratransaktioner
+## Så här kopplar du bokförda kundreskontratransaktioner
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Öppna kundkortet för kunden med transaktionerna som du vill koppla.
 3. Välj åtgärden **Transaktioner** och välj sedan raden med transaktionen som ska vara kopplingstransaktionen.
@@ -120,7 +120,7 @@ I transaktionslistan på raden som innehåller transaktionen som helt kopplades 
 > [!NOTE]  
 >   När du har valt en post på sidan **Koppla kundtransaktioner** eller flera poster genom att anger **Koppla till ID** kommer fältet **Kopplat belopp** på journalraden att innehålla summan av de återstående beloppen för de bokförda poster som du har valt, om inte fältet redan innehåller något värde. Om du väljer **Koppla till äldsta trans.** i fältet **Avräkningsmetod** på kundkortet utförs kopplingen automatiskt.
 
-## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Så här kopplar du kundreskontratransaktioner i olika valutor till varandra
+## Så här kopplar du kundreskontratransaktioner i olika valutor till varandra
 Om du säljer i en valuta och får betalt i en annan kan du ändå koppla fakturan till betalningen.  
 
 Här är ett exempel. Du tillämpar post 1 i en valuta på post 2 i en annan valuta. Bokföringsdatumet för transaktion 1 används för att hitta den valutakurs som ska användas för att omvandla belopp i transaktion 2. Rätt valutakurs hittas på sidan **Valutakurser**.  
@@ -137,7 +137,7 @@ Koppla kundreskontratransaktioner i olika valutor till varandra måste vara akti
 > [!IMPORTANT]  
 >   När du kopplar poster i olika valutor till varandra omvandlas posterna till USD. Även om valutakurserna är fasta för de två aktuella valutorna, t. ex. mellan USD och EUR, kan det uppstå ett litet restbelopp när beloppen omvandlas till USD. Dessa små restbelopp bokförs som vinster och förluster på kontot som har angetts i fältet **Kursvinster konstaterade** eller i fältet **Kursförluster konstaterade** på sidan **Valutor**. Fältet **Belopp (USD)** justeras också i de aktuella leverantörsreskontratransaktionerna.  
 
-## <a name="to-correct-an-application-of-customer-entries"></a>Så här rättar du en koppling av kundtransaktioner
+## Så här rättar du en koppling av kundtransaktioner
 När du korrigerar en ansökan skapas och bokförs korrigeringsposter för alla transaktioner. Korrigerings transaktionerna är desamma som originalen men har motsatt logg i fältet **belopp**. Korrigerings transaktionerna inkluderar alla redovisnings transaktioner som har härletts från kopplingen. Till exempel kassarabatt och valuta vinster/-förluster. Alla transaktioner som stängdes av kopplingen öppnas på nytt.  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
@@ -151,7 +151,7 @@ När du korrigerar en ansökan skapas och bokförs korrigeringsposter för alla 
 > [!IMPORTANT]  
 >   Om en transaktion har använts i flera kopplingar måste du ta bort den senaste kopplingen först.  
 
-## <a name="see-also"></a>Se även
+## Se även
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

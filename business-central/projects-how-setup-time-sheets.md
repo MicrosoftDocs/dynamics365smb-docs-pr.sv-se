@@ -1,7 +1,7 @@
 ---
 title: Konfigurera tidrapporter och deras godkännande
 description: 'Du lägger upp tidrapporter för att spåra den tid som använts för uppgifter och projekt, vilket hjälper dig med projekthantering, personal och kapacitet'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'project management, capacity, staff, resource, time sheet'
 ms.search.form: '977, 462, 76, 77'
 ms.date: 12/13/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-time-sheets"></a>Så här skapar du tidrapporter
+# Så här skapar du tidrapporter
 
 Tidrapporter i [!INCLUDE[prod_short](includes/prod_short.md)] hanterar tidregistrering veckovis, med sju dagars steg i taget. Du kan använda dem för att spåra den tid som används för projekt samt för att registrera enkel timregistrering för resurser. Innan du kan använda tidrapporter måste du ange vilka användare som ska skicka in tidrapporter och hur du vill konfigurera tidrapporterna.  
 
@@ -25,7 +25,7 @@ Du kan också ange om och hur tidrapporter ska godkännas. Beroende på organisa
 
 När du har konfigurerat tidrapporter kan du skapa dem för resurser, som i sin tur kan bokföra tidrapportrader. Alternativt kan du även tilldela tidrapporter till projektplaneringsrader. Mer information finns i [Så här använder du tidrapporter](projects-how-use-time-sheets.md).  
 
-## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Skapa tidrapporter med hjälp av guiden för assisterad konfiguration
+## Skapa tidrapporter med hjälp av guiden för assisterad konfiguration
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
@@ -53,11 +53,11 @@ Guiden assisterad konfiguration går igenom följande steg:
 
 I slutet av installationshandboken kan du välja att [!INCLUDE [prod_short](includes/prod_short.md)] skapa tidrapporter baserat på din konfiguration. Visa de nya tidrapporterna på sidan **Tidrapporter**, som du kan öppna [här](https://businesscentral.dynamics.com/?page=951). Du kan också köra guiden assisterad konfiguration igen eller slutföra installationen manuellt.  
 
-## <a name="set-up-time-sheets-manually"></a>Ställ in tidrapporter manuellt
+## Ställ in tidrapporter manuellt
 
 I följande avsnitt beskrivs hur du ställer in tidrapporter om du inte använder guiden assisterad konfiguration **Konfigurera tidrapporter**.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Så här anger du allmän information för tidrapporter manuellt
+### Så här anger du allmän information för tidrapporter manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resurskonfiguration** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -69,7 +69,7 @@ I följande avsnitt beskrivs hur du ställer in tidrapporter om du inte använde
 | **Alltid** |Användaren i fältet **Ansvarig person** på projektkortet godkänner tidrapporten. |
 | **Enbart maskin** |Om maskinens tidrapport är länkad till ett projekt, godkänner användaren i fältet **Ansvarig person** på projektkortet tidrapporten. Om maskinens tidrapport är länkad till en resurs, godkänner användaren i fältet **Användar-ID för tidrapportens godkännare** på resurskortet tidrapporten. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Så här tilldelar du en tidrapportsadministratör manuellt
+### Så här tilldelar du en tidrapportsadministratör manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Användarinställning** och väljer sedan relaterad länk.  
 2. Lägg till en ny användare om användarlistan inte innehåller den person som du vill ska vara tidrapportsadministratören. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
@@ -78,7 +78,7 @@ I följande avsnitt beskrivs hur du ställer in tidrapporter om du inte använde
 > [!TIP]  
 > Vi rekommenderar att du endast anger en användare som tidrapportsadministratör för ett företag. I följande procedur skapar du en tidrapportägare och godkännare där tidrapportgodkännaren tilldelas för varje resurs.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Så här tilldelar du en tidrapportsägare och en godkännare manuellt
+### Så här tilldelar du en tidrapportsägare och en godkännare manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.
 2. Välj den resurs som du vill ställa in möjlighet att använda tidrapporter för och markera sedan kryssrutan **Använd tidrapport**.  
@@ -88,9 +88,9 @@ I följande avsnitt beskrivs hur du ställer in tidrapporter om du inte använde
 > [!NOTE]  
 > Du kan inte ändra ID på tidrapportsgodkännaren om det finns tidrapporter som inte ännu har behandlats och har statusen **Skickad** eller **Öppen**.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
+## Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Använda tidrapporter för projekt](projects-how-use-time-sheets.md)  
 [Så här skapar du tidrapporter](projects-how-use-time-sheets.md#to-create-time-sheets)  

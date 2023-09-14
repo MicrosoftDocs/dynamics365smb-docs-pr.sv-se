@@ -1,7 +1,7 @@
 ---
 title: Översikt över uppgifter för hantering av leverantörsskulder
 description: 'Innehåller information om hur du hanterar leverantörsreskontra, till exempel betala fordringsägare eller koppla utgående betalningar till transaktioner för att stänga fakturor eller kreditnotor.'
-author: edupont04
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-payables"></a>Hantera Leverantörsreskontra
+# Hantera Leverantörsreskontra
 
 En stor del av hanteringen av leverantörsskulder betalar dina leverantörer eller återbetalar dina anställda för utgifter. Du kan använda funktioner för att lägga till betalningsrder för inköpsfakturor som förfaller till betalning på sidan **Betalningsjournal**. För att skicka transaktioner till din bank kan du exportera flera betalningsjournalrader till en fil och sedan överför du filen till din bank. Du kan också göra betalningar med check som inkluderar att överföra checkar som elektronisk betalning.
 
@@ -29,16 +29,16 @@ I följande tabell beskrivs en serie uppgifter inom Leverantörsskulder med län
 |Säkerställa korrekt värdering av lager genom att tilldela extra artikelkostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp.|[Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)|
 |Återbetala anställda för privata utgifter under affärsaktiviteter genom att göra betalningen till dennes bankkonto.|[Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Använd artikelomkostnader för att redovisa ytterligare verksamhetskostnader](payables-how-assign-item-charges.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

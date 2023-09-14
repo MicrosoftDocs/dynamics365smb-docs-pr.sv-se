@@ -1,7 +1,7 @@
 ---
 title: Anpassa Business Central
 description: Läs om de olika sätten att anpassa Business Central för att förbättra åtkomsten till den funktion och de funktioner som du behöver bäst som passar ditt dagliga arbete.
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'personalize, add-in, extend, customize'
 ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="customize-business-central"></a>Anpassa Business Central
+# Anpassa Business Central
 
 Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.
 
@@ -28,9 +28,9 @@ Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater 
 > [!NOTE]
 > Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[prod_short](includes/prod_short.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. Därför kan användare med **grundläggande** upplevelsen i vissa avsnitt läsa om funktionerna och delar av användargränssnittet som inte visas i deras användargränssnitt. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/tailor-roles-design-ui/)
+## Se relaterad [Microsoft utbildning](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

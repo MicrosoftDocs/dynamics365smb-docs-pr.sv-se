@@ -1,7 +1,7 @@
 ---
 title: Konfigurera bank
 description: 'Du använder bankkontokort för att hålla reda på dina bankkonton och ställa in bankfeeder, som till exempel Yodlee, för utbyte av data.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-banking"></a>Ställa in bank
+# Ställa in bank
 
 Med hjälp av bankkontokort kan du hålla reda på alla dina bankkonton, oavsett valuta. När du har skapat bankkontona kan du även använda funktionen för utskrift av checkar.
 
@@ -25,7 +25,7 @@ Om du vill använda elektroniska banktjänster för att importera kontoutdrag oc
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  

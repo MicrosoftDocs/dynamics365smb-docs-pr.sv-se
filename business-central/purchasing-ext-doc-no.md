@@ -1,22 +1,22 @@
 ---
 title: Externa dokumentnummer på inköpsdokument
 description: Du kan ta med information om de nummer som dina leverantörer tilldelar till dokument som de skickar till dig med hjälp av fältet Externt dokumentnummer eller fältet Din referens. Lär dig mer om skillnaden mellan de två fälten här.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>Externa dokumentnummer på inköpsdokument
+# Externa dokumentnummer på inköpsdokument
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 Du kan även ange externa dokumentnummer på försäljningsdokument. Mer information finns i [Externa dokumentnummer](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ange externa dokumentnummer](across-enter-external-document-numbers.md)  
 [Inköp](purchasing-manage-purchasing.md)  

@@ -1,8 +1,8 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 11.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  

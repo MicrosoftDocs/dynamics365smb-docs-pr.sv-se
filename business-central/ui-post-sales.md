@@ -1,7 +1,7 @@
 ---
 title: Bokföra försäljningsdokument
 description: Lära dig olika bokföringsfunktioner för att bokföra försäljningsdokument och hur du kan uppdatera bokförda dokument.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.reviewer: edupont
 ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="posting-sales"></a>Bokföra försäljning
+# Bokföra försäljning
 
 Under menyn **Bokföring** i ett försäljningsdokument kan du välja mellan följande bokföringsfunktioner:
 
@@ -37,19 +37,19 @@ För varje orderrad skapas en artikeltransaktion i tabellen **Artikeltransaktion
 
 Du kan antingen bokföra eller bokföra och skicka. Om du väljer att bokföra och skicka, skapas en PDF-fil som du sedan kan skicka. Du kan även välja funktionen **Bokför batch-jobb** som ger dig möjlighet att bokföra fler fakturor samtidigt. Mer information finns i [Bokföra flera dokument på samma gång](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Visa reskontratransaktioner
+## Visa reskontratransaktioner
 
 När bokföringen är slutförd tas de bokförda försäljningsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Sedan kan du se de bokförda transaktionerna på de olika sidorna som innehåller bokförda transaktioner, t. ex. sidorna **Leverantörsreskontratransaktion**, **Redovisningstransaktion**, **Artikeltransaktion**, **Bokförda försäljningsutleveranser** och **Bokförda försäljningsfakturor**.  
 
 I de flesta fall kan du öppna reskontratransaktioner från det berörda kortet eller dokumentet. Välj till exempel åtgärden **Reskontratransaktioner** på sidan **Kundkort**.
 
-## <a name="editing-ledger-entries"></a>Redigera reskontratransaktioner
+## Redigera reskontratransaktioner
 
 Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **Godsupplysningsnr**. . Mer information finns i [Redigera bokförda dokument](across-edit-posted-document.md). För mer kritiska fält som påverkar granskningsspåret måste du återföra eller ångra bokföring. Mer information finns i [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## Se relaterad [Microsoft utbildning](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Bokföra flera dokument på samma gång](ui-batch-posting.md)  

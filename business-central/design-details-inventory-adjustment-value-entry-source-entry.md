@@ -1,25 +1,25 @@
 ---
 title: Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen
 description: 'Läs mer om scenariot "bokföringsdatum på justeringsvärde transaktion jämfört med bokföringsdatum vid transaktion som orsakar justeringen, som omvärdering eller artikel omkostnad" när du kör batch-jobbet Justera kostn. – artikeltrans. identifierar.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 09/17/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen
+# Bokförings datumet på justeringsvärde transaktionen jämfört med källtransaktionen
 
 I den här artikeln jämförs bokföringsdatum på posten för justeringsvärde med bokföringsdatumet på posten som orsakar att batchjobbet Justera kostn. – artikeltrans. körs, särskilt ett omvärderingsscenario och ett artikelavgiftsscenario.
 
 Med batch-jobbet **Justera kost. – artikeltrans.** behandlas dina data beroende på ditt scenario och konfigurering av [!INCLUDE[prod_short](includes/prod_short.md)]. I det här avsnittet beskrivs två olika processer, och för var och en visar den typ av effekt som batch-jobbet Justera kost. – artikeltrans. innehåller på informationen.
 
-## <a name="revaluation-scenario"></a>Omvärderingsscenario
+## Omvärderingsscenario
 
-### <a name="prerequisites"></a>Förutsättningar
+### Förutsättningar  
 
 Ange följande värden:
 
@@ -45,7 +45,7 @@ Ange följande värden:
 
 - Tillåt bokföring t.o.m. = tom  
 
-### <a name="to-test-the-scenario"></a>För att testa scenariot
+### För att testa scenariot
 
 Testa det här scenariot genom att utföra följande steg.
 
@@ -150,15 +150,15 @@ Justeringen för den negativa justeringen i steg 3 förorsakar diskussion. Ett b
 
 För att uppnå en decemberjustering av den negativa justeringen i steg 3 måste Redovisningsinställningar, fältet Tillåt bokföring fr.o.m, ange ett datum i december.  
 
-### <a name="conclusion"></a>Slutsats
+### Slutsats
 
 Med den erfarenhet som vunnits i det här scenariot kanske du vill tänka på följande när du bedömer de lämpligaste inställningarna för ett tillåtet bokföringsdatumintervall för ett företag. Så länge du tillåter att lagervärdet bokförs under en period, till exempel december i det här fallet, bör inställningarna som företaget använder för tillåtna bokföringsdatumintervall justeras enligt det här beslutet. Fältet Tillåt bokföring fr.o.m i Redovisningsinställningarna, som anger att den 1 december skulle låta omvärderingen utförd i december vidarebefordras till att påverka utgående transaktioner under samma period.  
 
 Användargrupper är inte behöriga att bokföra i december utan i januari, vilket troligen var avsett att begränsas av Redovisningsinställningarna i detta scenario, bör i stället tas upp via användarinställningarna.  
 
-## <a name="item-charge-scenario"></a>Artikelomkostnadsscenario
+## Artikelomkostnadsscenario  
 
-### <a name="prerequisites-1"></a>Förutsättningar
+### Förutsättningar  
 
 Ange följande värden:
 
@@ -184,7 +184,7 @@ Ange följande värden:
 
 - Tillåt bokföring t.o.m. = tom  
 
-### <a name="to-test-the-scenario-1"></a>För att testa scenariot
+### För att testa scenariot  
 
 Testa det här scenariot genom att utföra följande steg:
 
@@ -350,7 +350,7 @@ Det är svårt att låta rapporten Lagerutvärdering visa kvantiteten = 0 när v
 
 I detta scenario kunde ett alternativ vara att låta Redovisningsinställningarna, fältet Tillåt bokföring fr.o.m att ange ett datum i december några dagar längre fram, samt att flytta fram bokföringen av den första artikelomkostnaden, detta i syfte att låta alla kostnader för föregående period/räkenskapsår först registreras för den period som de tillhör, köra batch-jobbet Justera kostn. – artikeltrans. och därefter flytta tillåtet bokföringsdatum till den nya perioden\/det nya räkenskapsåret. Därefter kan den artikelomkostnaden med bokföringsdatum 2 januari bokföras.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Designinformation: Bokföringsdatumet för justeringsvärdetransaktionen](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetaljer: Lagerkostnader](design-details-inventory-costing.md)  

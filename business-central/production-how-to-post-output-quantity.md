@@ -1,16 +1,16 @@
 ---
 title: Batch-bokför produktionsutflöde och körtid
 description: Utflödesantalet representerar arbetsförloppet i form av färdig kvantitet och utnyttjad kapacitet för produktions- eller maskingrupp.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 03/08/2023
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="batch-post-output-and-run-times"></a>Batch-bokför utflöde och körtider
+# Batch-bokför utflöde och körtider
 
 Utflödesantalet representerar arbetsförloppet i form av färdig kvantitet och utnyttjad kapacitet för produktions- eller maskingrupp.
 
@@ -25,7 +25,7 @@ Du kan välja använda utflödesjournal för att:
 
 På sidan **Produktionsjournal** kan du utföra samma uppgifter som på sidan **Utflödesjournal** och även bokföra förbrukningsuppgifter. För mer information, se [Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Om du vill bokföra utflödeskvantiteter och/eller registrera körtider för en eller flera produktionsorderrader
+## Om du vill bokföra utflödeskvantiteter och/eller registrera körtider för en eller flera produktionsorderrader
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
 2. Fyll i fälten med data om produktionsorden och utdata och/eller körtid. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ På sidan **Produktionsjournal** kan du utföra samma uppgifter som på sidan **
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Bokför kassation manuellt](production-how-to-post-scrap.md)
 [Återför utflödesbokföring](production-how-to-reverse-output-posting.md)

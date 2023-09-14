@@ -10,7 +10,7 @@ ms.date: 01/11/2023
 ms.custom: bap-template
 ms.search.form: 9171
 ---
-# <a name="manage-user-profiles"></a>Hantera användarprofiler
+# Hantera användarprofiler
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -35,11 +35,11 @@ Mer information om användarinställningar och rollcenter finns i [ändra grundl
 
 Innan du kan administrera användarprofiler måste användarna skapas och läggas till via administrationscentret för Microsoft 365. Du kan sedan tilldela behörigheter till varje användare eller användargrupp. Behörigheten definierar vilka funktioner användarna har åtkomst till. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
 
-## <a name="page-customization"></a>Sidanpassning
+## Sidanpassning
 
 Du kan anpassa sidlayouter för en profil så att alla användare som tilldelats profilen kan se de anpassade sidorna. Som administratör anpassar du sidorna med samma funktion som användarna gör när de anpassar. Mer information finns i [Anpassa sidor för profiler](ui-personalization-manage.md).
 
-## <a name="to-create-a-profile"></a>Så här skapar du en profil:
+## Så här skapar du en profil:
 
 Om du inte kan kopiera en befintlig profil kan du skapa en ny manuellt.
 
@@ -50,7 +50,7 @@ Om du inte kan kopiera en befintlig profil kan du skapa en ny manuellt.
 > [!TIP]
 > Om du vill att en viss profil bara ska vara tillgänglig för mycket specifika användare kan du ställa in fältet **Beskrivning** till `Navigation menu only.`. På så sätt undantas profilen från listan över tillgängliga roller i **Mina inställningar**.
 
-## <a name="to-copy-a-profile"></a>Så här kopierar du en profil
+## Så här kopierar du en profil
 
 Du kan spara tid genom att skapa en ny profil genom att kopiera en befintlig. Kopiera en som innehåller liknande inställningar som du vill skapa.
 
@@ -61,14 +61,14 @@ Du kan spara tid genom att skapa en ny profil genom att kopiera en befintlig. Ko
 2. Fyll i fälten **profil-ID** och **visningsnamn** och klicka sedan på **OK**.
 3. På sidan **profiler (roller)** öppnar du det nyss skapade profilkortet och redigerar sedan andra fält om det behövs.
 
-## <a name="to-edit-a-profile"></a>Så här redigerar du en profil
+## Så här redigerar du en profil
 
 Du kan redigera en profil genom att ändra fälten på sidan **Profil (roll)**. Ändringarna visas dock inte för användare som tilldelats profilen förrän de loggar ut och in igen.
 
 > [!Caution]
 > Byt inte namn på en profil när användare som tilldelats profilen är inloggade eftersom användare kan uppleva att produkten låses och måste startas om.
 
-## <a name="to-assign-a-profile-to-a-user"></a>Så här tilldelar du en profil till en användare:
+## Så här tilldelar du en profil till en användare:
 
 Användare kan tilldela sig själva en roll (som representerar en profil) genom att välja fältet **Roll** på sidan **Mina inställningar**. Som administratör kan du göra samma sak via sidan **Profiler (roller)**.
 
@@ -79,7 +79,7 @@ Användare kan tilldela sig själva en roll (som representerar en profil) genom 
 > [!NOTE]
 > Om du tilldelar en annan profil till en användare bevaras all anpassning som görs av användaren med den tidigare profilen.
 
-## <a name="to-define-user-settings-for-a-profile"></a>Så här definierar du användarinställningar för en profil
+## Så här definierar du användarinställningar för en profil
 
 På sidan **Mina inställningar** kan användare definiera grundläggande funktioner för sitt konto, till exempel rollcenter, språk och meddelanden. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md).
 
@@ -90,7 +90,7 @@ Som administratör kan du definiera inställningar för en profil. Inställninga
 3. På sidan **användaranpassningar** öppnar du kortet för den användare vars inställningar du vill ändra.
 4. På sidan **användaranpassningskort** redigerar du fälten efter behov.
 
-## <a name="to-activate-a-profile"></a>Så här aktiverar du en profil
+## Så här aktiverar du en profil
 
 När du skapar en profil kan du definiera om, var och hur profilen och dess information ska vara tillgänglig för användarna.
 
@@ -101,7 +101,7 @@ Markera följande kryssrutor på sidan **Profiler (roller)**:
 * **Inaktivera anpassningar** för att ange om användare av den relaterade rollen kan anpassa sina arbetsytor.
 * **Visa i rollutforskaren** om du vill ange om åtgärder till affärsfunktioner som ingår i profilen ska visas i den utökade vyn av rollutforskaren, en översikt över funktioner. Mer information finns i [Söka efter sidor med rollutforskaren](ui-role-explorer.md).
 
-## <a name="to-export-profiles"></a>För att exportera profiler
+## För att exportera profiler
 
 Du kan exportera profiler från [!INCLUDE[prod_short](includes/prod_short.md)], t. ex. återanvända dem i en annan innehavare. Profilerna exporteras till en zip-fil som innehåller AL-filer. Du kan återanvända AL-filerna för att utveckla tillägg. Mer information finns i [Använda klienten för att skapa profiler och sidanpassningar](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
@@ -109,7 +109,7 @@ Du kan exportera profiler från [!INCLUDE[prod_short](includes/prod_short.md)], 
 
     Denna åtgärd exporterar en zip-fil som innehåller AL-filer för alla profiler.
 
-## <a name="to-import-profiles"></a>För att importera profiler
+## För att importera profiler
 
 Du kan importera profiler som har exporterats från [!INCLUDE[prod_short](includes/prod_short.md)]. Stegen är mer eller mindre motsatsen till de olika stegen för att exportera profiler. Mer information finns i [För att exportera profiler](admin-users-profiles-roles.md#to-export-profiles).
 
@@ -121,7 +121,7 @@ Du kan importera profiler som har exporterats från [!INCLUDE[prod_short](includ
 
     Denna åtgärd importerar en zip-fil som innehåller AL-filer för valda profiler.
 
-## <a name="to-delete-a-profile"></a>Så här tar du bort en profil
+## Så här tar du bort en profil
 
 Du kan ta bort en profil genom att klicka på åtgärden **Ta bort** på sidan **Profiler (roller)**. Följande begränsningar gäller emellertid:
 
@@ -129,7 +129,7 @@ Du kan ta bort en profil genom att klicka på åtgärden **Ta bort** på sidan *
 *-* Du kan inte ta bort profiler som härstammar från tillägg. Tillägget måste först avinstalleras.
 *-* Du kan bara ta bort en profil i taget.
 
-## <a name="to-delete-all-personalizations-made-by-a-user"></a>Ta bort alla anpassningar som användaren har gjort
+## Ta bort alla anpassningar som användaren har gjort
 
 Du kan ta bort alla ändringar som användaren gjort på sidor. Borttagning av kan vara användbart om en anställd har ändrat roll och inte längre behöver anpassningarna. Borttagning återställer sidlayouten till det som definieras av profilen.
 
@@ -144,7 +144,7 @@ Användaren kommer att se ändringarna nästa gång de loggar in.
 
 Du kan också ta bort alla sidanpassningar för en profil. Mer information finns i [Så här tar du bort alla anpassningar för en profil](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
 
-## <a name="to-delete-personalizations-for-specific-pages"></a>Så här tar du bort anpassningar för specifika sidor
+## Så här tar du bort anpassningar för specifika sidor
 
 Du kan ta bort anpassningar som en eller flera användare har gjort på vissa sidor. Borttagning av anpassningar kan vara användbart om en ändrad affärsprocedur innebär att en anpassning inte kan användas. Borttagning återställer sidlayouten till det som definieras av profilen.
 
@@ -161,15 +161,15 @@ Användaren kommer att se ändringarna nästa gång de loggar in.
 
 Du kan också ta bort individuella sidanpassningar för en profil. Mer information finns i [Så här tar du bort alla anpassningar för en viss sida för en profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
-## <a name="managing-user-sessions"></a>Hantera användarsessioner
+## Hantera användarsessioner
 
 Som administratör av [!INCLUDE[prod_short](includes/prod_short.md)] online kan du hantera användarsessioner i administrationscentret. Mer information finns i [Hantera sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions) i administrationsinnehållet.  
 
 För [!INCLUDE[prod_short](includes/prod_short.md)] lokal kan du t. ex. hantera sessioner med SQL Server Management Studio. Mer information finns i den [tekniska dokumentationen för SQL Server](/sql/sql-server).  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/users-security-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/users-security-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
 [Anpassa sidor för profiler](ui-personalization-manage.md)  

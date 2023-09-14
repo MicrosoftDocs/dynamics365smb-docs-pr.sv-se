@@ -1,16 +1,16 @@
 ---
 title: Flera kontrakt | Microsoft Docs
 description: Beroende på dina servicenivåavtal med en kund kan du bli tvungen att hantera en serviceartikel på fler än ett servicekontrakt.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="multiple-contracts"></a>Flera kontrakt
+# Flera kontrakt
 Beroende på dina servicenivåavtal med en kund kan du bli tvungen att hantera en serviceartikel på fler än ett servicekontrakt.  
   
 Genom att hantera en serviceartikel i flera kontrakt, kan du göra följande:  
@@ -25,18 +25,18 @@ Genom att hantera en serviceartikel i flera kontrakt, kan du göra följande:
   
 Titta på följande exempel som visar hur du kan använda funktionen för flera kontrakt.  
   
-## <a name="creating-multiple-contracts-per-service-item"></a>Skapa flera kontrakt per serviceartikel
+## Skapa flera kontrakt per serviceartikel  
 Du kan manuellt skapa ett servicekontrakt eller en kontraktsoffert för serviceartiklar som redan har registrerats i icke-annullerade kontrakt som ägs av samma kund. Följ standardprocessen där du skapar servicekontrakt och servicekontraktsofferter om du vill göra detta. Mer information finns i [Arbeta med servicekontrakt och servicekontraktofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 När du lägger till en serviceartikel på en kontraktsrad som är registrerad i andra servicekontrakt eller kontraktsofferter, visas ett varningsmeddelande med texten att serviceartikeln redan tillhör ett eller flera servicekontrakt eller kontraktsofferter. Om du bekräftar meddelandet kommer all relevant serviceartikelinformation att kopieras till en ny kontraktsrad.  
   
-## <a name="copying-documents"></a>Kopiera dokument
+## Kopiera dokument  
 Du kan automatiskt skapa ett servicekontrakt eller en kontraktsoffert för serviceartiklar som redan har registrerats i andra servicekontrakt eller kontraktsofferter med hjälp av åtgärden **Kopiera från dokument**.  
   
-## <a name="creating-service-orders-for-multiple-contracts"></a>Skapa serviceorder för flera kontrakt
+## Skapa serviceorder för flera kontrakt  
 Du kan skapa en serviceorder manuellt för en serviceartikel som är registrerad i flera aktiva kontrakt. Ett servicekontrakt är aktivt när det är signerat och inte utgånget.  
   
-## <a name="see-also"></a>Se även
+## Se även  
 [Uppfylla servicekontrakt](service-fulfill-service-contracts.md)  
 [Skapa tjänsteorder](service-how-to-create-service-orders.md)  
 

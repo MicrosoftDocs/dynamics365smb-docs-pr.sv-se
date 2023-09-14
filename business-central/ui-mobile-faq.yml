@@ -2,14 +2,14 @@
 metadata:
   title: Vanliga frågor och svar om mobilappar
   description: Se svar på vanliga frågor om att använda Business Central på din telefon eller surfplatta.
-  author: edupont04
+  author: brentholtorf
   ms.topic: faq
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: 'phone, tablet'
   ms.date: 10/25/2021
-  ms.author: edupont
+  ms.author: bholtorf
 title: Vanliga frågor och svar om mobilappar
 summary: |
   I denna artikel besvaras frågor som våra erfarna användare ofta ställer om mobilapparna för [!INCLUDE [prod_short](includes/prod_short.md)].  

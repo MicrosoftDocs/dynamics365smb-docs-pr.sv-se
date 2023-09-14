@@ -1,7 +1,7 @@
 ---
 title: Ställa in anläggningstillgångar
 description: 'Få information om de åtgärder som du måste göra om du vill ställa in anläggningstillgångar, till exempel maskiner eller byggnader.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
+# Ställa in anläggningstillgångar
 
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
 
@@ -36,9 +36,9 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Så här använder du användardefinierade avskrivningsmetoder. |[Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
+## Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  

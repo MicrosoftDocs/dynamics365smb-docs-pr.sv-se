@@ -1,7 +1,7 @@
 ---
 title: Använda tillägget för PayPal Payments Standard
 description: Detta ämne beskriver hur du kan använda standardtillägget får att låta kunderna betala med PayPal.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Tillägget PayPal Payments Standard
+# Tillägget PayPal Payments Standard
 
 Kunder kräver kontinuerligt högre kundservice både när det gäller produktkvalitet och även leveransdatum och betalningsalternativ. Tjänsten för PayPal Payments Standard hjälper dig att öka din kundservice.
 
@@ -29,7 +29,7 @@ Tjänsten för PayPal Payments Standard ger följande förmåner:
 
 Mer information finns i [Så här aktiverar du kundbetalningar via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

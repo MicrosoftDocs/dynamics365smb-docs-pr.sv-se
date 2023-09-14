@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 02/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 > [!NOTE]
 > Om en [!INCLUDE [prod_short](prod_short.md)]-utvärderingsversion lämnas oanvänd i 45 dagar bedömer Microsoft utvärderingsversionen som förfallen och [!INCLUDE [prod_short](prod_short.md)]-klientorganisationen tas bort.

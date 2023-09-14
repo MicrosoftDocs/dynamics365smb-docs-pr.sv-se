@@ -10,7 +10,7 @@ ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts,
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="configure-service-processes"></a>Konfigurera serviceprocesser
+# Konfigurera serviceprocesser
 Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:  
   
 * En del allmänna inställningar för olika processer, till exempel varningar, nästa serviceberäkningar för serviceartiklar, bedöma uppstartskostnader, felrapporteringsnivån och så vidare.  
@@ -19,11 +19,11 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 * Inställningar för kontrakt, till exempel det maximala antalet dagar som du kan använda för serviceorder om du använder orsakskoder när ett kontrakt har annullerats, standardtexter beskrivningar av kontrakt och kontraktvärden.  
 * Nummerserierna som ska användas för servicerelaterade dokument och artiklar.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>Så här anger du allmänna och obligatoriska inställningar
+## Så här anger du allmänna och obligatoriska inställningar
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurera servicehantering** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Konfigurera felrapportering](service-how-setup-fault-reporting.md)  
 [Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)  
 [Skapa koder för standardtjänster](service-how-setup-service-coding.md)  

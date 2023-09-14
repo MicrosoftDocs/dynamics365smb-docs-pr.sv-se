@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 I inköpsdokument och journaler kan du ange ett dokumentnummer som refererar till leverantörens nummersystem. Använd det här fältet för att registrera numret som leverantören har tilldelat ordern, fakturan eller kreditnotan. Sedan kan du använda numret om du av någon anledning behöver söka efter den bokförda posten med hjälp av detta nummer.

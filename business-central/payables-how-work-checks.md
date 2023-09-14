@@ -1,7 +1,7 @@
 ---
 title: 'Utfärda, Skriv ut, Avbryt och Makulera checkar'
 description: 'Beskriver hur du utfärdar checkar med utbetalningsjournalen, skriver ut checkar och annullerar checkar eller granskar checktransaktioner i Business Central.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256, 404,'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="make-check-payments"></a>Gör checkbetalningar
+# Gör checkbetalningar
 
 Du kan skicka elektroniska och manuella checkar i [!INCLUDE[prod_short](includes/prod_short.md)]. För båda metoder används utbetalningsjournalen för att utfärda checkar till leverantörer. Du kan även makulera checkar och granska checktransaktioner.
 
@@ -30,7 +30,7 @@ Du kan betala med två typer av checkar. För båda typerna måste fälten **mot
 
 Du kan skriva ut upp till 10 fakturor på en sida för en checktalong. Om en check är kopplad till fler än 10 fakturor, när du skriver ut en checktalong annullerar vi checken på den första sidan och skriver ut order ANNULLERAD på checken. Sedan skriver vi ut en påminnelse på fakturorna och det totala checkbeloppet på andra sidan.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Betala en leverantörsfaktura med datorcheck
+## Betala en leverantörsfaktura med datorcheck
 
 Nedan beskrivs hur du betalar en leverantör med check. Stegen liknar återbetalning till en kund med check.
 
@@ -50,13 +50,13 @@ Fullständigt kopplade leverantörsreskontratransaktioner och bankkontotransakti
 > [!NOTE]  
 > Om du vill skriva ut och betala checkar i flera olika valutor från olika bankkonton måste du köra batch-jobbet **Skriv ut check** separat för varje valuta och ange bankkontot.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Att skriva ut checkar som inte har bokförts
+## Att skriva ut checkar som inte har bokförts
 
 Du kan makulera checkar som inte har bokförts när de har skrivits ut, genom att använda åtgärden **Makulera check** på sidan **Betalningsjournal**.
 
 1. På sidan **Betalningsjournal** väljer du **Makulera check** och sedan väljer du checken som ska annulleras.
 
-## <a name="to-void-checks"></a>Så här makulerar du checkar:
+## Så här makulerar du checkar:
 
 När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från de resulterande banktransaktionerna.
 
@@ -69,15 +69,15 @@ När checkbetalning har bokförts, kan du bara ångra (makulera) checkar från d
 4. Markera kryssrutan **Makulera endast check**.
 5. Välj knappen **OK**.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>Om du vill visa en sammanfattning av bokförda checkar
+## Om du vill visa en sammanfattning av bokförda checkar
 
 Om du vill granska bokförda checkar, till exempel för att kontrollera flera kontroller som betalas till en leverantör, kan du använda rapporten **bankkonto – checkinformation**.
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonto – kontrollera detaljer** och väljer sedan relaterad länk.
 2. Ställa in filter som relevanta och välj sedan knappen **förhandsgranskning**.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/use-checks-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/use-checks-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Göra betalningar](payables-make-payments.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

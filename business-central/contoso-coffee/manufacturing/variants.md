@@ -4,19 +4,19 @@ description: I genomgången för att lära dig hur du uppdaterar efter frågepro
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Genomgång: varianter
+# Genomgång: varianter
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata för att lära dig om varianter.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera efter fråge prognosen för varje variant av artikeln SP-SCM1006, AutoDripLite. Eftersom de har olika färger måste du se till att rätt struktur används för varje variant. Kör planeringsarbetsbladet för att beräkna utbudet.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Ställ in lagerställeenheter för artikeln SP-SCM1006, AutoDripLite. Tilldela en strukturlista för SKU med varianterna rött och vitt.
 
@@ -98,6 +98,6 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera eft
 
     9. För varje skapad rad väljer du **komponent**-åtgärden och kontrollerar vilken färg som används.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

@@ -1,7 +1,7 @@
 ---
 title: Överföra banktillgångar
 description: 'Du kan överföra belopp från ett bankkonto, till exempel olika valutor genom att bokföra transaktionen i redovisningsjournalen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: 'bank account transfer, multiple currencies'
 ms.search.form: 39
 ms.date: 04/29/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="transfer-bank-funds"></a>Överföra banktillgångar
+# Överföra banktillgångar
 
 Du kan ibland komma att behöva överföra ett belopp från ett bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)] till ett annat. För att göra detta måste du bokföra en transaktion på sidan **Redovisningsjournal**. Uppgiften varierar beroende på om bankkontona använder samma valuta eller olika valutor.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Så här bokför du en överföring mellan bankkonton med samma valutakod
+## Så här bokför du en överföring mellan bankkonton med samma valutakod
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **redovisningsjournal** och väljer sedan relaterad länk.
 2. Fyll i fälten **Bokföringsdatum** och **Verifikationsnr** på en .
@@ -28,7 +28,7 @@ Du kan ibland komma att behöva överföra ett belopp från ett bankkonto i [!IN
 7. I fältet **Balanskontonr** väljer du det bankkonto som du vill överföra pengarna till.
 8. Bokför journalen.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Så här bokför du överföringar mellan bankkonton med olika valutakoder
+## Så här bokför du överföringar mellan bankkonton med olika valutakoder
 
 För att överföra pengar mellan bankkonton som använder olika valutor måste du bokföra två redovisningsjournalrader.
 
@@ -65,7 +65,7 @@ För att överföra pengar mellan bankkonton som använder olika valutor måste 
     > Ett belopp utan ett tecken är ett debetbelopp och ett belopp med ett minustecken är ett kreditbelopp.
 10. Bokför journalen.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Ställa in bankverksamhet](bank-setup-banking.md)  

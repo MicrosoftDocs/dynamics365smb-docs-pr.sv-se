@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Du måste skapa en kod för varje valuta du använder om du:
 

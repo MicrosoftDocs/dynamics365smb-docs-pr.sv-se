@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 09/22/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 I följande tabell beskrivs några av de viktigaste ekonomiska rapporterna.

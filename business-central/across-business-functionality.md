@@ -1,7 +1,7 @@
 ---
 title: Affärsfunktioner som stöds av Business Central
 description: 'Innehåller en översikt över de funktioner och avdelningar som stöds av moduler, till exempel ekonomi, lager och projekthantering.'
-author: SorenGP
+author: brentholtorf
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="business-functionality"></a>Affärsfunktion
+# Affärsfunktion
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller funktioner för vanliga affärsprocesser i små och medelstora företag, huvudsakligen inom grossist och tjänster. Mer komplexa processer som exempelvis montering, produktion, service och riktad lagerstyrning kan emellertid också användas. [Lär dig mer om hur du får en kostnadsfri utvärderingsversion](trial-signup.md).  
 
@@ -39,7 +39,7 @@ ms.author: edupont
 |Aktivera möjlighet för användare att utbyta data med externa källor under dagliga uppgifter, till exempel skicka/ta emot elektroniska dokument, importera/exporterar bankfiler och uppdatera valutakurser.|[Utbyta data elektroniskt](across-data-exchange.md)|
 |Registrera externa dokument i [!INCLUDE[prod_short](includes/prod_short.md)], inklusive bifogade filer och skapa sedan manuellt relaterade dokument eller konvertera filerna automatiskt till elektroniska dokument.|[Inkommande dokument](across-income-documents.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Administration](admin-setup-and-administration.md)    
 [Utforska Dynamics 365 Business Central-funktionerna](https://dynamics.microsoft.com/business-central/capabilities/)  

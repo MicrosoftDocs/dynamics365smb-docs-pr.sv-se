@@ -1,16 +1,16 @@
 ---
 title: 'Så här: Aktivera plockning med FEFO | Microsoft Docs'
 description: 'FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklar, de med de tidigaste utgångsdatumen, plockas först.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="enable-picking-items-by-fefo"></a>Aktivera plockning av artiklar med FEFO
+# Aktivera plockning av artiklar med FEFO
 FEFO-metoden (First-Expired-First-Out) är en sorteringsmetod som säkerställer att de äldsta artiklarna – de med tidigast utgångsdatum – plockas först.  
 
  Den här funktionen fungerar bara, när dessa villkor är uppfyllt:  
@@ -33,7 +33,7 @@ Om du vill aktivera transporter enligt FEFO, lämna fältet **Från lagerplats**
 <br /><br />
 Om fältet **Endast utgångsbokföring** markeras på **Artikelspårning kodkort**, endast föremål som inte har löpt ut ingår i valet och raderna sorteras enligt FEFO-principen.
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Plocka artiklar för utleverans från dist.lager](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Plocka artiklar med lagerplockning](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Warehouse Management – Översikt](design-details-warehouse-management.md)

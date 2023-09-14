@@ -10,7 +10,7 @@ ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
 ms.date: 08/03/2023
 ms.custom: bap-template
 ---
-# <a name="set-up-bank-accounts"></a>Skapa bankkonton
+# Skapa bankkonton
 
 Du använder bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)] för att hålla reda på dina banktransaktioner. Konton kan definieras i den lokala valutan eller i en utländsk valuta. När du har skapat bankkonton kan du också använda funktionen för utskrift av checkar. Bankkontona innehåller extra funktionalitet för [betalningsavstämning](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bankavstämning](bank-how-reconcile-bank-accounts-separately.md) och import och export av bankfiler. Bankkontona kan också inkluderas i transaktioner i redovisningsjournalerna. Varje bankkonto är länkat till ett konto i kontoplanen via den tilldelade bankkontobokföringsmallen. Om du använder ett bankkonto i en betalningstransaktion skapas automatiskt en transaktion på både bankkontot och det anslutna redovisningskontot.  
 
@@ -80,7 +80,7 @@ I videoklippet under de grundläggande stegen visas hur du kan skapa ett bankkon
 > [!WARNING]
 > Vissa fält kan innehålla känslig information, till exempel fälten **Bankfilialsnr.**, **Bankkontonr.**, **SWIFT-kod** och **IBAN-kod**. Läs mer i [Övervaka känsliga fält](across-log-changes.md#monitor-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a>Så här skapar du bankkonton
+## Så här skapar du bankkonton
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. På sidan **Bankkonton** väljer du åtgärden **Ny**.
@@ -150,7 +150,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>Ange ett ingående saldo
+## Ange ett ingående saldo
 
 För att fylla i fältet **Saldo** med en ingående balans måste du bokföra en bankkontotransaktion med beloppet i fråga. Du kan göra detta genom att utföra en bankkontoavstämning. Läs mer på [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -159,7 +159,7 @@ För att fylla i fältet **Saldo** med en ingående balans måste du bokföra en
 > [!IMPORTANT]
 > Bokför inte det ingående saldot direkt i redovisningen. När du har transaktioner på redovisningskontot som bokförts direkt till det, kan du normalt inte stämma av bankkontot. Med bankkonton i utländsk valuta innebär en sådan åtgärd att skillnaderna ackumuleras när du bokför fler bankavstämningar. Vanligtvis bokförs det ingående banksaldot direkt på bank-kontot och beloppet fylls sedan i på redovisningskontot. Du kan också ångra det senare mot det redovisningskonto som du använder för att balansera det öppna redovisningssaldot. I båda fallen måste du balansera eventuell direkt bokföring till redovisningskontot innan du börjar med den första bankkontoavstämningen&mdash;framför allt om bankkontot är i en utländsk valuta.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Så här skapar du ett bankkonto för import eller export av bankfilerna
+## Så här skapar du ett bankkonto för import eller export av bankfilerna
 
 Fälten relaterade till import och export av bankfeeds och filer finns på snabbfliken **Överför** på sidan **Bankkontokort**. Läs mer i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) och [Konfigurera tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -212,13 +212,13 @@ I bilden nedan visas flödet av utgående betalningar (nummer i beskrivningen mo
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Så här skapar du leverantörsbankkonto för export av bankfiler
+## Så här skapar du leverantörsbankkonto för export av bankfiler
 
 Fälten på snabbfliken **Överför** på sidan **Leverantörsbankkontokort** är relaterade till exporten av bankfeeds och filer. Läs mer i [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) och [Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a>Ändra ditt bankkonto
+## Ändra ditt bankkonto
 
 För att använda ett annat bankkonto för företaget måste du skapa det nya bankkontot i [!INCLUDE[prod_short](includes/prod_short.md)]. Vi rekommenderar att du inte bara ersätter informationen om det konto som du använder för tillfället, eftersom det kan orsaka felaktiga data. Den ingående balansen kan t.ex. vara felaktig eller också kan bankens flöde sluta fungera som det ska. Det är viktigt att du behåller det aktuella och nya kontot separat.
 
@@ -229,9 +229,9 @@ När du har skapat det nya bankkontot bör du också skapa en ny bokföringsmall
 
 För att få en mer sammandragen bild av dina konton i den finansiella rapporteringen, använd kontona **Från-summa** och **Till-summa** i din kontoplan, raderna **Summeringsintervall** i ekonomiska rapporter eller redovisningskontokategorier. Läs mer i avsnittet [Business Intelligence och Financial Reporting](bi.md).
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
+## Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Ställa in bokföringsmallar](finance-posting-groups.md)  

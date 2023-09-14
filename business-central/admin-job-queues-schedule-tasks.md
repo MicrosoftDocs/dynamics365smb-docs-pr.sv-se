@@ -5,11 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 03/20/2023
+ms.date: 08/24/2023
 ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
 ---
-# <a name="use-job-queues-to-schedule-tasks"></a>Använda jobbköer för att schemalägga uppgifter
+# Använda jobbköer för att schemalägga uppgifter
 
 Använd sidan **Jobbkötransaktioner** för att schemalägga och köra specifika rapporter och kodenheter. Du kan ange att jobb ska köras en gång eller återkommande. Exempelvis vill du kanske köra rapporten **Salesperson * Sales Statistics** veckovis i syfte att spåra en säljares säljaktivitet varje vecka, eller också kanske du vill köra codeunit **Delegate Approval Requests** dagligen i syfte att förhindra att dokument ansamlas.
 
@@ -21,7 +21,7 @@ Sidan Projektkötransaktioner fönstret visas alla aktuella jobb. Om du lägger 
 * När och hur ofta jobbkötransaktionen ska köras.
 
 > [!IMPORTANT]  
-> Om du tilldelas behörighetsuppsättningen SUPER som följer med [!INCLUDE[prod_short](includes/prod_short.md)] har du behörighet att köra alla artiklar som licensen medger. Om du har rollen Delegerad admin kan du skapa och schemalägga jobbkötransaktioner, men endast administratörer och licensierade användare kan köra dem. Användare med enhetslicensen kan inte skapa eller köra jobbköer.
+> Om du tilldelas behörighetsuppsättningen SUPER som följer med [!INCLUDE[prod_short](includes/prod_short.md)] har du behörighet att köra alla artiklar som licensen medger. Om du har rollen Delegerad admin kan du skapa och schemalägga jobbkötransaktioner, men endast administratörer och licensierade användare kan köra dem.
 
 När jobbköer är inställda och körs kan status ändras enligt följande inom varje återkommande period:
 
@@ -30,10 +30,14 @@ När jobbköer är inställda och körs kan status ändras enligt följande inom
 * **Pågående**  
 * **Fel**  
 * **Avslutad**  
+* **Stoppad på grund av inaktivitet**
+
+> [!NOTE]
+> Statusen **Stoppad på grund av inaktivitet Inactivity** används främst för jobbkötransaktioner som schemalägger synkronisering mellan [!INCLUDE [prod_short](includes/prod_short.md)] och en annan app, t.ex. [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Mer information om den här statusen finns i [Om tidsgränser för inaktivitet](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
 
 När ett projekt har slutförts korrekt, tas det bort från listan över jobbkötransaktioner, om det inte är ett återkommande projekt. Om det är ett återkommande projekt justeras fältet **tidigaste starttiden** till att visa nästa gång jobbet ska köras.  
 
-## <a name="monitor-status-or-errors-in-the-job-queue"></a>Övervaka status eller fel i jobbkön
+## Övervaka status eller fel i jobbkön
 
 Data som jobbkön genererar lagras så att du kan felsöka fel.  
 
@@ -52,7 +56,7 @@ I följande tabell beskrivs värdena i fältet **Status**.
 > [!Tip]  
 > Jobbkötransaktioner stoppades när ett fel inträffar. Det kan till exempel vara problem när en post ansluter till en extern tjänst, till exempel en bankfeed. Om tjänsten inte är tillgänglig för tillfället och jobbkötransaktionen inte kan ansluta visas ett felmeddelande i transaktionen och den stoppas. Du måste starta om jobbkötransaktionen manuellt. Men fälten **Maximalt antal försök** och **Kör fördröjning igen (sek.)** kan du undvika problemet. Fältet **Maximalt antal försök** låter dig ange hur många gånger jobbkötransaktionen kan misslyckas innan den slutar att försöka köras. Fältet **Kör fördröjning igen (sek.)** låter dig ange hur lång tid, i sekunder, mellan försöken. Kombinationen av dessa två fält kan behålla jobbkötransaktionen tills den externa servicen blir tillgänglig.
 
-### <a name="to-view-status-for-any-job"></a>Så här visar du status för ett projekt
+### Så här visar du status för ett projekt
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **jobbkötransaktioner** och välj sedan relaterad länk.
 2. På sidan **jobbkötransaktioner** väljer du en jobbkötransaktion, och väljer sedan åtgärden **loggposter**.  
@@ -60,7 +64,7 @@ I följande tabell beskrivs värdena i fältet **Status**.
 > [!TIP]
 > För mer djupgående analys baserad på telemetri kan du välja Application Insights i Microsoft Azure för att granska statusen för jobbkötransaktioner. För att lära dig mer om telemetri, gå till [Övervaka och analysera telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) och [Analysera spårningstelemetri för livscykel för jobbkö](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
-## <a name="view-scheduled-tasks"></a>Visa schemalagda uppgifter
+## Visa schemalagda uppgifter
 
 På sidan **schemalagda uppgifter** i [!INCLUDE [prod_short](includes/prod_short.md)] visas vilka uppgifter som är klara att köras i jobbkön. På sidan visas också information om det företag som varje aktivitet har konfigurerats för att köras i. Endast aktiviteter som är markerade som tillhör den aktuella miljön kan dock köras.  
 
@@ -69,7 +73,7 @@ Om det aktuella företaget exempelvis finns i en miljö som är en kopia av en a
 > [!NOTE]
 > Interna administratörer och licensierade användare kan schemalägga aktiviteter så att de körs. Delegerade administratörer kan konfigurera och schemalägga aktiviteter så att de körs, men endast licensierade användare kan köra dem.
 
-## <a name="the-my-job-queue-part"></a>Min jobbködel
+## Min jobbködel
 
 I **Min jobbködel** i ditt rollcenter visas de jobbköer som du har inlett men som ännu inte slutfört. Som standard visas inte delen, så du behöver lägga till den i ditt rollcenter. Om du vill veta mer om anpassning, gå till [Anpassa arbetsyta](ui-personalization-user.md).  
 
@@ -80,28 +84,28 @@ Delen visar följande information:
 
 Delen Min jobbkö ger dig också möjlighet att makulera en dokumentbokföring.
 
-### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Så här kan du visa ett fel från delen Min jobbkö
+### Så här kan du visa ett fel från delen Min jobbkö
 
 1. På en transaktion med statusen **fel**, väljer du åtgärden **Visa felet**.
 2. Granska felmeddelandet och lös problemet.
 
-## <a name="examples-of-what-you-can-schedule-using-job-queue-entries"></a>Exempel på vad du kan schemalägga med jobbkötransaktioner
+## Exempel på vad du kan schemalägga med jobbkötransaktioner
 
-### <a name="schedule-reports"></a>Schemalägg rapporter
+### Schemalägg rapporter
 
 Du kan schemalägga en rapport eller batch-jobb att köras vid ett visst datum och en viss tidpunkt. Planerade rapporter och batch-jobb anges i jobbkön och behandlas vid den planerade tid, på liknande sätt som andra jobb. Du väljer alternativet **Schemalägg** när du har valt åtgärden **Skicka till**, och anger sedan information om t. ex. skrivare, tid och datum samt frekvens.  
 
 Om du vill veta mer om schemaläggning går du till [Schemaläggning av en rapport som ska köras](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between--and-includeprod_short"></a>Schemalägg synkronisering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### Schemalägg synkronisering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Om du har integrerat [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)] kan jobbkön schemalägga när data ska synkroniseras. Beroende på vilken riktning och vilka regler du definierat kan jobbkötransaktionen skapa poster i ett program för att matcha poster i den andra. Ett bra exempel är när du registrerar en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)] en jobbkötransaktion kan du ange den kontakten åt dig i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du vill veta mer om schemaläggning, gå till [Schemalägga en synkronisering mellan Business Central och Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### <a name="schedule-when-to-post-sales-and-purchase-orders"></a>Schemalägg när du ska bokföra försäljnings- och inköpsorder
+### Schemalägg när du ska bokföra försäljnings- och inköpsorder
 
 Med hjälp av jobbkötransaktioner kan du schemalägga affärsprocesser så att de körs i bakgrunden. Till exempel är bakgrundsuppgifter användbara när då flera användare bokför försäljningsorder samtidigt, men endast en order kan behandlas i taget. Om du vill veta mer om bakgrundsbokföring går du till [Så här ställer du in bakgrundsbokföring med jobbköer](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
 
-## <a name="handle-job-queue-entry-issues"></a>Hantera problem med jobbkötransaktioner
+## Hantera problem med jobbkötransaktioner
 
 Om en jobbkötransaktion visar ett fel, är ditt första alternativ att lösa problemet att starta om jobbkötransaktionen. Du kan ställa in statusen för jobbkötransaktionen till **Stoppad** och sedan **Klar** eller bara starta om den.
 
@@ -119,13 +123,13 @@ Om du kontaktar Microsoft-partnern eller Microsoft för support bör du ange fö
 > * För tidigare versioner anger du en skärmbild av sidan **Loggtransaktioner för jobbkö**.
 > * För senare versioner använder du åtgärden **Kopiera detaljer** på sidan Loggtransaktioner för jobbkö för att kopiera informationen (jobbkö-ID, tidsstämpel och tidszon).
 
-## <a name="monitor-the-job-queue-with-telemetry"></a>Övervaka jobbkön med telemetri
+## Övervaka jobbkön med telemetri
 
 Administratörer kan använda [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) för att samla in och analysera telemetri för att identifiera problem. För att lära dig mer om telemetri, gå till [Övervaka och analysera telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) och [Analysera spårningstelemetri för livscykel för jobbkö](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 Med hjälp av telemetri kan administratörer ställa in aviseringar på de jobbköer som skickar ett textmeddelande, e-postmeddelande eller ett meddelande i Teams om något inte är rätt. Om du vill veta mer om dessa aviseringar går du till [Avisering om telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Administration](admin-setup-and-administration.md)  
 [Ställa in Business Central](setup.md)  

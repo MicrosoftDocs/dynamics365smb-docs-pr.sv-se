@@ -1,7 +1,7 @@
 ---
 title: Designdetaljer – Lagerkostnad
 description: Dokumentationen ger en detaljerad teknisk inblick i de begrepp och principer som används i lagervärderingsfunktionerna i Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Designdetaljer: Lagerkalkylering
+# Designdetaljer: Lagerkalkylering
 
 Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Lagervärdering, kallas även kostnadshantering, används vid registrering och rapportering av rörelsens driftskostnader.  
 
-## <a name="in-this-section"></a>I det här avsnittet
+## I det här avsnittet
 
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-application.md)  

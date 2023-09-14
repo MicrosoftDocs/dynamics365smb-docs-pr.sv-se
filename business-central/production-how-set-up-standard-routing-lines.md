@@ -1,27 +1,27 @@
 ---
 title: Konfigurera standarduppgifter för operationer
 description: Lära dig mer om hur du ställer in standarduppgifter och lägger till standard uppgifter i operationer som gör det enklare att underhålla operationsföljder.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-standard-routing-lines"></a>Skapa standardverksamhetsföljdrader
+# Skapa standardverksamhetsföljdrader
 
 Genom att använda standarduppgifter är det lättare att skapa och underhålla verksamhetsföljder. De låter dig snabbt koppla ytterligare information till återkommande operationer.
 
-## <a name="to-set-up-a-standard-task"></a>Så här ställer du in standarduppgift
+## Så här ställer du in standarduppgift
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **standarduppgifter** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Välj åtgärder **verktyg**, **personal**, **beskrivning** eller **verktyg** och lägg till önskad post på sidan som öppnas.
 
-## <a name="to-add-a-standard-task-to-an-operation"></a>Lägga till en standarduppgift till en operation
+## Lägga till en standarduppgift till en operation
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.
 2. Öppna relevant verksamhetsföljd.
@@ -29,7 +29,7 @@ Genom att använda standarduppgifter är det lättare att skapa och underhålla 
 
 När du skriver ut operationsföljden kan du välja att ta med de element från standarduppgiften som du har lagt till i operationsföljdrader.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa verksamhetsföljder](production-how-to-create-routings.md)  
 [Skapa produktionsstrukturer](production-how-to-create-production-boms.md)  

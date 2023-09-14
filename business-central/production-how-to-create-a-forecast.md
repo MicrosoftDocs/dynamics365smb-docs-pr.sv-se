@@ -1,16 +1,16 @@
 ---
 title: Skapa en efterfrågeprognos
 description: Lära dig mer om funktionen för efterfrågeprognos och hur du kan skapa försäljnings- och produktionsprognoser.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '9245, 99000919, 99000921, 99000922'
 ms.date: 03/11/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="create-a-demand-forecast"></a>Skapa en efterfrågeprognos
+# Skapa en efterfrågeprognos
 
 Du kan skapa försäljnings- och produktionsprognoser på listsidan **efterfrågeprognos**. För varje prognos anger du sedan olika inställningar för prognosen på sidan för **översikt över efterfrågeprognosen**.  
 
@@ -20,7 +20,7 @@ Med prognoser kan företaget skapa hypotetiska scenarier och på ett kostnadseff
 
 Med 2022 utgivningscykel 1 kan du också definiera rätt detalj nivå i fälten **prognos per lagerställe** och **prognos per variant** på sidan **efterfrågeprognos översikt**. Filter och andra inställningar lagras i tabellen **namn på efterfrågeprognos**. Så att du enkelt kan stoppa och fortsätta arbeta senare. Om organisationen har uppdaterats till 2022 utgivningscykel 1, måste du växla till den nya upplevelsen på sidan [funktionshantering](admin-feature-management.md).  
 
-## <a name="sales-forecasts-and-production-forecasts"></a>Försäljningsprognoser och produktionsprognoser
+## Försäljningsprognoser och produktionsprognoser
 
 Funktionen för produktionsprognos kan användas för att skapa försäljnings- eller produktionsprognoser, i olika kombinationer eller var för sig. De flesta företag som tillverkar mot order har t. ex. inga färdiga varor i lager eftersom varje artikel tillverkas när den beställs. Det är viktigt att kunna förutse order (försäljningsprognos) för att få en rimlig genomloppstid på de färdiga varorna (produktionsprognos). Komponentdelar med långa leveranstider kan t. ex. försena produktionen om dessa inte har beställts eller finns i lager.  
 
@@ -38,21 +38,21 @@ Prognosen består av ett antal poster som motsvarar artikelnummer, prognosdatum 
 
 Du måste ange en prognos av typen *Försäljningsartikel*, *Komponent* eller *Både och*. Prognostypen *Försäljningsartikel* används för försäljningsprognoser. Produktionsprognosen skapas med hjälp av typen *Komponent*. Prognostypen *Både och* används endast för att ge planeraren en översikt över både försäljnings- och produktionsprognosen. Prognostransaktioner kan inte redigeras med det här alternativet. När du anger prognostyperna här, kan du använda samma kalkylblad för att ange försäljningsprognosen som du använder för att ange en produktionsprognos, och använda samma blad för att visa båda prognoser samtidigt. Observera att dessa olika indata (försäljning och produktion) bearbetas olika i systemet vid beräkning av planering, beroende på artikel-, tillverknings- och produktionsinställningarna.  
 
-## <a name="component-forecast"></a>Komponentprognos
+## Komponentprognos
 
 Komponentprognosen kan ses som en alternativ prognos med hänsyn till en överordnad artikel. Detta kan t. ex. vara användbart om planeraren kan uppskatta behovet av en komponent.  
 
 Eftersom komponentprognosen är utformad för att definiera alternativ för en överordnad artikel, bör komponentprognosen vara mindre än eller lika med försäljningsartikelns prognoskvantitet. Om komponentprognosen är större än prognosen för försäljningsartikeln behandlas skillnaden mellan dessa två typer av prognoser som oberoende behov.  
 
-## <a name="forecasting-periods"></a>Prognosperioder
+## Prognosperioder
 
 Prognosperioden är giltig från startdatumet fram till det datum då nästa prognos börjar. Det här tidsintervallet ger dig flera alternativ för att infoga behov på ett särskilt datum i en period. Du rekommenderas därför att inte ändra prognosperiodens omfattning om du inte vill flytta alla prognostransaktioner till startdatumet för den här perioden.  
 
-## <a name="forecast-by-locations"></a>Prognos efter lagerställen
+## Prognos efter lagerställen
 
 På sidan **Produktionsinställningar** kan du ange om du vill beakta de platser som definieras i prognoser när du beräknar planer. 
 
-### <a name="use-forecast-by-locations"></a>Använd prognos efter lagerställen
+### Använd prognos efter lagerställen
 
 Om du aktiverar växlingen **Använd prognos efter lagerställe** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att följa de lagerställekoder som anges för respektive post för efterfrågeprognos och beräkna den återstående prognosen för respektive lagerställe.  
 
@@ -69,7 +69,7 @@ Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe V
 > [!NOTE]  
 > Om platsbaserade prognoser visas separat kanske den övergripande prognosen inte är representativ.
 
-### <a name="do-not-use-forecast-by-locations"></a>Använd inte prognos efter lagerställen
+### Använd inte prognos efter lagerställen
 
 Om du avaktiverar **Använd prognos efter plats** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att ignorera platskoder som anges för respektive behovsprognospost och samla prognoserna till en prognos för tomma platser.  
 
@@ -86,7 +86,7 @@ Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe V
 > [!NOTE]  
 > Du kan ange ett filter efter lagerställen, men det kan hända att de platsbaserade resultaten inte matchar planeringsresultaten utan filter.
 
-## <a name="to-create-a-demand-forecast"></a>Att skapa en efterfrågeprognos
+## Att skapa en efterfrågeprognos
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **efterfrågeprognos** och väljer sedan relaterad länk.  
 2. På snabbfliken **Allmänt**, välj en prognos i fältet **efterfrågeprognosnamn**. Flera prognoser kan särskiljas med hjälp av namn och prognostyp.  
@@ -104,7 +104,7 @@ Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe V
 > [!NOTE]  
 > Du kan också redigera en befintlig prognos. På sidan **Matris för efterfrågeprognos** väljer du åtgärden **Kopiera efterfrågeprognos** och fyller i sidan **efterfrågeprognos** med en befintlig prognos. Du kan sedan redigera antalet.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)
