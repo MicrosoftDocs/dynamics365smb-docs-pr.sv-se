@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# Genomgång av affärsprocesser
+# <a name="business-process-walkthroughs"></a>Genomgång av affärsprocesser
 
 Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utföra med hjälp av demonstrationsföretaget CRONUS. Genomgångarna består av flera procedurer, där några vanligtvis utförs av en enda användare medan andra införlivar flera användarroller. För att simulera arbetsmiljön innehåller några av genomgångarna konfigurationssteg för att slutföra övningarna i beskrivningen. Dessa steg kan ge en inblick i typen av information som användare måste dela med sitt företags IT-proffs.  
 
@@ -36,7 +36,7 @@ Det här valet av genomgångar visar stegvisa affärsprocesser som du kan utför
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

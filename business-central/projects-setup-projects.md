@@ -11,7 +11,7 @@ ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# Ställa in projekthantering
+# <a name="setting-up-project-management"></a>Ställa in projekthantering
 
 Innan du kan använda [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera projekt måste du ange resurser, tidrapporter och projekt.
 
@@ -26,7 +26,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Låt resurser rapportera tidförbrukning för en enskild anställd eller en maskin, och låt chefen granska förbrukningen och dess fördelning. |[Så här skapar du tidrapporter](projects-how-setup-time-sheets.md) |
 | Skapa projektkort och förbered projektaktiviteter. Ange priser för projektobjekt och projektresurser och definiera projektbokföringsmallar. |[Lägga upp projekt](projects-how-setup-jobs.md) |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera projekt](projects-manage-projects.md)  
 [Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

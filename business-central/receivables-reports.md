@@ -8,15 +8,15 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 07/13/2021
 ms.author: bholtorf
 ---
-# Kundreskontrarapporter och analys i Business Central
+# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Kundreskontrarapporter och analys i Business Central
 
 För att hjälpa dig att hantera dina kundreskontra i [!INCLUDE [prod_short](includes/prod_short.md)] är standardrapporter och analyser inbyggda. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  

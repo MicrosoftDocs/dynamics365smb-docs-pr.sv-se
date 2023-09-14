@@ -90,7 +90,7 @@ I följande tabell beskrivs de kortkommandon som du kan använda i en listsida. 
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Skicka förslag på rader på sidan för kalkylark för kassaflöde.|Ej tillämpbart.|
 |*<kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Visa serie- och partinummer som har tilldelats till radartikeln för dokument eller journal.|Ej tillämpbart.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigera mellan rader och kolumner
 
 Det finns stödraster som innehåller rader och kolumner på många olika sidtyper i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel listsidor och **Rad**-delar i dokument. Att flytta från en cell till en annan i ett rutnät kan ske helt och hållet via tangentbordet.
 
@@ -111,7 +111,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 | <kbd>Tabb</kbd> | I en redigerbar lista, flytta till samma rad till höger i samma fält. | Ej tillämpbart. | 
 | <kbd>Shift</kbd>+<kbd>Tabb</kbd> | I en redigerbar lista, flytta till samma rad till vänster i föregående fält. | Ej tillämpbart. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Välja kopiera och klistra in
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Välja kopiera och klistra in
 
 |Välj dessa tangenter<br />(i macOS)|För att göra detta som en lista |För att göra detta som en panelvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Det finns stödraster som innehåller rader och kolumner på många olika sidtyp
 |<kbd>Shift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Shift</kbd>+<kbd>Fn</kbd>+<kbd>Uppil</kbd>)|Utöka radmarkeringen så att samtliga synliga rader nedanför den aktuella radmarkeringen inkluderas.|Ej tillämpbart.|
 |<kbd>F8</kbd>|Kopiera fältet i samma kolumn i raden ovanför och klistra in den i den aktuella raden. Du kan bara göra detta i redigerbara listor. Med detta kortkommando följt av en <kbd>flik</kbd> kan du snabbt kan fylla i fält i radposter som du vill ska ha samma värde som raden ovan.|Ej tillämpbart.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Söka och filtrera listor
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Söka och filtrera listor
 
 |Välj dessa tangenter<br />(i macOS)|Om du vill|
 |--------------------------------|----------|

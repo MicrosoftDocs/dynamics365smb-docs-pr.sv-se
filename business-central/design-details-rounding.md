@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# Designdetaljer: Avrundning
+# <a name="design-details-rounding"></a>Designdetaljer: Avrundning
 Avrundningsrester kan uppstå när du värderar kostnaden för en lagerminskning som har angetts i ett annat antal än motsvarande lagerökning. Avrundningsrester beräknas för alla värderingsprinciper när du kör batch-jobbet **Justera kost. artikeltrans**.  
 
  När du använder värderingsprincipen Genomsnitt beräknas avrundningsresten och registreras enligt en ackumulerad, transaktion-för-transaktion-utgångspunkt.  
 
  När du använder en annan värderingsprincip än Genomsnitt beräknas avrundningsresten när lagerökningen har kopplats fullständigt, d.v.s när återstående antal för lagerökningen är lika med noll. En separat transaktion skapas sedan för den avrundningsresten, och bokföringsdatumet på avrundningsresten är bokföringsdatumet för den senast fakturerade värdetransaktion för lagerökningen.  
 
-## Exempel  
+## <a name="example"></a>Exempel
  Följande exempel visar hur olika avrundningsrester hanteras för genomsnittsvärderingsprincipen och icke-genomsnittvärderingsprincipen. I båda fallen har batch-jobbet **Justera kost – artikeltransaktioner** körts.  
 
  Följande tabell visas de artikeltransaktioner som exemplet baseras på.  
@@ -52,7 +52,7 @@ Avrundningsrester kan uppstå när du värderar kostnaden för en lagerminskning
 |04-01-20|-1|-3.33|4|4|  
 |01-01-20|0|-0.01|1|5|  
 
-## Se även  
+## <a name="see-also"></a>Se även
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)   
  [Designdetaljer: värderingsprinciper](design-details-costing-methods.md) [Hantera lagerkostnader](finance-manage-inventory-costs.md)  

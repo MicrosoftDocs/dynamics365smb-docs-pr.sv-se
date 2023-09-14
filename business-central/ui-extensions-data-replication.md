@@ -13,7 +13,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ---
 
-# Tillägg för molnflyttning för migrering till Business Central Online
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Tillägg för molnflyttning för migrering till Business Central Online
 
 Beroende på din lokala lösning måste du använda olika tillägg för att ansluta dina data till [!INCLUDE[prod_short](includes/prod_short.md)] online för att migrera din lösning till molnet.  
 
@@ -21,22 +21,22 @@ Om du använder någon av de lokala produkterna som stöds kan du konfigurera de
 
 Mer information finns i [migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsinnehållet för [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Business Central lokalt
+## <a name="business-central-on-premises"></a>Business Central lokalt
 
 Om du använder en lokal distribution av [!INCLUDE[prod_short](includes/prod_short.md)], skaffa tillägget **Intelligent moln-bas** och tillägget **Business Central Intelligent moln** och kör sedan guiden assisterad konfiguration för **Konfiguration av molnmigrering**.  
 
-## Dynamics GP
+## <a name="dynamics-gp"></a>Dynamics GP
 
 Om du använder Dynamics GP, skaffa **Tillägget Intelligent moln-bas** och tillägget **Dynamics GP Intelligent moln** och kör sedan den assisterade konfigurationsguiden **Konfiguration av molnmigrering**.  
 
 > [!IMPORTANT]
 > Migrering från Dynamics GP med hjälp av guiden för assisterad konfiguration **Konfiguration av molnmigrering** stöds för närvarande endast på följande marknader: USA, Kanada och Storbritannien.
 
-## Dynamics SL
+## <a name="dynamics-sl"></a>Dynamics SL
 
 Om du använder Dynamics SL, skaffa tillägget **Intelligent moln-bas**, tillägget **Microsoft Dynamics SL Intelligent moln** och tillägget **Microsoft Dynamics SL SmartLists för historik** och kör sedan den assisterade konfigurationsguiden **Konfiguration av molnmigrering**.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Tillägget Bas för molnmigrering](ui-extensions-intelligent-cloud.md)  
 [Migrera lokala data till Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

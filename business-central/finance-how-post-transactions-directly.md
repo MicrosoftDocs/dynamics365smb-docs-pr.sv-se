@@ -11,7 +11,7 @@ ms.search.form: '39, 251'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Så här bokför du transaktioner direkt i redovisningen
+# <a name="post-transactions-directly-to-the-general-ledger"></a>Så här bokför du transaktioner direkt i redovisningen
 
 Du använder Redovisningsjournaler för att bokföra ekonomiska transaktioner direkt på redovisningskonton och andra konton, till exempel bank-, leverantörs- och personalkonton.  
 
@@ -21,7 +21,7 @@ Redovisningsjournaler bokför ekonomiska transaktioner direkt till redovisningsk
 
 Till skillnad från transaktioner som har bokförts med dokument som kräver en kreditnotaprocess, kan du korrekt återföra transaktioner som har bokförts med den allmänna journalen. Mer information finns i [återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md).
 
-## Bokföra transaktioner direkt i redovisningen
+## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Bokföra transaktioner direkt i redovisningen
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **redovisningsjournaler** och väljer sedan relaterad länk.
 2. Öppna relevant redovisningsjournal. Mer information finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
@@ -35,7 +35,7 @@ Till skillnad från transaktioner som har bokförts med dokument som kräver en 
     > Om du vill ange flera transaktionsrader ovanför en rad i motkontot, till exempel för ett bankkonto markerar du kryssrutan **föreslå saldobelopp** på raden för journalen på sidan **redovisningsjournaler**. Fältet **belopp** på motkontots rad är fördefinierade automatiskt med det värde som krävs för att balansera transaktionerna.
 5. Välj åtgärden **Bokför** för att registrera transaktioner på de angivna redovisningskontona.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)  
