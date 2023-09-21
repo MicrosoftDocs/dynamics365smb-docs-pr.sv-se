@@ -3,13 +3,13 @@ title: Designdetaljer – Leveransplanering
 description: Den här artikeln beskriver begreppen och principerna i leveransplaneringsfunktionerna i Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ---
-# <a name="design-details-supply-planning"></a>Designdetaljer: Leveransplanering
+# Designdetaljer: Leveransplanering
 
 Detta avsnitt innehåller detaljerad teknisk insikt i begreppen och principerna som används i leveransplaneringen i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -20,7 +20,7 @@ I artiklarna beskrivs hur planeringssystemet fungerar:
 * Beskriver logiken för den centrala mekanismen som tillhandahåller balansering
 * Förklara hur man använder omordningspolicyer i lagerplanering  
 
-## <a name="in-this-section"></a>I det här avsnittet
+## I det här avsnittet  
 
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md)  

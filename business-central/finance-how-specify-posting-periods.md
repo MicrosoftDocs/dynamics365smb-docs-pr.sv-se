@@ -12,11 +12,11 @@ ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="specify-posting-periods"></a>Så här anger du bokföringsperioder
+# Så här anger du bokföringsperioder
 
 Använd bokföringsperioder för att ange om användare kan bokföra i redovisningen.  
 
-## <a name="to-specify-posting-periods"></a>Så här anger du bokföringsperioder
+## Så här anger du bokföringsperioder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Redovisningsinställningar** och välj sedan relaterad länk.  
 2. På sidan **Redovisningsinställningar** anger du perioden genom att ange datum i fälten **Tillåt bokföring fr.o.m** och **Tillåt bokföring t.o.m.**.  
@@ -24,7 +24,7 @@ Använd bokföringsperioder för att ange om användare kan bokföra i redovisni
 > [!NOTE]  
 > Dessa bokföringsperioder tillämpas på hela företaget och alla användare. Om du vill tillåta undantag kan du definiera olika bokföringsperioder för specifika användare på sidan **Användarinställningar**. Dessa bokföringsperioder åsidosätter de som anges på sidan **Redovisningsinställningar**. Mer information finns i [Så här ställer du in tidsbegränsningar för användare](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomi](finance.md)  
 [Slutföra periodslutsprocesser](year-how-complete-period-end-processes.md)  

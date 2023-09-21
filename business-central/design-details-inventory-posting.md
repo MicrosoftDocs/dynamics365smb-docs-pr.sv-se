@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokföring
+# Designdetaljer: Lagerbokföring
 
 Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför två transaktioner av olika typer.  
 
@@ -27,26 +27,26 @@ Varje lagertransaktion, t.ex en inköpsinleverans eller en utleverans, bokför t
 
  ![Transaktionsflöde vid avstämning av lager med redovisning.](media/design_details_inventory_costing_1_entry_flow.png "Transaktionsflöde vid avstämning av lager med redovisning")  
 
-## <a name="example"></a>Exempel
+## Exempel
 
 Följande exempel visar hur artikeltransaktioner, värdetransaktioner och artikelkopplingstransaktioner skapas i redovisningstransaktioner.  
 
  Du bokför en inköpsorder som har inlevererats och fakturerats för 10 artiklar med en direkt styckkostnad på BVA 7 och en omkostnad på BVA 1. Bokföringsdatumet är 20-01-01. Följande transaktioner upprättas.  
 
-### <a name="item-ledger-entries-1"></a>Artikeltransaktioner (1)
+### Artikeltransaktioner (1)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Antal|Löpnr|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Inköp|80.00|10|1|  
 
-### <a name="value-entries-1"></a>Värdetransaktioner (1)
+### Värdetransaktioner (1)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Artikeltrans.löpnr|Löpnr|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Inköpskostnad|70,00|1|1|  
 |01-01-20|Indirekt kostnad|10,00|1|2|  
 
-### <a name="item-application-entries-1"></a>Kopplingstransaktioner för artikel (1)
+### Kopplingstransaktioner för artikel (1)
 
 |Löpnr|Artikeltrans.löpnr|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Följande exempel visar hur artikeltransaktioner, värdetransaktioner och artike
 
  Nu bokför du en försäljning på 10 enheter av artikeln med ett bokföringsdatum på 01-15-20.  
 
-### <a name="item-ledger-entries-2"></a>Artikeltransaktioner (2)
+### Artikeltransaktioner (2)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Antal|Löpnr|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Försäljning|-80.00|-10|2|  
 
-### <a name="value-entries-2"></a>Värdetransaktioner (2)
+### Värdetransaktioner (2)
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Artikeltrans.löpnr|Löpnr|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Direkt kostnad|-80.00|2|3|  
 
-### <a name="item-application-entries-2"></a>Kopplingstransaktioner för artikel (2)
+### Kopplingstransaktioner för artikel (2)
 
 |Löpnr|Artikeltrans.löpnr|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 
  Följande tabeller visar resultatet av avstämningen av lagertransaktionerna i det här exemplet med redovisningen.  
 
-### <a name="value-entries-3"></a>Värdetransaktioner (3)
+### Värdetransaktioner (3)  
 
 |Bokföringsdatum|Transaktionstyp|Kost.belopp (aktuellt)|Kostnad bokförd i redov.|Artikeltrans.löpnr|Löpnr|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 |01-01-20|Indirekt kostnad|10,00|10,00|1|2|  
 |01-15-20|Direkt kostnad|-80.00|-80.00|2|3|  
 
-### <a name="general-ledger-entries-3"></a>Redovisningstransaktioner (3)
+### Redovisningstransaktioner (3)
 
 |Bokföringsdatum|Redovisningskonto|Kontonr. (En-US-demo)|Belopp|Löpnr|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 
  Relationen mellan värdetransaktioner och bokföringstransaktioner lagras i tabellen **Artikeltrans.relation**.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (3)
+### Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (3)
 
 |Löpnr redovisning|Värdelöpnr|Bokf. redov.journalnr|  
 |-------------|---------------|----------------|  
@@ -115,13 +115,13 @@ Vid slutet av bokföringsperioden kör du batchjobbet **Bokför lagerkostnad i r
 |5|3|1|  
 |6|3|1|  
 
-## <a name="assembly-and-production-posting"></a>Montering- och produktionsbokföring
+## Montering- och produktionsbokföring
 
 Kapacitets – och resurstransaktioner representerar den tid som bokförs som förbrukad i produktionen eller monteringen. Dessa bearbetningskostnader bokförs som värdetransaktioner i redovisningen tillsammans med relevanta materialkostnader i en liknande struktur som den som beskrivs för artikeltransaktioner i det här avsnittet.  
 
 Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
 
-## <a name="see-also"></a>Se även
+## Se även
 
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
  [Designdetaljer: Konton i redovisningen](design-details-accounts-in-the-general-ledger.md)  

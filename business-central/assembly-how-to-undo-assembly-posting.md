@@ -3,14 +3,14 @@ title: Ångra monteringsboking
 description: Lär dig korrigera misstag i en bokförd monteringsorder.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="undo-assembly-posting"></a>Ångra monteringsboking
+# Ångra monteringsboking
 
 Ångra bokföringen av en monteringsorder för att korrigera ett misstag eller ta bort en oönskad bokföring.
 
@@ -33,7 +33,7 @@ Monteringsorder kan endast återställas om antalet rader och sekvensen av rader
 
 Nedan beskrivs hur du återställer bokförda monteringsorder som innehåller artiklar som monterades mot lager. Om du vill ångra bokförda monteringsorder med artiklar som monterats mot kundorder använder du åtgärden **Återställ utleverans** för den tillhörande bokförda utleveransen. Om du vill veta mer om återställa utleveranser går du till [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md). Återställa den bokförda monteringsordern sker på samma sätt som beskrivs i den här artikeln.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Om du vill ångra bokföring av en monteringsorder
+## Om du vill ångra bokföring av en monteringsorder
 
 Du kan ångra helt eller delvis bokförda monteringsorder.
 
@@ -50,7 +50,7 @@ Fältet **Återförd** på monteringsordern ändras till **Ja**. Bokföringen av
 > [!NOTE]  
 > Om du vill återställa antal från flera delbokföringar i en monteringsorder måste du ångra alla bokförda monteringsorder genom att följa steg 1 till 3.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Monteringshantering](assembly-assemble-items.md)  
 [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)  

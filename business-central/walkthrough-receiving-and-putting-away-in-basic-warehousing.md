@@ -3,12 +3,12 @@ title: 'Genomgång: Inleverans och utflöde i grundläggande lagerkonfiguratione
 description: Lära dig mer om olika sätt att hantera inkommande processer för inleverans och artikelinförsel.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
+# Genomgång: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ta emot objekt och lägga undan dem med någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -23,7 +23,7 @@ Läs mer i [Inkommande distributionslagerflöde](design-details-inbound-warehous
 
 Efterföljande genomgången visar metod B i föregående tabellen.  
 
-## <a name="about-this-walkthrough"></a>Om den här genomgången
+## Om den här genomgången  
 
 För grundläggande lagerkonfiguration där lagerstället har konfigurerats att kräva artikelinförselbearbetning men inte mottagningsbearbetning, använder du sidan **Lagerinförsel** för att registrera och bokföra artikelinförsel- och mottagningsinformation för dina inkommande källdokument. Följande dokument är inkommande källdokument:
 
@@ -50,7 +50,7 @@ I den här genomgången tas följande aktiviteter upp:
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## <a name="roles"></a>Roller
+## Roller  
 
 Följande användarroller utför de uppgifter som denna genomgång visar:  
 
@@ -58,7 +58,7 @@ Följande användarroller utför de uppgifter som denna genomgång visar:
 * Inköpsagent  
 * Lagerarbetare  
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar  
 
 För att kunna utföra den här genomgången behöver du:  
 
@@ -70,15 +70,15 @@ För att kunna utföra den här genomgången behöver du:
     3. I fältet **Lagerställekod**, välj **SILVER**.  
     4. Markera kryssrutan **Standard**.  
 
-## <a name="story"></a>Situation
+## Situation  
 
 Alicia, inköpsagenten i CRONUS, skapar en inköpsorder för 10 enheter av artikeln LS-75 och 30 enheter av artikeln LS-81 från leverantör 10000 som ska levereras till distributionslagret SILVER. När leveransen inlevereras till lagret placerar Anders, lagerarbetaren, artiklarna i standardlagerställen som definieras för artiklarna. När Anders bokför artikelinförseln, bokförs artiklarna som inlevererade till lagret och som tillgängligt för försäljning eller andra behov.  
 
-## <a name="setting-up-the-location"></a>Lägger upp lagerstället
+## Lägger upp lagerstället  
 
 Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden.  
 
-### <a name="to-set-up-the-location"></a>Så här lägger du upp lagerställen
+### Så här lägger du upp lagerställen  
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2. Öppna lagerställekortet SILVER.  
@@ -95,11 +95,11 @@ Inställningen av sidan **Lagerställekort** definierar företagets lagerflöden
 7. Markera fälten **Fast** och **Standard**.  
 8. I fältet **Verifikationsnr.** anger du **LS-81**.  
 
-## <a name="create-the-purchase-order"></a>Skapa inköpsordern
+## Skapa inköpsordern  
 
 Inköpsorder är den vanligaste typen för inkommande källdokumentet.  
 
-### <a name="to-create-the-purchase-order"></a>Skapa inköpsordern
+### Skapa inköpsordern  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -119,11 +119,11 @@ Inköpsorder är den vanligaste typen för inkommande källdokumentet.
 
     Leverans av högtalare från leverantör 10000 har anlänt till SILVERLAGRET, och Anders fortsätter att föra in dem.  
 
-## <a name="receive-and-put-the-items-away"></a>Ta emot och för in artiklar
+## Ta emot och för in artiklar  
 
 På sidan **Lagerinförsel** kan du hantera alla ingående distributionslageraktiviteter för ett särskilt källdokument, t.ex. en inköpsorder.  
 
-### <a name="to-receive-and-put-the-items-away"></a>Så här tar du emot och för in artiklar
+### Så här tar du emot och för in artiklar  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lager, artikelinförsel** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -140,7 +140,7 @@ På sidan **Lagerinförsel** kan du hantera alla ingående distributionslagerakt
 
     De 40 högtalarna har nu registrerats som införda på lagerställen S-01-0001 och en positiv artikeltransaktion skapas som återspeglar den bokförda inköpsinleveransraden.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Ställa in grundläggande dist.lager med verksamhetsområden](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

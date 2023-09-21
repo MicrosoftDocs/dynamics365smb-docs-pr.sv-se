@@ -3,18 +3,18 @@ title: Definiera en bokföringspolicy för faktura för användare
 description: Använd regler för fakturabokföring för att kontrollera om en användare kan bokföra försäljnings- och inköpsfakturor.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/09/2023
 ms.custom: bap-template
 ms.search.forms: '119, 9807,'
 ---
 
-# <a name="define-an-invoice-posting-policy-for-users"></a>Definiera en bokföringspolicy för faktura för användare
+# Definiera en bokföringspolicy för faktura för användare
 
 Företag har ofta unika processer för att bokföra försäljnings- och inköpsfakturor och leveranser. Processer kan till exempel variera från en person som bokför allt på en inköpsorder, till flera anställda. Du kan begränsa användare från bokföringsfakturor eller kräva att fakturor bokförs tillsammans med leveranser eller inleveranser.
 
-## <a name="to-specify-a-posting-policy"></a>Så här anger du bokföringspolicy
+## Så här anger du bokföringspolicy
 
 På sidan **användarinställningar** i fälten **Bokföringspolicy för försäljningsfaktura** och **Bokföringsprincip för inköpsfaktura** välj ett av följande alternativ:
 
@@ -22,7 +22,7 @@ På sidan **användarinställningar** i fälten **Bokföringspolicy för försä
 * **Förbjuden** – hindrar användaren från att bokföra fakturor. I Business Central visas en bekräftelse dialogruta som endast innehåller alternativ **leverans** och **mottagning**.
 * **Obligatorisk** – gör att användaren kan bokföra fakturor tillsammans med inleveranser eller utleveranser. I Business Central visas en bekräftelse dialogruta med alternativ **leverans och fakturera** och **mottagning och fakturera**.
 
-## <a name="effect-on-documents"></a>Inverkan på dokument
+## Inverkan på dokument
 
 I följande tabell beskrivs hur fakturana bokföringsprinciper påverkar dokument.
 
@@ -39,7 +39,7 @@ I följande tabell beskrivs hur fakturana bokföringsprinciper påverkar dokumen
    > [!Note]
    > Inställningen påverkar inte bokföring av redovisningsjournalrader där du kan välja **faktura** i fältet **dokumenttyp**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera inköp med inköpsfakturor och order](purchasing-how-record-purchases.md)  

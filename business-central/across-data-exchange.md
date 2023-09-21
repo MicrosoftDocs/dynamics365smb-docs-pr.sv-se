@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ---
 
-# <a name="exchanging-data-electronically"></a>Utbyta data elektroniskt.
+# Utbyta data elektroniskt.
 Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner.
 
 I standardversionen av [!INCLUDE[prod_short](includes/prod_short.md)], används ramverket för dataintegrering i processer som utbyte av elektroniska dokument, import och export av bankfiler och uppdatering av valutakurser för valutor. Mer information finns i [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md).
@@ -26,7 +26,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Förbered för datautbyte i en fil genom att återanvända filens xml-schema. Skapa dataintegreringsdefinitioner. Konfigurera huvuddata för utskick av elektroniska dokument. Konfigurera olika bankimport-/exportfält.|[Konfigurera datautbyte](across-set-up-data-exchange.md)|  
 |Använd definitioner för datautbyte och skicka PEPPOL-fakturor, ta emot PEPPOL-fakturor, importera bankkontoutdrag och exportera bankbetalningfiler.|[Utbyta data](across-exchange-data.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Om ramverket för datautbyte](across-about-the-data-exchange-framework.md)  
 [Använda XML-scheman för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurera datautbyte](across-set-up-data-exchange.md)  

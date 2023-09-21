@@ -3,13 +3,13 @@ title: Arkivera försäljnings- och inköpsdokument
 description: 'Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och ramorder.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 08/18/2023
 ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
-# <a name="archive-documents"></a>Arkivera dokument
+# Arkivera dokument
 
 Du kan arkivera försäljnings- och inköpsorder, offerter, returorder och ramorder. Du kan arkivera ett försäljnings- eller inköpsdokument flera gånger och spara en annan arkiverad version varje gång.
 
@@ -17,7 +17,7 @@ För arkiverade försäljningsdokument där originalet finns och inte har bokfö
 
 För arkiverade dokument där originalet tagits bort kan du endast återanvända innehållet genom att kopiera informationen, till exempel med åtgärd **Kopiera från dokument**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Så här ställer du in automatisk dokumentarkivering
+## Så här ställer du in automatisk dokumentarkivering
 
 Du kan ställa in automatisk arkivering av försäljnings- och inköpsorder, offerter, avropsorder och returorder. När automatisk arkivering är aktiverad skapas en ny version av det arkiverade dokumentet när någon gör något av följande:
 
@@ -39,7 +39,7 @@ Följande tabell beskriver alternativen för fält **Arkivera offerter**.
 |**Fråga**|Välj för att uppmana användaren att välja huruvida försäljningsofferter ska arkiveras när de tas bort.|
 |**Alltid**|Välj om du vill arkivera försäljningsofferter automatiskt när de tas bort.|
 
-## <a name="to-manually-archive-a-sales-order"></a>För att manuellt arkivera en försäljningsorder
+## För att manuellt arkivera en försäljningsorder
 
 Följande förfarande beskriver hur du manuellt arkiverar en försäljningsorder. Stegen är liknande för alla inköpsorder, avropsorder, returorder och offerter.
 
@@ -49,7 +49,7 @@ Följande förfarande beskriver hur du manuellt arkiverar en försäljningsorder
 
 Försäljningsordern arkiveras. Du kan visa den på sidan **Arkiverade försäljningsorder**.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Så här återställer du en icke-bokförd försäljningsorder från arkivet
+## Så här återställer du en icke-bokförd försäljningsorder från arkivet
 
 Nedan beskrivs hur du ändrar innehållet återställa en arkiverad försäljningsorder till den ursprungliga försäljningsordern. Att återställa ett dokument är endast möjligt när originaldokumentet inte har bokförts. Stegen är liknande för alla inköpsorder, avropsorder, returorder och offerter.
 
@@ -58,7 +58,7 @@ Nedan beskrivs hur du ändrar innehållet återställa en arkiverad försäljnin
 
 Innehållet i den ursprungliga försäljningsordern ersätts med värdet för den valda arkiverade versionen.
 
-## <a name="to-delete-archived-sales-orders"></a>Ta bort arkiverade förs.orderversioner
+## Ta bort arkiverade förs.orderversioner
 
 Använd en kvarhållningsprincip för att rensa arkiverade dokument som inte längre behövs. Med hjälp av kvarhållningsprinciper kan administratörer definiera hur länge de vill lagra data. De kan t.ex. skapa en princip som tar bort data efter förfallodatum. Mer information finns i [Definiera bevarandeprinciper](admin-data-retention-policies.md).
 
@@ -68,7 +68,7 @@ Det finns några saker du bör notera om att skapa kvarhållningsprinciper för 
 * När du anger kvarhållningsprincip kan du ange att du vill att principen ska ta bort alla arkiverade versioner av ett dokument utom det senaste. Du kan till exempel ha 10 versioner av ett dokument och ha kvar en kopia av det senaste. 
 * Business Central beräknar utgångsdatumet för dokument som baseras på datumet för den senaste arkiverade versionen.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Spåra dokumentrader](across-how-to-track-document-lines.md)  
 [Försäljning](sales-manage-sales.md)  
