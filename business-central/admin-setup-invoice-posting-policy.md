@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.forms: '119, 9807,'
 ---
 
-# Definiera en bokföringspolicy för faktura för användare
+# <a name="define-an-invoice-posting-policy-for-users"></a>Definiera en bokföringspolicy för faktura för användare
 
 Företag har ofta unika processer för att bokföra försäljnings- och inköpsfakturor och leveranser. Processer kan till exempel variera från en person som bokför allt på en inköpsorder, till flera anställda. Du kan begränsa användare från bokföringsfakturor eller kräva att fakturor bokförs tillsammans med leveranser eller inleveranser.
 
-## Så här anger du bokföringspolicy
+## <a name="to-specify-a-posting-policy"></a>Så här anger du bokföringspolicy
 
 På sidan **användarinställningar** i fälten **Bokföringspolicy för försäljningsfaktura** och **Bokföringsprincip för inköpsfaktura** välj ett av följande alternativ:
 
@@ -22,7 +22,7 @@ På sidan **användarinställningar** i fälten **Bokföringspolicy för försä
 * **Förbjuden** – hindrar användaren från att bokföra fakturor. I Business Central visas en bekräftelse dialogruta som endast innehåller alternativ **leverans** och **mottagning**.
 * **Obligatorisk** – gör att användaren kan bokföra fakturor tillsammans med inleveranser eller utleveranser. I Business Central visas en bekräftelse dialogruta med alternativ **leverans och fakturera** och **mottagning och fakturera**.
 
-## Inverkan på dokument
+## <a name="effect-on-documents"></a>Inverkan på dokument
 
 I följande tabell beskrivs hur fakturana bokföringsprinciper påverkar dokument.
 
@@ -39,7 +39,7 @@ I följande tabell beskrivs hur fakturana bokföringsprinciper påverkar dokumen
    > [!Note]
    > Inställningen påverkar inte bokföring av redovisningsjournalrader där du kan välja **faktura** i fältet **dokumenttyp**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera inköp med inköpsfakturor och order](purchasing-how-record-purchases.md)  

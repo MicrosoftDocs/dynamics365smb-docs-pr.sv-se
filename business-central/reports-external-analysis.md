@@ -10,7 +10,7 @@ ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: bholtorf
 ---
-# Analysera data i Business Intelligence-verktyg
+# <a name="analyze-data-in-business-intelligence-tools"></a>Analysera data i Business Intelligence-verktyg
 
 Om du hellre vill använda Business Intelligence-verktyg som inte är inbäddade i [!INCLUDE[prod_short](includes/prod_short.md)], får du på den här sidan vägledning om verktyg och metoder för att åstadkomma detta.
 
@@ -21,7 +21,7 @@ Om du hellre vill använda Business Intelligence-verktyg som inte är inbäddade
 |Hämta data till ett datadistributionslager eller en datasjö. |[Hämta data till ett datadistributionslager eller en datasjö.](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
 |Läs Business Central-data med hjälp av API.| [Business Central-API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Business Intelligence och rapporteringsöversikt](reports-use-reports.md)
 

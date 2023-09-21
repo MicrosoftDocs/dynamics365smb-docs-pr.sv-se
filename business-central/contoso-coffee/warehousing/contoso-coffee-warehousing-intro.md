@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Introduktion till lagerstyrning för Contoso Coffee
+# <a name="introduction-to-contoso-coffee-warehousing"></a>Introduktion till lagerstyrning för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-apparna för Business Central lägger till demonstrationsdata som du kan använda för att lära dig använda lagerstyrningsfunktionerna i Business Central. Du kan konfigurera lagerstyrningsfunktioner på olika sätt, se [Översikt över olika konfigurationsalternativ](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ Appen tillhandahåller tre lagerställen som är optimerade för olika scenarier
 
   Detta lagerställe använder den avancerade lagerkonfigurationen med dirigerad artikelinförsel och plockning, som möjliggör mer avancerade regler för hur artiklar flyttas i hela distributionslagret.
 
-## Konfigurera lagerstyrningsdata för Contoso Coffee
+## <a name="set-up-contoso-coffee-warehousing-data"></a>Konfigurera lagerstyrningsdata för Contoso Coffee
 
 Om du vill använda demonstrationsdata för lagerstyrning för Contoso Coffee måste du installera två appar i det aktuella företaget i [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -70,7 +70,7 @@ Välj åtgärden **Skapa demonstrationsdata** när du är klar. Det tar några m
 > [!IMPORTANT]
 > Om du kör scenarierna kanske du vill kontrollera att användaren har lagts till som för valda lagerställen. Mer information finns i [Så här skapar du dist.lager personal](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## Scenarierna
+## <a name="scenarios"></a>Scenarierna
 
 Demonstrationsdata för Contoso Coffee stöder för närvarande följande lagerstyrningsscenarier för test och utbildning:
 
@@ -80,7 +80,7 @@ Demonstrationsdata för Contoso Coffee stöder för närvarande följande lagers
 
 Läs stegen för respektive scenario i den relevanta artikeln.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in lager](../../inventory-setup-inventory.md) 
 [Hur du ställer in lager](../../inventory-how-setup-locations.md) 

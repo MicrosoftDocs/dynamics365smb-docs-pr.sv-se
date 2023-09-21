@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ---
 
-# Synkroniserar data i Business Central med Microsoft Dataverse
+# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkroniserar data i Business Central med Microsoft Dataverse
 
 När du integrerar [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)] kan du bestämma om du vill synkronisera data i valda fält i [!INCLUDE[prod_short](includes/prod_short.md)] (till exempel kunder, kontakter och säljare) med motsvarande rader i [!INCLUDE[prod_short](includes/cds_long_md.md)] (till exempel konton, kontaktpersoner och användare). Beroende på radtyp kan du synkronisera data från [!INCLUDE[prod_short](includes/cds_long_md.md)] till [!INCLUDE[prod_short](includes/prod_short.md)] och vice versa. Mer information finns i [Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -35,7 +35,7 @@ När synkroniseringen har konfigurerats kan du koppla [!INCLUDE[prod_short](incl
 > Synkroniseringen mellan [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] baseras på den tidsplanerade körningen av jobbkötransaktioner och garanterar inte konsekventa realtidsdata mellan två tjänster. För konsekventa realtidsdata bör du utforska de [virtuella Business Central-tabellerna](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eller API:erna för Business Central.   
 
 
-## Standardregistermappningar för synkronisering
+## <a name="standard-table-mapping-for-synchronization"></a>Standardregistermappningar för synkronisering
 Register i [!INCLUDE[prod_short](includes/cds_long_md.md)], till exempel konton, är integrerade med motsvarande registertyper i [!INCLUDE[prod_short](includes/prod_short.md)], till exempel kunder. För att arbeta med [!INCLUDE[prod_short](includes/cds_long_md.md)]-data anger du länkar kallade "kopplingar" mellan tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 I följande tabell visas standardmappningen mellan register i [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -54,10 +54,10 @@ I följande tabell visas standardmappningen mellan register i [!INCLUDE[prod_sho
 > [!NOTE]
 > **Dataverse**-åtgärderna kommer inte att vara tillgängliga på sidor, till exempel kundkortsidan, för poster som inte respekterar tabellfiltret för mappningen av integrationstabellen.
 
-### Tips för administratörer: Visa registermappningar
+### <a name="tip-for-admins-viewing-table-mappings"></a>Tips för administratörer: Visa registermappningar
 Du kan visa mappningen mellan register i [!INCLUDE[prod_short](includes/cds_long_md.md)] och [!INCLUDE[prod_short](includes/prod_short.md)] på sidan **Tabellmappningar för integrering**, där du även kan tillämpa filter. Du definierar mappningen mellan fälten i [!INCLUDE[prod_short](includes/prod_short.md)]-register och kolumnerna i [!INCLUDE[prod_short](includes/cds_long_md.md)]-register på sidan **Mappning av integreringsfält**, där du kan lägga till ytterligare mappningslogik. Det kan exempelvis vara praktiskt om du behöver felsöka synkronisering.
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Koppla och synkronisera poster manuellt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Schemalägg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integrering med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
