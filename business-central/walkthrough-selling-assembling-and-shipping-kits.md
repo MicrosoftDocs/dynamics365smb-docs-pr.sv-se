@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# Genomgång: Sälja, sammanställa och leverera satser
+# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Genomgång: Sälja, sammanställa och leverera satser
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -20,18 +20,18 @@ Det finns särskilda funktioner för att styra leverans av montering mot kundord
 
 När antalet för montering mot kundorder är klar för utleverans i grundläggande konfigurationer bokför ansvarig lagerarbetare en lagerplockning för försäljningsorderraderna. Detta skapar en lagerförflyttning för komponenterna, och bokför monteringsutflöde och försäljningsorderleveransen. Mer information finns i [hantera artiklar för montering mot kundorder i lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks) .  
 
-## Om den här genomgången
+## <a name="about-this-walkthrough"></a>Om den här genomgången
 
 I den här genomgången tas följande aktiviteter upp:  
 
-### Ställa in monteringsartiklar
+### <a name="setting-up-assembly-items"></a>Ställa in monteringsartiklar
 
 Monteringsartiklar karakteriseras av sitt återanskaffningssystem och sin monteringsstruktur. Artikelns monteringsmetod kan vara antingen montering mot kundorder (ATO) eller montering mot lager (ATS). I detta avsnitt omfattas följande uppgifter:  
 
 -   Inställning av lämpligt återanskaffningssystem och monteringsmetod för ett nytt monteringsartikelkort.  
 -   Skapa en monteringsstruktur som anger monteringskomponenterna och resursen som ingår i monteringsartikeln.  
 
-### Sälja anpassade monteringsartiklar
+### <a name="selling-customized-assembly-items"></a>Sälja anpassade monteringsartiklar
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] blir det möjligt att både ange lagerkvantitet och kvantitet av montering mot kundorder på försäljningsorderraden. I detta avsnitt omfattas följande uppgifter:  
 
@@ -41,14 +41,14 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] blir det möjligt att både a
 -   Skapa en blandad försäljningsorderrad, där delar av försäljningsantalet levereras från lagret och den återstående delen måste monteras före leverans.  
 -   Förstå varningar om ATO-tillgänglighet.  
 
-### Planering för monteringsartiklar
+### <a name="planning-for-assembly-items"></a>Planering för monteringsartiklar
 
 Monteringsbehov och monteringsleverans hanteras av planeringssystemet, precis som för inköp, överföring och produktion. I detta avsnitt omfattas följande uppgifter:  
 
 -   Körning av en fullständig plan för artiklar med försäljningsbehov av monteringsleverans.  
 -   Framtagning av en monteringsorder för att uppfylla ett försäljningsradantal på det efterfrågade utleveransdatumet.  
 
-### Montera artiklar
+### <a name="assembling-items"></a>Montera artiklar
 
 Monteringsorder fungerar på ungefär samma sätt som produktionsorder, men förbrukning och utflöde registreras och bokförs direkt från beställningen. När artiklar monteras för lager har monteringsarbetaren fullständig åtkomst till alla fält, både i huvudet och på transaktionsraden. När artiklar monteras för en beställning där antal och datum har lovats till kunden, går vissa fält på monteringsordern inte att redigera. I så fall görs monteringsbokningen från distributionslagerutleveransen för den kopplade försäljningsordern. I detta avsnitt omfattas följande uppgifter.  
 
@@ -56,7 +56,7 @@ Monteringsorder fungerar på ungefär samma sätt som produktionsorder, men för
 -   Åtkomst till en distributionslagerutleveransrad från en ATO-monteringsorder för att registrera monteringsarbete.  
 -   Åtkomst till en ATO-monteringsorder från en distributionslagerutleveransrad för att granska data som har angetts automatiskt.  
 
-### Utleverans av monteringsartiklar, från lager och montering mot kundorder
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Utleverans av monteringsartiklar, från lager och montering mot kundorder
 
 Särskild funktioner finns för att styra fältet av montering mot kundorder. I detta avsnitt omfattas följande uppgifter:  
 
@@ -66,7 +66,7 @@ Särskild funktioner finns för att styra fältet av montering mot kundorder. I 
 -   Utleverans av antalet för montering mot kundorder.  
 -   Utleverans av lagermonteringsartiklar.  
 
-## Roller
+## <a name="roles"></a>Roller
 
 Den här genomgången innehåller arbetsuppgifter som utförs av följande användarroller:  
 
@@ -76,7 +76,7 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 -   Plockare  
 -   Sändningsansvarig  
 
-## Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
 
 Innan du kan utföra aktiviteterna i den här genomgången måste du göra följande  
 
@@ -110,7 +110,7 @@ Ta bort standardledtiden för interna processer genom att följa dessa steg:
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## Situation
+## <a name="story"></a>Situation
 
 Den 23 januari tar försäljningsorderhandläggaren Susan en beställning från The Device Shop på tre enheter av sats B, som är ett ATO-objekt. Alla tre enheterna anpassas och måste innehålla det kraftiga grafikkortet och ett extra RAM-block. Skivenheterna uppgraderas till DWD, eftersom CD-enheterna är inte är tillgängliga. Susan vet att enheterna kan monteras omedelbart, så hon lämnar föreslag på leveransdatum den 23 januari.  
 
@@ -138,7 +138,7 @@ Sammy packar de tio ATS-enheterna med de fem ATO-enheterna som Linda monterade t
 
 När försäljningsordern bokförs senare som fullständigt fakturerad tas försäljningsordern och den kopplade monteringsordern bort.  
 
-## Förbereda exempeldata
+## <a name="prepare-sample-data"></a>Förbereda exempeldata
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager artikeljournaler** och väljer sedan relaterad länk.  
 2.  Välj fältet **Journalnamn** och välj sedan standardjournalen.  
@@ -162,7 +162,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 7.  På sidan **Beräkna dist.lager justering** för att köra funktionen **OK**.  
 8.  På sidan **Artikeljournal** väljer du åtgärden **Bokför** och väljer sedan knappen **Ja**.  
 
-### Skapa monteringsartiklarna  
+### <a name="creating-the-assembly-items"></a>Skapa monteringsartiklarna
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
@@ -213,7 +213,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
     |Artikel|80210|1|  
     |Resurs|Karin|1|  
 
-### Sälja monteringsartiklarna  
+### <a name="selling-the-assembly-items"></a>Sälja monteringsartiklarna
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny**.  
@@ -266,7 +266,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 17. Välj åtgärden **Skapa dist.lagerutleverans**.  
 18. Stäng försäljningsordern.  
 
-### Planering för de ATS-artiklar som inte är tillgängliga  
+### <a name="planning-for-the-unavailable-ats-items"></a>Planering för de ATS-artiklar som inte är tillgängliga
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Beräkna fullständig plan**.  
@@ -284,7 +284,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 6.  På sidan **Monteringsorder** och välj sedan **Skapa monteringsorder** i fönstret **Verkställ åtgärdsmeddelande**.  
 7.  Välj knappen **OK**.  
 
-### Sammanställa och leverera det första ATO-antalet  
+### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Sammanställa och leverera det första ATO-antalet
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
 
@@ -344,7 +344,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Lageraktiviteterna för att uppfylla den första försäljningsorderraden den 23 januari har slutförts. Uppfyll sedan försäljningsorderraderna som ska levereras den 27 januari  
 
-### Sammanställa och registrera det andra ATO-antalet  
+### <a name="assembling-and-recording-the-second-ato-quantity"></a>Sammanställa och registrera det andra ATO-antalet
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **monteringsorder** och väljer sedan relaterad länk.  
 
@@ -368,7 +368,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
 5.  Stäng sidan **Monteringsorder**.  
 
-### Montering av ATS-antalet  
+### <a name="assembling-the-ats-quantity"></a>Montering av ATS-antalet
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **monteringsorder** och väljer sedan relaterad länk.  
 2.  Öppna monteringsordern för tio enheter av sats A.  
@@ -396,7 +396,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     Observera att monteringsordern tas bort från listan över öppna beställningar.  
 
-### Leverera de återstående artiklarna, delvis från materiel och delvis från montering mot kundorder  
+### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Leverera de återstående artiklarna, delvis från materiel och delvis från montering mot kundorder
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerutleverans** och väljer sedan relaterad länk.  
 2.  Öppna den senaste distributionslagerutleveransen som har skapats på lagerstället WHITE.  
@@ -436,7 +436,7 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     När The Device Shop betalar för mottagningen av de 18 PC-datorerna från CRONUS tas försäljningsordern och dess kopplade monteringsorder bort.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
  [Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Montera Artiklar](assembly-how-to-assemble-items.md)   

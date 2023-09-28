@@ -10,7 +10,7 @@ ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# (Äldre) Uppdatera anpassade rapportlayouter
+# <a name="legacy-update-custom-report-layouts"></a>(Äldre) Uppdatera anpassade rapportlayouter
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -22,7 +22,7 @@ Du kan också välja att testa uppdateringarna utan att tillämpa de nödvändig
 
 Alla rapportdatauppsättningsändringar kan inte uppdateras automatiskt i rapportlayouter. För vissa ändringar krävs att du redigerar rapportlayouten manuellt. Mer information finns i [Begränsningar för uppdatering av anpassad rapportlayout](ui-update-report-layouts.md#UpdateLimitations).  
 
-## Så här uppdaterar du en eller flera anpassade rapportlayouter  
+## <a name="to-update-one-or-more-custom-report-layouts"></a>Så här uppdaterar du en eller flera anpassade rapportlayouter
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
 
@@ -30,7 +30,7 @@ Alla rapportdatauppsättningsändringar kan inte uppdateras automatiskt i rappor
 
 Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel uppstår visas ett meddelande med felen. Då måste du åtgärda felen genom att redigera den anpassade rapportlayouten manuellt. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
 
-## Så här testar du uppdateringar för en anpassade rapportlayout  
+## <a name="to-test-custom-report-layout-updates"></a>Så här testar du uppdateringar för en anpassade rapportlayout
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Val av rapportlayouter** och väljer sedan relaterad länk.  
 
@@ -38,7 +38,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
  Ändringar till rapportlayouterna testas men tillämpas inte på de faktiska rapportlayouterna. På sidan **Uppdateringslogg för rapportlayout** visas med status för potentiella uppdateringar för varje rapportlayout. Om det finns fel för en rapportlayout kan du öppna rapportlayouten direkt från meddelandet och åtgärda felen. Mer information finns i [Åtgärda fel](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Begränsningar för uppdatering av anpassad rapportlayout  
+## <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a>Begränsningar för uppdatering av anpassad rapportlayout
  Det finns flera typer av ändringar som den automatiska uppdateringen kan tillämpa för anpassade rapportlayouter. Ett fält som används i layouten kan till exempel ha tagits bort från rapportdatauppsättningen. Däremot kan den automatiska uppdateringen inte hantera följande ändringar i en rapportdatauppsättning.  
 
 1.  Borttagna fält, rubriker eller dataobjekt.  
@@ -49,7 +49,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
  Om något av dessa problem identifieras i uppdateringsprocessen kan inte uppdateringen tillämpas. Du måste åtgärda problemen manuellt, till exempel genom att redigera rapportlayouten i Word eller via programmering med hjälp av kodenheter för uppgradering.  
 
-##  <a name="FixErrors"></a> Åtgärda fel  
+## <a name="fixing-errors"></a><a name="FixErrors"></a>Åtgärda fel
  Om du får ett felmeddelande när du uppdaterar eller testar rapportlayoutuppdateringar måste du troligtvis ändra rapportlayouten för att lösa problemet. Läs felmeddelandet för att fastställa orsaken till problemet.  
 
  De mest vanliga problemet inträffar när ett fält som användes på layout har tagits bort från rapportdatauppsättningen. I det här fallet visas en rad i felmeddelandet som anger att en artikel har tagits bort. För att lösa problemet måste du ändra layouten och ta bort fältet i fråga.  
@@ -58,7 +58,7 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
 Försök att uppdatera layouten på nytt när du har ändrat layouten.  
 
-## Se även  
+## <a name="see-also"></a>Se även
  [Hantera rapportlayouter](ui-manage-report-layouts.md)  
  [Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md)  
 
