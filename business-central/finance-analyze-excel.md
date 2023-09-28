@@ -50,8 +50,6 @@ Din [!INCLUDE [prod_short](includes/prod_short.md)]-upplevelse inkluderar ett ti
 
 Med tillägget, kan du uppdatera data från [!INCLUDE [prod_short](includes/prod_short.md)], och du kan skicka ändringar till [!INCLUDE [prod_short](includes/prod_short.md)]. Däremot inaktiveras skjuta tillbaka till databasen är inte tillgängligt för de finansiella rapporter du kan se i Excel.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Se även
 
 [Visa och redigera i Excel från Business Central](across-work-with-excel.md)  

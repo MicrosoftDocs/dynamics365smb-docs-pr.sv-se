@@ -47,8 +47,6 @@ Alla inkommande dokumentposter visas inklusive de som inte har kryssrutan **Beha
 > [!NOTE]  
 > Du kan också utföra den preliminära för den individuella transaktionen på sidan **inkommande dokumentkort**.
 
-## Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se även
   
 [Skapa inkommande dokument poster ](across-how-create-income-document-records.md)

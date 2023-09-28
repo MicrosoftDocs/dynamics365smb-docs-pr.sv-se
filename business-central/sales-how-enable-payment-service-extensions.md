@@ -40,8 +40,6 @@ Tilläggen PayPal Payments Standard och WorldPay Payments Standard är installer
     > [!NOTE]  
     > Fältet **betalningstjänst** är bara tillgängligt om du har aktiverat betalningstjänsten.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)  

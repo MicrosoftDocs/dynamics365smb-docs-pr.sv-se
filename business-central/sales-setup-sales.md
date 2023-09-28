@@ -35,8 +35,6 @@ Finansrelaterade försäljningar, till exempel betalningssätt och valutor, besk
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 |Ange om användare tillåts bokföra försäljningsfaktura och om de måste bokföra tillsammans med en leverans. |[Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)|
 
-## Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Se även
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -1,39 +1,39 @@
 ---
-title: Ställa in betalningsvillkor
-description: I basversionen av Business Central använder du betalningsvillkor för att hantera förfallodatum och kassarabatter.
+title: Konfigurera betalningsvillkor
+description: Använd betalningsvillkor för att hantera förfallodatum och betalningar.
 author: brentholtorf
 ms.topic: conceptual
-ms.search.form: 4
-ms.date: 04/01/2021
+ms.search.form: '4,'
+ms.date: 09/05/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-payment-terms"></a>Ställa in betalningsvillkor
+# Ställa in betalningsvillkor
 
 Betalningsvillkor avgör hur du hanterar förfallodatum och kassarabatter. Du kan ange valfritt antal koder för betalningsvillkor och använda datumformler för att definiera betalningsvillkoren. När du registrerar dig för [!INCLUDE [prod_short](includes/prod_short.md)] för första gången erbjuder demonstrationsföretaget några betalsätt som företagen ofta använder. Du kan emellertid lägga till hur många rader du vill.  
 
-Du kan tilldela betalningsvillkor till kunder och leverantörer så att samma villkor alltid används i de försäljnings- inköpsdokument som du skapar för dem. Vid behov kan du ändra villkoren i försäljnings- eller inköpsdokumentet, till exempel om du vill att en viss kund ska betala dig inom 7 dagar i stället för sedvanliga 14 dagar. Standardbetalningsvillkoret som tilldelats leverantören ändras inte. Samma betalningsvillkor finns för försäljnings- och inköpsdokument.
+Om du tilldelar betalningsvillkor till kunder och leverantörer så att samma villkor alltid används i de försäljnings- inköpsdokument som du skapar för dem. Dokumentdatumen på försäljnings- och inköpsdokument, inte deras bokföringsdatum, används för att beräkna förfallodatum för betalningar. Vid behov kan du ändra villkoren i försäljnings- eller inköpsdokumentet, till exempel om du vill att en viss kund ska betala dig inom 7 dagar i stället för sedvanliga 14 dagar. Om du ändrar villkoren i dokumentet ändras inte standardbetalningsvillkoret som tilldelats kunden. Samma betalningsvillkor finns för försäljnings- och inköpsdokument.
 
-När du sedan bokför en faktura beräknar [!INCLUDE [prod_short](includes/prod_short.md)] kassarabatterna baserat på betalningsvillkoren. Även datumet för kassarabatten, till exempel det senaste datum då kunden kan betala för att erhålla rabatt på betalningen, beräknas vid denna tidpunkt.  
+När du sedan bokför en faktura beräknar [!INCLUDE [prod_short](includes/prod_short.md)] kassarabatterna baserat på betalningsvillkoren. Datum för betalningsrabatt är det sista datum då kunden kan få rabatt. Datumet beräknas också när du bokför en faktura.  
 
-När du bokför en kreditnota kommer på samma sätt [!INCLUDE [prod_short](includes/prod_short.md)] att beräkna eventuella kassarabatter som baseras på betalningsvillkoren. Rabatten för kreditnotor beräknas enligt samma principer som kassarabatter för fakturor. När en kreditnota kopplas till en faktura minskas ett eventuellt kassarabattbelopp för fakturan med kassarabattbeloppet för kreditnotan.  
+När du bokför en kreditnota kommer på samma sätt [!INCLUDE [prod_short](includes/prod_short.md)] att beräkna kassarabatter som baseras på betalningsvillkoren. Den beräknar rabatten på kreditnotor på samma sätt som rabatter på fakturor. När du kopplar en kreditnota till en faktura [!INCLUDE [prod_short](includes/prod_short.md)] minskar rabattbeloppet för fakturan med kreditnotans rabattbelopp.  
 
-Om du vill skicka påminnelser om förfallna betalningar måste du ange nivåer och villkor för betalningspåminnelser. Mer information finns i [Ange villkor och nivåer för påminnelser](finance-setup-reminders.md).  
+Om du vill skicka påminnelser om förfallna betalningar måste du ange nivåer och villkor för betalningspåminnelser. Om du vill veta mer om påminnelser, gå till [Konfigurera villkor och nivåer för betalningspåminnelser](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Så här definierar du betalningsvillkor
+## Så här definierar du betalningsvillkor
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsvillkor** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **betalningsvillkor** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 När du har ställt in betalningsvillkoren tilldelar du dem till kunder och leverantörer. Du kan också tilldela betalningsvillkor till dina betalsätt.  
 
 > [!TIP]
-> I basversionen av [!INCLUDE [prod_short](includes/prod_short.md)] stöds inte betalningsvillkor med delbetalningar. Istället måste du använda funktionen för förskottsbetalning. Mer information finns i [Ange Förskottsbetalningar](finance-set-up-prepayments.md).
+> I basversionen av [!INCLUDE [prod_short](includes/prod_short.md)] stöds inte betalningsvillkor med delbetalningar. Istället måste du använda funktionen för förskottsbetalning. Om du vill veta mer om förskottsbetalningar, gå till [Konfigurera förskottsbetalningar](finance-set-up-prepayments.md).
 >
-> I vissa länder/regioner *kan* du ställa in betalningsvillkor med delbetalningar. Om du vill veta om den här funktionen stöds i ditt land/region kan du läsa avsnittet **Lokal funktionalitet** i navigeringsrutan till vänster i en [Microsoft Learn](about-localization.md)-artikel.
+> I vissa länder/regioner *kan* du ställa in betalningsvillkor med delbetalningar. För att ta reda på om ditt land/din region stöder denna funktion, gå till avsnittet **Lokal funktionalitet** i innehållsförteckningen till vänster i en artikel [Microsoft Learn](about-localization.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
-[Konfigurera betalsätt](finance-payment-methods.md)  
+[Konfigurera betalningssätt:](finance-payment-methods.md)  
 [Konfigurera förskottsbetalningar](finance-set-up-prepayments.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)  

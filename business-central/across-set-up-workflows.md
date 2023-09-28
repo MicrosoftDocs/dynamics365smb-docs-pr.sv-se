@@ -42,8 +42,6 @@ Den här videon visar hur du ställer in ett arbetsflöde som kräver att en anv
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
-
 ## Se även
 
 [Använda arbetsflöden för godkännande](across-use-workflows.md)  

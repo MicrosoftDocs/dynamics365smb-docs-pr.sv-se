@@ -29,12 +29,10 @@ På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda
    Sidan **Arbetsflöde** öppnas för ett nytt arbetsflöde som innehåller all information för den valda mallen. Värdet i fältet **Kod** utökas med till exempel ”-01" för att ange att det är det första arbetsflödet som skapas från arbetsflödesmallen.  
 4. Fortsätt med att skapa arbetsflödet genom att redigera arbetsflödesstegen, eller lägg till nya steg. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
-
 ## Se även
 
 [Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  
-[Exportera och importera godkännandearbetsflöden](across-how-to-export-and-import-workflows.md)  
+[Exportera och importera arbetsflöden för godkännande](across-how-to-export-and-import-workflows.md)  
 [Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)  
 [Ta bort arbetsflöden för godkännande](across-how-to-delete-workflows.md)  
 [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  

@@ -3,7 +3,7 @@ title: Så här inför du artiklar med dist.lager artikelinförsel
 description: Lära dig mer om olika sätt att använda distributionslagerinförslar när du vill föra in inlevererade artiklar.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -111,8 +111,6 @@ Om man använder både bearbetning av artikelinförsel och inleverans för lager
     > Om du måste placera artiklar för en rad på flera lagerställen, t.ex. om den utsedda lagerplatsen är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Åtgärden skapar en rad för återstående antal att hantera.
 
 5. När du har placerat alla artiklarna på lagerställen enligt anvisningarna, välj åtgärden **Registrera artikelinförsel**.  
-
-## Se relaterad [Microsoft utbildning](/training/modules/receive-put-away-items/)
 
 ## Se även
 

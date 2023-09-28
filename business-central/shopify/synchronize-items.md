@@ -35,7 +35,7 @@ Ett tredje scenario är att hantera data i Shopify men importera dessa artiklar 
 |**Från Shopify**| Välj det här alternativet om du planerar att importera produkter från Shopify i bulk, antingen manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Mer information finns i avsnittet [Importera artiklar från Shopify](synchronize-items.md#import-items-from-shopify)|
 
 > [!NOTE]
-> När du ändrar **Synkroniseringsartikel** från **Från Shopify** till **Till Shopify** har ingen effekt om du inte aktiverar **Kan uppdatera Shopify-produkter**.
+> När du ändrar **Synkroniseringsartikel** från **Från Shopify** till **Till Shopify** har ingen effekt om du inte aktiverar **Kan uppdatera Shopify-produkter**. 
 
 ## Importera artiklar från Shopify
 
@@ -93,7 +93,7 @@ Du hanterar processen att exportera objekt med dessa inställningar:
 |**Fältavgränsare för lagerställeenhet**|Definiera en avgränsare för alternativet **Artikelnr + Variantkod**.|
 |**Lager spårat**| Välj hur systemet ska fylla i fältet **Spåra lager** för produkter som exporteras till Shopify. Du kan uppdatera information om tillgänglighet från [!INCLUDE[prod_short](../includes/prod_short.md)] för produkter i Shopify som lagerspårning har aktiverats för. Läs mer i avsnittet [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standardlagerprincip**|Välj *Neka* för att förhindra negativt lager på Shopify-sidan.|
-|**Kan uppdatera Shopify-produkter**|Definiera detta fält om [!INCLUDE[prod_short](../includes/prod_short.md)] kan endast kan skapa artiklar eller om det kan uppdatera artiklar också. Välj det här alternativet om du, efter den första synkroniseringen som utlösts av åtgärden **Lägg till artikel**, planerar att uppdatera produkter manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Glöm inte att välja **Till Shopify** i fältet **Artikelsynkronisering**.<br>**Kan uppdatera  Shopify-produkter** påverkar inte synkronisering av priser, bilder eller lagernivåer, som konfigureras av separata kontroller.<br>Om **Kan uppdatera Shopify-produkter** är aktiverad uppdateras följande fält på Shopify-sidan för produkten och vid behov variantkod: **SKU**, **streckkod**, **vikt**.  **Rubrik**, **Produkttyp**, **Leverantör**, **Beskrivning** av produkt kommer också att uppdateras om exporterade värden inte är tomma. För beskrivning betyder detta att du måste aktivera någon av de växlingar **Synkronisera utökad text för artikel**, **Marknadsföringstext för synkroniseringsartikel**, **Synkronisera artikelattribut** och attribut, utökad eller marknadsföringstext måste ha värden. Om en produkt använder varianter läggs varianten till eller tas bort om det behövs.|
+|**Kan uppdatera Shopify-produkter**|Definiera detta fält om [!INCLUDE[prod_short](../includes/prod_short.md)] kan endast kan skapa artiklar eller om det kan uppdatera artiklar också. Välj det här alternativet om du, efter den första synkroniseringen som utlösts av åtgärden **Lägg till artikel**, planerar att uppdatera produkter manuellt med hjälp av åtgärden **Synkronisera produkt** eller via jobbkön för återkommande uppdateringar. Glöm inte att välja **Till Shopify** i fältet **Artikelsynkronisering**.<br>**Kan uppdatera  Shopify-produkter** påverkar inte synkronisering av priser, bilder eller lagernivåer, som konfigureras av separata kontroller.<br>Om **Kan uppdatera Shopify-produkter** är aktiverad uppdateras följande fält på Shopify-sidan för produkten och vid behov variantkod: **SKU**, **streckkod**, **vikt**.  **Rubrik**, **Produkttyp**, **Leverantör**, **Beskrivning** av produkt kommer också att uppdateras om exporterade värden inte är tomma. För beskrivning betyder detta att du måste aktivera någon av de växlingar **Synkronisera utökad text för artikel**, **Marknadsföringstext för synkroniseringsartikel**, **Synkronisera artikelattribut** och attribut, utökad eller marknadsföringstext måste ha värden. Om en produkt använder varianter läggs varianten till eller tas bort om det behövs. <br>Observera att om produkten är Shopify konfigurerad att använda variantmatris som kombinerar två eller flera alternativ kan Shopify-anslutningsprogrammet inte skapa variant för den produkten. I [!INCLUDE[prod_short](../includes/prod_short.md)] finns inget sätt att definiera alternativmatris, det är därför anslutningsprogrammet använder **variantkoden** som det enda alternativet.  Shopify förväntar sig dock flera alternativ och vägrar att skapa variant om information om andra och andra alternativ saknas. |
 
 ### Översikt över fältmappning
 
@@ -101,6 +101,7 @@ Du hanterar processen att exportera objekt med dessa inställningar:
 |------|-----------------|-----------------|
 |Status|Enligt fältet **Status för skapade produkter** på **Shopify-butikskortet**. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Rubrik | **Beskrivning**. Om språkkoden är definierad och motsvarande artikelöversättning finns kommer artikelöversättningen att användas i stället för beskrivning.|**Beskrivning**|
+|Varianttitel | **Variantkod**.|**Beskrivning** av variant|
 |Description|Kombinerar utökade texter, marknadsföringstexter och attribut om aktiverar motsvarande reglage på Shopify-butikskortet. Respekterar språkkod.|Inte använd.|
 |Sidrubrik, SEO|Fast värde: tom. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
 |Metabeskrivning, SEO|Fast värde: tom. Mer information finns i avsnittet [Ad-hoc-uppdateringar av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Inte använd.|
@@ -147,6 +148,10 @@ De resulterande artiklarna skapas automatiskt i Shopify med priser. Beroende på
 Alternativt kan du använda åtgärden **Synkronisera produkter** på sidan **Shopify-produkter** eller söka efter batchjobbet **Synkronisera produkter**.
 
 Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Läs mer i [Schemalägg återkommande uppgifter](background.md#to-schedule-recurring-tasks).
+
+### URL och förhandsgransknings-URL
+
+Objekt som läggs till i Shopify eller importeras från Shopify kan **URL:en** eller **Förhandsgransknings-URL** ifylld. Fältet **URL** är tomt om produkten inte publiceras i onlinebutiken, till exempel på grund av att dess status är utkast. **URL** är tom om butiken är lösenordsskyddad, till exempel eftersom det här är utvecklingsbutik. I de flesta fall kan du använda **förhandsgransknings-URL** för att kontrollera hur produkten kommer att se ut när den har publicerats.
 
 ### Ad-hoc-uppdateringar av Shopify-produkter
 
@@ -204,7 +209,7 @@ Du hanterar processen att exportera priser med dessa inställningar:
 |**Tillåt radrabatt**|Anger om radrabatt tillåts när priser beräknas för Shopify. Den här inställningen gäller endast för priser på artikeln. Priser för kundprisgruppen har ingen växling på raderna.|
 |**Priser inkl. moms**|Anger om prisberäkningar för Shopify inkluderar moms. Läs mer i [Ställa in moms](setup-taxes.md).|
 |**Moms rörelsebokföringsmall**|Anger vilken moms rörelsebokföringsmall som används för att beräkna priserna i Shopify. Det bör vara den grupp som du använder för inrikes kunder. Läs mer i [Ställa in moms](setup-taxes.md).|
-|**Valutakod**|Ange en valutakod om din onlinebutik använder en annan valuta än den lokala valutan (BVA). Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDEprod_short].|
+|**Valutakod**|Ange en valutakod om din onlinebutik använder en annan valuta än den lokala valutan (BVA). Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDE[prod_short](../includes/prod_short.md)].|
 
 Priser kan exporteras för synkroniserade artiklar på två sätt som beskrivs nedan.
 

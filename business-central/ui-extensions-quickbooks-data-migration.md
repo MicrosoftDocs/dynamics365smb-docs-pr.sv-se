@@ -61,8 +61,6 @@ Det finns några saker som du bör göra: om transaktionerna i QuickBooks hade p
 Om du använder moms kan du behöva lägga till en rörelsebokföringsmall och en produktbokföringsmall till bokföringsinställningar så att du kan bokföra moms.
 Kontrollera de ingående saldona för konton i redovisningen. QuickBooks sparar inte aktuellt saldo för alla konton, så du kan behöva åtgärda ingående saldon.
 
-## Se relaterad [Microsoft utbildning](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Se även
 
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  

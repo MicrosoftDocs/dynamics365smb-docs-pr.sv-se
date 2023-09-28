@@ -47,7 +47,7 @@ För befintliga instanser av [!INCLUDE[prod_short](../includes/prod_short.md)] �
 
 ## Ansluta Business Central till onlinebutiken på Shopify
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj åtgärden **Ny**.  
 3. I fältet **Kod** anger du den kod som gör det lätt att hitta i [!INCLUDE[prod_short](../includes/prod_short.md)]. Ett namn kan t.ex. återspegla det som en fabrik säljer, t.ex. "möbler" eller "kaffe", eller det land eller den region där det används.
 4. I fältet **Shopify URL** anger du webbadressen till den onlinebutik som du vill ansluta till. Använd följande format: `https://{shop}.myshopify.com/`.
@@ -59,7 +59,9 @@ Upprepa steg 2–6 för alla onlinebutiker som du vill ansluta.
 ### Kända problem
 
 - Webbläsaren blockerar popup-fönstret. När du aktiverar **Aktiverad** [!INCLUDE [prod_short](../includes/prod_short.md)] öppnas sidan **Väntar på ett svar. Stäng inte sidan** medan den väntar på åtkomsttoken från Shopify. Om den sidan är stängd eller blockerad kan du inte ansluta till Shopify. Läs mer på [begäran om åtkomsttoken](troubleshoot.md#request-the-access-token)
+- Det kan vara en bra idé att ha Shopify-administration öppen i samma webbläsare som [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Fel: Oauth error invalid_request: Det gick inte att hitta Shopify API-programmet med api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Fel: Oauth-fel invalid_request: Ditt konto har inte behörighet att bevilja den begärda åtkomsten för den här appen.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Det går inte att ansluta från sandbox](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Nästa steg
@@ -108,8 +110,6 @@ Om du behåller växlingen **Tillåt datasynkronisering till Shopify** aktiverad
 
 *   Välj **utkast** i fältet **status för skapa produkt** för att säkerställa att exporterade produkter inte är tillgängliga för köpare. Du kan kontrollera hur produkten ser ut i onlinebutiken, synkronisera priser, alternativ och lagernivåer. Kontrollera att du använder filtren på sidan **Lägg till objekt till Shopify** för att begränsa antalet exporterade objekt.
 * Inaktivera växlingen **Exportera kund till Shopify** så att du inte skickar kunderna till Shopify.
-
-## Se relaterad [Microsoft utbildning](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## Se även
 

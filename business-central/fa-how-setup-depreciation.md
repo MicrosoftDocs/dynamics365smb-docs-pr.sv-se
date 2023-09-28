@@ -90,8 +90,6 @@ När batchjobbet Beräkna avskrivning körs används normalt ett standardår med
 
 Om du väljer det här fältet använder batchjobbet Beräkna avskrivning kalenderåret med 365 dagar i stället och varje månad har då samma antal dagar som i kalendern. Det enda undantaget är februari månad under ett skottår, då batchjobbet räknar med 28 dagar och inte 29. Det betyder att alla år, även skottår, anses ha 365 dagar.
 
-## Se relaterad [Microsoft utbildning](/training/modules/configure-depreciation-books/)
-
 ## Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  

@@ -139,12 +139,10 @@ Som du ser i det sista scenariet, går det bara att korrigera resultat från en 
 
 Om du ofta planerar för behov på olika lagerställen rekommenderar vi därför att du använder funktionen Lagerställeenheter.
 
-## Se relaterad utbildning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Se även
 
 [Planerad](production-planning.md)  
-[Konfigurera produktion](production-configure-production-processes.md)  
+[Konfigurera Produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Lager](inventory-manage-inventory.md)  
 [Ställa in lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)  

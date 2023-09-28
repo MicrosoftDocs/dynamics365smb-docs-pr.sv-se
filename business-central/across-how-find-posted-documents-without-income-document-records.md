@@ -31,8 +31,6 @@ Sidan **Dokförda dokument utan inkommande dokument** öppnas med visning av bok
 
 Om en relevant inkommande dokumentpost inte finns på sidan **Inkommande dokument** kan du skapa den. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se även
 
 [Skapa inkommande dokumentposter](across-how-create-income-document-records.md)

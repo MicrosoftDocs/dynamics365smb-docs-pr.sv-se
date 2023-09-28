@@ -76,7 +76,7 @@ Förutom ett externt orderlöfte som du kan utföra på sidan **Orderlöftesrade
 
 ## Så här skapar du orderlöfte
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Orderlöfteinställning** och välj sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Orderlöfteinställning** och välj sedan relaterad länk.  
 2. Ange ett nummer och en tidsenhetskod i fältet **Offset (tid)**. Välj en av följande koder.  
 
     |Kod|Beskrivning|  
@@ -127,8 +127,6 @@ Innan ett objekt kan tas med i orderlöftesberäkningen, måste den markeras som
     - Markera **Disponibelt att lova** om du vill beräkna det tidigaste datum då artikeln är disponibel avseende lager, planenlig inleverans och bruttobehov.  
     - Markera **Kapabel att lova** om du vet att artikeln för närvarande är slut på lagret och vill beräkna det tidigaste datum då artikeln kan vara disponibel genom att skicka ut nya påfyllningsrekvisitioner.  
 5.  Välj **Acceptera** om du accepterar det tidigaste leveransdatum som är tillgängligt.  
-
-## Se relaterad [Microsoft utbildning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## Se även
 

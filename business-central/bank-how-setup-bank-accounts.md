@@ -229,8 +229,6 @@ När du har skapat det nya bankkontot bör du också skapa en ny bokföringsmall
 
 För att få en mer sammandragen bild av dina konton i den finansiella rapporteringen, använd kontona **Från-summa** och **Till-summa** i din kontoplan, raderna **Summeringsintervall** i ekonomiska rapporter eller redovisningskontokategorier. Läs mer i avsnittet [Business Intelligence och Financial Reporting](bi.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se även
 
 [Ställa in bankverksamhet](bank-setup-banking.md)  

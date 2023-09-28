@@ -32,8 +32,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 > [!TIP]
 > Med bankavstämningar kan du kontrollera att dina böcker är aktuella och inte bokföra avstämningen förrän du är nöjd med avstämningen.
 
-## Se relaterad [Microsoft utbildning](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
-
 ## Se även
 
 [Ställa in bankverksamhet](bank-setup-banking.md)  

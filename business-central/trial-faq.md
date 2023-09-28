@@ -44,8 +44,6 @@ Växla till den 30 dagar långa utvärderingsversionen och lägg till egna data.
 
 Det kan du inte. Om du råkar ta bort exempeldata av misstag ber du din administratör att skapa en ny miljö i begränsat läge. Mer information finns i [Miljöer i produktion och begränsat läge](/dynamics365/business-central/dev-itpro/administration/environment-types) i administrationsinnehållet (endast på engelska).  
 
-## Se relaterad [Microsoft utbildning](/training/modules/trial-dynamics-365-business-central/)
-
 ## Se även
 
 [Registrera dig för en kostnadsfri utvärderingsversion av Dynamics 365 Business Central](trial-signup.md)  

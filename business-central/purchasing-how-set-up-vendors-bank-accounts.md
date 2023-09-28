@@ -26,13 +26,11 @@ Om en leverantör har ett eller flera bankkonton och du vill ställa in ett öns
 2. Öppna kortet för leverantören.
 3. På snabbfliken **betalningar** väljer du standard leverantörs bank kontot i fältet **Föredragen bankkontokod**.
 
-## Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se även
 
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
-[Skapa bankkonton](bank-how-setup-bank-accounts.md)  
+[Konfigurera bankkonton](bank-how-setup-bank-accounts.md)  
 [Använda tillägget AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Skapa tjänsten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

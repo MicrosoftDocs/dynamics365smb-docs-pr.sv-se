@@ -3,7 +3,7 @@ title: Montera Artiklar
 description: Lära dig mer om montering mot kundorder och montering mot lager-processer i Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="assemble-items"></a>Montera Artiklar
+# Montera Artiklar
 
 Om fältet **Återanskaffningssystem** på artikelkortet innehåller **Montering**, när standard metoden för att tillhandahålla montera den enligt en monteringsstruktur och eventuellt av en specifik resurs. Mer information: [Arbeta med monteringsstruktur](assembly-how-work-assembly-boms.md). Mer information om hur du ställer in en monteringsartikel finns i [Förstå montering mot order och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -27,7 +27,7 @@ I den här artikeln beskrivs standardinställningarna för montering mot lager. 
 > [!NOTE]  
 > Monteringskomponenterna hanteras på ett speciellt sätt i grundläggande distributionslagerkonfiguration. Mer information finns på [Hantering av artikel för montering mot kundorder i lagerplockningar](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Om du vill att sammanställa en artikel till lager
+## Om du vill att sammanställa en artikel till lager
 
 Följ stegen i proceduren för att montera en artikel på lager. Om du vill veta mer om montering mot kundorder går du till [Sälja artiklar monterade på order](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -61,12 +61,10 @@ Följ stegen i proceduren för att montera en artikel på lager. Om du vill veta
 
 När du bokför har lyckas, monteringsartikeln bokförs som utflöde på den potentiella lagerställekod och lagerställeskod som definieras på monteringsorder. För manuellt skapade monteringsorder kan lagerstället kopieras från fältet **Standardplacering av order** inställningsfältet. För flöde för montering mot kundorder kan lagerställekoden kopieras från försäljningsorderraden.  
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft-utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Se även
+## Se även
 
 [Monteringshantering](assembly-assemble-items.md)  
-[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
+[Arbeta med monteringsstrukturlistor](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
 [Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

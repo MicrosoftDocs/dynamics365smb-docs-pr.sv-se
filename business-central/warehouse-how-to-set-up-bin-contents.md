@@ -37,7 +37,7 @@ När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerställesinnehålluppl kalkylark** och väljer sedan relaterad länk.  
 2. I fältet **Namn** i kalkylarkshuvudet väljer du kalkylarket för det lagerställe där du vill skapa lagerställesinnehåll.  
-3. I fältet **Lagerställeskod** väljer du den lagerställeskod som du vill definiera lagerställesinnehåll för.  
+3. I fältet **Lagerplatskod** väljer du den lagerplatskod som du vill definiera lagerplatsinnehåll för.  
 
     Om lagerstället är inställt på dirigerad artikelinförsel och plockning fylls fälten som rör just den lagerstället i automatiskt, exempelvis **Lagerplatstyp**, **Dist.lager klasskod** och **Lagerplatsordning**. Detta är information som du måste ta hänsyn till när du definierar lagerställesinnehållet.  
 4. Välj den artikel som du vill tilldela lagerstället och fyll i de fält som avser lagerställesinnehållet. Om du använder dirigerad artikelinförsel och plockning, och vill använda funktionen **Beräkna lagerplatsåteranskaffning**, fyller du i **Max. ant.** och **Min. ant.**.  
@@ -48,8 +48,6 @@ När du har skapat lagerställena kan du skapa det lagerställesinnehåll som du
 7. När du är klar kan du välja åtgärden **skapa lagerställesinnehåll**.  
 
 I det här kalkylarket kan du arbeta med flera lagerställesinnehållsrader för flera lagerställen och på så sätt få en bra översikt över vad du placerar på olika lagerställen i en viss zon, gång eller ställning.  
-
-## Se relaterad [Microsoft utbildning](/training/modules/set-up-zones-bins/)
 
 ## Se även
 

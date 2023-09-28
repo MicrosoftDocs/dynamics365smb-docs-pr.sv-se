@@ -28,8 +28,6 @@ Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater 
 > [!NOTE]
 > Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[prod_short](includes/prod_short.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. Därför kan användare med **grundläggande** upplevelsen i vissa avsnitt läsa om funktionerna och delar av användargränssnittet som inte visas i deras användargränssnitt. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
-## Se relaterad [Microsoft utbildning](/training/paths/tailor-roles-design-ui/)
-
 ## Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

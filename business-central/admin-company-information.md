@@ -54,8 +54,6 @@ Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en å
 
 Standardgränssnittet i utvärderingsversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller inte alla funktioner. Du kan aktivera den fullständiga upplevelsen på sidan **Företagsinformation**. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-new-companies-dynamics-365-business-central/)
-
 ## Se även
 
 [Översikt över arbetsuppgifter att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

@@ -49,8 +49,6 @@ Ett nytt fält, **Spärra radering av redovisningskonton**, har lagts till på s
 
 Att ställa in fältet **Blockera borttagning av redovisningskonton** på *Ja* kan anses vara bästa praxis, och så även att ställa in datumet i fältet **Kontrollera borttagning av redovisningskonto efter** på till exempel det datum efter vilket du måste lagra dina finansdata.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/chart-accounts-dynamics-365-business-central/index)
-
 ## Se även
 
 [Huvudbok och kontolista](finance-general-ledger.md)  

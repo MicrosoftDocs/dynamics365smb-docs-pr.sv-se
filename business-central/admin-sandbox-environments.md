@@ -3,7 +3,7 @@ title: Begränsade miljöer
 description: 'Lär dig mer om hur en dedikerad miljö kan hjälpa dig att utforska, lära dig, demonstrera, utveckla, felsöka och testa Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -63,8 +63,6 @@ I en miljö för begränsat läge kan du se att **designer** är aktiverat. Du k
 Mer information finns i [Använda designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) i utvecklar- och administrationsinnehållet (enbart på engelska).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-## Se relaterad [Microsoft utbildning](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## Se även
 

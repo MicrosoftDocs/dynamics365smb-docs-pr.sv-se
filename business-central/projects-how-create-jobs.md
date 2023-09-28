@@ -79,8 +79,6 @@ En projektplaneringsrad kan ha en av följande typer.
 4. På sidan **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.
 5. Upprepa steg 3 och 4 för alla de planeringsrader som du behöver för projektaktiviteten.
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-new-job/)
-
 ## Se även
 
 [Projekthantering](projects-manage-projects.md)  

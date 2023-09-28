@@ -338,8 +338,6 @@ Att arbeta med Intrastat-rapporter är samma sak som den globala funktionen.
 
 <!-- ### United Kingdom-->
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Se även
 
 [Intrastat-rapportering Business Central](finance-how-report-intrastat.md)  

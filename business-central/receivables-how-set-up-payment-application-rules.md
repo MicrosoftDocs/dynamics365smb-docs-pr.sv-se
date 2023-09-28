@@ -74,8 +74,6 @@ I följande tabell beskrivs standardreglerna för betalningsansökan i [!INCLUDE
 | Låg              | 4        | Nr                    | Nr                             | En matchning                      |
 | Låg              | 5        | Nr                    | Nr                             | Flera matchningar               |
 
-## Se relaterad [Microsoft utbildning](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
-
 ## Se även
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  

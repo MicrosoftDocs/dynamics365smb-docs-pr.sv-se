@@ -119,13 +119,11 @@ Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom a
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se relaterad [Microsoft utbildning](/training/modules/invoicing-customers-dynamics-365-business-central/index).
-
 ## Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Skriv ut plocklistan](sales-how-print-picking-list.md)  
+[Skriva ut plocklistan](sales-how-print-picking-list.md)  
 [Lager](inventory-manage-inventory.md)  
 [Skicka dokument via e-post](ui-how-send-documents-email.md)  
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  

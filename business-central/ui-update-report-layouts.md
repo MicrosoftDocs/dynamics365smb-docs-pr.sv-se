@@ -58,8 +58,6 @@ Om inga fel uppstår tillämpas uppdateringarna för rapportlayouterna. Om fel u
 
 Försök att uppdatera layouten på nytt när du har ändrat layouten.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Se även  
  [Hantera rapportlayouter](ui-manage-report-layouts.md)  
  [Arbeta med rapporter, batch-jobb och XMLports](ui-work-report.md)  

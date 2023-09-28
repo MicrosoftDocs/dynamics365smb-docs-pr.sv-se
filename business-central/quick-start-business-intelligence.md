@@ -40,8 +40,6 @@ Power BI-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)] inneh�
 
 Du kan också skapa visuella rapporter som bygger på [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av **Microsoft Excel** dokumenttyp i en rapport. Mer information finns i [köra och skriva ut rapporter](ui-work-report.md).
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/paths/use-power-bi).
-
 ## Se även
 
 [Business Analysis och Financial Reporting](bi.md)  

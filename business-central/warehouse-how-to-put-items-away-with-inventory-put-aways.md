@@ -83,8 +83,6 @@ En distributionslagerarbetare kan skapa en ny lagerinförsel baserat på det sl�
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Se relaterad [Microsoft utbildning](/training/modules/receive-put-away-items/)
-
 ## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)

@@ -50,7 +50,7 @@ Använd analysvyer som du redan har konfigurerat med matrisen **Analys per dimen
 > Du kan inte välja en period som är kortare än perioden som angetts för datumkomprimeringen på **Analysvy**-kortet. Kommandona **Nästa uppsättning** och **Föregående uppsättning** är inaktiva om du har valt **Period** i något av fälten **Visa som rader** eller **Visa som kolumner**.  
 
 > [!NOTE]  
-> Du kan använda rapporten **Dimensioner – detaljerad** om du vill visa en detaljerad klassificering av hur dimensionerna har använts på transaktioner under en vald period. Du använder rapporten **Dimensioner – total** om du bara vill visa totalbeloppen.  
+> Om du vill visa en detaljerad klassificering över hur dimensioner har använts i transaktioner under en bestämd period kan du använda rapporten **Dimensioner - detaljerad**. Du använder rapporten **Dimensioner – total** om du bara vill visa totalbeloppen.  
 
 > [!TIP]  
 > Du kan också ändra vyn genom att ändra innehållet i fälten **Visa som rader** och **Visa som kolumner**. Om du vill ändra vyinställningen, väljer du åtgärden **Byt plats på rader och kolumner**.
@@ -73,11 +73,9 @@ Använd nedanstående procedur för att uppdatera en analysvy från sidan **Anal
 > [!NOTE]  
 > Om du vill uppdatera några eller alla analysvyer samtidigt måste du använda batchjobbet **Uppdatera analysvyer**.  
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
-
 ## Se även
 
-[Financial Business Intelligence](bi.md)  
+[Ekonomisk business intelligence](bi.md)  
 [Ekonomi](finance.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Huvudbok och kontolista](finance-general-ledger.md)  

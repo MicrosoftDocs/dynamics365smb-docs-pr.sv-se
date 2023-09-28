@@ -436,8 +436,6 @@ När försäljningsordern bokförs senare som fullständigt fakturerad tas förs
 
     När The Device Shop betalar för mottagningen av de 18 PC-datorerna från CRONUS tas försäljningsordern och dess kopplade monteringsorder bort.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/assemble-items-dynamics-365-business-central/)
-
 ## Se även
 
  [Förstå montering mot kundorder och montering mot lager](assembly-assemble-to-order-or-assemble-to-stock.md)   

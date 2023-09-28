@@ -45,8 +45,6 @@ Om den utökade utvärderingsperioden förfaller, kan du [prenumerera](https://g
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## Se relaterad [Microsoft utbildning](/training/modules/trial-dynamics-365-business-central/)
-
 ## Se även
 
 [Utvärderingsversioner och prenumerationer (endast engelska)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  

@@ -31,8 +31,6 @@ Inköpsofferten tas bort från databasen. En inköpsorder skapas utifrån inform
 > [!NOTE]
 > Det går inte att konvertera en inköpsoffert till en inköpsfaktura direkt, som det är möjligt med försäljningsofferter. Om du vill ha mer information om hur du skapar en inköpsfaktura kan du läsa [Registrera inköp med inköps fakturor](purchasing-how-record-purchases.md).
 
-## Se relaterad [Microsoft-utbildning](/training/modules/create-purchase-documents-dynamics-365-business-central/).
-
 ## Se även
 
 [Inköp](purchasing-manage-purchasing.md)  

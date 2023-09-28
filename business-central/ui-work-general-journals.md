@@ -224,8 +224,6 @@ Följande procedur är baserad på sidan **Redovisningsjournal**, men gäller f�
 
 Värden i fältet **Dokumentnr** ändras, om så krävs, så att verifikationsnumret på enstaka eller grupperade journalrader är i ordningsföljd. När dokument numreras kan du bokföra journalen.
 
-## Se relaterad [Microsoft utbildning](/training/paths/use-journals-dynamics-365-business-central/)
-
 ## Se även
 
 [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  

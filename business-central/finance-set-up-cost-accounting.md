@@ -189,8 +189,6 @@ För varje redovisningskonto kan du ange standarddimensionsvärden i tabellen **
 > [!NOTE]  
 >  Markera kryssrutan **Kontrollera redovisningsbokföringar** för att se till att de fördefinierade kostnadsställena och kostnadsbärarna som du skapar i redovisningen automatiskt överförs till kostnadsredovisningen.
 
-## Se relaterad [Microsoft utbildning](/training/modules/cost-accounting-dynamics-365-business-central/)
-
 ## Se även
 
 [Redovisa kostnader](finance-manage-cost-accounting.md)  

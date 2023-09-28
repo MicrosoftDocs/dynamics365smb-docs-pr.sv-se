@@ -107,12 +107,10 @@ När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetrans
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Mer information finns i [Ställa in flera räntesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Se relaterad [Microsoft utbildning](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Se även
 
-[Konfigurera påminnelsevillkor och nivåer](finance-setup-reminders.md)  
-[Konfigurera räntevillkor](finance-setup-finance-charges.md)  
+[Konfigurera villkor och nivåer för betalningspåminnelser](finance-setup-reminders.md)  
+[Konfigurera villkor för räntefaktura](finance-setup-finance-charges.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

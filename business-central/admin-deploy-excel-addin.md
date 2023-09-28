@@ -10,20 +10,20 @@ ms.search.keywords: 'Excel, add-in, centralized deployment, M365 admin center, i
 ms.date: 10/07/2021
 ms.author: jswymer
 ---
-# <a name="get-the-business-central-add-in-for-excel"></a>Hämta Business Central-tillägget för Excel
+# Hämta Business Central-tillägget för Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett tillägg för Excel som låter användare välja en **redigering i Excel** på vissa sidor för att öppna data i ett Excel-kalkylblad. Denna åtgärd är en annan än åtgärden **Öppna i Excel** eftersom den låter användare utföra ändringar i Excel och sedan återpublicera ändringarna i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="overview"></a>Översikt
+## Översikt
 
-### <a name="about-the-add-in"></a>Om tillägget
+### Om tillägget
 
 Tillägget kallas **Microsoft Dynamics Office-tillägg** och det kan installeras från [Office Store (AppSource)](https://appsource.microsoft.com/). När tillägget är installerat finns åtgärden **redigera i Excel** tillgänglig på de flesta list-och list dels sidor från ikonen **dela** ![Dela en sida i en annan app](media/share-icon.png). Mer information om hur du använder tillägg finns i [Visa och redigera i Excel från Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Tillägget fungerar endast i Windows, inte macOS.
 
-### <a name="about-deployment-as-an-admin"></a>Om distribution som administratör
+### Om distribution som administratör
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online finns det några distributionsalternativ som du kan använda för att hämta tillägget till användarna. Ett alternativ är *individuell anskaffning*, där du kan låta användarna installera själva tillägget. Med det här alternativet måste användarna ha behörighet att hämta filer från Office Store. Ett annat alternativ är att konfigurera *centraliserad distribution* i administrationscentret för Microsoft 365 så att tillägget automatiskt distribueras till hela organisationen, grupperna eller specifika användare. Centraliserad distribution gör det möjligt att få tillägget till användarna om organisationen inte ger användare åtkomst till Office Store.
 
@@ -35,21 +35,21 @@ För slutanvändaren skiljer sig installations upplevelsen från de två distrib
 
 Med båda dessa distributionsalternativ är tillägget automatiskt konfigurerat för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]. Ett tredje distributionsalternativ är en manuell installation av tillägget direkt från Excel. Med det här alternativet måste användarna konfigurera tillägget för att ansluta till [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Växling från enskilda förvärv till centraliserad distribution eller på annat sätt
+### <a name="switch"></a>Växling från enskilda förvärv till centraliserad distribution eller på annat sätt
 
 När du ändrar från ett enskilt förvärv av tillägget till centraliserad distribution eller tvärtom måste Excel-filer som användare skapat före övergången påverkas. Efter över gången kan användare fortfarande öppna eventuella Excel-kalkylblad som tidigare skapats med åtgärden **redigera i Excel** eller skapats manuellt genom att konfigurera Excel-tillägget. Men de kan inte uppdatera data i filen från Business Central eller push-uppdateringar till Business Central
 
 Det här tillståndet orsakas av att varje Excel-fil tilldelas en tilläggsidentifierare. I över gången till eller från centraliserad distribution tilldelas ett annat ID, så det tidigare-ID:t blockeras.
 
-## <a name="preparation-on-premises-only"></a>Förberedelse (endast lokalt)
+## Förberedelse (endast lokalt)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lokal kräver att miljön är konfigurerad för tillägget. Om så inte är fallet kommer åtgärden **redigera i Excel** inte att vara tillgänglig för användarna. Mer information finns i [skapa Excel-tillägget för redigering av Business Central data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) i hjälpen för utvecklare och IT-proffs.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Distribuera tillägget med hjälp av centraliserad distribution
+## Distribuera tillägget med hjälp av centraliserad distribution
 
 Centraliserad distribution är en funktion i administratörscentret för Microsoft 365 som du använder för att automatiskt installera tillägg i användarnas Office-appar, som Excel. För att hjälpa dig med centraliserad distribution [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar assisterad konfiguration **Excel-tillägget centraliserad installation**.
 
-### <a name="before-you-begin"></a>Innan du börjar
+### Innan du börjar
 
 - Mer information om hur du förhindrar att användare hämtar från Office Store finns i [Hantera tillägg i administrationscenter](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Kontrol lera att centraliserad distribution fungerar för organisationen. Mer information finns i [avgöra om centraliserad distribution av tillägg fungerar för organisationen](/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
@@ -58,7 +58,7 @@ Centraliserad distribution är en funktion i administratörscentret för Microso
 > [!NOTE]
 > Om du aktiverar centraliserad distribution påverkas funktioner som använder Excel-tillägget, till exempel åtgärden **redigera i Excel**. Detta påverkar inte andra Excel-relaterade funktioner och behörigheter som har tilldelats användare i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="set-up-centralized-deployment-of-the-add-in"></a>Konfigurera centraliserad distribution för tillägg
+### Konfigurera centraliserad distribution för tillägg
 
 Du arbetar i både [!INCLUDE[prod_short](includes/prod_short.md)] och administrationscentret för Microsoft 365.
 
@@ -87,7 +87,7 @@ När du är klar kan du alltid ändra distributionen i administrationscentret f�
 > [!NOTE]
 > Det kan ta upp till 24 timmar innan användaren distribuerar tillägget automatiskt i Excel för användare.
 
-## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use"></a><a name="install"></a>Individuellt anskaffning: installera tillägget manuellt för egen användning
+## <a name="install"></a>Individuellt anskaffning: installera tillägget manuellt för egen användning
 
 I de flesta fall installeras tillägget automatiskt när du öppnar Excel från Business Central, eller så uppmanas du att installera det. Det kan emellertid finnas fall där du måste installera tillägget manuellt.
 
@@ -97,7 +97,7 @@ I de flesta fall installeras tillägget automatiskt när du öppnar Excel från 
 
 När tillägget installeras visas det som en panel i Excel. Nu ska vi konfigurera anslutningen.
 
-### <a name="configure-the-business-central-connection"></a>Konfigurera Business Central anslutning
+### Konfigurera Business Central anslutning
 
 Om en användare inte kan ansluta automatiskt kan du häva blockeringen av dem genom att be dem göra följande:
 
@@ -109,11 +109,11 @@ Om en användare inte kan ansluta automatiskt kan du häva blockeringen av dem g
 
 Tilläggen är nu anslutna till [!INCLUDE [prod_short](includes/prod_short.md)], och du kan redigera data samt publicera ändringarna i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Förbereda enheter och nätverk för Excel-tillägget
+## Förbereda enheter och nätverk för Excel-tillägget
 
 Nätverkstjänster som proxyservrar och brandväggar måste tillåta operationsföljd mellan varje klientenhet som tillägget är installerat på och många serviceslutpunkter. En lista över slutpunkter finns i [förbereda nätverket för Excel-tillägget](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
-## <a name="troubleshooting"></a>Felsökning
+## Felsökning
 
 Ibland kan användare köra ett problem med Excel-tillägget. Det här avsnittet innehåller tips om hur du häver blockeringen av användare under vissa omständigheter.
 
@@ -127,14 +127,14 @@ Ibland kan användare köra ett problem med Excel-tillägget. Det här avsnittet
 |Användare kan inte längre logga in i tillägget. När de försöker logga in avbryts åtgärden utan att slutföras.| Det här problemet kan orsakas av en uppdatering som vi gjort i tillägget, någon gång i juli 2022. Mer information och en korrigering finns i [ändra konfigurationen för Excel-tillägget så att den stöder 2022-uppdateringen för juli](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Gäller [!INCLUDE [prod_short](includes/prod_short.md)] endast lokalt|
 
 <!--
-## <a name="deploy-the-excel-add-in-for-business-central-online"></a>Deploy the Excel add-in for Business Central online
+## Deploy the Excel add-in for Business Central online
 
 For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator can deploy the add-in for all users. But users can also install the add-in themselves, provided they have permission to configure their Office experience.  
 
 > [!TIP]
 > In some organizations, administrators cannot deploy add-ins centrally. For more information, see [Determine if Centralized Deployment of add-ins works for your organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-deploy-the-excel-add-in-for-all-users"></a>To deploy the Excel add-in for all users
+### To deploy the Excel add-in for all users
 
 1. As the administrator, sign in to the Microsoft commercial website and find the add-in at [https://appsource.microsoft.com/product/office/WA104379629](https://appsource.microsoft.com/product/office/WA104379629).
 2. Choose the **Get it now** button.
@@ -145,7 +145,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 5. Save your changes.
 
 
-### <a name="to-add-the-excel-add-in-locally"></a>To add the Excel add-in locally
+### To add the Excel add-in locally
 
 1. Open Excel, and then open any Excel workbook.
 2. On the **Insert** menu, choose **Office Add-ins**, and then choose **Admin managed** or **Store** as appropriate.
@@ -159,9 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Se även
+## Se även
 
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeta med Business Central](ui-work-product.md)  

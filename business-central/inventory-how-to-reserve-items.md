@@ -101,8 +101,6 @@ Följande procedur är baserad på en försäljningsorder.
 7. Välj knappen **OK** för att öppna sidan **Reservation** där endast lager med det angivna artikelspårningsnumret visas. Om det finns icke-specifika reservationer för något av artikelspårningsnumren som har angetts på den här raden, informeras du om den kvantitet som redan har reserverats.  
 8. Välj antingen **Reservera auto** eller åtgärden **Reservera från aktuell rad** för att skapa reservationen med de specifika artikelspårningsnumren.
 
-## Se relaterad [Microsoft utbildning](/training/modules/manage-outbound-serial-lot-numbers/)
-
 ## Se även
 
 [Lager](inventory-manage-inventory.md)  

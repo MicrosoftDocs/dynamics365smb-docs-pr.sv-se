@@ -32,8 +32,6 @@ I följande procedur beskrivs hur du skapar en kreditnota för förskottsbetalni
 5. För att göra en förskottsfaktura för eventuella nya rader i försäljningsmeddelandet väljer du åtgärden **Förskottsbetalning** och väljer sedan åtgärden **Bokför förskottsfaktura** eller åtgärden **Bokför och skriv ut faktura på förskottsbet.**.  
 6. Om du vill utfärda en ytterligare förskottsfaktura på minst en rad och bokför sedan förskottsfakturan. En ny faktura skapas för skillnaden mellan förskottsbetalningsbeloppen som fakturerats och de nya förskottsbetalningsbeloppen.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
 ## Se även
 
 [Fakturera förskottsbetalningar](finance-invoice-prepayments.md)  

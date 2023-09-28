@@ -140,8 +140,6 @@ För att tilldela exakt kostnadsåterföring manuellt, måste du välja fältet 
 
 Mer information finns i [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md)
 
-## Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Se även
 
 [Försäljning](sales-manage-sales.md)  

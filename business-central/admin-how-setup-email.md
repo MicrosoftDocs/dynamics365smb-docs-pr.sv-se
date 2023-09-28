@@ -2,14 +2,12 @@
 title: Skapa ett e-postkonto i Business Central (innehåller video)
 description: Beskriver hur du ansluter e-postkonton till Business Central så att du kan skicka avgående meddelanden utan att behöva öppna någon annan app.
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Konfigurera e-post
@@ -56,9 +54,11 @@ I följande tabell beskrivs de e-posttillägg som är tillgängliga som standard
 Om du vill använda SMTP-protokollet för att skicka e-post från [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda SMTP-anslutningstillägget. När du skapar ett konto som använder SMTP är fältet **Sändartyp** av stor vikt. Om du väljer **Specifik användare** kommer e-postmeddelanden att skickas med hjälp av namn och annan information från det konto som du konfigurerar. Om du däremot väljer **Aktuell användare** skickas e-postmeddelanden från det e-postkonto som anges för respektive användares konto. Aktuell användare liknar Skicka som-funktionen. För mer information, se [Använda en adress för ersättningsavsändare i avgående e-postmeddelanden](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda protokollet OAuth 2.0 för autentisering. Du måste skapa en program registrering i Azure-portalen och sedan köra **Konfigurera Azure Active Directory** guiden för assisterad konfiguration i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta till Azure AD. Mer information finns i [Skapa en programregistrering för Business Central i Azure-portalen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Om du använder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du använda protokollet OAuth 2.0 för autentisering. Om du vill använda OAuth för SMTP måste alla användare finnas i samma Microsoft Entra-klientorganisation. 
+> 
+> Du måste skapa en program registrering i Azure-portalen och sedan köra **Konfigurera Azure Active Directory** guiden för assisterad konfiguration i [!INCLUDE[prod_short](includes/prod_short.md)] för att ansluta till Azure AD. Mer information finns i [Skapa en programregistrering för Business Central i Azure-portalen](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online avvecklar grundläggande autentisering för SMPT. KLientorganisationer som för närvarande använder SMTP-autentisering påverkas inte av ändringen. Vi rekommenderar dock starkt att du använder den senaste versionen av [!INCLUDE [prod_short](includes/prod_short.md)] och konfigurerar OAuth 2.0-autentisering för SMTP. Vi kommer inte att lägga till certifikatbaserad autentisering i tidigare versioner av [!INCLUDE [prod_short](includes/prod_short.md)], till exempel version 14. Om du inte kan konfigurera OAuth 2.0-autentisering uppmuntrar vi dig att utforska alternativ från tredje part om du vill använda e-post från SMTP i tidigare versioner.
+> Exchange Online avvecklar grundläggande autentisering för SMTP. KLientorganisationer som för närvarande använder SMTP-autentisering påverkas inte av ändringen. Vi rekommenderar dock starkt att du använder den senaste versionen av [!INCLUDE [prod_short](includes/prod_short.md)] och konfigurerar OAuth 2.0-autentisering för SMTP. Vi kommer inte att lägga till certifikatbaserad autentisering i tidigare versioner av [!INCLUDE [prod_short](includes/prod_short.md)], till exempel version 14. Om du inte kan konfigurera OAuth 2.0-autentisering uppmuntrar vi dig att utforska alternativ från tredje part om du vill använda e-post från SMTP i tidigare versioner.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -273,8 +273,6 @@ När du har registrerat ditt program i Azure Portal använder du sidan **AAD-reg
 18. The **Verify Registration** button becomes available. 
 
 -->
-
-## Se relaterad [Microsoft utbildning](/training/modules/set-up-email/)
 
 ## Se även
 

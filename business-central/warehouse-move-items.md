@@ -3,7 +3,7 @@ title: Flytta artiklar
 description: Lära dig att flytta artiklar mellan lagerplatser i distributionslagret.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
@@ -34,13 +34,11 @@ Inventering, justering och gruppering av artiklar kan omfatta lagerställeuppgif
 |Flytta artiklar mellan lagerställen|[Överföra lager mellan olika lagerställen](inventory-how-transfer-between-locations.md)|
 |Flytta artiklar mellan lagerställen i grundläggande distributionslagerkonfigurationer när som helst och utan källdokument.|[Flytta artiklar i grundläggande distributionslagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
 |Använd dist.lagertransportkalkylarket, intern artikelinförsel och plockning för att flytta artiklar i avancerad distributionslagerkonfiguration med direktplockning och artikelinförsel.|[Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper och flytta dem eventuellt runt.|[Omstrukturera lager](warehouse-how-to-restructure-warehouses.md)|  
-
-## Se relaterad [Microsoft utbildning](/training/modules/manage-internal-warehouse-processes/)
+|Omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper och flytta dem eventuellt runt.|[Omstrukturera distributionslager](warehouse-how-to-restructure-warehouses.md)|  
 
 ## Se även
 
-[Warehouse Management – översikt](design-details-warehouse-management.md)  
+[Översikt över hantering av distributionslager](design-details-warehouse-management.md)  
 [Lager](inventory-manage-inventory.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

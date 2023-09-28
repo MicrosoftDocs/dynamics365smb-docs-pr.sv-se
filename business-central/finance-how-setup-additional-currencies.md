@@ -124,8 +124,6 @@ Dessutom kommer alla framtida transaktioner av samma typ att ha registrerade bel
 > [!NOTE]  
 > Fältet **Alt. rapporteringsvaluta** kommer bara att vara aktivt när du har valt **OK** i batch-jobbet **Just. alt. rapporteringsvaluta**.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Se även
 
 [Uppdatera valutakurser](finance-how-update-currencies.md)  

@@ -23,7 +23,7 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 
 ## Korrigera en bokförd inköpsfaktura
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **bokförda inköpsfakturor** och väljer sedan relaterad länk.  
 2. Markera den bokförda inköpsfakturan som du vill korrigera.  
 
     > [!NOTE]  
@@ -50,8 +50,6 @@ På sidan **Bokförd inköpsfaktura** kan du välja knappen **Korrigera** eller 
 ### Delfakturabokföring stöds också
 
 Om annulleringen är knuten till en delfakturabokföring uppdateras den ursprungliga inköpsorderraden så att den återspeglar det annullerade fakturerade antalet. Fälten **Ant. att fakturera** och **Antal fakturerat** på den relaterade inköpsorderraden återställs till värdena före delbokföringen.
-
-## Se relaterad [Microsoft utbildning](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
 ## Se även
 

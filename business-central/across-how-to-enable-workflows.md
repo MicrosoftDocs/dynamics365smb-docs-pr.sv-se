@@ -22,8 +22,6 @@ På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda
 2. Öppna arbetsflödet du vill aktivera.  
 3. På sidan **arbetsflödet**, aktivera växlingskontrollen **Aktiverad**.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
-
 ## Se även
 
 [Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  

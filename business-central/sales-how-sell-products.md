@@ -91,14 +91,12 @@ Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljn
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/).
-
 ## Se även
 
-[Fakturaförsäljning](sales-how-invoice-sales.md)  
+[Fakturera försäljning](sales-how-invoice-sales.md)  
 [Bokföra försäljning](ui-post-sales.md)  
 [Leverera artiklar](warehouse-how-ship-items.md)  
-[Skapa direktleveranser](sales-how-drop-shipment.md)  
+[Göra direktutleveranser](sales-how-drop-shipment.md)  
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Skriv ut plocklistan](sales-how-print-picking-list.md)  

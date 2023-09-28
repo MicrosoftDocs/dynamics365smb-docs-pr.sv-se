@@ -70,12 +70,10 @@ Du kan använda batch-jobbet **Skapa återkommande försäljningsfakt.** för at
 
 Fakturor skapas för kunder med den angivna standardkundförs.koden och angiven information om direktdebitering, för bokföring på det angivna datumet.
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se även
 
 [Försäljning](sales-manage-sales.md)  
-[Ställa in försäljning](sales-setup-sales.md)  
+[Konfigurera försäljning](sales-setup-sales.md)  
 [Skapa återkommande inköpsrader](purchasing-how-work-recurring-purchase-lines.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

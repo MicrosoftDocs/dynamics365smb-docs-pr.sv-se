@@ -144,7 +144,7 @@ På sidan **Inköpskalkylark** visas en lista över artiklar som behöver bestä
 
 - Ange artiklarna manuellt i förslaget och fyll i aktuella fält.
 
-- Använd batch-jobbet **Skapa plan**. Genom detta beräknas en återanskaffningsplan för artiklar och lagerställesenheter som har skapats med återanskaffningssystemet **Inköp** eller **Överföring**. När du använder detta batch-jobb fylls fältet **Åtgärdsmeddelande** automatiskt i med ett förslag på en åtgärd för att fylla på artikeln. Detta kan till exempel innebära att artikelantalet i en befintlig order ökas eller att en ny order skapas.
+- Använd batch-jobbet **Skapa inköpsförslag**. Genom detta beräknas en påfyllningsplan för artiklar och enheter som har skapats med påfyllningssystemet **Inköp** eller **Överföring**. När du använder detta batch-jobb fylls fältet **Åtgärdsmeddelande** automatiskt i med ett förslag på en åtgärd för att fylla på artikeln. Detta kan till exempel innebära att artikelantalet i en befintlig order ökas eller att en ny order skapas.
 
 - Om du har använt batch-jobbet **Skapa inköpsförslag** från sidan **Planeringsförslag** för att beräkna en återanskaffningsplan kan du använda batch-jobbet **Verkställ åtgärdsmeddelande** för att kopiera inköps- och överföringsorderförslag från planeringsförslaget till inköpskalkylarket. Detta är praktiskt om olika användare är ansvariga för hantering av produktionsorder och inköps-/överföringsorder.
 
@@ -152,14 +152,12 @@ På sidan **Inköpskalkylark** visas en lista över artiklar som behöver bestä
 
 - Du kan använda åtgärden **Specialorder** för att fylla i raderna i inköpskalkylarket. För den här åtgärden används batch-jobbet **Hämta förs.order** så att du kan bestämma vilka försäljningsorderrader du vill ange för en specialorder.
 
-Inköpsförslagsraderna innehåller detaljerad information om de artiklar som måste beställas. Du kan redigera och ta bort raderna så att återanskaffningsplanen justeras, och du kan bearbeta raderna ytterligare med hjälp av batch-jobbet **Verkställ åtgärdsmeddelande**. 
+Inköpsförslagsraderna innehåller detaljerad information om de artiklar som måste beställas. Du kan redigera och ta bort raderna så att påfyllningsplanen justeras, och du kan bearbeta raderna ytterligare med hjälp av batch-jobbet **Verkställ åtgärdsmeddelande**. 
 
 Information om hur du planerar lagerställen och överföringar finns i [Planera med eller utan lagerställen](production-planning-with-without-locations.md).
 
 > [!TIP]
 > När du arbetar på sidorna **Inköpsförslag** eller **Planeringsförslag** kan du ordna raderna genom att sortera efter ett kolumnnamn. Detta är särskilt användbart på sidan Paneringsförslag eftersom de kan användas för produktionsorder på flera nivåer. Som standard sorteras rader efter fältet **Artikelnr**. Om du vill gruppera rader för en order med flera nivåer sorterar du efter **Ref.ordernr** . Också fälten **MPS-order** och **Planeringsnivå** kan hjälpa dig att visa hierarkin av rader.
-
-## Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## Se även
 

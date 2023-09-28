@@ -88,8 +88,6 @@ Du kan jämföra värdet i fältet **Saldo på bankkonto efter bokföring** till
 > [!NOTE]  
 >   Om du inte vill stämma av bankkontot från **Betalningsavstämningsjournal** måste du använda sidan **Bankkontoavstämning**. Mer information finns i [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## Se även
 
 [Hantera kundreskontra](receivables-manage-receivables.md)  

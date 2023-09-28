@@ -56,7 +56,7 @@ Du kan exportera transaktionerna till en fil som du kan skicka till de intrastat
 > [!NOTE]
 > Vi rekommenderar att du skapar en intrastatjournal varje månad.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Intrastatjournalmallar** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatjournalmallar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Skapa en mall för varje Intrastatformulär som du använder.  
 3. För att skapa mallar, välj åtgärden **Journaler**.  
 4. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Skapa en mall för varje Intrastatformulär som du använder.
@@ -66,7 +66,7 @@ Du kan exportera transaktionerna till en fil som du kan skicka till de intrastat
 
 ### Så här ställer du in transportsätt
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Transportmetoder** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Transportmetoder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### Om du vill ställa in vilka Intrastatrapportfält som är obligatoriska
@@ -169,8 +169,6 @@ Eftersom du måste skicka en INTRASTAT-rapport varje månad och skapa en ny jour
 I många länder/regioner fastställer tullen och skattemyndigheterna åttasiffriga koder för olika typer av artiklar. För att artikeltransaktioner ska innehålla nödvändig information när programmet importerar dem till intrastatjournalraden, måste du ha angett statistiknumret på sidan **EU tull statistiknr**. Ta reda på koderna för de artikeltyper som ditt företag handlar med och skriv in dem på sidan **EU tull statistiknr**.
 
 Lägg till alla koder du har användning för på sidan **EU tull statistiknr**. Du måste fylla i koderna på artikelkortet innan du börjar att bokföra. När du har lagt upp koderna anger du dem i fältet **EU tull statistiknr** på artikelkortet. Du måste även fylla i fältet **Nettovikt** på artikelkortet.
-
-## Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Se även
 

@@ -20,12 +20,10 @@ När du har konfigurerat en säljare på sidan **Säljare** kan du välja den i 
 
 ## Så här skapar du en säljarkod
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Säljare** och väljer sedan relaterad länk.
 2. På sidan **Säljare** väljer du åtgärden **Ny**.
 
 Du kan använda säljare i olika relationshanterings- och marknadsföringsarbeten. Du kan till exempel tilldela aktiviteter till säljare, så att uppgifterna registreras i affärsmöjligheter som tilldelats säljaren. För mer information, se [Så här konfigurerar du cykler och etapper för affärsmöjligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
-
-## Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## Se även
 

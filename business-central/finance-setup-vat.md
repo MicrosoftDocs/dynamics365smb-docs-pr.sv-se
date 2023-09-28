@@ -302,8 +302,6 @@ Du måste ställa in information om hur skattemyndigheterna i ditt land eller di
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se även
 
 [Ställa in momsrapportmallar och momsrapportnamn](finance-how-setup-vat-statement.md)  

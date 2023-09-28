@@ -234,8 +234,6 @@ Om du vill visa en grupp av certifikat startar du från på sidan **Leveransinty
 > * Så här skapar du manuellt ett leveransintyg  
 > * Så här skriver du ut ett leveransintyg.
 
-## Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se även
 
 [Förbereda beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  

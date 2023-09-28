@@ -59,8 +59,6 @@ Följande diagram illustrerar det grundläggande arbetsflödet för användare n
 6. Användaren skapar en rapport i Power BI Desktop.
 7. Användaren publicerar rapporten i Power BI-tjänsten. Rapporterna blir därefter tillgängliga för urval i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Se även
 
 [Business Central och Power BI](admin-powerbi.md)  

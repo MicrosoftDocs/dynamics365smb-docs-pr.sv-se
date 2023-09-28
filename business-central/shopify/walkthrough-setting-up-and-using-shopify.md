@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Genomgång: ställa in och använda Shopify anslutningsprogram
+# Genomgång: ställa in och använda Shopify anslutningsprogram
 
 I det här avsnittet beskrivs några typiska scenarier och du får öva på att testa eller utbilda användare i det integrerade [!INCLUDE[prod_short](../includes/prod_short.md)] området och Shopify butiken.
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Du måste ha följande:
 
@@ -25,13 +25,13 @@ Du måste ha följande:
 
 Mer information om hur du skapar Shopify testversioner och rekommenderade inställningar finns i [ skapa och ställa in Shopify konto](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Du måste ha ett [!INCLUDE[prod_short](../includes/prod_short.md)]-konto. 
 
 Du kan t.ex. skapa demokonto eller starta utvärdering. Lär dig mer när du [ Förbered demonstrationsmiljöer av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) och [ Registrera dig för testversionen](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Ansluta Business Central till butiken på Shopify
+## Ansluta Business Central till butiken på Shopify
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
@@ -43,32 +43,32 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
 Konfigurera Shopify enligt beskrivningen i följande steg:
 
-1. Slå på brytaren **Logg aktiverad**.
-2. Inaktivera reglaget **Tillåt synkronisering i bakgrunden**.
-3. Välj **Till Shopify** i fältet **Synkronisera artikel**.
-4. Välj **Till Shopify** i fältet **Synkronisera artikelbilder**.
-5. Aktivera växlingsknappen **Synkronisera artikelattribut**.
-6. Aktivera växlingsknappen **Lager spårat**.
-7. Välj **Neka** i fältet **Standardlagerprincip**.
-8. Aktivera växlingsknappen **Skapa okända automatiskt**.
-9. Fyll i fältet **Kundmallkod** med rätt mall.
-10. Fyll i **Leveranskostnadskonto**, **Drickskonto** med intäktskontot. Du kan till exempel använda `40100` i USA.
-11. Aktivera växlingsknappen **Skapa order automatiskt**.
+1. Inaktivera reglaget **Tillåt synkronisering i bakgrunden**.
+2. Välj *Till Shopify* i fältet **Synkronisera artikel**.
+3. Välj *Till Shopify* i fältet **Synkronisera artikelbilder**.
+4. Aktivera växlingsknappen **Synkronisera artikelattribut**.
+5. Aktivera växlingsknappen **Lager spårat**.
+6. Välj *Neka* i fältet **Standardlagerprincip**.
+7. Aktivera växlingsknappen **Skapa okända automatiskt**.
+8. Fyll i fältet **Kundmallkod** med rätt mall.
+9. Fyll i **Leveranskostnadskonto**, **Drickskonto** med intäktskontot. Du kan till exempel använda `40100` i USA.
+10. Aktivera växlingsknappen **Skapa order automatiskt**.
 
 Konfigurera platsmappning:
 
 1. Välj åtgärden **Platser** för att öppna **Shopify-butiksplatser**.
-2. Välj åtgärden **Hämta Shopify-platser** för att importera alla platser som har definierats i Shopify.
+2. Välj åtgärden **Hämta Shopify-platser** för att importera alla platser som har definierats i Shopify. Välj din standardplats i Shopify
 3. I **Platsfilter**, ange `''|EAST|MAIN`.
-4. Inaktivera **Inaktiverad** för att aktivera lagersynkronisering för utvalda Shopify-plats.
+4. Aktivera växlingsknappen **Standard produktplats**.
+5. Välj *Lagerutveckling över tiden i dag* i fältet **Lagerberäkning** om du vill aktivera lagersynkronisering för vald Shopify-plats.
 
-## <a name="walkthrough-start-selling-products-online"></a>Genom gång: börja sälja produkter online
+## Genom gång: börja sälja produkter online
 
-### <a name="scenario"></a>Scenario
+### Scenario
 
 Anta att du vill prova Shopify som en onlinebutik utan att behöva ägna mycket tid på att skapa saker, speciellt eftersom du redan håller dina artiklar i [!INCLUDE[prod_short](../includes/prod_short.md)] . När du startat Shopify onlinebutiken får du omedelbart nya kunder som är nöjda med din butik och deras inköpsupplevelser. De bestämmer sig för att lämna dricks i kassan.
 
-### <a name="steps"></a>Steg
+### Steg
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] gå igenom följande:
 
@@ -130,13 +130,13 @@ Nu kan fysiska och ekonomiska data registreras i [!INCLUDE[prod_short](../includ
 
 I **Shopify Admin** meddelande om att ordern nu är markerad som *uppfylld*. Du kan också granska försändelseinformationen och visa spårnings-URL:en där. Om du kör **Synkronisera order från Shopify** kommer ordern att arkiveras i båda systemen.
 
-## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Genomgång: Bjud in dina kunder till din nya onlinebutik
+## Genomgång: Bjud in dina kunder till din nya onlinebutik
 
-### <a name="scenario-1"></a>Scenario
+### Scenario
 
 Efter en lyckad snabbstart av den nya onlinebutiken vill du att de aktuella kunderna ska besöka den och börja montera order.
 
-### <a name="steps-1"></a>Steg
+### Steg
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
@@ -146,13 +146,13 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
 I **Shopify Admin** meddelande om att kunderna har importerats. Öppna en av kunderna och notera att kundens för- och efternamn kommer från fältet **kontaktnamn** av **kundkortet**. Företagsnamnet kan hittas i standard adressen som är kopplat till kunden. Välj **Skicka kontodeltagare** för att bjuda in kunden.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Genomgång: finjustering av artikelhantering
+## Genomgång: finjustering av artikelhantering
 
-### <a name="scenario-2"></a>Scenario
+### Scenario 
 
 Du vill lägga till mer flexibilitet och kontrollera dina processer runt objekthantering. Du vill förbättra produktbeskrivningen och vill lägga till fler granskningssteg innan produkterna blir tillgängliga för slutkunden.
 
-### <a name="steps-2"></a>Steg
+### Steg
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
@@ -167,7 +167,7 @@ Välj artikel **1896-S, Aten skrivbord** och kör följande steg.
 
 1. Välj åtgärden för **varianter** och Lägg sedan till två varianter `PREMIUM, Athens Desk, Premium edition` och `ESSENTIAL, Athens Desk, Essential edition`.
 2. Välj åtgärden **utökad text** och skapa en ny utökad text som gäller för alla språkkoder. I fältet **Beskrivning** ange `Shopify`. 
-3. Lägg till följande text med HTML-taggar: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+3. Lägg till följande text med HTML-taggar: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Stäng sidan **Utökad text** och återgå till artikelkortet.
 4. Välj åtgärden **försäljningspriser** och lägg till nya priser som visas i följande tabell:
 
   |Rad|**Förs.typ**|**Förs.kod**|Kontakttyp|Kod|Variantkod<br>(lägg till fältet via anpassning)|Styckpris|
@@ -214,7 +214,7 @@ Kör synkronisering.
 2. Välj den *DEMO1* butik som du vill synkronisera artiklar för och öppna sidan **Shopify butikskort**.
 3. Välj åtgärden **Produkter** för att öppna fönstret **Shopify Produkter**.
 4. Välj åtgärden **Lägg till artiklar**.
-5. Ange filter *TABLE* på fältet **Artikelkategorikod**.
+5. Ange filter *TABLE|DESK* på fältet **Artikelkategorikod**.
 6. Välj åtgärden **Synkronisera produktbilder**.
 7. Välj åtgärden **Synkronisera lager**.
 
@@ -239,19 +239,19 @@ Observera att lager för ANTWERP Conference-tabellen är 100 eftersom vi har kon
 
 I **Shopify onlinebutik** öppna produktkatalogen, hitta *ATHENS Desk*-produkten. Lägg märke till att olika alternativ är tillgängliga. För olika alternativ är priserna olika. Beakta information om rabatt.
 
-## <a name="walkthrough-import-items-from-shopify"></a>Genomgång: Importera artiklar från Shopify
+## Genomgång: Importera artiklar från Shopify
 
-### <a name="scenario-3"></a>Scenario
+### Scenario 
 
 Du har redan en lyckad onlinebutik och vill börja använda [!INCLUDE[prod_short](../includes/prod_short.md)] som verksamhetshanteringsprogram. Du vill importera så mycket data Shopify som möjligt. 
 
-### <a name="steps-3"></a>Steg
+### Steg
 
 Det här är en förlängning av [ genomgången: påbörja försäljning av produkter online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Du kan också prova med egna data, till exempel Shopify butiken eller sandbox.
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
-#### <a name="prepare-data"></a>Förbereda data
+#### Förbereda data
 
 1. Växla till en kostnadsfri provperiod på 30 dagar utan exempeldata. Mer information finns i [ lägga till egna data till en tom testversion](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Välj ![glödlampan som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Shopify butik** och väljer sedan relaterad länk.
@@ -262,19 +262,15 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)], gör något av följande:
 
 Konfigurera Shopify enligt beskrivningen i följande steg:
 
-7. Aktivera brytaren **Logg aktiverad**.
-8. Inaktivera reglaget **Tillåt synkronisering i bakgrunden**.
-9. Välj **Från Shopify** i fältet **Synkronisera artikel**.
-5. Aktivera växlingsknapp **Skapa okända artiklar automatiskt**.
-11. Fyll i fältet **Artikelmallkod** med rätt mall.
-12. Välj **Från Shopify** i fältet **Synkronisera artikelbilder**.
-13. Välj **Alla kunder** i **kundimporten från Shopify**.
-14. Aktivera växlingsknapp **Skapa okända kunder automatiskt**.
-15. Fyll i fältet **Kundmallkod** med rätt mall.
-16. Fyll i **Leveranskostnadskonto**, **Drickskonto** med intäktskontot. Du kan till exempel använda `40100` i USA.
-17. Aktivera växlingsknappen **Skapa order automatiskt**.
+7. Inaktivera reglaget **Tillåt synkronisering i bakgrunden**.
+8. Välj *Från Shopify* i fältet **Synkronisera artikel**.
+9. Aktivera växlingsknapp **Skapa okända artiklar automatiskt**.
+10. Fyll i fältet **Artikelmallkod** med rätt mall.
+11. Välj *Från Shopify* i fältet **Synkronisera artikelbilder**.
+12. Välj *Alla kunder* i **kundimporten från Shopify**.
+13. Aktivera växlingsknapp **Skapa okända kunder automatiskt**.
 
-#### <a name="run-the-synchronization"></a>Kör synkronisering
+#### Kör synkronisering
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butiker** och välj relaterad länk.
 2. Välj den *DEMO2* butik som du vill synkronisera data för och öppna sidan **Shopify butikskort**.
@@ -282,7 +278,7 @@ Konfigurera Shopify enligt beskrivningen i följande steg:
 4. Välj åtgärden **Synkronisera produktbilder**.
 5. Välj åtgärden **Synkronisera kunder**.
 
-### <a name="results"></a>Resultat
+### Resultat
 
 * Shopify produkter importeras. Välj ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-produkter** och välj relaterad länk.
 * Objekt med bilder skapas. Välj ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artikel** och välj sedan relaterad länk.
@@ -290,6 +286,6 @@ Konfigurera Shopify enligt beskrivningen i följande steg:
 * Kunderna skapas. Välj ![Glödlampa som öppnar funktionen Berätta.](../media/ui-search/search_small.png "Berätta vad du vill göra") ikon, ange **Kunder** och väljer sedan relaterad länk.
 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kom igång med Shopify-kopplingen](get-started.md)  

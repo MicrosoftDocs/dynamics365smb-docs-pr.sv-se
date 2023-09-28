@@ -275,8 +275,6 @@ normala kopplingsregler
 
 (2) Om betalningen faller återfinns dessa intervall kan inte alla kopplingsposter avslutas ens med tolerans.
 
-## Se relaterad [Microsoft utbildning](/training/modules/enter-payments-dynamics-365-business-central/)
-
 ## Se även
 
 [Ekonomi](finance.md)  

@@ -120,8 +120,6 @@ Sidan **OCR-datakorrigering** som öppnas från sidan **Inkommande dokument** vi
 
 Fälten på snabbfliken **Ekonomisk information** på sidan **Inkommande dokument** uppdateras med alla nya värden som du har angett i steg 4.
 
-## Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se även
 
 [Skapa inkommande dokument poster ](across-how-create-income-document-records.md)

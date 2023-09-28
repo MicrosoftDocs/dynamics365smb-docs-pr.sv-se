@@ -34,12 +34,10 @@ När du säljer någon annan typ av artikel kan du också skapa en försäljning
 6.  När du har justerat monteringsorderraderna enligt offerten stänger du sidan **Montering mot kundorderrader** så att du kommer tillbaka till sidan **Försäljningsoffert**.  
 7.  Om kunden accepterar offerten skapar du en försäljningsorder för den offererade monteringsartikeln. Mer information finns i [Gör försäljningsoffert](sales-how-make-offers.md). Den länkade monteringsofferten och eventuella anpassningar är kopplad till den nya försäljningsordern så att artikelmontering eller -försäljning kan förberedas.  
 
-## Se relaterad [Microsoft-utbildning](/training/modules/assemble-to-order-dynamics-365-business-central/)
-
 ## Se även
 
 [Monteringshantering](assembly-assemble-items.md)  
-[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
+[Arbeta med monteringsstrukturlistor](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
 [Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

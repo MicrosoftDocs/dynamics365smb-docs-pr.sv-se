@@ -31,8 +31,6 @@ Mer information finns i avsnittet om tillägg som passar din QuickBooks-app:
 
 Om du är redo att komma igång nu väljer du ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Assisterad konfiguration** och väljer sedan relaterad länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.
 
-## Se relaterad [Microsoft utbildning](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Se även
 
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  

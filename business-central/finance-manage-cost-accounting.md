@@ -24,8 +24,6 @@ Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att 
 |Lära dig att skapa kostnadsbudgetar.|[Skapa kostnadsbudgetar](finance-create-cost-budgets.md)|
 |Avbryta kostnadstransaktioner från journaler för kostnadsbudget.|[Ta bort kostnadsbudgettransaktioner](finance-how-to-delete-cost-budget-entries.md)|
 
-## Se relaterad [Microsoft utbildning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Se även  
 [Ekonomi](finance.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  

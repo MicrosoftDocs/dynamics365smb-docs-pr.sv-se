@@ -89,12 +89,10 @@ Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljning
 
 5. På sidan **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se även
 
 [Försäljning](sales-manage-sales.md)  
-[Skapa monteringsorder för avrop](assembly-how-to-create-blanket-assembly-orders.md)  
+[Skapa monteringsavropsorder](assembly-how-to-create-blanket-assembly-orders.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -39,8 +39,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Visa det planerade tillgängliga lagret för en artikel i olika vyer och kunna se vilka bruttobehov, planerade orderinleveranser och andra händelser som kommer att påverka det med tiden.|[Visa artikeldisposition](inventory-how-availability-overview.md)|  
 <!--|Utför utvalda planeringsaktiviteter, exempelvis ändra eller lägga till planeringsförslagsrader, i en grafisk översikt över leveransplaneringen.|[Ändra planeringsförslag i en grafisk vy](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## Se relaterad [Microsoft utbildning](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Se även
 
 [Ställa in Produktion](production-configure-production-processes.md)  

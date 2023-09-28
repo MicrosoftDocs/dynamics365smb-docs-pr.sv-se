@@ -79,7 +79,7 @@ Om du får felmeddelandet *Raden 'Total vikt' i Intrastat-rapporten får inte va
 
 Du kan skicka Intrastat-rapporten som en fil baserad på olika lokala myndigheters behov. Innan du skapar filen bör du köra **Checklisterapport** för att kontrollera om alla rader innehåller all nödvändig och giltig information. Så här skapar du en fil:
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Intrastatlista** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatlista** och väljer sedan relaterad länk.
 2. Välj den **Intrastat-rapport** som du vill rapportera som en fil.
 3. Om du inte redan har gjort det fyller du i **Intrastat-rapporten** manuellt eller så väljer du åtgärden **Föreslå rader**.
 4. Välj åtgärden **Skapa fil**.
@@ -116,12 +116,29 @@ När du arbetar med **Intrastat-rapporten** visas fältet **Status** i dokumenth
 * *Släppt*: [!INCLUDE[prod_short](includes/prod_short.md)] ändrar automatiskt statusen till *Släppt* när du skapar en fil. Från det tillfället kan du inte ändra **Intrastat-rapporten**. Om du behöver ändra något och rapportera igen kan du använda åtgärden **Öppna igen** för att öppna Intrastat-rapporten på nytt. När dokumentet har öppnats igen kan du använda åtgärden **Släpp** för att frisläppa dokumentet igen.
 * **Rapporterad**: Anger om transaktionen redan har rapporterats till skattemyndigheterna. Detta är inte en vanlig status, utan ett oberoende fält, och även om du öppnar Intrastat-rapporten igen, visas fortfarande att filen redan har skapats för rapporten.
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+### Triangulär handel med Intrastat
+
+Triangulär handel innebär handel mellan tre länder eller regioner där varor kringgår det rapporterande företagets land. I Business Central kan detta underlättas via funktionen [Direktleverans](sales-how-drop-shipment.md). Aktivera det här alternativet genom att aktivera fältet **Inkludera direktleverans** i **Konfiguration av Intrastat-rapporter**.  
+
+När du aktiverar det här alternativet används följande regler i systemet, men bara om du har markerat **direktleverans** på **försäljningsordern**: 
+
+| Inleverans från | Leverans till | Förväntat Intrastat-resultat |
+|----------|------------|----------------------|
+| Land som i  **Företagsinformation** | Land som i  **Företagsinformation** | Inga Intrastat-rader |  
+| Land som i  **Företagsinformation** | EU-land som skiljer sig från landet i **företagsinformationen** | Intrastat-leveransrad | 
+| Land som i  **Företagsinformation** | Land utanför EU | Inga Intrastat-rader |   
+| EU-land som skiljer sig från landet i **företagsinformationen** | Land som i  **Företagsinformation** | Intrastat-inleveransrad | 
+| EU-land som skiljer sig från landet i **företagsinformationen** | EU-land som skiljer sig från landet i **företagsinformationen** | Inga Intrastat-rader |
+| EU-land som skiljer sig från landet i **företagsinformationen** | Land utanför EU | Inga Intrastat-rader | 
+| Land utanför EU | Land som i  **Företagsinformation** | Inga Intrastat-rader |  
+| Land utanför EU | EU-land som skiljer sig från landet i **företagsinformationen** | Inga Intrastat-rader |
+| Land utanför EU | Land utanför EU | Inga Intrastat-rader |   
 
 ## Se även
 
-[Ställa in Intrastat-rapporter](finance-how-setup-report-intrastat.md)  
+[Konfigurera Intrastat-rapportering](finance-how-setup-report-intrastat.md)  
 [Ekonomihantering](finance.md)  
+[Direktleverans](sales-how-drop-shipment.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

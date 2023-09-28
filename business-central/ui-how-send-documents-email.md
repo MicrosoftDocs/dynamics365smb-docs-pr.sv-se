@@ -76,13 +76,11 @@ Vissa dokument i [!INCLUDE[prod_short](includes/prod_short.md)] har ett fält so
 
 I **Utkorgen för e-post** finns de e-postmeddelanden som du har sparat som utkast samt e-postmeddelanden som inte skickades, till exempel om e-postadressen var ogiltig. För meddelanden som inte gick att skicka kan du välja **Visa fel** eller **Undersök fel** för att felsöka problemet.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/set-up-email/)
-
 ## Se även
 
 [Hantera rapport- och dokumentlayouter](ui-manage-report-layouts.md)  
 [Konfigurera e-post](admin-how-setup-email.md)  
-[Fakturaförsäljning](sales-how-invoice-sales.md)  
+[Fakturera försäljning](sales-how-invoice-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

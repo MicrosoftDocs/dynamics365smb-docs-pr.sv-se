@@ -84,8 +84,6 @@ I rapporten **Underhåll – Uppgifter** kan du visa eller skriva ut underhålls
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.
 
-## Se relaterad [Microsoft utbildning](/training/paths/manage-fixed-assets-maintenance-insurances/)
-
 ## Se även
 
 [Anläggningstillgångar](fa-manage.md)  

@@ -47,13 +47,11 @@ Du kan dela rapporter med samarbetspartner på sidan **Rapportinkorgen**. Välj 
 >
 > Med hjälp av åtgärden **Dela** blir den genererade rapportfilen tillgänglig för andra användare på OneDrive för företag, och visar inte den schemalagda rapporten i **Rapportinkorgen**.
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/paths/build-reports/).
-
 ## Se även
 
 [Köra och skriva ut rapporter](ui-work-report.md)  
 [Tillgängliga rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
-[Använd rapporter i det dagliga arbetet](reports-use-reports.md)  
+[Använda rapporter i det dagliga arbetet](reports-use-reports.md)  
 [Business Intelligence och rapporteringsöversikt](reports-bi-reporting.md)  
 [Ställa in skrivare](ui-specify-printer-selection-reports.md)  
 [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md)  

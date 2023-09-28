@@ -64,11 +64,9 @@ R den genererade rapport filen sparas automatiskt i webbläsarens nedĺaddningsm
 
 Mer information om hur du anpassar rapporter och dokument till ditt företags behov vid [rapport- och dokumentlayout](ui-manage-report-layouts.md).
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/modules/work-with-reports/).
-
 ## Se även
 
-[Använd rapporter i det dagliga arbetet](reports-use-reports.md)  
+[Använda rapporter i det dagliga arbetet](reports-use-reports.md)  
 [Tillgängliga rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Val av dokumentrapport](across-report-selections.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  

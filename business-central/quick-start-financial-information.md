@@ -79,12 +79,10 @@ Bank konton i [!INCLUDE[prod_short](includes/prod_short.md)] registrera banktran
    Fältet skiljer sig från fältet **Bankkontonr.** på snabbfliken **Allmänt**.
 4. På sidan **Bankkontokort** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
-
 ## Se även
 
-[Konfigurera kontoplan](finance-setup-chart-accounts.md)  
-[Skapa bankkonton](bank-how-setup-bank-accounts.md)  
+[Konfigurera kontoplanen](finance-setup-chart-accounts.md)  
+[Konfigurera bankkonton](bank-how-setup-bank-accounts.md)  
 [Köra och skriva ut rapporter](ui-work-report.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
 

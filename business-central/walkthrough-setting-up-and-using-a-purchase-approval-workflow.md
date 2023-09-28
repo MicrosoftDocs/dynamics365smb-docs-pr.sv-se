@@ -117,11 +117,9 @@ Du definierar arbetsflödesvariationer genom att fylla i fält på arbetsflödes
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## Se relaterad [Microsoft utbildning](/training/modules/use-approval-workflows/)
-
 ## Se även
 
-[Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  
+[Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  
 [Skapa arbetsflöden för godkännande](across-how-to-create-workflows.md)  
 [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md)  

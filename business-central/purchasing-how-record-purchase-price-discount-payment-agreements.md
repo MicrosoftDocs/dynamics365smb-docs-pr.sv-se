@@ -35,7 +35,7 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 
 #### [Aktuell upplevelse](#tab/current-experience)
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Öppna det relevanta leverantörskortet och välj sedan åtgärden **Priser.**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fyll i en rad för varje kombination för vilken leverantören beviljar dig en inköpsradrabatt.
@@ -138,8 +138,6 @@ Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna rad
     - Finns det krav på valuta i pris-/ rabattavtalet som är uppfyllda? I så fall infogas det lägsta priset och den högsta radrabatten för den valutan, även om de skulle ge ett bättre pris i BVA. Om det inte finns några pris-/rabattavtal för den angivna valutakoden infogar [!INCLUDE[prod_short](includes/prod_short.md)] det lägsta priset och den högsta radrabatten i BVA.
 
 Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen det senaste inköpspriset eller à-priset från artikelkortet.
-
-## Se relaterad [Microsoft utbildning](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## Se även
 

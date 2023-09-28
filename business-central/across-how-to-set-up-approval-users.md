@@ -46,8 +46,6 @@ När du har konfigurerat godkännandeanvändare kan du skapa arbetsflödessvar f
 
 Nästa steg är att ange hur du vill [!INCLUDE [prod_short](includes/prod_short.md)] meddela personer om att en begäran väntar på att bli uppmärksam på deras uppmärksamhet. Läs mer på [Konfigurera aviseringar för arbetsflöde](across-setting-up-workflow-notifications.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
-
 ## Se även
 
 [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)  

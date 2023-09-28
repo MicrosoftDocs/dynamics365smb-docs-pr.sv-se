@@ -115,12 +115,10 @@ När ditt företag använder leveransplaneringsprocesserna i [!INCLUDE [prod_sho
 
 Exempel på hur du kan använda fälten på snabbfliken **Planering** finns i [Metodtips för installation: Planeringsparametrar](setup-best-practices-planning-parameters.md).  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-items/)
-
 ## Se även
 
 [Lager](inventory-manage-inventory.md)  
-[Ställa in måttenheter](inventory-how-setup-units-of-measure.md)  
+[Konfigurera måttenheter](inventory-how-setup-units-of-measure.md)  
 [Hantera produktvarianter](inventory-item-variants.md)  
 [Ställa in Intrastat-rapporter](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

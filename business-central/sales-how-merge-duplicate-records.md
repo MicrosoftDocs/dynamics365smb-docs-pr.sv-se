@@ -22,7 +22,7 @@ När olika användare skapar nya kunder, leverantörer eller kontaktkort med tid
 
 Följande procedur baseras på ett kundkort. Momenten är liknande för en leverantör och kontaktkort.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj den kund som du vet eller misstänker har dubblettposter och välj sedan åtgärden **redigera**.
 3. På sidan **Kundkort** väljer du åtgärden **Slå samman med**.
 4. På sidan **Slå samman dubbletter** i fältet **slå samman med** markerar du den kund som du tror är en dubblett av den som du har öppnat som anges i fältet **aktuell**.
@@ -56,12 +56,10 @@ Följande procedur baseras på ett kundkort. Momenten är liknande för en lever
 > [!NOTE]
 > För kontakter kan du använda funktionen för att söka efter dubbletter av kontakter innan du använder sidan **slå samman dubbletter**. Mer information finns i [söka efter dubblettkontakter](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Se även
 
 [Försäljning](sales-manage-sales.md)  
-[Ställa in kontakter](marketing-setup-contacts.md)  
+[Konfigurera kontakter](marketing-setup-contacts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

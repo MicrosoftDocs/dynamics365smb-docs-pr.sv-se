@@ -454,8 +454,6 @@ Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och stäl
 
  Den här genomgången har handlat om några av de grundläggande stegen när man arbetar med projekt i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lärt dig hur du skapar ett nytt projekt, hur du kopierar ett projekt och hur du hanterar betalningar. Du har också sett en demonstration av hur du kan följa upp timmar och skapa fakturor.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/create-jobs/)
-
 ## Se även
 
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  

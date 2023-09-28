@@ -37,6 +37,14 @@ När jobbköer är inställda och körs kan status ändras enligt följande inom
 
 När ett projekt har slutförts korrekt, tas det bort från listan över jobbkötransaktioner, om det inte är ett återkommande projekt. Om det är ett återkommande projekt justeras fältet **tidigaste starttiden** till att visa nästa gång jobbet ska köras.  
 
+## Tidigaste startdatum
+
+Värdet i fältet **Tidigaste startdatum/starttid** på sidan **Transaktionskort för jobbkö** visar nästa gång projektet ska köras. Det finns flera faktorer som kan påverka om en jobbköpost verkligen körs vid den tidpunkten.
+
+De vanligaste faktorerna är antalet jobbkötransaktioner i en miljö och det totala antalet schemalagda aktiviteter. För att skydda prestandanivåer finns det driftsgränser. Om du har många transaktioner i kön och till exempel om en av dem misslyckas eller om transaktionerna bara tar längre tid än förväntat, kanske nästa jobb inte startar vid den förväntade tidpunkten. Om du har kodmoduler som genererar 100 000 eller fler schemalagda aktiviteter bör du undersöka om du verkligen behöver alla dessa aktiviteter. Du kan öppna listan över alla schemalagda aktiviteter på sidan **Schemalagda aktiviteter**.
+
+Mer information om hur du övervakar status för jobbkötransaktioner finns i [Så här visar du status för alla projekt](#to-view-status-for-any-job). Mer information om driftsbegränsningar finns i [Asynkrona aktivitetsgränser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Övervaka status eller fel i jobbkön
 
 Data som jobbkön genererar lagras så att du kan felsöka fel.  

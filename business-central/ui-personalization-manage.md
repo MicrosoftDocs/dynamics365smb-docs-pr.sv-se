@@ -62,11 +62,9 @@ Du kan ta bort individuella sidanpassningar som du har gjort för en profil. Anp
 
 Layouten på de markerade sidorna justeras efter de ändringar som du har gjort.
 
-## Se relaterad [Microsoft utbildning](/training/paths/tailor-roles-design-ui/)
-
 ## Se även
 
-[Anpassa din arbetsyta](ui-personalization-user.md)  
+[Anpassa arbetsytan](ui-personalization-user.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  

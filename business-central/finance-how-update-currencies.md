@@ -122,13 +122,11 @@ Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig up
 
 Värdet i fältet **valutakurs** på sidan **valutor** uppdateras med den senaste valutakursen.
 
-## Se relaterad [Microsoft utbildning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Se även
 
 [Valutor i Business Central](finance-currencies.md)  
 [Konfigurera valutor](finance-set-up-currencies.md)  
-[Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md)  
+[Konfigurera en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

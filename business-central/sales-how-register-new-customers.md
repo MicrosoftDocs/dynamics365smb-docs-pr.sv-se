@@ -82,8 +82,6 @@ Du kan välja att inte ha varningar som talar om för dig att kundens kreditgrä
     |**Förfallet saldo**|Fältet **Förfallet saldo** på kundens kort markeras, och en varning visas om kunden har ett förfallet saldo.|
     |**Ingen varning**|Inga kreditvarningar visas angående kundens status.|
 
-## Se relaterad [Microsoft utbildning](/training/modules/trade-master-data-dynamics-365-business-central/).
-
 ## Se även
 
 [Definiera betalningssätt](finance-payment-methods.md)  

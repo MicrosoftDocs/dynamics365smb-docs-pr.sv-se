@@ -114,11 +114,9 @@ När en taxonomi ändras måste du uppdatera den aktuella taxonomin i enlighet d
 6. Importera länkbasen genom att välja åtgärden **importera**.  
 7. Välj **Ja** när du vill koppla länkbasen till uppställningen.  
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
-
 ## Se även
 
-[Financial Business Intelligence](bi.md)  
+[Ekonomisk business intelligence](bi.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -1,14 +1,14 @@
 ---
 title: 'Ställa in artikelspårning med serie-, parti- eller paketnummer'
 description: 'Ställa in artikelspårning med serie-, parti- eller paketnummer'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 08/31/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Ställa in artikelspårning med serie-, parti- eller paketnummer
 
@@ -108,8 +108,6 @@ För massimportera använder du konfigurationspaket för att importera data till
 
 > [!NOTE]
 > Du kan inte använda **Redigera i Excel** för att skapa journalrader med uppföljningsinformation.
-
-## Se relaterad [Microsoft utbildning](/training/modules/prepare-item-tracking/)
 
 ## Se även
 

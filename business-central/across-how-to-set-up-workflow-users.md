@@ -34,8 +34,6 @@ På sidan **Arbetsflödesanvändargrupper** kan du ange var en deltagare deltar 
 
 6. Upprepa steg 5 för att lägga till fler arbetsflödesanvändare i arbetsflödesanvändargrupp.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
-
 ## Se även
 
 [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  

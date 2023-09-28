@@ -3,7 +3,7 @@ title: 'Ställ in projekt, priser och projektbokföringsmallar'
 description: Beskriver hur du ställer in allmän information om projekt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -98,8 +98,6 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 | **Konto för projektförsäljningsjustering** |Balanskontot för PIA-projektförsäljningskontot, som är ett inkomstkonto. | Upplupen försäljning|
 | **Konto för bokförda kostnader** |Det kostnadskonto som innehåller bokförda kostnader för projektet. Kontot är vanligtvis ett debetkonto för kostnader. | Bokförda kostnader|
 | **Konto för bokförd försäljning** |Inkomstkontot som innehåller den bokförda inkomsten för projektet. Kontot är vanligtvis ett kreditkonto för inkomst. | Bokförd försäljning|
-
-## Se relaterad [Microsoft utbildning](/training/paths/set-up-jobs-resources/)
 
 ## Se även
 

@@ -51,8 +51,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 > [!TIP]
 > Beroende på ditt geografiska läge kan vissa Business Central-sidor innehålla fält som inte beskrivs i artiklarna som anges ovan, eftersom de gäller lokala funktioner eller anpassningar. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Se relaterad [Microsoft utbildning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
-
 ## Se även
 
 [Ekonomi](finance.md)  

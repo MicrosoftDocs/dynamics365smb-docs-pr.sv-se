@@ -24,13 +24,11 @@ I följande artiklar beskrivs några av de viktigaste uppgifterna för att analy
 
 * [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)  
 * [Förbereda Financial Reporting med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)  
-* [Skapa och publicera KPI-webbtjänster som baseras på ekonomiska rapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Konfigurera och publicera KPI-webbtjänster som baseras på ekonomiska rapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)  
 * [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)  
 * [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Hantera åtkomstmetod för databas](admin-data-access-intent.md)  
-
-## Se relaterad [Microsoft utbildning](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## Se även
 

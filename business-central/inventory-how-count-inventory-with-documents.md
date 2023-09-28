@@ -242,8 +242,6 @@ Du kan ange vilka rapporter som ska skrivas ut i olika etapper genom att välja 
 > [!NOTE]
 > Vilka rapporter som finns kan variera beroende på landets/regionens lokalisering. Basprogrammet innehåller inga layouter.
 
-## Se relaterad [Microsoft utbildning](/training/modules/adjust-inventory/)
-
 ## Se även
 
 [Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md)  

@@ -47,8 +47,6 @@ I följande video beskrivs grunderna för anläggningstillgångar.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Se relaterad [Microsoft utbildning](/training/paths/manage-fixed-assets-transactions/)
-
 ## Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  

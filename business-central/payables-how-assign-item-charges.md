@@ -95,13 +95,11 @@ För att hantera artikelkostnaden för delinleverans, på sidan **Art.omkost.fö
 
 När du är redo att hantera artikeln som saknas uppdaterar du fältet **Antal att hantera** och bokför ordern.
 
-## Se relaterad [Microsoft utbildning](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
-
 ## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
-[Fakturaförsäljning](sales-how-invoice-sales.md)  
+[Fakturera försäljning](sales-how-invoice-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -45,8 +45,6 @@ När du säljer eller avyttrar en anläggningstillgång måste avyttringsvärdet
 
 Sidan **Redovisningstransaktioner** öppnas där du kan visa de transaktioner som förfogandeinlägget ledde till.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/dispose-fixed-assets/)
-
 ## Se även
 
 [Anläggningstillgångar](fa-manage.md)  

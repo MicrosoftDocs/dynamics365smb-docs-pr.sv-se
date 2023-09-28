@@ -123,8 +123,6 @@ Om det är första gången som du använder anläggningstillgångarna i [!INCLUD
 
 Om anläggningstillgångarna inte har integrerats med redovisningen hoppar du över steg 6 och 8.
 
-## Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
-
 ## Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  

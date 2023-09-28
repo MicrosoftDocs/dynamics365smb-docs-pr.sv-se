@@ -159,8 +159,6 @@ Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och h�
 
  Den här genomgången har du lärt dig hur du beräknar PIA i [!INCLUDE[prod_short](includes/prod_short.md)]. I större projekt kan det vara praktiskt att överföra kostnaderna till ett PIA-konto periodvis medan projektet färdigställs. Den här genomgången har visat hur man exkluderar aktivitetsrader från en beräkning. Detta visar också när du bör omberäkna. Slutligen, den här genomgången visar hur du bokför PIA i redovisningen. Ett exempel på hur du återför en PIA-bokföring till redovisningen inkluderas också.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/calculate-post-job-wip/)
-
 ## Se även
 
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  

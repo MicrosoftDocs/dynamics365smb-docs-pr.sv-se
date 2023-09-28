@@ -31,9 +31,7 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 |När kontoutdragstjänsten har aktiverats, länkar du bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)]|[Skapa bankkonton](bank-how-setup-bank-accounts.md)|  
 |Ställ in dataexport för Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)].|[Ställa in Intrastat-rapporter](finance-how-setup-report-intrastat.md)|
 |Förbered för att konfigurera en ny datautbytesdefinition för en datafil eller strömma med hjälp av filens XML-schema för att autofylla snabbfliken **Kolumndefinitioner** på sidan **Definitioner för bokföringsbyte**.|[Använda XML-uppställningar för att förbereda dataintegreringsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
-|Konfigurera ramverket för datautbyte så att användare kan ta emot ett nytt inköpsdokumentformat, skicka ett nytt försäljningsdokumentformat, importera en ny bankfil eller göra andra datautbyten.|[Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)|  
-
-## Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/)
+|Konfigurera ramverket för datautbyte så att användare kan ta emot ett nytt inköpsdokumentformat, skicka ett nytt försäljningsdokumentformat, importera en ny bankfil eller göra andra datautbyten.|[Konfigurera datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## Se även
 

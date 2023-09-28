@@ -34,9 +34,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Aktivera försäkringsskydd för anläggningstillgångar, ange allmän försäkringsinformation, ett försäkringskort per brev och förbered journaler för att bokföra försäkringkostnader. |[Skapa försäkring för anläggningstillgångar](fa-how-setup-insurance.md) |
 | Aktivera underhåll av anläggningstillgångar, ange allmän underhållsinformation, skapa konton för bokföring av underhåll och definiera typer av underhållsarbete. |[Skapa underhåll för anläggningstillgångar](fa-how-setup-maintenance.md) |
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
-| Så här använder du användardefinierade avskrivningsmetoder. |[Skapa användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
-
-## Se relaterad [Microsoft utbildning](/training/paths/set-up-fixed-assets-management/)
+| Så här använder du användardefinierade avskrivningsmetoder. |[Konfigurera användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
 ## Se även
 

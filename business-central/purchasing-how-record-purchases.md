@@ -193,13 +193,9 @@ I de flesta fall kan du öppna reskontratransaktioner från det berörda kortet 
 
 Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **Betalningsreferens**. Mer information finns i [Redigera bokförda dokument](across-edit-posted-document.md). För mer kritiska fält som påverkar granskningsspåret måste du återföra eller ångra bokföring. Läs mer på [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/receive-invoice-dynamics-d365-business-central/index).
-
-## Se relaterad [Microsoft utbildning](/training/modules/processing-invoices-dynamics-365-business-central/index)
-
 ## Se även
 
-[Begär offerter](purchasing-how-request-quotes.md)  
+[Begära offerter](purchasing-how-request-quotes.md)  
 [Köpa artiklar för en försäljning](purchasing-how-purchase-products-sale.md)  
 [Förbereda direktutleveranser](sales-how-drop-shipment.md)  
 [Inköp](purchasing-manage-purchasing.md)  

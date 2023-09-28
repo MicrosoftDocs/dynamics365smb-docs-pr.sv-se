@@ -181,12 +181,10 @@ När returutleveranser kombineras på en kreditnota och sedan bokförs skapas en
 2. Fyll i fälten på efter behov och välj sedan knappen **OK**.  
 3. Du kan också ta bort enskilda inköpsreturorder manuellt.
 
-## Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
-[Korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Korrigera eller makulera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Behandla försäljningsreturer eller annulleringar](sales-how-process-sales-returns-cancellations.md)  
 

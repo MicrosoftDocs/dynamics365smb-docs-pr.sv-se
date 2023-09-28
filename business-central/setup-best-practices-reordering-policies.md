@@ -35,11 +35,9 @@ I följande tabell visas bästa metod för att välja mellan de fyra regler.
 |**Fast orderkvantitet**|Använd för C-artiklar.<br /><br /> Kombinera med beställningspunktparametrar.<br /><br /> Använd för låg-nivå komponenter i produktionen.<br /><br /> Använd inte, om artikeln har reserverats ofta.|C-objekt, till exempel tekoppar, är låg-värde artiklar med hög, och regelbunden orderomsättning. Den bästa partiformningsmetoden för C-objekt är därför ett som garanterar konstant tillgänglighet, genom att alltid hålla sig över en beställningspunkt.<br /><br /> Om användaren reserveras ett antal för något avlägset behov, störs planeringsgrunden. Även om den planerade distributionslagernivån är accepterad av ordermottagaren med hänsyn till beställningspunkten, kan det hända att antalet inte är tillgängligt på grund av reservation.|  
 |**Maximalt antal**|Använd för C-objekt med höga lagerhållningskostnader eller lagringsbegränsningar.<br /><br /> Kombinera tillsammans med en eller flera orderändringar (lägsta/max partistorlek eller Partistorleksmultipel).|C-objekt, till exempel tekoppar, är låg-värde artiklar med hög, och regelbunden orderomsättning. Den bästa partiformningsmetoden för C-objekt är därför ett som garanterar konstant tillgänglighet, genom att alltid hålla sig över en beställningspunkt, men under en maximal lagerkvantitet.<br /><br /> Om du vill ändra den föreslagna order, kan du behöva minska partistorleken till en angiven maximal partistorlek, öka till en angiven minimal partistorlek eller avrundad uppåt för att uppfylla en viss partistorleksmultipel. **Obs!** Lagret stannar då mellan beställningspunkt och högsta antal, om använd med en beställningspunkt.|  
 
-## Se relaterad [Microsoft utbildning](/training/paths/replenish-items-dynamics-365-business-central/)
-
 ## Se även
 
- [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
+ [Konfigurera bästa praxis: leveransplanering](setup-best-practices-supply-planning.md)  
  [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  
  [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

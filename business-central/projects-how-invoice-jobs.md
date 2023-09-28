@@ -60,8 +60,6 @@ Du kan skapa en faktura från projektplaneringsrader och då ange antal av artik
 > [!NOTE]  
 >   Ovanstående process är liknande för att skapa, granska och publicera en projektrelaterad försäljningskreditnota.
 
-## Se relaterad [Microsoft utbildning](/training/paths/post-job-usage-sales/)
-
 ## Se även
 
 [Hantera projekt](projects-manage-projects.md)  

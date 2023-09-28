@@ -45,8 +45,6 @@ Du kan importera och exportera en befintlig anpassad rapportlayout som en fil ti
 
  Den ursprungliga anpassade rapportlayouten ersätts med den importerade rapportlayouten.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Se även
 
 [Skapa och ändra en anpassad rapportlayout](ui-how-create-custom-report-layout.md)   

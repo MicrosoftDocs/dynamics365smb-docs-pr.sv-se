@@ -345,8 +345,6 @@ Ange en siffra för att se vilken måttenhet som används i fältet för varakti
 
 Till exempel om mätenheten är timmar konverteras siffran 5 till 5 timmar.
 
-## Se relaterad [Microsoft utbildning](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  

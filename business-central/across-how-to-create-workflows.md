@@ -172,12 +172,10 @@ Följande illustrationer ger en översikt över resultatet av proceduren.
 
 Sedan måste du och testa arbetsflödet genom att öppna en befintlig leverantör och ändra namnet. Kontrollera att en begäran om godkännande har gjorts när du ändrar leverantörens namn.
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-workflows/)
-
 ## Se även
 
 [Skapa arbetsflöden från arbetsflödesmallar](across-how-to-create-workflows-from-workflow-templates.md)  
-[Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  
+[Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  
 [Konfigurera aviseringar för arbetsflöde](across-setting-up-workflow-notifications.md)  
 [Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md)  
 [Ta bort arbetsflöden för godkännande](across-how-to-delete-workflows.md)  

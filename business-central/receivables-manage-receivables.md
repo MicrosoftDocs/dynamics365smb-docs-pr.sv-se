@@ -41,8 +41,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Ställa in en tolerans genom vilken systemet stänger en faktura, även om betalningen, inklusive rabatt, inte helt täcker fakturabeloppet.|[Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Förutsäga när betalningar görs sent för försäljningsdokument. | [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md) |
 
-## Se relaterad [Microsoft utbildning](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
-
 ## Se även
 [Försäljning](sales-manage-sales.md)  
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  

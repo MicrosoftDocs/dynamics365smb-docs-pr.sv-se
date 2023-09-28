@@ -70,8 +70,6 @@ Funktionen **Berätta vad du vill göra** söker inte efter data som till exempe
 
 Vi har visat Berätta för ett antal intressenter, noterat de frågor som de har gemensamt och använt våra anteckningar till en lista av vanliga frågor. Om du är intresserad, se [Vanliga frågor Berätta](ui-search-faq.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/user-interface-dynamics-365-business-central/index)
-
 ## Se även
 
 [Arbeta med Business Central](ui-work-product.md)  

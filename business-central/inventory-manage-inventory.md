@@ -53,9 +53,7 @@ I följande tabell beskrivs relaterade uppgifter.
 |Ställa in en leverantörs eller kundens egen artikelbeskrivning för ditt artikelkort så att du snabbt kan infoga deras artikelbeskrivning i handelsdokument.|[Använd artikelreferenser](inventory-how-use-item-cross-refs.md)|
 |Spärra en artikel så att den inte kan registreras på försäljnings- eller inköpsrader eller bokföras i en transaktion.|[Spärra artiklar](inventory-how-block-items.md)|
 |Hantera affärsverksamheten på försäljningskontor, inköpsavdelningar eller planeringskontor på flera platser.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
-|Använd resurser med särskilda funktioner för olika tjänster och serviceartiklar.|[Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md)|
-
-## Se relaterad [Microsoft utbildning](/training/paths/get-started-inventory-management/)
+|Använd resurser med särskilda funktioner för olika tjänster och serviceartiklar.|[Konfigurera resursfördelning](service-how-setup-resource-allocation.md)|
 
 ## Se även
 

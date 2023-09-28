@@ -148,8 +148,6 @@ I följande tabell beskrivs de kodmoduler som måste skapas för rapporten.
 > [!Note]
 > När du skapar kodmoduler för rapporten måste du ta hänsyn till värdet i fältet **Momsrapportversion**. Det här fältet måste motsvara versionen av rapporten som är, eller var, krävd av skattemyndigheten. Du kan till exempel ange **2021** i kryssrutan för att ange att rapporten överensstämmer med de krav som gällde det året. Kontakta skattemyndigheterna för att få den senaste versionen.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se även
 
 [Konfigurera beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)  

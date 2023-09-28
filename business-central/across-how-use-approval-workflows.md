@@ -1,13 +1,13 @@
 ---
 title: Godkänna eller avvisa dokument i arbetsflöden
 description: 'Begära, avvisa eller delegera godkännande av, till exempel ett inköps- eller försäljningsdokument, som en del av ett arbetsflöde.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '654, 662, 1500,'
 ms.date: 09/12/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Så här använder du godkännande av arbetsflöden
 

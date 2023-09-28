@@ -49,12 +49,10 @@ Du anger dessa inställningar genom att tilldela ansvarsenheter till användare 
 > [!NOTE]  
 > Användarna kan bara visa de bokförda dokument som har samband med användarens egen ansvarsenhet. De kan emellertid visa alla reskontratransaktioner och navigera till andra bokförda dokument från reskontratransaktionerna.
 
-## Se relaterad [Microsoft utbildning](/training/modules/set-up-responsibility-centers/)
-
 ## Se även
 
 [Ställa in lager](inventory-setup-inventory.md)  
-[Ställa in lagerstyrning](warehouse-setup-warehouse.md)  
+[Ställa in Warehouse Management](warehouse-setup-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Warehouse Management – översikt](design-details-warehouse-management.md)
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

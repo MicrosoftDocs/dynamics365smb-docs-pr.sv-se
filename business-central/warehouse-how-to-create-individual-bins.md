@@ -70,8 +70,6 @@ Om du vill arbeta på sidan **lagerplatsuppläggningskalkylark** måste du stäl
 
 Upprepa processen för ytterligare en uppsättning lagerställen tills du har skapat alla de lagerställen som du ska ha i distributionslagret.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-new-bins/)
-
 ## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)

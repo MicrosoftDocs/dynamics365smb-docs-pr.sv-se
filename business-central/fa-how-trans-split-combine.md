@@ -66,8 +66,6 @@ Du kan kombinera flera anläggningstillgångar till en anläggningstillgång, ti
 2. Fyll i fälten om det behövs.
 3. Välj knappen **Skriv ut** eller **Förhandsgranska**.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/reclassify-fixed-assets/)
-
 ## Se även
 
 [Anläggningstillgångar](fa-manage.md)  

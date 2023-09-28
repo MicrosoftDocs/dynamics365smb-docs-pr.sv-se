@@ -238,8 +238,6 @@ Du kan se om det finns globala dimensioner för transaktionerna på en transakti
 > [!NOTE]  
 > Sidan **Transaktionsdimensioner** visas dimensionerna för en transaktion i taget. När du bläddrar bland transaktionerna ändras innehållet på sidan **Transaktionsdimensioner** därefter.
 
-## Se relaterad [Microsoft utbildning](/training/modules/dimensions-dynamics-365-business-central/index)
-
 ## Se även
 
 [Affärsstöd](bi.md)  

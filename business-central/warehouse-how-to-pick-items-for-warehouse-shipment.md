@@ -3,7 +3,7 @@ title: Plocka artiklar för utleverans från dist.lager
 description: Lära dig hur du använder distributionslagerplockdokument för att skapa och arbeta plocknings information innan du bokför distributionslagerutleveransen.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -110,8 +110,6 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 4. När du har utfört plockningen och placerat artiklarna i utleveransområdet eller på lagerstället för utleveranser väljer du åtgärden **Registrera plockning**.  
 
 Du kan nu ta artiklarna till leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, på sidan **Distributionslagerutleverans**. Läs mer på [utleverera artiklar](warehouse-how-ship-items.md).
-
-## Se relaterad [Microsoft utbildning](/training/modules/pick-ship-items-warehouse/)
 
 ## Se även
 

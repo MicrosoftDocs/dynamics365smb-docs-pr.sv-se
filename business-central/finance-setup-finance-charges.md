@@ -62,8 +62,6 @@ Dessutom är varje villkor i tabellen Räntevillkor kopplad till en undertabell,
 |%8|Innehållet i fältet **Valutakod** i räntefakturans huvud|  
 |%9|Innehållet i fältet **Bokföringsdatum** i räntefakturans huvud|  
 
-## Se relaterad [Microsoft utbildning](/training/modules/send-memos-dynamics-365-business-central/)
-
 ## Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  

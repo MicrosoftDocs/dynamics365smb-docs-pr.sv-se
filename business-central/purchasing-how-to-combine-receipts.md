@@ -42,12 +42,10 @@ Du kan också ta bort enskilda order manuellt.
 
 Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel inköpsavropsorder.
 
-## Se relaterad [Microsoft utbildning](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Se även
 
 [Inköp](purchasing-manage-purchasing.md)  
-[Korrigera eller annullera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Korrigera eller makulera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

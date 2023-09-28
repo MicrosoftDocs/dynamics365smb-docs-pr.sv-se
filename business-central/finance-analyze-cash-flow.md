@@ -42,8 +42,6 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 2. Välj en kassaflödesprognos och välj sedan åtgärden **kassaflödeskalkylblad**.  
 3. På sidan **kassaflödekalkylblad** väljer du åtgärden **Föreslå kalkylarksrader**.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
-
 ## Se även
 
 [Ställa in Finance](finance-setup-finance.md)  

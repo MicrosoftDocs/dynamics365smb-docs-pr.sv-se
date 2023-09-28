@@ -37,12 +37,10 @@ Du kan också lägga till betalningsvillkor i betalsättet. Mer information finn
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** eller **Leverantör** och väljer sedan relaterad länk.
 2. I fältet **betalningssättkod**, välj metoden som ska användas som standard för kunden eller leverantören.
 
-## Se relaterad [Microsoft utbildning](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se även
 
 [Registrera nya kunder](sales-how-register-new-customers.md)  
-[Ställa in betalningsvillkor](finance-payment-terms.md)  
+[Konfigurera betalningsvillkor](finance-payment-terms.md)  
 [Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

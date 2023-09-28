@@ -111,8 +111,6 @@ Du kan registrera en valutakod på en redovisningsjournalrad och bokföra raden 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Se relaterad [Microsoft utbildning](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
 ## Se även
 
 [Uppdatera valutakurser](finance-how-update-currencies.md)  

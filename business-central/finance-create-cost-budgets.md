@@ -26,13 +26,11 @@ Du kan använda följande sidor för att skapa och analysera kostnadsbudgetar. V
 |Visa kostnadsbudgetjournaler och kostnadsbudgettransaktioner.|Sidan **Kostnadsbudgetregister**|  
 |Skriv ut kostnadsbudgetjämförelser med hjälp av olika rapporter.|Rapporten **Saldo/budget för kostnadsredovisning**<br /><br /> Rapporten **Kostnadsredovisning, resultaträkning/budget**<br /><br /> Rapporten **Kostnadsbudget per kostnadsställe**<br /><br /> Rapporten **Kostnadsbudget per kostnadsbärare**|  
 
-## Se relaterad [Microsoft utbildning](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
-
 ## Se även
 
 [Redovisa kostnader](finance-manage-cost-accounting.md)  
 [Skapa redovisningsbudgetar](finance-how-create-budgets.md)  
-[Terminologi i kostnadsredovisning](finance-terminology-in-cost-accounting.md)  
+[Terminologi i Kostnadsredovisning](finance-terminology-in-cost-accounting.md)  
 [Definiera och fördela kostnader](finance-define-and-allocate-costs.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

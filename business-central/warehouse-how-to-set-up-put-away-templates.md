@@ -31,8 +31,6 @@ Du kan skapa flera artikelinförselmallar och välja en av dem för att styra al
 
 Du kan skapa olika artikelinförselmallar och sedan använda dem som du vill. Den artikelinförselmall som du har valt för artikeln eller lagerställeenheten om det finns någon. Om de här fälten inte fylls i används den artikelinförselmall som du har valt för distributionslagret på snabbfliken **Lagerplatsprinciper** på lagerställekortet.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/put-away-templates/)
-
 ## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)

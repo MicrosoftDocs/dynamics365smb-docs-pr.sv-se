@@ -43,8 +43,6 @@ På sidan **Projektkort** kan du nu se en översikt över de totala budgeterade 
 
 Mer information om registrering av budgeterade jämfört med faktiska projektpriser och -kostnader finns i [Så här registrerar du förbrukning för projekt](projects-how-record-job-usage.md).
 
-## Se relaterad [Microsoft utbildning](/training/modules/set-up-job-planning-lines/)
-
 ## Se även
 
 [Projekthantering](projects-manage-projects.md)  

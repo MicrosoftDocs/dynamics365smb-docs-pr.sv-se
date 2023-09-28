@@ -104,8 +104,6 @@ Du fyller i fälten i motsatt ordning, enligt följande:
 
 Dimensionen ADM kommer att kopieras från lagerställe ÖST.
 
-## Se relaterad utbildning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## Se även
 
 [Hantera lager](inventory-manage-inventory.md)  

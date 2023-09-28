@@ -59,7 +59,7 @@ När du öppnar ett nytt dokument eller kort som det finns en nummerserie för, 
 
 ## Så här skapar du nummerserier
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Nummerserier** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Nummerserier** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten på en ny rad efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Välj åtgärden **Rader**.  
@@ -75,7 +75,7 @@ Du kan tilldela nummerserier till de mallar som du konfigurerar för de olika ty
 
 Om du har definierat mer än en nummerseriekod för samma typ av allmän information eller transaktioner kan du skapa samband mellan koderna. Den här funktionen gör det enklare för dig att välja bland koderna när du använder ett nummer. När du skapar ett samband mellan ett antal nummerserier associerar du alla relaterade nummerserier till en nummeseriekod. Sedan kan du ange koden i ett fält under snabbfliken **Numrering** på en av de relevanta inställningssidorna, till exempel **Försäljningsinställningar**.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Nummerserier** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Nummerserier** och väljer sedan relaterad länk.
 2. Markera raden med de nummerserier som du vill skapa relationer för och välj sedan **Relationer**.
 3. I fältet **Seriekod** anger du koden för nummerserien som du vill koppla till serien du valde i steg 2.
 4. Lägg till en rad för varje kod som du vill koppla till den valda nummerserien.
@@ -91,8 +91,6 @@ I följande procedur beskrivs hur du ställer in nummerserier för området För
 2. På sidan **försäljning** klickar du på snabbfliken **nr-serier** och väljer önskade nummerserier för varje försäljningskort och dokument.
 
 Det markerade numret kommer nu att användas för att fylla i fältet **nr.** på kortet eller dokumentet i fråga enligt de inställningar du har gjort på nummerserieraden.  
-
-## Se relaterad [Microsoft utbildning](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## Se även
 
