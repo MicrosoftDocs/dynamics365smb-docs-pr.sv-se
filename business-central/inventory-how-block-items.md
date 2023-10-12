@@ -1,51 +1,49 @@
 ---
-title: Spärra artiklar för försäljning eller inköp
-description: 'Du kan spärra en artikel så att den inte kan registreras på rader i försäljnings- eller inköpsdokument, och du kan även spärra den från att publiceras i en transaktion.'
+title: Så här spärrar du artiklar eller artikelvarianter från försäljning eller inköp
+description: 'Du kan spärra artiklar och artikelvarianter så att dessa inte registreras på rader i försäljnings- eller inköpsdokument, och du kan även spärra dem från att publiceras i en transaktion.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 11/03/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: 'item, variant, product'
+ms.date: 08/22/2023
 ---
-# <a name="block-items-from-sales-or-purchasing"></a>Spärra artiklar för försäljning eller inköp
+# Spärra artiklar eller artikelvarianter från försäljning eller inköp
 
-Du kan spärra en artikel så att den inte kan registreras på rader i försäljnings- eller inköpsdokument, och du kan även spärra den från att publiceras i en transaktion. Detta kan till exempel vara användbart när en artikel har en känd defekt. Om någon väljer en spärrad artikel i ett försäljnings- eller inköpsdokument kommer ett meddelande att informera dem om att artikeln är spärrad.
+Du kan spärra artiklar och artikelvarianter så att dessa inte kan registreras på rader i försäljnings- eller inköpsdokument, och du kan även spärra dem från att publiceras i transaktioner. Detta kan till exempel vara användbart när en artikel har en känd defekt. Om någon väljer en spärrad artikel eller variant i ett försäljnings- eller inköpsdokument kommer ett meddelande att informera vederbörande om att artikeln är spärrad.
 
-I följande tabell beskrivs vad som händer när artiklar spärras.  
+I följande tabell beskrivs vad som händer när artiklar eller varianter spärras.  
 
 |Alternativ|Description|  
 |--------------------|------------|  
-|**Spärrad för försäljning**|Du kan inte registrera artikeln i ett försäljningsdokument eller en artikeljournal för försäljning.|  
-|**Spärrad för inköp**|Du kan inte registrera artikeln i ett inköpsdokument, en artikeljournal för inköp eller i planeringsprocesser för inköp.|  
-|**Spärrad**|Det går inte att inkludera artikeln i transaktioner.|  
+|**Spärrad för försäljning**|Du kan inte välja artikeln eller varianten i ett försäljningsdokument eller en artikeljournal för försäljning.|  
+|**Spärrad för inköp**|Du kan inte välja artikeln eller varianten i ett inköpsdokument, en artikeljournal för inköp eller i planeringsprocesser för inköp.|  
+|**Spärrad**|Du kan inte inkludera artikeln eller varianten när du bokför transaktioner.|  
 
 > [!NOTE]
 > Spärrade artiklar kan returneras. Detta innebär att inga av inställningarna ovan gäller för returorder och kreditnotor.
 
-När du använder åtgärden **Kopiera från dokument** för att skapa nya dokument som bygger på befintliga dokument får du ett meddelande om något av artiklarna på källdokumentraderna är blockerat. De spärrade dokumentraderna tas inte med i det nya dokumentet och ett meddelande visar en översikt över alla dokumentrader som har spärrats i källdokumentet.
+När du använder åtgärden **Kopiera från dokument** för att skapa nya dokument som bygger på befintliga dokument får du ett meddelande om någon artikel eller variant på källdokumentraderna är spärrad. De spärrade dokumentraderna tas inte med i det nya dokumentet och ett meddelande visar en översikt över alla dokumentrader som har spärrats i källdokumentet.
 
-## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Så här spärrar du en artikel så att den inte kan registreras på försäljningsrader
+## Så här spärrar du en artikel  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
-2. Välj den artikel som du vill spärra och markera sedan kryssrutan **Spärrad för försäljning**.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artiklar** och välj sedan relaterad länk.  
+2. Beroende på vad du vill göra väljer du artikel och markerar sedan en eller flera av följande kryssrutor:
+    * **Spärrad**
+    * **Spärrad för försäljning**
+    * **Spärrad för inköp**  
 
-## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Så här spärrar du en artikel så att den inte kan registreras på inköpsrader
+## Så här spärrar du en artikelvariant  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
-2. Välj den artikel som du vill spärra och markera sedan kryssrutan **Spärrad för inköp**.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artiklar** och välj sedan relaterad länk.  
+2. Välj den artikel som har en variant som du vill spärra, välj **Varianter** och markera sedan en eller flera av följande kryssrutor:  
+    * **Spärrad**
+    * **Spärrad för försäljning**
+    * **Spärrad för inköp**
 
-## <a name="to-block-an-item-from-being-posted"></a>Så här spärrar du en artikel så att den inte kan bokföras
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
-2. Välj den artikel som du vill spärra och markera sedan kryssrutan **Spärrad**.
-
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

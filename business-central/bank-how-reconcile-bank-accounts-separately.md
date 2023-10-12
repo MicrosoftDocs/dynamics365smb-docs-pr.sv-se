@@ -239,8 +239,6 @@ Använd inte ett redovisningskonto som tillåter direkt bokföring i bankkontots
 
 Detta misstag inträffar ofta när du anger ett ingående saldo för ett bankkonto. Det är viktigt att du inte bokför det ingående saldot direkt i redovisningen. Transaktioner på redovisningskontot som bokförs direkt till redovisningskontot orsakar problem. Dessa transaktioner kan t.ex. hindra dig från att stämma av ditt bankkonto. För bankkonton med utländsk valuta kan transaktionerna medföra att avvikelser ackumuleras när du har bokfört fler bankavstämningar på grund av valutakursjusteringar. Ofta bokförs det ingående banksaldot direkt på bank-kontot och beloppet fylls sedan i på redovisningskontot. Du kan också ångra det senare mot det redovisningskonto som du använder för att balansera det öppna redovisningssaldot. I båda fallen måste du balansera eventuell direkt bokföring till redovisningskontot innan du börjar med den första bankkontoavstämningen, framför allt om bankkontot är i en utländsk valuta.
 
-## Se relaterad [Microsoft utbildning](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
-
 ## Se även
 
 [Jämka bankkonton](bank-manage-bank-accounts.md)  

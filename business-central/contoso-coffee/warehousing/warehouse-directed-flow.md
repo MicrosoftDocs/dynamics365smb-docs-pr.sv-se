@@ -1,6 +1,6 @@
 ---
 title: 'Inleverera, artikelinförsel, flytta, plocka och leverera i avancerad lagerkonfiguration med dirigerad plockning och artikelinförsel'
-description: I Business Central kan de inkommande och utkommande processerna kan att utföras på olika sätt beroende på lagerkomplexitetsnivå.
+description: Ankommande och avgående processer kan utföras på olika sätt beroende på lagerkomplexitetsnivå.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,39 +12,39 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Genomgång av ankommande och avgående flöde i avancerad distributionslagerkonfiguration med dirigerad artikelinförsel och plockning
+# Genomgång av ankommande och avgående flöde i avancerad distributionslagerkonfiguration med dirigerad artikelinförsel och plockning
 
 Den här genomgången visar hur man slutför inkommande och utgående flöden i konfigurationen Avancerad: dirigerad artikelinförsel och plockning. Mer information finns i avsnittet [Översikt över olika konfigurationsalternativ](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar  
 För att slutföra denna genomgång måste du ange dig själv som distributionslagerpersonal på lagerstället *VIT* med de här stegen:  
-1. Välj ![glödlampan som öppnar funktionen Berätta 1.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 1.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
 2. Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
 3. Ange WHITE i fältet **Lagerställekod**.  
 4. Aktivera **standard** växling.
 
 
-## <a name="scenario"></a>Scenario
+## Scenario  
 Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåfyllning för att öka hastigheten på inleveranser och leveranstid.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa distributionslagerutleverans.  
 
-    1. Välj ![glödlampan som öppnar funktionen Berätta 2.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
-    2. Välj order för kund 10000 för lagerstället VIT. Externt ordernr är *W-1*. Använd anpassningsverktygen om fältet **Externt ordernr.** inte visas. Mer information finns i [Anpassa din arbetsyta](../../ui-personalization-user.md).
+    1. Välj ![glödlampan som öppnar funktionen Berätta 2.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
+    2. Välj order för kund 10000 för lagerstället VIT. Externt ordernr är *W-1*.
     3. Välj åtgärden **Skapa distributionslagerutleverans** för att skapa en distributionslagerutleverans för vald försäljningsorder.
-    4.  Välj åtgärden **Frisläpp** för att meddela lagret att försäljningsutleverans är klar för lagerhantering.  
+    4. Välj åtgärden **Frisläpp** för att meddela lagret att försäljningsutleverans är klar för lagerhantering.  
 
 2. Definiera lagerplatser för artikeln om du vill kontrollera var den är artikelinförsel 
 
-    1.  Välj ![glödlampan som öppnar funktionen Berätta 3.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Artiklar** och välj sedan relaterad länk.  
+    1.  Välj ![glödlampan som öppnar funktionen Berätta 3.](../../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Artiklar** och välj sedan relaterad länk.  
     2.  Välj *WRB-1000* och sedan åtgärden **lagerställesinnehåll**.  
-    3.  Välj åtgärden **Ny**. Lägg till två rader. Använd anpassningsverktygen om ett fält för **Lagerplatskod** inte visas. Mer information finns i [Anpassa din arbetsyta](../../ui-personalization-user.md). 
+    3.  Välj åtgärden **Ny**. Lägg till två rader.
     
-    |Artikel|Lagerställekod|Lagerställeskod|Fast|Enhet|
+    |Artikel|Lagerställekod|Lagerplatskod|Åtgärdat|Måttenhet|
     |----------|----------|---------|---|------|  
-    |WRB-1000|VIT|D-05-0001|Ja|PÅSE|  
+    |DIST-1000|VIT|D-05-0001|Ja|PÅSE|  
     |WRB-1000|VIT|D-05-0002|Ja|PÅSE|
 
 3. Skapa dist.lager inleverans.  
@@ -100,7 +100,7 @@ Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåf
 
     3. Välj åtgärden **Skapa transport** för att bekräfta att skapa dokumentet.
     4.  Välj ![glödlampan som öppnar funktionen Berätta 8.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagertransporter** och väljer sedan relaterad länk
-    5.  Öppna den lagertransport som du har skapat, granska avsnittet **rader** 
+    5.  Öppna den lagertransport som du har skapat, granska avsnittet **rader**
 
      I det här skedet visas funktionen för brytenhet. Fyra rader visas:
     - En rad som tar ut den ena PÅSEN från volymlagerplatsen
@@ -136,7 +136,7 @@ Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåf
     4. Bekräfta alternativet **leverans**.
 
 
-## <a name="results"></a>Resultat
+## Resultat
 - **Bokförda inleveranser till distributionslager** skapas
 - **Registrerad artikelinförsel för distributionslager** skapas    
 - **Bokförd inköpsinleverans** skapas    
@@ -150,7 +150,7 @@ Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåf
 
 
 
-## <a name="see-also"></a>Se även
+## Se även
 [Ta emot artiklar](../../warehouse-how-receive-items.md) 
 [Designdetaljer: Inkommande distributionslagerflöde](../../design-details-inbound-warehouse-flow.md) 
 [Leverera artiklar](../../warehouse-how-ship-items.md) 

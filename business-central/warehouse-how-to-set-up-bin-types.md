@@ -38,8 +38,6 @@ De lagerplatstyper som du kan skapa visas nedan.
 |ARTINFPLOC|Artiklar på lagerställen som föreslås för både artikelinförsel- och plockningsfunktioner. Lagerställen av den här typen har förmodligen olika lagerplatsordning. Du kan skapa volymlagerställen av den här typen med låg lagerplatsordning jämfört med de vanliga plocklagerställena eller lagerställena för framåtplockning.|  
 |KS|Den här lagerstället används för lagerjusteringar om du anger lagerstället i fältet **Justering lagerställeskod** på lagerställekortet. Du kan även skapa lagerställen av den här typen för felaktiga artiklar och artiklar om ska kontrolleras. Du kan flytta artiklar till den här lagerplatstypen om du vill isolera dem från det vanliga artikelflödet.<br /><br /> **OBS:** Till skillnad från andra lagerplatstyper har **KS** lagerplatstypen inga av artikelhanteringskryssrutorna markerade som standard. Det betyder att lagerställesinnehåll som du placerar i en KS lagerplats undantas från artikelflöden.|  
 
-## Se relaterad [Microsoft utbildning](/training/modules/set-up-zones-bins/)
-
 ## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)

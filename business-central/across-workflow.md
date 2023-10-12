@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics-365-business-central"></a>Arbetsflöden i Dynamics 365 Business Central
+# Arbetsflöden i Dynamics 365 Business Central
 
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemaktiviteter, till exempel automatisk bokföring, kan inkluderas som arbetsflöden. Systemaktiviteter kan föregås eller följas av användaraktiviteter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg.
 
@@ -18,7 +18,7 @@ Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] stöder tre
 * Power Automate-flöden
 
   * Automatiserade flöden som utlöses av händelser (såsom skapande, ändring eller radering av poster eller dokument) i [!INCLUDE[prod_short](includes/prod_short.md)]. Dessutom ingår godkännande flöden som skapas i Power Automate som utlösare när ett godkännande begärs i [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Direkt flöden som aktiveras manuellt av åtgärden **Automatiserad** från listor, kort och dokumentsidor.
+  * Direktflöden som aktiveras manuellt via åtgärdsmenyn **Automatisera** på listor, kort och dokumentsidor.
 
     Skapa och utlösa manuellt en Power Automate-flöde i en [!INCLUDE[prod_short](includes/prod_short.md)] såsom en kund, artikel eller försäljningsorder, med alternativ för att manipulera information både internt och externt (med hjälp av integrerade verktyg).
 
@@ -26,17 +26,17 @@ Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] stöder tre
 
   På sidan **Arbetsflödesmallar** kan du se alla tillgängliga arbetsflöden. Utvärderingsversionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller ett antal förkonfigurerade arbetsflöden som representeras av arbetsflödesmallar som du kan kopiera för att skapa nya. När du öppnar en mall från sidan **Arbetsflödesmallar** och arbetsflödets namn börjar med *MS-*, läggs mallen till av Microsoft.
 
-## <a name="power-automate-flows"></a>Power Automate-flöden
+## Power Automate-flöden
 
 Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrera dig Power Automate och bygga upp kraftfulla automatiserade arbetsflöden. Du kör dessa arbetsflöden inifrån [!INCLUDE [prod_short](includes/prod_short.md)]. Flödena kan koppla ihop interna och externa datakällor och verktyg, utan kodkunskap.
 
-|**Om du vill** |**Se**|
+|**För att** |**Gå till**|
 |-------|-------|
-|Komma igång med Power Automate och skapa flöden, köra snabbflöden|[Använda Power Automate-flöden i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
+|Komma igång med Power Automate, skapa flöden och köra snabbflöden|[Använda Power Automate-flöden i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
 |Mer information om hur du skapar, redigerar och hanterar flöden|[Ställa in automatiserade flöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) och [Ställa in direktflöden](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Ställ in Power Automate integration med [!INCLUDE[prod_short](includes/prod_short.md)] för användare som administratör|[Konfigurera Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a>Arbetsflöden för godkännande
+## Arbetsflöden för godkännande
 
 Skapa ett arbetsflöde för godkännande genom att ange vad som ska starta arbetsflödet och vad som händer härnäst enligt följande:
 
@@ -57,7 +57,7 @@ Exempel på olika typer av arbetsflödeshändelser är bland annat generering av
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Inköp](purchasing-manage-purchasing.md)  

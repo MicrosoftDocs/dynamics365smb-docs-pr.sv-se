@@ -3,7 +3,7 @@ title: Så här plockar du artiklar med Lagerplockning
 description: Lär dig använda lagerplockningar för att registrera och bokföra information om plockning och leverans för källdokument.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ I scenarier där en del av antalet monteras och ett annat ska plockas, skapas et
 
 > [!NOTE]  
 > Om artiklar monteras mot kundorder, skapas lagerplockningen för den kopplade försäljningsordern för att skapa en lagerförflyttning för alla monteringskomponenter.  
-
-## Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
 
 ## Se även
 

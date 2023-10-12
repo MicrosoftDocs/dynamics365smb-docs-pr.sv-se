@@ -65,7 +65,7 @@ sections:
       - question: |
           Var hittar jag radnumret?
         answer: |
-          Dokument som försäljningsorder och inköpsfakturor består av huvud och rader. Varje rad har ett nummer som [!INCLUDE [prod_short](includes/prod_short.md)] använder för att identifiera den aktuella raden. På grund av detta kan du se en varning eller ett felmeddelande om att något är fel i radnummer 1000. I standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] är radnumren dolda. Om du vill se radnumren måste du anpassa den aktuella sidan och lägga till **Radnr** . Lär dig hur du [anpassar arbetsytan](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Dokument som försäljningsorder och inköpsfakturor består av huvud och rader. Varje rad har ett nummer som [!INCLUDE [prod_short](includes/prod_short.md)] använder för att identifiera den aktuella raden. På grund av detta kan du se en varning eller ett felmeddelande om att något är fel i radnummer 1000. I standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] är radnumren dolda. Om du vill se radnumren måste du anpassa den aktuella sidan och lägga till **Radnr** . Lär dig hur du [anpassar arbetsytan](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Varför beskriver Hjälp funktioner som det går inte att komma åt?
         answer: |
@@ -90,7 +90,7 @@ sections:
 
           Om du loggar in med ett konto som inte är ett Microsoft 365-arbetskonto (såsom joe@mysolution.com), du har en Microsoft 365-prenumeration och sedan kopplar din domän (*mysolution.com*) till Microsoft 365-prenumerationen. Läs mer i [Vad är en domän?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) i Microsoft 365-innehållet.  
 
-          Om du inte har en Microsoft 365-prenumeration och inte vill köpa en, så tillhandahåller vi en ny Azure Active Directory-klientorganisation åt dig i samband med registrering så att du har tillgång till de avancerade administrationsverktygen i Azure-portalen.  
+          Om du inte har en Microsoft 365-prenumeration och inte vill köpa en, så tillhandahåller vi en ny Microsoft Entra-klientorganisation åt dig i samband med registrering så att du har tillgång till de avancerade administrationsverktygen i Azure-portalen.  
       - question: |
           Vad handlar integreringen med Microsoft 365 om?
         answer: |

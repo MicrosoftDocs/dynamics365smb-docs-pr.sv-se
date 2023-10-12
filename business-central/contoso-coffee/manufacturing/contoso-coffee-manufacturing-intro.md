@@ -4,12 +4,12 @@ description: Översikt över scenarier som kan vara till hjälp när demonstrati
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 4760
+ms.search.form: 4765
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduktion till produktion för Contoso Coffee
+# Introduktion till produktion för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-apparna för Business Central lägger till demonstrationsdata som du kan använda för att lära dig använda produktionsfunktionerna i Business Central.  
 
@@ -31,43 +31,23 @@ Appen tillhandahåller fyra produkter som är optimerade för olika scenarier:
 
   Denna produkt har tre varianter och tre strukturlistor som kan tilldelas lagerställeenheter. Produkten använder det fiktiva strukturkonceptet. Värderingsmetoden är *Standard*.
 
-Tillverkningsaktiviteterna för alla scenarier använder platsen *NORR*.  
+Tillverkningsaktiviteterna för alla scenarier använder platsen *HUVUD*.  
 
 > [!IMPORTANT]
 > Innan du kör något av scenarierna för Contoso Coffee bokför du eventuella artikeljournalrader med ingående balanser. Mer information finns i avsnittet [Konfigurera data för Contoso Coffee](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Ställ in data för produktion för Contoso Coffee
+## Ställ in data för produktion för Contoso Coffee
 
-Om du vill använda demonstrationsdata för produktion för Contoso Coffee måste du installera två appar i det aktuella företaget i [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
+[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
-- **Demonstrationsdatauppsättning för Contoso Coffee**  
-
-    Den här appen levererar demonstrationsdata för basprogrammet.  
-- **Demonstrationsdatauppsättning för Contoso Coffee (lands-ID)**  
-
-    Den här appen lägger till land-/regionsspecifika innehåll ovanpå basprogrammet.
-
-Lägg till programmen i ett tomt företag i en betald prenumeration eller som en del av en utvärderingsversion. Du kan till exempel skapa ett nytt företag utan exempeldata från den assisterade konfigurationsguiden **Skapa nytt företag** som du kan öppna från listan **Företag**. Lägg sedan till programmen från [marknadsplatsen](../../ui-extensions-install-uninstall.md#install) om de inte redan anges på sidan **Tilläggshantering**.  
-
-När de relevanta apparna har installerats går du till sidan [Demonstrationsdata för Contoso Coffee](https://businesscentral.dynamics.com/?page=4760) i [!INCLUDE [prod_short](../../includes/prod_short.md)] och ändrar standardinställningarna så att de passar dina behov. Inställningarna beskrivs i följande tabell:  
-
-|Fält  |Beskrivning  |
+|Fält  |Description  |
 |---------|---------|
-|**Startår** |Anger det första år som du vill använda för demonstrationsdata för Contoso Coffee. Beroende på företagets konfiguration är året antingen ett kalender år eller ett räkenskapsår.|
-|**Produktionsplats** |Anger det distributionslager som du vill använda för produktionsåtgärder. Standardvärdet är *NORR*, men du kan ändra detta så att det passar dina behov.|
-|**Företagstyp**    |Anger om det aktuella företaget måste rapportera moms eller omsättningsskatt. |
-|**Inrikes – generell rörelsebokföringsmall**|Anger en företagskod för inrikes kunder och leverantörer. Affärskoderna används när transaktionerna bokförs. |
-|**Kapacitet – generell produktbokföringsmall**    |Anger en kod för artiklar eller resurser som måste användas för bokföringskapacitet.|
-|**Detaljhandel – generell produktbokföringsmall**    |Anger en kod för artiklar eller resurser som måste användas för bokföring av detaljhandel.|
-|**Rå – generell produktbokföringsmall**    |Anger en kod för artiklar eller resurser som måste användas för bokföring av råmaterial. |
-|**Basmomskod**    |Anger en befintlig produkgrupp för moms som ska användas för artiklar.|
-|**Färdig kod**    |Anger en befintlig produktgrupp som ska användas för färdiga artiklar.|
-|**Prisfaktor**     |Anger en faktor för att omvandla ett pris från USD/EUR till lokal valuta. *1* innebär att priset är samma belopp i alla valutor. Ett högre värde används för att hämta priset i lokal valuta. |
-|**Avrundningsprecision**  |Definierar hur de beräknade förbrukningskvantiteterna avrundas när de registreras på förbrukningsjournalrader. Kvantiteter mindre än 0,5 avrundas nedåt. Kvantiteter lika med eller högre än 0,5 avrundas uppåt.|
+|**Produktionsplats** |Anger det distributionslager som du vill använda för produktionsåtgärder. Standardvärdet är *HUVUD*, men du kan ändra detta så att det passar dina behov.|
+
 
 Välj åtgärden **Skapa demonstrationsdata** när du är klar. Det tar några minuter att lägga till data i den underliggande databasen, men sedan är det dags att köra de olika scenarierna.  
 
-## <a name="scenarios"></a>Scenarierna
+## Scenarierna
 
 Demonstrationsdata för produktion för Contoso Coffee stöder för närvarande följande produktionsscenarier för test och utbildning:
 
@@ -85,7 +65,7 @@ Läs stegen för respektive scenario i den relevanta artikeln.
 > [!IMPORTANT]
 > Dessa genomgångar kräver att användarupplevelsen är inställd på *Premium* på sidan **Företagsinformation**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsrapporter och analyser i Business Central](../../production-reports.md)  

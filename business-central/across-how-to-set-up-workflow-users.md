@@ -11,7 +11,7 @@ ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-a-sequence-of-workflow-users"></a>Konfigurera en sekvens av arbetsflödesanvändare
+# Konfigurera en sekvens av arbetsflödesanvändare
 
 Innan du kan skapa arbetsflöde för godkännande måste du ställa in de användare som kommer att skicka förfrågningar och deras godkännare. Du kan till exempel ange vem som ska ta emot en notering för att agera på ett arbetsflödessteg. Du ställer in godkännande arbetsflödesdeltagare på sidan **Användarinställningar för godkännande**. Läs mer i [Så här skapar du användare för godkännande](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ På sidan **Arbetsflödesanvändargrupper** kan du ange var en deltagare deltar 
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group"></a>Så här konfigurerar du en användargrupp
+## Så här konfigurerar du en användargrupp
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflödesanvändargrupper** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Sidan **Arbetsflödesanvändargrupp** öppnas.  
@@ -34,7 +34,7 @@ På sidan **Arbetsflödesanvändargrupper** kan du ange var en deltagare deltar 
 
 6. Upprepa steg 5 för att lägga till fler arbetsflödesanvändare i arbetsflödesanvändargrupp.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  
 [Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)  

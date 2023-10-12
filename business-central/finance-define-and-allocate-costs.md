@@ -10,7 +10,7 @@ ms.search.form: '1102, 1105, 1106, 1107, 1109, 1114'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="defining-and-allocating-costs"></a>Definiera och fördela kostnader
+# Definiera och fördela kostnader
 
 Kostnadsfördelning flyttar kostnader och intäkter mellan kostnadstyper, kostnadsställen och kostnadsbärare. Du kan definiera valfritt antal fördelningar. Varje fördelning består av:  
 
@@ -28,11 +28,11 @@ För varje fördelningsmål definierar du en fördelningsbas. Fördelningsbasen 
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Ställa in fördelningskälla och mål
+## Ställa in fördelningskälla och mål
 
 Varje fördelning består av en fördelningskälla och en eller flera fördelningsmål. Fördelningskällan bestämmer vilka kostnader som ska fördelas. Fördelningsmålen bestämmer vart kostnaderna ska fördelas.  
 
-### <a name="to-set-up-cost-allocations"></a>Så här lägger du upp kostnadsfördelningar
+### Så här lägger du upp kostnadsfördelningar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelning** och väljer sedan relaterad länk.  
 2. På sidan **Kostnadsfördelning** väljer du åtgärden **Redigera**.  
@@ -50,11 +50,11 @@ Varje fördelning består av en fördelningskälla och en eller flera fördelnin
 > [!NOTE]  
 > Markera kryssrutan **Spärrad** om du vill inaktivera fördelningskonfigurationen.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Skapa filter för dynamiska fördelningsbaser
+## Skapa filter för dynamiska fördelningsbaser
 
 Den dynamiska fördelningsmetoden bygger på värden som kan ändras. Till exempel antalet anställda i ett kostnadsställe eller artiklar som säljs på en kostnadsbärare för en viss tidsperiod. Det finns nio fördefinierade fördelningsbaser och tolv dynamiska datumintervall. Du kan ange olika filter baserade på fördelningsbasen.  
 
-### <a name="setting-filters"></a>Ställa in filter
+### Ställa in filter
 
 Följande tabell visar vilka filter är möjliga för olika fördelningsbaser och vilka värden som gäller i fälten **Nummerfilter** och **Gruppfilter**. Välj <kbd>F1</kbd> i fälten **Kod för datumfilter** om du vill läsa detaljerad beskrivningar.  
 
@@ -70,7 +70,7 @@ Följande tabell visar vilka filter är möjliga för olika fördelningsbaser oc
 |Sålda artiklar (belopp)|Artikelnr|Ja|Ja|Ja|Lagerbokföringsmall|  
 |Inköpta artiklar (belopp)|Artikelnummer|Ja|Ja|Ja|Lagerbokföringsmall|
 
-## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: Definiera fast distribution beräknad på fördelningskvot
+## Scenario 1: Definiera fast distribution beräknad på fördelningskvot
 
 Statisk fördelning är baserad på ett visst värde, till exempel kvadratmeter eller en fastställd fördelningskvot, till exempel 5:2:4.  
 
@@ -79,7 +79,7 @@ I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är 
 > [!NOTE]  
 > Exemplet använder demonstrationsdata i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Så här definierar du fördelningskällan PROD-kostnadsstället på snabbfliken Allmänt
+### Så här definierar du fördelningskällan PROD-kostnadsstället på snabbfliken Allmänt  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelning** och väljer sedan relaterad länk.  
 2. På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
@@ -89,7 +89,7 @@ I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är 
 6. Ange **PROD** i fältet **Kod för kostnadsställe**.  
 7. I fältet **Kreditera till kostnadstyp** anger du kostnadstyp **9903**.  
 
-### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Då här definierar du kostnadsbärarna som är fördelningsmål på snabbfliken Rader
+### Då här definierar du kostnadsbärarna som är fördelningsmål på snabbfliken Rader  
 
 1. Ange **9903** i fältet **Målkostnadstyp** på den första raden.  
 2. Välj **ACCESSO** i fältet **Målkostnadsobjekt** på den första raden.  
@@ -110,14 +110,14 @@ I det här avsnittet beskrivs hur du definierar tre nya kostnadsbärare som är 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] beräknar automatiskt fältet **Procent** med hjälp av ett procenttal som är beroende av alla tre fördelningskvoterna, som anges i fältet **Del** för alla tre rader.
 
-## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2 – Definiera dynamisk distribution beräknad på sålda artiklar
+## Scenario 2 – Definiera dynamisk distribution beräknad på sålda artiklar
 
 I det här avsnittet innehåller exempel på hur du definierar fördelningar med dynamisk fördelning. I exemplet ändrar du dynamisk fördelning av kostnaderna för de SALES-kostnadsstället för att det ska fungera med den nya kostnadsbäraren IT EQUIPMENT. IT EQUIPMENT-paketet har artikelnummer i intervallet 8904-W till 8924-W. Du kan använda föregående års försäljningssiffror för att beräkna antalet andelen. Fördelningen bokförs på hjälpkostnadstypen 9903.  
 
 > [!NOTE]  
 > Exemplet använder demonstrationsdata i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Så här definierar du dynamisk fördelning beräknad på sålda artiklar under föregående år
+### Så här definierar du dynamisk fördelning beräknad på sålda artiklar under föregående år  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **kostnadsfördelningar** och väljer sedan relaterad länk.  
 2. På sidan **Kostnadsfördelning** väljer du åtgärden **Ny**.  
@@ -137,7 +137,7 @@ I det här avsnittet innehåller exempel på hur du definierar fördelningar med
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] använder föregående år försäljningssiffror för att beräkna en andel för 1596,50 BVA till 100 procent för IT EQUIPMENT-paketet. Det innebär att alla sålda artiklar föregående år är fördelade på kostnadsbäraren IT EQUIPMENT.
 
-## <a name="see-also"></a>Se även
+## Se även
 
  [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)  
  [Överföra och bokföra kostnadstransaktioner](finance-transfer-and-post-cost-entries.md)  

@@ -447,9 +447,10 @@
 ### [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)
 ### [Återföra journalbokföringar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)
 ### [Export av verifieringsfil](finance-how-to-export-audit-files.md)
-### [Fördela kostnader och intäkter](year-allocate-costs-income.md)
 ### [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)
 ### [Periodisera intäkter och kostnader](finance-how-defer-revenue-expenses.md)
+### [Fördela återkommande kostnader och intäkter](year-allocate-costs-income.md)
+### [Allokera intäkter och kostnader till flera redovisningskonton](finance-allocate-revenue-costs.md)
 ### [Uppdatera valutakurser](finance-how-update-currencies.md)
 ### [Importera lönetransaktioner](finance-how-import-payroll-transactions.md)
 ### [Arbeta med moms på försäljning och inköp](finance-work-with-vat.md)
@@ -585,6 +586,7 @@
 #### [Hantera interaktioner för segment](marketing-interaction-segments.md)
 ### Hantera interaktioner
 #### [Interaktioner](marketing-interactions-overview.md)
+#### [Bilagor för interaktioner](marketing-interaction-attachments.md)
 #### [Spela in interaktioner med kontakter](marketing-interactions.md)
 #### [Skapa interaktioner i kontakter och segment](marketing-how-create-interactions.md)
 #### [Spela in interaktioner med kontakter automatiskt](marketing-auto-record-interactions.md)
@@ -1545,6 +1547,7 @@
 #### [Konfigurera utleveransmetoder](sales-how-set-up-shipment-methods.md)
 #### [Konfigurera speditörer](sales-how-to-set-up-shipping-agents.md)
 #### [Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)
+#### [Uppdatera dokumentdatum med bokföringsdatum](across-link-doc-dates-to-posting-dates.md)
 ### Konfigurera inköp
 #### [Konfigurera inköp](purchasing-setup-purchasing.md)
 #### [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1557,7 @@
 #### [Konfigurera priser och rabatter](across-prices-and-discounts.md)
 #### [Registrera speciella inköpspriser och rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)
+#### [Uppdatera dokumentdatum med bokföringsdatum](across-link-doc-dates-to-posting-dates.md)
 ### Konfigurera lager
 #### [Konfigurera lager](inventory-setup-inventory.md)
 #### [Konfigurera allmän lagerinformation](inventory-how-setup-general.md)
@@ -1791,7 +1795,7 @@
 ### [Vanliga frågor och svar om att söka och filtrera](ui-search-filter-faq.yml)
 ### [Analysera siddata i Excel](across-work-with-excel.md)
 ### [Analysera rapportdata med Excel](report-analyze-excel.md)
-### [Analysera listdata med analysläge](analysis-mode.md)
+### [Analysera listdata och frågedata med analysläge](analysis-mode.md)
 ### [Ekonomisk business intelligence](bi.md)
 
 ## Inbyggda analyser 

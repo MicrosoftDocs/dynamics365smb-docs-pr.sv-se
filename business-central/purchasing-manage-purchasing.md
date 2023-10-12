@@ -43,8 +43,6 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Se relaterad [Microsoft utbildning](/training/paths/purchase-items-services-dynamics-365-business-central/)
-
 ## Se även
 
 [Ställa in inköp](purchasing-setup-purchasing.md)  

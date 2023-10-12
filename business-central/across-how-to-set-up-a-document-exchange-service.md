@@ -61,11 +61,9 @@ Om du vill ansluta Business Central lokalt måste du skapa en app i Tradeshift A
 
 Om du hellre vill lagra program-ID och hemlighet på en annan plats kan du lämna fälten klient-ID och klienthemlighet tomma och skriva ett tillägg för att hämta ID och hemlighet från platsen. Du kan tillhandahålla hemligheten vid körning genom att prenumerera på händelserna OnGetClientId och OnGetClientSecret i codeunit 1410 "Inställningar för dokumentöverföring."
 
-## Se relaterad [Microsoft utbildning](/training/modules/electronic-documents-dynamics-365-business-central/)
-
 ## Se även
 
-[Konfigurera dataintegration](across-set-up-data-exchange.md)  
+[Konfigurera databyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)
 
 

@@ -32,8 +32,6 @@ När du har skapat ett lager kan du administrera olika lagerprocesser relaterade
 |Importera flera artikelbilder samtidigt från en zip-fil där filer namnges enligt artikelnummer.|[Importera flera artikelbilder](inventory-how-import-item-pictures.md)|
 |Ange standardrapporter som ska användas för olika dokumenttyper.|[Rapportval i Business Central](across-report-selections.md)|
 
-## Se relaterad [Microsoft utbildning](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Se även
 
 [Hantera lager](inventory-manage-inventory.md)  

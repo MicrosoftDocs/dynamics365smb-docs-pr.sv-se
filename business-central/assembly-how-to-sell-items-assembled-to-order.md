@@ -3,7 +3,7 @@ title: Sälja en artikel som monterats mot kundorder
 description: Så här säljer du en artikel som monterats mot kundorder.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -60,12 +60,10 @@ I den här proceduren du behandla försäljningen av en artikel som ska monteras
 > [!NOTE]  
 > artikelersättningar gör inte automatiskt att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig.
 
-## Se relaterad [Microsoft-utbildning](/training/modules/assemble-to-order-dynamics-365-business-central/)
-
 ## Se även
 
 [Monteringshantering](assembly-assemble-items.md)  
-[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)  
+[Arbeta med monteringsstrukturlistor](assembly-how-work-assembly-boms.md)  
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
 [Warehouse Management – översikt](design-details-warehouse-management.md)

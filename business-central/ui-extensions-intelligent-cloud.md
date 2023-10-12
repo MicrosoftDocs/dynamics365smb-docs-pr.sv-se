@@ -17,8 +17,6 @@ Med hjälp av det här tillägget kan du konfigurera en anslutning mellan den lo
 
 När anslutningen har konfigurerats kan du migrera data från din lokala lösning till [!INCLUDE[prod_short](includes/prod_short.md)] online. Detta tillägg fungerar tillsammans med ett tillägg för datareplikering som finns för din specifika lokala lösning.Mer information finns i [Köra verktyget för molnmigrering](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Se relaterad [Microsoft utbildning](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
-
 ## Se även
 
 [Köra verktyget för molnmigrering](/dynamics365/business-central/dev-itpro/administration/migration-tool)  

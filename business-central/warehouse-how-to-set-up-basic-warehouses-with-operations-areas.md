@@ -136,8 +136,6 @@ Att dedikera en lagerplats påminner om funktionen att använda lagerplatstyper,
 > [!NOTE]  
 >  lagerstället måste vara tom, innan du kan välja eller ta bort **Dedikerad** fältet.
 
-## Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
-
 ## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)

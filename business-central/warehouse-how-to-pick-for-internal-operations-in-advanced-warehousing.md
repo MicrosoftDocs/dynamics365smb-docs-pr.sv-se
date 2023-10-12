@@ -2,17 +2,16 @@
 title: Välj för intern verksamhet i avancerade konfigurationer för distributionslager
 description: 'Om lagerstället använder plockning och leverans väljer du komponenter för produktions-, och monterings- och projektaktiviteter på sidan Distributionslagerplockning.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 09/02/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 09/12/2023
+ms.custom: bap-template
 ---
-# Plocka för produktion, montering eller jobb i avancerade distributionslagerkonfigurationer
+# Plocka för produktion, montering eller projekt i avancerade distributionslagerkonfigurationer
 
-Hur du för in plockningskomponenter för produktions, jobb eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Läs mer på [Ställa in lagerstyrning](warehouse-setup-warehouse.md).
+Hur du för in plockningskomponenter för produktions, projekt eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Läs mer på [Ställa in lagerstyrning](warehouse-setup-warehouse.md).
 
 I en avancerad lagerkonfiguration för det utgående flödet (plocka), slå på **Begär plockning** och växlingsknappen **Kräver utleverans** på sidan **Lagerställekort** för lagerstället.
 
@@ -21,7 +20,7 @@ När Lagerställe är inställt på att begära plockningsbearbetning och utleve
 Du kan inte skapa de distributionslagerplockdokument från början. Plockning är en del av ett arbetsflöde där en person som bearbetar order skapar dem med en pushmetod, eller som skapar lagerpersonalen på en pullmetod:
 
 - På ett pushmetod, där du använder åtgärden **Skapa plockning** på sidan **Produktionsorder**, **Monteringsorder**, **Jobbkort**. Välj raderna att plocka och förbered plockningar genom att till exempel ange vilka fack som ska tas från och placeras i, och hur många enheter som ska hanteras. Lagerplatser kan fördefinieras för distributionslagerstället eller resurs.
-- Det sätt på vilket du släpper **produktionsorder**, **monteringsorder**, **jobbkort** till lagerställe som gör artiklarna tillgängliga för plockning. På sidan **Plockningskalkylark** kan distributionslagerpersonal använda åtgärden **Hämta dist.lager dokument** för att hämta sina tilldelade plockningar.
+- Det sätt på vilket du släpper **produktionsorder**, **monteringsorder**, **projektkort** till lagerställe som gör artiklarna tillgängliga för plockning. På sidan **Plockningskalkylark** kan distributionslagerpersonal använda åtgärden **Hämta dist.lager dokument** för att hämta sina tilldelade plockningar.
 
 Om du vill plocka eller flytta komponenter för källdokumenten med en pullmetod måste du släppa källdokumentet så att det är klart för plockning. Släppa källdokumenten för intern operation på följande sätt.  
 
@@ -48,20 +47,24 @@ Använd dokument **Dist.lager plockning** för att flytta monteringskomponenter 
 
 ## Projekthantering  
 
-Använd dokumentet **Dist.lager plockning** för att plocka jobbkomponenter i flödet till projekthantering.
+Använd dokumentet **Dist.lager plockning** för att plocka projektkomponenter i flödet till projekthantering.
 
 > [!NOTE]
 > Möjligheten att plocka komponenter för projektplaneringsrader har lagts till [!INCLUDE[d365fin](includes/d365fin_md.md)] i utgivningscykel 2 år 2022. Om du vill börja använda funktionen måste en administratör aktivera **Funktionsuppdatering: Aktivera lager- och distributionslagerplockning från Projekt** på sidan **Funktionshantering**.
 >
-> Jobb stöder inte avancerade konfigurationer där växlingsknappen **Dirigerad art.inf. och plock.** är aktiverad.
+> Projekt stöder inte avancerade konfigurationer där växlingsknappen **Dirigerad art.inf. och plock.** är aktiverad.
+
+## Kontrollera om artiklar är tillgängliga för plockning
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## Så här skapar du plockningsdokumenten i bulk med plockningskalkylarket
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
 
 2. Välj åtgärden **Hämta dist.lager dokument**.  
 
-    I listan visas den släppta produktionsorder, jobb, monteringsorder som har vidarebefordrats till plockningsfunktionen. Orderna innehåller de för vilka plockningsinstruktioner redan har skapats. Dokument med plockningsrader som är helt plockade och registrerade visas inte i den här listan.  
+    I listan visas den släppta produktionsorder, projekt, monteringsorder som har vidarebefordrats till plockningsfunktionen. Orderna innehåller de för vilka plockningsinstruktioner redan har skapats. Dokument med plockningsrader som är helt plockade och registrerade visas inte i den här listan.  
 3. Välj de order som du vill förbereda en plockning för.
 
     > [!NOTE]  
@@ -110,7 +113,7 @@ Använd dokumentet **Dist.lager plockning** för att plocka jobbkomponenter i fl
 
 ## Så här plockar du artiklar för en produktionorder, monteringsorder, projekt
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
 
     Om du vill arbeta med en viss plockning väljer du plockningen från listan eller filtrerar listan för att söka efter de plockningar som har tilldelats dig. Öppna plockningskortet.  
 2. Om **Tilldelat användar-ID** är tomt, anger du ID för att identifiera själv om det behövs.  
@@ -128,7 +131,7 @@ Använd dokumentet **Dist.lager plockning** för att plocka jobbkomponenter i fl
     > [!NOTE]
     > Om du måste placera artiklar för en rad på flera lagerställen, t.ex. om den utsedda lagerplatsen är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Åtgärden skapar en rad för återstående antal att hantera.
 
-4. När du har plockat och placerat artiklarna i produktions-, monterings- eller jobbområdet eller behållaren väljer du åtgärden **Registrera plockning**.  
+4. När du har plockat och placerat artiklarna i produktions-, monterings- eller projektområdet eller behållaren väljer du åtgärden **Registrera plockning**.  
 
     Du kan nu ta med artiklarna till respektive område och bokföra användningen eller förbrukningen av de plockade komponenterna genom att bokföra förbrukningsjournal, monteringsorder eller projektjournal. Följande artiklar ger mer information:
 
@@ -166,8 +169,6 @@ Följande steg beskriver de åtgärder som olika användare gör och det relater
 Följande illustration visas när fältet **Lagerställeskod** på komponentlistan fylls enligt inställningen för lagerstället eller maskin-/produktionsgruppen.  
 
 :::image type="content" source="media/binflow.png" alt-text="Översikt över när och hur fältet Lagerplatskod fylls i.":::
-
-## Se relaterad [Microsoft utbildning](/training/paths/pick-ship-items-business-central/)
 
 ## Se även
 

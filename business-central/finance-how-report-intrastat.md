@@ -11,7 +11,7 @@ ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8
 ms.date: 09/02/2022
 ms.author: altotovi
 ---
-# <a name="work-with-intrastat-reporting"></a>Arbeta med Intrastat-rapporter
+# Arbeta med Intrastat-rapporter
 
 Alla företag i Europeiska unionen (EU) måste rapportera sin handel med andra länder/regioner inom EU. I Sverige måste du rapportera transport av varor till de statistiska myndigheterna varje månad. Intrastat är det system som används för att samla in statistik över varor inom dessa länder/regioner. Du använder **Intrastat-rapport** för att slutföra periodisk rapportering för Intrastat (vanligen månadsvis), samla in, registrera och rapportera handel med varor enligt den lokala regeringens lagstiftning.
 
@@ -27,7 +27,7 @@ Intrastat-rapportering grundar sig på de grundläggande EU-bestämmelser som g�
 >
 > Vi förväntar oss att funktionen ska vara tillgänglig från november 2022 som en app i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). För att kunna använda den måste du först installera den på sidan **Tilläggshantering**.
 
-## <a name="fill-in-the-intrastat-report"></a>Fyll i Intrastat-rapporten
+## Fyll i Intrastat-rapporten
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Intrastatlista** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny** för att skapa en ny **Intrastat-rapport**.
@@ -44,7 +44,7 @@ Intrastat-rapportering grundar sig på de grundläggande EU-bestämmelser som g�
 
 När du kör batch-jobbet hämtas alla artikeltransaktioner inom statistikperioden och infogas som rader i **Intrastat-rapporten**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="modify-the-intrastat-report"></a>Ändra Intrastat-rapporten
+## Ändra Intrastat-rapporten
 
 Om det behövs kan du ändra raderna, men när du ändrar ett värde på Intrastat-rapportraden markeras fältet **Korrigering** automatiskt som **Ja**. Du kan lägga till en ny rad manuellt om det finns en anledning till det. Lägga till en ny rad manuellt:
 
@@ -57,13 +57,13 @@ Om det behövs kan du ändra raderna, men när du ändrar ett värde på Intrast
 > [!NOTE]
 > När du lägger till en ny rad manuellt i Intrastat-rapporten måste fältet **Datum** på raden ligga innanför den **statistiska period** som du har lagt till i huvudet.
 
-## <a name="validate-intrastat-lines"></a>Validera Intrastat-raderna
+## Validera Intrastat-raderna
 
 När du har fyllt i **Intrastat-rapporten** kan du köra åtgärden **Checklisterapport** när du vill kontrollera att all information i **Intrastat-rapporten** är korrekt. Obligatoriska fält som du har angett på sidan **Checklista för Intrastat-rapport** som saknar värden visas i faktaboxen **Fel och varning** på sidan **Intrastat-rapport**.
 
 Kör rapporten **Checklista för Intrastat-rapport** för att kontrollera Intrastat-rader innan de exporteras till det format som krävs. Checken körs inuti **Intrastat-rapporten**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Omberäkning av vikt eller extra måttenhet
+## Omberäkning av vikt eller extra måttenhet
 
 Om du får felmeddelandet *Raden 'Total vikt' i Intrastat-rapporten får inte vara tom* beror det troligtvis på att du inte har ställt in fältet **Nettovikt** för den använda källan, artikeln eller anläggningstillgången. I det här fallet söker du efter artikel- eller anläggningstillgångskortet och lägger till det nödvändiga värdet. Sedan behöver du bara öppna **Intrastat-rapporten** på nytt och göra så här:
 
@@ -75,7 +75,7 @@ Om du får felmeddelandet *Raden 'Total vikt' i Intrastat-rapporten får inte va
     3. **Båda** – om du vill beräkna om både den **totala vikten** och **kompletterande antal** utifrån den aktuella informationen om på artikel- och anläggningstillgångskortet.
 3. Välj **OK** när du vill starta batchjobbet.
 
-## <a name="report-intrastat-in-a-file"></a>Rapportera intrastat i en fil
+## Rapportera intrastat i en fil
 
 Du kan skicka Intrastat-rapporten som en fil baserad på olika lokala myndigheters behov. Innan du skapar filen bör du köra **Checklisterapport** för att kontrollera om alla rader innehåller all nödvändig och giltig information. Så här skapar du en fil:
 
@@ -93,22 +93,22 @@ När du skapat filen fyller [!INCLUDE[prod_short](includes/prod_short.md)] autom
 > [!NOTE]
 > Nästa gång du skapar en fil kommer fälten **Exportdatum** och **Exporttid** endast att ha information om den senaste filen du skapade.
 
-## <a name="intrastat-rules"></a>Intrastat-regler
+## Intrastat-regler
 
-### <a name="grouping-lines"></a>Gruppera rader
+### Gruppera rader
 
 I **Intrastat-rapportens** rader finns det ingen gruppering efter fält. Alla transaktioner kopieras från ursprungskällan så att du snabbt kan hitta dem utifrån kombinationen av **Källtyp**och **Källtransaktionsnr**.
 
 Gruppering som krävs av myndigheterna kommer att lämnas i den exporterade filen. Du måste konfigurera detta i **Datautbytesdefinitionen** som är helt konfigurerbar. Läs mer i [Så här skapar du datautbytesdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="fixed-assets-reporting"></a>Anläggningstillgångsrapporter
+### Anläggningstillgångsrapporter
 
 Anläggningstillgångar visas endast i Intrastat-raderna om:
 
 * **Anl.bokföringstypen** i fältet **Momstransaktion** är **Anskaffningskostnad** och om **Dokumenttyp** är **Faktura** i händelse av köp, och
 * **Anl.bokföringstypen** i fältet **Momstransaktion** är **Avyttringsintäkt** och om **Dokumenttyp** är **Faktura** i händelse av försäljning.
 
-### <a name="intrastat-report-statuses"></a>Intrastat-rapportstatus
+### Intrastat-rapportstatus
 
 När du arbetar med **Intrastat-rapporten** visas fältet **Status** i dokumenthuvudet. Du kan hitta följande status tillsammans med relaterade regler:
 
@@ -116,7 +116,7 @@ När du arbetar med **Intrastat-rapporten** visas fältet **Status** i dokumenth
 * *Släppt*: [!INCLUDE[prod_short](includes/prod_short.md)] ändrar automatiskt statusen till *Släppt* när du skapar en fil. Från det tillfället kan du inte ändra **Intrastat-rapporten**. Om du behöver ändra något och rapportera igen kan du använda åtgärden **Öppna igen** för att öppna Intrastat-rapporten på nytt. När dokumentet har öppnats igen kan du använda åtgärden **Släpp** för att frisläppa dokumentet igen.
 * **Rapporterad**: Anger om transaktionen redan har rapporterats till skattemyndigheterna. Detta är inte en vanlig status, utan ett oberoende fält, och även om du öppnar Intrastat-rapporten igen, visas fortfarande att filen redan har skapats för rapporten.
 
-### <a name="triangular-trade-in-intrastat"></a>Triangulär handel med Intrastat
+### Triangulär handel med Intrastat
 
 Triangulär handel innebär handel mellan tre länder eller regioner där varor kringgår det rapporterande företagets land. I Business Central kan detta underlättas via funktionen [Direktleverans](sales-how-drop-shipment.md). Aktivera det här alternativet genom att aktivera fältet **Inkludera direktleverans** i **Konfiguration av Intrastat-rapporter**.  
 
@@ -134,7 +134,7 @@ När du aktiverar det här alternativet används följande regler i systemet, me
 | Land utanför EU | EU-land som skiljer sig från landet i **företagsinformationen** | Inga Intrastat-rader |
 | Land utanför EU | Land utanför EU | Inga Intrastat-rader |   
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera Intrastat-rapportering](finance-how-setup-report-intrastat.md)  
 [Ekonomihantering](finance.md)  

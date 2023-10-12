@@ -92,8 +92,6 @@ Konverteringen tar bort försäljningsofferten från databasen. En försäljning
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se även
 
 [Försäljning](sales-manage-sales.md)  

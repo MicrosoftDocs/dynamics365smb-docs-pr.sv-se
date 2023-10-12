@@ -44,7 +44,7 @@ Dessa steg skiljer sig åt beroende på om administratören har aktiverat funkti
 
 #### [Aktuell upplevelse](#tab/current-experience)  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.
 2. Välj kund och välj sedan åtgärden **Priser**.
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll i en rad för varje kombination som ska bevilja ett speciellt försäljningspris till kunden.
 
@@ -198,8 +198,6 @@ Om du vill uppdatera priserna för flera artiklar måste du skapa en ny prislist
 ## Beräkna bästa pris
 
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp ser [!INCLUDE[d365fin](includes/d365fin_md.md)] till att din vinst på artikelhandeln alltid är optimal, detta genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument, samt i jobb- och artikeljournalrader. Mer information finns i [Bästa prisberäkning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
-
-## Se relaterad [Microsoft utbildning](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## Se även
 

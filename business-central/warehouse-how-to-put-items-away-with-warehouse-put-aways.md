@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/24/2023
+ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Föra in artiklar med lagerartikelinförsel
+# Föra in artiklar med lagerartikelinförsel
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ta emot objekt och lägga undan dem med någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -31,7 +31,7 @@ Beroende på värdet i fältet **Använd artikelinförselkalkylark** i **Lagerst
 
 Förutom standardsätten att skapa artikelinförslar i distributionslagret, som beskrivs i den här artikeln, kan du skapa en artikelinförsel från den relaterade bokförda distributionslagerinleveransen. Detta är användbart om har tagit bort artikelinförselrader, eller om du bestämmer dig för att inte använda artikelinförselkalkylarket, kan du skapa eller på nytt skapa artikelinförselanvisningar för bokförda inleveransrader.
 
-## <a name="zone-and-bin-codes"></a>Zon och lagerplatskoder
+## Zon och lagerplatskoder
 
 Vid lagerställen som är inställt på dirigerad artikelinförsel och plockning, följande inställningar är krävs för att bestämma den bästa platsen att föra in artiklarna:  
 
@@ -41,11 +41,13 @@ Vid lagerställen som är inställt på dirigerad artikelinförsel och plockning
 
 Lagerplatsordning används när mer än en lagerplats matchar kriterierna i artikelinförselmallen. Om både villkoren i artikelinförselmallen och lagerplatsordningen är samma för fler än en lagerplats väljs den lagerplats som har högst nummer.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Så här skapar du artikelinförseldokumenten i bulk med artikelinförselkalkylarket
+## Så här skapar du artikelinförseldokumenten i bulk med artikelinförselkalkylarket  
+
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
 Du kan skapa artikelinförseldokumenten för flera inleveranser samtidigt på sidan för **artikelinförselkalkylarket**.  
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artikelinförselkalkylarket** och väljer sedan relaterad länk.  
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artikelinförselkalkylarket** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Hämta dist.lager dokument**. Sidan **Artikelinförselval** öppnas.  
 
     Listan innehåller alla bokförda inleveranser som är färdiga att föras in, inklusive sådana som har skapats för vilka artikelinförselinstruktioner redan har skapats. Dokument med artikelinförselrader som är klara och registrerade visas inte i den här listan.  
@@ -69,17 +71,17 @@ Du kan skapa artikelinförseldokumenten för flera inleveranser samtidigt på si
 
     * Du kan fördela artikelinförseln till en särskild anställd.  
     * Du kan sortera instruktionsraderna för artikelinförsel som du gjorde i kalkylarket eller genom att använda funktionen Lagerplatsordning. När du sorterar efter lagerplatsordning, visas *Ta* rader visas först, eftersom de flesta inleveranslagerställen har rankningen 0. Raderna *Placera* visas sist, med början med de lagerplatser med lägst lagerplatsordning. Om du har strukturerat distributionslagret så att lagerställen med liknande lagerplatsordning ligger bredvid varandra slipper personalen gå så mycket om du sorterar raderna på det här sättet.  
-    * Du kan välja att inte visa de rader som [!INCLUDE[prod_short](includes/prod_short.md)]] skapade när den konverterade en stor måttenhet till mindre måttenheter genom att välja den arkiverade **Sätt brytenhetsfilter**. Mer information finns i [Aktivera automatisk volymnedbrytning med dirigerad artikelinförsel och plockning](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    * Du kan välja att inte visa de rader som [!INCLUDE [prod_short](includes/prod_short.md)] skapade när det konverterade en stor måttenhet till mindre måttenheter genom att välja fältet **Ange brytenhetsfilter**. Mer information finns i [Aktivera automatisk volymnedbrytning med dirigerad artikelinförsel och plockning](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     * Du kan välja att inte låta fältet **Ant. att hantera** fyllas i automatiskt för artikelinförselinstruktionerna.  
     * Du kan välja att skriva ut dokumentet omedelbart.  
 
 8. Välj **OK** för att skapa artikelinförsel.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Att skapa en artikelinförsel från en bokförd inleveransen
+## Att skapa en artikelinförsel från en bokförd inleveransen
 
 Om man använder både bearbetning av artikelinförsel och inleverans för lagerstället, måste du ta bort artikelinförselrader. Om du använder dirigerad artikelinförsel och plockning och har bestämt dig för att inte använda artikelinförselförslaget, kan du skapa eller på nytt skapa artikelinförselanvisningar för bokförda inleveransrader.
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda distributionslagerinleveranser** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda distributionslagerinleveranser** och väljer sedan relaterad länk.  
 2. Välj en bokförd inleverans att föra in.  
 3. Välj åtgärden **Kort**.  
 
@@ -88,9 +90,9 @@ Om man använder både bearbetning av artikelinförsel och inleverans för lager
 4. Om inleveransen har införts delvis eller inte alls väljer du åtgärden **Skapa artikelinförsel**.  
 5. Fyll i fälten på efter behov och välj sedan knappen **OK**.  
 
-## <a name="to-put-items-away"></a>Att införa artiklar
+## Att införa artiklar
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerartikelinförsel** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerartikelinförsel** och väljer sedan relaterad länk.
 
 2. Öppna dist.lager artikelinförsel som är klara att hantera.  
 3. Om distributionslagret kräver det anger du ditt användar-ID när du börjar arbeta med artikelinförsel.  
@@ -112,7 +114,7 @@ Om man använder både bearbetning av artikelinförsel och inleverans för lager
 
 5. När du har placerat alla artiklarna på lagerställen enligt anvisningarna, välj åtgärden **Registrera artikelinförsel**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

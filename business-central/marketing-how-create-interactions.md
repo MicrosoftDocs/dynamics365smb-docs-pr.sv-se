@@ -1,52 +1,55 @@
 ---
-title: Så här skapar du interaktioner på kontakter och segment
-description: 'Beskriver hur du kan skapa interaktioner för den kommunikation som du har med dina kontakter och segment i Business Central, till exempel direktmail.'
-documentationcenter: ''
-author: jswymer
+title: Skapa interaktioner i kontakter och segment
+description: Lär dig skapa interaktioner i Business Central för den kommunikation som du har med dina kontakter och segment.
+author: brentholtorf
+ms.author: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: ivkoleti
+ms.date: 04/01/2021
+ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
-ms.date: 04/01/2021
-ms.author: jswymer
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Så här skapar du interaktioner på kontakter och segment
-Du kan skapa interaktioner för att registrera all interaktion och kommunikation som du har med dina kontakter och segment, till exempel direktreklam.
+# Skapa interaktioner i kontakter och segment
 
-Innan du skapar interaktioner måste du lägga upp interaktionsmallar. Mer information finns i  [Skapa interaktionsmallar](marketing-interactions.md).
+Du kan skapa interaktioner för att spåra den kommunikation du har med en enda kontakt eller med flera kontakter i dina segment. Om du vill göra det enkelt att skapa interaktioner tillhandahåller [!INCLUDE [prod_short](includes/prod_short.md)] den assisterade konfigurationsguiden **Skapa interaktion**. Denna guide hjälper dig att överföra viktiga detaljer om interaktionen.
 
-## <a name="to-create-an-interaction"></a>Skapa interaktioner så här
-1. Öppna kontakten, säljaren eller interaktionsloggtransaktionen.
+Innan du skapar interaktioner måste du emellertid konfigurera interaktionsmallar. Mer information om interaktionsmallar finns på [Konfigurera interaktionsmallar](marketing-interactions.md).
+
+## För att skapa en interaktion med en kontakt
+
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Kontakter**, **Säljare** eller **Interaktion loggtrans.** och väljer sedan tillhörande länk.
 2. Välj åtgärden **Skapa interaktion**.
-3. Fyll i fälten och välj sedan knappen **OK**.
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Om du behöver göra något annat aktivitet i **Avbryt** innan du avslutar interaktionen, kan du avsluta guiden och välja om du vill avsluta interaktionen senare. Detta senarelägger interaktionen.
+> Om du behöver avbryta innan du är klar med interaktionen kan du välja **Avbryt** och sedan ange om du vill spara inställningarna så att du kan fortsätta senare. Mer information om senarelagda interaktioner finns i [Så här konfigurerar du en senarelagd interaktion](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Så här slutför du och tar bort senarelagda åtgärder
-1. Öppna kontakten, säljaren eller interaktionsloggtransaktionen.
-2. Välj **Senarelagda interaktioner**.
-3. Markera den åtgärd som du vill slutföra och klicka på åtgärden **Fortsätt**.
+## Så här skapar du interaktioner för segment
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Så här skapar du interaktioner för segment
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Segment** och väljer sedan relaterad länk.
-2. På sidan **Segment**, i avsnittet **Interaktion**, fyller du i fälten för att specificera vilken interaktion som du vill tilldela segmentet.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Segment** och väljer sedan relaterad länk.
+2. Välj åtgärden **Skapa interaktion**.
+3. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    När du har tilldelat segmentet en interaktion kan du anpassa interaktionen till respektive kontakt i segmentet, exempelvis genom att välja en annan interaktionsmall på raderna på sidan **Segment**.  
-3. För att logga segmentet och interaktionerna väljer du åtgärden **Logg**. Sidan **Loggsegment** öppnas.
-4. Om du vill skapa ett nytt segment med samma kontakter markerar du kryssrutan **Skapa uppföljningssegment**. Innan ett uppföljningssegment kan skapas måste du ange en nummerserie för segment på sidan **Affärsstödsinställning**.
+> [!TIP]
+> När du har tilldelat en interaktion till ett segment finns det flera andra åtgärder som du kan vidta på sidan **Segment**:
+>
+> * Anpassa interaktionen efter respektive kontakt i segmentet, exempelvis genom att välja en annan interaktionsmall på raderna.  
+>* Logga segmentet och interaktionerna genom att välja åtgärden **Logg** för att öppna sidan **Loggsegment**.
+> * Skapa ett nytt segment med samma kontakt genom att välja kryssrutan **Skapa uppföljningssegment**. Denna inställning kräver att en nummerserie har angetts för segment på sidan **Marknadsföringsinställningar**.
 
-Interaktionen registreras för varje kontakt i segmentet i tabellen **Interaktion loggtrans.** och segmentet loggas. Loggade segment återfinns på sidan **Segmentlogg**.
+Interaktionen registreras för varje kontakt i segmentet i tabellen **Interaktion loggtrans.** och segmentet loggas. Loggade segment finns på sidan **Loggad segment**.
 
-Om du har markerat kryssrutan **Skapa uppföljningssegment** skapas automatiskt ett nytt segment med samma kontakter som det segment som du precis har loggat.
+## Så här slutför du konfigurationen av en senarelagd interaktion
 
-## <a name="see-also"></a>Se även
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Senarelagda interaktioner** och väljer sedan relaterad länk.
+2. Välj den interaktion som du vill slutföra och klicka på åtgärden **Fortsätt**.
+
+## Se även
+
 [Registrera interaktioner](marketing-interactions.md)  
 [Hantera kontakter](marketing-contacts.md)  
 [Hantera Försäljningsmöjligheter](marketing-manage-sales-opportunities.md)  
 [Arbeta med Business Central](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

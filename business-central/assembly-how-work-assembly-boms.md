@@ -106,8 +106,6 @@ Styckkostnaden för en monteringsstruktur är alltid lika med de sammanlagda sty
 
 Kostnaderna för de artiklar som utgör monteringsstrukturen kopieras från komponentens artikelkort. Kostnaden för varje artikel multipliceras med det aktuella antalet, och totalkostnaden visas i fältet **Styckkostnad** på artikelkortet för monteringsartikeln.
 
-## Se relaterad [Microsoft-utbildning](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
-
 ## Se även
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  

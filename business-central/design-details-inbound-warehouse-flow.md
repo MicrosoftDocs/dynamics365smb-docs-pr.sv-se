@@ -1,25 +1,27 @@
 ---
 title: Designdetaljer – inkommande distributionslagerflöde
-description: Det ankommande lagerflödet startar när artiklar anländer till företagets lagerställe och registreras och matchas till ankommande källdokument.
+description: Lär dig hur du tar emot artiklar i distributionslagret och registrerar och matchar dem med ankommande källdokument.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: null
-ms.date: 11/14/2022
+ms.search.keywords: warehouse
+ms.date: 09/18/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: inkommande distributionslagerflöde
+# Designdetaljer: ankommande distributionslagerflöde
 
-Det inkommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. I princip består processen mottagning av ankommande order av två olika aktiviteter:
+Det inkommande artikelflödet i ett distributionslager börjar när artiklarna inlevereras i distributionslagret på företagsplatsen, antingen som har tagits emot från externa källor eller från en annan företagplats. Du kan ta emot fysiska artiklar och artiklar som inte finns i lager. Om du vill veta mer om hur du tar emot artiklar som inte finns i lager går du till [Bokför artiklar som inte finns i lager](#post-non-inventory-items).
 
-* Ta emot artiklar på lagermottagningsplatsen där du identifierar artiklarna, matchar dem i ett källdokument och registrerar den inlevererade kvantiteten. 
-* Införa artiklar som finns i lager och registrera den plats där du placerat dem.
+I princip består processen mottagning av ankommande order av två olika aktiviteter:
+
+* Ta emot artiklar på lagermottagningsplatsen där du identifierar dem, matchar dem mot ett källdokument och registrerar den inlevererade kvantiteten.
+* Placera artiklar i lager, och registrera den plats där du placerat dem.
 
 Källdokumenten för ankommande lagerställeflöde är:
 
-* Inköpsordrar  
+* Inköpsorder  
 * Inkommande överföringsorder  
 * Försäljningsreturorder  
 
@@ -48,64 +50,64 @@ I metoderna A, B och C kombineras inleverans och artikelinförsel i ett steg nä
 > * Lagerartikelinförsel som används i metod B, tillsammans med registrering av artikelinförselinformation, bokför även inleveransen av källdokumentet.
 > * Distributionslagerinförsel som används i metod D kan inte bokföras och endast registrera artikelinförsel. Registreringen gör artiklarna tillgängliga för vidare bearbetning men bokför inte inleveransen. I det ankommande flödet kräver distributionslagerinförsel en distributionslagerinleverans.
 
-## <a name="no-dedicated-warehouse-activity"></a>Ingen tilldelad distributionslageraktivitet
+## Ingen tilldelad distributionslageraktivitet
 
 I följande artiklar finns information om hur du behandlar inleveranser för källdokument om du inte har särskilda lageraktiviteter.
 
 * [Registrera inköp](purchasing-how-record-purchases.md)
 * [Överföringsorder](inventory-how-transfer-between-locations.md)
-* [Behandlar säljreturordrar](sales-how-process-sales-returns-orders.md)
+* [Behandlar säljreturorder](sales-how-process-sales-returns-orders.md)
 
-## <a name="basic-warehouse-configurations"></a>Grundläggande distributionslagerkonfiguration
+## Grundläggande distributionslagerkonfiguration  
 
-I en grundläggande lagerkonfiguration, slå på växlingsknappen **Begär artikelinförsel** men växlingsknappen **Begär inleverans** är inaktiverad på platskortsidan för lagerstället.
+I en grundläggande lagerkonfiguration slås växlingsknappen **Begär artikelinförsel** på, men växlingsknappen **Begär inleverans** är inaktiverad på sidan **Platskort** för lagerstället.
 
 Följande diagram visar de inkommande distibutionslagerflödena efter dokumenttyp i grundläggande lagerkonfigurationer. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Grundläggande ankommande flöde i distributionslager.":::
 
-### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away"></a>1. Släpp ett källdokument för att skapa en begäran om en lagerinförsel
+### 1. Släpp ett källdokument för att skapa en begäran om en lagerinförsel  
 
-När du tar emot artiklar släpper du källdokumentet, till exempel en inköpsorder eller en ankommande överföringsorder. Om du släpper dokumentet blir artiklarna tillgängliga för införsel. Du kan också skapa lagerinförseldokument för enskilda orderrader, med en pushmetod, baserat på angivna lagerställen och antal som ska hanteras.  
+När du tar emot artiklar släpper du källdokumentet, till exempel en inköpsorder eller en ankommande överföringsorder. Om du släpper dokumentet blir artiklarna tillgängliga för införsel. Du kan också skapa lagerinförseldokument för enskilda orderrader med en pushmetod baserat på angivna lagerställen och antalet som ska hanteras.  
 
-### <a name="2-create-an-inventory-put-away"></a>2: Skapa lagerinförsel
+### 2: Skapa lagerinförsel  
 
 På sidan **Lagerinförsel** kan du med pull-metod få de väntande källdokumentraderna som baseras på inkommande distributionslagerförfrågningar. Med en pushmetod kan du också skapa lagerartikelinförselraderna när du skapar källdokumentet.  
 
-### <a name="3-post-an-inventory-put-away"></a>3: Bokför en lagerinförsel
+### 3: Bokför en lagerinförsel  
 
 På varje rad för artiklar som har införts, delvis eller helt, fyller du i fältet **Antal** och bokför sedan lagerartikelinförseln. Källdokument som är relaterade till artikelinförsel i lager bokförs som inlevererade.  
 
-* Positiva artikeltransaktioner upprättas
+* Positiva artikeltransaktioner upprättas.
 * Dist.lager transaktioner skapas för lagerställen som kräver en lagerplatskod på alla artikeltransaktioner.
 * Artikelinförsel förfrågan tas bort om den hanteras i sin helhet. Till exempel uppdateras fältet **Inlevererat antal** på den inkommande källdokumentraden.
 * Ett redan bokfört inleveransdokument skapas som återspeglar till exempel inköpsordern, och de inlevererade artiklarna.  
 
-## <a name="advanced-warehouse-configurations"></a>Avancerad distributionslagerkonfiguration
+## Avancerad distributionslagerkonfiguration  
 
-I en avancerad distributionslagerkonfiguration aktiveras växlingsknappen **Begär inleverans** på sidan Lagerställekort för lagerstället. Växlingsknappen **Kräver artikelinförsel** är valfri.
+För att kunna använda en avancerad distributionslagerkonfiguration aktiverar du växlingsknappen **Begär inleverans** på sidan Lagerställekort för lagerstället. Växlingsknappen **Kräver artikelinförsel** är valfri.
 
 Följande diagram visar de inkommande distibutionslagerflödet efter dokumenttyp. Numret i diagrammet överensstämmer med momenten i avsnitten efter diagrammet.  
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Avancerat ankommande flöde i distributionslager":::
 
-### <a name="1-release-the-source-document"></a>1: Släpp källdokument
+### 1: Släpp källdokument  
 
 När du tar emot artiklar släpper du källdokumentet, till exempel en inköpsorder eller en ankommande överföringsorder. Om du släpper dokumentet blir artiklarna tillgängliga för införsel. Artikelinförsel innehåller referenser till källdokumenttypen och numret.
 
-### <a name="2-create-a-warehouse-receipt"></a>2: Skapa dist.lager inleverans
+### 2: Skapa dist.lager inleverans  
 
-Sidan **Distributionslagerinleverans** hämta raderna för ankommande källdokument. Flera dokumentrader kan kombineras i ett inleveransdokument för distributionslager. Fyll i fältet **Ant. att hantera** och väljer inleveranszon och lagerplats, om det behövs.  
+Sidan **Distributionslagerinleverans** hämta raderna för ankommande källdokument. Flera dokumentrader kan kombineras i ett inleveransdokument för distributionslager. Fyll i fältet **Ant. att hantera** och välj inleveranszon och lagerplats, vid behov.  
 
-### <a name="3-post-the-warehouse-receipt"></a>3: Bokför lagerinleveransen
+### 3: Bokför lagerinleveransen  
 
 Boka distributionslagerinleveransen för att skapa positiva artikelposter. Fältet **Inlevererat antal** på den ankommande källdokumentraden uppdateras.  
 
 Om växlingsknappen **Begär artikelinförsel** inte är påslagen på lagerställekortet, det är här processen stannar. Annars kan du lägga upp det ankommande källdokumentet blir artiklarna tillgängliga för införsel. Artikelinförsel innehåller referenser till källdokumenttypen och numret.  
 
-### <a name="4-optional-generate-put-away-worksheet-lines"></a>4: (Valfritt) Generera rader med artikelinförselkalkylark
+### 4: (Valfritt) Generera rader med artikelinförselkalkylark
 
-Hämta artikelinförselraderna i **Artikelinförsel kalkylark** baserat på bokförda lagerinleveranser eller åtgärder som producerar utdata. Välj raderna för artikelinförsel och ange följande information:
+Hämta artikelinförselraderna i **Artikelinförsel kalkylark** baserat på bokförda lagerinleveranser eller åtgärder som producerar utdata. På raderna för artikelinförsel anger du följande information:
 
 * De lagerplatser som artiklarna ska tas från.
 * Lagerplatser för att föra in artiklarna.
@@ -113,35 +115,38 @@ Hämta artikelinförselraderna i **Artikelinförsel kalkylark** baserat på bokf
 
 Lagerställena kan fördefinieras av inställningarna för distributionslagerstället eller resursen som utförde åtgärden.  
 
-När alla artikelinförslar har planerats och tilldelats till lagerarbetare genererar användaren artikelinförseldokumenten. Fullständigt tilldelade artikelinförselrader tas bort från **Artikelinförsel kalkylark**.  
+När alla artikelinförslar har planerats och tilldelats till lagerarbetare genererar användaren artikelinförseldokumenten. Fullständigt tilldelade artikelinförselrader tas bort från **Förslag för artikelinförsel**.  
 
 > [!NOTE]  
 > Om sidan **Artikelinförsel kalkylark** inte har markerats på lagerställekortet skapas distributionslagerdokument för artikelinförsel direkt baserat på bokförda distributionslagerinleveranser. I så fall behövs inte detta steg.  
 
-### <a name="5-create-a-warehouse-put-away-document"></a>5. Skapa ett dokument för artikelinförsel i distributionslager
+### 5. Skapa ett dokument för artikelinförsel i distributionslager
 
 Skapa ett dokument för artikelinförsel med en pullmetod baserat på den bokförda distributionslagerinleveransen. Alternativt skapas distributionslagerinförseldokumentet och tilldelas till en lagerarbetare med en pushmetod.  
 
-### <a name="6-register-a-warehouse-put-away"></a>6: Registrera dist.lager artikelinförsel
+### 6: Registrera dist.lager artikelinförsel
 
 På varje rad för artiklar som har införts, delvis eller helt, fyller du i fältet **Antal** på sidan **Dist.lager artikelinförsel** och registrerar sedan lagerartikelinförseln.  
 
 * Dist.lager transaktioner skapas för lagerställen som kräver en lagerplatskod på alla artikeltransaktioner.
-* Artikelinförselraderna tas bort om den hanteras i sin helhet.
-* Dokumentet för distributionslagerartikelinförsel förblir öppet tills hela antalet på den relaterade bokförda distributionslagerinleveransen har registrerats.
+* Artikelinförselraderna för dstributionslager tas bort om de hanteras i sin helhet.
+* Dokumentet för artikelinförsel för distributionslager förblir öppet tills du registrerar hela antalet på den relaterade bokförda distributionslagerinleveransen.
 * Fältet **Artikelinförsel antal** som bokförs på distributionslagerinleveransorderraderna uppdateras.
 
-## <a name="related-tasks"></a>Närliggande uppgifter
+## Närliggande uppgifter
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.
+I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.
 
-|**Om du vill**|**Se**|  
+|**För att**|**Gå till**|  
 |------------|-------------|  
-|Registrera inleveransen av artiklar på lagerställen med en lagerinleverans. Vid halv- eller helautomatisk distributionslagerprocess på plats.|[Ta emot artiklar](warehouse-how-receive-items.md)|
-|Införa artiklar order för order och bokföra inleveransen i en aktivitet, i en grundläggande lagerkonfiguration.|[Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Införa artiklar som har inlevererats från flera inköp, returer, överföringsorder i en avancerad lagerkonfiguration.|[Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Ta emot artiklar på lagerställen med en distributionslagerinleverans för helt eller delvis automatiserad distributionslagerbehandling.|[Inleverera artiklar](warehouse-how-receive-items.md)|
+|Artikelinförselariklar på order-för-order-bas och bokför inleveransen i en enda aktivitet, i grundläggande distributionslagerkonfigurationer.|[Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Införa artiklar som har inlevererats från flera inköp, returer, överföringsorder i en avancerad lagerkonfiguration.|[Föra in artiklar med Distributionslager, artikelinförslar](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 
+## Bokföra artiklar som inte finns i lager
 
-## <a name="see-also"></a>Se även
+[!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
+
+## Se även
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -27,8 +27,6 @@ Du kan ange alla relevanta data på sidan **företagsinformation** när du uppr�
 
 När du har fyllt i informationen kan du stänga sidan.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/create-new-companies-dynamics-365-business-central/)
-
 ## Se även  
 
 [Företagsinformation, översikt](admin-company-information.md)  

@@ -11,7 +11,7 @@ ms.search.form: '26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="record-special-purchase-prices-and-discounts"></a>Registrera speciella inköpspriser och rabatter
+# Registrera speciella inköpspriser och rabatter
 
 > [!NOTE]
 > I 2020 års utgivningscykel 2 släppte vi effektiviserade processer för att ställa in och hantera priser och rabatter. Om du är en ny kund som använder den versionen använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -31,7 +31,7 @@ När det gäller rabatter kan du ställa in och använda två olika typer av ink
 
 Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av artikel och leverantör kan du också ställa in den här konfigurationen på det artikelkort där reglerna och värdena har definierats. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 
-## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Om du vill definiera ett speciellt inköpspris för en leverantör
+## Om du vill definiera ett speciellt inköpspris för en leverantör
 
 #### [Aktuell upplevelse](#tab/current-experience)
 
@@ -54,7 +54,7 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 
 ---
 
-## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Om du vill definiera en radrabatt för en leverantör
+## Om du vill definiera en radrabatt för en leverantör
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Öppna det relevanta leverantörskortet och välj sedan åtgärden **Radrabatter.**.
@@ -63,7 +63,7 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 3. Fyll i fälten på den första raden efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fyll i en rad för varje kombination för vilken leverantören beviljar dig en inköpsradrabatt.
 
-## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Så här definierar du radrabatt för en leverantör
+## Så här definierar du radrabatt för en leverantör
 
 När dina leverantörer har informerat dig om vilka fakturarabatter som de beviljar, skriver du fakturarabattkoderna på leverantörskorten och lägger upp villkoren för respektive kod.
 
@@ -83,7 +83,7 @@ När dina leverantörer har informerat dig om vilka fakturarabatter som de bevil
 
 Fakturarabatten ställs nu in i fältet och fördelas till leverantören i fråga. När du väljer leverantörkoden i fältet **Fakturarabattkod** på andra leverantörskort, kopplas samma fakturarabatt till dessa leverantörer.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Så här väljer du princip för bokföring av inköpsrabatter:
+## Så här väljer du princip för bokföring av inköpsrabatter:
 
 När du bokför en inköpsfaktura som innehåller en eller flera rabatter kan du välja mellan två principer för bokföringen av rabattbeloppen. Du kan bokföra rabatter separat eller dra dem från fakturarabatterna.  
 
@@ -99,7 +99,7 @@ Innan du kan göra detta måste du redan ha definierat de nödvändiga kontona f
 |**Radrabatter**|Subtraherade|Bokförd separat|  
 |**Ingen rabatt**|Subtraherade|Subtraherade|  
 
-## <a name="purchase-invoice-discounts-and-service-charges"></a>Inköpsfakturarabatter och faktureringsavgifter
+## Inköpsfakturarabatter och faktureringsavgifter
 
 Om bestämda villkor för fakturarabatter gäller vid inköp från vissa leverantörer kan du ange dessa för motsvarande leverantörer. Rabatten kan sedan beräknas automatiskt när du fyller i inköpsfakturor.  
 
@@ -116,7 +116,7 @@ Du kan ange att fakturarabatterna för offerter, avropsorder, order, fakturor el
 > [!TIP]  
 > Innan du anger den här informationen i programmet kan det vara praktiskt att skapa ett utkast av den rabattstruktur som du vill använda. På så sätt blir det lättare att se vilka leverantörer som kan kopplas till samma fakturarabattsida. Ju färre sidor som behöver definieras, ju snabbare går det att ange basinformationen.
 
-## <a name="best-price-calculation"></a>Bästa prisberäkning
+## Bästa prisberäkning
 
 När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[prod_short](includes/prod_short.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader.
 
@@ -139,7 +139,7 @@ Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna rad
 
 Om inga specialpriser kan beräknas för artiklarna på raden infogas antingen det senaste inköpspriset eller à-priset från artikelkortet.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Inköp](purchasing-manage-purchasing.md)  

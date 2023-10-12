@@ -15,8 +15,6 @@ ms.author: bholtorf
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Se relaterad [Microsoft utbildning](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  

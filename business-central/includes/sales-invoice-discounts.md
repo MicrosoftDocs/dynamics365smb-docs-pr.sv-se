@@ -9,7 +9,7 @@ När du har lagt till alla artiklar på rader kan du beräkna fakturarabatten f�
 Rabatten beräknas baserat på alla rader i försäljnings dokumentet där kryssrutan **beräkna fakturarabatt** har valts. Som standard är fakturarabatter tillåtna. Men rader med artikelomkostnader ingår till exempel inte i beräkningen av fakturarabatten. Om du vill tillämpa en rabatt på sådana rader anger du ett värde i fältet **Radrabattbelopp** på raderna.  
 
 > [!NOTE]
-> Som standard är fälten **Pris inklusive moms** och **Radrabattbelopp** är gömda på rader. Om fälten inte är tillgängliga kan du lägga till dem genom att anpassa sidan. Mer information finns i [Anpassa din arbetsyta](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Som standard är fälten **Pris inklusive moms** och **Radrabattbelopp** är gömda på rader. Om fälten inte är tillgängliga kan du lägga till dem genom att anpassa sidan. Mer information finns i [Anpassa din arbetsyta](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
 > Om fältet **Beräkna fakturarabatt** är markerat på sidan **Försäljningsinställningar** beräknas fakturarabatten automatiskt. När beräkningen sker varierar beroende på vilken typ av försäljningsdokument du använder.

@@ -99,8 +99,6 @@ Du kan bokföra återanskaffningsvärden tillsammans med anskaffningskostnaden f
 > [!NOTE]
 > Om det finns ett återanskaffningsvärde för en anläggningstillgång, kommer värdet att användas i avskrivningsbokföring i stället för fältet **utgående bokföringsvärde** på sidan **Anl. avskrivningsregler**. Mer information finns i [så här hanterar du utgående bokföringsvärde](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Se relaterad [Microsoft utbildning](/training/modules/purchase-fixed-assets/)
-
 ## Se även
 
 [Anläggningstillgångar](fa-manage.md) 

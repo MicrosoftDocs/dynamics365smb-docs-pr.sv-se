@@ -4,12 +4,12 @@ metadata:
   description: Se svar på vanliga frågor om att använda Business Central på din telefon eller surfplatta.
   author: brentholtorf
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.service: dynamics365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 10/25/2021
+  ms.date: 09/21/2023
   ms.author: bholtorf
+  ms.reviewer: jswymer
+  ms.custom: bap-template
 title: Vanliga frågor och svar om mobilappar
 summary: |
   I denna artikel besvaras frågor som våra erfarna användare ofta ställer om mobilapparna för [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -33,8 +33,8 @@ sections:
           | Åtgärder i åtgärdsfältet | Endast prioriterade åtgärder visas. | Endast prioriterade åtgärder visas. |  |
           | Faktarutor | Visas inte på listsidor eller förslagssidor. | Visas inte på listsidor eller förslagssidor. | Listan `Customer` i rollcentret för `Small Business`. |
           | Avancerade filter | Det finns ingen kolumn-specifik filtrering tillgänglig. | Det finns ingen kolumn-specifik filtrering tillgänglig. | På listsidan `Customer`. |
-          | Berätta | Inte tillgängligt än. | Inte tillgängligt än. | Se [Söka efter sidor och information med Berätta](ui-search.md). |  |
-          | Rollutforskare | Inte tillgängligt än. | Inte tillgängligt än. | Se [Söka efter sidor med Rollutforskaren](ui-role-explorer.md). |
+          | Berätta | Det måste aktiveras i [Funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management) med hjälp av reglaget **Funktion: Sök efter sidor och datar i mobilappen**. Avsnittet **Hämta från Microsoft AppSource** i resultaten för program är inte tillgängligt. | Samma som surfplattor | Se [Söka efter sidor och information med Berätta](ui-search.md). |  |
+          | Rollutforskaren | Inte tillgängligt än. | Inte tillgängligt än. | Se [Söka efter sidor med Rollutforskaren](ui-role-explorer.md). |
           | Fält på snabbflikar | Fält i snabbflikar på listsidor visas inte. Endast repeaterkontrollen visas i sidans innehållsområde. | Inte tillgängligt. |  |
           | Välj från fullständig lista | Inte tillgängligt i sökningar. Användare kan inte köra åtgärder på en sökningssida och kan heller inte komma åt den fullständiga uppsättningen poster. | Inte tillgängligt i sökningar. Användare kan inte köra åtgärder på en sökningssida och kan heller inte komma åt den fullständiga uppsättningen poster. | I `Item Card` när du väljer **Basmåttenhet**. |
           | Sök i flera listkolumner | Stöds delvis. I sökningen ingår inte FlowFields. | Stöds delvis. I sökningen ingår inte FlowFields. | Se exempel på listsidan `Customers`. |
@@ -56,7 +56,7 @@ sections:
       - question: |
           Kan en gäst användare använda appen för att komma åt vår Business Central-lösning?
         answer: |
-          Nr Gäst användare är inbjudna användare från en annan Azure Active Directory (AD)-klientorganisation än din. I det här fallet autentiserar appen den primära Azure AD klientorganisation av gästanvändaren och försöker öppna Business Central slutpunkten för klientorganisationen i stället för din.  
+          Nr. Gästanvändare är inbjudna användare från en annan Microsoft Entra-klientorganisation än din. I det här fallet autentiserar programmet gästanvändarens primära Microsoft Entra-klientorganisation och försöker öppna Business Central-slutpunkten för den klientorganisationen istället för din.  
 additionalContent: |
 
   ## Se även

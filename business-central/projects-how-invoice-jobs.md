@@ -11,7 +11,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="invoice-jobs"></a>Fakturera projekt
+# Fakturera projekt
 
 Under projektet kan projektkostnade från resursförbrukning, material och projektrelaterade inköp uppstå. Dessa transaktioner bokförs i projektjournalen. Det är viktigt att alla kostnader registreras i projektjournalen innan kunden faktureras.
 
@@ -25,7 +25,7 @@ Du kan fakturera hela projektet från sidan **Projektaktivitetsrader** eller fak
 
 Du kan också fakturera ett företag som inte är slutkunden. Ibland partiet som ett projekt är inte densamma som den part som betalar räkningen. På sidan **Projekt** kan du ange kunden som kommer att dra nytta av projektet i **Sälja till** och parten som ska faktureras i **Fakturera till**. 
 
-## <a name="to-create-multiple-job-sales-invoices"></a>Så här skapar du flera försäljningsfakturor för projekt
+## Så här skapar du flera försäljningsfakturor för projekt
 
 Du kan skapa en faktura för ett projekt för en eller flera projektaktiviteter för en kund, antingen när det arbete som ska faktureras har slutförts eller när datumet för fakturering, som är baserat på ett faktureringsschema, har infallit.
 
@@ -41,7 +41,7 @@ Du kan granska och bokföra skapade fakturor i fönstret **Försäljningsfakturo
 > [!NOTE]
 > Du kan även fakturera en kund genom att välja jobbet och sedan åtgärden **Skapa försäljningsfaktura för projekt**. 
 
-## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Så här skapar och publicerar du en försäljningsfaktura för projekt från projektplaneringsrader
+## Så här skapar och publicerar du en försäljningsfaktura för projekt från projektplaneringsrader
 
 Du kan skapa en faktura från projektplaneringsrader och då ange antal av artikeln, resursen eller redovisningskontot som du vill fakturera.
 
@@ -60,7 +60,7 @@ Du kan skapa en faktura från projektplaneringsrader och då ange antal av artik
 > [!NOTE]  
 >   Ovanstående process är liknande för att skapa, granska och publicera en projektrelaterad försäljningskreditnota.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera projekt](projects-manage-projects.md)  
 [Ekonomi](finance.md)  

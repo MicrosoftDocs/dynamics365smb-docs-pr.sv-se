@@ -10,7 +10,7 @@ ms.search.form: '256,'
 ms.date: 09/07/2023
 ms.custom: bap-template
 ---
-# <a name="suggest-vendor-payments"></a>Betalningsförslag för lev.
+# Betalningsförslag för lev.
 
 På sidan **Betalningsjournal** kan du använda batch-jobbet **Föreslå leverantörsbetalning** för att föreslå betalningsrader. Baserat på dina inställningar, föreslår [!INCLUDE [prod_short](includes/prod_short.md)] rader för betalningar:
 
@@ -29,14 +29,14 @@ För att dra full nytta av betalningsförslagen, måste du prioritera leverantö
 > * Förfallna leverantörstransaktioner som inte prioriterats.  
 > * Öppna leverantörstransaktioner som är berättigade till kassarabatter. Transaktionerna är ordnade efter leverantörsnummer.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>Om du vill använda funktionen Betalningsförslag för lev.
+## Om du vill använda funktionen Betalningsförslag för lev.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.  
 2. Öppna journalen och välj sedan åtgärden **Betalningsförslag för lev.**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Välj **OK**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Så här infogar du förfallodatum som bokföringsdatum på betalningsjournalrader
+## Så här infogar du förfallodatum som bokföringsdatum på betalningsjournalrader
 
 När du använder **Betalningsförslag för lev.**-batchjobbet för att skapa betalningsrader för leverantörer, kan du fylla två specialfält så att de genererade raderna använder förfallodatumet för att beräkna bokföringsdatumet. Dessa fält är **Beräkna bokföringsdatum från dokumentets förfallodatum** och **Dokumentets förfallodatum är förskjutet**.  
 
@@ -50,7 +50,7 @@ Du kan även skapa betalningsrader manuellt genom att använda förfallodatum f�
 > [!NOTE]  
 > Om inköpsfakturan har förfallit kommer bokföringsdatum att anges till arbetsdatumet, och teckensnittet på raden ändras till röd färg.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Göra betalningar](payables-make-payments.md)  
