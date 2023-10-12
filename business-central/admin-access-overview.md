@@ -9,19 +9,19 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# Hantera åtkomst till Business Central
+# <a name="manage-access-to-business-central"></a>Hantera åtkomst till Business Central
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 I den här artikeln får administratörer och programutvecklare en översikt på hög nivå av hur åtkomst till [!INCLUDE [prod_short](includes/prod_short.md)] och dess funktioner kan kontrolleras. Använd länkarna om du vill gå till andra artiklar som innehåller mer information om ämnena.
 
-## Skiktad åtkomst
+## <a name="layered-access"></a>Skiktad åtkomst
 
 [!INCLUDE [prod_short](includes/prod_short.md)] använder ett skiktat tillvägagångssätt för appsäkerhet, enligt vad som beskrivs i följande diagram. Om du vill veta mer om de olika skikten går du till [Appsäkerhet i Business Central](/dynamics365/business-central/dev-itpro/security/security-application).
 
 :::image type="content" source="media/security-overview.png" alt-text="Skiktad appsäkerhet i Business Central.":::
 
-## Licenser
+## <a name="licenses"></a>Licenser
 
 Tilldela [!INCLUDE [prod_short](includes/prod_short.md)] användare till en **Dynamics 365 Business Central**-licens så att de kan visa, ändra och arbeta med affärsdata från alla användargränssnitt. Om du vill veta mer om licenser går du till [Licenser i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 
@@ -29,7 +29,7 @@ Människor som ibland behöver skrivskyddad åtkomst till information i [!INCLUD
 
 För omfattande information om olika typer av licenser och hur licensiering fungerar i [!INCLUDE[prod_short](includes/prod_short.md)], [hämta licensguiden för Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-## Administrationsuppgifter i Business Central
+## <a name="business-central-administrator-tasks"></a>Administrationsuppgifter i Business Central
 
 I följande tabell visas hur administratörer kan kontrollera åtkomst till [!INCLUDE [prod_short](includes/prod_short.md)] och vilka funktioner som man använder. Vissa uppgifter hjälper dig också att upprätthålla åtkomstinställningarna.
 
@@ -44,7 +44,7 @@ I följande tabell visas hur administratörer kan kontrollera åtkomst till [!IN
 |Ett Azure-tjänstetagg representerar en grupp IP-adresser som trafik för en tjänst kan komma från eller gå till. Använd tjänstetaggar för att konfigurera brandväggar så att trafiken endast tillåter trafik från vissa tjänster. Med taggen **Dynamics365BusinessCentral** kan du använda brandväggs- och nätverkssäkerhetsgruppregler för att begränsa trafik till och från [!INCLUDE [prod_short](includes/prod_short.md)].| [Azure-tjänstetaggar för säkerhet](/dynamics365/business-central/dev-itpro/security/security-service-tags)|
 |När du använder Microsoft Entra-autentisering med [!INCLUDE [prod_short](includes/prod_short.md)] rekommenderar vi att du utnyttjar [Microsoft Entra ID-multifaktorsautentisering (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks). MFA skyddar tillgången till program och data.|[Multifaktorsautentisering för Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/security/multifactor-authentication)|
 
-## Business Central utvecklaruppgifter
+## <a name="business-central-developer-tasks"></a>Business Central utvecklaruppgifter
 
 Det finns också en utvecklingsberättelse för att hantera åtkomst till [!INCLUDE [prod_short](includes/prod_short.md)]. Utvecklare och administratörer kan t.ex. skapa och ansluta program till [!INCLUDE [prod_short](includes/prod_short.md)] som gynnar verksamheten:  
 
@@ -58,6 +58,6 @@ I följande tabell länkas till information om hur du ger appar och tillägg åt
 |--|--|
 |De två viktigaste begreppen för att definiera åtkomst till funktioner är berättiganden och behörigheter. Avrop ger omfattande åtkomst till objekt enligt licenser eller Microsoft Entra roller. Med behörigheter och behörighetsgrupper kan du finjustera åtkomsten till objekt. |[Berättiganden och behörighetsgrupper – översikt](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Säkerhet i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)

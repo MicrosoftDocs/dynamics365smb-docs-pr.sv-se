@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
 ---
-# Genomgång av grundläggande projekt
+# <a name="walkthrough-of-basic-jobs"></a>Genomgång av grundläggande projekt
 
 Den här genomgången visar flera kärnprocesser:
 
@@ -15,13 +15,13 @@ Den här genomgången visar flera kärnprocesser:
 - Registrera tids- och materialkostnader för ett projekt
 - Fakturera ett projekt
 
-## Lägga till en projektaktivitet i ett projekt
+## <a name="adding-a-job-task-to-a-job"></a>Lägga till en projektaktivitet i ett projekt
 
-### Scenario  
+### <a name="scenario"></a>Scenario
 
 Projektledaren Simon vill registrera den tid som läggs ner på att utbilda kunden i espressomaskinens produktanvändning i en separat projektuppgift för att installera en kommersiell maskin på plats.
 
-### Steg
+### <a name="steps"></a>Steg
 
 1. Skapa projektuppgiften  
 
@@ -37,17 +37,17 @@ Projektledaren Simon vill registrera den tid som läggs ner på att utbilda kund
    1. I området Uppgift letar du upp åtgärden **Indrag av projektaktiviteter**
    2. Bekräfta att du vill dra in uppgifter genom att välja **Ja**.
 
-### Resultat
+### <a name="results"></a>Resultat
 
  - Nu kan tid och utgifter registreras i den nya projektuppgiften
 
-## Registrera tids- och materialkostnader för ett projekt
+## <a name="record-time-and-material-expenses-to-a-job"></a>Registrera tids- och materialkostnader för ett projekt
 
-### Scenario  
+### <a name="scenario-1"></a>Scenario
 
 Edgin, teknikern som installerar maskinen, måste registrera sin tid och materialet som används under installationen till projektet för fakturering.  Han har redan lagt till resor och material, och behöver nu lägga till tiden för att lära personalen hur man använder maskinen.
 
-### Steg
+### <a name="steps-1"></a>Steg
 
 1. Skapa ytterligare projektjournalrader
 
@@ -63,19 +63,19 @@ Edgin, teknikern som installerar maskinen, måste registrera sin tid och materia
    1. Välj åtgärden **Bokför**
    2. Bekräfta att du vill bokföra raderna genom att välja **Ja**.
 
-### Resultat
+### <a name="results-1"></a>Resultat
 
  - Projekttransaktioner och resurstransaktioner av typen *Förbrukning* skapas
  - Artikeltransaktioner skapas för att justera lagret negativt
  - På projektkortet återspeglar kostnader och priser i området Uppgifter de nya saldon som väntar på att faktureras
  - På projektkortet visas summorna för priserna i faktaboxen Projektdetaljer
 
-## Så här skapar du en försäljningsfaktura för ett projekt
+## <a name="creating-a-sales-invoice-for-a-job"></a>Så här skapar du en försäljningsfaktura för ett projekt
 
-### Scenario  
+### <a name="scenario-2"></a>Scenario
 Simon måste skapa och bokföra en faktura som ska skickas till kunden tillsammans med tiden och utgifterna för projektet.
 
-### Steg
+### <a name="steps-2"></a>Steg
 1. Skapa försäljningsfakturan
 
     1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
@@ -88,7 +88,7 @@ Simon måste skapa och bokföra en faktura som ska skickas till kunden tillsamma
    2. Välj den sista fakturan för att öppna den för granskning.
    3. Välj åtgärden **Bokföra**.
 
-### Resultat
+### <a name="results-2"></a>Resultat
 
  - Projekttransaktioner och resurstransaktioner av typen *Försäljning* skapas
  - På projektkortet återspeglar kostnader och priser i området Uppgifter nya, fakturerade saldon

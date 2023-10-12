@@ -11,7 +11,7 @@ ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: bholtorf
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Tidsplanera jobb för att justera och stämma av lagerkostnader med redovisningen
+# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Tidsplanera jobb för att justera och stämma av lagerkostnader med redovisningen
 
 För att optimera erfarenheten är automatisk kostnadsjustering och bokföring till redovisningen aktiverat som standard. I takt med att data ansamlas över tid kan detta emellertid påverka prestandan. För att minska belastningen på programmet är det ofta praktiskt att använda jobbkötransaktioner för att låta aktiviteter köras i bakgrunden.
 

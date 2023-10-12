@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Ställa in anläggningstillgångar
+# <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
 
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
 
@@ -36,7 +36,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Så här använder du användardefinierade avskrivningsmetoder. |[Konfigurera användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  

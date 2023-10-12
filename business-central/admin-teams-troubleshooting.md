@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-"></a>Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshoot-microsoft-teams-integration-with-"></a>Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -147,7 +147,7 @@ Som administratör med Azure Active Directory-administratörsbehörighet kan du 
 
 När du klistrar in text i meddelanderutan i fönstret **Dela till Teams**, dupliceras texten. Det här problemet är känt för Microsoft och kommer att åtgärdas i en senare uppdatering. 
 
-## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Det gick inte att logga in i fönstret Dela till Teams
+## <a name="unable-to-sign-in-to-the-share-to-teams-window"></a>Det gick inte att logga in i fönstret Dela till Teams
 
 Problemet kan bero på olika orsaker. Till exempel måste den identitet som du använder för att logga in ha åtkomst till Microsoft Teams, till exempel en Microsoft 365-prenumeration.
 
@@ -167,7 +167,7 @@ Det finns några orsaker till detta problem.
 
 Problemet beror på att du inte har installerat BC-appen för Teams. Endast de med appen installerade kommer att se de flikarna i Business Central.
 
-## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Andra ser annan sorterings- eller kolumnlayout än vad som författaren ser
+## <a name="others-see-a-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Andra ser annan sorterings- eller kolumnlayout än vad som författaren ser
 
 Problemet beror förmodligen på att du har delat en listvy som är en personlig vy. I det här fallet måste du arbeta med administratören för att skapa rollbaserade listvyer som täcker de olika rollerna i kanalen/chatten, eller skapa vyn för hela organisationen så att alla kan få en enhetlig vy.
 
