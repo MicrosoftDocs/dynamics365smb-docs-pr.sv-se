@@ -98,8 +98,6 @@ För enstaka kostnadstransaktioner överför [!INCLUDE[prod_short](includes/prod
 
 I tabellen **Bokförd journal för kostnad** skapar [!INCLUDE[prod_short](includes/prod_short.md)] en transaktion med källöverföringen från redovisningen. Transaktionen registrerar första och sista löpnumret för redovisningstransaktionerna som har överförts, i tillägg till första och sista löpnumret för kostnadstransaktionerna som skapas.
 
-## Se relaterad [Microsoft utbildning](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
-
 ## Se även
 
  [Om kostnadsredovisning](finance-about-cost-accounting.md)  

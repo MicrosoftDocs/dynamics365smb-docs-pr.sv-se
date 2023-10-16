@@ -114,8 +114,6 @@ Om du inte har markerat kryssrutan **Avskr. till Anl.bokf.datum** förlorar till
 
 *Summan av avskrivningen = 100 +15 + 55,54 = 170,54*
 
-## Se relaterad [Microsoft utbildning](/training/paths/manage-advanced-fixed-assets-transactions/)
-
 ## Se även
 
 [Anläggningstillgångar](fa-manage.md)  

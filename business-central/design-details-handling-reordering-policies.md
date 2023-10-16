@@ -3,12 +3,12 @@ title: Designdetaljer – Hantera partiformningsmetoder
 description: Den här artikeln innehåller en översikt över de partiformningsmetoder som du kan använda vid leveransplanering.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Hantera partiformningsmetoder
+# Designdetaljer: Hantera partiformningsmetoder
 
 Om du vill inkludera en artikel i leveransplaneringen måste du ange en partiformningsmetod för artikeln på sidan **artikelkort** . Följande partiformningsmetoder finns:  
 
@@ -19,36 +19,36 @@ Om du vill inkludera en artikel i leveransplaneringen måste du ange en partifor
 
 Metoderna **Fast partistorlek** och **Maximalt antal** avser lagerplanering. Dessa metoder samverkar med stegvis balansering av tillgångs- och orderspårning.  
 
-## <a name="the-role-of-the-reorder-point"></a>Beställningspunktens roll
+## Beställningspunktens roll
 
 En beställningspunkt representerar efterfrågan under ledtid. När lagret planeras att hamna under nivån som definieras av beställningspunkten är det dags att beställa mer. Lagret minskas gradvis tills återanskaffning anländer. Det kan nå noll eller säkerhetslagernivån. Planeringssystemet föreslår en framåtplanerad leveransorder när planerat lager hamnar under beställningspunkten.  
 
 Lagernivåer kan flyttas betydligt under en tidsperiod. Därför övervakar planeringssystemet alltid tillgängligt lager.
 
-## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Övervaka den planerade lagernivån och beställningspunkten
+## Övervaka den planerade lagernivån och beställningspunkten
 
 Lager är en typ av tillgång, men för lagerplanering skiljer planeringssystemet mellan två lagernivåer:  
 
 * Planerat lager  
 * Planerat tillgängligt lager  
 
-### <a name="projected-inventory"></a>Planerat lager
+### Planerat lager  
 
 I början av planeringsförfarandet är det planerade lagret bruttokvantiteten för lagret. Bruttokvantiteten inkluderar bokförd och inte bokförd tillgång och efterfrågan tidigare. Denna kvantitet blir en planerad lagernivå som innehåller bruttokvantiteter från framtida tillgång och efterfrågan. Framtida tillgång och efterfrågan introduceras längs tidslinjen, oavsett om det är reserverat eller fördelas på annat sätt.  
 
 Planeringssystemet använder planerat lager för att övervaka beställningspunkt och för att bestämma partistorleken när du använder partiformningsmetoden **Maximalt antal**.  
 
-### <a name="projected-available-inventory"></a>Planerat tillgängligt lager
+### Planerat tillgängligt lager  
 
 Det planerade tillgängliga lagret är det lager som är tillgängligt för att uppfylla efterfrågan vid en given tidpunkt. Planeringssystemet använder det planerade tillgängliga lagret när säkerhetslagernivån övervakas. Säkerhetslager måste alltid vara tillgängligt för oväntad efterfrågan.  
 
-### <a name="time-buckets"></a>Tidsenheter
+### Tidsenheter  
 
 Planerat lager är avgörande att identifiera när beställningspunkten överstigs och att beräkna rätt partistorlek när du använder partiformningsmetoden **Maximalt antal**.  
 
 Den planerade lagernivån beräknas i början av planeringsperioden. Det är en bruttonivå som inte beaktar reservationer och andra fördelningar. För att övervaka den här lagernivån under planeringsföljden övervakar planeringssystemet de samlade ändringarna över en tidsperiod. Denna period kallas för en *tidsenhet*. Om du vill veta mer om tidsenheter kan du gå till [tidsenheters roll](#the-role-of-the-time-bucket). Planeringssystemet säkerställer att tidsenheten är minst en dag. En dag är den minsta tidsenheten för efterfråge- och tillgångshändelser.  
 
-### <a name="determining-the-projected-inventory-level"></a>Fastställa den planerade lagernivån
+### Fastställa den planerade lagernivån  
 
 Följande sekvens beskriver hur planeringssystemet fastställer den planerade lagernivån:  
 
@@ -77,7 +77,7 @@ I följande bild visas denna metod.
 8. Planeringssystemet lägger till minska-påminnelsen på -3 påminnelse till den planerade lagernivån, antingen A: +4 -3 = 1 eller B: +6 -3 = +3.  
 9. För A skapar planeringssystemet en framåtplanerad order som startar på datumet **Da**. För B nås beställningspunkten och en ny order skapas.
 
-## <a name="the-role-of-the-time-bucket"></a>Tidsenhetens roll
+## Tidsenhetens roll
 
 Avsikten med tidsenheten är samla efterfråganshändelser i en tidperiod för att skapa en gemensam leveransorder.  
 
@@ -91,7 +91,7 @@ Konceptet med tidsenhet återspeglar den manuella processen för att kontrollera
 
 Tidsenheter används ofta för att undvika en kaskadeffekt. Till exempel skapas en balanserad rad med efterfrågan och tillgång där en tidig efterfrågan annulleras, eller ny skapas. Resultatet skulle vara att varje leveransorder (utom den sista) omplaneras.
 
-## <a name="stay-below-the-overflow-level"></a>Stanna under överflödesnivån
+## Stanna under överflödesnivån
 
 När du använder partiformningsmetoderna **Maximalt antal** och **Fast partistorlek** fokuserar planeringssystemet bara på det planerade lagret i den angivna tidsenheten. Det kan föreslå extra tillgång när ändringar i negativ efterfrågan eller positiv tillgång sker utanför tidsenheten. För extra tillgång beräknar planeringssystemet det antal som du vill minska tillgångar med. Denna mängd kallas ”Överflödesnivå”. Överflödet kommuniceras som en planeringsrad med åtgärden **Ändra antal (minska)** eller **Avbryta** och följande varningsmeddelande:  
 
@@ -99,11 +99,11 @@ När du använder partiformningsmetoderna **Maximalt antal** och **Fast partisto
 
 ![Lagrets överflödesnivå.](media/supplyplanning_2_overflow1_new.png "Lagrets överflödesnivå")  
 
-### <a name="calculating-the-overflow-level"></a>Beräknar överflödesnivån
+### Beräknar överflödesnivån  
 
 Överflödesnivån beräknas på olika sätt beroende på partiformningsmetoden.  
 
-#### <a name="maximum-qty"></a>Maximalt antal
+#### Maximalt antal
 
 Överflödesnivå = beställningsgräns  
 
@@ -112,7 +112,7 @@ När du använder partiformningsmetoderna **Maximalt antal** och **Fast partisto
 >
 > överflödesnivå = beställningsgränsen + minsta partistorlek.  
 
-#### <a name="fixed-reorder-qty"></a>Fast orderkvantitet
+#### Fast orderkvantitet  
 
 överflödesnivå = beställningsantal + beställningspunkt  
 
@@ -121,15 +121,15 @@ När du använder partiformningsmetoderna **Maximalt antal** och **Fast partisto
 >
 > överflödesnivå = beställningsantal + minsta partistorlek  
 
-#### <a name="order-multiple"></a>Partistorleksmultipel
+#### Partistorleksmultipel  
 
 Om en ordermultipel finns justerar den överflödesnivån för partiformningsmetoderna Maximalt antal och fast partistorlek.  
 
-### <a name="creating-the-planning-line-with-an-overflow-warning"></a>Skapa planeringsraden med överflödesvarning
+### Skapa planeringsraden med överflödesvarning  
 
 En planeringsrad skapas när en tillgång gör att det planerade lagret blir högre än överflödesnivån vid slutet av en tidsenhet. För att varna för extra tillgång har planeringsraden ett varningsmeddelande, fältet **Acceptera åtgärdsmeddelande** markeras inte och åtgärdsmeddelandet är antingen **Avbryt** eller **Ändra antal.**  
 
-#### <a name="calculating-the-planning-line-quantity"></a>Beräknar antal för planeringsraden
+#### Beräknar antal för planeringsraden  
 
 Antalet som finns på planeringsraden beräknas så här:
 
@@ -138,12 +138,12 @@ planeringsradantal = antal för aktuell efterfrågan – (planerat lager – öv
 > [!NOTE]  
 > Som med alla varningsrader ignoreras all största/minsta partistorlek eller partistorleksmultipel.  
 
-#### <a name="defining-the-action-message-type"></a>Definiera typen av åtgärdsmeddelande
+#### Definiera typen av åtgärdsmeddelande  
 
 * Om planeringsradantalet är större än 0 är åtgärdsmeddelandet **Ändra antal.**  
 * Om planeringsradantalet är lika med eller mindre än 0 är åtgärdsmeddelandet **Avbryt**  
 
-#### <a name="composing-the-warning-message"></a>Skapar varningsmeddelandet
+#### Skapar varningsmeddelandet  
 
 I händelse av överflöde visar sidan **Ej spårade planeringselement** ett varningsmeddelande med följande information:  
 
@@ -153,11 +153,11 @@ I händelse av överflöde visar sidan **Ej spårade planeringselement** ett var
 
 Exempel: "Det planerade lagret 120 är större än överflödesnivå 60 i 01-28-23”  
 
-### <a name="example-scenario"></a>Exempelscenario
+### Exempelscenario  
 
 I det här scenariot ändrar en kund en försäljningsorder från 70 till 40 stycken mellan två planeringskörningar. Överflödesfunktionen minskar inköpet som föreslogs för den initiala försäljningsantalet.  
 
-#### <a name="item-setup"></a>Inställningar för artiklar
+#### Inställningar för artiklar  
 
 |Partiformningsmetod|Maximalt antal|  
 |-----------------------|------------------|  
@@ -165,7 +165,7 @@ I det här scenariot ändrar en kund en försäljningsorder från 70 till 40 sty
 |Beställningspunkt|50|  
 |Lager|80|  
 
-#### <a name="situation-before-sales-decrease"></a>Läge före försäljningsminskning
+#### Läge före försäljningsminskning  
 
 |Händelse|Ändra antal|Planerat lager|  
 |-----------|-----------------|-------------------------|  
@@ -174,7 +174,7 @@ I det här scenariot ändrar en kund en försäljningsorder från 70 till 40 sty
 |Slut på tidsenheten|Ingen|10|  
 |Föreslå ny inköpsorder|+90|100|  
 
-#### <a name="situation-after-sales-decrease"></a>Läge efter försäljningsminskning
+#### Läge efter försäljningsminskning  
 
 |Ändra|Ändra antal|Planerat lager|  
 |------------|-----------------|-------------------------|  
@@ -184,7 +184,7 @@ I det här scenariot ändrar en kund en försäljningsorder från 70 till 40 sty
 |Slut på tidsenheten|Ingen|130|  
 |Föreslås för att minska inköpet<br><br> order från 90 till 60|-30|100|  
 
-#### <a name="resulting-planning-lines"></a>Uppdaterar planeringsrader
+#### Uppdaterar planeringsrader  
 
 Systemet skapar en planeringsrad med en varning för att minska inköpet med 30 från 90 till 60 för att hålla det planerade lagret på 100 enligt överflödesnivån.  
 
@@ -193,7 +193,7 @@ Systemet skapar en planeringsrad med en varning för att minska inköpet med 30 
 > [!NOTE]  
 > Utan funktionen Överflöde skapas ingen varning om den planerade lagernivån är högre än maximala vilket kan orsaka extra tillgång på 30.
 
-## <a name="handling-projected-negative-inventory"></a>Hantera planerat negativt lager
+## Hantera planerat negativt lager
 
 Beställningspunkten uttrycker den förutsedda efterfrågan under ledtiden för artikeln. Det planerade lagret måste vara stort nog för att täcka efterfrågan tills den nya beställningen tas emot. Under tiden ska säkerhetslagret ta hand om förändringar i efterfrågan upp till en angiven servicenivå.  
 
@@ -227,11 +227,11 @@ I följande bild representerar D en nödleveransorder för att justera för ett 
 
 Följande avsnitt beskriver egenskaperna för de fyra partiformningsmetoderna som stöds.
 
-## <a name="reordering-policies"></a>Partiformningsmetoder
+## Partiformningsmetoder
 
 Partiformningsmetoder anger hur mycket som ska beställas när artikeln behöver fyllas på. Fyra olika partiformningsmetoder finns.  
 
-### <a name="fixed-reorder-quantity"></a>Fast orderkvantitet
+### Fast orderkvantitet
 
 Metoden Fast partistorlek används vanligtvis för lagerplanering för artiklar med följande egenskaper:
 
@@ -241,7 +241,7 @@ Metoden Fast partistorlek används vanligtvis för lagerplanering för artiklar 
 
 Metoden används vanligtvis i samband med en beställningspunkt som återspeglar den förutsedda efterfrågan under artikelns ledtid.  
 
-#### <a name="calculated-per-time-bucket"></a>Beräknat per tidsenhet
+#### Beräknat per tidsenhet  
 
 Om du når eller går över beställningspunkten i en tidsenhet (beställningscykel), föreslår systemet två åtgärder:
 
@@ -250,7 +250,7 @@ Om du når eller går över beställningspunkten i en tidsenhet (beställningscy
 
 Beställningspunktens tidsenhet minskar antalet leveransförslag. Det återspeglar en procedur för att manuellt kontrollera det faktiska innehållet på lagerplatser i distributionslagret.  
 
-#### <a name="creates-only-necessary-supply"></a>Skapar bara nödvändigt tillgång
+#### Skapar bara nödvändigt tillgång  
 
 Innan det föreslår en ny leveransorder för att uppfylla en beställningspunkt söker planeringssystemet efter följande tillgång:
 
@@ -261,7 +261,7 @@ Systemet kommer inte att föreslå en ny leveransorder om en tillgång tar med p
 
 Leveransorder som skapas specifikt för att uppfylla en beställningspunkt utesluts från tillgångsbalansering och kommer inte att ändras. Om du vill utfasa en artikel med en beställningspunkt granskar du de utestående leveransorderna manuellt eller byter partiformningsmetod till **parti-för-parti**. Systemet kommer att minska eller avbryta extra tillgång.  
 
-#### <a name="combines-with-order-modifiers"></a>Kombineras med ordermodifierare
+#### Kombineras med ordermodifierare  
 
 Ordermodifierarna Minsta partistorlek, Maximal partistorlek och Partistorleksmultipel ska inte spela en betydande roll när du använder metoden Fast orderkvantitet. I planeringssystemet tas dessa emellertid med i beräkningen:
 
@@ -269,27 +269,27 @@ Ordermodifierarna Minsta partistorlek, Maximal partistorlek och Partistorleksmul
 * Öka ordern till den angivna minsta partistorleken
 * Avrunda partistorleken för att uppfylla en angiven ordermultipel  
 
-#### <a name="combines-with-calendars"></a>Kombineras med kalendrar
+#### Kombineras med kalendrar  
 
 Innan en ny leveransorder föreslås för att uppfylla en beställningspunkt, kontrollerar planeringssystemet om ordern är schemalagd för en ledig dag. De kalendrar som du anger i fältet **Baskalenderkod** på sidorna **Företagsinformation** och **Lagerställekort**.  
 
 Om det planerade datumet är ett ickearbetsdag flyttar planeringssystemet ordern framåt till nästa arbetsdag. Om du flyttar datumet kan det leda till att en order som uppfyller en beställningspunkt, inte uppfyller vissa specifika behov. För sådan ej balanserad efterfrågan skapar planeringssystemet en extra leverans.  
 
-#### <a name="shouldnt-be-used-with-forecasts"></a>Ska inte användas med prognos
+#### Ska inte användas med prognos  
 
 Eftersom den förutsedda efterfrågan redan uttrycks på beställningspunktsnivån, är det inte nödvändigt att ta med en prognos i planeringen. Om det är relevant att basera planen på en prognos använder du metoden **Parti-för-parti**.  
 
-#### <a name="must-not-be-used-with-reservations"></a>Får inte användas med reservationer
+#### Får inte användas med reservationer  
 
 Om du har reserverat ett antal, till exempel kommer ett antal i lager, för ett avlägset behov, störs planeringsgrunden. Även om den planerade lagernivån är godtagbar i förhållande till beställningspunkten, kan det hända att antalet inte är tillgängligt. Systemet kan försöka kompensera genom att skapa undantagsorder. Vi rekommenderar dock att fältet **Reservera** inte har ställts in på **Aldrig** för artiklar som planeras med en beställningspunkt.
 
-### <a name="maximum-quantity"></a>Maximalt antal
+### Maximalt antal
 
 Principen Maximalt antal är ett sätt att underhålla lagret med hjälp av en beställningspunkt.  
 
 Allt som gäller metoden Fast orderkvantitet gäller även för den här metoden. Den enda skillnaden är antalet på i den föreslagna tillgången. När du använder principen för högsta antal definieras beställningsantalet dynamiskt baserat på den planerade lagernivån. Därför skiljer den sig vanligen från order till order.  
 
-#### <a name="calculate-per-time-bucket"></a>Beräknat per tidsenhet
+#### Beräknat per tidsenhet
 
 När du når eller går över beställningspunkten bestäms partiformningsmetoden vid slutet av en tidsenhet. Det mäter luckan mellan den aktuella planerade lagernivån och den angivna beställningsgränsen för att bestämma antal i order. Systemet kontrollerar sedan:
 
@@ -300,7 +300,7 @@ I så fall minskar systemet kvantiteten på den nya leveransordern med de kvanti
 
 Om du inte anger en maximal lagerkvantitet ser planeringssystemet till att det planerade lagret når orderkvantiteten.
 
-#### <a name="combine-with-order-modifiers"></a>Kombineras med ordermodifierare
+#### Kombineras med ordermodifierare
 
 Beroende på din inställning kanske det är bäst att kombinera principen för maximalt antal med ordermodifierare: 
 
@@ -308,13 +308,13 @@ Beroende på din inställning kanske det är bäst att kombinera principen för 
 * Avrunda antalet till ett heltalsnummer för inköpsenheter
 * Dela kvantiteten i partier som definieras av den maximal partistorleken  
 
-### <a name="combine-with-calendars"></a>Kombineras med kalendrar
+### Kombineras med kalendrar
 
 Innan en ny leveransorder föreslås för att uppfylla en beställningspunkt, kontrollerar planeringssystemet om ordern är schemalagd för en ledig dag. De kalendrar som du anger i fältet **Baskalenderkod** på sidorna **Företagsinformation** och **Lagerställekort**.  
 
 Om det planerade datumet är ett ickearbetsdag flyttar planeringssystemet ordern framåt till nästa arbetsdag. Om du flyttar datumet kan det leda till att en order som uppfyller en beställningspunkt, inte uppfyller vissa specifika behov. För sådan ej balanserad efterfrågan skapar planeringssystemet en extra leverans.
 
-### <a name="order"></a>Order
+### Order
 
 I tillverka-mot-order-miljö köps en artikel in eller produceras för att täcka en viss efterfrågan. Partiformningsmetoden används vanligtvis för artiklar med följande egenskaper
 
@@ -330,11 +330,11 @@ I tillverka-mot-order-miljö köps en artikel in eller produceras för att täck
 > [!TIP]
 > Om artikelattribut inte varierar kanske det är bäst att använda partiformningsmetoden parti-för-parti. Det medför att systemet använder oplanerat lager och endast ackumulerar försäljningsorder med samma utleveransdatum eller inom en definierad tidsenhet.  
 
-#### <a name="order-to-order-links-and-past-due-dates"></a>Order-till-order-länkar och utgångna förfallodatum
+#### Order-till-order-länkar och utgångna förfallodatum
 
 Till skillnad från de flesta uppsättningar med tillgång-efterfrågan planeras länkade order med förfallodatum före planeringsstartdatumet helt automatiskt. Orsaken till undantaget är att de specifika uppsättningarna med efterfrågan-tillgång måste synkroniseras. För mer information om den frysta zonen som gäller de flesta typerna av efterfrågan-tillgång, se [Hantera order före planeringsstartdatumet](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).
 
-### <a name="lot-for-lot"></a>Parti-för-parti
+### Parti-för-parti
 
 Parti-för-parti-metoden är den mest flexibla eftersom systemet endast reagerar på faktisk efterfrågan. Det fungerar på förutsedd efterfrågan från prognos och avropsorder och avräknar sedan orderkvantiteten baserat på efterfrågan. Metoden gäller för artiklar där lager kan accepteras men ska undvikas.  
 
@@ -354,7 +354,7 @@ Eftersom leveranspartistorleken baseras på den faktiska efterfrågan, kan det v
 * Öka ordern till den angivna minsta partistorleken
 * Minska antalet till det angivna maximala antalet (och skapa två eller fler tillgångar för att nå det totala antalet som behövs)
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
 [Designdetaljer: Planeringsfördelningstabell](design-details-planning-assignment-table.md)  

@@ -2,12 +2,12 @@
 title: Ad hoc-dataanalys
 description: Innehåller en översikt över de funktioner som kan användas för ad hoc-dataanalyser i Business Central-produkten.
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.search.keywords: feature overview
 ms.date: 03/31/2023
 ms.author: jswymer
 ---
-# <a name="ad-hoc-data-analysis"></a>Ad hoc-dataanalys
+# Ad hoc-dataanalys
 
 Ibland behöver du analysera data i [!INCLUDE[prod_short](includes/prod_short.md)] på ett sätt som inte finns i en standardrapport. Detta kallas ofta "ad hoc-analys". Nedan finns länkar som du kan använda för att lära dig hur du utför den.
 
@@ -19,7 +19,7 @@ Ibland behöver du analysera data i [!INCLUDE[prod_short](includes/prod_short.md
 | Visa och analysera ekonomiska data med hjälp av ekonomiska rapporter | [Ekonomisk analys](bi.md) |
 | Analysera listdata direkt från en sida |[Analysera listdata med hjälp av dataanalysläge](analysis-mode.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Business Intelligence och rapporteringsöversikt](ui-work-report.md)
 

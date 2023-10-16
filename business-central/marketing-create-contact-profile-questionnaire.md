@@ -12,7 +12,7 @@ ms.author: bholtorf
 ms.date: 05/20/2022
 ---
 
-# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Använda profilfrågeformulär för att klassificera affärskontakter
+# Använda profilfrågeformulär för att klassificera affärskontakter
 
 Genom att gradera presumtiva kunder kan du identifiera vilka som en försäljningskampanj helst bör riktas mot. Du kan skapa profilfrågeformulär som du vill använda när du anger uppgifter om kontakternas profiler. I varje frågeformulär kan du skapa frågor som du vill ställa till kontakterna. På så sätt kan du gruppera kontakterna så att dina kampanjer blir mer sannolika för att ge rätt personer till gång till de kriterier som du anger med hjälp av frågeformulären.  
 
@@ -20,13 +20,13 @@ Med rätt frågeformulär, kan du gradera de presumtiva kunderna och gruppera de
 
 Du kan också köra frågeformuläret när du automatiskt vill besvara några av frågorna på grundval av kontakt, kund eller leverantör.  
 
-## <a name="to-add-a-profile-questionnaire"></a>Lägga till profilfrågeformulär så här
+## Lägga till profilfrågeformulär så här
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Profil frågeformulär inst.** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire"></a>Lägga till frågor till ett frågeformulär
+## Lägga till frågor till ett frågeformulär
 
 1. Välj relevant profilfrågeformulär och välj åtgärden **Redigera inställningar för frågeformulär**.  
 2. På den första tomma raden väljer du **Fråga** i fältet **Typ** och skriver frågan i fältet **Beskrivning**. Fyll i de övriga fälten på raden.  
@@ -61,11 +61,11 @@ När du har skapat ett frågeformulär kan du använda det för att betygsätta 
 > [!NOTE]
 > När du anger en fråga som ska besvaras automatiskt väljer du **Rad** och sedan **Frågedetaljer**. Ange därefter kriterier som ska användas när den besvaras.
 
-## <a name="apply-questionnaires-to-contacts"></a>Använd enkäter för kontakter
+## Använd enkäter för kontakter
 
 Du kan koppla dina enkäter till kontakter manuellt. Öppna bara det relevanta kontaktkortet och välj sedan åtgärden **Profil**. När du sedan har använt de enkäter som du vill använda kan du börja använda kategorierna i dina kampanjer.  
 
-## <a name="the-automatic-classification-of-contacts"></a>Den automatiska klassificeringen av kontakter
+## Den automatiska klassificeringen av kontakter
 
 Du kan klassificeras dina kontakter automatiskt efter kunder, leverantörer och kontaktuppgifter genom att automatiskt besvarade profilfrågor skapas på sidan **Profil frågeformulär inst.**.  
 
@@ -74,7 +74,7 @@ Du kan klassificeras dina kontakter automatiskt efter kunder, leverantörer och 
 
 Om du tilldelar kontakter profilfrågeformulär, som innehåller de automatiskt besvarade profilfrågor som du har skapat, tilldelar [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt de rätta svaren för kontakterna.  
 
-## <a name="example"></a>Exempel
+## Exempel
 
 Du kan klassificera kontakterna efter hur mycket de har köpt från dig:
 
@@ -102,7 +102,7 @@ Fyll sedan i sidan **Profilfrågedetaljer** så här:
 
 När du tilldelar en kontakt profilfrågeformulär som innehåller denna fråga anges automatiskt relevant svar för kontakten på profilraderna på kontaktkortet.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapar kontakter](marketing-create-contact-companies.md)  
 

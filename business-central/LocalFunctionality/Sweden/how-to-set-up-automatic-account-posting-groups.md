@@ -11,11 +11,11 @@ ms.search.form: '11207, 11208, 11206'
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-automatic-account-posting-groups-in-the-swedish-version"></a>Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
+# Konfigurera automatiska publiceringsgrupper för konto i den svenska versionen
 
 [!INCLUDE [automatic-account-posting-groups-setup](../includes/FISE/automatic-account-posting-groups-setup.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Automatiska kontokoder](automatic-account-codes.md)  
 [Ställa in bokföringsmallar](../../finance-posting-groups.md)  

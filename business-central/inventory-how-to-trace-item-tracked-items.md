@@ -59,8 +59,6 @@ Funktionerna kan vara särskilt användbara när det gäller kvalitetskontrollen
 3. I fälten **Serienr** och **Partinr** anger du artikelspårningsnumren som du vill spåra.  
 4. Välj åtgärden **Sök** för att hitta alla instanser av serie- eller partinumret i databasen.  
 
-## Se relaterad [Microsoft utbildning](/training/modules/prepare-item-tracking/)
-
 ## Se även
 
 [Lager](inventory-manage-inventory.md)  

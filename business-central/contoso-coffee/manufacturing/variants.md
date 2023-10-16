@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Genomgång: varianter
+# Genomgång: varianter
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata för att lära dig om varianter.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera efter fråge prognosen för varje variant av artikeln SP-SCM1006, AutoDripLite. Eftersom de har olika färger måste du se till att rätt struktur används för varje variant. Kör planeringsarbetsbladet för att beräkna utbudet.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Ställ in lagerställeenheter för artikeln SP-SCM1006, AutoDripLite. Tilldela en strukturlista för SKU med varianterna rött och vitt.
 
-    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du *Artiklar* och väljer sedan relaterad länk.  
+    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du *Artiklar* och väljer sedan relaterad länk.  
 
     2. Öppna objektet **SP-SCM1006, AutoDripLite**.
 
@@ -28,21 +28,21 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera eft
 
     4. Ställ in fältet **Skapa per** på *Plats och variant*.
 
-    5. Ange ett filter för platsen till *norr* och klicka sedan på **OK**.
+    5. Ange ett filter för platsen till *HUVUD* och klicka sedan på knappen **OK**.
 
     6. Välj åtgärden **lagerställeenheter**.  
 
     7. Uppdatera produktionsstrukturer för följande lagerställeenheter:
 
-        1. RÖD på NORR, ange SP-SCM1006-RED  
+        1. RÖD på HUVUD, ange SP-SCM1006-RED  
 
-        2. VIT på NORR, ange SP-SCM1006-WHITE  
+        2. VIT på HUVUD, ange SP-SCM1006-WHITE  
 
-        3. Håll produktionstrukturnr. tomt för SVART på NORR  
+        3. Håll produktionstrukturnr. tomt för SVART på HUVUD  
 
 2. Uppdatera produktionsinställningar och respektera efter frågeprognos på lagerställen och varianter.  
 
-    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du *Produktionsinställningar* och väljer sedan relaterad länk.  
+    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du *Produktionsinställningar* och väljer sedan relaterad länk.  
 
     2. Växla till fältet **Använd prognos vid lagerställe**.
 
@@ -50,9 +50,9 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera eft
 
     4. Stäng fönstret **Produktionsinställningar**.
 
-3. Skapa en ny månatlig efter frågeprognos, *AUTODRIP*. Filtrera artikeln efter SP-SCM1006 och plats NORD. Ställ in efterfrågan för maj för varje variant. 
+3. Skapa en ny månatlig efter frågeprognos, *AUTODRIP*. Filtrera efter artikel SP-SCM1006 och plats HUVUD. Ställ in efterfrågan för maj för varje variant. 
 
-    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du *efterfrågeprognos* och väljer sedan relaterad länk.
+    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du *efterfrågeprognos* och väljer sedan relaterad länk.
 
     2. Skapa en ny efterfrågeprognos med namnet *AUTODRIP*.
 
@@ -64,17 +64,17 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera eft
 
     6. Växla till fältet **Använd prognos vid lagerställe**.
 
-    7. I fältet **Artikelfilter** väljer du *NORR*.
+    7. I fältet **Lagerställesfilter** väljer du *HUVUD*.
 
     8. Växla till fältet **Använd prognos på varianter**.
 
     9. För varje rad uppdateras värden i kolumnen maj
 
-        1. RÖD på NORR, ange 100
+        1. RÖD på HUVUD, ange 100
 
-        2. VIT på NORR, ange 200
+        2. VIT på HUVUD, ange 200
 
-        3. SVART på NORR, ange 300
+        3. SVART på HUVUD, ange 300
 
     10. Stäng fönstret efterfrågeprognos
 
@@ -98,6 +98,6 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste uppdatera eft
 
     9. För varje skapad rad väljer du **komponent**-åtgärden och kontrollerar vilken färg som används.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

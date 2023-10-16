@@ -78,13 +78,11 @@ Med funktionen **Skicka meddelanden om förfallna godkännanden** görs en kontr
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Förfallna begäranden om godkännande** och välj sedan relaterad länk.
 2. På sidan **Förfallna begäranden om godkännande** väljer du åtgärden **Skicka meddelanden om förfallna godkännanden**.
 
-## Se relaterad [Microsoft utbildning](/training/modules/use-approval-workflows/)
-
 ## Se även
 
 [Använda arbetsflöden för godkännande](across-use-workflows.md)  
 [Arbetsflöde](across-workflow.md)  
-[Konfigurera användare för godkännande](across-how-to-set-up-approval-users.md)  
+[Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  
 [Försäljning](sales-manage-sales.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Inköp](purchasing-manage-purchasing.md)  

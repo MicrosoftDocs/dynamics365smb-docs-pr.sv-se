@@ -95,8 +95,6 @@ Du kan bokföra den ökade kostnaden som en artikelomkostnad i en kreditnota ell
 
 När du bokför försäljningsreturordern läggs återlagringsavgiften till det aktuella försäljningstransaktionsbeloppet. På det här sättet kan du hålla lagervärderingen aktuell.  
 
-## Se relaterad [Microsoft utbildning](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Se även
 
 [Försäljning](sales-manage-sales.md)  

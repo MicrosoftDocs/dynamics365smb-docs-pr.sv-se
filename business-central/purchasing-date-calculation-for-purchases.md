@@ -58,8 +58,6 @@ Du kan ange datum formeln på raderna manuellt. I annat fall [!INCLUDE[prod_shor
 3. Lagerställeenhetskort
 4. Leverantörskort
 
-## Se relaterad [Microsoft utbildning](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
-
 ## Se även
 
 [Datumberäkning för försäljning](sales-date-calculation-for-sales.md)  

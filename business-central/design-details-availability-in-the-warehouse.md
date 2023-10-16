@@ -73,6 +73,10 @@ Resultatet visas i fältet **Totalt disponibelt antal** på sidan **Reservation*
 
 På en reservationsrad visas antalet som inte kan reserveras, eftersom det har fördelats i distributionslagret, i fältet **Fördelat antal i dist.lager** på sidan **Reservation**.  
 
+## Kontrollera om artiklar är tillgängliga för plockning
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Beräknar disponibelt antal att reservera
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beräknar antalet som är tillgängligt att reservera så här:  
@@ -85,8 +89,8 @@ Följande diagram visar de olika elementen i beräkningen.
 
 ## Se även  
 
-[Översikt över Warehouse Management: ](design-details-warehouse-management.md)
-[Visa artiklarnas disposition](inventory-how-availability-overview.md)
-
+[Warehouse Management – översikt](design-details-warehouse-management.md)
+[Visa tillgänglighet av artiklar](inventory-how-availability-overview.md)
+[Plocka för produktion, montering eller jobb i Avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

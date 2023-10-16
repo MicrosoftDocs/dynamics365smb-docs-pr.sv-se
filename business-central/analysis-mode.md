@@ -1,11 +1,11 @@
 ---
-title: Analysera data i listsidor med hjälp av dataanalysläge
+title: Analysera data i listsidor och frågor med hjälp av dataanalysläge
 description: Lär dig hur du använder dataanalysläget i Business Central för att analysera data.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/23/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -21,7 +21,7 @@ I den här artikeln lär du dig hur du analyserar data från listsidor och fråg
 
 ## Förutsättningar 
 
-- Om du använder Business Central version 22 är dataanalysläget i förhandsversion, varför det måste aktiveras av en administratör innan du kan använda det. För att aktivera går du till sidan **Funktionshantering** och aktiverar **Funktionsuppdatering: Analysläge, snabbanalysera data direkt i Business Central**. [Läs mer om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Om du använder Business Central version 22 är dataanalysläget i förhandsversion. Så en administratör måste aktivera den innan du kan använda den. För att aktivera går du till sidan **Funktionshantering** och aktiverar **Funktionsuppdatering: Analysläge, snabbanalysera data direkt i Business Central**. [Läs mer om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - I version 23 och senare måste ditt konto tilldelas behörighetsuppsättningen **DATA ANALYSIS – EXEC** eller inkludera körningsbehörighet för systemobjektet **9640 Tillåt dataanalysläge**. Som administratör kan du undanta dessa behörigheter för användare som du inte vill ska ha åtkomst till analysläget.
 
 > [!NOTE]
@@ -69,7 +69,7 @@ Dataområdet är där raderna och kolumnerna på listsidans fråga visas och dat
   - Om du vill fästa en kolumn till vänster eller höger om dataområdet så att den inte flyttas från skärmen när du bläddrar, markerar du ![Visar ikonen i en kolumn i dataanalysläge som öppnar en meny med åtgärder](media/analysis-mode-column-menu-icon.png) > **Fästa kolumn** > **Fästa vänster** kolumndelen.
   - Definiera datafilter direkt i kolumndefinitionen i stället för att gå till rutan **analysfilter**. Du kan fortfarande visa information om relaterade data och för varje rad och öppna kortet för att lära dig mer om en viss entitet.
 - Använd dataområdet för att interagera med informationen. För kolumner som innehåller numeriska, summerbara värden kan du hämta beskrivande statistik för en fältuppsättning genom att markera dem. Statistiken visas i statusfältet (2) längs med sidans nederkant.
-- Exportera data i Excel- eller csv-format. Du kan bara högerklicka på dataområdet eller en cellmarkering som du vill exportera.
+- Exportera data i Excel- eller csv-format. Högerklicka på dataområdet eller en cellmarkering som du vill exportera.
 
 ### Sammanfattningsfält (2)
 
@@ -103,7 +103,7 @@ I följande tabell beskrivs de olika nummer som visas i summa området:
 |Radgrupper|Använd det här området om du vill gruppera och summera data efter ett eller flera fält. Du kan endast ta med icke-numeriska fält, t.ex. text, datum och tid. Radgrupper används ofta i pivotläge.|
 |Värden|Använd det här området för att ange fält som du vill ha en total summa för. Du kan bara ta med fält som innehåller nummer som kan läggas samman. Det kan t.ex. inte vara text, datum eller tid.|
 
-Om du vill flytta ett fält från ett område till ett annat väljer du ta bort ikon ![Visar en översikt över en sida i analysläge](media/column-grab-icon.png) bredvid kolumnen i listan ovan och dra till målområdet. Du kan inte flytta ett fält till ett område där det inte är tillåten.
+Om du vill flytta ett fält från ett område till ett annat väljer du ta bort ikon ![Visar en översikt över en sida i analysläge](media/column-grab-icon.png) bredvid kolumnen i listan och dra till målområdet. Du kan inte flytta ett fält till ett område där det inte är tillåten.
 
 ### Analysfilter (4)
 
@@ -131,6 +131,16 @@ Här följer några tips på hur du arbetar med flera analyser:
    > [!TIP]
    > Flikarna som du ställer in visas bara för dig. Andra användare kan bara se de flikar som de har ställt in.
 - Du kan kopiera analysflikar. Kopiering kan vara användbart om du vill experimentera med att ändra en flik utan att ändra originalet, eller om du vill skapa olika varianter av samma analys.
+
+
+## Datumhierarkier
+
+I analysläge genereras datumfält för datauppsättningen i en hierarki mellan år och kvartal med tre separata fält. Den här hierarkin baseras på den normala kalendern, inte några räkenskapskalendrar som definieras i Business Central.
+
+De extra fälten heter _\<field name\> År_, _\<field name\> Kvartal_ och _\<field name\> Månad_. Om datamängden till exempel innehåller ett fält som heter _Bokföringsdatum_, består motsvarande datumhierarki av fält som heter _Bokföringsdatum år_, _Bokföringsdatum kvartal_ och _Bokföringsdatum månad_.
+
+> [!NOTE]
+> Datumhierarkin gäller för närvarande bara för fält av typen datum, inte för fält av typen DatumTid.
 
 ## Pivotläge
 

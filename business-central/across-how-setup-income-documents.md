@@ -18,7 +18,7 @@ När funktionen för **Inkommande dokument** är inställd, kan du använda olik
 
 ## Så här konfigurerar du funktionen för inkommande dokument
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inkommande dokumentkonfiguration** och väljer sedan relaterad länk.
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokumentkonfiguration** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Som en del av inställningen måste du bestämma om du vill kräva godkännande av inkommande dokument. Om du vill kräva godkännande måste du [ställa in godkännare och arbetsflöde för godkännande](#to-set-up-approvers-of-incoming-document-records). Om organisationen inte avser att kräva godkännande kan du hoppa över nästa avsnitt.
@@ -42,8 +42,6 @@ Om du vill aktivera PDF-och bildfiler i elektroniska dokument som du kan omvandl
 > Dina inloggningsdata krypteras automatiskt.
 
 Mer information finns i [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md).  
-
-## Se relaterad [Microsoft utbildning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## Se även
 

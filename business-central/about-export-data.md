@@ -72,8 +72,6 @@ Vi rekommenderar att du också överväger att exportera data från följande si
 
 Mer information finns i avsnittet [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## Se relaterad [Microsoft utbildning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Se även
 [Avbryta prenumerationen på [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  

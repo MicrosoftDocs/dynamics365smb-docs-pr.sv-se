@@ -127,7 +127,7 @@ Susan skapar en förskottsfaktura och skickar den till kunden.
     |**Artikel**|**1896-S**|**1**|  
     |**Artikel**|**1900-S**|**1**|
 
-    Förskottsfälten på försäljningsraden är dolda som standard. Om du vill visa fälten måste du anpassa sidan. Mer information finns i [Så här börjar du anpassa en sida genom den anpassningsbanderollen](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+    Förskottsfälten på försäljningsraden är dolda som standard. Om du vill visa fälten måste du anpassa sidan. Mer information finns i [Så här börjar du anpassa en sida genom den anpassningsbanderollen](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 6. Kontrollera att fältet **Förskottsbetalning %** på raden med artikel **1900-S** innehåller värdet **30**. Standardvärdet hämtades från försäljningshuvudet som kopierades från kundkortet.  
 
@@ -234,8 +234,6 @@ Den här genomgången har gått igenom hur du konfigurerar [!INCLUDE[prod_short]
 Du har också bokfört en förskottsfaktura, skapat en andra förskottsfaktura när ordern har ändrats och bokfört slutfakturan för det återstående beloppet.  
 
 Funktionerna för förskottsbetalning gör det enklare att lägga upp och använda förskottsbetalningsregler för kunder och artiklar. De ger dig också möjlighet att bokföra varje betalning mot en faktura.  
-
-## Se relaterad [Microsoft utbildning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## Se även
 

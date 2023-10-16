@@ -2,7 +2,7 @@
 title: Skaffa Business Central på din stationära dator
 description: I den här artikeln beskrivs hur du skaffar Business Central-appen på stationär Windows eller Mac iOS.
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -10,11 +10,11 @@ ms.search.keywords: 'phone, tablet'
 ms.date: 01/11/2022
 ms.author: jswymer
 ---
-# <a name="get-business-central-desktop-app"></a>Hämta appen för Business Central Desktop
+# Hämta appen för Business Central Desktop
 
 Om du har en Windows- eller macOS-dator kan du installera en Business Central-app på stationära datorn. Appen fungerar med Business Central Online och lokalt.
 
-## <a name="why-use-the-app"></a>Varför ska du använda appen?
+## Varför ska du använda appen?
 
 Business Central-appen liknar webbklienten, men har följande fördelar:
 
@@ -25,11 +25,11 @@ Business Central-appen liknar webbklienten, men har följande fördelar:
 
      När du öppnar appen för en specifik miljö ingår miljönamnet i fönster rubriken. När du arbetar i flera [!INCLUDE[prod_short](includes/prod_short.md)] miljöer visas varje appfönster separat. Namnet gör det enklare att se vilket fönster som är kopplat till varje miljö.
 
-## <a name="install-the-app-for-business-central-online"></a>Installera appen Business Central Online
+## Installera appen Business Central Online
 
 Det finns två sätt att installera appen för Business Central Online. Du kan installera den direkt från webbläsaren eller från Microsoft Store. Oavsett vilken metod du använder är det samma app. Skillnaden är att när du installerar från webbläsaren kan du installera appen för varje miljö när det finns fler än en.
 
-### <a name="from-microsoft-store"></a>Från Microsoft Store
+### Från Microsoft Store
 
 1. Gå till [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Välj **Hämta** > **Installera**. 
@@ -37,7 +37,7 @@ Det finns två sätt att installera appen för Business Central Online. Du kan i
 
 Nästa gång du vill öppna appen söker du efter den i **Start**-menyn.
 
-### <a name="from-the-browser"></a>Från webbläsaren
+### Från webbläsaren
 
 1. Öppna [!INCLUDE[prod_short](includes/prod_short.md)] webbklienten i antingen Microsoft Edge eller Google Chrome.
 
@@ -57,7 +57,7 @@ Nästa gång du vill öppna appen söker du efter den i **Start**-menyn.
 
 När programmet installerats visas det på **Start**-menyn. Om du har valt en specifik miljö för appen läggs miljönamnet till i programnamnet på **Start**-menyn.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Installera appen för Business Central lokalt
+## Installera appen för Business Central lokalt
 
 Installationen av skrivbordsappen när du använder Business Central lokalt görs direkt från webbläsaren enligt [anvisningarna ovan](#from-the-browser). Om du bara har en innehavare öppnar du först Business Central i webbläsaren och väljer sedan någon av ![ ikonerna för att installera en app i Edge.](media/ui-edge-install-app-icon.png) **App tillgänglig. Installera Business Central** eller ![ ikon för att installera en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installera Business Central** enligt anvisningarna ovan.
 
@@ -66,7 +66,7 @@ Skillnaden är när du har flera innehavare. Till skillnad från [!INCLUDE[prod_
 > [!IMPORTANT]
 > Om du använder Business Central 2021 utgivningscykel 1 (version 18) eller tidigare kan du inte installera appen på det sätt som beskrivs i den här artikeln. Installera i stället appen från [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Mer information och hjälp om hur du installerar den här äldre appen finns i [Förbereda och installera Business Central-appen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Vanliga frågor och svar om mobilappar](ui-mobile-faq.yml)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  

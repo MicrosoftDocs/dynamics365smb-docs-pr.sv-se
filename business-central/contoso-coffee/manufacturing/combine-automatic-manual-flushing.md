@@ -8,19 +8,19 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Genomgång: Kombinera automatisk och manuell "flushing"
+# Genomgång: Kombinera automatisk och manuell "flushing"
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demonstrationsdata inom "flushing".  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya produktionsordern för tio enheter av artikeln SP-SCM1004, AutoDrip. Vissa komponenter och åtgärder "flushas" framåt, andra bakåt baserat på olika villkor.
 
-## <a name="steps"></a>Steg
+## Steg
 
 > [OBS!] Kom ihåg att justera lagret genom att bokföra artikel journal med ingående balans.
 
-1. Skapa en fast planerad produktionsorder för fem enheter av artikeln **SP-SCM1004, AutoDrip** på *NORTH* plats. Mer information finns i avsnittet [Genomgång: Skapa en fast planerad produktionsorder och ändra den](create-firm-planned-production-order-change.md).  
+1. Skapa en fast planerad produktionsorder för fem enheter av artikeln **SP-SCM1004, AutoDrip** på lagerställe *NORR*-. Mer information finns i avsnittet [Genomgång: Skapa en fast planerad produktionsorder och ändra den](create-firm-planned-production-order-change.md).  
 
 2. Frisläpp produktionsordern.
 
@@ -34,7 +34,7 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya
 
 3. Granska artikel- och kapacitetstransaktionerna för produktionsordern.
 
-    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Utsläppta produktionsorder** och väljer sedan relaterad länk.  
+    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Utsläppta produktionsorder** och väljer sedan relaterad länk.  
 
     2. Öppna produktionsordern med 5 enheter av kaffemaskinen AutoDrip.  
 
@@ -46,11 +46,11 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya
 
     Du kan "flusha" komponentartiklar manuellt med hjälp av förbruknings- eller produktionsjournalen. Med manuell "flushing" kan du justera kvantiteten före bokföring. Till exempel om ytterligare kvantitet behövs för att täcka råmaterial med låg kvalitet.
 4. "Flusha" komponenter manuellt.  
-    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **förbrukningsjournal** och väljer sedan relaterad länk.  
+    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **förbrukningsjournal** och väljer sedan relaterad länk.  
 
     2. Välj åtgärden **Beräkna förbrukning**.  
 
-    3. På begärandesidan **Beräkna förbrukning**, på snabbfliken **Produktionsorder** anger du ett filter för den angivna ordern i fältet **Ordernr.** och väljer sedan knappen **OK**. När sidan för begäran om batch-jobb stängs, kommer sidan **Förbrukningsjournal** att fyllas i med komponenterna som kräver manuell förbrukning.
+    3. På begärandesidan **Beräkna förbrukning**, på snabbfliken **Produktionsorder** anger du ett filter för den angivna ordern i fältet **Ordernr.** och väljer sedan knappen **OK**. När sidan för begäran om batchprojekt stängs, kommer sidan **Förbrukningsjournal** att fyllas i med komponenterna som kräver manuell förbrukning.
 
     4. Välj åtgärden **Bokför**. Stäng förbrukningsjournalen.
 
@@ -58,7 +58,7 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya
 
     Du måste fylla i fälten **Konfigurationstid** och **Bearbetningstid**. Du kan också ange den faktiskt producerade kvantiteten och kassationen. Ange *3* som utflödeskvantitet och bokför utflödet.
 
-    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
+    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
 
     2. På sidan **Utflödesjournal** skapar du en ny journalrad.  
 
@@ -103,7 +103,7 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya
 
 Det var allt för manuell och automatisk "flushing" av komponenter.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 ["Flusha" komponenter utifrån verksamhetens utflöde](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

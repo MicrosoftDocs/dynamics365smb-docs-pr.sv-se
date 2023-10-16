@@ -348,6 +348,11 @@
 #### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md)
 
+### Hantera e-dokument
+#### [Konfigurera e-dokument](finance-how-setup-edocuments.md)
+#### [Använda e-dokument vid försäljning och inköp](finance-how-use-edocuments.md)
+#### [Utöka funktionaliteten för e-dokument](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Hantera moms
 #### [Översikt över momshantering](finance-manage-vat.md)
 #### [Inköpstransaktioner för tredje part från EU-land](finance-how-to-eu3party-trade-purchase.md)
