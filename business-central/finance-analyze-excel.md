@@ -8,7 +8,7 @@ ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: bholtorf
 ---
-# Analysera finansiella rapporter i Microsoft Excel
+# <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysera finansiella rapporter i Microsoft Excel
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tillhandahåller KPI:er och får översikter över ditt företags ekonomi. Nedan följer exempel på hur du kan analysera KPI:er och översikter i Excel:
 
@@ -18,7 +18,7 @@ ms.author: bholtorf
 > [!TIP]
 > Som standard är rapporterna som du kan visa i Excel utformade för att hjälpa dig att analysera det aktuella året. Rapporten resultaträkning är emellertid ett undantag. Med hjälp av rapporten kan du filtrera data så att de inkluderar föregående år i analyserna.
 
-## Få en översikt och detaljer i Excel
+## <a name="getting-the-overview-and-the-details-in-excel"></a>Få en översikt och detaljer i Excel
 
 I rollcenter för Chef och Revisor kan du med åtgärden **Rapporter** välja finansiella rapporter för att visa i Excel. När du väljer en rapport öppnas den i Excel eller Excel Online. Ansluter data med ett tillägg på [!INCLUDE [prod_short](includes/prod_short.md)]. Men du måste logga in med samma konto som du använder med [!INCLUDE [prod_short](includes/prod_short.md)]. I följande tabell visas rapporterna och var de är tillgängliga.  
 
@@ -38,19 +38,19 @@ Anta att du vill expandera ämneslistan till kassaflödet. Du kan öppna rapport
 
 I Excel kan se du en flik där data placeras automatiskt i det första kalkylbladet. Alla data som har exporterats finns också i andra kalkylblad om du skulle behöva. Du kan skriva ut rapporten direkt eller ändra det tills du har översikten och den information som du vill använda. Använd [!INCLUDE [prod_short](includes/prod_short.md)] Excel-tillägg för att ytterligare filtrera och analysera data.  
 
-### Förstå Excel-mallarna
+### <a name="understanding-the-excel-templates"></a>Förstå Excel-mallarna
 
 De fördefinierade Excel-rapporterna baseras på informationen i det aktuella företaget. Demonstrationsföretaget har till exempel lagt upp kontoplanen för att visa tre kassakonton under *Omsättningstillgångar*: 10100 **Checkräkningskonto**, 10200 **Sparkonto** och 10300 **Handkassa**. Kontona har fältet **Konto-underkategori** inställt på *Kontanter* och det är deras sammanlagda belopp som visas som *Kontanter* i Excel-rapporten **Balansräkning**.  
 
 De övriga bladen i Excel-arbetsboken visar de data som ligger bakom rapporten. Om du vill ta reda på vad som ligger bakom grupperingarna i Excel-rapporterna måste du kanske filtrera listorna i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## [!INCLUDE [prod_short](includes/prod_short.md)] Excel tillägg
+## <a name="the--excel-add-in"></a>[!INCLUDE [prod_short](includes/prod_short.md)] Excel tillägg
 
 Din [!INCLUDE [prod_short](includes/prod_short.md)]-upplevelse inkluderar ett tillägg för Excel. Beroende på din prenumeration loggas du in automatiskt eller måste ange inloggningsinformation för [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Visa och redigera i Excel från Business Central](across-work-with-excel.md).  
 
 Med tillägget, kan du uppdatera data från [!INCLUDE [prod_short](includes/prod_short.md)], och du kan skicka ändringar till [!INCLUDE [prod_short](includes/prod_short.md)]. Däremot inaktiveras skjuta tillbaka till databasen är inte tillgängligt för de finansiella rapporter du kan se i Excel.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Visa och redigera i Excel från Business Central](across-work-with-excel.md)  
 [Ekonomi](finance.md)  

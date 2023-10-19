@@ -11,7 +11,7 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Ta emot och omvandla elektroniska dokument
+# <a name="receive-and-convert-electronic-documents"></a>Ta emot och omvandla elektroniska dokument
 
 Den generiska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] stöder mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. Om du vill ta emot en faktura från en leverantör som ett elektroniskt PEPPOL-dokument behandlar du dokumentet på sidan Inkommande dokument för att konvertera det till en inköpsfaktura eller redovisningsjournalsrad i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -34,7 +34,7 @@ Du kan antingen starta omvandlingen av elektroniska dokument manuellt, enligt be
 
 Efterföljande procedur beskriver hur du tar emot en leverantörsfaktura och den omvandlas till en inköpsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)]. Proceduren är samma, när du omvandlar en leverantörsfaktura till en redovisningsjournalrad.  
 
-### Så här tar du emot och omvandlar en elektronisk faktura till en inköpsfaktura
+### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Så här tar du emot och omvandlar en elektronisk faktura till en inköpsfaktura
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.  
 
@@ -52,7 +52,7 @@ Efterföljande procedur beskriver hur du tar emot en leverantörsfaktura och den
 
     Eventuella valideringfel som vanligtvis beror på fel eller saknade huvuddata i [!INCLUDE[prod_short](includes/prod_short.md)], visas på snabbfliken **Felmeddelanden**.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inkommande dokument](across-income-documents.md)  

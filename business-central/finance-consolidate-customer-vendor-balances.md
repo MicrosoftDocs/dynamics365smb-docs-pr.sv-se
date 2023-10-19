@@ -26,7 +26,7 @@ Innan du konsoliderar saldon anger du några inställningar på sidan **Marknads
 * På snabbfliken **Interaktioner** måste du ange affärsrelationskoder i fälten **Kunder** och **Leverantörer**. [!INCLUDE[prod_short](includes/prod_short.md)] använder den här informationen för att bestämma vilken typ av relation som ska visas för kontakter. 
 * Valfritt: På snabbfliken **Dubbletter** kan du aktivera eller inaktivera dubblettsökning. Som standard är sökning för dubbletter aktiverad. Mer information finns i [Hantera dubbletter](#handling-duplicates). 
 
-## <a name="link-an-existing-customer-and-vendor-company-thorough-a-contact"></a>Länka en befintlig kund och ett leverantörsföretag genom en kontakt
+## <a name="link-an-existing-customer-and-vendor-company-through-a-contact"></a>Länka en befintlig kund och ett leverantörsföretag genom en kontakt
 Följande steg beskriver hur du länkar en kund och en leverantör via en kontakt.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** eller **Leverantör** och väljer sedan relaterad länk.

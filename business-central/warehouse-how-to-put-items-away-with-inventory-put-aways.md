@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7375,'
 ---
-# Föra in artiklar med lagerartikelinförsel
+# <a name="put-items-away-with-inventory-put-aways"></a>Föra in artiklar med lagerartikelinförsel
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ta emot objekt och lägga undan dem med någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -36,29 +36,29 @@ Du kan skapa en lagerartikelinförsel på tre sätt:
 * Skapa lagerartikelinförslar för flera källdokument samtidigt med hjälp av ett batch-jobb.  
 * Skapa artikelinförseln i två steg genom att först släppa källdokumentet för att göra artiklarna tillgängliga för artikelinförsel. Du kan skapa lagerartikelinförseln baserat på källdokumentet med sidan **Lagerartikelinförsel**.  
 
-## Så här skapar du en lagerartikelinförsel från källdokumentet
+## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet
 
 1. I källdokumentet, som kan vara en inköpsorder, försäljningsreturorder, inkommande överföringsorder, välj åtgärden **Skapa lagerartikelinförsel/plocka**.  
 2. Markera kryssrutan **Skapa lagerinförsel/plockning**.
 3. Välj knappen **OK**. En ny lagerinförsel har skapats.
 
-## Så här skapar du flera lagerartikelinförslar med batch-jobbet:
+## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Så här skapar du flera lagerartikelinförslar med batch-jobbet:
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Skapa lagerinförsel/plockning/rörelse** och väljer sedan relaterad länk. 
 2. På snabbfliken **Dist.lagerkrav** använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer. Du kan till exempel endast skapa artikelinförseln för inköpsorder.
 3. På snabbfliken **Alternativ**, markera kryssrutan **Skapa lagerinförsel**.
 4. Välj **OK**. Anger numret för den bokförda artikelinförseln i lagret.
 
-## Så här skapar du artikelinförseln i två steg
+## <a name="to-create-the-put-away-in-two-steps"></a>Så här skapar du artikelinförseln i två steg
 
-### Så här begär du en lagerinförsel genom att släppa källdokumentet
+### <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Så här begär du en lagerinförsel genom att släppa källdokumentet
 
 När du släpper inköpsorder, försäljningsreturorder och inkommande överföringsorder, blir artiklarna på order tillgängliga för artikelinförsel. Följande steg beskriver hur du gör artiklarna på en inköpsorder klara att föras in.  
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.
 2. Markera den inköpsorder som du vill släppa och välj sedan åtgärden **Släpp**.  
 
-### Så här skapar du en lagerartikelinförsel från källdokumentet
+### <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Så här skapar du en lagerartikelinförsel från källdokumentet
 
 En distributionslagerarbetare kan skapa en ny lagerinförsel baserat på det släppta källdokumentet.
 
@@ -69,7 +69,7 @@ En distributionslagerarbetare kan skapa en ny lagerinförsel baserat på det sl�
 5. Välj åtgärden **Hämta källdokument** för att välja från en lista över inkommande källdokument som är klara för artikelinförsel för på lagerstället.  
 6. Välj knappen **OK** för att fylla artikelinförselrader enligt det valda källdokumentet.  
 
-## När du vill registrera lagerinförsel.
+## <a name="to-record-the-inventory-put-away"></a>När du vill registrera lagerinförsel.
 
 1. På sidan **lagerartikelinförsel**, öppna ett befintligt lagerinförseldokument.  
 2. I fältet **Lagerställeskod** på artikelinförselrader föreslår lagerplats där artiklarna måste föras in baserat på artikelns standardlagerplats. Du kan ändra lagerplats vid behov.  
@@ -83,7 +83,7 @@ En distributionslagerarbetare kan skapa en ny lagerinförsel baserat på det sl�
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

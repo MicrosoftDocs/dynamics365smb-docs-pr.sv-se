@@ -10,7 +10,7 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# Plocka artiklar för utleverans från dist.lager
+# <a name="pick-items-for-warehouse-shipment"></a>Plocka artiklar för utleverans från dist.lager
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du plocka och inleverera artiklar och använda någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -39,11 +39,11 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 >  
 > Information om hur du plockar komponenter för monteringsorder, inklusive situationer där monteringsartikeln inte är relaterad till en försäljningsutleverans, se [Plocka för montering eller projekt i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## Kontrollera om artiklar är tillgängliga för plockning
+## <a name="check-whether-items-are-available-for-picking"></a>Kontrollera om artiklar är tillgängliga för plockning
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## Så här skapar du plockningsdokumenten i bulk med plockningskalkylarket
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Så här skapar du plockningsdokumenten i bulk med plockningskalkylarket
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
 
@@ -93,7 +93,7 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 
 8. Välj **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] skapar plockningen enligt dina val.  
 
-## Så här plocka artiklar för utleverans
+## <a name="to-pick-items-for-a-warehouse-shipment"></a>Så här plocka artiklar för utleverans
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerplockningar** och väljer sedan relaterad länk.  
 
@@ -115,7 +115,7 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 
 Du kan nu ta artiklarna till leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, på sidan **Distributionslagerutleverans**. Läs mer på [utleverera artiklar](warehouse-how-ship-items.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

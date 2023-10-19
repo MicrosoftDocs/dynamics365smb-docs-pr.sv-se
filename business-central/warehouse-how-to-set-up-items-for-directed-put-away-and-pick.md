@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 11/07/2022
 ms.author: bholtorf
 ---
-# Registrera artiklar och platser för dirigerad artikelinförsel och plockning
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Registrera artiklar och platser för dirigerad artikelinförsel och plockning
 
 När du skapar ett dist.lagerställe för dirigerad artikelinförsel och plockning, finns det en ny funktion som du kan använda för att hantera dist.lagret på det mest effektiva sättet. För att använda funktionen till fullo anger du extra information om artiklarna, vilket i sin tur innebär att beräkningar kan göras som talar om för dig hur du på bästa och effektivaste sätt utför dist.lageraktiviteter. 
 
-## Så här skapar du artiklar för dirigerad artikelinförsel och plockning  
+## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Så här skapar du artiklar för dirigerad artikelinförsel och plockning
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Öppna kortet för artikeln som du vill skapa dirigerad artikelinförsel och plockning för.
@@ -25,7 +25,7 @@ När du skapar ett dist.lagerställe för dirigerad artikelinförsel och plockni
 6. Välj åtgärden **Lagerställesinnehåll**.
 7. På sidan **Lagerställesinnehåll** definierar du det lagerställe och den lagerplats som artikeln ska associeras med. Fältet **Standard** används inte när lagerstället lagts upp för att använda dirigerad artikelinförsel och plockning.  
 
-## För att börja använda dirigerad artikelinförsel och plockning
+## <a name="to-start-using-directed-put-away-and-pick"></a>För att börja använda dirigerad artikelinförsel och plockning
 
 Med hjälp av dirigerad artikelinförsel och plockning får du tillgång till avancerade funktioner för distributionslagerkonfiguration som väsentligt kan öka effektiviteten och datatillförlitligheten. Om du vill använda den här funktionen måste du först ange ett antal parametrar för ditt lagerställe.  
 
@@ -46,7 +46,7 @@ Du kan även definiera klasskoder för distributionslagret om distributionslagre
 
 Du är nu klar att skapa zoner, om du vill. Genom att använda zoner minskar du antalet fält som måste fyllas i när du lägger upp lagerställen, eftersom lagerställen som skapas i zoner ärver flera av zonens egenskaper. Zoner kan även göra det lättare för ny- eller korttidsanställda att orientera sig i distributionslagret. Observera att flödet styrs av lagerställen, därför är det möjligt att arbeta med lagerställen och endast en zon.  
 
-## Så här skapar du en zon i distributionslagret  
+## <a name="to-set-up-a-zone-in-your-warehouse"></a>Så här skapar du en zon i distributionslagret
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2. Välj lagerstället där du vill ställa in zonen och öppna lagerställekortet och välj sedan åtgärden **Zoner**.  
@@ -61,7 +61,7 @@ Nästa steg är att definiera lagerställen. Mer information finns i [Registrera
 
 Dessutom måste du skapa artikelinförselmallar och inventeringsperioder. Mer information finns i [Skapa artikelinförselsmallar](warehouse-how-to-set-up-put-away-templates.md).  
 
-## Se även  
+## <a name="see-also"></a>Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
