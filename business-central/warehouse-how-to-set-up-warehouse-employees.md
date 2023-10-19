@@ -9,11 +9,11 @@ ms.date: 09/25/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# <a name="set-up-warehouse-employees"></a>Konfigurera distributionslagerpersonal
+# Konfigurera distributionslagerpersonal
 
 Du måste konfigurera varenda användare som utför distributionslageraktiviteter och tilldela dem till ett standardlagerställe. [!INCLUDE [prod_short](includes/prod_short.md)] filtrerar lageraktiviteterna till medarbetarens standardlagerställe. De kan bara utföra lageraktiviteter på lagerstället. Du kan också tilldela en användare till andra lagerställen. De kan komma åt men inte utföra aktiviteter på dessa lagerställen.
 
-## <a name="to-set-up-warehouse-employees"></a>Så här registrerar du distributionslagerpersonal
+## Så här registrerar du distributionslagerpersonal  
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -25,9 +25,9 @@ Du måste konfigurera varenda användare som utför distributionslageraktivitete
 > [!TIP]
 > Du kan också använda åtgärden **Lägg till mig som lageranställd** för att snabbt lägga till dig själv i listan över lageranställda. Detta är till exempel praktiskt när du testar funktionerna.
 
-## <a name="see-related-microsoft-training"></a>Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
+## Se relaterad [Microsoft utbildning](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
