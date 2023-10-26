@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.forms: '119, 9807,'
 ---
 
-# <a name="define-an-invoice-posting-policy-for-users"></a>Definiera en bokföringspolicy för faktura för användare
+# Definiera en bokföringspolicy för faktura för användare
 
 Företag har ofta unika processer för att bokföra försäljnings- och inköpsfakturor och leveranser. Processer kan till exempel variera från en person som bokför allt på en inköpsorder, till flera anställda. Du kan begränsa användare från bokföringsfakturor eller kräva att fakturor bokförs tillsammans med leveranser eller inleveranser.
 
-## <a name="to-specify-a-posting-policy"></a>Så här anger du bokföringspolicy
+## Så här anger du bokföringspolicy
 
 På sidan **användarinställningar** i fälten **Bokföringspolicy för försäljningsfaktura** och **Bokföringsprincip för inköpsfaktura** välj ett av följande alternativ:
 
@@ -22,16 +22,23 @@ På sidan **användarinställningar** i fälten **Bokföringspolicy för försä
 * **Förbjuden** – hindrar användaren från att bokföra fakturor. I Business Central visas en bekräftelse dialogruta som endast innehåller alternativ **leverans** och **mottagning**.
 * **Obligatorisk** – gör att användaren kan bokföra fakturor tillsammans med inleveranser eller utleveranser. I Business Central visas en bekräftelse dialogruta med alternativ **leverans och fakturera** och **mottagning och fakturera**.
 
-## <a name="effect-on-documents"></a>Inverkan på dokument
+## Inverkan på dokument
 
 I följande tabell beskrivs hur fakturana bokföringsprinciper påverkar dokument.
+
+> [!NOTE]
+> När du bokför försäljnings- och inköpsfakturor och kreditnotor har du inga bokföringsalternativ. I dokumenten bokförs alltid de fysiska och ekonomiska transaktionerna tillsammans. Du kan inte delvis bokföra fakturor och kreditnotor.
 
 |Dokument | Alternativ 1: Tillåt <br>Visar en serie alternativ| Alternativ 2: otillåtet <br>Bekräftelsedialogruta | Alternativ 3: obligatorisk <br>Bekräftelsedialogruta|
 |--|--|--|--|
 |Försäljningsorder |- Leverera <br>- Fakturera <br>- Leverera och fakturera |Vill du bokföra utleveranserna? |Vill du bokföra utleveransen och fakturan?|
-|Försäljningsreturorder |- Inleverera <br>- Fakturera <br>- Inleverera och fakturera |Vill du bokföra inleveransen? |Vill du bokföra inleveransen och fakturan?|
+|Försäljningsfaktura|Inga alternativ|Vill du bokföra fakturan?|Vill du bokföra fakturan?|
+|Försäljningskreditnota|Inga alternativ|Vill du bokföra kreditnotan?|Vill du bokföra kreditnotan?|
+|Försäljningreturorder |- Inleverera <br>- Fakturera <br>- Inleverera och fakturera |Vill du bokföra inleveransen? |Vill du bokföra inleveransen och fakturan?|
 |Lagerplockning |- Leverera <br>- Leverera och fakturera |Vill du bokföra utleveranserna? |Vill du bokföra utleveransen och fakturan?|
 |Inköpsorder |- Inleverera <br>- Fakturera <br>- Inleverera och fakturera |Vill du bokföra inleveransen? |Vill du bokföra inleveransen och fakturan?|
+|Inköpsfaktura|Inga alternativ|Vill du bokföra fakturan?|Vill du bokföra fakturan?|
+|Inköpskreditnota|Inga alternativ|Vill du bokföra kreditnotan?|Vill du bokföra kreditnotan?|
 |Inköpsreturorder |- Leverera <br>- Fakturera <br>- Leverera och fakturera |Vill du bokföra utleveranserna? |Vill du bokföra utleveransen och fakturan?|
 |Lagerinförsel |- Inleverera <br>- Inleverera och fakturera |Vill du bokföra inleveransen? |Vill du bokföra inleveransen och fakturan?|
 |Dist.lager utleverans |- Leverera <br>- Leverera och fakturera | Vill du bokföra utleveranserna? |Vill du bokföra utleveransen och fakturan?|
@@ -39,7 +46,7 @@ I följande tabell beskrivs hur fakturana bokföringsprinciper påverkar dokumen
    > [!Note]
    > Inställningen påverkar inte bokföring av redovisningsjournalrader där du kan välja **faktura** i fältet **dokumenttyp**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Fakturaförsäljning](sales-how-invoice-sales.md)  
 [Registrera inköp med inköpsfakturor och order](purchasing-how-record-purchases.md)  
