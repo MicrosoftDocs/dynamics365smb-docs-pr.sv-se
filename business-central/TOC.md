@@ -6,6 +6,7 @@
 ## [Översikt över affärsfunktioner](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Läs mer
+### [Resurser för användare](resources-for-users.md)
 ### [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)
 ### [Business Central-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Genomgång av affärsprocesser
@@ -349,6 +350,7 @@
 #### [Tillägget för prediktion om sen betalning](ui-extensions-late-payment-prediction.md)
 
 ### Hantera e-dokument
+#### [Översikt över e-dokument](finance-edocuments-overview.md)
 #### [Konfigurera e-dokument](finance-how-setup-edocuments.md)
 #### [Använda e-dokument vid försäljning och inköp](finance-how-use-edocuments.md)
 #### [Utöka funktionaliteten för e-dokument](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
@@ -1815,6 +1817,7 @@
 
 ## Analysera data i business intelligence-verktyg
 ### [Översikt](reports-external-analysis.md)
+### [Microsoft Fabric och Business Central](admin-fabric.md)
 ### [Använda Power BI med Business Central](admin-powerbi.md)
 ### [Analysera bokslut med Excel](finance-analyze-excel.md)
 ### [Hämta data till ett datadistributionslager eller datasjöar](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

@@ -21,7 +21,7 @@ Konsumenter och företag betalar moms när de köper varor eller tjänster. Moms
 * Vad du säljer  
 * Vad du köper  
 
-Du kan ställa in momsberäkningar manuellt, men det kan vara svårt och tidsödande. Annars skulle vara mycket emkelt att använda olika momssatser av misstag, och göra felaktiga momsrapporter. För att göra momsinställningen enklare rekommenderar vi att du använder den assisterade **momsinställning** som finns i produkten. 
+Du kan ställa in momsberäkningar manuellt, men det kan vara svårt och tidsödande. Det är enkelt att använda olika momssatser av misstag, och göra felaktiga momsrapporter. För att göra momsinställningen enklare rekommenderar vi att du använder den assisterade **momsinställning** som finns i produkten. 
 
 Om du vill ställa in momsberäkningar själv eller bara vill ha information om varje steg, innehåller denna artikel beskrivningar av varje steg:  
 
@@ -101,7 +101,32 @@ Du kan hindra andra från att bokföra eller ändra momstransaktioner inom ett v
 | **Varna vid bokföring i stängd period** | Visa en varning, men spärra inte bokföring, om du vill bokföra ett dokument eller en journal som har ett momsdatum inom en stängd **momsreturperiod**. |
 | **Inaktiverat** | Ingen åtgärd utförs baserat på en stängd  **momsreturperiod**. |
 
-#### Så här begränsar du bokföring baserat på tillåt från/till-period
+#### Begränsa bokföring baserat på tillåt från/till-period
+
+> [!NOTE]
+> Från och med Business Central version 23.1 ändras den här kontrollen. I tidigare versioner fanns det bara en kontroll på sidan **Redovisningsinställningar** för både bokföringsdatum och momsdatum. Nu är dessa kontroller delade, så kontroll på sidan **Redovisningsinställningar** är endast för **Bokföringsdatumet** och kontrollen i **Momsinställning** är endast för **Momsdatum**. Det finns också nya datumkontroller på sidan **Användarinställningar**.  
+
+##### Version 23.1 eller nyare
+
+> [!IMPORTANT]
+> När du uppgraderar till en ny version, var medveten om att värdena uppgraderas i den nya **Tillåt momsdatum från/till** på sidan **Momsinställningar** baserat på värdena i **Tillåt bokföring från/till** i **Redovisningsinställningar**. Om du vill använda olika datumkontroller öppnar du sidan **Momsinställning** och gör ändringar.  
+
+Du kan ställa in begränsningar på företaget eller specifika användarnivåer.
+
+Så här begränsar du alla bokföringar för hela företaget:
+
+1. Välj ![glödlampan som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsinställningar** och väljer sedan relaterad länk.  
+2. På snabbfliken **Momsdatum** anger du **Tillåt momsdatum från** ange från vilket momsdatum du tillåter bokföring. Bokföra ett dokument eller en journal med ett momsdatum före detta datum är inte tillåtet.  
+3. På snabbfliken **Momsdatum** anger du **Tillåt momsdatum till** ange till vilket momsdatum du tillåter bokföring. Bokföra ett dokument eller en journal med ett momsdatum efter detta datum är inte tillåtet. 
+
+Så här begränsar du bokföring för en viss användare:  
+
+1. Välj ![glödlampan som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställning** och väljer sedan relaterad länk.  
+2. I fältet **Användar-ID** anger du den användare som ska tillåtas bokföra under en viss period.  
+3. I fältet **Tillåt momsdatum från** ange från vilket momsdatum du tillåter bokföring. Bokföra ett dokument eller en journal med ett momsdatum före detta datum är inte tillåtet. 
+4. I fältet **Tillåt momsdatum till** ange till vilket momsdatum du tillåter bokföring. Bokföra ett dokument eller en journal med ett momsdatum efter detta datum är inte tillåtet.  
+
+##### Versioner före 23.1 
 
 Du kan ställa in begränsningar på företaget eller specifika användarnivåer.
 
@@ -156,7 +181,7 @@ Det är praktiskt att använda koder som är lätta att komma ihåg och som besk
 
 Om du vill konfigurera rörelsebokföringsmall för moms, gör du följande steg:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Moms produktbokföringsmallar** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Moms produktbokföringsmallar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 
 ## Kombinera momsbokföringsmallar i momsbokföringsinställningar

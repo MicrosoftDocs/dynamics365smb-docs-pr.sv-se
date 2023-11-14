@@ -8,13 +8,13 @@ ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
 ---
-# <a name="sharing-business-data-from-business-central"></a>Dela affärsdata från Business Central
+# Dela affärsdata från Business Central
 
 Samarbete mellan personer inom och utanför en organisation är en vital del av de flesta företag. I [!INCLUDE[prod_short](includes/prod_short.md)] finns flera funktioner för att dela affärsdata, till exempel en lista över poster, specifika poster eller dokument. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Med alla dessa funktioner skyddas åtkomst till data av licensen och behörigheterna för Business Central.
 
-## <a name="copying-a-link"></a>Kopiera en länk
+## Kopiera en länk
 
 ![Stöds](media/check.png) Business Central Online ![Stöds](media/check.png) Business Central lokalt
 
@@ -33,22 +33,22 @@ När du klistrar in URL:en i en RTF-redigerare, till exempel Word, Outlook eller
 > [!TIP]
 > En liknande namngivningskonvention används på webbläsarflikar.
 
-### <a name="share-data-analysis"></a>Dela dataanalys
+### Dela dataanalys
 Om du visar en sida eller fråga i dataanalysläget kan du dela en specifik analysflik genom att välja nedpilspetsen på fliken och sedan välja **Kopiera länk**. [Läs mer om dataanalysläge](analysis-mode.md). 
 
-### <a name="modify-the-page-link"></a>Ändra sidlänken
+### Ändra sidlänken
 
 När du har kopierat en länk kan du, innan du skickar den, ändra URL-adressen för att ändra vad som ska visas när sidan öppnas. Du kan till exempel lägga till filter eller ange ett annat företag.
 
 [Läs mer om webbklientens URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a>Om filtrerade listor
+### Om filtrerade listor
 
 Med filterrutan på list sidor kan du använda filter för att begränsa posterna som visas i listan. Om du använder åtgärden **Kopiera länk** eller kopierar URL-adressen från webbläsaren innehåller sidlänken inte filterändringarna. Användare som öppnar länken kommer att se hela samlingen. Sättet att behålla filtreringen på en länk till en samlingssida är att först spara den filtrerade sidan som en **Vy**. Öppna sedan vyn och kopiera länken därifrån.
 
 [Läs mer om sortering, sökning och filtrering](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a>Dela med Teams
+## Dela med Teams
 
 ![Stöds](media/check.png) Business Central Online ![Stöds inte](media/x-icon.png) Business Central lokalt
 
@@ -56,7 +56,7 @@ Direkt från de flesta samlings- och informations sidor kan du skicka en länk t
 
 [Läs mer om att dela poster och sidlänkar i Teams](across-working-with-teams.md).
 
-## <a name="sharing-through-onedrive"></a>Dela via OneDrive
+## Dela via OneDrive
 
 ![Stöds](media/check.png) Business Central Online ![Stöds](media/check.png) Business Central lokalt
 
@@ -64,7 +64,7 @@ Med Business Central är det enkelt att lagra, hantera och dela filer med andra 
 
 [Läs mer om att dela filer i OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a>Öppna i Excel
+## Öppna i Excel
 
 ![Stöds](media/check.png) Business Central Online ![Stöds](media/check.png) Business Central lokalt
 
@@ -72,7 +72,7 @@ För listsidor och listor som är inbäddade på en sida kan du använda åtgär
 
 [Läs mer om hur du visar och redigerar i Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a>Dela rader eller tabeller
+## Dela rader eller tabeller
 
 ![Stöds](media/check.png) Business Central Online ![Stöds](media/check.png) Business Central lokalt
 
@@ -80,7 +80,7 @@ Du kan dela en eller flera poster i en lista. Välj bara kortkommandot <kbd>Ctrl
 
 [Läs mer om kopiera och klistra in i Vanliga frågor](faq-copy-paste.yml).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Business Central- och OneDrive-integration](across-onedrive-overview.md)  
 [Hantera OneDrive integrering med Business Central](admin-onedrive-integration.md)  

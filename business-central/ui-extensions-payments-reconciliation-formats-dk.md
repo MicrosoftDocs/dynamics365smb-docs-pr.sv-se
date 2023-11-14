@@ -11,7 +11,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-payments-and-reconciliations-dk-extension"></a>Tillägg för betalningar och avstämning (DK).
+# Tillägg för betalningar och avstämning (DK).
 
 Gör snabba, felfria betalninger genom att exportera filer som är specifikt formaterade för utbyte med din leverantör eller bank. Filerna påskyndar processerna för betalning och avstämning och undviker fel som kan inträffa när du manuellt anger information på en bankwebbplats.  
 
@@ -20,7 +20,7 @@ Det här tillägget stöder filformat för flera danska banker. När du exporter
 > [!Note]
 > Om du vill använda tillägget måste du känna till det format som banken eller leverantör kräver. Vissa banker eller leverantörer tillhandahåller denna information på sina webbplatser; Du kan dock behöva kontakta deras kundservice för att hämta önskad information.  
 
-## <a name="supported-bank-formats"></a>Bankformat som stöds
+## Bankformat som stöds
 Det här tillägget använder följande format för betalningsfiler:  
 
 * BANKDATA-V3  
@@ -36,7 +36,7 @@ Det här tillägget använder följande format för betalningsfiler:
 * SDC  
 * SDC CSV  
 
-## <a name="to-set-up-the-extension"></a>Så här ställer du in tillägget
+## Så här ställer du in tillägget
 
 Det finns några steg för att komma igång.  
 
@@ -47,13 +47,13 @@ Det finns några steg för att komma igång.
 
 Dessutom måste du tilldela leverantörer till en inhemsk **Gen. rörelsebokföringsmall** och en **Leverantörsbokföringsmall**. Inställningen av Land/Region måste för leverantören vara Danmark (DK). Mer information finns i [Ställa in bokföringsmallar](finance-posting-groups.md).  
 
-### <a name="to-allow--to-export-payment-data"></a>För att tillåta betalningsdataexport från [!INCLUDE[prod_short](includes/prod_short.md)]
+### För att tillåta betalningsdataexport från [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Betalningsjournal** och väljer sedan relaterad länk.  
 2. På sidan **Redigera betalningsjournal**, välj journalen **Bank**.  
 3. Markera kryssrutan **Tillåt betalningsexport**.  
 
-### <a name="to-specify-a-payment-method-for-a-vendor"></a>Ange betalningssätt för en leverantör
+### Ange betalningssätt för en leverantör
 
 I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [!INCLUDE[prod_short](includes/prod_short.md)] stödjer.
 
@@ -67,13 +67,13 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 2. Öppna kortet, expandera fliken **betalningar** i fältet **betalningssätt** och välj betalningssätt.  
 3. I vissa fall måste du fylla i andra fält. Se tabellen ovan för mer information om kombinationer.  
 
-### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Ange formaten som ska användas för ett bankkonto
+### Ange formaten som ska användas för ett bankkonto
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.  
 2. Öppna kortet för bankkontokort.  
 3. I fältet **Format för betalningsexport**, välj format för exportfilen.  
 
-## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Välja FIK eller Giro betalningsinformation för leverantörsfakturor
+## Välja FIK eller Giro betalningsinformation för leverantörsfakturor
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
 2. Välj Leverantören. Kom ihåg att detta måste en dansk leverantör med adress i Danmark.
@@ -85,7 +85,7 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 
 5. Bokföra fakturan
 
-## <a name="to-use-the-extension-to-export-payment-data"></a>Du använder tillägget för att exportera betalningsdata
+## Du använder tillägget för att exportera betalningsdata
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Betalningsjournaler** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Föreslå betalningsjournaler för leverantör**.  
@@ -97,7 +97,7 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 4. I fältet **Bankbetalningstyp** väljer du **Elektronisk betalning.**  
 5. Välj åtgärden **Exportera**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anpassning av Business Central för [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Ta betalt med SEPA-postförskott](finance-collect-payments-with-sepa-direct-debit.md)  

@@ -12,11 +12,11 @@ ms.date: 08/17/2022
 ms.author: bholtorf
 ---
 
-# <a name="business-intelligence-quick-start"></a>Business Intelligence snabbstart
+# Business Intelligence snabbstart
 
 Att samla in och analysera de ständigt ökande data mängderna på ett praktiskt sätt är en värdefull del av att göra affärer med dessa dagar. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller många Business Intelligence-verktyg (BI)&mdash;som både är inbyggda och integrerade med andra tjänster&mdash;för att hjälpa företaget i beslutsarbetet.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a>Få insikter om viktiga punkter som intresserar dig
+## Få insikter om viktiga punkter som intresserar dig
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller inbyggda diagram som kan visas i **insikter** delen på startsidan, som täcker *inkomst och utgift*, *kassaflöde*, *försäljningstrender* och andra rapporter. Du hittar ytterligare nyckeltal (KPI:er) på sidan för **Intelligenta molninsikter**, som visar information om åtgärder från ekonomi, lager, försäljning och inköp:
 
@@ -24,7 +24,7 @@ Att samla in och analysera de ständigt ökande data mängderna på ett praktisk
 
 Du kan välja tillgängliga datakort och insikter för att öppna den relaterade redovisningssidan. På sidan **Intelligenta molninsikter** används också en anslutning med befintliga Power BI och Azure Machine Learning-abonnemang för att visa analys- och prognosinstrumentpaneler.
 
-## <a name="set-up-power-bi-integration"></a>Konfigurera Power BI-integrering
+## Konfigurera Power BI-integrering
 
 Du kan ansluta [!INCLUDE[prod_short](includes/prod_short.md)] med Power BI för att skapa inträngande rapporter och kraftfulla instrumentpaneler. Power BI-integrering innehåller många alternativ för att ge insikter som bygger på ditt företagsdata, inklusive en mängd olika visuella, filtrerings-och visningsanpassningar.
 
@@ -40,7 +40,7 @@ Power BI-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)] inneh�
 
 Du kan också skapa visuella rapporter som bygger på [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av **Microsoft Excel** dokumenttyp i en rapport. Mer information finns i [köra och skriva ut rapporter](ui-work-report.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Business Analysis och Financial Reporting](bi.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  

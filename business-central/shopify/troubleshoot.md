@@ -41,7 +41,7 @@ På sidan **Shopify-loggposter** kan du ta bort alla loggposter eller bara de po
 
 ### Att granska loggar
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta vad du vill göra") och anger **Shopify-loggposter** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och anger **Shopify-loggposter** och väljer sedan relaterad länk.
 2. Välj den berörda loggposten och öppna sidan **Shopify-loggpost**.
 3. Kontrollera värden för begäran, statuskod och beskrivning och svar.
 
@@ -157,6 +157,10 @@ Kontakta Shopify-supporten inom sju dagar efter detta felet uppstått och ange b
 ### Fel: Oauth-fel invalid_request: Ditt konto har inte behörighet att bevilja den begärda åtkomsten för den här appen. 
 
 Det verkar som om användare som begär åtkomst inte har rättigheter att hantera appar (möjlighet att hantera och installera appar och kanaler, samt eventuellt godkänna appavgifter). Du kanske kan lösa problemet genom att installera appen som kontoägare. Du kan också kontrollera **Appbehörigheten** för användaren i inställningarna [**Användare och behörigheter**](https://www.shopify.com/admin/settings/account) i din **Shopify administratören**.  
+
+### [{"meddelande":"Åtkomst nekad för fältet FÄLT.","platser":[{"rad":0,"kolumn":0}],"sökväg":["sökväg"],"tillägg":{"kod":"ÅTKOMST_NEKAD","dokumentation":https://shopify.dev/api/usage/access-scopes}}]
+
+Begär en ny token eftersom den uppdaterade versionen av anslutningsprogrammet kräver fler behörigheter (programomfattningar). För mer information gå till to [Begäran om åtkomsttoken](#request-the-access-token).
 
 ## Se även
 

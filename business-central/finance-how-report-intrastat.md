@@ -116,6 +116,13 @@ När du arbetar med **Intrastat-rapporten** visas fältet **Status** i dokumenth
 * *Släppt*: [!INCLUDE[prod_short](includes/prod_short.md)] ändrar automatiskt statusen till *Släppt* när du skapar en fil. Från det tillfället kan du inte ändra **Intrastat-rapporten**. Om du behöver ändra något och rapportera igen kan du använda åtgärden **Öppna igen** för att öppna Intrastat-rapporten på nytt. När dokumentet har öppnats igen kan du använda åtgärden **Släpp** för att frisläppa dokumentet igen.
 * **Rapporterad**: Anger om transaktionen redan har rapporterats till skattemyndigheterna. Detta är inte en vanlig status, utan ett oberoende fält, och även om du öppnar Intrastat-rapporten igen, visas fortfarande att filen redan har skapats för rapporten.
 
+### Platser i Intrastat-rapportering 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] använder alltid informationen i fältet **Lands-/regionkod** på sidan **Lagerställekort** som land för **skicka från** eller **ta emot till** varor. När den här informationen inte finns eller platsen inte har använts används informationen från sidan **Företagsinformation**.   
+
+> [!NOTE]
+> Om företaget bedriver verksamhet från mer än ett land fungerar inte Intrastat-rapportering för alla länder där platser har konfigurerats. Rapporteringen baseras endast för huvudlandet, eftersom det för närvarande inte är möjligt att använda rapportering från flera länder.  
+
 ### Triangulär handel med Intrastat
 
 Triangulär handel innebär handel mellan tre länder eller regioner där varor kringgår det rapporterande företagets land. I Business Central kan detta underlättas via funktionen [Direktleverans](sales-how-drop-shipment.md). Aktivera det här alternativet genom att aktivera fältet **Inkludera direktleverans** i **Konfiguration av Intrastat-rapporter**.  

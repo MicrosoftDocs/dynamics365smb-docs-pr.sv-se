@@ -10,20 +10,20 @@ ms.search.form: null
 ms.date: 09/04/2023
 ms.custom: bap-template
 ---
-# <a name="run-and-print-reports"></a>Köra och skriva ut rapporter
+# Köra och skriva ut rapporter
 
 En rapport samlar in information baserat på en angiven uppsättning kriterier. Den ordnar och presenterar informationen i ett lättläst format som du kan skriva ut eller spara som en fil. Det finns flera rapporter som du kan använda i hela programmet. Rapporterna innehåller vanligtvis information i förhållande till kontexten på den aktuella sidan. Till exempel sidan **kund** innehåller rapporter för de 10 främsta kunderna och fönstret försäljningsstatistik.
 
 > [!NOTE]
 > Batchprojekt och XMLports gör mer eller mindre detsamma som rapporter, men används mer för att bearbeta eller exportera data. Till exempel skapar batchprojektet **Skapa påminnelser** påminnelsedokument som skickas till kunder med förfallna betalningar. Den här artikeln avser huvudsakligen ”rapporter”, men liknande information gäller för batchprojekt och XMLports.
 
-## <a name="get-started"></a>Kom i gång
+## Kom i gång
 
 Du hittar rapporter i menyn **Rapporter** på valda sidor, listor och kort, eller så kan du använda ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") för att hitta rapporter efter namn. En översikt över inbyggda rapporter som du kan använda i [!INCLUDE[prod_short](includes/prod_short.md)], sorterade efter kategorier, finns i [Tillgängliga rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md).
 
 När du väljer en rapport visas vanligtvis en sidan för förfrågan&mdash;med rapportens namn&mdash;där du kan ange olika alternativ och filter som avgör vilka data som inkluderas. I följande avsnitt förklaras hur du använder sidan för begäran för att bygga, förhandsgranska och skriva ut en rapport.
 
-## <a name="using-default-valuesmdashpredefined-settings"></a><a name="SavedSettings"></a>Använda standardvärden&mdash;fördefinierade inställningar
+## <a name="SavedSettings"></a>Använda standardvärden&mdash;fördefinierade inställningar
 
 De flesta sidor för rapportbegäran innehåller fältet **Använd standardvärden från**. Med det här fältet kan du välja fördefinierade inställningar för rapporten, som automatiskt anger alternativ och filter. Välj en post i listrutan så ändras alternativen och filtren på sidan för rapportbegäran därefter.
 
@@ -34,7 +34,7 @@ Fältet **Använd standardvärden från** är ett snabbt och tillförlitligt sä
 > [!NOTE]
 > De fördefinierade inställningarna ställs in och hanteras vanligtvis av en administratör. Läs mer i [Hantera sparade inställningar för rapporter och batchprojekt](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-a-report"></a>Ange data att inkludera i rapporter
+## Ange data att inkludera i rapporter
 
 Använd fälten under **Alternativ** och **Filter** om du vill ändra eller begränsa den information som du vill ha i rapporten. Du kan ange att filter ska vara mer eller mindre på samma sätt som du anger filter för listor. Läs mer i avsnittet [Filtrering](ui-enter-criteria-filters.md#filtering).
 
@@ -45,7 +45,7 @@ Använd fälten under **Alternativ** och **Filter** om du vill ändra eller begr
 >
 > **Exempel**: När du använder batchprojektet **Skapa påminnelser** ignoreras ett filter för fältet **Kundreskontratransaktioner** i **Senast utskickad påminnelsenivå** eftersom filter är fasta för det batchprojektet.
 
-## <a name="previewing-a-report"></a>Förhandsgranska en rapport
+## Förhandsgranska en rapport
 
 När du förhandsgranskar en rapport kan du se hur rapporten kommer att se ut innan du skriver ut den. Förhandsgranskningen baseras inte på den skrivare som har valts i fältet **Skrivare** på begärandesidan. Det kontrolleras av webbläsaren. När du har förhandsgranskat kan du gå tillbaka till förfrågningssidan och ändra alternativ och filter efter behov.
 
@@ -54,7 +54,7 @@ Vilka förhandsgranskningsalternativ du har på sidan **Rapportbegäran** beror 
 > [!NOTE]
 > Om du använder Business Central från utgivningscykel 1 år 2020 eller tidigare har du endast alternativet **Förhandsgranska**, som stänger begäranssidan vid förhandsgranskning, som beskrivs ovan för **Förhandsgranska & stäng**.
 
-### <a name="work-with-the-preview"></a>Arbeta med förhandsgranskning
+### Arbeta med förhandsgranskning
 
 I förhandsgranskningen använder du menyraden i förhandsgranskningen av rapporten när du vill:
 
@@ -71,7 +71,7 @@ I förhandsgranskningen använder du menyraden i förhandsgranskningen av rappor
 - Hämta till en PDF-fil på datorn eller i nätverket.
 - Skriv ut
 
-## <a name="saving-a-report-to-a-file"></a>Spara en rapport i en fil
+## Spara en rapport i en fil
 
 Du kan spara en rapport i ett PDF-dokument, Microsoft Word-dokument, en Microsoft Excel-arbetsbok eller ett XML-dokument genom att välja **Skicka till**, och sedan göra ditt val. En fil hämtas till enheten.
 
@@ -82,7 +82,7 @@ Om organisationen har konfigurerat OneDrive för systemfunktioner i stället fö
 >
 > Du kan också använda **Microsoft Excel-dokumentet (endast data)** om du vill skapa nya Excel-layouter för en viss rapport. Läs mer i [Arbeta med Excel-layouter](ui-excel-report-layouts.md).  
 
-## <a name="scheduling-a-report-to-run-later-or-periodically"></a><a name="ScheduleReport"></a>Schemalägga en rapport att köra senare eller periodvis
+## <a name="ScheduleReport"></a> Schemalägga en rapport att köra senare eller periodvis
 
 Du kan schemalägga en enskild eller återkommande rapport att köras vid ett visst datum och tider. Planerade rapporter anges i projektkön och behandlas vid den planerade tid, på liknande sätt som andra projekt. Välj alternativet **Schema** när du har valt **Skicka till**. Ange sedan information som skrivare samt datum och tid. Rapporten läggs till projektkön och körs vid den angivna tidpunkten. När rapporten behandlas tas artikeln bort från projektkön. Mer information finns i [Använda projektköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
@@ -90,7 +90,7 @@ När du schemalägger en rapport som ska köras kan du till exempel ange att den
 
 Du kan välja att spara rapporten till en fil, (t.ex en Excel-, Word- eller PDF-fil), skriva ut den eller bara skapa rapporten. Om du väljer att spara rapporten som en fil skickas den bearbetade rapporten till sidan **Rapportinkorg** i ditt rollcenter, där du kan visa den. Läs mer i [Dela och exportera rapporter med rapportinkorgen](ui-work-report-inbox.md)
 
-### <a name="manage-scheduled-recurring-reports"></a>Hantera schemalagda återkommande rapporter
+### Hantera schemalagda återkommande rapporter
 
 Schemalagda rapporter genereras av batchprojekt som hanteras på sidan **Jobbkötransaktioner**. Du kan visa status och annan information för varje rapport på sidan, pausa/återuppta rapport-batchprojektet och generera rapporten på begäran.
 
@@ -105,13 +105,13 @@ När du har redigerat rapportalternativen upprepar du de första två stegen och
 
 Läs mer om hantering av projektkö i [Använd projektköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
-## <a name="printing-a-report"></a><a name="PrintReport"></a>Skriva ut en rapport
+## <a name="PrintReport"></a>Skriva ut en rapport
 
 Du skriver ut en rapport genom att välja **Skriv ut** på sidan för rapportbegäran eller på menyraden på sidan **Förhandsgranska**.
 
 När en Excel-layout används i en rapport ser du inte fältet **Skrivare** eller knapparna **Skriv ut** eller **Förhandsgranska**. I stället finns alternativet **Hämta**. Om du vill skriva ut väljer du **hämta** och öppnar sedan den hämtade filen i Excel och skriver ut därifrån.
 
-### <a name="printer"></a><a name="Printer"></a>Skrivare
+### <a name="Printer"></a>Skrivare
 
 Fältet **Skrivare** på begäranssidan visar namnet på skrivaren som rapporten skickas till. Om du vill ändra en skrivare markerar du bara skrivaren i listan.
 
@@ -121,13 +121,13 @@ Fältet **Skrivare** på begäranssidan visar namnet på skrivaren som rapporten
 > [!TIP]
 > Skrivaren som är markerad för dig som standard är inställd på sidan **Skrivarval**. Läs mer om hur du ändrar standardskrivare i avsnittet [Ange standardskrivare](ui-specify-printer-selection-reports.md#default).
 
-### <a name="printing-reports-in-thai"></a>Skriva ut rapporter på thailändska
+### Skriva ut rapporter på thailändska
 
 För den thailändska versionen av [!INCLUDE[prod_short](includes/prod_short.md)] kan knappen **Skriv ut** inte skriva ut rapporter på rätt sätt på grund av begränsningar i tjänsten som genererar den utskrivbara PDF-filen. I stället kan du öppna rapporten i Word och spara den som utskrivbar PDF.  
 
 Du kan också be administratören att skapa en layout för en Word-rapport för de mest använda rapporterna. Läs mer i [Hantera rapporter och dokumentlayouter](ui-manage-report-layouts.md).  
 
-## <a name="switching-the-report-layout"></a>Växla rapportlayouten
+## Växla rapportlayouten
 
 En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den är formaterad. Du kan ändra layouten på några få sätt:
 
@@ -136,7 +136,7 @@ En rapportlayout styr vad som ska visas i en rapport, hur den ordnas och hur den
 
 Läs mer i [Ange layout för en rapport](ui-set-report-layout.md). Om du vill anpassa din egen rapportlayout går du till [Kom igång med att skapa layouter](ui-get-started-layouts.md).
 
-## <a name="change-language-and-format-of-numbers-dates-and-times"></a>Ändra språk och format för tal, datum och tid
+## Ändra språk och format för tal, datum och tid
 
 Som standard är språket för text och format för tal, datum och klock slag i en rapport baserad på inställningarna för arbetsspråk och region som definieras på sidan **mina inställningar**. Du kan dock ändra språk och formatregion från fall till fall när du förhandsgranskar, skriver ut eller skickar en rapport. På sidan för begäran anger du alternativen **Språk** och **Formatera region** så som du vill ha dem. Du kan också ange vilket språk- och regionformat som ska användas som standard för kunder och leverantörer på deras kortsidor.
 
@@ -149,7 +149,7 @@ Beroende på var du har angett språk- och formatinställningarna bestämmer [!I
 
 Mer information om sidan **Mina inställningar** finns på [Ändra grundläggande inställningar](ui-change-basic-settings.md#region).
 
-## <a name="advanced-options"></a>Avancerade alternativ
+## Avancerade alternativ
 
 Fälten under snabbfliken **Avancerat** anger begränsningar för den genererade rapporten för att kontrollera skrivarresurserna. Du behöver normalt inte ändra inställningarna om du inte har en stor rapport. Om en rapport överstiger dessa begränsningar när du försöker förhandsgranska eller skriva ut, visas ett meddelande om vilken begränsning som har överskridits. Du kan sedan ändra inställningarna så att de passar din rapport. Varje fält har dock ett maximalt värde som du bör känna till:
 
@@ -162,7 +162,7 @@ Fälten under snabbfliken **Avancerat** anger begränsningar för den genererade
 > [!NOTE]
 > De högsta värdena kan vara olika för lokala [!INCLUDE[prod_short](includes/prod_short.md)] och en administratör kan ändra dem. Läs mer i avsnittet [Konfigurera Business Central Server – Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). En översikt över rapporteringsbegränsningar i [!INCLUDE[prod_short](includes/prod_short.md)] online finns i [Operativa gränser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Tillgängliga rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Använda rapporter i det dagliga arbetet](reports-use-reports.md)  
