@@ -61,7 +61,7 @@ I följande tabell visas kombinationerna av betalningssätten FIK och GIRO som [
 |----|--------|---------|---------|---------|
 |Postgiro eller FIK fordringsägarenr? | Postgiro | Postgiro | FIK Fordringsägarenr. | FIK Fordringsägarenr.|
 |Tillåta meddelande till mottagare? | Ja |Nej |Nej | Ja |
-|Innehåller betalningsreferensnummer? | Nr | Ja, 16 siffror. | Ja, 15 siffror. | Nej|
+|Innehåller betalningsreferensnummer? | Nej | Ja, 16 siffror. | Ja, 15 siffror. | Nej|
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.  
 2. Öppna kortet, expandera fliken **betalningar** i fältet **betalningssätt** och välj betalningssätt.  

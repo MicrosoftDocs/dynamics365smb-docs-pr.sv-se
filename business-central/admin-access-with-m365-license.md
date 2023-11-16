@@ -42,11 +42,11 @@ Användare har rätt att komma åt [!INCLUDE [prod_short](includes/prod_short.md
 |Klient som ansluter till Business Central-tjänst |Åtkomst|
 |-|-|
 |Business Central-app för Microsoft Teams|![Ja](media/check.png)|
-|Business Central-webbklient |![Nr](media/x-icon.png ) |
-|Business Central-mobilappar|![Nr](media/x-icon.png )|
-|Business Central API:er|![Nr](media/x-icon.png )|
-|Business Central-integration med andra Office-program|![Nr](media/x-icon.png )|
-|Business Central inbäddat i andra program |![Nr](media/x-icon.png )|
+|Business Central-webbklient |![Nej](media/x-icon.png ) |
+|Business Central-mobilappar|![Nej](media/x-icon.png )|
+|Business Central API:er|![Nej](media/x-icon.png )|
+|Business Central-integration med andra Office-program|![Nej](media/x-icon.png )|
+|Business Central inbäddat i andra program |![Nej](media/x-icon.png )|
 
 ### Dataåtkomst
 
@@ -76,19 +76,19 @@ Funktioner för den [!INCLUDE [prod_short](includes/prod_short.md)] klient som �
 
 |Funktion |Disponibelt|Exempelfunktioner|
 |-|-|-|
-|Åtgärder för datamanipuleringssystem |![Nr](media/x-icon.png )|Redigera, skapa, ta bort|
+|Åtgärder för datamanipuleringssystem |![Nej](media/x-icon.png )|Redigera, skapa, ta bort|
 |Grundläggande funktioner i listor|![Ja](media/check.png)|Sök, sortera, ändra layout|
-|Avancerade funktioner i listor|![Nr](media/x-icon.png )|Filterruta, vyer|
+|Avancerade funktioner i listor|![Nej](media/x-icon.png )|Filterruta, vyer|
 |Detaljgranska ned i listan till kort |![Ja](media/check.png)||
-|Åtkomstdata från relaterade tabeller|![Nr](media/x-icon.png )|Rutan Faktabox, specificera fält, granska, slå upp |
-|Åtgärder|![Nr](media/x-icon.png )|Åtgärdsfält, åtgärdsmenyer, åtgärder för sidavisering|
-|Systemomfattande genvägar|![Nr](media/x-icon.png )|Mina inställningar, rollutforskaren, berätta sökning  |
+|Åtkomstdata från relaterade tabeller|![Nej](media/x-icon.png )|Rutan Faktabox, specificera fält, granska, slå upp |
+|Åtgärder|![Nej](media/x-icon.png )|Åtgärdsfält, åtgärdsmenyer, åtgärder för sidavisering|
+|Systemomfattande genvägar|![Nej](media/x-icon.png )|Mina inställningar, rollutforskaren, berätta sökning  |
 |Kopiera|![Ja](media/check.png)|Kopiera rader, kopiera fältvärde, kopiera länk till sida|
-|Anpassning av användargränssnitt|![Nr](media/x-icon.png )|Anpassa| 
+|Anpassning av användargränssnitt|![Nej](media/x-icon.png )|Anpassa| 
 |Infogad anpassning|![Ja](media/check.png)|Ändra storlek på kolumn, visa/dölj, visa fler |
-|Dela data |![Nr](media/x-icon.png )|Öppna eller redigera i Excel, dela till Teams|
+|Dela data |![Nej](media/x-icon.png )|Öppna eller redigera i Excel, dela till Teams|
 |Hjälp för infogade användare|![Ja](media/check.png) |Knappbeskrivningar, länkar till dokumentation|
-|Avancerad användarhjälp |![Nr](media/x-icon.png )|Undervisningstips för sida och fält, Hjälp-fönstret|
+|Avancerad användarhjälp |![Nej](media/x-icon.png )|Undervisningstips för sida och fält, Hjälp-fönstret|
 
 ## Minsta krav
 

@@ -19,42 +19,42 @@ Följande tabell visar relationen mellan olika typer av lagervärdetransaktioner
 |**Artikeltransaktionstyp**|**Värdetrans.typ**|**Varianstyp**|**Förväntad kostnad**|**Konto**|**Balanskonto**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Inköp|Direkt kostnad||Ja|Lager (interim)|Lagerbokf. (interim)|  
-|Inköp|Direkt kostnad||Nr|Lagersaldo|Direkt kostnad kopplad|  
-|Inköp|Indirekt kostnad||Nr|Lagersaldo|Omkostnader kopplade|  
-|Inköp|Varians|Inköp|Nr|Lagersaldo|Inköpsvarians|  
-|Inköp|Omvärdering||Nr|Lagersaldo|Lagerjustering|  
-|Inköp|Avrundning||Nr|Lagersaldo|Lagerjustering|  
+|Inköp|Direkt kostnad||Nej|Lagersaldo|Direkt kostnad kopplad|  
+|Inköp|Indirekt kostnad||Nej|Lagersaldo|Omkostnader kopplade|  
+|Inköp|Varians|Inköp|Nej|Lagersaldo|Inköpsvarians|  
+|Inköp|Omvärdering||Nej|Lagersaldo|Lagerjustering|  
+|Inköp|Avrundning||Nej|Lagersaldo|Lagerjustering|  
 |Försäljning|Direkt kostnad||Ja|Lager (interim)|KSV (interim)|  
-|Försäljning|Direkt kostnad||Nr|Lagersaldo|KSV|  
-|Försäljning|Omvärdering||Nr|Lagersaldo|Lagerjustering|  
-|Försäljning|Avrundning||Nr|Lagersaldo|Lagerjustering|  
-|Positiv justering,Negativ justering,Överföring|Direkt kostnad||Nr|Lagersaldo|Lagerjustering|  
-|Positiv justering,Negativ justering,Överföring|Omvärdering||Nr|Lagersaldo|Lagerjustering|  
-|Positiv justering,Negativ justering,Överföring|Avrundning||Nr|Lagersaldo|Lagerjustering|  
-|(Produktion) Förbrukning|Direkt kostnad||Nr|Lagersaldo|PIA|  
-|(Produktion) Förbrukning|Omvärdering||Nr|Lagersaldo|Lagerjustering|  
-|(Produktion) Förbrukning|Avrundning||Nr|Lagersaldo|Lagerjustering|  
-|Monteringsförbrukning|Direkt kostnad||Nr|Lagersaldo|Lagerjustering|  
-|Monteringsförbrukning|Direkt kostnad||Nr|Direkt kostnad kopplad|Lagerjustering|  
-|Monteringsförbrukning|Indirekt kostnad||Nr|Omkostnader kopplade|Lagerjustering|  
+|Försäljning|Direkt kostnad||Nej|Lagersaldo|KSV|  
+|Försäljning|Omvärdering||Nej|Lagersaldo|Lagerjustering|  
+|Försäljning|Avrundning||Nej|Lagersaldo|Lagerjustering|  
+|Positiv justering,Negativ justering,Överföring|Direkt kostnad||Nej|Lagersaldo|Lagerjustering|  
+|Positiv justering,Negativ justering,Överföring|Omvärdering||Nej|Lagersaldo|Lagerjustering|  
+|Positiv justering,Negativ justering,Överföring|Avrundning||Nej|Lagersaldo|Lagerjustering|  
+|(Produktion) Förbrukning|Direkt kostnad||Nej|Lagersaldo|PIA|  
+|(Produktion) Förbrukning|Omvärdering||Nej|Lagersaldo|Lagerjustering|  
+|(Produktion) Förbrukning|Avrundning||Nej|Lagersaldo|Lagerjustering|  
+|Monteringsförbrukning|Direkt kostnad||Nej|Lagersaldo|Lagerjustering|  
+|Monteringsförbrukning|Direkt kostnad||Nej|Direkt kostnad kopplad|Lagerjustering|  
+|Monteringsförbrukning|Indirekt kostnad||Nej|Omkostnader kopplade|Lagerjustering|  
 |(Produktions)utflöde|Direkt kostnad||Ja|Lager (interim)|PIA|  
-|(Produktions)utflöde|Direkt kostnad||Nr|Lagersaldo|PIA|  
-|(Produktions)utflöde|Indirekt kostnad||Nr|Lagersaldo|Omkostnader kopplade|  
-|(Produktions)utflöde|Varians|Material|Nr|Lagersaldo|Materialvarians|  
-|(Produktions)utflöde|Varians|Kapacitet|Nr|Lagersaldo|Kapacitetsvarians|  
-|(Produktions)utflöde|Varians|Legotillverkning|Nr|Lagersaldo|Legotillverkning varians|  
-|(Produktions)utflöde|Varians|Kapacitetsomkostnader|Nr|Lagersaldo|Kapacitetsomkostnader varians|  
-|(Produktions)utflöde|Varians|Produktionsomkostnader|Nr|Lagersaldo|Prod.- och omkostnadsvarians|  
-|(Produktions)utflöde|Omvärdering||Nr|Lagersaldo|Lagerjustering|  
-|(Produktions)utflöde|Avrundning||Nr|Lagersaldo|Lagerjustering|  
-|Monteringsutflöde|Direkt kostnad||Nr|Lagersaldo|Lagerjustering|  
-|Monteringsutflöde|Omvärdering||Nr|Lagersaldo|Lagerjustering|  
-|Monteringsutflöde|Indirekt kostnad||Nr|Lagersaldo|Omkostnader kopplade|  
-|Monteringsutflöde|Varians|Material|Nr|Lagersaldo|Materialvarians|  
-|Monteringsutflöde|Varians|Kapacitet|Nr|Lagersaldo|Kapacitetsvarians|  
-|Monteringsutflöde|Varians|Kapacitetsomkostnader|Nr|Lagersaldo|Kapacitetsomkostnader varians|  
-|Monteringsutflöde|Varians|Produktionsomkostnader|Nr|Lagersaldo|Prod.- och omkostnadsvarians|  
-|Monteringsutflöde|Avrundning||Nr|Lagersaldo|Lagerjustering|  
+|(Produktions)utflöde|Direkt kostnad||Nej|Lagersaldo|PIA|  
+|(Produktions)utflöde|Indirekt kostnad||Nej|Lagersaldo|Omkostnader kopplade|  
+|(Produktions)utflöde|Varians|Material|Nej|Lagersaldo|Materialvarians|  
+|(Produktions)utflöde|Varians|Kapacitet|Nej|Lagersaldo|Kapacitetsvarians|  
+|(Produktions)utflöde|Varians|Legotillverkning|Nej|Lagersaldo|Legotillverkning varians|  
+|(Produktions)utflöde|Varians|Kapacitetsomkostnader|Nej|Lagersaldo|Kapacitetsomkostnader varians|  
+|(Produktions)utflöde|Varians|Produktionsomkostnader|Nej|Lagersaldo|Prod.- och omkostnadsvarians|  
+|(Produktions)utflöde|Omvärdering||Nej|Lagersaldo|Lagerjustering|  
+|(Produktions)utflöde|Avrundning||Nej|Lagersaldo|Lagerjustering|  
+|Monteringsutflöde|Direkt kostnad||Nej|Lagersaldo|Lagerjustering|  
+|Monteringsutflöde|Omvärdering||Nej|Lagersaldo|Lagerjustering|  
+|Monteringsutflöde|Indirekt kostnad||Nej|Lagersaldo|Omkostnader kopplade|  
+|Monteringsutflöde|Varians|Material|Nej|Lagersaldo|Materialvarians|  
+|Monteringsutflöde|Varians|Kapacitet|Nej|Lagersaldo|Kapacitetsvarians|  
+|Monteringsutflöde|Varians|Kapacitetsomkostnader|Nej|Lagersaldo|Kapacitetsomkostnader varians|  
+|Monteringsutflöde|Varians|Produktionsomkostnader|Nej|Lagersaldo|Prod.- och omkostnadsvarians|  
+|Monteringsutflöde|Avrundning||Nej|Lagersaldo|Lagerjustering|  
 
 ## Från kapacitetstransaktioner  
  Följande tabell visar relationen mellan olika typer av kapacitetvärdetransaktioner och konton och motkonton i redovisningen. Kapacitetstransaktioner representerar arbetstid som förbrukats vid monterings- eller produktionsarbete.  

@@ -23,7 +23,7 @@ Ja, eftersom rapporterna är inbäddade från Power BI.
 <!-- 3 -->
 ### Finns det Business Central-appar för Power BI tillgängliga på andra språk än engelska?
 
-Nr De här apparna finns för närvarande bara på engelska.
+Nej. De här apparna finns för närvarande bara på engelska.
 
 <!-- 24 -->
 ### När en rapport har publicerats på min powerbi.com-arbetsyta kan jag hämta dess pbix? 
@@ -33,7 +33,7 @@ Ja. Mer information finns i [Hämta en rapport från Power BI-tjänsten till Pow
 <!-- 27 -->
 ### Kan jag ladda ned apparna som pbix-filer? 
 
-Nr För närvarande erbjuder vi inte hämtning av pbix-filer för de officiella Power BI-apparna, eftersom de publiceras på AppSource.
+Nej. För närvarande erbjuder vi inte hämtning av pbix-filer för de officiella Power BI-apparna, eftersom de publiceras på AppSource.
 
 ## [Licens](#tab/license)
 
@@ -41,7 +41,7 @@ Nr För närvarande erbjuder vi inte hämtning av pbix-filer för de officiella 
 ### Behöver jag en Power BI Pro-licens för att publicera rapporter? 
 
 <!-- todo What does " or for every user that consults the published report" mean? fixed -->
-Nr En Pro-licens behövs inte för att publicera rapporter. Standardlicensen (gratis) för Power BI är tillräcklig. Mer information finns i [Power BI-licensiering](admin-powerbi-setup.md#license).
+Nej. En Pro-licens behövs inte för att publicera rapporter. Standardlicensen (gratis) för Power BI är tillräcklig. Mer information finns i [Power BI-licensiering](admin-powerbi-setup.md#license).
 
 <!-- 15 -->
 ### Finns det något jag inte kan göra med en gratis licens?
@@ -126,7 +126,7 @@ Det finns för närvarande inget sätt att ställa in ett filter för webbtjäns
 <!-- 10 -->
 ### Från Power BI, förutom att använda en fråga, finns det något annat sätt att hämta data från Business Central-tabeller som inte har en kopplad sida? Det kan till exempel vara tabellen *Mappning av värde på artikelattribut*.
 
-Nr Inte just nu.
+Nej. Inte just nu.
 
 <!-- 12 --> 
 ### Går det snabbare att använda publicerade frågor än publicerade sidor?
@@ -202,12 +202,12 @@ Ja. Våra tester tyder på att API-sidorna har upp till 25 % högre prestanda �
 <!-- 18 -->
 ### Finns det planer på att ha en spegling på Azure SQL Database-instansen, som jag kan ansluta till direkt?
 
-Nr Inte just nu. Du kan bara kommunicera med Business Central via API:er.
+Nej. Inte just nu. Du kan bara kommunicera med Business Central via API:er.
 
 <!-- 19 -->
 ### Datainläsning från Business Centrals webbtjänster verkar vara långsamma. Finns det något sätt att hämta data direkt från SQL Database-tabellen?
 
-Nr Det går inte att direkt komma åt databasen, men om du växlar till API-sidor (när den nya anslutningen är tillgänglig) blir det mycket enklare.
+Nej. Det går inte att direkt komma åt databasen, men om du växlar till API-sidor (när den nya anslutningen är tillgänglig) blir det mycket enklare.
 
 ## [Avancerat](#tab/advanced)
 <!-- 1 -->

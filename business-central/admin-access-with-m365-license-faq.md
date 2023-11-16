@@ -9,7 +9,7 @@ ms.topic: faq
 ms.date: 09/28/2023
 ms.custom: bap-template
 ---
-# Vanliga frågor rom åtkomst med Microsoft 365-licenser
+# Vanliga frågor om åtkomst med Microsoft 365-licenser
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -41,7 +41,7 @@ Ja. Att lägga till behörighetsgrupper till Microsoft Teams Interna användares
 
 ### När en Business Central användare delar en post i Teams, tilldelar de nya behörigheter?
 
-Nr. Den här åtgärden är inte samma sak som att dela en länk till ett SharePoint-dokument där personen som delar dokumentet kan välja att ge andra behörighet åt andra. I Business Central kan endast administratörer konfigurera och tilldela behörigheter. När dokumentet jämförs med att dela SharePoint-dokument är det detsamma som att välja alternativet "dela till personer med befintlig åtkomst".
+Nej. Den här åtgärden är inte samma sak som att dela en länk till ett SharePoint-dokument där personen som delar dokumentet kan välja att ge andra behörighet åt andra. I Business Central kan endast administratörer konfigurera och tilldela behörigheter. När dokumentet jämförs med att dela SharePoint-dokument är det detsamma som att välja alternativet "dela till personer med befintlig åtkomst".
 
 ### Stöder den här funktionen säkerhet på radnivå.
 
@@ -95,7 +95,7 @@ För att maximera produktiviteten och effektivisera sina åtgärder köper SMB o
 
 ### Är denna 100 % utan kostnad?
  
-Nr. Åtkomst till Business Central-data i Microsoft Teams kräver att varje användare har antingen en Business Central-licens eller Microsoft 365-licens från listan med planer som stöds.
+Nej. Åtkomst till Business Central-data i Microsoft Teams kräver att varje användare har antingen en Business Central-licens eller Microsoft 365-licens från listan med planer som stöds.
 
 ### Fungerar det med Microsoft 365 testversioner och utvärderingsversion av Business Central?
 

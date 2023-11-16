@@ -60,7 +60,7 @@ sections:
       - question: |
           Kan jag söka efter vyer i fönstret Berätta?
         answer: |
-          Nr Fönstret **Berätta** visar endast sökresultat för sidan, men du är bara ett steg borta från att nå din favoritvy när du navigerar till sidan.
+          Nej. Fönstret **Berätta** visar endast sökresultat för sidan, men du är bara ett steg borta från att nå din favoritvy när du navigerar till sidan.
       - question: |
           Vad är delad layout?
         answer: |

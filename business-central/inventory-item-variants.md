@@ -41,7 +41,7 @@ På artikelkort har fältet **Variant obligatorisk om den finns** följande alte
 |Fältvärde |Description|
 |---------|----|
 |Standard| Inställningen från **Lagerinställningar** gäller för artikeln.|
-|Nr| Användare behöver inte ange en variant för den här artikeln.|
+|Nej| Användare behöver inte ange en variant för den här artikeln.|
 |Ja| Om artikeln har en eller flera varianter måste användarna ange relevant variant. Om de inte gör det hindras de från att bokföra transaktionen.|
 
 > [!NOTE]

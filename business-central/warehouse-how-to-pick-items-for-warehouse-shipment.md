@@ -83,8 +83,8 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 
     |Alternativ|Beskrivning|
     |-|-|
-    |Max. Nr. av plockningsrader|Skapar plockningsdokument som inte har fler än radnummer än som ställts in i varje dokument.|
-    |Max. Nr. av plock.källdok.|Skapar plockningsdokument som inte täcker fler än antalet källdokument som ställts in.|
+    |Max. Antal plockningsrader|Skapar plockningsdokument som inte har fler än radnummer än som ställts in i varje dokument.|
+    |Max. Antal plock.källdok.|Skapar plockningsdokument som inte täcker fler än antalet källdokument som ställts in.|
     |Tilldelat användar-ID|Skapar plockningsdokument enbart för förslagsrader som tilldelats den valda lagerpersonalen.|
     |Sorteringsmetod för plock.rader|Välja bland de tillgängliga alternativen för att sortera rader i den nya plockningsdokumentet.|
     |Sätt brytenhetsfilter|Döljer mellanliggande plockningsrader för brytenheter när en större måttenhet konverteras till en mindre måttenhet och plockas helt.|

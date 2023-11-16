@@ -86,7 +86,7 @@ sections:
       - question: |
           Måste jag köpa Microsoft 365?
         answer: |
-          Nr. Men om du vill uppleva [!INCLUDE[prod_short](includes/prod_short.md)] som helt integrerat med Microsoft 365 kan du prova Microsoft 365 i 1 månad gratis [här](https://products.office.com/try).  
+          Nej. Men om du vill uppleva [!INCLUDE[prod_short](includes/prod_short.md)] som helt integrerat med Microsoft 365 kan du prova Microsoft 365 i 1 månad gratis [här](https://products.office.com/try).  
 
           Om du loggar in med ett konto som inte är ett Microsoft 365-arbetskonto (såsom joe@mysolution.com), du har en Microsoft 365-prenumeration och sedan kopplar din domän (*mysolution.com*) till Microsoft 365-prenumerationen. Läs mer i [Vad är en domän?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) i Microsoft 365-innehållet.  
 

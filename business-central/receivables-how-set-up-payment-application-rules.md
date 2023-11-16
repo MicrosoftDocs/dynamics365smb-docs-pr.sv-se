@@ -71,8 +71,8 @@ I följande tabell beskrivs standardreglerna för betalningsansökan i [!INCLUDE
 | Lågt              | 1        | Helt                 | Nej                             | Inga matchningar                     |
 | Lågt              | 2        | Delvis             | Nej                             | Flera matchningar               |
 | Lågt              | 3        | Delvis             | Nej                             | Inga matchningar                     |
-| Låg              | 4        | Nr                    | Nr                             | En matchning                      |
-| Låg              | 5        | Nr                    | Nr                             | Flera matchningar               |
+| Låg              | 4        | Nej                    | Nej                             | En matchning                      |
+| Låg              | 5        | Nej                    | Nej                             | Flera matchningar               |
 
 ## Se även
 [Stämma av betalningar genom att använda automatisk koppling](receivables-how-reconcile-payments-auto-application.md)  

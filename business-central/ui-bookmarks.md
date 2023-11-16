@@ -68,7 +68,7 @@ En del rapporter kan ersättas av andra rapporter efter att ha tillämpat ett ti
 <!-- For more information on report substitution, see this link UNAVAILABLE AT THIS TIME -->
 
 - **Är bokmärket tillgängligt för XMLport?**  
-Nr Det går för tillfället inte att lägga till åtgärder för att öppna XMLport-data från användargränssnittet.
+Nej. Det går för tillfället inte att lägga till åtgärder för att öppna XMLport-data från användargränssnittet.
 
 - **Kommer mina bokmärken att översättas när jag ändrar språk i Business Central?**  
 När du lägger till en ny åtgärd kommer all översatt text som var tillgänglig vid tidpunkten att användas när du lägger till ett bokmärke. Om ny översatt text läggs till senare kommer den nya åtgärden inte att inkludera de nyare översättningarna.

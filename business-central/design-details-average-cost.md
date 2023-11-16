@@ -69,10 +69,10 @@ Följande tabell visar artikeltransaktionerna för exempelgenomsnittskostnadsart
 
 | **Artikelnr** | **Variantkod** | **Platskod** | **Värderingsdatum** | **Kostnaden är justerad** |
 |--|--|--|--|--|
-| ARTIKEL1 |  | BLÅ | 01-01-23 |   Nr |
-| ARTIKEL1 |  | BLÅ | 02-01-23 |   Nr |
-| ARTIKEL1 |  | BLÅ | 02-02-23 |   Nr |
-| ARTIKEL1 |  | BLÅ | 02-03-23 |   Nr |
+| ARTIKEL1 |  | BLÅ | 01-01-23 |   Nej |
+| ARTIKEL1 |  | BLÅ | 02-01-23 |   Nej |
+| ARTIKEL1 |  | BLÅ | 02-02-23 |   Nej |
+| ARTIKEL1 |  | BLÅ | 02-03-23 |   Nej |
 
  Följande tabell visar samma artikeltransaktioner efter att batch-jobbet **Justera kostnader – Artikeltransaktioner** är färdigt. Genomsnittskostnaden per dag beräknas och den används till lagerminskningarna.  
 
@@ -109,8 +109,8 @@ Följande tabell visar de transaktioner i tabellen **Ingångspunkt för genomsn.
 
 | **Artikelnr** | **Variantkod** | **Platskod** | **Värderingsdatum** | **Kostnaden är justerad** |
 |--|--|--|--|--|
-| ARTIKEL1 |  | BLÅ | 01-31-23 |   Nr |
-| ARTIKEL1 |  | BLÅ | 02-28-23 |   Nr |
+| ARTIKEL1 |  | BLÅ | 01-31-23 |   Nej |
+| ARTIKEL1 |  | BLÅ | 02-28-23 |   Nej |
 
 > [!NOTE]  
 > Värderingsdatum anges till den sista dagen i genomsnittskostnadsperioden, som i det här fallet är den sista dagen i månaden.  
