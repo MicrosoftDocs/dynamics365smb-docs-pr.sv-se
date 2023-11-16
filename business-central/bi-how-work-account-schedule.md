@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial report'
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ---
-# Förbereda Financial Reporting med ekonomiska data och kontokategorier
+# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Förbereda Financial Reporting med ekonomiska data och kontokategorier
 
 Ekonomiska rapporter ger dig insikt i ekonomiska data som lagras i din kontoplan. Ekonomiska rapporter analyserar siffror för redovisningskonton och jämför redovisningstransaktioner med budgettransaktioner. Resultaten visas i diagram och rapporter i Rollcentret, till exempel diagram för kassaflöde och resultaträknings- och balansräkningsrapporter.
 
@@ -20,7 +20,7 @@ Du öppnar dessa två rapporter, till exempel med åtgärden **Finansiella rappo
 
 Ställa in ekonomiska rapporter kräver en förståelse för den ekonomiska informationen i kontoplanen. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna, men det kräver att du har skapat budgetar. Läs mer i [Skapa redovisningsbudgetar](finance-how-create-budgets.md).
 
-## Ekonomiska rapporter
+## <a name="financial-reports"></a>Ekonomiska rapporter
 
 Ekonomiska rapporter strukturerar kontona i kontoplanen på ett sätt som gör det enklare att presentera data. Du kan skapa olika layouter för att definiera informationen som du vill hämta från kontoplanen. Ekonomiska rapporter är en plats för beräkningar som inte kan göras direkt i kontoplanen. Du kan t. ex. skapa delsummor för grupper av konton och sedan ta med denna summa i andra summor. Ett annat exempel är att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Dessutom kan du filtrera redovisningstransaktionerna och budgettransaktioner, till exempel efter nettoförändring eller debetbelopp.
 
@@ -30,7 +30,7 @@ Du kan även jämföra två eller flera ekonomiska rapporter och kolumndefinitio
 * Skapa så många ekonomiska rapporter som behövs, var och en med ett unikt namn.
 * Skapa olika rapportlayouter och skriva ut rapporterna med de aktuella siffrorna.
 
-## Redovisningskontokategorier
+## <a name="gl-account-categories"></a>Redovisningskontokategorier
 
 Du kan använda kontokategorier för att ändra layout på din redovisning. När du har upprättat dina kontokategorier på sidan **Redovisningskontokategorier** kan du välja åtgärden **Skapa ekonomiska rapporter** och uppdatera de underliggande ekonomiska rapporterna för de centrala ekonomiska rapporterna. Nästa gång du kör någon av dessa rapporter, till exempel rapporten **Kontoavstämning** kommer nya summor och underposter att läggas till.
 
@@ -39,7 +39,7 @@ Du kan använda kontokategorier för att ändra layout på din redovisning. När
 >
 > Du bör skapa och strukturera egna redovisningskontokategorier från grunden, i en hierarki vid behov, i stället för att försöka omarrangera de befintliga. Du kan t. ex. strukturera om **Skulder** så att de innehåller en nod **Eget kapital** följ **Kortfristiga skulder** och **Långfristiga skulder**.
 
-## Skapa en ny ekonomisk rapport
+## <a name="create-a-new-financial-report"></a>Skapa en ny ekonomisk rapport
 
 Du använder ekonomiska rapporter för att analysera siffror för redovisningskonton eller för att jämföra redovisningstransaktioner med budgettransaktioner. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.
 
@@ -70,7 +70,7 @@ De ekonomiska rapporterna i standardversionen av [!INCLUDE[prod_short](includes/
 
 Du har nu definierat basen för den ekonomiska rapporten, raderna för ekonomiska data som ska visas och en befintlig layout för kolumner för att visa data på rader med anpassade parametrar. Om standardkolumndefinitionen som du valde i steg 4 inte passar dina önskemål, följ stegen i [Redigera en kolumndefinition](#edit-a-column-definition).
 
-### Redigera en kolumndefinition
+### <a name="edit-a-column-definition"></a>Redigera en kolumndefinition
 
 Använd kolumndefinitioner för att ange vilka kolumner som ska tas med i rapporten. Du kan t.ex. utforma en layout för att jämföra nettoförändringen för samma period innevarande och föregående år. Du kan ha upp till 15 kolumner, vilket kan vara praktiskt om du t.ex. visar budgetar i tolv månader med en kolumn som visar summan.
 
@@ -85,7 +85,7 @@ Använd kolumndefinitioner för att ange vilka kolumner som ska tas med i rappor
 > [!NOTE]
 > Kolumnerna som du anger på varje rad representerar kolumnerna tre och uppåt på sidan **Ekonomisk rapport**. De två första kolumnerna **Radnr** och **beskrivning** korrigeras.  
 
-### Skapa en kolumn för att beräkna procentsatser
+### <a name="create-a-column-that-calculates-percentages"></a>Skapa en kolumn för att beräkna procentsatser
 
 Du kan lägga till en kolumn i en ekonomisk rapport för att beräkna procentsatser för en summa. Om du t. ex. har rader där försäljningen delas upp per dimension kan du lägga till en kolumn för att ange procentsatsen av total försäljning i varje rad.
 
@@ -98,7 +98,7 @@ Du kan lägga till en kolumn i en ekonomisk rapport för att beräkna procentsat
 7. Fyll i fälten på raden på följande sätt: I fältet **kolumntyp** väljer **formeln**. I fältet **Formel** anger du en formel för det belopp som du vill beräkna en procentsats för, följt av procentsymbolen (%). Om kolumn N innehåller nettoförändringen anger du **N%**.  
 8. Upprepa steg 4–7 för varje grupp av rader som du vill dela upp per procentsats.
 
-## Ställa in ekonomiska rapporter med översikter
+## <a name="set-up-financial-reports-with-overviews"></a>Ställa in ekonomiska rapporter med översikter
 
 Du kan använda en ekonomisk rapport för att skapa en rapport där redovisningssiffror jämförs med budgetsiffror.
 
@@ -116,7 +116,7 @@ Du kan använda en ekonomisk rapport för att skapa en rapport där redovisnings
 
 Nu kan du kopiera och klistra in budgetutdraget i ett kalkylblad.  
 
-## Jämföra bokföringsperioder med hjälp av periodformler
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Jämföra bokföringsperioder med hjälp av periodformler
 
 Din ekonomiska rapport kan jämföra resultaten av olika bokföringsperioder, till exempel den senaste månaden eller samma månad förra året. Det gör du genom att öppna sidan **Kolumndefinition** och anpassa den genom att lägga till fältet **Formeljämförelseperiod** som en kolumn. Lär dig hur du [anpassar arbetsytan](ui-personalization-user.md). Du kan sedan ange att fältet ska vara en periodformel.  
 
@@ -150,7 +150,7 @@ Om du vill beräkna utifrån regelbundna tidsperioder måste du skriva en formel
 
 Läs mer i [Arbeta med kalenderdatum och tider](ui-enter-date-ranges.md).
 
-## Skriva ut och spara ekonomiska rapporter
+## <a name="print-and-save-financial-reports"></a>Skriva ut och spara ekonomiska rapporter
 
 Du kan skriva ut ekonomiska rapporter med hjälp av enhetens utskriftstjänster. [!INCLUDE[prod_short](includes/prod_short.md)] ger dig även möjlighet att spara rapporter som Microsoft Excel-arbetsböcker, Microsoft Word-dokument, PDF-filer och XML-filer.
 
@@ -161,7 +161,7 @@ Du kan skriva ut ekonomiska rapporter med hjälp av enhetens utskriftstjänster.
     1. Alternativet **(Hanteras av webbläsaren)** anger att rapporten inte har tilldelats någon skrivare. I så fall hanterar webbläsaren utskriften och visar en standardupplevelse där du kan välja en lokal skrivare som är ansluten till enheten. **(Hanteras av webbläsaren)** är inte tillgängligt i [!INCLUDE[prod_short](includes/prod_short.md)] mobilappen eller appen för Microsoft Teams.
 5. Välj åtgärden **Skriv ut**.
 
-### Schemalägga en ekonomisk rapport eller spara som ett PDF-, Word- eller Excel-dokument
+### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Schemalägga en ekonomisk rapport eller spara som ett PDF-, Word- eller Excel-dokument
 
 En ekonomisk rapport kan sparas som en fil i olika format, till exempel PDF, XML, Word eller Excel. Alternativt kan [!INCLUDE[prod_short](includes/prod_short.md)] ställas in på att generera återkommande ekonomiska rapporter:
 
@@ -172,11 +172,11 @@ En ekonomisk rapport kan sparas som en fil i olika format, till exempel PDF, XML
 5. Fyll i fälten om du vill skapa en schemalagd eller återkommande ekonomisk rapport. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
    * För återkommande ekonomiska rapporter ställer du in fälten **Tidigast startdatum/-tid** och **Förfallodatum/-tid** på det första respektive sista datumet för att generera den ekonomiska rapporten. Välj också vilka dagar rapporten ska skapas genom att ställa in fältet **Datumformel för nästa körning** genom att följa formatet som förklaras i avsnittet [Använd datumformler](ui-enter-date-ranges.md#use-date-formulas).
 
-## Importera eller exportera ekonomiska rapporter
+## <a name="importing-or-exporting-financial-reports"></a>Importera eller exportera ekonomiska rapporter
 
 Du kan importera och exportera ekonomiska rapporter som RapidStart-konfigurationspaket, som är användbara när du vill dela informationen med andra företag, t.ex. Paketet skapas i en .rapidstart-fil, vilket komprimerar innehållet.
 
-### Importera och exportera ekonomiska rapporter
+### <a name="import-and-export-financial-reports"></a>Importera och exportera ekonomiska rapporter
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
 2. Välj den ekonomiska rapporten och välj sedan åtgärden **Importera ekonomisk rapport** eller **Exportera ekonomisk rapport**, beroende på vad du vill göra.
@@ -184,7 +184,7 @@ Du kan importera och exportera ekonomiska rapporter som RapidStart-konfiguration
 > [!NOTE]
 > När du importerar ekonomiska rapporter kommer befintliga poster som har samma namn som de som importeras att tas bort.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Köra och skriva ut rapporter](ui-work-report.md)  
 [Ekonomisk business intelligence](bi.md)  

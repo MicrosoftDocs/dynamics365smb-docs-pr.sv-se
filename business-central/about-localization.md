@@ -10,13 +10,13 @@ ms.search.form: null
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# Vad är lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]?
+# <a name="what-is-local-functionality-in-"></a>Vad är lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har en kombinerad lokaliseringsstrategi för modeller från både Microsoft och partners. I det här avsnittet finns beskrivningar av funktionerna som gäller för de länder/regioner där Microsoft tillhandahåller funktioner för regelefterlevnad och andra lokala funktioner.  
 
 En fullständig lista över de marknader som stöds för närvarande finns i [Tillgänglighet för land/region och översättningar som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## Lokala funktioner
+## <a name="local-functionality"></a>Lokala funktioner
 
 Följande tabell innehåller länkar till artiklar där du kan lära dig mer om de lokala funktionerna för varje land/region.
 
@@ -47,11 +47,11 @@ Följande tabell innehåller länkar till artiklar där du kan lära dig mer om 
 |        | Indien | [India Local Functionality](LocalFunctionality/India/india-local-functionality.md) |
 |        | Nya Zeeland | [Lokal funktionalitet för Nya Zeeland](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### Andra länder/regioner
+### <a name="other-countriesregions"></a>Andra länder/regioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] är tillgänglig även på andra marknader via lokaliseringsappar. Om en Microsoft-partner har skapat en lokaliseringsapp för ditt land/din region hittar du den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Skapa miljöer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  

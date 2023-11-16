@@ -11,7 +11,7 @@ ms.search.form: '148, 460, 25'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Aktivera koppling av kundreskontratransaktioner till olika valutor
+# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Aktivera koppling av kundreskontratransaktioner till olika valutor
 
 Om en valuta används vid inköp från en leverantör och en annan vid betalning kan du koppla betalningen till inköpet.
 
@@ -19,7 +19,7 @@ Om du säljer i en valuta och får betalt i en annan kan du koppla betalningen t
 
 Efterföljande proceduren beskriver hur du ställer in detta för leverantörsreskontratransaktioner på sidan **Inköpsinställningar**. Denna inställning liknar den för kundreskontratransaktioner på sidan **Försäljningsinställningar**.
 
-## Så här aktiverar du koppling av leverantörsreskontratransaktioner i olika valutor
+## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Så här aktiverar du koppling av leverantörsreskontratransaktioner i olika valutor
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inköpsinställningar** och väljer sedan relaterad länk.
 2. I fältet **Koppling mellan valutor** markerar du ett av följande alternativ.
@@ -30,7 +30,7 @@ Efterföljande proceduren beskriver hur du ställer in detta för leverantörsre
 | EMU |Koppling mellan EMU-valutor är tillåten. |
 | Alla |Koppling mellan alla valutor är tillåten. |
 
-## Så här skapar du redovisningskonton för avrundningsdifferenser vid valutakoppling
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Så här skapar du redovisningskonton för avrundningsdifferenser vid valutakoppling
 
 Om du kopplar transaktioner till olika valutor måste du ange de redovisningskonton som du vill bokföra avrundningsdifferenserna på.  
 
@@ -42,7 +42,7 @@ Om du kopplar transaktioner till olika valutor måste du ange de redovisningskon
 3. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörsbokföringsmallar** och väljer sedan relaterad länk.  
 4. Ange aktuella redovisningskonton för bokföring av avrundningsskillnader i fälten **Debet valutakopp. avrundning** och **Kredit valutakopp. avrundning**.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Hantera kundreskontra](receivables-manage-receivables.md)  

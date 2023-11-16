@@ -15,7 +15,7 @@ För alla objekt som är registrerade i Business Central kan du skriva *marknads
 
 Det finns två sätt att skapa marknadsföringstexten. Det enklaste sättet att komma igång är att använda en Copilot, som föreslår AI-genererad text åt dig. Det andra sättet är att börja från början. 
 
-## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>Skapa AI-genererad marknadsföringstext (förhandsgranskning) med Copilot
+## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Skapa AI-genererad marknadsföringstext (förhandsgranskning) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -115,7 +115,7 @@ Det finns några steg som du kan utföra för att förbättra textförslagen och
 
    Copilot kommer att söka efter ord och fraser som hör till kategorin och som arbetar med den föreslagna texten.
 
-## <a name="create-marketing-text-from-scratch"></a>Skapa marknadsföringstext från grunden
+## <a name="create-text-from-scratch"></a>Skapa marknadsföringstext från grunden
 
 1. Öppna den artikel som du vill ändra i Business Central enligt följande:
 

@@ -8,7 +8,7 @@ ms.topic: overview
 ms.date: 03/16/2023
 ms.custom: bap-template
 ---
-# <a name="overview-of-ai-powered-item-marketing-text-preview-with-copilot"></a>Översikt över marknadsföringstext för AI-baserad artikel (förhandsversion) med Copilot
+# <a name="marketing-text-suggestions-with-copilot-overview"></a>Översikt över marknadsföringstext för AI-baserad artikel (förhandsversion) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 

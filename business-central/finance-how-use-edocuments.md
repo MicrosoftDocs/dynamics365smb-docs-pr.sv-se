@@ -12,7 +12,7 @@ ms.date: 10/03/2023
 ms.author: altotovi
 ---
 
-# Använda e-dokument vid försäljning och inköp
+# <a name="use-e-documents-in-sales-and-purchases"></a>Använda e-dokument vid försäljning och inköp
 
 Du kan använda konfigurerade elektroniska dokument (e-dokument) med försäljnings- och inköpsdokument.
 
@@ -28,13 +28,13 @@ För närvarande kan du använda följande dokument för e-dokument:
 
 För närvarande kan en inköpsorder endast användas när du skapar dokumentet från leverantörens e-dokument. Du kan dock inte uppdatera det befintliga dokumentet med rader som du har fått från leverantören.
 
-## E-dokument inom försäljning
+## <a name="e-documents-in-sales"></a>E-dokument inom försäljning
 
 Om du vill skapa och skicka en e-faktura till en kund måste du skapa och bokföra försäljningsfakturan. Mer information om standardprocessen finns i [Fakturaförsäljning](sales-how-invoice-sales.md).
 
 När du har bokfört försäljningsdokumentet öppnar du sidan **Bokförd försäljningsfaktura** för att komma åt den relaterade **e-dokumentsidan**.
 
-### Se e-dokument
+### <a name="view-e-documents"></a>Se e-dokument
 
 Så här visar du befintliga e-dokument.
 
@@ -43,7 +43,7 @@ Så här visar du befintliga e-dokument.
 3. Fältet **Post** visar dokumentnumret för den bokförda försäljningsfakturan. Välj länken för att öppna dokumentet.
 4. I fältet **Status för elektroniskt dokument** kan du visa dokumentets realtidsstatus och dess placering i processpipelinen. Om dokumentet bokförs är statusen **Bearbetat**.
 
-### E-dokumentstatusar och loggar
+### <a name="e-document-statuses-and-logs"></a>E-dokumentstatusar och loggar
 
 Mer information om servicestatusnivån för ditt e-dokument finns på snabbfliken **Servicestatus för e-dokument**. På raderna visar systemet en eller flera tjänster som dokumentet använt. I det vanligaste scenariot använder varje dokument bara en tjänst. Ett dokument kan dock använda flera tjänster.
 
@@ -67,11 +67,11 @@ Om det finns ett problem med tjänsteleverantören och dokumentet inte kan skick
 
 När problemet har åtgärdats kör du åtgärderna **Skicka dokument** manuellt. Om du behöver olika åtgärder, till exempel **Återskapat dokument**, **Avbryt dokument** eller **Hämta godkännande**, kan du köra dem.
 
-## E-dokument vid köp
+## <a name="e-documents-in-purchases"></a>E-dokument vid köp
 
 Inleveransen av elektroniska inköpsfakturor Dynamics 365 Business Central kan göras som ett batchjobb eller manuellt.
 
-### Kör batch-jobbet
+### <a name="run-the-batch-job"></a>Kör batch-jobbet
 
 > [!NOTE]
 > Det här batchjobbet används för automatisk insamling av dina inkommande fakturor. Det kan bara fungera i ett land eller en region där funktionen finns.
@@ -95,7 +95,7 @@ Det finns två vanliga fel:
 
 När du har åtgärdat felen och varningarna kan du manuellt ange när systemet ska skapa en inköpsfaktura baserat på dina inställningar genom att välja **Skapa dokument**.
 
-### Manuellt importera fakturor
+### <a name="manually-import-invoices"></a>Manuellt importera fakturor
 
 Så här importerar du externa e-dokument manuellt.
 
@@ -106,7 +106,7 @@ Så här importerar du externa e-dokument manuellt.
 5. När du har åtgärdat problem, i **Importera manuellt**, välj **Skapa dokument**.
 6. När dokumentet har skapats i Business Central kan du visa det precis som om du använder ett batch-jobb.
 
-## Översikt över status för e-dokument
+## <a name="overview-of-e-document-statuses"></a>Översikt över status för e-dokument
 
 Om du vill få en bättre överblick över alla e-dokument i företaget kan du välja det rollcenter för **Revisor** där det finns e-dokumentstatus. Där kan du hitta e-dokumentaktiviteter som har följande status:
 
@@ -122,7 +122,7 @@ Om du vill få en bättre överblick över alla e-dokument i företaget kan du v
     - Pågår
     - Fel
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hur man ställer in e-dokument i Business Central](finance-how-setup-edocuments.md)  
 [Hur man utökar e-dokument i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

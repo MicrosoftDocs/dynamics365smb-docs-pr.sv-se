@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# Monteringshantering
+# <a name="assembly-management"></a>Monteringshantering
 
 Företag kan stödja produkter till kunderna genom att kombinera komponenter utan att använda produktionsfunktioner. Funktioner för att montera artiklar integreras med relaterade funktioner som försäljning, planering, reservationer och lagerstyrning.  
 
@@ -51,7 +51,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Lära dig att arbeta med monteringsstrukturer och hur de skiljer sig från produktionsstrukturer.|[Arbeta med monteringsstrukturer](assembly-how-work-assembly-boms.md)|
 |Lära dig mer om bokföring av monteringsförbrukning och utflöde och hur [!INCLUDE [prod_short](includes/prod_short.md)] fördelar artikel- och resurskostnader i redovisningen.|[Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)|  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med strukturlistor](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  

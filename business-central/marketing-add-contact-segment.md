@@ -11,7 +11,7 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="add-contacts-to-segments"></a>Lägga till kontakter i segment
+# <a name="adding-contacts-to-segments"></a>Lägga till kontakter i segment
 När du har skapat ett segment och angett grundläggande information om det kan du lägga till kontakter i segmentet. Det kan du göra genom att manuellt fylla i raderna på sidan **Segment** men det är enklare och går snabbare att använda åtgärden **Lägg till kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Så här lägger du till kontakter i ett segment
