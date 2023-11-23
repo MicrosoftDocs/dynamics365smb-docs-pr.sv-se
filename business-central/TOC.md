@@ -116,13 +116,6 @@
 ### [Felsöka registrering av självbetjäning](ui-troubleshoot-self-signup.md)
 ### [Utöka din utvärderingsversion](admin-extend-trial.md)
 ### [Avbryta prenumerationen eller ta bort Business Central](admin-cancel.md)
-### Marknadsföringstext för AI-baserad artikel med Copilot
-#### [Översikt](ai-overview.md)
-#### [Skaffa förhandsversion](ai-preview-getstarted.md)
-#### [Konfigurera marknadsföringstext för AI-baserad artikel](enable-ai.md)
-#### [Skapa marknadsföringstext för AI-baserad artikel](item-marketing-text.md)
-#### [Vanliga frågor och svar](ai-faq.md)
-
 ## Köp
 ### [Komma i gång med en prenumeration](trial-signup.md#get-started-with-a-subscription)
 ### [Förbered dig för att göra affärer](ui-get-ready-business.md)
@@ -379,6 +372,7 @@
 ### Stämma av bankkonton
 #### [Översikt över bankavstämning](bank-manage-bank-accounts.md)
 #### [Stämma av bankkonton](bank-how-reconcile-bank-accounts-separately.md)
+#### [Stämma av bankkonton med Copilot (förhandsversion)](bank-reconciliation-with-copilot.md)
 #### [Koppla utbetalningar automatiskt och stämma av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Hantera koncerninterna transaktioner
@@ -1577,7 +1571,6 @@
 #### [Konfigurera lagerställeenheter](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Kategorisera artiklar](inventory-how-categorize-items.md)
 #### [Importera flera artikelbilder](inventory-how-import-item-pictures.md)
-#### [Konfigurera marknadsföringstext för AI-baserad artikel med Copilot](enable-ai.md)
 ### Konfigurera projekthantering
 #### [Konfigurera projekt](projects-setup-projects.md)
 #### [Konfigurera resurser](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Rapportutvecklingsguide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Rapportprestandaguide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot- och AI-funktioner
+## Hantera Copilot- och AI-funktioner
+### [Konfigurera Copilot- och AI-funktioner](enable-ai.md)
+### [Copilot-dataförflyttning mellan geografiska områden](ai-copilot-data-movement.md)
+## Hjälp med bankkontoavstämning (förhandsversion)
+### [Stämma av bankkonton med Copilot](bank-reconciliation-with-copilot.md)
+### [Vanliga frågor och svar om hjälp med bankkontoavstämning](faqs-bank-reconciliation.md)
+## Förslag på marknadsföringstext
+### [Översikt över förslag på marknadsföringstext](ai-overview.md)
+### [Skapa marknadsföringstext med Copilot](item-marketing-text.md)
+### [Vanliga frågor och svar om förslag på marknadsföringstext](faqs-marketing-text.md)
 
 # Säkerhet, sekretess och regelefterlevnad
 ## Säkerhet och skydd
@@ -1894,6 +1898,7 @@
 ### [Aktivera nya funktioner i förväg](admin-feature-management.md)
 ### [Introducera användare med checklistor](admin-checklist.md)
 ### [Sandbox-miljöer](admin-sandbox-environments.md)
+## [Copilot- och AI-funktioner](enable-ai.md)
 ## Anpassa Business Central
 ### [Anpassningsöversikt](ui-customizing-overview.md)
 ### [Anpassa sidor för profiler](ui-personalization-manage.md)
@@ -1926,19 +1931,19 @@
 #### [US/CA/UK/AU/NZ/ZA – Skicka kundremissa](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
-## Integrera med Dynamics 365 Sales
-### [Integrera med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrera med andra Dynamics 365-program
+### [Integrera med Dynamics 365 Sales via datasynkronisering](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrera med Microsoft Dataverse
-### [Integrera med Microsoft Dataverse](admin-common-data-service.md)
-### [Modeller för dataägarskap](admin-cds-company-concept.md)
-### [Konfigurera konton för Microsoft Dataverse-integration](admin-setting-up-integration-with-dynamics-sales.md)
-### [Ansluta till Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrera med Dataverse via datasynkronisering](admin-common-data-service.md)
+### [Modeller för dataägarskap för synkronisering](admin-cds-company-concept.md)
+### [Konfigurera konton för Dataverse-integration via datasynkronisering](admin-setting-up-integration-with-dynamics-sales.md)
+### [Anslut till Dataverse för datasynkronisering](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkroniserar Business Central och Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Mappa tabeller och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkronisera tabellmappning manuellt](admin-manual-synchronization-of-table-mappings.md)
 ### [Schemalägga en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Felsöka synkroniseringsfel](admin-troubleshoot-sales-synchronization.md)
-### [Använda ett Power Automate-flöde för aviseringar till Dataverse-enhetsändringar](admin-power-automate-flow-dataverse.md)
+### [Använda ett Power Automate-flöde för att synkronisera Dataverse-enhetsändringar i rätt tid](admin-power-automate-flow-dataverse.md)
 ## Synkronisera huvuddata mellan företag
 ### [Kom i gång med synkronisering av huvuddata](admin-set-up-data-sync.md)
 ### [Hantera synkronisering av huvuddata](admin-sync-master-data.md)
@@ -2019,3 +2024,7 @@
 ## [Säkerhet och skydd](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Prestanda](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Borttagna eller utfasade funktioner](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Ansvarsfull AI
+## [Översikt](responsible-ai-overview.md)
+## [Vanliga frågor och svar om hjälp med bankkontoavstämning (förhandsversion)](faqs-bank-reconciliation.md)
+## [Vanliga frågor och svar om förslag på marknadsföringstext](faqs-marketing-text.md)
