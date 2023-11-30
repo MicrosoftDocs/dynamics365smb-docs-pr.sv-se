@@ -160,6 +160,18 @@ När gruppsrepresentanten har skickat gruppens moms till myndigheterna kommer re
 > [!IMPORTANT]
 > Funktionen momsgrupp stöds endast på de marknader där [!INCLUDE[prod_short](includes/prod_short.md)] använder en momsram som består av momsreturer och perioder för momsreturer. Du kan inte använda momsgrupper på andra marknader som har andra implementeringar av lokal momsrapportering, till exempel Österrike, Tyskland, Italien, Spanien och Schweiz.
 
+## Problem med att aktivera multifaktorautentisering (MFA)
+
+Om du får ett felmeddelande relaterat till auktorisering under förnyelsen av **OAuth2-token** på sidan **Momsrapportinställning** när du har aktiverat MFA utför du följande steg.  
+
+1. Logga in på **Azure Portal** som autentiseringsadministratör.  
+2. Gå till **Microsoft Entra ID**.   
+3. Bläddra till **Användare** och välj sedan den användare du vill utföra en åtgärd.  
+4. Välj **Autentiseringsmetoder** och välj **Kräv omregistrering av multifaktorautentisering** högst upp på sidan. 
+5. Gå tillbaka till Dynamics 365 Business Central och välj att förnya token från **Momsrapportinställning**.  
+
+Detta bör vara en engångsinställning när du har aktiverat multifaktorautentisering för den användare som valts i **Momsrapportinställning**.  
+
 ## Se även
 
 [Storbritannien funktion i brittiska versionen](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  

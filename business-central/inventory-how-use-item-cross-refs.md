@@ -14,16 +14,6 @@ ms.custom: bap-template
 
 Om du köper eller säljer artiklar som du och leverantören eller kunden använder olika villkor för kan du ställa in en referens mellan villkoren för artiklarna och villkoren som kunden eller leverantören för artikeln använder. På så sätt infogas leverantörens eller kundens artikelbeskrivning, enhet eller variantkod automatiskt på de relevanta dokumenten när du fyller i fältet **Artikelreferensnummer.** .  
 
-> [!NOTE]
-> Alla företag använder inte artikelreferenser. För att minimera sammanhängande sidor vi har dolt de relaterade fälten och åtgärderna som standard. Om du bestämmer dig för att använda väljer du fältet **Använd artikelreferenser** på sidan **Lagerinställning**. När du har aktiverat artikelreferenser finns fälten och åtgärderna på artikel-, leverantörs- och kundkortsidor och från försäljnings- och inköpsdokument.
->
-> I versioner tidigare än utgivningscykel 2, 2021 kan administratören aktivera funktionen *Skriv längre artikelreferenser* på sidan [Funktionshantering](https://businesscentral.dynamics.com/?page=2610) (länken kräver att du har en [!INCLUDE [prod_short](includes/prod_short.md)]-klientorganisation). Hur du använder referenser ändras inte, men namn på sådant som sidor och knappar gör det. Exempelvis kommer sidan **Transaktioner för korsreferens av artikel** att bli sidan **Transaktioner för artikelreferens**.
-
-## Börja använda artikelreferenser
-
-1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **lagerinställning** och välj sedan relaterad länk.
-2. Välj fältet **Använd artikelreferenser**.
-
 ## Så här ställer du in en artikelreferens
 
 1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **Artiklar** och välj sedan relaterad länk.

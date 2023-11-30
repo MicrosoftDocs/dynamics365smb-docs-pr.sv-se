@@ -7,7 +7,6 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Läs mer
 ### [Resurser för användare](resources-for-users.md)
-### [Utbildningskatalog för Business Central](readiness/readiness-learning-catalog.md)
 ### [Business Central-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Genomgång av affärsprocesser
 #### [Tillgängliga genomgångar](walkthrough-business-process-walkthroughs.md)
@@ -209,19 +208,6 @@
 ### [Besök vårt videobibliotek](across-videos.md)
 ### [Få teknisk support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Affärsfunktion
 ## [Översikt över affärsfunktioner](across-business-functionality.md)
 <!--general-->
@@ -244,6 +230,7 @@
 ### [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md)
 ### [Låta Business Central föreslå värden](ui-let-system-suggest-values.md)
 ### [Använda Online Map för att hitta platser och vägbeskrivningar](across-online-maps.md)
+### [Ställa in digitala verifikat](across-how-setup-digital-vouchers.md)
 
 ### Inkommande dokument
 #### [Översikt över inkommande dokument.](across-income-documents.md)
@@ -882,10 +869,12 @@
 
 ### Danmark
 #### [Lokala funktioner i den danska versionen](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Anmälan och registrering till NemHandelsregisteret i Danmark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### Moms
 ##### [Skriva ut momsavstämningsrapporter](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Moms- och kvartalsredovisning](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Inställningar för momsregistreringsnummer för Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Skicka in momsdeklarationer elektroniskt](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Bankverksamhet och betalningar
 ##### [FIK-information i betalningsavstämningsjournalen](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Tillägg för betalningar och avstämning (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -897,6 +886,8 @@
 ##### [Skapa elektroniska dokument i ett OIOUBL-format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Löner
 ##### [Definition av lönedata (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digitala verifikat
+##### [Ställa in digitala verifikat i Danmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Lokala funktioner i den finska versionen](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1838,6 +1829,7 @@
 ## Hantera Copilot- och AI-funktioner
 ### [Konfigurera Copilot- och AI-funktioner](enable-ai.md)
 ### [Copilot-dataförflyttning mellan geografiska områden](ai-copilot-data-movement.md)
+### [Felsöka Copilot- och AI-funktioner](ai-copilot-troubleshooting.md)
 ## Hjälp med bankkontoavstämning (förhandsversion)
 ### [Stämma av bankkonton med Copilot](bank-reconciliation-with-copilot.md)
 ### [Vanliga frågor och svar om hjälp med bankkontoavstämning](faqs-bank-reconciliation.md)

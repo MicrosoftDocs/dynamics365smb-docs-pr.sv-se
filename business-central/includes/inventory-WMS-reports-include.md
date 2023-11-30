@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/13/2023
+ms.date: 10/31/2023
 ms.author: bholtorf
 ---
 
@@ -10,7 +10,7 @@ I följande tabell beskrivs några av de viktigaste rapporterna inom lagerhanter
 | Rapportera | Description | ID | 
 |---------|---------|---------|
 |[Lagerdispositionsplan](https://businesscentral.dynamics.com?report=707)|Får en översikt över specifika artiklar och lagerställesenheter och deras tillgänglighet. I den här rapporten visas ackumulerade värden som bruttobehov, schemalagda och planerade inleveranser, lager och så vidare. |707|
-|[Lagervärdering](https://businesscentral.dynamics.com?report=1001)|Visar information om lagervärderingen för valda artiklar i lagret. Rapporten visas även information om värdet av ökningar och minskningar i lager över tid.|1001|
+|[Lagervärdering](https://businesscentral.dynamics.com?report=1001)|Visar information om lagervärderingen för valda artiklar i lagret. Rapporten visas även information om värdet av ökningar och minskningar i lager över tid.<br><br>Rapporten kommer också att skriva ut den förväntade kostnaden för poster som har bokförts som mottagna eller skickade, beroende på om du aktiverar växlingen **Ta med förväntad kostnad**.<br><br>Om du aktiverar **Inkludera förväntad kostnad** grupperas transaktionerna i rapporten och en gruppsumma av fakturerade och förväntade kostnader visas för varje lagerbokföringsmall.<br><br>Du kan också begränsa rapportutdata med filtren Plats och Variant. Men eftersom rapporten bygger på en värdetransaktion kan du inte använda Lagerplatsfilter.<br><br>För att säkerställa att rapporten **Lagervärdering** är uppdaterad rekommenderar vi att du kör batch-jobbet **Justera kostn. – artikeltrans.** innan du kör den här rapporten.<br><br>I USA, Kanada och Mexiko är den här rapporten inte tillgänglig. Använd i stället den lokaliserade versionen av rapporten Lagervärdering (10139).|1001|
 |[Utgångsdatum artikel - Antal](https://businesscentral.dynamics.com?report=5809)|Få en översikt över antalet valda artiklar i lagret vars utgångsdatum infaller inom en viss period. I listan visas det antal enheter av den valda artikeln som kommer att gå ut inom en given tidsperiod. För varje artikel som du anger visar rapporten det antal enheter som kommer att gå ut under var och en av tre perioder med samma längd och den totala lagerkvantiteten.<br><br>Använd filter för att ange vad rapporten ska innehålla. Om du inte ställer in några filter inkluderas alla poster i rapporten. Antalet i rapporten reflekterar endast det antal av artikeln som utgångsdatum har definierats för.|5809|
 |[Artikel åldersstruktur - antal](https://businesscentral.dynamics.com?report=5807)|Få en överblick över åldersstrukturen för valda artiklar i lagret. I den här rapporten kategoriseras lagersaldot för valda artiklar i tre periodintervall. Du kan ange slutdatum för den sista bucket och varaktighet för tidsintervall (period). I rapporten analyseras det återstående antalet öppna artikeltransaktioner som vanligtvis är ett resultat av inköp, utflöde eller positiva justeringar.|5807|
 |[Artikel åldersstruktur - värde](https://businesscentral.dynamics.com?report=5808)|Få en överblick över åldersstrukturen för valda artiklar i lagret. I den här rapporten kategoriseras lagervärdet för valda artiklar i tre periodintervall. Du kan ange slutdatum för den sista bucket och varaktighet för tidsintervall (period). I rapporten analyseras det återstående antalet öppna artikeltransaktioner som vanligtvis är ett resultat av inköp, utflöde eller positiva justeringar.|5808|
