@@ -42,7 +42,7 @@ Utför följande steg för att lägga till marknadsföringstext till en befintli
 
    1. I det övre högra hörnet, välj ![Glödlampa som öppnar funktionen Berätta 22.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **artiklar** och välj sedan relaterad länk för att visa en lista med tillgängliga artiklar.
 
-   2. Dubbelklicka på det eller markera värdet i fältet **Nr.** kolumn.
+   2. Dubbelklicka på det eller markera värdet i fältet **Nr.** kolumn .
 
    [![Visar artikelkort med fönstret marknadsföringstext](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -120,7 +120,7 @@ Det finns några steg som du kan utföra för att förbättra textförslagen och
 1. Öppna den artikel som du vill ändra i Business Central enligt följande:
 
     1. I det övre högra hörnet, välj ![Glödlampa som öppnar funktionen Berätta 22.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **artiklar** och välj sedan relaterad länk för att visa en lista med tillgängliga artiklar.
-    2. Om du vill öppna objektet dubbelklicka på det eller markera numret i **Nr.** .
+    2. Om du vill öppna objektet dubbelklicka på det eller markera numret i fältet **Nr.** .
 
 2. Gör något av följande:
 

@@ -12,7 +12,7 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Konfigurera e-dokument
+# Konfigurera e-dokument
 
 > [!IMPORTANT]
 > Kärnmodulen E-dokument är ett ramverk. Som standard finns det inget fält för **dokumentformat** eller **tjänstintegrering**. Den här informationen ingår i lokaliseringsappar eftersom de båda är specifika för lokala krav.
@@ -22,7 +22,7 @@ ms.author: altotovi
 
 Det första steget i konfigurationen av elektroniska dokument (e-dokument) är att konfigurera tjänsten E-dokument där du konfigurerar systemets fullständiga beteende när det gäller e-dokumentkommunikation.
 
-## <a name="set-up-the-e-document-service"></a>Ställ in e-dokumenttjänsten
+## Ställ in e-dokumenttjänsten
 
 Följ dessa steg för att konfigurera e-dokumenttjänsten.
 
@@ -61,7 +61,7 @@ Om du har konfigurerat formatet **datautbytesdefinition** i din lokalisering kan
 
 Om du inte använder formatet **Datautbytesdefinition**, du kan konfigurera format genom raderna **Exportera mappning** och **Importera mappning**, där du kan hitta tabeller och fält att använda och konfigurera omvandlingsregler om tillämpligt.
 
-## <a name="set-up-a-document-sending-profile"></a>Konfigurera en dokumentutskicksprofil
+## Konfigurera en dokumentutskicksprofil
 
 Du kan konfigurera en önskad metod för att skicka försäljningsdokument för respektive kund. På så sätt behöver du inte välja ett sändningsalternativ varje gång du väljer åtgärden **Bokför och skicka**. På sidan **Dokumentutskicksprofiler** konfigurerar du olika utskicksprofiler som du kan välja bland i fältet **Dokumentutskicksprofil** på ett kundkort. Du kan markera kryssrutan **Standard** om du vill ange att dokumentutskicksprofilen är standardprofilen för alla kunder förutom för kunder som har fältet **Dokumentutskicksprofil** ifyllt med en annan utskicksprofil.
 
@@ -83,7 +83,7 @@ Följ dessa steg för att ställa in en dokumentutskicksprofil.
     > [!NOTE]
     > Om du väljer select **Utökat serviceflöde för e-dokument** i fältet **Elektroniskt dokument** måste du redan ha konfigurerat arbetsflödet för dina e-dokument.
 
-## <a name="set-up-the-workflow"></a>Konfigurera arbetsflödet
+## Konfigurera arbetsflödet
 
 Följ de här stegen om du vill konfigurera arbetsflödet som används i e-dokumentfunktioner.
 
@@ -98,7 +98,7 @@ Följ de här stegen om du vill konfigurera arbetsflödet som används i e-dokum
 > [!NOTE]
 > Du kan skapa ett eget arbetsflöde för e-dokument utan att använda fördefinierade arbetsflödesmallar. Om du har fler tjänster kan du använda olika arbetsflöden.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Ställa in en lagringspolicy för e-dokument
+## Ställa in en lagringspolicy för e-dokument
 
 E-dokument kan omfattas av olika lokala lagar som är relaterade till den period som e-dokumenten bevaras. Därför har vi lagt till en lagringspolicy för all viktig information som är relaterad till e-dokument. Administratörer kan definiera bevarandeprinciper som anger hur ofta Dynamics 365 Business Central tar bort inaktuella poster som är relaterade till e-dokument. Mer information om kvarhållningsprinciper i [Definiera kvarhållningsprincip](admin-data-retention-policies.md).
 
@@ -112,7 +112,7 @@ Så här konfigurerar du bevarandeprinciper för e-dokument.
     - Mappningslogg för e-dokument
     - Datalagring för e-dokument
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hur man använder e-dokument i Business Central](finance-how-use-edocuments.md)  
 [Hur man utökar e-dokument i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
