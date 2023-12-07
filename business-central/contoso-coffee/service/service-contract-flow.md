@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Genomgång av servicekontrakt för serviceartiklar
+# <a name="walkthrough-of-service-contracts-for-service-items"></a>Genomgång av servicekontrakt för serviceartiklar
 
 Den här genomgången visar flera kärnprocesser:
 
@@ -19,13 +19,13 @@ Den här genomgången visar flera kärnprocesser:
 - Slutför tidsregistreringen för serviceordern
 - Bokför och fakturera kontraktserviceordern
 
-## Skapa serviceartiklar
+## <a name="creation-of-service-items"></a>Skapa serviceartiklar
 
-### Scenario  
+### <a name="scenario"></a>Scenario
 
 Orderhandläggaren Susan bokför en försäljningsorder som säljer en artikel som konfigurerats för att generera en serviceartikel.  
 
-### Steg
+### <a name="steps"></a>Steg
 
 1. Kontrollera att **Serviceartikelgrupp** har valts för **Artikel**.
    
@@ -39,13 +39,13 @@ Orderhandläggaren Susan bokför en försäljningsorder som säljer en artikel s
     2. Välj ordern för kund 10000. Externt ordernr är *SVC-1*.
     3. Välj åtgärden **Bokför** för att leverera artikeln till kunden.
 
-### Resultat
+### <a name="results"></a>Resultat
 
 - En serviceartikel skapas för kund 10000
 
-##  Fakturera ett servicekontrakt
+## <a name="invoicing-a-service-contract"></a>Fakturera ett servicekontrakt
 
-### Scenario
+### <a name="scenario-1"></a>Scenario
 
 Servicechefen Charles skapar sedan ett servicekontrakt som ska faktureras för regelbundna underhållsbesök.
 
@@ -68,18 +68,18 @@ Servicechefen Charles skapar sedan ett servicekontrakt som ska faktureras för r
    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Servicefakturor** och väljer sedan relaterad länk.
    2. Leta upp servicefakturan och välj åtgärden **Bokför**.
 
-### Resultat
+### <a name="results-1"></a>Resultat
 
 - Ett signerat servicekontrakt skapas, med transaktioner
 - En bokförd servicefaktura skapas
 
-## Skapa en serviceorder för ett servicekontrakt och tilldela resurser
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Skapa en serviceorder för ett servicekontrakt och tilldela resurser
 
-### Scenario  
+### <a name="scenario-2"></a>Scenario
 
 Servicechefen Charles skapar serviceorderna för regelbundna underhållsorder under Servicekontrakt och granskar sedan beordringstavlan för att tilldela dem.
 
-### Steg
+### <a name="steps-1"></a>Steg
 
 1. Kör de serviceorder som uppfyller skyldigheterna i aktiva servicekontrakt.
    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Skapa kontraktserviceorder** och väljer sedan relaterad länk.
@@ -102,21 +102,21 @@ Servicechefen Charles skapar serviceorderna för regelbundna underhållsorder un
     3. Fördelningens status ändras till Aktiv.
     4. Om du uppdaterar beordringstavlan visas att **Antal fördelningar** har ändrats från 0 till 1 för serviceordern.
 
-### Resultat
+### <a name="results-2"></a>Resultat
 
 - Serviceorder skapas för servicekontrakten
 - Serviceorderna fördelas till en resurs för att slutföra arbetet
 
-## Slutför tidsregistreringen för serviceordern och bokför serviceordern
+## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Slutför tidsregistreringen för serviceordern och bokför serviceordern
 
-### Scenario  
+### <a name="scenario-3"></a>Scenario
 
 Serviceteknikern registrerar sin tid direkt mot serviceordern och markerar sedan ordern som avslutad.
 
 > [!NOTE]
 > Tidsregistrering för serviceorder kan anges via tidrapporter. För mer information, se [länk till tidrapport om denna anteckning är meningsfull].
 
-### Steg
+### <a name="steps-2"></a>Steg
 
 1. Leta reda på serviceordern och ange tiden på serviceraden
    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceorder** och väljer sedan relaterad länk.
@@ -131,8 +131,8 @@ Serviceteknikern registrerar sin tid direkt mot serviceordern och markerar sedan
 2. Bokför förbrukningen på serviceordern
    1. Välj åtgärden **Bokför** för att slutföra serviceordern, välj alternativet **Leverera och förbruka**, och välj sedan **OK**-knappen.
 
-### Resultat
+### <a name="results-3"></a>Resultat
 
 - Servicetransaktioner skapas kopplade till serviceartikeln, servicekontraktet och resursen
 
-## Se även
+## <a name="see-also"></a>Se även

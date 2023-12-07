@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 10/11/2023
 ms.author: bholtorf
 ---
-# Uppdatera standardkostnader
+# <a name="update-standard-costs"></a>Uppdatera standardkostnader
 Du måste regelbundet uppdatera standardkostnader för komponenter och överföra de nya kostnaderna till den överordnade artikeln. Processen består typiskt av följande fyra steg:  
 
 1.  Uppdatera kostnader på komponent- och kapacitetsnivå. Mer information finns i batch-jobbet **Föreslå artikelstandardkostnad**.  
@@ -20,7 +20,7 @@ Du måste regelbundet uppdatera standardkostnader för komponenter och överför
 
 Mer information finns i [Om att beräkna standardkostnad](finance-about-calculating-standard-cost.md).
   
-## Uppdatera standardkostnader
+## <a name="to-update-standard-costs"></a>Uppdatera standardkostnader
 
 1.  Kör batch-jobbet **Justera kost. – artikeltrans.** För att starta batch-jobbet, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Justera kostn. – artikeltrans.** och välj sedan relaterad länk. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Granska resultaten och gör nödvändiga ändringar.  
 2.  Kör batch-jobbet **Bokför lagerkostnad i redov.** För att starta batch-jobbet, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokför lagerkostnad i redov.** och väljer sedan relaterad länk. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Granska resultaten och gör nödvändiga ändringar.  
@@ -35,7 +35,7 @@ Mer information finns i [Om att beräkna standardkostnad](finance-about-calculat
     7.  Kör batch-jobbet **Implementera standardkostnadsändringar**.  
 4.  Granska och bokför sidan **Omvärderingsjournal** , vilken har fyllts på med transaktioner från föregående steg i den här processen.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
  [Om beräkning av standardkostnad](finance-about-calculating-standard-cost.md)   
  [Hantera lagerkostnader](finance-manage-inventory-costs.md)   

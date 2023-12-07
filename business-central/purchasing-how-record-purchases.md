@@ -22,7 +22,7 @@ När du tar emot lagerartiklarna, eller när den inköpta tjänsten avslutas, bo
 > [!CAUTION]  
 > Bokför inte en inköpsfaktura för fysiska artiklar förrän du tar emot artiklarna och vet slutkostnaden för inköpet, inklusive eventuella extrakostnader. Annars kan lagervärdet och vinstsiffrorna ha oriktiga resultat.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Skapa och bokföra inköpsfaktura
+### <a name="create-and-post-a-purchase-invoice"></a>Skapa och bokföra inköpsfaktura
 
 Nedan beskrivs hur du skapar en inköpsfaktura. Momenten är liknande för en inköpsorder. Den största skillnaden är att inköpsorder har ytterligare fält och åtgärder för fysisk hantering av artiklar.
 

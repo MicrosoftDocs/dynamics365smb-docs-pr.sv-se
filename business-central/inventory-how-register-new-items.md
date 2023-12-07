@@ -99,7 +99,7 @@ När antal artiklar som har begärts överstiger det tillgängliga antalet i lag
 
 Läs mer om varianter på [Hantera produktvarianter](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Ta bort artikelkort
+## <a name="delete-item-cards"></a>Ta bort artikelkort
 
 Om du har bokfört en transaktion för en artikel kan du inte ta bort kortet eftersom transaktionerna kan behövas för lagervärdering eller revision. Om du vill ta bort artikelkort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.  
 
