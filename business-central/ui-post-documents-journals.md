@@ -10,7 +10,7 @@ ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf
 ---
-# Bokför dokument och journaler
+# <a name="posting-documents-and-journals"></a>Bokför dokument och journaler
 
 Bokföring representerar redovisningsåtgärden att bokföra affärstransaktioner i de olika företaghuvudböckerna.
 
@@ -27,7 +27,7 @@ I tabellen nedan beskrivs relaterade uppgifter med länkar till avsnitten där d
 | Förhandsgranska på en sida de transaktioner som skapas när du bokför. |[Förhandsgranska resultat](ui-how-preview-post-results.md) |
 | Förhandsgranska i en rapport, de transaktioner som skapas när du bokför. |[Visa testrapporter före bokföring](ui-how-view-test-reports-posting.md) |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Redigera bokförda dokument](across-edit-posted-document.md)  
 [Hitta relaterade transaktioner för dokument](ui-find-entries.md)  

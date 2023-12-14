@@ -10,13 +10,13 @@ ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# Lägg till extratext
+# <a name="add-extended-text"></a>Lägg till extratext
 
 Du kan utöka beskrivningen av artiklar, lagerhållningsenheter, redovisningskonton och resurser genom att lägga till extra rader som extratext. Du kan också ange villkor för hur de extra raderna ska användas.  
 
 I följande avsnitt beskrivs hur du lägger till extratext i en beskrivning av en artikel. Men samma steg gäller för lager enheter, redovisningskonton och resurser.  
 
-## Om du vill definiera extratexten för en beskrivning
+## <a name="to-define-extended-text-for-an-description"></a>Om du vill definiera extratexten för en beskrivning
 
 1. Öppna kortet för en artikel som du vill lägga till extratext på, och välj sedan åtgärden **Extratext**.
 2. Fyll i fälten **Kod** och **Beskrivning**.
@@ -29,12 +29,12 @@ I följande avsnitt beskrivs hur du lägger till extratext i en beskrivning av e
 
 Nu kan du lägga till den utökade texten i dokument. I proceduren nedan beskrivs hur du lägger till extratext på en försäljningsorder, men samma steg gäller för andra dokument som du har angett för den extratext.  
 
-## För att lägga till en utökad artikeltext på en försäljningsorderrad.
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>För att lägga till en utökad artikeltext på en försäljningsorderrad.
 
 1. Öppna en försäljningsorder med en försäljningsrad för en artikel som har förlängd text som har definierats. Mer information finns i [Sälja produkter](sales-how-sell-products.md).
 2. Markera den aktuella raden och välj sedan åtgärden **Infoga förl. text**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in lager](inventory-setup-inventory.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

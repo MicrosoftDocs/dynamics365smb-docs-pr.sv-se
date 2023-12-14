@@ -12,7 +12,7 @@ ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
-# Skapa digitala verifikationer
+# <a name="set-up-digital-vouchers"></a>Skapa digitala verifikationer
 
 Administratörer kan använda digitala verifikationsfunktioner för att kräva att dokument bifogas specifika transaktioner när de bokförs. Därför möjliggör denna funktionalitet ett källdrivet tillvägagångssätt och ger ett bättre granskningsspår. Olika typer av verkställighet kan konfigureras för detta ändamål, beroende på dokument eller journaltyper.
 
@@ -21,14 +21,14 @@ Termen *digital verifikation* avser en digital eller elektronisk form av en trad
 > [!IMPORTANT]
 > I vissa länder och regioner kan du vara begränsad från att konfigurera vissa alternativ, eftersom specifika inställningar kan krävas av juridiska krav. Om du stöter på dessa begränsningar, leta efter en detaljerad förklaring på dokumentationssidan för ditt land eller din region.
 
-## Aktivera digitala verifikationer
+## <a name="enable-digital-vouchers"></a>Aktivera digitala verifikationer
 
 Följ dessa steg för att aktivera funktionen digital verifikation.
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") Välj ikonen ange **Konfiguration av digitala verifikationer** och välj sedan relaterad länk.
 2. Markera kryssrutan **Aktiverad**.
 
-## Skapa digitala verifikationer
+## <a name="set-up-digital-vouchers-1"></a>Skapa digitala verifikationer
 
 Du kan använda olika inställningar för följande dokument och journaler.
 
@@ -48,7 +48,7 @@ Följ dessa steg för att definiera hur din organisation använder påtvingade d
 4. Markera kryssrutan **Generera automatiskt** för att generera den digital verifikationen automatiskt. Om du till exempel inte vill lägga till en försäljningsfaktura manuellt i din transaktion markerar du den här kryssrutan. Sedan är det bara att bokföra dokumentet. Systemet skapar automatiskt dokumentet, baserat på din rapportlayout och bifogar det till transaktionen.
 5. Välj kryssrutan **Hoppa över om manuellt lagts till** om du inte vill lägga till en automatiskt genererad digital verifikation om användaren redan har lagt till en manuell bilaga.
 
-### Använd källkoder för installationen
+### <a name="use-source-codes-for-setup"></a>Använd källkoder för installationen
 
 Om du vill använda verkställighet för journaler, men inte för alla transaktionstyper, ansluter du den specifika källkoden för att identifiera postningstypen allmän journal, försäljningsjournal eller inköpsjournal.
 
@@ -58,7 +58,7 @@ Följ dessa steg för att ställa in specifika källkoder för digitala verifika
 2. På sida **Källkoder för verifikationstransaktion**, välj källkoderna som du vill konfigurera.
 3. Stäng sidan.
 
-## Använd funktionen
+## <a name="use-the-functionality"></a>Använd funktionen
 
 Öppna ett inköps- eller försäljningsdokument och ange information i de obligatoriska fälten. Innan du bokför dokumentet måste du följa dessa steg för att bifoga en digital verifikation.
 
@@ -75,13 +75,13 @@ Om du av misstag bifogar fel verifikation, följ dessa steg för att radera den 
 > [!NOTE]
 > Om bifogning av en digital verifikation är konfigurerad som obligatorisk och du försöker bokföra dokument eller journaler utan att bifoga en verifikation, hindrar systemet dig från att bokföra. Du får följande felmeddelande: "Det går inte att bokföra utan att bifoga den digitala verifikationen."
 
-### Hitta bifogade verifikationer i transaktioner
+### <a name="find-attached-vouchers-in-transactions"></a>Hitta bifogade verifikationer i transaktioner
 
 Du hittar den bifogade verifikationen från det upplagda dokumentet eller från sidan **Redovisningstransaktioner** genom att titta i faktabox **Inkommande dokumentfiler**.
 
 Du kan inte ta bort ett bifogat dokument efter att bokföringen är klar. Du kan dock lägga till fler bilagor efter att bokföringen är klar.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomihantering](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

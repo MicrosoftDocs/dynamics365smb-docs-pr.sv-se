@@ -11,7 +11,7 @@ ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Arbeta med lagerperioder
+# <a name="work-with-inventory-periods"></a>Arbeta med lagerperioder
 
 Under en lagerperiod går det att bokföra ändringar i lagret. Lagerperioden definieras utifrån slutdatumet. När en lagerperiod stängs kan inga ändringar bokföras i lagret, oavsett om de är förväntade eller rör faktureringen, före det här slutdatumet. Det går inte heller att bokföra nya värden i lagret före slutdatumet. Om det finns öppna artikeltransaktioner i den stängda perioden, d.v.s. positiva antal som ännu inte har kopplats till avgående transaktioner, går det fortfarande att koppla avgående antal till de här transaktionerna även om perioden är stängd.  
 
@@ -21,14 +21,14 @@ I följande avsnitt finns beskrivningar om att:
 * Stänga lagerperioder.  
 * Öppna lagerperioder igen.  
 
-## Skapa en lagerperiod
+## <a name="to-create-an-inventory-period"></a>Skapa en lagerperiod
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerperioder** och väljer sedan relaterad länk.  
 2. Skapa en ny rad.  
 3. Ange det sista datumet för lagerperioden som definieras i fältet **Slutdatum**. När perioden har stängts går det inte längre att bokföra lagerändringar före det här datumet.  
 4. Ange ett beskrivande namn i fältet **Namn**. Välj **OK**.  
 
-## Stänga lagerperioder
+## <a name="closing-inventory-periods"></a>Stänga lagerperioder
 
 I fältet **Stängd** anges om lagerperioden är stängd för lagervärdeändringar. Fältet kan inte redigeras.  
 
@@ -39,7 +39,7 @@ Det går att stänga vilken lagerperiod som helst, förutsatt att följande vill
 
 Detta innebär att alla avgående transaktionsantal (till exempel antalen från försäljningsorder, avgående överföringar, fakturor, inköpsreturer eller inköpskreditnotor) måste kopplas till ett befintligt antal i lagret.  
 
-### Stänga en lagerperiod  
+### <a name="to-close-an-inventory-period"></a>Stänga en lagerperiod
 
 1. Välj åtgärden **Justera kost. – artikeltrans.** innan en lagerperiod stängs för att säkerställa att alla kostnadsjusteringar har bokförts.
 
@@ -53,16 +53,16 @@ Detta innebär att alla avgående transaktionsantal (till exempel antalen från 
 6. Klicka på **Ja** för att bekräfta stängningen av perioden eller klicka på **Nej** för att avbryta stängningen.  
 7. Lagerperioden stängs och en bekräftelse visas när stängningen är klar.  
 
-## Öppna lagerperioder igen  
+## <a name="reopening-inventory-periods"></a>Öppna lagerperioder igen
 När lagerperioden har stängts en gång går det inte längre att ta bort den. Det går däremot att öppna lagerperioden igen om bokföring före lagerperiodens slutdatum ska tillåtas. Om en period öppnas igen, öppnas även de lagerperioder som innehåller slutdatum som infaller efter slutdatumet för perioden som öppnas igen.  
 
-### Öppna en lagerperiod igen  
+### <a name="to-reopen-an-inventory-period"></a>Öppna en lagerperiod igen
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerperioder** och väljer sedan relaterad länk.  
 2. Välj den lagerperiod som du vill öppna igen.  
 3. Välj åtgärdenden **Öppna period igen**. Bekräfta att du vill öppna perioden igen.  
 4. Alla lagerperioder med slutdatum efter perioden som du har valt öppnas igen.  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Designdetaljer: Lagerperioder](design-details-inventory-periods.md)  
 [Ekonomi](finance.md)  
 [Lager](inventory-manage-inventory.md)  
