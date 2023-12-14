@@ -10,11 +10,11 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, a
 ms.date: 08/29/2022
 ms.author: jswymer
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Översikt över uppgifter för att avsluta bokföringsperioder
+# Översikt över uppgifter för att avsluta bokföringsperioder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tvingar dig inte att avsluta perioder, men det finns många periodslutsaktiviteter (månadsslut) som du kan göra. I det här avsnittet ges en översikt över valfria processer och aktiviteter för att avsluta perioder.  
 
-## <a name="general-ledger"></a>Redovisning
+## Redovisning
 
 * Specificera intervall för bokföringsdatum som gäller hela systemet och är användarspecifik.  
 
@@ -25,7 +25,7 @@ ms.author: jswymer
 * Gör ekonomiska rapporter så här:  
   * Öppna sidan **Ekonomiska rapporter** och välj åtgärden **Skriv ut**.  
 
-## <a name="sales-and-receivables"></a>Försäljning
+## Försäljning
 
 * Bokför alla försäljningsorder, fakturor, kreditnotor och returorder.  
 * Bokför alla inbetalningsjournaler.  
@@ -33,7 +33,7 @@ ms.author: jswymer
 * Stäm av kundreskontra i redovisningen.  
 * Kör batch-jobbet **Ta bort fakturerade förs.order**  
 
-## <a name="purchases-and-payables"></a>Inköp
+## Inköp
 
 * Bokför alla inköps order, fakturor, kreditnotor och returorder.  
 * Bokför alla betalningsjournaler.  
@@ -41,7 +41,7 @@ ms.author: jswymer
 * Kör rapporten **Lev.skulder – ålder** och stäm av leverantörsskulder i redovisningen.  
 * Kör batch-jobbet **Ta bort fakturerade inköpsorder**  
 
-## <a name="fixed-assets"></a>Anläggningstillgångar
+## Anläggningstillgångar
 
 * Bokför alla underhållskostnader som har bokförts via anl.journaler eller fakturor.
 * Bokföra justeringar.
@@ -49,15 +49,15 @@ ms.author: jswymer
 * Bokföra avskrivning
 * Uppdatera och bokföra återkommande journal för anläggningstillgångar.
 
-## <a name="intercompany"></a>Koncernintern
+## Koncernintern
 
 * Behandla koncerninterna transaktioner.
 
-## <a name="calculate-and-process-sales-tax"></a>Beräkna och bearbeta omsättningsskatt
+## Beräkna och bearbeta omsättningsskatt
 
 * Fyll i skattmeddelanden.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Avsluta böcker](year-close-books.md)  

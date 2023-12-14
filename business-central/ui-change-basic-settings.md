@@ -11,13 +11,13 @@ ms.search.form: '9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 902
 ms.date: 08/31/2022
 ms.author: bholtorf
 ---
-# <a name="change-basic-settings"></a>Ändra grundinställningar
+# Ändra grundinställningar
 
 PÅ sidan **Mina inställningar** kan du visa och ändra grundläggande inställningar för [!INCLUDE[prod_short](includes/prod_short.md)]. De ändringar du gör påverkar bara din arbetsyta, inte arbetsytor för andra användare.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="role"></a><a name="role-center"></a>Roll
+## <a name="role-center"></a>Roll
 
 Rollcentret bestämmer startsidan, en startskärm som har utformats för den specifika rollens behov i en organisation. Beroende på din roll ger startsidan eller rollcentret en översikt över verksamheten, din avdelning eller dina personliga uppgifter. Du kan också navigera till ditt dagliga arbete och söka efter arbete som har tilldelats dig.
 
@@ -25,7 +25,7 @@ Rollcentret bestämmer startsidan, en startskärm som har utformats för den spe
 
 * I mitten hittar du området **Aktiviteter**, som visar aktuella data och som kan väljas för att visa mer detaljerad information. Nyckelindikatorer (KPI:er) kan ställas in i fältet för att visa ett valt diagram för en visuell representation av, till exempel, kassaflöde eller intäkter och kostnader. Du kan också att upprätta en lista över favoritkunder på startsidan för affärskonton som du arbetar med ofta eller behöver ge extra uppmärksamhet till.
 
-### <a name="change-the-role"></a>Ändra rollen
+### Ändra rollen
 
 Standardrollen är **Chef**, men du kan välja en annan roll för att använda ett rollcenter som passar bättre till dina önskemål.  
 
@@ -33,7 +33,7 @@ Standardrollen är **Chef**, men du kan välja en annan roll för att använda e
 2. På sidan **Mina inställningar** i fältet **Roll** väljer du den roll du vill använda som standard. Välj till exempel **Revisor**.
 3. Välj **OK**.
 
-## <a name="company"></a><a name="company"></a>Företag
+## <a name="company"></a>Företag
 
 Ett företag fungerar som en behållare för data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan finnas åtskilliga företag i en databas, men endast ett kan väljas i taget. Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata.
 
@@ -45,7 +45,7 @@ I fältet **Företag** visas det företag som du arbetar på för tillfället, o
 Standardföretaget kallas CRONUS och innehåller endast demonstrationsdata. Du kan skapa ett nytt företag med egna data. Mer information finns i [Skapa nya företag](about-new-company.md).
 
 <!--
-### <a name="to-change-the-company-name"></a>To change the company name
+### To change the company name
 
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="work-date"></a><a name="work-date"></a>Arbetsdatum
+## <a name="work-date"></a>Arbetsdatum
 
 Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som att slutföra transaktioner för ett datum som inte är aktuellt datum, kan det vara nödvändigt att tillfälligt ändra arbetsdatum.
 
@@ -73,7 +73,7 @@ Det vanligaste arbetsdatumet är dagens datum. För att utföra uppgifter som at
 > [!IMPORTANT]  
 > När du har ändrat arbetsdatumet, om du loggar ut eller växlar till ett annat företag, ändras arbetsdata tillbaka till standardarbetsdatum. Så nästa gång du loggar in eller går tillbaka till det ursprungliga företaget, kan du behöva ange arbetsdatumet igen.
 
-### <a name="work-date-indication"></a>Indikering av arbetsdatum
+### Indikering av arbetsdatum
 
 Arbetsdatumet är kritiskt på sidor som kan redigeras. När arbetsdatumet inte är inställt på dagens datum på en redigerbar sida, visas två typer av indikatorer på sidan:
 
@@ -83,11 +83,11 @@ Arbetsdatumet är kritiskt på sidor som kan redigeras. När arbetsdatumet inte 
 
 Om arbetsdatumet inte anges för den aktuella dagen (idag) kommer arbetsdatumet att anges i det övre vänstra hörnet på samtliga sidor där du kan redigera data.
 
-## <a name="region"></a><a name="region"></a>Region
+## <a name="region"></a> Region
 
 Inställningen **Region** bestämmer hur datum, tid, tal och valutor visas eller formateras. Det avgör också vilket tecken som används som decimalavgränsare när du använder ett numeriskt tangentbord för att ange data. Läs mer på [Ange data](ui-enter-data.md#decimal).
 
-## <a name="language"></a><a name="language"></a>Språk
+## <a name="language"></a> Språk
 
 Ändra displayspråk. Detta fält visas bara om det finns flera språk att välja mellan.
 
@@ -95,19 +95,19 @@ Startspråket bestäms antingen av administratören eller i webbläsaren när du
 
 Ytterligare språk för [!INCLUDE[prod_short](includes/prod_short.md)] kan installeras från AppSource. Även om alla visningsspråk som stöds visas i listan måste administratören installera relevant språkapp i klientorganisationen innan användarna kan växla till det nya språket i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="time-zone"></a>Tidszon
+## Tidszon
 
 Definierar tidszonen där du befinner dig. När du loggar in på [!INCLUDE [prod_short](includes/prod_short.md)] för första gången anges tidszonen baserat på företagets adress. Ändra den om den inte passar din fysiska plats.  
 
-## <a name="notifications"></a>Meddelanden
+## Meddelanden
 
 Välj länken *Ändra när jag får meddelanden* för att visa eller ändra meddelandena som du får om vissa evenemang eller stausändringar som t.ex. när du ska fakturera en kund som har en skuld som har förfallit, eller när det tillgängliga lagret är lägre än kvantiteten som du håller på att sälja. Läs mer på [Hantera meddelanden](ui-smart-notifications.md).
 
-## <a name="teaching-tips"></a>Undervisningstips
+## Undervisningstips
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  

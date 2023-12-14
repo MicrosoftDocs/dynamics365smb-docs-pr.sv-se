@@ -12,34 +12,34 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Konfigurera e-dokument
+# Konfigurera e-dokument
 
 > [!IMPORTANT]
-> Kärnmodulen E-dokument är ett ramverk. Som standard finns det inget fält för **dokumentformat** eller **tjänstintegrering**. Den här informationen ingår i lokaliseringsappar eftersom de båda är specifika för lokala krav.
+> Kärnmodulen E-dokument är ett ramverk. Som standard finns det inget fält för **tjänstintegrering**. Om du hittar alternativ för **Dokumentformat** som standard, var medveten om att de erbjuds som exempel och att lokalisering måste ge ett detaljerat format. Den här informationen ingår i lokaliseringsappar eftersom de är specifika för lokala krav.
 
 > [!NOTE]
-> Från och med version 23.1 läggs ett standardformat för PEPPOL-dokument till som ett globalt format i fältet **Dokumentformat**.
+> Från och med version 23.2 läggs ett standardformat för PEPPOL-dokument till som ett globalt format i fältet **Dokumentformat**. Tänk på att du förmodligen inte kan använda det här formatet som det är. Det är ett W1-format som tillhandahålls för att visa hur man använder den här funktionen. Vi rekommenderar att du testar det befintliga PEPPOL-formatet innan du börjar använda detta format.
 
 Det första steget i konfigurationen av elektroniska dokument (e-dokument) är att konfigurera tjänsten E-dokument där du konfigurerar systemets fullständiga beteende när det gäller e-dokumentkommunikation.
 
-## <a name="set-up-the-e-document-service"></a>Ställ in e-dokumenttjänsten
+## Ställ in e-dokumenttjänsten
 
 Följ dessa steg för att konfigurera e-dokumenttjänsten.
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **E-dokumenttjänst** och väljer sedan relaterad länk.
 2. Välj **Ny** och sedan på sidan **E-dokumenttjänst** på snabbfliken **Allmänt** konfigurera fälten enligt beskrivningen i följande tabell.
 
-    | Fält | Description |
+    | Fält | Beskrivning |
     |-------|-------------|
     | Kod | Välj inställningskoden för den elektroniska exporten. |
-    | Description | Ange en kort beskrivning av konfigurationen av elektronisk export. |
-    | Dokumentformat | <p>Exportformatet för konfigurationen av den elektroniska exporten.</p><p>Som standard finns det inga alternativ i det här fältet i utgivningscykel 1.</p> |
+    | Beskrivning | Ange en kort beskrivning av konfigurationen av elektronisk export. |
+    | Dokumentformat | <p>Exportformatet för konfigurationen av den elektroniska exporten.</p><p>Som standard finns det två alternativ i det här fältet. Du kan välja **PEPPOL BIS 3** som ett generiskt kodbaserat format eller **datautbyte** när du måste ställa in fördokument av specifika format på snabbfliken **Definition av datautbyte**.</p> |
     | Tjänstintegration | Välj integrationskod för konfiguration av elektronisk export. I utgivningscykel 1 är det enda alternativet **Ingen integration**. |
     | Använd batchbearbetning | Ange om tjänsten använder batchbearbetning för export. |
 
-4. Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Importerade parametrar**.
+3. Fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Importerade parametrar**.
 
-    | Fält | Description |
+    | Fält | Beskrivning |
     |-------|-------------|
     | Validera mottagande företag | Anger om informationen om mottagarföretaget måste valideras under importen. |
     | Lös måttenhet | Anger om måttenheten ska lösas under importen. |
@@ -57,11 +57,22 @@ Följ dessa steg för att konfigurera e-dokumenttjänsten.
     | Batchens starttid | Ange starttiden för importjobben. |
     | Minuter mellan körningar | Anger antalet minuter mellan att importjobb körs. |
 
-Om du har konfigurerat formatet **datautbytesdefinition** i din lokalisering kan du lägga till en rad för varje dokumenttyp du behöver. Du måste emellertid först välja alternativet **Dokumenttyp** för varje rad som du behöver. För varje datatyp väljer du det värde för **Importera oformaterad kod** eller **Exportera def.kod för datautbyte** som du vill använda.
+4. Om du valde **Dataintegration** i fältet **Dokumentformat** på snabbfliken **Allmänt**, använd **Definition av datautbyte** för att ställa in följande fält.
 
-Om du inte använder formatet **Datautbytesdefinition**, du kan konfigurera format genom raderna **Exportera mappning** och **Importera mappning**, där du kan hitta tabeller och fält att använda och konfigurera omvandlingsregler om tillämpligt.
+    | Fält | Beskrivning |
+    |-------|-------------|
+    | Dokumenttyp | Ange den dokumenttyp som använder datautbyte för att importera och exportera data. Exempel är **Försäljningsfaktura**, **Kreditnota** och **Inköpsfaktura**. |
+    | Importera definitionskod för dataintegration | Ange datautbyteskoden som används för att importera data. Använd endast detta fält för att ta emot ett dokument i köpprocessen. |
+    | Exportera definitionskod för dataintegration | Ange datautbyteskoden som används för att exportera data. Använd endast detta fält för att leverera dokument i försäljningsprocessen. |
 
-## <a name="set-up-a-document-sending-profile"></a>Konfigurera en dokumentutskicksprofil
+> [!NOTE]
+> Det finns förberedda dataintegreringsdefinitioner för PEPPOL-formatet som är relaterade till standardförsäljnings- och inköpsdokumentet. Men du kan förmodligen inte använda dessa definitioner som de är. Det är alla W1-format som tillhandahålls för att visa hur man använder den här funktionen. Vi rekommenderar att du testar det befintliga PEPPOL-formatet innan du börjar använda dem.
+
+Om du har konfigurerat formatet **datautbytesdefinition** i din lokalisering kan du lägga till en rad för varje dokumenttyp du behöver. Lägg till rader som matchar standardexemplet för datautbyte för W1 PEPPOL-formatet. Först väljer du emellertid alternativet **Dokumenttyp** för varje rad som du behöver. För varje datatyp väljer du det värde för **Importera oformaterad kod** eller **Exportera def.kod för datautbyte** som du vill använda.
+
+Om du inte använder formatet **datautbytesdefinition** kan du skapa och konfigurera format genom att använda [gränssnittet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Justera informationen på raderna **Exportera mappning** och **Importera mappning**, där du kan hitta tabellerna och fälten för att konfigurera omvandlingsregler. I det här fallet måste du lägga till ett nytt alternativ i fältet **Dokumentformat** som är relaterat till ditt format.
+
+## Konfigurera en dokumentutskicksprofil
 
 Du kan konfigurera en önskad metod för att skicka försäljningsdokument för respektive kund. På så sätt behöver du inte välja ett sändningsalternativ varje gång du väljer åtgärden **Bokför och skicka**. På sidan **Dokumentutskicksprofiler** konfigurerar du olika utskicksprofiler som du kan välja bland i fältet **Dokumentutskicksprofil** på ett kundkort. Du kan markera kryssrutan **Standard** om du vill ange att dokumentutskicksprofilen är standardprofilen för alla kunder förutom för kunder som har fältet **Dokumentutskicksprofil** ifyllt med en annan utskicksprofil.
 
@@ -74,7 +85,7 @@ Följ dessa steg för att ställa in en dokumentutskicksprofil.
 3. Ange nödvändig information i fälten på snabbfliken **Allmänt**.
 4. Konfigurera fälten enligt beskrivningen i följande tabell på snabbfliken **Utskicksalternativ**.
 
-    | Fält | Description |
+    | Fält | Beskrivning |
     |-------|-------------|
     | Elektroniskt dokument | Ange om dokumentet ska skickas som ett elektroniskt dokumentet som en kund kan importera till sitt system när du väljer **Bokför och skicka**. Om du vill använda det här alternativet måste du också ange fältet **Format** eller **Flödeskod för elektronisk dokumenttjänst**. Eller så kan filen sparas på hårddisken. |
     | Format | Ange vilket format som ska användas för att skicka ett e-dokument. Fältet krävs om du väljer **Genom dokumentväxlingstjänst** i fältet **Elektroniskt dokument**. |
@@ -83,7 +94,7 @@ Följ dessa steg för att ställa in en dokumentutskicksprofil.
     > [!NOTE]
     > Om du väljer select **Utökat serviceflöde för e-dokument** i fältet **Elektroniskt dokument** måste du redan ha konfigurerat arbetsflödet för dina e-dokument.
 
-## <a name="set-up-the-workflow"></a>Konfigurera arbetsflödet
+## Konfigurera arbetsflödet
 
 Följ de här stegen om du vill konfigurera arbetsflödet som används i e-dokumentfunktioner.
 
@@ -98,7 +109,11 @@ Följ de här stegen om du vill konfigurera arbetsflödet som används i e-dokum
 > [!NOTE]
 > Du kan skapa ett eget arbetsflöde för e-dokument utan att använda fördefinierade arbetsflödesmallar. Om du har fler tjänster kan du använda olika arbetsflöden.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Ställa in en lagringspolicy för e-dokument
+För att använda fler arbetsflöden, konfigurera dem genom dokumentutskicksprofiler för olika kunder. När du ställer in arbetsflödet, ange dokumentutskicksprofilen i kolumnen **På villkor** på snabbfliken **Arbetsflödessteg**, eftersom du inte kan ha två tjänster som använder samma dokumentutskicksprofil i arbetsflöden.
+
+När du konfigurerar ditt arbetsflöde på sidan **Arbetsflöde**, peka på fältet **På villkor** på snabbfliken **Arbetsflödessteg**. På sidan **Händelsevillkor**, i fältet **Filter**, välj den dokumentutskicksprofil som du vill använda.
+
+## Ställa in en lagringspolicy för e-dokument
 
 E-dokument kan omfattas av olika lokala lagar som är relaterade till den period som e-dokumenten bevaras. Därför har vi lagt till en lagringspolicy för all viktig information som är relaterad till e-dokument. Administratörer kan definiera bevarandeprinciper som anger hur ofta Dynamics 365 Business Central tar bort inaktuella poster som är relaterade till e-dokument. Mer information om kvarhållningsprinciper i [Definiera kvarhållningsprincip](admin-data-retention-policies.md).
 
@@ -112,7 +127,7 @@ Så här konfigurerar du bevarandeprinciper för e-dokument.
     - Mappningslogg för e-dokument
     - Datalagring för e-dokument
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hur man använder e-dokument i Business Central](finance-how-use-edocuments.md)  
 [Hur man utökar e-dokument i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

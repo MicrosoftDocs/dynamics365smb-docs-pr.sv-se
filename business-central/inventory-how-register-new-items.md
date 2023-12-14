@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 09/26/2022
+ms.date: 11/02/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-items"></a>Registrera nya artiklar
+# Registrera nya artiklar
 
 Artiklar, bland andra produkter, utgör basen för ditt arbete, varorna eller tjänster som du handlar med. Varje artiklar måste registreras som ett artikelkort.
 
@@ -21,7 +21,7 @@ Artikelkortet kan vara av typen **Lager**, **Service** eller **Inte i lager** f�
 
 En artikel kan struktureras som en överordnad artikel med underliggande underordnade objekt i en struktur. Läs mer om monteringsstrukturer och produktionsstrukturer på [Arbeta med strukturer](inventory-how-work-BOMs.md).
 
-Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikelkortet. Leverantörer visas sedan på sidan **Artikelleverantörskatalog** så att du enkelt kan välja en annan leverantör.
+Om du köper samma artikel från flera olika leverantörer, kan du ansluta de leverantörerna till artikelkortet. Sidan **Artikelleverantörskatalog** visar leverantör så att du enkelt kan välja en annan leverantör.
 
 *Katalogartiklar* är artiklar du erbjuder dina kunder men som du inte vill hantera i ditt system, tills du börjar sälja dem. Katalogartiklar är inte vanliga artiklar av typen **Inte i lager**. Mer information: [Arbeta med katalogartiklar](inventory-how-work-nonstock-items.md).  
 
@@ -34,7 +34,7 @@ I proceduren nedan beskrivs hur du skapar ett artikelkort från grunden. Du kan 
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## <a name="to-create-a-new-item-card"></a>Skapa ett nytt artikelkort
+## Skapa ett nytt artikelkort
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -49,7 +49,7 @@ Artikeln är nu registrerad, och artikelkortet är klart att användas i försä
 
 Om du vill använda detta artikelkort som en mall när du skapar nya artikelkort, så fortsätt med att spara den som en mall. Mer information finns i följande avsnitt:  
 
-### <a name="to-save-the-item-card-as-a-template"></a>Om du vill spara artikelkortet som en mall
+### Om du vill spara artikelkortet som en mall
 
 1. På sidan **artikelkort** väljer du åtgärden **Spara som mall**. Sidan **artikelmall** öppnas och uppvisar artikelkortet som mall.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,11 +59,11 @@ Om du vill använda detta artikelkort som en mall när du skapar nya artikelkort
 
 Artikelmallen läggs till listan över artikelmallar, så att du kan använda det för att skapa nya artikelkort.
 
-### <a name="items-used-in-production-orders"></a>Artiklar som används i produktionsorder
+### Artiklar som används i produktionsorder
 
 Om du vill registrera artiklar som används i produktionsorder anger du återanskaffningssystemet som *Prod. order* på snabbfliken **Återanskaffning**. För mer information, se [Om produktionsorder](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Så här lägger du upp flera leverantörer för artiklar
+## Så här lägger du upp flera leverantörer för artiklar
 
 Om du köper samma artikel från flera olika leverantörer måste du ange information om varje leverantör, t. ex. priser, ledtid och rabatter.  
 
@@ -76,11 +76,11 @@ Om du köper samma artikel från flera olika leverantörer måste du ange inform
 
 Leverantörer visas nu på sidan **Artikelleverantörskatalog** som du kan öppna från artikelkortet så att du enkelt kan välja en annan leverantör.
 
-## <a name="set-up-item-substitutions"></a>Ställa in artikelersättningar
+## Ställa in artikelersättningar
 
 Du kan ställa in artiklar så att de har ersättningar, som andra artiklar som kan användas i stället för den ursprungliga artikeln.
 
-### <a name="to-make-an-item-substitution"></a>Så här gör du en artikelersättning
+### Så här gör du en artikelersättning
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Hitta den aktuella artikeln och välj sedan **Artikelnr** för att öppna artikelkortet.  
@@ -93,29 +93,29 @@ När antal artiklar som har begärts överstiger det tillgängliga antalet i lag
 > [!NOTE]  
 > Kom ihåg att artikelersättningar inte automatiskt gör att en artikel ersätts av en annan artikel, till exempel när du skapar en försäljningsorder eller i en strukturlista. Istället kommer du att aviseras om att en ersättning är tillgänglig för dig.
 
-## <a name="categories-attributes-and-variants"></a>Kategorier, attribut och varianter
+## Kategorier, attribut och varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Läs mer om varianter på [Hantera produktvarianter](inventory-item-variants.md).  
 
-## <a name="delete-item-cards"></a>Ta bort artikelkort
+## Ta bort artikelkort
 
 Om du har bokfört en transaktion för en artikel kan du inte ta bort kortet eftersom transaktionerna kan behövas för lagervärdering eller revision. Om du vill ta bort artikelkort med transaktioner, kontaktar du Microsoft partner för att göra det via kod.  
 
-## <a name="manage-inventory-in-warehouses"></a>Hantera lager i distributionslager
+## Hantera lager i distributionslager
 
 När du registrerar en ny artikel visas fält som är kopplade till hanteringen av distributionslager, särskilt på snabbfliken **Distributionslager**. Om organisationen inte använder funktionerna för hantering av distributionslager i [!INCLUDE [prod_short](includes/prod_short.md)] kan du ignorera dessa fält.  
 
 Om företaget senare konfigurerar lagerhantering rekommenderar vi att du säkerställer att varje befintlig artikeln har rätt information i de olika fälten. På så sätt kan lagerprocesserna köras som förväntat. Informationen kan omfatta fält som **Indelningskod för distributionslager** eller **Mallkod för artikelinförsel**. Mer information finns i [Ställa in Lagerstyrning](warehouse-setup-warehouse.md).  
 
-## <a name="planning"></a>Planering
+## Planering
 
 När ditt företag använder leveransplaneringsprocesserna i [!INCLUDE [prod_short](includes/prod_short.md)], måste du fylla i relevanta fält på snabbfliken **Planering**. En introduktion till planeringsområdet finns i [Designdetaljer: Centrala begrepp i planeringssystemet](design-details-central-concepts-of-the-planning-system.md).  
 
 Exempel på hur du kan använda fälten på snabbfliken **Planering** finns i [Metodtips för installation: Planeringsparametrar](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Konfigurera måttenheter](inventory-how-setup-units-of-measure.md)  

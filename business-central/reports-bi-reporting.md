@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Business Intelligence och rapporteringsöversikt
+# Business Intelligence och rapporteringsöversikt
 
 Små och medelstora företag förlitar sig på inbyggd analys och rapportering som de kan använda direkt för att hålla reda på sin verksamhet. [!INCLUDE[prod_short](includes/prod_short.md)] stöder vanliga affärsprocesser och mer komplicerade processer för sådana organisationer. Var och en av dessa processer omfattar rapporter och analysverktyg. Du kan också göra ad hoc-analyser direkt från din hemsida.  
 
@@ -27,7 +27,7 @@ I följande tabell beskrivs viktiga funktioner för Business Intelligence och ra
 |Ändra rapportlayouter eller skapa egna rapporter från grunden. |[Utveckla rapporter](reports-develop-reports.md)|
 |Analysera data med Microsoft Fabric| [Introduktion till Microsoft Fabric och Business Central](admin-fabric.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomisk business intelligence](bi.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

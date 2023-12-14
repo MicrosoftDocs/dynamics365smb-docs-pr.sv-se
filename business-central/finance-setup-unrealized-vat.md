@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ställa in orealiserad moms för kontantbaserad redovisning
+# Ställa in orealiserad moms för kontantbaserad redovisning
 
 Om du använder kontantbaserade redovisningsmetoder kan du skapa [!INCLUDE[prod_short](includes/prod_short.md)] för att hantera orealiserad moms.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Använda redovisningskonton för orealiserad moms
+## Använda redovisningskonton för orealiserad moms
 
 Du kan ange att momsbelopp ska beräknas och bokföras på ett temporärt redovisningskonto när en faktura bokförs, för att sedan bokföras på rätt redovisningskonto och inkluderas i momsrapporter när den faktiska betalningen av fakturan bokförs. Innan du kan göra detta måste du slutföra [bokföringsinställningarna för moms](finance-setup-vat.md).
 
@@ -46,7 +46,7 @@ Om du vill använda konton för orealiserad moms, gör du så här:
 > [!NOTE]  
 > Momsbeloppet kommer att bokföras till kontot för orealiserad moms där det kvarstår tills betalningen till leverantören bokförts. Beloppet överförs sedan till kontot för ingående moms.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Konfigurera beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

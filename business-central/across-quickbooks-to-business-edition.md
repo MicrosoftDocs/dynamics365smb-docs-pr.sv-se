@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Om du byter från en QuickBooks-app till Dynamics 365 Business Central
+# Om du byter från en QuickBooks-app till Dynamics 365 Business Central
 
 Allt fler företag ändrar från ekonomiappar som t. ex. QuickBooks Desktop och QuickBooks Online som är utformade för startups och andra mindre företag till [!INCLUDE[prod_short](includes/prod_short.md)], som också stöder större, komplexare organisationer. 
 
@@ -27,11 +27,11 @@ Mer information finns i avsnittet om tillägg som passar din QuickBooks-app:
 * [Tillägget QuickBooks Desktop datamigrering](ui-extensions-quickbooks-data-migration.md)
 * [Tillägget QuickBooks Online datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a>Redo?
+## Redo?
 
 Om du är redo att komma igång nu väljer du ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Assisterad konfiguration** och väljer sedan relaterad länk. Välj **Migrera affärsdata** och följ sedan anvisningarna i guiden.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Importera affärsdata från andra ekonomisystem](across-import-data-configuration-packages.md)  
 [Anpassa Business Central med tillägg](ui-extensions.md)   

@@ -1,5 +1,5 @@
 ---
-title: Använda ADCS (Automatiskt datainsamlingssystem)
+title: Använda ADCS-grunden (Automatiskt datainsamlingssystems)
 description: Läs hur du använda ADCS (automatiska datainsamlingssystem) för att registrera transport av artiklar i distributionslagret.
 author: brentholtorf
 ms.author: bholtorf
@@ -10,9 +10,9 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814'
 ---
-# <a name="use-automated-data-capture-systems-adcs"></a>Använda ADCS (Automatiskt datainsamlingssystem)
+# Använda ADCS-grunden (Automatiskt datainsamlingssystems)
 
-> [!NOTE]
+> [!Important]
 > Med hjälp av ADCS-lösningen (Automated Data Capture System) ger en väg [!INCLUDE[prod_short](includes/prod_short.md)] kan du kommunicera med handburna enheter via webbtjänster. Du måste arbeta med en Microsoft-partner som kan tillhandahålla länken mellan webbtjänsten och den specifika handhållen enheten. 
 
 Du kan använda det automatiska datainsamlingssystemet (ADCS eller Automatiskt datainsamlingssystem) för att registrera förflyttningen av alla artiklar i distributionslagret och för att registrera några journalaktiviteter, däribland kvantitetsjusteringar i artikeljournalen för distributionslagret, inventeringsjournalen och fysisk inventering. ADCS inbegriper vanligen streckkod.
@@ -25,26 +25,11 @@ Baserat på behovsnivån i lagret definierar du den mängd information som ska v
 - Textinformation.  
 - Meddelanden som innehåller bekräftelser eller fel om aktiviteter som utförts och registrerats av handenheter användaren.
 
-## <a name="to-enable-web-services-for-adcs"></a>Så här aktiverar du webbtjänster för ADCS
+## Så här aktiverar du webbtjänster för ADCS
 
-Om du vill använda det automatiska datainsamlingssystemet måste du aktivera ADCS-webbtjänst.  
-
-## <a name="to-enable-and-publish-the-adcs-web-service"></a>För att aktivera och publicera ADCS-webbtjänsten
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Webbtjänster** och väljer sedan relaterad länk.
-2. Välj åtgärden **Ny**.  
-3. På sidan **webbtjänster** anger du följande information på en ny rad:  
-
-    |Fält|Värde|  
-    |---------------------------------|-----------|  
-    |**Objekttyp**|Kodmodul|  
-    |**Objekt-ID**|7714|  
-    |**Tjänstnamn**|ADCS **viktigt:** du måste namnge tjänsten **ADCS**.|  
-
-4. Slå på brytaren **Publicerat**.  
-5. Välj **OK**.  
-
-## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Så här konfigurerar ett lager att använda ADCS
+Om du vill använda det automatiska datainsamlingssystemet måste du aktivera ADCS-webbtjänst. Du måste arbeta med en Microsoft-partner som kan implementera en webbtjänst som kan koppla ihop ADCS och en specifik handhållen enhet. Du kan lära dig mer om webbtjänsten för ADCS genom att undersöka codeunit 7714. 
+ 
+## Så här konfigurerar ett lager att använda ADCS  
 
 Om du ska använda ADCS måste du ange vilka distributionslagerställen som använder teknologin.  
 
@@ -55,7 +40,7 @@ Om du ska använda ADCS måste du ange vilka distributionslagerställen som anv�
 2. Välj ett lagerställe som du vill aktivera för ADCS för och välj åtgärden **redigera**.
 3. På sidan **lagerställekort** aktiverar du växlingsknapp **använda ADCS**.  
 
-## <a name="to-specify-an-item-to-use-adcs"></a>Ange ett objekt för att använda ADCS
+## Ange ett objekt för att använda ADCS  
 
 Varje distributionslagerartiklar som ska användas med ADCS, måste tilldelas en identitetskod för att koppla den till dess artikelnummer. Du kan t.ex använda artikelns Streckkod som identitetskoden. En artikel kan också använda flera identitetskoder. Det kan vara praktisk i de fall där en artikel är disponibel i olika måttenheter, t.ex stycken och pallar. Tilldela varje en identitetskod, i det här fallet.
 
@@ -71,16 +56,16 @@ Varje distributionslagerartiklar som ska användas med ADCS, måste tilldelas en
 7. Välj knappen **OK**.  
 8. För att granska informationen väljer du fältet **identitetskod** för att öppna sidan **Artikelidentifierare**.
 
-## <a name="to-add-an-adcs-user"></a>Om du vill lägga till en ADCS-användare
+## Om du vill lägga till en ADCS-användare  
 
 Du kan lägga till en användare i en ADCS. När du gör det, måste du ange ett lösenord. Om du vill kan du även ange en koppling som identifierar ADCS-användaren som distributionslageranvändare. ADCS-användarlösenord kan vara olika från deras inloggningslösenord. Läs mer i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **ADCS-användare** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **ADCS-användare** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. Ange ett **Namn** på användaren. Namnet kan inte ha fler än 20 tecken, inklusive blanksteg.  
 4. Ange ett **Lösenord** i fältet.  
 
-### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Om du vill ange att lagerpersonalen är en ADCS-användare
+### Om du vill ange att lagerpersonalen är en ADCS-användare  
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
 2. Lägga till en ny lagerpersonalen, om det behövs. Läs mer i [Konfigurera distributionslagerarbetare](warehouse-how-to-set-up-warehouse-employees.md).  
@@ -90,7 +75,7 @@ Du kan lägga till en användare i en ADCS. När du gör det, måste du ange ett
 > [!NOTE]  
 > Standarddistributionslagret för den anställde ska vara en som använder ADCS.
 
-## <a name="to-create-and-customize-miniforms"></a>Så här: Skapa och anpassa Miniformulär
+## Så här: Skapa och anpassa Miniformulär
 
 Du använder miniformulär som beskriver den information som du vill presentera på en handenheter. Du kan till exempel skapa miniformulär för att hantera lageraktiviteten att plocka artiklar. När du har skapat en miniformulär, kan du lägga till funktioner för den vanliga åtgärder för en användare med handenheter, till exempel flytta uppåt eller en rad.  
 
@@ -102,7 +87,7 @@ Du använder miniformulär som beskriver den information som du vill presentera 
 > * 7712
 > * 7713  
 
-### <a name="to-create-a-miniform-for-adcs"></a>Så här skapar du en miniformulär för ADCS
+### Så här skapar du en miniformulär för ADCS  
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Miniformulär** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -114,14 +99,14 @@ Du använder miniformulär som beskriver den information som du vill presentera 
 
 När du har skapat en miniformulär, nästa steg är att skapa operationer och att koppla funktioner för olika tangentbord indata.  
 
-### <a name="to-customize-miniform-functions"></a>Om du vill anpassa miniformulärfunktioner
+### Om du vill anpassa miniformulärfunktioner
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Miniformulär** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Miniformulär** och väljer sedan relaterad länk.  
 2. Välj ett miniformulär från listan, välj åtgärden **Redigera**.  
 3. Välj åtgärden **Funktioner**.  
 4. I listrutan **Funktionskod** väljer du en kod för att representera en funktion som du vill koppla till miniformuläret. Du kan till exempel välja **ESC**, som associerar funktionen med **ESC**-tangenten.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

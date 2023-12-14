@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminologi i kostnadsredovisning
+# Terminologi i kostnadsredovisning
 
 I det här avsnittet definieras de viktigaste begreppen som används i kostnadskalkylering.  
 
-## <a name="key-terms"></a>Begrepp
+## Begrepp
 
  Följande tabell visar definitioner av de viktigaste begreppen i kostnadskalkylering.  
 
@@ -43,7 +43,7 @@ I det här avsnittet definieras de viktigaste begreppen som används i kostnadsk
 |Rörlig kostnad|Rörliga kostnader är kostnader som ändras i proportion till aktiviteten i en verksamhet. Rörliga kostnader är summan av marginalkostnaderna utslaget på alla producerade enheter. Fasta kostnader och rörliga kostnader utgör de två komponenterna i den totala kostnaden.|  
 |Variant|En variant används som en valfri användardefinierad etikett för fördelningar. Syftet med etiketten är att filtrera fördelningsgrupper.|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
  [Om kostnadsredovisning](finance-about-cost-accounting.md)  
  [Redovisa kostnader](finance-manage-cost-accounting.md)  

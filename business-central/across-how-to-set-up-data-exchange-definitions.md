@@ -9,13 +9,13 @@ ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-data-exchange-definitions"></a>Skapa dataintegreringsdefinitioner
+# Skapa dataintegreringsdefinitioner
 
 Du kan konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] för att utbyta data i specifika tabeller med data om externa filer. Om du t.ex. vill skicka och ta emot elektroniska dokument, importerar och exporterar du bankdata eller andra data, t.ex. lön och artikelkataloger. Läs mer i [Utbyta data elektroniskt](across-data-exchange.md).  
 
 För att skapa en datautbytesdefiniera för en datafil eller en dataström kan du använda det relaterade XML-schemat för att definiera vilka dataelement som du vill inkludera på snabbfliken **Kolumndefinitioner**. Se steg 6 i avsnittet [Så här beskriver du formateringen av rader och kolumner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Läs mer i [Använda XML-uppställningar för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Vanligtvis skapar du skapar datautbytesdefinitioner på sidan **Datautbytesdefinition**. För att uppdatera valutakurser går det emellertid snabbare att använda en valutakursservice. Läs mer i [Uppdatera valutakurser](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service).
+Vanligtvis skapar du skapar datautbytesdefinitioner på sidan **Datautbytesdefinition**. För att uppdatera valutakurser går det emellertid snabbare att använda en valutakursservice. Läs mer i [Uppdatera valutakurser](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service).
 
 > [!NOTE]  
 > Om filen som konverteras är i XML-format ska termen *"kolumn"* i den här artikeln tolkas som ett *"XML-element som innehåller data"*.  
@@ -26,14 +26,14 @@ I den här artikeln beskrivs följande procedurer:
 * Exportera en datautbytesdefinition som en XML-fil som andra ska använda.
 * Importera en XML-fil för en befintlig datautbytesdefinition.
 
-## <a name="create-a-data-exchange-definition"></a>Skapa en datautbytesdefinition
+## Skapa en datautbytesdefinition
 
 Två uppgifter måste utföras för att skapa en definition för datautbyte:  
 
 1. Sidan **datautbytesdefinitioner** beskriver layouten för rader och kolumner i filen. Läs mer i avsnittet [Beskriva formateringen av rader och kolumner i filen](#formatlinescolumns).  
 2. Sidan **Datautbytesmappning** mappar kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i avsnittet [Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Beskriva formateringen av rader och kolumner i filen
+### <a name=formatlinescolumns></a>Beskriva formateringen av rader och kolumner i filen
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Datautbytesdefinition** och välj relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -67,7 +67,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
     >
     > För export av betalningar kan du skapa en rad för varje betalningstyp som du vill exportera. I så fall visar snabbfliken **Kolumndefinitioner** olika kolumner för varje betalningstyp.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Radtyp**|Anger typen av rad i filen.|  
     |**Kod**|Ange en kod som identifierar raden i filen.|  
@@ -85,7 +85,7 @@ Två uppgifter måste utföras för att skapa en definition för datautbyte:
 7. På sidan **Hämta filstruktur** markerar du den relaterade strukturfilen och väljer sedan **OK**. Raderna på snabbfliken **Kolumndefinitioner** fylls i enligt strukturen i datafilen.  
 8. Redigera eller fyll i fälten enligt beskrivningen i följande tabell på snabbfliken **Kolumndefinitioner**.  
 
-    |Fält|Description|  
+    |Fält|Beskrivning|  
     |---------------------------------|---------------------------------------|  
     |**Kolumnnr**|Ange numret som återspeglar kolumnens position på raden i filen.<br /><br /> För XML-filer anger du numret som återspeglar typen av element i filen som innehåller data.|  
     |**Namn**|Ange namnet på kolumnen.<br /><br /> För XML-filer anger du de pålägg som markerar att data ska utbytas.|  
@@ -108,12 +108,12 @@ Nästa steget i att skapa en definition för datautbyte är att avgöra vilka ko
 > [!NOTE]  
 > Den specifika mappningen beror på affärsavsikten med datafilen som ska utbytas och på lokala varianter. Även SEPA-bankstandarden har lokala varianter. [!INCLUDE[prod_short](includes/prod_short.md)] stöder import av förinstallerade bankutdragsfiler för SEPA CAMT\-\-\-. Det representeras av koden för posten med definition av datautbyte **SEPA CAMT** på sidan **datautbytesdefinitioner**. Information om specifik fältmappning för detta SEPA CAMT-stöd finns i [fältmappning när du importerar SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name=mapfields></a>Mappa kolumner i datafilen till fält i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Ibland är värdena i de fält som du vill mappa olika. I ett företagsprogram är till exempel språkkoden för USA "U.S.", men i det andra är det "US". Det innebär att du måste omvandla värdet när du utbyter data. Detta sker genom omvandlingsregler som du definierar för fälten. Läs mer i [Omvandlingsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
-Från och med utgivningscykel 2 år 2022 kan du även gruppera efter valfritt fält. Använd nyckelindexet för att sortera resultat och de nya omvandlingstyperna **Avrundning** och **Fältsökning**.
+Du kan även gruppera efter valfritt fält. Använd nyckelindexet för att sortera resultat och de nya omvandlingstyperna **Avrundning** och **Fältsökning**.
 
 1. På snabbfliken **Raddefinitioner** markerar du raden som du vill mappa kolumner till fält för och väljer sedan **Fältmappning**. Sidan **Datautbytesmappning** öppnas.  
 2. På snabbfliken **Allmänt** anger du mappningskonfigurationen genom att fylla i fälten enligit beskrivningen i följande tabell.  
@@ -130,7 +130,7 @@ Från och med utgivningscykel 2 år 2022 kan du även gruppera efter valfritt f�
 3. På snabbfliken **Fältmappning** anger du vilka kolumner som mappas till vilka fält i [!INCLUDE[prod_short](includes/prod_short.md)] genom att fylla i fälten enligt beskrivningen i följande tabeller, beroende på om fältet **Använd som cachelagringstabell** var aktivt eller inte.  
    * Med **Använd som cachelagringstabell** av:
 
-     |Fält|Description|  
+     |Fält|Beskrivning|  
      |--------------------------------- |---------------------------------------|  
      |**Kolumnnr**|Ange vilken kolumn i datafilen som du vill definiera en översikt för.<br /><br /> Du kan bara välja kolumner som representeras av rader på snabbfliken **Kolumndefinitioner** på sidan **datautbytesdefinition**.|
      |**Kolumnrubrik**|Ange rubriken för kolumnen i den externa filen som mappas till fältet i fältet **Måltabell-ID**, när du använder en cachelagringstabell för dataimport.|
@@ -144,7 +144,7 @@ Från och med utgivningscykel 2 år 2022 kan du även gruppera efter valfritt f�
 
    * Med **Använd som cachelagringstabell** aktiv:
 
-     |Fält|Description|  
+     |Fält|Beskrivning|  
      |---------------------------------|---------------------------------------|  
      |**Kolumnnr**|Ange vilken kolumn i datafilen som du vill definiera en översikt för.<br /><br /> Du kan bara välja kolumner som representeras av rader på snabbfliken **Kolumndefinitioner** på sidan **datautbytesdefinition**.|
      |**Kolumnrubrik**|Ange rubriken för kolumnen i den externa filen som mappas till fältet i fältet **Måltabell-ID**, när du använder en cachelagringstabell för dataimport.|
@@ -158,12 +158,12 @@ Från och med utgivningscykel 2 år 2022 kan du även gruppera efter valfritt f�
 
 4. På snabbfliken **Fältgruppering** anger du regler som du vill använda för att gruppera fälten när du skapar filen genom att fylla i fälten enligt beskrivningen i följande tabell.  
 
-     |Fält|Description|  
+     |Fält|Beskrivning|  
      |--------------------------------- |---------------------------------------|  
      |**Fält-ID**|Ange numret på fältet i den externa filen som används för gruppering och detta fält måste anges av användare.|
      |**Fältrubrik**|Ange rubriken på fältet i den externa filen som används för gruppering.|
 
-## <a name="transformation-rules"></a>Omvandlingsregler
+## Omvandlingsregler
 
 Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandlingsregler för datautbytesdefinitioner för att göra dem likadana. Du definierar omvandlingsregler för datautbytesdefinitioner genom att öppna en befintlig definition (eller skapa en ny definition) och sedan, på snabbfliken **Raddefinitioner**, välja **Hantera**och sedan **Fältmappning**. Fördefinierade regler tillhandahålls, men du kan också skapa egna. I följande register beskrivs de typer av omvandlingar som du kan utföra.
 
@@ -188,7 +188,7 @@ Om värdena i fälten som du mappar skiljer sig åt, måste du använda omvandli
 > [!NOTE]  
 > Lär dig mer om datum- och tidsformatering på [Standardsträngar för datum- och tidsformat](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Tips för utvecklare: exempel på det anpassade alternativet
+### Tips för utvecklare: exempel på det anpassade alternativet
 
 I följande exempel visas hur du implementerar din egen omvandlingskod.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 När du har definierat dina regler kan du testa dem. På snabbfliken **Test** anger du ett exempel på ett värde som du vill omvandla och kontrollerar sedan resultatet genom att välja **Uppdatera**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Exportera en datautbytesdefinition som en XML-fil som andra ska använda
+## Exportera en datautbytesdefinition som en XML-fil som andra ska använda
 
 När du har skapat definitionen för datautbyte för en viss datafil kan du exportera definitionen för datautbyte som en XML-fil du kan importera. Den här uppgiften beskrivs i följande procedur.  
 
@@ -217,14 +217,14 @@ När du har skapat definitionen för datautbyte för en viss datafil kan du expo
 
     Om en definition för datautbyte redan har skapats behöver du bara importera XML-filen till ramverket för datautbyte. Den här uppgiften beskrivs i följande procedur.  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Importera en befintlig datautbytesdefinition
+## Importera en befintlig datautbytesdefinition
 
 1. Spara XML-filen som representerar definitionen för datautbytet på ett lämpligt ställe.  
 2. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Datautbytesdefinition** och välj relaterad länk.  
 3. Välj åtgärden **Importera datautbytesdefinition**.  
 4. Välj filen som du har sparat i steg 1.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera dataintegration](across-set-up-data-exchange.md)  
 [Konfigurera utskick och mottagning av elektroniska dokument](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

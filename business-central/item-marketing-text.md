@@ -5,13 +5,13 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
 # Lägg till marknadsföringstext för artiklar
 
-För alla objekt som är registrerade i Business Central kan du skriva *marknadsföringstext* om artikeln. Även om marknadsföringstexten är en sorts beskrivning är den annorlunda än fältet **Beskrivningar**. Fältet **Beskrivning** används vanligtvis som ett kortfattat visningsnamn för att snabbt identifiera produkten. Marknadsföringstexten är å andra sidan en mer omfattande och beskrivande text. Dess syfte är att lägga till marknadsförings- och reklam innehåll, även kallat *Kopiera*. Denna text kan sedan publiceras med artikeln om den är publicerad på en webbutik, till exempel Shopify.
+För alla objekt som är registrerade i Business Central kan du skriva *marknadsföringstext* om artikeln. Även om marknadsföringstexten är en sorts beskrivning är den annorlunda än fältet **Beskrivningar**. Fältet **Beskrivning** används vanligtvis som ett kortfattat visningsnamn för att snabbt identifiera produkten. Marknadsföringstexten är å andra sidan en mer omfattande och beskrivande text. Dess syfte är att lägga till marknadsförings- och reklam innehåll, även kallat *Kopiera*. Denna text kan sedan publiceras med artikeln om den publiceras på en webbutik, som Shopify, eller klistras in i e-postmeddelanden eller annan kommunikation med dina kunder.
 
 Det finns två sätt att skapa marknadsföringstexten. Det enklaste sättet att komma igång är att använda en Copilot, som föreslår AI-genererad text åt dig. Det andra sättet är att börja från början. 
 
@@ -19,20 +19,22 @@ Det finns två sätt att skapa marknadsföringstexten. Det enklaste sättet att 
 
 Med hjälp av Copilot får du snabbt ett textförslag som genereras automatiskt. Den AI-genererade texten är skräddarsydd för artikeln och ger en bra utgångspunkt. Texten bygger delvis på följande information:
 
-- Attribut som har definierats för artikeln&mdash;t.ex. beskrivning, färg, dimensioner, material och så vidare.
+- Attribut som har definierats för artikeln&mdash;t.ex. beskrivning, färg, dimensioner, material och så vidare. [Mer information attribut](inventory-how-work-item-attributes.md).
+- Förbättra **beskrivning**.
+- Artikelkategori. [Läs mer om att kategorisera objekt](inventory-how-categorize-items.md).
 - Valbara stilinställningar som t.ex. röst, format och längd.
 
 Copilot är utformad för att spara tid och hjälpa dig att skriva kreativ och engagerande text som återspeglar ditt varumärke och som är konsekvent över hela produktlinjen. Börja med att generera ett förslag och ändra sedan den föreslagna texten efter behov.
 
 ### Förutsättningar
 
-- Funktionen för marknadsföringstextförslag är aktiverad och aktiverad i din miljö. Detta görs vanligtvis av en administratör. Om du vill ha mer information går du till [Konfigurera marknadsföringstext för AI-baserad artikel med Copilot](enable-ai.md).
+- Funktionen för marknadsföringstextförslag är aktiverad och aktiverad i din miljö. Den uppgiften är vanligtvis av en administratör. Om du vill ha mer information går du till [Konfigurera Copilot och AI-funktioner](enable-ai.md).
 - Du använder ett av de språk som för närvarande stöds av marknadsföringstextförslagen.
 
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
+  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-   Om du vill ändra språk väljer du ikonen **Inställningar** i det övre högra hörnet ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") > **Mina inställningar** > **Språk**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#language).
-- Läs [vanliga frågor och svar om Copilot](faqs-marketing-text.md) om du vill veta mer om AI-genererade textförslag från Copilot och hur du bör använda dem.
+  Om du vill ändra språk väljer du ikonen **Inställningar** i det övre högra hörnet ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") > **Mina inställningar** > **Språk**. Mer information finns i [Ändra grundläggande inställningar](ui-change-basic-settings.md#language).
+- Gå igenom [vanliga frågor för marknadsföringstextförslag](faqs-marketing-text.md) för att lära dig hur AI tillämpas.
 
 ### Skapa första utkast med Copilot
 
@@ -40,9 +42,9 @@ Utför följande steg för att lägga till marknadsföringstext till en befintli
 
 1. Öppna den artikel som du vill ändra i Business Central ändra genom att slutföra följande steg:
 
-   1. I det övre högra hörnet, välj ![Glödlampa som öppnar funktionen Berätta 22.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **artiklar** och välj sedan relaterad länk för att visa en lista med tillgängliga artiklar.
+   - I det övre högra hörnet, välj ![Glödlampa som öppnar funktionen Berätta 22.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **artiklar** och välj sedan relaterad länk för att visa en lista med tillgängliga artiklar.
 
-   2. Dubbelklicka på det eller markera värdet i fältet **Nr.** kolumn .
+   - Dubbelklicka på det eller markera värdet i fältet **Nr.** kolumn .
 
    [![Visar artikelkort med fönstret marknadsföringstext](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -58,16 +60,12 @@ Utför följande steg för att lägga till marknadsföringstext till en befintli
 
      Välj de attribut som du vill ha Copilot-basförslag på och välj sedan **Generera**. Du kan ändra de markerade attributen och andra alternativ senare. Copilot börjar ta fram utkastet till marknadsföringstexten. 
      
-3. När Copilot har slutfört utkastet visas texten i Copilot-redigeringsfönstret för granskning och redigering. 
+3. När Copilot har slutfört utkastet visas texten i Copilot-redigeringsfönstret för dig att granska och redigera. 
 
    [![Visar fönstret skapa med Copilot](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
    Du kan sedan nu få fler förslag, försöka förbättra de förslag du får, redigera text med mera. Gå till [Granska, redigera och spara](#review-edit-and-save-text) för mer information.
 
-
-<!--
-   > [!TIP]
-   > [Where does the suggestion come from?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)-->
 
 ### Granska, redigera och spara text
 
@@ -114,6 +112,10 @@ Det finns några steg som du kan utföra för att förbättra textförslagen och
 1. Kontrollera att fältet **Artikelkategorikod** på artikelkortet är inställt på en lämplig kategori.
 
    Copilot kommer att söka efter ord och fraser som hör till kategorin och som arbetar med den föreslagna texten.
+
+### Arbeta med flera språk 
+
+Text genereras alltid på det språk som definieras av dina [inställningar](ui-change-basic-settings.md#language). Om din organisation driver och matar in data i Business Central med ett annat språk, eller om Business Central är anslutet till din onlinebutik, till exempel med Shopify, kan detta leda till att innehåll publiceras som inte matchar liknande marknadsföringsinnehåll.
 
 ## Skapa text från grunden
 

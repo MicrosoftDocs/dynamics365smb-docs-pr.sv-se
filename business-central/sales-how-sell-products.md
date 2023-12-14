@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 09/02/2022
+ms.date: 11/03/2023
 ms.author: bholtorf
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Sälja produkter med en kundförsäljningsreturorder
+# Sälja produkter med en kundförsäljningsreturorder
 
 Artikeln ger vägledning till användare om du bör använda en kundorder utöver en faktura. Om din försäljningsprocess kräver att du bara skickar en del av en order, kanske för att hela kvantiteten inte är tillgänglig direkt, måste du bearbeta den försäljningen genom att göra en försäljningsorder.
 
@@ -19,11 +19,11 @@ Du måste också använda försäljningsorder om du säljer varor som levererar 
 
 När du har levererat produkterna, antingen helt eller delvis, bokför du försäljningsordern som levererade eller som levererade och fakturerade för att skapa kundreskontratransaktioner i systemet. När du bokför försäljningsorder, kan du också e-posta den som en PDF-bilaga. Du kan förifylla e-postbrödtext med en sammanfattning av ordern och betalningsinformationen, till exempel en länk till PayPal. Läs mer på [Leverera artiklar](warehouse-how-ship-items.md) och [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
-I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller kontanter, betalningen bokförs direkt när du bokför försäljningsordern som fakturerad, d.v.s. stängs den bokförda försäljningsfakturan som i sin helhet. Du väljer relevant metod i fältet **Kod för betalningsmetod** på försäljningsordern. Se punkt 5 nedan. För elektroniska betalningar såsom PayPal, måste du även fylla i fältet **betalningstjänst**. Läs mer på [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md).
+I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller kontanter, betalningen bokförs direkt när du bokför försäljningsfakturan, d.v.s. stängs den bokförda försäljningsfakturan som i sin helhet. Du väljer relevant metod i fältet **Kod för betalningsmetod** på försäljningsordern. Se punkt 5 nedan. För elektroniska betalningar såsom PayPal, måste du även fylla i fältet **betalningstjänst**. Läs mer på [Aktivera kundbetalningar via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
 Du kan även skapa direktbetalade order för icke-registrerade kunder genom att definiera ett ”kontant” kundkort som du refererar till på försäljningsorder. Läs mer i [Så här skapar du Kontantkunder](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Skapa en försäljningsorder
+## Skapa en försäljningsorder
 
 > [!NOTE]  
 > Följande procedur förutsätter att kunden redan har ställts in. Instruktioner om hur du gör det finns i [Registrera nya kunder](sales-how-register-new-customers.md).
@@ -60,7 +60,7 @@ Du kan även skapa direktbetalade order för icke-registrerade kunder genom att 
     Pris- och radbeloppen visas med eller utan omsättningsskatt beroende på vad du valde i fältet **Priser inkl. moms** på kundkortet.
 8. Ange ett värde i procent, om du vill bevilja kunden en rabatt på produkten i fältet **Radrabatt %**. Värdet i fältet **Radbelopp** uppdateras i enlighet därmed.
 
-    Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet uppdateras priset och beloppet på offertraden automatiskt om de överenskomna prisvillkorna uppfylls. Läs mer på [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
+    Om du har ställt in särskild artikelpriser på snabbfliken **Försäljningspriser och försäljningsradrabatter** på kund- eller artikelkortet och när priskriterierna uppfylls uppdateras priset och beloppet på försäljningsraden automatiskt. Läs mer på [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 9. För att lägga till en kommentar om orderraden som kunden kan se på den utskrivna försäljningsordern, skriv en kommentar på en tom rad i fältet **Beskrivning**.  
 10. Upprepa moment 5 till 9 för varje artikel du vill att kunden ska köpa.
 
@@ -73,7 +73,7 @@ Du kan även skapa direktbetalade order för icke-registrerade kunder genom att 
 
 11. I fältet **Fakturarabatt** anger du (valfritt) ett belopp som ska dras från värdet som visas i fältet **Totalt inkl. moms**.
 
-    Om du har ställt in fakturarabatter för kunden, då infogas det angivna procentsatsvärdet automatiskt i fältet **Fakturarabatt %** om kriteriet uppfylls, och det relaterade beloppet infogas i fältet **Inv. Rabattbelopp exkl. moms**. Läs mer på [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
+    Om du ställer in fakturarabatter för kunden, och när kriterierna uppfylls infogas det angivna procentsatsvärdet automatiskt i fältet **Fakturarabatt %**. Det relaterade beloppet infogas sedan i fältet **Fakturarabatt exkl. moms**. Läs mer på [Registrera försäljningspris, rabatt och betalningsavtal](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Att enbart leverera en del av orderkvantiteten , anger denna kvantitet i **Ant. att utleverera**. Värdet kopieras automatiskt till **Ant. att fakturera**.
 
     > [!NOTE]
@@ -85,13 +85,13 @@ Du kan även skapa direktbetalade order för icke-registrerade kunder genom att 
 
 Dialogrutan **Bokför och skicka bekräftelse** visar kundens standardmetod för mottagning av dokument. Du kan ändra utskicksmetoden genom att välja sökknappen för fältet **Skicka dokument till**. Läs mer: [Skapa dokumentutskicksprofiler](sales-how-setup-document-send-profiles.md).
 
-Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljningsorder matas ut som ett PDF-dokument. När försäljningsordern bokförs helt tas den bort från listan över försäljningsorder och ersätts med nya dokument i listan över bokförda försäljningsfakturor och listan över bokförda försäljningsleveranser.  
+Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljningsorder matas ut som ett PDF-dokument. När försäljningsordern bokförs helt tas den bort från listan över listan med försäljningsorder och nya dokument i försäljningsfakturor och försäljningsförsändelser.  
 
-## <a name="external-document-number"></a>Externt dokumentnummer
+## Externt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Fakturera försäljning](sales-how-invoice-sales.md)  
 [Bokföra försäljning](ui-post-sales.md)  

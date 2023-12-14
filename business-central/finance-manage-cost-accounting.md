@@ -11,7 +11,7 @@ ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="accounting-for-costs"></a>Redovisa kostnader
+# Redovisa kostnader
 Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att driva en verksamhet. När du vill börja med kostnadsredovisning, se följande avsnitt.  
 
 |Om du vill|Gå till|  
@@ -24,7 +24,7 @@ Kostnadsredovisning används för att hjälpa dig förstå kostnaderna för att 
 |Lära dig att skapa kostnadsbudgetar.|[Skapa kostnadsbudgetar](finance-create-cost-budgets.md)|
 |Avbryta kostnadstransaktioner från journaler för kostnadsbudget.|[Ta bort kostnadsbudgettransaktioner](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Ekonomi](finance.md)  
 [Hantera lagerkostnader](finance-manage-inventory-costs.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

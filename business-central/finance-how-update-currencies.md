@@ -1,25 +1,27 @@
 ---
 title: Uppdatera valutakurser (innehåller video)
-description: Om du spårar belopp i olika valutor kan du låta Business Central hjälpa dig att justera valutakurser.
+description: Lär dig hur du använder Business Central för att justera växelkurser för belopp i olika valutor.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'multiple currencies, adjust exchange rates, FX rates'
 ms.search.form: '5, 118'
-ms.date: 09/07/2023
-ms.author: bholtorf
+ms.date: 11/13/2023
+ms.custom: bap-template
 ---
 # Uppdatera valutakurser
 
-Du kan definiera olika valutor i [!INCLUDE [prod_short](includes/prod_short.md)], till exempel om du gör affärer i andra valutor än den lokala valutan. För att hjälpa dig att spåra förändringar i valutakurserna kan du sedan hantera valutorna manuellt, eller också konfigurera en tjänst för valutakurs.
+Om du handlar i olika valutor måste du hålla koll på förändringarna i valutakurserna. [!INCLUDE [prod_short](includes/prod_short.md)] hjälper dig att hantera och uppdatera växelkurserna manuellt eller automatiskt och konfigurera en valutakurstjänst.
 
 ## Valutor
 
 > [!TIP]  
-> Om du söker efter realtidsinformation om valutakurser i utländsk valuta (FX) eller historiska kurser, hittar du den som "valuta" i [!INCLUDE[prod_short](includes/prod_short.md)]. Förutom denna artikel, se även [Konfigurera en Alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md).
+> I [!INCLUDE[prod_short](includes/prod_short.md)] kan du hitta realtidsinformation om valutakurser (FX) eller historiska kurser under termen valuta. Mer information finns i [Ställa in en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-Du anger valutakoder i listan **Valutor**, inklusive extra information och inställningar som behövs för respektive valutakod. Mer information finns i [Valutor](finance-set-up-currencies.md#curr)
+Du kan ange valutakoder i listan **Valutor**, inklusive extra information och inställningar som behövs för respektive valutakod. Mer information finns i [Valutor](finance-set-up-currencies.md#curr)
 
 ### Exempel på en transaktion med ingående valuta
 
@@ -31,13 +33,13 @@ Valutakurserna är det verktyg som används för att beräkna värdet i den loka
 
 |Fält|Beskrivning|  
 |---------------------------------|---------------------------------------|  
-|**Startdatum**|Det datum då valutakursen var effektuerad|  
-|**Valutakod**|Valutakoden som är relaterad till den här valutakursen|  
-|**Relationsvalutakod**|Om den här valutan är en del av en trepartsvalutaberäkning kan du ställa in den relaterade valutakoden här|  
-|**Valutakursbelopp**|Valutakursbeloppet är den kurs som ska användas för den valutakod som är markerad på raden. Normalt 1 eller 100|  
-|**Relationsvalutakursbelopp**|Det relationella valutakursbeloppet relaterar till den kurs som ska användas för den relationella valutakoden|  
-|**Justeringsvalutakursbelopp**|Det justerade valutakursbeloppet är den kurs som ska användas för den valutakod som valts på raden för att använda batchprojektet **Justera valutakurser**|  
-|**Relationellt justeringsvalutakursbelopp**|Det relationella valutakursbeloppet är den kurs som ska användas för den valutakod som valts på raden för att använda batchprojektet **Justera valutakurser**|  
+|**Fr.o.m.-datum**|Det datum då valutakursen gällde.|  
+|**Valutakod**|Valutakoden som är relaterad till den här valutakursen.|  
+|**Relations- valutakod**|Om den här valutan är en del av en trepartsvalutaberäkning kan du ställa in den relaterade valutakoden här.|  
+|**Valutakurs- belopp**|Valutakursbeloppet är den kurs som ska användas för den valutakod som är markerad på raden. Normalt 1 eller 100.|  
+|**Relations- valutakurs belopp**|Det relationella valutakursbeloppet relaterar till den kurs som ska användas för den relationella valutakoden.|  
+|**Justering valutakursbelopp**|Kursen för valutakoden som valts på raden för användning av batch-jobbet **Justera valutakurser**.|  
+|**Relationellt justeringsvalutakursbelopp**|Kursen för valutakoden som valts på raden för användning av batch-jobbet **Justera valutakurser**.|  
 |**Fast valutakursbelopp**|Anger om valutans växlingskurs ska kunna ändras på fakturor och journalrader.|  
 
 I allmänhet används värdena för fälten **Valutakursbelopp** och **Relationellt valutakursbelopp** som standardvalutakurs på alla kund- och leverantörsreskontra som skapas framåt. Dokumentet tilldelas valutakursen enligt det aktuella arbetsdatumet.  
@@ -58,12 +60,12 @@ Det justerade valutakursbeloppet eller det relationella justeringsvalutakursbelo
 
 Eftersom valutakurser ständigt fluktuerar måste du justera alternativa valutavärden med jämna mellanrum. Om du inte gör detta kan belopp som du har konverterat från utländska (eller andra) valutor och bokförts i redovisningen i lokal valuta bli felaktiga. Du måste också uppdatera dagliga transaktioner som bokförts innan du anger en daglig valutakurs.
 
-Använd batchprojektet **Justera valutakurser** för att manuellt justera valutakurserna för bokförda kund-, leverantörs- och bankkontotransaktioner. Batchjobbet kan också uppdatera andra rapporteringsvalutabelopp i redovisningstransaktioner.  
+Du kan använda batch-jobbet **Justera valutakurser** för att manuellt justera valutakurserna för bokförda kund-, leverantörs- och bankkontotransaktioner. Batchjobbet kan också uppdatera andra rapporteringsvalutabelopp i redovisningstransaktioner.  
 
 > [!TIP]
-> Du kan använda en tjänst för att uppdatera bytesfrekvenser i systemet automatiskt. Mer information finns i [Så här konfigurerar du en valutakurstjänst](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Detta justerar emellertid inte bytesfrekvensen för redan publicerade transaktioner. Om du vill uppdatera bytesfrekvenser för publicerade poster använder du batchprojektet **Justera bytesfrekvenser**.
+> Du kan använda en tjänst för att uppdatera bytesfrekvenser i systemet automatiskt. Mer information finns i [Så här konfigurerar du en valutakurstjänst](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). Detta justerar emellertid inte bytesfrekvensen för redan publicerade transaktioner. Om du vill uppdatera bytesfrekvenser för publicerade poster använder du batchprojektet **Justera bytesfrekvenser**.
 
-Du kan också ange hur justeringen ska hantera dimensioner för icke-realiserade vinster och förluster genom att välja ett av följande alternativ i fältet **Dimensionsbokföring**:  
+Du kan också ange hur justeringen hanterar dimensioner för icke-realiserade vinster och förluster genom att välja ett av följande alternativ i fältet **Dimensionsbokföring**:  
 
 * **Källtransaktionsdimensioner**: Överför dimensionsvärden för redovisningstransaktioner för orealiserade vinster och förluster från den justerade transaktionen.  
 * **Inga dimensioner**: Överför inte dimensionsvärden för icke-realiserade vinster och förluster till redovisningstransaktioner. [!INCLUDE [prod_short](includes/prod_short.md)] använder fortfarande standarddimensionsinställningar, till exempel **Kod obligatorisk**, **Samma kod** eller **Ingen kod**. Om källtransaktionerna har dimensionsvärden skapas transaktioner utan dimensionsvärden i justeringen.  
@@ -79,14 +81,14 @@ Du kan också ange hur justeringen ska hantera dimensioner för icke-realiserade
 
 Du kan förhandsgranska den effekt som en valutakursjustering har på bokföring innan du bokför, detta genom att välja åtgärden **Förhandsgranska bokföring** på begärandesidan i rapporten **Justera valutakurser** (rapport 596). På begärandesidan kan du ange vad som ska ingå i förhandsversionen:
 
-* Få en detaljerad bokföring i redovisningen efter transaktion
+* Få en detaljerad bokföring i redovisningen efter transaktion.
 * Få en sammanfattad bokföring efter valuta. Välj bara fältet **Justera efter transaktion** i rapporten **Justering av valutakurs**.
 
 ### Påverkan på kunder och leverantörer
 
 För kund- och leverantörskonton använder batchprojektet valutakursen som var giltig på det bokföringsdatum som angetts för batchprojektet för att justera valutan. I batchprojektet beräknas skillnaderna för enskilda valutasaldon och beloppen bokförs på det redovisningskonto som angetts i fältet **Kursvinster väntade** eller **Kursförluster befarade** på sidan **Valutor**. Mottransaktioner bokförs automatiskt till redovisningens försäljnings-/inköpskonto.
 
-Batch-jobbet behandlar alla öppna kundredovisningstransaktioner och leverantörstransaktioner. Om en valutakursdifferens föreligger i någon transaktion skapas en ny detaljerad kund- eller leverantörstransaktion av batchprojektet. Den nya transaktionen återspeglar det justerade beloppet på kund- eller leverantörsreskontratransaktionen.
+Batch-jobbet behandlar alla öppna kundredovisningstransaktioner och leverantörstransaktioner. Om en valutakursdifferens föreligger i någon transaktion skapas en ny detaljerad kund- eller leverantörstransaktion av batch-jobbet. Den nya transaktionen återspeglar det justerade beloppet på kund- eller leverantörsreskontratransaktionen.
 
 #### Dimensioner på kund- och leverantörsreskontratransaktioner
 
@@ -102,7 +104,7 @@ Justeringstransaktionerna för bankkontots redovisningskonto och för vinst-/fö
 
 ### Påverkan på redovisningskonton
 
-Om du bokför i en alternativ rapporteringsvaluta kan batchprojektet skapa nya redovisningstransaktioner för valutajusteringar mellan lokal valuta och den alternativa rapporteringsvalutan. I batchprojektet beräknas differenser för varje redovisningstransaktion och redovisningstransaktionen justeras enligt innehållet i fältet **Valutakursjustering** för varje redovisningskonto.
+Om du bokför i en alternativ rapporteringsvaluta kan batchprojektet skapa nya redovisningstransaktioner för valutajusteringar mellan lokal valuta och den alternativa rapporteringsvalutan. Batchjobbet beräknar skillnaderna för varje huvudbokpost. Det justerar redovisningstransaktionen enligt innehållet i fältet **Valutakursjustering** för varje redovisningskonto.
 
 #### Dimensioner för redovisningskontotransaktioner
 
@@ -113,31 +115,31 @@ Justeringstransaktionerna tilldelas dimensioner från de redovisningskonton de b
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## Så här konfigurerar du en valutakurstjänst
+## Konfigurera en valutakurstjänst
 
 Du kan använda en extern tjänst, till exempel FloatRates, för kontinuerlig uppdatering av aktuella valutakurser. 
 
 > [!NOTE]
-> De flesta valutakurstjänster tillhandahåller data som är kompatibla med importförfarandet i [!INCLUDE[prod_short](includes/prod_short.md)]. Ibland har datan emellertid formaterats annorlunda, och du måste då anpassa importen. Du kan använda ramverket för dataintegrering för att göra detta genom att lägga till din egen codeunit. Du behöver troligen lite hjälp från en utvecklare för att göra detta. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
+> De flesta valutakurstjänster tillhandahåller data som är kompatibla med importförfarandet i [!INCLUDE[prod_short](includes/prod_short.md)]. Ibland har data emellertid formaterats annorlunda, och du måste då anpassa importen. Du kan använda ramverket för dataintegrering för att göra detta genom att lägga till din egen codeunit. Du behöver troligen lite hjälp från en utvecklare för att göra detta. Mer information finns i [Så här konfigurerar du dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Valutakurstjänster** och välj sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Valutakurstjänster** och välj sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. På sidan **Valutakurstjänster** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Aktivera **Aktiverad** för att aktivera tjänsten.
 
 > [!NOTE]
-> Följande video visar ett exempel på hur du ansluter till en valutakursservice med hjälp av Europeiska centralbanken som exempel. I det segment som beskriver hur man konfigurerar fältmappningar returnerar inställningen i kolumnen **Källa** för **den överordnade noden för valutakod** endast den valuta som hittas först. Inställningen bör vara `/gesmes:Envelope/Code/Code/Code`.
+> Följande video visar hur du ansluter till en valutakurstjänst med hjälp av Europeiska centralbanken som exempel. I det segment som beskriver hur man konfigurerar fältmappningar returnerar inställningen i kolumnen **Källa** för den **överordnade noden för valutakod** endast den valuta som hittas först. Inställningen bör vara `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## Så här uppdaterar du valutakurser från en tjänst
+## Uppdatera du valutakurser från en tjänst
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.
+Följ stegen för att uppdatera valutakurserna via en tjänst:
+
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Valutor** och väljer sedan relaterad länk.
 2. Välj åtgärden **uppdatera valutakurser**.
-
-Värdet i fältet **valutakurs** på sidan **valutor** uppdateras med den senaste valutakursen.
 
 ## Korrigera misstag
 
@@ -148,11 +150,12 @@ Då och då kan du behöva korrigera ett misstag i en betalningstransaktion som 
 
 ## Se även
 
+## Se även
+
 [Valutor i Business Central](finance-currencies.md)  
 [Konfigurera valutor](finance-set-up-currencies.md)  
 [Konfigurera en alternativ rapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Designdetaljer: Konton i redovisningen
+# Designdetaljer: Konton i redovisningen
 Om du vill stämma av lager- och kapacitetstransaktioner med redovisningen, bokförs de relaterade värdetransaktionerna på olika redovisningskonton. Mer information finns i [detaljer: avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Från inventeringstransaktioner
+## Från inventeringstransaktioner  
 Följande tabell visar relationen mellan olika typer av lagervärdetransaktioner och konton och motkonton i redovisningen.  
 
 |**Artikeltransaktionstyp**|**Värdetrans.typ**|**Varianstyp**|**Förväntad kostnad**|**Konto**|**Balanskonto**|  
@@ -56,7 +56,7 @@ Följande tabell visar relationen mellan olika typer av lagervärdetransaktioner
 |Monteringsutflöde|Varians|Produktionsomkostnader|Nej|Lagersaldo|Prod.- och omkostnadsvarians|  
 |Monteringsutflöde|Avrundning||Nej|Lagersaldo|Lagerjustering|  
 
-## <a name="from-the-capacity-ledger"></a>Från kapacitetstransaktioner
+## Från kapacitetstransaktioner  
  Följande tabell visar relationen mellan olika typer av kapacitetvärdetransaktioner och konton och motkonton i redovisningen. Kapacitetstransaktioner representerar arbetstid som förbrukats vid monterings- eller produktionsarbete.  
 
 |**Arbetstyp**|**Kapacitetstrans. typ**|**Värdetrans.typ**|**Konto**|**Balanskonto**|  
@@ -66,12 +66,12 @@ Följande tabell visar relationen mellan olika typer av lagervärdetransaktioner
 |Produktion|Maskingrupp/Produktionsgrupp|Inköpskostnad|PIA-konto|Direkt kostnad kopplad|  
 |Produktion|Maskingrupp/Produktionsgrupp|Indirekt kostnad|PIA-konto|Omkostnader kopplade|  
 
-## <a name="assembly-costs-are-always-actual"></a>Monteringkostnader är alltid faktiska
+## Monteringkostnader är alltid faktiska  
  Som visas i tabellen ovan visas inte bokföringar av montering i interimskonton. Det beror på att konceptet med produkter i arbete (PIA) inte är tillämpligt i monteringsutflödesbokföring, till skillnad från i produktionsutflödesbokföring. Monteringkostnader bokförs bara som faktiska kostnader, aldrig som förväntade kostnader.  
 
  Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Beräknar antal att bokföra i redovisningen
+## Beräknar antal att bokföra i redovisningen  
  Följande fält i tabellen **Värdetransaktion** används för att beräkna det förväntade kostnadsbeloppet som har bokförts i redovisningen:  
 
 -   Kost.belopp (aktuellt)  
@@ -86,7 +86,7 @@ Följande tabell visar hur beloppen att bokföra i redovisningen beräknas för 
 |Faktisk kostnad|Kost.belopp (aktuellt) – kostnad bokförd i redovisningen.|  
 |Förväntad kostnad|Kost.belopp (förväntat) – Förväntad kost. bokf. i redov.|  
 
-## <a name="see-also"></a>Se även
+## Se även  
  [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)   
  [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)   
  [Designdetaljer: Bokföring av förväntad kostnad](design-details-expected-cost-posting.md)  
