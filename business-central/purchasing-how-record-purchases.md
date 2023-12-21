@@ -11,18 +11,18 @@ ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
 ms.date: 12/19/2023
 ms.author: bholtorf
 ---
-# Registrera inköp med inköpsfakturor och order
+# <a name="record-purchases-with-purchase-invoices-and-orders"></a>Registrera inköp med inköpsfakturor och order
 
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Inköpsfakturor eller inköpsorder också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor eller order bidrar till vinstsiffror och övriga ekonomiska KPI:er i rollcentret.
 
-## Registrera inköp med inköpsfakturor
+## <a name="record-purchases-with-purchase-invoices"></a>Registrera inköp med inköpsfakturor
 
 När du tar emot lagerartiklarna, eller när den inköpta tjänsten avslutas, bokför du inköpsfakturan för att uppdatera lager och finansiella transaktioner, samt för att aktivera betalning till leverantören utifrån betalningsvillkoren. [Göra betalningar](payables-make-payments.md).
 
 > [!CAUTION]  
 > Bokför inte en inköpsfaktura för fysiska artiklar förrän du tar emot artiklarna och vet slutkostnaden för inköpet, inklusive eventuella extrakostnader. Annars kan lagervärdet och vinstsiffrorna ha oriktiga resultat.
 
-### Skapa och bokföra en inköpsfaktura
+### <a name="create-and-post-a-purchase-invoice"></a>Skapa och bokföra en inköpsfaktura
 
 Följande steg beskriver hur du skapar en inköpsfaktura. Stegen för att skapa en inköpsorder är liknande. Den största skillnaden är att inköpsorder har några ytterligare fält och åtgärder för fysisk hantering av artiklar.
 
@@ -64,7 +64,7 @@ Inköpet visas nu i lager, resurstransaktioner och ekonomiska transaktioner, och
 >
 > Om du vill kontrollera vilka belopp som faktiskt bokförs, kan du använda sidan **Statistik** sidan som tar hänsyn till de avrundade beräkningarna. Om du väljer åtgärden **Släpp** kommer fälten för summor dessutom att uppdateras så att de omfattar de avrundade beräkningarna.
 
-## Bokförda fakturor
+## <a name="posted-invoices"></a>Bokförda fakturor
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -73,7 +73,7 @@ Det är enkelt att korrigera eller annullera en bokförd inköpsfaktura innan du
 [Öppna listan **bokförda inköpsfakturor**](https://businesscentral.dynamics.com/?page=146) i [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
-## Köpa artiklar som inte finns i lager
+## <a name="purchasing-non-inventory-items"></a>Köpa artiklar som inte finns i lager
 
 Raderna på en inköps faktura kan vara av typen **resurs** eller **artikel**. Artikelkort kan vidare klassificeras som av typen **Lager**, **Tjänst** eller **Inte i lager**, som anger om artikeln är en fysisk lagerenhet, en arbetstidsenhet (även tillämplig för resurser) eller en fysisk enhet som inte hålls i lager. Lär dig mer om att [Registrera nya artiklar](inventory-how-register-new-items.md). Inköpsfakturaprocessen är samma för alla nämnda typer.
 
@@ -82,7 +82,7 @@ Raderna på en inköps faktura kan vara av typen **resurs** eller **artikel**. A
 >
 > Om du vill använda en inköpt resurs kan du komma att behöva ange resursens kapacitet och tilldela denna manuellt till ett projekt. När du köper en resurs skapas reskontratransaktion – reskontratransaktioner för resurs spåras emellertid inte för mängd och värde på samma sätt som för exempelvis artiklar. Om antals- och värdespårning krävs kan du använda andra radartikeltyper.
 
-## När inköpsorder ska användas
+## <a name="when-to-use-purchase-orders"></a>När inköpsorder ska användas
 
 Du måste använda inköpsorder om din inköpsprocess kräver att du t. ex. kan registrera delleveranser av en orderkvantitet eftersom hela kvantiteten inte var tillgänglig hos leverantören. Om du levererar sålda artiklar direkt från din leverantör till kunden, som en direktleverans, måste du även använda inköpsorder. Mer information finns i [skapa direktleveranser](sales-how-drop-shipment.md).
 
@@ -92,7 +92,7 @@ I alla andra aspekter fungerar inköpsorder på samma sätt som inköpsfakturor.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## Inleverera artiklar med en inköpsorder
+## <a name="receive-items-with-a-purchase-order"></a>Inleverera artiklar med en inköpsorder
 
 Följande steg beskriver hur du inlevererar artiklar med en inköpsorder. 
 
@@ -109,19 +109,19 @@ Följande steg beskriver hur du inlevererar artiklar med en inköpsorder.
 > [!NOTE]
 > Om du använder ett distributionslagerdokument kan du inte använda åtgärden **Bokföra** på inköpsordern för att bokföra inleveransen. Det beror på att en distributionslagerarbetare redan bokfört inköpsordermängden som inlevererad. Läs mer på [Designdetaljer – Inkommande distributionslagerflöde](design-details-inbound-warehouse-flow.md).
 
-## Så här tar du emot fler artiklar än vad som beställts
+## <a name="receive-more-items-than-ordered"></a>Så här tar du emot fler artiklar än vad som beställts
 
 När det kommer fler varor än vad som beställts vill du kanske ta emot dem i stället för att annullera inleveransen. Det kan t.ex. vara billigare att behålla överskottsartiklar på lagret än att returnera dem, eller så din leverantör erbjuda en rabatt för att behålla dem.
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
-### Så här lägger du upp överinleveranser
+### <a name="set-up-over-receipts"></a>Så här lägger du upp överinleveranser
 
 Skapa koder för överinleverans för att definiera en procentsats med vilken en inlevererad kvantitet kan överskrida den beställda kvantiteten. Ange procentsatsen i fältet **Tolerans för överinleverans %**. Du kan sedan tilldela koden på sidorna artikelkort eller leverantörskort för artiklar och leverantörer.  
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Koder för överinleverans** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### Tilldela koden för överinleverans för en artikel
+### <a name="assign-the-over-receipt-code-to-an-item"></a>Tilldela koden för överinleverans för en artikel
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.
 2. Öppna **Artikelkort** för artikeln.
@@ -132,7 +132,7 @@ Koden för överinleverans tilldelas till artikeln. Inköpsorder eller distribut
 > [!NOTE]
 > Du kan ställa in ett arbetsflöde för godkännande för att kräva att överinleveranser måste godkännas innan de kan hanteras. Markera kryssrutan **Godkännande krävs** på sidan **Koder för överinleverans**. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).
 
-### Överleverans av en order
+### <a name="over-receive-an-order"></a>Överleverans av en order
 
 På inköpsrader och distributionslagerrader används **Överinleveransmängd** för att registrera överlevererade kvantiteter, vilket innebär antal som överstiger värdet i fältet **Antal**, den beställda mängden.
 
@@ -149,11 +149,11 @@ När du hanterar ett överinleverans kan du antingen öka värdet i fältet **An
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] behandlar inte ekonomiska aspekter av överinleveranser automatiskt. Du måste hantera detta manuellt i samråd med leverantören, till exempel genom att leverantören skickar en ny eller uppdaterad faktura.
 
-## Externt dokumentnummer
+## <a name="external-document-number"></a>Externt dokumentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Bokföra inköp
+## <a name="posting-purchases"></a>Bokföra inköp
 
 I ett inköpsdokument kan du välja mellan följande bokföringsåtgärder:
 
@@ -183,17 +183,17 @@ Du kan alltid granska olika transaktioner som kommer att skapas i samband med bo
 
 Du kan bokföra eller bokföra och skriva ut. Om du väljer Bokför och Skriv ut, skrivs en rapport ut när ordern bokförs. Du kan även välja åtgärden **Bokför batch-jobb** som ger dig möjlighet att bokföra fler fakturor samtidigt. Läs mer på [Bokföra flera dokument på samma gång](ui-batch-posting.md).
 
-## Visa reskontratransaktioner
+## <a name="viewing-ledger-entries"></a>Visa reskontratransaktioner
 
 När bokföringen är slutförd tas de bokförda inköpsraderna bort från ordern. Du får ett meddelande när bokföringen är slutförd. Du kan därefter se bokförda transaktioner på de sidor som innehåller bokförda transaktioner, inklusive sidorna **Lev.reskontratransaktioner**, **Redovisningstransaktioner**, **Artikeltransaktioner**, **resurstransaktioner**, **Inköpsleveranser** samt **Bokförda inköpsfakturor**.
 
 I de flesta fall kan du öppna reskontratransaktioner från det berörda kortet eller dokumentet. Välj till exempel åtgärden **Transaktioner** på sidan **Leverantörskort**.
 
-## Redigera reskontratransaktioner
+## <a name="editing-ledger-entries"></a>Redigera reskontratransaktioner
 
 Du kan redigera vissa fält i bokförda inköpsdokument, till exempel fältet **Betalningsreferens**. Mer information finns i [Redigera bokförda dokument](across-edit-posted-document.md). För mer kritiska fält som påverkar granskningsspåret måste du återföra eller ångra bokföring. Läs mer på [Återföra journalbokningar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Begära offerter](purchasing-how-request-quotes.md)  
 [Köpa artiklar för en försäljning](purchasing-how-purchase-products-sale.md)  
