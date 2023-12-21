@@ -8,11 +8,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'warehouse, stock'
 ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
-ms.date: 06/16/2021
+ms.date: 12/19/2023
 ms.author: bholtorf
 ---
 
-# <a name="manage-inventory"></a>Hantera lager
+# Hantera lager
 
 För varje fysisk produkt som du handlar i måste du skapa ett artikelkort av typen **Lager**. Artiklar som du erbjuder till kunder men inte håller i lager kan du registrera som katalogartiklar, som du kan omvandla till lagerartiklar vid behov. Du kan öka eller minska kvantiteten för en artikel i lager, genom att bokföra direkt till artikeltransaktionerna, till exempel efter en fysisk inventering eller, om du inte vill registrera inköp.
 
@@ -25,13 +25,13 @@ För att öka en översikt av artiklar och för att söka efter dem kan du kateg
 
 Planeringen av artiklar för att motsvara efterfrågan omfattas av funktionen för leveransplanering. Läs mer i [planering](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Lageravstämning
+## Lageravstämning
 
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen. Läs mer i [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Även om lagerkostnaderna automatiskt bokförs i redovisningen måste du fortsatt säkerställa att varukostnader skickas vidare till relaterade utgående försäljningstransaktioner, i synnerhet när varorna säljs innan du har fakturerat inköpet av varorna. I programmet kallas detta för Kostnadsjustering. Artikelkostnader justeras automatiskt när du bokför artikeltransaktioner, men du kan också justera projektartikelkostnader manuellt. Läs mer i [Justera artikelkostnader](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Närliggande uppgifter
+## Närliggande uppgifter
 
 I följande tabell beskrivs relaterade uppgifter.
 
@@ -55,7 +55,7 @@ I följande tabell beskrivs relaterade uppgifter.
 |Hantera affärsverksamheten på försäljningskontor, inköpsavdelningar eller planeringskontor på flera platser.|[Arbeta med ansvarsenheter](inventory-responsibility-centers.md)|
 |Använd resurser med särskilda funktioner för olika tjänster och serviceartiklar.|[Konfigurera resursfördelning](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Inköp](purchasing-manage-purchasing.md)  

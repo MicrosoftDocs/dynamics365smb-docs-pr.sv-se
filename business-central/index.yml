@@ -162,7 +162,7 @@ additionalContent:
             - text: Arbeta med Power BI-rapporter i Business Central
               url: /dynamics365/business-central/across-working-with-powerbi
             - text: Analysera listdata med analysläge
-              url: /dynamics365/business-central/across-working-with-powerbi
+              url: /dynamics365/business-central/analysis-mode
             - text: Analysera rapportdata med Excel
               url: /dynamics365/business-central/report-analyze-excel
         - title: Allmänna affärsfunktioner
