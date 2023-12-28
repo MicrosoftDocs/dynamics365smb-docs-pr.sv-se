@@ -70,7 +70,11 @@ Följ dessa steg för att konfigurera e-dokumenttjänsten.
 
 Om du har konfigurerat formatet **datautbytesdefinition** i din lokalisering kan du lägga till en rad för varje dokumenttyp du behöver. Lägg till rader som matchar standardexemplet för datautbyte för W1 PEPPOL-formatet. Först väljer du emellertid alternativet **Dokumenttyp** för varje rad som du behöver. För varje datatyp väljer du det värde för **Importera oformaterad kod** eller **Exportera def.kod för datautbyte** som du vill använda.
 
-Om du inte använder formatet **datautbytesdefinition** kan du skapa och konfigurera format genom att använda [gränssnittet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Justera informationen på raderna **Exportera mappning** och **Importera mappning**, där du kan hitta tabellerna och fälten för att konfigurera omvandlingsregler. I det här fallet måste du lägga till ett nytt alternativ i fältet **Dokumentformat** som är relaterat till ditt format.
+Om du inte använder formatet **datautbytesdefinition** kan du skapa och konfigurera format genom att använda [gränssnittet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Justera informationen på raderna **Exportera mappning** och **Importera mappning**, där du kan hitta tabellerna och fälten för att konfigurera omvandlingsregler. I det här fallet måste du lägga till ett nytt alternativ i fältet **Dokumentformat** som är relaterat till ditt format.  
+
+### Dokumenttyper som stöds 
+
+Dokumenttyper som stöds baseras på det valda **dokumentformatet**. För att kontrollera vilka dokumenttyper som stöds, på sidan **E-dokumenttjänst**, kör åtgärden **Dokumenttyper som stöds**. **E-dokumenttjänst som stöds källdokumenttyper** öppnas och i kolumnen **Källdokumenttyp** kan du hitta alla de dokumenttyper som stöds.  
 
 ## Konfigurera en dokumentutskicksprofil
 
@@ -115,12 +119,12 @@ När du konfigurerar ditt arbetsflöde på sidan **Arbetsflöde**, peka på fäl
 
 ## Ställa in en lagringspolicy för e-dokument
 
-E-dokument kan omfattas av olika lokala lagar som är relaterade till den period som e-dokumenten bevaras. Därför har vi lagt till en lagringspolicy för all viktig information som är relaterad till e-dokument. Administratörer kan definiera bevarandeprinciper som anger hur ofta Dynamics 365 Business Central tar bort inaktuella poster som är relaterade till e-dokument. Mer information om kvarhållningsprinciper i [Definiera kvarhållningsprincip](admin-data-retention-policies.md).
+E-dokument kan omfattas av olika lokala lagar som är relaterade till den period som e-dokumenten bevaras. Därför har vi lagt till en lagringspolicy för all viktig information som är relaterad till e-dokument. Administratörer kan definiera kvarhållningsprinciper som anger hur ofta Dynamics 365 Business Central tar bort inaktuella poster som är relaterade till e-dokument. Mer information om kvarhållningsprinciper i [Definiera kvarhållningsprincip](admin-data-retention-policies.md).
 
-Så här konfigurerar du bevarandeprinciper för e-dokument.
+Så här konfigurerar du kvarhållningsprinciper för e-dokument.
 
 1. På sidan **E-dokumenttjänster** kör du åtgärden **Bevarandeprincip**.
-2. När åtgärden har slutförts väljer du någon av följande bevarandeprinciper att konfigurera:
+2. När åtgärden har slutförts väljer du någon av följande kvarhållningsprinciper att konfigurera:
 
     - E-dokumentlogg
     - Integrationslogg för e-dokument

@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Anpassa arbetsytan
 
-Du kan anpassa din arbetsyta efter ditt arbete och dina preferenser. Ändra sidor så att de endast visar information som du behöver, där du behöver den. Anpassningen påverkar endast din arbetsyta. Det påverkar inte hur andra fungerar. Du kan anpassa alla typer av sidor, inklusive sidan [rollcenter](ui-change-basic-settings.md#role-center). 
+Du kan anpassa din arbetsyta efter ditt arbete och dina preferenser. Ändra sidor så att de endast visar information som du behöver, där du behöver den. Anpassningen påverkar endast din arbetsyta. Det påverkar inte hur andra fungerar. Du kan anpassa alla typer av sidor, inklusive sidan [rollcenter](ui-change-basic-settings.md#role-center).
+
+> [!NOTE]
+> På grund av restriktioner för designmöjligheter i webbklienten är det för närvarande inte möjligt att anpassa eller anpassa kontrollerna inom rutnätssyntaxen.
+Det gäller alla designlägen, inte bara personanpassning.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,7 +188,6 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
 - Vissa sidor har flera sidfält som mappas till samma källtabell. Rutan visar båda/alla dessa sidfält oberoende av varandra. Att visa/dölja/flytta dessa fält är också oberoende utan att det ena påverkar det andra.
 - Om en del eller grupp är dold, kommer avbildade fält fortfarande att visas inuti den, men du kan inte dra och släppa eller lägga till/visa det fältet förrän du gör gruppen/delen synlig.
 
-## Se relaterad [Microsoft utbildning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## Se även
 [Anpassa sidor för profiler](ui-personalization-manage.md)  
