@@ -8,7 +8,7 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 06/14/2023
 ms.author: bholtorf
 ---
-# Söka efter sidor och information med berätta
+# <a name="finding-pages-and-information-with-tell-me"></a>Söka efter sidor och information med berätta
 
 I den här artikeln beskrivs hur produktsökningen *Berätta vad du vill göra* kan hjälpa dig: 
 
@@ -31,24 +31,24 @@ Längst ned på sidan **Berätta vad du vill göra** finns en åtgärd kallad **
 
 På sidan **Berätta vad du vill göra** kategoriseras resultaten baserat på de data du anger och sidan du arbetar med. I följande avsnitt finns beskrivs kategorierna.
 
-## Söka efter en åtgärd på den aktuella sidan
+## <a name="find-an-action-on-the-current-page"></a>Söka efter en åtgärd på den aktuella sidan
 
 Avsnittet **På den aktuella sidan** låter dig söka efter och utföra åtgärder på sidan som är öppen. Om t. ex. sidan **Försäljningsoffert** är öppen och du skriver ”kund” inkluderar avsnittet en åtgärd som öppnar sidan Kundkort för den kund som har valts på försäljningsofferten.
 
 > [!NOTE]  
 > Listan innehåller endast de åtgärder som är tillgängliga i navigeringsfältet längst upp på sidan. Åtgärder på snabbflikarna inkluderas inte.  
 
-## Söka efter en sida eller en uppgift
+## <a name="find-a-page-or-a-task"></a>Söka efter en sida eller en uppgift
 
 Resultaten i avsnittet **Gå till sidor och uppgifter** ger tillgång till andra sidor och låter dig utföra uppgifter eller leta information. Om du ofta använder dessa sidor kan du välja bokmärkesikonen om du vill lägga till en länk till valfri sida i rollcentret. Mer information finns i [lägga till en sidåtgärd i ditt rollcenter](ui-bookmarks.md).
 
 Sidorna och uppgifterna som anges är beroende av den användarupplevelse du valt för ditt företag. **Essential**-upplevelsen ger åtkomst till färre sidor och uppgifter än vad **Premium**-upplevelsen gör. Första gången du loggar in, använder du **Essential**-upplevelsen. Mer information om användarupplevelser finns i [Anpassa din [!INCLUDE[prod_short](includes/prod_short.md)]-upplevelse](ui-experiences.md).
 
-## Söka efter en rapport eller en arkiverad Information
+## <a name="find-a-report-or-archived-information"></a>Söka efter en rapport eller en arkiverad Information
 
 Avsnittet **Gå till rapporter och analyser** ger åtkomst till rapportverktyg. Du kan till exempel öppna rapporten **Balansräkning** från listan eller använda arkiverade dokument och annan information.  
 
-## Söka efter en post eller söka i dokumentationen
+## <a name="find-a-record-or-search-the-documentation"></a>Söka efter en post eller söka i dokumentationen
 
 I avsnittet **Sök efter \<keyword\>** erbjuder [!INCLUDE [prod_short](includes/prod_short.md)] ett antal olika sätt att söka:
 
@@ -58,7 +58,7 @@ I avsnittet **Sök efter \<keyword\>** erbjuder [!INCLUDE [prod_short](includes/
   > [!NOTE]  
   > Dina sökresultat innehåller ingen dokumentation för tredjepartstillägg.
 
-### Använd Berätta vad du vill göra
+### <a name="use-tell-me-what-you-want-to-do"></a>Använd Berätta vad du vill göra
 
 Använd ![Berätta vad du vill göra.](media/ui-search/search.png "Sök efter sida eller rapport") Ikonen **Sök** för att söka efter data i hela [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan till exempel hitta en kund genom att ange kundens namn eller adress, eller till och med hitta en specifik post, till exempel en försäljningsorder. Du kan också använda den för att hitta information i vår dokumentation.
 
@@ -72,22 +72,22 @@ Ange minst tre tecken i ett nyckelord och välj sedan antingen **Sök företagsd
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 
-## Hämta fler funktioner från appar
+## <a name="get-more-functionality-from-apps"></a>Hämta fler funktioner från appar
 
 Vår partnergrupp utvecklar appar som lägger till funktioner för [!INCLUDE[prod_short](includes/prod_short.md)]. Avsnittet **Hämta från Microsoft AppSource** visar en lista över program för [!INCLUDE[prod_short](includes/prod_short.md)] som finns på Microsoft AppSource och är relaterade till det nyckelord du sökte efter.
 
-### Använda Sök på listsidor
+### <a name="use-search-on-list-pages"></a>Använda Sök på listsidor
 
 Detta är inte relaterat till Berätta vad du vill göra, men det finns ett annat sätt att söka efter specifika data. När du använder en listsida kan du använda fältet  **Sök** i det övre vänsta hörnet i rubriker på listsidor på ![Search list](media/ui-search/search-list.png "Ikon för Söklista") om du vill söka efter data på sidan. Sökningen gäller endast för den lista som visas. Mer information om hur du arbetar med data på listsidor finns i [Sortera, söka och filtrera listor](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > Du kan söka efter bokförda dokumentrader såsom fakturarader, kreditnoterader, utleveransrader och inleveransrader. Sök efter den typ av dokumentrader som du vill hitta och bokmärk sedan länkarna till dokumenten på hemsidan för enkel åtkomst till originalet eller en filtrerad vy. Läs mer i [Lägga till en sidåtgärd i ditt rollcenter](ui-bookmarks.md).
 
-## Frågor?
+## <a name="questions"></a>Frågor?
 
 Vi har visat sökfunktionen för ett antal intressenter, noterat de frågor som dessa har gemensamt och använt våra anteckningar för att skapa en lista över vanliga frågor. Om du är intresserad, se [Vanliga frågor för Berätta](ui-search-faq.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med Business Central](ui-work-product.md)  
 [Lägga till en sidåtgärd i ditt rollcenter](ui-bookmarks.md)  

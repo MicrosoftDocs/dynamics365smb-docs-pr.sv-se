@@ -9,11 +9,11 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 12/28/2023
 ms.custom: bap-template
 ---
-# Behandla försäljningsmöjligheter
+# <a name="process-sales-opportunities"></a>Behandla försäljningsmöjligheter
 
 När du har skapat en affärsmöjlighet, finns det flera funktioner för att hantera affärsmöjligheten och flytta den igenom till färdigställande.
 
-## Visa affärsmöjligheter
+## <a name="view-opportunities"></a>Visa affärsmöjligheter
 
 Befintliga försäljningsmöjligheterna finns på sidan **Affärsmöjlighetslista**. Följande tabell beskriver sätt att komma åt sidan för att bearbeta försäljningsmöjligheter.
 
@@ -25,7 +25,7 @@ Befintliga försäljningsmöjligheterna finns på sidan **Affärsmöjlighetslist
 
 Var och en av dessa uppgifter öppnar sidan **Affärsmöjlighetslista**.
 
-## Avsluta affärsmöjligheter
+## <a name="close-opportunities"></a>Avsluta affärsmöjligheter
 
 Du kan avsluta affärsmöjligheter när en förhandling är över. När du avslutar en affärsmöjlighet kan du ange om den har vunnits eller förlorats och anledningen till att avsluta den. Om du vill ange en orsak måste du lägga upp koder för avslutade affärsmöjligheter.
 
@@ -36,7 +36,7 @@ Du kan avsluta affärsmöjligheter när en förhandling är över. När du avslu
 
    I fältet **Avslutskod affärsmöjlighet** kan du välja från en av de befintliga avslutskoder affärsmöjligheter eller lägga till en ny kod. Om du vill lägga till en ny kod väljer du **Välj från fullständig lista** i listrutan och väljer sedan **ny**. På den nya tomma raden fyller du i fälten **Kod**, **Typ** och **Beskrivning** och väljer sedan knappen **OK**.
 
-## Skapa offerter för affärsmöjligheter
+## <a name="create-quotes-for-opportunities"></a>Skapa offerter för affärsmöjligheter
 
 > [!NOTE]
 > Du kan bara skapa försäljningsofferter från affärsmöjligheter där kontakttypen är Företag.
@@ -44,7 +44,7 @@ Du kan avsluta affärsmöjligheter när en förhandling är över. När du avslu
 1. På sidan **Affärsmöjlighetslista** väljer du affärsmöjlighet och väljer sedan åtgärden **Skapa försäljningsoffert**. Sidan **Försäljningsoffert** visas.
 2. Fyll i relevanta fält.
 
-## Skapa försäljningsorder för affärsmöjligheter
+## <a name="create-sales-orders-for-opportunities"></a>Skapa försäljningsorder för affärsmöjligheter
 
 Du kan skapa order från förs.offerter som du har skapat för affärsmöjligheter. Innan du kan skapa försäljningsorder till kontakterna måste du ska kontakten som en kund. Mer information finns i [Skapa kontakter](marketing-create-contact-companies.md).
 
@@ -54,7 +54,7 @@ Du kan skapa order från förs.offerter som du har skapat för affärsmöjlighet
 
 När du hanterar affärsmöjligheter kan du behöva skapa en offert för den kontakt som affärsmöjligheten är kopplad till.
 
-## Ta bort affärsmöjligheter
+## <a name="delete-opportunities"></a>Ta bort affärsmöjligheter
 
 Du kan ta bort affärsmöjligheter när du till exempel har tagit hem en affär. Du kan bara ta bort avslutade affärsmöjligheter. Det finns två sätt att ta bort avslutade affärsmöjligheter. Du kan ta bort enskilda avslutade affärsmöjligheter från sidan **Affärsmöjlighetslista** eller så kan du köra batch-jobbet **Ta bort affärsmöjligheter** för att ta bort flera affärsmöjligheter baserat på angivet kriterium.
 
@@ -68,7 +68,7 @@ Gör följande steg om du vill ta bort avslutade affärsmöjligheter med batch-j
 
 När du har tagit bort en affärsmöjlighet tas den bort från sidan **Affärsmöjlighetslista**.
 
-## Flytta en affärsmöjlighet via försäljningscykeletapper
+## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Flytta en affärsmöjlighet via försäljningscykeletapper
 
 Om en affärsmöjlighet följer en försäljningscykel, kan du flytta den till nästa eller föregående etapp och även hoppa över en etapp.
 
@@ -81,7 +81,7 @@ Om en affärsmöjlighet följer en försäljningscykel, kan du flytta den till n
    * **Uppdatera** låter dig ändra information (t. ex. ändra utvärderingen av deras chanser att lyckas och uppskattade värden) utan att flytta till en annan etapp.
 3. Fyll i de andra fälten efter behov och välj sedan knappen **OK**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
