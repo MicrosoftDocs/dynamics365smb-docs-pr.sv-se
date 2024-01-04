@@ -56,7 +56,7 @@ sections:
       - question: |
           Kan en gäst användare använda appen för att komma åt vår Business Central-lösning?
         answer: |
-          Nr. Gästanvändare är inbjudna användare från en annan Microsoft Entra-klientorganisation än din. I det här fallet autentiserar programmet gästanvändarens primära Microsoft Entra-klientorganisation och försöker öppna Business Central-slutpunkten för den klientorganisationen istället för din.  
+          Nej. Gästanvändare är inbjudna användare från en annan Microsoft Entra-klientorganisation än din. I det här fallet autentiserar programmet gästanvändarens primära Microsoft Entra-klientorganisation och försöker öppna Business Central-slutpunkten för den klientorganisationen istället för din.  
 additionalContent: |
 
   ## Se även

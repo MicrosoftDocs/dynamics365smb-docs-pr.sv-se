@@ -10,7 +10,7 @@ ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="transferring-and-posting-cost-entries"></a>Överföra och bokföra kostnadstransaktioner
+# Överföra och bokföra kostnadstransaktioner
 
 Innan du definierar kostnadsfördelningar, måste du förstå hur kostnadstransaktioner kommer från följande källor:  
 
@@ -19,7 +19,7 @@ Innan du definierar kostnadsfördelningar, måste du förstå hur kostnadstransa
 - Automatiska fördelningsbokföringar för faktiska kostnader.  
 - Överföring av budgettransaktioner till faktisk.
 
-## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Villkor för överföring av redovisningstransaktioner till kostnadstransaktioner
+## Villkor för överföring av redovisningstransaktioner till kostnadstransaktioner
 
 Det är viktigt att förstå villkor för överföring av redovisningstransaktioner mot kostnadstransaktioner. Under överföringen använder batchjobbet **Överför redovisningstransaktioner till kostnadsredovisning** följande villkor för att bestämma om och hur redovisningstransaktionerna överförs.  
 
@@ -40,13 +40,13 @@ Redovisningstransaktioner överförs inte om:
 - Transaktionerna har ett bokföringsdatum före startdatum för **Startdatum för överföring till redovisning**.  
 - Transaktionerna har bokförts med ett stängningsdatum. Dessa är vanliga transaktioner som nollställer saldot i resultaträkningen i slutet av året.
 
-## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Överföring av redovisningstransaktioner till kostnadstransaktioner
+## Överföring av redovisningstransaktioner till kostnadstransaktioner
 
 Du kan överföra redovisningstransaktioner till kostnadstransaktioner.  
 
 Innan du kör processen för att överföra redovisningstransaktioner till kostnadstransaktioner, måste du förbereda överföringen för att undvika manuella rättningsbokföringar.  
 
-### <a name="to-prepare-the-transfer"></a>Så här förbereder du överföringen
+### Så här förbereder du överföringen  
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Inställningar för kostnadsredovisning** och välj sedan relaterad länk.  
 2.  På sidan **Inställningar för kostnadsredovisning** kontrollerar du att fältet **startdatum för överföring till redovisning** anges till rätt värde.  
@@ -56,14 +56,14 @@ Innan du kör processen för att överföra redovisningstransaktioner till kostn
 6.  För varje relevant redovisningskonto på sidan **Redovisningskontokort** kontrollerar du att fältet **Kostnadstypsnr.** är korrekt länkat till en kostnadstyp. Mer information finns i [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md).  
 7.  Kontrollera att alla relevanta redovisningstransaktioner har dimensionsvärden som motsvarar ett kostnadsställe och en kostnadsbärare.  
 
-### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Så här överför du redovisningstransaktioner till kostnadstransaktioner
+### Så här överför du redovisningstransaktioner till kostnadstransaktioner
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Överför redovisningstransaktioner till kostnadsredovisning** och välj sedan relaterad länk.  
 2.  Välj **Ja** för att starta överföringen. Processen överför alla redovisningstransaktioner som inte redan har överförts.  
 
 Under överföringen skapar processen anslutningar i transaktionerna i tabellerna **Kostnadstransaktion** och **Bokförd journal för kostnad**. Det gör det möjligt att spåra ursprunget till kostnadstransaktionerna.
 
-## <a name="automatic-transfer-and-combined-entries"></a>Automatisk överföring och kombinerade transaktioner
+## Automatisk överföring och kombinerade transaktioner
 
 I kostnadsredovisningen kan du överföra redovisningstransaktioner till en kostnadstyp, genom att använda en kombinerad bokföring. Du kan ange om en kostnadstyp tar emot kombinerade transaktioner i fältet **Kombinera transaktioner** i kostnadstypsdefinitionen. Alternativen beskrivs i tabellen nedan.  
 
@@ -76,15 +76,15 @@ I kostnadsredovisningen kan du överföra redovisningstransaktioner till en kost
 > [!IMPORTANT]  
 >  Om du har markerat kryssrutan **Automatisk överföring från redovisning** på sidan **Inställningar för kostnadsredovisning**, [!INCLUDE[prod_short](includes/prod_short.md)] uppdaterar kostnadsredovisningen efter varje bokföring i redovisningen. Kombinerade transaktioner är inte möjliga.
 
-## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultat av överföring av redovisningstransaktioner till kostnadstransaktioner
+## Resultat av överföring av redovisningstransaktioner till kostnadstransaktioner
 
 Under överföringen av redovisningstransaktioner till kostnadstransaktioner skapar [!INCLUDE[prod_short](includes/prod_short.md)] anslutningar i transaktionerna i tabellen **Redov.trans**, tabellen **kostnadstransaktion** och tabellen **Bokförd journal för kostnad** för att göra det möjligt att spåra anslutningar mellan kostnadstransaktioner och redovisningstransaktioner.  
 
-### <a name="general-ledger-entries"></a>Redovisningstransaktioner
+### Redovisningstransaktioner
 
 För varje redovisningstransaktion som har överförts till kostnadsredovisning fyller fältet [!INCLUDE[prod_short](includes/prod_short.md)] i kostnadsfältet **Trans. nr.**  
 
-### <a name="cost-entries"></a>Kostnadstransaktioner
+### Kostnadstransaktioner
 
 För varje kostnadstransaktion sparar [!INCLUDE[prod_short](includes/prod_short.md)] löpnumret för motsvarande redovisningstransaktion i fältet **Löpnr redovisning** i tabellen **Kostnadstransaktion**.  
 
@@ -94,11 +94,11 @@ Fältet **Redovisningskonto** i tabellen **Kostnadstransaktion** innehåller num
 
 För enstaka kostnadstransaktioner överför [!INCLUDE[prod_short](includes/prod_short.md)] bokföringstexten från redovisningstransaktionen till textfältet **Beskrivning**. För kombinerade transaktioner visar textfältet dessa transaktioner överförda som kombinerade transaktioner. Till exempel för en kombinerad transaktion för månaden Oktober 2013 kan texten vara **Kombinerade transaktioner, Oktober 2013**.  
 
-### <a name="cost-register"></a>Bokförd journal för kostnad
+### Bokförd journal för kostnad
 
 I tabellen **Bokförd journal för kostnad** skapar [!INCLUDE[prod_short](includes/prod_short.md)] en transaktion med källöverföringen från redovisningen. Transaktionen registrerar första och sista löpnumret för redovisningstransaktionerna som har överförts, i tillägg till första och sista löpnumret för kostnadstransaktionerna som skapas.
 
-## <a name="see-also"></a>Se även
+## Se även
 
  [Om kostnadsredovisning](finance-about-cost-accounting.md)  
  [Ställa in kostnadsredovisning](finance-set-up-cost-accounting.md)  
