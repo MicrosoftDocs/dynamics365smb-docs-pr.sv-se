@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# Introduktion till demonstrationsdata för Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion till demonstrationsdata för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-program för [!INCLUDE [prod_short](../includes/prod_short.md)] tillför demodata som du kan använda för att lära dig använda funktionerna i [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## Konfigurera data för Contoso Coffee
+## <a name="set-up-contoso-coffee-data"></a>Konfigurera data för Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
@@ -39,7 +39,7 @@ Inställningarna beskrivs i följande tabell:
 
 När du har konfigurerat de moduler som du vill prova väljer du åtgärden **Generera** för att skapa demonstrationsdata för dem.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Produktion](../production-manage-manufacturing.md)  
 [Lagerstyrning](../warehouse-manage-warehouse.md)  
