@@ -5,11 +5,11 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
-ms.date: 10/28/2022
+ms.date: 12/12/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Test funktioner som kan anslutas till andra Microsoft-tjänster
+# Test funktioner som kan anslutas till andra Microsoft-tjänster 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] är en omfattande affärshanteringslösning som är djupt integrerad med Microsoft 365 produktivitetsprogram och Power Platform. Din kostnadsfria testversion av Business Central kan ansluta till många olika Microsoft-tjänster som måste konfigureras och aktiveras först. För att få ut det mesta av din kostnadsfria utvärderingsversion har vissa av dessa funktioner aktiveras automatiskt. Även om anslutningen från [!INCLUDE[prod_short](includes/prod_short.md)] är aktiverad ingår inte dessa tjänster i testversionen och måste köpas separat om du inte redan har dem.
 

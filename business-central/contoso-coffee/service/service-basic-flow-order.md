@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="walkthrough-of-service-orders-for-service-items"></a>Genomgång av serviceorder för serviceartiklar
+# Genomgång av serviceorder för serviceartiklar
 
 Den här genomgången visar flera kärnprocesser:
 
@@ -17,13 +17,13 @@ Den här genomgången visar flera kärnprocesser:
 - Tillhandahåll en låneartikel till kunden under en reparationsperiod
 - Bokför och fakturera serviceordern
     
-## <a name="creating-a-service-order"></a>Skapa en serviceorder
+## Skapa en serviceorder
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 
 Servicechefen Charles skapar en serviceorder för ett reparationsscenario och lånar ut en låneartikel till kunden under reparationstiden.
 
-### <a name="steps"></a>Steg
+### Steg
 
 1. Skapa serviceordern manuellt för den artikel som behöver repareras.
    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Serviceorder**
@@ -40,20 +40,20 @@ Servicechefen Charles skapar en serviceorder för ett reparationsscenario och l�
    1. På raderna väljer du **LÅNARE1** som Lånarnr. Bekräfta utfärdandet av låneartikeln genom att välja **Ja** för att låna ut låneartikeln. 
    2. Välj funktionsåtgärden **Hämta std.-servicekoder**, välj standardkoden associerad med servicegruppen och klicka på **OK**.
    
-### <a name="results"></a>Resultat
+### Resultat
 
 - En serviceorder skapas för artikeln
 - Serviceorderns servicedokumentlogg visar låneartikelns aktiviteter.
 - Låneartikeln kommer att ha en transaktion som återspeglar utlåningen.
    
 
-## <a name="regsiter-performed-work-mark-loaner-as-returned"></a>Regsiter utförde arbete - markera låneartikeln som returnerad.
+## Regsiter utförde arbete - markera låneartikeln som returnerad.
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 
 Serviceteknikern markerar låneartikeln som returnerad, registrerar utfört arbete.
 
-### <a name="steps-1"></a>Steg
+### Steg
 
 1. Hitta serviceuppgiften och registrera tid 
    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceuppgifter** och väljer sedan relaterad länk.
@@ -73,13 +73,13 @@ Serviceteknikern markerar låneartikeln som returnerad, registrerar utfört arbe
    3. Välj åtgärden **Inleverans** 
    4. Bekräfta returnerandet av låneartikeln genom att välja **Ja** för att returnera låneartikeln.
       
-### <a name="results-1"></a>Resultat
+### Resultat
 
 - Serviceorderns **servicedokumentlogg** visar låneartikelns aktiviteter.
 - Låneartikeln kommer att ha en transaktion som återspeglar inleveransen.
 
 
-### <a name="scenario-2"></a>Scenario
+### Scenario  
 
 Servicechefen Charles bokför den färdiga serviceordern.
 
@@ -90,9 +90,9 @@ Servicechefen Charles bokför den färdiga serviceordern.
 2. Bokför fakturan på serviceordern
    1. Välj åtgärden **Bokför** för att slutföra serviceordern, välj alternativet **Leverera och fakturera**, och välj sedan **OK**-knappen.
    2. Bekräfta öppnandet av den bokförda fakturan genom att välja **Ja**. 
-### <a name="results-2"></a>Resultat
+### Resultat
 
 - **Bokförd servicefaktura** skapas.
 - **Servicetransaktioner** associerade till artikel och resurs skapas
 
-## <a name="see-also"></a>Se även
+## Se även
