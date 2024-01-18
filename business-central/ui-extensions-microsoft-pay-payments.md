@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
-ms.date: 04/01/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
-# <a name="the-microsoft-pay-extension"></a>Tillägget Microsoft Pay
+# Tillägget Microsoft Pay
 
 > [!IMPORTANT]
 > Från och med den 8 februari 2020 kommer ändringar i Microsoft Pay-tjänsten att påverka Microsoft Pay-tillägget i Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. På grund av ändringarna kommer **Betala nu**-betallänkarna som Microsoft Pay-tillägget genererar för fakturor i [!INCLUDE[prod_short](includes/prod_short.md)] inte att öppna Microsoft Pay efter den 8 februari. Kunder som använder tillägget bör ändra sina inställningar för betaltjänster och istället börja använda PayPal-tillägget.<br /></br>
@@ -34,9 +34,9 @@ Tillägget Microsoft Pay ger följande fördelar:
 - Microsoft Pay-länken bäddas in automatiskt på alla fakturadokument eller av användaren.
 - Eftersom den här funktionen ingår som ett tillägg får du fullständig behörighet att aktivera den när och om dina affärsprocesser kräver det..
 
-Aktivera tillägg för betalningstjänster är gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du måste du kontakta betalningstjänsten för att få ett konto. Mer information finns i [Aktivera kundbetalning via betalningstjänster](sales-how-enable-payment-service-extensions.md).
+Att aktivera tillägg för betalningstjänster är gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du måste du kontakta betalningstjänsten för att få ett konto. Mer information finns i [Aktivera kundbetalning via betalningstjänster](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

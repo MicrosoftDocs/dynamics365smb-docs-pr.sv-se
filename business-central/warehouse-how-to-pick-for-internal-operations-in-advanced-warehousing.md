@@ -6,10 +6,11 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 09/12/2023
+ms.date: 12/13/2023
 ms.custom: bap-template
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Plocka för produktion, montering eller projekt i avancerade distributionslagerkonfigurationer
+
+# Plocka för produktion, montering eller projekt i avancerade distributionslagerkonfigurationer
 
 Hur du för in plockningskomponenter för produktions, projekt eller monteringsorder beror på hur distributionslagret har ställts in som lagerställe. Läs mer på [Ställa in lagerstyrning](warehouse-setup-warehouse.md).
 
@@ -30,7 +31,7 @@ Om du vill plocka eller flytta komponenter för källdokumenten med en pullmetod
 |Monteringsorder|Ändra status till släppt.|
 |Projekt | Ändra status för att öppna eller skapa projekt med statusen öppen direkt.|  
 
-## <a name="production"></a>Produktion
+## Produktion
 
 Använd dokumentet **Dist.lager plockning** för att plocka produktionskomponenter i flödet till produktion.
 
@@ -39,13 +40,13 @@ För en lagerställe där lagerplatser används för att flytta artiklar till ö
 * För en lagerställe som använder dirigerad artikelinförsel och plockning följer du stegen i artikeln [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * För andra lagerställen följer du stegen i [Flytta objekt internt i grundläggande lagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md) .
 
-## <a name="assembly"></a>Montering
+## Montering  
 
 Använd dokument **Dist.lager plockning** för att flytta monteringskomponenter till monteringsområdet.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] stöder montering mot lager och montering mot kundorder typer för monteringsflöden. Om du vill lära dig mer om montering på beställning i det utgående lagerflödet, gå till [Hantering av artikel för montering mot kundorder i Distributionslagerutleverans](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Projekthantering
+## Projekthantering  
 
 Använd dokumentet **Dist.lager plockning** för att plocka projektkomponenter i flödet till projekthantering.
 
@@ -54,17 +55,17 @@ Använd dokumentet **Dist.lager plockning** för att plocka projektkomponenter i
 >
 > Projekt stöder inte avancerade konfigurationer där växlingsknappen **Dirigerad art.inf. och plock.** är aktiverad.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kontrollera om artiklar är tillgängliga för plockning
+## Kontrollera om artiklar är tillgängliga för plockning
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Så här skapar du plockningsdokumenten i bulk med plockningskalkylarket
+## Så här skapar du plockningsdokumenten i bulk med plockningskalkylarket
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
 
 2. Välj åtgärden **Hämta dist.lager dokument**.  
 
-    I listan visas den släppta produktionsorder, projekt, monteringsorder som har vidarebefordrats till plockningsfunktionen. Orderna innehåller de för vilka plockningsinstruktioner redan har skapats. Dokument med plockningsrader som är helt plockade och registrerade visas inte i den här listan.  
+    I listan visas den släppta produktionsorder, projekt, monteringsorder som har vidarebefordrats till plockningsfunktionen. Orderna innehåller de för vilka plockningsinstruktioner redan har skapats. Dokument med plockningsrader som är plockade och registrerade visas inte i den här listan.  
 3. Välj de order som du vill förbereda en plockning för.
 
     > [!NOTE]  
@@ -105,13 +106,13 @@ Använd dokumentet **Dist.lager plockning** för att plocka projektkomponenter i
     |Max. Nr. av plock.källdok.|Skapar plockningsdokument som inte täcker antalet källdokument som ställts in.|
     |Tilldelat användar-ID|Skapar plockningsdokument enbart för förslagsrader som tilldelats den valda lagerpersonalen.|
     |Sorteringsmetod för plock.rader|Välja bland de tillgängliga alternativen för att sortera rader i den nya plockningsdokumentet.|
-    |Sätt brytenhetsfilter|Döljer mellanliggande plockningsrader för brytenheter när en större måttenhet konverteras till en mindre måttenhet och plockas helt.|
+    |Sätt brytenhetsfilter|Döljer mellanliggande plockningsrader för brytenheter när en större måttenhet konverteras till en mindre måttenhet och plockas.|
     |Fyll inte i ant. att hantera|Lämnar fältet **Ant. att hantera** tomt på de skapade plockningsraderna.|
     |Skriv ut plockning|Skriver ut plockningsdokumenten, när de skapas. Du kan även skriva ut från skapade plockningsdokumenten.|
 
 8. Välj **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Så här plockar du artiklar för en produktionorder, monteringsorder, projekt
+## Så här plockar du artiklar för en produktionorder, monteringsorder, projekt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **plockningar** och väljer sedan relaterad länk.  
 
@@ -139,7 +140,7 @@ Använd dokumentet **Dist.lager plockning** för att plocka projektkomponenter i
     * [Montera Artiklar](assembly-how-to-assemble-items.md)
     * [Registrera förbrukning eller användning för projekt](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Bokföring av produktionskomponenter i en avancerad distributionslagerkonfiguration
+## Bokföring av produktionskomponenter i en avancerad distributionslagerkonfiguration
 
 Bokföringsmetoder påverkar flödet av komponenter i produktionen. Läs mer i [Bokföra komponenter utifrån operationens utflöde](production-how-to-flush-components-according-to-operation-output.md). Beroende på vilken bokföringsmetod som valts kan du plocka komponenter för produktion på följande sätt:
 
@@ -147,7 +148,7 @@ Bokföringsmetoder påverkar flödet av komponenter i produktionen. Läs mer i [
 * Använd ett dokument för **Distributionslagerplockning** för att registrera plockning för artiklar som använder bokföringsmetoden **Plocka + framåt**, **Plocka + bakåt**. Förbrukningen av komponenterna sker automatiskt antingen när du ändrar produktionsorderns status eller startar eller avslutar en åtgärd. Alla nödvändiga komponenter måste vara tillgängliga. Annars stoppas bokförs förbrukning som stoppas för den komponenten.
 * Använd ett dokument för **Dist.lager transport** utan en hänvisning till ett källdokument eller andra sätt att registrera rörelsen av komponenter som använder bokföringsmetoden **Framåt** eller **Bakåt**. Komponenterna förbrukas automatiskt antingen när du ändrar produktionsorderns status eller startar eller avslutar en åtgärd. Alla nödvändiga komponenter måste vara tillgängliga. Annars stoppas bokförd förbrukning för den komponenten. Läs mer på [Flytta artiklar](warehouse-move-items.md).
 
-### <a name="example"></a>Exempel
+### Exempel
 
 Du har en produktionsorder för 15 STYCK av artikeln SP-SCM1004. En del av artiklarna i komponentlistan måste bokföras manuellt i en förbrukningsjournal. Andra artiklar kan plockas och bokföras automatiskt med hjälp av bokföringsmetoden **plocka + bakåt**.  
 
@@ -170,7 +171,7 @@ Följande illustration visas när fältet **Lagerställeskod** på komponentlist
 
 :::image type="content" source="media/binflow.png" alt-text="Översikt över när och hur fältet Lagerplatskod fylls i.":::
 
-## <a name="see-also"></a>Se även
+## Se även
 
 - [Hantera lager](inventory-manage-inventory.md)  
 - [Ställa in Warehouse Management](warehouse-setup-warehouse.md)  

@@ -6,14 +6,14 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 03/23/2022
+ms.date: 12/12/2023
 ---
 
 # Hantera alternativvärden som saknas
 > [!NOTE]
 > I 2022 utgivningscykel 1 kan du skapa egna alternativmappningar. Mer information finns i [Anpassa alternativmappningar med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). De nya funktionerna kräver att administratören aktiverar **funktionsuppdatering: Mappa till alternativuppsättningar i Dataverse utan kod** på sidan **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Detta ämne är avsett för en teknisk publik. De processer som beskrivs kräver hjälp av en utvecklare.
+Denna artikel är avsedd för en teknisk publik. De processer som beskrivs kräver hjälp av en utvecklare.
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] innehåller tre fält för alternativuppsättningar med värden som du kan mappa till [!INCLUDE[prod_short](includes/prod_short.md)]-fält av typen Alternativ för automatisk synkronisering. Under synkroniseringen ignoreras icke-mappade alternativ, de saknade alternativen läggs till i relaterad [!INCLUDE[prod_short](includes/prod_short.md)]-tabell samt i **Alternativmappning för Dataverse**-systemtabellen för att hanteras manuellt senare. Du kan t. ex. lägga till saknade alternativ i någon av produkterna och sedan uppdatera mappningen.
 
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alla [!INCLUDE[prod_short](includes/prod_short.md)]-uppräkningar ovan mappas till alternativuppsättningar i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### Utöka alternativuppsättningar i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Utöka alternativuppsättningar i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Skapa ett nytt AL-tillägg.
 
 2. Lägg till ett Enum-tillägg för de alternativ som du vill utöka. Kontrollera att du använder samma värde. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > De första tio tecknen i de nya alternativvärdenas namn och rubriker måste vara unika. Exempel: två alternativ med namnet "Överför 20 arbetsdagar" och "Överför 20 kalenderdagar" orsakar ett fel eftersom båda har samma första tio tecken, "Överföring 2". Namnge dem, till exempel "TRF20 WD" och "TRF20 CD".
 
-### Uppdatera alternativmappningen för [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Uppdatera alternativmappningen för [!INCLUDE[prod_short](includes/cds_long_md.md)]
 Du kan nu återskapa mappningen mellan [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ och [!INCLUDE[prod_short](includes/prod_short.md)]-transaktioner.
 
 På sidan **Mappning av integreringstabell** väljer du raden för **Betalningsvillkor** och väljer sedan åtgärden **Synkronisera ändrade transaktioner**. Sidan **Alternativmappning för Dataverse** uppdateras med ytterligare nedanstående transaktioner.

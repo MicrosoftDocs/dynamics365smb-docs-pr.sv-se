@@ -42,6 +42,10 @@
 ##### [Genomgång av ankommande och avgående flöde i grundläggande distributionslagerkonfigurationer](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Genomgång av ankommande och avgående flöde i blandade distributionslagerkonfigurationer](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Genomgång av ankommande och avgående flöde i avancerad distributionslagerkonfiguration med dirigerad artikelinförsel och plockning](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Tjänst
+##### [Introduktion till servicehantering för Contoso Coffee](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Genomgång av serviceorder för serviceartiklar](contoso-coffee/service/service-basic-flow-order.md)
+##### [Genomgång av servicekontrakt för serviceartiklar](contoso-coffee/service/service-contract-flow.md)
 
 ### Designdetaljer
 #### [Översikt över designdetaljer för koppling](design-details-application-design.md)

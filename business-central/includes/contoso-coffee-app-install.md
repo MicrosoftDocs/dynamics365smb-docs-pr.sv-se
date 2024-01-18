@@ -1,0 +1,14 @@
+---
+author: andreipanko
+ms.topic: include
+ms.date: 05/31/2023
+ms.author: andreipa
+---
+
+Om du vill använda demonstrationsdata för Contoso Coffee måste du installera två appar i det aktuella företaget i [!INCLUDE [prod_short](../includes/prod_short.md)]:  <br><br>
+- **Demonstrationsdatauppsättning för Contoso Coffee**  
+    Den här appen levererar demonstrationsdata för basprogrammet.  
+- **Demonstrationsdatauppsättning för Contoso Coffee (lands-ID)**  
+    Den här appen lägger till landsspecifika innehåll ovanpå basprogrammet.
+<br><br>
+Lägg till programmen i ett tomt företag i en betald prenumeration eller som en del av en utvärderingsversion. Du kan till exempel skapa ett nytt företag utan exempeldata från den assisterade konfigurationsguiden **Skapa nytt företag** som du kan öppna från listan **Företag**. Lägg sedan till programmen från [marknadsplatsen](../ui-extensions-install-uninstall.md#install) om de inte redan anges på sidan **Tilläggshantering**.  
