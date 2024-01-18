@@ -8,7 +8,7 @@ ms.date: 11/27/2023
 ms.custom: bap-template
 ---
 
-# Introduktion till servicehantering för Contoso Coffee
+# <a name="introduction-to-contoso-coffee-service-management"></a>Introduktion till servicehantering för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-programmen för Business Central lägger till demonstrationsdata som du kan använda för att lära dig använda funktionerna för servicehantering i Business Central.
 
@@ -22,7 +22,7 @@ Detta program innehåller flera element som används för de viktigaste genomgå
 > Innan du kör något av scenarierna för Contoso Coffee bokför du eventuella artikeljournalrader med ingående balanser. Mer information finns i avsnittet [Konfigurera data för Contoso Coffee](#set-up-contoso-coffee-service-management-data).
 >
 > 
-## Konfigurera servicehanteringsdata för Contoso Coffee
+## <a name="set-up-contoso-coffee-service-management-data"></a>Konfigurera servicehanteringsdata för Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -41,7 +41,7 @@ När relevanta program har installerats går du till sidan [Contoso demoverktyg]
 
 Välj åtgärden **Skapa demonstrationsdata** när du är klar. Det tar några minuter att lägga till data i den underliggande databasen, men sedan är det dags att köra de olika scenarierna.  
 
-## Scenarierna
+## <a name="scenarios"></a>Scenarierna
 
 Demonstrationsdata för Contoso Coffee stöder för närvarande följande servicescenarier för test och utbildning:
 
@@ -54,6 +54,6 @@ Läs stegen för respektive scenario i den relevanta artikeln.
 > Servicegenomgångar kräver att användarupplevelsen är inställd på **Premium** på sidan **Företagsinformation**.
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Tjänst](../../service-service.md)

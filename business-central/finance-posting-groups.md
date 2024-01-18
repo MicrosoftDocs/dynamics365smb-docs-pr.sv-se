@@ -10,7 +10,7 @@ ms.search.form: '312, 313'
 ms.date: 12/21/2023
 ms.custom: bap-template
 ---
-# Konfigurera bokföringsmallar
+# <a name="set-up-posting-groups"></a>Konfigurera bokföringsmallar
 
 Bokföra gruppmappningsentiteter till redovisningskonton. Exempel på entiteter är kunder, leverantörer, artiklar, resurser och försäljnings- och inköpsdokument. Bokföringsmallar sparar tid och hjälper dig undvika fel när du bokför transaktioner. Transaktionsvärdet går till de konton som anges i bokföringsmallen för den aktuella enheten. Det enda kravet är att det finns en kontoplan. Mer information finns i [Ställa in kontoplanen](finance-setup-chart-accounts.md).  
 
@@ -28,7 +28,7 @@ Bokföringsmallar omfattas av tre paraplyer:
 
 I följande avsnitt beskrivs bokföringsmallarna under varje paraply.  
 
-## Generella bokföringsmallar
+## <a name="general-posting-groups"></a>Generella bokföringsmallar
 
 I följande tabell beskrivs de allmänna bokföringsmallarna.
 
@@ -38,7 +38,7 @@ I följande tabell beskrivs de allmänna bokföringsmallarna.
 | Generella produktbokföringsmallar |Tilldela den här mallen till artiklar och resurser för att ange vad du säljer och vad du köper. Ställ in dessa bokföringsmallar på sidan **Produktbokföringsmallar**. När du gör det måste du tänka över hur många mallar du måste bryta ner försäljning per produkt (artiklar och resurser) och inköp per artikel. Dela exempelvis upp mallarna efter råmaterial, detaljhandel, resurser, kapacitet och så vidare. |
 | Bokföringsinställningar |Kombinera rörelse- och produktbokföringsmallar och välj sedan konton att bokföra till. För varje kombination av rörelse- och produktbokföringsmallar kan du tilldela en specifik uppsättning redovisningskonton. Detta betyder att du till exempel kan bokföra försäljningen av samma artikel på olika försäljningskonton i redovisningen eftersom kunder tilldelas olika rörelsebokföringsmallar. Ställ in dessa konfigurationer på sidan **Bokföringsinställningar**. |
 
-## Specifika bokföringsmallar
+## <a name="specific-posting-groups"></a>Specifika bokföringsmallar
 
 I tabellen nedan beskrivs de bokföringsmallar som är specifika för datatyper.
 
@@ -50,7 +50,7 @@ I tabellen nedan beskrivs de bokföringsmallar som är specifika för datatyper.
 | Bokföringsmallar för bankkonto |Definiera redovisningskonton som bank-kontotransaktioner bokförs på. Detta kan till exempel förenkla processer för att spåra transaktioner och stämma av bankkonton. Ställ in dessa bokföringsmallar på sidan **Bokföringsmallar för bankkonto**. Vi rekommenderar att redovisningskontona har fältet **Direkt bokföring** inställt på *Nej*. |
 | Bokföringsmallar för anläggningstillgångar |Definiera konton för olika typer av utgifter och kostnader som t. ex. förvärvskostnader, ackumulerade avskrivningsbelopp, förvärvskostnader vid avyttring, ackumulerad avskrivning vid avyttring, vinster vid avyttring, förluster vid avyttring, underhållskostnader och avskrivningsutlägg. Ställ in dessa bokföringsmallar på sidan **Anl.bokföringsmallar**. |
 
-### Tillåta ersättningsbokföringsmallar för kunder eller leverantörer i dokument
+### <a name="allow-substitute-customer-or-vendor-posting-groups-on-documents"></a>Tillåta ersättningsbokföringsmallar för kunder eller leverantörer i dokument
 
 Du kan låta användarna välja andra kund- och leverantörsbokföringsmallar än standardgrupper när de arbetar med försäljnings- eller inköpsdokument och -journaler.
 
@@ -62,7 +62,7 @@ När du har skapat detta kan du välja mellan de tillåtna ersättningsbokförin
 
 Om till exempel en faktura och betalning som bokförs med olika kund- eller leverantörsbokföringsmallar tillämpas (olika redovisningskonton) överför [!INCLUDE[prod_short](includes/prod_short.md)] beloppen mellan redovisningskontona för att balansera dem.
 
-## Momsbokföringsmallar
+## <a name="tax-posting-groups"></a>Momsbokföringsmallar
 
 I följande tabell beskrivs de momsrelaterade bokföringsmallarna.
 
@@ -74,7 +74,7 @@ I följande tabell beskrivs de momsrelaterade bokföringsmallarna.
 
 Om landet/regionen använder mervärdesskatt (moms), se [Konfigurera beräkningar och bokföringsmetoder för mervärdesskatt](finance-setup-vat.md).  
 
-## Exempel på koppling av bokföringsmallar
+## <a name="example-of-linking-posting-groups"></a>Exempel på koppling av bokföringsmallar
 
 Här är ett scenario.  
 
@@ -97,11 +97,11 @@ När du skapar ett försäljningsdokument använder försäljningshuvud kundkort
 
 Inställningen avgör när bokföring sker. När är exempelvis timing påverkas av periodiska aktiviteter, som till exempel bokföra lagerkostnad eller justera kost. – artikeltrans.
 
-## Kopiera bokföringsinställningsrader
+## <a name="copy-posting-setup-lines"></a>Kopiera bokföringsinställningsrader
 
 Ju fler produkt- och rörelsebokföringsmallar du har, desto fler rader ser du på sidan **Allmänna bokföringsinställningar**. Det kan finnas många olika kombinationer av rörelse- och produktbokföringsmallar, men olika kombinationer kan fortfarande bokföras till samma redovisningskonton. Om du vill begränsa andelen manuell inmatning kopierar du redovisningskontona från en befintlig rad på sidan **Generella bokföringsinställningar**.
 
-## Skapa inläggsgrupper när du är på språng
+## <a name="set-up-posting-groups-on-the-go"></a>Skapa inläggsgrupper när du är på språng
 
 För att användarna ska komma igång snabbare kan [!INCLUDE[prod_short](includes/prod_short.md)] visa meddelanden om redovisningskonton som saknas i olika konfigurationer för bokföringsmallar. För att få dessa meddelanden, se till att meddelandet **Redovisningskonto saknas i bokföringsmall eller inställningar** väljs på sidan **Mina meddelanden**, som du kan komma åt från fältet **Ändra när jag får meddelanden** på sidan **Mina inställningar**.  
 
@@ -114,7 +114,7 @@ På så sätt får du ett meddelande när du arbetar med ett dokument som använ
 
 Från och med 2022 års utgivningscykel 1 kan du använda fältet **Spärrat** i fönstret **Bokföringsinställningar** för att förhindra att användare av misstag använder en konfiguration som inte längre är relevant för nya bokföringar.  
 
-## Felsökning av bokföringsmallfel
+## <a name="troubleshooting-posting-group-errors"></a>Felsökning av bokföringsmallfel
 
 Bokföringsmallar är ett av de mer avancerade koncepten som du ställer in i [!INCLUDE[prod_short](includes/prod_short.md)]. Om de inte är korrekt konfigurerade kan fel uppstå vid bokföring av dokument eller journalrader. Dessa fel orsakas exempelvis vanligen av ett misstag i hur redovisningskonton tilldelas eller hur bokföringsmallar kombineras.
 
@@ -123,7 +123,7 @@ Om något är fel visar [!INCLUDE[prod_short](includes/prod_short.md)] sidan **f
 > [!NOTE]
 > Fel hanteringen som beskrivs ovan är inte tillgänglig för artikel-, resurs-, personal- och anläggningstillgångsjournaler eller för redovisningskonton som lagts till i lokala versioner av bokföringsmallar.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Huvudbok och kontolista](finance-general-ledger.md)  
 [Ställa in Finance](finance-setup-finance.md)  
