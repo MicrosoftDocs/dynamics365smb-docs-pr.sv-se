@@ -3,19 +3,19 @@ title: Skapa en ny operationsföljd
 description: En genom gång för att lära dig att ange all information för en ny operationsföljd manuellt i Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Genomgång: Skapa en ny operationsföljd
+# Genomgång: Skapa en ny operationsföljd
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demonstrationsdata för att konfigurera en ny operationsföljd för produktion manuellt i [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Oscar, processteknikern på Contoso Coffee, bestämmer sig för att skapa en ny operationsföljd med namnet *Ny sökväg*. Eftersom operationsföljden inte fungerar som någon annan operationsföljd på Contoso Coffee måste Oscar manuellt ange all information för operationsföljden.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa huvudet för operationsföljden.  
 
@@ -54,6 +54,6 @@ Oscar, processteknikern på Contoso Coffee, bestämmer sig för att skapa en ny 
 
 Den nya operationsföljden har nu konfigurerats.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

@@ -3,20 +3,20 @@ title: Kombinera automatisk och manuell "flushing"
 description: Genomgång för en produktionsplanerare på Contoso Coffee som vill kombinera automatisk och manuell "flushing".
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Genomgång: Kombinera automatisk och manuell "flushing"
+# Genomgång: Kombinera automatisk och manuell "flushing"
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demonstrationsdata inom "flushing".  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya produktionsordern för tio enheter av artikeln SP-SCM1004, AutoDrip. Vissa komponenter och åtgärder "flushas" framåt, andra bakåt baserat på olika villkor.
 
-## <a name="steps"></a>Steg
+## Steg
 
 > [OBS!] Kom ihåg att justera lagret genom att bokföra artikel journal med ingående balans.
 
@@ -103,7 +103,7 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du måste skapa den nya
 
 Det var allt för manuell och automatisk "flushing" av komponenter.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 ["Flusha" komponenter utifrån verksamhetens utflöde](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduktion till demonstrationsdata för Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

@@ -3,22 +3,22 @@ title: Skapa en fast planerad produktionsorder och ändra den
 description: Genomgången för en produktionsplanerare på Contoso Coffee som vill skapa en fast planerad produktionsorder och sedan ändra den.
 ms.date: 12/12/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Genomgång: Skapa en fast planerad produktionsorder och ändra den
+# Genomgång: Skapa en fast planerad produktionsorder och ändra den
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata för att arbeta med produktionsorder.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Eduardo, produktionsplanerare på Contoso Coffee, måste skapa en ny produktionsorder för 10 enheter av artikeln **SP-SCM1009, Airpot** som måste betalas den 28 april. Eduardo bakåtplanerar detta och bekräftar att de kan starta ordern den 27 april.  
 
 Kort efter att han är klar med denna uppgift ombeds Eduardo att öka ordern till 50 enheter. När han gör det, flyttar funktionen för bakåtplanering startdatumet för ordern till en för tidig tidpunkt. Eduardo framåtbokar då ordern från den 23 april för att fastställa ett mer realistiskt slutdatum.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa den första produktionsordern för 10 enheter av artikeln **SP-SCM1009, Airpot**.
 
@@ -58,6 +58,6 @@ Kort efter att han är klar med denna uppgift ombeds Eduardo att öka ordern til
 
 Den nya produktionsordern har nu skapats, och Eduardos krav har uppfyllts.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

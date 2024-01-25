@@ -4,13 +4,13 @@ description: Lära dig mer om olika sätt att använda distributionslagerinförs
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Föra in artiklar med lagerartikelinförsel
+# Föra in artiklar med lagerartikelinförsel
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ta emot objekt och lägga undan dem med någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -31,7 +31,7 @@ Beroende på värdet i fältet **Använd artikelinförselkalkylark** i **Lagerst
 
 Förutom standardsätten att skapa artikelinförslar i distributionslagret, som beskrivs i den här artikeln, kan du skapa en artikelinförsel från den relaterade bokförda distributionslagerinleveransen. Detta är användbart om har tagit bort artikelinförselrader, eller om du bestämmer dig för att inte använda artikelinförselkalkylarket, kan du skapa eller på nytt skapa artikelinförselanvisningar för bokförda inleveransrader.
 
-## <a name="zone-and-bin-codes"></a>Zon och lagerplatskoder
+## Zon och lagerplatskoder
 
 Vid lagerställen som är inställt på dirigerad artikelinförsel och plockning, följande inställningar är krävs för att bestämma den bästa platsen att föra in artiklarna:  
 
@@ -41,7 +41,7 @@ Vid lagerställen som är inställt på dirigerad artikelinförsel och plockning
 
 Lagerplatsordning används när mer än en lagerplats matchar kriterierna i artikelinförselmallen. Om både villkoren i artikelinförselmallen och lagerplatsordningen är samma för fler än en lagerplats väljs den lagerplats som har högst nummer.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Så här skapar du artikelinförseldokumenten i bulk med artikelinförselkalkylarket
+## Så här skapar du artikelinförseldokumenten i bulk med artikelinförselkalkylarket  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -77,7 +77,7 @@ Du kan skapa artikelinförseldokumenten för flera inleveranser samtidigt på si
 
 8. Välj **OK** för att skapa artikelinförsel.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Att skapa en artikelinförsel från en bokförd inleveransen
+## Att skapa en artikelinförsel från en bokförd inleveransen
 
 Om man använder både bearbetning av artikelinförsel och inleverans för lagerstället, måste du ta bort artikelinförselrader. Om du använder dirigerad artikelinförsel och plockning och har bestämt dig för att inte använda artikelinförselförslaget, kan du skapa eller på nytt skapa artikelinförselanvisningar för bokförda inleveransrader.
 
@@ -90,7 +90,7 @@ Om man använder både bearbetning av artikelinförsel och inleverans för lager
 4. Om inleveransen har införts delvis eller inte alls väljer du åtgärden **Skapa artikelinförsel**.  
 5. Fyll i fälten på efter behov och välj sedan knappen **OK**.  
 
-## <a name="to-put-items-away"></a>Att införa artiklar
+## Att införa artiklar
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Lagerartikelinförsel** och väljer sedan relaterad länk.
 
@@ -114,7 +114,7 @@ Om man använder både bearbetning av artikelinförsel och inleverans för lager
 
 5. När du har placerat alla artiklarna på lagerställen enligt anvisningarna, välj åtgärden **Registrera artikelinförsel**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

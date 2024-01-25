@@ -7,13 +7,13 @@ ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
 ms.date: 09/11/2023
 ms.author: jswymer
 ms.review: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Snabbguide för kortkommandon – endast dator
+# Snabbguide för kortkommandon – endast dator
 
-#### <a name="general"></a>Allmänt
+#### Allmänt
 
 |Välj dessa tangenter|Om du vill|  
 |-|-|
@@ -40,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd>|Flytta fokus till nästa/föregående element|
 |<kbd>F6</kbd>/<kbd>Shift</kbd>+<kbd>F6</kbd>|Flytta till nästa snabbflik/del|
 
-#### <a name="navigate--select-rows"></a>Navigera och markera rader
+#### Navigera och markera rader
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
@@ -54,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Markera synliga rader ovanför/nedanför|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Fokusera ut från listan|
 
-#### <a name="copy--paste"></a>Kopiera och klistra in
+#### Kopiera och klistra in
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopiera/klistra in rader|
 |<kbd>F8</kbd>|Kopiera fält ovan till aktuell rad|
 
-#### <a name="search-filter--sort"></a>Sök, filtrera och sortera
+#### Sök, filtrera och sortera
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
@@ -72,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Shift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Lägg till filter i markerat fält fält|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>F3</kbd>|Återställ filter|
 
-#### <a name="quick-entry"></a>Snabbinmatning
+#### Snabbinmatning
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd>|Gå till nästa snabbinmatningsfält utanför en lista|
 |<kbd>Enter</kbd>/<kbd>Shift</kbd>+<kbd>Enter</kbd>|Gå till nästa/föregående snabbinmatningsfält|
 
-##### <a name="report-preview"></a>Förhandsgranskning av rapport
+##### Förhandsgranskning av rapport
 
 |Välj dessa tangenter|Om du vill|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Gå till första/sista sidan|
 
-#### <a name="numeric-keypad"></a>Numeriskt tangentbord
+#### Numeriskt tangentbord
 
 |Välj dessa tangenter|Om du vill|  
 |-|-|

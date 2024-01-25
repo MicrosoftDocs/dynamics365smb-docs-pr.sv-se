@@ -3,21 +3,21 @@ title: Skapa en ny produktionsstruktur och strukturversion
 description: En genomgång för att lära dig hur du lägger till en ny kaffemaskin i Contoso Coffees produktlinje i Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Genomgång: Skapa en ny produktionsstruktur och strukturversion
+# Genomgång: Skapa en ny produktionsstruktur och strukturversion
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demonstrationsdata för att arbeta med strukturlistor i produktionsprocesser.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Contoso Coffee har beslutat att lägga till ytterligare en kaffemaskin i sin produktlinje: **SP-SCM1008 Airpot lite**. Denna kaffemaskin är identisk med den befintliga artikeln **SP-SCM1009 Airpot**, förutom att värmeplattan, **SP-BOM1104**, inte ingår. I ett separat steg tas på/av-ljuset, **SP-BOM1106**, bort för en bersion av Airpot Lite-strukturen.
 
 Oscar, processteknikern på Contoso Coffee, måste skapa en ny produktionsstruktur för att definiera de ursprungliga komponentbehoven för Airpot Lite. Oscar måste sedan skapa en ny sturkturversion med startdatumet 1 juli för att matcha ytterligare planer för släpp av en kommande utgåva.
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa en ny produktionsstruktur för Airpot Lite.
 
@@ -72,6 +72,6 @@ Oscar, processteknikern på Contoso Coffee, måste skapa en ny produktionsstrukt
 
 Den nya kaffemaskinen har nu konfigurerats som en produktionsstruktur med en enda version.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

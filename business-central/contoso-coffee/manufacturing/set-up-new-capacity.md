@@ -3,20 +3,20 @@ title: Skapa en ny kapacitet
 description: En genomgång för att lära dig hur du lägger upp en ny produktionsgrupp med en kapacitetskalender för ett enda skift i Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a>Genomgång: Skapa en ny kapacitet
+# Genomgång: Skapa en ny kapacitet
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata i hur du hanterar kapacitet.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Som svar på förändringar på verkstadsgolvet måste du skapa ett nytt arbetscenter, Testavdelningen. Den nya produktionsgruppen har en maskingrupp, test. De nya centren måste ha en kapacitetskalender för ett enstaka skift från 08:00:00 till 16:00:00, måndag till fredag.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Så här skapar du produktionsgrupper.
 
@@ -84,6 +84,6 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Som svar på förändri
 
 På sidan **kalendertransaktioner** är de dagliga kapacitets transaktionerna i fältet **kapacitet (total)** är 480 minuter. Detta återspeglar ett åtta timmars skift för varje arbetsdag. Dessutom visar fältet **kapacitet (effektiv)** visar 432 minuter. Detta motsvarar den 90 procents effektivitetsgrad som du har tilldelat maskingruppen.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

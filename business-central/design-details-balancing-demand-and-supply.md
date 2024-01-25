@@ -4,12 +4,12 @@ description: I den här artikeln beskrivs hur du prioriterar mål genom att bala
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/15/2022
 ms.custom: bap-template
 ---
-# <a name="design-details-balancing-supply-and-demand"></a>Designdetaljer: Balansera efterfrågan och tillgång
+# Designdetaljer: Balansera efterfrågan och tillgång
 
 För att förstå hur planeringssystemet fungerar är det viktigt att du förstår att det är prioriterade mål:  
 
@@ -18,7 +18,7 @@ För att förstå hur planeringssystemet fungerar är det viktigt att du först�
 
 Allmänt kan dessa mål uppnås genom att balansera tillgång med efterfrågan.  
 
-## <a name="supply-and-demand"></a>Tillgång och efterfrågan
+## Tillgång och efterfrågan
 
 Begreppet *leverans* avser alla typer av positiv eller ankommande kvantitet, till exempel:
 
@@ -46,7 +46,7 @@ När lagerprofiler laddas balanseras uppsättningarna med efterfrågan-tillgång
 
 Lagernivåer och planeringsparametrar är andra typer av tillgång och efterfrågan. Dessa typer genomgår integrerad motkontering för att fylla på lagerartiklar. Läs mer på [Designdetaljer: Hanterapartiformningsmetoder](design-details-handling-reordering-policies.md).
 
-## <a name="the-concept-of-balancing-in-brief"></a>Begreppet motkonto i korthet
+## Begreppet motkonto i korthet
 
 Efterfrågan kommer från kunderna. Tillgång är det som du kan skapa och ta bort för att fastställa saldo. Planeringssystemet börjar med efterfrågan och spårar sedan tillbaka till tillgången.  
 
@@ -56,7 +56,7 @@ Syftet med planering är att balansera tillgång och efterfrågan för en artike
 
 :::image type="content" source="media/nav_app_supply_planning_2_balancing.png" alt-text="Översikt över balansering av tillgång och efterfrågan.":::
 
-## <a name="process-orders-before-the-planning-start-date"></a>Hantera order före planeringsstartdatumet
+## Hantera order före planeringsstartdatumet
 
 För att undvika att en leveransplan visar orimliga förslag, kommer planeringssystemet inte att planera något under perioden före planeringsstartdatumet. Följande regel gäller för den perioden:
 
@@ -70,11 +70,11 @@ Med ett par undantag kommer planeringssystemet inte att föreslå några ändrin
 
 Om det ursprungliga tillgängliga lagret är lägre än noll föreslår planeringssystemet en nödleveransorder leveransorder på dagen före planeringsperioden för att täcka det antal som saknas. Därför kommer det planerade och tillgängliga lagret alltid att vara minst noll när planeringen för den framtida perioden börjar. Planeringsraden för leveransordern ska innehålla en nödvarningsikon och ge ytterligare information.
 
-### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period"></a>Serie- och partinummer och order-till-order-länkar är undantagna från föregående period
+### Serie- och partinummer och order-till-order-länkar är undantagna från föregående period  
 
 Om serie- eller partinummer krävs eller om det finns en order-till-order-länk ignoreras regeln om föregående period. Det omfattar bakåtdaterade kvantiteter från startdatumet och kan föreslå korrigerande åtgärder om tillgång och efterfrågan inte synkroniseras. Dessa uppsättningar med efterfrågan-tillgång måste stämma överens för att säkerställa att en viss efterfrågan uppfylls.
 
-## <a name="load-inventory-profiles"></a>Läsa in lagerprofiler
+## Läsa in lagerprofiler
 
 För att sortera källorna till tillgång och efterfrågan ordnar planeringssystemet dem på två tidslinjer som kallas lagerprofiler.  
 
@@ -98,7 +98,7 @@ I allmänhet betraktar planeringssystemet alla leveransorder efter planeringssta
 
 Förutom att ladda typerna med tillgång och efterfrågan, laddas vissa typer med hänsyn till speciella regler och beroenden. I följande avsnitt beskrivs dessa regler och beroenden.  
 
-### <a name="item-dimensions-are-separated"></a>Artikeldimensioner är separerade
+### Artikeldimensioner är separerade  
 
 Leveransplanen måste beräknas per kombination av artikeldimensioner, till exempel variant och lagerställe. Endast de kombinationer med ett efterfrågan och/eller tillgång måste beräknas.  
 
@@ -107,7 +107,7 @@ I planeringssystemet sker en sökning efter kombinationer i lagerprofilen. När 
 > [!NOTE]  
 > Du måste inte ange en lagerställeenhetspost när du anger efterfrågan och/eller tillgång för en viss kombination av variant och lagerställe. Om en lagerställeenhet inte finns för en viss kombination skapar [!INCLUDE [prod_short](includes/prod_short.md)] sin egna tillfälliga lagerställeenhetspost som baseras på data från artikeln. Om växlingsknappen **Lagerställe ska finnas** aktiveras för **sidan Lagerinställningar** måste du antingen skapa en lagerställeenhet eller aktivera växlingsknappen **Komponenter vid lagerställe**. Läs mer på [Planera med och utan lagerställen](production-planning-with-without-locations.md).  
 
-### <a name="serial-and-lot-numbers-are-loaded-by-specification-level"></a>Serie- och partinummer läses in efter specifikationsnivå
+### Serie- och partinummer läses in efter specifikationsnivå  
 
 Serie- och partinummer läses in i lagerprofilerna tillsammans med tillgång och efterfrågan som de har tilldelats.  
 
@@ -122,7 +122,7 @@ En annan orsak till varför serie- och partipartinumrerad efterfrågan är oböj
 
 Balansering av serie- och partinummer respekterar inte regeln om att inte planera någonting före planeringens startdatum. Om tillgång och efterfrågan inte är synkroniserade föreslår planeringssystemet ändringar eller förslår nya order oberoende av startdatumet för planeringen.  
 
-### <a name="order-to-order-links-are-never-broken"></a>Order-till-order-länkar bryts aldrig
+### Order-till-order-länkar bryts aldrig
 
 När du planerar en order-till-order-artikel får den länkade tillgången endast användas för vad den ursprungligen ämnades för. Den länkade efterfrågan ska inte täckas av någon annan tillgång, även om tillgången är tillgänglig vad gäller tid och antal. Exempelvis kan du inte använda en monteringsorder som är kopplad till en försäljningsorder i ett scenario för montering mot kundorder för att täcka annan efterfrågan.  
 
@@ -136,17 +136,17 @@ Denna motkontering påverkar också tidsplanen. Den begränsade horisonten som a
 > [!NOTE]  
 > Prognoser ska inte leda till att skapa leveransorder som är bundna av en order-till-order-länk. Om prognosen används den bör endast användas som för att skapa av härledd efterfrågan i en produktionsmiljö.
 
-### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Komponentbehov läses in enligt produktionsorderändringar
+### Komponentbehov läses in enligt produktionsorderändringar
 
 När du arbetar med produktionsorder måste planeringssystemet övervaka de nödvändiga komponenterna innan du laddar dem i begäranprofilen. Komponentrader som skapas från en ändrad produktionsorder ersätter rader från den ursprungliga beställningen. Ändringen säkerställer att planeringssystemet inte duplicerar planeringsrader för ett komponentbehov.  
 
-### <a name="consume-safety-stock"></a>Förbruka säkerhetslager
+### Förbruka säkerhetslager
 
 Antalet i säkerhetslager är en efterfrågan och laddas i lagerprofilen på planeringsstartdatumet.  
 
 Säkerhetslager är en lagerkvantitet som läggs undan för att uppfylla osäkerheter i efterfrågan under påfyllning. Men den kan förbrukas för att uppfylla en efterfrågan. I så fall säkerställer planeringssystemet att säkerhetslagret ersätts snabbt. Systemet föreslår en leveransorder för att fylla på säkerhetslagret på det datum som det förbrukas. Planeringsraden visar en ikon för en undantagsvarning som indikerar att säkerhetslagret delvis eller helt förbrukats och måste fyllas på genom en undantagsorder för det saknade antalet.  
 
-### <a name="forecast-demand-is-reduced-by-sales-orders"></a>Prognostiserad efterfrågan minskas av försäljningsorder
+### Prognostiserad efterfrågan minskas av försäljningsorder
 
 Efterfrågeprognosen uttrycker förutsedd framtida efterfrågan. Medan den faktiska efterfrågan anges, vanligtvis som försäljningsorder för producerade artiklar, förbrukar den prognosen.
 
@@ -163,13 +163,13 @@ Prognosen kan vara för olika typer av efterfrågan:
 
 En artikel kan ha båda typerna av prognos. Under planeringen sker förbrukningen separat, först för härledd efterfrågan och sedan för icke härledd efterfrågan.  
 
-### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Avropsorderbegäran minskas med försäljningsorder
+### Avropsorderbegäran minskas med försäljningsorder
 
 Prognostisering kompletteras av avropsorder för försäljning som ett sätt att ange framtida efterfrågan från en specifik kund. Som med den (ospecificerade) prognosen bör de faktiska försäljningarna förbruka den förutsedda efterfrågan, och det återstående antalet ska ingå i lagerprofilen för efterfrågan. Förbrukningen minskar inte avropsorderantalet.
 
 Planeringsberäkningen inkluderar öppna försäljningsorder länkade till den specifika avropsorderraden, men inte någon giltig tidsperiod. Den inkluderar inte heller den bokförda ordern eftersom bokföringsproceduren redan har reducerat det utestående avropsorderantalet.
 
-## <a name="prioritize-orders"></a>Prioritera order
+## Prioritera order
 
 Inom ett visst SKU motsvarar det begärda eller tillgängliga datumet den högsta prioriteten. Dagens efterfrågan bör behandlas före nästa veckas efterfrågan. Förutom den övergripande prioriteten, kommer planeringssystemet att göra följande förslag enligt orderprioriteter:
 
@@ -178,7 +178,7 @@ Inom ett visst SKU motsvarar det begärda eller tillgängliga datumet den högst
 
 Den laddade tillgången och efterfrågan bidrar till en profil för planerade lagret enligt prioriteter.  
 
-### <a name="priorities-on-the-demand-side"></a>Prioriteter på efterfråganssidan
+### Prioriteter på efterfråganssidan  
 
 1. Redan levererat: Artikeltransaktion  
 2. Inköpsreturorder  
@@ -193,7 +193,7 @@ Den laddade tillgången och efterfrågan bidrar till en profil för planerade la
 > [!NOTE]  
 > Köpreturer ingår vanligtvis inte i tillförselplanläggning; de ska alltid reserverats från partiet som ska returneras. Om de inte har reserverats spelar inköpsreturer en roll i dispositionen och är högt prioriterade för att undvika att planeringssystemet föreslår en leveransorder bara för att hantera en inköpsretur.  
 
-### <a name="priorities-on-the-supply-side"></a>Prioriteter på tillgångssidan
+### Prioriteter på tillgångssidan  
 
 1. Finns redan i lager: Artikeltransaktion (Planeringsflexibilitet = Ingen)  
 2. Försäljningsreturorder (planeringsflexibilitet = ingen)  
@@ -202,7 +202,7 @@ Den laddade tillgången och efterfrågan bidrar till en profil för planerade la
 5. Monteringsorder  
 6. Inköpsorder  
 
-### <a name="priority-related-to-the-state-of-supply-and-demand"></a>Prioritet kopplad till status för tillgång och efterfrågan
+### Prioritet kopplad till status för tillgång och efterfrågan  
 
 Utöver prioriteterna från typen av tillgång och efterfrågan finns det andra saker som påverkar planeringens flexibilitet. Till exempel lageraktiviteter och status för följande order:
 
@@ -220,7 +220,7 @@ Status för dessa order har följande effekter:
 4. Fast planerad produktionsorder (Planeringsflexibilitet = Obegränsad)  
 5. Planerad/öppen – alla ordertyper (Planeringsflexibilitet = Obegränsad)
 
-## <a name="balancing-supply-with-demand"></a>Balansera tillgång med efterfrågan
+## Balansera tillgång med efterfrågan
 
 Planeringssystemet balanserar tillgång och efterfrågan genom att föreslå åtgärder för att ändra leveransorder som inte är balanserade. Balanseringen inträffar för varje kombination av variant och lagerställe.  
 
@@ -254,7 +254,7 @@ Varje händelse refererar till sin ursprungstyp och sitt id. Reglerna för balan
 
  Du startar om med nästa efterfrågan och den aktuella tillgången eller vice versa. Den aktuella tillgången kan kanske täcka även nästa efterfrågan, eller den aktuella efterfrågan inte ännu inte har täckts helt.  
 
-### <a name="rules-for-actions-for-supply-events"></a>Regler om åtgärder för tillgångshändelser
+### Regler om åtgärder för tillgångshändelser
 
 För beräkningar uppifrån och ned där tillgång måste uppfylla efterfrågan, tas efterfrågan för given. Det ligger utanför planeringssystemets kontroll. Däremot kan planeringssystemet hantera försörjningssidan och göra följande förslag:
 
@@ -297,7 +297,7 @@ I allmänhet har totala tillgång en planeringsflexibilitet som begränsas av vi
 * **Annullera**: Som ett specialfall av åtgärden minska antal kan leveransordern annulleras om den har minskats till noll. 
 * **Ny**: Om ingen leveransorder finns, eller en befintlig inte kan ändras så att den uppfyller kvantiteten som krävs på förfallodatumet, föreslås en ny leveransorder.  
 
-### <a name="determine-the-supply-quantity"></a>Fastställa tillgångsantalet
+### Fastställa tillgångsantalet  
 
 Du definierar planeringsparametrar som styr det föreslagna antalet för varje leveransorder.  
 
@@ -311,7 +311,7 @@ Det föreslagna antalet kan ändras i den här sekvensen:
 2. Upp till minsta partistorlek  
 3. Upp till den närmaste ordermultipeln.
 
-### <a name="order-tracking-links-during-planning"></a>Orderspårninglänkar under planering
+### Orderspårninglänkar under planering  
 
 För orderspårning under planering ordnar planeringssystemet om orderspårninglänkarna för kombinationerna av artiklar, varianter och lagerställen. Systemet ordnar om spårningslänkarna av följande anledningar:
 
@@ -325,7 +325,7 @@ Innan tillgången balanseras efter efterfrågan tar planeringssystemet bort alla
 > [!NOTE]  
 > Även om artikeln inte ställts in för dynamisk orderspårning skapar planeringssystemet balanserade orderspårningslänkar.
 
-## <a name="close-balanced-supply-and-demand"></a>Stäng balanserad tillgång och efterfrågan
+## Stäng balanserad tillgång och efterfrågan
 
 Balanserad tillgång har tre möjliga resultat:
 
@@ -335,7 +335,7 @@ Balanserad tillgång har tre möjliga resultat:
 
 Till sist skapar planeringssystemet en orderspårninglänk mellan tillgång och efterfrågan.  
 
-### <a name="create-the-planning-line-suggested-action"></a>Skapa planeringsraden (föreslagen åtgärd)
+### Skapa planeringsraden (föreslagen åtgärd)  
 
 Om åtgärden **Nytt**, **Ändra antal**, **Omplanera**, **Omplanera och ändra antal** eller **Avbryt** föreslås för att granska leveransordern, planeringssystemet skapar en planeringsrad i planeringsförslaget. För orderspårning skapas planeringsraden inte bara när leveranshändelsen är stängd, utan även om efterfrågehändelsen är stängd. Detta gäller även om leveranshändelsen fortfarande är öppen och kan ändras när nästa efterfrågehändelse bearbetas. Planeringsraden kan ändras igen när den skapas.
 
@@ -345,7 +345,7 @@ Om du vill minska belastningen på databasen när du hanterar produktionsorder k
 * Inkludera verksamhetsföljd: den planerade verksamhetsföljden inkluderar beräkning av start- och slutdatum och tidpunkter. Inkludera verksamhetsföljd är fordrande i termer av databasåtkomster. För att fastställa slut- och förfallodatum kan det vara nödvändigt att beräkna verksamhetsföljden även om tillförselhändelsen inte har stängts. Om du till exempel utför planeringen framåt.  
 * Ta med strukturexpansion: kan ske precis före tillgångshändelsen är avslutad.
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Designdetaljer: Centrala koncept i planeringssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designdetaljer: Hantera partiformningsmetoder](design-details-handling-reordering-policies.md)  

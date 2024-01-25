@@ -3,13 +3,13 @@ title: Introduktion till produktion för Contoso Coffee
 description: Översikt över scenarier som kan vara till hjälp när demonstrationsdatan för Contoso Coffee ska hjälpa dig lära dig hur du använder produktionsfunktionerna i Business Central.
 ms.date: 04/01/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '4765,'
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduktion till produktion för Contoso Coffee
+# Introduktion till produktion för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-apparna för Business Central lägger till demonstrationsdata som du kan använda för att lära dig använda produktionsfunktionerna i Business Central.  
 
@@ -36,7 +36,7 @@ Tillverkningsaktiviteterna för alla scenarier använder platsen *HUVUD*.
 > [!IMPORTANT]
 > Innan du kör något av scenarierna för Contoso Coffee bokför du eventuella artikeljournalrader med ingående balanser. Mer information finns i avsnittet [Konfigurera data för Contoso Coffee](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Ställ in data för produktion för Contoso Coffee
+## Ställ in data för produktion för Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,7 +47,7 @@ Tillverkningsaktiviteterna för alla scenarier använder platsen *HUVUD*.
 
 Välj åtgärden **Skapa demonstrationsdata** när du är klar. Det tar några minuter att lägga till data i den underliggande databasen, men sedan är det dags att köra de olika scenarierna.  
 
-## <a name="scenarios"></a>Scenarierna
+## Scenarierna
 
 Demonstrationsdata för produktion för Contoso Coffee stöder för närvarande följande produktionsscenarier för test och utbildning:
 
@@ -65,7 +65,7 @@ Läs stegen för respektive scenario i den relevanta artikeln.
 > [!IMPORTANT]
 > Dessa genomgångar kräver att användarupplevelsen är inställd på *Premium* på sidan **Företagsinformation**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsrapporter och analyser i Business Central](../../production-reports.md)  

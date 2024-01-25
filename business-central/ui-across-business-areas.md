@@ -4,12 +4,12 @@ description: Lär dig om de funktioner som används över flera olika affärsomr
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality"></a>Allmänna affärsfunktioner
+# Allmänna affärsfunktioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ger en dedikerad funktion för vanliga affärsområden, till exempel ekonomi och försäljning. Mer information finns i [Affärsfunktioner](across-business-functionality.md).
 
@@ -45,7 +45,7 @@ I tabellen nedan anges dessa allmänna affärsområden med länkar till artiklar
 | Ställ in datautbytesdefinitioner för att skicka och ta emot elektroniska dokument. |[Utbyta data elektroniskt](across-data-exchange.md) |
 | Använd onlinekartor för att hitta platser och vägbeskrivning till kunder, leverantörer och adresser i allmänhet. | [Använd Online Map för att hitta platser och vägbeskrivningar](across-online-maps.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administration](admin-setup-and-administration.md)  

@@ -3,20 +3,20 @@ title: Använda orderplanering för att skapa och reservera leverans
 description: I genom gången för att lära dig hur du använder orderplanering för att skapa en produktionsorder som krävs för leverans i Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Genomgång: Använda orderplanering för att skapa och reservera leverans
+# Genomgång: Använda orderplanering för att skapa och reservera leverans
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata för att planera.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. Du har skapat en produktions order för 100 enheter av artikeln **SP-SCM1009, Airpot** och du vill planera del enheter för ordern. Du använder orderplanering när du vill skapa en produktionsorder som krävs för leveransen. Eftersom du skapar produktionsordern för att uppfylla kraven från en specifik order bestämmer du dig för att reservera utflödet av produktionsordern.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa den nya släppta produktionsordern för 100 enheter av artikeln **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ Du arbetar med produktionsplaneraren på Contoso Coffee. Du har skapat en produk
 
 Det är det för orderplanering i [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  
 [Om produktionsorder](../../production-about-production-orders.md)  
