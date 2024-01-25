@@ -10,7 +10,7 @@ ms.date: 12/20/2022
 ms.custom: bap-template
 ms.search.forms: '9326, 99000831, 9315, 7375'
 ---
-# Föra in produktions- eller monteringsutflöde
+# <a name="put-away-production-or-assembly-output"></a>Föra in produktions- eller monteringsutflöde
 
 Hur du för in utflöde från produktionen beror på hur distributionslagret har ställts in som lagerställe. Läs mer på [Ställa in lagerstyrning](warehouse-setup-warehouse.md).  
 
@@ -21,11 +21,11 @@ I grundläggande lagerkonfigurationer där ditt lagerställe kräver bearbetning
 
 I avancerade lagerkonfigurationer där ditt lagerställe kräver både artikelinförsel- och inleveransbearbetning skapar du antingen ett internt artikelinförseldokument eller ett transportdokument för att föra in utflödet.  
 
-## Så här för du in produktionsutflöde med lagerartikelinförsel
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Så här för du in produktionsutflöde med lagerartikelinförsel
 
 Det första steget när du inför utflöde är att skapa det inkommande distributionslagerkravet. Förfrågan informerar distributionslagret att produktions- eller monteringsordern utflöde är klart för artikelinförsel.
 
-### Så här skapar du det inkommande distributionslagerkravet  
+### <a name="to-create-the-inbound-warehouse-request"></a>Så här skapar du det inkommande distributionslagerkravet
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Utsläppta produktionsorder** och väljer sedan relaterad länk.  
 2. Välj produktionsordern som är klar för artikelinförsel och sedan väljer du åtgärden **Skapa inkommande dist.lagerbegäran**.  
@@ -33,7 +33,7 @@ Det första steget när du inför utflöde är att skapa det inkommande distribu
 > [!NOTE]  
 > Du kan också skapa inkommande distributionslagerkrav genom att välja fältet **Skapa inkommande begärande** när du uppdaterar produktionsordern. Läs mer på [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md).  
 
-### Så här för du in utflöde med Lagerartikelinförsel:  
+### <a name="to-put-output-away-with-an-inventory-put-away"></a>Så här för du in utflöde med Lagerartikelinförsel:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Lagerinförsel** och väljer sedan relaterad länk.  
 2. Skapa en ny lagerinförsel. Läs mer på [Föra in artiklar med lagerartikelinförsel](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,14 +49,14 @@ När du bokför en lagerinförsel antas det att alla åtgärder bokförs enligt 
 
 Om “Omställning, bearbetningstid” för den sista åtgärden måste bokföras, anger du utflödesantalet för den sista åtgärden till 0. Du kan välja att inte bokföra den sista raden alls genom att ta bort den.
 
-## För att föra in monterings- eller produktionsutflöde i avancerade distributionslagerkonfigurationer
+## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>För att föra in monterings- eller produktionsutflöde i avancerade distributionslagerkonfigurationer
 
 När du bokför utflöde från produktion eller monteringsorder på det lagerställe som använder dirigerad artikelinförsel och plockning, placeras utflödet på den lagerplats som definierats i produktions- eller monteringsordern. Lära dig mer om olika sätt att flytta artiklar i distributionslagret med avancerade konfigurationer, gå till [Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 
 > [!NOTE]  
 > Du kan inte ange källdokumentnumret, t.ex. produktionsordernumret, i dokument för intern artikelinförsel, artikelinförsel eller transport för processer för produktions- eller monteringsutflöde.  
 
-## Se även  
+## <a name="see-also"></a>Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
