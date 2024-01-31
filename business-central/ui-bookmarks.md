@@ -3,40 +3,39 @@ title: Bokmärk länk till sida eller rapport om rollcenter
 description: Med hjälp av bokmärkesikonen kan du lägga till en åtgärd som öppnar en sida eller rapport från navigeringsmenyn i rollcentret.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Förse en sida eller rapport med ett bokmärke på ditt rollcenter
+# Förse en sida eller rapport med ett bokmärke på ditt rollcenter
 Med hjälp av bokmärkesikonen kan du lägga till en åtgärd som öppnar en sida eller rapport från navigeringsmenyn i rollcentret. Bokmärken gör att du kan snabbt nå ditt favoritinnehåll eller dina affärsuppgifter. Du lägger till bokmärket från målsidan eller rapport vilket innebär skärmen som du vill att länken i rollcentret ska öppnas på.
 
 Ikonen för bokmärket visas i det övre högra hörnet på en sida och även i fönstret **Berätta** där du kan förse flera sidor eller rapporter med ett effektivt bokmärke. Om det redan finns ett bokmärke för sidan är ikonen mörk ruta och beskrivningen visar "bokmärke".
 
-## <a name="to-bookmark-the-target-page"></a>Så här förser du målsidan med bokmärke
+## Så här förser du målsidan med bokmärke
 1. Öppna en sida som du vill ha en länk för i ditt rollcenter.
 2. Välj ikonen ![bokmärke.](media/ui_bookmark_icon.png "Bokmärke"). ikonen.
 
 Ett åtgärd med namn efter sidan läggs nu till på navigeringsmenyn i rollcentret.
 
-## <a name="to-bookmark-the-target-report"></a>Så här förser du målrapporten med bokmärke
+## Så här förser du målrapporten med bokmärke
 1. Öppna en sida för rapportförfrågan som du vill ha en länk för i ditt rollcenter.
 2. Välj ikonen ![bokmärke.](media/ui_bookmark_icon.png "Bokmärke") ikonen.
 
 Ett åtgärd med namn efter rapporten läggs nu till på navigeringsmenyn i rollcentret.
 
-## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Så här lägger du till ett bokmärke från en sida eller rapport från fönstret berätta
+## Så här lägger du till ett bokmärke från en sida eller rapport från fönstret berätta
 1. Öppna fönstret **Berätta** och ange till exempel, **försäljningsorder**.
 2. Hovra över sökresultatet för sidan eller rapporten **försäljningsorder** och välj sedan ikonen ![bokmärke.](media/ui_bookmark_icon.png "Bokmärke") ikonen.
 
 Ett åtgärd med namn efter sidan eller rapporten läggs nu till på navigeringsmenyn i rollcentret.
 
 
-## <a name="frequently-asked-questions"></a>Vanliga frågor och svar
+## Vanliga frågor och svar  
 
 - **Kan jag omorganisera mina bokmärken?**  
 Ja. Du kan anpassa rollcentret och flytta åtgärder till en mer optimal sekvens eller flytta dem till befintliga grupper eller undergrupper.  
@@ -76,7 +75,7 @@ När du lägger till en ny åtgärd kommer all översatt text som var tillgängl
 - **Varför kan jag inte lägga till text på en sida direkt efter att ha öppnat den med bokmärket?**<br> När en sida förses med ett bokmärke, öppnas alltid sidan i visningsläget från bokmärket&mdash;även om det var i redigeringsläge när det senast bokmärktes. Om du väljer ikonen **gör ändringarna på sidan** ![visas pennikonen för redigering av sidan.](media/edit-pencil.png) gör att du kan lägga till text i fält som kan redigeras.
 
 
-## <a name="see-also"></a>Se även
+## Se även
 [Anpassa din arbetsyta](ui-personalization-user.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  

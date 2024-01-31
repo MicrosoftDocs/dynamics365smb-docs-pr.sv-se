@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Använd XML-scheman för att förbereda definitioner för databyten
+# Använd XML-scheman för att förbereda definitioner för databyten
 
 Om du vill aktivera importera/exportera av data i XML-filer via ramverket för datautbyte i [!INCLUDE[prod_short](includes/prod_short.md)], kan du använda XML-schema för att definiera vilka dataelement du vill utbyta med [!INCLUDE[prod_short](includes/prod_short.md)]. Du utför detta arbete på sidan **XML-schemavisning** genom att ladda XML-schemafilen, välja tillhörande dataelement samt därefter initialisera en definition för databyte.  
 
@@ -24,7 +25,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
 - Så här skapar du en definition för datautbyte baserat på ett XML-schema  
 
-## <a name="to-load-an-xml-schema-file"></a>Så här läser du in en XML-schemafil
+## Så här läser du in en XML-schemafil
 
 1. Se till att den relevanta XML-schemafilen är tillgänglig. Filnamnstillägget är .xsd.  
 
@@ -48,7 +49,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
     > [!NOTE]  
     >  Trädet med det inlästa xml-schemat är komprimerat som standard. Du expanderar varje nod genom att välja **+** på noden. Välj **Expandera alla** på menyfliken om du vill expandera alla noder.  
 
-### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Så här markerar eller avmarkerar du noder i ett XML-schema
+### Så här markerar eller avmarkerar du noder i ett XML-schema  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Visningsprogram för XML-schema** och väljer sedan relaterad länk.  
 
@@ -86,7 +87,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 
      Fältet **Val** anger att noden har två eller fler syskonnoder som fungerar som alternativ.  
 
-### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Så här skapar du en definition för datautbyte baserat på ett XML-schema
+### Så här skapar du en definition för datautbyte baserat på ett XML-schema  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **XML-scheman** och väljer sedan relaterad länk.  
 
@@ -104,7 +105,7 @@ Om du vill aktivera importera/exportera av data i XML-filer via ramverket för d
 > [!NOTE]
 > Under 2019 års utgivningsvåg 1 kunde du generera en XMLport baserat på schemat och sedan importera denna i din lösning. Detta stöds inte längre.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa dataintegreringsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
 [Exportera betalningar till en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

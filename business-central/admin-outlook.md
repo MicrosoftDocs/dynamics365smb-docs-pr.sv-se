@@ -3,15 +3,14 @@ title: Hämta Business Central-tillägget för Outlook
 description: Lär dig installera Business Central-tillägget för Outlook för ditt företag eller för egen användning.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365, Outlook'
 ms.search.form: '1831, 1832'
 ms.date: 04/27/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Hämta Business Central-tillägget för Outlook
+# Hämta Business Central-tillägget för Outlook
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du hantera affärsinteraktioner med dina kunder och leverantörer, direkt i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tillägget kan du visa ekonomiska data som är relaterade till kunder och leverantörer. Du kan också skapa och skicka ekonomiska dokument, till exempel offerter och fakturor.  
 
@@ -21,7 +20,7 @@ Det finns två sätt att få fram Business Central-tillägget för Outlook insta
 
 - För varje användare installerar du tillägget för egen användning, om din administratör inte redan har distribuerat det åt dig.
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Om Business Central-tillägget för Outlook
+## Om Business Central-tillägget för Outlook
 
 Business Central-tillägget för Outlook består av två mindre tillägg:
 
@@ -40,20 +39,20 @@ Varje tillägg tillhandahålls som en XML-fil, som kallas *manifest*, som måste
 > [!IMPORTANT]
 > Arbetar du med flera miljöer? Business Central-tillägget för Outlook har utformats för arbete med en enskild Business Central-miljö. När tillägget har installerats ingår namnet på miljön i tilläggets manifest. Den här konfigurationen innebär att tillägget endast ansluts till miljön som det installerades från. Öppna miljön och installera tillägget på nytt för att använda tillägget i en annan miljö.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuera tillägget med hjälp av centraliserad distribution som en administratör
+## Distribuera tillägget med hjälp av centraliserad distribution som en administratör
 
 Centraliserad distribution är en funktion i administratörscentret för Microsoft 365 som du använder för att automatiskt installera tillägg i användarnas Office-appar, som Outlook. Det är det rekommenderade sättet för administratörer att distribuera Office-tillägg till användare och grupper inom organisationen.
 
 > [!NOTE]
 > För Business Central lokal, se [Konfigurera tillägget för Outlook-integration med Business Central lokal](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) i administrationsinnehållet (endast engelska).
 
-### <a name="prerequisites"></a>Förutsättningar
+### Förutsättningar
 
 - En Microsoft 365-prenumeration  
 - Användare tilldelas en Microsoft 365-licens  
 - Ditt Microsoft 365-konto har rollen *Global administratör* eller *Exchange-administratör*
 
-### <a name="deploy-the-add-in"></a>Distribuera tillägget
+### Distribuera tillägget
 
 1. I Business Central, välj ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra"). anger du **Assisterad konfiguration** och väljer sedan relaterad länk.
 2. Välj **Outlook-tillägget centraliserad distribution** för att starta guiden för assisterad konfiguration.
@@ -83,7 +82,7 @@ Centraliserad distribution är en funktion i administratörscentret för Microso
 
 När du är klar kan du alltid ändra distributionen i administrationscentret för Microsoft 365, som att tilldela fler användare. Mer information om distribution av tillägg i administrationscentret finns i [distribuera tillägg i administrationscentret](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installera tillägget för egen användning
+## <a name="install"></a>Installera tillägget för egen användning
 
 Om ditt företag tillåter det, kan du installera Business Central-tillägget för bara dig själv. Kontakta administratören om du är osäker.
 
@@ -94,7 +93,7 @@ Om ditt företag tillåter det, kan du installera Business Central-tillägget f�
 
 Business Central ansluter till e-postservern och installerar tillägget i Outlook. Det tar inte lång tid. Du är nu redo att börja använda tillägget i Outlook.
 
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>För Business Central lokalt
+### <a name="onprem"></a>För Business Central lokalt
 
 Om du använder Business Central lokalt kan det vara något annorlunda att installera tillägget.
 
@@ -116,7 +115,7 @@ Om du använder Business Central lokalt kan det vara något annorlunda att insta
 
 Du är nu redo att börja använda tillägget i Outlook.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Få Business Central på min mobila enhet](install-mobile-app.md)  

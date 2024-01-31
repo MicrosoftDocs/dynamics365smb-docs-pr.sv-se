@@ -7,9 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-locations-to-use-bins"></a>Registrera lagerställen för att använda lagerställen
+# Registrera lagerställen för att använda lagerställen
 
 Lagerplatser representerar den grundläggande lagerstrukturen och kan föreslå var artiklar ska placeras. När du har skapat dina lagerplatser definierar du deras innehåll, eller låter dem fungera som flytande lagerplatser utan specifikt innehåll.
 
@@ -27,7 +28,7 @@ Sedan designar du artikelflödet på lagerstället, genom att ange inställninga
 > [!NOTE]  
 > Du måste skapa lagerplatskoder innan du kan ange dem för lagerstället. Mer information finns i [Skapa lagerställen](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Så här lägger du upp ett lagerställe för att använda lagerställen
+## Så här lägger du upp ett lagerställe för att använda lagerställen
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
 2. Välj lagerstället där du vill använda lagerställen.  
@@ -45,13 +46,13 @@ Sedan designar du artikelflödet på lagerstället, genom att ange inställninga
 9. Valfritt: På snabbfliken **Lagerplatsprinciper** fyller du i nödvändiga fält. De viktigaste fälten är **Lagerplats kapacitetsprincip**, **Tillåt brytenhet** och **Artikelinförsel mallkod**.  
 10. På snabbfliken **Dist.lager** fyller du i fälten **utgående lagerhanteringstid**, **inkommande lagerhanteringstid** och **Baskalenderkod**. Om du vill ha mer information, gå till [Konfigurera baskalendrar](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a>Fylla i förbrukningslagerstället
+## Fylla i förbrukningslagerstället
 
 Diagrammet visar hur **Lagerställeskod** på produktionsorderkomponentraderna fylls enligt platsinställningen.
 
 :::image type="content" source="media/binflow.png" alt-text="Fältet Lagerställeskod på produktionsorderkomponentraderna.":::
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

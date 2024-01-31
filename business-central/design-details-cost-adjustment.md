@@ -3,14 +3,13 @@ title: Designdetaljer – Kostnadsjustering
 description: 'Kostnadsjustering flyttar fram kostnadsändringar från kostnadskällor till kostnadsmottagare, enligt en artikels värderingsprincip, för att leverera rätt lagervärdering.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostnadsjustering
+# Designdetaljer: Kostnadsjustering
 
 Huvudsyftet med kostnadsjustering är att flytta fram kostnadsändringar från kostnadskällor till kostnadsmottagare, enligt en artikels värderingsprincip, för att leverera rätt lagervärdering.  
 
@@ -27,7 +26,7 @@ Följande är sekundära syften eller funktioner för kostnadsjustering:
 
 Lagerkostnader måste justeras innan de relaterade värdetransaktionerna kan stämmas av med redovisningen. Mer information finns i [detaljer: avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="detecting-the-adjustment"></a>Identifiera justeringen
+## Identifiera justeringen
 
 Uppgiften att identifiera om kostnadsjustering ska inträffa utförs i huvudsak av rutinen Artikeljournal – bokför rad, medan uppgiften att beräkna och skapa kostnadsjusteringstransaktioner utförs av batchjobbet **Justera kost. – artikeltrans.**.  
 
@@ -37,21 +36,21 @@ För att kunna flytta kostnader framåt fastställer identifieringmekanismen vil
 * Ingångspunkt för genomsnittlig kostnadsjustering  
 * Ordernivå  
 
-### <a name="item-application-entry"></a>Artikelkopplingstransaktion
+### Artikelkopplingstransaktion
 
 Identifieringsfunktionen används för artiklar som använder värderingsprinciperna FIFO, LIFO, Standard och Specifik för fasta kopplingsscenarion. Funktionen fungerar så här:  
 
 * Kostnadsjustering upptäcks genom att markera de ursprungliga artikeltransaktionerna som *Kopplad trans. att justera* när en artikeltransaktion eller värdetransaktion bokförs.  
 * Kostnader speditioneras enligt kostnadskedjorna som finns i **Artikelkopplingstransaktion**.  
 
-### <a name="average-cost-adjustment-entry-point"></a>Ingångspunkt för genomsnittlig kostnadsjustering
+### Ingångspunkt för genomsnittlig kostnadsjustering
 
 Identifieringsfunktionen används för artiklar som använder värderingsprincipen Genomsnitt. Funktionen fungerar så här:  
 
 * Kostnadsjustering upptäcks, genom att markera en post i  **Ingångspunkt för genomsn.kostn.justering** tabellen, när en värdelöpnummer bokförs.  
 * Kostnader speditioneras genom att använda kostnaderna till värdetransaktioner med ett senare värderingsdatum.  
 
-### <a name="order-level"></a>Ordernivå
+### Ordernivå
 
 Den här identifieringsfunktionen används i konverteringsscenarion, produktion och montering. Funktionen fungerar så här:  
 
@@ -64,7 +63,7 @@ Ordernivåfunktionen används för att identifiera justeringar i monteringsbokf�
 
 Mer information finns i [Designdetaljer: Bokföring av monteringsorder](design-details-assembly-order-posting.md)  
 
-## <a name="manual-versus-automatic-cost-adjustment"></a>Manuell kontra automatisk kostnadsjustering
+## Manuell kontra automatisk kostnadsjustering
 
 Kostnadsjustering kan utföras på två sätt:  
 
@@ -79,25 +78,25 @@ Oavsett om du har kört kostnadsjusteringen manuellt eller automatiskt, är just
 
 De nya justerings- och avrundningsvärdetransaktionerna har bokföringsdatumet för den relaterade fakturan. Undantaget är om de värdetransaktioner faller inom en stängd bokföringsperiod eller lagerperiod, eller om bokföringsdatumet infaller tidigare än datumet i fältet på sidan **Tillåt bokföring fr.o.m.**  i fönstret **Redovisningsinställningar**. Om det inträffar tilldela batchjobbet bokföringsdatumet som det första datumet i nästa öppna period.  
 
-## <a name="adjust-cost---item-entries-batch-job"></a>Batch-jobbet Justera kost. – artikeltrans.
+## Batch-jobbet Justera kost. – artikeltrans.
 
 När du kör batchjobbet **Just kost. – artikeltrans** har du alternativet att köra batchjobbet för alla artiklar eller endast för vissa artiklar eller kategorier.  
 
 > [!NOTE]  
 > Vi rekommenderar att du alltid kör batchjobbet för alla artiklar och endast använder filtreringsalternativet för att minska bearbetningstiden för batchjobbet eller för att lösa kostnaden för en viss artikel.  
 
-### <a name="example"></a>Exempel
+### Exempel
 
 Följande exempel visar om du bokför en inköpt artikel som inlevererad och fakturerad den 01-01-20. Du bokför senare den sålda artikeln som levererad och fakturerad på 01-15-20. Sedan kör du batchjobben **Justera kost – artikeltrans** och **Bokför lagerkostnad i redov.** Följande transaktioner upprättas.  
 
-#### <a name="value-entries-1"></a>Värdetransaktioner (1)
+#### Värdetransaktioner (1) 
 
 |Bokföringsdatum|Artikeltransaktionstyp|Kost.belopp (aktuellt)|Kostnad bokförd i redov.|Fakturerat antal|Löpnr|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Inköp|10,00|10,00|1|1|  
 |01-15-20|Försäljning|-10.00|-10.00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (1)
+#### Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (1)
 
 |Löpnr redovisning|Värdelöpnr|Bokf. redov.journalnr|  
 |-------------|---------------|----------------|  
@@ -106,7 +105,7 @@ Följande exempel visar om du bokför en inköpt artikel som inlevererad och fak
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-1"></a>Redovisningstransaktioner (1)
+#### Redovisningstransaktioner (1)
 
 |Bokföringsdatum|Redovisningskonto|Kontonr. (En-US-demo)|Belopp|Löpnr|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +116,14 @@ Följande exempel visar om du bokför en inköpt artikel som inlevererad och fak
 
 Senare bokför du en relaterad inköpsartikelkostnad på 2,00 BVA som har fakturerats den 02-10-20. Kör batch-jobbet **Justera kost – artikeltrans** och sedan batch-jobbet **Bokför lagerkostnad i redov.**. Batch-jobbet Kostnadsjustering justerar kostnaden för försäljningen med -2,00 BVA, och batch-jobbet **Bokför lagerkostnad i redov.** bokför de nya värdetransaktioner till redovisningen. Resultatet är som följer.  
 
-#### <a name="value-entries-2"></a>Värdetransaktioner (2)
+#### Värdetransaktioner (2)  
 
 |Bokföringsdatum|Artikeltransaktionstyp|Kost.belopp (aktuellt)|Kostnad bokförd i redov.|Fakturerat antal|Justering|Löpnr|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Inköp|2,00|2,00|0|Nej|3|  
 |01-15-20|Försäljning|-2.00|-2.00|0|Ja|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (2)
+#### Relationstransaktioner i redovisning – tabellen Artikeltransaktionsrelation (2)
 
 |Löpnr redovisning|Värdelöpnr|Bokf. redov.journalnr|  
 |-------------|---------------|----------------|  
@@ -133,7 +132,7 @@ Senare bokför du en relaterad inköpsartikelkostnad på 2,00 BVA som har faktur
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-2"></a>Redovisningstransaktioner (2)
+#### Redovisningstransaktioner (2)
 
 |Bokföringsdatum|Redovisningskonto|Kontonr. (En-US-demo)|Belopp|Löpnr|  
 |------------|-----------|------------------------|------|---------|  
@@ -142,7 +141,7 @@ Senare bokför du en relaterad inköpsartikelkostnad på 2,00 BVA som har faktur
 |01-15-20|[Lagerkonto]|2130|-2.00|7|  
 |01-15-20|[KSV-konto]|7290|2,00|8|  
 
-## <a name="automatic-cost-adjustment"></a>Automatisk kostnadsjustering
+## Automatisk kostnadsjustering
 
 Om du vill ställa in kostnadsjusteringen att köras automatiskt när du bokför en lagertransaktion använder du fältet **Automatisk kostnadsjustering** på sidan **Lagerinställning**. Detta fält ger dig möjlighet att välja hur lång tillbaka i tiden från det aktuella arbetsdatumet som du vill att den automatiska kostnadsjusteringen ska utföras. Följande alternativ finns.  
 
@@ -158,7 +157,7 @@ Om du vill ställa in kostnadsjusteringen att köras automatiskt när du bokför
 
 Urvalet som du gör i fältet **Automatisk kostnadsjustering** är viktigt för prestanda och dina kostnaders korrekthet. Kortare tidsperioder, till exempel **Dag** eller **Vecka**, påverkar systemprestanda mindre, eftersom har strängare krav att endast kostnader som har bokförts inom den sista dagen eller veckan kan justeras automatiskt. Det innebär att den automatiska kostnadsjusteringen inte körs lika ofta och därför påverkar systemprestanda mindre. Det betyder också¨att styckkostnaderna kan vara mindre exakta.  
 
-### <a name="example-1"></a>Exempel
+### Exempel
 
 Följande exempel visar ett automatiskt kostnadsjusteringscenario:  
 
@@ -170,7 +169,7 @@ Om du har ställt in automatisk kostnadsjustering som ska kopplas till bokförin
 
 Om du har ställt in automatisk kostnadsjustering som ska kopplas till bokföringar som uppstår under en dag eller en vecka från datumet för aktuellt arbetsdatum, körs den automatiska kostnadsjusteringen inte och kostnaden för köpet speditioneras inte till försäljningen förrän du kör batch-jobbet **Justera kost. – artikeltrans.**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Justera artikelkostnader](inventory-how-adjust-item-costs.md)  
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  

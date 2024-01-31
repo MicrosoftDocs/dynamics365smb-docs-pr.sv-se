@@ -3,15 +3,14 @@ title: Tilldela en leverantör till en prioritetsnivå (innehåller video)
 description: Du kan tilldela nummer till dina leverantörer för att prioritera dessa och underlätta betalningsförslag i Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'supplier, payment priority'
 ms.search.form: '26, 27'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="prioritize-vendors"></a>Prioritera leverantörer
+# Prioritera leverantörer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] används för att ta fram olika betalningsförslag, t. ex. betalningar som snart förfaller eller betalningar för vilka en rabatt kan erhållas. Mer information finns i [Föreslå leverantörsbetalningar](payables-how-suggest-vendor-payments.md).
 
@@ -19,7 +18,7 @@ Först måste du prioritera leverantörerna genom att tilldela nummer till dem.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
-## <a name="to-prioritize-vendors"></a>Så här prioriterar du leverantörer:
+## Så här prioriterar du leverantörer:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Välj lämplig leverantör och sedan **Redigera**.
@@ -29,7 +28,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] räknas lägst nummer (förutom
 
 Om du inte vill prioritera en leverantör lämnar du fältet **Prioritet** tomt. Om du sedan använder funktionen för betalningsförslag visas den här leverantören sist i listan, efter de leverantörer som har tilldelats ett prioritetsnummer. Du kan ange valfritt antal prioritetsnivåer alltefter behov.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Ställa in inköp](purchasing-setup-purchasing.md)  

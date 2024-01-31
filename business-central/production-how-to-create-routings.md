@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-routings"></a>Skapa verksamhetsföljder
+# Skapa verksamhetsföljder
 
 Tillverkningsföretag använder verksamhetsföljder för att visa produktionsprocessen.
 
@@ -23,7 +24,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 - Artikelkort kan skapas för överordnade artiklar som ingår i produktionen. Mer information finns i [Registrera nya artiklar](inventory-how-register-new-items.md).
 - Produktionsresurser har ställts in. Mer information finns i [Skapa produktionsgrupper och maskingrupper](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-routing"></a>Så här skapar du en verksamhetsföljd
+## Så här skapar du en verksamhetsföljd
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Operationsföljder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -51,7 +52,7 @@ Innan du kan skapa en verksamhetsföljd måste följande vara på plats:
 > [!NOTE]  
 > Kom också ihåg att om du vill beräkna om standardkostnaden för artikeln från kortet **Artikel**: välj åtgärden **Produktion**, välj åtgärden **Beräkna standardkostnad** och välj sedan åtgärden **Alla nivåer**.  
 
-## <a name="to-create-routing-links"></a>Så här skapar du en verksamhetsföljdslänk
+## Så här skapar du en verksamhetsföljdslänk
 
 Du kan skapa verksamhetsföljdslänkar för att koppla ihop komponenter med specifika operationer för att behålla deras förhållande även om produktionsstrukturen eller verksamhetsföljden ändras. Detta gör det också lättare att bokföra komponenter vid rätt tidpunkt, dvs. när den angivna kopplade operationen startar – inte när hela ordern släpps. Mer information finns i [Bokför komponenter enligt verksamhetens utflöde](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +86,7 @@ En annan viktig fördel är att länkade komponenter och operationer visas i en 
 
 De markerade komponenterna länkas till de markerade operationerna när du skapar eller uppdaterar en produktionsorder som använder den aktuella produktionsstrukturen och verksamhetsföljden. Detta visas på sidan **Prod. Ordern komponenter** under produktionsordern, och där kan du också ta bort och lägga till de definierade verksamhetsföljdslänkkoderna när som helst.
 
-## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Tilldela personal, verktyg och kvalitetsmått för verksamhetsföljdsuppgifter
+## Tilldela personal, verktyg och kvalitetsmått för verksamhetsföljdsuppgifter
 
 Om du behöver personal med kvalifikationer, specialkunskaper eller särskild behörighet för en operation kan du tilldela sådan personal till operationen. Dessutom kan du tilldela åtgärden med verktyg och kvalitet. Nedan beskrivs hur du tilldelar personal: Momentet är liknande för andra typer av åtgärdsinformation.
 
@@ -95,7 +96,7 @@ Om du behöver personal med kvalifikationer, specialkunskaper eller särskild be
 4. Fyll i fälten på sidan **Operationsföljd personal**.  
 5. Välj **OK** för att stänga sidan. Angivna värden kopieras och tilldelas till operationen.  
 
-## <a name="to-create-a-new-versions-of-a-routing"></a>Så här skapar du nya versioner av verksamhetsföljder
+## Så här skapar du nya versioner av verksamhetsföljder
 
 Med versionsprincipen kan du hantera flera versioner av en verksamhetsföljd. Strukturen på verksamhetsföljdsversionen motsvarar strukturen på verksamhetsföljden som består av huvud och rader. Den grundläggande skillnaden definieras av startdatumet.  
 
@@ -114,7 +115,7 @@ Med versionsprincipen kan du hantera flera versioner av en verksamhetsföljd. St
 
 Versionens giltighetstid anges i fältet **Startdatum**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa produktionsstrukturer](production-how-to-create-production-boms.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  

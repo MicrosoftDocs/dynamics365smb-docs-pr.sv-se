@@ -3,15 +3,14 @@ title: Ställa in betalningssätt (innehåller video)
 description: 'Du kan använda betalningsmetoder, till exempel, kontrollera, banköverföring, kontant eller PayPal, för att ange hur försäljnings- och inköpsfakturor ska betalas.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'check, bank transfer, cash, PayPal'
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-methods"></a>Ange betalsätt
+# Ange betalsätt
 
 Betalningssätt definierar hur du föredrar att kunderna betalar dig och hur du vill betala dina leverantörer. Metoden kan variera för varje kund eller leverantör. Exempel på typiska betalningssätt är **bank**, **kontanter**, **check** eller **konto**.
 
@@ -23,7 +22,7 @@ Kreditnotor för returer är emellertid undantag eftersom pengar flödar i motsa
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>Så här definierar du betalningssätt:
+## Så här definierar du betalningssätt:
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller några betalningssätt som företag använder ofta. Du kan emellertid lägga till hur många rader du vill.
 
@@ -32,12 +31,12 @@ Kreditnotor för returer är emellertid undantag eftersom pengar flödar i motsa
 
 Du kan också lägga till betalningsvillkor i betalsättet. Mer information finns i [Ange betalningsvillkor](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Så här kopplar du betalningssätt till en kund eller leverantör
+## Så här kopplar du betalningssätt till en kund eller leverantör
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** eller **Leverantör** och väljer sedan relaterad länk.
 2. I fältet **betalningssättkod**, välj metoden som ska användas som standard för kunden eller leverantören.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Registrera nya kunder](sales-how-register-new-customers.md)  
 [Konfigurera betalningsvillkor](finance-payment-terms.md)  

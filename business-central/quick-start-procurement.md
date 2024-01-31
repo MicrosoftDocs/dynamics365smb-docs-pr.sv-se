@@ -3,20 +3,19 @@ title: Snabb start för inköp (innehåller video)
 description: Lär dig hur du fyller i de första kritiska fälten för leverantörer i Business Central så att du kan börja köpa produkter och tjänster.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: '26, 27, 50, 56'
 ms.date: 09/29/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="procurement-quick-start"></a>Snabbstart för inköp
+# Snabbstart för inköp
 
 För att kunna köpa produkter och tjänster måste du först lägga upp leverantörer. När du är klar kan du börja registrera inköpsorder och ta emot fakturor.  
 
-## <a name="set-up-vendors"></a>Ange leverantörer
+## Ange leverantörer
 
 I följande video visas hur du konfigurerar en leverantör i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -24,13 +23,13 @@ I följande video visas hur du konfigurerar en leverantör i [!INCLUDE[prod_shor
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### <a name="set-up-a-new-vendor"></a>Skapa en ny leverantör
+### Skapa en ny leverantör
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Mer information och andra åtgärder du kan utföra när du registrerar leverantörer finns i [registrera nya leverantörer](purchasing-how-register-new-vendors.md).  
 
-## <a name="create-new-purchase-orders"></a>Skapa en ny inköpsorder
+## Skapa en ny inköpsorder
 
 När du köper något från en leverantör finns det två alternativ. Det första är att bara skapa en inköpsfaktura. Du måste använda inköpsorder om din inköpsprocess kräver att du t. ex. kan registrera delleveranser av en orderkvantitet eftersom hela kvantiteten inte var tillgänglig hos leverantören.
 
@@ -40,7 +39,7 @@ I följande video visas hur du skapar en inköpsorder i [!INCLUDE[prod_short](in
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### <a name="to-create-a-purchase-order"></a>Skapa en inköpsorder
+### Skapa en inköpsorder  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 
@@ -66,11 +65,11 @@ I följande video visas hur du skapar en inköpsorder i [!INCLUDE[prod_short](in
 
 Mer information och andra åtgärder du kan utföra när du skapar en inköps order finns i [inköp](purchasing-manage-purchasing.md).  
 
-## <a name="create-a-purchase-invoice"></a>Skapa en inköpsfaktura
+## Skapa en inköpsfaktura  
 
 Du skapar en inköpsfaktura för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Att skapa en inköpsfaktura påminner om att skapa en inköpsorder.
 
-### <a name="how-to-create-and-post-a-purchase-invoice"></a>Så här skapar och bokför du inköpsfaktura
+### Så här skapar och bokför du inköpsfaktura  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. På sidan **inköpsfaktura**, välj åtgärden **Ny** för att skapa en ny inköpsfaktura.
@@ -95,7 +94,7 @@ Inköpet visas nu i lager, resurstransaktioner och ekonomiska transaktioner, och
 
 Mer information och andra åtgärder du kan utföra när du skapar en inköpsfaktura finns i [Registrera inköp med inköpsfakturor](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Snabbstart för Business Central](quick-start-business-central.md)  
 [Inköpsöversikt](Purchasing-manage-purchasing.md)  

@@ -3,14 +3,13 @@ title: Konfigurera produktionsprocesser
 description: 'För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-manufacturing"></a>Ställa in Produktion
+# Ställa in Produktion
 
 För att material ska kunna omvandlas till tillverkade slutartiklar måste produktionsresurser som t. ex. strukturer, verksamhetsföljder, maskinoperatörer och maskiner ställas in i systemet.
 
@@ -33,7 +32,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Använd standarduppgifter om du vill förenkla verksamhetsföljder genom att snabbt lägga till extra information för återkommande transaktioner.|[Skapa standardverksamhetsföljdrader](production-how-set-up-standard-routing-lines.md)|  
 |Förbered produktionsgrupper och verksamhetsföljder för att representera legotillverkning.|[Lägga ut legotillverkning för produktion](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](production-manage-manufacturing.md)  
 [Planerad](production-planning.md)  

@@ -3,14 +3,13 @@ title: Inbyggda analyser
 description: Innehåller en översikt över alla funktioner som kan användas för analysuppgifter i Business Central-produkten.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="built-in-analytics"></a>Inbyggda analyser
+# Inbyggda analyser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller några funktioner som du kan använda för att analysera data i en sammanställd form. Den här funktionen är användbar om du till exempel vill följa upp ekonomiska nyckeltal (KPI:er) eller analysera ekonomiska rapporter i Microsft Excel. Nedan finns länkar som du kan använda för att lära dig använda den.
 
@@ -23,7 +22,7 @@ ms.author: bholtorf
 |Analysera ekonomiska data från flera företag | [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md) |
 |Få insikter om vilka rapporter användarna använder| [Telemetri för rapportanvändning](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Business Intelligence och rapporteringsöversikt](reports-use-reports.md)
 

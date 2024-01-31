@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
+# Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp
 
 Du kan automatisera processen för att godkänna nya eller ändrade transaktioner, t.ex dokument, journalrader och kundkort, genom att skapa arbetsflöden med stegen för godkännandena i fråga.
 
@@ -21,7 +22,7 @@ Innan du skapar godkännandearbetsflöden, måste du skapa en godkännare och er
 
 Du kan konfigurera och använda arbetsflöden som kopplar affärsprocessuppgifter som ska utföras av olika användare. Systemuppgifter, till exempel automatisk bokföring, kan inkluderas som ett steg i arbetsflöden, före eller efter användaruppgifter. Begära och bevilja godkännande för att skapa eller bokföra nya poster är vanliga arbetsflödessteg. Läs mer i [arbetsflöden](across-workflow.md).  
 
-## <a name="about-this-walkthrough"></a>Om den här genomgången
+## Om den här genomgången
 
 Den här genom gången är ett scenario som illustrerar följande uppgifter:  
 
@@ -31,21 +32,21 @@ Den här genom gången är ett scenario som illustrerar följande uppgifter:
 - Begära godkännande av en inköpsorder, som Alicia  
 - Ta emot ett meddelande och sedan godkänna begäran, som Sean  
 
-## <a name="story"></a>Situation
+## Situation
 
 Stefan är en superanvändare på CRONUS och skapar två godkännande användare. En är Alicia som representerar en inköpsagent. Den andra är Sean själv som representerar Alicias godkännare. Sean ger sig själv obegränsade godkännanderättigheter för inköp och anger sedan att han ska få meddelanden genom intern anteckning så snart som en relevant händelse inträffar. Till slut skapar Sean det önskade godkännandearbetsflödet som en kopia av den befintliga arbetsflödesmallen för *Arbetsflöde för godkännande av inköpsorder* och låter alla befintliga händelsevillkor och svarsalternativ vara oförändrade, och aktiverar sedan arbetsflödet.  
 
 För att testa godkännandearbetsflödet loggar Stefan först in på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia och begär sedan godkännande av en inköpsorder. Sedan loggar Sean in som sig själv, ser anteckningen i sitt rollcenter, följer länken till godkännandebegäran för inköpsordern och godkänner sedan begäran.  
 
-## <a name="users"></a>Användare
+## Användare
 
 Innan du kan ställa in godkännandeanvändare och deras meddelandemetod måste du kontrollera att det finns två användare i [!INCLUDE[prod_short](includes/prod_short.md)]: En användare representerar Alicia. Den andra användaren, du själv, representerar Sean. Läs mer på [Skapa användare enligt licenser](ui-how-users-permissions.md).
 
-### <a name="setting-up-approval-users"></a>Ställa in godkännandeanvändare
+### Ställa in godkännandeanvändare
 
 När du har loggat in som dig själv ställer du in Alicia som en godkännandeanvändare vars godkännare är du själv. Skapa dina godkännanderättigheter och ange hur och när du får meddelande om godkännandebegäranden.  
 
-#### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Så här ställer du in dig själv och Alicia som godkännandeanvändare
+#### Så här ställer du in dig själv och Alicia som godkännandeanvändare
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Användarinställningar för godkännande** och väljer sedan relaterad länk.  
 2. Å¨sidan **Användarinställningar för godkännande** väljer du åtgärden **Ny**.  
@@ -60,11 +61,11 @@ När du har loggat in som dig själv ställer du in Alicia som en godkännandean
     |DU||Vald|
     |ALICIA|DU||
 
-### <a name="setting-up-notifications"></a>Ställa in meddelanden
+### Ställa in meddelanden
 
 Användaren får ett internt meddelande om begäranden att godkänna i den här genomgången. Godkännandemeddelandet kan också skickas via e-post, och du kan lägga till ett svarssteg i arbetsflödet som meddelar avsändaren när en begäran godkänns eller avvisas. Läs mer på [Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-#### <a name="to-set-up-how-and-when-you-are-notified"></a>Så här ställer du in hur och när du får meddelande
+#### Så här ställer du in hur och när du får meddelande
 
 1. På sidan **Användarinställningar för godkännande** markerar du raden för dig själv och väljer sedan åtgärden **Meddelandeinställningar**.  
 2. På sidan **Konfigurera meddelanden** i fältet **meddelandetyp** väljer du **godkännande**.  
@@ -72,14 +73,14 @@ Användaren får ett internt meddelande om begäranden att godkänna i den här 
 4. På sidan **Konfigurera meddelanden** väljer du åtgärden **Meddelandeschema**.  
 5. På sidan **Meddelandeschema** i fältet **Återkommande** väljer du **Omedelbart**.  
 
-## <a name="creating-the-approval-workflow"></a>Skapa godkännandearbetsflödet
+## Skapa godkännandearbetsflödet
 
 Skapa arbetsflödet för godkännande av inköpsorder genom att kopiera stegen från mallen **Arbetsflöde för godkännande av inköpsorder**. Lämna de befintliga arbetsflödesstegen oförändrade och aktivera sedan arbetsflödet.  
 
 > [!TIP]
 > Som tillval kan du lägga till ett arbetsflödessvarssteg för att meddela avsändaren när dennes begäran har godkänts eller avvisats. Läs mer på [Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Så här skapar och aktiverar du ett arbetsflöde för inköpsordergodkännade
+### Så här skapar och aktiverar du ett arbetsflöde för inköpsordergodkännade
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. På sidan **Arbetsflöden** väljer du **Åtgärder**, sedan **Ny** och sedan åtgärden **Nytt arbetsflöde från mall**.  
@@ -88,11 +89,11 @@ Skapa arbetsflödet för godkännande av inköpsorder genom att kopiera stegen f
    Sidan **Arbetsflöde** öppnas för ett nytt arbetsflöde som innehåller all information för den valda mallen. Värdet i fältet **Kod** utökas med *-01* i syfte att ange att detta är det första arbetsflöde som skapats från mallen **Arbetsflöde för godkännande av inköpsorder**.  
 4. I huvudet på fönstret **Arbetsflöde** markerar du växlingskontrollen **Aktiverad**.  
 
-## <a name="use-the-approval-workflow"></a>Använda godkännandearbetsflödet
+## Använda godkännandearbetsflödet
 
 Använd det nya arbetsflödet Arbetsflöde för godkännande av inköpsfaktura genom att först logga in på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia för att begära godkännande av en inköpsorder. Logga sedan in som dig själv, visa anteckningen i rollcentret, följ länken till godkännandebegäran och godkänn begäran.  
 
-### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Så här begär du godkännande av en inköpsorder, som Alicia.
+### Så här begär du godkännande av en inköpsorder, som Alicia.
 
 1. Logga in som Alicia.
 2. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
@@ -101,7 +102,7 @@ Använd det nya arbetsflödet Arbetsflöde för godkännande av inköpsfaktura g
 
 Observera att värdet i fältet **Status** har ändrats till **Väntar på godkännande**.  
 
-### <a name="to-approve-the-purchase-order-as-sean"></a>Så här godkänner du inköpsordern, som Sean
+### Så här godkänner du inköpsordern, som Sean
 
 1. Logga in som Sean.
 2. I rollcentret går du till området **Självbetjäning** och väljer **Begäranden att godkänna**.
@@ -117,7 +118,7 @@ Du definierar arbetsflödesvariationer genom att fylla i fält på arbetsflödes
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  

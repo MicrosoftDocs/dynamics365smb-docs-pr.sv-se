@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 08/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 > [!IMPORTANT]
 > När du bokför en försäljningsorder kan du skapa en utleverans och en faktura. Dessa dokument kan göras samtidigt eller oberoende av varandra. Du kan också skapa en delutleverans och en delfaktura genom att fylla i fälten **Ant. att utleverera** och **Ant. att fakturera** på de enskilda försäljningsorderraderna innan du bokför. Observera att du inte kan skapa en faktura från **Försäljningsorder** för något som inte har skickats. D.v.s. innan du kan fakturera måste du ha registrerat en leverans alternativt välja att leverera och fakturera samtidigt.

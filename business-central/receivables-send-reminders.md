@@ -3,19 +3,18 @@ title: Skicka påminnelser om utestående saldon
 description: Lär dig hur du skickar en påminnelse till en kund om en förfallen betalning.  förfaller och lägger till avgifter till betalningen på grund av förseningen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Skicka påminnelser om utestående saldon
+# Skicka påminnelser om utestående saldon
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Ställa in flera räntesatser för fördröjd betalning](finance-how-to-set-up-multiple-interest-rates.md)  

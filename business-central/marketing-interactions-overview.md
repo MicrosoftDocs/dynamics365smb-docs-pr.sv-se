@@ -3,14 +3,13 @@ title: Skapa och hantera interaktioner med dina kontakter
 description: I Business Central är interaktioner all slags kommunikation mellan företaget och dina kontakter. Läs om olika sätt att skapa och hantera kontakter.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Hantera interaktioner med dina kontakter
+# Hantera interaktioner med dina kontakter
 I [!INCLUDE[prod_short](includes/prod_short.md)] är interaktioner all slags kommunikation mellan företaget och dina kontakter. Exempelvis kommunikation kan ske via e-post, brev, telefon, möten och så vidare.
 
 Du kan registrera alla interaktioner som du har med kontakterna för att hålla reda på vilka försäljnings- och marknadsföringsåtgärder som du har riktat mot dem och för att förbättra dina kommande affärsinteraktioner med dem.

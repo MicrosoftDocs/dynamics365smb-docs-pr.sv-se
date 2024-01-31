@@ -4,16 +4,15 @@ description: Lär dig hur tillägget Vitala företagsinsikter roterar ett antal 
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'BI, add-in, insight, headline, data'
 ms.search.form: '1439,'
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-essential-business-insights-extension"></a>Tillägget Vitala företagsinsikter
+# Tillägget Vitala företagsinsikter
 
 Tillägget Vitala företagsinsikter hittar intressanta affärsfakta i dina företagsdata och visar dessa som tidningsaktiga rubriker i rollcenter. Beroende på vad tillägget hittar i datan kommer insikterna från förra veckan, förra månaden eller tre månader från dagens datum. Denna kunskap uppdateras var 10:e minut.  
 
@@ -32,7 +31,7 @@ I följande tabell beskrivs den information som detta tillägg ger respektive ro
 |Projektchef| Visar en hälsningsfras och en länk till produktinformation.|
 |Administratör| Visar en hälsningsfras och en länk till produktinformation.|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)
 

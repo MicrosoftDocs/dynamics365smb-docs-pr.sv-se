@@ -3,14 +3,13 @@ title: Skapa komplexa moduler med hjälp av bästa praxis | Microsoft Docs
 description: Det är viktigt att ange rätt inställningsvärden från början för att en ny verksamhetsprogramvara ska fungera effektivt.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-complex-application-areas-using-best-practices"></a>Skapa komplexa moduler med hjälp av bästa praxis
+# Skapa komplexa moduler med hjälp av bästa praxis
 Det är viktigt att ange rätt inställningsvärden från början för att en ny verksamhetsprogramvara ska fungera effektivt.  
 
  Om du använder snabbstart för att implementera inställningsvärden, eller du skriver in dem i fältet nytt företag manuellt, kan du hantera dina inställningsalternativ med de allmänna rekommendationerna för valda inställningsfält som är kända att eventuellt göra lösningen ineffektiv om den definierats felaktigt.  
@@ -21,7 +20,7 @@ Det är viktigt att ange rätt inställningsvärden från början för att en ny
 
 -   [Lägga upp bästa praxis: Värderingsprincip](setup-best-practices-costing-method.md)  
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)   
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -3,20 +3,19 @@ title: 'Inleverera, artikelinförsel, plocka och leverera i avancerade lagerkonf
 description: Ankommande och avgående processer kan utföras på olika sätt beroende på lagerkomplexitetsnivå.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Genomgång av ankommande och avgående flöde i blandade distributionslagerkonfigurationer
+# Genomgång av ankommande och avgående flöde i blandade distributionslagerkonfigurationer
 
 Den här genomgången visar hur man slutför inkommande och utgående flöden i konfigurationen Avancerad: dirigerad artikelinförsel och plockning. Mer information finns i avsnittet [Översikt över olika konfigurationsalternativ](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar  
 För att slutföra denna genomgång måste du ange dig själv som distributionslagerpersonal på lagerstället *VIT* med de här stegen:  
 1. Välj ![glödlampan som öppnar funktionen Berätta 1.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
 2. Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
@@ -24,10 +23,10 @@ För att slutföra denna genomgång måste du ange dig själv som distributionsl
 4. Aktivera **standard** växling.
 
 
-## <a name="scenario"></a>Scenario
+## Scenario  
 Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåfyllning för att öka hastigheten på inleveranser och leveranstid.  
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa distributionslagerutleverans.  
 
@@ -136,7 +135,7 @@ Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåf
     4. Bekräfta alternativet **leverans**.
 
 
-## <a name="results"></a>Resultat
+## Resultat
 - **Bokförda inleveranser till distributionslager** skapas
 - **Registrerad artikelinförsel för distributionslager** skapas    
 - **Bokförd inköpsinleverans** skapas    
@@ -150,7 +149,7 @@ Ellen, lagerchefen använder funktionen för direktutleverera och lagerplatspåf
 
 
 
-## <a name="see-also"></a>Se även
+## Se även
 [Ta emot artiklar](../../warehouse-how-receive-items.md) 
 [Designdetaljer: Inkommande distributionslagerflöde](../../design-details-inbound-warehouse-flow.md) 
 [Leverera artiklar](../../warehouse-how-ship-items.md) 

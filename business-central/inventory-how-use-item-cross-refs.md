@@ -9,12 +9,13 @@ ms.search.keywords: 'item reference, cross reference, inventory'
 ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/02/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-item-references"></a>Använd artikelreferenser
+# Använd artikelreferenser
 
 Om du köper eller säljer artiklar som du och leverantören eller kunden använder olika villkor för kan du ställa in en referens mellan villkoren för artiklarna och villkoren som kunden eller leverantören för artikeln använder. På så sätt infogas leverantörens eller kundens artikelbeskrivning, enhet eller variantkod automatiskt på de relevanta dokumenten när du fyller i fältet **Artikelreferensnummer.** .  
 
-## <a name="to-set-up-an-item-reference"></a>Så här ställer du in en artikelreferens
+## Så här ställer du in en artikelreferens
 
 1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **Artiklar** och välj sedan relaterad länk.
 2. Öppna kortet för en artikel som du vill skapa en referens för.
@@ -26,7 +27,7 @@ Om du köper eller säljer artiklar som du och leverantören eller kunden använ
 
 Följande procedur beskriver hur du anger artikelreferensen på en inköpsorder. Liknande steg gäller för försäljningsdokument och andra inköpsdokument.  
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Ange leverantörens artikelbeskrivning på ett dokument
+## Ange leverantörens artikelbeskrivning på ett dokument
 
 1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **inköpsorder** och välj sedan relaterad länk.
 2. Skapa en inköpsorder för leverantören som du ställer in en artikelreferens för ovan.
@@ -35,7 +36,7 @@ Följande procedur beskriver hur du anger artikelreferensen på en inköpsorder.
 
 Fältet **beskrivning** på raden skrivs över med leverantörens artikelbeskrivning som ställs in på referensartikelns transaktion. Om artikelreferensen innehåller en variantkod eller en måttenhet kopieras dessa värden också till dokumentet.  
 
-## <a name="scan-barcodes-with-the-business-central-mobile-app"></a>Skanna streckkoder med Business Central-mobilappen
+## Skanna streckkoder med Business Central-mobilappen
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
@@ -49,7 +50,7 @@ I följande tabell visas de sidor som stöder streckkodsskanning för artikelref
 |Inköpsrad     |   Artikelreferensnr      |
 |Försäljningsrad     | Artikelreferensnr        |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Registrera nya artiklar](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  

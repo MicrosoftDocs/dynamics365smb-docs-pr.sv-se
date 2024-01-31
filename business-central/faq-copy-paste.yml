@@ -3,6 +3,7 @@ metadata:
   title: Vanliga frågor och svar och att kopiera och klistra in data
   description: Få svar på vanliga frågor om att kopiera och klistra in data från fält och rader från Business Central-sidor.
   ms.topic: faq
+  ms.service: dynamics-365-business-central
 title: Vanliga frågor om Kopiera och klistra in
 summary: |
   Du kan kopiera en eller flera rader (poster) i en lista eller ett enda fält på en sida och klistra in det du kopierade till samma sida, en annan sida eller ett externt dokument (såsom Microsoft Excel och Outlook e-post).  

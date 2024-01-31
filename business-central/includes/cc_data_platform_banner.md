@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!NOTE]
 > Gäller från november 2020:
 > - Common Data Service har bytt namn till Microsoft Dataverse. [Läs mer](https://aka.ms/PAuAppBlog)

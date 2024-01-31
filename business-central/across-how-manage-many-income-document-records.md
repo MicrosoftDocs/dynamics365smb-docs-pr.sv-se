@@ -3,14 +3,13 @@ title: Definiera vilka inkommande dokument du ska visa
 description: 'Ändra standardläge för inkommande dokument, till exempel e-fakturor, förbättra din översikt över bearbetade och obearbetade poster.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="manage-many-incoming-document-records"></a>Hantera många inkommande dokumenttransaktioner
+# Hantera många inkommande dokumenttransaktioner
 
 När du skapar eller bearbetar inkommande dokumentposter, kan antalet rader på sidan **Inkommande dokument** växa till en utsträckning att du förlorar översikt. Därför kan du ange inkommande dokumentposter som *Bearbetade* för att ta bort dem från standardvyn. När du väljer åtgärden **Visa alla** kan du visa både behandlats och outredda transaktioner.
 
@@ -22,7 +21,7 @@ Kryssrutan **Bearbetad** markeras automatiskt för inkommande dokumentposter som
 > [!NOTE]  
 > När du öppnar sidan **Inkommande dokument** med åtgärden **Mina inkommande dokument** i rollcentret, kommer endast obearbetade inkommande dokumentposter visas som standard. Detta kallas i detta ämne för"standardvyn".
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Så här tar du bort inkommande dokumentposter från standardvyn
+## Så här tar du bort inkommande dokumentposter från standardvyn
 
 1. På sidan **Inkommande dokument** markerar du en eller flera rader för inkommande dokumentposter som du vill ta bort från standardvyn.
 2. Välj åtgärden **Ange som bearbetad**.
@@ -32,13 +31,13 @@ Kryssrutan **Bearbetad** markeras automatiskt för inkommande dokumentposter som
 > [!NOTE]  
 > Du kan också utföra den preliminära för den individuella transaktionen på sidan **inkommande dokumentkort**.
 
-## <a name="to-view-all-incoming-document-records"></a>Så här visar du inkommande dokumentposter
+## Så här visar du inkommande dokumentposter
 
 1. På sidan **Inkommande dokument** väljer du åtgärden **Visa alla**.
 
 Alla inkommande dokumentposter visas inklusive de som inte har kryssrutan **Behandlad** markerad.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a>Så här lägger du till inkommande dokumentposter till standardvyn
+## Så här lägger du till inkommande dokumentposter till standardvyn
 
 1. På sidan **Inkommande dokument** väljer du åtgärden **Visa alla**.
 2. Markera en eller flera rader för inkommande dokumentposter som du vill ska visas i standardvyn.
@@ -47,7 +46,7 @@ Alla inkommande dokumentposter visas inklusive de som inte har kryssrutan **Beha
 > [!NOTE]  
 > Du kan också utföra den preliminära för den individuella transaktionen på sidan **inkommande dokumentkort**.
 
-## <a name="see-also"></a>Se även
+## Se även
   
 [Skapa inkommande dokument poster ](across-how-create-income-document-records.md)
 [Skapa inkommande dokument poster direkt från dokument och poster](across-how-connect-disconnect-income-document-records.md)

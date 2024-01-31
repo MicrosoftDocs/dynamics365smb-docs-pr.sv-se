@@ -3,21 +3,20 @@ title: Ange layouten för en kontroll
 description: Du kan skapa och skriva ut dina checkar i flera olika format i överensstämmelse med standarder som anges av dina lokala myndigheter.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'print check, customize'
 ms.search.form: '374, 404'
 ms.date: 06/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="select-a-check-layout"></a>Välj en checklayout
+# Välj en checklayout
 
 Du kan designa dina checkar så att de uppfyller de normer som fastställts av de lokala myndigheterna. Checkbilder kan vara skrivna ut på engelska, franska, eller spanska.
 
 Checkar har utformats för att skrivas ut i både amerikanska och kanadensiska checkbildformat i antingen check-checktalong-check-format eller checktalong-checktalong-check-format.
 
-## <a name="to-select-a-check-layout"></a>Välj en checklayout genom att
+## Välj en checklayout genom att
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Rapportval, bankkonto** och väljer sedan relaterad länk.
 2. På sidan **Rapportval – bankkonto** i fältet **Användning** väljer du **Check**.
@@ -34,7 +33,7 @@ När du har upprättat checklayouter, kan du skriva ut checkar från sidan **utb
 
 Om du vill ändra en av dessa standardlayouter använder du antingen Word- eller RDLC-integrering. Mer information finns i [Skapa och ändra anpassad rapportlayouter](ui-how-create-custom-report-layout.md).
 
-## <a name="use-micr-and-security-fonts"></a>Använda MICR och säkerhetsteckensnitt
+## Använda MICR och säkerhetsteckensnitt
 Online-versionen av [!INCLUDE[prod_short](includes/prod_short.md)] innehåller förinstallerade teckensnitt på de servrar som kan användas för att definiera kontrollera layouter. I följande text konturer finns tillgängliga teckensnitt som innehåller länkar till detaljerad information om de olika leverantörerna av teckensnitten från tredje part.
 
 > [!Important]
@@ -45,19 +44,19 @@ I uppdatering 15.3 och nyare installeras magnetiskt bläcktecken igenkänningste
 > [!NOTE]
 > Av säkerhetsskäl kan du inte överföra anpassade teckensnitt till [!INCLUDE[prod_short](includes/prod_short.md)]-miljön.
 
-### <a name="micr-e-13b-specifications"></a>MICR E-13B specifikationer
+### MICR E-13B specifikationer
 
 I följande avsnitt sammanfattas specifikationerna för de MICR-E-13B teckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
 ![MICR E-13B specifikationer.](media/font_MICR_E-13B_Specifications.png "MICR E-13B specifikationer")
 
-### <a name="delimiter-characters"></a>Avgränsningstecken
+### Avgränsningstecken
 
 ![Avgränsningstecken.](media/font-micr-letters.png "Avgränsningstecken")
 
 Den fullständiga specifikationen av MICR E-13B teckensnitt finns i leverantörens dokumentation här: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 specifikationer
+### MICR CMC-7 specifikationer
 
 Följande CMC-7 teckensnitt finns tillgängliga [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
@@ -70,13 +69,13 @@ I följande avsnitt sammanfattas specifikationerna för de MICR CMC-7 teckensnit
 
 ![MICR CMC-7 specifikationer.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 specifikationer")
 
-### <a name="delimiter-characters-1"></a>Avgränsningstecken
+### Avgränsningstecken
 
 ![Avgränsningstecken för CMC-7.](media/font-cmc7-letters.png "Avgränsningstecken för CMC-7")
 
 Den fullständiga specifikationen av MICR CMC-7 teckensnitt finns i leverantörens dokumentation här: (http://www.idautomation.com/micr-fonts/cmc7/).
 
-### <a name="secure-font-specifications"></a>Specifikationer för säkra teckensnitt
+### Specifikationer för säkra teckensnitt
 
 I följande avsnitt sammanfattas specifikationerna för kontrollera säkerhetsteckensnitt som kan vara användbara när teckensnitt kalibreras för att kontrollera layouter med specifika MICR-skrivare.
 
@@ -86,7 +85,7 @@ Den fullständiga specifikationen av kontrollera säkerhetsteckensnitt finns i l
 
 Det finns också teckensnitt för andra syften i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [tillgängliga teckensnitt](ui-fonts.md)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa och ändra anpassade rapportlayouter](ui-how-create-custom-report-layout.md)  
 [Teckensnitt i Business Central](ui-fonts.md)  

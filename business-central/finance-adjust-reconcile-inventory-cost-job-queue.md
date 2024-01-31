@@ -3,20 +3,19 @@ title: Tidsplanera projekt för justering och avstämning av lagerkostnad
 description: lära dig hur du kan använda projektkön för att flytta aktiviteterna för att justera lagerkostnaden eller stämma av den med redovisningen till bakgrunden. Om ditt företag till exempel kör många aktiviteter eller behandlar många transaktioner.
 author: brentholtorf
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: 461
 ms.date: 09/19/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Tidsplanera projekt för justering och avstämning av lagerkostnad
+# Tidsplanera projekt för justering och avstämning av lagerkostnad
 
 Tidsplanera projekt för automatisk kostnadsjustering med redovisningen – bokföring till redovisningen är aktiverat som standard.
 I takt med att data ansamlas över tid kan detta emellertid påverka prestandan. För att minska belastningen på programmet är det ofta praktiskt att använda projektkötransaktioner för att låta aktiviteter köras i bakgrunden.
 
-## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Flytta aktiviteten för justering av artikelkostnader till bakgrunden med hjälp av assisterad konfiguration
+## Flytta aktiviteten för justering av artikelkostnader till bakgrunden med hjälp av assisterad konfiguration
 
 Det kan vara knepigt att skapa projektkötransaktioner, även för en erfaren konsult, varför vi har en assisterad konfiguration som gör det enklare att justera artikelkostnaden.  
 
@@ -30,7 +29,7 @@ Det kan vara knepigt att skapa projektkötransaktioner, även för en erfaren ko
 
 5. Välj fältet **Visa projektkötransaktioner efter slutförande** för att granska och justera inställningarna. Mer information finns i [Använda projektköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Så här skapar du en projektkötransaktion för att justera och stämma av lagerkostnader manuellt
+## Så här skapar du en projektkötransaktion för att justera och stämma av lagerkostnader manuellt
 
 Du kan också skapa projektkötransaktioner manuellt. I följande procedur beskrivs hur du ställer in batchprojektet **Justera inmatningar för kostn. artikel** så att detta automatiskt körs dagligen, men samma steg även gäller batchprojektet **Bokför lagerkostnad i redovisning**.  
 
@@ -49,7 +48,7 @@ Om du vill schemalägga en aktivitet för avstämning av lager med redovisningen
 > [!TIP]
 > För att undvika låsning ska du inte schemalägga aktiviteter för batchprojektet **Justera kostn. – artikeltrans.**, codeunit **Bokför lagerkostnad i redovisning** och aktiviteter för bokföring av försäljnings- eller inköpstransaktioner på samma gång. Kontrollera också att de använder samma projektkökategori.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Justera artikelkostnader](inventory-how-adjust-item-costs.md)  
 [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

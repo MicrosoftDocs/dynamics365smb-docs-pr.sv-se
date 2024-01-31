@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-item-application"></a>Designdetaljer: Artikelkoppling
+# Designdetaljer: Artikelkoppling
 
 När du bokför en lagertransaktion registreras antalsbokföringen i artikeltransaktionerna, och värdebokföringen i värdetransaktionerna. Mer information finns i [Designdetaljer: Lagerbokföring](design-details-inventory-posting.md)  
 
@@ -54,22 +55,22 @@ I en artikelkopplingstransaktion registreras följande information.
 |**Antal**|Antalet som kopplas.|  
 |**Bokföringsdatum**|Transaktionens bokföringsdatum.|  
 
-## <a name="inventory-increase"></a>Lagerökning
+## Lagerökning  
 När en lagerökning bokförs registreras en enkel artikelkopplingstransaktion utan koppling till utgående transaktion.  
 
-### <a name="example"></a>Exempel
+### Exempel  
 Följande tabell visar den artikeltransaktion som skapas när du bokför en inleverans på 10 enheter.  
 
 |Bokföringsdatum|inkommande artikeltrans.nr|utgående artikeltrans.nr|Antal|Artikeltrans.löpnr|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
-## <a name="inventory-decrease"></a>Lagerminskning
+## Lagerminskning  
 När en lagerminskning bokförs skapas en artikelkopplingstransaktion som kopplar lagerminskningen till en lagerökning. Länken har skapats med artikelns värderingsprincip som riktlinje. För artiklar som använder värderingsprinciperna FIFO, Standard och Genomsnitt baseras kopplingen på FIFO-principen. Lagerminskningen kopplas till lagerökningen med det tidigaste bokföringsdatumet. För artiklar som använder värderingsprinciperna LIFO baseras kopplingen på LIFO-principen. Lagerminskningen kopplas till lagerökningen med det senaste bokföringsdatumet.  
 
 I tabellen  **Artikeltransaktion** visas antalet som ännu inte har kopplats i fältet **Återstående antal**. Om det återstående antalet överstiger 0 så markeras kryssrutan **Öppen**.  
 
-### <a name="example-1"></a>Exempel
+### Exempel  
 Följande exempel visar artikelkopplingstransaktionen som skapas när en utleverans bokförs som innehåller fem enheter av artiklarna från inleveransen i föregående exempel. Den första artikelkopplingstransaktionen är inköpsinleveransen. Den andra kopplingstransaktionen tillhör utleveransen.  
 
 Följande tabell visar de två artikelkopplingstransaktionerna som är resultatet av lagerökningen och lagerminskningen.  
@@ -79,12 +80,12 @@ Följande tabell visar de två artikelkopplingstransaktionerna som är resultate
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
 
-## <a name="fixed-application"></a>Fast koppling
+## Fast koppling  
 När kostnaden för en lagerökning ska kopplas till en specifik lagerminskning (eller vice versa) skapas en fast koppling. Den fasta kopplingen påverkar transaktionernas återstående antal, men den fasta kopplingen återför också den exakt kostnaden för den ursprungliga transaktionen som kopplingen utförs till, eller från.  
 
 Om en fast koppling ska skapas använder du fältet **Koppla till artikellöpnr** eller **Koppla från artikellöpnr** på dokumentraderna anger du artikeltransaktionen som transaktionsraden ska kopplas till, eller från. En fast koppling kan till exempel utföras när en kostnadskoppling skapas som anger att en försäljningsretur ska kopplas till en specifik utleverans, så att kostnaden för utleveransen kan återföras. I det här fallet ignorerar [!INCLUDE[prod_short](includes/prod_short.md)] värderingsprincipen i programmet och lagerminskningen, eller lagerökningen för en försäljningsretur, kopplas till den angivna artikeltransaktionen. Fördelen med fasta kopplingar är att kostnaden för den ursprungliga transaktionen överförs till den nya transaktionen.  
 
-### <a name="example--fixed-application-in-purchase-return"></a>Exempel – Fast koppling i inköpsretur
+### Exempel – Fast koppling i inköpsretur  
 Följande exempel, som visar effekten av fast koppling på en inköpsretur av en artikel som använder FIFO-värderingsprincipen, baseras på följande scenariot:  
 
 1. I transaktionen 1 bokför användaren ett inköp till en kostnad av BVA 10,00.  
@@ -109,7 +110,7 @@ Följande tabell visar den artikelkopplingstransaktion som härrör från den fa
 
 Kostnaden för det andra inköpet, 20,00 BVA, överförs då på ett korrekt sätt till inköpsreturen.  
 
-### <a name="example--fixed-application-with-average-cost"></a>Exempel – Fast koppling med genomsnittskostnad
+### Exempel – Fast koppling med genomsnittskostnad  
 Följande exempel, som visar effekten av fast koppling, baseras på följande scenario för en artikel som använder värderingsprincipen Genomsnitt:  
 
 1. I löpnummer 1 och 2 bokför användaren två inköpsfakturor. Den andra fakturan har den felaktiga direkta styckkostnaden BVA 1 000,00.  
@@ -149,7 +150,7 @@ I löpnummer 5 är värdet för fältet **Kostnadsbelopp (Aktuellt)** för den h
 > [!NOTE]  
 >  Om en fast koppling skapas för en lagerminskning för en artikel med värderingsprincipen Genomsnitt, vidarebefordras inte artikelns genomsnittskostnad till minskningen som vanligt. I stället vidarebefordras den angivna kostnaden för lagerökningen. Lagerminskningen är då inte längre en del av beräkningen av genomsnittskostnad.  
 
-### <a name="example--fixed-application-in-sales-return"></a>Exempel – Fast koppling i försäljningsretur
+### Exempel – Fast koppling i försäljningsretur  
 Fasta kopplingar är också ett mycket bra sätt att återföra kostnad exakt, till exempel med försäljningsreturer.  
 
 Följande exempel, som visar hur en fast koppling säkerställer exakt kostnadsåterföring, baseras på följande scenario:  
@@ -190,10 +191,10 @@ När du kör batchjobbet **Justera kostnader – artikeltrans** vidarebefordras 
 > [!NOTE]  
 >  Om en transaktion med en fast koppling bokförs och om artikeltransaktionen som kopplingen ska utföras till är stängd, d.v.s. om det återstående antalet är noll, återställs den gamla kopplingen automatiskt i programmet och artikeltransaktionen kopplas om med den angivna fasta kopplingen.  
 
-## <a name="transfer-application"></a>Överföring koppling
+## Överföring koppling  
 När en artikel överförs från en lagerplats till en annan, inom företagslagret, skapas en koppling mellan de två överföringstransaktionerna. Värderingen av en överföringstransaktion är beroende av värderingsprincipen. För artiklar som använder värderingsprincipen Genomsnitt sker värderingen med hjälp av genomsnittskostnaden i genomsnittskostnadsperioden där värderingsdatumet för överföring finns. För artiklar som använder andra värderingsprinciper sker värderingen genom att spåra baklänges till kostnaden för den ursprungliga lagerökningen.  
 
-### <a name="example--average-costing-method"></a>Exempel – Metoden Genomsnittskostnad
+### Exempel – Metoden Genomsnittskostnad  
 Följande exempel, som visas hur överföringstransaktioner används, baseras på följande scenario för en artikel som använder värderingsprincipen Genomsnitt och genomsnittskostnadsperioden Dag.  
 
 1. Användaren köper artikeln till en kostnad av BVA 10,00.  
@@ -209,7 +210,7 @@ Följande tabell visar effekten av den överföringen på artikelns värdetransa
 |02-01-20|Överföring:|ÖST|-1|15,00|3|  
 |02-01-20|Överföring:|VÄST|1|15,00|4|  
 
-### <a name="example--standard-costing-method"></a>Exempel – Värderingsprincip Standard
+### Exempel – Värderingsprincip Standard  
 Följande exempel, som visar hur överföringstransaktioner används, baseras på följande scenario för en artikel som använder värderingsprincipen Standard och genomsnittskostnadsperioden Dag.  
 
 1. Användaren köper artikeln till en standardkostnad på BVA 10,00.  
@@ -225,7 +226,7 @@ Följande tabell visar effekten av den överföringen på artikelns värdetransa
 
 Eftersom värdet för den ursprungliga lagerökningen är BVA 10,00, värderas överföringen till den kostnaden, och inte till BVA 12,00.  
 
-## <a name="reapplication"></a>Omkopplingar
+## Omkopplingar  
 På grund av sättet som en artikels styckkostnad beräknas på kan en felaktig artikelkoppling medföra att genomsnittskostnaden och styckkostnaden får oriktiga resultat. Följande scenarier kan orsaka felaktiga artikelkopplingar som kräver att du ångra artikelkopplingar och kopplar om artikeltransaktioner:  
 
 * Användaren har glömt att göra en fast koppling.  
@@ -235,7 +236,7 @@ På grund av sättet som en artikels styckkostnad beräknas på kan en felaktig 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] erbjuder en funktionen för analysering och rättning av artikelkopplingar. Detta arbete utförs på sidan **Kopplingsformulär**.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Designdetaljer: Kända problem med artikelkopplingar](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Designdetaljer: Lagerkalkylering](design-details-inventory-costing.md)  
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  

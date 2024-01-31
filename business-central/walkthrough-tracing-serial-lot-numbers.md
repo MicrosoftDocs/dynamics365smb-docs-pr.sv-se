@@ -3,14 +3,13 @@ title: 'Genomgång: Spåra serienummer/partinummer'
 description: 'I det här avsnittet beskrivs de åtgärder som behövs för att förhindra att en defekt artikel säljs, och hur du spårar och återkallar artiklar vid behov.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-tracing-seriallot-numbers"></a>Genomgång: Spåra serienummer/partinummer
+# Genomgång: Spåra serienummer/partinummer
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -20,7 +19,7 @@ Den första uppgiften vid felhantering är att ta reda på var de defekta artikl
 
 Nästa uppgift vid felhantering är att fastställa om de spårade artiklarna har planerats i öppna dokument, t. ex. icke-bokförda försäljningsorder eller förbrukningsjournaler. Detta arbete utförs på sidan **Hitta transaktioner**. Du kan använda funktionen Hitta transaktioner för att söka igenom alla typer av databasposter.  
 
-## <a name="about-this-walkthrough"></a>Om den här genomgången
+## Om den här genomgången
 
 Den här genomgången visar hur du identifierar de artiklar som är defekta, vilken leverantör som levererat dem samt var de har använts, så att de order som berörs kan stoppas eller återkallas.  
 
@@ -30,7 +29,7 @@ I den här genomgången tas följande aktiviteter upp:
 - Spåra ursprung till förbrukning.  
 - Söka efter alla aktuella poster som innehåller det spårade serienumret/partinumret.  
 
-## <a name="roles"></a>Roller
+## Roller
 
 Den här genomgången innehåller arbetsuppgifter som utförs av följande användarroller:  
 
@@ -39,14 +38,14 @@ Den här genomgången innehåller arbetsuppgifter som utförs av följande anvä
 - Orderhandläggare  
 - Inköpsagent  
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar
 
 För att kunna utföra den här genomgången behöver du:  
 
 - Företaget [!INCLUDE[prod_short](includes/prod_short.md)].  
 <!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Situation
+## Situation
 
 Kvalitetskontrollanten Rickard utreder en försäljningsretur av artikel 1002, Racercykel. Kunden, Selangorian AB, har klagat på att svetsfogarna i ramen har spruckit. Teknikerna på kvalitetskontrollen har bekräftat att den returnerade cykelns racingram är defekt. Nu måste kvalitetskontrollen fastställa följande:  
 
@@ -59,7 +58,7 @@ Resultatet av den här första artikelspårningsuppgiften identifierar vilka rac
 
 De första två defekthanteringsuppgifterna utförs på sidan **Artikelspårning**. Den sista uppgiften utförs på sidan **Hitta transaktioner** tillsammans med sidan **Artikelspårning**.  
 
-## <a name="prepare-sample-data"></a>Förbereda exempeldata
+## Förbereda exempeldata
 
 Du måste skapa följande nya artiklar:  
 
@@ -68,7 +67,7 @@ Du måste skapa följande nya artiklar:
 
 Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktioner med dessa två artiklar.  
 
-### <a name="to-create-the-items"></a>Så här skapar du serviceartiklar
+### Så här skapar du serviceartiklar  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Artiklar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -105,7 +104,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Nu köper du racercykelramar från Metallprofilexperten AB.  
 
-### <a name="to-purchase-components"></a>Så här kan du köpa komponenter
+### Så här kan du köpa komponenter
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -136,7 +135,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Sedan producerar du racercyklar, SN1 och SN2.  
 
-### <a name="to-produce-end-items"></a>Så här kan du producera slutartiklar
+### Så här kan du producera slutartiklar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **utsläppta produktionsorder** och väljer sedan relaterad länk.  
 2. Välj gruppen **Ny**.  
@@ -183,7 +182,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Sedan ska racercyklarna säljas. Sälj först racercykeln med SN1 till Service AB.  
 
-### <a name="to-sell-the-end-items"></a>Sälja slutartiklarna
+### Sälja slutartiklarna
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.  
 2.  Välj åtgärden **Ny** och skapa en försäljningsorder genom att fylla i följande fält.  
@@ -223,11 +222,11 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Nu är du klar med förberedandet av data för att visa upp funktionerna Artikelspårning och Hitta transaktioner.  
 
-## <a name="tracing-from-usage-to-origin"></a>Spåra från förbrukning till ursprung
+## Spåra från förbrukning till ursprung
 
  Från försäljningsavdelningen får kvalitetskontrollanten veta att den returnerade racercykeln, artikel 1002, har serienumret SN1. Genom att använda den grundläggande informationen kan de fastställa var den färdiga racercykeln senast användes, i det här fallet för försäljningsutleveransen till Service AB. Sedan måste kvalitetskontrollanten spåra baklänges till tidigaste möjliga ursprung för att fastställa vilket partinummer den trasiga in ramen kommer ifrån och vilken leverantör som levererat den.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Så här fastställer du vilket parti den defekta ramen förekom i och vem som levererade den
+### Så här fastställer du vilket parti den defekta ramen förekom i och vem som levererade den
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **artikelspårning** och väljer sedan relaterad länk.  
 2.  På sidan **Artikelspårning**, ange **SN1** i fältet **Serienrfilter** och anger sedan **1002** i fältet **Artikelfilter**.  
@@ -254,13 +253,13 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
      Nu är du klar med den första defekthanteringsuppgiften med hjälp av sidan **Artikelspårning**. Kvalitetskontrollanten måste nu fastställa om andra bokförda dokument innehåller racercykelramar från PARTI1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Spåra från ursprung till förbrukning
+## Spåra från ursprung till förbrukning
 
  Kvalitetskontrollanten har fastställt att de defekta racercykelramarna kommer från PARTI1. Nu måste de leta reda på eventuella andra racercyklar som innehåller ramar från det defekta partiet så att dessa cyklar kan stoppas eller återkallas.  
 
  Ett sätt att förbereda den här spårningsuppgiften på sidan **Artikelspårning** är att manuellt ange LOT1 i fältet **Partinrfilter** och 2000 i fälte **Artikelfilter**. I den här genomgången använder vi emellertid funktionen **Spåra motsatt – från rad**.  
 
-### <a name="to-find-all-usage-of-the-faulty-lot"></a>Så här hittar du all förbrukning som använder det defekta partiet
+### Så här hittar du all förbrukning som använder det defekta partiet  
 
 1.  På sidan **Artikelspårning** markerar du inleveransraden (den sista spårningsraden), klickar på **Spåra motsatt – från rad**.  
 
@@ -278,11 +277,11 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
     Nu är du klar med den andra defekthanteringsuppgiften med hjälp av sidan **Artikelspårning** för defekthantering. Eftersom sidan **Artikelspårning** endast bygger på bokförda poster måste kvalitetskontrollanten fortsätta till sidan **Hitta transaktioner** för att säkerställa att PARTI1 inte förekommer i icke-bokförda dokument.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Hitta alla poster som innehåller ett serienummer/partinummer
+## Hitta alla poster som innehåller ett serienummer/partinummer
 
  Med sidan **Artikelspårning** fick kvalitetskontrollanten veta att de defekta racercykelramarna kom från PARTI1, vilken leverantör som levererat dem samt i vilka bokförda transaktioner de förekommit. Kvalitetskontrollanten måste nu fastställa om PARTI1 förekommer i något öppet dokument genom att integrera från spårningsresultatet till sidan **Hitta transaktioner**, där han/hon kan utföra en sökning i alla databasposter.  
 
-### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Så här hittar du alla förekomster av PARTI1 i icke-bokförda poster, t. ex. öppna order
+### Så här hittar du alla förekomster av PARTI1 i icke-bokförda poster, t. ex. öppna order  
 
 1.  På sidan **Artikelspårning** markerar du pekaren på den första spårningsraden, som är inleveransen för PARTI1.  
 2.  Välj åtgärden **Hitta transaktioner**.  
@@ -297,7 +296,7 @@ Du måste sedan skapa olika inköps-, produktions- och försäljningstransaktion
 
  Nu är du klar med genomgången av hur du använder sidan **Hitta transaktioner** för defekthantering tillsammans med sidan **Artikelspårning**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med serienummer och partinummer](inventory-how-work-item-tracking.md)  
 [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)  
