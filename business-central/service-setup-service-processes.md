@@ -3,9 +3,7 @@ title: Ställa in Servicehanteringsprocesser | Microsoft Docs
 description: Lär dig hur du ställer in processer som hjälper dig att se till att kunden är nöjd med din kundservice.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 04/01/2021
 ms.author: bholtorf

@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!IMPORTANT]
 > Funktionen är i förhandsversion och [kompletterande villkor för förhandsversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) gäller. En förhandsversionsfunktion är en funktion som inte är klar. Den är tillgänglig tidigare så att kunder kan få tillgång till den och ge oss feedback. Förhandsversionsfunktioner ska inte användas i produktion och funktionerna kan vara begränsade.
 >

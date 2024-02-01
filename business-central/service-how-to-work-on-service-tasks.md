@@ -3,9 +3,7 @@ title: Så här arbetar du med serviceuppgifter
 description: I det här avsnittet beskrivs olika sätt att arbeta med serviceuppgifter. Sidan Serviceuppgifter där du får en översikt över alla serviceartiklar som behöver åtgärdas.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf

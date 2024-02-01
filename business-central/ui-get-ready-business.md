@@ -3,9 +3,7 @@ title: Gör dig redo för affärer
 description: 'Ger en översikt över assisterade konfigurationsguider, videor, hjälpavsnitt och sidor du kan använda för att bli redo att göra affärer i Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: bholtorf

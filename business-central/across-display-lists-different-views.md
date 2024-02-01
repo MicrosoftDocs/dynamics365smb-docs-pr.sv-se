@@ -3,9 +3,7 @@ title: Ändra hur mycket detaljer som visas i listor
 description: Du kan visa listor som detaljerade rader som innehåller mer information eller som paneler som är lätta att skanna och kan innehålla miniatyrbilder.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021

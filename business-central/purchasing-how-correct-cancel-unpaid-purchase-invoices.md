@@ -3,9 +3,7 @@ title: Korrigera eller annullera obetalda inköpsfakturor (innehåller video)
 description: 'Förklarar hur du kan korrigera, avbryta eller ångra en bokförd inköpsfaktura eller skapa en inköpskreditnota automatiskt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021

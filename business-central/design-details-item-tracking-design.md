@@ -3,9 +3,7 @@ title: Designdetaljer – Artikelkopplingsdesign
 description: I det här avsnittet beskrivs designen bakom artikelspårning i Business Central när den mognar genom produktversioner.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Hantera lager – och produktionskostnader
 description: 'Lär dig hur ett antal fält, sidor och rapporter riktar sig till användare som direkt eller indirekt hanterar kostnaden för artiklar eller operationer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: bholtorf

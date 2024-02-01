@@ -3,9 +3,7 @@ title: Så här skapar du Kontantkunder
 description: I det här avsnittet beskrivs de steg som krävs för att ställa in en faktura med ett kundnummer för kunder som betalar kontant.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: bholtorf

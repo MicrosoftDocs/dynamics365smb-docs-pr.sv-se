@@ -3,9 +3,7 @@ title: Ställa in bankdatakonvertering
 description: 'Du kan ställa in bankkonton för att följa upp transaktioner och importera eller exportera bankfeeder, till exempel Yodlee.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer'
 ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021

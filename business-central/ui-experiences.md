@@ -3,9 +3,7 @@ title: Ändra vilka funktioner som visas
 description: 'Lär dig vad användarupplevelsernivåerna Essential och Premium betyder för användargränssnitt, moduler och ditt företag.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'essential, basic, user interface, application area, experience'
 ms.search.form: 1
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: Skapa inköpare och koppla inköpare till leverantörer (innehåller vide
 description: Om flera inköpare eller inköpsagenter arbetar i företaget kan du sortera dem för statistiska analyser.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: purchasing agent
 ms.search.form: '14, 5116'
 ms.date: 04/01/2021

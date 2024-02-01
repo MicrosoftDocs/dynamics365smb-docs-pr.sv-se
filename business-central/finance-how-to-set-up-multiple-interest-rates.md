@@ -3,9 +3,7 @@ title: Ställa in flera räntesatser för fördröjd betalning
 description: Det här ämnet berättar hur du beräknar dröjsmålsränta med flera räntesatser för en särskild period.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
 ms.author: bholtorf

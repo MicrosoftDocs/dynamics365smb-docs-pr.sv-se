@@ -3,14 +3,13 @@ title: Översikt över rapporter för att förbereda årsbokslutsmeddelanden | M
 description: Ger en översikt över de rapporter du kan använda för att samla den information du behöver för att förbereda ditt företags bokslutsrapporte när du avslutar ett räkenskapsår.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="preparing-closing-statements"></a>Förbereda årsbokslutsrapporter
+# Förbereda årsbokslutsrapporter
 Det finns ett antal standardrapporter du kan använda för att samla den information du behöver för att förbereda ditt företags bokslutsrapporter.
 
 I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den här processen.  
@@ -27,7 +26,7 @@ I tabellen nedan beskrivs ett antal rapporter som kan vara användbara i den hä
 
 För att se en rapport, välj ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange namnet som det visas i tabellen och väljer sedan relaterad länk.
 
-## <a name="see-also"></a>Se även
+## Se även
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Affärsstöd](bi.md)

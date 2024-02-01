@@ -3,9 +3,7 @@ title: Intelligenta insikter och migrering av moln
 description: I Business Central Online har du tillgång till andra online-tjänster och du kan till exempel få smarta insikter som baseras på Azure AI. Läs vidare om du tänker migrera från lokal plats till molnet.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms. search.keywords: 'cloud, migrate, insights'
 ms.search.form: 4010

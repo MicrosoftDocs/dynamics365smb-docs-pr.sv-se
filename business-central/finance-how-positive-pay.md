@@ -3,9 +3,7 @@ title: Exportera Positive Pay-filer
 description: Du kan se till att banken bara godkänner validerade checkar och belopp genom att exportera Positive Pay-fil som innehåller information om leverantör betalning.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'check, clearing'
 ms.search.form: '1231, 1232, 1233, 1234'
 ms.date: 04/01/2021

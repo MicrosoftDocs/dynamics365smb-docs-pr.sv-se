@@ -3,9 +3,7 @@ title: Spåra orderrader och relaterade dokument
 description: 'Visa dokument som är relaterade till försäljnings- och inköpsorderrader, som offerter, leveranser, inleveranser och avropsorder, för att identifiera dokument som används för att hantera order.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: bholtorf

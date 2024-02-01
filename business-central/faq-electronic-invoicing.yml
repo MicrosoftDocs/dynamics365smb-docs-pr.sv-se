@@ -5,6 +5,7 @@ metadata:
   ms.topic: faq
   author: brentholtorf
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Vanliga frågor och svar om elektronisk fakturering
 summary: |
   Den inbyggda tjänsten för dokumentutbyten skickar elektroniska fakturor till TradeShift, en tjänsteleverantör som vidarebefordrar elektroniska fakturor till PEPPOL- eller NemHandel-mottagare. Tjänsten stöder däremot ett begränsat antal versioner.   

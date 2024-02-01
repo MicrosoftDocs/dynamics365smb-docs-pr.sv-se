@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Eftersom företag verkar i fler länder/regioner blir det viktigt att de kan handla och rapportera ekonomisk information i fler än en valuta. Den lokala valutan (BVA) definieras på sidan **Redovisningsinställningar** enligt beskrivningen i artikeln [Att förstå redovisning och kontoplan](../finance-general-ledger.md). När den lokala valutan (BVA) har definierats visas den som en tom valuta, så när fältet **Valuta** är tomt betyder det att valutan är BVA.  
 

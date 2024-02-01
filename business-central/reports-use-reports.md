@@ -3,9 +3,7 @@ title: Använd rapporter i det dagliga arbetet
 description: Innehåller en översikt över alla Business Intelligence- och rapporteringsfunktioner som stöds i Business Central-produkten.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: bholtorf

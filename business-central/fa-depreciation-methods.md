@@ -9,8 +9,9 @@ ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
 ms.date: 09/22/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder för anläggningstillgångar
+# Avskrivningsmetoder för anläggningstillgångar
 
 Det finns åtta avskrivningsmetoder tillgängliga i [!INCLUDE [prod_short](includes/prod_short.md)]:  
 
@@ -29,7 +30,7 @@ Det finns åtta avskrivningsmetoder tillgängliga i [!INCLUDE [prod_short](inclu
 
   Denna metod gör en avskrivning av en anläggningstillgång med samma belopp varje år.  
 
-## <a name="straight-line-depreciation"></a>Linjär avskrivning
+## Linjär avskrivning
 
 När du använder den linjära metoden måste du ange ett av följande alternativ i avskrivningsregeln för anläggningstillgångar:  
 
@@ -38,7 +39,7 @@ När du använder den linjära metoden måste du ange ett av följande alternati
 * ett fast årligt belopp  
 * avskrivningsperiod  
 
-### <a name="depreciation-period"></a>avskrivningsperiod
+### avskrivningsperiod
 
 Om du anger en avskrivningsperiod (antal avskrivningsår, antal avskrivningsmånader eller slutdatum för avskrivningen) används den här formeln vid beräkning av avskrivningsbeloppet:  
 
@@ -48,19 +49,19 @@ De återstående avskrivningsdagarna beräknas som antalet avskrivningsdagar min
 
 Bokföringsvärdet kan minskas genom bokförd uppskrivning, nedskrivning, val 1- eller val 2-belopp, om fältet **Ta med i avskrivningsberäkning** är inaktiverat och om fältet **Ingår i bokföringsvärde** är aktiverat på sidan **Anl. inställning bokföring**. Genom den här beräkningen garanteras att anläggningstillgången helt är avskriven på slutdatum för avskrivningen.  
 
-### <a name="fixed-yearly-percentage"></a>Fast årlig procentsats
+### Fast årlig procentsats
 
 Om du anger en fast årlig procentsats använder [!INCLUDE [prod_short](includes/prod_short.md)] följande formel vid beräkning av avskrivningsbeloppet:  
 
 *Avskrivningsbelopp = (Linjär % × Avskrivningsbas × Antal avskr.dagar) / (100 × 360)*  
 
-### <a name="fixed-yearly-amount"></a>Fast årligt belopp
+### Fast årligt belopp
 
 Om du anger ett fast årligt belopp använder [!INCLUDE [prod_short](includes/prod_short.md)] följande formel vid beräkning av avskrivningsbeloppet:  
 
 * *Avskrivningsbelopp = (Fast avskrivningsbelopp × Antal avskrivningsdagar) / 360*  
 
-### <a name="example---straight-line-depreciation"></a>Exempel – linjär avskrivningsmetod
+### Exempel – linjär avskrivningsmetod
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Den beräknade livslängden är åtta år. Batchprojektet **Beräkna avskrivning** körs två gånger per år.  
 
@@ -76,7 +77,7 @@ För detta exempel ser anläggningstillgångstransaktionen ut så här:
 | 27-06-30 |Avskrivning |180 |-6 250,00 |6,250.00 |
 | 27-12-31 |Avskrivning |180 |-6 250,00 |0 |
 
-## <a name="declining-balance-1-depreciation"></a>Degressiv 1, avskrivning
+## Degressiv 1, avskrivning
 
 Det här är en avskrivningsmetod som fördelar den största delen av kostnaden för en tillgång på de första åren av tillgångens livslängd. Om du använder den här metoden måste du ange en fast årlig procentsats.  
 
@@ -88,7 +89,7 @@ Avskrivningsbasen beräknas som bokföringsvärdet vid årets början. Antalet a
 
 Det bokförda avskrivningsbeloppet kan innehålla transaktioner av olika bokföringstyper (nedskrivning, val 1 och val 2) som har bokförts efter startdatumet för det aktuella räkenskapsåret. De här bokföringstyperna inkluderas i det bokförda avskrivningsbeloppet om fälten **Avskrivningstyp** och **Ingår i bokföringsvärde** är markerade på sidan **Anl. inställning bokföring**.  
 
-### <a name="example-1---declining-balance-1-depreciation"></a>Exempel 1 – Degressiv 1, avskrivning
+### Exempel 1 – Degressiv 1, avskrivning
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** är 25. Batchprojektet **Beräkna avskrivning** körs två gånger per år.  
 
@@ -118,13 +119,13 @@ Beräkningsmetod:
 
 Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.  
 
-### <a name="example-2---declining-balance-1-depreciation"></a>Exempel 2 – Degressiv 1, avskrivning
+### Exempel 2 – Degressiv 1, avskrivning
 
 En tillgångs bokförda värde är 100 000 den 2022-12-31. Du bokför en avskrivning på 1 778 den 2023-02-02, vilket är det förväntade (proportionella) beloppet för årets avskrivning efter 32 dagar. Om du kör avskrivning den 2023-06-30 kommer [!INCLUDE [prod_short](includes/prod_short.md)] att föreslå 8 222, eftersom det finns 148 dagar från 2023-02-02 till 2023-06-30. Den förväntade återstående avskrivningen för 2023-06-30 beräknas med följande formel:
 
 * *148/360 x 0,20 x 100 000 = 8 222*
 
-### <a name="example-3---declining-balance-1-depreciation"></a>Exempel 3 – Degressiv 1, avskrivning
+### Exempel 3 – Degressiv 1, avskrivning
 
 Om du bokför ett belopp som inte överensstämmer med avskrivningsmetoden för degressiv 1, t.ex. 5 000 föreslår [!INCLUDE [prod_short](includes/prod_short.md)] återstoden av det förväntade beloppet.
 
@@ -132,7 +133,7 @@ En tillgångs bokförda värde är 100 000 den 2022-12-31. Du bokför en avskri
 
 * *148/360 x 0,20 x 100 000 = 8 222*
 
-### <a name="example-4---declining-balance-1-depreciation"></a>Exempel 4 – Degressiv 1, avskrivning
+### Exempel 4 – Degressiv 1, avskrivning
 
 En tillgångs bokförda värde är 100 000 den 2023-12-31. Du bokför en avskrivning på 95 000 den 2023-02-02, vilket överstiger årets tillåtna avskrivningsbelopp. Om du kör avskrivning den 2023-06-30 kommer [!INCLUDE [prod_short](includes/prod_short.md)] att föreslå 5 000, eftersom det finns 148 dagar från 2023-02-02 till 2023-06-30. Den förväntade återstående avskrivningen för 2023-06-30 beräknas med följande formel: 
 
@@ -140,11 +141,11 @@ En tillgångs bokförda värde är 100 000 den 2023-12-31. Du bokför en avskri
 
 Det återstående bokförda värdet är dock bara 5 000, så [!INCLUDE [prod_short](includes/prod_short.md)] föreslår 5 000 eftersom ett bokfört värde inte kan vara negativt.
 
-## <a name="declining-balance-2-depreciation"></a>Degressiv 2, avskrivning
+## Degressiv 2, avskrivning
 
 Med metoderna Degressiv 1 och Degressiv 2 beräknas samma totala avskrivningsbelopp för varje år. Om du däremot vill köra batchprojektet **Beräkna avskrivning** mer än en gång om året resulterar metoden Degressiv 1 i lika stora avskrivningsbelopp för varje avskrivningsperiod. Metoden Degressiv 2 resulterar däremot i avskrivningsbelopp som minskar för varje period.  
 
-### <a name="example---declining-balance-2-depreciation"></a>Exempel – Degressiv 2, avskrivning
+### Exempel – Degressiv 2, avskrivning
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** är 25. Batchprojektet **Beräkna avskrivning** körs två gånger per år. Så här ser anläggningstillgångstransaktionerna ut:  
 
@@ -177,7 +178,7 @@ Avskrivningsvärdena är:
 | 21-06-30 |DA = 75 000,00 x (1 – (1 – 0,25)<sup> 0,5</sup>) = 10 048,09 |
 | 21-12-31 |DA = 64 951,91 x (1 – (1 – 0,25)<sup>0,5</sup>) = 8 701,91 |
 
-## <a name="db1sl-depreciation"></a>DB1/SL avskrivning
+## DB1/SL avskrivning
 
 DEG1/LIN är en förkortning av Degressiv 1 och Linjär. Beräkningen fortsätter tills bokföringsvärdet är lika med det avrundade slutavskrivningsbelopp eller det återanskaffningsvärde som du har angett.  
 
@@ -192,7 +193,7 @@ Om du använder den här metoden måste du ange den beräknade livslängden och 
 >
 > Med rapporten **Anläggningstillg. – planerat värde** kan du beräkna avskrivningar för flerårsperioder, vilket kan vara förvirrande jämfört med de resultat du får om du kör avskrivningar för flera år med någon av de degressiva saldometoderna. 
 
-### <a name="example---db1-sl-depreciation"></a>Exempel – DB1-SL-avskrivning
+### Exempel – DB1-SL-avskrivning
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. Värdet i fältet **Degressiv %** på sidan **Anl.avskrivningsregel** är 25 och värdet i fältet **Antal avskrivningsår** är 8. Batchprojektet **Beräkna avskrivning** körs två gånger per år.  
 
@@ -238,7 +239,7 @@ Beräkningsmetod:
 
     Det linjära beloppet används eftersom det är det större beloppet.  
 
-## <a name="half-year-convention-depreciation"></a>Avskrivning med halvårspraxis
+## Avskrivning med halvårspraxis
 
 Metoden Halvårspraxis kan endast användas om du har markerat fältet **Använd halvårsgammal** på sidan **Avskrivningsregel för anl.tillg.**.  
 
@@ -253,7 +254,7 @@ När du använder Halvårspraxis kommer en avskrivning på sex månader att till
 > [!NOTE]  
 > Den beräknade livslängd för en anläggningstillgång som återstår efter det första räkenskapsåret kommer alltid att innehålla ett halvår med hjälp av metoden Halvårspraxis. För att metoden Halvårspraxis ska användas på rätt sätt måste fältet **Avskrivning slutdatum** på sidan **Avskrivningsregel för anl.tillg.** alltid innehålla ett datum som infaller exakt sex månader före slutdatumet för det räkenskapsår då anläggningstillgången helt har avskrivits.  
 
-### <a name="example---half-year-convention-depreciation"></a>Exempel: Avskrivning med metoden Halvårspraxis
+### Exempel: Avskrivning med metoden Halvårspraxis
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. **Avskrivningens startdatum** är 20-03-01. Den beräknade livslängden är fem år så **avskrivningens slutdatum** blir 25-06-30. Batchprojektet **Beräkna avskrivning** körs en gång om året. Detta exempel bygger på att räkenskapsåret sammanfaller med kalenderåret.  
 
@@ -269,7 +270,7 @@ Så här ser anläggningstillgångstransaktionerna ut:
 | 24-12-31 |Avskrivning |360 |-20 000,00 |10,000.00 |
 | 25-12-31 |Avskrivning |180 |-10 000,00 |0.00 |
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Exempel: DEG1/LIN-avskrivning med metoden Halvårspraxis
+## Exempel: DEG1/LIN-avskrivning med metoden Halvårspraxis
 
 Anskaffningskostnaden för en anläggningstillgång är 100 000 BVA. **Avskrivningens startdatum** är 20-11-01. Den beräknade livslängden är fem år, varför **Slutdatum för avskrivning** blir 25-06-30. På sidan **Anl. avskrivningsregler** är värdet 40 i fältet **Degressiv %**. Batchprojektet **Beräkna avskrivning** körs en gång om året. Detta exempel bygger på att räkenskapsåret sammanfaller med kalenderåret.  
 
@@ -305,7 +306,7 @@ Beräkningsmetod:
 
     Det linjära beloppet används eftersom det är det större beloppet.  
 
-## <a name="duplicating-entries-to-more-depreciation-books"></a>Kopiera transaktioner till fler avskrivningsregler
+## Kopiera transaktioner till fler avskrivningsregler
 
 Om du har tre avskrivningsregler, B1, B2 och B3, och vill kopiera transaktioner från B1 till B2 och B3 kan du markera kryssrutan **Ingår i dubblettlista** på avskrivningsregelkorten för B2 och B3. Den här inställningen är t.ex. användbar i följande situationer:
 
@@ -320,7 +321,7 @@ När du gör en transaktion i B1 i redovisningsjournalen för anläggningstillg�
 > [!NOTE]  
 > Det är inte möjligt att använda samma nummerserie i Anl. redovisningsjournal och Anl.journal. När du bokför transaktioner i redovisningsjournalen för anläggningstillgångar måste du lämna fältet **Dokumentnr** tomt. Om du anger ett nummer i fältet dupliceras det numret i anläggningstillgångsjournalen. Du måste ändra verifikationsnummer manuellt innan du kan bokföra raderna.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  

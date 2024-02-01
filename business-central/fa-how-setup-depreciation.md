@@ -6,9 +6,10 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-fixed-asset-depreciation"></a>Skapa avskrivning för anläggningstillgång
+# Skapa avskrivning för anläggningstillgång
 
 Du kan använda olika avskrivningsmetoder när du förbereder redovisningsrapporter och självdeklarationer. Många större företag använder linjär avskrivning i redovisningsrapporterna eftersom de då i allmänhet kan rapportera större inkomster. Vad gäller självdeklaration använder många företag däremot en accelererad avskrivningsmetod, till exempel degressiv avskrivning. Du kan definiera avskrivningsmetoden för en tillgång med fältet **Avskrivningsmetod** på sidan **Anläggningstillgångskort**. Mer information om vad de olika metoderna gör finns i [Avskrivningsmetoder](fa-depreciation-methods.md).
 
@@ -16,7 +17,7 @@ Du skapar avskrivningsregler där du definierar de olika sätt på vilka avskriv
 
 Efter att du har skapat de avskrivningsregler som behövs måste du koppla en eller flera avskrivningsregler till varje anläggningstillgång. En avskrivningsregel som tilldelats en anläggningstillgång kallas för anläggningstillgångens avskrivningsregel. Du kan skapa valfritt antal avskrivningsregler för en anläggningstillgång.  
 
-## <a name="to-create-a-depreciation-book"></a>Att skapa en avskrivningsregel
+## Att skapa en avskrivningsregel
 
 I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgång ska skrivas av. Om du vill använda olika avskrivningsmetoder kan du skapa flera avskrivningsregler.  
 
@@ -34,7 +35,7 @@ I anläggningstillgångens avskrivningsregel anger du hur en anläggningstillgå
 
 Om du till exempel avyttrar en anläggningstillgång där avskrivningsregeln inte anger avrundning men företagets redovisningsinställningar kräver avrundning, visas ett felmeddelande om att ett belopp måste avrundas på en redovisningstransaktion när du avyttrar anläggningstillgången.  
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Att tilldela en avskrivningsregel till en anläggningstillgång.
+## Att tilldela en avskrivningsregel till en anläggningstillgång.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anläggningstillgångar** och väljer sedan relaterad länk.
 2. Välj anläggningstillgången som du vill skapa avskrivningsregeln för anläggningstillgångar för.
@@ -48,7 +49,7 @@ Om du till exempel avyttrar en anläggningstillgång där avskrivningsregeln int
     > [!NOTE]  
     > När du använder den användardefinierade avskrivningsmetoden måste du tilldela avskrivningsregeln på ett annat sätt. Mer information finns i [Skapa användardefinierad avskrivningsmetod](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Att tilldela en avskrivningsregel till åtskilliga anläggningstillgångar med hjälp av ett batch-jobb
+## Att tilldela en avskrivningsregel till åtskilliga anläggningstillgångar med hjälp av ett batch-jobb
 
 Om du vill tilldela en avskrivningsregel till flera anläggningstillgångar kan du använda batch-jobbet **Skapa anl. avskrivningsregler** för att skapa avskrivningsregler för anläggningstillgångar.  
 
@@ -62,7 +63,7 @@ Om du vill tilldela en avskrivningsregel till flera anläggningstillgångar kan 
 6. På snabbfliken **Anläggningstillgång** kan du ange ett filter så att du kan välja vilka tillgångar du vill skapa avskrivningsregler för anläggningstillgång .
 7. Välj **OK**.
 
-## <a name="to-set-up-depreciation-posting-types"></a>Så här skapar du bokföringstyper för avskrivning
+## Så här skapar du bokföringstyper för avskrivning
 
 För varje avskrivningsregel måste du ange hur du vill att [!INCLUDE[prod_short](includes/prod_short.md)] ska hantera olika bokföringstyper. Till exempel om bokföringen ska vara debet eller kredit och om bokföringstypen ska inkluderas i avskrivningsbasen.  
 
@@ -75,7 +76,7 @@ För varje avskrivningsregel måste du ange hur du vill att [!INCLUDE[prod_short
 
 Du bör inte ändra inställningen för avskrivningsregler som transaktioner redan har bokförts för. Ändringarna påverkar inte transaktioner som redan har bokförts, vilket gör att statistiken över avskrivningsregler blir missvisande.
 
-## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Så här ställer du in standardmallar och journaler för avskrivningsregler för anläggningstillgångar.
+## Så här ställer du in standardmallar och journaler för avskrivningsregler för anläggningstillgångar.
 
 För varje avskrivningsregel anger du en standardinställning för mallar och journaler. Du kan använda dessa standardinställningar för att duplicera rader från en journal till en annan, skapa journalrader med hjälp av batchjobben **Beräkna avskrivning** eller **Indexera anläggningstillgångar**, duplicera anskaffningskostnader i försäkringsjournalen.  
 
@@ -84,13 +85,13 @@ För varje avskrivningsregel anger du en standardinställning för mallar och jo
 3. Om du vill ha en standardinställning för varje användare väljer du fältet **Användar-ID** så visas sidan **Användare**.  
 4. Välj journalmallen eller journalen som ska användas som standard i de andra fälten.  
 
-## <a name="fiscal-year-365-days-field-depreciation"></a>Räkenskapsår på 365 dagar, fältavskrivning
+## Räkenskapsår på 365 dagar, fältavskrivning
 
 När batchjobbet Beräkna avskrivning körs används normalt ett standardår med 360 dagar där varje månad har 30 dagar.
 
 Om du väljer det här fältet använder batchjobbet Beräkna avskrivning kalenderåret med 365 dagar i stället och varje månad har då samma antal dagar som i kalendern. Det enda undantaget är februari månad under ett skottår, då batchjobbet räknar med 28 dagar och inte 29. Det betyder att alla år, även skottår, anses ha 365 dagar.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Anläggningstillgångar](fa-manage.md)  

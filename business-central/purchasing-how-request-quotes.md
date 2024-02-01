@@ -3,9 +3,7 @@ title: Skapa en inköpsoffert för att begära en offert
 description: Beskriver hur du skapar ett försäljningserbjudande eller offertförfrågan för att registrera ditt erbjudande till kunden att sälja produkter under vissa villkor.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022

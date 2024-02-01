@@ -3,9 +3,7 @@ title: Tilldela standardlagerställen till artiklar
 description: 'Om du använder lagerställen för ett lagerställe blir det mycket enklare för dig att leverera, inleverera och flytta artiklar om du tilldelar dem standardlagerställen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '7371, 7374, 7379'
 ms.date: 06/25/2021

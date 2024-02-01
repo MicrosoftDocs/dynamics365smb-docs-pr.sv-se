@@ -3,9 +3,7 @@ title: 'Lokal funktionalitet för Sverige [SE]'
 description: I följande avsnitt beskrivs den olika lokala funktionaliteten i den svenska versionen av Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/02/2023
 ms.author: bholtorf

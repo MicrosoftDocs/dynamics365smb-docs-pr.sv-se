@@ -3,9 +3,7 @@ title: Stäm av kvitton för leverantörsbetalningar eller återbetalningar i ut
 description: 'Om du vill bearbeta, matcha eller stämma av leverantörsbetalningar eller återbetalningar manuellt, kopplar du beloppet till en eller flera öppna leverantörsreskontratransaktioner.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment application, payment processing, match payments'
 ms.search.form: '62, 233, 522, 623'
 ms.date: 04/01/2021

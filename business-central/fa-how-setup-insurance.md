@@ -3,9 +3,7 @@ title: Skapa försäkring för anläggningstillgångar
 description: Om du vill hantera täckning av försäkring för anläggningstillgångar måste du ange ett försäkringskort och allmän försäkringsinformation.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'policy, coverage'
 ms.search.form: '5607, 5648, 5644, 5651'
 ms.date: 04/01/2021

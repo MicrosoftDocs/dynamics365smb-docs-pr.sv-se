@@ -3,9 +3,7 @@ title: Designdetaljer – artikelkoppling | Microsoft Docs
 description: Det här avsnittet beskriver var lagerkvantitet och värdet registreras när du bokför en lagertransaktion.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Terminologi i kostnadsredovisning
 description: 'I det här avsnittet definieras de nyckeltermer som används i kostnadsredovisningen, t.ex. fördelningsnyckel och fördelningskälla.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021

@@ -3,9 +3,7 @@ title: Elektroniska dokument i Business Central
 description: Detta är en översikt över använda ramverket för dataintegrering för att hantera utbytet av data i affärsdokument som bankfiler och valutakurser.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file'
 ms.date: 06/10/2021
 ms.author: bholtorf

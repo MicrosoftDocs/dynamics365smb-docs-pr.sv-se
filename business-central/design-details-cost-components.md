@@ -3,9 +3,7 @@ title: Designdetaljer – Kostnadskomponenter | Microsoft Docs
 description: Kostnadkomponenter är olika typer av kostnader som utgör värdet på en lagerökning eller lagerminskning.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Analysera rapportdata med Excel och XML
 description: Lär dig att använda Excel och XML för att analysera en rapportdatauppsättning.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.date: 03/16/2022
 ms.author: jswymer

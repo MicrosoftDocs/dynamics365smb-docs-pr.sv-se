@@ -3,9 +3,7 @@ title: Ställa in icke-realiserad moms
 description: Om du använder kontantbaserad redovisning kan ange du hur du vill hantera orealiserad moms för försäljning och inköp.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021

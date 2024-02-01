@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 11.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  

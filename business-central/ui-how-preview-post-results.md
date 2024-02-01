@@ -3,9 +3,7 @@ title: Förhandsgranska posterna innan du bokför ett dokument eller en journal
 description: Du kan se till att poster för dokument och journaler är korrekta innan du bokför dem i redovisningen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

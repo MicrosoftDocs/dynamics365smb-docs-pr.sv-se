@@ -5,8 +5,9 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Vanliga frågor om att använda Business Central
 summary: |
   Detta avsnitt innehåller svar på vanliga frågor om att registrera sig och använda utvärderingsversion, köpa en prenumeration och använda [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan också lära dig hur du får teknisk support.  
@@ -22,7 +23,7 @@ sections:
         answer: |
           Du kan registrera dig för en kostnadsfri utvärderingsversion för att utforska [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Om du vill ha mer tid för att utforska, [kan du utöka utvärderingsperioden](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          För att hjälpa dig att göra dig redo för affärer, kan du i [!INCLUDE[prod_short](includes/prod_short.md)] starta installationsguider, videofilmer och hjälpavsnitt till valda installationsuppgifter. Lär dig mer på [Gör dig redo att göra affärer](ui-get-ready-business.md).  
+          För att hjälpa dig att göra dig redo för affärer, kan du i [!INCLUDE[prod_short](includes/prod_short.md)] starta installationsguider, videofilmer och hjälpartiklar till valda installationsuppgifter. Lär dig mer på [Gör dig redo att göra affärer](ui-get-ready-business.md).  
 
           När du är redo att köpa [!INCLUDE[prod_short](includes/prod_short.md)], hittar du en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på sidan [Jag letar efter en lösningsleverantör](https://go.microsoft.com/fwlink/?linkid=2038145). Mer information finns i [Hur hittar jag efter en återförsäljningspartner?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           Varför beskriver Hjälp funktioner som det går inte att komma åt?
         answer: |
-          Om upplevelseinställningen på sidan **företagsinformation** anges till **viktig**, kommer gränssnittselement för Produktion och Servicehantering inte att synas eftersom de kräver upplevelsen **Premium**. En textanteckning infogas i inledande hjälpavsnitt för olika områden. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
+          Om upplevelseinställningen på sidan **företagsinformation** anges till **viktig**, kommer gränssnittselement för Produktion och Servicehantering inte att synas eftersom de kräver upplevelsen **Premium**. En textanteckning infogas i inledande hjälpartiklar för olika områden. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
       - question: |
           Varför är ny information inte tillgänglig på mitt språk?
         answer: |
@@ -78,7 +79,7 @@ sections:
           Vi förstår problemen som det kan orsaka, och uppmanar användarna att söka efter vad de söker på engelska om de inte kan hitta dem på eget språk.  
       - question: Vilken e-postadress kan jag använda med Business Central Online?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] online kräver att du använder en e-postadress från ditt arbete eller din skola för att registrera dig. [!INCLUDE[prod_short](includes/prod_short.md)] online har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc..  
+          [!INCLUDE[prod_short](includes/prod_short.md)] online kräver att du använder en e-postadress från ditt arbete eller din skola för att registrera dig. [!INCLUDE[prod_short](includes/prod_short.md)] online har inte stöd för e-postadresser som tillhandahålls av e-posttjänster för konsumenter eller telekommunikationsleverantörer. Dessa omfattar outlook.com, hotmail.com, gmail.com, etc.  
 
           Om du försöker att registrera dig med en personlig e-postadress kommer du att få ett meddelande som indikerar att du använder en e-postadress från arbete eller skola. Mer information finns i [Felsöka registrering av Self Service](ui-troubleshoot-self-signup.md).  
 

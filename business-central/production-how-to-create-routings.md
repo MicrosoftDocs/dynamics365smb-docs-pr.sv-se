@@ -3,9 +3,7 @@ title: Skapa verksamhetsföljder
 description: 'I det här avsnittet får du en översikt över olika sätt att skapa operationsföljder, inklusive nödvändiga krav och hur du skapar routningslänkar.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845'
 ms.date: 06/22/2021
 ms.author: bholtorf

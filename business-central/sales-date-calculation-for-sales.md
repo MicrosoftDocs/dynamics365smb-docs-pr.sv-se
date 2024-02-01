@@ -3,9 +3,7 @@ title: Beräkning av leveransdatum för försäljning
 description: Programmet beräknar automatiskt det datum då du måste beställa en artikel som du vill ha i lager på ett visst datum och tillgänglig för plockning.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/22/2022
 ms.author: bholtorf

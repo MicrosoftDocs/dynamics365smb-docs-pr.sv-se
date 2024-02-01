@@ -3,9 +3,7 @@ title: Business Intelligence snabbstart
 description: Lär dig hur Business Central hjälper dig att transformera företagsdata till insikter med Business Intelligence-rapporter och instrumentpaneler.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/17/2022

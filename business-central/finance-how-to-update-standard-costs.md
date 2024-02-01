@@ -3,9 +3,7 @@ title: Uppdatera standardkostnader
 description: Du måste regelbundet uppdatera standardkostnader för komponenter och överföra de nya kostnaderna till den överordnade artikeln.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5841
 ms.date: 10/11/2023
 ms.author: bholtorf

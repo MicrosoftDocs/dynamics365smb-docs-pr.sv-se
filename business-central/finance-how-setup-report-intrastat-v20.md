@@ -3,9 +3,7 @@ title: Skapa och rapportera Intrastat
 description: Lär dig hur du konfigurerar funktioner för rapportering av Intrastat och att rapportera handel med företag i andra EU-länder/regioner.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077'
 ms.date: 05/23/2022

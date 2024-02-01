@@ -3,9 +3,7 @@ title: Använd enheten för produktionsbatch
 description: I det här avsnittet får du en översikt över hur du arbetar med tillverkningsbatchenheter i Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf

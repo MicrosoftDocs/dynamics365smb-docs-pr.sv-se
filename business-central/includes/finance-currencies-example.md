@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 När du tar emot en faktura från ett företag i en utländsk valuta är det ganska enkelt att beräkna det lokala valutavärdet (BVA) på fakturan baserat på dagens valutakursbelopp. Fakturan levereras emellertid ofta med betalningsvillkor så att du kan försena betalningen till ett senare datum, vilket innebär en potentiellt annorlunda valutakurs. Det här problemet är i kombination med det faktum att bankens valutakurser alltid skiljer sig från de officiella valuta kurserna, vilket gör det omöjligt att förutsäga det exakta belopp i lokal valuta (BVA) som krävs för att täcka fakturan. Om fakturans förfallo datum gäller till nästa månad måste du kanske också revaluate beloppet i den lokala valutan (BVA) i slutet av månaden. Valuta justeringen är nödvändig eftersom det nya BVA-värdet som krävs för att täcka faktura beloppet kan vara ett annat, och företagets skuld till leverantören kan ha ändrats. Det nya beloppet i BVA kan vara högre eller lägre än det föregående beloppet och kommer därför att utgöra en vinst eller en förlust. Men eftersom fakturan ännu inte har betalats betraktas vinsten eller förlusten som *Orealiserad*. Senare betalas fakturan och banken har returnerat den faktiska valutakursen för betalningen. Det är inte förrän nu den *realiserade* vinsten eller förlusten beräknas. Den här orealiserade vinsten eller förlusten återförs sedan och den realiserade vinsten eller förlusten bokförs i stället.
 

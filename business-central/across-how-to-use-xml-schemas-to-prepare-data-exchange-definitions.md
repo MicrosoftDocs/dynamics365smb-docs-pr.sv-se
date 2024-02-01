@@ -3,9 +3,7 @@ title: XML-scheman för att förbereda definitioner för databyten
 description: Använd XML-scheman för att ställa in ramverk för datautbyte för att definiera vilka data element som du vill skicka med.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf

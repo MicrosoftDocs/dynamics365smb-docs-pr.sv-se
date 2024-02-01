@@ -3,9 +3,7 @@ title: Skapa lagerställesinnehåll
 description: När du har skapat lagerställena kan du ange de artiklar som du vill lagra i dem och skapa regler som styr hur ofta lagerställen fylls i automatiskt.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: bholtorf

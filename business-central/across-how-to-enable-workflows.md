@@ -3,9 +3,7 @@ title: Så här aktiverar du godkännande av arbetsflöden
 description: När du har skapat ett arbetsflöde och du vet att det är redo att startas måste du aktivera arbetsflödet.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: bholtorf

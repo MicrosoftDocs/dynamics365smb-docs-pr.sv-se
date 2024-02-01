@@ -3,9 +3,7 @@ title: Skapa tjänsteerbjudanden
 description: När du gör inställningarna i tjänstehanteringen måste du bestämma vilken service du erbjuder kunderna och schemalägga denna service.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'components, service item, service'
 ms.date: 06/23/2021
 ms.author: bholtorf

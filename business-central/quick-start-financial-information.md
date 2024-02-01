@@ -3,9 +3,7 @@ title: Ekonomisk information snabbstart
 description: Förbered företaget för verksamheten genom att lägga upp den ekonomiska informationen i Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/25/2022

@@ -3,9 +3,7 @@ title: Hantera bankkonton
 description: Du måste regelbundet stämma av banktransaktioner med relaterade banktransaktioner i dina bankkonton.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: reconcile
 ms.search.form: '377, 378, 165, 1284'
 ms.date: 10/04/2023

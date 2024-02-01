@@ -3,9 +3,7 @@ title: Tillägget QuickBooks Online datamigrering
 description: 'Beskriver hur du använder tillägget för att migrera kunder, leverantörer, artiklar och konton från QuickBooks Online till Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'extension, migrate, data, QuickBooks, import'
 ms.search.form: '1830,'
 ms.date: 06/24/2021

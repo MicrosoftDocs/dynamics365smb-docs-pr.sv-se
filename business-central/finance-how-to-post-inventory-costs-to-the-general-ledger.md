@@ -3,9 +3,7 @@ title: Stämma av lagerkostnader med redovisningen
 description: I slutet av bokföringsperioden måste en serie uppgifter för kostnadskontroll och revision utföras så att ett korrekt och balanserat lagervärde rapporteras.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: 9297
 ms.date: 06/16/2021

@@ -3,7 +3,6 @@ title: Definiera hur data överförs elektroniskt
 description: 'Definiera hur Business Central överför data med externa filer som elektroniska dokument, bankdata, artikelkataloger m.m.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022

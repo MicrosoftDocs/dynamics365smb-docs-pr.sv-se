@@ -3,9 +3,7 @@ title: Skapa lagerplatstyper
 description: Tilldela typer och grundläggande flödesaktiviteter till lagerplatser och definiera på vilket sätt lagerplatserna ska användas för särskilda lageraktiviteter.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: bholtorf

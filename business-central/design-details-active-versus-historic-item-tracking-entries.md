@@ -3,9 +3,7 @@ title: Designdetaljer – Aktiva kontra historiska artikelspårningstransaktione
 description: När delar av ett dokumentradantal bokförs överförs endast det aktuella antalet till artikeltransaktionerna och dess artikelspårningsnummer.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

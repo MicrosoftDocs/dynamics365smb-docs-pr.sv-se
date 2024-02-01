@@ -3,20 +3,19 @@ title: Felsökning och korrigering av dimensioner
 description: Lär dig hur du felsöker vanliga dimensionsfel och hur du korrigerar dimensioner när de har använts på bokförda transaktioner.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'dimension, correction, correct, business intelligence'
 ms.search.form: '116, 540, 2588'
 ms.date: 09/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Felsökning och korrigering av dimensioner
+# Felsökning och korrigering av dimensioner
 
 Ekonomiska rapporter och analysvyer bygger ofta på data från dimensioner. Trots de säkerhetsåtgärder som finns tillgängliga inträffar ibland ett misstag som kan medföra felaktigheter. I det här avsnittet beskrivs några typiska fel och hur du korrigerar dimensionstilldelningar för bokförda transaktioner så att ekonomiska rapporter är korrekta.
 
-## <a name="troubleshooting-dimensions-errors"></a>Felsökning av dimensionsfel
+## Felsökning av dimensionsfel
 
 När du bokför dokument eller journalrader som innehåller dimensioner kan olika fel uppstå, som dock vanligtvis hör till en felaktig dimensionsinställning eller tilldelning.
 
@@ -38,21 +37,21 @@ När du bokför dokument eller journalrader som innehåller dimensioner kan olik
 |Oväntat dimensionsvärde för standarddimensionen när fältet **värdebokföring** innehåller **Ingen kod**|-%1 %2 får inte tas med.<br />.%1 %2 får inte tas med för %3 %4.|-Ändra fältet **värdebokföring** på sidan **standarddimension**.<br />-Ta bort raden i konflikt från dimensionsuppsättningen.|
 |En dimensionskorrigering slutförs inte korrekt.||-Välj **Återställ** om du vill återställa korrigeringen till ett utkasttillstånd. Detta återställer ändringarna och du kan köra korrigeringen igen.|
 
-## <a name="changing-dimension-assignments-after-posting"></a>Ändra dimensionstilldelningar efter bokföring
+## Ändra dimensionstilldelningar efter bokföring
 
 Om du upptäcker att en felaktig dimension har använts på bokförda redovisningstransaktioner kan du korrigera dimensionsvärdena och uppdatera analysvyerna. Det hjälper till att hålla dina finansiella rapporter och analyser korrekta.
 
 > [!IMPORTANT]
 > Funktionerna för att korrigera dimensioner är endast avsedda att hjälpa till att göra den ekonomiska rapporten korrekt. Dimensionskorrigeringar gäller bara för redovisningstransaktionerna. De ändrar inte de dimensioner som tilldelats poster i andra redovisningar för samma transaktion. De dimensioner som tilldelats i redovisningen och underredovisningarna visas som en avvikelse.
 
-### <a name="setting-up-dimension-corrections"></a>Ställa in dimensionskorrigeringar
+### Ställa in dimensionskorrigeringar
 
 Det finns två saker att tänka på när du ställer in dimensionskorrigeringar:
 
 * Finns det dimensioner som du inte vill tillåta att människor ändrar? På sidan **Inställningar för dimensionskorrigering** ange de dimensioner som du vill blockera för ändringar.
 * Vem vill du tillåta att ändra dimensioner? Om du vill tillåta personer att göra ändringar tilldelar du behörigheten **D365 DIM CORRECTION** till användarna. Behörigheterna gör det möjligt för dem att skapa dimensionskorrigeringar, köra dem och ångra dem om det behövs. De kan också ange blockerade dimensioner. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a>Korrigera en dimension
+### Korrigera en dimension
 
 Du kan manuellt välja en eller flera redovisningstransaktioner eller använda filter för att välja uppsättningar med transaktioner. Om det behövs kan du också lägga till eller ta bort dimensioner. 
 
@@ -82,42 +81,42 @@ Du kan manuellt välja en eller flera redovisningstransaktioner eller använda f
 5. Om du vill verifiera korrigeringen väljer du **Validera dimensionsändringar**. Mer information finns i [Validera dimensionskorrigeringar](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Välj **Kör**.
 
-### <a name="validating-dimension-corrections"></a>Validera dimensionskorrigeringar
+### Validera dimensionskorrigeringar
 
 Innan du kör en korrigering är det en bra idé att validera den först. Valideringen söker efter begränsningar för värdebokföring för redovisningskontona, begränsningar för dimensioner och om dimensionsvärdena är blockerade. Under valideringen anges statusen för korrigeringen till **Validering i process**. När du har validerat en korrigering visas resultatet i fältet **Valideringsstatus**. Om fel hittades kan du använda åtgärden **Visa fel** för att undersöka dem. När du har korrigerat ett fel måste du använda åtgärden **Öppna igen** för att köra korrigeringen eller en ny validering.
 
 Du kan antingen köra en korrigering omedelbart eller schemalägga den så att den körs en senare gång. Om du kör korrigeringar på en stor datauppsättning rekommenderar vi att du schemalägger den så att den körs utanför arbetstid. Mer information finns i [Dimensionskorrigeringar på stora datauppsättningar](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Ångra en korrigering
+### Ångra en korrigering
 
 När du har korrigerat en dimension kan du använda åtgärden **Ångra** om du inte gillar det du ser för att återställa föregående värde. Du kan dock bara ångra den senaste korrigeringen. Innan du ångrar en korrigering kan du validera de ändringar som ångra kommer att göra. Detta är till exempel användbart om dimensionsbegränsningarna har ändrats efter korrigeringen.
 
 Om Ångra-åtgärden inte är tillgänglig, till exempel för att du har gjort många korrigeringar, kan du använda åtgärden **Kopiera till utkast** för att starta en ny korrigering för samma poster.
 
-### <a name="dimension-corrections-on-large-data-sets"></a>Dimensionskorrigeringar på stora datauppsättningar
+### Dimensionskorrigeringar på stora datauppsättningar
 
 Var försiktig när du korrigerar stora uppsättningar poster, till exempel uppsättningar som innehåller mer än 10 000 poster. Om du kan rekommenderar vi att du använder filtren för att köra korrigeringarna på mindre datauppsättningar. Det är också en bra idé att köra korrigeringar utanför de normala öppettiderna. 
 
-### <a name="use-analysis-views-with-dimension-corrections"></a>Använda analysvyer med dimensionskorrigeringar
+### Använda analysvyer med dimensionskorrigeringar
 
 Om **Uppdatera vid bokföring** är aktiverat för en analysvy, [!INCLUDE[prod_short](includes/prod_short.md)] kan visa när dokument och tidskrifter publiceras. Du kan också uppdatera vyer med den här inställningen aktiverad med resultat av dimensionskorrigeringar. Det gör du genom att aktivera växlingsknappen **Uppdatera analysvyer**. Uppdatering av analysvyer kan påverka prestanda, särskilt för stora datauppsättningar, så vi rekommenderar att du uppdaterar analysvyer endast för små datauppsättningar.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Visa historiska dimensionskorrigeringar
+### Visa historiska dimensionskorrigeringar
 
 Om en redovisningstransaktion har korrigerats kan du undersöka ändringen med hjälp av åtgärden **Historik för dimensionskorrigeringar**.
 
-### <a name="handling-incomplete-corrections"></a>Hantera ofullständiga korrigeringar
+### Hantera ofullständiga korrigeringar
 
 Om en korrigering inte slutförs visas en varning på korrigeringskortet. Om detta inträffar kan du använda åtgärden **Återställning** för att återställa korrigeringen till ett utkast till status och ångra ändringarna. Du kan sedan köra korrigeringen igen.
 
 > [!NOTE]
 > Återställning av en ofullständig korrigering påverkar inte uppdateringar av analysvyer eftersom de sker i slutet av korrigeringsprocessen.
 
-### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Använda Kostnadsredovisning med korrigerade redovisningstransaktioner
+### Använda Kostnadsredovisning med korrigerade redovisningstransaktioner
 
 När du har korrigerat dimensioner kommer dina data för kostnadsredovisning inte att vara synkroniserade. Kostnadsredovisning använder dimensioner för att aggregera belopp för kostnadsställen och kostnadsbärare och för att köra kostnadsallokeringar. Om du ändrar dimensioner för redovisningstransaktioner innebär det förmodligen att du kör dina kostnadsredovisningsmodeller igen. Om du bara behöver ta bort några kostnadsregister och köra allokeringar igen, eller om du behöver ta bort allt och köra alla dina modeller igen beror på vilka data som har uppdaterats och hur dina kostnadsredovisningsfunktioner har konfigurerats. Du miste manuellt identifiera var dimensionskorrigeringar kommer att påverka kostnadsredovisningen och var uppdateringar behövs. [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller för närvarande inte ett automatiserat sätt att göra det.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med dimensioner](finance-dimensions.md)  
 [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)  
