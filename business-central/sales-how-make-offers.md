@@ -10,7 +10,7 @@ ms.date: 07/12/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gör försäljningsofferter
+# <a name="make-sales-quotes"></a>Gör försäljningsofferter
 
 Du kan skapa en försäljningsoffert för att erbjuda en kund eller potentiell kund att sälja vissa produkter till vissa leverans- och betalningsvillkor. Du kan skicka försäljningsofferten till kunden för att meddela erbjudandet. Du kan e-posta dokument som en PDF-bilaga. Du kan också välja e-postbrödtexten förifylld med en sammanfattning av offerten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
 
@@ -18,7 +18,7 @@ Medan du förhandlar med kunden eller potentiell kund kan du ändra och skicka f
 
 I de flesta fall skickar du försäljningsoffert till potentiella kunder. Du har ofta en kontaktperson som du har förhandlat med. Om de accepterar erbjudandet slår du in försäljningsofferten i en order och registrerar den potentiella kunden som en kund i [!INCLUDE [prod_short](includes/prod_short.md)]. I följande procedur fokuserar vi på kontakter, men du kan också skicka offerter till befintliga kunder.  
 
-## Så här skapar du en försäljningsoffert
+## <a name="to-create-a-sales-quote"></a>Så här skapar du en försäljningsoffert
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsofferter** och väljer sedan relaterad länk.
 2. Ange den kontakt eller kund som du vill skicka försäljningsofferten till.
@@ -87,11 +87,11 @@ I de flesta fall skickar du försäljningsoffert till potentiella kunder. Du har
 
 Konverteringen tar bort försäljningsofferten från databasen. En försäljningsfaktura eller försäljningsorder har skapats baserat på informationen i försäljningsofferten där du kan bearbeta försäljningen. I fältet **Offertnr** på försäljningsfakturan eller försäljningsordern kan du ange numret på försäljningsofferten som den har skapats från. Mer information finns i [Fakturera försäljning](sales-how-invoice-sales.md) eller [Sälja produkter](sales-how-sell-products.md).  
 
-## Externt dokumentnummer
+## <a name="external-document-number"></a>Externt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

@@ -8,7 +8,7 @@ ms.date: 09/13/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Aviseringar för godkännandearbetsflöde
+# <a name="approval-workflow-notifications"></a>Aviseringar för godkännandearbetsflöde
 
 Konfigurera dina arbetsflöden så att användarna automatiskt meddelas när deras uppmärksamhet krävs för ett steg i det arbetsflödet. Många arbetsflödessvar handlar om att meddela en användare om att en händelse har skett som de måste agera på.
 
@@ -20,7 +20,7 @@ Du kan t.ex. ange användare 2, som är användare av godkännare och får ett m
 > [!IMPORTANT]  
 > Alla arbetsflödesmeddelanden skickas via en jobbkö. Se till att jobbkön i din installation är konfigurerad för att hantera arbetsflödesmeddelanden och att kryssrutan **Starta automatiskt från server** är markerad. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## Ställa in aviseringar
+## <a name="set-up-notifications"></a>Ställa in aviseringar
 
 Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:  
 
@@ -49,7 +49,7 @@ Du konfigurerar andra aspekter av arbetsflödesmeddelanden på flera ställen:
 
   För arbetsflöden för godkännande lägger du till ett arbetsflödessvarssteg för att meddela avsändaren när begäran har godkänts eller avvisats. Läs mer i steg 9 i avsnittet [Skapa arbetsflöden](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md)  
 [Konfigurera arbetsflödesanvändare](across-how-to-set-up-workflow-users.md)  

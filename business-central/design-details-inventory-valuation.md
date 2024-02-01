@@ -9,7 +9,7 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designdetaljer: Lagervärdering
+# <a name="design-details-inventory-valuation"></a>Designdetaljer: Lagervärdering
 Lagervärdering är fastställandet av kostnaden som tilldelats en lagerartikel, enligt uttryckt i följande ekvation.  
 
 Slutlager = startlager + nettoinköp – kostnaden för sålda varor  
@@ -18,7 +18,7 @@ Beräkningen av lagervärderingen använder fältet **Kost.belopp (aktuellt)** i
 
 Transaktioner har kopplats mot varandra, antingen av fasta kopplingar eller enligt det allmänna antagandet om kostnadsflöde som definieras av värderingsprincipen. En transaktion med lagerminskning kan kopplas till flera ökningar med olika bokföringsdatum och eventuellt olika anskaffningskostnader. Mer information finns i [Designdetaljer: Artikelkoppling](design-details-item-application.md). Därför baseras beräkningen av lagervärdet för ett givet datum på summan av positiva och negativa värdetransaktioner.  
 
-## Lagervärdering – rapport  
+## <a name="inventory-valuation-report"></a>Lagervärdering – rapport
 För att beräkna lagervärdet i rapporten **Lagervärdering** börjar rapporten med att beräkna värdet för artikelns lager på ett visst startdatum. Det lägger till värdet av lagerökningar och subtraherar sedan värdet av lagerminskningar upp till ett visst slutdatum. Slutresultatet är lagervärdet på slutdatumet. Rapporten beräknar dessa värden genom att summera värdena i fältet **Kost.belopp (aktuellt)** i värdetransaktionerna, med hjälp av bokföringsdatum som filter.  
 
 I den utskrivna rapporten visas alltid faktiska belopp, d.v.s. kostnaden för transaktioner som har bokförts som fakturerade. Om du markerar fältet Ta med förväntad kostnad på snabbfliken Alternativ visas även den förväntade kostnaden för transaktioner som har bokförts som inlevererade eller utlevererade.  
@@ -29,7 +29,7 @@ I den utskrivna rapporten visas alltid faktiska belopp, d.v.s. kostnaden för tr
 > [!IMPORTANT]  
 >  Beloppen i kolumnerna **Värde** i rapporten baseras på bokföringsdatumet för transaktioner för en artikel.  
 
-## Lagervärdering – PIA-rapport  
+## <a name="inventory-valuation---wip-report"></a>Lagervärdering – PIA-rapport
 Ett produktionsföretag måste bestämma värdet av tre typer av lager:  
 
 * Råmateriallager  
@@ -44,7 +44,7 @@ När det gäller inköpt lager utgör värdetransaktioner grunden för lagervär
 
 Avsikten med PIA-lagervärderingen är att fastställa värdet för artiklarna vars tillverkning ännu inte har slutförts på ett givet datum. Därför baseras PIA-lagervärdet på de värdetransaktioner som är kopplade till förbrukningen och kapacitetstransaktionerna. Förbrukningstransaktioner måste vara fakturerade vid datumet för värderingen. Därför visar rapporten **Lagervärdering – PIA** kostnaderna som representerar PIA-lagervärdet i två kategorier: förbrukning och kapacitet.  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Designdetaljer: Avstämning med redovisningen](design-details-reconciliation-with-the-general-ledger.md)   
 [Designdetaljer: Omvärdering](design-details-revaluation.md)   
 [Designdetaljer: Bokföring av produktionsorder](design-details-production-order-posting.md)  

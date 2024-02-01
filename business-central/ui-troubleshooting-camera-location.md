@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ---
 
-# Felsökning: komma åt kamera och plats
+# <a name="troubleshooting-accessing-camera-and-location"></a>Felsökning: komma åt kamera och plats
 
 Det kan uppstå problem när du försöker komma åt kamera och platsinformation för en enhet [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan hitta möjliga orsaker till det här problemet och hur du kan undvika dem i listan nedan.
 
-## Enheten måste ha kamera och platsfunktioner
+## <a name="device-must-have-camera-and-location-capabilities"></a>Enheten måste ha kamera och platsfunktioner
 
 För att du ska kunna komma åt kameran eller en användares plats från en enhet måste enheten ha en fysisk kamera eller möjlighet att hämta platsinformation.
 
 Om enheten har funktioner för kamera och plats, men det fortfarande uppstår problem, kan vissa drivrutiner behöva uppdateras eller installeras om. Även om du är osäker, rekommenderar vi alltid att du uppdaterar enhetens operativsystem, drivrutiner och webbläsare till den senaste versionen för bästa möjliga upplevelse.
 
-## Åtkomstbehörighet är inte aktiverad
+## <a name="access-permissions-not-enabled"></a>Åtkomstbehörighet är inte aktiverad
 
 Du måste aktivera allmän åtkomst till kamera och plats från enhetens sekretessinställningar och uttryckligen ge behörighet till [!INCLUDE[prod_short](includes/prod_short.md)] för åtkomst till dem. Om du till exempel vill visa eller ändra behörigheter för en enhet som körs på Windows går du till **Inställningar**, väljer **Sekretess** och sedan **Appbehörigheter**. 
 
@@ -34,21 +34,21 @@ Som standard dyker enheten eller webbläsaren upp en begäran om åtkomst till d
 > [!NOTE]  
 > Vissa äldre webbläsare ger inte tillgång till kameran och platsen. Kameran är till exempel inte tillgänglig i Internet Explorer eller den äldre Edge-webbläsaren.
 
-## Webbklient anslutning inte säker
+## <a name="web-client-connection-not-secure"></a>Webbklient anslutning inte säker
 
 Kamera- och platsfunktionerna är endast tillgängliga vid åtkomst till webbklienten via säkra SSL-anslutningar via SSL med hjälp av `https://` URI-schemat. 
 
 Det enda undantaget anknyter till `http://localhost` används i utvecklings- och testsyfte.
 
 
-## Arbeta med virtualiseringsteknik
+## <a name="work-with-virtualization-technologies"></a>Arbeta med virtualiseringsteknik
 
 När du ansluter till [!INCLUDE[prod_short](includes/prod_short.md)] via fjärrskrivbord eller en annan virtualisering kanske inte åtkomsten till kameran eller platsen är tillgänglig. Använd i så fall det fysiska systemet i stället.
 
-## Antivirusprogram
+## <a name="antivirus-software"></a>Antivirusprogram
 Vissa antivirusprogram blockerar som standardåtkomst till kameran och platsen. Kom ihåg att kontrollera inställningarna för antivirusprogrammet.
 
-## Se även
+## <a name="see-also"></a>Se även
 [Implementera kameran i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementera platsen i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 
