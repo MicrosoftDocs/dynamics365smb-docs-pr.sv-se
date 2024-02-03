@@ -13,7 +13,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="import-and-export-data-in-the-standard-import-export-sie-format"></a>Importera och exportera data i SIE-format (Standard Import Export)
+# Importera och exportera data i SIE-format (Standard Import Export)
 
 Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Export). Genom att ange SIE-dimensioner och -filtyper kan du definiera vilken detaljnivå import- eller exporttransaktionerna ska ha. Mer information finns i [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d).
 
@@ -25,18 +25,18 @@ Du kan importera och exportera redovisningsdata i SIE-format (Standard Import Ex
 1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du arbetsyta **Funktionshantering** och väljer sedan relaterad länk.
 2. Hitta funktionen **Feature update: Enable using SIE Audit Files Exports**. I kolumnen **Aktiverad för** väljer du **Alla användare**.
 
-## <a name="audit-files-export"></a>Export av verifieringsfiler
+## Export av verifieringsfiler 
 
 När du aktiverar **Export av SIE-verifieringsfiler** till funktionshantering kan du konfigurera funktionen med hjälp av en guide. Du kan emellertid installera funktionen senare genom att köra sidan **Installationsguiden för export av SIE-verifieringsfiler**. Om du vill ställa in systemet manuellt följer du instruktionerna i artikeln [exportera verifieringsfiler](../../finance-how-to-export-audit-files.md).
 
-### <a name="set-up-sie-dimensions"></a>Konfigurera SIE-dimensioner
+### Konfigurera SIE-dimensioner
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **dimensions-SIE** och väljer sedan relaterad länk.
 2. I fältet **Dimensionskod** väljer du en av de standard dimensioner som du vill mappa.
 3. I fältet **SIE-dimension** anger du det nummer som du vill tilldela dimensionen.
 4. I fältet **Valda** du om dimensionen ska användas när redovisningsdata (redovisning) importeras eller exporteras.
 
-### <a name="audit-file-export-document-for-sie"></a>Export av verifieringsfil dokument för SIE
+### Export av verifieringsfil dokument för SIE
 
 Sidan **Exportdokument för verifieringsfil** innehåller några fält som är specifika för SIE. Du måste ange dessa fält innan du börjar.
 
@@ -49,7 +49,7 @@ Sidan **Exportdokument för verifieringsfil** innehåller några fält som är s
 
     Alla andra fält anges som standard baserat på den föregående inställningen.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [SIE-grupp](https://go.microsoft.com/fwlink/?LinkID=164870&clcid=0x41d)  
 [Lokal funktionalitet för Sverige](sweden-local-functionality.md)
