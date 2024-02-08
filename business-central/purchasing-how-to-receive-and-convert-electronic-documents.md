@@ -3,16 +3,14 @@ title: Ta emot och omvandla elektroniska dokument
 description: Detta ämne beskriver hur du kan ta emot elektroniska dokument direkt från handelspartner eller en OCR-tjänst.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Ta emot och omvandla elektroniska dokument
+# Ta emot och omvandla elektroniska dokument
 
 > [!NOTE]
 > Innehållet i den här artikeln gäller endast för versioner av Dynamics 365 Business Central som släpptes före utgivningscykel 2 för 2023. I utgivningscykel 2 för 2023 ingår ny funktionalitet för e-dokument. Mer information finns i [Konfigurera e-dokument](finance-how-setup-edocuments.md). 
@@ -39,7 +37,7 @@ Du kan antingen starta omvandlingen av elektroniska dokument manuellt, enligt be
 
 Efterföljande procedur beskriver hur du tar emot en leverantörsfaktura och den omvandlas till en inköpsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)]. Proceduren är samma, när du omvandlar en leverantörsfaktura till en redovisningsjournalrad.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Så här tar du emot och omvandlar en elektronisk faktura till en inköpsfaktura
+### Så här tar du emot och omvandlar en elektronisk faktura till en inköpsfaktura
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokument** och väljer sedan relaterad länk.  
 
@@ -57,7 +55,7 @@ Efterföljande procedur beskriver hur du tar emot en leverantörsfaktura och den
 
     Eventuella valideringfel som vanligtvis beror på fel eller saknade huvuddata i [!INCLUDE[prod_short](includes/prod_short.md)], visas på snabbfliken **Felmeddelanden**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Inkommande dokument](across-income-documents.md)  

@@ -3,16 +3,14 @@ title: Besök vårt videobibliotek
 description: Gå till vårt videobibliotek för att få hjälp med att komma igång-videor som illustrerar vanliga "hur"-aktiviteter för produktvideor.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'video, library, how to'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="visit-our-video-library"></a>Besök vårt videobibliotek
+# Besök vårt videobibliotek
 
 Du har hittat vår dokumentation. Men vissa människor föredrar att titta på innehåll i stället för att läsa det. Därför skapar vi korta, lättförståeliga videor. De flesta videor kompletterar användarhjälpen och vissa av dem kan visas enskilt.  
 
@@ -25,7 +23,7 @@ Du kan också visa våra ”så här”-videor och mycket annat innehåll på Yo
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Dynamics 365-kanal på YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

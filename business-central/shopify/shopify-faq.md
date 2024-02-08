@@ -1,7 +1,7 @@
 ---
 title: FAQ för teknisk information
 description: Implementeringsinformation för Shopify kopplingen.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,8 +70,7 @@ Du kan också utforska [Expertmarknaden](https://experts.shopify.com/) och hitta
 ## Funktioner som inte stöds, men vi följer upp dem och kan tänka på att lägga till dem
 
 - B2B-funktioner, inklusive företag, företagsprislistor och betalningsvillkor
-  - Det är för närvarande möjligt att importera order skapade via B2B. Om du har flera köpare kopplade till företaget bör du inte aktivera automatiskt skapande av kunder, utan koppla varje Shopify-köpare till en respektive kund manuellt.
-  - Du måste underhålla företagets prislistor i Shopify.
+  - Utökat stöd för B2B kommer att finnas tillgängligt i utgivningscykel 1 för 2024. Mer information finns i [Anslut Business Central med Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Marknader
   - Flera översättningar av huvuddata. Du kan välja ett språk som ska användas för export av produktinformation.
   - Priser per land/region. En prislista är tillgänglig för den valda valutan. Shopify hanterar omvandlingen till andra valutor.
@@ -84,6 +83,16 @@ Ja Shopify-anslutningsprogrammet kan utökas. Kontrollera GitHub för att komma 
 ## Är Shopify-anslutningen öppen för bidrag
 
 Ja, det här tillägget är öppet för bidrag från vår community. Du hittar [källkoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i databasen Microsoft Al arkiv för programtillägg.
+
+## Skapa din version av anslutningsprogrammet för Shopify
+
+Enligt Shopify, om du vill skapa och publicera en anslutningsapp på Shopify marknadsplats som har det primära syftet att överföra eller dela säljardata till en tredje part ([!INCLUDE [prod_short](../includes/prod_short.md)]) måste du ha skriftligt medgivande från Shopify. Som en del av den här processen måste du få medgivande från Microsoft i "Formulär för databekräftelse för slutmottagare". Vi måste be dig att hantera ärendet med Shopify eftersom Microsoft inte kan teckna 3:e partsavtal.
+
+### Vad du gör
+
+Kontrollera Shopify kraven eftersom du fortfarande kanske kan ha en olistad app.
+
+Alternativt får anslutningsprogrammet för Shopify för [!INCLUDE [prod_short](../includes/prod_short.md)] ständigt nya funktioner och nya kunder. Om du upptäcker en specifik lucka kan du överväga att skicka in ett produktförslag (https://aka.ms/bcideas) eller ett kodbidrag till [!INCLUDE [prod_short](../includes/prod_short.md)]. Om du vill ha krav som kanske inte är relevanta för en majoritet av kunderna och som inte enkelt kan hanteras av den aktuella utökningsbarhetsmodellen kontaktar du [!INCLUDE [prod_short](../includes/prod_short.md)] utvecklingsteamet för att diskutera användningsfallet. Vi borde kunna hitta en genomförbar lösning.
 
 ## Se även
 

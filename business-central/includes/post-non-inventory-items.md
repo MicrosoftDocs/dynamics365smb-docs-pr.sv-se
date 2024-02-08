@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Personalen på distributionslager kan leverera och ta emot artiklar som inte finns i lager tillsammans med fysiska varor på försäljnings- och inköpsorder. Artiklar som inte finns i lagret är immateriella, t.ex. försäkringskostnader eller extra kostnader.
