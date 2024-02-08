@@ -10,7 +10,7 @@ ms.reviewer: andreipa
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Kör komplett planering, nettobehov eller produktionsplan
+# <a name="run-full-planning-mps-or-mrp"></a>Kör komplett planering, nettobehov eller produktionsplan
 
 Begreppen "beräkna planeringsförslag" eller "beräkna nettobehov" syftar på beräkning av produktionsprogram och materialbehov. Beräkningen baseras på faktisk och prognostiserad efterfrågan. I planeringssystemet beräknas antingen huvudproduktionsplan (MPS) eller nettobehovet (MRP), eller så beräknas båda på samma gång.  
 
@@ -23,7 +23,7 @@ Du kan spåra länkarna som planeringen skapar mellan efterfrågan och utbud på
 
 Inställningen av artikelkort, monteringsstrukturer, produktionsstrukturer och verksamhetsföljder påverkar i hög grad att planeringsresultaten blir rätt.  
 
-## Metoder för att skapa en plan  
+## <a name="methods-for-generating-a-plan"></a>Metoder för att skapa en plan
 
 - **Beräkna fullständig plan**: Bearbeta eller återskapa materialplanen. Den här processen startar när du tar bort alla planerade leveransorder som för närvarande har laddats. Alla poster i databasen planeras på nytt.  
 - **Beräkna nettoförändringsplan**: Behandla en nettoförändringsplan. Artiklar tas med i nettoförändringsplaneringen från två typer av förändringar:  
@@ -38,7 +38,7 @@ Med varje planeringsmetod genererar [!INCLUDE[prod_short](includes/prod_short.md
 >
 > Du kan köra körningarna Hämta åtgärdsmeddelandeplan mellan fullständig planering och nettoförändringsplanering för att få en omedelbar bild av effekten av schemaändringar. Det är dock inte tänkt att ersätta de fullständiga planeringsprocesserna för regenerativa eller nettoförändringar.  
 
-## Så här beräknar du planeringsförslaget
+## <a name="to-calculate-the-planning-worksheet"></a>Så här beräknar du planeringsförslaget
   
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **planeringsförslag** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Beräkna fullständig plan** för att öppna sidan **Skapa inköpsförslag**.  
@@ -58,7 +58,7 @@ Med varje planeringsmetod genererar [!INCLUDE[prod_short](includes/prod_short.md
 4. På snabbfliken **Artikel** kan du ange filter och köra planeringsrutinerna utifrån på artikel, artikelbeskrivning eller lagerställe.  
 5. Välj **OK**. Batch-jobbet körs och planeringsrader läggs till i planeringskalkylbladet.  
 
-## Så här kan du verkställa åtgärdsmeddelanden
+## <a name="to-perform-action-messages"></a>Så här kan du verkställa åtgärdsmeddelanden
   
 1. På sidan **Planeringsförslag** väljer du åtgärden **Verkställ åtgärdsmeddelande**.  
 2. Ange hur du skapar leveranser på snabbfliken **Alternativ**. Fyll i fälten enligt beskrivningen i följande tabell.  
@@ -77,7 +77,7 @@ Med varje planeringsmetod genererar [!INCLUDE[prod_short](includes/prod_short.md
 
 Batch-jobbet tar bort raderna i planeringsförslaget när åtgärdsmeddelandena har verkställts. De övriga raderna finns kvar i planeringsförslaget tills de antingen accepteras vid ett senare tillfälle eller tas bort. Du kan även ta bort raderna manuellt.  
 
-## Åtgärdsmeddelanden
+## <a name="action-messages"></a>Åtgärdsmeddelanden
   
 Åtgärdsmeddelanden skickas av orderspårningssystemet när det inte går att uppnå balans inom det befintliga ordernätverket. Meddelandena kan ses som ett förslag på hur du kan bearbeta ändringar som återställer jämvikten mellan tillgång och efterfrågan.  
 
@@ -100,7 +100,7 @@ Följande åtgärdsmeddelanden genereras som svar på obalans i tillgång/efterf
 |**Omplanera och Ändra antal**|Om både datum och kvantiteter för en order ändras måste du ändra planer med avseende på båda. Åtgärdsmeddelanden samlar båda dessa faktorer i ett enda meddelande, **Planera ändra antal** för att säkerställa att balansen i ordernätverket återställs.|  
 |**Annullera**|Om behov som har täckts på orderbasis tas bort, skickas ett åtgärdsmeddelande om att annullera kopplade leveransorder. Om behovet inte täcks på orderbasis, skapas ett åtgärdsmeddelande för att ändra i ordern för att på så sätt minska tillgången. Om en leveransorder inte efterfrågas när du genererar åtgärdsmeddelanden, till exempel vid lagerjusteringar, skickar [!INCLUDE[prod_short](includes/prod_short.md)] åtgärdsmeddelandet **Annullera** i kalkylarket.|  
 
-## Se även  
+## <a name="see-also"></a>Se även
 
 [Planerad](production-planning.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  

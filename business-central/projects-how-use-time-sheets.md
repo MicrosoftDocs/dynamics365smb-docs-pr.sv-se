@@ -131,7 +131,7 @@ Tidrapportsregistrering spåras i timmar, som är standardbasmåttenheten för r
     > En chef kan komma att avvisa en tidrapportrad som skickas in för godkännande. Om en rad har status **Avvisad** kan du göra ändringar av raden och sedan välja **Skicka** igen.  
 6. Välj **OK**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Så här kan du godkänna eller avvisa en tidrapport
+## <a name="approve-or-reject-a-time-sheet"></a>Så här kan du godkänna eller avvisa en tidrapport
 
 En tidrapport måste skickas för godkännande innan den kan användas. Du kan godkänna och avvisa enskilda rader i en tidrapport eller skicka tillbaka dem till avsändaren. Du kan godkänna en tidrapport på två sätt:
 
@@ -207,7 +207,7 @@ När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i d
 5. Välj åtgärden **Bokföra**.  
 6. Om du vill bekräfta bokföringen väljer du åtgärden **Transaktioner**. Sidan **Projekttransaktioner** öppnas och visar resultatet av att bokföra resursjournalen.
 
-## <a name="to-archive-time-sheets"></a>Så här arkiverar du tidrapporter
+## <a name="archive-time-sheets"></a>Så här arkiverar du tidrapporter
 
 När du bokför tidrapporter kan du arkivera dem för framtida referens. Du måste bokföra alla rader i en tidrapport innan du kan arkivera den.
 

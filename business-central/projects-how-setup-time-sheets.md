@@ -59,7 +59,7 @@ I slutet av installationshandboken kan du välja att [!INCLUDE [prod_short](incl
 
 I följande avsnitt beskrivs hur du konfigurerar tidrapporter om du inte använder guiden för assisterad konfiguration för **Konfigurera tidrapporter**.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Så här anger du allmän information för tidrapporter manuellt
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Så här anger du allmän information för tidrapporter manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Resurskonfiguration** och väljer sedan relaterad länk.  
 1. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ I följande avsnitt beskrivs hur du konfigurerar tidrapporter om du inte använd
 | **Alltid** |Användaren i fältet **Ansvarig person** på projektkortet godkänner tidrapporten. |
 | **Enbart maskin** |Om maskinens tidrapport är länkad till ett projekt, godkänner användaren i fältet **Ansvarig person** på projektkortet tidrapporten. Om maskinens tidrapport är länkad till en resurs, godkänner användaren i fältet **Användar-ID för tidrapportens godkännare** på resurskortet tidrapporten. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Så här tilldelar du en tidrapportsadministratör manuellt
+### <a name="assign-a-time-sheet-administrator-manually"></a>Så här tilldelar du en tidrapportsadministratör manuellt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användarinställning** och väljer sedan relaterad länk.  
 3. Välj den användare som ska vara tidrapportsadministratör, och välj sedan kryssrutan **Tidrapportadmin.**  
@@ -82,7 +82,7 @@ I följande avsnitt beskrivs hur du konfigurerar tidrapporter om du inte använd
 > [!TIP]  
 > Vi rekommenderar att du endast anger en användare som tidrapportsadministratör för ett företag. I följande procedur skapar du en tidrapportägare och godkännare där tidrapportgodkännaren tilldelas för varje resurs.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Så här tilldelar du en tidrapportsägare och en godkännare manuellt
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Så här tilldelar du en tidrapportsägare och en godkännare manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.
 2. Välj den resurs som du vill ställa in möjligheten att använda tidrapporter för, och markera sedan kryssrutan **Använd tidrapport**.  
