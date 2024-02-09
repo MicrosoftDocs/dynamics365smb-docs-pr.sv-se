@@ -12,12 +12,12 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="closing-the-books"></a>Avsluta böckerna
+# Avsluta böckerna
 När du försäkrat dig om att alla dina räkenskaper är uppdaterade och du fördelat kostnader och intäkter, kan du avsluta böckerna för ett räkenskapsår eller en period.
 
 Du måste inte avsluta ett år, men när du gör det blir det enklare att arbeta i systemet eftersom du kommer att kunna utnyttja de praktiska filtreringsalternativ som finns tillgängliga. Du behöver inte heller oroa dig för att förlora detaljer om transaktioner när du avslutar eftersom alla detaljer behålls även när du har avslutat ett år.
 
-## <a name="closing-book-process"></a>Avsluta bokbearbetning
+## Avsluta bokbearbetning
 Processen för att avsluta boken innehåller dessa huvuduppgifter:
 
 1. Avsluta bokföringsperioden.
@@ -39,14 +39,14 @@ Processen för att avsluta boken innehåller dessa huvuduppgifter:
 
     Mer information finns i [Så här bokför du årsslutstransaktionen](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Vad som händer när du avslutar
+## Vad som händer när du avslutar
 När du avslutar i slutet av året flyttas intäkterna från beräknade intäkter till kontot Balanserad vinst eller förlust. Räkenskapsåret markeras också som "avslutat", och alla efterföljande transaktioner för det avslutade året markeras som "föregående års transaktioner".
 
 Sedan genereras en årsavslutstransaktion, men transaktionen bokförs inte automatiskt. Du har möjlighet att göra motkonteringar på kontot för eget kapital, vilket innebär att du kan bestämma hur du ska allokera bokföringsposten. Om företaget t. ex. har flera divisioner kan du låta en enskild årsavslutstransaktion genereras för alla divisionerna och du kan sedan göra en motkontering för varje divisions konto för eget kapital.
 
 Du kan bokföra i ett föregående räkenskapsår även efter att resultatkontona har avslutats om du kör batch-jobbet Avslut av resultatkonton igen efteråt.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

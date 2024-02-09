@@ -3,21 +3,19 @@ title: Skriva ut en plockningslista från en försäljningsorder
 description: 'Du kan skriva ut en lagerplocklista direkt från en försäljningsorder, försäljningsfaktura och andra utgående försäljningsdokument.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-the-picking-list"></a>Skriv ut plocklistan
+# Skriv ut plocklistan
 
 Du kan skriva ut en lagerplockningslista direkt från en försäljningsorder och andra dokument som inleder leverans av varor.
 
 Den här rapporten används vanligtvis i företag utan dedikerad funktionalitet för Warehouse Management, så att en lager arbetare kan visa eller skriva ut plocklistan från det relaterade försäljningsdokumentet. I företag med högre volym eller mer komplexa processer planeras och utförs leverans och plockning i dedikerade distributionslagerdokument. Läs mer i [Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>För att skriva ut en plockningslista från en försäljningsorder
+## För att skriva ut en plockningslista från en försäljningsorder
 
 Följande procedur är baserad på en försäljningsorder. Stegen är liknande för alla andra dokument som kan användas för att initiera leverans av artiklar, såsom överföringsorder.
 
@@ -31,7 +29,7 @@ Du kan också spara plockningslistan som ett dokument, t. ex. skicka till någon
 > [!NOTE]
 > Om du använde funktionen **Expandera struktur** på försäljningsordern visas bara komponenterna för den relaterade monteringsartikeln i rapporten. Mer information finns i [Arbeta med strukturer](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Lager](inventory-manage-inventory.md)  
 [Avgående distributionslagerflöde](design-details-outbound-warehouse-flow.md)
