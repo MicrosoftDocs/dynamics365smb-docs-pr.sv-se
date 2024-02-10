@@ -11,7 +11,7 @@ ms.date: 09/26/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Fördela återkommande kostnader och intäkter
+# <a name="allocate-recurring-costs-and-income"></a>Fördela återkommande kostnader och intäkter
 
 Du kan fördela en transaktion i en återkommande redovisningsjournal på flera olika konton när du bokför journalen. Mer information om återkommande redovisningsjournaler finns i [Arbeta med återkommande journaler](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -26,7 +26,7 @@ Fördelningsfunktionerna kan användas med återkommande redovisningsjournaler s
 
 I följande procedurer beskrivs hur du förbereder att fördela kostnader i en återkommande redovisningsjournal genom att definiera fördelningsnycklar. När fördelningsnycklar definieras slutför du och bokför journalen som alla andra återkommande redovisningsjournaler. Mer information finns i [Arbeta med redovisningsjournaler](ui-work-general-journals.md).
 
-## Så här skapar du fördelningsnycklar
+## <a name="to-set-up-allocation-keys"></a>Så här skapar du fördelningsnycklar
 
 Du kan fördela en transaktion i en återkommande redovisningsjournal på flera olika konton när du bokför journalen. Fördelningen kan göras efter kvantitet, procentuellt eller med ett belopp.  
 
@@ -44,13 +44,13 @@ Du kan fördela en transaktion i en återkommande redovisningsjournal på flera 
 10. Välj **OK** för att återgå till sidan **Återkommande redov.journal** fönstret, när du har angett fördelningsraderna. Fältet **Fördelat belopp (USD)** är ifyllt och matchar fältet **Belopp**.
 11. Bokför journalen.
 
-## För att ändra en fördelningsnyckel som redan har ställts in
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>För att ändra en fördelningsnyckel som redan har ställts in
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Återkommande redov.journal** och väljer sedan relaterad länk.
 2. Välj journalen med fördelningen på sidan **Återkommande redov.journal**.
 3. Välj raden med fördelningen och välj sedan åtgärden **fördelningar**.
 4. Fyll i de relevanta fälten och välj sedan knappen **OK**.
 
-## Se även
+## <a name="see-also"></a>Se även
 [Avsluta år och perioder](year-close-years-periods.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)    
 [Bokför dokument och journaler](ui-post-documents-journals.md)    
