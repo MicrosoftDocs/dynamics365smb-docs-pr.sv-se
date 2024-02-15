@@ -9,14 +9,14 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Bokföra kassationen manuellt
+# <a name="post-scrap-manually"></a>Bokföra kassationen manuellt
 
 Om kassation produceras under bearbetningen kan detta anges i utflödesjournalen.  
 
 > [!NOTE]
 > Kassationsantalet läggs inte till i utflödesantalet.  
 
-## Så här bokför du kassationen manuellt
+## <a name="to-post-scrap-manually"></a>Så här bokför du kassationen manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **utflödesjournal** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -26,7 +26,7 @@ Om kassation produceras under bearbetningen kan detta anges i utflödesjournalen
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Produktion](production-manage-manufacturing.md)
 [Konfigurera produktion](production-configure-production-processes.md)  

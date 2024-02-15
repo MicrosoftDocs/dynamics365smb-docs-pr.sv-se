@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
 ms.service: dynamics-365-business-central
 ---
-# Använda projektköer för att schemalägga uppgifter
+# <a name="use-job-queues-to-schedule-tasks"></a>Använda projektköer för att schemalägga uppgifter
 
 Använd sidan **Jobbkötransaktioner** för att schemalägga och köra specifika rapporter och kodenheter. Du kan ange att projekt ska köras en gång eller återkommande. Exempelvis vill du kanske köra rapporten **Salesperson * Sales Statistics** veckovis i syfte att spåra en säljares säljaktivitet varje vecka, eller också kanske du vill köra codeunit **Delegate Approval Requests** dagligen i syfte att förhindra att dokument ansamlas.
 
@@ -38,12 +38,12 @@ När projektköer är inställda och körs kan status ändras enligt följande i
 
 När ett projekt har slutförts korrekt, tas det bort från listan över projektkötransaktioner, om det inte är ett återkommande projekt. Om det är ett återkommande projekt justeras fältet **tidigaste starttiden** till att visa nästa gång projektet ska köras. 
 
-## Viktigt för att schemalägga återkommande projekt
+## <a name="important-for-scheduling-recurring-jobs"></a>Viktigt för att schemalägga återkommande projekt
 
 > [!IMPORTANT]  
 > Återkommande projektköer kan påverka prestanda, så du bör inte köra dem för ofta. När du anger hur ofta ett återkommande projekt ska köras bör du försöka ange det största tidsintervall som du kan. Om du till exempel ska ange en upprepning på fem minuter kan du överväga om det kan vara 15 minuter eller till och med en gång i timmen istället. När du planerar för återkommande projektköer bör du tänka på vilka områden i programmet som projektet kommer att påverka. Är det ett område där många användare arbetar och kommer att påverkas av tung aktivitet? Tänk på längden på en enda projektkörning och affärsmotivationen för att köra projekt med en viss kadens.
 
-## Tidigaste startdatum
+## <a name="the-earliest-start-date"></a>Tidigaste startdatum
 
 Värdet i fältet **Tidigaste startdatum/starttid** på sidan **Transaktionskort för projektkö** visar nästa gång projektet ska köras. Det finns flera faktorer som kan påverka om en projektköpost verkligen körs vid den tidpunkten.
 
@@ -51,7 +51,7 @@ De vanligaste faktorerna är antalet projektkötransaktioner i en miljö och det
 
 Mer information om hur du övervakar status för projektkötransaktioner finns i [Så här visar du status för alla projekt](#to-view-status-for-any-job). Mer information om driftsbegränsningar finns i [Asynkrona aktivitetsgränser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
 
-## Övervaka status eller fel i projektkön
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Övervaka status eller fel i projektkön
 
 Data som projektkön genererar lagras så att du kan felsöka fel.  
 
@@ -70,10 +70,10 @@ I följande tabell beskrivs värdena i fältet **Status**.
 > [!TIP]  
 > Jobbkötransaktioner stoppades när ett fel inträffar. Det kan till exempel vara problem när en post ansluter till en extern tjänst, till exempel en bankfeed. Om tjänsten inte är tillgänglig för tillfället och projektkötransaktionen inte kan ansluta visas ett felmeddelande i transaktionen och den stoppas. Du måste starta om projektkötransaktionen manuellt. Men fälten **Maximalt antal försök** och **Kör fördröjning igen (sek.)** kan du undvika problemet. Fältet **Maximalt antal försök** låter dig ange hur många gånger projektkötransaktionen kan misslyckas innan den slutar att försöka köras. Fältet **Kör fördröjning igen (sek.)** låter dig ange hur lång tid, i sekunder, mellan försöken. Kombinationen av dessa två fält kan behålla projektkötransaktionen tills den externa servicen blir tillgänglig.
 
-### Om Stoppad
+### <a name="about-on-hold"></a>Om Stoppad
 
 Att ange en jobbköpost till **Stoppad** påverkar inte ett jobb som redan körs. När ett jobb har startat i jobbkön fortsätter det att köras tills det är slutfört, oavsett eventuella efterföljande ändringar som görs i jobbköposten, till exempel att stoppa det.<br><br>Statusen **Stoppad** används vanligtvis för att förhindra att ett projekt startar automatiskt när det når sin schemalagda starttid. Det gör att du tillfälligt kan pausa körningen av ett jobb innan det börjar bearbetas. Men när ett jobb redan körs kommer ändringen av statusen till "Stoppad" inte att avbryta eller påverka jobbets körning.<br><br>Om du behöver stoppa eller avbryta ett jobb som körs kan du göra det genom att manuellt ingripa i processen, till exempel avsluta motsvarande session eller process som är ansvarig för att köra jobbet.
-### Så här visar du status för ett projekt
+### <a name="to-view-status-for-any-job"></a>Så här visar du status för ett projekt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **projektkötransaktioner** och välj sedan relaterad länk.
 2. På sidan **projektkötransaktioner** väljer du en projektkötransaktion, och väljer sedan åtgärden **loggposter**.  
@@ -81,7 +81,7 @@ Att ange en jobbköpost till **Stoppad** påverkar inte ett jobb som redan körs
 > [!TIP]
 > För mer djupgående analys baserad på telemetri kan du välja Application Insights i Microsoft Azure för att granska statusen för projektkötransaktioner. För att lära dig mer om telemetri, gå till [Övervaka och analysera telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) och [Analysera spårningstelemetri för livscykel för projektkö](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
-## Visa schemalagda uppgifter
+## <a name="view-scheduled-tasks"></a>Visa schemalagda uppgifter
 
 På sidan **schemalagda uppgifter** i [!INCLUDE [prod_short](includes/prod_short.md)] visas vilka uppgifter som är klara att köras i projektkön. På sidan visas också information om det företag som varje aktivitet har konfigurerats för att köras i. Endast aktiviteter som är markerade som tillhör den aktuella miljön kan dock köras.  
 
@@ -90,7 +90,7 @@ Om det aktuella företaget exempelvis finns i en miljö som är en kopia av en a
 > [!NOTE]
 > Interna administratörer och licensierade användare kan schemalägga aktiviteter så att de körs. Delegerade administratörer kan konfigurera och schemalägga aktiviteter så att de körs, men endast licensierade användare kan köra dem.
 
-## Min projektködel
+## <a name="the-my-job-queue-part"></a>Min projektködel
 
 I **Min projektködel** i ditt rollcenter visas de projektköer som du har inlett men som ännu inte slutfört. Som standard visas inte delen, så du behöver lägga till den i ditt rollcenter. Om du vill veta mer om anpassning, gå till [Anpassa arbetsyta](ui-personalization-user.md).  
 
@@ -101,28 +101,28 @@ Delen visar följande information:
 
 Delen Min projektkö ger dig också möjlighet att makulera en dokumentbokföring.
 
-### Så här kan du visa ett fel från delen Min projektkö
+### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Så här kan du visa ett fel från delen Min projektkö
 
 1. På en transaktion med statusen **fel**, väljer du åtgärden **Visa felet**.
 2. Granska felmeddelandet och lös problemet.
 
-## Exempel på vad du kan schemalägga med projektkötransaktioner
+## <a name="examples-of-what-you-can-schedule-using-job-queue-entries"></a>Exempel på vad du kan schemalägga med projektkötransaktioner
 
-### Schemalägg rapporter
+### <a name="schedule-reports"></a>Schemalägg rapporter
 
 Du kan schemalägga en rapport eller batchprojekt att köras vid ett visst datum och en viss tidpunkt. Planerade rapporter och batchprojekt anges i projektkön och behandlas vid den planerade tid, på liknande sätt som andra projekt. Du väljer alternativet **Schemalägg** när du har valt åtgärden **Skicka till**, och anger sedan information om t. ex. skrivare, tid och datum samt frekvens.  
 
 Om du vill veta mer om schemaläggning går du till [Schemaläggning av en rapport som ska köras](ui-work-report.md#ScheduleReport)
 
-### Schemalägg synkronisering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="schedule-synchronization-between--and-includeprod_short"></a>Schemalägg synkronisering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Om du har integrerat [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)] kan projektkön schemalägga när data ska synkroniseras. Beroende på vilken riktning och vilka regler du definierat kan projektkötransaktionen skapa poster i ett program för att matcha poster i den andra. Ett bra exempel är när du registrerar en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)] en projektkötransaktion kan du ange den kontakten åt dig i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du vill veta mer om schemaläggning, gå till [Schemalägga en synkronisering mellan Business Central och Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### Schemalägg när du ska bokföra försäljnings- och inköpsorder
+### <a name="schedule-when-to-post-sales-and-purchase-orders"></a>Schemalägg när du ska bokföra försäljnings- och inköpsorder
 
 Med hjälp av projektkötransaktioner kan du schemalägga affärsprocesser så att de körs i bakgrunden. Till exempel är bakgrundsuppgifter användbara när då flera användare bokför försäljningsorder samtidigt, men endast en order kan behandlas i taget. Om du vill veta mer om bakgrundsbokföring går du till [Så här ställer du in bakgrundsbokföring med projektköer](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
 
-## Hantera problem med projektkötransaktioner
+## <a name="handle-job-queue-entry-issues"></a>Hantera problem med projektkötransaktioner
 
 Om en projektkötransaktion visar ett fel, är ditt första alternativ att lösa problemet att starta om projektkötransaktionen. Du kan ställa in statusen för projektkötransaktionen till **Stoppad** och sedan **Klar** eller bara starta om den.
 
@@ -140,13 +140,13 @@ Om du kontaktar Microsoft-partnern eller Microsoft för support bör du ange fö
 > * För tidigare versioner anger du en skärmbild av sidan **Loggposter för projektkö**.
 > * För senare versioner använder du åtgärden **Kopiera detaljer** på sidan Loggposter för projektkö för att kopiera informationen (projektkö-ID, tidsstämpel och tidszon).
 
-## Övervaka projektkön med telemetri
+## <a name="monitor-the-job-queue-with-telemetry"></a>Övervaka projektkön med telemetri
 
 Administratörer kan använda [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) för att samla in och analysera telemetri för att identifiera problem. För att lära dig mer om telemetri, gå till [Övervaka och analysera telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) och [Analysera spårningstelemetri för livscykel för projektkö](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 Med hjälp av telemetri kan administratörer ställa in aviseringar på de projektköer som skickar ett textmeddelande, e-postmeddelande eller ett meddelande i Teams om något inte är rätt. Om du vill veta mer om dessa aviseringar går du till [Avisering om telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Administration](admin-setup-and-administration.md)  
 [Ställa in Business Central](setup.md)  
