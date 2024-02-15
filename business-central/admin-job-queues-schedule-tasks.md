@@ -63,16 +63,19 @@ I följande tabell beskrivs värdena i fältet **Status**.
 |--|--|
 | Klar | Jobbkötransaktionen är redo att köras. |
 | Pågående | Jobbkötransaktionen pågår. Det här fältet uppdateras medan projektkön körs. |
-| Stoppad | Standardstatusen för projektkötransaktionen när den skapas. Välj åtgärden **Ställ in statusen som Klar** för att ändra statusen till **Klar**. Välj åtgärden **Stoppa** om du vill återställa till **Stoppad**. |
+| Stoppad | Standardstatusen för projektkötransaktionen när den skapas. Välj åtgärden **Ställ in statusen som Klar** för att ändra statusen till **Klar**. Välj åtgärden **Stoppa** om du vill återställa till **Stoppad**. Mer information finns i [Om Stoppad](#about-on-hold).|
 | Fel | Något gick fel. Välj **Visa fel** för att visa felmeddelandet. |
 | Slutförd | Jobbkötransaktionen har slutförts. |
 
-> [!Tip]  
+> [!TIP]  
 > Jobbkötransaktioner stoppades när ett fel inträffar. Det kan till exempel vara problem när en post ansluter till en extern tjänst, till exempel en bankfeed. Om tjänsten inte är tillgänglig för tillfället och projektkötransaktionen inte kan ansluta visas ett felmeddelande i transaktionen och den stoppas. Du måste starta om projektkötransaktionen manuellt. Men fälten **Maximalt antal försök** och **Kör fördröjning igen (sek.)** kan du undvika problemet. Fältet **Maximalt antal försök** låter dig ange hur många gånger projektkötransaktionen kan misslyckas innan den slutar att försöka köras. Fältet **Kör fördröjning igen (sek.)** låter dig ange hur lång tid, i sekunder, mellan försöken. Kombinationen av dessa två fält kan behålla projektkötransaktionen tills den externa servicen blir tillgänglig.
 
+### Om Stoppad
+
+Att ange en jobbköpost till **Stoppad** påverkar inte ett jobb som redan körs. När ett jobb har startat i jobbkön fortsätter det att köras tills det är slutfört, oavsett eventuella efterföljande ändringar som görs i jobbköposten, till exempel att stoppa det.<br><br>Statusen **Stoppad** används vanligtvis för att förhindra att ett projekt startar automatiskt när det når sin schemalagda starttid. Det gör att du tillfälligt kan pausa körningen av ett jobb innan det börjar bearbetas. Men när ett jobb redan körs kommer ändringen av statusen till "Stoppad" inte att avbryta eller påverka jobbets körning.<br><br>Om du behöver stoppa eller avbryta ett jobb som körs kan du göra det genom att manuellt ingripa i processen, till exempel avsluta motsvarande session eller process som är ansvarig för att köra jobbet.
 ### Så här visar du status för ett projekt
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **projektkötransaktioner** och välj sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **projektkötransaktioner** och välj sedan relaterad länk.
 2. På sidan **projektkötransaktioner** väljer du en projektkötransaktion, och väljer sedan åtgärden **loggposter**.  
 
 > [!TIP]
