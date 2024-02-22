@@ -2,13 +2,14 @@
 title: Skapa en kundförsäljningsreturorder och sälja produkter
 description: Beskriver hur du skapar en försäljningsorder för att registrera ditt avtal med en kund om att sälja eller handla med produkter som omfattas av särskilda villkor.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Sälja produkter med en kundförsäljningsreturorder
 
@@ -89,6 +90,12 @@ Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljn
 ## Externt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Arbeta med beloppsfält
+
+Värdena i fälten som visar belopp kan vara positiva eller negativa, beroende på om värdet motsvarar en kredit eller debet. Den här videon visar hur du arbetar med fält som visar belopp.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Se även
 

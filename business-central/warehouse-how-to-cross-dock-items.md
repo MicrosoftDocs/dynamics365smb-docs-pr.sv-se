@@ -8,12 +8,13 @@ ms.topic: conceptual
 ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: '15, 5703, 7302, 7332, 5768'
+ms.service: dynamics-365-business-central
 ---
-# <a name="cross-dock-items"></a>Beräkna direktutleverans av artiklar
+# Beräkna direktutleverans av artiklar
 
 Artiklar för direktutleverans är artiklar som du tar emot och levererar utan att de tas bort. Processerna för artikelinförsel och plockning kräver begränsad hantering av artiklar. Du kan direktutleverera artiklar för utleveranser och för produktionsorder.
 
-## <a name="cross-dock-bins-and-zones"></a>Lagerplatser och zoner för direktutleverans
+## Lagerplatser och zoner för direktutleverans
 
 Om du använder lagerplatser registrerar du minst en lagerplats för direktutleverans och anger lagerplatsen i fältet **Direktutleverans lagerställeskod** på lagerställena. Om du använder dirigerad artikelinförsel och plockning ställer du in en zon för direktutleverans.
 
@@ -21,13 +22,13 @@ När du förbereder en utleverans eller plockar artiklar i produktionssyfte, och
 
 Om du har beräknat kvantiteter för direktutleverans, skapas automatiskt artikelinförselrader i lagerstället för direktutleveranser för beräkning av direktutleveranser när inleveransen bokförs. Övriga artikelinförselrader skapas som vanligt.  
 
-## <a name="cross-dock-select-lines-for-a-receipt"></a>Direktutleverans markera rader för en inleverans
+## Direktutleverans markera rader för en inleverans
 
 Om du vill bokföra artiklarna för direktutleverans direkt, så att de blir tillgängliga för plockning, måste du även registrera en artikelinförsel för de övriga artiklarna som kommer från inleveransraden, nämligen de som måste lagras. Om endast några av artiklarna på en inleveransrad direktutlevereras måste du därför försöka införa de återstående artiklarna så snabbt som möjligt. Alternativt kan lagerprincipen vara att uppmuntra direktutleverans av hela inleveransrader närhelst det är möjligt.
 
 I instruktionen för artikelinförsel tar du bort instruktionsraderna för ta och placera för varje inleveransrad för artiklarna som ska föras in. Du kan återskapa instruktionsraderna senare eftersom artikelinförselrader från artikelinförselförslaget eller den bokförda inleveransen. När du har tagit bort instruktionsraderna kan du föra in och registrera raderna för artiklar för direktutleverans.  
 
-## <a name="about-the-put-away-worksheet-page"></a>Sidan Om artikelinförselförslag
+## Sidan Om artikelinförselförslag
 
 Om du aktiverar växlingsknappen **Använd artikelinförselkalkylark** på sidan **Lagerställekort** och bokförde inleveransen med beräknade direktutleveranser, blir samtliga inleveransrader tillgängliga i kalkylarket. Informationen om direktutleveranserna försvinner och kan inte återskapas. Därför bör du, om du vill använda funktionerna för direktutleverans, lägga om rader till artikelinförselkalkylarket genom att ta bort instruktioner för artikelinförseln i stället för att använda motsvarande automatiska funktion i fältet **Använd artikelinförselkalkylark**.  
 
@@ -39,15 +40,15 @@ Om du bokför lagerinleveransen, och växlingsknappen **Använd artikelinförsel
 
 [!INCLUDE [prod_short](includes/prod_short.md)] håller inte separata poster för direktutlevererade artiklar. De registreras som vanliga artikelinförsel instruktioner.  
 
-## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Så här konfigurerar du lagret för direktutleveranser:
+## Så här konfigurerar du lagret för direktutleveranser:  
 
 1. Ange minst en lagerplats för direktutleverans, om du använder lagerplatser. Om du använder dirigerad artikelinförsel och plockning ställer du in en zon för direktutleverans.  
 
-    En direktutleveranslagerplats har **Direktutlevns lagerplats** fältet markerat och måste ha både **Inleverera** och **Plockning** lagerplatstyper valda. Om du vill lära dig mer om lager platser går du till [skapa lagerplatser](warehouse-how-to-create-individual-bins.md) och [skapar lagerplatstyper](warehouse-how-to-set-up-bin-types.md).  
+    En lagerplats för direktutleveranser har **Direktutleveranslagerställe** markerat. Mer information om lagerplatser finns i [Skapa lagerplatser](warehouse-how-to-create-individual-bins.md).  
 
-    Om du använder zoner, skapa en zon för dina direktutleveranslagerställen och välj **Direktutlevns lagerplatszon** fältet. Om du vill ha mer information om zoner går du till [Registrera lagerställen för att använda lagerställen](warehouse-how-to-set-up-locations-to-use-bins.md).  
+    Om du använder zoner, skapa en zon för dina direktutleveranslagerställen och välj **Direktutlevns lagerplatszon** fältet. Om du använder dirigerad artikelinförsel och plockning väljer du lagerplatstyp med **Plocka** markerat, du kan till exempel använda *PLOCKA* eller *ARTINFPLOC*. Mer information om zoner och typer av lagerställen finns [Registrera lagerställen för att använda lagerplatser](warehouse-how-to-set-up-locations-to-use-bins.md) och [Skapa lagerplatstyper](warehouse-how-to-set-up-bin-types.md).  
 
-2. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Plats** och väljer sedan relaterad länk.  
+2. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Plats** och väljer sedan relaterad länk.  
 3. På sidan **Lagerställe** väljer du vilket lagerställe som du vill ställa in direktutleverans för och väljer sedan åtgärden **Redigera**.  
 4. På snabbfliken **Distributionslager** på växlingsknappen **Använd direktutleverans** och fyll i fältet **Direktutlev. förfalloberäkning** med tidsperiod att söka efter direktutleveransmöjligheter.
 
@@ -61,7 +62,7 @@ Om du bokför lagerinleveransen, och växlingsknappen **Använd artikelinförsel
 > [!NOTE]  
 >  Du kan bara använda direktutleveranser om lagerstället är inställt på inleverans- och artikelinförselbearbetning för distributionslagret.  
 
-## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Så här direktutlevererar du artiklar utan att visa möjligheterna:
+## Så här direktutlevererar du artiklar utan att visa möjligheterna:  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
 2. Skapa distributionslagerinleverans för en artikel som har anlänt och som eventuellt kan komma att direktutlevereras. För att lära dig mer om mottagning, gå till [Ta emot artiklar](warehouse-how-receive-items.md).  
@@ -79,7 +80,7 @@ Om du bokför lagerinleveransen, och växlingsknappen **Använd artikelinförsel
 6. Skriv ut artikelinförselinstruktionen för återstående rader och placera det antal av inleveransen som ska lagras på lämpliga lagerställen eller i lämpligt lagerområde. Placera artiklarna för direktutleverans i lämpligt område eller lagerplats enligt gällande lagerprincip. Ibland kan det krävas att de bara ska lämnas i inleveransområdet.  
 7. Välj åtgärden **Registrera** för att registrera de direktutlevererade artiklarna som införda och tillgängliga för plockning.  
 
-## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Så här direktutlevererar du artiklar när du har visat möjligheterna:
+## Så här direktutlevererar du artiklar när du har visat möjligheterna:  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Dist.lager inleveranser** och väljer sedan relaterad länk.  
 2. Skapa distributionslagerinleverans för en artikel som har anlänt och som eventuellt kan komma att direktutlevereras.  
@@ -99,7 +100,7 @@ Om du bokför lagerinleveransen, och växlingsknappen **Använd artikelinförsel
     > [!NOTE]  
     > Vid lagerartikelinförseln kan du fortsätta att ändra antalet artiklar som direktutlevereras eller förs in i lager alltefter behov. Till exempel kanske du bestämmer dig för att direktutleverera ytterligare artiklar för att expediera registreringen av direktutleveransen.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Så här visar du direktutlevererade artiklar i utleveranser eller plockningskalkylark
+## Så här visar du direktutlevererade artiklar i utleveranser eller plockningskalkylark  
 
 Om du använder lagerplatser, när du öppnar en försändelse eller plockningsarket, uppdateras kvantiteten av varje artikel i lagerplatserna för direktutleveranser. När du ser att artikeln är tillgänglig på lagerstället för direktutleveranser kan du sedan skapa en plockning för artiklarna i utleveransen. I plockningskalkylarket kan du redigera raderna efter behov.  
 
@@ -107,7 +108,7 @@ När en produktionsorder släpps är raderna tillgängliga i plockningskalkylark
 
 Om du inte använder lagerställen måste du komma ihåg att då och då kontrollera området för direktutleveranser eller förlita dig på meddelanden från inleveranser om att artiklar för produktion har anlänt.  
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Lager](inventory-manage-inventory.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)     

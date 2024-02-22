@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-and-fulfill-sales-orders"></a>Synkronisera och uppfylla försäljningsordrar
+# Synkronisera och uppfylla försäljningsordrar
 
 I den här artikeln beskrivs nödvändiga inställningar och steg som måste slutföras för att synkronisera och uppfylla försäljningsordrar från Shopify i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Ange import av ordrar på Shopify-butikskortet
+## Ange import av ordrar på Shopify-butikskortet
 
 Ange en **valutakod** om din onlinebutik använder en annan valuta än den lokala valutan (BVA). Den angivna valutan måste ha växlingskurser konfigurerade. Lämna fältet tomt om din onlinebeställning använder samma valuta som [!INCLUDE[prod_short](../includes/prod_short.md)]. 
 
-Du kan få granska butiksvalutan i inställningarna [butiksinformation](https://www.shopify.com/admin/settings/general) i din Shopify Admin. Shopify kan konfigureras så att olika valutor accepteras, men importerade order kan användas i [!INCLUDE[prod_short](../includes/prod_short.md)] butiksvaluta.
+Du kan få åtkomst till butiksvalutan i inställningarna för [butiksinformation](https://www.shopify.com/admin/settings/general) i din Shopify Admin. Shopify kan konfigureras så att olika valutor accepteras, men importerade order kan användas i olika butiksvalutor. Importerade order till [!INCLUDE[prod_short](../includes/prod_short.md)] använder dock butiksvaluta.
 
 En vanlig Shopify-order kan inkludera kostnader förutom delsumman, till exempel fraktkostnader eller dricks. Dessa belopp bokförs direkt till det redovisningskonto som du vill använda för specifika transaktionstyper:
 
@@ -33,7 +33,7 @@ Om du vill släppa ett försäljningsdokument automatiskt aktiverar du alternati
 Om du väljer fältet **Shopify ordernr på dokumentraden**, [!INCLUDE [prod_short](../includes/prod_short.md)] sätter in försäljningsraden **Kommentar** med Shopify ordernummer.
 
 >[!NOTE]
->Försäljningsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] länkar till  Shopify-ordern och du kan lägga till fältet **Shopify ordernr.** Fält till listan eller kortsidorna för försäljningsorder, fakturor och leveranser. Om du vill veta mer om hur du lägger till ett fält går du till [Börja anpassa en sida med banderollen **Anpassa**](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+>Försäljningsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] länkar till  Shopify-ordern och du kan lägga till fältet **Shopify ordernr.** Fält till listan eller kortsidorna för försäljningsorder, fakturor och leveranser. Om du vill veta mer om hur du lägger till ett fält går du till [Börja anpassa med hjälp av anpassningsläget](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 I fältet **Skatteområdesprioritet** prioritera hur man väljer ett momsriktnummer för adresser på beställningar. Den Shopify order du importerade innehåller information om moms. Moms beräknas om när du skapar försäljnings dokumentet, så det är viktigt att moms- eller skatteinställningar är korrekta i [!INCLUDE[prod_short](../includes/prod_short.md)]. Mer information om moms finns i [ställa in moms för Shopify anslutningen](setup-taxes.md).
 
@@ -45,12 +45,12 @@ Ange hur du bearbetar returer och återbetalningar:
 
 Ange en plats för returer och redovisningskonton för återbetalningar för varor och andra återbetalningar.
 
-* **Refund Account non-restock Items** – Anger ett redovisningskontonummer för artiklar där du inte vill ha en lagerrättelse.
-* **Återbetalningskonto** – Anger ett redovisningskontonummer för differensen mellan det totala återbetalade beloppet och det totala beloppet för artiklarna.
+* **Refund Account non-restock Items** anger ett redovisningskontonummer för artiklar där du inte vill ha en lagerrättelse.
+* **Återbetalningskonto** anger ett redovisningskontonummer för differensen mellan det totala återbetalade beloppet och det totala beloppet för artiklarna.
 
 Lär dig mer om [Returer och återbetalningar](synchronize-orders.md#returns-and-refunds)
 
-### <a name="shipment-method-mapping"></a>Mappning av utleveransmetoder
+### Mappning av utleveransmetoder
 
 **Kod för utleveransmetod** för försäljningsdokument som importeras från Shopify kan fyllas i automatiskt. Du måste konfigurera **Mappning av utleveransmetoder**.
 
@@ -63,7 +63,7 @@ Lär dig mer om [Returer och återbetalningar](synchronize-orders.md#returns-and
 > [!NOTE]  
 > Om flera leveranskostnader är kopplade till en försäljningsorder väljs endast en som utleveransmetod och tilldelas försäljningsdokument.
 
-### <a name="location-mapping"></a>Mappning av platser
+### Mappning av platser
 
 Lagerställesmappningen krävs för att fylla i **lagerställeskoden** för försäljningsdokumentrader som importeras från Shopify. Detta är viktigt om växlingsknappen **Lagerställe ska finnas** aktiveras kort för **Lagerinställningar** annars kommer du inte att kunna skapa försäljningsdokument.
 
@@ -74,9 +74,9 @@ Lagerställesmappningen krävs för att fylla i **lagerställeskoden** för för
 5. Ange **Kod för standardlagerställe** med motsvarande plats i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 > [!NOTE]  
-> Lagerställesmappning används också för att synkronisera inventeringen – för mer information, se [Synkronisera lager med Shopify](synchronize-items.md#sync-inventory-to-shopify).
+> Platsmappning används också för att synkronisera lager. Om du vill ha mer information går du till [Synkronisera lager till Shopify](synchronize-items.md#sync-inventory-to-shopify).
   
-## <a name="run-the-order-synchronization"></a>Kör ordersynkronisering
+## Kör ordersynkronisering
 
 Följande förfarande beskriver hur du importerar och uppdaterar försäljningsordrar.
 
@@ -91,8 +91,8 @@ Följande förfarande beskriver hur du importerar och uppdaterar försäljningso
 4. Välj åtgärden **Synkronisera ordrar från Shopify**.
 5. Definiera filter för ordrar vid behov. Du kan till exempel importera helt betalda ordrar eller de som har låg risknivå.
 
-> [!NOTE]  
-> När du filtrerar efter tagg bör du använda filtertoken `@` och `*`. Om du t. ex. vill importera order som innehåller *tag1* använder du `@*tag1*`. `@` kommer att säkerställa att resultatet är skiftlägesokänsligt, medan `*` hitta beställningar med flera taggar.
+   > [!NOTE]  
+   > När du filtrerar efter tagg bör du använda filtertoken `@` och `*`. Om du t.ex. vill importera order som innehåller *tag1* använder du `@*tag1*`. `@` kommer att säkerställa att resultatet är skiftlägesokänsligt, medan `*` hitta beställningar med flera taggar.
 
 6. Välj **OK**.
 
@@ -100,24 +100,25 @@ Du kan också söka efter batchjobbet **Synkronisera ordrar från Shopify**.
 
 Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Läs mer i [Schemalägg återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
-### <a name="under-the-hood"></a>Under huven
+### Under huven
 
 Shopify anslutningsprogram importerar order i två steg:
 
-1.  Order rubriker importeras till tabellen **Shopify order som ska importeras** när de matchar vissa villkor:
+1. Order rubriker importeras till tabellen **Shopify order som ska importeras** när de matchar vissa villkor:
     
-* De arkiveras. Det innebär att du kan inkludera eller utesluta order från synkronisering genom att arkivera eller ta bort arkiveringen i Shopify-administratören.
-* De skapades eller ändrades efter den senaste synkroniseringen. Det innebär att du kan tvinga fram återimport av en viss order om du ändrar den, till exempel genom att lägga till **Anteckningar** eller **Tagg**.
+   * De arkiveras. Det innebär att du kan inkludera eller utesluta order från synkronisering genom att arkivera eller ta bort arkiveringen i Shopify-administratören.
+   * De skapades eller ändrades efter den senaste synkroniseringen. Det innebär att du kan tvinga fram återimport av en viss order om du ändrar den, till exempel genom att lägga till **Anteckningar** eller **Tagg**.
 
-2.  Den importerar Shopify order och kompletterande information.
-* Shopify anslutningsprogram behandlar alla poster i tabellen **Shopify ordern som ska importeras** som matchar de filter kriterier som du har angett på sidan för förfrågan **Synkronisera order från Shopify**. Exempelvis taggar, kanal eller status för uppfyllelse. Om du inte har angett några filter behandlas alla poster.
-* Vid import av Shopify-order, begär Shopify-anslutningsprogrammet ytterligare information från Shopify:
+2. Den importerar Shopify order och kompletterande information.
 
-    * Orderhuvuden
-    * Orderrader
-    * Information om leverans och uppfyllelse
-    * Transaktioner
-    * Returer och återbetalningar, om detta konfigureras
+   * Shopify anslutningsprogram behandlar alla poster i tabellen **Shopify ordern som ska importeras** som matchar de filter kriterier som du har angett på sidan för förfrågan **Synkronisera order från Shopify**. Exempelvis taggar, kanal eller status för uppfyllelse. Om du inte har angett några filter behandlas alla poster.
+   * Vid import av Shopify-order, begär Shopify-anslutningsprogrammet ytterligare information från Shopify:
+
+     * Orderhuvuden
+     * Orderrader
+     * Information om leverans och uppfyllelse
+     * Transaktioner
+     * Returer och återbetalningar, om detta konfigureras
 
 Sidan **Shopify-order att importera** är användbar när du felsöker problem med orderimport. Du kan bedöma vilka order som är tillgängliga och vidta följande steg:
 
@@ -125,18 +126,18 @@ Sidan **Shopify-order att importera** är användbar när du felsöker problem m
 * Endast processer för specifika order. Du måste fylla i **Butikskod**, välj en eller fler order och sedan åtgärden **Importera valda order** .
 * Ta bort order från sidan **Shopify-order att importera** för att undanta dem från synkroniseringen.
 
-## <a name="review-imported-orders"></a>Granska importerade order
+## Granska importerade order
 
 När importen är klar kan du utforska Shopify beställa och hitta all relaterad information, såsom betalningstransaktioner, fraktkostnader, risknivå, orderattribut och taggar eller uppfyllelser, om beställningen redan utfördes i Shopify. Du kan också se orderbekräftelser som har skickats till kunden genom att välja åtgärden **Shopify-statussida**.
 
 > [!NOTE]  
 > Du kan navigera till fönstret **Shopify-ordrar** direkt, så visas ordrar med statusen *Öppen* från alla butiker. För att granska slutförda ordrar måste du öppna sidan **Shopify-ordrar** från fönstret **Shopify-butikskort**.
 
-## <a name="create-sales-documents-in-business-central"></a>Skapa försäljningsdokument i Business Central
+## Skapa försäljningsdokument i Business Central
 
 Om reglaget **Skapa ordrar automatiskt** har aktiverats på **Shopify-butikskortet** försöker [!INCLUDE[prod_short](../includes/prod_short.md)] att skapa ett försäljningsdokument när ordern har importerats. Om problem som en saknad kund eller produkt uppstår måste du åtgärda problemen och sedan skapa försäljningsordern igen.
 
-### <a name="to-create-sales-documents"></a>Skapa försäljningsdokument
+### Skapa försäljningsdokument
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Shopify butik** och väljer sedan relaterad länk.
 2. Välj den butik som du vill synkronisera ordrar för och öppna sidan **Shopify-butikskort**.
@@ -148,7 +149,7 @@ Om Shopify-ordern måste uppfyllas skapas **försäljningsordern**. För uppfyll
 
 Ett försäljningsdokument skapas nu och kan hanteras med hjälp av standardfunktionerna i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### <a name="manage-missing-customers"></a>Hantera saknade kunder
+### Hantera saknade kunder
 
 Om inställningarna gör att en kund inte kan skapas automatiskt och en befintlig kund inte kan hittas tilldelar du en kund till Shopify-ordern manuellt. Detta kan göras på några få sätt:
 
@@ -156,7 +157,7 @@ Om inställningarna gör att en kund inte kan skapas automatiskt och en befintli
 * Du kan välja en kundmallskod, skapa och tilldela kunden via åtgärden **Skapa ny kund** i **Shopify-ordern**. Observera att Shopify-kunden måste ha minst en adress. Order som skapats via Shopify POS försäljningskanal saknar ofta adressinformation.
 * Du kan mappa befintliga kunder till relaterade **Shopify-kunder** i fönstret **Shopify-kunder** och sedan välja åtgärden **Hitta mappning** i **Shopify-ordern**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Så väljer kopplingen vilken kund som ska användas
+### Så väljer kopplingen vilken kund som ska användas
 
 Funktionen *Importera order från Shopify* försöker att välja kunder i följande ordning:
 
@@ -172,7 +173,7 @@ Nästa steg beror på **Kundmappningstyp**.
 > [!NOTE]  
 > Kopplingen använder information från faktureringsadressen och skapar en faktureringskund i [!INCLUDE[prod_short](../includes/prod_short.md)]. Försäljningskunden är densamma som faktureringskunden.
 
-### <a name="different-processing-rules-for-orders"></a>Olika bearbetningsregler för order
+### Olika bearbetningsregler för order
 
 Du kanske vill hantera order på olika sätt utifrån en regel. Order från en specifik försäljningskanal, som kassa, bör därför använda standardkunden, men du vill att din onlinebutik ska ha verklig information om kunden.
 
@@ -181,20 +182,20 @@ Ett sätt att ta itu med detta är att skapa ett extra Shopify-butikskort och an
 Exempel: du har både onlinebutik och Shopify kassa. För din kassa vill du använda en fast kund, men för onlinebutiken vill du skapa kunder i [!INCLUDE[prod_short](../includes/prod_short.md)]. I proceduren nedan beskrivs de steg på hög nivå som visas. Mer information finns i motsvarande hjälpartiklar.
 
 1. Skapa en Shopify butik kallad *BUTIK* och koppla den till ditt Shopify-konto.
-2. Konfigurera synkronisering av artikel/produkt så att den här butiken hanterar produktinformation.
-3. Ange att kunderna importeras med order. Kontakten ska hitta kunder genom att söka efter sin e-postadress. Om det inte finns någon adress används kundmallen för att skapa en ny kund.
-4. Skapa en Shopify butik kallad *KASSA* och koppla den till samma Shopify-konto.
-6. Kontrollera att synkronisering av artikel/produkt har inaktiverats.
-7. Välj det anslutningsprogram som använder standardkunden.
-8. Skapa en återkommande jobbkötransaktion för rapport 30104 **Synkronisera order från Shopify**. Välj **BUTIK** i fältet **Shopify butikskod** och använd filter för att hämta alla order utom de som skapas av kassans försäljningskanal. Till exempel **<>Buktikskassa**
-9. Skapa en återkommande jobbkötransaktion för rapport 30104 **Synkronisera order från Shopify**. Välj **KASSA** i fältet **Shopify butikskod** och använd filter för att hämta order som genererats av kassans försäljningskanal. Till exempel, **butikskassa**.
+1. Konfigurera synkronisering av artikel/produkt så att den här butiken hanterar produktinformation.
+1. Ange att kunderna importeras med order. Kontakten ska hitta kunder genom att söka efter sin e-postadress. Om det inte finns någon adress används kundmallen för att skapa en ny kund.
+1. Skapa en Shopify butik kallad *KASSA* och koppla den till samma Shopify-konto.
+1. Kontrollera att synkronisering av artikel/produkt har inaktiverats.
+1. Välj det anslutningsprogram som använder standardkunden.
+1. Skapa en återkommande jobbkötransaktion för rapport 30104 **Synkronisera order från Shopify**. Välj **BUTIK** i fältet **Shopify butikskod** och använd filter för att hämta alla order utom de som skapas av kassans försäljningskanal. Till exempel **<>Buktikskassa**
+1. Skapa en återkommande jobbkötransaktion för rapport 30104 **Synkronisera order från Shopify**. Välj **KASSA** i fältet **Shopify butikskod** och använd filter för att hämta order som genererats av kassans försäljningskanal. Till exempel, **butikskassa**.
 
 Varje jobbkö kommer att importera och bearbeta order inom de definierade filtren och använda reglerna från motsvarande Shopify butikskort. De skapar till exempel försäljningsorder för standardkunden.
 
 >[!Important]
-> För att undvika konflikter när du behandlar order måste du komma ihåg att använda samma jobbkö för båda jobbkötransaktionerna.
+> För att undvika konflikter när du behandlar order måste du använda samma jobbkö för båda jobbkötransaktionerna.
 
-### <a name="impact-of-order-editing"></a>Effekten av orderredigering
+### Effekten av orderredigering
 
 I Shopify:
 
@@ -214,13 +215,13 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Redigera|Effekt|
 |------|-----------|
-|Ändra platsen till en annan plats, mappad till Shopify platserna. Bokför leverans. | Ordern markeras som uppfylld. Den ursprungliga platsen kommer att användas. |
+|Ändra platsen till en annan plats, mappad till Shopify platserna. Bokför leverans. | Ordern kommer att markera som uppfylld. Den ursprungliga platsen kommer att användas. |
 |Ändra platsen till en annan plats, mappad inte till Shopify platserna. Bokför leverans. | Uppfyllelse kommer inte att synkroniseras med Shopify. |
 |Minska antal. Bokför leverans. | Ordern i Shopify markeras som delvis uppfylld. |
 |Öka antal. Bokför leverans. | Uppfyllelse kommer inte att synkroniseras med Shopify. |
 |Lägg till ett nytt objekt. Bokför leverans. | Ordern i Shopify markeras som uppfylld. Raderna uppdateras inte. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Synkronisera försändelser till Shopify
+## Synkronisera försändelser till Shopify
 
 När en försäljningsorder som skapas från en Shopify-order skickas kan du synkronisera försändelserna till Shopify.
 
@@ -239,7 +240,7 @@ Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. L�
 
 Glöm inte att köra **Synkronisera ordrar från Shopify** för att uppdatera uppfyllandestatusen för ordern i [!INCLUDE[prod_short](../includes/prod_short.md)]. Kopplingsfunktionen arkiverar också helt betalda och uppfyllda ordrar i både Shopify och [!INCLUDE[prod_short](../includes/prod_short.md)] under förutsättning att villkoren uppfylls. 
 
-### <a name="shipping-agents-and-tracking-url"></a>Speditörer och spårnings-URL
+### Speditörer och spårnings-URL
 
 Om dokumentet **Bokförd utleverans** innehåller **Speditörskod** och/eller **Paketspårningsnr** skickas den här informationen till Shopify och slutkunder i ett e-postmeddelande med bekräftelse på försändelsen.
 
@@ -251,7 +252,7 @@ Spårningsföretaget fylls i följande ordning (från högsta till lägsta) base
 
 Om fältet **Spårnings-URL för paket** har fyllts i för posten Speditör innehåller också försändelsebekräftelsen en spårnings-URL.
 
-## <a name="returns-and-refunds"></a>Returer och återbetalningar
+## Returer och återbetalningar
 
 I en integration mellan  Shopify och [!INCLUDE[prod_short](../includes/prod_short.md)] är det viktigt att kunna synkronisera så mycket affärsdata som möjligt. Det gör det enklare att hålla ekonomi- och lagernivåerna aktuella i [!INCLUDE[prod_short](../includes/prod_short.md)]. De data som du kan synkronisera innehåller returer och återbetalningar som registrerats i Shopify administration eller Shopify kassa.
 
@@ -260,6 +261,7 @@ Returer och återbetalningar importeras med tillhörande order om du har aktiver
 Returer importeras endast i informationssyfte. Det finns ingen bearbetningslogik associerad med dem.
 
 Ekonomi och, om det behövs, lagertransaktioner bearbetas via återbetalningar. Återbetalningar kan inkludera produkter eller bara belopp, t.ex. om en handlare har beslutat att kompensera fraktavgifter eller något annat belopp.
+
 Du kan skapa försäljningskreditnotor för återbetalningar. Kreditnotorna kan ha följande typer av rader:
 
 |Kontakttyp|Nr.|Kommentar|
@@ -270,9 +272,9 @@ Du kan skapa försäljningskreditnotor för återbetalningar. Kreditnotorna kan 
 |Redovisningskonto| Återbetalningskonto | Använd för andra återbetalade belopp som inte är relaterade till produkter eller presentkort. Exempelvis tips eller om du manuellt angav ett belopp att återbetala i Shopify. |
 
 >[!Note]
->Returplatsen, inklusive tomma platser, som definieras i **Shopify butikskortet** , används på den skapade kreditnotan. De ursprungliga platserna ignoreras från order eller leveranser.
+>Returplatserna, inklusive tomma platser, som definieras i **Shopify butikskortet** , används på den skapade kreditnotan. De ursprungliga platserna ignoreras från order eller leveranser.
 
-## <a name="gift-cards"></a>Presentkort
+## Presentkort
 
 I Shopify-butiken kan du sälja presentkort, som senare kan användas till att betala för riktiga produkter.
 
@@ -280,6 +282,6 @@ När du hanterar presentkort är det viktigt att ange ett värde i fältet **Kon
 
 För att granska de utfärdare och använda presentkorten väljer du ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och anger **Presentkort** och väljer sedan relaterad länk.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kom igång med kopplingen för Shopify](get-started.md)  

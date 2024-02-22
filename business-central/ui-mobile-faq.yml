@@ -33,13 +33,13 @@ sections:
           | Åtgärder i åtgärdsfältet | Endast prioriterade åtgärder visas. | Endast prioriterade åtgärder visas. |  |
           | Faktarutor | Visas inte på listsidor eller förslagssidor. | Visas inte på listsidor eller förslagssidor. | Listan `Customer` i rollcentret för `Small Business`. |
           | Avancerade filter | Det finns ingen kolumn-specifik filtrering tillgänglig. | Det finns ingen kolumn-specifik filtrering tillgänglig. | På listsidan `Customer`. |
-          | Berätta | Det måste aktiveras i [Funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management) med hjälp av reglaget **Funktion: Sök efter sidor och datar i mobilappen**. Avsnittet **Hämta från Microsoft AppSource** i resultaten för program är inte tillgängligt. | Samma som surfplattor | Se [Söka efter sidor och information med Berätta](ui-search.md). |  |
-          | Rollutforskaren | Inte tillgängligt än. | Inte tillgängligt än. | Se [Söka efter sidor med Rollutforskaren](ui-role-explorer.md). |
+          | Berätta | Det måste aktiveras i [Funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management) med hjälp av reglaget **Funktion: Sök efter sidor och datar i mobilappen**. Avsnittet **Hämta från Microsoft AppSource** i resultaten för program är inte tillgängligt. | Samma som surfplattor | Gå till [Söka efter sidor och information med Berätta](ui-search.md). |  |
+          | Rollutforskaren | Inte tillgängligt än. | Inte tillgängligt än. | Gå till [Söka efter sidor med Rollutforskaren](ui-role-explorer.md). |
           | Fält på snabbflikar | Fält i snabbflikar på listsidor visas inte. Endast repeaterkontrollen visas i sidans innehållsområde. | Inte tillgängligt. |  |
           | Välj från fullständig lista | Inte tillgängligt i sökningar. Användare kan inte köra åtgärder på en sökningssida och kan heller inte komma åt den fullständiga uppsättningen poster. | Inte tillgängligt i sökningar. Användare kan inte köra åtgärder på en sökningssida och kan heller inte komma åt den fullständiga uppsättningen poster. | I `Item Card` när du väljer **Basmåttenhet**. |
-          | Sök i flera listkolumner | Stöds delvis. I sökningen ingår inte FlowFields. | Stöds delvis. I sökningen ingår inte FlowFields. | Se exempel på listsidan `Customers`. |
-          | Sökningar | Tillgängligt. | Tillgänglig, med den skillnaden att avancerade och enkla sökningar fungerar på liknande sätt i telefonen. Sökningen tar inte fram kortet, visar faktarutor eller någon fältgrupp. | Se exempel på listsidan `Customer Card`. |
-          | Matriskontroller | Inte tillgängligt. | Inte tillgängligt. | Se exempel i `G/L Budget`. |
+          | Sök i flera listkolumner | Stöds delvis. I sökningen ingår inte FlowFields. | Stöds delvis. I sökningen ingår inte FlowFields. | Gå till exempel på listsidan `Customers`. |
+          | Sökningar | Tillgängligt. | Tillgänglig, med den skillnaden att avancerade och enkla sökningar fungerar på liknande sätt i telefonen. Sökningen tar inte fram kortet, visar faktarutor eller någon fältgrupp. | Gå till exempel på sidan `Customer Card`. |
+          | Matriskontroller | Inte tillgängligt. | Inte tillgängligt. | Gå till exempel i `G/L Budget`. |
           | Filhämtning | Tillgängligt. Det går inte att hämta flera filer samtidigt. | Tillgängligt. Det går inte att hämta flera filer samtidigt. | `Trial Balance`-rapport i kryssruten **Skriv ut till Excel**. |
           | Förslagssidor | Tillgängligt. | Inte tillgängligt; ett felmeddelande visas. | `Sales Price`-förslag eller `Cash Flow`-förslag. |
           | Listor | Tillgängligt. | Tillgängligt, med skillnaden att dessa visas i panel-layout. | Sidor för kunder eller försäljningsorder. |
@@ -48,7 +48,7 @@ sections:
       - question: |
           Är upplevelsen densamma på surfplattor och telefoner?
         answer: |
-          Nästan, men inte riktigt. Se listan i avsnittet [Är det samma erfarenhet i apparna som i webbläsaren?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
+          Nästan, men inte riktigt. Gå till listan i avsnittet [Är det samma erfarenhet i apparna som i webbläsaren?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
       - question: |
           Kan jag ansluta appen till vår lokala lösning?
         answer: |

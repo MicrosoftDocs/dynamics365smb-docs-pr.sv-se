@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Konfigurera speditörer](sales-how-to-set-up-shipping-agents.md)
 #### [Definiera en bokföringspolicy för faktura för användare](admin-setup-invoice-posting-policy.md)
 #### [Uppdatera dokumentdatum med bokföringsdatum](across-link-doc-dates-to-posting-dates.md)
+#### [Visa varning om negativt lagersaldo](sales-setup-show-stockout-warning.md)
 ### Konfigurera inköp
 #### [Konfigurera inköp](purchasing-setup-purchasing.md)
 #### [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)
