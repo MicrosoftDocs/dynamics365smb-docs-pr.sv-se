@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 01/15/2024
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Anpassa arbetsytan
+# Anpassa arbetsytan
 
 Du kan anpassa din arbetsyta efter ditt arbete och dina preferenser. Ändra sidor så att de endast visar information som du behöver, där du behöver den. Anpassningen påverkar endast din arbetsyta. Det påverkar inte hur andra fungerar. Du kan anpassa alla typer av sidor, inklusive sidan [rollcenter](ui-change-basic-settings.md#role-center).
 
@@ -27,13 +27,13 @@ Du kan göra olika ändringar, som att flytta och dölja fält, kolumner och åt
 > Administratörer kan utföra samma layoutändringar när användare kan anpassa den profil (roll) som tilldelas flera användare. Om du vill veta mer om sidor för roller går du till [anpassa sidor för roller](ui-personalization-manage.md)<br /><br />
 Administratörer kan också åsidosätta eller inaktivera användarnas anpassning och de kan definiera vilka funktioner som till och med är tillgängliga för användare att se i alla eller specifika företag. Mer information finns i [Anpassa Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## Video
 
 I följande video visas några av de sätt som du kan anpassa ditt rollcenter på.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="change-the-width-of-a-column"></a>Ändra bredden på en kolumn
+## Ändra bredden på en kolumn
 
 Du kan lätt ändra storlek på kolumnerna i en lista. Det är bara att dra kantlinjen mellan kolumnerna i till vänster eller höger.  
 
@@ -42,7 +42,7 @@ Du kan lätt ändra storlek på kolumnerna i en lista. Det är bara att dra kant
 
 Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden på ditt konto och du ser inte vilken enhet du loggar in på.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Börja anpassa med hjälp av anpassningsläget
+## Börja anpassa med hjälp av anpassningsläget
 
 1. Öppna sidan du vill anpassa.
 1. Längst upp till höger, välj ![Inställningar.](media/ui-experience/settings_icon_small.png "Inställningsikon för rollcenter") och sedan åtgärden **anpassa**.
@@ -60,14 +60,14 @@ Precis som för andra anpassningar lagras de ändringar du gör av kolumnbredden
 
 Mer information finns i [Vad du kan anpassa](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Detta kan du anpassa
+## <a name="What"></a>Detta kan du anpassa
 
 |Vad vill du göra|Hur du gör det.|Anmärkningar|
 |----|------------|-------|
 |Flytta någonting, precis som fält, kolumn i listan, panel, åtgärd eller del till en annan plats på sidan|Peka var som helst på vad du vill flytta och dra den till dess nya position. En tjock vågrät eller lodrät linje anger positionen.<br /><br />Ikonen ![Kan inte flytta hit](media/personalization-cannot-move-here.png "Anpassningsläge – konen kan inte flytta hit") anger att du inte kan flytta elementet till vald position.|Delar är underavdelningar eller områden på en sida som innehåller flera fält, en annan sida, ett diagram eller paneler.<br /><br />[Läs mer om att anpassa åtgärder](#Actions)<br>[Läs mer om att anpassa delar](#Parts)|
-|Dölj ett element som för närvarande visas, till exempel ett fält, en kolumn i listan, panelen, åtgärden eller delen.|Markera elementet, markera pilspetsen och välj sedan <b>Dölj</b>.|I anpassningsläget är dolda åtgärder nedtonade med kursiv text och dolda delar skuggas av diagonala linjer. Dolda fält och kolumner visas inte på sidan. <!--The element is grayed when you are in personalizing mode.--> När du avslutar anpassningsläget försvinner alla element från vyn. I fältet du döljer visas också i rubriken på snabbfliken när snabbfliken komprimeras, visas fältet inte längre.|
+|Dölj ett element som för närvarande visas, till exempel ett fält, en kolumn i listan, panelen, åtgärden eller delen.|Markera elementet, markera pilspetsen och välj sedan <b>Dölj</b>.|I anpassningsläget är dolda åtgärder nedtonade med kursiv text och dolda delar skuggas av diagonala linjer. Dolda fält och kolumner visas inte direkt på sidan, men du kan hitta dem genom att använda ruta <b>Lägg till fält till sida</b> ([lära dig mer om arbetsfält](#fields)).<br><br>När du avslutar anpassningsläget försvinner alla element från vyn. I fältet du döljer visas också i rubriken på snabbfliken när snabbfliken komprimeras, visas fältet inte längre.|
 |Visa en åtgärd eller del som för närvarande är dold|För ett nedtonat (dolt) element väljer du pilspets och väljer sedan <b>Visa</b>|Det dolda elementet visas igen.|
-|Visa ett fält som för närvarande är dolt|I banderollen <b>anpassa</b>, välj åtgärd <b>+ fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger på sidan. Om du markerar ett fält i rutan visas dess dolda plats på sidan.<br /><br />Om du vill visa ett fält, drar du det från fönstret eller från dess dolda plats till den position där du vill ha den. Positionen anges med antingen en tjock vågrät eller lodrät linje.<br><br> Ett annat sätt är att markera pilspetsen på fältets dolda plats och välja **Visa**. |Varje sida innehåller en fördefinierad uppsättning fält som kan visas.<br /><br />[Läs mer om hur du arbetar med fält](#fields) |
+|Lägg till ett fält som för närvarande är dolt|I banderollen <b>anpassa</b>, välj åtgärd <b>+ fält</b>.<br /></br>Rutan <b>lägga till fält på sidan</b> öppnas till höger på sidan. Om du markerar ett fält i rutan visas dess dolda plats på sidan.<br /><br />Om du vill lägga till ett fält, drar du det från fönstret eller från dess dolda plats till den position där du vill ha den. Positionen anges med antingen en tjock vågrät eller lodrät linje.<br><br> Ett annat sätt är att markera pilspetsen på fältets dolda plats och välja **Visa**. |Varje sida innehåller en fördefinierad uppsättning fält som kan visas.<br /><br />[Läs mer om hur du arbetar med fält](#fields) |
 |Visa ett fält i rubriken av en snabbflik när den komprimeras.|Välj pilen och välj <b>visa när den är komprimerad</b>. <br /> <br />Om du inte ser detta alternativ har du redan angett det. Då väljer du att stoppa visa fältet på snabbflikens rubrik och väljer <b>visa alltid</b>.|*Snabbflik* är den term som används för en uppsättning fält som visas under den vanliga rubriken. Använd alternativet <b>visa minimerad</b> om du vill visa de viktigaste fälten. Om du väljer ett fält i rubriken öppnas snabbfliken och fokuserar på det markerade fältet.<br /><br />Det här alternativet gäller endast om det finns mer än en snabbflik. Om det endast finns en snabbflik kan den inte komprimeras, så alternativet <b>Visa när komprimerad</b> är inte tillgängligt.|
 |Gör att ett fält endast visas om du väljer **visa fler**.|Välj pilen och välj <b>visa under "Visa fler"</b>.|Om du inte ser alternativet <b>Visa under ”Visa fler”</b> har fältet redan angetts. I det här fallet, för att ett fält alltid ska visas, inte bara när du markerar **visa fler** väljer du <b>visa alltid</b>.|
 |Ändra om ett fält kan redigeras eller inte.|Markera fältet, markera pilspetsen på fältet och välj sedan <b>Lås redigering</b> om du vill förhindra att fältets värde ändras eller <b>Lås upp redigering</b> om du vill kunna ändra fältets värde.|Du kan bara låsa upp fält som du tidigare har låst själv. Vissa fält är låsta som standard, antingen avsiktligt eller av en profiladministratör som har [anpassat sidan](ui-personalization-manage.md). Dessa fält kan inte låsas upp.|
@@ -77,7 +77,7 @@ Mer information finns i [Vad du kan anpassa](#What).
 |Lägg till en ny åtgärd på en sida eller rapport i rollcentret.|Välj ikonen bokmärke på sida för rapportförfrågan, sida i rapporten eller berätta för mig-fönstret.|[Läs mer om bokmärken till sidor och rapporter](ui-bookmarks.md)|
 |Starta alltid en lista som visad eller dold|Välj knappen **Expandera alla** eller **Komprimera alla** längst upp till vänster i listan. Alternativt väljer du åtgärden **Expandera alla** eller **Komprimera alla** i menyn för den första kolumnen. |Gäller för komprimerbara hierarkinivåer|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Anpassa åtgärdsfältet och menyer
+## <a name="Actions"></a>Anpassa åtgärdsfältet och menyer
 
 Anpassning låter dig bestämma vilka åtgärder som ska visas i navigerings- och åtgärdsfälten och i rollcenter, samt var de ska visas. Du kan visa, dölja eller flytta enskilda åtgärder eller åtgärdsgrupper.
 
@@ -96,7 +96,7 @@ En *prioriterad kategori* är en grupp före den lodräta linjen `|` i åtgärds
 > [!NOTE]  
 > Om du vill rensa anpassningen markerar du pilspetsen runt delens designermeny och väljer **Rensa anpassning**.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Ta bort, dölja och visa åtgärder och åtgärdsgrupper
+### Ta bort, dölja och visa åtgärder och åtgärdsgrupper
 
 När du vill visa eller dölja en åtgärd definierar alternativen under pilspetsen vad som kan göras beroende på åtgärdens tillstånd. 
 
@@ -104,12 +104,12 @@ När du vill visa eller dölja en åtgärd definierar alternativen under pilspet
 2. Välj något av följande alternativ:
 
 |Alternativ|Vad den gör|
-|------|------------
+|------|------------|
 |**Ta bort**|Detta alternativ visas om den valda åtgärden visas någon annanstans i navigerings- eller åtgärdsfältet. Om du väljer det här alternativet tar du bort åtgärden från den valda platsen så att den inte längre visas. Åtgärden eller åtgärdsgruppen sparas på andra platser. |
 |**Dölj**|Det här alternativet visas om åtgärden eller åtgärdsgruppen inte finns någon annanstans i navigerings- eller åtgärdsfältet. Liksom alternativet **Ta bort** får detta alternativ åtgärden eller åtgärdsgruppen att försvinna från navigerings- eller åtgärdsfältet. Men i anpassningsläget visas åtgärd eller åtgärdsgrupp fortfarande på den aktuella positionen förutom att det verkar dämpat.|
-|**Visa**|Det här alternativet visas om åtgärden eller åtgärdsgruppen är tidigare dolda (är nedtonade). Om du väljer detta alternativ kommer åtgärden eller åtgärdsgruppen att visas på navigerings- eller åtgärdsfältet.|
+|**Visa**|Det här alternativet visas om åtgärden eller åtgärdsgruppen är dold (är nedtonade). Om du väljer detta alternativ kommer åtgärden eller åtgärdsgruppen att visas på navigerings- eller åtgärdsfältet.|
 
-### <a name="move-actions-and-action-groups"></a>Flytta åtgärder och åtgärdsgrupper
+### Flytta åtgärder och åtgärdsgrupper
 
 Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontell linje mellan två åtgärder eller en gräns runt en åtgärdsgrupp. Följande begränsningar förekommer:
 
@@ -119,7 +119,7 @@ Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontel
 1. Om du vill flytta en åtgärd eller en åtgärdsgrupp, dra och släpp den till önskad position, precis som med fält och kolumner.
 2. Om du vill flytta en åtgärd eller åtgärdsgrupp till en åtgärdsgrupp som är tom, dra åtgärden eller åtgärdsgruppen till den nya gruppen och släpp den i rutan **släpp åtgärd här**.
 
-### <a name="about-the-automate-menu"></a>Om menyn Automatisera
+### Om menyn Automatisera
 
 - Du kan inte dölja eller flytta menyn **Automatisera** eller undermenyn **Power Automate** och dess åtgärder.
 - Du kan flytta flöden som ingår i **Automatiserade** objektet, men du kan inte dölja dem med hjälp av anpassning. När du flyttar flödet skapas en kopia av flödet till målet. det går inte att ta bort det från det **Automatiserade** objektet.
@@ -127,7 +127,7 @@ Där du kan släppa åtgärder eller åtgärdsgrupper indikeras av en horisontel
 > [!TIP]
 > Som administratör kan du dölja **automatiserade** objekt från användare. Läs mer i [Ställa in Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Anpassa delar
+## <a name="Parts"></a>Anpassa delar
 
 Peka på eller välj <kbd>Alt</kbd>+<kbd>Uppåtpil</kbd> Delar är områden på en sida som vanligtvis utgörs av flera fält, diagram eller annat innehåll. En del visar en färgad kantlinje när du fokuserar på delen. Startvyn för ett rollcenter har till exempel flera delar. På grund av deras väldefinierade gränser kan du anpassa hela delen samt dess innehåll.
 
@@ -137,30 +137,32 @@ Peka på eller välj <kbd>Alt</kbd>+<kbd>Uppåtpil</kbd> Delar är områden på 
 
 Du kan ta bort alla anpassningsändringar du har utfört i en enskild del genom att välja alternativet **Radera anpassning** under delens pilspets. När du rensar anpassningen för en viss del påverkar detta bara ändringar i innehållet i just den delen, inte delens placering eller synlighet på sidan.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Arbeta med fält och kolumner
+## <a name="fields"></a> Arbeta med fält och kolumner
 
-När du anpassar en sida använder du **Lägg till fält till sidan** för att visa fält som för närvarande är dolda på sidan. Du öppnar det här fönstret genom att välja åtgärden **+ Fält** högt upp på sidan. Till skillnad från andra element visas inte dolda fält på själva sidan i anpassningsläge. Du kan dock identifiera dolda fält med hjälp av fönstret **Lägg till fält på sidan**.
+När du anpassar en sida använder du **Lägg till fält till sidan** för att inkludera fält eller kolumner på sidan som för närvarande är dolda från vyn. Du öppnar det här fönstret genom att välja åtgärden **+ Fält** högt upp på sidan. Till skillnad från andra dolda element visas inte dolda fält på själva sidan i anpassningsläge. Du kan dock identifiera dolda fält med hjälp av fönstret **Lägg till fält på sidan**.
 
-Om du vill göra det enklare att arbeta med fält följer här några allmänna riktlinjer när du använder fönstret **Lägg till fält på sida**:
+Här följer här några allmänna riktlinjer när du använder fönstret **Lägg till fält på sida**:
 
-- Som standard visas alla dolda fält i fönstret, som är markerade med ikonen [Visar ikonen för dolda fält](media/hidden-icon.png "Visar ikonen för dolt fält").
+- Som standard visas alla dolda fält i fönstret. Dolda fält markeras av ikonen ![Visar ikonen för dolda fält](media/hidden-icon.png "Visar ikonen för dolt fält").
 - Du kan filtrera listan för att visa andra fält, som de som för närvarande visas på sidan, genom att välja knappen **Rekommenderade fält** ovanför listan och välja ett filteralternativ. Namnet på knappen ändras beroende på vilket filteralternativ du väljer.
   
    :::image type="content" source="media/personlaization-filter.svg" alt-text="Visar filterknappen i fönstret Lägg till ett fält i anpassningsläget.":::
 - Om du markerar ett fält i listan markeras dess placering på sidan. Om fältet för närvarande är dolt visas den designade platsen i ett skuggat läge. 
 - Om du vill ha mer information om ett fält i listan pekar du på det eller väljer <kbd>Alt</kbd>+<kbd>Uppåtpil</kbd> om du vill visa en knappbeskrivning.
-- Fälten som är tillgängliga i rutan Lägg till fält på sid bestäms av utvecklaren av sidan och dess källtabell, eller av en profiladministratör som har [anpassat sidan](ui-personalization-manage.md). Du kan inte skapa nya.
+- Fälten som är tillgängliga i rutan **Lägg till fält på sida** bestäms av utvecklaren av sidan och dess källtabell, eller av en profiladministratör som har [anpassat sidan](ui-personalization-manage.md). Du kan inte skapa nya.
 - Vissa sidor har flera sidfält som mappas till samma källtabell. Rutan visar båda/alla dessa sidfält oberoende av varandra. Att visa/dölja/flytta dessa fält är också oberoende utan att det ena påverkar det andra.
 
+### Lägg till ett fält så att det syns på sidan
 
-### <a name="add-a-field-so-its-visible-on-the-page"></a>Göra ett dolt fält synligt
-
-Det finns två sätt att visa ett fält som för närvarande är dolt på sidan:
+Från rutan **Lägg till fält på sidan** finns det två sätt att inkludera ett fält som för närvarande är dolt på sidan:
 
 - Dra fältet till önskad position. En tjock horisontell eller vertikal linje indikerar målplatsen.
 - Markera fältet i listan, gå sedan till det skuggade fältet på sidan och välj alternativet **Visa**.
 
-## <a name="clear-personalization"></a>Rensa personanpassning
+> [!NOTE]
+> Vissa fält som du lägger till kan inte redigeras på sidan när du är klar med anpassningen. Dessa fält är antingen ursprungligen utformade på det här sättet eller så har en administratör [anpassat](ui-personalization-manage.md) sidan för att hindra dig från att redigera dem.
+
+## Rensa personanpassning
 
 Vid något tillfälle kanske du vill ångra några eller alla anpassningsändringar som du har gjort på sidan.
 
@@ -177,7 +179,7 @@ Vid något tillfälle kanske du vill ångra några eller alla anpassningsändrin
 |**Endast fält och kolumner**|Rensar alla anpassningsändringar som du någonsin har gjort på sidan förutom de i navigerings- eller åtgärdsfältet. Sådana ändringar inbegriper fält, kolumner, delar och paneler. |
 |**Alla**|Rensar alla personanpassningsändringar som du har gjort så att sidan ser ut som den gjorde från början. Sådana ändringar inbegriper ändringar i navigerings- eller åtgärdsfält, fält, kolumner, delar och paneler.|
 
-## <a name="tips-and-other-points-of-interest"></a>Tips och andra intressepunkter
+## Tips och andra intressepunkter
 
 Här följer några tips som hjälper dig att bättre förstå anpassning.
 
@@ -188,8 +190,8 @@ Här följer några tips som hjälper dig att bättre förstå anpassning.
 - Vissa sidor har flera sidfält som mappas till samma källtabell. Rutan visar båda/alla dessa sidfält oberoende av varandra. Att visa/dölja/flytta dessa fält är också oberoende utan att det ena påverkar det andra.
 - Om en del eller grupp är dold, kommer avbildade fält fortfarande att visas inuti den, men du kan inte dra och släppa eller lägga till/visa det fältet förrän du gör gruppen/delen synlig.
 
+## Se även
 
-## <a name="see-also"></a>Se även
 [Anpassa sidor för profiler](ui-personalization-manage.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ändra grundinställningar](ui-change-basic-settings.md)  
