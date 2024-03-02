@@ -2,15 +2,16 @@
 title: Använda arbetsflöden för godkännande
 description: Du kan ställa in och använda arbetsflöden som ansluter affärs processer på samma sätt som automatisk bokföring eller förfrågan och beviljande av godkännande för nya poster.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
-ms.date: 09/13/2022
-ms.author: bholtorf
+ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="use-approval-workflows"></a>Använda arbetsflöden för godkännande
+# Använda arbetsflöden för godkännande
 
 Ett arbetsflöde är en serie uppgifter som utlöses av en åtgärd, ett villkor eller en regel. Arbetsflöden används vanligtvis för att integrera affärslogiken i en organisation, till exempel separation av uppgifter, förena processer eller för att använda bästa praxis.
 
@@ -63,7 +64,7 @@ Innan du kan börja använda arbetsflöden måste du konfigurera arbetsflödesan
 | Visa avslutade instans för arbetsflödessteg med statusen **Avslutat**. | [Visa arkiverade instanser för arbetsflödessteg](across-how-to-view-archived-workflow-step-instances.md) |
 | Ta bort ett arbetsflöde för godkännande som du vet inte ska användas längre. | [Ta bort arbetsflöden för godkännande](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera arbetsflöden för godkännande](across-set-up-workflows.md)  
 [Arbetsflöde](across-workflow.md)  
