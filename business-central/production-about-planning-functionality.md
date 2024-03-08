@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Om planeringsfunktioner
+# <a name="about-planning-functionality"></a>Om planeringsfunktioner
 
 I planeringssystemet beaktas alla efterfråge- och tillgångsdata, resultaten nettoberäknas och förslag på balansering av tillgång för att uppfylla efterfrågan skapas.  
 
@@ -19,7 +19,7 @@ Mer information finns i [Designdetaljer: Leveransplanering](design-details-suppl
 > [!NOTE]  
 > Alla de fält som nämns i det här avsnittet hittar du i beskrivningen för att förstå deras funktion. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Tillgång och efterfrågan
+## <a name="supply-and-demand"></a>Tillgång och efterfrågan
 
 Planering innehåller två element: tillgång och efterfrågan. Dessa måste balanseras för att säkerställa att efterfrågan tillgodoses.  
 
@@ -28,7 +28,7 @@ Planering innehåller två element: tillgång och efterfrågan. Dessa måste bal
 
 Ett annat mål med planeringssystemet är att se till att lagret inte blir onödigt stort. Om det uppstår en minskad efterfrågan, får du i planeringssystemet ett förslag om att skjuta upp, minska antalet eller annullera befintliga återanskaffningsorder.  
 
-## Planeringsberäkning
+## <a name="planning-calculation"></a>Planeringsberäkning
 
 Planeringssystemet drivs av förväntad och faktisk kundefterfrågan samt även parametrar för lagerbeställningar. Om du kör planeringsberäkningen får du i programmet ett förslag på särskilda åtgärder ([åtgärdsmeddelanden](production-how-to-run-mps-and-mrp.md#action-messages)) som du ska vidta för eventuell återanskaffning från leverantörer, överföringar mellan distributionslager eller produktion. Om det redan finns återanskaffningsorder kan de förslagna åtgärderna vara att du till exempel ska öka eller påskynda order som motsvarar förändringarna i efterfrågan.  
 
@@ -37,7 +37,7 @@ Grunden för planeringsrutinen är beräkningen av brutto till netto. Nettobehov
 > [!TIP]
 > Planeringssystemet är beroende av hur organisationen använder lagerställen. Mer information finns i [Planera med eller utan lagerställen](production-planning-with-without-locations.md).
 
-## Planera med manuella överföringsorder
+## <a name="planning-with-manual-transfer-orders"></a>Planera med manuella överföringsorder
 
 I fältet **Återanskaffningssystem** på ett kort för lagerställeenhet kan du konfigurera planeringssystemet i syfte att skapa överföringsorder som balanserar tillgång och efterfrågan mellan olika lagerställen.  
 
@@ -45,7 +45,7 @@ Förutom sådana automatiska överföringsorder kanske du ibland behöver utför
 
 Om du å andra sidan vill att planeringssystemet ska justera överföringsorderantalet och ange fältet **Planeringsflexibilitet** till standardvärdet Obegränsad.
 
-## Planeringsparametrar
+## <a name="planning-parameters"></a>Planeringsparametrar
 
 Planeringsparametrarna styr när och hur återskaffningen sker och hur mycket som ska återanskaffas beroende på de olika inställningarna på artikelkortet (eller lagerställeenheten) och produktionsinställningarna.  
 
@@ -86,16 +86,16 @@ Inställningsfälten för planering på sidan **Produktionsinställningar** inkl
 
 Mer information finns i [Designdetaljer: Planeringsparametrar](design-details-planning-parameters.md)  
 
-## Andra viktiga planeringsfält
+## <a name="other-important-planning-fields"></a>Andra viktiga planeringsfält
 
-### Planeringsflexibilitet
+### <a name="planning-flexibility"></a>Planeringsflexibilitet
 
 På de flesta leveransorder, till exempel produktionsorder, kan du välja **obegränsad** eller **ingen** i fältet **Planeringsflexibilitet** på raderna.
 
 Anger om leveransen som representeras av produktionsorderraden tas i beaktande av planeringssystemet när ett åtgärdsmeddelande beräknas.
 Om fältet innehåller alternativet **Obegränsad**, ingår raden när meddelandena beräknas. Om fältet innehåller alternativet **Ingen**, är raden fast (går inte att ändra) och ingår inte när åtgärdsmeddelandena beräknas.
 
-### Varning
+### <a name="warning"></a>Varning
 
 Informationsfältet **varning** på sidan **planeringsförslag** informerar dig om att alla planeringsrader som skapats för en ovanlig situation med text där användaren kan välja att få mer information. Följande typer av varningar förekommer:
 
@@ -103,7 +103,7 @@ Informationsfältet **varning** på sidan **planeringsförslag** informerar dig 
 - Undantag
 - Observera!
 
-### Nödsituation
+### <a name="emergency"></a>Nödsituation
 
 Varningen för nödsituation visas i två olika situationer:
 
@@ -114,7 +114,7 @@ Om lagernivån för en artikel är negativ på startdatumet för planeringen fö
 
 Eventuella dokumentrader med förfallodatum före startdatumet för planeringen konsolideras i en nödleveransorder för artikeln med leverans på startdatumet för planeringen.
 
-### Undantag
+### <a name="exception"></a>Undantag
 
 Undantagsvarningen visas om det planerade tillgängliga lagret sjunker under nivån för säkerhetslagret.
 
@@ -125,7 +125,7 @@ Att bryta mot säkerhetslagrets nivå betraktas som ett undantag eftersom det in
 > [!NOTE]
 > Tillgången på planeringsrader med undantagsvarningar ändras normalt inte enligt planeringsparametrarna. I stället föreslår planeringssystemet endast en försörjning för att täcka det exakta efterfrågade antalet. Du kan dock ange att planeringskörningen ska följa vissa planeringsparametrar för planeringsrader som ska kopplas till vissa varningar. Mer information finns i beskrivningen av fältet **Respektera planeringsparametrar för undantagsvarningar** i artikeln [Kör hela planeringen, MPS eller MRP](production-how-to-run-mps-and-mrp.md).
 
-### Observera!
+### <a name="attention"></a>Observera!
 
 Varningen visas i två olika situationer:
 
@@ -135,13 +135,13 @@ Varningen visas i två olika situationer:
 > [!NOTE]
 > Vid planering av rader med varningar är fältet **Acceptera åtgärdsmeddelande** inte markerat, eftersom planeraren förväntas att undersöka dessa rader innan planen utförs.
 
-## Planeringsförslag och inköpskalkylark
+## <a name="planning-worksheets-and-requisition-worksheets"></a>Planeringsförslag och inköpskalkylark
 
 På det sätt som beskrivs i [Planera](production-planning.md) kan du välja mellan två kalkylblad för de flesta planeringsaktiviteter, planeringsförslaget och inköpskalkylarket. De flesta processer beskrivs utifrån planeringsförslaget, men det finns ett par scenarier där inköpskalkylarket är prioriterat.
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
-### Inköpskalkylark
+### <a name="requisition-worksheet"></a>Inköpskalkylark
 
 På sidan **Inköpskalkylark** visas en lista över artiklar som behöver beställas. Du kan ange artiklar i kalkylarket på följande sätt:
 
@@ -162,7 +162,7 @@ Information om hur du planerar lagerställen och överföringar finns i [Planera
 > [!TIP]
 > När du arbetar på sidorna **Inköpsförslag** eller **Planeringsförslag** kan du ordna raderna genom att sortera efter ett kolumnnamn. Detta är särskilt användbart på sidan Paneringsförslag eftersom de kan användas för produktionsorder på flera nivåer. Som standard sorteras rader efter fältet **Artikelnr**. Om du vill gruppera rader för en order med flera nivåer sorterar du efter **Ref.ordernr** . Också fälten **MPS-order** och **Planeringsnivå** kan hjälpa dig att visa hierarkin av rader.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
 [Planerad](production-planning.md)  
