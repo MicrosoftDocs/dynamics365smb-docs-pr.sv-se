@@ -6,22 +6,22 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
-ms.date: 04/01/2021
+ms.date: 02/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-basic-warehouse-configurations"></a>Genomgång av ankommande och avgående flöde i grundläggande distributionslagerkonfigurationer
+# Genomgång av ankommande och avgående flöde i grundläggande distributionslagerkonfigurationer
 
 Den här genomgången visar hur man slutför inkommande och utgående flöden i konfigurationen Grundläggande: order för order. Mer information finns i avsnittet [Översikt över olika konfigurationsalternativ](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar  
 För att slutföra denna genomgång måste du ange dig själv som distributionslagerpersonal på lagerstället *SILVER* med de här stegen:  
-1. Välj ![glödlampan som öppnar funktionen Berätta 1.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta 1.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **distributionslagerpersonal** och väljer sedan relaterad länk.  
 2. Välj fältet **Användar-ID** och välj ditt eget användarkonto på sidan **Användare**.  
 3. I fältet **Lagerställekod** ange *SILVER*.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Inkommande flöde: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
+## Inkommande flöde: Inleverera och införa utflöde i grundläggande lagerkonfigurationer
 
 I [!INCLUDE[prod_short](../../includes/prod_short.md)], kan de inkommande processerna för att inleverera och lagerinföra utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.  
 
@@ -36,13 +36,13 @@ Mer information finns i [Designdetaljer: Ingående distributionslagerflöde](../
 
 Efterföljande genomgången visar metod B i föregående tabellen.  
 
-### <a name="scenario"></a>Scenario
+### Scenario  
 Alicia, inköpsagenten, skapar inköpsorder för olika rostade bönor. När leveransen anländer till lagret, placerar Anders, lagerarbetaren, artiklarna på de lämpligaste lagerplatserna. När Anders bokför artikelinförseln bokförs artiklarna som inlevererade i lagret och är tillgängliga för försäljning eller för annat behov.  
 
-### <a name="steps"></a>Steg
+### Steg
 1. Ställ in sidan **Lagerställekort** så att den definierar företagets inkommande lagerflöden.  
 
-    1.  Välj ![glödlampan som öppnar funktionen Berätta 2.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
+    1.  Välj ![glödlampan som öppnar funktionen Berätta 2.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Platser** och väljer sedan relaterad länk.  
     2.  Öppna lagerställekortet *SILVER*.  
     3.  Markera kryssrutan **Begär artikelinförsel**.  
 
@@ -56,7 +56,7 @@ Alicia, inköpsagenten, skapar inköpsorder för olika rostade bönor. När leve
 
 3. Skapa inköpsordern som är den vanligaste typen för inkommande källdokumentet.  
 
-    1.  Välj ![glödlampan som öppnar funktionen Berätta 3.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
+    1.  Välj ![glödlampan som öppnar funktionen Berätta 3.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
     2.  Välj åtgärden **Ny**.  
     3.  Skapa en inköpsorder för leverantör 10000 med följande inköpsorderrader. Använd anpassningsverktygen om ett fält för **Lagerplatskod** inte visas. Mer information finns i [Anpassa din arbetsyta](../../ui-personalization-user.md). 
 
@@ -84,18 +84,18 @@ Alicia, inköpsagenten, skapar inköpsorder för olika rostade bönor. När leve
     När artiklar förs in på lagerplatser, plockas standardlagerplatsen redan till några artiklar, så han bestämde sig för att använda en annan lagerplats. Anders placerar också andra artiklar på nästa lagerplatser, eftersom Inlevererad kvantitet inte passar kapaciteten.
 
     1. På den första raden ändras **Lagerplatskod** från *S-1-01*, tsom kopierades från inköpsordern till *S-1-02*. 
-    2.  Ange 20 i fältet **Ant. att hantera** på lagerartikelinförselraden med artikel WBR-1000.  
+    2.  Ange 20 i fältet **Ant. att hantera** på lagerartikelinförselraden med artikel WRB-1000.  
     3. På andra raden anger du 20 i fältet **Ant. att hantera** och väljer åtgärden **Dela rad**. Det visas en ny rad, som är en kopia av den ursprungliga raden, med den skillnaden att fältet **Ant. att hantera** innehåller det antal som du tog bort från den ursprungliga raden. 
-    4. Fyll i lagerplatskoder för artikel WBR-1001:
+    4. Fyll i lagerplatskoder för artikel WRB-1001:
 
-    |Artikel|Lagerställeskod|Antal|  
+    |Artikel|Lagerställeskod|Kvantitet|  
     |----------|-------------------|--------------|  
     |WRB-1001|S-1-03|20|  
     |WRB-1001|S-1-04|10|
 
     5.  Välj åtgärden **bokför**, välj åtgärden **inleverera**, och välj sedan **OK**-knappen.  
 
-### <a name="results"></a>Resultat
+### Resultat 
  - de rostade bönorna har nu registrerats som artikelinförsel på angivna lagerplatser
  - **Bokförd artikelinförsel i lager** skapas
  - **Bokförd inköpsinleverans** skapas
@@ -103,7 +103,7 @@ Alicia, inköpsagenten, skapar inköpsorder för olika rostade bönor. När leve
  - artikel **lager** ökas med det valda antalet
     
 
-## <a name="outbound-flow-picking-and-shipping-in-basic-warehouse-configurations"></a>Utgående flöde: Plockning och leverans i grundläggande lagerkonfiguration
+## Utgående flöde: Plockning och leverans i grundläggande lagerkonfiguration
 
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan de utgående processerna för plockning och utleverans utföras på fyra sätt med hjälp av olika funktionaliteter beroende på lagerkomplexitetsnivån.  
 
@@ -118,10 +118,10 @@ Mer information finns i [Designdetaljer: utgående distributionslagerflöde](../
 
 Efterföljande genomgången visar metod B i föregående tabellen.
 
-### <a name="scenario-1"></a>Scenario
+### Scenario  
 Susan, orderhandläggaren, skapar försäljningsorder för olika rostade bönor och skickar den till lagerstället. Anders, lagerarbetaren, måste kontrollera att leveransen förbereds och levereras till kunden. Anders hanterar alla uppgifter som är involverade på sidan **Lagerplockning** som automatiskt pekar på lagerställena där rostade bönor lagras.
 
-### <a name="steps-1"></a>Steg
+### Steg
 Detta är en fortsättning av [Inkommande flöde: Inleverera och införa utflöde i grundläggande lagerkonfigurationer](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Ställ in sidan **Lagerställekort** så att den definierar företagets inkommande lagerflöden.  
@@ -158,7 +158,7 @@ Detta är en fortsättning av [Inkommande flöde: Inleverera och införa utflöd
 
 5. Välj åtgärden **bokför**, välj **leverera**, och välj sedan **OK**-knappen.  
 
-### <a name="results-1"></a>Resultat
+### Resultat
  - de rostade bönorna har nu registrerats som plockade från angivna lagerplatser
  - **Bokförd lagerplockning** skapas
  - **Bokförd utleverans** skapades
@@ -166,7 +166,7 @@ Detta är en fortsättning av [Inkommande flöde: Inleverera och införa utflöd
  - artikel **lager** minskas med det valda antalet
 
 
-## <a name="see-also"></a>Se även
+## Se även
 [Införda artiklar med lagerinförslar](../../warehouse-how-to-put-items-away-with-inventory-put-aways.md) 
 [Konfigurera grundläggande distributionslager med verksamhetsområden](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md) 
 [Designdetaljer: Inkommande distributionslagerflöde](../../design-details-inbound-warehouse-flow.md) 
