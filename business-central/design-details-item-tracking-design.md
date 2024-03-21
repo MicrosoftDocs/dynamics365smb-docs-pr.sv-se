@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-item-tracking-design"></a>Designdetaljer: Artikelkopplingsdesign
+# Designdetaljer: Artikelkopplingsdesign
 
 Artikelspårning i [!INCLUDE[prod_short](includes/prod_short.md)] startar med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Artikelspårningsfunktionen finns i en separat objektstruktur med invecklade länkar till bokförda dokument och artikeltransaktioner och den är integrerad med bokningssystemet, som hanterar reservation, orderspårning och åtgärdsmeddelanden. Mer information finns i [Designdetaljer: Reservation, orderspårning och åtgärdsmeddelanden](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljer för leveransplanering.  
 
@@ -32,7 +32,7 @@ Kodenhet 22, **Artikeljournal – bokför rad**, delar nu bokföringen enligt de
 
 Mer information finns i [Designdetaljer: Bokföringsstruktur för artikelspårning](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Designdetaljer: Artikelkoppling](design-details-item-tracking.md)
 

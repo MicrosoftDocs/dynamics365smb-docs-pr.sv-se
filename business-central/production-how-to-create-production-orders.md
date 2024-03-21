@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-production-order-headers"></a>Så här skapar du produktionsorderhuvud
+# Så här skapar du produktionsorderhuvud
 
 Du kan skapa en produktionsorder manuellt och första steget är då att skapa ett produktionsorderhuvud.
 
@@ -17,7 +17,7 @@ Produktionsorder skapas vanligtvis automatiskt av en planeringsfunktion för att
 
 I det följande procedur skapas en fast planerad produktionsorder. Du kan också skapa produktionsorder med annan status.  
 
-## <a name="to-create-a-production-order-header"></a>Så här skapar du ett produktionsorderhuvud
+## Så här skapar du ett produktionsorderhuvud
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Fast planerad prod.order** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -30,7 +30,7 @@ I det följande procedur skapas en fast planerad produktionsorder. Du kan också
 
 När produktionsbehov ändras, till exempel komponenter och operationer, kan du snabbt omplanera produktionsordern. Mer information finns i [Omplanera eller uppdatera produktionsorder direkt](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](production-manage-manufacturing.md)
 [Konfigurera produktion](production-configure-production-processes.md)  

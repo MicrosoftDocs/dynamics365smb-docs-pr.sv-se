@@ -11,25 +11,25 @@ ms.date: 09/05/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="attachments-for-interactions"></a>Bilagor för interaktioner
+# Bilagor för interaktioner
 
 Filerna som är kopplade till interaktioner bifogas inte direkt till interaktionen. De kommer från en av följande platser:
 
 * Den interaktionsmall som du använde för att skapa interaktionen. Mer information om hur du konfigurerar mallar finns på [Konfigurera interaktionsmallar](marketing-interactions.md#set-up-interaction-templates).
 * Det segment som du skapade interaktionen för. Mer information om segment finns i [Hantera interaktioner för Segment](marketing-interaction-segments.md).
 
-## <a name="view-attachments"></a>Visa bifogade filer
+## Visa bifogade filer
 
 Bilagor är tillgängliga när du visar registrerade interaktioner på sidan **Interaktionslogg**. Välj åtgärden **Visa bilagor**.
 
-## <a name="types-of-files-you-can-attach"></a>Typer av filer som du kan bifoga
+## Typer av filer som du kan bifoga
 
 Bilagor kan vara nästan alla typer av filer, till exempel Word-dokument, PowerPoint-presentationer, Excel- eller textfiler.
 
 > [!TIP]
 > [!INCLUDE [prod_short](includes/prod_short.md)] integreras med Word, vilket gör att du kan använda funktioner som exempelvis sammanlagda fält i Word-mallar. Mer information om hur du använder Word-mallar finns i [Använda Word-mallar för masskommunikation](ui-mail-merge.md).
 
-## <a name="what-you-can-do-with-attachments"></a>Vad du kan göra med bilagor
+## Vad du kan göra med bilagor
 
 Du kan göra följande med bilagorna:
 
@@ -39,6 +39,6 @@ Du kan göra följande med bilagorna:
 * **Ta bort**: Ta bort aktuell bilaga från en interaktionsmall.
 * **Kopiera**: Kopiera bilagor från andra interaktionsmallar.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Spela in interaktioner med kontakter](marketing-interactions.md)  

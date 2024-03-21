@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Flytta artiklar
+# Flytta artiklar
 
 Du kan flytta artiklar i distributionslagret på olika sätt beroende på hur du har konfigurerat distributionslagret. Komplexiteten kan variera:
 
@@ -36,7 +36,7 @@ Inventering, justering och gruppering av artiklar kan omfatta lagerställeuppgif
 |Använd dist.lagertransportkalkylarket, intern artikelinförsel och plockning för att flytta artiklar i avancerad distributionslagerkonfiguration med direktplockning och artikelinförsel.|[Flytta artiklar i avancerade distributionslagerkonfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Omstrukturera distributionslagret med nya lagerställeskoder och nya lagerplatsegenskaper och flytta dem eventuellt runt.|[Omstrukturera distributionslager](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Översikt över hantering av distributionslager](design-details-warehouse-management.md)  
 [Lager](inventory-manage-inventory.md)  

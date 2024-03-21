@@ -11,13 +11,13 @@ ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Skapa interaktioner i kontakter och segment
+# Skapa interaktioner i kontakter och segment
 
 Du kan skapa interaktioner för att spåra den kommunikation du har med en enda kontakt eller med flera kontakter i dina segment. Om du vill göra det enkelt att skapa interaktioner tillhandahåller [!INCLUDE [prod_short](includes/prod_short.md)] den assisterade konfigurationsguiden **Skapa interaktion**. Denna guide hjälper dig att överföra viktiga detaljer om interaktionen.
 
 Innan du skapar interaktioner måste du emellertid konfigurera interaktionsmallar. Mer information om interaktionsmallar finns på [Konfigurera interaktionsmallar](marketing-interactions.md).
 
-## <a name="to-create-an-interaction-with-a-contact"></a>För att skapa en interaktion med en kontakt
+## För att skapa en interaktion med en kontakt
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Kontakter**, **Säljare** eller **Interaktion loggtrans.** och väljer sedan tillhörande länk.
 2. Välj åtgärden **Skapa interaktion**.
@@ -26,7 +26,7 @@ Innan du skapar interaktioner måste du emellertid konfigurera interaktionsmalla
 > [!NOTE]  
 > Om du behöver avbryta innan du är klar med interaktionen kan du välja **Avbryt** och sedan ange om du vill spara inställningarna så att du kan fortsätta senare. Mer information om senarelagda interaktioner finns i [Så här konfigurerar du en senarelagd interaktion](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Så här skapar du interaktioner för segment
+## Så här skapar du interaktioner för segment
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Segment** och väljer sedan relaterad länk.
 2. Välj åtgärden **Skapa interaktion**.
@@ -41,12 +41,12 @@ Innan du skapar interaktioner måste du emellertid konfigurera interaktionsmalla
 
 Interaktionen registreras för varje kontakt i segmentet i tabellen **Interaktion loggtrans.** och segmentet loggas. Loggade segment finns på sidan **Loggad segment**.
 
-## <a name="to-finish-setting-up-a-postponed-interaction"></a>Så här slutför du konfigurationen av en senarelagd interaktion
+## Så här slutför du konfigurationen av en senarelagd interaktion
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Senarelagda interaktioner** och väljer sedan relaterad länk.
 2. Välj den interaktion som du vill slutföra och klicka på åtgärden **Fortsätt**.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Registrera interaktioner](marketing-interactions.md)  
 [Hantera kontakter](marketing-contacts.md)  

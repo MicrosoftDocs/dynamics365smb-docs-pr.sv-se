@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="troubleshoot-microsoft-teams-integration-with-"></a>Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
+# Felsöka Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -18,30 +18,30 @@ ms.service: dynamics-365-business-central
 
 I den här artikeln finns information om hur du identifierar och åtgärdar problem som kan uppstå när du använder Microsoft Teams med [!INCLUDE [prod_short](includes/prod_short.md)] som en typisk användare eller administratör.
 
-## <a name="the-sign-in-link-doesnt-work"></a>Inloggningslänken fungerar inte
+## Inloggningslänken fungerar inte
 
 Om du försöker logga in på [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen för Teams direkt efter att du installerat appen och inloggningslänken inte reagerar, kan det bero på att appen inte har slutfört installationen helt. Du kan försöka åtgärda problemet genom att logga ut från Teams-klienten och sedan logga in igen.
 
-## <a name="the-settings-page-is-empty"></a>Sidan Inställningar är tom.
+## Sidan Inställningar är tom.
 
 Du måste först logga in för att komma åt dina inställningar. Om du vill logga in på appen kan du antingen klistra in en länk till en [!INCLUDE [prod_short.md](includes/prod_short.md)]-post eller söka efter kontakter. Båda dessa åtgärder kommer att leda dig genom en inloggningsupplevelse, där du kan använda sidan **Inställningar**.
 
-## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Jag ändrade företaget, men det verkar inte fungera
+## Jag ändrade företaget, men det verkar inte fungera
 
 När du har ändrat företaget på sidan **Inställningar** kanske du märker att du fortfarande söker i det föregående företaget. Problemet uppstår när du öppnar sidan **Inställningar** direkt från kommandorutan. I det här fallet har företaget ändrats och du kommer i praktiken att söka i det företag som du har växlat till. Problemet är att den nedrullningsbara kommando rutan inte har uppdaterats ännu. För att säkerställa att listan på ett korrekt sätt reflekterar det företag du letar efter stänger eller tar du bort [!INCLUDE [prod_short.md](includes/prod_short.md)] från kommandorutan och öppnar sedan programmet igen. 
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
 
-## <a name="something-went-wrong-error-when-searching-for-contacts"></a>"Något gick fel" visas vid sökning efter kontakter
+## "Något gick fel" visas vid sökning efter kontakter
 
 Det här felet kan uppstå när du söker i ett företag som inte har initierats eller inte svarar. Du kan till exempel inte söka i ett nytt testföretag som ännu inte accepterat användningsvillkoren. Lös problemet genom att logga in på [!INCLUDE [prod_short.md](includes/prod_short.md)] webbklienten och arbeta på eller stänga alla dialogrutor som visas.
 
-## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Felmeddelandet "Det gick inte att hitta kontakt-/kontaktsammanfattnings-API" visas vid sökning efter kontakter
+## Felmeddelandet "Det gick inte att hitta kontakt-/kontaktsammanfattnings-API" visas vid sökning efter kontakter
 
 Det här problemet kan orsakas av anpassningar eller branschlösningar som påverkar eller ändrar [!INCLUDE [prod_short.md](includes/prod_short.md)] eller inte tillhandahåller en kontakt- eller kontaktsammanfattnings-API. Kontakta administratören eller supportpartnern om problemet kvarstår.
 
-## <a name="none-of-my-links-expand-into-a-card"></a>Ingen av länkarna expanderas till ett kort
+## Ingen av länkarna expanderas till ett kort 
 
 Om du har drabbats av det här problemet kan du göra följande:
 
@@ -62,7 +62,7 @@ Om du har drabbats av det här problemet kan du göra följande:
 
 4. Din organisation kan också begränsa dig från att klistra in länkar som utökas till kort. Kontakta administratören för att ta reda på vilka organisationspolicyer för Teams som kan gälla för dig.
 
-## <a name="my-link-sometimes-doesnt-expand-into-a-card"></a>Länken utökas ibland inte till ett kort
+## Länken utökas ibland inte till ett kort 
 
 En länk utökas inte till ett kort i följande situationer:
 
@@ -84,7 +84,7 @@ Som exempel:
 
 För teknisk information om [!INCLUDE [prod_short](includes/prod_short.md)]-URL-adresser, se [Webbklientens URL-adress](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) i [!INCLUDE [prod_short](includes/prod_short.md)]-hjälpen för utvecklare och IT-proffs.
 
-## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Informationsfönstret öppnas, men visar ett fel innan informationen visas
+## Informationsfönstret öppnas, men visar ett fel innan informationen visas
 
 Detta problem kan orsakas av ett antal olika saker: brist på behörighet i [!INCLUDE [prod_short](includes/prod_short.md)]- eller webbläsarinställningarna (när du använder Teams i webbläsaren).
 
@@ -102,7 +102,7 @@ Detta problem kan orsakas av ett antal olika saker: brist på behörighet i [!IN
 
     Mer information om minimikraven för webbläsare finns i [Minimikrav för användning av [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Jag har problem med kameran eller platsen i Teams
+## Jag har problem med kameran eller platsen i Teams
 
 När du använder [!INCLUDE [prod_short](includes/prod_short.md)]-funktioner i informationsfönstret som kräver åtkomst till din plats eller din enhets kamera, måste du först ge Teams åtkomst till dessa enhetsfunktioner.  
 
@@ -116,7 +116,7 @@ Mer information om hur du ändrar dessa inställningar finns i [Min kamera funge
 
 Vissa webbläsare, t. ex nya Microsoft Edge, gör att du kan välja vilken kamera som ska användas när enheten har stöd för flera kameror. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams visar blandade språk för mina kort och kortuppgifter
+## Teams visar blandade språk för mina kort och kortuppgifter
 
 För att kort och kortinformation ska kunna visas konsekvent på samma språk i Teams måste språket i din Teams-klient stämma överens med det språk som du använder i [!INCLUDE [prod_short](includes/prod_short.md)]-webbklienten.
 
@@ -126,11 +126,11 @@ För att kort och kortinformation ska kunna visas konsekvent på samma språk i 
 
 Mer information om hur språk fungerar mellan Teams och [!INCLUDE [prod_short](includes/prod_short.md)] finns i [Vanliga frågor och svar om Teams](teams-faq.md#language).
 
-## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Jag har redigerat ett fält i informationsfönstret, men ändringen sparades inte
+## Jag har redigerat ett fält i informationsfönstret, men ändringen sparades inte
 
 Ändringar som du gör i ett fält i informationsfönstret sparas automatiskt när du lämnar fältet. Innan du stänger fönstret när du har ändrat ett fält måste du se till att trycka på <kbd>tabb</kbd>-tangenten eller klicka/trycka utanför fältet.
 
-## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>En ny panel dök upp i startprogrammet. Hur tar jag bort den?
+## En ny panel dök upp i startprogrammet. Hur tar jag bort den?
 
 När du visar dina appar på startsidan för Office 365 (https://home.office.com) eller i startprogrammet, visas en ny panel kallad "Tjänsteanslutning för Business Central Teams-integrering" när du har installerat appen [!INCLUDE [prod_short](includes/prod_short.md)] för Teams. Denna panel har inget värde i sig och kan döljas utan risk.
 
@@ -144,19 +144,19 @@ Som administratör med Microsoft Entra-administratörsbehörighet kan du dölja 
 > [!NOTE]
 > Det kommer att ta ett tag innan denna förändring träder i kraft.
 
-## <a name="duplicate-text-in-the-share-to-teams-window"></a>Duplicera text i fönstret Dela till Teams
+## Duplicera text i fönstret Dela till Teams
 
 När du klistrar in text i meddelanderutan i fönstret **Dela till Teams**, dupliceras texten. Det här problemet är känt för Microsoft och kommer att åtgärdas i en senare uppdatering. 
 
-## <a name="unable-to-sign-in-to-the-share-to-teams-window"></a>Det gick inte att logga in i fönstret Dela med Teams
+## Det gick inte att logga in i fönstret Dela med Teams 
 
 Problemet kan bero på olika orsaker. Till exempel måste den identitet som du använder för att logga in ha åtkomst till Microsoft Teams, till exempel en Microsoft 365-prenumeration.
 
-## <a name="my-cards-no-longer-have-a-popout-button"></a>Mina kort har inte längre någon popout-knapp
+## Mina kort har inte längre någon popout-knapp
 
 Från och med april 2022 kommer länkar som visas som kompaktkort i Teams inte längre att innehålla knappen **Popout**. Om du vill öppna detta kort i dess eget fönster väljer du knappen **Detaljer** och sedan **Öppna i webbläsare** i ellipsmenyn (**...**) i fönstrets övre högra hörn.
 
-## <a name="cant-pin-a-card-to-tab"></a>Det går inte att fästa kort på fliken
+## Det går inte att fästa kort på fliken
 
 Det finns två orsaker till detta problem.
 
@@ -164,16 +164,16 @@ Det finns två orsaker till detta problem.
 
 - Det går inte att fästa förrän du har lagt till fliken Business Central. Det här problemet är känt i Teams. 
 
-## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Någon har lagt till en flik, men fliken visas inte för mig
+## Någon har lagt till en flik, men fliken visas inte för mig
 
 Problemet beror på att du inte har installerat BC-appen för Teams. Endast de med appen installerade kommer att se de flikarna i Business Central.
 
-## <a name="others-see-a-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Andra ser en annan sorterings- eller kolumnlayout än vad flikförfattaren ser
+## Andra ser en annan sorterings- eller kolumnlayout än vad flikförfattaren ser
 
 Problemet beror förmodligen på att du har delat en listvy som är en personlig vy. I det här fallet måste du arbeta med administratören för att skapa rollbaserade listvyer som täcker de olika rollerna i kanalen/chatten, eller skapa vyn för hela organisationen så att alla kan få en enhetlig vy.
 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Integreringsöversikt för [!INCLUDE [prod_short](includes/prod_short.md)] och Microsoft Teams](across-teams-overview.md)  
 [Installera [!INCLUDE [prod_short](includes/prod_short.md)]-appen för Microsoft Teams](across-install-app-for-teams.md)  

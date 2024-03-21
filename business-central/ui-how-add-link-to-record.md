@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms-service: dynamics-365-business-central
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Hantera bifogade filer, länkar och anteckningar på kort och dokument
+# Hantera bifogade filer, länkar och anteckningar på kort och dokument
 
 På de flesta listsidor, kort och dokument kan du bifoga filer, lägga till länkar och skriva anteckningar på **Bilagor** i rutan **Faktabox**. Numret på flikens rubrik visar hur många bifogade filer, länkar eller anteckningar som finns för kortet eller dokumentet.
 
@@ -27,7 +27,7 @@ Du kan också lägga till bifogade filer till e-postmeddelandena som du skickar 
 >
 > När du använder åtgärd **Hämta inleveransrader** på en inköpsfaktura läggs bilagan på den relaterade inköpsordern till inköpsfakturan.
 
-## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Så här bifogar du en fil till en inköpsfaktura
+## Så här bifogar du en fil till en inköpsfaktura
 
 Du kan bifoga alla typer av filer, som text, bilder och videofiler, till ett kort, dokument eller en rad på ett dokument. Detta är användbart om du t. ex. vill lagra en leverantörs faktura som en PDF-fil på den relaterade inköpsfakturan i [!INCLUDE[prod_short](includes/prod_short.md)]i.
 
@@ -50,14 +50,14 @@ Följande procedur är baserad på en inköpsfaktura. Stegen är liknande för a
 
 Filen är nu bifogad inköpsfakturan.
 
-## <a name="to-view-an-attached-file"></a>Visa den bifogade filen
+## Visa den bifogade filen
 
 1. På fliken **bifogade filer** i faktaboxen.
 2. Välj värdet bakom fältet **dokument**, till exempel "1".
 3. På sidan **Bifogade dokument** väljer du åtgärden **Förhandsgranskning**.
 4. Öppna den hämtade filen.
 
-## <a name="to-save-a-document-as-a-pdf-attachment"></a>Så här sparar du ett dokument som en bifogad PDF-fil
+## Så här sparar du ett dokument som en bifogad PDF-fil
 
 När du behöver spara ett dokument som en fil kan du använda åtgärden **Bifoga som PDF** för att överföra det aktuella dokumentinnehållet som en PDF-fil som är kopplad till faktaboxen för dokumentet. Detta är användbart exempelvis när dokument följer flera steg i en procedur, t. ex. ett arbetsflöde för försäljning eller godkännande, och du vill referera till en utskrift av föregående steg.
 
@@ -68,7 +68,7 @@ Följande procedur är baserad på en försäljningsorder. Stegen är liknande f
 
 En PDF-fil med det aktuella innehållet på försäljningsordern läggs till på fliken **Bilagor** i faktaboxen.
 
-## <a name="to-add-a-link-from-an-item-card"></a>Att lägga till länk från ett artikelkort
+## Att lägga till länk från ett artikelkort
 
 Du kan lägga till en länk från ett kort eller dokument till en URL. Detta är användbart om du t. ex. vill koppla ett artikelkort till leverantörens artikelkatalog.
 
@@ -86,7 +86,7 @@ Följande procedur baseras på ett artikelkort. Stegen är liknande för alla an
 
 Länken kopplas nu till artikelkortet.  
 
-## <a name="to-write-a-note-on-a-sales-order"></a>Skriva en notering på en försäljningsorder
+## Skriva en notering på en försäljningsorder
 
 Du kan skriva en notering på ett dokument eller kort, t. ex. om du vill skicka särskilda instruktioner till andra användare av dokumentet eller kortet. Du kan ta med fillänkar och URL:er i anteckningar.
 
@@ -103,7 +103,7 @@ Följande procedur är baserad på en försäljningsorder. Stegen är liknande f
 
 Noteringen är nu kopplad till försäljningsordern.
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Inkommande dokument](across-income-documents.md)  
 [Konfigurera meddelanden för arbetsflödet](across-setting-up-workflow-notifications.md)  
