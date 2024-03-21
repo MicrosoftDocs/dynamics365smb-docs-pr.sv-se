@@ -10,13 +10,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Visa tabellinformation
+# <a name="viewing-table-information"></a>Visa tabellinformation
 
 På sidan **8700 tabellinformation** finns information om antalet poster i alla system- och affärstabeller i [!INCLUDE[prod_short](includes/prod_short.md)] och hur mycket data varje tabell innehåller.
 
 Den här informationen är användbar för att felsöka prestandaproblem, eftersom du kan se fördelningen av datastorlek över tabeller.
 
-## Visa tabellinformation
+## <a name="view-table-information"></a>Visa tabellinformation
 
 Om du vill öppna sidan markerar du ![Sök på sidan eller rapporten.](media/ui-search/search_small.png "Ikonen Sök efter sida eller rapport") anger du **Tabellinformation** och väljer sedan relaterad länk.
 
@@ -41,7 +41,7 @@ I följande tabell beskrivs de olika tabellerna som anges:
 > Sidan **Tabellinformation** visar data och indexstorlekar och summan av tabellstorlekar matchar inte den totala kapaciteten som används, eftersom den visar datastorleken, inte den faktiska tilldelade storleken. Tilldelat utrymme är alltid större än använt utrymme för att undvika att behöva allokera utrymme på varje skär, vilket skulle begränsa prestandan avsevärt
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Kontrollera sidor](across-inspect-page.md)  
 [Prestandaartiklar för utvecklare](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

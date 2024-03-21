@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Hantera Försäljningsmöjligheter
+# <a name="managing-sales-opportunities"></a>Hantera Försäljningsmöjligheter
 En inkommande lead kan betraktas som en affärsmöjlighet. Du kan skapa affärsmöjligheter och koppla dem till en säljare så att du kan följa upp presumtiv försäljning.
 
 Innan du börjar använda affärsmöjlighetshanteringen måste du skapa försäljningscykler och försäljningscykeletapper. När du skapar affärsmöjligheter ska du ange information om kontaktperson, säljare, försäljningscykel och datum samt uppskattat försäljningsvärde för affärsmöjligheten och sannolikheten för att försäljningen genomförs.
@@ -24,7 +24,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Skapa försäljningsmöjligheter från dina kontakter. |[Skapa affärsmöjligheter](marketing-how-create-opportunities.md) |
 | Flytta en försäljningsmöjlighet via försäljningcykeln till färdigställande. |[Behandla försäljningsmöjligheter](marketing-processing-sales-opportunities.md) |
 
-## Se även
+## <a name="see-also"></a>Se även
 [Försäljning](sales-manage-sales.md)  
 [Skapa och hantera kontakter](marketing-contacts.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

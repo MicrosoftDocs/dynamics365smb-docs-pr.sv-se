@@ -9,11 +9,11 @@ ms.date: 06/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Rapporturval för dokument i Business Central
+# <a name="report-selection-for-documents-in-business-central"></a>Rapporturval för dokument i Business Central
 
 Du kan ställa in standardrapporter som ska användas för att skriva ut dokument för försäljning, inköp och service, till exempel order, offerter och fakturor. Om du t. ex. har en särskild layout för försäljningsfakturor kan du ange rapporten på sidan **Rapporturval – Försäljning** så att den används för att skicka eller skriva ut försäljningsfakturor.  
 
-## Tillgängliga rapporturval
+## <a name="available-report-selections"></a>Tillgängliga rapporturval
 
 Sidorna för **rapporturval** anger vilken rapport som ska skrivas ut i olika situationer. [!INCLUDE [prod_short](includes/prod_short.md)] tillhandahåller standardkonfigurationer, men du kan ändra dem om det behövs. Du kan också lägga till rapporter på sidorna för **Rapporturval** om du exempelvis vill skriva ut mer än en rapport per dokumenttyp. 
 
@@ -40,7 +40,7 @@ Standardversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller
 * **Rapportval – Projekt**  
 * **Rapportval - service**
 
-## Exempel: Rapportval för försäljningsdokument
+## <a name="example-report-selection-for-sales-documents"></a>Exempel: Rapportval för försäljningsdokument
 
 Sidan **Rapportval – Försäljning** erbjuder standardrapporter som ska användas i olika scenarier för varje relaterad dokumenttyp. Välj en dokumenttyp i fältet **Användning** och lägg sedan till eller granska rapporturvalet. Du kan konfigurera mer än en rapport och specificera den ordning rapporterna ska skickas eller skrivas ut.  
 
@@ -56,7 +56,7 @@ På sidorna **Rapporturval – Försäljning** och **Rapporturval – Inköp** h
 |**Använd till e-postbilaga**| Bifoga det relaterade dokumentet till e-postmeddelandet.|
 |**Beskrivning av layouten på brödtext i e-post**|Ange vilken brödtext i e-post som ska användas. Oftast är det en egen layout för rapporter. |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställ in återanvändbara e-posttexter och layouter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Välj en kontrollayout](finance-how-define-check-layouts.md)  

@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Produktion
+# <a name="manufacturing"></a>Produktion
 
 > [!NOTE]
 > Funktionen som beskrivs i det här avsnittet och underavsnitt visas endast i användargränssnittet om du har **Premium**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
@@ -38,7 +38,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 |Använda sidan **Kapacitetsjournal** för att bokföra förbrukade kapaciteter som inte tilldelats en produktionsorder, till exempel underhållsarbete.|[Bokför kapaciteter](production-how-to-post-capacities.md)|  
 |Beräkna och justera kostnaden för färdiga produktionsartiklar och förbrukade komponenter för avstämning.|[Om kostnader för färdiga produktionsorder](finance-about-finished-production-order-costs.md)|  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in Produktion](production-configure-production-processes.md)  
 [Planerad](production-planning.md)  

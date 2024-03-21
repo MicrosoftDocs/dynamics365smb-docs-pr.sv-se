@@ -10,13 +10,13 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designdetaljer: Lagerkalkylering
+# <a name="design-details-inventory-costing"></a>Designdetaljer: Lagerkalkylering
 
 Dokumentationen ger en detaljerad teknisk inblick i begreppen och principerna som används i lagringsvärderingsfunktionerna i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Lagervärdering, kallas även kostnadshantering, används vid registrering och rapportering av rörelsens driftskostnader.  
 
-## I det här avsnittet
+## <a name="in-this-section"></a>I det här avsnittet
 
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  
 [Designdetaljer: Artikelkoppling](design-details-item-application.md)  
