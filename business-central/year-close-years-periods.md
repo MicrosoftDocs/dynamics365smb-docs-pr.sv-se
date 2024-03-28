@@ -10,7 +10,7 @@ ms.date: 08/18/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Avsluta år och perioder
+# <a name="closing-years-and-periods"></a>Avsluta år och perioder
 
 Vid slutet av ett räkenskapsår finns ett antal administrativa uppgifter som du måste utföra, som t.ex. att se till att alla dokument och journaler är bokförda och se till att valutadata är aktuella och avsluta böckerna m.m. De faktiska uppgifterna beror på ditt företag.
 
@@ -28,7 +28,7 @@ Följande tabell innehåller en översikt över uppgifter som du vanligtvis utf�
 | Avsluta bokföringsperioder och räkenskapsår, föra över resultaträkningssaldon till balansräkningskonton och bokför årsavslutstransaktion för årsslut. |[Avsluta böcker](year-close-books.md) |
 | skriva ut rapporter som kan vara till hjälp när du skapar ekonomirapporter. |[Förbereda årsbokslutsrapporter](year-prepare-close-statement.md) |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

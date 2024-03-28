@@ -10,28 +10,28 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Snabbstart för Business Central
+# <a name="business-central-quick-starts"></a>Snabbstart för Business Central
 
 Med hjälp av de här snabbstartsartiklarna kan du sätta igång så snart som möjligt så att du kan utföra de grundläggande [!INCLUDE[prod_short](includes/prod_short.md)] funktioner du behöver.
 
 Följande avsnitt leder till layoutstöd för nybörjare som hjälper dig att bekanta dig med de funktioner som du behöver i [!INCLUDE[prod_short](includes/prod_short.md)]. I varje snabbstart hittar du länkar till mer avancerad information om funktionen om du behöver det.
 
-## Ange grundläggande information om företaget
+## <a name="provide-basic-information-about-your-company"></a>Ange grundläggande information om företaget
 
 Det första steget är att ange den grundläggande informationen om företaget. Detta omfattar exempelvis information om t.ex. adress, bankkonton, momsnummer och så vidare. Detta beskrivs i artikeln [snabbstart företagsinformation](quick-start-company-information.md).
 
-## Förbered grundläggande ekonomisk information
+## <a name="prepare-basic-financial-information"></a>Förbered grundläggande ekonomisk information
 
 Nu är det dags att ange företagets ekonomiska information så att du är klar att göra affärer. Använd [!INCLUDE[prod_short](includes/prod_short.md)] kontoplan för att spara tid. Om det behövs kan du anpassa det med några få steg genom att följa den [ekonomiska informationen i snabbstart](quick-start-financial-information.md).
 
 <!--
-## Financial Basics
+## <a name="financial-basics"></a>Financial Basics
 
 Financial Information  
 (chart of accounts, but explained for non-accountants)
 -->
 
-## Skriv ut rapporter och anpassa dokument
+## <a name="print-reports-and-customize-documents"></a>Skriv ut rapporter och anpassa dokument
 
 Lär dig att anpassa och skriva ut rapporter och dokument som försäljningsfakturor så att de passar ditt företags behov i de [grundläggande rapporterna och dokumenten](quick-start-reports-and-documents.md).
 
@@ -39,7 +39,7 @@ Lär dig att anpassa och skriva ut rapporter och dokument som försäljningsfakt
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
-## Sälja produkter och tjänster
+## <a name="sell-products-and-services"></a>Sälja produkter och tjänster
 
 Information om hur du snabbt kommer igång med att sälja produkter och tjänster finns i artikeln [Snabbstart för försäljning](quick-start-sell-products-and-services.md).
 
@@ -47,7 +47,7 @@ Information om hur du snabbt kommer igång med att sälja produkter och tjänste
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
 -->
 
-## Köpa produkter och tjänster
+## <a name="buy-products-and-services"></a>Köpa produkter och tjänster
 
 Information om hur du köper produkter och tjänster finns i artikeln [Snabbstart för anskaffning](quick-start-procurement.md).  
 
@@ -55,7 +55,7 @@ Information om hur du köper produkter och tjänster finns i artikeln [Snabbstar
 (buy stuff, register in inventory, pay vendor)
 -->
 
-## Förstå ditt företag med Business Intelligence
+## <a name="understand-your-company-with-business-intelligence"></a>Förstå ditt företag med Business Intelligence
 
 Omvandla dina affärsdata till värdefulla insikter med hjälp av de verktyg som visas i [Business Intelligence snabbstart](quick-start-business-intelligence.md).
 
@@ -64,7 +64,7 @@ Business Intelligence
 (reports)
 -->
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Business Central-utbildning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Översikt över affärsfunktioner](across-business-functionality.md)  

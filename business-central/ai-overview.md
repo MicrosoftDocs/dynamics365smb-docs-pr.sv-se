@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ---
-# Översikt över förslag på marknadsföringstext med Copilot
+# <a name="marketing-text-suggestions-with-copilot-overview"></a>Översikt över förslag på marknadsföringstext med Copilot
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 I den här artikeln får du en översikt över den AI-drivna kapacitet som medföljer Copilot i Business Central.
 
-## Vad är marknadsföringstext för AI-baserad artikel med Copilot
+## <a name="what-is-ai-powered-item-marketing-text-with-copilot"></a>Vad är marknadsföringstext för AI-baserad artikel med Copilot
 
 Copilot tillhandahåller AI-baserad skrivhjälp för Business Central-användare som ansvarar för att skapa marknadsföringstext (produktbeskrivningar) på varor som säljs i onlinebutiker, som Shopify. Med ett klick på en knapp genererar Copilot text som är engagerande, kreativ och framhäver nyckelattributen för det specifika föremålet. Efter granskning och redigering är det dags att publicera.
 
@@ -28,13 +28,13 @@ Copilot använder [Microsoft Azure OpenAI Service](/azure/cognitive-services/ope
 
 *Videon visar inte exakt hur funktionen fungerar eller hur produkten ser ut. Funktionen har ändrats sedan videon tillverkades. Men det ger en allmän uppfattning om funktionen och vad du kan använda den till.*
   
-## Där den används
+## <a name="where-its-used"></a>Där den används
 
 Copilot är tillgänglig på artikelkort i Business Central. I Business Central är artiklar som produkter i andra program och butiker. Varje artikel kan hanteras från ett kort där du anger information om artikeln, t.ex. dess dimensioner, kostnad eller bild. Det här kortet innehåller också en ruta där du kan lägga till marknadsföringstext. Den här marknadsföringstexten kan publiceras på din onlinebutik för att flytta upp objektet. Här kommer Copilot in. Genom att välja åtgärden **Utkast med Copilot** på artikelkortet kommer Copilot generera en intelligent utkasttext åt dig. När du får det första utkastet kan du köra Copilot igen tills du får ett utkast som du gillar. När du har ett förslag som du gillar granskar och redigerar du det för noggrannhet och sparar det sedan.
 
 Om Business Central är konfigurerad för att ansluta till Shopify, kan du ta denna text ännu längre genom att publicera den med artikeln direkt till din butik genom att välja **Lägg till Shopify**.
 
-## Varför och hur du använder den
+## <a name="why-and-how-to-use-it"></a>Varför och hur du använder den
 
 Med AI-genererad text kan du snabbare förbättra produkternas tid-till-marknad i onlinebutiker genom att begränsa den tid som används vid copywriting. Några viktiga fördelar:
 
@@ -44,7 +44,7 @@ Med AI-genererad text kan du snabbare förbättra produkternas tid-till-marknad 
 
 Du bör betrakta den AI-genererade texten som en *endast förslag*. Förslag kan i vissa fall innehålla misstag och till och med olämplig text, så att mänsklig insyn och andra undersökningar krävs. Innan du gör texten tillgänglig för allmänheten måste du kontrollera att den är korrekt och göra lämpliga ändringar.
 
-## Aktuella begränsningar
+## <a name="current-limitations"></a>Aktuella begränsningar
 
 I det här avsnittet beskrivs de aktuella begränsningarna för AI-genererad text kapacitet från Copilot.
 
@@ -55,7 +55,7 @@ I det här avsnittet beskrivs de aktuella begränsningarna för AI-genererad tex
 
 <!-- Partner extensibility of the AI capability by using AL code isn't supported.-->
 
-## Nästa steg
+## <a name="next-steps"></a>Nästa steg
 
 För att komma igång måste du ha en Business Central-miljö (v23.1 och senare) som aktiveras med Copilot.
 
@@ -65,7 +65,7 @@ För att komma igång måste du ha en Business Central-miljö (v23.1 och senare)
 
 När du har en miljö eller ett spår som är klart går du till [Lägg till marknadsföringstext till objekt med Copilot](item-marketing-text.md).  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera Copilot- och AI-funktioner](enable-ai.md)  
 [Lägg till marknadsföringstext för artiklar med Copilot](item-marketing-text.md)  

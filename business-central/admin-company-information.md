@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Företagsinformationsöversikt
+# <a name="company-information-overview"></a>Företagsinformationsöversikt
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organiserar affärsenheter i *företag*. För varje företag måste du fylla i en del av den grundläggande företagsinformationen och relevant information på sidan **Företagsinformation**. Informationen på sidan [**Företagsinformation**](https://businesscentral.dynamics.com/?page=1) används i dokument, exempelvis fakturasidhuvuden. Du kan skapa flera företag, t.ex. ett moderbolag och ett dotterbolag.  
 
@@ -25,13 +25,13 @@ Sidan **Företagsinformation** innehåller olika fält och snabbflikar, beroende
 
 När du har fyllt i informationen kan du stänga sidan.  
 
-## Arbeta med flera företag
+## <a name="working-with-multiple-companies"></a>Arbeta med flera företag
 
 Om din version av [!INCLUDE [prod_short](includes/prod_short.md)] inkluderar flera företag, kanske användarna vill använda *företagetsbrickor* för att snabbt kunna identifiera och hålla reda på vilket företag de arbetar i just nu. För mer information, se [Visa en företagsbricka](#badge).
 
 Det finns några funktioner som du kan använda för att växla mellan företag medan du arbetar, som företagsväxlaren (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Läs mer i [Byta till ett annat företag eller en annan miljö](ui-organization-switch.md).
 
-## <a name="badge"></a>Visa en företagsbricka
+## <a name="display-a-company-badge"></a><a name="badge"></a>Visa en företagsbricka
 
 När det finns mer än ett företag eller miljö visas företagsväxlaren i det övre högra hörnet av programfältet, nära sökikonen i programfältet. Som standard använder företaget en standardföretagsbricka, t.ex ![företagsikon Launcher.](media/ui-experience/company-icon.png "Visar företagsväxlingsikonen som används när det finns en enda miljö") och ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Visar företagsväxlingsikonen som används när det finns flera miljöer").
 
@@ -39,7 +39,7 @@ När det finns mer än ett företag eller miljö visas företagsväxlaren i det 
 
 Från och med utgivningscykel 2 för 2023, version 23, visas företagsmärket på webbläsarfliken när du använder webbklienten. Det ingår också i sidlänkar som du [kopierar och klistrar in](across-share-data-features.md#copying-a-link) i RTF-redigerare, till exempel Word, Outlook och Teams.
  
-### Konfigurera företagsbricka
+### <a name="set-the-company-badge"></a>Konfigurera företagsbricka
 
 Med hjälp av sidan **Företagsinformation** kan du ersätta standardföretagsikonen med en anpassad bricka per företag, om företagsbrickan gör det enklare för användare att identifiera företaget de arbetar i.
 
@@ -49,7 +49,7 @@ Med hjälp av sidan **Företagsinformation** kan du ersätta standardföretagsik
 > [!NOTE]
 > Företagsväxlaren infördes i utgivningscykel 2 år 2022, version 21. I tidigare versioner används företagsbrickan inte för växling av företag. Den visas i det övre högra hörnet på de flesta sidorna, även om det bara finns ett företag. Om du väljer det här alternativet visas företagets fullständiga namn och miljöns namn.
 
-## Ändra företagets visningsnamn
+## <a name="change-company-display-name"></a>Ändra företagets visningsnamn
 
 Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en åtgärd som du kan välja att gå tillbaka till rollcentret. Du kan ändra det här namnet på sidan **företagsinformation**.
 
@@ -57,13 +57,13 @@ Företagsnamnet visas alltid i det övre vänstra hörnet och fungerar som en å
 2. Ange det nya företagsnamnet i fältet **Namn**.
 3. Lämna sidan. Systemet startas om och det nya företaget visas i det övre vänstra hörnet.
 
-## Upplevelse
+## <a name="experience"></a>Upplevelse
 
 Standardgränssnittet i utvärderingsversionen av [!INCLUDE [prod_short](includes/prod_short.md)] innehåller inte alla funktioner. Du kan aktivera den fullständiga upplevelsen på sidan **Företagsinformation**.  
 
 Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Översikt över arbetsuppgifter att ställa in [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Företagsinformation – Snabbstart](quick-start-company-information.md)  

@@ -9,11 +9,11 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Bokför kapaciteter
+# <a name="post-capacities"></a>Bokför kapaciteter
 
 I kapacitetsjournalen bokför du förbrukade kapaciteter som inte kopplats till produktionsordern. Underhållsarbete måste till exempel kopplas till kapacitet, men inte till en produktionsorder.  
 
-## Så här bokför du kapaciteter  
+## <a name="to-post-capacities"></a>Så här bokför du kapaciteter
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kapacitetsjournal** och väljer sedan relaterad länk.  
 2. Fyll i fälten **Bokföringsdatum** och **Verifikationsnummer** .  
@@ -24,7 +24,7 @@ I kapacitetsjournalen bokför du förbrukade kapaciteter som inte kopplats till 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Så här visar du produktionsgruppstransaktioner  
+## <a name="to-view-work-center-ledger-entries"></a>Så här visar du produktionsgruppstransaktioner
 
 På sidan **produktionsgruppkort** och **maskingruppkort** kan du se bokförd kapacitet till följd av avslutade produktionsorder.    
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **produktionsgrupper** och väljer sedan relaterad länk.  
@@ -32,7 +32,7 @@ På sidan **produktionsgruppkort** och **maskingruppkort** kan du se bokförd ka
 
     På sidan **Kapacitetstransaktioner** visas de transaktioner som bokförts från produktionsgruppen i den ordning de bokförts i.   
 
-## Se även  
+## <a name="see-also"></a>Se även
 
 [Produktion](production-manage-manufacturing.md)  
 [Ställa in Produktion](production-configure-production-processes.md)  

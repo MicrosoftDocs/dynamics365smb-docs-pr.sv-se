@@ -9,13 +9,13 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Översikt över bokföring av rad i redovisningsjournalen
+# <a name="general-journal-post-line-overview"></a>Översikt över bokföring av rad i redovisningsjournalen
 
 Kodmodul 12, **Redovisningsjnl – bokför rad**, är det större programobjektet för redovisningsbokföring och är den enda plats där redovisning, moms, kund- och leverantörsreskontraposter kan infogas. Den här kodmodulen används även för alla operationer av typen Verkställ, Ta bort och Återför.  
   
 I Microsoft Dynamics NAV 2013 R2 har kodmodulen skapats på grund av att den hade blivit mycket stor, med cirka 7 600 kodrader. Arkitekturen ändrades och kodmodulen har gjorts enklare och mer stabil. Denna dokumentation beskriver ändringarna och tillhandahåller information som du kanske behöver för en uppgradering.  
   
-## Gammal arkitektur  
+## <a name="old-architecture"></a>Gammal arkitektur
 Den gamla arkitekturen hade följande funktioner:  
   
 * Tidigare använder globala variabler i stor utsträckning, vilket ökade risken för dolda fel på grund av variabler med fel omfång.  
@@ -26,7 +26,7 @@ Den gamla arkitekturen hade följande funktioner:
 * En stor del av koden i kodmodul 12, ungefär 30 procent, är relaterad till kassarabatt och toleransberäkningar även om dessa funktioner inte behövs i många eller länder/regioner.  
 * Bokföring, Koppla, Ta bort, Återför, Kassarabatt och Tolerans samt Valutakursjustering har sammanförts i kodmodul 12 med hjälp av en lång lista över globala variabler.  
   
-### Ny arkitektur  
+### <a name="new-architecture"></a>Ny arkitektur
 Kodmodul 12 i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller följande förbättringar:  
   
 * Kodmodul 12 har omstrukturerats till mindre procedurer (alla mindre än 100 kodrader).  
@@ -36,7 +36,7 @@ Kodmodul 12 i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller följan
 * Många hjälpfunktioner har överförts till motsvarande transaktionstabeller för kund- och leverantörsreskontra.  
 * Användningen av globala variabler har minimerats så att varje procedur använder parametrar och kapslar in sin programlogik.  
   
-## Se även
+## <a name="see-also"></a>Se även
 
 [Designdetaljer: Bokföringsgränssnittsstruktur](design-details-posting-interface-structure.md)  
 [Designdetaljer: Bokföringsmotorstruktur](design-details-posting-engine-structure.md)  

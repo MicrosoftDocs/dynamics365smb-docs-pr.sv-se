@@ -10,7 +10,7 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Om ramverket för datautbyte
+# <a name="about-the-data-exchange-framework"></a>Om ramverket för datautbyte
 
 Du kan använda ramverket för dataintegrering för att hantera utbytet av affärsdokument, bankfiler, valutakurser och andra datafiler med dina affärspartner eller myndigheter.
 
@@ -22,7 +22,7 @@ Som administratör eller Microsoft-partner kan du använda ramverket i nya integ
 
  ![Ramverk för dataintegrering &#45; Exportera.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## Elektroniska dokument
+## <a name="electronic-documents"></a>Elektroniska dokument
 
 Som alternativ till att e-posta affärsdokument som filbilaga kan du skicka och ta emot dem elektroniskt. Med elektroniska dokument menas en standarduppfyllande fil som representerar ett affärsdokument, till exempel en faktura från en leverantör som du kan ta emot och konvertera till en inköpsorder i [!INCLUDE[prod_short](includes/prod_short.md)] . Handels partner utbyter elektroniska dokument via externa dokumentväxlingstjänster. Som standard stöder [!INCLUDE[prod_short](includes/prod_short.md)] utskick och mottagning av elektroniska fakturor och kreditnotor i PEPPOL-format, som stöds av de största leverantörerna av dokumentväxlingstjänster. En större leverantör av dokumentväxlingstjänster, Tradeshift, är förkonfigurerad och klar att ställa in för ditt företag. Om du vill tillhandahålla stöd för andra elektroniska dokumentformat måste du skapa nya datumutbytesdefinitioner.  
 
@@ -34,7 +34,7 @@ Om du exempelvis vill ta emot en faktura från en leverantör som ett elektronis
 
   Om du vill ta emot, till exempel, en faktura som ett elektroniskt OCR-dokument, behandlar du det som när du tar emot ett elektroniskt PEPPOL-dokument. Mottagningen och konverteringen av elektroniska dokument från OCR utförs av ramverket för datautbyte som representeras i definitionen för datautbyte i **OCR – Faktura**.  
 
-## Bankfiler
+## <a name="bank-files"></a>Bankfiler
 
 Filformaten för utbyte av bankdata med affärshanteringsprogram varierar beroende på leverantören av filen och på landet eller regionen. [!INCLUDE[prod_short](includes/prod_short.md)] stöder import och export av SEPA-bankfiler (Single Euro Payments Area). Dessutom kan du med hjälp av AMC Banking 365 Fundamentals tillägget ansluta till ett AMC Banking 365 Fundamentals tillägg som tillhandahålls av en extern provider, AMC Consult.. Mer information finns i [Göra betalningar med AMC Banking 365 Fundamentals tillägg eller SEPA-kreditöverföring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). För att få stöd för andra elektroniska dokumentformat använder du ramverket för datautbyte.  
 
@@ -46,17 +46,17 @@ Om du vill exportera SEPA-krediteringsöverföringar väljer du knappen **Export
 
  Dessutom stöder de lokala versionerna av [!INCLUDE[prod_short](includes/prod_short.md)] olika andra filformat för att importera och exportera bankdata, lönetransaktioner och andra data. För mer information, se landningssidan [Lokal funktionalitet](about-localization.md) för ditt land/din region under Hjälp.  
 
-## Valutakurser
+## <a name="currency-exchange-rates"></a>Valutakurser
 
 Du kan ställa in en extern tjänst för kontinuerlig uppdatering av aktuella valutakurser. Tjänsten, som tillhandahåller valutakurser, aktiveras av en datautbytesdefinition. Därför är sidan **Inställning valutakursuppdatering** en kondenserad vy av sidan **Data Exchange definitionen** för definitionen av datautbytet i fråga.  
 
 För alla utbyten av data i XML-filer kan du förbereda dataväxlingsinställningen genom att ladda den relaterade XML-schemafilen på sidan **Visningsprogram för XML-schema**. Här väljer du dataelementen som du vill utbyta med [!INCLUDE[prod_short](includes/prod_short.md)] och sedan initialiserar du antingen en definition för datautbyte eller genererar en XMLport.
 
-## Intrastat
+## <a name="intrastat"></a>Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] använder data Exchange Framework för Intrastat-rapportering där du enkelt kan skapa tidsstämplade filer i olika format för export. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller förberedda format för lokaliserade länder/regioner och för standardversionen. Du kan dock ändra i medföljande rapport eller skapa en egen.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Utbyta data elektroniskt](across-data-exchange.md)  
 [Använda XML-scheman för att förbereda datautbytesdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

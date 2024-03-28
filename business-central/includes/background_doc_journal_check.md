@@ -5,7 +5,7 @@ ms.date: 02/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## Kontrollera data i dokument och journaler medan du arbetar
+## <a name="check-data-in-documents-and-journals-while-you-work"></a>Kontrollera data i dokument och journaler medan du arbetar
 
 I 2022 års utgivningscykel 1 introducerades en funktion som validerar de data du registrerar i dokument och journaler medan du matar in dem. Om du aktiverar den här funktionen kan du t.ex. undvika misstag i datainmatning eller att inte kunna bokföra något på grund av ett fel. 
 

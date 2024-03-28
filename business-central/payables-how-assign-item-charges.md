@@ -10,7 +10,7 @@ ms.date: 11/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Använda artikelomkostnader till kontot för ytterligare verksamhetskostnader
 
 Om du vill säkerställa korrekt värderingmåste dina lagerartiklar läggas på extra kostnader, som till exempel frakt, fysisk hantering, försäkring och transport som förekommer vid inköp eller försäljning av artiklar. För inköp kommer lossningsavgiften för en inköpt artikel bestå av leverantörens inköpspris och samtliga artikelomkostnader som kan kopplas till enskilda inleveranser eller returutleveranser. För försäljning kan det vara lika betydelsefullt för företaget att känna till leveranskostnader för sålda artiklar som att veta inköpskostnader inklusive hemtagningskostnader för inköpta artiklar.
 
@@ -30,13 +30,13 @@ För både inköps- och försäljningsdokument, kan du tilldela en artikelomkost
 > [!NOTE]  
 > Du kan tilldela artikelomkostnader till order, fakturor och kreditnotor för försäljning och inköp. I följande procedurer beskrivs hur du arbetar med artikelomkostnader för en inköpsfaktura. Stegen är liknande för alla andra ingående och utgående dokument.
 
-## Exempel
+## <a name="example"></a>Exempel
 
 Det här videoklippet visar hur du hanterar ytterligare leveranskostnader som en del av lagerkostnad.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## Så här skapar du artikelomkostnadsnummer
+## <a name="to-set-up-item-charge-numbers"></a>Så här skapar du artikelomkostnadsnummer
 
 Artikelomkostnadsnummer används för att skilja mellan olika typer av artikelomkostnader.
 
@@ -44,7 +44,7 @@ Artikelomkostnadsnummer används för att skilja mellan olika typer av artikelom
 2. På sidan **Artikelomkostnader** väljer du åtgärden **Ny** åtgärder för att skapa en ny rad.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## För att tilldela artikelomkostnader direkt till inköpsfakturan för artikeln
+## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>För att tilldela artikelomkostnader direkt till inköpsfakturan för artikeln
 
 Om du vet artikelomkostnaderna när du bokför en inköpsfaktura för artikeln, följer du nedanstående instruktioner.
 
@@ -68,7 +68,7 @@ Om artikelomkostnaden tilldelas helt, är värdet i fältet **Ant. att distribue
 
 Artikelomkostnaderna har nu tilldelats till inköpsfakturan. När du bokför inleveransen av inköpsfakturan uppdateras artiklarnas lagervärden med kostnaden för artikelomkostnaden.  
 
-## För att tilldela artikelomkostnader från en separat faktura till inköpsfakturan för artikeln
+## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>För att tilldela artikelomkostnader från en separat faktura till inköpsfakturan för artikeln
 
 Om du har fått en faktura för artikelomkostnaden när du har bokfört ursprungligt inleverans, följer du nedanstående instruktioner.
 
@@ -79,7 +79,7 @@ Om du har fått en faktura för artikelomkostnaden när du har bokfört ursprung
 
 Artikelomkostnader på den separata inköpsfakturan har nu tilldelats till artikeln på den bokförda inleveransraden, därför uppdateras artikelns lagervärde med kostnaden för artikelomkostnaden.
 
-## Hantera artikelomkostnader för delinleveranser
+## <a name="handle-item-charges-for-partial-receipts"></a>Hantera artikelomkostnader för delinleveranser
 
 Vi ska nu utforska ett exempel på hur du kan hantera artikelomkostnader för en delinleverans.
 
@@ -94,7 +94,7 @@ För att hantera artikelkostnaden för delinleverans, på sidan **Art.omkost.fö
 
 När du är redo att hantera artikeln som saknas uppdaterar du fältet **Antal att hantera** och bokför ordern.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  

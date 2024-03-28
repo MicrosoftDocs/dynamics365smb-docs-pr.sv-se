@@ -10,7 +10,7 @@ ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tillägget PayPal Payments Standard
+# <a name="the-paypal-payments-standard-extension"></a>Tillägget PayPal Payments Standard
 
 Kunder kräver kontinuerligt högre kundservice både när det gäller produktkvalitet och även leveransdatum och betalningsalternativ. Tjänsten för PayPal Payments Standard hjälper dig att öka din kundservice.
 
@@ -28,7 +28,7 @@ Tjänsten för PayPal Payments Standard ger följande förmåner:
 
 Mer information finns i [Så här aktiverar du kundbetalningar via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
