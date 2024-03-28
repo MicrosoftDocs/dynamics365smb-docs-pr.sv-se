@@ -10,7 +10,7 @@ ms.date: 06/14/2021
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Tjänstens regelefterlevnad
+# Tjänstens regelefterlevnad
 
 Det här innehållet anger information om tjänstens regelefterlevnad i relation till [!INCLUDE[prod_short](../includes/prod_short.md)] online  
 
@@ -20,11 +20,11 @@ Du hittar en detaljerad lista över [molnets regelefterlevnad i Business Central
 
 Om du är intresserad av vilka erbjudanden för regelefterlevnad som Microsoft har, se [Microsoft Trust Center](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Tjänstvillkor
+## Tjänstvillkor
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Regelefterlevnad](compliance-overview.md)  
 [Programmets regelefterlevnad](compliance-application-compliance.md)  

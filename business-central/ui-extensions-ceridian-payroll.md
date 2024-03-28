@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-ceridian-payroll-extension"></a>Tillägget Ceridian löner
+# Tillägget Ceridian löner
 
 För att ta hänsyn till lönutbetalningar och relaterade transaktioner måste du importera och bokföra finansiella transaktioner som gjorts av ditt lönesystem i redovisningen.
 
@@ -18,7 +18,7 @@ För att göra detta måste du först importera en fil som du får från löneli
 
 Tillägget Ceridian lön låter dig importera lönetransaktioner från tjänsterna Ceridian personal/lön (USA) och Ceridian PowerPay (Kanada).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg ](ui-extensions.md)  
 [Ekonomi](finance.md)  

@@ -9,15 +9,15 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Rapporter för anläggningstillgångar och analys i Business Central
+# Rapporter för anläggningstillgångar och analys i Business Central
 
 För att hjälpa dig att hantera dina anläggningstillgångar i [!INCLUDE [prod_short](includes/prod_short.md)] är standardrapporter och analyser inbyggda. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  

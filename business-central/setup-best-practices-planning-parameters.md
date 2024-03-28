@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Skapa metodtips: planeringsparametrar
+# Skapa metodtips: planeringsparametrar
 
 Snabbfliken **Planering** på artikelkortet är mitten av ett företags försörjningskedja. Det är mycket viktigt att ställa in rätt planeringsparametrar för kostnadseffektiv lagerkontroll och hög kundservicenivå.  
 
@@ -33,7 +33,7 @@ Snabbfliken **Planering** på artikelkortet är mitten av ett företags försör
 >
 > Om företag planerar för behov på olika lagerställen, rekommenderas det att att definiera lagerställeenheter för varje lagerställe och att alla behov skapas, med hjälp av ett värde i fältet **Lagerställekod** . Läs mer på [Designdetaljer: Planera med och utan lagerställen](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Se även
+## Se även  
 [Skapa metodtips: leveransplanering](setup-best-practices-supply-planning.md)  
 [Designdetaljer: Leveransplanering](design-details-supply-planning.md)  
 [Skapa komplexa moduler med hjälp av bästa praxis](set-up-complex-application-areas-using-best-practices.md)  
