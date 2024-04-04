@@ -10,11 +10,11 @@ ms.date: 02/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Skicka påminnelser om utestående saldon
+# Skicka påminnelser om utestående saldon
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Ställa in flera räntesatser för fördröjd betalning](finance-how-to-set-up-multiple-interest-rates.md)  
