@@ -139,6 +139,7 @@ ms.service: dynamics-365-business-central
 ## Bli produktiv i Business Central
 ### [Översikt över allmänna funktioner](ui-work-product.md)
 ### [Utskriftsversion av översiktsblad](ui-work-product.md#cheatsheet)
+### [Chatt med Copilot (förhandsversion)](chat-with-copilot.md)
 ### [Söka efter sidor och information med Berätta](ui-search.md)
 ### [Vanliga frågor om Berätta](ui-search-faq.md)
 ### [Söka efter specifika data](ui-search-data.md)
@@ -201,6 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligenta insikter (endast online)](about-intelligent-cloud.md)
 ## Vanliga frågor och svar
 ### [Vanliga frågor och svar](across-faq.yml)
+### [Vanliga frågor och svar om Chatt med Copilot (förhandsversion)](chat-with-copilot-faq.md)
 ### [Vanliga frågor om Berätta](ui-search-faq.md)
 ### [Vanliga frågor och svar om att söka och filtrera](ui-search-filter-faq.yml)
 ### [Vanliga frågor och svar om listvyer](ui-views-faq.yml)
@@ -374,6 +376,7 @@ ms.service: dynamics-365-business-central
 #### [Konfigurera lagervärdering och lagerkostnader](finance-set-up-inventory-valuation-and-costing.md)
 #### [Omvärdera lager](inventory-how-revalue-inventory.md)
 #### [Justera artikelkostnader](inventory-how-adjust-item-costs.md)
+#### [Spåra artikelkostnadsjusteringar](finance-track-inventory-costs.md)
 #### [Hantera lagerkostnader och produktionskostnader](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Uppdatera standardkostnader](finance-how-to-update-standard-costs.md)
 #### [Ta bort och koppla om artikeltransaktioner](finance-how-to-remove-and-reapply-item-entries.md)
@@ -388,7 +391,6 @@ ms.service: dynamics-365-business-central
 #### [Översikt över kassaflöde](finance-cash-flow-overview.md)
 #### [Analysera kassaflöden i företaget](finance-analyze-cash-flow.md)
 #### [Genomgång: Använda ekonomiska rapporter för att utföra kassaflödesprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
 
 ### Avsluta år och perioder
 #### [Översikt över årsslut](year-close-years-periods.md)
@@ -408,6 +410,7 @@ ms.service: dynamics-365-business-central
 ### Arbeta med kontoplanen och redovisningen
 #### [Förstå redovisningen och kontoplanen](finance-general-ledger.md)
 #### [Granska konton](finance-review-accounts.md)
+#### [Omvärdera saldon på redovisningskonto](finance-revalue-account-balances.md)
 #### [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)
 #### [Återföra journalbokföringar och ångra inleveranser/utleveranser](finance-how-reverse-journal-posting.md)
 #### [Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)
@@ -459,24 +462,34 @@ ms.service: dynamics-365-business-central
 ##### [Arbeta med koncerninterna dokument och journaler](intercompany-how-work-documents-journals.md)
 ##### [Hantera koncerninterna in- och utkorgar](intercompany-how-manage-intercompany-inbox.md)
 ##### [Fördela kostnader till koncerninterna partner](intercompany-allocate-costs.md)
-
 ### [Revisorlösningar i Business Central](finance-accounting.md)
 
+## Ekonomisk analys 
+### [Översikt över ekonomisk analys](bi.md)
+### [Hantera ekonomisk rapportering mellan affärsenheter eller juridiska personer](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
-## Ekonomisk business intelligence och rapportering
-### [Översikt över ekonomisk business intelligence och rapporter](bi.md)
-### [Ekonomiska rapporter](finance-reports.md)
-### [Analysera data med statistiska konton](bi-use-statistical-accounts.md)
-### [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)
-### [Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)
-### [Konfigurera och publicera KPI-webbtjänster som baseras på ekonomiska rapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)
-### [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)
-### [Analysera bokslut i Excel](finance-analyze-excel.md)
-### [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)
-### [Hantera åtkomstmetod för databas](admin-data-access-intent.md)
-### [Genomgång: Använda ekonomiska rapporter för att utföra kassaflödesprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### Ekonomisk rapportering (implementering av finansiella rapporter och nyckeltal)
+#### [Förbereda ekonomisk rapportering](bi-how-work-account-schedule.md)
+#### [Genomgång: Använda ekonomisk rapportering för att utföra kassaflödesprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Konfigurera och publicera en KPI-webbtjänst som baseras på ekonomisk rapportering](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Analysera data med statistiska konton](bi-use-statistical-accounts.md)
+#### [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)
+#### [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)
 
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Inbyggda verktyg för ekonomisk analys
+#### [Analysera ekonomiska data från kontoplanen](finance-general-ledger.md)
+#### [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)
+#### [Analysera kassaflöde](finance-analyze-cash-flow.md)
+
+### Inbyggda ekonomiska rapporter
+#### [Inbyggda ekonomiska Excel-rapporter](finance-analyze-excel.md)
+#### [Inbyggda viktiga ekonomiska rapporter](finance-reports.md)
+#### [Inbyggda rapporter om anläggningstillgångar](fa-reports.md)
+#### [Inbyggda kundreskontrarapporter](receivables-reports.md)
+#### [Inbyggda leverantörsreskontrarapporter](payables-reports.md)
 
 ## Försäljning
 ### [Försäljningsöversikt](sales-manage-sales.md)
@@ -546,12 +559,12 @@ ms.service: dynamics-365-business-central
 ### [Spärra artiklar](inventory-how-block-items.md)
 ### [Arbeta med ansvarsenheter](inventory-responsibility-centers.md)
 
-## Projekthantering
+## Projektledning
 ### [Översikt över projekthantering](projects-manage-projects.md)
 ### [Projektrapporter](project-reports.md)
-### [Skapa jobb](projects-how-create-jobs.md)
+### [Skapa projekt](projects-how-create-jobs.md)
 ### [Använda resurser för projekt](projects-how-use-resources.md)
-### [Använd tidrapporter](projects-how-use-time-sheets.md)
+### [Använda tidrapporter](projects-how-use-time-sheets.md)
 ### [Hantera projektbudgetar](projects-how-manage-budgets.md)
 ### [Registrera förbrukning för projekt](projects-how-record-job-usage.md)
 ### [Hantera projektleveranser](projects-how-manage-project-supplies.md)
@@ -561,6 +574,8 @@ ms.service: dynamics-365-business-central
 
 ## Anläggningstillgångar
 ### [Översikt över anläggningstillgångar](fa-manage.md)
+### [Konfigurera anläggningstillgångar](fa-setup.md)
+### [Avskrivningsmetoder](fa-depreciation-methods.md)
 ### [Rapporter och analyser för anläggningstillgångar](fa-reports.md)
 ### [Anskaffa anläggningstillgångar](fa-how-acquire.md)
 ### [Underhålla anläggningstillgångar](fa-how-maintain.md)
@@ -723,12 +738,12 @@ ms.service: dynamics-365-business-central
 ## Onlinebutik med Shopify
 ### [Komma i gång med Shopify-anslutningsprogrammet](shopify/get-started.md)
 #### [Skapa och konfigurera ett Shopify-konto](shopify/shopify-account.md)
-### [Synkronisera artiklar med Shopify](shopify/synchronize-items.md)
-### [Synkronisera kunder med Shopify](shopify/synchronize-customers.md)
+### [Synkronisera artiklar och lager med Shopify](shopify/synchronize-items.md)
+### [Synkronisera kunder och företag med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisera och uppfylla försäljningsorder med Shopify](shopify/synchronize-orders.md)
 ### [Synkronisera transaktioner och utbetalningar](shopify/transactions-and-payouts.md)
 ### [Konfigurera moms för Shopify-anslutningen](shopify/setup-taxes.md)
-### [Köra uppgifter i bakgrunden](shopify/background.md)
+### [Automatisera Shopify-synkronisering med jobbkö](shopify/background.md)
 ### [Felsöka Shopify-anslutningsprogrammet](shopify/troubleshoot.md)
 ### [Vanliga frågor och svar för Shopify-anslutningsprogrammet](shopify/shopify-faq.md)
 ### [Genomgång: Konfigurera och använda Shopify-anslutningsprogram](shopify/walkthrough-setting-up-and-using-shopify.md)
@@ -853,33 +868,66 @@ ms.service: dynamics-365-business-central
 #### [Grundläggande lokaliseringspaket för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 #### [Avancerade lokaliseringspaket för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Grundläggande ekonomi  
-##### [Ekonomi](LocalFunctionality/Czech/finance.md)
+##### [Korrigeringsbokföring (Röd Storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
+##### [Lagstadgad information om företaget](LocalFunctionality/Czech/statutory-company-information.md)
+##### [Interna finansiella dokument](LocalFunctionality/Czech/internal-financial-documents.md)
+##### [Utflödesdokument för redovisning](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Funktionen Bokföringsschema](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Lagstadgade rapporter](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Bokslutsåtgärder](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Koppling av redovisningstransaktioner](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Uppdatering av valutakurser](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Redovisning med flera kretsar](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### Moms
-##### [Ekonomi – moms](LocalFunctionality/Czech/finance-vat.md)
+##### [Momsdatum](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [Momsrapport](LocalFunctionality/Czech/vat-statement.md)
+##### [Kompletterande momsrapport](LocalFunctionality/Czech/supplementary-vat-statement.md)
+##### [Kvartalsredovisning](LocalFunctionality/Czech/vies-cz.md)
+##### [Kvartalsredovisning – Export för Tjeckien](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
+##### [Opålitlig betalare](LocalFunctionality/Czech/unreliable-payer.md)
+##### [Valutakurs för moms](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
+##### [Konfigurera och bokföra omvänd moms](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
 ##### [Rapport för momskontroll](LocalFunctionality/Czech/vat-control-report.md)
+##### [Momsrapporter](LocalFunctionality/Czech/vat-reports-cz.md)
+##### [Momskorrigering i lokal valuta](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Intrastat för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Anläggningstillgångar
-##### [Anläggningstillgångar](LocalFunctionality/Czech/fixed-assets.md)
 ##### [Lokalisering av anläggningstillgångar för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Bankverksamhet och betalningar
-##### [Bankfunktion](LocalFunctionality/Czech/bank-feature.md)
 ##### [Lokalisering av bankdokument för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
-##### [Kassahantering](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Lokalisering av kassahantering för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registrering av försäljning (EET)](LocalFunctionality/Czech/eet.md)
-##### [Förskott](LocalFunctionality/Czech/advances.md)
-##### [Lokalisering av förskottsbetalning för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
+##### [Lokalisering av förskottsbetalning för den tjeckiska versionen (tillägg)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Kundreskontra och leverantörsreskontra
-##### [Kundreskontra och leverantörsreskontra](LocalFunctionality/Czech/receivables-payables.md)
-##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Kompensationslokalisering för tjeckiska (tillägg)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Funktionen Valutakursjustering](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Flera konton för leverantörsreskontra och kundreskontra](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
+##### [Avstämningar av kunder och leverantörer](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
+##### [Korrigeringsdokument för försäljning](LocalFunctionality/Czech/sales-correcting-documents.md)
+##### [Uppdatera kontakter från ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
+##### [Ny utformning av utdatadokument](LocalFunctionality/Czech/new-design-of-output-documents.md)
+##### [Kompensationer](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Lager
-##### [Lager](LocalFunctionality/Czech/inventory.md)
+##### [Avrundningsredovisning i lager](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
+##### [Förbättringar av lagerredovisningsavstämningar](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Avancerad funktion för fysiskt lager](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
+##### [Inventeringsdokument](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Dokument för lageråtgärder](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Bokföringsmallar i överföringsorder](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### Allmänt
 ##### [Utökad användarkontroll](LocalFunctionality/Czech/general.md)
-##### [Bästa praxis](LocalFunctionality/Czech/best-practices.md)
+##### [Kontroll av ändringar i bokföringsmallar](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Kontroll av tidssekvens för utflödeslager](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
+##### [Mallar för lagerförflyttning](LocalFunctionality/Czech/inventory-movement-templates.md)
+##### [Mallar för lagerställeenhet](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Obligatorisk exakt kostnadsavkastning i produktion](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+##### [Standardvärde för rörelsebokföringsmall i produktion](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
+##### [Standardvärde för rörelsebokföringsmall i monteringsorder](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
+##### [Dimensioner för automatisk generering och uppdatering](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
+##### [Lägga till fält i artikeltransaktioner](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
+##### [Bokföringsmall för allmän produktion i lagerställeenhet](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Hoppa över uppdatering för lagerställeenhet vid bokföring](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Numrering av ej lagerförd artikel](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
 ### Danmark
 #### [Lokala funktioner i den danska versionen](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1523,6 +1571,7 @@ ms.service: dynamics-365-business-central
 #### [Arbeta med betalningstoleranser och kassarabattstoleranser](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)
 #### [Konfigurera villkor och nivåer för betalningspåminnelser](finance-setup-reminders.md)
+#### [Automatisera betalningspåminnelser i samlingar](finance-automate-reminders.md)
 #### [Konfigurera villkor för räntefaktura](finance-setup-finance-charges.md)
 #### [Konfigurera moms](finance-setup-vat.md)
 #### [Konfigurera beräknings- och bokföringsmetoder för moms](finance-setup-vat.md)
@@ -1584,7 +1633,7 @@ ms.service: dynamics-365-business-central
 #### [Kategorisera artiklar](inventory-how-categorize-items.md)
 #### [Importera flera artikelbilder](inventory-how-import-item-pictures.md)
 ### Konfigurera projekthantering
-#### [Konfigurera projekt](projects-setup-projects.md)
+#### [Konfigurera projekthantering](projects-setup-projects.md)
 #### [Konfigurera resurser](projects-how-setup-resources.md)
 #### [Konfigurera tidrapporter](projects-how-setup-time-sheets.md)
 #### [Konfigurera projekt](projects-how-setup-jobs.md)
@@ -1592,7 +1641,6 @@ ms.service: dynamics-365-business-central
 #### [Konfigurera anläggningstillgångar](fa-setup.md)
 #### [Konfigurera allmän information om anläggningstillgångar](fa-how-setup-general.md)
 #### [Konfigurera avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md)
-#### [Definiera avskrivningsmetoder](fa-depreciation-methods.md)
 #### [Konfigurera användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md)
 #### [Konfigurera försäkring av anläggningstillgångar](fa-how-setup-insurance.md)
 #### [Konfigurera underhåll av anläggningstillgång](fa-how-setup-maintenance.md)
@@ -1727,15 +1775,18 @@ ms.service: dynamics-365-business-central
 ### [Konfigurera Online Map](across-online-maps-setup.md)
 ### [Skaffa Business Central på din mobila enhet](install-mobile-app.md)
 ### [Skaffa Business Central på din stationära dator](install-desktop-app.md)
-<!--Reporting landing page-->
-# Business intelligence och rapportering 
 
-## [Översikt](reports-bi-reporting.md)
+<!--Reporting landing page-->
+# Analyser, business intelligence och rapportering 
+
+## [Översikt över analyser](reports-bi-reporting.md)
+## [Använda nyckeltal (KPI:er) för att uppfylla dina verksamhetsmål](./analytics-about-kpis.md)
+## [Använda ekonomisk rapportering](bi-how-work-account-schedule.md)
 
 ## Använda rapporter i det dagliga arbetet
 ### [Översikt](reports-use-reports.md)
 ### [Köra rapporter](ui-work-report.md)
-### [Bokmärk en rapport](ui-bookmarks.md)
+### [Bokmärka en rapport](ui-bookmarks.md)
 ### [Analysera rapportdata med Excel](report-analyze-excel.md)
 ### [Skriva ut rapporter](ui-specify-printer-selection-reports.md#default)
 ### [Schemalägga rapporter](ui-work-report.md#ScheduleReport)
@@ -1775,7 +1826,7 @@ ms.service: dynamics-365-business-central
 
 ### Projekt
 #### [Projektrapporter](project-reports.md)
-#### [Visa projektförbrukning och uppskattningar](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Visa projektförbrukning och uppskattningar](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Övervaka projektframsteg och resultat](projects-how-monitor-progress-performance.md)
 
 ### Anläggningstillgångar
@@ -1933,6 +1984,7 @@ ms.service: dynamics-365-business-central
 #### [Business Central-tillägg från andra leverantörer](ui-extensions-other.md)
 ## Integrera med andra Dynamics 365-program
 ### [Integrera med Dynamics 365 Sales via datasynkronisering](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Integrera med Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
 ## Integrera med Microsoft Dataverse
 ### [Integrera med Dataverse via datasynkronisering](admin-common-data-service.md)
 ### [Modeller för dataägarskap för synkronisering](admin-cds-company-concept.md)
@@ -2025,18 +2077,36 @@ ms.service: dynamics-365-business-central
 ## [Prestanda](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Borttagna eller utfasade funktioner](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot- och AI-funktioner
+## [Om Copilot i Business Central](copilot-overview.md)
 ## Hantera Copilot- och AI-funktioner
 ### [Konfigurera Copilot- och AI-funktioner](enable-ai.md)
 ### [Copilot-dataförflyttning mellan geografiska områden](ai-copilot-data-movement.md)
 ### [Felsöka Copilot- och AI-funktioner](ai-copilot-troubleshooting.md)
+## Analyshjälp (förhandsversion)
+### [Analysera data i listor med Copilot](analysis-assist.md)
+### [Vanliga frågor och svar om analyshjälp](faqs-analysis-assist.md)
 ## Hjälp med bankkontoavstämning (förhandsversion)
 ### [Stämma av bankkonton med Copilot](bank-reconciliation-with-copilot.md)
 ### [Vanliga frågor och svar om hjälp med bankkontoavstämning](faqs-bank-reconciliation.md)
+## Chatt med Copilot (förhandsversion)
+### [Chatt med Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Vanliga frågor och svar om chatt med Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Vanliga frågor och svar om Ansvarsfull AI för chatt med Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Förslag på marknadsföringstext
 ### [Översikt över förslag på marknadsföringstext](ai-overview.md)
 ### [Skapa marknadsföringstext med Copilot](item-marketing-text.md)
 ### [Vanliga frågor och svar om förslag på marknadsföringstext](faqs-marketing-text.md)
+## Förslag på försäljningsrader (förhandsversion)
+### [Föreslå rader på försäljningsorder med Copilot](sales-suggest-sales-lines-with-copilot.md)
+### [Vanliga frågor och svar om förslag på försäljningsrader med Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Mappa e-dokument (förhandsversion)
+### [Mappa e-dokument mot inköpsorderrader med Copilot](map-edocuments-with-copilot.md)
+### [Vanliga frågor och svar om att mappa e-dokument mot inköpsorder med Copilot](faqs-map-edocuments.md)
 # Ansvarsfull AI
 ## [Översikt](responsible-ai-overview.md)
+## [Vanliga frågor och svar om analyshjälp (förhandsversion)](faqs-analysis-assist.md)
 ## [Vanliga frågor och svar om hjälp med bankkontoavstämning (förhandsversion)](faqs-bank-reconciliation.md)
+## [Vanliga frågor och svar om chatt med Copilot (förhandsversion)](faqs-chat-with-copilot.md)
 ## [Vanliga frågor och svar om förslag på marknadsföringstext](faqs-marketing-text.md)
+## [Vanliga frågor och svar om förslag på försäljningsrader med Copilot (förhandsversion)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [Vanliga frågor och svar om att mappa e-dokument mot inköpsorder med Copilot (förhandsversion)](faqs-map-edocuments.md)
