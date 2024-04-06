@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Konfigurera resurser för projekt
+# <a name="set-up-resources-for-projects"></a>Konfigurera resurser för projekt
 
 Du måste lägga upp resurser och relaterade kostnader och priser för att hantera resursaktiviteter på rätt sätt. Projektrelaterade priser, rabatter och kostnadsfaktorregler är definierade på projektkortet. Du kan specificera kostnader och priser för enskilda resurser, resursgrupper eller alla tillgängliga resurser i företaget.
 
@@ -24,7 +24,7 @@ Du kan ange standardbeloppet per timme när resursen skapas. Om du till exempel 
 >  
 > Om du bokför koncerninterna transaktioner, även om du kan en resurs till en rad på en försäljningsorder, och du omvandlar försäljningsordern till en inköpsorder på den mottagande sidan, tas inte resursen med. Använd koncerninterna inköpstransaktioner om du vill använda fältet **Ink.red.ktonr konc.int partner** på resurskortet för att ange på vilket konto utgifterna ska bokföras.
 
-## Så här skapar du resurser
+## <a name="to-set-up-a-resource"></a>Så här skapar du resurser
 
 Skapa ett kort för varje resurs som du vill använda i projekt.
 
@@ -32,7 +32,7 @@ Skapa ett kort för varje resurs som du vill använda i projekt.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Så här skapar du en resursgrupp
+## <a name="to-set-up-a-resource-group"></a>Så här skapar du en resursgrupp
 
 Du kan kombinera flera resurser i en resursgrupp. All kapacitet och budget i resursgrupperna samlas från de individuella resurserna. Det är också möjligt att skriva in resursgruppskapacitet, antingen oberoende av de samlade värdena eller som tillägg till dem.
 
@@ -40,7 +40,7 @@ Du kan kombinera flera resurser i en resursgrupp. All kapacitet och budget i res
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten om det behövs.
 
-## Ställa in kapaciteten för en resurs
+## <a name="to-set-capacity-for-a-resource"></a>Ställa in kapaciteten för en resurs
 
 För att beräkna hur lång tid en resurs kan läggas på projekt, måste deras kapacitet först ställas in som tillgänglig tid per period i arbetskalendern. Denna inställning används när du fyller i projektplaneringsrader som innehåller resursen. Mer information finns i [Skapa projekt](projects-how-create-jobs.md).
 
@@ -53,7 +53,7 @@ För att beräkna hur lång tid en resurs kan läggas på projekt, måste deras 
 7. Välj åtgärden **Uppdatera kapacitet**. Sidan **Resurskapacitet** uppdateras med den angivna kapaciteten.
 8. Stäng sidan.
 
-## Så här skapar du alternativa resurskostnader
+## <a name="to-set-up-alternate-resource-costs"></a>Så här skapar du alternativa resurskostnader
 
 Förutom kostnaden som anges på resurskortet, kan du registrera alternativa kostnader för varje resurs. Om t. ex. en anställd har en annan timpenning för övertidsarbete kan du registrera en resurskostnad för denna övertidskostnad. Den alternativa kostnad som du skapar för resursen har företräde framför kostnaden på resurskortet när du använder resursen i resursjournalen.
 
@@ -64,7 +64,7 @@ Förutom kostnaden som anges på resurskortet, kan du registrera alternativa kos
 
 **Obs**. Om du vill skapa resurskostnader som gäller alla resurser och resursgrupper öppnar du sidan  **Resurskostnader** och fyller i alla fält.
 
-## Så här skapar du alternativa resurspriser
+## <a name="to-set-up-alternate-resource-prices"></a>Så här skapar du alternativa resurspriser
 
 Förutom priset som anges på resurskortet, kan du registrera alternativa priser för varje resurs. Dessa alternativa priser kan vara villkorliga. De kan bero på om resursen används med ett särskilt projekt eller en särskild arbetstyp.
 
@@ -73,7 +73,7 @@ Förutom priset som anges på resurskortet, kan du registrera alternativa priser
 3. På sidan **Resurspriser** fyller du i fälten på en rad efter behov.
 4. Upprepa steg 3 för varje alternativt resurspris som du vill skapa.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in projekthantering](projects-setup-projects.md)  
 [Projekthantering](projects-manage-projects.md)  
