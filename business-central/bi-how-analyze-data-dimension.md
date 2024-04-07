@@ -10,7 +10,7 @@ ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="analyze-data-by-dimensions"></a>Analysera data efter dimensioner
+# Analysera data efter dimensioner
 
 Inom ekonomisk analys är en dimension data som du lägger till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Dimensioner kan användas på transaktioner i journaler, dokument och budgetar. 
 
@@ -22,7 +22,7 @@ Varje "dimension" används för att beskriva analysens fokus. Så till exempel e
 > [!NOTE]
 > Om du upptäcker att ett felaktigt dimensionsvärde har använts på bokförda redovisningstransaktioner kan du korrigera det och uppdatera analysvyerna. Läs mer i avsnittet [Felsöka och korrigera dimensioner](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Definiera en analysvy
+## Definiera en analysvy
 
 En analys per dimension använder en vald kombination av dimensioner. Du kan lagra, hämta och uppdatera dimensionsuppsättningen genom att skapa ett **analysvykort**. 
 
@@ -32,7 +32,7 @@ En analys per dimension använder en vald kombination av dimensioner. Du kan lag
 4. Om du vill lägga till ytterligare dimensionskoder förutom de fyra koderna väljer du på snabbfliken **Dimensioner**, åtgärden **Filter**, fyller i fälten och klickar på **OK**.  
 5. Om du vill uppdatera vyn, väljer du åtgärden **uppdatera**.
 
-## <a name="analyze-by-dimensions"></a>Analysera efter dimensioner
+## Analysera efter dimensioner
 
 Använd analysvyer som du redan har konfigurerat med matrisen **Analys per dimension** för att visa beloppen i redovisningen.   
 
@@ -54,7 +54,7 @@ Använd analysvyer som du redan har konfigurerat med matrisen **Analys per dimen
 > [!TIP]  
 > Du kan också ändra vyn genom att ändra innehållet i fälten **Visa som rader** och **Visa som kolumner**. Om du vill ändra vyinställningen, väljer du åtgärden **Byt plats på rader och kolumner**.
 
-## <a name="update-an-analysis-view"></a>Uppdatera en analysvy
+## Uppdatera en analysvy
 
 Beloppen som visas på sidan **Analys per dimension** ger dig en bild av företagets status vid tidpunkten för den sista uppdateringen. Om du vill få en bild av den aktuella situationen måste du uppdatera analysvyn genom att köra funktionen Uppdatera.
 
@@ -72,7 +72,7 @@ Använd nedanstående procedur för att uppdatera en analysvy från sidan **Anal
 > [!NOTE]  
 > Om du vill uppdatera några eller alla analysvyer samtidigt måste du använda batchjobbet **Uppdatera analysvyer**.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomisk business intelligence](bi.md)  
 [Ekonomi](finance.md)  

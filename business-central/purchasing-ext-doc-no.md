@@ -9,13 +9,13 @@ ms.date: 05/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>Externa dokumentnummer på inköpsdokument
+# Externa dokumentnummer på inköpsdokument
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 Du kan även ange externa dokumentnummer på försäljningsdokument. Mer information finns i [Externa dokumentnummer](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ange externa dokumentnummer](across-enter-external-document-numbers.md)  
 [Inköp](purchasing-manage-purchasing.md)  
