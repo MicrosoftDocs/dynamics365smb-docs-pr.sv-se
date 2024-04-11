@@ -9,25 +9,27 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designdetaljer: Tabellstruktur
+# Designdetaljer: tabellstruktur
+
 För att förstå hur dimensionstransaktioner lagras och bokförs är det viktigt att förstå tabellstrukturen.  
 
 ## Tabell 480, dimensionsuppsättningstransaktion  
+
 Tabellen kan inte ändras. Följande data har upprättats skriftligt till tabellen. Du kan inte ta bort eller redigera dem.
 
-|Fältnummer|Fältnamn|Datatyp|Kommentar|  
+|Fältnr.|Fältnamn|Datatyp|Kommentar|  
 |---------------|----------------|---------------|-------------|  
 |1|**ID**|Heltal|>0,0 har reserverats för den tomma dimensionsuppsättningen. Referensfält 3 i tabell 481.|  
 |2|**Dimensionskod**|Kod 20|Tabellrelation till tabell 348.|  
 |3|**Dimensionsvärdekod**|Kod 20|Tabellrelation till tabell 349.|  
-|4|**Dimensionsvärde-ID**|Heltal|Referensfält 12 i tabell 349. Det är den sekundära nyckeln som du använder för att gå igenom tabellen 481.|  
+|4|**ID för dimensionsvärde**|Heltal|Referensfält 12 i tabell 349. Det är den sekundära nyckeln som du använder för att gå igenom tabellen 481.|  
 |5|**Dimensionsnamn**|Text 30|CalcField. Uppslag i tabell 348.|  
 |6|**Dimensionsvärdesnamn**|Text 30|CalcField. Uppslag i tabell 349.|  
 
 ## Tabell 481, Trädnod för dimensionsuppsättning  
 Tabellen kan inte ändras. Den används för att söka efter en dimensionsuppsättning. Om dimensionsuppsättningen inte hittas, skapas en ny uppsättning.  
 
-|Fältnr|Fältnamn|Datatyp|Kommentar|  
+|Fältnr.|Fältnamn|Datatyp|Kommentar|  
 |---------------|----------------|---------------|-------------|  
 |1|**ID för överordnad dimensionsuppsättning**|Heltal|0 för nod för högsta nivå.|  
 |2|**Dimensionsvärde-ID**|Heltal|Tabellrelation till fält 12 i tabell 349.|  
@@ -75,7 +77,7 @@ Det här fältet är viktigt förutom andra dimensionsfälten i tabellen:
 
  Fältet 480 kan inte redigeras i följande tabeller.  
 
-|Tabellnr|Tabellnamn|  
+|Tabellnr.|Tabellnamn|  
 |---------------|----------------|  
 |17|**Redovisningstransaktion**|  
 |21|**Kundreskontra**|  
@@ -163,7 +165,7 @@ Fältet 480 kan redigeras i följande tabeller.
 
 Fältet 480 finns i följande bufferttabeller.  
 
-|Tabellnr|Tabellnamn|  
+|Tabellnr.|Tabellnamn|  
 |---------------|----------------|  
 |49|**Fakturabokföringsbuffert**|  
 |212|**Projektbokföringsbuffert**|  

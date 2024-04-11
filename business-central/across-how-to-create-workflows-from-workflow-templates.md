@@ -1,32 +1,38 @@
 ---
 title: Så här skapar du arbetsflöden från arbetsflödesmallar
-description: Om du vill spara tid när du skapar nya arbetsflöde för godkännande kan du skapa icke-redigerbara arbetsflöden från arbetsflödesmallar med prefixet "MS".
+description: Du kan spara tid när du skapar nya arbetsflöde för godkännande genom att skapa arbetsflöden från arbetsflödesmallar.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/08/2022
 ms.author: bholtorf
+ms.reviewer: dajoo
+ms.topic: how-to
+ms.search.keywords: null
+ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Skapa arbetsflöden från arbetsflödesmallar
 
-Du kan spara tid när du skapar nya arbetsflöde för godkännande kan du använda arbetsflödesmallar.  
+På sidan **arbetsflöde** du skapar ett arbetsflöde genom att skapa en serie arbetsflödessteg på raderna. Varje steg består av en arbetsflödehändelse (När händelse), modifierad av händelsevillkor (På villkor), och ett arbetsflödesvar (Då svar) som modifieras av svarsalternativ. Fälten på arbetsflödesrader ger fasta listor över händelse- och svarsvärden som representerar scenarierna som [!INCLUDE [prod_short](includes/prod_short.md)] stödjer. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).
 
-Arbetsflödesmallar representerar icke-redigerbara arbetsflöden som finns i den förinställda versionen av [!INCLUDE[prod_short](includes/prod_short.md)]. Koderna för arbetsflödesmallar som skapas av Microsoft har prefixet ”MS-”.  
+För att spara tid när du skapar arbetsflöden för godkännande tillhandahåller [!INCLUDE [prod_short](includes/prod_short.md)] arbetsflödesmallar. Mallarna finns på sidan **Arbetsflödesmallar**. Du kan använda mallarna som de är eller anpassa dem efter behov. Koderna för arbetsflödesmallar som skapas från Microsoft har prefixet **MS-**.
 
-Ett annat sätt att snabbt att skapa ett arbetsflöde är att importera ett befintligt arbetsflöde som du har i en fil utanför [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i [Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md).  
+[!INCLUDE [workflow-next-step](includes/workflow-next-step.md)]
 
-På sidan **arbetsflöde** skapar du ett arbetsflöde genom att ange de berörda stegen på raderna. Varje steg består av en arbetsflödehändelse, modifierad av händelsevillkor, och ett arbetsflödesvar som modifieras av svarsalternativ. Du definierar arbetsflödesstegen genom att fylla i fält på arbetsflödesrader från fasta listor med händelse- och svarsvärden som representerar de scenarier som stöds av programkoden. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
+Om du ändrar en arbetsflödesmall men senare ångrar ändringen använder du åtgärden **Återställ Microsoft-mallar** för att återgå till den ursprungliga inställningen för arbetsflödet.
+
+> [!CAUTION]
+> Åtgärden **Återställ Microsoft-mallar** återställer alla Microsoft-arbetsflödesmallar. Du kan inte återställa en enskild mall.  
+
+Ett annat sätt att snabbt skapa ett arbetsflöde är att importera det, till exempel om du har exporterat det från en annan instans av [!INCLUDE[prod_short](includes/prod_short.md)]. Läs mer i [Exportera och importera arbetsflöden](across-how-to-export-and-import-workflows.md).  
 
 ## Så här skapar du ett arbetsflöde från en arbetsflödesmall
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Nytt arbetsflöde från mallen**. Sidan **arbetsflödesmallar**.  
 3. Markera en arbetsflödesmall och välj sedan **OK**.  
 
    Sidan **Arbetsflöde** öppnas för ett nytt arbetsflöde som innehåller all information för den valda mallen. Värdet i fältet **Kod** utökas med till exempel ”-01" för att ange att det är det första arbetsflödet som skapas från arbetsflödesmallen.  
-4. Fortsätt med att skapa arbetsflödet genom att redigera arbetsflödesstegen, eller lägg till nya steg. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
+4. För att anpassa arbetsflödet redigerar du arbetsflödesstegen, eller lägger till nya steg. Läs mer i [skapa arbetsflöden](across-how-to-create-workflows.md).  
 
 ## Se även
 

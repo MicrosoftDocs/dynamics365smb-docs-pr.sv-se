@@ -3,9 +3,9 @@ title: 'Ställ in projekt, priser och projektbokföringsmallar'
 description: Beskriver hur du ställer in allmän information om projekt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 04/25/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ---
 # Ställ in projekt, priser och projektbokföringsmallar
 
-Som projektledare kan du skapa jobb som definierar alla projekt som du hanterar i [!INCLUDE[prod_short](includes/prod_short.md)].  Använd sidan **Projektinställning** för att definiera hur du ska använda projektfunktioner.
+Som projektledare kan du skapa projekt som definierar alla projekt som du hanterar i [!INCLUDE[prod_short](includes/prod_short.md)]. Använd sidan **Projektinställning** för att definiera hur du ska använda projektfunktioner.
 
 Ange olika uppgifter för varje projekt:
 
@@ -28,7 +28,25 @@ Ange olika uppgifter för varje projekt:
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Växlingsknappen **Tillämpa användningslänk som standard** på sidan **Projektinställningar** indikerar om projekttransaktioner är länkade till projektplaneringsrader som standard. Aktivera växlingknappen så att den här inställningen tillämpas på alla nya projekt. Du kan aktivera eller inaktivera spårning av projektförbrukning för ett visst projekt genom att aktivera eller inaktivera växlingsknappen **Använd förbrukningslänk** på sidan **Projektkort**.
+> Växlingsknappen **Tillämpa användningslänk som standard** på sidan **Projektinställningar** indikerar om projekttransaktioner är länkade till projektplaneringsrader som standard. Aktivera växlingsknappen så att den här inställningen tillämpas på alla nya projekt. Du kan aktivera eller inaktivera spårning av projektförbrukning för ett visst projekt genom att aktivera eller inaktivera växlingsknappen **Använd förbrukningslänk** på sidan **Projektkort**.
+
+### Ange en standardplats för projektartiklar
+
+Du kan spara tid vid datainmatning genom att ange en standardplats och standardlagerplats för projekt på sidan **Projektkort**. När du skapar projektaktiviteter, projektplaneringsrader och projektjournalrader för projektet tilldelas standardplats och lagerplats automatiskt. Du kan emellertid ändra lagerställekod och lagerplats för aktiviteter och rader om det behövs.
+
+Om du definierar en **Lagerplatskod för projekt** för lagerstället, fylls lagerplatskoden i när du väljer lagerställekoden. Om distributionslagerflödet kräver distributionslagerplockningar kan du även definiera andra lagerplatser som artiklar ska förbrukas från.
+
+Dessa fält är standardvärden när du skapar projektaktiviteter. Befintliga projektaktiviteter ändras inte.
+
+Det finns några saker du bör känna till om hur du använder standardlagerställen:
+
+* För projektaktiviteter om du definierar en **Lagerplatskod för projekt** för lagerstället, tilldelas lagerplatskoden när du väljer lagerställekoden. Om distributionslagerflödet kräver distributionslagerplockningar kan du även definiera andra lagerplatser som artiklar ska förbrukas från.
+* För projektplaneringsrader baseras **lagerställekoden** på det värde som väljs på projektplaneringsraden när du väljer en artikel. Om ingen lagerplatskod har definierats för projektaktiviteten markeras lagerplatsen från standardinnehållet för lagerplatsen. Du kan ändra båda värdena manuellt.
+* För projektjournalrader baseras **lagerställekoden** på det värde som väljs på projektjournalraden när du väljer en artikel. Om ingen lagerplatskod har definierats för projektaktiviteten markeras lagerplatsen från standardinnehållet för lagerplatsen. Du kan ändra båda värdena manuellt.
+
+### Fakturera flera kunder för projektaktiviteter 
+
+När projekt involverar flera kunder kan det vara svårt att fakturera rätt kunder för rätt uppgifter. [!INCLUDE [prod_short](includes/prod_short.md)] gör faktureringen mindre komplicerad genom att du kan ange faktureringskunder och försäljningskunder på varje projektaktivitetsrad, så att du automatiskt kan generera fakturor för rätt kunder. Mer information om hur du fakturerar flera kunder finns i [Fakturera en eller flera kunder för projektaktiviteter](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
 ### Så här anger du projektförbrukningsspårning
 
@@ -44,18 +62,18 @@ När du har ställt in användningsspårning genom att aktivera växlingsknappen
 > [!IMPORTANT]
 > Om du inte anger ett värde i fältet **Radtyp** på projektjournalraden eller inköpsraden skapas inga projektplaneringsrader när du bokför projekt journalen eller inköpsdokumentet.
 
-## För att skapa priser för resurser, artiklar och redovisningskonton för jobb
+## För att skapa priser för resurser, artiklar och redovisningskonton för projekt
 
 > [!NOTE]
 > I 2020 års utgivningscykel 2 släppte vi nya processer för att ställa in och hantera priser och rabatter. Om du är en ny kund använder du den nya upplevelsen. Om du är en befintlig kund vilar din användning av den nya versionen på om administratören har aktiverat funktionsuppdateringen **Ny försäljningsprisupplevelse** i **Funktionshantering**. Mer information finns i [Aktivera kommande funktioner i förväg](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Du kan skap priser för resurser, artiklar och redovisningskonton relaterade till ett jobb. 
+Du kan skap priser för resurser, artiklar och redovisningskonton relaterade till ett projekt. 
 
 #### [Aktuell upplevelse](#tab/current-experience)
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
-2. Välj jobbet och sedan åtgärden **Resurs**, **Artikel** eller **Redovisningskonto**.
-3. På sidorna fyller du i **Priser för jobbresurser**, **Priser för jobbartiklar** eller **Priser för jobbredovisningskonto** efter behov.
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Projekt** och välj sedan relaterad länk.  
+2. Välj projektet och sedan åtgärden **Resurs**, **Artikel** eller **Redovisningskonto**.
+3. På sidorna fyller du i **Projektresurspriser**, **Artikelpriser för projekt** eller **Redov.kontopriser för projekt** efter behov.
 
 När du väljer en resurs, en artikel eller ett redovisningskonto för ett projekt använder [!INCLUDE [prod_short](includes/prod_short.md)] informationen i de valfria fälten på projektplaneringsrader och projektjournaler. I tabellen nedan beskrivs hur du gör.
 
@@ -67,19 +85,19 @@ När du väljer en resurs, en artikel eller ett redovisningskonto för ett proje
 
 #### [Ny upplevelse](#tab/new-experience)
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Projekt** och välj sedan relaterad länk.  
 2. Välj relevant projekt och sedan åtgärden **Försäljningsprislistor**.
 
 ---
 
-## Så här lägger du upp projektbokföringsmallar
+## Så här skapar du projektbokföringsmallar
 
 En aspekt av att planera projektet är att bestämma vilka bokföringskonton som ska användas för projektvärdering. Om du vill kunna bokföra projekt måste du lägga upp bokföringskonton för varje projektbokföringsmall. En bokföringsmall representerar en länk mellan projektet och hur det ska hanteras i redovisningen. När du skapar ett projekt anger du en bokföringsmall och, som standard, kopplar du varje aktivitet som du skapar för projektet till den här bokföringsmallen. Men medan du skapar aktiviteter kan du välja att åsidosätta standarden och välja en annan, mer lämplig, bokföringsmall.  
 
 > [!NOTE]  
 > Du måste ställa in konton måste registreras innan du registrerar bokföringsmallar. Mer information finns i [Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md).  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **projektbokföringsmallar** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **projektbokföringsmallar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten enligt instruktionerna i följande tabell.  
 
 | Kontofält | Description | Används i PIA-typ |
@@ -95,7 +113,7 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 | **Konto för redovisningskostnader (budget)** |Försäljningskontot som ska användas för redovisningskostnader i projektaktiviteter med den här bokföringsmallen. Om fältet lämnas tomt kommer det redovisningskonto som har angetts på projektplaneringsraden att användas. | |
 | **Konto för upplupen PIA-försäljning** |PIA-kontot för det beräknade försäljningsvärdet för PIA, vilket är ett konto för upplupen intäkt i balansräkningen. När en PIA-justering kräver att du ökar den redovisade intäkten bokför du på detta konto. | Upplupen försäljning, Bokförd försäljning|
 | **Konto för fakturerad PIA-försäljning** |Kontot för värdet för fakturerad PIA-försäljning som inte kan bokföras. Det är ett konto för förutbetald intäkt i balansräkningen. | Bokförd försäljning, upplupen försäljning|
-| **Konto för kopplad projektförsäljning** |Balanskontot för kontot för fakturerad PIA-försäljning, vilket är ett motkonto för inkomst. | Bokförd försäljning, upplupen försäljning|
+| **Konto för kopplade projektförsäljning** |Balanskontot för kontot för fakturerad PIA-försäljning, vilket är ett motkonto för inkomst. | Bokförd försäljning, upplupen försäljning|
 | **Konto för projektförsäljningsjustering** |Balanskontot för PIA-projektförsäljningskontot, som är ett inkomstkonto. | Upplupen försäljning|
 | **Konto för bokförda kostnader** |Det kostnadskonto som innehåller bokförda kostnader för projektet. Kontot är vanligtvis ett debetkonto för kostnader. | Bokförda kostnader|
 | **Konto för bokförd försäljning** |Inkomstkontot som innehåller den bokförda inkomsten för projektet. Kontot är vanligtvis ett kreditkonto för inkomst. | Bokförd försäljning|
@@ -109,6 +127,5 @@ En aspekt av att planera projektet är att bestämma vilka bokföringskonton som
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

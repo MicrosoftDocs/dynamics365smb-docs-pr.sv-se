@@ -1,18 +1,18 @@
 ---
-title: Gör försäljningsofferter
+title: Skapa försäljningsofferter
 description: Läs om hur du skapar ett försäljningserbjudande eller begäran om förslag (Offertförfrågan) för att registrera ditt erbjudande till kunden eller potentiell kund att sälja produkter under vissa villkor.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gör försäljningsofferter
+# Skapa försäljningsofferter
 
-Du kan skapa en försäljningsoffert för att erbjuda en kund eller potentiell kund att sälja vissa produkter till vissa leverans- och betalningsvillkor. Du kan skicka försäljningsofferten till kunden för att meddela erbjudandet. Du kan e-posta dokument som en PDF-bilaga. Du kan också välja e-postbrödtexten förifylld med en sammanfattning av offerten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
+Du kan skapa en försäljningsoffert för att erbjuda en kund eller potentiell kund att sälja vissa produkter till vissa leverans- och betalningsvillkor. Du kan skicka försäljningsofferten till kunden för att meddela erbjudandet. Du kan e-posta dokument som en PDF-bilaga. Du kan också välja e-postbrödtexten förifylld med en sammanfattning av offerten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Medan du förhandlar med kunden eller potentiell kund kan du ändra och skicka försäljningsofferten så mycket som behövs. När kunden accepterar offerten omvandlar du försäljningsofferten till en försäljningsfaktura eller försäljningsorder som du bearbetar försäljningen. Mer information finns i [Fakturera försäljning](sales-how-invoice-sales.md) eller [Sälja produkter](sales-how-sell-products.md).
 
@@ -73,7 +73,7 @@ I de flesta fall skickar du försäljningsoffert till potentiella kunder. Du har
     > För att fylla i **Offertens giltighetsdatum** fylls i automatiskt med ett visst antal dagar efter att offerten har skapats, kan du fylla i **Beräkning av offertens giltighet** på sidan **Försäljning & kundreskontra**.
 
 10. När försäljningsoffertraderna slutförda väljer du åtgärden **Skicka med e-post**.
-11. På sidan **Skicka e-post** fyller du i återstående fält och granskar den inbäddade försäljningsofferten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md).
+11. På sidan **Skicka e-post** fyller du i återstående fält och granskar den inbäddade försäljningsofferten. Mer information finns i [Skicka dokument via e-post](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Om kontakten accepterar offerten väljer du åtgärden **skapa order**.  
 
     Alternativt kan du välja åtgärden **Gör faktura** om din organisation föredrar den processen.  
@@ -95,7 +95,7 @@ Konverteringen tar bort försäljningsofferten från databasen. En försäljning
 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
-[Skicka dokument via e-post](ui-how-send-documents-email.md)  
+[Skicka dokument via e-post](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Arkivera dokument](across-how-to-archive-documents.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -7,7 +7,7 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ Du kan även skapa direktbetalade order för icke-registrerade kunder genom att 
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsorder** och väljer sedan relaterad länk.
 2. Skapa en ny post genom att välja **Ny**.
-3. Ange namnet på en befintlig kund i fältet **Kund**.
+3. Ange namnet på en befintlig kund i fältet **Kundnamn**.
 
     Andra fält på sidan **Försäljningsorder** fylls nu i med standardinformation om den valda kunden.  
 

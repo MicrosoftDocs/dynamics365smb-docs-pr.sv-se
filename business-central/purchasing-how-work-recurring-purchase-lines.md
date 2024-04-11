@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
-ms.date: 07/06/2022
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -47,7 +47,7 @@ Tilldela en eller flera återkommande inköpsrader till en leverantör så att d
 
 Om det finns återkommande inköpsrader för leverantören kan du infoga dem, eller få dem automatiskt tillagda, på alla typer av inköpsdokument, till exempel en inköpsfaktura. Om du har aktiverat alternativen **Fråga alltid** när du tilldelar återkommande inköpsrader till leverantörer kommer du att informeras om det finns återkommande inköpsrader.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.
 2. Öppna den inköpsfaktura du vill infoga en eller flera standardinköpsrader på.
 3. Välj åtgärden **få återkommande inköpsrader**.
 4. På sidan **återkommande inköpsrader** välj sökknappen i fältet **kod** och välj sedan en uppsättning standardinköpsrader.

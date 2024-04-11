@@ -107,7 +107,7 @@ Att skapa nya flöden, ändra och hantera befintliga (som att aktivera eller ina
 Dessa uppgifter utförs vanligtvis av en administratör eller superanvändare. Uppgifterna kräver en bredare kunskap om affärsprocesserna i [!INCLUDE[prod_short](includes/prod_short.md)]. Om du vill veta mer går du till följande artiklar i Business Central-hjälpen för utvecklare och IT-proffs:
 
 - [Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Skapa automatiserade flöden](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (omfattar även godkännandeflöden)
+- [Skapa automatiserade flöden](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (omfattar även godkännandeflöden)
 - [Skaba snabbflöden](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Hantera Power Automate-flöden](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

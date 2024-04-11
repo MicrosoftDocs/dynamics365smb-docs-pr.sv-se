@@ -1,17 +1,17 @@
 ---
 title: Så här kombinerar du leveranser på en enda faktura | Microsoft Docs
-description: Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.
+description: Om du vill fakturera mer än en leverans åt gången kan du använda funktionen kombinerade leveranser.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Kombinera leveranser på en enda faktura
 
-Om du vill fakturera mer än en leverans åt gången kan du använda funktionen för kombinerade leveranser.  
+Om du vill fakturera mer än en leverans åt gången kan du använda funktionen kombinerade leveranser.  
 
 Innan du kan skapa en kombinerad leverans måste mer än en leverans till samma kund och i samma valuta ha bokförts. Med andra ord måste du ha skapat minst två försäljningsorder och bokfört dem som levererade, men inte fakturerade. 
 

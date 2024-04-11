@@ -21,7 +21,7 @@ När Lagerställe är inställt på att begära plockningsbearbetning och utleve
 
 Du kan inte skapa de distributionslagerplockdokument från början. Plockning är en del av ett arbetsflöde där en person som bearbetar order skapar dem med en pushmetod, eller som skapar lagerpersonalen på en pullmetod:
 
-- På ett pushmetod, där du använder åtgärden **Skapa plockning** på sidan **Produktionsorder**, **Monteringsorder**, **Jobbkort**. Välj raderna att plocka och förbered plockningar genom att till exempel ange vilka fack som ska tas från och placeras i, och hur många enheter som ska hanteras. Lagerplatser kan fördefinieras för distributionslagerstället eller resurs.
+- Med en push-metod, där du använder åtgärden **Skapa plockning** på sidan **Produktionsorder**, **Monteringsorder**, **Projektkort**. Välj raderna att plocka och förbered plockningar genom att till exempel ange vilka fack som ska tas från och placeras i, och hur många enheter som ska hanteras. Lagerplatser kan fördefinieras för distributionslagerstället eller resurs.
 - Det sätt på vilket du släpper **produktionsorder**, **monteringsorder**, **projektkort** till lagerställe som gör artiklarna tillgängliga för plockning. På sidan **Plockningskalkylark** kan distributionslagerpersonal använda åtgärden **Hämta dist.lager dokument** för att hämta sina tilldelade plockningar.
 
 Om du vill plocka eller flytta komponenter för källdokumenten med en pullmetod måste du släppa källdokumentet så att det är klart för plockning. Släppa källdokumenten för intern operation på följande sätt.  
@@ -138,7 +138,7 @@ Använd dokumentet **Dist.lager plockning** för att plocka projektkomponenter i
     Du kan nu ta med artiklarna till respektive område och bokföra användningen eller förbrukningen av de plockade komponenterna genom att bokföra förbrukningsjournal, monteringsorder eller projektjournal. Följande artiklar ger mer information:
 
     * [Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad](production-how-to-register-consumption-and-output.md)
-    * [Montera Artiklar](assembly-how-to-assemble-items.md)
+    * [Montera artiklar](assembly-how-to-assemble-items.md)
     * [Registrera förbrukning eller användning för projekt](projects-how-record-job-usage.md)
 
 ## Bokföring av produktionskomponenter i en avancerad distributionslagerkonfiguration

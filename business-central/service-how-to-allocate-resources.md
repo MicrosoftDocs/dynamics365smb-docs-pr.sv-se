@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Så här tilldelar du resurser
-Nyckelelementen i tjänstehantering är de personer som tillhandahåller servicen. Du kan ställa in [!INCLUDE[prod_short](includes/prod_short.md)] till att tilldela rätt personer till rätt uppgifter. Fördelningarna kan baseras på servicezoner där personerna finns eller där servicen ska utföras. Dessutom kan du gruppera resurser tillsammans när du tar hand om en serviceförfrågan. Mer information finns i [Så här skapar du resursfördelning](service-how-setup-resource-allocation.md).
+Nyckelelementen i tjänstehantering är de personer som tillhandahåller servicen. Du kan ställa in [!INCLUDE[prod_short](includes/prod_short.md)] till att tilldela rätt personer till rätt projekt. Fördelningarna kan baseras på servicezoner där personerna finns eller där servicen ska utföras. Dessutom kan du gruppera resurser tillsammans när du tar hand om en serviceförfrågan. Mer information finns i [Så här skapar du resursfördelning](service-how-setup-resource-allocation.md).
 
 Du kan fördela resurser (till exempel tekniker) med hjälp av **Beordringstavla**, eller från en serviceorder. Du kan använda resursdisposition för att fördela resurser som ska utföra serviceuppgifterna i order eller offerter.
 

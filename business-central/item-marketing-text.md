@@ -30,7 +30,7 @@ Copilot är utformad för att spara tid och hjälpa dig att skriva kreativ och e
 
 ### Förutsättningar
 
-- Funktionen för marknadsföringstextförslag är aktiverad och aktiverad i din miljö. Den uppgiften är vanligtvis av en administratör. Om du vill ha mer information går du till [Konfigurera Copilot och AI-funktioner](enable-ai.md).
+- Funktionen för marknadsföringstextförslag är aktiverad i din miljö. Den uppgiften är vanligtvis av en administratör. Om du vill ha mer information går du till [Konfigurera Copilot och AI-funktioner](enable-ai.md).
 - Du använder ett av de språk som för närvarande stöds av marknadsföringstextförslagen.
 
   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]

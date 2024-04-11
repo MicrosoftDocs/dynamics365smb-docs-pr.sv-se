@@ -62,7 +62,7 @@ För lagerställen som använder lagerplatser kan du utöka flödet till projekt
 > [!NOTE]
 > Möjligheten att plocka komponenter för projektplaneringsrader har lagts till [!INCLUDE[d365fin](includes/d365fin_md.md)] i utgivningscykel 2 år 2022. Om du vill börja använda funktionen måste en administratör aktivera **Funktionsuppdatering: Aktivera lager- och distributionslagerplockning från Projekt** på sidan **Funktionshantering**.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] använder värdet i fältet **Återstående antal** på projektplaneringsraden när lagerplockningar skapas. Om du vill använda lagerplockningar för projekt måste du aktivera **Tillämpa användningslänk** på sidan **Projektkort** för projektet. På så sätt kan du spåra användningen mot din plan. Om du inte aktiverar detta fortsätter det återstående antalet att vara **0** och lagerplockningen skapas inte. Mer information finns i [Konfigurera projaktanvändningsspårning](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] använder värdet i fältet **Återstående antal** på projektplaneringsraden när lagerplockningar skapas. Om du vill använda lagerplockningar för projekt måste du aktivera **Tillämpa användningslänk** på sidan **Projektkort** för projektet. På så sätt kan du spåra användningen mot din plan. Om du inte aktiverar detta fortsätter det återstående antalet att vara **0** och lagerplockningen skapas inte. Mer information finns i [Konfigurera projaktanvändningsspårning](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
 ## Plocka eller flytta för produktion, montering och projekt i en grundläggande lagerkonfiguration
 
@@ -86,7 +86,7 @@ Du kan skapa en lagerartikelplockning eller lagerförflyttning på tre sätt:
 
 ### Så här skapar du flera lagerplockningar eller transport med batch-jobbet
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Skapa lagerinförsel/plockning/rörelse** och väljer sedan relaterad länk.  
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Skapa lagerinförsel/plockning/rörelse** och väljer sedan relaterad länk.  
 2. På snabbfliken **Dist.lagerkrav** använder du fälten **Ursprungsnr** och **Källdokument** om du vill filtrera efter vissa typer av dokument eller intervall med dokumentnummer. Du kan till exempel skapa plockningar för enbart produktionsorder.
 3. På snabbfliken **Alternativ** aktiverar du växlingsknapparna **Skapa lagerplockning** eller **Skapa lagerförflyttning**.
 4. Välj **OK**.
@@ -103,7 +103,7 @@ Om du vill plocka eller flytta komponenter för källdokumenten i två steg mås
 
 En lagerpersonal som har tilldelats plockningsartiklar kan skapa ett lagerartikelinförsel dokument för källdokumentet.  
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **lagerplockning** och eller **lagerförflyttning** väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerplockning** och eller **lagerförflyttning** väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
 3. I fältet **Källdokument** markerar du den typ av källdokument som du artikelinförsel är för.
 

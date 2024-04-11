@@ -79,8 +79,8 @@ Om du vill göra de nya objekten fullt användbara måste du manuellt kopiera vi
 |FÖRS |Procentandelar, förskottsbetalning för försäljning | Kontrollera om några procentandelar, förskottsbetalning för försäljning har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa förskottsbetalningsprocent väljer du **Artikelkort** väljer du **Försäljning** och **Procentandelar, förskottsbetalning**.|
 |Inköp |Procentandelar, förskottsbetalning för inköp |Kontrollera om några procentandelar, förskottsbetalning för inköp har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa förskottsbetalningsprocent väljer du **Artikelkort** väljer du **Inköps** och **Procentandelar, förskottsbetalning**. |
 |Dist.lager |Lagerställesinnehåll |Granska det lagerställesinnehåll som har definierats för den ursprungliga artikeln. Om kolumner så som min. Antal max. Antal, standard och dedikerade har registrerats individuellt måste du skapa lagerställesinnehåll manuellt för den nya artikeln. Om så inte är fallet krävs ingen åtgärd. [!INCLUDE[prod_short](includes/prod_short.md)] underhåller posterna när du registrerar distributionslagerdokument och journaler.|
-|Projekt |Projektpriser |Kontrollera om projektpriser har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Informationen finns på sidan **Projektkort** i delen **Projektinformation – Projektdetaljer – antal priser** i **rutan Faktabox**. |
-|Service |Serviceresurskvalifikation |Kontrollera om serviceresurskvalifikation har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa resurs kvalifikationer använder du åtgärden **Resurskvalifikation** på sidan **Artikelkort**.  |
+|Jobb |Projektpriser |Kontrollera om projektpriser har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Informationen finns på sidan **Projektkort** i delen **Projektinformation – antal priser** i **rutan Faktabox**. |
+|Tjänst |Serviceresurskvalifikation |Kontrollera om serviceresurskvalifikation har definierats för den ursprungliga artikeln och överför dessa data till den nya artikeln. Om du vill visa resurs kvalifikationer använder du åtgärden **Resurskvalifikation** på sidan **Artikelkort**.  |
 | |Serviceartikelkomponenter |Kontrollera om komponenter har definierats för den ursprungliga serviceartikeln och överför dessa data till den nya artikeln. Om du vill visa serviceartikel komponenter på **Artikelkort** använder åtgärden **Serviceartikel** för att öppna listan över relaterade service artiklar och sedan välja **Komponent**.  |
 |Produktion |Artikelstrukturer |Kontrollera om det finns några produktionsstrukturer som innehåller den ursprungliga artikeln och ersätt det med den nya artikeln. Om du vill ersätta det ursprungliga artikel **Produktionsstruktur** väljer åtgärden **Byt ut artikel i prod.struktur**. |
 |Montering |Monteringsstrukturer |Kontrollera om några monteringsdelar innehåller originalobjektet och ersätt det manuellt med det nya artikeln. |
@@ -122,7 +122,7 @@ När du skapar monteringsorder använder du informationen från fältet inventer
 |Fält  |Värde att skriva  |
 |---------|---------|
 |Typ |Artikel |
-|Nr |Numret för den ursprungliga artikeln |
+|Nr. |Numret för den ursprungliga artikeln |
 |Antal per |1 |
 |Variantkod |Samma som i inventeringsjournalen. |
 |Lagerställekod |Samma som i inventeringsjournalen. |
@@ -153,8 +153,8 @@ I följande tabell visas funktionsområden där det kan finnas utestående antal
 |Planering |Inköpsförslag, planeringsförslag och orderplanering |
 |Dist.lager |Överföringsorder, utleveranser, distributionslagerjournaler och lagerplockningar, artikelinförsel och transporter, interna plockningar och införsel och lagerplatsuppläggningsförslag |
 |Montering |Monteringsdokument, inklusive order, returorder och avropsorder |
-|Projekt |Projektplaneringsrader och projektjournalrader |
-|Service |Servicedokument och servicekontrakt |
+|Projekt |projektplaneringsrader och projektjournalrader |
+|Tjänst |Servicedokument och servicekontrakt |
 |Produktion |Produktionsorder (planerad, fast planerad och släppt) |
 
 ### Blockera det ursprungliga artikel från att användas

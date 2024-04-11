@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -13,9 +13,9 @@ I följande tabell beskrivs några av de viktigaste rapporterna inom inköpsrapp
 | Rapportera | Beskrivning | Id | 
 |---------|---------|---------|
 |[Inköpsstatistik](https://businesscentral.dynamics.com?report=312)|[!INCLUDE [reports-purchase-statistics](reports-purchase-statistics.md)]|312|
-|[10 i topp-leverantörer](https://businesscentral.dynamics.com?report=311)|Visar information om inköp från leverantörer under en vald period. Du kan välja antalet leverantörer som ska tas med i rapporten.<br>Leverantörerna sorteras efter belopp och du kan välja om de ska sorteras per inköpsbelopp eller saldo. Rapporten ger en snabb överblick över leverantörerna som du har köpt mest av, eller som du är skyldig mest.|311|
-|[Artikelkatalog för leverantör](https://businesscentral.dynamics.com?report=320)|Visar en lista över leverantörerna för valda artiklar eller artiklar för valda leverantörer. För varje kombination av artikel och leverantör visar rapporten a-pris vid senaste inköp, leveranstidsberäkning och leverantörens artikelnummer.<br>I USA, Kanada och Mexiko är den här rapporten inte tillgänglig. Använd i stället tabellen **artikel-/leverantörskatalog** (10164).|320|
-|[Artikel-/leverantörskatalog](https://businesscentral.dynamics.com?report=720)|Visar en lista över leverantörerna för valda artiklar eller artiklar för valda leverantörer. För varje kombination av artikel och leverantör visar rapporten a-pris vid senaste inköp, leveranstidsberäkning och leverantörens artikelnummer.<br>I USA, Kanada och Mexiko är den här rapporten inte tillgänglig. Använd istället tabellen **Artikel-/leverantörskatalog** (10164).|720|
+|[10 i topp-leverantörer](https://businesscentral.dynamics.com?report=311)|Visar information om inköp från leverantörer under en vald period. Du kan välja antalet leverantörer, som ska tas med i rapporten.<br>Leverantörerna sorteras efter belopp och du kan välja om de ska sorteras per inköpsbelopp eller saldo. Rapporten ger en snabb överblick över leverantörerna som du har köpt mest av, eller som du är skyldig mest.|311|
+|[Artikelkatalog för leverantör](https://businesscentral.dynamics.com?report=320)|Visar en lista över leverantörerna för valda artiklar eller artiklar för valda leverantörer. För varje kombination av artikel och leverantör visar rapporten a-pris vid senaste inköp, leveranstidsberäkning och leverantörens artikelnummer.<br>I USA, Kanada och Mexiko är den här rapporten inte tillgänglig. Använd istället tabellen **Artikel-/leverantörskatalog** (10164).|320|
+|[Artikel-/leverantörskatalog](https://businesscentral.dynamics.com?report=720)|Visar en lista över leverantörerna för valda artiklar eller artiklar för valda leverantörer. För varje kombination av artikel och leverantör visar rapporten a-pris vid senaste inköp, leveranstidsberäkning och leverantörens artikelnummer.<br>I USA, Kanada och Mexiko är den här rapporten inte tillgänglig. Använd i stället tabellen **artikel-/leverantörskatalog** (10164).|720|
 |[Leverantörs-/artikelinköp](https://businesscentral.dynamics.com?report=313)|Visar en lista över artikeltransaktioner per leverantör under en vald period. Rapporten innehåller information om fakturerat antal, belopp och möjlig rabatt. Rapporten kan t.ex. användas för att analysera ett företags artikelinköp och för att visa om det finns ett samband mellan rabatter och artikelinköp.|313|
 |[Lagerkostnad och prislista](https://businesscentral.dynamics.com?report=716)|Visar en lista med prisinformation om de valda artiklarna eller lagerställeenheterna, t.ex. direkt styckkostnad, senaste direkta styckkostnad, enhetspris, vinstprocent och vinst.|716|
 |[Lagerdispositionsplan](https://businesscentral.dynamics.com?report=707)|Om du vill ha en översikt över specifika artiklar/lagerställesenheter och deras tillgänglighet. I den här rapporten visas ackumulerade värden som bruttobehov, schemalagda och planerade inleveranser, lager och så vidare. |707|

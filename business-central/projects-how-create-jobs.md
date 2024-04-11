@@ -2,12 +2,14 @@
 title: Skapa ett projektkort för ett projekt och ange aktiviteter
 description: För ett nytt projekt kan du skapa ett projektkort med projektaktiviteterna och planeringsrader för att hantera hur och budgetar.
 author: brentholtorf
-ms.topic: conceptual
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
-ms.date: 08/03/2022
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Skapa projekt
 
@@ -20,21 +22,45 @@ Det andra lagret består av projektplaneringsrader som specificerar detaljerad f
 Lagerstrukturen gör att du kan dela upp projekt i mindre aktiviteter och specificera budget, offerter och registrering mer i detalj. Dessutom att du får en inblick i hur ett projekt fortlöper. Du kan till exempel spåra om du uppfyller uppsatta milstolpar eller om du är i linje med mål för att uppfylla budget.
 
 > [!TIP]
-> Välj åtgärden **Nytt projekt** på Rollcentret **Projektchef** för att starta en assisterad inställningsguide som tar dig genom stegen för att skapa ett projekt med integrerade uppgifter och planeringsrader. Efterföljande procedur beskriver hur du utför stegen manuellt. Ett exempel på hur du skapar ett projekt manuellt finns i [Video: hur du skapar ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
+> Välj åtgärden **Nytt projekt** på Rollcentret **Projektchef** för att starta en assisterad inställningsguide som tar dig genom stegen för att skapa ett projekt med integrerade uppgifter och planeringsrader. Efterföljande procedur beskriver hur du utför stegen manuellt. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-Ibland är den part som tar emot en service inte densamma som den part som betalar räkningen. På sidan **Projekt** kan du ange kunden som kommer att dra nytta av projektet i **Sälja till** och parten som ska faktureras i **Fakturera till**. Du kan även ange följande information: 
+## Fakturera en eller flera kunder för projektuppgifter
+
+Ibland är den part som tar emot en service inte densamma som den part som betalar räkningen. Ibland kan du också behöva fakturera flera kunder för aktiviteter i projektet. På sidan **Projektkort** använder du fältet **Faktureringsmetod för aktivitet** för att ange om du fakturerar en kund eller flera kunder.
+
+Om kunden som tar emot servicen också ska betala fakturan väljer du fälten **Fakturera till** och **Leverera till**, välj **Standard (kund)** och **Standard (adress för försäljning)**.
+
+Om du fakturerar flera kunder kan du ange vilken kund som ska få tjänsten och vilken kund som ska fakturera för varje aktivitet i projektet. Du kan även ange följande information:
 
 * Var arbetet sker genom att välja från en lista över leveransadress för kunden.
 * Lägga till information om externa referenser för att förenkla kommunikationen med projektet.
 * Skriv över projektets standard ekonomiska villkor.
 
-## Så här skapar du ett projektkort.
+## Fakturera en kund för flera projektaktiviteter
+
+Du kan förenkla faktureringsprocessen genom att skicka en faktura till en kund för flera projekt. Lägg till projektplaneringsrader från flera projekt till en försäljningsfaktura på en gång. Den här processen påminner om att skapa en försäljningsfaktura från en projektplaneringsrad och ange ett värde i fältet **Lägg till i förs.faktura nr.**.
+
+Här är en översikt över processen.
+
+1. Skapa en ny försäljningsfaktura och fyll i **Förs.kundnr.** . Om det behövs fyller du även i **Faktureringskundnr.** och fältet **Valutakod**.
+2. På snabbfliken **Rader** klickar du på åtgärden **Hämta projektplaneringsrader**. På sidan **Hämta projektplaneringsrader** visas fakturerbara projektplaneringsrader från projekt för försäljningskund, faktureringskund och faktureringsvaluta där antalet som ska faktureras är större än noll. 
+3. Välj de rader du vill lägga till på fakturan och välj sedan **OK**.
+
+Upprepa dessa steg om du vill lägga till ytterligare en uppsättning projektplaneringsrader. Du kan också ta bort fakturan eller dess rader och börja om.
+
+> [!NOTE]
+> Det finns ett par begränsningar:
+>
+> * Åtgärden **Hämta projektplaneringsrader** är inte tillgänglig på försäljningsorder eller försäljningsofferter.
+> * Du kan inte filtrera på **leveranskoden** eller **kontaktnr.** .
+
+## Skapa ett projektkort
 
 Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Projekt** och välj sedan relaterad länk.  
 2. Välj åtgärden **Ny** och fyll sedan i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Om du vill ange projektet med information om andra projekt väljer du åtgärden **Kopiera projekt**, fyller i fälten efter behov och väljer sedan knappen **OK**.
+3. För att basera projektet på information från ett annat projekt väljer du åtgärden **Kopiera projekt**, fyller i fälten efter behov och väljer sedan knappen **OK**.
 
 > [!NOTE]  
 > Om du använder tidrapporter i projektet måste du också ange en person som ansvarar. Denna person kan godkänna tidrapporter för anställdas aktiviteter som är kopplade till projektet. Mer information finns i [Skapa tidrapporter](projects-how-setup-time-sheets.md).
@@ -51,7 +77,7 @@ Om du vill kan du markera åtgärder i projekt som spärrade med fältet **spär
 
 En viktig del när du skapar ett projekt är att ange de olika aktiviteter som ingår i projektet. Du anger uppgifter genom att skapa en rad per uppgift på snabbfliken **Uppgifter** på sidan **Projektkort**. Varje projekt måste ha minst en aktivitet.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Projekt** och välj sedan relaterad länk.
 2. Öppna projektkortet för ett relevant projekt.
 3. På snabbfliken **Uppgifter** fyller du i fälten efter behov på en ny rad.
 4. Om du vill dra in uppgifter och skapa en hierarki väljer du åtgärden **Uppgifter** och sedan väljer du åtgärden **Indrag för projektaktiviteter**.
@@ -64,16 +90,16 @@ Du kan förfina dina nya projektaktiviteter på projektplaneringsrader. En plane
 
 En projektplaneringsrad kan ha en av följande typer.  
 
-| Kontakttyp | Beskrivning |
+| Kontakttyp | Description |
 | --- | --- |
-| **Budget** |Anger uppskattad förbrukning och kostnader för projektet, vanligtvis i tids- och materialtypsprojekt. Planeringsrader av den här typen kan inte faktureras. |
+| **Budget** |Anger uppskattad förbrukning och kostnader för projektet, vanligtvis i tids- och materialtypsprojekt. Du kan inte fakturera planeringsrader av den här typen. |
 | **Fakturerbart** |Anger uppskattad fakturering till kunden, vanligtvis som ett fastprisprojekt. |
 | **Både Budget och Fakturerbart** |Anger budgeterad förbrukning som motsvarar vad du vill fakturera. |
 
 > [!NOTE]
-> När du anger information på projektplaneringsrader fylls kostnadsinformationen i automatiskt. t. ex. baseras kostnaden, priset och rabatten för resurser och artiklar inledningsvis på informationen som definieras på resurs och artikel. 
+> När du anger information på projektplaneringsrader fylls kostnadsinformationen i automatiskt. t. ex. baseras kostnaden, priset och rabatten för resurser och artiklar inledningsvis på informationen som definieras på resurs och artikel.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Projekt** och välj sedan relaterad länk.
 2. Öppna ett relevant projektkort.
 3. Markera ett projekt där fältet **Typ av projektaktivitet** innehåller **Bokföring** och klicka sedan på åtgärden **Projektplaneringsrader**.  
 4. På sidan **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.
@@ -87,6 +113,5 @@ En projektplaneringsrad kan ha en av följande typer.
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 06/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -70,6 +70,12 @@ Synkronisering med valuta är enkelriktad, från [!INCLUDE [prod_short](includes
 
 * Belopp i [!INCLUDE[prod_short](includes/cds_long_md.md)] basvalutan konverteras till [!INCLUDE [prod_short](includes/prod_short.md)] lokala valutan baserat på den senaste valutakursen som synkroniseras från [!INCLUDE [prod_short](includes/prod_short.md)].
 * Belopp i [!INCLUDE [prod_short](includes/prod_short.md)] lokal valuta synkroniseras med [!INCLUDE [prod_short](includes/prod_short.md)] lokala valutan i någon av de andra valutorna i [!INCLUDE[prod_short](includes/cds_long_md.md)].
+
+## Vad händer när du kopierar ett företag?
+
+Du kan säkert kopiera företag som integrerar med [!INCLUDE[prod_short](includes/cds_long_md.md)] eller [!INCLUDE[crm_md](includes/crm_md.md)]. Kopiera företag hjälper till att minska risken för inkonsekventa data och kan spara värdefull tid. Mer information om kopiera företag finns i [Kopiera ett företag](about-new-company.md#copy-a-company).
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
 ## Se även
 

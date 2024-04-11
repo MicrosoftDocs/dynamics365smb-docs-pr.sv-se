@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -20,21 +20,26 @@ ms.collection:
 
 Den här artikeln förklarar hur du åtkomst till Copilot och andra AI-funktioner i Business Central. Denna uppgift utförs av en administratör. Copilot är en systemfunktion och en integrerad del av Business Central. I likhet med de flesta systemfunktioner ger du inte åtkomst till enskilda användare och du kan inte heller slå på eller av Copilot. Copilot erbjuder dock datastyrningskontroller och möjligheten att inaktivera individuella Copilot- och AI-funktioner för varje miljö. Det finns olika nivåer av åtkomstkontroll till AI-funktioner, beroende på funktionen:
 
-- Tillåt dataförflyttning mellan geografiska regioner
+- Tillåt dataförflyttning mellan geografiska regioner.
 
   Den här uppgiften krävs bara om din Business Central-miljö finns i ett annat geografiskt område än den Azure OpenAI Service som används. [Läs mer](#allow-data-movement-across-geographies)
 
 - Aktivera funktionen på sidan **Copilot och AI-funktioner**. [Läs mer](#activate-features)
 
-- Aktivera den specifika funktionen om den fortfarande styrs av **funktionshantering**.
+<!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
+- Enable the specific feature if it's governed by **Feature Management**.
 
-  I utgivningscykel 2 för 2023 ingår både textförslagen för marknadsföring och hjälpfunktionerna för bankkontoavstämning under **Funktionshantering**. [Läs mer](#enable-feature-in-feature-management)
+  Check whether  of 2024 release wave 1, chat with Copilot, marketing text suggestions, and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)
+<!-- 
+- Enable the specific feature, if it's still governed by **Feature Management**.
 
-Om något av dessa krav inte uppfylls kan funktionen inte användas.
+  In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
+
+Om något av dessa krav inte uppfylls kan funktionen inte användas.-->
 
 ## Förutsättningar
 
-- Du använder Business Central Online, version 23.1 eller senare. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
+- Du använder Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Du har administratörs- eller superbehörighet i Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
 ## Tillåt dataförflyttning mellan geografiska områden
@@ -53,7 +58,8 @@ Så här tillåter du dataförflyttning utanför ditt geografiska område:
    Växeln **Tillåt dataförflyttning** är aktiverad som standard för miljöer i Azure-regionerna Europa, västra och Europa, norra.
 
 Du kan välja bort dataflytt genom att inaktivera reglaget **Tillåt dataförflyttning**. När en Azure OpenAI Service blir tillgänglig i ditt Business Central-miljöområde ansluts din miljö automatiskt till den och växeln är inte längre tillgänglig.
-<!--
+
+<!-- Don't review
 | Australia, United Kingdom, United States | Within the respective geographical region |
 | Europe, France, Germany, Norway, Switzerland  | Sweden or Switzerland |
 | Asia Pacific, Brazil, Canada, India, Japan, Singapore, South Africa, South Korea, United Arab Emirates  | United States |-->
@@ -72,6 +78,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
+
 ## Aktivera funktioner
 
 Alla Copilot- och AI-funktioner är aktiva som standard när de görs tillgängliga i förhandsvisning eller blir allmänt tillgängliga. Med sidan **Copilot och-funktioner** kan du aktivera eller inaktivera enskilda funktioner igen för alla användare.
@@ -85,34 +92,51 @@ Alla Copilot- och AI-funktioner är aktiva som standard när de görs tillgängl
    - Om du vill aktivera en funktion markerar du den i listan och väljer åtgärd **Aktivera**.
    - Om du vill aktivera en funktion markerar du den och väljer sedan åtgärden **Inaktivera**. 
 
+<!-- don't review 
 
-## Aktivera funktionen i funktionshantering
+<!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
+## Enable feature in Feature Management
 
-När individuella Copilot-funktioner släpps i Business Central mindre uppdateringar, är dessa funktioner valfria fram till nästa större uppdatering. **Funktionshantering** används för att aktivera eller inaktivera funktioner som är i förhandsversion, till exempel bankavstämning och vissa funktioner som är allmänt tillgängliga, till exempel textförslag. [Läs mer om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).
+When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-1. I Business Central söker du efter och öppnar sidan **Funktionshantering**.
-2. Om du vill aktivera en funktion anger du kolumnen **Aktiverad för** till **Alla användare**. Om du vill inaktivera en funktion anger du kolumnen **Aktiverad för** till **Ingen**. Använd följande tabell för att avgöra vilken växel som gäller för den Copilot- och AI-funktion som du vill aktivera:
+1. In Business Central, search for and open the **Feature Management** page.
+2. To enable a feature, set the **Enabled for** column to **All users**. To disable a feature, set the **Enabled for** column to **None**. Use the following table to help you determine the switch that applies to the Copilot and AI capability you want to enable:
 
-   - **Förhandsgranskning av funktion: Bankkontoavstämning med Copilot** aktiverar funktionen för bankkontoavstämningshjälp.
-   - **Förhandsgranskning av funktioner: Skapa AI-drivna produktbeskrivningar med Copilot** aktiverar funktionen för textförslag för marknadsföring.
+   - **Feature Preview: Bank account reconciliation with Copilot** enables the bank account reconciliation assist feature.
+   - **Feature Preview: Chat with Copilot** enables the chat with Copilot feature.
+   - **Feature preview: Create AI-powered product descriptions with Copilot** enables the marketing text suggestions feature.
 
-   Mer information om funktionshantering i allmänhet finns i [Funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).
+   For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## Bevilja användaråtkomst 
+## Bevilja användaråtkomst
 
 Copilot- och AI-funktioner kan erbjuda funktionalitet avsedd för alla användare i din organisation eller för specifika användarroller. De flesta Copilot- och AI-funktioner erbjuder åtkomstkontroll med hjälp av behörigheter och behörighetsuppsättningar i Business Central behörighetshanteringssystem. [Läs mer om behörigheter och behörighetsuppsättningar](ui-define-granular-permissions.md).
 
-För att bevilja eller neka åtkomst till specifika Copilot- och AI-funktioner, läs dokumentationen eller rådfråga utgivaren av den funktionen för att identifiera vilka behörigheter som krävs. 
+I följande tabell visas de behörigheter som krävs för att använda Copilot-funktioner som tillhandahålls av Business Central.
+
+|Copilot-funktioner|Behörigheter som krävs|
+|-|-|
+|Analyshjälp|**DATA ANALYSIS – EXEC** behörighetsuppsättning eller körningsbehörighet för systemobjekt 9640 **Tillåt dataanalysläge**. Det här är samma behörigheter som krävs för att komma åt analysläget.|
+|Hjälp med bankkontoavstämning|Behörighet på sidan 7250 **AI-förslag för bankkontoavstämning** och sidan 7252 **AI-förslag för transaktion till redovisningskonto**.|
+|Chatt |Det finns inga behörigheter eller behörighetsuppsättningar som kontrollerar åtkomst till chatt på en användarnivå. Om chatten är aktiverad är den tillgänglig för alla användare.|
+|Förslag på marknadsföringstext |Behörighet på sidan 5836 **Marknadsföringstext för Copilot**|
+
+För att bevilja eller neka åtkomst till specifika Microsoft copilot- och AI-funktioner  som inte är Microsoft, läs dokumentationen eller rådfråga utgivaren av den funktionen för att identifiera vilka behörigheter som krävs.
 
 ## Nästa steg
 
 När du har aktiverat och godkänt funktionerna är du redo att prova dem. Gå till:
 
-- [Lägg till marknadsföringstext för artiklar](item-marketing-text.md) 
-- [Stämma med bankkontoavstämningshjälp](bank-reconciliation-with-copilot.md) 
+- [Lägg till marknadsföringstext för artiklar](item-marketing-text.md)
+- [Analysera data i analysläge med Copilot](analysis-assist.md)  
+- [Chatt med Copilot](chat-with-copilot.md)
+- [Stämma med bankkontoavstämningshjälp](bank-reconciliation-with-copilot.md)
 
 ## Se även
 
 [Felsöka Copilot- och AI-funktioner](ai-copilot-troubleshooting.md)  
-[Översikt över förslag på marknadsföringstext](ai-overview.md)   
+[Vanliga frågor och svar om analyshjälp](faqs-analysis-assist.md)  
+[Vanliga frågor och svar om hjälp med bankkontoavstämning](faqs-bank-reconciliation.md)  
+[Vanliga frågor och svar om chatt med Copilot](faqs-chat-with-copilot.md)  
 [Vanliga frågor och svar om förslag på marknadsföringstext](faqs-marketing-text.md)  
+[Översikt över förslag på marknadsföringstext](ai-overview.md)  

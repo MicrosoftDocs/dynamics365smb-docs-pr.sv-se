@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 # Designdetaljer: Centrala koncept i planeringssystemet
 
-Planeringsfunktionerna finns i ett batchjobb som väljer först de relevanta artiklarna och period att planera för. Sedan, enligt varje artikels lågnivåkod (strukturplats), anropar batch-jobbet en kodenhet som beräknar en leveransplanering. Kodenheten balanserar uppsättningar med tillgång och efterfrågan och föreslår åtgärder som användaren ska vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
+Planeringsfunktionerna finns i ett batchprojekt som väljer först de relevanta artiklarna och period att planera för. Sedan, enligt varje artikels lågnivåkod (strukturplats), anropar batch-jobbet en kodenhet som beräknar en leveransplanering. Kodenheten balanserar uppsättningar med tillgång och efterfrågan och föreslår åtgärder som användaren ska vidta. De föreslagna åtgärderna visas som rader i planeringsförslaget eller inköpskalkylarket.  
 
 ![Information på sidan Planeringsförslag.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Information på sidan Planeringsförslag")  
 
@@ -75,7 +75,7 @@ När du har kört planeringen innehåller inte tabellen Åtgärdsmeddelandetrans
 
 ## Sekvens och prioritet i planering
 
-Sekvensen för beräkningarna i din plan är viktig för att få jobbet gjort inom rimlig tid. Prioriteringen av krav och resurser spelar också en viktig roll för att få de bästa resultatet.  
+Sekvensen för beräkningarna i din plan är viktig för att få projektet gjort inom rimlig tid. Prioriteringen av krav och resurser spelar också en viktig roll för att få de bästa resultatet.  
 
 Planeringssystemet är efterfrågestyrt. Artiklar på hög nivå ska planeras före artiklar på låg nivå, eftersom de kan generera efterfrågan för artiklarna på låg nivå. Till exempel återförsäljningslagerställen ska planeras innan distributionscenter planeras, eftersom återförsäljningslagerstället kan innehålla ytterligare efterfrågan från distributionscentret. På en detaljerad balanseringsnivå, om en släppt leveransorder kan täcka en försäljningsorder, bör systemet inte skapa en ny leveransorder. En tillgång med ett specifikt partinummer ska inte fördelas för att täcka en generisk efterfrågan om en annan efterfrågan kräver det specifika partiet.  
 
@@ -267,7 +267,7 @@ Om fältet inte har markerats kommer batchjobbet **Skapa inköpsförslag** att f
 
 ## Planeringsflexibilitet
 
-Det är alltid praktiskt att planera en befintlig leveransorder. Till exempel när produktionen har startats eller om du anställer extra personal på en viss dag för att utföra jobbet. Om du vill ange om planeringssystemet kan ändra en order kommer alla leveransorderrader ha fältet **Planeringsflexibilitet** med två alternativ: **Obegränsat** och **Ingen**. Om fältet har värdet **Ingen** kommer planeringssystemet inte försöka ändra leveransorderraden.  
+Det är alltid praktiskt att planera en befintlig leveransorder. Till exempel när produktionen har startats eller om du anställer extra personal på en viss dag för att utföra projekt. Om du vill ange om planeringssystemet kan ändra en order kommer alla leveransorderrader ha fältet **Planeringsflexibilitet** med två alternativ: **Obegränsat** och **Ingen**. Om fältet har värdet **Ingen** kommer planeringssystemet inte försöka ändra leveransorderraden.  
 
 Du kan ställa in fältet manuellt, men i vissa fall ställs det in automatiskt av [!INCLUDE [prod_short](includes/prod_short.md)]. Det faktum att du kan ställa in planeringsflexibilitet är viktigt, eftersom det gör det lätt att anpassa användningen av funktionen till olika arbetsflöden och affärsfall. Mer information om hur detta fält används finns i [Designdetaljer: Planerade överföringar](design-details-transfers-in-planning.md).  
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 06/16/2021
+ms.date: 03/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -15,14 +15,17 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[prod_short](includes/prod_short.md)] stöder transaktioner för medarbetare på samma sätt som för leverantörer. Därför finns medarbetares bokföringsmallar för att vara säker på att medarbetares transaktioner bokförs i relevanta konton i redovisningen.
 
 > [!NOTE]  
-> Medarbetartransaktioner kan bokföras i den lokala valutan. Återbetalning till anställda stödjer inte kassarabatter och betalningstoleranser.
+> Återbetalning till anställda stödjer inte kassarabatter och betalningstoleranser.
 
 Om medarbetare lägger ut sina egna pengar under affärsaktiviteter, kan du bokföra kostnader för den anställde. Du kan sedan ersätta den anställde genom att göra en betalning till den anställdes bankkonto på liknande sätt som när du betalar till leverantörer.  
 
-> [!TIP]
-> I den här artikeln beskrivs hur du registrerar kostnader i böckerna och hur du återbetalar den anställde. Din organisation kan ha en portal eller app där anställda kan skicka sina utgiftsrapporter.
+I den här artikeln beskrivs hur du registrerar kostnader i böckerna och hur du återbetalar den anställde. Din organisation kan ha en portal eller app där anställda kan skicka sina utgiftsrapporter.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] är tillräckligt flexibel för att passa många olika metoder. Vilka kontonummer som ska användas beror på organisationens konfiguration och processer.  
+
+Du kan använda redovisningsjournaler för personalkonton för att registrera personalkostnader och ersättningstransaktioner i utländsk valuta och sedan enkelt spåra beloppen och jämföra dem med inleveranser. Lämna kalkylatorn i skrivbordslådan – Business Central kan justera valutakursen åt dig. När du använder redovisningsjournaler för att bokföra transaktioner för anställdas konton, till exempel när du ersätter utgifter, kan du använda fältet **Valutakod** för att ange valutan för transaktionerna. Om du anger en valuta kan du använda samma funktioner som när du registrerar transaktioner i kund- och leverantörsreskontran. Till exempel kan anställda registrera en kostnad i euro men få betalt i dollar.
+
+Om du vill vara säker på att valutakursen för beloppen är uppdaterad kan du justera personalsaldon när du kör batch-jobbet valutakurs. Om du vill använda valutakurstabellen, men reglera personalsaldon i din lokala valuta, kan du utesluta anställdas konton när du justerar valutakurserna.
 
 ## Om du vill registrera en anställd utgifter
 

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: rfq
 ms.search.form: '142, 800, 806'
-ms.date: 06/23/2021
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -27,7 +27,7 @@ I följande procedur beskrivs hur du spårar ett paket från en bokförd utlever
 
 ## Se även
 
-[Så här konfigurerar du speditörer](sales-how-to-set-up-shipping-agents.md)  
+[Konfigurera speditörer](sales-how-to-set-up-shipping-agents.md)  
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Skicka dokument via e-post](ui-how-send-documents-email.md)  

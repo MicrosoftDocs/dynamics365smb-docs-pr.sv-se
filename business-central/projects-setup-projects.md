@@ -1,14 +1,15 @@
 ---
-title: 'Ställa in resurser, tidrapporter och jobb'
-description: 'I det här avsnittet beskrivs hur du ställer in resurser, tidrapporter och jobb för att hantera projekt och deras budgetar.'
+title: 'Ställa in resurser, tidrapporter och projekt'
+description: 'I det här avsnittet beskrivs hur du ställer in resurser, tidrapporter och projekt för att hantera projekt och deras budgetar.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: projects
 ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
-ms.date: 06/22/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Ställa in projekthantering
 
@@ -20,10 +21,10 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 
 | Till | Gå till |
 | --- | --- |
-| Ställ in projektadministrering.|[Ställ in allmän information för projekt](projects-how-setup-jobs.md#to-set-general-information-for-jobs)|
+| Ställ in projektadministrering.|[Ställ in allmän information för projekt](projects-how-setup-jobs.md#to-set-general-information-for-projects)|
 | Ange dina resurser och relaterade kostnader och priser, antingen för enskilda resurser, resursgrupper eller för alla tillgängliga resurser i företaget. |[Konfigurera resurser](projects-how-setup-resources.md) |
-| Låt resurser rapportera tidförbrukning för en enskild anställd eller en maskin, och låt chefen granska förbrukningen och dess fördelning. |[Så här skapar du tidrapporter](projects-how-setup-time-sheets.md) |
-| Skapa projektkort och förbered projektaktiviteter. Ange priser för projektobjekt och projektresurser och definiera projektbokföringsmallar. |[Lägga upp projekt](projects-how-setup-jobs.md) |
+| Låt resurser rapportera tidförbrukning för en enskild anställd eller en maskin, och låt chefen granska förbrukningen och dess fördelning. |[Konfigurera tidrapporter](projects-how-setup-time-sheets.md) |
+| Skapa projektkort och förbered projektaktiviteter. Ange priser för projektobjekt och projektresurser och definiera projektbokföringsmallar. |[Konfigurera projekt](projects-how-setup-jobs.md) |
 
 ## Se även
 
@@ -33,6 +34,5 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

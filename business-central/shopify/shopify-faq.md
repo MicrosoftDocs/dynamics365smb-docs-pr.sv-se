@@ -25,23 +25,26 @@ Med Shopify-anslutning kan företag ansluta sina Shopify butik med [!INCLUDE[pro
 - Stöd för fler än en Shopify-butik
   - Varje butik har sina egna inställningar, inklusive en samling produkter, platser som används för att beräkna lager och prislistor.  
 - Synkronisering av artiklar eller produkter med dubbel riktning
-  - Kopplingen synkroniserar bilder, artikelvarianter, streckkoder, leverantörens artikelnummer, utökade texter och taggar.  
+  - Kopplingen synkroniserar bilder, artikelvarianter, streckkoder, leverantörens artikelnummer, utökade och marknadsföringstexter och taggar.  
   - Exportera artikelattribut till Shopify.  
-  - Använd valda kundprisgrupper och -rabatter för att definiera priser som exporteras till Shopify.  
-  - Bestäm om artiklar kan skapas automatiskt eller tillåta uppdateringar av befintliga produkter.  
+  - Använd valda kundprisgrupper och -rabatter för att definiera priser som exporteras till Shopify.
+  - Definiera priser och rabatter för produktkataloger kopplade till B2B-företag.
+  - Bestäm om artiklar kan skapas automatiskt eller tillåta uppdateringar av befintliga produkter.
 - Synkronisera lagernivåer
   - Välj några av eller alla tillgängliga platser i [!INCLUDE [prod_short](../includes/prod_short.md)].  
   - Uppdatera lager nivåer på flera lagerställen i Shopify.  
-- Synkronisering av kunder med dubbel riktning
+- Synkronisering av kunder och företag med dubbel riktning
   - Smartmappa kunder via telefon och e-post.  
   - Använd land-//regionsspecifika mallar när du skapar kunder, vilket säkerställer att skatteinställningarna är korrekta.  
 - Importera order från Shopify
-  - Inkludera beställningar som skapats i olika försäljningskanaler, såsom webbutik eller **Shopify POS**.
+  - Inkludera beställningar som skapats i olika försäljningskanaler, såsom webbutik, **Shopify POS** eller **B2B**.
   - Leverans kostnader, presentkort, tips, leverans- och betalningsmetoder, transaktioner och risk för bedrägerier.  
   - Under importen kan du automatiskt skapa kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller bestämma dig för att hantera kunderna i Shopify.  
   - Ta emot utbetalnings information från Shopify Payments.
 - Spåra uppfyllelse information
-  - Om du vill kan du välja att överföra artikelspårningsinformation från [!INCLUDE [prod_short](../includes/prod_short.md)] till Shopify.  
+  - Om du vill kan du välja att överföra artikelspårningsinformation från [!INCLUDE [prod_short](../includes/prod_short.md)] till Shopify.
+- Fjärradministrerad integration
+  - Aktivera automatisk synkronisering av produkter, lager, order, uppfyllelse med mera.
 
 ## Varför lät Microsoft och Shopify bilda det här partnerskapet?
 
@@ -52,6 +55,8 @@ Med Shopify-anslutning kan företag ansluta sina Shopify butik med [!INCLUDE[pro
 Den här funktionen är endast tillgänglig [!INCLUDE[prod_short](../includes/prod_short.md)] online, som börjar med version 20.1. Det stöds inte i lokala installationer. Anslutningsprogrammet är förinstallerat för nya miljöer. Organisationer med befintliga miljöer kan hämta och installera anslutningsprogrammet från AppSource. Organisationen måste ha både en [!INCLUDE [prod_short](../includes/prod_short.md)]-licens och en Shopify-licens för att kunna använda anslutningsprogram. Mer information om länder/regioner som stöds, språk och utgåvor för [!INCLUDE[prod_short](../includes/prod_short.md)] finns i [Shopify-anslutningsprogram på AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 Shopify-anslutningen fungerar inte för [inbäddad app](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), där klient-URL har formatet: `https://[application name].bc.dynamics.com`.
+
+Shopify anslutningsprogram fungerar inte med andra produkter i Dynamics 365-portföljen.
 
 ## Vilket stöd erbjuds för Shopify-anslutningen?
 
@@ -69,8 +74,6 @@ Du kan också utforska [Expertmarknaden](https://experts.shopify.com/) och hitta
 
 ## Funktioner som inte stöds, men vi följer upp dem och kan tänka på att lägga till dem
 
-- B2B-funktioner, inklusive företag, företagsprislistor och betalningsvillkor
-  - Utökat stöd för B2B kommer att finnas tillgängligt i utgivningscykel 1 för 2024. Mer information finns i [Anslut Business Central med Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Marknader
   - Flera översättningar av huvuddata. Du kan välja ett språk som ska användas för export av produktinformation.
   - Priser per land/region. En prislista är tillgänglig för den valda valutan. Shopify hanterar omvandlingen till andra valutor.
@@ -78,7 +81,7 @@ Du kan också utforska [Expertmarknaden](https://experts.shopify.com/) och hitta
 
 ## Kan Shopify-anslutningen utökas?
 
-Ja Shopify-anslutningsprogrammet kan utökas. Kontrollera GitHub för att komma åt [listan över utökningsbarhetspunkter](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) och utforska några [exempel](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
+Ja Shopify-anslutningsprogrammet kan utökas. Kontrollera GitHub för att komma åt [listan över utökningsbarhetspunkter](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) och utforska några [exempel](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## Är Shopify-anslutningen öppen för bidrag?
 

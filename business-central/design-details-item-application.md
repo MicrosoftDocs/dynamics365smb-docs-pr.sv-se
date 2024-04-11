@@ -123,7 +123,7 @@ I följande tabell visas resultatet av scenariot för artikelns värdetransaktio
 
 |Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (aktuellt)|Koppla till artikellöpnr|Genomsnittligt|Artikeltrans.löpnr|Löpnr|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|1|200.00||Nej|1|1|  
+|01-01-20|Inköp|1|200.00||Nr|1|1|  
 |01-01-20|Inköp|1|1000.00||Nej|2|2|  
 |01-01-20|Inköp|-1|-1 000|2|Nej|3|3|  
 |01-01-20|Inköp|1|100,00||Nej|4|4|  
@@ -133,9 +133,9 @@ Om användaren inte har gjort den fasta kopplingen mellan inköpskreditnotan och
 
 Följande tabell visar resultatet på artikelns värdetransaktioner om moment 2 i föregående scenario utförs utan en fast koppling.  
 
-|Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (aktuellt)|Koppla till artikellöpnr|Genomsnittligt|Artikeltrans.löpnr|Löpnr|  
+|Bokföringsdatum|Artikeltransaktionstyp|Antal|Kost.belopp (faktiskt)||Genomsnittligt|Artikeltrans.löpnr|Löpnr|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Inköp|1|200.00||Nej|1|1|  
+|01-01-20|Inköp|1|200.00||Nr|1|1|  
 |01-01-20|Inköp|1|1000.00||Nej|2|2|  
 |01-01-20|Inköp|-1|433,33||Ja|3|3|  
 |01-01-20|Inköp|1|100,00||Nej|4|4|  

@@ -89,7 +89,6 @@ Funktionen samlar också in data från den feedback som användarna kan ge med h
 
   Felaktiga svar kan returneras om användarna interagerar med systemet på andra språk än de språk som stöds. Felaktig text kan också genereras när användarens språk och primära dataspråk i [!INCLUDE[prod_short](includes/prod_short.md)] databasen inte är identiska.
 
-
 ## Vilka driftfaktorer och inställningar gör det möjligt att på ett effektivt och ansvarigt sätt använda systemet?
 
 Det finns några saker du kan göra för att få ut så mycket som möjligt av funktionen:

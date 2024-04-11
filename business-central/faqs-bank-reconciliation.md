@@ -1,7 +1,7 @@
 ---
 title: Vanliga frågor om bankkontoavstämningshjälp (förhandsversion) med Copilot
 description: 'Dessa vanliga frågor och svar innehåller information om AI-tekniken som används för att stämma av bankkonton och kontoutdrag Business Central. Den innehåller också viktiga saker att tänka på och information om hur AI används, hur den har testats och utvärderats samt eventuella specifika begränsningar.'
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,11 +13,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Vanliga frågor om bankkontoavstämningshjälp (förhandsversion) med Copilot
+# Vanliga frågor om bankkontoavstämningshjälp med Copilot (förhandsversion)
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+Dessa vanliga frågor beskriver AI-effekten av Copilot-hjälp med bankkontoavstämning i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-Dessa vanliga frågor beskriver AI-effekten av Copilot-hjälp med bankkontoavstämning i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## Vad är bankavstämningshjälp?
 

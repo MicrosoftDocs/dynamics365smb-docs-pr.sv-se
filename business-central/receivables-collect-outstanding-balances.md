@@ -2,23 +2,27 @@
 title: Kräva in utestående saldon
 description: 'Lära dig hur du kan påminna kunder om utestående betalningar. Skicka ett kundkontoutdrag, skicka ut en betalningspåminnelse eller skicka en räntefaktura.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '6, 25, 440, 443, 448, 452'
-ms.date: 02/09/2022
-ms.author: bholtorf
+ms.date: 03/13/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Kräva in utestående saldon
 
 Betalningshanteringen består i att kontrollera om kunderna betalar i tid. Om kunderna har förfallna betalningar, kan du börja med att skicka **kundkontoutdragsrapporten** som betalningspåminnelse. Alternativt kan du skicka betalningspåminnelser.
 
-Du kan använda betalningspåminnelser för att påminna kunder om förfallna belopp. Du kan även använda betalningspåminnelser för att beräkna ränta eller avgifter och inkludera dem i betalningspåminnelsen. Använd räntefakturor om du vill debitera kunder för ränta eller avgifter utan att påminna dem om förfallna belopp.
+Använd betalningspåminnelser för att varna kunder om förfallna belopp. Du kan även använda betalningspåminnelser för att beräkna ränta eller avgifter och inkludera dem i betalningspåminnelsen. Använd räntefakturor om du vill debitera kunder för ränta eller avgifter utan att påminna dem om förfallna belopp.
 
 ## Rapporter
 
-Från kundkortet kan du skapa en rapport med den kundens transaktioner med dig. Sedan skickar du kunden till den genererade PDF-filen. Du kan också använda rapporten **Kundkontoutdrag** för att skicka kunderna en översikt över deras affärer med dig. Kundkontoutdraget kan skickas till Excel för vidare behandling.  
+Från kundkortet kan du skapa ett utdraget med kundens transaktioner med dig. Sedan kan du generera en PDF-fil och skicka den till kunden. Du kan också använda rapporten **Kundkontoutdrag** för att skicka kunderna en översikt över deras affärer med dig. 
+
+> [!TIP]
+> Om det behövs kan du skicka utdraget till Excel för ändringar.  
 
 ### Om du vill skicka kundkontoutdragsrapporten.
 
@@ -42,7 +46,7 @@ Om en kund inte har betalat på förfallodatumet kan du låta beräkna dröjsmå
 
 Innan du kan skapa räntefakturor måste du ange villkoren. Mer information finns i [Konfigurera räntevillkor](finance-setup-finance-charges.md).  
 
-Du kan manuellt skapa en räntefaktura för en enskild kund och fylla i raderna automatiskt. Som Alternativt kan du använda funktionsjobbet **Skapa räntefakturor** för att skapa räntefakturor för alla eller valda kunder med förfallna betalningar.  
+Du kan manuellt skapa en räntefaktura för en enskild kund och fylla i raderna automatiskt. Som Alternativt kan du använda funktionen **Skapa räntefakturor** för att skapa räntefakturor för alla eller valda kunder med förfallna betalningar.  
 
 När du skapat räntefakturorna kan du ändra dem. Texten som visas i början och i slutet av räntefakturan bestäms av räntevillkoren och visas i kolumnen **Beskrivning** på raderna. Om ett beräknat belopp har infogats automatiskt i den inledande eller avslutande texten justeras inte texten om du tar bort rader. Då måste du använda funktionen **Uppdatera räntefakturatext**.  
 
@@ -59,20 +63,22 @@ En räntefaktura påminner om en vanlig faktura. Du kan fylla i ett huvud manuel
 
     > [!NOTE]
     > Även om de visas får filtren **Betalning** och **Kreditnot** som **Dokumenttyp** ingen effekt eftersom funktionen **Föreslå räntefakturaraderna** endast hanterar positiva belopp.
-5.  Klicka på **OK** för att starta batchjobbet.  
+5. Klicka på **OK** för att starta batchjobbet.  
 
-### Så här uppdaterar du räntefakturatexter  
+### Så här uppdaterar du räntefakturatexter
+
 I vissa fall kan det hända att du behöver ändra den inledande och avslutande text som angetts för räntevillkoren. Om du gör detta när du har skapat, men ännu inte skickat ut, räntefakturor kan du uppdatera fakturorna med den ändrade texten.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Räntefaktura** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Räntefaktura** och väljer sedan relaterad länk.  
 2. Öppna den räntefaktura som du vill ändra texten och välj sedan åtgärden **Uppdatera räntefakturatext**.
 3. På sidan **Uppdatera räntefakturatext** kan du definiera ett filter om du vill uppdatera flera fakturor.
 4. Klicka på **OK** om du vill uppdatera de inledande och avslutande texterna.  
 
 ### Att utfärda räntefakturor
+
 När du har skapat räntefakturor och gjort eventuella ändringar kan du antingen skriva ut testrapporter eller skicka ut räntefakturorna.
 
-När en betalningspåminnelse skickas ut, bokförs transaktionerna enligt vad du angett på sidan **Räntevillkor**. Denna specifikation bestämmer om ränta och/eller extraavgifter ska bokföras på kundkontot och i redovisningen. Inställningen på sidan **Kundbokföringsmallar** bestämmer vilka konton som bokförs.
+När en betalningspåminnelse skickas ut, bokförs transaktionerna enligt vad du angett på sidan **Räntevillkor**. Denna specifikation bestämmer om ränta och/eller extraavgifter ska bokföras på kundkontot och i redovisningen. Inställningarna på sidan **Kundbokföringsmallar** bestämmer vilka konton som räntor eller avgifter bokförs på.
 
 För varje kundreskontratransaktion på räntefakturan skapas en transaktion på sidan **Bet.påminnelse/räntetrans.**.
 
@@ -92,12 +98,16 @@ Dessutom kan utskickandet av räntefaktura resultera i momstransaktioner.
 Räntefakturan är avsedd att skickas ut till en angiven e-postadress som en bifogad PDF-fil.
 
 ### För att annullera utfärdad räntefaktura.
+
 Om räntefakturor utfärdades felaktigt kan du avbryta dem innan de skickas ut. Det kan du göra antingen av en eller som en batch.
+
 1. På sidan **Utfärdade räntefakturor**, välj en eller flera rader för utfärdade räntefakturor som du vill avbryta och välj sedan åtgärden **Avbryt**.
 2. På sidan **Annullera utfärdade räntefakturor** fyller du i fälten efter behov och väljer sedan knappen **OK**.
 
 ### Så här visar du betalningspåminnelse- och räntetransaktioner  
-När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetransaktion på sidan **Bet.påminnelse/räntetrans.** för alla betalningspåminnelserader som innehåller en kundreskontratransaktion. Om du vill kan du visa en översikt över de betalningspåminnelsetransaktioner som skapats för en viss kund.    
+
+När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetransaktion på sidan **Bet.påminnelse/räntetrans.** för alla betalningspåminnelserader som innehåller en kundreskontratransaktion. Om du vill kan du visa en översikt över de betalningspåminnelsetransaktioner som skapats för en viss kund.
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 5.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Kunder** och väljer sedan relaterad länk.  
 2. Öppna det relevanta kundkortet och välj sedan åtgärden **Transaktioner**.
 3. På sidan **Kundreskontratransaktioner** markerar du raden med den transaktion som du vill visa betalningspåminnelsetransaktionerna för och väljer sedan åtgärden **Bet.påminnelse-/räntetrans.**.
@@ -113,6 +123,5 @@ När du skickar ut en betalningspåminnelse skapas en betalningspåminnelsetrans
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

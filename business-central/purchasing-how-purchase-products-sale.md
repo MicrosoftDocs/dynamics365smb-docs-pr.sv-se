@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -61,7 +61,7 @@ Om du vill skapa en enda inköpsorder för en eller flera rader i ett försäljn
 ## Se även
 [Inköp](purchasing-manage-purchasing.md)  
 [Registrera inköp](purchasing-how-record-purchases.md)  
-[Fakturaförsäljning](sales-how-invoice-sales.md)  
+[Fakturera försäljning](sales-how-invoice-sales.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

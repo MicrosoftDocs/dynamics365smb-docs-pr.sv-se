@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Organisationer som använder [!INCLUDE[prod_long](includes/prod_long.md)] kan få teknisk support för alla problem som kan uppstå. I den här artikeln visar vi följande information och många andra tips om hur du använder [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Lär dig hur din AI-drivna assistent [kan vägleda och förklara](#chat-with-copilot)
 - Lär dig hur du [blir avblockerad](#in-product-tips)  
-- Lär dig [få mer information](#help-pane)    
-- Lär dig hitta [den tekniska information](#help--support-page) som behövs för att skicka in en supportbegäran    
+- Lär dig [få mer information](#help-pane)
+- Lär dig hitta [den tekniska information](#help--support-page) som behövs för att skicka in en supportbegäran
+
+## Chatt med Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Chatt med Copilot är ett AI-drivet verktyg som svarar på frågor och hittar affärsdata relaterade till Business Central. Den är tillgänglig från valfri sida genom att välja ikonen ![Visar ikonen för chatt med Copilot](media/chat-copilot-icon.png) **Copilot** i det övre högra hörnet. [Läs mer om att chatta med Copilot](chat-with-copilot.md).
+
+### Hjälp med fält
+
+Copilot kan hjälpa dig att förstå syftet med och den typiska användningen av enskilda fält. När du väljer **Fråga Copilot** i en knappbeskrivning för ett fält öppnas chatten med en Förklara-prompt för fältnamnet och Copilot ger information om det. Copilot länkar till artiklarna som den hänvisade till, så det är enkelt att verifiera beskrivningen.
 
 ## Tips i produkter
 
@@ -35,14 +46,9 @@ I [!INCLUDE [prod_short](includes/prod_short.md)] ger hjälpmenyalternativet (fr
 
 I följande lista beskrivs hur du kan öppna Hjälp-fönstret och om kort har lagts till:
 
-- Klicka på länken *lär dig mer* om ett fält i en knappbeskrivning
-
-  Följande kort läggs till i Hjälp-fönstret:
-
-  - Fältets knappbeskrivning
-- Klicka på länken *lär dig mer* om en åtgärd i en knappbeskrivning
 - Välj Hjälp-meny alternativet (frågetecknet i det övre högra hörnet)
 - Använd <kbd>Ctrl</kbd>+<kbd>F1</kbd> kortkommandon var som helst
+- Klicka på länken *lär dig mer* om ett fält i en knappbeskrivning, om tillgängligt. Länken *Läs mer* är endast tillgänglig i mobilappen eller i anpassade fält (d.v.s. fält från tillägg som inte är från Microsoft) i webbklienten.
 
 > [!TIP]
 > När du väljer en länk öppnas målartikeln i en ny flik i webbläsaren. Du kan välja att ta bort dockningsstationen för webbläsaren så att du kan visa relevant information bredvid varandra med [!INCLUDE [prod_short](includes/prod_short.md)]. Rutan förblir öppen medan du navigerar [!INCLUDE [prod_short](includes/prod_short.md)] så att innehåll som du har sökt efter fortfarande visas.  

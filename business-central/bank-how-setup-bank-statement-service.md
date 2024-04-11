@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, payment process'
 ms.search.form: '1280, 1290'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Skapa tjänsten Envestnet Yodlee Bank Feeds
+# Ställa in Envestnet Yodlee Bank Feeds-tjänsten
 
 Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fylla i på sidan **Betalningsavstämningsjournal** och koppla betalningar och stämma av bankkontot. Mer information finns i [Koppla betalningar automatiskt och stäm av bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
@@ -18,7 +18,7 @@ Du kan importera elektroniska bankutdrag från banken så att du snabbt kan fyll
 > På grund av direktivet om betalningstjänster i Europa (PSD2), efter den 14 september 2019, kan du inte längre automatiskt importera bankutdrag från banker i Storbritannien till [!INCLUDE[prod_short](includes/prod_short.md)]. Vi undersöker möjligheten att erbjuda denna funktion igen i framtiden.
 
 > [!NOTE]
-> Funktionen Envestnet Yodlee Bank Feeds stöds bara i online-versionen av Business Central. Om du vill använda den här funktionen lokalt måste du skaffa ett konto från Envestnet och du måste lägga till kod som kan integreras med Yodlee API.
+> Funktionen Envestnet Yodlee Bank Feeds stöds bara i online-versionen av Business Central. Den här funktionen stöds inte för lokala versioner av [!INCLUDE [prod_short](includes/prod_short.md)] eller för [!INCLUDE [prod_short](includes/prod_short.md)]-miljöer som finns på Bädda in ISV-programtjänster. Om du vill använda den här funktionen lokalt måste du skaffa ett konto från Envestnet och du måste lägga till kod som kan integreras med Yodlee API.
 >
 > Tjänsten Envestnet Yodlee Bank Feeds stöds bara i USA och Kanada.
 > Endast banker som finns i dessa länder/regioner stöds även om banker från andra länder/regioner kan visas i bankvalsfönstret Envestnet Yodlee Bank Feeds i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,9 +41,10 @@ När bankfeedtjänsten är aktiverad, kan du konfigurera ett bankkonto att autom
 > Om du använder den assisterad inställningsguide för att ställa in företagskonfiguration följer du några av stegen i följande procedurer att utföras automatiskt när du kommer till inställningen av företagets bankkonto. Mer information finns i [Komma igång med att göra affärer](ui-get-ready-business.md).
 
 ## Så här aktiverar du bankfeedtjänsten
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Öppna det bankkonto som du ska använda för bankfeedtjänsten.
-3. På sidan **Bankkonto** i fältet **Format för bankutdragsimport** väljer du YODLEEBANKFEED.  
+3. På sidan **Bankkontokort** i fältet **Format för bankutdragsimport** väljer du YODLEEBANKFEED.  
 
 Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade onlinebankkonto. Visa nästa procedur.  
 
@@ -51,6 +52,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 > Om du använder guiden för assisterad konfiguration för **företagsinställningarna** och sedan aktiverar tjänsten genom att markera kryssrutan **Använd en tjänst för bankfeed**. Mer information finns i [Skapa nya företag i Business Central](about-new-company.md).
 
 ## Så här skapar du ett nytt länkat bankkonto
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj sedan **Skapa nytt länkat bakkonto**. Sidan **Länkning av bankkonto** öppnas efter några ögonblick.
 
@@ -65,7 +67,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
     > Om du har fler än ett onlinebankkonto på banken, måste du skapa ytterligare bankkonton i [!INCLUDE[prod_short](includes/prod_short.md)] för dem. Se steg 8 till 10.  
 
     När processen är klar visas bankens namn i rutan **Mina konton** på fliken **Länkade**. Siffran inom parentes visar hur många online bankkonton som länkades.  
-7. Välj knappen **OK**.
+7. Välj **OK**.
 
     Om du bara länkar ett onlinebankkonto, öppnas sidan **bankkontokort** och visar namnet på onlinebankkontot. I det här fallet är bankkontolänkninguppgiften slutförd. Allt som återstår är att skapa bankkontot. Mer information finns i [Skapa bankkonton](bank-how-setup-bank-accounts.md).
 
@@ -79,6 +81,7 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 10. På sidan **Bankkontolista** väljer du det bankkonto som du vill länka till och väljer sedan knappen **OK**.
 
 ## Så här länkar du ett bankkonto till ett onlinebankkonto
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Välj raden för ett bankkonto som inte är kopplad till ett onlinebankkonto och välj sedan åtgärden **Länka till onlinebankkonto**. Sidan **Länka till onlinebankkonto** öppnas med bankens namn ifyllt i rutan **Länka konto**.
 3. Välj bankens namn. Rutan **Inloggning** öppnas.
@@ -92,11 +95,13 @@ Bankfeedtjänsten aktiveras när du länkar ett bankkonto till dess relaterade o
 På sidan **Bankkontolista** markeras kryssrutan **Länkad**.
 
 ## Så här redigerar du referenser för ett bankkonto online
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Bankkonton** och välj sedan relaterad länk.  
 2. Välj raden för ett bankkonto som inte är kopplad till ett onlinebankkonto och välj sedan åtgärden **Redigera information om onlinebankkonto**.
 3. Uppdatera autentiseringsuppgifter.
 
 ## Så här tar du bort länk till bankkonto
+
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.  
 2. Välj raden för ett länkat bankkonto som du vill ta bort länken till dess relaterade onlinebankkonto för och välj sedan åtgärden **Ta bort länk till onlinebankkonto**.
 
@@ -104,12 +109,14 @@ På sidan **Bankkontolista** markeras kryssrutan **Länkad**.
 > Om du väljer **Ja** i bekräftelsedialogrutan, tas länken till onlinebankkontot bort och inloggningsdetaljerna avmarkeras. Om du vill länka bankkontot till onlinebankkonto igen måste du logga in i banken igen. Mer information finns i avsnittet “Så här länkar du ett bankkonto till ett onlinebankkonto“.
 
 ## Så här uppdaterar du länkning till bankkonto
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Välj det relevanta bankkontot och välj sedan åtgärden **Uppdatera länkning av bankkonto**.
 
 Om problem finns för någon av de länkade bankkontona på sidan **Bankkontolista** kommer sidan **Länkning av bankkonto** med information om vilka bankkonton som har problem. Problemen kan bäst lösas genom att ta bort länken till onlinebankkontot och sedan återskapa länken. Mer information finns i avsnittet “Så här länkar du ett bankkonto till ett onlinebankkonto“.
 
 ## Om du vill aktivera automatisk import av bankutdrag
+
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bankkonton** och väljer sedan relaterad länk.
 2. Markera raden för ett länkat bankkonto och välj sedan åtgärden **Inställningar för automatisk import av bankutdrag**.
 3. På sidan **Inställningar för automatisk import av bankutdrag** i fältet **Antal dagar som ingår** anger du hur långt tillbaka i tiden som du får nya banktransaktioner för.
@@ -124,10 +131,11 @@ Varje timme kommer sidan **Betalningsavstämningsjournal** att visa alla nya utb
 > Transaktioner för utbetalningar som redan har bokförts som kopplade och/eller avstämda på sidan **Betalningsavstämningsjournal** kommer inte att importeras.
 
 ## Se även
+
 [Ställa in bankverksamhet](bank-setup-banking.md)  
 [Jämka bankkonton](bank-manage-bank-accounts.md)  
 [Tillämpa betalningar automatiskt och jämka bankkonton](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg ](ui-extensions.md)  
+[Anpassa [!INCLUDE[prod_short](includes/prod_short.md)] med tillägg](ui-extensions.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

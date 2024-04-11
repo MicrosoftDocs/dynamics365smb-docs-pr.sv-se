@@ -1,12 +1,12 @@
 ---
 title: Ta emot och omvandla elektroniska dokument
-description: Detta ämne beskriver hur du kan ta emot elektroniska dokument direkt från handelspartner eller en OCR-tjänst.
+description: Denna artikel beskriver hur du kan ta emot elektroniska dokument direkt från handelspartner eller en OCR-tjänst.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'find, search, Tell Me'
 ms.search.form: TellMe
-ms.date: 09/21/2023
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -41,7 +41,7 @@ Du kan använda Berätta i den lokala webbklienten för att hitta åtgärder, si
 
 ## Är Berätta tillgänglig för alla formfaktorer?
 
-Ja. Funktionen introducerades på telefoner och surfplattor i Business Central utgivningscykel 2 för 2023, men måste aktiveras i [funktionshanteringen](/dynamics365/business-central/dev-itpro/administration/feature-management) med hjälp av **Funktion: Sök efter sidor och data i mobilappen**. 
+Ja. Den introducerades på telefoner och surfplattor i Business Central 2023 utgivningscykel 2. I 2023 utgivningscykel 2, it måste det aktiveras i [Funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management) med hjälp av reglaget **Funktion: Sök efter sidor och data i mobilappen**. I 2024 utgivningscykel 1 och senare är det alltid aktiverat.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

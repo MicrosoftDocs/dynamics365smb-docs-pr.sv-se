@@ -1,6 +1,6 @@
 ---
-title: Ekonomisk rapportering och analyser
-description: Se vilka ekonomiska rapporter och analyser som är tillgängliga i standardversionen av Business Central så att du kan hålla reda på din verksamhet. Använd rapport 38 för vinst/förlust-rapportering (P&L).
+title: Inbyggda ekonomiska rapporter i Business Central
+description: Se vilka inbyggda ekonomiska rapporter som är tillgängliga i standardversionen av Business Central så att du kan hålla reda på din verksamhet. Använd rapport 38 för vinst/förlust-rapportering (P&L).
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -9,27 +9,15 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ekonomisk rapportering och analys i Business Central
 
-Financial reporting i [!INCLUDE [prod_short](includes/prod_short.md)] gör det möjligt för finans- och affärspersoner att skapa, underhålla, distribuera och visa finansiella rapporter. Ger mer än traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter. [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera olika rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen. Financial reporting inkluderar stöd för dimensioner, varför kontosegment eller dimensioner blir omedelbart tillgängliga. Inga andra verktyg och inga andra konfigurationssteg krävs.  
+# Inbyggda ekonomiska rapporter i Business Central
+
+[!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen. 
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Rapporter
-
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Uppgifter
-
-I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
-
-* [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md)  
-* [Förbereda Financial Reporting med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)  
-* [Konfigurera och publicera KPI-webbtjänster som baseras på ekonomiska rapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)  
-* [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)  
-* [Skapa rapporter med XBRL](bi-create-reports-with-xbrl.md)  
-* [Hantera åtkomstmetod för databas](admin-data-access-intent.md)  
 
 ## Se även
 

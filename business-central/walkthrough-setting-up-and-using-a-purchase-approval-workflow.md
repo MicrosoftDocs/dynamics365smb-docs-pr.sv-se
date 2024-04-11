@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/13/2022
+ms.date: 03/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -40,7 +40,7 @@ För att testa godkännandearbetsflödet loggar Stefan först in på [!INCLUDE[p
 
 Innan du kan ställa in godkännandeanvändare och deras meddelandemetod måste du kontrollera att det finns två användare i [!INCLUDE[prod_short](includes/prod_short.md)]: En användare representerar Alicia. Den andra användaren, du själv, representerar Sean. Läs mer på [Skapa användare enligt licenser](ui-how-users-permissions.md).
 
-### Ställa in godkännandeanvändare
+### Konfigurera godkännandeanvändare
 
 När du har loggat in som dig själv ställer du in Alicia som en godkännandeanvändare vars godkännare är du själv. Skapa dina godkännanderättigheter och ange hur och när du får meddelande om godkännandebegäranden.  
 
@@ -59,7 +59,7 @@ När du har loggat in som dig själv ställer du in Alicia som en godkännandean
     |DU||Vald|
     |ALICIA|DU||
 
-### Ställa in meddelanden
+### Ställa in aviseringar
 
 Användaren får ett internt meddelande om begäranden att godkänna i den här genomgången. Godkännandemeddelandet kan också skickas via e-post, och du kan lägga till ett svarssteg i arbetsflödet som meddelar avsändaren när en begäran godkänns eller avvisas. Läs mer på [Ange när och hur meddelanden ska tas emot](across-how-to-specify-when-and-how-to-receive-notifications.md).
 

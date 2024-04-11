@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Följande procedur baseras på ett kundkort. Momenten är liknande för en lever
 3. På sidan **Kundkort** väljer du åtgärden **Slå samman med**.
 4. På sidan **Slå samman dubbletter** i fältet **slå samman med** markerar du den kund som du tror är en dubblett av den som du har öppnat som anges i fältet **aktuell**.
 
-    Snabbfliken **fält** visar var värdena är olika för de två kunderna. Det innebär att om den valda kunden verkligen är en dubblett kommer endast mycket få fält att visas, till exempel skrivfel och andra datainmatningsfel.
+    Snabbfliken **fält** visar var värdena är olika för de två kunderna. Det innebär att om den valda kunden verkligen är en dubblett kommer endast få fält att visas, till exempel skrivfel och andra datainmatningsfel.
 
     Snabbfliken **relaterade tabeller** innehåller tabeller där det finns fält som har en relation till båda kunder. Fälten **Aktuellt antal** och **Duplicera antal** visar antalet fält i relaterade tabeller där värdet **Nr.** för både aktuell och dubblettkund används. På sidan **Slå samman dubblett** i det här avsnittet finns endast information, men om det finns sammanslagningskonflikter kan du åtgärda dem på sidan **Slå samman dubblettkonflikter**. Se steg 8 till 12.   
 

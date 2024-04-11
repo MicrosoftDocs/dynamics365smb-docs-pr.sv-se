@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -56,11 +56,11 @@ I följande tabell beskrivs relaterade uppgifter.
 
 ## Se även
 
-[Warehouse Management – Översikt](design-details-warehouse-management.md)
-[Inköp](purchasing-manage-purchasing.md)  
-[Försäljning](sales-manage-sales.md)  
-[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Allmänna affärsfunktioner](ui-across-business-areas.md)  
+[Warehouse Management – översikt](design-details-warehouse-management.md)    
+[Inköp](purchasing-manage-purchasing.md)    
+[Försäljning](sales-manage-sales.md)    
+[Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Allmänna affärsfunktioner](ui-across-business-areas.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

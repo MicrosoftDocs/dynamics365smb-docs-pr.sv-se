@@ -1,15 +1,15 @@
 ---
-title: 'Arbeta med avropsorder, försäljning eller inköpsorder'
+title: Arbeta med avropsorder eller inköpsorder
 description: Du kan använda avropsorder om en kund har avtalat att köpa stora antal som ska levereras i flera mindre leveranser under en bestämd tidsperiod. Detsamma gäller för inköp.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Arbeta med avropsorder, försäljning eller inköpsavropsorder
+# Arbeta med avropsorder eller inköpsavropsorder
 
 En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund. På samma sätt använder du inköpsavropsorder för att hantera långsiktiga avtal mellan dig och leverantören.
 
@@ -32,9 +32,9 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 
 ## Så här skapar du en försäljningsorder från en avropsorder  
 
-1. Om du vill skapa en order för någon av raderna i försäljningsavropsorder tar du bort antalet i fältet **Levereras antal** för alla de rader som du INTE vill leverera just nu.  
+1. Om du vill skapa en order för någon av raderna i försäljningsavropsorder tar du bort antalet i fältet **Levereras antal** för alla de rader som du inte vill leverera just nu.  
 2. När du vill börja skapa order väljer du åtgärden **Skapa order** och väljer sedan **Ja**. Du får ett meddelande om att avropsordern har tilldelats ett ordernummer. Observera att avropsordern inte har tagits bort.  
-3. Välj knappen **OK**.  
+3. Välj **OK**.  
 4. På snabbfliken **Rad** väljer du åtgärden **Ej bokförda rader** och sedan väljer du åtgärden **Order**.  
 5. På sidan **Försäljningsrader** väljer du önskad försäljningsorde, väljer åtgärden **Rad** och väljer sedan åtgärden **Visa dokument** action.  
 
@@ -46,7 +46,7 @@ Följande gäller försäljningsorder, när de har skapats från försäljningsa
 - Avropsordernumret och radnumret registreras som försäljningsradernas egenskaper när de skapas från en avropsorder.  
 - Om en försäljningsorder inte skapas direkt från en avropsorder men ändå är relaterad till den kan du skapa en koppling mellan försäljningsordern och avropsordern genom att skriva in numret på den associerade avropsordern i fältet **Avropsordernr** på försäljningsorderraden.  
 - När du har skapat en eller flera försäljningsorder för hela antalet på avropsorderraden, kan inga andra försäljningsorder skapas för samma rad. Användare förhindras från att ange ett antal i fältet **antal. att utleverera**. Om du senare behöver lägga till ytterligare antal på en avropsorder kan du öka värdet i fältet **Antal** och sedan skapa ytterligare order.  
-- Den fakturerade försäljningsavropsordern finns kvar i systemet tills den tas bort, antingen genom att enskilda avropsorder tas bort eller att batch-jobbet **Ta bort faktrd förs.avropsord.** körs.  
+- Den fakturerade försäljningsavropsordern finns kvar i systemet tills den tas bort, antingen genom att enskilda avropsorder tas bort eller att batch-jobbet **Ta bort fakturerade försäljningsavropsorder** körs.  
 - Om en kund dessutom har registrerats som en kontakt i modulen Marknadsföring, och om en interaktionsmallkod har angetts för avropsorder på sidan **Marknadsföringsinställning** registreras en interaktion i tabellen Interaktionslogg när du väljer **Skriv ut** för att skriva ut avropsordern.
 
 ## Så här visar du status för en avropsorder

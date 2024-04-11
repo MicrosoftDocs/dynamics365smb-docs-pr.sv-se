@@ -24,7 +24,7 @@ Löpande kundservice är en viktig del av all affärsverksamhet. Det bidrar till
 
 Dessutom kan du standardisera kodning, lägga upp kontrakt, införa en rabattpolicy och skapa vägkartor för servicepersonal.  
 
-I allmänhet finns det två aspekter av tjänstehantering: Konfigurera och ställa in systemet samt använda det för prissättning, kontrakt, order, beordra ut servicepersonal och finplanera.  
+I allmänhet finns det två aspekter av tjänstehantering: Konfigurera och ställa in systemet samt använda det för prissättning, kontrakt, order, beordra ut servicepersonal och projektschema.  
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.   
 

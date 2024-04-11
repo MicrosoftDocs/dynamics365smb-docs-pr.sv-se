@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Ställa in företagskonsolidering
+# Konfigurera företagskonsolidering
 
 Innan du kan konsolidera redovisningstransaktionerna för två eller flera separata företag (dotterbolag) till ett konsoliderat företag måste du förbereda kontoplaner och konsolideringsföretag.  
 
@@ -75,8 +75,21 @@ En stor del av att skapa affärsenheten är att ange hur enheten ska dela sina e
 > [!NOTE]
 > Med API-alternativet kan du också dela redovisningstransaktioner från andra [!INCLUDE [prod_short](includes/prod_short.md)]-miljöer. Om du vill använda API-alternativet måste användaren som konfigurerar konsolideringen ha behörighet att komma åt redovisningstransaktioner. Behörighetsuppsättningarna D365 Basic och D365 Read ger till exempel åtkomst.
 
+#### Konfigurera valutor för affärsenhet
+
+När du kör konsolidering för affärsenheter som använder en utländsk valuta måste du vara särskilt uppmärksam på de valutakurser som används i olika delar av processen och ännu mer när du kör konsolideringen igen. Det gör du genom att använda sidan **Ställ in valutor för affärsenhet** för att enkelt hålla reda på kurserna.
+
+På sidan **Ställ in valutor för affärsenhet** visas de senaste kurserna för genomsnittskurs, stängningskurs och senaste slutkurs. Du kan söka efter valutakurserna i valutakurstabellen, vilket gör det enklare att validera kurser. Du kan ändra kurser för den aktuella körningen genom att ange värdena eller kopiera dem från tidigare körningar. Om du vill kopiera priser väljer du **Välj från föregående konsolidering**. Den här sidan är särskilt värdefull när du vill köra om en tidigare konsolidering, där du behöver använda en tidigare stängningskurs. Detta krävs för att korrekt omvärdera dina balansräkningsposter. Sidan **Välj från föregående konsolidering** är också användbar om du bara vill visa de kurser som användes, till exempel vid felsökning. Sidan filtreras efter körningar som inkluderade den valda affärsenheten.
+
+Du startar batch-jobbet **Kör konsolidering** från listsidan **Affärsenheter**. Du kan också hitta sidan **Ställ in valutor för affärsenhet** genom att välja åtgärden **Valutakurser**.
+
+> [!NOTE]
+> Sidorna för valutakursinställning för genomsnittskurs, stängningskurs och senaste stängningskurs som för närvarande finns på kortet **affärsenhet** kommer att bli inaktuella i en framtida version. Du kan emellertid fortfarande behålla dessa priser om du har affärsenheter som du importerar via filer.
+
+#### Skapa en affärsenhet
+
 1. Logga in på det konsoliderade företaget.
-2. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
+2. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
 3. Välj **Ny** och fyll sedan i erforderliga fält på snabbflikarna **Allmänt** och **Redovisningskonton**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -113,13 +126,11 @@ Följande tabell beskriver valutakursmetoderna som du kan använda för konton.
 |Sammansatt kurs | Den aktuella perioden omräknas med den genomsnittliga kursen och läggs till det tidigare registrerade saldot i det konsoliderade företaget. Du använder vanligtvis den här metoden för konton för balanserade vinster. Dessa konton innehåller belopp från olika perioder, vilket innebär att de innehåller belopp som omräknats med olika växelkurser.|
 |Aktiekurs | Detta alternativ liknar **Sammansatt**. Skillnades bokförs på olika redovisningskonton.|
 
-Om du vill ange valutakurs för affärsenheter gör du följande:
+Om du vill ange valutakurs för en affärsenhet gör du följande:
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
-2. På sidan **Affärsenhetslista** väljer du affärsenhet och sedan åtgärden **Genomsnittskurs (manuell)**.  
-3. På sidan **Ändra valutakurser** har innehållet i fältet **Relationsvalutakurs** kopierats från tabellen **Valutakurs**, men det går att ändra värdet. Stäng sidan.  
-4. Välj åtgärden **Slutkurs**.  
-5. På fältet **Relations- valutakurs belopp** anger du valutakursen.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **affärsenhet** och väljer sedan relaterad länk.  
+2. På sidan **Affärsenhetslista** väljer du affärsenhet och sedan åtgärden **Valutakurser**.  
+3. På sidan **Ställ in valutor för affärsenhet** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Inkludera eller exkludera dimensioner
 

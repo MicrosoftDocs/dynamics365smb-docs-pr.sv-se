@@ -1,30 +1,32 @@
 ---
-title: Ställa in allmän anläggningsinformation
+title: Skapa allmän information om anläggningstillgångar
 description: 'Innan du kan använda anläggningstillgångar måste du skapa standardredovisningskonton, bokföringsmallar, allokeringsnycklar, journalmallar och batcher och klasskoder.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: '5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.search.form: '5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277'
+ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Skapa allmän information om anläggningstillgångar
 
-Innan du kan hantera anläggningstillgångar, måste du skapa standardinställningredovisningskonton, fördelningsnycklar, journalmallar och journaler för bokföring och gruppering av anläggningstillgångar i klasser, som till exempel Materiella och Immateriella.
+# Konfigurera allmän information om anläggningstillgångar
 
-## Så här anger du generella standardvärden för anläggningstillgångar
+Innan du kan hantera anläggningstillgångar måste du skapa standardredovisningskonton, allokeringsnycklar och journalmallar och batcher för att bokföra och gruppera om anläggningstillgångar. Definiera också en klassificeringshierarki (indelningar och underindelningar) för att strukturera dina tillgångar och definiera vid behov de platser där du lagrar tillgångar.
 
-Du definierar det allmänna beteendet eller funktionen för anläggningstillgångarna och ställer in verifikationsnummerserie på sidan **Inställningar för anläggningstillgångar**.
+## För att ställa in allmänna beteenden för anläggningstillgångarnas funktion
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inställningar för anläggningstillgångar** och väljer sedan relaterad länk.  
+Definiera det allmänna beteendet för funktionen för anläggningstillgångarna och dess verifikationsnummerserie på sidan **Inställningar för anläggningstillgångar**.
+
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Inställningar för anläggningstillgångar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Så här skapar du bokföringsmallar för anläggningstillgångar
 
-Du kan använda bokföringsmallar om du vill definiera anläggningstillgångsgrupper. Transaktionerna för de här bokföringsmallarna bokförs på samma redovisningskonton.
+använda bokföringsmallar för att definiera anläggningstillgångsgrupper. Transaktionerna för de här bokföringsmallarna bokförs på samma redovisningskonton.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.  
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
 3. På sidan **Anl.bokföringsmallkort** fyller du i fälten efter behov.
 
@@ -32,18 +34,7 @@ Du kan använda bokföringsmallar om du vill definiera anläggningstillgångsgru
     >   För att se till att motkonton för olika anläggningstillgångar infogas bokföringar automatiskt när du väljer åtgärden **Infoga anl. motkonto** på journalrader, följer nästa steget som baseras på bokföring av uppskrivning.
 4. På snabbfliken **Motkonto** i fältet **Uppskrivning motkonto** anger du vilket redovisningskonto som du vill bokföra mottransaktioner för uppskrivning.
 
-Mer information om hur du använder åtgärden **Infoga anl. motkonto** på journalrader för redovisningskonto för anläggningstillgångar, se t. ex. [Omvärdera anläggningstillgångar](fa-how-revalue.md).
-
-## Så här ställer du in fördelningsnycklar för anläggningstillgångar
-
-Du kan fördela transaktioner på olika avdelningar eller projekt utifrån användardefinierade fördelningsnycklar. Du kan till exempel skapa en fördelningsnyckel om du vill fördela avskrivningskostnader för bilar med 35 % på administrationsavdelningen och 65 % på försäljningsavdelningen. Mer information finns i [Fördela kostnader och intäkter](year-allocate-costs-income.md).
-
-Fördelningsnycklar används för fördelningar av anläggningstillgångar, inte för individuella tillgångar.
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.  
-2. På sidan **Anl.bokföringsmallar** väljer du åtgärden **Fördelningar** och sedan en bokföringstyp.
-3. På sidan **Anl. fördelningar** fyller du i fälten efter behov.
-4. Upprepa steg 2 och 3 för varje bokföringstyp som du vill ange fördelningsnycklar för.
+Mer information om hur du använder åtgärden **Infoga anl. motkonto** på journalrader för redovisningskonto för anläggningstillgångar, se [Omvärdera anläggningstillgångar](fa-how-revalue.md).
 
 ## Så här skapar du journalmallar för anläggningstillgångar
 
@@ -51,67 +42,41 @@ En mall är en fördefinierad layout för en journal. Mallen innehåller informa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] skapar automatiskt en journalmall för anläggningstillgångar första gången du öppnar sidan **Journalmall för anläggningstillgångar** men du kan skapa ytterligare journalmallar.  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. journalmallar** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl. journalmallar** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs.
 
-## Så här ställer du in journaler för anläggningstillgångar
+## Så här skapar du indelnings- och underindelningskoder för anläggningstillgångar
 
-Du kan skapa flera journaler, d.v.s. enskilda journaler för varje journalmall. Personalen kan till exempel ha egna journaler som har den anställdes initialer som journalnamn. Mer information finns i [Arbeta medSkapa redovisningsjournaler](ui-work-general-journals.md).  
+I anläggningstillgångar kan du definiera en klassificeringshierarki som kan användas för att gruppera tillgångar. Hierarkin har två nivåer: indelningar och underindelningar.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. journalmallar** och väljer sedan relaterad länk.  
-2. Välj relevant försäkringsjournalmall och välj sedan åtgärden **Journaler**.
-3. På sidan **Anl.journaler** fyller du i fälten efter behov.
+### Indelningskoder för anläggningstillgångar
 
-## Så här ställer du in grupperingsmallar för anläggningstillgångar
+Indelningar för anläggningstillgångar är posterna på den översta nivån i den klassificeringshierarki som du grupperar tillgångar i. Använd till exempel indelningar för att dela upp tillgångar i materiella eller immateriella tillgångar. Du måste skapa minst en indelningsklass för anläggningstillgångar i inställningarna.
 
-Du kan använda dedikerade grupperingsjournalen när du vill överföra, dela upp och slå ihop anläggningstillgångar. [!INCLUDE[prod_short](includes/prod_short.md)] skapar automatiskt en grupperingsjournalmall för anläggningstillgångar första gången som du öppnar sidan **Anl. grupperingsjournal** men du kan skapa ytterligare grupperingsjournalmallar för anläggningstillgångar. Mer information finns i [Arbeta med Skapa redovisningsjournaler](ui-work-general-journals.md).  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. indelningar** och väljer sedan relaterad länk.
+2. Ange koder och namn för anläggningstillgångens indelningar som du vill skapa.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. grupperingsjournalmallar** och väljer sedan relaterad länk.  
-2. Fyll i fälten om det behövs.
+### Underindelningskoder för anläggningstillgångar
 
-## Så här skapar du grupperingsjournaler för anläggningstillgångar
+Underindelningar för anläggningstillgångar är posterna på den andra nivån i den klassificeringshierarki som du grupperar tillgångar i. Varje underindelning pekar på en toppnivåindelning. Använd underindelningskoder för att gruppera anläggningstillgångar i mer specifika kategorier, som exempelvis byggnader, fordon, möbler och maskiner. Du måste skapa minst en underindelningsklass för anläggningstillgångar i inställningarna.
 
-Du kan skapa flera journaler, d.v.s. enskilda journaler för varje grupperingsjournalmall. Personalen kan till exempel ha egna grupperingsjournaler som använder den anställdes inititaler som journalnamn. Mer information finns i [Arbeta med Skapa redovisningsjournaler](ui-work-general-journals.md).
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. underindelningar** och väljer sedan relaterad länk.
+2. Ange koder och namn för anläggningstillgångens underindelningar som du vill skapa.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. grupperingsjournalmallar** och väljer sedan relaterad länk.  
-2. Välj relevant försäkringsjournalmall och välj sedan åtgärden **Journaler**.
-3. På sidan **Anl. grupper.journaler** fyller du i fälten efter behov.
-
-## Så här skapar du indelningskoder för anläggningstillgångar:
-
-Indelningskoder för anläggningstillgångar kan användas för att gruppera anläggningstillgångar, t. ex. materiella och immateriella tillgångar.
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. indelningar** och väljer sedan relaterad länk.
-2. Ange koder och namn för de indelningar som du vill skapa.
-
-## Så här skapar du underindelningskoder för anläggningstillgångar:
-
-Du kan använda underindelningskoden för anläggningstillgångar om du vill gruppera dina tillgångar i kategorier, som exempelvis byggnader, fordon, möbler och maskiner.  
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. underindelningar** och väljer sedan relaterad länk.
-2. Ange koder och namn för de indelningar som du vill skapa.
-
-## Så här skapar du lagerställekoder för anläggningstillgångar
-
-Du kan använda lagerställekoder för anläggningstillgångar om du vill registrera var en anläggningstillgång är placerad, till exempel försäljningsavdelning, reception, administration, fabrik och lager. Den här informationen är användbar för försäkrings- och lagerändamål.
-
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. placeringar** och väljer sedan relaterad länk.
-2. Ange koder och namn för anläggningstillgångens lagerställe som du vill skapa.
-
-## Så här registrerar du ingående transaktioner
+## Börja registrera tillgångar
 
 Om det är första gången som du använder anläggningstillgångarna i [!INCLUDE[prod_short](includes/prod_short.md)] måste du först ange inställningar för redovisningsmodulen. Hur du genomför detta beror på om anläggningstillgångar är integrerad med redovisningen.  
 
- Du använder följande procedur om anläggningstillgångstransaktionerna ska bokföras i redovisningen.  
+Du använder följande procedur om anläggningstillgångstransaktionerna ska bokföras i redovisningen.  
 
-1. Kontrollera att du har avslutat den grundläggande inställningsprocessen för anläggningstillgångar.  
-2. Skapa ett anläggningstillgångskort för de befintliga tillgångarna.  
-3. Skapa en avskrivningsregel för anläggningstillgångar för respektive avskrivning (till exempel skatt och bokslut). För varje avskrivningsregel måste du definiera villkor, till exempel integrering med redovisningen.  
+1. Slutför de grundläggande inställningarna för anläggningstillgångar.  
+2. Ställ in ett anläggningstillgångskort för de befintliga tillgångarna.  
+3. Skapa en avskrivningsregel för anläggningstillgångar för respektive avskrivning (till exempel skatt och bokslut). För varje avskrivningsregel definierar du villkor, till exempel integrering med redovisningen.
 
-    Aktivera redovisningintegrering, genom att följa stegen. Försäkra dig först om att redovisningsintegrering är inaktiverad för alla avskrivningsregler. Bokför sedan ingående transaktioner och slå sedan på redovisningsintegreringen.  
-4. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **avskrivningsregler** och väljer sedan relaterad länk.  
+    Aktivera redovisningintegrering, genom att följa stegen. Försäkra dig först om att redovisningsintegrering inte är aktiverad för alla avskrivningsregler. Bokför sedan ingående transaktioner och slå sedan på redovisningsintegreringen.  
+4. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **avskrivningsregler** och väljer sedan relaterad länk.  
 5. Välj relevant avskrivningsregel och välj sedan åtgärden **Redigera** för att öppna sidan **Avskrivningsregelkort**.
-6. Kontrollera att alla fält är ofyllda (ta bort markeringar) på snabbfliken **Integrering**. Om du har fler än en avskrivningsregel ska du stänga av redovisningsintegreringen för samtliga.  
+6. Stäng av alla växlar på snabbfliken **Integration**. Om du har fler än en avskrivningsregel upprepar du detta steg för var och en.  
 7. Ange följande rader för respektive anläggningstillgång i anläggningsjournalen:
    * En rad med anskaffningskostnaden.
    * En rad med den ackumulerade avskrivningen till slutet på föregående räkenskapsår.
@@ -120,15 +85,55 @@ Om det är första gången som du använder anläggningstillgångarna i [!INCLUD
     Om du har andra ingående saldon kan du även ange dessa nu, t. ex. nedskrivning, uppskrivning o.s.v.  
 8. När du har angett och bokfört journalraderna för respektive anläggningstillgång aktiverar du redovisningsintegreringen i avskrivningsreglerna.
 
-Om anläggningstillgångarna inte har integrerats med redovisningen hoppar du över steg 6 och 8.
+Om anläggningstillgångarna inte har integrerats med redovisningen hoppar du över steg sex och åtta.
+
+## Så här skapar du lagerställekoder för anläggningstillgångar (valfritt)
+
+Lagerställekoder för anläggningstillgångar definierar identifierare för var en anläggningstillgång är placerad, till exempel försäljningsavdelning, reception, administration, fabrik och lager. Du kan använda dem för att registrera en anläggningstillgångs lagerställe. Den här informationen är användbar för försäkrings- och lagerändamål.
+
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. placeringar** och väljer sedan relaterad länk.
+2. Ange koder och namn för anläggningstillgångens lagerställe som du vill skapa.
+
+## Så här ställer du in fördelningsnycklar för anläggningstillgångar (valfritt)
+
+Använd fördelningsnycklar för att allokera transaktioner till olika avdelningar eller projekt. Du kan till exempel skapa en fördelningsnyckel om du vill fördela avskrivningskostnader för bilar med 35 % på administrationsavdelningen och 65 % på försäljningsavdelningen. Mer information finns i [Fördela kostnader och intäkter](year-allocate-costs-income.md).
+
+Fördelningsnycklar används för fördelningar av anläggningstillgångar, inte för individuella tillgångar.
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.bokföringsmallar** och väljer sedan relaterad länk.  
+2. På sidan **Anl.bokföringsmallar** väljer du åtgärden **Fördelningar** och sedan en bokföringstyp.
+3. På sidan **Anl. fördelningar** fyller du i fälten efter behov.
+4. Upprepa steg 2 och 3 för varje bokföringstyp som du vill ange fördelningsnycklar för.
+
+## Så här skapar du journaler för anläggningstillgångar (valfritt)
+
+Du kan skapa flera journaler, d.v.s. enskilda journaler för varje journalmall. Personalen kan till exempel ha egna journaler som har den anställdes initialer som journalnamn. Mer information finns i [Arbeta medSkapa redovisningsjournaler](ui-work-general-journals.md).  
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. journalmallar** och väljer sedan relaterad länk.  
+2. Välj relevant försäkringsjournalmall och välj sedan åtgärden **Journaler**.
+3. På sidan **Anl.journaler** fyller du i fälten efter behov.
+
+## Så här ställer du in grupperingsmallar för anläggningstillgångar (valfritt)
+
+Använd dedikerade grupperingsjournalen när du vill överföra, dela upp och slå ihop anläggningstillgångar. [!INCLUDE[prod_short](includes/prod_short.md)] skapar automatiskt en grupperingsjournalmall för anläggningstillgångar första gången som du öppnar sidan **Anl. grupperingsjournal** men du kan skapa ytterligare grupperingsjournalmallar för anläggningstillgångar. Mer information finns i [Arbeta med Skapa redovisningsjournaler](ui-work-general-journals.md).  
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. grupperingsjournalmallar** och väljer sedan relaterad länk.  
+2. Fyll i fälten om det behövs.
+
+## Så här skapar du grupperingsjournaler för anläggningstillgångar (valfritt)
+
+Du kan skapa flera journaler, d.v.s. enskilda journaler för varje grupperingsjournalmall. Personalen kan till exempel ha egna grupperingsjournaler som använder den anställdes inititaler som journalnamn. Mer information finns i [Arbeta med Skapa redovisningsjournaler](ui-work-general-journals.md).
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl. grupperingsjournalmallar** och väljer sedan relaterad länk.  
+2. Välj relevant försäkringsjournalmall och välj sedan åtgärden **Journaler**.
+3. På sidan **Anl. grupper.journaler** fyller du i fälten efter behov.
 
 ## Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  
-[Anläggningstillgångar](fa-manage.md)  
+[Översikt över anläggningstillgångar](fa-manage.md)  
 [Ekonomi](finance.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

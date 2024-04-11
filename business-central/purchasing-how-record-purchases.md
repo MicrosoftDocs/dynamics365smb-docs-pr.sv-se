@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ När du tar emot lagerartiklarna, eller när den inköpta tjänsten avslutas, bo
 Följande steg beskriver hur du skapar en inköpsfaktura. Stegen för att skapa en inköpsorder är liknande. Den största skillnaden är att inköpsorder har några ytterligare fält och åtgärder för fysisk hantering av artiklar.
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
-2. Ange namnet på en befintlig leverantör i fältet **Leverantör**.
+2. Ange namnet på en befintlig leverantör i fältet **Leverantörsnamn**.
 
     Andra fält på sidan **Inköpsfaktura** fylls nu i med standardinformation om den valda leverantören. Om leverantören inte är registrerad, gör så här:
 
-    1. Ange namnet på en ny leverantör i fältet **leverantör**.
+    1. Ange namnet på en ny leverantör i fältet **leverantörsnamn**.
     2. Välj **ja** i dialogrutan om registrering av den nya leverantören.
     3. Mer information om hur du fyller i leverantörskortet finns i [Registrera nya leverantörer](purchasing-how-register-new-vendors.md).  
     4. Välj **OK** för att gå tillbaka till sidan **Inköpsfaktura**, när du har slutfört leverantörskortet.

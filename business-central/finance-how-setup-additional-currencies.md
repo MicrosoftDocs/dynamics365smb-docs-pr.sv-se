@@ -17,11 +17,10 @@ Eftersom företag verkar i allt fler länder/regioner blir det alltmer viktigt a
 > [!NOTE]  
 > Om du söker efter realtidsinformation om valutakurser i utländsk valuta (FX) eller historiska kurser i [!INCLUDE[prod_short](includes/prod_short.md)] hittar du den som valuta. Förutom denna artikel, se även [Uppdatera valutakurser](finance-how-update-currencies.md).
 
-
 Din redovisning ställs in för att använda den lokala valutan (BVA) men du kan ställa in en annan valuta med en tilldelad aktuell valutakurs. Genom att ange en andra valuta som en så kallad alternativ rapporteringsvaluta kommer [!INCLUDE[prod_short](includes/prod_short.md)] registrera belopp automatiskt i både BVA och den alternativa rapporteringsvalutan för varje redovisningstransaktion och för andra transaktioner, t. ex. momstransaktioner.
 
 > [!Warning]
-> Funktionen Alt. rapporteringsvaluta bör inte användas som underlag vid omräkning av ekonomirapporter om du inte förstår begränsningarna. Verktyget kan inte användas för att utföra omräkningar av ekonomirapporter för utländska dotterbolag som en del i en företagskonsolidering. Den alternativa rapporteringsvalutan kan endast användas för att förbereda rapporter i en annan valuta på ett sådant sätt som om den valutan var företagets lokala valuta.
+> Funktionen Alt. rapporteringsvaluta bör inte användas som underlag vid omräkning av ekonomirapporter om du inte förstår begränsningarna. Det kan inte utföra omräkningar av ekonomirapporter för utländska dotterbolag som en del i en företagskonsolidering. Den alternativa rapporteringsvalutan kan endast användas för att förbereda rapporter i en annan valuta på ett sådant sätt som om den valutan var företagets lokala valuta.
 >
 > Du har till exempel en stor mängd kundreskontra i brittiska pund (GBP) och du har ställt in den alternativa rapporteringsvalutan (ACY) som GBP. I det här scenariot kommer belopp i de kundreskontra som använder GBP inte att justeras för valutakurs vinster/-förluster i ACY, utan endast belopp i kundreskontra som tillhör andra valutor. Det innebär att om du använder ACY för att rapportera de ekonomiska rapporterna, kan det leda till att utestående saldon för kundreskontra blir undertryckta eller överskattade.
 
@@ -31,7 +30,7 @@ Med hjälp av en alternativ rapporteringsvaluta kan rapporteringsprocessen för 
 - Företag i länder/regioner utanför EU som har en stor andel transaktioner med länder/regioner inom EU. I det här fallet kan landet utanför EU också vilja rapportera i euro för att göra sina ekonomirapporter mer användbara för sina EU-handelspartner.
 - Företag som också vill visa rapporter i en mer internationell handelsvaluta än sin egen lokala valuta.
 
-Flera finansiella rapporter som är baserade på redovisningstransaktioner. Om du vill visa rapportdata i alternativ rapporteringsvaluta markerar du helt enkelt fältet **Visa belopp i alt. rapporteringsvaluta** på snabbfliken **Alternativ** för den relevanta redovisningsrapporten.
+Flera finansiella rapporter som är baserade på redovisningstransaktioner. Om du vill visa rapportdata i alternativ rapporteringsvaluta markerar du kryssrutan **Visa belopp i alt. rapporteringsvaluta** på snabbfliken **Alternativ** för den relevanta redovisningsrapporten.
 
 ## Justera valutakurser
 

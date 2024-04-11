@@ -1,8 +1,8 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-Du kan ange valfritt antal villkor för betalningspåminnelser. Varje villkorsuppsättning identifieras av en kod. Varje betalningspåminnelse fördefinierar betalningspåminnelsenivåer. Varje betalningspåminnelsenivå inkluderar regler om när en betalningspåminnelse ska skickas ut, till exempel hur många dagar efter fakturans förfallodatum eller datumet för den föregående betalningspåminnelsen.
+För att hantera kundfordringar kan du ställa in betalningspåminnelser och tilldela dem till kunder. Med betalningspåminnelsevillkor kan du styra hur betalningspåminnelseprocessen fungerar. Varje betalningspåminnelsevillkor har en uppsättning nivåer för betalningspåminnelser som du definierar. Nivåer för betalningspåminnelser inkluderar regler om när påminnelsen ska utfärdas, vilka avgifter som ska tas ut och om ränta ska beräknas. Nivåer för betalningspåminnelser inkluderar också en inställning av tidsfrist som säkerställer att du inte skickar en påminnelse för en faktura som en kund redan har betalat.

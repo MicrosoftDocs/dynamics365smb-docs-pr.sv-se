@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Du kan förhandla med kunden genom att först skapa förs.offerter, som du kan o
 
 ## Skapa försäljningsfakturor
 
-Om kunden bestämmer sig att köpa kan du bokföra fakturan för att skapa relaterade kvantitet- och värdetransaktioner. När du bokför försäljningsfakturan, kan du också e-posta den som en PDF-bilaga. Du kan använda ifylld e-postbrödtext med en sammanfattning av fakturan och betalningsinformationen, till exempel en länk till PayPal. Läs mer på [Skicka dokument via e-post](ui-how-send-documents-email.md). När kunden sedan betalar fakturan kan du registrera den betalningen på olika sätt beroende på storlek och önskade arbetsflöden för din organisation. Läs mer i avsnittet [registrera betalningar](#register-payments).  
+Om kunden bestämmer sig att köpa kan du bokföra fakturan för att skapa relaterade kvantitet- och värdetransaktioner. När du bokför försäljningsfakturan, kan du också e-posta den som en PDF-bilaga. Du kan använda ifylld e-postbrödtext med en sammanfattning av fakturan och betalningsinformationen, till exempel en länk till PayPal. Läs mer på [Skicka dokument via e-post](ui-how-send-documents-email.md#to-send-documents-by-email). När kunden sedan betalar fakturan kan du registrera den betalningen på olika sätt beroende på storlek och önskade arbetsflöden för din organisation. Läs mer i avsnittet [registrera betalningar](#register-payments).  
 
 Artikelkort kan vara av typen **Lager**, **Service**, eller **Inte i lager** för att ange om artikeln är en fysisk inventeringsenhet, en arbetstidsenhet eller en fysisk enhet som inte hålls i inventeringen. Lär dig mer om att [Registrera nya artiklar](inventory-how-register-new-items.md). Försäljningsfakturaprocessen är samma för alla tre artikeltyper.
 
@@ -126,7 +126,7 @@ Du kan även skapa direktbetalade fakturor för icke-registrerade kunder genom a
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Skriva ut plocklistan](sales-how-print-picking-list.md)  
 [Lager](inventory-manage-inventory.md)  
-[Skicka dokument via e-post](ui-how-send-documents-email.md)  
+[Skicka dokument via e-post](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Kräva in utestående saldon](receivables-collect-outstanding-balances.md)  
 [Bulkfakturering från Microsoft Bookings i Business Central ](finance-bookings.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

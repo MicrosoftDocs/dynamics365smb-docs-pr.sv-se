@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Behandla försäljningsreturer eller annulleringar
 
-Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Om du vill inkludera rätt fakturainformation kan du göra följande:  
+Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Om du vill inkludera rätt fakturainformation kan du göra följande uppgifter:  
 
 - Skapa en försäljningskreditnota direkt från en bokförd försäljningsfaktura.
 - Skapa en ny försäljningskreditnota med kopierad fakturainformation.

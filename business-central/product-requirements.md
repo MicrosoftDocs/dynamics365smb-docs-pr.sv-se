@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ Vi rekommenderar att du använder en stabil kanalversion av en webbläsare efter
 
 ## Outlook
 
-**Outlook-program:** För att använda [!INCLUDE[prod_short](includes/prod_short.md)] online som din företagsinkorg i Outlook behöver du Outlook 2019 eller senare eller Outlook på webben. Organisationen måste också använda Microsoft 365. Du kan inte använda [!INCLUDE[prod_short](includes/prod_short.md)] online som företagsinkorg i Outlook om din organisation använder Exchange Server lokalt. 
+**Outlook-program:** För att använda [!INCLUDE[prod_short](includes/prod_short.md)] online som din företagsinkorg i Outlook behöver du Outlook 2021 eller senare eller Outlook på webben. Organisationen måste också använda Microsoft 365. Du kan inte använda [!INCLUDE[prod_short](includes/prod_short.md)] online som företagsinkorg i Outlook om din organisation använder Exchange Server lokalt. 
 
 **Webbläsare:** När du använder [!INCLUDE[prod_short](includes/prod_short.md)] som din företagsinkorg i Outlook i en webbläsare kräver tilläggsprogrammet att datorn kör någon av de angivna webbläsarna i listan över webbläsare som stöds tidigare i artikeln. 
 
@@ -51,7 +51,7 @@ Vi rekommenderar att du använder en stabil kanalversion av en webbläsare efter
 
 ## Excel
 
-**Redigera i Excel:** För att använda Excel-tillägget för att göra ändringar i Excel och sätta tillbaka ändringarna i [!INCLUDE[prod_short](includes/prod_short.md)], behöver du Excel 2019 eller senare. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
+**Redigera i Excel:** För att använda Excel-tillägget för att göra ändringar i Excel och sätta tillbaka ändringarna i [!INCLUDE[prod_short](includes/prod_short.md)], behöver du Excel 2021 eller senare. Mer information finns i [analys av finansiella rapporter i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Genom att använda administrationscenter för Business Central
 

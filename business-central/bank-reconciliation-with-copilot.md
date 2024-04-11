@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Stämma av bankkonton med Copilot (förhandsversion)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 I denna artikel beskrivs hur du använder bankkontoavstämningshjälp för att hjälpa dig att stämma av banktransaktioner med poster i huvudboken i Business Central.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Om bankkontoavstämningshjälp
 
@@ -25,7 +27,7 @@ Bankkontoavstämningshjälp är en uppsättning AI-drivna funktioner som hjälpe
 - Förbättrad matchning av transaktioner med poster i huvudboken
 
    Du kanske redan känner till **Matcha automatiskt** på sidan **Bankkontoavstämn.** som automatiskt matchar de flesta banktransaktioner med poster i huvudboken. Vi hänvisar till denna åtgärden som *automatisk*. Även om automatisk matchning fungerar bra kan algoritmerna som används ibland resultera i många omatchade transaktioner. Copilot använder AI-teknik för att inspektera återstående transaktioner och identifiera fler matchningar, baserat på datum, belopp och beskrivningar. Om till exempel flera fakturor har betalats som ett engångsbelopp av en kund, stämmer Copilot av den enskilda kontoutdragsraden med de flera fakturatransaktionerna.
-   
+
    Gå till [Stäm av bankkonton med Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Föreslagna redovisningskonton
@@ -34,11 +36,9 @@ Bankkontoavstämningshjälp är en uppsättning AI-drivna funktioner som hjälpe
   
    Gå till [Överföra omatchade banktransaktioner till föreslagna redovisningskonton](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Förutsättningar
 
-- Bankkontoavstämningshjälp är aktiverad och aktiverad. Denna uppgift utförs av en administratör. [Läs mer om hur du aktiverar Copilot- och AI-funktioner](enable-ai.md).
+- Bankkontoavstämningshjälp är aktiverad. Denna uppgift utförs av en administratör. [Läs mer om hur du konfigurerar Copilot- och AI-funktioner](enable-ai.md).
 - Bankkonton i Business Central som du vill stämma av är länkade till ett onlinebankkonto eller konfigurerade med importformat för bankutdrag. 
 - Du är bekant med bankkontoavstämning i Business Central enligt beskrivningen i [Stäm av bankkonton](bank-how-reconcile-bank-accounts-separately.md). 
 

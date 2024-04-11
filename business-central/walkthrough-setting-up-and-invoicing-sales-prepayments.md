@@ -1,15 +1,15 @@
 ---
-title: 'Ställa in och fakturera Förskottsbetaln., försäljning'
+title: Ställa in och fakturera förskottsbetalningar för försäljning
 description: Förskottsbetalningar är betalningar som faktureras och bokförs för en försäljnings- eller inköpsorder före slutfaktureringen.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/03/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Genomgång: Lägga upp och fakturera förskottsbetaln., försäljning
+# Ställa in och fakturera förskottsbetalningar för försäljning
 
 Denna genomgång visar hur du konfigurerar och använder förskottsbetalningar i [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -171,7 +171,7 @@ Följande dag ringer kunden upp Susan och ändrar ordern. Kunden vill ha två st
 1. På sidan **Försäljningsorder** väljer du åtgärden **Frisläpp** och sedan **Öppna igen**.  
 2. På raden för artikel **1896-S** anger du **2** i fältet **Kvantitet**.  
 
-    I åtgärden **Order** väljer du **Statistik**. Fältet **Förskottsbetalning exkl. moms** innehåller nu **768,04** och fältet **Förskottsbetalningsbelopp exkl. moms** innehåller **417,76**. Dessa värden visar att det finns ytterligare förskottsbelopp som ännu inte har fakturerats ännu.  
+    I åtgärden **Order** väljer du **Statistik**. Fältet **Förskottsbetalning exkl. moms** innehåller nu **768,04** och **Fakturabelopp, förskottsbetalning exkl. moms** innehåller **417,76**. Dessa värden visar att det finns ytterligare förskottsbelopp som ännu inte har fakturerats ännu.  
 3. För att bokföra en faktura för extra förskottsbetalningsbelopp väljer du **Åtgärder**, sedan **Bokföring**, sedan **Förskottsbetalning** och sedan **Bokför och skriv ut faktura för förskottsbetalning**
 4. Klicka på **Ja** för att bokföra fakturan.  
 
@@ -219,9 +219,9 @@ Nu har Arnie blivit informerad om att artiklarna på ordern har levererats och a
 
 ## Uppdatera statusen för förutbetalda order och fakturor automatiskt
 
-Du kan påskynda bearbetningen av order och fakturor genom att lägga upp jobbkötransaktioner som automatiskt uppdaterar status för dessa dokument. När en förskotts faktura betalas kan jobbkötransaktionen automatiskt ändra dokument statusen från **Väntar på förskottsbetalning** till **släppt**. När du registrerar jobbkötransaktioner måste du använda de kodmoduler som är **383 Uppdatera väntande förskottsbetalning, försäljning** och **383 Uppdaterar väntande förskottsbetalning, inköp**. Vi rekommenderar att du schemalägger transaktionerna så att de körs ofta, till exempel varje minut. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
+Du kan påskynda bearbetningen av order och fakturor genom att lägga upp jobbkötransaktioner som automatiskt uppdaterar status för dessa dokument. När en förskotts faktura betalas kan jobbkötransaktionen automatiskt ändra dokument statusen från **Väntar på förskottsbetalning** till **släppt**. När du registrerar jobbkötransaktioner måste du använda de kodmoduler som är **383 Uppdatera väntande förskottsbetalning, försäljning** och **383 Uppdaterar väntande förskottsbetalning, inköp**. Vi rekommenderar att du schemalägger transaktionerna så att de körs ofta, till exempel varje minut. Mer information finns i [Använda projektköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## Gå vidare
+## Nästa steg
 
 Den här genomgången har gått igenom hur du konfigurerar [!INCLUDE[prod_short](includes/prod_short.md)] att hantera förskottsbetalningar. 
 

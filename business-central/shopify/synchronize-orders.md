@@ -1,13 +1,13 @@
 ---
 title: Synkronisera och uppfylla försäljningsordrar
 description: Konfigurera och kör import och behandling av försäljningsordrar från Shopify.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Synkronisera och uppfylla försäljningsordrar
@@ -30,10 +30,12 @@ Aktivera **Skapa ordrar automatiskt** för att automatiskt skapa försäljningsd
 
 Om du vill släppa ett försäljningsdokument automatiskt aktiverar du alternativet **Frisläpp försäljningsorder automatiskt**.
 
+Om du inte vill skicka automatiska leveransbekräftelser till kunder stänger du av växlingsknappen **Skicka leveransbekräftelse**. Det kan vara användbart att stänga av växlingsknappen om du säljer digitala varor eller vill använda en annan meddelandemekanism.
+
 Om du väljer fältet **Shopify ordernr på dokumentraden**, [!INCLUDE [prod_short](../includes/prod_short.md)] sätter in försäljningsraden **Kommentar** med Shopify ordernummer.
 
->[!NOTE]
->Försäljningsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] länkar till  Shopify-ordern och du kan lägga till fältet **Shopify ordernr.** Fält till listan eller kortsidorna för försäljningsorder, fakturor och leveranser. Om du vill veta mer om hur du lägger till ett fält går du till [Börja anpassa med hjälp av anpassningsläget](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> Försäljningsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] länkar till  Shopify-ordern och du kan lägga till fältet **Shopify ordernr.** Fält till listan eller kortsidorna för försäljningsorder, fakturor och leveranser. Om du vill veta mer om hur du lägger till ett fält går du till [Börja anpassa med hjälp av anpassningsläget](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 I fältet **Skatteområdesprioritet** prioritera hur man väljer ett momsriktnummer för adresser på beställningar. Den Shopify order du importerade innehåller information om moms. Moms beräknas om när du skapar försäljnings dokumentet, så det är viktigt att moms- eller skatteinställningar är korrekta i [!INCLUDE[prod_short](../includes/prod_short.md)]. Mer information om moms finns i [ställa in moms för Shopify anslutningen](setup-taxes.md).
 
@@ -131,7 +133,11 @@ Sidan **Shopify-order att importera** är användbar när du felsöker problem m
 När importen är klar kan du utforska Shopify beställa och hitta all relaterad information, såsom betalningstransaktioner, fraktkostnader, risknivå, orderattribut och taggar eller uppfyllelser, om beställningen redan utfördes i Shopify. Du kan också se orderbekräftelser som har skickats till kunden genom att välja åtgärden **Shopify-statussida**.
 
 > [!NOTE]  
-> Du kan navigera till fönstret **Shopify-ordrar** direkt, så visas ordrar med statusen *Öppen* från alla butiker. För att granska slutförda ordrar måste du öppna sidan **Shopify-ordrar** från fönstret **Shopify-butikskort**.
+> Du kan navigera till fönstret **Shopify-ordrar** direkt, så visas ordrar med statusen *Öppen* från alla butiker. För att granska slutförda ordrar måste du öppna sidan **Shopify-ordrar** från sidan **Shopify-butikskort**.
+
+Innan försäljningsdokument skapas i [!INCLUDE[prod_short](../includes/prod_short.md)] kan du använda åtgärden **Synkronisera order från Shopify**-åtgärd på sidan **Shopify Order** för att importera specifika order igen.
+
+Du kan också markera en order som betald, vilket är användbart i ett B2B-scenario där betalningar behandlas utanför Shopify kassan. Välj åtgärden **Markera som betald** på sidan **Shopify Order**. Du kan också markera en order som makulerad för att starta återbetalningsflödet Shopify. Välj åtgärden **Avbryt order** på sidan **Shopify Order**, fyll i fälten efter behov på sidan **Shopify avbryt order** och tryck på **OK**. Du måste köra ordersynkronisering för att importera uppdateringarna till [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Skapa försäljningsdokument i Business Central
 
@@ -147,15 +153,17 @@ Om reglaget **Skapa ordrar automatiskt** har aktiverats på **Shopify-butikskort
 
 Om Shopify-ordern måste uppfyllas skapas **försäljningsordern**. För uppfyllda Shopify order, t.ex. order som endast innehåller ett presentkort eller som redan hanteras i Shopify, skapas **försäljningsfakturan**.
 
-Ett försäljningsdokument skapas nu och kan hanteras med hjälp av standardfunktionerna i [!INCLUDE[prod_short](../includes/prod_short.md)].
+Ett försäljningsdokument skapas och kan hanteras med hjälp av standardfunktionerna i [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+Om du vill återskapa försäljningsdokument kan du använda åtgärden **Ta bort länk för bearbetade dokument** på sidan **Shopify Order**. Observera att den här åtgärden inte tar bort det redan skapade försäljningsdokumentet. Du måste bearbeta det manuellt.
 
 ### Hantera saknade kunder
 
-Om inställningarna gör att en kund inte kan skapas automatiskt och en befintlig kund inte kan hittas tilldelar du en kund till Shopify-ordern manuellt. Detta kan göras på några få sätt:
+Om inställningarna gör att en kund inte kan skapas automatiskt och en motsvarande kund inte kan hittas tilldelar du en kund till Shopify-ordern manuellt. Det finns några sätt att tilldela kunder order:
 
-* Du kan tilldela **Försäljningskundnr** och **Faktureringskundnr.** direkt på sidan **Shopify-ordern** genom att välja en kund i listan över befintliga kunder.
-* Du kan välja en kundmallskod, skapa och tilldela kunden via åtgärden **Skapa ny kund** i **Shopify-ordern**. Observera att Shopify-kunden måste ha minst en adress. Order som skapats via Shopify POS försäljningskanal saknar ofta adressinformation.
-* Du kan mappa befintliga kunder till relaterade **Shopify-kunder** i fönstret **Shopify-kunder** och sedan välja åtgärden **Hitta mappning** i **Shopify-ordern**.
+* Tilldela **Förs.kundnr.** och **Faktureringskundnr.** direkt på sidan **Shopify-ordern** genom att välja en kund i listan över befintliga kunder.
+* Välj en kundmall, skapa och tilldela kunden via åtgärden **Skapa ny kund** i **Shopify-ordern**. Shopify-kunden måste ha minst en adress. Order som skapats via Shopify POS försäljningskanal saknar ofta adressinformation.
+* Mappa befintliga kunder till relaterade **Shopify-kunder** på sidan **Shopify-kunder** och sedan välja åtgärden **Hitta mappning** i **Shopify-ordern**.
 
 ### Så väljer kopplingen vilken kund som ska användas
 
@@ -172,6 +180,8 @@ Nästa steg beror på **Kundmappningstyp**.
 
 > [!NOTE]  
 > Kopplingen använder information från faktureringsadressen och skapar en faktureringskund i [!INCLUDE[prod_short](../includes/prod_short.md)]. Försäljningskunden är densamma som faktureringskunden.
+
+För B2B-order är flödet detsamma, även om kontaktanvändning använder fälten **Standardföretagsnummer**, **Företagsimport från Shopify**, **Företagsmappningstyp** på sidan **Shopify butikskort**. Observera att det inte finns något **standardföretagsnr.** i **Shopify kundmallen** som för B2B förväntas den ha namngivna kunder.
 
 ### Olika bearbetningsregler för order
 
@@ -199,27 +209,32 @@ Varje jobbkö kommer att importera och bearbeta order inom de definierade filtre
 
 I Shopify:
 
-|Redigera|Påverkan för redan importerad order|Påverkan för order som importeras för första gången|
+|Redigera|Inverkan på Shopify-order som ännu inte behandlats i [!INCLUDE[prod_short](../includes/prod_short.md)] | Inverkan på Shopify-order som redan har behandlats i [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
-|Ändra uppfyllelseplatsen | Den ursprungliga platsen är i rader | En uppfyllelseplats är synkroniserad med [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Redigera en order och öka antal| Orderhuvud och tilläggstabeller uppdateras på [!INCLUDE[prod_short](../includes/prod_short.md)] rader.| Importerad order kommer att använda ny kvantitet|
-|Redigera en order och minska antal| Orderhuvud och tilläggstabeller uppdateras på [!INCLUDE[prod_short](../includes/prod_short.md)] rader.| Den importerade ordern kommer att använda den ursprungliga kvantiteten, fältet bevarat antal innehåller ett nytt värde.|
-|Redigera en order och ta bort befintlig artikel | Orderhuvud och tilläggstabeller uppdateras på [!INCLUDE[prod_short](../includes/prod_short.md)] rader.| Borttagen artikel importeras fortfarande kommer fältet uppfyllt antal att innehålla noll. |
-|Redigera en order och lägg till nytt objekt | Orderrubriken uppdateras, raderna kommer inte att uppdateras. | Ursprungliga och tillagda objekt kommer att importeras. |
-|Bearbetningsorder: uppfyllelse, uppdatera betalningsinformation | Orderrubriken uppdateras, raderna kommer inte att uppdateras. |Ändringen påverkar inte hur order importeras.|
-|Annullera order | Orderrubriken uppdateras, raderna kommer inte att uppdateras. |Annullerad order importeras inte |
+|Ändra uppfyllelseplatsen | En uppfyllelseplats är synkroniserad med [!INCLUDE[prod_short](../includes/prod_short.md)]. | En uppfyllelseplats är synkroniserad med [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Redigera en order och öka antal|Importerad order kommer att använda ny kvantitet.| Anslutningsprogrammet identifierar ändrings- och markeringsorder. |
+|Redigera en order och minska antal|Importerad order kommer att använda ny kvantitet. Shopify återbetalning med 0 belopp importeras som inte kan konverteras till kreditnota.| Anslutningsprogrammet identifierar ändrings- och markeringsorder. |
+|Redigera en order och ta bort befintlig artikel |Borttaget objekt importeras inte. Shopify återbetalning med 0 belopp importeras som inte kan konverteras till kreditnota.| Anslutningsprogrammet identifierar ändrings- och markeringsorder. |
+|Redigera en order och lägg till nytt objekt | Ursprungliga och tillagda objekt kommer att importeras. | Anslutningsprogrammet identifierar ändrings- och markeringsorder. |
+|Bearbetningsorder: uppfyllelse, uppdatera betalningsinformation | Orderrubriken kommer att uppdateras. |Orderrubriken kommer att uppdateras. Uppfyllelse kommer inte att synkroniseras med Shopify.|
+|Annullera betald order | Orderhuvudet kommer att uppdateras, för att behandlas separat |Anslutningsprogrammet identifierar ändrings- och markeringsorder. |
+|Annullera obetald order | Borttaget objekt importeras inte. Shopify återbetalning med 0 belopp importeras som inte kan konverteras till kreditnota. |Anslutningsprogrammet identifierar ändrings- och markeringsorder. |
 
-Som du kan se kan det i vissa fall vara rimligt att ta bort redigerad order i [!INCLUDE[prod_short](../includes/prod_short.md)] och importera den som ny.
+Om beställningen redan har behandlats i [!INCLUDE[prod_short](../includes/prod_short.md)] anslutningsprogram visar följande felmeddelande: *Ordern har redan bearbetats i Business Central, men en utgåva har mottagits från Shopify. Ändringar har inte spridits till den bearbetade ordern i Business Central. Uppdatera de bearbetade dokumenten så att de matchar mottagna data från Shopify. Om du vill tvinga fram synkroniseringen använder du åtgärden "Synkronisera order från Shopify" på Shopify Order kortsidan.*
+
+Beroende på status på det skapade försäljningsdokumentet kan du utföra följande åtgärder:
+1. Ta bort skapade försäljningsdokument
+2. Välj åtgärden **Ta bort länk för bearbetade dokument** för att återställa indikatorn **Bearbetat**.
+3. Välj åtgärden **Synkronisera order från Shopify** om du vill uppdatera enskilda order med senaste data från Shopify.
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Redigera|Effekt|
 |------|-----------|
-|Ändra platsen till en annan plats, mappad till Shopify platserna. Bokför leverans. | Ordern kommer att markera som uppfylld. Den ursprungliga platsen kommer att användas. |
-|Ändra platsen till en annan plats, mappad inte till Shopify platserna. Bokför leverans. | Uppfyllelse kommer inte att synkroniseras med Shopify. |
+|Ändra platsen till en annan plats. Bokför leverans. | Ordern kommer att markera som uppfylld. Uppfyllelseplats från Shopify kommer att användas. |
 |Minska antal. Bokför leverans. | Ordern i Shopify markeras som delvis uppfylld. |
-|Öka antal. Bokför leverans. | Uppfyllelse kommer inte att synkroniseras med Shopify. |
-|Lägg till ett nytt objekt. Bokför leverans. | Ordern i Shopify markeras som uppfylld. Raderna uppdateras inte. |
+|Öka antal. Bokför leverans. | Uppfyllelse kommer inte att synkroniseras med Shopify. Samma sak om uppfyllandet delades upp i Shopify men bearbetades som en rad in [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Lägg till ett nytt objekt. Bokför leverans. | Ordern i Shopify markeras som uppfylld. Nya rader kommer inte att läggas till. |
 
 ## Synkronisera försändelser till Shopify
 

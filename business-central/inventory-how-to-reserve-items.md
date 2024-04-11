@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -79,13 +79,13 @@ Använd sidan **Reservationsförslag** för att reservera och fördela inkommand
 2. Välj åtgärden **Hämta efterfrågan** och ange sedan vilken typ av behov du vill reservera från tillgängligt lager.
 3. Fyll i filter efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Valfritt: Om du vill fördela artiklarna direkt väljer du åtgärden **Fördela** .
-5. På sidan **Fördelningsprincip** väljer du en policy för respektive steg
+5. På sidan **Fördelningsprincip** väljer du en policy för respektive steg.
 
    |Fördelningspolicy  |Description  |
    |---------|---------|
    |Grundläggande     | Allokerar lager till en efterfrågan om det inte finns några konflikter och efterfrågan kan täckas helt. Du har till exempel försäljningsorder A med antalet 10 och ett projekt med antalet 7. Om du har 20 i lager får båda kraven full kvantitet. Om ditt lager är 12 fördelas inget lager. Du måste fördela kvantiteten manuellt.        |
    |Lika    | Distribuerar tillgängligt lager till efterfrågan lika. Du har till exempel en försäljningsorder med antalet 10 och ett projekt med antalet 7. Om din lagernivå är 20 kommer båda kraven att få full kvantitet. Om ditt lager är 12 kommer båda kraven att få 6.        |
-   |Efter kundprioritet|Distribution baserad på fältet Prioritet på kundkortet. I händelse av otillräckliga kvantiteter kommer systemet att prioritera att leverera kunder med högsta prioritet.|
+   |Efter kundprioritet|Distribution baserad på fältet **Prioritet** på sidan **Kundkort**. I händelse av låga lagerkvantiteter tillhandahåller Business Central kunder med högre prioritet först.|
 
 6. Om du vill reservera alla rader där **Acceptera** är aktiverat väljer du åtgärden **Reservera**.
     

@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -40,7 +40,7 @@ Med det här alternativet följer du standardproceduren för fakturering med all
 
 För varje ny kund måste du emellertid skapa ett nytt projekt och lägga till rader i den återkommande journalen. 
 
-Mer information finns i [Skapa projektjournalrader](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) och [skapa flera försäljningsfakturor för projekt](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Mer information finns i [Skapa projektjournalrader](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) och [skapa flera försäljningsfakturor för projekt](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Skapa flera försäljningsfakturor utifrån återkommande försäljningsrader
 
@@ -106,10 +106,10 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du hämta ti
 
 [Datumformler](ui-enter-date-ranges.md#use-date-formulas)  
 [Arbeta med återkommande journaler](ui-work-general-journals.md#work-with-recurring-journals)  
-[Skapa projektjournalrader](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Skapa flera projektförsäljningsfakturor](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Skapa projektjournalrader](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Skapa flera projektförsäljningsfakturor](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Skapa återkommande försäljnings- och inköpsrader](sales-how-work-standard-lines.md)  
-[Så här arbetar du med servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Arbeta med servicekontrakt och servicekontraktsofferter](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Fakturera flera servicekontrakt](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Efterfrågeprognoser och avropsorder](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeta med försäljningsavropsorder](sales-how-to-create-blanket-sales-orders.md)  

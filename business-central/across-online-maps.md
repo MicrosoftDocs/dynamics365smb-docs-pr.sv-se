@@ -16,7 +16,7 @@ Du kan få en karta från din Online Map-tjänst som visar adressen och platsen 
 * Kundkort
 * Leverantörskort
 * Resurskort
-* Arbetskort
+* Projektkort
 * Bankkontokort
 * Kontaktkort
 * Personalkort

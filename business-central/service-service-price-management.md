@@ -46,7 +46,7 @@ Du kan t. ex. ange typer av serviceprissättning för prissättningsgruppen radi
 #### [Aktuell upplevelse](#tab/current-experience)
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **serviceartiklar** och väljer sedan relaterad länk.  
 2. Välj serviceartikeln, expandera snabbfliken **Priser och försäljning** och välj sedan åtgärden **Resurs**, **Artikel** eller **Redovisningskonto**.
-3. På sidorna fyller du i **Priser för jobbresurser**, **Priser för jobbartiklar** eller **Priser för jobbredovisningskonto** efter behov.
+3. På sidorna fyller du i **Projektresurspriser**, **Artikelpriser för projekt** eller **Redov.kontopriser för projekt** efter behov.
 
   
 ## Serviceprisjustering  

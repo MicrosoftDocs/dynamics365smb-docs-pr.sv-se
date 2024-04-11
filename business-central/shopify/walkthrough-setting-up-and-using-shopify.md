@@ -132,9 +132,9 @@ I **Shopify Admin** meddelande om att ordern nu är markerad som *uppfylld*. Du 
 
 ### Scenario
 
-Efter en lyckad snabbstart av den nya onlinebutiken vill du att de aktuella kunderna ska besöka den och börja montera order. Beroende på din Shopify-plan och process kan du prova B2B- och D2C-flöden.
+Efter en lyckad snabbstart av den nya onlinebutiken vill du att de aktuella kunderna ska besöka den och börja montera order. Beroende på din Shopify-plan och process kan du prova B2B- och DTC-flöden.
 
-### D2C-steg
+### DTC-steg
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)], gör följande:
 

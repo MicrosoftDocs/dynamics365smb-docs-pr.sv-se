@@ -51,6 +51,10 @@ För befintliga instanser av [!INCLUDE[prod_short](../includes/prod_short.md)] �
 2. Välj åtgärden **Ny**.  
 3. I fältet **Kod** anger du den kod som gör det lätt att hitta i [!INCLUDE[prod_short](../includes/prod_short.md)]. Ett namn kan t.ex. återspegla det som en fabrik säljer, t.ex. "möbler" eller "kaffe", eller det land eller den region där det används.
 4. I fältet **Shopify URL** anger du webbadressen till den onlinebutik som du vill ansluta till. Använd följande format: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > Du kan kopiera URL:en från Shopify administration, gilla, `https://admin.shopify.com/store/{shop}` så konverterar anslutningsprogram den till önskat format.
+
 5. Aktivera reglaget **Aktiverad**, granska och godkänn villkoren.
 6. Om du uppmanas att logga in på ditt Shopify-konto. Granska sekretess och behörighet och välj knappen **Installera app**.
 
@@ -69,7 +73,7 @@ Upprepa steg 2–6 för alla onlinebutiker som du vill ansluta.
 
 Nu är din onlinebutik ansluten till [!INCLUDE[prod_short](../includes/prod_short.md)]. I nästa steg ska du definiera vad som ska synkroniseras och hur.
 
-- [Synkronisera artiklar](synchronize-items.md)
+- [Synkronisera artiklar och lager](synchronize-items.md)
 - [Synkronisera kunder](synchronize-customers.md)
 - [Synkronisera order](synchronize-orders.md)
 

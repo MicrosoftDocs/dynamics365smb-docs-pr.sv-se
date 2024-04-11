@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -17,7 +17,7 @@ När du gör inställningarna i tjänstehanteringen måste du bestämma vilken s
   
 När du definierar en service kan du associera den med de kvalifikationer som behövs för att utföra den. Om du vill att servicerepresentanterna ska bli mer effektiva kan du också ställa in felsökningsriktlinjer i realtid och tilldela typiska uppstartskostnader, till exempel reskostnader och andra avgifter.  
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
+I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.  
   
 | Till | Gå till |
 | --- | --- |
@@ -27,7 +27,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Ange tjänsteerbjudanden som ditt företag levererar till kunder.|[Skapa tjänsteerbjudanden](service-how-setup-service-offerings.md)|
 | Innehåller riktlinjer för felsökning som kan hjälpa servicerepresentanterna att leverera snabbare service. |[Ställa in felsökning](service-how-setup-troubleshooting.md) |
 | Konfigurera resursallokering som gör det enkelt att tilldela rätt resurser till en serviceuppgift. |[Så här skapar du resursfördelningar](service-how-setup-resource-allocation.md) |
-| Ange priser för service och ställa in ytterligare servicekostnader på serviceorder. |[Registrera prissättning och alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)|
+| Ange priser för service och ställa in ytterligare servicekostnader på serviceorder. |[Konfigurera prissättning och alternativa kostnader för tjänster](service-how-setup-service-costs-pricing.md)|
 | Ställa in saker så att du kan spåra resurstid och serviceorderstatus för prognostisering av arbetsbelastning och servicebehov.|[Ställa in arbetstimmar och tjänstetider](service-how-setup-work-service-hours.md)|
 | Ställ in alternativ för reparationsstatus så att du kan övervaka statusen för reparation. | [Ställ in status för tjänsteorder och reparationer](service-order-repair-status.md)|
 | Konfigurera ett program så att du kan låna ut ersättning när du arbetar på en serviceartikel. |[Lägga upp program för låneartiklar](service-how-setup-loaner-program.md) |

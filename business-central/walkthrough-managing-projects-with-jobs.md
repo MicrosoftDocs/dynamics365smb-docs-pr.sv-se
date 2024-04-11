@@ -9,11 +9,11 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Genomgång: Hantera projekt med Projekt
+# Genomgång: Hantera projekt
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-Den här genomgången introducerar dig för projekthanteringsfunktionerna i projektet. Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.  
+Den här genomgången introducerar dig för projekthanteringsfunktionerna. Med Projekt kan du schemalägga förbrukningen av ditt företags resurser och hålla reda på de olika kostnader som är förknippade med resurser i ett visst projekt. I projekt ingår förbrukningen av anställdas arbetstimmar, maskintimmar, lagerartiklar samt andra typer av förbrukning som du behöver hålla koll på i takt med att arbetet fortskrider.  
 
  I den här genomgången beskrivs hur du lägger upp ett nytt projekt samt några av de vanligaste aktiviteterna, som att hantera fast prissättning, delbetalningar, bokföra fakturor från projekt och kopiera projekt.  
 
@@ -21,17 +21,17 @@ Den här genomgången introducerar dig för projekthanteringsfunktionerna i proj
 
  I den här genomgången tas följande aktiviteter upp:  
 
-### Lägga upp ett projekt
+### Konfigurera projekt
 
  Med fältet budgetstrukturinställningar för projekt kan du skapa projekt på ett okomplicerat sätt. Den här genomgången beskriver följande procedurer:  
 
-- Lägga upp aktivitetsrader och planeringsrader.  
+- Lägga upp projektaktivitetsrader och planeringsrader.  
 - Skapa projektspecifika priser för artiklar, resurser och redovisningskonton.  
 - Fakturering från ett projekt.  
 
 ### Hantera fasta priser
 
- I Projekt kan du hantera fasta priser och priser för tjänster och produkter som överenskommits i förväg med kunderna. I denna genomgång kan du göra följande:  
+ Du kan hantera fasta priser och priser för tjänster och produkter som överenskommits i förväg med kunderna. I denna genomgång kan du göra följande:  
 
 - Se hur kontrakts- och fakturavärden fastställs.  
 - Lämna utrymme för extra (ej fakturerat) arbete i planeringen.  
@@ -68,9 +68,9 @@ Den här genomgången introducerar dig för projekthanteringsfunktionerna i proj
 
 ## Situation
 
-Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash, en projektledare på CRONUS använder projekt för att få en överblick över alla pågående projekt som CRONUS har startat, sig samt de projekt som har avslutats. Prakash brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[prod_short](includes/prod_short.md)] aktiverar kopiering av projektet och delbetalningar.
+Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar och bygger till exempel konferenshallar och kontor, med möbler, utrustning och lagerutrymmen. Deras arbete är för det mesta projektorienterat. Prakash, en projektledare på CRONUS använder projekt för att få en överblick över alla pågående aktiviteter som CRONUS har startat, sig samt de aktiviteter som har avslutats. Prakash brukar avtala med kunderna om vad som ska göras och registrerar grunderna för projektet, dvs. aktivitets- och planeringsrader samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash upptäcker att det är okomplicerat att skapa, underhålla och granska informationen. Prakash tycker också om hur [!INCLUDE[prod_short](includes/prod_short.md)] aktiverar kopiering av projektet och delbetalningar.
 
- Tricia, en projektmedlem som rapporterar till Prakash, är ansvarig för övervakning av det dagliga arbetet. Tricia registrerar sitt eget arbete samt det arbete som utförs av teknikerna i varje aktivitet, registrerar de artiklar som de har använt och de kostnader som har uppstått.  
+ Tricia, en projektmedlem som rapporterar till Prakash, är ansvarig för övervakning av projektets dagliga arbete. Tricia registrerar sitt eget arbete samt det arbete som utförs av teknikerna i varje aktivitet, registrerar de artiklar som de har använt och de kostnader som har uppstått.  
 
 ## Förbereda exempeldata
 
@@ -78,16 +78,16 @@ Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar 
 
 ### Så här förbereder du exempeldata  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.  
-2.  Välj **Ny** för att skapa ett nytt resurskort.  
-3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Resurser** och väljer sedan relaterad länk.  
+2. Välj **Ny** för att skapa ett nytt resurskort.  
+3. Ange följande information i fälten på snabbfliken **Allmänt**:  
 
     - **Nr**: **Tricia**  
     - **Namn**: **Tricia**  
     - **Typ**: **Person**  
 
-4.  I fältet **Basenhet** klickar du på **Ny** för att öppna sidan **Resursenhet**. I fältet **Kod** väljer du **Timme**.  
-5.  På snabbfliken **Fakturering** anger du följande information:  
+4. I fältet **Basenhet** klickar du på **Ny** för att öppna sidan **Resursenhet**. I fältet **Kod** väljer du **Timme**.  
+5. På snabbfliken **Fakturering** anger du följande information:  
 
     - **Inköpspris**: **5**  
     - **Indirekt kostnad %**: **4**  
@@ -99,63 +99,63 @@ Det här scenariot handlar om CRONUS, ett design- och konsultföretag som ritar 
 
 I nästa procedur skapar du en projektjournal för Tricia för att bokföra deras förbrukning.  
 
-### Skapa en ny journal  
+### Skapa en ny projektjournal  
 
-1.  Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
-2.  På sidan **Journalnamn** i fönstret **Projektjournal**. Sidan **Projektjournaler** öppnas.  
-3.  Välj åtgärden **Ny** för att skapa en rad med följande information:  
+1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projektjournaler** och väljer sedan relaterad länk.  
+2. På sidan **Projektjournal** i fönstret **Projektjournal**. Sidan **Projektjournaler** öppnas.  
+3. Välj åtgärden **Ny** för att skapa en rad med följande information:  
 
     - **Namn**: **Tricia**  
     - **Beskrivning**: **Tricia**  
     - **Nr-serie**: **JJNL-GEN**  
 
-4.  Välj **OK** för att spara ändringar.
+4. Välj **OK** för att spara ändringar.
 
-## Lägga upp ett projekt
+## Konfigurera projekt
 
  I det här scenariet har CRONUS tecknat ett avtal med en kund, Progressive Home Furnishings, för att inreda ett konferensrum och en matsal. Kunden finns i USA och programmet kommer att kräva särskild programvara. projektledaren går igenom upplägget med kunden och skapar ett projekt utifrån det.  
 
-### Så här lägger du upp ett projekt:  
+### Så här ställer du in ett projekt  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
-2.  Välj **Ny** för att skapa ett nytt kort.  
-3.  Ange följande information i fälten på snabbfliken **Allmänt**:  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Projekt** och välj sedan relaterad länk.  
+2. Välj **Ny** för att skapa ett nytt kort.  
+3. Ange följande information i fälten på snabbfliken **Allmänt**:  
 
     - **Beskrivning**: **Rekommendationer för konferenslokal**  
     - **Faktureringskundnr**: **01445544**  
 
-4.  På snabbfliken **Bokföring** anger du följande information:  
+4. På snabbfliken **Bokföring** anger du följande information:  
 
     - **Status**: **Planering**  
-    - **Projektbokföringsmall**: **Inreda**  
+    - **Projektbokföringsmall**: **Ställa in**  
     - **PIA-metod**: **Kostnadsvärde**  
 
-5.  På snabbfliken **Varaktighet** anger du dagens datum i fälten **Startdatum** och **Slutdatum**. Dessa datum underlättar när du ska konvertera valutor när projektet ska faktureras.  
-6.  På snabbfliken **Utlandshandel** anger du valutakoden **USD**. Om du väljer USD i fältet **Fakturavalutakod** kommer projektet att faktureras i USD och planeras endast i den lokala valuta för CRONUS.  
+5. På snabbfliken **Varaktighet** anger du dagens datum i fälten **Startdatum** och **Slutdatum**. Dessa datum underlättar när du ska konvertera valutor när projektet ska faktureras.  
+6. På snabbfliken **Utlandshandel** anger du valutakoden **USD**. Om du väljer USD i fältet **Fakturavalutakod** kommer projektet att faktureras i USD och planeras endast i den lokala valuta för CRONUS.  
 
  Du kan anpassa serviceprissättningen för kunder på projektbasis, beroende på vilka avtal som du har skapat. I nästa procedur anger projektchefen en kostnad för Tricias tid, priset för den obligatoriska programvaran och resekostnader som kunden har avtalat att betala.  
 
 ### Anpassa prissättning  
 
-1.  Från projektkortet kan du välja åtgärden **resurs**.  
-2.  På sidan **Resurspriser för projekt** anger du följande information:  
+1. Från **projektkortet** kan du välja åtgärden **resurs**.  
+2. På sidan **Resurspriser för projekt** anger du följande information:  
 
     - **Kod**: **Tricia**  
     - **A-pris**: **20**  
 
-3.  Stäng sidan.  
-4.  Välj åtgärden **Artikel**.  
-5.  På sidan **Artikelpriser för projekt** anger du följande information och anpassat pris:  
+3. Stäng sidan.  
+4. Välj åtgärden **Artikel**.  
+5. På sidan **Artikelpriser för projekt** anger du följande information och anpassat pris:  
 
-    1.  **Artikelnr**: **80201 (grafikprogram)**  
-    2.  **A-pris**: **200**  
+    1. **Artikelnr**: **80201 (grafikprogram)**  
+    2. **A-pris**: **200**  
 
-6.  Stäng sidan.  
-7.  Välj åtgärden **Redovisningskonto**.  
-8.  Ange följande information, och resekostnader, som kunden har avtalat att betala för kostnader, plus 25 procent, på sidan **Redov.kontopriser**:  
+6. Stäng sidan.  
+7. Välj åtgärden **Redovisningskonto**.  
+8. Ange följande information, och resekostnader, som kunden har avtalat att betala för kostnader, plus 25 procent, på sidan **Redov.kontopris för projekt**:  
 
-    1.  **Redovisningskonto**: **8430 (resa)**  
-    2.  **Styckkostnadsfaktor**: **1,25**  
+    1. **Redovisningskonto**: **8430 (resa)**  
+    2. **Styckkostnadsfaktor**: **1,25**  
 
 9. Stäng sidan.  
 
@@ -166,9 +166,9 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra dera
 1.  På kortet **preojekt** för det nya projektet, väljer du åtgärden **Projektaktivitetsrader**.  
 2.  I följande tabell beskrivs den information som du ska ange i fälten.  
 
-    |Projektaktivitetsnr|Description|Typ av projektaktivitet|  
+    |Projektuppgiftsnr|Description|Typ av projektuppgift|  
     |------------------|---------------------------------------|-------------------|  
-    |1000|Rådgivning om inredning av konferenslokal|Från-summa|  
+    |1 000|Rådgivning om inredning av konferenslokal|Från-summa|  
     |1010|Rådgivningsmöte med kunden|Bokföring|  
     |1020|Utveckling|Bokföring|  
     |1090|Rådgivning, summa|Till-summa|  
@@ -189,7 +189,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra dera
 
 2. Skapa planeringsrader med följande information:  
 
-    | Rad | Radtyp | Planeringsdatum  | Typ        | Nr   | Antal | Styckpris |
+    | Rad | Radtyp | Planeringsdatum  | Typ        | Nr.   | Antal | Styckpris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Både Budget och Fakturerbart | (dagens datum) | Resurs | Tricia | 40        |     |
     | 2    | Både Budget och Fakturerbart | (dagens datum) | Resurs | Timothy | 40        |     |
@@ -198,7 +198,7 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra dera
      Stäng sidan. Summorna uppdateras på sidan **Projektaktivitetsrader**.  
 3. Välj rad 1020 och välj sedan åtgärden **Projektplaneringsrader**. Ange följande information:  
 
-    | Rad | Radtyp | Planeringsdatum  | Typ        | Nr   | Antal | Styckpris |
+    | Rad | Radtyp | Planeringsdatum  | Typ        | Nr.   | Antal | Styckpris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Både Budget och Fakturerbart | (dagens datum) | Resurs | Tricia | 80        |     |
     | 2    | Både Budget och Fakturerbart | (dagens datum) | Artikel | 80201 (grafikprogram) | 1 |     |
@@ -207,18 +207,18 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra dera
 
 ## Beräkna återstående förbrukning
 
- Tricia, teamprojektmedlem, har arbetat med projektet ett tag och vill registrera sina timmar och sin förbrukning för projektet. Tricia har inte arbetat mer timmar än vad som överenskommits med kunden. Tricia använder batch-jobbet **Ber. återstående förbrukning** för att beräkna återstående förbrukning för projekter i en projektjournal. För varje projektaktivitet beräknas skillnaden mellan planerad förbrukning av artiklar, resurser, redovisningskostnader och verklig förbrukning i projekttransaktioner. Den återstående förbrukningen visas sedan i den projektjournal som hon kan bokföra den ifrån.  
+ Tricia, teamprojektmedlem, har arbetat med projektet ett tag och vill registrera sina timmar och sin förbrukning. Tricia har inte arbetat mer timmar än vad som överenskommits med kunden. Tricia använder batch-jobbet **Ber. återstående förbrukning** för att beräkna återstående förbrukning i en projektjournal. För varje projektaktivitet beräknas skillnaden mellan planerad förbrukning av artiklar, resurser, redovisningskostnader och verklig förbrukning i projekttransaktioner. Den återstående förbrukningen visas sedan i den projektjournal som hon kan bokföra den ifrån.  
 
 ### Så här beräknar du återstående förbrukning  
 
-1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
-2.  På sidan **Projektjournal**, i fältet **Journalnamn**, öppnar du listan **Projektjournaler**. Välj projektjournalen **Tricia**.  
-3.  Välj åtgärden **Ber. återstående förbrukning**.  
-4.  Välj fältet **Projektnr** och välj relevant projektnummer, vanligtvis projekt J00010, på sidan **Projekt – Beräkna återstående förbrukning** på snabbfliken **Projektaktivitet**.  
-5.  På snabbfliken **Alternativ** skriver du **J00001** i fältet **Dokumentnr**. Det gör det enklare att senare söka efter bokföringen.  
-6.  Ange dagens datum som bokföringsdatum.  
-7.  Välj **OK**. Alla rader som föreslagits utifrån de planeringsrader som Prakash skapade för projektjournalen genereras.  
-8.  Välj **OK** på bekräftelsesidan. De genererade raderna läggs till i projektjournalen.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projektjournaler** och väljer sedan relaterad länk.  
+2. På sidan **Projektjournal**, i fältet **Journalnamn**, öppnar du listan **Projektjournaler**. Välj projektjournalen **Tricia**.  
+3. Välj åtgärden **Ber. återstående förbrukning**.  
+4. På sidan **Projekt – Beräkna återstående förbrukning**, snabbfliken **Projektaktivitet** väljer du **Projektnr.** och välj relevant projektnummer, vanligtvis projekt J00010.  
+5. På snabbfliken **Alternativ** skriver du **J00001** i fältet **Dokumentnr**. Det gör det enklare att senare söka efter bokföringen.  
+6. Ange dagens datum som bokföringsdatum.  
+7. Välj **OK**. Detta kommer att generera projektjournalrader baserat på planeringsraderna som Prakash skapade.  
+8. Välj **OK** på bekräftelsesidan. De genererade raderna läggs till i projektjournalen.  
 9. Se till att alla dokument har numret J00001. Välj sedan åtgärden **Bokföra**. Klicka på knappen **Ja** för att bokföra.  
 
 Raderna är nu bokförda.  
@@ -231,7 +231,7 @@ Raderna är nu bokförda.
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2.  Välj det projekt som du skapade tidigare och klicka på åtgärd **Skapa försäljningsfaktura för projekt**.  
-3.  På snabbfliken **Projektaktivitet** rensar du alla filter för **Projektaktivitetsnr** för att kunna fakturera projektet. I fältet **Nr** väljer du önskat projekt.  
+3.  På snabbfliken **Projektaktivitet** rensar du alla filter för **Projektaktivitetsnr** för att kunna fakturera projektet. I fältet **Projektnr.** markera relevant projekt.  
 4.  På snabbfliken **Alternativ** fyller du i bokföringsdatumet och anger om du vill skapa en faktura per aktivitet eller en enda faktura för samtliga aktiviteter.  
 5.  Välj **OK** för att skapa fakturan och välj sedan **OK** på bekräftelsesidan.  
 
@@ -267,11 +267,11 @@ Raderna är nu bokförda.
 2. Markera projektnummer **Nyström** och välj sedan åtgärd **Projektaktivitetsrader**.  
 3. Markera rad 1120 och i fältet **Budget (totalkostnad)** högerklickar du på beloppet och väljer **Specificera**.  
 
-     Genom att granska Projektplaneringslista inser Prakash att Tricia behövs i 30 timmar under den här projektfasen. Prakash kommer överens med kunden om ett fast pris.  
+     Genom att granska Projektplaneringsrader inser Prakash att Tricia behövs i 30 timmar under den här projektfasen. Prakash kommer överens med kunden om ett fast pris.  
 
 4. På sidan **Projektaktivitetsrader** väljer du rad 1120 och väljer sedan åtgärden **Projektplaneringsrader**. Skapa en planeringsrad med följande information:  
 
-    | Rad | Radtyp | Typ        | Nr   | Antal |
+    | Rad | Radtyp | Typ        | Nr.   | Antal |
     |------|-----------|-------------|-------|----------|
     | 1    | Både Budget och Fakturerbart  | Resurs | Tricia | 30 |
 
@@ -281,16 +281,16 @@ Raderna är nu bokförda.
 
 När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 25 timmar på projektet och registrerar dessa timmar i projektjournalen.  
 
-### Så här registrerar du timmar i projektjournalen  
+### Så här registrerar du timmar i en projektjournal  
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projektjournaler** och väljer sedan relaterad länk.  
 2. På den nya raden anger du följande information:  
 
     - **Typ av rad**: **(tom)**  
     - **Bokföringsdatum**: **(dagens datum)**  
     - **Verifikationsnr**: **J00002**  
-    - **Projektnr**: **Nyström**  
-    - **Projektaktivitetsnr**: **1120**  
+    - **Projektnr.**: **Nyström**  
+    - **Projektuppgiftsnr.**: **1120**  
     - **Typ**: **Resurs**  
     - **Nr**: **Tricia**  
     - **Antal**: **25**  
@@ -307,8 +307,8 @@ När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 2
 
 6. Ange följande på snabbfliken **Projektaktivitet**:  
 
-    - **Projektnr**: **Nyström**  
-    - **Projektaktivitetsnr**: **1120**  
+    - **Projektnr.**: **Nyström**  
+    - **Projektuppgiftsnr.**: **1120**  
 
 7. Klicka på **OK** för att köra beräkningen.
 
@@ -317,8 +317,8 @@ När Tricia har lagts till i schemat för den här aktivitetsraden arbetar hon 2
 8. I **Projektjournaler** skapar du en ny rad med följande information. Se till att båda projektnummer är i ordningen efter dem som du redan har använt:  
 
     - **Typ av rad**: **budget**  
-    - **Projektnr**: **Nyström**  
-    - **Projektaktivitetsnr**: **1120**  
+    - **Projektnr.**: **Nyström**  
+    - **Projektuppgiftsnr.**: **1120**  
     - **Typ**: **Resurs**  
     - **Nr**: **Tricia**  
     - **Antal**: **5**  
@@ -342,7 +342,7 @@ Prakash har slutit ett avtal med en kund, Selagorian Ltd, om att inreda tio konf
 
 Markera de projekt- och aktivitetsrader som du vill kopiera på sidan **Kopiera projekt**. Du kan också välja att kopiera de ursprungliga projekttransaktionerna, som skapar planeringsrader baserat på faktisk förbrukning, eller så kan du kopiera de ursprungliga projektplaneringsraderna som kopierar de ursprungliga planeringsraderna till det nya projektet. Du kan då välja vilken planeringsrad- eller reskontratransaktionsradtyp som du vill inkludera, och endast välja det som är relevant för det nya projektet. Slutligen kan du välja det projekt som du vill kopiera till, och ange om priser och antal också ska kopieras.  
 
-### Så här kopierar du ett projekt  
+### För att kopiera ett projekt  
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Välj **Ny** för att skapa ett nytt projekt. Ange följande information:  
@@ -350,11 +350,11 @@ Markera de projekt- och aktivitetsrader som du vill kopiera på sidan **Kopiera 
     - **Beskrivning**: **Inreda tio konferensrum**  
     - **Faktureringskundnr**: **20000**  
 
-3. Välj fältet **Kopiera projektaktiviteter från**  
+3. Välj åtgärden **Kopiera projektaktiviteter från**.  
 4. Ange följande på sidan **Kopiera projektaktiviteter**:  
 
-    - **Projektnr**: **Nyström**  
-    - **Projektaktivitetsnr från**: **1000**  
+    - **Projektnr.**: **Nyström**  
+    - **Projektaktivitetsnr. från**: **1000**  
     - **Källa**: **Projektplaneringsrader**  
     - **Inkl. planeringsradtyp**: **Budget + fakturerbar**  
     - **Till projektnr**: **Guildford Inreda tio konferensrum**  
@@ -389,30 +389,30 @@ Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och stäl
 
     - **Beskrivning**: **Renovering av reception**  
     - **Faktureringskundnr**: **30000**  
-    - **Projektbokföringsmall**: **Inreda**  
+    - **Projektbokföringsmall**: **Ställa in**  
     - **PIA-metod**: **Kostnadsvärde**  
 
-3. På jobbkortet, välj åtgärden **Priser** och välj sedan åtgärden **Resursen**. Ange följande information:  
+3. På projektkortet, välj åtgärden **Priser** och välj sedan åtgärden **Resursen**. Ange följande information:  
 
     - **Kod**: **Tricia**  
     - **A-pris**: **10**  
 
      Stäng sidan.  
 
-4. På kortet **Jobb** i avsnittet **Aktiviteter**, lägg till jobbuppgiftsrader som beskrivs i följande tabell:  
+4. På kortet **Jobb** i avsnittet **Aktiviteter**, lägg till projektuppgiftsrader som beskrivs i följande tabell:  
 
-    | Rad | Projektaktivitetsnr | Beskrivning          | Typ av projektaktivitet |
+    | Rad | Projektuppgiftsnr | Description          | Typ av projektuppgift |
     |------|--------------|----------------------|---------------|
-    | 1    | 1000         | Betalning – handpenning | Bokföring       |
-    | 2    | 2000         | Användning                | Bokföring       |
+    | 1    | 1 000         | Betalning – handpenning | Bokföra       |
+    | 2    | 2000         | Rapport                | Bokföra       |
     | 3    | 3000         | Betalning – halvvägs     | Bokföring       |
-    | 4    | 4000         | Betalning – slutförande | Bokföring       |
+    | 4    | 4000         | Betalning – slutförande | Bokföra       |
 
 5. Välj uppgift 1000 och välj sedan åtgärden **Projektplaneringsrader**.  
 
 6. Skapa en planeringsrad med följande information:  
 
-    | Rad | Radtyp | Planeringsdatum  | Typ        | Nr   | Antal | Styckpris |
+    | Rad | Radtyp | Planeringsdatum  | Typ        | Nr.   | Antal | Styckpris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Fakturerbart  | (dagens datum) | Redovisningskonto | 40255 | 1        | 5000       |
 
@@ -422,7 +422,7 @@ Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och stäl
 
 8. Skapa en planeringsrad med följande information:
 
-    | Rad | Radtyp | Planeringsdatum  | Typ     | Nr    | Antal |
+    | Rad | Radtyp | Planeringsdatum  | Typ     | Nr.    | Antal |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Budget    | (dagens datum) | Resurs | Tricia | 120      |
     | 2    | Budget    | (dagens datum) | Artikel     | 70104  | 10       |
@@ -433,7 +433,7 @@ Procedurerna visar hur du skapar ett nytt projekt, anger prissättning och stäl
 
 10. Skapa en planeringsrad med följande information:
 
-    | Rad | Radtyp | Planeringsdatum   | Typ        | Nr   | Antal | Styckpris |
+    | Rad | Radtyp | Planeringsdatum   | Typ        | Nr.   | Antal | Styckpris |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Fakturerbart  | (ett framtida datum) | Redovisningskonto | 40255 | 1        | 5000       |
 

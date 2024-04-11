@@ -19,7 +19,7 @@ Du kan konfigurera distributionslagerfunktioner på olika sätt. Det är viktigt
 
 ### Ankommande flöde (artikelinförsel)
 
-|Komplexitetsnivå|Beskrivning|Inställningar|Lagerställeskod|Ankommande flöde av produktionsorder|Ankommande flöde av monteringsorder|Ankommande flöde av projekt|  
+|Komplexitetsnivå|Beskrivning|Inställningar|Lagerställeskod|Ankommande flöde av produktionsorder|Ankommande flöde av monteringsorder|Inkommande flöde för projekt|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Ingen tilldelad distributionslageraktivitet.|Bokför från order och journaler.||Valfritt. Kontrolleras av växlingsknappen **Lagerställeskod är obligatorisk**.|Produktionsjournal -> utflödesjournal</br><br/> **OBS**! Du kan bokföra utflöde med **produktionsjournal**.|Monteringsorder|Artikelinförsel gäller inte för projekt|  
 |Grundläggande|Order för order.|Begär artikelinförsel. </br><br/> **OBS**! Även om inställningarna kallas **Begär plockning**, kan du fortfarande bokföra inleveranser och utleveranser direkt från affärskälldokument på platser där du markerar dessa kryssrutor. |Valfritt. Kontrolleras av växlingsknappen **Lagerställeskod är obligatorisk**.|Produktionsorder -> Lager, artikelinförsel|Monteringsorder|Artikelinförsel gäller inte för projekt|
@@ -30,7 +30,7 @@ Vissa konfigurationer tillåter inte att dedikerade distributionslagerdokument a
 
 ### Avgående flöde (plockning)
 
-|Komplexitetsnivå|Beskrivning|Inställningar|Lagerställeskod|Avgående flöde av produktionsorder|Avgående flöde av monteringsorder|Avgående flöde av projekt|  
+|Komplexitetsnivå|Beskrivning|Inställningar|Lagerställeskod|Avgående flöde av produktionsorder|Avgående flöde av monteringsorder|Utgående flöde för projekt|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Ingen tilldelad distributionslageraktivitet.|Bokför från order och journaler.||Valfritt. Kontrolleras av växlingsknappen **Lagerställeskod är obligatorisk**.|Produktionsjournal -> förbrukningsjournal </br><br/> **OBS**! Du kan bokföra förbrukning med **produktionsjournal**.|Monteringsorder|Projekt -> Projektjournal|  
 |Grundläggande|Order för order.|Begär plockning. </br><br/> **OBS**! Även om inställningarna kallas **Begär plockning**, kan du fortfarande bokföra utflöde direkt från affärskälldokument på platser där du markerar dessa kryssrutor. <!-- ToDo Test prod output-->|Valfritt. Kontrolleras av växlingsknappen **Lagerställeskod är obligatorisk**.|Produktionsorder -> Lagerplockning|Monteringsorder -> lagerförflyttning</br><br/>**Lagerförflyttningen** kan bara användas med lagerplatser.|Projekt -> Lagerplockning|
@@ -44,7 +44,7 @@ Liknande ankommande flöden tillåter vissa konfigurationer inte att dedikerade 
 Även om du inte har särskilda distributionslageraktiviteter vill du förmodligen fortfarande hålla reda på saker som förbrukning och produktionsutflöde. I följande artiklar finns information om hur du behandlar inleveranser för källdokument.
 
 * [Så här registrerar du förbrukning och utflöde för en utsläppt produktionsorderrad](production-how-to-register-consumption-and-output.md)
-* [Montera Artiklar](assembly-how-to-assemble-items.md)
+* [Montera artiklar](assembly-how-to-assemble-items.md)
 * [Registrera förbrukning eller användning för projekt](projects-how-record-job-usage.md)
 
 ## Grundläggande distributionslagerkonfiguration

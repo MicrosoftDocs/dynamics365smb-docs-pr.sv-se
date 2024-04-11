@@ -1,25 +1,28 @@
 ---
 title: Periodisera intäkter och kostnader
-description: 'För att känna igen en intäkt eller kostnad i en period som transaktionen inte bokfördes i, kan du använda funktioner för att automatiskt periodisera eller skjuta upp dem över en angiven uppställning.'
+description: 'Lär dig hur du automatiskt periodiserar eller senarelägger intäkter och kostnader under perioder då transaktionen inte har bokförts, eller periodiserar dem enligt en angiven uppställning.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 # Periodisera intäkter och kostnader
 
-För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du använda funktioner för att automatiskt periodisera intäkter och kostnader över en angiven uppställning.
+För att känna igen en intäkt eller kostnad i en period utanför den period som transaktionen bokfördes i, kan du automatiskt periodisera intäkter och kostnader över en angiven uppställning.
 
 Om du vill fördela kostnader eller intäkter i berörda bokföringsperioder kan du skapa en periodiseringsmall för resursen, artikeln eller redovisningskontot som kostnaden eller intäkten kommer att bokföras för. När du bokför relaterade försäljnings- eller inköpsdokument, periodiseras kostnaden eller intäkten till de relevanta bokföringsperioderna, enligt en periodiseringsschema som styrs av inställningarna i periodiseringsmallen och bokföringsdatumet.
 
+> [!NOTE]
+> Försäljnings- och inköpsjournaler validerar källkoden. Valideringen kräver att källkoden för försäljning och försäljningsjournaler respektive inköp och inköpsjournaler inte är identiska när du använder periodiseringar. Om den är identisk kan du kringgå den här begränsningen genom att skapa en mall och batch som använder en annan källkod.
+
 ## Så här anger du ett redovisningskonto för periodisering
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **kontoplan** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny**.
 3. Fyll i fälten som behövs för att skapa ett redovisningskonto för periodiserade intäkter. Mer information finns i [Redovisning och kontoplan](finance-general-ledger.md).
 4. Upprepa steg 2 och 3 för att skapa ett nytt redovisningskonto för periodiserade kostnader.

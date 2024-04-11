@@ -49,7 +49,7 @@ Använd fältet **Korrigering** för att bokföra en negativ debet istället fö
 
 Nedan beskrivs hur du återställer en bokförd inleverans eller bokförda resurser. Momenten är liknande för bokförda utleveranser.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda inköpsleveranser** och väljer sedan relaterad länk.  
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokförda inköpsleveranser** och väljer sedan relaterad länk.  
 2. Öppna den bokförda inleveransen som du vill ångra.  
 3. Markera de rader som du vill ångra.  
 4. Välj åtgärden **Ångra inleverans**.

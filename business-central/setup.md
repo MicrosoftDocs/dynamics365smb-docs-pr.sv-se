@@ -30,7 +30,7 @@ Utöver guiderna för assisterad konfiguration kan några allmänna funktioner o
 | Konfigurera de regler och värden som kan styra företagets inköp, registrera nya leverantörer och prioritera leverantörerna för betalningshantering. |[Ställa in inköp](purchasing-setup-purchasing.md) |
 | Konfigurera reglerna och värdena som definierar företagets lagerpolicyer, ställa in lagerställen om du vill hålla lager på flera distributionslager och kategorisera artiklar för att förbättra sökning och sortering. |[Ställa in lager](inventory-setup-inventory.md) |
 |Ange standardrapporter som ska användas med olika dokumenttyper.|[Rapportval för dokument](across-report-selections.md)|
-| Ställa in hur du ställer in resurser och tidrapporter och projekt för att hantera projekt. |[Ställa in projekthantering](projects-setup-projects.md) |
+| Ställa in hur du ställer in resurser, tidrapporter och projekt för att hantera projekt. |[Ställa in projekthantering](projects-setup-projects.md) |
 | Konfigurera hur du försäkrar, underhåller och skriver av anläggningstillgångar och hur du registrerar kostnader för anläggningstillgångar i företagets redovisning. |[Ställa in anläggningstillgångar](fa-setup.md) |
 |Definiera allmänna regler och värden för lagerprocesser och särskild hantering vid varje lagerställe.|[Ställa in lagerstyrning](warehouse-setup-warehouse.md)|
 |Förbereda produktionsstrukturer och verksamhetsföljder för att definiera hur artiklar tillverkas och förbereda maskin- eller produktionsgrupper för att vidta nödvändiga åtgärder.|[Ställa in Produktion](production-configure-production-processes.md)|

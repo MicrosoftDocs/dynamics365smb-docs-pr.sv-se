@@ -22,7 +22,6 @@ En översikt över de vanligaste kortkommandona finns i [Kortkommandon (endast d
 > [ ![Ikon för PDF-filen.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Ikon som öppnar en PDF-fil")
 
 
-
 ## Översikt
 
 Kortkommandona förbättrar tillgängligheten och kan göra det enklare och mer effektivt att navigera till olika områden och element på en sida. De flesta webbläsare stöder dessa genvägar, men beteendet kan variera något.
@@ -194,12 +193,12 @@ När ett datumfält konfigureras kan du ange datumet manuellt eller öppna en ka
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>|Öppna kalendern om stängd. **Obs**! Detta fungerar inte om datumfältet är i ett rutnät, där <kbd>Ctrl</kbd>+<kbd>Home</kbd> går till den första raden.|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Flytta till aktuell månad, aktuell dag.|
-|<kbd>Ctrl</kbd>+<kbd>Vänsterpil</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Vänsterpil</kbd>)|Flytta till föregående dag.|
-|<kbd>Ctrl</kbd>+<kbd>Högerpil</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Högerpil</kbd>)|Flytta till nästa dag|
-|<kbd>Ctrl</kbd>+<kbd>Uppil</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>uppil</kbd>)|Flytta till föregående vecka, samma dag i veckan.|
-|<kbd>Ctrl</kbd>+<kbd>Nedpil</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Nedpil</kbd>)|Flytta till nästa vecka, samma dag i veckan.|
+|<kbd>Vänsterpil</kbd><br /><br />(<kbd>Vänsterpil</kbd>)|Flytta till föregående dag.|
+|<kbd>Högerpil</kbd><br /><br />(<kbd>Högerpil</kbd>)|Flytta till nästa dag|
+|<kbd>Uppil</kbd><br /><br />(<kbd>Uppil</kbd>)|Flytta till föregående vecka, samma dag i veckan.|
+|<kbd>Nedpil</kbd><br /><br />(<kbd>Nedpil</kbd>)|Flytta till nästa vecka, samma dag i veckan.|
 |<kbd>Skriv in</kbd>|Välj fokuserat datum.|
-|<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Stäng kalendern och ta bort aktuellt datum.|
+|<kbd>Slut</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Stäng kalendern och ta bort aktuellt datum.|
 |<kbd>Esc</kbd>|Stäng kalendern utan markering, och behåll aktuellt datum.|
 |<kbd>Page Down</kbd>|Flytta till nästa månad|
 |<kbd>Page Up</kbd>|Flytta till föregående månad|  

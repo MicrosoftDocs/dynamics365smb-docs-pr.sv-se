@@ -1,21 +1,21 @@
 ---
-title: 'Genomgång: Genomföra en försäljningskampanj'
+title: Genomgång av att genomföra en försäljningskampanj
 description: Den här genom gången innehåller en detaljerad översikt över alla aktiviteter som ingår i en försäljningskampanj i Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Genomgång: Genomföra en försäljningskampanj
+# Genomgång av att genomföra en försäljningskampanj
 
 En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En viktig del när man planerar en kampanj är att välja målgrupp för kampanjen. Av den anledningen skapar du ett segment, eller en grupp med kontakter, med hjälp av filter i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Du använder dessa funktioner i Försäljning och marknadsföring för att noggrant planera dina marknadsaktiviteter och hantera dina aktiviteter med kontakter och kunder. Du kan skapa kampanjer och lägga upp segment för utskick och andra typer av aktiviteter med dina kontakter och eventuella kunder.  
 
- Med kampanj- och segmentfunktionerna och tillhörande automatiserade processer kan du planera, organisera och hålla ordning på dina marknadsaktiviteter. Det kommer att öka dina möjligheter att vinna nya kunder och behålla befintliga kunder.  
+ Med kampanj- och segmentfunktionerna och tillhörande automatiserade processer kan du planera, organisera och hålla ordning på dina marknadsaktiviteter. Det ökar dina möjligheter att vinna nya kunder och behålla befintliga kunder.  
 
 ## Om den här genomgången
 
@@ -47,7 +47,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 
  Marknadsföringsassistenten på marknadsföringsavdelningen ansvarar för att ta fram, distribuera och placera ut marknadsföringsmaterial.  
 
- Företaget har precis lanserat en ny produkt som heter Rome Guest Chair. Produkten visades nyligen upp på en mässa, Office Futurus. Många kunder visade stort intresse för produkten och de kunder som köpte Rome Guest Chair under kampanjen erbjöds ett särskilt kampanjpris.  
+ Företaget har lanserat en ny produkt som heter Rome Guest Chair. Produkten visades nyligen upp på en mässa, Office Futurus. Många kunder visade stort intresse för produkten och de kunder som köpte Rome Guest Chair under kampanjen erbjöds ett särskilt kampanjpris.  
 
  En av marknadsföringsassistentens uppgifter efter mässan är att registrera alla potentiella kunder som kontakter.  
 
@@ -67,7 +67,7 @@ En kampanj är alla typer av aktiviteter som inkluderar flera kontakter. En vikt
 4. Välj fältet **Statuskod** och välj statuskoden "1-PLAN". 
 5. Fyll i fälten **Startdatum** och **Slutdatum** för kampanjen.  
 
-## Välja målgrupp
+## Välja ut målgrupp
 
  Marknadsföringschefen skapar ett segment för att välja kontakter som de kan arbeta med.  
  
@@ -115,7 +115,7 @@ Sidan **Segment** innehåller nu en lista med kontakter baserat på det filter s
 1. På sidan **Segment** väljer du åtgärden **Segment**.
 2. Välj åtgärden **Gå tillbaka**.
 
-Kontakter, som du precis tog bort, läggs tillbaka till listan med kontakter.
+Kontakter, som du tog bort, läggs tillbaka till listan med kontakter.
 
 ## Länka ett segment till en kampanj
 
@@ -193,7 +193,7 @@ Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_
 8. På sidan **Logga segment** avmarkerar du kryssrutan **Skicka bilagor**. Tryck på **OK** för att bekräfta meddelandet om att segmentet har loggats.  
   
 ## Se även  
-[Kundhantering](marketing-relationship-management.md)  
+[Relationshantering](marketing-relationship-management.md)  
  [Genomgång av affärsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

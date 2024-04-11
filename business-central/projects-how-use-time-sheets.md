@@ -13,11 +13,11 @@ ms.custom: bap-template
 ---
 # Använd tidrapporter
 
-Denna arrtikel beskriver dur du använder tidrapporter för att spåra frånvaro samt för att spåra tid och resurser som ägnas åt ett projekt. Med tidsspårning kan du identifiera problem tidigt och undvika fördröjningar eller överskridna kostnader. Med tidrapporter kan en resurs enkelt rapportera tidsförbrukning för en enskild anställd eller en maskin, så att cheferna enkelt kan granska förbrukningen och dess fördelning. 
+Denna arrtikel beskriver dur du använder tidrapporter för att spåra frånvaro samt för att spåra tid och resurser som ägnas åt ett projekt. Med tidsspårning kan du identifiera problem tidigt och undvika fördröjningar eller överskridna kostnader. Med tidrapporter kan en resurs enkelt rapportera tidsförbrukning för en enskild anställd eller en maskin, så att cheferna enkelt kan granska förbrukningen och dess fördelning.
 
-Du kan kopiera och använda dina projektplaneringsrader i en tidrapport. På så sätt får du bara ange informationen på ett ställe och radinformationen är alltid korrekt. För mer information, gå till [Så här kopierar du projektplaneringsrader till en tidrapport](#copy-job-planning-lines-to-a-time-sheet).
+Du kan kopiera och använda dina projektplaneringsrader i en tidrapport. På så sätt får du bara ange informationen på ett ställe och radinformationen är alltid korrekt. För mer information, gå till [Så här kopierar du projektplaneringsrader till en tidrapport](#copy-project-planning-lines-to-a-time-sheet).
 
-När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i den aktuella projektjournalen eller resursjournalen. Mer information finns i [Så här bokför du tidrapportrader i en projektjournal](#post-time-sheet-lines-in-a-job-journal) och [Så här bokför du tidrapportrader i en resursjournal](#post-time-sheet-lines-in-a-resource-journal).
+När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i den aktuella projektjournalen eller resursjournalen. Mer information finns i [Så här bokför du tidrapportrader i en projektjournal](#post-time-sheet-lines-in-a-project-journal) och [Så här bokför du tidrapportrader i en resursjournal](#post-time-sheet-lines-in-a-resource-journal).
 
 Innan du kan använda tidrapporter måste du ställa in allmän information och ange en administratör och en eller flera godkännare av tidrapporter. Om du vill ha mer information om hur du konfigurerar tidrapporter går du till [Konfigurera tidrapporter](projects-how-setup-time-sheets.md).  
 
@@ -26,7 +26,7 @@ Innan du kan använda tidrapporter måste du ställa in allmän information och 
 
 ## Skapa tidrapporter
 
-Du kan använda sidan **Skapa tidsrapporter** för att skapa tidrapporter för angivna tidperioder eller veckor. Sedan kan tidrapportsägaren öppna den och registrera tid som spenderas på en aktivitet. Du kan också [schemalägga batchprojektet så att det körs automatiskt](ui-work-report.md#ScheduleReport).  
+Du kan använda sidan **Skapa tidsrapporter** för att skapa tidrapporter för ett angivet antal tidperioder eller veckor. Sedan kan tidrapportsägaren öppna den och registrera tid som har spenderats på en aktivitet. Du kan också [schemalägga batchprojektet så att det körs automatiskt](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Du måste ha behörighet för att skapa tidrapporter. Om du vill veta mer om behörigheter går du till [Konfigurera tidrapporter](projects-how-setup-time-sheets.md).
@@ -76,13 +76,13 @@ Om din tidrapportsinformation är samma från tidsperiod till tidsperiod kopiera
 2. Öppna tidrapporten för en period senare än perioden för en befintlig tidrapport med rader.  
 3. Välj åtgärden **Kopiera rader från föregående tidrapport**.
 
-Raderna kopieras med uppgifter som till exempel typ och beskrivning. Till exempel om raden är relaterad till ett projekt, kopieras **Projektnr** . Alla kopierade rader har statusen **Öppen**. Du kan nu ändra raderna efter behov.
+Raderna kopieras med uppgifter som till exempel typ och beskrivning. Till exempel om raden är relaterad till ett projekt, kopieras **projektnr.** är kopierad. Alla kopierade rader har statusen **Öppen**. Du kan nu ändra raderna efter behov.
 
 ## Kopiera projektplaneringsrader till en tidrapport
 
 Nedan beskrivs hur du skapar snabbt lägger till projektplaneringsrader i en tidrapport.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **Tidrapporter** och välj sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikonen, ange **Tidrapporter** och välj sedan relaterad länk.  
 2. På sidan **Tidrapporter** väljer du en tidrapport för relevant tidsperiod.  
 3. Välj åtgärden **Skapa rader från projektplanering**. Vissa projektplaneringsrader i tidrapporttidsperioden kopieras till tidrapporten för den personen eller maskinen i fältet **Resursnr.** på tidrapporten.
 
@@ -161,14 +161,14 @@ När du har godkänt eller avvisat en tidrapport kan den inte ändras om den int
 3. På sidan **Tidrapport** väljer du åtgärden **Öppna igen** och väljer sedan åtgärden **Alla inskickade rader** för att öppna alla rader igen, eller åtgärden **Enbart valda rader** för att endast öppna de rader igen som valts på sidan **Tidrapport**.
 4. Välj knappen **OK**. Statusen för tidrapportraden eller raderna ändras till **Skickat**.  
 
-## Visa och godkänn tidrapporter per projekt
+## Visa och godkänna tidrapporter per projekt
 
 För ett projekt kan du ange en person som är ansvarig för projektet. Denna informationen är kopplad till tidrapportrader. Länken ger projektledarna en lista över de tidrapporter som ska godkännas. Teamprojektledaren kan till exempel vara ansvarig för vissa projekt i företaget. I så fall bör ledaren utses till **Ansvarig person** på projektkortssidan. Denna vy över tidrapportsinformation visar projektuppgifterna som är kopplade till ett projekt och antalet använda timmar.
 
 > [!NOTE]
 > För att kunna godkänna tidrapporter på sidan **Tidrapport för chef efter projekt** måste du först markera ett alternativ för **Tidrapport per projektgodkännande** i fönstret **Resursinställning**. Om du vill ha mer information om hur du konfigurerar godkännanden för resurser går du till [Skapa resurser](projects-how-setup-resources.md).
 
-### Godkänn eller avvisa en tidrapport per projekt
+### Godkänn eller avvisa en tidrapport för projekt
 
 1. I rutan **Sök**, ange **Tidrapporter för chef efter projekt** och välj sedan relaterad länk. [!INCLUDE[prod_short](includes/prod_short.md)] visar en lista över tidrapportrader som är kopplade till de projekt som du har ansvar för.
 2. Välj åtgärden **Godkänn** och välj sedan åtgärden **Alla skickade rader** för att godkänna alla rader eller åtgärden **Enbart valda rader** för att endast godkänna de rader som har valts på sidan **Tidrapport**.
@@ -193,11 +193,11 @@ När du har godkänt tidrapportsposter för en resurs, kan du bokföra dem i den
 5. Välj åtgärden **Bokföra**.  
 6. Om du vill bekräfta bokföringen väljer du åtgärden **Transaktioner**. Sidan **Resurstransaktioner** öppnas och visar resultatet av att bokföra resursjournalen.
 
-## Bokföra tidrapportrader i en projektjournal
+## Bokför tidrapportrader i en projektjournal
 
-När du har godkänt tidrapportsposter för ett projekt, kan du bokföra dem i den aktuella projektjournalen.
+När du har godkänt tidrapportsposter för en projekt, kan du bokföra dem i den aktuella projektjournalen.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Jobbjournaler** och väljer sedan relaterad länk.  
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projektjournaler** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Föreslå rader från tidrapporter**.  
 3. På sidan **Föreslå projektjournalrader** fyller du i fälten efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 4. Välj **OK**. Transaktioner för förbrukning skapas i projektjournalen, där du kan ändra informationen efter behov.  
@@ -227,6 +227,5 @@ När du bokför tidrapporter kan du arkivera dem för framtida referens. Du mås
 [Inköp](purchasing-manage-purchasing.md)  
 [Försäljning](sales-manage-sales.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

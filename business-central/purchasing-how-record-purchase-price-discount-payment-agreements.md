@@ -17,7 +17,7 @@ ms.service: dynamics-365-business-central
 
 De olika pris- och rabattavtalen som gäller när artiklar köps in från olika leverantörer måste definieras så att de överenskomna reglerna och värdena används i de inköpsdokument som du skapar för leverantören.
 
-När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[prod_short](includes/prod_short.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader. Mer information finns i [bästa prisberäkning](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
+När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[prod_short](includes/prod_short.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i projekt och artikeljournalrader. Mer information finns i [bästa prisberäkning](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 När det gäller priser kan du infoga ett särskilt inköpspris på inköpsrader, om en viss kombination av leverantör, artikel, minsta kvantiteten, måttenhet eller start-/slutdatum finns.
 
@@ -55,7 +55,7 @@ Eftersom inköpsradrabatter och inköpspriser baseras på en kombination av arti
 
 ## Om du vill definiera en radrabatt för en leverantör
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
+1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Leverantörer** och väljer sedan relaterad länk.
 2. Öppna det relevanta leverantörskortet och välj sedan åtgärden **Radrabatter.**.
 
    Fältet **Inköpsleverantörsnr** är förifyllt med leverantörsnumret.
@@ -117,7 +117,7 @@ Du kan ange att fakturarabatterna för offerter, avropsorder, order, fakturor el
 
 ## Bästa prisberäkning
 
-När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[prod_short](includes/prod_short.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i artikeljournalrader.
+När du har registrerat särskilda priser och radrabatter för försäljning och inköp, ser [!INCLUDE[prod_short](includes/prod_short.md)] till att din vinst på artikelhandel alltid är optimal genom att automatiskt beräkna det bästa priset på försäljnings- och inköpsdokument och i projekt och artikeljournalrader.
 
 Det bästa priset är det lägsta tillåtna priset med den högsta tillåtna radrabatten för ett visst datum. [!INCLUDE[prod_short](includes/prod_short.md)] beräknar automatiskt priset när du skriver in enhetspriset och radrabattens procentsats för artiklar på nytt dokument och journalrader.
 

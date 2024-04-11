@@ -1,16 +1,16 @@
 ---
-title: Beräkning för inköp
+title: Beräkna datum för inköp
 description: I den här artikeln beskrivs hur du beräknar datum för inköp.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'purchase order, purchase, date, receipt, delivery, lead time'
 ms.search.forms: null
-ms.date: 10/28/2022
+ms.date: 04/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Beräkning för inköp
+# Beräkna datum för inköp
 
 Om du vill ha varor i lager ett visst datum, [!INCLUDE[prod_short](includes/prod_short.md)] kan automatiskt räkna ut vilket datum du måste beställa dem. 
 
