@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Inbyggda ekonomiska rapporter i Business Central
+# <a name="built-in-finance-reports-in-business-central"></a>Inbyggda ekonomiska rapporter i Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen. 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Skapa kostnadsbudgetar](finance-create-cost-budgets.md)  
 [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  

@@ -9,7 +9,7 @@ ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Arbeta med avropsorder eller inköpsavropsorder
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeta med avropsorder eller inköpsavropsorder
 
 En avropsorder utgör ramen för en långsiktig överenskommelse mellan företaget och en kund. På samma sätt använder du inköpsavropsorder för att hantera långsiktiga avtal mellan dig och leverantören.
 
@@ -22,7 +22,7 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 > [!NOTE]
 > Inköpsavropsorder fungerar på samma sätt som en försäljningsavropsorder. Den här dokumentationen visar endast försäljningsavropsorder.
 
-## Så här skapar du en avropsorder
+## <a name="to-create-a-blanket-sales-order"></a>Så här skapar du en avropsorder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningsavropsorder** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.  
@@ -30,7 +30,7 @@ Ett exempel på en situation där en avropsorder kan användas är om en kund be
 4. Låt fältet **Orderdatum** vara tomt. När separata försäljningsorder skapas från avropsordern anges orderdatum för försäljningsordern som det aktuella arbetsdatumet.
 5. På snabbfliken **Rader** skapar du separata rader för varje utleverans. Om kunden t. ex. beställer 1 000 enheter jämnt fördelade över fyra veckor skapar du fyra separata rader med 250 enheter på varje rad.  
 
-## Så här skapar du en försäljningsorder från en avropsorder  
+## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Så här skapar du en försäljningsorder från en avropsorder
 
 1. Om du vill skapa en order för någon av raderna i försäljningsavropsorder tar du bort antalet i fältet **Levereras antal** för alla de rader som du inte vill leverera just nu.  
 2. När du vill börja skapa order väljer du åtgärden **Skapa order** och väljer sedan **Ja**. Du får ett meddelande om att avropsordern har tilldelats ett ordernummer. Observera att avropsordern inte har tagits bort.  
@@ -49,7 +49,7 @@ Följande gäller försäljningsorder, när de har skapats från försäljningsa
 - Den fakturerade försäljningsavropsordern finns kvar i systemet tills den tas bort, antingen genom att enskilda avropsorder tas bort eller att batch-jobbet **Ta bort fakturerade försäljningsavropsorder** körs.  
 - Om en kund dessutom har registrerats som en kontakt i modulen Marknadsföring, och om en interaktionsmallkod har angetts för avropsorder på sidan **Marknadsföringsinställning** registreras en interaktion i tabellen Interaktionslogg när du väljer **Skriv ut** för att skriva ut avropsordern.
 
-## Så här visar du status för en avropsorder
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Så här visar du status för en avropsorder
 
 Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik för försäljningsavropsorder**. Detta kan vara praktiskt när du börjar fakturera ordern som skapats utifrån försäljningsavropsorder.  
 
@@ -62,7 +62,7 @@ Du kan visa statusen för en försäljningsavropsordern på sidan **Statistik f�
 - På snabbfliken **Förskottsbetalning** visas översiktsinformation om eventuella förskottsbetalda belopp.  
 - På snabbfliken **Leverantör** visas viss grundläggande information om leverantören.
 
-## Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Så här väljer du att visa ej bokförda och bokförda försäljningsavropsorderrader
 
 Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljningsordern och eventuella övriga försäljningsdokument, bibehålls när du har bokfört som en lista över bokförda och ej bokförda fakturarader för försäljningsorder.  
 
@@ -88,7 +88,7 @@ Kopplingen mellan avropsordern, försäljning och den ursprungliga försäljning
 
 5. På sidan **Försäljningsrader** väljer du åtgärden **Visa dokument** för att visa transaktionen.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Skapa monteringsavropsorder](assembly-how-to-create-blanket-assembly-orders.md)  

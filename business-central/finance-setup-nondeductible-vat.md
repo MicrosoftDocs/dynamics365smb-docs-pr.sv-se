@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Ställ in ej avdragsgill moms
+# <a name="set-up-nondeductible-vat"></a>Ställ in ej avdragsgill moms
 
 Ej avdragsgill moms är den moms som betalas av en inköpare, men det är inte avdragsgill från köparens egen momsskuld. Företag kan vanligtvis återställa moms på inköp av varor och tjänster som hör till deras affärsaktiviteter. I vissa fall ådrar sig dock en verksamhet moms som inte är avdragsgill. Dessa situationer är vanligtvis relaterade till lokala bestämmelser och kan skilja sig åt mellan länder/regioner. Modellen för användning av ej avdragsgill eller delvis avdragsgill moms är emellertid densamma. Du kan använda proportionell moms för att beräkna moms när det finns avdragsgill och ej avdragsgill moms.
 
@@ -26,7 +26,7 @@ Eftersom det kan vara svårt att veta var och hur en artikel används bör du ko
 > [!IMPORTANT]
 > Denna globala funktion är tillgänglig i alla länder med aktiverad moms **förutom Belgien, Italien och Norge**. De här lokaliseringarna har redan befintlig lokal funktion och kommer att uppgraderas i framtiden. Kör inte den här funktionen i dessa länder eftersom uppgraderingsproceduren inte finns.
 
-## Använd ej avdragsgill moms
+## <a name="use-nondeductible-vat"></a>Använd ej avdragsgill moms
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Momsinställningar** och väljer sedan relaterad länk.
 2. Markera kryssrutan **Aktivera ej avdragsgill moms**.
@@ -41,7 +41,7 @@ Eftersom det kan vara svårt att veta var och hur en artikel används bör du ko
     3. Markera kryssrutan **Använd för projektkostnad** om du vill ange att den ej avdragsgilla momsen måste läggas till projektkostnaderna när du köper in artiklar för projektet. Annars kommer inte den ej avdragsgilla momsen att påverka projektkostnaden och hela beloppet registreras endast på redovisningsnivå.
     4. Markera kryssrutan **Visa ej avdragsgill moms på rader** för att ange att den ej avdragsgilla momsen måste visas på dokumentradsidor för enklare manipulering av momsbelopp.
 
-## Använd den ej avdragsgilla momsprocenten
+## <a name="use-the-nondeductible-vat-percentage"></a>Använd den ej avdragsgilla momsprocenten
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Bokföringsinställningar för moms** och väljer sedan relaterad länk.
 2. På sidan **Bokföringsinställningar för moms** anger du fälten enligt beskrivningen i följande tabell.
@@ -62,7 +62,7 @@ Eftersom det kan vara svårt att veta var och hur en artikel används bör du ko
 >
 > Använd inte samma värde för **Momsidentifierare** för både vanlig moms där fältet **Ej avdragsgill moms %** anges till **0** (noll) och vanlig moms där fältet **Ej avdragsgill moms %** anges till ett värde som inte är noll. Annars kommer det totala ej avdragsgilla momsbeloppet att beräknas felaktigt.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomihantering](finance.md)  
 [Designdetaljer: Icke-avdragsgill moms](design-details-nondeductible-vat.md)  

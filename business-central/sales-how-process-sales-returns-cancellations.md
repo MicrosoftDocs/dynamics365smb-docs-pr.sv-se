@@ -10,7 +10,7 @@ ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Behandla försäljningsreturer eller annulleringar
+# <a name="process-sales-returns-or-cancellations"></a>Behandla försäljningsreturer eller annulleringar
 
 Om en kund vill returnera artiklar eller få återbetalning för artiklar eller tjänster du har sålt och få betalning för detta, måste du skapa och bokföra en försäljningskreditnota som anger begärd ändring. Om du vill inkludera rätt fakturainformation kan du göra följande uppgifter:  
 
@@ -29,7 +29,7 @@ Bokföringen av kreditnota återställer även eventuella kostnader som har till
 > [!NOTE]
 > De bokföringsaspekter som gäller för försäljningsreturer, till exempel betalningar till kunder som återbetalning, betraktas som bokföringsarbete och beskrivs inte här. Mer information finns i [Hantera leverantörsskulder](payables-manage-payables.md).
 
-## Skapa en ny försäljningskreditnota från en bokförd försäljningsfaktura.  
+## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Skapa en ny försäljningskreditnota från en bokförd försäljningsfaktura.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokförda försäljningsfakturor** och väljer sedan relaterad länk.  
 2. På sidan **Bokförda försäljningsfakturor** väljer du den bokförda försäljningsfakturan som du vill återföra och väljer åtgärden **Avbryt** och åtgärden **Skapa korrigerande kreditnota**.
@@ -52,7 +52,7 @@ Dialogrutan **Bekräftelse för bokför och utskick** öppnas och visar kundens 
 
 De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återförs nu, och en betalningsåterbetalning kan skapas för kunden. Försäljningskreditnotan tas bort och ersätts med ett nytt dokument i listan över bokförda försäljningskreditnotor.
 
-## Skapa en ny försäljningskreditnota genom att kopiera en bokförd försäljningsfaktura.
+## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Skapa en ny försäljningskreditnota genom att kopiera en bokförd försäljningsfaktura.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **försäljningskreditnotor** och väljer sedan relaterad länk.
 2. Välj åtgärden **Ny** för att öppna en ny tom försäljningskreditnota.
@@ -64,7 +64,7 @@ De bokförda försäljningsdokumenten som du vill koppla kreditnotan till återf
 8. Välj **OK**. De kopierade fakturaraderna infogas i säljkreditnotan.
 9. Slutför försäljningskreditnotan enligt vad som förklaras i [Att skapa en försäljningskreditnota från en bokförd försäljningsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## Så här skapar du ett förs. tillägg
+## <a name="to-create-a-sales-allowance"></a>Så här skapar du ett förs. tillägg
 Du kan skicka en kreditnota med ett prisavdrag till en kund om de varor som levererats till kunden är skadade eller om artiklarna inte levererades i tid.  
 Du kan bokföra det reducerade priset som en artikelomkostnad i en kreditnota eller en returorder och koppla den till den bokförda leveransen. Följande tabell beskriver en försäljningskreditnota, men samma steg gäller för en försäljningsreturorder.
 
@@ -80,7 +80,7 @@ Du kan bokföra det reducerade priset som en artikelomkostnad i en kreditnota el
 
 När du bokför försäljningsreturordern läggs förs.tillägget till det aktuella försäljningstransaktionsbeloppet. På det här sättet kan du hålla lagervärderingen aktuell.
 
-## Så här kombinerar du returinleveranser
+## <a name="to-combine-return-receipts"></a>Så här kombinerar du returinleveranser
 Du kan kombinera returinleveranser om kunden returnerar flera artiklar som finns på olika försäljningsreturorder.  
 
 När artiklarna tas emot i lagret bokför du aktuella förs.returorder som mottagna. Bokförda returinleveranser upprättas.  
@@ -89,7 +89,7 @@ När du är klar att fakturera kunden kan du, i stället för att fakturera varj
 
 Om du vill kombinera inleveranser måste kryssrutan **Samlingsfakturering** markeras på sidan **Kundkort**.  
 
-### Så här kombinerar du returinleveranser manuellt  
+### <a name="to-manually-combine-return-receipts"></a>Så här kombinerar du returinleveranser manuellt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **försäljningskreditnotor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**.
@@ -103,7 +103,7 @@ Om du vill kombinera inleveranser måste kryssrutan **Samlingsfakturering** mark
 6.  Om du har markerat fel leveransrad eller om du vill börja om kan du ta bort raderna på kreditnotan och köra funktionen **Hämta returinleveransrader** på nytt.  
 7.  Bokföra fakturan  
 
-### Så här kombinerar du returinleveranser automatiskt
+### <a name="to-automatically-combine-return-receipts"></a>Så här kombinerar du returinleveranser automatiskt
 
 Du kan ange att returinleveranser ska kombineras automatiskt och dessutom välja att bokföra kreditnotor automatiskt med hjälp av funktionen **Samlingsreturnering**.  
 
@@ -112,7 +112,7 @@ Du kan ange att returinleveranser ska kombineras automatiskt och dessutom välja
 3. Markera kryssrutan **Bokför kreditnotor**. I annat fall måste du manuellt bokföra de resulterande inköpskreditnotorna.
 4. Välj knappen **OK**.  
 
-### Så här tar du bort en inlevererad och fakturerad returorder
+### <a name="to-remove-a-received-and-invoiced-return-order"></a>Så här tar du bort en inlevererad och fakturerad returorder
 
 När du fakturerar returinleveranser på det här sättet finns de returorder som returinleveranserna bokfördes från kvar, även om de har tagits emot och fakturerats i sin helhet.  
 
@@ -124,7 +124,7 @@ När returinleveranser har kombinerats på en kreditnota och bokförts, skapas e
 
 Du kan också ta bort enskilda försäljningsreturorder manuellt.  
 
-## Lagerkostnad
+## <a name="inventory-costing"></a>Lagerkostnad
 
 Om du vill behålla rätt lagervärdering vill du vanligtvis föra tillbaka de returnerade artiklarna i lagret till den styckkostnad som de såldes för, inte till deras aktuella styckkostnad. I programmet kallas detta för exakt kostnadsåterföring.
 
@@ -139,7 +139,7 @@ För att tilldela exakt kostnadsåterföring manuellt, måste du välja fältet 
 
 Mer information finns i [Designdetaljer: Lagerkostnad](design-details-inventory-costing.md)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Försäljning](sales-manage-sales.md)  
 [Konfigurera försäljning](sales-setup-sales.md)  

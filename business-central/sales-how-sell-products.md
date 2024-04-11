@@ -11,7 +11,7 @@ ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Sälja produkter med en kundförsäljningsreturorder
+# <a name="sell-products-with-a-customer-sales-order"></a>Sälja produkter med en kundförsäljningsreturorder
 
 Artikeln ger vägledning till användare om du bör använda en kundorder utöver en faktura. Om din försäljningsprocess kräver att du bara skickar en del av en order, kanske för att hela kvantiteten inte är tillgänglig direkt, måste du bearbeta den försäljningen genom att göra en försäljningsorder.
 
@@ -23,7 +23,7 @@ I företagsmiljöer där kunden betalar direkt, till exempel genom PayPal eller 
 
 Du kan även skapa direktbetalade order för icke-registrerade kunder genom att definiera ett ”kontant” kundkort som du refererar till på försäljningsorder. Läs mer i [Så här skapar du Kontantkunder](finance-how-to-set-up-cash-customers.md).
 
-## Skapa en försäljningsorder
+## <a name="create-a-sales-order"></a>Skapa en försäljningsorder
 
 > [!NOTE]  
 > Följande procedur förutsätter att kunden redan har ställts in. Instruktioner om hur du gör det finns i [Registrera nya kunder](sales-how-register-new-customers.md).
@@ -87,17 +87,17 @@ Dialogrutan **Bokför och skicka bekräftelse** visar kundens standardmetod för
 
 Relaterade artiklar och kundtransaktionerna skapas nu i systemet, och försäljningsorder matas ut som ett PDF-dokument. När försäljningsordern bokförs helt tas den bort från listan över listan med försäljningsorder och nya dokument i försäljningsfakturor och försäljningsförsändelser.  
 
-## Externt dokumentnummer
+## <a name="external-document-number"></a>Externt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Arbeta med beloppsfält
+## <a name="working-with-amount-fields"></a>Arbeta med beloppsfält
 
 Värdena i fälten som visar belopp kan vara positiva eller negativa, beroende på om värdet motsvarar en kredit eller debet. Den här videon visar hur du arbetar med fält som visar belopp.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Fakturera försäljning](sales-how-invoice-sales.md)  
 [Bokföra försäljning](ui-post-sales.md)  

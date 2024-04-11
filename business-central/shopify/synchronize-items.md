@@ -11,7 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Synkronisera artiklar och lager
+# <a name="synchronize-items-and-inventory"></a>Synkronisera artiklar och lager
 
 **Artiklar** i [!INCLUDE[prod_short](../includes/prod_short.md)] motsvarar *produkter* i Shopify, som innefattar fysiska varor, digitala nedladdningar, tjänster och presentkort som du säljer. Det finns två huvudsakliga anledningar till att synkronisera artiklarna:
 
@@ -22,7 +22,7 @@ De två föregående scenarierna är alltid aktiverade.
 
 Ett tredje scenario är att hantera data i Shopify men importera dessa artiklar till [!INCLUDE[prod_short](../includes/prod_short.md)]. Det här scenariot kan vara användbart för datamigreringshändelser när en befintlig online-butik måste vara ansluten till en ny [!INCLUDE[prod_short](../includes/prod_short.md)] miljö.
 
-## Definiera artikelsynkronisering
+## <a name="define-item-synchronizations"></a>Definiera artikelsynkronisering
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butik**. Öppna en butik som du vill konfigurera synkronisering av artiklar för.
 2. Från fältet **Synkronisera artikel** väljer du det alternativ som efterfrågas.
@@ -38,7 +38,7 @@ Ett tredje scenario är att hantera data i Shopify men importera dessa artiklar 
 > [!NOTE]
 > När du ändrar **Synkroniseringsartikel** från **Från Shopify** till **Till Shopify** har ingen effekt om du inte aktiverar **Kan uppdatera Shopify-produkter**. 
 
-## Importera artiklar från Shopify
+## <a name="import-items-from-shopify"></a>Importera artiklar från Shopify
 
 Importera först artiklar från Shopify antingen i bulk eller tillsammans med order för att lägga till dem i tabellerna **Shopify-produkt** och **Shopify-variant**. Mappa sedan importerade produkter och varianter till artiklar och varianter i [!INCLUDE[prod_short](../includes/prod_short.md)]. Hantera processen med följande inställningar:
 
@@ -53,7 +53,7 @@ Importera först artiklar från Shopify antingen i bulk eller tillsammans med or
 |**Måttenhet som variant**| Välj det här alternativet om du vill att alla artikelenheter ska exporteras som separata varianter. Lägg till fält med anpassning. Läs mer i avsnittet [Måttenhet som variant](synchronize-items.md#unit-of-measure-as-variant).|
 |**Alternativnamn för variant för måttenhet**| Använd det här fältet med **UoM som variant** för att ange under vilket alternativ du lägger till varianter som representerar måttenheter. Standardvärdet är *Måttenhet*. Lägg till fält med anpassning.|
 
-## Exportera artiklar till Shopify
+## <a name="export-items-to-shopify"></a>Exportera artiklar till Shopify
 
 Det finns flera sätt att exportera objekt till Shopify: 
 
@@ -85,9 +85,9 @@ Du hanterar processen att exportera objekt med dessa inställningar:
 > [!NOTE]
 > När du vill exportera många artiklar och varianter kan det finnas några som är spärrade. Du kan inte inkludera spärrade artiklar och varianter i prisberäkningar, så de exporteras inte. Anslutningsprogrammet hoppar över dessa objekt och varianter, så du behöver inte filtrera dem på sidan för **Lägg till objekt i Shopify**-begäran.
 
-## Avancerade detaljer
+## <a name="advanced-details"></a>Avancerade detaljer
 
-### Påverkan av Shopify produkt-SKU:er och streckkoder för att mappa och skapa artiklar och varianter i Business Central
+### <a name="effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central"></a>Påverkan av Shopify produkt-SKU:er och streckkoder för att mappa och skapa artiklar och varianter i Business Central
 
 När produkter importeras från Shopify till tabellerna **Shopify-produkter** och **Shopify-varianter** försöker [!INCLUDE[prod_short](../includes/prod_short.md)] att hitta befintliga poster.
 
@@ -111,7 +111,7 @@ I följande tabell beskrivs effekten av fältet **Streckkod**.
 > [!NOTE]  
 > Du kan utlösa mappning för de valda produkterna/varianterna genom att välja **Försök hitta produktmappning** eller alla importerade omappade produkter genom att välja **Försök att hitta mappningar**.
 
-### Översikt över fältmappning
+### <a name="fields-mapping-overview"></a>Översikt över fältmappning
 
 |Shopify|Källan när den exporteras från [!INCLUDE[prod_short](../includes/prod_short.md)]|Mål när den importeras till [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
@@ -137,12 +137,12 @@ I följande tabell beskrivs effekten av fältet **Streckkod**.
 |Momskoder|**Momsgruppskod**. Endast relevant för moms. Läs mer i [Ställa in moms](setup-taxes.md).|Inte använd.|
 
 
-### Taggar
+### <a name="tags"></a>Taggar
 
 Granska importerade taggar i faktaboxen **Taggar** på sidan **Shopify produkt**. På samma sida, för att redigera taggar, välj åtgärden **Taggar**.
 Om alternativet **Till Shopify** har valts i fältet **Synkronisera artikel** exporteras tilldelade taggar till Shopify vid nästa synkronisering.
 
-### Måttenhet som variant
+### <a name="unit-of-measure-as-variant"></a>Måttenhet som variant
 
 Shopify stöder inte flera måttenheter. Om du vill sälja samma produkt som till exempel styck och ange och använda olika priser eller rabatter måste du skapa måttenhet som produktvarianter.
 Shopify anslutningsprogrammet kan konfigureras för att exportera måttenheter som varianter eller importera varianter som måttenhet.
@@ -155,15 +155,15 @@ Om du vill aktivera den här funktionen använder du fälten **UoM som variant**
 * När du har att göra med matris av varianter, till exempel Färg och Måttenhet och du vill importera produkter, bör du ställa in *Artikelnr. + Variantkod* i fältet **SKU-mappning** och se till att **SKU** i Shopify har samma värde för alla måttenheter och inkluderar både artikelnr och variantkod.
 * I [!INCLUDE[prod_short](../includes/prod_short.md)] tillgänglighet beräknas per artikel/artikelvariant och inte per måttenhet. Det betyder att samma tillgänglighet kommer att tilldelas varje variant som representerar måttenhet (avseende **Antal per måttenhet**), som kan leda till fall då tillgänglig kvantitet i Shopify inte är korrekt. Exempel: Artikel som säljs i STYCK och låda om 6. Inventeringen i [!INCLUDE[prod_short](../includes/prod_short.md)] är 6 st. Artikel exporterad till Shopify som Produkt med två varianter. När lagersynkroniseringen har utförts kommer lagernivån i Shopify kommer att vara 6 för variant STYCK och 1 för variant KARTONG. Köparen kan bara utforska, lagra och se att produkten är tillgänglig i båda alternativen och beställa för 1 KARTONG. Nästa köpare kommer att se att KARTONG inte är tillgänglig, men det finns fortfarande 6 st. Detta kommer att åtgärdas efter med nästa lagersynkronisering.
 
-### URL och förhandsgransknings-URL
+### <a name="url-and-preview-url"></a>URL och förhandsgransknings-URL
 
 Ett objekt som läggs till i Shopify eller importeras från Shopify kan **URL:en** eller **Förhandsgransknings-URL** ifylld. Fältet **URL** är tomt om produkten inte publiceras i onlinebutiken, till exempel på grund av att dess status är utkast. **URL** är tom om butiken är lösenordsskyddad, till exempel eftersom det här är utvecklingsbutik. I de flesta fall kan du använda **förhandsgransknings-URL** för att kontrollera hur produkten kommer att se ut när den har publicerats.
 
-## Kör atikelsynkronisering
+## <a name="run-item-synchronization"></a>Kör atikelsynkronisering
 
 Fullständig eller delvis synkronisering av artiklar kan utföras på många olika sätt.
 
-### Inledande synkronisering av artiklar från Business Central till Shopify
+### <a name="initial-sync-of-items-from-business-central-to-shopify"></a>Inledande synkronisering av artiklar från Business Central till Shopify
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-produkter** och välj relaterad länk.
 2. Välj åtgärden **Lägg till artiklar**.
@@ -179,7 +179,7 @@ Alternativt kan du synkronisera ett objekt genom att välja åtgärd **Lägg til
 > [!NOTE]  
 > Inledande synkronisering av objekt från [!INCLUDE[prod_short](../includes/prod_short.md)] till Shopify överväger inte **Synkronisera objekt** och **Kan uppdatera Shopify-produkter**-inställningar. 
 
-### Synkronisera produkter från Shopify till Business Central
+### <a name="sync-products-from-shopify-to-business-central"></a>Synkronisera produkter från Shopify till Business Central
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj den butik som du vill synkronisera artiklar för och öppna sidan **Shopify-butikskort**.
@@ -189,7 +189,7 @@ Alternativt kan du använda åtgärden **Synkronisera produkter** på sidan **Sh
 
 Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Läs mer i [Schemalägg återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
-### Ad-hoc-uppdateringar av Shopify-produkter
+### <a name="ad-hoc-updates-of-shopify-products"></a>Ad-hoc-uppdateringar av Shopify-produkter
 
 När posterna uppdateras i tabellen **Shopify-produkt** synkroniseras följande ändringar med Shopify.
 
@@ -207,7 +207,7 @@ Baserat på värdet i **Åtgärd för borttagna produkter** på sidan **Shopify-
 * **Status till Utkast** – statusen för produkten i Shopify anges till *Utkast*.
 * **Status till Arkiverad** – produkten arkiveras i Shopify.
 
-## Synkronisera artikelbilder
+## <a name="sync-item-images"></a>Synkronisera artikelbilder
 
 Synkronisering av bilder kan konfigureras för synkroniserade artiklar. Välj mellan följande alternativ:
 
@@ -217,24 +217,24 @@ Synkronisering av bilder kan konfigureras för synkroniserade artiklar. Välj me
 
 Synkronisering av bilder kan initieras på två sätt som beskrivs nedan.
 
-### Synkronisera produktbilder från sidan Shopify-butik
+### <a name="sync-product-images-from-the-shopify-shop-page"></a>Synkronisera produktbilder från sidan Shopify-butik
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butiker** och välj relaterad länk.
 2. Välj den butik som du vill synkronisera bilder för och öppna sidan **Shopify-butikskort**.
 3. Välj åtgärden **Synkronisera produktbilder**.
 
-### Synkronisera produktbilder från sidan Shopify-produkter
+### <a name="sync-product-images-from-the-shopify-products-page"></a>Synkronisera produktbilder från sidan Shopify-produkter
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-produkter** och välj relaterad länk.
 2. Välj åtgärden **Synkronisera produktbilder**.
 
-### Anmärkningar om bildsynkronisering
+### <a name="image-synchronization-remarks"></a>Anmärkningar om bildsynkronisering
 
 * När du exporterar bilder från [!INCLUDE[prod_short](../includes/prod_short.md)] till Shopify ersätter bilderna de som du exporterade tidigare. De tidigare bilderna är inte längre tillgängliga.
 * Om du tar bort en bild i [!INCLUDE[prod_short](../includes/prod_short.md)] tas inte bilden i Shopify också bort. Du måste ta bort de gamla bilderna i **Shopify-administratören** manuellt.
 * Bilder som du exporterar till Shopify måste uppfylla Shopify-kraven. Annars kan du inte importera dem. Mer information om mediekrav finns i [Typer av produktmedia på help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
-## Synkronisera priser med Shopify
+## <a name="sync-prices-with-shopify"></a>Synkronisera priser med Shopify
 
 Du hanterar processen att exportera priser med dessa inställningar:
 
@@ -249,25 +249,25 @@ Du hanterar processen att exportera priser med dessa inställningar:
 
 Priser kan exporteras för synkroniserade artiklar på två sätt som beskrivs nedan.
 
-### Synkronisera priser från sidan Shopify-produkter
+### <a name="sync-prices-from-the-shopify-products-page"></a>Synkronisera priser från sidan Shopify-produkter
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-produkter** och välj relaterad länk.
 2. Välj åtgärden **Synkronisera priser med Shopify**.
 
-### Anmärkningar om prisberäkning
+### <a name="price-calculation-remarks"></a>Anmärkningar om prisberäkning
 
 * När du fastställer ett pris använder [!INCLUDE[prod_short](../includes/prod_short.md)] logiken ”Lägsta pris”. Den lägsta pris logiken ignorerar emellertid det a-pris som har definierats på artikelkortet om ett pris har definierats i prisgruppen. Detta gäller även om a-priset från artikelns kortpris inte är lägre.
 * För att beräkna priser skapar kopplingen en tillfällig försäljningsoffert för artikeln med antal 1 och använder logik för standard prisberäkning. Endast priser och rabatter som gäller för antal 1 används. Du kan inte exportera olika priser eller rabatter baserat på kvantitet.
 * Anslutningen skickar en begäran om att uppdatera priserna Shopify om pris i [!INCLUDE[prod_short](../includes/prod_short.md)] har förändrats. Till exempel om du har synkroniserat produkter och priser och sedan ändrat pris i Shopify, att välja åtgärden **Synkronisera priser till Shopify** kommer inte att ha någon inverkan på priset i Shopify som nytt pris beräknat av kontakten är detsamma som priset lagrat i Shopify variant från tidigare synkronisering. **Jämför pris** uppdateras endast om huvudpriset har ändrats. 
 
-## Synkronisera lager med Shopify
+## <a name="sync-inventory-to-shopify"></a>Synkronisera lager med Shopify
 
 Lagersynkronisering kan konfigureras för artiklar som redan synkroniserats. Två villkor måste uppfyllas:
 
 1. Lagerspårning måste aktiveras för en produkt i Shopify. Om artiklar exporteras till Shopify bör du överväga att aktivera reglaget **Lager spårat** på sidan **Shopify-butik**. Mer information finns i avsnittet [Exportera artiklar till Shopify](synchronize-items.md#export-items-to-shopify)
 2. Lagersynkronisering måste aktiveras för **Shopify-platser**.
 
-### Aktivera lagersynkronisering
+### <a name="to-enable-inventory-sync"></a>Aktivera lagersynkronisering
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butik** och välj relaterad länk.
 2. Välj den butik som du vill synkronisera lager för och öppna sidan **Shopify-butikskort**.
@@ -279,18 +279,18 @@ Lagersynkronisering kan konfigureras för artiklar som redan synkroniserats. Tv�
 
 Du kan starta lagersynkronisering på de två sätt som beskrivs nedan.
 
-### Synkronisera lager från sidan Shopify-butik
+### <a name="sync-inventory-from-the-shopify-shop-page"></a>Synkronisera lager från sidan Shopify-butik
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-butiker** och välj relaterad länk.
 2. Välj den butik som du vill synkronisera lager för och öppna sidan **Shopify-butikskort**.
 3. Välj åtgärden **Synkronisera lager**.
 
-### Synkronisera lager från sidan Shopify-produkter
+### <a name="sync-inventory-from-the-shopify-products-page"></a>Synkronisera lager från sidan Shopify-produkter
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta vad du vill göra") och ange **Shopify-produkter** och välj relaterad länk.
 2. Välj åtgärden **Synkronisera lager**.
 
-### Lageranmärkningar
+### <a name="inventory-remarks"></a>Lageranmärkningar
 
 * Det finns två standardmetoder för lagerberäkning: **Projekterats tillgängligt saldo t.o.m. datum** och **Fritt lager (ej reserverat)**. Med utökning kan du lägga till fler alternativ. Om du vill veta mer om utökning, gå till [exempel](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * Du kan inspektera lagerinformationen från Shopify på sidan **Faktabox om Shopify-lager**. I den här faktaboxen får du en översikt över Shopify-lagret och det senast beräknade lagret i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finns en post per plats.
@@ -298,7 +298,7 @@ Du kan starta lagersynkronisering på de två sätt som beskrivs nedan.
 * När du lägger till ett nytt lagerställe i Shopify måste du också lägga till lagerposter för det. Shopify gör det inte automatiskt för befintliga produkter och varianter och anslutningsprogram kommer inte att synkronisera lagernivåer för sådana artiklar på det nya lagerstället. Om du vill ha mer information går du till [tilldela lager till lagerställen](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 * Både **Effektueringstjänsten Business Central** och vanliga lagerställen stöds och kan användas för leverans och lager.
 
-#### Exempel på beräkning av planerad disponibel balans
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Exempel på beräkning av planerad disponibel balans
 
 Det finns 10 delar av artikeln som finns tillgängliga i handen och två utestående försäljningsorder. En för måndagen med kvantiteten *en* och en för torsdag med kvantitet *två*. Beroende på när du synkroniserar lager, uppdateras lager nivån i Shopify med olika antal:
 
@@ -307,7 +307,7 @@ Det finns 10 delar av artikeln som finns tillgängliga i handen och två utestå
 |Tisdag|9|Lager 10 minus försäljningsorder som levereras till måndag|
 |Fredag|7|Lager 10 minus både försäljningsorder|
 
-### Två metoder för att hantera uppfyllanden
+### <a name="two-approaches-to-manage-fulfillments"></a>Två metoder för att hantera uppfyllanden
 
 Det finns två sätt att hantera uppfyllandet i Shopify:
 * Shopify "inbyggd" uppfyllande och lagerspårning
@@ -327,13 +327,13 @@ Ur [!INCLUDE[prod_short](../includes/prod_short.md)] perspektivet när du skapar
 * använd växlingsknappen **Standardlagerställe för produkt** för att ange om den här artikeln ska uppfyllas genom Shopify uppfyllelse eller med 3PL. Det finns alltid **Business Central uppfyllelsetjänst**, men det kan finnas fler uppfyllelsetjänster om fler appar installeras. Du kan bara aktivera **Standardlagerställe för produkt** i en post om du vill använda uppfyllelsetjänsten. 
 * Använd växlingsknappen **Standardlagerställe för produkt** för att ange vilka lagerställen du vill använda för att spåra lager. Du kan aktivera **Standardlagerställe för produkt** för flera lagerställen där **Är uppfyllelsetjänst** är inaktiverad. Observera att lagret alltid spåras för primär plats. 
  
-#### Vad är skillnaden?
+#### <a name="what-is-the-difference"></a>Vad är skillnaden?
 
 Shopify uppfyllelse är användbart när du använder Shopify POS och det finns flera fysiska butiker. Du vill att anställda i fysisk butik ska känna till sitt aktuella lager. I det här fallet skapar du flera lagerställen i Shopify, flera lagerställen i [!INCLUDE[prod_short](../includes/prod_short.md)], aktiverar **Standardlagerställe för produkt** för alla dessa lagerställen.  
 
 Om logistik hanteras i [!INCLUDE[prod_short](../includes/prod_short.md)] där du kan ha så många platser som behövs som representerar distributionscentraler. Du skapar inte platser i Shopify, Shopify-anslutningsprogram skapar automatiskt uppfyllelsetjänster i Business Central och du kan koppla inventering via platsfilter från flera platser till en post för uppfyllningstjänster. Som ett resultat i Shopify finns det ingen information om var varor skickas från, det har bara information om spårning. Medan du är i [!INCLUDE[prod_short](../includes/prod_short.md)] kan du välja baserat på tillgänglighet och närhet till destinationen. 
 
-#### Exempel på hur du använder växlingsknappen Standardlagerställe för produkt
+#### <a name="example-of-using-default-product-location-toggle"></a>Exempel på hur du använder växlingsknappen Standardlagerställe för produkt
 
 När du har valt åtgärden **Hämta Shopify-platser** på sidan **Shopify-platser** visas följande platser:
 
@@ -352,6 +352,6 @@ Låt oss granska effekten av att aktivera växlingsknappen Standardlagerställe 
 |Business Central uppfyllelsetjänst|Lager kommer att lagras på: Business Central uppfyllelsetjänst; Valda platser: (App) Business Central uppfyllelsetjänst|
 |Business Central uppfyllelsetjänst och huvud| Fel: Det går inte att använda standardlagerställena för Shopify uppfyllelsetjänst|
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Kom igång med kopplingen för Shopify](get-started.md)  

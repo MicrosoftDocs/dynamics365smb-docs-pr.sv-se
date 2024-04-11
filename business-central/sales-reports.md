@@ -9,14 +9,14 @@ ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Försäljningsrapporter och analys i Business Central
+# <a name="sales-reports-and-analytics-in-business-central"></a>Försäljningsrapporter och analys i Business Central
 
 Med försäljningsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] kan försäljnings- och affärspersonal få insikter och statistik om aktuella och tidigare försäljningsaktiviteter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Uppgifter
+## <a name="tasks"></a>Uppgifter
 
 I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
 
@@ -24,7 +24,7 @@ I följande artiklar beskrivs några av de viktigaste uppgifterna för att analy
 * [Visa artikeldisposition](inventory-how-availability-overview.md)
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  

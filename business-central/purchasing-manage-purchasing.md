@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Inköp
+# <a name="purchasing"></a>Inköp
 
 Du skapar en inköpsfaktura eller inköpsorder för att registrera kostnaden för inköp och för att spåra leverantörsskulder. Om du vill kontrollera ett lager används inköpsfakturor också för att uppdatera lagernivåer dynamiskt, så att du kan minimera lagerkostnader och ge bättre service. Inköpskostnaderna, inklusive serviceutgifter, och lagervärde som kommer från bokföring av inköpsfakturor bidrar till vinstsiffror och övriga ekonomiska nyckeltal i rollcentret.
 
@@ -38,11 +38,11 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Lösa problem när det finns två eller flera poster för samma leverantör.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 |Hantera ditt engagemang för en leverantör för att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
 
-## Externa dokumentnummer
+## <a name="external-document-numbers"></a>Externa dokumentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  

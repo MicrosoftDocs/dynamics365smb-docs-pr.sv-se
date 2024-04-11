@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Konfigurera Copilot- och AI-funktioner 
+# <a name="configure-copilot-and-ai-capabilities"></a>Konfigurera Copilot- och AI-funktioner
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -37,12 +37,12 @@ Den här artikeln förklarar hur du åtkomst till Copilot och andra AI-funktione
 
 Om något av dessa krav inte uppfylls kan funktionen inte användas.-->
 
-## Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
 
 - Du använder Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Du har administratörs- eller superbehörighet i Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Tillåt dataförflyttning mellan geografiska områden
+## <a name="allow-data-movement-across-geographies"></a>Tillåt dataförflyttning mellan geografiska områden
 
 Den här uppgiften gäller endast om växeln **Tillåt dataförflyttning** visas längst upp på sidan **Copilot och AI-funktioner**. Om länken **Hur styr jag mina copilot-data?** visas istället för knappen **Tillåt dataförflyttning**, hoppa över detta steg.
 
@@ -79,7 +79,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## Aktivera funktioner
+## <a name="activate-features"></a>Aktivera funktioner
 
 Alla Copilot- och AI-funktioner är aktiva som standard när de görs tillgängliga i förhandsvisning eller blir allmänt tillgängliga. Med sidan **Copilot och-funktioner** kan du aktivera eller inaktivera enskilda funktioner igen för alla användare.
 
@@ -95,7 +95,7 @@ Alla Copilot- och AI-funktioner är aktiva som standard när de görs tillgängl
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## Enable feature in Feature Management
+## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -108,7 +108,7 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## Bevilja användaråtkomst
+## <a name="granting-user-access"></a>Bevilja användaråtkomst
 
 Copilot- och AI-funktioner kan erbjuda funktionalitet avsedd för alla användare i din organisation eller för specifika användarroller. De flesta Copilot- och AI-funktioner erbjuder åtkomstkontroll med hjälp av behörigheter och behörighetsuppsättningar i Business Central behörighetshanteringssystem. [Läs mer om behörigheter och behörighetsuppsättningar](ui-define-granular-permissions.md).
 
@@ -123,7 +123,7 @@ I följande tabell visas de behörigheter som krävs för att använda Copilot-f
 
 För att bevilja eller neka åtkomst till specifika Microsoft copilot- och AI-funktioner  som inte är Microsoft, läs dokumentationen eller rådfråga utgivaren av den funktionen för att identifiera vilka behörigheter som krävs.
 
-## Nästa steg
+## <a name="next-steps"></a>Nästa steg
 
 När du har aktiverat och godkänt funktionerna är du redo att prova dem. Gå till:
 
@@ -132,7 +132,7 @@ När du har aktiverat och godkänt funktionerna är du redo att prova dem. Gå t
 - [Chatt med Copilot](chat-with-copilot.md)
 - [Stämma med bankkontoavstämningshjälp](bank-reconciliation-with-copilot.md)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Felsöka Copilot- och AI-funktioner](ai-copilot-troubleshooting.md)  
 [Vanliga frågor och svar om analyshjälp](faqs-analysis-assist.md)  
