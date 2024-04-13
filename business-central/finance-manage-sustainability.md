@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Översikt över hållbarhetshantering
+# <a name="sustainability-management-overview"></a>Översikt över hållbarhetshantering
 
 >[!IMPORTANT]
 >Den här funktionen kommer att vara tillgänglig i Business Central från **utgivningscykel 1 2024** och alla referenslänkar aktiveras när de är tillgängliga.
@@ -43,7 +43,7 @@ När du vill börja med hållbarhetshantering, se följande artiklar.
 |Så här registrerar du utsläpp | Använd den här artikeln för att lära dig hur du arbetar med alla typer av hållbarhetsjournaler. |
 
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)    
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
