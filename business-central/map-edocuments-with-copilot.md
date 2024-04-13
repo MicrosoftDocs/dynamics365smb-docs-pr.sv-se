@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Mappa e-dokument mot inköpsorderrader med Copilot (förhandsversion)
+# Mappa e-dokument mot inköpsorderrader med Copilot (förhandsversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Du kan nu uppdatera en befintlig inköpsorder i Business Central med den informa
 > - AI-generated content may be incorrect.-->
 
 
-## <a name="identify-purchase-orders"></a>Identifiera inköpsorder
+## Identifiera inköpsorder
 
 Först kan du identifiera de inköpsorder som du kan matcha automatiskt.
 
-## <a name="map-lines"></a>Definitionsrader
+## Definitionsrader
 
 Copilot hjälper dig att automatiskt matcha e-fakturarader med inköpsorderrader och erbjuder extra matchningsinformation för att förbättra matchningarna.
 
 När de har matchats och mappats uppdaterar Business Central den matchade inköpsordern med relevant inleveransinformation för att säkerställa att rätt antal tas emot på orderraderna.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Översikt över e-dokument](finance-edocuments-overview.md)  
 [Använda e-dokument vid försäljning och inköp](finance-how-use-edocuments.md)  

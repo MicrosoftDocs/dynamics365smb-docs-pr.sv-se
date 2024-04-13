@@ -10,7 +10,7 @@ ms.date: 08/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Kombinera inleveranser på en enda faktura
+# Kombinera inleveranser på en enda faktura
 
 Om du vill fakturera mer än en inleverans i taget kan du välja flera inleveransrader på inköpsfakturan.  
 
@@ -21,7 +21,7 @@ När inleveranser kombineras på en faktura och bokförs, skapas en bokförd ink
 > [!NOTE]
 > Det går inte att korrigera eller annullera den resulterande inköpsfakturan senare. Om du vill ändra en inköpsfaktura som skapas på det här sättet måste du använda inköpskreditnotor. Mer information finns i [Korrigera eller annullera obetalda inköpssfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
-## <a name="to-combine-receipts"></a>Så här kombinerar du inleveranser:
+## Så här kombinerar du inleveranser:
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsfakturor** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Mer information finns i [Registrera inköp](purchasing-how-record-purchases.md).  
@@ -31,7 +31,7 @@ När inleveranser kombineras på en faktura och bokförs, skapas en bokförd ink
     Om du har valt en ogiltig rad, eller du måste börja om från början, behöver du bara ta bort raderna från fakturan och köra funktionen **Hämta inleveransrader** på nytt.  
 5. Om du vill bokföra fakturan väljer du åtgärden **Bokför**.  
 
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Så här tar du bort öppna inköpsorder efter kombinerad inleveransbokföring
+## Så här tar du bort öppna inköpsorder efter kombinerad inleveransbokföring
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Ta bort fakturerade inköpsorder** och väljer sedan relaterad länk.  
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -41,7 +41,7 @@ Du kan också ta bort enskilda order manuellt.
 
 Upprepa steg 1 till 3 för alla andra berörda dokument, till exempel inköpsavropsorder.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Inköp](purchasing-manage-purchasing.md)  
 [Korrigera eller makulera obetalda inköpsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

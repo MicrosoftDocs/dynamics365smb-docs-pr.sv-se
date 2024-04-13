@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="e-documents-overview"></a>Översikt över e-dokument
+# Översikt över e-dokument
 
 Elektroniska dokument (e-dokument) är ryggraden i moderna affärstransaktioner. De omfattar viktiga dokument, såsom fakturor och kvitton i båda riktningarna (leverans och kvitto). De lägger också till funktioner för dokumentstatusrelaterade meddelanden mellan åtkomstpunkter.
 
@@ -32,7 +32,7 @@ Dokumentationen förklarar e-dokument i detalj. Den visar appens funktioner och 
 | [Konfigurera anslutningsprogrammet för e-dokument med externa slutpunkter](finance-how-setup-edocuments-external.md) | Lär dig hur du använder externa åtkomstpunkter för automatisering vid leverans och mottagning av dina e-dokument. |
 | [Utbyta data elektroniskt](across-data-exchange.md) | Lär dig hur du använder ramverket för dataintegrering för att hantera utbytet av data i affärsdokument som bankfiler och valutakurser. | 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ekonomihantering](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

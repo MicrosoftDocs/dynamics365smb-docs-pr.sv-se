@@ -469,8 +469,10 @@ ms.service: dynamics-365-business-central
 ### [Hantera ekonomisk rapportering mellan affärsenheter eller juridiska personer](finance-consolidated-company-reporting.md)
 <!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
-### Ekonomisk rapportering (implementering av finansiella rapporter och nyckeltal)
+### Ekonomisk rapportering (implementering av finansiella rapporter och KPI:er)
 #### [Förbereda ekonomisk rapportering](bi-how-work-account-schedule.md)
+#### [Raddefinitioner i ekonomisk rapportering](bi-row-definitions.md)
+#### [Kolumndefinitioner i ekonomisk rapportering](bi-column-definitions.md)
 #### [Genomgång: Använda ekonomisk rapportering för att utföra kassaflödesprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Konfigurera och publicera en KPI-webbtjänst som baseras på ekonomisk rapportering](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analysera data med statistiska konton](bi-use-statistical-accounts.md)
@@ -1049,6 +1051,7 @@ ms.service: dynamics-365-business-central
 
 ### Island
 #### [Lokala funktioner i den isländska versionen](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Konfiguration av kärnappen Island W1](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### Moms
 ##### [Skriva ut information om momssammanfattning på dokument](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Särskilda utdata och rapporter för skattemyndigheten](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### Allmänt  
 ##### [Mappa IRS-nummer till kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Ta bort bokförda fakturor och kreditnotor](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Registreringsnummer i den isländska lokaliseringen](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### Indien
 #### [Översikt](LocalFunctionality/India/india-local-functionality.md)
