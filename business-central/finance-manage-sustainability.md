@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 02/12/2024
+ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Översikt över hållbarhetshantering
+# Översikt över hållbarhetshantering
 
 >[!IMPORTANT]
 >Den här funktionen kommer att vara tillgänglig i Business Central från **utgivningscykel 1 2024** och alla referenslänkar aktiveras när de är tillgängliga.
@@ -38,13 +38,16 @@ När du vill börja med hållbarhetshantering, se följande artiklar.
 
 |  Artikel  |  Beskrivning  |  
 |--------|--------------| 
-|Hållbarhetskonfiguration | Den här artikeln innehåller information som hjälper dig att korrekt konfigurera hela hållbarhetsmodulen. |
-|Diagram över hållbarhetskonton och redovisning | Den här artikeln innehåller information om hur du korrekt ställer in Kontoplan för hållbarhetskonton, kontokategorier och underkategorier och hur du analyserar information i hållbarhetstransaktioner. |
-|Så här registrerar du utsläpp | Använd den här artikeln för att lära dig hur du arbetar med alla typer av hållbarhetsjournaler. |
+|[Hållbarhetskonfiguration](finance-sustainability-setup.md) | Den här artikeln innehåller information som hjälper dig att korrekt konfigurera hela hållbarhetsmodulen. |
+|[Diagram över hållbarhetskonton och redovisning](finance-sustainability-accounts-ledger.md) | Den här artikeln innehåller information om hur du korrekt ställer in Kontoplan för hållbarhetskonton, kontokategorier och underkategorier och hur du analyserar information i hållbarhetstransaktioner. |
+|[Hur du registrerar utsläpp av växthusgaser](finance-sustainability-journal.md) | Använd den här artikeln för att lära dig hur du arbetar med alla typer av hållbarhetsjournaler. |
 
 
-## <a name="see-also"></a>Se även
-[Ekonomi](finance.md)    
+## Se även  
+[Hållbarhetskonfiguration](finance-sustainability-setup.md) 
+[Diagram över hållbarhetskonton och redovisning](finance-sustainability-accounts-ledger.md) 
+[Hur du registrerar utsläpp av växthusgaser](finance-sustainability-journal.md)
+[Ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

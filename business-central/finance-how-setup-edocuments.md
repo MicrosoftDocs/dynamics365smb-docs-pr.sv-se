@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 10/05/2023
+ms.date: 03/29/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -73,7 +73,7 @@ Om du inte använder formatet **datautbytesdefinition** kan du skapa och konfigu
 
 ### Dokumenttyper som stöds 
 
-Dokumenttyper som stöds baseras på det valda **dokumentformatet**. För att kontrollera vilka dokumenttyper som stöds, på sidan **E-dokumenttjänst**, kör åtgärden **Dokumenttyper som stöds**. **E-dokumenttjänst som stöds källdokumenttyper** öppnas och i kolumnen **Källdokumenttyp** kan du hitta alla de dokumenttyper som stöds.  
+Dokumenttyper som stöds baseras på det valda **dokumentformatet**. För att kontrollera vilka dokumenttyper som stöds, på sidan **E-dokumenttjänst**, välj åtgärden **Dokumenttyper som stöds**. **E-dokumenttjänst som stöds källdokumenttyper** öppnas och i kolumnen **Källdokumenttyp** kan du välja olika dokumenttyper så att de stöds för det format du planerar att använda. Se till att du inte använder dokumenttypen om dokumentet inte är markerat på den här sidan.   
 
 ## Konfigurera en dokumentutskicksprofil
 
@@ -83,7 +83,7 @@ Den här funktionen används för att konfigurera automatisering av elektronisk 
 
 Följ dessa steg för att ställa in en dokumentutskicksprofil.
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") ange **Dokumentutskicksprofil** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Dokumentutskicksprofil** och väljer sedan relaterad länk.
 2. På sidan **Dokumentutskicksprofiler** väljer du **Ny**.
 3. Ange nödvändig information i fälten på snabbfliken **Allmänt**.
 4. Konfigurera fälten enligt beskrivningen i följande tabell på snabbfliken **Utskicksalternativ**.
@@ -101,10 +101,10 @@ Följ dessa steg för att ställa in en dokumentutskicksprofil.
 
 Följ de här stegen om du vill konfigurera arbetsflödet som används i e-dokumentfunktioner.
 
-1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Arbetsflödesmallar** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflödesmallar** och väljer sedan relaterad länk.
 2. Om du inte hittar sidan **Arbetsflödesmallar för e-dokument** eller **Arbetsflödesmallar**, välj **Återställ Microsoft-maller**. **Arbetsflödesmallar för e-dokument** bör då visas. Stäng sidan.
 3. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Arbetsflöden** och väljer sedan relaterad länk.
-4. Kör åtgärden **Nytt arbetsflöde från mall** för att välja en för e-dokumentprocessen. De tillgängliga mallarna är **Skicka till en tjänst** och **Skicka till flera tjänster**.
+4. Välj åtgärden **Nytt arbetsflöde från mall** för att välja en för e-dokumentprocessen. De tillgängliga mallarna är **Skicka till en tjänst** och **Skicka till flera tjänster**.
 5. Välj **OK** för att slutföra konfigurationen av arbetsflödet.
 6. I fältet **Då svar** väljer du **Skicka e-dokument med inställningarna** för att konfigurera arbetsflödessvaren.
 7. Välj den e-dokumenttjänst som du skapade som ett alternativ, välj **OK** och aktivera sedan arbetsflödet.
@@ -122,13 +122,28 @@ E-dokument kan omfattas av olika lokala lagar som är relaterade till den period
 
 Så här konfigurerar du kvarhållningsprinciper för e-dokument.
 
-1. På sidan **E-dokumenttjänster** kör du åtgärden **Bevarandeprincip**.
+1. På sidan **E-dokumenttjänster** väljer du åtgärden **Bevarandeprincip**.
 2. När åtgärden har slutförts väljer du någon av följande kvarhållningsprinciper att konfigurera:
 
     - E-dokumentlogg
     - Integrationslogg för e-dokument
     - Mappningslogg för e-dokument
     - Datalagring för e-dokument
+
+## Demodata för e-dokument  
+
+> [!NOTE]
+> Från Business Central version 24.0 är det möjligt att ställa in demodata för e-dokument.
+
+För att ge enklare sätt att testa och demonstrera funktioner i **E-dokument** skapade Microsoft en ny demomodul för elektroniska dokument. Följ stegen för att aktivera den här modulen:  
+
+1.  Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Contoso demonstrationsverktyg** och väljer sedan relaterad länk.  
+2.  Innan du aktiverar **Contoso-modulen för e-dokument** måste du på grund av beroenden ha aktiverat följande moduler: **Gemensam modul** och **Distributionslagermodul**. 
+3.  När du har aktiverat dessa moduler väljer du **Contoso-modulen för e-dokumen**t och väljer sedan åtgärden **Generera**. 
+4.  Följ stegen.  
+5.  Stäng sidan.   
+
+När du har en aktiverad modul skulle du ha skapat nya demoobjekt, importerat sex elektroniska dokument (baserat på Peppol BIS 3) och redan konfigurerat **E-dokumenttjänst** med skapade arbetsflöden.  
 
 ## Se även
 
