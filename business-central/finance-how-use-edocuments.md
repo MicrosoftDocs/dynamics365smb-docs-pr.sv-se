@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-the-sales-process"></a>Använda e-dokument i försäljningsprocessen
+# Använda e-dokument i försäljningsprocessen
 
 Du kan använda konfigurerade elektroniska dokument (e-dokument) med försäljningsdokument.
 
@@ -25,13 +25,13 @@ Du kan använda följande försäljningsdokument med funktionen för e-dokument:
 - Räntefakturor
 - Påminnelser
 
-## <a name="e-documents-in-sales"></a>E-dokument inom försäljning
+## E-dokument inom försäljning  
 
 Om du vill skapa och skicka en e-faktura till en kund måste du skapa och bokföra försäljningsfakturan. Mer information om standardprocessen finns i [Fakturaförsäljning](sales-how-invoice-sales.md).
 
 När du har bokfört försäljningsdokumentet öppnar du sidan **Bokförd försäljningsfaktura** för att komma åt den relaterade **e-dokumentsidan**.
 
-### <a name="view-e-documents"></a>Se e-dokument
+### Se e-dokument   
 
 Så här visar du befintliga e-dokument.
 
@@ -40,7 +40,7 @@ Så här visar du befintliga e-dokument.
 3. Fältet **Post** visar dokumentnumret för den bokförda försäljningsfakturan. Välj länken för att öppna dokumentet.
 4. I fältet **Status för elektroniskt dokument** kan du visa dokumentets realtidsstatus och dess placering i processpipelinen. Om dokumentet bokförs är statusen **Bearbetat**.
 
-### <a name="e-document-statuses-and-logs"></a>E-dokumentstatusar och loggar
+### E-dokumentstatusar och loggar 
 
 Mer information om servicestatusnivån för ditt e-dokument finns på snabbfliken **Servicestatus för e-dokument**. På raderna visar systemet en eller flera tjänster som dokumentet använt. I det vanligaste scenariot använder varje dokument bara en tjänst. Ett dokument kan dock använda flera tjänster.
 
@@ -64,7 +64,7 @@ Om det finns ett problem med tjänsteleverantören och dokumentet inte kan skick
 
 När problemet har åtgärdats kör du åtgärderna **Skicka dokument** manuellt. Om du behöver olika åtgärder, till exempel **Återskapat dokument**, **Avbryt dokument** eller **Hämta godkännande**, kan du köra dem.
 
-## <a name="overview-of-e-document-statuses"></a>Översikt över status för e-dokument
+## Översikt över status för e-dokument
 
 Om du vill få en bättre överblick över alla e-dokument i företaget kan du välja det rollcenter för **Revisor** där det finns e-dokumentstatus. Där kan du hitta e-dokumentaktiviteter som har följande status:
 
@@ -75,7 +75,7 @@ Om du vill få en bättre överblick över alla e-dokument i företaget kan du v
     - Fel
 
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hur man ställer in e-dokument i Business Central](finance-how-setup-edocuments.md)  
 [Hur man utökar e-dokument i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
