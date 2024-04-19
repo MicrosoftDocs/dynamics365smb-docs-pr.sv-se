@@ -9,7 +9,7 @@ ms.reviewer: ivkoleti
 ms.custom: bap-template
 ---
 
-# Integrera med Microsoft Dynamics 365 Field Service
+# <a name="integrate-with-microsoft-dynamics-365-field-service"></a>Integrera med Microsoft Dynamics 365 Field Service
 
 Serviceorganisationer behöver ett komplett program där ekonomi, lager och inköp är tätt kopplade till tjänsteleverans. De genererar finansiella data med varje transaktion. Varje arbetsorder representerar kostnad och intäkt och varje resurs genererar vinst och förlust. Kundinteraktioner lägger till transaktioner i redovisningen. Integrationen mellan [!INCLUDE [prod_short](includes/prod_short.md)] och [!INCLUDE [field-service-short](includes/field-service-short.md)] effektiviserar hela processen för att hantera serviceåtgärder och säkerställer ett smidigt informationsflöde mellan de två systemen.  
 
@@ -19,27 +19,27 @@ Integrationen underlättar också fakturering och uppfyllande av arbetsorder i [
 
 Genom att integrera [!INCLUDE [prod_short](includes/prod_short.md)] med [!INCLUDE [field-service-short](includes/field-service-short.md)] behöver du inte ange data manuellt eller duplicera ansträngningar. Integrationen ger också en heltäckande bild av serviceverksamheten och ekonomin, vilket möjliggör bättre beslutsfattande och operativ effektivitet.
 
-## Förutsättningar
+## <a name="prerequisites"></a>Förutsättningar
 
 Eftersom [!INCLUDE [field-service-short](includes/field-service-short.md)] bygger på Dynamics 365 Sales måste du [konfigurera en anslutning till Dataverse](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) och [aktivera integrering med Dynamics 365 Sales](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-### Behörigheter och säkerhetsroller för användarkonton
+### <a name="permissions-and-security-roles-for-user-accounts"></a>Behörigheter och säkerhetsroller för användarkonton
 
 När du installerar integreringslösningen konfigureras behörigheter för användarkontot för integrering. Om behörigheterna ändras kan du behöva återställa dem. Detta kan du göra genom att ominstallera integreringslösningen från sidan **Anslutningsinställningar för Dynamics 365** genom att välja **Omdistribuera integreringslösning**. I följande avsnitt visas de behörigheter och säkerhetsroller som lösningen distribuerar för varje app.
 
-#### FÖRS
+#### <a name="sales"></a>FÖRS
 
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]-integreringsadministratör/
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] integreringsanvändare
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]-produktartikelanvändare
 
-#### Business Central
+#### <a name="business-central"></a>Business Central
 
 Användare som bokför projektjournaler måste ha följande behörighetsuppsättning:
 
 * Integration med Dynamics 365 Sales
 
-#### Fältservice
+#### <a name="field-service"></a>Fältservice
 
 Om du vill använda integrerade data måste användarna ha följande säkerhetsroll:
 
@@ -60,7 +60,7 @@ Användare måste till exempel ha den här rollen att koppla arbetsorder till [!
 Du måste ha **läsbehörighet** för tabellen **Anslutning i Dynamics 365 Business Central** (nav_connection).
 Du måste ha **läs**-, **skriv**- och **borttagnings**-behörighet för tabellen **Standardanslutning i Dynamics 365 Business Central** (nav_defaultconnection).
 
-### Andra inställningar i Field Service
+### <a name="other-settings-in-field-service"></a>Andra inställningar i Field Service
 
 På sidan **Field Service-inställningar**, gör följande inställningar:
 
@@ -70,7 +70,7 @@ På sidan **Field Service-inställningar**, gör följande inställningar:
 > [!NOTE]
 > Om du ställer in en anslutning till [!INCLUDE [field-service-short](includes/field-service-short.md)] tas kopplingen mellan resurser och produkter bort. Om du vill göra [!INCLUDE [prod_short](includes/prod_short.md)] artiklar tillgängliga i [!INCLUDE [field-service-short](includes/field-service-short.md)], uppdaterar du fältet **Field Service produkttyp** för att matcha fältet **Typ** för artiklarna i [!INCLUDE [prod_short](includes/prod_short.md)]. Mer information finns i [Skapa en produkt eller tjänst](/dynamics365/field-service/create-product-or-service#create-a-product-or-service).
 
-## Ställ in integrering i Business Central
+## <a name="set-up-the-integration-in-business-central"></a>Ställ in integrering i Business Central
 
 När du har en anslutning till Dataverse och försäljning kan du ställa in integreringen till [!INCLUDE [field-service-short](includes/field-service-short.md)]. På sidan **Assisterad konfiguration** i [!INCLUDE [prod_short](includes/prod_short.md)] väljer du **Konfigurera integrering till Dynamics 365 Field Service** för att köra guiden för assisterad konfiguration. I det här avsnittet beskrivs nyckelinställningarna i guiden.
 
@@ -91,7 +91,7 @@ När du är klar med installationen kör du en fullständig synkronisering från
 * Resurser som inte är blockerade, som inte har **Använd tidrapport** markerat och som har **Timmar** angivna som enhet på sidan **Integreringsinställningar för Dynamics 365 Field Service**.
 * Serviceartiklar (kräver att du använder Premium-upplevelsen i [!INCLUDE [prod_short](includes/prod_short.md)]).
 
-## Standardinställd Field Service enhetsmappning för synkronisering
+## <a name="standard-field-service-entity-mapping-for-synchronization"></a>Standardinställd Field Service enhetsmappning för synkronisering
 
 Grunden för att synkronisera data är att mappa tabeller och fält i [!INCLUDE [prod_short](includes/prod_short.md)] med tabeller och kolumner i Dataverse så att dessa kan utbyta data. Mappning sker via integreringsregister. Mer information om tabellmappningar finns i [Mappa tabeller och fält som ska synkroniseras](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
@@ -103,11 +103,11 @@ Integrering med [!INCLUDE [field-service-short](includes/field-service-short.md)
 * **RESOURCE-BOOKABLERSC** – Mappar resurser i [!INCLUDE [prod_short](includes/prod_short.md)] till bokningsbara resurser i [!INCLUDE [field-service-short](includes/field-service-short.md)].
 * **SVCITEM-CUSTASSET** – (endast Premium-upplevelsen) Mappar serviceartiklar i [!INCLUDE [prod_short](includes/prod_short.md)] till kundtillgångar i [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-## Använda data i båda programmen
+## <a name="use-data-in-both-applications"></a>Använda data i båda programmen
 
 I följande avsnitt beskrivs de funktioner där du kan använda data från [!INCLUDE [prod_short](includes/prod_short.md)] och [!INCLUDE [field-service-short](includes/field-service-short.md)].
 
-### Fältservice
+### <a name="field-service-1"></a>Fältservice
 
 Du kan [skapa **Arbetsorder**](/dynamics365/field-service/create-work-order) med hjälp av **Tjänstkontot** och **Faktureringskontot** från [!INCLUDE [prod_short](includes/prod_short.md)]. På arbetsorder måste du välja **Business Central-projektaktivitet** i fältet **Externt projekt**. Om du väljer ett projekt kan du synkronisera arbetsorderprodukter och -tjänster med lämplig projektuppgift i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -120,7 +120,7 @@ Du kan lägga till artikel av typen service som **Arbetsordertjänster** och hä
 
 Du kan boka en resurs och relatera till **Bokningar** till arbetsordertjänster med hjälp av en **Bokningsbar resurs** från [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### Business Central
+### <a name="business-central-1"></a>Business Central
 
 Beroende på dina inställningar på sidan **Konfigurera Field Service-integration**, när arbetsorder inkluderar produkter och tjänster, överförs förbrukningsinformation och bokförs med hjälp av en **Projektjournal** i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -135,7 +135,7 @@ Använd sidan **Projektplaneringsrader** om du vill spåra bokföring och faktur
 >
 > Du kan skapa en faktura för en artikel av typen **Service** från den fakturerbara projektplaneringsraden och använda projektplaneringsraden för budget för att registrera kostnader med resursen.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Integrera med Microsoft Dataverse via datasynkronisering](admin-common-data-service.md)  
 [Mappa register och fält som ska synkroniseras](admin-how-to-modify-table-mappings-for-synchronization.md)
