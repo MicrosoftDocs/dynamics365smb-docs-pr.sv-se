@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Förstå PIA-metoder](projects-understanding-wip.md)
 ### [Övervaka projektframsteg och resultat](projects-how-monitor-progress-performance.md)
 ### [Fakturera projekt](projects-how-invoice-jobs.md)
+### [Montera till projekt](projects-assemble-to-project.md)
 
 ## Anläggningstillgångar
 ### [Översikt över anläggningstillgångar](fa-manage.md)
