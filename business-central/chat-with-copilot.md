@@ -103,7 +103,7 @@ Prompt: `How does I save my filterrings to do them later?`
 
 I det här exemplet ber du Copilot om vägledning om hur du utför en uppgift i Business Central. Copilot kan vanligtvis förstå avsikten med din fråga, även om det finns några grammatiska fel, stavfel eller förkortningar.
 
-Prompt: `Provide feedback on answers`
+## Ge feedback på svar
 
 Du kan betygsätta svaren du får från Copilot genom att använda gilla-knappen (tummen upp) för bra betyg eller ogilla-knappen (tummen ned) för ett dåligt betyg. När du väljer knappen ogilla kan du välja en anledning, inklusive felaktig, olämplig eller annan. Denna information kan hjälpa oss att förbättra förslagen.
 

@@ -8,11 +8,11 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 03/27/2024
+ms.date: 04/15/2024
 ms.custom: bap-template
 ---
 
-# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Stämma av bankkonton med Copilot (förhandsversion)
+# Stämma av bankkonton med Copilot (förhandsversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ I denna artikel beskrivs hur du använder bankkontoavstämningshjälp för att h
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-bank-account-reconciliation-assist"></a>Om bankkontoavstämningshjälp
+## Om bankkontoavstämningshjälp
 
 Bankkontoavstämningshjälp är en uppsättning AI-drivna funktioner som hjälper dig att stämma av bankkonton. Bankkontoavstämningshjälp ger dig två olika uppgifter via Copilot:
 
@@ -34,16 +34,16 @@ Bankkontoavstämningshjälp är en uppsättning AI-drivna funktioner som hjälpe
 
   För kvarvarande banktransaktioner som inte kan matchas med några transaktioner jämför Copilot transaktionsbeskrivningen med redovisningskontonamn och föreslår det mest sannolika redovisningskontot att bokföra på. Copilot kan till exempel föreslå att transaktioner med berättelsen "Bränslestopp 24" bokförs på kontot "Transport".
   
-   Gå till [Överföra omatchade banktransaktioner till föreslagna redovisningskonton](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
+   Gå till [Boka omatchade banktransaktionsbelopp till föreslagna huvudbokskonton](#post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts).
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar
 
 - Bankkontoavstämningshjälp är aktiverad. Denna uppgift utförs av en administratör. [Läs mer om hur du konfigurerar Copilot- och AI-funktioner](enable-ai.md).
 - Bankkonton i Business Central som du vill stämma av är länkade till ett onlinebankkonto eller konfigurerade med importformat för bankutdrag. 
 - Du är bekant med bankkontoavstämning i Business Central enligt beskrivningen i [Stäm av bankkonton](bank-how-reconcile-bank-accounts-separately.md). 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## <a name="reconcile-bank-accounts-with-copilot"></a>Stäm av bankkonton med Copilot
+## Stäm av bankkonton med Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -87,7 +87,7 @@ Med den här metoden använder du Copilot antingen på en ny bankkontoavstämnin
 1. Granska de föreslagna matchningarna enligt beskrivningen i följande avsnitt. 
 ---
 
-### <a name="review-save-or-discard-proposed-matches"></a>Granska, spara eller ignorera föreslagna matchningar
+### Granska, spara eller ignorera föreslagna matchningar
 
 När du har kört Copilot visas detaljerade resultat i fönstret **Stäm av med Copilot**, inklusive eventuella föreslagna matchningar. Vid denna tidpunkt har inga matchningar som föreslagits av Copilot sparats, så det ger dig möjlighet att inspektera förslagen och spara eller kassera som du vill.
 
@@ -102,7 +102,7 @@ Fönstret Copilot delas upp i två avdelningar. Det övre avsnittet innehåller 
 |Kontoutdragets slutsaldo|Anger det slutsaldo som står på det bankkontoutdrag som du stämmer av med.|
 |Bokför om helt kopplad|Aktivera den här växeln om du vill bokföra bankkontoavstämningen automatiskt när alla rader (100 %) matchas och du har valt **Behåll den**.|
 
-#### <a name="save-or-discard-proposed-matches"></a>Spara eller ignorera föreslagna matchningar
+#### Spara eller ignorera föreslagna matchningar
 
 I avsnittet **Matchade förslag** granskar du de föreslagna matchningarna rad för rad och vidtar sedan lämplig åtgärd:
 
@@ -113,49 +113,48 @@ I avsnittet **Matchade förslag** granskar du de föreslagna matchningarna rad f
 - Om du vill bokföra den fullständigt matchade avstämningen automatiskt när du sparar den aktiverar du reglaget **Bokför om helt kopplad**.  
 - Om du vill spara de matchningar som för närvarande visas i fönstret Copilot väljer du **Behåll**.
 
+## Boka omatchade banktransaktionsbelopp till föreslagna huvudbokskonto
 
-## <a name="post-unmatched-bank-transaction-amounts-to-suggested-general-ledger-accounts"></a>Överföra omatchade banktransaktioner till föreslagna redovisningskonton
-
-I det här avsnittet får du lära dig hur du använder Copilot för att överföra bankkontoutdrag som inte stämts av från bankkontot till ett redovisningskonto. Den här uppgiften kan bara utföras från en befintlig avstämning. 
+I det här avsnittet lär du dig hur du använder Copilot för att bokföra oavstämda bankkontoutdragsradbelopp (anges i fältet **Differens**) till ett redovisningskonto. Den här uppgiften kan bara utföras från en befintlig avstämning.
 
 1. Gå till listan **Bankkontoavstämningar** och öppna den befintliga avstämningen som innehåller de avstämda raderna.
 
    Börja med att öppna en befintlig bankkontoavstämning. Det här steget ger dig en tydlig bild av alla oavstämda kontoutdragsrader som behöver överföras till redovisningskontot.
 
-2. I fönstret **Bankkontoutdragsrader** identifierar du fönstret Bankkontoutdragsrader och markerar en eller flera rader som du vill stämma av.
+1. I fönstret **Bankkontoutdragsrader** identifierar du fönstret Bankkontoutdragsrader och markerar en eller flera rader som du vill stämma av.
 
-   Dessa rader är de kontoutdragsrader som Copilot fokuserar på för överföring till redovisningskontot.
+   Dessa rader är de kontoutdragsrader som Copilot fokuserar på för bokföring av nya betalningar till redovisningskontot.
 
-3. Välj **Överför till redovisningskonto** för att starta processen.
+1. Välj **Bokför skillnaden till redovisningskonto** för att starta processen.
 
-   ![Visar överför till redovisning med copilot-åtgärden på bankkontoavstämningskortet](media/bank-reconciliation-transfer-gl-copilot-card.svg) 
+   ![Visar överför till redovisning med copilot-åtgärden på bankkontoavstämningskortet](media/bank-reconciliation-transfer-gl-copilot-card.png) 
 
-   Det här steget får Copilot att börja generera förslag för överföringen.
+   Det här steget får Copilot att börja generera förslag för att bokföra nya betalningar.
 
-4. När Copilot har genererat förslag öppnas fönstret **Copilot-förslag för överföring av redovisningskonton** redovisningskonton.
+1. När Copilot har genererat förslag öppnas fönstret **Copilot-förslag för bokföring av skillnader till huvudkonton** redovisningskonton.
 
    I det här fönstret visas förslagen i avsnittet **Matchat förslag**. Upplevelsen liknar avstämning med Copilot.
 
    ![Visar sidan för överföring till redovisning med copilot-föreslagna matchningar för bankkontoavstämning](media/bank-reconciliation-gl-transfer-proposed-matches.png) 
 
-5. Granska varje förslag rad för rad för att säkerställa att de föreslagna överföringarna är korrekta.
+1. Granska varje förslag rad för rad för att säkerställa att de föreslagna betalningarna är bokförda.
 
-   - Om du detaljgranskar förslaget genom att välja det i listan kommer du till en lista över konton. Härifrån kan du välja ett annat konto. Den här typen av manuell korrigering är endast möjlig när du använder flödet **Överför till redovisningskonto**, inte i matchande flöde. 
+   - Om du detaljgranskar förslaget genom att välja det i listan kommer du till en lista över konton. Härifrån kan du välja ett annat konto. Den här typen av manuell korrigering är endast möjlig när du använder flödet **Bokför skillnad till redovisningskonto**, inte i matchande flöde. 
    - Om du väljer **Spara...** bredvid ett förslag kan du lägga till mappningen på sidan **Mappa text till konto** så att nästa gång texten visas under matchning mappas den till det föreslagna kontot.
 
-6. Ignorera eller spara förslag.
+1. Ignorera eller spara förslag.
 
    - Om du vill ignorera ett specifikt förslag, välj det i listan och välj sedan **Ta bort rad**. För att kassera alla förslag och avsluta Copilot-fönstret, välj knappen Kasta (papperskorgen) ![Visar papperskorgsikonen för att radera alla Copilot-förslag för bankkontoavstämning](media/copilot-delete-trash-can.png) bredvid knappen **Behåll detta** längst ned i fönstret.
-   
-   - Om förslagen uppfyller dina krav och du vill spara dem väljer du **Behåll detta**. 
+
+   - Om förslagen uppfyller dina krav och du vill spara dem väljer du **Behåll detta**.
 
       Detta steg bekräftar överföringen av de valda förslagen från bankkontot till redovisningskontot. Den bokför nya betalningar på de föreslagna redovisningskontona och kopplar motsvarande rader till de resulterande bankkontotransaktionerna.
 
-## <a name="next-steps"></a>Nästa steg
+## Nästa steg
 
 [Validera bankkontoavstämning](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## <a name="see-also"></a>Se även
+## Se även
 [Felsöka Copilot- och AI-funktioner](ai-copilot-troubleshooting.md)  
 [Ansvarig AI vanliga frågor för bankavstämningshjälp](faqs-bank-reconciliation.md)  
 [Ställa in bankverksamhet](bank-setup-banking.md)  

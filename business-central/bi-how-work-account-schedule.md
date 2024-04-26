@@ -127,6 +127,37 @@ Du kan använda en ekonomisk rapport för att skapa en rapport där redovisnings
 
 Nu kan du kopiera och klistra in budgetutdraget i ett kalkylblad.  
 
+## Integrera ekonomiska rapporter med Excel
+
+Du kan integrera en ekonomisk rapport med en Excel-arbetsboksmall, justera layouten efter behov och sedan uppdatera Excel-mallen med data från [!INCLUDE[prod_short](includes/prod_short.md)]. Den här integrationen gör det till exempel enklare att skapa månads- och årsbokslut i ett format som passar dig.
+
+### Konfigurera Excel-integrering för en ekonomisk rapport (skapa en Excel-mall)
+
+Om du vill konfigurera Excel-integrering för en ekonomisk rapport följer du dessa steg för att skapa en Excel-mall för en rapport.
+
+1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Ekonomisak rapporter** och väljer sedan relaterad länk.
+1. På sidan **Ekonomiska rapporter** väljer du ekonomisk rapport att aktivera med Excel och väljer åtgärden **Exportera till Excel**.
+1. Välj åtgärden **Skapa nytt dokument**. Med den här åtgärden hämtas en Excel-mallarbetsbok med ett enda kalkylblad med samma namn som rapporten.
+1. Kopiera kalkylbladet och byt namn på det till **Data**.
+1. Byt namn på rapportförslaget efter eget tycke.
+1. Markera alla celler som visar data från den ekonomiska rapporten (inklusive kolumn- och radrubriker) i rapportförslaget. I menyfliksområdet **Start** hittar du menyn **Nummer** och väljer **Allmänt** som format.
+1. Markera cellen längst till vänster i området med data från den ekonomiska rapporten och ange en referens till motsvarande cell i kalkylbladet Data. Dra formeln åt höger för att utöka den till alla celler på den första raden och dra sedan raden nedåt så att den täcker alla rader i den ekonomiska rapporten.
+1. Dölj kalkylbladet **Data**.
+1. Formatera rapportförslaget så att det passar dina behov.
+1. Spara arbetsboken i OneDrive, eller på en liknande plats där filen säkerhetskopieras och versionshanteras.
+1. Stäng arbetsboken.
+
+### Köra en ekonomisk rapport med en Excel-mall
+
+Så här kör du en ekonomisk rapport med en Excel-mall:
+
+1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ekonomisak rapporter** och väljer sedan relaterad länk.
+1. På sidan **Ekonomiska rapporter** väljer du ekonomisk rapport att aktivera med Excel och väljer åtgärden **Exportera till Excel**.
+1. Välj åtgärden **Uppdatera kopia av befintligt dokument**.
+1. Ladda upp Excel-mallen (stäng Excel-arbetsboken innan du laddar upp den).
+1. På sidan **Namn/värde-sökning** väljer du kalkylbladet Data.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] kör den ekonomiska rapporten och sammanfogar resulterande data med din Excel-mall.
+
 ## Skriva ut och spara ekonomiska rapporter
 
 Du kan skriva ut ekonomiska rapporter med hjälp av enhetens utskriftstjänster. [!INCLUDE[prod_short](includes/prod_short.md)] ger dig även möjlighet att spara rapporter som Excel-arbetsböcker, Word-arbetsböcker, PDF och XML-filer.
@@ -142,11 +173,12 @@ Du kan skriva ut ekonomiska rapporter med hjälp av enhetens utskriftstjänster.
 
 Du kan spara en ekonomisk rapport som en fil i olika format, till exempel PDF, XML, Word eller Excel. [!INCLUDE[prod_short](includes/prod_short.md)] kan även generera återkommande ekonomiska rapporter.
 
-1. Välj den ![Glödlampa som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta 4.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Ekonomiska rapporter** och väljer sedan relaterad länk.
 1. På sidan **Ekonomiska rapporter** väljer du åtgärden **Skriv ut**.
 1. Ange rapporten i enlighet därmed och välj åtgärden **Skicka till**.
 1. Välj filformat eller åtgärden **Schemalägg** och välj **OK**.
 1. Fyll i fälten om du vill skapa en schemalagd eller återkommande ekonomisk rapport. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>För återkommande ekonomiska rapporter ställer du in fälten **Tidigast startdatum/-tid** och **Förfallodatum/-tid** på det första respektive sista datumet för att generera den ekonomiska rapporten. Välj också vilka dagar rapporten ska skapas genom att ställa in fältet **Datumformel för nästa körning** genom att följa formatet som förklaras i avsnittet [Använd datumformler](ui-enter-date-ranges.md#use-date-formulas).
+
 
 ## Metodtips för att arbeta med definitioner av ekonomiska rapporter
 

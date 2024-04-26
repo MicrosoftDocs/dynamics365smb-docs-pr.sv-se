@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
-ms.date: 12/12/2023
+ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Test funktioner som kan anslutas till andra Microsoft-tjänster
+# Test funktioner som kan anslutas till andra Microsoft-tjänster 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] är en omfattande affärshanteringslösning som är djupt integrerad med Microsoft 365 produktivitetsprogram och Power Platform. Din kostnadsfria testversion av Business Central kan ansluta till många olika Microsoft-tjänster som måste konfigureras och aktiveras först. För att få ut det mesta av din kostnadsfria utvärderingsversion har vissa av dessa funktioner aktiveras automatiskt. Även om anslutningen från [!INCLUDE[prod_short](includes/prod_short.md)] är aktiverad ingår inte dessa tjänster i testversionen och måste köpas separat om du inte redan har dem.
 
@@ -19,10 +19,10 @@ Tabellen nedan visar anslutningarna till Microsoft-tjänster som har aktiveras a
 
 |Servicenamn|Anslutningen aktiveras automatiskt |Tjänsten kontaktas när du loggar in på Business Central |Exempelfunktion som använder den här tjänsten | Lär dig hur du hanterar den anslutning och de funktioner som använder den|  
 |------------|-------------|--------|------------|-------------|
-|Microsoft Teams|Ja|Nej|**Dela till Teams**-åtgärd på **artikel** kort |[Hantera Teams-integrering med Business Central](admin-teams-integration.md)|  
-|Microsoft OneDrive för företag|Ja|Nej|**Öppna i OneDrive** åtgärd på **objekt** bilagor |[Hantera OneDrive integrering med Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Ja|Nej|**Automatisera** åtgärder på **artikel** kort |[Konfigurera Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
-| Microsoft Azure OpenAI Automate |Ja |Nej|**Copilot (förhandsversion)** |[Konfigurera marknadsföringstext för AI-baserad artikel med Copilot](enable-ai.md)|
+|Microsoft Teams|Ja|Nr|**Dela till Teams**-åtgärd på **artikel** kort |[Hantera Teams-integrering med Business Central](admin-teams-integration.md)|  
+|Microsoft OneDrive för företag|Ja|Nr|**Öppna i OneDrive** åtgärd på **objekt** bilagor |[Hantera OneDrive integrering med Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
+| Microsoft Power Automate |Ja|Nr|**Automatisera** åtgärder på **artikel** kort |[Konfigurera Power Automate integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+| Microsoft Azure OpenAI Service |Ja |Nr|**Copilot** |[Konfigurera marknadsföringstext för AI-baserad artikel med Copilot](enable-ai.md)|
 
 > [!NOTE]
 > Med hjälp av funktioner som ansluter till dessa tjänster: 

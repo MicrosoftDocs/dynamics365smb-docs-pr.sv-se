@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ Den här artikeln förklarar hur du åtkomst till Copilot och andra AI-funktione
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-Om något av dessa krav inte uppfylls kan funktionen inte användas.-->
+Om något av dessa krav inte uppfylls kan funktionen inte användas.
 
 ## Förutsättningar
 
-- Du använder Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- Du har administratörs- eller superbehörighet i Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- Du använder Business Central Online.
+- Du är en [administratör](#requirements-for-being-an-administrator) i Business Central.
 
 ## Tillåt dataförflyttning mellan geografiska områden
 
@@ -116,21 +116,37 @@ I följande tabell visas de behörigheter som krävs för att använda Copilot-f
 
 |Copilot-funktioner|Behörigheter som krävs|
 |-|-|
-|Analyshjälp|**DATA ANALYSIS – EXEC** behörighetsuppsättning eller körningsbehörighet för systemobjekt 9640 **Tillåt dataanalysläge**. Det här är samma behörigheter som krävs för att komma åt analysläget.|
+|Analyshjälp|**DATA ANALYSIS – EXEC** behörighetsuppsättning eller körningsbehörighet för systemobjekt 9640 **Tillåt dataanalysläge**. Dessa behörigheter är samma behörigheter som krävs för att komma åt analysläget.|
 |Hjälp med bankkontoavstämning|Behörighet på sidan 7250 **AI-förslag för bankkontoavstämning** och sidan 7252 **AI-förslag för transaktion till redovisningskonto**.|
 |Chatt |Det finns inga behörigheter eller behörighetsuppsättningar som kontrollerar åtkomst till chatt på en användarnivå. Om chatten är aktiverad är den tillgänglig för alla användare.|
+|Mappa e-dokument |Behörighet på sidan 6166 **E-Doc. PO Copilot Prop**|
 |Förslag på marknadsföringstext |Behörighet på sidan 5836 **Marknadsföringstext för Copilot**|
+|Förslag på försäljningsrader |Tillstånd på sidan 7275 **AI-förslag på försäljningsrader** och sidan 7276 **AI-förslag på försäljningsrader**|
 
-För att bevilja eller neka åtkomst till specifika Microsoft copilot- och AI-funktioner  som inte är Microsoft, läs dokumentationen eller rådfråga utgivaren av den funktionen för att identifiera vilka behörigheter som krävs.
+För att bevilja eller neka åtkomst till specifika Microsoft copilot- och AI-funktioner konsultera funktionens dokumentation eller utgivare för att identifiera de nödvändiga behörigheterna.
+
+## Krav för att vara administratör
+
+Du måste ha antingen SUPER-behörighet i Business Central-användarkontot eller någon av följande Business Central-licenser:
+
+- Delegerad admin
+- Delegerad helpdesk
+- Global administratör
+- BC-administratör
+- D365-administratör
+
+Business Central erbjuder ännu inte detaljerade behörigheter på objektnivå så att endast specifika administratörer kan konfigurera Copilot.
 
 ## Nästa steg
 
 När du har aktiverat och godkänt funktionerna är du redo att prova dem. Gå till:
 
-- [Lägg till marknadsföringstext för artiklar](item-marketing-text.md)
-- [Analysera data i analysläge med Copilot](analysis-assist.md)  
+- [Lägg till marknadsföringstext för artiklar med Copilot](item-marketing-text.md)
+- [Analysera listdata med hjälp av Copilot](analysis-assist.md)  
 - [Chatt med Copilot](chat-with-copilot.md)
-- [Stämma med bankkontoavstämningshjälp](bank-reconciliation-with-copilot.md)
+- [Mappa e-dokument mot inköpsorderrader med Copilot](map-edocuments-with-copilot.md)
+- [Stämma av bankkonton med Copilot](bank-reconciliation-with-copilot.md)
+- [Föreslå rader på försäljningsorder med Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
 ## Se även
 
@@ -138,5 +154,8 @@ När du har aktiverat och godkänt funktionerna är du redo att prova dem. Gå t
 [Vanliga frågor och svar om analyshjälp](faqs-analysis-assist.md)  
 [Vanliga frågor och svar om hjälp med bankkontoavstämning](faqs-bank-reconciliation.md)  
 [Vanliga frågor och svar om chatt med Copilot](faqs-chat-with-copilot.md)  
+[Vanliga frågor om mappning av e-dokument med inköpsorder](faqs-map-edocuments.md)  
 [Vanliga frågor och svar om förslag på marknadsföringstext](faqs-marketing-text.md)  
+[Vanliga frågor och svar för försäljningsrader](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Översikt över förslag på marknadsföringstext](ai-overview.md)  

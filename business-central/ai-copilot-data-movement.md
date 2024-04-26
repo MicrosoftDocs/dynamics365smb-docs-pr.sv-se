@@ -5,13 +5,13 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 11/30/2023
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="copilot-data-movement-across-geographies"></a>Copilot-dataförflyttning mellan geografiska områden
+# Copilot-dataförflyttning mellan geografiska områden 
 
 Copilot är tillgängligt i alla geografiska [Business Central länder/regioner som stöds](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Copilot använder Microsoft Azure OpenAI Service, som för närvarande endast är tillgänglig för Business Central i vissa geografiska regioner. Det innebär att om din miljö finns någon annanstans måste data från Copilot- och generativa AI-funktioner överföras utanför din geografiska region och kan bearbetas och lagras utanför efterlevnadsgränsen. Data omfattar AI-uppmaningar och dina affärsdata som används av eller genereras av Copilot. I det här fallet måste du välja att tillåta dataförflyttning till en Azure OpenAI Service i ett annat geografiskt område. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -23,27 +23,27 @@ Copilot är tillgängligt i alla geografiska [Business Central länder/regioner 
 > 
 > Copilot- och generativa AI-funktioner från utgivare som inte kommer från Microsoft, till exempel de som kommer från anpassningar eller AppSource-appar som du installerar, definierar var och en sina egna specifika Azure OpenAI Service. Kontakta tilläggsutgivaren för att förstå vilka regionala Azure-tjänster som används av tillägget. 
 
-### <a name="azure-openai-service-geographies"></a>Geografiska områden för Azure OpenAI Service
+### Geografiska områden för Azure OpenAI Service
 
 I följande tabell visas Azure OpenAI Service geografiska område som används av Copilot, baserat på Azure-region för en Business Central-miljö. Den här informationen är viktig när du bestämmer om du ska välja dataförflyttning mellan geografiska områden. Du kan identifiera Azure-region för din miljö i administrationscentret för Business Central (se [Hantera miljöer i administrationscentret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
 | Miljö Azure-regionen| Geografiska områden för Azure OpenAI Service|Administratörsåtgärd krävs för att låsa upp Copilot| 
 | - | - | - |
 |Asien (öst, sydöst) |USA|Ja|
-|Australien (sydöstra)| USA |Ja |
+|Australien (sydöstra)| Australien |Nr |
 |Brasilien (södra) |USA|Ja|
 |Kanada (centrala, östra)|USA|Ja|
 |Europa (väst, norr)| Sverige eller Schweiz |Nej\*|
 |Frankrike (central, södra)| Sverige eller Schweiz |Ja|
 |Tyskland (norra, västra centrala)| Sverige eller Schweiz |Ja|
-|Indien (centrala, södra)|USA|Ja|
+|Indien (centrala, södra)|Indien|Nr|
 |Japan (öst, väst)|USA|Ja|
 |Sydkorea (centrala, södra)|USA|Ja|
 |Norge (öst, väst)|Sverige eller Schweiz |Ja|
 |Sydafrika (nord, väst)|USA|Ja|
 |Schweiz (nord, väst) |Sverige eller Schweiz |Ja|
 |Förenade Arabemiraten (nord, väst)|USA|Ja|
-|Storbritannien (syd, väst)|Storbritannien|Ja|
+|Storbritannien (syd, väst)|Storbritannien|Nr|
 |USA (centrala, östra, norra centrala, södra centrala, västra) |USA|Nej|
 
 \* För miljöer i Azure-regionerna Europa, västra och Europa, norra väljer Business Central automatiskt att flytta data mellan geografiska områden, men administratörer kan när som helst välja att avanmäla sig.
@@ -109,6 +109,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## <a name="next-steps"></a>Nästa steg
+## Nästa steg
 
 Du väljer att tillåta (eller välja bort) dataförflyttning mellan geografiska områden från sidan [Copilot och AI-funktioner](https://businesscentral.dynamics.com/?page=7775). Mer information finns i [Tillåt dataförflyttning mellan geografiska områden](enable-ai.md#allow-data-movement-across-geographies).
