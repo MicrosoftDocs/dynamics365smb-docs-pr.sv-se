@@ -148,7 +148,7 @@ Det finns ett antal olika sätt att skicka rapporter till dina medarbetare och a
 
 ## <a name="fixing-problems"></a>Åtgärda problem
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad." fel vid anslutning till anpassad API-sida
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Det går inte att infoga en post. Den aktuella anslutningens syfte är Skrivskyddad." fel vid anslutning till anpassad API-sida
 
 > **GÄLLER:** Business Central online
 
