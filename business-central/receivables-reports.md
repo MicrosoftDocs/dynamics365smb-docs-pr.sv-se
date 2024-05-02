@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Kundreskontrarapporter och analys i Business Central
+# <a name="accounts-receivable-reports-and-analytics"></a>Kundreskontrarapporter och analys i Business Central
 
 För att hjälpa dig att hantera dina kundreskontra i [!INCLUDE [prod_short](includes/prod_short.md)] är standardrapporter och analyser inbyggda. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter.  
 

@@ -68,7 +68,7 @@ Därefter skapar du en försäljningsorder med kvantiteten 12 på lagerställe V
 > [!NOTE]  
 > Om platsbaserade prognoser visas separat kanske den övergripande prognosen inte är representativ.
 
-### <a name="do-not-use-forecast-by-locations"></a>Använd inte prognos efter lagerställen
+### <a name="if-you-dont-use-forecast-by-locations"></a>Använd inte prognos efter lagerställen
 
 Om du avaktiverar **Använd prognos efter plats** kommer [!INCLUDE[prod_short](includes/prod_short.md)] att ignorera platskoder som anges för respektive behovsprognospost och samla prognoserna till en prognos för tomma platser.  
 
