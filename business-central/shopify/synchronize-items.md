@@ -327,7 +327,7 @@ Ur [!INCLUDE[prod_short](../includes/prod_short.md)] perspektivet när du skapar
 * använd växlingsknappen **Standardlagerställe för produkt** för att ange om den här artikeln ska uppfyllas genom Shopify uppfyllelse eller med 3PL. Det finns alltid **Business Central uppfyllelsetjänst**, men det kan finnas fler uppfyllelsetjänster om fler appar installeras. Du kan bara aktivera **Standardlagerställe för produkt** i en post om du vill använda uppfyllelsetjänsten. 
 * Använd växlingsknappen **Standardlagerställe för produkt** för att ange vilka lagerställen du vill använda för att spåra lager. Du kan aktivera **Standardlagerställe för produkt** för flera lagerställen där **Är uppfyllelsetjänst** är inaktiverad. Observera att lagret alltid spåras för primär plats. 
  
-#### <a name="what-is-the-difference"></a>Vad är skillnaden?
+#### <a name="whats-the-difference"></a>Vad är skillnaden?
 
 Shopify uppfyllelse är användbart när du använder Shopify POS och det finns flera fysiska butiker. Du vill att anställda i fysisk butik ska känna till sitt aktuella lager. I det här fallet skapar du flera lagerställen i Shopify, flera lagerställen i [!INCLUDE[prod_short](../includes/prod_short.md)], aktiverar **Standardlagerställe för produkt** för alla dessa lagerställen.  
 

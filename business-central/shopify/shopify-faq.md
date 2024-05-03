@@ -50,7 +50,7 @@ Med Shopify-anslutning kan företag ansluta sina Shopify butik med [!INCLUDE[pro
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] har ett samarbete med Shopify för att hjälpa våra kunder att skapa en bättre kundupplevelse. När Shopify ger handlare en lättanvänd handelslösning, [!INCLUDE[prod_short](../includes/prod_short.md)] erbjuder omfattande företagsledning över ekonomi-, försäljnings-, service- och driftteam. Använd den sömlösa anslutningen mellan programmen för att synkronisera order, lager och kundinformation så att butikerna kan uppfylla beställningar snabbare och betjäna kunderna bättre.
 
-## <a name="which-microsoft-products-is-the-shopify-connector-available-for"></a>Vilka Microsoft-produkter är Shopify-anslutningen tillgängliga för?
+## <a name="which-microsoft-products-work-with-the-shopify-connector"></a>Vilka Microsoft-produkter är Shopify-anslutningen tillgängliga för?
 
 Den här funktionen är endast tillgänglig [!INCLUDE[prod_short](../includes/prod_short.md)] online, som börjar med version 20.1. Det stöds inte i lokala installationer. Anslutningsprogrammet är förinstallerat för nya miljöer. Organisationer med befintliga miljöer kan hämta och installera anslutningsprogrammet från AppSource. Organisationen måste ha både en [!INCLUDE [prod_short](../includes/prod_short.md)]-licens och en Shopify-licens för att kunna använda anslutningsprogram. Mer information om länder/regioner som stöds, språk och utgåvor för [!INCLUDE[prod_short](../includes/prod_short.md)] finns i [Shopify-anslutningsprogram på AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
@@ -87,7 +87,7 @@ Ja Shopify-anslutningsprogrammet kan utökas. Kontrollera GitHub för att komma 
 
 Ja, det här tillägget är öppet för bidrag från vår community. Du hittar [källkoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i databasen Microsoft Al arkiv för programtillägg.
 
-## <a name="building-your-version-of-shopify-connector"></a>Skapa din version av anslutningsprogrammet för Shopify
+## <a name="building-your-version-of-the-shopify-connector"></a>Skapa din version av anslutningsprogrammet för Shopify
 
 Enligt Shopify, om du vill skapa och publicera en anslutningsapp på Shopify marknadsplats som har det primära syftet att överföra eller dela säljardata till en tredje part ([!INCLUDE [prod_short](../includes/prod_short.md)]) måste du ha skriftligt medgivande från Shopify. Som en del av den här processen måste du få medgivande från Microsoft i "Formulär för databekräftelse för slutmottagare". Vi måste be dig att hantera ärendet med Shopify eftersom Microsoft inte kan teckna 3:e partsavtal.
 

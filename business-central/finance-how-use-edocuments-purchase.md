@@ -157,7 +157,7 @@ Om du vill lägga till lite tolerans och tillåta skillnaden mellan rader i **E-
 3. Den här inställningen gäller för alla matchande rader, men återigen beaktas toleransen för det totala beloppet, som för **Enhetspris senaste inköp** tillsammans med tillämpad **radrabatt %**.  
 4. Stäng sidan.   
 
-##### <a name="to-match-lines-from-e-document"></a>Så här matchar du rader från e-dokument
+##### <a name="matching-lines-from-e-document"></a>Så här matchar du rader från e-dokument
 
 Du kan matcha raderna på sidan **E-dokument**. För att börja med detta använder du följande steg:  
 

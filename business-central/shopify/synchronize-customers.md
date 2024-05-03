@@ -154,7 +154,7 @@ Du kan exportera befintliga kunder till Shopify i bulk som ett företag. I varje
 |**Standardkontaktbehörigheter**| Ange vilka behörigheter som måste tilldelas huvudkontakten, du kan välja mellan **Ingen**, **Endast beställning** och **Platsadministratör**.|
 |**Skapa katalog automatiskt**| Aktivera det här alternativet om du vill skapa en katalog som innehåller alla produkter. En katalog skapas för varje exporterat företag.|
 
-## <a name="export-b2b-company-to-shopify"></a>Export B2B-företag till Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Export B2B-företag till Shopify
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Inledande synkronisering av B2B-företag från Business Central till Shopify
 

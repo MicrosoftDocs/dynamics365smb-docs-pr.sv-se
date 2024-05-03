@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics-in-business-central"></a>Ekonomisk analys i Business Central
+# <a name="financial-analytics"></a>Ekonomisk analys i Business Central
 
 Företag samlar in en enorm mängd data under dagliga aktiviteter som stöder värdefull Business Intelligence (BI) för beslutsfattare: 
 
