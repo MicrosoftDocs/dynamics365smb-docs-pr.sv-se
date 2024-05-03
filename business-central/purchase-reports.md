@@ -9,21 +9,21 @@ ms.date: 02/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-reporting-and-analytics"></a>Inköpsrapporter och analys i Business Central
+# Inköpsrapporter och analys i Business Central
 
 Med inköpsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] kan inköps- och affärspersonal få insikter och statistik om aktuella och tidigare inköpsaktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Uppgifter
+## Uppgifter
 I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
 
 * [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)  
 * [Visa artikeldisposition](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a>Se även
+## Se även
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Inköp](purchasing-manage-purchasing.md)  
 
