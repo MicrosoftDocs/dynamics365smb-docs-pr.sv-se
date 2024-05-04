@@ -10,7 +10,7 @@ ms.date: 01/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales"></a>FÖRS
+# FÖRS
 
 Du kan skapa en försäljningsfaktura eller försäljningsorder för att registrera en överenskommelse med en kund om att sälja vissa produkter till vissa leverans- och betalningsvillkor.
 
@@ -52,7 +52,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Informera dina kunder om orderleveransdatum genom att beräkna antingen kapabel att lova-datum eller dispositionsdatum.|[Beräkna orderlöftesdatum](sales-how-to-calculate-order-promising-dates.md)|
 |Lösa problem när det finns två eller flera poster för samma kund.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Registrera nya kunder](sales-how-register-new-customers.md)  
