@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ekonomisk analys i Business Central
+# <a name="financial-analytics"></a>Ekonomisk analys i Business Central
 
 Företag samlar in en enorm mängd data under dagliga aktiviteter som stöder värdefull Business Intelligence (BI) för beslutsfattare: 
 
@@ -33,7 +33,7 @@ Var och en av dessa funktioner har sina egna fördelar och nackdelar, beroende p
 
 Den här artikeln beskriver hur du kan använda dessa analysfunktioner för att ge ekonomiska insikter.
 
-## Analysbehov inom ekonomi
+## <a name="analytics-needs-in-finance"></a>Analysbehov inom ekonomi
 
 När man tänker på analysbehov inom ekonomi kan det hjälpa att använda en mental modell baserad på profiler beskrivna på en övergripande nivå och deras olika analytiska behov.
 
@@ -49,7 +49,7 @@ Människor i olika roller har olika behov när det gäller data och de använder
 |Ekonomihantering | Trender, sammanfattningar | Inbyggda ledningsrapporter <br> Ad hoc-analys      | 
 |Bokföringsansvarig         | Detaljerad data     | Inbyggda operativa rapporter <br> Uppgiftsdata på skärmen |
 
-## KPI:er för ekonomi
+## <a name="finance-kpis"></a>KPI:er för ekonomi
 
 En KPI (Key Performance Indicator) är ett mätbart värde som visar hur effektivt du uppfyller dina mål. Inom ekonomi använder människor ofta följande KPI:er för att övervaka organisationens ekonomiska hälsa:
 
@@ -67,7 +67,7 @@ En KPI (Key Performance Indicator) är ett mätbart värde som visar hur effekti
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## Använda ekonomisk rapportering för att göra finansiella rapporter och KPI:er
+## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Använda ekonomisk rapportering för att göra finansiella rapporter och KPI:er
 
 Funktionen **Ekonomiska rapporter** ger dig insikter i ekonomiska data som visas på din kontoplan. Du kan ställa in ekonomiska rapporter till att analysera siffror för redovisningskonton och jämför redovisningstransaktioner med budgettransaktioner. Resultaten visas i diagram och rapporter på startsidan, till exempel diagram för kassaflöde och resultaträknings- och balansräkningsrapporter.
 
@@ -87,13 +87,13 @@ I följande tabell beskrivs en serie uppgifter i ekonomiska rapporter med länka
 | Skapa vyer för att analysera data med dimensioner.|[Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)|
 | skapa nya analysrapporter för försäljning, inköp och lager, och skapa analysmallar. |[Skapa analysrapporter](bi-how-create-analysis-views-reports.md)|
 
-## Ekonomiska rapportering mellan affärsenheter eller juridiska personer
+## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Ekonomiska rapportering mellan affärsenheter eller juridiska personer
 
 Vissa organisationer använder [!INCLUDE [prod_short](includes/prod_short.md)] i flera affärsenheter eller juridiska enheter. Andra använder [!INCLUDE [prod_short](includes/prod_short.md)] i dotterbolag som ska rapportera till överordnade organisationer. [!INCLUDE [prod_short](includes/prod_short.md)] ger revisorer verktyg som hjälper dem att överföra redovisningstransaktioner från två eller flera företag (dotterbolag) till ett konsoliderat företag.  
 
 Mer information finns i [Företagskonsolidering](finance-consolidated-company-reporting.md).
 
-## Ad hoc-analys av ekonomiska data
+## <a name="ad-hoc-analysis-of-finance-data"></a>Ad hoc-analys av ekonomiska data
 
 Ibland behöver du bara kontrollera om siffrorna lägger till korrekt eller snabbt bekräfta en siffra. Följande funktioner är bra för ad hoc-analyser:
 
@@ -114,7 +114,7 @@ På samma sätt kan du använda åtgärden **Öppna i Excel** för att öppna en
 <!-- Not ready yet
 For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
 -->
-## Inbyggda rapporter för ekonomi
+## <a name="built-in-reports-for-finance"></a>Inbyggda rapporter för ekonomi
 
 [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen.
 
@@ -141,11 +141,11 @@ Mer information finns i dessa översikter för rapporter som är relevanta för 
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## Uppgiftssidor för ekonomi på skärmen
+## <a name="on-screen-finance-task-pages"></a>Uppgiftssidor för ekonomi på skärmen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] innehåller ett antal sidor som ger dig ekonomiska översikter och uppgifter att göra.
 
-### Visa redovisningstransaktioner och saldon från sidan Kontoplan
+### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Visa redovisningstransaktioner och saldon från sidan Kontoplan
 
 På sidan Kontoplan visas alla redovisningskonton med aggregerade siffror på det som bokförs i redovisningen. Från den här sidan kan du göra saker som:  
 
@@ -157,13 +157,13 @@ På sidan Kontoplan visas alla redovisningskonton med aggregerade siffror på de
 
 För mer information, gå till [Förstå kontoplanen](finance-general-ledger.md#the-chart-of-accounts).
 
-### Visa faktiska belopp i jämförelse med budgeterade belopp för alla konton och för flera perioder
+### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>Visa faktiska belopp i jämförelse med budgeterade belopp för alla konton och för flera perioder
 
 Som en del av att samla in, analysera och dela dina företagsdata, kan du visa faktiska belopp och budgeterade belopp för alla konton och för flera perioder. Du kan göra detta på sidan **kontoplan** genom att välja åtgärden **Redovisningssaldo/Budget**.
 
 För mer information, gå till [Analysera faktiska belopp kontra budgeterade belopp](bi-how-analyze-actual-versus-budget.md).
 
-### Analysera data efter dimensioner
+### <a name="analyze-data-by-dimensions"></a>Analysera data efter dimensioner
 
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis försäljningsorder. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
 
@@ -171,7 +171,7 @@ I stället för att skapa separata redovisningskonton för varje avdelning och p
 
 Inom ekonomisk analys är en dimension data som du lägger till en redovisningstransaktion som en sorts markör. Dessa data används för att gruppera redovisningstransaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Du kan använda dimensioner på transaktioner i journaler, dokument och budgetar. Mer information finns i [Analysera data efter dimension](bi-how-analyze-data-dimension.md)
 
-### Analysera kassaflöden
+### <a name="analyzing-cash-flow"></a>Analysera kassaflöden
 
 På startsidan Revisor under **finansiell prestanda**, erbjuder diagrammen kontantcykel, kassaflöde, och inkomster och utgifter olika sätt att analysera kassaflöde:
 
@@ -189,7 +189,7 @@ Om du vill undersöka prognosen, förutom prognostransaktioner, kan du också ti
 
 För mer information, gå till [Analysera kassaflödet i företaget](finance-analyze-cash-flow.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Hantera ekonomisk rapportering mellan affärsenheter eller juridiska personer](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
