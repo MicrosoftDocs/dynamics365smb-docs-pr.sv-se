@@ -7,7 +7,7 @@ metadata:
   ms.reviewer: bholtorf
   ms.search.keywords: 'keyboarding, productivity, how do i, filter pane'
   ms.search.form: TellMe
-  ms.date: 04/01/2021
+  ms.date: 04/19/2024
   ms.author: bholtorf
   ms.service: dynamics-365-business-central
 title: Vanliga frågor och svar om sök och filtrering
@@ -60,7 +60,7 @@ sections:
       - question: |
           Kommer Microsoft att utöka filterrutans upplevelse?
         answer: |
-          På Microsoft lyssnar vi ständigt på feedback från våra olika användargrupper och handlar efter de bästa förslagen. Om du vill utöka filterrutan till fler formfaktorer, fler typer av listor och har en bra idé om hur du förbättrar den, lägger du till en idé eller röstar på befintliga förslag på [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+          På Microsoft lyssnar vi ständigt på feedback från våra olika användargrupper och handlar efter de bästa förslagen. Om du vill utöka filterrutan till fler formfaktorer, fler typer av listor och har en bra idé om hur du förbättrar den, lägger du till en idé eller röstar på befintliga förslag på [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas)
       - question: |
           Hur ändrar jag resultatet av knappen decimaltecken på det numeriska tangentbordet?
         answer: |

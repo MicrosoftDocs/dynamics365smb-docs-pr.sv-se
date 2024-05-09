@@ -1,31 +1,31 @@
 ---
-title: Analysera data i listsidor och frågor med hjälp av dataanalysläge
-description: Lär dig hur du använder dataanalysläget i Business Central för att analysera data.
+title: Analysera data i listsidor och frågor med hjälp av dataanalys
+description: Lär dig hur du använder analysläget i Business Central för att analysera data.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/15/2024
+ms.date: 04/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analysera data i listsidor och frågor med hjälp av dataanalysläge
+# Analysera data i listsidor och frågor med hjälp av dataanalysfunktion
 
 > **GÄLLER FÖR:** Allmänt tillgänglig förhandsversion i Business Central utgivningscykel 1 för 2023 och senare för analys av listsidor; Allmänt tillgängligt i Business Central utgivningscykel 2 för 2023 för analys av data från listsidor och frågor.
 
-I den här artikeln lär du dig hur du analyserar data från listsidor och frågor med hjälp av *dataanalysläget*. I dataanalysläget kan du analysera data direkt från sidan, utan att behöva köra en rapport eller växla till ett annat program som Excel. Det är ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med olika alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Exemplen kan vara "mina kunder", "följa upp poster", "nyligen tillagda leverantörer", "försäljningsstatistik" eller någon annan vy som du kan tänka på.
+I den här artikeln lär du dig hur du analyserar data från listsidor och frågor med hjälp av funktionen *dataanalysläget*. Med dataanalysfunktionen kan du analysera data direkt från sidan, utan att behöva köra en rapport eller växla till ett annat program som Excel. Det är ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med olika alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Exemplen kan vara "mina kunder", "följa upp poster", "nyligen tillagda leverantörer", "försäljningsstatistik" eller någon annan vy som du kan tänka på.
 
 > [!TIP]
-> En bra sak med dataanalysläget är att det inte ändrar någon underliggande data för listsidan, frågan eller sidans eller frågans layout när det inte befinner sig i dataanalysläget. Det bästa sättet att lära sig mer om det du kan göra i dataanalysläget är att testa saker.
+> En bra sak med dataanalysfunktionen är att det inte ändrar någon underliggande data för listsidan, frågan eller sidans eller frågans layout när det inte befinner sig i analysläget. Det bästa sättet att lära sig mer om det du kan göra i analysläget är att testa saker.
 
 ## Förutsättningar 
 
-- Om du använder Business Central version 22 är dataanalysläget i förhandsversion. Så en administratör måste aktivera den innan du kan använda den. För att aktivera går du till sidan **Funktionshantering** och aktiverar **Funktionsuppdatering: Analysläge, snabbanalysera data direkt i Business Central**. [Läs mer om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Om du använder Business Central version 22 är dataanalysfunktionen i förhandsversion. Så en administratör måste aktivera den innan du kan använda den. För att aktivera går du till sidan **Funktionshantering** och aktiverar **Funktionsuppdatering: Analysläge, snabbanalysera data direkt i Business Central**. [Läs mer om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - I version 23 och senare måste ditt konto tilldelas behörighetsuppsättningen **DATA ANALYSIS – EXEC** eller inkludera körningsbehörighet för systemobjektet **9640 Tillåt dataanalysläge**. Som administratör kan du undanta dessa behörigheter för användare som du inte vill ska ha åtkomst till analysläget.
 
 > [!NOTE]
-> Du kanske märker att vissa listsidor inte innehåller växeln **Analysera** för att växla till analysläget. Anledningen är att utvecklare kan inaktivera analysläget på specifika sidor med hjälp av [egenskapen AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) i AL.
+> Du kanske märker att vissa listsidor inte innehåller växeln **Ange analysläge** för att växla till analysläget. Anledningen är att utvecklare kan inaktivera analysläget på specifika sidor med hjälp av [egenskapen AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) i AL.
 
 ## Kom i gång
 
@@ -40,9 +40,9 @@ Slutför de här stegen för att komma igång med att analysera data med analysl
 
 2. I åtgärdsfältet högst upp på sidan väljer du i **Ange analysläge** ![Visar knappen för att aktivera analysläge](media/analysis-mode-icon.png) .
 
-    I dataanalysläge öppnas data i en upplevelse som är optimerad för dataanalys.  I dataanalysläge ersätts normalt åtgärdsfältet med ett speciellt fältet dataanalysläge. I bilden nedan visas de olika områdena på en sida i dataanalysläge.
+    Dataanalysläget öppnas data i en upplevelse som är optimerad för dataanalys. I analysläge ersätts normalt åtgärdsfältet med ett speciellt fältet analysläge. I bilden nedan visas de olika områdena på en sida i analysläge.
 
-   [![Visar en översikt över en sida i dataanalysläge](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
+   [![Visar en översikt över en sida i analysläge](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
 
    Varje område förklaras i följande avsnitt.
 
@@ -50,29 +50,29 @@ Slutför de här stegen för att komma igång med att analysera data med analysl
 
 4. När du vill stoppa analysläget väljer du **Lämna analysläge** ![Visar knappen för att stänga av analysläge](media/analysis-mode-exit-icon.png)
 
-   De analysvyer som du har lagt till finns kvar tills du tar bort dem. Om du återgår till dataanalysläget igen visas de exakt som du lämnade dem.
+   De analysvyer som du har lagt till finns kvar tills du tar bort dem. Om du återgår till analysläget igen visas de exakt som du lämnade dem.
 
 > [!NOTE]
 > De data som visas i analysläget styrs av de filter eller vyer som anges på listsidan. På så sätt kan du förkonfigurera data innan du startar analysläget.
 
-## Arbeta med dataanalysläge
+## Arbeta med analysläge
 
-I dataanalysläge delas sidan upp i två områden:
+I analysläge delas sidan upp i två områden:
 
-- Huvudområdet, som består av dataområdet (1), sammanfattningsfältet (2) och flikfältet (5)
+- Huvudområdet, som består av dataområdet (1), sammanfattningsfältet (2) och flikfältet (5).
 - Datamanipuleringsområdet, som består av två rutor: kolumner (3) och analysfilter (4).
 
 ### Dataområde (1)
 
 Dataområdet är där raderna och kolumnerna på listsidans fråga visas och data summeras. Dataområdet ger ett mångsidigt sätt att styra layouten på kolumner och ett snabbt sätt att få fram en sammanfattning av informationen. För kolumner som innehåller numeriska värden visas summan av alla värden i kolumnen på en sista rad, såvida du inte har definierat radgrupper. I det här fallet visas summorna som delsummor för grupperna.  
 
-![Visar en översikt över dataområde på en sida i dataanalysläge](media/analysis-mode-data-area.png)
+![Visar en översikt över dataområde på en sida i analysläge](media/analysis-mode-data-area.png)
 
 - Om du vill flytta en kolumn markerar du den och drar den till den plats som verkar vettig i analysen.
 - För att sortera i en kolumn, välj kolumnrubriken. För att sortera på flera kolumner, välj och håll ned <kbd>Skift</kbd>-tangenten medan du väljer de kolumnrubriker som du vill sortera på.
-- Högerklicka på kolumnen eller hovra över den och välj menyikonen ![Visar ikonen i en kolumn i dataanalysläge som öppnar en meny med åtgärder](media/analysis-mode-column-menu-icon.png) För att komma åt flera åtgärder som du kan utföra på kolumner. Som exempel:
+- Högerklicka på kolumnen eller hovra över den och välj menyikonen ![Visar ikonen i en kolumn i analysläge som öppnar en meny med åtgärder](media/analysis-mode-column-menu-icon.png) För att komma åt flera åtgärder som du kan utföra på kolumner. Som exempel:
 
-  - Om du vill fästa en kolumn till vänster eller höger om dataområdet så att den inte flyttas från skärmen när du bläddrar, markerar du ![Visar ikonen i en kolumn i dataanalysläge som öppnar en meny med åtgärder](media/analysis-mode-column-menu-icon.png) > **Fästa kolumn** > **Fästa vänster** kolumndelen.
+  - Om du vill fästa en kolumn till vänster eller höger om dataområdet så att den inte flyttas från skärmen när du bläddrar, markerar du ![Visar ikonen i en kolumn i analysläge som öppnar en meny med åtgärder](media/analysis-mode-column-menu-icon.png) > **Fästa kolumn** > **Fästa vänster** kolumndelen.
   - Definiera datafilter direkt i kolumndefinitionen i stället för att gå till rutan **analysfilter**. Du kan fortfarande visa information om relaterade data och för varje rad och öppna kortet för att lära dig mer om en viss entitet.
 - Använd dataområdet för att interagera med informationen. För kolumner som innehåller numeriska, summerbara värden kan du hämta beskrivande statistik för en fältuppsättning genom att markera dem. Statistiken visas i statusfältet (2) längs med sidans nederkant.
 - Exportera data i Excel- eller csv-format. Högerklicka på dataområdet eller en cellmarkering som du vill exportera.
@@ -81,7 +81,7 @@ Dataområdet är där raderna och kolumnerna på listsidans fråga visas och dat
 
 Sammanfattningsfältet finns längs sidans nederkant och visar statistik över datan på listsidan eller i frågan. När du interagerar med kolumner vars värden kan summeras, t.ex. om du markerar flera rader i en kolumn som visar belopp, kommer informationen att uppdateras.
 
-![Visar en översikt över ett sammanfattningsfält i dataanalysläge](media/analysis-mode-totals-row.png)
+![Visar en översikt över ett sammanfattningsfält i analysläge](media/analysis-mode-totals-row.png)
 
 I följande tabell beskrivs de olika nummer som visas i summa området:
 
@@ -100,16 +100,16 @@ I följande tabell beskrivs de olika nummer som visas i summa området:
 
 **Kolumnerna** är en av två fönsterrutor som samarbetar för att definiera analysen. Det andra området är rutan **Analysfilter**. Rutan **kolumner** används för att summera data. Använd rutan **kolumner** för att definiera vilka kolumner som ska tas med i analysen.
 
-![Visar en översikt över kolumnrutan i dataanalysläge](media/analysis-mode-columns-3.png)
+![Visar en översikt över kolumnrutan i analysläge](media/analysis-mode-columns-3.png)
 
-|Områden|Beskrivning|
+|Områden|Description|
 |-|-|
 |Sök/markera eller avmarkera alla rutor|Söka efter kolumner. Markera kryssrutan om du vill välja/rensa alla kolumner.|
 |Kryssrutor|I det här området finns en kryssruta för varje fält i listans eller frågans källtabell. Använd det här området om du vill ändra vilka kolumner som ska visas. Markera en kryssruta om du vill visa kolumnen för fältet på sidan. Avmarkera kryssrutan om du vill dölja kolumnen. |
 |Radgrupper|Använd det här området om du vill gruppera och summera data efter ett eller flera fält. Du kan endast ta med icke-numeriska fält, t.ex. text, datum och tid. Radgrupper används ofta i pivotläge.|
 |Värden|Använd det här området för att ange fält som du vill ha en total summa för. Du kan bara ta med fält som innehåller nummer som kan läggas samman. Det kan t.ex. inte vara text, datum eller tid.|
 
-Om du vill flytta ett fält från ett område till ett annat väljer du ta bort ikon ![Visar en översikt över en sida i analysläge](media/column-grab-icon.png) bredvid kolumnen i listan och dra till målområdet. Du kan inte flytta ett fält till ett område där det inte är tillåten.
+Om du vill flytta ett fält från ett område till ett annat väljer du ta bort ikon ![Visar knappen för att ta tag i ett fält i analysläget](media/column-grab-icon.png) bredvid kolumnen i listan och dra till målområdet. Du kan inte flytta ett fält till ett område där det inte är tillåten.
 
 ### Analysfilter (4)
 
@@ -132,18 +132,17 @@ Här följer några tips på hur du arbetar med flera analyser:
    - **Ta bort** tar bort den flik som för tillfället är öppen. **Ta bort alla** tar bort alla flikar som du lagt till utom fliken standard **analys 1**.
 - Du kan inte ta bort **Analys 1** helt men du kan byta namn på den med åtgärden **Byt namn** och ta bort alla ändringar som du har gjort med **Ta bort** eller **Ta bort alla**.  
 
-- De analysvyer som du har lagt till och konfigurerat finns kvar tills du tar bort dem. Om du återgår till dataanalysläget igen visas de exakt som du lämnade dem.
+- De analysvyer som du har lagt till och konfigurerat finns kvar tills du tar bort dem. Om du återgår till analysläget igen visas de exakt som du lämnade dem.
 
    > [!TIP]
    > Flikarna som du ställer in visas bara för dig. Andra användare kan bara se de flikar som de har ställt in.
 - Du kan kopiera analysflikar. Kopiering kan vara användbart om du vill experimentera med att ändra en flik utan att ändra originalet, eller om du vill skapa olika varianter av samma analys.
 
-
 ## Datumhierarkier
 
 I analysläge genereras datumfält för datauppsättningen i en hierarki mellan år och kvartal med tre separata fält. Den här hierarkin baseras på den normala kalendern, inte några räkenskapskalendrar som definieras i Business Central.
 
-De extra fälten heter _\<field name\> År_, _\<field name\> Kvartal_ och _\<field name\> Månad_. Om datamängden till exempel innehåller ett fält som heter _Bokföringsdatum_, består motsvarande datumhierarki av fält som heter _Bokföringsdatum år_, _Bokföringsdatum kvartal_ och _Bokföringsdatum månad_.
+De extra fälten heter *\<field name\> År*, *\<field name\> Kvartal* och *\<field name\> Månad*. Om datamängden till exempel innehåller ett fält som heter *Bokföringsdatum*, består motsvarande datumhierarki av fält som heter *Bokföringsdatum år*, *Bokföringsdatum kvartal* och *Bokföringsdatum månad*.
 
 > [!NOTE]
 > Datumhierarkin gäller för närvarande bara för fält av typen datum, inte för fält av typen DatumTid.
@@ -167,7 +166,6 @@ Att bygga ut dataanalysen i pivotläge innebär att du flyttar fält till de tre
 
 > [!TIP]
 > Kolumner som bara har ett fåtal värden är de bästa kandidater för att använda i kolumnen **värden**.
-
 
 ## Analysera stora mängder data
 
@@ -198,10 +196,56 @@ När du har förberett en analys på en flik kan du dela den som en länk med me
    ![Visar dialogrutan Kopiera länk för en analysflik](media/analysis-link-copied.svg)
 
 1. Välj **Kopiera**.
-
 1. Klistra in länken i valfritt kommunikationsmedium, till exempel Word, Outlook, Teams OneNote och så vidare. 
+1. När mottagarna väl har tagits emot kan de välja länken och öppna analysen för sidan eller frågan i Business Central. Dessa uppmanas att ange ett namn för den nya analysfliken som ska skapas.  
 
-2. När mottagarna väl har tagits emot kan de välja länken och öppna analysen för sidan eller frågan i Business Central. Dessa uppmanas att ange ett namn för den nya analysfliken som ska skapas.  
+## Exempel på hur du analyserar data
+
+Funktionen *Analysera data* är avsedd för snabb faktakontroll och ad hoc-analys när du inte vill köra en rapport, om det finns en rapport för dina specifika behov eller om du snabbt vill iterera för att få en bra överblick över en del av ditt företag.
+
+I följande avsnitt hittar du exempel på användningsscenarier för många av funktionsområdena i Business Central-programmet.
+
+| Yta | Till... | Öppna sidan i analysläge | Använda dessa fält |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Finans (Kundfordringar)](#example-finance-accounts-receivables) | Se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas. | [Kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25) | **Kundnamn**, **Förfallodatum** och **Återstående belopp** |
+| [Finans (resultaträkning)](#example-finance-income-statement) | Se din inkomst över inkomstkontona från kontoplanen, till exempel uppdelad i tidsintervall för när beloppen bokfördes. | [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) | **Redovisningskontonr.**, **Bokföringsdatum** och **Belopp**. |
+| [Finans (totala tillgångar)](#example-finance-total-assets) | Se dina tillgångar över tillgångskontona från kontoplanen, till exempel uppdelad i tidsintervall för när beloppen bokfördes. | [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) | **Redovisningskontonr.**, **Bokföringsdatum** och **Belopp**. |
+
+### Exempel: Finans (Kundfordringar)
+
+För att se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas gör du följande:
+
+1. Öppna listan [Kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25) och aktivera analysläget.
+1. Gå till menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid *sökfältet*).
+1. Aktivera **Pivot*-läget** (finns direkt ovanför **Sökfältet**).
+1. Dra nu fältet *Kundnamn* till området **Radgrupper** och dra **Återstående belopp** till området **Värden**. 
+1. Hitta slutligen **Förfallodatum månad** och dra det in i området **Kolumnetiketter**. 
+1. Om du vill begränsa analysen till ett visst år/kvartal använder du ett filter på menyn **Ytterligare filter** (till höger, precis under menyn **Kolumner**). 
+1. Byt namn på analysfliken till "Ålderskonton per månad" eller något som beskriver den här analysen för dig. 
+
+### Exempel: Finans (resultaträkning)
+
+För att se din inkomst över inkomstkontona från kontoplanen uppdelad i tidsintervall för när beloppen bokfördes gör du följande:
+
+1. Öppna listan [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) och aktivera analysläget.
+1. Gå till menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet**).
+1. Aktivera **Pivot**-läget (finns direkt ovanför **Sökfältet**).
+1. Dra nu fältet **Redovisningskontonr** till området **Radgrupper** och dra **Belopp** till området **Värden**.
+1. Hitta slutligen **Bokföringsdatum månad** och dra det in i området **Kolumnetiketter**.
+1. För resultaträkningen behöver du filtrera på de konton du använder för detta, i Business Central demodata är det konton som börjar med "4", din kontoplansuppställning kan vara annorlunda (om du kör rapporten [Råbalans per period](https://businesscentral.dynamics.com/?report=38) kan du enkelt se vilka konton som används i din installation). Ange ett filter för lämpliga konton på menyn **Ytterligare filter** (till höger, precis under menyn **Kolumner**).
+1. Byt namn på analysfliken till "Inkomst per månad" eller något som beskriver den här analysen för dig.
+
+### Exempel: Finans (totala tillgångar)
+
+För att se dina tillgångar över tillgångskontona från kontoplanen uppdelad i tidsintervall för när beloppen bokfördes gör du följande:
+
+1. Öppna listan [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) och aktivera analysläget.
+1. Gå till menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet**).
+1. Aktivera **Pivot**-läget (finns direkt ovanför **Sökfältet**).
+1. Dra nu fältet **Redovisningskontonr** till området **Radgrupper** och dra **Belopp** till området **Värden**.
+1. Hitta slutligen **Bokföringsdatum månad** och dra det in i området **Kolumnetiketter**.
+1. För utdraget för totala tillgångar måste du filtrera på de konton du använder för detta, i Business Central-demodata är det konton som börjar med "10" kan din kontoplansinställning vara annorlunda. Om du kör rapporten [råbalans per period](https://businesscentral.dynamics.com/?report=38) kan du enkelt se vilka konton som används i inställningarna. Ange ett filter för lämpliga konton på menyn **Ytterligare filter** (till höger, precis under menyn **Kolumner**).
+1. Byt namn på analysfliken till "Inkomst per månad" eller något som beskriver den här analysen för dig.
 
 ## Begränsningar i utgivningscykel 1 för 2023 (förhandsversion)
 

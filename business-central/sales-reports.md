@@ -26,6 +26,8 @@ I följande artiklar beskrivs några av de viktigaste uppgifterna för att analy
 
 ## Se även
 
+[Översikt försäljningsanalys](sales-analytics-overview.md)   
+[Ad hoc-analys av försäljningsdata](ad-hoc-analysis-sales.md)    
 [Konfigurera försäljning](sales-setup-sales.md)  
 [Försäljning](sales-manage-sales.md)  
 [Reservera artiklar](inventory-how-to-reserve-items.md)

@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Bokföra årsslutstransaktionen](year-how-post-year-end-close-entry.md)
 
 ### Arbeta med kontoplanen och redovisningen
-#### [Förstå redovisningen och kontoplanen](finance-general-ledger.md)
+#### [Förstå redovisningen](finance-general-ledger.md)
+#### [Förstå kontoplanen](finance-chart-of-accounts.md)
 #### [Granska konton](finance-review-accounts.md)
 #### [Omvärdera saldon på redovisningskonto](finance-revalue-account-balances.md)
 #### [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)
@@ -477,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Konfigurera och publicera en KPI-webbtjänst som baseras på ekonomisk rapportering](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analysera data med statistiska konton](bi-use-statistical-accounts.md)
 #### [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)
-#### [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -495,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Försäljning
 ### [Försäljningsöversikt](sales-manage-sales.md)
-### [Försäljningsrapporter](sales-reports.md)
+### Försäljningsanalys 
+#### [Översikt över försäljningsanalys](sales-analytics-overview.md)
+#### [Skapa försäljningsanalysrapporter](bi-how-create-analysis-views-reports.md)
+#### [Ad hoc-analys av försäljningsdata](ad-hoc-analysis-sales.md)
+#### [Inbyggda försäljningsrapporter](sales-reports.md)
+
 ### [Genomgång: Genomföra en försäljningskampanj](walkthrough-conducting-a-sales-campaign.md)
 ### [Genomgång: Konfigurera och fakturera förskottsbetalningar för försäljning](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Registrera nya kunder](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Inköp
 ### [Inköpsöversikt](purchasing-manage-purchasing.md)
-### [Inköpsrapporter](purchase-reports.md)
+### Inköpsanalys 
+#### [Översikt över inköpsanalys](purchasing-analytics-overview.md)
+#### [Ad hoc-analys av inköpsdata](ad-hoc-analysis-purchasing.md)
+#### [Inbyggda inköpsrapporter](purchase-reports.md)
 ### [Genomgång: Konfigurera och använda ett arbetsflöde för godkännande av inköp](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Registrera inköp](purchasing-how-record-purchases.md)
 ### [Begära offerter](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Anläggningstillgångar
 ### [Översikt över anläggningstillgångar](fa-manage.md)
+### Analys av anläggningstillgångar
+#### [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)
+#### Inbyggda verktyg för analys av anläggningstillgångar
+##### [Övervaka underhållskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Bevaka försäkringsskydd](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Visa ändrade värden för avskrivningsregler](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Inbyggda rapporter om anläggningstillgångar](fa-reports.md)
 ### [Konfigurera anläggningstillgångar](fa-setup.md)
 ### [Avskrivningsmetoder](fa-depreciation-methods.md)
-### [Rapporter och analyser för anläggningstillgångar](fa-reports.md)
+### [Hantera budgetar och anläggningstillgångar](fa-how-manage-budgets.md)
 ### [Anskaffa anläggningstillgångar](fa-how-acquire.md)
 ### [Underhålla anläggningstillgångar](fa-how-maintain.md)
 ### [Försäkra anläggningstillgångar](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Omvärdera anläggningstillgångar](fa-how-revalue.md)
 ### [Skriva av eller amortera anläggningstillgångar](fa-how-depreciate-amortize.md)
 ### [Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md)
-### [Hantera budgetar och anläggningstillgångar](fa-how-manage-budgets.md)
 ### [Felsöka transaktioner för anläggningstillgångar](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Relationshantering
 ### [Översikt över relationshantering](marketing-relationship-management.md)
@@ -1758,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Skapa rapporter för att visa listdata](across-how-use-powerbi-reports-factbox.md)
 ##### Företagsanvändare
 ###### [Arbeta med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
-###### [Arbeta med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Ansluta till Power BI från Business Central lokalt](across-working-with-business-central-in-powerbi.md)
 ###### [Använda Business Central-appar i Power BI](across-powerbi-business-central-apps.md)
 ##### [Vanliga frågor och svar](power-bi-faq.md)
 #### Använda Power Automate med Business Central
@@ -1787,6 +1804,20 @@ ms.service: dynamics-365-business-central
 ## [Översikt över analyser](reports-bi-reporting.md)
 ## [Använda nyckeltal (KPI:er) för att uppfylla dina verksamhetsmål](./analytics-about-kpis.md)
 ## [Använda ekonomisk rapportering](bi-how-work-account-schedule.md)
+
+## Ad hoc-dataanalys
+### [Översikt](reports-adhoc-analysis.md)
+### [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
+### [Vanliga frågor och svar om att söka och filtrera](ui-search-filter-faq.yml)
+### [Analysera siddata i Excel](across-work-with-excel.md)
+### [Analysera rapportdata med Excel](report-analyze-excel.md)
+### [Analysera listdata och frågedata med analysläge](analysis-mode.md)
+
+## Inbyggda analysverktyg
+### [Översikt](reports-built-in-analytics.md)
+### [Arbeta med Power BI-rapporter](across-working-with-powerbi.md)
+### [Intelligenta insikter (lokalt)](about-intelligent-cloud.md)
+### [Telemetri för rapportanvändning](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Använda rapporter i det dagliga arbetet
 ### [Översikt](reports-use-reports.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Översikt över serviceofferter](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Översikt över bokfört servicedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Ad hoc-dataanalys
-### [Översikt](reports-adhoc-analysis.md)
-### [Sortera, söka och filtrera](ui-enter-criteria-filters.md)
-### [Vanliga frågor och svar om att söka och filtrera](ui-search-filter-faq.yml)
-### [Analysera siddata i Excel](across-work-with-excel.md)
-### [Analysera rapportdata med Excel](report-analyze-excel.md)
-### [Analysera listdata och frågedata med analysläge](analysis-mode.md)
-### [Ekonomisk business intelligence](bi.md)
-
-## Inbyggda analyser 
-### [Översikt](reports-built-in-analytics.md)
-### [Intelligenta insikter](about-intelligent-cloud.md)
-### [Arbeta med Power BI-rapporter](across-working-with-powerbi.md)
-### [Ekonomisk business intelligence](bi.md)
-### [Analysera bokslut med Excel](finance-analyze-excel.md)
-### [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)
-### [Telemetri för rapportanvändning](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analysera data i business intelligence-verktyg
-### [Översikt](reports-external-analysis.md)
-### [Microsoft Fabric och Business Central](admin-fabric.md)
-### [Använda Power BI med Business Central](admin-powerbi.md)
-### [Analysera bokslut med Excel](finance-analyze-excel.md)
-### [Hämta data till ett datadistributionslager eller datasjöar](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Läsa data med Business Central-API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Utveckla rapporter
 ### [Översikt](reports-develop-reports.md)
 ### Utveckla rapportlayouter
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Utveckla rapportdatauppsättningar
 #### [Rapportutvecklingsguide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Rapportprestandaguide](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Analysera data i business intelligence-verktyg
+### [Översikt](reports-external-analysis.md)
+### [Microsoft Fabric och Business Central](admin-fabric.md)
+### [Använda Power BI med Business Central](admin-powerbi.md)
+### [Analysera bokslut med Excel](finance-analyze-excel.md)
+### [Hämta data till ett datadistributionslager eller datasjöar](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Läsa data med Business Central-API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Säkerhet, sekretess och regelefterlevnad
 ## Säkerhet och skydd

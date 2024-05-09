@@ -27,7 +27,11 @@ sections:
         answer: |
           Ja. Som administratör, utvecklare eller partner kan du ändra och bygga egna tilläggsmanifest. Ett sätt är att ladda ned manifestet Information om kontakt från varje miljö som användarna vill ansluta till. Ändra sedan taggarna `<Id>` och `<DisplayName>` så att flera versioner av tillägget kan installeras. Dessa ändringar gör att användaren har flera tilläggsprogram för Business Central installerade, vart och ett som pekar på sin egen miljö.
 
-          ![Flera Business Central-tillägg för Outlook.](media/outlook-multiple-addins.png) 
+          ![Flera Business Central-tillägg för Outlook.](media/outlook-multiple-addins.png)
+      - question: |
+          Outlook-tillägget talar om för mig att sidan inte stöds. Varför?
+        answer: |
+          Vissa funktioner i Business Central kräver betydande arbetsyta för att ge en bra upplevelse och är inte tillgängliga när du använder Outlook-tilläggsfönstret. En stegvis guidesida är till exempel inte tillgänglig i fönstret. För att övervinna detta kan du dyka upp sidan i tillägget med åtgärden "Öppna". Popout-fönstret kan sträckas till valfri storlek, inklusive att expandera för att fylla skärmen.
 additionalContent: |
 
   ## Se även

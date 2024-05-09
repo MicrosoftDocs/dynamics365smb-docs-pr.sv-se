@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-fixed-assets"></a>Ställa in anläggningstillgångar
+# Ställa in anläggningstillgångar
 
 Innan du kan arbeta med anläggningstillgångar, måste du definiera ett par saker:  
 
@@ -26,7 +26,7 @@ I avsnitten i den här artikeln finns mer information om hur du ställer in anl�
 
 När du aktiverar en anläggningstillgångsaktivitet i avsnittet **Redov.integrering** på sidan **Avskrivningsregelkort**, sedan kommer sidan **Anl.tillg. redovisningsjournal** att användas till att bokföra transaktionerna för aktiviteten i fråga.
 
-## <a name="required-setup-tasks"></a>Nödvändiga inställningsuppgifter
+## Nödvändiga inställningsuppgifter
 
 Följande tabell innehåller en serie uppgifter för att skapa anläggningstillgångar samt länkar till relaterade artiklar.
 
@@ -35,7 +35,7 @@ Följande tabell innehåller en serie uppgifter för att skapa anläggningstillg
 | Skapa standardredovisningskonton, fördelningsnycklar, journalmallar och batcher för fasta anläggningstillgångar och ställ in indelningar och underklasser för fasta anläggningstillgångar som till exempel Materiella och Immateriella. |[Skapa allmän information om anläggningstillgångar](fa-how-setup-general.md) |
 | Skapa avskrivningsregler, definiera avskrivningsmetoder, integrera med redovisningen och tillåta att transaktioner kan kopieras till flera avskrivningsregler. |[Konfigurera avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md) |
 
-## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Valfria inställningsuppgifter (försäkring, underhåll och användardefinierade avskrivningsmetoder)
+## Valfria inställningsuppgifter (försäkring, underhåll och användardefinierade avskrivningsmetoder)
 
 Följande tabell innehåller en serie valfria uppgifter för att ställa in anläggningstillgångar, t.ex. försäkring, underhåll och avskrivningsmetoder och länkar till relaterade artiklar. 
 
@@ -45,9 +45,10 @@ Följande tabell innehåller en serie valfria uppgifter för att ställa in anl�
 | Aktivera underhåll av anläggningstillgångar, ange allmän underhållsinformation, skapa konton för bokföring av underhåll och definiera typer av underhållsarbete. |[Konfigurera underhåll av anläggningstillgång](fa-how-setup-maintenance.md) |
 | Så här använder du avskrivningsmetoder. |[Konfigurera användardefinierade avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Översikt över anläggningstillgångar](fa-manage.md)  
+[Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)   
 [Ekonomi](finance.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

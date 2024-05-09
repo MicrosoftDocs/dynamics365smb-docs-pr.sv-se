@@ -1,48 +1,51 @@
 ---
-title: Så här fungerar i redovisningen och kontoplanen
+title: Förstå redovisningen och kontoplanen
 description: 'Beskriver redovisningen, kontoplanen och kontokategorierna. På sidan Redovisningsinställningar anger du hur du vill hantera vissa bokföringsfrågor i företaget som t. ex.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
-ms.date: 12/19/2023
+ms.date: 04/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Förstå redovisningen och kontoplanen
 
-Redovisningen lagrar dina ekonomiska data, och kontoplanen visar de konton som alla redovisningstransaktioner bokförs på. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
+Redovisningen lagrar dina ekonomiska data, och kontoplanen visar de konton som du bokför redovisningstransaktioner på. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar en standardkontoplan som är klar att stödja din verksamhet.
 
 ## Redovisningsinställning och bokföringsinställning
 
 Inställningarna för redovisningen är kärnan i ekonomiska processer eftersom den definierar hur du bokför data. Två sidor i synnerhet spelar en viktig roll när det är att konfigurera ekonomiprocesserna:  
 
-* Sidan **Redovisningsinställningar**
+* **Redovisningsinställning**
+* **Bokföringsinställningar**
 
-  På sidan **Redovisningsinställningar** anger du hur du vill hantera vissa bokföringsfrågor i företaget som t. ex.:  
+### Sidan **Redovisningsinställningar**
 
-  * Öresutjämning  
-  * Adresslayout  
-  * Ekonomisk rapportering
+Använd sidan **Redovisningsinställningar** för att ange hur du vill hantera vissa bokföringsfrågor i företaget som t. ex.:  
 
-  > [!TIP]
-  > Sidan **redovisningsinställning** innehåller allmänna fält och fält som är specifika för ditt land eller din region. Om du är osäker på innebörden av ett fält föreslår vi att du arbetar med revisorn för att avgöra om det är relevant för organisationen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+* Öresutjämning  
+* Adresslayout  
+* Ekonomisk rapportering
 
-  Öppna sidan [här](https://businesscentral.dynamics.com/?page=118).
-  
-* Sidan **Bokföringsinställningar**
+> [!TIP]
+> Sidan **redovisningsinställning** innehåller allmänna fält och fält som är specifika för ditt land eller din region. Om du är osäker på innebörden av ett fält föreslår vi att du arbetar med revisorn för att avgöra om det är relevant för organisationen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-  På liknande sätt p sidan **Bokföringsinställningar** anger du hur du vill ange kombinationer av allmän bokföringsmallar och allmäna produktbokföringsmallar. Bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. Du fyller i en rad för varje kombination av rörelse- och produktbokföringsmall. Du kan emellertid också öppna varje enskild rad i dess kort för bokföringsinställning. Läs mer i [Inställning av bokföringsmall](finance-posting-groups.md).  
+För att öppna sidan nu, använd följande länk [Redovisningsinställningar](https://businesscentral.dynamics.com/?page=118).
 
-  > [!TIP]
-  > Om fälten du söker inte visas på sidan **Bokföringsinställningar** kan du använda den vågräta rullningslisten längst ned på sidan för att rulla åt höger.  
+### Sidan **Bokföringsinställningar**
 
-  Öppna sidan [här](https://businesscentral.dynamics.com/?page=314).
+Du kan använda sidan **Bokföringsinställningar** för att ställa in kombinationer av rörelse- och produktbokföringsmallar. Bokföringsmallar mappar enheter som t. ex. kunder, leverantörer, artiklar, resurser och försäljning och inköpsdokument till redovisningskonton. Du fyller i en rad för varje kombination av rörelse- och produktbokföringsmall. Du kan emellertid också öppna varje enskild rad i dess kort för bokföringsinställning. Läs mer i [Inställning av bokföringsmall](finance-posting-groups.md).  
+
+> [!TIP]
+> Om fälten du söker inte visas på sidan **Bokföringsinställningar** kan du använda den vågräta rullningslisten längst ned på sidan för att rulla åt höger.  
+
+För att öppna sidan nu, använd följande länk [Bokföringsinställningar](https://businesscentral.dynamics.com/?page=314).
 
 ## Kontoplanen
 
-Kontoplanen visar alla redovisningskonton. Från kontoplanen, kan du göra sådant som:  
+Sidan **Kontoplan** visar alla redovisningskonton. Från kontoplanen, kan du göra sådant som:  
 
 * Visa rapporter som visar transaktioner och saldon.  
 * Avslut av resultatkonton.  
@@ -50,7 +53,7 @@ Kontoplanen visar alla redovisningskonton. Från kontoplanen, kan du göra såda
 * Visa en lista med bokföringsmallar för det kontot.
 * Visa separatea debet- och kreditsaldon för ett enskilt konto.
 
-Du kan lägga till, ändra eller ta bort konton i redovisningen. I syfte att undvika avvikelser kan du emelelrtid inte ta bort ett redovisningskonto om dess data används i kontoplanen. Från och med 2022 års utgivningscykel 2 kan du också spärra oavsiktlig borttagning av konton under känsliga perioder. Mer information finns i avsnittet [Ta bort konton](finance-setup-chart-accounts.md#delete-accounts).  
+För mer information, gå till [Förstå kontoplanen](finance-chart-of-accounts.md).
 
 ## Kontokategorier
 
@@ -64,9 +67,9 @@ Du kan definiera om specifika typer av rapporter måste innehålla kontona i var
 
 ### Exempel
 
-Till exempel har det standardinställda saldo vid kontoavstämning en enkelt transaktion för *kontanter* under *tillgångar*. Om du vill att saldot överväger handkassa och check, måste du göra följa steg:
+Till exempel har det standardinställda saldo vid kontoavstämning en enkelt transaktion för *kontanter* under *tillgångar*. Om du vill att saldot överväger handkassa och check, kan du göra följa steg:
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningskategorier** och väljer sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Redovisningskategorier** och väljer sedan relaterad länk.
    1. Alternativt [öppnar du sidan här](https://businesscentral.dynamics.com/?page=790).
 2. Välj åtgärden **Redigera lista**.
 3. Lägg till två nya delkategorier: En för handkassa och en för ditt checkkonto:
@@ -89,17 +92,20 @@ När du väljer åtgärden **Skapa ekonomiska rapporter**, eller nästa gång ra
 > [!NOTE]
 > Om du skapar ett redovisningskonto utan att tilldela en kontokategori, tilldelar du kontot till en bokföringsmall [!INCLUDE[prod_short](includes/prod_short.md)] automatiskt en kontokategori från redovisningskonto ovanför kontot i kontoplanen. Om du vill inkludera det nya kontot i dina ekonomiska rapporter måste du välja åtgärden **Skapa ekonomiska rapporter** på sidan **Kategorier på redovisningskonton**. Du kan också öppna sidan Redovisningskontokort, ange kontokategorin och sedan generera om den ekonomiska rapporten.
 
-## Få en snabböversikt
+## Åtkomst för att skapa och redigera redovisningskonton och kontokategorier
 
-På sidan **Kontoplan** visas i en hierarkisk lista de konton som ger snabb åtkomst till nyckelinformation för respektive konto. Listan är dock statisk, och om du har många konton måste du kanske bläddra för att kunna visa olika konton. Om du bara vill ha en snabb överblick över grunderna, till exempel nettoförändringar och saldon, är sidan **Kontoplansöversikt** ett användbart alternativ. Kolumnlayouten på sidan är nu samma som du hittar på sidan **Kontoplan** (men med färre kolumner), så du behöver inte orientera om dig själv. Du kan expandera eller komprimera de hierarkiska nivåerna för att kondensera vyn. För att det ska bli lättare att växla mellan sidorna är sidan **Kontoplansöversikt** tillgänglig på sidan **Kontoplanen**.
+I en liten organisation, t.ex. demonstrationsföretaget CRONUS, kan de flesta användare redigera finansiella entiteter, t.ex. redovisningskonto, kontokategorier och kontoplaner förutom de användare med en licens som GRUPPMEDLEM. Större organisationer använder dock vanligtvis roller och behörigheter för att begränsa åtkomsten till att redigera dessa entiteter. Om du är administratör eller har rollen *Företagschef* eller *Revisor* kan du kontrollera användarbehörigheter för att ge rätt personer tillgång till de relevanta tabellerna. Gå till [Så här får du en översikt en användares behörigheter](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions) för mer information.  
 
-## Åtkomst för att skapa och redigera konton och kontokategorier
+## Använd dimensioner för att förenkla kontoplanen
 
-I en liten organisation, t.ex. demonstrationsföretaget CRONUS, kan de flesta användare redigera kontoplanen, utom användare med en licens som gruppmedlem. Större organisationer använder dock vanligtvis roller och behörigheter för att begränsa åtkomsten till att redigera kontoplanen. Om du är administratör eller har rollen *Företagschef* eller *Revisor* kan du kontrollera användarbehörigheter för att ge rätt personer tillgång till de relevanta tabellerna. Läs mer i avsnittet [Hämta en översikt en användares behörigheter](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
+Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis försäljningsorder. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån. Så i stället för att skapa separata redovisningskonton för varje avdelning och projekt kan du använda dimensioner som grund för analys och slippa behöva skapa en komplicerad kontoplan.
+
+För att lära dig mer om dimensioner, gå till [Konfigurera standarddimensioner för kunder, leverantörer och andra konton](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
 ## Se även
 
-[Ställa in eller ändra kontoplanen](finance-setup-chart-accounts.md)  
+[Förstå kontoplanen](finance-chart-of-accounts.md)  
+[Arbeta med dimensioner](finance-dimensions.md)  
 [Tilldela användare och grupper behörigheter](ui-define-granular-permissions.md)  
 [Affärsstöd](bi.md)  
 [Ekonomi](finance.md)  

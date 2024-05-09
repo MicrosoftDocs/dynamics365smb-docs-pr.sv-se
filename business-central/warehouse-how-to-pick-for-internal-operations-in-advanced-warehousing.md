@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Använd dokumentet **Dist.lager plockning** för att plocka projektkomponenter i
     > [!NOTE]
     > Om du måste placera artiklar för en rad på flera lagerställen, t.ex. om den utsedda lagerplatsen är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Åtgärden skapar en rad för återstående antal att hantera.
 
+      Du kan sortera plockningsraderna efter flera villkor, till exempel efter artikel, hyllnummer eller förfallodatum. Sortering kan hjälpa till att optimera processen för artikelinförsel, till exempel:
+
+    * Om raderna för Ta och Placera för varje leveransrad inte visas direkt efter varandra och det är så du vill att de ska visas, kan du sortera raderna genom att välja **Artikel** i fältet **Sorteringsmetod**.  
+    * Om lagerplatsordning återspeglar lagrets fysiska layout, använd sorteringsmetoden **Lagerplatsordning** för att organisera arbetet efter lagerplatser.
+
+  > [!NOTE]  
+  > Raderna sorteras i stigande ordning efter det valda kriteriet. Om du sorterar efter dokument görs sorteringen först efter dokumenttyp baserat på fältet **Källdokument för distributionslageraktivitet**. Om du sorterar efter leverans görs sorteringen först efter destinationstyp baserat på fältet **Destinationstyp för distributionslager**.
+
 4. När du har plockat och placerat artiklarna i produktions-, monterings- eller projektområdet eller behållaren väljer du åtgärden **Registrera plockning**.  
 
     Du kan nu ta med artiklarna till respektive område och bokföra användningen eller förbrukningen av de plockade komponenterna genom att bokföra förbrukningsjournal, monteringsorder eller projektjournal. Följande artiklar ger mer information:
@@ -171,6 +179,14 @@ Följande steg beskriver de åtgärder som olika användare gör och det relater
 Följande illustration visas när fältet **Lagerställeskod** på komponentlistan fylls enligt inställningen för lagerstället eller maskin-/produktionsgruppen.  
 
 :::image type="content" source="media/binflow.png" alt-text="Översikt över när och hur fältet Lagerplatskod fylls i.":::
+
+## Produktionskomponenter för Tillverka-Mot-Order i en avancerad distributionslagerkonfiguration
+
+I scenarier där en producerad vara består av råvaror och halvfärdiga artiklar med tillverkningspolicyn inställd på **Tillverka-mot-order** kommer distributionslagerplockning för dessa halvfärdiga komponenter läggas till i samma produktionsorder med fältet **Planeringsnivåkod** ifylld. Det förväntas att halvfärdiga artiklar är tillgängliga för konsumtion omedelbart och behöver inte plockas så att de inte ingår i distributionslagerplockdokumentet. De skapade distributionslagerplockningarna innehåller endast råmaterial för producerade artiklar och halvfärdiga artiklar.
+
+Om det däremot finns halvfärdiga artiklar i lager föreslår planeringssystemet att du förbrukar dem i stället för att producera hela kvantiteten. En producerad artikel kräver till exempel fem halvfärdiga komponenter, men tre finns redan i lager. I det här fallet visas fem halvfärdiga artiklar i produktionsorderkomponenterna, men endast två produceras i samma produktionsorder som en separat produktionsorderrad.
+En sådan inställning är inte kompatibel med lagerplockning och beroende på frekvensen måste du antingen ändra tillverkningsprincipen för sådana halvfärdiga artiklar till **Tillverka-mot-lager** eller manuellt dela upp produktionsorderkomponentraden när du behöver plocka de halvfärdiga artiklarna som producerats tidigare.
+
 
 ## Se även
 

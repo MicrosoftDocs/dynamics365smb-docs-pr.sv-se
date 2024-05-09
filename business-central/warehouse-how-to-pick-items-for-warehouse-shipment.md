@@ -1,16 +1,16 @@
 ---
-title: Plocka artiklar för utleverans från dist.lager
+title: Plocka artiklar för distributionslagerutleverans
 description: Lära dig hur du använder distributionslagerplockdokument för att skapa och arbeta plocknings information innan du bokför distributionslagerutleveransen.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Plocka artiklar för utleverans från dist.lager
+# Plocka artiklar för distributionslagerutleverans
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du plocka och inleverera artiklar och använda någon av fyra metoder, enligt beskrivningen i följande tabell.
 
@@ -39,11 +39,11 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 >  
 > Information om hur du plockar komponenter för monteringsorder, inklusive situationer där monteringsartikeln inte är relaterad till en försäljningsutleverans, se [Plocka för montering eller projekt i avancerad distributionslagerkonfiguration](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kontrollera om artiklar är tillgängliga för plockning
+## Kontrollera om artiklar är tillgängliga för plockning
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Så här skapar du plockningsdokumenten i bulk med plockningskalkylarket
+## Så här skapar du plockningsdokumenten i bulk med plockningskalkylarket
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Plockningskalkylark** och väljer sedan relaterad länk.  
 
@@ -93,7 +93,7 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 
 8. Välj **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] skapar plockningen enligt dina val.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Så här plocka artiklar för utleverans
+## Så här plocka artiklar för utleverans
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Distributionslagerplockningar** och väljer sedan relaterad länk.  
 
@@ -110,12 +110,20 @@ Du kan inte skapa de distributionslagerplockdokument från början. Plockning ä
 
     > [!NOTE]
     > Om du måste placera artiklar för en rad på flera lagerställen, t.ex. om den utsedda lagerplatsen är full, använder du funktionen **Dela rad**, på snabbfliken **Rader**. Åtgärden skapar en rad för återstående antal att hantera.
+        
+    Du kan sortera plockningsraderna efter flera villkor, till exempel efter artikel, hyllnummer eller förfallodatum. Sortering kan hjälpa till att optimera processen för artikelinförsel, till exempel:
+
+    * Om raderna för Ta och Placera för varje leveransrad inte visas direkt efter varandra och det är så du vill att de ska visas, kan du sortera raderna genom att välja **Artikel** i fältet **Sorteringsmetod**.  
+    * Om lagerplatsordning återspeglar lagrets fysiska layout, använd sorteringsmetoden **Lagerplatsordning** för att organisera arbetet efter lagerplatser.
+
+  > [!NOTE]  
+  > Raderna sorteras i stigande ordning efter det valda kriteriet. Om du sorterar efter dokument görs sorteringen först efter dokumenttyp baserat på fältet **Källdokument för distributionslageraktivitet**. Om du sorterar efter leverans görs sorteringen först efter destinationstyp baserat på fältet **Destinationstyp för distributionslager**.
 
 4. När du har utfört plockningen och placerat artiklarna i utleveransområdet eller på lagerstället för utleveranser väljer du åtgärden **Registrera plockning**.  
 
 Du kan nu ta artiklarna till leveransdockan och bokföra leveransen, inklusive relaterade källdokumentet, på sidan **Distributionslagerutleverans**. Läs mer på [utleverera artiklar](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 - [Översikt över hantering av distributionslager](design-details-warehouse-management.md)
 - [Hantera lager](inventory-manage-inventory.md)  

@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Hantera anläggningstillgångar
+# Hantera anläggningstillgångar
 
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och en korrekt periodisk avskrivning. Tack vare funktionen kan du även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
 
-## <a name="video-overview"></a>Videoöversikt
+## Videoöversikt
 
 I följande video beskrivs grunderna för anläggningstillgångar:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Översikt över anläggningstillgångar
+## Översikt över anläggningstillgångar
 
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om tillgången. Du kan ställa in byggnads- eller produktionsutrustning som en huvudtillgång med en komponentlista och du kan gruppera dem på olika sätt, till exempel efter klass, avdelning eller plats. Sedan kan du börja anskaffa, underhålla och sälja anläggningstillgångarna. Du kan även skapa budgeterade tillgångar. Med budgetering kan du inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.
 
@@ -46,27 +46,29 @@ Du kan koppla varje anläggningstillgång till ett eller flera försäkringsbrev
 > [!NOTE]  
 > Du kan bokföra in anläggningstillgångstransaktioner på sidan **Anl.tillg. redovisningsjournal** eller på sidan **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. Hjälp för anläggningstillgångar beskriver endast hur du använder sidan **Anl.tillg. redovisningsjournal**. Mer information finns i [Ställa in avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md).
 
-## <a name="how-to-use-fixed-assets"></a>Så här använder du anläggningstillgångar
+## Så här använder du anläggningstillgångar
 
 I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.
 
 | Till  | Gå till |
 | --- | --- |
 | Ställ in förutsättningar för att använda funktionen anläggningstillgångar (definiera standardvärden, bokföring av anläggningstillgångar, bokföringsmallar, fördelningsnycklar, journaler och bokföringstyper). | [Ställa in anläggningstillgångar](fa-setup.md)|
-| skapa anläggningstillgångar, tilldela avskrivningsmetoder, bokföra anskaffningar, återanskaffningsvärden och skriva ut listor över anläggningstillgångar. |[Skaffa anläggningstillgångar](fa-how-acquire.md) |
+| Hanter budgetar för anläggningstillgångar, budgeterar anskaffningskostnader, budgeterar avyttringar av anläggningstillgångar och budgeterar avskrivning. |[Hantera budgetar och anläggningstillgångar](fa-how-manage-budgets.md) |
+| skapa anläggningstillgångar, tilldela avskrivningsmetoder, bokföra anskaffningar, återanskaffningsvärden och skriva ut listor över anläggningstillgångar. |[Anskaffa anläggningstillgångar](fa-how-acquire.md) |
+| Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
+| Beräkna avskrivningar, bokföra avskrivningar och analysera avskrivningar i rapporter om anläggningstillgångar. |[Skriva av eller amortera anläggningstillgångar](fa-how-depreciate-amortize.md) |
+| Läs mer om inbyggda rapporterings- och analysfunktioner för anläggningstillgångar. | [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md) |
 | Registrera servicebesök, bokföra underhållsarbete och övervaka underhållskostnader. |[Underhålla anläggningstillgångar](fa-how-maintain.md) |
 | Uppdatera försäkringsinformation, bokföra anskaffningskostnader i försäkringsbrev, ändra försäkringsskydd, visa försäkringsstatistik och visa listor över försäkringsbrev. |[Försäkra anläggningstillgångar](fa-how-insure.md) |
 | gruppera anläggningstillgångar, flytta anläggningstillgångar mellan olika lagerställen, dela upp eller slå ihop tillgångar. |[Överföra, dela eller kombinera anläggningstillgångar](fa-how-trans-split-combine.md) |
 | justera värden på anläggningstillgångar, bokföra avskrivning och bokföra nedskrivningsstransaktioner. |[Omvärdera anläggningstillgångar](fa-how-revalue.md) |
-| Beräkna avskrivningar, bokföra avskrivningar och analysera avskrivningar i rapporter om anläggningstillgångar. |[Skriva av eller amortera anläggningstillgångar](fa-how-depreciate-amortize.md) |
-| Lär dig mer om olika avskrivningsmetoder för anläggningstillgångarna. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | bokföra avyttringstransaktioner, visa avyttringstransaktioner och bokföra delvisa avyttringar. |[Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md) |
-| Hanter budgetar för anläggningstillgångar, budgeterar anskaffningskostnader, budgeterar avyttringar av anläggningstillgångar och budgeterar avskrivning. |[Hantera budgetar och anläggningstillgångar](fa-how-manage-budgets.md) |
-| Läs mer om inbyggda rapporterings- och analysfunktioner för anläggningstillgångar. | [Rapporter och analyser för anläggningstillgångar](fa-reports.md) |
 
-## <a name="see-also"></a>Se även
+
+## Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  
+[Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)   
 [Översikt över ekonomi](finance.md)  
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
