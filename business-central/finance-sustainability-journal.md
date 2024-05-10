@@ -11,30 +11,30 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Så här registrerar du hållbarhetstransaktioner  
+# <a name="record-sustainability-entries"></a>Så här registrerar du hållbarhetstransaktioner
 
 För närvarande är det enda sättet att registrera utsläpp av växthusgaser till **hållbarhetsredovisningen** att använda **hållbarhetsjournalerna**.   
 
-## Hållbarhetsjournal  
+## <a name="sustainability-journals"></a>Hållbarhetsjournal
 
 **Hållbarhetsjournaler** är utformade för att spåra och registrera hållbarhetsrelaterade aktiviteter med samma användarupplevelse som andra journaler i Business Central. Inom journalen har användarna möjlighet att mata in utsläpp manuellt om de har nödvändig information. Om de saknar dessa data, kan de alternativt använda inbyggda formler för att exakt beräkna utsläpp baserat på specifika kända parametrar som motsvarar olika typer av källor och konton. 
 
 Den information som du anger i en journal är tillfällig och kan ändras så länge den finns i journalen. När du bokför journalen, överförs informationen till transaktioner på **Hållbarhetstransaktioner** eller enskilda **Hållbarhetskonton**, där den inte kan ändras. Du kan emellertid bokföra återföring eller rättning av transaktioner.  
 
-### Använd journalmallar och journaler 
+### <a name="use-journal-templates-and-batches"></a>Använd journalmallar och journaler
 
 Det finns som standard två **Mallar för hållbarhetsjournaler**, den vanliga och den återkommande. För varje journalmall kan du skapa din egen personliga journal som en journal. Om du vill göra det måste du välja åtgärden **Journaler** på sidan **Mallar för hållbarhetsjournaler** och skapa den nya **Hållbarhetsjournalen** på den nya sidan. Du kan till exempel definiera en egen journal för varje utsläpps-scope med alternativet **Utsläpps-scope** där du kan välja mellan tre befintliga scope. Du kan också lägga till eller ändra **Ursprungskod** och **Uppföljningskod** för var och en av journalerna. 
 
 >[!TIP]
 >Du kan ha en journal för varje utsläppstyp om du har många rader eftersom det kan minska risken för misstag, men du kan även använda den gemensamma journalen för alla typer av utsläpp.   
 
-### Validera hållbarhetsjournaler 
+### <a name="validate-sustainability-journals"></a>Validera hållbarhetsjournaler
 
 Du kan aktivera en bakgrundskontroll på sidan **Hållbarhetskonfiguration** som förhindrar fördröjningar vid bokföring. Kontrollen meddelar vid eventuellt misstag när du arbetar med **Hållbarhetsjournalen** och detta hindrar dig från att bokföra journalen.  
 
 När du aktiverar valideringen visas faktaboxen **Journalkontroll** på den aktuella raden och i hela partiet. Valideringen sker när du läser in en journal och väljer en annan journalrad. Panelen **Ärenden totalt** i faktaboxen visar det totala antalet ärenden som [!INCLUDE [prod_short](includes/prod_short.md)] hittade, och du kan välja att den öppnar en översikt över ärendena. 
 
-### Arbeta med hållbarhetsjournaler 
+### <a name="work-with-sustainability-journals"></a>Arbeta med hållbarhetsjournaler
 
 För att börja arbeta med **hållbarhetsjournalerna** följer du stegen:   
 
@@ -55,7 +55,7 @@ För att börja arbeta med **hållbarhetsjournalerna** följer du stegen:
 
 Om formeln baseras på **Beräkna från redovisning** i **Kategori för hållbarhetskonto** måste du använda åtgärden **Samla in belopp från redovisningstransaktioner** innan du bokför journalen för att beräkna utsläppen baserat på den här datakällan. Om du har gjort några ändringar i emissionsfaktorerna efter att du fyllt i journalraderna måste du dessutom välja åtgärden **Omberäkna** för att få rätt belopp i journalen.  
 
-### Återkommande journaler 
+### <a name="recurring-journals"></a>Återkommande journaler
 
 En återkommande journal är en **Hållbarhetsjournal** med specifika fält för hantering av transaktioner som du ofta bokför med få eller inga ändringar. Till exempel hållbarhetstransaktioner som el, värme eller andra liknande transaktioner. Med hjälp av återkommande journaler kan du bokföra fasta och variabla belopp. Med en återkommande journal skapar du transaktioner som ska bokföras regelbundet endast en gång. Till exempel konton, dimensioner och dimensionsvärden, etc. finns kvar i journalen efter bokföring. Om ändringar behövs kan du göra det varje gång du bokför. 
 
@@ -65,7 +65,7 @@ Du måste även konfigurera fältet **Återkommande frekvens** eftersom fältet 
 
 Fältet **Utgångsdatum** bestämmer vilket datum raden ska bokföras för sista gången. Raden kommer inte att bokföras efter detta datum. Fördelen med att använda fältet **Utgångsdatum** är att raden inte kommer att raderas från journalen direkt. Du kan ange ett senare datum så att du kan använda raden i framtiden. Om fältet är tomt kommer raden att bokföras varje gång du bokför tills raden tas bort från journalen.  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)    
 [Översikt över hållbarhetshantering](finance-manage-sustainability.md)   
 [Hållbarhetskonfiguration](finance-sustainability-setup.md)   

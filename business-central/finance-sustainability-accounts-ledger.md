@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Diagram över hållbarhetskonton och redovisning 
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Diagram över hållbarhetskonton och redovisning
 
-## Kontoplan för hållbarhetskonton  
+## <a name="chart-of-sustainability-accounts"></a>Kontoplan för hållbarhetskonton
 
 **Diagram över hållbarhetskonton** (CoSA) utgör den grundläggande strukturerade listan som används för registrering av alla utsläppsdata. Det fungerar som ett ramverk som kategoriserar och organiserar hållbarhetskonton baserat på deras attribut, till exempel scope eller andra grupperingar. Varje konto tilldelas vanligtvis en unik kod eller ett unikt nummer för enkel referens och spårning, enligt samma struktur som en traditionell **kontoplan** men anpassad specifikt för övervakning av hållbarhetsrelaterade data och mätvärden inom en organisation. 
  
@@ -35,7 +35,7 @@ Från **Diagram över hållbarhetskonton** (CoSA), kan du göra sådant som:
     
 Du kan lägga till, ändra eller ta bort **hållbarhetskonton**. För att förhindra avvikelser kan du dock inte ta bort ett **hållbarhetskonto** om det finns en eller flera transaktioner kopplade till kontot.  
 
-### Lägga till eller ändra konton  
+### <a name="add-or-change-accounts"></a>Lägga till eller ändra konton
 
 1. Välj ![glödlampan som öppnar funktionen Berätta 3.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Diagram över hållbarhetskonton** och väljer sedan relaterad länk. 
 2. På sidan **Diagram över hållbarhetskonton** (CoSA) kan du öppna varje **Hållbarhetskonto** och lägga till eller ändra inställningar. Placera markören över ett fält om du vill läsa en kort beskrivning. 
@@ -45,11 +45,11 @@ För konton av typen **Summa** måste fältet **Summeringsintervall** fyllas i. 
 >[!IMPORTANT]
 >Om du har angett definitioner i fälten **Summeringsintervall** för konton av typen **Till-summa** innan indragsfunktionen används, måste du ange dessa igen eftersom värdena i alla **Till-summa**-fält skrivs över med funktionen.  
 
-### Ta bort konton  
+### <a name="delete-accounts"></a>Ta bort konton
 
 Du kan ta bort ett **Hållbarhetskonto**. Innan du tar bort det måste du emellertid vara säker på att det finns en eller flera transaktioner kopplade till det här kontot, eftersom Business Central hindrar dig från att ta bort ett **hållbarhetskonto** i den här situationen.  
 
-## Kontokategorier   
+## <a name="account-categories"></a>Kontokategorier
 
 Användare måste lägga till **Kategori för hållbarhetskonto** till vart och ett av **hållbarhetskontona** för att definiera hur systemet beter sig, välja utsläpps-scopes, dedikerade utsläpp för spårning, formler och liknande konfigurationer.  
 
@@ -89,7 +89,7 @@ Om du använder **beräkningsgrund** (formler) finns det en förklaring, hur sys
 |  | Anpassat | Utsläpp = Anpassad mängd * EF | _dvs Anpassat belopp = Hotellvistelser..._ |
 |  | Bränsle/elektricitet | Utsläpp = bränsle * EF | _dvs Bränsle = Mängden bränsle som förbrukas i tjänstebilen, hyrbilen..._ |
 
-## Underkategorier för konto  
+## <a name="account-subcategories"></a>Underkategorier för konto
 
 Användare måste lägga till **Underkategori för hållbarhetskonto** till varje **Hållbarhetskonto** för att definiera emissionsfaktorer som ska användas i formlerna, men den baseras på valet för utsläppsspårning i **Kategori för hållbarhetskonto**.  
 
@@ -109,7 +109,7 @@ Följ stegen för att granska **Underkategorier för hållbarhetskonto**:
 >[!NOTE]
 >Fälten **Importera data** och **Importera från** är avsedda för potentiell integrering med externa system som används för insamling av emissionsfaktorer, men i **2024 utgivningscykel** kan de inte användas som en funktion som standard.  
 
-## Hållbarhetstransaktioner  
+## <a name="sustainability-ledger-entries"></a>Hållbarhetstransaktioner
 
 **Hållbarhetsredovisningen** lagrar historiken för alla bokförda hållbarhetstransaktioner och organiserar all utsläppsdata enligt **Diagram över hållbarhetskonton**. När en användare bokför **hållbarhetsjournalen** registreras alla viktiga data där. Alla aktiva rapporter genereras baserat på **hållbarhetstransaktionerna**.   
 
@@ -118,7 +118,7 @@ Användaren kan öppna den här redovisningen för ett visst konto med hjälp av
 >[!IMPORTANT]
 >När du har bokfört dina data i hållbarhetsredovisning kan du inte ta bort dem. Om du har gjort ett misstag kan du bokföra den omvända åtgärden med samma uppgifter, men med hjälp av det negativa tecknet för belopp.  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)    
 [Översikt över hållbarhetshantering](finance-manage-sustainability.md)
 [Hållbarhetskonfiguration](finance-sustainability-setup.md)
