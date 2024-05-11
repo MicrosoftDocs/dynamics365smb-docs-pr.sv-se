@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ---
 
-# Synkronisera kunder och företag
+# <a name="synchronize-customers-and-companies"></a>Synkronisera kunder och företag
 
 När en order importeras från Shopify är informationen om kunden väsentlig för ytterligare behandling av dokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finns två huvudalternativ och flera kombinationer:
 
@@ -30,7 +30,7 @@ Om du vill exportera en kund från [!INCLUDE[prod_short](../includes/prod_short.
 * Exportera en kund som Shopify-kund för DTC.
 * Exportera en kund som företag och kundpar för B2B-flödet.
 
-## Viktiga inställningar när du importerar DTC-kunder från Shopify
+## <a name="important-settings-when-importing-dtc-customers-from-shopify"></a>Viktiga inställningar när du importerar DTC-kunder från Shopify
 
 Antingen importerar du kunder från Shopify i bulk eller tillsammans med orderimporten. Du kan hantera processen med följande inställningar:
 
@@ -42,7 +42,7 @@ Antingen importerar du kunder från Shopify i bulk eller tillsammans med orderim
 |**Skapa okända kunder automatiskt**| Välj detta fält om du vill att kopplingen skapar saknade kunder när något av alternativen **Via e-post/telefon** eller **Genom faktureringsinfo** har valts i fältet **Kundmappningstyp**. En ny kund skapas med hjälp av importerade data och **Kod för kundmall** definierad på någon av sidorna **Shopify-butikskort** eller **Shopify-kundmall**. Observera att Shopify-kunden måste ha minst en adress. Order som skapats via Shopify POS försäljningskanal saknar ofta adressinformation. Om alternativet inte har aktiverats måste du skapa kunden manuellt och koppla den till Shopify-kunden.|
 |**Mallkod för kund.företag**|Använd detta fält tillsammans med **Skapa okända kunder automatiskt**.</br></br> Välj den standardmall som ska användas för automatiskt skapade kunder. Kontrollera att den valda mallen innehåller de obligatoriska fälten, till exempel **Gen. rörelsebokföringsmall**, **Kundbokföringsmall** och moms eller momsrelaterade fält.</br></br>Du kan definiera mallar per land/region i sidan **Shopify-kundmallar**, vilket är användbart för korrekt momsberäkning.</br></br>Läs mer i [Ställa in moms](setup-taxes.md).|
 
-### Kundmall per land/region
+### <a name="customer-template-per-countryregion"></a>Kundmall per land/region
 
 Vissa inställningar kan definieras på lands-/regionnivå eller på läns-/provinsnivå. Inställningarna kan konfigureras i [Leverans](https://www.shopify.com/admin/settings/shipping) på Shopify.
 
@@ -56,7 +56,7 @@ Med **Shopify-kundmallen** kan du göra följande för varje kund:
 > [!NOTE]  
 > Landskoderna är ISO 3166-1 alpha-2 landskoder. Läs mer om [landskod](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Viktiga inställningar när du exporterar DTC-kunder till Shopify
+## <a name="important-settings-when-exporting-dtc-customers-to-shopify"></a>Viktiga inställningar när du exporterar DTC-kunder till Shopify
 
 Du kan exportera befintliga kunder till Shopify i bulk. I varje fall kommer en kund och en standardadress skapas. Med följande inställningar kan du hantera processer:
 
@@ -79,7 +79,7 @@ Följande krav gäller för export av en kund:
 
 När du skapar kunderna i Shopify kan du skicka direkt inbjudningar till dem och på så vis uppmuntra dem att aktivera sina konton.
 
-### Fylla i kundinformation i Shopify
+### <a name="populate-customer-information-in-shopify"></a>Fylla i kundinformation i Shopify
 
 En kund i Shopify har förnamn, efternamn, e-post och/eller telefonnummer. Du kan ange förnamn och efternamn baserat på namn på kundkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -98,9 +98,9 @@ Det finns också en standardadress för en kund i Shopify. Adressen kan innehål
 
 För adresser där delstat/provins används väljer du **Kod** eller **Namn** i fältet **delstatskälla** på sidan **Shopify-butikskort**. Koden eller namnet anger vilken typ av data som lagras i [!INCLUDE[prod_short](../includes/prod_short.md)] i fältet **Delstat**. Kom ihåg att initiera kundmallar per land/region så att delstatskoden/namnmappningen är klar. 
 
-## Exportera DTC-kunder till Shopify
+## <a name="export-dtc-customers-to-shopify"></a>Exportera DTC-kunder till Shopify
 
-### Inledande synkronisering av kunder från Business Central till Shopify
+### <a name="initial-sync-of-customers-from-business-central-to-shopify"></a>Inledande synkronisering av kunder från Business Central till Shopify
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") ikon, ange **Shopify Kunder** och väljer sedan relaterad länk.
 2. Välj åtgärden **Lägg till kund**.
@@ -113,7 +113,7 @@ De resulterande kunderna skapas automatiskt i Shopify med adress.
 > [!NOTE]  
 > Inledande synkronisering av kunder från [!INCLUDE[prod_short](../includes/prod_short.md)] till Shopify överväger inte inställningen **Kan uppdatera Shopify-kunder**.
 
-### Synka kunder
+### <a name="sync-customers"></a>Synka kunder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Shopify butik** och väljer sedan relaterad länk.
 2. Välj den specifika butik som du vill synkronisera kunder för.
@@ -123,11 +123,11 @@ Alternativt kan du använda åtgärden **Starta synkronisering av kunder** i fö
 
 Du kan schemalägga uppgifter så att de utförs på ett automatiserat sätt. Läs mer i [Schemalägg återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
-## B2B-företag
+## <a name="b2b-companies"></a>B2B-företag
 
 Om du använder B2B i Shopify kan du förutom kunder också skapa företag. Du kan koppla en eller flera enskilda kunder till ett företag. Du kan även definiera betalningsvillkor, platser och kataloger.
 
-## Viktiga inställningar när du importerar B2B-företag från Shopify
+## <a name="important-settings-when-importing-b2b-companies-from-shopify"></a>Viktiga inställningar när du importerar B2B-företag från Shopify
 
 Oavsett om du importerar företag från Shopify i bulk eller tillsammans med orderimporten kan du använda inställningarna i följande tabell för att hantera processen.
 
@@ -144,7 +144,7 @@ Oavsett om du importerar företag från Shopify i bulk eller tillsammans med ord
 > Endast ett äldsta lagerställe importeras.
 > Endast huvudkontakten importeras.
 
-## Viktiga inställningar när du exporterar B2B-företag till Shopify
+## <a name="important-settings-when-exporting-b2b-companies-to-shopify"></a>Viktiga inställningar när du exporterar B2B-företag till Shopify
 
 Du kan exportera befintliga kunder till Shopify i bulk som ett företag. I varje fall skapas ett företag och en standardplats och en huvudkontakt. Det är också möjligt att skapa en katalog.
 
@@ -154,9 +154,9 @@ Du kan exportera befintliga kunder till Shopify i bulk som ett företag. I varje
 |**Standardkontaktbehörigheter**| Ange vilka behörigheter som måste tilldelas huvudkontakten, du kan välja mellan **Ingen**, **Endast beställning** och **Platsadministratör**.|
 |**Skapa katalog automatiskt**| Aktivera det här alternativet om du vill skapa en katalog som innehåller alla produkter. En katalog skapas för varje exporterat företag.|
 
-## Export B2B-företag till Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Export B2B-företag till Shopify
 
-### Inledande synkronisering av B2B-företag från Business Central till Shopify
+### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Inledande synkronisering av B2B-företag från Business Central till Shopify
 
 1. Gå till ikonen med ![glödlampan som öppnar funktionen Berätta](../media/ui-search/search_small.png "Berätta för mig vad du vill göra") och ange **Shopify-företag** och välj relaterad länk.
 2. Välj åtgärden **Lägg till företag**.
@@ -169,7 +169,7 @@ De resulterande företaget och kunderna skapas automatiskt i Shopify.
 > [!NOTE]  
 > Inledande synkronisering av företag från [!INCLUDE[prod_short](../includes/prod_short.md)] till Shopify överväger inte inställningen **Kan uppdatera Shopify-företag**.
 
-### Synkronisera B2B-företag
+### <a name="sync-b2b-company"></a>Synkronisera B2B-företag
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta 1.](../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Shopify butik** och väljer sedan relaterad länk.
 2. Välj den specifika butik som du vill synkronisera kunder för.
@@ -179,6 +179,6 @@ Alternativt kan du använda åtgärden **Synkronisera företag** på sidan **Sho
 
 Du kan schemalägga uppgifter så att de körs på ett automatiserat sätt. Läs mer i [Schemalägg återkommande uppgifter](background.md#to-schedule-recurring-tasks).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Kom igång med kopplingen för Shopify](get-started.md)  
