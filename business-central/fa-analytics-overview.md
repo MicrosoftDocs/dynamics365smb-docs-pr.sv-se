@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="fixed-assets-analytics"></a>Analyser av anläggningstillgångar
+# Analyser av anläggningstillgångar
 
 Företag med anläggningstillgångar samlar in mycket data om dem under den dagliga verksamheten. Denna data stöder värdefull Business Intelligence (BI) för de som hanterar anläggningstillgångar:
 
@@ -36,7 +36,7 @@ Varje funktion har sina fördelar och nackdelar, beroende på typ av dataanalys 
 
 I den här artikeln beskrivs hur du använder de här analysfunktionerna för att få insikter om anläggningstillgångarna.
 
-## <a name="analytics-needs-in-asset-management"></a>Analysbehov inom tillgångshantering
+## Analysbehov inom tillgångshantering
 
 När du tänker på analysbehoven vid i tillgångshantering att använda en personbaserad modell som beskriver deras analysbehov på hög nivå.
 
@@ -52,14 +52,14 @@ När det gäller data har människor i olika roller olika behov och de använder
 |Tillgångshantering/kontrollant   | Trender, sammanfattningar | Inbyggda ledningsrapporter <br> Ad hoc-analys      | 
 |Bokföringsansvarig                      | Detaljerad data     | Inbyggda operativa rapporter <br> Uppgiftsdata på skärmen |
 
-## <a name="asset-management-kpis"></a>KPI:er för tillgångshantering
+## KPI:er för tillgångshantering
 
 En KPI (Key Performance Indicator) är ett mätbart värde som visar hur effektivt du uppfyller dina mål. Inom tillgångshantering använder människor ofta följande nyckeltal för att övervaka deras organisations användning av tillgångar:
 
 - Omsättning i förhållande till tillgångarna
 - Avkastning på tillgångar
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-fixed-assets"></a>Använd ekonomisk rapportering för att göra finansiella rapporter och KPI:er relaterad till anläggningstillgångar
+## Använd ekonomisk rapportering för att göra finansiella rapporter och KPI:er relaterad till anläggningstillgångar
 
 Funktionen **Ekonomiska rapporter** ger dig insikter i ekonomiska data som visas på din kontoplan. Du kan ställa in ekonomiska rapporter till att analysera siffror för redovisningskonton och jämför redovisningstransaktioner med budgettransaktioner. När det gäller tillgångshantering kan du skapa ekonomiska rapporter på de redovisningskonton som du använder för att spåra bokföring av anläggningstillgångar.
 
@@ -67,13 +67,13 @@ Dimensioner spelar en viktig roll i Business Intelligence. En dimension är data
 
 Läs mer om ekonomiska rapporter i [Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-fixed-assets"></a>Ekonomisk rapportering över affärsenheter eller juridiska personer (relaterat till anläggningstillgångar)
+## Ekonomisk rapportering över affärsenheter eller juridiska personer (relaterat till anläggningstillgångar)
 
 Vissa organisationer använder [!INCLUDE [prod_short](includes/prod_short.md)] i flera affärsenheter eller juridiska enheter. Andra använder [!INCLUDE [prod_short](includes/prod_short.md)] i dotterbolag som rapporterar till överordnade organisationer. [!INCLUDE [prod_short](includes/prod_short.md)] ger revisorer verktyg som hjälper dem att överföra redovisningstransaktioner från två eller flera företag (dotterbolag) till ett konsoliderat företag. Särskilt för tillgångshantering kanske du vill konsolidera redovisningstransaktioner för dina anläggningstillgångskonton för att kunna spåra anläggningstillgångs-KPI:er över affärsenheter eller juridiska personer.
 
 Mer information finns i [Företagskonsolidering](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Ad hoc-analys av data för anläggningstillgångar
+## Ad hoc-analys av data för anläggningstillgångar
 
 Ibland behöver du bara kontrollera om siffrorna lägger till korrekt eller snabbt bekräfta en siffra. Följande funktioner är bra för ad hoc-analyser:
 
@@ -95,7 +95,7 @@ På samma sätt kan du använda åtgärden **Öppna i Excel** för att öppna en
 For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
 -->
 
-## <a name="built-in-reports-for-fixed-assets"></a>Inbyggda rapporter för anläggningstillgångar
+## Inbyggda rapporter för anläggningstillgångar
 
 [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som redovisar anläggningstillgångar.
 
@@ -110,7 +110,7 @@ Om du vill ha en översikt över tillgängliga rapporter väljer du **Alla rappo
 
 Mer information om rapporter som är relevanta för anläggningstillgångar finns i [Inbyggda anläggningstillgångsrapporter](fa-reports.md).
 
-## <a name="on-screen-fixed-assets-analytics"></a>Analyser för anläggningstillgångar
+## Analyser för anläggningstillgångar
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flera sidor som ger dig översikt över anläggningstillgångar och uppgifter att göra. Här är några exempel på hur du kan komma igång:
 
@@ -121,7 +121,7 @@ Mer information om rapporter som är relevanta för anläggningstillgångar finn
 - [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### <a name="show-fixed-asset-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Visa redovisningstransaktioner för anläggningstillgångar och saldon från sidan Kontoplan
+### Visa redovisningstransaktioner för anläggningstillgångar och saldon från sidan Kontoplan
 
 På sidan Kontoplan visas alla redovisningskonton med aggregerade siffror i redovisningen. Från den här sidan kan du göra saker som:  
 
@@ -135,7 +135,7 @@ För anläggningstillgångar kan du skapa en vy på sidan Kontoplan som bara vis
 
 För mer information, gå till [Förstå kontoplanen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-fixed-assets"></a>Analysera data efter dimensioner (relaterade till anläggningstillgångar)
+### Analysera data efter dimensioner (relaterade till anläggningstillgångar)
 
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis journaler för anläggningstillgångar. Dimensioner kan till exempel indikera avdelningen eller platsen en post kom från.  
 
@@ -143,7 +143,7 @@ I stället för att skapa separata redovisningskonton för varje avdelning eller
 
 Läs mer i [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Hantera ekonomisk rapportering mellan affärsenheter eller juridiska personer](finance-consolidated-company-reporting.md)  
 [Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)  

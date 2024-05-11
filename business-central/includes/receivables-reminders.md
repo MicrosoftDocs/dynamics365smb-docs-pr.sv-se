@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 Du kan använda betalningspåminnelser för att påminna kunder om förfallna belopp. Du kan även använda betalningspåminnelser för att beräkna ränta eller avgifter och inkludera dem i betalningspåminnelsen.
+
+> [!TIP]
+> Informationen i den här artikeln är korrekt, men den beskriver till stor del en manuell process. [!INCLUDE [prod_short](prod_short.md)] innehåller verktyg som du kan använda för att automatisera processerna för att skapa, utfärda och skicka påminnelser. Genom att automatisera dessa steg kan du spara mycket tid på insamlingar. Mer information finns i [Automatisera påminnelser i samlingar](../finance-automate-reminders.md).
 
 Innan du kan skapa betalningspåminnelser måste du ange betalningspåminnelsevillkor och tilldela dem till dina kunder. Mer information finns i [Ange villkor och nivåer för påminnelser](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Innehållet på sidan **Räntevillkor** avgör huruvida ränta beräknas på påminnelsen.  
 
@@ -17,7 +20,7 @@ För kundreskontratransaktioner med fältet **Stoppad** ifyllt får du inga uppm
 
 När du har skapat betalningspåminnelser och gjort nödvändiga ändringar kan du antingen skriva ut testrapporter eller skicka ut påminnelserna, vanligtvis som e-post.
 
-### <a name="to-create-a-reminder-automatically"></a>Så här skapar du en betalningspåminnelse automatiskt
+### Så här skapar du en betalningspåminnelse automatiskt
 
 En betalningspåminnelse liknar en faktura. När du skapar en betalningspåminnelse måste ett betalningspåminnelsehuvud och en eller flera betalningspåminnelserader fyllas i. Du kan använda en funktion för att automatiskt skapa betalningspåminnelser för alla kunder.
 
@@ -26,7 +29,7 @@ En betalningspåminnelse liknar en faktura. När du skapar en betalningspåminne
 3. På sidan **skapa betalningspåminnelser** fyller du i fälten för att definiera hur och till vem som betalningspåminnelserna skapas.
 4. Välj knappen **OK**.
 
-### <a name="to-create-a-reminder-manually"></a>Så här skapar du en betalningspåminnelse manuellt
+### Så här skapar du en betalningspåminnelse manuellt
 
 På sidan **påminnelse** kan du fylla i snabbfliken **allmännt** manuellt och sedan låta raderna fyllas i automatiskt.
 
@@ -43,7 +46,7 @@ På sidan **påminnelse** kan du fylla i snabbfliken **allmännt** manuellt och 
 
 8. Välj **OK**.
 
-### <a name="to-replace-reminder-texts"></a>Så här ersätter du betalningspåminnelsetexter
+### Så här ersätter du betalningspåminnelsetexter
 
 Du kan bestämma vilken text som ska visas på betalningspåminnelsen på flera olika sätt. I vissa fall kan det hända att du vill ersätta de inledande och avslutande texterna som definierats för den aktuella nivån med texter från en annan nivå.
 
@@ -52,7 +55,7 @@ Du kan bestämma vilken text som ska visas på betalningspåminnelsen på flera 
 3. På sidan **Uppdatera bet.påminnelsetext** anger du önskad nicå i fältet **Betalningspåminnelsenivå**.
 4. Klicka på **OK** om du vill uppdatera de inledande och avslutande texterna.
 
-### <a name="to-issue-a-reminder"></a>Om du vill utfärda ne betalningspåminnelse
+### Om du vill utfärda ne betalningspåminnelse
 
 När du har skapat betalningspåminnelser och gjort nödvändiga ändringar kan du antingen skriva ut testrapporter eller skicka ut påminnelserna.
 
@@ -77,7 +80,7 @@ Dessutom kan utskickandet av räntefakturor resultera i momstransaktioner.
 
 Betalningspåminnelsen är avsedd att skickas ut till en angiven e-postadress som en bifogad PDF-fil.
 
-### <a name="to-cancel-an-issued-reminder"></a>För att annullera en utfärdad betalningspåminnelse.
+### För att annullera en utfärdad betalningspåminnelse.
 
 Om påminnelserna utfärdades felaktigt kan du avbryta dem innan de skickas ut. Det kan du göra antingen av en eller som en batch.
 

@@ -2,20 +2,20 @@
 title: Registrera nya kunder genom att skapa ett kundkort (innehåller video)
 description: Beskriver hur du skapar ett kundkort för att registrera information om varje ny kund eller klienten som du säljer till.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registrera nya kunder
 
 Kunderna är källan till din inkomst. Du måste registrera varje kund som du säljer till som ett kundkort. Kundkort innehåller den information som behövs för att sälja produkter till kunden. Mer information finns i [Så här fakturerar du försäljning](sales-how-invoice-sales.md) och [Så här registrerar du nya artiklar](inventory-how-register-new-items.md).  
 
 Innan du kan registrera nya kunder, måste du lägga upp olika försäljningskoder som du kan välja mellan, när du fyller i kundkort. Läs mer i [Konfigurera försäljning](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ Du kan välja att inte ha varningar som talar om för dig att kundens kreditgrä
     |**Kreditlimit**|Värdet i fältet **Credit Limit** på kundkortet jämförs med kundens saldo, och en varning visas om kundsaldot överskrider detta belopp.|
     |**Förfallet saldo**|Fältet **Förfallet saldo** på kundens kort markeras, och en varning visas om kunden har ett förfallet saldo.|
     |**Ingen varning**|Inga kreditvarningar visas angående kundens status.|
+
+## Tilldela en säljare
+
+Du kan tilldela säljare kundens leveransadress i stället för deras faktureringsadress så att dina försäljningsrapporter återspeglar den verkliga geografiska fördelningen av din försäljning. Genom att tilldela en säljare en kunds leveransadress får du mer exakta insikter och optimerar resursallokeringen.
+
+Tilldela en säljare på sidan **Kundkort** genom att välja **Kund** och sedan **Leveransadresser** för att öppna sidan **Leveransadresslista**. Välj **Hantera** och sedan **Redigera** för att öppna sidan **Leveransadresskort**. Ange eller välj en **säljarkod** för att välja säljare.
+
+När du väljer alternativet **Alternativ leveransadress** som **Leveransplats** i ett försäljningsdokument uppdateras **Säljarkod** så att den matchar säljaren från **Leverans** snarare än **Faktureringsadressen**. 
 
 ## Se även
 
