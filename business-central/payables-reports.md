@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # Leverantörsreskontra, rapporter och analyser
 
-För att hjälpa dig att hantera dina leverantörsreskontra i [!INCLUDE [prod_short](includes/prod_short.md)] är standardrapporter och analyser inbyggda. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter.  
+[!INCLUDE [prod_short](includes/prod_short.md)] har inbyggda rapporter och analyser som kan hjälpa dig att hantera dina leverantörsskulder. Verktygen går utöver traditionella rapporteringsbegränsningar och gör det enkelt att utforma olika typer av rapporter.  
 
 ## Rapporter
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Utforska ekonomirapporter med Rapportutforskaren
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Se även
 
-[Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
-[Arbeta med dimensioner](finance-dimensions.md)  
-[Hantera anläggningstillgångar](fa-manage.md)  
-[Översikt över lokala funktioner](about-localization.md)  
+[Ad hoc-analys av ekonomiska data](ad-hoc-analysis-finance.md)  
+[Ekonomisk analys](bi.md)  
+[Inköpsanalys](purchasing-analytics-overview.md)  
 [Revisorupplevelse i [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

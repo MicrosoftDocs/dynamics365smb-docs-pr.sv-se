@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Inköpsrapporter och -analyser
 
-Med inköpsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] kan inköps- och affärspersonal få insikter och statistik om aktuella och tidigare inköpsaktiviteter.  
+Inköpsrapportering ger inköps- och affärspersonal insikter och statistik om aktuella och tidigare inköpsaktiviteter.  
 
 ## Rapporter
 
@@ -20,13 +20,25 @@ Med inköpsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] kan in
 
 ## Uppgifter
 
-I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera verksamhetens tillstånd:
+I följande artiklar beskrivs några av de viktigaste uppgifterna för att analysera inköpets tillstånd:
 
-* [Skapa analysrapporter](bi-how-create-analysis-views-reports.md)  
-* [Visa artikeldisposition](inventory-how-availability-overview.md)  
+- [Visa artikeldisposition](inventory-how-availability-overview.md)  
+- [Beräkna datum för inköp](purchasing-date-calculation-for-purchases.md)
+- [Visa inköpstransaktioner](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
+## Utforska inköpsrapporter med Rapportutforskaren
+
+Om du vill ha en översikt över de rapporter som är tillgängliga för inköp väljer du **Alla rapporter** på startsidan. Denna åtgärd öppnar rollutforskaren, som är filtrerad efter funktionerna i alternativet **Rapport och analys**. Under rubriken **Inköp** väljer du **Utforska**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Exempel på rapporter om rollcentret XXX." lightbox="media/report-explorer-purchasing.png":::
+
+Läs mer i [Söka efter rapporter med Rollutforskaren](ui-role-explorer.md). 
 
 ## Se även
+
+[Ad hoc-analys av inköpsdata](ad-hoc-analysis-purchasing.md)  
+[Översikt över inköpsanalys](purchasing-analytics-overview.md)   
 [Ställa in inköp](purchasing-setup-purchasing.md)  
-[Inköp](purchasing-manage-purchasing.md)  
+[Inköpsöversikt](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Introduktion till Business Central och Power BI
-description: 'Få en användningsöversikt för Power BI i syfte att få insikter, business intelligence och KPI:er från dina Business Central-data.'
+description: 'Få en användningsöversikt för Power BI för att få insikter och KPI:er från dina Business Central-data.'
 author: jswymer
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
@@ -25,7 +25,7 @@ Det finns olika funktioner för att arbeta med [!INCLUDE[prod_short](includes/pr
 
 |Funktion|Description|Online|Lokalt|Läs mer|
 |-------|-----------|--------------|-----------|----------------|
-|Visa [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI|Du kan visa dina [!INCLUDE[prod_short](includes/prod_short.md)]-data i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online omfattar vissa fördefinierade Power BI-rapporter. Det kan också vara så att din organisation har gjort vissa anpassade rapporter tillgängliga för dig.|![Arbetar online.](media/check.png)|![Arbetar på plats](media/check.png)|[Här...](across-working-with-powerbi.md)|
+|Visa [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI|Du kan visa dina [!INCLUDE[prod_short](includes/prod_short.md)]-data i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online omfattar vissa fördefinierade Power BI-rapporter. Det kan också vara så att din organisation har gjort vissa anpassade rapporter.|![Arbetar online.](media/check.png)|![Arbetar på plats](media/check.png)|[Här...](across-working-with-powerbi.md)|
 |Visa Power BI-rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.| Power BI-rapporter som visar [!INCLUDE[prod_short](includes/prod_short.md)]-data kan bäddas in direkt i delar på [!INCLUDE[prod_short](includes/prod_short.md)]-sidor. Du kan låta delen visa valfri rapport som gjorts tillgänglig för dig. |![arbetar online.](media/check.png)|![Arbetar på plats](media/check.png)<sup>[*](#onprem)</sup>|[Här...](across-working-with-powerbi.md).|
 |Skapa rapporter och instrumentpaneler i Power BI som visar [!INCLUDE[prod_short](includes/prod_short.md)]-data.|Använd Power BI Desktop för att skapa dina egna rapporter och instrumentpaneler. Du kan publicera rapporterna i din egen Power BI-tjänst eller dela dem med andra inom din organisation.|![Arbetar online.](media/check.png)|![arbetar på plats](media/check.png)|[Här...](across-how-use-financials-data-source-powerbi.md)|
 |[!INCLUDE[prod_short](includes/prod_short.md)]-appar i Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publicerar tre appar för Power BI i Microsoft AppSource. Dessa appar framställer detaljerade rapporter och instrumentpaneler i din Power BI-tjänst som låter dig visa [!INCLUDE[prod_short](includes/prod_short.md)]-data. Tillgängliga appar inkluderar bland annat: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Arbetar online.](media/check.png)||[Här...](across-powerbi-business-central-apps.md)|
@@ -35,7 +35,7 @@ Det finns olika funktioner för att arbeta med [!INCLUDE[prod_short](includes/pr
 
 ## Komma igång med Power BI
 
-Det finns några uppgifter som måste utföras innan du kan börja använda Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Uppgifterna beror på din roll i organisationen och vad du vill göra med Power BI:
+Det finns några uppgifter som måste utföras innan du kan börja använda Power BI med [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> Uppgifterna beror på din roll i organisationen och vad du vill göra med Power BI:
 
 - Som *företagsanvändare* vill du visa Power BI-rapporter, antingen i Power BI-tjänsten eller Business Central
 - Som *administratör* ansvarar du för hanteringen av de organisationsomfattande inställningarna som styr hur Business Central och Power BI fungerar.
@@ -48,25 +48,6 @@ Det finns några uppgifter som måste utföras innan du kan börja använda Powe
 |Exponera Business Central-data för Power BI||![det är en bock.](media/check.png)|![återigen en bock](media/check.png)|[Visa data via API-sidor eller OData-webbtjänster](admin-powerbi-setup.md#exposedata)
 |Aktivera integrering med Power BI<br />(endast lokalt)||![det är en bock.](media/check.png)||[Konfigurera Business Central lokalt för Power BI-integration](across-working-with-business-central-in-powerbi.md#setup)|
 
-## Spåra dina affärs-KPI: er med Power BI-mått
-
-Om du använder Power BI i [!INCLUDE[prod_short](includes/prod_short.md)] data, är det enkelt att spåra KPI:er eller mått som är viktiga för dig. 
-
-Med mått i Power BI kan du granska dina egna mått och följa upp dem i ett enda fönster. Denna funktion förbättrar datakulturen genom att främja ansvar, justering och synlighet för grupper och initiativ inom organisationer. 
-
-Använd den här fyrstegsproceduren för att ange Power BI mått:
-
-1. Skapa ett styrkort i Power BI tjänsten. Läs mer på [Skapa styrkort i Power BI](/power-bi/create-reports/service-goals-create).  
-2. Lägg till _mått_ du vill följa upp genom att ansluta till din Power BI rapport om telemetri. Läs mer på [Skapa anslutna mått](/power-bi/create-reports/service-goals-create-connected).  
-3. Om du vill lägga till varningar definierar du statusregler för dina mått. Läs mer på [Skapa automatiska statusregler för mått](/power-bi/create-reports/service-metrics-status-rules).  
-
-    Det här steget automatiserar statusuppdateringar baserat på regler som styr det måttet. Regler utlöser ändringar baserat på värde, procent av målvärde som uppfylls, datum villkor eller en kombination av de tre, vilket gör reglerna så mångsidiga som möjligt. För sammankopplade mått uppdateras dessa status regler varje gång data i styrkortet uppdateras.
-4. Slutligen följer du mått för att få aviseringar i Teams eller via e-post. Läs mer på [Följa följa dina mått](/power-bi/create-reports/service-metrics-follow).  
-
-Läs mer på Power BI mått finns i [Komma igång med mått i Power BI](/power-bi/create-reports/service-goals-introduction).
-
-> [!NOTE]
-> Från och med Business Central utgivningscykel 2 för 2023 är det möjligt att bädda in styrkort från Power BI-mått i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Nästa steg
 
@@ -75,8 +56,8 @@ Läs mer på Power BI mått finns i [Komma igång med mått i Power BI](/power-b
 
 ## Se även
 
-[Affärsstöd](bi.md)  
-[Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Översikt över analyser](reports-bi-reporting.md)   
+[Spåra dina KPI:er med Power BI-mått](track-kpis-with-power-bi-metrics.md)   
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakälla](across-how-use-financials-data-source-powerbi.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakälla](across-how-use-financials-data-source-powerapps.md)  
 [Använda [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  

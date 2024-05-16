@@ -1,40 +1,39 @@
 ---
 title: Inbyggda ekonomiska rapporter i Business Central
-description: Se vilka inbyggda ekonomiska rapporter som är tillgängliga i standardversionen av Business Central så att du kan hålla reda på din verksamhet. Använd rapport 38 för vinst/förlust-rapportering (P&L).
+description: Utforska de ekonomiska finansiella rapporterna i standardversionen av Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
-ms.date: 12/19/2023
-ms.author: bholtorf
+ms.date: 05/03/2024
+ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
 # Inbyggda ekonomiska rapporter i Business Central
 
-[!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen. 
+[!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper revisorer eller controllers som ansvarar för rapportering till ekonomiavdelningen.
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
+## Utforska ekonomirapporter med Rapportutforskaren
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Se även
 
-[Skapa kostnadsbudgetar](finance-create-cost-budgets.md)  
-[Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)  
-[Avsluta år och perioder](year-close-years-periods.md)  
-[Använda rapporter före bokslut](year-prepare-preclose-reports.md)  
-[Förbereda årsbokslutsrapporter](year-prepare-close-statement.md)  
-[Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
-[Arbeta med dimensioner](finance-dimensions.md)  
 [Kundreskontra, rapporter och analyser](receivables-reports.md)  
-[Leverantörsskulder, rapporter och analyser](payables-reports.md)  
+[Leverantörsreskontra, rapporter och analyser](payables-reports.md)  
 [Rapporter och analyser för anläggningstillgångar](fa-reports.md)  
+[Ad hoc-analys av ekonomiska data](ad-hoc-analysis-finance.md)  
+[Ekonomisk analys](bi.md)  
 [Ställa in Finance](finance-setup-finance.md)  
 [Ekonomi](finance.md)  
 [Översikt över lokala funktioner](about-localization.md)  
 [Revisorupplevelse i [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

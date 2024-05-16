@@ -40,7 +40,7 @@ Funktionen ekonomiska rapporter ger dig insikt i ekonomiska data som lagras i di
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Skärmbild av en finansiell rapport." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Dimensioner spelar en viktig roll i Business Intelligence. En dimension är data som du kan lägga till en transaktion som en parameter. Med dimensioner kan du gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Bland annat kan du använda dimensioner när du definierar analysvyer och när du skapar ekonomiska rapporter. Mer information: [Arbeta med dimensioner](finance-dimensions.md).
+Dimensioner spelar en viktig roll i Business Intelligence. En dimension är data som du kan lägga till en transaktion som en parameter. Med hjälp av dimensioner kan du gruppera poster med liknande egenskaper. Till exempel grupper med kunder, regioner, produkter och säljare. Grupper gör det enklare att hämta data för analys. Bland annat kan du använda dimensioner när du definierar analysvyer och när du skapar ekonomiska rapporter. Mer information: [Arbeta med dimensioner](finance-dimensions.md).
 
 Mer information om bokslut och KPI:er finns i [Använda ekonomiska rapporter för att skapa finansiella rapporter och KPI:er](bi.md).
 
@@ -61,7 +61,7 @@ För att lära dig mer om KPI:er, gå till [Använda KPI:er för att uppfylla di
 
 ## Ad hoc-dataanalys
 
-Ibland kanske du bara vill kontrollera om siffrorna stämmer korrekt, snabbt bekräfta eller avslöja en hypotes om verksamheten eller kanske leta efter avvikelser i dina finansiella data. För ad hoc-analyser kanske du inte har en inbyggd rapport som hjälper dig att besvara dina frågor. Använd följande två funktioner för ad hoc-analyser:
+Du kanske bara vill kontrollera om siffrorna stämmer korrekt, snabbt bekräfta eller avslöja en hypotes om verksamheten eller kanske leta efter avvikelser i dina finansiella data. För ad hoc-analyser kanske du inte har en inbyggd rapport som hjälper dig att besvara dina frågor. Använd följande två funktioner för ad hoc-analyser:
 
 - Dataanalys för huvudbokens listsidor
 - Öppna i Excel
@@ -107,7 +107,7 @@ I följande tabell visas artiklar om hur du använder inbyggda rapporter i [!INC
 
 ## Externa Business Intelligence- och rapporteringsverktyg
 
-Om du föredrar att använda Business Intelligence-verktyg som inte är inbäddade i [!INCLUDE[prod_short](includes/prod_short.md)] innehåller följande tabell länkar till vägledning om verktyg och sätt att använda externa verktyg.
+Om du vill kan du använda business intelligence-verktyg som inte är inbäddade i [!INCLUDE[prod_short](includes/prod_short.md)]. Följande tabell innehåller länkar till vägledning och olika sätt att använda externa verktyg.
 
 | Till  | Gå till |
 | --- | --- |
@@ -116,6 +116,18 @@ Om du föredrar att använda Business Intelligence-verktyg som inte är inbädda
 | Hämta data till ett datadistributionslager eller datasjöar| [Hämta data till ett datadistributionslager eller en datasjö](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Analysera Business Central-data med Microsoft Fabric| [Introduktion till Microsoft Fabric och Business Central](admin-fabric.md) |
 | Läs data från Business Central med API:er | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Analys efter funktionsområde
+
+Innehållet i denna allmänna artikel finns också i specialversioner för många funktionella områden i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Om du arbetar med... | Gå till |
+| --- | --- |
+| Ekonomi | [Ekonomisk analys](bi.md) |
+| FÖRS | [Försäljningsanalys](sales-analytics-overview.md) |
+| Inköp | [Inköpsanalys](purchasing-analytics-overview.md) |
+| Hantering av anläggningstillgångar | [Analys av anläggningstillgångar](fa-analytics-overview.md) |
+
 
 ## Se även
 

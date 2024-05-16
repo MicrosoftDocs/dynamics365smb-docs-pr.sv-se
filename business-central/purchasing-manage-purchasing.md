@@ -22,21 +22,66 @@ Produkter kan vara både lagerartiklar och tjänster. Mer information finns i [R
 
 För alla inköpsprocesser kan du t. ex. inkludera ett arbetsflöde för godkännande för att kräva att stora inköp godkänns av redovisningschefen. Mer information finns i [Använda arbetsflöden för godkännande](across-how-use-approval-workflows.md).
 
-I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar där de beskrivs.
+Följande avsnitt beskriver en serie uppgifter, med länkar till de artiklar där de beskrivs.
+
+## Kom igång med inköpsfunktioner
+
+Innan du köper varor måste du ange hur du vill hantera företagets inköpsprocesser.
+
+|Till...| Gå till |
+|---|---|
+| Konfigurera de regler och värden som definierar företagets inköpsprinciper. | [Konfigurera inköp](purchasing-setup-purchasing.md) |
+| Registrera varje leverantör som du har köpt från ett leverantörskort. | [Registrera nya leverantörer](purchasing-how-register-new-vendors.md) |
+
+## Inköpsanalys
+
+I det här avsnittet beskrivs analysverktyg som du kan använda för att få insikter om dina inköpsprocesser.
+
+| Till... | Gå till |
+| --- | --- |
+| Läs mer om funktionerna för att analysera inköpsdata. | [Översikt över inköpsanalys](purchasing-analytics-overview.md) |
+| Utför ad hoc-analys av inköpsdata direkt på listsidor och frågor. | [Ad hoc-analys av inköpsdata](ad-hoc-analysis-purchasing.md) |
+| Utforska inbyggda inköpsrapporter. | [Inbyggda inköpsrapporter](purchase-reports.md) |
+
+## Offert för order till inköpsfaktura
+
+I följande tabell beskrivs hur du använder enkla inköpsprocesser.
 
 | Till | Gå till |
 | --- | --- |
-| Skapa en inköpsfaktura för att registrera en överenskommelse med en leverantör om att köpa produkter till vissa leverans- och betalningsvillkor. |[Registrera inköp](purchasing-how-record-purchases.md) |
 |Skapa en inköpsoffert för att återspegla en anbudsförfrågan från leverantören, som du senare kan konvertera till en inköpsorder.|[Begär offerter](purchasing-how-request-quotes.md)|
 | Skapa en inköpsfaktura för alla eller valda rader på en försäljningsfaktura. |[Köpa artiklar för en försäljning](purchasing-how-purchase-products-sale.md) |
+| Skapa en inköpsfaktura för att registrera en överenskommelse med en leverantör om att köpa produkter till vissa leverans- och betalningsvillkor. |[Registrera inköp](purchasing-how-record-purchases.md) |
+| Lär dig hur [!INCLUDE[prod_short](includes/prod_short.md)] beräknas när du måste beställa en artikel för ett visst datum.|[Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)|
 |Förstå vad som händer när du bokför inköpsdokument.|[Bokföra inköp](ui-post-purchases.md)|
+
+Om du behöver mer komplicerade inköpsprocesser visas i följande tabell artiklar som förklarar vad du kan göra med [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Till | Gå till |
+| --- | --- |
 | Utför en åtgärd på en obetald bokförd inköpsfaktura som automatiskt skapar en kreditnota och antingen annullerar inköpsfakturan eller skapar den på nytt, så att du kan göra korrigeringar. |[Korrigera eller makulera obetalda försäljningsfakturor](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Skapa en inköpskreditnota för att återföra en särskild bokförd inköpsfaktura för att visa produkter som du returnerar till leverantören, och vilka belopp som du ska inkassera. |[Behandla inköpsreturer eller annulleringar](purchasing-how-process-purchase-returns-cancellations.md) |
+|Hantera ditt engagemang för en leverantör för att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
+
+
+## Annullerade beställningar, återbetalningar och returer
+
+I följande tabell beskrivs hur du hanterar annullerade order, återbetalningar och returer av varor som du köper.
+
+| Till | Gå till |
+| --- | --- |
 |Förbered för att fakturera flera inleveranser från samma leverantör en gång genom att kombinera inleveranser på en faktura.|[Kombinera inleveranser på en enda faktura](purchasing-how-to-combine-receipts.md)|
 |Konvertera till exempel elektroniska fakturor från leverantörer till fakturor i Business Central.|[Ta emot och omvandla elektroniska dokument](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Lär dig hur [!INCLUDE[prod_short](includes/prod_short.md)] beräknas när du måste beställa en artikel för ett visst datum.|[Datumberäkning för inköp](purchasing-date-calculation-for-purchases.md)|
+
+
+## Andra processer inom försäljning
+
+I följande tabell beskrivs hur du hanterar andra inköpsprocesser.
+
+| Till | Gå till |
+| --- | --- |
 |Lösa problem när det finns två eller flera poster för samma leverantör.|[Slå samman dubblettposter](sales-how-merge-duplicate-records.md)|
-|Hantera ditt engagemang för en leverantör för att köpa stora kvantiteter som levereras i flera leveranser med tiden.|[Arbeta med inköpsavropsorder](sales-how-to-create-blanket-sales-orders.md)|
+
 
 ## Externa dokumentnummer
 
@@ -46,8 +91,8 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 
 [Ställa in inköp](purchasing-setup-purchasing.md)  
 [Registrera nya leverantörer](purchasing-how-register-new-vendors.md)  
+[Översikt över inköpsanalys](purchasing-analytics-overview.md)   
 [Hantera Leverantörsreskontra](payables-manage-payables.md)  
-[Hantera projekt](projects-manage-projects.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Allmänna affärsfunktioner](ui-across-business-areas.md)
 

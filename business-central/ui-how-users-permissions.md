@@ -1,11 +1,11 @@
 ---
-title: Skapa användare enligt licenser
+title: Skapa användare utifrån licenser
 description: Beskriver hur du lägger till användare i Business Central Online eller lokalt baserade på licenser.
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 02/21/2024
+ms.date: 05/03/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
-I den här artikeln beskrivs hur administratörer skapar användare och anger vem som kan logga in på [!INCLUDE[prod_short](includes/prod_short.md)]. Du lär dig också om hur du tilldelar behörigheter till olika användare enligt dina produktlicenser.
+I den här artikeln beskrivs hur administratörer skapar användare och anger vem som kan logga in på [!INCLUDE[prod_short](includes/prod_short.md)]. Artikeln beskriver också om hur du tilldelar behörigheter till olika användare enligt dina produktlicenser.
 
 När du skapar användare i [!INCLUDE[prod_short](includes/prod_short.md)] ger du behörighet till dem via behörighetsgrupper. Du kan även ordna användarna i användargrupper. Användargrupper gör det enklare att hantera behörigheter och andra inställningar för flera användare samtidigt. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md).  
 
@@ -80,13 +80,13 @@ Andra behörighetsgrupper läggs till automatiskt utifrån de användargrupper s
 Om denna standardkonfiguration inte är rätt inställning för en viss miljö kan administratören ändra konfigurationen. Anpassade behörigheter påverkar dock bara nya användare som har tilldelats licensen. Behörigheter för befintliga användare som har tilldelats licensen påverkas inte.  
 
 1. Logga in på [!INCLUDE[prod_short](includes/prod_short.md)] med ett administratörskonto.  
-2. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Licenskonfiguration** och väljer sedan relaterad länk.  
+2. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Licenskonfiguration** och väljer sedan relaterad länk.  
 
     <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. På sidan **Licensskonfiguration** välj den licens som du vill anpassa och välj sedan åtgärden **Konfigurera**.  
-4. Välj fältet **anpassa behörigheter** för att växla vid anpassning och gör sedan relevanta ändringar.  
+4. Välj fältet **anpassa behörigheter** för att växla vid anpassning och gör sedan ändringar.  
 
-    I vårt exempel vill administratören ta bort behörigheten för redigering i Excel och ta bort användargruppen för *exportåtgärder för Excel* från gruppmedlemlicensen. Nya användare som tilldelats licensen Team Member kommer inte att få möjlighet att exportera data till Excel. Om organisationen ändrar sig om detta ämne kan de bara gå tillbaka till sidan **Licenskonfiguration** och stänga av anpassningen för den licenstypen.  
+    I vårt exempel vill administratören ta bort behörigheten för redigering i Excel och ta bort användargruppen för *exportåtgärder för Excel* från gruppmedlemlicensen. Efteråt kan nya användare som tilldelas Team Member-licensen inte exportera data till Excel. Om organisationen ändrar sig om detta ämne kan de bara gå tillbaka till sidan **Licenskonfiguration** och stänga av anpassningen för den licenstypen.  
 
 > [!IMPORTANT]
 > Denna anpassning av behörigheter gäller bara för nya användare som du tilldelar den aktuella licensen. Befintliga användare uppdateras inte. Vi rekommenderar att du anpassar behörigheterna innan du börjar tilldela användarlicenser i Microsoft 365 administrationscentret.
@@ -108,7 +108,7 @@ När du har lagt till användare eller ändrat användarinformation i administra
 > [!NOTE]
 > Guiden **Uppdatera användare från Microsoft 365** uppdaterar inte användare som inte har tilldelats en licens, till exempel någon som är global administratör och Dynamics 365 administratör. Dessa användare kommer att uppdateras nästa gång de loggar in på miljön.
 
-Nästa steg för nyligen skapade användare är att tilldela användargrupper och behörigheter. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md) Om du uppdaterar en användare och uppdateringen innehåller en licensförändring, kommer användarna att tilldelas rätt användargrupp och deras behörighetsuppsättningar uppdateras. Mer information finns i [Hantera behörigheter via användargrupper](ui-define-granular-permissions.md).  
+Nästa steg för nyligen skapade användare är att tilldela användargrupper och behörigheter. Mer information finns i [Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md) Om du uppdaterar en användare med en licensändring tilldelar [!INCLUDE [prod_short](includes/prod_short.md)] användare till lämplig användargrupp och uppdaterar deras behörighetsuppsättningar. Mer information finns i [Hantera behörigheter via användargrupper](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > Alla användare i en miljö måste tilldelas samma licens, antingen Essentials eller Premium. Mer information om licensiering finns på webbplatsen för [Business Central](https://dynamics.microsoft.com/business-central/overview/).
@@ -135,9 +135,9 @@ När du tilldelar en licens för [!INCLUDE[prod_short](includes/prod_short.md)] 
 - Administratören kan lägga till användaren genom att välja åtgärden **Uppdatera användare från Microsoft 365** på sidan **Användare** enligt beskrivningen i avsnittet [Lägga till en användare eller uppdatera användarinformation i Business Central](#adduser).
 - Licensinformationen uppdateras automatiskt när användaren loggar in för första gången.
 
-I båda fallen görs flera inställningar automatiskt. Dessa inställningar visas i den andra och tredje kolumnen i tabellen nedan.
+I båda fallen görs flera inställningar automatiskt. Dessa inställningar visas i den andra och tredje kolumnen i följande tabell.
 
-Om du ändrar användarinformation i Microsoft 365 kan du uppdatera [!INCLUDE[prod_short](includes/prod_short.md)] för att återspegla ändringen. Beroende på vad du vill uppdatera använder du någon av åtgärderna på sidan **Användare**. Åtgärderna beskrivs i de sista två kolumnerna i tabellen nedan.
+Om du ändrar användarinformation i Microsoft 365 kan du uppdatera [!INCLUDE[prod_short](includes/prod_short.md)] för att återspegla ändringen. Beroende på vad du vill uppdatera använder du någon av åtgärderna på sidan **Användare**. Åtgärderna beskrivs i de sista två kolumnerna i följande tabell.
 
 |Vad händer när:|Första användaren, första inloggningen|Uppdatera användare från Microsoft 365|Återställ användarens standardanvändargrupper|
 |-|-|-|-|
@@ -147,7 +147,7 @@ Om du ändrar användarinformation i Microsoft 365 kan du uppdatera [!INCLUDE[pr
 |Synkronisera användarplaner (licenser) med licenser och roller som har tilldelats i Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**INTER**|**INTER**|**INTER**|
 |Lägg till användaren i användargrupper enligt de aktuella användarplanerna. Ta bort behörighetsuppsättningen SUPER för alla användare som inte är den första användare att logga in och [administratörer](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Minst en SUPER krävs.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**INTER**|**INTER**|**INTER**<br /><br />Tar bort manuellt tilldelade användargrupper och behörigheter.|
 
-Användare kan bara komma åt [!INCLUDE[prod_short](includes/prod_short.md)] poster i Teams med deras Microsoft 365 licens. När åtkomst är aktiverad för en miljö, synkronisering med hjälp av **Uppdatera användare från Microsoft 365** action won't include users that only have a Microsoft 365 license. Om du vill inkludera dessa användare i synkronisering måste du först uppdatera miljö inställningarna genom att tilldela en säkerhets grupp som innehåller användare med [!INCLUDE[prod_short](includes/prod_short.md)] licens och användare med bara en Microsoft 365 licens.
+Användare kan bara komma åt [!INCLUDE[prod_short](includes/prod_short.md)] poster i Teams med deras Microsoft 365 licens. När åtkomst är aktiverad för en miljö, synkronisering med hjälp av åtgärden **Uppdatera användare från Microsoft 365** hoppar över användare som endast har en Microsoft 365-licens. Om du vill inkludera dessa användare i synkronisering måste du först uppdatera miljö inställningarna genom att tilldela en säkerhets grupp som innehåller användare med [!INCLUDE[prod_short](includes/prod_short.md)] licens och användare med bara en Microsoft 365 licens.
 
 Lär dig mer om hur du skyddar åtkomsten till miljöer med hjälp av säkerhets grupper vid [ Hantera åtkomst med hjälp av Microsoft Entra grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
@@ -171,9 +171,46 @@ Vid lokala distributioner kan administratören skapa, redigera och ta bort anvä
 >
 > Mer information finns under [Autentisering och autentiseringstyper](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i administrationshjälpen för [!INCLUDE[prod_short](includes/prod_short.md)].
 
+## Analysera användarstatus efter licenstyp
+
+Du kan använda funktionen **Dataanalys** för att analysera data på sidan [Användare](https://businesscentral.dynamics.com/?page=9800). Du behöver inte köra en rapport eller öppna till ett annat program, till exempel Excel. Funktionen ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Några exempel är "Användare efter status" eller "Användare efter licenstyp" eller någon annan vy du kan tänka dig. Mer information om hur du använder funktionen **Dataanalys** finns i [Analysera lista och frågedata med analysläge](analysis-mode.md).
+
+### Användaranalysscenarier
+
+Följande avsnitt ger exempel på scenarier där analys av användarlistan kan hjälpa dig att övervaka dina användares status.
+
+| Yta | Till... | Öppna sidan i analysläge | Använda dessa fält |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Användare efter status](#example-users-by-status) | Visa en lista över användare baserat på deras status (aktiverad/inaktiverad). | [Användare](https://businesscentral.dynamics.com/?page=9800) | **Status**, **Användarnamn**, **Fullständigt namn**, **E-postadress för auktorisering** och **Licenstyp**. |
+| [Användare efter licenstyp](#example-users-by-license-type) | Se en lista över användare baserat på deras licenstyp. | [Användare](https://businesscentral.dynamics.com/?page=9800) | **Licenstyp**, **Status**, **Användarnamn**, **Fullständigt namn** och **E-postadress för auktorisering**. |
+
+### Exempel: Användare efter status
+
+Så här analyserar du användare efter status:
+
+1. Öppna listan [Användare](https://businesscentral.dynamics.com/?page=9800) och välj :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivera analysläge."::: ikon för att aktivera analysläget.
+1. På menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet** till höger).
+1. Dra fälten **Status** (användare aktiverad/inaktiverad) och **Licenstyp** till området **Radgrupper**.
+1. Välj fälten **Användarnamn**, **Fullständigt namn** och **E-postadress för auktorisering**.
+1. Byt namn på analysfliken till **Användare efter status** eller något som beskriver den här analysen.
+
+Följande bild visar resultatet av de här stegen.
+
+:::image type="content" source=" media/data-analysis-users.png" alt-text="Exempel på hur du gör dataanalyser på sidan Ändringsloggtransaktioner (Vem ändrade vilka data när)." lightbox="media/data-analysis-users.png":::
+
+### Exempel: Användare efter licenstyp
+
+För att analysera användare efter licenstyp, följ dessa steg:
+
+1. Öppna listan [Användare](https://businesscentral.dynamics.com/?page=9800) och välj :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivera analysläge."::: ikon för att aktivera analysläget.
+1. På menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet** till höger).
+1. Dra fälten **Licenstyp** och **Status** (användare aktiverad/inaktiverad) till området **Radgrupper**.
+1. Välj fälten **Användarnamn**, **Fullständigt namn** och **E-postadress för auktorisering**.
+1. Byt namn på analysfliken till **Användare efter licenstyp** eller något som beskriver den här analysen.
+
 ## Se även
 
-[Tilldela behörigheter till användare och grupper](ui-define-granular-permissions.md)  
+[Tilldela användare och grupper behörigheter](ui-define-granular-permissions.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  
 [Ändra vilka funktioner som visas](ui-experiences.md)  
 [Anpassa [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  

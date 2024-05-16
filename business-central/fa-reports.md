@@ -17,9 +17,15 @@ För att hjälpa dig att hantera dina anläggningstillgångar i [!INCLUDE [prod_
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Utforska ekonomirapporter med Rapportutforskaren
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Se även
 
+[Ad hoc-analys av data för anläggningstillgångar](ad-hoc-analysis-fa.md)     
 [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)   
+[Översikt över ekonomisk analys](bi.md)   
 [Hantera anläggningstillgångar](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

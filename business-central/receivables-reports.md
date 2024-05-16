@@ -14,16 +14,23 @@ ms.service: dynamics-365-business-central
 
 För att hjälpa dig att hantera dina kundreskontra i [!INCLUDE [prod_short](includes/prod_short.md)] är standardrapporter och analyser inbyggda. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter.  
 
+
 ## Rapporter
+
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
+
+
+## Utforska ekonomirapporter med Rapportutforskaren
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
 
 ## Se även
 
-[Analysera bokslut i Microsoft Excel](finance-analyze-excel.md)  
-[Arbeta med dimensioner](finance-dimensions.md)  
-[Hantera anläggningstillgångar](fa-manage.md)  
-[Översikt över lokala funktioner](about-localization.md)  
+[Viktiga ekonomiska rapporter](finance-reports.md)  
+[Ad hoc-analys av ekonomiska data](ad-hoc-analysis-finance.md)   
+[Ekonomisk analys](bi.md)   
+[Försäljningsanalys](sales-analytics-overview.md)  
 [Revisorupplevelse i [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

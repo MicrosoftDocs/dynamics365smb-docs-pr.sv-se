@@ -24,6 +24,16 @@ För att öka en översikt av artiklar och för att söka efter dem kan du kateg
 
 Planeringen av artiklar för att motsvara efterfrågan omfattas av funktionen för leveransplanering. Läs mer i [planering](production-planning.md).  
 
+## Lageranalys
+
+I det här avsnittet beskrivs analysverktyg som du kan använda för att få insikter om dina lagerdata.
+
+| Till... | Gå till |
+| --- | --- |
+| Lär dig mer om funktioner för att analysera lagerdata. | [Översikt över försäljningsanalys](inventory-analytics-overview.md) |
+| Utför ad hoc-analys av lagerdata direkt på listsidor och frågor. | [Ad hoc-analys av lagerdata](ad-hoc-analysis-inventory.md) |
+| Utforska inbyggda lagerrapporter. | [Inbyggt lager och distributionslagerrapporter](inventory-WMS-reports.md) |
+
 ## Lageravstämning
 
 När du bokför lagertransaktioner, till exempel försäljningsutleveranser, inköpsfakturor eller lagerjusteringar, registreras de ändrade artikelkostnaderna i artikelvärdesposter. För att återspegla denna förändring i lagervärde i din bokföring kommer lagerkostnaderna automatiskt att bokföras på relaterade lagerkonton i redovisningen. För varje lagertransaktion som bokförs, bokförs lämpliga värden på lagerkontot, justeringskontot och KSV-kontot i redovisningen. Läs mer i [Stämma av lagerkostnader med redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md).

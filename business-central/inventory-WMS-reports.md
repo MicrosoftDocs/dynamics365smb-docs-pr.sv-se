@@ -44,8 +44,20 @@ När du har installerat appen kan du använda åtgärden **Skriv ut etikett** f�
 > [!NOTE]
 > Vissa skrivare och streckkods-/QR-kodformat kräver en specifik implementering. Du kan behöva ladda upp en annan Word-mall eller klona rapporten för att skapa en egen anpassad version.
 
+
+## Utforska lagerrapporter med Rapportutforskaren
+
+Om du vill ha en översikt över de rapporter som är tillgängliga för lager väljer du **Alla rapporter** på startsidan. Denna åtgärd öppnar rollutforskaren, som är filtrerad efter funktionerna i alternativet **Rapport och analys**. Under rubriken **Försäljning och marknadsföring** välj **Utforska**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Exempel på rapporter om rollcentret Ekonomi." lightbox="media/report-explorer-sales.png":::
+
+Läs mer i [Söka efter rapporter med Rollutforskaren](ui-role-explorer.md).
+
+
 ## Se även
 
+[Ad hoc-analys av lagerdata](ad-hoc-analysis-inventory.md)  
+[Översikt lageranalys](inventory-analytics-overview.md)   
 [Ställa in lager](inventory-setup-inventory.md)  
 [Lager](inventory-manage-inventory.md)  
 [Ställa in Warehouse Management](warehouse-setup-warehouse.md)  

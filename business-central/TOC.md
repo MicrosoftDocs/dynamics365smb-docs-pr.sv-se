@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligenta insikter (endast online)](about-intelligent-cloud.md)
 ## Vanliga frågor och svar
 ### [Vanliga frågor och svar](across-faq.yml)
-### [Vanliga frågor och svar om Chatt med Copilot (förhandsversion)](chat-with-copilot-faq.md)
+### [Vanliga frågor och svar om chatt med Copilot (förhandsversion)](chat-with-copilot-faq.md)
 ### [Vanliga frågor om Berätta](ui-search-faq.md)
 ### [Vanliga frågor och svar om att söka och filtrera](ui-search-filter-faq.yml)
 ### [Vanliga frågor och svar om listvyer](ui-views-faq.yml)
@@ -449,9 +449,16 @@ ms.service: dynamics-365-business-central
 ### Konfigurera och använda e-dokument
 #### [Översikt över e-dokument](finance-edocuments-overview.md)
 #### [Konfigurera e-dokument](finance-how-setup-edocuments.md)
-#### [Använda e-dokument vid försäljning och inköp](finance-how-use-edocuments.md)
+#### [Använda e-dokument vid försäljning](finance-how-use-edocuments.md)
+#### [Använda e-dokument vid inköp](finance-how-use-edocuments-purchase.md)
 #### [Konfigurera anslutningsprogrammet för e-dokument med externa slutpunkter](finance-how-setup-edocuments-external.md)
 #### [Utöka funktionaliteten för e-dokument](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Hållbarhetsstyrning
+#### [Översikt över hållbarhetsstyrning](finance-manage-sustainability.md)
+#### [Hållbarhetskonfiguration](finance-sustainability-setup.md)
+#### [Kontoplan för hållbarhetskonton och huvudbok](finance-sustainability-accounts-ledger.md)
+#### [Hur du registrerar utsläpp av växthusgaser](finance-sustainability-journal.md)
 
 ### [Organisationer med utlokaliserad verksamhet och internationella organisationer](finance-multi-site-organizations.md)
 #### Konsolidera ekonomiska data från flera företag
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Analysera data med statistiska konton](bi-use-statistical-accounts.md)
 #### [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Ad hoc-analys av finansdata](ad-hoc-analysis-finance.md)
 
 ### Inbyggda verktyg för ekonomisk analys
 #### [Analysera ekonomiska data från kontoplanen](finance-general-ledger.md)
@@ -549,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Lager
 ### [Lageröversikt](inventory-manage-inventory.md)
-### [Lager och distributionslagerrapporter](inventory-WMS-reports.md)
+### Lageranalys 
+#### [Översikt över lageranalys](inventory-analytics-overview.md)
+#### [Ad hoc-analys av lagerdata](ad-hoc-analysis-inventory.md)
+#### [Inbyggda lager och distributionslagerrapporter](inventory-WMS-reports.md)
 ### [Registrera nya artiklar](inventory-how-register-new-items.md)
 ### [Arbeta med strukturlistor](inventory-how-work-BOMs.md)
 ### [Kategorisera artiklar](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Anläggningstillgångar
 ### [Översikt över anläggningstillgångar](fa-manage.md)
+
 ### Analys av anläggningstillgångar
 #### [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)
+#### [Ad hoc-analys av data för anläggningstillgångar](ad-hoc-analysis-fa.md)
 #### Inbyggda verktyg för analys av anläggningstillgångar
 ##### [Övervaka underhållskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Bevaka försäkringsskydd](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Inbyggda rapporter om anläggningstillgångar](fa-reports.md)
+
 ### [Konfigurera anläggningstillgångar](fa-setup.md)
 ### [Avskrivningsmetoder](fa-depreciation-methods.md)
 ### [Hantera budgetar och anläggningstillgångar](fa-how-manage-budgets.md)
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Lokala funktioner
 ### [Översikt över lokala funktioner](about-localization.md)
+### [Utveckling av validerade lokaliseringsappar](about-validated-localization-apps.md)
 
 ### Australien
 #### [Översikt över den australiensiska versionen](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -1567,7 +1581,11 @@ ms.service: dynamics-365-business-central
 #### [Lokala funktioner i den amerikanska versionen](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Moms
 ##### [Grundläggande momsinställningar](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Rapportering av moms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Rapportering av moms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Introduktion till IRS 1099-formulären och dess funktionalitet](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Konfigurera och använda IRS 1099-formuläret för version 24 (utgivningscykel 1 för 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [Använda IRS 1099-formulären](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [Skicka in och rapportera IRS 1099-formulären](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [Konfigurera och använda formuläret IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Föreskrift 1099 – formatändringar och information](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Konfigurera och använda formuläret IRS 1096](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Analyser, business intelligence och rapportering 
 
 ## [Översikt över analyser](reports-bi-reporting.md)
-## [Använda nyckeltal (KPI:er) för att uppfylla dina verksamhetsmål](./analytics-about-kpis.md)
-## [Använda ekonomisk rapportering](bi-how-work-account-schedule.md)
+## [Analys efter huvudområde](analytics-by-functional-area.md)
+
+## KPI:er, instrumentpaneler och ekonomiska rapporter
+### [Använda Key Performance Indicators (KPI:er) för att uppfylla dina verksamhetsmål](analytics-about-kpis.md)
+### [Introduktion till Business Central och Power BI](admin-powerbi.md)
+### [Arbeta med Power BI-rapporter](across-working-with-powerbi.md)
+### [Spåra KPI:er med Power BI-mätvärden](track-kpis-with-power-bi-metrics.md)
+### [Använda ekonomisk rapportering](bi-how-work-account-schedule.md)
 
 ## Ad hoc-dataanalys
 ### [Översikt](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Analysera siddata i Excel](across-work-with-excel.md)
 ### [Analysera rapportdata med Excel](report-analyze-excel.md)
 ### [Analysera listdata och frågedata med analysläge](analysis-mode.md)
-
-## Inbyggda analysverktyg
-### [Översikt](reports-built-in-analytics.md)
-### [Arbeta med Power BI-rapporter](across-working-with-powerbi.md)
-### [Intelligenta insikter (lokalt)](about-intelligent-cloud.md)
-### [Telemetri för rapportanvändning](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Ad hoc-analys av data efter huvudområde](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Använda rapporter i det dagliga arbetet
 ### [Översikt](reports-use-reports.md)
@@ -1834,44 +1853,21 @@ ms.service: dynamics-365-business-central
 ## Inbyggda rapporter
 ### [Rapportöversikt](reports-available-reports.md)
 ### Ekonomi
-#### [Ekonomisk business intelligence](bi.md)
-#### [Analysera bokslut med Excel](finance-analyze-excel.md)
+#### [Förbereda ekonomisk rapportering](bi-how-work-account-schedule.md)
 #### [Viktiga ekonomiska rapporter](finance-reports.md)
 #### [Kundreskontrarapporter](receivables-reports.md)
 #### [Leverantörsreskontrarapporter](payables-reports.md)
-#### [Kassaflödesanalys](finance-setup-cash-flow-analyses.md)
-#### [Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)
 
-### Försäljning
-#### [Försäljningsrapporter](sales-reports.md)
-#### [Status för avropsorder för försäljning](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Paketspårning](sales-how-track-packages.md)
-#### [Visa ej bokförda och bokförda avropsorderrader försäljning](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Inköp
-#### [Inköpsrapporter](purchase-reports.md)
-#### [Visa inköpstransaktioner](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Lager och distributionslager
-#### [Lager och distributionslagerrapporter](inventory-wms-reports.md)
-#### [Artikeldisposition](inventory-how-availability-overview.md)
-#### [Spåra artiklar med serie-, parti- eller paketnummer](inventory-how-work-item-tracking.md)
-#### [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)
-#### [Granska avstämningen mellan inventeringen och redovisningen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Visa direktutlevererade artiklar i utleveranser eller plockningsförslag](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Försäljningsrapporter](sales-reports.md)
+### [Inköpsrapporter](purchase-reports.md)
+### [Lager och distributionslagerrapporter](inventory-wms-reports.md)
 
 ### Projekt
 #### [Projektrapporter](project-reports.md)
 #### [Visa projektförbrukning och uppskattningar](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Övervaka projektframsteg och resultat](projects-how-monitor-progress-performance.md)
 
-### Anläggningstillgångar
-#### [Anläggningstillgångsrapporter](fa-reports.md)
-#### [Övervaka underhållskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Bevaka försäkringsskydd](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Visa ändrade värden för avskrivningsregler](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Anläggningstillgångsrapporter](fa-reports.md)
 
 ### Monteringshantering
 #### [Monteringshanteringsrapporter](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Översikt över serviceorder](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Översikt över serviceofferter](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Översikt över bokfört servicedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Telemetri för rapportanvändning](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Utveckla rapporter
 ### [Översikt](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Analysera data i business intelligence-verktyg
 ### [Översikt](reports-external-analysis.md)
 ### [Microsoft Fabric och Business Central](admin-fabric.md)
-### [Använda Power BI med Business Central](admin-powerbi.md)
-### [Analysera bokslut med Excel](finance-analyze-excel.md)
 ### [Hämta data till ett datadistributionslager eller datasjöar](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Läsa data med Business Central-API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Intelligenta insikter (lokalt)](about-intelligent-cloud.md)
 
 
 # Säkerhet, sekretess och regelefterlevnad

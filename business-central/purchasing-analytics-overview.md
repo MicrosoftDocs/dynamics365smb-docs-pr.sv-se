@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-in-purchasing"></a>Analys vid inköp
+# Analys vid inköp
 
 Företag samlar in massor av data under dagliga aktiviteter som stödjer business intelligence (BI) för inköpschefer:
 
@@ -30,7 +30,7 @@ Var och en av dessa funktioner har fördelar och nackdelar, beroende på typ av 
 
 Den här artikeln beskriver hur du kan använda dessa analysfunktioner för att få köpinsikter.
 
-## <a name="analytics-needs-in-purchasing"></a>Analysbehov inom inköp
+## Analysbehov inom inköp
 
 När du tänker på analysbehoven vid inköp kan det hjälpa att använda en personbaserad modell som beskriver olika analysbehov på hög nivå.
 
@@ -47,14 +47,14 @@ Människor i olika roller har olika behov när det gäller data och de använder
 |Inköpsansvarig/Inköpsagent | Detaljerad data     | Inbyggda operativa rapporter <br> Uppgiftsdata på skärmen |
 
 <!-- 
-## <a name="purchasing-kpis"></a>Purchasing KPIs
+## Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Använd ekonomisk rapportering för att göra finansiella rapporter och KPI:er (relaterad till inköp)
+## Använd ekonomisk rapportering för att göra finansiella rapporter och KPI:er (relaterad till inköp)
 
 Funktionen **Ekonomiska rapporter** ger dig insikter i ekonomiska data som visas på din kontoplan. Du kan ställa in ekonomiska rapporter till att analysera siffror för redovisningskonton och jämför redovisningstransaktioner med budgettransaktioner. När det gäller inköp kan du skapa ekonomiska rapporter på de redovisningskonton som du använder för att spåra inköpsbokföringar.
 
@@ -62,13 +62,13 @@ Dimensioner spelar en viktig roll i Business Intelligence. En dimension är data
 
 Läs mer om ekonomiska rapporter i [Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>Ekonomisk rapportering över affärsenheter eller juridiska personer (relaterat till inköp)
+## Ekonomisk rapportering över affärsenheter eller juridiska personer (relaterat till inköp)
 
 Vissa organisationer använder [!INCLUDE [prod_short](includes/prod_short.md)] i flera affärsenheter eller juridiska enheter. Andra använder [!INCLUDE [prod_short](includes/prod_short.md)] i dotterbolag som rapporterar till överordnade organisationer. [!INCLUDE [prod_short](includes/prod_short.md)] ger revisorer verktyg som hjälper dem att överföra redovisningstransaktioner från två eller flera företag (dotterbolag) till ett konsoliderat företag. Särskilt för inköpshantering kanske du vill konsolidera redovisningstransaktioner för dina inköpskonton för att spåra försäljnings-KPI:er över affärsenheter eller juridiska personer.
 
 Mer information finns i [Företagskonsolidering](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-purchasing-data"></a>Ad hoc-analys av inköpsdata
+## Ad hoc-analys av inköpsdata
 
 Ibland behöver du bara kontrollera om siffrorna lägger till korrekt eller snabbt bekräfta en siffra. Följande funktioner är bra för ad hoc-analyser:
 
@@ -88,7 +88,7 @@ På samma sätt kan du använda åtgärden **Öppna i Excel** för att öppna en
 
 Mer information om hur du gör ad hoc-analyser av inköpsdata finns i [Ad hoc-analys av inköpsdata](ad-hoc-analysis-purchasing.md).
 
-## <a name="built-in-reports-for-purchasing"></a>Inbyggda rapporter för inköp
+## Inbyggda rapporter för inköp
 
 [!INCLUDE [prod_short](includes/prod_short.md)] innehåller flera inbyggda rapporter, spårningsfunktioner och verktyg som hjälper inköpsorganisationer att rapportera om sina data.
 
@@ -103,13 +103,16 @@ Om du vill ha en översikt över tillgängliga rapporter väljer du **Alla rappo
 
 Mer information om rapporter som är relevanta för inköp finns i [Inbyggda inköpsrapporter](purchase-reports.md).
 
-## <a name="on-screen-purchasing-analytics"></a>Inköpsanalys på skärmen
+## Inköpsanalys på skärmen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flera sidor som ger dig inköpsöversikter och uppgifter att göra. Här är ett exempel på hur du kan komma igång:
 
+- [Visa artikeldisposition](inventory-how-availability-overview.md)  
 - [Beräkna datum för inköp](purchasing-date-calculation-for-purchases.md)
+- [Visa inköpstransaktioner](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Visa inköpsrelaterade redovisningstransaktioner och saldon från sidan Kontoplan
+
+### Visa inköpsrelaterade redovisningstransaktioner och saldon från sidan Kontoplan
 
 På sidan Kontoplan visas alla redovisningskonton med aggregerade siffror på det som bokförs i redovisningen. Från den här sidan kan du göra saker som:  
 
@@ -123,7 +126,7 @@ För inköp kan du skapa en vy på sidan Kontoplan som bara visar de konton som 
 
 För mer information, gå till [Förstå kontoplanen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Analysera data efter dimensioner (relaterade till inköp)
+### Analysera data efter dimensioner (relaterade till inköp)
 
 Dimensioner är värden som kategoriserar transaktioner så att du kan spåra och analysera dem i dokument, exempelvis inköpsorder. Dimensioner kan till exempel ange vilket projekt eller vilken avdelning en transaktion kom ifrån.  
 
@@ -131,7 +134,7 @@ I stället för att skapa separata redovisningskonton för varje avdelning eller
 
 Läs mer i [Analysera data efter dimensioner](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Företagskonsolidering](finance-consolidated-company-reporting.md)  
 [Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier](bi-how-work-account-schedule.md)  
