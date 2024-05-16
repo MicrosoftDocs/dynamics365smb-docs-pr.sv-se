@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ekonomihantering
+# <a name="financial-management"></a>Ekonomihantering
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderar standardkonfigurationen för de flesta finansiella processer, men du kan ändra den så att den passar dina behov. Läs mer i [Ställa in finanser](finance-setup-finance.md).
 
@@ -20,13 +20,13 @@ Standardinställningkonfigurationen innehåller en kontoplan och standardbokför
 
 Följande avsnitt beskriver en serie uppgifter, med länkar till de avsnitt där de beskrivs.  
 
-## Ta en videorundtur
+## <a name="take-a-video-tour"></a>Ta en videorundtur
 
 I detta videoklipp beskrivs några av huvudfunktionerna för att hantera finanser. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Kom igång med ekonomifunktioner
+## <a name="get-started-with-finance-capabilities"></a>Kom igång med ekonomifunktioner
 
 Innan du kan börja driva ditt företag måste du ange hur du vill hantera företagets finansprocesser.
 
@@ -35,7 +35,7 @@ Innan du kan börja driva ditt företag måste du ange hur du vill hantera före
 | Ändra standardkonfigurationen för [!INCLUDE[prod_short](includes/prod_short.md)] för de flesta finansiella processer så att den passar dina behov. | [Ställa in Finance](finance-setup-finance.md) | 
 | Läs om redovisningen och kontoplanen. |[Så här fungerar i redovisningen och kontoplanen](finance-general-ledger.md) |
 
-## Bokföring
+## <a name="accounting"></a>Bokföring
 
 I det här avsnittet beskrivs några av de redovisningsverktyg som du använder för att registrera ekonomiska transaktioner så att de uppfyller dina krav på registrering, rapportering och chefsfinansiering.
 
@@ -49,7 +49,7 @@ I det här avsnittet beskrivs några av de redovisningsverktyg som du använder 
 | Lär dig mer om tillgängliga alternativ för att automatiskt skicka prenumerationsfakturor till kunder och registrera återkommande intäkter. |[Arbeta med återkommande intäkter](finance-recurring-invoicing.md)|
 |Bokföra kostnader för anställda för arbetsrelaterade aktiviteter och göra återbetalningar direkt till medarbetarbankkonton.|[Skapa och återbetala de anställdas utgifter](finance-how-record-reimburse-employee-expenses.md)|
 
-## Ekonomisk analys
+## <a name="financial-analytics"></a>Ekonomisk analys
 
 I det här avsnittet beskrivs analysverktyg som du kan använda för att få insikter om dina ekonomiska data.
 
@@ -67,7 +67,7 @@ I det här avsnittet beskrivs analysverktyg som du kan använda för att få ins
 | Utforska inbyggda rapporter om kundfordringar. | [Inbyggda kundreskontrarapporter](receivables-reports.md)
 | Utforska inbyggda rapporter om leverantörsskulder. | [Inbyggda leverantörsreskontrarapporter](payables-reports.md)
 
-## Moms och skatter
+## <a name="vat-and-taxes"></a>Moms och skatter
 
 Det är enkelt att arbeta med moms i [!INCLUDE[prod_short](includes/prod_short.md)] och du kan antingen använda en manuell eller automatisk inställning. I de här artiklarna finns information om hur du uppfyller lands-/regionspecifika bestämmelser.
 
@@ -77,7 +77,7 @@ Det är enkelt att arbeta med moms i [!INCLUDE[prod_short](includes/prod_short.m
 |Förbereda en rapport över moms från försäljning och skicka rapporten till en skattemyndighet inom Europeiska unionen (EU). | [Rapportera moms till skattemyndigheterna](finance-how-report-vat.md)|
 |Manuellt omvandla servicekontrakt för att ändra deras momssats.|[Omvandla servicekontrakt som innehåller momsbelopp](service-how-to-convert-service-contracts.md)|
 
-## Hantera leverantörsreskontra och kundreskontra
+## <a name="manage-receivables-and-payables"></a>Hantera leverantörsreskontra och kundreskontra
 
 Kärnan i finansiering centreras kring att hantera leverantörsreskontra och kundreskontra, registrera transaktioner, avstämma bankkonton, betala leverantörer, ta emot kundbetalningar, ersätta anställda för utlägg och så vidare. Det här avsnittet innehåller länkar till de grundläggande begreppen.
 
@@ -88,7 +88,7 @@ Kärnan i finansiering centreras kring att hantera leverantörsreskontra och kun
 |Be kunderna skicka betalning innan du levererar till dem eller skicka betalning till dina leverantörer innan de levererar till dig.|[Fakturera förskottsbetalningar](finance-invoice-prepayments.md)|
 | Stämma av och överföra pengar mellan bankkonton. |[Jämka bankkonton](bank-manage-bank-accounts.md) |
 
-## Hantera flera företag
+## <a name="manage-multiple-companies"></a>Hantera flera företag
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ger små och medelstora företag en affärshanteringslösning som är lätt att använda och som upprätthålls till en låg ägandekostnad.
 
@@ -98,7 +98,7 @@ Kärnan i finansiering centreras kring att hantera leverantörsreskontra och kun
 |Kombinera redovisningstransaktioner från flera företag i ett enda virtuellt konsoliderat företag för ekonomisk analys.|[Konsolidera ekonomiska data från flera företag](finance-consolidated-company-reporting.md)|
 | Samarbeta närmare med närstående företag som du har tillgång till och få information om KPI-data. | [Hantera arbete i flera företag med företagsnavet](company-hub.md)|
 
-## Periodslutsrapportering och relaterade uppgifter
+## <a name="period-end-reporting-and-related-tasks"></a>Periodslutsrapportering och relaterade uppgifter
 
 I slutet av varje bokföringsperiod eller i slutet av räkenskapsåret finns det ett antal administrativa uppgifter att utföra. Du vill till exempel se till att alla dokument och journaler är bokförda, se till att valutadata är uppdaterade, avsluta böckerna och så vidare. De faktiska uppgifterna beror på ditt företag.
 
@@ -108,7 +108,7 @@ I slutet av varje bokföringsperiod eller i slutet av räkenskapsåret finns det
 | Importera löntransaktioner från ditt lönesystem till redovisningen. |[Importera lönetransaktioner](finance-how-import-payroll-transactions.md)|
 |För mer information om hur du använder rollcentret Revisor, kontakta en extern revisor och använd företagsnavet för att hantera konton för flera klienter.|[Revisorlösningar i Business Central ](finance-accounting.md)| 
 
-## Företagsledningens bokföring
+## <a name="managerial-accounting"></a>Företagsledningens bokföring
 
 Som Business Manager eller kontrollant är det viktigt att du kan förbereda och analysera de affärsdata du behöver för att fatta välgrundade beslut. Artiklarna i följande tabell hjälper dig att förbereda data. Mer information om analyser finns i [Business Intelligence och rapporteringsöversikt](reports-bi-reporting.md).
 
@@ -119,13 +119,13 @@ Som Business Manager eller kontrollant är det viktigt att du kan förbereda och
 |Följ en heltäckande process som beskriver hur du använder ekonomiska rapporter för att göra kassaflödesprognoser.|[Genomgång: Utföra kassaflödesprognoser genom att använda ekonomiska rapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbeta med finansiella rapporter och översikter i Microsoft Excel. |[Analysera finansiella rapporter i Excel](finance-analyze-excel.md) |
 
-## Gratis e-inlärningsmoduler
+## <a name="free-e-learning-modules"></a>Gratis e-inlärningsmoduler
 
 Vill du lära dig mer om [!INCLUDE[prod_short](includes/prod_short.md)] i din egen takt? 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ställa in Finance](finance-setup-finance.md)  
 [Arbeta med modulen Försäljning](sales-manage-sales.md)  

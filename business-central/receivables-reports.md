@@ -10,22 +10,22 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Kundreskontra, rapporter och analyser
+# <a name="accounts-receivable-reports-and-analytics"></a>Kundreskontra, rapporter och analyser
 
 För att hjälpa dig att hantera dina kundreskontra i [!INCLUDE [prod_short](includes/prod_short.md)] är standardrapporter och analyser inbyggda. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter.  
 
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## Utforska ekonomirapporter med Rapportutforskaren
+## <a name="explore-finance-reports-with-report-explorer"></a>Utforska ekonomirapporter med Rapportutforskaren
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Viktiga ekonomiska rapporter](finance-reports.md)  
 [Ad hoc-analys av ekonomiska data](ad-hoc-analysis-finance.md)   

@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Använda e-dokument i inköpsprocessen
+# <a name="use-e-documents-in-the-purchases-process"></a>Använda e-dokument i inköpsprocessen
 
 Du kan använda konfigurerade elektroniska dokument (e-dokument) med inköpsdokument.
 
@@ -25,11 +25,11 @@ Följande inköpsdokument kan användas med funktionen för e-dokument:
 > [!NOTE]
 > Från [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0 är det möjligt att ansluta **inköpsorder** till mottagna **e-dokument**.  
 
-## E-dokument vid köp
+## <a name="e-documents-in-purchases"></a>E-dokument vid köp
 
 Inleveransen av elektroniska inköpsdokument i Dynamics 365 Business Central kan göras som ett batchjobb eller manuellt.  
 
-### Så här ställer du in leverantörer så att de kan arbeta med olika inköpsdokument  
+### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Så här ställer du in leverantörer så att de kan arbeta med olika inköpsdokument
 
 Följ stegen för att konfigurera leverantörer så att de fungerar korrekt med inkommande elektroniska fakturor: 
 
@@ -46,9 +46,9 @@ Följ stegen för att konfigurera leverantörer så att de fungerar korrekt med 
 4. Välj ett av alternativen som du vill använda för den valda leverantören. 
 5. Stäng sidan.   
 
-### Arbeta med inköpsfakturor  
+### <a name="to-work-with-purchase-invoices"></a>Arbeta med inköpsfakturor
 
-#### Kör batch-jobbet  
+#### <a name="run-the-batch-job"></a>Kör batch-jobbet
 
 > [!NOTE]
 > Det här batchjobbet används för automatisk insamling av dina inkommande fakturor. Det kan bara fungera i ett land eller en region där funktionen finns.  
@@ -76,7 +76,7 @@ Det finns två vanliga fel:
 
 När du har åtgärdat felen och varningarna kan du manuellt ange när systemet ska skapa en inköpsfaktura baserat på dina inställningar genom att välja **Skapa dokument**.   
 
-#### Manuellt importera fakturor  
+#### <a name="manually-import-invoices"></a>Manuellt importera fakturor
 
 Så här importerar du externa e-dokument manuellt:
 
@@ -87,9 +87,9 @@ Så här importerar du externa e-dokument manuellt:
 5. När du har åtgärdat problem, i **Importera manuellt**, välj **Skapa dokument**.  
 6. När dokumentet har skapats i [!INCLUDE[prod_short](includes/prod_short.md)] ändras inte sättet du visar det på när du använder ett batch-jobb. 
 
-### E-dokument med inköpsorder  
+### <a name="e-documents-with-purchase-orders"></a>E-dokument med inköpsorder
 
-#### För att koppla inköpsorder med mottagna e-dokument
+#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>För att koppla inköpsorder med mottagna e-dokument
 
 Om din **Leverantör** har konfigurerat fältet **Ta emot e-dokument till** så att det fungerar med **Inköpsorder**, när ett elektroniskt dokument har skapats i [!INCLUDE[prod_short](includes/prod_short.md)] (manuellt eller från en extern slutpunkt), [!INCLUDE[prod_short](includes/prod_short.md)] gör du följande:  
 
@@ -99,7 +99,7 @@ Om din **Leverantör** har konfigurerat fältet **Ta emot e-dokument till** så 
 
 3. Om **inköpsordern** för den här leverantören inte finns när ett nytt **e-dokument** skapas kommer [!INCLUDE[prod_short](includes/prod_short.md)] att skapa en ny **inköpsorder** med hjälp av samma modell för skapande som redan finns för nya **inköpsfakturor**. **Dokumentstatusen** för det här **e-dokumentet** kommer att vara **behandlad** och **Status för e-dokument** på undersidan **Servicestatus** kommer att vara **Importerat dokument har skapats**. Den här länken kommer att visas i fältet **Dokument** på det specifika **e-dokumentet**.   
 
-#### Matcha rader från mottaget e-dokument med inköpsorder  
+#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Matcha rader från mottaget e-dokument med inköpsorder
 
 Du kan matcha dina mottagna elektroniska dokument med inköpsorderrader från två olika ställen, från sidan **E-dokument** eller från sidan **Inköpsorder**. Det enklaste sättet att hitta de redan länkade **inköpsordrarna** är att använda panelen **Länkade inköpsorder** som en del av **e-dokumentaktiviteterna**. Alla icke-länkade dokument kan hittas med hjälp av panelen **Väntar på e-fakturor** där du har en lista med **e-dokument** som du behöver granska.  
 
@@ -109,7 +109,7 @@ Du kan matcha dina mottagna elektroniska dokument med inköpsorderrader från tv
 > [!NOTE]
 > Om momsprocenten skiljer sig mellan det inkommande dokumentet och företagets momsprocent kan matchande dokument inte användas i miljöer med flera länder.  
 
-##### Matcha rader från inköpsorder  
+##### <a name="matching-lines-from-purchase-order"></a>Matcha rader från inköpsorder
 
 Du kan matcha raderna från listan **Inköpsorder** eller från en av de öppnade **inköpsorderna**. För att börja med detta använder du följande steg:  
 
@@ -159,7 +159,7 @@ Om du vill lägga till lite tolerans och tillåta skillnaden mellan rader i **E-
 3. Den här inställningen gäller för alla matchande rader, men återigen beaktas toleransen för det totala beloppet, som för **Enhetspris senaste inköp** tillsammans med tillämpad **radrabatt %**.  
 4. Stäng sidan.   
 
-##### Matchande rader från e-dokument  
+##### <a name="matching-lines-from-e-document"></a>Matchande rader från e-dokument
 
 Du kan matcha raderna på sidan **E-dokument**. För att börja använder du följande steg:  
 
@@ -168,7 +168,7 @@ Du kan matcha raderna på sidan **E-dokument**. För att börja använder du fö
 3. Välj åtgärden **Matcha inköpsorder** för att öppna sidan **Matchning av inköpsorder**.  
 4. Upprepa samma steg som du använde när du började matcha från inköpsorder.
 
-### Copilot för matchningshjälp för e-dokument  
+### <a name="e-document-matching-assistance-copilot"></a>Copilot för matchningshjälp för e-dokument
 
 > [!NOTE]
 > För närvarande har copilot **Matchningshjälp för e-dokument** steget produktionsklar förhandsversion och är tillgänglig globalt utom i Kanada. Det fungerar bara på engelska. 
@@ -176,7 +176,7 @@ Du kan matcha raderna på sidan **E-dokument**. För att börja använder du fö
 > [!NOTE]
 > Copilot är en AI-driven assistent som hjälper användare i hela organisationen att arbeta kreativt och automatisera rutinmässiga uppgifter. Copilot för **Matchningshjälp för e-dokument** hjälper användare att enkelt matcha sina mottagna elektroniska fakturor med befintliga inköpsorderrader, med hjälp av LLM-modellen för att matcha rader mellan två olika dokument. 
 
-#### Så här aktiverar du copilot  
+#### <a name="to-activate-the-copilot"></a>Så här aktiverar du copilot
 
 Om du inte har aktiverat copilot för **Matchningshjälp för e-dokument** måste du göra det manuellt. För att aktivera copilot för **Matchningshjälp för e-dokument** följer du stegen nedan: 
 
@@ -185,7 +185,7 @@ Om du inte har aktiverat copilot för **Matchningshjälp för e-dokument** måst
 
 När copilot är aktiverad kan du börja använda den.
 
-#### Använd copilot för matchningshjälp för e-dokument 
+#### <a name="use-the-e-document-matching-assistance-copilot"></a>Använd copilot för matchningshjälp för e-dokument
 
 Om copilot är aktiverad kommer befintliga åtgärder **Mappa e-dokumentrader** på inköpsorder och **Matcha inköpsorder** på sidan **E-dokument** kommer att få olika ikoner, som symboliserar AI-funktionen. Du kan köra dessa åtgärder (som i tidigare exempel i listan över inköpsorder), från en av **inköpsorderna** eller från **E-dokument**. Alla steg för körning är desamma, men när du kör den här åtgärden blir resultatet annorlunda och du måste följa stegen:  
 
@@ -230,7 +230,7 @@ Om copilot är aktiverad kommer befintliga åtgärder **Mappa e-dokumentrader** 
 > [!NOTE]
 > Pris/kostnadsanalys och kontroll av tillgänglig kvantitet är en del av förbearbetningsaktiviteten.   
 
-## Översikt över status för e-dokument
+## <a name="overview-of-e-document-statuses"></a>Översikt över status för e-dokument
 
 Om du vill få en bättre överblick över alla e-dokument i företaget kan du välja det rollcenter för **Revisor** där det finns e-dokumentstatus. Där kan du hitta e-dokumentaktiviteter som har följande status:
 
@@ -241,7 +241,7 @@ Om du vill få en bättre överblick över alla e-dokument i företaget kan du v
     - Fel
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Konfigurera e-dokument](finance-how-setup-edocuments.md)    
 [Använda e-dokument i försäljningsprocessen](finance-how-use-edocuments.md)   

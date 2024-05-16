@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Hållbarhetskonfiguration  
+# <a name="sustainability-setup"></a>Hållbarhetskonfiguration
 
 För att hållbarhetsmodulen ska fungera korrekt måste du först ställa in några grundläggande kontroller och instruktioner relaterade till hela funktionen.  
 
@@ -53,7 +53,7 @@ Följ följande steg för att konfigurera en hållbarhetsmodul:
 >[!NOTE]
 > I version 24.0 [!INCLUDE[prod_short](includes/prod_short.md)] stöds inte rapportering till någon myndighet. Fält relaterade till konfiguration på snabbfliken **Rapportering** kommer därför att användas för framtida rapporteringsfunktioner, men det kan också användas av partner i lokaliserade versioner.
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Ekonomi](finance.md)  
 [Översikt över hållbarhetshantering](finance-manage-sustainability.md)    
 [Diagram över hållbarhetskonton och redovisning](finance-sustainability-accounts-ledger.md)    
