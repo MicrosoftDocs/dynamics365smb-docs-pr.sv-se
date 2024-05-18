@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analys av lagerdata
+# <a name="ad-hoc-analysis-of-inventory-data"></a>Ad hoc-analys av lagerdata
 
 Den här artikeln förklarar hur du använder funktionen **Dataanalys** för att analysera lagerdata direkt från listsidor och frågor. Du behöver inte köra en rapport eller växla till ett annat program, till exempel Excel. Funktionen ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Några exempel är "lager som löper ut" eller "bästsäljare" eller någon annan vy du kan tänka dig. Mer information om hur du använder funktionen **Dataanalys** finns i [Analysera lista och frågedata med analysläge](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Använd följande listsidor för ad hoc-analys av lagerprocesser:
 
 - [Artikeltransaktioner](https://businesscentral.dynamics.com/?page=38)
 
-## Scenarier för ad hoc-analys för inventering
+## <a name="inventory-ad-hoc-analysis-scenarios"></a>Scenarier för ad hoc-analys för inventering
 
 Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
@@ -38,7 +38,7 @@ Följande avsnitt innehåller exempel på lagerscenarier i [!INCLUDE [prod_short
 | Inventering genomströmning | Få en översikt över inköp och försäljning i lagret per månad eller kvartal. | [Artikeltransaktioner](https://businesscentral.dynamics.com/?page=38) | **Bokföringsdatum år**, **Bokföringsdatum månad**, **Artikelnr**, **Antal**, **Försäljningsbelopp**, **Kostnadsbelopp (aktuellt)** och **Bokföringsdatummånad** |
 | [Lagerförflyttningar] | Få en översikt över hur varor i ditt lager flyttas mellan lagerställen. | [Artikeltransaktioner](https://businesscentral.dynamics.com/?page=38) | **Lagerställekod**, **Antal**, **Bokföringsdatum**, **Artikelnr.** |
 
-## Exempel: Lagerbehållning
+## <a name="example-inventory-on-hand"></a>Exempel: Lagerbehållning
 
 Så här analyserar du artiklar i lagret som finns i lager:
 
@@ -54,7 +54,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Exempel på hur du gör en analys av tillgängligt lager." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## Exempel: spår som går ut eller gammalt lager
+## <a name="example-track-expiring-or-old-stock"></a>Exempel: spår som går ut eller gammalt lager
 
 För att analysera artiklar i ditt lager som har funnits i lager länge och som inte säljer bra följer du stegen nedan:
 
@@ -69,7 +69,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Exempel på hur du gör dataanalyser av dödlager på sidan Artikeltransaktioner." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## Exempel: Returnerade artiklar efter returorsak
+## <a name="example-returned-items-by-return-reason"></a>Exempel: Returnerade artiklar efter returorsak
 
 Så här analyserar du returnerade artiklar sorterade efter orsakerna till att de returneras:
 
@@ -83,7 +83,7 @@ Så här analyserar du returnerade artiklar sorterade efter orsakerna till att d
 1. Lägg till eventuella andra fält som du vill ha med i analysen och aktivera dem i området **Kolumner**. Du kan till exempel lägga till fälten **Bokföringsdatum**, **Dokumenttyp**, **Artikelnr No.** och **Dokumentnr.**.
 1. Byt namn på analysfliken till **Returnerade artiklar efter returorsak** eller något som beskriver den här analysen för dig.  
 
-## Exempel: Inventering genomströmning
+## <a name="example-inventory-throughput"></a>Exempel: Inventering genomströmning
 
 1. Öppna listan [Artikeltransaktioner](https://businesscentral.dynamics.com/?page=38) och välj :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivera analysläge."::: för att aktivera analysläget.
 1. Gå till menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet** till höger).
@@ -93,7 +93,7 @@ Så här analyserar du returnerade artiklar sorterade efter orsakerna till att d
 1. Dra **Bokföringsdatum månad** till området **Kolumngrupper**.
 1. Byt namn på analysfliken till **Lageromsättning per månad** eller något som beskriver den här analysen.  
 
-## Lagerförflyttningar
+## <a name="inventory-movements"></a>Lagerförflyttningar
 
 Så här spårar du lagertransporter mellan lagerställen:
 
@@ -107,7 +107,7 @@ Så här spårar du lagertransporter mellan lagerställen:
    > [!TIP]
    > Om du lägger till fältet Bokföringsdatum kan du även spåra rörelser över tid.
 
-## Underlag för ad hoc-analys av lager
+## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Underlag för ad hoc-analys av lager
 
 När du bokför en försäljningsorder, [!INCLUDE [prod_short](includes/prod_short.md)] uppdaterar kundens konto, huvudbokskonto och artikeltransaktioner.
 
@@ -117,7 +117,7 @@ När du bokför ett inköpdokument uppdaterar [!INCLUDE [prod_short](includes/pr
 
 - För varje inköpsrad skapas transaktioner i tabellen **Artikeltransaktion** (om inköpsraden är av typen Artikel). Dessutom registreras inköpsdokument alltid i tabellerna **Inleveranshuvud** och **Inköpsfakturahuvud**. Läs mer på [Bokföra inköp](purchasing-how-record-purchases.md#posting-purchases).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Analysera listdata och frågedata med analysläge](analysis-mode.md)  
 [Översikt lageranalys](inventory-analytics-overview.md)  
