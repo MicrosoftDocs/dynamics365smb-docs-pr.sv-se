@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="service-management"></a>Servicehantering
+# Servicehantering
 
 > [!NOTE]
 > Funktionen som beskrivs i det här avsnittet och underavsnitt visas endast i användargränssnittet om du har **Premium**-upplevelsen. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
@@ -34,7 +34,7 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de artiklar dä
 |Skapa och hantera avtal mellan dig och kunderna.|[Uppfylla servicekontrakt](service-fulfill-service-contracts.md)|  
 |Ge kunder service och fakturera serviceorder.|[Leverera service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Se även
+## Se även  
 
 [Hantera kundreskontra](receivables-manage-receivables.md)  
 [Projekt](projects-how-create-jobs.md)  

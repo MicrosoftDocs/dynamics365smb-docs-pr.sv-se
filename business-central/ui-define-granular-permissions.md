@@ -7,11 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 02/08/2023
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="assign-permissions-to-users-and-groups"></a>Tilldela behörigheter till användare och grupper
+# Tilldela användare och grupper behörigheter
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
@@ -47,7 +48,7 @@ Mer information finns i [Tilldelad administratörsåtkomst till Business Central
 >
 > Du kan också ange vilka funktioner som är tillgängliga för användare i användargränssnittet och hur de interagerar med dem via sidor. Du gör detta genom profiler som du tilldelar olika typer av användare enligt deras projektroll eller avdelning. Mer information finns i [Hantera profiler](admin-users-profiles-roles.md) och [anpassa [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
-## <a name="create-a-permission-set"></a>Skapa en behörighetsuppsättning
+## Skapa en behörighetsuppsättning
 
 > [!NOTE]
 > I utgivningscykel 2 2022 blir det enklare att lägga till behörigheter i behörighetsuppsättningar. I stället för att lägga till behörigheter individuellt kan du lägga till hela behörighetsuppsättningar. Vid behov kan du utelämna enskilda behörigheter i dem. Mer information finns i [Lägga till andra behörighetsuppsättningar](#to-add-other-permission-sets). För att göra det möjligt ersatte vi sidan Behörighetsuppsättning med en ny. De viktigaste skillnaderna är de nya fönstren **Behörighetsuppsättningar** och **Resultat** samt faktarutan **Inkluderade behörigheter**. Om du vill fortsätta använda den ersatta sidan Behörigheter går du till sidan **Behörighetsuppsättningar** och väljer åtgärden **Behörigheter (äldre)**.
@@ -90,13 +91,13 @@ Underhåll är också lättare. När du lägger till systembehörighet uppdatera
 > [!IMPORTANT]
 > Var försiktig när du tilldelar **infoga behörighet** eller **ändra behörighet** till **9001 användargruppmedlem** eller **9003 behörighetsuppsättning för användargrupp**. Alla användare som tilldelats behörighetsuppsättningen kan eventuellt tilldela sig själva till andra användargrupper, som i sin tur kan ge dem oavsiktliga behörigheter.
 
-### <a name="example---indirect-permission"></a>Exempel – Indirekt behörighet
+### Exempel – Indirekt behörighet
 
 Du kan tilldela indirekt behörighet för att låta en användare använda ett objekt, men endast via ett annat objekt. En användare har till exempel behörighet att köra Codeunit 80, försäljningspost. Kodmodulen försäljningspost utför många uppgifter, inklusive ändra tabell 37 inköpsrad. När användaren bokför ett försäljningsdokument med codeunit Försäljningspost kontrollerar [!INCLUDE[prod_short](includes/prod_short.md)] om användaren har behörighet att ändra tabellen Försäljningsrad. Om inte kan inte codeuniten slutföra uppgiften och användaren tar emot ett felmeddelande. I så fall, kör Codeunit korrekt.
 
 Användaren behöver dock inte ha fullständig åtkomst till tabellen Inköpsrad för att köra codeuniten. Om användaren har indirekt behörighet till tabellen Inköpsrad körs codeunit Försäljningspost korrekt. När en användare har indirekt behörighet kan användaren endast ändra tabellen inköpsrad genom att köra codeunit Försäljningspost eller ett annat objekt som har behörighet att ändra tabellen Inköpsrad. Användaren kan endast ändra tabellen inköpsrad när det görs från moduler som stöds. Användaren kan inte köra funktionen oavsiktligt eller på ett skadligt sätt med andra metoder.
 
-### <a name="to-add-other-permission-sets"></a>Lägga till andra behörighetsuppsättningar
+### Lägga till andra behörighetsuppsättningar
 
 Expandera en behörighetsuppsättning genom att lägga till andra behörighetsuppsättningar i den. Därefter kan du ta med eller utelämna specifika behörigheter, eller hela behörighetsuppsättningar, i varje uppsättning som du lägger till. Detta inkluderar behörigheter i behörighetsuppsättningarna Tillägg och Systemtyp, som annars inte är tillåtna. Uteslutningar gäller endast den behörighetsuppsättning du expanderar. Den ursprungliga uppsättningen påverkas inte.
 
@@ -116,7 +117,7 @@ Om du utesluter en behörighetsgrupp utesluts alla behörigheter i uppsättninge
 2. Beräkna den fullständiga listan med uteslutna behörigheter
 3. Ta bort uteslutna behörigheter från listan över inkluderade behörigheter (borttagning av indirekt behörighet är detsamma som att minska till indirekt)
 
-## <a name="copy-a-permission-set"></a>Kopiera behörighetsuppsättning
+## Kopiera behörighetsuppsättning
 
 Skapa en ny behörighetsuppsättning genom att kopiera en annan. Den nya uppsättningen kommer att innehålla alla behörigheter och behörighetsuppsättningar från den uppsättning du kopierade. Hur behörigheterna och behörighetsuppsättningarna ordnas i den nya behörighetsuppsättningen skiljer sig åt beroende på vad du väljer i fältet **Kopiera åtgärd**. Alternativen beskrivs i tabellen nedan.
 
@@ -134,7 +135,7 @@ Skapa en ny behörighetsuppsättning genom att kopiera en annan. Den nya uppsät
 > [!NOTE]
 > Meddelandet kräver att meddelandet **Ursprunglig systembehörighetsuppsättning har ändrats** är aktiverat på sidan **Mina meddelanden**.
 
-## <a name="create-or-modify-permissions-by-recording-your-actions"></a>Skapa eller ändra behörigheter genom att registrera dina åtgärder
+## Skapa eller ändra behörigheter genom att registrera dina åtgärder
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Behörighetsuppsättning** och väljer sedan relaterad länk.
 
@@ -150,7 +151,7 @@ Skapa en ny behörighetsuppsättning genom att kopiera en annan. Den nya uppsät
 8. Välj knappen **Ja** om du vill lägga till registrerade behörigheter till den nya behörighetsuppsättningen.
 9. För varje objekt i den registrerade listan anger du om användarna ska kunna infoga, ändra eller ta bort poster i de registrerade tabellerna.
 
-### <a name="to-export-and-import-a-permission-set"></a>Så här exporterar och importerar du en behörighetsgrupp
+### Så här exporterar och importerar du en behörighetsgrupp
 
 Om du snabbt vill ställa in behörigheter kan du importera behörighetsuppsättningar som du har exporterat från en annan [!INCLUDE[prod_short](includes/prod_short.md)]-klientorganisation.
 
@@ -171,11 +172,11 @@ I miljöer med flera klientorganisationer importeras en behörighetsuppsättning
 
 Behörighetsgrupperna importeras.
 
-## <a name="remove-obsolete-permissions-from-all-permission-sets"></a>Ta bort föråldrade behörigheter från alla behörighetsuppsättningar
+## Ta bort föråldrade behörigheter från alla behörighetsuppsättningar
 
 På sidan **Behörighetsuppsättningar**, välj åtgärden **Ta bort inaktuella behörigheter**.
 
-## <a name="set-up-time-constraints-for-users"></a>Så här ställer du in tidsbegränsningar för användare
+## Så här ställer du in tidsbegränsningar för användare
 
 Administratörer kan definiera tidsperioder under vilka angivna användare kan bokföra. Administratörer kan också ange om systemet loggar hur mycket tid användare är inloggade. På liknande sätt kan administratörer tilldela ansvarsenheter till användare. För mer information, se [Arbeta med ansvarsenheter](inventory-responsibility-centers.md).
 
@@ -184,7 +185,7 @@ Administratörer kan definiera tidsperioder under vilka angivna användare kan b
 3. I den **Användar-ID** anger du ID för en användare, och väljer fältet för att se alla aktuella Windows-användare i systemet.
 4. Fyll i fälten om det behövs.
 
-## <a name="control-access-to-specific-companies"></a>Kontrollera åtkomst till specifika företag
+## Kontrollera åtkomst till specifika företag
 
 När du har flera företag i Business Central krävs extra uppmärksamhet för att hantera behörigheter mellan företag. Du kanske inte vill att användarna ska ha samma åtkomsträttigheter som alla företag. I stället kan du behöva bevilja användarnas behörigheter baserat på deras företagstillhörighet. I det här scenariot kan du välja ett specifikt företag som behörighetsuppsättningen gäller när du tilldelar behörighetsuppsättningar till enskilda användare eller säkerhetsgrupper. Företaget anges inte uttryckligen i behörighetsuppsättningen, utan i stället när behörighetsuppsättningen tilldelas användaren eller säkerhetsgruppen.
 
@@ -192,7 +193,7 @@ Om du inte anger företaget när du tilldelar en behörighetsuppsättning gälle
 
 Mer information om [Tilldela behörighetsuppsättningar till användare](#assign-permission-sets-to-users) eller [Tilldela behörigheter till en säkerhetsgrupp](ui-security-groups.md#assign-permissions-to-a-security-group).
 
-## <a name="manage-permissions-through-user-groups"></a>Hantera behörigheter via användargrupper
+## Hantera behörigheter via användargrupper
 
 Med användargrupper kan du hantera behörighetsgrupper i företaget. [!INCLUDE [prod_short](includes/prod_short.md)] Online innehåller standard användargrupper som tilldelas användare automatiskt baserat på deras licens. Du kan lägga till användare manuellt i en användargrupp, och du kan skapa nya användargrupper som kopior av befintliga.  
 
@@ -200,7 +201,7 @@ Du börjar med att skapa en användargrupp. Sedan tilldelar du gruppen behörigh
 
 Behörighetsuppsättningar som tilldelas en användare via en användargrupp förblir synkroniserade. En ändring av användargruppsbehörigheter sprids automatiskt till användarna. Om du tar bort en användare från en användargrupp återkallas de berörda behörigheterna automatiskt.
 
-### <a name="to-add-users-to-a-user-group"></a>Så här lägger du till användare i en användargrupp
+### Så här lägger du till användare i en användargrupp
 
 I proceduren nedan beskrivs hur du skapar användargrupper manuellt. Information om hur du skapar användargrupper automatiskt finns i [Kopiera en användargrupp och dess behörighetsuppsättningar](#to-copy-a-user-group-and-all-its-permission-sets).
 
@@ -210,7 +211,7 @@ I proceduren nedan beskrivs hur du skapar användargrupper manuellt. Information
 2. På sidan **Användargrupp** väljer du åtgärden **Medlemmar i användargrupp**.
 3. På sidan **Användargrupp** väljer du åtgärden **Lägg användare**.
 
-### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Om du vill kopiera en användargrupp och dess behörighetsuppsättningar
+### Om du vill kopiera en användargrupp och dess behörighetsuppsättningar
 
 Du kan kopiera alla behörighetsuppsättningar från en befintlig användargrupp till den nya användargruppen, om du snabbt vill definiera en ny användargrupp..
 
@@ -226,7 +227,7 @@ Användargruppen läggs till i sidan **Användargrupper**. Fortsätt med att lä
 > [!IMPORTANT]
 > Du får ett meddelande om verifieringsfel om du försöker tilldela en användargrupp en användare som refererar till en behörighetsgrupp som har definierats i ett tillägg som inte avinstallerats. Detta beror på att app-ID tillägget verifieras när det refereras. Om du vill tilldela en användare en användargrupp kan du antingen installera tillägget på nytt, ta bort referensen för det avinstallerade tillägget från behörighetsgruppen eller ta bort behörighetsuppsättningen från användargruppen.
 
-### <a name="to-assign-permission-sets-to-user-groups"></a>Tilldela behörighetsuppsättningar till användargrupper
+### Tilldela behörighetsuppsättningar till användargrupper
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Användargrupper** och väljer sedan relaterad länk.
 2. Markera den användargrupp som du vill tilldela behörighet till.  
@@ -235,7 +236,7 @@ Användargruppen läggs till i sidan **Användargrupper**. Fortsätt med att lä
 3. Välj åtgärden **Användarbehörighetsuppsättning** för att öppna sidan **Användarbehörighetsuppsättning**.
 4. På sidan **Användarbehörighetsuppsättning** fyller du i fälten efter behov på en ny rad.
 
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Tilldela en behörighetsuppsättning på sidan Behörighetsuppsättning efter användargrupp
+### Tilldela en behörighetsuppsättning på sidan Behörighetsuppsättning efter användargrupp
 
 I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en användargrupp på sidan **Behörighetsuppsättning efter användargrupp**.
 
@@ -246,7 +247,7 @@ I proceduren nedan beskrivs hur du tilldelar behörighetsuppsättningar till en 
 
 Du kan också tilldela behörighetsuppsättningar direkt till en användare.
 
-## <a name="assign-permission-sets-to-users"></a>Tilldela behörighetsuppsättningar till användare
+## Tilldela behörighetsuppsättningar till användare
 
 En behörighetsuppsättning är en samling behörigheter för specifika databasobjekt. Alla användare måste tilldelas en eller flera behörighetsuppsättningar innan de får tillgång till [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -262,7 +263,7 @@ Du kan tilldela behörighetsuppsättningar till användare på två sätt:
 - På sidan **Användarkort** genom att välja behörighetsuppsättningar att tilldela användaren.
 - På sidan **Behörighetsuppsättning efter användare** genom att välja användare som en behörighetsuppsättning är tilldelad till.
 
-### <a name="to-assign-a-permission-set-on-a-user-card"></a>Så här tilldelar du en behörighetsuppsättning till ett användarkort
+### Så här tilldelar du en behörighetsuppsättning till ett användarkort
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **användare** och väljer sedan relaterad länk.
 1. Markera den användare som du vill tilldela behörighet till.
@@ -273,7 +274,7 @@ Du kan tilldela behörighetsuppsättningar till användare på två sätt:
 
    Om du vill att behörighetsuppsättningen ska gälla för ett specifikt företag, ställ in **Företag** för det företaget. Om du vill att behörighetsuppsättningen ska gälla för alla företag lämnar du fältet **Företag** tomt. [Läs mer](#control-access-to-specific-companies).
 
-## <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Så här tilldelar du en behörighetsuppsättning till sidan Behörighetsuppsättning efter användare
+## Så här tilldelar du en behörighetsuppsättning till sidan Behörighetsuppsättning efter användare
 
 Den här metoden gör det enklare för dig att tilldela olika behörighetsuppsättningar till flera användare. 
 
@@ -284,7 +285,7 @@ Den här metoden gör det enklare för dig att tilldela olika behörighetsuppsä
 
     Markera kryssrutan **Alla användare** om du vill tilldela behörighetsuppsättningen till alla användare.
 
-## <a name="get-an-overview-of-a-users-permissions"></a>Få en översikt en användares behörigheter
+## Få en översikt en användares behörigheter
 
 Du kan endast visa andra användares gällande behörigheter om du tilldelats behörigheterna SÄKERHET eller SUPER. 
 
@@ -314,23 +315,23 @@ På sidan **Gällande behörigheter** finns ytterligare information om källan t
 > [!NOTE]  
 > När du redigerar en behörighetsuppsättning gäller ändringarna också för andra användare som har den behörighetsuppsättningen tilldelad.
 
-### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Säkerhetsfilter – begränsa användarens åtkomst till specifika poster i en tabell
+### Säkerhetsfilter – begränsa användarens åtkomst till specifika poster i en tabell
 
 För postnivåsäkerhet i [!INCLUDE[prod_short](includes/prod_short.md)] kan du använda säkerhetsfilter för att begränsa användarens åtkomst till data i en tabell. Du kan skapa säkerhetsfilter på tabelldata. Ett säkerhetsfilter beskriver en uppsättning poster i en tabell som en användare har behörighet att komma åt. Du kan till exempel ange att en användare endast kan läsa de poster som innehåller information om en viss kund. På så sätt kan användaren inte kan komma åt de poster som innehåller information om andra kunder. Mer information finns i [Använda säkerhetsfilter](/dynamics365/business-central/dev-itpro/security/security-filters) i administrationsinnehållet.
 
 
-## <a name="view-permission-changes-telemetry"></a>Visa telemetri över behörighetsförändringar
+## Visa telemetri över behörighetsförändringar
 
 Du kan låta [!INCLUDE[prod_short](includes/prod_short.md)] skicka ändringar som har gjorts i behörighet för en Application Insights-resurs i Microsoft Azure. Med hjälp av Azure Monitor kan du sedan skapa rapporter och aviseringar för insamlade data. Mer information finns i följande artiklar i [!INCLUDE[prod_short](includes/prod_short.md)]-hjälpen för utvecklare och administratörer:
 
 - [Övervaka och analysera telemetri – Aaktivera Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analysera telemetri för fältövervakning](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
-## <a name="delegated-admin-users"></a>Utsedda adminanvändare
+## Utsedda adminanvändare
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Skapa användare enligt licenser](ui-how-users-permissions.md)  
 [Hantera profiler](admin-users-profiles-roles.md)  

@@ -3,25 +3,25 @@ title: Så här skapar du serviceartiklar
 description: 'Läsa om olika sätt att skapa serviceartiklar i Business Central, t.ex. i en serviceorder eller vid leverans av artiklar.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-service-items"></a>Skapa serviceartiklar
+# Skapa serviceartiklar
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] avser termen ”serviceartikel” den utrustning eller de artiklar som kräver service. När du skapar en serviceorder kan du ange de artiklar som behöver service. I ordern kan du länka en serviceartikel till en artikel i lagret eller en serviceartikelgrupp.
 
 När du tar emot en artikel för service kan du registrera den som serviceartikel. Detta kan göras på olika sätt. Du kan till exempel skapa en serviceartikel på sidan **serviceartiklar** eller som en del av en annan process, som t. ex. när du arbetar med en serviceorder.
 
-## <a name="to-create-a-service-item"></a>Så här skapar du en serviceartikel
+## Så här skapar du en serviceartikel
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **serviceartiklar** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order"></a>Så här skapar du serviceartiklar inom serviceorder
+## Så här skapar du serviceartiklar inom serviceorder
 
 När du tar emot artiklar som du vill registrera som serviceartiklar kan du skapa dem som serviceartiklar på sidan **Serviceorder** eller **Serviceoffert**.  
 
@@ -31,7 +31,7 @@ När du tar emot artiklar som du vill registrera som serviceartiklar kan du skap
 
     Ett nummer tilldelas serviceartikeln, och ett serviceartikelkort skapas. I fältet **Serviceartikelnr** fylls numret på den nya serviceartikeln i.
 
-## <a name="to-create-a-service-item-when-shipping-items"></a>Så här skapar du en serviceartikel vid artikelutleverans
+## Så här skapar du en serviceartikel vid artikelutleverans
 
 När du levererar artiklar genom att bokföra antingen försäljningsorder eller försäljningsfakturor registreras de levererade artiklarna automatiskt som serviceartiklar om följande villkor uppfylls. Artiklarna måste höra till en serviceartikelgrupp och ha kryssrutan **Skapa serviceartikel** markerad. Om artiklarnas serienummer har registrerats på sidan Artikelspårningsrader kopieras informationen automatiskt till fältet **Serienr** på serviceartikelkortet när serviceartiklar skapas.  
 
@@ -48,7 +48,7 @@ Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på f�
 >
 > Om en artikel är en struktur och du inte har expanderat strukturen skapas en serviceartikel för den utifrån serviceartikelgruppens villkor, och om du så vill, serienumrens villkor.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Så här infogar du uppstartskostnader för en serviceartikel
+## Så här infogar du uppstartskostnader för en serviceartikel
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceuppgifter** och väljer sedan relaterad länk.
 2. Välj åtgärden **Artikelkalkylark**.
@@ -56,7 +56,7 @@ Nedan förklaras hur du skapar serviceartiklar när du levererar artiklar på f�
 
     En servicerad av typen **Kostnad** infogas automatiskt med uppstartskostnaden. Uppstartskostnaden gäller vald serviceartikel.
 
-## <a name="block-items-item-variants-or-specific-service-items"></a>Spärra artiklar, artikelvarianter eller specifika serviceartiklar
+## Spärra artiklar, artikelvarianter eller specifika serviceartiklar
 
 Du kan förhindra att artiklar, artikelvarianter eller serviceartiklar används i servicehanteringstransaktioner, till exempel servicekontrakt, serviceorder och servicefakturor. Detta kan vara användbart om du vill begränsa tillgängligheten för vissa artiklar eller serviceartiklar för serviceändamål, till exempel på grund av avbruten support, begränsat lager eller avtal.
 
@@ -79,7 +79,7 @@ Om du har servicekontrakt, servicekontraktsofferter eller serviceorder som inneh
 - Sidan **Släpp för leverans** eller **Bokför** på **Serviceorder**.
 - Sidan **Bokför** i **Servicefakturan**.
 
-### <a name="block-a-service-item"></a>Blockera en serviceartikel
+### Blockera en serviceartikel
 
 För att blockera ett tjänsteobjekt från att användas i tjänstehanteringstransaktioner, på sidan **Serviceartikelkort** i fältet **Spärrad**, välj ett av följande alternativ:
 
@@ -107,14 +107,14 @@ Du kan också visa spärrade serviceartiklar genom att använda ett filter på f
 - &Serviceartiklar utan garanti (rapport 5937)
 - Servicevinst (serv.artiklar) (rapport 5938)
 
-### <a name="data-upgrade"></a>Datauppgradering
+### Datauppgradering
 
 Den här funktionen kräver ingen ytterligare konfiguration. Men om du uppgraderar din [!INCLUDE [prod_short](includes/prod_short.md)], var medveten om följande:
 
 - Om du har artiklar, artikelvarianter eller artikelmallar där växlingsknappen **Spärrad för försäljning** är aktiverad aktiveras fältet **Tjänsten är spärrad** även för dessa poster under uppgraderingen. Detta säkerställer att den befintliga försäljningsblockerade logiken även gäller för servicehanteringstransaktioner.
 - Datauppgraderingar endast om du har minst en serviceartikel i företaget, vilket innebär att du använder servicehanteringstransaktioner och behöver datauppgraderingen. Om du inte har några serviceartiklar hoppas datauppgraderingen över och växlingsknappen **Tjänsten är spärrad** är inaktiverad som standard för alla artiklar, artikelvarianter och artikelmallar.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera serviceartiklar och serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  

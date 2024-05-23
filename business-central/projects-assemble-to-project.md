@@ -3,7 +3,7 @@ title: Montera till projekt
 description: Lär dig hur du använder montering mot kundorder för projekt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="assemble-to-project"></a>Montera till projekt
+# Montera till projekt
 
 Med Montera i projekt kan du förbättra lagerhanteringen genom att endast montera på order när det behövs.
 
@@ -19,7 +19,7 @@ När du väljer en montering mot kundorder på order på en projektplaneringsrad
 
 Monteringsorder är reserverade för projekt och [!INCLUDE [prod_short](includes/prod_short.md)] synkroniserar artikelspårning mellan projektplaneringsrader och monteringsorder.
 
-## <a name="integrate-with-warehouse-management"></a>Integrera med hantering av lager
+## Integrera med hantering av lager
 
 Assemble to project integreras med lagerhanteringsfunktioner för att göra montering och leverans enklare. Processen bidrar också till att säkerställa att flödet från projektmontering till leverans löper smidigt i interna lagerprocesser. Mer information om interna distributionslagerflöden för projekt finns i [Flöden för produktion, montering och projekt](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ I följande tabell beskrivs de lagerkonfigurationer som monteras till orderstöd
 |**Lagerplockning**|Använd ett lagerval för att lägga upp hel eller partiell användning. Utdata och förbrukning av komponenter bokförs automatiskt för monteringsordern.          |
 |**Dist.lager plockning**|Skapa och registrera lagerplockningar för komponenter och sedan använda en projektjournal för att bokföra förbrukning. [!INCLUDE [prod_short](includes/prod_short.md)] kontrollerar om de förbrukade monteringskomponenterna har plockats. Utdata och förbrukning av komponenter bokförs automatiskt för monteringsordern.         |
 
-## <a name="known-limitations"></a>Kända begränsningar
+## Kända begränsningar
 
 I det här avsnittet beskrivs kända begränsningar för montering till projekt.
 
@@ -42,7 +42,7 @@ I det här avsnittet beskrivs kända begränsningar för montering till projekt.
 * Du kan inte ange ett negativt antal i fältet **Antal att montera mot kundorder**.
 * Du kan inte ångra en montering.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Projekthantering](projects-manage-projects.md)  
 [Monteringshantering](assembly-assemble-items.md)  

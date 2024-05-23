@@ -1,25 +1,25 @@
 ---
 title: Avsluta bokföringsperioder för räkenskapsåret
 description: Den här artikeln beskriver hur du stänger räkenskapsperioderna som utgör räkenskapsåret för slutet av året.
-author: jswymer
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
-ms.search.form: 100
-ms.date: 06/25/2021
-ms.author: jswymer
+ms.search.form: '100,'
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="close-accounting-periods"></a>Avsluta bokföringsperioder
+# Avsluta bokföringsperioder
 
 När ett räkenskapsår är slut måste du avsluta perioderna som året omfattar.
 
-## <a name="to-close-accounting-periods"></a>Så här avslutar du bokföringsperioder
+## Så här avslutar du bokföringsperioder
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Bokföringsperioder** och väljer sedan relaterad länk.
 2. På sidan **Bokföringsperioder** väljer du åtgärden **Avsluta år**.
 
-    Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt. Visar ett meddelande för vilket år som ska stängas och konsekvenserna av att stänga året.
+    Om flera räkenskapsår är öppna kommer det tidigaste att stängas automatiskt. Ett meddelande identifierar året som kommer att avslutas och resultatet av dess stängning.
 3. Välj **ja** för att stänga året.
 
 Räkenskapsåret stängs och fälten **Avslutat** och **Låst datum** markeras för samtliga perioder i året. Räkenskapsåret kan inte öppnas igen och du kan inte heller ta bort markeringen i fälten **Avslutat** eller **Låst datum**.
@@ -31,10 +31,10 @@ Räkenskapsåret stängs och fälten **Avslutat** och **Låst datum** markeras f
 
 När ett räkenskapsår har avslutats måste resultatkontona avslutas och årets resultat flyttas över till ett konto i balansräkningen. Du kan göra samma sak varje gång du bokför på det avslutade räkenskapsåret.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Avsluta böcker](year-close-books.md)  
-[Bokför årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
+[Bokföra årsslutstransaktionen](year-how-post-year-end-close-entry.md)  
 [Arbeta med bokföringsperioder och räkenskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

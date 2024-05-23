@@ -34,7 +34,8 @@ Följande avsnitt innehåller exempel på scenarier för anläggningstillgångar
 | Yta | Till... | Öppna sidan i analysläge | Använda dessa fält |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Anläggningstillgångar (Aktuellt värde)](#example-fixed-assets-current-value) | Spåra tillgångsvärde, både över alla tillgångar och på en enda tillgång. | [Anl.transaktioner](https://businesscentral.dynamics.com/?page=5604) | **Avskrivningsregel**, **Anl.nr.**, **Anl.bokf.datum**, **Anl. bokföringstyp** och **Belopp** |
-|[Exempel: avskrivningar av anläggningstillgångar över tid](#example-fixed-asset-depreciations-over-time) | Spåra avskrivningar över tid, både över alla tillgångar och på en enskild tillgång. | [Anl.transaktioner](https://businesscentral.dynamics.com/?page=5604) | **Avskrivningsregel**, **Anl.nr.**, **Anl.bokf.År**, **Anl.bokf.Månad**, **Belopp** och **Anl.bokföringstyp** |
+| [Tillgångarnas värde förändras över tid](#example-asset-value-changes-over-time) | Spåra tillgångarnas värde förändras över tid. | [Anl.transaktioner](https://businesscentral.dynamics.com/?page=5604) | **Anl.bokföringstyp**, **Anl.bokf.datum** och **Belopp** |
+|[Avskrivningar av anläggningstillgångar över tid](#example-fixed-asset-depreciations-over-time) | Spåra avskrivningar över tid, både över alla tillgångar och på en enskild tillgång. | [Anl.transaktioner](https://businesscentral.dynamics.com/?page=5604) | **Avskrivningsregel**, **Anl.nr.**, **Anl.bokf.År**, **Anl.bokf.Månad**, **Belopp** och **Anl.bokföringstyp** |
 
 ### Exempel: anläggningstillgångars aktuella värde
 
@@ -51,13 +52,29 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Exempel på hur du gör dataanalyser på sidan redovisning för anläggningstillgångar för att se tillgångens värde." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
+### Exempel: tillgångarnas värde förändras över tid
+
+Så här spårar du förändringar i tillgångarnas värde över tid:
+
+1. Öppna listan [Redovisningsposter](https://businesscentral.dynamics.com/?page=5604) och välj :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivera analysläge."::: för att aktivera analysläget.
+1. Gå till menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet** till höger).
+1. Aktivera växlingsknappen **Pivot-läget** (finns direkt ovanför **Sökfältet** till höger).
+1. Dra fältet **Anl.bokföringstyp** till området **Radgrupper**.
+1. Dra fälten **Anl.bokf.År** och **Anl.bokf.Månad** till området **Kolumnetiketter**.
+1. Dra **Belopp** till området **Värden**.
+1. Byt namn på analysfliken till **Tillgångarnas värde förändras över tid** eller något som beskriver den här analysen.
+
+Följande bild visar resultatet av de här stegen.
+
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Exempel på hur du gör dataanalyser på sidan redovisning för anläggningstillgångar för att se tillgångarnas värde förändras över tid." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
+
 ### Exempel: avskrivningar av anläggningstillgångar över tid
 
 Följ dessa steg för att spåra avskrivningar för en eller flera anläggningstillgångar:
 
 1. Öppna listan [Redovisningsposter](https://businesscentral.dynamics.com/?page=5604) och välj :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivera analysläge."::: för att aktivera analysläget.
 1. Gå till menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet** till höger).
-1. Aktivera växlingsknappen **Pivot*-läget** (finns direkt ovanför **Sökfältet** till höger).
+1. Aktivera växlingsknappen **Pivot-läget** (finns direkt ovanför **Sökfältet** till höger).
 1. Dra fälten **Avskrivningsregel** och **Anl.nr.** till området **Radgrupper**.
 1. Dra fälten **Anl.bokf.År** och **Anl.bokf.Månad** till området **Kolumnetiketter**.
 1. Dra **Belopp** till området **Värden**.
@@ -71,6 +88,12 @@ Följande bild visar resultatet av de här stegen.
 ## Underlag för ad hoc-analys av anläggningstillgångar
 
 När du bokför anläggningstillgångsjournaler [!INCLUDE [prod_short](includes/prod_short.md)] skapas transaktioner i tabellen **Anl. transaktion**. Därför görs ad hoc-analyser av anläggningstillgångar vanligtvis på sidan [redovisning för anläggningstillgångar](https://businesscentral.dynamics.com/?page=5604).
+
+## Deltagare
+
+*Microsoft underhåller den här artikeln. Delar av exemplen skrevs ursprungligen av följande deltagare.*
+
+* [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Konsult
 
 ## Se även
 

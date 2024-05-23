@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Hantera anläggningstillgångar
+# Hantera anläggningstillgångar
 
 Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och hjälper till att säkerställa att deras avskrivning är korrekt. Detta låter dig även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
 
-## <a name="video-overview"></a>Videoöversikt
+## Videoöversikt
 
 I följande video beskrivs grunderna för anläggningstillgångar:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="initial-setup-of-fixed-assets"></a>Inledande inställning av anläggningstillgångar
+## Inledande inställning av anläggningstillgångar
 
 Innan du kan hantera anläggningstillgångar måste du göra följande inställningar:
 
@@ -34,7 +34,7 @@ Innan du kan hantera anläggningstillgångar måste du göra följande inställn
 
 Läs mer på [Ställa in anläggningstillgångar](fa-setup.md).
 
-## <a name="fixed-assets-analytics"></a>Analys av anläggningstillgångar
+## Analys av anläggningstillgångar
 
 I det här avsnittet beskrivs analysverktyg som du kan använda för att få insikter om data om dina anläggningstillgångar.
 
@@ -48,7 +48,7 @@ I det här avsnittet beskrivs analysverktyg som du kan använda för att få ins
 | Visa avyttringstransaktioner | [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visa planerade avyttringsvärden. | [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="register-fixed-assets"></a>Registrera anläggningstillgångar
+## Registrera anläggningstillgångar
 
 För varje anläggningstillgång måste du skapa ett kort som innehåller information om dem. Du kan till exempel ange byggnads- eller fabriksinventarier som en huvudtillgång med en komponentlista. Du kan gruppera tillgångar på olika sätt, till exempel efter klass, avdelning eller plats. Sedan kan du anskaffa, underhålla och sälja anläggningstillgångarna. Du kan även skapa budgeterade tillgångar. Med budgetering kan du inkludera eventuella förutsedda anskaffningar och försäljningar i rapporter.
 
@@ -57,7 +57,7 @@ För varje anläggningstillgång måste du skapa ett kort som innehåller inform
 | Hanter budgetar för anläggningstillgångar, budgeterar anskaffningskostnader, budgeterar avyttringar av anläggningstillgångar och budgeterar avskrivning. |[Hantera budgetar och anläggningstillgångar](fa-how-manage-budgets.md) |
 | skapa anläggningstillgångar, tilldela avskrivningsmetoder, bokföra anskaffningar, återanskaffningsvärden och skriva ut listor över anläggningstillgångar. |[Anskaffa anläggningstillgångar](fa-how-acquire.md) |
 
-## <a name="set-up-depreciations-for-your-fixed-assets"></a>Ställ in avskrivningar för dina anläggningstillgångar
+## Ställ in avskrivningar för dina anläggningstillgångar
 
 För att hålla reda på avskrivningar av anläggningstillgångar och andra ekonomiska transaktioner för anläggningstillgångar skapar du en eller flera avskrivningsregler för varje. Det finns några steg för att avskriva tillgångar:
 
@@ -74,7 +74,7 @@ För att hålla reda på avskrivningar av anläggningstillgångar och andra ekon
 | Visa ändrade värden för avskrivningsregler. | [Visa ändrade värden för avskrivningsregler](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Du kan manuellt registrera anläggningstillgångstransaktioner på sidan **Anl.tillg. redovisningsjournal** eller på sidan **Anlägg.tillg.journal** beroende på om transaktionerna är för finansiell rapportering eller för intern hantering. | [Konfigurera avskrivning av anläggningstillgångar](fa-how-setup-depreciation.md) |
 
-## <a name="fixed-assets-maintenance-and-insurance"></a>Underhåll och försäkring av anläggningstillgångar
+## Underhåll och försäkring av anläggningstillgångar
 
 För varje tillgång kan du registrera underhållskostnader och nästa servicedatum. Det kan vara viktigt att hålla reda på underhållsutgifter för budgetändamål och för att kunna ta beslut om en anläggningstillgång ska ersättas. Du kan koppla varje anläggningstillgång till ett eller flera försäkringsbrev och kontrollera att försäkringspremierna stämmer överens med tillgångarnas värde.
 
@@ -85,7 +85,7 @@ För varje tillgång kan du registrera underhållskostnader och nästa serviceda
 | Uppdatera försäkringsinformation, bokföra anskaffningskostnader i försäkringsbrev, ändra försäkringsskydd, visa försäkringsstatistik och visa listor över försäkringsbrev. |[Försäkra anläggningstillgångar](fa-how-insure.md) |
 | Bevaka försäkringsskydd. | [Bevaka försäkringsskydd](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Gruppera, överföra, dela upp/slå ihop, justera värde, skriva ned och avyttra anläggningstillgångar
+## Gruppera, överföra, dela upp/slå ihop, justera värde, skriva ned och avyttra anläggningstillgångar
 
 | Till  | Gå till |
 | --- | --- |
@@ -95,7 +95,7 @@ För varje tillgång kan du registrera underhållskostnader och nästa serviceda
 | Visa avyttringstransaktioner | [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visa planerade avyttringsvärden. | [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in anläggningstillgångar](fa-setup.md)  
 [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)  

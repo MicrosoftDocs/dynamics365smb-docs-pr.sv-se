@@ -3,7 +3,7 @@ title: Spåra artikelkostnadsjusteringar
 description: Läs om hur spårning av justeringar av artikelkostnader kan hjälpa dig att hålla artikelkostnadsdata korrekta.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.search.form: null
@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="track-item-cost-adjustments"></a>Spåra artikelkostnadsjusteringar
+# Spåra artikelkostnadsjusteringar
 
 Det är viktigt att artikelkostnaderna är korrekta och att tiden förkortas från det att du bokför en transaktion tills kostnaden återspeglas i redovisningen. Du kan spåra resultatet av kostnadsjusteringarna för enskilda justeringskörningar och artiklar. Om fel inträffar kan du identifiera de problematiska artiklarna och göra korrigeringar. Du kan till exempel utesluta artiklarna från beräkningarna för att säkerställa att justeringar inte avbryts för andra artiklar. Du kan justera kostnader för enskilda artiklar eller skapa journaler med artiklar och justera dem samtidigt.
 
-## <a name="start-tracking-cost-adjustments"></a>Börja spåra kostnadsjusteringar
+## Börja spåra kostnadsjusteringar
 
 Det är lätt att komma igång. På sidan **Lagerinställningar** erbjuder fältet **Loggning av kostnadsjustering** några alternativ:
 
@@ -29,11 +29,11 @@ Det är lätt att komma igång. På sidan **Lagerinställningar** erbjuder fält
 
 Du måste också ställa in jobbkötransaktionen **Bokför lagerkostnad i redov. (1002)**. Den här jobbkötransaktionen justerar automatiskt kostnaderna enligt ett schema. För att lära dig mer om jobbkötransaktioner, gå till [Använd jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## <a name="manage-cost-adjustments"></a>Hantera kostnadsjusteringar
+## Hantera kostnadsjusteringar
 
 Använd sidan **Kostnadsjustering av lager** för att hantera och övervaka kostnadsjusteringsprocessen. På den här sidan visas artiklarna tillsammans med deras kostnadsparametrar och kostnadsjusteringsstatus. Du kan filtrera listan så att den fokuserar på artiklar som behöver justeras eller som är undantagna från kostnadsjusteringsprocessen.
 
-### <a name="about-item-batches"></a>Om artikelbatchar
+### Om artikelbatchar
 
 Du kan köra kostnadsjustering för flera artiklar genom att gruppera dem i batchar. Batchar gör det enkelt att justera vissa artiklar separat, till exempel eftersom det tar längre tid att justera dem. Batchar kan också hjälpa till att identifiera artiklar som har problem.
 
@@ -54,7 +54,7 @@ När en körning för en batch är klar har batchen har någon av följande stat
 
 > [TIPS!] Varje batch körs i en separat session. Om du vill övervaka förloppet använder du åtgärden **Uppdatera**.
 
-### <a name="run-cost-adjustment"></a>Kör kostnadsjustering
+### Kör kostnadsjustering
 
 Använd sidan **Kostnadsjustering av lager** för att göra justeringar.
 
@@ -69,7 +69,7 @@ Använd sidan **Kostnadsjustering av lager** för att göra justeringar.
     
     Mer information om batcher finns i [Om artikelbatchar](#about-item-batches).
 
-### <a name="explore-item-details"></a>Utforska artikeldetaljer
+### Utforska artikeldetaljer
 
 Använd menyn **Artikel** menu för att få tillgång till information om kostnadsjusteringar för en vald artikel.
 
@@ -78,24 +78,24 @@ Använd menyn **Artikel** menu för att få tillgång till information om kostna
 * **Ingångspunkter för kostnadsjustering**: Öppna sidan **Ingångspunkt för genomsn.kostn.justering** som du främst använder för att beräkna genomsnittskostnaden. På sidan visas kombinationer av artiklar, lagerställen, varianter och värderingsdatum för vilka kostnadsjusteringar körs eller måste köras.
 * **Kostnadsjusteringsorder**: Öppna sidan **Lagerjusteringstransaktion (order)** där du justerar produktions- och monteringsorder. Det visar att order är justerade eller behöver justeras.
 
-### <a name="view-the-outcome"></a>Visa resultatet
+### Visa resultatet
 
 Använd menyn **Logga per** för att visa resultatet av kostnadsjusteringar:
 
 * **Kör**: Visa kostnadsjusteringsloggar för varje körning. Loggen innehåller data om artikelfiltret, status (lyckades/misslyckades/tidsgräns gått ut), start- och slutdatum/-tid, varaktighet och kostnadsskillnaderna som skapas av körningen.
 * **Artikel**: Visa detaljerad information om justeringsprocessen för den valda artikeln.
 
-### <a name="include-or-exclude-items-from-adjustments"></a>Inkludera eller exkludera artiklar från justeringar
+### Inkludera eller exkludera artiklar från justeringar
 
 Om ett eller flera objekt misslyckas kan du exkludera objekten från justeringskörningen och sedan inkludera dem i senare körningar. På menyn **Funktioner**, välj ett av följande:
 
 * **Exkludera artikel från justering** och **Ta med artikel i justering**: Inaktivera tillfälligt och återaktivera sedan kostnadsjustering för en vald artikel. Kostnadsjusteringen fortsätter att hålla kostnaderna korrekta för andra artiklar medan du undersöker ett problem med en viss artikel.
 
-## <a name="post-adjusted-costs-to-the-general-ledger"></a>Boka justerade kostnader till huvudboken
+## Boka justerade kostnader till huvudboken
 
 Vanligtvis bokförs nya värdetransaktioner i redovisningen enligt schemat för jobbkötransaktionen **Bokför lagerkostnad i redov. (1002)**. Du kan emellertid bokföra justeringar i redovisningen direkt från sidan **Kostnadsjustering av lager**. På menyn **Funktioner** väljer du **Bokför lagerkostnad i redov.**.
 
-## <a name="troubleshoot-cost-adjustments"></a>Felsöka kostnadsjusteringar
+## Felsöka kostnadsjusteringar
 
 Använd följande alternativ på menyn **Diagnostik** för att felsöka kostnadsjusteringskörningar.
 
@@ -105,7 +105,7 @@ Använd följande alternativ på menyn **Diagnostik** för att felsöka kostnads
 * **Rapport om identifiering av kostnadsproblem**: Diagnostisera typiska dataproblem som orsakar beräkningsfel vid kostnadsberäkning. Den kontrollerar om artikeltransaktionerna, värdetransaktionerna, artikelkopplingstransaktionerna och kapacitetstransaktionerna är korrekta.
 * **Ta bort artikeldata**: Rensa alla artikelrelaterade tabeller i databasen. Den här åtgärden är endast tillgänglig i miljöer med begränsat läge eller utvärderingsföretag.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Justera artikelkostnader](inventory-how-adjust-item-costs.md)  
 [Designdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  

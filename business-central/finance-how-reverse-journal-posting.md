@@ -3,13 +3,13 @@ title: Ångra en bokföring genom att bokföra en mottransaktion
 description: Om du hittar ett misstag i en bokförd allmän journal kan du använda åtgärden Återför transaktion för att ångra bokföringen med en korrekt redovisningsspårning.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Återföra journalbokningar och ångra inleveranser/utleveranser
+# Återföra journalbokföringar och ångra inleveranser/utleveranser
 
 Återföring av journalbokningar används till exempel för att korrigera fel och rensa en gammal periodisering innan du registrerar en ny. En omvänd post är densamma som den ursprungliga posten, men har ett motsatt tecken i fältet **belopp**. Den omvända posten måste ha samma dokumentnummer och bokföringsdatum som den ursprungliga posten. När du har återfört en post måste du skapa en korrekt post.
 
@@ -27,10 +27,8 @@ Du kan återföra poster från alla sidor **Transaktioner**. Följande procedur 
 
 > [!NOTE]
 > Observera att det måste komma från en journalbokföring.
->
-> Du kan inte ångra transaktioner som har bokförts med information från ett projekt eller som har realiserade vinster och förluster inom samma transaktion.
 
-1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Redovisningstransaktioner** och välj sedan relaterad länk.
+1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") ange **Redovisningstransaktioner** och välj sedan relaterad länk.
 2. Markera den transaktion som du vill återföra och välj sedan åtgärden **återföringstransaktion**.
 3. Välj åtgärden **Återför** på sidan **Återför transaktionsposter**.
 4. Klicka på knappen **Ja** för att återföra.
@@ -84,9 +82,20 @@ Momenten är liknande för bokförda returinleveranser.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
+## Återföra en kund- och leverantörsreskontratransaktion med en realiserad vinst- eller förlusttransaktion
+
+Du kan använda åtgärden **Återför transaktion** för att återföra betalningar som har kopplats till transaktioner som har sitt ursprung i utländska valutor och som justerades med batch-jobbet Valutakursjustering. Funktionen fungerar för både köp och försäljning.
+
+Följande är ett enkelt scenario som illustrerar hur det fungerar:
+
+1. Bokföra en försäljningsfaktura för en kund som använder en utländsk valuta.
+2. Justera valutakursen för den valutan.
+3. Bokföra en betalning som är kopplad till fakturan.
+4. Ta bort och återför betalningstransaktionen, till exempel från sidan **Kundreskontratransaktioner** .
+
 ## Se även
 
-[Ångra monteringsboking](assembly-how-to-undo-assembly-posting.md)  
+[Ångra bokföring av montering](assembly-how-to-undo-assembly-posting.md)  
 [Bokföra transaktioner direkt i redovisningen](finance-how-post-transactions-directly.md)  
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  
 [Ekonomi](finance.md)  

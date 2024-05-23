@@ -3,7 +3,7 @@ title: Skapa ett projektkort för ett projekt och ange aktiviteter
 description: För ett nytt projekt kan du skapa ett projektkort med projektaktiviteterna och planeringsrader för att hantera hur och budgetar.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-projects"></a>Skapa projekt
+# Skapa projekt
 
 När du vill starta ett nytt projekt måste du skapa ett projektkort med inbyggda projektaktiviteter och projektplaneringsrader, strukturerade i två lager.  
 
@@ -24,7 +24,7 @@ Lagerstrukturen gör att du kan dela upp projekt i mindre aktiviteter och specif
 > [!TIP]
 > Välj åtgärden **Nytt projekt** på Rollcentret **Projektchef** för att starta en assisterad inställningsguide som tar dig genom stegen för att skapa ett projekt med integrerade uppgifter och planeringsrader. Efterföljande procedur beskriver hur du utför stegen manuellt. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Fakturera en eller flera kunder för projektuppgifter
+## Fakturera en eller flera kunder för projektuppgifter
 
 Ibland är den part som tar emot en service inte densamma som den part som betalar räkningen. Ibland kan du också behöva fakturera flera kunder för aktiviteter i projektet. På sidan **Projektkort** använder du fältet **Faktureringsmetod för aktivitet** för att ange om du fakturerar en kund eller flera kunder.
 
@@ -36,7 +36,7 @@ Om du fakturerar flera kunder kan du ange vilken kund som ska få tjänsten och 
 * Lägga till information om externa referenser för att förenkla kommunikationen med projektet.
 * Skriv över projektets standard ekonomiska villkor.
 
-## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Fakturera en kund för flera projektaktiviteter
+## Fakturera en kund för flera projektaktiviteter
 
 Du kan förenkla faktureringsprocessen genom att skicka en faktura till en kund för flera projekt. Lägg till projektplaneringsrader från flera projekt till en försäljningsfaktura på en gång. Den här processen påminner om att skapa en försäljningsfaktura från en projektplaneringsrad och ange ett värde i fältet **Lägg till i förs.faktura nr.**.
 
@@ -54,7 +54,7 @@ Upprepa dessa steg om du vill lägga till ytterligare en uppsättning projektpla
 > * Åtgärden **Hämta projektplaneringsrader** är inte tillgänglig på försäljningsorder eller försäljningsofferter.
 > * Du kan inte filtrera på **leveranskoden** eller **kontaktnr.** .
 
-## <a name="to-create-a-project-card"></a>Skapa ett projektkort
+## Skapa ett projektkort
 
 Du skapar ett projektkort och sedan skapar projektaktivitetsrader och projektplaneringsrader för det.
 
@@ -73,7 +73,7 @@ Om du vill kan du markera åtgärder i projekt som spärrade med fältet **spär
 |Bokföra    |Du kan arbeta med planeringsrader, men projektet är spärrat för bokföring. Om du väljer det här alternativet innebär det att du inte kan bokföra någon förbrukning eller försäljning för projektet.|
 |Alla  |Alla åtgärder är spärrade.|
 
-## <a name="to-create-tasks-for-a-project"></a>Skapa aktiviteter för ett projekt
+## Skapa aktiviteter för ett projekt
 
 En viktig del när du skapar ett projekt är att ange de olika aktiviteter som ingår i projektet. Du anger uppgifter genom att skapa en rad per uppgift på snabbfliken **Uppgifter** på sidan **Projektkort**. Varje projekt måste ha minst en aktivitet.
 
@@ -84,7 +84,7 @@ En viktig del när du skapar ett projekt är att ange de olika aktiviteter som i
 5. Upprepa steg 3 och 4 för alla de aktiviteter som du behöver för projektet.
 6. Om du vill ange projektaktiviteter med information om andra projektaktiviteter väljer du åtgärden **Kopiera projektaktiviteter från**, fyller i fälten efter behov och väljer sedan knappen **OK**.
 
-## <a name="to-create-planning-lines-for-a-project"></a>Så här skapar du en planeringsrad för ett projekt
+## Så här skapar du en planeringsrad för ett projekt
 
 Du kan förfina dina nya projektaktiviteter på projektplaneringsrader. En planeringsrad kan används för att samla in den information som du vill spåra för ett projekt. Du kan t.ex. spåra de resurser som krävs av projektet eller vilka artiklar som behövs. Du har till exempel en uppgift för att få en kund att godkänna ett projekt. Du kan associera den aktiviteten med planeringsrader för objekt som att träffa kund och tilldela en resurs.  
 
@@ -105,7 +105,7 @@ En projektplaneringsrad kan ha en av följande typer.
 4. På sidan **Projektplaneringsrader**, på en ny rad, fyller du i fält efter behov.
 5. Upprepa steg 3 och 4 för alla de planeringsrader som du behöver för projektaktiviteten.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Projekthantering](projects-manage-projects.md)  
 [Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

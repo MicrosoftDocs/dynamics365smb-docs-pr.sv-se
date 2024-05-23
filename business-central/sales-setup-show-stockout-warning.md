@@ -3,7 +3,7 @@ title: Visa en varning om negativt lagersaldo
 description: Lär dig hur du styr om en varning visas när en orderkvantitet överskrider lagernivåerna för en artikel.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'trade, sell, configure'
 ms.search.form: null
@@ -12,21 +12,21 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="display-a-stockout-warning"></a>Visa en varning om negativt lagersaldo
+# Visa en varning om negativt lagersaldo
 
 När någon anger ett antal för en artikel i ett försäljningsdokument som överstiger artikelns aktuella lagernivå på lagerstället, kanske du vill meddela dem genom att visa ett meddelande. Meddelandet är bara för att informera dem om det potentiella problemet och hindrar dem inte från att skapa ordern.
 
-## <a name="to-show-a-warning-about-low-inventory-on-a-sales-document"></a>Så här visar du en varning om lågt lager i ett försäljningsdokument
+## Så här visar du en varning om lågt lager i ett försäljningsdokument
 
 1. Välj ![glödlampan som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Försäljningsinställningar** och väljer sedan relaterad länk.
 1. Beroende på om du vill visa varningen, slå på eller stäng av växlingsknappen **Varning negativt lagersaldo.
 
-## <a name="video-guidance"></a>Videovägledning
+## Videovägledning
 
 Följande video visar ett scenario där någon skapar en försäljningsorder och kvantiteten överskrider den tillgängliga lagernivån för artikeln på dess lagerställe.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h9hL]
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Konfigurera försäljning](sales-setup-sales.md)

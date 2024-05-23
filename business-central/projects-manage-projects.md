@@ -11,7 +11,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="project-management"></a>Projekthantering
+# Projekthantering
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utföra vanliga projekthanteringsuppgifter som t.ex. att skapa ett projekt och schemalägga en resurs, samt att tillhandahålla den information som krävs för att hantera budgetar och övervaka framsteg. Du kan spåra maskiners och anställdas arbetstimmar i projekt, genom att använda tidrapporter. Som projektchef får du en bra översikt, inte enbart över enskilda projekt, utan även över fördelningen av anställda, maskiner och andra resurser som används i samtliga projekt.
 
@@ -31,11 +31,11 @@ I följande tabell beskrivs en serie uppgifter, med länkar till de avsnitt där
 | Bokför förbrukningen av material och resurser och andra kostnader för pågående projektarbete (PIA) för att övervaka dess ekonomiska värde och för att behålla korrekt redovisning, även om du bokför projektkostnader innan du fakturerar projektet. |[Övervaka projektframsteg och resultat](projects-how-monitor-progress-performance.md) |
 | Registrera projektkostnader för resursförbrukning, material och projektrelaterade inköp på löpande basis fakturera kunden, antingen när projektet har slutförts eller enligt ett faktureringschema. |[Fakturera projekt](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects"></a>Komma igång med projekt
+## Komma igång med projekt
 
 Projekthantering är komplicerad i sig och att lära dig hur du skapar projekt och hanterar resurser i arbete i ett nytt verktyg kan vara en annan komplikation. För att komma igång med projekthantering i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se [en videofilm om hur du skapar projekt](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanalen.  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ställa in projekthantering](projects-setup-projects.md)  
 [Video: Hur du skapar du ett projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

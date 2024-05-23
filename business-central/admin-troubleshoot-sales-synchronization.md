@@ -7,11 +7,11 @@ ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/04/2024
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="troubleshoot-synchronization-errors"></a>Felsöka synkroniseringsfel
+# Felsöka synkroniseringsfel
 
 Det finns många rörliga delar som används för att integrera [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)] och ibland kan det bli fel. Den här artikeln beskriver några vanliga fel som uppstår och du får tips om hur du åtgärdar dem.
 
@@ -33,7 +33,7 @@ Nedan finns några verktyg på sidan för att integrera synkroniseringsfel som k
 * Åtgärderna **Ta bort transaktioner som är äldre än 7 dagar** och **Ta alla transaktioner** rensar listan. Vanligtvis använder du dessa åtgärder när du har löst orsaken till ett fel som påverkar många poster. Var försiktig. De här åtgärderna kan ta bort fel som fortfarande är relevanta.
 * Åtgärden **Visa anropsstack för fel** visar information som kan hjälpa till att identifiera orsaken till felet. Om du inte själv kan lösa problemet själv och du bestämmer dig för att skicka in ett supportärende, ska du ta med informationen i supportärendet.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Integrera med Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Ställa in konton för integrering med Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  

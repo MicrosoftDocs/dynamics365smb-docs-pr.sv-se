@@ -3,7 +3,7 @@ title: Introduktion till demonstrationsdata för Contoso Coffee
 description: Översikt över scenarier som kan vara till hjälp när demonstrationsdatan för Contoso Coffee ska hjälpa dig lära dig hur du använder funktionerna i Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.date: 09/20/2023
 ms.topic: article
 ms.service: dynamics-365-business-central
@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion till demonstrationsdata för Contoso Coffee
+# Introduktion till demonstrationsdata för Contoso Coffee
 
 Contoso Coffee är ett fiktivt företag som tillverkar kaffemaskiner för privat och kommersiellt bruk. **Contoso Coffee**-program för [!INCLUDE [prod_short](../includes/prod_short.md)] tillför demodata som du kan använda för att lära dig använda funktionerna i [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Konfigurera data för Contoso Coffee
+## Konfigurera data för Contoso Coffee
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
@@ -39,7 +39,7 @@ Inställningarna beskrivs i följande tabell:
 
 När du har konfigurerat de moduler som du vill prova väljer du åtgärden **Generera** för att skapa demonstrationsdata för dem.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Produktion](../production-manage-manufacturing.md)  
 [Lagerstyrning](../warehouse-manage-warehouse.md)  

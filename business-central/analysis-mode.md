@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# <a name="analyze-list-page-and-query-data-using-data-analysis-feature"></a>Analysera data i listsidor och frågor med hjälp av dataanalysfunktion
+# Analysera data i listsidor och frågor med hjälp av dataanalysfunktion
 
 > **GÄLLER FÖR:** Allmänt tillgänglig förhandsversion i Business Central utgivningscykel 1 för 2023 och senare för analys av listsidor; Allmänt tillgängligt i Business Central utgivningscykel 2 för 2023 för analys av data från listsidor och frågor.
 
@@ -19,7 +19,7 @@ Den här artikeln förklarar hur du använder dataanalysfunktionen från listsid
 > [!TIP]
 > En bra sak med dataanalysfunktionen är att den inte ändrar underliggande data för en listsida eller fråga. Layouten på sidan eller frågan ändras inte heller när den inte är i analysläge. Det bästa sättet att lära sig mer om det du kan göra i analysläget är att testa saker.
 
-## <a name="prerequisites"></a>Förutsättningar
+## Förutsättningar
 
 - Om du använder [!INCLUDE [prod_short](includes/prod_short.md)] version 22, är dataanalysfunktionen i förhandsversion. Så en administratör måste aktivera den innan du kan använda den. För att aktivera går du till sidan **Funktionshantering** och aktiverar **Funktionsuppdatering: Analysläge, snabbanalysera data direkt i Business Central**. [Läs mer om funktionshantering](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - I version 23 och senare måste ditt konto tilldelas behörighetsuppsättningen **DATA ANALYSIS – EXEC** eller inkludera körningsbehörighet för systemobjektet **9640 Tillåt dataanalysläge**. Som administratör kan du undanta dessa behörigheter för användare som du inte vill ska ha åtkomst till analysläget.
@@ -27,7 +27,7 @@ Den här artikeln förklarar hur du använder dataanalysfunktionen från listsid
 > [!NOTE]
 > Vissa listsidor som inte erbjuder växlingsknappen **Ange analysläge** för att aktivera analysläge. Anledningen är att utvecklare kan inaktivera analysläget på specifika sidor med hjälp av [egenskapen AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) i AL.
 
-## <a name="get-started"></a>Kom i gång
+## Kom i gång
 
 Följ dessa steg för att börja använda analysläget.
 
@@ -55,14 +55,14 @@ Följ dessa steg för att börja använda analysläget.
 > [!NOTE]
 > De data som visas i analysläget styrs av de filter eller vyer som anges på listsidan. På så sätt kan du förkonfigurera data innan du startar analysläget.
 
-## <a name="work-with-analysis-mode"></a>Arbeta med analysläge
+## Arbeta med analysläge
 
 I analysläge delas sidan upp i två områden:
 
 - Huvudområdet, som består av dataområdet (1), sammanfattningsfältet (2) och flikfältet (5).
 - Datamanipuleringsområdet, som består av två rutor: kolumner (3) och analysfilter (4).
 
-### <a name="data-area-1"></a>Dataområde (1)
+### Dataområde (1)
 
 Dataområdet är där raderna och kolumnerna på listsidans fråga visas och data summeras. Dataområdet ger ett mångsidigt sätt att styra layouten på kolumner och ett snabbt sätt att få fram en sammanfattning av informationen. För kolumner som innehåller numeriska värden visas summan av alla värden i kolumnen på en sista rad, såvida du inte definierar radgrupper. I det här fallet visas summorna som delsummor för grupperna.  
 
@@ -77,7 +77,7 @@ Dataområdet är där raderna och kolumnerna på listsidans fråga visas och dat
 - Använd dataområdet för att interagera med informationen. För kolumner som innehåller numeriska, summerbara värden kan du hämta beskrivande statistik för en fältuppsättning genom att markera dem. Statistiken visas i statusfältet (2) längs med sidans nederkant.
 - Exportera data i Excel- eller csv-format. Högerklicka på dataområdet eller en cellmarkering som du vill exportera.
 
-### <a name="summary-bar-2"></a>Sammanfattningsfält (2)
+### Sammanfattningsfält (2)
 
 Sammanfattningsfältet finns längs sidans nederkant och visar statistik över datan på listsidan eller i frågan. När du interagerar med kolumner vars värden kan summeras, t.ex. om du markerar flera rader i en kolumn som visar belopp, kommer informationen att uppdateras.
 
@@ -96,7 +96,7 @@ I följande tabell beskrivs de olika nummer som visas i summa området:
 |Max|Det högsta värdet i alla valda summeringsbara fält.|
 |Summa|Total summan av alla värden i de valda summeringsbara fälten.|
 
-### <a name="columns-3"></a>Kolumner (3)
+### Kolumner (3)
 
 **Kolumnerna** är en av två fönsterrutor som samarbetar för att definiera analysen. Det andra området är rutan **Analysfilter**. Rutan **kolumner** används för att summera data. Använd rutan **kolumner** för att definiera vilka kolumner som ska tas med i analysen.
 
@@ -111,7 +111,7 @@ I följande tabell beskrivs de olika nummer som visas i summa området:
 
 Om du vill flytta ett fält från ett område till ett annat väljer du ta bort ikon ![Visar knappen för att ta tag i ett fält i analysläget](media/column-grab-icon.png) bredvid kolumnen i listan och dra till målområdet. Du kan inte flytta ett fält till ett område där det inte är tillåten.
 
-### <a name="analysis-filters-4"></a>Analysfilter (4)
+### Analysfilter (4)
 
 Med rutan **Analysfilter** kan du ange ytterligare datafilter för kolumner för att begränsa posterna i listan. Ange filter för kolumner om du vill begränsa antalet poster i listan och efterföljande summor till endast de transaktioner som du är intresserad av baserat på ett villkor som du definierar. Du kanske till exempel bara vill ha information om en viss kund eller försäljningsorder som överstiger ett visst belopp. Om du vill definiera ett filter markerar du kolumnen, väljer jämförelseåtgärden i listan (t.ex. **lika med** eller **börjar med**) och anger sedan värdet.
 
@@ -120,7 +120,7 @@ Med rutan **Analysfilter** kan du ange ytterligare datafilter för kolumner för
 > [!NOTE]
 > De extra filtren gäller endast för den aktuella analysfliken. På så sätt kan du definiera exakt de extra datafilter som behövs för en viss analys.
 
-### <a name="tabs-5"></a>Flikar (5)
+### Flikar (5)
 
 På flikområdet kan du skapa olika konfigurationer (kolumner och analysfilter) på olika flikar, där du kan ändra data på flikarna oberoende av varandra. Det finns alltid minst en flik som kallas **Analys 1** som standard. Det kan vara bra att lägga till fler flikar för att spara ofta använda analysvyer i en datauppsättning. Du kan till exempel ha flikar för att analysera data i pivotläge och andra flikar som filtrerar till en delmängd av rader. Vissa flikar kan visa en detaljerad vy med många kolumner och andra bara visa några få nyckelkolumner.
 
@@ -138,7 +138,7 @@ Här följer några tips på hur du arbetar med flera analyser:
    > Flikarna som du ställer in visas bara för dig. Andra användare kan bara se de flikar som de har ställt in.
 - Du kan kopiera analysflikar. Kopiering kan till exempel vara användbart när du vill experimentera med att ändra en flik utan att ändra originalet. Kopiering är också användbart om du vill skapa olika varianter av samma analys.
 
-## <a name="date-hierarchies"></a>Datumhierarkier
+## Datumhierarkier
 
 I analysläge genereras datumfält för datauppsättningen i en hierarki mellan år och kvartal med tre separata fält. Den här hierarkin baseras på den normala kalendern, inte några räkenskapskalendrar som definieras i Business Central.
 
@@ -147,11 +147,11 @@ De extra fälten heter *\<field name\> År*, *\<field name\> Kvartal* och *\<fie
 > [!NOTE]
 > Datumhierarkin gäller för närvarande bara för fält av typen datum, inte för fält av typen DatumTid.
 
-## <a name="pivot-mode"></a>Pivotläge
+## Pivotläge
 
 Du kan använda pivotläge för att analysera stora mängder numeriska data, delsummera data efter kategorier och underkategorier. Pivotläge fungerar som [pivotregister i Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
-Aktivera och inaktivera pivotläge genom att dra skjutreglaget för **pivotläge** i rutan **kolumner** (3). När du slår på pivotläget, visas området **Kolumnetiketter** i rutan. Använd området **kolumnetikett** om du vill gruppera totala summor för rader i kategorier. Fält som du lägger till i området **kolumnetiketter** visas som kolumner i dataområdet (1).
+Aktivera och inaktivera pivotläge genom att inaktivera växlingen **pivotläge** i rutan **kolumner** (3). När du slår på pivotläget, visas området **Kolumnetiketter** i rutan. Använd området **kolumnetikett** om du vill gruppera totala summor för rader i kategorier. Fält som du lägger till i området **kolumnetiketter** visas som kolumner i dataområdet (1).
 
 Att bygga ut dataanalysen i pivotläge innebär att du flyttar fält till de tre områdena: **radgrupper**, **kolumnetiketter** och **värden**. I bilden nedan visas var fälten är mappade till dataområdet (1), där `sum` är beräknad data och även eventuellt **värden**.
 
@@ -167,7 +167,7 @@ Att bygga ut dataanalysen i pivotläge innebär att du flyttar fält till de tre
 > [!TIP]
 > Kolumner som bara har ett fåtal värden är de bästa kandidater för att använda i kolumnen **värden**.
 
-## <a name="analyze-large-amounts-of-data"></a>Analysera stora mängder data
+## Analysera stora mängder data
 
 Om den datauppsättning som du vill analysera överskrider 100 000 rader föreslår vi att du anger ett analysläge som är optimerat för stora datauppsättningar. Det finns för närvarande två begränsningar om du växlar till det här läget: 
 
@@ -181,7 +181,7 @@ Om den datauppsättning som du vill analysera överskrider 100 000 rader föres
 
    Om du aktiverar pivotläge och drar ett fält till området **Kolumnetiketter**, där underliggande data för fältet har för många distinkta värden, kan webbläsarfliken komma att sluta svara. Webbläsaren stängs så småningom, vilket kräver att du börjar om i en ny session. I det här fallet ska du antingen inte gå vidare i fältet eller ange ett filter för fältet innan du lägger till det i området **Kolumnetiketter**.
 
-## <a name="share-data-analysis"></a>Dela dataanalys
+## Dela dataanalys
 
 När du har förberett en analys på en flik kan du dela den som en länk med medarbetare och andra inom organisationen direkt från klienten. Endast mottagare som har behörighet till företaget och datan kan använda länken.
 
@@ -199,7 +199,7 @@ När du har förberett en analys på en flik kan du dela den som en länk med me
 1. Klistra in länken i valfritt kommunikationsmedium, till exempel Word, Outlook, Teams OneNote och så vidare.
 1. När mottagarna väl har tagits emot kan de välja länken och öppna analysen för sidan eller frågan i [!INCLUDE [prod_short](includes/prod_short.md)]. Dessa uppmanas att ange ett namn för den nya analysfliken som ska skapas.  
 
-## <a name="examples-of-how-to-analyze-data"></a>Exempel på hur du analyserar data
+## Exempel på hur du analyserar data
 
 Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
@@ -209,7 +209,7 @@ Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
 Följande avsnitt innehåller exempel på scenarier för många av funktionsområdena i [!INCLUDE [prod_short](includes/prod_short.md)].
 
-### <a name="example-finance-accounts-receivables"></a>Exempel: Finans (Kundfordringar)
+### Exempel: Finans (Kundfordringar)
 
 För att se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas gör du följande steg:
 
@@ -221,13 +221,13 @@ För att se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsinterv
 1. Om du vill göra analysen för ett visst år eller kvartal använder du ett filter på menyn **Analysfilter** (nedanför menyn **Kolumner** till höger).
 1. Byt namn på analysfliken till **Ålderskonton per månad** eller något som beskriver den här analysen.
 
-### <a name="ad-hoc-data-analysis-examples-by-functional-area"></a>Exempel ad hoc-dataanalys efter funktionsområde
+### Exempel ad hoc-dataanalys efter funktionsområde
 
 Många av de funktionella områdena i [!INCLUDE[prod_short](includes/prod_short.md)] har artiklar med ad hoc-dataanalysexempel.
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
-## <a name="limitations-in-2023-release-wave-1-preview"></a>Begränsningar i utgivningscykel 1 för 2023 (förhandsversion)
+## Begränsningar i utgivningscykel 1 för 2023 (förhandsversion)
 
 Den allmänt tillgängliga förhandsversionen av denna funktion har följande begränsningar:
 
@@ -235,7 +235,7 @@ Den allmänt tillgängliga förhandsversionen av denna funktion har följande be
 - Funktionen för analys av datadelning är inte tillgänglig.
 - Möjligheten att spara önskade dataanalysalternativ på listsidor och att spara analysmenyer efter analysflik är för närvarande inte tillgänglig.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Ad hoc-dataanalys efter funktionsområde](ad-hoc-data-analysis-by-functional-area.md)   
 [Ad hoc-dataanalys](reports-adhoc-analysis.md)  
