@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Hållbarhetskonfiguration
+# <a name="sustainability-setup"></a>Hållbarhetskonfiguration
 
 Innan hållbarhetsmodulen kan fungera korrekt måste du först ställa in några grundläggande kontroller och instruktioner relaterade till hela funktionen.
 
@@ -52,7 +52,7 @@ Följ följande steg för att konfigurera en hållbarhetsmodul:
     | **Avrundningsnoggrannhet för utsläpp** | Ange storleken på det intervall som ska användas när utsläppsmängder avrundas när du rapporterar till myndigheter. |
     | **Avrundningstyp för utsläpp** | Ange hur programmet avrundar utsläppsmängder när du rapporterar till myndigheter. Följande alternativ är tillgängliga: **Närmsta**, **Upp** och **Ned**. |
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ekonomi](finance.md)  
 [Översikt över hållbarhetsstyrning](finance-manage-sustainability.md)  

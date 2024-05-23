@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Konfigurera processer för tjänstehantering
+# <a name="configure-service-management-processes"></a>Konfigurera processer för tjänstehantering
 
 Här följer några exempel på de inställningar som du kan använda i tjänstehanteringsprocesser:  
   
@@ -21,12 +21,12 @@ Här följer några exempel på de inställningar som du kan använda i tjänste
 * Inställningar för kontrakt, till exempel det maximala antalet dagar som du kan använda för serviceorder om du använder orsakskoder när ett kontrakt har annullerats, standardtexter beskrivningar av kontraktvärden.  
 * Nummerserierna som ska användas för servicerelaterade dokument och artiklar.  
 
-## Så här anger du allmänna och obligatoriska inställningar
+## <a name="to-enter-general-and-mandatory-settings"></a>Så här anger du allmänna och obligatoriska inställningar
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Konfigurera servicehantering** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Konfigurera bokföringsprinciper för servicefakturor för användare
+## <a name="set-up-service-invoice-posting-policies-for-users"></a>Konfigurera bokföringsprinciper för servicefakturor för användare
 
 Företag har ofta unika processer för att bokföra försäljnings- och inköpsfakturor och leveranser. Processer kan till exempel variera från en person som bokför allt på en på en serviceorder till flera anställda, som var och en arbetar med sina egna sidor.
 
@@ -55,7 +55,7 @@ Följande tabell beskriver effekterna på olika dokument.
 > [!NOTE]
 > När du bokför servicefakturor och kreditnotor har du inga bokföringsalternativ. I dokumenten bokförs alltid de fysiska och ekonomiska transaktionerna tillsammans. Du kan inte delvis bokföra servicefakturor och kreditnotor.
 
-## Se även  
+## <a name="see-also"></a>Se även
 
 [Konfigurera felrapportering](service-how-setup-fault-reporting.md)  
 [Konfigurera resursfördelning](service-how-setup-resource-allocation.md)  

@@ -36,7 +36,7 @@ Den här genomgången introducerar dig för projekthanteringsfunktionerna. Med P
 - Se hur kontrakts- och fakturavärden fastställs.  
 - Lämna utrymme för extra (ej fakturerat) arbete i planeringen.  
 
-### <a name="copying-a-job"></a>Kopiera ett projekt
+### <a name="copying-a-project"></a>Kopiera ett projekt
 
  I det här scenariot fokuserar vi på hur du kopierar en del eller hela projektet för att minska den manuella dataregistreringen och öka noggrannheten. Detta omfattar följande:  
 
@@ -223,11 +223,11 @@ I nästa procedur skapar du en projektjournal för Tricia för att bokföra dera
 
 Raderna är nu bokförda.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Skapa och bokföra en försäljningsfaktura för ett projekt
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Skapa och bokföra en försäljningsfaktura för ett projekt
 
  I nästa steg kan Tricia skapa en ny faktura för hela projektet eller för en del av ett projekt. Tricia kan även bifoga fakturan till en annan faktura för samma kund inom samma projekt. I detta fall kan Tricia fakturera hela projektet eftersom projektet nu är slutfört.  
 
-### <a name="to-create-a-job-sales-invoice"></a>Så här skapar du en projektförsäljningsfaktura
+### <a name="to-create-a-project-sales-invoice"></a>Så här skapar du en projektförsäljningsfaktura
 
 1.  Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2.  Välj det projekt som du skapade tidigare och klicka på åtgärd **Skapa försäljningsfaktura för projekt**.  
@@ -261,7 +261,7 @@ Raderna är nu bokförda.
 
  CRONUS har fått uppdraget att inreda tio konferensrum. Som projektchef vill Prakash ha en god översikt över de aktiviteter som ska utföras i projektet samt tillhörande budget och kostnader för respektive aktivitet. Prakash vill dessutom veta det totala pris som överenskommits för projektet och det belopp som har fakturerats hittills. De har nått en överenskommelse med kunden om att projektet ska ha ett fast pris.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>Så här hanterar du fast prissättning i projekt
+### <a name="to-manage-fixed-pricing-in-projects"></a>Så här hanterar du fast prissättning i projekt
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Projekt** och väljer sedan relaterad länk.  
 2. Markera projektnummer **Nyström** och välj sedan åtgärd **Projektaktivitetsrader**.  

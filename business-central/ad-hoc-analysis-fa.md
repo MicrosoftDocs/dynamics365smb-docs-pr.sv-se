@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analys av data för anläggningstillgångar
+# <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Ad hoc-analys av data för anläggningstillgångar
 
 Den här artikeln förklarar hur du använder funktionen **Dataanalys** för att analysera data för anläggningstillgångar direkt från listsidor och frågor. Du behöver inte köra en rapport eller växla till ett annat program, till exempel Excel. Funktionen ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Några exempel är "Totala tillgångar", "Avskrivningar över tid" eller någon annan vy du kan tänka dig. Mer information om hur du använder funktionen **Dataanalys** finns i [Analysera lista och frågedata med analysläge](analysis-mode.md).
 
@@ -21,7 +21,7 @@ Använd följande listsidor för att börja göra ad hoc-analys av anläggningst
 - [Anl.transaktioner](https://businesscentral.dynamics.com/?page=5604)
 - [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20)
 
-## Scenarier för ad hoc-analys av anläggningstillgångar
+## <a name="fixed-assets-ad-hoc-analysis-scenarios"></a>Scenarier för ad hoc-analys av anläggningstillgångar
 
 Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
@@ -37,7 +37,7 @@ Följande avsnitt innehåller exempel på scenarier för anläggningstillgångar
 | [Tillgångarnas värde förändras över tid](#example-asset-value-changes-over-time) | Spåra tillgångarnas värde förändras över tid. | [Anl.transaktioner](https://businesscentral.dynamics.com/?page=5604) | **Anl.bokföringstyp**, **Anl.bokf.datum** och **Belopp** |
 |[Avskrivningar av anläggningstillgångar över tid](#example-fixed-asset-depreciations-over-time) | Spåra avskrivningar över tid, både över alla tillgångar och på en enskild tillgång. | [Anl.transaktioner](https://businesscentral.dynamics.com/?page=5604) | **Avskrivningsregel**, **Anl.nr.**, **Anl.bokf.År**, **Anl.bokf.Månad**, **Belopp** och **Anl.bokföringstyp** |
 
-### Exempel: anläggningstillgångars aktuella värde
+### <a name="example-fixed-assets-current-value"></a>Exempel: anläggningstillgångars aktuella värde
 
 Så här spårar du värdet på en eller flera anläggningstillgångar:
 
@@ -52,7 +52,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Exempel på hur du gör dataanalyser på sidan redovisning för anläggningstillgångar för att se tillgångens värde." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
-### Exempel: tillgångarnas värde förändras över tid
+### <a name="example-asset-value-changes-over-time"></a>Exempel: tillgångarnas värde förändras över tid
 
 Så här spårar du förändringar i tillgångarnas värde över tid:
 
@@ -68,7 +68,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Exempel på hur du gör dataanalyser på sidan redovisning för anläggningstillgångar för att se tillgångarnas värde förändras över tid." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
 
-### Exempel: avskrivningar av anläggningstillgångar över tid
+### <a name="example-fixed-asset-depreciations-over-time"></a>Exempel: avskrivningar av anläggningstillgångar över tid
 
 Följ dessa steg för att spåra avskrivningar för en eller flera anläggningstillgångar:
 
@@ -85,17 +85,17 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png" alt-text="Exempel på hur du gör dataanalyser på sidan redovisning för anläggningstillgångar för att se avskrivningar över tiden." lightbox="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png":::
 
-## Underlag för ad hoc-analys av anläggningstillgångar
+## <a name="data-foundation-for-ad-hoc-analysis-on-fixed-assets"></a>Underlag för ad hoc-analys av anläggningstillgångar
 
 När du bokför anläggningstillgångsjournaler [!INCLUDE [prod_short](includes/prod_short.md)] skapas transaktioner i tabellen **Anl. transaktion**. Därför görs ad hoc-analyser av anläggningstillgångar vanligtvis på sidan [redovisning för anläggningstillgångar](https://businesscentral.dynamics.com/?page=5604).
 
-## Deltagare
+## <a name="contributors"></a>Deltagare
 
 *Microsoft underhåller den här artikeln. Delar av exemplen skrevs ursprungligen av följande deltagare.*
 
 * [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Konsult
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Analysera listdata och frågedata med analysläge](analysis-mode.md)  
 [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)  

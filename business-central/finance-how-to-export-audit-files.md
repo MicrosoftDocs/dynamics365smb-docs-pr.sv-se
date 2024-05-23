@@ -12,7 +12,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 ---
 
-# Export av verifieringsfil
+# <a name="audit-file-export"></a>Export av verifieringsfil
 
 Export av bokföringsinformation från systemet är en gemensam begäran från vissa lokala myndigheter eller revisorer. Export av format och information som krävs kan skilja sig från varandra. Transaktioner för export är vanligtvis redovisningstransaktioner (redovisning) momstransaktioner. Ytterligare information krävs dock ibland.
 
@@ -21,7 +21,7 @@ Export av bokföringsinformation från systemet är en gemensam begäran från v
 > [!NOTE]
 > För närvarande kan du välja SIE (Sverige), FEC (Frankrike) och SAF-T-format som en extra app. Partner kan också utveckla ett anpassat format. Antalet tillgängliga format kommer att öka över tiden.
 
-## Ställ in export av verifieringsfil
+## <a name="set-up-audit-file-export"></a>Ställ in export av verifieringsfil
 
 1. Välj sökknappen ![Förstoringsglas som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Exportkonfiguration för verifieringsfil** och välj sedan den relaterade länken.
 2. På sidan **Exportkonfiguration för verifieringsfil**, följ dessa steg:
@@ -42,7 +42,7 @@ Export av bokföringsinformation från systemet är en gemensam begäran från v
     2. I fältet **Namn på verifieringsfil**, ange standardfilnamnet eller filnamnsmallen för granskningsfilen som du vill exportera.
     3. Markera kryssrutan **Arkivera i zip-format** om du vill att zip-filer ska exporteras automatiskt.
 
-## Ange redovisningskontomappningen för exporten av verifieringsfilen
+## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Ange redovisningskontomappningen för exporten av verifieringsfilen
 
 De flesta format som krävs av myndigheterna för redovisningskonton kräver en specifik standardkontoplan. När du har konfigurerat redovisningskontona kommer därför den exporterade filen att baseras på mappningarna. Du kan använda fler mappningar i systemet.
 
@@ -67,7 +67,7 @@ Följ dessa steg för att tillhandahålla redovisningskontomappningen för expor
     1. För att generera rader på sidan **Mappning av redovisningskonto**, baserat på en befintlig kontoplan, välj **Initiera källa för mappning**. Om du vill kopiera kontomappningen från en annan mappningskod väljer du **Kopiera från en annan mappning**. När du är klar med att skapa rader markeras alla redovisningskonton med bokförda transaktioner i grönt.
     2. Om du bara vill markera huvudkonton som har poster väljer du **Uppdatera disposition för redovisningstransaktioner**. Om alternativet **Ta med ingående saldo** är aktiverat, beaktas alla bokförda bokföringsposter för beräkning. I annat fall beaktas endast redovisningstransaktioner för rapporteringsperioden.
 
-## Export av verifieringsfilen
+## <a name="export-the-audit-file"></a>Export av verifieringsfilen
 
 1. Välj sökknappen ![Förstoringsglas som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Exportdokument för verifieringsfil** och välj sedan den relaterade länken.
 2. På sidan **Exportdokument för verifieringsfil**, välj **Ny**.
@@ -95,7 +95,7 @@ Följ dessa steg för att tillhandahålla redovisningskontomappningen för expor
 > [!IMPORTANT]
 > Om du har flera transaktioner att exportera rekommenderar vi inte att du exporterar dem i den aktuella sessionen på grund av eventuella prestandaproblem. I stället rekommenderar vi att du använder parallell bearbetning under lediga dagar eller timmar.
 
-## Se även
+## <a name="see-also"></a>Se även
 [Ekonomihantering](finance.md)  
 [Förstå redovisningen och kontoplanen](finance-general-ledger.md)  
 [Arbeta med dimensioner](finance-dimensions.md)  

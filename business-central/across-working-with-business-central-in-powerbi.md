@@ -9,21 +9,21 @@ ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Anslut till Power BI från Business Central lokalt
+# <a name="connect-to-power-bi-from-business-central-on-premises"></a>Anslut till Power BI från Business Central lokalt
 
 <!--In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 
-## Get ready
+## <a name="get-ready"></a>Get ready
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use a work email address and password.-->
 
-## Kom i gång
+## <a name="get-started"></a>Kom i gång
 
 Om du använder [!INCLUDE [prod_short](includes/prod_short.md)] lokalt måste det aktiveras för Power BI-integrering. Denna uppgift utförs vanligtvis av en administratör. Mer information om hur du aktiverar Power BI integrering med Business Central online finns i [Konfigurera Business Central lokalt för Power BI-integrering](admin-powerbi-setup.md).
 
 Vissa funktioner är dessutom endast tillgängliga med Business Central Online, inte lokalt. Mer information finns i [Introduktion till Business Central och Power BI](admin-powerbi.md#what-you-can-do-with-power-bi-and-business-central)
 
-## <a name="setup"></a>Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt för Power BI-integrering
+## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Konfigurera [!INCLUDE[prod_short](includes/prod_short.md)] lokalt för Power BI-integrering
 
 I detta avsnitt beskrivs kraven för en lokal [!INCLUDE[prod_short](includes/prod_short.md)]-distribution i syfte att integrera med Power BI.
 
@@ -56,7 +56,7 @@ I detta avsnitt beskrivs kraven för en lokal [!INCLUDE[prod_short](includes/pro
 
     Om du vill skapa den första anslutningen öppnar du [!INCLUDE[prod_short](includes/prod_short.md)] och kör **Kom igång med Power BI** från startsidan. Denna åtgärd leder dig genom samtyckesprocessen och kontrollerar din Power BI-licens. När du uppmanas att göra så, loggar du in med ett Microsoft Entra-administratörskonto. Mer information finns i [Anslut till Power BI – endast en gång](across-working-with-powerbi.md#connect).
 
-## Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
+## <a name="build-power-bi-reports-to-display--data"></a>Skapa Power BI-rapporter för att visa [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
 Gör din Dynamics 365 Business Central-data tillgänglig som datakälla i Power BI Desktop och bygga kraftfulla rapporter av din verksamhets status.
 
@@ -71,7 +71,7 @@ Använd Power BI Desktop för att skapa rapporter som visar Dynamics 365 Busines
 
     I syfte att hämta data från [!INCLUDE[prod_short](includes/prod_short.md)] använder Power BI grundläggande autentisering. Du behöver därför ett användarnamn och en åtkomstnyckel till en webbtjänst för att ansluta. Kontot kan vara ditt eget användarkonto, eller också kanske din organisation har ett specifikt konto i detta syfte.
 
-## <a name="getdata"></a>Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Lägg till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop
 
 Den första uppgiften i samband med att skapa rapporter är att lägga till [!INCLUDE[prod_short](includes/prod_short.md)] som en datakälla i Power BI Desktop. När du väl är ansluten kan du börja skapa rapporten.
 
@@ -105,12 +105,12 @@ När datan har lästs in kan du se den i den högra navigeringen på sidan. Vid 
 > [!TIP]
 > Mer information om hur du använder Power BI Desktop finns i [Komma igång med Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## Hantera och ändra rapporter
+## <a name="manage-and-modify-reports"></a>Hantera och ändra rapporter
 
 > [!NOTE]
 > DU kan inte hantera och ändra rapporter. 
 
-## Ladda upp rapporter
+## <a name="upload-reports"></a>Ladda upp rapporter
 
 För [!INCLUDE [prod_short](includes/prod_short.md)] lokalt finns det inga demorapporter tillgängliga, så du måste börja från början med hjälp av Power BI Desktop. Alternativt kan Power BI-rapporter distribueras som uppladdningsbara filer direkt från Power BI onlinetjänst. Mer information finns i [Ladda upp rapporten till tjänsten](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
@@ -132,11 +132,11 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'
 
 Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*.  Depending on how your organization has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
-### Refresh manually
+### <a name="refresh-manually"></a>Refresh manually
 
 In the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
 
-### Schedule a refresh
+### <a name="schedule-a-refresh"></a>Schedule a refresh
 
 In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
 
@@ -160,7 +160,7 @@ For more information, see [Upload the report to the service](/power-bi/paginated
 > [!TIP]
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, you can also upload a report from within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)] - Upload Reports](across-working-with-powerbi.md#upload).
 
-## <a name="share"></a>Share reports with others
+## <a name="share-reports-with-others"></a><a name="share"></a>Share reports with others
 
 Once a report is in your workspace, you can share it with others in your organization.
 
@@ -169,7 +169,7 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 > [!NOTE]
 > You must have  [Power BI Pro license](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).-->
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Business Central och Power BI](admin-powerbi.md)  
 [Ladda upp rapporten från filer](across-working-with-powerbi.md#upload-reports)  
