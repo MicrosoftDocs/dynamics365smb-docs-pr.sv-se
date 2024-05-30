@@ -142,7 +142,7 @@ Så här begränsar du bokföring för en viss användare:
 3. I fältet **Tillåt bokföring från** ange från vilket momsdatum du tillåter bokföring. Bokföra ett dokument eller en journal med ett momsdatum före detta datum är inte tillåtet.
 4. I fältet **Tillåt bokföring till** ange till vilket momsdatum du tillåter bokföring. Bokföra ett dokument eller en journal med ett momsdatum efter detta datum är inte tillåtet.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Så här skapar du momsregistreringsnummer för land / region
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Så här skapar du momsregistreringsnummer för land / region
 
 För att garantera att användaren anger ett giltigt momsregistreringsnummer kan du ange format för momsregistreringsnummer som används i de länder eller regioner där du bedriver verksamhet. [!INCLUDE[prod_short](includes/prod_short.md)] visar ett felmeddelande när någon gör fel eller använder ett format som är felaktigt för landet / regionen.
 
@@ -232,7 +232,7 @@ I följande avsnitt beskrivs hur du tilldelar momsbokföringsmallar till enskild
     * På kortet **Resurs** expanderar du snabbfliken **Fakturering**.  
 3. Välj produktbokföringsmallen med moms.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Ange satser som förklarar momsbefrielse eller icke-standardiserade momssatser
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Ange satser som förklarar momsbefrielse eller icke-standardiserade momssatser
 
 Du konfigurerar en momsklausul som beskriver information om vilken typ av moms som tillämpas. Informationen kan krävas av Myndighetsregleringar. När du registrerar en momsklausul och associera den med en momsbokföringsinställning, visas momsklausulen på alla utskrivna försäljningsdokument som använder momsbokföringsinställningsmallen.
 
@@ -293,7 +293,7 @@ Så här anger du koder för importmoms:
 5. I fältet **Momsberäkningstyp**väljer du **enbart moms**.  
 6. Ange det redovisningskonto som ska användas för att bokföra importmoms i fältet **Ingående moms**. Alla andra konton är valfria.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Använda omvänd moms för handel mellan länder/regioner inom EU
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Använda omvänd moms för handel mellan länder/regioner inom EU
 
 En del företag måste använda omvänd moms när de handlar med andra företag. Regeln gäller för inköp från länder/regioner inom EU och försäljning till länder/regioner inom EU.  
 
@@ -303,7 +303,7 @@ En del företag måste använda omvänd moms när de handlar med andra företag.
 > [!TIP]  
 > Du kan verifiera att ett företag som är registrerat som momspliktigt i ett annat EU-land/region genom att använda tjänsten validering av EU-momsregistreringsnummer. Tjänsten är tillgänglig utan kostnad i [!INCLUDE[prod_short](includes/prod_short.md)]. Mer information finns i [kontrollera momsregistreringsnummer](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Försäljning till länder eller regioner inom EU
+### <a name="sales-to-eu-countriesregions"></a>Försäljning till länder eller regioner inom EU
 
 Ingen moms beräknas på försäljning till momspliktiga företag i andra länder/regioner inom EU. Du måste rapportera värdet för försäljningar till länder/regioner inom EU separat i momsrapporten.  
 

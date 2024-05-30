@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analyser inom inköp
+# <a name="ad-hoc-analyses-in-purchasing"></a>Ad hoc-analyser inom inköp
 
 Den här artikeln förklarar hur du analyserar inköpsdata från listsidor och frågor med hjälp av funktionen **Dataanalys**. Med funktionen kan du analysera data direkt från sidan, utan att behöva köra en rapport eller öppna ett annat program, t.ex. Excel. Dataanalys ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Några exempel är "Mina leverantörer" eller "Inköpsstatistik" eller någon annan vy du kan tänka dig. Mer information om hur du använder funktionen **Dataanalys** finns i [Analysera lista och frågedata med analysläge](analysis-mode.md).
 
@@ -24,7 +24,7 @@ Använd följande listsidor för ad hoc-analys av inköpsprocesser:
 - [Leverantörsreskontratransaktioner](https://businesscentral.dynamics.com/?page=29)
 - [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20)
 
-## Ad hoc-analysscenarier för inköp
+## <a name="ad-hoc-analysis-scenarios-for-purchasing"></a>Ad hoc-analysscenarier för inköp
 
 Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
@@ -39,7 +39,7 @@ Följande avsnitt innehåller exempel på inköpsscenarier i [!INCLUDE [prod_sho
 | [Översikt över GRNI (moms)](#example-goods-received-not-invoiced-grni-overview) | Få en översikt över inlevererade, ej fakturerade varor (GRNI) från flera leverantörer. | [Inköpsrader](https://businesscentral.dynamics.com/?page=518) | **Typ**, **Inlevererat bel. ej faktrd (BVA)** (filter i dessa fält), **Leverantörsnr.**, **Dokumentnr.**, **Nr.** och **Inlevererat bel. ej faktrd (BVA)** <br><br> **OBS!** Du måste anpassa sidan för att lägga till dessa fält. För mer information, gå till [Anpassa arbetsytan](ui-personalization-user.md). | 
 | [Ekonomi (Leverantörsskulder)](#example-finance-accounts-payable) | Se vad du är skyldig dina kunder, kanske uppdelat i tidsintervall för när belopp ska betalas. | [Leverantörsreskontratransaktioner](https://businesscentral.dynamics.com/?page=29) | **Leverantörsnamn**, **Dokumenttyp**, **Verifikationsnr.**, **Förfallodatum år**, **Förfallodatum månad** och **Återstående belopp**. |
 
-## Exempel: Översikt över inlevererade varor, ej fakturerade (GRNI)
+## <a name="example-goods-received-not-invoiced-grni-overview"></a>Exempel: Översikt över inlevererade varor, ej fakturerade (GRNI)
 
 Följ dessa steg för att skapa en översikt över varor mottagna, ej fakturerade (GRNI) över leverantörer:
 
@@ -55,7 +55,7 @@ Följ dessa steg för att skapa en översikt över varor mottagna, ej fakturerad
 1. Om du vill göra analysen för ett visst år eller kvartal använder du ett filter på menyn **Analysfilter**. Menyn finns till höger på sidan, precis under menyn **Kolumner**.
 1. Byt namn på analysfliken till **Översikt över inlevererade varor (GRNI)** eller något som beskriver den här analysen.
 
-## Exempel: finans (leverantörsskulder)
+## <a name="example-finance-accounts-payable"></a>Exempel: finans (leverantörsskulder)
 
 För att se vad du är skyldig dina leverantörer, kanske uppdelat i tidsintervall för när belopp ska betalas gör du följande steg:
 
@@ -71,7 +71,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Exempel på hur du gör dataanalyser på sidan Redovisningstransaktioner." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-## Underlag för ad hoc-analys av inköp
+## <a name="data-foundation-for-ad-hoc-analysis-on-purchasing"></a>Underlag för ad hoc-analys av inköp
 
 När du bokför ett inköpdokument uppdaterar [!INCLUDE [prod_short](includes/prod_short.md)] leverantörens konto, redovisningen, artikeltransaktionstransaktionerna samt resurstransaktionstransaktionerna:
 
@@ -85,7 +85,7 @@ När du bokför ett inköpdokument uppdaterar [!INCLUDE [prod_short](includes/pr
 
 Läs mer på [Bokföra inköp](purchasing-how-record-purchases.md#posting-purchases).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Bokföra inköp](purchasing-how-record-purchases.md#posting-purchases)  
 [Analysera listdata och frågedata med analysläge](analysis-mode.md)  

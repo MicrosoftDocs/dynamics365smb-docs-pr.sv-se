@@ -9,7 +9,7 @@ ms.date: 09/27/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Anpassa Business Central Online med appar
+# <a name="customizing-business-central-online-using-apps"></a>Anpassa Business Central Online med appar
 
 Du kan ändra [!INCLUDE[prod_short](includes/prod_short.md)] online genom att installera appar som lägger till funktioner, ändrar beteende eller ger dig tillgång till nya onlinetjänster. Dessa appar kallas även *tillägg* eftersom de *utökar* [!INCLUDE [prod_short](includes/prod_short.md)].
 

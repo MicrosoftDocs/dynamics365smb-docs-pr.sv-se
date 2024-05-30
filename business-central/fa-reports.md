@@ -9,19 +9,19 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Rapporter för anläggningstillgångar och analys i Business Central
+# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Rapporter för anläggningstillgångar och analys i Business Central
 
 För att hjälpa dig att hantera dina anläggningstillgångar i [!INCLUDE [prod_short](includes/prod_short.md)] är standardrapporter och analyser inbyggda. Det överskrider traditionella rapporteringsbegränsningar för att hjälpa dig att effektivt utforma olika typer av rapporter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## Utforska ekonomirapporter med Rapportutforskaren
+## <a name="explore-finance-reports-with-report-explorer"></a>Utforska ekonomirapporter med Rapportutforskaren
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Ad hoc-analys av data för anläggningstillgångar](ad-hoc-analysis-fa.md)     
 [Översikt över analys av anläggningstillgångar](fa-analytics-overview.md)   

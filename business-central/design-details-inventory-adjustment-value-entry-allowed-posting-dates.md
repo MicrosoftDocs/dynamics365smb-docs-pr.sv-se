@@ -26,7 +26,7 @@ Det här felmeddelandet anger att användaren inte har tillåtelse att bokföra 
 
 Användaren i detta exempel har ett tillåtet datumintervall för bokföring från den 11 september till den 30 september, och får därmed inte bokföra justeringsvärdetransaktionen med bokföringsdatum 10 september.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Översikt över berörda inställningar för bokföringsdatum
+### <a name="overview-of-the-posting-date-setup"></a>Översikt över berörda inställningar för bokföringsdatum
 
 #### <a name="inventory-periods"></a>Lagerperioder
 
