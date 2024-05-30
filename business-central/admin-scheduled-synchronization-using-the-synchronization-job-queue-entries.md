@@ -3,7 +3,7 @@ title: Synkroniserar Business Central och Dataverse
 description: Lär dig mer om att synkronisera data mellan Business Central och Dataverse.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/31/2023
 ms.custom: bap-template
@@ -11,7 +11,7 @@ ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Schemalägga en synkronisering mellan Business Central och Dataverse
+# Schemalägga en synkronisering mellan Business Central och Dataverse
 
 Du kan synkronisera [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på schemalagda intervall, genom att ställa in projekt i jobbkön. Synkroniseringjobben synkroniserar data i [!INCLUDE[prod_short](includes/prod_short.md)]-poster och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-poster som har kopplats ihop. För poster som inte redan är kopplade, beroende på synkroniseringsriktningen och reglerna, kan synkroniseringjobben skapa och koppla nya poster i målsystemet.
 
@@ -25,7 +25,7 @@ Det finns flera synkroniseringsprojekt som är tillgängliga förinstallerade. P
 
 Du kan visa jobb på sidan **jobbkötransaktioner**. Mer information finns i [Använda jobbköer för att schemalägga uppgifter](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries"></a>Poster för standardsynkroniseringjobbkön
+## Poster för standardsynkroniseringjobbkön
 
 I följande tabell beskrivs standardsynkroniseringjobben för [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -37,7 +37,7 @@ I följande tabell beskrivs standardsynkroniseringjobben för [!INCLUDE[cds_long
 | LEVERANTÖR – Common Data Service-synkroniseringsjobb | Synkroniserar [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-konton med [!INCLUDE[prod_short](includes/prod_short.md)]-kunder. | Dubbelriktad | LEVERANTÖR | 30 | 720<br> (12 tim) |
 | SÄLJARE – Common Data Service synkroniseringsjobb | Synkroniserar [!INCLUDE[prod_short](includes/prod_short.md)]-säljare med [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-användare. | Från [!INCLUDE[cds_long_md](includes/cds_long_md.md)] till [!INCLUDE[prod_short](includes/prod_short.md)] | SÄLJARE | 30 | 1440<br> (24 tim) |
 
-## <a name="synchronization-process"></a>Synkroniseringsprocess
+## Synkroniseringsprocess
 
 Varje köpost för synkroniseringsjobb använder en specifik integreringsregistermappning som anger vilka [!INCLUDE[prod_short](includes/prod_short.md)]- och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabeller som ska synkroniseras. Registermappningarna innehåller också vissa inställningar som styr vilka poster i [!INCLUDE[prod_short](includes/prod_short.md)]- och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabellerna som ska synkroniseras.  
 
@@ -58,7 +58,7 @@ För att synkronisera data måste [!INCLUDE[cds_long_md](includes/cds_long_md.md
 
 - Med dubbelriktad synkronisering synkroniserar jobbet från [!INCLUDE[prod_short](includes/prod_short.md)] till [!INCLUDE[cds_long_md](includes/cds_long_md.md)] och sedan från [!INCLUDE[cds_long_md](includes/cds_long_md.md)] till [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="about-inactivity-timeouts"></a>Om timeout för inaktivitet
+## Om timeout för inaktivitet
 
 Vissa jobbkötransaktioner, till exempel sådana som schemalägger synkronisering mellan [!INCLUDE[prod_short](includes/prod_short.md)] och [!INCLUDE[cds_long_md](includes/cds_long_md.md)] använder fältet **timeout för inaktivitet** på sidan **Jobbkötransaktion** för att förhindra att jobbkötransaktionen körs i onödan.  
 
@@ -71,7 +71,7 @@ Till exempel letar jobbkötransaktionen VALUTA som standard synkroniserar valuto
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] aktiverar automatiskt jobbkötransaktioner som är spärrade när ändringar sker i [!INCLUDE[prod_short](includes/prod_short.md)]. Ändringar i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] kommer inte att aktivera jobbkötransaktioner.
 
-## <a name="to-view-the-synchronization-job-log"></a>Så här visar du synkroniseringsjobbloggen
+## Så här visar du synkroniseringsjobbloggen
 
 1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **Synkroniseringslogg för integrationen** och välj sedan relaterad länk.
 2. Om ett eller flera fel inträffade för ett synkroniseringsjobb visas antalet fel i kolumnen **Misslyckades**. Välj antalet om du vill visa felen för jobbet.  
@@ -79,16 +79,16 @@ Till exempel letar jobbkötransaktionen VALUTA som standard synkroniserar valuto
     > [!TIP]  
     > Du kan visa alla synkroniseringsjobbfel genom att öppna synkroniseringsjobbfelloggen direkt.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Om du vill visa synkroniseringsjobbloggen från registermappningarna
+## Om du vill visa synkroniseringsjobbloggen från registermappningarna
 
 1. Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **Registermappning för integrationen** och välj sedan relaterad länk.
 2. På sidan **Registermappningar för integrering** markerar du en post och väljer **Logg över synk.jobb för integrering**.  
 
-## <a name="to-view-the-synchronization-error-log"></a>Så här visar du synkroniseringsfelloggen
+## Så här visar du synkroniseringsfelloggen
 
 - Välj ikonen :::image type="icon" source="media/ui-search/search_small.png" border="false":::, ange **Synkroniseringsfel i integrationen** och välj sedan relaterad länk.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Synkroniserar data i Business Central och [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Synkronisera manuellt registermappning](admin-manual-synchronization-of-table-mappings.md)  

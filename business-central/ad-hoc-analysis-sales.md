@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-sales-data"></a>Ad hoc-analys av försäljningsdata
+# Ad hoc-analys av försäljningsdata
 
 Den här artikeln förklarar hur du använder funktionen **Dataanalys** för att analysera försäljningsdata direkt från listsidor och frågor. Du behöver inte köra en rapport eller växla till ett annat program, till exempel Excel. Funktionen ger ett interaktivt och mångsidigt sätt att beräkna, sammanfatta och undersöka data. I stället för att köra rapporter med alternativ och filter kan du lägga till flera flikar som representerar olika uppgifter eller vyer för informationen. Några exempel är "Mina kunder" eller "Försäljningsstatistik" eller någon annan vy du kan tänka dig. Mer information om hur du använder funktionen **Dataanalys** finns i [Analysera lista och frågedata med analysläge](analysis-mode.md).
 
@@ -25,7 +25,7 @@ Använd följande listsidor för ad hoc-analys av försäljningsprocesser:
 - Bokförda försäljningsfakturor
 - Försäljningsreturorder
 
-## <a name="sales-ad-hoc-analysis-scenarios"></a>Ad hoc-analysscenarier för försäljning
+## Ad hoc-analysscenarier för försäljning
 
 Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
@@ -41,7 +41,7 @@ Följande avsnitt innehåller exempel på försäljningsscenarier i [!INCLUDE [p
 | [Försäljning (Kundförsäljning i volym)](#example-sales-customer-sales-by-volume) | Få en överblick över kunder som har köpt mest eller som är skyldiga mest. | [Kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25) | **Kundnamn**, **Verifikationsnr**, **Belopp** och **Återstående belopp**. |
 | [Finans (Kundfordringar)](#example-finance-accounts-receivables) | Se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas. | [Kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25) | **Kundnamn**, **Förfallodatum** och **Återstående belopp**. |
 
-## <a name="example-sales-expected-sales-volume"></a>Exempel: Försäljning (förväntad försäljningsvolym)
+## Exempel: Försäljning (förväntad försäljningsvolym)
 
 Så här analyserar du förväntad försäljningsvolym och försäljningsbelopp för ej levererade order för varje kund per år eller månad:
 
@@ -54,7 +54,7 @@ Så här analyserar du förväntad försäljningsvolym och försäljningsbelopp 
 1. Om du vill göra analysen för ett visst år eller kvartal använder du ett filter på menyn **Ytterligare filter**. Menyn finns till höger på sidan, precis under menyn **Kolumner**.
 1. Byt namn på analysfliken till **Förväntad försäljningsvolym** eller något som beskriver den här analysen för dig.
 
-## <a name="example-sales-customer-sales-by-volume"></a>Exempel: Försäljning (Kundförsäljning i volym)
+## Exempel: Försäljning (Kundförsäljning i volym)
 
 För att producera en överblick över kunder som har köpt mest eller som är skyldiga mest, följ dessa stegen:
 
@@ -69,7 +69,7 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Exempel på hur du gör dataanalyser på sidan Redovisningstransaktioner." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
-## <a name="example-finance-accounts-receivables"></a>Exempel: Finans (Kundfordringar)
+## Exempel: Finans (Kundfordringar)
 
 För att se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas gör du följande steg:
 
@@ -81,7 +81,7 @@ För att se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsinterv
 1. Om du vill göra analysen för ett visst år eller kvartal använder du ett filter på menyn **Ytterligare filter**. Menyn finns till höger på sidan, precis under menyn **Kolumner**.
 1. Byt namn på analysfliken till **Ålderskonton per månad** eller något som beskriver den här analysen för dig.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-sales"></a>Underlag för ad hoc-analys av försäljning
+## Underlag för ad hoc-analys av försäljning
 
 När du har angett information om en försäljningsorder och lagt till alla försäljningsorderrader kan du bokföra ordern. Bokföring skapas en leverans och en faktura. [!INCLUDE [prod_short](includes/prod_short.md)] uppdaterar kundens konto, huvudbok och artikeltransaktioner:
 
@@ -90,7 +90,7 @@ När du har angett information om en försäljningsorder och lagt till alla för
 
 Om du vill veta mer om att lägga upp försäljningar går [Bokföra försäljning](ui-post-sales.md).
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Bokföra försäljning](ui-post-sales.md)  
 [Analysera listdata och frågedata med analysläge](analysis-mode.md)  
