@@ -22,7 +22,7 @@ Använd följande listsidor för att börja göra ad hoc-analys av ekonomiska pr
 - [Kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25)
 - [Leverantörsreskontratransaktioner](https://businesscentral.dynamics.com/?page=29)
 
-## Ad hoc-analysscenarier för ekonomi
+## Ad hoc-analysscenarier inom finans
 
 Använd funktionen **dataanalys** för snabb faktakontroll och ad hoc-analys:
 
@@ -34,12 +34,13 @@ Följande avsnitt innehåller exempel på ekonomiscenarier i [!INCLUDE [prod_sho
 
 | Yta | Till... | Öppna sidan i analysläge | Använda dessa fält |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finans (Kundfordringar)](#example-finance-accounts-receivables) | Se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas. | [Kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25) | **Kundnamn**, **Förfallodatum** och **Återstående belopp** |
+|[Exempel: Ekonomi (kundreskontra)](#example-finance-accounts-receivable) | Se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas. | [Kundreskontratransaktioner](https://businesscentral.dynamics.com/?page=25) | **Kundnamn**, **Förfallodatum** och **Återstående belopp** |
 | [Ekonomi (Leverantörsskulder)](#example-finance-accounts-payable) | Se vad du är skyldig dina kunder, kanske uppdelat i tidsintervall för när belopp ska betalas. | [Leverantörsreskontratransaktioner](https://businesscentral.dynamics.com/?page=29) | **Leverantörsnamn**, **Dokumenttyp**, **Verifikationsnr.**, **Förfallodatum år**, **Förfallodatum månad** och **Återstående belopp**. |
+| [Ekonomi (Försäljningsfakturor per redovisningskonto)](#example-finance-sales-invoices-by-gl-account) | Se hur försäljningsfakturorna fördelas på redovisningskonton från kontoplanen, till exempel uppdelat i tidsintervall för när beloppen bokfördes. | [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) | **Redovisningskontonamn**, **Ursprungskod**, **Redovisningskontonamn**, **Redovisningskontonr**, **Debetbelopp**, **Kreditbelopp**, **Bokföringsdatum År**, **Bokföringsdatumkvartal** och **Bokföringsdatummånad** |
 | [Finans (resultaträkning)](#example-finance-income-statement) | Se din inkomst över inkomstkontona från kontoplanen, till exempel uppdelad i tidsintervall för när beloppen bokfördes. | [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) | **Redovisningskontonr.**, **Bokföringsdatum** och **Belopp**. |
 | [Finans (totala tillgångar)](#example-finance-total-assets) | Se dina tillgångar över tillgångskontona från kontoplanen, till exempel uppdelad i tidsintervall för när beloppen bokfördes. | [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) | **Redovisningskontonr.**, **Bokföringsdatum** och **Belopp**. |
 
-### Exempel: Finans (Kundfordringar)
+### Exempel: Ekonomi (kundreskontra)
 
 För att se vad dina kunder är skyldiga dig, till exempel uppdelat i tidsintervall för när belopp ska betalas gör du följande steg:
 
@@ -67,12 +68,32 @@ Följande bild visar resultatet av de här stegen.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Exempel på hur du gör dataanalyser på sidan Redovisningstransaktioner." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+### Exempel: Ekonomi (Försäljningsfakturor per redovisningskonto)
+
+Så här visar du hur försäljningsfakturorna fördelas över redovisningskonton från kontoplanen, till exempel uppdelade i tidsintervall för när beloppen bokfördes:
+
+1. Öppna sidan [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) .
+1. Lägg till fälten **Redovisningskontonamn** och **Källkod** genom att anpassa sidan. På menyn **Inställningar** väljer du **Anpassa**.
+1. Avsluta anpassningsläget.
+1. Välj :::image type="content" source="media/analysis-mode-icon.png" alt-text="Öppna analysläge."::: för att aktivera analysläget.
+1.  **På menyn Analysfilter anger du ett filter i fältet** Ursprungskod **till** **FÖRSÄLJNING**. Om du har anpassningar som lägger till andra värden kan du lägga till dem också.
+1. På menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet**).
+1. Aktivera växlingsknappen **Pivot-läget** (finns direkt ovanför **Sökfältet** till höger).
+1. Dra **Redovisningskontonamn** och **Redovisningskontonr.**  **till området Radgrupper** .
+1. Dra fälten **Debetbelopp** och **Kreditbelopp** till **området Värden** .
+1. Dra fälten **Bokföringsdatum, År**, **Bokföringsdatum, Kvartal** och **Bokföringsdatummånad** till **området Kolumnetiketter** .
+1. Byt namn på analysfliken till **Fakturauppdelning per konto** eller något som beskriver den här analysen.
+
+Följande bild visar resultatet av de här stegen.
+
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Exempel på hur du gör dataanalyser på sidan Redovisningstransaktioner (för att förstå försäljningsbokföringar)." lightbox="media/data-analysis-gl-entries-invoices.png":::
+
 ### Exempel: Finans (resultaträkning)
 
 För att se din inkomst över inkomstkontona från kontoplanen uppdelad i tidsintervall för när beloppen bokfördes gör du följande:
 
 1. Öppna listan [Redovisningstransaktioner](https://businesscentral.dynamics.com/?page=20) och välj :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivera analysläge."::: för att aktivera analysläget.
-1. Gå till menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet**).
+1. Gå till menyn **Kolumner** och ta bort alla kolumner (markera rutan bredvid **sökfältet** till höger).
 1. Aktivera växlingsknappen **Pivot-läget** (finns direkt ovanför **Sökfältet** till höger).
 1. Dra fältet **Redovisningskontonr** till området **Radgrupper** och dra **Belopp** till området **Värden**.
 1. Dra **Bokföringsdatum månad** till området **Kolumnetiketter**.
@@ -113,7 +134,7 @@ Mer information finns i följande artiklar:
 [Analysera listdata och frågedata med analysläge](analysis-mode.md)  
 [Översikt över ekonomisk analys](bi.md)  
 [Översikt över analyser, business intelligence och rapportering](reports-bi-reporting.md)  
-[Översikt över ekonomi](finance.md)   
+[Översikt över ekonomi](finance.md)  
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

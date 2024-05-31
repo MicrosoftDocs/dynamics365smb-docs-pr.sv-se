@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Avskrivningsmetoder](fa-depreciation-methods.md)
 ### [Hantera budgetar och anläggningstillgångar](fa-how-manage-budgets.md)
 ### [Anskaffa anläggningstillgångar](fa-how-acquire.md)
+### [Skriva av eller amortera anläggningstillgångar](fa-how-depreciate-amortize.md)
 ### [Underhålla anläggningstillgångar](fa-how-maintain.md)
 ### [Försäkra anläggningstillgångar](fa-how-insure.md)
 ### [Överföra, dela eller kombinera anläggningstillgångar](fa-how-trans-split-combine.md)
 ### [Omvärdera anläggningstillgångar](fa-how-revalue.md)
-### [Skriva av eller amortera anläggningstillgångar](fa-how-depreciate-amortize.md)
 ### [Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md)
 ### [Felsöka transaktioner för anläggningstillgångar](fa-troubleshooting-fa-ledger-entries.md)
 

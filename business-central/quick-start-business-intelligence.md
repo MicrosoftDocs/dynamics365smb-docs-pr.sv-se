@@ -1,48 +1,47 @@
 ---
-title: Business Intelligence snabbstart
+title: Snabbstart för Business Intelligence
 description: Lär dig hur Business Central hjälper dig att transformera företagsdata till insikter med Business Intelligence-rapporter och instrumentpaneler.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
-ms.date: 08/17/2022
-ms.author: bholtorf
+ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="business-intelligence-quick-start"></a>Business Intelligence snabbstart
+# Snabbstart för Business Intelligence
 
 Att samla in och analysera de ständigt ökande data mängderna på ett praktiskt sätt är en värdefull del av att göra affärer med dessa dagar. [!INCLUDE[prod_short](includes/prod_short.md)] innehåller många Business Intelligence-verktyg (BI)&mdash;som både är inbyggda och integrerade med andra tjänster&mdash;för att hjälpa företaget i beslutsarbetet.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a>Få insikter om viktiga punkter som intresserar dig
+Olika roller i organisationer har ofta föredragna sätt att använda och analysera data som återspeglar den nivå av dataaggregering de behöver.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] innehåller inbyggda diagram som kan visas i **insikter** delen på startsidan, som täcker *inkomst och utgift*, *kassaflöde*, *försäljningstrender* och andra rapporter. Du hittar ytterligare nyckeltal (KPI:er) på sidan för **Intelligenta molninsikter**, som visar information om åtgärder från ekonomi, lager, försäljning och inköp:
+:::image type="content" source="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg" alt-text="Illustration av hur olika profiler har olika analysbehov." lightbox="/dynamics365/business-central/dev-itpro/developer/media/analytics-personas-scenarios.svg":::
 
-* Välj den ![Glödlampa som öppnar funktionen Berätta 1.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Intelligenta molninsikter** och väljer sedan relaterad länk.
+[!INCLUDE[prod_short](includes/prod_short.md)] har flera funktioner som hjälper dig att analysera dina affärsdata:
 
-Du kan välja tillgängliga datakort och insikter för att öppna den relaterade redovisningssidan. På sidan **Intelligenta molninsikter** används också en anslutning med befintliga Power BI och Azure Machine Learning-abonnemang för att visa analys- och prognosinstrumentpaneler.
+- Ekonomiska rapporter
+- KPI:er och instrumentpaneler
+- Ad hoc-analys
+- Rapporter
 
-## <a name="set-up-power-bi-integration"></a>Konfigurera Power BI-integrering
+Om du vill veta mer om analyser öppnar du [Analytics översikt](reports-bi-reporting.md).
 
-Du kan ansluta [!INCLUDE[prod_short](includes/prod_short.md)] med Power BI för att skapa inträngande rapporter och kraftfulla instrumentpaneler. Power BI-integrering innehåller många alternativ för att ge insikter som bygger på ditt företagsdata, inklusive en mängd olika visuella, filtrerings-och visningsanpassningar.
+## Analys efter funktionsområde
 
-1. Gå till startsidan och välj länken **Komma igång med Power BI**.
-2. Välj **Nästa**.
-3. Välj åtgärden **Gå till Power BI startsidan** logga in med ditt Power BI-konto eller starta en utvärdering med din e-postadress för arbetet.
-4. Välj nästa på sidan **Konfigurera Power BI rapporter**, välj **Nästa**.
-5. Gå till nästa skärm och välj **Nästa** om du vill ladda upp en demonstrationsrapport till Power BI. Välj sedan **Slutför**.
+Följande tabell innehåller länkar till artiklar som beskriver hur du arbetar med analys inom specifika funktionsområden [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Rapport överföringen tar några minuter, men du kan återuppta arbetet med [!INCLUDE[prod_short](includes/prod_short.md)] att arbeta under överföringen. När du har laddat upp kan du välja åtgärden **Markera rapporter** i **Power BI rapporter** delen på startsidan för att visa tillgängliga instrumentpaneler.
+| Om du arbetar med... | Gå till |
+| --- | --- |
+| Ekonomi | [Ekonomisk analys](bi.md) |
+| FÖRS | [Försäljningsanalys](sales-analytics-overview.md) |
+| Inköp | [Inköpsanalys](purchasing-analytics-overview.md) |
+| Hantering av anläggningstillgångar | [Analys av anläggningstillgångar](fa-analytics-overview.md) |
 
-Power BI-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)] innehåller en exempel instrumentpanel för Cronus demonstrationsföretaget. Du kan enkelt installera mer färdiga instrumentpaneler och dataset-anslutningar genom att söka i **Appar** avsnittet på Power BI webbplatsen. Där kan du se tillgängliga appar för [!INCLUDE[prod_short](includes/prod_short.md)] att integrera och visa data från ekonomi, försäljning och andra områden. Lär dig mer om Power BI-funktionerna i denna [Business Central och Power BI](admin-powerbi.md) artikel och se hur du skapar egna instrument paneler när [Komma igång med Power BI-tjänst](/power-bi/fundamentals/service-get-started).
+## Se även
 
-Du kan också skapa visuella rapporter som bygger på [!INCLUDE[prod_short](includes/prod_short.md)] med hjälp av **Microsoft Excel** dokumenttyp i en rapport. Mer information finns i [köra och skriva ut rapporter](ui-work-report.md).
-
-## <a name="see-also"></a>Se även
-
-[Business Analysis och Financial Reporting](bi.md)  
+[Översikt över analyser](reports-bi-reporting.md)  
 [Snabbstart för Business Central](quick-start-business-central.md)  
-[Arbeta med Power BI-rapporter i Business Central](across-working-with-powerbi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

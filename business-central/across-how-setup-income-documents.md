@@ -9,13 +9,13 @@ ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-incoming-documents"></a>Ställa in inkommande dokument
+# Ställa in inkommande dokument
 
 Om du skapar redovisningsjournalrader från inkommande dokumentposter måste du ange vilken journalmall och batch som ska användas på sidan **Inställning av inkommande dokument**.
 
 När funktionen för **Inkommande dokument** är inställd, kan du använda olika funktioner för att förhandsgranska utgiftskvitton, hantera OCR-uppgifter och konvertera inkommande dokumentfiler, manuellt eller automatiskt, till relevanta dokument eller journalrader i . De externa filerna kan kopplas till något processteg, inklusive till bokförda dokument och till resulterande leverantörs-, kund- och redovisningstransaktioner. Mer information finns i [Så här skapar du inkommande dokumentposter](across-how-create-income-document-records.md).
 
-## <a name="to-set-up-the-incoming-documents-feature"></a>Så här konfigurerar du funktionen för inkommande dokument
+## Så här konfigurerar du funktionen för inkommande dokument
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Inkommande dokumentkonfiguration** och väljer sedan relaterad länk.
 2. Fyll i fälten om det behövs. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -24,13 +24,13 @@ Som en del av inställningen måste du bestämma om du vill kräva godkännande 
 
 Slutligen, om du använder en OCR-tjänst för att konvertera PDF- eller bildfiler som representerar inkommande dokument, [måste du installera det](#to-set-up-an-ocr-service). Annars kan du hoppa över avsnittet.
 
-## <a name="to-set-up-approvers-of-incoming-document-records"></a>Så här konfigurerar du godkännare för inkommande dokument
+## Så här konfigurerar du godkännare för inkommande dokument
 
 Om du inte vill att användare ska skapa fakturor eller redovisningsjournalrader från inkommande dokumentposter om inte dokumenten har godkänts först, upprätta en godkännandeprocess för de inkommande dokumenten. Godkännare för inkommande dokument måste skapas som användare av arbetsflöde för godkännande.
 
 Innan du kan skapa arbetsflöden som innehåller godkännandesteg, måste du skapa arbetsflödeanvändare som är inblandade i godkännandeprocessen. På sidan **Användarinställningar för godkännande** anger du även beloppsgränser för vissa typer av förfrågningar och definierar ersättande godkännare som godkännandebegäran kan delegeras till när den ursprungliga godkännaren är frånvarande. Mer information finns i [Konfigurera godkännandeanvändare](across-how-to-set-up-approval-users.md).
 
-## <a name="to-set-up-an-ocr-service"></a>Så här konfigurerar du en OCR-tjänst
+## Så här konfigurerar du en OCR-tjänst
 
 Om du vill aktivera PDF-och bildfiler i elektroniska dokument som du kan omvandla till fakturor, kredit notor eller journal rader, ställer du in OCR-funktionen. Du kan också skapa transaktioner manuellt för att visa de externa dokumenten.
 
@@ -42,7 +42,7 @@ Om du vill aktivera PDF-och bildfiler i elektroniska dokument som du kan omvandl
 
 Mer information finns i [Använda OCR för att omvandla PDF- och bildfiler till elektroniska dokument](across-how-use-ocr-pdf-images-files.md).  
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Inkommande dokument](across-income-documents.md)  
 [Inköp](purchasing-manage-purchasing.md)  

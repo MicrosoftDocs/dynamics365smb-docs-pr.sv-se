@@ -8,17 +8,17 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Ställ in och hantera en legotillverkningsoperation
+# Ställ in och hantera en legotillverkningsoperation
 
 I den här artikeln tar vi dig genom stegen för att använda Contoso Coffees demodata i legotillverkning.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du arbetar med produktionsplaneraren på Contoso Coffee. På grund av kapacitetsbegränsningarna planerar du att använda en underleverantör för att producera artikeln **SP-SCM1009, Airpot**.
 
 Här skapar du en ny släppt produktionsorder för 12 enheter av artikeln SP-SCM1009, Airpot, med routing-SP-SCM1009-SUB-2. Använd arbetsbladet för underleverantörer för att generera en inköpsorder för produktionen och avsluta sedan operationen genom att ta emot och fakturera inköpsordern.
 
-## <a name="steps"></a>Steg
+## Steg
 
 1. Skapa den nya släppta produktionsordern för 12 enheter av artikeln SP-SCM1009, Airpot.
 
@@ -45,7 +45,7 @@ Här skapar du en ny släppt produktionsorder för 12 enheter av artikeln SP-SCM
 
 3. Använd arbetsbladet för underleverantörer för att generera en inköpsorder för underleverantörsoperationen på produktionsordern som du skapade i steg 2.  
 
-    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Legotillverkningsförslag** och väljer sedan relaterad länk.  
+    1. Välj den ![Glödlampa som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Legotillverkningsförslag** och väljer sedan relaterad länk.  
 
     2. Välj åtgärden **Beräkna kalkylark**.
 
@@ -59,7 +59,7 @@ Här skapar du en ny släppt produktionsorder för 12 enheter av artikeln SP-SCM
 
 4. Ta emot och fakturera inköpsordern.  
 
-    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
+    1. Välj ![glödlampan som öppnar funktionen Berätta.](../../media/ui-search/search_small.png "Berätta vad du vill göra") anger du **inköpsorder** och väljer sedan relaterad länk.  
 
     2. I listan **inköpsorder** söker du upp inköps ordern från leverantör 82000 underleverantör.
 
@@ -73,6 +73,6 @@ Här skapar du en ny släppt produktionsorder för 12 enheter av artikeln SP-SCM
 
 Utflödet från artikel SP-SCM1009 Airpot är nu registrerat.
 
-## <a name="see-also"></a>Se även
+## Se även
 
 [Introduktion till demonstrationsdata för Contoso Coffee](../contoso-coffee-intro.md)  

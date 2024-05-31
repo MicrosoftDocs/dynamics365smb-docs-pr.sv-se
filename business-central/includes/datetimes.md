@@ -19,7 +19,7 @@ Listan nedan innehåller de olika sätt som du kan ange datum och tid på och en
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|innevarande år-innevarande månad-11 12:00:00|
-|1112 12|innevarande år-12-11 12:00:00|
+|1112 12|11-12-innevarande år 12:00:00|
 |d eller dagens datum|dagens datum 00:00:00|
 |d tid|dagens datum aktuell tid|
 |d 10:30|dagens datum 10:30:00|

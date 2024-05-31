@@ -14,7 +14,33 @@ ms.custom: bap-template
 
 # Hantera anläggningstillgångar
 
-Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och hjälper till att säkerställa att deras avskrivning är korrekt. Detta låter dig även hålla reda på dina underhållskostnader, hantera försäkringsbrev, bokföra transaktioner för anläggningstillgångar samt skapa olika rapporter och statistik.
+Genom funktionerna för anläggningstillgångar i [!INCLUDE[prod_short](includes/prod_short.md)] får du en översikt över anläggningstillgångarna och hjälper till att säkerställa att deras avskrivning är korrekt. Det hjälper dig också att spåra underhållskostnader, hantera försäkringar, bokföra transaktioner med anläggningstillgångar och generera olika rapporter och statistik.
+
+## Vad är en anläggningstillgång?
+
+Anläggningstillgångar skiljer sig från andra artiklar i distributionslagret. En anläggningstillgång, även känd som en kapitaltillgång, är en materiell fastighet, anläggning eller utrustning (PP&E) som du äger eller förvaltar med förväntan att den kommer att fortsätta att bidra till att generera inkomster. En tillgång är fast när det är en artikel som ditt företag inte kommer att konsumera, sälja eller konvertera till kontanter under nästa kalenderår. Anläggningstillgångar skiljer sig från omsättningstillgångar, som är kontanta eller planerade att omvandlas till kontanter inom de närmaste 12 månaderna. Anläggningstillgångar skiljer sig också från ditt lager, eftersom lager vanligtvis förbrukas inom kort tid.
+
+## Typer av anläggningstillgångar
+
+Företag investerar vanligtvis i några typer av anläggningstillgångar. Några exempel är:
+
+- Byggnader och anläggningar
+- Datorutrustning och programvara
+- Möbler och inventarier
+- Maskinell
+- Fordon
+
+## Förstå redovisning av anläggningstillgångar
+
+Redovisning av anläggningstillgångar innebär att du håller exakta finansiella register om dina kapitaltillgångar. Dessa poster innehåller information om de fem stadierna i en tillgångs livscykel. Efter det första inköpet omfattar livscykeln för varje anläggningstillgång minst tre av följande steg:
+
+- Anskaffning: Du lägger till en ny anläggningstillgång i dina böcker.
+- Avskrivning: Du registrerar en tillgångs periodiska värdeminskning, som du använder en avskrivningsmetod för att beräkna. Mer information finns i [Anl. avskrivningsberäkning](LocalFunctionality/India/FA_Depreciation.md).
+- Omvärdering: Du registrerar en bedömning av en tillgångs aktuella verkliga marknadsvärde. Mer information finns i [Omvärdera anläggningstillgångar](fa-how-revalue.md).
+- Nedskrivning: Du registrerar en värdeminskning på grund av händelser eller omständigheter.
+- Avyttring: Du säljer, skrotar eller använder ett annat sätt att göra dig av med en tillgång när den är uttjänt.
+
+Revisioner ingår också i de detaljerade kontrollerna av ditt företags bokföring efter att räkenskaperna för räkenskapsåret har avslutats. Oavsett om det är internt eller externt, revisioner är där du kan märka inkonsekvenser eller skillnader mellan dina anteckningar och det faktiska tillståndet för dina tillgångar. Revisioner främjar transparens i dina tillgångar och redovisning om du förlorar mer pengar än väntat.
 
 ## Videoöversikt
 
@@ -61,7 +87,7 @@ För varje anläggningstillgång måste du skapa ett kort som innehåller inform
 
 För att hålla reda på avskrivningar av anläggningstillgångar och andra ekonomiska transaktioner för anläggningstillgångar skapar du en eller flera avskrivningsregler för varje. Det finns några steg för att avskriva tillgångar:
 
-1. Kör en rapport för att beräkna periodisk avskrivning.
+1. Kör en rapport som beräknar periodisk avskrivning.
 1. Fyll i en journal med de resulterande transaktioner.
 1. Bokför journalen.
 
@@ -94,6 +120,15 @@ För varje tillgång kan du registrera underhållskostnader och nästa serviceda
 | bokföra avyttringstransaktioner, visa avyttringstransaktioner och bokföra delvisa avyttringar. |[Avyttra eller ställa av anläggningstillgångar](fa-how-dispose-retire.md) |
 | Visa avyttringstransaktioner | [Visa avyttringstransaktioner](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Visa planerade avyttringsvärden. | [Visa planerade avyttringsvärden](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
+
+## Tips för att förbättra redovisningen av anläggningstillgångar
+
+Det finns några saker du kan implementera i din redovisningsstrategi för anläggningstillgångar som kan hjälpa dig att maximera dina intäkter.
+
+- Upprätta ett tröskelvärde för versaler. När du köper en artikel, bestäm ett fast belopp för versaler. Beloppet hjälper till att säkerställa att dina redovisningsböcker är konsekventa och gör det lättare för dig och ditt team att upptäcka bokföringsfel.
+- Omvärdera utrustningens livscykel. Det är viktigt att korrekt uppskatta hur länge du kan använda anläggningstillgångarna för deras ursprungliga ändamål. Eftersom redovisning och avskrivning är beroende av korrekta livscykeluppskattningar bör du omvärdera vid behov eftersom det kan ändras med tiden.
+- Tagga dina tillgångar. Det är viktigt att spåra och tagga dina tillgångar under hela livscykeln eftersom många faktorer kan påverka deras värde. Taggning hjälper till att spåra dina varor genom stadierna av deras livscykel och hjälper till att förhindra stöld, eliminera felplacering och stödja ekonomisk statistik.
+- Automatisera insikter med bokföringsprogram för anläggningstillgångar. Automatisering av manuella aktiviteter för att spåra dina data med bokföringsprogram för anläggningstillgångar gör processer enklare att slutföra. Lösenordsskydd kan hjälpa till att ge åtkomst endast till de personer som behöver det och är utbildade för det.
 
 ## Se även
 
