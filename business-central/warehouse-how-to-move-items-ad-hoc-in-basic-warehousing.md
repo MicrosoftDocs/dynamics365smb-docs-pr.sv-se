@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# Flytta artiklar internt i grundläggande distributionslagerkonfigurationer
+# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Flytta artiklar internt i grundläggande distributionslagerkonfigurationer
 
 Du kanske vill flytta artiklar mellan lagerplatser utan behov från ett källdokument. Som en del av följande aktiviteter:
 
@@ -25,11 +25,11 @@ I distributionslagerkonfiguration där växlingsknappen **Lagerplats ska finnas*
 * Med sidan **Internförflyttning**.
 * På sidan **Artikelgrupperingsjournal**.  
 
-## Internförflyttningar
+## <a name="internal-movements"></a>Internförflyttningar
 
 På sidan **Internförflyttning** kan du ange ta och placera rader när det inte finns något behov från ett källdokument. Sidan Internförflyttning fungerar som ett kalkylblad där du kan organisera saker. Du kan inte hantera den faktiska transporten direkt från den. När en rad fylls i använder du åtgärden **Skapa lagerförflyttning** för att skicka raden till sidan **Lagerförflyttning**, där du bearbetar och registrerar transporten.
 
-### Så här flyttar du artiklar som en internförflyttning
+### <a name="to-move-items-as-an-internal-movement"></a>Så här flyttar du artiklar som en internförflyttning
 
 1. Välj ikonen med ![glödlampan som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **internförflyttning** och väljer sedan relaterad länk.  
 2. Välj åtgärden **Ny**. Kontrollera att fältet **Nr.** fälten på snabbfliken **Allmänt** fylls i.
@@ -59,7 +59,7 @@ På sidan **Internförflyttning** kan du ange ta och placera rader när det inte
 
 Du utför resten av oplanerade transporter på sidan **lagerförflyttning**, på samma sätt som du skulle för en transport baserat på källdokument.
 
-### När du vill registrera lagerförflyttning
+### <a name="to-record-the-inventory-movement"></a>När du vill registrera lagerförflyttning
 
 1.  På sidan **lagerförflyttning** öppnar du dokumentet för att registrera transporten för.  
 2. I fältet **Lagerplatskod** på transportraderna, är lagerplatsen där artiklarna måste plockas där det finns tillgängliga artiklar. Du kan ändra lagerplats vid behov.
@@ -72,7 +72,7 @@ Följande händer under bokföringsförfarandet:
 
 * Dist.lager transaktioner anger att antalet överförs från lagerplatserna ta till placera.
 
-## Så här flyttar du artiklar med artikelgrupperingsjournalen
+## <a name="to-move-items-with-the-item-reclassification-journal"></a>Så här flyttar du artiklar med artikelgrupperingsjournalen
 
 Istället för att använda transportdokument kan du registrera transport genom att gruppera lagerställeskoder för artiklar. Läs mer på [Inventera, justera och gruppera lager med hjälp av journaler](inventory-how-count-adjust-reclassify.md).
 
@@ -89,7 +89,7 @@ Istället för att använda transportdokument kan du registrera transport genom 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Warehouse Management – Översikt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

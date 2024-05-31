@@ -10,7 +10,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Besök vårt videobibliotek
+# <a name="visit-our-video-library"></a>Besök vårt videobibliotek
 
 Du har hittat vår dokumentation. Men vissa människor föredrar att titta på innehåll i stället för att läsa det. Därför skapar vi korta, lättförståeliga videor. De flesta videor kompletterar användarhjälpen och vissa av dem kan visas enskilt.  
 
@@ -23,7 +23,7 @@ Du kan också visa våra ”så här”-videor och mycket annat innehåll på Yo
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Gör dig redo att göra affärer](ui-get-ready-business.md)  
 [Dynamics 365-kanal på YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

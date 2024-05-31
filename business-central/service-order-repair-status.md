@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ställ in status för serviceorder och reparationer
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Ställ in status för serviceorder och reparationer
 
 Du måste ställa in olika alternativ för reparationsstatus som anger hur reparationen och underhållet av serviceartiklarna på serviceorder framskrider. Du måste skapa åtminstone nio reparationsstatusalternativ som identifierar situationer eller åtgärder som vidtagits då serviceartiklar servas.  
 
@@ -19,7 +19,7 @@ När du ändrar en serviceartikels reparationsstatus på serviceordern uppdatera
 
 Innan du kan ställa in en reparationsstatus måste du ställa in statusprioriteringar för service.
 
-## Så här skapar du servicestatusprioriteter
+## <a name="to-set-up-service-status-priorities"></a>Så här skapar du servicestatusprioriteter
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Serviceorderstatus** och väljer sedan relaterad länk.  
 2. Välj den serviceorderstatus som du vill ange prioritet för.  
@@ -27,7 +27,7 @@ Innan du kan ställa in en reparationsstatus måste du ställa in statuspriorite
 
 Upprepa steg 2 och 3 tills du har angett en prioritet för vart och ett av de fyra statusalternativen: **Förestående**, **Pågående**, **Avslutad** och **Pausad**.  
 
-## Så här skapar du en reparationsstatus
+## <a name="to-set-up-a-repair-status"></a>Så här skapar du en reparationsstatus
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **reparationsstatus** och väljer sedan relaterad länk.
 2. Skapa en ny reparationsstatus.  
@@ -40,7 +40,7 @@ Upprepa steg 2 och 3 tills du har angett en prioritet för vart och ett av de fy
 
 Upprepa dessa stegen för respektive reparationsstatusalternativ som du vill skapa.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Serviceorderstatus och reparationsstatus](service-service-order-status-and-repair-status.md)  
 [Ställa in tjänstehantering](service-setup-service.md)  

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Fördela intäkter och kostnader till flera redovisningskonton
+# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Fördela intäkter och kostnader till flera redovisningskonton
 
 I den här artikeln beskrivs hur du använder fördelningskonton för att fördela belopp i försäljnings- och inköpsdokument samt i redovisningsjournalrader till olika redovisningskonton. Du kan fördela belopp genom fast eller variabel fördelning.  
 
@@ -26,7 +26,7 @@ I följande tabell beskrivs de fördelningsmetoder som du kan använda.
 |Åtgärdat     | När du vill dela upp utgifter på ett sätt som upprepas över en längre tidsperiod kan du använda en fast fördelning. Med en fast fördelning kan du definiera fördelningsdelningen. Uppdelningen ändras bara när du ändrar konfigurationen på sidan **Fördelningskonto**.        |
 |Olika     | Om du vill fördela intäkter eller utgifter baserat på värden som ändras över tid använder du variabelallokeringsmetoden. Med hjälp av variabla fördelningar kan du ange vilka källor som ska användas för att beräkna fördelningsprocenten. Den här metoden är till exempel användbar för att dela upp personalkostnader efter varierande personalantal på olika avdelningar. Ett annat exempel är fördelningen av hyreskostnaden baserat på produktionsgolvet, som kan variera per produktionslinje över tid. Variabla fördelningar använder en kombination av dimensioner och statistiska konton för att bestämma hur beloppen fördelas under en tidsperiod. Mer information om statistiska konton finns i [Analysera data med statistiska konton](bi-use-statistical-accounts.md). Om du vill lära dig mer om dimensioner går du till [Arbeta med dimensioner](finance-dimensions.md).        |
 
-## Använda en metod med fast andel eller procentsats för att fördela belopp
+## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Använda en metod med fast andel eller procentsats för att fördela belopp
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fördelningskonto** och välj sedan relaterad länk.  
 1. På sidan **Fördelningskonton** väljer du åtgärden **Ny**.
@@ -41,7 +41,7 @@ I följande tabell beskrivs de fördelningsmetoder som du kan använda.
    > Om du anger det faktiska belopp som ska fördelas för en fast fördelning i fältet **Andel** visar fältet **Procent** procentandelen av det totala beloppet.
 1. Upprepa den här processen för varje konto som ska inkluderas i fördelningen.
 
-## Använda en variabelmetod för att fördela belopp
+## <a name="use-a-variable-method-to-allocate-amounts"></a>Använda en variabelmetod för att fördela belopp
 
 1. Välj ikonen ![Glödlampa som öppnar funktionen Berätta](media/ui-search/search_small.png "Berätta vad du vill göra"), ange **Fördelningskonto** och välj sedan relaterad länk.  
 1. På sidan **Fördelningskonton** väljer du åtgärden **Ny**.
@@ -54,7 +54,7 @@ I följande tabell beskrivs de fördelningsmetoder som du kan använda.
 1. Valfritt: Om du vill filtrera efter specifika globala dimensionsvärden väljer du åtgärden **Filter för nedbrytningskontosaldo** och anger sedan filtervärdena.
 1. Tillval: Välj åtgärden **Dimensioner** och ange sedan vilka dimensioner som ska bokföras för raden.
 
-## Tilldela belopp i farten
+## <a name="allocate-amounts-on-the-fly"></a>Tilldela belopp i farten
 
 Du skapar allokeringskonton för att dela intäkter och kostnader för redovisningskonton och bankkonton. Automatisering av fördelningar kan spara tid. Om du däremot vill använda allokeringskonton, men inte vill skapa dem för varje redovisningskonto, kan du spara ännu mer tid.
 
@@ -62,14 +62,14 @@ Med alternativet Ärva från överordnat element kan du använda fördelningskon
 
 Ad hoc-tilldelningar är enkla att ställa in. Istället för att ange ett bank- eller redovisningskonto i fältet **Typ av målkonto** på sidan **Fördelningskonto** väljer du alternativet **Ärv från överordnat element**. Lämna fältet **Målkontonummer** tomt. När du väljer redovisningskonto på dokument- eller journalraden används det kontot för att fördela belopp.
 
-## Kontrollera att beloppen fördelas korrekt innan du bokför dem
+## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Kontrollera att beloppen fördelas korrekt innan du bokför dem
 
 Det finns några olika sätt att kontrollera att beloppen fördelas korrekt:
 
 * På sidan **Fördelningskonto** väljer du åtgärden **Testa fördelning**. Använd fältet **Belopp att fördela** för att testa olika belopp.
 * På sidan **Redovisningsjournaler** väljer du journalen och använder sedan åtgärden **Förhandsgranska bokföring**.
 
-## Justera fördelningen
+## <a name="adjust-the-distribution"></a>Justera fördelningen
 
 Om du hittar något i en fördelning som du vill ändra kan du justera fördelningen innan du bokför den.  
 
@@ -77,7 +77,7 @@ Om du hittar något i en fördelning som du vill ändra kan du justera fördelni
 1. Välj raden och välj sedan åtgärden **Omfördela kontofördelningar**.
 1. Gör justeringen på sidan **Ändra fördelningar**.
 
-## Bokför en fördelningstransaktion
+## <a name="post-an-allocation-transaction"></a>Bokför en fördelningstransaktion
 
 Följande steg beskriver hur du bokför en fördelningstransaktion från en redovisningsjournal. Stegen är desamma som för försäljnings- och inköpsdokument.
 
@@ -92,6 +92,6 @@ Följande steg beskriver hur du bokför en fördelningstransaktion från en redo
     1. I fältet **Fördelningskontonr.** väljer du det fördelningskonto som har konfigurerats för att använda alternativet Ärv från överordnat element. 
 1. Välj **Bokför**.
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med redovisningsjournaler](ui-work-general-journals.md)  

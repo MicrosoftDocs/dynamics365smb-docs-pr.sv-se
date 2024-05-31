@@ -10,7 +10,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Anpassa Business Central
+# <a name="customize-business-central"></a>Anpassa Business Central
 
 Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater får tillgång till det innehåll, funktioner och uppgifter som du verkligen behöver, på ett sätt som passar ert dagliga arbete bäst. De som ser ändringarna förlitar sig på vad du gör, enligt vad som beskrivs i denna tabell.
 
@@ -27,7 +27,7 @@ Det finns olika sätt att anpassa programmet så att du och dina arbetskamrater 
 > [!NOTE]
 > Alla funktionsbeskrivningar i användardokumentationen för [!INCLUDE[prod_short](includes/prod_short.md)] antar **Premium**-upplevelsen, vilket innebär beskrivningarna som omfattar hela gränssnittselement. Därför kan användare med **grundläggande** upplevelsen i vissa avsnitt läsa om funktionerna och delar av användargränssnittet som inte visas i deras användargränssnitt. Mer information finns i [ändra vilka funktioner som visas](ui-experiences.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Arbeta med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

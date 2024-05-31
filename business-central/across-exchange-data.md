@@ -9,7 +9,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Utbyta data
+# <a name="exchanging-data"></a>Utbyta data
 Du kan utbyta data mellan [!INCLUDE[prod_short](includes/prod_short.md)] och externa filer eller strömmar i gemensamma affärsuppgifter, till exempel för att skicka och ta emot elektroniska dokument och importera och exportera bankfiler.  
 
 Innan du kan skicka och ta emot elektroniska dokument eller importera och exportera bankfiler måste du konfigurera ramverket för datautbyte för att bearbeta datafilerna eller strömmarna. Du måste dessutom konfigurera relaterade områden, exempelvis de kunder som du skickar elektroniska fakturor till, samt AMC Banking 365 Fundamentals-tillägget om du distribuerar bankfilskonverteringar till en extern tjänsteleverantör. Mer information finns i [Konfigurera datautbyte](across-set-up-data-exchange.md).  
@@ -30,7 +30,7 @@ Innan du kan skicka och ta emot elektroniska dokument eller importera och export
 |Exportera data för Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)].|[Ställa in Intrastat-rapporter](finance-how-setup-report-intrastat.md)|
 |Visa vilka fält i [!INCLUDE[prod_short](includes/prod_short.md)] som mappas till filelement när du exporterar betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget.|[Fältmappning vid export av betalningsfiler med hjälp av AMC Banking 365 Fundamentals-tillägget](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## Se även  
+## <a name="see-also"></a>Se även
 [Konfigurera databyte](across-set-up-data-exchange.md)  
 [Utbyta data elektroniskt](across-data-exchange.md)  
 [Fakturaförsäljning](sales-how-invoice-sales.md)   

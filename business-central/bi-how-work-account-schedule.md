@@ -11,13 +11,13 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier
+# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Förbereda ekonomiska rapporter med ekonomiska data och kontokategorier
 
 Funktionen **Ekonomiska rapporter** ger dig insikter i ekonomiska data som visas på din kontoplan. Du kan ställa in ekonomiska rapporter till att analysera siffror för redovisningskonton och jämför redovisningstransaktioner med budgettransaktioner. Resultaten visas i diagram och rapporter i Rollcentret, till exempel diagram för kassaflöde och resultaträknings- och balansräkningsrapporter. Du öppnar dessa två rapporter, till exempel med åtgärden **Finansiella rapporter** på startsidorna för Business Manager och redovisning.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] innehåller exempel på ekonomiska rapporter som du kan använda direkt som mallar. Du kan också skapa egna rapporter för att ange vilka siffror som ska jämföras. Du kan till exempel skapa ekonomiska rapporter för att beräkna vinstmarginaler med dimensioner som avdelningar eller kundgrupper. Antalet ekonomiska rapporter du kan skapa är obegränsat och kräver ingen inblandning av en utvecklare.  
 
-## Förutsättningar för ekonomisk rapportering
+## <a name="prerequisites-for-financial-reporting"></a>Förutsättningar för ekonomisk rapportering
 
 Ställa in ekonomiska rapporter kräver en förståelse för kontoplanens struktur. Det finns tre nyckelbegrepp som du förmodligen måste vara uppmärksam på innan du utformar dina ekonomiska rapporter:
 
@@ -31,7 +31,7 @@ Genom att ställa in dimensioner kan du dela upp dina ekonomiska data på ett s�
 
 Om du vill visa redovisningstransaktioner som procentsatser av budgettransaktionerna måste du skapa redovisningsbudgetar. Läs mer i [Skapa redovisningsbudgetar](finance-how-create-budgets.md).
 
-## Ekonomiska rapporter
+## <a name="financial-reports"></a>Ekonomiska rapporter
 
 Ekonomiska rapporter strukturerar kontona i kontoplanen på ett sätt som gör det enklare att presentera data. Du kan skapa olika layouter för att definiera informationen som du vill hämta från kontoplanen. Ekonomiska rapporter är även en plats för beräkningar som inte kan göras direkt i kontoplanen. Du kan t. ex. skapa delsummor för grupper av konton och sedan ta med denna summa i andra summor. Ett annat exempel är att beräkna vinstmarginaler på dimensioner som avdelningar eller kundgrupper. Dessutom kan du filtrera redovisningstransaktionerna och budgettransaktioner, till exempel efter nettoförändring eller debetbelopp.
 
@@ -63,13 +63,13 @@ Du kan också använda formler för att jämföra två eller flera ekonomiska ra
 - Skapa så många ekonomiska rapporter som behövs, var och en med ett unikt namn.
 - Skapa olika rapportlayouter och skriva ut rapporterna med de aktuella siffrorna.
 
-## Utbildningsväg: Skapa ekonomiska rapporter i Microsoft Dynamics 365 Business Central
+## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Utbildningsväg: Skapa ekonomiska rapporter i Microsoft Dynamics 365 Business Central
 
 Vill du lära dig hur du skapar budgetar och sedan använder ekonomiska rapporter, dimensioner och rad- och kolumndefinitioner för att generera de ekonomiska rapporter som företag vanligtvis behöver?
 
 Börja med följande utbildningsväg [Skapa ekonomiska rapporter i Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central)
 
-## Skapa en ny ekonomisk rapport
+## <a name="create-a-new-financial-report"></a>Skapa en ny ekonomisk rapport
 
 Du använder ekonomiska rapporter för att analysera siffror för redovisningskonton eller för att jämföra redovisningstransaktioner med budgettransaktioner. Du kan till exempel visa redovisningstransaktioner som procentsatser av budgettransaktionerna.
 
@@ -91,25 +91,25 @@ De ekonomiska rapporterna i standardversionen av [!INCLUDE[prod_short](includes/
 > [!NOTE]
 > När du öppnar en finansiell rapport i läget Visa eller Redigera är filterrutan tillgänglig. Använd inte filterrutan för att ange filter för data i rapporten. Sådana filter kan ge felmeddelanden eller filtrera dem eventuellt inte. Använd i stället fälten på snabbflikarna **Alternativ** och **Dimensioner** för att skapa filter för rapporten.
 
-### Skapa eller redigera en raddefinition
+### <a name="create-or-edit-a-row-definition"></a>Skapa eller redigera en raddefinition
 
 Raddefinitioner i ekonomiska rapporter är en plats för beräkningar som inte kan göras direkt i kontoplanen. Du kan t. ex. skapa delsummor för grupper av konton och sedan ta med denna summa i andra summor. Du kan också beräkna mellanliggande steg som inte visas i slutrapporten.
 
 Mer information finns i [Raddefinitioner i ekonomisk rapportering](bi-row-definitions.md).
 
-### Skapa eller redigera en kolumndefinition
+### <a name="create-or-edit-a-column-definition"></a>Skapa eller redigera en kolumndefinition
 
 Använd kolumndefinitioner för att ange vilka kolumner som ska tas med i rapporten. Du kan t.ex. utforma en rapportlayout för att jämföra nettoförändringen för samma period innevarande och föregående år. Du kan ha upp till 15 kolumner i en kolumndefinition. Flera kolumner är till exempel praktiskt om du t.ex. visar budgetar i tolv månader med en kolumn som visar summan.
 
 Mer information finns i [Kolumndefinitioner i ekonomisk rapportering](bi-column-definitions.md).
 
-## Använda dimensioner i ekonomiska rapporter
+## <a name="using-dimensions-in-financial-reports"></a>Använda dimensioner i ekonomiska rapporter
 
 Inom ekonomisk analys är en dimension data som du lägger till en transaktion som en sorts markör. Dessa data används för att gruppera transaktioner med liknande egenskaper, till exempel kunder, regioner, produkter och säljare, och enkelt hämta dessa grupper för analys. Du kan använda dimensioner på transaktioner i journaler, dokument och budgetar.
 
 Varje dimension används för att beskriva analysens fokus. Så till exempel en tvådimensionell analys är försäljning per område. Genom att använda fler än två dimensioner när du skapar en transaktion kan du utföra en mer komplex analys. Ett exempel på en komplex analys är att utforska försäljning per försäljningskampanj per kundgrupp per område. Det ger dig större insikt i ditt företag, till exempel hur väl ditt företag fungerar, var det är eller inte blomstrar och var du bör allokera mer resurser. Den insikten hjälper dig att fatta mer välgrundade affärsbeslut. Om du vill lära dig mer går du till [Arbeta med dimensioner](finance-dimensions.md).
 
-## Ställa in ekonomiska rapporter med översikter
+## <a name="set-up-financial-reports-with-overviews"></a>Ställa in ekonomiska rapporter med översikter
 
 Du kan använda en ekonomisk rapport för att skapa en rapport där redovisningssiffror jämförs med budgetsiffror.
 
@@ -127,11 +127,11 @@ Du kan använda en ekonomisk rapport för att skapa en rapport där redovisnings
 
 Nu kan du kopiera och klistra in budgetutdraget i ett kalkylblad.  
 
-## Integrera ekonomiska rapporter med Excel
+## <a name="integrate-financial-reports-with-excel"></a>Integrera ekonomiska rapporter med Excel
 
 Du kan integrera en ekonomisk rapport med en Excel-arbetsboksmall, justera layouten efter behov och sedan uppdatera Excel-mallen med data från [!INCLUDE[prod_short](includes/prod_short.md)]. Den här integrationen gör det till exempel enklare att skapa månads- och årsbokslut i ett format som passar dig.
 
-### Konfigurera Excel-integrering för en ekonomisk rapport (skapa en Excel-mall)
+### <a name="set-up-excel-integration-for-a-financial-report-create-an-excel-template"></a>Konfigurera Excel-integrering för en ekonomisk rapport (skapa en Excel-mall)
 
 Om du vill konfigurera Excel-integrering för en ekonomisk rapport följer du dessa steg för att skapa en Excel-mall för en rapport.
 
@@ -147,7 +147,7 @@ Om du vill konfigurera Excel-integrering för en ekonomisk rapport följer du de
 1. Spara arbetsboken i OneDrive, eller på en liknande plats där filen säkerhetskopieras och versionshanteras.
 1. Stäng arbetsboken.
 
-### Köra en ekonomisk rapport med en Excel-mall
+### <a name="run-a-financial-report-with-an-excel-template"></a>Köra en ekonomisk rapport med en Excel-mall
 
 Så här kör du en ekonomisk rapport med en Excel-mall:
 
@@ -158,7 +158,7 @@ Så här kör du en ekonomisk rapport med en Excel-mall:
 1. På sidan **Namn/värde-sökning** väljer du kalkylbladet Data.
 1. [!INCLUDE[prod_short](includes/prod_short.md)] kör den ekonomiska rapporten och sammanfogar resulterande data med din Excel-mall.
 
-## Skriva ut och spara ekonomiska rapporter
+## <a name="print-and-save-financial-reports"></a>Skriva ut och spara ekonomiska rapporter
 
 Du kan skriva ut ekonomiska rapporter med hjälp av enhetens utskriftstjänster. [!INCLUDE[prod_short](includes/prod_short.md)] ger dig även möjlighet att spara rapporter som Excel-arbetsböcker, Word-arbetsböcker, PDF och XML-filer.
 
@@ -169,7 +169,7 @@ Du kan skriva ut ekonomiska rapporter med hjälp av enhetens utskriftstjänster.
     1. Alternativet **(Hanteras av webbläsaren)** anger att rapporten inte har tilldelats någon skrivare. I så fall hanterar webbläsaren utskriften och visar en standardupplevelse där du kan välja en lokal skrivare som är ansluten till enheten. **(Hanteras av webbläsaren)** är inte tillgängligt i [!INCLUDE[prod_short](includes/prod_short.md)] mobilappen eller appen för Teams.
 1. Välj åtgärden **Skriv ut**.
 
-### Schemalägga en ekonomisk rapport eller spara som ett PDF-, Word- eller Excel-dokument
+### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Schemalägga en ekonomisk rapport eller spara som ett PDF-, Word- eller Excel-dokument
 
 Du kan spara en ekonomisk rapport som en fil i olika format, till exempel PDF, XML, Word eller Excel. [!INCLUDE[prod_short](includes/prod_short.md)] kan även generera återkommande ekonomiska rapporter.
 
@@ -180,7 +180,7 @@ Du kan spara en ekonomisk rapport som en fil i olika format, till exempel PDF, X
 1. Fyll i fälten om du vill skapa en schemalagd eller återkommande ekonomisk rapport. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>För återkommande ekonomiska rapporter ställer du in fälten **Tidigast startdatum/-tid** och **Förfallodatum/-tid** på det första respektive sista datumet för att generera den ekonomiska rapporten. Välj också vilka dagar rapporten ska skapas genom att ställa in fältet **Datumformel för nästa körning** genom att följa formatet som förklaras i avsnittet [Använd datumformler](ui-enter-date-ranges.md#use-date-formulas).
 
 
-## Metodtips för att arbeta med definitioner av ekonomiska rapporter
+## <a name="best-practices-for-working-with-financial-report-definitions"></a>Metodtips för att arbeta med definitioner av ekonomiska rapporter
 
 Definitioner för ekonomiska rapporter versionshanteras inte. När du ändrar en rapportdefinition ersätts den gamla versionen när ändringen sparas i databasen. Följande lista innehåller några metodtips för hur du arbetar med definitioner av ekonomiska rapporter:
 
@@ -188,7 +188,7 @@ Definitioner för ekonomiska rapporter versionshanteras inte. När du ändrar en
 - Innan du ändrar en rapportdefinition bör du överväga att ta en kopia av den som säkerhetskopia, ifall ändringen inte fungerar som förväntat. Du kan antingen bara kopiera definitionen (ge den ett bra namn) eller exportera den. För mer information går du till [Importera eller exportera definitioner för ekonomiska rapporter](#import-or-export-financial-report-definitions).
 - Om du behöver en ny kopia av en definition som [!INCLUDE[prod_short](includes/prod_short.md)] tillhandahåller är ett enkelt sätt att skapa ett nytt företag som bara innehåller inställningsdata. Exportera sedan definitionen och importera den till det företag där definitionen behöver uppdateras.
 
-## Importera eller exportera ekonomiska rapportdefinitioner
+## <a name="import-or-export-financial-report-definitions"></a>Importera eller exportera ekonomiska rapportdefinitioner
 
 Du kan importera och exportera rapportdefinitioner som RapidStart-konfigurationspaket. Till exempel är konfigurationspaket användbara för att dela information med andra företag. Paketet skapas i en .rapidstart-fil, vilket komprimerar innehållet.
 
@@ -205,7 +205,7 @@ Mer information om hur du importerar eller exporterar rad- eller kolumndefinitio
 - [Importera eller exportera raddefinitioner för ekonomiska rapporter](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions), or
 - [Importera eller exportera kolumndefinitioner för ekonomiska rapporter](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Raddefinitioner i ekonomiska rapporter](bi-row-definitions.md)  
 [Kolumndefinitioner i ekonomiska rapporter](bi-column-definitions.md)  

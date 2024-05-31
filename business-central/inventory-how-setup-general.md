@@ -10,11 +10,11 @@ ms.date: 07/28/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ställa in allmän lagerinformation
+# <a name="set-up-general-inventory-information"></a>Ställa in allmän lagerinformation
 
 Du ställer in dina allmänna lagerinställningar på sidan **Lagerinställningar**.
 
-## Så här ställer du in allmän lagerinformation
+## <a name="to-set-up-general-inventory-information"></a>Så här ställer du in allmän lagerinformation
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **lagerinställning** och väljer sedan relaterad länk.
 2. På sidan **Lagerinställningar** fyller du i fälten efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Om du vill ange en inkommande lagerhanteringstid som ska tas med i orderlöftesb
 >
 > Du kan också justera kostnader manuellt med jämna mellanrum med batch-jobbet Justera kost.-artikeltrans. Du kan också inaktivera automatisk kostnadsbokföring eller ange fältet **Automatisk kostnadsjustering** som *Aldrig*. I båda fallen visas ett meddelande där du kan starta en assisterad konfigurationsguide som hjälper dig att schemalägga aktiviteter för jobbkön. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Lagerinställning](inventory-setup-inventory.md)  
 [Designdetaljer: Värderingsprinciper](design-details-costing-methods.md)  

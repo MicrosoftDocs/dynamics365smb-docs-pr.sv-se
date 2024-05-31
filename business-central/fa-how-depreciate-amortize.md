@@ -10,7 +10,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Så här skriver du av eller amorterar anläggningstillgångar
+# <a name="depreciate-or-amortize-fixed-assets"></a>Så här skriver du av eller amorterar anläggningstillgångar
 
 Avskrivning används för att fördela kostnaden för anläggningstillgångar, som exempelvis maskiner och inventarier, över den avskrivningsbara livslängden. För varje anläggningstillgång måste du ange hur den ska avskrivas.  
 
@@ -27,7 +27,7 @@ Du kan rätta felaktiga avskrivningstransaktioner med hjälp av batch-jobbet **R
 
 Indexering används för att anpassa värden till den allmänna prisnivån. Du kan använda batch-jobbet **Indexera anläggningstillgångar** om du vill omberäkna avskrivningsbeloppen.  
 
-## Så här beräknar du avskrivning automatiskt
+## <a name="to-calculate-depreciation-automatically"></a>Så här beräknar du avskrivning automatiskt
 
 En gång i månaden, eller när du vill, kan du köra batch-jobbet **Beräkna avskrivning**. Batch-jobbet ignorerar de anläggningstillgångar som har sålts, spärrats eller som använder den manuella avskrivningsmetoden.  
 
@@ -48,7 +48,7 @@ En gång i månaden, eller när du vill, kan du köra batch-jobbet **Beräkna av
 > Vi rekommenderar det första alternativet eftersom du kanske inte vill ändra användning av 30 dagar/månader för avskrivning. Mer information finns i [räkenskapsår 365 dagar fältavskrivning](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
 
 
-## Att bokföra en avskrivning manuellt från en redovisningsjournalen för anläggningstillgångar.
+## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Att bokföra en avskrivning manuellt från en redovisningsjournalen för anläggningstillgångar.
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta för mig vad du vill göra") anger du **Anl.tillg. redovisningsjournal** och väljer sedan relaterad länk.  
 2. Skapa en första journalrad och fyll i fälten efter behov.  
@@ -60,7 +60,7 @@ Fältet **bokföringsvärde** på sidan **Anläggningstillgångskort** uppdatera
 
 Om du har skapat fördelningsnycklar för anläggningstillgångar, som fördelar belopp på olika avdelningar eller projekt, kan beloppen fördelas under bokföring. Mer information finns i [Ställa in allmän information för anläggningstillgångar](fa-how-setup-general.md).  
 
-## Så här hanterar du utgående bokföringsvärde
+## <a name="to-manage-the-ending-book-value"></a>Så här hanterar du utgående bokföringsvärde
 
 I fältet **utgående bokföringsvärde** på sidan **Anl. avskrivningsregler** kan du ange det bokföringsvärde som du vill att anläggningstillgången ska ha i aktuell avskrivningsregel när den är helt avskriven. Du kan göra detta manuellt eller fylla i fältet **Standard utg. bokf.värde** på den relaterade sidan **avskrivningsregel**, som då används för att fylla i fältet automatiskt.
 
@@ -68,7 +68,7 @@ I fältet **utgående bokföringsvärde** på sidan **Anl. avskrivningsregler** 
 > Om den senaste avskrivningen innebär att fältet **Bokföringsvärde** på sidan **Anläggningstillgångskort** är noll, den senaste avskrivningen minskar automatiskt med detta belopp.<br /><br />
 > Är **bokföringsvärdet** större än noll efter den senaste avskrivningen, t. ex. på grund av avrundningsproblem eller att det finns ett befintligt återanskaffningsvärde, ignoreras fältet utgående **bokföringsvärde** på sidan **Anl. avskrivningsregler**. Mer information finns i [så här bokför du återanskaffningsvärdet tillsammans med anskaffningskostnaden](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
-## Så här beräknar du fördelningar i redovisningsjournaler för anläggningstillgångar
+## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Så här beräknar du fördelningar i redovisningsjournaler för anläggningstillgångar
 
 Om en anläggningstillgång används av flera avdelningar kan periodisk avskrivning automatiskt fördelas på avdelningarna utifrån en användardefinierad fördelningstabell.  
 
@@ -78,7 +78,7 @@ Om en anläggningstillgång används av flera avdelningar kan periodisk avskrivn
 4. Välj åtgärden **Infoga anl. motkonto**. En andra journalrad skapas för motkontot som ställs in för bokföring av fördelning.  
 5. Välj åtgärden **Bokför** om du vill bokföra journalen.  
 
-## Använd dubblettlistor för att förbereda att bokföra åtskilliga avskrivningsregler
+## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Använd dubblettlistor för att förbereda att bokföra åtskilliga avskrivningsregler
 
 När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan du kopiera raderna till en separat journal och bokföra dem enligt en annan avskrivningsregel. För mer information, se [Så här bokför du transaktioner enligt olika avskrivningsregler](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
@@ -88,7 +88,7 @@ När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan 
 > [!IMPORTANT]  
 >   Om du har markerat fältet **Använd dubblettlista** ska du inte använda nummerserien för journalen. Anledningen är att nummerserien för redovisningsjournalen för anläggningstillgångar gör inte nummerserien för anläggningstillgångsjournalen.  
 
-## Så här bokför du transaktioner enligt olika avskrivningsregler
+## <a name="to-post-entries-to-different-depreciation-books"></a>Så här bokför du transaktioner enligt olika avskrivningsregler
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **Anl.tillg. redovisningsjournal** och väljer sedan relaterad länk.  
 2. I journalen som du vill bokföra avskrivning med markerar du kryssrutan **Använd dubblettlista**.  
@@ -105,7 +105,7 @@ När du fyller i journalrader som ska bokföras enligt en avskrivningsregel kan 
 
 Du kan kopiera transaktioner från en avskrivningsregel till en annan med hjälp av batch-jobbet **Kopiera avskrivningsregel**. Batch-jobbet skapar journalrader i den journal som du har angett på sidan **Anl. journalinställningar** för den avskrivningsregel som du vill kopiera till. Mer information finns i följande procedur:  
 
-## Om du vill kopiera anläggningstillgångstransaktioner mellan avskrivningsregler
+## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Om du vill kopiera anläggningstillgångstransaktioner mellan avskrivningsregler
 
 1. Välj den ![Glödlampa som öppnar funktionen Berätta.](media/ui-search/search_small.png "Berätta vad du vill göra") anger du **avskrivningsregler** och väljer sedan relaterad länk.  
 2. Öppna relevant avskrivningsregelkort och välj sedan åtgärden **Kopiera avskrivningsregel**.  
@@ -114,7 +114,7 @@ Du kan kopiera transaktioner från en avskrivningsregel till en annan med hjälp
 
 De kopierade raderna skapas antingen i redovisningsjournalen för anläggningstillgångar eller i anläggningstillgångsjournalen, beroende på om avskrivningsregeln som du kopierar har integrering med redovisningen.  
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Anläggningstillgångar](fa-manage.md)  
 [Ställa in anläggningstillgångar](fa-setup.md)  

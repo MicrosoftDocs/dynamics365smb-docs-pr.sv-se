@@ -10,7 +10,7 @@ ms.date: 05/23/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Hitta relaterade transaktioner för dokument
+# <a name="finding-related-entries-for-documents"></a>Hitta relaterade transaktioner för dokument
 
 Lär dig hitta dokument och transaktioner som är relaterade till varandra baserat på gemensam information, t.ex.:
 
@@ -20,7 +20,7 @@ Lär dig hitta dokument och transaktioner som är relaterade till varandra baser
 
 Funktionen är användbar för att hitta redovisningstransaktionerna som har skapats som ett resultat av vissa transaktioner. När du söker efter dokumentnummer kan du skriva ut sammanfattningen i rapporten **Dokumenttransaktioner**.
 
-## Kom i gång
+## <a name="get-started"></a>Kom i gång
 
 Funktionen Sök transaktioner kan du komma åt på nästan vilken sida som helst genom att trycka på tangenterna <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>. Från sidor som specifikt visar bokförda dokument eller bokförda dokumentposter&mdash;för både listor och kort&mdash;kan du också öppna funktionen genom att välja åtgärden **Hitta transaktioner**.
 
@@ -30,7 +30,7 @@ På sidan **Hitta transaktioner** finns alla relaterade dokument och transaktion
 - I mitten-avsnittet visas relaterade dokument baserat på sökningen.
 - I den nedre delen visas information om källdokumentet som hittades vid sökning.
 
-## Söka efter transaktioner
+## <a name="search-for-entries"></a>Söka efter transaktioner
 
 Du kan söka efter transaktioner som bygger på information om antingen dokument, affärskontakt eller artikel. Välj ett av följande alternativ i det övre avsnittet, beroende på vilken typ av information du har:
 
@@ -45,7 +45,7 @@ När du har gjort ett val anger du relevant sökningsinformation i fälten läng
 > [!TIP]
 > Ett par exempel på hur du använder **Hitta transaktioner** finns i [Spåra artikel-Spårade artiklar](inventory-how-to-trace-item-tracked-items.md) och [Genomgång: Spåra serie-/partinummer](walkthrough-tracing-serial-lot-numbers.md).
 
-## Se även
+## <a name="see-also"></a>Se även
 
 [Spåra artiklar med artikelspårning](inventory-how-to-trace-item-tracked-items.md)  
 [Hitta bokförda dokument utan inkommande dokumentposter](across-how-find-posted-documents-without-income-document-records.md)  
